@@ -1,0 +1,31 @@
+# Spain AEMPS/CIMA Field Mapping Configuration
+
+country_code: "ES"
+language: "es"
+regulatory_agency: "AEMPS"
+
+data_source:
+  name: "CIMA - Centro de Información de Medicamentos"
+  url: "https://cima.aemps.es/cima/rest/medicamentos"
+  format: JSON
+  encoding: utf-8
+
+field_mapping:
+  license_id: "nregistro"
+  brand_name_local: "nombre"
+  brand_name_en: "principiosActivos"
+  ingredients: "principiosActivos"
+  indication: ""
+  dosage_form: "formaFarmaceutica"
+  manufacturer: "labtitular"
+  approval_date: "fechaAutorizacion"
+  status: "estado"
+
+withdrawn_statuses:
+  - "Revocado"
+  - "Suspendido"
+  - "Caducado"
+
+ingredient_separator: ","
+date_format: "%d/%m/%Y"
+encoding: "utf-8"
