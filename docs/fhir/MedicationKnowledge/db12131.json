@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db12131",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://estxgnn.yao.care/drugs",
+        "code": "db12131",
+        "display": "DB12131"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "ES",
+          "display": "Spain"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}
