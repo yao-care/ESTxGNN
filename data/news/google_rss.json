@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-12T11:24:31.700087+00:00",
+  "fetched_at": "2026-04-12T12:31:41.600321+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -51,16 +51,6 @@
       "source": {
         "name": "El Debate",
         "url": "https://www.eldebate.com"
-      }
-    },
-    {
-      "id": "77ac4ff7abd0",
-      "title": "Escasez de medicamentos en Europa: cómo está respondiendo la UE | Temas | Parlamento Europeo - European Parliament",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa2F5SllycVlQZmxTWGloeEMyOUdUZV81cXJyWkJkZWN3V2FOTk5QY19wODBNc19yMmExcmJtaWVERzBLazBQazE5R3E2dnBtSnNpWklpbTJ5VVBtQnFsRTFKOUxrQWI5UXExT2luTXZVdEVIZlhBSWZoTlhHWFAzcXY1SnRnVkhQSHA4am40QzVQOGFmclVXM1VVRjlHREJydXRrTEFPLVZpWkF4REFSTURyMkVFd1o3OFY3UUlUN00tUDJ0Zncw?oc=5",
-      "published": "2026-03-31T08:47:43+00:00",
-      "source": {
-        "name": "European Parliament",
-        "url": "https://www.europarl.europa.eu"
       }
     },
     {
@@ -284,13 +274,13 @@
       }
     },
     {
-      "id": "a44dd31852c7",
-      "title": "Nuevas simulaciones predicen la facilidad de inyectar medicamentos con anticuerpos - Diario de Salud",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWmpBNnVTUXhBUGo0dlIwQkZ0UEVPaHF3a1NVckJrSjF4Ul9Wam5GY2ljQUJ6VUFOTlR0SzZVZ1I2TXRWQlBiZ1gyQWgtbXNNbHd6bzNMZWItM2N0WmllUWtGX2tfQ05HRjNCc0xhUlVXNlFnV3ZjeWRDM1F4UUxFSFlhNFhjV3dPdmZNbnZpTzBpS3lScHJrb0FKTmlvb3BBb0tBQXVPLVBXRzdaY2N3R3E3M1BwVWZqYU51bWVEai1TSHlWblJIRjhqRjZZRG8?oc=5",
-      "published": "2026-04-11T19:37:00+00:00",
+      "id": "200fda511fcc",
+      "title": "Salud realizó en 2024 más de 650 inspecciones en toda la cadena del medicamento y productos sanitarios - CARM.es",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcy1pcnhfY2M5dVZ2blFtb25hQW9QUUd0ci1IRFFFNFJqM1U3YXBGSUlrMERYSmdLeERrYktIQWhKaG5DeE9XSzhreURvSGxYVmdPOXZ0ejN0MzlTT1lmVHpkSVo3c3JkeC1mRmpCcWZTNnM0ZmRWQjA0QzE5cXVRMTl3?oc=5",
+      "published": "2025-10-29T07:00:00+00:00",
       "source": {
-        "name": "Diario de Salud",
-        "url": "https://www.diariodesalud.com.do"
+        "name": "CARM.es",
+        "url": "https://www.carm.es"
       }
     },
     {
@@ -301,6 +291,16 @@
       "source": {
         "name": "aemps.gob.es",
         "url": "https://www.aemps.gob.es"
+      }
+    },
+    {
+      "id": "a44dd31852c7",
+      "title": "Nuevas simulaciones predicen la facilidad de inyectar medicamentos con anticuerpos - Diario de Salud",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWmpBNnVTUXhBUGo0dlIwQkZ0UEVPaHF3a1NVckJrSjF4Ul9Wam5GY2ljQUJ6VUFOTlR0SzZVZ1I2TXRWQlBiZ1gyQWgtbXNNbHd6bzNMZWItM2N0WmllUWtGX2tfQ05HRjNCc0xhUlVXNlFnV3ZjeWRDM1F4UUxFSFlhNFhjV3dPdmZNbnZpTzBpS3lScHJrb0FKTmlvb3BBb0tBQXVPLVBXRzdaY2N3R3E3M1BwVWZqYU51bWVEai1TSHlWblJIRjhqRjZZRG8?oc=5",
+      "published": "2026-04-11T19:37:00+00:00",
+      "source": {
+        "name": "Diario de Salud",
+        "url": "https://www.diariodesalud.com.do"
       }
     },
     {
@@ -334,16 +334,6 @@
       }
     },
     {
-      "id": "211581419b33",
-      "title": "Los medicamentos hemoderivados, una pieza estratégica para la salud y el sistema sanitario - Diariofarma",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZFc0ckpySno0YjlrcVoxVzlPNUx6UkdzdzNBUlRSRWpmY3J6VlRybzBjbkpqYVp5XzBLU0Q5WW4xeTNMa0ttSjVoaXRNMFZCdTdSa1FfbU9ZVi1kSmNfclo0RnpsUEZFZENrLW5UWGt2NUJaWGh2ZFA2eGhvVlAtTjA1clJqa3M4Rk1ENGVsTzduVzFMRVVKdzZoc3lpVk5wTFBrREtEWW1JbE5Gc094b1ZtWEpNbHNNb3BPN0xvZmVqUQ?oc=5",
-      "published": "2025-10-22T07:00:00+00:00",
-      "source": {
-        "name": "Diariofarma",
-        "url": "https://diariofarma.com"
-      }
-    },
-    {
       "id": "5451d1d452b2",
       "title": "Medicamentos esenciales - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
@@ -371,16 +361,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "6a0f6a675020",
-      "title": "Cruz Verde no renovará contrato con Sanitas para dispensación de medicamentos desde octubre de 2026 - Blu Radio",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSmZ4WkpPa2FZZWZCOU1scWZNcURYMWFZeU9uV2J0ek81c3B4TWhDTFltVUIxdE9peHZRU0FKa1ZadEtjYmVEb2VnNVdfYkxrU0J3ZnAwRUJCYzJ6cDJ3QkhoRmphelcyMkV2ZVBsQmxNY2RtOHI2cnBRbzQ0UXhMQXBIRkw5Q0NobzlWdldqNHNrcVg4RlRZOGF2R1k4MGVhczh5S2hoOWdneEJZQVNNOVFmOXJpNDlVQ0hRTkFKYlVnOTdUZ0pobEJpZk92WFN20gHeAUFVX3lxTE9LUTZ1REVxaWlOSk5rOXBXaFJsYjFSVWtFUUxtMzVkczYxR3pPSElsSHJRNk5xWGVldF9LQjFmdUQxX1ZsTjlOWVFkQllUVHJlVXhKUnduU3Vmd0FabDU2YThzMzVUVXFGZjZIX01CYlE4dFhEQUpheGVFdVdtOFlWTnA5ODdWM0ZMemlzeERwdUJzT3dIbkZhaURqX1JRTV83cV95NWt5Y2N0N3owSjdWRFRaMUQ3OEsxa2xTQlhTdS1ISTZhM0QtaXRrOEZ6aVNQVmZBeHJncjVISVE0QQ?oc=5",
-      "published": "2026-04-12T02:19:29+00:00",
-      "source": {
-        "name": "Blu Radio",
-        "url": "https://www.bluradio.com"
       }
     },
     {
@@ -414,6 +394,16 @@
       }
     },
     {
+      "id": "6a0f6a675020",
+      "title": "Cruz Verde no renovará contrato con Sanitas para dispensación de medicamentos desde octubre de 2026 - Blu Radio",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSmZ4WkpPa2FZZWZCOU1scWZNcURYMWFZeU9uV2J0ek81c3B4TWhDTFltVUIxdE9peHZRU0FKa1ZadEtjYmVEb2VnNVdfYkxrU0J3ZnAwRUJCYzJ6cDJ3QkhoRmphelcyMkV2ZVBsQmxNY2RtOHI2cnBRbzQ0UXhMQXBIRkw5Q0NobzlWdldqNHNrcVg4RlRZOGF2R1k4MGVhczh5S2hoOWdneEJZQVNNOVFmOXJpNDlVQ0hRTkFKYlVnOTdUZ0pobEJpZk92WFN20gHeAUFVX3lxTE9LUTZ1REVxaWlOSk5rOXBXaFJsYjFSVWtFUUxtMzVkczYxR3pPSElsSHJRNk5xWGVldF9LQjFmdUQxX1ZsTjlOWVFkQllUVHJlVXhKUnduU3Vmd0FabDU2YThzMzVUVXFGZjZIX01CYlE4dFhEQUpheGVFdVdtOFlWTnA5ODdWM0ZMemlzeERwdUJzT3dIbkZhaURqX1JRTV83cV95NWt5Y2N0N3owSjdWRFRaMUQ3OEsxa2xTQlhTdS1ISTZhM0QtaXRrOEZ6aVNQVmZBeHJncjVISVE0QQ?oc=5",
+      "published": "2026-04-12T02:19:29+00:00",
+      "source": {
+        "name": "Blu Radio",
+        "url": "https://www.bluradio.com"
+      }
+    },
+    {
       "id": "cf053db464b1",
       "title": "Exámenes médicos gratuitos, consultas de salud y distribución de medicamentos para las mujeres socias. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMWQ3RFFhSm4yNkpGTlNiLVNCdV9XZng0dnRlSnJDOVJ1UWVuSHpabjV6QkJWaE51MEpzVkJxaTFIbmQ4TTVlVDNxS0dnQVp5YzZMYWRUVXFYT0U4c2VIVUpKMVVCY1VLUEZKVFZsRi1TWFFweV8ycE1TQ2JfaHJlMVltdTdyMXlYZHN1U1o4WnBxM2VSMk5wNU9Zdw?oc=5",
@@ -434,13 +424,23 @@
       }
     },
     {
-      "id": "973a022d8468",
-      "title": "Profundizan la atención territorial con jornadas integrales de salud y acceso a tratamientos en distintos barrios - El Comodorense",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajlPb3MzeDlfdHFJTE4xSXlIRU1hUjFfbk1WZkVuallHTjVRZUtBamVwdWFHWnhtQWwtNU9vOVNpZGNFbVNiWUpRUnNGQjlWZlZja05PeUZqLXU0bm5Gd2JrRmVLeU1PeC13clZDOTBmTHphaWNHanR6OEZ4VV9tVkRIblJBeUZ2UDl2aExGWmFhTU1aTVZzbnh0S2FaY28wRXNkbW5rZUc4T096MFNjUm92U0ZTLU9ORHE2M0RfMGZhYUktUUlNUnI1YlZ4emxycWlBM2dWXzZCbEkx?oc=5",
-      "published": "2026-04-11T23:29:55+00:00",
+      "id": "f601fff1192d",
+      "title": "Cruz Verde dejará de entregar medicamentos a afiliados de la EPS Sanitas desde octubre de 2026: fecha definitiva - elpais.com.co",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOUhTMnBEdnN2M2JGMEdjR09FUlBuWVlkUkV5LTdTanR1bmw0eDdYVjF1WFhfMjgzVXR3WXJjWkNiaG9mQjQxLU9ad1JxQlF6MDRMd2g2VTcxcmJhMEJ6QVk3ekRoc3hyV0hSUkdTYXREcmhhSmx2S2RkWlYyeDhRTHRaVFBQTzlpcXE1YXQ0anFjN2pPZ3czTlFjcFNRN3hweTJ4VUJ3R0Z0eUMwVENSMDhlTW95Q3FrejFmNGZsRV80OGZ3TjVSUGk4YzTSAdIBQVVfeXFMT3Jma05IeDQwZHNXenMyWHBXUHExNnZiR0tZNlVOQVcwWXBsanpkamtoTTFQc1BzQ1JpbHNScHZxTkVhbjhqOXhGSk82anBzYktoNGI3akFuX0tEVDRoaXFMU3ZreV9teXRMMVJWOG14U2NHc0VWc1ZJaXdXTkdkb3lJQ0RsMjh3QzNCcnI0NWhOWDh4a2k4aGFQU1RFU1U2VkNiYWY2Q1R2YWhWVXd5STR5RlhrbFVZT25oTXhLZFhNM3NobWszNUxNTUJOYXhXMnd3?oc=5",
+      "published": "2026-04-12T11:37:25+00:00",
       "source": {
-        "name": "El Comodorense",
-        "url": "https://www.elcomodorense.net"
+        "name": "elpais.com.co",
+        "url": "https://www.elpais.com.co"
+      }
+    },
+    {
+      "id": "b967bb536865",
+      "title": "Alertan por el cierre del programa Remediar: la entrega de medicamentos cayó hasta un 70% - Noticias de Necochea",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVFhUNVZnR3ROTmxyQnEzYndBTWFTelZxajQwb0FoaXVGcFd4V18zRmNndG1uNlBwQXVGZ3ZmNVhFNjFJYTItOWU1bGpHcWZZODFXeTRkUkJ3TlhySWFpUjg4UDljekQtY0dTTmNsMkV5VWxCVE9zcHFPbEhsTWxmejRJQzJNNnlfUUx5enc2Ymw4SGtkeWN1MHAzVXNuOXZ3VlNsT2xsbjdDX0hRZnZCbzJYazFPdmN6UkZN?oc=5",
+      "published": "2026-04-12T12:12:04+00:00",
+      "source": {
+        "name": "Noticias de Necochea",
+        "url": "https://nden.com.ar"
       }
     },
     {
@@ -454,23 +454,23 @@
       }
     },
     {
-      "id": "7e01b05065eb",
-      "title": "El director de Hospitales de Gaza afirma que la escasez de medicamentos alcanza el 50 por ciento y que las operaciones cardíacas se han paralizado por completo debido al bloqueo y a la agresión israelí. - Qatar news agency",
-      "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPOVVjUFd1bkk1aUFHSi1XTm1KQ1Jnem5nNjBDU0R2Y0JpQUlYSV9iYUxYYllyT0J6U2hZQzJsQXh5a2JNbjd3dmYxdjVMdzh2aDhkUmlyZDhUTmFXWnF0cW1obFFOMWVmeWFTSl9zeXBDT2NzRnNYV2lxekROVExiLU42UGo3cmp5OW5NVDRKU0Z6aGl5XzhZT0Y5a2UxRGRaWUZiOHJxY0N2cC1tMDhuZ2FfS0ZVTGEyc3d4QUtBQmtKRWZlVV9OdmdEWERkcHl1WE5TcTBsY0R4T0FsVE9TeEVBQnZ6dG1DSWFLVG00X1A4Z3cwM0JLVS1jZmVHc1FHNHE4ZlVudm9IdzhsVDNEV3dnSDBWSHNQMTFRVjdzT2ZvYlRNeUE5ZkM1TjZ4dlN6NUFBdmlnR2VlQ0ZCYVFKYl9RNVJ1ZzlTWFp4dzQ5NTlBWEllOFlrRGF5MTYyWVpZVXNWd1pNcUd2RkE?oc=5",
-      "published": "2026-04-11T18:35:45+00:00",
+      "id": "973a022d8468",
+      "title": "Profundizan la atención territorial con jornadas integrales de salud y acceso a tratamientos en distintos barrios - El Comodorense",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajlPb3MzeDlfdHFJTE4xSXlIRU1hUjFfbk1WZkVuallHTjVRZUtBamVwdWFHWnhtQWwtNU9vOVNpZGNFbVNiWUpRUnNGQjlWZlZja05PeUZqLXU0bm5Gd2JrRmVLeU1PeC13clZDOTBmTHphaWNHanR6OEZ4VV9tVkRIblJBeUZ2UDl2aExGWmFhTU1aTVZzbnh0S2FaY28wRXNkbW5rZUc4T096MFNjUm92U0ZTLU9ORHE2M0RfMGZhYUktUUlNUnI1YlZ4emxycWlBM2dWXzZCbEkx?oc=5",
+      "published": "2026-04-11T23:29:55+00:00",
       "source": {
-        "name": "Qatar news agency",
-        "url": "https://qna.org.qa"
+        "name": "El Comodorense",
+        "url": "https://www.elcomodorense.net"
       }
     },
     {
-      "id": "eab2158558bf",
-      "title": "Acceso a medicamentos: un derecho innegociable, no un privilegio - Médicos del Mundo",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMWM2TURHb2traVFWX1NzMU9GYVJ0WFRvSnM1cGRzWDBUN29HS1JrY2p4U2FQbzhIUU82TWtKVm9ud2VqR3FQY29XZDVJNW5acmdldzhQV19IZ0dYa1RfYUw0cjFZb0NPUlJSSlJOM0RiRlNCakNiWWYyd294MEtLZl93dV9PQ0dhVmlacWsyZmxMSXlMeWc?oc=5",
-      "published": "2025-10-14T07:00:00+00:00",
+      "id": "5fb01576046e",
+      "title": "“He venido ocho veces y no hay medicamentos”: el calvario de los pacientes de la Nueva EPS - El Olfato",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYzItTEJ1TktqTDVpd0FnWk4tWW52NVVNM2ctQU1tdzJUamdud3VNSXBVVC16ZkM5b3NRZzJWdjd6RjFOSUlCZUR5Sm1QQ2lHQ3VMN09YY2hSUV9YNTM2RjR3a3RTYlNfU2ZfQThvNl9iOUVaWVhpNE5WNXJLNkxvZVZqc3cyLUl2Tk10c3FKRjljT0VSYW9IMUZKbE8zYmZvTUZUSlZJTEtTbER4UE5uVTB0UF8?oc=5",
+      "published": "2026-04-12T11:04:11+00:00",
       "source": {
-        "name": "Médicos del Mundo",
-        "url": "https://www.medicosdelmundo.org"
+        "name": "El Olfato",
+        "url": "https://elolfato.com"
       }
     },
     {
@@ -494,13 +494,13 @@
       }
     },
     {
-      "id": "d905c3b8b8af",
-      "title": "Cruz Verde no dispensará más medicamentos de la EPS Sanitas a partir de esta fecha: ya notificaron a las autoridades - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNXIxZ0czUHY2VXI1ZHIxalYtZGxhaXhGajhEWVZvc1ZHYlBSSWxHZGctcFE2RFB0YzRIc0pmdW5HU1UtajBjMTRpTTUzN1p2eUZfaERmV1E5MmswbXRkLWpiVXRFVnhQQzB1ZWJSTWNUOEQzcWFmb0VacXV0M05fZ1h0QmhkeWpyRThRWk9LcFRLOVR2cUZZUlF0dWE0RC1kZFJpdmVGa2ttMWpJVTBrR1RVM0xCamxSTzdfeDRwZWsxOFVOUGowZWJ6Zmt1UnFuWkg5TERQbTl6eS1oUk5BcklUOWVyQVl5UVVGa0N5MU00d9IBjAJBVV95cUxNNHFveGRyQTNxcTZwWHFnc0cxQWRrb2FEc21sUjZ6bE1CNjc4MllHdlNhRTJGUkFvMVc5TmxWeGpnMXczQVpHZV93TjV3eXJodWZaMS1XNk5kR0J4b016X3pYX3BIdnh0SER0OHdMYnlEdk02YjBzaXBQX1pZX2dhb1FvcDBRTmprMWZzVUFGci1GdXE4LWk5S2ItZVh1WnVxQ3ktQTFJMGF3ZUNNRUROSUtCV2VKelZiRzRfZU1xTG5vY08waEttWENFRE55OHFOZ19zQjF5d0kyM3A0V3RiOU51ODNqSEphbUswNzhZZWR5ZGltbEtDQUdQWjFtVnluak1SVm5wa1RvMHpq?oc=5",
-      "published": "2026-04-12T02:16:00+00:00",
+      "id": "7e01b05065eb",
+      "title": "El director de Hospitales de Gaza afirma que la escasez de medicamentos alcanza el 50 por ciento y que las operaciones cardíacas se han paralizado por completo debido al bloqueo y a la agresión israelí. - Qatar news agency",
+      "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPOVVjUFd1bkk1aUFHSi1XTm1KQ1Jnem5nNjBDU0R2Y0JpQUlYSV9iYUxYYllyT0J6U2hZQzJsQXh5a2JNbjd3dmYxdjVMdzh2aDhkUmlyZDhUTmFXWnF0cW1obFFOMWVmeWFTSl9zeXBDT2NzRnNYV2lxekROVExiLU42UGo3cmp5OW5NVDRKU0Z6aGl5XzhZT0Y5a2UxRGRaWUZiOHJxY0N2cC1tMDhuZ2FfS0ZVTGEyc3d4QUtBQmtKRWZlVV9OdmdEWERkcHl1WE5TcTBsY0R4T0FsVE9TeEVBQnZ6dG1DSWFLVG00X1A4Z3cwM0JLVS1jZmVHc1FHNHE4ZlVudm9IdzhsVDNEV3dnSDBWSHNQMTFRVjdzT2ZvYlRNeUE5ZkM1TjZ4dlN6NUFBdmlnR2VlQ0ZCYVFKYl9RNVJ1ZzlTWFp4dzQ5NTlBWEllOFlrRGF5MTYyWVpZVXNWd1pNcUd2RkE?oc=5",
+      "published": "2026-04-11T18:35:45+00:00",
       "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
+        "name": "Qatar news agency",
+        "url": "https://qna.org.qa"
       }
     },
     {
@@ -524,6 +524,16 @@
       }
     },
     {
+      "id": "d905c3b8b8af",
+      "title": "Cruz Verde no dispensará más medicamentos de la EPS Sanitas a partir de esta fecha: ya notificaron a las autoridades - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNXIxZ0czUHY2VXI1ZHIxalYtZGxhaXhGajhEWVZvc1ZHYlBSSWxHZGctcFE2RFB0YzRIc0pmdW5HU1UtajBjMTRpTTUzN1p2eUZfaERmV1E5MmswbXRkLWpiVXRFVnhQQzB1ZWJSTWNUOEQzcWFmb0VacXV0M05fZ1h0QmhkeWpyRThRWk9LcFRLOVR2cUZZUlF0dWE0RC1kZFJpdmVGa2ttMWpJVTBrR1RVM0xCamxSTzdfeDRwZWsxOFVOUGowZWJ6Zmt1UnFuWkg5TERQbTl6eS1oUk5BcklUOWVyQVl5UVVGa0N5MU00d9IBjAJBVV95cUxNNHFveGRyQTNxcTZwWHFnc0cxQWRrb2FEc21sUjZ6bE1CNjc4MllHdlNhRTJGUkFvMVc5TmxWeGpnMXczQVpHZV93TjV3eXJodWZaMS1XNk5kR0J4b016X3pYX3BIdnh0SER0OHdMYnlEdk02YjBzaXBQX1pZX2dhb1FvcDBRTmprMWZzVUFGci1GdXE4LWk5S2ItZVh1WnVxQ3ktQTFJMGF3ZUNNRUROSUtCV2VKelZiRzRfZU1xTG5vY08waEttWENFRE55OHFOZ19zQjF5d0kyM3A0V3RiOU51ODNqSEphbUswNzhZZWR5ZGltbEtDQUdQWjFtVnluak1SVm5wa1RvMHpq?oc=5",
+      "published": "2026-04-12T02:16:00+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
       "id": "4867359be734",
       "title": "Farmaindustria presenta mejoras al Anteproyecto de Ley de Medicamentos para preparar la sanidad para la innovación de los próximos 20 años - FarmaIndustria",
       "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPYlJyME1xekM4VGpNRlBKRllEN0dOb2I3d3VMUHJTV0lsa3gyc2xWNmw4RGZaTEtPaW4wMnpyek9KTmpKS2IwbXlqdlVaWWVhdmswOXhrd0JpZmVpQ3JTTzBqaGxzV0cwTFJfZ0hacjc2ZkptejlycDljMzlqUXZpX3EtMmZWRHJDR2ZNeUhtR0laNjlVQldHbzdFSlA2NDl3OWVQMWhxWXB3Vm1tWVBxbEdRbzdSSnMtLUFTWnJJSmVNenpRclpFS25yU1Vzem9hR3cwYTlnQkNSTzZtenQ5R21vR0tub2h1TGhNYzNjRzR0TXc3Y2hWUFNVbThBN2xydXpmaTR0RXFsejFTRjIxUjlFMFIyOVl1dFhNWXk4UUNsUzhtaG1mVUY2YkktWEJo?oc=5",
@@ -544,16 +554,6 @@
       }
     },
     {
-      "id": "539a9c3ee982",
-      "title": "Cruz Verde dejará de dispensar medicamentos a afiliados de la EPS Sanitas desde el 1 de octubre de 2026: 'La decisión ha sido comunicada' - ELTIEMPO.COM",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQODNXUHZxUUlFUUNLYXZvUlRVOXVnOWtlRjZrX0doYm5keEsxenZrdHNWWk5UUnhEbUlxQnBjQ1J2UTdqTW9nQXRybnE3TlNYQk9idWxQdTBCYTZKQUs0NzJaaGNNaVdqczgtLVpxeDNkZ3hRdEZDRnBNVXpaSVUtRVJXSXpqOERsSVBLdVNXSXg1NW9zeXdhYXowb2FPRkQ5YlkxVGR6TGZBWlNZNzFFZVBTSzVDLUQ3Nl9SRVh5czVtcmpFc3Z6ODNQVkdaLU85OUh1NjMxQXJBRWRtSHFpMWVweEpSYnptR3hkbGk3aW8zSHQ4RktybENld00wcFhmT25B0gGIAkFVX3lxTE5BbjJjWlRZb0o0SU1QYllxYlJ5WXVSWWVwbUlJYXpVazU2VTNJZlJSY2ozQjFpY052M3c2TG0tUVduSHd6MmJkVWZGeEpPYmtQMi1PY3d4Y3RGRkVMeVoyYUZLMmpkeFZaaEpUR1BpZTB4akFMTHplZUhQeDRfM2VsbTE3eDVFYnlDdlZyV2NNU1FEMlZBYXV4VXlXV0diUExvMTB2M3V0NHd6dDR2dGtrTFNtTXdiZFZNNXI4QndCbUtUaXk1MElCamRGdVVNYjJMa19uVV93RUEwREtfczhxT0lZbzN1emQ0MDFPQVk1OUk0ajJhWG54UktCcDFPMzdxUXkwd20tWg?oc=5",
-      "published": "2026-04-12T03:38:41+00:00",
-      "source": {
-        "name": "ELTIEMPO.COM",
-        "url": "https://www.eltiempo.com"
-      }
-    },
-    {
       "id": "ef8e61112f66",
       "title": "Crisis en salud aumenta ante medicamentos vencidos y falta de infraestructura - Canal 6 Honduras",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkpqa0NFbW1ZUDR4bUlSWEthclVQUVF5QWxLNFdJZ0s0VFV1UU16eEE0dHVfa3RGUzBlNEszMlprc1QwWUZIREZaMWxfRGVrY0N4aXVVRHVqUUlpcmZQQjJwTEJISjdTajFpaFZsdE9uc2xEVWNfZy1DZW5pblFWeDREbVl1dXlMRDg1Sm5lWGZCaXVvVVo0NVF1cVctOFMzRUs1R0RLWTFWYXBGbVNn?oc=5",
@@ -561,16 +561,6 @@
       "source": {
         "name": "Canal 6 Honduras",
         "url": "https://canal6hn.com"
-      }
-    },
-    {
-      "id": "c03348a0b6f1",
-      "title": "Sanofi S.A. acción (FR0000127771): ¿Es su enfoque en vacunas el impulsor clave para crecer en merc - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFpiWkNoWW0wNlN4WnpFYnQtOWJGb01PanRnanBrZkdKUGEzcWRVZ01CeFRBQ2N2SVN5ZkJ3SGpQbEdlcnNJZnlYNmlLSUNPSjFGWVJhcTB0RWg2ZkFiOG1ZM2NMdDdIU0xVU0NtV21kLV9WOWNKN05TbVlFV2lOZHR4TTAyMkpZY2JEWmd2Z1VVQTY4MURkd041SGJ5UVVGY3hEZ1ZDTUpFbnk1LVpocHlVN2lGMVpISHFKWm9R?oc=5",
-      "published": "2026-04-12T07:08:14+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -584,16 +574,6 @@
       }
     },
     {
-      "id": "0722e1aaae5e",
-      "title": "Cruz Verde no renovará contrato con EPS Sanitas para la entrega de medicamentos - Noticias RCN",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQVdkcC16MnZSc2J6cUo4dDEwYXpQRG1Dem9Ia0s5Yk5ma2pwQWVsdmM1eFNyX0tFZHh5T0lHNTdBTzE0dWRfLTB6RUxxdEhPdXQ1Vmdkb0FsdXdrT3NLUXNZbGxEOGVSd0I1TG9jVW1vYWYwNmo0Z3FQRUk5dkVVRmFRQVlheFhVTjktUXNaemV4bjdCZkk3RnVJb3RLZDlMN0lXZnAyWHY2MlVTMkVQRGI2RHhPakJhd2xCMHprZkMyNzUxWlRnazluR0RIUdIBzgFBVV95cUxNOEVsMW1iN085Y0kyS2tXOHNBWlJMX1FFdGZFb2JHa0t6dzJ5REp5MTZQSXVHeWptS1ZJOUtkV0d1SG5USFp5MW1iV0RHU2ZiXzZJaWhzOGJBQmxzN3RuTk5pT1Z4SU9YRG44bjZ2b25qTVhVSjhRUjc4QVlra0w1Qy1wYW1pWVhUUjV3WWR3bnowcGRibV9iUEc4SmpWS0lIUGxoMUlWSExfMlJmOEhueGs3b19pTXhHeXJ3bWxZZUhmWlRmUGQyNzZfVF90Zw?oc=5",
-      "published": "2026-04-12T01:34:44+00:00",
-      "source": {
-        "name": "Noticias RCN",
-        "url": "https://www.noticiasrcn.com"
-      }
-    },
-    {
       "id": "f73a519b79d2",
       "title": "Detienen a ex coordinador de Farmacias de Salud Chihuahua por desvío de medicamentos oncológicos - SuMédico",
       "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPREx0eEpqZGNyOEtoa3RkNHZXem05WXBrUng3QnZ5VV8wRUkyaFBZYzJadU5SN1ZneHlxZGxKNHphVTIyQ2lYZURXdmFscXdtcGY4cnVETFBtWkFrQkJpSTVHUFN0M28taXBHOU5SNW42ZWtMZlFVMzg1cDIxcmMtOC1kUk9ZeGs4S2x1ZncxREpvWWdRU1NrakFaRkNrMjlYQlRqZ0RzenU5UzRWVU5IZlAzUzktNmRSNUdZOGVINzdLbURPZEdrWmtGVUpYc0JPeTNwOURrYzI3Mnc0eFItcGcwbFYtakVvSW9OT1Q0bkRRS19YaUsyTFJ2Ul8yOE9QWnlKcdIBhAJBVV95cUxPREx0eEpqZGNyOEtoa3RkNHZXem05WXBrUng3QnZ5VV8wRUkyaFBZYzJadU5SN1ZneHlxZGxKNHphVTIyQ2lYZURXdmFscXdtcGY4cnVETFBtWkFrQkJpSTVHUFN0M28taXBHOU5SNW42ZWtMZlFVMzg1cDIxcmMtOC1kUk9ZeGs4S2x1ZncxREpvWWdRU1NrakFaRkNrMjlYQlRqZ0RzenU5UzRWVU5IZlAzUzktNmRSNUdZOGVINzdLbURPZEdrWmtGVUpYc0JPeTNwOURrYzI3Mnc0eFItcGcwbFYtakVvSW9OT1Q0bkRRS19YaUsyTFJ2Ul8yOE9QWnlKcQ?oc=5",
@@ -601,6 +581,26 @@
       "source": {
         "name": "SuMédico",
         "url": "https://www.sumedico.com"
+      }
+    },
+    {
+      "id": "c03348a0b6f1",
+      "title": "Sanofi S.A. acción (FR0000127771): ¿Es su enfoque en vacunas el impulsor clave para crecer en merc - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFpiWkNoWW0wNlN4WnpFYnQtOWJGb01PanRnanBrZkdKUGEzcWRVZ01CeFRBQ2N2SVN5ZkJ3SGpQbEdlcnNJZnlYNmlLSUNPSjFGWVJhcTB0RWg2ZkFiOG1ZM2NMdDdIU0xVU0NtV21kLV9WOWNKN05TbVlFV2lOZHR4TTAyMkpZY2JEWmd2Z1VVQTY4MURkd041SGJ5UVVGY3hEZ1ZDTUpFbnk1LVpocHlVN2lGMVpISHFKWm9R?oc=5",
+      "published": "2026-04-12T07:08:14+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
+      }
+    },
+    {
+      "id": "0722e1aaae5e",
+      "title": "Cruz Verde no renovará contrato con EPS Sanitas para la entrega de medicamentos - Noticias RCN",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQVdkcC16MnZSc2J6cUo4dDEwYXpQRG1Dem9Ia0s5Yk5ma2pwQWVsdmM1eFNyX0tFZHh5T0lHNTdBTzE0dWRfLTB6RUxxdEhPdXQ1Vmdkb0FsdXdrT3NLUXNZbGxEOGVSd0I1TG9jVW1vYWYwNmo0Z3FQRUk5dkVVRmFRQVlheFhVTjktUXNaemV4bjdCZkk3RnVJb3RLZDlMN0lXZnAyWHY2MlVTMkVQRGI2RHhPakJhd2xCMHprZkMyNzUxWlRnazluR0RIUdIBzgFBVV95cUxNOEVsMW1iN085Y0kyS2tXOHNBWlJMX1FFdGZFb2JHa0t6dzJ5REp5MTZQSXVHeWptS1ZJOUtkV0d1SG5USFp5MW1iV0RHU2ZiXzZJaWhzOGJBQmxzN3RuTk5pT1Z4SU9YRG44bjZ2b25qTVhVSjhRUjc4QVlra0w1Qy1wYW1pWVhUUjV3WWR3bnowcGRibV9iUEc4SmpWS0lIUGxoMUlWSExfMlJmOEhueGs3b19pTXhHeXJ3bWxZZUhmWlRmUGQyNzZfVF90Zw?oc=5",
+      "published": "2026-04-12T01:34:44+00:00",
+      "source": {
+        "name": "Noticias RCN",
+        "url": "https://www.noticiasrcn.com"
       }
     },
     {
@@ -644,13 +644,13 @@
       }
     },
     {
-      "id": "98b1bd417967",
-      "title": "Pastillas mágicas y etiquetas: la salud ante el fenómeno de la medicalización - El Litoral",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ09HODBvT3kxOFpmaTY5RkdxRWpqWXNLWG9pZWlpZDFMVUFnSXEzbUNZb0dLd3ZXaFh3S195LTlsSmdtLWdibVVfak9UdWd6N3RJbG5XYk1MTkE2QnhhbURlXzB5cjdDWTdiVWJBWVZZQ2VfSlhpV0drUUlIZlRjUzBNQ1RYeUhvZlFrQXZMUVJjQW5OSjVuXzcwa0dzVXF1N3FBUWEzTVZaMWloV1hiM9IBtgFBVV95cUxOc0h5VkNZdjQ2YklnaG96YV9QR0VzbVB1UjVvdE1KOVAxVGJXSUZsN1loc1AtN0hUOWhuNnNnUkRjTHQ4eTdVZXlzSVM2cGVGZWI2cnhOQ0Nka2JObmVmOGpidzR5ZnVzS2dROTdrNnFfTzBlXzQ3bVpOcUdFb3ZwUTY5UGM0SzVXQXVqZ2lWSE5ma1FQbW9tSGVNWEYtRXBmQnRpaXNQcTJIUDkzaGFRZHJSSlhwZw?oc=5",
-      "published": "2026-04-10T09:01:04+00:00",
+      "id": "539a9c3ee982",
+      "title": "Cruz Verde dejará de dispensar medicamentos a afiliados de la EPS Sanitas desde el 1 de octubre de 2026: 'La decisión ha sido comunicada' - ELTIEMPO.COM",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQODNXUHZxUUlFUUNLYXZvUlRVOXVnOWtlRjZrX0doYm5keEsxenZrdHNWWk5UUnhEbUlxQnBjQ1J2UTdqTW9nQXRybnE3TlNYQk9idWxQdTBCYTZKQUs0NzJaaGNNaVdqczgtLVpxeDNkZ3hRdEZDRnBNVXpaSVUtRVJXSXpqOERsSVBLdVNXSXg1NW9zeXdhYXowb2FPRkQ5YlkxVGR6TGZBWlNZNzFFZVBTSzVDLUQ3Nl9SRVh5czVtcmpFc3Z6ODNQVkdaLU85OUh1NjMxQXJBRWRtSHFpMWVweEpSYnptR3hkbGk3aW8zSHQ4RktybENld00wcFhmT25B0gGIAkFVX3lxTE5BbjJjWlRZb0o0SU1QYllxYlJ5WXVSWWVwbUlJYXpVazU2VTNJZlJSY2ozQjFpY052M3c2TG0tUVduSHd6MmJkVWZGeEpPYmtQMi1PY3d4Y3RGRkVMeVoyYUZLMmpkeFZaaEpUR1BpZTB4akFMTHplZUhQeDRfM2VsbTE3eDVFYnlDdlZyV2NNU1FEMlZBYXV4VXlXV0diUExvMTB2M3V0NHd6dDR2dGtrTFNtTXdiZFZNNXI4QndCbUtUaXk1MElCamRGdVVNYjJMa19uVV93RUEwREtfczhxT0lZbzN1emQ0MDFPQVk1OUk0ajJhWG54UktCcDFPMzdxUXkwd20tWg?oc=5",
+      "published": "2026-04-12T03:38:41+00:00",
       "source": {
-        "name": "El Litoral",
-        "url": "https://www.ellitoral.com"
+        "name": "ELTIEMPO.COM",
+        "url": "https://www.eltiempo.com"
       }
     },
     {
@@ -661,26 +661,6 @@
       "source": {
         "name": "El Comodorense",
         "url": "https://www.elcomodorense.net"
-      }
-    },
-    {
-      "id": "5fb01576046e",
-      "title": "“He venido ocho veces y no hay medicamentos”: el calvario de los pacientes de la Nueva EPS - El Olfato",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYzItTEJ1TktqTDVpd0FnWk4tWW52NVVNM2ctQU1tdzJUamdud3VNSXBVVC16ZkM5b3NRZzJWdjd6RjFOSUlCZUR5Sm1QQ2lHQ3VMN09YY2hSUV9YNTM2RjR3a3RTYlNfU2ZfQThvNl9iOUVaWVhpNE5WNXJLNkxvZVZqc3cyLUl2Tk10c3FKRjljT0VSYW9IMUZKbE8zYmZvTUZUSlZJTEtTbER4UE5uVTB0UF8?oc=5",
-      "published": "2026-04-12T11:04:11+00:00",
-      "source": {
-        "name": "El Olfato",
-        "url": "https://elolfato.com"
-      }
-    },
-    {
-      "id": "cb3690ef2a11",
-      "title": "Cruz Verde no renovará contrato con Sanitas EPS para dispensación de medicamentos - La FM",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQkwyczVFZ3k5WjQwY0JmYWFMUzZjTmNEcU1INEhSRlRDX0p6OTRENTZ1cVJPRVY1a28zelFlbFNyWDFBRV9uWXg0eElQMWZfY3ZVUlpqU2o4T0VwWFlsZDB5Mm02T1dDTEVrX1NTNDU3NGQwOHBXMjdDeE9OMGdjaHA5YXd6NHVrb2RvbnpsVWtpbVJ3dXFZLTBJaVBvd9IBngFBVV95cUxQcDFLamptSFR6a0JIdnJ6NjR0OVBFajNIZ1VoV2EzZ093aU9uSTdLbWhaZV9NbHl0X1l4Nms5WEEtODNidGpCVTBSY090LWhwNGtfWFBydWRoOE9aY1ZheU4zQnVvVWFEcW43T2JaY2Nlb0ZJbUJRSmVONGF4X2xkZWNpQ0dCRjNYZjBCM01oUTZXOC1TR0NRV0hNbDQ1Zw?oc=5",
-      "published": "2026-04-12T01:17:22+00:00",
-      "source": {
-        "name": "La FM",
-        "url": "https://www.lafm.com.co"
       }
     },
     {
@@ -714,26 +694,6 @@
       }
     },
     {
-      "id": "075d9fc305d4",
-      "title": "Remediar en jaque: alertan por el cierre del programa que garantiza medicamentos a 19 millones de personas - Prensa Libre SN",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMWJOem5IZWF6WUFraHp3bGo5OHI4dlZsemVtdXc2Q3d1RmhFeG14d3k0LTd1cTZNQUprVElsQ29YLTliX2VNMERiRUtmRzQwYnNGN3dTTGd0bVlwOEloemkxWkRIRlplT29UVTBxYk54c2E4a2I4eTBoXzMzRE8zWUZCd0NGY0t6R1BCcy12Nl9PblhvUEJycEgzWk9yTmV0QXVTend4eGpNcFlGTWFpVGtCbjRjdU1pM0s1c0VYVmRnVU5GQWVsZjVHQXF5QTdmZm01V19pb2lGeVNHeVE?oc=5",
-      "published": "2026-04-11T13:06:19+00:00",
-      "source": {
-        "name": "Prensa Libre SN",
-        "url": "https://www.prensalibresn.com"
-      }
-    },
-    {
-      "id": "077acbb6ea2c",
-      "title": "Redcare Pharmacy (Shop Apoth) acción (NL0012044747): ¿Todo depende ahora de su modelo online puro - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWl9mQkwxTzk5VnZkb1h2eXpDWGo1cHJYU2l4RWRPYVhSek5Tc1k3TGdfa3VWdU9KbVhlVkJLbHAzWGh6a0Y5WHBtQ3VNakxBcTh5YlhmZVl6UGU2MmhGbnphTG5mcnNHMVRVeTBMRWxUUnBJRFlvUFdqeXBCOEdjZEJ1d0F1bjEwRklCZTAydENSRWNsRDRqcXVLcldKbzZmLUZGb0xjUndCUDlnaXlpWDdMNWJ0NEJpTnpNcQ?oc=5",
-      "published": "2026-04-11T15:51:44+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "5431c058d4f0",
       "title": "Sanidad solicita aclaraciones a Novo Nordisk sobre una posible infracción de la normativa publicitaria de medicamentos - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kVlJHN3JSTXd5T2xBQ2pVVzg4cjgxRDRxNDY4VGlVb09vajBqenJINnhzUHh5WGUySFp1dDY2QWRiRW4wZEY2cTNFWGJ0S0R3Mm9DZFY0blZXdzR3OEdod0FvYmViMHltOEE?oc=5",
@@ -741,16 +701,6 @@
       "source": {
         "name": "Ministerio de Sanidad",
         "url": "https://www.sanidad.gob.es"
-      }
-    },
-    {
-      "id": "8522eda00faf",
-      "title": "Trabajadores de la Salud se pronunciaron contra el cierre del Plan Remediar - 0221",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcmFkdzFwbnNQVW9HSWczbjlneVp1UUc0VC15RHR4S1FlbEVjNDhyTFFSZFRkdG02YjRRN0FOeDdVdHhIbTR1Z2dxQl9yY2E1SkxVQ0dqaWl0UUlyUTVjdll2T29SakcwbWgxRFdjYkNabHJadVVpWVdXSTYyU21WbTZsVGh1MjhScWNrTmhpblJXOV81TmxqQzNvT2lrOEhidWF0eHdTWERhNEx4NzhSQlpjNNIBuAFBVV95cUxPTnJ2X3g3eXlVREdQOUdtc05QdG03TV9iZ1lZeDZldHpObHZkaEFuQWk2REZJRmFablBsZmZPOXBPZldFNDIzU01IUWw4X0FjLXdEdHhJWElBdDF3TkgzSDZWTF9YakhIWFVqNkh6ZVoyTXZqMGdPR09uZDQ5QVg1Yk5LM25TbHlGMmo5dklmTEd1OWc2WFRqcUc1aUpqeDJOTFR6b09EbkNnRVh4SlZWMTdzakVXTFpi?oc=5",
-      "published": "2026-04-11T20:53:00+00:00",
-      "source": {
-        "name": "0221",
-        "url": "https://www.0221.com.ar"
       }
     },
     {
@@ -764,43 +714,33 @@
       }
     },
     {
-      "id": "8e26859d998d",
-      "title": "La Ciudad creó un nuevo protocolo para reforzar el control de stock y descarte de medicamentos en los hospitales - La Nación",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSWZSYV80OGNzb0dFZ19mSnVCY0wwMm44MkpfZG1KRFlnTW51Q05aYmVLdXhCTXc0c1M2QXY2LWUxdGY1ZmpscHp1ZWhUQkNid2tEN19fMHpHSmNsMm5rRDYxY2sweGZPdnVZbmw2NG5fRHNURklraDZjRUxJeUYwVTBQYndkNFpBY0k5N2IzdExPcUR2b0xLTWZzaTZTT19sSlZXWkJkSkVmWlFUX0VWRjdBelo2U3RIRldDb0oyMWZsMW5oR0ljVFVneWRXOHExRm5LaFI1NkJoaW9tSFZPRg?oc=5",
-      "published": "2026-04-10T16:46:00+00:00",
+      "id": "8522eda00faf",
+      "title": "Trabajadores de la Salud se pronunciaron contra el cierre del Plan Remediar - 0221",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcmFkdzFwbnNQVW9HSWczbjlneVp1UUc0VC15RHR4S1FlbEVjNDhyTFFSZFRkdG02YjRRN0FOeDdVdHhIbTR1Z2dxQl9yY2E1SkxVQ0dqaWl0UUlyUTVjdll2T29SakcwbWgxRFdjYkNabHJadVVpWVdXSTYyU21WbTZsVGh1MjhScWNrTmhpblJXOV81TmxqQzNvT2lrOEhidWF0eHdTWERhNEx4NzhSQlpjNNIBuAFBVV95cUxPTnJ2X3g3eXlVREdQOUdtc05QdG03TV9iZ1lZeDZldHpObHZkaEFuQWk2REZJRmFablBsZmZPOXBPZldFNDIzU01IUWw4X0FjLXdEdHhJWElBdDF3TkgzSDZWTF9YakhIWFVqNkh6ZVoyTXZqMGdPR09uZDQ5QVg1Yk5LM25TbHlGMmo5dklmTEd1OWc2WFRqcUc1aUpqeDJOTFR6b09EbkNnRVh4SlZWMTdzakVXTFpi?oc=5",
+      "published": "2026-04-11T20:53:00+00:00",
       "source": {
-        "name": "La Nación",
-        "url": "https://www.lanacion.com.ar"
+        "name": "0221",
+        "url": "https://www.0221.com.ar"
       }
     },
     {
-      "id": "46a1982fbfb9",
-      "title": "IOMA medicamentos: qué cubre el 100% y cómo acceder a los descuentos en abril - iProfesional",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX05mbExQS2NQSGxfb0NrSGFiMTFtN1QwYTBYVEtZZjd4ZkRyZlZvVzgzckdPWDZnT0FtYnVCS0Izcmhvb2J5M1diQ0lDd292ZHhaMEhnNWFwT08zM2xPdDV4RlJJbkRmcWo2MWdmYjR6YUdkZlRtb1kxem5zSG5oRTZLVnFyclpfLWJxSTZLY3NxNkhJSTN5Y1JEUWJXY3h3OC1LR1ZWMC0za29UNExUSi1rRmNnb3J00gG-AUFVX3lxTE1xMTFQMVBRekhuSzdMaklEZUhLdmZzaDlWX3BtbmNhOEc2NF9aMU5aVVJ3N0tQVFl4eXhzNUxTTklHQ2NRMXVZd256ZlNGZHRVWXlkRW1haXZxbExOQjZOQ0FuWWtYSExmYTVIem9iWWhydEVWZTNQY19tbzRWVzkzUTMxR25FMVZwSjBfRWZ3QmY5WjBMd3pId3ZfMUJDVXVJaWRBZTVyeUdUQ3pTeXlURU9oS3NSUTRaeF9NSHc?oc=5",
-      "published": "2026-04-11T12:00:00+00:00",
+      "id": "077acbb6ea2c",
+      "title": "Redcare Pharmacy (Shop Apoth) acción (NL0012044747): ¿Todo depende ahora de su modelo online puro - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWl9mQkwxTzk5VnZkb1h2eXpDWGo1cHJYU2l4RWRPYVhSek5Tc1k3TGdfa3VWdU9KbVhlVkJLbHAzWGh6a0Y5WHBtQ3VNakxBcTh5YlhmZVl6UGU2MmhGbnphTG5mcnNHMVRVeTBMRWxUUnBJRFlvUFdqeXBCOEdjZEJ1d0F1bjEwRklCZTAydENSRWNsRDRqcXVLcldKbzZmLUZGb0xjUndCUDlnaXlpWDdMNWJ0NEJpTnpNcQ?oc=5",
+      "published": "2026-04-11T15:51:44+00:00",
       "source": {
-        "name": "iProfesional",
-        "url": "https://www.iprofesional.com"
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
-      "id": "48fce8e14b12",
-      "title": "La OMS acoge la segunda Cumbre Mundial para promover la evidencia, la integración y la innovación en la medicina tradicional - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNV3lvLUFodC1zY2NjUUxfTGtWV1VRbTByMUg0Ty1qa3g3S3hobFVZaHJ4WVFSczVzdkxuVVQ4MXJIb1Q5S1c2VXVDU0RETGk4WGpDb09IZkhxVTZkNElxUFh4T2ZRdXpFeDl4aVBJOHU3T1RxUUxWQ000d05vODB0SGtSSXg2U19HbkJUWDRPRWNORzZGTEs2Zl9hYUJjcFA1STFvNEJRa3RfMXh1TnpOcmZpTjhJTEhwMGl3eFhaYWMzRXE5S1pjb0llNWxRSzYyTDlucTQ0NkhYNl8yNjNtREZqMHhfdw?oc=5",
-      "published": "2025-12-17T08:00:00+00:00",
+      "id": "075d9fc305d4",
+      "title": "Remediar en jaque: alertan por el cierre del programa que garantiza medicamentos a 19 millones de personas - Prensa Libre SN",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMWJOem5IZWF6WUFraHp3bGo5OHI4dlZsemVtdXc2Q3d1RmhFeG14d3k0LTd1cTZNQUprVElsQ29YLTliX2VNMERiRUtmRzQwYnNGN3dTTGd0bVlwOEloemkxWkRIRlplT29UVTBxYk54c2E4a2I4eTBoXzMzRE8zWUZCd0NGY0t6R1BCcy12Nl9PblhvUEJycEgzWk9yTmV0QXVTend4eGpNcFlGTWFpVGtCbjRjdU1pM0s1c0VYVmRnVU5GQWVsZjVHQXF5QTdmZm01V19pb2lGeVNHeVE?oc=5",
+      "published": "2026-04-11T13:06:19+00:00",
       "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "a71b1d454a96",
-      "title": "El gobierno nacional vacía el Programa Remediar: de 79 medicamentos a 3 en septiembre, y el NOA enciende la alarma - eduardogerman.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaEdlZUtjQ2dmVVVORzRKa19uZEdwQjJfQ2ZZVkdlU0FIS2lmUGFvTjZEWWVubmxnbV9PZ0FqRVcyVmtFUTJNS0h5TkM1UGlTdkM3TS1ieDhMdWpfYzgxcXBxbURJYXRReGJKRVQ2XzNJRjdNbHljcm5PTWdUcEF1ZE9keTlIWjM1YTRIbTRZV1BPeHRNYjI2cEtTV1dCRjFGMlZDNFRjcXVvZ0VKa3dqZEtCRDNzaS0wUXJTalprRkJlTWhMVDRmME1iMUZOMGg4S1BaZEZqSzMyQ3VmN1dGVnhNV1Q?oc=5",
-      "published": "2026-04-11T15:21:10+00:00",
-      "source": {
-        "name": "eduardogerman.com",
-        "url": "https://eduardogerman.com"
+        "name": "Prensa Libre SN",
+        "url": "https://www.prensalibresn.com"
       }
     },
     {
@@ -814,16 +754,6 @@
       }
     },
     {
-      "id": "6edb29311e6c",
-      "title": "Crisis en salud: Kreplak advirtió que el fin del programa Remediar podría colapsar el sistema sanitario - Página|12",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZ2dCZ0tlTk1nZGlHcnVEOUszdkJkVFBfSFNYQXNuM1RkWkNXX0lIbGhjamg2Um5tYmdBMnJfUHZObWNyOHNSVmsxNkstcUhDS080YWhLQ1pjSU5RUS14OVBfUmlBQ01KdkNQUmRNMUtvNEo1cGxmdW9iOU40aTJsUzk3cG1GX0l2eWhrcE1jcVp1VXJvY0pWOUZrNG9ZQURvaURaTElfWVFuNlFYR1MwU295RTJXbUxCOEdwaDZhNXJ0UnZJcjlaUUlZWWNzRjdsc0N4N0kwUk5qUQ?oc=5",
-      "published": "2026-04-11T16:19:54+00:00",
-      "source": {
-        "name": "Página|12",
-        "url": "https://www.pagina12.com.ar"
-      }
-    },
-    {
       "id": "055af5cd69d3",
       "title": "La OMS publica unas directrices mundiales sobre el uso de agonistas del receptor GLP-1 para tratar la obesidad - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ3RQcmk4bWViUWs3Qmg0cE1UWUZuTEpQZVhrTFBFNUJNZ3J4S0tUa2xOUGZQZHJDelNCZExwMFZ3ZE1SejZqR1d6RlFNNzF0Umx3TGpHcEpqenFzcWZsaDJRaWJTM2V4RHVHMWttZE1kMG03el9rUGFHdjZhYnczSTNmczI3Ni1FMksxSEtyMkZaOEk4Tnc2WVRMRjBaY2dEcElHWFBNWlRHLUNEaS1rSzBDMzhoVTVxUXNDOXFR?oc=5",
@@ -834,13 +764,43 @@
       }
     },
     {
-      "id": "18a3027d111e",
-      "title": "Hospitales desbordados y medicamentos escasos: El sistema de salud en Gaza es “catastrófico” - UN Peacekeeping",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUE5dHVvT0VXd3FxUzl4N2ttTmYyTlpkV19aS1QzdEpxVDFpS3VweU00VVBwWFVfS0xMTW95aFdDNVpkc193R2d5MGVCcjJOVHlPQlQxUXN5NHRlS2FPOFlMOVVjV1hFalgyQlFoV2dNbGJ0WV9GaU4zVzd2ZWxPUHkycWdMRENudy1BcEZKOXIxWTlEZ1VFUW5GNFI5bWNZZ0hjUFpYeXNMTEcxLW8wN2Vld29ORnJHdnY3Ug?oc=5",
-      "published": "2025-08-12T07:00:00+00:00",
+      "id": "8e26859d998d",
+      "title": "La Ciudad creó un nuevo protocolo para reforzar el control de stock y descarte de medicamentos en los hospitales - La Nación",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSWZSYV80OGNzb0dFZ19mSnVCY0wwMm44MkpfZG1KRFlnTW51Q05aYmVLdXhCTXc0c1M2QXY2LWUxdGY1ZmpscHp1ZWhUQkNid2tEN19fMHpHSmNsMm5rRDYxY2sweGZPdnVZbmw2NG5fRHNURklraDZjRUxJeUYwVTBQYndkNFpBY0k5N2IzdExPcUR2b0xLTWZzaTZTT19sSlZXWkJkSkVmWlFUX0VWRjdBelo2U3RIRldDb0oyMWZsMW5oR0ljVFVneWRXOHExRm5LaFI1NkJoaW9tSFZPRg?oc=5",
+      "published": "2026-04-10T16:46:00+00:00",
       "source": {
-        "name": "UN Peacekeeping",
-        "url": "https://peacekeeping.un.org"
+        "name": "La Nación",
+        "url": "https://www.lanacion.com.ar"
+      }
+    },
+    {
+      "id": "6edb29311e6c",
+      "title": "Crisis en salud: Kreplak advirtió que el fin del programa Remediar podría colapsar el sistema sanitario - Página|12",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZ2dCZ0tlTk1nZGlHcnVEOUszdkJkVFBfSFNYQXNuM1RkWkNXX0lIbGhjamg2Um5tYmdBMnJfUHZObWNyOHNSVmsxNkstcUhDS080YWhLQ1pjSU5RUS14OVBfUmlBQ01KdkNQUmRNMUtvNEo1cGxmdW9iOU40aTJsUzk3cG1GX0l2eWhrcE1jcVp1VXJvY0pWOUZrNG9ZQURvaURaTElfWVFuNlFYR1MwU295RTJXbUxCOEdwaDZhNXJ0UnZJcjlaUUlZWWNzRjdsc0N4N0kwUk5qUQ?oc=5",
+      "published": "2026-04-11T16:19:54+00:00",
+      "source": {
+        "name": "Página|12",
+        "url": "https://www.pagina12.com.ar"
+      }
+    },
+    {
+      "id": "46a1982fbfb9",
+      "title": "IOMA medicamentos: qué cubre el 100% y cómo acceder a los descuentos en abril - iProfesional",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX05mbExQS2NQSGxfb0NrSGFiMTFtN1QwYTBYVEtZZjd4ZkRyZlZvVzgzckdPWDZnT0FtYnVCS0Izcmhvb2J5M1diQ0lDd292ZHhaMEhnNWFwT08zM2xPdDV4RlJJbkRmcWo2MWdmYjR6YUdkZlRtb1kxem5zSG5oRTZLVnFyclpfLWJxSTZLY3NxNkhJSTN5Y1JEUWJXY3h3OC1LR1ZWMC0za29UNExUSi1rRmNnb3J00gG-AUFVX3lxTE1xMTFQMVBRekhuSzdMaklEZUhLdmZzaDlWX3BtbmNhOEc2NF9aMU5aVVJ3N0tQVFl4eXhzNUxTTklHQ2NRMXVZd256ZlNGZHRVWXlkRW1haXZxbExOQjZOQ0FuWWtYSExmYTVIem9iWWhydEVWZTNQY19tbzRWVzkzUTMxR25FMVZwSjBfRWZ3QmY5WjBMd3pId3ZfMUJDVXVJaWRBZTVyeUdUQ3pTeXlURU9oS3NSUTRaeF9NSHc?oc=5",
+      "published": "2026-04-11T12:00:00+00:00",
+      "source": {
+        "name": "iProfesional",
+        "url": "https://www.iprofesional.com"
+      }
+    },
+    {
+      "id": "a71b1d454a96",
+      "title": "El gobierno nacional vacía el Programa Remediar: de 79 medicamentos a 3 en septiembre, y el NOA enciende la alarma - eduardogerman.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaEdlZUtjQ2dmVVVORzRKa19uZEdwQjJfQ2ZZVkdlU0FIS2lmUGFvTjZEWWVubmxnbV9PZ0FqRVcyVmtFUTJNS0h5TkM1UGlTdkM3TS1ieDhMdWpfYzgxcXBxbURJYXRReGJKRVQ2XzNJRjdNbHljcm5PTWdUcEF1ZE9keTlIWjM1YTRIbTRZV1BPeHRNYjI2cEtTV1dCRjFGMlZDNFRjcXVvZ0VKa3dqZEtCRDNzaS0wUXJTalprRkJlTWhMVDRmME1iMUZOMGg4S1BaZEZqSzMyQ3VmN1dGVnhNV1Q?oc=5",
+      "published": "2026-04-11T15:21:10+00:00",
+      "source": {
+        "name": "eduardogerman.com",
+        "url": "https://eduardogerman.com"
       }
     },
     {
@@ -864,26 +824,6 @@
       }
     },
     {
-      "id": "483cf3f911eb",
-      "title": "No mezcles jugo de toronja con estas medicinas - El Informador",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkhCSmUzSkxOY1JGWkJGekt2UG9nWVN5U3l4V08xblVpSEUxdURjVVl6dF9ESnpqQmp2RGM0ak96YVZHaWQ0MDZTVE8wOWF2bTN2NVlZTENRNFZHcVRjcV9URzluTF93WjZaTW1mQzdIMllSUnFndzE0S1pzV0lHYnctUHhJOVpOTUFkeVFuZlZEX2l0R1pXTE55c3UxR2vSAaQBQVVfeXFMTlc5czBXVktiUW9tVnZ0Q2xGaENpY2ZXZ09EMk5Za05KZXZxWDE2TGxtRGRickNHSVVKNmRwbGRkeFU5cnFjVTBMdlRUaS1WVE5zVWJPV3UxLWtDM1EwMTJlXy1raDQ1NWdoR3BfMUkyZGdWQnNvdWZ1V0NZekxUNnpIWURUSjRmWnhqMjN5Q0RkWUJXSHlHYUxsNGFHTThzQlFkMTk?oc=5",
-      "published": "2026-04-11T16:30:00+00:00",
-      "source": {
-        "name": "El Informador",
-        "url": "https://www.informador.mx"
-      }
-    },
-    {
-      "id": "0d311244cfae",
-      "title": "Cruz Verde sorprendió por decisión con medicamentos de EPS Sanitas: fecha definitiva en Colombia - Pulzo",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2RWT1F5emszSkpaVWJjLXBRX2hrYS1pTzlfWndpRkdZOGE1UVRKVzZaX0xXV3pTM0xRdENKY1BIOGNiejRSVWxVM0loV1N4U1BMVUFzaWhZOUt0OXNtOXpSekRKeVRycVBrYXBQd3FOcXlEOTZEelYyUVRLb2tHanl0ZG5Bbnk3MUV1aU55dngzcmJKbklZLWg4eUkzWmNVR2lEV3laRnpxN184T0E?oc=5",
-      "published": "2026-04-12T04:23:21+00:00",
-      "source": {
-        "name": "Pulzo",
-        "url": "https://www.pulzo.com"
-      }
-    },
-    {
       "id": "94bf3952799b",
       "title": "Pura \"propaganda\" las denuncias de falta de medicamentos en el sector salud - Peninsular Digital",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN0NLZzNibS1hN0VRSy1ybndsTS0zZlhzUDktX3pQYXEzN0pkZWdCVXh6WThWTDNTZk5hd3lCZGhzbGFhWVJkNjloRWJnMG9DX2ZZU1pvZmx1RmRqNmpXS2JPWnA3U19lMVBzY01pdFRXbUVYdDZCdDEyZWl6a2Rtc1FFNXBhSVJxa1h2X3Y1akFKMDhzcW9UOXJWZnJuVUdVSUJGMXpvU1BHX2hNQ2ZQMUJxY2szdw?oc=5",
@@ -891,26 +831,6 @@
       "source": {
         "name": "Peninsular Digital",
         "url": "https://peninsulardigital.com"
-      }
-    },
-    {
-      "id": "12fd6521d463",
-      "title": "Cruz Verde no dispensará medicamentos de Plan de Beneficios de Sanitas EPS a partir del 1 de octubre - Caracol Radio",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb0VkZGZKNDNsSWthNW5JOWdQQjQ3UTZ1ODR1bDEyNndocGFOc3lQbFBkRTlhRUFQYTllU2ljTmpDbGgzNDIzVmlTTnMwSWVtYi1zVmJMLURSR3k0Q2pFMjBBd2lUaElDcVcycWZZdmFHcFlnNXBkZnhlOWw0dDA4eUJGMlM2VWdXaW9CZUpkYTlWV3UzX0ZqeHgtMlZxLXNBMWxfSnpuY0VuVHloa3cyY1p5SldJamZXeDVBU1hTOEdZYm1HSFRrZGM5aHdBaFFu0gHkAUFVX3lxTFBBR0Fha0xlTzNmQ012T0JuZUI5VFZPS2ptdXNiYmJ3TVdmWGs0VWhGeW9VQl9hQTdCMWFLaXE5djE2MHlCNndHUzN2aERpUFpaSUJXcEk0NlpCYWN1NkpXNG1KR2VvVVVaWVZlc0V5anZzejAyYTBhSzZrQ0xlYXhVTzJySHA3R2ducXVseGxLY3pVYkFJaFNScENyTmhfeml2bEdIdVlOeVQySXJZNG1wUDVYOUZXQ3NEWnlJXzhNYlFxX0w1emtkUnBiZDY3MzRNM1NISVZCWTF5NDlZdHY2UnZhXw?oc=5",
-      "published": "2026-04-11T20:10:49+00:00",
-      "source": {
-        "name": "Caracol Radio",
-        "url": "https://caracol.com.co"
-      }
-    },
-    {
-      "id": "899d284db2cf",
-      "title": "Cruz Verde anuncia que dejará de dispensar medicamentos a Sanitas EPS - ELHERALDO.CO",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdEt2T0NTcWl0VlVxRUFKbVZ1V2p1dkI1eDlJbk8wYWpCX05CWV8xTUk3NUhxX2ZtcDZhUEpTeGR5SWpvUlNYS1J3S0lkWVdKNVRfQVVCMVowc1BIaFg4QWh3TWRJcnhDV0lRdjdqeVBSdFZsUFdtV3d1eDBqNEhGU1BBb2Q4eDdDWVJHM21mYmlJV2lKZURhTzd6VEN2SUNKcjgxdHZQekZCOGFobW0xUEt0UWV4QdIB0AFBVV95cUxNWGNsMW45dnFia0xXQW5mX25XQXdZanF0Sm9PdjNZN19kbEZWQmtVWmF0a0djLVdzUHdrcnlIVFVKWHJJWU0teXllWnFiMEVKZWpEZzNQY01keEF5LTFadHV4V0VkUnVYUUxSQ3lUa3FXZ2FBaVRneHduZW1RZWhCT2JBZ0tabnlRODJlenZfMkJZV21sR1J6LUoySVNCT1N6d1d5R2lDWGdxMEx5S0pYdHE3azRjeFd6WXptX25KMGVtel9RNm9TUlNXSmkyMVZ4?oc=5",
-      "published": "2026-04-12T02:46:51+00:00",
-      "source": {
-        "name": "ELHERALDO.CO",
-        "url": "https://www.elheraldo.co"
       }
     },
     {
@@ -934,6 +854,36 @@
       }
     },
     {
+      "id": "483cf3f911eb",
+      "title": "No mezcles jugo de toronja con estas medicinas - El Informador",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkhCSmUzSkxOY1JGWkJGekt2UG9nWVN5U3l4V08xblVpSEUxdURjVVl6dF9ESnpqQmp2RGM0ak96YVZHaWQ0MDZTVE8wOWF2bTN2NVlZTENRNFZHcVRjcV9URzluTF93WjZaTW1mQzdIMllSUnFndzE0S1pzV0lHYnctUHhJOVpOTUFkeVFuZlZEX2l0R1pXTE55c3UxR2vSAaQBQVVfeXFMTlc5czBXVktiUW9tVnZ0Q2xGaENpY2ZXZ09EMk5Za05KZXZxWDE2TGxtRGRickNHSVVKNmRwbGRkeFU5cnFjVTBMdlRUaS1WVE5zVWJPV3UxLWtDM1EwMTJlXy1raDQ1NWdoR3BfMUkyZGdWQnNvdWZ1V0NZekxUNnpIWURUSjRmWnhqMjN5Q0RkWUJXSHlHYUxsNGFHTThzQlFkMTk?oc=5",
+      "published": "2026-04-11T16:30:00+00:00",
+      "source": {
+        "name": "El Informador",
+        "url": "https://www.informador.mx"
+      }
+    },
+    {
+      "id": "899d284db2cf",
+      "title": "Cruz Verde anuncia que dejará de dispensar medicamentos a Sanitas EPS - ELHERALDO.CO",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdEt2T0NTcWl0VlVxRUFKbVZ1V2p1dkI1eDlJbk8wYWpCX05CWV8xTUk3NUhxX2ZtcDZhUEpTeGR5SWpvUlNYS1J3S0lkWVdKNVRfQVVCMVowc1BIaFg4QWh3TWRJcnhDV0lRdjdqeVBSdFZsUFdtV3d1eDBqNEhGU1BBb2Q4eDdDWVJHM21mYmlJV2lKZURhTzd6VEN2SUNKcjgxdHZQekZCOGFobW0xUEt0UWV4QdIB0AFBVV95cUxNWGNsMW45dnFia0xXQW5mX25XQXdZanF0Sm9PdjNZN19kbEZWQmtVWmF0a0djLVdzUHdrcnlIVFVKWHJJWU0teXllWnFiMEVKZWpEZzNQY01keEF5LTFadHV4V0VkUnVYUUxSQ3lUa3FXZ2FBaVRneHduZW1RZWhCT2JBZ0tabnlRODJlenZfMkJZV21sR1J6LUoySVNCT1N6d1d5R2lDWGdxMEx5S0pYdHE3azRjeFd6WXptX25KMGVtel9RNm9TUlNXSmkyMVZ4?oc=5",
+      "published": "2026-04-12T02:46:51+00:00",
+      "source": {
+        "name": "ELHERALDO.CO",
+        "url": "https://www.elheraldo.co"
+      }
+    },
+    {
+      "id": "0d311244cfae",
+      "title": "Cruz Verde sorprendió por decisión con medicamentos de EPS Sanitas: fecha definitiva en Colombia - Pulzo",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2RWT1F5emszSkpaVWJjLXBRX2hrYS1pTzlfWndpRkdZOGE1UVRKVzZaX0xXV3pTM0xRdENKY1BIOGNiejRSVWxVM0loV1N4U1BMVUFzaWhZOUt0OXNtOXpSekRKeVRycVBrYXBQd3FOcXlEOTZEelYyUVRLb2tHanl0ZG5Bbnk3MUV1aU55dngzcmJKbklZLWg4eUkzWmNVR2lEV3laRnpxN184T0E?oc=5",
+      "published": "2026-04-12T04:23:21+00:00",
+      "source": {
+        "name": "Pulzo",
+        "url": "https://www.pulzo.com"
+      }
+    },
+    {
       "id": "a0d6b61f669a",
       "title": "Estas son las sedes de La Rebaja que podrían ser puntos de salud y entrega de medicina - LaRepublica.co",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMkR0N3gyRnBvWmFnUEhyRVFxaFYzaGRvTVZlM1dKdmMweDFEcE02OEhoenF6YjdqNDFNb182Mkg3NGlPemM4MWZYTmhVTTFVSFhzVVo5Z3MtVFVLVXQ4d0hYQWJjYUdRRV8wUnB3elJwaUhvSnA1VjBfeWpHRE9SeVB2OVQ3V1Y1VWNBdkZORG0zMnFfRTFjVmNxLWE0a3FNWTlfOWR5OWhUa2dIVGpiYVNtVVZQcHE5NUpTZE05eEtYbTRfQlZuREtB0gHKAUFVX3lxTE9GOFBXVWVBQ2w3NUdjWHB4LXdVWXpLbVFJQ3VJZ2tidTdoZVpkNmdZbmJGTWdvdWMwbFZkSlloRFFBck9aYXE4ZVoyOHR1ZC1FOS1wMVFPX2w3a2JaVGtwcjdVX1hoaXIyOEpMb29McXN6amRtZ3NhdHdGdUtHMzJLa1BYRDVSSXBfVVJSNTkyNEpLR3ZzcTNtbWhQXzUyRFRwZ1FHcVZMLUpWQTF5NlROQlB1V3AwX3FZTEF2VU9xeGtFLWJsLXNRMlE?oc=5",
@@ -941,6 +891,36 @@
       "source": {
         "name": "LaRepublica.co",
         "url": "https://www.larepublica.co"
+      }
+    },
+    {
+      "id": "12fd6521d463",
+      "title": "Cruz Verde no dispensará medicamentos de Plan de Beneficios de Sanitas EPS a partir del 1 de octubre - Caracol Radio",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb0VkZGZKNDNsSWthNW5JOWdQQjQ3UTZ1ODR1bDEyNndocGFOc3lQbFBkRTlhRUFQYTllU2ljTmpDbGgzNDIzVmlTTnMwSWVtYi1zVmJMLURSR3k0Q2pFMjBBd2lUaElDcVcycWZZdmFHcFlnNXBkZnhlOWw0dDA4eUJGMlM2VWdXaW9CZUpkYTlWV3UzX0ZqeHgtMlZxLXNBMWxfSnpuY0VuVHloa3cyY1p5SldJamZXeDVBU1hTOEdZYm1HSFRrZGM5aHdBaFFu0gHkAUFVX3lxTFBBR0Fha0xlTzNmQ012T0JuZUI5VFZPS2ptdXNiYmJ3TVdmWGs0VWhGeW9VQl9hQTdCMWFLaXE5djE2MHlCNndHUzN2aERpUFpaSUJXcEk0NlpCYWN1NkpXNG1KR2VvVVVaWVZlc0V5anZzejAyYTBhSzZrQ0xlYXhVTzJySHA3R2ducXVseGxLY3pVYkFJaFNScENyTmhfeml2bEdIdVlOeVQySXJZNG1wUDVYOUZXQ3NEWnlJXzhNYlFxX0w1emtkUnBiZDY3MzRNM1NISVZCWTF5NDlZdHY2UnZhXw?oc=5",
+      "published": "2026-04-11T20:10:49+00:00",
+      "source": {
+        "name": "Caracol Radio",
+        "url": "https://caracol.com.co"
+      }
+    },
+    {
+      "id": "83e8bfc4abe5",
+      "title": "Cruz Verde no renovará contrato con Sanitas EPS para dispensación de medicamentos - hoy diario del magdalena",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaFZBRS0xQ1lScUFvMWozam4zckhBMnA4b1Z0VEZQTmdiS2o0MXdabFBnZlFYeW1pSHdMYWlyNERfQWNvZE5zbW8tSmktYUVqQkpCRFA1eFItaDIzaHV6T0tMU3o2QzRkT0ppSU1XUTlXM0ZiQldTSHRobHFqbVpwNjFLSWZkWFFtTm5KMS14bW5GaVktaVZsdEdVNkVOWVhxZDhldXh1RDI2clR3OVFLUmRvVzNPNlpZenJDMEh4NHFsV1BVUnc?oc=5",
+      "published": "2026-04-12T12:18:02+00:00",
+      "source": {
+        "name": "hoy diario del magdalena",
+        "url": "https://hoydiariodelmagdalena.com.co"
+      }
+    },
+    {
+      "id": "c8bd7b0ba43f",
+      "title": "Mejora de la calidad de los medicamentos para la salud materna: ¿Qué pueden hacer los parlamentarios? - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV1Nibm4yS29oZzU5Zm1hRXBSTko1TjZmZ1hiQk5FQzY3OHJ5aDlDblgzeWVZdjZhWXpfdkY0amhYc3ZhNF82YWoyZEtwR2tEVFExdmtTQ3JvWUhYbmlOZ3VMcUxvQ2RkbUdMbjRtOXRFVDdNRkJGOS0zRThHdXJyZnNCYVJDNmM0UTVPLWtIczl2M182endvdDhhRG1LaUwxYjBqd0IycFM4cnY2cml6QUNtVlBWWkRDYm1GUVRoUTRqZTVOSHg2TzV6QmtqMTRmN2c?oc=5",
+      "published": "2025-09-17T07:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -964,13 +944,13 @@
       }
     },
     {
-      "id": "c8bd7b0ba43f",
-      "title": "Mejora de la calidad de los medicamentos para la salud materna: ¿Qué pueden hacer los parlamentarios? - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV1Nibm4yS29oZzU5Zm1hRXBSTko1TjZmZ1hiQk5FQzY3OHJ5aDlDblgzeWVZdjZhWXpfdkY0amhYc3ZhNF82YWoyZEtwR2tEVFExdmtTQ3JvWUhYbmlOZ3VMcUxvQ2RkbUdMbjRtOXRFVDdNRkJGOS0zRThHdXJyZnNCYVJDNmM0UTVPLWtIczl2M182endvdDhhRG1LaUwxYjBqd0IycFM4cnY2cml6QUNtVlBWWkRDYm1GUVRoUTRqZTVOSHg2TzV6QmtqMTRmN2c?oc=5",
-      "published": "2025-09-17T07:00:00+00:00",
+      "id": "8b7214656dfb",
+      "title": "Nueva provisión de medicamentos optimiza capacidad de respuesta en servicios de salud de Concepción - mspbs.gov.py",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNLTFWVWpTWmExc2Q3WDhnZ0JpVkJGU3J4VmhXaHBraGloMFRqblhfamNPUEV3a0xJY1dqak1obmRhaUs2WlZFdWxwWVVTVV8xLXdGTkdDZXU3MkU5eklRcjJqT25MUnZ3Z3gwZ2tOS25ZUzVLMTk2SmJDTEFFalpoUEhjSEE5dTg0OU5qMW9qTHVLTDZTUmFWSlRkS2FZM2R6ZF9BVGpiOGluZmpUakx5dGg0TlZpbk9iR3lBQTltM3dWY1c0N1JVdXFmRmdEN3FaZ3lCSkxKVlQydw?oc=5",
+      "published": "2026-03-25T14:11:24+00:00",
       "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
+        "name": "mspbs.gov.py",
+        "url": "https://www.mspbs.gov.py"
       }
     },
     {
@@ -984,23 +964,43 @@
       }
     },
     {
-      "id": "95f07155344f",
-      "title": "La Planta de Medicamentos de San Francisco podrá abastecer a municipios de la región - La Voz de San Justo",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOFhCTmJGbXRYSFkzdGw1eUN1dElEbEFfMXlFVVlYUjJCV0FscDgtRThLMmkyelhHc1M3V0gtN0VLR1NJM2d3ZW9xVFd6WU9EOEYyMnpSNEprZXBNRjA1eDdrSmlwX2FkcGphNmJHdkZTQ012UTJHN2RFOTVKZjl4MlNUYktrZHpITkZZcURZUUhXNnVhTXN1VUpKTWVzdUN2UjVDVnhMU3pDOU81MkdiN3BoUklFdVI1b2tF?oc=5",
-      "published": "2026-04-11T13:57:00+00:00",
+      "id": "ae0b2ecf8b31",
+      "title": "Kreplak alertó que el sistema de salud está “en estado crítico” y advirtió por la falta de medicamentos - Diario El Norte - San Nicolás",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQalZpbkFnWDA2am9uRWJEMnpXSzdoVzVrdGNjMDM1TnNGVTBFeHBxOHdLU3MyYVp0NFZSTzNLNW5SbGxhaDdjdE02RzdfR1RHQzNwRHFGTzFXN1dkVVQxRmVCdldWNEt1dVdva0I2bkRucGdTN1V4Z2QtaHUza1lnOTVsSUZlYUFIRVh5SnBQRURPMFhGU1duc3ZXZkRFbDJaekRaN1ZaWTF0MGpmejNiazFiV1FVSGZiX05ZNXFlQVhHWGdHTlVZUVhQUQ?oc=5",
+      "published": "2026-04-09T22:28:21+00:00",
       "source": {
-        "name": "La Voz de San Justo",
-        "url": "https://www.lavozdesanjusto.com.ar"
+        "name": "Diario El Norte - San Nicolás",
+        "url": "https://diarioelnorte.com.ar"
       }
     },
     {
-      "id": "8b7214656dfb",
-      "title": "Nueva provisión de medicamentos optimiza capacidad de respuesta en servicios de salud de Concepción - mspbs.gov.py",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNLTFWVWpTWmExc2Q3WDhnZ0JpVkJGU3J4VmhXaHBraGloMFRqblhfamNPUEV3a0xJY1dqak1obmRhaUs2WlZFdWxwWVVTVV8xLXdGTkdDZXU3MkU5eklRcjJqT25MUnZ3Z3gwZ2tOS25ZUzVLMTk2SmJDTEFFalpoUEhjSEE5dTg0OU5qMW9qTHVLTDZTUmFWSlRkS2FZM2R6ZF9BVGpiOGluZmpUakx5dGg0TlZpbk9iR3lBQTltM3dWY1c0N1JVdXFmRmdEN3FaZ3lCSkxKVlQydw?oc=5",
-      "published": "2026-03-25T14:11:24+00:00",
+      "id": "43cdf78053b8",
+      "title": "Preocupación en Tucumán por el recorte de medicamentos del programa Remediar - La Gaceta",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRzNXdExIeXpIUkN4UlNnMFN0MjR3Zkw2cFRyRjFscjdUM3BneVVTQV80V09hRHZqR1ZENWNOY3lPZkJmTTh3N3NDc0wwbVdOdjFPN3hXLWY2cld2R2xKTDhVUktLVVV0UmdaVkpRRHBOaGRJRWFFdWNiRWE3TTRNRWotbTVGeGFJUDhRTU9KLU53azZyT1RjbXZLXzBPSGNQREtVcTR5NVExWHVVanFGUUx0YjDSAboBQVVfeXFMTXQwb1pzVm80ZlZPMXFEODFjMERuS3l5c3pJYnp6R0RjaVdMRlBjeV85Smo1ZjJZYU8yNUZpX3ZQLUYwWFBYRXBBV3I5U3c0akpQR0Y0WXlLaFZmaGlsdEQ4VFM3WVA2ZmY4cVpreTFBMDZpT0xkYjFsQ3Q3V1BSUHY1RWhRX0cyOTBwalhpRmJ1bWZ5VlFlQldvRjZJT3NBUHRYdEVmdEZZS3M2M0l5RUJGT1drNXF0Q2dn?oc=5",
+      "published": "2026-04-10T00:12:53+00:00",
       "source": {
-        "name": "mspbs.gov.py",
-        "url": "https://www.mspbs.gov.py"
+        "name": "La Gaceta",
+        "url": "https://www.lagaceta.com.ar"
+      }
+    },
+    {
+      "id": "2f47f8841bfb",
+      "title": "Fiscalía Anticorrupción de Chihuahua detiene a presunto responsable de desvío de medicamentos oncológicos - El Financiero",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMU1oNHlFc24tZUhDUlc4bUpsY1RGalA5eEsyLWQwdnNyLVJBb0l4V1ZpVE9ldmd3UFNoOGV6ekxjSDZXOEVvOFhDc0Z3blBxVUFKUHphWXVuVnl1MVpBQkdPZWdYc0tQVDhlbGpyX2x4UlhUSTNwbnVSOUR0N3d5TFFPeFpSTjRwYnE4aVpQc3ZNVVpjQmlNWER1ZXFKT2RGdXFiblBuZWt1SkRfRHRENnJQM1hPbUFJVU84WnVsLVJ3dVMwamt6R2cweVRWZ1ZkUW1SN0FHSS13SS14VHU3UXhxcEFSR3BRdHduRnBn?oc=5",
+      "published": "2026-04-10T16:20:32+00:00",
+      "source": {
+        "name": "El Financiero",
+        "url": "https://www.elfinanciero.com.mx"
+      }
+    },
+    {
+      "id": "a843494cedc8",
+      "title": "Medicamentos que dañan los riñones: lista de fármacos que debes usar con precaución - MSN",
+      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQUFZHMENFQmNvQnczdkxUU1pjci1oRXBPUVBtUUtHNWtLS2RpVl9JX21RYVRYNm1leUtQd21jTUhEUjVuS0ZXY084UlNvSGxfOU5WOTBaUnlHS2lGSmlHbkQxOVlSS2Q5Z294OS1taFRhOHR0Mk0xY093QTFjQUlITl9uOFJFa3JOXzA0LWVWNHltdWNuUkhyVDR3a0JZTHE4Ny1IWVB1SVRvczNtUE9hN2sxRVVmaWxHQjYtaXE1NUFNcXFpNEpaT1VLb3FKTk9aM0RyaGY3Zm1OY0dpUGJ3Sno0UVA5ZkNrOXJjaG1xa0tmbGlJbTFoLUtKQWFwc1NVYmJGS2ZuWW9menRkSE42cW9MQ2l3Nm02NGRBWVZ0N1ExWl9LaGVtRVNtbkJodlpxZm1fVXNzaw?oc=5",
+      "published": "2026-04-10T23:46:15+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     }
   ]
