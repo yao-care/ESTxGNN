@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-06-29T18:55:10.295042+00:00",
+  "fetched_at": "2026-06-29T20:45:06.670541+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "4ac0c6764ce4",
-      "title": "Los precios de los medicamentos en la sanidad pública serán secretos por ley - El Correo",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTF9Wd0x3ejRhWHVJTTRqSG4tTUVoMXU2RFRkUHhocmlDMnFHcTUxVWk0UklETHlQdXlzaDY0SHBfakw4NHdLakNYNENSaERJUUxOdEpZa1hDNERnS2YteVE4Q21Pa0xFVnVJUG1JMGphbnN2cVZtbVJNTWFKbDlUSW94NWdSdDZscm53T2dYRTAyQk9zdnVLMW5CajBCaDFoa3k4RjFhcVBwencw0gGyAUFVX3lxTFAxRVkzazBWd1VBejZJRzI5bTVqRE95Wm9lZ2NrOUtsMmlBcnEzUWotWTZBeHZCQjdmbXhmQy1iLThqbDhoeE5USi16MExFY1ozZ01RQnBhRndRVEY2X3dCTnRTTnYxcUFYQXRpN0RCXzlwNkZrcU03azgtdXc4RGhrXzBDSFVOLWk4SWdBSE9nZGZyQWxSMU02MFdvNmd5bUdMZlpKc3llTnN3MTl2OU1LMWc?oc=5",
-      "published": "2026-06-29T15:03:15+00:00",
-      "source": {
-        "name": "El Correo",
-        "url": "https://www.elcorreo.com"
-      }
-    },
     {
       "id": "669a0bcf449d",
       "title": "Un medicamento para la diabetes previene enfermedades del corazón - OkDiario",
@@ -21,6 +11,16 @@
       "source": {
         "name": "OkDiario",
         "url": "https://okdiario.com"
+      }
+    },
+    {
+      "id": "4ac0c6764ce4",
+      "title": "Los precios de los medicamentos en la sanidad pública serán secretos por ley - El Correo",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTF9Wd0x3ejRhWHVJTTRqSG4tTUVoMXU2RFRkUHhocmlDMnFHcTUxVWk0UklETHlQdXlzaDY0SHBfakw4NHdLakNYNENSaERJUUxOdEpZa1hDNERnS2YteVE4Q21Pa0xFVnVJUG1JMGphbnN2cVZtbVJNTWFKbDlUSW94NWdSdDZscm53T2dYRTAyQk9zdnVLMW5CajBCaDFoa3k4RjFhcVBwencw0gGyAUFVX3lxTFAxRVkzazBWd1VBejZJRzI5bTVqRE95Wm9lZ2NrOUtsMmlBcnEzUWotWTZBeHZCQjdmbXhmQy1iLThqbDhoeE5USi16MExFY1ozZ01RQnBhRndRVEY2X3dCTnRTTnYxcUFYQXRpN0RCXzlwNkZrcU03azgtdXc4RGhrXzBDSFVOLWk4SWdBSE9nZGZyQWxSMU02MFdvNmd5bUdMZlpKc3llTnN3MTl2OU1LMWc?oc=5",
+      "published": "2026-06-29T15:03:15+00:00",
+      "source": {
+        "name": "El Correo",
+        "url": "https://www.elcorreo.com"
       }
     },
     {
@@ -74,26 +74,6 @@
       }
     },
     {
-      "id": "8f6fd8aceeab",
-      "title": "El Congreso aprueba mantener en secreto el precio real de los medicamentos - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWXpFemZLb2ZUdlNrdGRjT2poMjE4LUdILWF1ZlFQckR1QU1UZmp5SHh0d201Yk5sOTVQMWx3VlhzMk9DckJUa3lNTG5POEVzODZfT2IzWF9qbHBtSHVaUWZKQUZyWGhybXFjOG96TUJSUWhybEtlbHJES1pjTXBJQ1BSN0RaMnpTTWxLUVV3SWVNR0wxTzNILTNnbnVxVWFkenVEanRVdkdKYXFOeUNia3RTY3MtOENFSGtBcGk2cnNPcEc4Z180WXVCay1keFRVOE4wWE40T1JXUk1JSG9PT3YyNE1sWk5hQUt4TlRseHc4ZHhGQ3VV0gHiAUFVX3lxTE9NWk9fSFNwNVNPMTlUdjVnSU1Hb0ZyR0JsanN3NjdkSWRGRk92QXpRNVR6b1hpa0dJTkFDTWZUYTBMc0tnQkYtVnRUOXVHQnhzRW1sV050WTc1d01aYndEd3hOZVg3RXU2cTQ3RFptVnNHWHplem55U3BrN3lCaHh2aF81RFg0ZmJsNmxEME1vQThNMWxJdjd4WWtDNmQyUGhSSnNGMkhiajQ0c0pBQWZEZ29ma0dKdWdzeEhJWGNPMmp1aFR0VUZ6cXp0UG1PZXVTTWVTZ1ZOc0NXek5CX0h1SUE?oc=5",
-      "published": "2026-06-26T09:11:28+00:00",
-      "source": {
-        "name": "El Economista",
-        "url": "https://www.eleconomista.es"
-      }
-    },
-    {
-      "id": "372af6552bc2",
-      "title": "Proyecto_Vac_Med_medicamentos_vacunas - Instituto de Salud Carlos III.",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSTZBNVFQT3JCV0p1RXFSVzUwNHlINzZQb1BVb3NsbW13ang1WWUtTlBDREZjbnRTZ0RYN1NBUVYwZkVNcjh4cnVhQWJSSlJVa1dwVDhFS3RyNjlhc3VzYkNSWXpWSS10WFBIWE5QUHpsR0JnNU5CTmZhRGdKUUN2a3k5Wl8td2E0T1E?oc=5",
-      "published": "2026-06-29T08:14:01+00:00",
-      "source": {
-        "name": "Instituto de Salud Carlos III.",
-        "url": "https://www.isciii.es"
-      }
-    },
-    {
       "id": "b28290e083d7",
       "title": "Las claves de la integración de la farmacia hospitalaria en la atención a la salud mental - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV2l4X01vS0d4dFpKT1NGX3M4XzdYT1MwTExJblU4QnYtX3lPQXNBcURONjlpTzVtZ1lwbEp0Q0ZISmtOby1qaDhQbnZPZU1yckhUV1FyR0lDQlpzcnpfVVVTdVdNY1pMeS01ZjE2WmpKMWg5QnJDQUI1TW9BYnYwMnVGNndDdGxDVjJWNzRFTzdFZzBsaEFqdEwzeUp3aE0?oc=5",
@@ -107,7 +87,7 @@
       "id": "a8bea572c7d3",
       "title": "El Sergas diseña su futura Central de Compras para aportar eficiencia al sistema - Diariofarma",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU0M0ZE9XZ3pDOGpXUE9nckRXVVpwQ0dhTnJDcV9hYnluM2pEcTQ3T0NicmhtWTNCT2hSbkswSFg1R2tZWWZLLTljTGwwZ0R3UldUTXB1NUlJc3dfeHRDSWM0TGRvazQyeG4tc2c4TW9ybFQyNi1PS2FXNW5TU1F4X0xKMWxod3NHbE52akxXSHZqal82OVprejNJTjdQVkd5V2lieTRNMVZjX05QTThPaXVDSFdnZw?oc=5",
-      "published": "2026-06-29T14:39:58+00:00",
+      "published": "2026-06-29T14:40:33+00:00",
       "source": {
         "name": "Diariofarma",
         "url": "https://diariofarma.com"
@@ -184,16 +164,6 @@
       }
     },
     {
-      "id": "00a2e1c234b2",
-      "title": "Cómo diferenciar una alergia a un medicamento de un efecto adverso y cuáles son los síntomas que requieren atención - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaFVMRW1KV200a0dTdHBhMU12MGZWclZReXVRX21Rd0hsQ1ZOWWtkUFNiS3FxTjhZTFQ3WFRtYTB3d2c4UnhNNTdBanVURFI4SFVKWXhKS0ZiTXM2LXVVZHVmQWwyZF9ESldZRzNlSTZab0VLR3diQkFpTkZ2S0hMUEd0UndMbWd2ZkIxRW1FMlNad3owb29Ha3cxMlByMVQzeHNzOHhyenNZSzc0TjczaHg5N1J6LUwxUloyVzhYcXpTVVBqNXVZb2FWbVhmSEhTZ1NNQXUwczlQQWs4SmNha2psM0s2TGo1d292UUpR0gGIAkFVX3lxTE5vT3AwT2JVTDVLVWhQM0s0SGNyY2NoRFRsdm5rOTRUOUdnYm5JZ2pKVHdsQlFnNy1xajNBUmQzOHNrZUs4LWpCbjQ4UFNQT2Jld2JqRmNvV0ZOYTNXa3ppaDY4Rm00Rng2SVBYTVJTY2t0YnVwV1pCMGlKaWZlTGhMZWRrYy1WSGZxUEpvdVhSQVlzNWFQVlZVQ0t0RW12TFJ2c2pVaE1jWG1LUTFDMEp5Tl9OcHRZaE54Z2VsSUZYVUQtWFItNHlUd2dPbmYtZG8xY0xiWmlSemFCdU9hY0lwOHpzN016OUFEcDJ0bmtzOVpTY29wb2lVVXpVbWdOZzZDZklCTkJuVQ?oc=5",
-      "published": "2026-06-29T13:45:53+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
-    {
       "id": "8bc1fb14a0a6",
       "title": "El Gobierno actualiza la regulación del sistema de verificación de medicamentos y avanza hacia la eliminación del cupón precinto - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pQ21XZWY5b2ZBRlpfMnJndllJUW9aaDlpbE5HOV9NUmNaRXFMb2RXSHVmVk4tWGRsajJzUHU0QnNORk1Wd2JTcEQzUGxzemRGQ1dzclh4YTJ5X2VEa0NmRjhUbTFmV3BhYUE?oc=5",
@@ -201,6 +171,16 @@
       "source": {
         "name": "Ministerio de Sanidad",
         "url": "https://www.sanidad.gob.es"
+      }
+    },
+    {
+      "id": "c22608b4eb06",
+      "title": "Sanidad ordena la retirada urgente de este conocido colirio para los ojos - Diario de Avisos",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmVaN2Y3bC1Fa0JNV3B5WjdSeXJCbWUwRERib2h1MlFRT0ctQTE5aDJnYzB4cWV4Y1FIRW5MTktVeGh4RVI4amF2am1tWXhhWHd1ZVVGRHFPc1NCWDByMTNLOWVQTGRFTGhjZ2R1UXphZFB3dE1abU5aUUV2Mkp5akdlaXfSAYoBQVVfeXFMT0NWanBuRUN1QXhBaTdEU3BNb2lVNld1d2RNSG1IdXpUX1hwT2pTQk9KZUhubndUMnJVeFh2cURVN01BZU5vVVhLRkFjN3pxQzVUdHhNc2hjU3JtNXNTMWdmOEJJZUxod3VMeVJHUUw5ejRGOS1QYlRxZFUxR3Q4Z2d5TlZUMHIxQ0RB?oc=5",
+      "published": "2026-06-29T10:24:11+00:00",
+      "source": {
+        "name": "Diario de Avisos",
+        "url": "https://diariodeavisos.elespanol.com"
       }
     },
     {
@@ -254,26 +234,6 @@
       }
     },
     {
-      "id": "c22608b4eb06",
-      "title": "Sanidad ordena la retirada urgente de este conocido colirio para los ojos - Diario de Avisos",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmVaN2Y3bC1Fa0JNV3B5WjdSeXJCbWUwRERib2h1MlFRT0ctQTE5aDJnYzB4cWV4Y1FIRW5MTktVeGh4RVI4amF2am1tWXhhWHd1ZVVGRHFPc1NCWDByMTNLOWVQTGRFTGhjZ2R1UXphZFB3dE1abU5aUUV2Mkp5akdlaXfSAYoBQVVfeXFMT0NWanBuRUN1QXhBaTdEU3BNb2lVNld1d2RNSG1IdXpUX1hwT2pTQk9KZUhubndUMnJVeFh2cURVN01BZU5vVVhLRkFjN3pxQzVUdHhNc2hjU3JtNXNTMWdmOEJJZUxod3VMeVJHUUw5ejRGOS1QYlRxZFUxR3Q4Z2d5TlZUMHIxQ0RB?oc=5",
-      "published": "2026-06-29T10:24:11+00:00",
-      "source": {
-        "name": "Diario de Avisos",
-        "url": "https://diariodeavisos.elespanol.com"
-      }
-    },
-    {
-      "id": "6e9def9ff6ed",
-      "title": "Las hoja de ruta para impulsar la vacunación desde las farmacias: más competencias, mejor acceso y financiación estable - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONDNaQVR1dlNfSFhjTzJ1M2lWT2l3ejN3U2tPZVpndUF6SFZtX2NrYVJSODhZYVFvZGZobVdwNmxQZjBidXJYRU1QR1NZVG9HMGk5Qk9udGMwTk8wZmJYV2gzeXJCMmlGV01BdTMxR0t6Nmo0MURYR2hDVWNPWURORVFscnZ4a0dOblc4TkMzSjFLMGcwN0dVRVg4aXViV2c2d2F0RUEya09mN0Jrd1BDUDhMelpSWGhLbnZ6WDNuNFQtR0xmX29XZDVjWGpMM0wtLUx4YUhCU3IwVGtYc3FDRExJWjg3Mmlr?oc=5",
-      "published": "2026-06-29T15:27:59+00:00",
-      "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
-      }
-    },
-    {
       "id": "9f52f19a10a3",
       "title": "¿Cuánto tengo que pagar por mis medicamentos? - Comunidad de Madrid |",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQOUY0bHk1eks3V19NSGd2NDdLZzk2eER6RU9nV1ZwWEtpNG1aNEduX1lOa3daby0yRVFhMWZDUkNKUFFKUTQzbkpkTVF2V0lZcjc4bktiZnJhdmxSNjlpNnJrcmtYd3RINmFqZHJmQ09YNmN1UC0xOHpB?oc=5",
@@ -284,6 +244,16 @@
       }
     },
     {
+      "id": "00a2e1c234b2",
+      "title": "Cómo diferenciar una alergia a un medicamento de un efecto adverso y cuáles son los síntomas que requieren atención - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaFVMRW1KV200a0dTdHBhMU12MGZWclZReXVRX21Rd0hsQ1ZOWWtkUFNiS3FxTjhZTFQ3WFRtYTB3d2c4UnhNNTdBanVURFI4SFVKWXhKS0ZiTXM2LXVVZHVmQWwyZF9ESldZRzNlSTZab0VLR3diQkFpTkZ2S0hMUEd0UndMbWd2ZkIxRW1FMlNad3owb29Ha3cxMlByMVQzeHNzOHhyenNZSzc0TjczaHg5N1J6LUwxUloyVzhYcXpTVVBqNXVZb2FWbVhmSEhTZ1NNQXUwczlQQWs4SmNha2psM0s2TGo1d292UUpR0gGIAkFVX3lxTE5vT3AwT2JVTDVLVWhQM0s0SGNyY2NoRFRsdm5rOTRUOUdnYm5JZ2pKVHdsQlFnNy1xajNBUmQzOHNrZUs4LWpCbjQ4UFNQT2Jld2JqRmNvV0ZOYTNXa3ppaDY4Rm00Rng2SVBYTVJTY2t0YnVwV1pCMGlKaWZlTGhMZWRrYy1WSGZxUEpvdVhSQVlzNWFQVlZVQ0t0RW12TFJ2c2pVaE1jWG1LUTFDMEp5Tl9OcHRZaE54Z2VsSUZYVUQtWFItNHlUd2dPbmYtZG8xY0xiWmlSemFCdU9hY0lwOHpzN016OUFEcDJ0bmtzOVpTY29wb2lVVXpVbWdOZzZDZklCTkJuVQ?oc=5",
+      "published": "2026-06-29T13:45:53+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
       "id": "c65448e3fc6b",
       "title": "Riesgos infecciosos asociados a los fármacos biológicos utilizados en enfermedades inflamatorias de origen inmune - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRXRIakl5dTBPZVlYZDBXZExKNU5wSWxRZUV1TkdOMUo2aU9SSmdZZjFJQy1pcW13NkN2ZFZSdkJ1eEczdmZiRnl0Mi1TWW1VdEdkMnJZR0VSQlVleHdGNHh0SjNvLUpTZ3V4UzcxYWplVkY0QjZnTmp0bE9qOUNTZmdLWUdKYmduUTBHVHo3bHk4VFBPazhhV1lVanN0ZUdEVUJ1d1ZnX3owczBOSThDX0FDdUdoWlV1QnZWVlB2WkJvanhYeFJEUmNGZDFVV0VKbFlyT1ZVUFVkQQ?oc=5",
@@ -291,6 +261,16 @@
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "6e9def9ff6ed",
+      "title": "Las hoja de ruta para impulsar la vacunación desde las farmacias: más competencias, mejor acceso y financiación estable - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONDNaQVR1dlNfSFhjTzJ1M2lWT2l3ejN3U2tPZVpndUF6SFZtX2NrYVJSODhZYVFvZGZobVdwNmxQZjBidXJYRU1QR1NZVG9HMGk5Qk9udGMwTk8wZmJYV2gzeXJCMmlGV01BdTMxR0t6Nmo0MURYR2hDVWNPWURORVFscnZ4a0dOblc4TkMzSjFLMGcwN0dVRVg4aXViV2c2d2F0RUEya09mN0Jrd1BDUDhMelpSWGhLbnZ6WDNuNFQtR0xmX29XZDVjWGpMM0wtLUx4YUhCU3IwVGtYc3FDRExJWjg3Mmlr?oc=5",
+      "published": "2026-06-29T15:27:59+00:00",
+      "source": {
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
       }
     },
     {
@@ -344,6 +324,16 @@
       }
     },
     {
+      "id": "66756640bdb4",
+      "title": "El avance que podría cambiar el tratamiento del cáncer de próstata: logran bloquear proteínas \"imposibles\" - consalud.es",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMGtLaVF5Qk5sT0lIVlc0Y1M0eXpxSTgxWDhYTjJPdzRqX2hJNWM1czYwZVRjMGlnLWVEeWN1WjdsRXRIV1JhbGJ5M0FPdi1Tc2dKQ1JVRmV4bDRaQVdLTkxtdjVTMWxNVGhiS1FGYXlmZWQyejZTZkpYakVjTkl6bkFxS3N0RzRhdmxtek9RTWhoUl9HclI1LWVWWlBvVjE3Mk5kYUtQZVNqcnpMMGJyY0pOLU5VT1RhYXRTQzM2V2xVRlVWQzVYb1NjZGJqb1Eta01KeEtvTENaZm4yWl9PRjQ3aGliSUdCU2lxZC1oWjN5dw?oc=5",
+      "published": "2026-06-29T20:30:00+00:00",
+      "source": {
+        "name": "consalud.es",
+        "url": "https://www.consalud.es"
+      }
+    },
+    {
       "id": "1eb6e6ca72fa",
       "title": "Boletines Salud y Fármacos (mayo 2026, segunda entrega) - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZzhfNUF0Y0NQX216WEtpZktIZWdsNG1McU51TGNtQ1dpWnBXNDA1M05DcXUzcFQ0amZVOTYtY0FoVjhZZDFjajcwdEotdHNpRkV1emRJcW9qa3huM0lOSHlQdW9HNGt5dzlUTEJhbUdSZ3E5WWpaVE5qbmxSZ0RIU2ZhM3BEYXVf?oc=5",
@@ -374,26 +364,6 @@
       }
     },
     {
-      "id": "c65875e598da",
-      "title": "Plasma de convalecientes para el tratamiento de pacientes con COVID-19 - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0p0cFBsaURKUzdwd1lxUXNSRGtORHFjSEIyOXFoRlNCYzZwRFhTSVFqYkd6dVRHbkFWYlF4cUR3bGJXZl9EMWo5ajlQUTRWNjBLZUJqb05ONFJ0T1hPTzB3U25IRnJWOXkwRWd5MHNaa0pzM0t3WXVBdGhxT2tQV2RYZnpEMkdIRXdZNFFYN1dPalNXWU1FbFl2VlUzZm5D?oc=5",
-      "published": "2026-06-29T17:57:10+00:00",
-      "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
-      }
-    },
-    {
-      "id": "d3f84fd8d1ec",
-      "title": "Los residuos farmacéuticos se consolidan como uno de los mayores retos ambientales del sector salud - consalud.es",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMkRpdW05UW1iakJqZUV5U0ZwOXMtaEQ3MWJoQ2JwV2oyYnZRZTRsYVBDSmt3cGIzakVQM190UTR5WF95OFBmb2pkMVpmMnp0T2ViSEpOaHNhT1ZRRThKazRsTWg1RVFfTExlVjJ5RnpRbFFFazlOajNXNXo4STdRSWhvVmI2TGEzMGRfajVrN2R0MlZYMklhMldsRTZIdDhVOHRTTTNENmVMRXFuVG1aLUprNHBydlJOa25lZ2FkaUY2TXYwd2JOOTdrSWsxXzVhNTMyVmQzSHBoY25aclE?oc=5",
-      "published": "2026-06-29T05:00:00+00:00",
-      "source": {
-        "name": "consalud.es",
-        "url": "https://www.consalud.es"
-      }
-    },
-    {
       "id": "f6a34f32f1c2",
       "title": "Manual para el Desarrollo y Funcionamiento de Centros de Información de Medicamentos - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ3BPNmJUcVh2QlRjS2ZtTEUtb1JqQ1lIWjhyVzVSTFJQMFA3YTB2WGVTR1dBN1VmSnpsVGJQaER4R1h6Z3l5ZUFrT3h5alFXWDNGM2hweE44YU9FVlM2d1drUlJ2N0pRVDBISGhoS0hUV0hBdGZLVTVwbGdnR3BDTDZlWXhQU1ozRWNGWEFDdWVSNG1wdVZHNWJZcTdKR3FHQUI3aGFGY1dENzU1QlFvVHBhYw?oc=5",
@@ -404,13 +374,13 @@
       }
     },
     {
-      "id": "6c01d961bb06",
-      "title": "Antonio Mingorance: \"La farmacia tiene todavía un enorme potencial por ofrecer\" - La Razón",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUTMzczItUHdUMFdIeUVDekdsSnlYa3Q3TGFVTEFYZUpfNGxsM28yaXZmSEVvVjNTUWdrSWlOWHE5R3VNWGZJQWhWZWlfUnI3dkVvVDY2dE4xdV9qOXRmRXlGNkdsV18zVm9TNzJLQkl3dnpPc0Rwb01UcmpEQkhkaVJVSS1BaTQza0xDN3ZYaU9nWC1vRUN6N1pnX3QyeW5hTWo3N2pnWEU5ZjJCdVI2MzlRS0hnN09SSXBzVE1mTkthOXN6OHpPNklKZlhyd9IB4gFBVV95cUxPdTZLR01jcjQ4R09YX3d1QWVxQXRLZnZqT0szVmE4X0N5V1R1Z2lmX0Z5SGFGQVdyQTNSMEYxX1JGOUZkTFROZmdnd0FjMk5ZQlh1bTM0NHNoR2Y5elRORHNhc043MDRnd1d3bnNMNzFEaERkMzU0VzB2amhGN3Z2TzlONE51dnVFYWhCd1RxbGVaWjEwUmlnVERfQy1ILUFjaDBTWU5VOTh3OHNLNGdXY0NYT0FoTHJaZ2h6djJUTElMdFFvYUF3aENBaWRrazNzbElLWW1ldUFxTExRa1BlUUV3?oc=5",
-      "published": "2026-06-29T00:00:21+00:00",
+      "id": "c65875e598da",
+      "title": "Plasma de convalecientes para el tratamiento de pacientes con COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0p0cFBsaURKUzdwd1lxUXNSRGtORHFjSEIyOXFoRlNCYzZwRFhTSVFqYkd6dVRHbkFWYlF4cUR3bGJXZl9EMWo5ajlQUTRWNjBLZUJqb05ONFJ0T1hPTzB3U25IRnJWOXkwRWd5MHNaa0pzM0t3WXVBdGhxT2tQV2RYZnpEMkdIRXdZNFFYN1dPalNXWU1FbFl2VlUzZm5D?oc=5",
+      "published": "2026-06-29T17:57:10+00:00",
       "source": {
-        "name": "La Razón",
-        "url": "https://www.larazon.es"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -424,13 +394,13 @@
       }
     },
     {
-      "id": "6bbe60f2b877",
-      "title": "La evidencia en tiempos de coronavirus (COVID-19) - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQanQ4NDNlYlVpbkJKQWp6X3Zxa1E5UTBjS1dPaGZERDQxRG4tNjQ1UTBHQkk2bVVuU2VTMVZnQ1o3dS1zZE1xZXh4MHBvWFVNbnJ4NnJNRVVIRmU0TGtvUG5uMlhxWUVQZS1XNXhROHBTaEo3ZTRpaGlqN1lreXlGOThB?oc=5",
-      "published": "2026-06-29T18:08:06+00:00",
+      "id": "d3f84fd8d1ec",
+      "title": "Los residuos farmacéuticos se consolidan como uno de los mayores retos ambientales del sector salud - consalud.es",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMkRpdW05UW1iakJqZUV5U0ZwOXMtaEQ3MWJoQ2JwV2oyYnZRZTRsYVBDSmt3cGIzakVQM190UTR5WF95OFBmb2pkMVpmMnp0T2ViSEpOaHNhT1ZRRThKazRsTWg1RVFfTExlVjJ5RnpRbFFFazlOajNXNXo4STdRSWhvVmI2TGEzMGRfajVrN2R0MlZYMklhMldsRTZIdDhVOHRTTTNENmVMRXFuVG1aLUprNHBydlJOa25lZ2FkaUY2TXYwd2JOOTdrSWsxXzVhNTMyVmQzSHBoY25aclE?oc=5",
+      "published": "2026-06-29T05:00:00+00:00",
       "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
+        "name": "consalud.es",
+        "url": "https://www.consalud.es"
       }
     },
     {
@@ -444,6 +414,16 @@
       }
     },
     {
+      "id": "6bbe60f2b877",
+      "title": "La evidencia en tiempos de coronavirus (COVID-19) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQanQ4NDNlYlVpbkJKQWp6X3Zxa1E5UTBjS1dPaGZERDQxRG4tNjQ1UTBHQkk2bVVuU2VTMVZnQ1o3dS1zZE1xZXh4MHBvWFVNbnJ4NnJNRVVIRmU0TGtvUG5uMlhxWUVQZS1XNXhROHBTaEo3ZTRpaGlqN1lreXlGOThB?oc=5",
+      "published": "2026-06-29T18:08:06+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
       "id": "725e265a7402",
       "title": "Variables subrogadas y aprobación acelerada de medicamentos (enero 2025) - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTzl4bDZJaFNKcVZ6YTU1eld2YlN5dGwwQm52WUdCZFNadzRDV3lOUDQtYVZTNDdJSGtSZW1CV09SQWNnaTQwcFN4S2lPVGtuZFdESzJrNnFLblBxVGtZd0cwN0V3WUlXVWgtNUU0cENoSUlHcHhHRnp4VmZ2WHFlSVhIVG5Xb0Y0ZWVjeXpnajUycXp1OG5SYVJQSDY3cUZx?oc=5",
@@ -451,6 +431,16 @@
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "6c01d961bb06",
+      "title": "Antonio Mingorance: \"La farmacia tiene todavía un enorme potencial por ofrecer\" - La Razón",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUTMzczItUHdUMFdIeUVDekdsSnlYa3Q3TGFVTEFYZUpfNGxsM28yaXZmSEVvVjNTUWdrSWlOWHE5R3VNWGZJQWhWZWlfUnI3dkVvVDY2dE4xdV9qOXRmRXlGNkdsV18zVm9TNzJLQkl3dnpPc0Rwb01UcmpEQkhkaVJVSS1BaTQza0xDN3ZYaU9nWC1vRUN6N1pnX3QyeW5hTWo3N2pnWEU5ZjJCdVI2MzlRS0hnN09SSXBzVE1mTkthOXN6OHpPNklKZlhyd9IB4gFBVV95cUxPdTZLR01jcjQ4R09YX3d1QWVxQXRLZnZqT0szVmE4X0N5V1R1Z2lmX0Z5SGFGQVdyQTNSMEYxX1JGOUZkTFROZmdnd0FjMk5ZQlh1bTM0NHNoR2Y5elRORHNhc043MDRnd1d3bnNMNzFEaERkMzU0VzB2amhGN3Z2TzlONE51dnVFYWhCd1RxbGVaWjEwUmlnVERfQy1ILUFjaDBTWU5VOTh3OHNLNGdXY0NYT0FoTHJaZ2h6djJUTElMdFFvYUF3aENBaWRrazNzbElLWW1ldUFxTExRa1BlUUV3?oc=5",
+      "published": "2026-06-29T00:00:21+00:00",
+      "source": {
+        "name": "La Razón",
+        "url": "https://www.larazon.es"
       }
     },
     {
@@ -494,10 +484,10 @@
       }
     },
     {
-      "id": "f13b109476f7",
-      "title": "Farmacovigilancia y COVID-19. - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43QUd6Y0JyejJtY2pTOHBQLXYxb3VkZTh3QkVvem5WclhaaG5NMldJTTFPZTVHSlo3OC1tMFR1N0RYOUpfMTdqcWJZNUllT2NWeEtuTHlBSzN5Q3BscVczNTc0ai1FTGlJ?oc=5",
-      "published": "2026-06-29T18:05:34+00:00",
+      "id": "da54d57eca8f",
+      "title": "Nuevo coronavirus COVID-19: Información oficial del Ministerio de Salud de la Nación - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM3ZjTUxkY1JXNzN0YThvWGhBUXhsX3FES285Um5iVzJxSmM1c0RlTVYzbUdvdkttQVl5NzhKQU93ZThhSTViSjZGT3ZoMXJJXzh2M0RqTlNXdEZxSGtYV3pxN25pNDFvWjRjLXRRNzViaHIxSXN5YW9ETEFzV0NnMkZLc1RURmNqWGdJTTVTQUhXUVRxMmNyN2ZBZVV3NDFMQmZFT1cyNXBiaXlaTXpxbVFLYUZfMGRmM2xEaE9XMUc2SGx6X0FIdV9HZTJzVW1wcWphRmZUM0tnYURX?oc=5",
+      "published": "2026-06-29T18:16:15+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
@@ -514,20 +504,20 @@
       }
     },
     {
-      "id": "da54d57eca8f",
-      "title": "Nuevo coronavirus COVID-19: Información oficial del Ministerio de Salud de la Nación - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM3ZjTUxkY1JXNzN0YThvWGhBUXhsX3FES285Um5iVzJxSmM1c0RlTVYzbUdvdkttQVl5NzhKQU93ZThhSTViSjZGT3ZoMXJJXzh2M0RqTlNXdEZxSGtYV3pxN25pNDFvWjRjLXRRNzViaHIxSXN5YW9ETEFzV0NnMkZLc1RURmNqWGdJTTVTQUhXUVRxMmNyN2ZBZVV3NDFMQmZFT1cyNXBiaXlaTXpxbVFLYUZfMGRmM2xEaE9XMUc2SGx6X0FIdV9HZTJzVW1wcWphRmZUM0tnYURX?oc=5",
-      "published": "2026-06-29T18:16:15+00:00",
+      "id": "4f238d1ad53e",
+      "title": "Tratamientos dirigidos o personalizados: conceptos y nomenclatura - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdG5FVXBNR2VGNW1sNWZESE5EVWtBdUVDaTVRTmQ4NHo3MHJzSmlnbnV6RGFhcVFNMC1SZFRZbElGMUswZ3JOdnMxTHdHbExiNGgyREc1bGtNNTVQWUQ4TGVKc0hvNWlaMEZoQ1dnSlNwLW9PUTduckFxRENMUXpCVFVSQmdVV21mU1gxUGRoaWZkWDlObEFHQQ?oc=5",
+      "published": "2026-06-29T18:11:57+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
-      "id": "4f238d1ad53e",
-      "title": "Tratamientos dirigidos o personalizados: conceptos y nomenclatura - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdG5FVXBNR2VGNW1sNWZESE5EVWtBdUVDaTVRTmQ4NHo3MHJzSmlnbnV6RGFhcVFNMC1SZFRZbElGMUswZ3JOdnMxTHdHbExiNGgyREc1bGtNNTVQWUQ4TGVKc0hvNWlaMEZoQ1dnSlNwLW9PUTduckFxRENMUXpCVFVSQmdVV21mU1gxUGRoaWZkWDlObEFHQQ?oc=5",
-      "published": "2026-06-29T18:11:57+00:00",
+      "id": "f13b109476f7",
+      "title": "Farmacovigilancia y COVID-19. - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43QUd6Y0JyejJtY2pTOHBQLXYxb3VkZTh3QkVvem5WclhaaG5NMldJTTFPZTVHSlo3OC1tMFR1N0RYOUpfMTdqcWJZNUllT2NWeEtuTHlBSzN5Q3BscVczNTc0ai1FTGlJ?oc=5",
+      "published": "2026-06-29T18:05:34+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
@@ -604,6 +594,16 @@
       }
     },
     {
+      "id": "46151820b8c0",
+      "title": "OPS: Día Mundial del Sida 2025 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdWsxQzBOWVBJenkzMWdWNTlvRzkzUjdCM21GZ0stVXFraDZZcC1pUXE1RHB1aDFyMDc4VXZ2UDgyRVJHcGR6SHY5WGRFTWE5bzNKMVRURWRPTXQ3UDk3a0hqb28wQWp0ZGc?oc=5",
+      "published": "2026-06-29T18:09:12+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
       "id": "3ffaa8c7b8b7",
       "title": "COVID-19: Materiales de comunicación OPS - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55MkJvZFZPQVJINnVYNWFZNUtwc00xZkNUazZGbHVxSm9MOXh2WkFhSmp5T1dTOVNiT3JOWFVMRlJ3R3MxVklBX0Y2Z3E4VzdHRWRHZzB2RVd1S2xORE5RY28zWWZUMDBlOGRzMlFaSzFUZXliZDh3?oc=5",
@@ -618,16 +618,6 @@
       "title": "18° Informe de vigilancia de seguridad en vacunas (junio 2022) - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaFJwRWlwWkJ3LXktNUJfYXpNY0hJZUw4cFJvbWtTcU5ReFVwbFZPU1FJenpPaGhUTVoyWk5NYktQRlV5T2xJSkRNci1uaW9ZYmZrSkxuRzhhTjJpVlJ4eGlvLV9BcHpYLWlxa0xGdWxqd2lJX0lhT3lyRkFjQTJlNHM5NTR4Nm9VNUJsa1RyMzV6UQ?oc=5",
       "published": "2026-06-29T17:55:08+00:00",
-      "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
-      }
-    },
-    {
-      "id": "46151820b8c0",
-      "title": "OPS: Día Mundial del Sida 2025 - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdWsxQzBOWVBJenkzMWdWNTlvRzkzUjdCM21GZ0stVXFraDZZcC1pUXE1RHB1aDFyMDc4VXZ2UDgyRVJHcGR6SHY5WGRFTWE5bzNKMVRURWRPTXQ3UDk3a0hqb28wQWp0ZGc?oc=5",
-      "published": "2026-06-29T18:09:12+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
@@ -694,6 +684,26 @@
       }
     },
     {
+      "id": "5190540ad42a",
+      "title": "Medicare comenzará a cubrir medicamentos GLP-1 para perder peso - Telemundo",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNUMtR0V3aG5LNWQyU1d6MlFWTHFGUWpqZ0NSTC16cGdqVUZwb2ZNS0pfOXhfTWN0UTAtckxoMm1pX2tiX2Mydnc0d20xTkNOVjJNVlRhRlI1TmtIYnNCMXpTZi13VDgyaXNydDd5U2RqYWhHRERBOXc1Nk1mSm5MU3djQVE2VVhXTzQ4bzFZdGlUNlJrSUsyUDU4MV9fazQzX1Y5ZUNKb0ZNRFlBNEc5ZVlOc2owNEZYcUVWMVFwRElDbmwyOThtSGVqbzd5S0lSRm44dHN2U0xoWDkzaUhUa28yQVg5UdIBaEFVX3lxTE5nV0h4RmdBRV8tekN2cWdVdTFHdFpiMDVqbHo4UEVaMERiXzNHa2ZBUU82czktQ0hQbGJ4Vms4UkdXWU1EYUdURFRxVlZmSDBxYi1jYW9kcjlDQUdDS2hUdmlVbk5ZVlRL?oc=5",
+      "published": "2026-06-29T04:25:00+00:00",
+      "source": {
+        "name": "Telemundo",
+        "url": "https://www.telemundo.com"
+      }
+    },
+    {
+      "id": "aff847551771",
+      "title": "MINISTERIO DE SALUD GESTIONA DONACIÓN DE MEDICAMENTOS PARA VENEZUELA - Ministerio de Salud y Deportes",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR1N3a1oxODNpWUlTMHp6TElETkZrcDRBeG1tOUtwdUMwUGtnWDJUMFc0amV3VlRLQ0hDWUU0WVJIZmswVXBlU1VUM2RBOHVUanh4dE94WGpFd25WUHR3LUpqQzhpOTlobXF6M1AxVnJqTF9wOGUtWHh0MG5sMjc0cVFjaklObmJyVi05QV9qZlBMcUkwd1Rabk9EamZpMk81bHQ4?oc=5",
+      "published": "2026-06-29T18:57:19+00:00",
+      "source": {
+        "name": "Ministerio de Salud y Deportes",
+        "url": "https://www.minsalud.gob.bo"
+      }
+    },
+    {
       "id": "1b26058f54c7",
       "title": "Actualización del manual del vacunador de Sputnik V - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc3VrZGt1VzZCTUxScTBCbjlQZ0xxaDlNckZpMkRGVUZORkhfakUtQWQ0ZVhaamRGU3BqVDhjQnVBQnEtdzR3T2pKSWdMWHRpeDNDV1AtbEhJQWVjaVJKOUdFb0lLaVNuTXVCYlNqVjh4RXhqanhfY3pNZEpQUTBqd0R5NnE3RTA?oc=5",
@@ -724,16 +734,6 @@
       }
     },
     {
-      "id": "c3b6272c6fc6",
-      "title": "OPS: Seguridad de vacunas COVID-19 en las Américas - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjJWYUlnTVdrMTdNVWtHbzBDa3lrZWUySC1rRmJESER1c3lqVzFpMG45MUlWVVhYV1dQUzl6V0UxbHlxNHZSQXJGLWFpbllnWkhvMWhQUjVVbHh1VmNxNXg3MkxveUhETWUxdzB1d0lUT3VQTlBXb0N6eTFQLTFTbXR0cU8?oc=5",
-      "published": "2026-06-29T18:10:47+00:00",
-      "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
-      }
-    },
-    {
       "id": "a09209afae9c",
       "title": "Sanidad redefinirá los criterios para financiar y fijar precio a los medicamentos - Diariofarma",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbUdjc1FWbVdnUHptdmk5TW9leUhCLWhnVjdTUGE5N1Mzcl9XUFR4czV2Sk8zbUNaUF83amtUWWhSam9LVEF1aHRKclU5MS1TUUc0eHE2R0RMTTFRbVlPclZmSHFQZ1dHelJnTzN0NjZ2bElOWGwtTXgtb2IzbUczdE1rVS1ocWdKMVBMSEEydi1IMGc3dUFKVTBaMS1OTWl0dzhfRlF5aGRqSVdRSlZlSDd1VEM4RTA?oc=5",
@@ -754,13 +754,13 @@
       }
     },
     {
-      "id": "7c6c7619b773",
-      "title": "IMSS Bienestar y las deudas del malestar - sumedico.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMDFTWFJBRk8zdDl4RkhfSzRHX0ppM2Y3Z3pjNmMwZWxUZWRwblgzMmpLM1UxVVZ3MEJUeGhSQTVYUEZUMUVtS2JHWkN5cXVEc2VwVEs2VWVxUEkwcU5NUXhtOTZiN3RKVC1hd3VoLWd3eUMwclh4Z1RPQWJrR25FMV9lTnB5LWFkTEpEVUtIcm54ekxvNVHSAZYBQVVfeXFMTTAxU1hSQUZPM3Q5eEZIX0s0R19KaTNmN2d6YzZjMGVsVGVkcG5YMzJqSzNVMVVWdzBCVHhoUkE1WFBGVDFFbUtiR1pDeXF1RHNlcFRLNlVlcVBJMHFOTVF4bTk2Yjd0SlQtYXd1aC1nd3lDMHJYeGdUT0Fia0duRTFfZU5weS1hZExKRFVLSHJueHpMbzVR?oc=5",
-      "published": "2026-06-29T17:33:00+00:00",
+      "id": "c3b6272c6fc6",
+      "title": "OPS: Seguridad de vacunas COVID-19 en las Américas - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjJWYUlnTVdrMTdNVWtHbzBDa3lrZWUySC1rRmJESER1c3lqVzFpMG45MUlWVVhYV1dQUzl6V0UxbHlxNHZSQXJGLWFpbllnWkhvMWhQUjVVbHh1VmNxNXg3MkxveUhETWUxdzB1d0lUT3VQTlBXb0N6eTFQLTFTbXR0cU8?oc=5",
+      "published": "2026-06-29T18:10:47+00:00",
       "source": {
-        "name": "sumedico.com",
-        "url": "http://www.sumedico.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -768,26 +768,6 @@
       "title": "Informe de situación COVID-19 OPS/OMS Argentina: 10 de febrero del 2022 - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMENDQm9MRUZHaWZXcW1sN1dqOTlOd0F2Y3pyU0RjaGtkaExXSHItTlNKNzFDSXB2ZTYxYVI2MjRyRW1NSlB5SUtBRU9mOEhYT09tOEx1Y2Rra1JDRmF0OWgwWEhfYmt0OG1mZXlXR0VsRWd3T19FM0lFUEl3YkpJN0dWTlpXNFNZRlNFcGVIeFpEeDQ1QVJZd1FzWGZrdXZE?oc=5",
       "published": "2026-06-29T18:13:06+00:00",
-      "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
-      }
-    },
-    {
-      "id": "046329f5a5bf",
-      "title": "Disminuye presa de registro de medicamentos en 49%, según Ministerio de Salud - Prensa Libre",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWlraXFHVlV1X3J3a0U5VlhGYjIxQ0Z5a1Z1OWE5N2dfQ0NoUWE2THdDSGRxMmZiWmRfbXNtdkFmdG5CSkp5RE5fb0o2dHFwb3NDYm1pWm93Q1hqWWJKa1Y0T2JSRFFETnRhZFJsOFpQVFBNUWF5eDdnYnl3WlpTNWdtdnZhbWw4cjZEalNmOC1qVzFRNzc2WlRoUWFydlBGNGNvTklQYkp3d1BEY0R4SnYzZzhFaXQyZWlPYzhpaGNpakpm?oc=5",
-      "published": "2026-06-29T06:10:00+00:00",
-      "source": {
-        "name": "Prensa Libre",
-        "url": "https://www.prensalibre.com"
-      }
-    },
-    {
-      "id": "79d9c7934cd3",
-      "title": "Vacunación contra COVID-19: Primer refuerzo en niños y niñas de 5 a 11 años (Argentina) - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd21fT29fMmcwTXVNM3ZwYTBFdEtRQ2ZMT0lsQkhKTjY5MkR3N1ZIdXh6eHB0T0tCQUhNaWt3aHhGYWRWZVBkenp0V0lCZHFJcXlreFRmSmxzeEdPS1BGN0JWUXczTUlVYl9PSFU5SWczNzBid1ltS1VzenhJNFVqYzRSLWVvY1hzOUFTZHFIVFhEbUxqWEFaZGJnaG8xR1pFWDZNQ0ltdWNOY01BZHYyb0xSdw?oc=5",
-      "published": "2026-06-29T17:58:16+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
@@ -804,16 +784,6 @@
       }
     },
     {
-      "id": "efc2423682f0",
-      "title": "Informe de situación COVID-19 OPS/OMS Argentina: 10 de enero del 2022 - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbWJ0MmJEaGtldE1tUnJGdkpyUDhMeG9kTDBvay1ZZlJ5OVRJUUUxclh4LXpIY0N2U29pSjJTWk1TNXRmRTUyRVlwZ3JHeU5vSmcyNjBNTWdRendUdDVoZVMtLUJRc3l6STRYVTFIRTBRdnRWeWFCX1pWOEt0WUJYY0lOSXVqSTdnN0p2OHFWQzlJMC10RlFwT2NKMk1CQQ?oc=5",
-      "published": "2026-06-29T18:12:40+00:00",
-      "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
-      }
-    },
-    {
       "id": "762874471944",
       "title": "El Gobierno reforma el sistema de copago farmacéutico para blindar la equidad y proteger a las rentas medias y bajas - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GeGNHdTJvcEFCejgyOUt5Qk5VNFpRREE3ZUlIMndGWWlKeUJWTk5JTGJnaUNIaGZOQnJmYlVneTNVOUhpTGFTOF9UeVQ5andLQndla1JsMU1RWG1UNXZ4WTdVcThzeXM2T1E?oc=5",
@@ -824,40 +794,40 @@
       }
     },
     {
+      "id": "79d9c7934cd3",
+      "title": "Vacunación contra COVID-19: Primer refuerzo en niños y niñas de 5 a 11 años (Argentina) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd21fT29fMmcwTXVNM3ZwYTBFdEtRQ2ZMT0lsQkhKTjY5MkR3N1ZIdXh6eHB0T0tCQUhNaWt3aHhGYWRWZVBkenp0V0lCZHFJcXlreFRmSmxzeEdPS1BGN0JWUXczTUlVYl9PSFU5SWczNzBid1ltS1VzenhJNFVqYzRSLWVvY1hzOUFTZHFIVFhEbUxqWEFaZGJnaG8xR1pFWDZNQ0ltdWNOY01BZHYyb0xSdw?oc=5",
+      "published": "2026-06-29T17:58:16+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "046329f5a5bf",
+      "title": "Disminuye presa de registro de medicamentos en 49%, según Ministerio de Salud - Prensa Libre",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWlraXFHVlV1X3J3a0U5VlhGYjIxQ0Z5a1Z1OWE5N2dfQ0NoUWE2THdDSGRxMmZiWmRfbXNtdkFmdG5CSkp5RE5fb0o2dHFwb3NDYm1pWm93Q1hqWWJKa1Y0T2JSRFFETnRhZFJsOFpQVFBNUWF5eDdnYnl3WlpTNWdtdnZhbWw4cjZEalNmOC1qVzFRNzc2WlRoUWFydlBGNGNvTklQYkp3d1BEY0R4SnYzZzhFaXQyZWlPYzhpaGNpakpm?oc=5",
+      "published": "2026-06-29T06:10:00+00:00",
+      "source": {
+        "name": "Prensa Libre",
+        "url": "https://www.prensalibre.com"
+      }
+    },
+    {
+      "id": "efc2423682f0",
+      "title": "Informe de situación COVID-19 OPS/OMS Argentina: 10 de enero del 2022 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbWJ0MmJEaGtldE1tUnJGdkpyUDhMeG9kTDBvay1ZZlJ5OVRJUUUxclh4LXpIY0N2U29pSjJTWk1TNXRmRTUyRVlwZ3JHeU5vSmcyNjBNTWdRendUdDVoZVMtLUJRc3l6STRYVTFIRTBRdnRWeWFCX1pWOEt0WUJYY0lOSXVqSTdnN0p2OHFWQzlJMC10RlFwT2NKMk1CQQ?oc=5",
+      "published": "2026-06-29T18:12:40+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
       "id": "56ef1b096644",
       "title": "OPS: Día Mundial de la Diabetes 2025 | 14 de noviembre - Universidad Nacional de Córdoba",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONU9Mbk5IelZOWHhLWThRcjA1VFk3U05lazlobW9GVFlGY241NHFqbnQxNmw1Z2lHWXBvcE1LRTE4aDZJcGREZWt3Vi16SGRUTkZPR2xqYm9nNHJ1YllZRWNhSENnTG1zckQwVWFsZlpicEVYZjQtTzFPcHpwNE1nSE9OZkZyY00?oc=5",
       "published": "2026-06-29T18:08:44+00:00",
-      "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
-      }
-    },
-    {
-      "id": "b0273cbdf0e1",
-      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQlVCclNfZVhYLXVhcnAwWVFrTFFpeUphYjBsbXY3R1oyWG1oTVp1cXowNTI1ZDNHSXlwOHdYd2hlTmNqTms3THp1NDd0Vks5cEczWVlLV2VKRng5aUMzalhvbi1OTWh4eGF0UUpmUHcxYWFzOE44TW1uc1o0Ujg2TTlUOTdxaFNlR284WXlzb1NDSmRrVE5kblJFMWtKdkc2Tk1rbFFzQlNaeW5u?oc=5",
-      "published": "2026-06-29T17:55:29+00:00",
-      "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
-      }
-    },
-    {
-      "id": "3e4145586a59",
-      "title": "Salud Pública insiste a pacientes con VIH no abandonar tratamiento y garantiza cobertura total de medicamentos - eldia.com.do",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR2ttMDdHT0YtTi0xMEZjcm9hZ2dtR3VSVF9qZ2lWRlp3QmFsQjhROEI5dTRxaDZoeDNrdDVrZ0drem5TTm1HQ3BSLVVXYlJqWVVvME9QN29iemFlemg1bFJIQTVKWnlwdjNoT2ZPdWlNTloxdlJpUzdvSkJOSkhkYndFSjVuOXNqbEtJY2xpUnlUa3BlSUlsbU91VS0zU3lvM3AxNFZtcDJ6MnR5SkxCZ3J5WnFNZU5YMUhlX0VsOUtCS3Q5SEJpWklfUjM?oc=5",
-      "published": "2026-06-29T14:48:11+00:00",
-      "source": {
-        "name": "eldia.com.do",
-        "url": "https://eldia.com.do"
-      }
-    },
-    {
-      "id": "1b0a2be15693",
-      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUVZtTEtsR2dCWU1FZ0paaS1mVkNZVzhUR0trZDdLbWhuOUFabTduUzBmRy03cUkyUk9TZmJMUHVDd0R2VjFyNV9BNk5qUUR4OC1oaTcxMTNIdlFlUmd1SFpJdGdtUDBXR2VFR1YtaTR1RlRyS3Y1MzBPWUFlZ0piaVpCQU1xTDBpYm5GekpJQTRHR3dDTUpvTVV5bjhwSk1PV29yOE5kZTEzckxI?oc=5",
-      "published": "2026-06-29T17:58:13+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
@@ -874,13 +844,33 @@
       }
     },
     {
-      "id": "86c54fab0ef0",
-      "title": "Coadministración de vacunas contra COVID-19 con otras vacunas - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTk5xZ2lnZ2I1UjJ5dkhNV1BnSjMxdWNSdkIwVDBIanFDYnhCeXZxYVp4endyZ1ZjUElHeFRSbEJNYW5PS2tWU2lFRHBzM3JUaWY1TGNidXNyMElTamdCOWVQR01sNE0yeEFqMXB6NGdLbHh5X2hFX1dyNE5XM1paeFRlc0JVVkhVMldkVjVqWU9SNEpK?oc=5",
-      "published": "2026-06-29T18:11:25+00:00",
+      "id": "b0273cbdf0e1",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQlVCclNfZVhYLXVhcnAwWVFrTFFpeUphYjBsbXY3R1oyWG1oTVp1cXowNTI1ZDNHSXlwOHdYd2hlTmNqTms3THp1NDd0Vks5cEczWVlLV2VKRng5aUMzalhvbi1OTWh4eGF0UUpmUHcxYWFzOE44TW1uc1o0Ujg2TTlUOTdxaFNlR284WXlzb1NDSmRrVE5kblJFMWtKdkc2Tk1rbFFzQlNaeW5u?oc=5",
+      "published": "2026-06-29T17:55:29+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "1b0a2be15693",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUVZtTEtsR2dCWU1FZ0paaS1mVkNZVzhUR0trZDdLbWhuOUFabTduUzBmRy03cUkyUk9TZmJMUHVDd0R2VjFyNV9BNk5qUUR4OC1oaTcxMTNIdlFlUmd1SFpJdGdtUDBXR2VFR1YtaTR1RlRyS3Y1MzBPWUFlZ0piaVpCQU1xTDBpYm5GekpJQTRHR3dDTUpvTVV5bjhwSk1PV29yOE5kZTEzckxI?oc=5",
+      "published": "2026-06-29T17:58:13+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "3e4145586a59",
+      "title": "Salud Pública insiste a pacientes con VIH no abandonar tratamiento y garantiza cobertura total de medicamentos - eldia.com.do",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR2ttMDdHT0YtTi0xMEZjcm9hZ2dtR3VSVF9qZ2lWRlp3QmFsQjhROEI5dTRxaDZoeDNrdDVrZ0drem5TTm1HQ3BSLVVXYlJqWVVvME9QN29iemFlemg1bFJIQTVKWnlwdjNoT2ZPdWlNTloxdlJpUzdvSkJOSkhkYndFSjVuOXNqbEtJY2xpUnlUa3BlSUlsbU91VS0zU3lvM3AxNFZtcDJ6MnR5SkxCZ3J5WnFNZU5YMUhlX0VsOUtCS3Q5SEJpWklfUjM?oc=5",
+      "published": "2026-06-29T14:48:11+00:00",
+      "source": {
+        "name": "eldia.com.do",
+        "url": "https://eldia.com.do"
       }
     },
     {
@@ -894,6 +884,16 @@
       }
     },
     {
+      "id": "86c54fab0ef0",
+      "title": "Coadministración de vacunas contra COVID-19 con otras vacunas - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTk5xZ2lnZ2I1UjJ5dkhNV1BnSjMxdWNSdkIwVDBIanFDYnhCeXZxYVp4endyZ1ZjUElHeFRSbEJNYW5PS2tWU2lFRHBzM3JUaWY1TGNidXNyMElTamdCOWVQR01sNE0yeEFqMXB6NGdLbHh5X2hFX1dyNE5XM1paeFRlc0JVVkhVMldkVjVqWU9SNEpK?oc=5",
+      "published": "2026-06-29T18:11:25+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
       "id": "7c3400091e59",
       "title": "Arriban medicamentos esenciales para asegurar el tratamiento continuo de niñas y niños con cáncer en Bolivia - Pan American Health Organization (PAHO)",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX0I4clBZajVOMEI5ZXh3b0VIdHlPMmVub2piNFd5d3NYS2dWbGtHbzg4OXhWSmV3NHNfMDlqTTVER2ZNYUprcVMyZ2tEMTJ0RnI4WjVNMGU2QW5yR2JqQ3BJTENUa3NYdHBNVnRka2JMWXRiUW51clhxRVNPcnROa2dySzNrN1R6S1ZUYUlFRnFtVl83eG9CM3pvVTJWS2wwLXVDM3VGdHcxeEx6bWlGRllPem5QeFVmazVwaU5R?oc=5",
@@ -901,6 +901,16 @@
       "source": {
         "name": "Pan American Health Organization (PAHO)",
         "url": "https://www.paho.org"
+      }
+    },
+    {
+      "id": "7ba33e59b7eb",
+      "title": "LA PROVINCIA PRESENTÓ PROYECTOS DE LEY PARA LA FABRICACIÓN DE MEDICAMENTOS - Radio Provincia",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyNkliMVU0Rmp2dThVWnBjNVJiYU5ad1ZpSXdGc3dVMGVQTWxBbHpxNWk0eTB6NlM3eVd0emRfQ0ZLTVNhUDBzOXkzazFaYUdnYm9PVlhBTEFNU0xqSWdrTHZYZHZlQQ?oc=5",
+      "published": "2026-06-29T14:32:01+00:00",
+      "source": {
+        "name": "Radio Provincia",
+        "url": "https://provinciaradio.com.ar"
       }
     },
     {
@@ -924,16 +934,6 @@
       }
     },
     {
-      "id": "ea6d8260f4ee",
-      "title": "Medicare inicia programa piloto para ofrecer medicamentos de pérdida de peso a 50 dólares - Univision",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa3h3TTJRUGhoNU1NeS1FQUg1OXYxdjRBN1dQREl5SkNyTjFfdE9CdHMwYVB6aWtkaW9aU1RlcE8tZlFjZ1dhZXRJd3FpRkttZjB5dHdiWlo1NlVmVlRTVUszRHptclEta2tDcTN0V1VsTjNJdk5KX0hLVHBTMjlkUUZSLUs3cW9PVkRWVk5zWFkwMl9EYkFsNTBZS0ttZWluSktZZ0R1UlJSbHI1RWpOaXZlNXdhNTliRlpURWY1ZFpCOHZJdTVabElIQVBMdWFGWHlrcTZncS14UWJiSHg0?oc=5",
-      "published": "2026-06-29T17:43:00+00:00",
-      "source": {
-        "name": "Univision",
-        "url": "https://www.univision.com"
-      }
-    },
-    {
       "id": "910588b459ab",
       "title": "El Consejo de Ministros aprueba el primer marco estatal para evaluar tecnologías sanitarias en el Sistema Nacional de Salud - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZTjNCZGwzT0FIenFmZVptV3JYUGVZU2JaY2hBVE1fSGx6THFpcFYtd194U1hCbW9HQ0tKWF9xNi1EejdzY2pRejhHZUFzcVBaZjlTS1RwM2IyX1FWdUVuM3BDeURoaHBNYkE?oc=5",
@@ -954,13 +954,13 @@
       }
     },
     {
-      "id": "8da9dcf39870",
-      "title": "Medicare comenzará a cubrir medicamentos para la pérdida de peso el 1 de julio. Esto es lo que necesitas saber - News Channel 3-12",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQXVZTUxUTk5JN2ZJLXAtVVRrWTJRdlRXSWMzZEdfY0szRW5FTmlnT19lOFFFQ1pTc1JqY1lyQkNaMHB0OWVPaHpJdUZnc3UzTWNPcDlKWWthUlVaT3FmbU9DOFNRMGVpS0h6MmF4c2FRc19wcnFfZ0ZKSWtZS3JMN2otbG0yZUlXUlU5SV9PMHhyMDJKSXo5blJNMFBTZnZHNjRBRnhyWkQzdTE1SERMbjNzbkJhdVhfeE1EWk9QMG9PeURfRzRoSGZVOUR1b3hkdU9YNy15b0tVNkVGNThZa0tMS0tWeEpVU0VsaFZ3?oc=5",
-      "published": "2026-06-29T17:42:38+00:00",
+      "id": "2600f9815fd7",
+      "title": "Bolivia enviará medicamentos esenciales y material de primeros auxilios a Venezuela - ABI - Agencia Boliviana de Información",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNalBZWnNyN2ljWmxMQlZSWHFpaDZ6LVpwMmlCcF80UEFsYXRhWEJHOXpvZXUwUjJvLVEyUExPTktLNGl3V05nYzBNUmE0REI2b3ItMTR0TnFoYnIwYmZ6aXFwOEhmbHlqYk93dS1GTlp1cnBHMUhLLTNnMWY4Q3prVzlZeTZCSjlBeVZ5UV9uSkRpd0tWR1NZN1Z2RzRJNUpr?oc=5",
+      "published": "2026-06-29T19:41:27+00:00",
       "source": {
-        "name": "News Channel 3-12",
-        "url": "https://keyt.com"
+        "name": "ABI - Agencia Boliviana de Información",
+        "url": "https://abi.bo"
       }
     },
     {
@@ -974,13 +974,13 @@
       }
     },
     {
-      "id": "6cba5e3f1c14",
-      "title": "Clausuran clínica estética clandestina en Guayaquil: realizaban liposucciones con instrumentos oxidados - eltelegrafo.com.ec",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSzNRZ0lQcXZtUkQ4VlBRRVo3WG1rcjMyNXhXQldGZm1ZcEQ1dHdDMWlYdklNUkc0cERJNDZBZzRSQ2xzci16Y0ZaNXpkY1NWZWVoem9pbl9PUUZPdEhfalhNX25Hd091T2pmOFU5UHgyeE1UVUp5MTdEU1lVVkc5aGtETEtvVTNxY0dmQXllM3BRQUdhSnY2dWZWRVhaTlNfVDNUUzhlX00tX0t3dXJOaHVwajhmZTh1ckNUT21mZ0NoNlUxRkRkdGd3Rl9PN0oydHA2OFo0ZE9sakR2dk9sVG9UejItbUVTUGc?oc=5",
-      "published": "2026-06-29T14:38:25+00:00",
+      "id": "8da9dcf39870",
+      "title": "Medicare comenzará a cubrir medicamentos para la pérdida de peso el 1 de julio. Esto es lo que necesitas saber - News Channel 3-12",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQXVZTUxUTk5JN2ZJLXAtVVRrWTJRdlRXSWMzZEdfY0szRW5FTmlnT19lOFFFQ1pTc1JqY1lyQkNaMHB0OWVPaHpJdUZnc3UzTWNPcDlKWWthUlVaT3FmbU9DOFNRMGVpS0h6MmF4c2FRc19wcnFfZ0ZKSWtZS3JMN2otbG0yZUlXUlU5SV9PMHhyMDJKSXo5blJNMFBTZnZHNjRBRnhyWkQzdTE1SERMbjNzbkJhdVhfeE1EWk9QMG9PeURfRzRoSGZVOUR1b3hkdU9YNy15b0tVNkVGNThZa0tMS0tWeEpVU0VsaFZ3?oc=5",
+      "published": "2026-06-29T17:42:38+00:00",
       "source": {
-        "name": "eltelegrafo.com.ec",
-        "url": "https://www.eltelegrafo.com.ec"
+        "name": "News Channel 3-12",
+        "url": "https://keyt.com"
       }
     },
     {
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "3fe973eda159",
-      "title": "Actualización de los Lineamientos Técnicos Campaña Nacional de Vacunación contra la COVID-19 - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORVBjbnBhX05QX19QSkx5RElCTzh0U0Y2S19pVURFbGp4bF9QeEU1VUw3ZkZWOUItQVZhY2xtMTNCeVRYai1tTnJCRFYtSWE3c0VXUXlkUkEwLXJJZlhOOGUtNGZoeWxuYlFmb2FTd0Zyclpyc2R6WTZ3VVRhdWVwZ05iS1lYQ2w4LVR6anJyZ2xCS1VhcFp6LUZ6eWYtN3hJZThJc1B0M2hwR0hiN1laSUZ3VWZEUEp5UC14VXVR?oc=5",
-      "published": "2026-06-29T18:15:22+00:00",
+      "id": "1c096c70d1cd",
+      "title": "Escasez de medicamentos en Europa: cómo está respondiendo la UE | Temas | Parlamento Europeo - European Parliament",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa2F5SllycVlQZmxTWGloeEMyOUdUZV81cXJyWkJkZWN3V2FOTk5QY19wODBNc19yMmExcmJtaWVERzBLazBQazE5R3E2dnBtSnNpWklpbTJ5VVBtQnFsRTFKOUxrQWI5UXExT2luTXZVdEVIZlhBSWZoTlhHWFAzcXY1SnRnVkhQSHA4am40QzVQOGFmclVXM1VVRjlHREJydXRrTEFPLVZpWkF4REFSTURyMkVFd1o3OFY3UUlUN00tUDJ0Zncw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
       "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
+        "name": "European Parliament",
+        "url": "https://www.europarl.europa.eu"
       }
     }
   ]
