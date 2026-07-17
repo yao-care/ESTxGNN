@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T19:54:57.722736+00:00",
+  "fetched_at": "2026-07-17T20:39:49.834643+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -174,12 +174,12 @@
       }
     },
     {
-      "id": "d219696b999b",
-      "title": "La AEMPS liderará la evaluación de medicamentos en el nuevo modelo de tecnologías sanitarias - consalud.es",
+      "id": "c63584e9eaa1",
+      "title": "La AEMPS liderará la evaluación de medicamentos en el nuevo modelo de tecnologías sanitarias - ConSalud.es",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWtlWGtoMkdnUE1xVjZ3YW4wenRYYjR1X2NiUll5aDBxVU5nQmp0M1NtdG8wdFo4SElIUGdIZmpWSHphYWlWcTdkaXlpS2FzaVJjRFpxWVNDQzdOTlh3dkN3LVZOV0ZTdXZqeWpTVktuaXFDSkFvalZyM3ptRzNTS0hHSXh1MlpuQVNGeW1Jc1h2MzdZZ3o2MjJfZ0k2OXAyOHRTOUtzckY0OVBWT3JwZWdsWk5PMHZVSHc4c2x4SUJ3U3FybUNGWkFKZw?oc=5",
       "published": "2026-07-17T12:08:00+00:00",
       "source": {
-        "name": "consalud.es",
+        "name": "ConSalud.es",
         "url": "https://www.consalud.es"
       }
     },
@@ -194,16 +194,6 @@
       }
     },
     {
-      "id": "11bd35f0de35",
-      "title": "Sanidad niega por segunda vez la financiación de dos medicamentos para frenar el alzhéimer - Ceuta Televisión",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaThNQkNpQ2YwSE5qMEpuR3ZQeU1TUzFWNjJpMmwyS056bG95YWU5UTlYcW1lQUwxYVRpY25WT1YxTkZQSUZ0dnhaaXl5T2ZuNVJYdEQ3SElwbFJ3T0F3ZU84Um1GQUxVWkY3RkxNd3N4anlBclUxOF9oSzczTGs2dzZDVWhrLU9Tb1k3M0xaTm9UTTU2Y0lZZ0Vjb2ZfcThfV1BSdU1ZRVFKVGlsV0QzcjRFTlp5T1lEWTZTZzRwRF9jYTJYMmxSWk81UmhsT0VQRGVZNHFsd9IB3AFBVV95cUxObkZ1SkJZUElzZU5PNGZIRnV1U051dGcxbUFqa1FDa1lvcTFqeFdKY2Z6a19ILVAzVDVjSk83UEdUXzRvdlN5OWt0S0FWSmpsRUMzakRmZUpZeFRfclRERmxXMTJWVjJQaFRTdjBvRmlDSlVOUVlOQklZMURGbmtMUGpLUG9DSk1JSFlVVi1PQnBhOHpqaW5ydnFPSGNTS2ZRbzZPb2Rsejc2ZEt5dnVaRmx0emprRTlIbzVzVklpTjMwSHFCdVU3N25UWWR2cjM2OXRPTFVtNHd0Wl9i?oc=5",
-      "published": "2026-07-17T08:49:46+00:00",
-      "source": {
-        "name": "Ceuta Televisión",
-        "url": "https://www.ceutatv.com"
-      }
-    },
-    {
       "id": "dde2d62b4765",
       "title": "Medicamentos genéricos: la infraestructura silenciosa que sostiene la sanidad - Interempresas.net",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVWQ1Ul8xYXNoUFZoUFotV0ZHcmlsaEJuSWxoNUI5dUsxU0RQSndPbGM2U1pEbk1udDM0MTZhWmV5ZTVIN0taR3JESVFVVTV4WkpXUUo5ZGtPWDBaWUdzMGxjclZpQWhBb0FYdmo5WVRqMXdybjREYlA3MWhzdWptYXpBb2ZUZG5WbWw4MS1ZT3Q2OHRpYVZhTTFqdjB5WFJ4bUM4TlhoRlNOanMwdVA2RlgwV1pJRlVaRE1uTzVybERNZWh0Y2c?oc=5",
@@ -211,6 +201,16 @@
       "source": {
         "name": "Interempresas.net",
         "url": "https://www.interempresas.net"
+      }
+    },
+    {
+      "id": "11bd35f0de35",
+      "title": "Sanidad niega por segunda vez la financiación de dos medicamentos para frenar el alzhéimer - Ceuta Televisión",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaThNQkNpQ2YwSE5qMEpuR3ZQeU1TUzFWNjJpMmwyS056bG95YWU5UTlYcW1lQUwxYVRpY25WT1YxTkZQSUZ0dnhaaXl5T2ZuNVJYdEQ3SElwbFJ3T0F3ZU84Um1GQUxVWkY3RkxNd3N4anlBclUxOF9oSzczTGs2dzZDVWhrLU9Tb1k3M0xaTm9UTTU2Y0lZZ0Vjb2ZfcThfV1BSdU1ZRVFKVGlsV0QzcjRFTlp5T1lEWTZTZzRwRF9jYTJYMmxSWk81UmhsT0VQRGVZNHFsd9IB3AFBVV95cUxObkZ1SkJZUElzZU5PNGZIRnV1U051dGcxbUFqa1FDa1lvcTFqeFdKY2Z6a19ILVAzVDVjSk83UEdUXzRvdlN5OWt0S0FWSmpsRUMzakRmZUpZeFRfclRERmxXMTJWVjJQaFRTdjBvRmlDSlVOUVlOQklZMURGbmtMUGpLUG9DSk1JSFlVVi1PQnBhOHpqaW5ydnFPSGNTS2ZRbzZPb2Rsejc2ZEt5dnVaRmx0emprRTlIbzVzVklpTjMwSHFCdVU3N25UWWR2cjM2OXRPTFVtNHd0Wl9i?oc=5",
+      "published": "2026-07-17T08:49:46+00:00",
+      "source": {
+        "name": "Ceuta Televisión",
+        "url": "https://www.ceutatv.com"
       }
     },
     {
@@ -231,6 +231,16 @@
       "source": {
         "name": "Vigo al minuto",
         "url": "https://www.vigoalminuto.com"
+      }
+    },
+    {
+      "id": "e121ce534cab",
+      "title": "La Benzocarta, una herramienta del Gobierno Vasco para fomentar el uso adecuado de las benzodiacepinas - RTVE.es",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNU5GQndsTjhJYWJJQk9ncXhsWFlldEJVNU1SZzg3UGgycHBMUm9kLXJ5Q242VWFjTGVBdnNleEowdkpUeG83bU04bUl4bDQtcE9FYkRCUGVyTnRqWW1odlNSWDFTblE3OWdidEJaQmFxRGRIWmJEVkE2VzFfREhFZUlwS2FkT01YWGxhd1FMTTlXdGJTYkl3VWpNQ0FKcmc3NnFpazNSZTZBQlVJZ1R1UHFjR3dfSy1YNXdz?oc=5",
+      "published": "2026-07-17T10:48:44+00:00",
+      "source": {
+        "name": "RTVE.es",
+        "url": "https://www.rtve.es"
       }
     },
     {
@@ -264,16 +274,6 @@
       }
     },
     {
-      "id": "e121ce534cab",
-      "title": "La Benzocarta, una herramienta del Gobierno Vasco para fomentar el uso adecuado de las benzodiacepinas - RTVE.es",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNU5GQndsTjhJYWJJQk9ncXhsWFlldEJVNU1SZzg3UGgycHBMUm9kLXJ5Q242VWFjTGVBdnNleEowdkpUeG83bU04bUl4bDQtcE9FYkRCUGVyTnRqWW1odlNSWDFTblE3OWdidEJaQmFxRGRIWmJEVkE2VzFfREhFZUlwS2FkT01YWGxhd1FMTTlXdGJTYkl3VWpNQ0FKcmc3NnFpazNSZTZBQlVJZ1R1UHFjR3dfSy1YNXdz?oc=5",
-      "published": "2026-07-17T10:48:44+00:00",
-      "source": {
-        "name": "RTVE.es",
-        "url": "https://www.rtve.es"
-      }
-    },
-    {
       "id": "7973f221b786",
       "title": "Las recomendaciones de Farmaindustria y la AEMPS para reforzar la calidad de la farmacovigilancia en España - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQmtkZmJoVjlwSHhScWpYWmE4NG9xYlRwSExxYi11cExGQXFSSnRhbDZjSDZuMGJhdXZDQTdKazl2VjJnOUVHU3dWQVpkWEZ6VjNMSF9ncHNaYUFNN0FMZ2Z1SmdxaFBIY1VjLU1MMU91eXhFTG9TcElxR2dLZHYxRmlXLWpvM2pPOGY5SFFUcWlidThDRDRPd25tQzA5TmM?oc=5",
@@ -297,10 +297,20 @@
       "id": "ded19e4aa54c",
       "title": "Sanidad rechazar financiar dos fármacos que podrían frenar el alzhéimer - Telemadrid",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQaWUtalFycFVleXFBbWE5bzhJMUNXaFZfeDJIRXZVUkMwaG0wd2FBeGk1ZEc1ZTBmVG9xU2NiZHcwT3ZxWGlIcTZRVTZaOV91NEJqdWFOOWZjMThXeS1hWHFIS1NUN2ZYWFRiSzVlWjhXSTBmbGFHVk5KSW1DWkVSeU9Cc0lnNW1uV251WjRqUEhRdS16ampLVFVtcHBYLVFPQ2VfQUpvd3lqd2QwTDhHSUdhb0FXNGF2U3dIeGkyX1VOZ0RMb2N0aUg4ZUVSZ1RYSWVoaW1sdkw5MGR2ZjNwWmlPdXVxTlpmOTJ3ZdIB8gFBVV95cUxQWlFtSTNoWGZXVERaTkczWHY3SU5FMTNYZGJQOE4zbUZNTUVySm0wVEZIaVBHX3FXQXRpNm5ySlVscFotYW9DczdZV2NGMDJVUXhhT1huT1cxbkYtVmxKTURRcUlKNngwZWd3ZFFra2FFTnN4QmNINEU0TFdQY1lMZmhVQ21jUnBVT1BHUUFja0hBRzU1UmVwbDFWdThsN2N2dVRRcnMxZkctZS1QajRTcU1YRWxadTM1ckVIdTFONWZvQzNVSlRGbTJNX1hWdF92aXduem1Gdmg4bXZVa0RaNC05aUd4X25fZXdGX1pmVVlzUQ?oc=5",
-      "published": "2026-07-17T14:55:29+00:00",
+      "published": "2026-07-17T13:21:24+00:00",
       "source": {
         "name": "Telemadrid",
         "url": "https://www.telemadrid.es"
+      }
+    },
+    {
+      "id": "7c8bd64cac75",
+      "title": "Advierten sobre el impacto de los edulcorantes en el crecimiento de las bacterias intestinales - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS3hvU2JrSjN6cjZWQk1GRHNpUldzYlVpbjd5cXhENEpvd0swMlQ5WnBSWFVGS19DdGtydDYyMTlJV0hyWUlqSEJOWG9paXZOcmwtaHdySWlJRWRRU2VaczAzQm5HZ0ZqWFMwSXpKcWlKZUtmY3FxWnRKbFpvQktMMXVVRGVZWWZWbzZCU2stQ1BFMGE3MEZpNE0zWW5XNUR5SkptRzRiTGJGLTZvVWppNEdDTkYtc2t6WWRONXRHMUk3eTljM3hTTVBFSERDZ1NZTkE?oc=5",
+      "published": "2026-07-17T17:10:00+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
       }
     },
     {
@@ -324,16 +334,6 @@
       }
     },
     {
-      "id": "63204ce0b5d1",
-      "title": "Sanidad señala que la falta de acuerdo sobre un techo de gasto impidió financiar los nuevos fármacos contra el Alzheimer - Diario de Navarra",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQLWI1XzNQRnRhQy1vVm1wRlM1a25zZUF5M3N3VDhWR0lpMzAweWtVYU1IRXFDR25IaktrNkhKUXdzOGVwUzRsai1aTTh0cUtBUjVDUEpyNE1HYlBOMjJWUDB6LXJXQ19rNGY3RXExYXFrb3lKdktuYmY0NDhqVmFBMU1fUFB4VWZBY1dJNXlZblJwVnBkNEdzYUt0Q09jSVlfTEVHX09sZTBXWEVZTFZyWjV4X2RsNDVqR2FrLUNIYjl2RzktRmRIZ3FoZ0xUUDBkRzRsSEVjT0N1cXRtekduUllrbE96Tmtyd2Z1WTlDX1RSdlNidlNSV2RzTGJqYXUwV1pZMTFZMA?oc=5",
-      "published": "2026-07-17T15:43:15+00:00",
-      "source": {
-        "name": "Diario de Navarra",
-        "url": "https://www.diariodenavarra.es"
-      }
-    },
-    {
       "id": "ecee421f6742",
       "title": "Pacientes, médicos e industria se rebelan contra el veto público a financiar dos fármacos para el alzhéimer - El Confidencial",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTEFIbzJFZmYxRFhPTGduWVdLanBUaUR3SFRMUWw3RTBqUmxHdWdIZXhPblM0N1BDSkJ5aGY4UGdHcGo5ODBZb0hRRTBHVDV0VHhveGdqNF9BOTJoRG1rT045QmIzTjNXRUJlaDNOTmJxczRqbXRRTXJzRXFnb0h3OTB2MlVWRno5V05sd3FfQWtKd0RBUERwX1R0bGxXV3JlUWRicTFQZTFxM2hsZXFwV0hBajMyeXlx?oc=5",
@@ -341,6 +341,16 @@
       "source": {
         "name": "El Confidencial",
         "url": "https://www.elconfidencial.com"
+      }
+    },
+    {
+      "id": "63204ce0b5d1",
+      "title": "Sanidad señala que la falta de acuerdo sobre un techo de gasto impidió financiar los nuevos fármacos contra el Alzheimer - Diario de Navarra",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQLWI1XzNQRnRhQy1vVm1wRlM1a25zZUF5M3N3VDhWR0lpMzAweWtVYU1IRXFDR25IaktrNkhKUXdzOGVwUzRsai1aTTh0cUtBUjVDUEpyNE1HYlBOMjJWUDB6LXJXQ19rNGY3RXExYXFrb3lKdktuYmY0NDhqVmFBMU1fUFB4VWZBY1dJNXlZblJwVnBkNEdzYUt0Q09jSVlfTEVHX09sZTBXWEVZTFZyWjV4X2RsNDVqR2FrLUNIYjl2RzktRmRIZ3FoZ0xUUDBkRzRsSEVjT0N1cXRtekduUllrbE96Tmtyd2Z1WTlDX1RSdlNidlNSV2RzTGJqYXUwV1pZMTFZMA?oc=5",
+      "published": "2026-07-17T15:43:15+00:00",
+      "source": {
+        "name": "Diario de Navarra",
+        "url": "https://www.diariodenavarra.es"
       }
     },
     {
@@ -364,16 +374,6 @@
       }
     },
     {
-      "id": "801955deec7a",
-      "title": "El Consell aprueba un contrato de 21,3 millones para abastecer de medicamentos a la sanidad pública - Castellon Información",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdFR1NmxlLVRLbmlYbkFkQ1hoSktWbmhnRURFcW9lQXZvOWlrdUxvUDFtbDNZYnVYamNTcV9VV1ZERzNydS01MWh3NnFMOXJFbXRlQXBYeW1CdUR6alotc2Jmcm80b0djenhZUEhmWW5aMmRLMG5Nb0NTZ3ktcHRjZy1BSzJQc18tQTluWE84bjRzbmNrWENjdzl3VkJUQjJ5VVNINnZkYllpYmFfalhNWHZDVXF2NXVjeTIxNWVNRXp0VGVsOVNFa0ZmR3p5Mkd1VWhYQ2lxVQ?oc=5",
-      "published": "2026-07-17T14:32:34+00:00",
-      "source": {
-        "name": "Castellon Información",
-        "url": "https://www.castelloninformacion.com"
-      }
-    },
-    {
       "id": "934a2242a8e4",
       "title": "Boehringer Ingelheim registra un crecimiento de ventas en el primer semestre de 2026, impulsado por JARDIANCE® y el lanzamiento de nuevos productos en EE.UU - Corresponsables",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaWtNcDFpdU05S2dBNi0ySUN1NURwRW50WGRmVlhlQ2l5b2lZdFFBZzZVajZBVkcxTG5OTzlLTWpCUFRLS21od2FfUXpETjBBSGh0SUlaXzRuOFVJbUhRS1EtaDNhZmxWU0NHTVZVVWU2aE1NN3FpSjlUeTRzWVBDMnQ5M1doNk5mM3ZQeVk4cmJHVVpFOGxiQ2Q3a1Y4bEFRajNWVnlwYlE?oc=5",
@@ -384,12 +384,32 @@
       }
     },
     {
-      "id": "8ccd70b30b5d",
-      "title": "Sanidad defiende que la falta de acuerdo con las farmacéuticas impidió financiar los nuevos fármacos contra el alzhéimer - consalud.es",
+      "id": "801955deec7a",
+      "title": "El Consell aprueba un contrato de 21,3 millones para abastecer de medicamentos a la sanidad pública - Castellon Información",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdFR1NmxlLVRLbmlYbkFkQ1hoSktWbmhnRURFcW9lQXZvOWlrdUxvUDFtbDNZYnVYamNTcV9VV1ZERzNydS01MWh3NnFMOXJFbXRlQXBYeW1CdUR6alotc2Jmcm80b0djenhZUEhmWW5aMmRLMG5Nb0NTZ3ktcHRjZy1BSzJQc18tQTluWE84bjRzbmNrWENjdzl3VkJUQjJ5VVNINnZkYllpYmFfalhNWHZDVXF2NXVjeTIxNWVNRXp0VGVsOVNFa0ZmR3p5Mkd1VWhYQ2lxVQ?oc=5",
+      "published": "2026-07-17T14:32:34+00:00",
+      "source": {
+        "name": "Castellon Información",
+        "url": "https://www.castelloninformacion.com"
+      }
+    },
+    {
+      "id": "10d01f1b96fb",
+      "title": "Seguridad de Medicamentos en Adultos Mayores Tras Alta Hospitalaria - Gestión y Economía de la Salud",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQcTNrUzU5QWFkQXMyZnpyNk5HRDJRRjZOUEhCTVVFUjAxZzFBbHBQTkNLdkJEY01rWFZyd19EZDU0TExScnJxVEpvbUU1dnRxbTBsUlJGUW5OYXJYM1NyS0V4UThscm5ZZjZ6ZW56WDF6ZkVrQzN3YTMtR3Z0eDE2X1JrZ1ZXVVlVWlhIWjk5SWstbE45RmVkZ2tsUW9TdHNWZnRIcG9NaDczazNrZWJkOTAxMko3Q2J2dlp5c0lvd2kyU2RiVDdoWmJTMTlCTHZlMWo0WWJUdXlHY1AxaEZBR2t4eGR4SWpMemotNkdwamtIbXZ6ZlpQaW45dTA3SXlFdndabEtuQUQ5bENiWGtBWjBkVkJzZG90T184?oc=5",
+      "published": "2026-07-16T12:35:23+00:00",
+      "source": {
+        "name": "Gestión y Economía de la Salud",
+        "url": "https://saludbydiaz.com"
+      }
+    },
+    {
+      "id": "3a80c3116fd1",
+      "title": "Sanidad defiende que la falta de acuerdo con las farmacéuticas impidió financiar los nuevos fármacos contra el alzhéimer - ConSalud.es",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenBhTk5Ga3JVOVNFUFJNTS0xUFNUUWtrZDRWdnhmRFpKZk1UNFFveDh2M2g4WDlFV3pEYWpaUl9RRGNFZUtXYk1BRURIdWhqZV9aQzVpb1NBY05iOHRpNG1xU1lWSlVGT0ZDam15MVBFT013dFZjUF8tX3o3bUtZeS1MQlZJOGVkVXIzYnBmcExNTlR3TFJnQjhiT25kQWlWdk1qWXA5U1pvMnAxTlB4QWxmamFsSFB0ZzloeGlvdmpFUV9JcGRFVkVSLUpyR0sybWI5T2FsN2JoV05hcTlBSU14MFRCVE5RalE?oc=5",
       "published": "2026-07-17T10:11:00+00:00",
       "source": {
-        "name": "consalud.es",
+        "name": "ConSalud.es",
         "url": "https://www.consalud.es"
       }
     },
@@ -401,16 +421,6 @@
       "source": {
         "name": "Tua Saúde",
         "url": "https://www.tuasaude.com"
-      }
-    },
-    {
-      "id": "10d01f1b96fb",
-      "title": "Seguridad de Medicamentos en Adultos Mayores Tras Alta Hospitalaria - Gestión y Economía de la Salud",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQcTNrUzU5QWFkQXMyZnpyNk5HRDJRRjZOUEhCTVVFUjAxZzFBbHBQTkNLdkJEY01rWFZyd19EZDU0TExScnJxVEpvbUU1dnRxbTBsUlJGUW5OYXJYM1NyS0V4UThscm5ZZjZ6ZW56WDF6ZkVrQzN3YTMtR3Z0eDE2X1JrZ1ZXVVlVWlhIWjk5SWstbE45RmVkZ2tsUW9TdHNWZnRIcG9NaDczazNrZWJkOTAxMko3Q2J2dlp5c0lvd2kyU2RiVDdoWmJTMTlCTHZlMWo0WWJUdXlHY1AxaEZBR2t4eGR4SWpMemotNkdwamtIbXZ6ZlpQaW45dTA3SXlFdndabEtuQUQ5bENiWGtBWjBkVkJzZG90T184?oc=5",
-      "published": "2026-07-16T12:35:23+00:00",
-      "source": {
-        "name": "Gestión y Economía de la Salud",
-        "url": "https://saludbydiaz.com"
       }
     },
     {
@@ -484,6 +494,16 @@
       }
     },
     {
+      "id": "bb88aa6eb85e",
+      "title": "La nueva Ley del Medicamento, cada vez más cerca: ¿cuáles serán las novedades para el sector veterinario? - ConSalud.es",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxON0M5NnY2S20xUHMwOEJBVU50S0R5alBhc2ZlX2NqdXRzcDNkRU5VNUF5M1ZLUUVjR3U3WkYwLUpZOGxnb2Z1SjhvUlR1LUJOdzRmUElNVjZwdXVtZlg0ZlJKaFdneFYtN3pxVDFVUjZmTzhaUi05VGJPOUtFemtVWURjeXNuRVR5QUdRY1dMVl9panM3d0RqMFNMcXY4UEVpckhlSTVfbzlKelFmSWJnSUNJR05MLVQySlc1U05WR0xuRnN0ZUR6cGgwbjlkdGtJUENnVEd3WjZuTGRCYmIyTldEWHFrOVJs?oc=5",
+      "published": "2026-07-16T11:30:00+00:00",
+      "source": {
+        "name": "ConSalud.es",
+        "url": "https://www.consalud.es"
+      }
+    },
+    {
       "id": "2f205eedb045",
       "title": "Top 15 Empresas en PAP global y tamaño de mercado paracetamol - Spherical Insights",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT2c5cGxoQjM0clZsVVJhMnRMaC1BUDByVlBYMmZhOVF2V1VuZnV5RV9jcFNiSmVRZzA3dDFuRHRZLTVLMGVRSHZXcllKOUJrbHZLNmNTU2pXRkh1VmFaZjdwLXp1WjBOYTgwVzlZSjhEUGc0V2VDRDl6eXZmdFZjTkxuVFRUOVVWTDdZSWJkWXBPbEtiRzZsV0t2U2M4cmVITlpuZWlMT0hPUFg1XzhCYTAzS0tiVjNMMS13TXpIR0dkdw?oc=5",
@@ -504,13 +524,13 @@
       }
     },
     {
-      "id": "56fac3147339",
-      "title": "La nueva Ley del Medicamento, cada vez más cerca: ¿cuáles serán las novedades para el sector veterinario? - consalud.es",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxON0M5NnY2S20xUHMwOEJBVU50S0R5alBhc2ZlX2NqdXRzcDNkRU5VNUF5M1ZLUUVjR3U3WkYwLUpZOGxnb2Z1SjhvUlR1LUJOdzRmUElNVjZwdXVtZlg0ZlJKaFdneFYtN3pxVDFVUjZmTzhaUi05VGJPOUtFemtVWURjeXNuRVR5QUdRY1dMVl9panM3d0RqMFNMcXY4UEVpckhlSTVfbzlKelFmSWJnSUNJR05MLVQySlc1U05WR0xuRnN0ZUR6cGgwbjlkdGtJUENnVEd3WjZuTGRCYmIyTldEWHFrOVJs?oc=5",
-      "published": "2026-07-16T11:30:00+00:00",
+      "id": "9f52f19a10a3",
+      "title": "¿Cuánto tengo que pagar por mis medicamentos? - Comunidad de Madrid |",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQOUY0bHk1eks3V19NSGd2NDdLZzk2eER6RU9nV1ZwWEtpNG1aNEduX1lOa3daby0yRVFhMWZDUkNKUFFKUTQzbkpkTVF2V0lZcjc4bktiZnJhdmxSNjlpNnJrcmtYd3RINmFqZHJmQ09YNmN1UC0xOHpB?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
       "source": {
-        "name": "consalud.es",
-        "url": "https://www.consalud.es"
+        "name": "Comunidad de Madrid |",
+        "url": "https://www.comunidad.madrid"
       }
     },
     {
@@ -524,16 +544,6 @@
       }
     },
     {
-      "id": "9f52f19a10a3",
-      "title": "¿Cuánto tengo que pagar por mis medicamentos? - Comunidad de Madrid |",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQOUY0bHk1eks3V19NSGd2NDdLZzk2eER6RU9nV1ZwWEtpNG1aNEduX1lOa3daby0yRVFhMWZDUkNKUFFKUTQzbkpkTVF2V0lZcjc4bktiZnJhdmxSNjlpNnJrcmtYd3RINmFqZHJmQ09YNmN1UC0xOHpB?oc=5",
-      "published": "2026-06-04T07:00:00+00:00",
-      "source": {
-        "name": "Comunidad de Madrid |",
-        "url": "https://www.comunidad.madrid"
-      }
-    },
-    {
       "id": "41c5502175b0",
       "title": "CESM-CV ADVIERTE DE QUE LA SEGURIDAD DEL PACIENTE EXIGE QUE LA PRESCRIPCIÓN DE MEDICAMENTOS CONTINÚE VINCULADA AL ACTO MÉDICO - cesm-cv.org",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZC1PamVpenlQOV9oWExFakRlUGNuMkhJMDlLRFhJZnpPSDYxcmstcHFOQXA0eGktSFpnQmxja3dCY0wyWmFGRlpwUlgxWDFEME5sdnNOM0pFVlY5QVhWdGp3cUtGM1BTNTlveUhzR28zbGVQaEZRYTAyQTJjRlVmenhRY01VNVE1S2lYMVMzUUtwekRwOXpCTm5xd3duOEo5WkFyWUdOLXdsb0tsajN0RThnMkdNS0owSkdDbTJmSVlBOHEwMU1HWDdTVXU1WDRidmtmakNKZVdmUVFmX0dKRkY0czg?oc=5",
@@ -541,26 +551,6 @@
       "source": {
         "name": "cesm-cv.org",
         "url": "https://www.cesm-cv.org"
-      }
-    },
-    {
-      "id": "5af309827b5c",
-      "title": "Las 763 farmacias de canarias se implican en la campaña «Cuidados del Verano 2026» - COF Las Palmas",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPXzJkREJaUFpzR2RvOE1SX2dsVFJQMFVaTzRoamhBbXZ4YkxXV0NNV0VURDhjU2pUamdHRGtxWWthS194N2RYWmVhbEstUzA2M1IwbTZUYmlXT1VHeU9iOTdwb3lUNU5kamQydEpEdlVpS3lGcG9JS1JNNzJCMFR2WEpaODA4UTcyZmVoVnJZRTdVM0Z2VFYzb3IzUFFOSkRsR1VXYmZhUE13ZXAtM0VHYmN3?oc=5",
-      "published": "2026-07-16T14:13:06+00:00",
-      "source": {
-        "name": "COF Las Palmas",
-        "url": "https://www.coflaspalmas.es"
-      }
-    },
-    {
-      "id": "e0b5fbe2e005",
-      "title": "Preocupa el incremento de consumo de benzodiacepinas en Euskadi - Radio Popular de Bilbao",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPamVfX3pSdTVsN2p2SkI3dFpqc2o0RENaZmE0N0xXclE2WHpPMXMwTEV1cl9rVTlLLWFEQnhJZEN2a3NRT2dtUENTZGV5a0ptNEFrdFFtVVlTa1E0VkprRUZCeWhqZkhLVmVSRkEtVWl0ZUhLeUcyQXdTbDBZY1h6N0FVMW5FTm4xaG1IU1NfVmF1OGFacVUzRFdUcjU?oc=5",
-      "published": "2026-07-17T12:27:19+00:00",
-      "source": {
-        "name": "Radio Popular de Bilbao",
-        "url": "https://radiopopular.com"
       }
     },
     {
@@ -594,6 +584,16 @@
       }
     },
     {
+      "id": "1630d7ed4bc4",
+      "title": "La CIPM financia tres medicamentos y cinco nuevas indicaciones en julio, entre ellas una para Nucala (GSK) - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZmJ1cEwxTWtobGljSEwyMVJraHc4TXA0RGl6N3A1WmVHWUdDdkVtSkVOVWJWRFJYWldLTHdLZkZ0SU9mUmdRdWp6dFBZQlJtV3RPemlpQjM5MGFwekhKbW5laGJqMy04dk5NUm1DeDRUZzBXT1V0X2pjNkZab2hNQ2s3a2hISnV6S0RSQ0Rydk1zWWczSTl4XzVYaWVpRUlYUGxMTXp3?oc=5",
+      "published": "2026-07-16T09:28:38+00:00",
+      "source": {
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
+      }
+    },
+    {
       "id": "ded98424afda",
       "title": "Lo más reciente de la AEMPS: últimas actualizaciones - Medscape",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ2hyRTR2Y3lqdUhJZnJFX1BEdnFmZHg0ckNBYVIweHo0TGxGNXlvdFd6bk43bHFzS0ZwdFR3bW4tNklUSkRBVWc4blNWU25ha3JJU3VhSW5McFJHR3lrMHV1alNmRnhtTExzNURvTEtyVHJueS1tX1Q1STJwQ20zSnhSUzdWRG9fS0N2Z2F0OFBycGw2T2hwUkRwcDFtZy1UVTZnakpFUQ?oc=5",
@@ -604,13 +604,23 @@
       }
     },
     {
-      "id": "1630d7ed4bc4",
-      "title": "La CIPM financia tres medicamentos y cinco nuevas indicaciones en julio, entre ellas una para Nucala (GSK) - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZmJ1cEwxTWtobGljSEwyMVJraHc4TXA0RGl6N3A1WmVHWUdDdkVtSkVOVWJWRFJYWldLTHdLZkZ0SU9mUmdRdWp6dFBZQlJtV3RPemlpQjM5MGFwekhKbW5laGJqMy04dk5NUm1DeDRUZzBXT1V0X2pjNkZab2hNQ2s3a2hISnV6S0RSQ0Rydk1zWWczSTl4XzVYaWVpRUlYUGxMTXp3?oc=5",
-      "published": "2026-07-16T09:28:38+00:00",
+      "id": "b304bff28f33",
+      "title": "La inversión de Europa en medicamentos innovadores genera un retorno de hasta seis veces su coste - FarmaIndustria",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdjRwSHdEWGdyTTFJYnd0X1pGUWMzNzdlV3FuZHJzbS1pQTBaTzc4ZHQwQm1UN2JCdktHUTJpZHFVaG9veG9JSlF2cWpCRmo1UEY3UE1weDQyLVkzZ1Eydl91bFk0SHhrRTRleHVVcEZVX2o4ek54NXlBMTVrQy1GNTRQWjhnY3hlbmJrVm5wX3puXzRFcWNCOWFtSkZOdEtSLWhoREdXMTlMbmdta1k4SzlkWXBsa3JBZ1d4WU5lLVRQSDU3NUZzSnVsbkZqZUNjbzZrcTE1SF9FVzFGSVE?oc=5",
+      "published": "2026-06-23T07:00:00+00:00",
       "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
+        "name": "FarmaIndustria",
+        "url": "https://www.farmaindustria.es"
+      }
+    },
+    {
+      "id": "2ee21da1f7d3",
+      "title": "🍴🏃 Ellos son el doctor Víctor Mundo, Director Médico de la división Consumer Health de Bayer; la doctora Aída Jiménez, Directora de la Sección Técnica de la Salud Global en la Sociedad Mexicana de Salud Pública; el doctor Fernando Fon, Director Ejecutiv - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT3hFcjZ3MUZrTmpRM2FaeV85ZW56a0ZkS2tadzZnX1BFOV9TdnRwSkJEUGFfXzJzLWJ2WVVZeXQwZFdlZDNFeExKTF9EczF4bjlFZnFvaTBJTXpXWFA5NGZJWnFPNVRIenlHbW5BQ0VTQkwyVVdPS1VmYkd6VFRvbHpUdlZMMi1hejU5eHljaHAzNTJFNS1oNzRXVE82endLNVNHZFR3NzJwQ1FGVW52V3c1cWstNGlhdkN6OXZsZUJMZXZpbjgzNDRHdURtMHEtN010RC01azJSVFUwc0NjMk5OR21vUWRGUEdDSF9lSQ?oc=5",
+      "published": "2026-07-17T20:01:30+00:00",
+      "source": {
+        "name": "facebook.com",
+        "url": "https://www.facebook.com"
       }
     },
     {
@@ -634,16 +644,6 @@
       }
     },
     {
-      "id": "5eb14e449165",
-      "title": "La UE apuesta por una mayor autonomía estratégica: «Queremos reforzar la producción de medicamentos críticos y principios activos» - iSanidad",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUUtILWVBWFotamVzbFBlMFlXcHIzLVlGR281Qm9xUTVySlVDRmE2TXF6Wm5XWEdEUGRsWE1NNnhyY0Fvd1RVWWItd1Z1LUd5QnNHeE1TRERxNVZrcjZ1bVNVaDlIUFZKTFpScXJMdi00XzRpSU5iRUhVMlJLOW9CdmowVk1PWmJxeW1PZkt4dk1hUmJWRTBTT21vVTIyWWh2bGYxckh0bFA4anN5UENZcFJEcGVHZHJyQlpHeklBSFViTzV2bUY5cFpLX2N0R0dSMWZmcEk4MzBORVY4akFFYVhjeEQxaXhFZHpzbw?oc=5",
-      "published": "2026-07-16T15:43:59+00:00",
-      "source": {
-        "name": "iSanidad",
-        "url": "https://isanidad.com"
-      }
-    },
-    {
       "id": "030c7f27477c",
       "title": "España financia cerca del 80% de los medicamentos innovadores que solicitan su inclusión en la prestación farmacéutica - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4QU0zRF90RHYycHBSWjl2ZlVwSE1kSk1ZWjcxWm5vSFkzU3NiNm1ySzhxS09Gd29wVjhGSE15THhMaFJUaFJqS0lVbWRpWHhHTHlPZmRGeVBtQl90d3RHdTVEZGRBZ0JjV3c?oc=5",
@@ -651,16 +651,6 @@
       "source": {
         "name": "Ministerio de Sanidad",
         "url": "https://www.sanidad.gob.es"
-      }
-    },
-    {
-      "id": "85a8d223e373",
-      "title": "La FDA aprueba nuevo tratamiento para reducir colesterol malo - La Web de la Salud",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVlSM3YtUnJvNXBIY3FGbHRNWnRMdVd3dlYwV3JaXzYwbkhfcEVKQTZTR09Mb0tISEFheEJ4ektHTGpzRkNMTW1RWkdIUDFTX0FWeXhGTVVYUDlPTHVDcldTbjlOSkgtaGZvT0JJOGVzUWFYbFRIUUF4QmkxMW1adHVxQ2xuMlRwdEdNTnNlYXFLOGM?oc=5",
-      "published": "2026-07-17T15:56:14+00:00",
-      "source": {
-        "name": "La Web de la Salud",
-        "url": "https://lawebdelasalud.com"
       }
     },
     {
@@ -691,6 +681,16 @@
       "source": {
         "name": "La Razón",
         "url": "https://www.larazon.es"
+      }
+    },
+    {
+      "id": "85a8d223e373",
+      "title": "La FDA aprueba nuevo tratamiento para reducir colesterol malo - La Web de la Salud",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVlSM3YtUnJvNXBIY3FGbHRNWnRMdVd3dlYwV3JaXzYwbkhfcEVKQTZTR09Mb0tISEFheEJ4ektHTGpzRkNMTW1RWkdIUDFTX0FWeXhGTVVYUDlPTHVDcldTbjlOSkgtaGZvT0JJOGVzUWFYbFRIUUF4QmkxMW1adHVxQ2xuMlRwdEdNTnNlYXFLOGM?oc=5",
+      "published": "2026-07-17T15:56:14+00:00",
+      "source": {
+        "name": "La Web de la Salud",
+        "url": "https://lawebdelasalud.com"
       }
     },
     {
@@ -754,16 +754,6 @@
       }
     },
     {
-      "id": "76caf1f163f4",
-      "title": "Adres presenta observatorio de precios en salud para comparar tarifas de servicios, medicamentos y tecnologías en todo el país - El Tiempo",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOS2dlZmZVN2cxYnpnS2pVdEZMb3FrZURlbjF0TEVOc1VUWXAtYlZKQXluclZyckRQNE5mdnowVWNxX1NvdW1jenZtMzRrbzhwSHczNFJ1STVDemZiOXdmaUJVQk5waEhqVTJOYi1DbEJyOFFaenpkbndtckV2a0owczZVX3RNaENVeHAtaWFnU1QyOFZic0xrU01ndlB1aTlPMjF1VnN1bEdMdFFJR0hKd3pFNGNGWVpjOEJiT0NsTV8wVlY3c2NPOVI1cE5zVTV6bko3ZmVUQ1VjYmcyM0tSUEZqSFBYUkNlUUdnV1VGbGo5ZktaS3Jr0gH8AUFVX3lxTE9CX2FmMHBIXzJWNVVOanJBNlNCeHZuRkN3a0VmOWcyZWY1b1E3dWY2V1g4dFFEdURTZXloSzNxTnlrNGFDWS1RbnMzNVdBdWZUVEg0RlhvOHd5X2NOclpPWVlOLVJaOVhReXpCNEl5SjJrOVV0U193c2lkbFpUUkwwTVZGazJpRXBfLUs2T2xvcHRtOVNDTmlxOXVRcUxGQ0JpRFhwYXY5bXFiSG8zcGNlcVhSbHZYQThJeUFrdklrN0JkbXNidVlDaEtELUVIQWJ0VXVDcjcwcW9lSEp6NGxuakFTV3l3UDRleXJxN1U5YkdheUhSeWhiZjZ1aQ?oc=5",
-      "published": "2026-07-16T22:23:37+00:00",
-      "source": {
-        "name": "El Tiempo",
-        "url": "https://www.eltiempo.com"
-      }
-    },
-    {
       "id": "d6e3f2129572",
       "title": "La Comunidad de Madrid invierte más de 1.000 millones de euros en la compra de medicamentos para los hospitales del Servicio Madrileño de Salud - Comunidad de Madrid |",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdGRETS14d2pwSjNFRWhIM19td3FfZ0htdWk4aGlFeG5XMUMwTlEyMDdtb3BQMVYtRjJLVlVqWm1OMkxBMlRMRjVNcW9sV3NkenNndGFzaTMwbUY5M1F2ZjVldG5vQzRIaS1KX3ZhblFadkdRMGZ0OUg3UW1fMmZvNm13SHoxVXo0dV9SaUlzdWxNV1ZTbzBWckhfbW9OTHM1QWtiZExLNWNFWnpCV1p0SVJ3djNLR2lQTmNYUF9hd2k5N2pSUm9Rems3cmpEbmFvUmtTNHMweTFGWEYyU1lFc2J0TUY?oc=5",
@@ -781,6 +771,16 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "76caf1f163f4",
+      "title": "Adres presenta observatorio de precios en salud para comparar tarifas de servicios, medicamentos y tecnologías en todo el país - El Tiempo",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOS2dlZmZVN2cxYnpnS2pVdEZMb3FrZURlbjF0TEVOc1VUWXAtYlZKQXluclZyckRQNE5mdnowVWNxX1NvdW1jenZtMzRrbzhwSHczNFJ1STVDemZiOXdmaUJVQk5waEhqVTJOYi1DbEJyOFFaenpkbndtckV2a0owczZVX3RNaENVeHAtaWFnU1QyOFZic0xrU01ndlB1aTlPMjF1VnN1bEdMdFFJR0hKd3pFNGNGWVpjOEJiT0NsTV8wVlY3c2NPOVI1cE5zVTV6bko3ZmVUQ1VjYmcyM0tSUEZqSFBYUkNlUUdnV1VGbGo5ZktaS3Jr0gH8AUFVX3lxTE9CX2FmMHBIXzJWNVVOanJBNlNCeHZuRkN3a0VmOWcyZWY1b1E3dWY2V1g4dFFEdURTZXloSzNxTnlrNGFDWS1RbnMzNVdBdWZUVEg0RlhvOHd5X2NOclpPWVlOLVJaOVhReXpCNEl5SjJrOVV0U193c2lkbFpUUkwwTVZGazJpRXBfLUs2T2xvcHRtOVNDTmlxOXVRcUxGQ0JpRFhwYXY5bXFiSG8zcGNlcVhSbHZYQThJeUFrdklrN0JkbXNidVlDaEtELUVIQWJ0VXVDcjcwcW9lSEp6NGxuakFTV3l3UDRleXJxN1U5YkdheUhSeWhiZjZ1aQ?oc=5",
+      "published": "2026-07-16T22:23:37+00:00",
+      "source": {
+        "name": "El Tiempo",
+        "url": "https://www.eltiempo.com"
       }
     },
     {
@@ -834,16 +834,6 @@
       }
     },
     {
-      "id": "5d727a294e81",
-      "title": "Administración Trump quieren facilitar el recetar testosterona - El Comercio de Colorado",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQczlKeXZ3YmlvU2FRZzBldFVnNG03cTQ3T0dMWXN6M0NmXzVOOHVKdzh1TVpfdEpyWlRfdnJPdDVPcGJENFBqZlRDbWJCbkRnalc1RkhPRGUyN1RxcVFKd2dlcTNWWnJZUU5vWDE4czV5M1hGTVY4ejhSS3U2aklTRGNPMHQ2bEJsWXN5MDMyVjBJeGJ1cVBXZEh1Zkc?oc=5",
-      "published": "2026-07-17T18:23:13+00:00",
-      "source": {
-        "name": "El Comercio de Colorado",
-        "url": "https://elcomerciodecolorado.com"
-      }
-    },
-    {
       "id": "9fb14c06e990",
       "title": "Salud y el Colegio de Farmacéuticos renuevan su acuerdo de colaboración para garantizar el uso racional de medicamentos - CARM.es",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ2VNZzQ0Uk9mcUE2VVo5dVNUbUJGVnFtYzVaczlJcEt0NjA1UWo4WEllaGt0MmFaWGN3OElodzhsZkIzTXFmd2JERjctS2xydVI0UE1DR181NmRfVWF4NU9jaGx2RldEZEZ4VmVua0hreUQxUTJtUGJQUEdsb01sc093?oc=5",
@@ -861,6 +851,16 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "5d727a294e81",
+      "title": "Administración Trump quieren facilitar el recetar testosterona - El Comercio de Colorado",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQczlKeXZ3YmlvU2FRZzBldFVnNG03cTQ3T0dMWXN6M0NmXzVOOHVKdzh1TVpfdEpyWlRfdnJPdDVPcGJENFBqZlRDbWJCbkRnalc1RkhPRGUyN1RxcVFKd2dlcTNWWnJZUU5vWDE4czV5M1hGTVY4ejhSS3U2aklTRGNPMHQ2bEJsWXN5MDMyVjBJeGJ1cVBXZEh1Zkc?oc=5",
+      "published": "2026-07-17T18:23:13+00:00",
+      "source": {
+        "name": "El Comercio de Colorado",
+        "url": "https://elcomerciodecolorado.com"
       }
     },
     {
@@ -924,16 +924,6 @@
       }
     },
     {
-      "id": "0cdc83eaaff2",
-      "title": "FDA aprueba el primer inhibidor oral para reducir el colesterol \"malo\" - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8waDk4bU9vVU1TVFFWV2hXQ21Id25HZjRSME52YjBadnB3YTRNdTdjNlBOc05ZdHdDeVM0NEtIdlVTY1h2YmRYd0RoZUxsN2V2Tmg5T2tkMWkwQVVTWnhUazBFX1ZGb3Njck9kTEk4S1BUejV1emNTTHBTQXlmenc?oc=5",
-      "published": "2026-07-17T16:19:45+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
       "id": "f555c3db3b4a",
       "title": "Red de alertas de medicamentos - Comunidad de Madrid |",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmSnZSY0hhRXlHNmJLZmdGb051RmhyaXk5MjMtZ0NaRktiTzdqUENDNGlUQUN5QjBZQVBCT191b1JjanlOcF9sV1hud0tsZjFCTHo1dkh6VmppM3lRTU9DMFhDQ0hlWXJSajZz?oc=5",
@@ -951,6 +941,16 @@
       "source": {
         "name": "Diariofarma",
         "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "0cdc83eaaff2",
+      "title": "FDA aprueba el primer inhibidor oral para reducir el colesterol \"malo\" - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8waDk4bU9vVU1TVFFWV2hXQ21Id25HZjRSME52YjBadnB3YTRNdTdjNlBOc05ZdHdDeVM0NEtIdlVTY1h2YmRYd0RoZUxsN2V2Tmg5T2tkMWkwQVVTWnhUazBFX1ZGb3Njck9kTEk4S1BUejV1emNTTHBTQXlmenc?oc=5",
+      "published": "2026-07-17T16:19:45+00:00",
+      "source": {
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
       }
     },
     {
