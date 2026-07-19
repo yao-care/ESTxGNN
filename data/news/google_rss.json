@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-19T20:44:00.048384+00:00",
+  "fetched_at": "2026-07-19T21:38:14.639869+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "fb3f28108171",
-      "title": "Más de 300.000 vascos consumen pastillas para la ansiedad y el insomnio más allá del tiempo recomendado - El Correo",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmxKU3RYN2toVFlnV1oxUVVhSmpDdktvWkcwZTRyLXk5TVJUVTltdW5nNGRFeFhpNnFsZVQ2WkdpRkhuTVZQQV9kZFFlT0JnX0RGU2VfZDNDSnV0aVhVNzVIZTBkRnMyZ0tBeXduSTBQWEdKN192aXlGOFBvdEF6VjYtNExadEJuZXM5Y2JUYWgtRUhvMnVSNnVMMnVET2Faemk4OGFDMnlncmRPNzdTcjdwaEFfb0FxTkHSAb8BQVVfeXFMTVhQRnpJR0ZmYkdjLWxraUxEajh2dnVhQld6UnBRcEZfeWt2VG4wQVNCU1F3ajFHZTZsU1c1U0xDaWV4YkFSVk1IVHItZU1EUlFVa3pjZWZWdmcwVWlLY1lTZ1Q4bnVwUGNTNENZbTNuRzNqMjlzNklHMjZkeDJlYTh5QjVJeTlhN29VQ01pS2xJdjA2WWJhWUpLenRGMFZ1S1o2b1RMQnhBUFFxSVVyWktlMTc5d0RqLU5QdDM1aUU?oc=5",
-      "published": "2026-07-17T11:11:40+00:00",
-      "source": {
-        "name": "El Correo",
-        "url": "https://www.elcorreo.com"
-      }
-    },
     {
       "id": "eb50db25b65d",
       "title": "Nueva pastilla para el colesterol: cómo actúa, a quién está dirigida y las claves para entender el alcance - Infobae",
@@ -254,26 +244,6 @@
       }
     },
     {
-      "id": "809684065e79",
-      "title": "Hábitos que ayudan a cuidar la presión arterial de forma natural - Tua Saúde",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmd5OEFJcHBzQUs1Q2FLSjBITUQ3d2xHbUg0OHFXYUJEZDlwbnlkTHBtVUV4X2gwX1BtN3VOZlFWd3hONjU2YmNxSEhreDVXSjFPaGtrUlBmejk5OC1kazZPS0loX1lUTjdOcHpGRjhUWmliYXl1QkQ2LXFBLU9IZmZYZTJhT01IVGFDRlVpV1pjU25EQ2kwN1gyUHRNdFdfdVZYZ081TU5ZcS1DQlE?oc=5",
-      "published": "2026-07-19T09:15:00+00:00",
-      "source": {
-        "name": "Tua Saúde",
-        "url": "https://www.tuasaude.com"
-      }
-    },
-    {
-      "id": "b8dab8c433d4",
-      "title": "Uno de cada 3 conductores coge el coche tras tomar medicamentos que pueden afectar a la conducción - 65 y más",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGtNbXlLMkR4TTN1TUozTGU1RHRoRmVuMFRlOUxUVnhkVzJJdF9IRlAtUFJXTkJCckZ1RWpqNThVeGdrUk1xLTMxajFlV05RLXpoUXVXSnhhMXByZkp5eVlmVzBzemhUa3UtRTU1WVRBN09kOWk0ZE1nYUx4aTVvWXFGV2FQQWpPZXBGTFp2MGlnN2ZET291Y29xaW05TkJDcVE5UEFRSzZJSWVvYmRvMg?oc=5",
-      "published": "2026-07-19T03:00:00+00:00",
-      "source": {
-        "name": "65 y más",
-        "url": "https://www.65ymas.com"
-      }
-    },
-    {
       "id": "07717eab1cf7",
       "title": "La farmacia pone en valor su papel para mitigar los riesgos ante el calor extremo - Diariofarma",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRFd1MHJtZmlabXVDZEJra3FQMlMzZ1dEN1g2NjNXc3N4cFFtNkItN19sNGtMcXpidjgwYm12VC1ienhQM2xlZ1dwbS10bHdZZEhTTkZaYmIwNHhqbUJ4ZVJqdTFQQVhjdG9wX0xGbS1KRm40LWlkaVZfb3FkUXlMN256S0xONHhITEEtNm5qbkxMQ2RvY2ktRl9aejdOM1U2TlVkZmVKZ21ua0JoUTdyalFGamc0YTQ?oc=5",
@@ -301,6 +271,16 @@
       "source": {
         "name": "caib.es",
         "url": "https://www.caib.es"
+      }
+    },
+    {
+      "id": "b8dab8c433d4",
+      "title": "Uno de cada 3 conductores coge el coche tras tomar medicamentos que pueden afectar a la conducción - 65 y más",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGtNbXlLMkR4TTN1TUozTGU1RHRoRmVuMFRlOUxUVnhkVzJJdF9IRlAtUFJXTkJCckZ1RWpqNThVeGdrUk1xLTMxajFlV05RLXpoUXVXSnhhMXByZkp5eVlmVzBzemhUa3UtRTU1WVRBN09kOWk0ZE1nYUx4aTVvWXFGV2FQQWpPZXBGTFp2MGlnN2ZET291Y29xaW05TkJDcVE5UEFRSzZJSWVvYmRvMg?oc=5",
+      "published": "2026-07-19T03:00:00+00:00",
+      "source": {
+        "name": "65 y más",
+        "url": "https://www.65ymas.com"
       }
     },
     {
@@ -354,12 +334,12 @@
       }
     },
     {
-      "id": "c63584e9eaa1",
-      "title": "La AEMPS liderará la evaluación de medicamentos en el nuevo modelo de tecnologías sanitarias - ConSalud.es",
+      "id": "d219696b999b",
+      "title": "La AEMPS liderará la evaluación de medicamentos en el nuevo modelo de tecnologías sanitarias - consalud.es",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWWtlWGtoMkdnUE1xVjZ3YW4wenRYYjR1X2NiUll5aDBxVU5nQmp0M1NtdG8wdFo4SElIUGdIZmpWSHphYWlWcTdkaXlpS2FzaVJjRFpxWVNDQzdOTlh3dkN3LVZOV0ZTdXZqeWpTVktuaXFDSkFvalZyM3ptRzNTS0hHSXh1MlpuQVNGeW1Jc1h2MzdZZ3o2MjJfZ0k2OXAyOHRTOUtzckY0OVBWT3JwZWdsWk5PMHZVSHc4c2x4SUJ3U3FybUNGWkFKZw?oc=5",
       "published": "2026-07-17T12:08:00+00:00",
       "source": {
-        "name": "ConSalud.es",
+        "name": "consalud.es",
         "url": "https://www.consalud.es"
       }
     },
@@ -371,6 +351,16 @@
       "source": {
         "name": "Diariofarma",
         "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "c41d8fbb1f95",
+      "title": "Lanza Salud convocatoria para compra de medicamentos 2027-2028 - sumedico.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObW00TDlhRVcyNWM0dFJDckVSNklYUDFZSy1ISjRqajdsX3g2ajdzNE9BVGNrZXpNMWtxb1N2R21DQThwdmNmV3VFQV9rNFFzYWZ0THV4Z3ZvV09MMHpGQ1Mzdm1BUEtNMTNEaXJrTEl3QklyaF9ObW94OGRxejhBWi1RV1ZNRW5CSW9mVjBPZXpqUWtEcTl4RUsxa1FwSGt1QVZmUlY0LXU1dTJ5SWJKb2tDYjJ6Z0Z3WTdETkplcHHSAcABQVVfeXFMTm1tNEw5YUVXMjVjNHRSQ3JFUjZJWFAxWUstSEo0amo3bF94Nmo3czRPQVRja2V6TTFrcW9TdkdtQ0E4cHZjZld1RUFfazRRc2FmdEx1eGd2b1dPTDB6RkNTM3ZtQVBLTTEzRGlya0xJd0JJcmhfTm1veDhkcXo4QVotUVdWTUVuQklvZlYwT2V6alFrRHE5eEVLMWtRcEhrdUFWZlJWNC11NXUyeUliSm9rQ2IyemdGd1k3RE5KZXBx?oc=5",
+      "published": "2026-07-17T04:38:00+00:00",
+      "source": {
+        "name": "sumedico.com",
+        "url": "https://www.sumedico.com"
       }
     },
     {
@@ -494,16 +484,6 @@
       }
     },
     {
-      "id": "5eb14e449165",
-      "title": "La UE apuesta por una mayor autonomía estratégica: «Queremos reforzar la producción de medicamentos críticos y principios activos» - iSanidad",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUUtILWVBWFotamVzbFBlMFlXcHIzLVlGR281Qm9xUTVySlVDRmE2TXF6Wm5XWEdEUGRsWE1NNnhyY0Fvd1RVWWItd1Z1LUd5QnNHeE1TRERxNVZrcjZ1bVNVaDlIUFZKTFpScXJMdi00XzRpSU5iRUhVMlJLOW9CdmowVk1PWmJxeW1PZkt4dk1hUmJWRTBTT21vVTIyWWh2bGYxckh0bFA4anN5UENZcFJEcGVHZHJyQlpHeklBSFViTzV2bUY5cFpLX2N0R0dSMWZmcEk4MzBORVY4akFFYVhjeEQxaXhFZHpzbw?oc=5",
-      "published": "2026-07-16T15:43:59+00:00",
-      "source": {
-        "name": "iSanidad",
-        "url": "https://isanidad.com"
-      }
-    },
-    {
       "id": "d6e3f2129572",
       "title": "La Comunidad de Madrid invierte más de 1.000 millones de euros en la compra de medicamentos para los hospitales del Servicio Madrileño de Salud - Comunidad de Madrid |",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdGRETS14d2pwSjNFRWhIM19td3FfZ0htdWk4aGlFeG5XMUMwTlEyMDdtb3BQMVYtRjJLVlVqWm1OMkxBMlRMRjVNcW9sV3NkenNndGFzaTMwbUY5M1F2ZjVldG5vQzRIaS1KX3ZhblFadkdRMGZ0OUg3UW1fMmZvNm13SHoxVXo0dV9SaUlzdWxNV1ZTbzBWckhfbW9OTHM1QWtiZExLNWNFWnpCV1p0SVJ3djNLR2lQTmNYUF9hd2k5N2pSUm9Rems3cmpEbmFvUmtTNHMweTFGWEYyU1lFc2J0TUY?oc=5",
@@ -584,16 +564,6 @@
       }
     },
     {
-      "id": "700966f04d59",
-      "title": "OPS/OMS apoya la respuesta al terremoto en Venezuela con la movilización de 27 toneladas de medicamentos e insumos médicos - Pan American Health Organization (PAHO)",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc21KY1M5elZuMUFucjdkUzFDTmVBVURHVmlPZDFja1phcFFRZmxOcGVYVGNUaFk0NXJEY3JNeUxqbU9qc19RbHh0a3pha1B1UFgyYTRCN3lXSXVmUURTam8xYnI3clNRVVRaRWV5YWRZNGtFZmt2UXlmUnBVX1oyX3hFV1hzempzZXpmZ01kZ2pfOFAtWFRVbDZqSUVWSEpLMWo1NmNzczZVTE5KV2pJT3VkZllxYjhIeHc?oc=5",
-      "published": "2026-07-15T11:28:45+00:00",
-      "source": {
-        "name": "Pan American Health Organization (PAHO)",
-        "url": "https://www.paho.org"
-      }
-    },
-    {
       "id": "5aadb430eea9",
       "title": "Osakidetza envía 20.000 cartas a pacientes que podrían reducir el consumo de benzodiacepinas para el insomnio - Deia",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWdBUHJEdm5WVVhnVFJxYW9fMEp5NUZJVGlBQlhzekpWcU1vMEpOMXNlOFdjZEtaOEZkZ0VERUlQVkt5ZEZOSzRnZ0VrNEdLQVlWWE95S1Q4QlJRZThySjhYbjhuczNpUUtBT1hVX2Mtckk0NzlnRU5qLUlfNE1GWE04UkpwWGk4Q1J0MjhseU5kOEdvZzF0a0VLM1LSAaIBQVVfeXFMT2NJV1Q0UVdIOE4tUng5YVRrYXJmWHFQUmlheFlJbWVEcFQ1dWRHQV80dkNBdXJLQjBTeXdSbHcyVGFtZ0lfUUJNNWUwb1VhbFJodkdzcWxRZnNtd0RNNUxHNE9fS3VQNnVqRURMcTlXcHRtb1VJbE92OTJoTmc4SGFrbmJINGczczBzTmpJOG1SMTJycjA4WTJxcGFWLWJ6S2J3?oc=5",
@@ -611,6 +581,16 @@
       "source": {
         "name": "Ministerio de Sanidad",
         "url": "https://www.sanidad.gob.es"
+      }
+    },
+    {
+      "id": "700966f04d59",
+      "title": "OPS/OMS apoya la respuesta al terremoto en Venezuela con la movilización de 27 toneladas de medicamentos e insumos médicos - Pan American Health Organization (PAHO)",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc21KY1M5elZuMUFucjdkUzFDTmVBVURHVmlPZDFja1phcFFRZmxOcGVYVGNUaFk0NXJEY3JNeUxqbU9qc19RbHh0a3pha1B1UFgyYTRCN3lXSXVmUURTam8xYnI3clNRVVRaRWV5YWRZNGtFZmt2UXlmUnBVX1oyX3hFV1hzempzZXpmZ01kZ2pfOFAtWFRVbDZqSUVWSEpLMWo1NmNzczZVTE5KV2pJT3VkZllxYjhIeHc?oc=5",
+      "published": "2026-07-15T11:28:45+00:00",
+      "source": {
+        "name": "Pan American Health Organization (PAHO)",
+        "url": "https://www.paho.org"
       }
     },
     {
@@ -634,12 +614,12 @@
       }
     },
     {
-      "id": "3a80c3116fd1",
-      "title": "Sanidad defiende que la falta de acuerdo con las farmacéuticas impidió financiar los nuevos fármacos contra el alzhéimer - ConSalud.es",
+      "id": "8ccd70b30b5d",
+      "title": "Sanidad defiende que la falta de acuerdo con las farmacéuticas impidió financiar los nuevos fármacos contra el alzhéimer - consalud.es",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOenBhTk5Ga3JVOVNFUFJNTS0xUFNUUWtrZDRWdnhmRFpKZk1UNFFveDh2M2g4WDlFV3pEYWpaUl9RRGNFZUtXYk1BRURIdWhqZV9aQzVpb1NBY05iOHRpNG1xU1lWSlVGT0ZDam15MVBFT013dFZjUF8tX3o3bUtZeS1MQlZJOGVkVXIzYnBmcExNTlR3TFJnQjhiT25kQWlWdk1qWXA5U1pvMnAxTlB4QWxmamFsSFB0ZzloeGlvdmpFUV9JcGRFVkVSLUpyR0sybWI5T2FsN2JoV05hcTlBSU14MFRCVE5RalE?oc=5",
       "published": "2026-07-17T10:11:00+00:00",
       "source": {
-        "name": "ConSalud.es",
+        "name": "consalud.es",
         "url": "https://www.consalud.es"
       }
     },
@@ -834,16 +814,6 @@
       }
     },
     {
-      "id": "871ff4efdbf4",
-      "title": "Ven expertos desafíos en la compra de medicamentos 2027-2028 - sumedico.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUN1Y1pfcDBiM3dkcHZOYXA0bGxWNEc2cjhOZmRvY0dnRVJGXzVtLXhQMUxkbDZ0SFhPY1J4ODQ5VW82LTZFS1RhcE5XMFpvNHBMMjczUzdPLWFnVUlHbTRfcUY2NlF2ZFZkZUdFZzMwVTdYbVk2blZNMGwxbEFvSWV2YWlaTFZvQ2FhN3BQbGZZSUR4RU9ZX05JaFBwa3UtUy14RzNIaFJVWFBDcDMwQk1JckxrRkwxeG1iamFuaE1zWmxF0gHEAUFVX3lxTE5pQ3VjWl9wMGIzd2Rwdk5hcDRsbFY0RzZyOE5mZG9jR2dFUkZfNW0teFAxTGRsNnRIWE9jUng4NDlVbzYtNkVLVGFwTlcwWm80cEwyNzNTN08tYWdVSUdtNF9xRjY2UXZkVmRlR0VnMzBVN1htWTZuVk0wbDFsQW9JZXZhaVpMVm9DYWE3cFBsZllJRHhFT1lfTkloUHBrdS1TLXhHM0hoUlVYUENwMzBCTUlyTGtGTDF4bWJqYW5oTXNabEU?oc=5",
-      "published": "2026-07-17T22:20:00+00:00",
-      "source": {
-        "name": "sumedico.com",
-        "url": "https://www.sumedico.com"
-      }
-    },
-    {
       "id": "69cb39a1fe52",
       "title": "Sanidad prevé tener listo el RD de financiación y precio de medicamentos para mayo - iSanidad",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR090VzJaRmVZeDlWbmtISHl0QXhIdGNoWmFkTV9BaHc1UmNZT3JWQWdjQXJZelBOVGh0bWl1WUdzb01MeklPVmZhNEJHeE85SmVaa0hWajk3Z19ORnMtbnd6Z0NhNFh6V1ltSGlhUGNVa29fdk1SUjNpQWV6aUJUd1FtemVvZE42RnRkSkNDVWg3RzFtVnlnWHVsX3duNDdsNEhfNjMtUmYzUGpSRUQzNw?oc=5",
@@ -851,6 +821,16 @@
       "source": {
         "name": "iSanidad",
         "url": "https://isanidad.com"
+      }
+    },
+    {
+      "id": "871ff4efdbf4",
+      "title": "Ven expertos desafíos en la compra de medicamentos 2027-2028 - sumedico.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUN1Y1pfcDBiM3dkcHZOYXA0bGxWNEc2cjhOZmRvY0dnRVJGXzVtLXhQMUxkbDZ0SFhPY1J4ODQ5VW82LTZFS1RhcE5XMFpvNHBMMjczUzdPLWFnVUlHbTRfcUY2NlF2ZFZkZUdFZzMwVTdYbVk2blZNMGwxbEFvSWV2YWlaTFZvQ2FhN3BQbGZZSUR4RU9ZX05JaFBwa3UtUy14RzNIaFJVWFBDcDMwQk1JckxrRkwxeG1iamFuaE1zWmxF0gHEAUFVX3lxTE5pQ3VjWl9wMGIzd2Rwdk5hcDRsbFY0RzZyOE5mZG9jR2dFUkZfNW0teFAxTGRsNnRIWE9jUng4NDlVbzYtNkVLVGFwTlcwWm80cEwyNzNTN08tYWdVSUdtNF9xRjY2UXZkVmRlR0VnMzBVN1htWTZuVk0wbDFsQW9JZXZhaVpMVm9DYWE3cFBsZllJRHhFT1lfTkloUHBrdS1TLXhHM0hoUlVYUENwMzBCTUlyTGtGTDF4bWJqYW5oTXNabEU?oc=5",
+      "published": "2026-07-17T22:20:00+00:00",
+      "source": {
+        "name": "sumedico.com",
+        "url": "https://www.sumedico.com"
       }
     },
     {
@@ -894,16 +874,6 @@
       }
     },
     {
-      "id": "966b3da53cf5",
-      "title": "Impulsan un sistema de alerta temprana para evitar el desabastecimiento de medicamentos - El Nacional - El diario de los lectores influyentes",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVFpzdHJZeEQ3VlZacEVQYWEyZXJNaThnSGVDbU4yTnBzd3MwblZkVDFiNmxFX0ZhekJMRU1nNXp4bENmWDEyZGsyVmZhRlBycWtRVEJTTE9wbnB3TWt6WGFlRDNzR1gzYy1jaTRadWN4cENWYm9qRHZQaEVSV0VQeTRvbjA1Y0pkXzBZNk5EajFxOVp5RkZraURyWmdESERTRHRUY05zVDgyZW42V0pYeERMaGhzQdIBuwFBVV95cUxORWowV3phNHBMcURLNkFBcnhNUXU4RXpzQ19wT1VNZjhsMWs2MTN1N0h3MTlPbDA1YzNMQnhjT0ZpMXI5SURzdDlhQnBnbEx1dFBzWWVFSWdkYnRabmJsZEJXYU1STTZ5MWhtV25yNlVCTG5wR1l6UjR2YzlFcHZ5U200ajJMcUkyQW5LVk5vUnJxMHFhUjlZanZESUJHSmIwS1ZBc3Z4M21LVDd3ckpTYnZTT2I3OHh4b19z?oc=5",
-      "published": "2026-07-19T10:30:00+00:00",
-      "source": {
-        "name": "El Nacional - El diario de los lectores influyentes",
-        "url": "https://elnacional.com.py"
-      }
-    },
-    {
       "id": "125cf7c50ca4",
       "title": "Mónica García defiende en Bruselas una Ley de Medicamentos Críticos basada en la solidaridad europea - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BS0NrNGZxLWZaUmZDS1JKak9IblBQOTdRQ3dDeXkxZXFkRjdRdG5IZUNmQUx2bG1XODA5YmhTMjVOMEM2ZHU2bUhzTjNpU1NtczBiUVgtb1c0b0FWaUFvVjhDRTFocWFVTXc?oc=5",
@@ -911,6 +881,16 @@
       "source": {
         "name": "Ministerio de Sanidad",
         "url": "https://www.sanidad.gob.es"
+      }
+    },
+    {
+      "id": "966b3da53cf5",
+      "title": "Impulsan un sistema de alerta temprana para evitar el desabastecimiento de medicamentos - El Nacional - El diario de los lectores influyentes",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVFpzdHJZeEQ3VlZacEVQYWEyZXJNaThnSGVDbU4yTnBzd3MwblZkVDFiNmxFX0ZhekJMRU1nNXp4bENmWDEyZGsyVmZhRlBycWtRVEJTTE9wbnB3TWt6WGFlRDNzR1gzYy1jaTRadWN4cENWYm9qRHZQaEVSV0VQeTRvbjA1Y0pkXzBZNk5EajFxOVp5RkZraURyWmdESERTRHRUY05zVDgyZW42V0pYeERMaGhzQdIBuwFBVV95cUxORWowV3phNHBMcURLNkFBcnhNUXU4RXpzQ19wT1VNZjhsMWs2MTN1N0h3MTlPbDA1YzNMQnhjT0ZpMXI5SURzdDlhQnBnbEx1dFBzWWVFSWdkYnRabmJsZEJXYU1STTZ5MWhtV25yNlVCTG5wR1l6UjR2YzlFcHZ5U200ajJMcUkyQW5LVk5vUnJxMHFhUjlZanZESUJHSmIwS1ZBc3Z4M21LVDd3ckpTYnZTT2I3OHh4b19z?oc=5",
+      "published": "2026-07-19T10:30:00+00:00",
+      "source": {
+        "name": "El Nacional - El diario de los lectores influyentes",
+        "url": "https://elnacional.com.py"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "facebook.com",
         "url": "https://www.facebook.com"
+      }
+    },
+    {
+      "id": "851db3296b91",
+      "title": "La Red de Farmacias Centinela de Euskadi impulsada por el Departamento de Salud ha detectado en su primer año de funcionamiento un total de 356 casos de posibles reacciones adversas a medicamentos - Gobierno Vasco - Euskadi.eus",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOU2pkOGVvYWEwa3k4SlNkcHNmZXEwWkExMXpmYXpIMVoxYzR4S0FUeHBZdnR2bWY0RzNCU09iYzlVQmJlZGp3M1NZOGptb2J1VTVkSUNVRFVuTUw2bUppazIwRGVIcXZEOHhma3MtTHJHNHlkWVl4a0dkOGVCXzF6N3Q0NVFqcGV5cE95VlgzMFBYcmZqeEVYaUctb1hUZ1IyVDlDcG43N1VhVEkxU1ZiVzNVUmJVbTJLaWtRS1NFSmdKZERSSVhTOExpazlLOVFwQmp1UUVHZkppaFhxRWRySlROSF9pUEtJWW1lbmNxRnIza2lnQUpYX3FOckwtc3dOa0dMNnd1UHhBdEJjNWdsSWtKR1dtNDJpd0diTFBmc3dEMFFETXE3VzRKeHhIdHZBVi1iWHZVUzU1MzgwLW9v?oc=5",
+      "published": "2025-11-07T08:00:00+00:00",
+      "source": {
+        "name": "Euskadi.eus",
+        "url": "https://www.euskadi.eus"
+      }
+    },
+    {
+      "id": "7c4ab3abfc5d",
+      "title": "Lanzan plataforma para comparar precios de medicamentos, cirugías y servicios de salud - Noticias RCN",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQl9CakdIUmRabkw5RGJ1TDc0Rmo1X3F5SHEzR3pISU1lbU9IeHM2YUdVMEF1SzNxSnlyYjlVMURiendaeG0zcFR3X3lSZml6dTFZaDdxS1VmWkJqS01feGRMcEltTHRLMlZJbFM4TGNxNkJkSlNKcHY5S2dqUm01Tm1PNDJWdjJZa3VjV0Q2TU5yeGF5SnViM0p5c3hUdFdQMVZtM0I4akkzWXZFd0I3eTdmWDZ6Yi1tUzlRX1Nzd0p0X0Z1SlQ0TDROc1JNQ042alljRXlR0gHWAUFVX3lxTFBiMEwxd0d4VVVWd2VoalFObHhHc1I3T1MwNWxYdXQwaTJMbS1SMXkxc1I5QkhhSXNlMHhyR2lhUXFDd3lzdmUwSmROWXRLS0xQQnRUWjkyWUJXTGRfZ2NaVG4yS2FiVlZiTFl2Z2t3enpOdW54S0x1UmZaUDU1a093M3FTX1BFNGhxaU9scUgxcWduM1NVb2VObGVMejM3YjR0SGdzNHlNd1BmUGVBM3J5cFZqRERTbmtnQ09qS1pGdGt0cHVGaXZlaV8zRVlUTFkxbW0xM0E?oc=5",
+      "published": "2026-07-16T20:52:47+00:00",
+      "source": {
+        "name": "Noticias RCN",
+        "url": "https://www.noticiasrcn.com"
       }
     }
   ]
