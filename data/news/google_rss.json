@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-23T14:10:45.842937+00:00",
+  "fetched_at": "2026-08-23T15:09:26.215388+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "32183ae416a1",
-      "title": "La Farmacia Vaticana en primera línea atendiendo a los más vulnerables - Vatican News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWVVDclpncjRUcUtoTVVKc2traHk3ci1ReUgzOFozNFlDMkdTMnhYWkROYjRDQ0RnOFRXSEMtb003T2xNSTRPY0M3QXBfNUpUbURITk9XdXk4MUlfcXZMSVp1NXd4dkNyRWp4Vm0zV1BGQ1pKY0VHMHdDUjAtUlhXaHFLSVhlaXd3ZUNtZW5FeDRid29jZHZPbUp1cHZOTjJqc1JSVmdOOWk3ejIycGdHVDAzME5aNnR5cGNLNFJR?oc=5",
-      "published": "2026-08-23T01:56:00+00:00",
-      "source": {
-        "name": "Vatican News",
-        "url": "https://www.vaticannews.va"
-      }
-    },
     {
       "id": "6a3629f4db02",
       "title": "El Común urge a Castilla y León a que costee el pago de medicamentos contra la obesidad mórbida - Diario de Castilla y León",
@@ -41,6 +31,16 @@
       "source": {
         "name": "Segre.com",
         "url": "https://www.segre.com"
+      }
+    },
+    {
+      "id": "32183ae416a1",
+      "title": "La Farmacia Vaticana en primera línea atendiendo a los más vulnerables - Vatican News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWVVDclpncjRUcUtoTVVKc2traHk3ci1ReUgzOFozNFlDMkdTMnhYWkROYjRDQ0RnOFRXSEMtb003T2xNSTRPY0M3QXBfNUpUbURITk9XdXk4MUlfcXZMSVp1NXd4dkNyRWp4Vm0zV1BGQ1pKY0VHMHdDUjAtUlhXaHFLSVhlaXd3ZUNtZW5FeDRid29jZHZPbUp1cHZOTjJqc1JSVmdOOWk3ejIycGdHVDAzME5aNnR5cGNLNFJR?oc=5",
+      "published": "2026-08-21T11:30:36+00:00",
+      "source": {
+        "name": "Vatican News",
+        "url": "https://www.vaticannews.va"
       }
     },
     {
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "608e9e0313a9",
-      "title": "La investigación que conecta los anticoagulantes con la salud cerebral: un estudio observa un deterioro cognitivo más lento entre quienes toman estos medicamentos - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNZU5RTGdIUmIxSFZmZTdOSEV6UnpzaW1SVEp1RHpQVmYtVXk2cWdlb0tFWGg1dmZOeUxlWXhTUmdEVzFlc3M2SG5nNHU4RXkxSUJfRnRQQkE4SkhEWmhPNGI1eGItWUJMMXBDeVdaSVAxbC1mUjJXNWJVT0owRTdDck9ldnhVRm5rSDFheHladUlDdnBiTHNpbmFTSlRKMVU2Y1NLcFhNVmdFWFh0N0gwVUlyR2Q3cHZDSXVYZFhGYmdFeDQ5M2Z1d2JNMjRaQy1rX0VsaWFnTEtkSXFuYW13ZDFsQmpTZ2tIVzlfUnIxV1RkWmMydFBPai1iSWI1SE5BVF9rcnc4U0pyb09kcFhkSDJ6VU5UbVJaa2Z4ZDZYQnlPT1Q4Nmh2NWNWYzR0UFI2NmozclBfeGRMOWVXLU5fcHpaemRaNHoybjdZb3pqZWtXbVhpcmhnTjd1dlI1R21WQnRpNnNn?oc=5",
-      "published": "2026-08-19T20:11:29+00:00",
-      "source": {
-        "name": "El Economista",
-        "url": "https://www.eleconomista.es"
-      }
-    },
-    {
       "id": "c4ff528be1e4",
       "title": "FarmaHelp: 141 Farmacias en Albacete Mejoran Acceso a Medicamentos - Albaceteabierto",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY2R6a1JabnQwemFQeUlkUGZoUEdkSlFTdUlRN2RQN0ROcm9UV1g4VXNadzhsYzE4X0NldV9JM0p0WWtxeEZjLWR0MmpkR3JNUWllNFlIX1hjZ3NrNjM4QWNmSGV3RFRFUURoaUxfeGZTeWVKOWw2Uk10Nnc2MmN4MVNDanFlSmwzMDNDeGE5SlQzb0RIczBsclY5a3d1a09lc3UzaVVnODBpc0NDSjgyREJlZzdtY3lYOHhlaG9vT0d6SU1uMElCVHM4TnRDVTQ1dmxSb2hHUGhEeHFJdlNycW9TbjZrTG9ubFdVWm9paw?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "Albaceteabierto",
         "url": "https://www.albaceteabierto.es"
+      }
+    },
+    {
+      "id": "608e9e0313a9",
+      "title": "La investigación que conecta los anticoagulantes con la salud cerebral: un estudio observa un deterioro cognitivo más lento entre quienes toman estos medicamentos - El Economista",
+      "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNZU5RTGdIUmIxSFZmZTdOSEV6UnpzaW1SVEp1RHpQVmYtVXk2cWdlb0tFWGg1dmZOeUxlWXhTUmdEVzFlc3M2SG5nNHU4RXkxSUJfRnRQQkE4SkhEWmhPNGI1eGItWUJMMXBDeVdaSVAxbC1mUjJXNWJVT0owRTdDck9ldnhVRm5rSDFheHladUlDdnBiTHNpbmFTSlRKMVU2Y1NLcFhNVmdFWFh0N0gwVUlyR2Q3cHZDSXVYZFhGYmdFeDQ5M2Z1d2JNMjRaQy1rX0VsaWFnTEtkSXFuYW13ZDFsQmpTZ2tIVzlfUnIxV1RkWmMydFBPai1iSWI1SE5BVF9rcnc4U0pyb09kcFhkSDJ6VU5UbVJaa2Z4ZDZYQnlPT1Q4Nmh2NWNWYzR0UFI2NmozclBfeGRMOWVXLU5fcHpaemRaNHoybjdZb3pqZWtXbVhpcmhnTjd1dlI1R21WQnRpNnNn?oc=5",
+      "published": "2026-08-19T20:11:29+00:00",
+      "source": {
+        "name": "El Economista",
+        "url": "https://www.eleconomista.es"
       }
     },
     {
@@ -144,6 +144,16 @@
       }
     },
     {
+      "id": "90b8252abc7f",
+      "title": "A más de un año de su inclusión, medicamentos para obesidad y diabetes esperan aún cobertura de ARS - Diario Libre",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMEpIUmF0ZVpSN3RFNTItdEp6bWZpcS1IV0ZxbUlJUkJJZzVnWFJLbVQxV0E0ZmlHcmtBQmEydHBaUlB3ZDNMeWhvb1R3SnRyTU4tclA4VkVJZ2ZVQzZpQmVSbzBHdWhfTU1wUnJUWWlfSFAzLVdaZjBCa0NqT3ppaXAtMXhseDJSOHVkQU9KWlJKdGhNV2VrV1Y0a0hGYzZsOHc1SF91Y3puOTZGa1V5N0d4bDFMendmVTBRT2xhZ0Fmemgt0gHKAUFVX3lxTE1HOG9UdmhSZ3ZmYVpRcFdaRWpjcllnc2JQVmlFaXhzYTNOV2NZNEFxeE5YQnJGRDdyOWRieUVwVnVBcWxuaVlOT2IzNWlkaFdhbElaWG5rSjF0VzFVRWFOeXlGUWFhQ0kwem96SjR5eElQajhublhDX0JRY0JQcllJMmx4YjhzNVVhMm80ZXVXRkVqSmhsWjhrUzlIQmREVWEtSzBsNXRvWHFZLXdaTjBJeHg3VlBlOFdoaDhXVGxoMkhKRDZKYVhPSVE?oc=5",
+      "published": "2026-08-23T02:30:00+00:00",
+      "source": {
+        "name": "Diario Libre",
+        "url": "https://www.diariolibre.com"
+      }
+    },
+    {
       "id": "7202136f7629",
       "title": "Orina de color oscuro o muy concentrada: qué significa y cuándo puede ser una señal de alerta - Tua Saúde",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYUZucHkzRmQtTzB2cU5HMDVXRXdKUDdQT195N2RNelJEQnpDdGlyc1hhMGdpaVd1dzM4WVB6aERFdjBJaUZuSTEyY1dEbGZjcVYyd1NET2JLcW5wckc3SGd2cWtLdG5BN0w5UTVLQ2Y4ZlhCWjBNNjluU0VFREZZTWRkOXdzUzRySDJCb0ZrbkR0YkJjcDFBZW1wLXNvOGpOQ0JyUVp0b045TlBCZjMzbHRPVzlRWUpNZ0FvdXZEM2hNNm1uVkxUUEpyaUZic2UtZmNV?oc=5",
@@ -151,16 +161,6 @@
       "source": {
         "name": "Tua Saúde",
         "url": "https://www.tuasaude.com"
-      }
-    },
-    {
-      "id": "b312f8450c6d",
-      "title": "El SUC explica cómo conservar los medicamentos durante el verano - La Provincia",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZTQ4Nk5iQU9YUEJVZWJBZ1g1TEU0dUlvcWtNRk53UDBMX3BGTWhrZHdVamJXcWVSUHRjcVNSU3NGMGoxLV9DdGlINkZQa21hdVlzS0RjNUszVkhOWS1NUVFVaXFwUUhsVmljakpKY2ZVNnFHSEFZYjF5RTF3M0VtbVV1eWtNalNYX0dKVXNRNlRrV05COUtNMnJqaGx6UW11cHd6bWtHVWRFaU9xem130gG0AUFVX3lxTE5PdzdsTjgyVUpBUlZwanpCQXRpcE42d05rZGlWaUpSNWdWQVR5ZjFkd0ZBZ3ZvZlNsVUIwTHRxUnBVZHk2ek1TWUxRYXU5RjJVOHZNd2REV3ZicGNzR2lVcTRFanBBc2E3M205ZTF1MHVNUjFoTUNYR0tnT0R5U1MwMGtlVGhGanNMMmdQWktIeGFnWWFYYXdqWE5JcEpFSFlrRlFFLS1RY3prd2EzUHl1UjN2OQ?oc=5",
-      "published": "2026-08-22T15:00:16+00:00",
-      "source": {
-        "name": "La Provincia",
-        "url": "https://www.laprovincia.es"
       }
     },
     {
@@ -174,23 +174,23 @@
       }
     },
     {
-      "id": "90b8252abc7f",
-      "title": "A más de un año de su inclusión, medicamentos para obesidad y diabetes esperan aún cobertura de ARS - Diario Libre",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMEpIUmF0ZVpSN3RFNTItdEp6bWZpcS1IV0ZxbUlJUkJJZzVnWFJLbVQxV0E0ZmlHcmtBQmEydHBaUlB3ZDNMeWhvb1R3SnRyTU4tclA4VkVJZ2ZVQzZpQmVSbzBHdWhfTU1wUnJUWWlfSFAzLVdaZjBCa0NqT3ppaXAtMXhseDJSOHVkQU9KWlJKdGhNV2VrV1Y0a0hGYzZsOHc1SF91Y3puOTZGa1V5N0d4bDFMendmVTBRT2xhZ0Fmemgt0gHKAUFVX3lxTE1HOG9UdmhSZ3ZmYVpRcFdaRWpjcllnc2JQVmlFaXhzYTNOV2NZNEFxeE5YQnJGRDdyOWRieUVwVnVBcWxuaVlOT2IzNWlkaFdhbElaWG5rSjF0VzFVRWFOeXlGUWFhQ0kwem96SjR5eElQajhublhDX0JRY0JQcllJMmx4YjhzNVVhMm80ZXVXRkVqSmhsWjhrUzlIQmREVWEtSzBsNXRvWHFZLXdaTjBJeHg3VlBlOFdoaDhXVGxoMkhKRDZKYVhPSVE?oc=5",
-      "published": "2026-08-23T02:30:00+00:00",
+      "id": "8ca58f45736e",
+      "title": "Paraguarí recibe medicamentos e insumos para fortalecer servicios de salud - mspbs.gov.py",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0J4MzYtdU9WVGUzUXpBaUVVUFV0NnRJRzZVWUZuLW1ha1M2UGt6bGNYbFNLSHVKMGNBUWkwUmtwWjR6MzlUdmlOQi1tWnp4WDAyTGtKTVBRS19EOTJwZ3F3ejZadTVFOC1GV1lQV2FqSGs5ODNyVVAzakFMdXE4RlZYNGNPZTJFOHpNRFc2ZTVOY0FtREJLMlRjN0g0V1R4WDJKQ1FQWmk3d0RBX1hTU1FKeWFKLVZ3?oc=5",
+      "published": "2026-08-23T09:05:40+00:00",
       "source": {
-        "name": "Diario Libre",
-        "url": "https://www.diariolibre.com"
+        "name": "mspbs.gov.py",
+        "url": "https://www.mspbs.gov.py"
       }
     },
     {
-      "id": "86b5f0e2269b",
-      "title": "Cuidado con la \"trampa\" de los fármacos para la mejora del rendimiento sexual masculino. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oZVdWSG55X1dpdHNHRkJ1S1lLcUV4enZiZXFUMVQ0NWpYS0N0cmtRTGlPbE96bml6SGJqUnZ4U29NUnF1RDc0RkNYWGExX0lXY2FqNVhTOFdPQ0loTFlmZXpYeGUzVDlVbV80MTFycVNkUy0yYjJr?oc=5",
-      "published": "2026-08-23T10:37:54+00:00",
+      "id": "b312f8450c6d",
+      "title": "El SUC explica cómo conservar los medicamentos durante el verano - La Provincia",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZTQ4Nk5iQU9YUEJVZWJBZ1g1TEU0dUlvcWtNRk53UDBMX3BGTWhrZHdVamJXcWVSUHRjcVNSU3NGMGoxLV9DdGlINkZQa21hdVlzS0RjNUszVkhOWS1NUVFVaXFwUUhsVmljakpKY2ZVNnFHSEFZYjF5RTF3M0VtbVV1eWtNalNYX0dKVXNRNlRrV05COUtNMnJqaGx6UW11cHd6bWtHVWRFaU9xem130gG0AUFVX3lxTE5PdzdsTjgyVUpBUlZwanpCQXRpcE42d05rZGlWaUpSNWdWQVR5ZjFkd0ZBZ3ZvZlNsVUIwTHRxUnBVZHk2ek1TWUxRYXU5RjJVOHZNd2REV3ZicGNzR2lVcTRFanBBc2E3M205ZTF1MHVNUjFoTUNYR0tnT0R5U1MwMGtlVGhGanNMMmdQWktIeGFnWWFYYXdqWE5JcEpFSFlrRlFFLS1RY3prd2EzUHl1UjN2OQ?oc=5",
+      "published": "2026-08-22T15:00:16+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "La Provincia",
+        "url": "https://www.laprovincia.es"
       }
     },
     {
@@ -204,13 +204,13 @@
       }
     },
     {
-      "id": "8ca58f45736e",
-      "title": "Paraguarí recibe medicamentos e insumos para fortalecer servicios de salud - mspbs.gov.py",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0J4MzYtdU9WVGUzUXpBaUVVUFV0NnRJRzZVWUZuLW1ha1M2UGt6bGNYbFNLSHVKMGNBUWkwUmtwWjR6MzlUdmlOQi1tWnp4WDAyTGtKTVBRS19EOTJwZ3F3ejZadTVFOC1GV1lQV2FqSGs5ODNyVVAzakFMdXE4RlZYNGNPZTJFOHpNRFc2ZTVOY0FtREJLMlRjN0g0V1R4WDJKQ1FQWmk3d0RBX1hTU1FKeWFKLVZ3?oc=5",
-      "published": "2026-08-23T09:05:40+00:00",
+      "id": "86b5f0e2269b",
+      "title": "Cuidado con la \"trampa\" de los fármacos para la mejora del rendimiento sexual masculino. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oZVdWSG55X1dpdHNHRkJ1S1lLcUV4enZiZXFUMVQ0NWpYS0N0cmtRTGlPbE96bml6SGJqUnZ4U29NUnF1RDc0RkNYWGExX0lXY2FqNVhTOFdPQ0loTFlmZXpYeGUzVDlVbV80MTFycVNkUy0yYjJr?oc=5",
+      "published": "2026-08-23T10:37:54+00:00",
       "source": {
-        "name": "mspbs.gov.py",
-        "url": "https://www.mspbs.gov.py"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -221,16 +221,6 @@
       "source": {
         "name": "La Opinión de Murcia",
         "url": "https://www.laopiniondemurcia.es"
-      }
-    },
-    {
-      "id": "f620b0becba0",
-      "title": "Panamá alerta por falsificación de un medicamento inyectable usado para tratar la diabetes tipo 2 - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVXJ4RWVGV0JOeG5KbC1NQklGWWxRU2VvTXc4NHBIdU9WWnVzTTJmblVpRkQ5M0pnUlRHWThYOXBPUVZYaVNaa21URDdEbEg2RjJwOW9aVmJBV09GczZKU28ybmQzY3Rzb3Ywb2Y4by1tYTc3cXNzMW5INnZFa29fbHc1SGNCa2ZvUG11WE5Xc2JIQXdBa25ZMUkwbEZmQTZIX0poMVFGTmFTbkFIbklCbWloRFk5UHNRbElVQ0g0MjNQMndWOHdWaURRUWppUHNHX25IUmpJSdIB8gFBVV95cUxNUy1veXRsZW12aTc4VFdiWXRySFFQUUYta3g0TEI2Z0xKaGluR3dFUUtSWlUyT3dVVU1mc0RWT1JYLVhPZ0ZuejVYMjdZdWs5ei1oWDNjSjRqRDRjdWUzckVrcWhiZW5xRzJlVmZWLW9XLXpsaGdLMy0xTG4zUktQLTMyRmdjMldIRWZlbzFsUlZVUWhwQnBzeV9JblVHbzF2YnNna0haQnZsZHhTMk10VzJlbDl0X3kxNE5UbjdUR3AxSFJFXzZEYzF2N29XTXBBd1JaYlhlNUM0cU50cnExSHEtbXkwS1M0cFJDRkdrekRkZw?oc=5",
-      "published": "2026-08-23T03:49:56+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
       }
     },
     {
@@ -251,6 +241,16 @@
       "source": {
         "name": "Ministerio de Salud Costa Rica",
         "url": "https://www.ministeriodesalud.go.cr"
+      }
+    },
+    {
+      "id": "f620b0becba0",
+      "title": "Panamá alerta por falsificación de un medicamento inyectable usado para tratar la diabetes tipo 2 - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVXJ4RWVGV0JOeG5KbC1NQklGWWxRU2VvTXc4NHBIdU9WWnVzTTJmblVpRkQ5M0pnUlRHWThYOXBPUVZYaVNaa21URDdEbEg2RjJwOW9aVmJBV09GczZKU28ybmQzY3Rzb3Ywb2Y4by1tYTc3cXNzMW5INnZFa29fbHc1SGNCa2ZvUG11WE5Xc2JIQXdBa25ZMUkwbEZmQTZIX0poMVFGTmFTbkFIbklCbWloRFk5UHNRbElVQ0g0MjNQMndWOHdWaURRUWppUHNHX25IUmpJSdIB8gFBVV95cUxNUy1veXRsZW12aTc4VFdiWXRySFFQUUYta3g0TEI2Z0xKaGluR3dFUUtSWlUyT3dVVU1mc0RWT1JYLVhPZ0ZuejVYMjdZdWs5ei1oWDNjSjRqRDRjdWUzckVrcWhiZW5xRzJlVmZWLW9XLXpsaGdLMy0xTG4zUktQLTMyRmdjMldIRWZlbzFsUlZVUWhwQnBzeV9JblVHbzF2YnNna0haQnZsZHhTMk10VzJlbDl0X3kxNE5UbjdUR3AxSFJFXzZEYzF2N29XTXBBd1JaYlhlNUM0cU50cnExSHEtbXkwS1M0cFJDRkdrekRkZw?oc=5",
+      "published": "2026-08-23T03:49:56+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
       }
     },
     {
@@ -294,16 +294,6 @@
       }
     },
     {
-      "id": "6aa647aeb43b",
-      "title": "Digemid advierte sobre riesgos de mezclar medicamentos con bebidas alcohólicas - Diario Correo",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWmd4QzlxSHV5cVhRcUJONkpna1VLUjYzdFdBMUhENzFqQ2d0QWppdmhBZi02UjloS0Z6TU1IRXhhMWcydlZyemQ1OUprdzhrUW5xSF9KMDZBUWlySUtWbTFSTGxaSjBpVGk3T0w4U1R2VUZjcnJJVHNxMTNDYnVMcUFqLWM4WHJuUjFPQnhhTmVIa2cyN043MnZoRFhLbU4wS2dRX2c0SDdWOFFVVnI0NEJZYWIzdDUz0gHMAUFVX3lxTE8zRmVGMXlvdVVJYm4xUDNwNy0yek1XLTFKc2tadWtlSDRkZ2cwZFU2Q0s3dmZLdVBoSG4xaGphSGM5ZnQyZEVoTGRiNW5yN18zcTJqdVRLd294ZldqY0EweXh3WXVyODA2TGFRRGFHZzdYMmZ6bDFaem5jck9fbVVBM3NwWW9vR0lSYXZJU3o1ZVcwbVV0akwyZUZvSVE4b0h6clVsOWxwMHBOOG91TWdhVmF5Z055SWJrYk5HNC13dlFubFYzd3NxX3cyVA?oc=5",
-      "published": "2026-08-23T12:48:03+00:00",
-      "source": {
-        "name": "Diario Correo",
-        "url": "https://diariocorreo.pe"
-      }
-    },
-    {
       "id": "7e964f8cc69d",
       "title": "Laura Bartolomé, endocrina: “Lo peligroso del uso del Ozempic es que se ensalce la delgadez extrema” - Diario AS",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZUlZMnE1R09hT0w2c1BIQ0VMXy00WFNWUDZZejA3OWdJd0tPVk9rZzVPV2g5blpKNXB1UDZ5TVdkTTk2cEVtM091QzA4SWZrWEpYMjZwWVRpT0JSX0pfUUFiZXpSb2pNangwaHljXzJqVmVhc2ZPTUtnMnpfU2dMRjIwNHRXVDg0WFJtLXY2TGpFMDdGUHdYc0lkZUVxcHZrTXJpUWxnWmdTQ205R2FCVGVSbklfLUtEXzROclc0Z2tZRUhIU1QzWGtoZVA2YjRkV09IWNIB6AFBVV95cUxQYUo5eDFMZlpPSXJNY0hJQjRuV3BjbFdWcEE5Ri16MGw1Y1U2TlJxNFdtbWdTWlpQelhvQnY3SC1FYm9CVUNPenpFdWJqVWR2WUk5aDB5dkVhNEE2NE9nTGc5VjhzWklmNVBJV0xOaXhFNE82d25IVWRCeDY0SE5zRElUVUpXbXo2WGxGSmVCd0FaYTYtTW0wc2pZZTAtanh0djkxSGJNWlB3R0s3MjQ5aEF4SlZmOWlHRDNjT21DU2E0LTBjWTEwN2VUWFBQWUdmdGlHOXhLWGpGQVF5ajMxMmhKd0FpSWVX?oc=5",
@@ -324,6 +314,16 @@
       }
     },
     {
+      "id": "6aa647aeb43b",
+      "title": "Digemid advierte sobre riesgos de mezclar medicamentos con bebidas alcohólicas - Diario Correo",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWmd4QzlxSHV5cVhRcUJONkpna1VLUjYzdFdBMUhENzFqQ2d0QWppdmhBZi02UjloS0Z6TU1IRXhhMWcydlZyemQ1OUprdzhrUW5xSF9KMDZBUWlySUtWbTFSTGxaSjBpVGk3T0w4U1R2VUZjcnJJVHNxMTNDYnVMcUFqLWM4WHJuUjFPQnhhTmVIa2cyN043MnZoRFhLbU4wS2dRX2c0SDdWOFFVVnI0NEJZYWIzdDUz0gHMAUFVX3lxTE8zRmVGMXlvdVVJYm4xUDNwNy0yek1XLTFKc2tadWtlSDRkZ2cwZFU2Q0s3dmZLdVBoSG4xaGphSGM5ZnQyZEVoTGRiNW5yN18zcTJqdVRLd294ZldqY0EweXh3WXVyODA2TGFRRGFHZzdYMmZ6bDFaem5jck9fbVVBM3NwWW9vR0lSYXZJU3o1ZVcwbVV0akwyZUZvSVE4b0h6clVsOWxwMHBOOG91TWdhVmF5Z055SWJrYk5HNC13dlFubFYzd3NxX3cyVA?oc=5",
+      "published": "2026-08-23T12:48:03+00:00",
+      "source": {
+        "name": "Diario Correo",
+        "url": "https://diariocorreo.pe"
+      }
+    },
+    {
       "id": "39d3b5db600a",
       "title": "La pharma llevará la inclusión de género en ensayos clínicos a todo el país - Redacción médica",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOc3N1MjVXb0ROYWNBRzVPbXB1RnlSZ2NRTEY5eUg5eGZMZ2Y2UWJQLVMxeWJNd0Nzb0pRLUFaWC1tT3VXMXZCMzl2TDlnNzhWUWt3aGJ3LWJCd2VxWE9yem1kTUdKS3NBQlJvQ1ZPcUhkYks0YzlGY19zc1dPM2JCTHJZS1FzV2RKSXBBbTRxTTJBZVVqNGZnRTJtU3ZEaGJaOFJrZ1JGM2N1MnJNbFBoZEl6cTQzaTRkTUhEX21SZjYxZUNucVZfUHQ3V1AxX0Y0RGZYNmlkeEJXVlF2U1ZkX0JmSnhid9IB6wFBVV95cUxNU2ZCS2Z4YzQ5TGRDZklkM3ZIWU1GOFFaQUtYb21hZVotUmJKQkx5WVp3ajlnTHZ5WXFZLWVDcXVGTDR4UmFtRThmNDBWZmJtX0hqTjFBeTBraVluTkVCLXdmb0xaZXFQdVpfX1Y5SE5NVXNjbmYzODB1SWFYYmdOZ1BDNW9JSTIzRzRqSXlFZWwtZGYxRWRGUUM5NlNLLWM0TmxUN3ZTS2VrU3hqTzJTc3dtUkZ3N01xVGw4Wkk5WGZwOTBIYlZ0N3lWRkh3emhEbHpyWWdVczJMY1QyWGhoeFF2bGVfd2RYbmE4?oc=5",
@@ -334,16 +334,6 @@
       }
     },
     {
-      "id": "774eb1a03f6d",
-      "title": "Presión y colesterol: cómo el uso de medicamentos podría mejorar el control en adultos con obesidad - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTzNSdHNJU3VJZzdlVXJadnlBaUkyRmNOeFQxSmF0TVNlYkxrVlBaVDhVd2UwX0gxNy1lRjVZQlZsVFhjR2hRZDFLajRXLXN4NnJtbWVpaVpaX0lwNklCX3laaWVlM2VVZ1dkRDVaN1FfbXdyNFNlSmpsN3pHOVRGUXJaN2UyZ1hlY2pYWGRJaHpWeUVUSWxEcEdjVHVYb0NsdlNrdVZXYkhTNXB6d1ItNHdET2xydDJjZjAzYWs1U2RkN09JU0MtQ1prd1NTcDM2MmJRVUQxbVhkUXhwc29hTmJB0gH8AUFVX3lxTE83UFBQODY0ZkYtTU04dGtpZ2l3VEY0TS1Tb2VnRms5NzhBdzVXZXBnM1ItZTN2c0l0azhpcXExOHdRUjJSUDZjbGFGdXJxVWFtZGliUVdZd2FoaWcwNlNHWFJ2M1I1RUZwT09EVzNpb3c2TEM3eWRYaWEwcnlIN0U5a1Y0VmF1YURXOGlwWl9RNndoUXhfYVU0b1R0ODNwc04tdzhfQUVBRkswTk5iektrWEFsQkZoT1Nfc29ORVp5U2Vfa2Z0bU9MeWlPZ0I5dnRIZGNLQUM0VHFhUklMQU1mcjdTU1lOQnRRWE9VRGdQQUJSZ0taWGJsckhHZQ?oc=5",
-      "published": "2026-08-21T20:07:00+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
-    {
       "id": "cef0ac408646",
       "title": "El Gobierno actualiza la regulación del sistema de verificación de medicamentos y avanza hacia la eliminación del cupón precinto - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FclFiX0duVWw2WDBRRlBlTDJUNnB1NkplVkV2WlljMXRlTGVmUFJ6SnBkbUZaam83MW9abTVSX1RJVEw0bDZfVGJ3dTUyUjlTanFGUmpIaVY3bHRQaEJOaldGSkMzcHVvb3FDY2Nn?oc=5",
@@ -351,6 +341,16 @@
       "source": {
         "name": "Ministerio de Sanidad",
         "url": "https://www.sanidad.gob.es"
+      }
+    },
+    {
+      "id": "774eb1a03f6d",
+      "title": "Presión y colesterol: cómo el uso de medicamentos podría mejorar el control en adultos con obesidad - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTzNSdHNJU3VJZzdlVXJadnlBaUkyRmNOeFQxSmF0TVNlYkxrVlBaVDhVd2UwX0gxNy1lRjVZQlZsVFhjR2hRZDFLajRXLXN4NnJtbWVpaVpaX0lwNklCX3laaWVlM2VVZ1dkRDVaN1FfbXdyNFNlSmpsN3pHOVRGUXJaN2UyZ1hlY2pYWGRJaHpWeUVUSWxEcEdjVHVYb0NsdlNrdVZXYkhTNXB6d1ItNHdET2xydDJjZjAzYWs1U2RkN09JU0MtQ1prd1NTcDM2MmJRVUQxbVhkUXhwc29hTmJB0gH8AUFVX3lxTE83UFBQODY0ZkYtTU04dGtpZ2l3VEY0TS1Tb2VnRms5NzhBdzVXZXBnM1ItZTN2c0l0azhpcXExOHdRUjJSUDZjbGFGdXJxVWFtZGliUVdZd2FoaWcwNlNHWFJ2M1I1RUZwT09EVzNpb3c2TEM3eWRYaWEwcnlIN0U5a1Y0VmF1YURXOGlwWl9RNndoUXhfYVU0b1R0ODNwc04tdzhfQUVBRkswTk5iektrWEFsQkZoT1Nfc29ORVp5U2Vfa2Z0bU9MeWlPZ0I5dnRIZGNLQUM0VHFhUklMQU1mcjdTU1lOQnRRWE9VRGdQQUJSZ0taWGJsckhHZQ?oc=5",
+      "published": "2026-08-21T20:07:00+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
       }
     },
     {
@@ -444,16 +444,6 @@
       }
     },
     {
-      "id": "b017ab4937ee",
-      "title": "Panamá advierte sobre falsificación de medicamento para bajar de peso - ElCapitalFinanciero.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObllYQXNPc3hVY3ZVTlFNcS1pUXpkcmNta0szcHN5UzEyVlVXejIzU0pMWXNfY19zWkJRZ0Q4R1BIYl92d3MwNE5JMTdDaVRBOHUxXy1BMGFYNDh2cGJIV0R4X01SNFRxSWcyVFJRWUdNUFFJaF9iUlhmYWhxUTBIRXo1blA1TlI2cHY0VnE5d1cxWElR?oc=5",
-      "published": "2026-08-22T21:06:56+00:00",
-      "source": {
-        "name": "ElCapitalFinanciero.com",
-        "url": "https://elcapitalfinanciero.com"
-      }
-    },
-    {
       "id": "d32c23989f3f",
       "title": "Farmacéuticos vuelven a exigir que el gobierno de marcha atrás con la venta online de medicamentos - periferia.com.ar",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZmVVdEJ1MnRmZVR6a1dWUXk0U3pWOUlPak5UbEFDazdzMjMzanYzei1JODRvSk1ydTVPMVRlX1VQLWotejBKWW5GTS1saDQtUEFqcFJISl9GaThWaTBjOTVoXzlUSVotQ21KOWZkby1fQzJjaGlCNGhIbTdjSHd6Y1dlS21TNEVpNE15M0FUT2pDQXNRbkJ6NGlqUmhQSVVESm9kSWM4WlFsQ2xBMV9TV3dwcW03eE83enE5RjVNZjJ4WkRiWGFOaDkwdk4yd0k5ZzVUQjBENGp6cTVo?oc=5",
@@ -461,6 +451,16 @@
       "source": {
         "name": "periferia.com.ar",
         "url": "https://periferia.com.ar"
+      }
+    },
+    {
+      "id": "b017ab4937ee",
+      "title": "Panamá advierte sobre falsificación de medicamento para bajar de peso - ElCapitalFinanciero.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObllYQXNPc3hVY3ZVTlFNcS1pUXpkcmNta0szcHN5UzEyVlVXejIzU0pMWXNfY19zWkJRZ0Q4R1BIYl92d3MwNE5JMTdDaVRBOHUxXy1BMGFYNDh2cGJIV0R4X01SNFRxSWcyVFJRWUdNUFFJaF9iUlhmYWhxUTBIRXo1blA1TlI2cHY0VnE5d1cxWElR?oc=5",
+      "published": "2026-08-22T21:06:56+00:00",
+      "source": {
+        "name": "ElCapitalFinanciero.com",
+        "url": "https://elcapitalfinanciero.com"
       }
     },
     {
@@ -524,16 +524,6 @@
       }
     },
     {
-      "id": "f68d04c90864",
-      "title": "Diputados: proponen garantizar ubicación y entrega de medicamentos en redes de salud - Agencia Andina",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0RrVHpQVVB1Uk1naFBFWERYd3ZyTzYtY0lUVjBxVWNMWWx0Rmt5bDBJVzBwY0ZhYjRMcGl1ZHQ2cWhBelhQUmNRcmlpQ085WWNyWm1mTVFXM3E3YjV2TGJGTU9NRlpHSC1fZ2NoMDRZaUx0MEd6U3ZnVW16YzJ6b0dvYkw5RkFmM2ZFR0x3aWZDaGhnU2F2X2t1X095bkhaMFFEN2tUd3NYbzd1YkF1ZzFFTXIzaE96cjNjclRB?oc=5",
-      "published": "2026-08-23T03:19:38+00:00",
-      "source": {
-        "name": "Agencia Andina",
-        "url": "https://andina.pe"
-      }
-    },
-    {
       "id": "844ba10d0ee5",
       "title": "Sanidad permitirá que los fármacos genéricos compitan por precio y que el paciente pague más si quiere uno de marca más caro - EL PAÍS",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZl9KVV9OUnJoMTIyZGhlc0NPMVhnZUlKUmxyTDRHcnlWR0hoLWoyMVBCNTlsWGwzY2hrV1hqdVNIOHNHZnBCZlFqTlJISUJhb2VSTm54QVJPeFZ5aURBMTNMdUZIQV9Wa1FlNHFtMGdCUENmajZ6VW9Xa3lEcGpHNzhTNmtQZDYyRl9yQnI4OVFObFRaYjBkeWNscTNtWXdZajZXV3FuMGxnZXNUSEgxdmY1WWl2eksxY01RYTktdFB1blplTDRGMkI1c2U3c0cwUWdnSDVnRFNBQlpqZDJnR0JJcEs3UWVYVDA0a29zSkx6T0JDaFHSAYoCQVVfeXFMTVpYMEJ1dTRZXy1IRkk2M0Zpc3RScW5Zci1maVpLcExtdV9OQTZ2bnEzTEtBZnp6RmFJcFV5UUF0WlZJZklJUFlucDllaWREQXRRY1I2SXIwakU3Yk51Znc1djgwaUJUdjN4TVVaakp5MGlCbnFoZ0FkMHBHQVBmYkgzQmQ1RXJKRWNVbWJXUVlXRTk0ZmlWWkxVMjJxQ3V5RXNuVVBHQU5tMXhSQ0pMbjNjcDdYeUFpLVhFQngwREJCZG1xMFpzOHBWWllYX1p0QWJRNWRnRWpVMFZ1UE5nemdEZFlyQXNyTGFYLTFUREVHa0FaTmk0N1I0UFFKc0JLa0syN1J4UHVveGc?oc=5",
@@ -541,16 +531,6 @@
       "source": {
         "name": "EL PAÍS",
         "url": "https://elpais.com"
-      }
-    },
-    {
-      "id": "d6e3f2129572",
-      "title": "La Comunidad de Madrid invierte más de 1.000 millones de euros en la compra de medicamentos para los hospitales del Servicio Madrileño de Salud - Comunidad de Madrid |",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdGRETS14d2pwSjNFRWhIM19td3FfZ0htdWk4aGlFeG5XMUMwTlEyMDdtb3BQMVYtRjJLVlVqWm1OMkxBMlRMRjVNcW9sV3NkenNndGFzaTMwbUY5M1F2ZjVldG5vQzRIaS1KX3ZhblFadkdRMGZ0OUg3UW1fMmZvNm13SHoxVXo0dV9SaUlzdWxNV1ZTbzBWckhfbW9OTHM1QWtiZExLNWNFWnpCV1p0SVJ3djNLR2lQTmNYUF9hd2k5N2pSUm9Rems3cmpEbmFvUmtTNHMweTFGWEYyU1lFc2J0TUY?oc=5",
-      "published": "2026-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Comunidad de Madrid |",
-        "url": "https://www.comunidad.madrid"
       }
     },
     {
@@ -564,13 +544,33 @@
       }
     },
     {
-      "id": "684344f55056",
-      "title": "Terremoto en Colombia: EPS deberán reponer medicamentos perdidos y garantizar tratamientos - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX3h2dWZaQW1VM2cyck4tN2tvNlhzZ1NfYjQ3cUtDTm1CeDZicTV2ZjgxbE9ndVNyZWVfeDNCNDE2UnlxOUFRVmU3aHJXZktrNEVGZkZ0VENGdEpuV1FOUDRmcXN1RlJFY011NEZpSUhtVlRlUU84eEo1ZjZMalh2VDdpZEJianRLMm9iR0tQeGg0QzV2WThiTXZRNnVVWVVxajRLR1Q3cHRkdUlrVTNDY2VrYzI0cDZGQWZybzBlNjZlNzA1Snk0cEtjTDdRYjjSAeoBQVVfeXFMT0JpdWE5bzFUbF9EUzl0bGxDbTlpU0N2c2VhWDNqM2xBeGtySHN1RzFoRVUyUGVPalJmUmdOWGpqWkZ6dld5VzlaVlN6VlBxWFFxeHdKdWhOQUExX2RvOUFXcGUyTXlvaTRVT3pYekhKQnhuSXFOWVJfdWw3aXQ2OXhrUzFpeUVRRmZNRkVMT0hTbG1jR2p6MGEwVWZ4dDh2Q1h6TFlDQTh0U2NNQThqeFpneWFQQzd0QjBwdkFaWFdsdzVFdGtOTmJwMXRFSnIwbk44LW5xNURGaGg3QU5UdVJSVW5BXzE5Z3dR?oc=5",
-      "published": "2026-08-19T14:21:00+00:00",
+      "id": "ddb350bad488",
+      "title": "Defensoría advierte desabastecimiento de medicamentos psiquiátricos en Caldas tras terremoto - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdWhTSlpXRFljTVg3TFJ3MDhZZTlpT0NfT0lReE0xX05mLVI0amkyVENrdVI0cUZhTFJZZmthRTlNamo2SXQzV1M4TXhNYnliTU5iaU5CVm1nTjlUREw1ZlBNT29wUUk4ODU3TmRfbFNFNFNXbWE1MGNXNGlSX2NwdA?oc=5",
+      "published": "2026-08-19T14:59:07+00:00",
       "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "d6e3f2129572",
+      "title": "La Comunidad de Madrid invierte más de 1.000 millones de euros en la compra de medicamentos para los hospitales del Servicio Madrileño de Salud - Comunidad de Madrid |",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdGRETS14d2pwSjNFRWhIM19td3FfZ0htdWk4aGlFeG5XMUMwTlEyMDdtb3BQMVYtRjJLVlVqWm1OMkxBMlRMRjVNcW9sV3NkenNndGFzaTMwbUY5M1F2ZjVldG5vQzRIaS1KX3ZhblFadkdRMGZ0OUg3UW1fMmZvNm13SHoxVXo0dV9SaUlzdWxNV1ZTbzBWckhfbW9OTHM1QWtiZExLNWNFWnpCV1p0SVJ3djNLR2lQTmNYUF9hd2k5N2pSUm9Rems3cmpEbmFvUmtTNHMweTFGWEYyU1lFc2J0TUY?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Comunidad de Madrid |",
+        "url": "https://www.comunidad.madrid"
+      }
+    },
+    {
+      "id": "f68d04c90864",
+      "title": "Diputados: proponen garantizar ubicación y entrega de medicamentos en redes de salud - Agencia Andina",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0RrVHpQVVB1Uk1naFBFWERYd3ZyTzYtY0lUVjBxVWNMWWx0Rmt5bDBJVzBwY0ZhYjRMcGl1ZHQ2cWhBelhQUmNRcmlpQ085WWNyWm1mTVFXM3E3YjV2TGJGTU9NRlpHSC1fZ2NoMDRZaUx0MEd6U3ZnVW16YzJ6b0dvYkw5RkFmM2ZFR0x3aWZDaGhnU2F2X2t1X095bkhaMFFEN2tUd3NYbzd1YkF1ZzFFTXIzaE96cjNjclRB?oc=5",
+      "published": "2026-08-23T03:19:38+00:00",
+      "source": {
+        "name": "Agencia Andina",
+        "url": "https://andina.pe"
       }
     },
     {
@@ -584,6 +584,16 @@
       }
     },
     {
+      "id": "684344f55056",
+      "title": "Terremoto en Colombia: EPS deberán reponer medicamentos perdidos y garantizar tratamientos - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX3h2dWZaQW1VM2cyck4tN2tvNlhzZ1NfYjQ3cUtDTm1CeDZicTV2ZjgxbE9ndVNyZWVfeDNCNDE2UnlxOUFRVmU3aHJXZktrNEVGZkZ0VENGdEpuV1FOUDRmcXN1RlJFY011NEZpSUhtVlRlUU84eEo1ZjZMalh2VDdpZEJianRLMm9iR0tQeGg0QzV2WThiTXZRNnVVWVVxajRLR1Q3cHRkdUlrVTNDY2VrYzI0cDZGQWZybzBlNjZlNzA1Snk0cEtjTDdRYjjSAeoBQVVfeXFMT0JpdWE5bzFUbF9EUzl0bGxDbTlpU0N2c2VhWDNqM2xBeGtySHN1RzFoRVUyUGVPalJmUmdOWGpqWkZ6dld5VzlaVlN6VlBxWFFxeHdKdWhOQUExX2RvOUFXcGUyTXlvaTRVT3pYekhKQnhuSXFOWVJfdWw3aXQ2OXhrUzFpeUVRRmZNRkVMT0hTbG1jR2p6MGEwVWZ4dDh2Q1h6TFlDQTh0U2NNQThqeFpneWFQQzd0QjBwdkFaWFdsdzVFdGtOTmJwMXRFSnIwbk44LW5xNURGaGg3QU5UdVJSVW5BXzE5Z3dR?oc=5",
+      "published": "2026-08-19T14:21:00+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
       "id": "ed8e26585663",
       "title": "La nueva junta de Sefap expone a Sanidad su visión del FAP para la Ley del Medicamento - Diariofarma",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUU13U3ZwemYxUnc0ci1WV0dvdFN0M05icS1ITU8wWGdLbWFLYkNYZVZIQ0ZvUnM0bzhTSXdHV2tmYjlkTmhSb3JYU0xGQWlOTkszOGNmY3N2ZHR1WC1OSkRtWUo5SkJfek9Fd0o0OS1HbXZONHJ5TERhNXMzcS1Hc0dPNlJQd1ZLNXpFWDJRcGlhOHlCSkhIMGF1YWlGMGM4eVZaWEJZVEN3NVdBUjY0ZU5NeWt1UDA1MGktU213?oc=5",
@@ -591,16 +601,6 @@
       "source": {
         "name": "Diariofarma",
         "url": "https://diariofarma.com"
-      }
-    },
-    {
-      "id": "f1f16111d806",
-      "title": "Pidió prestados 80 millones de VND para comprar el medicamento más caro para tratar el cáncer de su padre. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTm9Cbm9KbEVnTG1kWmlDZkxHdHZ4VTc2MFFMbl90TE5PYjU4MHNPVUk5cEJkUTdMOWpPbW9RM1ZuTUUwRWlZc0EyR1dTQlpKa1l0YWpzRmVSY2t5dkxadnhLcHZ0VjRST0w4REd6cloxUDhmN3lEM1lKNWFoRUpVeXBTQmtNZFpsSGZqbU13RQ?oc=5",
-      "published": "2026-08-23T03:03:22+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -621,6 +621,16 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "f1f16111d806",
+      "title": "Pidió prestados 80 millones de VND para comprar el medicamento más caro para tratar el cáncer de su padre. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTm9Cbm9KbEVnTG1kWmlDZkxHdHZ4VTc2MFFMbl90TE5PYjU4MHNPVUk5cEJkUTdMOWpPbW9RM1ZuTUUwRWlZc0EyR1dTQlpKa1l0YWpzRmVSY2t5dkxadnhLcHZ0VjRST0w4REd6cloxUDhmN3lEM1lKNWFoRUpVeXBTQmtNZFpsSGZqbU13RQ?oc=5",
+      "published": "2026-08-23T03:03:22+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -684,13 +694,13 @@
       }
     },
     {
-      "id": "82e34a32bca2",
-      "title": "Alerta en Colombia por gel que se vende sin autorización sanitaria: Invima advierte posibles riesgos para la salud - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNV9oczl1S2hWSjYzcUtxRUVNMmVhUzNoUWx1LW1VSE45WnhBLTM5b0hGclpFaENPbi1TQ3dybjJuaWcxU0xXZHJtZkxYNnZtMXB0RDMtS0wyRkxZc00ya3VLS2RlQUtyNDc0RWFWMU1ubThfZXktUTlpUTV6U21EZTk4a01NZ1BDQjhSZmtDdTdhT2FRcm1tVUxqQmJlQkZEWE5XWVhBNHcwaF9MYjBHTExVT25vdzdRNHhpNW1vRzdwdnZqeTBUdHJ6b1FuSHdzSEVZNXBDR0xsdkVubHphd2YydEdhX0lkUmNZQk45MNIBigJBVV95cUxQanZPY1ByaWptWXM0SzVuWnpXamRUS3ZEdkt3UlNwQkI5ekxuNmxqakx4UEpNTHJNdVZZT2tBSDlpWjNSSlh4M0xoSlpnTTRCZDlDQmUtNVNVcFdOWVdPOVpRU1B0enEzX1ZLSGcwRU4yNHJOLWFWUmZGaDNDNmp1RVJkU1RwcHA2dnpRVkptRk1iZ3pvWTZ3dDQwck9kUkFvRnoxMDhwMzhuMXhNWnhCTWdHbmNwcXlKNTlVRzBrQlJOS3lFQTFvMnlVTnlfaVlFVEFjVDF0ZGtncHl5MU5YcWh5RjRMYlZ6SU93SWRBcVdxazg1dFJJMklpN3R6ZXZGbklyVzdoZ3FiZw?oc=5",
-      "published": "2026-08-22T17:35:00+00:00",
+      "id": "931b79cdbcf8",
+      "title": "El Ministerio de Sanidad concluye que no existe evidencia científica que avale la eficacia de la homeopatía en ninguna patología - Ministerio de Sanidad",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ySUlOU2UzRC11S1diWndZdmg0MFg2YnU1QnRNaUZfaF9zS0QwTGpRbVFzcUpVV0RLUGZhZWxuS1Z1R2gyQnJfdFNxZUwwVndCRF9lWWRHUVd6UFVKX1g0ai1QVURkaTl5a3c?oc=5",
+      "published": "2026-04-21T11:22:40+00:00",
       "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
+        "name": "Ministerio de Sanidad",
+        "url": "https://www.sanidad.gob.es"
       }
     },
     {
@@ -704,26 +714,6 @@
       }
     },
     {
-      "id": "931b79cdbcf8",
-      "title": "El Ministerio de Sanidad concluye que no existe evidencia científica que avale la eficacia de la homeopatía en ninguna patología - Ministerio de Sanidad",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ySUlOU2UzRC11S1diWndZdmg0MFg2YnU1QnRNaUZfaF9zS0QwTGpRbVFzcUpVV0RLUGZhZWxuS1Z1R2gyQnJfdFNxZUwwVndCRF9lWWRHUVd6UFVKX1g0ai1QVURkaTl5a3c?oc=5",
-      "published": "2026-04-21T11:22:40+00:00",
-      "source": {
-        "name": "Ministerio de Sanidad",
-        "url": "https://www.sanidad.gob.es"
-      }
-    },
-    {
-      "id": "93516f13fedd",
-      "title": "GLP-1 y “personalidad Ozempic”: usuarios describen anhedonia y pérdida de interés - CureCompass",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTEw2M3Z1eHFLTWU3ZXJsSVcyZnJxRERza2NCMS1XcHVuaHV1NFBwWnhjcVIwai0wOFZ2OWNjMmpyUzRld3hnT1UtQmtRLWdTQjV3VjJ6STFhQS1weXV2UUFaaTJiVzRZejVaRVpfLWxnQkRMZlNySi02SjRqU0hQZjVnbml2YzFmdDhsT0xuc3VackdJV3lza1FkMXZDMFgtWDV6enJad1YtZw?oc=5",
-      "published": "2026-08-23T03:01:42+00:00",
-      "source": {
-        "name": "CureCompass",
-        "url": "https://curecompass.com.ar"
-      }
-    },
-    {
       "id": "4713fbd61cb2",
       "title": "Sanidad publica el listado de medicamentos con deducciones a julio - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORnlGdnlfMl9OXzJVaFNqUFNwZEtQRWpRRmIzbzZQMkZQYWM5QXE4bHQtcTBmWWVqdkoxNjhOMUFSMllzUUg4YVJqRnFKRW9fWS04SHpJR29Wd1dSQWpEb1FETXdPXzVNRlhoWWQyc2tnMzZFNlh3UGpNeklDLXctU09vYnkyaTBYQ0E?oc=5",
@@ -734,23 +724,13 @@
       }
     },
     {
-      "id": "1a45444ab5e7",
-      "title": "Salud Pública advierte que antibióticos no deben comprarse sin receta - eldia.com.do",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04RmUtR1IwdFhDaGQ5ZXpwWDVvbEhzb3Q5aUpFZzA4eXNOM0N2NG1xdzZ3clI4OTRPWXpZeDhfNk1BdnBSNmxhVjJHa0hNYWp6WTNSSktybENJMGQ3MWIxeXFrbGNwNlYxYm50M1ZDbE1FZms4RHljelROUQ?oc=5",
-      "published": "2026-08-20T16:04:57+00:00",
+      "id": "82e34a32bca2",
+      "title": "Alerta en Colombia por gel que se vende sin autorización sanitaria: Invima advierte posibles riesgos para la salud - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNV9oczl1S2hWSjYzcUtxRUVNMmVhUzNoUWx1LW1VSE45WnhBLTM5b0hGclpFaENPbi1TQ3dybjJuaWcxU0xXZHJtZkxYNnZtMXB0RDMtS0wyRkxZc00ya3VLS2RlQUtyNDc0RWFWMU1ubThfZXktUTlpUTV6U21EZTk4a01NZ1BDQjhSZmtDdTdhT2FRcm1tVUxqQmJlQkZEWE5XWVhBNHcwaF9MYjBHTExVT25vdzdRNHhpNW1vRzdwdnZqeTBUdHJ6b1FuSHdzSEVZNXBDR0xsdkVubHphd2YydEdhX0lkUmNZQk45MNIBigJBVV95cUxQanZPY1ByaWptWXM0SzVuWnpXamRUS3ZEdkt3UlNwQkI5ekxuNmxqakx4UEpNTHJNdVZZT2tBSDlpWjNSSlh4M0xoSlpnTTRCZDlDQmUtNVNVcFdOWVdPOVpRU1B0enEzX1ZLSGcwRU4yNHJOLWFWUmZGaDNDNmp1RVJkU1RwcHA2dnpRVkptRk1iZ3pvWTZ3dDQwck9kUkFvRnoxMDhwMzhuMXhNWnhCTWdHbmNwcXlKNTlVRzBrQlJOS3lFQTFvMnlVTnlfaVlFVEFjVDF0ZGtncHl5MU5YcWh5RjRMYlZ6SU93SWRBcVdxazg1dFJJMklpN3R6ZXZGbklyVzdoZ3FiZw?oc=5",
+      "published": "2026-08-22T17:35:00+00:00",
       "source": {
-        "name": "eldia.com.do",
-        "url": "https://eldia.com.do"
-      }
-    },
-    {
-      "id": "4e68adb234e3",
-      "title": "'Un evidente riesgo para la salud': ISP alerta por medicamento que es ofrecido como tratamiento para reducir peso - Meganoticias",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzBvUUhCaWhTRk5JYzlVTHpTVzlMdllyYm5WWXJRTVJ6SjYyLWtpOG1qVER4TWR6ZTFNbXVRX01yaFFSbGloTXI1dHFMM3I4RDBIY0RraFVMYm41VXhKYkQxeWFWS2V6QkRSaE5wRVc2aUp1ZmpIc3oyWEFONl9RVldnVFpONmY3Mk9Lb3FZMGRYQUFGczVGN01LQVA0bzRvOTVsSkhpNThFcnBWVHFRaUJQTUxCbkJsMU1aeEkzMW9Cdkt1ODFLcXZB0gHPAUFVX3lxTE15U1ViUVZsVzBKQmh0enVfWk1GV21DSW9XUTJXcFFhNTJxUDR6Y1gyb3NrV3hxbVJiOGEtdmpLSUVkUHk5dW45NDNDUksyMUpZNGloU1BRUm40c3JGUC1WYVg0eHl4aFRsdW5lWS1DTHBvN1ZXOHpMblUxb0RfMFRNcU9YX2tieUVicUVEWVNGMENYREFhVFF3ZGZyVDlLRi1oZDBoSm53akIxQWRiQnk0MGVtRUNJamlxbGJwMkpGWG0yNGRNRklfQTNlQzdoRQ?oc=5",
-      "published": "2026-08-20T18:32:00+00:00",
-      "source": {
-        "name": "Meganoticias",
-        "url": "https://www.meganoticias.cl"
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
       }
     },
     {
@@ -764,13 +744,33 @@
       }
     },
     {
-      "id": "bd6c7a738811",
-      "title": "Valenti en el portal meer.com:'¿Las inteligencias artificiales sirven a la salud?' - UY Press",
+      "id": "4e68adb234e3",
+      "title": "'Un evidente riesgo para la salud': ISP alerta por medicamento que es ofrecido como tratamiento para reducir peso - Meganoticias",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzBvUUhCaWhTRk5JYzlVTHpTVzlMdllyYm5WWXJRTVJ6SjYyLWtpOG1qVER4TWR6ZTFNbXVRX01yaFFSbGloTXI1dHFMM3I4RDBIY0RraFVMYm41VXhKYkQxeWFWS2V6QkRSaE5wRVc2aUp1ZmpIc3oyWEFONl9RVldnVFpONmY3Mk9Lb3FZMGRYQUFGczVGN01LQVA0bzRvOTVsSkhpNThFcnBWVHFRaUJQTUxCbkJsMU1aeEkzMW9Cdkt1ODFLcXZB0gHPAUFVX3lxTE15U1ViUVZsVzBKQmh0enVfWk1GV21DSW9XUTJXcFFhNTJxUDR6Y1gyb3NrV3hxbVJiOGEtdmpLSUVkUHk5dW45NDNDUksyMUpZNGloU1BRUm40c3JGUC1WYVg0eHl4aFRsdW5lWS1DTHBvN1ZXOHpMblUxb0RfMFRNcU9YX2tieUVicUVEWVNGMENYREFhVFF3ZGZyVDlLRi1oZDBoSm53akIxQWRiQnk0MGVtRUNJamlxbGJwMkpGWG0yNGRNRklfQTNlQzdoRQ?oc=5",
+      "published": "2026-08-20T18:32:00+00:00",
+      "source": {
+        "name": "Meganoticias",
+        "url": "https://www.meganoticias.cl"
+      }
+    },
+    {
+      "id": "fe972f0871a0",
+      "title": "Valenti en el portal meer.com:'¿Las inteligencias artificiales sirven a la salud?' - uy press",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa1hUS0pSWHNLYk1rSE1GcG9JbjUtOWpPa29qS3dhM0V4M1FNRUVGNXlWQWtpWE9OU0xtYlJQdUJESFZXY3lncEl2U3dxWmJTOUxxZkMwVHplY0YyY3JNMjFaVVZMT0trRHdYVjhjQmI3Sl95eUlhT2d6N3FrVnA1TTA4dkZ5UWd3d09lUEYxTWZsV2E3ckZNNXc4Rm9oVXJQdExSMUNMQzA5MjdTWFdfS1k0em90VE1YdGwxamw4OTZNYjdYaUE3aw?oc=5",
       "published": "2026-08-22T12:59:31+00:00",
       "source": {
-        "name": "UY Press",
+        "name": "uy press",
         "url": "https://www.uypress.net"
+      }
+    },
+    {
+      "id": "93516f13fedd",
+      "title": "GLP-1 y “personalidad Ozempic”: usuarios describen anhedonia y pérdida de interés - CureCompass",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTEw2M3Z1eHFLTWU3ZXJsSVcyZnJxRERza2NCMS1XcHVuaHV1NFBwWnhjcVIwai0wOFZ2OWNjMmpyUzRld3hnT1UtQmtRLWdTQjV3VjJ6STFhQS1weXV2UUFaaTJiVzRZejVaRVpfLWxnQkRMZlNySi02SjRqU0hQZjVnbml2YzFmdDhsT0xuc3VackdJV3lza1FkMXZDMFgtWDV6enJad1YtZw?oc=5",
+      "published": "2026-08-23T03:01:42+00:00",
+      "source": {
+        "name": "CureCompass",
+        "url": "https://curecompass.com.ar"
       }
     },
     {
@@ -831,6 +831,16 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "c93ca6d1238a",
+      "title": "El producto más traficado a través de algunas fronteras de Brasil son las medicinas para adelgazar - La Voz de Tarija",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc2E2M2dqejZ5TjNpSmRmbkRuT09zVGtnRjN4eEotM3ZkWGdodDF4QWNPbVg3WmM0clV3UlQ2U2JMT0REWU1SWW1tck1VUkdZQjJCX3JyeHQyQjhrMlZZdzZxU01UQ1doQ28zSDJmUC1JWkwxLU9CVDNEbXJNMG04R3N0MG1EMFJ6cXNkaTRmb2E3R0lqTmRwdXp0YnhxWG1Za1BqT1I0SXF5eGYzZEtKUHNEV0RiSnVmS3RiUU01bEpxU2JRd1dMeVo3X2dpX1ZOS1E?oc=5",
+      "published": "2026-08-22T21:57:07+00:00",
+      "source": {
+        "name": "La Voz de Tarija",
+        "url": "https://lavozdetarija.com"
       }
     },
     {
@@ -914,16 +924,6 @@
       }
     },
     {
-      "id": "dc6f8ebfa960",
-      "title": "Medicamentos suben 53.6% desde 2018 y golpean el bolsillo de los mexicanos - Plano Informativo",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaW4yUXlUNVh4ek5UOWhpMTJ2enp0Ri1qTnNHWUpSa08xb3NQcWJXcTR2ODBBamluQU1qeU43SWtNbGRQblJDMVlaTkdGTjdtQVFmaHhPMDVFYnRhMjh0bDdoaEh1N2JzQUlsOV9sRTdmRnNESFRNbmdHVU5SWWJjRlZ5LUVVVDNaT0JFcDRzbHF2azVLSkRnd25NWXp0R2xRSTlXLTBGbW5FekpBaWc?oc=5",
-      "published": "2026-08-22T19:48:00+00:00",
-      "source": {
-        "name": "Plano Informativo",
-        "url": "https://planoinformativo.com"
-      }
-    },
-    {
       "id": "58c6b0eeaadc",
       "title": "Nueva farmacia en el HIGA en medio de la creciente presión sobre la salud pública - La Tecla Mar del Plata",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOW90YXdMT2pKMVlENnpKbnlraGNoUWxHaE4zRGN4dU93MThDTTJmaTZKSmtqYmdXUlg4ODNKUWFsQW0wSXNkalpKd29VR2JnbWF2bU5XcjV1Y0I1eFp6a1dkcHFkR1QzemJIS1dkUnhpVm1uSXU2Wm8xT19TRlZCbWxIWEhfMjVUZ1YtNDI5ay1POThJTVNVUHVRTGxNRGpNcFVzZU94VEJHeTlfYjNIUURoNTEzalFaMVNqUE41blhSLVE?oc=5",
@@ -934,13 +934,23 @@
       }
     },
     {
-      "id": "37127e482f61",
-      "title": "¡Atención! Minsa alerta sobre falsificación de medicamento Mounjaro - Destino Panamá",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMW1nUnZibXRQd1F1dGdEWmtobi1aVm9uOUJURjZqMmRXZGQtd3EtQUlWQ05kMTFOVUh3M0VYWVVrNmJjYzF0cUhvbFJfV29zOEFQNi16Z3pjUDJBY3RxQzFBRHdleGtlY0t2b1RJRm94Vmh2VTJPYzF2Qk5hOGgzbTBDbjFocHpsS1ZpMXpDRHBvdWJselU5SHlXTk45T2hhSUtRdElR?oc=5",
-      "published": "2026-08-22T16:11:57+00:00",
+      "id": "3a1d1ab4bbd9",
+      "title": "Tras atentar contra su vida, mujer muere en la clínica 2 del IMSS por intoxicación con medicamentos - vanguardia.com.mx",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTldPMHg1YTh5aHh6UXMtWWtnQzY3NFRHalBjX3RkQkZ5OFZwVWU0dFh0WW45S29LMGVZWlotRWNmTFVVWkd1UzFFOGhBUVAzUktvTGduMU4zNV9mbzFvUDJXVkFDWDJJY3ItTHdVTGZsX2laQm5wV2NjazV5NmVvOFZIRDU1blB3SlJyNlltekE2TVpnM1FuX0diRHh5YWpDMzY4TDV1N3N0OXlhcUdTVUR1blpHdjNOZ3JaeG5LeU9oNWZMWG9ESnc4MFBoR2JNOU95ZEk2YmdJclcta1ZRbHZZNVpDY3ZM?oc=5",
+      "published": "2026-08-23T14:44:45+00:00",
       "source": {
-        "name": "Destino Panamá",
-        "url": "https://destinopanama.com.pa"
+        "name": "vanguardia.com.mx",
+        "url": "https://vanguardia.com.mx"
+      }
+    },
+    {
+      "id": "dc6f8ebfa960",
+      "title": "Medicamentos suben 53.6% desde 2018 y golpean el bolsillo de los mexicanos - Plano Informativo",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaW4yUXlUNVh4ek5UOWhpMTJ2enp0Ri1qTnNHWUpSa08xb3NQcWJXcTR2ODBBamluQU1qeU43SWtNbGRQblJDMVlaTkdGTjdtQVFmaHhPMDVFYnRhMjh0bDdoaEh1N2JzQUlsOV9sRTdmRnNESFRNbmdHVU5SWWJjRlZ5LUVVVDNaT0JFcDRzbHF2azVLSkRnd25NWXp0R2xRSTlXLTBGbW5FekpBaWc?oc=5",
+      "published": "2026-08-22T19:48:00+00:00",
+      "source": {
+        "name": "Plano Informativo",
+        "url": "https://planoinformativo.com"
       }
     },
     {
@@ -974,6 +984,16 @@
       }
     },
     {
+      "id": "37127e482f61",
+      "title": "¡Atención! Minsa alerta sobre falsificación de medicamento Mounjaro - Destino Panamá",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMW1nUnZibXRQd1F1dGdEWmtobi1aVm9uOUJURjZqMmRXZGQtd3EtQUlWQ05kMTFOVUh3M0VYWVVrNmJjYzF0cUhvbFJfV29zOEFQNi16Z3pjUDJBY3RxQzFBRHdleGtlY0t2b1RJRm94Vmh2VTJPYzF2Qk5hOGgzbTBDbjFocHpsS1ZpMXpDRHBvdWJselU5SHlXTk45T2hhSUtRdElR?oc=5",
+      "published": "2026-08-22T16:11:57+00:00",
+      "source": {
+        "name": "Destino Panamá",
+        "url": "https://destinopanama.com.pa"
+      }
+    },
+    {
       "id": "fb8dd76a4489",
       "title": "La medicina del millón: cómo los fármacos falsos infiltraron el sistema público de salud de México - EL PAÍS",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdmdQVndZYTR3QW14QlBLT1VUUHhmT0pYa3BnajZveUdzaHJrRS16WWF1RWtUamJqcEJXMGdKbTc4QlE1Mm1yV1ZzN3ZCeWpJd1RTeU5XbE5raUE3M3hYc3RGdDdDeUV2N0tMSS1vZ3ZCLTNxdWM1c1I1X1JjYWVDMEpmWlNodmJaczE1RGVENnVnU3V3SzI2RHd4dTctdG56ZWVaUW1lQ01DR05GQm1GYU5qaTFTTGRHbkI4aHhLZGI0UXo0MmNCcXRRNGpVN0hWQ1lPaUFB0gHqAUFVX3lxTFBESWtHbzZEU1pUeC1LZC0yM3RRLVFveWhUd0VlbEduZDVnakFYZlc0OHBUNjBOaThmMFJaczZLRl9DalJ3MWVVS2NQQU9taU9YS1BUeVB5V3BYMFJ3ZExRWEFjeURHSGZ4dHAzSmhNMWhKdFQ0cHJQRW02aUZGdTZiYTBqUUJsSTRXdEZVc3dBczFRUGRBa3picUlYcUd5MVgzTGliUTU5c1hMUFBsNWZDTUNmakN3bUhaR2F3QXU1OXJ6NGNOMElwWTE1OV9XZ2JhS2pGUW5xTnlQblFzaWI4Z0FUN0FsMktnZw?oc=5",
@@ -981,26 +1001,6 @@
       "source": {
         "name": "EL PAÍS",
         "url": "https://elpais.com"
-      }
-    },
-    {
-      "id": "4696e476ee65",
-      "title": "Salud y el Colegio de Farmacéuticos lanzan una nueva acción informativa para el uso seguro del medicamento risperidona solución oral, dentro de la campaña ‘Errores cero’ - navarra.es",
-      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPQ2lTOXVhSE1ZbDFiNWVfVERlUzdwczNEM2EwZ2JGcHR4Z0oyaV9iSS1BaTdlQnN5NUhVQnFMeFRrWXFNSnI0anlUSWNlSDRUd1JHcTNONGFVOE5qUG1ETG9TZ05ON2F4RzJHT0pUWGtKSWNIU1BmLUZFcy1DVW9wTlR4bXJXRVltT1ZMVzd0SG84dTQ5UGlNTjI3RHN5Rmhrek8yYWxNRFBXbzVpWG5PRkpTdGRJSDB2bE1VN3RNc2tHZlBQLUx6eVJwNDZhWnBRZGQwRE0ycERKalRGYzNKamZqZ25nZG9rbVVvZmZ6c2V0NTQ0WEFsZHFoSUVWVTNJNHBiTTRGLVA4ZjlteU81XzU5SkNfNkNUazZud2VrejNvWEczR0NUa0hPNjBrSlhKSkE?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
-      "source": {
-        "name": "navarra.es",
-        "url": "https://www.navarra.es"
-      }
-    },
-    {
-      "id": "7a05e0bd8d81",
-      "title": "EsSalud activa compras inmediatas de medicamentos frente al desabastecimiento - Agencia Andina",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbm1Kd18ySW9vM0pxdXFDajladHVQODY4WWlzMnVaT0daX195NEs5QzdfOFpxMkUybDNtS29rU0hkZVQyZmt5QVNQQ1VrMVFTXzRoUFR4TGx0dnpFM1lGamxCSEJYOGt0cEJjaXNTaU5BamY5b2FRdG5jY0RfQUhhckhrQkNPcU9kX0V1SVJGTFpDdFRXTjhoZHJyTE5yNFplOWhqMTVDZVpYb2lfQVBsS0hwbEhmNTBGMTBBVGdR?oc=5",
-      "published": "2026-08-23T07:29:46+00:00",
-      "source": {
-        "name": "Agencia Andina",
-        "url": "https://andina.pe"
       }
     }
   ]
