@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T23:08:20.284357+00:00",
+  "fetched_at": "2026-08-24T00:28:14.682847+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,16 +64,6 @@
       }
     },
     {
-      "id": "a6fac0c4a52e",
-      "title": "El Hospital Universitario Torrecárdenas recuerda cómo conservar los medicamentos ante las altas temperaturas - Junta de Andalucía",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUm94LXFUalRERHFJOFY1TzhJMHlnZ29PdUNNVkhPaTBaRUptdkJ5eExDd1VTeVhGZEdLN05HSXd6ZUg2WG5Fc2NXTjkyd0dYcndLcjdIQnhjamtiRzRFTGlORVI3N1pBdGYxSFQzVFJBcnFYVWJ2VV9kYUwxaEVBcUtLNUJtRmJWLVhaVTBMTng2SkZJbTYtMlJYQmdoQy1TcGNUa1FIaDJQd3pTY2NlTFAxWThqSjZILUR0Mnh2Rjk?oc=5",
-      "published": "2026-08-17T08:54:57+00:00",
-      "source": {
-        "name": "Junta de Andalucía",
-        "url": "https://www.juntadeandalucia.es"
-      }
-    },
-    {
       "id": "e21aeb948c43",
       "title": "La farmacología clínica es el puente entre la investigación y el paciente - Univadis",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUJNdVBJVmF5SWxGMGhXTnpIck5TM3kxaUc4SS0tQWRtQ2N2VmJuemFEalFFeUtsdkFIYndVcnJMZG9FSldVRnNiX1d6c0dtOWFtQ2hwTDNDeHI4UW0yeVcyd3Fya1U0OUY3cDJfR2dZb1VLRW5kM19FbmFCSHU1V284bTFqRERpckRIYVBJMnlrRklMZ005QmlsYw?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "Univadis",
         "url": "https://www.univadis.es"
+      }
+    },
+    {
+      "id": "a6fac0c4a52e",
+      "title": "El Hospital Universitario Torrecárdenas recuerda cómo conservar los medicamentos ante las altas temperaturas - Junta de Andalucía",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUm94LXFUalRERHFJOFY1TzhJMHlnZ29PdUNNVkhPaTBaRUptdkJ5eExDd1VTeVhGZEdLN05HSXd6ZUg2WG5Fc2NXTjkyd0dYcndLcjdIQnhjamtiRzRFTGlORVI3N1pBdGYxSFQzVFJBcnFYVWJ2VV9kYUwxaEVBcUtLNUJtRmJWLVhaVTBMTng2SkZJbTYtMlJYQmdoQy1TcGNUa1FIaDJQd3pTY2NlTFAxWThqSjZILUR0Mnh2Rjk?oc=5",
+      "published": "2026-08-17T08:54:57+00:00",
+      "source": {
+        "name": "Junta de Andalucía",
+        "url": "https://www.juntadeandalucia.es"
       }
     },
     {
@@ -194,16 +194,6 @@
       }
     },
     {
-      "id": "b312f8450c6d",
-      "title": "El SUC explica cómo conservar los medicamentos durante el verano - La Provincia",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZTQ4Nk5iQU9YUEJVZWJBZ1g1TEU0dUlvcWtNRk53UDBMX3BGTWhrZHdVamJXcWVSUHRjcVNSU3NGMGoxLV9DdGlINkZQa21hdVlzS0RjNUszVkhOWS1NUVFVaXFwUUhsVmljakpKY2ZVNnFHSEFZYjF5RTF3M0VtbVV1eWtNalNYX0dKVXNRNlRrV05COUtNMnJqaGx6UW11cHd6bWtHVWRFaU9xem130gG0AUFVX3lxTE5PdzdsTjgyVUpBUlZwanpCQXRpcE42d05rZGlWaUpSNWdWQVR5ZjFkd0ZBZ3ZvZlNsVUIwTHRxUnBVZHk2ek1TWUxRYXU5RjJVOHZNd2REV3ZicGNzR2lVcTRFanBBc2E3M205ZTF1MHVNUjFoTUNYR0tnT0R5U1MwMGtlVGhGanNMMmdQWktIeGFnWWFYYXdqWE5JcEpFSFlrRlFFLS1RY3prd2EzUHl1UjN2OQ?oc=5",
-      "published": "2026-08-22T15:00:16+00:00",
-      "source": {
-        "name": "La Provincia",
-        "url": "https://www.laprovincia.es"
-      }
-    },
-    {
       "id": "5545eb42cb3a",
       "title": "El XII Seminario de Farmacovigilancia analiza en Palma las nuevas herramientas para comunicar efectos adversos de los medicamentos - caib.es",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZm5BODJLb0lNX04ycEdENU4xZE5GTXpQc0h2X2g1aVlXU1dlRnJUUG5jWjRNSDg2c3hraDBxTmZCUFBYVllGOGd6TVFmLXUxd01nR1M0SGp6dkZHNHM4NU91ZEQxakhWeDNSX1U1TU9jLVVIYlhSQ0d1SlNzVXVRd3hSU2VxUmJ6eFY5Ulc4UmotN3Z4YzEzdXdOZ0RpQ1U0NzFtSnM4TGV1b3g4NHNieXRWNkt1V0hfeXVZekFzODNlTEUwUkVnbEFFNUkxc0pkZXVfb2g2M3kwUHhkS3BWM1hXdVFuajlFY0FqZWhQUGdESGZfTmc?oc=5",
@@ -214,13 +204,13 @@
       }
     },
     {
-      "id": "b5c2a63f0ebd",
-      "title": "Ni menos testosterona ni peor esperma: un estudio alivia, por ahora, la inquietud masculina por tomar Ozempic y otros fármacos GLP-1 - 20Minutos",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdHhzdkt3V2o3SmF1YjZadVlGZlZTa1J1MWtCcDY0dDRfQXRZRVNOcndDN2l1N3RVS2s0MHd4MVBEWmUwNjY5SWJreUlETGZnQTNILWtUVzkwMW9lMkFrT0s1QV9oSVhvUTFROVBmVXdtcTRmS2NzSlFQd2ZiQXNTS0l5UF9uRTlxTFQyMmxjQ2ZWeTM2UzN4THJNWldMVDBiN0RQdGxsTUtyRGp3Nk5CWFd2ZlliN0V4YkJSbDVjYXQzcHFxeTBMcy0zYzBFOHdpRHBzZFE3QnluZVQyMUJqUktpZEVaNjF3SkxvbXpPbTRCU29NeTBjcXdhZTJLX0k?oc=5",
-      "published": "2026-08-23T05:00:00+00:00",
+      "id": "b312f8450c6d",
+      "title": "El SUC explica cómo conservar los medicamentos durante el verano - La Provincia",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZTQ4Nk5iQU9YUEJVZWJBZ1g1TEU0dUlvcWtNRk53UDBMX3BGTWhrZHdVamJXcWVSUHRjcVNSU3NGMGoxLV9DdGlINkZQa21hdVlzS0RjNUszVkhOWS1NUVFVaXFwUUhsVmljakpKY2ZVNnFHSEFZYjF5RTF3M0VtbVV1eWtNalNYX0dKVXNRNlRrV05COUtNMnJqaGx6UW11cHd6bWtHVWRFaU9xem130gG0AUFVX3lxTE5PdzdsTjgyVUpBUlZwanpCQXRpcE42d05rZGlWaUpSNWdWQVR5ZjFkd0ZBZ3ZvZlNsVUIwTHRxUnBVZHk2ek1TWUxRYXU5RjJVOHZNd2REV3ZicGNzR2lVcTRFanBBc2E3M205ZTF1MHVNUjFoTUNYR0tnT0R5U1MwMGtlVGhGanNMMmdQWktIeGFnWWFYYXdqWE5JcEpFSFlrRlFFLS1RY3prd2EzUHl1UjN2OQ?oc=5",
+      "published": "2026-08-22T15:00:16+00:00",
       "source": {
-        "name": "20Minutos",
-        "url": "https://www.20minutos.es"
+        "name": "La Provincia",
+        "url": "https://www.laprovincia.es"
       }
     },
     {
@@ -231,6 +221,16 @@
       "source": {
         "name": "European Parliament",
         "url": "https://www.europarl.europa.eu"
+      }
+    },
+    {
+      "id": "b5c2a63f0ebd",
+      "title": "Ni menos testosterona ni peor esperma: un estudio alivia, por ahora, la inquietud masculina por tomar Ozempic y otros fármacos GLP-1 - 20Minutos",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdHhzdkt3V2o3SmF1YjZadVlGZlZTa1J1MWtCcDY0dDRfQXRZRVNOcndDN2l1N3RVS2s0MHd4MVBEWmUwNjY5SWJreUlETGZnQTNILWtUVzkwMW9lMkFrT0s1QV9oSVhvUTFROVBmVXdtcTRmS2NzSlFQd2ZiQXNTS0l5UF9uRTlxTFQyMmxjQ2ZWeTM2UzN4THJNWldMVDBiN0RQdGxsTUtyRGp3Nk5CWFd2ZlliN0V4YkJSbDVjYXQzcHFxeTBMcy0zYzBFOHdpRHBzZFE3QnluZVQyMUJqUktpZEVaNjF3SkxvbXpPbTRCU29NeTBjcXdhZTJLX0k?oc=5",
+      "published": "2026-08-23T05:00:00+00:00",
+      "source": {
+        "name": "20Minutos",
+        "url": "https://www.20minutos.es"
       }
     },
     {
@@ -264,16 +264,6 @@
       }
     },
     {
-      "id": "90b8252abc7f",
-      "title": "A más de un año de su inclusión, medicamentos para obesidad y diabetes esperan aún cobertura de ARS - Diario Libre",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMEpIUmF0ZVpSN3RFNTItdEp6bWZpcS1IV0ZxbUlJUkJJZzVnWFJLbVQxV0E0ZmlHcmtBQmEydHBaUlB3ZDNMeWhvb1R3SnRyTU4tclA4VkVJZ2ZVQzZpQmVSbzBHdWhfTU1wUnJUWWlfSFAzLVdaZjBCa0NqT3ppaXAtMXhseDJSOHVkQU9KWlJKdGhNV2VrV1Y0a0hGYzZsOHc1SF91Y3puOTZGa1V5N0d4bDFMendmVTBRT2xhZ0Fmemgt0gHKAUFVX3lxTE1HOG9UdmhSZ3ZmYVpRcFdaRWpjcllnc2JQVmlFaXhzYTNOV2NZNEFxeE5YQnJGRDdyOWRieUVwVnVBcWxuaVlOT2IzNWlkaFdhbElaWG5rSjF0VzFVRWFOeXlGUWFhQ0kwem96SjR5eElQajhublhDX0JRY0JQcllJMmx4YjhzNVVhMm80ZXVXRkVqSmhsWjhrUzlIQmREVWEtSzBsNXRvWHFZLXdaTjBJeHg3VlBlOFdoaDhXVGxoMkhKRDZKYVhPSVE?oc=5",
-      "published": "2026-08-23T02:30:00+00:00",
-      "source": {
-        "name": "Diario Libre",
-        "url": "https://www.diariolibre.com"
-      }
-    },
-    {
       "id": "211c05a6efec",
       "title": "¿Por qué las personas que sufren insomnio acuden antes a una farmacia que a un especialista? - La Opinión de Murcia",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLTZpRVR3aExFYndhOTI0UzktZ3Y2Zldqby1ya2ppdV8wbzk3bTRsVG5DT2FZUENyeE5PRjN4VFUxSTJ2OFdQbnNjQWFTVzdyeWJCTTVfNVBGYllJb1lQZTFkSXpNdDhKWnlHdG9iU25seFBYam1BQ1R1UHdaRUlzdWxQeVNuZndnRVNnX2dCdmRsel90UmZiU0ZELVRyVGYwSzl6eGJrczY1SDE3dmR0S2JsQUlzNVIta2J5bnhIWWdXQnVyMGRUTVVuZkYxNXh2MGxLY1BpUE0xcEdvUUZN0gHkAUFVX3lxTE5VMWhaUEVKWURVVERIeVNXQjdFY2NpSks2RHRHRE52dzNvaUQtb2NaUW53N0pmMGdPZ095c3FFV0Z1aGtTQkhveWx0ZTlrRUpwWG5iZXUzMnptQlVzSlYxZl9VLXVfU3hWZnFtQjN5c01sOXZzTndxRndVRm16Z3piU0JtN3p2NWw2ZkFTU0lYOTZoQ1BzVVR6QzhGdGRCMXRJZEF2T0JKUllFbDhJa0d6WWF5eDBiVjZGMEl5MXIzSmxuaEtCQjh4cnA4X0JNV3UxcUpMQUxzbkFObk5ZWkVORkJsVA?oc=5",
@@ -304,16 +294,6 @@
       }
     },
     {
-      "id": "03b5151cfc11",
-      "title": "Hay stock del 62% de medicamentos esenciales, asegura Ministerio de Salud - abc.com.py",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQenZSaTBiZEpwWmJKdG1wNjNSS2VzNURKakV0OWNyNUpYbGJuZV9hZGotMmh3T1NERkhSdld2eGdSOHBDME9sNXp4bEVEYXl6NG15ektSdGVvMXp2QWxzaHZjQnBVUVViVm01VlVOZk0yQTdJeHJTM1pUVlJJdHduSDVINUN5SEZPX3h3dHYwYkY0b0V2YmJyTE5YNkpETXpjMUduQ29OdXZraTFoYUtOYXFOUE9RRTBq0gHMAUFVX3lxTE1ranZfbnNJb0g5dWdvRDF1eDljYldTbWU4and5bXc2YUcycHZYem1nVHBtNzVqZFBLX2pOaENmbjdrSzlCYUNPT25DTXhUbkhjWUwzc01VeEpnb2hQQzFqajBKanA4SnhvMUZJaUtQZHVnejFKSGI2ekRuRnNvZDZGSzdHZ1J0NTl4MXBEZUlWS08xX0VTWnVTTzJpLTNEcEJHMU1xOXpIX0RTbV9vM29sS1Q5bUdtQVZQamdkR0RDTWF3bUw1SU9oMGdoTw?oc=5",
-      "published": "2026-08-23T15:04:25+00:00",
-      "source": {
-        "name": "abc.com.py",
-        "url": "https://www.abc.com.py"
-      }
-    },
-    {
       "id": "7202136f7629",
       "title": "Orina de color oscuro o muy concentrada: qué significa y cuándo puede ser una señal de alerta - Tua Saúde",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYUZucHkzRmQtTzB2cU5HMDVXRXdKUDdQT195N2RNelJEQnpDdGlyc1hhMGdpaVd1dzM4WVB6aERFdjBJaUZuSTEyY1dEbGZjcVYyd1NET2JLcW5wckc3SGd2cWtLdG5BN0w5UTVLQ2Y4ZlhCWjBNNjluU0VFREZZTWRkOXdzUzRySDJCb0ZrbkR0YkJjcDFBZW1wLXNvOGpOQ0JyUVp0b045TlBCZjMzbHRPVzlRWUpNZ0FvdXZEM2hNNm1uVkxUUEpyaUZic2UtZmNV?oc=5",
@@ -321,6 +301,16 @@
       "source": {
         "name": "Tua Saúde",
         "url": "https://www.tuasaude.com"
+      }
+    },
+    {
+      "id": "931b79cdbcf8",
+      "title": "El Ministerio de Sanidad concluye que no existe evidencia científica que avale la eficacia de la homeopatía en ninguna patología - Ministerio de Sanidad",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ySUlOU2UzRC11S1diWndZdmg0MFg2YnU1QnRNaUZfaF9zS0QwTGpRbVFzcUpVV0RLUGZhZWxuS1Z1R2gyQnJfdFNxZUwwVndCRF9lWWRHUVd6UFVKX1g0ai1QVURkaTl5a3c?oc=5",
+      "published": "2026-04-21T11:22:40+00:00",
+      "source": {
+        "name": "Ministerio de Sanidad",
+        "url": "https://www.sanidad.gob.es"
       }
     },
     {
@@ -344,26 +334,6 @@
       }
     },
     {
-      "id": "931b79cdbcf8",
-      "title": "El Ministerio de Sanidad concluye que no existe evidencia científica que avale la eficacia de la homeopatía en ninguna patología - Ministerio de Sanidad",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ySUlOU2UzRC11S1diWndZdmg0MFg2YnU1QnRNaUZfaF9zS0QwTGpRbVFzcUpVV0RLUGZhZWxuS1Z1R2gyQnJfdFNxZUwwVndCRF9lWWRHUVd6UFVKX1g0ai1QVURkaTl5a3c?oc=5",
-      "published": "2026-04-21T11:22:40+00:00",
-      "source": {
-        "name": "Ministerio de Sanidad",
-        "url": "https://www.sanidad.gob.es"
-      }
-    },
-    {
-      "id": "8ca58f45736e",
-      "title": "Paraguarí recibe medicamentos e insumos para fortalecer servicios de salud - mspbs.gov.py",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0J4MzYtdU9WVGUzUXpBaUVVUFV0NnRJRzZVWUZuLW1ha1M2UGt6bGNYbFNLSHVKMGNBUWkwUmtwWjR6MzlUdmlOQi1tWnp4WDAyTGtKTVBRS19EOTJwZ3F3ejZadTVFOC1GV1lQV2FqSGs5ODNyVVAzakFMdXE4RlZYNGNPZTJFOHpNRFc2ZTVOY0FtREJLMlRjN0g0V1R4WDJKQ1FQWmk3d0RBX1hTU1FKeWFKLVZ3?oc=5",
-      "published": "2026-08-23T09:05:40+00:00",
-      "source": {
-        "name": "mspbs.gov.py",
-        "url": "https://www.mspbs.gov.py"
-      }
-    },
-    {
       "id": "901f042b7db1",
       "title": "Sanidad digitaliza la retirada de medicamentos en las farmacias: \"Adiós al cúter y la burocracia\" - RTVE.es",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYVBtSGhhMGh2SDRvZEQwWEJTTlpPdGg2RjFCNmtKOTBSS01TeHh3SnRZM2ZLRlhuWEpEQ0p2UVRMNk5fMzZpZ1RPczBLdWo3N2xVT2M2OGQ2MV9kZXRsZzhmTmYxeUdBR3JnNVhtcDR4T21XZmFfNG1pV2pYTUpETGxKd1NuaG1ia29LeWcxa3BHVmVDbTVsMU9DM2Y0S2N6M0tRbUJQLUdhQmc3MlhieHJKVjNoeWlx?oc=5",
@@ -374,13 +344,23 @@
       }
     },
     {
-      "id": "7e9fb47e4ba3",
-      "title": "¡No se confíe! La publicidad de medicamentos con receta debe estar autorizada - Ministerio de Salud Costa Rica",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVFNqaEE1OTRSeHdlWnhGaG1TWm1yOF9DRlFSNVBRc244VW9Ld0EwV0plT3drc2VFUGF1Sk13NnF0WlpuS3FicjI1dU91Y0U3XzY4eXZ1Qjh3Q2NnaXZuelBUUXVZbWg1TUJvOTBWcFhWOFJLdFpNcE5QbWtoMmp5QURoSXRETDUtdG1fVVJkc3MwTmRzZ1EtTFJleGdzMFNkUHpNMm9wSXFUNi1OMFdkcHdMQTk2THhkZzNkMDVWTmtlQ3ZlY1NsdndSUmpvUjh4emtwdnZOWnpGa3BrUDBDODExSk0?oc=5",
-      "published": "2026-08-20T20:37:40+00:00",
+      "id": "90b8252abc7f",
+      "title": "A más de un año de su inclusión, medicamentos para obesidad y diabetes esperan aún cobertura de ARS - Diario Libre",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMEpIUmF0ZVpSN3RFNTItdEp6bWZpcS1IV0ZxbUlJUkJJZzVnWFJLbVQxV0E0ZmlHcmtBQmEydHBaUlB3ZDNMeWhvb1R3SnRyTU4tclA4VkVJZ2ZVQzZpQmVSbzBHdWhfTU1wUnJUWWlfSFAzLVdaZjBCa0NqT3ppaXAtMXhseDJSOHVkQU9KWlJKdGhNV2VrV1Y0a0hGYzZsOHc1SF91Y3puOTZGa1V5N0d4bDFMendmVTBRT2xhZ0Fmemgt0gHKAUFVX3lxTE1HOG9UdmhSZ3ZmYVpRcFdaRWpjcllnc2JQVmlFaXhzYTNOV2NZNEFxeE5YQnJGRDdyOWRieUVwVnVBcWxuaVlOT2IzNWlkaFdhbElaWG5rSjF0VzFVRWFOeXlGUWFhQ0kwem96SjR5eElQajhublhDX0JRY0JQcllJMmx4YjhzNVVhMm80ZXVXRkVqSmhsWjhrUzlIQmREVWEtSzBsNXRvWHFZLXdaTjBJeHg3VlBlOFdoaDhXVGxoMkhKRDZKYVhPSVE?oc=5",
+      "published": "2026-08-23T02:30:00+00:00",
       "source": {
-        "name": "Ministerio de Salud Costa Rica",
-        "url": "https://www.ministeriodesalud.go.cr"
+        "name": "Diario Libre",
+        "url": "https://www.diariolibre.com"
+      }
+    },
+    {
+      "id": "03b5151cfc11",
+      "title": "Hay stock del 62% de medicamentos esenciales, asegura Ministerio de Salud - abc.com.py",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQenZSaTBiZEpwWmJKdG1wNjNSS2VzNURKakV0OWNyNUpYbGJuZV9hZGotMmh3T1NERkhSdld2eGdSOHBDME9sNXp4bEVEYXl6NG15ektSdGVvMXp2QWxzaHZjQnBVUVViVm01VlVOZk0yQTdJeHJTM1pUVlJJdHduSDVINUN5SEZPX3h3dHYwYkY0b0V2YmJyTE5YNkpETXpjMUduQ29OdXZraTFoYUtOYXFOUE9RRTBq0gHMAUFVX3lxTE1ranZfbnNJb0g5dWdvRDF1eDljYldTbWU4and5bXc2YUcycHZYem1nVHBtNzVqZFBLX2pOaENmbjdrSzlCYUNPT25DTXhUbkhjWUwzc01VeEpnb2hQQzFqajBKanA4SnhvMUZJaUtQZHVnejFKSGI2ekRuRnNvZDZGSzdHZ1J0NTl4MXBEZUlWS08xX0VTWnVTTzJpLTNEcEJHMU1xOXpIX0RTbV9vM29sS1Q5bUdtQVZQamdkR0RDTWF3bUw1SU9oMGdoTw?oc=5",
+      "published": "2026-08-23T15:04:25+00:00",
+      "source": {
+        "name": "abc.com.py",
+        "url": "https://www.abc.com.py"
       }
     },
     {
@@ -391,6 +371,16 @@
       "source": {
         "name": "Roche España",
         "url": "https://www.roche.es"
+      }
+    },
+    {
+      "id": "7e9fb47e4ba3",
+      "title": "¡No se confíe! La publicidad de medicamentos con receta debe estar autorizada - Ministerio de Salud Costa Rica",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVFNqaEE1OTRSeHdlWnhGaG1TWm1yOF9DRlFSNVBRc244VW9Ld0EwV0plT3drc2VFUGF1Sk13NnF0WlpuS3FicjI1dU91Y0U3XzY4eXZ1Qjh3Q2NnaXZuelBUUXVZbWg1TUJvOTBWcFhWOFJLdFpNcE5QbWtoMmp5QURoSXRETDUtdG1fVVJkc3MwTmRzZ1EtTFJleGdzMFNkUHpNMm9wSXFUNi1OMFdkcHdMQTk2THhkZzNkMDVWTmtlQ3ZlY1NsdndSUmpvUjh4emtwdnZOWnpGa3BrUDBDODExSk0?oc=5",
+      "published": "2026-08-20T20:37:40+00:00",
+      "source": {
+        "name": "Ministerio de Salud Costa Rica",
+        "url": "https://www.ministeriodesalud.go.cr"
       }
     },
     {
@@ -414,6 +404,16 @@
       }
     },
     {
+      "id": "8ca58f45736e",
+      "title": "Paraguarí recibe medicamentos e insumos para fortalecer servicios de salud - mspbs.gov.py",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0J4MzYtdU9WVGUzUXpBaUVVUFV0NnRJRzZVWUZuLW1ha1M2UGt6bGNYbFNLSHVKMGNBUWkwUmtwWjR6MzlUdmlOQi1tWnp4WDAyTGtKTVBRS19EOTJwZ3F3ejZadTVFOC1GV1lQV2FqSGs5ODNyVVAzakFMdXE4RlZYNGNPZTJFOHpNRFc2ZTVOY0FtREJLMlRjN0g0V1R4WDJKQ1FQWmk3d0RBX1hTU1FKeWFKLVZ3?oc=5",
+      "published": "2026-08-23T09:05:40+00:00",
+      "source": {
+        "name": "mspbs.gov.py",
+        "url": "https://www.mspbs.gov.py"
+      }
+    },
+    {
       "id": "913c0d783d63",
       "title": "La carrera por ocultar el precio de los medicamentos - Salud por Derecho",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0g5NXc0YzBKZmlXSTVRSV9YMjJuNlk2RzFHOU9HVHpwLV9jWDE4Ykd6RXFsTDdEQ0I1SjNPY2J2VjRLLXdnYmdieGtGT0ctWWlPZjBYMkNoZ1NsRk5yVUI4N0xVbGJUTlZhSWVLekktS0I4Z1dIZ04xek9hOFVUcXA4VW1jVVd3?oc=5",
@@ -434,16 +434,6 @@
       }
     },
     {
-      "id": "86b5f0e2269b",
-      "title": "Cuidado con la \"trampa\" de los fármacos para la mejora del rendimiento sexual masculino. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oZVdWSG55X1dpdHNHRkJ1S1lLcUV4enZiZXFUMVQ0NWpYS0N0cmtRTGlPbE96bml6SGJqUnZ4U29NUnF1RDc0RkNYWGExX0lXY2FqNVhTOFdPQ0loTFlmZXpYeGUzVDlVbV80MTFycVNkUy0yYjJr?oc=5",
-      "published": "2026-08-23T10:37:54+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "fc57de14b76c",
       "title": "Sanidad amplía hasta el 21 de julio el plazo para presentar aportaciones al RD de Precio y Financiación de Medicamentos - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWHFIckx1MmtyYlc4a2ZGM3hBY2lrMUgtTUNZWDJBYlpocGtMQXg3bkZ0MlJfdjZJdXpNRFk3SGRWOEZ5TGhEV3ZjV1NuZVBKNzFqNDZlRzVxQmtaV09GMEJWN19uSlZ3bk81UHlWU1RQM193M1UxbEVnUWFlclA1d1BBeVp4cl9iYl92R2tXRUxmS21iLVEta2xPOV9saV8xQlNxTWhoajU?oc=5",
@@ -451,16 +441,6 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
-      }
-    },
-    {
-      "id": "340f74d794c0",
-      "title": "Un nuevo avance en salud metabólica logra combinar reducción del azúcar en sangre y pérdida de peso en un mismo tratamiento - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNWjliamc4ejRhVjVxWXVhYzYyZkhWanVlMUtNaFAxM3JEUDBzNTYzQ3hSWmtOLXBxUjkwT0lzTVZXTVQtUGtaREdfWFZYbktOTF9qaUJPMDJKTkVud09iVXZ0T1NsSlp1S1pPT3V6aS1JZXMyQkc3VUxxYXJ3bERmTWFvRXY5TU9pdWwwMGliNFp3RWRVbG5zMVE1UWt6UEpXWW5mbVBjbnJoZVYxYW1jQm5ybkhuM2NLVGdleDZMOExKVHJzOTh1QVFpdFYzUVdQSGxEUWxoZzlDQkZpNzJKU200RTAtSTJmakZqU0IyaTVPRHh6ektaeldUaHV0amxGQWZhOXJrZUNoNzRwM0JrdnpOR1JfY21zQXJSOVZaeEtMeldHQmZOWmRuVkNveEdKYkRFalFtYTM?oc=5",
-      "published": "2026-08-20T16:46:38+00:00",
-      "source": {
-        "name": "El Economista",
-        "url": "https://www.eleconomista.es"
       }
     },
     {
@@ -474,6 +454,16 @@
       }
     },
     {
+      "id": "340f74d794c0",
+      "title": "Un nuevo avance en salud metabólica logra combinar reducción del azúcar en sangre y pérdida de peso en un mismo tratamiento - El Economista",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNWjliamc4ejRhVjVxWXVhYzYyZkhWanVlMUtNaFAxM3JEUDBzNTYzQ3hSWmtOLXBxUjkwT0lzTVZXTVQtUGtaREdfWFZYbktOTF9qaUJPMDJKTkVud09iVXZ0T1NsSlp1S1pPT3V6aS1JZXMyQkc3VUxxYXJ3bERmTWFvRXY5TU9pdWwwMGliNFp3RWRVbG5zMVE1UWt6UEpXWW5mbVBjbnJoZVYxYW1jQm5ybkhuM2NLVGdleDZMOExKVHJzOTh1QVFpdFYzUVdQSGxEUWxoZzlDQkZpNzJKU200RTAtSTJmakZqU0IyaTVPRHh6ektaeldUaHV0amxGQWZhOXJrZUNoNzRwM0JrdnpOR1JfY21zQXJSOVZaeEtMeldHQmZOWmRuVkNveEdKYkRFalFtYTM?oc=5",
+      "published": "2026-08-20T16:46:38+00:00",
+      "source": {
+        "name": "El Economista",
+        "url": "https://www.eleconomista.es"
+      }
+    },
+    {
       "id": "33c97a7d0e8d",
       "title": "Salud y el Colegio de Farmacéuticos implantan un programa que facilita la dispensación de medicamentos a pacientes externos en los hospitales comarcales de Navarra - navarra.es",
       "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPZXd6M0RTMF9ZUUkyS2J5UXVtMzU5TUZZRGcwTWk0RTEtdDNRVHBZekxRa2ZaZHVIVGJ5amI3M3p4eWpXWURhUVVUR2pCTFRueXV3NTM3RExScjZRM3FTMktLeUhReEwtQ3NDbm11VUJ0VEI1aUdZbkNvckhhRWNOay1ybEQzS3F3SVdadTdRMkJ1a3cwNUpJTU1jakZhYUN0NWhHV0kxSTNSekNiZVZnU0xNNkRmLU1ISVdNRThWc1VrU29jMWRrdnJkZVZHZ2txaVotV2VYaUxyZjVtU3hpUXJIci03b2JnSzhNNEQwOGJaU1ZWR3ZYUGJObjBCc2VCZ0RFYmJac0RtT0xBWUVVQmV1aGlyZ1ZmOE0xRVVRLWdjUWVqOXo2aVhqcWxnaEZlMXc?oc=5",
@@ -484,13 +474,13 @@
       }
     },
     {
-      "id": "f620b0becba0",
-      "title": "Panamá alerta por falsificación de un medicamento inyectable usado para tratar la diabetes tipo 2 - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVXJ4RWVGV0JOeG5KbC1NQklGWWxRU2VvTXc4NHBIdU9WWnVzTTJmblVpRkQ5M0pnUlRHWThYOXBPUVZYaVNaa21URDdEbEg2RjJwOW9aVmJBV09GczZKU28ybmQzY3Rzb3Ywb2Y4by1tYTc3cXNzMW5INnZFa29fbHc1SGNCa2ZvUG11WE5Xc2JIQXdBa25ZMUkwbEZmQTZIX0poMVFGTmFTbkFIbklCbWloRFk5UHNRbElVQ0g0MjNQMndWOHdWaURRUWppUHNHX25IUmpJSdIB8gFBVV95cUxNUy1veXRsZW12aTc4VFdiWXRySFFQUUYta3g0TEI2Z0xKaGluR3dFUUtSWlUyT3dVVU1mc0RWT1JYLVhPZ0ZuejVYMjdZdWs5ei1oWDNjSjRqRDRjdWUzckVrcWhiZW5xRzJlVmZWLW9XLXpsaGdLMy0xTG4zUktQLTMyRmdjMldIRWZlbzFsUlZVUWhwQnBzeV9JblVHbzF2YnNna0haQnZsZHhTMk10VzJlbDl0X3kxNE5UbjdUR3AxSFJFXzZEYzF2N29XTXBBd1JaYlhlNUM0cU50cnExSHEtbXkwS1M0cFJDRkdrekRkZw?oc=5",
-      "published": "2026-08-23T04:44:00+00:00",
+      "id": "86b5f0e2269b",
+      "title": "Cuidado con la \"trampa\" de los fármacos para la mejora del rendimiento sexual masculino. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oZVdWSG55X1dpdHNHRkJ1S1lLcUV4enZiZXFUMVQ0NWpYS0N0cmtRTGlPbE96bml6SGJqUnZ4U29NUnF1RDc0RkNYWGExX0lXY2FqNVhTOFdPQ0loTFlmZXpYeGUzVDlVbV80MTFycVNkUy0yYjJr?oc=5",
+      "published": "2026-08-23T10:37:54+00:00",
       "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -544,6 +534,16 @@
       }
     },
     {
+      "id": "f620b0becba0",
+      "title": "Panamá alerta por falsificación de un medicamento inyectable usado para tratar la diabetes tipo 2 - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVXJ4RWVGV0JOeG5KbC1NQklGWWxRU2VvTXc4NHBIdU9WWnVzTTJmblVpRkQ5M0pnUlRHWThYOXBPUVZYaVNaa21URDdEbEg2RjJwOW9aVmJBV09GczZKU28ybmQzY3Rzb3Ywb2Y4by1tYTc3cXNzMW5INnZFa29fbHc1SGNCa2ZvUG11WE5Xc2JIQXdBa25ZMUkwbEZmQTZIX0poMVFGTmFTbkFIbklCbWloRFk5UHNRbElVQ0g0MjNQMndWOHdWaURRUWppUHNHX25IUmpJSdIB8gFBVV95cUxNUy1veXRsZW12aTc4VFdiWXRySFFQUUYta3g0TEI2Z0xKaGluR3dFUUtSWlUyT3dVVU1mc0RWT1JYLVhPZ0ZuejVYMjdZdWs5ei1oWDNjSjRqRDRjdWUzckVrcWhiZW5xRzJlVmZWLW9XLXpsaGdLMy0xTG4zUktQLTMyRmdjMldIRWZlbzFsUlZVUWhwQnBzeV9JblVHbzF2YnNna0haQnZsZHhTMk10VzJlbDl0X3kxNE5UbjdUR3AxSFJFXzZEYzF2N29XTXBBd1JaYlhlNUM0cU50cnExSHEtbXkwS1M0cFJDRkdrekRkZw?oc=5",
+      "published": "2026-08-23T04:44:00+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
       "id": "bf9d4a0f6ae7",
       "title": "Reciclaje de medicamentos en las farmacias - Comunidad de Madrid |",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5odkJ2UHk3VUE2TVBaWGRqNWIya3F1cUNPYzFsLWtoNFV5aExnYWtRYjZyTHlBNWV0N1ZBNncyZmdOZnZzWF83aWRtS2xkSjVtYmhMQmlEM2hTUG5mVVI3RjRXQ1pVTVlVWkZzNktLY0w3X3pfakE?oc=5",
@@ -551,16 +551,6 @@
       "source": {
         "name": "Comunidad de Madrid |",
         "url": "https://www.comunidad.madrid"
-      }
-    },
-    {
-      "id": "22e8dc3e8e7c",
-      "title": "Noemí Insua, farmacéutica: «El ibuprofeno de 600 no va a calmar el dolor más rápido y hace más daño al estómago» - La Voz de Galicia",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPbmxfSElNcHk2MnRoZFZlM013LURFcUZDWGZFR3dWbEM2SFJEMkloazhsTXZaMFlhOWp1N196VkRrVlNVcUxsNkJXNXJ3enVrTzM3RDJhSHVLM2I5aU9jcWJxZU1BVGwyaEtPdWR4bWxyZGd1cEUxOE92RVJ0TEdTUHg0WEZobVJhbVZEVG4xTzJpSmM5NlpPVVFidThBQWNOTE16OU14WTdfS2tHN0Nvd3o5QzJkc3AxR2FHMWlfaVFIenhqSlZRZG50QWRhb0JWcmtNNDNuaVJCbUI4WVJrNVZScG5jci1KRDZPZ2l2LTdtbGJPc1d6OWVPdVViekVEUlRSYldRRWtmQdIBjwJBVV95cUxNeUR4eURwX0ctNWJPM3JYN3EteDVjN2ZqeFpzYTJ4UE9sUEF1YnJMcm5iVE5oVktPaUh4bWplZ3RBMUtTWVFRdkZ0S1FxdjVSeXVQX2hvVzNwd01OVnB2M2k3RlBDNlNkODYzZlIxUkdHUWlscXVJQ0g1R1NzOGc4cW5UN2NrcUJfcUpqRmFYcXRRc2ZIUmJnblVYZUVIRUVvTUlleU9uTjJrN2VFRHNXbmlSeC1wUnZtQXNXelhqZzJ2dU04aHRWVGlLNmxKVVotTml1YWFDRWRWSTMwcFc3UzRuRmJHcXpmV3VlTURSZXVheWVpX3Bqd0E4cXdrbkFlNGxXaGt1bF9mY3VZV1pZ?oc=5",
-      "published": "2026-08-22T03:00:58+00:00",
-      "source": {
-        "name": "La Voz de Galicia",
-        "url": "https://www.lavozdegalicia.es"
       }
     },
     {
@@ -581,6 +571,16 @@
       "source": {
         "name": "Redacción médica",
         "url": "https://www.redaccionmedica.com"
+      }
+    },
+    {
+      "id": "22e8dc3e8e7c",
+      "title": "Noemí Insua, farmacéutica: «El ibuprofeno de 600 no va a calmar el dolor más rápido y hace más daño al estómago» - La Voz de Galicia",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPbmxfSElNcHk2MnRoZFZlM013LURFcUZDWGZFR3dWbEM2SFJEMkloazhsTXZaMFlhOWp1N196VkRrVlNVcUxsNkJXNXJ3enVrTzM3RDJhSHVLM2I5aU9jcWJxZU1BVGwyaEtPdWR4bWxyZGd1cEUxOE92RVJ0TEdTUHg0WEZobVJhbVZEVG4xTzJpSmM5NlpPVVFidThBQWNOTE16OU14WTdfS2tHN0Nvd3o5QzJkc3AxR2FHMWlfaVFIenhqSlZRZG50QWRhb0JWcmtNNDNuaVJCbUI4WVJrNVZScG5jci1KRDZPZ2l2LTdtbGJPc1d6OWVPdVViekVEUlRSYldRRWtmQdIBjwJBVV95cUxNeUR4eURwX0ctNWJPM3JYN3EteDVjN2ZqeFpzYTJ4UE9sUEF1YnJMcm5iVE5oVktPaUh4bWplZ3RBMUtTWVFRdkZ0S1FxdjVSeXVQX2hvVzNwd01OVnB2M2k3RlBDNlNkODYzZlIxUkdHUWlscXVJQ0g1R1NzOGc4cW5UN2NrcUJfcUpqRmFYcXRRc2ZIUmJnblVYZUVIRUVvTUlleU9uTjJrN2VFRHNXbmlSeC1wUnZtQXNXelhqZzJ2dU04aHRWVGlLNmxKVVotTml1YWFDRWRWSTMwcFc3UzRuRmJHcXpmV3VlTURSZXVheWVpX3Bqd0E4cXdrbkFlNGxXaGt1bF9mY3VZV1pZ?oc=5",
+      "published": "2026-08-22T03:00:58+00:00",
+      "source": {
+        "name": "La Voz de Galicia",
+        "url": "https://www.lavozdegalicia.es"
       }
     },
     {
@@ -624,16 +624,6 @@
       }
     },
     {
-      "id": "7571c957d3d5",
-      "title": "ADN y medicina anticipatoria: cómo la genética cambia la salud - Diario El Norte - San Nicolás",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONWNxQjFKTHJWci1kdFZHLVJpNVhtX1ZVQUFKU0xNNTVKNlctRlBROGl5cVc1S0ZFeVRzX0htSnZXQW5oTVM3Q1N4dy1fbXdvY2x6ZHVSNTM2RlNORi1vcEk3dXhHNktlRzVYOFNXRzVaR3djMEUyaDRIQzJ6cGtwSG55Q0NRMUFNYkdsNE4yVzY0dHR2TEE?oc=5",
-      "published": "2026-08-23T16:00:37+00:00",
-      "source": {
-        "name": "Diario El Norte - San Nicolás",
-        "url": "https://diarioelnorte.com.ar"
-      }
-    },
-    {
       "id": "f6827b26f795",
       "title": "El SAS actualiza mensualmente los medicamentos de indicación enfermera no sujetos a prescripción médica - sspa.juntadeandalucia.es",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQLUlfblhyMmdvdl9kN2dzR1JxV1Q0d2FuMWpybmVDOFZmMjc4MEdKTUo0Nms4SFM4UDV5RkI2cFFYWVpuX3RpODQyZkZnTS1jeHlTN25ueHh6LVdmM0NSV2d0Sy1nelVWNC1WT2NRQVVhbXFUMlFMQmxNRHNFb2lGb0ZvdmpnaEp0TFhiNjJmTTNWLTh1RHVQUVZvM1F6VjRrTUduRVk1aWNFb0xwcjFSMnRJS2dlZ3dvNkY4b2tDaVhpWGJOSHItWGlrak1KUXZLVjJFN09ucEhvVUhWS2xMMFZnM194dmVENXk5djRoOE1Ja2hEdEM4QWlHNEY?oc=5",
@@ -661,6 +651,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "647f82f31e29",
+      "title": "Estados Unidos: ¿menos obesidad gracias al efecto Ozempic? - El Mostrador",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeUdSZTdMcXg2YkJvMzVqZndvRUo3aWtKYkxJVG1vandVUFhGejl2R1M5cHZ5MFlaVUJ1eDVoSnVSMzJNYnRwOFllUS1JckhOM2JZVVVQQkl3NEEtTjM1dl9EZldkMHBOaGFDNEVDN2NzY2w0SHJYM1hNNUkzaFhMMDlaYmljbE81eS1GMUNLYU00MVJVNGRTTTduQkhoMDNKbmY4RWlhbmRzMS0tX0l4X1dzWWJieHZOdXdDQg?oc=5",
+      "published": "2026-08-23T19:48:17+00:00",
+      "source": {
+        "name": "El Mostrador",
+        "url": "https://www.elmostrador.cl"
       }
     },
     {
@@ -704,6 +704,16 @@
       }
     },
     {
+      "id": "7571c957d3d5",
+      "title": "ADN y medicina anticipatoria: cómo la genética cambia la salud - Diario El Norte - San Nicolás",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONWNxQjFKTHJWci1kdFZHLVJpNVhtX1ZVQUFKU0xNNTVKNlctRlBROGl5cVc1S0ZFeVRzX0htSnZXQW5oTVM3Q1N4dy1fbXdvY2x6ZHVSNTM2RlNORi1vcEk3dXhHNktlRzVYOFNXRzVaR3djMEUyaDRIQzJ6cGtwSG55Q0NRMUFNYkdsNE4yVzY0dHR2TEE?oc=5",
+      "published": "2026-08-23T16:00:37+00:00",
+      "source": {
+        "name": "Diario El Norte - San Nicolás",
+        "url": "https://diarioelnorte.com.ar"
+      }
+    },
+    {
       "id": "056b20e33e9f",
       "title": "Inyecciones para adelgazar: qué está aprobado, qué sigue en investigación y cuáles son los riesgos - Infobae",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaTRzOElqN1pwN2xXUVVOUHczdlpwZEZFR3JoOTBBaEtYOFJFZXE2amFkbDcwUXE5OHRjSk45SV90dGtfeVpjc0hkZG1GcmQ3RzFSRHFDak9RcjNpa3VYZFNObm5mQTd4cWlSQTltRTN4SzZRRk9NQ21JWG9iTklyaHU4aWYzNmV3MFFpSm1vMHNjWldEOHZESXp5TnNUYkE4cHlZbVVNV2pERTYtNFZWVlNpc2h2bEptaVZnUFg1eF96bnFVV3h4MHpvNFZ2ZG1nbGM3d9IB7wFBVV95cUxQZ1RlUXFqWHBuZ1NUUHlWWVVmUUM2NHZzZEtUR0liclNjWjkxRUZMbGlRSm9CZ3dSYXRnRkNtdjNMb2ZDX2kwQVNzLTVDYUdSRElzZjJZOVIzMkhMVkR1eXZBcXk5VjJCNndsVXRSOG16czJtTU5ra3FnV2ZESlpxajJISGNaUGtoNldFZkY5SlVhZzNfRDQxVFhpZFVMLXlvb21pMTJFVjdVcjlhX0VFbng2QW1rTUtNMnQ1bXRqT3BXazk2b0ZpejJmQTEtWGhyalJ5YnhYY0xnYmRHWDJ1S3prME9yUUtkWU56SjBBUQ?oc=5",
@@ -721,16 +731,6 @@
       "source": {
         "name": "El Debate",
         "url": "https://www.eldebate.com"
-      }
-    },
-    {
-      "id": "647f82f31e29",
-      "title": "Estados Unidos: ¿menos obesidad gracias al efecto Ozempic? - El Mostrador",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeUdSZTdMcXg2YkJvMzVqZndvRUo3aWtKYkxJVG1vandVUFhGejl2R1M5cHZ5MFlaVUJ1eDVoSnVSMzJNYnRwOFllUS1JckhOM2JZVVVQQkl3NEEtTjM1dl9EZldkMHBOaGFDNEVDN2NzY2w0SHJYM1hNNUkzaFhMMDlaYmljbE81eS1GMUNLYU00MVJVNGRTTTduQkhoMDNKbmY4RWlhbmRzMS0tX0l4X1dzWWJieHZOdXdDQg?oc=5",
-      "published": "2026-08-23T19:48:17+00:00",
-      "source": {
-        "name": "El Mostrador",
-        "url": "https://www.elmostrador.cl"
       }
     },
     {
@@ -764,16 +764,6 @@
       }
     },
     {
-      "id": "6aa647aeb43b",
-      "title": "Digemid advierte sobre riesgos de mezclar medicamentos con bebidas alcohólicas - Diario Correo",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWmd4QzlxSHV5cVhRcUJONkpna1VLUjYzdFdBMUhENzFqQ2d0QWppdmhBZi02UjloS0Z6TU1IRXhhMWcydlZyemQ1OUprdzhrUW5xSF9KMDZBUWlySUtWbTFSTGxaSjBpVGk3T0w4U1R2VUZjcnJJVHNxMTNDYnVMcUFqLWM4WHJuUjFPQnhhTmVIa2cyN043MnZoRFhLbU4wS2dRX2c0SDdWOFFVVnI0NEJZYWIzdDUz0gHMAUFVX3lxTE8zRmVGMXlvdVVJYm4xUDNwNy0yek1XLTFKc2tadWtlSDRkZ2cwZFU2Q0s3dmZLdVBoSG4xaGphSGM5ZnQyZEVoTGRiNW5yN18zcTJqdVRLd294ZldqY0EweXh3WXVyODA2TGFRRGFHZzdYMmZ6bDFaem5jck9fbVVBM3NwWW9vR0lSYXZJU3o1ZVcwbVV0akwyZUZvSVE4b0h6clVsOWxwMHBOOG91TWdhVmF5Z055SWJrYk5HNC13dlFubFYzd3NxX3cyVA?oc=5",
-      "published": "2026-08-23T12:48:03+00:00",
-      "source": {
-        "name": "Diario Correo",
-        "url": "https://diariocorreo.pe"
-      }
-    },
-    {
       "id": "807c06f5fb89",
       "title": "Erigir una \"barrera\" para impedir que los medicamentos falsificados entren en el mercado. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLWtSWnVfZVl2dm5iYV9FU0oyWXI5MTJ0amtaZGlkdTZhNWY3WVIzRm5QYUVZZEw0Y0gyV0RVeGtEUnVJZDktRkdfcDZwTXZ4dGxpWjRjR0dZT2hMNEI0VGZkbnJRQmtMd19tVGZycHM2cGliV242TFNYOUVrRXNvaQ?oc=5",
@@ -781,6 +771,16 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
+      }
+    },
+    {
+      "id": "6aa647aeb43b",
+      "title": "Digemid advierte sobre riesgos de mezclar medicamentos con bebidas alcohólicas - Diario Correo",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWmd4QzlxSHV5cVhRcUJONkpna1VLUjYzdFdBMUhENzFqQ2d0QWppdmhBZi02UjloS0Z6TU1IRXhhMWcydlZyemQ1OUprdzhrUW5xSF9KMDZBUWlySUtWbTFSTGxaSjBpVGk3T0w4U1R2VUZjcnJJVHNxMTNDYnVMcUFqLWM4WHJuUjFPQnhhTmVIa2cyN043MnZoRFhLbU4wS2dRX2c0SDdWOFFVVnI0NEJZYWIzdDUz0gHMAUFVX3lxTE8zRmVGMXlvdVVJYm4xUDNwNy0yek1XLTFKc2tadWtlSDRkZ2cwZFU2Q0s3dmZLdVBoSG4xaGphSGM5ZnQyZEVoTGRiNW5yN18zcTJqdVRLd294ZldqY0EweXh3WXVyODA2TGFRRGFHZzdYMmZ6bDFaem5jck9fbVVBM3NwWW9vR0lSYXZJU3o1ZVcwbVV0akwyZUZvSVE4b0h6clVsOWxwMHBOOG91TWdhVmF5Z055SWJrYk5HNC13dlFubFYzd3NxX3cyVA?oc=5",
+      "published": "2026-08-23T12:48:03+00:00",
+      "source": {
+        "name": "Diario Correo",
+        "url": "https://diariocorreo.pe"
       }
     },
     {
@@ -934,16 +934,6 @@
       }
     },
     {
-      "id": "d001796ae15b",
-      "title": "Automedicación en invierno: un riesgo para quienes viven con enfermedades crónicas - Portal Metropolitano",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSXNySVk4S3VhR0hFZHIwbGxZa1duTy12d2hmQzJjNzNJSjc2SWVzWXhYLUgzcVNsRWdVdzg3MXgtMlI0cnFRUXFOYWpqZDBKMnpQbFhnZUNTeXFYcTIxNlZpMXd1OFhvT25aN1pkYlhHNzlKTFV6SEdLeGRIMGxkd0pfdWZDM2hQalFTVzZwUEd4b0lBNDdVMWFkeDZTS3lZVWU5SVVmMWpJS2RGeUZHZGNfWQ?oc=5",
-      "published": "2026-08-23T19:04:43+00:00",
-      "source": {
-        "name": "Portal Metropolitano",
-        "url": "https://portalmetropolitano.cl"
-      }
-    },
-    {
       "id": "02568da7ad85",
       "title": "Sanidad aprueba la nueva Orden de Precios de Referencia que supondrá un ahorro de más de 287 millones de euros - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwS2F6WnctODNNdDlDQmZUQ2NuekhXUDdUN1dqV1RVaU1ZaG4wZkhYYlN2cDE5Q245Q1NEb0ZYX1lzMkNFeWFUeVBXTlV5eXNSczNXOUtKUHVQUzVwaVNlWU9JYkdESnA2NVE?oc=5",
@@ -951,6 +941,16 @@
       "source": {
         "name": "Ministerio de Sanidad",
         "url": "https://www.sanidad.gob.es"
+      }
+    },
+    {
+      "id": "d001796ae15b",
+      "title": "Automedicación en invierno: un riesgo para quienes viven con enfermedades crónicas - Portal Metropolitano",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSXNySVk4S3VhR0hFZHIwbGxZa1duTy12d2hmQzJjNzNJSjc2SWVzWXhYLUgzcVNsRWdVdzg3MXgtMlI0cnFRUXFOYWpqZDBKMnpQbFhnZUNTeXFYcTIxNlZpMXd1OFhvT25aN1pkYlhHNzlKTFV6SEdLeGRIMGxkd0pfdWZDM2hQalFTVzZwUEd4b0lBNDdVMWFkeDZTS3lZVWU5SVVmMWpJS2RGeUZHZGNfWQ?oc=5",
+      "published": "2026-08-23T19:04:43+00:00",
+      "source": {
+        "name": "Portal Metropolitano",
+        "url": "https://portalmetropolitano.cl"
       }
     },
     {
