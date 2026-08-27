@@ -1,7 +1,7 @@
 {
   "generated": "2026-08-27",
-  "drug_count": 881,
-  "indication_count": 1110,
+  "drug_count": 932,
+  "indication_count": 1158,
   "drugs": [
     {
       "name": "Abacavir",
@@ -25993,6 +25993,661 @@
       "original": "",
       "level": "L5",
       "indications": []
+    },
+    {
+      "name": "Roxadustat",
+      "slug": "roxadustat",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ruxolitinib",
+      "slug": "ruxolitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Salbutamol",
+      "slug": "salbutamol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Salmeterol",
+      "slug": "salmeterol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Saquinavir",
+      "slug": "saquinavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Feline acquired immunodeficiency syndrome (enfermedad veterinaria) | 99.97% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Simian immunodeficiency virus infection (modelo animal, no humano) | 99.97% | L3 | S1 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trastorno neurodesarrollo raro (ataxia, ausencia de habla) | 99.97% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hiperlipidemia combinada familiar (obsoleta; dirección mecanística contraria) | 99.59% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infección congénita por VIH (pediatría/perinatal) | 99.47% | L1 | S3 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "AIDS related complex (estadio sintomático histórico del VIH) | 99.47% | L1 | S3 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Selinexor",
+      "slug": "selinexor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selpercatinib",
+      "slug": "selpercatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Migraña",
+          "score": 99.17,
+          "level": "L5"
+        },
+        {
+          "name": "Migraña con aura de tronco encefálico",
+          "score": 99.05,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Selumetinib",
+      "slug": "selumetinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Siltuximab",
+      "slug": "siltuximab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Simoctocog Alfa",
+      "slug": "simoctocog_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Siponimod",
+      "slug": "siponimod",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sirolimus",
+      "slug": "sirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sofosbuvir",
+      "slug": "sofosbuvir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sonidegib",
+      "slug": "sonidegib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sorafenib",
+      "slug": "sorafenib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Liposarcoma mixoide ovárico | 99.76% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Carcinoma de células renales asociado a neuroblastoma | 99.65% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Carcinoma de células renales no clasificado | 99.65% | **L1** | **S3** | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Carcinoma renal asociado a translocaciones Xp11.2/fusiones TFE3 | 99.65% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Carcinoma de células renales infantil | 99.57% | L3 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Carcinoma de mama femenino | 99.53% | L2 | S2 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Carcinoma de pelvis renal | 99.40% | L2 | S2 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Sarcoma de vulva | 99.37% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dermatofibrosarcoma protuberans | 99.35% | L4 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sotalol",
+      "slug": "sotalol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Síndrome del seno enfermo tipo 2",
+          "score": 99.76,
+          "level": "L5"
+        },
+        {
+          "name": "Síndrome de Wildervanck",
+          "score": 99.65,
+          "level": "L5"
+        },
+        {
+          "name": "Sarcoglicanopatía",
+          "score": 99.64,
+          "level": "L5"
+        },
+        {
+          "name": "Trastorno bipolar, episodio maníaco",
+          "score": 99.43,
+          "level": "L4"
+        },
+        {
+          "name": "Macrocefalia con facies dismórfica y retraso psicomotor",
+          "score": 99.42,
+          "level": "L5"
+        },
+        {
+          "name": "Susceptibilidad a ictus isquémico (obsoleto)",
+          "score": 99.23,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sotatercept",
+      "slug": "sotatercept",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sunitinib",
+      "slug": "sunitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tacrolimus",
+      "slug": "tacrolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tagraxofusp",
+      "slug": "tagraxofusp",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tapentadol",
+      "slug": "tapentadol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tegafur",
+      "slug": "tegafur",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temsirolimus",
+      "slug": "temsirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenofovir",
+      "slug": "tenofovir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenoxicam",
+      "slug": "tenoxicam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teprotumumab",
+      "slug": "teprotumumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Monosomy X | 99.79% | Mecanismo opuesto al beneficio clinico esperado",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal varices with bleeding | 99.64% | Sin hipotesis mecanistica publicada",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal varices without bleeding | 99.64% | Mismo grupo que #2, sin evidencia independiente",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Mixed gonadal dysgenesis | 99.50% | Sin vinculo patologico conocido con IGF-1R",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Mitochondrial oxidative phosphorylation disorder | 99.44% | Sin interseccion conocida con la via del farmaco",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Turner syndrome (X estructural) | 99.37% | Direccion mecanistica opuesta a la necesidad clinica",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Mosaic monosomy X | 99.37% | Mismo grupo que #1 y #6",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Sex chromosome disorder of sex development | 99.34% | Nodo de categoria superior del mismo cluster",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Varicose disease | 99.33% | Mismo cluster vascular que #2 y #3",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "X chromosome number anomaly | 99.32% | Nodo estructural del mismo cluster de cariotipo X",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Ticagrelor",
+      "slug": "ticagrelor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tildrakizumab",
+      "slug": "tildrakizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tipranavir",
+      "slug": "tipranavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tivozanib",
+      "slug": "tivozanib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tocilizumab",
+      "slug": "tocilizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tramadol",
+      "slug": "tramadol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trametinib",
+      "slug": "trametinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Coroideremia",
+          "score": 99.31,
+          "level": "L5"
+        },
+        {
+          "name": "Melanoma nodular maligno",
+          "score": 99.14,
+          "level": "L2"
+        },
+        {
+          "name": "Melanoma de extensión superficial",
+          "score": 99.14,
+          "level": "L2"
+        },
+        {
+          "name": "Melanoma lentiginoso acral",
+          "score": 99.14,
+          "level": "L2"
+        },
+        {
+          "name": "Melanoma epitelioide",
+          "score": 99.28,
+          "level": "L4"
+        },
+        {
+          "name": "Melanoma de párpado",
+          "score": 99.26,
+          "level": "L4"
+        },
+        {
+          "name": "Melanoma amelanótico cutáneo",
+          "score": 99.14,
+          "level": "L4"
+        },
+        {
+          "name": "Melanoma de escroto",
+          "score": 99.21,
+          "level": "L5"
+        },
+        {
+          "name": "Melanoma maligno de células en balón",
+          "score": 99.14,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Trandolapril",
+      "slug": "trandolapril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trastuzumab",
+      "slug": "trastuzumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Travoprost",
+      "slug": "travoprost",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Triazolam",
+      "slug": "triazolam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Triflusal",
+      "slug": "triflusal",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Turoctocog Alfa",
+      "slug": "turoctocog_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Turoctocog Alfa Pegol",
+      "slug": "turoctocog_alfa_pegol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Upadacitinib",
+      "slug": "upadacitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ustekinumab",
+      "slug": "ustekinumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vandetanib",
+      "slug": "vandetanib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Venetoclax",
+      "slug": "venetoclax",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vernakalant",
+      "slug": "vernakalant",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vismodegib",
+      "slug": "vismodegib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Volanesorsen",
+      "slug": "volanesorsen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Voxelotor",
+      "slug": "voxelotor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Macrotrombocitopenia con Insuficiencia Mitral | 99.58% | Ninguna",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Enfermedad de Gránulos Densos | 99.58% | Ninguna",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trombocitopenia Neonatal Transitoria | 99.57% | Ninguna",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trombocitopenia | 99.51% | Ninguna",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Síndrome de Fanconi Asociado a Cadena Ligera Ig Monoclonal Adquirida | 99.13% | Ninguna",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trastorno Primario de Liberación Plaquetaria | 99.00% | Ninguna",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Zanamivir",
+      "slug": "zanamivir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zanubrutinib",
+      "slug": "zanubrutinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zolpidem",
+      "slug": "zolpidem",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
     }
   ],
   "indications": [
@@ -26041,6 +26696,17 @@
         {
           "drug": "TAFAMIDIS",
           "slug": "db11644",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "AIDS related complex (estadio sintomático histórico del VIH) | 99.47% | L1 | S3 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Saquinavir",
+          "slug": "saquinavir",
           "score": 99.0
         }
       ]
@@ -26584,6 +27250,61 @@
       ]
     },
     {
+      "name": "Carcinoma de células renales asociado a neuroblastoma | 99.65% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Carcinoma de células renales infantil | 99.57% | L3 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Carcinoma de células renales no clasificado | 99.65% | **L1** | **S3** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Carcinoma de mama femenino | 99.53% | L2 | S2 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Carcinoma de pelvis renal | 99.40% | L2 | S2 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Carcinoma del Hilio Pulmonar | 99.96% | L3 | Research Question | Subtipo anatómico de CPNM ALK+; única literatura hallada es un caso de toxicidad, no de eficacia específica",
       "drug_count": 1,
       "drugs": [
@@ -26602,6 +27323,17 @@
           "drug": "Ramucirumab",
           "slug": "ramucirumab",
           "score": 99.95
+        }
+      ]
+    },
+    {
+      "name": "Carcinoma renal asociado a translocaciones Xp11.2/fusiones TFE3 | 99.65% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
         }
       ]
     },
@@ -26715,6 +27447,17 @@
           "drug": "Imatinib",
           "slug": "imatinib",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Coroideremia",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.31
         }
       ]
     },
@@ -26871,6 +27614,17 @@
       ]
     },
     {
+      "name": "Dermatofibrosarcoma protuberans | 99.35% | L4 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Disease of catalytic activity | 99.08% | L5 | Nodo de ontología genérico, no es una indicación clínica accionable",
       "drug_count": 1,
       "drugs": [
@@ -26943,6 +27697,17 @@
         {
           "drug": "Miglustat",
           "slug": "miglustat",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Enfermedad de Gránulos Densos | 99.58% | Ninguna",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
           "score": 99.0
         }
       ]
@@ -27117,6 +27882,28 @@
       ]
     },
     {
+      "name": "Esophageal varices with bleeding | 99.64% | Sin hipotesis mecanistica publicada",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esophageal varices without bleeding | 99.64% | Mismo grupo que #2, sin evidencia independiente",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Espondiloartropatía inflamatoria",
       "drug_count": 1,
       "drugs": [
@@ -27189,6 +27976,17 @@
         {
           "drug": "Imatinib",
           "slug": "imatinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Feline acquired immunodeficiency syndrome (enfermedad veterinaria) | 99.97% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Saquinavir",
+          "slug": "saquinavir",
           "score": 99.0
         }
       ]
@@ -27451,6 +28249,17 @@
       ]
     },
     {
+      "name": "Hiperlipidemia combinada familiar (obsoleta; dirección mecanística contraria) | 99.59% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Saquinavir",
+          "slug": "saquinavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hiperlipidemia combinada familiar (término obsoleto) | 99.19% | L5 | Hold | Sin ensayos ni literatura; dirección mecanística **opuesta** — los inhibidores de proteasa potenciados son conocidos por *inducir* dislipidemia, no tratarla. Probable ruido del grafo de conocimiento.",
       "drug_count": 1,
       "drugs": [
@@ -27698,6 +28507,17 @@
         {
           "drug": "CEFAZOLINA",
           "slug": "db01327",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infección congénita por VIH (pediatría/perinatal) | 99.47% | L1 | S3 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Saquinavir",
+          "slug": "saquinavir",
           "score": 99.0
         }
       ]
@@ -27961,6 +28781,17 @@
       ]
     },
     {
+      "name": "Liposarcoma mixoide ovárico | 99.76% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Liposarcoma | 99.88% | L2 | S2 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -28011,6 +28842,28 @@
         {
           "drug": "CEFUROXIMA",
           "slug": "db01112",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Macrocefalia con facies dismórfica y retraso psicomotor",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotalol",
+          "slug": "sotalol",
+          "score": 99.42
+        }
+      ]
+    },
+    {
+      "name": "Macrotrombocitopenia con Insuficiencia Mitral | 99.58% | Ninguna",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
           "score": 99.0
         }
       ]
@@ -28093,6 +28946,94 @@
       ]
     },
     {
+      "name": "Melanoma amelanótico cutáneo",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.14
+        }
+      ]
+    },
+    {
+      "name": "Melanoma de escroto",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.21
+        }
+      ]
+    },
+    {
+      "name": "Melanoma de extensión superficial",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.14
+        }
+      ]
+    },
+    {
+      "name": "Melanoma de párpado",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.26
+        }
+      ]
+    },
+    {
+      "name": "Melanoma epitelioide",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.28
+        }
+      ]
+    },
+    {
+      "name": "Melanoma lentiginoso acral",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.14
+        }
+      ]
+    },
+    {
+      "name": "Melanoma maligno de células en balón",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.14
+        }
+      ]
+    },
+    {
+      "name": "Melanoma nodular maligno",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Trametinib",
+          "slug": "trametinib",
+          "score": 99.14
+        }
+      ]
+    },
+    {
       "name": "Meniere disease | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
@@ -28100,6 +29041,28 @@
           "drug": "BETAHISTINA",
           "slug": "db06698",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraña",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selpercatinib",
+          "slug": "selpercatinib",
+          "score": 99.17
+        }
+      ]
+    },
+    {
+      "name": "Migraña con aura de tronco encefálico",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selpercatinib",
+          "slug": "selpercatinib",
+          "score": 99.05
         }
       ]
     },
@@ -28137,12 +29100,56 @@
       ]
     },
     {
+      "name": "Mitochondrial oxidative phosphorylation disorder | 99.44% | Sin interseccion conocida con la via del farmaco",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Mixed gonadal dysgenesis | 99.50% | Sin vinculo patologico conocido con IGF-1R",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Monosomy X | 99.31% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Canakinumab",
           "slug": "canakinumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Monosomy X | 99.79% | Mecanismo opuesto al beneficio clinico esperado",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Mosaic monosomy X | 99.37% | Mismo grupo que #1 y #6",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
           "score": 99.0
         }
       ]
@@ -28711,6 +29718,28 @@
       ]
     },
     {
+      "name": "Sarcoglicanopatía",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotalol",
+          "slug": "sotalol",
+          "score": 99.64
+        }
+      ]
+    },
+    {
+      "name": "Sarcoma de vulva | 99.37% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sorafenib",
+          "slug": "sorafenib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Sarcomatoid mesothelioma | 99.09% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -28733,12 +29762,34 @@
       ]
     },
     {
+      "name": "Sex chromosome disorder of sex development | 99.34% | Nodo de categoria superior del mismo cluster",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Sheehan syndrome | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "TESTOSTERONA",
           "slug": "db00624",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Simian immunodeficiency virus infection (modelo animal, no humano) | 99.97% | L3 | S1 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Saquinavir",
+          "slug": "saquinavir",
           "score": 99.0
         }
       ]
@@ -28751,6 +29802,17 @@
           "drug": "CICLOSPORINA",
           "slug": "db00091",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Susceptibilidad a ictus isquémico (obsoleto)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotalol",
+          "slug": "sotalol",
+          "score": 99.23
         }
       ]
     },
@@ -28799,6 +29861,17 @@
       ]
     },
     {
+      "name": "Síndrome de Fanconi Asociado a Cadena Ligera Ig Monoclonal Adquirida | 99.13% | Ninguna",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Síndrome de Leucomelanodermia-Infantilismo-Discapacidad Intelectual-Hipodoncia-Hipotricosis | 99.95% | L5 | Hold | **Alerta de calidad de datos**: literatura hallada no guarda relación con el síndrome; error de indexación",
       "drug_count": 1,
       "drugs": [
@@ -28821,6 +29894,17 @@
       ]
     },
     {
+      "name": "Síndrome de Wildervanck",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotalol",
+          "slug": "sotalol",
+          "score": 99.65
+        }
+      ]
+    },
+    {
       "name": "Síndrome de ictiosis autosómica con curso fatal | 99.83% | L5 | Débil; probable agrupamiento espurio en el espacio de embeddings",
       "drug_count": 1,
       "drugs": [
@@ -28839,6 +29923,17 @@
           "drug": "Remdesivir",
           "slug": "remdesivir",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Síndrome del seno enfermo tipo 2",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotalol",
+          "slug": "sotalol",
+          "score": 99.76
         }
       ]
     },
@@ -28941,6 +30036,28 @@
       ]
     },
     {
+      "name": "Trastorno Primario de Liberación Plaquetaria | 99.00% | Ninguna",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Trastorno bipolar, episodio maníaco",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotalol",
+          "slug": "sotalol",
+          "score": 99.43
+        }
+      ]
+    },
+    {
       "name": "Trastorno del neurodesarrollo (marcha atáxica, ausencia de habla, sustancia blanca reducida) | 99.03% | L5 | Hold | Enfermedad monogénica rara sin relación conocida con mecanismos antivirales.",
       "drug_count": 1,
       "drugs": [
@@ -28969,6 +30086,17 @@
         {
           "drug": "Emicizumab",
           "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Trastorno neurodesarrollo raro (ataxia, ausencia de habla) | 99.97% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Saquinavir",
+          "slug": "saquinavir",
           "score": 99.0
         }
       ]
@@ -29033,12 +30161,34 @@
       ]
     },
     {
+      "name": "Trombocitopenia Neonatal Transitoria | 99.57% | Ninguna",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Trombocitopenia aloinmune fetal y neonatal | 99.52% | L5 | Hold | Mecanismo inmunológico de destrucción plaquetaria; sin relación con la vía de coagulación de emicizumab",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Emicizumab",
           "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Trombocitopenia | 99.51% | Ninguna",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Voxelotor",
+          "slug": "voxelotor",
           "score": 99.0
         }
       ]
@@ -29061,6 +30211,28 @@
         {
           "drug": "Cetuximab",
           "slug": "cetuximab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Turner syndrome (X estructural) | 99.37% | Direccion mecanistica opuesta a la necesidad clinica",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Varicose disease | 99.33% | Mismo cluster vascular que #2 y #3",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
           "score": 99.0
         }
       ]
@@ -29132,6 +30304,17 @@
         {
           "drug": "PENICILAMINA",
           "slug": "db00859",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "X chromosome number anomaly | 99.32% | Nodo estructural del mismo cluster de cariotipo X",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Teprotumumab",
+          "slug": "teprotumumab",
           "score": 99.0
         }
       ]
