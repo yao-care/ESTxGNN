@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Danazol
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 81
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Danazol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ Existen 20 publicaciones que documentan el efecto amenorreico de danazol, incluy
 - Mecanismo de acción (MOA) formalmente documentado desde DrugBank
 - Evaluación de la vía regulatoria para comercialización en España, dado que actualmente no cuenta con autorización
 - Un protocolo de investigación o ensayo clínico prospectivo específico para amenorrea, ya que la evidencia actual es únicamente observacional y de revisión
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

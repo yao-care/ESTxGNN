@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Albutrepenonacog Alfa
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 15
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Albutrepenonacog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -91,10 +91,10 @@ Las seis indicaciones candidatas tienen unicamente evidencia de nivel L5 (predic
 - Confirmar el mecanismo de accion (MOA) mediante consulta directa a DrugBank
 - Buscar evidencia clinica real (ensayos registrados o literatura) para pseudo-enfermedad de von Willebrand y las demas indicaciones candidatas
 - Someter el racional mecanistico a revision por un experto en hematologia, dado que el analisis actual ya senala una asociacion mecanistica debil
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

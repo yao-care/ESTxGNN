@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cidofovir
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 70
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Cidofovir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -81,10 +81,10 @@ La predicción cuenta con un puntaje TxGNN muy alto (99.94%), pero no tiene ning
 - Obtener datos detallados del mecanismo de acción (MOA) desde DrugBank (brecha DG002)
 - Estudios preclínicos o de mecanismo que evalúen la relación entre CMV, colangiopatía asociada a CMV y colangitis esclerosante
 - Nota adicional: de los 4 candidatos de reposicionamiento evaluados para Cidofovir (colangitis esclerosante, artritis reumatoide, y dos síndromes congénitos raros), ninguno superó el nivel L4 de evidencia y todos recibieron recomendación "Hold". El candidato con más literatura asociada (artritis reumatoide, L4) se basa mayormente en estudios sobre leflunomida, no sobre Cidofovir, por lo que su relevancia real es limitada.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

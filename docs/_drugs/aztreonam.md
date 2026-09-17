@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Aztreonam
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 33
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Aztreonam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -92,10 +92,10 @@ Existe evidencia histórica consistente (1 ensayo clínico Fase 2/3 completado +
 - Evaluación de la vía de registro en España, dado que el fármaco actualmente no está comercializado (0 autorizaciones)
 
 *Nota: de los 10 candidatos de reposicionamiento evaluados para aztreonam, los 9 restantes (hiperamilasemia, síndrome de hiperviscosidad policlonal, analbuminemia congénita, uretritis por Ureaplasma, incompatibilidad de grupo sanguíneo, enfermedad hematológica premaligna, epiglotitis, gammapatía monoclonal, pielonefritis xantogranulomatosa) quedaron en estado Hold/S0-S1 por falta de vínculo mecanístico o evidencia clínica de respaldo, y no se incluyen como indicación principal de este informe.*
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

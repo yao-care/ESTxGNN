@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Captopril
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 58
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Captopril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -81,10 +81,10 @@ El único dato bibliográfico disponible para esta indicación es un reporte de 
 - Datos detallados del mecanismo de acción desde DrugBank (gap de alta prioridad, DG002)
 - Estudios terapéuticos (no solo diagnósticos) que evalúen captopril en enfermedad renal hipertensiva maligna
 - Evaluar en paralelo la indicación relacionada "malignant renovascular hypertension" (mismo puntaje TxGNN, nivel L3, recomendación "Proceed with Guardrails"), que cuenta con una base de evidencia bibliográfica considerablemente más robusta
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

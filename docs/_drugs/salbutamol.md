@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Salbutamol
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Salbutamol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -81,10 +81,10 @@ La puntuación de TxGNN es muy alta, pero no existe ningún ensayo clínico ni p
 - Confirmación del texto de indicación original aprobada (no disponible en licencias/registro), dado que el campo `original_indications` está vacío
 - Búsqueda dirigida de estudios preclínicos o series de casos que evalúen agonistas beta2 tópicos/oftálmicos en conjuntivitis alérgica o papilar, antes de reconsiderar esta candidatura
 - Nota: el mismo paquete de evidencia contiene otros candidatos de salbutamol con evidencia sustancialmente más fuerte (p. ej. "obstructive lung disease" con nivel L1 y "bronchitis" con nivel L2), que en realidad corresponden a indicaciones ya establecidas del fármaco y no a reposicionamientos nuevos; se recomienda corregir `original_indications` en la base de datos en lugar de tratarlos como hallazgos de repurposing
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

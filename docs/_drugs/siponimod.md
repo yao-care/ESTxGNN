@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Siponimod
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Siponimod
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -99,10 +99,10 @@ La prediccion de hipertension pulmonar se basa unicamente en el puntaje del mode
 - Datos detallados del mecanismo de accion desde DrugBank (brecha DG002)
 - Estudios preclinicos o de mecanismo que vinculen especificamente la modulacion S1P1/S1P5 con la fisiopatologia de la hipertension pulmonar
 - Monitoreo continuo de nuevas publicaciones y registros de ensayos clinicos para esta combinacion farmaco-indicacion
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

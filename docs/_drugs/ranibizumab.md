@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ranibizumab
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 237
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -110,10 +110,10 @@ Existen tres ensayos de Fase 3 completados (NCT00444600, NCT02634333, NCT0450355
 ---
 
 *Nota sobre otros candidatos evaluados:* TxGNN identificó adicionalmente 9 indicaciones con puntajes de predicción similares (~99.99%), correspondientes en su mayoría a subtipos de catarata (madura, inmadura, cortical, nuclear senil, senil, tetánica, de craneostenosis) y a hemorragia del recién nacido. Ninguna de ellas cuenta con vínculo mecanístico plausible con la vía anti-VEGF, y la evidencia disponible es nula o indirecta (nivel L3-L5), por lo que se recomienda **Hold** para todas y no se incluyen como candidatos activos en este informe.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vandetanib
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 291
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -119,10 +119,10 @@ Consultar el prospecto para información de seguridad.
 - Confirmación oficial del mecanismo de acción desde DrugBank (brecha DG002).
 - Verificación del estatus regulatorio real de vandetanib en España (la indicación original documentada, carcinoma medular de tiroides, no aparece registrada en los datos de licencias de este paquete).
 - Ensayos clínicos dedicados y de mayor tamaño en carcinoma de células renales (los actuales son pequeños o fueron interrumpidos), idealmente segmentados por subtipo molecular (VHL, HLRCC, SDH, células claras).
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

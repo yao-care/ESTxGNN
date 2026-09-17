@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Romiplostim
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 248
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Romiplostim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -104,10 +104,10 @@ La evidencia disponible para "Trastorno Primario de Liberación de Plaquetas" co
 - Confirmar el mecanismo de acción detallado desde DrugBank u otra fuente estructurada (gap DG002)
 - Un estudio mecanístico o serie de casos que caracterice específicamente el "defecto primario de liberación plaquetaria" como entidad distinta de la ITP, y su respuesta a agonistas TPO-RA
 - Evaluar en paralelo la candidata "platelet-type bleeding disorder" (Nivel L1, Proceed with Guardrails), que presenta evidencia clínica sustancialmente más madura y podría representar una vía de avance más inmediata
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

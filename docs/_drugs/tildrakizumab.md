@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tildrakizumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Tildrakizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -81,10 +81,10 @@ La evidencia disponible corresponde unicamente al nivel L5 (prediccion del model
 - Completar los datos de mecanismo de accion mediante consulta a DrugBank (brecha DG002)
 - Identificar estudios preclinicos o de mecanismo que vinculen la via IL-23/Th17 con la patologia retiniana diabetica antes de considerar cualquier avance
 - Monitorear registros de ensayos clinicos (ClinicalTrials.gov, ICTRP) y PubMed para deteccion temprana de nueva evidencia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

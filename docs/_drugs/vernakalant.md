@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vernakalant
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 293
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -127,10 +127,10 @@ Aunque existen ensayos clínicos de Fase 4 completados y de buen tamaño muestra
 - Aclarar si la señal "ictus" es un artefacto de mapeo ontológico (FA↔ictus) o una hipótesis real que merece estudio dirigido
 - Verificar la contraindicación conocida en síndrome del seno enfermo antes de cualquier expansión de indicación
 - Diseño de un estudio con el ictus como variable primaria, si se decide continuar la línea de investigación
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

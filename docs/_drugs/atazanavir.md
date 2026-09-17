@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atazanavir
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Atazanavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -81,10 +81,10 @@ A pesar de la puntuación TxGNN muy alta, el nivel de evidencia es L5 (solo pred
 - Ficha técnica/prospecto TFDA para evaluación de seguridad inicial (gap bloqueante identificado en el pack: DG001)
 - Estudios preclínicos que evalúen actividad inhibitoria de atazanavir frente a la proteasa de FIV
 - Nota: este mismo pack de evidencia contiene otras indicaciones predichas para atazanavir (p. ej. infección congénita por VIH, AIDS related complex) con evidencia L1 y recomendación "Proceed with Guardrails" — se recomienda evaluarlas en un informe separado, ya que representan candidatos con base de evidencia sustancialmente más sólida.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

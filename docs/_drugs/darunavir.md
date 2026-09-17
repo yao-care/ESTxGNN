@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Darunavir
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Darunavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -119,10 +119,10 @@ Ninguno de los 4 candidatos de reposicionamiento cuenta con evidencia clínica o
 - Corregir el mapeo de entidad "SIDA felino" en el grafo de conocimiento y, si corresponde, volver a ejecutar la predicción
 - Para el candidato SIV: identificar si existe literatura donde darunavir sea el fármaco de estudio principal (no solo un componente de un régimen combinado)
 - Descartar los candidatos 3 y 4 como señales de bajo valor salvo que aparezca evidencia mecanística nueva
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

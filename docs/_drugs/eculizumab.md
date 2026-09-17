@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eculizumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 99
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Eculizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -79,10 +79,10 @@ El puntaje TxGNN es alto, pero no existe ningún ensayo clínico ni publicación
 - Datos de mecanismo de acción vía API de DrugBank (actualmente pendiente — DG002)
 - Búsqueda dirigida de estudios preclínicos que exploren una posible relación indirecta entre inhibición del complemento e inflamación neutrofílica en hematopoyesis cíclica, dado que hoy no existe evidencia real alguna
 - Revisar si alguna de las otras indicaciones predichas por TxGNN para este fármaco cuenta con mejor respaldo mecanístico o documental antes de priorizar recursos de evaluación
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

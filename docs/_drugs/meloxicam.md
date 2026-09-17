@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meloxicam
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Meloxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -82,10 +82,10 @@ La indicacion de mayor puntaje TxGNN (displasia acromesomélica tipo Hunter-Thom
 - Resolver el gap bloqueante de seguridad (DG001): advertencias/contraindicaciones del prospecto TFDA, mediante descarga y analisis del PDF oficial — requisito previo a cualquier evaluacion S1.
 - Completar el mecanismo de accion (MOA) via DrugBank API (DG002).
 - Si se desea continuar el reposicionamiento de meloxicam, evaluar en su lugar los candidatos de mayor nivel de evidencia dentro de este mismo pack — en particular la **artritis idiopatica juvenil poliarticular con factor reumatoide positivo** (rank 8, nivel L3, recomendacion "Proceed with Guardrails", con literatura de seguridad disponible, PMID 25057265), que presenta vinculo mecanistico directo y evidencia real, a diferencia de la indicacion de rank 1 aqui evaluada.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

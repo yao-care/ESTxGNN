@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bezlotoxumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Bezlotoxumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -96,10 +96,10 @@ La predicción de mayor puntuación (Peritonitis Pélvica Aguda Femenina, 99.89%
 - Resolver la carencia bloqueante de advertencias/contraindicaciones de ficha técnica (DG001), indispensable para cualquier evaluación de seguridad inicial (S1)
 - Obtener datos verificados del mecanismo de acción (DG002) para poder evaluar correctamente la plausibilidad biológica de futuras predicciones
 - Ampliar la búsqueda de literatura y ensayos clínicos a un conjunto más amplio de indicaciones candidatas, dado que ninguna de las 10 principales predicciones actuales presenta evidencia real de respaldo
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

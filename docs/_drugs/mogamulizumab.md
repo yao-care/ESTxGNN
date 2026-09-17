@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mogamulizumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Mogamulizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -105,10 +105,10 @@ Las 7 indicaciones predichas se apoyan únicamente en el score de TxGNN (Nivel d
 - Completar los datos estructurados de mecanismo de acción vía API de DrugBank (DG002)
 - Estudios preclínicos o mecanísticos sobre expresión de CCR4 en los tumores predichos, para elevar el nivel de evidencia de L5 a L4
 - Confirmar la vía de administración y evaluar la disponibilidad de mercado en España/Taiwán, dado que el fármaco no está actualmente comercializado
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

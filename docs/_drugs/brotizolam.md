@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Brotizolam
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 48
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Brotizolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -105,10 +105,10 @@ Existe un ensayo Fase 3 completado, aleatorizado y doble ciego (N=253) más un e
 - Datos de mecanismo de acción (MOA) formalizados desde DrugBank u otra fuente regulatoria
 - Evaluación de vía regulatoria para introducción al mercado español (nueva solicitud de autorización)
 - Dado que se trata de una benzodiazepina, plan de gestión de riesgo de dependencia/abuso, considerando que el propio modelo señaló indicaciones relacionadas con abuso de sustancias (rank 3-5) como posibles señales de seguridad del fármaco mismo
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

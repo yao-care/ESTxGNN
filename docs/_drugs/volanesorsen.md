@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Volanesorsen
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Volanesorsen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -82,10 +82,10 @@ Las 10 indicaciones predichas por TxGNN se encuentran en nivel de evidencia L5 (
 - Ficha técnica/prospecto de TFDA con advertencias y contraindicaciones (actualmente bloqueante para la evaluación de seguridad, DG001)
 - Confirmación de la indicación e historial regulatorio original del fármaco
 - Estudios mecanísticos o preclínicos que evalúen la plausibilidad biológica de las indicaciones predichas antes de considerar cualquier estudio clínico
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

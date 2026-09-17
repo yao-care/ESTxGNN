@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pinazepam
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 223
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Pinazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -93,10 +93,10 @@ La predicción para insomnio se apoya únicamente en un razonamiento de clase fa
 - Datos detallados del mecanismo de acción (MOA) desde DrugBank (brecha DG002)
 - Evidencia clínica o de literatura específica de pinazepam en insomnio, actualmente inexistente
 - Como nota adicional: la indicación secundaria "ansiedad" (rank 6 en el listado de predicciones) presenta un nivel de evidencia superior (L3, etapa S1, "Research Question"), con literatura específica de pinazepam y antecedente de comercialización histórica ("Domar", Italia) para esa indicación; podría valer la pena evaluarla como candidata alternativa o complementaria
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

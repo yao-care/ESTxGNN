@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Flurazepam
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 121
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Flurazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -94,10 +94,10 @@ Existe un data gap bloqueante sobre advertencias/contraindicaciones (equivalente
 - Confirmar el mecanismo de accion (MOA) mediante DrugBank u otra fuente farmacologica
 - Verificar la indicacion original real de flurazepam (actualmente vacia en el registro) para determinar si la prediccion constituye un reposicionamiento genuino o una confirmacion de uso ya establecido
 - Confirmar el estado real de comercializacion en España, dado que el registro actual muestra 0 licencias
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

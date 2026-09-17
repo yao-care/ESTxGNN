@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tocilizumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tocilizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -118,10 +118,10 @@ A pesar de la puntuación TxGNN más alta observada en este candidato (99.99%), 
 - Obtener el mecanismo de acción estructurado desde DrugBank (DG002)
 - Dado el resultado clínico negativo, no se recomienda continuar el desarrollo de esta indicación específica
 - Nota: dentro del mismo lote de predicciones para este fármaco, la indicación de rango 7 (artritis reumatoide juvenil poliarticular) presenta evidencia de Fase 3 positiva y ya es una indicación aprobada por FDA/EMA — podría ser un candidato de seguimiento más productivo que la espondilitis anquilosante
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

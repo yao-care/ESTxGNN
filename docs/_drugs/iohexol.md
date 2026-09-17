@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iohexol
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Iohexol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -126,10 +126,10 @@ Ambas indicaciones predichas (insomnio, ansiedad) presentan nivel de evidencia L
 - Advertencias y contraindicaciones oficiales del TFDA (brecha bloqueante DG001) para poder completar la evaluacion de seguridad S1
 - Datos del mecanismo de accion (MOA) de iohexol (brecha DG002) para confirmar o descartar definitivamente cualquier plausibilidad mecanistica
 - Dado el perfil de evidencia actual, no se recomienda invertir mas recursos en esta direccion salvo que aparezcan nuevos datos mecanisticos o clinicos que la respalden
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

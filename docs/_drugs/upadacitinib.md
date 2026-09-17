@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Upadacitinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Upadacitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -103,10 +103,10 @@ Ambas indicaciones predichas cuentan únicamente con evidencia de Nivel L5 (pred
 - Completar los datos de mecanismo de acción (MOA) vía API de DrugBank (DG002)
 - Justificación mecanística adicional (p. ej. vías PEX/ciliopatías o HOX/BMP/GLI3) que conecte razonablemente la inhibición de JAK1 con estos síndromes, antes de invertir en búsqueda de evidencia adicional
 - En ausencia de nueva evidencia, despriorizar estos dos candidatos frente a otras predicciones TxGNN de upadacitinib con mayor coherencia mecanística
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

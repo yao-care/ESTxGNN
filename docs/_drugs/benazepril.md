@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Benazepril
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Benazepril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -82,10 +82,10 @@ La predicción se sustenta únicamente en la puntuación del modelo TxGNN (Nivel
 - Confirmación del texto de indicación original aprobada
 - Estudios preclínicos o de mecanismo que vinculen específicamente Benazepril con la enfermedad renal hipertensiva maligna
 - Evaluación de riesgo en pacientes con posible estenosis de arteria renal, dado el riesgo conocido de lesión renal aguda asociado a IECA en hipertensión renovascular
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Crizotinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 80
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Crizotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -111,10 +111,10 @@ La indicación predicha de mayor rango (fibromatosis gingival) carece por comple
 - Datos de mecanismo de acción (MOA) desde DrugBank (DG002)
 - Evidencia mecanística o preclínica que vincule específicamente la fibromatosis gingival con las vías ALK/ROS1/MET
 - Revisión del pipeline de mapeo de ontología: varias otras indicaciones predichas en este mismo paquete (p. ej. "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease...") muestran literatura adjunta que no corresponde al nombre de la enfermedad, sugiriendo posible desajuste de entidades que debería corregirse antes de repetir este análisis
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

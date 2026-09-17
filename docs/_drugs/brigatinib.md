@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brigatinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Brigatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ La indicación predicha con mayor puntaje (fibromatosis gingival) carece por com
 - Ficha técnica/prospecto de TFDA (advertencias, contraindicaciones) — brecha bloqueante DG001
 - Mecanismo de acción confirmado vía DrugBank — brecha DG002
 - Si se desea explorar otras indicaciones del mismo lote (p. ej. rango 5 u 8), una revisión manual que confirme si la superposición terminológica con "lung"/ALK refleja una hipótesis real o un artefacto del modelo, antes de asignar recursos de evaluación
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

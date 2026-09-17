@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Haloperidol
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 138
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -104,10 +104,10 @@ Múltiples ensayos de Fase 2/3 completados (varios con haloperidol como comparad
 - Datos estructurados de mecanismo de acción vía DrugBank (DG002)
 - Confirmación del estatus regulatorio y autorizaciones de comercialización en España (actualmente sin registro)
 - Aclaración del rol específico de haloperidol en los ensayos con relevancia B/C (títulos truncados, comparador no confirmado)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

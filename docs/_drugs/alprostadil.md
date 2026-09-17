@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alprostadil
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 21
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -95,10 +95,10 @@ El uso de alprostadil en fisiología ductus-dependiente asociada a malformacione
 - Completar los datos de mecanismo de acción vía API de DrugBank (DG002)
 - Clasificar la relevancia clínica ("relevance grade") de los 2 ensayos y 20 publicaciones, actualmente marcados como "pending"
 - Confirmar la vía regulatoria aplicable dado que el fármaco no está comercializado en España (uso extranjero/importación)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

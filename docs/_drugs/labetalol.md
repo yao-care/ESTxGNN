@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Labetalol
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 155
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Labetalol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -86,10 +86,10 @@ La evidencia actual se limita a dos reportes de caso que no estudian directament
 - Evaluación de compatibilidad de vías de administración (route_compatibility), actualmente sin determinar
 
 **Nota sobre otras indicaciones predichas para labetalol:** el mismo Evidence Pack incluye otras tres direcciones (hipertensión renal maligna, hipertensión pulmonar de mecanismo multifactorial poco claro, e hipertensión pulmonar por enfermedad pulmonar/hipoxia), todas con nivel de evidencia L4-L5 y recomendación "Hold". En particular, la hipótesis de hipertensión pulmonar por hipoxia presenta una señal de riesgo teórico (broncoespasmo por actividad beta-2 bloqueante de labetalol) más que evidencia de apoyo, por lo que no se considera una dirección prioritaria.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

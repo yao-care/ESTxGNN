@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pertuzumab
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 221
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -118,10 +118,10 @@ La relación mecanística entre pertuzumab y el subtipo "normal-like" de carcino
 - Advertencias, contraindicaciones e interacciones farmacológicas desde el prospecto oficial (brecha DG001, bloqueante para evaluación de seguridad S1)
 - Un ensayo o estudio traslacional que estratifique específicamente por el subtipo molecular "normal-like" (PAM50), en lugar de por estatus HER2 general
 - Nota: dentro del mismo evidence pack, las indicaciones relacionadas **"progesterone-receptor positive breast cancer"** y **"progesterone-receptor negative breast cancer"** (rangos 2 y 3, mismo score TxGNN) presentan evidencia sustancialmente más sólida (L1, múltiples ensayos Fase 3 completados, recomendación "Proceed with Guardrails") y podrían priorizarse como vía de avance más inmediata para este fármaco
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

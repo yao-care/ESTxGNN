@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vismodegib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Vismodegib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -105,10 +105,10 @@ La prediccion tiene una puntuacion TxGNN elevada (99.93%) y una racional mecanis
 - Ficha tecnica/prospecto de la AEMPS con advertencias, contraindicaciones e interacciones (actualmente vacio, marcado como bloqueante)
 - Busqueda dirigida de ensayos clinicos y literatura sobre vismodegib especificamente en meduloblastoma SHH-activado o con nodularidad extensa
 - Evaluacion adicional de otras indicaciones predichas con evidencia mas solida detectadas en el mismo lote (p. ej. la asociacion con "skin cancer", que ya cuenta con 23 ensayos clinicos y 20 publicaciones, aunque coincide en gran medida con la indicacion original)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

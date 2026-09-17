@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Formoterol
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 122
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Formoterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -115,10 +115,10 @@ La evidencia clinica para el espectro asma/EPOC/bronquitis es de nivel L1, con m
 - Confirmar el mecanismo de accion (MOA) detallado via DrugBank
 - Aclarar si "respiratory malformation" y "Rienhoff syndrome" son entidades correctamente mapeadas en el grafo de conocimiento antes de considerarlas en futuras iteraciones
 - Descartar "asthma-related traits, susceptibility to" como objetivo de reposicionamiento, al tratarse de un rasgo genetico y no de una enfermedad tratable
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

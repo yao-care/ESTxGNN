@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Desogestrel
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 89
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Desogestrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -105,10 +105,10 @@ Ningún ensayo clínico ni publicación identificados evalúan desogestrel como 
 - Ficha técnica/prospecto de AEMPS con advertencias y contraindicaciones (actualmente sin datos)
 - Evaluación separada de la indicación "acné" (rank 4), que presenta evidencia L2 y un ensayo Fase 4 completado directamente relevante — candidato con mucho mayor potencial que amenorrea
 - Si se desea explorar amenorrea, sería necesario un ensayo dedicado que use desogestrel como intervención terapéutica, no solo como anticonceptivo de fondo
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

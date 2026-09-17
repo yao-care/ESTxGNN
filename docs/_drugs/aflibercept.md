@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aflibercept
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 14
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Aflibercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -96,10 +96,10 @@ La predicción se apoya exclusivamente en el puntaje del modelo TxGNN (Nivel de 
 - Estudios preclínicos o mecanísticos que exploren una posible relación entre la vía VEGF y el control neuromuscular ocular
 - Al menos un estudio observacional o reporte de caso clínico que documente un efecto terapéutico (no solo un evento adverso) sobre esotropía
 - Verificación del estado de autorización de comercialización en España
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

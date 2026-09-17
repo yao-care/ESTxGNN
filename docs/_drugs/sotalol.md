@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sotalol
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 264
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Sotalol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -133,10 +133,10 @@ La única indicación predicha con evidencia real (rango 4, "stroke disorder") a
 - Obtener datos estructurados de MOA desde DrugBank (brecha DG002) para robustecer el análisis mecanístico.
 - Clarificar si la propuesta regulatoria se centra en "control de ritmo en FA con reducción de riesgo de ictus" en vez de "tratamiento de ictus", dado que la etiqueta original de TxGNN puede inducir a error.
 - Confirmar plan de monitorización de QT y riesgo proarrítmico antes de cualquier uso clínico ampliado.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

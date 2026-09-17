@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Calcipotriol
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 53
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Calcipotriol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -92,10 +92,10 @@ Existe un cuerpo consistente de evidencia clinica de nivel L3 (estudios comparat
 - Warnings/contraindicaciones y perfil de interacciones (actualmente sin datos)
 - Confirmacion del estado regulatorio y texto de indicacion original via AEMPS/TFDA (el farmaco no esta comercializado en Espana)
 - Diseno de un ensayo clinico prospectivo/aleatorizado que confirme la senal observada en series de casos
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

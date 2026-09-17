@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cemiplimab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cemiplimab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -91,10 +91,10 @@ La indicación de mayor puntuación TxGNN para este candidato (carcinoma adenoes
 - Confirmación de vías de administración y compatibilidad de formulación
 
 **Nota adicional:** Este candidato agrupa 10 indicaciones predichas por TxGNN para cemiplimab. De ellas, la de rango 4 (carcinoma basocelular de oído externo) presenta evidencia sustancialmente más sólida —nivel L4, con un caso publicado (PMID 34157152) y extensión plausible de la indicación de carcinoma basocelular ya aprobada— y está clasificada como **Proceed with Guardrails**. Se recomienda priorizar esa indicación para evaluación separada en lugar de la de mayor puntuación aquí reportada.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

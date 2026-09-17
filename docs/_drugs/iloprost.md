@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iloprost
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Iloprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -87,10 +87,10 @@ Este paquete incluye otras indicaciones predichas para iloprost con evidencia su
 - **HAP asociada a cardiopatía congénita** (rank 3): Nivel L3, un ensayo clínico y 20 publicaciones. Recomendación: **Research Question**.
 
 Dado que estas indicaciones comparten el mecanismo ya aprobado de iloprost (vasodilatación pulmonar en HAP Grupo 1 de la OMS) y cuentan con evidencia real, se recomienda priorizar su evaluación sobre la indicación de rank 1 aquí reportada.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

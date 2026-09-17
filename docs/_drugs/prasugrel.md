@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Prasugrel
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Prasugrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -85,10 +85,10 @@ Aunque la puntuacion de prediccion de TxGNN es muy alta (99.88%), la evidencia c
 - Datos detallados del mecanismo de accion (MOA) de prasugrel
 - Busqueda dirigida de estudios preclinicos o clinicos que evaluen antiagregantes P2Y12 especificamente en hipertension pulmonar tromboembolica cronica (CTEPH)
 - Confirmacion formal de la indicacion original de prasugrel mediante fuente regulatoria (no disponible en este Evidence Pack)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

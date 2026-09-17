@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clobetasol
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 74
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Clobetasol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -96,10 +96,10 @@ La evidencia de literatura (incluyendo un estudio de cohorte retrospectivo y una
 - Datos estructurados sobre el mecanismo de acción (MOA)
 - Confirmación de vía de administración y disponibilidad de formulación tópica en España
 - Evaluación de ensayos clínicos dedicados a clobetasol en CTCL, más allá de la evidencia observacional actual
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

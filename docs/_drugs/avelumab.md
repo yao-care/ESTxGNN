@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avelumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Avelumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -45,7 +45,7 @@ Avelumab es un inhibidor de PD-L1 (anti-PD-L1) cuya indicación de referencia de
 | Nueva Indicación Predicha | Tumor asociado al herpesvirus humano 8 (VHH-8) |
 | Puntaje de Predicción TxGNN | 99.97% (rank 975) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Taiwán | No comercializado (未上市) |
+| Estado de Mercado en Taiwán | No comercializado (Not marketed) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | Hold |
 
@@ -108,10 +108,10 @@ El score de TxGNN es muy alto, pero no existe ninguna evidencia clínica ni de l
 - Resolución del Data Gap bloqueante DG001 (仿單警語/禁忌 de TFDA) antes de cualquier evaluación de seguridad S1
 - Confirmación del mecanismo de acción detallado de avelumab (DG002)
 - Evaluación independiente de las predicciones de rango 9-10 (subtipos de carcinoma urotelial), que muestran mayor plausibilidad mecanística por su relación directa con la indicación ya aprobada
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

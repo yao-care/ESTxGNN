@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Baricitinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Baricitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -83,10 +83,10 @@ A pesar del puntaje numérico elevado de TxGNN (99.94%), la evidencia es de nive
 - Ficha técnica/prospecto de la AEMPS con advertencias y contraindicaciones (actualmente data gap bloqueante para la evaluación inicial de seguridad, S1)
 - Revalidación de la hipótesis mecanística antes de considerar cualquier búsqueda dirigida de evidencia clínica o preclínica
 - Dado el patrón repetido en ambas indicaciones predichas (L5, sin evidencia, sin plausibilidad mecanística), se recomienda tratar este candidato como de baja prioridad hasta que surjan nuevas señales
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

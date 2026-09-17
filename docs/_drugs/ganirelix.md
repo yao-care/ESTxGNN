@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ganirelix
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ganirelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -93,10 +93,10 @@ La predicción se apoya únicamente en la puntuación del modelo TxGNN (99.98%),
 - Obtener datos verificados del mecanismo de acción vía API de DrugBank (DG002)
 - Estudios preclínicos o mecanísticos que evalúen el efecto de la supresión de esteroides gonadales sobre el crecimiento piloso androgénico
 - Monitoreo continuo de nuevos ensayos clínicos o literatura que puedan surgir para esta combinación específica
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

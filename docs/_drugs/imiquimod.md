@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imiquimod
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 143
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -100,10 +100,10 @@ El nivel de evidencia L1 se apoya en un ECA de Fase 3 completado (n=259) y un EC
 - Mecanismo de accion detallado via DrugBank (DG002, severidad High)
 - Evaluacion de viabilidad regulatoria y comercial en España (actualmente no comercializado, 0 autorizaciones)
 - Definicion de la subpoblacion objetivo especifica (CIN vs. VIN vs. AIN) para el diseno de un futuro ensayo confirmatorio
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

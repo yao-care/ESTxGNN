@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zolpidem
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 299
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -109,10 +109,10 @@ La evidencia de literatura es sólida (L1, 20 publicaciones incluyendo ECAs y me
 - Evaluación de viabilidad regulatoria/comercial para introducción en el mercado español, en lugar de un programa de investigación de reposicionamiento
 
 **Nota adicional:** el modelo también generó dos predicciones adicionales de menor confianza para zolpidem —espasmo torsional benigno del lactante y agorafobia— ambas sin ensayos clínicos ni literatura de respaldo (Nivel L5, decisión **Hold**), por lo que no se incluyen como candidatos activos en este informe.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

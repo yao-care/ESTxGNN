@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lorlatinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lorlatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -114,10 +114,10 @@ La indicación de mayor puntuación TxGNN (fibromatosis gingival, 99.81%) carece
 - Localizar y procesar el prospecto/ficha técnica de TFDA para advertencias y contraindicaciones formales (Data Gap bloqueante, DG001)
 - Si se desea explorar "lung hilum carcinoma" (rank 4), evaluarla como posible extensión anatómica de la indicación ya aprobada, no como reposicionamiento nuevo
 - Considerar reevaluar por separado "neuroblastoma pediátrico ALK-mutado" con la etiqueta correcta, dado que cuenta con ensayos fase 1/2 reales (actualmente oculto bajo la etiqueta errónea "lung germ cell tumor")
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

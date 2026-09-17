@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trametinib
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 281
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Trametinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -143,10 +143,10 @@ Consultar el prospecto para información de seguridad.
 - Confirmar el estatus mutacional BRAF V600 como criterio de selección antes de extrapolar a subtipos no cutáneos específicos.
 - Dado que el fármaco no está comercializado en España, definir la vía regulatoria (autorización AEMPS / uso de medicamento extranjero) antes de cualquier aplicación clínica local.
 - Para los subtipos en Research Question (nodular, superficial, acral, epitelioide, párpado, amelanótico), generar series de casos o estudios observacionales dirigidos que confirmen prevalencia de mutación BRAF y respuesta clínica.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

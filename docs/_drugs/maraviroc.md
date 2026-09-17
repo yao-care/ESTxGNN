@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maraviroc
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Maraviroc
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -85,10 +85,10 @@ Sin evidencia clinica ni bibliografica, y sin relacion mecanistica plausible ent
 ---
 
 **Nota:** Este Evidence Pack incluye 10 indicaciones candidatas para maraviroc. Dos de ellas presentan mayor madurez de evidencia que la aqui evaluada — **infeccion por citomegalovirus** (rank 9, L4, etapa S1, "Research Question", con racional CCR5 sobre reclutamiento de celulas inmunes) y **carcinoma de mama HER2 positivo** (rank 10, L4, etapa S1, "Research Question", con mecanismo especifico CCL5-CCR5-ERK ligado a resistencia a trastuzumab). Se recomienda priorizar informes de evaluacion independientes para esos dos candidatos.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

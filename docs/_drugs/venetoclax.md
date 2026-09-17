@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Venetoclax
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 292
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -90,10 +90,10 @@ La indicación predicha en primer lugar por TxGNN es en realidad un subtipo mole
 - Buscar estudios que evalúen venetoclax específicamente en pacientes con LLC/LLP de IGHV no mutado (pre-centro germinal), más allá de la evidencia general en LLC
 - Confirmar el estatus regulatorio real en España, dado que el producto figura como no comercializado pese a ser un fármaco con aprobación conocida en otras indicaciones hematológicas
 - Considerar en paralelo otros candidatos del mismo evidence pack con mayor nivel de evidencia (p. ej., leucemia mieloide crónica BCR-ABL1+ en fase S2/L2, o linfoma folicular en fase S2/L2), que podrían representar oportunidades de reposicionamiento más sólidas que la indicación de rango 1
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

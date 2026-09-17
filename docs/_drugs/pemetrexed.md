@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pemetrexed
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 216
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -123,10 +123,10 @@ Existe actividad clínica activa relevante (11 ensayos, incluyendo Fase 2 en rec
 - Completar los datos de mecanismo de acción vía API de DrugBank (DG002)
 - Seguir los resultados de los ensayos peritoneal-específicos en curso (NCT05001880, NCT06057935, NCT06543069)
 - Evaluar la compatibilidad de vías de administración (intraperitoneal vs. intravenosa), dado el uso potencial en combinación con HIPEC
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

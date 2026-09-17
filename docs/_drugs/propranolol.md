@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Propranolol
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 231
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Propranolol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -122,10 +122,10 @@ El uso de beta-bloqueantes en el subtipo HOCM esta clinicamente bien establecido
 - Completar la brecha DG002 (mecanismo de accion detallado de DrugBank)
 - Estratificar la evidencia por subtipo de miocardiopatia (HOCM vs. dilatada vs. mitocondrial) antes de una decision definitiva
 - Evaluar miocardiopatia cirrotica (L3) como via secundaria si el subtipo HOCM se confirma como el mecanismo dominante
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

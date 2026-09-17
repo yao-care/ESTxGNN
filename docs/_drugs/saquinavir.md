@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Saquinavir
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Saquinavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -147,7 +147,7 @@ Estas tres señales no cuentan con ningún ensayo clínico ni publicación de re
 
 ## Información de Mercado en España
 
-Saquinavir **no está comercializado en España** (`market_status: 未上市`, 0 autorizaciones registradas). No hay ficha técnica local disponible para confirmar indicación aprobada, posología ni advertencias específicas del mercado español.
+Saquinavir **no está comercializado en España** (`market_status: Not marketed`, 0 autorizaciones registradas). No hay ficha técnica local disponible para confirmar indicación aprobada, posología ni advertencias específicas del mercado español.
 
 ---
 
@@ -171,10 +171,10 @@ Ninguna de las 6 señales generadas por TxGNN constituye una oportunidad de repo
 - Resolver DG002: confirmar el mecanismo de acción vía API de DrugBank
 - Si se desea explorar el candidato SIV (rango 2) con fines de investigación básica, definir explícitamente que es un modelo preclínico en primates, no una vía de desarrollo clínico humano
 - Reevaluar el pipeline TxGNN para este fármaco: las 3 señales de Nivel 5 sugieren ruido en el espacio de embeddings más que verdaderas hipótesis de reposicionamiento
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

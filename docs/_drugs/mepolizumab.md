@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Mepolizumab
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 178
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -83,10 +83,10 @@ Solo existe un reporte de caso (nivel de evidencia L4) sin ningún ensayo clíni
 - Confirmación del mecanismo de acción original y de la(s) indicación(es) aprobada(s) de mepolizumab (resolver DG002)
 - Estudios clínicos o preclínicos que evalúen directamente mepolizumab en trombocitopenia de origen inmune
 - Datos de interacciones farmacológicas (DDI), actualmente no localizados
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

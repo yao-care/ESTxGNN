@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Triflusal
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Triflusal
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -79,10 +79,10 @@ La predicción principal (Exceso del Factor V con Trombosis Espontánea) carece 
 - Obtener y analizar el prospecto/etiquetado de seguridad de Triflusal (DG001, bloqueante) antes de cualquier evaluación S1.
 - Generar datos preclínicos o clínicos específicos para el exceso del Factor V con trombosis espontánea, ya que actualmente no existe ningún estudio real sobre esta asociación.
 - Como vía de investigación secundaria, considerar "thrombophilia" (rank 4 en las predicciones), que presenta el único nivel de evidencia L4 con literatura real (aunque de tipo farmacodinámico, no un ensayo clínico dirigido) y ya se encuentra en etapa de decisión S1 ("Research Question").
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

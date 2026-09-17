@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Turoctocog Alfa Pegol
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Turoctocog Alfa Pegol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -80,10 +80,10 @@ A pesar de la alta puntuación del modelo TxGNN, no existe ningún ensayo clíni
 - Confirmar la indicación original y el estado regulatorio real en España (AEMPS), ya que el expediente actual no registra autorizaciones
 - Si se desea continuar la línea de investigación, priorizar "acquired coagulation factor deficiency" (rank 4) sobre el candidato actual, por mayor plausibilidad mecanística, y aclarar primero el alcance exacto de esa etiqueta de enfermedad
 - Revisar la calidad ontológica de las predicciones — al menos una entrada ("flood factor deficiency", rank 8) parece ser una etiqueta de enfermedad mal formada o mal traducida y requiere verificación antes de su uso
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zanamivir
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Zanamivir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -109,10 +109,10 @@ Ambos candidatos predichos por TxGNN presentan Nivel de Evidencia L5 (solo predi
 - Documentar formalmente el mecanismo de accion via API de DrugBank (brecha DG002, severidad High)
 - Buscar evidencia preclinica o clinica real y especifica que vincule Zanamivir con pielonefritis o con trastornos del metabolismo de la tirosina (actualmente inexistente)
 - Reevaluar la prediccion si surgen nuevos datos; en su ausencia, ambos candidatos deben considerarse probables falsos positivos del modelo
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lisinopril
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lisinopril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -93,10 +93,10 @@ No existe ningun ensayo clinico ni publicacion que respalde especificamente lisi
 - Evaluacion de interacciones farmacologicas (DDI), actualmente sin datos
 
 **Nota adicional:** dentro del mismo paquete de evidencia, la indicacion candidata "chronic pulmonary heart disease" (rank 9) presenta evidencia sustancialmente mas solida y especifica para lisinopril —5 ensayos clinicos relacionados y 8 publicaciones, incluyendo dos estudios que evaluan directamente lisinopril en cor pulmonale cronico e hipertension pulmonar asociada a EPOC/cardiopatia isquemica (PMID 17047621, PMID 14524095)—. Se recomienda evaluar esa indicacion como candidato prioritario alternativo en un informe separado.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 
