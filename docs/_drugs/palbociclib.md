@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Palbociclib
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 208
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -122,10 +122,10 @@ La hipótesis mecanística para artritis reumatoide es biológicamente plausible
 - Diseñar un estudio piloto (Fase 1/2) en artritis reumatoide refractaria, con vigilancia hematológica como criterio primario de seguridad
 - Incorporar la señal de riesgo tromboembólico de clase como criterio de exclusión/monitorización en cualquier protocolo
 - Definir la vía regulatoria de importación/autorización en España, dado el estado actual "no comercializado"
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

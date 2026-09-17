@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pembrolizumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pembrolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -97,10 +97,10 @@ A pesar de la alta puntuación numérica de TxGNN (99.40%), no existe ningún en
 - De persistir el interés, generar evidencia preclínica/mecanística que vincule la vía PD-1 con la patología de fibromatosis gingival antes de reconsiderar esta hipótesis
 
 **Nota adicional:** este Evidence Pack incluye 9 predicciones adicionales para pembrolizumab (candidate_id de tipo "multi"). Entre ellas, **lung hilum carcinoma** (rank 4) alcanza un nivel de evidencia L3 con recomendación "Research Question", por su coherencia biológica con el uso conocido de pembrolizumab en cáncer de pulmón no microcítico (NSCLC) — se recomienda evaluar ese candidato en un informe separado, ya que presenta mayor plausibilidad clínica que el aquí analizado.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

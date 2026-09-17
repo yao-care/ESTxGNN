@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Famciclovir
-parent: 高證據等級 (L1-L2)
+parent: Evidencia alta (L1-L2)
 nav_order: 117
 evidence_level: L2
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Famciclovir
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **9** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -45,7 +45,7 @@ Famciclovir 是 penciclovir 的前驅藥，文獻資料顯示其已確立用於�
 | 新預測適應症 | 水痘（Chickenpox） |
 | TxGNN 預測分數 | 99.11%（rank 11741） |
 | 證據等級 | L2 |
-| 市場狀態 | 未上市 |
+| 市場狀態 | Not marketed |
 | 核准許可證數 | 0 |
 | 建議決策 | Proceed with Guardrails |
 
@@ -82,7 +82,7 @@ Famciclovir 是 penciclovir 的前驅藥，文獻資料顯示其已確立用於�
 
 ## 市場資訊
 
-此藥物目前於本評估市場**未上市**，無核准許可證資料可供列示。
+此藥物目前於本評估市場**Not marketed**，無核准許可證資料可供列示。
 
 ## 安全性考量
 
@@ -97,7 +97,7 @@ Chickenpox 候選具備 1 筆已完成之 famciclovir 頭對頭 Phase 3 RCT（NC
 
 **為進展所需：**
 - TFDA／目標市場仿單警語與禁忌症資料（DG001，Blocking，目前無法進行 S1 安全性初評）
-- DrugBank 完整作用機轉（MOA）資料（DG002，High，影響機轉關聯性分析深度）
+- DrugBank 完整作用機轉（MOA）資料（DG002，High，Limits mechanistic-link analysis深度）
 - 藥物交互作用（DDI）資料庫查詢結果（目前為 not_found）
 - 針對兒童水痘族群之专门療效／劑量對照試驗規劃
 
@@ -118,10 +118,10 @@ Chickenpox 候選具備 1 筆已完成之 famciclovir 頭對頭 Phase 3 RCT（NC
 | 9 | Malignant visceral pleura tumor | 99.04% | L5 | S0 | Hold |
 
 *間皮瘤相關 4 項候選（rank 4、6、8、9）無任何試驗或文獻支持，機轉上抗疱疹病毒藥物與石綿相關惡性腫瘤病理生理無交集，判斷為模型預測雜訊，不建議進一步投入資源。*
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

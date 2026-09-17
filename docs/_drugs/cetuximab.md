@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cetuximab
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 69
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Cetuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -132,10 +132,10 @@ La indicacion "Neoplasia Quistica" (carcinoma adenoide quistico / carcinomas de 
 - Verificar el estado real de comercializacion de cetuximab en España (el registro de licencias muestra 0, lo cual contrasta con su uso conocido en oncologia a nivel internacional — posible brecha en la fuente de datos regulatorios)
 - Clarificar si el termino generico "Neoplasia Quistica" del modelo TxGNN debe acotarse clinicamente a carcinoma adenoide quistico / carcinomas de glandula salival antes de cualquier diseno de estudio
 - Dado el estado "Unknown" del ensayo NCT01192087 (el mas especifico para ACC), confirmar su estado actual de reclutamiento/resultados
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

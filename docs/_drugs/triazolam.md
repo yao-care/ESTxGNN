@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Triazolam
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 285
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Triazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -90,10 +90,10 @@ Existe un vacío de datos bloqueante (ficha técnica/advertencias/contraindicaci
 - Obtener datos verificados del mecanismo de acción vía DrugBank (DG002)
 - Evaluar la viabilidad regulatoria de comercialización en España, dado el estado actual de "no comercializado"
 - Considerar si la indicación predicha aporta valor incremental real, dado que coincide con el uso ya conocido de la clase de las benzodiacepinas
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

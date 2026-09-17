@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Meropenem
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 179
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Meropenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -93,10 +93,10 @@ El puntaje de predicción de TxGNN es muy elevado y el espectro antimicrobiano d
 - Datos detallados del mecanismo de acción (MOA) (brecha alta, DG002)
 - Verificación del estado real de comercialización en España, dado que los datos actuales indican "no comercializado" con 0 autorizaciones
 - Datos específicos de penetración y dosificación en tejido óseo/articular en humanos
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

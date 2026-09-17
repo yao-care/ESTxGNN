@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fedratinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Fedratinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -98,10 +98,10 @@ La evidencia es de nivel L5 (solo predicción del modelo, sin estudios reales), 
 Este paquete de evidencia incluye 10 indicaciones predichas para fedratinib. La mayoría (rangos 1-7 y 10) presentan el mismo patrón: L5, sin ensayos ni literatura, y mecanismos explícitamente descritos como no relacionados (vías mTOR/TSC, PDGFRB, SMARCB1/EZH2, inflamasoma/IL-1β).
 
 Los candidatos en rango 8 y 9 (linfohistiocitosis hemofagocítica asociada a enfermedad maligna / a infección) destacan por tener un nivel de evidencia superior (**L4, etapa S1, "Research Question"**), ya que la tormenta de citocinas de la HLH depende de la vía JAK-STAT, y el inhibidor de clase relacionada ruxolitinib ya cuenta con series de casos en HLH refractaria. No obstante, no existe evidencia directa de fedratinib en estas indicaciones — es una extrapolación de efecto de clase, no evidencia propia del fármaco. Si se desea profundizar en este programa de reposicionamiento, estos dos candidatos representan la dirección con mayor plausibilidad mecanística dentro de este conjunto.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

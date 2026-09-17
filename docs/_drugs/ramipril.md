@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ramipril
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ramipril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -104,10 +104,10 @@ A pesar del alto puntaje de predicción de TxGNN (99.93%), no existen ensayos cl
 - Obtener datos detallados del mecanismo de acción (MOA) de ramipril vía DrugBank (DG002)
 - Confirmar indicación original y estado de autorización/comercialización en España
 - Estudios preclínicos o clínicos que evalúen específicamente ramipril en hipertensión pulmonar por enfermedad pulmonar/hipoxia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ruxolitinib
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 250
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ruxolitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -91,7 +91,7 @@ Esto contrasta con las indicaciones de PEComa/LAM/linfangiomioma del mismo pack,
 
 ## Información de Mercado en España
 
-Ruxolitinib no cuenta con autorizaciones registradas en este Evidence Pack (`market_status: 未上市`, 0 autorizaciones). No es posible construir la tabla de comercialización con los datos disponibles.
+Ruxolitinib no cuenta con autorizaciones registradas en este Evidence Pack (`market_status: Not marketed`, 0 autorizaciones). No es posible construir la tabla de comercialización con los datos disponibles.
 
 ---
 
@@ -114,10 +114,10 @@ El vínculo mecanístico entre inhibición de JAK1/2 y la tormenta de citoquinas
 - Datos de interacciones farmacológicas (DDI), actualmente sin registros
 - Evaluar por separado la indicación relacionada "HLH asociado a neoplasia maligna" (rank 10, nivel L3), que comparte mecanismo pero carece de ensayos propios
 - Las demás indicaciones predichas de este pack (PEComa, linfangiomioma, LAM, tumor rabdoide) permanecen en Hold por ausencia total de evidencia clínica/literatura y mecanismo biológico no coincidente (vía mTOR, no JAK-STAT)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

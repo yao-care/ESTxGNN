@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Andexanet Alfa
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 24
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Andexanet Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -104,10 +104,10 @@ Solo existe una analogía mecanística indirecta (actividad secundaria anti-TFPI
 - Obtención del prospecto/ficha técnica oficial (TFDA/AEMPS) para completar la evaluación de seguridad S1 (DG001)
 - Confirmación del mecanismo de acción oficial vía DrugBank (DG002)
 - Evaluación de viabilidad práctica (vía de administración IV, coste, perfil de dosificación) frente al uso actual como antídoto de urgencia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

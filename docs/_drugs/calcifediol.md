@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Calcifediol
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 52
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ La evidencia disponible es exclusivamente preclinica, mecanistica y de series de
 - Aclarar si "obsolete vitamin D deficiency" (rango 1) es ruido de clasificacion o representa un gap de datos real
 - Priorizar estratificacion genotipica (CYP2R1 vs CYP27B1 vs receptor VDR) antes de disenar cualquier estudio prospectivo, dado que solo el subtipo 1B tiene fundamento mecanistico solido para calcifediol
 - Evaluar si existen series de casos adicionales o registros de enfermedades raras que aporten evidencia real mas alla de lo preclinico
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

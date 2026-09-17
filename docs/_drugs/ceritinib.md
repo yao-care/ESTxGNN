@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ceritinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 66
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ceritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ A pesar de tener la puntuación TxGNN más alta del panel (99.86%), la predicci�
 - Datos de MOA completos de DrugBank (DG002)
 - Prospecto TFDA/AEMPS con advertencias y contraindicaciones (DG001, bloqueante)
 - Revisión de la calidad del mapeo de ontología de enfermedades en este candidato, dado que otros nodos del mismo panel (rangos 5 y 7) muestran indicios de errores de asociación similares
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

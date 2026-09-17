@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Turoctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Turoctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -100,10 +100,10 @@ Las diez indicaciones predichas se sitúan en Nivel de Evidencia L5 (solo predic
 - Confirmación de la indicación original aprobada del fármaco
 - Verificación de la correcta correspondencia ontológica de la entidad "flood factor deficiency" (rank 8), que aparenta ser un error de mapeo de enfermedad
 - Búsqueda dirigida de literatura preclínica o casos clínicos para las indicaciones de rank 1-5, dado que ninguna cuenta con evidencia real hasta la fecha
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

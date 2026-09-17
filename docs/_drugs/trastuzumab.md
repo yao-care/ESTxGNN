@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trastuzumab
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 283
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -122,10 +122,10 @@ La evidencia para "normal-like" es de nivel L3 (estudios exploratorios/observaci
 - Datos del prospecto/ficha técnica de la Agencia Española de Medicamentos (AEMPS), actualmente marcados como brecha bloqueante (DG001)
 - Documentación completa del mecanismo de acción (DG002)
 - Nota: dentro del mismo Evidence Pack, las indicaciones predichas de rango 2 y 3 ("cáncer de mama PR-positivo" y "PR-negativo", ambas dentro de la población HER2+) presentan evidencia de nivel L1 con recomendación "Proceed with Guardrails" y podrían justificar una evaluación separada y prioritaria
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Penciclovir
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Penciclovir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -85,10 +85,10 @@ No existe ningún ensayo clínico ni publicación que respalde la asociación pe
 - Confirmación del mecanismo de acción (MOA) vía DrugBank (brecha de alta prioridad)
 - Evidencia preclínica que establezca un vínculo mecanístico real entre la vía antiviral y la biología del trematodo, de existir
 - Cualquier estudio observacional o reporte de caso que surja en futuras búsquedas en ClinicalTrials.gov, ICTRP o PubMed
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

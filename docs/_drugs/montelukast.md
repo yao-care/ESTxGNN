@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Montelukast
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 187
-evidence_level: L5
+evidence_level: L2
 indication_count: 5
 ---
 
 # Montelukast
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -97,7 +97,7 @@ El asma y la bronquitis comparten mecanismos fisiopatológicos: inflamación de 
 
 ## Información de Mercado en España
 
-Montelukast no está actualmente comercializado en España según los datos de este Evidence Pack (`market_status: 未上市`, 0 autorizaciones registradas). No hay licencias disponibles para tabular información de producto, forma farmacéutica o indicación aprobada localmente.
+Montelukast no está actualmente comercializado en España según los datos de este Evidence Pack (`market_status: Not marketed`, 0 autorizaciones registradas). No hay licencias disponibles para tabular información de producto, forma farmacéutica o indicación aprobada localmente.
 
 ---
 
@@ -119,10 +119,10 @@ La evidencia clínica para "bronquitis" en sentido amplio es heterogénea: la ma
 - Completar datos de mecanismo de acción (MOA) vía DrugBank (DG002)
 - Redefinir la indicación diana a un subgrupo específico y bien delimitado (p. ej. bronquiolitis obliterante post-trasplante o bronquitis eosinofílica no asmática) en lugar de "bronquitis" genérica
 - Revisar la calidad del pipeline de datos: la aparición de "asma" como indicación predicha (rank 3, L1) cuando en realidad es la indicación ya establecida de Montelukast sugiere una posible confusión entre indicación original e indicación candidata que debe corregirse antes de futuras evaluaciones
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levetiracetam
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 164
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -105,10 +105,10 @@ El mecanismo (modulación SV2A) es teóricamente compatible con la epilepsia vis
 - Confirmación de mecanismo de acción desde fuente estructurada (DrugBank), dado que el campo original está marcado como data gap
 
 **Nota importante — señal alternativa más fuerte:** Entre las 10 indicaciones evaluadas para levetiracetam en este mismo dossier, **"status epilepticus"** (rank 9, score TxGNN 99.91%) presenta evidencia sustancialmente más sólida: nivel **L1**, con al menos un ECA publicado en *NEJM* (ESETT trial, PMID 31774955) y un ensayo Fase 3 en reclutamiento activo (NCT06907173), con recomendación de decisión **"Proceed with Guardrails"**. Se recomienda priorizar esa vía de investigación por encima de la epilepsia visual, cuya evidencia es puramente mecanística/indirecta.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foscarnet
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 125
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Foscarnet
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -80,10 +80,10 @@ La puntuación alta de TxGNN no está respaldada por ningún ensayo clínico ni 
 - Evidencia biológica o clínica independiente que vincule foscarnet con trastornos del colágeno tipo IV, antes de reconsiderar esta dirección
 
 **Nota adicional:** los otros 3 candidatos evaluados en este mismo evidence pack (artritis reumatoide, nefropatía diabética, enfermedad de vasos pequeños cerebrales) también recibieron recomendación Hold — en dos casos por error de emparejamiento en base de datos (ensayo de brolucizumab en DMAE, no relacionado con foscarnet) y en el tercero por ausencia de literatura que evalúe directamente foscarnet en la indicación propuesta.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

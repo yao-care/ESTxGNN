@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cobicistat
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Cobicistat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -101,10 +101,10 @@ La evidencia disponible corresponde unicamente a la prediccion del modelo (L5), 
 - Aclarar si la aplicacion propuesta seria como monoterapia o como coadyuvante junto a un antiviral activo
 
 > Nota adicional: el mismo pipeline predijo otras dos indicaciones para Cobicistat — "feline acquired immunodeficiency syndrome" (score 99.92%) y un trastorno neurodesarrollo raro (score 99.91%) — ambas tambien en L5, sin evidencia real y con relacion mecanistica nula o cuestionable. La consistencia de score alto sin soporte real en las tres indicaciones sugiere posible ruido del grafo de conocimiento para este farmaco, mas que una senal robusta de reposicionamiento.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

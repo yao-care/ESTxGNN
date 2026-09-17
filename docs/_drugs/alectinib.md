@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alectinib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Alectinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -129,10 +129,10 @@ Este Evidence Pack (versión multi-candidato) evaluó 10 indicaciones predichas 
 - Corregir el posible error de indexación/mapeo de enfermedad-literatura observado en los candidatos "Neoplasia Pulmonar Benigna", "Síndrome de Leucomelanodermia..." e "IBMPFD/Demencia Frontotemporal" antes de reutilizar esa evidencia.
 - Si se desea continuar la línea de investigación, priorizar el candidato "Tumor de Células Germinales Pulmonar" (rango 6), dado el ensayo activo tipo basket (NCT05770037) que incluye cánceres ALK-positivos raros, mediante confirmación del estado de fusión ALK en la población objetivo.
 - Descartar o reformular la hipótesis de "Fibromatosis Gingival" salvo que aparezca nueva evidencia mecanística o clínica.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

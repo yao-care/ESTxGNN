@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Efavirenz
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 100
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -102,10 +102,10 @@ La evidencia disponible es de nivel L4: no existe ningún ensayo clínico en hum
 - Advertencias, contraindicaciones y prospecto oficial (brecha de datos bloqueante DG001, impide evaluación de seguridad S1)
 - Reevaluar si el modelo TxGNN debe filtrar indicaciones no humanas antes de puntuar: las otras dos indicaciones predichas para este fármaco en esta ficha son un síndrome veterinario (inmunodeficiencia felina) y un síndrome pediátrico raro sin ningún vínculo mecanístico ni evidencia (0 ensayos, 0 literatura) — ninguna es candidata viable
 - Datos de autorización de comercialización en España, actualmente inexistentes
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

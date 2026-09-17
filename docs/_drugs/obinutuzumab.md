@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 199
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -111,10 +111,10 @@ La evidencia internacional es solida (nivel L1): multiples ensayos de Fase 2/3 c
 - Confirmacion via DrugBank del mecanismo de accion detallado y perfil de toxicidad (DG002)
 - Evaluacion de la via regulatoria para autorizacion de comercializacion en España, dado el estado actual de "no comercializado"
 - Datos especificos de interacciones farmacologicas (DDI), actualmente no disponibles
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

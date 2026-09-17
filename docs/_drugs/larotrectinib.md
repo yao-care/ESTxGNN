@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Larotrectinib
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 159
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Larotrectinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ Ambas indicaciones predichas (MEN: L4; cáncer de mama HER2+: L5) carecen de evi
 - Confirmación del mecanismo de acción vía DrugBank u otra fuente primaria
 - Estudios preclínicos o clínicos que evalúen larotrectinib específicamente (no análogos como entrectinib/selpercatinib) en MEN o cáncer de mama HER2+
 - Evaluación de disponibilidad de rutas de administración y compatibilidad posológica
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

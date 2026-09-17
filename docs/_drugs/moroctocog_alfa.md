@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Moroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 188
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 ---
 
 # Moroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -98,10 +98,10 @@ El mecanismo de reposición de FVIII de moroctocog alfa tiene coherencia biológ
 - Confirmar el mecanismo de acción y perfil de inmunogenicidad vía DrugBank
 - Evaluar el estado de inhibidores anti-FVIII como criterio de selección de pacientes antes de posicionar moroctocog alfa frente a alternativas porcinas o agentes bypass
 - Descartar formalmente las siete predicciones restantes del mismo lote TxGNN, dado que su propia evidencia interna no sustenta un vínculo mecanístico real
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

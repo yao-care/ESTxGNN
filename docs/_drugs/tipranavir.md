@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tipranavir
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tipranavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -81,10 +81,10 @@ La predicción para infección por SIV se apoya únicamente en la puntuación de
 - Obtener datos detallados del mecanismo de acción (MOA) desde DrugBank (DG002)
 - Evidencia preclínica real en modelo de primates con SIV antes de considerar cualquier traducción a un contexto de relevancia clínica humana
 - Como alternativa de mayor interés clínico dentro de este mismo evidence pack: valorar **AIDS related complex** (rank 5, L4, mecanismo directamente relacionado con el target conocido de tipranavir) y **VIH congénito** (rank 6, L3, con 9 ensayos clínicos de la clase antirretroviral, aunque ninguno confirma el uso específico de tipranavir), ambos con mayor solidez mecanística y de evidencia que la indicación de rank 1 aquí evaluada.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Efmoroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -91,10 +91,10 @@ Aunque la puntuacion de TxGNN es muy alta, la propia justificacion mecanistica g
 - Ficha tecnica/prospecto de TFDA-AEMPS con advertencias y contraindicaciones (Data Gap DG001, bloqueante para evaluacion de seguridad S1)
 - Evaluacion in vitro/preclinica de si la modulacion del complejo VWF-FVIII tiene algun efecto sobre la afinidad GPIb-VWF alterada en esta enfermedad
 - Nota complementaria: dentro de este mismo Evidence Pack, los candidatos "deficiencia adquirida de factores de coagulacion" y "hemofilia A con anomalia vascular" (ambos L4/Research Question) presentan una plausibilidad mecanistica considerablemente mayor que el candidato de mayor puntuacion, y podrian merecer revision prioritaria pese a su score TxGNN mas bajo.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

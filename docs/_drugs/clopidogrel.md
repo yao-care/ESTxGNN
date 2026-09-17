@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clopidogrel
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 76
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -102,10 +102,10 @@ Consultar el prospecto para información de seguridad. (No hay advertencias, con
 - Seguir los resultados pendientes de COMPETE y SPRING (finalización estimada 2025)
 - Definir el subgrupo objetivo (pacientes con FOP/shunt confirmado) en lugar de migraña general, dado que la evidencia no respalda un efecto generalizado
 - Evaluar estrategia de acceso a mercado, ya que el fármaco no está actualmente comercializado bajo este registro (0 autorizaciones)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

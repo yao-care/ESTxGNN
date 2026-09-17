@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Remimazolam
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 241
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Remimazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ A pesar de una puntuación TxGNN muy alta (99.91%), los 8 ensayos clínicos disp
 
 **Nota — segunda hipótesis predicha (menor prioridad):**
 El modelo también predijo *alcohol withdrawal delirium* (puntuación TxGNN 99.30%, Nivel de Evidencia L5, sin ensayos clínicos ni literatura disponibles). El razonamiento mecanístico es coherente a nivel de clase farmacológica (las benzodiazepinas son tratamiento de primera línea para el síndrome de abstinencia alcohólica), pero al no existir ningún estudio real que la respalde, se mantiene como pregunta de investigación (Research Question) sin evidencia clínica actual.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

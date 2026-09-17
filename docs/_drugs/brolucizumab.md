@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brolucizumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Brolucizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -82,10 +82,10 @@ Las cuatro indicaciones predichas se encuentran en Nivel de Evidencia L5 (solo p
 - Indicación(es) originales aprobadas documentadas formalmente (actualmente ausentes en la fuente)
 - Evidencia clínica o preclínica real que sustente un vínculo fisiopatológico, especialmente para varices esofágicas (rango 2-3), antes de considerar cualquier avance
 - Reevaluar si la indicación de rango 1 debe descartarse dado que el propio análisis mecanístico la contradice
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

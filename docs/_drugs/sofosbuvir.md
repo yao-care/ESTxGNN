@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 261
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -99,10 +99,10 @@ La predicción de TxGNN para VHB no cuenta con respaldo mecanístico directo (VH
 - Ficha técnica/prospecto de TFDA con advertencias y contraindicaciones (brecha bloqueante actual)
 - Confirmación del mecanismo de acción vía DrugBank (brecha de alta severidad actual)
 - Como alternativa de mayor potencial dentro de este mismo Evidence Pack, considerar priorizar la hipótesis de **hepatitis E (VHE)** (rank 2), que cuenta con evidencia mecanística in vitro más directa (inhibición de la RdRp del VHE) y un ensayo clínico específico ya completado (NCT03282474)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

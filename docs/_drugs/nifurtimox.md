@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nifurtimox
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Nifurtimox
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -87,10 +87,10 @@ Las siete indicaciones predichas por TxGNN se encuentran en Nivel de Evidencia L
 - Obtener datos estructurados del mecanismo de accion (DG002)
 - Si se desea priorizar alguna via de investigacion, la indicacion #6 ("premalignant hematological system disease") presenta al menos una hipotesis mecanistica preliminar (citotoxicidad mediada por ROS observada in vitro en neuroblastoma, NCT00601003) que podria justificar una busqueda de evidencia mas dirigida, aunque tambien en nivel L5
 - Descartar formalmente la indicacion #7 como candidata de reposicionamiento, dado que su racional corresponde a un efecto adverso conocido y no a una hipotesis terapeutica
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

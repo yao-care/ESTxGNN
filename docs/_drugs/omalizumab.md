@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Omalizumab
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 204
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ La evidencia disponible para "bronquitis" es de nivel L3 y, tras revisión de re
 - Redefinir la consulta de evidencia distinguiendo explícitamente "bronquitis eosinofílica/alérgica" de "bronquitis crónica no alérgica", dado que TxGNN parece haber sobregeneralizado el término.
 - Excluir o marcar claramente los estudios que en realidad evalúan otros fármacos anti-IgE (p. ej., QGE031/ligelizumab) para evitar sobreestimar la evidencia.
 - Nota: la indicación de rango 2 ("atopic eczema", L2, Proceed with Guardrails, con ensayo RCT directo NCT02300701) presenta evidencia considerablemente más sólida y podría priorizarse como candidato alternativo en un informe separado.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

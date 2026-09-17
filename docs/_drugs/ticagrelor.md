@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ticagrelor
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 275
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -112,10 +112,10 @@ La evidencia actual (nivel L2) se apoya principalmente en un ensayo Fase 3 pivot
 - Ficha técnica TFDA/EMA con advertencias y contraindicaciones — actualmente vacío y marcado como **bloqueante** (DG001) para la evaluación de seguridad inicial
 - Mecanismo de acción detallado desde DrugBank — actualmente vacío (DG002)
 - Evaluación específica del riesgo de hemorragia intracraneal en esta población, dado que difiere del perfil de sangrado coronario ya conocido
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

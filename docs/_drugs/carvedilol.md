@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Carvedilol
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Carvedilol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -83,10 +83,10 @@ La predicción para hipertensión renovascular maligna se apoya únicamente en l
 - Advertencias y contraindicaciones desde el prospecto oficial (actualmente bloqueante para la evaluación de seguridad S1)
 - Búsqueda de literatura dirigida específicamente a carvedilol en hipertensión renovascular/maligna, no solo en hipertensión general
 - Revisión de las otras 4 indicaciones candidatas del mismo evidence pack (hipertensión pulmonar por enfermedad pulmonar/hipoxia, con nivel L4 pero literatura de baja relevancia directa; síndrome de Braddock, entre otras) antes de priorizar recursos de validación
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

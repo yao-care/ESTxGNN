@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Piroxicam
-parent: 僅模型預測 (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 224
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Piroxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -51,7 +51,7 @@ Piroxicam es un antiinflamatorio no esteroideo (AINE) de la clase oxicam, utiliz
 | Nueva Indicación Predicha | Artritis Idiopática Juvenil (AIJ) |
 | Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Taiwán | ✗ No comercializado (未上市) |
+| Estado de Mercado en Taiwán | ✗ No comercializado (Not marketed) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | Hold |
 
@@ -108,10 +108,10 @@ Existe evidencia clínica directa de nivel L1 (dos ECAs históricos con piroxica
 - Confirmar el mecanismo de acción vía DrugBank — brecha DG002
 - Evaluar el perfil de seguridad pediátrico frente a AINEs de semivida más corta, dado el riesgo gastrointestinal/cutáneo conocido de piroxicam en niños
 - Definir vía regulatoria para comercialización en Taiwán, dado que actualmente no hay ninguna autorización vigente
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

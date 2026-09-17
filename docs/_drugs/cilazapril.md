@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cilazapril
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Cilazapril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -91,10 +91,10 @@ La indicación con mayor puntaje TxGNN para este candidato (hipertensión pulmon
 - Confirmación del mecanismo de acción específico del fármaco vía DrugBank u otra fuente primaria (DG002)
 - Búsqueda dirigida de literatura y ensayos clínicos que combinen cilazapril con hipertensión pulmonar (las búsquedas actuales devolvieron 0 resultados)
 - Si se desea continuar la investigación dentro de este mismo candidato, valorar en su lugar las indicaciones de rango 3 y 4 ("malignant hypertensive renal disease" y "malignant renovascular hypertension"), clasificadas como L4/Research Question, con plausibilidad mecanística de clase IECA algo más sólida — aunque también sin evidencia clínica directa y con riesgo conocido de insuficiencia renal aguda en estenosis renovascular bilateral
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Necitumumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Necitumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -88,10 +88,10 @@ No hay ningún ensayo clínico, publicación ni base mecanística conocida que r
 - Estudio mecanístico o preclínico que justifique una relación biológica plausible con fibromatosis gingival antes de continuar
 
 **Observación adicional:** dentro de este mismo paquete de evidencia, la entrada "lung benign neoplasm" (rango 7) presenta 20 publicaciones con nivel de evidencia L1, pero el análisis mecanístico indica que esa literatura describe en realidad el uso establecido de necitumumab en NSCLC escamoso, no la neoplasia benigna listada — un posible error de correspondencia de etiquetas del modelo. Se recomienda revisar ese registro por separado, ya que podría reflejar mejor la indicación con mayor solidez de evidencia real dentro de este candidato.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

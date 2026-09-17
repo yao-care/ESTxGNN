@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ivosidenib
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Ivosidenib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -85,10 +85,10 @@ Consultar el prospecto para información de seguridad.
 - Confirmar el mecanismo de acción vía DrugBank/literatura primaria (brecha DG002).
 - Verificar la indicación original y el estado regulatorio real del fármaco (los campos correspondientes están vacíos en esta fuente).
 - Buscar literatura específica sobre prevalencia de mutación IDH1 en LMA/SMD secundarias a tratamiento, para sustentar o descartar la hipótesis mecanística antes de cualquier decisión de avance.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

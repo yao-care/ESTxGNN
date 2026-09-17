@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Indinavir
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 145
-evidence_level: L5
+evidence_level: L3
 indication_count: 7
 ---
 
 # Indinavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -89,10 +89,10 @@ Toda la evidencia disponible es preclínica (modelos animales de macacos) o in v
 - Identificar una indicación humana equivalente (p. ej., profilaxis/tratamiento de VIH) donde trasladar la evidencia de homología SIV/VIH-1, en vez de tratar el SIV como indicación final
 - Datos formales de mecanismo de acción (MOA) y ficha técnica TFDA (advertencias/contraindicaciones), actualmente bloqueantes según el registro de vacíos de datos (DG001, DG002)
 - Nota de priorización: el candidato de rango 5 en este mismo paquete, **"AIDS related complex"**, ya cuenta con nivel de evidencia L1, 6 ensayos clínicos (incluyendo Fase 1–4) y recomendación "Proceed with Guardrails" — es un candidato mucho más avanzado y debería priorizarse sobre esta indicación de rango 1 basada solo en modelo animal
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Delamanid
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Delamanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -103,10 +103,10 @@ La predicción se apoya únicamente en la plausibilidad mecanística (proximidad
 - Confirmación de si la indicación se dirige a población humana con tuberculosis zoonótica o a uso veterinario, dado que delamanid es un fármaco de uso humano
 
 **Nota adicional:** dentro del mismo paquete de evidencia, la indicación "inactive tuberculosis" (rank 2, puntuación TxGNN prácticamente idéntica, 99.91%) cuenta con 2 ensayos de Fase 2/3 activos (incluyendo NCT03568383, Fase 3, 5.832 participantes) y 20 publicaciones — representa una vía de evidencia considerablemente más sólida y podría priorizarse para una evaluación paralela.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

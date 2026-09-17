@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tagraxofusp
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tagraxofusp
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -88,10 +88,10 @@ No existe ningún ensayo clínico, estudio de vida real ni literatura que respal
 - Confirmar el mecanismo de acción (MOA) mediante consulta a DrugBank
 - Obtener advertencias, contraindicaciones y datos de interacción desde el prospecto de TFDA/AEMPS (actualmente bloqueante, DG001)
 - Evaluar en su lugar los candidatos de este mismo informe con mayor respaldo documental: **"pre-malignant neoplasm"** (5 ensayos clínicos identificados, aunque relacionados principalmente con indicaciones oncohematológicas ya conocidas del fármaco) y **"ductal or ductular proliferation"** (20 publicaciones, si bien su relación directa con tagraxofusp no está confirmada en los resúmenes disponibles y parecen tratar de reacción ductular hepática en general)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

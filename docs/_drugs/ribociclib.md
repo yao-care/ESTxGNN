@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ribociclib
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 243
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Ribociclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -122,10 +122,10 @@ Consultar el prospecto para información de seguridad.
 - Datos detallados del mecanismo de acción (MOA) verificados con fuente regulatoria (DrugBank) (DG002)
 - Estudios preclínicos adicionales en modelos específicos de leucemia mieloide que resuelvan la contradicción mecanística observada
 - Al menos un ensayo clínico (fase 1/2) que evalúe ribociclib específicamente en leucemia mieloide antes de reconsiderar el nivel de evidencia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

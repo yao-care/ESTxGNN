@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ertapenem
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 110
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -155,10 +155,10 @@ Existe un cuerpo consistente de literatura (cohortes, series de casos y un estud
 - Resultados finales del ECA NCT04886284 (CERT) antes de confirmar la indicación de MSSA
 - Para artritis bacteriana: diseño de un estudio prospectivo o al menos una serie de casos consolidada que valide el uso dirigido por antibiograma
 - Plan de monitoreo de seguridad específico para uso combinado (cefazolina/oxacilina + ertapenem) en poblaciones vulnerables (neonatos, pacientes con hipoalbuminemia)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

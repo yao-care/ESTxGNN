@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Temsirolimus
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 271
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Temsirolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -42,7 +42,7 @@ La indicación de aprobación original de Temsirolimus no está documentada en e
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 99.54% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado | No comercializado (未上市) |
+| Estado de Mercado | No comercializado (Not marketed) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | Hold |
 
@@ -72,7 +72,7 @@ El liposarcoma desdiferenciado se caracteriza con frecuencia por amplificación 
 
 ## Información de Mercado
 
-Temsirolimus no está actualmente comercializado (未上市) y no existe ninguna autorización de comercialización registrada en este Evidence Pack (0 licencias).
+Temsirolimus no está actualmente comercializado (Not marketed) y no existe ninguna autorización de comercialización registrada en este Evidence Pack (0 licencias).
 
 ## Citotoxicidad
 
@@ -93,17 +93,17 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El fármaco no tiene ninguna autorización de comercialización (0 licencias, 未上市), el prospecto/advertencias de la TFDA constituyen un vacío de datos Bloqueante (DG001) que impide la evaluación de seguridad S1, y la evidencia clínica específica de temsirolimus en liposarcoma es limitada (dos ensayos con el fármaco propiamente dicho, n=24 y n=46; el resto son análogos de la misma clase).
+El fármaco no tiene ninguna autorización de comercialización (0 licencias, Not marketed), el prospecto/advertencias de la TFDA constituyen un vacío de datos Bloqueante (DG001) que impide la evaluación de seguridad S1, y la evidencia clínica específica de temsirolimus en liposarcoma es limitada (dos ensayos con el fármaco propiamente dicho, n=24 y n=46; el resto son análogos de la misma clase).
 
 **Para avanzar se necesita:**
 - Prospecto/etiquetado de la TFDA (advertencias y contraindicaciones) — DG001
 - Datos de mecanismo de acción (MOA) vía DrugBank — DG002
 - Ensayos clínicos que evalúen temsirolimus directamente (no solo análogos) en población adulta con liposarcoma
 - Datos de interacciones farmacológicas (DDI) actualmente no disponibles
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

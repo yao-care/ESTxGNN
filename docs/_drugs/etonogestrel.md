@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etonogestrel
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 113
-evidence_level: L5
+evidence_level: L3
 indication_count: 5
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -102,10 +102,10 @@ Aunque el puntaje de predicción de TxGNN es muy alto (99.84%), la evidencia cl�
 - Confirmación del mecanismo de acción mediante consulta a la API de DrugBank
 - Revisión clínica experta para aclarar si la relación fármaco-enfermedad tiene dirección causal terapéutica, o si simplemente refleja un efecto adverso reportado en la literatura de anticoncepción
 - Búsqueda bibliográfica dirigida específicamente a "tratamiento de amenorrea con progestágenos", en lugar de basarse en la co-ocurrencia detectada por el modelo
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levonorgestrel
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 166
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ Aunque la puntuación TxGNN es muy alta (99.88%), la evidencia disponible es con
 - Ficha técnica/prospecto con advertencias y contraindicaciones (brecha de datos de severidad Bloqueante — impide la evaluación S1)
 - Aclarar si la formulación relevante es levonorgestrel en monoterapia o en combinación con etinilestradiol, dado que la única evidencia positiva proviene de combinaciones EE/LNG
 - Los otros 5 candidatos predichos (síndrome de Worth, osteoporosis asociada al embarazo, vitreorretinopatía inflamatoria neovascular autosómica dominante, adenosis apocrina y adenosis de conductos romos de mama) presentan nivel de evidencia L5, sin ensayos ni literatura de respaldo, y con racionales mecanísticos débiles o contradictorios — no se recomienda avanzar con ninguno sin evidencia adicional
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

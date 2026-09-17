@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Benralizumab
-parent: 僅模型預測 (L5)
+parent: Solo predicción del modelo (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Benralizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -130,10 +130,10 @@ Aunque benralizumab alcanza su blanco molecular en piel (depleción de células 
 - Confirmar si existe un subgrupo de pacientes con DA de alto perfil eosinofílico que pudiera responder de forma diferenciada (no explorado en HILLIER).
 - Seguimiento del ensayo en curso sobre síndrome DRESS (NCT06734884) como posible indicación nicho alternativa, distinta de la DA general.
 - Dado que no hay autorización de comercialización en España, confirmar vía de acceso regulatorio (uso compasivo/acceso individualizado) si se decide investigar más.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

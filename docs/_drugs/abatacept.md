@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Abatacept
-parent: 僅模型預測 (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 12
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Abatacept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -92,7 +92,7 @@ Sin embargo, la vasculitis reumatoide en sí misma se caracteriza patológicamen
 
 ## Información de Mercado en Taiwán/España
 
-Abatacept **no está actualmente comercializado** en la jurisdicción de referencia (`market_status`: 未上市 / No comercializado). No existen autorizaciones de comercialización registradas en el Evidence Pack (`total_licenses`: 0), por lo que no es posible presentar una tabla de productos/formas farmacéuticas locales.
+Abatacept **no está actualmente comercializado** en la jurisdicción de referencia (`market_status`: Not marketed / No comercializado). No existen autorizaciones de comercialización registradas en el Evidence Pack (`total_licenses`: 0), por lo que no es posible presentar una tabla de productos/formas farmacéuticas locales.
 
 ---
 
@@ -117,10 +117,10 @@ La evidencia disponible para Abatacept en vasculitis reumatoide corresponde al N
 - Un estudio controlado (observacional o ensayo clínico) específico para vasculitis reumatoide, dado que la evidencia actual se limita a reportes de caso aislados
 - Resolver la señal contradictoria (PMID 27052429) mediante revisión sistemática o análisis de farmacovigilancia antes de continuar
 - Confirmar el estatus regulatorio/de comercialización local si se decide continuar la evaluación
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 
