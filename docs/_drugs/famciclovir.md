@@ -29,95 +29,96 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **9**
 
 </div>
 
-# Famciclovir：從帶狀疱疹（Herpes Zoster）到水痘（Chickenpox）
+# Famciclovir: Del Herpes Zóster (Herpes Zoster) a la Varicela (Chickenpox)
 
-## 一句話摘要
+## Resumen de una frase
 
-Famciclovir 是 penciclovir 的前驅藥，文獻資料顯示其已確立用於帶狀疱疹（Herpes Zoster）與生殖器疱疹（Genital Herpes）之全身性抗病毒治療。TxGNN 模型預測其對**水痘（Chickenpox）**同樣可能有效，目前有 **5 筆臨床試驗**（其中 2 筆為已完成之 Phase 3 試驗，含 1 筆直接測試 famciclovir 頭對頭療效）與 **20 篇文獻**支持此方向，證據等級達 L2，為本評估組中證據最強的候選適應症。
+Famciclovir es un profármaco de penciclovir, y los datos bibliográficos muestran que está establecido para el tratamiento antiviral sistémico del herpes zóster (Herpes Zoster) e herpes genital (Genital Herpes). El modelo TxGNN predice que también podría ser efectivo para **varicela (Chickenpox)**, actualmente apoyado por **5 ensayos clínicos** (de los cuales 2 son ensayos de Fase 3 completados, incluyendo 1 que prueba directamente la eficacia comparativa de famciclovir) y **20 artículos bibliográficos**, alcanzando un nivel de evidencia L2, siendo la candidata con la evidencia más sólida en este grupo de evaluación.
 
-> **候選選擇說明**：本 Evidence Pack 共預測 9 項適應症，TxGNN 分數最高者為 post-infectious neuralgia（rank 1），但其證據僅為 2 筆與 famciclovir 無直接關係的試驗（介入藥物分別為 oxycodone、神經阻斷術，relevance grade C），機轉論述本身亦註明「本組資料未提供直接測試 famciclovir 對 PHN 之試驗」。相較之下，chickenpox（rank 7）雖 TxGNN 分數略低，卻是唯一具備 famciclovir 直接對照試驗（grade A）與最多文獻支持的候選，故本報告以此為主要評估標的。其餘 8 項候選之證據等級彙整於文末附表。
+> **Explicación de selección de candidatos**: Este Evidence Pack predice 9 indicaciones, siendo la puntuación TxGNN más alta para post-infectious neuralgia (rank 1), pero su evidencia consiste solo en 2 ensayos sin relación directa con famciclovir (los fármacos de intervención fueron oxicodona y bloqueo nervioso respectivamente, calificación de relevancia C), y la exposición del mecanismo aclara "este conjunto de datos no proporciona ensayos que prueben directamente famciclovir para PHN". En comparación, varicela (rank 7), aunque con una puntuación TxGNN ligeramente menor, es la única candidata con ensayos de comparación directa con famciclovir (calificación A) y el apoyo bibliográfico más extenso, por lo que este informe la toma como el objetivo principal de evaluación. La evidencia para las otras 8 candidatas se resume en una tabla adjunta al final.
 
-## 快速摘要
+## Resumen rápido
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 帶狀疱疹（Herpes Zoster）／生殖器疱疹（Genital Herpes）— 依文獻 PMID 16595111、9675639 |
-| 新預測適應症 | 水痘（Chickenpox） |
-| TxGNN 預測分數 | 99.11%（rank 11741） |
-| 證據等級 | L2 |
-| 市場狀態 | Not marketed |
-| 核准許可證數 | 0 |
-| 建議決策 | Proceed with Guardrails |
+| Elemento | Contenido |
+|----------|-----------|
+| Indicación original | Herpes zóster (Herpes Zoster) / Herpes genital (Genital Herpes) — según literatura PMID 16595111, 9675639 |
+| Nueva indicación predicha | Varicela (Chickenpox) |
+| Puntuación de predicción TxGNN | 99.11% (rank 11741) |
+| Nivel de evidencia | L2 |
+| Estado del mercado | Not marketed |
+| Número de licencias aprobadas | 0 |
+| Recomendación de decisión | Proceed with Guardrails |
 
-## 為什麼這個預測合理？
+## ¿Por qué esta predicción es razonable?
 
-目前資料庫未提供 famciclovir 完整的作用機轉描述（[Data Gap]，見 DG002）。但根據評估組內文獻（PMID 19273678、9675639）已知資訊：famciclovir 為 penciclovir 前驅藥，經磷酸化後抑制水痘帶狀疱疹病毒（VZV）之 DNA polymerase，阻斷病毒複製，此機轉已於帶狀疱疹（VZV 再活化）與生殖器疱疹（HSV）治療中獲得確立療效。
+La base de datos actual no proporciona una descripción completa del mecanismo de acción de famciclovir ([Data Gap], ver DG002). Pero basándose en información ya conocida de la literatura del grupo de evaluación (PMID 19273678, 9675639): famciclovir es un profármaco de penciclovir que, tras fosforilación, inhibe la DNA polimerasa del virus varicela-zóster (VZV), bloqueando la replicación viral. Este mecanismo ha obtenido eficacia terapéutica confirmada en el tratamiento del herpes zóster (reactivación de VZV) e herpes genital (HSV).
 
-水痘與帶狀疱疹為同一病原體（VZV）之不同臨床表現——水痘是原發感染，帶狀疱疹是潛伏病毒的再活化。由於致病病毒完全相同、藥物標的（VZV DNA polymerase）不變，機轉上的可轉移性直接且明確。目前藥證與臨床使用多集中於帶狀疱疹／PHN 適應症，水痘（尤其兒童族群）屬同病原體之標籤延伸使用情境，此點也反映在 PMID 10375341 等文獻對兒童 VZV 感染治療的討論中。
+La varicela y el herpes zóster son diferentes manifestaciones clínicas del mismo agente patógeno (VZV) — la varicela es la infección primaria, el herpes zóster es la reactivación del virus latente. Como el agente patógeno es exactamente el mismo y el blanco del fármaco (DNA polimerasa de VZV) no cambia, la transferibilidad del mecanismo es directa e inequívoca. Actualmente, las licencias farmacéuticas y el uso clínico se concentran en indicaciones de herpes zóster / PHN, mientras que la varicela (especialmente en la población pediátrica) representa una extensión de etiqueta con el mismo agente patógeno, lo que también se refleja en la discusión de la literatura como PMID 10375341 sobre tratamiento de infecciones por VZV en niños.
 
-## 臨床試驗證據
+## Evidencia de ensayos clínicos
 
-| 試驗編號 | 期別 | 狀態 | 收案人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT01327144](https://clinicaltrials.gov/study/NCT01327144) | Phase 3 | 已完成 | 177 | Famciclovir 500mg 對比 Aciclovir 400mg 治療帶狀疱疹之療效與安全性頭對頭試驗（relevance A：直接測試 famciclovir） |
-| [NCT00098046](https://clinicaltrials.gov/study/NCT00098046) | Phase 3 | 已完成 | 76 | Famciclovir 兒童口服劑型於 1-12 歲 VZV 感染兒童之藥物動力學與安全性試驗（relevance A：直接對應水痘好發族群） |
-| [NCT07099157](https://clinicaltrials.gov/study/NCT07099157) | Phase 4 | 招募中 | 140 | Brivudine 對比 Famciclovir 治療急性帶狀疱疹之多中心 RCT（relevance C：對照藥物研究，非 famciclovir 直接證據） |
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | NA | 狀態不明 | 140 | Oxycodone 早期介入預防帶狀疱疹後神經痛（relevance C：介入藥物非 famciclovir） |
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | NA | 尚未招募 | 120 | 多模式神經阻斷與脈衝射頻治療急性帶狀疱疹疼痛（relevance C：非藥物介入） |
+| Número de ensayo | Fase | Estado | Número de participantes | Hallazgos principales |
+|------------------|------|--------|----------------------|----------------------|
+| [NCT01327144](https://clinicaltrials.gov/study/NCT01327144) | Phase 3 | Completado | 177 | Ensayo de comparación directa de Famciclovir 500mg versus Aciclovir 400mg para herpes zóster (relevancia A: prueba directa de famciclovir) |
+| [NCT00098046](https://clinicaltrials.gov/study/NCT00098046) | Phase 3 | Completado | 76 | Ensayo de farmacocinética y seguridad de formulación oral pediátrica de Famciclovir en niños de 1-12 años con infección por VZV (relevancia A: correspondencia directa con población de riesgo de varicela) |
+| [NCT07099157](https://clinicaltrials.gov/study/NCT07099157) | Phase 4 | Reclutando | 140 | Ensayo multicéntrico aleatorizado controlado de Brivudina versus Famciclovir para herpes zóster agudo (relevancia C: estudio de fármaco de comparación, no evidencia directa de famciclovir) |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | NA | Estado desconocido | 140 | Intervención temprana con Oxicodona para prevenir neuralgia posherpética aguda (relevancia C: fármaco de intervención no es famciclovir) |
+| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | NA | Sin reclutar aún | 120 | Bloqueo nervioso multimodal y tratamiento de radiofrecuencia pulsada para dolor de herpes zóster agudo (relevancia C: intervención no farmacológica) |
 
-## 文獻證據
+## Evidencia bibliográfica
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [19273678](https://pubmed.ncbi.nlm.nih.gov/19273678/) | 2009 | 世代/PK研究（Tier 1） | Antimicrob Agents Chemother | 兒童 famciclovir 口服劑型於 HSV/VZV 感染之藥物動力學與安全性彙總分析 |
-| [29431387](https://pubmed.ncbi.nlm.nih.gov/29431387/) | 2017 | 回顧（Tier 2） | Am Fam Physician | 帶狀疱疹與 PHN 之預防與管理，涵蓋抗病毒藥物角色 |
-| [33672709](https://pubmed.ncbi.nlm.nih.gov/33672709/) | 2021 | 回顧（Tier 2） | Molecules | VZV 感染管理進展，討論 famciclovir 等抗病毒藥物治療地位 |
-| [8809466](https://pubmed.ncbi.nlm.nih.gov/8809466/) | 1996 | 回顧（Tier 2） | Clin Microbiol Rev | VZV 致病機轉、潛伏及再活化之經典綜述 |
-| [36851652](https://pubmed.ncbi.nlm.nih.gov/36851652/) | 2023 | 回顧（Tier 2） | Viruses | 癌症病人之 HSV 與 VZV 感染管理 |
-| [9675639](https://pubmed.ncbi.nlm.nih.gov/9675639/) | 1997 | 綜述 | Intervirology | Famciclovir 與 valaciclovir 治療生殖器疱疹與急性帶狀疱疹之大型臨床試驗療效已獲確立 |
-| [11487454](https://pubmed.ncbi.nlm.nih.gov/11487454/) | 2001 | 綜述 | Curr Treat Options Neurol | 帶狀疱疹起於兒童期水痘後 VZV 潛伏，famciclovir/valacyclovir/高劑量 acyclovir 於發疹 3 天內治療有效 |
-| [16595111](https://pubmed.ncbi.nlm.nih.gov/16595111/) | 2006 | 綜述 | Actas Dermosifiliogr | 歐洲核准用於帶狀疱疹全身性治療之藥物包含 aciclovir、valaciclovir、famciclovir |
-| [12182687](https://pubmed.ncbi.nlm.nih.gov/12182687/) | 2002 | 綜述 | Drugs Aging | 老年患者病毒性皮膚感染：famciclovir 與 valaciclovir 為給藥頻率較低之新一代抗病毒藥 |
-| [8845591](https://pubmed.ncbi.nlm.nih.gov/8845591/) | 1996 | 綜述 | Drugs Aging | 老年患者急性帶狀疱疹抗病毒治療，famciclovir 為三種有效且耐受性良好的抗病毒藥物之一 |
+| PMID | Año | Tipo | Revista | Hallazgos principales |
+|------|-----|------|---------|----------------------|
+| [19273678](https://pubmed.ncbi.nlm.nih.gov/19273678/) | 2009 | Estudio de cohorte/PK (Nivel 1) | Antimicrob Agents Chemother | Análisis comprehensivo de farmacocinética y seguridad de formulación oral pediátrica de famciclovir en infecciones por HSV/VZV |
+| [29431387](https://pubmed.ncbi.nlm.nih.gov/29431387/) | 2017 | Revisión (Nivel 2) | Am Fam Physician | Prevención y manejo de herpes zóster y PHN, incluyendo el papel de fármacos antivirales |
+| [33672709](https://pubmed.ncbi.nlm.nih.gov/33672709/) | 2021 | Revisión (Nivel 2) | Molecules | Avances en manejo de infecciones por VZV, discutiendo el lugar del tratamiento con fármacos antivirales como famciclovir |
+| [8809466](https://pubmed.ncbi.nlm.nih.gov/8809466/) | 1996 | Revisión (Nivel 2) | Clin Microbiol Rev | Revisión clásica sobre patogenia de VZV, latencia y reactivación |
+| [36851652](https://pubmed.ncbi.nlm.nih.gov/36851652/) | 2023 | Revisión (Nivel 2) | Viruses | Manejo de infecciones por HSV y VZV en pacientes con cáncer |
+| [9675639](https://pubmed.ncbi.nlm.nih.gov/9675639/) | 1997 | Revisión | Intervirology | Eficacia de ensayos clínicos amplios de Famciclovir y Valaciclovir en herpes genital e herpes zóster agudo ya establecida |
+| [11487454](https://pubmed.ncbi.nlm.nih.gov/11487454/) | 2001 | Revisión | Curr Treat Options Neurol | Herpes zóster que surge de latencia de VZV posterior a varicela en la infancia, famciclovir/valaciclovir/aciclovir de alta dosis efectivos dentro de 3 días del inicio del sarpullido |
+| [16595111](https://pubmed.ncbi.nlm.nih.gov/16595111/) | 2006 | Revisión | Actas Dermosifiliogr | Fármacos aprobados en Europa para tratamiento sistémico de herpes zóster incluyendo aciclovir, valaciclovir, famciclovir |
+| [12182687](https://pubmed.ncbi.nlm.nih.gov/12182687/) | 2002 | Revisión | Drugs Aging | Infecciones virales dermatológicas en pacientes ancianos: famciclovir y valaciclovir como antivirales de nueva generación con frecuencia de dosificación más baja |
+| [8845591](https://pubmed.ncbi.nlm.nih.gov/8845591/) | 1996 | Revisión | Drugs Aging | Tratamiento antiviral de herpes zóster agudo en pacientes ancianos, famciclovir como uno de los tres fármacos antivirales efectivos y bien tolerados |
 
-## 市場資訊
+## Información del mercado
 
-此藥物目前於本評估市場**Not marketed**，無核准許可證資料可供列示。
+Este fármaco actualmente **Not marketed** en el mercado de evaluación, sin datos de licencia aprobada disponibles para mostrar.
 
-## 安全性考量
+## Consideraciones de seguridad
 
-請參閱藥品仿單以獲取安全性資訊。
+Consulte el prospecto del fármaco para obtener información de seguridad.
 
-## 結論與後續步驟
+## Conclusiones y pasos siguientes
 
-**決策：Proceed with Guardrails**
+**Decisión: Proceed with Guardrails**
 
-**理由：**
-Chickenpox 候選具備 1 筆已完成之 famciclovir 頭對頭 Phase 3 RCT（NCT01327144）及 1 筆兒童族群 Phase 3 PK/安全性試驗（NCT00098046），加上 20 篇支持 VZV 病原機轉一致性的文獻，證據等級達 L2，為本組中最具實證基礎的候選方向，但尚無專門針對「水痘」適應症本身之對照試驗，需在守護機制下審慎推進。
+**Razón:**
+La candidata Varicela tiene 1 ensayo clínico de Fase 3 completado de comparación directa con famciclovir (NCT01327144) más 1 ensayo de Fase 3 de PK/seguridad en población pediátrica (NCT00098046), además de 20 artículos que respaldan la consistencia del mecanismo patogénico de VZV, alcanzando un nivel de evidencia L2, siendo la dirección candidata con mayor base de evidencia en este grupo, pero aún sin ensayos de control dedicados específicamente a la indicación de "varicela" en sí, requiriendo avance cauteloso bajo mecanismos de salvaguardia.
 
-**為進展所需：**
-- TFDA／目標市場仿單警語與禁忌症資料（DG001，Blocking，目前無法進行 S1 安全性初評）
-- DrugBank 完整作用機轉（MOA）資料（DG002，High，Limits mechanistic-link analysis深度）
-- 藥物交互作用（DDI）資料庫查詢結果（目前為 not_found）
-- 針對兒童水痘族群之专门療效／劑量對照試驗規劃
+**Requerido para progreso:**
+- Datos de advertencias y contraindicaciones de prospecto TFDA / mercado objetivo (DG001, Bloqueante, actualmente imposible realizar evaluación inicial de seguridad S1)
+- Datos completos de mecanismo de acción (MOA) de DrugBank (DG002, Alto, Limita profundidad de análisis de vínculo mecanístico)
+- Resultados de consulta de base de datos de interacciones farmacológicas (DDI) (actualmente not_found)
+- Planificación de ensayo de control especializado de eficacia/dosificación para población pediátrica de varicela
 
 ---
 
-### 附錄：其他預測適應症證據等級一覽
+### Apéndice: Resumen de nivel de evidencia para otras indicaciones predichas
 
-| 排名 | 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
-|------|--------|-----------|---------|---------|------|
+| Rango | Indicación | Puntuación TxGNN | Nivel de evidencia | Etapa de decisión | Recomendación |
+|-------|-----------|-----------------|-------------------|-----------------|--------------|
 | 1 | Post-infectious neuralgia | 99.75% | L3 | S2 | Proceed with Guardrails |
 | 2 | Sequela of COVID-19 | 99.73% | L5 | S0 | Hold |
 | 3 | Hepatitis C induced liver cirrhosis | 99.73% | L5 | S0 | Hold |
 | 4 | Malignant pleural mesothelioma | 99.46% | L5 | S0 | Hold |
 | 5 | AIDS-related disorder | 99.30% | L3 | S2 | Proceed with Guardrails |
 | 6 | Malignant epithelioid mesothelioma | 99.14% | L5 | S0 | Hold |
-| **7** | **Chickenpox（本報告主題）** | **99.11%** | **L2** | **S3** | **Proceed with Guardrails** |
+| **7** | **Varicela (Tema principal de este informe)** | **99.11%** | **L2** | **S3** | **Proceed with Guardrails** |
 | 8 | Sarcomatoid mesothelioma | 99.09% | L5 | S0 | Hold |
 | 9 | Malignant visceral pleura tumor | 99.04% | L5 | S0 | Hold |
 
-*間皮瘤相關 4 項候選（rank 4、6、8、9）無任何試驗或文獻支持，機轉上抗疱疹病毒藥物與石綿相關惡性腫瘤病理生理無交集，判斷為模型預測雜訊，不建議進一步投入資源。*
+*Los 4 candidatos relacionados con mesotelioma (rank 4, 6, 8, 9) carecen de cualquier ensayo o apoyo bibliográfico, y mecanísticamente no hay intersección entre la fisiopatología de fármacos antivirales contra virus del herpes y tumores malignos relacionados con amianto. Se juzga que son ruido de predicción del modelo y no se recomienda inversión adicional de recursos.*
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
