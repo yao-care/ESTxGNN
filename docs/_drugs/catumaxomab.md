@@ -2,7 +2,7 @@
 layout: default
 title: Catumaxomab
 parent: Solo predicción del modelo (L5)
-nav_order: 63
+nav_order: 108
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,33 +29,36 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Catumaxomab: De Ascitis Maligna a Retinopatía Diabética No Proliferativa Grave
+# Catumaxomab: De Indicación Original No Disponible a Retinopatía Diabética No Proliferativa Grave
 
 ## Resumen en Una Frase
 
-Catumaxomab es un anticuerpo biespecífico trifuncional (anti-EpCAM x anti-CD3), conocido internacionalmente por su uso en ascitis maligna asociada a tumores epiteliales EpCAM-positivos.
-El modelo TxGNN predice que podría ser efectivo para **Retinopatía Diabética No Proliferativa Grave**,
-pero **actualmente no existe ningún ensayo clínico ni publicación** que respalde esta dirección — se trata de una predicción puramente algorítmica.
+Catumaxomab es un anticuerpo biespecífico (EpCAM × CD3) que redirige linfocitos T contra células tumorales; los datos recibidos no incluyen su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ascitis maligna en tumores epiteliales EpCAM-positivos (uso internacional conocido; sin ficha técnica registrada en España) |
+| Indicación Original | No disponible (las autorizaciones de AEMPS no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
 | Puntaje de Predicción TxGNN | 99.64% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) de catumaxomab en la base de datos consultada. Según la información conocida, catumaxomab es un anticuerpo biespecífico trifuncional que une simultáneamente EpCAM (expresado en células tumorales epiteliales) y CD3 (en linfocitos T), reclutando además células accesorias con receptor Fc, para destruir células tumorales malignas. Su uso conocido es en ascitis maligna.
+**No se encontró un vínculo mecanístico que respalde esta predicción.** El puntaje de TxGNN (0.996) es la única base, sin ensayos ni literatura de apoyo.
 
-No existe una relación biológica establecida entre este mecanismo inmuno-oncológico y la retinopatía diabética no proliferativa grave, cuya fisiopatología involucra daño microvascular, hiperpermeabilidad capilar y vías como VEGF — procesos no relacionados con el reclutamiento de células T mediado por EpCAM/CD3. El propio Evidence Pack señala explícitamente que esta predicción "carece de soporte mecanístico" y es únicamente resultado de la similitud de embeddings del modelo TxGNN.
+Catumaxomab es un anticuerpo biespecífico que se une a EpCAM y CD3, y redirige los linfocitos T hacia las células tumorales que expresan EpCAM. La retinopatía diabética, en cambio, depende de la fuga vascular mediada por VEGF, la inflamación y el daño neurovascular. Ninguna vía conecta ambos mecanismos. Además, la activación sistémica de linfocitos T y la liberación de citocinas supondrían una preocupación de seguridad en el ojo.
 
-Cabe señalar que el mismo Evidence Pack incluye otras dos indicaciones candidatas de menor rango (osteoporosis inducida por fármacos y retinopatía diabética general), ambas con el mismo problema: puntajes altos de TxGNN pero sin ningún fundamento mecanístico ni evidencia real que las respalde.
+El modelo también predijo **osteoporosis inducida por fármacos** (99.58%) y **retinopatía diabética** (99.47%), ambas con nivel L5 y decisión Hold:
+
+- **Retinopatía diabética:** solapa con la predicción principal, por lo que ambas no constituyen evidencia independiente. Las terapias establecidas actúan sobre VEGF, la inflamación o vías láser y quirúrgicas, ninguna relacionada con la activación de linfocitos T por EpCAM/CD3.
+- **Osteoporosis inducida por fármacos:** la redirección de linfocitos T y la inducción de citocinas proinflamatorias (TNF-alfa, IL-6) harían esperar, en todo caso, más resorción ósea y no protección. Es una preocupación teórica, no evidencia documentada. Lo más probable es que sea un artefacto de los embeddings del grafo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,17 +68,28 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1241826001 | KORJUNY 10 microgramos | Concentrado para solución para perfusión | No especificada en los datos |
+| 1241826002 | KORJUNY 50 microgramos | Concentrado para solución para perfusión | No especificada en los datos |
+| 09512001 | REMOVAB 10 microgramos | Concentrado para solución para perfusión | No especificada en los datos |
+| 09512002 | REMOVAB 50 microgramos | Concentrado para solución para perfusión | No especificada en los datos |
+
+Titulares: Atnahs Pharma Netherlands B.V. (KORJUNY) y Fresenius Biotech GmbH (REMOVAB).
+
 ## Citotoxicidad
 
-*(Sección incluida por tratarse de un agente antineoplásico/inmunoterapia oncológica.)*
+Catumaxomab actúa sobre células tumorales que expresan EpCAM, por lo que se incluye esta sección. Los datos recibidos no contienen categorías de DrugBank ni datos de toxicidad.
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo biespecífico trifuncional, T-cell engager) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto (sin datos disponibles) |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto (sin datos disponibles) |
-| Items de Monitoreo | Hemograma completo y signos de síndrome de liberación de citocinas, dado que es un anticuerpo T-cell engager; función hepática y renal |
-| Protección en Manejo | Debe seguir las regulaciones estándar de manejo de agentes antineoplásicos/biológicos citotóxicos |
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo biespecífico que redirige linfocitos T) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
@@ -86,13 +100,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Las tres indicaciones predichas por TxGNN (incluida la de mayor rango, retinopatía diabética no proliferativa grave) son de Nivel de Evidencia L5 — puntaje de modelo únicamente, sin ensayos clínicos, sin literatura y sin relación mecanística plausible. Además, el fármaco no está comercializado en España y faltan datos regulatorios bloqueantes (advertencias/contraindicaciones de ficha técnica).
+La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos ni publicaciones. No existe una conexión mecanística plausible entre la activación de linfocitos T por EpCAM/CD3 y la retinopatía diabética, y la seguridad ocular de un anticuerpo que activa linfocitos T no está demostrada.
 
 **Para avanzar se necesita:**
-- Ficha técnica oficial (AEMPS/TFDA) con advertencias, contraindicaciones e interacciones farmacológicas
-- Justificación mecanística real que conecte el eje EpCAM/CD3 con patología retiniana diabética u ósea
-- Al menos un estudio preclínico o clínico que respalde alguna de las tres indicaciones predichas
-- Evaluación de viabilidad regulatoria, dado que el fármaco carece de autorización de comercialización en España
+- Obtener el prospecto de AEMPS (advertencias y contraindicaciones), un vacío bloqueante para cualquier evaluación de seguridad
+- Completar los datos del mecanismo de acción y de la indicación original desde DrugBank
+- Evidencia preclínica o mecanística que conecte EpCAM/CD3 con la fisiopatología de la retinopatía diabética
+- Evaluar la compatibilidad de vía de administración (una administración ocular no está definida ni respaldada)
+- Reevaluar solo si aparecen ensayos o literatura independientes que respalden alguna de las tres predicciones
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

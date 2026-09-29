@@ -2,7 +2,7 @@
 layout: default
 title: Diltiazem
 parent: Solo predicción del modelo (L5)
-nav_order: 93
+nav_order: 178
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Diltiazem: De Hipertensión y Angina a Susceptibilidad a Ictus Isquémico
+# Diltiazem: De Indicación Original No Registrada a Susceptibilidad Obsoleta al Ictus Isquémico
 
 ## Resumen en Una Frase
 
-Diltiazem es un bloqueador de los canales de calcio no-dihidropiridínico, utilizado clásicamente para el control de la hipertensión, la angina de pecho y las arritmias. El modelo TxGNN predice que podría estar asociado con **"obsolete susceptibility to ischemic stroke"**, pero esta dirección no cuenta actualmente con ningún ensayo clínico ni publicación que la respalde — se trata de una predicción computacional aislada.
+Diltiazem es un bloqueador de canales de calcio no dihidropiridínico comercializado en España. Los datos suministrados no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **"susceptibilidad obsoleta al ictus isquémico"**, un término que la ontología marca como obsoleto.
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ---
 
@@ -41,21 +43,23 @@ Diltiazem es un bloqueador de los canales de calcio no-dihidropiridínico, utili
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión, angina de pecho y arritmias (según clase farmacológica) |
-| Nueva Indicación Predicha | Susceptibilidad a Ictus Isquémico ("obsolete susceptibility to ischemic stroke") |
+| Indicación Original | No disponible en los datos de autorización |
+| Nueva Indicación Predicha | Susceptibilidad obsoleta al ictus isquémico (término obsoleto) |
 | Puntaje de Predicción TxGNN | 99.08% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción específico para esta indicación. Según la información conocida, diltiazem es un bloqueador de los canales de calcio no-dihidropiridínico (CCB), cuya eficacia en el control de la hipertensión, la angina de pecho y las arritmias está bien establecida. Mecanísticamente, el control de la presión arterial es un factor de riesgo modificable relevante para el ictus isquémico, lo que ofrece una base teórica indirecta para esta dirección — pero se trata de un razonamiento a nivel de clase farmacológica, no de evidencia mecanística específica para esta indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información suministrada. Diltiazem es un bloqueador de canales de calcio no dihidropiridínico, con efectos vasodilatadores y reductores de la presión arterial. Esto es farmacología de contexto y no evidencia de los datos aportados. Mecanísticamente, esos efectos podrían relacionarse con el riesgo cerebrovascular.
 
-**Advertencia importante:** el nombre de la indicación predicha, "obsolete susceptibility to ischemic stroke", contiene el término "obsolete", lo que sugiere una posible anomalía en la etiqueta de la ontología o el grafo de conocimiento utilizado por el modelo. Antes de avanzar con esta candidatura es necesario confirmar que se trata de un concepto clínico válido y no de ruido en los datos de origen.
+El único respaldo de esta predicción es la puntuación elevada del grafo de conocimiento TxGNN (0.991). No hay ensayos ni literatura que la confirmen, y no se ha podido evaluar la similitud con la indicación original.
+
+Hay además una advertencia importante: el término de enfermedad está marcado como **obsoleto** en su ontología. Es un nodo en desuso y no una indicación clínica definida, por lo que la puntuación alta podría deberse a artefactos del grafo. Antes de seguir evaluando, conviene asignarlo a un concepto vigente relacionado con el ictus.
 
 ---
 
@@ -71,6 +75,20 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
+## Información de Mercado en España
+
+Hay 20 autorizaciones en total. Se muestran las 5 principales. El texto de indicación aprobada no figura en los datos, por lo que no se incluye.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 60006 | LACEROL RETARD 120 mg cápsulas duras de liberación prolongada | Cápsula dura de liberación prolongada | Lacer S.A. |
+| 11456610496 | TILKER cápsulas | Cápsula dura de liberación prolongada | Lavipharm S.A. |
+| 60089 | DOCLIS RETARD 120 mg cápsulas duras de liberación prolongada | Cápsula dura de liberación prolongada | Laboratorios Bial S.A. |
+| 60214 | ANGIODROX 300 mg cápsulas duras de liberación prolongada | Cápsula dura de liberación prolongada | Viatris Healthcare Limited |
+| 59776 | DINISOR RETARD 180 mg comprimidos de liberación modificada | Comprimido de liberación modificada | Pfizer S.L. |
+
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
@@ -82,14 +100,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible se limita a la predicción del modelo TxGNN (L5), sin ningún ensayo clínico ni publicación que la respalde, y el propio nombre de la indicación presenta una anomalía ("obsolete") que debe aclararse antes de invertir más recursos. Además, faltan datos de seguridad regulatoria de carácter bloqueante.
+La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayos ni literatura. Además, la enfermedad predicha es un término obsoleto que no representa una indicación clínica definida.
 
 **Para avanzar se necesita:**
-- Confirmar si "obsolete susceptibility to ischemic stroke" es un concepto clínico válido o un artefacto del grafo de conocimiento
-- Obtener las advertencias, contraindicaciones y ficha técnica oficial (AEMPS/TFDA) del diltiazem — actualmente bloqueante para la evaluación de seguridad (S1)
-- Confirmar el mecanismo de acción detallado vía DrugBank u otra fuente farmacológica
-- Buscar estudios preclínicos o mecanísticos que vinculen específicamente los CCB con la reducción del riesgo de ictus isquémico
-- Verificar el estado de comercialización real en España, dado que actualmente consta como no comercializado
+- Asignar el término obsoleto a un concepto vigente de ictus isquémico o de riesgo cerebrovascular, y repetir la evaluación con ese concepto.
+- Obtener el prospecto de la AEMPS para conocer las indicaciones aprobadas, advertencias y contraindicaciones.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Buscar ensayos clínicos y literatura sobre diltiazem en ictus isquémico con el concepto ya asignado.
+- Evaluar la compatibilidad de vías de administración, hoy pendiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

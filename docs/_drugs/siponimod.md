@@ -2,7 +2,7 @@
 layout: default
 title: Siponimod
 parent: Solo predicción del modelo (L5)
-nav_order: 259
+nav_order: 494
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,41 +29,41 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Siponimod: De Esclerosis Multiple Secundariamente Progresiva a Hipertension Pulmonar
+# Siponimod: De Esclerosis Múltiple a Hipertensión Pulmonar
 
 ## Resumen en Una Frase
 
-Siponimod es un modulador selectivo de los receptores S1P1/S1P5, actualmente indicado para la esclerosis multiple secundariamente progresiva (segun se menciona en el analisis de otra indicacion candidata de este mismo informe; el farmaco no esta comercializado en España y no hay ficha tecnica local disponible). El modelo TxGNN predice que podria ser efectivo para **Hipertension Pulmonar**, pero actualmente **no existe ningun ensayo clinico ni publicacion** que respalde esta direccion — se trata de una prediccion puramente algoritmica.
+Siponimod (comercializado en España como Mayzent) es un modulador de los receptores S1P1/S5 de la esfingosina-1-fosfato, utilizado como inmunomodulador en esclerosis múltiple. El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Esclerosis multiple secundariamente progresiva (referencia indirecta hallada en el racional de otra indicacion candidata; sin confirmacion en ficha tecnica española) |
-| Nueva Indicacion Predicha | Hipertension Pulmonar |
-| Puntaje de Prediccion TxGNN | 99.68% |
+| Indicación Original | No disponible: los textos de indicación de las autorizaciones de la AEMPS están vacíos. La esclerosis múltiple se deduce del contexto de la literatura y de la clase farmacológica |
+| Nueva Indicación Predicha | Hipertensión pulmonar |
+| Puntaje de Predicción TxGNN | 99,68% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion original en este informe (dato marcado como brecha de informacion, DG002). Segun la informacion parcial disponible en el analisis de otras indicaciones candidatas, siponimod actua como modulador selectivo de los receptores de esfingosina-1-fosfato (S1P1/S1P5), un mecanismo compartido con otros farmacos de su clase (p. ej. fingolimod) que regulan el trafico linfocitario y tienen efectos conocidos sobre el tono vascular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, siponimod es un modulador de los receptores S1P1 y S5, cuya acción reduce la salida de linfocitos de los ganglios linfáticos. Su eficacia inmunomoduladora es la base de su uso original.
 
-La via de señalizacion S1P esta mecanisticamente relacionada con el remodelado vascular, lo que ofrece una hipotesis teorica plausible de vinculo con la hipertension pulmonar. Sin embargo, esta conexion es puramente especulativa: el conjunto de datos revisado no contiene ningun ensayo clinico ni publicacion cientifica que evalue siponimod en hipertension pulmonar. El puntaje elevado del modelo TxGNN (99.68%) refleja unicamente una asociacion aprendida por la red, no evidencia clinica real.
+La señalización de S1P participa en la remodelación vascular pulmonar, por lo que existe un vínculo biológico plausible pero **no verificado**. No hay estudios que lo confirmen. Además, los efectos cardiovasculares conocidos de siponimod (bradicardia, cambios en la presión arterial) no respaldan un vínculo terapéutico con esta enfermedad.
 
-Por este motivo, esta prediccion se clasifica en el nivel de evidencia mas bajo (L5) y no debe interpretarse como una senal de eficacia, sino como una hipotesis de investigacion sin respaldo experimental actual.
+En conjunto, la predicción tiene un puntaje alto (rango 5666 en TxGNN), pero no cuenta con respaldo mecanístico ni clínico. Debe tratarse como una hipótesis exploratoria.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,32 +73,46 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Informacion de Mercado en España
+## Información de Mercado en España
 
-Siponimod no cuenta con autorizaciones de comercializacion registradas en España (0 autorizaciones, estado de mercado: no comercializado). No hay informacion de producto, forma farmaceutica ni indicacion aprobada disponible para tabular.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1191414001 | Mayzent 0,25 mg comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
+| 1191414003 | Mayzent 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
+| 1191414007 | Mayzent 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
+
+El texto de indicación aprobada no está disponible en los registros recibidos.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-*Nota: el analisis de otra indicacion candidata dentro de este mismo informe (angina de Prinzmetal) señala que los moduladores S1P como siponimod tienen un riesgo conocido de bradicardia y bloqueo auriculoventricular en la primera dosis. Este dato no proviene de la ficha tecnica local (no disponible, brecha DG001) sino de referencia cruzada dentro del propio analisis, por lo que debe verificarse contra fuente oficial antes de su uso clinico.*
+Como precaución adicional, los efectos cardíacos de siponimod (bradicardia, retraso de la conducción auriculoventricular) requerirían una evaluación específica en pacientes con enfermedad cardiopulmonar.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion de hipertension pulmonar se basa unicamente en el puntaje del modelo TxGNN, sin ningun ensayo clinico ni publicacion que la respalde (nivel de evidencia L5). No existe base experimental suficiente para avanzar a evaluacion de seguridad o eficacia en este momento.
+**Justificación:**
+La predicción se basa únicamente en el modelo (L5), sin ensayos ni publicaciones. El mecanismo es especulativo, y el perfil cardiovascular del fármaco plantea un posible conflicto con esta indicación.
 
 **Para avanzar se necesita:**
-- Ficha tecnica/prospecto oficial de la AEMPS (brecha bloqueante DG001) para habilitar la evaluacion de seguridad inicial (S1)
-- Datos detallados del mecanismo de accion desde DrugBank (brecha DG002)
-- Estudios preclinicos o de mecanismo que vinculen especificamente la modulacion S1P1/S1P5 con la fisiopatologia de la hipertension pulmonar
-- Monitoreo continuo de nuevas publicaciones y registros de ensayos clinicos para esta combinacion farmaco-indicacion
+- Prospecto de la AEMPS con advertencias y contraindicaciones (falta bloqueante para el cribado de seguridad)
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Datos preclínicos que muestren un efecto de la modulación de S1P1/S5 en modelos de hipertensión pulmonar
+- Evaluación de la seguridad cardiovascular en esta población
+
+**Otras predicciones del mismo fármaco, para referencia:**
+- **Migraña (L4, Research Question):** un único artículo de 2022 (PMID 35382764) menciona siponimod junto con migraña. Solo se dispuso del título y de un resumen parcial. No se puede determinar si el efecto observado es beneficio, agravamiento o coincidencia en pacientes con EM. No hay ensayos.
+- **Artritis reumatoide (L4, Research Question):** existe plausibilidad biológica indirecta por la señalización S1P en enfermedades inmunomediadas (PMID 33983615), pero no hay ensayos específicos de siponimod.
+- **Cardiopatía cifoescoliótica, angina de Prinzmetal y atrofodermia vermiculada (L5, Hold):** solo predicción, sin ensayos, sin publicaciones y sin mecanismo plausible.
+- **Migraña con aura de tronco encefálico y migraña con o sin aura, susceptibilidad a (L4, Hold):** dependen del mismo artículo general sobre migraña. La literatura restante trata de genética de la epilepsia y es contexto, no evidencia de siponimod.
+
+Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

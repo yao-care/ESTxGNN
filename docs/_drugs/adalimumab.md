@@ -2,15 +2,15 @@
 layout: default
 title: Adalimumab
 parent: Evidencia moderada (L3-L4)
-nav_order: 13
-evidence_level: L3
+nav_order: 18
+evidence_level: L4
 indication_count: 6
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,75 +33,104 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Adalimumab es un anticuerpo monoclonal anti-TNF-α, ampliamente conocido por su uso original en el tratamiento de la artritis reumatoide y otras enfermedades inflamatorias autoinmunes.
-El modelo TxGNN predice que podría ser relevante para **Vasculitis Reumatoide**,
-con **5 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección — si bien la evidencia disponible es mixta e incluye señales de seguridad contradictorias (casos documentados de vasculitis inducida por el propio fármaco).
+Adalimumab es un anticuerpo monoclonal anti-TNF, establecido en artritis reumatoide según el propio Evidence Pack. El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**, pero **ninguno de los 5 ensayos clínicos** identificados evalúa esta indicación y de las **20 publicaciones** solo hay **casos clínicos** y **una revisión sistemática de calidad limitada** sobre terapia biológica en general. La evidencia real es débil y además incluye señales de seguridad.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis Reumatoide (información general conocida sobre el fármaco; no se dispone de datos formales de indicación aprobada en el mercado evaluado) |
-| Nueva Indicación Predicha | Vasculitis Reumatoide |
-| Puntaje de Predicción TxGNN | 99.80% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado | No Comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | No registrada en los datos de AEMPS (el texto de indicación aprobada está vacío en todas las autorizaciones). Según el Evidence Pack, el uso establecido es artritis reumatoide |
+| Nueva Indicación Predicha | Vasculitis reumatoide (*rheumatoid vasculitis*) |
+| Puntaje de Predicción TxGNN | 99,80 % |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, adalimumab es un anticuerpo monoclonal completamente humano dirigido contra el TNF-α (factor de necrosis tumoral alfa), que bloquea esta citocina proinflamatoria clave. Su eficacia en artritis reumatoide y otras artropatías inflamatorias ha sido ampliamente comprobada, y mecanísticamente podría ser aplicable a la vasculitis reumatoide.
+## ¿Por qué es Razonable esta Predicción?
 
-La vasculitis reumatoide es una de las manifestaciones extraarticulares más graves de la artritis reumatoide, mediada por complejos inmunes y asociada a las mismas vías inflamatorias impulsadas por TNF-α. En teoría, esto respalda la hipótesis de que un inhibidor de TNF-α podría ser beneficioso en esta indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, adalimumab es un anticuerpo monoclonal humano que neutraliza el factor de necrosis tumoral alfa (TNF-α). Su eficacia en artritis reumatoide está comprobada y, mecanísticamente, podría ser aplicable a la vasculitis reumatoide.
 
-Sin embargo, la literatura disponible muestra señales contradictorias: varios reportes de caso documentan que adalimumab puede **inducir o coexistir con** vasculitis leucocitoclástica y eventos tipo lupus (la llamada "paradoja anti-TNF"), mientras que otro grupo de reportes describe una respuesta favorable de la vasculitis digital al tratamiento con adalimumab. No existe consenso mecanístico claro, por lo que esta predicción debe interpretarse como una **señal de seguridad a esclarecer**, más que como evidencia sólida de eficacia.
+La vasculitis reumatoide es una complicación extraarticular grave de la artritis reumatoide, en la que el TNF-α participa en la inflamación. Por eso, bloquear esta citocina es plausible. Además, la revisión sistemática de 2021 indica que los fármacos biológicos se han incorporado recientemente al arsenal terapéutico de esta enfermedad.
+
+Sin embargo, la evidencia específica en vasculitis es escasa y hay una señal contraria importante: con adalimumab y otros anti-TNF se han descrito casos de vasculitis paradójica y eventos tipo lupus. Por ello, la predicción es una **pregunta de investigación** y no una recomendación terapéutica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
+Se identificaron 5 ensayos, todos con relevancia baja (grado C): ninguno evalúa eficacia en vasculitis reumatoide.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completado | 184 | Estudio observacional multinacional en pacientes con AR tratados con tocilizumab tras respuesta inadecuada a DMARDs; ofrece datos de seguridad de contexto en la misma población de biológicos, sin foco específico en vasculitis. |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completado | 808 | Estudio transversal multicéntrico de patrones de tratamiento con DMARD biológicos en pacientes con AR en China; puede incluir comorbilidad de vasculitis, pero no fue diseñado para evaluar esta indicación. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Desconocido | 750.000 | Estudio farmacoepidemiológico a gran escala sobre el riesgo de enfermedades inflamatorias inmunomediadas (IMID) incidentes en pacientes tratados con biológicos; podría capturar señales de vasculitis inducida, pero no es el criterio de valoración principal. |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún no reclutando | 80 | Evalúa el manejo perioperatorio de inmunosupresores en pacientes reumatológicos sometidos a artroplastia de hombro; relación indirecta, sin foco en vasculitis. |
-| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Completado | 9.261 | Estudio de vida real sobre brolucizumab en degeneración macular húmeda; no relacionado con adalimumab ni con vasculitis — probable error de indexación en la base de datos. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún sin reclutar | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos sometidos a artroplastia de hombro; no evalúa vasculitis |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | No aplica | Completado | 184 | Estudio observacional de tocilizumab en artritis reumatoide; sin criterio de valoración en vasculitis |
+| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | No aplica | Completado | 9261 | Brolucizumab en degeneración macular húmeda; no relacionado, probable coincidencia de palabras clave |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | No aplica | Completado | 808 | Estudio transversal de patrones de tratamiento con FAME biológicos en artritis reumatoide en China |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | No aplica | Desconocido | 750000 | Riesgo de nuevas enfermedades inflamatorias inmunomediadas con biológicos; no específico de la indicación |
+
+---
 
 ## Evidencia de Literatura
 
+Se muestran las 10 publicaciones más relevantes de las 20 recuperadas, priorizando revisiones y estudios de cohorte sobre casos clínicos.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Revisión Sistemática | Clinical rheumatology | Revisión sistemática (PRISMA) sobre el uso de fármacos biológicos, incluyendo anti-TNF, en el tratamiento de la vasculitis reumatoide. |
-| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Revisión Sistemática | Clinical and experimental rheumatology | Comparación de características clínicas de vasculitis en 2707 pacientes con AR, 18 de ellos con vasculitis, tratados o no con anti-TNF. |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohorte | RMD open | Registro BSRBR-RA: compara el riesgo específico por fármaco de eventos tipo lupus y tipo vasculitis en pacientes con AR tratados con TNFi frente a DMARDs no biológicos. |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Reporte de Caso | The American Journal of Dermatopathology | Primer caso reportado de vasculitis leucocitoclástica cutánea con hemofagocitosis perivascular asociada al tratamiento con adalimumab en AR. |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Reporte de Caso | Case reports in rheumatology | Caso de vasculitis digital en paciente con AR que respondió favorablemente al tratamiento con adalimumab. |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Reporte de Caso | Internal medicine (Tokyo, Japan) | Crisis aguda de hipertensión pulmonar en un paciente con vasculitis reumatoide, ocho meses después de reducir la dosis de adalimumab. |
-| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Reporte de Caso | Nephrologie & therapeutique | Glomerulonefritis necrotizante extracapilar asociada a anticuerpos anti-citoplasma de neutrófilos (ANCA) en paciente tratado con adalimumab por AR. |
-| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Reporte de Caso | Clinical rheumatology | Primer caso reportado de síndrome antifosfolípido asociado a adalimumab, con revisión de la literatura sobre vasculitis inducida por anti-TNF. |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Reporte de Caso | Internal medicine (Tokyo, Japan) | Nefritis asociada a ANCA (MPO) durante tratamiento con abatacept y adalimumab por AR, atenuada posteriormente con tocilizumab. |
-| [24558628](https://pubmed.ncbi.nlm.nih.gov/24558628/) | 2013 | Reporte de Caso | Case reports in nephrology | Adalimumab exacerba una lesión renal aguda por glomerulonefritis por IgA e induce autoanticuerpos tipo lupus en un paciente con psoriasis. |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Revisión sistemática | Clinical Rheumatology | Revisa el uso de fármacos biológicos en vasculitis reumatoide; evidencia de baja calidad, no específica de adalimumab |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohorte (farmacovigilancia) | RMD Open | Compara el riesgo de eventos tipo lupus y tipo vasculitis en pacientes con artritis reumatoide tratados con anti-TNF frente a FAME no biológicos (BSRBR-RA) |
+| [18799049](https://pubmed.ncbi.nlm.nih.gov/18799049/) | 2008 | Revisión sistemática | Clin Exp Rheumatol | Compara la vasculitis en pacientes con artritis reumatoide con y sin tratamiento anti-TNF (2707 pacientes, 18 vasculitis) |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Caso clínico | Case Reports in Rheumatology | Vasculitis digital en artritis reumatoide con buena respuesta a adalimumab |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Caso clínico | Internal Medicine | Crisis aguda de hipertensión pulmonar tras reducir adalimumab en vasculitis reumatoide |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Caso clínico | Internal Medicine | Nefritis asociada a ANCA durante tratamiento con abatacept y adalimumab; mejoró con tocilizumab |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Caso clínico (evento adverso) | Am J Dermatopathol | Vasculitis leucocitoclástica asociada a adalimumab en artritis reumatoide |
+| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Caso clínico | Néphrologie & Thérapeutique | Glomerulonefritis necrosante con ANCA en paciente tratado con adalimumab |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Revisión | Journal of Clinical Medicine | Actualización del tratamiento de epiescleritis y escleritis asociadas a artritis reumatoide |
+| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Caso clínico y revisión | Clinical Rheumatology | Primer caso de síndrome antifosfolípido asociado a adalimumab; revisa vasculitis inducida por adalimumab |
+
+---
+
+## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones. Los datos de AEMPS no incluyen el texto de la indicación aprobada.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1171216014 | IMRALDI 40 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
+| 03256003 | HUMIRA 40 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos |
+| 1171216001 | IMRALDI 40 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos |
+| 1211589001 | HUKYNDRA 40 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos |
+| 1181286010 | HYRIMOZ 80 mg solución inyectable en pluma precargada | Solución inyectable en jeringa precargada | No disponible en los datos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad: el Evidence Pack no contiene advertencias, contraindicaciones ni interacciones farmacológicas.
+
+La literatura sí aporta una señal relevante para esta indicación: se han descrito vasculitis (leucocitoclástica y asociada a ANCA), eventos tipo lupus y otros fenómenos autoinmunes durante el tratamiento con adalimumab. Esto obliga a valorar con especial cuidado su uso en un cuadro que ya es vasculítico.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- La evidencia actual para "Vasculitis Reumatoide" corresponde al nivel L3 (revisiones sistemáticas y estudios observacionales), sin ensayos clínicos controlados diseñados específicamente para esta indicación.
-- Existe una señal de seguridad relevante y no resuelta: múltiples reportes de caso documentan que adalimumab puede **inducir** vasculitis (leucocitoclástica, asociada a ANCA, tipo lupus) además de tratarla — la conocida "paradoja anti-TNF" — lo que exige cautela antes de avanzar.
-- Existe un vacío de datos de tipo *Blocking* (DG001: advertencias/contraindicaciones del prospecto no disponibles), que impide completar la evaluación de seguridad inicial (S1) requerida antes de cualquier decisión de avance.
-- Como referencia de contexto: otras indicaciones predichas para adalimumab en este mismo candidato —espondilopatía inflamatoria y artritis reumatoide juvenil poliarticular— cuentan con evidencia de nivel L1 (múltiples ensayos Fase 3) y ya corresponden a usos clínicos establecidos del fármaco, a diferencia de la vasculitis reumatoide, que permanece como pregunta de investigación.
+La predicción de TxGNN es muy alta (99,80 %), pero la evidencia se limita a casos clínicos y a una revisión sistemática de baja calidad (L4). Ningún ensayo clínico evalúa la indicación, y existen señales de vasculitis paradójica con adalimumab. Además, faltan datos de seguridad del prospecto de AEMPS, por lo que no se puede pasar del cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener las advertencias, contraindicaciones y datos de seguridad del prospecto oficial (resolver DG001, gap bloqueante).
-- Obtener datos formales del mecanismo de acción desde DrugBank u otra fuente regulatoria (resolver DG002).
-- Diseñar o identificar estudios prospectivos controlados enfocados específicamente en vasculitis reumatoide, no solo en AR general.
-- Establecer un plan de monitoreo de seguridad específico para detectar vasculitis inducida por el propio fármaco (diagnóstico diferencial entre enfermedad de base y evento adverso).
-- Confirmar la viabilidad regulatoria y de mercado, dado que el fármaco actualmente no está comercializado en el mercado evaluado.
+- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante.
+- Obtener el mecanismo de acción detallado desde DrugBank.
+- Revisar de forma sistemática la evidencia de anti-TNF en vasculitis reumatoide, distinguiendo casos de respuesta de casos de vasculitis inducida.
+- Comparar con alternativas con más respaldo en esta enfermedad (por ejemplo, rituximab o tocilizumab, según la literatura recuperada).
+- Considerar un estudio observacional o un ensayo exploratorio solo si el balance beneficio-riesgo resulta favorable.
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

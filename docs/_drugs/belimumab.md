@@ -2,7 +2,7 @@
 layout: default
 title: Belimumab
 parent: Solo predicción del modelo (L5)
-nav_order: 35
+nav_order: 65
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,74 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Belimumab: De Lupus Eritematoso Sistémico a Trastorno Primario de Liberación Plaquetaria
-
-*(Nota: el Evidence Pack no registra la indicación original ni el MOA de belimumab — `original_indications` viene vacío y `original_moa` marcado como dato faltante. La indicación "Lupus Eritematoso Sistémico" se incluye aquí como conocimiento público/regulatorio externo sobre este fármaco, no como dato extraído del Evidence Pack; ver DG002 en la sección de razonabilidad.)*
+# Belimumab: De Inhibidor de BLyS (BAFF) a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Belimumab es un anticuerpo monoclonal anti-BLyS/BAFF, conocido públicamente por su uso en lupus eritematoso sistémico, aunque el Evidence Pack actual no contiene datos verificados sobre su indicación original ni su MOA. El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria** (*primary release disorder of platelets*), con un **score de 99.96%**, pero solo **1 ensayo clínico** vinculado (cuya relevancia real para esta indicación está pendiente de verificación) y **0 publicaciones** que la respalden directamente.
+Belimumab es un anticuerpo monoclonal que inhibe BLyS (BAFF), reduce la supervivencia de los linfocitos B y disminuye la producción de autoanticuerpos. Está comercializado en España, pero los datos recibidos no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**, pero esta predicción **no tiene respaldo directo**: hay **1 ensayo clínico** sin relación con la enfermedad y **0 publicaciones**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack (sin licencias registradas en Taiwan; `original_indications` vacío) |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
-| Puntaje de Predicción TxGNN | 99.96% (rank interno #1159) |
+| Puntaje de Predicción TxGNN | 99,96 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Taiwan | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de belimumab en este Evidence Pack (dato marcado como faltante, severidad Alta según el registro de brechas DG002). Según información pública conocida, belimumab es un anticuerpo monoclonal que inhibe BLyS/BAFF (B-lymphocyte stimulator), una citocina clave en la supervivencia de linfocitos B autorreactivos, y su uso está establecido en enfermedades autoinmunes mediadas por linfocitos B como el lupus eritematoso sistémico.
+Belimumab inhibe BLyS (BAFF), una molécula clave para la supervivencia de los linfocitos B. Al bloquearla, reduce la producción de autoanticuerpos. Los datos de mecanismo de acción de DrugBank no están disponibles, por lo que esta descripción proviene del análisis mecanístico del propio Evidence Pack.
 
-La relación mecanística entre esa indicación autoinmune y un "trastorno primario de liberación plaquetaria" no es evidente: este último es típicamente un defecto intrínseco de la función plaquetaria (liberación de gránulos), no un proceso mediado primariamente por linfocitos B. El único ensayo clínico vinculado en el Evidence Pack tampoco estudia esta indicación (ver más abajo), por lo que la razonabilidad mecanicista de esta predicción no puede confirmarse con los datos actuales — se trata de una señal generada por el modelo TxGNN sin respaldo mecanístico ni clínico directo disponible.
+Los trastornos primarios de liberación plaquetaria son defectos hereditarios en la secreción de gránulos y en la señalización de las plaquetas. No existe una vía establecida de linfocitos B o BLyS en estas enfermedades. Por eso la relación entre el mecanismo del fármaco y la nueva indicación es débil.
+
+El puntaje alto de TxGNN (0,9996) refleja una asociación calculada sobre el grafo de conocimiento, no un mecanismo respaldado por estudios. **Por ahora la predicción no es razonable desde el punto de vista mecanístico.** Debe tratarse como una señal del modelo pendiente de validación, no como una hipótesis terapéutica sólida.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Fase 2 | Completado | 14 | Estudio mecanístico de belimumab en glomerulonefritis membranosa idiopática (IMGN) positiva para autoanticuerpo anti-PLA2R; evalúa eficacia, seguridad y relación entre biomarcadores y respuesta clínica. **Nota importante: este ensayo estudia glomerulonefritis membranosa, no trastorno de liberación plaquetaria — su relevancia para la indicación predicha está marcada como "pending" en el Evidence Pack y no ha sido confirmada.** |
+| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Fase 2 | Completado | 14 | Estudio abierto de medicina experimental sobre eficacia, seguridad y mecanismo de belimumab (10 mg/kg IV) en glomerulonefropatía membranosa idiopática con autoanticuerpos anti-PLA2R. |
+
+Este ensayo estudia una enfermedad renal mediada por anticuerpos, no un trastorno plaquetario. Solo demuestra que belimumab se ha administrado en una enfermedad autoinmune, y no aporta evidencia para los trastornos de liberación plaquetaria (relevancia: C).
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Información de Mercado en Taiwan
+## Información de Mercado en España
 
-Actualmente no hay autorizaciones de comercialización registradas en Taiwan (estado: no comercializado, 0 licencias).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 11700001 | BENLYSTA 120 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión |
+| 11700002 | BENLYSTA 400 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión |
+| 111700004 | BENLYSTA 200 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
+
+Titular de las tres autorizaciones: Glaxosmithkline (Ireland) Limited.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Cabe destacar que el Evidence Pack registra la ausencia de datos del prospecto/advertencias de TFDA como una brecha de severidad **Bloqueante** (DG001), con impacto explícito: "no se puede proceder a la evaluación inicial de seguridad S1". Tampoco se identificaron interacciones farmacológicas (búsqueda DDI: no encontrada).
-
-## Otras Señales Predichas por TxGNN (Referencia)
-
-El mismo modelo generó otras 5 señales para belimumab, ninguna con ensayos clínicos ni literatura de respaldo directo:
-
-| Indicación | Score TxGNN | Nota |
-|------|------|------|
-| Pseudo-von Willebrand disease | 99.96% | Sin evidencia clínica registrada |
-| Glanzmann thrombasthenia | 99.88% | Evaluado internamente como L5 / Hold — trastorno estructural (déficit GPIIb/IIIa), sin vínculo mecanístico con terapia anti-BAFF |
-| Trombocitopenia aloinmune fetal y neonatal | 99.59% | Sin evidencia clínica registrada |
-| Retinopatía diabética no proliferativa grave | 99.05% | Sin evidencia clínica registrada |
-| Macrotrombocitopenia autosómica dominante | 99.04% | Sin evidencia clínica registrada |
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La única evidencia clínica vinculada a la indicación de mayor rango no estudia realmente el trastorno predicho, no hay literatura de respaldo, el fármaco no está comercializado en Taiwan, y existe una brecha de datos **bloqueante** (DG001) que impide completar la evaluación inicial de seguridad (S1). Con esta combinación de vacíos, no es razonable avanzar más allá de una fase de observación.
+La predicción se apoya solo en el puntaje del modelo (nivel L5). El único ensayo registrado no guarda relación con la enfermedad, no hay literatura y no existe un vínculo mecanístico plausible entre la inhibición de BLyS y los defectos hereditarios de la función plaquetaria.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/warnings de TFDA (o de la agencia reguladora del mercado objetivo) para desbloquear la evaluación de seguridad S1
-- Obtener datos verificados del mecanismo de acción (MOA) de belimumab vía DrugBank
-- Confirmar si existe algún ensayo clínico o publicación que estudie directamente belimumab en trastornos de liberación plaquetaria (el ensayo actual no aplica)
-- Reevaluar la indicación original real del fármaco a partir de fuentes regulatorias verificadas, no solo de conocimiento público
+- Obtener el prospecto de la AEMPS con la indicación aprobada, las advertencias y las contraindicaciones, que hoy faltan y bloquean el cribado de seguridad.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Aportar evidencia preclínica o clínica que conecte la vía BLyS/linfocitos B con la fisiopatología de esta enfermedad. Sin ella, no se justifica avanzar.
+
+**Nota sobre otras predicciones:** de las seis predicciones del modelo, solo la trombocitopenia aloinmune fetal y neonatal (FNAIT) se marcó como "pregunta de investigación". Está causada por aloanticuerpos maternos, por lo que una terapia dirigida a linfocitos B es biológicamente plausible. Sin embargo, no hay evidencia clínica ni bibliográfica, y los datos de seguridad de belimumab en el embarazo son limitados.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

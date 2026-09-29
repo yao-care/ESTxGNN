@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Calcitriol
-parent: Evidencia alta (L1-L2)
-nav_order: 54
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 96
+evidence_level: L5
 indication_count: 7
 ---
 
 # Calcitriol
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,76 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **7**
 
 </div>
 
-# Calcitriol: De Trastornos del Metabolismo de Calcio y Fósforo a Raquitismo Hipofosfatémico Hereditario
-
-*Nota metodológica: TxGNN generó 7 indicaciones predichas para calcitriol. La de mayor puntaje (rank 1, "obsolete vitamin D deficiency") está marcada por el propio pipeline como un artefacto de ontología de enfermedades obsoleta, no como candidato válido; los ranks 3–5 no tienen ningún ensayo ni literatura de respaldo. Este informe se centra en **raquitismo hipofosfatémico hereditario** (rank 7), la única indicación con evidencia clínica directa y de mayor calidad (L2).*
+# Calcitriol: De Indicación Original No Registrada a Deficiencia de Vitamina D (término obsoleto)
 
 ## Resumen en Una Frase
 
-Calcitriol es la forma hormonalmente activa de la vitamina D (1,25-dihidroxivitamina D3), utilizada clínicamente en trastornos del metabolismo de calcio y fósforo. El modelo TxGNN predice que podría ser efectivo para **raquitismo hipofosfatémico hereditario**, con **7 ensayos clínicos** y **20 publicaciones** relacionadas, incluyendo un ensayo que evalúa calcitriol en monoterapia específicamente para esta indicación.
+Calcitriol es la forma activa de la vitamina D y está comercializado en España en cápsulas, solución inyectable y pomada, aunque los datos de autorización no recogen su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de vitamina D (término obsoleto)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este Evidence Pack (sin datos de indicaciones originales ni de ficha técnica de TFDA/AEMPS) |
-| Nueva Indicación Predicha | Raquitismo hipofosfatémico hereditario |
-| Puntaje de Predicción TxGNN | 99.28% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No consta en los datos de autorización de la AEMPS |
+| Nueva Indicación Predicha | Deficiencia de vitamina D (término obsoleto) |
+| Puntaje de Predicción TxGNN | 99,96% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) de calcitriol en este Evidence Pack. Según la información conocida, calcitriol es el metabolito activo final de la vitamina D3, responsable de la absorción intestinal de calcio y fósforo y de la regulación de la mineralización ósea.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, calcitriol es la forma activa de la vitamina D. Su relación biológica con la deficiencia de vitamina D es, por tanto, plausible. La indicación original no está registrada en los datos recibidos, así que no se puede comparar formalmente con la nueva indicación.
 
-El raquitismo hipofosfatémico hereditario (incluyendo la forma ligada al X, XLH) se debe a una pérdida renal crónica de fosfato mediada por exceso de FGF23, la cual también suprime la síntesis endógena de calcitriol. Esto genera un déficit funcional de calcitriol que agrava la mineralización ósea defectuosa, independientemente del aporte de fosfato. Por eso el vínculo mecanístico aquí es directo (no una inferencia lejana): calcitriol se ha usado durante décadas junto con suplementos de fosfato como pilar del tratamiento de esta enfermedad, y ensayos más recientes exploran si la monoterapia con calcitriol basta para mejorar los parámetros óseos sin las complicaciones renales asociadas a las altas dosis de fosfato.
+Hay una advertencia importante. La etiqueta de la enfermedad figura como «obsoleta», y el puntaje tan alto (0,9996) probablemente sea un artefacto de la predicción y no una señal terapéutica real. Antes de cualquier evaluación, este término debe asignarse a un concepto de enfermedad vigente.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) | Fase Temprana 1 | Activo, no reclutando | 20 | Monoterapia con calcitriol (sin fosfato) en XLH; evalúa fosfato sérico, mineralización ósea y crecimiento sin aumentar calcificaciones renales. Relevancia A: título menciona calcitriol explícitamente |
-| [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) | Fase 4 | Estado desconocido | 100 | Compara dosis alta vs. baja de vitamina D activa + fosfato neutro en niños con XLH; probablemente calcitriol, no confirmado literalmente en el título |
-| [NCT06046820](https://clinicaltrials.gov/study/NCT06046820) | Fase 3 | Activo, no reclutando | 27 | Eficacia y seguridad de INZ-701 en deficiencia de ENPP1; fármaco del estudio no confirmado como calcitriol |
-| [NCT00844740](https://clinicaltrials.gov/study/NCT00844740) | N/A | Retirado | 0 | Evalúa cinacalcet (no calcitriol) como tratamiento a largo plazo del raquitismo hipofosfatémico familiar; ensayo retirado |
-| [NCT06921720](https://clinicaltrials.gov/study/NCT06921720) | N/A | Aún no reclutando | 65 | Medición de ATP por espectroscopia de fósforo-31 en diabetes fosfática; estudio observacional, sin evaluación de calcitriol |
-| [NCT01526304](https://clinicaltrials.gov/study/NCT01526304) | N/A | Estado desconocido | 150 | Estudio transversal de FGF23, Klotho y esclerostina en formadores de cálculos renales; no es intervención con calcitriol |
-| [NCT04846647](https://clinicaltrials.gov/study/NCT04846647) | N/A | Completado | 260 | Estudio observacional de secreción inadecuada de FGF23 en pacientes con hipofosfatemia; no evalúa tratamiento con calcitriol |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [6252463](https://pubmed.ncbi.nlm.nih.gov/6252463/) | 1980 | Estudio clínico | The New England Journal of Medicine | Respuesta ósea a fosfato, ergocalciferol y calcitriol en 11 niños con raquitismo resistente a vitamina D; calcitriol aumentó la absorción intestinal de fosfato |
-| [3839245](https://pubmed.ncbi.nlm.nih.gov/3839245/) | 1985 | Estudio clínico | The Journal of Clinical Investigation | Dosis altas de calcitriol curan la osteomalacia coexistente en XLH, a diferencia de la terapia convencional con fosfato y vitamina D |
-| [2492895](https://pubmed.ncbi.nlm.nih.gov/2492895/) | 1989 | Estudio clínico | Calcified Tissue International | Medición de masa ósea en 17 niños con raquitismo hipofosfatémico familiar tras terapia con calcitriol y fosfato suplementario |
-| [29292875](https://pubmed.ncbi.nlm.nih.gov/29292875/) | 2017 | Estudio de cohorte | Pediatric Endocrinology Reviews | Crecimiento espontáneo y efecto de terapia temprana con calcitriol y fosfato en 127 pacientes con XLH de 49 centros |
-| [39181153](https://pubmed.ncbi.nlm.nih.gov/39181153/) | 2024 | Revisión | The Lancet | Revisión de XLH: exceso de FGF23 reduce la síntesis de calcitriol, causando pérdida renal de fosfato y raquitismo |
-| [40295317](https://pubmed.ncbi.nlm.nih.gov/40295317/) | 2025 | Revisión | Calcified Tissue International | Diagnóstico y terapia de XLH, incluyendo el rol de calcitriol en el manejo estándar |
-| [36446330](https://pubmed.ncbi.nlm.nih.gov/36446330/) | 2022 | Revisión | Hormone Research in Paediatrics | Revisión histórica y fisiológica del raquitismo, vitamina D y metabolismo de calcio/fósforo |
-| [17117305](https://pubmed.ncbi.nlm.nih.gov/17117305/) | 2006 | Revisión | Arquivos Brasileiros de Endocrinologia e Metabologia | Raquitismo hipofosfatémico y osteomalacia: niveles inapropiadamente bajos de calcitriol como mecanismo común |
-| [35226335](https://pubmed.ncbi.nlm.nih.gov/35226335/) | 2022 | Estudio de cohorte | Journal of Endocrinological Investigation | Crecimiento en altura y proporción corporal desde el nacimiento hasta la adultez en raquitismo hipofosfatémico hereditario |
-| [3796683](https://pubmed.ncbi.nlm.nih.gov/3796683/) | 1987 | Estudio de cohorte | The New England Journal of Medicine | Hipercalciuria idiopática y raquitismo hipofosfatémico hereditario con hipercalciuria (HHRH) como expresiones de un defecto genético común |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Calcitriol no está actualmente comercializado en España según este Evidence Pack (0 autorizaciones registradas), por lo que no hay información de producto, forma farmacéutica ni indicación aprobada disponible para tabular.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 55973 | ROCALTROL 0,25 mcg CAPSULAS BLANDAS | Cápsula blanda | No disponible |
+| 68934 | CALCITRIOL KERN PHARMA 1 microgramo/ml SOLUCION INYECTABLE EFG | Solución inyectable | No disponible |
+| 55974 | ROCALTROL 0,50 mcg CAPSULAS BLANDAS | Cápsula blanda | No disponible |
+| 64527 | SILKIS 3 microgramos/g POMADA | Pomada | No disponible |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-⚠️ Este Evidence Pack marca como **brecha bloqueante** la ausencia de advertencias/contraindicaciones oficiales (ficha técnica de TFDA), lo que impide actualmente completar la evaluación de seguridad inicial (S1). No se debe avanzar a evaluación clínica sin resolver este punto.
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La indicación de raquitismo hipofosfatémico hereditario cuenta con evidencia de nivel L2: un ensayo activo que evalúa calcitriol en monoterapia (NCT03748966) y décadas de literatura clínica que respaldan a calcitriol como componente histórico del tratamiento estándar (junto con fosfato) para esta enfermedad. Sin embargo, el fármaco no está comercializado en España y faltan datos regulatorios básicos de seguridad, por lo que no puede avanzar sin controles adicionales.
+No hay ensayos ni literatura para esta predicción y la etiqueta de la enfermedad está obsoleta. Solo se sostiene sobre la plausibilidad biológica, así que no puede pasar de L5.
+
+**Otras predicciones del mismo farmaco con más respaldo:**
+
+| Posición | Indicación predicha | Puntaje TxGNN | Nivel | Recomendación |
+|------|------|------|------|------|
+| 7 | Raquitismo hipofosfatémico hereditario | 99,28% | L3 | Proceed with Guardrails |
+| 2 | Acidosis tubular renal | 99,93% | L4 | Research Question |
+| 6 | Síndrome de Dahlberg-Borer-Newcomer | 99,76% | L4 | Hold |
+
+- **Raquitismo hipofosfatémico hereditario:** hay dos ensayos que evalúan directamente calcitriol o vitamina D activa en hipofosfatemia ligada al X. Son NCT03748966 (fase 1 temprana, en curso) y NCT03820518 (fase 4, estado desconocido). Ninguno tiene resultados en el paquete. Probablemente ya sea tratamiento estándar, y la ausencia de indicación original en los datos es una laguna y no prueba de novedad.
+- **Acidosis tubular renal:** la literatura es sobre todo casos clínicos y estudios fisiológicos, y un estudio concluye que la enfermedad no altera el calcitriol circulante. El beneficio probable se limitaría a la enfermedad ósea secundaria.
+- **Síndrome de Dahlberg-Borer-Newcomer:** la evidencia es indirecta y ninguna publicación aborda el síndrome ni el tratamiento con calcitriol.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto de TFDA con advertencias y contraindicaciones oficiales (brecha bloqueante DG001)
-- Datos del mecanismo de acción confirmados vía DrugBank (DG002)
-- Resultados de NCT03748966 (monoterapia con calcitriol en XLH) y NCT06046820 al completarse
-- Evaluación de vías de comercialización/formas farmacéuticas para entrada al mercado español, dado el estado actual "no comercializado"
-- Confirmación de las indicaciones originales aprobadas de calcitriol, actualmente ausentes en este Evidence Pack
+- Asignar «deficiencia de vitamina D (obsoleta)» a un concepto de enfermedad vigente y volver a evaluarlo.
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones) y obtener las indicaciones aprobadas de cada autorización.
+- Consultar el mecanismo de acción en la API de DrugBank.
+- Para raquitismo hipofosfatémico hereditario, buscar los resultados de los ensayos NCT03748966 y NCT03820518, y definir un plan de monitoreo de hipercalciuria, nefrocalcinosis e hiperparatiroidismo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

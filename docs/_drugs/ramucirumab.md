@@ -2,7 +2,7 @@
 layout: default
 title: Ramucirumab
 parent: Solo predicción del modelo (L5)
-nav_order: 236
+nav_order: 455
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,41 +29,40 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ramucirumab: De Uso Oncologico Establecido a Adenocarcinoma del Ligamento Uterino
+# Ramucirumab: Nueva Indicación Predicha, Adenocarcinoma del Ligamento Uterino
 
 ## Resumen en Una Frase
 
-Ramucirumab es un anticuerpo monoclonal anti-VEGFR-2, con uso oncologico global bien establecido (por ejemplo, en cancer gastrico avanzado), aunque este Evidence Pack no incluye datos formales de indicacion original ni de mecanismo de accion. El modelo TxGNN predice que podria ser efectivo para **Adenocarcinoma del Ligamento Uterino**, con un puntaje de prediccion del **99.95%**, pero **sin ningun ensayo clinico ni publicacion** que respalde actualmente esta direccion.
+Ramucirumab es un anticuerpo que bloquea el receptor VEGFR2 y está comercializado en España como Cyramza. El modelo TxGNN predice que podría ser efectivo para **adenocarcinoma del ligamento uterino**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que es solo una hipótesis del modelo.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en este mercado (farmaco no comercializado); uso oncologico global conocido (p. ej., cancer gastrico avanzado) — no confirmado por datos de este Evidence Pack |
-| Nueva Indicacion Predicha | Adenocarcinoma del ligamento uterino |
-| Puntaje de Prediccion TxGNN | 99.95% |
+| Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino |
+| Puntaje de Predicción TxGNN | 99,95% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en este Evidence Pack (dato marcado como brecha de informacion, ver "Para avanzar se necesita"). Segun la informacion contenida en las justificaciones de prediccion del propio modelo, Ramucirumab es un anticuerpo monoclonal dirigido contra el receptor 2 del factor de crecimiento endotelial vascular (VEGFR-2), es decir, una terapia antiangiogenica. Este tipo de mecanismo actua, en teoria, sobre cualquier tumor solido que dependa de la neoangiogenesis para su crecimiento, lo que incluye potencialmente los adenocarcinomas ginecologicos.
+Ramucirumab bloquea VEGFR2, un receptor clave de la angiogénesis (formación de nuevos vasos sanguíneos que alimentan al tumor). Por eso existe una justificación antiangiogénica general para adenocarcinomas. Los datos suministrados no incluyen una descripción detallada del mecanismo de acción ni las indicaciones originales aprobadas.
 
-La relacion entre el uso oncologico conocido del farmaco y la nueva indicacion predicha se apoya en un precedente relevante: otros farmacos antiangiogenicos de la misma familia farmacologica, como bevacizumab, ya cuentan con aprobacion para cancer de cuello uterino. Esto refuerza la plausibilidad mecanistica general de la clase terapeutica en tumores ginecologicos, aunque no constituye evidencia directa para Ramucirumab en el adenocarcinoma del ligamento uterino especificamente.
+Los datos suministrados no respaldan un vínculo específico entre este fármaco y el adenocarcinoma del ligamento uterino. El puntaje de 99,95% es únicamente una predicción del modelo de grafos de conocimiento. Sin ensayos ni publicaciones, no hay corroboración clínica.
 
-Sin embargo, es importante senalar que esta es una prediccion basada unicamente en asociaciones indirectas del grafo de conocimiento de TxGNN. El adenocarcinoma del ligamento uterino es una entidad histologica poco frecuente, y no existe actualmente ningun ensayo clinico, registro ICTRP ni publicacion en PubMed que confirme, refute o siquiera explore esta asociacion.
+Otras predicciones del mismo modelo se concentran en tumores ginecológicos, sobre todo del cuello uterino (por ejemplo, carcinoma endocervical y variantes mucinosas). Todas se encuentran también en nivel L5, sin evidencia clínica.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,60 +72,47 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Otras Indicaciones Relacionadas (Mismo Cluster Predictivo)
+## Información de Mercado en España
 
-El modelo identifico un total de 10 indicaciones candidatas, todas dentro del mismo cluster de tumores ginecologicos/cervicales, todas con nivel de evidencia L5 y recomendacion "Hold" (sin ensayos clinicos ni literatura de respaldo):
-
-| Rango | Indicacion Predicha | Puntaje TxGNN |
-|------|------|------|
-| 1 | Adenocarcinoma del ligamento uterino | 99.95% |
-| 2 | Carcinoma endocervical | 99.95% |
-| 3 | Carcinoma adenoide quistico del cuello uterino | 99.95% |
-| 4 | Adenocarcinoma seroso del ligamento uterino | 99.94% |
-| 5 | Adenocarcinoma mucinoso cervical, variante de celulas en anillo de sello | 99.94% |
-| 6 | Carcinoma adenoescamoso cervical, variante de celulas "glassy cell" | 99.94% |
-| 7 | Adenocarcinoma endometrioide del ligamento uterino | 99.94% |
-| 8 | Adenocarcinoma de celulas claras del ligamento uterino | 99.94% |
-| 9 | Adenocarcinoma mucinoso del ligamento uterino | 99.94% |
-| 10 | Adenocarcinoma mucinoso cervical, variante intestinal | 99.94% |
-
-Esta agrupacion sugiere que el modelo esta capturando una senal general de "tumor ginecologico dependiente de angiogenesis" mas que una asociacion especifica con una histologia concreta, lo cual es coherente con el mecanismo antiangiogenico del farmaco pero refuerza la necesidad de validacion independiente antes de priorizar cualquier subtipo individual.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 114957001 | CYRAMZA 10 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión | Eli Lilly Nederland B.V. |
+| 114957001IP | CYRAMZA 10 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión | Eli Lilly Nederland B.V. |
+| 114957003 | CYRAMZA 10 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión | Eli Lilly Nederland B.V. |
+| 114957003IP | CYRAMZA 10 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión | Eli Lilly Nederland B.V. |
 
 ---
 
 ## Citotoxicidad
 
-**Esta seccion aplica porque, segun el contexto acumulado en las justificaciones de prediccion (mecanismo antiangiogenico, indicaciones predichas exclusivamente oncologicas), Ramucirumab se clasifica como farmaco antineoplasico.**
-
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal antiangiogenico anti-VEGFR-2) |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-VEGFR2), no es un citotóxico convencional |
+
+Para mielosupresión, emetogenicidad, monitoreo y protección en el manejo, consultar las advertencias y precauciones del prospecto.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-Todas las indicaciones predichas se encuentran en nivel de evidencia L5 (unicamente prediccion del modelo, sin ensayos clinicos ni literatura real que la respalde). Ademas, el farmaco no esta comercializado en este mercado y faltan datos criticos de seguridad y mecanismo de accion, por lo que no existe base suficiente para avanzar mas alla de la fase de monitorizacion.
+**Justificación:**
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni publicaciones. Además, faltan los datos de seguridad del prospecto de la AEMPS, lo que impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica oficial (advertencias, contraindicaciones e interacciones) — actualmente marcado como brecha de datos de severidad **Bloqueante**, necesaria para completar la evaluacion inicial de seguridad (S1)
-- Obtener datos formales del mecanismo de accion (MOA) via DrugBank — brecha de severidad **Alta**, necesaria para el analisis de relacion mecanistica
-- Confirmar la(s) indicacion(es) original(es) aprobada(s) del farmaco, ya que no se dispone de esta informacion en el Evidence Pack actual
-- Realizar busquedas ampliadas o periodicas en ClinicalTrials.gov, ICTRP y PubMed, dado que el adenocarcinoma del ligamento uterino es una entidad rara y podria requerir terminologia alternativa de busqueda
-- Evaluar si el precedente de bevacizumab en cancer de cuello uterino puede orientar el diseno de un estudio preclinico o traslacional para Ramucirumab en esta familia de tumores ginecologicos
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que es un bloqueo actual.
+- Completar los datos de mecanismo de acción e indicaciones originales desde DrugBank.
+- Buscar estudios preclínicos, series de casos o ensayos en adenocarcinoma del ligamento uterino y tumores ginecológicos relacionados.
+- Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, hoy pendientes.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

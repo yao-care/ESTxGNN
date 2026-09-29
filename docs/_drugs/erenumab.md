@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Erenumab
-parent: Evidencia moderada (L3-L4)
-nav_order: 109
-evidence_level: L3
+parent: Solo predicción del modelo (L5)
+nav_order: 208
+evidence_level: L5
 indication_count: 1
 ---
 
 # Erenumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Erenumab: De la Prevención de la Migraña a la Migraña con Aura de Tronco Encefálico
+# Erenumab: De Prevención de la Migraña a Migraña con Aura del Tronco Encefálico
 
 ## Resumen en Una Frase
 
-Erenumab es un anticuerpo monoclonal humano dirigido contra el receptor de CGRP (Calcitonin Gene-Related Peptide), utilizado originalmente para la prevención de la migraña episódica y crónica. El modelo TxGNN predice que podría ser efectivo específicamente para la **migraña con aura de tronco encefálico**, con una puntuación de predicción del **99.89%**. Actualmente no existen ensayos clínicos diseñados específicamente para este subtipo, pero la dirección está respaldada por **20 publicaciones**, incluyendo análisis post-hoc de ensayos de Fase 3 y estudios de cohorte del mundo real.
+Erenumab es un anticuerpo monoclonal contra el receptor del péptido relacionado con el gen de la calcitonina (CGRP), comercializado para la prevención de la migraña. El registro español del paquete de evidencia no incluye el texto de la indicación, por lo que este dato proviene de conocimiento general.
+El modelo TxGNN predice que podría ser efectivo para la **migraña con aura del tronco encefálico**. No hay **ensayos clínicos** registrados para esta indicación y hay **20 publicaciones** relacionadas con erenumab y la migraña, ninguna específica del aura de tronco encefálico.
 
 ---
 
@@ -41,52 +42,65 @@ Erenumab es un anticuerpo monoclonal humano dirigido contra el receptor de CGRP 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención de la migraña (episódica y crónica) — inferido de la literatura incluida; no hay ficha técnica/autorización registrada en el mercado objetivo |
-| Nueva Indicación Predicha | Migraña con aura de tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.89% (rank #2680) |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | Prevención de la migraña (según conocimiento general; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
+| Puntaje de Predicción TxGNN | 99,89 % |
+| Nivel de Evidencia | L4 (solo evidencia indirecta; nada específico del aura de tronco encefálico) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de acción de erenumab en esta ficha (campo MOA marcado como brecha de datos, DG002, pendiente de consulta en DrugBank). Según la información contenida en la literatura recopilada en este informe, erenumab es un anticuerpo monoclonal de la clase anti-CGRP (antagonista del receptor de CGRP), cuya eficacia en la prevención de la migraña ha sido ampliamente comprobada en múltiples ensayos clínicos de Fase 3, y mecanísticamente podría ser aplicable a la migraña con aura de tronco encefálico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según el conocimiento general, erenumab bloquea el receptor de CGRP, una vía central en la fisiopatología de la migraña. Su eficacia en la prevención de la migraña está establecida, y mecanísticamente podría ser aplicable a la migraña con aura del tronco encefálico.
 
-El mecanismo propuesto es el siguiente: erenumab bloquea la vasodilatación mediada por CGRP y la sensibilización del sistema trigeminovascular, una vía considerada relevante en la fisiopatología de la migraña, incluyendo los subtipos con aura. En teoría, la inhibición de la señalización de CGRP podría reducir la frecuencia de la depresión cortical propagada (*cortical spreading depression*), fenómeno asociado a los síntomas de aura. A diferencia de los triptanes (agonistas 5-HT1B/1D, con efecto vasoconstrictor, tradicionalmente evitados en la migraña con aura de tronco encefálico o hemipléjica por riesgo isquémico), erenumab no provoca vasoconstricción cerebral directa —el estudio PMID 32867533 mostró que no altera la hemodinámica cerebral ni la función endotelial—, lo que teóricamente podría ofrecer un perfil de seguridad más favorable para este subtipo específico.
+La migraña con aura del tronco encefálico es un subtipo de la migraña con aura, por lo que el bloqueo de la vía CGRP es biológicamente plausible. El puntaje TxGNN tan alto (99,89 %) probablemente refleja la fuerte asociación del fármaco con el conjunto general de enfermedades de migraña, y no evidencia propia de este subtipo. Ninguna de las publicaciones aportadas estudia específicamente el aura de tronco encefálico.
 
-Sin embargo, esta extrapolación mecanística tiene límites: el estudio PMID 38850034 demuestra que algunas vías de inducción de la migraña (mediadas por cGMP) son independientes de la activación del receptor de CGRP, incluso en pacientes pretratados con erenumab. Esto evidencia una heterogeneidad mecanística dentro de la migraña con aura y limita la certeza de que el bloqueo de CGRP sea suficiente para controlar específicamente el subtipo de tronco encefálico. En conjunto, el vínculo mecanístico es razonable pero indirecto, y carece de validación fisiopatológica dedicada a este subtipo concreto.
+Hay además dos matices. Un estudio mecanístico (PMID 38850034) sugiere que los ataques inducidos por cGMP pueden ocurrir con independencia de la activación del receptor de CGRP, lo que podría limitar la eficacia en algunos pacientes. Por otra parte, el aura de tronco encefálico plantea preocupaciones teóricas de riesgo vascular, y los estudios de seguridad vascular en pacientes con aura (PMID 36942409, 32867533) son relevantes.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados específicamente para "migraña con aura de tronco encefálico" (0 resultados en ClinicalTrials.gov e ICTRP).
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
+Se muestran 10 de las 20 publicaciones. Todas tratan sobre erenumab en migraña en general o en migraña con aura, ninguna sobre aura de tronco encefálico.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | ECA (análisis post-hoc Fase 3) | JAMA Neurology | Análisis secundario de ECAs sobre seguridad y eficacia de erenumab en migraña con y sin aura; sin diferencias relevantes de seguridad entre subgrupos |
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | ECA Fase 3b | Lancet | Ensayo aleatorizado, doble ciego, controlado con placebo: eficacia y tolerabilidad en migraña episódica refractaria a 2-4 tratamientos preventivos previos |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Revisión sistemática | Int Immunopharmacol | Confirma la eficacia de erenumab en la profilaxis de migraña episódica y crónica |
-| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Cohorte (estudio REFORM) | J Headache Pain | Caracteriza cambios longitudinales en la frecuencia de aura migrañosa durante y después del tratamiento con erenumab |
-| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Cohorte (biomarcador, REFORM) | J Headache Pain | Niveles plasmáticos de suPAR (biomarcador inflamatorio elevado en migraña con aura) asociados a la respuesta terapéutica a erenumab |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Cohorte/Observacional | Headache | Análisis post-hoc de datos a largo plazo: riesgo cardiovascular de erenumab en pacientes con y sin aura, sin señales de alarma según nivel de riesgo CV basal |
-| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Mecanístico/Experimental | Cephalalgia | La inducción de migraña mediada por cGMP (sildenafilo) es independiente de la activación del receptor de CGRP, incluso con pretratamiento con erenumab |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mecanístico/Fisiológico | Cephalalgia | Erenumab no altera la hemodinámica cerebral ni la función endotelial en migraña sin aura |
-| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Cohorte (mundo real) | Clin Neurol Neurosurg | Efectivo y seguro tras 6 meses en migraña crónica resistente a múltiples clases de tratamiento preventivo (experiencia croata) |
-| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Cohorte (seguridad a largo plazo) | J Headache Pain | Estudio retrospectivo de 12 meses: buen perfil de seguridad y tolerabilidad, baja tasa de discontinuación por eventos adversos |
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | ECA (análisis secundario) | JAMA Neurology | Evalúa la seguridad y eficacia de erenumab en pacientes con migraña con y sin aura, con atención al riesgo vascular elevado en el subgrupo con aura |
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | ECA (Fase 3b) | Lancet | Eficacia y tolerabilidad de erenumab en migraña episódica tras el fracaso de 2 a 4 preventivos previos |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Revisión sistemática | International Immunopharmacology | Revisa la eficacia de erenumab en la profilaxis de la migraña episódica y crónica |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Cohorte (análisis post hoc de datos agrupados) | Headache | Evalúa la seguridad cardiovascular de erenumab en pacientes con migraña con y sin aura, según su grado de riesgo cardiovascular |
+| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Estudio REFORM (tipo no clasificado) | J Headache Pain | Caracteriza los cambios en la frecuencia del aura migrañosa durante y después del tratamiento con erenumab en adultos con aura frecuente |
+| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Cohorte (biomarcador) | J Headache Pain | Investiga si los niveles plasmáticos de suPAR se asocian con la respuesta a erenumab |
+| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Estudio clínico mecanístico | Cephalalgia | Evalúa si erenumab modifica la reactividad vasomotora cerebral y la función endotelial en migraña sin aura |
+| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Estudio experimental mecanístico | Cephalalgia | Explora si sildenafilo puede inducir ataques de migraña en pacientes pretratados con erenumab, es decir, si la vía cGMP actúa de forma independiente de CGRP |
+| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Cohorte retrospectiva | J Headache Pain | Seguridad, tolerabilidad y susceptibilidad a eventos adversos de erenumab a 12 meses en práctica real |
+| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Cohorte (práctica real) | Clin Neurol Neurosurg | Efectividad y seguridad de erenumab a 6 meses en migraña crónica con resistencia a múltiples preventivos |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1181293001 | AIMOVIG 70 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Solución inyectable en pluma precargada | Texto de indicación no disponible en el registro |
+| 1181293004 | AIMOVIG 140 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Solución inyectable en pluma precargada | Texto de indicación no disponible en el registro |
+
+Titular de ambas autorizaciones: Novartis Europharm Limited.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone de advertencias, contraindicaciones ni datos de interacciones farmacológicas verificados en esta ficha (consulta a TFDA aún pendiente — ver brecha de datos DG001, de severidad *Blocking*).
+Consultar el prospecto para información de seguridad.
 
 ---
 
@@ -95,14 +109,14 @@ Consultar el prospecto para información de seguridad. No se dispone de adverten
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible se limita a análisis post-hoc/secundarios de ECAs de Fase 3 y estudios de cohorte del mundo real sobre migraña con aura en general (nivel L3); no existe ningún ensayo clínico diseñado específicamente para el subtipo "migraña con aura de tronco encefálico". Además, una brecha de datos de severidad *Blocking* (DG001: ausencia de advertencias/contraindicaciones del prospecto TFDA) impide completar la evaluación de seguridad inicial (S1), por lo que no es posible avanzar de etapa en este momento.
+La predicción es biológicamente plausible, pero no hay ensayos clínicos ni publicaciones específicas del aura de tronco encefálico, y el puntaje del modelo refleja probablemente la asociación general con la migraña. Además, faltan los datos de seguridad de la ficha técnica, que bloquean el paso al cribado de seguridad (S1), y el aura de tronco encefálico plantea dudas teóricas de riesgo vascular.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica de TFDA con advertencias y contraindicaciones (remediación de DG001, *bloqueante*)
-- Completar los datos de mecanismo de acción (MOA) vía DrugBank (remediación de DG002)
-- Datos de interacciones farmacológicas (DDI), actualmente no encontrados
-- Diseño o identificación de un ensayo clínico dirigido específicamente a la subpoblación de migraña con aura de tronco encefálico (actualmente 0 ensayos registrados)
-- Evaluación de la viabilidad regulatoria y de mercado, dado que el fármaco actualmente no está comercializado (0 autorizaciones)
+- Obtener y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), un dato bloqueante
+- Completar los datos del mecanismo de acción desde DrugBank
+- Buscar evidencia específica en migraña con aura de tronco encefálico, incluidos análisis de subgrupos de los ensayos existentes
+- Revisar con detalle los estudios de seguridad vascular en pacientes con aura (PMID 36942409, 32867533)
+- Confirmar el texto de la indicación aprobada en las autorizaciones españolas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Pemigatinib
 parent: Solo predicción del modelo (L5)
-nav_order: 217
+nav_order: 414
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pemigatinib: De Colangiocarcinoma con Fusión FGFR2 a Neoplasia Endocrina Múltiple
+# Pemigatinib: De Indicación Original No Disponible a Neoplasia Endocrina Múltiple
 
 ## Resumen en Una Frase
 
-Pemigatinib es un inhibidor selectivo de FGFR1/2/3 cuyo uso conocido es el colangiocarcinoma con fusión de FGFR2 (dato tomado del razonamiento mecanístico interno, no de una ficha técnica confirmada). El modelo TxGNN predice que podría ser efectivo para **Neoplasia Endocrina Múltiple (MEN)**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección, y el propio análisis mecanístico señala que probablemente se trata de un falso positivo del modelo.
-
----
+Pemigatinib es un inhibidor selectivo de FGFR1-3 comercializado en España, pero los datos recibidos no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múltiple**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que la predicción se apoya solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Colangiocarcinoma con fusión de FGFR2* (*fuente: razonamiento mecanístico interno; no confirmado por ficha técnica AEMPS/TFDA — dato de licencia no disponible) |
-| Nueva Indicación Predicha | Neoplasia Endocrina Múltiple (MEN) |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Indicación Original | No disponible en los datos recibidos (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Neoplasia endocrina múltiple |
+| Puntaje de Predicción TxGNN | 99,71% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Pemigatinib es un inhibidor selectivo de los receptores FGFR1, FGFR2 y FGFR3. No se dispone de datos detallados de mecanismo de acción procedentes de DrugBank. La descripción anterior proviene del análisis mecanístico del propio Evidence Pack.
 
-Actualmente no se dispone de datos oficiales sobre el mecanismo de acción en ficha técnica (Data Gap de severidad Alta). Según la información disponible en el razonamiento mecanístico generado internamente, pemigatinib es un inhibidor selectivo de FGFR1/2/3, cuya eficacia en el colangiocarcinoma con fusión de FGFR2 ha sido comprobada en el desarrollo clínico del fármaco.
+La relación con la neoplasia endocrina múltiple (MEN) es débil. Estos síndromes se deben principalmente a alteraciones en MEN1 y RET, que pemigatinib no inhibe. La conexión entre la señalización FGFR y la tumorigénesis endocrina es solo especulativa.
 
-Sin embargo, para la indicación predicha en primer lugar (Neoplasia Endocrina Múltiple), el propio análisis del candidato indica que **no existe un vínculo mecanístico plausible**: el síndrome MEN está asociado principalmente a mutaciones en los genes MEN1 y RET, sin relación conocida con la vía de señalización FGFR1/2/3. No hay respaldo mecanístico ni evidencia clínica, por lo que esta predicción podría corresponder a una asociación espuria dentro del espacio de embeddings de TxGNN, más que a una hipótesis biológica sólida.
-
-Cabe destacar que, entre las 10 indicaciones predichas de mayor puntaje para este fármaco, varias corresponden a enfermedades veterinarias (fiebre catarral maligna, rinotraqueítis infecciosa bovina) o a direcciones mecanísticas opuestas a la farmacología del inhibidor de FGFR (amenorrea, esclerosis lateral amiotrófica), lo que sugiere ruido generalizado en esta región del espacio de predicción para este fármaco. La única excepción parcial es el carcinoma de mama HER2 positivo (rank 3), que alcanzó nivel de evidencia L4 gracias a una publicación de revisión sobre inhibidores de cinasas, apoyada en el crosstalk conocido entre las vías FGFR y HER2 como mecanismo de resistencia a terapias anti-HER2.
-
----
+El puntaje alto del modelo (99,71%) no cuenta con respaldo de ensayos ni de literatura. Debe interpretarse como una hipótesis del grafo de conocimiento, no como una señal de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1211535001 | PEMAZYRE 4,5 mg COMPRIMIDOS | Comprimido | No especificada en los datos recibidos |
+| 1211535005 | PEMAZYRE 13,5 mg COMPRIMIDOS | Comprimido | No especificada en los datos recibidos |
+| 1211535003 | PEMAZYRE 9 mg COMPRIMIDOS | Comprimido | No especificada en los datos recibidos |
+
+Titular: Incyte Biosciences Distribution B.V.
 
 ## Citotoxicidad
 
-*(Sección incluida por tratarse de un antineoplásico — inhibidor dirigido de FGFR1/2/3, con uso conocido en colangiocarcinoma.)*
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de FGFR1/2/3) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de FGFR1-3) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
----
-
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
----
+Nota: la consulta de interacciones farmacológicas no devolvió resultados. Además, el mecanismo sugiere que los efectos endocrinos y del metabolismo del fosfato propios de la inhibición de FGFR deben evaluarse como consideraciones de seguridad, no como indicaciones.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación de mayor puntaje (MEN) carece de respaldo mecanístico y no cuenta con ningún ensayo clínico ni publicación; el propio análisis interno la señala como probable falso positivo. Además, la ficha técnica/prospecto oficial no está disponible (Data Gap bloqueante), lo que impide iniciar la evaluación de seguridad S1 para cualquier dirección de reposicionamiento de este fármaco.
+La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, y con un vínculo mecanístico débil, ya que MEN depende de MEN1 y RET y no de FGFR. Las otras nueve predicciones del listado (amenorrea, infecciones virales, esclerosis lateral amiotrófica, displasia esquelética, etc.) tampoco tienen respaldo y quedan igualmente en Hold. La excepción es el carcinoma de mama HER2 positivo, con una única revisión general de inhibidores de quinasas (nivel L4, "Research Question").
 
 **Para avanzar se necesita:**
-- Obtener la ficha técnica oficial (AEMPS/TFDA) del producto — actualmente bloqueante para la evaluación de seguridad
-- Confirmar mecanismo de acción y categorías DrugBank mediante consulta directa a la API de DrugBank
-- Si se prioriza investigación adicional, dirigir el esfuerzo al candidato rank 3 (carcinoma de mama HER2 positivo), único que alcanzó nivel de evidencia L4, aunque aún requiere estudios primarios (actualmente solo respaldado por una revisión bibliográfica general)
-- Descartar o reevaluar la hipótesis MEN salvo que surja nueva evidencia mecanística o clínica
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que es una brecha bloqueante para el cribado de seguridad
+- Obtener el texto de las indicaciones autorizadas para identificar la indicación original
+- Consultar el mecanismo de acción en la API de DrugBank
+- Buscar evidencia preclínica o clínica específica de pemigatinib en neoplasias endocrinas
+- Valorar priorizar la hipótesis de cáncer de mama HER2 positivo (resistencia mediada por FGFR), que tiene un fundamento mecanístico más plausible
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

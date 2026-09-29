@@ -2,7 +2,7 @@
 layout: default
 title: Metoprolol
 parent: Solo predicción del modelo (L5)
-nav_order: 180
+nav_order: 350
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,29 +29,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metoprolol: De Indicación Original No Especificada a Hipertensión Renal Maligna
+# Metoprolol: De Indicación Original No Registrada a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Metoprolol es un betabloqueante cardioselectivo (antagonista β1-adrenérgico); este paquete de evidencia no incluye la indicación original aprobada ni datos formales de mecanismo de acción para el fármaco. El modelo TxGNN predice que podría ser efectivo para **Hipertensión Renal Maligna** (malignant hypertensive renal disease), pero esta dirección no cuenta actualmente con **ningún ensayo clínico ni publicación** que la respalde — es una predicción computacional aislada.
+Metoprolol es un betabloqueante cardioselectivo (beta-1) comercializado en España. El Evidence Pack no registra su indicación original aprobada.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el paquete de evidencia |
-| Nueva Indicación Predicha | Hipertensión Renal Maligna (Malignant Hypertensive Renal Disease) |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | No registrada (los textos de indicación aprobada de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
+| Puntaje de Predicción TxGNN | 99.91% (posición 2065 en el ranking del modelo) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 6 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre la indicación original aprobada ni sobre el mecanismo de acción detallado de metoprolol en este paquete (ambos identificados como brechas de datos: mecanismo de acción con severidad Alta, y advertencias/contraindicaciones TFDA con severidad Bloqueante, lo que impide además una evaluación de seguridad inicial). Según la información recogida en el razonamiento de reposicionamiento del propio modelo, metoprolol se describe de forma consistente como un antagonista selectivo del receptor adrenérgico β1, que reduce el gasto cardíaco, la frecuencia cardíaca y el consumo miocárdico de oxígeno, y que además inhibe la liberación de renina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Metoprolol es un betabloqueante beta-1, y mecanísticamente podría ser aplicable a la hipertensión maligna con daño renal.
 
-Para la indicación predicha, el razonamiento mecanístico plantea que la inhibición de la liberación de renina y la reducción del gasto cardíaco podrían, en teoría, aportar beneficio antihipertensivo en pacientes con daño renal asociado a hipertensión maligna. Sin embargo, este vínculo es puramente teórico: el propio paquete de evidencia lo califica como "inferencia mecanística pura", sin ningún ensayo clínico ni literatura que lo respalde directamente. No debe interpretarse como una señal clínica validada.
+El bloqueo beta-1 reduce la frecuencia cardíaca, el gasto cardíaco y la liberación de renina. Por eso es plausible un efecto reductor de la presión arterial, y la supresión de renina es relevante en la hipertensión de origen renal.
+
+Esta razonabilidad es solo una hipótesis. La hipertensión maligna se maneja normalmente con fármacos intravenosos de dosis titulable. No se aportó ningún ensayo ni publicación que estudie metoprolol en esta condición, y la similitud con la indicación original no pudo evaluarse. El puntaje alto del modelo debe leerse como una señal de exploración, no como una prueba de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,24 +67,40 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Metoprolol no cuenta actualmente con autorizaciones de comercialización registradas en España en este paquete de evidencia (0 autorizaciones, estado "no comercializado").
+Hay 6 autorizaciones en total. Se listan las 5 principales incluidas en el Evidence Pack. Ninguna tiene texto de indicación aprobada registrado.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 82000 | Metoprolol Aurovitas 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 61506 | Beloken Retard 95 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada |
+| 54503 | Lopresor 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 56989 | Beloken 1 mg/ml solución inyectable | Solución inyectable |
+| 55748 | Beloken 100 mg comprimidos | Comprimido |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+Nota: el modelo también señala, para otras indicaciones predichas, una posible preocupación de seguridad del ventrículo derecho con el bloqueo beta en hipertensión pulmonar. No hay datos de seguridad específicos para la indicación evaluada aquí.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de predicción TxGNN es muy alto (99.91%), no existe ningún ensayo clínico ni publicación que respalde específicamente esta indicación (Nivel de Evidencia L5); el vínculo mecanístico es puramente teórico y no verificado.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura. Además, el manejo estándar de la hipertensión maligna usa fármacos intravenosos titulables, por lo que no hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica (advertencias y contraindicaciones) — brecha bloqueante que impide la evaluación de seguridad inicial (S1)
-- Obtener datos formales de mecanismo de acción vía DrugBank
-- Generar o localizar evidencia clínica (ensayos o literatura) específica para hipertensión renal maligna antes de avanzar más allá de S0
-- Confirmar el estatus regulatorio en España, actualmente sin comercialización ni autorizaciones registradas
+- Descargar y analizar la ficha técnica de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante.
+- Obtener el mecanismo de acción desde DrugBank (DB00264).
+- Hacer una búsqueda bibliográfica dirigida de metoprolol en hipertensión maligna y nefroesclerosis hipertensiva.
+- Evaluar la compatibilidad de vías de administración (la solución inyectable existe en España, pero se necesita analizar su idoneidad).
+
+**Otras predicciones del mismo fármaco con más respaldo (para revisión separada):**
+- Infarto de miocardio septal: L3, con estudios clínicos cuyo diseño no está confirmado.
+- Cor pulmonale crónico: L4, con evidencia indirecta en poblaciones con EPOC, insuficiencia cardíaca e infarto. El ensayo de Fase 3 NCT02587351 terminó de forma anticipada sin mostrar beneficio.
+
+*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

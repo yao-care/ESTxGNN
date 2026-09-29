@@ -2,7 +2,7 @@
 layout: default
 title: Durvalumab
 parent: Solo predicción del modelo (L5)
-nav_order: 98
+nav_order: 188
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Durvalumab: De Carcinoma Urotelial a Carcinoma Urotelial de la Uretra Prostática
+# Durvalumab: De Indicación Original No Registrada a Carcinoma Urotelial de la Uretra Prostática
 
 ## Resumen en Una Frase
 
-Durvalumab es un anticuerpo monoclonal anti-PD-L1, cuya clase ya cuenta con aprobación internacional para el carcinoma urotelial (incluida la vejiga), aunque en este mercado figura actualmente como no comercializado. El modelo TxGNN predice que podría ser efectivo para el **Carcinoma Urotelial de la Uretra Prostática**, con una puntuación de predicción del **99.98%**, pero por el momento **no hay ensayos clínicos ni literatura específica** que respalden esta dirección — la evidencia se limita a una extrapolación mecanística de clase.
+Durvalumab es un anticuerpo anti-PD-L1 comercializado en España como Imfinzi. Los datos recibidos no incluyen el texto de su indicación original aprobada.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma urotelial de la uretra prostática**, pero por ahora hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación concreta.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Carcinoma urotelial (incluida vejiga) — según aprobaciones de clase en otros mercados; no verificado vía licencia local |
-| Nueva Indicacion Predicha | Carcinoma Urotelial de la Uretra Prostática |
-| Puntaje de Prediccion TxGNN | 99.98% |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática |
+| Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción procedentes de DrugBank (brecha de datos DG002). Según la información recogida en el propio evidence pack, durvalumab es un anticuerpo monoclonal anti-PD-L1 que bloquea las interacciones PD-L1/PD-1 y PD-L1/CD80, restaurando la actividad antitumoral de los linfocitos T. Este mecanismo ya cuenta con precedente de aprobación de clase para el carcinoma urotelial en general (incluida la vejiga) en otros mercados.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, durvalumab es un anticuerpo que bloquea PD-L1. Mecanísticamente podría ser aplicable al carcinoma urotelial, porque este tumor con frecuencia expresa PD-L1.
 
-El carcinoma urotelial de la uretra prostática es, histológicamente, un subtipo anatómico dentro del mismo linaje tumoral que el carcinoma urotelial vesical — comparten origen en el epitelio de transición del tracto urinario. Esto sustenta una extrapolación mecanística razonable: si el bloqueo de PD-L1 restaura la respuesta inmune antitumoral en el urotelio vesical, en principio podría aplicar igual de forma teórica al urotelio de la uretra prostática.
+Los datos no permiten comparar la indicación original con la nueva, porque falta el texto de indicación aprobada. La similitud con la indicación original figura como pendiente de análisis. El argumento se apoya en la biología de PD-L1 en el carcinoma urotelial, extrapolada de la enfermedad vesical.
 
-Sin embargo, esta relación es puramente teórica en este momento: no existe ningún ensayo clínico ni publicación que evalúe durvalumab específicamente en este subtipo anatómico, por lo que la aplicabilidad real del mecanismo permanece sin verificar.
+El puntaje de TxGNN es muy alto (0.9998), pero es solo una predicción computacional. No se recuperaron ensayos ni literatura para esta localización.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -63,32 +64,45 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1181322002IP | IMFINZI 50 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
+| 1181322001IP | IMFINZI 50 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
+| 1181322001 | IMFINZI 50 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
+| 1181322002 | IMFINZI 50 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
+
+El titular de las cuatro autorizaciones es AstraZeneca AB.
+
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Inmunoterapia (inhibidor de checkpoint anti-PD-L1) |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo anti-PD-L1) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-Pese a tener la puntuación TxGNN más alta del pack (99.98%), esta indicación carece por completo de ensayos clínicos y literatura específica — el razonamiento se apoya únicamente en una extrapolación mecanística de clase, sin evidencia real que la respalde.
+**Justificación:**
+Para esta indicación solo existe una predicción del modelo (L5), sin ensayos ni publicaciones. Además, faltan las advertencias y contraindicaciones del prospecto, por lo que no se puede pasar al cribado de seguridad.
+
+Entre las otras indicaciones predichas, el carcinoma urotelial infiltrante de vejiga variante sarcomatoide y el carcinoma endocervical tienen evidencia inicial (L3, "Research Question"). Serían candidatas más sólidas para priorizar.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de acción vía DrugBank API (DG002)
-- Ficha técnica/prospecto de TFDA para evaluación de seguridad S1 (DG001, bloqueante)
-- Búsqueda dirigida de ensayos o series de casos sobre carcinoma urotelial de uretra prostática específicamente
-- Evaluar en paralelo el candidato "endocervical carcinoma" (rank 6) del mismo evidence pack, que presenta mayor madurez de evidencia (L2, ensayo Fase 2 en curso con n=174 y revisión publicada) y podría priorizarse antes que esta indicación
+- Descargar y analizar el prospecto de la AEMPS para obtener advertencias y contraindicaciones.
+- Completar el texto de la indicación aprobada de cada autorización.
+- Obtener el mecanismo de acción desde DrugBank.
+- Buscar ensayos y literatura específicos sobre carcinoma urotelial de la uretra prostática, por ejemplo en series de tumores urotelia­les de vías urinarias.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

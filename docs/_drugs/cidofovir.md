@@ -2,7 +2,7 @@
 layout: default
 title: Cidofovir
 parent: Solo predicción del modelo (L5)
-nav_order: 70
+nav_order: 126
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,35 +29,37 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Cidofovir: De Infección por Citomegalovirus (CMV) a Colangitis Esclerosante
+# Cidofovir: De Antiviral (Indicación Original No Registrada) a Colangitis Esclerosante
 
 ## Resumen en Una Frase
 
-Cidofovir es un análogo nucleotídico antiviral utilizado en el tratamiento de infecciones por citomegalovirus (CMV).
-El modelo TxGNN predice que podría ser efectivo para **Colangitis Esclerosante**,
-pero **no existe actualmente ningún ensayo clínico ni publicación** que respalde esta dirección: la predicción se basa exclusivamente en el puntaje del modelo.
+Cidofovir es un antiviral análogo de nucleótido, comercializado en España como concentrado para solución de perfusión.
+El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en los datos (Cidofovir no está comercializado en España; el vínculo con CMV se infiere del contexto mecanístico reportado) |
-| Nueva Indicacion Predicha | Colangitis Esclerosante (sclerosing cholangitis) |
-| Puntaje de Prediccion TxGNN | 99.94% |
+| Indicación Original | No disponible en los datos de autorización (el texto de indicación aprobada está vacío) |
+| Nueva Indicación Predicha | Colangitis esclerosante |
+| Puntaje de Predicción TxGNN | 99.94% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion oficial de Cidofovir (dato marcado como brecha de alta prioridad). Según la información disponible en el propio evidence pack, Cidofovir es un análogo nucleotídico con actividad inhibidora de la ADN polimerasa del citomegalovirus (CMV), utilizado en el tratamiento de infecciones por este virus.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, cidofovir es un antiviral análogo de nucleótido. Los datos suministrados no permiten confirmar su indicación original ni una vía plausible hacia la colangitis esclerosante.
 
-El razonamiento detrás de la predicción es indirecto: la infección por CMV en pacientes inmunodeprimidos puede provocar colangiopatías similares a la colangitis esclerosante (por ejemplo, la "AIDS cholangiopathy"). Esto establece una posible relación biológica teórica entre el mecanismo antiviral de Cidofovir y la nueva indicación predicha.
+La colangitis esclerosante es una enfermedad colestásica e inmunomediada de los conductos biliares. No se identifica un vínculo mecanístico con un antiviral. El puntaje TxGNN es muy alto (99.94%), pero proviene solo del grafo de conocimiento y no tiene respaldo de ensayos ni de literatura.
 
-Sin embargo, esta relación es puramente teórica: no existe ningún ensayo clínico ni publicación que demuestre un efecto terapéutico directo de Cidofovir sobre la colangitis esclerosante. La predicción está impulsada únicamente por el puntaje del modelo TxGNN, sin respaldo de evidencia real.
+Además, cidofovir es nefrotóxico y teratogénico en estudios con animales. Estos riesgos pesan en contra de su uso en una nueva indicación sin una justificación adicional sólida.
 
-## Evidencia de Ensayos Clinicos
+Otras predicciones del modelo (artritis reumatoide, síndrome de microftalmia colobomatosa con displasia rizomélica y síndrome de braquidactilia-sindactilia) tampoco tienen vínculo mecanístico ni evidencia directa.
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -65,22 +67,29 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 81303 | CIDOFOVIR ZENTIVA 75 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION EFG (Zentiva K.S.) | Concentrado para solución para perfusión | No especificada en los datos disponibles |
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Cabe señalar que la información oficial del prospecto/TFDA para Cidofovir aún no ha sido incorporada a este análisis (brecha de datos bloqueante), por lo que no puede completarse una evaluación de seguridad de nivel S1 con los datos actuales.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La predicción cuenta con un puntaje TxGNN muy alto (99.94%), pero no tiene ningún respaldo de ensayos clínicos ni literatura (evidencia L5), y el fármaco no está comercializado en España. Además, falta información regulatoria bloqueante (advertencias/contraindicaciones oficiales), por lo que no puede avanzar a una evaluación de seguridad.
+**Justificación:**
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones. No existe un vínculo mecanístico plausible. Además, el perfil de nefrotoxicidad y teratogenicidad de cidofovir exige una justificación sólida antes de avanzar.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto oficial y datos de advertencias/contraindicaciones (brecha bloqueante DG001)
-- Obtener datos detallados del mecanismo de acción (MOA) desde DrugBank (brecha DG002)
-- Estudios preclínicos o de mecanismo que evalúen la relación entre CMV, colangiopatía asociada a CMV y colangitis esclerosante
-- Nota adicional: de los 4 candidatos de reposicionamiento evaluados para Cidofovir (colangitis esclerosante, artritis reumatoide, y dos síndromes congénitos raros), ninguno superó el nivel L4 de evidencia y todos recibieron recomendación "Hold". El candidato con más literatura asociada (artritis reumatoide, L4) se basa mayormente en estudios sobre leflunomida, no sobre Cidofovir, por lo que su relevancia real es limitada.
+- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS (bloqueante para el cribado de seguridad)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Confirmar la indicación original autorizada
+- Formular una hipótesis mecanística explícita para la colangitis esclerosante y respaldarla con estudios preclínicos
+- Evaluar la viabilidad de la vía de administración (perfusión intravenosa) y el riesgo renal en esta población
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

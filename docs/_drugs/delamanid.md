@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Delamanid
-parent: Solo predicción del modelo (L5)
-nav_order: 87
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 165
+evidence_level: L4
 indication_count: 7
 ---
 
 # Delamanid
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Delamanid: De Tuberculosis Multirresistente a Tuberculosis Bovina
+# Delamanid: Nueva Indicación Predicha — Tuberculosis Bovina
 
 ## Resumen en Una Frase
 
-Delamanid es un derivado nitro-dihidro-imidazooxazólico utilizado originalmente en el tratamiento de la tuberculosis pulmonar multirresistente (MDR-TB), como componente de regímenes combinados de segunda línea. El modelo TxGNN predice que podría ser efectivo para **Tuberculosis Bovina** (infección zoonótica por *Mycobacterium bovis*), aunque actualmente esta dirección cuenta con **0 ensayos clínicos** y solo **1 publicación** (de naturaleza genómica, no terapéutica) que la respalden.
-
-> **Nota**: el paquete de evidencia contiene 7 indicaciones predichas para delamanid, todas dentro del espectro micobacteriano/tuberculoso salvo un falso positivo descartado (urticaria alérgica). La aquí destacada (rank 1) es la de mayor puntuación TxGNN, pero no la de mayor evidencia real — ver nota al final.
+Delamanid es un profármaco nitroimidazólico con actividad antituberculosa, comercializado en España como DELTYBA 50 mg comprimidos recubiertos con película.
+El modelo TxGNN predice que podría ser efectivo para **tuberculosis bovina** (zoonótica, causada por *Mycobacterium bovis*).
+Por ahora hay **0 ensayos clínicos** y **1 publicación** relacionada, un estudio de cohorte genómico que no evalúa delamanid, por lo que la predicción se apoya sobre todo en la plausibilidad mecanística.
 
 ---
 
@@ -43,29 +43,28 @@ Delamanid es un derivado nitro-dihidro-imidazooxazólico utilizado originalmente
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tuberculosis pulmonar multirresistente (MDR-TB), en terapia combinada de segunda línea *(no incluida en los datos de licencias del Evidence Pack; se trata de la indicación regulatoria global conocida de delamanid, ya que en España el fármaco no está comercializado)* |
-| Nueva Indicación Predicha | Tuberculosis bovina (infección zoonótica por *M. bovis*) |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nueva Indicación Predicha | Tuberculosis bovina |
+| Puntaje de Predicción TxGNN | 99,91% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en este paquete de evidencia. Según la información conocida, delamanid es un antimicobacteriano que actúa inhibiendo la síntesis de ácido micólico de la pared celular, un mecanismo dirigido al género *Mycobacterium* en general y no exclusivo de *Mycobacterium tuberculosis*. Su eficacia en tuberculosis pulmonar multirresistente ha sido comprobada clínicamente.
+Delamanid es un profármaco nitroimidazólico. La nitrorreductasa dependiente de F420 (Ddn) lo activa y, una vez activado, inhibe la síntesis de ácidos micólicos, componentes esenciales de la pared celular de las micobacterias. Actualmente no se dispone de datos detallados adicionales sobre el mecanismo de acción en la información suministrada.
 
-*Mycobacterium bovis* (agente de la tuberculosis bovina, que puede transmitirse de forma zoonótica al ser humano) es filogenéticamente muy próximo a *M. tuberculosis* y comparte la misma vía de síntesis de pared celular. Mecanísticamente, por tanto, es plausible que delamanid conserve actividad frente a *M. bovis*, lo que da coherencia biológica a la predicción del modelo TxGNN.
+*M. bovis* pertenece al complejo *M. tuberculosis*, el mismo grupo de micobacterias contra el que actúa delamanid. Por eso es plausible que la vía de activación y el objetivo (síntesis de ácidos micólicos) se conserven, y que el fármaco tenga actividad.
 
-Sin embargo, esta plausibilidad mecanística no está todavía respaldada por evidencia experimental directa: no existen ensayos clínicos registrados con delamanid en tuberculosis bovina/zoonótica, y la única publicación asociada es un estudio genómico sobre diversidad de resistencia en aislados de *M. bovis*, que no evalúa el fármaco. La predicción debe considerarse, por ahora, una hipótesis mecanística razonable pendiente de validación experimental.
+Esta plausibilidad no está confirmada. Los datos suministrados no establecen que *M. bovis* sea sensible a delamanid, y el único artículo asociado describe la diversidad genética y la resistencia de aislados de *M. bovis*, sin probar delamanid.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para tuberculosis bovina.
 
 ---
 
@@ -73,13 +72,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Estudio genómico observacional (WGS) | BMC Genomics | Caracterización mediante secuenciación de genoma completo de la diversidad genética y resistencia a fármacos en aislados de *M. bovis* causantes de tuberculosis zoonótica humana; no evalúa el uso de delamanid. |
+| [39487429](https://pubmed.ncbi.nlm.nih.gov/39487429/) | 2024 | Cohorte | BMC Genomics | Secuenciación del genoma completo de aislados humanos de *M. bovis* (TB zoonótica) para conocer los genotipos circulantes y las características genómicas de virulencia y resistencia a fármacos. No evalúa delamanid. |
 
 ---
 
 ## Información de Mercado en España
 
-Delamanid no está actualmente comercializado en España (0 autorizaciones registradas en el Evidence Pack).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 113875004 | DELTYBA 50 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | Otsuka Novel Products GmbH |
 
 ---
 
@@ -94,15 +95,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en la plausibilidad mecanística (proximidad filogenética entre *M. bovis* y *M. tuberculosis*) y en la puntuación del modelo TxGNN; no existe ningún ensayo clínico ni literatura que evalúe directamente delamanid en tuberculosis bovina/zoonótica, y el único artículo asociado es de naturaleza genómica, no terapéutica.
+La predicción tiene un puntaje TxGNN muy alto, pero no existe ningún ensayo clínico ni estudio que pruebe delamanid en tuberculosis bovina (nivel L4). Tampoco hay datos de seguridad de la ficha técnica de AEMPS para completar el cribado de seguridad. Lo único que la respalda es la plausibilidad mecanística.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica de TFDA-EMA de delamanid (advertencias y contraindicaciones), bloqueante para cualquier evaluación de seguridad (DG001)
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank (DG002)
-- Estudios preclínicos o in vitro de actividad de delamanid frente a *M. bovis*
-- Confirmación de si la indicación se dirige a población humana con tuberculosis zoonótica o a uso veterinario, dado que delamanid es un fármaco de uso humano
+- Datos de sensibilidad in vitro (CMI) de aislados de *M. bovis* frente a delamanid.
+- Descargar y analizar la ficha técnica de AEMPS para completar advertencias y contraindicaciones.
+- Datos más completos del mecanismo de acción y de la conservación de la vía Ddn/F420 en *M. bovis*.
+- Como referencia, la segunda predicción del modelo, **tuberculosis inactiva** (infección latente), tiene nivel L2. Cuenta con un ensayo de Fase 3 en curso ([NCT03568383](https://clinicaltrials.gov/study/NCT03568383), delamanid frente a isoniazida en contactos domiciliarios de pacientes con TB multirresistente, n=5832, sin resultados disponibles). Podría ser una vía de reposicionamiento más sólida que la tuberculosis bovina.
 
-**Nota adicional:** dentro del mismo paquete de evidencia, la indicación "inactive tuberculosis" (rank 2, puntuación TxGNN prácticamente idéntica, 99.91%) cuenta con 2 ensayos de Fase 2/3 activos (incluyendo NCT03568383, Fase 3, 5.832 participantes) y 20 publicaciones — representa una vía de evidencia considerablemente más sólida y podría priorizarse para una evaluación paralela.
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

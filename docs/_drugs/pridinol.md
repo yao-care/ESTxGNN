@@ -2,7 +2,7 @@
 layout: default
 title: Pridinol
 parent: Solo predicción del modelo (L5)
-nav_order: 229
+nav_order: 439
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,41 +29,43 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# PRIDINOL: De Espasmo/Dolor Muscular a Insomnio
+# Pridinol: De Indicación No Registrada en la Ficha a Insomnio
 
 ## Resumen en Una Frase
 
-Pridinol es un relajante muscular de tipo anticolinérgico (antagonista muscarínico), utilizado clínicamente en el tratamiento del espasmo y dolor muscular (no hay ficha técnica formal disponible en las fuentes consultadas). El modelo TxGNN predice que podría ser efectivo para **Insomnio**, con una puntuación de **99.89%**, pero **actualmente no existen ensayos clínicos ni publicaciones** que respalden esta direccion — se trata de una predicción puramente computacional.
+Pridinol es un fármaco comercializado en España en comprimidos (MYDITIN 3 mg), pero los datos disponibles no recogen su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, con un puntaje muy alto (99,89 %).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción del modelo.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Espasmo/dolor muscular (relajante muscular anticolinérgico; sin confirmación oficial en fuentes regulatorias) |
-| Nueva Indicacion Predicha | Insomnio |
-| Puntaje de Prediccion TxGNN | 99.89% |
+| Indicación Original | No disponible (el texto de indicación aprobada está vacío en la autorización registrada) |
+| Nueva Indicación Predicha | Insomnio |
+| Puntaje de Predicción TxGNN | 99,89 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion (MOA) de pridinol en las fuentes consultadas. Segun la informacion disponible en el analisis de reposicionamiento, pridinol es un antagonista muscarinico (anticolinergico) utilizado clinicamente como relajante muscular para el espasmo y dolor muscular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción, y DrugBank no lista indicaciones originales, por lo que el vínculo del grafo de conocimiento no se puede contrastar con el registro. El único respaldo es el puntaje elevado de TxGNN.
 
-Los farmacos anticolinergicos producen sedacion como efecto secundario frecuente, lo que en teoria podria influir en el sueño. Sin embargo, esta relacion es una extrapolacion farmacologica y no cuenta con literatura ni ensayos clinicos que evaluen directamente pridinol en insomnio.
+Desde la farmacología general, pridinol es un relajante muscular antimuscarínico. Los anticolinérgicos de acción central pueden causar somnolencia, lo que podría relacionarse con el sueño. Sin embargo, también pueden alterar la arquitectura del sueño y provocar efectos adversos cognitivos, así que no está claro en qué dirección iría un posible beneficio.
 
-Es importante señalar que el uso prolongado de anticolinergicos para tratar el insomnio plantea dudas de seguridad conocidas (deterioro cognitivo, riesgo de caidas y delirium, especialmente en poblacion mayor), lo cual no es proporcional a la puntuacion alta (99.89%) asignada por el modelo TxGNN. Esta desproporcion entre el puntaje del modelo y la ausencia total de evidencia clinica es la razon principal para no avanzar sin mas datos.
+Este vínculo es solo una hipótesis. No lo respalda ningún ensayo ni publicación de los datos proporcionados.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,24 +75,35 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Consideraciones de Seguridad
+## Información de Mercado en España
 
-Consultar el prospecto para informacion de seguridad.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 85256 | MYDITIN 3 MG COMPRIMIDOS EFG | Comprimido | No especificada en los datos disponibles |
+
+Titular: Mibe Pharma España S.L.U.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Consideraciones de Seguridad
 
-**Decision: Hold**
+Consultar el prospecto para información de seguridad.
 
-**Justificacion:**
-La prediccion se apoya unicamente en el puntaje del modelo TxGNN (nivel de evidencia L5), sin ningun ensayo clinico ni publicacion que la respalde. Ademas, el mecanismo anticolinergico plantea preocupaciones de seguridad conocidas para su uso en insomnio, lo que contraindica avanzar sin mas evidencia.
+---
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos ni literatura. Además, faltan los datos de mecanismo y de seguridad, y el efecto anticolinérgico sobre el sueño podría ir en sentido contrario al buscado.
 
 **Para avanzar se necesita:**
-- Ficha tecnica/prospecto de TFDA con advertencias y contraindicaciones (actualmente bloqueante para la evaluacion de seguridad S1)
-- Datos del mecanismo de accion (MOA) confirmados via DrugBank u otra fuente primaria
-- Busqueda ampliada de literatura y ensayos clinicos sobre uso de anticolinergicos/pridinol en trastornos del sueño
-- Evaluacion de riesgo-beneficio especifica para poblacion de mayor edad, dado el perfil anticolinergico del farmaco
+- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), que bloquea el cribado de seguridad.
+- Completar el mecanismo de acción desde DrugBank.
+- Confirmar la indicación original autorizada.
+- Buscar estudios preclínicos o clínicos que relacionen pridinol con el sueño.
+- Evaluar la compatibilidad de la vía y la forma farmacéutica con la nueva indicación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Citalopram
-parent: Evidencia alta (L1-L2)
-nav_order: 72
-evidence_level: L2
+parent: Evidencia moderada (L3-L4)
+nav_order: 129
+evidence_level: L3
 indication_count: 5
 ---
 
 # Citalopram
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,118 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-Usando el Evidence Pack proporcionado, genero el informe centrado en la indicación predicha de mayor rango (TOC, la única con evidencia y decisión distinta de "Hold").
-
-# Citalopram: De Depresión (Trastorno Depresivo Mayor) a Trastorno Obsesivo-Compulsivo (TOC)
+# Citalopram: De Depresión a Trastorno Obsesivo-Compulsivo
 
 ## Resumen en Una Frase
 
-Citalopram es un inhibidor selectivo de la recaptación de serotonina (ISRS), utilizado clásicamente para el tratamiento de la depresión.
-El modelo TxGNN predice que podría ser efectivo para el **Trastorno Obsesivo-Compulsivo (TOC)**,
-con **30 ensayos clínicos** y **16 publicaciones** que actualmente respaldan esta dirección, aunque la mayor parte de la evidencia clínica directa proviene de escitalopram, su enantiómero activo (mecanismo farmacológico idéntico).
+Citalopram es un inhibidor selectivo de la recaptación de serotonina (ISRS), utilizado como antidepresivo. Los datos de autorización recibidos no incluyen el texto de indicación aprobada, por lo que la indicación original se toma de la clase farmacológica.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-compulsivo (TOC)**.
+Hay **30 ensayos clínicos** y **16 publicaciones** asociados. Sin embargo, la mayoría de los ensayos evalúan escitalopram (el enantiómero S de citalopram) y no citalopram, y no hay ningún ensayo de Fase 3 con citalopram en TOC.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Depresión (Trastorno Depresivo Mayor) — no hay registro regulatorio local que lo confirme (0 autorizaciones) |
-| Nueva Indicación Predicha | Trastorno Obsesivo-Compulsivo (TOC) |
+| Indicación Original | Depresión (no consta en los textos de autorización recibidos; se asume por pertenecer a la clase ISRS) |
+| Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
 | Puntaje de Predicción TxGNN | 99.74% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción específico en esta base de evidencia. Según la información farmacológica conocida, citalopram pertenece a la clase de los inhibidores selectivos de la recaptación de serotonina (ISRS), cuya eficacia en el tratamiento de la depresión está ampliamente comprobada, y mecanísticamente podría ser aplicable al TOC.
+Citalopram es un ISRS. Actualmente no se dispone de datos detallados sobre su mecanismo de acción en la fuente consultada. Aun así, la inhibición de la recaptación de serotonina es la base farmacológica establecida del tratamiento del TOC.
 
-La desregulación del sistema serotoninérgico es el mecanismo patológico central reconocido en el TOC, y los ISRS/clomipramina son el tratamiento de primera línea según las guías clínicas de esta patología. Citalopram comparte esta clase de mecanismo, y su enantiómero activo, escitalopram (mecanismo farmacológico idéntico), ya cuenta con múltiples ensayos controlados aleatorizados de Fase 4 que validan su eficacia en TOC — lo que refuerza indirectamente la plausibilidad de la predicción de TxGNN para citalopram.
+Los ISRS (fluoxetina, fluvoxamina, sertralina, escitalopram) se usan como tratamiento de primera línea en el TOC. El vínculo es por clase y es biológicamente plausible. Si el fármaco es eficaz en depresión mediante el sistema serotoninérgico, es razonable pensar que también pueda serlo en el TOC.
 
-Como advertencia relevante: la prolongación del intervalo QTc a dosis altas es un riesgo de seguridad ya conocido para citalopram, por lo que cualquier avance hacia esta indicación debe incorporar límites de dosis como medida de protección (guardrail).
+Hay una limitación importante. Casi todos los datos de ensayos provienen de escitalopram, no de citalopram. La evidencia directa con citalopram en TOC es antigua y de pequeño tamaño (por ejemplo, un ensayo aleatorizado abierto de 16 pacientes publicado en 1999).
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
+Se listan los 10 ensayos más relevantes de los 30 identificados. Salvo indicación contraria, el fármaco estudiado es **escitalopram**, no citalopram.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00116532](https://clinicaltrials.gov/study/NCT00116532) | Fase 4 | Completado | 30 | Evaluación de escitalopram (enantiómero activo de citalopram) en TOC y determinación de dosis óptima |
-| [NCT05210140](https://clinicaltrials.gov/study/NCT05210140) | N/A | Desconocido | 148 | Monitorización de niveles plasmáticos y genotipado CYP2C19 para personalizar dosis de escitalopram; misma vía metabólica que citalopram |
-| [NCT00564564](https://clinicaltrials.gov/study/NCT00564564) | Fase 4 | Completado | 21 | Aumento con quetiapina vs. clomipramina en pacientes con TOC refractarios a ISRS |
-| [NCT00456937](https://clinicaltrials.gov/study/NCT00456937) | Fase 4 | Completado | 15 | Estudio abierto de escitalopram (hasta 20 mg/día) en esquizofrenia con TOC comórbido |
-| [NCT03068429](https://clinicaltrials.gov/study/NCT03068429) | Fase 4 | Completado | 69 | Neuroimagen (fMRI) de condicionamiento/extinción del miedo en TOC, pre y post tratamiento con sertralina |
-| [NCT02431845](https://clinicaltrials.gov/study/NCT02431845) | N/A | Reclutando | 200 | Estudio farmacogenético/proteómico/microbiómico en TOC para predecir respuesta a ISRS |
-| [NCT00723060](https://clinicaltrials.gov/study/NCT00723060) | Fase 4 | Completado | 176 | ECA doble ciego multicéntrico: dosis convencional (20mg) vs. alta dosis (40mg) de escitalopram en TOC |
-| [NCT00305500](https://clinicaltrials.gov/study/NCT00305500) | Fase 3 | Completado | 100 | Estudio abierto: escitalopram en dosis altas (20-50mg/día) en TOC del adulto |
-| [NCT00215137](https://clinicaltrials.gov/study/NCT00215137) | Fase 2 | Completado | 14 | Estudio piloto de seguridad y eficacia de escitalopram en TOC |
-| [NCT02022709](https://clinicaltrials.gov/study/NCT02022709) | Fase 4 | Completado | 78 | Comparación de eficacia entre ERP, ISRS y combinación de ambos en TOC |
+| [NCT00723060](https://clinicaltrials.gov/study/NCT00723060) | Fase 4 | Completado | 176 | Escitalopram a dosis convencional (20 mg) frente a dosis alta (40 mg) en TOC. Aleatorizado, doble ciego y multicéntrico |
+| [NCT00305500](https://clinicaltrials.gov/study/NCT00305500) | Fase 3 | Completado | 100 | Estudio abierto de escitalopram a dosis altas (20-50 mg/día) en adultos con TOC. Evalúa tolerabilidad y eficacia |
+| [NCT00116532](https://clinicaltrials.gov/study/NCT00116532) | Fase 4 | Completado | 30 | Eficacia de escitalopram en TOC y determinación de la dosis óptima |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completado | 26 | Predictores de respuesta en TOC. Asignación aleatoria a clomipramina o escitalopram |
+| [NCT00456937](https://clinicaltrials.gov/study/NCT00456937) | Fase 4 | Completado | 15 | Escitalopram abierto en esquizofrenia con TOC comórbido |
+| [NCT00708396](https://clinicaltrials.gov/study/NCT00708396) | Fase 4 | Desconocido | 20 | Escitalopram a dosis altas (20-40 mg/día) en esquizofrenia con TOC, abierto |
+| [NCT00708240](https://clinicaltrials.gov/study/NCT00708240) | Fase 4 | Desconocido | 40 | Escitalopram en adolescentes con TOC: eficacia, seguridad y cambios en funciones ejecutivas |
+| [NCT00215137](https://clinicaltrials.gov/study/NCT00215137) | Fase 2 | Completado | 14 | Estudio piloto de seguridad y eficacia de escitalopram en síntomas de TOC |
+| [NCT00086645](https://clinicaltrials.gov/study/NCT00086645) | Fase 2 | Completado | 149 | **Citalopram** frente a placebo en niños con autismo y conductas repetitivas altas |
+| [NCT00609531](https://clinicaltrials.gov/study/NCT00609531) | Fase 1 | Completado | 12 | **Citalopram** en trastornos del espectro autista: resonancia magnética funcional sobre conductas repetitivas restringidas |
+
+---
 
 ## Evidencia de Literatura
 
+Se listan 10 de las 16 publicaciones identificadas.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | Cohorte/Abierto | Int Clin Psychopharmacol | Evidencia histórica de la eficacia de **citalopram específicamente** en TOC, más allá de la depresión |
-| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | Cohorte/Abierto | Eur Psychiatry | Ensayo abierto de 90 días: citalopram solo vs. citalopram + clomipramina en TOC resistente al tratamiento (n=16) |
-| [38703743](https://pubmed.ncbi.nlm.nih.gov/38703743/) | 2024 | Revisión | Compr Psychiatry | Seguridad y tolerabilidad a largo plazo de dosis altas off-label de ISRS en TOC |
-| [35121274](https://pubmed.ncbi.nlm.nih.gov/35121274/) | 2022 | Meta-análisis en red | J Psychiatr Res | Comparación de tratamiento farmacológico y psicológico en TOC pediátrico/adolescente |
-| [35818708](https://pubmed.ncbi.nlm.nih.gov/35818708/) | 2022 | Revisión sistemática | Expert Opin Pharmacother | ECAs de farmacoterapia en trastorno de personalidad obsesivo-compulsiva |
-| [32242450](https://pubmed.ncbi.nlm.nih.gov/32242450/) | 2020 | Revisión sistemática | Nord J Psychiatry | Eficacia y tolerabilidad de fluoxetina en TOC infantojuvenil |
-| [34313207](https://pubmed.ncbi.nlm.nih.gov/34313207/) | 2022 | Estudio farmacogenético | CNS Spectr | Impacto del polimorfismo BDNF Val66Met en la respuesta a escitalopram/paroxetina en TOC |
-| [30973183](https://pubmed.ncbi.nlm.nih.gov/30973183/) | 2019 | Estudio de neuroimagen | Psychiatry Clin Neurosci | Cambios neuroquímicos (1H-MRS) tras 12 semanas de escitalopram en TOC |
-| [41286906](https://pubmed.ncbi.nlm.nih.gov/41286906/) | 2025 | Protocolo ECA | BMC Psychiatry | Protocolo de ECA doble ciego con placebo: vortioxetina como terapia adyuvante en TOC |
-| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | Revisión | BMJ Clin Evid | Panorama general de epidemiología y tratamiento del TOC |
+| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | ECA abierto (n=16) | Eur Psychiatry | Compara citalopram solo frente a citalopram con clomipramina en TOC resistente a tratamiento, durante 90 días |
+| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | Informe narrativo | Int Clin Psychopharmacol | Revisa el uso de citalopram en TOC y la relación entre los inhibidores de la recaptación de serotonina y este trastorno |
+| [38703743](https://pubmed.ncbi.nlm.nih.gov/38703743/) | 2024 | Revisión/Meta-análisis | Compr Psychiatry | Examina la seguridad y tolerabilidad a largo plazo de dosis altas off-label de inhibidores de la recaptación de serotonina en TOC |
+| [35121274](https://pubmed.ncbi.nlm.nih.gov/35121274/) | 2022 | Meta-análisis en red | J Psychiatr Res | Compara tratamientos farmacológicos y psicológicos, solos y combinados, en niños y adolescentes con TOC |
+| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Meta-análisis | J Affect Disord | El TOC muestra menor respuesta a placebo y a antidepresivos que otros trastornos de ansiedad |
+| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Meta-revisión | Front Psychiatry | Eficacia, tolerabilidad y suicidalidad de los antidepresivos en niños y adolescentes, incluido el TOC |
+| [32242450](https://pubmed.ncbi.nlm.nih.gov/32242450/) | 2020 | Revisión sistemática | Nord J Psychiatry | Fluoxetina en TOC pediátrico (nivel de clase, no citalopram) |
+| [34313207](https://pubmed.ncbi.nlm.nih.gov/34313207/) | 2022 | Estudio farmacogenético | CNS Spectr | Influencia del polimorfismo BDNF Val66Met en la respuesta a escitalopram o paroxetina en TOC |
+| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | Revisión | BMJ Clin Evid | Panorama del TOC: prevalencia de aproximadamente 1-1,5% en adultos y 2,7% en niños y adolescentes |
+| [19454066](https://pubmed.ncbi.nlm.nih.gov/19454066/) | 2007 | Revisión | BMJ Clin Evid | Panorama del TOC: prevalencia y curso episódico o continuo |
+
+---
+
+## Información de Mercado en España
+
+Hay 20 autorizaciones en total. Se muestran las 5 principales. Los textos de indicación aprobada no estaban disponibles en los datos recibidos.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 66251 | Citalopram Mabo 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 67805 | Citalopram Cinfa 30 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 67544 | Citalopram Farmaprojects 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 84478 | Citalopram Aurobindo 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 66481 | Citalopram Vir 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay datos de advertencias, contraindicaciones ni interacciones farmacológicas disponibles en las fuentes consultadas (búsqueda DDI: sin resultados).
+Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles (la consulta de interacciones no devolvió resultados). Consultar el prospecto para la información de seguridad.
+
+El análisis de reposicionamiento señala estas precauciones, que deben verificarse en la ficha técnica:
+- **Prolongación del QTc dependiente de la dosis**: dosis máxima de citalopram de 40 mg/día, y de 20 mg/día en mayores de 60 años o metabolizadores lentos de CYP2C19.
+- **Dosis mayores que en depresión**: el TOC suele requerirlas, lo que aumenta la relevancia del riesgo de QTc.
+- **Cribado de interacciones y de síndrome serotoninérgico.**
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen múltiples ECAs de Fase 2-4 que respaldan la eficacia de escitalopram (enantiómero activo, mecanismo idéntico a citalopram) en TOC, y dos estudios de cohorte/abiertos históricos evalúan citalopram directamente en esta indicación. La evidencia es razonable pero no suficientemente robusta para un "Go" directo, y el riesgo conocido de prolongación de QTc a dosis altas exige medidas de protección específicas.
+El mecanismo por clase (ISRS) es sólido, y hay ensayos y meta-análisis en TOC con este grupo de fármacos, en su mayoría con escitalopram. La evidencia directa con citalopram es limitada y no hay ensayos de Fase 3, por lo que se recomienda avanzar solo con salvaguardas de seguridad.
 
 **Para avanzar se necesita:**
-- Datos de advertencias/contraindicaciones del prospecto TFDA (gap bloqueante DG001)
-- Datos detallados del mecanismo de acción (MOA) de citalopram (gap DG002)
-- Confirmación del estado regulatorio, dado que el fármaco figura como no comercializado (0 autorizaciones)
-- Evidencia clínica directa con citalopram (no solo escitalopram) específicamente en TOC
-- Plan de monitoreo de QTc y protocolo de límite de dosis
+- Ensayos aleatorizados con citalopram (no escitalopram) en TOC, o una justificación formal de extrapolar desde el enantiómero.
+- Ficha técnica de la AEMPS: indicaciones aprobadas, advertencias y contraindicaciones.
+- Datos del mecanismo de acción desde DrugBank.
+- Plan de monitorización del QTc (ECG) y de la dosis, con genotipado de CYP2C19 si procede.
+- Cribado de interacciones farmacológicas y de síndrome serotoninérgico.
+
+**Otras indicaciones predichas:** los trastornos de personalidad paranoide, esquizoide, histriónico y esquizotípico obtuvieron todos **Hold** (nivel L4-L5). Comparten un puntaje idéntico (99.68%), lo que sugiere una propagación por clase en el grafo de conocimiento y no una señal específica del fármaco. No hay ensayos clínicos ni literatura que respalden el efecto de citalopram en ellos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

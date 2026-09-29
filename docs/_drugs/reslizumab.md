@@ -2,7 +2,7 @@
 layout: default
 title: Reslizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 242
+nav_order: 464
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,17 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Reslizumab: Indicación Original No Disponible → Trombocitopenia por Destrucción Inmune
-
-*Candidato: TW-DB06602-multi · Versión v4 · Corte de datos: 2026-07-14*
-
----
+# Reslizumab: De Anticuerpo Anti-IL-5 a Trombocitopenia por Destrucción Inmune
 
 ## Resumen en Una Frase
 
-No fue posible determinar la indicación original ni el mecanismo de acción de Reslizumab a partir de las fuentes consultadas (DrugBank, PubMed) — ambos campos figuran como brecha de datos en este Evidence Pack.
-El modelo TxGNN predice dos posibles direcciones de reposicionamiento: **Trombocitopenia por Destrucción Inmune** (puntaje 99.53%) y **Trastorno Primario de Liberación Plaquetaria** (puntaje 99.25%).
-Actualmente **no existe ningún ensayo clínico** que respalde ninguna de las dos indicaciones, y solo se dispone de **1 publicación indirecta** (una revisión sobre síndrome hipereosinofílico) relacionada con la segunda hipótesis.
+Reslizumab es un anticuerpo monoclonal anti-IL-5 que reduce los eosinófilos. En el Evidence Pack no consta su indicación original ni el texto de indicación de su autorización en España.
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por destrucción inmune**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ---
 
@@ -47,55 +42,50 @@ Actualmente **no existe ningún ensayo clínico** que respalde ninguna de las do
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en las fuentes consultadas (DrugBank/PubMed no reportaron indicación registrada) |
-| Nueva Indicación Predicha | Trombocitopenia por Destrucción Inmune |
+| Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
 | Puntaje de Predicción TxGNN | 99.53% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Taiwán | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de Reslizumab, ni de su indicación original registrada en las fuentes consultadas (DrugBank, PubMed). Esto impide realizar un análisis de correlación mecanística riguroso y limita la interpretación de ambas hipótesis a lo que el propio paquete de evidencia documenta como racional de reposicionamiento.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, reslizumab es un anticuerpo monoclonal anti-IL-5 que reduce los eosinófilos. Su eficacia se asocia a enfermedades mediadas por eosinófilos, y mecanísticamente su aplicabilidad a la nueva indicación es, por ahora, solo una hipótesis.
 
-**Candidato 1 — Trombocitopenia por Destrucción Inmune (rank 1):** el racional documentado en el Evidence Pack señala que la fisiopatología de esta enfermedad (autoanticuerpos contra glucoproteínas plaquetarias como GPIIb/IIIa, aclaramiento mediado por receptores Fc en el bazo, eje de linfocitos B/autoanticuerpos) **no tiene relación mecanística conocida** con el eje IL-5/eosinófilos. El propio análisis incluido en el paquete concluye que esta predicción es, con alta probabilidad, **ruido derivado de similitud de embeddings en el modelo TxGNN**, y no una señal biológica real. Esta predicción debe interpretarse con cautela reforzada.
+Hoy no se ha documentado ningún vínculo mecanístico ni clínico entre la vía IL-5/eosinófilos y la destrucción plaquetaria inmune. La trombocitopenia inmune se explica sobre todo por autoanticuerpos y desregulación de linfocitos T, y no se conoce un papel establecido de la IL-5 en ella.
 
-**Candidato 2 — Trastorno Primario de Liberación Plaquetaria (rank 2):** la única literatura disponible discute el síndrome hipereosinofílico (SHE) y su tratamiento con mepolizumab (un anti-IL-5 distinto de reslizumab). El vínculo es, por tanto, una inferencia indirecta de "efecto de clase" (fármacos anti-IL-5 podrían mejorar anomalías hematológicas asociadas al SHE), no evidencia específica de reslizumab ni de este trastorno plaquetario en particular.
-
-En ambos casos, la ausencia de datos sobre el mecanismo de acción original impide confirmar o descartar plausibilidad biológica con solidez.
+El puntaje alto de TxGNN (99.53%) proviene únicamente de una predicción basada en grafos de conocimiento. Debe tratarse como una señal para generar hipótesis y no como prueba de eficacia.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para ninguna de las dos indicaciones predichas (Trombocitopenia por Destrucción Inmune ni Trastorno Primario de Liberación Plaquetaria).
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-**Candidato 1 — Trombocitopenia por Destrucción Inmune:** actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
-**Candidato 2 — Trastorno Primario de Liberación Plaquetaria:**
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/) | 2010 | Revisión | Current Medical Research and Opinion | Estrategias de manejo del síndrome hipereosinofílico, incluyendo mepolizumab, orientadas a reducir la eosinofilia y prevenir el daño a órganos por infiltración eosinofílica; no evalúa reslizumab ni el trastorno plaquetario de forma directa |
+*Nota:* para otra indicación predicha (trastorno primario de liberación plaquetaria, puntaje 99.25%, nivel L4) solo existe una revisión de 2010 sobre el síndrome hipereosinofílico y mepolizumab, otro anticuerpo anti-IL-5 ([PMID 20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/)). Ofrece contexto general sobre el bloqueo de IL-5, pero no aborda la función plaquetaria.
 
 ---
 
-## Información de Mercado en Taiwán
+## Información de Mercado en España
 
-Reslizumab no está comercializado en Taiwán (0 autorizaciones registradas), por lo que no existe información de producto, forma farmacéutica ni indicación aprobada localmente disponible en este momento.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 1161125001 | CINQAERO 10 MG/ML | Concentrado para solución para perfusión | Teva B.V. |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. (No se localizó el prospecto/ficha técnica de TFDA ni datos de interacciones farmacológicas en las fuentes consultadas; esta brecha está clasificada como bloqueante para la evaluación de seguridad S1.)
+Consultar el prospecto para información de seguridad.
 
 ---
 
@@ -104,13 +94,13 @@ Consultar el prospecto para información de seguridad. (No se localizó el prosp
 **Decisión: Hold**
 
 **Justificación:**
-Ninguna de las dos indicaciones predichas cuenta con ensayos clínicos de respaldo, y la evidencia de literatura se limita a una única revisión indirecta (efecto de clase, no específica de reslizumab). El propio racional de reposicionamiento identifica el candidato de mayor puntaje como probable ruido del modelo. Con un nivel de evidencia L5/L4 y ausencia de datos de MOA e indicación original, no existe base suficiente para avanzar a etapas de evaluación posteriores.
+La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5) y no hay un vínculo mecanístico plausible entre el bloqueo de IL-5 y la trombocitopenia inmune. El puntaje alto del modelo no basta por sí solo para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción (MOA) de Reslizumab vía API de DrugBank (DG002)
-- Obtener el prospecto/ficha técnica de TFDA con advertencias y contraindicaciones (DG001, bloqueante para S1)
-- Confirmar la(s) indicación(es) original(es) aprobada(s) del fármaco
-- Búsqueda dirigida de literatura y ensayos clínicos específicos de reslizumab para ambas indicaciones candidatas, para distinguir señal biológica real de artefacto del modelo
+- Obtener el prospecto de AEMPS para completar la revisión de seguridad, lo que actualmente bloquea el cribado de seguridad.
+- Completar los datos de mecanismo de acción e indicación original desde DrugBank.
+- Buscar evidencia preclínica o clínica que conecte la vía IL-5/eosinófilos con la destrucción plaquetaria inmune.
+- Evaluar la compatibilidad de vías de administración, hoy pendiente (reslizumab se presenta como perfusión intravenosa).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Landiolol
 parent: Solo predicción del modelo (L5)
-nav_order: 157
+nav_order: 302
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,35 +29,42 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Landiolol: De Control Agudo de Arritmias Cardíacas a Discinesia Linguofacial-Bucal
+# Landiolol: De Indicación Original No Registrada a Discinesia Linguo-Facial-Bucal
 
 ## Resumen en Una Frase
 
-Landiolol es un betabloqueante β1-selectivo de acción ultracorta (vida media ~4 minutos), administrado por vía intravenosa para el control agudo de la frecuencia cardíaca en entornos hospitalarios (UCI/quirófano).
-El modelo TxGNN predice que podría ser efectivo para **Discinesia Linguofacial-Bucal**, con una puntuación de **99,11%**,
-pero actualmente **no existen ensayos clínicos ni publicaciones** que respalden esta dirección — la evidencia es puramente computacional.
+Landiolol es un betabloqueante intravenoso de acción ultracorta y alta selectividad beta-1. En los datos disponibles no consta el texto de su indicación aprobada en España.
+El modelo TxGNN predice que podría ser efectivo para **discinesia linguo-facial-bucal**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack actual (brecha de datos registrada, ver sección MOA) |
-| Nueva Indicación Predicha | Discinesia Linguofacial-Bucal |
+| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
+| Nueva Indicación Predicha | Discinesia linguo-facial-bucal |
 | Puntaje de Predicción TxGNN | 99,11% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de landiolol en el Evidence Pack (brecha de datos de alta severidad). Según la información disponible en las justificaciones mecanísticas asociadas a esta predicción, landiolol es un betabloqueante β1-selectivo de acción ultracorta, utilizado por vía intravenosa exclusivamente para el control agudo del ritmo/frecuencia cardíaca en contextos de cuidados intensivos o quirúrgicos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el Evidence Pack. Según la información conocida, landiolol es un bloqueante beta-1 adrenérgico intravenoso, de acción ultracorta y cardioselectivo, pensado para uso agudo en entornos hospitalarios.
 
-La relación entre este uso original y la discinesia linguofacial-bucal es débil. La propia justificación mecanística generada para esta predicción indica que la fisiopatología de este tipo de discinesia (tardía u orofacial) se asocia principalmente con hipersensibilidad de receptores dopaminérgicos o con la vía GABA, sin una conexión directa conocida con el bloqueo adrenérgico β1-selectivo. Solo existe una inferencia indirecta muy débil: que los trastornos del movimiento a veces cursan con síntomas autonómicos concomitantes.
+La relación con la nueva indicación es débil. Los betabloqueantes orales o no selectivos se han usado en algunos trastornos del movimiento inducidos por fármacos, pero nada vincula específicamente a landiolol con la discinesia orofacial. Además, su perfil de uso solo intravenoso y agudo encaja mal con una enfermedad crónica.
 
-En consecuencia, esta predicción debe interpretarse como una señal exploratoria generada por similitud de red en TxGNN, sin respaldo mecanístico sólido ni evidencia clínica o preclínica que la sustente en este momento.
+El puntaje alto (99,11%) probablemente refleja similitud a nivel de grafo con otros betabloqueantes, y no biología específica de landiolol. Otras predicciones del modelo siguen el mismo patrón, todas con nivel L5 y sin evidencia recuperada:
 
-## Evidencia de Ensayos Clinicos
+| Enfermedad predicha | Puntaje TxGNN | Comentario |
+|------|------|------|
+| Trastorno de tics crónico | 99,08% | Circuitos dopaminérgicos y cortico-estriatales, sin mecanismo beta-1 establecido |
+| Trastornos de movimiento psicógenos | 99,05% | Vínculo teórico especulativo, vía modulación adrenérgica periférica |
+| Ataques de escalofrío benignos | 99,04% | Cuadro benigno y autolimitado en lactantes, relación riesgo-beneficio muy desfavorable |
+| Enfermedad extrapiramidal y de movimiento | 99,04% | Categoría amplia, la señal debería resolverse en subdiagnósticos concretos |
+| Temblor ortostático primario | 99,00% | Beneficio limitado de los betabloqueantes, y landiolol es beta-1 selectivo y solo intravenoso |
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -65,26 +72,33 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-Landiolol no está comercializado actualmente en España (0 autorizaciones registradas), por lo que no se dispone de información de productos ni indicaciones aprobadas localmente.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 89271 | RAPIBLOC 300 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución para perfusión | No especificada en los datos disponibles |
+
+Titular: Orpha-Devel Handels Und Vertriebs Gmbh.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. (No se encontraron datos de advertencias, contraindicaciones ni interacciones farmacológicas en las fuentes consultadas; la búsqueda de DDI no arrojó resultados.)
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas para este fármaco.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en la puntuación del modelo TxGNN (L5), sin ningún ensayo clínico ni publicación de respaldo, y la propia justificación mecanística generada reconoce que la conexión farmacológica entre landiolol y la discinesia linguofacial-bucal es indirecta y débil. No existe base suficiente para avanzar a evaluación de seguridad.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y no hay un mecanismo plausible que conecte un betabloqueante intravenoso cardioselectivo de acción ultracorta con trastornos del movimiento crónicos. Faltan además los datos de seguridad y de la indicación original.
 
 **Para avanzar se necesita:**
-- Datos del prospecto/ficha técnica de TFDA (advertencias y contraindicaciones) — brecha bloqueante (DG001)
-- Datos del mecanismo de acción (MOA) desde DrugBank — brecha de alta severidad (DG002)
-- Búsqueda ampliada de literatura preclínica o de mecanismo que conecte el bloqueo β1 con discinesias orofaciales
-- Nota: entre los seis candidatos evaluados, "primary orthostatic tremor" (rank 6) presenta una justificación farmacológica algo más plausible (los betabloqueantes no selectivos son tratamiento estándar en temblores), aunque también carece de evidencia clínica directa para landiolol y mantiene recomendación Hold
+- Obtener del prospecto de AEMPS las advertencias, contraindicaciones y el texto de la indicación aprobada
+- Completar los datos de mecanismo de acción desde DrugBank
+- Realizar una búsqueda dirigida de literatura y ensayos sobre betabloqueantes en discinesias y temblores
+- Evaluar la compatibilidad de la vía de administración (solo intravenosa) con el uso crónico
+- Considerar la priorización de otras predicciones solo si aparece evidencia independiente
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

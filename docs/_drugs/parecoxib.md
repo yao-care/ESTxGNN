@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Parecoxib
-parent: Evidencia alta (L1-L2)
-nav_order: 212
-evidence_level: L2
+parent: Evidencia moderada (L3-L4)
+nav_order: 408
+evidence_level: L3
 indication_count: 4
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,35 +29,34 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 </div>
 
-# Parecoxib: De Dolor Postoperatorio Agudo a Migraña
+# Parecoxib: De Indicación Original No Registrada a Migraña
 
 ## Resumen en Una Frase
 
-Parecoxib es un inhibidor selectivo de la COX-2 (profármaco de valdecoxib), utilizado originalmente para el tratamiento a corto plazo del dolor postoperatorio agudo por vía parenteral.
-El modelo TxGNN predice que podría ser efectivo para **Migraña**,
-con **0 ensayos clínicos registrados** y **1 publicación** (un estudio piloto aleatorizado) que actualmente respalda esta dirección.
+Parecoxib es un inhibidor de la COX-2 comercializado en España como Dynastat (inyectable), pero el paquete de evidencia no registra su indicación original.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de migraña**,
+con **0 ensayos clínicos** y **1 publicación** que respaldan por ahora esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dolor postoperatorio agudo, tratamiento a corto plazo (no hay ficha técnica registrada en España) |
-| Nueva Indicación Predicha | Migraña |
+| Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 99.55% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de acción específico de parecoxib en la Evidence Pack. Según la información conocida del sector, parecoxib es un profármaco de valdecoxib y actúa como inhibidor selectivo de la ciclooxigenasa-2 (COX-2), bloqueando la síntesis de prostaglandinas proinflamatorias. Fue desarrollado originalmente para el tratamiento a corto plazo del dolor postoperatorio agudo por vía parenteral.
+Parecoxib es un profármaco de valdecoxib, un inhibidor selectivo de la COX-2. No se dispone de datos detallados de mecanismo de acción en DrugBank para este paquete, pero la clase farmacológica es conocida: al reducir la síntesis de prostaglandinas, tiene efecto analgésico y antiinflamatorio.
 
-La migraña comparte con el dolor postoperatorio un componente fisiopatológico común: la inflamación neurogénica y la sensibilización periférica y central mediada por prostaglandinas, particularmente a través del sistema trigeminovascular. Los antiinflamatorios no esteroideos (AINE) ya cuentan con una base clínica establecida en el tratamiento agudo de la migraña, y la inhibición selectiva de COX-2 puede considerarse una extensión mecanística dentro de esa misma clase terapéutica.
+En la migraña, la inflamación neurógena mediada por prostaglandinas y la sensibilización trigeminovascular son contribuyentes plausibles del dolor. Por eso un efecto analgésico y antiinflamatorio es biológicamente razonable en el ataque agudo.
 
-Cabe destacar que el modelo también generó puntuaciones altas para subtipos relacionados (migraña con aura de tronco encefálico, susceptibilidad genética a la migraña) y para hipertensión pulmonar, pero estos carecen de evidencia clínica o literaria directa sobre parecoxib y se consideran de menor prioridad (nivel L4-L5) frente a la migraña general, que cuenta con un estudio piloto aleatorizado específico.
+El puntaje TxGNN es muy alto (0.995), pero es una predicción del modelo y no una prueba clínica. La única publicación de respaldo compara parecoxib con sumatriptán y rizatriptán en ataques agudos, y su diseño y tamaños de efecto no pudieron verificarse.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -65,29 +64,33 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | ECA | Clinical Neuropharmacology | Estudio piloto que compara parecoxib intravenoso (40 mg), sumatriptán subcutáneo y rizatriptán oral (comprimido de disolución rápida, 10 mg) en el tratamiento del ataque agudo de migraña. |
+| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | Estudio clínico comparativo piloto (diseño no verificado; no se confirma si es ECA) | Clinical Neuropharmacology | Compara rizatriptán oral 10 mg (comprimido de disolución rápida), parecoxib 40 mg intravenoso y sumatriptán subcutáneo en ataques agudos de migraña. El resumen disponible está truncado y no permite confirmar los resultados. |
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-Parecoxib no está actualmente comercializado en España (0 autorizaciones registradas en la fuente consultada), por lo que no hay una tabla de autorizaciones que presentar.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 02209005 | DYNASTAT 40 mg polvo para solución inyectable | Polvo para solución inyectable | Pfizer Europe MA EEIG |
+| 02209008 | DYNASTAT 40 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Pfizer Europe MA EEIG |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- La evidencia de eficacia es incipiente (nivel L2): solo existe un estudio piloto aleatorizado (2011), sin ensayos clínicos registrados específicamente para migraña.
-- Existe una brecha bloqueante en los datos de seguridad (advertencias, contraindicaciones e interacciones no disponibles), por lo que no es posible completar la evaluación de seguridad inicial (S1) requerida antes de avanzar.
+La evidencia se limita a un estudio piloto de 2011 cuyo diseño y resultados no están verificados, y no hay ensayos clínicos registrados. Además, faltan las advertencias y contraindicaciones del prospecto de la AEMPS, lo que impide el cribado de seguridad.
+Las otras predicciones (migraña con aura de tronco encefálico, susceptibilidad genética a migraña e hipertensión pulmonar) tienen evidencia nula o preclínica y también quedan en espera. En hipertensión pulmonar, el único estudio (lechones con sepsis) debilita el mecanismo propuesto y la dirección del efecto es incierta.
 
 **Para avanzar se necesita:**
-- Ficha técnica oficial con advertencias, contraindicaciones y posología, para completar la evaluación de seguridad S1.
-- Datos estructurados del mecanismo de acción (MOA) desde DrugBank.
-- Confirmación de las vías de administración disponibles frente a las requeridas para el tratamiento agudo de migraña (parecoxib es actualmente de uso parenteral/hospitalario).
-- Un ensayo clínico adicional o de mayor tamaño muestral que confirme el hallazgo piloto de 2011 antes de considerar "Proceed with Guardrails".
+- Obtener el texto completo del estudio PMID 21996647 para confirmar diseño, población y resultados.
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), incluido el riesgo cardiovascular propio de los inhibidores de la COX-2.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Buscar ensayos clínicos en registros (ClinicalTrials.gov, ICTRP) sobre parecoxib en migraña aguda.
+- Evaluar la compatibilidad de la vía de administración (actualmente solo inyectable) con el uso en ataques de migraña.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

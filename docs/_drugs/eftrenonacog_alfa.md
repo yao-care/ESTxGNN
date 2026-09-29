@@ -2,7 +2,7 @@
 layout: default
 title: Eftrenonacog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 102
+nav_order: 194
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,70 +29,62 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Eftrenonacog Alfa: De Hemofilia B a Pseudo-Enfermedad de Von Willebrand
+# Eftrenonacog alfa: De Hemofilia B a Pseudo-enfermedad de von Willebrand
 
 ## Resumen en Una Frase
 
-Eftrenonacog alfa es un factor IX de coagulación recombinante, utilizado como terapia de reemplazo en la Hemofilia B.
-El modelo TxGNN predice que podria ser efectivo para **Pseudo-Enfermedad de Von Willebrand**,
-pero actualmente **no existen ensayos clinicos ni publicaciones** que respalden esta direccion — se trata unicamente de una senal computacional del modelo.
+Eftrenonacog alfa es una proteína de fusión recombinante del factor IX unido a Fc, utilizada originalmente como tratamiento sustitutivo en la hemofilia B.
+El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de von Willebrand**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Hemofilia B (terapia de reemplazo de Factor IX) — no hay ficha tecnica registrada en Taiwan/España, dato basado en identidad conocida del farmaco |
-| Nueva Indicacion Predicha | Pseudo-Enfermedad de Von Willebrand |
-| Puntaje de Prediccion TxGNN | 99.48% (rank 8020) |
+| Indicación Original | Hemofilia B (según el mecanismo conocido del producto; el texto de indicación aprobada no está disponible en los registros) |
+| Nueva Indicación Predicha | Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) |
+| Puntaje de Predicción TxGNN | 99.48% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, eftrenonacog alfa es un factor IX recombinante fusionado a Fc que repone la actividad de FIX en la vía intrínseca de la coagulación, y su eficacia en la hemofilia B es la base de su uso.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion registrados en las fuentes consultadas. Segun la informacion conocida, eftrenonacog alfa es un factor IX de coagulacion recombinante que actua reemplazando el factor deficiente en la cascada de coagulacion, con eficacia comprobada en la Hemofilia B.
+En este caso, la predicción es **débil desde el punto de vista mecanístico**. La pseudo-enfermedad de von Willebrand (tipo plaquetario) se debe a una mutación de ganancia de función en la GPIbα plaquetaria, que provoca una unión excesiva de multímeros de alto peso molecular del VWF y una eliminación acelerada de plaquetas. El defecto principal está en la interacción plaqueta-VWF, no en una deficiencia de FIX.
 
-Sin embargo, el vinculo mecanistico con la Pseudo-Enfermedad de Von Willebrand es debil. Esta enfermedad esta causada por una mutacion de ganancia de funcion en el receptor plaquetario GpIb, que provoca una union anomala entre las plaquetas y el factor de von Willebrand — es decir, un defecto del receptor plaquetario, no una alteracion de la via de los factores de coagulacion. La suplementacion con Factor IX no puede corregir esta disfuncion del receptor plaquetario.
+El puntaje alto (0.995) probablemente refleja la cercanía en el grafo de conocimiento con los trastornos hemorrágicos y de la coagulación, y no un vínculo biológico validado. Otras predicciones del mismo modelo para este fármaco (trastorno primario de liberación plaquetaria y trombastenia de Glanzmann) presentan el mismo problema: son defectos de la función plaquetaria que la reposición de FIX no corrige.
 
-En consecuencia, esta prediccion procede unicamente de la similitud de embeddings del modelo TxGNN, sin respaldo biologico ni clinico identificado hasta el momento.
+## Información de Mercado en España
 
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1161098001 | ALPROLIX 250 UI | Polvo y disolvente para solución inyectable | — |
+| 1161098002 | ALPROLIX 500 UI | Polvo y disolvente para solución inyectable | — |
+| 1161098003 | ALPROLIX 1.000 UI | Polvo y disolvente para solución inyectable | — |
+| 1161098004 | ALPROLIX 2.000 UI | Polvo y disolvente para solución inyectable | — |
+| 1161098005 | ALPROLIX 3.000 UI | Polvo y disolvente para solución inyectable | — |
 
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clinicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+Titular: Swedish Orphan Biovitrum AB (publ).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la base de datos consultada.
 
----
+## Conclusión y Próximos Pasos
 
-## Conclusion y Proximos Pasos
+**Decisión: Hold**
 
-**Decision: Hold**
-
-**Justificacion:**
-No existe ningun ensayo clinico ni publicacion que respalde esta direccion, el propio analisis mecanistico senala una relacion biologica debil, y el farmaco no esta comercializado en España. La evidencia es insuficiente para avanzar mas alla de la etapa de prediccion (S0).
+**Justificación:**
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un fundamento mecanístico plausible: el defecto de la enfermedad es plaquetario y no de FIX. Las otras dos indicaciones predichas comparten esta limitación.
 
 **Para avanzar se necesita:**
-- Datos de advertencias/contraindicaciones del prospecto de TFDA (actualmente bloqueante para la evaluacion inicial de seguridad S1)
-- Datos detallados del mecanismo de accion (MOA) via DrugBank u otra fuente
-- Validacion biologica o preclinica que conecte la via del Factor IX con el defecto del receptor plaquetario GpIb en la Pseudo-Enfermedad de Von Willebrand
-- Evaluacion equivalente para los candidatos de rango 2 (Trastorno Primario de Liberacion Plaquetaria) y rango 3 (Trombastenia de Glanzmann), que presentan el mismo patron: L5, sin evidencia real, y vinculo mecanistico debil
+- Datos del mecanismo de acción del fármaco (DrugBank) y del texto de indicación aprobada en AEMPS
+- Prospecto de AEMPS con advertencias y contraindicaciones
+- Una hipótesis biológica que explique por qué la reposición de FIX podría ser útil en un defecto plaqueta-VWF, respaldada por estudios preclínicos
+- Revisión de literatura y de registros de ensayos que confirme la ausencia o presencia de evidencia real
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

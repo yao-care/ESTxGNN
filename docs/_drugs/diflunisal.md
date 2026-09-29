@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Diflunisal
-parent: Evidencia alta (L1-L2)
-nav_order: 92
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 176
+evidence_level: L5
 indication_count: 10
 ---
 
 # Diflunisal
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,56 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Diflunisal: De Antiinflamatorio no Esteroideo (AINE) a Espondilitis Anquilosante
-
-> **Nota metodologica:** Este Evidence Pack contiene 10 indicaciones candidatas. La de mayor puntaje TxGNN (rango #1, "acromesomelic dysplasia, Hunter-Thompson type") esta senalada por el propio analisis mecanistico como probable falso positivo por agrupamiento fenotipico de enfermedades oseas, sin ningun ensayo clinico ni literatura de respaldo (L5, Hold). Este informe se centra en cambio en la **Espondilitis Anquilosante** (rango #5), la unica candidata con evidencia clinica real y nivel L2.
+# Diflunisal: De Indicación Original No Registrada a Displasia Acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Diflunisal es un antiinflamatorio no esteroideo (AINE) derivado del acido salicilico. El modelo TxGNN predice que podria ser efectivo para **Espondilitis Anquilosante**, respaldado por **1 ensayo clinico controlado aleatorizado (1986)** y **7 publicaciones** en total, aunque actualmente el farmaco no esta comercializado en Espana.
+Diflunisal es un antiinflamatorio no esteroideo (AINE) que inhibe la ciclooxigenasa (COX). Los datos de AEMPS disponibles no registran su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, una displasia esquelética genética.
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que es solo una predicción del modelo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en los datos suministrados (Diflunisal no esta comercializado en Espana; sin licencias ni indicacion aprobada registrada) |
-| Nueva Indicacion Predicha | Espondilitis Anquilosante |
-| Puntaje de Prediccion TxGNN | 99.98% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Proceed with Guardrails |
+| Indicación Original | No registrada en los datos de AEMPS |
+| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
+| Puntaje de Predicción TxGNN | 99.99% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de una ficha tecnica detallada del mecanismo de accion de diflunisal en los datos suministrados. Segun la informacion recogida en la evidencia de respaldo, diflunisal es un AINE derivado del acido salicilico cuyo mecanismo conocido es la inhibicion de las enzimas COX-1/COX-2, reduciendo la sintesis de prostaglandinas y con ello el dolor y la inflamacion.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, diflunisal es un AINE que inhibe COX-1 y COX-2 y reduce la inflamación y el dolor mediados por prostaglandinas.
 
-La espondilitis anquilosante (EA) es una espondiloartropatia inflamatoria cronica cuyo tratamiento de primera linea son precisamente los AINEs. La extension de diflunisal a esta indicacion no es una inferencia cruzada entre categorias de enfermedad distantes, sino una extension dentro de la misma clase farmacologica ya establecida (los AINEs se usan de forma rutinaria en EA).
+Esta predicción **no tiene un vínculo mecanístico plausible**. La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética genética que afecta a la vía GDF5/CDMP1. Diflunisal no actúa sobre esa vía. La inhibición de COX no modificaría el defecto genético subyacente.
 
-Esto se confirma con evidencia directa: un ensayo clinico aleatorizado doble ciego de 1986 comparo diflunisal frente a fenilbutazona en 38 pacientes varones con EA activa, mostrando eficacia comparable, con un efecto analgesico inicial mas rapido y pronunciado con diflunisal. Estudios de seguimiento del mismo grupo de investigadores documentaron ademas el impacto del tratamiento sobre marcadores de actividad de enfermedad (IgA serica) y funcion pulmonar en esta poblacion.
+El puntaje alto (99.99%) probablemente es un artefacto del grafo de conocimiento y no refleja una relación biológica real. No hay ensayos ni literatura que lo respalden.
 
-## Evidencia de Ensayos Clinicos
+## Información de Mercado en España
 
-Actualmente no hay ensayos clinicos relacionados registrados (busquedas en ClinicalTrials.gov e ICTRP para diflunisal + espondilitis anquilosante devolvieron 0 resultados).
-
-## Evidencia de Literatura
-
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | ECA | Clinical rheumatology | Ensayo doble ciego aleatorizado (12 sem + extension abierta 36 sem) en 38 varones con EA: diflunisal 500 mg 2x/dia vs. fenilbutazona 200 mg 2x/dia; ambos eficaces, diflunisal con inicio analgesico mas rapido |
-| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Cohorte | Annals of the rheumatic diseases | Estudio prospectivo de 48 semanas en 38 pacientes con EA activa (diflunisal o fenilbutazona): IgA serica correlaciono con expansion toracica e indice de flexion lumbar |
-| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Cohorte | The Journal of rheumatology | 33 varones con EA activa, diseno doble ciego (diflunisal vs. fenilbutazona, 12 sem + extension 36 sem): evaluo funcion pulmonar (capacidad vital) segun actividad de enfermedad y tratamiento |
-| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Revision | Clinical pharmacy | Revision de diclofenaco sodico (otro AINE) como referencia de clase: farmacologia, eficacia y uso en enfermedad reumatica |
-| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Revision | Drugs | Revision de diclofenaco sodico en enfermedades reumaticas, incluyendo espondilitis anquilosante, como evidencia de clase AINE |
-| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Revision | Drugs | Revision de naproxeno (AINE) en enfermedad reumatica; evidencia de clase, no especifica de diflunisal |
-| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Revision | Drugs | Revision de pirprofeno (AINE) como alternativa terapeutica en espondilitis anquilosante y trastornos musculoesqueleticos |
-
-*Nota: los 4 ultimos articulos son revisiones sobre otros AINEs (diclofenaco, naproxeno, pirprofeno) usados como evidencia de clase farmacologica en EA, no ensayos de diflunisal.*
-
-## Informacion de Mercado en Espana
-
-Diflunisal no esta actualmente comercializado en Espana (0 autorizaciones registradas en los datos disponibles; sin fichas de producto que listar).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1251929001 | ATTROGY 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (Purpose Pharma International Ab) | Comprimido recubierto con película | No especificada en los datos disponibles |
 
 ## Consideraciones de Seguridad
 
-No se dispone de datos de seguridad especificos (advertencias, contraindicaciones e interacciones aparecen sin informacion en las fuentes consultadas, y no existe ficha tecnica AEMPS al no estar comercializado en Espana). Consultar el prospecto/ficha tecnica internacional del producto antes de cualquier uso.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Proceed with Guardrails**
+**Decisión: Hold**
 
-**Justificacion:**
-Existe un ensayo clinico controlado aleatorizado (1986) que muestra eficacia de diflunisal en espondilitis anquilosante frente a un comparador activo, respaldado por dos estudios observacionales adicionales del mismo grupo y por evidencia de clase (otros AINEs ya usados en EA). Sin embargo, la evidencia es antigua (anos 80), diflunisal no esta comercializado en Espana, y faltan datos criticos de seguridad y mecanismo de accion — por lo que no se recomienda avanzar sin salvaguardas adicionales.
+**Justificación:**
+La predicción carece de plausibilidad mecanística, ensayos clínicos y literatura (nivel L5). El puntaje alto de TxGNN parece un artefacto del grafo de conocimiento y no justifica avanzar.
 
 **Para avanzar se necesita:**
-- Ficha tecnica/prospecto oficial con advertencias y contraindicaciones (actualmente gap bloqueante, DG001)
-- Mecanismo de accion detallado via DrugBank API (actualmente gap de alta prioridad, DG002)
-- Evaluacion de la via de registro o importacion, dado que el farmaco no esta comercializado en Espana
-- Busqueda actualizada de ensayos clinicos recientes (la evidencia disponible data de hace ~40 anos)
-- Perfil de interacciones farmacologicas (DDI), actualmente sin resultados ("not_found")
+- Datos del prospecto de AEMPS (advertencias y contraindicaciones), y confirmar la indicación original aprobada
+- Datos detallados del mecanismo de acción (MOA) desde DrugBank
+- Evidencia preclínica que vincule la vía GDF5/CDMP1 con la inhibición de COX, si se quisiera reconsiderar esta indicación
+- **Nota:** en la misma evaluación, **espondilitis anquilosante** (rango 5, nivel L3) y **espondilopatía inflamatoria** (rango 10, nivel L3) tienen mayor respaldo. Existe un estudio clínico comparativo de diflunisal frente a fenilbutazona (PMID 3524970, 1986), cuyo diseño aleatorizado y doble ciego debe verificarse. Se recomienda priorizar estas indicaciones en una evaluación aparte.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

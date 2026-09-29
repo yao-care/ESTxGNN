@@ -2,7 +2,7 @@
 layout: default
 title: Avelumab
 parent: Solo predicción del modelo (L5)
-nav_order: 31
+nav_order: 57
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Avelumab: De Carcinoma Urotelial a Tumor Asociado al Herpesvirus Humano 8
+# Avelumab: De Inmunoterapia Anti-PD-L1 a Tumor Relacionado con el Herpesvirus Humano 8
 
 ## Resumen en Una Frase
 
-Avelumab es un inhibidor de PD-L1 (anti-PD-L1) cuya indicación de referencia dentro de este Evidence Pack es el carcinoma urotelial localmente avanzado o metastásico. El modelo TxGNN predice que podría ser efectivo para **tumores asociados al herpesvirus humano 8 (VHH-8)**, con un score de predicción del **99.97%**, pero actualmente **sin ningún ensayo clínico ni publicación** que respalde esta dirección — la evidencia proviene únicamente de la inferencia del modelo (nivel L5).
-
----
+Avelumab es un anticuerpo monoclonal anti-PD-L1 comercializado en España como concentrado para perfusión (Bavencio). Los datos recibidos no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **tumor relacionado con el herpesvirus humano 8**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma urotelial localmente avanzado/metastásico *(no consta en licencias TFDA — mencionado como indicación ya aprobada dentro del análisis de racionalidad mecanística del propio Evidence Pack)* |
-| Nueva Indicación Predicha | Tumor asociado al herpesvirus humano 8 (VHH-8) |
-| Puntaje de Predicción TxGNN | 99.97% (rank 975) |
+| Nueva Indicación Predicha | Tumor relacionado con el herpesvirus humano 8 |
+| Puntaje de Predicción TxGNN | 99,97 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Taiwán | No comercializado (Not marketed) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos estructurados sobre el mecanismo de acción de avelumab (campo `original_moa` marcado como Data Gap, DG002). Sin embargo, el propio análisis de racionalidad del Evidence Pack identifica a avelumab como un **inhibidor de PD-L1 (anti-PD-L1)**, cuya indicación ya aprobada es el carcinoma urotelial.
+Avelumab es un anticuerpo dirigido contra PD-L1, una proteína que muchos tumores usan para frenar la respuesta inmunitaria. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia, por lo que el análisis mecanístico es limitado.
 
-La hipótesis para los tumores asociados a VHH-8 (como el sarcoma de Kaposi o el linfoma efusión primario) se basa en que estos tumores suelen presentar sobreexpresión de PD-L1 en el microambiente tumoral, generando evasión inmunitaria; en teoría, un anti-PD-L1 podría restaurar la actividad antitumoral de los linfocitos T.
+Los tumores impulsados por virus pueden aprovechar el eje PD-1/PD-L1 para evadir al sistema inmunitario. Por eso es plausible que bloquear PD-L1 tenga un efecto en un tumor asociado al herpesvirus humano 8. Este vínculo es solo un razonamiento conceptual: no se aportaron ensayos ni literatura que lo confirmen.
 
-No obstante, esta relación es puramente de inferencia mecanística: no existe ningún dato de expresión de PD-L1 específico en tumores VHH-8, ni evidencia clínica directa de avelumab en esta población. El propio Evidence Pack califica este vínculo como "推論，無直接臨床資料佐證" (inferencia sin datos clínicos directos que la respalden).
-
-> **Nota:** dentro del mismo lote de 10 predicciones, las de rango 9 y 10 (carcinoma urotelial de uretra prostática y carcinoma urotelial sarcomatoide de pelvis renal) presentan una racionalidad mecanística más sólida, al pertenecer al mismo tejido que la indicación ya aprobada de avelumab (carcinoma urotelial). Estas podrían justificar seguimiento prioritario por separado.
-
----
+El puntaje de 99,97 % refleja únicamente la predicción basada en el grafo de conocimiento y no equivale a una demostración de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para "tumor asociado al herpesvirus humano 8".
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación.
+Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 171214001IP | BAVENCIO 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión | Merck Europe B.V. |
+| 1171214001 | BAVENCIO 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión | Merck Europe B.V. |
+| 171214001IP1 | BAVENCIO 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión | Merck Europe B.V. |
 
 ## Citotoxicidad
 
-Avelumab actúa sobre una diana oncoinmunológica (indicación de referencia: carcinoma urotelial), por lo que se incluye esta sección.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia (inhibidor de punto de control inmunitario anti-PD-L1) |
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo anti-PD-L1) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
----
-
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El score de TxGNN es muy alto, pero no existe ninguna evidencia clínica ni de literatura que lo respalde (0 ensayos, 0 publicaciones), y la enfermedad predicha es extremadamente rara sin datos conocidos de expresión de PD-L1. Esta predicción no alcanza el nivel mínimo para avanzar a la evaluación de seguridad S1.
+Para la indicación principal la evidencia es solo la predicción del modelo (L5), sin ensayos ni publicaciones. Además, faltan los datos de seguridad y del mecanismo de acción.
 
 **Para avanzar se necesita:**
-- Datos de expresión de PD-L1 en tumores asociados a VHH-8
-- Al menos un estudio preclínico o serie de casos que respalde el mecanismo propuesto
-- Resolución del Data Gap bloqueante DG001 (仿單警語/禁忌 de TFDA) antes de cualquier evaluación de seguridad S1
-- Confirmación del mecanismo de acción detallado de avelumab (DG002)
-- Evaluación independiente de las predicciones de rango 9-10 (subtipos de carcinoma urotelial), que muestran mayor plausibilidad mecanística por su relación directa con la indicación ya aprobada
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), un requisito previo para cualquier evaluación de seguridad.
+- Completar los datos del mecanismo de acción consultando DrugBank.
+- Confirmar la indicación original en las fichas de autorización, cuyo texto llegó vacío.
+- Realizar una búsqueda dirigida de ensayos y literatura sobre tumores asociados al herpesvirus humano 8 tratados con bloqueo de PD-L1.
+- Considerar priorizar otras predicciones del mismo análisis, que tienen un fundamento más plausible pero siguen siendo indirectas:
+  - **Carcinoma urotelial de la uretra prostática** (nivel L4): su vínculo se basa en el uso conocido del fármaco en carcinoma urotelial de vejiga, evidencia que no venía en los datos y requiere verificación.
+  - **Carcinoma de células transicionales sarcomatoide de la pelvis renal** (nivel L3): hay un estudio observacional retrospectivo, [NCT05431777](https://clinicaltrials.gov/study/NCT05431777), con 79 pacientes japoneses con carcinoma urotelial tratados con avelumab de mantenimiento. No es específico de este subtipo.
+- Tratar con cautela las predicciones en inmunodeficiencias primarias (por ejemplo, la deficiencia de adenosina desaminasa). No tienen una base biológica plausible para el bloqueo de puntos de control y podrían ser artefactos del grafo. La activación inmunitaria en esa población sería, además, un posible riesgo de seguridad.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

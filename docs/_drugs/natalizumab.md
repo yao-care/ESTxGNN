@@ -2,7 +2,7 @@
 layout: default
 title: Natalizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 190
+nav_order: 371
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,58 +29,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# NATALIZUMAB: De Esclerosis Multiple y Enfermedad de Crohn a Bronquitis
+# Natalizumab: De Esclerosis Múltiple a Bronquitis
 
 ## Resumen en Una Frase
 
-Natalizumab es un anticuerpo monoclonal anti-integrina α4, utilizado clinicamente en el tratamiento de la esclerosis multiple y la enfermedad de Crohn.
-El modelo TxGNN predice que podria ser efectivo para **Bronquitis**,
-pero actualmente **no existe ningun ensayo clinico ni publicacion cientifica** que respalde esta direccion — la puntuacion se basa unicamente en la prediccion del modelo.
+Natalizumab es un anticuerpo monoclonal que la literatura del paquete asocia con el tratamiento de la esclerosis múltiple. Los datos de AEMPS no incluyen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Esclerosis multiple y enfermedad de Crohn (segun notas mecanisticas del Evidence Pack; no hay ficha tecnica formal disponible) |
-| Nueva Indicacion Predicha | Bronquitis |
-| Puntaje de Prediccion TxGNN | 99.46% |
+| Indicación Original | No disponible en las autorizaciones de AEMPS (la literatura la asocia con esclerosis múltiple) |
+| Nueva Indicación Predicha | Bronquitis |
+| Puntaje de Predicción TxGNN | 99.46% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos verificados sobre el mecanismo de accion (MOA) procedentes de DrugBank — esta es actualmente una brecha de datos pendiente de resolucion. Segun las notas mecanisticas incluidas en el propio Evidence Pack, Natalizumab es un anticuerpo monoclonal dirigido contra la integrina α4 (VLA-4), que bloquea la migracion de leucocitos a traves del endotelio mediada por VCAM-1; clinicamente se emplea en esclerosis multiple y enfermedad de Crohn.
+No se dispone de datos detallados del mecanismo de acción en DrugBank. Según el conocimiento general del fármaco, natalizumab bloquea la integrina alfa4, que participa en la migración de leucocitos hacia los tejidos inflamados. Este mecanismo podría modular la inflamación de las vías respiratorias.
 
-La bronquitis es, en la mayoria de los casos, un cuadro infeccioso o irritativo de la via aerea. El propio razonamiento mecanistico del Evidence Pack senala que la inmunosupresion sistemica de natalizumab **no coincide** con la necesidad terapeutica de la bronquitis, y que incluso podria **aumentar el riesgo de bronquitis de origen infeccioso** al reducir la vigilancia inmunitaria de la via respiratoria.
+Se trata de una hipótesis sin respaldo. No hay ensayos ni publicaciones que relacionen natalizumab con la bronquitis, y la similitud con la indicación original no ha sido evaluada.
 
-Por tanto, la puntuacion alta de TxGNN (99.46%) debe interpretarse como una asociacion estadistica del modelo y no como una hipotesis mecanisticamente solida: no existe ningun dato clinico, preclinico ni bibliografico especifico para bronquitis que la respalde.
+Además, la inmunosupresión asociada a este fármaco podría aumentar el riesgo de infecciones respiratorias, lo que va en contra de su uso en esta condición. La puntuación alta del modelo debe considerarse solo una señal computacional.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1231745001 | TYRUKO 300 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | Sandoz GmbH |
+| 106346002 | TYSABRI 150 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Biogen Netherlands B.V. |
+| 06346001 | TYSABRI 300 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | Biogen Netherlands B.V. |
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion se sustenta unicamente en el score de TxGNN (Nivel de Evidencia L5), sin ningun ensayo clinico ni publicacion especifica para bronquitis. Ademas, el propio razonamiento mecanistico disponible en el Evidence Pack apunta en direccion contraria: la inmunosupresion sistemica de natalizumab podria agravar en lugar de tratar un cuadro de bronquitis infecciosa.
+**Justificación:**
+La predicción se basa solo en el modelo, sin ensayos ni literatura (L5). Además, el perfil inmunosupresor del fármaco podría aumentar el riesgo de infecciones respiratorias, por lo que no hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Ficha tecnica/prospecto oficial de la AEMPS (advertencias y contraindicaciones) — actualmente bloqueante
-- Datos verificados de MOA desde DrugBank
-- Evidencia clinica real (ensayos o series de casos) especifica para bronquitis, actualmente inexistente
-- Reevaluacion del perfil riesgo-beneficio considerando el riesgo de inmunosupresion sistemica (incluida la leucoencefalopatia multifocal progresiva, senalada en la literatura de otras indicaciones dentro de este mismo Evidence Pack)
+- Datos de advertencias y contraindicaciones del prospecto de AEMPS
+- Datos del mecanismo de acción y análisis de su vínculo con la bronquitis
+- Evidencia preclínica o clínica que relacione natalizumab con enfermedad inflamatoria de las vías respiratorias
+- Evaluación del riesgo de infecciones respiratorias
+
+**Nota:** entre las otras indicaciones predichas, la psoriasis (puntaje 99.19%) es la que tiene más literatura (nivel L4). Sin embargo, la evidencia es contradictoria: hay varios casos de psoriasis inducida o agravada por natalizumab, y un solo estudio (PMID 33589543) describe mejoría en pacientes con esclerosis múltiple. Por ahora se clasifica como pregunta de investigación, no como candidata de reposicionamiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Calcifediol
-parent: Evidencia moderada (L3-L4)
-nav_order: 52
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 94
+evidence_level: L5
 indication_count: 4
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,77 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Calcifediol: De Deficiencia de Vitamina D a Raquitismo Vitamina D-Dependiente
+# Calcifediol: De Indicación Original No Disponible a Deficiencia de Vitamina D (término obsoleto)
 
 ## Resumen en Una Frase
 
-Calcifediol (25-hidroxivitamina D3) es el precursor metabolico directo de la vitamina D activa, utilizado clinicamente para corregir la deficiencia de vitamina D.
-El modelo TxGNN predice que podria ser especialmente relevante para el **raquitismo vitamina D-dependiente tipo 1B** (deficiencia de la enzima 25-hidroxilasa),
-con **2 ensayos clinicos de relevancia limitada** y **17 publicaciones**, en su mayoria estudios preclinicos y series de casos, respaldando esta direccion.
+Calcifediol (25-hidroxivitamina D3) es el metabolito circulante de la vitamina D. Está comercializado en España, pero los registros disponibles no especifican su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **deficiencia de vitamina D (término obsoleto en la ontología)**,
+sin **ningún ensayo clínico** ni **publicación** que respalde esta predicción concreta.
 
-> **Nota metodologica**: este paquete de evidencia contiene 4 indicaciones candidatas (`TW-DB00146-multi`). La de mayor puntaje TxGNN ("obsolete vitamin D deficiency") esta marcada como termino obsoleto en la ontologia y no tiene ninguna evidencia asociada — se trata probablemente de ruido de clasificacion que redescubre la indicacion original del farmaco, no una indicacion nueva. Por ello, este informe se centra en el candidato con mejor fundamento mecanistico y evidencia real (raquitismo vitamina D-dependiente), y resume los demas candidatos en la tabla siguiente.
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Deficiencia de vitamina D (uso clinico establecido; sin licencia registrada en Espana en este paquete) |
-| Nueva Indicacion Predicha | Raquitismo vitamina D-dependiente (tipo 1B / deficiencia de 25-hidroxilasa) |
-| Puntaje de Prediccion TxGNN | 99.18% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Indicación Original | No disponible en los registros recibidos |
+| Nueva Indicación Predicha | Deficiencia de vitamina D (término obsoleto) |
+| Puntaje de Predicción TxGNN | 99.99% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 12 |
+| Decisión Recomendada | Hold |
 
-## Otras Indicaciones Candidatas en este Paquete
+## ¿Por qué es Razonable esta Predicción?
 
-| Rango | Indicacion | Score TxGNN | Nivel de Evidencia | Recomendacion | Nota |
-|------|------|------|------|------|------|
-| 1 | Deficiencia de vitamina D (termino obsoleto) | 99.99% | L5 | Hold | Termino obsoleto en la ontologia, sin ensayos ni literatura; posible redundancia con la indicacion original |
-| 2 | Acidosis tubular renal | 99.86% | L4 | Research Question | Suele coexistir con osteomalacia por deficit de vitamina D, pero calcifediol no actua sobre el mecanismo acido-base en si |
-| 3 | Raquitismo hipofosfatemico hereditario | 99.76% | L4 | Research Question | La forma ligada al X se trata tradicionalmente con calcitriol, no calcifediol; relacion mecanistica moderada |
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, calcifediol es el precursor inmediato de la forma activa de la vitamina D (calcitriol) y el principal indicador circulante del estado de vitamina D. Mecanísticamente podría ser aplicable a la deficiencia de vitamina D, porque repone directamente ese metabolito.
 
-## Por que es Razonable esta Prediccion?
+Esa plausibilidad biológica probablemente explica el puntaje tan alto (0.9999). Sin embargo, el término de enfermedad figura como **obsoleto** en la ontología. Además, no hay ensayos ni literatura asociados y no se puede confirmar si la indicación ya está autorizada. Por eso la predicción no aporta información nueva y conviene mapearla a un concepto vigente de deficiencia de vitamina D antes de evaluarla más.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el registro formal del farmaco (`original_moa` marcado como vacio). Segun la informacion recogida en el paquete de evidencia, calcifediol es la forma 25-hidroxilada de la vitamina D3, el paso metabolico intermedio que el higado produce a partir de la vitamina D3 antes de que el rinon la convierta, mediante la enzima 1α-hidroxilasa (CYP27B1), en la forma hormonal activa (calcitriol).
+**Otras indicaciones predichas con más respaldo** (no son la indicación principal de este informe):
 
-El raquitismo vitamina D-dependiente tipo 1B es causado especificamente por un deficit de la enzima hepatica 25-hidroxilasa (CYP2R1) — es decir, el mismo paso metabolico que calcifediol sustituye de forma directa al administrarse ya hidroxilado. Esto lo diferencia de otras variantes del mismo grupo de enfermedades: el tipo I (deficit de 1α-hidroxilasa) y el tipo II (defecto del receptor de vitamina D) afectan pasos posteriores en la via, donde calcifediol aporta poco beneficio adicional. Por tanto, la solidez mecanistica de esta prediccion depende del subtipo genetico exacto del paciente, y es mayor para el tipo 1B que para el resto del espectro clinico agrupado bajo "raquitismo vitamina D-dependiente".
+| Indicación | Puntaje TxGNN | Nivel | Comentario |
+|------|------|------|------|
+| Acidosis tubular renal | 99.86% | L4 | Solo 3 publicaciones (casos y un método de laboratorio). Muestran osteomalacia asociada, no corrección de la acidosis. |
+| Raquitismo hipofosfatémico hereditario | 99.76% | L4 | Literatura histórica, animal y casos. En la forma ligada al X, calcifediol solo serviría como complemento. |
+| Raquitismo dependiente de vitamina D | 99.18% | L4 (etapa S1) | La más sólida mecanísticamente, sobre todo en el tipo 1B (déficit de 25-hidroxilasa, CYP2R1). Es improbable que ayude en el tipo 1A o el tipo 2. |
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-| Numero de Ensayo | Fase | Estado | Inscripcion | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03265483](https://clinicaltrials.gov/study/NCT03265483) | N/A | Completado | 180 | Evalua suplementacion con magnesio para revertir la resistencia a la vitamina D; la intervencion no es calcifediol, relevancia indirecta (grado C) |
-| [NCT05214040](https://clinicaltrials.gov/study/NCT05214040) | N/A | Aun no reclutando | 300,000 | Estudio observacional de insuficiencia de vitamina D en pacientes hospitalizados; no especifico para raquitismo vitamina D-dependiente (grado C) |
-
-Ningun ensayo clinico registrado evalua directamente calcifediol en pacientes con raquitismo vitamina D-dependiente.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [28548312](https://pubmed.ncbi.nlm.nih.gov/28548312/) | 2017 | Revision/Reporte de caso | J Bone Miner Res | Describe 7 pacientes de 2 familias con raquitismo tipo 1B por mutaciones en CYP2R1 (25-hidroxilasa), el subtipo mas directamente corregible con calcifediol |
-| [233695](https://pubmed.ncbi.nlm.nih.gov/233695/) | 1978 | Serie de casos | J Clin Endocrinol Metab | Hermanos con raquitismo hereditario y malabsorcion de calcio corregida con dosis altas de 25-hidroxivitamina D |
-| [9316302](https://pubmed.ncbi.nlm.nih.gov/9316302/) | 1997 | Revision | Acta Paediatr Jpn | Revision comparativa de raquitismo vitamina D-dependiente tipo I y II y su respuesta a metabolitos activos de vitamina D |
-| [22145480](https://pubmed.ncbi.nlm.nih.gov/22145480/) | 2011 | Reporte de caso | J Pediatr Endocrinol Metab | Dos casos pediatricos que ilustran la dificultad diagnostica entre tipo 1 (defecto enzimatico) y tipo 2 (defecto de receptor) |
-| [2982764](https://pubmed.ncbi.nlm.nih.gov/2982764/) | 1985 | Serie de casos | Isr J Med Sci | Respuesta clinica diferencial a metabolitos de vitamina D segun el tipo de raquitismo vitamina D-dependiente |
-| [11693961](https://pubmed.ncbi.nlm.nih.gov/11693961/) | 2001 | Estudio mecanistico | Crit Rev Eukaryot Gene Expr | Rol de la vitamina D en la funcion osteoblastica y mineralizacion osea, con referencia a los tipos I y II |
-| [8914979](https://pubmed.ncbi.nlm.nih.gov/8914979/) | 1996 | Estudio in vitro | FEBS Lett | Respuesta de macrofagos de pacientes con tipo II a metabolitos de vitamina D3 |
-| [26483391](https://pubmed.ncbi.nlm.nih.gov/26483391/) | 2015 | Serie de casos/Revision | BMJ Case Rep | Complicaciones respiratorias graves de raquitismo por deficit de vitamina D en un lactante |
-| [3089562](https://pubmed.ncbi.nlm.nih.gov/3089562/) | 1986 | Estudio animal | Calcif Tissue Int | Modelo en tamarinos con resistencia a 1,25-dihidroxivitamina D similar al tipo II humano |
-| [6285251](https://pubmed.ncbi.nlm.nih.gov/6285251/) | 1982 | Reporte de caso | Padiatrie und Padologie | Caso de raquitismo transitorio resistente a vitamina D en diagnostico diferencial |
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en España
+
+Se muestran 5 de las 12 autorizaciones. El texto de indicación aprobada no figura en los registros recibidos.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 90092 | Vitode Semanal 75 microgramos cápsulas blandas | Cápsula blanda |
+| 88826 | Calcifediol Normogen 0,266 mg cápsulas blandas EFG | Cápsula blanda |
+| 90091 | Vitode Semanal 100 microgramos cápsulas blandas | Cápsula blanda |
+| 85519 | Rayaldee 30 microgramos cápsulas blandas de liberación prolongada | Cápsula blanda de liberación prolongada |
+| 55315 | Hidroferol 0,1 mg/ml gotas orales en solución | Gotas orales en solución |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. No se dispone de advertencias, contraindicaciones ni datos de interacciones farmacologicas en este paquete de evidencia (busqueda de DDI sin resultados).
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La evidencia disponible es exclusivamente preclinica, mecanistica y de series de casos (L4); ningun ensayo clinico evalua calcifediol directamente en raquitismo vitamina D-dependiente, y falta informacion de seguridad regulatoria basica (TFDA) necesaria incluso para una evaluacion inicial S1.
+**Justificación:**
+La predicción principal tiene nivel de evidencia L5: el puntaje es muy alto, pero no hay ensayos ni literatura, y el término de enfermedad está obsoleto. La indicación con mejor fundamento mecanístico es el raquitismo dependiente de vitamina D tipo 1B, que se encuentra en etapa S1 como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica de TFDA con advertencias y contraindicaciones (gap bloqueante DG001)
-- Confirmar el mecanismo de accion detallado via DrugBank u otra fuente regulatoria (gap DG002)
-- Aclarar si "obsolete vitamin D deficiency" (rango 1) es ruido de clasificacion o representa un gap de datos real
-- Priorizar estratificacion genotipica (CYP2R1 vs CYP27B1 vs receptor VDR) antes de disenar cualquier estudio prospectivo, dado que solo el subtipo 1B tiene fundamento mecanistico solido para calcifediol
-- Evaluar si existen series de casos adicionales o registros de enfermedades raras que aporten evidencia real mas alla de lo preclinico
+- Mapear el término obsoleto a un concepto vigente de deficiencia de vitamina D y repetir la búsqueda de ensayos y literatura.
+- Obtener del prospecto de la AEMPS las indicaciones aprobadas, advertencias y contraindicaciones.
+- Completar el mecanismo de acción desde DrugBank.
+- Buscar evidencia específica de calcifediol por subtipo en el raquitismo dependiente de vitamina D, sobre todo el tipo 1B.
+- Revisar la publicación que el paquete de evidencia cuenta pero no lista en el raquitismo hipofosfatémico (11 informadas, 10 incluidas).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

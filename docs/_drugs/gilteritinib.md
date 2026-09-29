@@ -2,7 +2,7 @@
 layout: default
 title: Gilteritinib
 parent: Solo predicción del modelo (L5)
-nav_order: 134
+nav_order: 257
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Gilteritinib: De Leucemia Mieloide Aguda a Poliomielitis Bulbar
+# Gilteritinib: De Leucemia Mieloide Aguda con Mutación FLT3 a Poliomielitis Bulbar
 
 ## Resumen en Una Frase
 
-Gilteritinib es un inhibidor de las tirosina quinasas FLT3 (incluyendo mutaciones ITD/TKD) y AXL, utilizado originalmente en el tratamiento de la leucemia mieloide aguda (LMA) recidivante o refractaria con mutación FLT3. El modelo TxGNN predice una posible asociación con la **Poliomielitis Bulbar**, con un puntaje de **99.10%**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección.
+Gilteritinib es un inhibidor de quinasas FLT3/AXL que se utiliza en la leucemia mieloide aguda (LMA) con mutación FLT3 en recaída o refractaria.
+El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, pero **no hay ningún ensayo clínico ni publicación** que respalde esta predicción.
 
 ---
 
@@ -41,23 +42,23 @@ Gilteritinib es un inhibidor de las tirosina quinasas FLT3 (incluyendo mutacione
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide aguda (LMA) recidivante/refractaria con mutación FLT3 |
-| Nueva Indicación Predicha | Poliomielitis Bulbar |
+| Indicación Original | Leucemia mieloide aguda con mutación FLT3, en recaída o refractaria (el registro de la AEMPS no incluye el texto de indicación; se toma del análisis de mecanismo) |
+| Nueva Indicación Predicha | Poliomielitis bulbar |
 | Puntaje de Predicción TxGNN | 99.10% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Gilteritinib actúa inhibiendo las tirosina quinasas FLT3 (incluidas las formas mutadas ITD/TKD) y AXL, un mecanismo dirigido y validado en el contexto de la leucemia mieloide aguda con mutación FLT3.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, gilteritinib es un inhibidor de quinasas dirigido a FLT3 y AXL. Su eficacia se ha comprobado en la LMA con mutación FLT3, pero no en enfermedades infecciosas.
 
-La Poliomielitis Bulbar es una enfermedad neurodegenerativa de origen viral, causada por la infección del poliovirus en las neuronas motoras del tronco encefálico, cuyo mecanismo patológico central es la replicación viral, la lisis neuronal y la inflamación local. No existe una relación mecanística conocida ni directa entre la vía de señalización FLT3/AXL y la fisiopatología de esta enfermedad.
+La poliomielitis bulbar es una infección por poliovirus (un enterovirus) que afecta a las neuronas motoras del tronco encefálico. AXL se ha relacionado con la entrada viral o la evasión inmunitaria en otros virus, pero **no hay evidencia de que esto aplique al poliovirus**. Por eso no se identifica un vínculo mecanístico establecido entre la indicación original y la nueva.
 
-El puntaje elevado del modelo TxGNN (99.10%) refleja únicamente una **similitud topológica** dentro del grafo de conocimiento (posiblemente a través de nodos intermedios relacionados con "inhibidores de quinasa" y procesos neuroinflamatorios), y no constituye evidencia a nivel mecanístico. Además, el propio expediente presenta vacíos de datos relevantes (mecanismo de acción detallado marcado como pendiente, ausencia de advertencias de ficha técnica), lo que reduce aún más la confiabilidad de esta señal en su estado actual.
+El puntaje de 0.991 proviene únicamente de la predicción del grafo de conocimiento y no está respaldado por datos reales. Además, la polio se previene con vacunas. Los riesgos de mielosupresión y prolongación del intervalo QT de gilteritinib serían una preocupación de seguridad en una infección neurológica aguda.
 
 ---
 
@@ -73,19 +74,29 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1191399001 | XOSPATA 40 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | Astellas Pharma Europe B.V. |
+
+---
+
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa FLT3/AXL) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de quinasas FLT3/AXL) |
+| Riesgo de Mielosupresión | Presente, según el análisis del caso; no hay datos cuantitativos. Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Ítems de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma y electrocardiograma (riesgo de prolongación del QT); para otros parámetros, consultar el prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
+
+No hay datos estructurados de advertencias, contraindicaciones ni interacciones farmacológicas en el Evidence Pack. Se han señalado los riesgos de mielosupresión y prolongación del QT.
 
 Consultar el prospecto para información de seguridad.
 
@@ -96,13 +107,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La señal se sustenta únicamente en una puntuación de similitud del modelo TxGNN (nivel de evidencia L5), sin ningún ensayo clínico, publicación científica ni vínculo mecanístico plausible entre el fármaco y la nueva indicación. Adicionalmente, el propio expediente del fármaco presenta vacíos de datos críticos (mecanismo de acción y advertencias de seguridad), lo que impide avanzar a una etapa de evaluación de seguridad (S1).
+La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible con el poliovirus. El perfil de riesgo del fármaco tampoco favorece su uso en una infección aguda prevenible con vacuna.
 
 **Para avanzar se necesita:**
-- Datos confirmados del mecanismo de acción (MOA) vía DrugBank
-- Advertencias y contraindicaciones del prospecto (TFDA/AEMPS) — actualmente bloqueante
-- Búsqueda ampliada de literatura y ensayos clínicos que puedan validar o refutar la señal
-- Revisión experta de la plausibilidad mecanística entre la inhibición de FLT3/AXL y la poliomielitis bulbar antes de continuar la evaluación
+- Datos de mecanismo de acción (MOA) desde DrugBank
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Evidencia preclínica que relacione la inhibición de AXL/FLT3 con la replicación o entrada del poliovirus
+- Una evaluación de seguridad específica para una población con infección neurológica aguda
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

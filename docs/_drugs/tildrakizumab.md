@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 276
+nav_order: 528
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,58 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Tildrakizumab: De Psoriasis en Placas a Retinopatia Diabetica No Proliferativa Severa
+# Tildrakizumab: De Psoriasis en Placas a Retinopatía Diabética No Proliferativa Grave
 
 ## Resumen en Una Frase
 
-Tildrakizumab es un anticuerpo monoclonal anti-IL-23p19, utilizado originalmente para el tratamiento de la psoriasis en placas.
-El modelo TxGNN predice que podria ser efectivo para **Retinopatia Diabetica No Proliferativa Severa**,
-pero actualmente **no existe ningun ensayo clinico ni publicacion** que respalde esta direccion; la prediccion se basa unicamente en la conectividad del grafo de conocimiento.
+Tildrakizumab es un anticuerpo monoclonal que bloquea la subunidad p19 de la interleucina-23. Según el conocimiento general del fármaco, se usa en psoriasis en placas, aunque los datos de AEMPS recibidos no incluyen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Psoriasis en placas (segun informacion conocida del farmaco; no confirmado por licencias regulatorias en Espana, ya que no esta comercializado) |
-| Nueva Indicacion Predicha | Retinopatia Diabetica No Proliferativa Severa |
-| Puntaje de Prediccion TxGNN | 99.63% |
+| Indicación Original | No consta en los datos de AEMPS recibidos (el texto de indicación está vacío). Según conocimiento general: psoriasis en placas |
+| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
+| Puntaje de Predicción TxGNN | 99,63 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion (MOA) de tildrakizumab en esta base de evidencia. Segun la informacion conocida del farmaco, tildrakizumab es un anticuerpo monoclonal que bloquea especificamente la subunidad p19 de la interleucina-23 (IL-23), interrumpiendo el eje inflamatorio IL-23/Th17. Su eficacia en psoriasis en placas moderada a grave esta bien establecida.
+## ¿Por qué es Razonable esta Predicción?
 
-La retinopatia diabetica no proliferativa severa es una complicacion microvascular cuya patologia se relaciona principalmente con hiperglucemia cronica, estres oxidativo y vias de VEGF. Existe literatura que sugiere una posible participacion del eje IL-23/Th17 en procesos inflamatorios retinianos, pero esta relacion es indirecta y no constituye un mecanismo farmacologico validado.
+Los datos de mecanismo de acción no están disponibles en el Evidence Pack. Lo que sigue proviene del conocimiento general sobre el fármaco. Tildrakizumab antagoniza la subunidad p19 de la IL-23, una citocina que mantiene la vía inflamatoria Th17/IL-17. Esa vía es la que impulsa las enfermedades inflamatorias cutáneas en las que se usa.
 
-Por lo tanto, la puntuacion elevada de TxGNN (99.63%) refleja unicamente la fuerza de conexion dentro del grafo de conocimiento, no evidencia biologica o clinica confirmada. La ausencia total de ensayos clinicos y publicaciones, junto con la falta de datos de MOA propios del farmaco, limita considerablemente la solidez de esta hipotesis de reposicionamiento.
+Un vínculo con la retinopatía diabética exigiría que la inflamación de bajo grado dependiente de IL-23/IL-17 contribuya al daño microvascular de la retina. Esta hipótesis es especulativa. Las vías dominantes en la retinopatía no proliferativa grave son el VEGF y el daño vascular por hiperglucemia, y este fármaco no actúa sobre ninguna de ellas.
 
-## Evidencia de Ensayos Clinicos
+El puntaje alto de TxGNN (99,63 %) es solo una predicción del modelo. No debe interpretarse como evidencia biológica ni clínica.
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1181323002 | ILUMETRI 100 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Almirall S.A. |
+| 1181323001 | ILUMETRI 100 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Almirall S.A. |
+| 1181323004 | ILUMETRI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Almirall S.A. |
+| 1181323003 | ILUMETRI 200 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Almirall S.A. |
+
+El texto de indicación aprobada no estaba disponible en los datos recibidos, por lo que se muestra el titular en su lugar.
+
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. (Tildrakizumab no esta comercializado en Espana, por lo que no existe ficha tecnica local disponible; se recomienda consultar la informacion del fabricante o la EMA cuando este disponible.)
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-La evidencia disponible corresponde unicamente al nivel L5 (prediccion del modelo sin ningun estudio real que la respalde). No existen ensayos clinicos ni literatura para esta indicacion, el farmaco no esta comercializado en Espana, y faltan datos criticos de seguridad (advertencias, contraindicaciones) y de mecanismo de accion.
+**Decisión: Hold**
+
+**Justificación:**
+La predicción es solo del modelo (nivel L5, etapa S0), sin ensayos ni publicaciones. El vínculo mecanístico es especulativo y las vías principales de la enfermedad no son las que bloquea el fármaco. Las otras tres predicciones (retinopatía diabética, catarata diabética y osteoporosis inducida por fármacos) tienen el mismo nivel de evidencia y también quedan en Hold. La retinopatía diabética se solapa con esta predicción, por lo que no son señales independientes.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica oficial (TFDA/EMA) con advertencias y contraindicaciones (brecha bloqueante DG001)
-- Completar los datos de mecanismo de accion mediante consulta a DrugBank (brecha DG002)
-- Identificar estudios preclinicos o de mecanismo que vinculen la via IL-23/Th17 con la patologia retiniana diabetica antes de considerar cualquier avance
-- Monitorear registros de ensayos clinicos (ClinicalTrials.gov, ICTRP) y PubMed para deteccion temprana de nueva evidencia
+- Obtener el prospecto de AEMPS (advertencias y contraindicaciones), que es un bloqueo para el cribado de seguridad.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Realizar una revisión bibliográfica sobre el papel de IL-23/IL-17 en la retinopatía diabética, antes de plantear cualquier acción clínica.
+- Confirmar la indicación original aprobada en AEMPS, cuyo texto llegó vacío.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

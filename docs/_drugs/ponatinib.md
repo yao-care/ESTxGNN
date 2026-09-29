@@ -2,7 +2,7 @@
 layout: default
 title: Ponatinib
 parent: Solo predicción del modelo (L5)
-nav_order: 227
+nav_order: 431
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,80 +29,95 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Ponatinib (DB08901): Evaluacion de Reposicionamiento hacia Fibromatosis Gingival y Liposarcoma
+# Ponatinib: De Inhibidor de Tirosina Quinasas Antineoplásico a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Ponatinib es un inhibidor de tirosina-quinasas actualmente **no comercializado en Espana**; el Evidence Pack no registra su indicacion original ni su mecanismo de accion (ambos marcados como Data Gap). El modelo TxGNN predice dos posibles nuevas indicaciones oncologicas: **Fibromatosis Gingival** (score 99.04%) y **Liposarcoma** (score 99.00%). La evidencia real que las respalda es minima: cero ensayos clinicos y cero publicaciones para fibromatosis gingival, y solo **1 estudio preclinico** (no especifico de ponatinib) para liposarcoma.
+Ponatinib es un inhibidor de tirosina quinasas multidiana, comercializado en España como ICLUSIG. Los datos de autorización recibidos no detallan su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en el Evidence Pack (drug.original_indications vacio; original_moa = Data Gap) |
-| Nueva Indicacion Predicha (Principal) | Fibromatosis Gingival |
-| Puntaje de Prediccion TxGNN (Principal) | 99.04% |
-| Nueva Indicacion Predicha (Secundaria) | Liposarcoma |
-| Puntaje de Prediccion TxGNN (Secundaria) | 99.00% |
-| Nivel de Evidencia | L5 (Fibromatosis Gingival) / L4 (Liposarcoma) |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold (ambas indicaciones) |
+| Indicación Original | No consta en los datos de autorización recibidos |
+| Nueva Indicación Predicha | Fibromatosis gingival |
+| Puntaje de Predicción TxGNN | 99,04% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-El Evidence Pack no contiene datos del mecanismo de accion (original_moa = Data Gap) ni de la indicacion original del farmaco. A modo de contexto general (informacion no incluida en este Evidence Pack), ponatinib es conocido publicamente como un inhibidor de tirosina-quinasas de tercera generacion con multiples dianas (incluyendo BCR-ABL, FGFR1-4, VEGFR2, PDGFRalfa, KIT, SRC, FLT3 y RET), segun se describe en la justificacion mecanistica asociada a la prediccion de liposarcoma.
+## ¿Por qué es Razonable esta Predicción?
 
-Para **Fibromatosis Gingival**, el propio analisis del candidato concluye que no existe base mecanistica alguna: no hay ensayos clinicos ni literatura, y faltan tanto el MOA como la indicacion original del farmaco. La prediccion proviene unicamente de la puntuacion del modelo TxGNN, sin ningun soporte bibliografico que permita construir un argumento de plausibilidad biologica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información general, ponatinib es un inhibidor de tirosina quinasas multidiana (BCR-ABL, FGFR, PDGFR, VEGFR y la familia SRC). Su uso está asociado a la oncología.
 
-Para **Liposarcoma**, el fundamento es algo mas solido pero sigue siendo indirecto: dado que ponatinib inhibe multiples quinasas, y que un estudio preclinico de cribado de quinasas (RNAi y farmacos) en lineas celulares de liposarcoma identifico dianas quinasa potencialmente tratables, existe una hipotesis mecanistica de clase razonable. Sin embargo, ese estudio no evaluo ponatinib especificamente en modelos de liposarcoma, por lo que la relacion sigue siendo teorica y de bajo nivel de evidencia.
+Una relación con la señalización fibroproliferativa es plausible en principio, ya que FGFR y PDGFR participan en la proliferación de tejido conjuntivo. Sin embargo, no hay ninguna evidencia específica que la respalde para la fibromatosis gingival, ya sea hereditaria o inducida por fármacos.
 
-## Evidencia de Ensayos Clinicos
+El puntaje alto de TxGNN (99,04%) es únicamente una predicción computacional. Además, ponatinib tiene toxicidad vascular y hepática grave, lo que sería difícil de justificar en una afección oral benigna.
 
-Actualmente no hay ensayos clinicos relacionados registrados, ni para Fibromatosis Gingival ni para Liposarcoma (busquedas en ClinicalTrials.gov e ICTRP con 0 resultados para ambas indicaciones).
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-**Fibromatosis Gingival:** Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible.
 
-**Liposarcoma:**
+---
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/) | 2017 | Preclinico (cribado in vitro RNAi/farmacos) | Journal of Hematology & Oncology | Cribado de quinasas mediante RNAi y farmacos en lineas celulares de liposarcoma identifico dianas quinasa potencialmente tratables; el estudio no evalua ponatinib de forma especifica. |
+## Información de Mercado en España
 
-## Informacion de Mercado en Espana
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 113839006 | ICLUSIG 30 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 113839005 | ICLUSIG 15 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 113839003 | ICLUSIG 45 mg comprimidos recubiertos con película | Comprimido |
 
-Ponatinib no esta actualmente comercializado en Espana (0 autorizaciones registradas en el Evidence Pack).
+Titular de las tres autorizaciones: Incyte Biosciences Distribution B.V.
+
+---
 
 ## Citotoxicidad
 
-Ponatinib es un inhibidor de tirosina-quinasas de uso oncologico (terapia dirigida), por lo que se incluye esta seccion. El Evidence Pack no aporta datos de toxicidad especificos:
-
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (inhibidor de tirosina-quinasas multi-diana) |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas multidiana) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-El prospecto (ficha tecnica) de ponatinib fue localizado en TFDA pero aun no ha sido analizado de forma estructurada (advertencias, contraindicaciones e interacciones farmacologicas pendientes de extraccion). Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+Como referencia, el análisis de la evidencia señala que ponatinib se asocia a toxicidad vascular y hepática grave. Este dato no proviene de los campos de seguridad del paquete y debe verificarse en el prospecto de AEMPS.
 
-**Decision: Hold**
+---
 
-**Justificacion:**
-Ninguna de las dos indicaciones cuenta con evidencia clinica real (0 ensayos en ambas). Fibromatosis Gingival carece totalmente de literatura y de base mecanistica (L5); Liposarcoma solo dispone de 1 estudio preclinico no especifico de ponatinib (L4). Ademas, faltan datos criticos de seguridad y MOA (gap bloqueante segun el Evidence Pack), lo que impide avanzar a una evaluacion de seguridad S1.
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción para fibromatosis gingival se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. El perfil de toxicidad grave de ponatinib es difícil de justificar en una afección benigna.
 
 **Para avanzar se necesita:**
-- Ficha tecnica de TFDA/AEMPS con advertencias y contraindicaciones analizadas (gap bloqueante DG001)
-- Datos de mecanismo de accion del farmaco (DG002)
-- Estudios preclinicos o clinicos que evaluen ponatinib especificamente en liposarcoma
-- Cualquier evidencia clinica o mecanistica minima para Fibromatosis Gingival antes de continuar la evaluacion
+- Obtener el prospecto de AEMPS (advertencias y contraindicaciones), que es un vacío de datos bloqueante para el cribado de seguridad.
+- Obtener datos del mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
+- Buscar evidencia preclínica o clínica específica de ponatinib en fibromatosis gingival.
+- Evaluar la segunda predicción del modelo, **liposarcoma** (puntaje 99,00%, nivel L4). Cuenta con un estudio preclínico de perfil de quinasas (PMID 29132397), y habría que revisar el texto completo para comprobar si se probó ponatinib. Es una pregunta de investigación más viable que la fibromatosis gingival.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

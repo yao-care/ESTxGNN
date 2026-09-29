@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trametinib
-parent: Evidencia alta (L1-L2)
-nav_order: 281
-evidence_level: L1
+parent: Solo predicción del modelo (L5)
+nav_order: 538
+evidence_level: L5
 indication_count: 10
 ---
 
 # Trametinib
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Trametinib: De Melanoma Cutáneo BRAF-mutado a Melanoma No Cutáneo (y Otros Subtipos de Melanoma)
+# Trametinib: De Melanoma con Mutación BRAF V600 a Coroideremia
 
 ## Resumen en Una Frase
 
-Trametinib es un inhibidor de MEK1/2 cuyo uso de referencia, según la evidencia de ensayos clínicos disponible en este paquete, es el melanoma cutáneo con mutación BRAF V600E/K (habitualmente en combinación con dabrafenib). El modelo TxGNN predice que el mecanismo podría extenderse a **melanoma no cutáneo** (independientemente del sitio anatómico de origen, siempre que exista mutación BRAF V600), con **50 ensayos clínicos** registrados y evidencia de nivel L1 respaldando esta dirección. Además, el modelo genera un clúster de 8 predicciones adicionales sobre subtipos histológicos/anatómicos de melanoma con niveles de evidencia muy dispares (de L2 a L5), y una predicción no relacionada (coroideremia) que carece de fundamento mecanístico plausible.
+Trametinib es un inhibidor de MEK1/2 comercializado en España. Los registros de autorización no incluyen el texto de la indicación original, pero los ensayos asociados lo sitúan en melanoma con mutación BRAF V600. El modelo TxGNN predice que podría ser efectivo para la **coroideremia** (puntaje de 99,31 %), pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ---
 
@@ -41,108 +41,84 @@ Trametinib es un inhibidor de MEK1/2 cuyo uso de referencia, según la evidencia
 
 | Item | Contenido |
 |------|------|
-| Indicación Original (de referencia, según ensayos registracionales) | Melanoma cutáneo irresecable o metastásico con mutación BRAF V600E/K (no hay licencia local en España que confirmar; ver Mercado) |
-| Nueva Indicación Predicha | Melanoma no cutáneo (non-cutaneous melanoma) |
-| Puntaje de Predicción TxGNN | 99.30% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No consta en los datos de autorización de la AEMPS (los ensayos del fármaco apuntan a melanoma con mutación BRAF V600) |
+| Nueva Indicación Predicha | Coroideremia |
+| Puntaje de Predicción TxGNN | 99,31 % |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-El campo de mecanismo de acción a nivel de fármaco no está disponible en este informe (dato pendiente de completar vía DrugBank). Sin embargo, la propia evidencia de ensayos clínicos recogida permite reconstruir el mecanismo: trametinib es un **inhibidor selectivo de MEK1/2**, que en combinación con el inhibidor de BRAF dabrafenib bloquea de forma dual la vía MAPK/ERK. Esta combinación es el estándar de tratamiento establecido para el melanoma con mutación BRAF V600E/K, como demuestran los ensayos fundacionales fase III incluidos en este paquete (METRIC/NCT01245062, COMBI-d/NCT01584648, COMBI-v/NCT01597908).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada. Según la información conocida, trametinib es un inhibidor alostérico de MEK1/2 que bloquea la señalización de la vía MAPK, y su eficacia está comprobada en tumores con activación de esa vía, como el melanoma BRAF-mutante.
 
-La predicción de TxGNN para "melanoma no cutáneo" es razonable porque la elegibilidad para esta terapia depende del **estatus mutacional BRAF V600**, no del sitio anatómico de origen del tumor (piel, mucosa, conjuntiva, párpado, acral, etc.). Es decir, si un melanoma no cutáneo porta la misma mutación driver, el fundamento mecanístico para la inhibición dual MEK/BRAF se mantiene igual. Esto está respaldado por casos reportados de melanoma conjuntival y de párpado con mutación BRAF que respondieron a la combinación BRAF/MEK.
+La coroideremia es una degeneración retiniana hereditaria causada por la pérdida de función de CHM/REP1. Esta pérdida provoca defectos en la prenilación de las proteínas Rab y la degeneración del epitelio pigmentario de la retina y de los fotorreceptores. **No se ha encontrado un vínculo establecido entre esta enfermedad y la señalización MAPK/MEK.**
 
-El resto del clúster de predicciones (subtipos histológicos como epitelioide, nodular, de extensión superficial, lentiginoso acral, amelanótico) comparte el mismo razonamiento pero con evidencia mucho más limitada, ya que la prevalencia de mutación BRAF varía por subtipo (por ejemplo, es menor en el subtipo acral, donde predominan mutaciones KIT). La predicción de coroideremia, en cambio, no tiene relación biológica conocida con la vía MAPK/MEK y se considera probable falso positivo del modelo.
+Por tanto, el puntaje alto proviene de una predicción basada en el grafo de conocimiento, sin respaldo mecanístico ni clínico. Además, la inhibición crónica de MEK conlleva un riesgo conocido de toxicidad retiniana (retinopatía asociada a inhibidores de MEK), lo que preocupa especialmente en una enfermedad degenerativa de la retina.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-*(Indicación principal: melanoma no cutáneo — 50 ensayos registrados; se listan los 10 más relevantes)*
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01245062](https://clinicaltrials.gov/study/NCT01245062) | Fase 3 | Completado | 322 | Ensayo registracional (METRIC): GSK1120212 (trametinib) monoterapia vs. quimioterapia en melanoma BRAF V600E/K+ avanzado |
-| [NCT01584648](https://clinicaltrials.gov/study/NCT01584648) | Fase 3 | Completado | 423 | COMBI-d: dabrafenib+trametinib vs. dabrafenib+placebo como primera línea en melanoma BRAF V600E/K+ |
-| [NCT01597908](https://clinicaltrials.gov/study/NCT01597908) | Fase 3 | Completado | 704 | COMBI-v: dabrafenib+trametinib vs. vemurafenib en melanoma BRAF V600E/K+ |
-| [NCT03551626](https://clinicaltrials.gov/study/NCT03551626) | Fase 3b | Completado | 552 | COMBI-APlus: manejo de pirexia en adyuvancia con dabrafenib+trametinib tras resección completa (Grado A) |
-| [NCT01072175](https://clinicaltrials.gov/study/NCT01072175) | Fase 1/2 | Completado | 430 | Escalada de dosis fundacional de dabrafenib+trametinib en melanoma metastásico BRAF-mutado (Grado A) |
-| [NCT02645149](https://clinicaltrials.gov/study/NCT02645149) | Fase 2 | Completado | 216 | Perfilado molecular y terapia dirigida emparejada en melanoma avanzado irresecable (Grado B) |
-| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Fase 2 | Activo, no reclutando | 52 | Triplete trametinib+dabrafenib+nivolumab (TRIDeNT) en melanoma metastásico BRAF-mutado (Grado B) |
-| [NCT02039947](https://clinicaltrials.gov/study/NCT02039947) | Fase 2 | Completado | 127 | Dabrafenib+trametinib en melanoma BRAF-mutado con metástasis cerebrales |
-| [NCT02130466](https://clinicaltrials.gov/study/NCT02130466) | Fase 1/2 | Completado | 184 | Pembrolizumab+dabrafenib+trametinib en melanoma avanzado |
-| [NCT01941927](https://clinicaltrials.gov/study/NCT01941927) | Fase 2 | Completado | 20 | Trametinib+GSK2141795 (inhibidor de AKT) en melanoma BRAF wild-type |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para "melanoma no cutáneo" como categoría específica.
-
----
-
-## Otros Subtipos de Melanoma Predichos por TxGNN
-
-El modelo generó un clúster adicional de 8 predicciones sobre subtipos histológicos/anatómicos de melanoma, además de una predicción sin relación mecanística plausible. Se resumen a continuación (no se repiten las tablas de ensayos/literatura ya detalladas):
-
-| Subtipo Predicho | Score TxGNN | Nivel de Evidencia | Recomendación | Evidencia Clave |
-|---|---|---|---|---|
-| Coroideremia | 99.31% | L5 | Hold | Sin relación biológica conocida con la vía MAPK/MEK; probable falso positivo |
-| Melanoma nodular maligno | 99.14% | L2 | Research Question | 1 ensayo fase 2 + 8 publicaciones (casos de paniculitis y metástasis cerebral bajo BRAF/MEK) |
-| Melanoma de extensión superficial | 99.14% | L2 | Research Question | 1 ensayo fase 2 + 3 publicaciones (casos de metástasis cerebral/coroidea) |
-| Melanoma lentiginoso acral | 99.14% | L2 | Research Question | 2 ensayos (1 fase 2 completado, 1 retrospectivo) + revisión; menor prevalencia de mutación BRAF en este subtipo |
-| Melanoma epitelioide | 99.28% | L4 | Research Question | 2 reportes de caso (melanoma conjuntival BRAF-mutado) |
-| Melanoma de párpado | 99.26% | L4 | Research Question | 2 reportes de caso (melanoma conjuntival/ocular BRAF-mutado) |
-| Melanoma amelanótico cutáneo | 99.14% | L4 | Research Question | 1 revisión + 1 caso pediátrico de metástasis a SNC |
-| Melanoma de escroto | 99.21% | L5 | Hold | Sin ensayos ni literatura; solo clasificación anatómica sin evidencia |
-| Melanoma maligno de células en balón | 99.14% | L5 | Hold | Subtipo extremadamente raro; sin ensayos ni literatura |
+Actualmente no hay literatura relacionada disponible.
 
 ---
 
 ## Información de Mercado en España
 
-Trametinib no está actualmente comercializado en España según los datos regulatorios consultados (0 autorizaciones registradas). No hay licencias que listar.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 114931002 | MEKINIST 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 114931006 | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 1231781001 | SPEXOTRAS 0,05 mg/ml polvo para solución oral | Polvo para solución oral |
+| 114931006IP | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+
+Todas las autorizaciones pertenecen a Novartis Europharm Limited. Los registros no incluyen el texto de la indicación aprobada.
 
 ---
 
 ## Citotoxicidad
 
-**Esta sección aplica porque trametinib es un antineoplásico** (inhibidor de MEK usado en el tratamiento del melanoma, según la evidencia de ensayos clínicos de este paquete).
-
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de MEK1/2) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Baja a moderada (categoría habitual de los inhibidores de MEK) |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Examen oftalmológico (por el riesgo de retinopatía asociada a inhibidores de MEK). Para el resto de parámetros, consultar el prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Toxicidad retiniana**: la inhibición crónica de MEK se asocia con retinopatía. Este riesgo es especialmente relevante en una enfermedad degenerativa de la retina como la coroideremia.
+
+Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones), consultar el prospecto. No se encontraron interacciones farmacológicas registradas.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails** (limitada a melanoma BRAF V600E/K+ de origen no cutáneo; el resto de subtipos permanece en Hold / Research Question)
+**Decisión: Hold**
 
 **Justificación:**
-- La evidencia para melanoma no cutáneo alcanza nivel L1, con múltiples ensayos fase 3 completados que sustentan el uso de trametinib (solo o combinado con dabrafenib) en melanoma BRAF V600-mutado independientemente del sitio anatómico. El resto de subtipos predichos tiene evidencia insuficiente (L2–L5) y no debe avanzar sin confirmación adicional.
+La predicción no tiene ensayos, literatura ni vínculo mecanístico con la vía MEK, es decir, se trata solo de una predicción del modelo (L5). El riesgo de toxicidad retiniana del fármaco va en contra de su uso en una enfermedad degenerativa de la retina.
 
 **Para avanzar se necesita:**
-- Resolver DG001 (advertencias/contraindicaciones del prospecto AEMPS/TFDA) — actualmente bloqueante para la evaluación de seguridad S1.
-- Resolver DG002 (mecanismo de acción formal vía DrugBank).
-- Confirmar el estatus mutacional BRAF V600 como criterio de selección antes de extrapolar a subtipos no cutáneos específicos.
-- Dado que el fármaco no está comercializado en España, definir la vía regulatoria (autorización AEMPS / uso de medicamento extranjero) antes de cualquier aplicación clínica local.
-- Para los subtipos en Research Question (nodular, superficial, acral, epitelioide, párpado, amelanótico), generar series de casos o estudios observacionales dirigidos que confirmen prevalencia de mutación BRAF y respuesta clínica.
+- Datos preclínicos que relacionen la vía MAPK/MEK con la fisiopatología de la coroideremia (CHM/REP1 y prenilación de Rab)
+- Evaluación del riesgo de retinopatía por inhibidores de MEK en este contexto
+- Datos de seguridad del prospecto de la AEMPS y del mecanismo de acción
+
+**Nota:** las predicciones posteriores del modelo, todas ellas subtipos de melanoma, cuentan con más respaldo. Varias alcanzan el nivel L2 gracias a ensayos de Fase 2 y 3 con dabrafenib más trametinib. Si el objetivo es priorizar candidatos con evidencia, conviene evaluarlas por separado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Tocilizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 279
+nav_order: 533
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,95 +29,112 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tocilizumab: De Artritis Reumatoide a Espondilitis Anquilosante
+# Tocilizumab: Nueva Indicación Predicha en Espondilitis Anquilosante
 
 ## Resumen en Una Frase
 
-Tocilizumab es un anticuerpo monoclonal antagonista del receptor de IL-6, cuyo uso establecido según la literatura del paquete de evidencia es la artritis reumatoide (y otras artritis inflamatorias como la artritis idiopática juvenil).
-El modelo TxGNN predice, con la puntuación más alta de todo el candidato, que podría ser efectivo para **Espondilitis Anquilosante**,
-pero **9 ensayos clínicos** y **20 publicaciones** revisados revelan que esta hipótesis ya fue probada y **no se confirmó**: los dos ensayos de Fase 3 diseñados específicamente para esta indicación fueron terminados por falta de eficacia.
+Tocilizumab es un anticuerpo monoclonal humanizado contra el receptor de interleucina-6 (IL-6R). Según la literatura, se usa sobre todo en artritis reumatoide y artritis idiopática juvenil. El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosante**, pero la evidencia directa es débil: **2 ensayos de Fase 3 terminados anticipadamente** (sin resultados positivos confirmados en los datos aportados) y **19 publicaciones**, en su mayoría revisiones generales y casos aislados.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Artritis Reumatoide (uso establecido según literatura del paquete de evidencia; sin autorización registrada en España en este dataset) |
-| Nueva Indicacion Predicha | Espondilitis Anquilosante |
-| Puntaje de Prediccion TxGNN | 99.99% |
-| Nivel de Evidencia | L1 (evidencia clínica directa, pero de **resultado negativo**) |
-| Estado de Mercado en España | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Nueva Indicación Predicha | Espondilitis anquilosante |
+| Puntaje de Predicción TxGNN | 99.99% |
+| Nivel de Evidencia | L3 (ver nota) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 11 |
+| Decisión Recomendada | Hold |
+
+**Nota sobre el nivel de evidencia:** el Evidence Pack asigna L1. Sin embargo, los dos ECAs de Fase 3 (NCT01209702 y NCT01209689) figuran como **terminados**, no completados, y L1 exige ≥2 ECAs de Fase 3 completados. Por eso se asigna L3, apoyado en una revisión sistemática con metaanálisis en red y en metaanálisis de seguridad.
+
+Los registros de AEMPS no incluyen texto de indicación aprobada, por lo que no se puede indicar la indicación original.
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados de DrugBank sobre el mecanismo de acción (campo `original_moa` marcado como vacío). Sin embargo, la literatura incluida en el paquete de evidencia describe consistentemente a tocilizumab como un anticuerpo monoclonal humanizado que bloquea el receptor de interleucina-6 (IL-6R), tanto en su forma soluble como unida a membrana (PMID 28841363, 19368420, 31875623). Su uso clínico establecido es la artritis reumatoide y otras artritis inflamatorias mediadas por IL-6, como la artritis idiopática juvenil sistémica y poliarticular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la literatura aportada, tocilizumab es un anticuerpo monoclonal humanizado que bloquea el receptor de IL-6, tanto el de membrana como el soluble. Su eficacia está comprobada en artritis reumatoide, artritis idiopática juvenil y arteritis de células gigantes.
 
-La espondilitis anquilosante (EA) comparte con la artritis reumatoide el carácter de enfermedad reumática inflamatoria crónica, lo que constituye la base teórica de la predicción del modelo: si el bloqueo de IL-6 controla la inflamación en artritis reumatoide, podría hipotéticamente hacerlo en EA. Esta lógica de similitud mecanística es plausible a nivel de grafo de conocimiento y explica la puntuación TxGNN extremadamente alta (99.99%).
+La IL-6 se ha implicado, junto con el TNF-α y la IL-10, en la patogenia de la espondilitis anquilosante (revisión PMID 22452603). Por eso el bloqueo de IL-6 es biológicamente plausible en la inflamación axial. Esto explica en parte la alta puntuación del modelo.
 
-No obstante, esta hipótesis ya fue puesta a prueba clínicamente. La literatura de mecanismo (PMID 22452603) señala que la patología de la EA está dominada por el eje IL-17/TNF-α, con un papel secundario de IL-6, a diferencia de la artritis reumatoide. Esto es consistente con el resultado observado: dos ensayos clínicos de Fase 3 diseñados específicamente para EA (NCT01209702 y NCT01209689) fueron **terminados** por no alcanzar los criterios de eficacia esperados. Es decir, la evidencia real contradice directamente la predicción computacional, un hallazgo importante para la evaluación de este candidato.
+Sin embargo, la evidencia clínica no acompaña esa plausibilidad. La literatura señala que la artritis reumatoide y la espondilitis anquilosante difieren claramente en su patogenia (PMID 19822066). Los dos ensayos de Fase 3 en espondilitis anquilosante se terminaron anticipadamente. Según el análisis del Evidence Pack, el programa BUILDER publicado no mostró una señal clara de eficacia, pero los datos aportados no lo confirman.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-| Numero de Ensayo | Fase | Estado | Inscripcion | Hallazgos Principales |
+Solo dos de los ocho ensayos evalúan directamente tocilizumab en espondilitis anquilosante. El resto son estudios observacionales, registros o estudios de contexto.
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Fase 2/3 | Terminado | 306 | RCT específico de EA (tocilizumab 8 mg/kg IV vs. placebo); **terminado por eficacia insuficiente** — resultado negativo directo |
-| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Fase 3 | Terminado | 113 | RCT específico de EA en pacientes con respuesta inadecuada a anti-TNF; **terminado por eficacia insuficiente** — resultado negativo directo |
-| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Reclutando | 2500 | Registro observacional multicéntrico de biomarcadores de citocinas en enfermedades inflamatorias sistémicas; no es un ensayo de eficacia |
-| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | N/A | Completado | 60 | Estudio mecanístico in vivo/in vitro sobre células T foliculares en artritis reumatoide tratada con tocilizumab; no específico de EA |
-| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Reclutando | 10000 | Registro coreano de terapias biológicas en AR, EA y artritis psoriásica; observacional, sin hipótesis de eficacia |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Desconocido | 750000 | Estudio de riesgo de enfermedades inflamatorias inmunomediadas concomitantes en pacientes con biológicos; no específico de EA ni de tocilizumab |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún no reclutando | 80 | Manejo perioperatorio de inmunosupresores en artroplastia de hombro en pacientes reumatológicos; no evalúa eficacia en EA |
-| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Completado | 1431 | Observatorio de uso real de Inflectra (infliximab, no tocilizumab); incluido por indexación de búsqueda, sin relevancia directa |
-| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Fase 2 | Aún no reclutando | 52 | Ensayo de secukinumab (no tocilizumab) en arteritis de Takayasu; sin relevancia directa para EA |
-
-**Conclusión de esta tabla:** la única evidencia intervencionista específica de EA (2 ensayos de Fase 2/3 y Fase 3) es **negativa**.
+| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Fase 3 (2/3) | Terminado | 306 | ECA doble ciego frente a placebo de tocilizumab 8 mg/kg IV en EA sin respuesta a AINE y sin exposición previa a anti-TNF. Terminado anticipadamente |
+| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Fase 3 | Terminado | 113 | ECA doble ciego frente a placebo (8 mg/kg o 4 mg/kg IV) en EA con respuesta inadecuada a anti-TNF. Terminado anticipadamente |
+| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Fase 2 | Aún sin reclutar | 52 | ECA bayesiano de secukinumab en arteritis de Takayasu activa grave. Relación indirecta |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún sin reclutar | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos con artroplastia de hombro. No evalúa eficacia en EA |
+| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Completado | 1431 | Observatorio de uso real de infliximab biosimilar (Inflectra). No aporta evidencia sobre tocilizumab |
+| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Reclutando | 2500 | Registro de biomarcadores y perfiles de citocinas en enfermedades inflamatorias sistémicas |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Desconocido | 750000 | Estudio poblacional del riesgo de nuevas enfermedades inmunomediadas con biológicos |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Reclutando | 10000 | Registro coreano de biológicos en AR, EA y artritis psoriásica, centrado en seguridad |
 
 ---
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | ECA | Annals of the Rheumatic Diseases | Ensayos BUILDER-1/BUILDER-2: evaluación de eficacia sintomática a corto plazo de tocilizumab en EA (evidencia primaria directa sobre el fármaco en esta indicación) |
-| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Revisión sistemática / metaanálisis en red | Medicine | Comparación de eficacia de terapias biológicas disponibles para EA mediante metaanálisis bayesiano en red |
-| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Cohorte | Osteoporosis International | Efectos óseos sistémicos de terapias biológicas en artritis reumatoide y EA |
-| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Reporte de caso | Frontiers in Medicine | Tratamiento exitoso de amiloidosis AA secundaria a EA con tocilizumab (2 casos) |
-| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Revisión | Inflammation & Allergy Drug Targets | Revisión del papel de IL-6 en EA: mecanismo secundario frente al eje IL-17/TNF-α |
-| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Metaanálisis | Clinical Rheumatology | Riesgo de infecciones graves con biológicos en EA axial y espondiloartritis axial no radiográfica |
-| [21803631](https://pubmed.ncbi.nlm.nih.gov/21803631/) | 2011 | Revisión | Joint Bone Spine | Agentes biológicos para EA más allá de los antagonistas de TNF-α |
-| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | Revisión | Clinical and Experimental Rheumatology | Diferencias de patogénesis y respuesta a biológicos entre artritis reumatoide y EA |
-| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Revisión | Current Opinion in Rheumatology | Alternativas de tratamiento en EA refractaria a inhibición de TNF |
-| [27789989](https://pubmed.ncbi.nlm.nih.gov/27789989/) | 2009 | Revisión | Open Access Rheumatology | Revisión integral de biológicos disponibles en AR, EA y artritis psoriásica |
+| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | ECAs (BUILDER-1 y -2) | Ann Rheum Dis | Evalúa la eficacia sintomática a corto plazo de tocilizumab en EA. El resumen disponible solo indica el objetivo, sin resultados |
+| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Revisión sistemática y metaanálisis en red | Medicine | Compara la eficacia de los biológicos disponibles para EA a partir de ECAs |
+| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Metaanálisis (seguridad) | Clin Rheumatol | Riesgo de infecciones graves con biológicos en EA y espondiloartritis axial no radiográfica |
+| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Revisión | Inflamm Allergy Drug Targets | Papel de la IL-6 en la EA y del bloqueo de IL-6 como opción terapéutica |
+| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Revisión | Curr Opin Rheumatol | Alternativas terapéuticas en EA refractaria a anti-TNF |
+| [21803631](https://pubmed.ncbi.nlm.nih.gov/21803631/) | 2011 | Revisión | Joint Bone Spine | Biológicos para EA más allá de los antagonistas del TNFα |
+| [28413099](https://pubmed.ncbi.nlm.nih.gov/28413099/) | 2017 | Observacional/revisión | Semin Arthritis Rheum | Optimización de la segunda línea de biológicos en AR, artritis psoriásica y EA |
+| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Reporte de casos | Front Med | Dos casos de amiloidosis AA en EA tratados con tocilizumab, con evolución favorable |
+| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Revisión | Expert Rev Clin Immunol | Riesgo de infección con fármacos no biológicos frente a biológicos en artritis inflamatoria |
+| [39963138](https://pubmed.ncbi.nlm.nih.gov/39963138/) | 2025 | Revisión | Front Immunol | Manejo del riesgo, cribado y prevención de tuberculosis con inmunosupresores en artritis autoinmune |
 
-**Conclusión de esta tabla:** el único estudio de nivel ECA sobre tocilizumab específicamente en EA (PMID 23765873) evalúa eficacia a corto plazo, en línea con los resultados negativos de los ensayos de Fase 3 terminados; el resto de la literatura de mayor calidad (revisiones sistemáticas, metaanálisis) sitúa a IL-6 como mecanismo secundario en esta enfermedad.
+---
+
+## Información de Mercado en España
+
+Se muestran 5 de las 11 autorizaciones registradas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 08492001 | ROACTEMRA 20 mg/ml, concentrado para solución para perfusión | Solución inyectable |
+| 08492003 | ROACTEMRA 20 mg/ml, concentrado para solución para perfusión | Solución inyectable |
+| 1241825001 | Tocilizumab Stada 20 mg/ml, concentrado para solución para perfusión | Concentrado para solución para perfusión |
+| 1241896010 | Avtozma 162 mg, solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
+| 1231754007 | Tyenne 162 mg, solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
+
+El texto de indicación aprobada no figura en el registro; debe consultarse la ficha técnica en AEMPS.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone actualmente de advertencias, contraindicaciones ni datos de interacción farmacológica (DDI) estructurados para este fármaco en el paquete de evidencia. Cabe destacar que la obtención del prospecto/etiquetado regulatorio (TFDA/AEMPS) está identificada como una **brecha de datos bloqueante** (DG001) que impide completar la evaluación de seguridad inicial (etapa S1).
+Consultar el prospecto para información de seguridad.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-A pesar de la puntuación TxGNN más alta observada en este candidato (99.99%), los dos únicos ensayos clínicos diseñados específicamente para probar tocilizumab en espondilitis anquilosante (Fase 2/3 y Fase 3, combinados >400 pacientes) fueron **terminados por falta de eficacia**. La literatura mecanística confirma que la patogénesis de la EA está dominada por el eje IL-17/TNF-α, con un rol secundario de IL-6, lo que explica este resultado negativo. La evidencia clínica directa contradice la predicción del modelo.
+**Justificación:**
+- La puntuación de TxGNN es muy alta (99.99%) y el bloqueo de IL-6 es biológicamente plausible. Sin embargo, los dos ECAs de Fase 3 en espondilitis anquilosante se terminaron anticipadamente y no hay resultados positivos confirmados en los datos aportados.
+- La literatura específica en EA se limita a revisiones generales y a casos aislados.
 
 **Para avanzar se necesita:**
-- Resolver la brecha bloqueante DG001 (advertencias/contraindicaciones del prospecto TFDA) antes de cualquier evaluación de seguridad S1
-- Obtener el mecanismo de acción estructurado desde DrugBank (DG002)
-- Dado el resultado clínico negativo, no se recomienda continuar el desarrollo de esta indicación específica
-- Nota: dentro del mismo lote de predicciones para este fármaco, la indicación de rango 7 (artritis reumatoide juvenil poliarticular) presenta evidencia de Fase 3 positiva y ya es una indicación aprobada por FDA/EMA — podría ser un candidato de seguimiento más productivo que la espondilitis anquilosante
+- Obtener y revisar los resultados completos de los ensayos NCT01209702 y NCT01209689 (programa BUILDER) y confirmar el motivo de la terminación anticipada.
+- Descargar y analizar la ficha técnica de AEMPS para completar advertencias, contraindicaciones e indicaciones autorizadas (bloqueante para el cribado de seguridad).
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Comparar con las alternativas ya establecidas en EA (anti-TNF e inhibidores de IL-17) antes de reconsiderar la indicación.
+
+**Nota adicional:** entre las demás predicciones, la artritis idiopática juvenil poliarticular tiene respaldo de Fase 3 completado (NCT00988221). Tocilizumab ya es un tratamiento establecido en esa indicación, por lo que no constituye un reposicionamiento genuino.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

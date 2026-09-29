@@ -2,7 +2,7 @@
 layout: default
 title: Iloprost
 parent: Solo predicción del modelo (L5)
-nav_order: 140
+nav_order: 272
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,31 +29,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Iloprost: De Hipertensión Arterial Pulmonar a Hipotricosis Simple del Cuero Cabelludo
+# Iloprost: De Hipertensión Pulmonar a Hipotricosis Simple del Cuero Cabelludo
 
 ## Resumen en Una Frase
 
-Iloprost es un análogo sintético de prostaciclina (PGI2), históricamente aprobado para el tratamiento de la hipertensión arterial pulmonar (HAP). El modelo TxGNN predice, con la puntuación más alta de este paquete de evidencia, que podría ser efectivo para **Hipotricosis Simple del Cuero Cabelludo**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección, y el propio análisis mecanístico la señala como probable falso positivo del modelo.
+Iloprost es un análogo de la prostaciclina que en España se comercializa en solución para inhalación por nebulizador y en concentrado para perfusión. Su uso conocido es la hipertensión pulmonar, pero el texto de indicación de las autorizaciones está vacío en los datos recibidos.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial pulmonar (HAP) — según se menciona en las justificaciones mecanísticas de este informe; sin ficha regulatoria propia disponible |
+| Indicación Original | No consta en las autorizaciones de la AEMPS (texto vacío). La literatura del paquete indica que iloprost está aprobado para hipertensión pulmonar en adultos; requiere confirmación |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.45% |
+| Puntaje de Predicción TxGNN | 99,45% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de una ficha estructurada de mecanismo de acción (MOA) para iloprost en este informe. Según la información recogida en las justificaciones mecanísticas de las demás indicaciones de este mismo paquete de evidencia, iloprost es un análogo sintético de prostaciclina (PGI2) con efecto vasodilatador pulmonar y antiagregante plaquetario, ya aprobado para el tratamiento de la HAP.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, iloprost es un análogo de la prostaciclina con efectos vasodilatadores y antiagregantes plaquetarios. Su eficacia en hipertensión pulmonar está descrita en la literatura, pero no hay un vínculo mecanístico demostrado con la nueva indicación.
 
-Mecanísticamente no existe relación conocida entre este mecanismo (vasodilatación de músculo liso vascular y antiagregación plaquetaria) y las vías reguladoras del crecimiento folicular (p. ej. receptor de andrógenos, WNT/β-catenina). El propio informe señala explícitamente que la puntuación alta de TxGNN podría deberse a un falso positivo en el espacio de embeddings del grafo, posiblemente por proximidad con otros análogos de prostaglandina que sí tienen efecto documentado sobre el crecimiento capilar (como bimatoprost).
+La única hipótesis es especulativa: la señalización de prostaciclina y prostaglandinas podría influir en el ciclo del folículo piloso. Esto no está establecido para iloprost.
 
-En consecuencia, esta predicción no cuenta con respaldo mecanístico sólido ni con ningún dato clínico o de literatura, lo que limita fuertemente su plausibilidad como candidato de reposicionamiento en esta etapa.
+Además, la hipotricosis simple es un trastorno genético. Un efecto vasodilatador o antiagregante difícilmente corregiría una causa hereditaria del folículo. El alto puntaje de TxGNN (99,45%) proviene solo del grafo de conocimiento y no está respaldado por estudios reales.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,6 +63,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 86227 | Iloprost Zentiva 20 microgramos/ml | Solución para inhalación por nebulizador | Zentiva K.S. |
+| 61596 | Ilomedin 50 microgramos/0,5 ml | Concentrado para solución para perfusión | Bayer Hispania S.L. |
+| 03255004 | Ventavis 10 microgramos/ml | Solución para inhalación por nebulizador | Bayer AG |
+| 86242 | Iloprost Rafarm 10 microgramos/ml | Solución para inhalación por nebulizador | Rafarm S.A. |
+| 86226 | Iloprost Zentiva 10 microgramos/ml | Solución para inhalación por nebulizador | Zentiva K.S. |
+
+Las autorizaciones no incluyen texto de indicación aprobada en los datos recibidos, por lo que se omite esa columna.
 
 ## Consideraciones de Seguridad
 
@@ -72,21 +85,17 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Pese a tener la puntuación TxGNN más alta del paquete, la indicación "hipotricosis simple del cuero cabelludo" no cuenta con ningún ensayo clínico ni publicación de respaldo, y el análisis mecanístico del propio informe la califica como probable falso positivo del modelo, sin conexión biológica plausible con el mecanismo conocido de iloprost.
+La predicción es de nivel L5: sin ensayos, sin literatura y sin un mecanismo plausible para un trastorno capilar genético. Con estos datos no hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Ficha de mecanismo de acción (MOA) verificada de DrugBank
-- Advertencias/contraindicaciones del prospecto (TFDA/AEMPS) — actualmente bloqueante para cualquier evaluación de seguridad
-- Evidencia preclínica específica que vincule prostaciclinas con la vía de crecimiento folicular, si se desea sostener esta hipótesis
+- Confirmar las indicaciones autorizadas y la información de seguridad en la ficha técnica de la AEMPS.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Realizar estudios preclínicos que sustenten un efecto en el folículo piloso, y valorar la vía de administración, dado que las formas disponibles son inhalada e intravenosa.
+- Priorizar otras predicciones del mismo paquete con más respaldo:
+  - Hipertensión arterial pulmonar asociada a cardiopatía congénita (L3, Proceed with Guardrails): 1 ensayo N/A con 42 pacientes y 20 publicaciones.
+  - Hipertensión arterial pulmonar asociada a VIH: incluye un ensayo de Fase 3 completado (NCT00709956) cuyo fármaco y población deben verificarse.
 
-**Nota sobre otras indicaciones del mismo paquete de evidencia:**
-Este paquete incluye otras indicaciones predichas para iloprost con evidencia sustancialmente más sólida, todas dentro del espectro de hipertensión arterial pulmonar (HAP), que es la indicación ya aprobada del fármaco:
-
-- **HAP asociada a infección por VIH** (rank 6): Nivel L1, un ensayo Fase 3 completado, doblemente ciego y controlado con placebo (NCT00709956, n=64), más 4 publicaciones. Recomendación: **Proceed with Guardrails**.
-- **HAP asociada a enfermedad del tejido conectivo** (rank 8): Nivel L3, 20 publicaciones incluyendo cohortes de uso de iloprost intravenoso domiciliario. Recomendación: **Research Question**.
-- **HAP asociada a cardiopatía congénita** (rank 3): Nivel L3, un ensayo clínico y 20 publicaciones. Recomendación: **Research Question**.
-
-Dado que estas indicaciones comparten el mecanismo ya aprobado de iloprost (vasodilatación pulmonar en HAP Grupo 1 de la OMS) y cuentan con evidencia real, se recomienda priorizar su evaluación sobre la indicación de rank 1 aquí reportada.
+*Este informe es solo para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

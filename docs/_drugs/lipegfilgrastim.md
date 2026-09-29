@@ -2,7 +2,7 @@
 layout: default
 title: Lipegfilgrastim
 parent: Solo predicción del modelo (L5)
-nav_order: 167
+nav_order: 323
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,59 +29,77 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Lipegfilgrastim: De Neutropenia Inducida por Quimioterapia a Trastorno Primario de Liberación Plaquetaria
+# Lipegfilgrastim: De Estimulación de Neutrófilos (G-CSF glicopegilado) a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Lipegfilgrastim es un factor estimulante de colonias de granulocitos (G-CSF) pegilado, utilizado habitualmente para reducir la duración de la neutropenia inducida por quimioterapia citotóxica en pacientes oncológicos.
-El modelo TxGNN predice que podría ser efectivo para **Trastorno Primario de Liberación Plaquetaria** (primary release disorder of platelets),
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta direccion — la prediccion se basa unicamente en el modelo.
+Lipegfilgrastim es un factor estimulante de colonias de granulocitos (G-CSF) glicopegilado que estimula la producción de neutrófilos. En los datos recibidos no consta su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en el Evidence Pack (dato pendiente; el uso conocido de lipegfilgrastim es neutropenia inducida por quimioterapia) |
-| Nueva Indicacion Predicha | Trastorno Primario de Liberación Plaquetaria |
-| Puntaje de Prediccion TxGNN | 99.93% |
+| Indicación Original | No consta en los datos (los registros de autorización no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
+| Puntaje de Predicción TxGNN | 99,93% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion (MOA) en el Evidence Pack. Segun la informacion publica conocida, lipegfilgrastim es un G-CSF pegilado que estimula la proliferacion y diferenciacion de precursores de neutrofilos en la medula osea, y su eficacia en la reduccion de neutropenia asociada a quimioterapia esta bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, lipegfilgrastim es un G-CSF glicopegilado que estimula la producción de neutrófilos.
 
-La relacion mecanistica entre este uso y el Trastorno Primario de Liberación Plaquetaria no es evidente: la primera actua sobre la linea granulocitica, mientras que la segunda es un trastorno de la funcion secretora de las plaquetas. Sin datos de MOA verificados ni evidencia clinica, no es posible confirmar en este momento una base mecanistica solida para la prediccion del modelo.
+Un defecto de liberación plaquetaria es una anomalía funcional de las plaquetas, no una alteración de la línea neutrofílica. Por tanto, **no existe un vínculo biológico establecido** entre ambos. El único respaldo es el puntaje del modelo TxGNN, y la similitud con la indicación original está pendiente de evaluar. La predicción debe tratarse como una hipótesis sin sustento mecanístico ni clínico.
 
-Cabe notar que otras cuatro indicaciones predichas por TxGNN para este farmaco (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, retinopatia diabetica no proliferativa severa, retinopatia diabetica) tambien pertenecen a trastornos hematologicos/vasculares, lo que sugiere un patron consistente en el espacio de embeddings del modelo, pero que igualmente carece de respaldo en ensayos clinicos o literatura.
+### Otras predicciones del modelo
 
-## Evidencia de Ensayos Clinicos
+Todas tienen nivel de evidencia L5, sin ensayos ni literatura, y recomendación Hold:
 
-Actualmente no hay ensayos clinicos relacionados registrados
+| Posición | Enfermedad predicha | Puntaje TxGNN | Comentario |
+|------|------|------|------|
+| 2 | Retinopatía diabética no proliferativa grave | 99,91% | Vínculo especulativo por movilización de progenitores hematopoyéticos y endoteliales; podría incluso ser perjudicial sobre la neovascularización retiniana |
+| 3 | Pseudo-enfermedad de von Willebrand | 99,91% | Defecto de ganancia de función de GPIb-alfa plaquetaria, sin conexión mecanística clara |
+| 4 | Trombastenia de Glanzmann | 99,91% | Deficiencia o disfunción de la integrina alfaIIb-beta3, sin efecto conocido del G-CSF |
+| 5 | Retinopatía diabética | 99,75% | Se solapa con la entrada de retinopatía grave, por lo que no es evidencia independiente |
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 113856001 | Lonquex 6 mg solución inyectable | Solución inyectable | No consta en el registro |
+| 1130856004 | LONQUEX 6 MG/0,6 ML solución inyectable | Solución inyectable | No consta en el registro |
+
+Ambas autorizaciones pertenecen al titular Teva B.V.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas para este fármaco.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion se apoya exclusivamente en el puntaje del modelo TxGNN (99.93%), sin ningun ensayo clinico ni publicacion que la respalde (Nivel de Evidencia L5). Ademas, faltan datos criticos de seguridad (advertencias, contraindicaciones del TFDA) marcados como brecha bloqueante (DG001), lo que impide una evaluacion de seguridad inicial (S1).
+**Justificación:**
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre un G-CSF y los defectos plaquetarios. Además, los datos de seguridad y de indicación autorizada están incompletos.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica con advertencias y contraindicaciones (DG001, bloqueante)
-- Obtener el mecanismo de accion (MOA) confirmado via DrugBank API (DG002)
-- Confirmar la indicacion original aprobada del farmaco (dato ausente en el Evidence Pack)
-- Monitorear la aparicion de nuevos ensayos clinicos o publicaciones sobre esta indicacion
-- Evaluar plausibilidad mecanistica adicional antes de considerar avanzar de fase
+- Obtener el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones autorizadas), que es un vacío bloqueante para el cribado de seguridad.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Realizar una búsqueda sistemática de literatura y de registros de ensayos para confirmar que no existe evidencia real.
+- Evaluar la plausibilidad biológica antes de cualquier estudio preclínico, incluyendo el riesgo potencial en retinopatía diabética.
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

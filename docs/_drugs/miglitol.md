@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Miglitol
-parent: Evidencia moderada (L3-L4)
-nav_order: 182
-evidence_level: L3
+parent: Solo predicción del modelo (L5)
+nav_order: 355
+evidence_level: L5
 indication_count: 10
 ---
 
 # Miglitol
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,99 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Miglitol: De Diabetes Mellitus Tipo 2 a Diabetes Mellitus Tipo 1 (Terapia Adjunta a Insulina)
-
-> **Nota metodológica**: TxGNN generó 10 indicaciones candidatas para miglitol. Las 9 de mayor puntuación (rango 1–9: síndrome de la persona rígida, distrofias/lipodistrofias localizadas, agenesia pancreática, etc.) carecen por completo de ensayos clínicos y literatura de respaldo, y sus propias justificaciones mecanísticas declaran explícitamente "sin relación conocida" con el mecanismo de miglitol (nivel L5, recomendación Hold). Por ello, este informe se centra en la única indicación con evidencia real: **Diabetes Mellitus Tipo 1** (rango 10), la candidata clínicamente relevante del conjunto.
+# Miglitol: De Diabetes Tipo 2 a Síndrome de la Extremidad Rígida Focal
 
 ## Resumen en Una Frase
 
-Miglitol es un inhibidor de la alfa-glucosidasa intestinal, utilizado originalmente en el control de la diabetes mellitus tipo 2 al retrasar la absorción de carbohidratos. El modelo TxGNN, junto con literatura clínica acumulada desde los años 1980, sugiere su uso como **terapia adjunta a la insulina en Diabetes Mellitus Tipo 1**, respaldado por **16 publicaciones** aunque sin ensayos registrados formalmente en clinicaltrials.gov.
+Miglitol es un inhibidor de la alfa-glucosidasa intestinal, comercializado en España como PLUMAROL para la diabetes tipo 2. El modelo TxGNN predice que podría ser efectivo para el **síndrome de la extremidad rígida focal**, pero **no existe ningún ensayo clínico ni publicación** que respalde esta predicción. Entre las 10 predicciones, la única con literatura es la **diabetes mellitus tipo 1** (16 publicaciones, ningún ensayo registrado), que se detalla más abajo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en registro español (miglitol no está comercializado en España); según la literatura recopilada, su uso conocido es como antidiabético oral (inhibidor de alfa-glucosidasa) |
-| Nueva Indicación Predicha | Diabetes Mellitus Tipo 1 (terapia adjunta a insulina) |
-| Puntaje de Predicción TxGNN | 99.60% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | Diabetes tipo 2 (según el racional del Evidence Pack; los textos de indicación de las autorizaciones AEMPS vienen vacíos) |
+| Nueva Indicación Predicha | Síndrome de la extremidad rígida focal |
+| Puntaje de Predicción TxGNN | 99,87 % |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Los datos estructurados de mecanismo de acción (MOA) no están disponibles en la ficha del fármaco (data gap de prioridad alta). Sin embargo, la literatura recopilada en este mismo informe describe de forma consistente a miglitol como un **inhibidor de la alfa-glucosidasa intestinal**, que retrasa la degradación de disacáridos y la absorción de glucosa en el intestino delgado, reduciendo el pico glucémico postprandial (ver PMID 2060451, 3130257, 3286168, entre otros).
+## ¿Por qué es Razonable esta Predicción?
 
-Miglitol fue desarrollado y usado clásicamente en diabetes mellitus tipo 2. La indicación predicha por TxGNN —diabetes mellitus tipo 1— no reemplaza a la insulina, sino que la complementa: en pacientes tipo 1, incluso con terapia insulínica intensiva, persisten picos glucémicos postprandiales difíciles de controlar. Al enlentecer la absorción intestinal de carbohidratos, miglitol podría suavizar estos picos y facilitar el ajuste del momento de administración de insulina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en el Evidence Pack. Según la información conocida, miglitol inhibe la alfa-glucosidasa del intestino, lo que retrasa la digestión de los carbohidratos y reduce los picos de glucosa después de las comidas.
 
-Esta hipótesis mecanística es razonable y no depende de una analogía forzada de enfermedad, sino de un mecanismo fisiológico directo (metabolismo de carbohidratos) aplicado a un subtipo relacionado de la misma enfermedad de base (diabetes). De hecho, la evidencia acumulada abarca más de tres décadas (1986–2020), lo que indica un interés clínico sostenido, aunque nunca consolidado en un ensayo de fase 3 a gran escala.
+Para esta predicción concreta, **no se identifica un vínculo mecanístico plausible**. El síndrome de la extremidad rígida focal es un trastorno de hiperexcitabilidad del sistema nervioso central y la médula espinal, sin relación con la digestión de carbohidratos. La puntuación alta de TxGNN (99,87 %) es una predicción basada en el grafo de conocimiento, sin respaldo de ensayos ni de literatura.
+
+La segunda predicción (síndrome de la persona rígida clásico) tampoco tiene vínculo mecanístico. Suele ser autoinmune por GAD65 y coexistir con la diabetes tipo 1, pero esa autoinmunidad compartida no implica que miglitol trate el síndrome neurológico.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados en clinicaltrials.gov/ICTRP. La evidencia disponible proviene exclusivamente de estudios clínicos pequeños publicados directamente en literatura biomédica (ver tabla siguiente), en su mayoría anteriores a la era de registro obligatorio de ensayos.
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
+Actualmente no hay literatura relacionada disponible para el síndrome de la extremidad rígida focal.
+
+### Nota: candidato con evidencia (rank 10, diabetes mellitus tipo 1)
+
+La única predicción con literatura es la diabetes mellitus tipo 1 (TxGNN 99,60 %, nivel L3, etapa S1, "Research Question"). Se encontraron 16 publicaciones, de las que se listan las 10 más relevantes. **Los diseños de los estudios se infieren de los títulos, porque no se dispone de los resúmenes completos.** No hay ensayos clínicos registrados.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [21869539](https://pubmed.ncbi.nlm.nih.gov/21869539/) | 2011 | ECA (pequeña escala) | Endocrine Journal | 11 pacientes T1DM en terapia insulínica intensiva; miglitol (25→50 mg, 3x/día) evaluado sobre control glucémico, hipoglucemia y respuesta de incretinas |
-| [24843410](https://pubmed.ncbi.nlm.nih.gov/24843410/) | 2010 | Ensayo Clínico | Journal of Diabetes Investigation | Terapia combinada miglitol + insulina en pacientes con T1DM; beneficio en picos glucémicos postprandiales no controlados por insulina sola |
-| [2060451](https://pubmed.ncbi.nlm.nih.gov/2060451/) | 1991 | Ensayo Clínico | Diabetes Care | Efecto de la inhibición de alfa-glucosidasa sobre tolerancia a glucosa y momento de administración de insulina en diabetes tipo 1 |
-| [8261749](https://pubmed.ncbi.nlm.nih.gov/8261749/) | 1993 | Ensayo Clínico/Revisión | Diabetic Medicine | Inhibición de alfa-glucosidasa como adyuvante al tratamiento de diabetes tipo 1 |
-| [3130257](https://pubmed.ncbi.nlm.nih.gov/3130257/) | 1988 | Ensayo Clínico | European Journal of Clinical Investigation | Administración prolongada de dos inhibidores de alfa-glucosidasa (incl. precursor de miglitol) en diabetes insulinodependiente: mejora glucémica y reducción de requerimiento de insulina |
-| [3286168](https://pubmed.ncbi.nlm.nih.gov/3286168/) | 1988 | Ensayo Clínico | Diabetes Research and Clinical Practice | Momento óptimo de insulina preprandial combinada con inhibición de alfa-glucosidasa en IDDM |
-| [11460577](https://pubmed.ncbi.nlm.nih.gov/11460577/) | 2001 | Revisión | Exp Clin Endocrinol Diabetes | Revisión de hipoglucemiantes orales incluyendo inhibidores de alfa-glucosidasa |
-| [12073790](https://pubmed.ncbi.nlm.nih.gov/12073790/) | 2002 | Revisión | Revue Médicale de Liège | Abordajes farmacológicos de la hiperglucemia postprandial, incluyendo acarbosa y miglitol |
-| [33268615](https://pubmed.ncbi.nlm.nih.gov/33268615/) | 2020 | Reporte de caso | Journal of UOEH | Paciente T1DM en tratamiento con miglitol + insulina; adición de inhibidor SGLT2 mejoró hiperglucemia nocturna |
-| [20307399](https://pubmed.ncbi.nlm.nih.gov/20307399/) | 2010 | Revisión | Journal of Diabetes Science and Technology | Revisión de dinámica de aporte de glucosa y demanda de insulina entre agentes antidiabéticos |
+| [21869539](https://pubmed.ncbi.nlm.nih.gov/21869539/) | 2011 | Estudio clínico | Endocrine Journal | 11 pacientes con DM1 en insulinoterapia intensiva recibieron miglitol (25 mg y luego 50 mg, 3 veces al día); se analizaron dosis de insulina, peso, hipoglucemia y respuesta de incretinas |
+| [24843410](https://pubmed.ncbi.nlm.nih.gov/24843410/) | 2010 | Estudio clínico | J Diabetes Investig | Terapia combinada de miglitol e insulina en DM1; se plantea beneficio ante el aumento posprandial de glucosa no controlado con insulina intensiva |
+| [2060451](https://pubmed.ncbi.nlm.nih.gov/2060451/) | 1991 | Estudio clínico | Diabetes Care | Efecto de la inhibición de alfa-glucosidasa sobre la tolerancia a la glucosa y el momento de administración de insulina |
+| [2180090](https://pubmed.ncbi.nlm.nih.gov/2180090/) | 1990 | Estudio clínico | S Afr Med J | 11 pacientes; miglitol 50 mg redujo de forma significativa el incremento posprandial de glucosa frente a placebo |
+| [2663321](https://pubmed.ncbi.nlm.nih.gov/2663321/) | 1989 | Estudio simple ciego | Diabetes Res | 13 pacientes; miglitol redujo significativamente el área bajo la curva de glucosa frente a placebo, sin reducir la glucosa en ayunas |
+| [3311550](https://pubmed.ncbi.nlm.nih.gov/3311550/) | 1987 | Estudio clínico | Clin Pharmacol Ther | Bay-m-1099 (miglitol) redujo los requerimientos de insulina con las comidas en 9 pacientes con DM insulinodependiente |
+| [3130257](https://pubmed.ncbi.nlm.nih.gov/3130257/) | 1988 | Estudio clínico | Eur J Clin Invest | Administración prolongada de dos inhibidores de alfa-glucosidasa en 17 pacientes insulinodependientes |
+| [8261749](https://pubmed.ncbi.nlm.nih.gov/8261749/) | 1993 | Revisión | Diabetic Medicine | Inhibición de alfa-glucosidasa como coadyuvante en el tratamiento de la DM1 |
+| [12073790](https://pubmed.ncbi.nlm.nih.gov/12073790/) | 2002 | Revisión | Rev Med Liege | Abordajes farmacológicos de la hiperglucemia posprandial, incluidos acarbosa y miglitol |
+| [11460577](https://pubmed.ncbi.nlm.nih.gov/11460577/) | 2001 | Revisión | Exp Clin Endocrinol Diabetes | Antidiabéticos orales (secretagogos, inhibidores de alfa-glucosidasa y sensibilizadores), centrada en la DM2 |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 62701 | PLUMAROL 50 mg COMPRIMIDOS | Comprimido | Lacer S.A. |
+| 62702 | PLUMAROL 100 mg COMPRIMIDOS | Comprimido | Lacer S.A. |
+
+---
 
 ## Consideraciones de Seguridad
 
-No se dispone de ficha técnica ni prospecto para miglitol, dado que el fármaco no está comercializado en España (0 autorizaciones). Adicionalmente, la obtención del prospecto TFDA/regulador de origen con advertencias y contraindicaciones está identificada como **brecha de datos bloqueante** (impide la evaluación de seguridad inicial S1). No hay datos de interacciones farmacológicas disponibles (búsqueda DDI: sin resultados).
+Consultar el prospecto para información de seguridad.
+
+Para un eventual uso en DM1 con insulina, la hipoglucemia debe tratarse con glucosa y no con sacarosa, porque miglitol retrasa la digestión de la sacarosa.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el mecanismo de acción (inhibición de alfa-glucosidasa) es fisiológicamente plausible para diabetes tipo 1 y existe un cuerpo histórico de estudios clínicos pequeños (nivel L3), no hay ningún ensayo de fase 2/3 completado ni registrado formalmente, el fármaco no está comercializado en España, y falta información de seguridad esencial (advertencias/contraindicaciones), lo cual bloquea la evaluación de seguridad inicial.
+- Las 9 primeras predicciones, incluida la principal (síndrome de la extremidad rígida focal), son de nivel L5: no tienen vínculo mecanístico plausible ni ensayos ni literatura.
+- La DM1 (rank 10) es biológicamente plausible solo como **coadyuvante** de la insulina, no como tratamiento modificador de la enfermedad. Su evidencia (nivel L3) proviene de estudios pequeños y antiguos (1987-2011).
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica oficial (regulador de origen o AEMPS) con advertencias y contraindicaciones — brecha bloqueante
-- Confirmar el mecanismo de acción formal vía consulta a DrugBank API
-- Explorar diseño de un ensayo clínico controlado y registrado (fase 2/3) específico para diabetes tipo 1 como terapia adjunta
-- Evaluar la viabilidad regulatoria de introducción en el mercado español, dado que actualmente no existe ninguna autorización
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad S1.
+- Completar el mecanismo de acción y las indicaciones originales desde DrugBank.
+- Para la DM1: confirmar los diseños de estudio y los tamaños de efecto leyendo los textos completos, y revisar el manejo de la hipoglucemia.
+- Repriorizar el análisis hacia la DM1, ya que las demás predicciones (síndrome de la persona rígida, lipodistrofias, opsismodisplasia, agenesia pancreática, síndrome sensible a tiamina) no tienen respaldo clínico. La agenesia pancreática y el síndrome sensible a tiamina solo tendrían un vínculo indirecto vía glucemia posprandial, sin datos.
+
+Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

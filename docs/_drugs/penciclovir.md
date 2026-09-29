@@ -2,7 +2,7 @@
 layout: default
 title: Penciclovir
 parent: Solo predicción del modelo (L5)
-nav_order: 218
+nav_order: 415
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,62 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Penciclovir: De Infección por Herpesvirus (HSV/VZV) a Fascioliasis
+# Penciclovir: De Antiviral (indicación original no registrada) a Fascioliasis
 
 ## Resumen en Una Frase
 
-Penciclovir es un análogo de guanosina utilizado como antiviral, cuyo mecanismo depende de la fosforilación por la timidina cinasa viral (HSV/VZV) para inhibir la ADN polimerasa viral.
-El modelo TxGNN predice que podría ser efectivo para **Fascioliasis**,
-pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección — se trata de una señal puramente predictiva.
+Penciclovir es un antiviral análogo de nucleósidos de guanosina, comercializado en España en forma de crema. El registro no incluye su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **fascioliasis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, así que la predicción se apoya solo en el modelo.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No especificada en el Evidence Pack (mecanismo descrito: antiviral frente a HSV/VZV) |
-| Nueva Indicacion Predicha | Fascioliasis |
-| Puntaje de Prediccion TxGNN | 99.06% |
+| Indicación Original | No disponible en el registro (el texto de indicación de la autorización está vacío) |
+| Nueva Indicación Predicha | Fascioliasis |
+| Puntaje de Predicción TxGNN | 99.06% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Penciclovir actúa como análogo de nucleósido: tras ser fosforilado por la timidina cinasa de virus herpéticos (HSV/VZV), inhibe la ADN polimerasa viral y bloquea la replicación del virus. Este mecanismo es específico de la maquinaria de replicación viral.
+## ¿Por qué es Razonable esta Predicción?
 
-La fascioliasis, en cambio, es una infección parasitaria causada por trematodos (*Fasciola hepatica/gigantica*), organismos multicelulares sin homología con la timidina cinasa ni la ADN polimerasa viral que constituyen el blanco de penciclovir. No existe una ruta metabólica conocida de estos parásitos que se solape con el mecanismo de acción del fármaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, penciclovir es un análogo nucleósido de guanosina. Es fosforilado por la timidina quinasa viral (VHS/VVZ) y después inhibe la ADN polimerasa viral.
 
-En consecuencia, la puntuación elevada de TxGNN (99.06%) refleja únicamente similitud de embeddings dentro del grafo de conocimiento, y no aporta plausibilidad biológica. Esta predicción debe interpretarse como una señal exploratoria de baja confianza, no como una hipótesis mecanísticamente fundamentada.
+Con esta información, **no se identifica un vínculo mecanístico respaldado por evidencia**. Las especies de *Fasciola* son trematodos parásitos y no se conoce en ellas una vía de activación por timidina quinasa de tipo viral. Por eso el mecanismo antiviral no parece transferible de forma plausible. Cualquier vía inferida por el grafo de conocimiento (por ejemplo, metabolismo de nucleósidos compartido) no puede verificarse con los datos disponibles.
 
-## Evidencia de Ensayos Clinicos
+El puntaje de 0.99 es una salida del modelo, no evidencia clínica ni experimental. Además, el tratamiento establecido para la fascioliasis es el triclabendazol, y aquí no se muestra ninguna ventaja frente a él. La única presentación autorizada es una crema de uso tópico, y no hay datos que indiquen que esta vía sea compatible con una infección hepatobiliar.
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Informacion de Mercado en Espana
+---
 
-Penciclovir no cuenta actualmente con autorizaciones de comercialización registradas en los datos disponibles (0 licencias, estado "no comercializado").
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 61462 | FENIVIR 10 mg/g CREMA (Perrigo España S.A.) | Crema | No especificada en el registro |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-No existe ningún ensayo clínico ni publicación que respalde la asociación penciclovir–fascioliasis, y el mecanismo de acción conocido del fármaco (inhibición de la replicación viral herpética) no tiene relación biológica plausible con una infección parasitaria por trematodos. La puntuación de TxGNN por sí sola es insuficiente para avanzar.
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos, literatura ni mecanismo plausible. Además, no se demuestra ninguna ventaja frente al triclabendazol.
 
 **Para avanzar se necesita:**
-- Advertencias y contraindicaciones del prospecto de TFDA (brecha bloqueante identificada en el Evidence Pack — impide la evaluación inicial de seguridad S1)
-- Confirmación del mecanismo de acción (MOA) vía DrugBank (brecha de alta prioridad)
-- Evidencia preclínica que establezca un vínculo mecanístico real entre la vía antiviral y la biología del trematodo, de existir
-- Cualquier estudio observacional o reporte de caso que surja en futuras búsquedas en ClinicalTrials.gov, ICTRP o PubMed
+- Descargar y analizar el prospecto de la AEMPS para completar advertencias y contraindicaciones (bloquea el cribado de seguridad)
+- Datos detallados del mecanismo de acción (por ejemplo, consulta a la API de DrugBank)
+- Evidencia preclínica (in vitro o in vivo) de actividad frente a *Fasciola*
+- Análisis de compatibilidad de vía de administración (crema tópica frente a la necesidad de exposición sistémica)
+- Justificación de la ventaja frente al triclabendazol
+
+*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

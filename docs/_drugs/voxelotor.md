@@ -2,7 +2,7 @@
 layout: default
 title: Voxelotor
 parent: Solo predicción del modelo (L5)
-nav_order: 296
+nav_order: 569
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,69 +29,65 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Voxelotor: De Indicación Original No Documentada a Trombocitopenia Hereditaria con Plaquetas Normales
+# Voxelotor: De Enfermedad de Células Falciformes a Trombocitopenia Hereditaria con Plaquetas Normales
 
 ## Resumen en Una Frase
 
-La indicación original de Voxelotor no está disponible en este Evidence Pack (ni el mecanismo de acción ni las indicaciones aprobadas fueron extraídas de DrugBank).
-El modelo TxGNN predice que podría ser efectivo para **Trombocitopenia Hereditaria con Plaquetas Normales**,
-pero actualmente **no existen ensayos clínicos ni publicaciones** que respalden esta ni ninguna de las otras 6 hipótesis generadas en este mismo lote.
+Voxelotor es un inhibidor de la polimerización de la hemoglobina S, utilizado para la enfermedad de células falciformes. Esta indicación se deduce del mecanismo descrito en el paquete de evidencia, porque el registro de AEMPS no incluye el texto de indicación.
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia hereditaria con plaquetas normales**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en el Evidence Pack (dato pendiente de extracción) |
-| Nueva Indicacion Predicha | Trombocitopenia Hereditaria con Plaquetas Normales |
-| Puntaje de Prediccion TxGNN | 99.58% |
+| Indicación Original | No especificada en el registro de AEMPS (por mecanismo, enfermedad de células falciformes) |
+| Nueva Indicación Predicha | Trombocitopenia hereditaria con plaquetas normales |
+| Puntaje de Predicción TxGNN | 99.58% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado (según los datos del paquete; ver nota en Conclusión) |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos sobre el mecanismo de acción de Voxelotor ni de su indicación original documentada en este Evidence Pack, por lo que no es posible establecer una base mecanística para evaluar la plausibilidad de esta predicción.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información del análisis de razonamiento, voxelotor inhibe la polimerización de la hemoglobina S y aumenta la afinidad de la hemoglobina por el oxígeno.
 
-TxGNN generó, en este mismo lote, 7 hipótesis relacionadas con trastornos hematológicos poco frecuentes de las plaquetas (trombocitopenias hereditarias, enfermedad de gránulos densos, trastorno de liberación plaquetaria) y una relacionada con patología renal asociada a gammapatía monoclonal (síndrome de Fanconi). Todas presentan puntuaciones de similitud topológica muy altas (>99%), pero esto refleja únicamente cercanía estructural dentro del grafo de conocimiento, no evidencia mecanística ni clínica real.
+**No existe un vínculo mecanístico conocido** entre este mecanismo y la trombocitopenia hereditaria. Voxelotor no tiene acción conocida sobre la megacariopoyesis ni sobre la producción de plaquetas. El puntaje alto (99.58%) proviene solo de patrones en el grafo de conocimiento y no de evidencia biológica o clínica. La similitud con la indicación original aún no ha sido evaluada.
 
-Sin datos de MOA ni de indicación original, no es posible argumentar por qué el fármaco sería aplicable a estas nuevas indicaciones; la relación observada debe considerarse exploratoria y pendiente de validación completa.
+Las demás predicciones del modelo tienen puntajes entre 99.0% y 99.6%. Son otras alteraciones plaquetarias (macrotrombocitopenia con insuficiencia mitral, enfermedad de gránulos densos, trombocitopenia neonatal transitoria, trombocitopenia, trastorno primario de liberación plaquetaria) y el síndrome de Fanconi asociado a cadenas ligeras. Ninguna tiene vínculo mecanístico establecido ni evidencia clínica.
 
-## Otras Hipotesis Generadas por TxGNN (Mismo Lote)
+## Evidencia de Ensayos Clínicos
 
-| Rank | Indicacion | Puntaje TxGNN | Evidencia |
-|------|-----------|---------------|-----------|
-| 2 | Macrotrombocitopenia con Insuficiencia Mitral | 99.58% | Ninguna |
-| 3 | Enfermedad de Gránulos Densos | 99.58% | Ninguna |
-| 4 | Trombocitopenia Neonatal Transitoria | 99.57% | Ninguna |
-| 5 | Trombocitopenia | 99.51% | Ninguna |
-| 6 | Síndrome de Fanconi Asociado a Cadena Ligera Ig Monoclonal Adquirida | 99.13% | Ninguna |
-| 7 | Trastorno Primario de Liberación Plaquetaria | 99.00% | Ninguna |
-
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1211622001 | OXBRYTA 500 mg comprimidos recubiertos con película (Pfizer Europe MA EEIG) | Comprimido recubierto con película | No especificada en los datos disponibles |
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos disponibles.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-Las 7 indicaciones predichas se encuentran en Nivel de Evidencia L5 (solo predicción del modelo, sin ningún ensayo clínico ni publicación de respaldo), y faltan datos fundamentales sobre indicación original, mecanismo de acción y seguridad. El fármaco tampoco está comercializado en España. No hay base suficiente para avanzar más allá de la etapa exploratoria.
+**Justificación:**
+La predicción es solo del modelo (L5): no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible entre la inhibición de la polimerización de la HbS y la producción o función plaquetaria. Además, faltan los datos de seguridad de la ficha técnica, lo que impide pasar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Extracción completa de indicación original y MOA desde DrugBank (actualmente marcado como brecha de datos High, DG002)
-- Obtención de advertencias, contraindicaciones y DDI del prospecto/TFDA (brecha bloqueante, DG001)
-- Búsqueda dirigida de literatura preclínica o mecanística que vincule Voxelotor con trastornos plaquetarios, dado que la vía de descubrimiento actual (TxGNN) no aportó evidencia clínica ni bibliográfica
-- Reevaluación una vez cerradas estas brechas antes de considerar cualquier paso hacia S1
+- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante.
+- Consultar DrugBank para obtener el mecanismo de acción detallado.
+- Verificar el estado regulatorio actual de Oxbryta. El paquete lo marca como comercializado, pero conviene confirmarlo en AEMPS/EMA, porque según mi conocimiento el producto fue retirado del mercado en septiembre de 2024 por preocupaciones de seguridad. Esto es una recomendación de verificación, no un dato del paquete.
+- Realizar una revisión de literatura preclínica sobre megacariopoyesis y función plaquetaria antes de reconsiderar la hipótesis.
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

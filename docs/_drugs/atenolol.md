@@ -2,7 +2,7 @@
 layout: default
 title: Atenolol
 parent: Solo predicción del modelo (L5)
-nav_order: 27
+nav_order: 51
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,70 +29,86 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Atenolol: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
+# Atenolol: De Betabloqueante Cardioselectivo a Infarto de Miocardio Posterolateral
 
 ## Resumen en Una Frase
 
-Atenolol es un betabloqueante β1-selectivo (cardioselectivo) de uso establecido en enfermedad cardiovascular, principalmente hipertensión arterial y angina de pecho. El modelo TxGNN predice que podria ser efectivo para **Infarto de Miocardio Posterolateral**, pero actualmente **no existe ningun ensayo clinico ni publicacion** que respalde especificamente esta direccion — se trata de una prediccion puramente computacional.
-
-*Nota: el Evidence Pack no incluye datos estructurados de la indicacion original de atenolol (`original_indications` vacio); "Hipertension arterial" se infiere del contexto farmacologico de clase (betabloqueante) mencionado repetidamente en la literatura del propio pack.*
+Atenolol es un betabloqueante cardioselectivo (beta-1) comercializado en España. Los registros de la AEMPS incluidos en el paquete de evidencia no traen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio posterolateral**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se apoya solo en la predicción del modelo.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Hipertension arterial (dato no incluido explicitamente en el Evidence Pack; inferido de la clase farmacologica) |
-| Nueva Indicacion Predicha | Infarto de Miocardio Posterolateral |
-| Puntaje de Prediccion TxGNN | 99.87% |
+| Nueva Indicación Predicha | Infarto de miocardio posterolateral |
+| Puntaje de Predicción TxGNN | 99,87 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion (MOA) de atenolol en este Evidence Pack. Segun la informacion conocida a partir de la literatura recogida en el propio pack, atenolol es un **betabloqueante β1-selectivo (cardioselectivo)**, cuya eficacia en hipertension arterial y cardiopatia isquemica esta ampliamente comprobada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, atenolol pertenece a la clase de los betabloqueantes cardioselectivos. Su bloqueo beta-1 reduce la frecuencia cardíaca, la contractilidad y el consumo de oxígeno del miocardio.
 
-Los betabloqueantes constituyen la clase terapeutica estandar para reducir la mortalidad tras un infarto de miocardio, al disminuir el consumo de oxigeno miocardico y la carga isquemica. Bajo esta logica, mecanisticamente seria plausible que atenolol tuviera un rol en el manejo posterior a un infarto posterolateral, como lo tendria en cualquier subtipo anatomico de infarto.
+Ese efecto es biológicamente plausible después de un infarto de miocardio, porque disminuye la carga isquémica del músculo cardíaco. En este caso, el único respaldo disponible es el puntaje del modelo TxGNN (0,9987). No se recuperaron ensayos clínicos ni literatura.
 
-Sin embargo, esta prediccion especifica de TxGNN **no cuenta con ningun ensayo clinico ni publicacion que la respalde directamente** — es una extrapolacion del modelo basada en similitud de red, no en evidencia real observada para este subtipo anatomico concreto. Cabe destacar que el mismo Evidence Pack contiene otras indicaciones relacionadas con infarto de miocardio (posteroinferior, septal) y con cardiopatia pulmonar cronica que si cuentan con literatura de apoyo directo (nivel L3), lo que sugiere que el "cluster" de infarto de miocardio es, en conjunto, mas prometedor que esta prediccion aislada.
+Los betabloqueantes ya son una clase establecida en el manejo posterior al infarto. Por eso esta predicción podría ser un uso cercano a la indicación ya conocida y no un reposicionamiento genuino. Con los datos suministrados no se puede confirmar, porque falta el texto de la indicación autorizada en la AEMPS.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados para Infarto de Miocardio Posterolateral.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Infarto de Miocardio Posterolateral.
+Actualmente no hay literatura relacionada disponible.
+
+---
+
+## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones registradas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 58255 | Atenolol Ratiopharm 100 mg comprimidos recubiertos EFG | Comprimido | Teva Pharma S.L.U. |
+| 56967 | Tenormin 50 mg comprimidos | Comprimido | Atnahs Pharma Netherlands Bv. |
+| 62926 | Atenolol Aristo 50 mg EFG | Comprimido | Aristo Pharma Iberia S.L. |
+| 68229 | Atenolol Tarbis 50 mg comprimidos EFG | Comprimido | Tarbis Farma S.L. |
+| 62446 | Atenolol Alter 50 mg comprimidos EFG | Comprimido | Laboratorios Alter S.A. |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion de TxGNN para Infarto de Miocardio Posterolateral no cuenta con ningun ensayo clinico ni publicacion de respaldo (nivel de evidencia L5); solo existe la plausibilidad mecanistica generica de la clase betabloqueante. Ademas, faltan datos criticos de seguridad (MOA, advertencias TFDA/EMA, contraindicaciones) que impiden una evaluacion de seguridad inicial (bloqueo S1).
+**Justificación:**
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, no se puede descartar que sea un uso ya establecido para la clase y no un reposicionamiento genuino.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de accion (MOA) de atenolol desde DrugBank
-- Ficha tecnica/prospecto (advertencias, contraindicaciones, interacciones) desde la agencia reguladora correspondiente, dado que atenolol no esta comercializado actualmente en Espana
-- Busqueda dirigida de literatura y ensayos que evaluen especificamente el subtipo anatomico "posterolateral", no solo infarto de miocardio en general
-- Evaluar en paralelo las indicaciones relacionadas del mismo Evidence Pack con mayor evidencia (Infarto de Miocardio Posteroinferior y Septal, nivel L3 con RCT/estudio funcional; Cardiopatia Pulmonar Cronica, nivel L3 con ensayo Fase 4 y 15 publicaciones), ya que podrian representar candidatos de reposicionamiento mas solidos que la indicacion de mayor rango aqui evaluada
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones). Es un dato bloqueante para el cribado de seguridad.
+- Obtener el texto de la indicación autorizada, para saber si el uso posterior al infarto ya figura en la ficha técnica.
+- Consultar DrugBank para completar el mecanismo de acción.
+- Hacer una búsqueda dirigida de ensayos y literatura sobre atenolol en infarto de miocardio posterolateral.
+
+**Nota:** entre las otras indicaciones predichas, la de enfermedad cardíaca pulmonar crónica es la única con ensayo clínico y literatura recuperados. Aun así, solo aporta contexto indirecto y de seguridad (tolerabilidad en EPOC), no evidencia de eficacia.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

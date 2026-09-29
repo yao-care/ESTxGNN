@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Loprazolam
-parent: Evidencia alta (L1-L2)
-nav_order: 170
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 329
+evidence_level: L5
 indication_count: 1
 ---
 
 # Loprazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **1**
 
 </div>
 
-# Loprazolam: De No Comercializado en España a Insomnio (Trastorno de Inicio y Mantenimiento del Sueño)
+# Loprazolam: De Indicación No Registrada en AEMPS a Trastorno del Sueño (Inicio y Mantenimiento)
 
 ## Resumen en Una Frase
 
-Loprazolam es una benzodiazepina hipnótica que actualmente **no está comercializada en España**, sin indicación original registrada localmente.
-El modelo TxGNN predice que sería efectivo para **Trastorno de Inicio y Mantenimiento del Sueño (Insomnio)**,
-con **0 ensayos clínicos registrados** pero **20 publicaciones**, varias de ellas ensayos clínicos aleatorizados históricos, que respaldan esta dirección.
+Loprazolam es una benzodiazepina con propiedades hipnóticas, comercializada en España como comprimidos de 1 mg. El registro de AEMPS incluido en el paquete de evidencia no especifica su indicación original.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno del sueño con dificultad para iniciar y mantener el sueño** (insomnio), con **0 ensayos clínicos registrados** y **20 publicaciones**, entre ellas varios ensayos aleatorizados de los años 80, que respaldan esta dirección.
 
 ---
 
@@ -43,23 +42,23 @@ con **0 ensayos clínicos registrados** pero **20 publicaciones**, varias de ell
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible — sin licencias registradas en España (fármaco no comercializado) |
-| Nueva Indicación Predicha | Trastorno de Inicio y Mantenimiento del Sueño (Insomnio) |
+| Indicación Original | No disponible en el registro de AEMPS (texto de indicación vacío) |
+| Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño (insomnio) |
 | Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L2 (según el paquete de evidencia; se apoya en ECAs publicados, sin ensayos registrados) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Loprazolam es una benzodiazepina del tipo nitrobenzodiazepina (imidazobenzodiazepina) que actúa sobre el sitio de unión a benzodiazepinas del receptor GABA-A, potenciando la neurotransmisión inhibitoria mediada por GABA. Este mecanismo es el mismo que sustenta el efecto sedante/hipnótico característico de toda la clase de las benzodiazepinas.
+No se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la clase farmacológica, loprazolam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A. Potencia la neurotransmisión inhibitoria GABAérgica y produce efectos sedantes e hipnóticos. Este vínculo mecanístico proviene de la clase del fármaco y no del registro proporcionado.
 
-A diferencia de un reposicionamiento clásico hacia un mecanismo no relacionado, en este caso la indicación predicha por TxGNN (insomnio) coincide con el uso histórico ya documentado del fármaco: loprazolam ha estado en uso clínico en mercados como el Reino Unido y Francia para el tratamiento del insomnio agudo y crónico desde la década de 1980. Por tanto, la predicción del modelo no representa tanto una hipótesis novedosa de reposicionamiento, sino la confirmación farmacológica de una indicación ya establecida fuera de España, donde el producto actualmente no está comercializado.
+Ese mecanismo es coherente con el tratamiento de los trastornos de inicio y mantenimiento del sueño. La literatura describe a loprazolam como un hipnótico para el insomnio agudo o crónico. Su semivida de 7 a 8 horas en adultos sanos podría ofrecer ventajas frente a hipnóticos de acción más larga cuando se quiere evitar la sedación residual al día siguiente.
 
-Esto también explica por qué existe abundante literatura clínica —incluyendo múltiples ensayos controlados aleatorizados doble ciego— pero ningún ensayo clínico registrado activo: la evidencia proviene mayoritariamente de estudios de las décadas de 1980-1990 que establecieron la eficacia del fármaco frente a placebo y frente a otros hipnóticos comparadores (nitrazepam, temazepam, triazolam, flurazepam).
+La indicación predicha coincide en la práctica con el uso hipnótico ya descrito para el fármaco. Por tanto, más que un reposicionamiento clásico, la predicción confirma un uso terapéutico conocido, y el principal hueco es documentar formalmente la indicación autorizada en España.
 
 ---
 
@@ -73,22 +72,36 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6141896](https://pubmed.ncbi.nlm.nih.gov/6141896/) | 1983 | ECA | Current Medical Research and Opinion | Doble ciego en 40 pacientes con insomnio ansioso; loprazolam 1 mg superior a placebo |
-| [6147285](https://pubmed.ncbi.nlm.nih.gov/6147285/) | 1984 | ECA | J Int Med Res | Estudio multicéntrico (190 pacientes) comparando loprazolam vs nitrazepam; eficacia similar |
-| [6142463](https://pubmed.ncbi.nlm.nih.gov/6142463/) | 1983 | ECA | Pharmatherapeutica | Ensayo aleatorizado doble ciego en 40 ancianos; loprazolam y nitrazepam mejoraron el sueño significativamente |
-| [6141114](https://pubmed.ncbi.nlm.nih.gov/6141114/) | 1984 | ECA | J Int Med Res | Estudio multicéntrico (197 pacientes) en atención primaria comparando loprazolam, temazepam y placebo |
-| [2569239](https://pubmed.ncbi.nlm.nih.gov/2569239/) | 1989 | ECA | Thérapie | Cruzado doble ciego (67 pacientes) comparando triazolam 0.25 mg vs loprazolam 1 mg en insomnio común |
-| [8771595](https://pubmed.ncbi.nlm.nih.gov/8771595/) | 1996 | ECA | Prog Neuropsychopharmacol Biol Psychiatry | Cruzado doble ciego (67 pacientes) con evaluación de preferencia del paciente; ambos fármacos mejoraron la calidad del sueño |
-| [6132929](https://pubmed.ncbi.nlm.nih.gov/6132929/) | 1983 | ECA | Journal of Clinical Pharmacology | Dosis única doble ciego (60 pacientes); loprazolam 0.5-1 mg comparable a flurazepam 15 mg, superior a placebo |
-| [2874007](https://pubmed.ncbi.nlm.nih.gov/2874007/) | 1986 | Revisión | Drugs | Revisión farmacodinámica/farmacocinética; vida media 7-8h, ventaja sobre hipnóticos de acción más larga |
-| [15252823](https://pubmed.ncbi.nlm.nih.gov/15252823/) | 2004 | Revisión sistemática (meta-análisis) | Human Psychopharmacology | Compara fármacos Z frente a benzodiazepinas (incluye loprazolam) autorizadas en el Reino Unido para insomnio a corto plazo |
-| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Revisión | BMJ Clinical Evidence | Revisión sobre insomnio en el anciano; hasta 40% de prevalencia en adultos |
+| [6141896](https://pubmed.ncbi.nlm.nih.gov/6141896/) | 1983 | ECA | Curr Med Res Opin | 40 pacientes hospitalizados con insomnio por ansiedad; loprazolam 1 mg fue superior a placebo (7 noches de tratamiento) |
+| [6147285](https://pubmed.ncbi.nlm.nih.gov/6147285/) | 1984 | ECA | J Int Med Res | 190 sujetos con insomnio; loprazolam 1 mg frente a nitrazepam 5 mg y placebo durante 7 noches |
+| [6142463](https://pubmed.ncbi.nlm.nih.gov/6142463/) | 1983 | ECA | Pharmatherapeutica | 40 pacientes ancianos; loprazolam 1 mg y nitrazepam 5 mg mejoraron significativamente el patrón de sueño |
+| [6141114](https://pubmed.ncbi.nlm.nih.gov/6141114/) | 1984 | ECA (simple ciego) | J Int Med Res | 197 pacientes en atención primaria; loprazolam 1 mg comparado con temazepam 20 mg y placebo |
+| [6132929](https://pubmed.ncbi.nlm.nih.gov/6132929/) | 1983 | ECA (dosis única) | J Clin Pharmacol | 60 pacientes con insomnio; 0.5 y 1.0 mg de loprazolam con potencia similar a flurazepam 15 mg y superiores a placebo |
+| [2569239](https://pubmed.ncbi.nlm.nih.gov/2569239/) | 1989 | ECA (cruzado) | Therapie | 67 pacientes ambulatorios; comparación de loprazolam 1 mg con triazolam 0.25 mg en insomnio común |
+| [6340977](https://pubmed.ncbi.nlm.nih.gov/6340977/) | 1983 | Estudio clínico (cruzado) | Curr Med Res Opin | 16 pacientes; loprazolam 1 mg frente a nitrazepam 5 mg y placebo en medicina general |
+| [2874007](https://pubmed.ncbi.nlm.nih.gov/2874007/) | 1986 | Revisión | Drugs | Revisión de propiedades farmacodinámicas y farmacocinéticas; con dosis superiores a 1 mg puede aparecer sedación residual |
+| [15252823](https://pubmed.ncbi.nlm.nih.gov/15252823/) | 2004 | Revisión sistemática y metaanálisis | Hum Psychopharmacol | Compara la eficacia de fármacos Z con benzodiazepinas (incluido loprazolam) en el manejo del insomnio a corto plazo |
+| [1336776](https://pubmed.ncbi.nlm.nih.gov/1336776/) | 1992 | Revisión | J Clin Psychiatry | Compara triazolam con otros hipnóticos de acción corta, entre ellos loprazolam, en eficacia y seguridad |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 57017 | SOMNOVIT 1 mg COMPRIMIDOS (Teofarma S.R.L.) | Comprimido | No especificada en el registro |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. Los datos del registro no incluyen advertencias, contraindicaciones ni interacciones.
+
+La literatura aportada señala riesgos propios de los hipnóticos benzodiazepínicos:
+- **Sedación residual**: puede aparecer con dosis superiores a 1 mg (PMID 2874007).
+- **Efectos "resaca"**: somnolencia diurna y deterioro psicomotor y cognitivo al día siguiente, con riesgo de accidentes (PMID 15089115).
+- **Equilibrio y caídas**: los hipnóticos afectan el equilibrio corporal y se asocian a caídas y fracturas de cadera (PMID 20171127).
+- **Duración del tratamiento**: las guías recomiendan limitar su uso en insomnio transitorio o de corta duración (PMID 7525193).
 
 ---
 
@@ -97,13 +110,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El mecanismo (agonismo GABA-A) y la evidencia clínica histórica —múltiples ensayos aleatorizados doble ciego frente a placebo y comparadores— respaldan sólidamente la eficacia de loprazolam en insomnio. Sin embargo, faltan datos regulatorios locales (advertencias, contraindicaciones, interacciones) y el producto no está comercializado en España, lo que impide cerrar la evaluación de seguridad sin guardrails adicionales.
+Hay varios ensayos aleatorizados publicados que comparan loprazolam 1 mg con placebo y con otros hipnóticos, y el mecanismo de clase es coherente con la indicación predicha. Sin embargo, los estudios son antiguos, no hay ensayos registrados y falta la información de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto oficial con advertencias y contraindicaciones
-- Datos de interacciones farmacológicas (DDI) documentados
-- Confirmar la vía regulatoria para introducir el producto al mercado español, dado que actualmente no tiene autorizaciones registradas
-- Evaluar riesgo de dependencia/abuso y pautas de uso en población anciana, señalada en la literatura como grupo de mayor riesgo de efectos residuales (sedación diurna, caídas)
+- Descargar y analizar el prospecto de AEMPS para obtener advertencias y contraindicaciones, ya que sin esto no se puede completar el cribado de seguridad.
+- Confirmar la indicación autorizada de SOMNOVIT 1 mg en la ficha técnica de AEMPS.
+- Obtener el mecanismo de acción desde DrugBank.
+- Establecer medidas de protección para poblaciones vulnerables, especialmente ancianos (sedación residual, caídas) y limitar la duración del tratamiento.
+- Revisar la relevancia de las publicaciones pendientes de clasificación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

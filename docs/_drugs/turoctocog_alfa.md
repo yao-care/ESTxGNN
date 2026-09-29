@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 287
+nav_order: 549
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Turoctocog Alfa: De Indicación Original No Documentada a Trastorno Primario de Liberación Plaquetaria
+# Turoctocog alfa: De Indicación Original No Disponible a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Turoctocog alfa es un factor VIII de coagulación recombinante; la indicación original y el mecanismo de acción detallado no constan en los datos disponibles (brecha de datos de alta prioridad, DG002). El modelo TxGNN predice que podría ser efectivo para **Trastorno Primario de Liberación Plaquetaria**, pero esta dirección no cuenta actualmente con **ningún ensayo clínico ni publicación** que la respalde, y el propio razonamiento mecanístico adjunto señala que el vínculo es débil.
-
----
+Turoctocog alfa es un factor VIII (FVIII) recombinante con dominio B truncado, comercializado en España como NovoEight. Los datos de autorización de la AEMPS recibidos no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos disponibles |
-| Nueva Indicación Predicha | Trastorno Primario de Liberación Plaquetaria |
-| Puntaje de Predicción TxGNN | 99.99% (rank 373) |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria (primary release disorder of platelets) |
+| Puntaje de Predicción TxGNN | 99,99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 6 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos. Por su naturaleza, turoctocog alfa es un FVIII recombinante que reemplaza el cofactor ausente del factor IXa en el complejo tenasa intrínseco, dentro de la cascada de coagulación. Su uso establecido es el déficit congénito de FVIII.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de turoctocog alfa (brecha de datos DG002, prioridad Alta). Tampoco se dispone de información sobre su indicación original en este informe (`original_indications` vacío). Con la información conocida sobre esta clase de fármacos, turoctocog alfa es un factor de coagulación recombinante cuya función es sustituir la actividad enzimática deficiente en la vía de generación de trombina.
+Los trastornos de liberación plaquetaria son defectos de la secreción de los gránulos de las plaquetas. La reposición de FVIII no corrige ese defecto de fondo. El puntaje alto de TxGNN (99,99%) proviene de una predicción basada en el grafo de conocimiento, probablemente por la cercanía con otros trastornos hemorrágicos. No cuenta con ensayos ni literatura de respaldo.
 
-Sin embargo, el propio análisis mecanístico incluido en el paquete de evidencia es crítico con esta predicción: el trastorno primario de liberación plaquetaria es un defecto de los gránulos plaquetarios, no una deficiencia del factor VIII. Según el razonamiento aportado, la puntuación alta de TxGNN probablemente refleja una asociación de comorbilidad ("tendencia hemorrágica" compartida) más que una relación causal real. En otras palabras, el modelo agrupa ambas entidades porque comparten el fenotipo de sangrado, no porque exista una vía terapéutica común.
+En resumen, la relación mecanística entre la indicación original y la nueva es débil y especulativa. La predicción debe tratarse como una hipótesis de baja plausibilidad, no como una vía de desarrollo con soporte.
 
-Esta misma debilidad mecanística se repite en las demás predicciones del listado (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, entre otras): todas son trastornos plaquetarios o de superficie fosfolipídica, cuya fisiopatología no se corrige mediante la simple sustitución de factor VIII. Por tanto, la plausibilidad biológica de esta dirección de reposicionamiento es, en conjunto, baja.
-
----
-
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
-
----
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
 
-## Informacion de Mercado en España
+Titular: Novo Nordisk A/S. Todas las presentaciones son polvo y disolvente para solución inyectable. Los textos de indicación aprobada llegaron vacíos en los datos, por lo que no se incluyen. Se listan 5 de las 6 autorizaciones registradas, porque el paquete solo trae 5 entradas.
 
-Turoctocog alfa no está actualmente comercializado y no hay autorizaciones registradas (0 licencias).
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 113888001 | NovoEight 250 UI | Polvo y disolvente para solución inyectable |
+| 113888002 | NovoEight 500 UI | Polvo y disolvente para solución inyectable |
+| 113888003 | NovoEight 1000 UI | Polvo y disolvente para solución inyectable |
+| 113888005 | NovoEight 2000 UI | Polvo y disolvente para solución inyectable |
+| 113888006 | NovoEight 3000 UI | Polvo y disolvente para solución inyectable |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se recuperaron advertencias, contraindicaciones ni interacciones farmacológicas.
 
-*Nota: la ausencia de advertencias, contraindicaciones e interacciones en este informe se debe a que estos datos no fueron localizados durante la recopilación (brecha de datos DG001, prioridad Bloqueante — impide la evaluación de seguridad S1), no a que el fármaco carezca de ellos.*
+Como aviso derivado del análisis mecanístico: para la púrpura trombocitopénica trombótica y la trombocitosis hereditaria con defecto transverso de extremidades (predicciones de rango 9 y 10), un factor procoagulante podría aumentar el riesgo trombótico.
 
----
-
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Las diez indicaciones predichas se sitúan en Nivel de Evidencia L5 (solo predicción del modelo, sin estudios reales), sin ningún ensayo clínico ni publicación de respaldo. Además, el razonamiento mecanístico del propio paquete de evidencia cuestiona la plausibilidad biológica de la asociación principal (trastorno de liberación plaquetaria) y señala que varias otras predicciones (síndrome de von Willebrand pseudo, trombastenia de Glanzmann, PTT) tienen mecanismos opuestos o no relacionados con la sustitución de factor VIII. No existen datos de seguridad ni de mecanismo de acción que permitan avanzar a una etapa de evaluación posterior.
+La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, y el mecanismo no conecta la reposición de FVIII con un defecto de secreción plaquetaria. Las otras 9 predicciones del paquete también son L5. La mejor situada es "déficit adquirido de factores de coagulación" (Research Question), aunque también sin evidencia, y en el caso de inhibidores anti-FVIII la eficacia sería incierta.
 
 **Para avanzar se necesita:**
-- Datos de prospecto/ficha técnica de la TFDA (advertencias, contraindicaciones) — brecha bloqueante DG001
-- Datos del mecanismo de acción (MOA) desde DrugBank — brecha DG002
-- Confirmación de la indicación original aprobada del fármaco
-- Verificación de la correcta correspondencia ontológica de la entidad "flood factor deficiency" (rank 8), que aparenta ser un error de mapeo de enfermedad
-- Búsqueda dirigida de literatura preclínica o casos clínicos para las indicaciones de rank 1-5, dado que ninguna cuenta con evidencia real hasta la fecha
+- Obtener el prospecto de la AEMPS (indicación aprobada, advertencias y contraindicaciones), un vacío que bloquea el cribado de seguridad.
+- Obtener el mecanismo de acción desde DrugBank.
+- Realizar una búsqueda dirigida de literatura y ensayos sobre FVIII en trastornos plaquetarios.
+- Evaluar la compatibilidad de vías de administración, que sigue pendiente.
+- Verificar la definición de "flood factor deficiency" (rango 8) en el grafo de conocimiento de origen, ya que no es un término estándar.
+
+*Este informe es solo de referencia para la investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dasabuvir
-parent: Evidencia moderada (L3-L4)
-nav_order: 83
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 159
+evidence_level: L5
 indication_count: 5
 ---
 
 # Dasabuvir
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Dasabuvir: De Hepatitis C Crónica a Infección por el Virus de la Hepatitis B
+# Dasabuvir: De Hepatitis C Crónica a Infección por Virus de la Hepatitis B
 
 ## Resumen en Una Frase
 
-Dasabuvir es el inhibidor no nucleósido de la polimerasa NS5B que forma parte del régimen antiviral de acción directa contra el virus de la hepatitis C (VHC) genotipo 1 (junto con ombitasvir/paritaprevir/ritonavir). El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la hepatitis B (VHB)**, con **14 ensayos clínicos** y **18 publicaciones** identificados, aunque el análisis mecanístico indica que esta asociación es probablemente un enlace espurio del modelo, sin base farmacológica real.
+Dasabuvir es un inhibidor no nucleosídico de la polimerasa NS5B del virus de la hepatitis C (VHC), utilizado en el régimen de tres antivirales de acción directa para la hepatitis C crónica de genotipo 1.
+El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la hepatitis B**, pero de los **14 ensayos clínicos** y las **18 publicaciones** asociados, ninguno demuestra eficacia anti-VHB.
+Solo un ensayo incluye pacientes con VHB (coinfección VHC/VHB, 23 pacientes) y evalúa la seguridad, concretamente el riesgo de reactivación del VHB.
 
 ---
 
@@ -41,42 +43,42 @@ Dasabuvir es el inhibidor no nucleósido de la polimerasa NS5B que forma parte d
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hepatitis C viral crónica, genotipo 1 (como componente del régimen ombitasvir/paritaprevir/ritonavir + dasabuvir) |
+| Indicación Original | Hepatitis C crónica (genotipo 1). Esta indicación se deduce de los ensayos y del mecanismo, porque el texto de la autorización española no la recoge |
 | Nueva Indicación Predicha | Infección por el virus de la hepatitis B |
 | Puntaje de Predicción TxGNN | 99.37% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L5 (el Evidence Pack indica L4, pero no hay estudios preclínicos ni de mecanismo sobre VHB) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de acción (MOA) de dasabuvir en la fuente consultada (DrugBank). Según la información conocida a partir del contexto clínico disponible, dasabuvir es un inhibidor no nucleósido de la polimerasa NS5B (ARN polimerasa dependiente de ARN) del VHC, y actúa como componente del régimen "3D"/"PrOD" (paritaprevir/ritonavir + ombitasvir + dasabuvir), comercializado como Viekira Pak/Exviera para la hepatitis C crónica genotipo 1.
+Dasabuvir es un inhibidor no nucleosídico de la ARN polimerasa dependiente de ARN NS5B del VHC. Se une a un sitio alostérico del dominio *palm*, específico de los Flaviviridae. En la práctica se administra junto con ombitasvir, paritaprevir y ritonavir. En el Evidence Pack no figura el mecanismo de acción en DrugBank.
 
-Sin embargo, el análisis mecanístico de esta predicción específica es desfavorable: el VHC es un virus de ARN que depende de su propia RdRp para replicarse, mientras que el VHB es un virus de ADN cuya replicación depende de una transcriptasa inversa (RT) estructural y funcionalmente distinta. No existe, por tanto, una base molecular directa que justifique la inhibición del VHB por dasabuvir.
+**La predicción es débil desde el punto de vista mecanístico.** El VHB es un virus de ADN que se replica mediante una transcriptasa inversa. No comparte diana con la NS5B, por lo que no hay un mecanismo antiviral directo plausible. La puntuación alta de TxGNN (0.994) probablemente refleja la proximidad en la red de conocimiento a través de nodos comunes de "hepatitis viral" y de la coinfección VHC/VHB, y no una superposición real de dianas.
 
-La evidencia disponible en pacientes coinfectados VHC/VHB que reciben este régimen para tratar el VHC describe, de hecho, un riesgo de **reactivación** del VHB durante el tratamiento — es decir, una señal de seguridad, no de eficacia terapéutica contra el VHB. Esto sugiere que la predicción de TxGNN probablemente refleja una asociación semántica entre distintos tipos de "hepatitis viral" en el grafo de conocimiento, más que un mecanismo farmacológico real.
+La señal clínica de los datos se refiere a la curación del VHC en pacientes coinfectados y al riesgo de reactivación del VHB durante el tratamiento con antivirales de acción directa. No se refiere al tratamiento del VHB.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
+Ningún ensayo evalúa la eficacia de dasabuvir contra el VHB. Se muestran los 10 más relevantes.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Completado | 23 | Único ensayo con relación directa al VHB: evalúa incidencia y factores de reactivación del VHB durante tratamiento anti-VHC en pacientes coinfectados VHC/VHB (no es un ensayo de eficacia contra VHB) |
-| [NCT02460133](https://clinicaltrials.gov/study/NCT02460133) | Fase 4 | Activo, no reclutando | 44 | Tasas de reinfección por VHC en población carcelaria tras cura con tratamiento DAA libre de interferón; sin relación directa con VHB |
-| [NCT02851069](https://clinicaltrials.gov/study/NCT02851069) | N/A | Completado | 66 | Efectividad real-world de paritaprevir/r-ombitasvir ± dasabuvir en VHC crónico (Colombia); sin relación con VHB |
-| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | Fase 2 | Completado | 89 | Seguridad y actividad antiviral de ABT-493/ABT-530 en VHC genotipo 1; sin relación con VHB |
-| [NCT01939197 (TURQUOISE-I)](https://clinicaltrials.gov/study/NCT01939197) | Fase 2/3 | Completado | 318 | Seguridad del régimen ombitasvir/paritaprevir/ritonavir ± dasabuvir en coinfección VHC/VIH-1; título vinculado por embedding, no aborda VHB |
-| [NCT01464827](https://clinicaltrials.gov/study/NCT01464827) | Fase 2 | Completado | 580 | Actividad antiviral, seguridad y farmacocinética de ABT-450/r+ABT-267±ABT-333 en VHC genotipo 1; sin relación con VHB |
-| [NCT02493855](https://clinicaltrials.gov/study/NCT02493855) | Fase 2 | Completado | 46 | Cinética de declive viral del VHC con dasabuvir + ribavirina en dosis variables; sin relación con VHB |
-| [NCT02219477 (TURQUOISE-CPB)](https://clinicaltrials.gov/study/NCT02219477) | Fase 3 | Completado | 36 | Seguridad y eficacia del régimen en VHC genotipo 1/4 con cirrosis descompensada; sin relación con VHB |
-| [NCT01782495 (CORAL-I)](https://clinicaltrials.gov/study/NCT01782495) | Fase 2 | Completado | 129 | Seguridad y eficacia en receptores de trasplante hepático/renal con VHC; sin relación con VHB |
-| [NCT02194998 (C_ASCENT)](https://clinicaltrials.gov/study/NCT02194998) | Fase 2 | Terminado | 46 | Terapia libre de interferón en coinfección VIH/VHC; sin relación con VHB |
-
-*Nota: de los 14 ensayos identificados por la búsqueda, prácticamente todos son estudios de VHC; solo NCT02555943 aborda al VHB, y lo hace como señal de seguridad (reactivación), no como indicación terapéutica.*
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Completado | 23 | Antivirales de acción directa en coinfección crónica VHC/VHB. Es el único ensayo con pacientes VHB positivos. Estudia la reactivación del VHB durante el tratamiento anti-VHC. Aporta seguridad, no eficacia anti-VHB |
+| [NCT01939197](https://clinicaltrials.gov/study/NCT01939197) | Fase 2/3 | Completado | 318 | TURQUOISE-I: régimen con dasabuvir en coinfección VHC/VIH-1. Coincide solo por términos de "hepatitis"; no evalúa VHB |
+| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Fase 3 | Completado | 36 | TURQUOISE-CPB: régimen con dasabuvir más ribavirina en cirrosis descompensada por VHC. Sin población ni criterio de valoración de VHB |
+| [NCT01854697](https://clinicaltrials.gov/study/NCT01854697) | Fase 3 | Completado | 311 | MALACHITE-I: régimen de antivirales de acción directa frente a telaprevir más peginterferón y ribavirina en VHC genotipo 1 sin tratamiento previo |
+| [NCT01464827](https://clinicaltrials.gov/study/NCT01464827) | Fase 2 | Completado | 580 | Actividad antiviral, seguridad y farmacocinética de ABT-450/r con ABT-267 y/o ABT-333 (dasabuvir) en VHC genotipo 1. No es relevante para VHB |
+| [NCT01782495](https://clinicaltrials.gov/study/NCT01782495) | Fase 2 | Completado | 129 | CORAL-I: régimen con dasabuvir en receptores de trasplante hepático o renal con VHC |
+| [NCT02194998](https://clinicaltrials.gov/study/NCT02194998) | Fase 2 | Terminado | 46 | C_ASCENT: tratamiento sin interferón para VHC genotipo 1 en coinfectados por VIH-1 |
+| [NCT02460133](https://clinicaltrials.gov/study/NCT02460133) | Fase 4 | Activo, sin reclutamiento | 44 | Tasas de reinfección por VHC en población encarcelada tras la curación. No es relevante para VHB |
+| [NCT02851069](https://clinicaltrials.gov/study/NCT02851069) | N/A | Completado | 66 | Estudio observacional en Colombia sobre la efectividad en la práctica real del régimen con o sin dasabuvir en VHC |
+| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completado | 33 808 | Comparación de eventos adversos entre pacientes con VHC tratados con antivirales de acción directa y pacientes sin tratar |
 
 ---
 
@@ -84,30 +86,32 @@ La evidencia disponible en pacientes coinfectados VHC/VHB que reciben este régi
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29397016](https://pubmed.ncbi.nlm.nih.gov/29397016/) | 2018 | Cohorte | Journal of viral hepatitis | Riesgo de reactivación del VHB en pacientes coinfectados VHB+VHC con cirrosis compensada tratados con ombitasvir/paritaprevir/ritonavir + dasabuvir + ribavirina (cohorte nacional de 2070 pacientes) |
-| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Revisión | Liver International | Revisión general sobre la erradicación del VHC y la búsqueda de una cura para el VHB; no aporta evidencia directa de dasabuvir en VHB |
-| [36515288](https://pubmed.ncbi.nlm.nih.gov/36515288/) | 2022 | Cohorte/Epidemiología | Voprosy virusologii | Prevalencia y características moleculares de VHB/VHC/VHD en personas VIH+ (región de Novosibirsk); sin relación con eficacia de dasabuvir |
-| [28903508](https://pubmed.ncbi.nlm.nih.gov/28903508/) | 2017 | Cohorte | Clinical Infectious Diseases | Efecto de regímenes PrOD (con/sin dasabuvir) y LDV/SOF sobre la supervivencia en pacientes con VHC (estudio ERCHIVES); sin relación con VHB |
-| [28416221](https://pubmed.ncbi.nlm.nih.gov/28416221/) | 2017 | ECA fase 3b (VHC, no VHB) | Lancet Gastroenterology & Hepatology | Ensayo GARNET: eficacia de ombitasvir/paritaprevir/ritonavir + dasabuvir 8 semanas en VHC genotipo 1b sin cirrosis; no aborda VHB |
-| [28762541](https://pubmed.ncbi.nlm.nih.gov/28762541/) | 2018 | Pendiente de clasificación | Journal of Gastroenterology and Hepatology | Efectividad y seguridad real-world de PrOD en pacientes con VHC genotipo 1b en Taiwán; sin relación con VHB |
-| [30964552](https://pubmed.ncbi.nlm.nih.gov/30964552/) | 2019 | Pendiente de clasificación | Hepatology | Vías evolutivas de resistencia a inhibidores de proteasa del VHC; sin relación con VHB |
-| [26043288](https://pubmed.ncbi.nlm.nih.gov/26043288/) | 2015 | Pendiente de clasificación | Reviews in Medical Virology | Desarrollo acelerado de antivirales de acción directa para el VHC; sin relación con VHB |
-| [28992878](https://pubmed.ncbi.nlm.nih.gov/28992878/) | 2017 | Pendiente de clasificación | Hepatobiliary & Pancreatic Diseases International | Uso de peginterferón alfa-2a para VHC en la era de los DAA; sin relación con VHB |
-| [26139639](https://pubmed.ncbi.nlm.nih.gov/26139639/) | 2015 | Pendiente de clasificación | The Annals of Pharmacotherapy | Consideraciones de tratamiento del VHC genotipo 1 en poblaciones especiales; sin relación con VHB |
+| [29397016](https://pubmed.ncbi.nlm.nih.gov/29397016/) | 2018 | Cohorte | J Viral Hepat | Riesgo de reactivación del VHB en pacientes coinfectados VHB/VHC con cirrosis compensada tratados con ombitasvir, paritaprevir/r, dasabuvir y ribavirina. Datos de una cohorte nacional de 2070 pacientes. Es el estudio más cercano al tema, pero trata de seguridad y no de eficacia anti-VHB |
+| [28416221](https://pubmed.ncbi.nlm.nih.gov/28416221/) | 2017 | Ensayo fase 3b de un solo brazo | Lancet Gastroenterol Hepatol | GARNET: 8 semanas de tratamiento con el régimen que incluye dasabuvir, sin ribavirina, en VHC genotipo 1b sin cirrosis y sin tratamiento previo |
+| [28762541](https://pubmed.ncbi.nlm.nih.gov/28762541/) | 2018 | Estudio de práctica real | J Gastroenterol Hepatol | Efectividad y seguridad del régimen con o sin ribavirina en pacientes taiwaneses con VHC genotipo 1b |
+| [28903508](https://pubmed.ncbi.nlm.nih.gov/28903508/) | 2017 | Cohorte | Clin Infect Dis | Efecto sobre la supervivencia de los regímenes PrOD y ledipasvir/sofosbuvir frente a personas con VHC sin tratar (ERCHIVES) |
+| [25529080](https://pubmed.ncbi.nlm.nih.gov/25529080/) | 2015 | Revisión | Liver Int | Revisión sobre la erradicación del VHC y la curación del VHB. Es de contexto general y no evalúa dasabuvir |
+| [36515288](https://pubmed.ncbi.nlm.nih.gov/36515288/) | 2022 | Cohorte | Vopr Virusol | Prevalencia y características moleculares de los virus de las hepatitis B, C y D en personas con VIH en la región de Novosibirsk |
+| [41570233](https://pubmed.ncbi.nlm.nih.gov/41570233/) | 2025 | Estudio de prevalencia | Vopr Virusol | Prevalencia de marcadores de VIH, VHB y VHC en pacientes de odontología y caracterización molecular. No trata sobre dasabuvir |
+| [31580556](https://pubmed.ncbi.nlm.nih.gov/31580556/) | 2019 | Encuesta | Cent Eur J Public Health | Situación de la atención de las hepatitis virales en 16 países de Europa Central y del Este |
+| [26043288](https://pubmed.ncbi.nlm.nih.gov/26043288/) | 2015 | Revisión | Rev Med Virol | Desarrollo acelerado de antivirales frente al VHC. Diana común: NS3/4A, NS5A y NS5B |
+| [26139639](https://pubmed.ncbi.nlm.nih.gov/26139639/) | 2015 | Revisión | Ann Pharmacother | Consideraciones de tratamiento en poblaciones especiales con VHC genotipo 1 |
 
 ---
 
 ## Información de Mercado en España
 
-Dasabuvir **no está comercializado en España** (0 autorizaciones registradas ante AEMPS a la fecha de corte de datos).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 114983001 | EXVIERA 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (Abbvie Deutschland Gmbh & Co. Kg) | Comprimido recubierto con película | No consta en el registro consultado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-No hay datos estructurados de advertencias, contraindicaciones ni interacciones farmacológicas disponibles en las fuentes consultadas (TFDA/AEMPS, DDI). Consultar el prospecto para información de seguridad.
+- **Riesgo de reactivación del VHB**: la literatura y los ensayos analizan la reactivación del VHB en pacientes coinfectados VHB/VHC tratados con antivirales de acción directa (estudios [29397016](https://pubmed.ncbi.nlm.nih.gov/29397016/) y [NCT02555943](https://clinicaltrials.gov/study/NCT02555943)). Es un aspecto de seguridad, no un beneficio terapéutico.
 
-⚠ La ausencia de datos de advertencias/contraindicaciones del prospecto (TFDA) está señalada como brecha de datos de severidad **bloqueante** para la evaluación de seguridad inicial (S1).
+Consultar el prospecto para información de seguridad adicional (advertencias, contraindicaciones e interacciones).
 
 ---
 
@@ -116,13 +120,14 @@ No hay datos estructurados de advertencias, contraindicaciones ni interacciones 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para infección por VHB carece de fundamento mecanístico plausible (VHC es un virus de ARN dependiente de RdRp; VHB es un virus de ADN dependiente de transcriptasa inversa), y la evidencia clínica real disponible en pacientes coinfectados apunta a un riesgo de reactivación del VHB, no a un efecto terapéutico. De los 5 candidatos generados por el modelo (VHB, VHE, VHA, hepatitis viral animal, fiebre hemorrágica de Omsk), todos reciben recomendación "Hold", y los 4 restantes tienen nivel de evidencia L5 (predicción del modelo sin respaldo real) o se basan en literatura no relacionada con la enfermedad predicha.
+- La puntuación de TxGNN es muy alta, pero no hay mecanismo plausible: dasabuvir actúa sobre la polimerasa NS5B del VHC y el VHB es un virus de ADN con transcriptasa inversa.
+- Ningún ensayo ni publicación muestra actividad anti-VHB. La evidencia disponible trata de la curación del VHC en coinfectados y de la reactivación del VHB, lo que apunta a un problema de seguridad y no a una nueva indicación.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica de TFDA con advertencias y contraindicaciones (brecha bloqueante DG001)
-- Documentar formalmente el mecanismo de acción (MOA) vía API de DrugBank (brecha alta DG002)
-- Evidencia preclínica o in vitro específica de actividad de dasabuvir frente al VHB (no disponible actualmente)
-- Reevaluación tras confirmar si la predicción es un artefacto de embedding antes de invertir en estudios adicionales
+- Ensayos *in vitro* de actividad de dasabuvir frente al VHB. Sin una señal antiviral básica no está justificado avanzar.
+- Ficha técnica de la AEMPS (indicación, advertencias y contraindicaciones) para completar el perfil de seguridad.
+- Datos del mecanismo de acción en DrugBank.
+- Si se mantiene el interés clínico, plan de vigilancia de la reactivación del VHB en pacientes coinfectados que reciban este régimen.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

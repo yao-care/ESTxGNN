@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zolpidem
-parent: Evidencia alta (L1-L2)
-nav_order: 299
-evidence_level: L1
+parent: Solo predicción del modelo (L5)
+nav_order: 574
+evidence_level: L5
 indication_count: 3
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Zolpidem: De Insomnio a Trastorno del Sueño de Conciliación y Mantenimiento
+# Zolpidem: De Indicación Original No Registrada a Trastorno del Sueño (Inicio y Mantenimiento)
 
 ## Resumen en Una Frase
 
-Zolpidem es un hipnótico agonista del receptor GABA-A (clase "Z-drug"), utilizado internacionalmente para el tratamiento del insomnio. El modelo TxGNN predice que sería efectivo para **trastorno del sueño de conciliación y mantenimiento**, con **20 publicaciones** que respaldan esta dirección, aunque **no hay ensayos clínicos registrados en esta evidence pack** y, como se detalla más abajo, esta "nueva" indicación coincide en realidad con el uso ya establecido del fármaco.
+Zolpidem es un hipnótico sedante que actúa sobre los receptores GABA-A. Los datos de autorización de Espana no recogen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **trastorno del sueño (inicio y mantenimiento del sueño)**, es decir, insomnio.
+Hay **0 ensayos clínicos registrados** y **20 publicaciones** que respaldan esta dirección. Esta predicción confirma un uso ya establecido más que un reposicionamiento real.
 
 ---
 
@@ -41,29 +43,31 @@ Zolpidem es un hipnótico agonista del receptor GABA-A (clase "Z-drug"), utiliza
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Insomnio (uso hipnótico internacionalmente establecido; no confirmado por ficha técnica española, ver nota de mercado) |
-| Nueva Indicación Predicha | Trastorno del sueño de conciliación y mantenimiento |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño (insomnio) |
 | Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L2 (ver nota) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
+
+> **Nota sobre el nivel de evidencia:** el Evidence Pack asigna L1. Con los datos aportados solo se identifica un ECA de Fase 3 (lemborexant frente a zolpidem de liberación prolongada). Por eso, según las reglas de determinación, el nivel verificable es L2. Los metaanálisis en red apoyan la conclusión, pero no cambian el nivel.
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Zolpidem es un agonista selectivo del receptor GABA-A, específico de la subunidad α1 (clase imidazopiridina), con un mecanismo sedante-hipnótico bien caracterizado y ampliamente descrito en la literatura clínica.
+Actualmente no se dispone de datos detallados de mecanismo de acción en el campo correspondiente del Evidence Pack. Según la información complementaria del análisis y la literatura, zolpidem es un modulador alostérico positivo de los receptores GABA-A, con selectividad por la subunidad alfa-1. Esto produce efecto sedante-hipnótico, acorta la latencia del sueño y favorece su mantenimiento.
 
-Aquí conviene una aclaración importante: la indicación predicha por TxGNN ("trastorno del sueño de conciliación y mantenimiento") **no es un mecanismo nuevo**, sino la indicación clínica original y ya consolidada de zolpidem. El propio análisis de razonamiento del modelo lo confirma explícitamente: se trata de la indicación aprobada históricamente, no de una hipótesis farmacológica novedosa. Por tanto, la alta puntuación de predicción (99.87%) refleja que el modelo reconoce correctamente la relación fármaco-enfermedad conocida, más que un hallazgo de reposicionamiento genuino.
+El mecanismo coincide directamente con el fenotipo del insomnio: dificultad para iniciar o mantener el sueño. La revisión de Sukys-Claudino et al. (2010) describe a zolpidem y a otros fármacos "Z" como moduladores GABA-A con unión selectiva a la subunidad alfa-1. Otra revisión (Atkin et al., 2018) señala que los fármacos "Z" están aprobados por la FDA para trastornos del insomnio con una base de evidencia sólida, aunque con efectos adversos conocidos.
 
-Lo que sí representa una pregunta abierta y relevante es el **acceso a mercado**: zolpidem no está comercializado en España según los datos disponibles (0 autorizaciones registradas), por lo que el foco práctico de este candidato no es la investigación de una nueva indicación, sino una eventual evaluación regulatoria/comercial de introducción del producto ya validado en otros mercados.
+La propia evaluación del modelo advierte que el insomnio es un uso ya establecido de zolpidem. Por tanto, esta predicción es sobre todo una **confirmación de indicación conocida**, y no un reposicionamiento en sentido estricto.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados en esta evidence pack para la indicación predicha.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -71,28 +75,36 @@ Actualmente no hay ensayos clínicos relacionados registrados en esta evidence p
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | ECA (Fase 3) | JAMA Network Open | En adultos mayores con insomnio, lemborexant fue superior a placebo y a zolpidem tartrato de liberación prolongada. |
-| [22424586](https://pubmed.ncbi.nlm.nih.gov/22424586/) | 2012 | Revisión | Expert Opin Pharmacother | Revisión de zolpidem como agonista del receptor benzodiazepínico más prescrito para insomnio en EE. UU. |
-| [31859791](https://pubmed.ncbi.nlm.nih.gov/31859791/) | 2020 | ECA | Rev Bras Psiquiatr | Ensayo de 3 meses comparando zolpidem sublingual (5 mg) vs oral (10 mg): eficacia y seguridad comparables. |
-| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | ECA | JAMA Intern Med | Ensayo de reducción gradual enmascarada de agonistas BZ (incluye zolpidem) combinada con terapia cognitivo-conductual. |
-| [37477771](https://pubmed.ncbi.nlm.nih.gov/37477771/) | 2023 | Análisis post-hoc | CNS Drugs | Comparación del efecto de daridorexant y zolpidem sobre número, duración y distribución de despertares nocturnos. |
-| [36472134](https://pubmed.ncbi.nlm.nih.gov/36472134/) | 2023 | Estudio comparativo | J Clin Sleep Med | Comparación de eficacia entre lemborexant y zolpidem ER según subtipos de insomnio definidos por polisomnografía. |
-| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Meta-análisis/NMA | Lancet | Metaanálisis en red de intervenciones farmacológicas para insomnio agudo y crónico, incluyendo zolpidem. |
-| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Meta-análisis/NMA | J Manag Care Spec Pharm | Comparación de eficacia de lemborexant frente a otros tratamientos de insomnio, incluyendo zolpidem. |
-| [16696581](https://pubmed.ncbi.nlm.nih.gov/16696581/) | 2006 | Revisión | CNS Drugs | Revisión de zolpidem de liberación prolongada (formulación bicapa) para inicio y mantenimiento del sueño. |
-| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Revisión | Pharmacol Rev | Revisión de fármacos para insomnio más allá de las benzodiazepinas, incluyendo las "Z-drugs" (zolpidem, zopiclona, zaleplón). |
+| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | ECA (Fase 3) | JAMA Netw Open | Compara lemborexant con placebo y con zolpidem de liberación prolongada en adultos mayores con insomnio |
+| [31859791](https://pubmed.ncbi.nlm.nih.gov/31859791/) | 2020 | ECA (3 meses) | Rev Bras Psiquiatr | Evalúa seguridad y eficacia de zolpidem sublingual 5 mg frente a 10 mg oral, a demanda tras despertares nocturnos |
+| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | ECA (indirecto) | JAMA Intern Med | Retirada gradual enmascarada de agonistas del receptor de benzodiacepinas (incluye zolpidem) con terapia conductual |
+| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Metaanálisis en red | Lancet | Compara la eficacia de tratamientos farmacológicos del insomnio en adultos a corto y largo plazo |
+| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Metaanálisis en red | J Manag Care Spec Pharm | Compara eficacia y seguridad de lemborexant con otros tratamientos del insomnio, incluido zolpidem |
+| [36472134](https://pubmed.ncbi.nlm.nih.gov/36472134/) | 2023 | Análisis comparativo | J Clin Sleep Med | Compara lemborexant y zolpidem ER frente a placebo según subtipos de insomnio definidos por polisomnografía |
+| [22424586](https://pubmed.ncbi.nlm.nih.gov/22424586/) | 2012 | Revisión | Expert Opin Pharmacother | Revisión de zolpidem, agonista del receptor de benzodiacepinas y el hipnótico más prescrito en EE. UU. |
+| [16696581](https://pubmed.ncbi.nlm.nih.gov/16696581/) | 2006 | Revisión | CNS Drugs | Describe zolpidem de liberación prolongada para dificultades de inicio y mantenimiento del sueño |
+| [37549414](https://pubmed.ncbi.nlm.nih.gov/37549414/) | 2023 | Revisión | J Fam Pract | Actualización sobre el manejo del insomnio en atención primaria |
+| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Revisión | Pharmacol Rev | Analiza los fármacos para el insomnio más allá de las benzodiacepinas y los efectos adversos de los fármacos "Z" |
 
 ---
 
 ## Información de Mercado en España
 
-Zolpidem no está comercializado en España según los datos disponibles (0 autorizaciones registradas en esta evidence pack).
+Hay 20 autorizaciones en total; se muestran las 5 principales.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 64523 | ZOLPIDEM SANDOZ 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 63794 | ZOLPIDEM STADA 10 mg comprimidos recubiertos EFG | Comprimido recubierto con película |
+| 83190 | DAGAN 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable |
+| 64312 | ZOLPIDEM RATIOPHARM 10 mg comprimidos recubiertos EFG | Comprimido recubierto |
+| 64558 | ZOLPIDEM ZENTIVA 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
 
 ---
 
 ## Consideraciones de Seguridad
 
-No se dispone de ficha técnica española, dado que el producto no está comercializado en España; no se identificaron advertencias, contraindicaciones ni interacciones documentadas en esta evaluación. Se recomienda consultar la ficha técnica de referencia vigente en otros mercados (p. ej. FDA/EMA) o del país de origen antes de cualquier evaluación de seguridad formal.
+Consultar el prospecto para información de seguridad.
 
 ---
 
@@ -101,14 +113,18 @@ No se dispone de ficha técnica española, dado que el producto no está comerci
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia de literatura es sólida (L1, 20 publicaciones incluyendo ECAs y metaanálisis en red) para el uso de zolpidem en el insomnio, pero se trata de su indicación ya establecida y no de un mecanismo de reposicionamiento novedoso. El principal obstáculo no es la evidencia clínica, sino la ausencia de comercialización y de datos regulatorios en España.
+El mecanismo de zolpidem encaja directamente con el insomnio, y la literatura incluye un ECA de Fase 3 comparativo, ECA con formulaciones de zolpidem y metaanálisis en red. Como no hay ensayos registrados ni datos de seguridad del prospecto, se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
-- Ficha técnica / información de seguridad oficial del producto, dado que actualmente no está comercializado en España (brecha de datos bloqueante)
-- Datos de mecanismo de acción (MOA) desde DrugBank, actualmente no disponibles (brecha de datos de alta prioridad)
-- Evaluación de viabilidad regulatoria/comercial para introducción en el mercado español, en lugar de un programa de investigación de reposicionamiento
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), porque este vacío bloquea el cribado de seguridad.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Registrar el texto de la indicación autorizada en las licencias, hoy vacío, para confirmar la indicación original.
+- Incorporar como salvaguardas los riesgos señalados en el análisis: conductas complejas durante el sueño (advertencia destacada), deterioro al día siguiente, riesgo de dependencia y abstinencia, y precaución en personas mayores y con depresores del SNC.
+- Nota sobre otras predicciones: **tortícolis paroxística benigna de la infancia** y **agorafobia** (puntajes de 99.26% y 99.25%) quedan en **Hold**. No hay evidencia clínica ni bibliográfica y su justificación mecanística es débil.
 
-**Nota adicional:** el modelo también generó dos predicciones adicionales de menor confianza para zolpidem —espasmo torsional benigno del lactante y agorafobia— ambas sin ensayos clínicos ni literatura de respaldo (Nivel L5, decisión **Hold**), por lo que no se incluyen como candidatos activos en este informe.
+---
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

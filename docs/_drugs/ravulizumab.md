@@ -2,7 +2,7 @@
 layout: default
 title: Ravulizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 238
+nav_order: 459
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,41 +29,41 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ravulizumab: De Sindrome Hemolitico Uremico Atipico (aHUS) y Hemoglobinuria Paroxistica Nocturna (HPN) a Neutropenia Congenita Grave Autosomica Recesiva por Deficiencia de G6PC3
+# Ravulizumab: De Inhibidor del Complemento C5 a Neutropenia Congénita Grave Autosómica Recesiva por Deficiencia de G6PC3
 
 ## Resumen en Una Frase
 
-Ravulizumab es un anticuerpo monoclonal inhibidor del complemento C5, utilizado originalmente para el sindrome hemolitico uremico atipico (aHUS) y la hemoglobinuria paroxistica nocturna (HPN), tal como se menciona en el analisis mecanistico del propio Evidence Pack. El modelo TxGNN predice que podria ser efectivo para la **Neutropenia Congenita Grave Autosomica Recesiva por Deficiencia de G6PC3**, pero esta direccion actualmente **no cuenta con ningun ensayo clinico ni publicacion cientifica** que la respalde.
+Ravulizumab es un anticuerpo monoclonal de acción prolongada que bloquea el componente C5 del complemento y está comercializado en España como Ultomiris.
+El modelo TxGNN predice que podría ser efectivo para la **neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que por ahora es solo computacional.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Sindrome Hemolitico Uremico Atipico (aHUS) y Hemoglobinuria Paroxistica Nocturna (HPN) |
-| Nueva Indicacion Predicha | Neutropenia Congenita Grave Autosomica Recesiva por Deficiencia de G6PC3 |
-| Puntaje de Prediccion TxGNN | 99.96% |
-| Nivel de Evidencia | L5 (solo prediccion del modelo, sin estudios reales) |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Nueva Indicación Predicha | Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 |
+| Puntaje de Predicción TxGNN | 99,96% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de una ficha tecnica formal del mecanismo de accion de ravulizumab en este Evidence Pack (dato pendiente de DrugBank). No obstante, el propio analisis mecanistico generado para cada candidato senala de forma consistente que ravulizumab actua como **inhibidor del complemento C5**, bloqueando la formacion del complejo de ataque de membrana (C5b-9/MAC). Esta es la base farmacologica de sus indicaciones aprobadas, aHUS y HPN, ambas enfermedades mediadas por activacion descontrolada del complemento.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, ravulizumab es un anticuerpo monoclonal anti-C5 que bloquea la activación terminal del complemento.
 
-La neutropenia congenita grave autosomica recesiva por deficiencia de G6PC3, en cambio, es una enfermedad de origen metabolico: el defecto enzimatico genera estres del reticulo endoplasmico y apoptosis prematura de los neutrofilos, sin que exista una via de activacion del complemento involucrada en su fisiopatologia.
+La deficiencia de G6PC3 es un defecto metabólico: se acumula 1,5-anhidroglucitol-6-fosfato, lo que provoca apoptosis de los neutrófilos. No se conoce ningún papel del complemento terminal en esta vía, así que la relación mecanística **no está respaldada**. El puntaje alto de TxGNN proviene de asociaciones en el grafo de conocimiento, sin sustento clínico ni bibliográfico.
 
-Segun la propia justificacion mecanistica del modelo, esta prediccion **no se apoya en una relacion biologica directa**, sino en una proximidad indirecta dentro del grafo de conocimiento (posible agrupamiento semantico en torno a "enfermedades de neutrofilos"). Es decir, el alto puntaje de TxGNN refleja una asociacion estadistica del modelo, no una hipotesis mecanistica solida. Esto se refleja tambien en que los 10 candidatos predichos en este paquete comparten el mismo patron: puntajes muy altos, pero nivel de evidencia L5 y ausencia total de ensayos clinicos o literatura de respaldo.
+Las otras nueve predicciones del modelo (ciclos hematopoyéticos, hiperoxaluria primaria, neutropenia congénita grave, deficiencia de CXCR2, deficiencia de p14, pseudo-enfermedad de von Willebrand, neutropenia ligada al cromosoma X, trastorno de liberación plaquetaria y anemia megaloblástica) están en la misma situación. Todas son de nivel L5, sin ensayos ni literatura, y con vínculos mecanísticos débiles o hipotéticos.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,30 +73,37 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-Ravulizumab **no esta comercializado actualmente en Espana** segun los registros consultados (0 autorizaciones encontradas), por lo que no hay informacion de producto local disponible en este momento.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1191371003 | ULTOMIRIS 1100 mg/11 ml concentrado para solución para perfusión | Concentrado para solución para perfusión |
+| 1191371002 | ULTOMIRIS 300 mg/3 ml concentrado para solución para perfusión | Concentrado para solución para perfusión |
+
+Titular de ambas autorizaciones: Alexion Europe SAS. El texto de las indicaciones aprobadas no figura en los datos recibidos.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. La busqueda de advertencias, contraindicaciones e interacciones farmacologicas (DDI) no arrojo resultados en las fuentes consultadas para este informe.
+Consultar el prospecto para información de seguridad.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion se encuentra en nivel de evidencia L5 (solo modelo, sin ensayos ni literatura de respaldo) y en etapa de decision S0. Ademas, existe un vacio de datos de caracter bloqueante (advertencias/contraindicaciones del prospecto de la agencia reguladora) que impide completar siquiera la evaluacion inicial de seguridad (S1). Con la evidencia mecanistica descrita como indirecta y sin ningun estudio real disponible, no se justifica avanzar mas alla de la observacion.
+**Justificación:**
+La predicción es solo del modelo (L5): no hay ensayos, no hay literatura y el vínculo mecanístico entre el bloqueo de C5 y la deficiencia de G6PC3 no está establecido. Además, el fármaco puede aumentar el riesgo de infecciones, algo relevante en pacientes con neutropenia.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica oficial con advertencias y contraindicaciones (vacio de datos bloqueante)
-- Datos formales del mecanismo de accion desde DrugBank para confirmar y detallar la via de inhibicion de C5
-- Al menos un estudio preclinico o de mecanismo que conecte la inhibicion del complemento con la fisiopatologia de la neutropenia por deficiencia de G6PC3
-- Monitoreo continuo de nuevas publicaciones o registros de ensayos clinicos, dado que actualmente no existe ninguno para esta indicacion
+- Obtener del prospecto de la AEMPS las advertencias, contraindicaciones e indicaciones aprobadas, que hoy impiden el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Buscar evidencia preclínica que relacione el complemento (C5/C5a) con la apoptosis de neutrófilos en la deficiencia de G6PC3.
+- Reevaluar solo si aparece evidencia preclínica o clínica; sin ella, no avanzar.
+
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa Pegol
 parent: Solo predicción del modelo (L5)
-nav_order: 288
+nav_order: 550
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Turoctocog Alfa Pegol: De Hemofilia A a Trastorno Primario de Liberación de Plaquetas
+# Turoctocog alfa pegol: De Hemofilia A a Trastorno primario de liberación plaquetaria
 
 ## Resumen en Una Frase
 
-Turoctocog alfa pegol (DB14738) es una terapia de reemplazo del Factor VIII de coagulación recombinante, pegilado de acción prolongada, utilizada en el tratamiento de la Hemofilia A. El modelo TxGNN predice que podría ser relevante para el **Trastorno Primario de Liberación de Plaquetas**, pero actualmente **no existen ensayos clinicos ni publicaciones** que respalden esta direccion — la unica evidencia disponible es la puntuacion del modelo.
+Turoctocog alfa pegol es un factor VIII de coagulación recombinante con glicoPEGilación (comercializado como Esperoct), utilizado según el conocimiento general del producto para la hemofilia A. Los datos de autorización recibidos no incluyen el texto de indicación.
+El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción basada solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia A (reemplazo de Factor VIII) — inferido del contexto del expediente; sin confirmación regulatoria en España |
-| Nueva Indicación Predicha | Trastorno Primario de Liberación de Plaquetas |
-| Puntaje de Predicción TxGNN | 99.99% (rank #181) |
+| Indicación Original | Hemofilia A (según conocimiento general del producto; el texto de indicación de las autorizaciones está vacío) |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
+| Puntaje de Predicción TxGNN | 99.997% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de turoctocog alfa pegol (marcado como brecha de datos de severidad Alta). Según la información disponible en el expediente, el fármaco es una terapia de reemplazo exógeno del Factor VIII de coagulación, cuya eficacia en la Hemofilia A está bien establecida en la práctica clínica, y mecanísticamente actúa restaurando la vía de generación de trombina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, turoctocog alfa pegol es un factor VIII recombinante con glicoPEGilación, que repone el cofactor FVIII en el complejo tenasa intrínseco (hemostasia secundaria). Su eficacia se ha establecido en la hemofilia A. Mecanísticamente, en cambio, **no es evidente** que sea aplicable a la nueva indicación.
 
-Sin embargo, el propio análisis del expediente señala que esta relación es mecanísticamente débil: el Trastorno Primario de Liberación de Plaquetas (p. ej., enfermedad del pool de almacenamiento delta) es un defecto **intrínseco de la secreción de gránulos plaquetarios**, no una deficiencia de un factor de coagulación circulante. No existe una vía bioquímica compartida directa entre la suplementación de Factor VIII y la corrección de un defecto de liberación de gránulos plaquetarios.
+Los trastornos de liberación de gránulos plaquetarios son defectos de la hemostasia primaria. Reponer FVIII no corrige la secreción de gránulos, por lo que el vínculo mecanístico es débil. El puntaje TxGNN muy alto (0.99997) refleja la cercanía dentro del grafo de conocimiento (fenotipo hemorrágico compartido), no evidencia clínica ni biológica directa.
 
-En consecuencia, esta predicción parece derivarse de relaciones aprendidas en el grafo de conocimiento (co-ocurrencia con trastornos hemorrágicos/plaquetarios) más que de una lógica farmacológica directa. De las diez indicaciones predichas en este expediente, la que presenta mayor plausibilidad mecanística es "acquired coagulation factor deficiency" (rank 4), ya que podría solaparse con deficiencia adquirida de Factor VIII — aunque esto tampoco cuenta con evidencia clínica ni de literatura.
+El modelo también predijo otras nueve enfermedades hemorrágicas o plaquetarias, todas con evidencia L5. La más plausible biológicamente es el **déficit adquirido de factores de coagulación**, porque incluye la deficiencia adquirida de FVIII (p. ej., hemofilia A adquirida). Aun así, los inhibidores neutralizantes limitan el efecto de la reposición, y el término es heterogéneo y requiere definir subtipos. Las demás predicciones (enfermedad de von Willebrand tipo plaquetario, trombastenia de Glanzmann, síndrome de Scott, defectos del receptor de colágeno, trombocitopenias constitucionales, etc.) son defectos plaquetarios en los que la reposición de FVIII no tiene un objetivo claro.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,6 +63,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1191374001 | ESPEROCT 500 UI | Polvo y disolvente para solución inyectable | No especificada en los datos disponibles |
+| 1191374002 | ESPEROCT 1000 UI | Polvo y disolvente para solución inyectable | No especificada en los datos disponibles |
+| 1191374003 | ESPEROCT 1500 UI | Polvo y disolvente para solución inyectable | No especificada en los datos disponibles |
+| 1191374004 | ESPEROCT 2000 UI | Polvo y disolvente para solución inyectable | No especificada en los datos disponibles |
+| 1191374005 | ESPEROCT 3000 UI | Polvo y disolvente para solución inyectable | No especificada en los datos disponibles |
+
+Titular/fabricante de todas las autorizaciones: Novo Nordisk A/S.
 
 ## Consideraciones de Seguridad
 
@@ -72,14 +85,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-A pesar de la alta puntuación del modelo TxGNN, no existe ningún ensayo clínico ni publicación que respalde esta indicación, y el análisis mecanístico incluido en el propio expediente concluye que la relación biológica entre el reemplazo de Factor VIII y el Trastorno Primario de Liberación de Plaquetas es débil. Todas las demás indicaciones predichas en este expediente (10 en total) presentan el mismo perfil: nivel de evidencia L5 y recomendación Hold.
+La predicción se apoya solo en el modelo (nivel L5, sin ensayos ni literatura), y el mecanismo del FVIII no corrige los defectos de hemostasia primaria plaquetaria que definen esta enfermedad. No hay base actual para avanzar.
 
 **Para avanzar se necesita:**
-- Resolver la brecha bloqueante DG001: obtener el prospecto/ficha técnica oficial (advertencias, contraindicaciones) antes de cualquier evaluación de seguridad (S1)
-- Resolver la brecha DG002: obtener el mecanismo de acción confirmado vía API de DrugBank
-- Confirmar la indicación original y el estado regulatorio real en España (AEMPS), ya que el expediente actual no registra autorizaciones
-- Si se desea continuar la línea de investigación, priorizar "acquired coagulation factor deficiency" (rank 4) sobre el candidato actual, por mayor plausibilidad mecanística, y aclarar primero el alcance exacto de esa etiqueta de enfermedad
-- Revisar la calidad ontológica de las predicciones — al menos una entrada ("flood factor deficiency", rank 8) parece ser una etiqueta de enfermedad mal formada o mal traducida y requiere verificación antes de su uso
+- Obtener el prospecto de AEMPS (indicaciones, advertencias y contraindicaciones), que hoy bloquea cualquier cribado de seguridad
+- Completar los datos del mecanismo de acción desde DrugBank
+- Buscar de forma dirigida ensayos y literatura sobre uso de FVIII en trastornos plaquetarios
+- Priorizar para revisión la predicción de **déficit adquirido de factores de coagulación** (hemofilia A adquirida), definiendo primero el subtipo y el papel de los inhibidores
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

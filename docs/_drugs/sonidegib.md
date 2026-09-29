@@ -2,7 +2,7 @@
 layout: default
 title: Sonidegib
 parent: Solo predicción del modelo (L5)
-nav_order: 262
+nav_order: 497
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,66 +33,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Sonidegib es un inhibidor de la via Hedgehog (antagonista del receptor Smoothened, SMO) utilizado originalmente en el carcinoma basocelular localmente avanzado o metastasico. El modelo TxGNN predice que podria ser efectivo para el **Meduloblastoma con Nodularidad Extensa (MBEN)**, un subtipo tumoral pediatrico dependiente de la misma via SHH, pero actualmente **no existe ningun ensayo clinico ni publicacion** en este paquete de evidencia que respalde directamente esta direccion.
+Sonidegib es un inhibidor oral de Smoothened (SMO) de la vía Hedgehog, utilizado en el carcinoma basocelular localmente avanzado o metastásico.
+El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodularidad extensa**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación concreta; es solo una predicción del modelo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Carcinoma basocelular localmente avanzado/metastasico (dato obtenido de la literatura incluida en este paquete, no de licencias AEMPS — el farmaco no esta comercializado en España) |
-| Nueva Indicacion Predicha | Meduloblastoma con Nodularidad Extensa |
-| Puntaje de Prediccion TxGNN | 99.90% |
+| Indicación Original | Carcinoma basocelular localmente avanzado o metastásico (según la literatura; el registro de la autorización no incluye el texto de indicación) |
+| Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa |
+| Puntaje de Predicción TxGNN | 99,90% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en la ficha tecnica del farmaco. Segun la evidencia bibliografica incluida en este paquete (asociada a la indicacion "cancer de piel" dentro de las predicciones), sonidegib es un antagonista del receptor Smoothened (SMO) que inhibe la via de senalizacion Hedgehog (Hh), y ha sido aprobado a nivel mundial (Suiza, FDA, EMA) para el carcinoma basocelular localmente avanzado, una neoplasia cutanea impulsada por activacion aberrante de esta via.
+Sonidegib bloquea el receptor SMO, una pieza esencial de la vía de señalización Hedgehog. Esta vía está activada de forma anómala en el carcinoma basocelular, donde sonidegib ha demostrado eficacia. La evidencia procede del ensayo BOLT, un estudio de Fase 2 aleatorizado y doble ciego (NCT01327053, n=230).
 
-El meduloblastoma con nodularidad extensa (MBEN) es un subtipo histologico pediatrico de meduloblastoma caracterizado por activacion constitutiva de la via Sonic Hedgehog (SHH), el mismo eje molecular que sonidegib inhibe en el carcinoma basocelular. Esta coincidencia mecanistica explica la puntuacion muy alta de TxGNN (99.90%) para este par farmaco-enfermedad.
+El meduloblastoma con nodularidad extensa se asocia estrechamente con el subgrupo activado por SHH (Sonic Hedgehog). Existe, por tanto, una justificación biológica plausible: si el tumor depende de la misma vía, inhibir SMO podría ser útil.
 
-Sin embargo, la aplicabilidad clinica real es incierta: el uso de inhibidores de SMO en tumores cerebrales pediatricos plantea retos especificos (penetracion de la barrera hematoencefalica, toxicidad sobre placas de crecimiento oseo en poblacion pediatrica, resistencia adquirida por mutaciones en SMO) que no estan evaluados en este paquete de evidencia. Al no existir ningun ensayo clinico ni publicacion que evalue directamente sonidegib en MBEN, la hipotesis mecanistica no debe considerarse validada.
+Esta relación es solo un razonamiento mecanístico. Los datos proporcionados no contienen ensayos ni literatura para esta indicación. Además, un posible uso pediátrico exigiría una revisión aparte de la toxicidad en las placas de crecimiento y en el sistema musculoesquelético. El puntaje alto de TxGNN es únicamente una predicción.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Citotoxicidad
+## Información de Mercado en España
 
-*(Se incluye esta seccion porque la indicacion original — carcinoma basocelular — es una neoplasia maligna.)*
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1151030002 | ODOMZO 200 MG CÁPSULAS DURAS (Sun Pharmaceutical Industries (Europe) B.V.) | Cápsula dura | No especificada en el registro |
+
+## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (antagonista del receptor Smoothened / inhibidor de la via Hedgehog) |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de SMO / vía Hedgehog) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Toxicidad musculoesquelética y creatina quinasa (CK); consultar el prospecto para el resto de parámetros |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Puntos a tener en cuenta**: teratogenicidad, toxicidad musculoesquelética con elevación de CK y, en población pediátrica, posible toxicidad sobre las placas de crecimiento.
 
-## Conclusion y Proximos Pasos
+Para el resto de la información de seguridad, consultar el prospecto.
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-La prediccion para Meduloblastoma con Nodularidad Extensa se apoya unicamente en la puntuacion del modelo TxGNN y en un razonamiento mecanistico (ambos tumores dependen de la via Hedgehog/SMO), sin ningun ensayo clinico ni publicacion que la respalde directamente. Con nivel de evidencia L5, no es posible avanzar mas alla de la etapa de hipotesis.
+**Decisión: Hold**
+
+**Justificación:**
+La indicación se apoya solo en la predicción del modelo (L5) y en un razonamiento mecanístico plausible, sin ensayos ni publicaciones. Un posible uso pediátrico añade preocupaciones de seguridad que hay que resolver antes.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de accion (MOA) verificados desde DrugBank o ficha tecnica oficial
-- Busqueda dirigida de literatura y ensayos sobre inhibidores de SMO en meduloblastoma SHH-activado pediatrico (fuera del alcance de esta consulta)
-- Datos de seguridad del prospecto TFDA/AEMPS (advertencias, contraindicaciones, interacciones), actualmente todos en falta
-- Evaluacion especifica de farmacocinetica y seguridad en poblacion pediatrica
+- Estudios preclínicos o clínicos en meduloblastoma del subgrupo SHH.
+- Revisión específica de la seguridad pediátrica (crecimiento óseo y toxicidad musculoesquelética).
+- Descarga y análisis del prospecto de la AEMPS para completar el perfil de seguridad.
+- Datos detallados del mecanismo de acción desde DrugBank.
 
-**Nota adicional:** dentro de este mismo paquete de evidencia, la indicacion "cancer de piel" (carcinoma basocelular) presenta un nivel de evidencia mucho mayor (L2, 10 ensayos clinicos incluido el estudio pivotal BOLT, 20 publicaciones, recomendacion "Proceed with Guardrails"), ya que corresponde en la practica a la indicacion ya aprobada del farmaco a nivel mundial. Se recomienda revisar esa via como comparacion de referencia al priorizar candidatos de reposicionamiento para este farmaco.
+**Nota:** entre las demás indicaciones predichas, "cáncer de piel" (carcinoma basocelular) tiene la evidencia más sólida (L2, ensayo BOLT de Fase 2). Ese uso ya está autorizado, por lo que no es un reposicionamiento propiamente dicho. El único otro dato clínico es un caso aislado en xeroderma pigmentoso (L4).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

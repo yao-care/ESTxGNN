@@ -2,7 +2,7 @@
 layout: default
 title: Ceritinib
 parent: Solo predicción del modelo (L5)
-nav_order: 66
+nav_order: 115
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,79 +33,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Ceritinib es un inhibidor de tirosina quinasa de segunda generación (ALK/ROS1/IGF-1R), utilizado originalmente para el tratamiento del cáncer de pulmón no microcítico (NSCLC) con reordenamiento del gen ALK. El modelo TxGNN predice, con la puntuación más alta de todo el panel de candidatos evaluados (**99.86%**), que podría ser efectivo para **Fibromatosis Gingival**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección específica.
-
----
+Ceritinib es un inhibidor de la quinasa ALK (y ROS1) comercializado en España como Zykadia, y en la literatura recuperada se utiliza en el cáncer de pulmón no microcítico (CPNM) con reordenamiento ALK.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico (NSCLC) ALK-positivo *(no consta en `taiwan_regulatory.licenses`, que está vacío; inferido de la literatura incluida en el propio Evidence Pack, p. ej. ensayo ASCEND-4, PMID 28126333)* |
-| Nueva Indicación Predicha | Fibromatosis Gingival |
+| Indicación Original | CPNM ALK-positivo (deducido de la literatura y del razonamiento del paquete de evidencia; el texto de indicación de la autorización está vacío) |
+| Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.86% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en este Evidence Pack (dato marcado como brecha de alta severidad, DG002). Según la información conocida por la literatura incluida en el propio pack, ceritinib es un inhibidor de ALK/ROS1/IGF-1R de segunda generación, cuya eficacia en el NSCLC con reordenamiento de ALK ha sido comprobada en múltiples ensayos de Fase 3 (p. ej. ASCEND-4).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, ceritinib es un inhibidor de tirosina quinasa dirigido contra ALK y ROS1. Su eficacia en el CPNM con reordenamiento ALK está documentada, por ejemplo en el ensayo aleatorizado de fase 3 ASCEND-4, citado en la literatura recuperada para otras indicaciones predichas.
 
-Sin embargo, para esta indicación concreta —fibromatosis gingival, una hiperplasia fibrosa benigna de la encía— **no existe ningún vínculo mecanístico conocido con la vía de señalización ALK**. El propio análisis de racionalidad de reposicionamiento incluido en el Evidence Pack lo señala explícitamente: la fibromatosis gingival no presenta alteraciones conocidas de la vía ALK, y esta predicción carece de cualquier hipótesis mecanística de respaldo, tratándose únicamente de una puntuación alta generada por el modelo.
+No se encontró ningún vínculo mecanístico entre la inhibición de ALK/ROS1 y la fibromatosis gingival. No hay patología dependiente de ALK documentada en esta enfermedad, que es un sobrecrecimiento benigno del tejido gingival. La relación con la indicación original es "pendiente" de análisis.
 
-Es relevante notar que, de los 10 candidatos evaluados en este pack, solo uno (*lung benign neoplasm*, rango 5) alcanzó nivel de evidencia L4 con literatura asociada — aunque incluso en ese caso, el análisis de racionalidad sugiere que se trata probablemente de un error de mapeo de ontología de enfermedades (la literatura recuperada corresponde a NSCLC maligno ALK-positivo, no a neoplasias pulmonares benignas). Ningún candidato del panel alcanzó nivel L1-L3.
-
----
+El puntaje de 99.86% proviene solo de una predicción basada en grafos de conocimiento (posición 3179 en el ranking del modelo). Ningún ensayo ni publicación lo respalda. Por tanto, este puntaje alto **no** debe interpretarse como evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 115999001 | ZYKADIA 150 MG CAPSULAS DURAS (Novartis Europharm Limited) | Cápsula dura | No consta en el texto de la autorización |
 
 ## Citotoxicidad
 
-*(Sección aplicable: ceritinib es un antineoplásico dirigido, con indicación original oncológica en NSCLC ALK-positivo.)*
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/ROS1/IGF-1R) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto (sin datos de toxicidad hematológica en este pack) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/ROS1) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Ítems de Monitoreo | Función hepática (transaminasas), glucemia, lipasa/amilasa (riesgo de pancreatitis), intervalo QTc, síntomas respiratorios (riesgo de neumonitis/enfermedad pulmonar intersticial) — toxicidades de clase documentadas en la literatura del propio pack (p. ej. PMID 29413968 sobre prolongación de QT, PMID 31280988 sobre neumopatía intersticial e hipersensibilidad) |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos/antineoplásicos orales |
-
----
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. *(El Evidence Pack marca esta brecha como bloqueante — DG001 — pendiente de obtener el prospecto oficial y su análisis de advertencias, contraindicaciones e interacciones.)*
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-A pesar de tener la puntuación TxGNN más alta del panel (99.86%), la predicción para fibromatosis gingival carece por completo de respaldo clínico o bibliográfico, y el propio análisis mecanístico del pack confirma que no existe relación biológica plausible conocida entre la inhibición de ALK y esta patología. Es una predicción puramente computacional sin validación alguna.
+La predicción es solo del modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre ALK y la fibromatosis gingival. Además, ceritinib es un fármaco oncológico y la enfermedad es benigna, lo que exigiría una justificación sólida de la relación beneficio-riesgo antes de avanzar.
 
 **Para avanzar se necesita:**
-- Validación de una hipótesis mecanística real que vincule la vía ALK con la fibromatosis gingival (actualmente inexistente)
-- Estudios preclínicos (in vitro/in vivo) antes de cualquier consideración clínica
-- Datos de MOA completos de DrugBank (DG002)
-- Prospecto TFDA/AEMPS con advertencias y contraindicaciones (DG001, bloqueante)
-- Revisión de la calidad del mapeo de ontología de enfermedades en este candidato, dado que otros nodos del mismo panel (rangos 5 y 7) muestran indicios de errores de asociación similares
+- Datos de mecanismo de acción (MOA) desde DrugBank y una hipótesis biológica que conecte ALK/ROS1 con la fibromatosis gingival (por ejemplo, expresión o alteración de ALK en tejido gingival).
+- Estudios preclínicos que muestren alguna actividad en modelos de esta enfermedad.
+- Ficha técnica de la AEMPS (advertencias y contraindicaciones), pendiente de descarga y análisis, para poder realizar el cribado de seguridad.
+- Revisión manual de las demás indicaciones predichas. Solo "lung benign neoplasm" y "lung germ cell tumor" tienen literatura asociada, y es indirecta, centrada en el CPNM maligno y en otros tumores con ALK alterado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

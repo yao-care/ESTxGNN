@@ -2,7 +2,7 @@
 layout: default
 title: Tenoxicam
 parent: Evidencia alta (L1-L2)
-nav_order: 273
+nav_order: 518
 evidence_level: L2
 indication_count: 10
 ---
@@ -33,7 +33,9 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Tenoxicam es un antiinflamatorio no esteroideo (AINE) de la clase oxicam; los datos actuales no registran una indicación original formal ni mecanismo de acción detallado (brecha de datos), aunque farmacológicamente se emplea para dolor e inflamación musculoesquelética. El modelo TxGNN predice que podría ser efectivo para **Artritis Reumatoide**, con **1 ensayo clínico** y **20 publicaciones** que actualmente respaldan esta dirección.
+Tenoxicam es un AINE de la familia de los oxicams (relacionado con piroxicam), comercializado en España como Reutenox. Los datos regulatorios recibidos no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, con **1 ensayo clínico** (indirecto, sobre dolor postoperatorio) y **20 publicaciones** que respaldan esta dirección.
+Esta predicción se parece más a la confirmación de un uso ya establecido que a un reposicionamiento en sentido estricto.
 
 ---
 
@@ -41,23 +43,23 @@ Tenoxicam es un antiinflamatorio no esteroideo (AINE) de la clase oxicam; los da
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos disponibles; fármaco no comercializado en España |
-| Nueva Indicación Predicha | Artritis Reumatoide |
+| Indicación Original | No registrada en los datos de AEMPS recibidos |
+| Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 99.90% |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
-## Por qué es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, tenoxicam es un antiinflamatorio no esteroideo (AINE) de la clase oxicam, su eficacia en el tratamiento del dolor e inflamación musculoesquelética ha sido comprobada clínicamente, y mecanísticamente podría ser aplicable a la artritis reumatoide.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, tenoxicam es un AINE de la clase oxicam que inhibe COX-1 y COX-2. Con ello reduce la inflamación y el dolor mediados por prostaglandinas, y este efecto coincide con el objetivo del tratamiento sintomático de la artritis reumatoide (AR).
 
-Tenoxicam inhibe de forma no selectiva la COX-1/COX-2, reduciendo la síntesis de prostaglandinas y produciendo un efecto antiinflamatorio y analgésico. Este mecanismo es idéntico al de otros oxicams como piroxicam, y constituye la vía farmacológica estándar utilizada en el tratamiento de la artritis reumatoide.
+La literatura aporta apoyo adicional. Un estudio ex vivo (PMID 8187453) evaluó el efecto sobre la quimiotaxis de neutrófilos en pacientes con AR. Un estudio farmacocinético (PMID 3262939) midió las concentraciones en líquido sinovial y plasma. Ambos apuntan a que el fármaco llega a la articulación inflamada y actúa sobre procesos inflamatorios relevantes.
 
-De hecho, la literatura disponible muestra que tenoxicam ya ha sido comparado directamente con piroxicam y aceclofenaco en múltiples ensayos clínicos aleatorizados en pacientes con AR desde finales de los años 80, con eficacia equivalente. Esto respalda de forma sólida la razonabilidad de la predicción del modelo TxGNN, aunque en la práctica se trata más de una confirmación de un uso ya documentado que de una indicación completamente nueva.
+Los estudios de 1985 a 1996 muestran que la AR ya es un uso clínico establecido de tenoxicam en muchos mercados. La eficacia sintomática es al menos equivalente a la de piroxicam. Tenoxicam alivia los síntomas y no modifica el curso de la enfermedad como lo hacen los FAME.
 
 ---
 
@@ -65,7 +67,7 @@ De hecho, la literatura disponible muestra que tenoxicam ya ha sido comparado di
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | Fase NA | Completado | 80 | Comparación de tenoxicam, paracetamol y su combinación para el dolor postoperatorio tras cirugía bimaxilar; no es un ensayo específico de artritis reumatoide, pero aporta datos de eficacia analgésica/antiinflamatoria del fármaco. |
+| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | Fase NA | Completado | 80 | Compara tenoxicam, paracetamol y su combinación en dolor postoperatorio tras cirugía de doble mandíbula. No es un ensayo de AR y solo aporta apoyo indirecto (relevancia: C). |
 
 ---
 
@@ -73,22 +75,37 @@ De hecho, la literatura disponible muestra que tenoxicam ya ha sido comparado di
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | ECA | J Rheumatol | Tenoxicam 20mg/día vs piroxicam 20mg/día en 102 pacientes con AR; eficacia equivalente entre grupos, incidencia similar de eventos adversos. |
-| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | ECA | Clin Rheumatol | Ensayo multicéntrico doble ciego (292 pacientes) aceclofenaco vs tenoxicam en AR durante 3 meses; mejoría clínica sostenida en ambos grupos, 81,1% completó el estudio. |
-| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | ECA | J Int Med Res | Estudio multicéntrico en medicina general (2963 pacientes con artrosis o AR) con tenoxicam 20mg/día oral 12 semanas; reducción sostenida de síntomas hasta 52 semanas. |
-| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | ECA | Br J Clin Pract | Estudio multicéntrico doble ciego en paralelo (1328 pacientes) tenoxicam vs piroxicam en artrosis/AR; mejoría de dolor y rigidez, más marcada en AR, ligera ventaja de tenoxicam. |
-| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Revisión | Drugs | Revisión de propiedades farmacodinámicas/farmacocinéticas y eficacia terapéutica de tenoxicam en AR, artrosis, espondilitis anquilosante y gota; eficacia comparable a piroxicam. |
-| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Revisión | Drugs | Actualización de farmacología y eficacia de tenoxicam (oral, rectal, parenteral) en enfermedades reumáticas; tolerancia igual o mejor que piroxicam. |
-| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Revisión | Clin Pharmacokinet | Farmacocinética clínica de tenoxicam: absorción oral completa, unión a proteínas ~99%, sin recirculación enterohepática relevante. |
-| [3915889](https://pubmed.ncbi.nlm.nih.gov/3915889/) | 1985 | Cohorte | Eur J Rheumatol Inflamm | Estudio abierto multicéntrico (79 pacientes con artrosis o AR) con supositorios rectales de tenoxicam 20mg/día durante 6 semanas. |
-| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Cohorte | Eur J Rheumatol Inflamm | Serie de ensayos doble ciego evaluando tenoxicam vs piroxicam en artrosis, AR y espondilitis anquilosante; eficacia al menos equivalente. |
-| [1778090](https://pubmed.ncbi.nlm.nih.gov/1778090/) | 1991 | Cohorte | Curr Med Res Opin | Estudio abierto en 736 pacientes africanos con artrosis, AR, tendinitis o bursitis tratados con tenoxicam 20mg/día. |
+| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | ECA | Clin Rheumatol | Aceclofenaco vs tenoxicam en AR, doble ciego, 292 pacientes, 3 meses. Ambos grupos mejoraron los parámetros clínicos. |
+| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | Ensayo doble ciego | Br J Clin Pract | Tenoxicam vs piroxicam en 1.328 pacientes con artrosis o AR. Mejoría de dolor y rigidez con ambos, y una valoración global ligeramente favorable a tenoxicam. |
+| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | Estudio comparativo | J Rheumatol | Tenoxicam 20 mg vs piroxicam 20 mg en 102 pacientes con AR. Sin diferencias de eficacia ni de eventos adversos. Seis abandonos por intolerancia gastrointestinal. |
+| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Ensayos doble ciego | Eur J Rheumatol Inflamm | Serie de ensayos en artrosis, AR y espondilitis anquilosante. Tenoxicam 20 mg/día resultó al menos tan eficaz como piroxicam. |
+| [2512637](https://pubmed.ncbi.nlm.nih.gov/2512637/) | 1989 | Ensayo clínico a largo plazo | Scand J Rheumatol Suppl | Cuatro años en 20 pacientes con AR y tratamiento de base. Mejoría significativa de la analgesia y de la actividad antiinflamatoria. |
+| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | Estudio multicéntrico | J Int Med Res | 2.963 pacientes con artrosis o AR en atención primaria, con 20 mg/día durante 12 semanas o más. Evalúa eficacia y tolerabilidad. |
+| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Revisión | Drugs | Revisión preliminar: tenoxicam 20 mg/día es tan eficaz como piroxicam en AR, artrosis y espondilitis anquilosante, con administración única diaria. |
+| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Revisión | Drugs | Actualización: analgésico y antiinflamatorio eficaz en AR y otras enfermedades reumáticas, con tolerabilidad similar a piroxicam. |
+| [3915889](https://pubmed.ncbi.nlm.nih.gov/3915889/) | 1985 | Estudio abierto | Eur J Rheumatol Inflamm | Supositorios de tenoxicam 20 mg/día durante 6 semanas en 79 pacientes (39 con AR), sin grupo comparador. |
+| [8187453](https://pubmed.ncbi.nlm.nih.gov/8187453/) | 1994 | Mecanístico ex vivo | Clin Rheumatol | Efecto sobre la quimiotaxis de neutrófilos en 20 pacientes con AR frente a 10 controles sanos. |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 60557 | REUTENOX 20 mg granulado para suspensión oral | Granulado para suspensión oral |
+| 58665 | REUTENOX 20 mg comprimidos recubiertos | Comprimido recubierto |
+
+Ambas autorizaciones pertenecen a Laboratorios Rubio S.A. Los datos recibidos no incluyen el texto de la indicación aprobada.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se recibieron advertencias, contraindicaciones ni interacciones farmacológicas estructuradas.
+
+La literatura recuperada señala dos aspectos:
+- **Tolerabilidad gastrointestinal**: seis pacientes abandonaron por intolerancia gastrointestinal en el estudio frente a piroxicam (PMID 1593574), un efecto propio de la clase AINE.
+- **Alopecia**: hay un caso publicado de alopecia secundaria a tenoxicam (PMID 9303679, 1997), una posible reacción adversa.
 
 ---
 
@@ -97,13 +114,17 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe evidencia clínica histórica consistente (múltiples ECA desde los años 80-90) que respalda la eficacia de tenoxicam en artritis reumatoide, comparable a piroxicam y aceclofenaco, y la propia predicción de TxGNN alcanza un puntaje muy alto (99,90%, nivel de evidencia L2). Sin embargo, el fármaco no está actualmente comercializado en España (0 autorizaciones) y existen brechas de datos bloqueantes sobre el prospecto/advertencias de seguridad y el mecanismo de acción formal, por lo que no puede avanzar sin resolver antes estos puntos.
+Hay varios estudios comparativos y doble ciego en AR con cientos o miles de pacientes, más revisiones que respaldan la eficacia sintomática. Sin embargo, el nivel L2 no se apoya en ensayos de Fase 3 identificados y la evidencia es antigua (1985-1996). Faltan además los datos de indicación y seguridad de AEMPS.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto oficial de tenoxicam con advertencias y contraindicaciones (brecha bloqueante DG001)
-- Datos completos de mecanismo de acción desde DrugBank (DG002)
-- Evaluación de la vía regulatoria para su eventual comercialización en España, dado que actualmente no está disponible en el mercado
-- Perfil de interacciones farmacológicas (DDI), no localizado en la búsqueda actual
+- Descargar y analizar la ficha técnica de AEMPS (indicaciones, advertencias y contraindicaciones), que es el hueco de datos bloqueante.
+- Confirmar si la AR figura entre las indicaciones autorizadas de Reutenox en España.
+- Obtener el mecanismo de acción desde DrugBank.
+- Definir un plan de monitorización de seguridad gastrointestinal, renal y cardiovascular, propio de los AINE.
+- Valorar el papel de tenoxicam frente al tratamiento actual de la AR, ya que solo controla síntomas.
+- Seguimiento aparte: cefalea/migraña tiene un ensayo de Fase 4 en curso (NCT06786650, tenoxicam IV vs ibuprofeno IV, sin resultados). La alopecia debe tratarse como posible reacción adversa y no como candidata.
+
+*Los resultados de este informe son solo de referencia para la investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

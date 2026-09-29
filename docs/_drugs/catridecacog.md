@@ -2,7 +2,7 @@
 layout: default
 title: Catridecacog
 parent: Solo predicción del modelo (L5)
-nav_order: 62
+nav_order: 107
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,56 +29,63 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# CATRIDECACOG: De Deficiencia Congenita del Factor XIII a Trastorno Primario de Liberacion Plaquetaria
+# Catridecacog: De Indicación Original No Registrada a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Catridecacog es un Factor XIII A2 recombinante, cuyo uso conocido se asocia al tratamiento de reemplazo en la deficiencia congenita de la subunidad A del Factor XIII (segun la logica mecanicista disponible en los datos, ya que el campo estructurado de indicacion original no contiene informacion). El modelo TxGNN predice que podria ser efectivo para **Trastorno Primario de Liberacion Plaquetaria**, pero actualmente **no existe ningun ensayo clinico ni publicacion** que respalde esta direccion: la prediccion se sostiene unicamente en la cercania semantica dentro del grafo de conocimiento.
+Catridecacog es la subunidad A recombinante del factor de coagulación XIII, que estabiliza el coágulo al entrecruzar la fibrina. En la fuente consultada no consta su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en registros de Espana (farmaco no comercializado); segun el contexto mecanistico aportado, se asocia a la deficiencia congenita de la subunidad A del Factor XIII |
-| Nueva Indicacion Predicha | Trastorno Primario de Liberacion Plaquetaria |
-| Puntaje de Prediccion TxGNN | 99.29% |
+| Indicación Original | No disponible en los datos de autorización |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
+| Puntaje de Predicción TxGNN | 99.29% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el registro estructurado. Segun la informacion contextual disponible, catridecacog es una subunidad A2 del Factor XIII recombinante cuya funcion farmacologica se situa al final de la cascada de coagulacion: entrecruza monomeros solubles de fibrina para formar una red estable y tambien puede entrecruzar proteinas de membrana plaquetaria (como vinculina y actina) para reforzar la contraccion y estabilidad del trombo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en la fuente. Según la información conocida, catridecacog es factor XIII A recombinante, que entrecruza la fibrina y estabiliza el coágulo. Los trastornos de liberación plaquetaria son defectos de la secreción de gránulos plaquetarios en la hemostasia primaria.
 
-El Trastorno Primario de Liberacion Plaquetaria, en cambio, es una alteracion a nivel de la senalizacion de activacion plaquetaria (liberacion defectuosa del contenido de los granulos densos/alfa), es decir, un nivel patologico distinto al de la estabilizacion de fibrina/plaquetas que realiza el Factor XIII. La puntuacion elevada de TxGNN probablemente refleja la cercania semantica entre conceptos de "coagulacion/hemostasia" en el grafo de conocimiento, mas que una relacion causal directa. No existe respaldo farmacologico directo que indique que el Factor XIII pueda corregir el defecto de activacion/liberacion plaquetaria en si mismo.
+El vínculo posible sería indirecto: el fármaco reforzaría la estabilidad de la fibrina aguas abajo, pero no corregiría el defecto plaquetario de fondo. Como no hay indicación original ni mecanismo documentado en el registro, la predicción no puede contrastarse con una diana conocida.
 
-Cabe senalar que las otras dos indicaciones predichas por el modelo (enfermedad de von Willebrand tipo plaquetario y trombastenia de Glanzmann) presentan el mismo patron: puntuaciones TxGNN muy altas (>99%) pero vinculos mecanisticos igualmente indirectos, ya que ambas patologias se originan en defectos de receptores plaquetarios (GPIbα y GPIIb/IIIa respectivamente) y no en la etapa de estabilizacion de fibrina donde actua el Factor XIII.
+El modelo también predijo otras dos enfermedades hemorrágicas con puntajes similares: la enfermedad de von Willebrand pseudo-tipo (pseudo-von Willebrand, 99.29%) y la trombastenia de Glanzmann (99.15%). Tampoco cuentan con ensayos ni literatura, y su justificación mecanística es igualmente especulativa.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 12775001 | NOVOTHIRTEEN 2500 UI POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE (Novo Nordisk A/S) | Polvo y disolvente para solución inyectable |
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion se apoya exclusivamente en el modelo TxGNN (Nivel de Evidencia L5), sin ningun ensayo clinico ni publicacion que la respalde, y el propio analisis mecanistico indica que la relacion entre la farmacologia del Factor XIII y la fisiopatologia del trastorno de liberacion plaquetaria es indirecta. Ademas, el farmaco no esta comercializado en Espana y faltan datos regulatorios basicos.
+**Justificación:**
+La predicción no tiene ningún respaldo clínico ni bibliográfico (nivel L5). Además, el mecanismo del fármaco, factor XIII A, no actúa sobre el defecto plaquetario de la enfermedad predicha.
 
 **Para avanzar se necesita:**
-- Advertencias y contraindicaciones del prospecto de la TFDA (dato bloqueante actualmente ausente)
-- Datos detallados del mecanismo de accion (MOA) via DrugBank u otra fuente primaria
-- Confirmacion documental de la(s) indicacion(es) original(es) aprobada(s) del farmaco
-- Estudios preclinicos o de mecanismo que evaluen especificamente el efecto del Factor XIII sobre la activacion/liberacion plaquetaria antes de considerar avanzar a fases de evaluacion posteriores
+- Obtener la indicación aprobada y el mecanismo de acción del fármaco (por ejemplo, desde DrugBank y la ficha técnica de la AEMPS).
+- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS para poder hacer el cribado de seguridad.
+- Realizar una revisión bibliográfica dirigida sobre el factor XIII en trastornos de la función plaquetaria.
+- Solo si esa revisión da señales, evaluar estudios preclínicos o de mecanismo antes de plantear estudios clínicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

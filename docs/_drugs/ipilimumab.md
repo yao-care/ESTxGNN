@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ipilimumab
-parent: Evidencia alta (L1-L2)
-nav_order: 153
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 291
+evidence_level: L5
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,49 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 
 </div>
 
-# Ipilimumab: De Melanoma Cutáneo a Melanoma No Cutáneo
+# Ipilimumab: De Inmunoterapia Anti-CTLA-4 a Coroideremia
 
 ## Resumen en Una Frase
 
-Ipilimumab es un anticuerpo monoclonal anti-CTLA-4 cuyo uso establecido, según el contexto de la literatura recopilada, es el melanoma cutáneo avanzado. El modelo TxGNN predice que podría ser efectivo también para **Melanoma No Cutáneo** (subtipos mucoso y uveal), con **50 ensayos clínicos** y **5 publicaciones** que actualmente respaldan esta dirección.
-
----
+Ipilimumab es un anticuerpo que bloquea CTLA-4 y activa los linfocitos T. Es un fármaco de inmunoterapia oncológica y está comercializado en España como Yervoy.
+El modelo TxGNN predice que podría ser efectivo para **coroideremia**, con un puntaje muy alto, pero **sin ningún ensayo clínico ni publicación** que respalde esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en fichas de licencia (fármaco no comercializado en España); el contexto de la literatura señala melanoma cutáneo avanzado como uso establecido |
-| Nueva Indicación Predicha | Melanoma No Cutáneo (mucoso/uveal) |
-| Puntaje de Predicción TxGNN | 99.02% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nueva Indicación Predicha | Coroideremia |
+| Puntaje de Predicción TxGNN | 99.06% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+**No se identifica un vínculo mecanístico plausible.** Ipilimumab bloquea CTLA-4, un freno del sistema inmunitario, y así potencia la activación de los linfocitos T. Este mecanismo está bien validado en oncología.
 
-No se dispone de una ficha detallada de mecanismo de acción en este paquete de evidencia (dato pendiente de DrugBank). Sin embargo, la evidencia recopilada en ensayos y literatura confirma que ipilimumab es un anticuerpo monoclonal anti-CTLA-4: bloquea una señal inhibidora de los linfocitos T, liberando así una respuesta inmunitaria capaz de atacar el tumor (inhibidor de punto de control inmunitario).
+La coroideremia es una degeneración retiniana hereditaria ligada al cromosoma X. Se debe a la pérdida de función del gen *CHM* (proteína REP1). No la causa una tolerancia inmunitaria mediada por linfocitos T, así que potenciar la respuesta T no tiene un blanco biológico claro en esta enfermedad.
 
-Este mecanismo de acción no está restringido a un tejido de origen específico dentro del linaje melanocítico, por lo que es mecanísticamente plausible extender su uso del melanoma cutáneo a otros subtipos de melanoma (mucoso, uveal), que comparten el origen en melanocitos aunque difieran en localización anatómica y comportamiento biológico.
-
-Existe, no obstante, una salvedad importante documentada en la propia evidencia: el melanoma uveal es conocido por presentar tasas de respuesta significativamente más bajas a los inhibidores de puntos de control inmunitario que el melanoma cutáneo, probablemente por el entorno inmunoprivilegiado del ojo y una menor carga mutacional tumoral. Esto matiza la fuerza de la predicción para ese subtipo en particular.
-
----
+Además, el bloqueo sistémico de puntos de control inmunitarios puede provocar eventos adversos inmunomediados, incluida la uveítis. Eso podría dañar una retina que ya se está degenerando. El puntaje alto de TxGNN (0.99) probablemente es un artefacto del grafo de conocimiento, porque no lo respalda ningún ensayo ni publicación.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02506153](https://clinicaltrials.gov/study/NCT02506153) | Fase 3 | Activo, no reclutando | 1301 | Ensayo pivotal E1609: comparación de interferón en alta dosis o ipilimumab frente a pembrolizumab en melanoma resecado de alto riesgo (adyuvante) |
-| [NCT02115139](https://clinicaltrials.gov/study/NCT02115139) | Fase 2 | Completado | 58 | Ipilimumab combinado con radioterapia aporta beneficio clínico en melanoma con metástasis cerebrales |
-| [NCT03165422](https://clinicaltrials.gov/study/NCT03165422) | N/A | Completado | 68 | Estudio real-world en Japón: uso de ipilimumab tras nivolumab en melanoma, refleja práctica clínica habitual |
-| [NCT06240143](https://clinicaltrials.gov/study/NCT06240143) | Fase 1b/2 | Reclutando | 96 | Ipilimumab + nivolumab neoadyuvante intradérmico en melanoma estadio II de alto riesgo; sin resultados aún |
-| [NCT01689974](https://clinicaltrials.gov/study/NCT01689974) | Fase 2 | Terminado | 10 | ECA de ipilimumab ± radioterapia en melanoma metastásico; muestra pequeña, terminado prematuramente |
-| [NCT03369223](https://clinicaltrials.gov/study/NCT03369223) | Fase 1/2 | Completado | 356 | BMS-986249 solo o con nivolumab en tumores sólidos avanzados; no específico de melanoma |
-| [NCT04021420](https://clinicaltrials.gov/study/NCT04021420) | Fase 1/2 | Desconocido | 21 | Apertura de barrera hematoencefálica (dispositivo SonoCloud) con nivolumab ± ipilimumab en metástasis cerebrales de melanoma |
-| [NCT06880198](https://clinicaltrials.gov/study/NCT06880198) | N/A | Reclutando | 20 | Estudio de soporte nutricional junto a terapia anti-PD1 ± ipilimumab; no evalúa eficacia directa del fármaco |
-| [NCT02210104](https://clinicaltrials.gov/study/NCT02210104) | Fase 1 | Retirado | 0 | Terapia celular adoptiva con células T CD4+ anti-CTLA4; sin datos disponibles (retirado, inscripción 0) |
-| [NCT00324155](https://clinicaltrials.gov/study/NCT00324155) | Fase 3 | Completado | 681 | Ensayo histórico dacarbazina + ipilimumab vs. dacarbazina + placebo en melanoma avanzado; base de la aprobación original del fármaco |
-
-*Nota: la gran mayoría de los 50 ensayos identificados corresponden a melanoma en general (no específicamente subtipos no cutáneos); pocos abordan directamente melanoma mucoso o uveal.*
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [24999899](https://pubmed.ncbi.nlm.nih.gov/24999899/) | 2014 | Cohorte/Acceso ampliado | Med J Aust | Eficacia y tolerabilidad de ipilimumab en pacientes pretratados con melanoma cutáneo, uveal y mucoso; evalúa respuesta por subtipo |
-| [28183255](https://pubmed.ncbi.nlm.nih.gov/28183255/) | 2018 | Revisión | Curr Cancer Drug Targets | Revisión del tratamiento adyuvante del melanoma; señala que solo el 5% son melanomas no cutáneos |
-| [29466692](https://pubmed.ncbi.nlm.nih.gov/29466692/) | 2018 | Revisión | Discov Med | Actualización clínica de anticuerpos anti-PD-1 solos o combinados con ipilimumab en melanoma avanzado |
-| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Cohorte | Curr Oncol | Comparación de eficacia de anti-PD-1 ± ipilimumab entre pacientes jóvenes y mayores con melanoma avanzado |
-| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Reporte de caso | Cureus | Caso de metástasis de melanoma en colon transverso; describe riesgo de eventos adversos gastrointestinales graves con inmunoterapia |
+Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 11698001 | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión |
+| 11698002 | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión |
+| 11698001IP | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión |
+
+Titular de las tres autorizaciones: Bristol-Myers Squibb Pharma EEIG.
 
 ## Citotoxicidad
 
@@ -102,34 +83,31 @@ Existe, no obstante, una salvedad importante documentada en la propia evidencia:
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
----
-
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Eventos adversos inmunomediados**: el bloqueo sistémico de CTLA-4 conlleva riesgo de eventos adversos inmunomediados, incluida la uveítis. En una enfermedad retiniana degenerativa como la coroideremia, este riesgo es especialmente relevante.
 
-**Nota crítica:** este paquete de evidencia marca la obtención del prospecto/advertencias de TFDA como un vacío de datos de severidad **Bloqueante (DG001)** — impide actualmente completar la evaluación preliminar de seguridad (S1). No se dispone tampoco de datos de interacciones farmacológicas (DDI: no encontrado).
-
----
-
-## Nota: Otra Indicación Predicha de Baja Confianza
-
-El mismo modelo también asignó una puntuación alta (99.06%) a **Choroideremia**, una enfermedad retiniana hereditaria sin relación mecanística conocida con el bloqueo de CTLA-4. Sin ensayos ni literatura de respaldo (L5, etapa S0), la propia evidencia recomienda **Hold** para esta señal — se incluye aquí solo para transparencia, no requiere acción.
-
----
+Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El mecanismo de acción (bloqueo de CTLA-4) es plausible para extender el uso más allá del melanoma cutáneo, y existe un volumen considerable de ensayos (incluyendo un Fase 3 pivotal, n=1301) y literatura que aborda directamente subtipos mucoso y uveal. Sin embargo, la mayoría de los ensayos no son específicos del subtipo no cutáneo, y el melanoma uveal tiene una respuesta históricamente menor a esta clase de fármacos.
+La predicción para coroideremia es solo un resultado del modelo (L5). No hay ensayos ni literatura, y no existe un vínculo mecanístico plausible. Además, existe un riesgo de toxicidad ocular inmunomediada.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/advertencias de TFDA (DG001, bloqueante) antes de cualquier evaluación de seguridad
-- Completar los datos de mecanismo de acción vía DrugBank (DG002)
-- Priorizar ensayos y literatura específicos de melanoma mucoso/uveal (no solo melanoma general)
-- Confirmar compatibilidad de vías de administración (actualmente marcada como pendiente)
+- Una hipótesis mecanística que justifique el bloqueo de CTLA-4 en una enfermedad no dependiente de la tolerancia inmunitaria de linfocitos T
+- Datos preclínicos que respalden la hipótesis
+- Datos de mecanismo de acción y de seguridad del prospecto de la AEMPS
+
+**Nota sobre la segunda predicción:** TxGNN también propone **melanoma no cutáneo** (puntaje 99.02%). Esa predicción sí cuenta con respaldo, con nivel de evidencia L3 y recomendación *Proceed with Guardrails*.
+
+- **Ensayos clínicos:** el registro incluye decenas de ensayos en melanoma, entre ellos ensayos de Fase 3. La mayoría enrolan melanoma cutáneo, por lo que son evidencia indirecta.
+- **Literatura:** hay 5 publicaciones. La única con datos directos en subtipos no cutáneos es un estudio de cohorte retrospectivo en melanoma cutáneo, uveal y mucoso (PMID 24999899).
+- **Salvaguardas:** confirmar el subtipo de melanoma, exigir resultados estratificados por subtipo, vigilar los eventos adversos inmunomediados y preferir combinaciones con un inhibidor de PD-1 cuando los datos las respalden.
+
+Este resultado merece una evaluación separada.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

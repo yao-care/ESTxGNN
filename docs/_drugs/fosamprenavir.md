@@ -2,7 +2,7 @@
 layout: default
 title: Fosamprenavir
 parent: Solo predicción del modelo (L5)
-nav_order: 123
+nav_order: 244
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,59 +29,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Fosamprenavir: De Infección por VIH a Síndrome de Inmunodeficiencia Felina (FIV)
+# Fosamprenavir: De Infección por VIH-1 (inferida por clase terapéutica) a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Fosamprenavir es un profármaco de amprenavir, un inhibidor de la proteasa del VIH-1 utilizado en el tratamiento de la infección por VIH.
-El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Inmunodeficiencia Adquirida Felina (FIV)**,
-con un puntaje del **99.88%**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección,
-y la propia justificación mecanicista del modelo señala que probablemente se trata de una asociación espuria, ya que el FIV es una enfermedad veterinaria sin relevancia clínica en humanos.
+Fosamprenavir es un profármaco de amprenavir, un inhibidor de la proteasa del VIH-1. Está comercializado en España como Telzir, aunque el registro disponible no incluye el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina (FIV)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una hipótesis basada solo en la predicción del modelo.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH (inhibidor de proteasa VIH-1, según mecanismo referenciado en los datos) |
-| Nueva Indicación Predicha | Síndrome de Inmunodeficiencia Adquirida Felina (FIV) |
+| Indicación Original | No consta en el registro de autorizaciones. Por su clase farmacológica se infiere infección por VIH-1 |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (enfermedad veterinaria) |
 | Puntaje de Predicción TxGNN | 99.88% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-No se dispone de datos oficiales de mecanismo de acción (MOA) en la base de origen. Según la información contextual disponible en las justificaciones mecanísticas del propio modelo, fosamprenavir es un profármaco de amprenavir, perteneciente a la clase de inhibidores de la proteasa del VIH-1, cuya eficacia en el tratamiento de la infección por VIH está bien establecida.
+## ¿Por qué es Razonable esta Predicción?
 
-La hipótesis detrás de esta predicción es que el FIV, al ser también un retrovirus, podría compartir alguna vulnerabilidad estructural con el VIH a nivel de la proteasa viral. Sin embargo, el propio análisis del modelo señala una limitación importante: la proteasa del FIV difiere estructuralmente de la del VIH de forma significativa, y la literatura veterinaria conocida indica que los antirretrovirales humanos suelen tener eficacia limitada frente al FIV. Además, el FIV es una enfermedad que afecta a gatos, no a humanos, por lo que no constituye una indicación válida de reposicionamiento para uso clínico humano.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la clase conocida, fosamprenavir es un profármaco de amprenavir, un inhibidor de la proteasa del VIH-1. Este mecanismo es propio de su clase y no procede de los datos suministrados. Esta enzima es necesaria para que el virus madure y produzca partículas infecciosas.
 
-La segunda predicción del modelo (infección por VIS en primates, con el mismo puntaje) presenta la misma limitación: es un modelo de investigación animal, no una indicación humana. Las cinco predicciones restantes (un trastorno neurológico raro y cuatro patologías benignas de mama) no presentan, según el propio modelo, ningún vínculo mecanístico plausible con la clase farmacológica de fosamprenavir. En conjunto, esto sugiere que el grafo de conocimiento está generalizando de forma no específica la relación "antirretroviral-infección viral", sin una señal biológica real detrás.
+El virus de la inmunodeficiencia felina (FIV) es un lentivirus, como el VIH, y tiene su propia proteasa. Por eso existe una justificación mecanística a nivel de clase. Sin embargo, la proteasa del FIV tiene una especificidad de sustrato e inhibidores distinta de la del VIH-1, así que cabe esperar una actividad de amprenavir más débil. El vínculo es plausible pero no está verificado, y al tratarse de una enfermedad veterinaria, su relevancia para el reposicionamiento en humanos es limitada.
 
-## Evidencia de Ensayos Clinicos
+La segunda predicción del modelo, la infección por el virus de la inmunodeficiencia de simios (SIV), tiene exactamente el mismo puntaje. El SIV es un patógeno de modelos en primates no humanos y está muy emparentado con el VIH. Es probable que la predicción refleje la cercanía con el VIH en el grafo de conocimiento y no una indicación nueva. Las demás predicciones (un trastorno del neurodesarrollo y varias enfermedades mamarias benignas de tipo fibroquístico) no tienen un vínculo mecanístico identificable. Probablemente son artefactos del grafo, y las entradas mamarias parecen un mismo grupo redundante.
+
+---
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 04282002 | TELZIR 50 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No especificada en el registro |
+| 04282001 | TELZIR 700 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No especificada en el registro |
+
+Ambas autorizaciones pertenecen a Viiv Healthcare B.V.
+
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
 
-## Conclusion y Proximos Pasos
+---
+
+## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La única indicación con mayor puntaje (FIV) es una enfermedad veterinaria sin aplicabilidad clínica en humanos, y no existe ningún ensayo clínico ni literatura que respalde esta ni ninguna de las otras seis indicaciones predichas (todas en nivel de evidencia L5). El propio razonamiento mecanístico del modelo identifica varias de estas asociaciones como probable ruido del grafo de conocimiento.
+La predicción solo tiene respaldo del modelo (L5): no hay ensayos ni literatura, y la enfermedad es veterinaria, con relevancia limitada para humanos. La actividad de amprenavir sobre la proteasa del FIV es probablemente débil. Las predicciones restantes (SIV y enfermedades mamarias benignas) no aportan una indicación nueva ni tienen sustento mecanístico.
 
 **Para avanzar se necesita:**
-- Datos del prospecto/warnings de la TFDA (actualmente bloqueante para la evaluación de seguridad S1)
-- Datos verificados de mecanismo de acción (MOA) desde DrugBank
-- Reevaluación del candidato solo si TxGNN genera predicciones de indicaciones humanas con mayor plausibilidad mecanística
-- No se recomienda invertir recursos adicionales en las 7 indicaciones actuales dado el nivel de evidencia uniformemente bajo
+- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada), que es un vacío bloqueante para el cribado de seguridad
+- Consultar en DrugBank el mecanismo de acción detallado
+- Buscar estudios in vitro o preclínicos de amprenavir frente a la proteasa del FIV
+- Definir si el interés está en medicina veterinaria o en modelos animales, ya que esta línea no tiene aplicación humana directa
+- Evaluar la compatibilidad de vías de administración, hoy pendiente
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

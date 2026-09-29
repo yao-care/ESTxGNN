@@ -2,7 +2,7 @@
 layout: default
 title: Zanubrutinib
 parent: Evidencia moderada (L3-L4)
-nav_order: 298
+nav_order: 571
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,70 +29,76 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Zanubrutinib: De Leucemia Linfocitica Cronica/Linfoma Linfocitico Pequeno a Leucemia Mieloide
+# Zanubrutinib: De Neoplasias Malignas de Linfocitos B a Leucemia Mieloide
 
 ## Resumen en Una Frase
 
-Zanubrutinib es un inhibidor de BTK (Bruton tyrosine kinase) de nueva generacion, utilizado clinicamente en neoplasias malignas de celulas B como la leucemia linfocitica cronica/linfoma linfocitico pequeno (LLC/LLP) y la macroglobulinemia de Waldenstrom. El modelo TxGNN predice que podria ser efectivo para **Leucemia Mieloide**, pero la evidencia disponible (2 ensayos clinicos y 9 publicaciones) no respalda directamente esta nueva indicacion: ningun ensayo evalua zanubrutinib especificamente en leucemia mieloide, y toda la literatura recuperada trata sobre neoplasias de celulas B, no mieloides.
+Zanubrutinib es un inhibidor covalente de la tirosina quinasa de Bruton (BTK). Su literatura asociada se centra en neoplasias de linfocitos B (LLC/LLP y macroglobulinemia de Waldenström). Los textos de indicación de las autorizaciones españolas están vacíos, por lo que esta indicación original se deduce de la literatura y no de la ficha regulatoria.
+El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide** (puntaje 99,65 %), pero **ningún ensayo ni publicación recuperados evalúa zanubrutinib en esta enfermedad**: solo hay 2 ensayos de fase 1 con otros fármacos (relevancia baja) y literatura sobre neoplasias linfoides.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Leucemia linfocitica cronica/linfoma linfocitico pequeno (LLC/LLP) y otras neoplasias de celulas B, segun literatura clinica (no comercializado en España, sin ficha tecnica local disponible) |
-| Nueva Indicacion Predicha | Leucemia Mieloide |
-| Puntaje de Prediccion TxGNN | 99.65% |
+| Indicación Original | No disponible (los textos de indicación de las 4 autorizaciones AEMPS están vacíos) |
+| Nueva Indicación Predicha | Leucemia mieloide |
+| Puntaje de Predicción TxGNN | 99,65 % |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el Evidence Pack (dato pendiente de DrugBank). Segun la informacion conocida por la literatura recuperada, zanubrutinib es un inhibidor selectivo de BTK de nueva generacion que bloquea la senalizacion del receptor de celulas B (BCR); su eficacia esta bien establecida en neoplasias linfoides de celulas B (LLC/LLP, macroglobulinemia de Waldenstrom, linfoma de celulas del manto, linfoma de zona marginal).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, zanubrutinib es un inhibidor covalente de BTK de nueva generación, con mayor selectividad que ibrutinib o acalabrutinib, según la literatura recuperada. Su eficacia en neoplasias de linfocitos B (LLC/LLP, Waldenström) está respaldada por estudios de fase 3 y fase 2.
 
-La leucemia mieloide, en cambio, se origina en el linaje mieloide de la medula osea y no depende de la via BCR/BTK como motor patogenico principal. Por ello, la relacion mecanistica entre la indicacion original de zanubrutinib y la nueva indicacion predicha es debil: no existe una via biologica conocida que conecte la inhibicion de BTK con la leucemogenesis mieloide.
+Existe un racional biológico limitado: se ha descrito señalización de BTK en blastos de leucemia mieloide aguda y en células mieloides. Además, un ensayo evalúa CG-806, un inhibidor dual BTK/FLT3, en LMA. Ese ensayo no incluye zanubrutinib y solo aporta contexto de clase.
 
-Es probable que la alta puntuacion de TxGNN se deba a una confusion semantica del modelo por la proximidad del termino "leukemia" (compartido entre leucemias linfoides y mieloides en el grafo de conocimiento), mas que a una senal mecanistica real. Esto es consistente con que, pese a la puntuacion elevada, ningun ensayo clinico ni publicacion recuperada aborda realmente el uso de zanubrutinib en leucemia mieloide.
+La prudencia es necesaria: el puntaje alto de TxGNN es únicamente una predicción computacional. La evidencia clínica disponible es linfoide, no mieloide, y no hay datos que respalden zanubrutinib en leucemia mieloide.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-| Numero de Ensayo | Fase | Estado | Inscripcion | Hallazgos Principales |
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Fase 1 | Terminado | 45 | Estudio de CG-806 (luxeptinib), no de zanubrutinib, en LMA/SMD recidivante o refractaria. No aporta evidencia directa sobre zanubrutinib. |
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Fase 1 | Completado | 86 | Estudio de PRT2527 (inhibidor de CDK9) como monoterapia y en combinacion con zanubrutinib o venetoclax en neoplasias hematologicas recidivantes/refractarias; no se centra en leucemia mieloide ni evalua zanubrutinib en monoterapia para esta indicacion. |
-
-**Nota:** Ninguno de los dos ensayos constituye evidencia directa de eficacia de zanubrutinib en leucemia mieloide.
+| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Fase 1 | Terminado | 45 | CG-806 (luxeptinib, inhibidor BTK/FLT3 no covalente) en LMA o SMD de alto riesgo en recaída/refractarios. No incluye zanubrutinib; solo contexto de clase. Relevancia: C |
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Fase 1 | Completado | 86 | PRT2527 (inhibidor de CDK9) en monoterapia o con zanubrutinib o venetoclax en neoplasias hematológicas en recaída/refractarias. El vínculo con zanubrutinib es solo a nivel de enfermedad. Relevancia: C |
 
 ---
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | ECA | J Clin Oncol | Seguimiento a 5 anos del ensayo SEQUOIA (Fase 3): zanubrutinib vs. bendamustina-rituximab en LLC/LLP no tratada previamente. |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohorte | Blood Advances | Zanubrutinib bien tolerado y eficaz en pacientes con LLC/LLP intolerantes a ibrutinib/acalabrutinib. |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Cohorte | Blood Advances | Eficacia y seguridad de zanubrutinib en LLC/LLP con del(17p) y/o mutacion TP53, analisis conjunto de SEQUOIA y ALPINE. |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Cohorte | Lancet Haematology | Estudio Fase 2 de zanubrutinib en neoplasias de celulas B previamente tratadas, en pacientes intolerantes a otros inhibidores de BTK. |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Revision | Pharmaceutics | Revision sobre inhibidores de tirosina quinasa en leucemias cronicas (LMC y LLC). |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Revision | Leukemia | Manejo de la macroglobulinemia de Waldenstrom con inhibidores de BTK. |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Revision | Clin Lymphoma Myeloma Leuk | Reactivacion del virus de hepatitis B en pacientes tratados con inhibidores de BTK. |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Reporte de Caso | Front Immunol | Caso de coexistencia de macroglobulinemia de Waldenstrom y leucemia linfoblastica aguda de celulas B. |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Revision | Anticancer Agents Med Chem | Revision de metodos de sintesis de farmacos anticancerigenos aprobados por la FDA (2018-2021); no aborda eficacia clinica. |
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | ECA (fase 3) | J Clin Oncol | SEQUOIA: zanubrutinib frente a bendamustina + rituximab en LLC/LLP sin tratamiento previo, seguimiento mediano de 5 años |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Ensayo fase 2 | Lancet Haematol | Zanubrutinib en neoplasias de linfocitos B previamente tratadas con intolerancia a otros inhibidores de BTK |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohorte (fase 2) | Blood Adv | Buena tolerabilidad y eficacia en LLC/LLP intolerante a ibrutinib/acalabrutinib (resultados actualizados) |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Análisis agrupado | Blood Adv | Zanubrutinib en LLC/LLP con del(17p) y/o mutación TP53 (N = 301) a partir de SEQUOIA, ALPINE y otros estudios |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Revisión | Leukemia | Manejo de la macroglobulinemia de Waldenström con inhibidores de BTK |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Revisión | Pharmaceutics | Inhibidores de tirosina quinasa en leucemias crónicas (LMC y LLC) |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Revisión | Clin Lymphoma Myeloma Leuk | Reactivación del virus de la hepatitis B en pacientes tratados con inhibidores de BTK |
+| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Revisión | Anticancer Agents Med Chem | Metodología de síntesis de fármacos antineoplásicos aprobados por la FDA (2018-2021); sin evidencia clínica específica |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Reporte de caso | Front Immunol | Caso raro de macroglobulinemia de Waldenström coexistente con leucemia linfoblástica aguda B |
 
-**Nota:** Toda la literatura recuperada se refiere a neoplasias de celulas B (LLC/LLP, macroglobulinemia de Waldenstrom) o temas no relacionados con eficacia, no a leucemia mieloide.
+Ninguna de estas publicaciones evalúa zanubrutinib en leucemia mieloide. Todas se refieren a neoplasias linfoides o a temas generales.
 
 ---
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-Zanubrutinib no cuenta actualmente con autorizaciones registradas en España (0 licencias, estado "no comercializado"). No hay informacion de producto, forma farmaceutica ni indicacion aprobada localmente disponible en el Evidence Pack.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1211576001 | BRUKINSA 80 mg cápsulas duras | Cápsula dura |
+| 1211576001IP | BRUKINSA 80 mg cápsulas duras | Cápsula dura |
+| 1211576001IP1 | BRUKINSA 80 mg cápsulas duras | Cápsula dura |
+| 1211576002 | BRUKINSA 160 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+
+Titular: Beone Medicines Ireland Limited. El texto de indicación aprobada figura vacío en todas las autorizaciones.
 
 ---
 
@@ -100,32 +106,35 @@ Zanubrutinib no cuenta actualmente con autorizaciones registradas en España (0 
 
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (inhibidor de BTK - Bruton tyrosine kinase) |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de BTK) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad. El Evidence Pack no contiene advertencias, contraindicaciones ni interacciones registradas.
+
+Como dato de la literatura recuperada, una revisión (PMID 37150651) describe reactivación del virus de la hepatitis B en pacientes tratados con inhibidores de BTK, incluido zanubrutinib.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La puntuacion de TxGNN es alta, pero carece de respaldo real: ningun ensayo clinico ni publicacion aborda especificamente zanubrutinib en leucemia mieloide, y el mecanismo de accion conocido (inhibicion de BTK/via BCR) no tiene una relacion biologica establecida con la leucemogenesis mieloide. Es probable que la senal del modelo derive de una confusion semantica del termino "leukemia" mas que de una base mecanistica solida.
+**Justificación:**
+No existe ningún estudio que pruebe zanubrutinib en leucemia mieloide. Los 2 ensayos recuperados son de fase 1 con otros fármacos (relevancia C) y la literatura es linfoide, por lo que el nivel es L4 y el puntaje TxGNN de 99,65 % no está respaldado por datos clínicos. Las otras cuatro predicciones (rango 2 a 6: síndrome de anomalías vertebrales con disfunción endocrina y de linfocitos T, ganglioneuroblastoma, neoplasia retroperitoneal, sarcoma de Ewing y neuroblastoma) son L5 y también quedan en Hold. La única publicación vinculada a neuroblastoma es una revisión de síntesis química sin relación con la enfermedad.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de accion (MOA) de DrugBank para confirmar o descartar cualquier via de accion relevante en celulas mieloides
-- Advertencias, contraindicaciones y prospecto de la AEMPS (actualmente no disponibles)
-- Estudios preclinicos que evaluen especificamente la actividad de zanubrutinib en lineas celulares o modelos de leucemia mieloide
-- Ensayos clinicos dedicados a zanubrutinib (no en combinacion con otros farmacos) en poblaciones con leucemia mieloide, actualmente inexistentes
+- Prospecto de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad
+- Datos del mecanismo de acción desde DrugBank
+- Estudios preclínicos de zanubrutinib en modelos de leucemia mieloide y datos de dependencia de BTK en blastos mieloides
+- Texto de indicación aprobada de las autorizaciones españolas para confirmar la indicación original
+- Búsqueda dirigida de estudios con zanubrutinib en LMA (por ejemplo, combinaciones con venetoclax o inhibidores de FLT3)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Nebivolol
 parent: Solo predicción del modelo (L5)
-nav_order: 191
+nav_order: 372
 evidence_level: L5
 indication_count: 5
 ---
@@ -33,76 +33,77 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Nebivolol es un betabloqueante β1 altamente selectivo con efecto vasodilatador mediado por óxido nítrico, utilizado como antihipertensivo (la indicación original exacta no está confirmada en las fuentes disponibles para este informe — ver nota más abajo). El modelo TxGNN predice que podría ser efectivo para **Hipertensión Renovascular Maligna**, pero esta dirección **no cuenta actualmente con ningún ensayo clínico ni publicación** que la respalde directamente; la predicción se apoya únicamente en una extrapolación mecanística de clase farmacológica.
-
----
+Nebivolol es un bloqueador beta-1 selectivo comercializado en España; según conocimiento farmacológico general se utiliza en hipertensión arterial, ya que los textos de indicación de las autorizaciones suministradas están vacíos.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**, con un puntaje alto (99,4 %).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación, por lo que es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (inferida de la clase farmacológica descrita en el propio paquete de evidencia; no confirmada por ficha técnica — dato bloqueante pendiente, ver DG001/DG002) |
-| Nueva Indicación Predicha | Hipertensión Renovascular Maligna |
-| Puntaje de Predicción TxGNN | 99.42% |
-| Nivel de Evidencia | L5 (solo predicción del modelo, sin ensayos ni literatura de respaldo) |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | No consta en los datos de AEMPS suministrados (uso general conocido: hipertensión arterial) |
+| Nueva Indicación Predicha | Hipertensión renovascular maligna |
+| Puntaje de Predicción TxGNN | 99,42 % |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+No se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según el conocimiento farmacológico general (no procede de los datos suministrados), nebivolol es un bloqueador beta-1 selectivo con vasodilatación dependiente del endotelio mediada por óxido nítrico. Esto ofrece un vínculo plausible con la reducción de la presión arterial.
 
-Actualmente no se dispone de datos oficiales sobre el mecanismo de acción de nebivolol (dato pendiente de alta prioridad, DG002). Según la información recogida en el propio paquete de evidencia, nebivolol es un betabloqueante β1 altamente selectivo de tercera generación que además posee un componente vasodilatador mediado por óxido nítrico (NO); este perfil farmacológico ya está validado como antihipertensivo convencional.
+La hipertensión renovascular maligna se debe sobre todo a la activación del sistema renina-angiotensina y a la estenosis de la arteria renal. En ese contexto, el bloqueo beta sería, como mucho, un tratamiento complementario. Además, el modelo no aporta ensayos ni literatura que respalden el vínculo, por lo que la predicción debe leerse con cautela.
 
-La hipertensión renovascular maligna y la enfermedad renal hipertensiva maligna son subtipos graves de hipertensión, caracterizados por hiperactivación del eje renina-angiotensina-aldosterona (RAAS) y desequilibrio de la presión de perfusión renal. Farmacológicamente es plausible que la inhibición de la secreción de renina y el descenso de la presión arterial sistémica que produce nebivolol aporten un beneficio indirecto en estos cuadros.
+Se predijeron otras cuatro indicaciones, todas de nivel L5 y con puntajes entre 99,1 % y 99,4 %:
+- Enfermedad renal hipertensiva maligna.
+- Hipertensión pulmonar de mecanismo multifactorial poco claro.
+- Hipertensión pulmonar por enfermedad pulmonar o hipoxia.
+- Síndrome de Braddock.
 
-Sin embargo, el propio razonamiento del modelo señala que se trata de una extrapolación a nivel de clase terapéutica, no de evidencia dirigida a este subtipo grave en concreto. No existe ningún ensayo clínico ni publicación que estudie específicamente nebivolol en esta indicación, por lo que la predicción debe tratarse como una hipótesis de investigación temprana, no como una señal clínica consolidada.
-
----
+Las dos primeras tienen exactamente el mismo puntaje, lo que sugiere que provienen del mismo entorno del grafo y no son evidencia independiente. En hipertensión pulmonar, la clase de los bloqueadores beta tiene antecedentes que exigen cautela.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Hipertensión Renovascular Maligna.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Hipertensión Renovascular Maligna.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
-**Nota de contexto:** TxGNN generó en total 5 indicaciones candidatas para nebivolol en este ciclo. Ninguna de las otras cuatro (enfermedad renal hipertensiva maligna, hipertensión pulmonar de mecanismo multifactorial incierto, hipertensión pulmonar por enfermedad pulmonar/hipoxia, síndrome de Braddock) cuenta con ensayos clínicos. Una de ellas —hipertensión pulmonar por enfermedad pulmonar/hipoxia— sí arrojó 20 artículos en PubMed, pero al revisarlos se trata de literatura genérica sobre biología de la hipoxia, HIF-1α y envejecimiento cerebral, sin ninguna referencia específica a nebivolol; se interpreta como ruido de coocurrencia en el grafo de conocimiento, no como evidencia farmacológica real.
-
----
+*Nota:* las 20 publicaciones recuperadas para la hipertensión pulmonar por hipoxia (otra indicación predicha) tratan de biología general de la hipoxia. Ninguna menciona nebivolol, por lo que no constituyen evidencia específica del fármaco.
 
 ## Información de Mercado en España
 
-El fármaco no está comercializado en España; no hay autorizaciones registradas en este Evidence Pack (0 de 0).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 73926 | Nebivolol Cinfa 5 mg comprimidos EFG | Comprimido | Laboratorios Cinfa S.A. |
+| 71271 | Nebivolol Pensa 5 mg comprimidos EFG | Comprimido | Towa Pharmaceutical S.A. |
+| 2346204042012IP | Lobivon 5 mg comprimidos | Comprimido | Menarini International Operations Luxembourg S.A. |
+| 83604 | Insucor 10 mg comprimidos | Comprimido | Glenmark Arzneimittel GmbH |
+| 70928 | Nebivolol Normon 5 mg comprimidos EFG | Comprimido | Laboratorios Normon S.A. |
 
----
+Se muestran 5 de las 20 autorizaciones. Los textos de indicación aprobada no estaban disponibles en los datos suministrados.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-*(No se dispone actualmente de advertencias, contraindicaciones ni datos de interacción farmacológica verificados; la obtención del prospecto oficial de TFDA está marcada como dato bloqueante para la evaluación de seguridad — ver DG001.)*
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- La predicción se sustenta únicamente en una extrapolación mecanística de clase (betabloqueo/antihipertensivo), sin ningún ensayo clínico ni publicación específica sobre nebivolol en hipertensión renovascular maligna (nivel de evidencia L5).
-- El dato de advertencias/contraindicaciones (DG001) está marcado como bloqueante y actualmente impide una evaluación de seguridad S1.
-- El mecanismo de acción oficial (DG002) tampoco está confirmado, lo que limita el análisis de plausibilidad mecanística.
+La predicción se basa solo en el modelo (nivel L5, sin ensayos ni literatura) y el vínculo mecanístico es débil. La hipertensión renovascular maligna se trata con estrategias establecidas, y el bloqueo beta sería como mucho complementario.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto/ficha técnica oficial (advertencias, contraindicaciones, interacciones) para desbloquear la evaluación de seguridad S1.
-- Confirmar el mecanismo de acción vía consulta directa a DrugBank API.
-- Buscar estudios preclínicos o de mecanismo específicos de nebivolol en hipertensión renovascular maligna / enfermedad renal hipertensiva maligna, dado que actualmente no existe ninguno.
-- Reevaluar la señal si aparecen nuevos ensayos o publicaciones específicas; de lo contrario, mantener como pregunta de investigación de baja prioridad.
+- Obtener advertencias y contraindicaciones de la ficha técnica de AEMPS, ya que la falta de estos datos impide el cribado de seguridad.
+- Obtener el mecanismo de acción desde DrugBank.
+- Realizar una búsqueda bibliográfica específica de nebivolol en hipertensión renovascular y maligna.
+- Confirmar el papel de nebivolol frente a los tratamientos estándar, incluido el bloqueo del sistema renina-angiotensina.
+- Evaluar si las predicciones con puntajes idénticos aportan evidencia independiente.
+
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

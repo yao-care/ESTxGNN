@@ -2,7 +2,7 @@
 layout: default
 title: Avatrombopag
 parent: Solo predicción del modelo (L5)
-nav_order: 30
+nav_order: 56
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,57 +29,90 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Avatrombopag: De Trombocitopenia Crónica a Macrotrombocitopenia con Insuficiencia de la Válvula Mitral
+# Avatrombopag: De Indicación Original No Registrada a Macrotrombocitopenia con Insuficiencia de la Válvula Mitral
 
 ## Resumen en Una Frase
 
-Avatrombopag es un agonista del receptor de trombopoyetina (TPO-RA), utilizado habitualmente en trombocitopenia asociada a hepatopatía crónica y en púrpura trombocitopénica inmune. El modelo TxGNN predice que podría ser efectivo para **macrotrombocitopenia con insuficiencia de la válvula mitral**, con una puntuación de predicción del **99.995%**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección — se trata de una predicción puramente computacional.
+Avatrombopag es un agonista del receptor de trombopoyetina (TPO-R) comercializado en España como Doptelet. Los datos recibidos no incluyen su indicación aprobada original.
+El modelo TxGNN predice que podría ser efectivo para **macrotrombocitopenia con insuficiencia de la válvula mitral**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trombocitopenia crónica (hepatopatía crónica / PTI) — uso conocido, sin registro en España |
+| Indicación Original | No disponible (el texto de indicación de la autorización de AEMPS está vacío) |
 | Nueva Indicación Predicha | Macrotrombocitopenia con insuficiencia de la válvula mitral |
 | Puntaje de Predicción TxGNN | 99.995% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L5 (solo predicción del modelo) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) en este informe (brecha de datos DG002, prioridad alta). Según la información pública conocida, avatrombopag es un agonista no peptídico del receptor de trombopoyetina (TPO-R), que estimula la megacariopoyesis y aumenta el recuento plaquetario; su uso establecido es en trombocitopenia asociada a hepatopatía crónica antes de procedimientos invasivos y en púrpura trombocitopénica inmune crónica refractaria.
+## ¿Por qué es Razonable esta Predicción?
 
-La nueva indicación predicha es un síndrome hereditario raro que combina plaquetas gigantes disfuncionales con una valvulopatía cardíaca estructural. El propio análisis mecanístico incluido en el pack de evidencia señala que, si bien un TPO-RA como avatrombopag podría elevar el recuento plaquetario, **no corrige el defecto estructural de las plaquetas gigantes ni la insuficiencia valvular subyacente** — es decir, el fármaco actuaría, en el mejor de los casos, sobre un parámetro secundario (cantidad) sin abordar la causa (calidad/estructura) ni la comorbilidad cardíaca.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la farmacología general, avatrombopag es un agonista del TPO-R que estimula la megacariopoyesis, es decir, la producción de plaquetas en la médula ósea. Mecanísticamente, podría ser aplicable a trastornos con recuento plaquetario bajo.
 
-En consecuencia, aunque la puntuación de TxGNN es muy alta, la propia justificación mecanística la califica como "débil" y "sin validación clínica alguna". Esto sugiere que la predicción probablemente refleja una proximidad estructural en el grafo de conocimiento (comorbilidad general con trombocitopenia) más que una relación causal real. Cabe destacar además que el término usado en las búsquedas, *marcothrombocytopenia*, podría ser un error tipográfico de *macrothrombocytopenia*, lo que pudo haber afectado la recuperación de ensayos y literatura relacionada.
+El nombre de la enfermedad predicha parece una variante de "macrotrombocitopenia", un grupo de trastornos hereditarios con plaquetas bajas y de gran tamaño. Un agonista del TPO-R solo ayudaría si el defecto genético de fondo reduce la producción de plaquetas pero deja intacta la vía de la trombopoyetina. Ese defecto no se conoce en este caso. Además, el componente valvular cardíaco (insuficiencia mitral) no se aborda con este mecanismo.
+
+El vínculo es indirecto y solo plausible. Sin ensayos ni literatura, el puntaje alto del modelo no basta para sustentar una decisión clínica.
+
+### Otras Predicciones en el Top 10
+
+| Enfermedad Predicha | Puntaje TxGNN | Plausibilidad Mecanística |
+|------|------|------|
+| Trombocitopenia hereditaria con plaquetas normales | 99.995% | Indirecta y plausible. El nombre de la enfermedad es internamente inconsistente y requiere aclarar fenotipo y genotipo. |
+| Trombocitopenia neonatal transitoria | 99.995% | Encaja mecanísticamente, pero es autolimitada y no hay datos de seguridad ni dosificación neonatal. |
+| Enfermedad de gránulos densos | 99.995% | Débil. Es un defecto de función plaquetaria, no de recuento. |
+| Esclerosis lateral amiotrófica (ELA) y entidades afines (susceptibilidad a ELA, síndrome de neurona motora inferior de inicio tardío, síndrome de Mills, amiotrofia monomélica) | 99.991%–99.993% | Sin vínculo plausible. Probablemente son artefactos del grafo de conocimiento. |
+| Polimicrogiria parasagital parieto-occipital bilateral | 99.992% | Sin vínculo plausible. Es una malformación cortical estructural. |
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1191373 | DOPTELET 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (Swedish Orphan Biovitrum AB) | Comprimido recubierto con película | No especificada en los datos recibidos |
+
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia corresponde únicamente a nivel L5 (predicción de modelo, sin ensayos clínicos ni literatura de respaldo), y el propio análisis mecanístico cuestiona la validez biológica del vínculo. Además, el fármaco no está comercializado en España y faltan datos regulatorios críticos de seguridad (brecha DG001, bloqueante).
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. El fenotipo predicho es ambiguo y no hay datos de seguridad del prospecto de AEMPS. Esta falta de datos de seguridad impide pasar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Advertencias y contraindicaciones del prospecto/TFDA (DG001, bloqueante)
-- Datos completos del mecanismo de acción desde DrugBank (DG002)
-- Verificar si "marcothrombocytopenia" es un error tipográfico de "macrothrombocytopenia" y repetir la búsqueda de ensayos y literatura con el término corregido
-- Estudios de caso o series que evalúen TPO-RA en síndromes de macrotrombocitopenia hereditaria con comorbilidad valvular
-- Revisión de calidad de esta ejecución del modelo: los otros 9 candidatos (rangos 2-10) incluyen enfermedades sin relación mecanística plausible con la vía de TPO (ELA, síndromes de neurona motora, malformación cortical congénita), lo que sugiere ruido en las predicciones de este lote antes de priorizar nuevas indicaciones para este fármaco
+- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), pendiente de forma bloqueante.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Confirmar la indicación aprobada original de Doptelet en España.
+- Aclarar el fenotipo y el defecto genético de la enfermedad predicha, y verificar si responde a la vía TPO-R.
+- Buscar literatura y ensayos sobre agonistas del TPO-R en macrotrombocitopenias hereditarias.
+
+*Los resultados son solo para fines de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

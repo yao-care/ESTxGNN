@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Solo predicción del modelo (L5)
-nav_order: 214
+nav_order: 411
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,56 +29,61 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Pegfilgrastim: De Prevención de Neutropenia Inducida por Quimioterapia a Retinopatía Diabética No Proliferativa Severa
+# Pegfilgrastim: De Indicación Original No Especificada a Retinopatía Diabética No Proliferativa Grave
 
 ## Resumen en Una Frase
 
-Pegfilgrastim es un análogo pegilado del factor estimulante de colonias de granulocitos (G-CSF), utilizado clínicamente para prevenir la neutropenia febril inducida por quimioterapia. El modelo TxGNN predice que podría ser efectivo para **Retinopatía Diabética No Proliferativa Severa**, pero actualmente no existe ningún ensayo clínico ni publicación que respalde esta dirección — la señal proviene únicamente del grafo de conocimiento del modelo (nivel de evidencia L5).
+Pegfilgrastim es un factor estimulante de colonias de granulocitos (G-CSF) de acción prolongada, comercializado en España en varias presentaciones; los datos recibidos no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave** (y, en forma más amplia, para la **retinopatía diabética**).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: solo existe la predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención de neutropenia febril inducida por quimioterapia (uso clínico conocido de G-CSF pegilado; no hay ficha técnica estructurada en las fuentes consultadas) |
-| Nueva Indicación Predicha | Retinopatía Diabética No Proliferativa Severa |
+| Indicación Original | No disponible en los datos recibidos |
+| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 10 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de una ficha estructurada del mecanismo de acción (MOA) de Pegfilgrastim. Según la información disponible en el análisis de reposicionamiento, Pegfilgrastim es un análogo pegilado de G-CSF cuyo mecanismo central es estimular la producción medular de granulocitos y movilizar neutrófilos; clínicamente se usa como terapia de soporte tras quimioterapia, no como tratamiento oncológico directo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, pegfilgrastim es una forma pegilada del G-CSF, de acción prolongada, que aumenta la producción y la activación de neutrófilos. No se han recibido indicaciones originales que permitan comparar la predicción con el uso aprobado.
 
-No existe una relación fisiopatológica directa entre este mecanismo y la retinopatía diabética. De hecho, la evidencia conocida apunta en sentido contrario: las concentraciones de G-CSF/GM-CSF están elevadas en el humor vítreo de pacientes con retinopatía diabética proliferativa, y el G-CSF tiene un efecto pro-angiogénico y de movilización de progenitores endoteliales de origen medular — un mecanismo que teóricamente podría agravar, en lugar de mejorar, la neovascularización retiniana. Una segunda indicación relacionada, "diabetic retinopathy" (rank 2, puntaje 99.73%), presenta la misma inconsistencia mecánica.
+Una hipótesis especulativa es que el G-CSF moviliza células progenitoras hematopoyéticas y endoteliales, y se ha propuesto que una reparación deficiente de la microvasculatura retiniana por estas células interviene en la retinopatía diabética. Sin embargo, el aumento y la activación de neutrófilos podrían agravar la inflamación retiniana o la leucostasis. Por ello, la dirección del efecto es incierta.
 
-Por lo tanto, la puntuación alta de TxGNN debe interpretarse como una señal de asociación en el grafo de conocimiento, no como evidencia causal ni terapéutica. El propio análisis del candidato señala esta posible dirección contradictoria, y no existe ningún estudio humano ni animal que respalde un beneficio real.
+La retinopatía diabética es la categoría general de la forma no proliferativa grave, por lo que ambas predicciones no constituyen evidencia independiente. Un puntaje alto del modelo no equivale a respaldo clínico.
 
-## Evidencia de Ensayos Clínicos
+## Información de Mercado en España
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1181329002 | FULPHILA 6 MG solución inyectable en jeringa precargada | Solución inyectable | No disponible |
+| 02227004 | NEULASTA 6 mg solución inyectable | Solución inyectable en jeringa precargada | No disponible |
+| 1181327001 | ZIEXTENZO 6 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
+| 02227003 | NEULASTA 6 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
+| 1181313001 | PELGRAZ 6 MG solución inyectable en jeringa precargada | Solución inyectable | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Cabe destacar que la ausencia de advertencias y contraindicaciones documentadas constituye actualmente un vacío de datos de severidad **bloqueante**, que impide iniciar la evaluación preliminar de seguridad (S1).
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- El mecanismo conocido de Pegfilgrastim (activación del receptor de G-CSF, efecto pro-angiogénico) apunta en dirección contraria a la esperada para retinopatía diabética, sin ningún ensayo clínico, registro ICTRP ni publicación que respalde la indicación — la evidencia es exclusivamente predicción del modelo (L5). A esto se suma que el fármaco no está comercializado en España y que faltan datos de seguridad esenciales (advertencias/contraindicaciones), lo cual es un vacío de datos bloqueante.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, la dirección del efecto es incierta, ya que el G-CSF podría tanto favorecer la reparación vascular como agravar la inflamación retiniana.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto (TFDA/AEMPS) con advertencias y contraindicaciones — actualmente bloqueante
-- Confirmación estructurada del mecanismo de acción vía DrugBank u otra fuente primaria
-- Estudios preclínicos que evalúen específicamente el efecto de G-CSF sobre la neovascularización retiniana, dado el riesgo mecánico contrario identificado
-- Reevaluación de la plausibilidad biológica antes de considerar cualquier estudio clínico
+- Datos del mecanismo de acción y de las indicaciones aprobadas de pegfilgrastim
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Revisión de literatura preclínica sobre G-CSF y retinopatía diabética
+- Estudios preclínicos que aclaren la dirección del efecto en la retina
+- Evaluación de la vía de administración requerida frente a las presentaciones disponibles (actualmente pendiente)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

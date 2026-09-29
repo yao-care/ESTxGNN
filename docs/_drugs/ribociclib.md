@@ -2,7 +2,7 @@
 layout: default
 title: Ribociclib
 parent: Evidencia moderada (L3-L4)
-nav_order: 243
+nav_order: 466
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,15 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-Usando el Evidence Pack proporcionado, aquí está el informe de evaluación:
-
----
-
-# Ribociclib: De Cáncer de Mama HR+/HER2- Metastásico a Leucemia Mieloide
+# Ribociclib: De Cáncer de Mama HR+/HER2- a Leucemia Mieloide
 
 ## Resumen en Una Frase
 
-Ribociclib es un inhibidor de CDK4/6 cuya eficacia está documentada en la literatura clínica para el cáncer de mama HR+/HER2- avanzado o metastásico (no hay un registro formal de indicación en España, ya que el fármaco no está comercializado en este mercado). El modelo TxGNN predice que podría ser efectivo para **Leucemia Mieloide**, con **0 ensayos clínicos** y **3 publicaciones** que actualmente respaldan esta dirección, entre las cuales existe evidencia contradictoria sobre si el fármaco trata o, en realidad, podría inducir esta enfermedad.
+Ribociclib es un inhibidor de CDK4/6, comercializado en España como Kisqali y utilizado en el cáncer de mama avanzado con receptores hormonales positivos y HER2 negativo (HR+/HER2-).
+El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, pero **no hay ensayos clínicos registrados** y solo hay **2 publicaciones relevantes** (un estudio in vitro y un reporte de caso que sugiere un riesgo, no un beneficio).
 
 ---
 
@@ -45,25 +42,25 @@ Ribociclib es un inhibidor de CDK4/6 cuya eficacia está documentada en la liter
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de mama HR+/HER2- (receptor hormonal positivo, HER2 negativo) avanzado o metastásico* |
-| Nueva Indicación Predicha | Leucemia Mieloide |
-| Puntaje de Predicción TxGNN | 99.35% |
+| Indicación Original | Cáncer de mama HR+/HER2- (deducido de los ensayos y la literatura del pack; el texto de indicación de las autorizaciones AEMPS viene vacío) |
+| Nueva Indicación Predicha | Leucemia mieloide |
+| Puntaje de Predicción TxGNN | 99,35% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
-
-\* *No existe un registro regulatorio formal en España (el fármaco no está comercializado); esta indicación se ha derivado de la literatura clínica incluida en el Evidence Pack.*
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) de ribociclib procedentes de una fuente regulatoria verificada — este es un vacío de datos de prioridad **alta** (DG002) que debe resolverse antes de avanzar. Según la información disponible en la literatura incluida en este Evidence Pack, ribociclib es un inhibidor selectivo de las quinasas dependientes de ciclina 4 y 6 (CDK4/6), cuya eficacia en cáncer de mama HR+/HER2- ha sido comprobada en múltiples ensayos clínicos.
+Ribociclib inhibe las quinasas dependientes de ciclina 4 y 6 (CDK4/6), que controlan el paso del ciclo celular de la fase G1 a la fase S. Al bloquearlas, detiene la proliferación de células tumorales. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el pack de evidencia, por lo que este razonamiento se basa en el conocimiento general de la clase.
 
-La hipótesis mecanística para la leucemia mieloide es la siguiente: los inhibidores de CDK4/6 podrían, en teoría, bloquear el ciclo celular (deteniéndolo en fase G1) y así inhibir la proliferación de blastos leucémicos — hipótesis respaldada por **1 estudio preclínico**. Sin embargo, existe simultáneamente **1 reporte de caso** que describe la aparición de leucemia mieloide aguda con eosinofilia *después* del tratamiento con un inhibidor de CDK4/6 (usado para cáncer de mama), sugiriendo que podría tratarse de una neoplasia hematológica secundaria relacionada con el fármaco, y no de un beneficio terapéutico.
+Mecanísticamente, una proliferación dependiente del ciclo celular en los blastos mieloides podría ser sensible a la inhibición de CDK4/6. Es una hipótesis plausible, pero indirecta. La única evidencia específica es un estudio in vitro que explora los inhibidores de CDK4/6 frente a la resistencia farmacocinética en células de leucemia mieloide aguda (LMA).
 
-Estas dos líneas de evidencia apuntan en direcciones mecanísticas opuestas (el fármaco como posible tratamiento vs. el fármaco como posible causa), y no existe ningún ensayo clínico que valide un efecto terapéutico real. Por ello, la evidencia actual es insuficiente para sostener la hipótesis y presenta, además, una señal de seguridad potencial que debe vigilarse.
+Además, hay una señal de alerta. Un reporte de caso describe una LMA con eosinofilia surgida tras el tratamiento con un inhibidor de CDK4/6, en un paciente con hematopoyesis clonal de potencial indeterminado. Esto apunta a una posible preocupación de seguridad, no a un beneficio terapéutico. El puntaje alto de TxGNN es solo una predicción computacional.
+
+Las otras predicciones del modelo (trombocitopenia y dos trastornos hereditarios de plaquetas) parecen reflejar efectos adversos hematológicos del fármaco, no oportunidades terapéuticas. No se desarrollan aquí.
 
 ---
 
@@ -76,36 +73,41 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|------------------------|
-| [32560251](https://pubmed.ncbi.nlm.nih.gov/32560251/) | 2020 | Preclínico/In vitro | Cancers | Estudio in vitro sobre inhibidores de CDK4/6 para superar la resistencia farmacocinética en células de leucemia mieloide aguda (LMA), asociada a sobreexpresión de transportadores ABCB1/ABCG2 y enzimas reductoras de carbonilo que metabolizan antraciclinas. |
-| [30575100](https://pubmed.ncbi.nlm.nih.gov/30575100/) | 2019 | Reporte de Caso | American Journal of Hematology | Caso de leucemia mieloide aguda con eosinofilia tras tratamiento con inhibidor de CDK4/6 (indicación original: cáncer de mama), atribuido a hematopoyesis clonal de potencial indeterminado (CHIP) subyacente — sugiere un evento adverso relacionado con el fármaco, no un beneficio terapéutico. |
-| [41641105](https://pubmed.ncbi.nlm.nih.gov/41641105/) | 2026 | Reporte de Caso | Frontiers in Oncology | Caso de adenocarcinoma tipo glándula mamaria de la vulva concomitante con cáncer de mama; el resumen disponible no menciona leucemia mieloide ni ribociclib. Relevancia incierta para esta indicación (posible error de indexación en la búsqueda bibliográfica). |
+|------|-----|------|------|---------|
+| [32560251](https://pubmed.ncbi.nlm.nih.gov/32560251/) | 2020 | Preclínico (in vitro) | Cancers | Explora los inhibidores de CDK4/6 para superar la resistencia farmacocinética (transportadores ABCB1/ABCG2 y enzimas reductoras de carbonilo) en células de LMA |
+| [30575100](https://pubmed.ncbi.nlm.nih.gov/30575100/) | 2019 | Reporte de caso | American Journal of Hematology | LMA con eosinofilia tras tratamiento con inhibidor de CDK4/6, atribuida a hematopoyesis clonal subyacente; señal de seguridad, no de eficacia |
+
+Se excluyó un tercer resultado (PMID 41641105, adenocarcinoma vulvar) por no guardar relación con la leucemia mieloide.
 
 ---
 
 ## Información de Mercado en España
 
-Ribociclib no dispone actualmente de autorización de comercialización en España (0 registros). No es posible presentar una tabla de autorizaciones al no existir datos de licencias.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1171221005IP | KISQALI 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
+| 1171221001IP1 | KISQALI 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
+| 1171221001 | KISQALI 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
 
 ---
 
 ## Citotoxicidad
 
-Ribociclib se clasifica como fármaco antineoplásico (indicación original en oncología — cáncer de mama), por lo que aplica esta sección.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de CDK4/6) |
-| Riesgo de Mielosupresión | Alto — la literatura describe neutropenia, leucopenia y trombocitopenia como los eventos adversos hematológicos más frecuentes, constituyendo toxicidad limitante de dosis (DLT) en ensayos de fase I |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de quinasas CDK4/6) |
+| Riesgo de Mielosupresión | Medio a alto. La literatura del pack describe mielosupresión (neutropenia, leucopenia, trombocitopenia, anemia) como toxicidad frecuente de los inhibidores de CDK4/6 |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma completo (con diferencial, especialmente neutrófilos y plaquetas), función hepática y ECG (se ha reportado prolongación del intervalo QT en la literatura) |
-| Protección en Manejo | Al tratarse de un antineoplásico oral, se recomienda seguir las normativas estándar de manejo de fármacos citotóxicos/peligrosos para su dispensación y administración |
+| Items de Monitoreo | Hemograma con diferencial; función hepática y renal |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Señales de la literatura**: la mielosupresión es la toxicidad más documentada de la clase (metaanálisis de toxicidad hematológica y estudios de farmacovigilancia). Existe además un reporte de LMA con eosinofilia tras un inhibidor de CDK4/6.
+
+Consultar el prospecto para información de seguridad sobre advertencias, contraindicaciones e interacciones.
 
 ---
 
@@ -114,14 +116,16 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-- La evidencia para "Leucemia Mieloide" es de nivel L4 (solo 1 estudio preclínico), sin ningún ensayo clínico, y con una señal contradictoria en la literatura (un caso sugiere que el mecanismo podría inducir la enfermedad en lugar de tratarla). La dirección mecanística no está resuelta, por lo que no se recomienda avanzar sin más validación.
-- Las demás indicaciones predichas para ribociclib en este ciclo de evaluación fueron revisadas y descartadas: **trombocitopenia** corresponde a una toxicidad hematológica ya conocida del fármaco (no una indicación terapéutica — dirección causal invertida), y **"macrotrombocitopenia con insuficiencia mitral"** y **"trombocitopenia hereditaria con plaquetas normales"** son enfermedades genéticas raras sin ningún respaldo mecanístico ni evidencia clínica o bibliográfica.
+La predicción se apoya solo en un puntaje del modelo, un estudio in vitro y un reporte de caso que apunta a un posible riesgo hematológico. No hay ensayos clínicos, y la mielosupresión propia del fármaco es una preocupación en un contexto de leucemia.
 
 **Para avanzar se necesita:**
-- Datos del prospecto de TFDA/EMA (advertencias y contraindicaciones) — actualmente es un vacío de datos bloqueante (DG001) que impide la evaluación de seguridad inicial (S1)
-- Datos detallados del mecanismo de acción (MOA) verificados con fuente regulatoria (DrugBank) (DG002)
-- Estudios preclínicos adicionales en modelos específicos de leucemia mieloide que resuelvan la contradicción mecanística observada
-- Al menos un ensayo clínico (fase 1/2) que evalúe ribociclib específicamente en leucemia mieloide antes de reconsiderar el nivel de evidencia
+- Estudios preclínicos adicionales (in vitro e in vivo) de ribociclib en modelos de leucemia mieloide, con análisis de dependencia de Rb y CDK4/6
+- Datos detallados del mecanismo de acción (MOA)
+- Advertencias y contraindicaciones del prospecto de AEMPS
+- Evaluación de la señal de seguridad hematológica, incluido el caso de LMA con eosinofilia
+- Evidencia de ensayos clínicos, hoy inexistentes
+
+*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

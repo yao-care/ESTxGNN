@@ -2,7 +2,7 @@
 layout: default
 title: Simoctocog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 258
+nav_order: 493
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Simoctocog Alfa: De Hemofilia A a Pseudo-enfermedad de von Willebrand
+# Simoctocog alfa: De Hemofilia A a Enfermedad de von Willebrand tipo plaquetario (pseudo-von Willebrand)
 
 ## Resumen en Una Frase
 
-Simoctocog alfa es una proteína recombinante de Factor VIII (FVIII) humano, utilizada originalmente como terapia de reemplazo en la **Hemofilia A**.
-El modelo TxGNN predice que podria ser efectivo para la **Pseudo-enfermedad de von Willebrand**,
-con un score de **99.99%**, pero actualmente **no existe ningun ensayo clinico ni publicacion** que respalde esta direccion, y el propio analisis mecanistico del pipeline senala una relacion causal debil.
+Simoctocog alfa (comercializado como Nuwiq) es un factor VIII de coagulación recombinante humano, utilizado para el tratamiento de la hemofilia A.
+El modelo TxGNN predice que podría ser efectivo para **la enfermedad de pseudo-von Willebrand**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Se trata solo de una predicción del modelo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No consta en licencias espanolas (farmaco no comercializado en Espana); segun la informacion recogida en el propio evidence pack, Hemofilia A (terapia de reemplazo de Factor VIII) |
-| Nueva Indicacion Predicha | Pseudo-enfermedad de von Willebrand |
-| Puntaje de Prediccion TxGNN | 99.99% |
+| Indicación Original | Hemofilia A (conocimiento general del producto; el texto de las autorizaciones de la AEMPS no incluye la indicación) |
+| Nueva Indicación Predicha | Enfermedad de pseudo-von Willebrand (von Willebrand tipo plaquetario) |
+| Puntaje de Predicción TxGNN | 99.997% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 8 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion (MOA) desde DrugBank. Segun la informacion conocida, simoctocog alfa es una proteina recombinante de Factor VIII humano (FVIII), cuya funcion es sustituir al FVIII endogeno deficiente, unirse al factor de von Willebrand (vWF) circulante para estabilizarse, y activar el Factor X en la cascada de coagulacion; su eficacia en la Hemofilia A esta bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, simoctocog alfa es un factor VIII recombinante producido en una línea celular humana, sin modificación para unirse al factor von Willebrand (VWF). Su eficacia en la hemofilia A consiste en reponer el FVIII deficiente.
 
-La Pseudo-enfermedad de von Willebrand, sin embargo, no es un trastorno de deficiencia de FVIII, sino una alteracion del receptor plaquetario GPIbα que provoca una afinidad anormalmente alta hacia el vWF, con el consiguiente consumo y aclaramiento de los multimeros de alto peso molecular. El defecto reside en la plaqueta, no en la concentracion de factores de coagulacion, por lo que aportar FVIII exogeno no corrige el mecanismo patologico subyacente.
+La enfermedad de pseudo-von Willebrand es un defecto de ganancia de función del receptor plaquetario GPIb, que aumenta la unión al VWF. La reposición de FVIII no corrige ese defecto del receptor plaquetario, por lo que el vínculo mecanístico es **indirecto**.
 
-Segun el propio analisis mecanistico incluido en el evidence pack, el score elevado de TxGNN probablemente refleja la proximidad de ambas entidades en el grafo de conocimiento (nodo comun de "trastorno hemorragico") mas que una relacion causal real entre FVIII y esta patologia plaquetaria. Esto, sumado a la ausencia total de ensayos clinicos y literatura, respalda una postura conservadora ante esta prediccion concreta.
+El puntaje tan alto probablemente refleja la cercanía en el grafo de conocimiento entre FVIII, VWF y los trastornos hemorrágicos, no una señal clínica. No hay evidencia clínica que respalde esta indicación.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+Se muestran 5 de las 8 autorizaciones. Todas pertenecen a Octapharma AB, y el texto de indicación aprobada no figura en los datos recibidos.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 114936001 | Nuwiq 250 UI | Polvo y disolvente para solución inyectable |
+| 114936002 | Nuwiq 500 UI | Polvo y disolvente para solución inyectable |
+| 114936003 | Nuwiq 1000 UI | Polvo y disolvente para solución inyectable |
+| 114936008 | Nuwiq 1500 UI | Polvo y disolvente para solución inyectable |
+| 114936007 | Nuwiq 4000 UI | Polvo y disolvente para solución inyectable |
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas.
 
-## Conclusion y Proximos Pasos
+Existe una alerta específica para una de las indicaciones predichas: en la púrpura trombótica trombocitopénica (TTP, posición 10), aportar FVIII podría aumentar teóricamente el riesgo trombótico. El puntaje alto de esa predicción no debe interpretarse como señal positiva.
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-- El nivel de evidencia es L5 (unicamente prediccion del modelo, sin ningun ensayo clinico ni publicacion real que la respalde).
-- El propio analisis mecanistico del evidence pack senala que la relacion causal entre FVIII y la Pseudo-enfermedad de von Willebrand es debil y probablemente artefactual (comorbilidad de fenotipo hemorragico en el grafo), no una via terapeutica plausible.
-- Existe un data gap bloqueante (DG001: advertencias/contraindicaciones de TFDA) que impide, en cualquier caso, iniciar la evaluacion de seguridad S1.
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se basa solo en el modelo (L5), sin ensayos ni literatura. El mecanismo es indirecto, porque el FVIII no corrige el defecto plaquetario de fondo.
+
+Entre las 10 indicaciones predichas, solo dos se marcan como "Research Question" por su coherencia mecanística parcial:
+- **Hemofilia A con anomalía vascular**
+- **Déficit adquirido de factores de coagulación**, dependiente del subtipo. Por ejemplo, en la hemofilia A adquirida los inhibidores suelen neutralizar el producto y se prefieren agentes de bypass.
+
+El resto se mantiene en Hold.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica de TFDA con advertencias y contraindicaciones (DG001, bloqueante).
-- Completar los datos de mecanismo de accion (MOA) via API de DrugBank (DG002).
-- Buscar estudios preclinicos o de mecanismo sobre el efecto de FVIII en trastornos de la funcion plaquetaria, para intentar elevar el nivel de evidencia de L5 a L4 si existieran.
-- Dado que otros candidatos del mismo evidence pack (p. ej. "hemophilia A with vascular abnormality", rank 9) muestran mayor coherencia mecanistica con la indicacion original, se recomienda una revision comparativa antes de descartar el reposicionamiento de este farmaco en su conjunto.
+- Prospecto de la AEMPS (advertencias y contraindicaciones), que es un requisito bloqueante para el cribado de seguridad
+- Datos del mecanismo de acción desde DrugBank
+- Indicación aprobada de cada autorización registrada
+- Revisión de literatura específica de FVIII en enfermedad de von Willebrand tipo plaquetario, y definición precisa del subtipo en el caso de déficits adquiridos
+- Evaluación de la compatibilidad de vía de administración, que sigue pendiente
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

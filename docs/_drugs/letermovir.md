@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: Solo predicción del modelo (L5)
-nav_order: 163
+nav_order: 312
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,56 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Letermovir: De Profilaxis de Infección por CMV a Candidiasis Vulvovaginal
+# Letermovir: De Infección por Citomegalovirus (CMV) a Candidiasis Vulvovaginal
 
 ## Resumen en Una Frase
 
-Letermovir es un antiviral cuya indicación conocida es la profilaxis de la infección por citomegalovirus (CMV) en receptores de trasplante (dato no incluido explícitamente en este Evidence Pack, que no registra indicaciones originales ni comercialización en España). El modelo TxGNN predice, con una puntuación muy alta (**99.88%**), que podría ser efectivo para **Candidiasis Vulvovaginal**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección.
+Letermovir es un antiviral comercializado en España como Prevymis, utilizado frente al citomegalovirus (CMV). El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal** con una puntuación muy alta (99,88 %), pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack (sin licencias registradas en España) |
-| Nueva Indicación Predicha | Candidiasis Vulvovaginal |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | Antiviral frente a CMV (el texto de indicación no figura en los registros de AEMPS recibidos) |
+| Nueva Indicación Predicha | Candidiasis vulvovaginal |
+| Puntaje de Predicción TxGNN | 99,88 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos estructurados del mecanismo de acción (campo `original_moa` marcado como Data Gap). Sin embargo, la propia justificación mecanística generada para esta predicción describe a letermovir como un inhibidor del complejo terminasa del citomegalovirus (CMV) (pUL51/pUL56/pUL89), un antiviral específico que bloquea el empaquetamiento del ADN viral y la maduración del virión.
+## ¿Por qué es Razonable esta Predicción?
 
-Este mecanismo **no tiene ninguna relación conocida** con las vías de síntesis de la pared/membrana celular de *Candida albicans* (por ejemplo, síntesis de ergosterol o glucano sintasa), que son las dianas típicas de los antifúngicos. No existe literatura pública que respalde actividad antifúngica de letermovir.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, letermovir es un antiviral que inhibe el complejo terminasa viral (pUL56) del CMV. Es una diana específica del virus.
 
-La puntuación alta de TxGNN (99.88%) probablemente refleja asociaciones indirectas en el grafo de conocimiento (por ejemplo, poblaciones inmunosuprimidas que comparten comorbilidades o co-medicación), y no una relación farmacológica real. Por lo tanto, esta predicción debe tratarse como un **posible falso positivo** hasta que exista evidencia experimental (in vitro o preclínica) que la respalde.
+Esa diana no tiene un homólogo conocido en *Candida*, un hongo. Por eso no se identifica una relación mecanística plausible entre la indicación original (una infección viral) y la nueva (una infección fúngica). Tampoco hay una vía o mecanismo declarado que explique la puntuación del modelo.
+
+La alta puntuación de TxGNN (posición 2753) parece más bien un artefacto del grafo de conocimiento que una predicción con fundamento biológico. Debe validarse de forma independiente, por ejemplo con pruebas de sensibilidad *in vitro* frente a *Candida*, antes de cualquier interpretación clínica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1171245001 | PREVYMIS 240 MG comprimidos recubiertos con película | Comprimido recubierto con película | Merck Sharp & Dohme B.V. |
+| 1171245002 | PREVYMIS 480 MG comprimidos recubiertos con película | Comprimido recubierto con película | Merck Sharp & Dohme B.V. |
+| 1171245003 | PREVYMIS 240 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | Merck Sharp & Dohme B.V. |
+| 1171245004 | PREVYMIS 480 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | Merck Sharp & Dohme B.V. |
+
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo clínico ni publicación que respalde la eficacia de letermovir en candidiasis vulvovaginal, y el análisis mecanístico disponible indica una falta de plausibilidad biológica (antiviral inhibidor de terminasa vs. diana antifúngica). La puntuación alta de TxGNN, sin apoyo experimental, no es suficiente para avanzar.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no hay un vínculo mecanístico plausible entre un inhibidor de la terminasa viral del CMV y la candidiasis. Con estos datos no hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Estudios in vitro que evalúen actividad antifúngica directa de letermovir frente a *Candida* spp.
-- Datos completos del mecanismo de acción (MOA) desde DrugBank u otra fuente primaria
-- Confirmación de indicaciones originales y estado regulatorio (actualmente ausentes en el Evidence Pack)
-- Datos de seguridad (advertencias, contraindicaciones, interacciones) desde el prospecto de TFDA, actualmente bloqueados (DG001)
+- Pruebas de sensibilidad *in vitro* de letermovir frente a especies de *Candida*
+- Datos detallados del mecanismo de acción (MOA), por ejemplo desde DrugBank
+- Descarga y análisis del prospecto de AEMPS para completar advertencias y contraindicaciones
+- Revisión de por qué el grafo de conocimiento asocia este fármaco con la candidiasis vulvovaginal
+- Evaluación de la compatibilidad de vías de administración, ya que las presentaciones actuales son oral e intravenosa
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

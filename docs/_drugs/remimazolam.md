@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Remimazolam
-parent: Evidencia moderada (L3-L4)
-nav_order: 241
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 463
+evidence_level: L5
 indication_count: 2
 ---
 
 # Remimazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Remimazolam: De Sedación de Procedimientos/Anestesia General a Insomnio
+# Remimazolam: De Sedación Procedimental a Insomnio
 
 ## Resumen en Una Frase
 
-Remimazolam es una benzodiazepina de acción ultra-corta utilizada actualmente para sedación en procedimientos e inducción de anestesia general.
-El modelo TxGNN predice que podría ser efectivo para **Insomnio**, con **8 ensayos clínicos** que actualmente exploran contextos relacionados
-(principalmente sedación perioperatoria), aunque ninguno evalúa directamente el insomnio crónico como enfermedad primaria.
+Remimazolam es una benzodiazepina de acción ultracorta administrada por vía intravenosa. Según información general, se usa para la sedación procedimental, aunque el registro de AEMPS de este paquete no incluye el texto de la indicación.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero ninguno de los **8 ensayos clínicos** relacionados evalúa insomnio crónico y no hay **ninguna publicación** que lo respalde.
 
 ---
 
@@ -43,23 +42,23 @@ El modelo TxGNN predice que podría ser efectivo para **Insomnio**, con **8 ensa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sedación en procedimientos / inducción de anestesia general (sin indicación formalmente registrada en España) |
+| Indicación Original | Sedación procedimental (información general; el texto de indicación no figura en el registro de AEMPS del paquete) |
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L5 (solo predicción del modelo; sin estudios clínicos directos ni estudios preclínicos o de mecanismo en los datos) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de acción original en la ficha de producto (Data Gap pendiente de resolución vía DrugBank). Según la evidencia disponible en este informe, remimazolam actúa como agonista/modulador alostérico positivo del receptor GABA-A, mecanismo compartido por toda la clase de las benzodiazepinas. Este mecanismo es la base farmacológica de su uso actual en sedación de procedimientos e inducción de anestesia general, y su perfil ultra-corto (metabolismo por esterasas tisulares, vida media de 5-10 minutos, administración por infusión intravenosa continua) lo hace idóneo para ese contexto.
+Remimazolam es un modulador alostérico positivo de los receptores GABA-A, el mismo mecanismo de los hipnóticos establecidos. Por eso es biológicamente plausible que tenga un efecto sedante-hipnótico. No se dispone de datos detallados de mecanismo de acción en el paquete; esta descripción procede de la justificación mecanística de la predicción.
 
-La relación con el insomnio es mecanísticamente plausible en principio: el receptor GABA-A es la diana terapéutica clásica de los hipnóticos utilizados para tratar el insomnio (benzodiazepínicos y no benzodiazepínicos tipo zolpidem). Sin embargo, existe una brecha relevante entre el mecanismo y la aplicación clínica: el insomnio crónico requiere un patrón de dosificación oral que mantenga el sueño durante toda la noche, mientras que remimazolam solo está disponible como infusión intravenosa de efecto muy breve, un perfil incompatible con ese uso.
+La relación con el insomnio es indirecta. Los ensayos disponibles estudian sedación perioperatoria o en UCI, y solo dos observan trastornos del sueño postoperatorios. En ambos, remimazolam forma parte del régimen anestésico y no es la intervención evaluada.
 
-En consecuencia, la puntuación muy alta de TxGNN (99.91%) probablemente refleja similitud a nivel de embedding del mecanismo GABA-A/sedante compartido con los hipnóticos, más que evidencia clínica real de eficacia en insomnio como enfermedad. De hecho, todos los ensayos disponibles estudian sedación perioperatoria o en UCI, y solo dos de ellos miden la alteración del sueño como variable secundaria en un contexto postoperatorio agudo, no como tratamiento del insomnio crónico.
+Hay además limitaciones prácticas. Remimazolam solo se administra por vía intravenosa y tiene una semivida muy corta, lo que dificulta trasladarlo al tratamiento del insomnio. El puntaje TxGNN de 0.999 es una predicción, no evidencia clínica.
 
 ---
 
@@ -67,20 +66,28 @@ En consecuencia, la puntuación muy alta de TxGNN (99.91%) probablemente refleja
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT05375747](https://clinicaltrials.gov/study/NCT05375747) | No aplica | Retirado | 0 | Comparación de remimazolam vs. propofol en anestesia para cirugía de mama; ensayo retirado sin reclutamiento, sin evidencia utilizable |
-| [NCT04532606](https://clinicaltrials.gov/study/NCT04532606) | Fase 4 | Reclutando | 1128 | Impacto de la anestesia general con remimazolam en el pronóstico tras cirugía de cáncer de vejiga; explora delirium postoperatorio, no insomnio |
-| [NCT05466279](https://clinicaltrials.gov/study/NCT05466279) | No aplica | Completado | 131 | Anestesia general con remimazolam vs. propofol+midazolam en contexto oncológico; información de título incompleta, sin relación directa con insomnio |
-| [NCT06575530](https://clinicaltrials.gov/study/NCT06575530) | Fase 4 | Reclutando | 306 | Eficacia y seguridad de remimazolam en sedación de pacientes con ventilación mecánica en UCI tras cirugía no cardiaca |
-| [NCT06284668](https://clinicaltrials.gov/study/NCT06284668) | No aplica | Completado | 315 | Esketamina vs. remimazolam para alteración del sueño y ansiedad postoperatoria tras extracción de ovocitos; mide directamente alteración del sueño, el ensayo más relevante disponible, aunque en contexto agudo postquirúrgico, no insomnio crónico |
-| [NCT07046364](https://clinicaltrials.gov/study/NCT07046364) | Fase 4 | Reclutando | 248 | Efecto de remimazolam sobre delirium de emergencia en neurocirugía pediátrica con sevoflurano; estudia agitación, no insomnio |
-| [NCT06108830](https://clinicaltrials.gov/study/NCT06108830) | No aplica | Reclutando | 400 | Esketamina combinada con remimazolam sobre alteración del sueño y ansiedad postoperatoria en gastroenteroscopias; diseño similar a NCT06284668, aún en reclutamiento |
-| [NCT05606315](https://clinicaltrials.gov/study/NCT05606315) | Fase 4 | Desconocido | 285 | Remimazolam para sedación en UCI de pacientes con ventilación mecánica tras cirugía oral y maxilofacial; seguimiento interrumpido |
+| [NCT06284668](https://clinicaltrials.gov/study/NCT06284668) | N/A | Completado | 315 | Esketamina vs remimazolam sobre trastorno del sueño y ansiedad postoperatorios en extracción de ovocitos. Es el más cercano a insomnio, pero en contexto perioperatorio y sin resultados publicados. |
+| [NCT06108830](https://clinicaltrials.gov/study/NCT06108830) | N/A | Reclutando | 400 | Esketamina combinada con remimazolam sobre trastorno del sueño y ansiedad postoperatorios en gastroenteroscopia. No permite separar el efecto de remimazolam del de esketamina. |
+| [NCT05606315](https://clinicaltrials.gov/study/NCT05606315) | Fase 4 | Desconocido | 285 | Sedación en UCI con remimazolam besilato en pacientes ventilados tras cirugía oral y maxilofacial. Relación solo indirecta con el sueño. |
+| [NCT06575530](https://clinicaltrials.gov/study/NCT06575530) | Fase 4 | Reclutando | 306 | Remimazolam vs dexmedetomidina en sedación de pacientes ventilados en UCI tras cirugía no cardíaca. Sin criterio de valoración de insomnio. |
+| [NCT07046364](https://clinicaltrials.gov/study/NCT07046364) | Fase 4 | Reclutando | 248 | Remimazolam sobre el delirio de emergencia en neurocirugía pediátrica con sevoflurano. La indicación es delirio, no insomnio. |
+| [NCT04532606](https://clinicaltrials.gov/study/NCT04532606) | Fase 4 | Reclutando | 1128 | Anestesia general con remimazolam y pronóstico tras cirugía de cáncer de vejiga. Los desenlaces son oncológicos y quirúrgicos. |
+| [NCT05466279](https://clinicaltrials.gov/study/NCT05466279) | N/A | Completado | 131 | Remimazolam vs propofol + midazolam en anestesia general. Estudio de anestesia sin relación demostrable con insomnio. |
+| [NCT05375747](https://clinicaltrials.gov/study/NCT05375747) | N/A | Retirado | 0 | Remimazolam vs propofol en anestesia intravenosa total para cirugía de mama. Retirado sin datos y sin relación con insomnio. |
 
 ---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1201505001 | BYFAVO 20 MG POLVO PARA SOLUCION INYECTABLE (Paion Pharma GmbH) | Polvo para solución inyectable | No especificada en el registro |
 
 ---
 
@@ -95,17 +102,16 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-A pesar de una puntuación TxGNN muy alta (99.91%), los 8 ensayos clínicos disponibles se centran en sedación perioperatoria o en UCI, y no evalúan el insomnio como enfermedad primaria. Solo dos ensayos (NCT06284668 y NCT06108830) miden la alteración del sueño como variable secundaria en un contexto agudo postoperatorio, lo cual no equivale a evidencia sobre insomnio crónico. El nivel de evidencia (L4) refleja una plausibilidad mecanística, pero es insuficiente para avanzar a una evaluación clínica formal de esta indicación.
+La predicción se apoya solo en el modelo y en la plausibilidad del mecanismo GABA-A. Ningún ensayo evalúa insomnio crónico, no hay publicaciones y la vía exclusivamente intravenosa con semivida ultracorta limita su uso en esta indicación.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica (TFDA) con advertencias y contraindicaciones — actualmente es un vacío de datos bloqueante para la evaluación de seguridad
-- Datos estructurados del mecanismo de acción original vía DrugBank
-- Ensayos clínicos diseñados específicamente para insomnio crónico (no sedación perioperatoria aguda) con remimazolam
-- Evaluación de la compatibilidad de vía de administración: remimazolam es actualmente solo intravenoso, mientras que el tratamiento del insomnio requiere una formulación oral ambulatoria
-- Dado que el fármaco no está comercializado en España, sería necesario un dossier regulatorio completo antes de cualquier desarrollo clínico en esta indicación
+- Resultados de NCT06284668 y NCT06108830, que evalúan el sueño en contexto perioperatorio.
+- Ficha técnica de AEMPS con advertencias, contraindicaciones e indicación autorizada, para el análisis de seguridad.
+- Datos de mecanismo de acción desde DrugBank.
+- Evaluación de compatibilidad de vía y formulación, dado que solo existe la presentación intravenosa.
+- Estudios preclínicos o exploratorios de sueño que aíslen el efecto de remimazolam.
 
-**Nota — segunda hipótesis predicha (menor prioridad):**
-El modelo también predijo *alcohol withdrawal delirium* (puntuación TxGNN 99.30%, Nivel de Evidencia L5, sin ensayos clínicos ni literatura disponibles). El razonamiento mecanístico es coherente a nivel de clase farmacológica (las benzodiazepinas son tratamiento de primera línea para el síndrome de abstinencia alcohólica), pero al no existir ningún estudio real que la respalde, se mantiene como pregunta de investigación (Research Question) sin evidencia clínica actual.
+**Nota:** la segunda predicción del modelo, delirium por abstinencia alcohólica (puntaje 99.30%), no tiene ensayos ni publicaciones (nivel L5, Hold). Sería necesario evaluarla aparte.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

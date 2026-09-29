@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pertuzumab
-parent: Evidencia moderada (L3-L4)
-nav_order: 221
-evidence_level: L3
+parent: Evidencia alta (L1-L2)
+nav_order: 419
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,91 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Pertuzumab: De Cáncer de Mama HER2-Positivo al Subtipo "Normal-like" de Carcinoma de Mama
+# Pertuzumab: De Cáncer de Mama HER2 Positivo a Carcinoma de Mama de Subtipo "Normal-like"
 
 ## Resumen en Una Frase
 
-Pertuzumab es un anticuerpo monoclonal ya establecido en el tratamiento del cáncer de mama HER2-positivo (en combinación con trastuzumab, con o sin docetaxel). El modelo TxGNN predice que también podría ser relevante para el subtipo **"normal-like" de carcinoma de mama**, pero esta dirección cuenta actualmente solo con **6 ensayos clínicos indirectos** (ninguno estratificado específicamente por este subtipo molecular) y **0 publicaciones** que la respalden directamente.
+Pertuzumab es un anticuerpo monoclonal anti-HER2, comercializado en España como Perjeta y utilizado en el cáncer de mama HER2 positivo.
+El modelo TxGNN predice que podría ser efectivo para el **carcinoma de mama de subtipo normal-like**,
+con **6 ensayos clínicos** de Fase 2 y **ninguna publicación** asociada a esta indicación concreta. La evidencia es débil y solo sería aplicable al subgrupo HER2 positivo.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de mama HER2-positivo (referencia derivada del contexto clínico del fármaco; no hay registro estructurado de indicación original ni de licencias locales en los datos disponibles) |
-| Nueva Indicación Predicha | Subtipo "Normal-like" de Carcinoma de Mama |
+| Indicación Original | Cáncer de mama HER2 positivo (información conocida del fármaco; el registro AEMPS de este paquete no incluye el texto de indicación) |
+| Nueva Indicación Predicha | Carcinoma de mama de subtipo "normal-like" |
 | Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado (local) | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Hold — Pregunta de Investigación (Research Question) |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 6 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Pertuzumab se une al subdominio II del receptor HER2 y bloquea su heterodimerización con HER3, con lo que frena la señalización que impulsa el crecimiento tumoral. El campo de mecanismo de acción de DrugBank no estaba disponible en el paquete. Esta descripción proviene del análisis mecanístico incluido en la predicción.
 
-Actualmente no se dispone de una ficha estructurada de mecanismo de acción (MOA) procedente de DrugBank (brecha de datos pendiente, DG002). Según la información recogida en el propio análisis de evidencia, pertuzumab actúa bloqueando la dimerización del receptor HER2 con HER3, mecanismo ya validado clínicamente en el tratamiento del cáncer de mama HER2-positivo.
+La relación con la indicación original es indirecta. "Normal-like" es una etiqueta de subtipo intrínseco molecular, no un estado de HER2. Los seis ensayos de Fase 2 asociados evalúan regímenes neoadyuvantes dirigidos a HER2, por lo que el vínculo es plausible. Pero cualquier beneficio se limitaría a los pacientes HER2 positivos dentro de ese subtipo, y depende de cómo se asigne la etiqueta a un estado clínico.
 
-El subtipo "normal-like" es una de las categorías moleculares del sistema PAM50, caracterizada por un perfil de expresión génica similar al del tejido mamario normal y que, por definición, generalmente **no** está impulsado por la sobreexpresión de HER2. Por ello, la relación mecanística entre este subtipo y el bloqueo HER2/HER3 de pertuzumab es, según el propio análisis, **débil**.
+En resumen, la predicción es coherente con el uso conocido del fármaco, pero no demuestra por sí misma un beneficio específico para el subtipo normal-like.
 
-Los 6 ensayos clínicos identificados corresponden todos a poblaciones HER2-positivas tratadas con terapia neoadyuvante, sin estratificación específica por el subtipo "normal-like"; se trata por tanto de evidencia indirecta y extrapolada. Al no existir literatura publicada que respalde directamente esta dirección, la clasificación actual es la de una **pregunta de investigación** más que la de un candidato listo para avanzar clínicamente.
-
----
-
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | Fase 2 | Reclutando | 716 | Plataforma de precisión para terapia neoadyuvante en cáncer de mama operable, estratificada por subtipos clínicos/moleculares |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Reclutando | 74 | Eficacia y seguridad de terapia anti-HER2 neo/adyuvante óptima en mujeres nigerianas con cáncer de mama HER2+ |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Fase 2 | Completado | 23 | Paclitaxel + trastuzumab + pertuzumab como terapia preoperatoria en cáncer de mama inflamatorio HER2+ (población HER2+ localmente avanzada, no estratificada por PAM50) |
-| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Fase 2 | Reclutando | 25 | Vacuna WOKVAC combinada con quimioterapia neoadyuvante y terapia anti-HER2 |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Fase 1/2 | Reclutando | 46 | Terapia neoadyuvante guiada por cribado de fármacos in vitro en cáncer de mama temprano HER2+ |
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Fase 2 | Reclutando | 370 | Trastuzumab deruxtecán vs. tratamiento preoperatorio estándar, con biomarcadores predictivos de respuesta, en cáncer de mama HER2+ no metastásico |
-
----
+| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Fase 2 | Completado | 23 | Paclitaxel + trastuzumab + pertuzumab como tratamiento preoperatorio en cáncer de mama inflamatorio. Es el único que prueba pertuzumab directamente, pero es pequeño. |
+| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | Fase 2 | Reclutando | 716 | Plataforma de precisión neoadyuvante del Fudan University Shanghai Cancer Center, basada en subtipos clínicos. Pertuzumab probablemente sea uno de varios brazos y aún no hay resultados. |
+| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Reclutando | 74 | Terapia anti-HER2 neoadyuvante y adyuvante en mujeres nigerianas con cáncer de mama HER2+. |
+| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Fase 2 | Reclutando | 370 | ARIADNE: trastuzumab deruxtecán frente al tratamiento preoperatorio estándar en cáncer de mama HER2+. Los regímenes con pertuzumab probablemente estén en los brazos de comparación. |
+| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Fase 1/2 | Reclutando | 46 | Terapia neoadyuvante guiada por cribado de fármacos in vitro en agregados celulares derivados del paciente. Pertuzumab es una opción posible, no la intervención evaluada. |
+| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Fase 2 | Reclutando | 25 | Vacuna WOKVAC con quimioterapia y anticuerpos anti-HER2. Pertuzumab es tratamiento de base; se evalúa el efecto de la vacuna. |
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
 
-## Informacion de Mercado (local)
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 113813001 | PERJETA 420 MG CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión |
+| 113813001IP | PERJETA 420 MG CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión |
+| 113813001IP2 | PERJETA 420 MG CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión |
+| 113813001IP3 | PERJETA 420 MG CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión |
+| 113813001IP4 | PERJETA 420 MG CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión |
 
-Pertuzumab actualmente **no está comercializado** en este mercado: no hay autorizaciones ni licencias registradas (0 de 0), por lo que no se dispone de información de producto, forma farmacéutica ni indicación aprobada localmente.
-
----
+Titular: Roche Registration GmbH. El registro indica 6 autorizaciones en total; aquí se listan las 5 principales. El texto de indicación aprobada no figura en el registro.
 
 ## Citotoxicidad
 
-**Esta sección aplica porque pertuzumab es un fármaco antineoplásico** (anticuerpo monoclonal dirigido a HER2, utilizado en el tratamiento oncológico del cáncer de mama).
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-HER2, bloqueo de la dimerización HER2/HER3) |
+| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-HER2) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Función cardíaca (FEVI) — el riesgo de cardiotoxicidad de los agentes anti-HER2 se menciona explícitamente como objetivo de seguimiento en ensayos combinados (p. ej., NCT03329378); además, hemograma y función hepática/renal según protocolo clínico |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
+| Items de Monitoreo | Consultar el prospecto. Como referencia general, en terapias anti-HER2 se suele vigilar la función cardíaca (FEVI), además del hemograma y la función hepática y renal cuando se combina con quimioterapia. |
+| Protección en Manejo | Consultar el prospecto y las normas del centro para el manejo de fármacos antineoplásicos |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
----
+## Conclusión y Próximos Pasos
 
-## Conclusion y Proximos Pasos
-
-**Decisión: Hold — Pregunta de Investigación (Research Question)**
+**Decisión: Hold**
 
 **Justificación:**
-La relación mecanística entre pertuzumab y el subtipo "normal-like" de carcinoma de mama es débil (este subtipo no suele estar impulsado por HER2), y la evidencia clínica disponible es completamente indirecta (ensayos en población HER2+ general, sin estratificación por este subtipo) y sin ningún respaldo en literatura publicada.
+Solo hay ensayos de Fase 2 (uno completado, con 23 pacientes) y ninguna publicación para esta etiqueta. Además, "normal-like" es un subtipo molecular, no un estado de HER2, por lo que el beneficio solo se podría atribuir al subgrupo HER2 positivo, que ya está cubierto por el uso aprobado.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de acción (MOA) verificados desde DrugBank (brecha DG002)
-- Advertencias, contraindicaciones e interacciones farmacológicas desde el prospecto oficial (brecha DG001, bloqueante para evaluación de seguridad S1)
-- Un ensayo o estudio traslacional que estratifique específicamente por el subtipo molecular "normal-like" (PAM50), en lugar de por estatus HER2 general
-- Nota: dentro del mismo evidence pack, las indicaciones relacionadas **"progesterone-receptor positive breast cancer"** y **"progesterone-receptor negative breast cancer"** (rangos 2 y 3, mismo score TxGNN) presentan evidencia sustancialmente más sólida (L1, múltiples ensayos Fase 3 completados, recomendación "Proceed with Guardrails") y podrían priorizarse como vía de avance más inmediata para este fármaco
+- Ficha técnica de la AEMPS con indicaciones, advertencias y contraindicaciones.
+- Definir cómo se asigna la etiqueta "normal-like" al estado HER2 y demostrar beneficio específico en ese subgrupo.
+- Resultados publicados de los ensayos de Fase 2 en curso o una búsqueda bibliográfica dirigida.
+- Datos de mecanismo de acción y de seguridad de DrugBank.
+
+**Nota:** en el mismo análisis, las predicciones para cáncer de mama con receptor de progesterona positivo y negativo tienen nivel L1 (Fase 3 completados), pero se solapan con el uso ya aprobado en HER2 positivo. Allí el estado del receptor sirve para estratificar y no constituye una indicación nueva.
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
