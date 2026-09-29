@@ -2,7 +2,7 @@
 layout: default
 title: Lusutrombopag
 parent: Solo predicción del modelo (L5)
-nav_order: 175
+nav_order: 336
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,71 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# LUSUTROMBOPAG: De Trombocitopenia a Trombocitopenia Hereditaria con Plaquetas Normales
+# Lusutrombopag: De Trombocitopenia en Hepatopatía Crónica a Trombocitopenia Hereditaria con Plaquetas Normales
 
 ## Resumen en Una Frase
 
-Lusutrombopag es un agonista del receptor de trombopoyetina (TPO-RA); su indicación original detallada y su mecanismo de acción completo no están disponibles en las fuentes consultadas (brecha de datos bloqueante). El modelo TxGNN predice que podría ser efectivo para **Trombocitopenia Hereditaria con Plaquetas Normales**, con una puntuación de **99.995%**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección.
+Lusutrombopag es un agonista del receptor de trombopoyetina (TPO-R). Los datos de autorización de AEMPS no registran su indicación original, pero se conoce su uso en la trombocitopenia asociada a hepatopatía crónica.
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia hereditaria con plaquetas normales**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se apoya solo en el modelo.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en las fuentes consultadas (clase farmacológica: agonista del receptor de TPO) |
-| Nueva Indicacion Predicha | Trombocitopenia Hereditaria con Plaquetas Normales |
-| Puntaje de Prediccion TxGNN | 99.995% |
+| Indicación Original | No disponible en los datos de AEMPS (uso conocido: trombocitopenia en hepatopatía crónica antes de procedimientos invasivos) |
+| Nueva Indicación Predicha | Trombocitopenia hereditaria con plaquetas normales |
+| Puntaje de Predicción TxGNN | 99.995% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, lusutrombopag es un agonista del TPO-R que estimula la megacariopoyesis (la producción de plaquetas). Mecanísticamente podría aplicarse a trombocitopenias hereditarias, donde el objetivo sería aumentar el recuento plaquetario.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de Lusutrombopag (brecha de datos DG002, severidad Alta). Según la información disponible en el análisis de reposicionamiento, Lusutrombopag es un **agonista del receptor de trombopoyetina (TPO-RA)**, clase farmacológica que estimula la proliferación y maduración de megacariocitos para incrementar el recuento plaquetario, de forma análoga a otros fármacos de la clase como eltrombopag o romiplostim.
+La razonabilidad es **plausible pero no verificada**. La etiqueta de la enfermedad es ambigua (trombocitopenia con "plaquetas normales") y la causa genética no está especificada. Por eso no se sabe si el defecto se sitúa antes de la señalización del TPO-R, lo que condiciona que el fármaco pueda actuar.
 
-Sin embargo, el vínculo mecanístico con la indicación predicha es débil. El propio nombre de la enfermedad — "trombocitopenia hereditaria **con plaquetas normales**" — es internamente contradictorio: sugiere un trastorno **funcional** de las plaquetas (defecto cualitativo) más que un déficit de **producción** (defecto cuantitativo). Un TPO-RA actúa aumentando la cantidad de plaquetas producidas, pero no corrige defectos estructurales o funcionales intrínsecos, por lo que su aplicabilidad terapéutica en este contexto es cuestionable.
+Las puntuaciones altas del modelo no equivalen a evidencia clínica. Para esta indicación no hay ensayos ni literatura que confirmen el beneficio.
 
-La puntuación elevada de TxGNN probablemente refleja una agrupación semántica en el espacio de embeddings alrededor del término "thrombocytopenia", más que una correspondencia mecanística real. Esto se refuerza por el hecho de que, de las 10 indicaciones predichas en este candidato, ninguna cuenta con ensayo clínico ni publicación alguna, y varias (esclerosis lateral amiotrófica, polimicrogiria, displasia esquelética) carecen de cualquier relación biológica plausible con el eje TPO/MPL, lo que sugiere ruido del modelo antes que señal genuina.
+## Evidencia de Ensayos Clínicos
 
----
-
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clinicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
 
-## Informacion de Mercado en Espana
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 1181348001 | MULPLEO 3 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | Shionogi B.V. |
 
-Lusutrombopag no está comercializado en España (0 autorizaciones registradas), por lo que no hay información de producto, forma farmacéutica ni indicación aprobada disponible en este mercado.
-
----
+El texto de indicación aprobada no figura en los datos recibidos.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. (La advertencia principal del TFDA está identificada como brecha de datos bloqueante — DG001 — que impide actualmente la evaluación de seguridad inicial S1; no se dispone de contraindicaciones ni interacciones farmacológicas verificadas.)
+Consultar el prospecto para información de seguridad.
 
----
+## Conclusión y Próximos Pasos
 
-## Conclusion y Proximos Pasos
+**Decisión: Hold**
 
-**Decision: Hold**
-
-**Justificacion:**
-La predicción se apoya únicamente en la puntuación del modelo TxGNN (L5), sin ningún ensayo clínico, dato observacional o publicación que la respalde, y el mecanismo propuesto es mecanísticamente débil dado el carácter aparentemente funcional (no cuantitativo) del trastorno. Además, el candidato carece de datos de seguridad verificados (MOA y advertencias TFDA son brechas bloqueantes), y el fármaco no está comercializado en España.
+**Justificación:**
+La predicción es solo del modelo (nivel L5), sin ensayos ni literatura. La enfermedad está mal definida y no hay datos de seguridad locales. Las otras nueve predicciones tampoco tienen evidencia:
+- Las trombocitopenias, como la macrotrombocitopenia con insuficiencia mitral y la trombocitopenia neonatal transitoria, son mecanísticamente coherentes pero tienen una relación beneficio-riesgo poco clara.
+- Las enfermedades de función plaquetaria (enfermedad de gránulos densos y déficit del pool de almacenamiento) tienen un vínculo débil.
+- La esclerosis lateral amiotrófica y las demás entidades neurológicas o esqueléticas no tienen vínculo mecanístico y probablemente son artefactos del grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- Resolver la brecha bloqueante DG001: obtener y analizar el prospecto/ficha técnica de TFDA para habilitar la evaluación de seguridad S1
-- Completar los datos de mecanismo de acción (MOA) detallado (DG002)
-- Clarificar la definición clínica exacta de "trombocitopenia hereditaria con plaquetas normales" para confirmar si el defecto es cuantitativo o cualitativo
-- Estudios preclínicos o de caso que evalúen TPO-RA en trastornos funcionales plaquetarios antes de considerar cualquier avance
-- Revisar el resto de las 9 indicaciones predichas en este candidato, dado que ninguna presenta evidencia real y varias carecen de plausibilidad biológica
+- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un vacío bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir con precisión la enfermedad predicha y su causa genética, para confirmar si el defecto es sensible a la señalización TPO-R.
+- Hacer una búsqueda sistemática de literatura y de registros de ensayos (ClinicalTrials.gov, ICTRP) sobre trombocitopenias hereditarias.
+- Evaluar el riesgo trombótico y los datos de seguridad en poblaciones especiales, incluida la pediátrica y neonatal.
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

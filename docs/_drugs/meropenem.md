@@ -2,7 +2,7 @@
 layout: default
 title: Meropenem
 parent: Evidencia moderada (L3-L4)
-nav_order: 179
+nav_order: 344
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,70 +29,98 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Meropenem: De Infecciones Bacterianas Graves a Artritis Bacteriana
+# Meropenem: De Antibiótico Carbapenémico a Artritis Bacteriana
 
 ## Resumen en Una Frase
 
-Meropenem es un antibiótico carbapenémico de amplio espectro, utilizado originalmente para infecciones bacterianas graves como infección intraabdominal complicada, infección de piel y tejidos blandos, y meningitis bacteriana. El modelo TxGNN predice que podría ser efectivo para **Artritis Bacteriana**, con **1 ensayo clínico** y **20 publicaciones** identificadas en la búsqueda actual, aunque la mayoría son evidencia indirecta (casos clínicos y estudios de melioidosis osteoarticular) más que ensayos controlados dirigidos a esta indicación.
+Meropenem es un antibiótico carbapenémico de amplio espectro que actúa inhibiendo las proteínas de unión a penicilinas (PBP) bacterianas.
+El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana**, pero la evidencia es débil: hay **1 ensayo clínico** (sin relación con meropenem) y **20 publicaciones**, casi todas informes de caso, revisiones y estudios in vitro o farmacocinéticos.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones bacterianas graves de amplio espectro (intraabdominal complicada, piel/tejidos blandos, meningitis bacteriana) — según literatura de referencia (PMID 18416587); sin registro de licencia en España |
-| Nueva Indicación Predicha | Artritis Bacteriana |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Nueva Indicación Predicha | Artritis bacteriana |
+| Puntaje de Predicción TxGNN | 99,92 % |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Research Question (Pregunta de Investigación) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción específico en la ficha del fármaco. Según la información recopilada de la literatura, Meropenem pertenece a la clase de los carbapenems, actuando mediante inhibición de la síntesis de la pared celular bacteriana por unión a las proteínas fijadoras de penicilina (PBP), con un espectro amplio que cubre bacterias Gram-positivas, Gram-negativas (incluidas cepas productoras de ESBL/CRE) y anaerobias.
+## ¿Por qué es Razonable esta Predicción?
 
-Los patógenos que causan artritis bacteriana séptica (incluyendo *Burkholderia pseudomallei*/melioidosis, *Klebsiella pneumoniae* productora de ESBL, y otros bacilos Gram-negativos multirresistentes) se encuentran dentro del espectro antimicrobiano de meropenem. Existen datos farmacocinéticos que respaldan su penetración en tejido óseo/articular (por ejemplo, estudios de elución en cemento óseo PMMA), y casos clínicos documentan su uso exitoso en artritis séptica por Klebsiella ESBL en combinación con amikacina.
+Meropenem inhibe las PBP y bloquea la síntesis de la pared celular bacteriana. Es estable frente a la mayoría de las betalactamasas, incluidas las BLEE. Cubre muchos patógenos gramnegativos y grampositivos que causan artritis séptica. No se dispone de datos detallados del mecanismo de acción en el Evidence Pack. Esta descripción proviene de la justificación mecanística incluida en las predicciones.
 
-Sin embargo, la evidencia actual es predominantemente observacional: series de casos, estudios de cohorte retrospectivos sobre melioidosis osteoarticular y reportes individuales, sin ensayos clínicos prospectivos controlados diseñados específicamente para artritis bacteriana. Esto sitúa la predicción como una hipótesis mecanísticamente plausible, pero que requiere validación clínica adicional antes de avanzar a una etapa de decisión más definitiva.
+La relación con la artritis bacteriana es plausible porque esta enfermedad es una infección articular causada por bacterias sensibles al fármaco. Un ejemplo es *Burkholderia pseudomallei* en la melioidosis osteoarticular: en una serie de 22 casos, todos los aislados fueron sensibles a meropenem. También hay un informe de caso de artritis séptica por *Klebsiella pneumoniae* productora de BLEE, tratada con éxito con meropenem y amikacina junto con lavado artroscópico.
+
+La limitación principal es que los datos sobre penetración del fármaco en articulación y hueso son escasos. Además, la evidencia no proviene de ensayos que evalúen meropenem directamente para esta indicación.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Fase 3 | Completado | 624 | Ensayo sobre levofloxacino para prevenir bacteriemia en niños con leucemia aguda/trasplante de células madre; relevancia baja (grado C) — no evalúa meropenem ni artritis bacteriana directamente |
+| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Fase 3 | Completado | 624 | Levofloxacino para prevenir bacteriemia en niños con leucemia aguda o trasplante de progenitores hematopoyéticos. No incluye meropenem ni infección articular (relevancia baja). |
+
+---
 
 ## Evidencia de Literatura
 
+No hay ensayos clínicos aleatorizados entre las publicaciones recuperadas. Se listan las más relevantes:
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17433752](https://pubmed.ncbi.nlm.nih.gov/17433752/) | 2007 | Reporte de Caso | Joint Bone Spine | Dos pacientes inmunocomprometidos con artritis séptica por *Klebsiella pneumoniae* productora de ESBL, tratados con éxito con meropenem + amikacina más lavado artroscópico |
-| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Retrospectivo | Indian J Med Microbiol | Revisión de 22 casos de melioidosis musculoesquelética (osteomielitis, artritis séptica); todos los aislados sensibles a meropenem |
-| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Cohorte | Le Infezioni in Medicina | Estudio de cohorte retrospectivo de melioidosis osteoarticular, enfermedad desatendida con afectación ósea/articular focal |
-| [39380073](https://pubmed.ncbi.nlm.nih.gov/39380073/) | 2024 | Reporte de Caso | J Med Case Reports | Melioidosis diseminada con artritis séptica, desafío diagnóstico frente a tuberculosis |
-| [38139869](https://pubmed.ncbi.nlm.nih.gov/38139869/) | 2023 | Reporte de Caso | Pharmaceuticals (Basel) | Artritis séptica de cadera por *Bacillus pumilus* y *Paenibacillus barengoltzii* en paciente inmunocompetente |
-| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | Estudio in vitro | J Bone Joint Surg Am | Estabilidad térmica y cinética de elución de meropenem (junto a otros antibióticos) en cemento óseo PMMA para infecciones ortopédicas |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Epidemiológico | Clinical Laboratory | Distribución de patógenos y resistencia antimicrobiana en infecciones óseas y articulares en niños menores de 4 años |
-| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | Antibiograma | Eur J Orthop Surg Traumatol | Desarrollo de antibiograma empírico para infecciones ortopédicas no espinales en entorno de recursos limitados |
-| [31319190](https://pubmed.ncbi.nlm.nih.gov/31319190/) | 2019 | Preclínico | Int J Antimicrob Agents | Espaciador de cemento con colistina para infección protésica articular por *Klebsiella* productora de carbapenemasa (modelo animal) |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Revisión | Int J Antimicrob Agents | Revisión sobre uso off-label de antibióticos convencionales y nuevos frente a bacterias multirresistentes |
+| [17433752](https://pubmed.ncbi.nlm.nih.gov/17433752/) | 2007 | Informe de caso | Joint Bone Spine | Dos pacientes inmunodeprimidos con artritis séptica por *K. pneumoniae* productora de BLEE, tratados con meropenem y amikacina más lavado artroscópico. |
+| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Revisión retrospectiva | Indian J Med Microbiol | 22 casos de melioidosis musculoesquelética (9 con artritis séptica). Todos los aislados fueron sensibles a meropenem. |
+| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Cohorte | Le Infezioni in Medicina | Estudio retrospectivo que caracteriza la melioidosis osteoarticular, una enfermedad desatendida. |
+| [39380073](https://pubmed.ncbi.nlm.nih.gov/39380073/) | 2024 | Informe de caso | J Med Case Reports | Melioidosis diseminada con artritis séptica, mal diagnosticada al inicio como tuberculosis u otra infección bacteriana. |
+| [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Revisión | Pathogens | Opciones terapéuticas para melioidosis: antibióticos frente a terapia con fagos. |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Revisión | Int J Antimicrob Agents | Uso fuera de indicación frente a recomendaciones formales de antibióticos en infecciones por bacterias multirresistentes. |
+| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | Estudio in vitro | J Bone Joint Surg Am | Estabilidad térmica y cinética de elución de meropenem, amikacina, minociclina y fosfomicina en cemento óseo PMMA. |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Estudio observacional | Clin Lab | Distribución de patógenos y resistencia antimicrobiana en infecciones óseas y articulares en niños menores de cuatro años. |
+| [31319190](https://pubmed.ncbi.nlm.nih.gov/31319190/) | 2019 | Modelo animal | Int J Antimicrob Agents | Espaciador de cemento con colistina en infección protésica articular experimental por *K. pneumoniae* productora de carbapenemasa. |
+| [38139869](https://pubmed.ncbi.nlm.nih.gov/38139869/) | 2023 | Informe de caso | Pharmaceuticals | Artritis séptica de cadera por *Bacillus pumilus* y *Paenibacillus barengoltzii*, tratada con linezolid (no con meropenem). |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 74304 | MEROPENEM AUROVIT 1000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | Polvo para solución inyectable y para perfusión |
+| 88903 | MEROPENEM VENUS PHARMA 2000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | Polvo para solución inyectable y para perfusión |
+| 60639 | MERONEM I.V. 500 mg POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION | Polvo para solución inyectable y para perfusión |
+| 81049 | MEROPENEM AUROVITAS 1000 MG POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | Polvo para solución inyectable y para perfusión |
+| 75815 | MEROPENEM ACCORDPHARMA 500 mg POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | Polvo para solución inyectable |
+
+Los registros de AEMPS recibidos no incluyen el texto de las indicaciones aprobadas. Hay 20 autorizaciones en total; se muestran las 5 principales.
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
+---
+
 ## Conclusión y Próximos Pasos
 
-**Decisión: Research Question (Pregunta de Investigación)**
+**Decisión: Hold**
 
 **Justificación:**
-El puntaje de predicción de TxGNN es muy elevado y el espectro antimicrobiano de meropenem cubre plausiblemente a los patógenos causantes de artritis bacteriana (incluida melioidosis osteoarticular y Gram-negativos multirresistentes), pero la evidencia disponible se limita a nivel L3 (casos clínicos y cohortes retrospectivas), sin ensayos clínicos prospectivos controlados dirigidos específicamente a esta indicación. El único ensayo clínico recuperado no es directamente relevante (evalúa levofloxacino, no meropenem).
+La predicción es mecanísticamente plausible y hay casos y series que sugieren utilidad en infecciones articulares por patógenos resistentes. Sin embargo, no existe ningún ensayo que evalúe meropenem en artritis bacteriana. Además, faltan los datos de seguridad de la ficha técnica de AEMPS, lo que impide superar el cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Ensayo clínico prospectivo controlado de meropenem específicamente en artritis bacteriana/séptica
-- Datos de advertencias y contraindicaciones del prospecto TFDA/AEMPS (brecha bloqueante identificada, DG001) — indispensable antes de cualquier evaluación de seguridad S1
-- Datos detallados del mecanismo de acción (MOA) (brecha alta, DG002)
-- Verificación del estado real de comercialización en España, dado que los datos actuales indican "no comercializado" con 0 autorizaciones
-- Datos específicos de penetración y dosificación en tejido óseo/articular en humanos
+- Obtener y revisar la ficha técnica de AEMPS (advertencias y contraindicaciones).
+- Datos de penetración de meropenem en líquido sinovial y hueso.
+- Estudios comparativos prospectivos en artritis séptica por patógenos multirresistentes (BLEE, *B. pseudomallei*).
+- Definir condiciones de uso restringido a patógenos resistentes, con criterios de estewardship de carbapenémicos.
+- Como referencia, otra predicción del mismo fármaco, la infección urinaria complicada, tiene evidencia L1 (ensayos de fase 3) y podría priorizarse.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,15 +2,15 @@
 layout: default
 title: Indinavir
 parent: Evidencia moderada (L3-L4)
-nav_order: 145
-evidence_level: L3
+nav_order: 278
+evidence_level: L4
 indication_count: 7
 ---
 
 # Indinavir
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,66 +29,95 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-# Indinavir: De Infección por VIH/SIDA a Infección por el Virus de Inmunodeficiencia Símica (SIV)
+# Indinavir: De Infección por VIH-1 a Infección por el Virus de la Inmunodeficiencia Simia (SIV)
 
 ## Resumen en Una Frase
 
-Indinavir es un inhibidor de la proteasa del VIH-1, aprobado originalmente (como Crixivan®, 1996) para el tratamiento de la infección por VIH/SIDA. El modelo TxGNN predice que también sería relevante para la **infección por el virus de inmunodeficiencia símica (SIV)**, un modelo animal de infección retroviral usado en investigación preclínica, respaldado actualmente por **12 publicaciones** pero **sin ningún ensayo clínico en humanos**.
+Indinavir es un inhibidor de la proteasa del VIH-1, comercializado en España como Crixivan y utilizado en el tratamiento de la infección por VIH.
+El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la inmunodeficiencia simia (SIV)**, con **0 ensayos clínicos** y **11 publicaciones** preclínicas (macacos y estudios in vitro).
+Se trata de una enfermedad de un modelo animal no humano, por lo que la predicción refleja sobre todo la similitud VIH/SIV y no una nueva indicación en humanos.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Infección por VIH/SIDA (Crixivan®, aprobado 1996) |
-| Nueva Indicacion Predicha | Infección por el virus de inmunodeficiencia símica (SIV) |
-| Puntaje de Prediccion TxGNN | 99.99% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Indicación Original | Infección por VIH-1 (deducida del mecanismo del fármaco; los textos de indicación de AEMPS están vacíos) |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (SIV) |
+| Puntaje de Predicción TxGNN | 99.99% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-El campo formal de mecanismo de acción (MOA) está marcado como dato faltante en la base, pero la propia evidencia del paquete confirma que Indinavir es un **inhibidor de la proteasa aspártica del VIH-1**, pieza central de los esquemas HAART de los años 90, hoy retirado del mercado en la mayoría de países (incluida España) por la aparición de fármacos de nueva generación con menor toxicidad.
+## ¿Por qué es Razonable esta Predicción?
 
-La proteasa del SIV comparte alta homología estructural con la proteasa del VIH-1, lo que constituye la base mecanística de la predicción. Dos estudios in vitro del propio paquete lo demuestran directamente: PMID 12709355 midió concentraciones efectivas de indinavir similares para inhibir SIVmac239 (39±8 nM) y VIH-1 (66±4 nM), y PMID 15040537 confirmó actividad cruzada de indinavir frente a VIH-2, SIV y SHIV.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, indinavir inhibe la proteasa del VIH-1, una enzima esencial para la maduración de las partículas virales. Su eficacia en la infección por VIH es la razón de su uso clínico, y mecanísticamente podría ser aplicable al SIV.
 
-Sin embargo, es importante señalar la limitación traslacional: **el SIV es una enfermedad de primates no humanos**, utilizada como modelo preclínico para estudiar profilaxis y patogénesis del VIH, no una indicación clínica humana. La evidencia disponible es enteramente animal/in vitro, sin ningún ensayo clínico que traduzca este hallazgo a pacientes.
+La proteasa del SIV está estrechamente relacionada con la del VIH-1. Un estudio in vitro (PMID 12709355) mostró que indinavir inhibe SIVmac239 con una concentración eficaz 50% de 39 ± 8 nM, frente a 66 ± 4 nM para el VIH-1. Varios estudios en macacos usaron indinavir dentro de combinaciones antirretrovirales, por ejemplo con zidovudina y lamivudina en profilaxis postexposición.
 
-## Evidencia de Ensayos Clinicos
+Esta predicción debe interpretarse con cautela. El SIV es un virus de primates no humanos que se usa como modelo experimental del sida, y no existe una vía de desarrollo clínico en humanos. El puntaje TxGNN de 0.9999 probablemente refleja la similitud entre VIH y SIV en el grafo de conocimiento, más que un hallazgo terapéutico nuevo.
+
+---
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Estudio animal (PEP) | AIDS | Profilaxis post-exposición vaginal con AZT+3TC+indinavir en macacas, evaluando prevención de transmisión de SIV |
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro/Farmacodinamia | Antimicrob Agents Chemother | Comparación directa de susceptibilidad de SIV vs VIH-1 a indinavir, saquinavir y ritonavir; potencia similar entre ambos virus |
-| [12804006](https://pubmed.ncbi.nlm.nih.gov/12804006/) | 2003 | Mecanismo farmacológico in vitro | AIDS Res Hum Retroviruses | HAART (AZT+3TC+indinavir) modula expresión de P-glicoproteína y cinasas celulares en modelo primate de SIDA |
-| [20868521](https://pubmed.ncbi.nlm.nih.gov/20868521/) | 2010 | Estudio animal | Retrovirology | Efecto de HAART de corto plazo sobre carga de SIV en tejidos de macacos, según momento de inicio |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro/Farmacodinamia | Antivir Ther | Susceptibilidad de VIH-2, SIV y SHIV a 16 antirretrovirales aprobados, incluido indinavir |
-| [11689641](https://pubmed.ncbi.nlm.nih.gov/11689641/) | 2001 | Estudio animal | J Virol | Defecto hematopoyético persistente en médula ósea de macacos con SHIV pese a HAART eficaz |
-| [15378436](https://pubmed.ncbi.nlm.nih.gov/15378436/) | 2004 | Estudio animal | J Infect Dis | Respuesta de células T Vγ2Vδ2+ en coinfección micobacteriana de macacos con SIV bajo tenofovir±indinavir |
-| [11507214](https://pubmed.ncbi.nlm.nih.gov/11507214/) | 2001 | Estudio animal | J Virol | Antirretrovirales restauran inmunidad anti-Mycobacterium y controlan enfermedad tipo tuberculosis en macacos SIV/BCG |
-| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Estudio animal | J Virol | Cinética de proliferación linfocitaria en infección primaria por SIV, efecto de profilaxis temprana con AZT+3TC+indinavir |
-| [22615988](https://pubmed.ncbi.nlm.nih.gov/22615988/) | 2012 | No clasificado | PLoS One | Impacto de HAART iniciada en fase crónica o post-exposición sobre infección por SIV en órganos genitales masculinos |
+| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Estudio preclínico en animales | AIDS | Evalúa la profilaxis postexposición con zidovudina, lamivudina e indinavir tras exposición vaginal en macacos; el título señala prevención de la transmisión de SIV |
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | Estudio in vitro | Antimicrob Agents Chemother | Indinavir inhibe SIVmac239 (CE50 39 nM), con potencia comparable a la del VIH-1 (66 nM) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Estudio in vitro | Antivir Ther | Compara la actividad de 16 antirretrovirales aprobados frente a HIV-2, SIV y SHIV; aporta datos para tratamiento y profilaxis postexposición |
+| [20868521](https://pubmed.ncbi.nlm.nih.gov/20868521/) | 2010 | Estudio preclínico en animales | Retrovirology | Un TARGA de corta duración en macacos afecta la carga de SIV en los tejidos según el momento de inicio y la difusión de los antivirales |
+| [22615988](https://pubmed.ncbi.nlm.nih.gov/22615988/) | 2012 | Estudio preclínico en animales | PLoS One | Impacto de un TARGA breve, iniciado en fase crónica o poco después de la exposición, sobre la infección por SIV de los órganos genitales masculinos |
+| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Estudio preclínico en animales | J Virol | Cinética de la proliferación linfocitaria en la infección primaria por SIVmac251 y efecto preliminar de la profilaxis antirretroviral temprana |
+| [11689641](https://pubmed.ncbi.nlm.nih.gov/11689641/) | 2001 | Estudio preclínico en animales | J Virol | En macacos con SHIV, el defecto de hematopoyesis medular aparece pronto y persiste pese a la reducción eficaz de la viremia con TARGA |
+| [12804006](https://pubmed.ncbi.nlm.nih.gov/12804006/) | 2003 | Estudio in vitro / celular | AIDS Res Hum Retroviruses | La infección y el TARGA (AZT, 3TC, indinavir) modulan la expresión de glucoproteína P y de quinasas celulares en un modelo de primates |
+| [15378436](https://pubmed.ncbi.nlm.nih.gov/15378436/) | 2004 | Estudio preclínico en animales | J Infect Dis | En macacos con SIV y coinfección por micobacterias tratados con tenofovir o tenofovir + indinavir, se estudia el desarrollo de respuestas de linfocitos T Vγ2Vδ2 |
+| [11507214](https://pubmed.ncbi.nlm.nih.gov/11507214/) | 2001 | Estudio preclínico en animales | J Virol | Los antirretrovirales restauran la inmunidad T específica contra micobacterias en macacos coinfectados con SIV y BCG |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 96024005 | CRIXIVAN 400 MG CAPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
+| 96024003 | CRIXIVAN 200 MG CAPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
+| 96024009 | CRIXIVAN 400 mg CAPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
+
+Titular de las tres autorizaciones: Merck Sharp & Dohme B.V.
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-Toda la evidencia disponible es preclínica (modelos animales de macacos) o in vitro; no existe ningún ensayo clínico en humanos para esta indicación, y el SIV en sí no es una enfermedad humana, sino un modelo de investigación para VIH. El valor traslacional directo es limitado.
+**Decisión: Hold**
+
+**Justificación:**
+La única evidencia disponible es preclínica (macacos y estudios in vitro), sin ensayos clínicos. El SIV es una enfermedad de un modelo animal, sin vía de desarrollo clínico en humanos, y el puntaje TxGNN probablemente refleja la similitud con el VIH. Por tanto, no constituye una oportunidad real de reposicionamiento.
 
 **Para avanzar se necesita:**
-- Identificar una indicación humana equivalente (p. ej., profilaxis/tratamiento de VIH) donde trasladar la evidencia de homología SIV/VIH-1, en vez de tratar el SIV como indicación final
-- Datos formales de mecanismo de acción (MOA) y ficha técnica TFDA (advertencias/contraindicaciones), actualmente bloqueantes según el registro de vacíos de datos (DG001, DG002)
-- Nota de priorización: el candidato de rango 5 en este mismo paquete, **"AIDS related complex"**, ya cuenta con nivel de evidencia L1, 6 ensayos clínicos (incluyendo Fase 1–4) y recomendación "Proceed with Guardrails" — es un candidato mucho más avanzado y debería priorizarse sobre esta indicación de rango 1 basada solo en modelo animal
+- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), y confirmar el texto de indicación aprobado
+- Consultar el mecanismo de acción en DrugBank
+- Verificar la indicación original en la base regulatoria, ya que los textos de indicación están vacíos
+- Reorientar la evaluación hacia predicciones con relevancia humana. "Complejo relacionado con el sida" (nivel L2) y "VIH congénito" (nivel L3) coinciden con la indicación ya conocida del VIH, por lo que no son reposicionamiento en sentido estricto. En el segundo caso, la seguridad perinatal es la principal incógnita.
+
+*Este informe es solo de referencia para la investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

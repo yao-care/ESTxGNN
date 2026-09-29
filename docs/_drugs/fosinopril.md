@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fosinopril
-parent: Evidencia moderada (L3-L4)
-nav_order: 126
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 247
+evidence_level: L5
 indication_count: 5
 ---
 
 # Fosinopril
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,70 +29,74 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Fosinopril: De Hipertensión Arterial a Nefropatía Hipertensiva Maligna
+# Fosinopril: De Indicación Original No Registrada a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Fosinopril es un inhibidor de la enzima convertidora de angiotensina (IECA), una clase farmacológica cuyo uso establecido es el tratamiento de la hipertensión arterial. El modelo TxGNN predice que podría ser efectivo para la **Nefropatía Hipertensiva Maligna** (malignant hypertensive renal disease), con una puntuación de predicción del **99.87%**, pero actualmente **no hay ningún ensayo clínico ni publicación** que respalde directamente esta indicación específica: la hipótesis se apoya únicamente en la extrapolación del mecanismo farmacológico de la clase IECA.
-
----
+Fosinopril es un inhibidor de la enzima convertidora de angiotensina (IECA) comercializado en España, pero el Evidence Pack no incluye el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**,
+con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en las fuentes consultadas (Fosinopril no está comercializado en España, sin autorizaciones registradas). Como referencia de clase, los IECA se indican habitualmente para hipertensión arterial. |
-| Nueva Indicación Predicha | Nefropatía Hipertensiva Maligna (malignant hypertensive renal disease) |
+| Indicación Original | No disponible (las 4 autorizaciones no tienen texto de indicación) |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
 | Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, fosinopril es un inhibidor de la ECA que reduce la angiotensina II y atenúa la vasoconstricción dependiente del sistema renina-angiotensina-aldosterona (SRAA), incluida la hipertensión intraglomerular.
 
-No se dispone de datos estructurados sobre el mecanismo de acción de Fosinopril en la ficha del fármaco (campo marcado como no disponible). Sin embargo, la propia justificación mecanística del candidato indica que Fosinopril es un inhibidor de la ECA que actúa suprimiendo el sistema renina-angiotensina-aldosterona (RAAS), reduciendo tanto la presión arterial sistémica como la presión intraglomerular renal.
+Esto es plausible frente al daño renal hipertensivo, porque el SRAA participa en la lesión renal por presión elevada. Sin embargo, la relación con la indicación original no pudo evaluarse, ya que no hay texto de indicación y la similitud con la indicación original figura como pendiente.
 
-Esta acción sobre el RAAS tiene una relación teórica directa con la nefropatía hipertensiva maligna, ya que el daño renal en esta condición está mediado precisamente por presiones sistémicas e intraglomerulares elevadas. La reducción farmacológica de estas presiones es un mecanismo de protección renal ya reconocido para la clase IECA en otras nefropatías hipertensivas.
-
-Dicho esto, esta relación es una extrapolación del efecto de clase de los IECA, no una evidencia específica para Fosinopril en esta indicación: no existen ensayos clínicos, estudios preclínicos dirigidos ni literatura que evalúen este fármaco en este contexto concreto. Por ello el nivel de evidencia se mantiene bajo (L4), correspondiente a un razonamiento mecanístico sin respaldo experimental directo.
-
----
+Además, la hipertensión maligna es una emergencia hipertensiva que normalmente se maneja con fármacos intravenosos titulables. Fosinopril se comercializa solo en comprimidos orales, así que la compatibilidad de vía de administración también está pendiente de evaluar. El puntaje alto del grafo de conocimiento no debe interpretarse como respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 59716 | FOSITENS 20 mg COMPRIMIDOS | Comprimido | Bausch Health Ireland Limited |
+| 83239 | FOSINOPRIL AUROVITAS 20 MG COMPRIMIDOS EFG | Comprimido | Aurovitas Spain, S.A.U. |
+| 74975 | FOSINOPRIL AUROBINDO 20 mg COMPRIMIDOS EFG | Comprimido | Laboratorios Aurobindo S.L.U. |
+| 66779 | FOSINOPRIL TEVA 20 mg COMPRIMIDOS EFG | Comprimido | Teva Pharma S.L.U. |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-*Nota: existe una brecha de datos de severidad "Blocking" (DG001) sobre el prospecto/advertencias de la agencia reguladora, lo que impide actualmente completar la evaluación de seguridad inicial (S1) de este candidato.*
-
----
+Como precaución derivada del análisis de las predicciones, los IECA pueden provocar lesión renal aguda en caso de estenosis bilateral de la arteria renal o estenosis de un riñón único. Esto es relevante para la predicción vecina de hipertensión renovascular maligna y exige una revisión de seguridad antes de cualquier avance.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se sustenta únicamente en la extrapolación del mecanismo de clase de los IECA (nivel de evidencia L4), sin ningún ensayo clínico ni publicación específica sobre Fosinopril en nefropatía hipertensiva maligna. Además, el fármaco no está comercializado en España y existe una brecha de datos de seguridad de severidad bloqueante que impide completar la evaluación inicial de seguridad.
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura específica. Además, faltan datos regulatorios y de seguridad, y la vía oral podría no ser adecuada para una emergencia hipertensiva.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica oficial (advertencias y contraindicaciones) para completar la evaluación de seguridad S1
-- Confirmar el mecanismo de acción (MOA) mediante DrugBank u otra fuente estructurada
-- Buscar o generar evidencia preclínica dirigida (modelos animales de nefropatía hipertensiva maligna) antes de considerar estudios clínicos
-- Evaluar la viabilidad regulatoria dado que el fármaco actualmente no tiene autorizaciones en España
+- Obtener el prospecto de AEMPS para completar advertencias, contraindicaciones e indicación original (brecha bloqueante)
+- Obtener datos del mecanismo de acción desde DrugBank
+- Realizar una búsqueda de literatura dirigida a fosinopril o IECA en hipertensión maligna y nefropatía hipertensiva
+- Evaluar la compatibilidad de vía de administración (oral frente a intravenosa)
+- Realizar una revisión de seguridad renal previa a cualquier paso posterior
+
+**Nota sobre otras predicciones:** las otras cuatro predicciones (hipertensión renovascular maligna, dos formas de hipertensión pulmonar y síndrome de Braddock) también tienen nivel L5 y recomendación Hold. La literatura recuperada para la hipertensión pulmonar por enfermedad pulmonar o hipoxia trata la hipoxia en general y no aborda fosinopril ni hipertensión pulmonar, por lo que no constituye evidencia de apoyo.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

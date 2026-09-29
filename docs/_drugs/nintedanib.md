@@ -2,7 +2,7 @@
 layout: default
 title: Nintedanib
 parent: Evidencia moderada (L3-L4)
-nav_order: 197
+nav_order: 381
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,76 +29,72 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Nintedanib: De Fibrosis Pulmonar Idiopática a Dermatofibrosarcoma Protuberante
+# Nintedanib: Hacia Dermatofibrosarcoma Protuberans (Indicación Original No Disponible en los Datos)
 
 ## Resumen en Una Frase
 
-Nintedanib es un inhibidor triple de angioquinasas (VEGFR/FGFR/PDGFR), conocido internacionalmente por su uso en fibrosis pulmonar idiopática y, en combinación con docetaxel, en cáncer de pulmón no microcítico. El modelo TxGNN predice que podría ser efectivo para **Dermatofibrosarcoma Protuberante (DFSP)**, aunque actualmente esta dirección se apoya únicamente en **1 publicación** de revisión sobre la clase farmacológica, sin ensayos clínicos ni literatura específica del fármaco.
-
----
+Nintedanib es un inhibidor multidiana de tirosina quinasas comercializado en España. Los datos suministrados no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **dermatofibrosarcoma protuberans (DFSP)**,
+pero por ahora solo lo respalda **1 publicación** (una revisión indirecta) y **ningún ensayo clínico**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fibrosis Pulmonar Idiopática (FPI) — según conocimiento general del fármaco; no confirmada por licencias en España (mercado no comercializado) |
-| Nueva Indicación Predicha | Dermatofibrosarcoma Protuberante |
+| Nueva Indicación Predicha | Dermatofibrosarcoma protuberans |
 | Puntaje de Predicción TxGNN | 99.15% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según el conocimiento general, nintedanib inhibe varias tirosina quinasas, entre ellas PDGFR, FGFR y VEGFR. Este perfil no está confirmado por los datos suministrados.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack (dato marcado como *gap* de alta severidad). Según la información conocida, nintedanib es un inhibidor de tirosina quinasa de pequeña molécula que actúa sobre tres familias de receptores angiogénicos — VEGFR, FGFR y PDGFR — bloqueando su actividad de señalización. Su eficacia está comprobada en fibrosis pulmonar idiopática y, en combinación con docetaxel, en cáncer de pulmón no microcítico adenocarcinoma.
+El DFSP suele estar impulsado por la fusión COL1A1-PDGFB, que provoca una señalización constitutiva de PDGFR-beta. Por eso, un inhibidor de PDGFR resulta mecanísticamente plausible para esta enfermedad. Sin embargo, es una hipótesis basada en conocimiento general y no en datos específicos de nintedanib.
 
-El dermatofibrosarcoma protuberante es un sarcoma cutáneo caracterizado por la fusión génica **COL1A1-PDGFB**, que produce una activación constitutiva del receptor PDGFR-β. Dado que nintedanib inhibe directamente PDGFR, existe una lógica mecanicista sólida para su potencial aplicación en este tumor, en la misma línea que otros inhibidores de PDGFR (como imatinib) ya utilizados en DFSP.
-
-Sin embargo, esta relación mecanicista no ha sido validada con datos específicos de nintedanib: la única evidencia disponible es una revisión general sobre inhibidores de PDGFR como clase terapéutica, no un estudio o caso clínico centrado en este fármaco.
-
----
+Otras dos predicciones del modelo, **liposarcoma** (99.13%) y **liposarcoma mixoide de ovario** (99.12%), tienen un respaldo mucho más débil. No hay ensayos ni literatura, y los liposarcomas dependen sobre todo de la amplificación de MDM2/CDK4 o de la fusión FUS-DDIT3, no de PDGFR. Sus puntajes altos no deben interpretarse como apoyo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Revisión | Pharmacological Research | Revisión del papel de los inhibidores de PDGFR de molécula pequeña en el tratamiento de neoplasias, incluyendo su potencial en tumores dependientes de la vía PDGF; no específico de nintedanib ni de DFSP. |
-
----
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Revisión | Pharmacological Research | Revisión general del papel de los inhibidores de molécula pequeña de PDGFR en trastornos neoplásicos. Es evidencia indirecta y no aporta datos clínicos específicos de nintedanib. |
 
 ## Información de Mercado en España
 
-Nintedanib no cuenta actualmente con autorizaciones de comercialización registradas en España (0 licencias identificadas).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 89430 | Nintedanib Teva 100 mg cápsulas blandas EFG | Cápsula blanda |
+| 90027 | Nintedanib Eugia 150 mg cápsulas blandas EFG | Cápsula blanda |
+| 114954004 | Vargatef 150 mg cápsulas blandas | Cápsula blanda |
+| 89431 | Nintedanib Teva 150 mg cápsulas blandas EFG | Cápsula blanda |
+| 114979004 | Ofev 150 mg cápsulas blandas | Cápsula blanda |
 
----
+Se muestran 5 de las 20 autorizaciones. El texto de la indicación aprobada no figura en los datos recibidos.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya en una racionalidad mecanicista razonable (inhibición de PDGFR-β en un tumor con fusión COL1A1-PDGFB), pero la evidencia real es de nivel L4: ni ensayos clínicos ni literatura específica de nintedanib en DFSP, solo una revisión de clase farmacológica. No es suficiente para avanzar a evaluación de seguridad (S1) sin más datos.
+La predicción es mecanísticamente plausible para DFSP, pero solo cuenta con una revisión indirecta y ningún ensayo clínico (L4). Además, faltan los datos de seguridad de la ficha técnica de la AEMPS, lo que bloquea el cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos o de caso específicos de nintedanib en DFSP
-- Datos completos del mecanismo de acción (MOA) vía DrugBank
-- Advertencias, contraindicaciones e interacciones farmacológicas (actualmente todas en *data gap*)
-- Confirmación del estado regulatorio y de seguridad en España (ficha técnica/AEMPS), dado que el fármaco no está comercializado localmente
+- Descargar y analizar la ficha técnica de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Completar el mecanismo de acción desde DrugBank.
+- Buscar ensayos y literatura específicos de nintedanib en DFSP, incluidos casos y series.
+- Confirmar la dependencia de PDGFR en los subtipos de DFSP y compararla con las opciones terapéuticas actuales.
+- Reevaluar liposarcoma y liposarcoma mixoide de ovario solo si aparece evidencia propia. Por ahora permanecen en "Hold".
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

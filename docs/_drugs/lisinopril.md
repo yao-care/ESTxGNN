@@ -2,7 +2,7 @@
 layout: default
 title: Lisinopril
 parent: Solo predicción del modelo (L5)
-nav_order: 168
+nav_order: 324
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,41 +29,40 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lisinopril: De Hipertension Arterial a Infarto de Miocardio Posterolateral
+# Lisinopril: De Inhibidor de la ECA a Infarto de Miocardio Posterolateral
 
 ## Resumen en Una Frase
 
-Lisinopril es un inhibidor de la enzima convertidora de angiotensina (IECA), un grupo farmacologico conocido principalmente por su uso en hipertension arterial e insuficiencia cardiaca. El modelo TxGNN predice que podria ser efectivo para **Infarto de Miocardio Posterolateral**, aunque actualmente **no existen ensayos clinicos ni publicaciones** que respalden especificamente esta direccion.
+Lisinopril es un inhibidor de la enzima convertidora de angiotensina (ECA), comercializado en España en comprimidos. El modelo TxGNN predice que podría ser efectivo para el **infarto de miocardio posterolateral**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación concreta. La predicción se apoya solo en el puntaje del modelo.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Hipertension arterial e insuficiencia cardiaca (clase IECA); no incluida en el paquete de evidencia porque el farmaco no esta comercializado en el mercado objetivo |
-| Nueva Indicacion Predicha | Infarto de Miocardio Posterolateral |
-| Puntaje de Prediccion TxGNN | 99.90% |
+| Nueva Indicación Predicha | Infarto de miocardio posterolateral |
+| Puntaje de Predicción TxGNN | 99.90% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en este paquete de evidencia. Segun la informacion conocida, lisinopril es un inhibidor de la enzima convertidora de angiotensina (IECA), cuya eficacia en el tratamiento de la hipertension arterial y la insuficiencia cardiaca esta ampliamente comprobada. Mecanisticamente, los IECA son conocidos por inhibir el remodelado ventricular tras un infarto de miocardio, lo que en principio podria justificar un beneficio en contextos post-infarto.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, lisinopril pertenece a la clase de los inhibidores de la ECA. Mecanísticamente podría ser aplicable al infarto de miocardio, porque el bloqueo del sistema renina-angiotensina-aldosterona (SRAA) puede reducir la remodelación cardíaca adversa posterior al infarto.
 
-Sin embargo, el "infarto de miocardio posterolateral" no es una enfermedad independiente, sino una subclasificacion anatomica dentro del espectro del infarto de miocardio. La plausibilidad mecanistica existe a nivel de clase farmacologica general (IECA en cardioproteccion post-infarto), pero no hay evidencia especifica que distinga esta subregion anatomica como objetivo terapeutico diferenciado.
+Hay una limitación importante. El infarto posterolateral es un subtipo anatómico del infarto de miocardio, no un objetivo de reposicionamiento distinto. Además, el puntaje es idéntico al del infarto posteroinferior (rank 2). Esto sugiere que proviene de una señal compartida de la ontología de enfermedades y no de evidencia independiente para este subtipo.
 
-Por esta razon, la prediccion de TxGNN probablemente refleja la fuerte asociacion conocida entre IECA e "infarto de miocardio" en terminos generales, mas que una senal novedosa y especifica para esta subclasificacion.
+En resumen, la plausibilidad farmacológica es razonable, pero no hay estudios en el paquete que la confirmen para esta indicación.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,26 +72,40 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Consideraciones de Seguridad
+## Información de Mercado en España
 
-Consultar el prospecto para informacion de seguridad.
+Se listan 5 de las 20 autorizaciones registradas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 64562 | LISINOPRIL CINFA 20 mg COMPRIMIDOS EFG | Comprimido |
+| 65530 | LISINOPRIL VIATRIS 5 MG COMPRIMIDOS EFG | Comprimido |
+| 88814 | LISINOPRIL GRINDEKS 20 MG COMPRIMIDOS EFG | Comprimido |
+| 59129 | PRINIVIL 20 mg COMPRIMIDOS | Comprimido |
+| 63961 | LISINOPRIL TEVA-RATIOPHARM 5 mg COMPRIMIDOS EFG | Comprimido |
 
 ---
 
-## Conclusion y Proximos Pasos
+## Consideraciones de Seguridad
 
-**Decision: Hold**
+Consultar el prospecto para información de seguridad.
 
-**Justificacion:**
-No existe ningun ensayo clinico ni publicacion que respalde especificamente lisinopril para infarto de miocardio posterolateral (nivel de evidencia L5). Ademas, el farmaco no esta comercializado en el mercado objetivo y falta el prospecto (TFDA), por lo que ni siquiera se puede realizar una evaluacion inicial de seguridad (S1).
+---
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+No hay ensayos clínicos ni literatura para esta indicación (nivel L5). Además, es un subtipo anatómico de infarto y no un objetivo de reposicionamiento independiente. El puntaje alto del modelo no basta por sí solo para avanzar.
 
 **Para avanzar se necesita:**
-- Prospecto/ficha tecnica oficial (advertencias, contraindicaciones) — actualmente bloqueante
-- Datos del mecanismo de accion (MOA) desde DrugBank
-- Evidencia clinica especifica para la subclasificacion anatomica "posterolateral", no solo para infarto de miocardio en general
-- Evaluacion de interacciones farmacologicas (DDI), actualmente sin datos
+- Obtener del prospecto de la AEMPS las advertencias, contraindicaciones y las indicaciones aprobadas, que hoy están vacías en el paquete.
+- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
+- Reformular la pregunta a nivel de infarto de miocardio en general y no de un subtipo, y buscar ensayos y literatura específicos de lisinopril.
+- Revisar las otras predicciones del paquete. La más avanzada es la **enfermedad cardíaca pulmonar crónica** (nivel L3, etapa S1), con dos publicaciones clínicas específicas de lisinopril (PMID 14524095 y 17047621). Su diseño y tamaño aún no están confirmados. El **infarto de miocardio septal** (L4) tiene una publicación indirecta.
 
-**Nota adicional:** dentro del mismo paquete de evidencia, la indicacion candidata "chronic pulmonary heart disease" (rank 9) presenta evidencia sustancialmente mas solida y especifica para lisinopril —5 ensayos clinicos relacionados y 8 publicaciones, incluyendo dos estudios que evaluan directamente lisinopril en cor pulmonale cronico e hipertension pulmonar asociada a EPOC/cardiopatia isquemica (PMID 17047621, PMID 14524095)—. Se recomienda evaluar esa indicacion como candidato prioritario alternativo en un informe separado.
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

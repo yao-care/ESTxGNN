@@ -2,15 +2,15 @@
 layout: default
 title: Etonogestrel
 parent: Evidencia moderada (L3-L4)
-nav_order: 113
-evidence_level: L3
+nav_order: 219
+evidence_level: L4
 indication_count: 5
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,69 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-Usando el Evidence Pack proporcionado, genero el informe siguiendo el formato v5 (Etonogestrel → Amenorrea, indicación de rango 1, que es el único registro con evidencia real):
-
----
-
-# Etonogestrel: De Anticoncepción a Amenorrea
+# Etonogestrel: De Indicación Original No Registrada a Amenorrea
 
 ## Resumen en Una Frase
 
-Etonogestrel es un progestágeno de acción prolongada utilizado en implantes subdérmicos anticonceptivos (p. ej. Implanon/Nexplanon). El modelo TxGNN predice una asociación con **Amenorrea**, respaldada actualmente por **1 ensayo clínico** y **2 publicaciones**. Sin embargo, la evidencia disponible sugiere que esta asociación refleja la amenorrea como **efecto adverso conocido** de la anticoncepción hormonal, no como una indicación terapéutica validada — la dirección de causalidad requiere aclaración experta antes de avanzar.
-
----
+Etonogestrel es un progestágeno utilizado en el implante anticonceptivo Implanon NXT, comercializado en España. El texto de indicación aprobada no figura en los datos disponibles.
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **1 ensayo clínico** (indirecto) y **2 publicaciones** recuperadas, de las cuales solo una guarda relación con el fármaco. La señal probablemente refleja un efecto conocido del implante sobre el patrón de sangrado y no una indicación terapéutica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Anticoncepción (implante subdérmico de progestágeno) — no hay indicación aprobada local disponible, ya que el medicamento no está comercializado en España |
+| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Puntaje de Predicción TxGNN | 99,84% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, etonogestrel es un progestágeno que suprime la ovulación y provoca atrofia endometrial. Su uso establecido es la anticoncepción mediante implante subdérmico.
 
-No se dispone de datos oficiales de mecanismo de acción (DrugBank marca este campo como pendiente). No obstante, según la evidencia clínica incluida en este paquete, etonogestrel es un progestágeno de acción prolongada que actúa suprimiendo el eje hipotálamo-hipófisis-ovario e induciendo atrofia endometrial — mecanismo bien establecido en su uso como anticonceptivo.
+La amenorrea es un efecto bien documentado del implante, pero es un efecto sobre el patrón de sangrado, no un objetivo terapéutico. Por ello, el alto puntaje de TxGNN probablemente refleja una asociación fármaco-fenotipo (efecto adverso o cambio del patrón de sangrado) y no una señal de tratamiento. Esta predicción debe interpretarse con cautela.
 
-Este mismo mecanismo es responsable de un efecto adverso ampliamente documentado durante el uso del implante: sangrado irregular o **amenorrea secundaria al tratamiento anticonceptivo**. Es decir, la relación entre "Anticoncepción" (uso original) y "Amenorrea" (indicación predicha) no es que el fármaco *trate* un cuadro de amenorrea preexistente, sino que el fármaco *induce* amenorrea como consecuencia farmacológica esperada de su uso anticonceptivo.
-
-Por este motivo, el alto puntaje de TxGNN probablemente refleja una **co-ocurrencia en la base de conocimiento** ("fármaco – amenorrea") más que una hipótesis terapéutica validada, y la dirección causal es opuesta a la que sugiere el nombre de la indicación. Este punto debe aclararse mediante revisión clínica experta antes de considerar cualquier desarrollo posterior.
-
----
+Las otras cuatro predicciones (enfermedad fibroquística de mama, adenosis apocrina, adenosis de conducto romo y displasia mamaria benigna) tienen puntajes entre 99,2% y 99,6%, pero carecen de ensayos y literatura. Se consideran preguntas de investigación o hipótesis por vecindad en el grafo, sin respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Fase 3 | Completado | 498 | Estudio de un solo brazo sobre eficacia y seguridad anticonceptiva del implante de etonogestrel durante uso extendido (años 4-5 tras inserción). La amenorrea/patrón de sangrado es solo un criterio de seguridad secundario, no el objetivo terapéutico del estudio — relevancia baja para esta indicación (evaluado como grado C). |
-
----
+| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Fase 3 | Completado | 498 | Estudio de un solo brazo, abierto, sobre eficacia anticonceptiva y seguridad del implante de etonogestrel (MK-8415) en el cuarto y quinto año de uso, en mujeres de 35 años o menos. No es un ensayo de tratamiento de la amenorrea; a lo sumo aporta datos de patrón de sangrado (evidencia indirecta). |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | ECA | Contraception | Ensayo aleatorizado multicéntrico comparando implantes de etonogestrel (Implanon) vs. levonorgestrel (Norplant): sin embarazos en 2 años de uso, con comparación de patrones de sangrado/amenorrea entre grupos. Evidencia indirecta sobre el efecto del fármaco en el ciclo menstrual, no un estudio terapéutico de amenorrea. |
-| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | ECA | Trials | Protocolo de ensayo sobre BIO101 para neumonía por COVID-19. No guarda relación aparente con etonogestrel ni con amenorrea — probable resultado no pertinente recuperado en la búsqueda bibliográfica automatizada. |
+| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | ECA | Contraception | Estudio aleatorizado multicéntrico en China (200 mujeres) que compara el implante de una varilla (Implanon) con el de seis cápsulas (Norplant) en eficacia anticonceptiva, tolerabilidad y patrón de sangrado. No hubo embarazos. Evidencia indirecta. |
 
----
+Nota: se recuperó otra publicación (PMID 33430924, protocolo de un ECA sobre BIO101 en COVID-19), que no guarda relación con etonogestrel ni con esta indicación y se excluye.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 62628 | IMPLANON NXT 68 mg IMPLANTE (Organon Salud S.L.) | Implante | No disponible en los datos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
-*(No se dispone de advertencias, contraindicaciones ni datos de interacciones farmacológicas verificados para este fármaco; la consulta del prospecto TFDA/ficha técnica está pendiente y es un requisito bloqueante antes de avanzar — ver DG001 en el registro de brechas de datos.)*
-
----
+Consultar el prospecto para información de seguridad. No se dispone de datos de interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de predicción de TxGNN es muy alto (99.84%), la evidencia clínica y bibliográfica disponible es escasa, indirecta y de relevancia limitada (grado C), y el mecanismo farmacológico sugiere que la asociación observada probablemente corresponde a un **efecto adverso conocido** (amenorrea inducida por anticoncepción hormonal) más que a una indicación terapéutica genuina. A esto se suma la ausencia total de datos de seguridad verificados (advertencias, contraindicaciones, ficha técnica), lo que impide iniciar siquiera la evaluación de seguridad S1.
+La predicción más fuerte (amenorrea) parece reflejar un efecto conocido del implante sobre el sangrado y no un beneficio terapéutico, y las demás predicciones carecen de cualquier evidencia clínica. El único ensayo es indirecto y no evalúa amenorrea como objetivo de tratamiento.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto oficial (TFDA/AEMPS) con advertencias y contraindicaciones — actualmente bloqueante para la evaluación de seguridad S1
-- Confirmación del mecanismo de acción mediante consulta a la API de DrugBank
-- Revisión clínica experta para aclarar si la relación fármaco-enfermedad tiene dirección causal terapéutica, o si simplemente refleja un efecto adverso reportado en la literatura de anticoncepción
-- Búsqueda bibliográfica dirigida específicamente a "tratamiento de amenorrea con progestágenos", en lugar de basarse en la co-ocurrencia detectada por el modelo
+- Obtener del prospecto de la AEMPS las advertencias, contraindicaciones y la indicación aprobada (bloqueante para el cribado de seguridad).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir si la amenorrea se busca como beneficio terapéutico (por ejemplo, en sangrado uterino anómalo) y, en ese caso, buscar estudios que la evalúen como desenlace primario.
+- Revisar la seguridad de la exposición sistémica a progestágenos en tejido mamario antes de explorar las indicaciones de patología mamaria benigna.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

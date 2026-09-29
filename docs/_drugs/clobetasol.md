@@ -2,7 +2,7 @@
 layout: default
 title: Clobetasol
 parent: Evidencia moderada (L3-L4)
-nav_order: 74
+nav_order: 134
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,73 +29,98 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Clobetasol: De Dermatosis Corticosensibles a Linfoma Cutáneo de Células T
+# Clobetasol: De Corticoide Tópico Dermatológico a Linfoma Cutáneo Primario de Células T
 
 ## Resumen en Una Frase
 
-Clobetasol propionato es un corticosteroide tópico de clase I (superpotente), tradicionalmente empleado en dermatosis inflamatorias corticosensibles.
-El modelo TxGNN predice que podría ser efectivo para **Linfoma Cutáneo Primario de Células T (CTCL/Micosis Fungoide)**,
-con **20 publicaciones** que actualmente respaldan esta dirección, aunque sin ensayos clínicos registrados específicamente para esta indicación.
+Clobetasol es un glucocorticoide tópico de muy alta potencia, comercializado en España en cremas, pomadas, champú, solución cutánea y colirio.
+El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo primario de células T**, con **0 ensayos clínicos** y **20 publicaciones** identificadas (se evaluaron 10). Casi todas son casos clínicos o revisiones, y solo un estudio retrospectivo describe el uso de clobetasol en micosis fungoide temprana.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatosis corticosensibles (uso tópico establecido de corticosteroides de clase I) |
-| Nueva Indicación Predicha | Linfoma Cutáneo Primario de Células T (Micosis Fungoide) |
-| Puntaje de Predicción TxGNN | 99.51% |
+| Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
+| Puntaje de Predicción TxGNN | 99,51% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 7 |
+| Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción estructurado. Según la información conocida, clobetasol propionato es un corticosteroide tópico de clase I (superpotente) que actúa uniéndose al receptor glucocorticoide, induciendo apoptosis de linfocitos (incluidos los linfocitos T epidermotrópicos malignos) e inhibiendo la producción local de citoquinas inflamatorias.
+## ¿Por qué es Razonable esta Predicción?
 
-La Micosis Fungoide, la variante más común del linfoma cutáneo de células T, es una neoplasia dirigida a la piel donde el infiltrado maligno reside predominantemente en la epidermis y dermis superficial. Este contexto anatómico hace que la terapia dirigida a la piel —incluidos los corticosteroides tópicos superpotentes— sea mecánicamente aplicable, ya que actúa directamente sobre las células neoplásicas epidermotrópicas sin necesidad de exposición sistémica.
+No se dispone de datos detallados sobre el mecanismo de acción en el registro. Por su clase, clobetasol es un glucocorticoide de potencia superior. Los glucocorticoides actúan sobre el receptor de glucocorticoides, pueden inducir apoptosis en linfocitos T y reducen la inflamación cutánea mediada por citocinas. Esta explicación se infiere de la clase del fármaco y no proviene de los datos suministrados.
 
-De hecho, guías de referencia como NCCN ya incluyen los corticosteroides tópicos como opción de primera línea en estadios tempranos (IA-IIA) de Micosis Fungoide. Por lo tanto, esta predicción de TxGNN corresponde más a una **confirmación de la fuerza de evidencia de una práctica clínica ya establecida** que a una hipótesis mecanística completamente nueva.
+La micosis fungoide en estadio temprano (parches y placas), la forma más frecuente de linfoma cutáneo de células T, es una enfermedad limitada a la piel. Un corticoide tópico potente es, por tanto, biológicamente plausible como tratamiento dirigido a la piel. Varias publicaciones de la lista describen precisamente este uso.
+
+El puntaje alto de TxGNN (0,995) es solo una predicción computacional y no constituye evidencia clínica. La similitud con la indicación original y la compatibilidad de vías de administración están pendientes de evaluar.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
+
+De las 20 publicaciones identificadas solo se proporcionaron 10, que son las que se muestran. Los hallazgos se resumen a partir de títulos y resúmenes parciales, sin datos de eficacia cuantitativos.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Cohorte (retrospectiva) | Cutis | Estudio observacional sobre el riesgo de efectos adversos cutáneos con clobetasol propionato 0.05% crema en Micosis Fungoide de estadio temprano; confirma alta eficacia con efectos secundarios menores |
-| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Pendiente | Anais brasileiros de dermatologia | Comparación de eficacia entre clobetasol propionato y bexaroteno en Micosis Fungoide de estadio temprano |
-| [9722724](https://pubmed.ncbi.nlm.nih.gov/9722724/) | 1998 | Pendiente | Archives of Dermatology | Serie de 79 pacientes evaluando la eficacia de corticosteroides tópicos en el tratamiento de Micosis Fungoide |
-| [8987063](https://pubmed.ncbi.nlm.nih.gov/8987063/) | 1996 | Pendiente | Pediatric Dermatology | Terapia pulsátil semanal con corticosteroide tópico superpotente exitosa en tres pacientes pediátricos con papulosis linfomatoide |
-| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Pendiente | Nederlands tijdschrift voor geneeskunde | Niña con Micosis Fungoide hipopigmentada tratada exitosamente con ungüento de clobetasol 0.05% |
-| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Reporte de Caso | Skinmed | Caso de linfoma T angioinmunoblástico con presentación cutánea previamente tratado con crema tópica de clobetasol, empeoramiento tras diagnóstico erróneo de psoriasis |
-| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Pendiente | Clinical Case Reports | Caso de Micosis Fungoide con placas psoriasiformes, inicialmente tratada con esteroides tópicos tras diagnóstico erróneo de psoriasis |
-| [39803735](https://pubmed.ncbi.nlm.nih.gov/39803735/) | 2024 | Pendiente | Acta dermatovenerologica Croatica | Evaluación por ultrasonido de alta frecuencia de terapia tópica de primera línea en Micosis Fungoide (contexto de tratamiento dirigido a la piel) |
-| [17083888](https://pubmed.ncbi.nlm.nih.gov/17083888/) | 2006 | Revisión | Dermatology Online Journal | Revisión sobre distinción diagnóstica y manejo del linfoma T cutáneo CD30+ de células grandes |
-| [30677799](https://pubmed.ncbi.nlm.nih.gov/30677799/) | 2018 | Revisión | Dermatology Online Journal | Papulosis linfomatoide como variante de bajo grado de CTCL; pronóstico favorable a largo plazo |
+| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Cohorte retrospectiva | Cutis | Estudio observacional de clobetasol crema 0,05% en micosis fungoide temprana. Se centra en los efectos adversos cutáneos, por lo que aporta más sobre seguridad y viabilidad que sobre eficacia |
+| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Estudio comparativo (tipo sin clasificar) | An Bras Dermatol | Compara la eficacia de clobetasol y bexarotene en micosis fungoide temprana. El resumen disponible no incluye resultados |
+| [9722724](https://pubmed.ncbi.nlm.nih.gov/9722724/) | 1998 | Serie clínica (sin clasificar) | Arch Dermatol | Experiencia con corticoides tópicos en 79 pacientes con micosis fungoide. Evalúa su efectividad; no se dispone del resultado |
+| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Caso clínico | Ned Tijdschr Geneeskd | Niña con micosis fungoide hipopigmentada tratada con éxito con clobetasol 0,05% pomada 4 días por semana |
+| [8987063](https://pubmed.ncbi.nlm.nih.gov/8987063/) | 1996 | Serie de casos | Pediatr Dermatol | Tres niños con papulosis linfomatoide tratados con corticoides tópicos superpotentes en pulsos semanales, con resultado descrito como exitoso |
+| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Caso/Revisión | Skinmed | Linfoma angioinmunoblástico de células T con presentación cutánea. Se trató inicialmente como psoriasis, incluido clobetasol; no aporta datos de eficacia |
+| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Caso clínico y revisión | Clin Case Rep | Micosis fungoide con placas psoriasiformes, confundida con psoriasis pese al tratamiento con corticoides tópicos |
+| [30677799](https://pubmed.ncbi.nlm.nih.gov/30677799/) | 2018 | Revisión | Dermatol Online J | Papulosis linfomatoide, variante de bajo grado del linfoma cutáneo de células T; las guías permiten vigilancia sin tratamiento |
+| [17083888](https://pubmed.ncbi.nlm.nih.gov/17083888/) | 2006 | Revisión | Dermatol Online J | Distinción diagnóstica y manejo del linfoma cutáneo de células T grandes CD30+ |
+| [23773745](https://pubmed.ncbi.nlm.nih.gov/23773745/) | 2013 | Caso clínico y revisión | Ann Dermatol Venereol | Micosis fungoide papular, una forma incipiente descrita recientemente |
+
+---
 
 ## Información de Mercado en España
 
-Clobetasol no cuenta con autorizaciones de comercialización registradas en España en el marco de este candidato (estado: no comercializado, 0 autorizaciones).
+Se muestran 5 de las 7 autorizaciones. El texto de indicación aprobada no figura en los datos de cada registro.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 79415 | CLOBISDIN 500 microgramos/ml solución cutánea | Solución cutánea | No especificada |
+| 85249 | CLOVATE 500 microgramos/g champú | Champú | No especificada |
+| 56530 | DECLOBAN 500 microgramos/g pomada | Pomada | No especificada |
+| 55746 | CLOVATE 0,5 mg/g crema | Crema | No especificada |
+| 90724 | ELEUS 0,5 mg/ml colirio en emulsión en envase unidosis | Colirio en emulsión en envase unidosis | No especificada |
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
+---
+
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La evidencia de literatura (incluyendo un estudio de cohorte retrospectivo y una comparación de eficacia) respalda de forma consistente el uso de clobetasol propionato en Micosis Fungoide de estadio temprano, alineado con guías clínicas ya existentes. Sin embargo, la ausencia de ensayos clínicos registrados específicamente para esta indicación y la falta de datos regulatorios en España limitan la solidez de la evidencia a nivel L3.
+El nivel de evidencia es L3 y la etapa es S1. El único dato directo es un estudio retrospectivo sobre tolerabilidad cutánea de clobetasol en micosis fungoide temprana, y no hay ensayos clínicos registrados. Además, faltan los datos de seguridad del prospecto de la AEMPS, que bloquean el cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Datos del prospecto de TFDA/AEMPS sobre advertencias y contraindicaciones (gap bloqueante)
-- Datos estructurados sobre el mecanismo de acción (MOA)
-- Confirmación de vía de administración y disponibilidad de formulación tópica en España
-- Evaluación de ensayos clínicos dedicados a clobetasol en CTCL, más allá de la evidencia observacional actual
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Revisar las 10 publicaciones restantes y el texto completo de los estudios de clobetasol en micosis fungoide (PMID 39741016, 9722724, 32603400)
+- Evaluar la eficacia y la comparación con otras terapias dirigidas a la piel
+- Evaluar la compatibilidad de las vías de administración y la similitud con la indicación original
+
+Este informe es solo de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

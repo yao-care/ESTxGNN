@@ -2,7 +2,7 @@
 layout: default
 title: Remdesivir
 parent: Solo predicción del modelo (L5)
-nav_order: 240
+nav_order: 462
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Remdesivir: De Uso Antiviral (COVID-19/Ébola) a Neoplasia Endocrina Múltiple
+# Remdesivir: De COVID-19 a Neoplasia Endocrina Múltiple
 
 ## Resumen en Una Frase
 
-Remdesivir es un profármaco nucleotídico antiviral cuyo campo de indicación original no está formalmente registrado en este Evidence Pack (dato pendiente), aunque la evidencia asociada en la base de datos (ensayos ACTT, SIMPLE y PREVAIL IV) confirma su uso clínico establecido en COVID-19 y enfermedad por virus Ébola. El modelo TxGNN predice como candidato principal la **Neoplasia Endocrina Múltiple**, con un score de **99.50%**, pero **sin ningún ensayo clínico ni publicación** que respalde esta dirección. La evidencia disponible es, por tanto, mínima y la propia justificación del modelo la califica como una predicción de baja plausibilidad mecanística.
+Remdesivir es un análogo de nucleótido (profármaco) con actividad antiviral, comercializado en España como Veklury y utilizado en COVID-19.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múltiple**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que es solo una predicción del modelo.
 
 ---
 
@@ -41,23 +43,21 @@ Remdesivir es un profármaco nucleotídico antiviral cuyo campo de indicación o
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en licencias españolas (fármaco no comercializado); evidencia contextual indica uso como antiviral en COVID-19/Ébola |
-| Nueva Indicación Predicha | Neoplasia Endocrina Múltiple (Multiple Endocrine Neoplasia) |
+| Indicación Original | COVID-19 (según la literatura del paquete de evidencia; el texto de indicación de la AEMPS no está disponible) |
+| Nueva Indicación Predicha | Neoplasia endocrina múltiple |
 | Puntaje de Predicción TxGNN | 99.50% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de acción (MOA) de Remdesivir a nivel de ficha de fármaco (data gap de severidad Alta). No obstante, a partir de la evidencia clínica recogida en este mismo Evidence Pack se puede reconstruir que Remdesivir es un profármaco análogo de nucleótido de adenosina que, tras activación metabólica, inhibe la ARN polimerasa dependiente de ARN (RdRp) viral — el mecanismo por el cual ha demostrado actividad frente al virus Ébola y al SARS-CoV-2 en múltiples ensayos de Fase 3 (ACTT-1, SIMPLE, PREVAIL IV).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, remdesivir es un profármaco análogo de nucleótido que inhibe la ARN polimerasa dependiente de ARN de los virus, y su eficacia en COVID-19 está respaldada por ensayos de Fase 3 (SIMPLE, ACTT).
 
-La Neoplasia Endocrina Múltiple (MEN), en cambio, es un síndrome tumoral endocrino hereditario causado por mutaciones germinales en genes como *RET* (proto-oncogén) o *MEN1* (supresor tumoral). No existe ningún solapamiento mecanístico conocido entre la inhibición de la RdRp viral y la tumorigénesis endocrina asociada a estas vías genéticas. Según la propia justificación generada para esta predicción, se trata muy probablemente de una asociación producida por proximidad estructural o topológica en el grafo de conocimiento del modelo, no por una relación biológica real.
-
-En consecuencia, aunque el score numérico de TxGNN es elevado (99.50%), la ausencia total de evidencia clínica o preclínica de respaldo, combinada con la falta de plausibilidad mecanística, hace que esta predicción deba tratarse como **especulativa y de baja confianza**.
+**Esta predicción no tiene un vínculo mecanístico identificable.** La neoplasia endocrina múltiple (MEN) es un síndrome tumoral hereditario (por ejemplo, variantes de MEN1 o RET) sin ninguna diana viral. El puntaje alto de TxGNN (0.995) proviene únicamente de la proximidad en el grafo de conocimiento, sin estudios que lo confirmen. Como falta el dato de mecanismo de acción, tampoco es posible verificar el vínculo con mayor detalle.
 
 ---
 
@@ -73,27 +73,32 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Consideraciones de Seguridad
+## Otras Predicciones del Modelo
 
-Consultar el prospecto para información de seguridad.
+| # | Enfermedad predicha | Puntaje | Nivel | Comentario |
+|---|------|------|------|------|
+| 2 | Infección por VIH | 99.32% | L4 | 20 ensayos y 20 publicaciones asociados, casi todos sobre remdesivir en COVID-19 (más un estudio en supervivientes de ébola). Ninguno evalúa eficacia anti-VIH. La coincidencia parece deberse a menciones conjuntas, por ejemplo pacientes con VIH y COVID-19, o antirretrovirales como cobicistat usados junto con remdesivir. Solo un estudio farmacocinético de fase 2 (NCT04385719, 24 voluntarios sanos) se acerca al tema, y no es un ensayo de eficacia. |
+| 3 | Síndrome de inmunodeficiencia adquirida felina | 99.07% | L5 | Enfermedad veterinaria; no es una indicación humana. |
+| 4 | Infección por virus de inmunodeficiencia simia | 99.07% | L5 | Modelo en primates no humanos; no es una indicación humana. |
+| 5 | Trastorno del neurodesarrollo con marcha atáxica, ausencia de habla y disminución de sustancia blanca cortical | 99.03% | L5 | Trastorno genético raro sin mecanismo plausible. |
+| 6 | Hipercolesterolemia familiar homocigota | 99.03% | L5 | Defecto de la vía del receptor de LDL; remdesivir no tiene efecto conocido. |
 
-> Nota: la ficha técnica/prospecto de TFDA-AEMPS para este fármaco no ha podido incorporarse a este análisis (data gap de severidad **Bloqueante**), lo que impide actualmente completar la evaluación de seguridad inicial (etapa S1) para cualquiera de las indicaciones propuestas.
+Ninguna de estas predicciones cuenta con evidencia directa. Los ensayos de Fase 3 asociados a VIH son de COVID-19 y no respaldan esa indicación.
 
 ---
 
-## Otras Indicaciones Evaluadas
+## Información de Mercado en España
 
-Este Evidence Pack analizó un total de 6 indicaciones candidatas para Remdesivir. Ninguna alcanzó un nivel de evidencia suficiente para avanzar; todas quedan en **Hold**:
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1201459001 | VEKLURY 100 MG CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión | Gilead Sciences Ireland Unlimited Company |
+| 1201459002 | VEKLURY 100 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | Polvo para concentrado para solución para perfusión | Gilead Sciences Ireland Unlimited Company |
 
-| Rank | Indicación | Score TxGNN | Nivel de Evidencia | Decisión | Nota clave |
-|------|-----------|-------------|---------------------|----------|------------|
-| 2 | Infección por VIH | 99.32% | L4 | Hold | 23 ensayos y 20 artículos recuperados, pero la mayoría corresponden en realidad a COVID-19 (ACTT/SIMPLE) o Ébola (PREVAIL IV); solo 1 artículo menciona VIH, y es una revisión de comorbilidad, no de eficacia. Mecanísticamente, Remdesivir inhibe la RdRp, no la transcriptasa inversa que usa el VIH para replicarse. |
-| 3 | Síndrome de inmunodeficiencia felina (FIV) | 99.07% | L5 | Hold | Sin ensayos ni literatura; indicación veterinaria, sin ruta de desarrollo humano aplicable. |
-| 4 | Infección por virus de inmunodeficiencia de simios (SIV) | 99.07% | L5 | Hold | Score idéntico a FIV, lo que sugiere que el modelo agrupó ambas por cercanía en el grafo (familia Lentivirus) más que por aprendizaje independiente. |
-| 5 | Trastorno del neurodesarrollo (marcha atáxica, ausencia de habla, sustancia blanca reducida) | 99.03% | L5 | Hold | Enfermedad monogénica rara sin relación conocida con mecanismos antivirales. |
-| 6 | Hipercolesterolemia familiar homocigota | 99.03% | L5 | Hold | Trastorno del metabolismo lipídico (vía LDLR/APOB/PCSK9) sin relación con la inhibición de RdRp viral. |
+---
 
-**Hallazgo relevante:** la indicación con mayor volumen de evidencia bruta (VIH, rank 2) es también la que presenta el riesgo más claro de **error de etiquetado/asociación** entre ensayos de COVID-19 y la etiqueta de enfermedad "HIV infectious disease". Esto sugiere una posible limitación en el pipeline de vinculación ensayo-enfermedad que debería revisarse antes de confiar en el volumen de evidencia como proxy de relevancia.
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
 
 ---
 
@@ -102,13 +107,15 @@ Este Evidence Pack analizó un total de 6 indicaciones candidatas para Remdesivi
 **Decisión: Hold**
 
 **Justificación:**
-Ninguna de las 6 indicaciones predichas por TxGNN para Remdesivir alcanza un nivel de evidencia igual o superior a L3. La indicación de mayor score (Neoplasia Endocrina Múltiple) carece por completo de respaldo clínico o mecanístico. La indicación con mayor volumen documental (VIH) presenta indicios de error de etiquetado de datos, ya que la evidencia recuperada corresponde mayoritariamente a COVID-19 y Ébola, no a VIH. Además, la ausencia del prospecto TFDA/AEMPS constituye un gap bloqueante que impide iniciar la evaluación de seguridad (S1) para cualquier indicación.
+La predicción para neoplasia endocrina múltiple es solo una puntuación del modelo (L5): no hay ensayos, literatura ni mecanismo plausible. Las demás predicciones tampoco tienen respaldo directo, incluida la de VIH, cuya evidencia asociada es en realidad de COVID-19.
 
 **Para avanzar se necesita:**
-- Completar los datos de mecanismo de acción (MOA) a nivel de ficha de fármaco (gap de severidad Alta)
-- Obtener el prospecto/ficha técnica de TFDA-AEMPS para desbloquear la evaluación de seguridad S1 (gap de severidad Bloqueante)
-- Auditar y corregir la vinculación ensayo-enfermedad para la etiqueta "VIH infectious disease", dado el fuerte indicio de contaminación con ensayos de COVID-19/Ébola
-- Buscar evidencia mecanística o preclínica real que conecte Remdesivir con neoplasia endocrina múltiple, VIH, FIV, SIV, el trastorno del neurodesarrollo descrito o la hipercolesterolemia familiar homocigota antes de asignar recursos adicionales a esta candidatura
+- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada)
+- Obtener los datos de mecanismo de acción desde DrugBank
+- Estudios preclínicos que justifiquen un vínculo mecanístico con la neoplasia endocrina múltiple antes de considerar cualquier avance
+- Revisar manualmente las coincidencias de VIH para descartar los falsos positivos por menciones conjuntas
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

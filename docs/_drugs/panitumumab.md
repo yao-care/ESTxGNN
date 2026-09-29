@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Solo predicción del modelo (L5)
-nav_order: 210
+nav_order: 405
 evidence_level: L5
 indication_count: 2
 ---
@@ -31,87 +31,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 # Panitumumab: De Cáncer Colorrectal Metastásico a Osteoporosis Inducida por Fármacos
 
-*Nota: la Evidence Pack incluye dos indicaciones predichas (rank 1: osteoporosis inducida por fármacos, score 99,13%; rank 2: retinopatía diabética no proliferativa severa, score 99,05%). Ambas tienen nivel de evidencia L5 (sin ensayos clínicos ni literatura) y recomendación "Hold" idéntica. Este informe se centra en el rank 1 por tener el score TxGNN más alto.*
-
----
-
 ## Resumen en Una Frase
 
-Panitumumab es un anticuerpo monoclonal dirigido contra el EGFR, utilizado originalmente en el tratamiento del cáncer colorrectal metastásico (información general de referencia, no incluida como campo estructurado en esta Evidence Pack). El modelo TxGNN predice que podría ser efectivo para **Osteoporosis Inducida por Fármacos**, pero esta dirección **no cuenta actualmente con ningún ensayo clínico ni publicación de respaldo**: se trata únicamente de una señal computacional del modelo (score 99,13%).
-
----
+Panitumumab es un anticuerpo monoclonal humano anti-EGFR, utilizado originalmente en cáncer colorrectal metastásico (dato de conocimiento general; el registro de la AEMPS del pack no incluye el texto de indicación).
+El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer colorrectal metastásico (conocimiento general de referencia; no disponible como dato estructurado en esta Evidence Pack) |
-| Nueva Indicación Predicha | Osteoporosis Inducida por Fármacos |
-| Puntaje de Predicción TxGNN | 99,13% |
+| Indicación Original | Cáncer colorrectal metastásico (conocimiento general; no consta en los datos de la AEMPS) |
+| Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
+| Puntaje de Predicción TxGNN | 99.13% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de acción de panitumumab en esta Evidence Pack (dato marcado como brecha de alta severidad, DG002). Según la información conocida, panitumumab es un anticuerpo monoclonal IgG2 completamente humano dirigido contra el receptor del factor de crecimiento epidérmico (EGFR), que bloquea la unión de sus ligandos naturales e inhibe la señalización intracelular RAS/RAF/MAPK y PI3K/AKT. Su eficacia en cáncer colorrectal metastásico con gen RAS no mutado está clínicamente establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el pack. Según el conocimiento general, panitumumab es un anticuerpo monoclonal totalmente humano que bloquea el receptor del factor de crecimiento epidérmico (EGFR). Su eficacia en la indicación oncológica original está establecida. La señalización de EGFR participa en la diferenciación de los osteoblastos y en la regulación de los osteoclastos a través de RANKL, y de ahí surge la conexión con el hueso.
 
-La señalización de EGFR también participa, según la literatura general, en la regulación del recambio óseo (actividad de osteoclastos y osteoblastos), lo que ofrece una hipótesis mecanística teórica para vincular la inhibición de EGFR con alteraciones de la densidad ósea. Sin embargo, esta Evidence Pack **no aporta ningún dato propio** —ni preclínico, ni observacional, ni de casos— que sustente esta hipótesis; la única base es el score del modelo TxGNN (0,9913), sin ensayos clínicos ni literatura que lo respalden. La conexión debe considerarse especulativa hasta que se identifique evidencia independiente.
+Sin embargo, el sentido del efecto es incierto. Bloquear EGFR podría perjudicar la formación ósea en lugar de protegerla. Además, panitumumab causa con frecuencia hipomagnesemia, un factor potencialmente negativo para la salud ósea. El puntaje alto de TxGNN (0.991) proviene solo del grafo de conocimiento, sin respaldo clínico ni bibliográfico en los datos. El mecanismo es especulativo y podría apuntar a daño más que a beneficio.
 
----
+TxGNN también predice **retinopatía diabética no proliferativa grave** (puntaje 99.05%, evidencia L5, decisión Hold). Existe un vínculo preclínico indirecto entre EGFR y la angiogénesis retiniana. Sin embargo, el tratamiento establecido se dirige a VEGF, no hay evidencia de que bloquear EGFR ayude, y un anticuerpo grande de administración sistémica con toxicidad dermatológica y electrolítica encaja mal con una indicación ocular crónica no oncológica.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
 
-## Información de Mercado
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 07423001 | VECTIBIX 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos |
+| 07423003 | VECTIBIX 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos |
+| 07423002 | VECTIBIX 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos |
 
-Panitumumab no cuenta actualmente con ninguna autorización de comercialización registrada en la consulta realizada (0 autorizaciones, estado: no comercializado). No es posible presentar una tabla de presentaciones ni de indicaciones aprobadas localmente.
-
----
+Titular de las tres autorizaciones: Amgen Europe B.V.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-EGFR) |
-| Riesgo de Mielosupresión | Bajo — los anticuerpos monoclonales anti-EGFR no suelen causar mielosupresión relevante; la toxicidad predominante de esta clase es cutánea y electrolítica. No hay datos cuantitativos propios en esta Evidence Pack — consultar el prospecto |
-| Clasificación de Emetogenicidad | Baja, perfil típico de los anticuerpos monoclonales |
-| Items de Monitoreo | Magnesio sérico y electrolitos (hipomagnesemia frecuente en la clase anti-EGFR), piel/uñas (rash acneiforme), función renal |
-| Protección en Manejo | Al ser un agente antineoplásico biológico, se recomiendan precauciones estándar de manejo de fármacos citotóxicos en su preparación y administración |
-
----
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar el prospecto; en general se vigilan electrolitos (especialmente magnesio) y la piel |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos disponibles.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el score del modelo TxGNN (L5/S0), sin ningún ensayo clínico ni publicación que la respalde, y coexiste con brechas de datos críticas: ausencia de advertencias/contraindicaciones del prospecto (brecha bloqueante, DG001) y de mecanismo de acción estructurado (DG002). No hay base suficiente para avanzar a evaluación de seguridad (S1).
+La predicción es solo del modelo (L5), sin ningún ensayo ni publicación que la respalde. El mecanismo es especulativo y podría indicar un efecto perjudicial sobre el hueso, además de la hipomagnesemia asociada al fármaco.
 
 **Para avanzar se necesita:**
-- Advertencias, contraindicaciones e interacciones farmacológicas desde el prospecto oficial (TFDA/AEMPS) — brecha bloqueante
-- Datos de mecanismo de acción (MOA) verificados en DrugBank
-- Evidencia preclínica u observacional que vincule específicamente la inhibición de EGFR con densidad mineral ósea
-- Búsqueda periódica de nuevos ensayos clínicos o literatura, dado que actualmente el conteo es cero
-- Confirmación del estado real de registro/comercialización, dado que la ausencia de autorización podría reflejar una limitación de la fuente consultada más que una ausencia real de aprobación
+- Obtener el prospecto de la AEMPS con advertencias y contraindicaciones, un dato bloqueante para el cribado de seguridad
+- Completar los datos de mecanismo de acción desde DrugBank
+- Revisión sistemática de la literatura preclínica sobre EGFR y metabolismo óseo, con atención al sentido del efecto
+- Evaluar el impacto de la hipomagnesemia sobre la salud ósea
+- Repetir la evaluación solo si aparece evidencia preclínica o clínica independiente del modelo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

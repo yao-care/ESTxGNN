@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Raltegravir
-parent: Evidencia moderada (L3-L4)
-nav_order: 233
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 452
+evidence_level: L5
 indication_count: 3
 ---
 
 # Raltegravir
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,87 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Raltegravir: De Infección por VIH-1 a Infección por el Virus de Inmunodeficiencia Simia (SIV)
+# Raltegravir: De Infección por VIH-1 a Infección por el Virus de la Inmunodeficiencia Simia (VIS)
 
 ## Resumen en Una Frase
 
-Raltegravir es un inhibidor de la integrasa del VIH-1, utilizado originalmente para el tratamiento de la infección por VIH-1. El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de inmunodeficiencia simia (SIV)** —una enfermedad que afecta a primates no humanos—, con solo **1 ensayo clínico** (retirado, sin datos utilizables) y **19 publicaciones**, todas ellas estudios preclínicos/animales, respaldando actualmente esta dirección.
-
----
+Raltegravir es un inhibidor de la integrasa del VIH-1, utilizado en el tratamiento de la infección por VIH-1.
+El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la inmunodeficiencia simia (VIS)**,
+con **1 ensayo clínico** (retirado, sin participantes) y **19 publicaciones** preclínicas en primates no humanos y sistemas *in vitro*.
+Esta indicación es un modelo animal de investigación del VIH, no una indicación terapéutica humana.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH-1 (como inhibidor de la integrasa del VIH-1; no se dispone de texto oficial de indicación/MOA en la fuente) |
-| Nueva Indicación Predicha | Infección por el virus de inmunodeficiencia simia (SIV) |
-| Puntaje de Predicción TxGNN | 99.78% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | Infección por VIH-1 (deducida de los ensayos clínicos; el texto de indicación de la AEMPS no está disponible) |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (VIS) |
+| Puntaje de Predicción TxGNN | 99,78% |
+| Nivel de Evidencia | L4 (estudios preclínicos) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Raltegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI). Bloquea la enzima que el virus usa para insertar su ADN en el genoma de la célula huésped. No se dispone de datos detallados de mecanismo de acción en DrugBank, pero este mecanismo es el conocido para la clase.
 
-Actualmente no se dispone de datos detallados y verificados del mecanismo de acción (MOA) en la fuente (marcado como Data Gap tras consulta a DrugBank). Según la información disponible en el propio análisis de esta candidatura, raltegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI) del VIH-1, cuya eficacia en la infección por VIH-1 humana está ampliamente comprobada.
+El VIS y el VIH-1 son lentivirus estrechamente emparentados, y sus integrasas son muy similares. Por eso raltegravir inhibe la replicación del VIS en macacos, y las mutaciones de resistencia a INSTI producen fenotipos parecidos en ambos virus. Esto ha convertido al VIS en un modelo preclínico habitual para estudiar la resistencia, la persistencia viral y los reservorios durante el tratamiento antirretroviral.
 
-La integrasa del SIV (virus de inmunodeficiencia simia) es altamente homóloga a la del VIH-1, razón por la cual raltegravir se utiliza extensamente como fármaco de referencia en modelos animales de VIH/SIDA en primates no humanos (macacos). Esto explica mecanísticamente por qué el modelo TxGNN asocia raltegravir con esta "indicación".
-
-Sin embargo, es importante señalar una limitación fundamental: la infección por SIV es una enfermedad veterinaria/de investigación en primates no humanos, **no una indicación clínica humana**. Por tanto, aunque el vínculo mecanístico es sólido, esta predicción no puede extrapolarse directamente como una nueva indicación de reposicionamiento para pacientes humanos, sino que refleja el uso extendido de raltegravir como herramienta de investigación en modelos animales de VIH.
-
----
+Es importante interpretar bien la predicción. El resultado es coherente con el uso del fármaco como herramienta de investigación en primates, pero **no** indica una nueva indicación terapéutica para humanos. La evidencia es indirecta y de origen animal.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | No aplica | Retirado | 0 | Estudio planeado sobre la cinética de decaimiento viral del VIH con el inhibidor de integrasa raltegravir en pacientes humanos con VIH; fue retirado antes de reclutar participantes (inscripción = 0), por lo que no genera datos utilizables. Además, su diseño original era para VIH humano, no para un modelo de SIV, por lo que su relevancia para esta indicación es baja. |
-
----
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | No aplica | Retirado | 0 | Cinética de decaimiento del VIH con raltegravir en humanos. No estudia el VIS y, al haberse retirado sin participantes, no aporta datos. |
 
 ## Evidencia de Literatura
 
+Se identificaron 19 publicaciones. A continuación se listan las 10 más relevantes. No hay ensayos aleatorizados: todas son preclínicas o *in vitro*.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20233398](https://pubmed.ncbi.nlm.nih.gov/20233398/) | 2010 | Estudio animal (SIV/macaco) | Retrovirology | Desarrollo de un régimen ART basado en raltegravir para SIVmac251 en primates no humanos; propuesto como modelo animal para SIDA simio y persistencia viral bajo tratamiento. |
-| [29643246](https://pubmed.ncbi.nlm.nih.gov/29643246/) | 2018 | Estudio animal (SIV/macaco) | Journal of Virology | Dinámica de círculos 2-LTR en macacos rhesus infectados con SIVmac251 tratados con inhibidor de integrasa, en presencia/ausencia de células CD8+. |
-| [31597776](https://pubmed.ncbi.nlm.nih.gov/31597776/) | 2019 | Estudio animal (SIV/macaco) | Journal of Virology | Evaluación de la integridad de genomas virales persistentes en macacos rhesus infectados con SIV tras iniciar ART dentro del primer año de infección. |
-| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | Estudio animal (SIV/humano) | Clinical Infectious Diseases | Dolutegravir y raltegravir inducen efectos proadipogénicos, profibróticos y resistencia a la insulina en tejido adiposo humano/simio. |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Estudio animal (perfil de resistencia SIV) | Journal of Virology | Caracterización de los perfiles de resistencia a inhibidores de integrasa en SIVmac239. |
-| [29466356](https://pubmed.ncbi.nlm.nih.gov/29466356/) | 2018 | Estudio animal (mutaciones de resistencia) | PLoS ONE | Aparición de mutaciones de resistencia en macacos rhesus infectados con SIV bajo ART no supresor con intensificación de raltegravir. |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Estudio animal (modelo neurológico) | mBio | Persistencia de infecciones lentivirales en cerebro pese a ART eficaz y activación neuroinmune. |
-| [24622515](https://pubmed.ncbi.nlm.nih.gov/24622515/) | 2014 | Estudio animal (SHIV, modelo PrEP) | Science Translational Medicine | Protección postexposición frente a infección vaginal por SHIV en macacos mediante inhibidores de integrasa tópicos. |
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Actividad antiviral in vitro/animal | Antimicrobial Agents and Chemotherapy | Actividad antiviral de bictegravir y cabotegravir frente a SIVmac239 y VIH-1 resistentes a inhibidores de integrasa. |
-| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Revisión de modelo preclínico | Antimicrobial Agents and Chemotherapy | VIH de tropismo simio como modelo para estudiar resistencia a inhibidores de integrasa. |
+| [20233398](https://pubmed.ncbi.nlm.nih.gov/20233398/) | 2010 | Preclínico (primates) | Retrovirology | Respuesta del VIS mac251 a raltegravir combinado con dos inhibidores nucleósidos/nucleótidos de la transcriptasa inversa; base de un nuevo tratamiento y modelo animal de persistencia lentiviral. |
+| [29643246](https://pubmed.ncbi.nlm.nih.gov/29643246/) | 2018 | Preclínico (primates) | Journal of Virology | Dinámica de los círculos 2-LTR del VIS en macacos tratados con un inhibidor de la integrasa, con y sin células CD8+. |
+| [29466356](https://pubmed.ncbi.nlm.nih.gov/29466356/) | 2018 | Preclínico (primates) | PLoS One | Dos macacos con VIS recibieron tenofovir/emtricitabina con intensificación de raltegravir. Hubo rebote viral y mutaciones de resistencia, similares a las del VIH. |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclínico (primates) | PLoS Pathogens | Un régimen antirretroviral muy intensificado logró supresión viral duradera y restricción del reservorio en un modelo de sida simio. |
+| [31597776](https://pubmed.ncbi.nlm.nih.gov/31597776/) | 2019 | Preclínico (primates) | Journal of Virology | Evaluación de la integridad de los genomas virales persistentes en macacos con VIS tras iniciar el tratamiento en el primer año. |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preclínico (primates) | mBio | Los lentivirus persisten en el cerebro pese al tratamiento antirretroviral eficaz. |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | *In vitro* | Journal of Virology | Perfiles de resistencia a inhibidores de la integrasa en VIS mac239. |
+| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | *In vitro* | Journal of Virology | Efecto de las mutaciones de resistencia del VIH-1 introducidas en el VIS mac239 sobre la sensibilidad a INSTI. |
+| [25648264](https://pubmed.ncbi.nlm.nih.gov/25648264/) | 2015 | Preclínico (primates) | Molecular Therapy | Modelo de macacos con SHIV suprimidos con raltegravir, emtricitabina y tenofovir; la transferencia génica lentiviral en células madre hematopoyéticas resultó afectada. |
+| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | Mecanístico *in vitro* | Clinical Infectious Diseases | Dolutegravir y raltegravir tienen efectos proadipogénicos y profibróticos e inducen resistencia a la insulina en tejido adiposo humano/simio. Es un estudio de seguridad, no de eficacia frente al VIS. |
 
----
+## Información de Mercado en España
+
+Los datos de la AEMPS no incluyen el texto de la indicación aprobada, por lo que no se muestra esa columna.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 89626 | Raltegravir Dr. Reddys 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Reddy Pharma Iberia S.A. |
+| 107436006 | Isentress 600 mg comprimidos recubiertos con película | Comprimido recubierto con película | Merck Sharp & Dohme B.V. |
+| 107436004 | Isentress 100 mg comprimidos masticables | Comprimido masticable | Merck Sharp & Dohme B.V. |
+| 07436001 | Isentress 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | Merck Sharp & Dohme B.V. |
+| 107436003 | Isentress 25 mg comprimidos masticables | Comprimido masticable | Merck Sharp & Dohme B.V. |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. (No se dispone de advertencias, contraindicaciones ni interacciones farmacológicas verificadas en la fuente; la consulta de interacciones no arrojó resultados.)
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- Aunque el vínculo mecanístico (inhibición de integrasa homóloga entre VIH-1 y SIV) es biológicamente plausible, la indicación predicha con mayor puntaje corresponde a una enfermedad de primates no humanos (SIV), no a una indicación clínica humana viable.
-- El único ensayo clínico asociado fue retirado sin inscribir pacientes (0 participantes) y, además, su diseño original era para VIH humano, no para SIV.
-- Toda la literatura de respaldo (19 publicaciones) son estudios preclínicos/animales; no existe evidencia clínica en humanos para esta indicación específica.
-- Las otras dos indicaciones predichas por el modelo (SIDA felino y un trastorno raro del neurodesarrollo) presentan evidencia aún más débil (nivel L5, sin ensayos clínicos relevantes ni literatura sustantiva), lo que refuerza que este conjunto de predicciones no está listo para avanzar.
-- Existe una brecha de datos de severidad "Blocking" (DG001: ausencia de advertencias/contraindicaciones oficiales) que impide actualmente completar la evaluación inicial de seguridad (etapa S1).
+La predicción tiene una puntuación alta (99,78%), pero la evidencia es exclusivamente preclínica (L4). Además, el VIS es un modelo animal de investigación del VIH, no una enfermedad humana con indicación terapéutica. El único ensayo clínico fue retirado sin participantes. Las otras dos predicciones del modelo tienen menos respaldo: la infección por inmunodeficiencia felina se apoya en ensayos con VIH-1 humano, y el trastorno del neurodesarrollo no tiene ningún vínculo mecanístico. Las tres puntuaciones son casi idénticas (≈0,998), lo que sugiere que no discriminan bien para este fármaco.
 
 **Para avanzar se necesita:**
-- Datos oficiales de MOA y de indicación original de raltegravir (actualmente marcados como Data Gap tras consulta a DrugBank)
-- Información de seguridad del prospecto (advertencias, contraindicaciones, interacciones farmacológicas) — actualmente sin datos disponibles
-- Identificación de una indicación humana real y mecanísticamente análoga, en lugar de un modelo animal, antes de justificar mayor inversión de investigación
-- Confirmación del estado regulatorio en España (AEMPS) más allá del estado "no comercializado" actualmente registrado
+- Definir si el objetivo es una indicación humana o solo el uso de raltegravir como herramienta de investigación en modelos de VIS. En el segundo caso, el informe pasaría a ser una pregunta de investigación y no una candidatura de reposicionamiento.
+- Obtener el texto de indicación y las advertencias, contraindicaciones e interacciones del prospecto de la AEMPS.
+- Completar los datos de mecanismo de acción desde DrugBank.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

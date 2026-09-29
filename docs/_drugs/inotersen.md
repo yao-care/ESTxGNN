@@ -2,7 +2,7 @@
 layout: default
 title: Inotersen
 parent: Evidencia moderada (L3-L4)
-nav_order: 146
+nav_order: 280
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,62 +29,67 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Inotersen: De Amiloidosis Hereditaria por Transtirretina (hATTR) a Porfiria Intermitente Aguda
+# Inotersen: De Polineuropatía por Amiloidosis Hereditaria por Transtiretina (hATTR) a Porfiria Aguda Intermitente
 
 ## Resumen en Una Frase
 
-Inotersen es un oligonucleotido antisentido (ASO) dirigido al ARNm de transtirretina (TTR), cuya indicacion conocida es la polineuropatia por amiloidosis hereditaria mediada por transtirretina (hATTR); esta informacion proviene del analisis mecanistico interno, ya que el campo de MOA formal del Evidence Pack esta vacio.
-El modelo TxGNN predice que podria ser efectivo para **Porfiria Intermitente Aguda**,
-pero actualmente **no hay ensayos clinicos** y solo **1 publicacion** (una revision general, no especifica de esta indicacion) respalda esta direccion.
+Inotersen es un oligonucleótido antisentido que reduce la producción hepática de transtiretina (TTR). La literatura recuperada lo sitúa en el tratamiento de la amiloidosis hereditaria por transtiretina (hATTR). El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermitente**, pero por ahora solo hay **0 ensayos clínicos** y **1 publicación** (una revisión general) que lo mencionan, sin respaldo mecanístico directo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Amiloidosis hereditaria por transtirretina (hATTR) con polineuropatia (informacion conocida del farmaco; no confirmada por licencias de AEMPS en este Evidence Pack) |
-| Nueva Indicacion Predicha | Porfiria Intermitente Aguda |
-| Puntaje de Prediccion TxGNN | 99.92% |
+| Indicación Original | No registrada en los datos de AEMPS (el texto de indicación está vacío). Según la literatura: hATTR |
+| Nueva Indicación Predicha | Porfiria aguda intermitente (PAI) |
+| Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-El Evidence Pack no incluye datos formales de mecanismo de accion (campo marcado como vacio), pero el analisis mecanistico interno aporta contexto util: inotersen es un ASO de segunda generacion que se dirige al ARNm de TTR en el higado y lo degrada via RNase H1, reduciendo la produccion de transtirretina causante de la amiloidosis en hATTR.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, inotersen es un oligonucleótido antisentido dirigido al hígado que disminuye la producción de TTR. Su uso en hATTR se apoya en la literatura recuperada.
 
-La Porfiria Intermitente Aguda (PIA) es una enfermedad monogenica distinta, causada por deficiencia de HMBS (PBGD), que provoca acumulacion de ALA/PBG. Su diana terapeutica establecida es el ARNm de ALAS1 (abordado por siRNA como givosiran), sin ninguna via molecular compartida con TTR.
+La relación con la porfiria aguda intermitente es débil. La PAI se debe a una producción excesiva de ALAS1 en el hígado, secundaria a un defecto en la enzima PBGD (gen *HMBS*). La TTR no forma parte de esa vía. Los únicos vínculos plausibles son de clase: ambas enfermedades se tratan con terapias oligonucleotídicas dirigidas al hígado y ambas cursan con neuropatía periférica.
 
-La puntuacion elevada de TxGNN probablemente refleja una similitud de categoria — ambos son farmacos de accion hepatica basados en oligonucleotidos para enfermedades metabolicas monogenicas del higado — mas que una superposicion real de mecanismo molecular. Esto se traduce en una hipotesis biologicamente debil que no deberia interpretarse como evidencia de eficacia real.
+El puntaje TxGNN es muy alto, pero no está respaldado por una justificación a nivel de vía. El agente mecanísticamente relevante para la PAI es givosirán, un ARNip contra ALAS1. Las otras 9 predicciones del modelo (apendicitis, paquimeningitis y otras entidades relacionadas con IgG4, meningitis, peritonitis) tienen nivel L5 y ninguna evidencia clínica ni de literatura. Todas quedan en Hold.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [30847674](https://pubmed.ncbi.nlm.nih.gov/30847674/) | 2019 | Revision | Neurological Sciences | Revision general sobre avances terapeuticos en neuropatias perifericas hereditarias (incluyendo hATTR); menciona farmacos como inotersen dentro de la "revolucion terapeutica" en amiloidosis hATTR, pero no aborda especificamente la Porfiria Intermitente Aguda. Relevancia pendiente de confirmar. |
+| [30847674](https://pubmed.ncbi.nlm.nih.gov/30847674/) | 2019 | Revisión | Neurological Sciences | Revisión general de terapias nuevas y ya aprobadas para neuropatías periféricas genéticas, con énfasis en hATTR. El resumen disponible no evalúa el uso en porfiria aguda intermitente |
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1181296002 | TEGSEDI 284 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA (Akcea Therapeutics Ireland Limited) | Solución inyectable en jeringa precargada | No especificada en los datos disponibles |
 
 ## Consideraciones de Seguridad
 
-No hay datos formales de seguridad disponibles en este Evidence Pack (advertencias, contraindicaciones e interacciones farmacologicas figuran como vacios) — consultar el prospecto/ficha tecnica para informacion completa. El analisis mecanistico interno si menciona, como conocimiento de referencia, que inotersen tiene advertencias conocidas de trombocitopenia y glomerulonefritis, relevantes para cualquier evaluacion de seguridad posterior.
+- **Advertencias del análisis de predicciones**: inotersen tiene eventos adversos inmunomediados conocidos (glomerulonefritis, trombocitopenia), lo que aconseja cautela en enfermedades de base inmunitaria.
+- **Interacciones farmacológicas**: no se encontraron registros en la consulta realizada.
 
-## Conclusion y Proximos Pasos
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-La evidencia es insuficiente para avanzar: nivel L4 sin ningun ensayo clinico y una sola publicacion de relevancia no confirmada. Ademas, el vinculo mecanistico entre el objetivo de inotersen (TTR) y la fisiopatologia de la Porfiria Intermitente Aguda (via ALAS1) no esta establecido, lo que sugiere que la puntuacion de TxGNN refleja similitud de categoria de farmaco mas que una hipotesis biologica solida. El farmaco tampoco esta comercializado en Espana (0 autorizaciones).
+**Decisión: Hold**
+
+**Justificación:**
+La predicción para porfiria aguda intermitente se basa solo en el modelo, sin ensayos clínicos, con una única revisión general y sin vínculo mecanístico entre la TTR y la vía de la PAI. Existe además una alternativa mecanísticamente adecuada (givosirán).
 
 **Para avanzar se necesita:**
-- Ficha tecnica/prospecto oficial (AEMPS o fabricante) con advertencias y contraindicaciones — actualmente bloqueante (DG001)
-- Datos formales de mecanismo de accion (DG002)
-- Estudios preclinicos o de mecanismo que evaluen directamente TTR-ASO en el contexto de PIA
-- Confirmacion de relevancia de la publicacion PMID 30847674 respecto a esta indicacion especifica
-
-**Nota adicional:** El Evidence Pack incluye otros 9 candidatos de menor prioridad (apendicitis, meningitis infecciosa/no infecciosa, peritonitis y varias enfermedades del espectro IgG4-relacionado), todos con nivel de evidencia L5, sin ensayos clinicos ni literatura, y sin vinculo mecanistico identificable con el objetivo de TTR. Se recomienda **Hold** para todos ellos por tratarse de ruido de prediccion del modelo.
+- Obtener el prospecto de AEMPS para completar advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
+- Confirmar el mecanismo de acción y la indicación original consultando DrugBank.
+- Justificar a nivel de vía por qué la reducción de TTR podría influir en la PAI, o descartar la hipótesis.
+- Buscar estudios preclínicos o clínicos específicos en PAI antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

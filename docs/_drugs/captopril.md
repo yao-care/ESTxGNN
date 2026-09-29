@@ -2,7 +2,7 @@
 layout: default
 title: Captopril
 parent: Evidencia moderada (L3-L4)
-nav_order: 58
+nav_order: 101
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,58 +29,86 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Captopril: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
+# Captopril: De Inhibidor de la ECA a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Captopril es un inhibidor de la enzima convertidora de angiotensina (IECA), utilizado originalmente en el tratamiento de la hipertensión arterial. El modelo TxGNN predice que podría ser efectivo para **Enfermedad Renal Hipertensiva Maligna**, con **1 publicación** que actualmente respalda esta dirección de forma indirecta, sin ensayos clínicos registrados.
+Captopril es un inhibidor de la enzima convertidora de angiotensina (ECA), comercializado en España en comprimidos. El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna**, pero la evidencia es mínima: **0 ensayos clínicos** y **1 publicación**, un reporte de caso diagnóstico sin valor terapéutico.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Hipertensión arterial (clase IECA; no hay texto de indicación de licencia disponible en España) |
-| Nueva Indicacion Predicha | Enfermedad Renal Hipertensiva Maligna |
-| Puntaje de Prediccion TxGNN | 99.28% |
+| Indicación Original | No consta en los datos de autorización de la AEMPS disponibles (todas las fichas tienen el campo de indicación vacío) |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
+| Puntaje de Predicción TxGNN | 99.28% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) desde la fuente estructurada (DrugBank). Según la información conocida de forma general, captopril es un inhibidor de la enzima convertidora de angiotensina (IECA) que bloquea el sistema renina-angiotensina-aldosterona (RAAS), mecanismo bien establecido en su indicación original de hipertensión arterial.
+## ¿Por qué es Razonable esta Predicción?
 
-La hipertensión renal maligna es, por definición, un estado de hiperactivación marcada del eje renina-angiotensina; por tanto, existe una relación mecanicista directa y plausible entre la indicación original de captopril y esta nueva indicación predicha por TxGNN.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en la base de datos. Según la información conocida, captopril es un inhibidor de la ECA, es decir, actúa sobre el sistema renina-angiotensina-aldosterona (SRAA), y mecanísticamente podría ser aplicable a la hipertensión maligna con daño renal.
 
-Sin embargo, la única evidencia bibliográfica disponible para esta indicación específica es un reporte de caso sobre gammagrafía renal con captopril (uso diagnóstico, no terapéutico) que resultó ser un falso positivo causado por un carcinoma de células renales, no por hipertensión renina-dependiente real. Esta evidencia respalda solo indirectamente la hipótesis mecanicista, sin constituir evidencia de eficacia terapéutica. Cabe destacar que la indicación relacionada "malignant renovascular hypertension" (mismo puntaje TxGNN) cuenta con una base de literatura considerablemente más sólida (20 publicaciones, incluyendo revisiones y series de casos clínicos), lo que refuerza la plausibilidad general del mecanismo IECA en hipertensión renina-dependiente grave.
+En la hipertensión maligna con afectación renal se plantea que la activación del SRAA participa en el daño. Bloquear la ECA reduce la formación de angiotensina II, lo que da un fundamento fisiopatológico plausible para la predicción del modelo.
 
-## Evidencia de Ensayos Clinicos
+Este fundamento es solo teórico. La única publicación recuperada es un reporte de caso diagnóstico (renografía con captopril con resultado positivo en un paciente con carcinoma renal, sin estenosis de la arteria renal). No aporta datos de eficacia terapéutica. Además, la indicación original del fármaco no está verificada en los datos disponibles, por lo que no se puede evaluar la similitud con ella.
+
+---
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Reporte de Caso | Clinical Nuclear Medicine | Gammagrafía renal con captopril positiva sin estenosis de arteria renal; la causa real fue un carcinoma de células renales cromófobo. La hipertensión renina-dependiente se resolvió tras nefrectomía. Evidencia diagnóstica, no terapéutica. |
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Reporte de caso (diagnóstico) | Clinical Nuclear Medicine | Renografía con captopril positiva sin estenosis de arteria renal, debida a un gran carcinoma renal cromófobo. La hipertensión dependiente de renina se resolvió tras la nefrectomía. Uso diagnóstico, no terapéutico. |
+
+---
+
+## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada no está registrado en ninguna de ellas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 61620 | Captopril Mylan 50 mg comprimidos EFG | Comprimido | Mylan Pharmaceuticals S.L. |
+| 64762 | Captopril Mabo 50 mg comprimidos EFG | Comprimido | Mabo Farma S.A. |
+| 55939 | Captopril Qualigen 50 mg comprimidos | Comprimido | Neuraxpharm Spain S.L. |
+| 64764 | Captopril Tarbis 25 mg comprimidos EFG | Comprimido | Tarbis Farma S.L. |
+| 62424 | Captopril Sandoz 25 mg comprimidos EFG | Comprimido | Sandoz Farmacéutica S.A. |
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
+
+## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El único dato bibliográfico disponible para esta indicación es un reporte de caso de uso diagnóstico (no terapéutico), y no existen ensayos clínicos registrados. Aunque el mecanismo IECA es plausible para hipertensión renina-dependiente grave, la evidencia actual (nivel L4) es insuficiente para avanzar más allá de la fase de pregunta de investigación.
+La predicción se apoya en una puntuación alta del modelo (99.28%) y en un fundamento mecanístico plausible. Sin embargo, no hay ensayos clínicos y la única publicación es un reporte de caso diagnóstico sin evidencia de eficacia. Tampoco están verificadas la indicación original ni la información de seguridad de la ficha técnica.
 
 **Para avanzar se necesita:**
-- Prospecto/ficha técnica de la agencia reguladora con advertencias y contraindicaciones (actualmente ausente — gap bloqueante, DG001)
-- Datos detallados del mecanismo de acción desde DrugBank (gap de alta prioridad, DG002)
-- Estudios terapéuticos (no solo diagnósticos) que evalúen captopril en enfermedad renal hipertensiva maligna
-- Evaluar en paralelo la indicación relacionada "malignant renovascular hypertension" (mismo puntaje TxGNN, nivel L3, recomendación "Proceed with Guardrails"), que cuenta con una base de evidencia bibliográfica considerablemente más robusta
+- Descargar y analizar la ficha técnica de la AEMPS (advertencias y contraindicaciones), un requisito previo al cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Confirmar la indicación original aprobada en las autorizaciones españolas.
+- Buscar estudios clínicos de captopril en hipertensión maligna con afectación renal.
+- Evaluar el riesgo de lesión renal aguda con inhibidores de la ECA en pacientes con estenosis bilateral de arteria renal o riñón único funcionante.
+- Como contexto, la predicción relacionada de **hipertensión renovascular maligna** (puntuación idéntica, nivel L4) cuenta con más literatura, aunque compuesta sobre todo de revisiones y reportes de caso. Puede servir como línea de investigación complementaria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

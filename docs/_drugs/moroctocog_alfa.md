@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Moroctocog Alfa
-parent: Evidencia alta (L1-L2)
-nav_order: 188
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 365
+evidence_level: L5
 indication_count: 8
 ---
 
 # Moroctocog Alfa
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,95 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-Usando el Evidence Pack proporcionado, seleccioné como indicación a evaluar **"Deficiencia Adquirida de Factor de Coagulación"** (rank 4) en lugar de la predicción con mayor score bruto (rank 1). El propio Evidence Pack marca las predicciones rank 1, 2, 3, 5, 6, 7 y 8 como `evidence_level: L5` / `recommendation: Hold`, con razonamientos que dicen explícitamente "sin sustento mecanístico real" (p. ej. ensayos con `relevance.grade: C` que no coinciden con la enfermedad). La rank 4 es la única con evidencia sustantiva (`L2`, ensayos Grade B, `decision_stage: S2`). Presentar la rank 1 como indicación principal habría producido un informe internamente contradictorio.
-
----
-
-# Moroctocog Alfa: De Reposición de Factor VIII (Hemofilia A) a Deficiencia Adquirida de Factor de Coagulación
+# Moroctocog Alfa: De Factor VIII Recombinante a Trastorno de Liberación Plaquetaria Primario
 
 ## Resumen en Una Frase
 
-Moroctocog alfa es un Factor VIII de coagulación recombinante con dominio B eliminado, utilizado como terapia de reposición en hemofilia A. Entre las ocho indicaciones propuestas por TxGNN, la única con respaldo real es **Deficiencia Adquirida de Factor de Coagulación** (esencialmente hemofilia A adquirida por autoanticuerpos anti-FVIII), con **13 ensayos clínicos** y **4 publicaciones** identificados; el resto de predicciones del modelo carecen de vínculo mecanístico verificable.
+Moroctocog alfa es un factor VIII de coagulación recombinante (con el dominio B eliminado), comercializado en España como ReFacto AF. El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero **ninguno de los 7 ensayos clínicos** asociados evalúa este fármaco en esta enfermedad y no hay **ninguna publicación** que lo respalde. La predicción carece de sustento mecanístico y clínico.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en el Evidence Pack; descriptivamente, el fármaco actúa como terapia de reposición de Factor VIII en hemofilia A congénita |
-| Nueva Indicación Predicha | Deficiencia Adquirida de Factor de Coagulación |
-| Puntaje de Predicción TxGNN | 99.88% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
+| Puntaje de Predicción TxGNN | 99,97 % |
+| Nivel de Evidencia | L5 (el pack asigna L4, pero ningún estudio evalúa el fármaco en esta enfermedad, por lo que aquí se aplica L5) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 9 |
+| Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-El campo formal de mecanismo de acción no está disponible en este Evidence Pack, pero la propia evidencia recopilada describe a moroctocog alfa como Factor VIII recombinante humano con dominio B eliminado ("B-domain deleted rFVIII"), cuya función es reponer directamente el factor de coagulación deficiente.
+## ¿Por qué es Razonable esta Predicción?
 
-La Deficiencia Adquirida de Factor de Coagulación corresponde mayoritariamente a hemofilia A adquirida (AHA), causada por autoanticuerpos que neutralizan el Factor VIII endógeno. Mecanísticamente, esto es el mismo objetivo terapéutico que la hemofilia A congénita —reposición de FVIII— por lo que la predicción de TxGNN tiene una base biológica coherente, a diferencia de las otras siete predicciones del mismo lote (p. ej. trastornos de liberación plaquetaria, enfermedad de pseudo-von Willebrand, trombastenia de Glanzmann, síndrome de Scott), donde la evidencia del propio pack indica ausencia de relación mecanística real.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el pack. Según la información conocida, moroctocog alfa es factor VIII recombinante y actúa reponiendo este factor plasmático de la coagulación.
 
-Existe, sin embargo, una limitación importante señalada en el propio análisis: en la práctica clínica, la AHA suele tratarse preferentemente con FVIII porcino (p. ej. Obizur) o agentes bypass, porque los mismos autoanticuerpos que causan la enfermedad pueden neutralizar también un FVIII de secuencia humana como moroctocog alfa. Esto no invalida el mecanismo, pero sí limita su papel a un uso de segunda línea o guiado por el título de inhibidor del paciente.
+**Esta predicción no resulta razonable desde el punto de vista mecanístico.** El trastorno de liberación (secreción) plaquetaria es un defecto funcional propio de la plaqueta, y la reposición de factor VIII no lo corrige. El puntaje alto probablemente refleja la cercanía del fármaco a la región de trastornos hemorrágicos en el grafo de conocimiento, no una razón biológica.
+
+Los ensayos vinculados son estudios de fase 3 de otros productos de factor VIII en hemofilia A, o estudios sin relación con esta enfermedad.
+
+**Nota:** entre las 8 predicciones del modelo, la más plausible es la n.º 4, **deficiencia adquirida de factores de coagulación** (relacionada con la hemofilia A adquirida). Su respaldo es solo indirecto, porque proviene de otros productos (sobre todo factor VIII porcino, susoctocog alfa/Obizur). Además, el moroctocog alfa es de secuencia humana y se esperaría que los mismos autoanticuerpos lo inhiban. Merece evaluarse aparte como pregunta de investigación.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT06550882](https://clinicaltrials.gov/study/NCT06550882) | N/A | Reclutando | 9 | Vigilancia post-comercialización de OBIZUR (FVIII porcino recombinante) en hemofilia A adquirida, Corea del Sur |
-| [NCT02610127](https://clinicaltrials.gov/study/NCT02610127) | N/A | Completado | 53 | Evaluación de seguridad no intervencionista post-comercialización de Obizur en episodios hemorrágicos por AHA |
-| [NCT01178294](https://clinicaltrials.gov/study/NCT01178294) | Fase 2/3 | Completado | 29 | Eficacia y seguridad de FVIII porcino recombinante (OBI-1) en AHA por autoanticuerpos anti-FVIII |
-| [NCT04580407](https://clinicaltrials.gov/study/NCT04580407) | Fase 2/3 | Completado | 5 | FVIII porcino recombinante con dominio B eliminado (TAK-672) en episodios hemorrágicos graves por AHA en Japón |
-| [NCT00306670](https://clinicaltrials.gov/study/NCT00306670) | Fase 2/3 | Terminado | 2 | Rituximab vs. ciclofosfamida oral para suprimir autoanticuerpos anti-FVIII en AHA |
-| [NCT02453542](https://clinicaltrials.gov/study/NCT02453542) | N/A | Reclutando | 20 | Métodos hemostáticos globales para medir efecto de agentes bypass en hemofilia con inhibidores |
-| [NCT01856751](https://clinicaltrials.gov/study/NCT01856751) | N/A | Desconocido | 80 | Uso de TGA y TEM para evaluar eficacia de APCC/rFVIIa en hemofilia adquirida y hemofilia A con inhibidores |
-| [NCT03199794](https://clinicaltrials.gov/study/NCT03199794) | N/A | Completado | 50 | Estudio no intervencionista de seguridad y efectividad de Obizur en práctica clínica real |
-| [NCT04398628](https://clinicaltrials.gov/study/NCT04398628) | N/A | Reclutando | 3000 | Registro de historia natural ATHN Transcends, incluye trastornos hematológicos no neoplásicos como AHA |
+| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Fase 3 | Completado | 159 | rFVIIIFc-VWF-XTEN (BIVV001) como profilaxis en hemofilia A grave, ≥12 años. Otro producto y otra enfermedad |
+| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Fase 3 | Completado | 74 | BIVV001 en pacientes pediátricos <12 años con hemofilia A grave. Otro producto y otra enfermedad |
+| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Fase 3 | Completado | 30 | FVIII pegilado (BAX 855) en cirugía o procedimientos invasivos en hemofilia A. Otro producto y otra enfermedad |
+| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/A | En reclutamiento | 25 | Soporte hepático artificial en insuficiencia hepática aguda sobre crónica. Sin relación |
+| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/A | En reclutamiento | 45 | Exploración de la hemostasia en pacientes con derivación portosistémica transyugular (TIPS). Observacional, sin relación |
+| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/A | En reclutamiento | 200 | Evaluación de laboratorio y síntomas en el síndrome post-vacunación COVID-19. Sin relación |
+| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/A | Aún sin reclutar | 80 | Perfil de coagulación en leucemia mieloide aguda de nuevo diagnóstico. Observacional, sin relación |
+
+Los 7 ensayos fueron clasificados con relevancia baja (grado C).
+
+---
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [25765796](https://pubmed.ncbi.nlm.nih.gov/25765796/) | 2015 | Revisión | Rinsho Ketsueki | Revisión de inhibidores adquiridos de factores de coagulación, mayoritariamente autoanticuerpos anti-FVIII |
-| [25525118](https://pubmed.ncbi.nlm.nih.gov/25525118/) | 2015 | Cohorte (registro GTH-AH) | Blood | Factores pronósticos de remisión y supervivencia en hemofilia A adquirida bajo tratamiento inmunosupresor |
-| [26517066](https://pubmed.ncbi.nlm.nih.gov/26517066/) | 2015 | Reporte de caso | Blood Coagul Fibrinolysis | Caso de AHA con desarrollo posterior de linfoma no-Hodgkin |
-| [14161416](https://pubmed.ncbi.nlm.nih.gov/14161416/) | 1964 | Revisión histórica | Blood | Implicaciones clínicas de anomalías adquiridas de la coagulación |
+Actualmente no hay literatura relacionada disponible.
+
+---
+
+## Información de Mercado en España
+
+Se muestran 5 de las 9 autorizaciones. Todas pertenecen a Pfizer Europe MA EEIG. El registro no incluye el texto de la indicación aprobada.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 99103003 | ReFacto AF 1000 UI | Polvo y disolvente para solución inyectable | Pfizer Europe MA EEIG |
+| 99103002 | ReFacto AF 500 UI | Polvo y disolvente para solución inyectable | Pfizer Europe MA EEIG |
+| 99103004 | ReFacto AF 2000 UI | Polvo y disolvente para solución inyectable | Pfizer Europe MA EEIG |
+| 99103007 | ReFacto AF 1000 UI | Polvo y disolvente para solución inyectable en jeringa precargada | Pfizer Europe MA EEIG |
+| 99103008 | ReFacto AF 2000 UI | Polvo y disolvente para solución inyectable en jeringa precargada | Pfizer Europe MA EEIG |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay datos de advertencias, contraindicaciones ni interacciones farmacológicas disponibles en este Evidence Pack; la obtención del etiquetado de seguridad es un requisito bloqueante antes de cualquier evaluación S1.
+Consultar el prospecto para información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El mecanismo de reposición de FVIII de moroctocog alfa tiene coherencia biológica directa con la deficiencia adquirida de factor de coagulación, respaldado por ensayos Fase 2/3 completados con moléculas de FVIII recombinante estructuralmente análogas (OBI-1, TAK-672) y series post-comercialización de Obizur. Sin embargo, el fármaco no está comercializado en España, no existe evidencia clínica del compuesto específico en esta indicación, y el riesgo de neutralización por los mismos autoanticuerpos que definen la enfermedad limita su posicionamiento a segunda línea o poblaciones seleccionadas.
+La predicción no tiene respaldo mecanístico, porque la reposición de factor VIII no corrige un defecto funcional de la plaqueta, y ningún ensayo ni publicación evalúa este fármaco en esta enfermedad. El puntaje alto del modelo parece reflejar proximidad en el grafo, no eficacia esperable.
 
 **Para avanzar se necesita:**
-- Obtener el etiquetado de seguridad (advertencias/contraindicaciones) de la agencia reguladora — actualmente bloqueante para la evaluación de seguridad
-- Confirmar el mecanismo de acción y perfil de inmunogenicidad vía DrugBank
-- Evaluar el estado de inhibidores anti-FVIII como criterio de selección de pacientes antes de posicionar moroctocog alfa frente a alternativas porcinas o agentes bypass
-- Descartar formalmente las siete predicciones restantes del mismo lote TxGNN, dado que su propia evidencia interna no sustenta un vínculo mecanístico real
+- Descargar y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), cuya ausencia bloquea el cribado de seguridad.
+- Obtener los datos de mecanismo de acción desde DrugBank.
+- Considerar reorientar la evaluación hacia la deficiencia adquirida de factores de coagulación (predicción n.º 4), que es la única con plausibilidad mecanística parcial.
+- Verificar en la ontología el término ambiguo "flood factor deficiency" (predicción n.º 8) antes de cualquier revisión.
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

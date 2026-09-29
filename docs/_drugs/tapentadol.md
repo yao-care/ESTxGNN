@@ -2,7 +2,7 @@
 layout: default
 title: Tapentadol
 parent: Solo predicción del modelo (L5)
-nav_order: 269
+nav_order: 511
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,79 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# TAPENTADOL: De Analgesia (Dolor) a Migraña
+# Tapentadol: De Analgésico Opioide a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
-TAPENTADOL es un analgésico con mecanismo dual —agonista μ-opioide e inhibidor de la recaptación de noradrenalina (NRI)— utilizado en el manejo del dolor. El modelo TxGNN predice que podría ser efectivo para **Migraña (migraine disorder)**, con un puntaje de predicción del **99.67%**, pero actualmente **no existen ensayos clínicos** que estudien directamente esta combinación y solo **2 publicaciones** indirectamente relacionadas la respaldan.
-
----
+Tapentadol es un analgésico comercializado en España en varias formas de liberación inmediata y prolongada. El texto de indicación aprobada no figura en los datos recibidos.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero actualmente hay **0 ensayos clínicos** y **2 publicaciones** que no estudian tapentadol, por lo que la predicción carece de respaldo real.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No confirmada en fuente oficial (dato regulatorio ausente); mecanismo descrito sugiere uso analgésico |
-| Nueva Indicación Predicha | Migraña (migraine disorder) |
+| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 99.67% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L5 (el paquete de evidencia indica L4, pero la literatura hallada no estudia tapentadol) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos oficiales confirmados sobre el mecanismo de acción (MOA) de TAPENTADOL en este Evidence Pack. Según la información contenida en el análisis de racionalidad del modelo, TAPENTADOL combina un componente **agonista μ-opioide** con **inhibición de la recaptación de noradrenalina (NRI)**, mecanismo compartido en parte con algunos fármacos preventivos de migraña (p. ej., venlafaxina, que actúa también vía NRI).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según el análisis del paquete de evidencia, tapentadol combina agonismo del receptor opioide mu con inhibición de la recaptación de noradrenalina. En teoría esto podría modular las vías centrales del dolor, y ese es el único vínculo mecanístico que se puede plantear.
 
-Sin embargo, esta similitud mecanística es solo parcial y presenta una señal negativa relevante: múltiples guías clínicas de cefalea —la guía EAN MOH 2020 y la revisión de evidencia AHRQ sobre migraña aguda— desaconsejan explícitamente el uso de opioides en el tratamiento de la migraña, debido a su falta de especificidad analgésica, el riesgo de cefalea por uso excesivo de medicación (medication overuse headache), la cronificación de la migraña y el riesgo de abuso/dependencia. Por tanto, la predicción del componente NRI es mecánicamente plausible, pero el componente opioide constituye una contraindicación relativa de clase, no solo un vacío de evidencia.
-
-El modelo TxGNN también predijo dos subtipos adicionales relacionados con migraña: "migraine with brainstem aura" (sin ningún respaldo de literatura o ensayos, con riesgo teórico añadido de depresión respiratoria/alteración de consciencia en un subtipo con síntomas de origen troncoencefálico) y "migraine with or without aura, susceptibility to" (una clasificación de susceptibilidad genética, no una indicación tratable; su literatura asociada —20 publicaciones— trata sobre genética de comorbilidad epilepsia-migraña, sin relación con la farmacología de TAPENTADOL). Ambos fueron evaluados y también reciben recomendación Hold.
-
----
+Este vínculo es débil. El puntaje de 0.997 es una predicción de un grafo de conocimiento, no evidencia clínica. Además, los opioides se desaconsejan en general en la migraña por el riesgo de cefalea por abuso de medicación, cronificación y eficacia limitada. Nada en los datos respalda a tapentadol específicamente.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [27096578](https://pubmed.ncbi.nlm.nih.gov/27096578/) | 2016 | Revisión (Cochrane) | Cochrane Database of Systematic Reviews | Revisión sobre dipirona (metamizol) para dolor postoperatorio agudo; menciona su uso en migraña en algunos países, pero **no estudia TAPENTADOL** |
-| [27096438](https://pubmed.ncbi.nlm.nih.gov/27096438/) | 2016 | Revisión (Cochrane) | Cochrane Database of Systematic Reviews | Revisión sobre sumatriptán + naproxeno para crisis agudas de migraña; describe tratamientos abortivos estándar (triptanes, AINE), **no estudia TAPENTADOL** |
+| [27096438](https://pubmed.ncbi.nlm.nih.gov/27096438/) | 2016 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Sumatriptán más naproxeno en crisis agudas de migraña en adultos. No incluye tapentadol. |
+| [27096578](https://pubmed.ncbi.nlm.nih.gov/27096578/) | 2016 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Dosis única de dipirona (metamizol) en dolor postoperatorio agudo. Menciona la migraña solo como uso del fármaco. No incluye tapentadol. |
 
-**Nota:** Ninguna de las dos publicaciones estudia directamente TAPENTADOL en migraña; ambas fueron recuperadas por asociación temática con "migraña" y "analgesia", no por evidencia farmacológica específica del fármaco.
-
----
+Ninguna de las dos publicaciones evalúa tapentadol, así que no aportan evidencia directa para esta indicación.
 
 ## Información de Mercado en España
 
-No se han identificado autorizaciones de comercialización en España (total de autorizaciones: 0).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 73613 | YANTIL 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 88378 | TAPENTADOL TEVA 100 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
+| 88377 | TAPENTADOL TEVA 50 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
+| 88288 | TAPENTADOL RETARD STADA 100 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
+| 73243 | PALEXIA RETARD 50 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada |
 
----
+Se muestran 5 de las 20 autorizaciones. También existe una forma de solución oral (vía oral).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. (No se dispone de advertencias, contraindicaciones ni datos de interacciones farmacológicas en las fuentes consultadas; la obtención del prospecto de la agencia reguladora está pendiente y ha sido marcada como bloqueante para la evaluación de seguridad.)
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Las tres indicaciones predichas relacionadas con migraña se encuentran en nivel de evidencia L5 (solo predicción del modelo, sin estudios reales que estudien TAPENTADOL en estas indicaciones). Además, el componente opioide del fármaco representa una señal mecanística desfavorable según las guías clínicas vigentes de tratamiento de migraña, y persiste un vacío de seguridad bloqueante (ausencia del prospecto/advertencias de la agencia reguladora).
+La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura sobre tapentadol en migraña. Las guías generales desaconsejan los opioides en esta enfermedad. Las otras dos predicciones (migraña con aura de tronco encefálico y susceptibilidad genética a migraña con o sin aura) tienen evidencia L5 y tampoco justifican avanzar. La tercera es un fenotipo de susceptibilidad genética, no una condición tratable, y su literatura trata sobre epilepsia.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto oficial (advertencias, contraindicaciones) desde la agencia reguladora correspondiente — actualmente bloqueante
-- Confirmar la indicación original y el mecanismo de acción (MOA) mediante DrugBank u otra fuente primaria
-- Evaluación mecanística especializada que sopese el componente NRI (potencialmente favorable) frente al componente opioide (desfavorable según guías de migraña)
-- Monitoreo de nuevos ensayos clínicos o literatura que estudien específicamente TAPENTADOL en migraña
+- Obtener del prospecto de la AEMPS las advertencias y contraindicaciones, y las indicaciones aprobadas. Esta falta es un bloqueo para pasar al cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Buscar estudios preclínicos o clínicos que evalúen específicamente tapentadol en migraña.
+- Evaluar el riesgo de cefalea por abuso de medicación frente a las alternativas ya establecidas.
+
+*Este informe es solo de referencia para la investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

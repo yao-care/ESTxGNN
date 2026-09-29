@@ -2,7 +2,7 @@
 layout: default
 title: Efavirenz
 parent: Evidencia moderada (L3-L4)
-nav_order: 100
+nav_order: 192
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,79 +29,100 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Efavirenz: De Infección por VIH-1 a Infección por Virus de Inmunodeficiencia de Simios
+# Efavirenz: De Infección por VIH-1 a Infección por el Virus de la Inmunodeficiencia Símica (VIS)
 
 ## Resumen en Una Frase
 
-Efavirenz es un inhibidor no nucleosídico de la transcriptasa reversa (NNRTI), utilizado originalmente en el tratamiento de la infección por VIH-1.
-El modelo TxGNN predice que podría ser relevante para la **infección por virus de inmunodeficiencia de simios (SIV)**,
-con **1 ensayo clínico** y **16 publicaciones** identificadas, aunque de relevancia clínica limitada (ver más abajo).
+Efavirenz es un antirretroviral utilizado originalmente para tratar la infección por VIH-1. El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la inmunodeficiencia símica**, pero solo hay **1 ensayo clínico** (retirado, sin participantes) y **15 publicaciones** preclínicas en macacos. La predicción probablemente refleja el uso de un modelo animal del VIH-1 y no una indicación nueva.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH-1 (terapia antirretroviral) |
-| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia de simios (SIV) |
+| Indicación Original | Infección por VIH-1 (no consta en el texto de las autorizaciones españolas; se toma del conocimiento general del fármaco) |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia símica |
 | Puntaje de Predicción TxGNN | 99.80% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 9 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-No se dispone de una ficha estructurada del mecanismo de acción (MOA) de efavirenz en esta base. Sin embargo, la evidencia clínica revisada confirma que efavirenz es un **NNRTI** que inhibe directamente la transcriptasa reversa del VIH-1; su eficacia en la infección por VIH-1 está firmemente establecida (el ensayo NCT01263015 lo sitúa como componente del régimen de referencia Atripla®, en combinación con emtricitabina/tenofovir).
+## ¿Por qué es Razonable esta Predicción?
 
-La "infección por SIV" **no es una enfermedad humana**, sino un modelo animal (virus de inmunodeficiencia de simios en macacos) empleado por investigadores para estudiar fármacos anti-VIH. El vínculo mecanístico identificado es que los investigadores han desarrollado quimeras virales SIV/SHIV (en las que la transcriptasa reversa nativa de SIV se sustituye por la del VIH-1, dando lugar al llamado "RT-SHIV"), precisamente para poder ensayar NNRTIs como efavirenz —que de otro modo no tienen actividad frente a la transcriptasa reversa nativa de SIV—.
+Efavirenz es un inhibidor no nucleosídico de la transcriptasa inversa (ITINN) del VIH-1. No hay datos detallados de mecanismo de acción en el paquete de evidencia, pero esta clase actúa sobre la transcriptasa inversa del VIH-1 y no sobre la del VIS.
 
-En consecuencia, aunque el puntaje de TxGNN es muy alto (99.80%), la señal refleja el uso de efavirenz como **herramienta de investigación** en un modelo animal (misma diana enzimática), y no una indicación clínica nueva y viable en humanos.
+La evidencia en macacos proviene del **RT-SHIV**, una quimera del VIS que lleva la transcriptasa inversa del VIH-1. Se diseñó para que fuera sensible a efavirenz y otros ITINN. Los estudios encontrados usan ese virus como modelo animal de la terapia del VIH-1. No estudian efavirenz contra el VIS "natural", que es intrínsecamente poco sensible a esta clase. La pregunta clínica ya está cubierta por el uso aprobado en VIH-1. El puntaje alto de TxGNN (0.998) probablemente refleja este vínculo con el organismo modelo y no una oportunidad terapéutica independiente.
+
+No existe evidencia clínica en humanos para esta entidad de enfermedad.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | No aplica | Retirado | 0 | Estudio sobre cinética de decaimiento del VIH con el inhibidor de integrasa **raltegravir** (no efavirenz); retirado sin inscripción, sin evidencia utilizable. |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Retirado | 0 | Cinética de decaimiento del VIH con raltegravir. No hay datos de eficacia de efavirenz ni población con VIS. No sirve como evidencia. |
 
-**Nota:** este ensayo fue calificado con relevancia grado C ("el fármaco del estudio es raltegravir, no efavirenz; estado RETIRADO, inscripción=0, sin evidencia disponible") — no aporta soporte real a la predicción.
+---
 
 ## Evidencia de Literatura
 
+Todos los estudios son preclínicos (macacos o in vitro). No hay ECA ni revisiones sistemáticas.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Estudio en animales | Antimicrob Agents Chemother | Evaluó la actividad de efavirenz en macacos infectados con la quimera RT-SHIV, validando su uso en este modelo animal. |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Estudio en animales | Retrovirology | Macacos RT-SHIV tratados con monoterapia corta de efavirenz seguida de terapia combinada; análisis de dinámica de subpoblaciones virales resistentes. |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Estudio en animales | J Virol | Siete macacos RT-SHIV tratados con efavirenz (200 mg/día) + lamivudina + tenofovir mostraron supresión significativa de la carga viral. |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Estudio en animales | J Virol | Analiza la diversidad genética viral tras terapia antirretroviral (incluida monoterapia inicial con efavirenz) en macacos RT-SHIV. |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Estudio en animales/in vitro | J Virol | Detección de variantes de resistencia preexistentes mediante PCR ultrasensible en macacos infectados con RT-SHIV. |
-| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | Estudio in vitro | J Virol | Caracteriza la quimera SHIV-VIH, desarrollada específicamente para permitir el estudio de resistencia a NNRTIs (como efavirenz) en macacos. |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Estudio en animales | Antimicrob Agents Chemother | Evalúa regímenes antirretrovirales potenciados (4-5 fármacos) sobre la cinética de decaimiento viral en el modelo RT-SHIV. |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Estudio in vitro | Antivir Ther | Evalúa la actividad antiviral de 16 fármacos aprobados frente a cepas de VIH-2, SIV y SHIV. |
-| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Estudio en animales | PLoS One | Caracteriza la cinética de decaimiento viral bajo HAART en el modelo de macacos RT-SHIV. |
-| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Estudio en animales | Retrovirology | Analiza poblaciones virales en plasma y tejido de macacos RT-SHIV bajo terapia antirretroviral. |
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Preclínico (in vivo, macaco rhesus) | Antimicrob Agents Chemother | Evalúa la actividad antiviral de efavirenz en macacos infectados con RT-SHIV, una quimera sensible a ITINN. |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preclínico (in vivo, macaco rhesus, HAART) | J Virol | Siete macacos con RT-SHIV recibieron efavirenz, lamivudina y tenofovir, con reducción de la carga viral plasmática. |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preclínico (in vivo) | J Virol | La diversidad genética del virus persiste en macacos pese a la terapia antirretroviral, incluida una monoterapia corta con efavirenz. |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Preclínico (in vivo, dinámica viral) | Retrovirology | Sigue subpoblaciones virales en macacos tratados con efavirenz en monoterapia corta y luego con terapia combinada. |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Preclínico (in vivo, macaco rhesus) | Antimicrob Agents Chemother | Las terapias intensificadas (cuatro y cinco fármacos) mejoran la cinética de decaimiento viral del RT-SHIV. |
+| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Modelo animal (HAART en macaco) | PLoS One | Describe la cinética de decaimiento viral en un modelo de macaco tratado con HAART. |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preclínico (virología) | J Virol | Una PCR ultrasensible detecta variantes resistentes preexistentes poco frecuentes y una gran población viral en replicación en macacos con RT-SHIV. |
+| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | Preclínico (in vitro) | J Virol | Caracteriza in vitro la quimera VIS-VIH que expresa la transcriptasa inversa del VIH-1, para estudiar la resistencia a ITINN. |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Estudio in vitro de susceptibilidad | Antivir Ther | Compara la actividad de fármacos anti-VIH-1 aprobados frente a VIH-2, VIS y SHIV. |
+| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preclínico (in vivo) | Retrovirology | Las poblaciones virales de plasma y tejidos son similares, lo que sugiere poca replicación tisular durante la terapia. |
 
-**Nota:** las 16 publicaciones identificadas son, sin excepción, estudios preclínicos (animales o in vitro); no existe ningún ECA ni estudio observacional en humanos.
+---
 
 ## Información de Mercado en España
 
-Efavirenz no cuenta actualmente con autorizaciones de comercialización registradas en España (0 licencias; estado: No comercializado).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 99110009 | SUSTIVA 600 mg comprimidos recubiertos con película | Comprimido recubierto con película | Bristol-Myers Squibb Pharma EEIG |
+| 99110001 | SUSTIVA 50 mg, cápsulas duras | Cápsula dura | Bristol-Myers Squibb Pharma EEIG |
+| 99110002 | SUSTIVA 100 mg, cápsulas duras | Cápsula dura | Bristol-Myers Squibb Pharma EEIG |
+| 99110003 | SUSTIVA 200 mg, cápsulas duras | Cápsula dura | Bristol-Myers Squibb Pharma EEIG |
+| 79191 | Efavirenz Aurovitas 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aurovitas Spain, S.A.U. |
+
+Se muestran 5 de las 9 autorizaciones. Los datos recibidos no incluyen el texto de la indicación aprobada.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consulte el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible es de nivel L4: no existe ningún ensayo clínico en humanos relevante para efavirenz en esta indicación, solo estudios preclínicos donde el fármaco se emplea como herramienta de investigación en un modelo animal (RT-SHIV), no como tratamiento dirigido a una enfermedad humana. Además, la "infección por SIV" no es una enfermedad humana, por lo que no constituye un objetivo de reposicionamiento clínicamente viable en su forma actual.
+La evidencia es de nivel L4: solo estudios preclínicos en macacos con un virus quimérico que contiene la transcriptasa inversa del VIH-1. El único ensayo clínico vinculado fue retirado sin participantes. La predicción parece un artefacto del modelo animal y no una indicación nueva.
 
 **Para avanzar se necesita:**
-- Ficha técnica completa con mecanismo de acción (MOA) verificado (brecha de datos DG002)
-- Advertencias, contraindicaciones y prospecto oficial (brecha de datos bloqueante DG001, impide evaluación de seguridad S1)
-- Reevaluar si el modelo TxGNN debe filtrar indicaciones no humanas antes de puntuar: las otras dos indicaciones predichas para este fármaco en esta ficha son un síndrome veterinario (inmunodeficiencia felina) y un síndrome pediátrico raro sin ningún vínculo mecanístico ni evidencia (0 ensayos, 0 literatura) — ninguna es candidata viable
-- Datos de autorización de comercialización en España, actualmente inexistentes
+- Confirmar el texto de la indicación aprobada (VIH-1) en las fichas técnicas de la AEMPS.
+- Completar los datos de mecanismo de acción y seguridad (advertencias, contraindicaciones e interacciones), hoy ausentes.
+- Decidir si esta predicción tiene algún valor traslacional más allá del uso ya aprobado en VIH-1. Si no lo tiene, descartarla como candidata de reposicionamiento.
+
+**Otras predicciones de menor prioridad (también en Hold):**
+- **Síndrome de inmunodeficiencia adquirida felina** (99.80%, L4): los ensayos vinculados son estudios de VIH-1 en humanos donde efavirenz probablemente es el comparador. No hay literatura felina, y la transcriptasa inversa del virus felino suele describirse como resistente a los ITINN.
+- **Trastorno del neurodesarrollo con marcha atáxica, ausencia de habla y disminución de la sustancia blanca cortical** (99.77%, L5): no hay ensayos ni literatura. Los efectos neuropsiquiátricos conocidos de efavirenz serían una preocupación especial en población pediátrica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

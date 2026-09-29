@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cabozantinib
-parent: Evidencia alta (L1-L2)
-nav_order: 51
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 93
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cabozantinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,108 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Cabozantinib: De Carcinoma de Células Renales a Liposarcoma
+# Cabozantinib: De Indicación Original No Registrada a Liposarcoma
 
 ## Resumen en Una Frase
 
-Cabozantinib es un inhibidor multiquinasa (MET/VEGFR1-3/RET/AXL/KIT/TIE2) cuya indicación consolidada a nivel internacional es el carcinoma de células renales avanzado (respaldada por ensayos pivotales como METEOR y CheckMate 9ER), aunque en el registro de este mercado no consta actualmente como comercializado. El modelo TxGNN predice que podría ser efectivo para **Liposarcoma**, con **1 ensayo clínico** y **1 publicación** que actualmente respaldan esta dirección.
+Cabozantinib es un inhibidor multicinasa de uso oncológico, comercializado en España como Cometriq y Cabometyx. Los datos recibidos no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico** (Fase 2, en curso, sin resultados) y **1 publicación** (Fase 1, en sarcomas de extremidades) que respaldan esta dirección de forma indirecta.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de células renales (indicación consolidada a nivel internacional; sin licencias ni texto de indicación registrados en este mercado) |
+| Indicación Original | No registrada (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 99.83% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Research Question |
+| Nivel de Evidencia | L5 (criterio estricto; ver nota abajo) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 6 |
+| Decisión Recomendada | Hold |
+
+> **Nota sobre el nivel de evidencia:** el Evidence Pack asigna L2, pero según las reglas de este informe L2 exige un ECA de Fase 2/3 **completado**. El único ensayo disponible sigue activo, sin resultados, y no es específico de liposarcoma. La publicación es un estudio de Fase 1 de seguridad. Por eso se clasifica como L5.
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Cabozantinib es un inhibidor de múltiples tirosina quinasas, con actividad principal sobre MET, VEGFR1-3, RET, AXL, KIT y TIE2. Esta información de mecanismo de acción no proviene del registro estructurado de DrugBank (marcado como dato pendiente en este informe), sino que se ha reconstruido a partir de la caracterización farmacológica conocida del fármaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la farmacología general, cabozantinib es un inhibidor multicinasa que actúa sobre VEGFR2, MET, AXL, RET y KIT. Su eficacia en tumores sólidos está comprobada en otras indicaciones oncológicas, y mecanísticamente podría ser aplicable al liposarcoma.
 
-El liposarcoma, como otros sarcomas de tejido blando, presenta con frecuencia dependencia de la angiogénesis y activación de las vías MET/VEGFR, un mecanismo ya explotado terapéuticamente en sarcomas mediante otros inhibidores antiangiogénicos (p. ej., pazopanib). Esta base mecanística ofrece una justificación razonable para explorar cabozantinib en sarcomas, incluido el liposarcoma, aunque de forma no específica: el ensayo disponible incluye sarcoma de tejido blando en general, sin diseño dirigido exclusivamente a liposarcoma.
+La angiogénesis dependiente de VEGFR y la señalización MET/AXL son impulsores plausibles en el sarcoma de partes blandas. El liposarcoma es uno de sus subtipos. La publicación disponible indica que cabozantinib muestra actividad en varios subtipos de sarcoma de partes blandas.
 
-En conjunto, la señal de TxGNN es mecanísticamente plausible pero todavía preliminar: se apoya en un ensayo de fase 2 en curso (sin lectura de resultados) y un estudio de fase 1 sobre una subpoblación relacionada (sarcomas de extremidades), por lo que se recomienda tratarla como pregunta de investigación más que como candidata lista para avanzar.
+Esta relación es una hipótesis. El puntaje TxGNN de 0.998 es solo una predicción del modelo. No hay evidencia clínica específica de liposarcoma, y el ensayo de Fase 2 incluye sarcoma de partes blandas en general.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Fase 2 | En curso (no reclutando) | 66 | Ensayo randomizado que compara ipilimumab+nivolumab solos vs. en combinación con cabozantinib en sarcoma de tejido blando avanzado; sin lectura de resultados aún (finalización estimada 2026-05) |
+| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Fase 2 | Activo, sin reclutamiento | 66 | Ensayo aleatorizado que compara ipilimumab + nivolumab solos frente a su combinación con cabozantinib en sarcoma de partes blandas avanzado. La población no es específica de liposarcoma y no hay resultados publicados. |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Ensayo Fase 1 (neoadyuvante + radioterapia) | American Journal of Clinical Oncology | Evalúa la seguridad de cabozantinib concurrente con radioterapia como terapia neoadyuvante en sarcoma de tejido blando de extremidades; el uso combinado con RT se había limitado por riesgo de fístula/perforación |
+| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Ensayo Fase 1 | American Journal of Clinical Oncology | Evalúa la seguridad de cabozantinib neoadyuvante con radioterapia concurrente en sarcomas de partes blandas de extremidades. Esa combinación se había limitado por el riesgo de fístula o perforación. |
 
-## Información de Mercado
+---
 
-Actualmente no hay autorizaciones registradas para cabozantinib en este mercado (fármaco no comercializado, 0 licencias).
+## Información de Mercado en España
+
+Se muestran 5 de las 6 autorizaciones registradas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 113890004 | Cometriq 20mg cápsulas duras | Cápsula dura | No registrada |
+| 113890005 | Cometriq 20mg+80mg cápsulas duras | Cápsula dura | No registrada |
+| 113890006 | Cometriq 20mg+80mg cápsulas duras | Cápsula dura | No registrada |
+| 1161136002 | Cabometyx 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada |
+| 1161136006 | Cabometyx 60 mg comprimidos recubiertos con película | Comprimido recubierto con película | No registrada |
+
+---
 
 ## Citotoxicidad
 
+Los datos recibidos no incluyen información de toxicidad de DrugBank. Lo siguiente se basa en la clasificación farmacológica general y debe confirmarse en el prospecto.
+
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multiquinasa: MET/VEGFR1-3/RET/AXL/KIT/TIE2), no citotóxico convencional |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina cinasa multidiana) |
+| Riesgo de Mielosupresión | Bajo a medio; consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Hemograma, función hepática y renal, electrolitos, presión arterial, proteinuria y función tiroidea |
+| Protección en Manejo | Consultar las regulaciones locales de manejo de medicamentos peligrosos y el prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Riesgo de fístula o perforación con radioterapia concurrente:** la publicación de Fase 1 señala que esta preocupación ha limitado el uso combinado de cabozantinib con radioterapia en sarcomas.
+
+Para el resto de la información de seguridad, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Research Question**
+**Decisión: Hold**
 
 **Justificación:**
-La evidencia actual para liposarcoma es mecanísticamente razonable pero clínicamente preliminar: un único ensayo de fase 2 aún sin resultados leídos y un estudio de fase 1 en una población de sarcomas relacionada, no específica de liposarcoma. No es suficiente para avanzar a evaluación de guardrails, pero justifica seguimiento activo.
+La predicción de liposarcoma se apoya en un solo ensayo de Fase 2 en curso y sin resultados, con población de sarcoma de partes blandas en general, y en un estudio de Fase 1 de seguridad. No hay ningún estudio completado con eficacia específica en liposarcoma, por lo que la evidencia sigue en el nivel de hipótesis.
 
 **Para avanzar se necesita:**
-- Resultados del ensayo NCT05836571 (finalización estimada mayo 2026)
-- Obtener el texto de advertencias/contraindicaciones (仿單) vía TFDA/AEMPS — actualmente bloqueante para la evaluación de seguridad S1 (DG001)
-- Confirmar el mecanismo de acción mediante consulta directa a la API de DrugBank (DG002)
-- Nota: dentro de este mismo candidato, TxGNN identificó señales con evidencia considerablemente más sólida — carcinoma de células renales no clasificado (L2, S2, Proceed with Guardrails) y carcinoma renal en general (L1, S3, Proceed with Guardrails, respaldado por múltiples ECAs de fase 3 como CheckMate 9ER y METEOR) — que podrían priorizarse como vía de avance más inmediata
+- Resultados del ensayo NCT05836571, idealmente con análisis por subtipo histológico (liposarcoma).
+- Estudios o series de casos específicos de liposarcoma, incluyendo los subtipos bien diferenciado, desdiferenciado y mixoide.
+- Datos del mecanismo de acción desde DrugBank.
+- Prospecto de la AEMPS con advertencias, contraindicaciones y el texto de la indicación aprobada.
+- Consulta de interacciones farmacológicas, ya que la búsqueda no devolvió resultados y podría ser una laguna de datos.
+
+**Contexto adicional:** en este mismo Evidence Pack, la predicción de **carcinoma renal** tiene evidencia mucho más sólida (varios ECA de Fase 3, nivel L1, decisión Proceed with Guardrails). Si el objetivo es priorizar candidatos, conviene evaluarla por separado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

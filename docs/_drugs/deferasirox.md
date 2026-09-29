@@ -2,7 +2,7 @@
 layout: default
 title: Deferasirox
 parent: Evidencia moderada (L3-L4)
-nav_order: 85
+nav_order: 162
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,63 +29,95 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Deferasirox: De Sobrecarga de Hierro Transfusional a Infeccion por VIH
+# Deferasirox: De Quelante de Hierro (Sobrecarga de Hierro) a Infección por VIH
 
 ## Resumen en Una Frase
 
-Deferasirox es un quelante de hierro oral utilizado habitualmente para el tratamiento de la sobrecarga de hierro asociada a transfusiones sanguineas frecuentes (p. ej., beta-talasemia, sindromes mielodisplasicos). El modelo TxGNN predice que podria ser efectivo para la **Infeccion por VIH**, con un puntaje de prediccion del **99.40%**, aunque esta direccion cuenta actualmente solo con **2 publicaciones** de nivel mecanistico/preclinico y **ningun ensayo clinico** registrado.
+Deferasirox es un quelante de hierro comercializado en España en varias presentaciones genéricas. Los datos de AEMPS recibidos no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero solo hay **0 ensayos clínicos** y **2 publicaciones**, ninguna con datos clínicos en VIH.
+Además, la evidencia preclínica disponible sugiere que la quelación de hierro podría ser contraproducente.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Sin datos de licencia en España (farmaco no comercializado, 0 autorizaciones); segun informacion farmacologica general conocida, deferasirox se usa para sobrecarga de hierro transfusional |
-| Nueva Indicacion Predicha | Infeccion por VIH |
-| Puntaje de Prediccion TxGNN | 99.40% |
+| Indicación Original | No disponible en los datos de AEMPS recibidos (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Infección por VIH |
+| Puntaje de Predicción TxGNN | 99,40 % |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el Evidence Pack (Data Gap). Segun la informacion farmacologica conocida, deferasirox es un quelante de hierro oral, y su eficacia en la reduccion de la sobrecarga de hierro transfusional esta bien establecida; sin embargo, no hay registros de autorizacion en España dentro de este Evidence Pack.
+## ¿Por qué es Razonable esta Predicción?
 
-Respecto a la infeccion por VIH, la unica evidencia disponible es de tipo mecanistico/preclinico: un estudio in vitro (PMID 34550543) sugiere que la restriccion de hierro a nivel endolisosomal puede interferir con la oligomerizacion de la proteina Tat del VIH-1 y con la activacion transcripcional del LTR viral, lo cual es biologicamente plausible dado el papel del hierro como cofactor en procesos de replicacion viral.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, deferasirox se utiliza como quelante de hierro (tratamiento de la sobrecarga de hierro, por ejemplo en talasemia). Esta clasificación proviene del contexto de la literatura recuperada y no de un texto de indicación aprobado en los datos recibidos. Su relación mecanística con el VIH es solo indirecta.
 
-Es importante señalar que la segunda publicacion asociada (PMID 16529348) es solo un anuncio de comercializacion de nuevos farmacos y no aporta evidencia cientifica especifica sobre la relacion deferasirox-VIH. Por tanto, el respaldo real de la literatura se limita a un unico estudio de mecanismo celular, sin ningun dato clinico o en poblacion humana.
+La única pista mecanística proviene de un estudio preclínico (PMID 34550543). Según ese estudio, el hierro en los endolisosomas **restringe** la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina. Si esto es correcto, quelar hierro con deferasirox podría debilitar esa restricción natural y favorecer la replicación viral. La dirección del efecto es, por tanto, incierta o incluso adversa.
 
-## Evidencia de Ensayos Clinicos
+El puntaje TxGNN es muy alto (99,40 %), pero es una predicción del modelo basada en el grafo de conocimiento. No está respaldada por datos clínicos.
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclinico/Basico | Journal of NeuroVirology | La restriccion de hierro endolisosomal inhibe la transactivacion del LTR de VIH-1 mediada por Tat, aumentando la oligomerizacion de Tat y la expresion de beta-catenina |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Revision | Journal of the American Pharmacists Association (JAPhA) | Anuncio de nuevos farmacos (incluye deferasirox); no aporta evidencia especifica sobre VIH |
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclínico / mecanístico in vitro | J Neurovirol | El hierro endolisosomal restringe la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina. |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Revisión (resumen de nuevos fármacos) | J Am Pharm Assoc | Resumen general de nuevos fármacos, incluido deferasirox. No es específico de VIH. |
 
-## Informacion de Mercado en España
+---
 
-Actualmente no hay autorizaciones registradas en España (farmaco no comercializado, 0 licencias).
+## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones. Los datos recibidos no incluyen el texto de indicación aprobada.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 84909 | Deferasirox Stada 180 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
+| 86261 | Deferasirox Aurovitas 90 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aurovitas Spain, S.A.U. |
+| 86337 | Deferasirox Alembic 360 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Alembic Pharmaceuticals Europe Limited |
+| 89130 | Deferasirox Sun 360 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Sun Pharmaceutical Industries (Europe) B.V. |
+| 1191412002 | Deferasirox Accord 90 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Accord Healthcare S.L.U. |
+
+También existe la forma de comprimido dispersable entre las presentaciones registradas.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
 
-## Conclusion y Proximos Pasos
+---
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-La evidencia para esta indicacion (VIH) es puramente mecanistica/preclinica (Nivel L4), sin ningun ensayo clinico ni estudio en poblacion humana. Ademas, faltan datos regulatorios y de seguridad basicos (advertencias, contraindicaciones, interacciones), lo cual bloquea cualquier evaluacion inicial de seguridad (S1).
+**Decisión: Hold**
+
+**Justificación:**
+No hay ensayos clínicos y la única evidencia es un estudio preclínico cuyo sentido apunta a un posible efecto adverso de la quelación de hierro sobre el VIH. El puntaje TxGNN por sí solo no basta para avanzar.
 
 **Para avanzar se necesita:**
-- Advertencias y contraindicaciones del prospecto (TFDA/AEMPS)
-- Confirmacion del mecanismo de accion (MOA) via DrugBank
-- Estudios preclinicos in vivo o clinicos que confirmen el efecto antiviral de deferasirox frente a VIH
-- Evaluacion de interacciones farmacologicas (DDI), actualmente sin datos ("not_found")
+- Obtener el prospecto de AEMPS para confirmar la indicación original, las advertencias y las contraindicaciones (actualmente falta información de seguridad).
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Realizar estudios in vitro de deferasirox en modelos de replicación del VIH para aclarar si el efecto es beneficioso o perjudicial.
+- Solo si esos estudios son favorables, evaluar estudios clínicos exploratorios con monitorización de carga viral.
+
+**Otras predicciones del modelo (para referencia):**
+- **Hepatitis C crónica:** L4, "Research Question". El vínculo es indirecto, a través de la sobrecarga de hierro. Cualquier beneficio vendría de tratar la sobrecarga de hierro comórbida, no de una acción antiviral.
+- **Trastorno del neurodesarrollo con marcha atáxica, dermatofibrosarcoma protuberans e hiperlipidemia familiar combinada (término obsoleto):** L5, "Hold". No hay ensayos ni literatura. El término de hiperlipidemia debe actualizarse en la ontología antes de evaluarlo.
+
+*Estos resultados son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Volanesorsen
 parent: Solo predicción del modelo (L5)
-nav_order: 295
+nav_order: 567
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,55 +33,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Volanesorsen es un oligonucleótido antisentido dirigido contra APOC3, conocido públicamente por su uso en el control de triglicéridos en el síndrome de quilomicronemia familiar (FCS). El modelo TxGNN predice que podría ser efectivo para **Anemia Megaloblástica** (y otras 9 indicaciones candidatas con puntajes similares), pero **no existe actualmente ningún ensayo clínico ni publicación** que respalde esta u otras direcciones predichas.
+Volanesorsen es un oligonucleótido antisentido dirigido contra el ARNm de APOC3 que reduce los triglicéridos. Se comercializa en España como Waylivra, y su uso original conocido es el síndrome de quilomicronemia familiar (dato de conocimiento general, no incluido en los datos de AEMPS recibidos).
+El modelo TxGNN predice que podría ser efectivo para **anemia megaloblástica**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en los datos regulatorios de Taiwán (sin licencias registradas); públicamente asociado al control de triglicéridos (FCS) |
-| Nueva Indicacion Predicha | Anemia Megaloblástica |
-| Puntaje de Prediccion TxGNN | 99.99% |
+| Indicación Original | Síndrome de quilomicronemia familiar (conocimiento general; el texto de indicación de AEMPS está vacío) |
+| Nueva Indicación Predicha | Anemia megaloblástica |
+| Puntaje de Predicción TxGNN | 99.997% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Taiwan | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Según la información disponible en el paquete de evidencia, volanesorsen es un oligonucleótido antisentido dirigido contra APOC3, cuyo mecanismo principal es la inhibición de la expresión de apoC-III para reducir los niveles de triglicéridos.
+## ¿Por qué es Razonable esta Predicción?
 
-No existe una relación mecanística conocida entre esta vía (metabolismo de triglicéridos/lipoproteínas) y la anemia megaloblástica, cuyo mecanismo central involucra alteraciones del metabolismo del folato/B12 y de la síntesis de ADN. La propia justificación mecanística del paquete de evidencia señala explícitamente que **no hay conexión biológica conocida** entre ambos procesos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según el conocimiento general, volanesorsen es un oligonucleótido antisentido que silencia el ARNm de APOC3 y reduce los triglicéridos plasmáticos. Su eficacia se ha establecido en trastornos lipídicos graves, no en enfermedades hematológicas.
 
-En consecuencia, esta predicción se basa únicamente en el puntaje del modelo TxGNN, sin respaldo mecanístico, clínico ni bibliográfico. Lo mismo aplica a las otras 9 indicaciones candidatas del listado (enfermedades hematológicas tipo drepanocitosis, colangitis esclerosante, hemoglobinuria paroxística nocturna, infección meningocócica), cuyas justificaciones mecanísticas incluidas en el paquete también concluyen ausencia de vínculo biológico plausible.
+**Sinceramente, no se identifica un vínculo mecanístico claro con la anemia megaloblástica.** Esta enfermedad se debe a la deficiencia de vitamina B12 o folato y a una síntesis de ADN alterada, procesos que la reducción de APOC3 no aborda. El puntaje alto de TxGNN (99.997%) es una predicción basada en el grafo de conocimiento, sin estudios que la respalden.
 
-## Evidencia de Ensayos Clinicos
+Además, la trombocitopenia es un riesgo conocido de volanesorsen. Esto sería un problema adicional en un paciente con compromiso hematológico previo.
+
+Las otras nueve predicciones principales (colangitis esclerosante, distintos subtipos de enfermedad de células falciformes, infección meningocócica y hemoglobinuria paroxística nocturna) tampoco tienen ensayos ni literatura, y todas son de nivel L5. Los subtipos de células falciformes comparten exactamente el mismo puntaje, lo que sugiere una señal heredada del nodo padre en el grafo y no evidencia independiente.
+
+---
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Informacion de Mercado en Taiwan
+---
 
-Volanesorsen no está actualmente comercializado en Taiwán y no cuenta con autorizaciones registradas en la base regulatoria consultada.
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1191360 | WAYLIVRA 285 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA (Akcea Therapeutics Ireland Limited) | Solución inyectable en jeringa precargada | No disponible en el registro recibido |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas en las fuentes consultadas; la ficha técnica de TFDA aún no ha sido incorporada al análisis.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos recibidos.
 
-## Conclusion y Proximos Pasos
+Como nota de conocimiento general, la trombocitopenia es un efecto adverso conocido de volanesorsen. Debe considerarse de forma prioritaria en cualquier población con enfermedad hematológica.
 
-**Decision: Hold**
+---
 
-**Justificacion:**
-Las 10 indicaciones predichas por TxGNN se encuentran en nivel de evidencia L5 (solo predicción del modelo), sin ensayos clínicos, literatura, ni justificación mecanística sólida que las respalde. Adicionalmente, el fármaco no está comercializado en Taiwán y falta información regulatoria y de seguridad esencial (ficha técnica de TFDA).
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción es de nivel L5: solo hay una puntuación del modelo, sin ensayos ni literatura. No existe un vínculo mecanístico plausible con la anemia megaloblástica, y el riesgo conocido de trombocitopenia aumenta la preocupación de seguridad.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto de TFDA con advertencias y contraindicaciones (actualmente bloqueante para la evaluación de seguridad, DG001)
-- Confirmación de la indicación e historial regulatorio original del fármaco
-- Estudios mecanísticos o preclínicos que evalúen la plausibilidad biológica de las indicaciones predichas antes de considerar cualquier estudio clínico
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un requisito bloqueante para el cribado de seguridad
+- Confirmar el mecanismo de acción y la indicación original desde DrugBank o la ficha técnica
+- Encontrar evidencia preclínica o clínica que vincule la reducción de APOC3 con la anemia megaloblástica
+- Evaluar el riesgo de trombocitopenia en pacientes con enfermedad hematológica
+
+*Este informe es solo una referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

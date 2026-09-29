@@ -2,7 +2,7 @@
 layout: default
 title: Quinapril
 parent: Solo predicción del modelo (L5)
-nav_order: 232
+nav_order: 449
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Quinapril: Indicación Original No Disponible → Hipertensión Renovascular Maligna
+# Quinapril: De Indicación Original No Registrada a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Quinapril (DrugBank DB00881) no cuenta actualmente con datos de indicación original ni de mecanismo de acción en este Evidence Pack. El modelo TxGNN predice que podría ser efectivo para **Hipertensión Renovascular Maligna**, con un puntaje de **99,86%**, pero por ahora no existe ningún ensayo clínico ni publicación que respalde directamente esta indicación específica.
+Quinapril es un inhibidor de la enzima convertidora de angiotensina (ECA) comercializado en España, aunque los datos de autorización disponibles no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción del modelo.
 
 ---
 
@@ -41,23 +43,23 @@ Quinapril (DrugBank DB00881) no cuenta actualmente con datos de indicación orig
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack |
-| Nueva Indicación Predicha | Hipertensión Renovascular Maligna |
-| Puntaje de Predicción TxGNN | 99,86% |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Hipertensión renovascular maligna |
+| Puntaje de Predicción TxGNN | 99.86% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 12 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de quinapril en esta fuente. Tampoco hay registro de su(s) indicación(es) original(es) en los datos regulatorios consultados.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, quinapril es un inhibidor de la ECA, es decir, bloquea el sistema renina-angiotensina-aldosterona (SRAA). Mecanísticamente podría ser aplicable a la hipertensión renovascular maligna.
 
-Como referencia, el propio candidato genera cuatro predicciones adicionales de alta puntuación con perfil clínico relacionado (hipertensión renal maligna, hipertensión pulmonar por enfermedad pulmonar/hipoxia, hipertensión pulmonar de mecanismo multifactorial y síndrome de Braddock), lo que sugiere que el modelo está agrupando el candidato dentro de un espacio fenotípico cardiovascular/renal. Sin embargo, sin el MOA original ni la indicación aprobada, no es posible en este momento construir una justificación mecanística verificable para la indicación de rango 1.
+La hipertensión renovascular depende en gran medida de la renina y la angiotensina. Por eso, bloquear este sistema es una explicación plausible para el resultado del modelo. Sin embargo, esta plausibilidad se basa en el mecanismo de la clase farmacológica, no en datos específicos de quinapril.
 
-**Se recomienda completar primero los data gaps DG001 (advertencias/contraindicaciones) y DG002 (MOA vía DrugBank) antes de profundizar en el razonamiento mecanístico.**
+Hay una salvedad importante de seguridad. En la estenosis bilateral de la arteria renal o en pacientes con un solo riñón, los inhibidores de la ECA pueden provocar insuficiencia renal aguda. Antes de avanzar, habría que revisar con cuidado el perfil de seguridad en esta población.
 
 ---
 
@@ -73,6 +75,20 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
+## Información de Mercado en España
+
+Se muestran 5 de las 12 autorizaciones.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 61733 | ECTREN 40 mg comprimidos recubiertos con película | Comprimido recubierto | No especificada en los datos |
+| 59203 | LIDALTRIN 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en los datos |
+| 61672 | LIDALTRIN 40 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en los datos |
+| 59191 | ECTREN 20 mg comprimidos recubiertos con película | Comprimido recubierto | No especificada en los datos |
+| 59082 | ACUPREL 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en los datos |
+
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
@@ -84,14 +100,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha de mayor rango (hipertensión renovascular maligna) no cuenta con ningún ensayo clínico ni literatura de respaldo (Nivel de Evidencia L5, solo predicción del modelo). Además, faltan datos críticos de MOA, indicación original y seguridad, y el fármaco no está comercializado en España (0 autorizaciones). No hay base suficiente para avanzar a evaluación de seguridad (S1).
+La predicción tiene un puntaje alto (99.86%), pero es solo una predicción del modelo (L5), sin ensayos clínicos ni literatura específica de quinapril. Además, aún no se ha revisado la información de seguridad del prospecto, y el riesgo renal en estenosis de arteria renal bilateral o riñón único exige cautela.
 
 **Para avanzar se necesita:**
-- Resolver DG001: obtener advertencias/contraindicaciones desde la fuente regulatoria correspondiente
-- Resolver DG002: obtener el mecanismo de acción (MOA) vía DrugBank API
-- Confirmar la(s) indicación(es) original(es) aprobada(s) del fármaco
-- Evidencia clínica o de literatura específica para hipertensión renovascular maligna (rank 1)
-- Dado que rank 3 (hipertensión pulmonar por enfermedad pulmonar/hipoxia) sí arrojó 20 resultados en PubMed, revisar manualmente esa literatura para confirmar relevancia real antes de descartar esa vía alternativa
+- Obtener y revisar el prospecto de AEMPS (advertencias y contraindicaciones), en especial los riesgos renales en estenosis renovascular.
+- Completar los datos del mecanismo de acción y las indicaciones aprobadas de quinapril.
+- Buscar literatura y ensayos específicos sobre inhibidores de la ECA (incluido quinapril) en hipertensión renovascular maligna.
+- Descartar las demás predicciones de menor sustento (hipertensión pulmonar por enfermedad pulmonar o hipoxia, hipertensión pulmonar de mecanismo multifactorial, síndrome de Braddock), que no muestran evidencia ni vínculo mecanístico claro. Las 20 publicaciones recuperadas para la hipertensión pulmonar por hipoxia son literatura general sobre hipoxia, sin mención de quinapril, y no cuentan como evidencia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

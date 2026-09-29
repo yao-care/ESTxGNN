@@ -2,7 +2,7 @@
 layout: default
 title: Atezolizumab
 parent: Evidencia moderada (L3-L4)
-nav_order: 28
+nav_order: 52
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,84 +29,88 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Atezolizumab: De Inmunoterapia Oncológica Establecida a Carcinoma Urotelial de la Uretra Prostática
+# Atezolizumab: De Indicación Original No Registrada a Carcinoma Urotelial de la Uretra Prostática
 
 ## Resumen en Una Frase
 
-Atezolizumab es un anticuerpo monoclonal anti-PD-L1 ya utilizado en inmunoterapia oncológica; este Evidence Pack no incluye el detalle de sus indicaciones originales aprobadas (dato pendiente).
-El modelo TxGNN predice que podría ser efectivo para **carcinoma urotelial de la uretra prostática**, con **2 ensayos clínicos** identificados y sin literatura específica que respalde por ahora esta dirección.
-
----
+Atezolizumab es un anticuerpo monoclonal anti-PD-L1 comercializado en España como Tecentriq. El Evidence Pack no incluye el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma urotelial de la uretra prostática**,
+con **2 ensayos clínicos** (ambos indirectos) y **ninguna publicación** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos registrados en este Evidence Pack (campo `original_indications` vacío; fármaco no comercializado en España) |
+| Indicación Original | No disponible en los datos recibidos |
 | Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 11 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de atezolizumab en este Evidence Pack (dato pendiente de extracción vía DrugBank). Según la información conocida, atezolizumab es un anticuerpo monoclonal anti-PD-L1 utilizado en inmunoterapia oncológica, cuya acción se basa en bloquear la interacción PD-L1/PD-1 para restaurar la actividad citotóxica de los linfocitos T contra el tumor.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, atezolizumab es un inhibidor del punto de control inmunitario que bloquea PD-L1. Mecanísticamente podría ser aplicable al carcinoma urotelial de la uretra prostática.
 
-El carcinoma urotelial de la uretra prostática pertenece a la familia de los carcinomas uroteliales, y comparte con el carcinoma urotelial vesical tanto la histología como el mecanismo de evasión inmunológica mediado por PD-L1. Atezolizumab ya cuenta con una base mecanística de inmunoterapia bien establecida en el carcinoma urotelial vesical (incluyendo el NMIBC no respondedor a BCG), lo que hace mecanísticamente plausible su extensión a esta subregión anatómica.
+El carcinoma urotelial de la uretra prostática es histológicamente el mismo tipo tumoral que el carcinoma urotelial de vejiga. En ese contexto, el bloqueo de PD-L1 con atezolizumab es biológicamente plausible. Los ensayos disponibles no reclutan específicamente enfermedad de la uretra prostática, por lo que el vínculo se basa solo en el tipo tumoral y la proximidad anatómica.
 
-Sin embargo, los ensayos disponibles hasta ahora se centran mayoritariamente en la vejiga en sí y en estudios de combinación de amplio espectro tumoral, sin abordar directamente la uretra prostática como localización específica, por lo que la relación sigue siendo una extrapolación mecanística razonable más que una evidencia directa.
-
----
+Esta predicción es una **hipótesis de investigación**. La evidencia procede de estudios en cáncer de vejiga y de cohortes urprobablemente mixtas, sin datos específicos de la localización predicha.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Fase 2 | Completado | 172 | Estudio fase II de atezolizumab en cáncer de vejiga no músculo-invasivo recurrente y refractario a BCG; evalúa si la inmunoterapia ayuda al sistema inmune a atacar el tumor. Diseño de un solo brazo, mismo grupo histológico (uroteliales) pero no específico de uretra prostática (grado de relevancia B). |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Fase 1 | Activo, no reclutando | 914 | Estudio fase 1b de escalada de dosis de cabozantinib combinado con atezolizumab en tumores sólidos avanzados/metastásicos, incluyendo carcinoma urotelial (vejiga, pelvis renal, uréter, uretra) y cáncer de próstata resistente a castración. Evidencia amplia pero no específica para esta indicación (grado de relevancia C). |
-
----
+| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Fase 2 | Completado | 172 | Atezolizumab en cáncer de vejiga no músculo-invasivo sin respuesta a BCG. Es de un solo brazo, no aleatorizado y no específico de la uretra prostática; la afectación de la uretra prostática podría darse en algunos participantes. |
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Fase 1b | Activo, sin reclutar | 914 | Escalada de dosis de cabozantinib solo o con atezolizumab en tumores sólidos, con cohortes de carcinoma urotelial (vejiga, pelvis renal, uréter, uretra). La evidencia es temprana, el efecto de atezolizumab está confundido con cabozantinib y no hay datos específicos de la uretra prostática. |
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
+
+Se muestran 5 de las 11 autorizaciones registradas. El Evidence Pack no incluye el texto de la indicación aprobada para ninguna de ellas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1171220001 | Tecentriq 1200 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos |
+| 1171220001IP3 | Tecentriq 1200 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos |
+| 1171220002IP1 | Tecentriq 840 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos |
+| 1171220003 | Tecentriq 1875 mg solución inyectable | Solución inyectable | No especificada en los datos |
+| 1171220003IP | Tecentriq 1875 mg solución inyectable | Solución inyectable | No especificada en los datos |
+
+Titular: Roche Registration GmbH.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia (inhibidor de punto de control inmunológico anti-PD-L1) |
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo monoclonal anti-PD-L1); no es un citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Ítems de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto (en inmunoterapia suele vigilarse función hepática, renal y tiroidea) |
+| Protección en Manejo | Consultar el prospecto y las normas de manejo de medicamentos peligrosos del centro |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia actual es de nivel L3 (2 ensayos clínicos, ninguno fase 3, sin diseño aleatorizado dirigido a esta indicación específica, sin literatura de respaldo), y el fármaco no está comercializado en España (0 autorizaciones). Además, existe una brecha de datos bloqueante (DG001: ausencia de advertencias/contraindicaciones del prospecto TFDA/AEMPS), que impide iniciar la evaluación de seguridad S1.
+La evidencia es indirecta: un ensayo de Fase 2 de un solo brazo en cáncer de vejiga y un ensayo de Fase 1b con combinación. No hay ensayos ni publicaciones específicos de la uretra prostática, y los datos de seguridad del prospecto español no están disponibles.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto de atezolizumab en España con advertencias y contraindicaciones (DG001, bloqueante)
-- Datos confirmados del mecanismo de acción vía DrugBank (DG002)
-- Ensayos clínicos adicionales de mayor nivel de evidencia (fase 2/3, idealmente aleatorizados) específicos para carcinoma urotelial de la uretra prostática
-- Confirmación actualizada del estado regulatorio/comercial en España
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío bloqueante para el cribado de seguridad
+- Obtener el texto de la indicación aprobada de cada autorización en España
+- Consultar el mecanismo de acción en DrugBank
+- Revisar si los resultados de NCT02844816 incluyen o describen pacientes con afectación de la uretra prostática
+- Buscar literatura y series de casos sobre inhibidores de PD-L1 en carcinoma urotelial de la uretra prostática
+
+**Nota complementaria:** entre las otras predicciones del modelo, "carcinoma endocervical" tiene evidencia algo más directa (Fase 1 y Fase 2 con atezolizumab en cáncer de cuello uterino, aunque con solo 40 y 11 pacientes). Podría valorarse como línea de investigación alternativa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Calcipotriol
 parent: Evidencia moderada (L3-L4)
-nav_order: 53
+nav_order: 95
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,69 +29,88 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Calcipotriol: De Psoriasis a Queratosis Seborreica
+# Calcipotriol: De Indicación Original No Registrada a Queratosis Seborreica
 
 ## Resumen en Una Frase
 
-Calcipotriol es un analogo topico de la vitamina D3, tradicionalmente empleado en el tratamiento de la psoriasis.
-El modelo TxGNN predice que podria ser efectivo para **Queratosis Seborreica**,
-con **0 ensayos clinicos registrados** y **6 publicaciones** que actualmente respaldan esta direccion.
+Calcipotriol es un análogo tópico de la vitamina D comercializado en España como crema (Daivonex 50 microgramos/g), pero los datos de AEMPS recibidos no especifican su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **queratosis seborreica**, con **0 ensayos clínicos** y **6 publicaciones** (series de casos, un estudio comparativo y artículos de revisión) que respaldan esta dirección de forma preliminar.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Psoriasis (uso topico; no hay autorizaciones registradas en España para confirmar el texto oficial de indicacion) |
-| Nueva Indicacion Predicha | Queratosis Seborreica |
-| Puntaje de Prediccion TxGNN | 99.96% |
+| Indicación Original | No disponible (el texto de indicación de la licencia AEMPS está vacío) |
+| Nueva Indicación Predicha | Queratosis seborreica |
+| Puntaje de Predicción TxGNN | 99,96% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Proceed with Guardrails |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el Evidence Pack. Segun la informacion conocida, calcipotriol es un analogo de la vitamina D3 utilizado por via topica, cuya eficacia en psoriasis esta bien establecida; actua a traves del receptor de vitamina D (VDR) regulando la proliferacion y diferenciacion de los queratinocitos.
+## ¿Por qué es Razonable esta Predicción?
 
-La queratosis seborreica es un tumor epitelial benigno de crecimiento lento, caracterizado precisamente por una proliferacion excesiva de queratinocitos — el mismo tipo celular que calcipotriol regula en la psoriasis. Esta similitud mecanistica hace plausible la prediccion del modelo TxGNN.
+Calcipotriol es un agonista del receptor de la vitamina D (VDR). Este tipo de fármacos inhibe la proliferación de los queratinocitos y favorece su diferenciación. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank, por lo que esta descripción se basa en la clase farmacológica y no en datos confirmados del registro.
 
-La literatura disponible refuerza esta hipotesis: varios estudios documentan el uso de calcipotriol (y otros analogos de vitamina D3 como tacalcitol y maxacalcitol) en el tratamiento de queratosis seborreica/verrugas seniles, con un articulo (PMID 16043912) que propone explicitamente la induccion de apoptosis como via de accion adicional a la regulacion de la diferenciacion celular.
+La queratosis seborreica es un tumor epitelial benigno, de crecimiento lento, causado por una hiperproliferación de la epidermis. Un fármaco que frena la proliferación de queratinocitos y estimula su diferenciación tiene, por tanto, una base mecanística plausible. Además, la literatura recibida indica que los análogos tópicos de la vitamina D se usan en dermatosis queratósicas inflamatorias como la psoriasis, lo que refuerza esta plausibilidad.
 
-## Evidencia de Ensayos Clinicos
+Esta relación se infiere de la clase del fármaco y de los títulos y resúmenes disponibles, no de resultados de ensayos confirmados. Además, la seguridad tópica está bien caracterizada por el uso comercializado, lo que respalda un siguiente paso limitado y orientado a la seguridad.
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Estudio Clinico (Eficacia/Seguridad) | The Australasian journal of dermatology | Serie de 12 pacientes con queratosis seborreica facial tratados con pomada de calcipotriol 0.005% (3-8 meses); regresion completa de las lesiones, remision de 6 a 10 anos. |
-| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Estudio Clinico Comparativo | International journal of dermatology | Comparacion de crioterapia estandar frente a calcipotrieno, tazaroteno e imiquimod topicos en queratosis seborreica. |
-| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Estudio Clinico Mecanistico | The Journal of dermatology | Vitamina D3 topica (tacalcitol, calcipotriol, maxacalcitol) eficaz en verrugas seniles (queratosis seborreica); de 116 casos tratados 3-12 meses, 35 (30.2%) mostraron respuesta, posiblemente por induccion de apoptosis. |
-| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Reporte de Caso | The Journal of dermatology | Respuesta marcada a pomada de calcipotriol en queratosis liquenoide cronica, dermatosis rara con componente seborreico-like. |
-| [21534378](https://pubmed.ncbi.nlm.nih.gov/21534378/) | 2011 | Reporte de Caso | JAAPA | Vineta clinica de queratosis seborreica presentada como erupcion pruriginosa moteada en las espinillas. |
-| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Serie de Casos/Revision | Clinical calcium | Revision sobre aplicacion topica de formas activas de vitamina D3 (tacalcitol, calcipotriol, maxacalcitol) en verrugas seniles/queratosis seborreica. |
+| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Serie de casos | Australas J Dermatol | 12 pacientes con queratosis seborreica facial tratados 3-8 meses con calcipotriol 0,005% en pomada: regresión completa de las lesiones y remisión de 6 a 10 años. |
+| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Estudio clínico comparativo | Int J Dermatol | Compara la criocirugía estándar con calcipotrieno, tazaroteno e imiquimod tópicos en queratosis seborreicas (el resumen disponible no incluye resultados). |
+| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Serie de casos | J Dermatol | Verrugas seniles (sinónimo clínico de queratosis seborreica) tratadas 3-12 meses con análogos tópicos de vitamina D3 (tacalcitol, calcipotriol o maxacalcitol): 35 de 116 casos (30,2%) mostraron respuesta. El resumen disponible está truncado. |
+| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Revisión narrativa | Clin Calcium | Revisa el tratamiento de verrugas seniles con formas activas tópicas de vitamina D3 aplicadas una o dos veces al día. |
+| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Reporte de caso | J Dermatol | Respuesta marcada a calcipotriol en pomada en una paciente con queratosis liquenoide crónica, una enfermedad distinta (evidencia indirecta). |
+| [21534378](https://pubmed.ncbi.nlm.nih.gov/21534378/) | 2011 | Viñeta clínica | JAAPA | Presentación clínica de queratosis seborreica; no es un estudio de tratamiento. |
 
-## Informacion de Mercado en Espana
+---
 
-Calcipotriol no cuenta actualmente con autorizaciones de comercializacion registradas en Espana (0 autorizaciones en el Evidence Pack), por lo que no es posible presentar informacion de productos comercializados.
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 60944 | DAIVONEX 50 MICROGRAMOS/G CREMA (Leo Pharma A/S) | Crema | No especificada en los datos recibidos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
 
-**Decision: Proceed with Guardrails**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-Existe un cuerpo consistente de evidencia clinica de nivel L3 (estudios comparativos, series de casos y estudios mecanisticos, incluyendo una serie con seguimiento de hasta 10 anos) que respalda la eficacia topica de calcipotriol en queratosis seborreica, aunque aun no existen ensayos clinicos aleatorizados registrados ni comercializacion en Espana.
+**Decisión: Hold**
+
+**Justificación:**
+La evidencia para queratosis seborreica se limita a series de casos y un estudio comparativo sin resultados verificables, sin ensayos clínicos registrados (nivel L3). Además, faltan los datos de seguridad del prospecto de AEMPS, una brecha que bloquea el avance a la fase de cribado de seguridad. Se trata de una pregunta de investigación razonable, pero aún no de una candidata lista para avanzar.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de accion (MOA) verificados via DrugBank
-- Warnings/contraindicaciones y perfil de interacciones (actualmente sin datos)
-- Confirmacion del estado regulatorio y texto de indicacion original via AEMPS/TFDA (el farmaco no esta comercializado en Espana)
-- Diseno de un ensayo clinico prospectivo/aleatorizado que confirme la senal observada en series de casos
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), y confirmar la indicación aprobada de la licencia 60944.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Revisar el texto completo de las publicaciones clave (36752725, 15090020, 16043912) para valorar diseño, tamaño de efecto y tolerabilidad.
+- Valorar un estudio controlado pequeño en queratosis seborreica, con la vía tópica ya disponible en España.
+
+**Otras indicaciones predichas:** las restantes predicciones (por ejemplo, vulvitis o neoplasia vulvar) tienen evidencia indirecta o nula (L4-L5). Para la mayoría se recomienda Hold. Vulvitis y neoplasia vulvar solo cuentan con reportes de caso o auditorías de indicaciones distintas, sin resultados específicos de calcipotriol.
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

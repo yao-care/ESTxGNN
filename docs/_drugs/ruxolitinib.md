@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ruxolitinib
-parent: Evidencia alta (L1-L2)
-nav_order: 250
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 480
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ruxolitinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,75 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ruxolitinib: De Mielofibrosis a Síndrome Hemofagocítico Asociado a Infección
+# Ruxolitinib: De Neoplasias Mieloproliferativas a Tumor de Células Epitelioides Perivasculares del Cuerpo Uterino
 
 ## Resumen en Una Frase
 
-Ruxolitinib es un inhibidor de JAK1/JAK2 cuyo uso original conocido es la mielofibrosis y otras neoplasias mieloproliferativas (dato no confirmado en este Evidence Pack por brecha de datos). El modelo TxGNN, junto con evidencia clínica real ya existente, señala como direccion mas solida el **Síndrome Hemofagocítico Asociado a Infección (HLH/MAS)**, con **2 ensayos clínicos** y **20 publicaciones** localizadas, de las cuales 10 aportan evidencia directa (guías de consenso, cohortes y series de casos).
-
-> Nota: este Evidence Pack (`TW-DB08877-multi`) trae 10 indicaciones predichas por TxGNN. Las primeras 4 (PEComa, linfangiomioma, LAM) tienen puntuación TxGNN muy alta pero **cero** evidencia clínica o de literatura (nivel L5, "Hold") y un vínculo mecanístico débil (vía TSC-mTOR, no JAK-STAT). Este informe se centra en la indicación con evidencia real más sólida del conjunto (rank 9).
-
----
+Ruxolitinib es un inhibidor de JAK1/2 comercializado en España como Jakavi. Los datos de AEMPS proporcionados no incluyen su indicación aprobada; según el conocimiento general de la ficha técnica europea, se usa en neoplasias mieloproliferativas como la mielofibrosis.
+El modelo TxGNN predice que podría ser efectivo para **tumor de células epitelioides perivasculares del cuerpo uterino (PEComa uterino)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que se apoya solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Mielofibrosis / neoplasias mieloproliferativas (conocimiento general del compuesto; **no disponible en los datos regulatorios de este pack**) |
-| Nueva Indicación Predicha | Síndrome hemofagocítico asociado a infección (HLH/MAS) |
-| Puntaje de Predicción TxGNN | 99.32% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No consta en los datos de AEMPS proporcionados (ver nota abajo) |
+| Nueva Indicación Predicha | Tumor de células epitelioides perivasculares del cuerpo uterino (PEComa uterino) |
+| Puntaje de Predicción TxGNN | 99.73% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 6 |
+| Decisión Recomendada | Hold |
 
----
+> Nota: los textos de indicación aprobada de las autorizaciones están vacíos. La referencia a neoplasias mieloproliferativas procede del conocimiento general, no del Evidence Pack, y debe verificarse en la ficha técnica de AEMPS.
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en este Evidence Pack (brecha de datos DG002, severidad Alta — pendiente de consulta directa a DrugBank). Según la información científica conocida y confirmada indirectamente por la literatura incluida en este pack (p. ej. PMID 34353999, que describe a los inhibidores de JAK como clase terapéutica), Ruxolitinib es un inhibidor de JAK1/JAK2.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, ruxolitinib es un inhibidor de las quinasas JAK1 y JAK2, y su eficacia en enfermedades mieloproliferativas está establecida. Mecanísticamente, su posible aplicación al PEComa uterino sería solo indirecta.
 
-El síndrome hemofagocítico (HLH), tanto de origen infeccioso como asociado a neoplasia, tiene como mecanismo central una tormenta de citoquinas impulsada por IFN-γ que activa de forma excesiva la vía JAK-STAT. Al bloquear JAK1/2 de forma directa, Ruxolitinib actúa río arriba de ese eje inflamatorio, lo cual explica por qué ya existe uso clínico real (off-label y en ensayos) en HLH mucho antes de esta predicción del modelo — es decir, TxGNN está recuperando una señal biológica con respaldo clínico preexistente, no solo una asociación estadística del grafo de conocimiento.
+El PEComa se explica sobre todo por la desregulación de la vía mTOR (genes TSC1/TSC2), no por la vía JAK/STAT. La única conexión plausible sería una comunicación cruzada entre JAK/STAT y mTOR, y no se aportó ningún dato que la respalde.
 
-Esto contrasta con las indicaciones de PEComa/LAM/linfangiomioma del mismo pack, donde el mecanismo dominante es la vía TSC1/TSC2-mTOR, sin relación directa con JAK-STAT, y sin ningún ensayo o publicación que respalde la predicción.
-
----
+Por eso la predicción debe considerarse una hipótesis del modelo. Se necesitarían estudios preclínicos que muestren actividad de la inhibición de JAK en este tumor antes de darle más peso.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04424056](https://clinicaltrials.gov/study/NCT04424056) | Fase 3 | Desconocido (no confirmado completado ni resultados publicados) | 216 | Ensayo abierto y aleatorizado que compara Anakinra o Tocilizumab solos vs. en combinación con Ruxolitinib en enfermedad grave por COVID-19 en estadios 2b/3 (con síndrome inflamatorio grave tipo HLH) |
-| [NCT07424222](https://clinicaltrials.gov/study/NCT07424222) | Fase 1 | Aún no reclutando | 16 | Estudio piloto de seguridad/eficacia de Ruxolitinib para el síndrome tipo HLH asociado a células efectoras inmunes (IEC-HS) tras terapia CAR-T |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [34605776](https://pubmed.ncbi.nlm.nih.gov/34605776/) | 2022 | Guía de Consenso | Critical Care Medicine | Guía de consenso para el reconocimiento, diagnóstico y manejo de HLH en pacientes críticos |
-| [35344583](https://pubmed.ncbi.nlm.nih.gov/35344583/) | 2022 | Cohorte (pediátrica, prospectiva) | Blood | Ruxolitinib como tratamiento de primera línea estratificado por respuesta en HLH pediátrica; estudio registrado en ChiCTR |
-| [37787838](https://pubmed.ncbi.nlm.nih.gov/37787838/) | 2023 | Cohorte (uso compasivo, n=12) | Annals of Hematology | Sintilimab combinado con Ruxolitinib como terapia compasiva en HLH asociado a VEB en 12 adultos |
-| [40665481](https://pubmed.ncbi.nlm.nih.gov/40665481/) | 2025 | Cohorte (pediátrica, retrospectiva comparativa) | British Journal of Haematology | Régimen basado en Ruxolitinib (n=53) vs. quimioterapia HLH-94 ajustada (n=42) en HLH pediátrica asociada a VEB |
-| [38691058](https://pubmed.ncbi.nlm.nih.gov/38691058/) | 2024 | Serie de casos | Journal of Pediatric Hematology/Oncology | Emapalumab combinado con Ruxolitinib y dexametasona en HLH asociado a VEB con daño multiorgánico e infección grave |
-| [31943120](https://pubmed.ncbi.nlm.nih.gov/31943120/) | 2020 | Revisión | QJM | Revisión sobre HLH del adulto, mortalidad elevada pese a avances diagnósticos y terapéuticos |
-| [36533357](https://pubmed.ncbi.nlm.nih.gov/36533357/) | 2022 | Reporte de caso (2 casos) | J Peking Univ Health Sci | Ruxolitinib como tratamiento eficaz en síndrome hemofagocítico asociado a paniculitis |
-| [34864445](https://pubmed.ncbi.nlm.nih.gov/34864445/) | 2022 | Reporte de caso | Blood Cells Mol Dis | Caso de síndrome VEXAS con HLH asociado a VEB |
-| [38984023](https://pubmed.ncbi.nlm.nih.gov/38984023/) | 2024 | Reporte de caso | Translational Pediatrics | Ruxolitinib como terapia de rescate en HLH refractario asociado a adenovirus post-trasplante haploidéntico |
-| [39620213](https://pubmed.ncbi.nlm.nih.gov/39620213/) | 2024 | Reporte de caso | Frontiers in Immunology | HLH durante el embarazo tratado con protocolo HLH-94 e inducción con Ruxolitinib |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Ruxolitinib no cuenta con autorizaciones registradas en este Evidence Pack (`market_status: Not marketed`, 0 autorizaciones). No es posible construir la tabla de comercialización con los datos disponibles.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 112773015 | JAKAVI 10 MG COMPRIMIDOS | Comprimido | Novartis Europharm Limited |
+| 112773017 | JAKAVI 5 MG/ML SOLUCIÓN ORAL | Solución oral | Novartis Europharm Limited |
+| 112773011 | JAKAVI 20 MG COMPRIMIDOS | Comprimido | Novartis Europharm Limited |
+| 112773008 | JAKAVI 15 MG COMPRIMIDOS | Comprimido | Novartis Europharm Limited |
+| 112773005 | JAKAVI 5 MG COMPRIMIDOS | Comprimido | Novartis Europharm Limited |
 
----
+Se muestran 5 de las 6 autorizaciones registradas. Se sustituyó la columna de indicación aprobada por el titular porque el texto de indicación está vacío en todos los registros.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Este Evidence Pack no contiene advertencias, contraindicaciones ni datos de interacciones farmacológicas verificados (consulta a base DDI sin resultados; obtención del prospecto TFDA marcada como brecha bloqueante, DG001).
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El vínculo mecanístico entre inhibición de JAK1/2 y la tormenta de citoquinas del HLH es sólido y ya cuenta con uso clínico real documentado (múltiples cohortes, series de casos y una guía de consenso), pero ningún ensayo controlado de Fase 2/3 ha completado reclutamiento ni publicado resultados confirmatorios — el ensayo Fase 3 más relevante (NCT04424056) tiene estado desconocido.
+La predicción para el PEComa uterino tiene un puntaje alto (99.73%), pero es solo una predicción del modelo (L5), sin ensayos ni publicaciones. El mecanismo del tumor (mTOR) tampoco se relaciona directamente con la inhibición de JAK1/2.
 
 **Para avanzar se necesita:**
-- Resolver las brechas de datos bloqueantes: ficha técnica/advertencias de TFDA (DG001) y mecanismo de acción confirmado vía DrugBank (DG002)
-- Seguimiento del resultado final de NCT04424056 y avance del reclutamiento de NCT07424222
-- Datos de interacciones farmacológicas (DDI), actualmente sin registros
-- Evaluar por separado la indicación relacionada "HLH asociado a neoplasia maligna" (rank 10, nivel L3), que comparte mecanismo pero carece de ensayos propios
-- Las demás indicaciones predichas de este pack (PEComa, linfangiomioma, LAM, tumor rabdoide) permanecen en Hold por ausencia total de evidencia clínica/literatura y mecanismo biológico no coincidente (vía mTOR, no JAK-STAT)
+- Datos preclínicos que respalden la actividad de la inhibición de JAK/STAT en PEComa
+- Datos del mecanismo de acción (MOA) del fármaco
+- Advertencias y contraindicaciones del prospecto de AEMPS, hoy no disponibles y bloqueantes para el cribado de seguridad
+- Texto de la indicación aprobada de cada autorización
+
+**Otras predicciones del mismo fármaco:** el modelo también predice **síndrome hemofagocítico asociado a infección** (puntaje 99.32%), con 2 ensayos clínicos y 20 publicaciones. Su nivel de evidencia es L3 y su recomendación, *Proceed with Guardrails*. Tiene mucho más respaldo que el PEComa y sería una mejor candidata para priorizar. Requeriría control del patógeno, vigilancia de citopenias y uso bajo supervisión especializada.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

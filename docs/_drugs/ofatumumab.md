@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ofatumumab
-parent: Evidencia alta (L1-L2)
-nav_order: 201
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 390
+evidence_level: L5
 indication_count: 8
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,84 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-# Ofatumumab: De Leucemia Linfocítica Crónica a Linfoma Folicular
+# Ofatumumab: De Indicación Original No Registrada a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño con Hipermutación Somática del Gen IGHV
 
 ## Resumen en Una Frase
 
-Ofatumumab es un anticuerpo monoclonal humano dirigido contra CD20, cuya indicación de aprobación original a nivel global fue la leucemia linfocítica crónica (LLC/LLP). El modelo TxGNN predice que podría ser efectivo para el **Linfoma Folicular**, con **15 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, aunque el único ensayo de Fase 3 en esta indicación fue interrumpido antes de completarse.
-
----
+Ofatumumab es un anticuerpo monoclonal anti-CD20 comercializado en España como Kesimpta, pero los datos recibidos no incluyen su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **leucemia linfocítica crónica/linfoma linfocítico pequeño (LLC/LLP) con hipermutación somática del gen IGHV**.
+Para este subtipo concreto hay **0 ensayos clínicos** y **0 publicaciones**, por lo que la predicción se apoya solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No hay licencias registradas en el mercado local (0 licencias). Según la literatura incluida en este informe (PMID 22830942), la indicación de aprobación global original fue leucemia linfocítica crónica (LLC), refractaria a fludarabina y alemtuzumab |
-| Nueva Indicación Predicha | Linfoma Folicular |
-| Puntaje de Predicción TxGNN | 99.70% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España/Taiwán | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Hold (evidencia en fase de investigación) |
+| Indicación Original | No disponible (el texto de indicación aprobada está vacío en el registro) |
+| Nueva Indicación Predicha | LLC/LLP con hipermutación somática del gen de la región variable de la cadena pesada de inmunoglobulina (IGHV) |
+| Puntaje de Predicción TxGNN | 99.77% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, ofatumumab es un anticuerpo monoclonal dirigido contra CD20, una proteína presente en la superficie de los linfocitos B. Su actividad se atribuye a la citotoxicidad dependiente del complemento y a la citotoxicidad celular dependiente de anticuerpos (ADCC).
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha de origen (data gap DG002). Según la información conocida y respaldada por la literatura incluida en este paquete de evidencia, ofatumumab es un anticuerpo monoclonal IgG1κ completamente humano que se une a un epítopo único de "bucle pequeño" en la molécula CD20, distinto del reconocido por rituximab, e induce muerte celular predominantemente mediante citotoxicidad dependiente del complemento (CDC), junto con ADCC y apoptosis caspasa-dependiente. Su eficacia en LLC fue comprobada en múltiples ensayos de Fase 3 (RESONATE, DUO), lo que llevó a su aprobación como Arzerra®.
+Las células de la LLC/LLP expresan CD20, así que un anticuerpo anti-CD20 es plausible en esta enfermedad. El subtipo predicho es una variante molecular de la LLC/LLP, definida por la hipermutación somática del gen IGHV.
 
-El linfoma folicular es, al igual que la LLC, una neoplasia indolente de linfocitos B que expresa CD20 de forma prácticamente universal. Dado que el mecanismo de acción de ofatumumab depende exclusivamente de la presencia de CD20 en la superficie celular y no de características específicas de la LLC, existe una base mecanística directa para su actividad en el linfoma folicular.
-
-Esta plausibilidad ya cuenta con respaldo clínico propio: varios ensayos de Fase 2 (CALGB 50901, CALGB 50904, el estudio pivotal de 2008) han evaluado ofatumumab en monoterapia y en combinación en linfoma folicular no tratado y refractario a rituximab, con resultados de actividad clínica documentados. Sin embargo, el único ensayo de Fase 3 diseñado específicamente para esta indicación (NCT01077518) fue terminado de forma anticipada, por lo que la evidencia no alcanza aún el nivel necesario para una aprobación regulatoria formal.
-
----
+Esta plausibilidad viene de la entidad general LLC/LLP, no de estudios en este subtipo. Los datos recibidos no contienen ensayos ni literatura específicos del subtipo, y el puntaje es solo una predicción basada en grafos. El subtipo "LLC/LLP pregerminal" recibió exactamente el mismo puntaje (99.77%), lo que sugiere que ambos comparten el mismo entorno en el grafo y no que haya evidencia independiente.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Fase 3 | Terminado | 346 | Ofatumumab + bendamustina vs. bendamustina sola en linfoma B indolente sin respuesta a rituximab; único ensayo Fase 3 de la indicación, no completado |
-| [NCT00394836](https://clinicaltrials.gov/study/NCT00394836) | Fase 2 | Completado | 116 | HuMax-CD20 (ofatumumab) en monoterapia, estudio internacional multicéntrico en linfoma folicular refractario a rituximab |
-| [NCT02710643](https://clinicaltrials.gov/study/NCT02710643) | Fase 2 | Completado | 110 | Radioterapia local con/sin ofatumumab en linfoma folicular en estadio I/II, estratificado por Bcl-2 |
-| [NCT01286272](https://clinicaltrials.gov/study/NCT01286272) | Fase 2 | Completado | 135 | Ofatumumab + bendamustina, con o sin bortezomib, en linfoma folicular no tratado |
-| [NCT00494780](https://clinicaltrials.gov/study/NCT00494780) | Fase 2 | Completado | 59 | Comparación de dos dosis de ofatumumab combinado con CHOP en linfoma folicular no tratado previamente |
-| [NCT00823719](https://clinicaltrials.gov/study/NCT00823719) | Fase 2 | Completado | 61 | Ofatumumab + ICE o DHAP previo a trasplante autólogo en linfoma agresivo recidivante/refractario |
-| [NCT01190449](https://clinicaltrials.gov/study/NCT01190449) | Fase 2 | Completado | 51 | Ofatumumab en linfoma folicular no Hodgkin en estadios II-IV no tratado previamente |
-| [NCT01294579](https://clinicaltrials.gov/study/NCT01294579) | Fase 2 | Completado | 49 | Ofatumumab + bendamustina con mantenimiento de ofatumumab en linfoma B indolente recidivado tras rituximab |
-| [NCT01239394](https://clinicaltrials.gov/study/NCT01239394) | Fase 2 | Completado | 43 | Ofatumumab como tratamiento sistémico inicial en linfoma B indolente (incluye linfoma folicular) |
-| [NCT00811733](https://clinicaltrials.gov/study/NCT00811733) | Fase 2 | Completado | 37 | Ofatumumab en macroglobulinemia de Waldenström; justificado por tolerabilidad y eficacia previas en linfoma folicular y LLC |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para este subtipo.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | ECA | Cancer | CALGB 50904: ofatumumab+bendamustina vs. ofatumumab+bendamustina+bortezomib en linfoma folicular de alto riesgo no tratado |
-| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | ECA/Fase 2 | British Journal of Haematology | CALGB 50901: ofatumumab en monoterapia en linfoma folicular avanzado no tratado, riesgo bajo/intermedio |
-| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Fase 2 | British Journal of Haematology | Ofatumumab (500 vs 1000 mg) + CHOP como tratamiento de primera línea en linfoma folicular (n=59) |
-| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Cohorte | Blood | Ofatumumab en monoterapia en linfoma folicular refractario a rituximab (n=116); tasa de respuesta global 13% |
-| [18390837](https://pubmed.ncbi.nlm.nih.gov/18390837/) | 2008 | Fase 1/2 | Blood | Primer uso clínico de ofatumumab en linfoma folicular recidivado/refractario |
-| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Cohorte | The Lancet Haematology | Estudio MIRO: radioterapia local con inmunoterapia guiada por enfermedad residual medible en linfoma folicular en estadio temprano |
-| [29934061](https://pubmed.ncbi.nlm.nih.gov/29934061/) | 2018 | Revisión | Clinical Lymphoma, Myeloma & Leukemia | Revisión de regímenes con anticuerpos anti-CD20 en LLC, DLBCL y linfoma folicular recidivado/refractario |
-| [21083037](https://pubmed.ncbi.nlm.nih.gov/21083037/) | 2010 | Revisión | Expert Review of Hematology | Estrategias terapéuticas emergentes en linfoma folicular |
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Revisión | Leukemia Research Reports | Inmunoterapia en linfoma no Hodgkin indolente, incluyendo linfoma folicular |
-| [26043777](https://pubmed.ncbi.nlm.nih.gov/26043777/) | 2015 | Revisión | Expert Opinion on Biological Therapy | Actividad de ofatumumab en linfomas no Hodgkin con expresión de CD20 |
+Actualmente no hay literatura relacionada disponible para este subtipo.
 
----
+## Información de Mercado en España
 
-## Información de Mercado
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 121532003 | KESIMPTA 20 mg SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Solución inyectable en pluma precargada | No especificada en el registro |
 
-Ofatumumab **no está comercializado** actualmente en el mercado local y no existen autorizaciones de comercialización registradas (0 licencias).
-
----
+El titular es Novartis Europharm Limited. La presentación registrada es una pluma precargada, mientras que los ensayos de otras indicaciones de ofatumumab incluidos en el paquete de evidencia usan infusión intravenosa. La compatibilidad de vía de administración aún está pendiente de evaluar.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia dirigida (anticuerpo monoclonal anti-CD20 humano); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo a moderado — neutropenia descrita principalmente cuando se combina con quimioterapia (bendamustina, CHOP); consultar prospecto para datos cuantitativos, no disponibles en esta ficha (DG001) |
-| Clasificación de Emetogenicidad | Baja (perfil típico de anticuerpos monoclonales intravenosos) |
-| Items de Monitoreo | Hemograma completo con diferencial, vigilancia de reacciones relacionadas con la infusión, cribado de hepatitis B previo al tratamiento (advertencia de clase para anticuerpos anti-CD20) |
-| Protección en Manejo | Debe seguir el manejo estándar de agentes de inmunoterapia oncológica; no hay datos específicos de manejo en el prospecto local disponibles (DG001) |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida / inmunoterapia (anticuerpo monoclonal anti-CD20) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas (TFDA/AEMPS) no están disponibles en esta ficha (data gap DG001, severidad *Blocking* — impide la evaluación de seguridad inicial S1).
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- Existe evidencia clínica real de Fase 2 (CALGB 50901, CALGB 50904, estudio pivotal de 2008) que respalda actividad de ofatumumab en linfoma folicular, con base mecanística sólida (CD20 compartido con la indicación original en LLC). Sin embargo, el único ensayo de Fase 3 diseñado para esta indicación fue terminado de forma anticipada, y la falta de datos de seguridad locales (DG001, bloqueante) impide avanzar a evaluación clínica formal en este momento.
+Para este subtipo no hay ensayos clínicos ni publicaciones (nivel L5), y el puntaje alto de TxGNN no basta por sí solo para avanzar. Además, faltan las advertencias y contraindicaciones del prospecto de la AEMPS, que bloquean el cribado de seguridad.
+
+Este resultado no significa que ofatumumab carezca de evidencia en la LLC/LLP en general. Otras predicciones del mismo paquete tienen más respaldo:
+- **LLC/LLP (entidad general)**: nivel L1, con varios ensayos de Fase 3 completados, en los que ofatumumab es a menudo el comparador. Probablemente sea una indicación ya aprobada, no un reposicionamiento.
+- **Linfoma folicular**: nivel L2, con ensayos de Fase 2 completados y un ensayo de Fase 3 terminado anticipadamente.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto TFDA o AEMPS con advertencias, contraindicaciones e interacciones (DG001, bloqueante)
-- Datos de mecanismo de acción formalizados desde DrugBank (DG002)
-- Evaluar si existe interés en reiniciar o replicar un ensayo de Fase 3 confirmatorio en linfoma folicular
-- Confirmar la vía de administración y disponibilidad de formulación en el mercado local antes de cualquier decisión de importación o registro
+- Descargar el prospecto de la AEMPS para obtener advertencias y contraindicaciones (brecha bloqueante).
+- Confirmar el mecanismo de acción en DrugBank.
+- Completar la indicación original y aprobada, y contrastar la LLC/LLP con la ficha técnica antes de presentarla como reposicionamiento.
+- Buscar datos específicos por subtipo de IGHV, por ejemplo análisis de subgrupos de los ensayos de LLC/LLP.
+- Evaluar la compatibilidad entre la pluma subcutánea registrada y la vía intravenosa de los ensayos.
+- Aclarar el posicionamiento frente a rituximab y obinutuzumab.
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ticagrelor
-parent: Evidencia alta (L1-L2)
-nav_order: 275
-evidence_level: L2
+parent: Evidencia moderada (L3-L4)
+nav_order: 527
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,104 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ticagrelor: De Enfermedad Isquémica Cardiovascular a Arteriosclerosis Intracraneal
+# Ticagrelor: De Indicación Original No Disponible a Arteriosclerosis Intracraneal
 
 ## Resumen en Una Frase
 
-Ticagrelor es un antiagregante plaquetario cuyo uso establecido corresponde al síndrome coronario agudo (SCA) y a pacientes sometidos a intervención coronaria percutánea (ICP), dentro del espectro de enfermedades isquémicas cardiovasculares. El modelo TxGNN predice que podría ser efectivo para **Arteriosclerosis Intracraneal**, con **11 ensayos clínicos** y **3 publicaciones** que actualmente respaldan esta dirección, aunque la evidencia todavía se considera preliminar.
+Ticagrelor es un antiagregante plaquetario que actúa como antagonista reversible del receptor P2Y12. Los datos recibidos no incluyen su indicación original registrada en España.
+El modelo TxGNN predice que podría ser efectivo para **arteriosclerosis intracraneal**, con **11 ensayos clínicos** y **3 publicaciones** relacionados. Esta evidencia es indirecta o aún sin resultados.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en este evidence pack (sin licencias TFDA/DrugBank registradas); el contexto de la evidencia recopilada apunta a uso establecido en enfermedad isquémica cardiovascular (SCA/ICP) |
-| Nueva Indicacion Predicha | Arteriosclerosis Intracraneal |
-| Puntaje de Prediccion TxGNN | 99.97% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold (Research Question) |
+| Indicación Original | No disponible en los datos recibidos (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Arteriosclerosis intracraneal |
+| Puntaje de Predicción TxGNN | 99.97% |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone del dato oficial de mecanismo de acción (`original_moa` marcado como vacío en DrugBank). Sin embargo, la propia evidencia recopilada en este paquete señala que ticagrelor es un **antagonista reversible del receptor plaquetario P2Y12**, que inhibe la activación y agregación plaquetaria inducida por ADP — mecanismo central de su uso ya consolidado en enfermedades isquémicas vasculares como el síndrome coronario agudo, tras ICP, y en enfermedad arterial periférica (respaldado por ensayos de gran tamaño como GLOBAL LEADERS y EUCLID, dentro del propio evidence pack).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la farmacología general conocida, ticagrelor es un antagonista reversible del receptor P2Y12, que reduce la agregación plaquetaria y la trombosis arterial.
 
-La arteriosclerosis intracraneal comparte con la enfermedad coronaria un mismo sustrato fisiopatológico: formación de placa aterosclerótica con estenosis luminal y trombosis dependiente de la activación plaquetaria. Por ello, la inhibición de P2Y12 podría reducir eventos isquémicos originados en la placa intracraneal de forma análoga a como lo hace en la circulación coronaria.
+En la arteriosclerosis intracraneal, la trombosis sobre la placa aterosclerótica, o sobre un stent intracraneal, depende en parte de las plaquetas. Bloquear P2Y12 es por tanto un objetivo plausible. Los estudios recuperados apuntan en esa dirección: un estudio de dosis bajas de ticagrelor en regímenes de doble antiagregación para procedimientos neurointervencionistas y el ensayo de Fase 3 CAPTIVA. CAPTIVA aún no tiene resultados y no se puede confirmar el papel específico de ticagrelor en él.
 
-No obstante, la circulación intracraneal difiere de la coronaria en un aspecto crítico: el riesgo de hemorragia intracraneal es distinto y potencialmente mayor, por lo que la extrapolación de seguridad desde el contexto cardiovascular debe hacerse con cautela, tal como señala explícitamente el análisis de racionalidad del propio candidato ("mecanismo similar a la arteriosclerosis coronaria, pero el riesgo hemorrágico de la circulación intracraneal difiere del coronario").
+Hay dos limitaciones importantes. Primero, no se pudo comparar con la indicación original, por falta de datos. Segundo, la evidencia de ticagrelor en ictus (por ejemplo, portadores de pérdida de función de CYP2C19) es indirecta. El riesgo de hemorragia intracraneal requiere salvaguardas explícitas.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-| Numero de Ensayo | Fase | Estado | Inscripcion | Hallazgos Principales |
+Se muestran 10 de los 11 ensayos recuperados, priorizando los más cercanos a la enfermedad. Ninguno tiene resultados publicados sobre eficacia de ticagrelor en arteriosclerosis intracraneal.
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Fase 3 | Activo, no reclutando | 1683 | CAPTIVA: compara rivaroxabán, ticagrelor o ambos frente a clopidogrel para reducir ictus isquémico, hemorragia intracerebral o muerte vascular a 1 año en estenosis arterial intracraneal; aún sin resultados |
-| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | N/A | Reclutando | 792 | DREAM-PRIDE: evalúa si stent liberador de fármaco + tratamiento médico agresivo reduce recurrencia de ictus a 1 año en enfermedad arterial intracraneal sintomática |
-| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | N/A | Reclutando | 100 | Estudio piloto que compara selección de inhibidor P2Y12 guiada por genotipo frente a clopidogrel convencional en enfermedad arterial intracraneal sintomática (ICAD) |
-| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | N/A | Desconocido | 2171 | Compara anticoagulación sola vs. combinada con antiagregante en ictus isquémico agudo con fibrilación auricular no valvular y estenosis arterial extra/intracraneal |
-| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Fase 3 | Completado | 13885 | EUCLID: compara ticagrelor con clopidogrel sobre muerte cardiovascular, IM e ictus isquémico en enfermedad arterial periférica |
-| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | N/A | Retirado | 0 | Comparaba 3 vs. 6 meses de doble antiagregación tras implante de stent intracraneal liberador de sirolimus (NOVA); estudio retirado sin datos |
-| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Fase 3 | Completado | 15991 | GLOBAL LEADERS: ticagrelor monoterapia tras 1 mes de doble antiagregación vs. terapia estándar tras implante de stent coronario |
-| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | Fase 3 | Aún no reclutando | 1700 | SOLOPCI: doble antiagregación muy corta seguida de monoterapia con inhibidor P2Y12 en pacientes mayores tras ICP |
-| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Fase 4 | Completado | 2009 | EVOLVE Short DAPT: seguridad de 3 meses de doble antiagregación en pacientes de alto riesgo hemorrágico tras ICP con stent SYNERGY |
-| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | Fase 4 | Desconocido | 2036 | Compara ticagrelor en dosis baja (45 mg) vs. estándar (90 mg) en angina inestable tras implante de stent liberador de fármaco |
+| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Fase 3 | Activo, sin reclutar | 1683 | CAPTIVA: determina si rivaroxabán, ticagrelor o ambos superan a clopidogrel para reducir ictus isquémico, hemorragia intracerebral o muerte vascular a 1 año en aterostenosis intracraneal |
+| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | N/A | Desconocido | 2171 | Anticoagulación sola vs. combinada con antiagregante en ictus isquémico agudo con fibrilación auricular y estenosis arterial extra/intracraneal |
+| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | N/A | Reclutando | 100 | Piloto: selección de inhibidor P2Y12 guiada por genotipo vs. clopidogrel convencional en enfermedad aterosclerótica intracraneal sintomática |
+| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | N/A | Reclutando | 792 | DREAM-PRIDE: stent liberador de fármaco más tratamiento médico intensivo vs. tratamiento médico estándar para prevenir ictus recurrente; ticagrelor no es la variable evaluada |
+| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Fase 3 | Completado | 15991 | GLOBAL LEADERS: 1 mes de ticagrelor + aspirina y luego ticagrelor solo, frente a doble antiagregación estándar tras stent coronario; no aborda enfermedad intracraneal |
+| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Fase 3 | Completado | 13885 | EUCLID: ticagrelor vs. clopidogrel en enfermedad arterial periférica; solo señal cardiovascular indirecta |
+| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | N/A | Retirado | 0 | Doble antiagregación de 3 vs. 6 meses tras stent intracraneal NOVA liberador de sirolimus; retirado, sin participantes |
+| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | Fase 3 | Aún no reclutando | 1700 | SOLOPCI: doble antiagregación muy corta seguida de monoterapia con inhibidor P2Y12 en mayores de 65 años tras ICP |
+| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Fase 4 | Completado | 2009 | Seguridad de 3 meses de doble antiagregación en pacientes con alto riesgo de sangrado tras ICP con stent SYNERGY |
+| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | Fase 4 | Desconocido | 2036 | Ticagrelor a dosis baja (45 mg/12 h) vs. dosis estándar en angina inestable tras stent liberador de fármaco |
 
 ---
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+No hay ECA entre las publicaciones recuperadas.
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | ECA | Int J Stroke | Diseño del ensayo CAPTIVA, que compara anticoagulación vs. antiagregación dual en estenosis arterial intracraneal sintomática, buscando alternativas superiores a clopidogrel+aspirina |
-| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Revisión | Stroke | Actualización enfocada en arteriosclerosis intracraneal: introducción, aspectos destacados y vacíos de conocimiento |
-| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Cohorte | J Neurointerv Surg | Experiencia con ticagrelor 60 mg dos veces al día + aspirina 81 mg frente al régimen estándar aspirina+clopidogrel en stenting intracraneal |
+| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | Diseño de ensayo | Int J Stroke | Diseño y avance inicial de CAPTIVA. El tratamiento habitual (clopidogrel + aspirina 90 días, luego aspirina) deja un riesgo alto de ictus recurrente hasta los 12 meses |
+| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Revisión | Stroke | Actualización sobre aterosclerosis intracraneal: puntos destacados y lagunas de conocimiento |
+| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Estudio clínico | J Neurointerv Surg | Experiencia con ticagrelor 60 mg/12 h + aspirina 81 mg frente al régimen estándar con clopidogrel en stent intracraneal |
 
 ---
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-No hay autorizaciones registradas actualmente: el medicamento figura como **no comercializado** en España (0 autorizaciones), por lo que no existen productos ni indicaciones aprobadas que listar en esta sección.
+Se muestran 5 de las 20 autorizaciones. Los datos recibidos no incluyen el texto de la indicación aprobada.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 90621 | TICAGRELOR AUROVITAS 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No especificada en los datos |
+| 89560 | TIKATA 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No especificada en los datos |
+| 90221 | TICAGRELOR INTAS 60 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No especificada en los datos |
+| 89354 | TICAGRELOR NORMON 90 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No especificada en los datos |
+| 86152 | TICAGRELOR STADA 90 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | Comprimido recubierto con película | No especificada en los datos |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad (no hay datos disponibles de advertencias, contraindicaciones ni interacciones farmacológicas en este evidence pack).
+Consultar el prospecto para información de seguridad.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold (Research Question)**
+**Decisión: Hold**
 
-**Justificacion:**
-La evidencia actual (nivel L2) se apoya principalmente en un ensayo Fase 3 pivotal aún en curso y sin resultados (CAPTIVA, NCT05047172) junto con estudios de contexto general (DAPT, SCA) no específicos de arteriosclerosis intracraneal. Es una hipótesis mecanísticamente razonable pero todavía no respaldada por resultados confirmatorios ni por datos de seguridad propios del fármaco.
+**Justificación:**
+La predicción de TxGNN es muy alta (99.97%), pero la evidencia directa es limitada (L3). El único ensayo de Fase 3 específico de la enfermedad (CAPTIVA) sigue activo y sin resultados, y el papel de ticagrelor en él no está confirmado. Además, faltan los datos de seguridad del prospecto, y el riesgo de hemorragia intracraneal exige salvaguardas antes de avanzar.
 
 **Para avanzar se necesita:**
-- Resultados del ensayo CAPTIVA (finalización estimada 2027) y de DREAM-PRIDE (finalización estimada 2026)
-- Ficha técnica TFDA/EMA con advertencias y contraindicaciones — actualmente vacío y marcado como **bloqueante** (DG001) para la evaluación de seguridad inicial
-- Mecanismo de acción detallado desde DrugBank — actualmente vacío (DG002)
-- Evaluación específica del riesgo de hemorragia intracraneal en esta población, dado que difiere del perfil de sangrado coronario ya conocido
+- Esperar los resultados de CAPTIVA (finalización prevista en 2027) y confirmar los brazos con ticagrelor.
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), y confirmar la indicación original aprobada.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir criterios de selección de pacientes por riesgo isquémico frente a riesgo hemorrágico, con atención al sangrado con aspirina o anticoagulantes y a la disnea.
+
+**Nota adicional:** otra indicación predicha, "enfermedad isquémica" (rango 4), tiene evidencia L1 con varios ECA de Fase 3 y grandes publicaciones. Sin embargo, coincide con el uso cardiovascular ya establecido, por lo que sería más una confirmación que un reposicionamiento novedoso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

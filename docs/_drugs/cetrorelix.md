@@ -2,7 +2,7 @@
 layout: default
 title: Cetrorelix
 parent: Solo predicción del modelo (L5)
-nav_order: 68
+nav_order: 118
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,58 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-Usando conocimiento del dominio de reposicionamiento de farmacos para redactar el informe (sin skill especifico aplicable a esta tarea de generacion de reporte estructurado).
-
-# Cetrorelix: De Antagonista de GnRH (indicacion original no disponible) a Hipertricosis
+# Cetrorelix: De Indicación No Registrada en los Datos a Hipertricosis
 
 ## Resumen en Una Frase
 
-El Evidence Pack no registra la indicacion original de Cetrorelix (el farmaco no esta comercializado en Espana y no hay licencias registradas), aunque las propias notas de prediccion lo identifican como un antagonista del receptor de GnRH. El modelo TxGNN predice que podria ser efectivo para **Hipertricosis**, pero actualmente **no existe ningun ensayo clinico ni publicacion** que respalde esta direccion: se trata de una prediccion computacional aislada.
+Cetrorelix es un antagonista del receptor de GnRH que suprime LH/FSH y los esteroides sexuales posteriores. Los datos de AEMPS recibidos no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en el Evidence Pack (medicamento no comercializado en Espana, sin licencias registradas) |
-| Nueva Indicacion Predicha | Hipertricosis |
-| Puntaje de Prediccion TxGNN | 99.98% |
-| Nivel de Evidencia | L5 (solo prediccion del modelo, sin ensayos clinicos ni literatura) |
-| Estado de Mercado en Espana | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones AEMPS están vacíos) |
+| Nueva Indicación Predicha | Hipertricosis |
+| Puntaje de Predicción TxGNN | 99.98% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados y verificados sobre el mecanismo de accion de Cetrorelix en este Evidence Pack. Segun la informacion contenida en las notas de prediccion, Cetrorelix es un **antagonista del receptor de GnRH** que bloquea el eje hipotalamo-hipofisis-gonadas, reduciendo la secrecion de LH/FSH y, en consecuencia, la produccion de esteroides gonadales.
+## ¿Por qué es Razonable esta Predicción?
 
-La hipotesis de reposicionamiento hacia Hipertricosis se basa en que parte del exceso de crecimiento piloso esta relacionado con niveles elevados de androgenos. Al reducir la secrecion de esteroides gonadales, un antagonista de GnRH podria, en teoria, disminuir de forma indirecta el estimulo androgenico sobre el foliculo piloso.
+**No se identificó un vínculo mecanístico plausible.** Cetrorelix bloquea el receptor de GnRH en la hipófisis, lo que reduce LH y FSH y, con ello, las hormonas sexuales. La hipertricosis es en su mayor parte un trastorno del folículo piloso o de origen genético, y no depende de forma demostrada de este eje.
 
-Sin embargo, esta relacion mecanistica es puramente inferencial. El propio analisis que acompana la prediccion senala explicitamente que "el mecanismo es de naturaleza especulativa, sin respaldo empirico" — no hay estudios preclinicos ni clinicos que hayan probado esta via en Hipertricosis.
+El puntaje TxGNN (0.9998) no está respaldado por ningún ensayo ni publicación en los datos suministrados. Probablemente refleja una proximidad en el grafo de conocimiento, compartida con otras predicciones relacionadas con el vello (hipertricosis de Ambras, tricomegalia familiar, anomalías del tallo piloso), y no una relación farmacológica real.
 
-## Evidencia de Ensayos Clinicos
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. La relación entre la indicación original y la nueva indicación queda pendiente de análisis.
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 85838 | CEZIBOE 0,25 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Sun Pharmaceutical Industries (Europe) B.V. |
+| 85740 | CETRORELIX EDEST 0,25 MG polvo para solución inyectable | Polvo para solución inyectable | Intas Third Party Sales 2005 S.L. |
+| 99100002 | CETROTIDE 0,25 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Merck Europe B.V. |
+| 99100001 | CETROTIDE 0,25 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Merck Europe B.V. |
+
+El texto de indicación aprobada no figura en los datos de ninguna de las cuatro autorizaciones.
+
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. El Evidence Pack no contiene advertencias, contraindicaciones ni interacciones farmacologicas verificadas para Cetrorelix; ademas, la ficha tecnica de la TFDA/AEMPS necesaria para una evaluacion de seguridad (S1) figura como brecha de datos bloqueante (DG001).
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-La prediccion se apoya unicamente en el puntaje del modelo TxGNN (L5/S0), sin ningun ensayo clinico ni publicacion que la respalde, y el propio razonamiento mecanistico se describe como especulativo. Ademas, Cetrorelix no esta comercializado en Espana y faltan datos criticos de seguridad, por lo que no es posible avanzar a una evaluacion clinica en este momento.
+**Decisión: Hold**
+
+**Justificación:**
+La predicción es solo del modelo (L5): no hay ensayos, no hay literatura específica del fármaco y no existe un mecanismo plausible que conecte el antagonismo de GnRH con la hipertricosis. Las otras nueve predicciones también quedan en Hold o pendientes. La única con literatura asociada (síndrome de malformación con componente dental) recoge artículos generales sobre periodontitis que no estudian cetrorelix.
 
 **Para avanzar se necesita:**
-- Ficha tecnica/prospecto de la TFDA o AEMPS con advertencias y contraindicaciones (brecha bloqueante DG001)
-- Datos verificados del mecanismo de accion desde DrugBank (brecha alta DG002)
-- Estudios preclinicos que evaluen el efecto de antagonistas de GnRH sobre el crecimiento piloso androgeno-dependiente
-- Confirmacion de la indicacion original y del estatus regulatorio del farmaco en al menos un mercado de referencia
+- Descargar y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación aprobada), un bloqueo para el cribado de seguridad.
+- Obtener el mecanismo de acción desde DrugBank para poder analizar el vínculo mecanístico.
+- Encontrar estudios o ensayos que relacionen cetrorelix o los antagonistas de GnRH con la hipertricosis. Sin ellos, no se recomienda avanzar.
+- Definir la compatibilidad de vía de administración (actualmente pendiente).
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

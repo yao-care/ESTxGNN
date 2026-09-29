@@ -2,7 +2,7 @@
 layout: default
 title: Evolocumab
 parent: Solo predicción del modelo (L5)
-nav_order: 116
+nav_order: 223
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,39 +29,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Evolocumab: Hacia Hemofilia Sintomática en Portadoras Femeninas (Predicción TxGNN)
+# Evolocumab: De Hipercolesterolemia a Forma Sintomática de Hemofilia en Portadoras
 
 ## Resumen en Una Frase
 
-La indicación original de Evolocumab no consta en los datos disponibles en este Evidence Pack (el fármaco no está comercializado en España y no hay licencias registradas). El modelo TxGNN predice que podría ser efectivo para **Hemofilia Sintomática en Portadoras Femeninas**, pero esta dirección no cuenta actualmente con **ningún ensayo clínico** ni **ninguna publicación** de respaldo, y el propio análisis mecanístico del sistema señala esta asociación como probable ruido del grafo de conocimiento.
+Evolocumab es un anticuerpo monoclonal comercializado en España como Repatha, que se usa para reducir el colesterol LDL.
+El modelo TxGNN predice que podría ser efectivo para **la forma sintomática de hemofilia en mujeres portadoras**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este Evidence Pack (dato pendiente) |
-| Nueva Indicación Predicha | Hemofilia Sintomática en Portadoras Femeninas |
+| Indicación Original | No registrada en el texto de las autorizaciones. Por su uso conocido, reducción del colesterol LDL (conocimiento general, no del Evidence Pack) |
+| Nueva Indicación Predicha | Forma sintomática de hemofilia en mujeres portadoras |
 | Puntaje de Predicción TxGNN | 99.82% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados y confirmados sobre el mecanismo de acción de Evolocumab en este Evidence Pack (pendiente de consulta a la API de DrugBank). No obstante, el propio análisis de racionalidad mecanística generado para esta predicción identifica a Evolocumab como un anticuerpo monoclonal inhibidor de PCSK9, cuya acción farmacológica conocida se centra en la vía de reciclaje del receptor de LDL para reducir el colesterol LDL.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la farmacología general, evolocumab es un anticuerpo monoclonal que neutraliza PCSK9. Esto aumenta el reciclaje del receptor de LDL y reduce el colesterol LDL.
 
-Según ese mismo análisis, **no existe solapamiento mecanístico conocido** entre la inhibición de PCSK9 y la fisiopatología de la hemofilia sintomática en portadoras (que depende de deficiencias de Factor VIII/IX). El propio sistema clasifica esta asociación como posible **ruido de conexión en el grafo de conocimiento** (una relación espuria generada probablemente a través de nodos compartidos de tipo vascular/endotelial), y no como una hipótesis terapéutica fundamentada.
+Con este mecanismo, **no se identifica un vínculo plausible** con la hemofilia. La enfermedad se debe a una deficiencia de factor VIII o IX, y evolocumab no tiene un papel conocido en la producción de estos factores ni en la coagulación. El alto puntaje (0.998) refleja únicamente una asociación dentro del grafo de conocimiento, sin datos clínicos ni bibliográficos que la sostengan.
 
-Es importante notar que este patrón se repite en las 5 direcciones adicionales generadas por TxGNN para este fármaco: en ningún caso hay solapamiento mecanístico claro, y en el caso de "thrombocytopenic purpura" el propio análisis advierte que la trombocitopenia es más bien una señal de seguridad conocida de los anticuerpos anti-PCSK9 que una señal de eficacia. A continuación se resumen las demás direcciones predichas, incluidas por transparencia:
-
-| Rank | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Veredicto del Análisis |
-|------|------|------|------|------|
-| 2 | Familial apolipoprotein C-II deficiency | 99.50% | L5 | Relación forzada, sin solapamiento de vía molecular |
-| 3 | Thrombocytopenic purpura | 99.42% | L5 | Posible señal de riesgo, no de eficacia |
-| 4 | Factor XI deficiency | 99.29% | L5 | Sin solapamiento mecanístico ni literatura de soporte |
-| 5 | Hemophilia A with vascular abnormality | 99.22% | L5 | Hipótesis mecanística especulativa, sin evidencia directa |
-| 6 | Disease of catalytic activity | 99.08% | L5 | Nodo de ontología genérico, no es una indicación clínica accionable |
+Por tanto, esta predicción debe tratarse como una hipótesis sin respaldo mecanístico. Se recomienda no priorizarla sin evidencia nueva.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -73,25 +67,35 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Evolocumab no está actualmente comercializado en España según los datos disponibles en este Evidence Pack (0 autorizaciones registradas, estado: no comercializado).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1151016003 | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No especificada en los datos |
+| 1151016003IP | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No especificada en los datos |
+| 1151016002 | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No especificada en los datos |
+
+El titular de las tres autorizaciones es Amgen Europe B.V.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas (DDI) de Evolocumab aún no han sido incorporados a este Evidence Pack; su obtención desde el prospecto oficial está marcada como brecha bloqueante para la evaluación de seguridad (S1).
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- Todas las direcciones predichas se encuentran en nivel de evidencia L5 (solo predicción del modelo, sin ensayos clínicos ni literatura real de respaldo), y la principal candidata está señalada por el propio análisis mecanístico como probable ruido del grafo de conocimiento en lugar de una hipótesis terapéutica plausible.
-- El fármaco no está comercializado en España y falta información de seguridad crítica (advertencias/contraindicaciones), lo que impide avanzar a la evaluación de seguridad S1.
+La predicción es de nivel L5: no hay ensayos, no hay literatura y no existe un mecanismo plausible que vincule la inhibición de PCSK9 con la hemofilia. Con esta información no se justifica avanzar.
+
+Las otras cinco predicciones del modelo también quedan en Hold con nivel L5:
+- **Deficiencia familiar de apolipoproteína C-II:** es la más cercana biológicamente, por ser una enfermedad del metabolismo lipídico. Aun así, la inhibición de PCSK9 no corrige el defecto de activación de la lipoproteína lipasa.
+- **Púrpura trombocitopénica, deficiencia de factor XI y hemofilia A con anomalía vascular:** no tienen mecanismo plausible.
+- **Enfermedad de actividad catalítica:** es un término genérico de ontología, no una entidad clínica, y debería excluirse o sustituirse por enfermedades específicas.
 
 **Para avanzar se necesita:**
-- Resolver la brecha bloqueante DG001: obtener el prospecto oficial (advertencias, contraindicaciones) para permitir la evaluación de seguridad S1.
-- Resolver la brecha DG002: confirmar el mecanismo de acción vía API de DrugBank.
-- Búsqueda dirigida de evidencia mecanística o preclínica real (no solo asociación por grafo) antes de considerar cualquier candidata de este lote para las siguientes etapas.
-- Reevaluar si tiene sentido continuar invirtiendo en estas 6 direcciones dado que ninguna cuenta con respaldo mecanístico sólido ni evidencia clínica/bibliográfica.
+- Buscar ensayos clínicos y literatura específicos para la indicación predicha.
+- Contar con datos del mecanismo de acción y del prospecto de la AEMPS (advertencias y contraindicaciones), que hoy no están disponibles.
+- Obtener el texto de las indicaciones aprobadas en las autorizaciones españolas.
+- Aportar una hipótesis mecanística que justifique el vínculo entre PCSK9 y la coagulación antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

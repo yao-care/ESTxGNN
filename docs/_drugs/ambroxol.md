@@ -2,7 +2,7 @@
 layout: default
 title: Ambroxol
 parent: Evidencia moderada (L3-L4)
-nav_order: 22
+nav_order: 36
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,62 +29,70 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Ambroxol: De Secreciones Respiratorias a Enfermedad de la Cavidad Nasal
+# Ambroxol: De Mucolítico (indicación original no registrada) a Enfermedad de la Cavidad Nasal
 
 ## Resumen en Una Frase
 
-Ambroxol es un mucolítico/expectorante ampliamente conocido, utilizado para facilitar la eliminación de secreciones respiratorias viscosas. El modelo TxGNN predice que podría ser efectivo para **Enfermedad de la Cavidad Nasal**, con **0 ensayos clínicos** y **1 publicación** que respaldan esta dirección de forma preliminar.
+Ambroxol es un fármaco mucolítico y secretolítico comercializado en España. Los datos de autorización disponibles no detallan su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**,
+con **0 ensayos clínicos** y **1 publicación** indirecta que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Mucolítico/expectorante de uso respiratorio general (sin indicación registrada en España) |
-| Nueva Indicacion Predicha | Enfermedad de la Cavidad Nasal |
-| Puntaje de Prediccion TxGNN | 99.91% |
+| Indicación Original | No especificada en los datos de autorización disponibles |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
+| Puntaje de Predicción TxGNN | 99.91% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en las fuentes consultadas. Según la información conocida, Ambroxol es el metabolito activo de la bromhexina y actúa como agente mucolítico/secretolítico: reduce la viscosidad de las secreciones de las vías respiratorias y favorece el aclaramiento ciliar. Su eficacia en el manejo de tos productiva y secreciones respiratorias es ampliamente conocida en la práctica clínica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información general conocida, ambroxol es un mucolítico/secretolítico que mejora el aclaramiento mucociliar y tiene actividad anestésica local (bloqueo de canales de sodio). Su uso en patología respiratoria está establecido, y mecanísticamente podría ser aplicable a enfermedades de la mucosa de las vías respiratorias altas.
 
-La enfermedad de la cavidad nasal predicha por TxGNN comparte con las indicaciones respiratorias tradicionales de Ambroxol un componente fisiopatológico común: la producción y acumulación de moco en la mucosa de las vías aéreas superiores. Desde este punto de vista, existe cierta plausibilidad mecanicista para un efecto sintomático sobre secreciones nasales.
+La relación con la enfermedad de la cavidad nasal es plausible pero indirecta. La única publicación de apoyo trata sobre el tratamiento de la tos aguda, no sobre patología nasal. Además, no consta la indicación original del fármaco, por lo que no puede confirmarse la similitud entre ambas indicaciones a partir del registro.
 
-Sin embargo, "enfermedad de la cavidad nasal" es una categoría amplia y no específica, y el efecto de Ambroxol sería como mucho de alivio sintomático (fluidificación de secreciones), no un tratamiento dirigido a la causa subyacente de la enfermedad nasal. La única publicación disponible aborda la tos aguda en infecciones respiratorias virales, no la cavidad nasal de forma directa, por lo que la relación sigue siendo indirecta.
+El puntaje de 99.91% es una predicción del modelo de grafos y no constituye evidencia clínica.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revisión | Vestnik otorinolaringologii | Analiza nuevas opciones de tratamiento para la tos aguda asociada a gripe e infección respiratoria viral, incluyendo el papel de agentes mucolíticos en el manejo de secreciones cuando la tos se vuelve productiva |
+| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revisión | Vestnik otorinolaringologii | Revisión sobre el tratamiento de la tos aguda asociada a gripe e infecciones respiratorias virales agudas, incluida la tos productiva con expectoración anormal. Evidencia indirecta para enfermedad de la cavidad nasal. |
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-Ambroxol no cuenta actualmente con autorizaciones de comercialización registradas en España (0 autorizaciones, estado "no comercializado").
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 68110 | MUCOSAN 6 MG/ML JARABE | Jarabe | No especificada en los datos disponibles |
+| 63790 | AMBROXOL NORMON 3 mg/ml SOLUCION ORAL EFG | Jarabe | No especificada en los datos disponibles |
+| 56155 | MOTOSOL 7,5 mg/ml SOLUCION INYECTABLE | Solución inyectable | No especificada en los datos disponibles |
+| 86435 | BROXIVAN 6 MG/ML SOLUCION ORAL EFG | Solución oral | No especificada en los datos disponibles |
+| 56357 | MOTOSOL 3mg/ml JARABE | Jarabe | No especificada en los datos disponibles |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La evidencia actual es insuficiente para avanzar: no existen ensayos clínicos para esta indicación, solo una publicación de revisión de relevancia indirecta, y el fármaco no está comercializado en España. Además, faltan datos regulatorios bloqueantes (ficha técnica/advertencias de AEMPS) necesarios para cualquier evaluación de seguridad.
+**Justificación:**
+La predicción se apoya solo en una revisión indirecta sobre tos aguda y no hay ensayos clínicos. Los datos de indicación original, mecanismo de acción y seguridad del prospecto tampoco están disponibles, así que no puede avanzarse a un cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Ficha técnica/advertencias y contraindicaciones desde fuente regulatoria (actualmente vacío, gap bloqueante)
-- Datos completos del mecanismo de acción (DrugBank)
-- Estudios clínicos o preclínicos específicos sobre Ambroxol en enfermedad de la cavidad nasal
-- Precisión sobre qué subtipo de "enfermedad de la cavidad nasal" es relevante, dado que es una categoría amplia
+- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un requisito bloqueante.
+- Obtener el mecanismo de acción y las indicaciones originales (por ejemplo, desde DrugBank).
+- Realizar una búsqueda bibliográfica dirigida sobre ambroxol en rinitis, rinosinusitis y otras patologías nasales.
+- Evaluar la compatibilidad de vías de administración con la nueva indicación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

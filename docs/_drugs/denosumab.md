@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: Solo predicción del modelo (L5)
-nav_order: 88
+nav_order: 166
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,43 +29,58 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Denosumab: De Osteoporosis a Retinopatía Diabética No Proliferativa Severa
+# Denosumab: Hacia la Retinopatía Diabética No Proliferativa Grave
 
 ## Resumen en Una Frase
 
-Denosumab es un anticuerpo monoclonal anti-RANKL, utilizado originalmente en el manejo de la pérdida ósea (osteoporosis y complicaciones esqueléticas asociadas). El modelo TxGNN predice que podría ser efectivo para **Retinopatía Diabética No Proliferativa Severa**, pero actualmente **no existen ensayos clínicos ni publicaciones registradas** que respalden directamente esta indicación específica — la predicción se apoya únicamente en el puntaje del modelo (99.63%).
+Denosumab es un anticuerpo monoclonal inhibidor de RANKL, comercializado en España en varias presentaciones de 60 mg y 120 mg (Obodence, Osqay, Xgeva, Osenvelt, Bomyntra). Los textos de indicación aprobada no figuran en los datos recibidos.
+El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**, con un puntaje alto (99.63%).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden directamente esta predicción, por lo que es solo una hipótesis del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoporosis y pérdida ósea (uso general conocido del fármaco; no hay licencia registrada en el mercado evaluado) |
-| Nueva Indicación Predicha | Retinopatía Diabética No Proliferativa Severa |
+| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
 | Puntaje de Predicción TxGNN | 99.63% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de denosumab en este paquete de evidencia. Según la información conocida, denosumab es un anticuerpo monoclonal que inhibe RANKL (clase: inhibidor de RANKL/RANK/OPG), y su eficacia en la inhibición de la resorción ósea ha sido ampliamente comprobada. Mecanísticamente, el eje RANKL/RANK/OPG también participa en procesos de inflamación vascular y angiogénesis, lo que constituye la base teórica —aunque no confirmada experimentalmente— de su posible aplicabilidad a la retinopatía diabética.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, denosumab es un inhibidor de RANKL. No hay datos suministrados que respalden un papel establecido de RANKL en la enfermedad microvascular de la retina.
 
-Para la indicación específica de **retinopatía diabética no proliferativa severa** (rank 1), no hay ningún ensayo clínico ni publicación que sustente esta hipótesis: la predicción es puramente algorítmica.
+La relación entre las indicaciones aprobadas y la retinopatía diabética no es evidente con los datos disponibles. Al faltar el texto de indicación en las autorizaciones, no se puede analizar la similitud con el uso original. Cualquier vínculo mecanístico sería especulativo.
 
-**Nota sobre evidencia relacionada:** el modelo también identificó una indicación más amplia y estrechamente relacionada, "retinopatía diabética" (general, rank 2, puntaje 99.23%), para la cual sí existe evidencia indirecta:
-- Un ensayo Fase 3 completado (NCT00925600, n=769) evaluó opacificación del cristalino en pacientes con cáncer de próstata bajo denosumab; la retinopatía diabética no fue su objetivo principal, por lo que su relevancia se calificó como baja (Grado C).
-- Un estudio de cohorte de 2024 (PMID 38899553) encontró que denosumab, en pacientes tratados por osteoporosis, se asoció con menor incidencia de diabetes tipo 2 y de complicaciones microvasculares (incluyendo retinopatía) frente a bisfosfonatos.
-
-Esta evidencia es epidemiológica e indirecta, no mecanística ni específica de la retinopatía severa, por lo que no cambia la recomendación para la indicación de rank 1, pero sugiere una dirección de investigación relacionada que podría explorarse en paralelo.
+El puntaje alto de TxGNN (99.63%) proviene únicamente del modelo y no está confirmado por estudios reales. Por eso este caso debe leerse como una hipótesis a explorar, no como una candidatura respaldada.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para "retinopatía diabética no proliferativa severa".
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
+
+Para la indicación vecina "retinopatía diabética" (rango 2), solo existe el estudio [NCT00925600](https://clinicaltrials.gov/study/NCT00925600). Es un ensayo de Fase 3 completado, con 769 participantes, que evaluó opacidades del cristalino en hombres con cáncer de próstata no metastásico tratados con denosumab. Es un estudio de seguridad ocular, no de eficacia en la retina, y no respalda un beneficio en retinopatía diabética.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para "retinopatía diabética no proliferativa severa".
+Actualmente no hay literatura relacionada disponible para esta indicación.
+
+Para "retinopatía diabética" (rango 2) hay dos publicaciones indirectas, sin evidencia de eficacia en la retina:
+- [PMID 38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) (2024, *Diabetes, Obesity & Metabolism*): análisis de cohorte real con revisión sistemática y metaanálisis. Compara denosumab con bisfosfonatos en osteoporosis y evalúa la incidencia de diabetes tipo 2 y sus complicaciones. El resumen disponible no da resultados sobre retinopatía.
+- [PMID 36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) (2023, *Cureus*): uso de la herramienta FRAX para el riesgo de fractura en adultos con diabetes tipo 2. No trata la retinopatía.
+
+## Información de Mercado en España
+
+Hay 20 autorizaciones en total. Se muestran las 5 principales; el texto de indicación aprobada no está disponible en los datos.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1241890001 | Obodence 60 mg | Solución inyectable en jeringa precargada | Samsung Bioepis NL B.V. |
+| 11703001IP | Xgeva 120 mg | Solución inyectable | Amgen Europe B.V. |
+| 1241904001 | Osenvelt 120 mg | Solución inyectable | Celltrion Healthcare Hungary Kft. |
+| 1251997001 | Osqay 60 mg | Solución inyectable en jeringa precargada | Theramex Ireland Limited |
+| 1251953004 | Bomyntra 120 mg | Solución inyectable (jeringa precargada) | Fresenius Kabi Deutschland GmbH |
 
 ## Consideraciones de Seguridad
 
@@ -76,13 +91,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se sustenta únicamente en el puntaje del modelo TxGNN (nivel de evidencia L5), sin ningún ensayo clínico ni publicación que la respalde directamente. Aunque existe evidencia epidemiológica indirecta para la categoría más amplia de "retinopatía diabética" (rank 2, nivel L4), esta no es suficiente para justificar avanzar con la indicación específica de rank 1.
+La predicción es solo del modelo (L5), sin ensayos ni literatura que respalden un efecto en la retinopatía diabética grave. Falta además la información de seguridad de AEMPS, por lo que no se puede avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Datos de advertencias/contraindicaciones del prospecto (actualmente bloqueante — sin esto no puede iniciarse la evaluación de seguridad S1)
-- Datos detallados del mecanismo de acción (MOA) de denosumab
-- Estudios preclínicos o mecanísticos que evalúen específicamente el eje RANKL/RANK/OPG en tejido retiniano
-- Evaluar si la señal epidemiológica de rank 2 (reducción de complicaciones microvasculares) justifica un estudio dirigido a la retinopatía no proliferativa severa
+- Descargar y analizar el prospecto de AEMPS para obtener advertencias y contraindicaciones.
+- Completar los datos del mecanismo de acción desde DrugBank y evaluar si existe un vínculo biológico entre RANKL y la enfermedad microvascular retiniana.
+- Obtener los textos de indicación aprobada de las autorizaciones españolas.
+- Buscar estudios preclínicos o clínicos específicos de denosumab en retinopatía diabética.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

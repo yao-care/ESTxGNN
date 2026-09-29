@@ -2,7 +2,7 @@
 layout: default
 title: Mepolizumab
 parent: Evidencia moderada (L3-L4)
-nav_order: 178
+nav_order: 342
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,33 +29,32 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Mepolizumab: De Indicación Original No Disponible a Trombocitopenia por Destrucción Inmune
+# Mepolizumab: De Anticuerpo Anti-IL-5 a Trombocitopenia por Destrucción Inmune
 
 ## Resumen en Una Frase
 
-En los datos disponibles no consta la indicación original de mepolizumab ni su mecanismo de acción formal (brecha de datos pendiente de DrugBank/TFDA).
-El modelo TxGNN predice que podría ser efectivo para **Trombocitopenia por Destrucción Inmune**,
-con **0 ensayos clínicos** y **1 publicación** (reporte de caso) que respaldan actualmente esta dirección.
+Mepolizumab es un anticuerpo monoclonal anti-IL-5 que reduce los eosinófilos y se comercializa en España como Nucala. El Evidence Pack no incluye su indicación original aprobada.
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por destrucción inmune**, pero la evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** (un reporte de caso indirecto).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos actuales |
-| Nueva Indicación Predicha | Trombocitopenia por Destrucción Inmune |
+| Indicación Original | No disponible en los datos de AEMPS del Evidence Pack |
+| Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
 | Puntaje de Predicción TxGNN | 99.66% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción original de mepolizumab (brecha de datos, pendiente de consulta en DrugBank). Sin embargo, la evidencia asociada a esta predicción indica que mepolizumab es un anticuerpo monoclonal anti-IL-5 que inhibe la proliferación y supervivencia de los eosinófilos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según el conocimiento general, mepolizumab bloquea la interleucina-5 (IL-5), la principal señal para la maduración y supervivencia de los eosinófilos, y por eso reduce su número en sangre y tejidos.
 
-El único caso publicado describe una diátesis inmune hipereosinofílica resistente a esteroides, en la que la destrucción inmune de plaquetas apareció asociada a una activación eosinofílica excesiva. La hipótesis mecanística es que la lesión inmune mediada por eosinófilos podría participar en la destrucción plaquetaria, y que la inhibición de IL-5 reduciría indirectamente esta activación inmune.
+El vínculo con la trombocitopenia inmune es indirecto. La única publicación asociada describe un síndrome hipereosinofílico resistente a esteroides que se resolvió con mepolizumab, junto con una mejoría de una microangiopatía trombótica mixta. Esto sugiere una posible vía mediada por eosinófilos hacia las citopenias inmunes, pero no demuestra un efecto directo sobre la trombocitopenia inmune en general.
 
-Se trata de un vínculo mecanístico plausible pero indirecto y no validado: mepolizumab no fue diseñado farmacológicamente para actuar sobre la vía de destrucción inmune de plaquetas, sino que el efecto observado en el caso publicado es circunstancial (resolución concomitante de un cuadro hipereosinofílico complejo).
+El puntaje de TxGNN (0.997) es solo una predicción computacional. No hay ensayos clínicos que la respalden, y la similitud con la indicación original no ha sido evaluada.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,7 +64,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Reporte de Caso | Blood cells, molecules & diseases | Resolución de una diátesis inmune hipereosinofílica resistente a esteroides con mepolizumab, con mejoría concomitante de una microangiopatía trombótica mixta. |
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Reporte de caso (inferido del título) | Blood Cells, Molecules & Diseases | Un diátesis inmune hipereosinofílica resistente a esteroides se resolvió con mepolizumab, con mejoría de una microangiopatía trombótica mixta en el contexto de síndrome hemolítico urémico atípico. No trata directamente la trombocitopenia inmune. |
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1151043003 | NUCALA 100 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
+| 1151043009 | NUCALA 40 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
+| 1151043005 | NUCALA 100 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
+| 1151043001 | NUCALA 100 MG polvo para solución inyectable | Polvo para solución inyectable |
+
+Titular de las cuatro autorizaciones: Glaxosmithkline Trading Services Limited. El texto de indicación aprobada no figura en los datos recibidos.
 
 ## Consideraciones de Seguridad
 
@@ -76,13 +86,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Solo existe un reporte de caso (nivel de evidencia L4) sin ningún ensayo clínico que respalde esta indicación; el vínculo mecanístico es indirecto y no validado, y persiste una brecha de seguridad bloqueante (advertencias y contraindicaciones de ficha técnica no disponibles), lo que impide avanzar a evaluación de seguridad S1.
+No hay ensayos clínicos y la única publicación es un reporte de caso sobre síndrome hipereosinofílico, no sobre trombocitopenia inmune. La predicción se apoya solo en el modelo, con un vínculo mecanístico indirecto. Además, faltan los datos de seguridad del prospecto de AEMPS, una brecha que bloquea el cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto oficial de la AEMPS con advertencias y contraindicaciones (resolver DG001, severidad Blocking)
-- Confirmación del mecanismo de acción original y de la(s) indicación(es) aprobada(s) de mepolizumab (resolver DG002)
-- Estudios clínicos o preclínicos que evalúen directamente mepolizumab en trombocitopenia de origen inmune
-- Datos de interacciones farmacológicas (DDI), actualmente no localizados
+- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones) para completar el cribado de seguridad.
+- Confirmar la indicación original aprobada y los datos de mecanismo de acción (por ejemplo, consultando la API de DrugBank).
+- Buscar evidencia clínica específica en trombocitopenia inmune (series de casos, estudios observacionales o ensayos).
+- Evaluar si existe un subgrupo de pacientes con eosinofilia asociada, donde el bloqueo de IL-5 tenga una justificación biológica más sólida.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

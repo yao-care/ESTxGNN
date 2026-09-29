@@ -2,7 +2,7 @@
 layout: default
 title: Tramadol
 parent: Solo predicción del modelo (L5)
-nav_order: 280
+nav_order: 536
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,58 +29,86 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tramadol: De Dolor Moderado-Intenso a Displasia Acromesomélica tipo Hunter-Thompson
+# Tramadol: De Analgésico Opioide a Displasia Acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Tramadol es un analgésico opioide de acción central (con componente SNRI) utilizado habitualmente para el dolor moderado a moderadamente intenso.
-El modelo TxGNN predice que podría ser efectivo para **Displasia Acromesomélica tipo Hunter-Thompson**,
-pero actualmente **0 ensayos clínicos** y **0 publicaciones** respaldan esta dirección específica.
+Tramadol es un analgésico opioide comercializado en España en varias formas farmacéuticas (cápsulas, gotas orales, comprimidos de liberación prolongada).
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, con una puntuación muy alta (99,99 %).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Dolor moderado a moderadamente intenso (conocimiento general sobre tramadol; no incluido en el Evidence Pack, ver vacíos de datos) |
-| Nueva Indicacion Predicha | Displasia Acromesomélica tipo Hunter-Thompson |
-| Puntaje de Prediccion TxGNN | 99.99% |
+| Indicación Original | No disponible en los textos de autorización de AEMPS registrados |
+| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
+| Puntaje de Predicción TxGNN | 99,99 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de tramadol en este Evidence Pack. Según la información general conocida, tramadol es un analgésico opioide de acción central (agonista débil del receptor mu) con un componente adicional inhibidor de la recaptación de serotonina/noradrenalina (SNRI), y su eficacia en el dolor moderado a moderadamente intenso está bien establecida.
+## ¿Por qué es Razonable esta Predicción?
 
-Sin embargo, para la indicación predicha en primer lugar por TxGNN, la propia evaluación mecanística incluida en el Evidence Pack señala explícitamente que **no existe una relación fisiopatológica conocida**: la displasia acromesomélica tipo Hunter-Thompson es un trastorno congénito del desarrollo óseo asociado a la vía GDF5/CDMP1, sin conexión establecida con los mecanismos analgésicos (opioide/SNRI) de tramadol. Es decir, la puntuación alta del modelo no viene acompañada de una hipótesis biológica verificable con los datos actuales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank para este informe. Según la información del análisis, tramadol es un agonista del receptor opioide mu que además inhibe la recaptación de serotonina y noradrenalina. Su uso establecido es el control del dolor.
 
-Por este motivo, esta predicción debe interpretarse como una señal exploratoria del modelo (L5), no como una hipótesis de reposicionamiento con respaldo mecanístico o clínico.
+La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética monogénica, ligada a la vía GDF5/CDMP1. No se identifica ningún vínculo plausible entre el mecanismo de tramadol y la biología de esta enfermedad. En el mejor de los casos, tramadol podría dar alivio sintomático del dolor, lo cual es distinto de lo que implica la predicción (modificar la enfermedad).
 
-## Evidencia de Ensayos Clinicos
+Por tanto, la puntuación alta del modelo debe interpretarse con cautela. Probablemente refleja la cercanía en el grafo de conocimiento y no una relación biológica demostrada.
+
+---
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
+## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 63920 | TRAMADOL KERN PHARMA 50 mg, cápsulas duras EFG | Cápsula dura | No especificada en el registro |
+| 69404 | TRAMADOL FARMALIDER 100 mg/ml solución oral EFG | Gotas orales en solución | No especificada en el registro |
+| 72399 | TRAMADOL VIR 100 mg/ml gotas orales en solución EFG | Gotas orales en solución | No especificada en el registro |
+| 77198 | TRAMADOL RETARD STADA 150 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No especificada en el registro |
+| 65408 | TRAMADOL TARBIS 200 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No especificada en el registro |
+
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-La indicación mejor puntuada por TxGNN (displasia acromesomélica tipo Hunter-Thompson) no cuenta con ningún ensayo clínico ni publicación de respaldo, y el propio análisis mecanístico del Evidence Pack indica que no hay relación fisiopatológica plausible con el mecanismo de acción de tramadol. La evidencia es insuficiente para avanzar (L5, sin hipótesis validable).
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre tramadol y esta displasia esquelética. Cualquier beneficio se limitaría al alivio sintomático del dolor, que no está respaldado por datos. Las otras nueve predicciones (displasias esqueléticas, artropatías y artritis juvenil) tampoco tienen evidencia. En artritis idiopática juvenil se recuperaron dos publicaciones, pero ninguna evalúa tramadol.
 
 **Para avanzar se necesita:**
-- Datos de ficha técnica/prospecto (advertencias y contraindicaciones), marcados como vacío bloqueante (DG001) — imprescindibles antes de cualquier evaluación de seguridad (S1)
-- Datos del mecanismo de acción (MOA) de tramadol desde DrugBank (DG002), necesarios para evaluar la plausibilidad de cualquier indicación predicha
-- Estudios preclínicos o de mecanismo que conecten la vía GDF5/CDMP1 con la analgesia opioide/SNRI, si se quiere sostener esta hipótesis concreta
-- Nota adicional: entre las 10 indicaciones predichas, la **artritis idiopática juvenil** (rank 7, L4, etapa S1, "Research Question") presenta una racionalidad mecanística más plausible (uso analgésico off-label ya descrito en dolor reumático pediátrico refractario) y cuenta con literatura indexada, aunque no específica de tramadol. Podría ser un candidato secundario más prometedor para investigación adicional que la indicación de mayor puntaje.
+- Obtener y revisar el prospecto de AEMPS (advertencias y contraindicaciones), un paso bloqueante para cualquier cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Identificar un vínculo biológico concreto con la vía GDF5/CDMP1, o reformular la hipótesis como analgesia sintomática con estudios específicos.
+- Realizar una búsqueda dirigida de literatura y ensayos sobre tramadol en esta enfermedad.
+
+*Los resultados de este informe son solo para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

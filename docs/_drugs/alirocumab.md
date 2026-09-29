@@ -2,7 +2,7 @@
 layout: default
 title: Alirocumab
 parent: Solo predicción del modelo (L5)
-nav_order: 18
+nav_order: 29
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# ALIROCUMAB: De Hipercolesterolemia a Enfermedad del Proceso Catabólico del Colesterol
-
-> **Nota de selección**: TxGNN generó 10 indicaciones candidatas para alirocumab, todas con puntajes muy próximos (~99%) y clasificadas en el extremo profundo del ranking global (posiciones 8583–10213). De esas 10, solo **"cholesterol catabolic process disease"** (rango 5) alcanzó evidencia clínica y bibliográfica real; las otras 9 —incluida la de mayor puntaje, ictiosis ligada al X— no tienen ningún ensayo ni publicación de respaldo y quedan en Hold. Este informe se centra en el único candidato con base evidencial suficiente para una decisión.
+# Alirocumab: De Uso Hipolipemiante a Ictiosis Ligada al X sin Deficiencia de Esteroide Sulfatasa
 
 ## Resumen en Una Frase
 
-Alirocumab es un anticuerpo monoclonal inhibidor de PCSK9, utilizado originalmente para el tratamiento de la hipercolesterolemia y la dislipidemia con el fin de reducir el LDL-colesterol y el riesgo cardiovascular. El modelo TxGNN predice que también podría ser relevante para trastornos del proceso catabólico del colesterol, con **1 ensayo clínico de Fase 3 completado** y **19 publicaciones** que actualmente respaldan esta dirección.
+Alirocumab es un anticuerpo monoclonal que neutraliza PCSK9 y se comercializa en España como hipolipemiante (Praluent). El paquete de evidencia no recoge su indicación autorizada en el texto de AEMPS.
+El modelo TxGNN predice que podría ser efectivo para **ictiosis ligada al X sin deficiencia de esteroide sulfatasa**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipercolesterolemia / dislipidemia (reducción de LDL-C y riesgo cardiovascular) |
-| Nueva Indicación Predicha | Enfermedad del proceso catabólico del colesterol (*cholesterol catabolic process disease*) |
-| Puntaje de Predicción TxGNN | 99.36% |
-| Nivel de Evidencia | L2 (1 ECA de Fase 3 completado) |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nueva Indicación Predicha | Ictiosis ligada al X sin deficiencia de esteroide sulfatasa |
+| Puntaje de Predicción TxGNN | 99,43 % |
+| Nivel de Evidencia | L5 (solo predicción del modelo) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 9 |
+| Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-No hay datos de mecanismo de acción disponibles en DrugBank en este Evidence Pack (bloqueado como DG002), pero la literatura recopilada describe el mecanismo con detalle: alirocumab es un anticuerpo monoclonal humano que se une a la PCSK9 circulante, impidiendo que esta se una al receptor de LDL (LDLR) en la superficie del hepatocito. Al bloquear la degradación del LDLR mediada por PCSK9, aumenta la densidad de receptores disponibles para captar LDL-C circulante, acelerando su aclaramiento.
+Alirocumab es un anticuerpo monoclonal que neutraliza PCSK9. Actúa sobre el reciclaje del receptor de LDL en el hígado y reduce el colesterol LDL circulante. No hay datos de MOA registrados en el paquete de evidencia, pero este mecanismo es la base conocida de la clase.
 
-La indicación original (hipercolesterolemia/dislipidemia) y la nueva indicación predicha (trastornos del catabolismo del colesterol) comparten el mismo eje fisiopatológico: ambas giran en torno a la incapacidad del organismo para depurar o metabolizar adecuadamente el colesterol circulante. De hecho, uno de los estudios recuperados (PMID 38191052) muestra que la inhibición de PCSK9 activa la vía PPARα-CYP7A1 —la enzima clave que convierte el colesterol en ácidos biliares para su eliminación—, lo que conecta mecanísticamente el fármaco con el catabolismo del colesterol, más allá de su efecto ya conocido sobre el LDLR.
+La enfermedad predicha es un trastorno de la queratinización de la piel. **No se identificó ningún vínculo mecanístico plausible** con la vía de PCSK9 y el receptor de LDL. El puntaje alto (0,994) es solo una predicción del modelo, sin ensayos ni literatura que lo respalden. La similitud con la indicación original está pendiente de evaluar.
 
-Esto contrasta con las otras 9 indicaciones predichas por TxGNN (ictiosis ligada al X, defectos de esteroidogénesis, displasia diafisaria, enfermedades neurodegenerativas, etc.), para las cuales el propio modelo no encuentra ningún respaldo clínico o bibliográfico y el vínculo mecanístico es, en el mejor de los casos, especulativo.
+En conjunto, la predicción no es razonable desde el punto de vista biológico con los datos actuales. Hay que tratarla como una señal computacional sin confirmar.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Fase 3 | Completado | 118 | Evalúa el efecto de la inhibición de PCSK9 sobre el riesgo cardiovascular en pacientes con VIH tratado; la aterosclerosis en este contexto cursa con mayor inflamación vascular, disfunción endotelial y predominio de placa no calcificada, marcadores relacionados con el metabolismo/depuración del colesterol. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | ECA (post-hoc) | Diabetes Care | Análisis post-hoc de ODYSSEY OUTCOMES: la reducción de Lp(a) y LDL-C con alirocumab no se asocia a mayor riesgo de diabetes de nuevo diagnóstico. |
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Revisión/Observacional | Eur Heart J Cardiovasc Pharmacother | Más de 47.000 paciente-años de ODYSSEY OUTCOMES: alirocumab reduce eventos isquémicos recurrentes y mortalidad por todas las causas, con reducción sostenida de LDL-C. |
-| [29526502](https://pubmed.ncbi.nlm.nih.gov/29526502/) | 2018 | Estudio clínico | Kidney International | Eficacia y seguridad de alirocumab para reducir LDL-C en pacientes con hipercolesterolemia e insuficiencia renal (eGFR 30-59), comparado con función renal normal. |
-| [38191052](https://pubmed.ncbi.nlm.nih.gov/38191052/) | 2024 | Estudio mecanístico | Metabolism | La inhibición de PCSK9 previene y alivia los cálculos biliares de colesterol activando CYP7A1 vía PPARα, enzima clave del catabolismo del colesterol a ácidos biliares. |
-| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Revisión | Pharmacol Ther | Compara el direccionamiento de PCSK9 dentro vs. fuera del hepatocito; alirocumab y evolocumab actúan extracelularmente uniendo la PCSK9 circulante. |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Revisión | Curr Atheroscler Rep | Nuevos desarrollos en el tratamiento de la hipercolesterolemia familiar homocigota, incluyendo terapias anti-PCSK9. |
-| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Revisión | Medicina (Kaunas) | Diagnóstico y opciones de tratamiento de la hipercolesterolemia familiar, con mutaciones en APOB, LDLR y PCSK9. |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Revisión | Curr Opin Lipidol | Actualización sobre terapias dirigidas a PCSK9 y su impacto en la reducción de LDL-C y riesgo cardiovascular. |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Revisión | Signal Transduct Target Ther | Revisión exhaustiva del papel de PCSK9 en el metabolismo lipídico y su relevancia en enfermedad hepática, infecciosa y autoinmune, más allá de la cardiovascular. |
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Revisión | Kardiol Pol | Evidencia actual y perspectivas futuras sobre los inhibidores de PCSK9 y la reducción de eventos cardiovasculares. |
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en España
+
+Se muestran 5 de las 9 autorizaciones. Todas pertenecen a Sanofi Winthrop Industrie. El texto de indicación aprobada está vacío en los datos recibidos, por lo que se omite la columna.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1151031011 | Praluent 150 mg solución inyectable en jeringa precargada | Solución inyectable |
+| 1151031008 | Praluent 150 mg solución inyectable en pluma precargada | Solución inyectable |
+| 1151031010 | Praluent 150 mg solución inyectable en jeringa precargada | Solución inyectable |
+| 1151031004 | Praluent 75 mg solución inyectable en jeringa precargada | Solución inyectable |
+| 1151031019 | Praluent 300 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad (no hay advertencias, contraindicaciones ni interacciones farmacológicas registradas en las fuentes consultadas; la ficha técnica de la TFDA está pendiente de obtener — ver DG001).
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado y un cuerpo bibliográfico consistente que conecta mecanísticamente la inhibición de PCSK9 con el catabolismo del colesterol (incluyendo activación de la vía CYP7A1), pero la evidencia clínica directa en población específica con "trastorno del proceso catabólico del colesterol" sigue siendo indirecta (el ensayo disponible es en pacientes VIH+, no en la población diana exacta).
+La predicción no tiene ningún ensayo ni publicación, y no existe un vínculo mecanístico plausible entre la inhibición de PCSK9 y esta ictiosis. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la TFDA con advertencias/contraindicaciones (DG001, bloqueante para evaluación de seguridad S1)
-- Datos detallados de MOA vía API de DrugBank (DG002)
-- Ensayos clínicos dirigidos específicamente a poblaciones con trastornos definidos del catabolismo del colesterol (más allá de estudios generales de PCSK9i)
-- Confirmar la ausencia de comercialización en España y evaluar vía regulatoria si se decide avanzar
+- Un estudio preclínico o mecanístico que justifique la relación entre PCSK9 y la queratinización cutánea.
+- Confirmar la indicación autorizada de alirocumab y su ficha técnica en AEMPS, que no figuran en los datos recibidos.
+- Datos de seguridad (advertencias y contraindicaciones) del prospecto de AEMPS.
+
+**Nota sobre otras predicciones del mismo fármaco:** dentro del top 10 hay candidatos con más respaldo que este. "Enfermedad del proceso catabólico del colesterol" (L3) tiene un ensayo de Fase 3 y varias revisiones, pero es casi concordante con el uso hipolipemiante autorizado y no es un reposicionamiento genuino. "Xantomatosis" (L4) solo cuenta con dos informes de caso. Ambos merecen una evaluación aparte.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

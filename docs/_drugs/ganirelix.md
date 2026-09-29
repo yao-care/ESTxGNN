@@ -2,7 +2,7 @@
 layout: default
 title: Ganirelix
 parent: Solo predicción del modelo (L5)
-nav_order: 132
+nav_order: 254
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ganirelix: De Indicación Original No Registrada a Hipertricosis
+# Ganirelix: De Inhibición de Picos Prematuros de LH en Reproducción Asistida (FIV) a Hipertricosis
 
 ## Resumen en Una Frase
 
-Ganirelix es un antagonista del receptor de GnRH; su indicación original no consta en este paquete de evidencia porque el fármaco no está comercializado en el mercado evaluado. El modelo TxGNN predice que podría ser efectivo para **Hipertricosis (disease)**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección — se trata de una predicción puramente computacional.
-
----
+Ganirelix es un antagonista del receptor de GnRH, comercializado en España para ciclos de fecundación in vitro (FIV), donde suprime la hormona luteinizante (LH) y la hormona foliculoestimulante (FSH).
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **no existe ningún ensayo clínico ni publicación** que respalde esta predicción, y no se identifica un vínculo biológico plausible.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el paquete de evidencia (fármaco no comercializado; ver vacío de datos DG002) |
-| Nueva Indicación Predicha | Hipertricosis (disease) |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios reales) |
-| Estado de Mercado | No comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | Ciclos de FIV (supresión de picos prematuros de LH). Los textos de indicación de las autorizaciones españolas están vacíos; este dato procede del análisis de la predicción |
+| Nueva Indicación Predicha | Hipertricosis |
+| Puntaje de Predicción TxGNN | 99,98 % |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Ganirelix es un antagonista del receptor de GnRH: bloquea la señal hipotalámica en la hipófisis, reduce la secreción de LH y FSH y, con ello, los esteroides sexuales de origen gonadal. El campo de mecanismo de acción de DrugBank no está disponible en el Evidence Pack, por lo que esta descripción se basa en la clase farmacológica conocida.
 
-Actualmente no se dispone de datos detallados y verificados sobre el mecanismo de acción de ganirelix en este paquete de evidencia (vacío de datos DG002, severidad Alta). Según la información contenida en el propio análisis de la predicción, ganirelix es un **antagonista del receptor de GnRH**, cuyo efecto conocido es suprimir la liberación de gonadotropinas hipofisarias y, en consecuencia, reducir la secreción de esteroides gonadales.
+**La predicción no tiene un respaldo biológico claro.** La hipertricosis no suele depender del eje hipófiso-gonadal, y el puntaje tan alto (0,9998) refleja únicamente la cercanía en el grafo de conocimiento, no un efecto demostrado. No hay ensayos, literatura ni un vínculo mecanístico identificado.
 
-El vínculo propuesto con la hipertricosis es indirecto: algunos subtipos de hipertricosis se asocian con exceso de andrógenos, por lo que una reducción de esteroides gonadales mediada por el bloqueo de GnRH podría tener, en teoría, un efecto marginal sobre el crecimiento piloso androgénico. Sin embargo, la propia evidencia señala que esta relación es **débil y no confirmada**: la hipertricosis es una condición etiológicamente heterogénea (farmacológica, endocrina o genética), por lo que no es posible establecer una vía causal clara sin estudios adicionales.
-
-En ausencia de cualquier ensayo clínico o publicación que examine específicamente esta combinación, la justificación mecanística permanece en el nivel de hipótesis teórica, no de evidencia.
-
----
+Las demás predicciones del modelo tampoco ofrecen respaldo clínico. La única biológicamente coherente es **pubertad precoz central** (puntaje 99,75 %, posición 9): el fármaco suprime directamente el eje. Aun así, los agonistas de GnRH de acción prolongada son el tratamiento estándar, ganirelix es de acción corta y tampoco hay evidencia clínica. Se considera una hipótesis para revisión farmacológica o preclínica, no una recomendación clínica.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 78205 | FYREMADEL 0,25 MG / 0,5 ML solución inyectable en jeringa precargada EFG | Solución inyectable |
+| 1221658001 | GANIRELIX GEDEON RICHTER 0,25 MG/0,5 ML solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada |
+| 86368 | ASTARTE 0,25 MG/0,5 ML solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada |
+| 00130001 | ORGALUTRAN 0,25 MG/0,5 ML solución inyectable | Solución inyectable en jeringa precargada |
+| 00130002 | ORGALUTRAN 0,25 MG/0,5 ML solución inyectable | Solución inyectable en jeringa precargada |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-*(Nota: la consulta del prospecto de TFDA para este fármaco quedó pendiente de extracción estructurada — vacío de datos DG001, severidad Bloqueante, impacto: impide la evaluación de seguridad S1.)*
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en la puntuación del modelo TxGNN (99.98%), sin ningún ensayo clínico ni publicación que la respalde, y el propio razonamiento mecanístico la califica como una asociación débil y no confirmada. Además, faltan datos regulatorios y de seguridad básicos (fármaco no comercializado, advertencias/contraindicaciones no disponibles), lo que impide incluso una evaluación de seguridad preliminar (S1).
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y sin vínculo mecanístico plausible entre el antagonismo de GnRH y la hipertricosis. Los datos de seguridad tampoco están disponibles, por lo que no se puede avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de TFDA (advertencias, contraindicaciones) mediante descarga y análisis del PDF (DG001, bloqueante)
-- Obtener datos verificados del mecanismo de acción vía API de DrugBank (DG002)
-- Estudios preclínicos o mecanísticos que evalúen el efecto de la supresión de esteroides gonadales sobre el crecimiento piloso androgénico
-- Monitoreo continuo de nuevos ensayos clínicos o literatura que puedan surgir para esta combinación específica
+- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante.
+- Completar el mecanismo de acción desde DrugBank.
+- Justificar biológicamente el vínculo con hipertricosis; de lo contrario, descartar la predicción.
+- Reorientar la revisión hacia pubertad precoz central como pregunta de investigación, con revisión farmacológica o preclínica previa.
+- Tratar con cautela el número de publicaciones de otras predicciones del modelo (p. ej., el síndrome de malformación con componente periodontal): son literatura genérica sobre periodontitis que no menciona ganirelix y no constituye evidencia.
+
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

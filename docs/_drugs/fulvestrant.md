@@ -2,7 +2,7 @@
 layout: default
 title: Fulvestrant
 parent: Solo predicción del modelo (L5)
-nav_order: 130
+nav_order: 251
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,101 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fulvestrant: De Cáncer de Mama HR+/HER2- a Infección por VIH
+# Fulvestrant: De Cáncer de Mama con Receptores Hormonales Positivos a Infección por VIH
 
 ## Resumen en Una Frase
 
-Fulvestrant es un degradador selectivo del receptor de estrógeno (SERD), utilizado originalmente para el cáncer de mama con receptor hormonal positivo (HR+) y HER2 negativo. El modelo TxGNN predice que podría ser efectivo para **Infección por VIH**, pero actualmente solo existe **1 publicación** (no centrada en VIH) y **ningún ensayo clínico** que respalde esta dirección.
+Fulvestrant es un antagonista y degradador del receptor de estrógenos, utilizado en el cáncer de mama con receptores hormonales positivos (indicación tomada del análisis del Evidence Pack, no del texto de las autorizaciones de la AEMPS, que está vacío).
+El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero actualmente hay **0 ensayos clínicos** y **1 publicación** que no trata sobre VIH (estudia HTLV-1), por lo que la predicción carece de respaldo real.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de mama HR+/HER2- metastásico (indicación global aprobada; no evaluado por TFDA/AEMPS en este informe) |
+| Indicación Original | Cáncer de mama con receptores hormonales positivos (según el análisis del Evidence Pack; las autorizaciones de la AEMPS no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99.91% (rank 2221) |
+| Puntaje de Predicción TxGNN | 99.91% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 17 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) en este Evidence Pack. Según la evidencia recopilada en otras secciones de este análisis, fulvestrant es un SERD (degradador selectivo del receptor de estrógeno) cuya eficacia en cáncer de mama HR+/HER2- está bien establecida.
+## ¿Por qué es Razonable esta Predicción?
 
-Sin embargo, la relación mecanística entre la vía del receptor de estrógeno y la infección por VIH no está respaldada por la evidencia disponible. La única publicación asociada a esta predicción trata sobre mielopatía asociada a HTLV-1 (un retrovirus distinto del VIH), y no examina fulvestrant ni la vía estrogénica en relación con la patogénesis retroviral.
+Fulvestrant es un antagonista y degradador del receptor de estrógenos. Se usa de forma establecida en el cáncer de mama con receptores hormonales positivos. No se dispone de datos detallados del mecanismo de acción en DrugBank para este informe.
 
-En conjunto, esta predicción parece corresponder a una asociación de alto puntaje generada por el modelo TxGNN sin respaldo mecanístico ni evidencia clínica real que la sustente en este momento.
+Con los datos aportados, **no se puede establecer una relación mecanística** entre el bloqueo del receptor de estrógenos y una acción antiviral contra el VIH. El puntaje alto proviene únicamente de la predicción del grafo de conocimiento y no de evidencia específica del fármaco.
+
+Esta predicción debe leerse con cautela. Un puntaje del 99.91% no implica eficacia clínica. La única publicación asociada trata sobre la mielopatía asociada a HTLV-1, un retrovirus distinto, y no aporta evidencia sobre VIH.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Análisis multi-ómico (preprint) | Research Square | Análisis de mecanismos y dianas terapéuticas en mielopatía asociada a HTLV-1 (no VIH); no evalúa fulvestrant ni la vía del receptor de estrógeno |
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Análisis multi-ómico de cohortes (preprint) | Research Square | Análisis de biología de sistemas sobre la mielopatía asociada a HTLV-1 y sus dianas terapéuticas. No estudia VIH ni fulvestrant, por lo que su relevancia es indirecta. |
+
+---
+
+## Información de Mercado en España
+
+Se muestran 5 de las 17 autorizaciones registradas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 84420 | Fulvestrant Stada 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable | — |
+| 87273 | Fulvestrant Hikma 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada | — |
+| 1171253001 | Fulvestrant Mylan 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable | — |
+| 80910 | Fulvestrant Teva 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada | — |
+| 83884 | Strantas 250 mg solución inyectable en jeringa precargada EFG | Solución inyectable | — |
+
+---
 
 ## Citotoxicidad
 
-Fulvestrant corresponde a una terapia hormonal antineoplásica (indicación original: cáncer de mama HR+/HER2-).
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida hormonal (SERD), no es citotóxico convencional |
+| Clasificación de Citotoxicidad | Terapia hormonal dirigida (antagonista y degradador del receptor de estrógenos); no es un citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo TxGNN (nivel de evidencia L5), sin ensayos clínicos y con una sola publicación que no aborda directamente ni el VIH ni el mecanismo de fulvestrant. No existe un vínculo mecanístico demostrado entre la vía del receptor de estrógeno y la infección por VIH.
+La predicción para VIH se apoya solo en el modelo TxGNN (L5). No hay ensayos clínicos, la única publicación trata sobre otro virus, y no existe un vínculo mecanístico sustentado. Además, no se han revisado aún las advertencias ni contraindicaciones de la AEMPS.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de acción (MOA) de fulvestrant desde DrugBank
-- Advertencias, contraindicaciones e interacciones desde el prospecto TFDA/AEMPS
-- Literatura o estudios preclínicos que evalúen fulvestrant específicamente en el contexto de VIH
-- Evaluación de si el candidato de rango 2 (neoplasia endocrina múltiple) refleja un error de mapeo de nodos en el grafo de conocimiento, dado que toda la evidencia clínica asociada corresponde en realidad a cáncer de mama HR+/HER2-, no a MEN
+- Descargar y analizar la ficha técnica de la AEMPS para obtener advertencias, contraindicaciones y el texto de indicación aprobada.
+- Obtener el mecanismo de acción desde DrugBank para evaluar un posible vínculo con el VIH.
+- Buscar evidencia preclínica (in vitro o en modelos animales) específica de fulvestrant en VIH antes de plantear cualquier estudio.
+- Como alternativa, valorar otras predicciones del mismo fármaco. La artritis reumatoide (L4) tiene una justificación preclínica plausible pero no probada, con dirección del efecto incierta. La predicción de "neoplasia endocrina múltiple" parece un artefacto de mapeo de términos, ya que los ensayos encontrados son de cáncer de mama y no de síndromes MEN.
+
+---
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

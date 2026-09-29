@@ -2,7 +2,7 @@
 layout: default
 title: Romiplostim
 parent: Evidencia moderada (L3-L4)
-nav_order: 248
+nav_order: 474
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Romiplostim: De Trombocitopenia Inmune (ITP) a Trastorno Primario de Liberación de Plaquetas
+# Romiplostim: De Trombocitopenia Inmune (ITP) a Trastorno de Liberación Primaria de Plaquetas
 
 ## Resumen en Una Frase
 
-Romiplostim es un agonista del receptor de trombopoyetina (TPO-RA) utilizado originalmente para estimular la producción de plaquetas en la trombocitopenia inmune (ITP), la trombocitopenia inducida por quimioterapia y la trombocitopenia post-trasplante. El modelo TxGNN predice que podría ser efectivo para el **Trastorno Primario de Liberación de Plaquetas**, pero actualmente esta indicación concreta cuenta solo con **1 ensayo clínico indirecto** y **2 publicaciones**, ninguno diseñado para probar eficacia en esta enfermedad específica.
-
-> **Nota:** Este Evidence Pack evalúa 10 indicaciones candidatas para romiplostim. Una de ellas — "platelet-type bleeding disorder" (rango 8, no es el objeto de este informe) — presenta evidencia sustancialmente más fuerte (Nivel L1, 8 ensayos clínicos incluyendo un Fase 3 aleatorizado doble-ciego completado, NCT03362177/RECITE). Se recomienda revisar esa candidata por separado, ya que corresponde en gran medida al espacio de uso ya establecido del fármaco.
+Romiplostim es un agonista del receptor de la trombopoyetina (TPO), comercializado en España como Nplate. Los datos de AEMPS recibidos no incluyen el texto de la indicación aprobada; por el contexto de la evidencia, su uso se asocia a la trombocitopenia inmune (ITP).
+El modelo TxGNN predice que podría ser efectivo para **trastorno de liberación primaria de plaquetas**, pero solo hay **1 ensayo clínico observacional indirecto** y **2 publicaciones** (una revisión y un estudio preclínico), sin evidencia directa.
 
 ---
 
@@ -43,21 +42,23 @@ Romiplostim es un agonista del receptor de trombopoyetina (TPO-RA) utilizado ori
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trombocitopenia inmune (ITP), trombocitopenia inducida por quimioterapia, trombocitopenia post-trasplante (según contexto mecanístico del Evidence Pack; sin ficha técnica oficial disponible) |
-| Nueva Indicación Predicha | Trastorno Primario de Liberación de Plaquetas |
-| Puntaje de Predicción TxGNN | 99.9998% (rango interno del modelo: 23) |
+| Indicación Original | No disponible en los datos de AEMPS (texto de indicación vacío en las 4 autorizaciones); ITP inferida del contexto de la evidencia |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de plaquetas |
+| Puntaje de Predicción TxGNN | 99.9998% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de una ficha técnica ni de datos estructurados de mecanismo de acción (MOA) en este Evidence Pack. Según la información contextual disponible, romiplostim es un agonista del receptor de trombopoyetina (TPO-RA) que estimula directamente la megacariocitopoyesis y la liberación de plaquetas, mecanismo ya validado en su uso establecido para ITP, trombocitopenia inducida por quimioterapia y trombocitopenia tras trasplante.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, romiplostim es un agonista del receptor de TPO que aumenta la producción de plaquetas. Su eficacia en trombocitopenias por déficit de producción o destrucción está documentada en los ensayos y la literatura del paquete de evidencia.
 
-El "Trastorno Primario de Liberación de Plaquetas" describe una alteración en la producción o liberación de plaquetas por el megacariocito, lo cual es direccionalmente compatible con el mecanismo estimulador de romiplostim. Sin embargo, la evidencia disponible (1 ensayo observacional sobre factores de riesgo de trombosis en ITP, y 2 publicaciones sobre biología de la megacariocitopoyesis y autoanticuerpos antiplaquetarios) se centra en el mecanismo de destrucción inmune de la ITP, no en un defecto primario de liberación plaquetaria como entidad propia. Por tanto, el vínculo mecanístico es plausible pero indirecto, y no existe hasta la fecha un ensayo diseñado específicamente para esta indicación.
+Sin embargo, el ajuste mecanístico con esta nueva indicación es débil. Un defecto de liberación (secreción) plaquetaria es un problema de **función** plaquetaria, y un fármaco que eleva el **recuento** de plaquetas no tiene un encaje claro. La puntuación tan alta del grafo probablemente refleja vecinos compartidos en la red de ITP y trombopoyesis, no una relación terapéutica directa.
+
+Los datos disponibles refuerzan esta cautela. El único ensayo es un estudio observacional sobre factores de riesgo de trombosis en ITP y no prueba romiplostim en este trastorno. La literatura describe la megacariopoyesis en general y el efecto de autoanticuerpos sobre la formación de proplaquetas in vitro.
 
 ---
 
@@ -65,7 +66,7 @@ El "Trastorno Primario de Liberación de Plaquetas" describe una alteración en 
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Completado | 10039 | Estudio observacional de factores de riesgo de trombosis en pacientes con trombocitopenia inmune (ITP); no evalúa eficacia de romiplostim directamente, solo caracteriza la población relacionada (grado de relevancia C). |
+| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A (observacional) | Completado | 10039 | Factores de riesgo de trombosis en trombocitopenia inmune. No evalúa romiplostim en un trastorno de liberación plaquetaria (relevancia: C) |
 
 ---
 
@@ -73,22 +74,27 @@ El "Trastorno Primario de Liberación de Plaquetas" describe una alteración en 
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Revisión | British Journal of Haematology | Revisión de los avances en megacariocitopoyesis y trombopoyesis, describiendo a la trombopoyetina (TPO) como el principal factor de crecimiento del linaje megacariocítico. |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Cohorte/Mecanístico | Haematologica | Los autoanticuerpos antiplaquetarios en ITP inhiben la formación de proplaquetas por los megacariocitos, alterando la producción de plaquetas in vitro. |
+| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Revisión | British Journal of Haematology | Avances en megacariopoyesis y trombopoyesis: la TPO es el principal factor de crecimiento del linaje megacariocítico |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Preclínico/mecanístico | Haematologica | En ITP, los autoanticuerpos antiplaquetarios inhiben in vitro la formación de proplaquetas por los megacariocitos y reducen la producción de plaquetas |
 
 ---
 
 ## Información de Mercado en España
 
-Actualmente no hay autorizaciones registradas en España (medicamento no comercializado según este Evidence Pack).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 08497001 | NPLATE 250 microgramos polvo para solución inyectable | Polvo para solución inyectable |
+| 08497005 | NPLATE 250 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
+| 08497007 | NPLATE 500 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
+| 08497002 | NPLATE 500 microgramos polvo para solución inyectable | Polvo para solución inyectable |
+
+Titular: Amgen Europe B.V. El texto de indicación aprobada no figura en los datos recibidos.
 
 ---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-*(Nota interna: la ficha técnica/prospecto de la agencia reguladora aún no ha sido obtenida — ver "Para avanzar se necesita" abajo).*
 
 ---
 
@@ -97,13 +103,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible para "Trastorno Primario de Liberación de Plaquetas" corresponde a Nivel L4 (estudios mecanísticos/preclínicos indirectos), sin ningún ensayo clínico diseñado para probar eficacia de romiplostim en esta indicación concreta. El vínculo mecanístico es razonable pero insuficiente para avanzar a evaluación de seguridad o diseño de estudio en esta etapa.
+No hay respaldo mecanístico ni clínico directo: romiplostim aumenta el recuento de plaquetas, pero este trastorno afecta a su función. La evidencia se limita a un estudio observacional indirecto y a literatura general (nivel L4).
 
 **Para avanzar se necesita:**
-- Obtener la ficha técnica/prospecto oficial (actualmente bloqueante para la evaluación de seguridad S1 — gap crítico DG001)
-- Confirmar el mecanismo de acción detallado desde DrugBank u otra fuente estructurada (gap DG002)
-- Un estudio mecanístico o serie de casos que caracterice específicamente el "defecto primario de liberación plaquetaria" como entidad distinta de la ITP, y su respuesta a agonistas TPO-RA
-- Evaluar en paralelo la candidata "platelet-type bleeding disorder" (Nivel L1, Proceed with Guardrails), que presenta evidencia clínica sustancialmente más madura y podría representar una vía de avance más inmediata
+- Texto de indicaciones, advertencias y contraindicaciones del prospecto de AEMPS
+- Datos del mecanismo de acción desde DrugBank
+- Estudios que evalúen romiplostim específicamente en defectos de liberación plaquetaria
+- Revisar otras predicciones del mismo paquete con más respaldo, como "trastorno hemorrágico de tipo plaquetario" (nivel L2, decisión "Research Question"), que agrupa ensayos de romiplostim en trombocitopenias
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

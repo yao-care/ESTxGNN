@@ -2,7 +2,7 @@
 layout: default
 title: Tivozanib
 parent: Solo predicción del modelo (L5)
-nav_order: 278
+nav_order: 531
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,77 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tivozanib: De Indicación Original No Documentada a Carcinoma Endocervical
+# Tivozanib: De Indicación Original No Registrada a Carcinoma Endocervical
 
 ## Resumen en Una Frase
 
-La indicación original de tivozanib no está documentada en este Evidence Pack (solo se consultó DrugBank y el campo de mecanismo de acción quedó como vacío de datos). El modelo TxGNN predice que podría ser efectivo para **Carcinoma Endocervical**, junto con otras nueve neoplasias ginecológicas de puntaje similar, pero **sin ningún ensayo clínico ni publicación** que respalde actualmente esta dirección.
-
----
+Tivozanib es un inhibidor de tirosina quinasas de los receptores VEGFR-1/2/3 y está comercializado en España como FOTIVDA. El registro recibido no incluye el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma endocervical**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No documentada en este Evidence Pack |
-| Nueva Indicación Predicha | Carcinoma Endocervical (endocervical carcinoma) |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Indicación Original | No disponible en el registro (las autorizaciones no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Carcinoma endocervical |
+| Puntaje de Predicción TxGNN | 99,81 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No Comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de tivozanib. La única información confirmada en este Evidence Pack es el identificador DrugBank (DB11800) y el nombre INN; ni la indicación original ni la clase terapéutica pudieron extraerse de la consulta realizada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en el registro. Según el análisis de la predicción, tivozanib es un inhibidor de VEGFR-1/2/3, es decir, actúa sobre la vía que impulsa la formación de nuevos vasos sanguíneos (angiogénesis) en los tumores.
 
-Sin datos de MOA ni de indicación original, no es posible establecer una relación mecanística verificable entre el uso previo del fármaco y las indicaciones predichas. Se observa, eso sí, un patrón en los datos: las 10 indicaciones predichas por TxGNN (rangos 3894–4500, puntajes entre 99.76% y 99.81%) corresponden todas a subtipos de neoplasias ginecológicas (cérvix, ligamento uterino), lo que sugiere que el modelo detectó alguna señal compartida entre estas entidades. Sin embargo, esta observación es puramente estadística y no está respaldada por ningún mecanismo farmacológico confirmado ni por evidencia clínica o de literatura.
+En cáncer de cuello uterino la angiogénesis tumoral es una diana validada: la terapia anti-VEGF (bevacizumab) se usa en enfermedad avanzada. Por eso inhibir VEGFR es biológicamente plausible en el carcinoma endocervical.
 
----
+Esta plausibilidad es solo **indirecta**. No hay datos mecanísticos específicos de tivozanib para esta enfermedad, la similitud con la indicación original no ha sido evaluada y el puntaje refleja cercanía en el grafo de conocimiento, no una señal clínica.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-No hay autorizaciones registradas (el fármaco figura como no comercializado, 0 licencias).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1171215001 | FOTIVDA 890 microgramos cápsulas duras | Cápsula dura | No consta en el registro |
+| 1171215002 | FOTIVDA 1340 microgramos cápsulas duras | Cápsula dura | No consta en el registro |
 
----
+Titular de ambas autorizaciones: Recordati Netherlands B.V.
+
+## Citotoxicidad
+
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas de VEGFR) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-> Nota: existe una brecha de datos de severidad **Blocking** (DG001 — advertencias/contraindicaciones del prospecto TFDA) que impide actualmente completar la evaluación de seguridad inicial (S1).
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Las 10 indicaciones predichas se sustentan únicamente en el puntaje del modelo TxGNN (nivel de evidencia L5), sin ningún ensayo clínico ni publicación de respaldo, y el fármaco no está comercializado en España. Además, la ausencia de datos de mecanismo de acción y de advertencias/contraindicaciones del prospecto (gap bloqueante) impide avanzar a la fase de evaluación de seguridad.
+No hay ensayos clínicos ni publicaciones que apoyen tivozanib en carcinoma endocervical (nivel L5, etapa S0). Además, faltan los datos de seguridad del prospecto. Las otras nueve predicciones del modelo (adenocarcinomas de ligamento uterino y variantes raras de adenocarcinoma cervical) tienen el mismo nivel L5 y la misma recomendación Hold.
 
 **Para avanzar se necesita:**
-- Indicación original y mecanismo de acción (MOA) de tivozanib, actualmente en falta
-- Prospecto/advertencias TFDA (gap bloqueante DG001) para poder iniciar la evaluación de seguridad S1
-- Evidencia clínica real (ensayos o literatura) para al menos una de las 10 indicaciones predichas
-- Categorías terapéuticas de DrugBank, para determinar si aplica evaluación de citotoxicidad
+- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un dato bloqueante para el cribado de seguridad.
+- Obtener el mecanismo de acción detallado desde DrugBank.
+- Confirmar la indicación aprobada de FOTIVDA en España.
+- Buscar ensayos clínicos y literatura, incluidos estudios preclínicos, sobre inhibidores de VEGFR en cáncer de cuello uterino.
+- Evaluar la compatibilidad de la vía de administración (actualmente solo hay cápsula oral) y la similitud con la indicación original.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

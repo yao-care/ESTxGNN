@@ -2,7 +2,7 @@
 layout: default
 title: Panobinostat
 parent: Evidencia alta (L1-L2)
-nav_order: 211
+nav_order: 406
 evidence_level: L2
 indication_count: 1
 ---
@@ -29,110 +29,123 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **1**
 
 </div>
 
-Usando el Evidence Pack proporcionado, genero el informe siguiendo el formato v5. Aviso breve: `original_indications` y `original_moa` vienen vacíos/`[Data Gap]` en el pack (DG002), y no hay licencias en España (`taiwan_regulatory.licenses` vacío), así que ajusto el título y omito los campos sin dato en vez de inventarlos.
-
----
-
-# Panobinostat: Hacia una Nueva Indicacion en Leucemia Mieloide
+# Panobinostat: De Indicación Original No Disponible a Leucemia Mieloide
 
 ## Resumen en Una Frase
 
-Panobinostat es un inhibidor pan-HDAC (histona deacetilasa) actualmente sin comercializacion registrada en Espana y sin datos de indicacion original disponibles en esta evaluacion.
-El modelo TxGNN predice que podria ser efectivo para **Leucemia Mieloide**,
-con **19 ensayos clinicos** y **20 publicaciones** que actualmente respaldan esta direccion.
+Panobinostat es un inhibidor pan-HDAC (de histona desacetilasas) comercializado en España como Farydak en cápsulas duras. Los datos disponibles no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con **19 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección. Ningún ensayo aporta resultados de eficacia, y el único Fase 3 fue terminado anticipadamente.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Sin datos disponibles en este Evidence Pack (dato pendiente, ver DG002) |
-| Nueva Indicacion Predicha | Leucemia Mieloide (myeloid leukemia) |
-| Puntaje de Prediccion TxGNN | 99.70% |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones AEMPS están vacíos) |
+| Nueva Indicación Predicha | Leucemia mieloide |
+| Puntaje de Predicción TxGNN | 99,70% |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Espana | Sin comercializar |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en las fuentes consultadas (DrugBank no devolvio el campo de MOA en esta consulta). Segun la informacion recogida de los propios ensayos clinicos del pack, panobinostat es descrito repetidamente como un "inhibidor de histona deacetilasa (HDAC)" que bloquea enzimas necesarias para el crecimiento celular, deteniendo la division de celulas cancerosas e induciendolas a morir.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la biología conocida de la clase, panobinostat es un inhibidor pan-HDAC. Al inhibir estas enzimas puede reabrir cromatina silenciada, inducir apoptosis y diferenciación celular, y sensibilizar a las células leucémicas a agentes hipometilantes (azacitidina, decitabina) y a quimioterapia citotóxica.
 
-La evidencia clinica disponible se concentra casi en su totalidad en neoplasias mieloides: leucemia mieloide aguda (LMA), sindromes mielodisplasicos (SMD) y leucemia mieloide cronica (LMC), tanto en monoterapia como en combinacion con azacitidina, decitabina, citarabina, idarubicina o mitoxantrona. Esto sugiere que la actividad antileucemica de panobinostat en neoplasias mieloides ya esta ampliamente explorada en la practica clinica, mas alla de ser una prediccion puramente computacional.
+La leucemia mieloide se caracteriza por alteraciones epigenéticas, lo que respalda el uso de fármacos epigenéticos. Los trabajos preclínicos del conjunto de datos apuntan en esa dirección: apoptosis en células de leucemia mieloide crónica, sinergia con venetoclax y decitabina, y actividad en modelos de LMA resistentes a bortezomib.
 
-Mecanisticamente, la inhibicion de HDAC modula la expresion genica relacionada con apoptosis y diferenciacion celular en progenitores mieloides malignos, lo cual es coherente con el uso extendido del farmaco en combinacion con hipometilantes (azacitidina, decitabina) en SMD/LMA, reforzando la plausibilidad biologica de la prediccion de TxGNN.
+El puntaje TxGNN (0,997) es una predicción del modelo y no constituye evidencia clínica. Este vínculo mecanístico se apoya en biología de clase y no en datos curados de dianas.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-| Numero de Ensayo | Fase | Estado | Inscripcion | Hallazgos Principales |
+Se muestran 10 de los 19 ensayos identificados. Ninguno incluye resultados de eficacia en los datos disponibles.
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04326764](https://clinicaltrials.gov/study/NCT04326764) | Fase 3 | Terminado | 52 | Panobinostat de mantenimiento vs. estandar de cuidado tras trasplante alogenico en LMA/SMD de alto riesgo (ETAL-4/HOVON-145) |
-| [NCT00621244](https://clinicaltrials.gov/study/NCT00621244) | Fase 1/2 | Completado | 175 | Escalada de dosis oral en malignidades hematologicas avanzadas; seguridad, farmacocinetica y actividad antileucemica preliminar |
-| [NCT00946647](https://clinicaltrials.gov/study/NCT00946647) | Fase 1b/2b | Completado | 113 | Ensayo aleatorizado: panobinostat + azacitidina vs. azacitidina sola en SMD/LMMC/LMA |
-| [NCT02386800](https://clinicaltrials.gov/study/NCT02386800) | Fase 4 | En curso (no reclutando) | 279 | Estudio de seguridad a largo plazo en pacientes tratados con ruxolitinib +/- panobinostat |
-| [NCT00691938](https://clinicaltrials.gov/study/NCT00691938) | Fase 1/2 | Completado | 52 | Combinacion con decitabina en pacientes ≥60 anos con SMD/LMA de alto riesgo |
-| [NCT01451268](https://clinicaltrials.gov/study/NCT01451268) | Fase 1/2 | Desconocido | 62 | Terapia de mantenimiento oral post-trasplante alogenico en SMD/LMA de alto riesgo (PANOBEST) |
-| [NCT01055483](https://clinicaltrials.gov/study/NCT01055483) | Fase 1 | Completado | 59 | Combinacion con Ara-C y mitoxantrona como terapia de rescate en LMA refractaria/recidivante |
-| [NCT00880269](https://clinicaltrials.gov/study/NCT00880269) | Fase 2 | Completado | 59 | Monoterapia oral en LMA refractaria de novo o secundaria |
-| [NCT00840346](https://clinicaltrials.gov/study/NCT00840346) | Fase 1/2 | Completado | 46 | Combinacion con idarubicina y citarabina en LMA de nuevo diagnostico ≥65 anos |
-| [NCT01242774](https://clinicaltrials.gov/study/NCT01242774) | Fase 1 | Completado | 46 | Combinacion con idarubicina/citarabina en induccion y citarabina en dosis alta en consolidacion, LMA ≤65 anos |
+| [NCT00691938](https://clinicaltrials.gov/study/NCT00691938) | Fase 1/2 | Completado | 52 | Panobinostat + decitabina en mayores de 60 años con SMD de alto riesgo o LMA |
+| [NCT04326764](https://clinicaltrials.gov/study/NCT04326764) | Fase 3 | Terminado | 52 | Mantenimiento con panobinostat + DLI vs. DLI preventiva tras trasplante alogénico en LMA/SMD de alto riesgo (ETAL-4/HOVON-145); sin resultados ni motivo de terminación |
+| [NCT00946647](https://clinicaltrials.gov/study/NCT00946647) | Fase 1/2 | Completado | 113 | Panobinostat + azacitidina vs. azacitidina sola en SMD, LMMC o LMA; fase II aleatorizada abierta |
+| [NCT00621244](https://clinicaltrials.gov/study/NCT00621244) | Fase 1/2 | Completado | 175 | Escalada de dosis oral en neoplasias hematológicas avanzadas; seguridad, farmacocinética y actividad preliminar |
+| [NCT01451268](https://clinicaltrials.gov/study/NCT01451268) | Fase 1/2 | Desconocido | 62 | Mantenimiento con panobinostat tras trasplante alogénico en SMD/LMA de alto riesgo (PANOBEST); dosis máxima tolerada |
+| [NCT01321346](https://clinicaltrials.gov/study/NCT01321346) | Fase 1 | Completado | 30 | Búsqueda de dosis pediátrica en neoplasias hematológicas refractarias (incluye LMA) |
+| [NCT02676323](https://clinicaltrials.gov/study/NCT02676323) | Fase 1 | Terminado | 19 | Panobinostat + fludarabina + citarabina en LMA/SMD pediátrica refractaria o en recaída |
+| [NCT00880269](https://clinicaltrials.gov/study/NCT00880269) | Fase 2 | Completado | 59 | Panobinostat oral en monoterapia en LMA refractaria de novo o secundaria |
+| [NCT00840346](https://clinicaltrials.gov/study/NCT00840346) | Fase 1/2 | Completado | 46 | Panobinostat + idarrubicina + citarabina en LMA de nuevo diagnóstico en mayores de 65 años |
+| [NCT01463046](https://clinicaltrials.gov/study/NCT01463046) | Fase 1 | Completado | 29 | Panobinostat + citarabina y daunorrubicina en pacientes mayores con LMA sin tratar o SMD avanzado |
 
 ---
 
 ## Evidencia de Literatura
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+Se muestran 10 de las 20 publicaciones, priorizando estudios clínicos, revisiones y guías sobre trabajos preclínicos.
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29051280](https://pubmed.ncbi.nlm.nih.gov/29051280/) | 2018 | Estudio clinico | Haematologica | Resultados de dos ensayos clinicos con panobinostat en monoterapia y combinacion en LMA |
-| [26160880](https://pubmed.ncbi.nlm.nih.gov/26160880/) | 2015 | Estudio clinico (Fase Ib/II) | Haematologica | Panobinostat en induccion y mantenimiento en LMA de nuevo diagnostico en pacientes de edad avanzada |
-| [31541945](https://pubmed.ncbi.nlm.nih.gov/31541945/) | 2019 | Estudio clinico | Leukemia research | Seguridad y eficacia de panobinostat oral + quimioterapia en LMA de alto riesgo ≤65 anos |
-| [32809242](https://pubmed.ncbi.nlm.nih.gov/32809242/) | 2020 | Estudio clinico | Cancer | Seguridad, farmacocinetica y farmacodinamia en ninos/adolescentes/adultos jovenes con LMA recidivante |
-| [24297862](https://pubmed.ncbi.nlm.nih.gov/24297862/) | 2014 | Estudio clinico/traslacional | Clinical Cancer Research | Azacitidina + panobinostat reduce Tregs TNFR2+ con beneficio clinico en LMA |
-| [38965693](https://pubmed.ncbi.nlm.nih.gov/38965693/) | 2024 | Guia clinica | Pediatric Blood & Cancer | Guia de tratamiento de leucemia mieloide recidivante/refractaria en Sindrome de Down (incluye AZA +/- panobinostat) |
-| [23826641](https://pubmed.ncbi.nlm.nih.gov/23826641/) | 2013 | Revision | Expert Opinion on Investigational Drugs | Revision de panobinostat en malignidades linfoides y mieloides |
-| [31739588](https://pubmed.ncbi.nlm.nih.gov/31739588/) | 2019 | Revision | Cancers | Revision de inhibidores de HDAC en LMA |
-| [27485472](https://pubmed.ncbi.nlm.nih.gov/27485472/) | 2016 | Revision | Expert Opinion on Investigational Drugs | Revision del uso de panobinostat en el tratamiento de LMA |
-| [35311997](https://pubmed.ncbi.nlm.nih.gov/35311997/) | 2022 | Preclinico/mecanistico | Cancer Discovery | Activacion epigenetica de celulas dendriticas plasmocitoides mediada por panobinostat, dependiente de IFNAR, en LMA |
+| [31541945](https://pubmed.ncbi.nlm.nih.gov/31541945/) | 2019 | Ensayo Fase 1b/2 | Leuk Res | Seguridad y eficacia de panobinostat oral + idarrubicina y citarabina en LMA de alto riesgo, edad ≤65 años |
+| [32809242](https://pubmed.ncbi.nlm.nih.gov/32809242/) | 2020 | Ensayo Fase 1 (pediátrico) | Cancer | Seguridad, farmacocinética y farmacodinamia en niños, adolescentes y adultos jóvenes con LMA en recaída |
+| [26160880](https://pubmed.ncbi.nlm.nih.gov/26160880/) | 2015 | Ensayo Fase Ib/II | Haematologica | Panobinostat en inducción y mantenimiento en ancianos con LMA de nuevo diagnóstico (PANOBIDARA, 38 pacientes evaluables) |
+| [29051280](https://pubmed.ncbi.nlm.nih.gov/29051280/) | 2018 | Resultados de dos ensayos | Haematologica | Panobinostat en monoterapia y combinado en LMA (sin resumen disponible) |
+| [23826641](https://pubmed.ncbi.nlm.nih.gov/23826641/) | 2013 | Revisión | Expert Opin Investig Drugs | Panobinostat en neoplasias linfoides y mieloides |
+| [27485472](https://pubmed.ncbi.nlm.nih.gov/27485472/) | 2016 | Revisión | Expert Opin Investig Drugs | Panobinostat en LMA, con foco en pacientes mayores o no aptos para quimioterapia intensiva |
+| [31739588](https://pubmed.ncbi.nlm.nih.gov/31739588/) | 2019 | Revisión | Cancers | Fundamento del uso de inhibidores de HDAC en LMA |
+| [38965693](https://pubmed.ncbi.nlm.nih.gov/38965693/) | 2024 | Guía | Pediatr Blood Cancer | Guía para leucemia mieloide en recaída o refractaria en síndrome de Down; incluye azacitidina ± panobinostat |
+| [38373594](https://pubmed.ncbi.nlm.nih.gov/38373594/) | 2024 | Preclínico | Biochem Pharmacol | Panobinostat sensibiliza células LMA resistentes a AraC a azacitidina + venetoclax |
+| [24297862](https://pubmed.ncbi.nlm.nih.gov/24297862/) | 2014 | Preclínico | Clin Cancer Res | Azacitidina + panobinostat reducen los linfocitos T reguladores TNFR2+ en LMA |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1151023007 | FARYDAK 20 MG CAPSULAS DURAS | Cápsula dura |
+| 1151023004 | FARYDAK 15 MG CAPSULAS DURAS | Cápsula dura |
+| 1151023001 | FARYDAK 10 MG CAPSULAS DURAS | Cápsula dura |
+
+Titular: Pharmaand GmbH. Las tres autorizaciones aparecen sin texto de indicación aprobada en los datos disponibles.
 
 ---
 
 ## Citotoxicidad
 
-*Panobinostat se clasifica como antineoplasico: pertenece a la clase de los inhibidores de histona deacetilasa (HDAC), descritos explicitamente como agentes antineoplasicos en la evidencia de literatura del pack (PMID 23826641), y toda su evidencia clinica es en neoplasias hematologicas malignas.*
-
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (inhibidor pan-HDAC) |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor epigenético pan-HDAC) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. (No se dispone de advertencias, contraindicaciones ni interacciones farmacologicas confirmadas en las fuentes consultadas; la busqueda de DDI no arrojo resultados.)
+Consultar el prospecto para información de seguridad.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-Existe evidencia clinica sustancial en neoplasias mieloides (19 ensayos, incluyendo un ensayo aleatorizado Fase 1b/2b completado y un Fase 3 terminado), pero falta informacion critica de seguridad (advertencias y contraindicaciones del TFDA — brecha bloqueante DG001), lo que impide completar la evaluacion inicial de seguridad (S1). El farmaco tampoco esta comercializado actualmente en Espana.
+**Justificación:**
+Existen numerosos ensayos de Fase 1/2 en leucemia mieloide, pero ninguno aporta resultados de eficacia en los datos disponibles. El único ensayo de Fase 3 (NCT04326764) fue terminado con solo 52 pacientes y sin motivo documentado. Además, faltan los datos de seguridad del prospecto de la AEMPS, lo que impide el cribado de seguridad. El nivel L2 y la etapa S2 corresponden a una pregunta de investigación, no a una recomendación de uso.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica oficial con advertencias y contraindicaciones (DG001, bloqueante)
-- Completar el mecanismo de accion (MOA) desde DrugBank (DG002)
-- Confirmar indicacion(es) original(es) aprobada(s) del farmaco
-- Revisar por que el ensayo Fase 3 (NCT04326764) fue terminado antes de avanzar la decision
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones) y confirmar la indicación aprobada
+- Obtener el mecanismo de acción desde DrugBank
+- Recuperar los resultados publicados de los ensayos Fase 2 (NCT00946647, NCT00880269) y el motivo de terminación de NCT04326764
+- Definir una población y un esquema concretos (por ejemplo, combinación con hipometilantes o mantenimiento postrasplante) antes de plantear un estudio confirmatorio
+
+---
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

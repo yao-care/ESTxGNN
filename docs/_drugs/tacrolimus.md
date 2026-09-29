@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Evidencia alta (L1-L2)
-nav_order: 267
-evidence_level: L1
+parent: Solo predicción del modelo (L5)
+nav_order: 508
+evidence_level: L5
 indication_count: 3
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,53 +29,66 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Tacrolimus: De Trasplante de Órganos a Dermatitis Seborreica
+# Tacrolimus: De Inmunosupresión en Trasplante y Dermatitis Atópica a Dermatitis Seborreica
 
 ## Resumen en Una Frase
 
-Tacrolimus es un inhibidor de calcineurina utilizado originalmente para la prevención del rechazo en trasplante de órganos sólidos. El modelo TxGNN predice que podría ser efectivo para **Dermatitis Seborreica**, con **2 ensayos clínicos** (Fase 3 y Fase 4, ambos completados) y **20 publicaciones** que actualmente respaldan esta dirección.
+Tacrolimus es un inhibidor de la calcineurina que en España se comercializa en formas orales de liberación prolongada (Advagraf, Envarsus y genéricos) y en pomada (Protopic). Los datos de autorización recibidos no incluyen el texto de las indicaciones.
+El modelo TxGNN predice que podría ser efectivo para la **dermatitis seborreica**, con **2 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención del rechazo de injerto en trasplante de órganos (indicación sistémica reconocida internacionalmente; sin registro de licencias en el mercado evaluado) |
-| Nueva Indicación Predicha | Dermatitis Seborreica |
-| Puntaje de Predicción TxGNN | 99.26% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | No consta en los datos de autorización de la AEMPS. Por los productos autorizados, corresponde a inmunosupresión en trasplante (formas orales) y dermatitis atópica (pomada Protopic). Es una inferencia, no un dato del registro |
+| Nueva Indicación Predicha | Dermatitis seborreica |
+| Puntaje de Predicción TxGNN | 99,26 % |
+| Nivel de Evidencia | L2 (un ECA de Fase 3 completado; ver nota en la conclusión) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción específico en esta ficha. Según la información conocida, tacrolimus pertenece a la clase de los inhibidores de calcineurina (inmunosupresores), su eficacia en la prevención del rechazo de trasplante de órganos ha sido ampliamente comprobada, y mecanísticamente podría ser aplicable a enfermedades inflamatorias cutáneas mediadas por linfocitos T, como la dermatitis seborreica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la farmacología conocida de la clase, tacrolimus inhibe la calcineurina. Con ello bloquea la activación de los linfocitos T y reduce la liberación de citocinas inflamatorias. Su eficacia en dermatitis atópica con pomada está bien establecida. Mecanísticamente podría aplicarse a otras dermatosis inflamatorias.
 
-En su formulación tópica, tacrolimus ya es ampliamente utilizado (incluyendo uso no autorizado en ficha técnica en varias regiones) para la dermatitis atópica, otra dermatosis inflamatoria mediada por células T. La dermatitis seborreica comparte con la dermatitis atópica un componente inflamatorio T-dependiente y una disfunción de la barrera cutánea, lo que hace mecanísticamente plausible la extrapolación entre ambas indicaciones.
+La dermatitis seborreica es una enfermedad inflamatoria crónica de la piel, con recaídas frecuentes, que afecta sobre todo a la cara y al cuero cabelludo. Se cree que interviene una respuesta inmunitaria inflamatoria frente a la levadura *Malassezia*. Un inhibidor tópico de la calcineurina puede actuar sobre ese componente inflamatorio sin la atrofia cutánea asociada al uso prolongado de corticoides tópicos. Esto lo hace atractivo como tratamiento de mantenimiento.
 
-La inhibición de calcineurina reduce la respuesta inflamatoria local mediada por linfocitos T, y existe literatura que sugiere una modulación indirecta sobre la disfunción de la barrera cutánea inflamatoria asociada a *Malassezia*, un factor etiológico relevante en la dermatitis seborreica. Esta convergencia mecanística con la dermatitis atópica —indicación ya validada para tacrolimus tópico— respalda la alta plausibilidad de la extrapolación entre indicaciones que sugiere el modelo TxGNN.
+La relación entre ambas indicaciones es que las dos son dermatosis eccematosas mediadas por inflamación. Además, la pomada de tacrolimus ya está autorizada en España (Protopic 0,1 %), por lo que la vía de administración necesaria ya existe.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Completado | 120 | Interés del ungüento de tacrolimus (Protopic®) en el tratamiento de mantenimiento de la dermatitis seborreica facial grave del adulto; busca reducir recaídas y el uso de esteroides tópicos |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Completado | 104 | Tratamiento proactivo con ungüento de tacrolimus al 0.1% (1-2 veces/semana) para mantener la remisión y reducir exacerbaciones en dermatitis seborreica facial del adulto |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Completado | 120 | Pomada de tacrolimus (Protopic) como tratamiento de mantenimiento de la dermatitis seborreica grave del rostro en adultos. Busca reducir recaídas y el uso de corticoides. No se proporcionaron resultados |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Completado | 104 | Uso proactivo de tacrolimus 0,1 % una o dos veces por semana para mantener la remisión de la dermatitis seborreica facial del adulto. No se proporcionaron resultados |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | ECA | J Am Acad Dermatol | Estudio multicéntrico, doble ciego, aleatorizado: tacrolimus 0.1% vs. ciclopiroxolamina 1% como terapia de mantenimiento en dermatitis seborreica facial grave |
-| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | ECA | J Am Acad Dermatol | Ensayo aleatorizado simple ciego: hidrocortisona 1% vs. tacrolimus 0.1% en dermatitis seborreica facial en adultos |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Ensayo clínico | Ann Parasitol | Comparación de eficacia entre sertaconazol 2% crema y tacrolimus 0.03% crema en 60 pacientes con dermatitis seborreica |
-| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Ensayo clínico | Indian J Dermatol Venereol Leprol | Itraconazol oral (2 días) + tacrolimus tópico vs. tacrolimus solo como tratamiento de mantenimiento en Vietnam |
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Cohorte | Ann Dermatol | Terapia de mantenimiento de dermatitis seborreica facial con ungüento de tacrolimus 0.1%, extrapolando el régimen de uso intermitente validado en dermatitis atópica |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Revisión sistemática | Am J Clin Dermatol | Revisión sistemática del tratamiento tópico de la dermatitis seborreica facial: antifúngicos, queratolíticos y corticosteroides como primera línea |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Revisión | Am J Clin Dermatol | Rol de los inhibidores tópicos de calcineurina en dermatitis seborreica: fisiopatología, seguridad y eficacia como alternativa a corticosteroides |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Estudio piloto abierto | J Am Acad Dermatol | Estudio piloto abierto en 18 pacientes: 61% mostró aclaramiento completo de dermatitis seborreica con tacrolimus 0.1% en 28 días |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Revisión | J Drugs Dermatol | Estado actual y horizontes terapéuticos de la dermatitis seborreica facial, incluyendo el rol emergente de los inhibidores de calcineurina |
-| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Revisión | Expert Opin Pharmacother | Revisión del ungüento de tacrolimus en dermatitis atópica y otras enfermedades cutáneas inflamatorias, con mecanismo de inhibición de calcineurina aplicable a dermatosis relacionadas |
+| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | ECA | J Am Acad Dermatol | Tacrolimus 0,1 % frente a ciclopiroxolamina 1 % como tratamiento de mantenimiento en dermatitis seborreica facial grave. Estudio multicéntrico, doble ciego |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | ECA | Ann Dermatol | Tratamiento de mantenimiento de la dermatitis seborreica facial con tacrolimus 0,1 %, siguiendo el régimen intermitente ya usado en dermatitis atópica |
+| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | ECA | J Am Acad Dermatol | Hidrocortisona 1 % frente a tacrolimus 0,1 % en dermatitis seborreica facial del adulto. Ensayo simple ciego |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Ensayo clínico | Ann Parasitol | Sertaconazol 2 % frente a tacrolimus 0,03 % en 60 pacientes con dermatitis seborreica |
+| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Ensayo comparativo | Indian J Dermatol Venereol Leprol | Itraconazol oral durante dos días más tacrolimus tópico frente a tacrolimus tópico solo, en mantenimiento (Vietnam) |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Revisión sistemática | Am J Clin Dermatol | Revisión de los tratamientos tópicos de la dermatitis seborreica facial (antifúngicos, queratolíticos y corticoides) |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Revisión | Am J Clin Dermatol | Los inhibidores tópicos de la calcineurina son una alternativa segura a los corticoides, que tienen uso limitado por sus efectos adversos a largo plazo |
+| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Estudio piloto abierto | J Am Acad Dermatol | 18 pacientes tratados con tacrolimus 0,1 % durante 28 días. El 61 % (11 pacientes) logró el aclaramiento completo |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Revisión | J Drugs Dermatol | Estado actual y perspectivas terapéuticas de la dermatitis seborreica facial |
+| [11770914](https://pubmed.ncbi.nlm.nih.gov/11770914/) | 2001 | Revisión | Semin Cutan Med Surg | Usos de tacrolimus y pimecrolimus tópicos en otras dermatosis, entre ellas la dermatitis seborreica |
+
+## Información de Mercado en España
+
+Se listan 5 de las 20 autorizaciones. Los datos recibidos no incluyen el texto de la indicación aprobada de ningún producto.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 88081 | Tacrolimus Stada 5 mg cápsulas duras de liberación prolongada EFG | Cápsula dura de liberación prolongada |
+| 02201004 | Protopic 0,1 % pomada | Pomada |
+| 114935005 | Envarsus 1 mg comprimidos de liberación prolongada | Comprimido de liberación modificada |
+| 07387014 | Advagraf 0,5 mg cápsulas duras de liberación prolongada | Cápsula dura de liberación prolongada |
+| 84631 | Conferoport 3 mg cápsulas duras de liberación prolongada EFG | Cápsula dura de liberación prolongada |
 
 ## Consideraciones de Seguridad
 
@@ -86,14 +99,18 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia de Nivel L1 —dos ensayos clínicos completados (Fase 3 y Fase 4) directamente en dermatitis seborreica facial, respaldados por un ECA multicéntrico doble ciego adicional (Joly 2021) y múltiples estudios comparativos— sustenta una plausibilidad clínica alta. Sin embargo, la ausencia de datos locales de seguridad (advertencias, contraindicaciones) y del mecanismo de acción detallado impide aún un cierre completo de la evaluación de seguridad inicial.
+Hay un ensayo de Fase 3 completado y un ensayo de Fase 4 completado, ambos sobre la dermatitis seborreica. También hay al menos tres ECA publicados con tacrolimus tópico en esta enfermedad. La pomada ya está comercializada en España, pero la evidencia disponible no incluye resultados publicados de los ensayos registrados ni datos de seguridad de la AEMPS.
+
+**Nota sobre el nivel de evidencia:** El paquete de evidencia asigna L1. Con la regla estricta (≥2 ECA de Fase 3 completados) solo se cumple L2, porque solo hay un ensayo de Fase 3 sobre esta indicación. L1 solo se sostendría si se contaran los ECA publicados cuya fase no consta.
 
 **Para avanzar se necesita:**
-- Advertencias y contraindicaciones del prospecto TFDA/AEMPS (brecha bloqueante, DG001) — necesario para completar la evaluación de seguridad S1
-- Datos detallados del mecanismo de acción vía DrugBank (DG002)
-- Evaluación de interacciones farmacológicas (DDI), actualmente sin resultados ("not_found")
-- Ruta de registro/autorización en el mercado evaluado, dado que actualmente no hay licencias activas (0 autorizaciones)
-- Nota: el modelo también identificó candidatos adicionales de menor madurez de evidencia (parapsoriasis, L4/Hold; dermatitis atópica-relacionada, aún sin puntuar) que podrían explorarse en fases posteriores
+- Descargar y revisar el prospecto de la AEMPS para obtener advertencias y contraindicaciones, que hoy están ausentes y bloquean el cribado de seguridad.
+- Obtener el texto de las indicaciones aprobadas de cada autorización, incluido Protopic, para confirmar si la dermatitis seborreica sería un uso fuera de indicación.
+- Conseguir los resultados de NCT02004860 y NCT01591070 (eficacia, tasa de recaídas y tolerabilidad).
+- Confirmar los datos del mecanismo de acción en DrugBank.
+- Definir un plan de seguimiento de seguridad para el uso tópico prolongado, es decir, mantenimiento intermitente en la cara.
+
+*Los resultados de este informe son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

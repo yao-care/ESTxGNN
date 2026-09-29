@@ -2,7 +2,7 @@
 layout: default
 title: Flurazepam
 parent: Evidencia moderada (L3-L4)
-nav_order: 121
+nav_order: 238
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,71 +29,75 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Flurazepam: De Insomnio (uso historico no confirmado en el Evidence Pack) a Trastorno del Sueño (Dificultad para Iniciar y Mantener el Sueño)
+# Flurazepam: De Indicación Original No Registrada a Trastorno del Sueño (Inicio y Mantenimiento)
 
 ## Resumen en Una Frase
 
-Flurazepam es una benzodiazepina cuyo mecanismo de accion y datos de indicacion original no estan disponibles en este Evidence Pack. El modelo TxGNN predice que podria ser efectivo para **Trastorno del Sueño (Inicio y Mantenimiento)**, con **0 ensayos clinicos estructurados** pero **20 publicaciones** que actualmente respaldan esta direccion — cabe destacar que la literatura recuperada describe a flurazepam como un hipnotico ya utilizado historicamente para el insomnio, por lo que esta prediccion podria reflejar un uso ya establecido mas que un reposicionamiento novedoso.
+El registro de AEMPS no incluye el texto de la indicación original de flurazepam. La literatura lo describe como una benzodiazepina hipnótica establecida.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno del sueño (inicio y mantenimiento del sueño)**, es decir, el insomnio.
+Hay **0 ensayos clínicos registrados** y **20 publicaciones**, en su mayoría revisiones y estudios clínicos antiguos, que respaldan esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en el Evidence Pack (sin licencias registradas; ver nota abajo) |
-| Nueva Indicacion Predicha | Trastorno del sueño, inicio y mantenimiento (insomnio) |
-| Puntaje de Prediccion TxGNN | 99.42% |
+| Indicación Original | No disponible en el registro (el texto de indicación de AEMPS está vacío) |
+| Nueva Indicación Predicha | Trastorno del sueño (inicio y mantenimiento del sueño) |
+| Puntaje de Predicción TxGNN | 99.42% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Proceed with Guardrails |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion de flurazepam en este Evidence Pack (dato marcado como bloqueante/alto en la evaluacion de gaps). Sin embargo, la literatura recuperada permite contextualizar la prediccion: flurazepam es descrita repetidamente como una de las primeras benzodiazepinas hipnoticas, actuando sobre el receptor GABA-A (ver PMID 37730991, estructura cryo-EM de receptores GABAA), y multiples publicaciones (PMID 1319429, PMID 3332464, PMID 641469) documentan su uso clinico establecido desde la decada de 1970 para el tratamiento del insomnio, incluyendo eficacia tanto en induccion como en mantenimiento del sueño.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, flurazepam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A. Potencia la neurotransmisión inhibitoria GABAérgica y produce efectos sedantes e hipnóticos.
 
-Esto significa que la indicacion predicha por TxGNN (trastorno del sueño, inicio y mantenimiento) coincide en gran medida con el uso farmacologico ya conocido de esta molecula como hipnotico benzodiacepinico, y no con una indicacion terapeutica novedosa en otra area clinica. Por tanto, el valor de este candidato como "reposicionamiento" es limitado: la señal del modelo parece confirmar conocimiento farmacologico preexistente mas que descubrir una aplicacion nueva.
+Este mecanismo coincide con la indicación predicha. Las revisiones identificadas describen a flurazepam como el primer hipnótico benzodiazepínico, disponible desde 1970. Una de ellas indica que es eficaz tanto para la inducción como para el mantenimiento del sueño (PMID 3332464). El estudio estructural por crio-EM de ensambles nativos de receptores GABA-A (PMID 37730991) respalda el mecanismo a nivel de receptor.
 
-Dado que faltan los datos estructurados de indicacion original (`original_indications` vacio) y de MOA, no es posible verificar formalmente esta hipotesis dentro del propio Evidence Pack; se recomienda complementar con datos de DrugBank/ficha tecnica antes de sacar conclusiones definitivas.
+La ausencia de indicación original en el registro probablemente refleja una carencia de la base de datos y no una falta de uso. El puntaje TxGNN muy alto (0.994) es coherente con esta interpretación.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados (ni en ClinicalTrials.gov ni en ICTRP para esta combinacion farmaco-indicacion).
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38401406](https://pubmed.ncbi.nlm.nih.gov/38401406/) | 2024 | Revision sistematica / meta-analisis en red de ECAs | Eur Neuropsychopharmacol | Meta-analisis en red de ECAs sobre efectos residuales de hipnoticos (incl. flurazepam) en el rendimiento de conduccion |
-| [2671059](https://pubmed.ncbi.nlm.nih.gov/2671059/) | 1989 | Estudio comparativo controlado | J Clin Psychopharmacol | Comparacion de brotizolam 0.25mg vs flurazepam 15mg vs placebo en 36 ancianos con insomnio cronico durante 2 semanas |
-| [7792498](https://pubmed.ncbi.nlm.nih.gov/7792498/) | 1995 | Estudio clinico comparativo | Sleep | Flurazepam 30mg y zolpidem 10mg alteran la percepcion de sueño en insomnes vs placebo, en 10 pacientes |
-| [7792497](https://pubmed.ncbi.nlm.nih.gov/7792497/) | 1995 | Estudio clinico comparativo | Sleep | Mismo diseño en 15 dormidores normales (no insomnes) |
-| [6120270](https://pubmed.ncbi.nlm.nih.gov/6120270/) | 1981 | Estudio de laboratorio del sueño / clinico | Methods Find Exp Clin Pharmacol | Estudios polisomnograficos de triazolam, flunitrazepam y flurazepam en pacientes insomnes |
-| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Revision critica | J Clin Psychopharmacol | Revision de insomnio de rebote tras suspension de triazolam, temazepam y flurazepam |
-| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Revision | J Clin Psychiatry | Historia y farmacologia de las benzodiazepinas hipnoticas; flurazepam como primera de su clase (1970) |
-| [3332464](https://pubmed.ncbi.nlm.nih.gov/3332464/) | 1987 | Revision | Semin Neurol | Neurofarmacologia clinica de trastornos del sueño; flurazepam eficaz en induccion y mantenimiento del sueño |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Revision | Clin Ther | Seguridad y eficacia de medicamentos para el sueño en adultos mayores |
-| [37730991](https://pubmed.ncbi.nlm.nih.gov/37730991/) | 2023 | Estudio mecanistico (cryo-EM) | Nature | Estructuras cryo-EM de ensamblajes nativos del receptor GABAA, diana de hipnoticos como las benzodiazepinas |
+| [38401406](https://pubmed.ncbi.nlm.nih.gov/38401406/) | 2024 | Revisión sistemática y metaanálisis en red de ECA | Eur Neuropsychopharmacol | Evalúa los efectos residuales de los hipnóticos sobre la conducción (desviación estándar de la posición lateral y tasas de deterioro al día siguiente) |
+| [2671059](https://pubmed.ncbi.nlm.nih.gov/2671059/) | 1989 | Estudio comparativo con placebo | J Clin Psychopharmacol | Brotizolam 0.25 mg vs flurazepam 15 mg vs placebo durante 2 semanas en 36 ancianos con insomnio crónico; evalúa sueño y desempeño |
+| [7792498](https://pubmed.ncbi.nlm.nih.gov/7792498/) | 1995 | Estudio clínico | Sleep | Flurazepam 30 mg y zolpidem 10 mg vs placebo en 10 insomnes; efecto sobre la percepción de estar dormido o despierto |
+| [7792497](https://pubmed.ncbi.nlm.nih.gov/7792497/) | 1995 | Estudio clínico | Sleep | Mismo diseño de comparación en 15 voluntarios con sueño normal |
+| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Revisión | Clin Ther | Seguridad y eficacia de los medicamentos para el insomnio en adultos mayores |
+| [3332464](https://pubmed.ncbi.nlm.nih.gov/3332464/) | 1987 | Revisión | Semin Neurol | Flurazepam es eficaz para la inducción y el mantenimiento del sueño y conserva gran parte de su eficacia tras 4 semanas de uso nocturno |
+| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Revisión | J Clin Psychiatry | Farmacología de los hipnóticos benzodiazepínicos; flurazepam fue el primero, disponible desde 1970 |
+| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Revisión crítica | J Clin Psychopharmacol | Revisa estudios de laboratorio del sueño sobre insomnio de rebote tras triazolam, temazepam y flurazepam |
+| [6120270](https://pubmed.ncbi.nlm.nih.gov/6120270/) | 1981 | Estudio de laboratorio del sueño y clínico | Methods Find Exp Clin Pharmacol | Registros polisomnográficos con triazolam, flunitrazepam y flurazepam en pacientes con insomnio |
+| [37730991](https://pubmed.ncbi.nlm.nih.gov/37730991/) | 2023 | Estudio estructural/mecanístico | Nature | Estructuras crio-EM de receptores GABA-A nativos, diana de sedantes e hipnóticos |
 
-## España — Estado de Mercado
+## Información de Mercado en España
 
-Segun este Evidence Pack, flurazepam **no esta comercializado** en España (0 autorizaciones registradas). No hay informacion de nombre comercial, forma farmaceutica ni indicacion aprobada disponible para listar.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 50234 | DORMODOR 30 mg CÁPSULAS DURAS (Viatris Healthcare Limited) | Cápsula dura | No consignada en el registro |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. No hay datos de advertencias, contraindicaciones ni interacciones farmacologicas disponibles en este Evidence Pack (la busqueda de interacciones no arrojo resultados).
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Proceed with Guardrails**
 
-**Justificacion:**
-Existe un data gap bloqueante sobre advertencias/contraindicaciones (equivalente a ficha tecnica) que impide realizar la evaluacion de seguridad inicial (S1). Ademas, el farmaco no esta comercializado en España y la indicacion predicha coincide en gran medida con el uso historico ya conocido de flurazepam como hipnotico, lo que reduce su valor como candidato de reposicionamiento novedoso.
+**Justificación:**
+El mecanismo GABAérgico es coherente con la indicación de insomnio y el puntaje TxGNN es muy alto. Sin embargo, la evidencia disponible es de nivel L3, formada por revisiones y estudios clínicos antiguos, sin ensayos clínicos registrados. No se dispone de la información de seguridad de AEMPS.
 
 **Para avanzar se necesita:**
-- Obtener la ficha tecnica/prospecto (AEMPS o equivalente) con advertencias y contraindicaciones — bloqueante para pasar a S1
-- Confirmar el mecanismo de accion (MOA) mediante DrugBank u otra fuente farmacologica
-- Verificar la indicacion original real de flurazepam (actualmente vacia en el registro) para determinar si la prediccion constituye un reposicionamiento genuino o una confirmacion de uso ya establecido
-- Confirmar el estado real de comercializacion en España, dado que el registro actual muestra 0 licencias
+- Obtener y analizar la ficha técnica de AEMPS de DORMODOR (advertencias, contraindicaciones e indicación autorizada), un requisito bloqueante antes del cribado de seguridad
+- Confirmar la indicación original y el mecanismo de acción en DrugBank
+- Verificar en la ficha técnica la coincidencia entre la indicación autorizada en España y la indicación predicha
+- Definir un plan de seguridad para poblaciones vulnerables, como adultos mayores, considerando los efectos residuales sobre la conducción y el insomnio de rebote descritos en la literatura
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

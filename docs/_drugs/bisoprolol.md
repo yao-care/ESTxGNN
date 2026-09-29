@@ -2,7 +2,7 @@
 layout: default
 title: Bisoprolol
 parent: Solo predicción del modelo (L5)
-nav_order: 43
+nav_order: 78
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,72 +29,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Bisoprolol: De Indicación Original No Disponible a Nefropatía Hipertensiva Maligna
+# Bisoprolol: De Indicación Original No Registrada a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-No se dispone de datos verificados sobre la indicación original ni el mecanismo de acción de bisoprolol en este Evidence Pack (pendiente de verificación en TFDA/DrugBank).
-El modelo TxGNN predice que podría ser efectivo para **Nefropatía Hipertensiva Maligna** (malignant hypertensive renal disease), con un puntaje de **99.94%**,
-pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde específicamente esta dirección — se trata de una predicción de modelo aislada (L5).
-
----
+Bisoprolol es un betabloqueante con 20 autorizaciones en España, pero los datos recibidos no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna**, con una puntuación muy alta (99,94 %).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que la predicción no tiene respaldo independiente.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (pendiente de verificación en TFDA — ver brecha de datos DG001) |
-| Nueva Indicación Predicha | Nefropatía Hipertensiva Maligna |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
+| Puntaje de Predicción TxGNN | 99,94 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, bisoprolol es un betabloqueante selectivo beta-1, por lo que reducir la presión arterial es plausible en principio. Sin embargo, esto es una inferencia por clase farmacológica y no proviene de los datos aportados.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción confirmado de bisoprolol en esta base de datos. Según la información recogida en el propio análisis de reposicionamiento, bisoprolol es conocido como un antagonista beta-1 altamente selectivo, cuyo efecto farmacológico reduce el gasto cardíaco y la liberación de renina — un mecanismo típico de la clase de los betabloqueantes.
+La hipertensión maligna es una emergencia hipertensiva que se maneja con fármacos por vía parenteral. Nada en los datos respalda que un betabloqueante oral sea adecuado en este escenario. La única base de la predicción es la puntuación de TxGNN.
 
-Bajo esta lógica de clase farmacológica, un efecto antihipertensivo podría, en teoría, ser relevante en un cuadro de hipertensión maligna con afectación renal. Sin embargo, esta relación es una inferencia genérica de clase terapéutica (betabloqueante → control de presión arterial), no una evidencia específica de bisoprolol frente a este fenotipo renal grave.
+Otras predicciones del modelo siguen el mismo patrón, todas en nivel L5 y sin ensayos clínicos:
 
-No existe respaldo clínico ni preclínico registrado para esta indicación concreta: el puntaje de TxGNN es alto, pero no está acompañado de ningún ensayo clínico ni publicación científica (evidencia nivel L5). Por tanto, la plausibilidad mecanística es especulativa y debe tratarse como hipótesis a validar, no como una señal respaldada por datos reales.
-
----
+- **Hipertensión renovascular maligna** (99,94 %): el bloqueo beta-1 reduce la liberación de renina, lo que es biológicamente plausible, pero solo por inferencia de clase.
+- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (99,93 %): sin vínculo mecanístico específico. Los betabloqueantes podrían plantear un problema de seguridad en pacientes con enfermedad pulmonar e hipoxia.
+- **Hipertensión pulmonar de mecanismo multifactorial poco claro** (99,93 %): sin datos que permitan construir una hipótesis.
+- **Síndrome de Braddock** (99,91 %): sin ningún vínculo identificable.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la enfermedad renal hipertensiva maligna.
 
----
+Para la predicción de hipertensión pulmonar por hipoxia se recuperaron 20 artículos (se mostraron 10). Son revisiones y trabajos generales de biología de la hipoxia, y ninguno parece estudiar bisoprolol ni betabloqueantes en hipertensión pulmonar. No se consideran evidencia de apoyo.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 57543 | EURADAL 10 mg comprimidos recubiertos con película | Comprimido recubierto |
+| 73633 | BISOPROLOL COR VIATRIS 5 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 85878 | BISOPROLOL ZENTIVA 7,5 MG comprimidos EFG | Comprimido |
+| 90545 | BISOPROLOL STADAFARMA 1,25 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 82243 | BISOPROLOL STADA 10 MG comprimidos EFG | Comprimido |
+
+Se muestran 5 de las 20 autorizaciones. Los textos de indicación aprobada no figuran en los datos recibidos.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-*(Nota: la brecha de datos DG001 —clasificada como bloqueante— indica que el prospecto/ficha técnica de TFDA aún no ha sido localizado ni analizado, por lo que la evaluación de seguridad S1 no puede iniciarse todavía.)*
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje TxGNN es elevado, pero la indicación carece por completo de ensayos clínicos y literatura de respaldo (nivel de evidencia L5), y el mecanismo propuesto es una inferencia genérica de clase (betabloqueante), no evidencia específica. Además, faltan datos básicos y bloqueantes del propio fármaco (MOA confirmado, indicación original, ficha técnica de seguridad), lo que impide avanzar incluso a la evaluación de seguridad inicial. Las otras cuatro indicaciones candidatas identificadas por el modelo (hipertensión renovascular maligna, hipertensión pulmonar por enfermedad pulmonar/hipoxia, hipertensión pulmonar multifactorial, síndrome de Braddock) presentan evidencia igual o más débil, ninguna alcanza nivel L1-L3.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura específica. Además, la enfermedad predicha es una emergencia que se trata por vía parenteral y no hay datos que respalden un betabloqueante oral.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto de TFDA con advertencias y contraindicaciones (DG001 — bloqueante)
-- Confirmación del mecanismo de acción (MOA) vía DrugBank (DG002)
-- Confirmación de indicación(es) original(es) aprobada(s) y estado de comercialización real
-- Estudios preclínicos o clínicos dirigidos específicamente a nefropatía hipertensiva maligna, ya que la evidencia actual es puramente predictiva
+- Obtener el prospecto de la AEMPS con advertencias y contraindicaciones, un dato bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Recuperar la indicación aprobada de las autorizaciones españolas para definir la indicación original.
+- Buscar literatura o ensayos específicos de bisoprolol o betabloqueantes en hipertensión maligna y renovascular.
+- Evaluar la compatibilidad de vía de administración, hoy pendiente, dado que la hipertensión maligna requiere terapia parenteral.
+- Revisar la seguridad de los betabloqueantes en pacientes con enfermedad pulmonar e hipoxia antes de considerar las predicciones de hipertensión pulmonar.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

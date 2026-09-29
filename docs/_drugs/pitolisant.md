@@ -2,7 +2,7 @@
 layout: default
 title: Pitolisant
 parent: Evidencia moderada (L3-L4)
-nav_order: 225
+nav_order: 429
 evidence_level: L4
 indication_count: 3
 ---
@@ -33,74 +33,94 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Pitolisant es un agonista inverso selectivo del receptor de histamina H3, aprobado en la Unión Europea y EE. UU. para narcolepsia (con o sin cataplejía) y para la somnolencia diurna excesiva asociada a apnea obstructiva del sueño (OSA). El modelo TxGNN predice que podría ser efectivo para **Insomnio**, pero esta dirección solo cuenta actualmente con **1 ensayo clínico retirado (0 participantes reclutados)** y **8 publicaciones**, ninguna de las cuales estudia pitolisant específicamente en insomnio. Al tratarse de un fármaco promotor de la vigilia, esta predicción presenta una contradicción mecanística relevante que debe señalarse explícitamente.
+Pitolisant es un antagonista/agonista inverso del receptor H3 de histamina, comercializado en Europa para la narcolepsia con o sin cataplejía (según la literatura del paquete de evidencia).
+El modelo TxGNN predice que podría ser efectivo para **Insomnio**, pero la evidencia directa es nula: **1 ensayo clínico** (retirado, sobre otra indicación) y **8 publicaciones** indirectas.
+El mecanismo del fármaco va en sentido opuesto a lo que requiere el tratamiento del insomnio, por lo que la predicción es poco creíble.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Narcolepsia (con o sin cataplejía) — según literatura incluida en este informe; no confirmada por ficha técnica local, ya que el fármaco no está comercializado |
+| Indicación Original | No disponible en los datos de AEMPS (los textos de indicación están vacíos). La literatura la describe como narcolepsia con o sin cataplejía |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Puntaje de Predicción TxGNN | 99,71% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de acción de pitolisant en la fuente DrugBank consultada. Según la literatura incluida en este informe, pitolisant es un agonista inverso selectivo del receptor de histamina H3 (H3R) que bloquea los autorreceptores H3 presinápticos, aumentando la liberación de histamina y de otros neurotransmisores promotores de la vigilia (noradrenalina, acetilcolina) en el cerebro. Este mecanismo lo convierte en un fármaco **promotor de la vigilia**, motivo por el cual está aprobado para narcolepsia con o sin cataplejía y se ha estudiado ampliamente para la somnolencia diurna excesiva (EDS) asociada a OSA.
+## ¿Por qué es Razonable esta Predicción?
 
-La indicación predicha por TxGNN, insomnio, es fisiopatológicamente opuesta a la indicación original: el insomnio se caracteriza por dificultad para conciliar o mantener el sueño, mientras que pitolisant actúa incrementando la vigilia y el estado de alerta. No existe, por tanto, una relación mecanística de refuerzo entre ambas indicaciones, sino una contradicción direccional. El único ensayo localizado (NCT02800083) no estudiaba insomnio como variable primaria, sino el trastorno por consumo de alcohol, y fue retirado antes de reclutar ningún participante (enrollment = 0), por lo que no aporta evidencia real.
+Actualmente no se dispone del campo de mecanismo de acción en la ficha del fármaco. La literatura incluida lo describe como un agonista inverso selectivo del receptor H3 de histamina. Al bloquear este autorreceptor, aumenta la señalización histaminérgica que promueve la vigilia. Por eso se usa en la somnolencia diurna excesiva de la narcolepsia, y se ha estudiado en la somnolencia residual de la apnea obstructiva del sueño (AOS).
 
-En conjunto, la ausencia de un fundamento mecanístico coherente, sumada a la falta de literatura que estudie pitolisant específicamente en insomnio, sugiere que esta predicción de TxGNN es probablemente un **falso positivo**, posiblemente originado por una confusión del modelo entre distintas categorías de trastornos del sueño en el espacio de embeddings de enfermedades.
+**Esta predicción es débil desde el punto de vista mecanístico.** Un fármaco que promueve la vigilia es lo contrario de lo que necesita el insomnio. Además, el insomnio figura como reacción adversa descrita de pitolisant. El puntaje alto (0,997) probablemente refleja la cercanía en el grafo de conocimiento con los trastornos de sueño-vigilia (narcolepsia, somnolencia diurna), y no una dirección terapéutica real.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Fase 2 | Retirado | 0 | Diseñado para evaluar pitolisant en trastorno por consumo de alcohol (no insomnio); retirado antes de reclutar pacientes, sin datos generados |
+| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Fase 2 | Retirado | 0 | Ensayo multicéntrico, doble ciego y controlado con placebo de pitolisant en trastorno por consumo de alcohol. El insomnio no es su objetivo principal; el sueño aparece solo como parte de la salud mental en los objetivos secundarios. Sin participantes, no aporta datos |
+
+---
 
 ## Evidencia de Literatura
 
+Ninguna publicación evalúa pitolisant en insomnio. Los ECA son de narcolepsia y AOS (indirectos).
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | ECA | Lancet Neurol | Seguridad y eficacia de pitolisant en niños ≥6 años con narcolepsia con/sin cataplejía (fase 3) |
-| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | ECA | Chest | Pitolisant redujo la somnolencia diurna residual en pacientes con OSA adherentes a CPAP |
-| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | ECA | Am J Respir Crit Care Med | Pitolisant mejoró la somnolencia diurna en OSA moderada-grave que rechazaba CPAP |
-| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Cohorte (mundo real) | Rev Neurol | Estudio WAKE: efectividad y seguridad de pitolisant en narcolepsia tipo 1 refractaria |
-| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Revisión | Handb Clin Neurol | Panorama de receptores de histamina (H1-H4) en salud y enfermedad, incluido el sistema H3 en el SNC |
-| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Revisión | Drug Des Devel Ther | Perfil de pitolisant en el manejo de narcolepsia: diseño, desarrollo y lugar en la terapia |
-| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Revisión | Curr Neuropharmacol | Cambios del sistema histaminérgico en trastornos neuropsiquiátricos y posibles consecuencias terapéuticas |
-| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Revisión | Clin Neuropharmacol | Pitolisant como estimulante alternativo en adolescentes con narcolepsia-cataplejía refractaria |
+| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | ECA (Fase 3) | The Lancet Neurology | Seguridad y eficacia de pitolisant en niños de 6 años o más con narcolepsia, con o sin cataplejía (indirecto) |
+| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | ECA | Chest | Somnolencia diurna residual en pacientes con AOS adherentes a CPAP (indirecto) |
+| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | ECA | Am J Respir Crit Care Med | Somnolencia diurna en pacientes con AOS moderada-grave que rechazan CPAP (indirecto) |
+| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Cohorte | Revista de Neurología | Estudio de vida real (WAKE) en narcolepsia tipo 1 no respondedora a tratamientos previos |
+| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Revisión | Current Neuropharmacology | Cambios del sistema histaminérgico en trastornos neuropsiquiátricos; menciona pitolisant (somnolencia en narcolepsia) y doxepina (insomnio) |
+| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Revisión | Drug Des Devel Ther | Perfil de pitolisant en el manejo de la narcolepsia |
+| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Revisión | Handbook of Clinical Neurology | Receptores, agonistas y antagonistas de histamina en salud y enfermedad |
+| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Revisión | Clinical Neuropharmacology | Pitolisant como estimulante alternativo en adolescentes con narcolepsia-cataplejía y somnolencia refractaria |
 
-> Ninguna de las publicaciones anteriores estudia pitolisant en insomnio; todas se centran en narcolepsia u OSA/EDS.
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 1151068001 | WAKIX 4,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | Bioprojet Pharma |
+| 1151068002 | WAKIX 18 mg comprimidos recubiertos con película | Comprimido recubierto con película | Bioprojet Pharma |
+| 1211546001 | OZAWADE 4,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | Bioprojet Pharma |
+| 1211546002 | OZAWADE 18 mg comprimidos recubiertos con película | Comprimido recubierto con película | Bioprojet Pharma |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Reacciones adversas relevantes**: el insomnio es una reacción adversa descrita de pitolisant, lo que contradice su uso como tratamiento del insomnio.
+- No se encontraron interacciones farmacológicas registradas en la base consultada.
 
-## Otras Indicaciones Predichas por TxGNN (Resumen)
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
 
-Este Evidence Pack es multi-indicación. Se registran aquí las otras dos direcciones predichas para pitolisant, con menor prioridad que insomnio, para trazabilidad completa:
-
-| Rank | Indicación | Score TxGNN | Nivel de Evidencia | Etapa | Recomendación | Resumen |
-|---|---|---|---|---|---|---|
-| 2 | TDAH (Trastorno por Déficit de Atención e Hiperactividad) | 99.36% | L4 | S1 | Research Question | El agonismo inverso H3 aumenta histamina/noradrenalina/acetilcolina prefrontal, con relación mecanística indirecta plausible con la fisiopatología del TDAH; sin embargo, no hay ningún ensayo clínico de pitolisant específico para TDAH — solo evidencia de clase (7 publicaciones de revisión/farmacología). |
-| 3 | Síndrome faciodigitogenital (Aarskog-Scott) | 99.29% | L5 | S0 | Hold | Sin ensayos clínicos ni literatura disponible. Trastorno genético ligado al X (mutación FGD1) sin relación fisiopatológica conocida con el sistema H3. Interpretado como ruido del modelo. |
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- La predicción de TxGNN para insomnio presenta una contradicción mecanística direccional (fármaco promotor de la vigilia frente a una indicación que requiere sedación/inducción del sueño), y la única evidencia clínica disponible (NCT02800083) fue retirada sin reclutar pacientes, por lo que no hay respaldo clínico ni mecanístico suficiente para avanzar.
+No existe ningún estudio sobre insomnio, y el único ensayo registrado se retiró sin participantes y era de otra indicación. El mecanismo pro-vigilia va en contra de la indicación, y el insomnio es una reacción adversa conocida. El puntaje TxGNN alto parece un artefacto de proximidad en el grafo.
 
 **Para avanzar se necesita:**
-- Resolver la brecha de datos bloqueante sobre advertencias/contraindicaciones del prospecto (TFDA/AEMPS) antes de cualquier evaluación de seguridad S1
-- Obtener datos estructurados del mecanismo de acción desde DrugBank para confirmar o descartar la contradicción direccional descrita
-- Confirmar con el equipo de modelado si esta asociación corresponde a un falso positivo por confusión de categorías de trastornos del sueño en el embedding
-- Si se desea explorar el espacio de indicaciones relacionadas con el sueño, priorizar hipótesis con coherencia mecanística (p. ej., hipersomnia o EDS residual) en lugar de insomnio
+- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), un vacío que bloquea el cribado de seguridad.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Evidencia directa en insomnio (preclínica o clínica) que justifique el sentido terapéutico. Sin ella, no hay base para avanzar.
+
+**Otras predicciones del modelo (para referencia):**
+- **TDAH** (99,36%, L4): hay una hipótesis biológica plausible (el bloqueo de H3 libera dopamina, noradrenalina y acetilcolina en la corteza prefrontal), pero solo con revisiones y datos preclínicos. Se clasifica como pregunta de investigación.
+- **Síndrome faciodigitogenital** (99,29%, L5): sin vínculo mecanístico ni evidencia. Probable artefacto del grafo; se mantiene en Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

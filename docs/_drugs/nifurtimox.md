@@ -2,7 +2,7 @@
 layout: default
 title: Nifurtimox
 parent: Solo predicción del modelo (L5)
-nav_order: 195
+nav_order: 379
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,64 +29,82 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Nifurtimox: De Enfermedad de Chagas a Analbuminemia Congenita
+# Nifurtimox: De Uso Antiprotozoario a Analbuminemia Congénita
 
 ## Resumen en Una Frase
 
-Nifurtimox es un derivado nitrofurano antiparasitario, historicamente utilizado para el tratamiento de la enfermedad de Chagas (tripanosomiasis americana); no consta un registro de comercializacion en España en los datos disponibles.
-El modelo TxGNN predice que podria ser efectivo para **Analbuminemia Congenita**, con un puntaje de 99.58%,
-pero **no existe actualmente ningun ensayo clinico ni publicacion** que respalde esta direccion, y la propia racionalizacion del modelo señala que se trata probablemente de una asociacion espuria.
+Nifurtimox está comercializado en España como Lampit (comprimidos de 30 mg y 120 mg, Bayer Hispania). El Evidence Pack no incluye su indicación aprobada. Según conocimiento general, es un antiprotozoario nitrofurano.
+El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es únicamente una predicción computacional.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Enfermedad de Chagas (tripanosomiasis americana) — no consta en los registros estructurados de Taiwan/España, ya que el farmaco no esta comercializado; dato basado en conocimiento farmacologico general |
-| Nueva Indicacion Predicha | Analbuminemia Congenita |
-| Puntaje de Prediccion TxGNN | 99.58% |
+| Indicación Original | No consta en los datos (el texto de indicación de ambas autorizaciones está vacío) |
+| Nueva Indicación Predicha | Analbuminemia congénita |
+| Puntaje de Predicción TxGNN | 99.58% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en las fuentes estructuradas consultadas. Segun la informacion farmacologica general conocida, Nifurtimox es un derivado nitrofurano cuya actividad tripanocida depende de la reduccion de su grupo nitro, generando especies reactivas de oxigeno (ROS) que dañan el ADN y las membranas del parasito *Trypanosoma cruzi*; este mismo mecanismo oxidativo es el que se ha explorado experimentalmente en modelos de citotoxicidad celular.
+## ¿Por qué es Razonable esta Predicción?
 
-Sin embargo, la indicacion predicha en este informe (analbuminemia congenita) es una enfermedad hereditaria autosomica recesiva causada por defectos en el gen *ALB*, sin relacion fisiopatologica conocida con la accion antiparasitaria/oxidativa de Nifurtimox.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Por conocimiento general (no incluido en los datos), nifurtimox es un antiparasitario nitrofurano que genera radicales nitro y estrés oxidativo en los tripanosomas.
 
-Segun la propia racionalizacion del modelo TxGNN incluida en el Evidence Pack, esta prediccion carece de vinculo mecanistico verificable y es representativa de un patron conocido: puntajes altos del modelo para enfermedades raras/geneticas que suelen corresponder a falsos positivos por ruido en el grafo de relaciones, mas que a una hipotesis biologica solida. No se recomienda avanzar en la investigacion de esta indicacion especifica sin evidencia mecanistica adicional.
+La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina (gen *ALB*). Un antiparasitario no ofrece un mecanismo plausible para corregirlo, y no se ha identificado ningún vínculo mecanístico entre ambos. El puntaje de 99.58% proviene solo de la topología del grafo de conocimiento y **no debe interpretarse como evidencia clínica**. Por eso la predicción se considera poco razonable desde el punto de vista biológico, aunque el puntaje sea alto.
 
-## Evidencia de Ensayos Clinicos
+Las otras seis predicciones del modelo (síndrome de hiperviscosidad policlonal, hiperamilasemia, incompatibilidad de grupo sanguíneo, gammapatía monoclonal, enfermedad hematológica premaligna y enfermedad hematológica asociada a neuropatía periférica adquirida) tienen puntajes de 99.0% a 99.5%. Tampoco cuentan con evidencia ni vínculo mecanístico. En la última, la neuropatía periférica es además un efecto adverso conocido de nifurtimox (conocimiento general), lo que sugiere riesgo más que beneficio.
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Informacion de Mercado en España
+---
 
-Nifurtimox no esta comercializado en España (0 autorizaciones registradas), por lo que no hay datos de productos, formas farmaceuticas ni indicaciones aprobadas localmente que reportar.
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 89506 | LAMPIT 120 MG COMPRIMIDOS | Comprimido | No especificada en los datos |
+| 89507 | LAMPIT 30 MG COMPRIMIDOS | Comprimido | No especificada en los datos |
+
+Titular de ambas autorizaciones: Bayer Hispania S.L.
+
+---
 
 ## Consideraciones de Seguridad
 
-Los campos estructurados de seguridad (advertencias, contraindicaciones e interacciones) no contienen datos disponibles en este Evidence Pack.
+Consultar el prospecto para información de seguridad.
 
-- **Señal relevante detectada en el analisis de otra indicacion candidata (#7, "hematological disease associated with an acquired peripheral neuropathy")**: segun el prospecto referenciado por TFDA, Nifurtimox se asocia con neuropatia periferica como reaccion adversa grave, con una incidencia reportada de aproximadamente 18.5%. Este dato no forma parte de los campos estructurados de seguridad del informe, pero se documenta aqui por su relevancia clinica directa.
+---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-Las siete indicaciones predichas por TxGNN se encuentran en Nivel de Evidencia L5 (solo puntaje del modelo, sin ensayos clinicos ni literatura de respaldo), y varias de las racionalizaciones incluidas en el propio Evidence Pack señalan explicitamente que corresponden a asociaciones probablemente espurias (enfermedades geneticas raras sin vinculo mecanistico, o confusion entre relacion terapeutica y relacion de efecto adverso conocido). Ademas, el farmaco no esta comercializado en España y faltan datos criticos de seguridad y mecanismo de accion (ver brechas de datos DG001 y DG002).
+**Justificación:**
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible entre un antiparasitario y un trastorno genético de síntesis de albúmina. Tampoco se dispone de información de seguridad para evaluar el balance beneficio-riesgo.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto TFDA/EMA completo (advertencias, contraindicaciones e interacciones) — actualmente bloqueante (DG001)
-- Obtener datos estructurados del mecanismo de accion (DG002)
-- Si se desea priorizar alguna via de investigacion, la indicacion #6 ("premalignant hematological system disease") presenta al menos una hipotesis mecanistica preliminar (citotoxicidad mediada por ROS observada in vitro en neuroblastoma, NCT00601003) que podria justificar una busqueda de evidencia mas dirigida, aunque tambien en nivel L5
-- Descartar formalmente la indicacion #7 como candidata de reposicionamiento, dado que su racional corresponde a un efecto adverso conocido y no a una hipotesis terapeutica
+- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada de Lampit).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una búsqueda sistemática de literatura y de registros de ensayos para confirmar la ausencia de evidencia.
+- Solo si aparece un vínculo mecanístico plausible, plantear estudios preclínicos antes de cualquier evaluación clínica.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Clonazepam
 parent: Evidencia moderada (L3-L4)
-nav_order: 75
+nav_order: 138
 evidence_level: L3
 indication_count: 3
 ---
@@ -29,69 +29,99 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Clonazepam: De Epilepsia y Trastorno de Pánico a Síndrome de Piernas Inquietas
+# Clonazepam: De Indicación Original No Registrada a Síndrome de Piernas Inquietas
 
 ## Resumen en Una Frase
 
-Clonazepam es una benzodiazepina clásicamente utilizada en el tratamiento de trastornos convulsivos y el trastorno de pánico.
-El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Piernas Inquietas (RLS)**,
-con **0 ensayos clínicos registrados específicamente para esta combinación** y **20 publicaciones** que actualmente respaldan esta dirección, principalmente de uso fuera de indicación (off-label) ya establecido en la práctica clínica.
+Clonazepam es una benzodiazepina comercializada en España (por ejemplo, como Rivotril), pero los datos de AEMPS recibidos no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas inquietas**,
+con **0 ensayos clínicos registrados** y **20 publicaciones** (guías, revisiones y dos ensayos pequeños) que respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack (sin licencias ni texto de indicación aprobada registrados) |
-| Nueva Indicación Predicha | Síndrome de Piernas Inquietas (Restless Legs Syndrome) |
+| Indicación Original | No disponible (los textos de indicación de AEMPS están vacíos) |
+| Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 99.65% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 10 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack (data gap confirmado). Según la información farmacológica general conocida, clonazepam es una benzodiazepina cuyo mecanismo central es la potenciación GABA-A (modulación alostérica positiva del receptor GABA-A, aumentando la frecuencia de apertura del canal de cloro), lo que produce un efecto depresor del sistema nervioso central clásicamente aprovechado en convulsiones y trastorno de pánico.
+## ¿Por qué es Razonable esta Predicción?
 
-El Síndrome de Piernas Inquietas (RLS) tiene como fisiopatología central la disfunción del sistema dopaminérgico estriatal y alteraciones del metabolismo del hierro cerebral. Clonazepam **no actúa sobre la vía dopaminérgica**; su posible utilidad en RLS es indirecta, mediada por el aumento de la inhibición central y la elevación del umbral de despertar, lo que reduce las interrupciones del sueño y los despertares asociados a movimientos periódicos de las extremidades (PLMS). Se trata por tanto de un alivio sintomático (mejora de la continuidad del sueño) y no de un tratamiento dirigido a la causa, con una relación mecanística indirecta y de fuerza moderada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la farmacología general, clonazepam es un modulador alostérico positivo del receptor GABA-A. Este efecto podría reducir los movimientos periódicos de las extremidades durante el sueño y los microdespertares asociados.
 
-Esta racionalidad es consistente con la práctica clínica descrita en la literatura: las benzodiazepinas, en particular clonazepam, han sido utilizadas históricamente en RLS como terapia adyuvante o de segunda línea cuando los agonistas dopaminérgicos no son adecuados, aunque las guías actuales las sitúan por detrás de los tratamientos dirigidos al eje dopaminérgico/hierro.
+Por eso, el beneficio plausible sería **sintomático y relacionado con el sueño**, no modificador de la enfermedad. Esto encaja con la literatura, donde clonazepam aparece como opción usada en el síndrome de piernas inquietas (SPI) y en los movimientos periódicos de las piernas durante el sueño.
+
+El puntaje de TxGNN (0.997) es solo una predicción del modelo. La literatura recibida sí contiene una guía de 2025 de la Academia Americana de Medicina del Sueño (AASM), pero su dirección de recomendación no puede confirmarse con el resumen disponible. Debe leerse antes de cualquier decisión, porque la guía actual podría no favorecer las benzodiazepinas como primera línea en SPI.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para clonazepam en Síndrome de Piernas Inquietas.
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guía Clínica | J Clin Sleep Med | Guía de práctica clínica de la AASM para tratamiento de RLS y trastorno de movimiento periódico de extremidades (PLMD) en adultos y pediatría |
-| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Revisión Cochrane | Cochrane Database Syst Rev | Revisión sistemática sobre benzodiazepinas (incluido clonazepam) en RLS; uso intuitivo pero con evidencia limitada de ensayos controlados |
-| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | ECA cruzado | Acta Neurol Scand | Ensayo doble ciego cruzado vs. placebo (n=6): clonazepam mejoró significativamente la calidad subjetiva del sueño y la disestesia de piernas; eficacia a largo plazo no confirmada |
-| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Revisión histórica | Tremor Other Hyperkinet Mov | Revisión histórica de 17 artículos sobre benzodiazepinas (incl. clonazepam) en RLS/PLMS; ~25% de pacientes con RLS reciben benzodiazepinas en la práctica real |
-| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | ECA abierto | J Midlife Health | Estudio prospectivo aleatorizado abierto comparando clonazepam vs. nortriptilina en mujeres >40 años con RLS |
-| [9444111](https://pubmed.ncbi.nlm.nih.gov/9444111/) | 1997 | Revisión | ANNA Journal | Clonazepam como terapia benzodiazepínica en RLS, con perfil farmacocinético seguro en pacientes con función renal alterada (ESRD) |
-| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Revisión sistemática/Metaanálisis | J Clin Sleep Med | Respuesta farmacológica de los movimientos periódicos de extremidades en RLS; evalúa eficacia de distintas categorías de fármacos incluidas benzodiazepinas |
-| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Revisión (Task Force MDS) | Mov Disord | Revisión basada en evidencia de la Movement Disorder Society sobre modalidades de tratamiento de RLS |
-| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Revisión | Neurotherapeutics | Revisión del tratamiento de RLS, describiendo varias clases de medicación incluidas benzodiazepinas |
-| [3510520](https://pubmed.ncbi.nlm.nih.gov/3510520/) | 1986 | Revisión | American Family Physician | Descripción del síndrome clásico de RLS y sus variantes; menciona clonazepam entre las opciones terapéuticas |
+| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | ECA cruzado (n=6) | Acta Neurol Scand | Frente a placebo, clonazepam mejoró la calidad subjetiva del sueño y las disestesias de las piernas; se requiere confirmar la eficacia a largo plazo |
+| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | ECA abierto | J Mid-life Health | Compara clonazepam con nortriptilina en mujeres mayores de 40 años con SPI (frecuencia y gravedad) |
+| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Revisión sistemática | Cochrane Database Syst Rev | Evalúa las benzodiazepinas en SPI; señala que clonazepam se usa en la práctica, y el resumen disponible no muestra la conclusión |
+| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guía clínica | J Clin Sleep Med | Guía de la AASM para el tratamiento de SPI y trastorno de movimientos periódicos de las extremidades; la dirección de la recomendación sobre clonazepam no es visible |
+| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Revisión sistemática y metaanálisis | J Clin Sleep Med | Analiza qué categorías de fármacos suprimen los movimientos periódicos de las piernas en SPI |
+| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Revisión | Tremor Other Hyperkinet Mov | Panorama histórico de benzodiazepinas, incluido clonazepam, en SPI; cerca del 25% de los pacientes con SPI en una encuesta de 16,694 recibía benzodiazepinas |
+| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Revisión basada en evidencia | Mov Disord | Grupo de trabajo de la MDS que clasifica la eficacia de cada fármaco en SPI |
+| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Revisión | Neurotherapeutics | Panorama del tratamiento de SPI y de los cambios recientes en las clases de fármacos |
+| [9444111](https://pubmed.ncbi.nlm.nih.gov/9444111/) | 1997 | Revisión | ANNA J | Clonazepam en SPI de la enfermedad renal terminal; su perfil farmacocinético se describe como seguro en función renal alterada |
+| [17876423](https://pubmed.ncbi.nlm.nih.gov/17876423/) | 2007 | Consenso de expertos | Arq Neuropsiquiatr | Conclusiones del grupo brasileño de estudio de SPI sobre diagnóstico y tratamiento |
+
+---
+
+## Información de Mercado en España
+
+Los textos de indicación aprobada de AEMPS no están disponibles en los datos recibidos. Se muestran 5 de las 10 autorizaciones.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 52333 | RIVOTRIL 2,5 mg/ml gotas orales en solución | Gotas orales en solución | Cheplapharm Arzneimittel GmbH |
+| 52401 | RIVOTRIL 2 mg comprimidos | Comprimido | Cheplapharm Arzneimittel GmbH |
+| 52334 | RIVOTRIL 0,5 mg comprimidos | Comprimido | Cheplapharm Arzneimittel GmbH |
+| 88731 | Clonazepam TZF 0,5 mg comprimidos EFG | Comprimido | Tarchominskie Zaklady Farmaceutyczne Polfa S.A. |
+| 85994 | Clonazepam Neuraxpharm 0,5 mg comprimidos EFG | Comprimido | Neuraxpharm Spain S.L. |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad (no hay advertencias, contraindicaciones ni interacciones farmacológicas disponibles en el Evidence Pack; la consulta de interacciones (DDI) no arrojó resultados).
+Consultar el prospecto para información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia actual (nivel L3) se basa en revisiones, guías clínicas y un único ensayo controlado pequeño y antiguo (1984, n=6), sin ensayos clínicos modernos registrados específicamente para clonazepam en RLS. Además, la ausencia de datos de seguridad regulatoria (advertencias/contraindicaciones del TFDA) constituye un vacío de severidad "Blocking" que impide completar la evaluación de seguridad inicial (S1).
+La evidencia es de nivel L3: guías, revisiones y solo dos ensayos pequeños, uno de 1984 con 6 pacientes y otro abierto de 2019. No hay ensayos clínicos registrados ni ECA de Fase 3. Además, los datos de seguridad de AEMPS son una brecha bloqueante y no se puede confirmar si la guía AASM 2025 respalda el uso de clonazepam.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica con advertencias y contraindicaciones (TFDA) — bloqueante para la evaluación S1
-- Confirmar el mecanismo de acción (MOA) vía DrugBank
-- Ensayos clínicos controlados y contemporáneos que evalúen clonazepam específicamente en RLS (la evidencia primaria disponible es escasa y de muestra muy reducida)
-- Datos de interacciones farmacológicas (DDI) actualmente no disponibles
+- Leer el texto completo de la guía AASM 2025 (PMID 39324694) y de la revisión Cochrane 2017 (PMID 28319266) para confirmar la dirección de sus recomendaciones sobre clonazepam.
+- Descargar y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Evaluar el riesgo de dependencia, tolerancia y sedación frente a las alternativas de primera línea en SPI.
+
+**Otras predicciones del modelo (solo referencia):**
+- **Insomnio (99.32%, L3):** los ensayos recibidos apenas evalúan clonazepam en insomnio primario. Se centran en trastorno de conducta del sueño REM, pánico, dependencia de benzodiazepinas y otras condiciones. Requiere una pregunta de investigación definida.
+- **Neoplasia del nervio trigémino (99.30%, L4, Hold):** no existe un mecanismo antineoplásico creíble. La evidencia se limita a dos reportes de caso, y el puntaje probablemente refleja cercanía en el grafo con condiciones de dolor neuropático, no un beneficio contra el tumor.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

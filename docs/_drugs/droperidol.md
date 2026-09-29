@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Droperidol
-parent: Evidencia alta (L1-L2)
-nav_order: 96
-evidence_level: L2
+parent: Evidencia moderada (L3-L4)
+nav_order: 185
+evidence_level: L4
 indication_count: 10
 ---
 
 # Droperidol
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,81 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Droperidol: De Sedación en Agitación Aguda a Cefalea/Migraña Aguda
+# Droperidol: De Náuseas y Vómitos Posoperatorios a Síndrome de Tourette
 
 ## Resumen en Una Frase
 
-Droperidol es una butirofenona que, según la propia literatura recogida en este Evidence Pack, se ha empleado clásicamente como tranquilizante/sedante en cuadros de agitación aguda (no hay ficha técnica ni indicación original confirmada en este pack). Entre las **10 indicaciones** predichas por TxGNN para este fármaco, la que cuenta con mayor respaldo real es **Cefalea/Migraña Aguda**, con **1 ensayo clínico** y **20 publicaciones** —incluyendo varios ensayos aleatorizados doble ciego— que respaldan esta dirección.
+Droperidol es un neuroléptico butirofenónico que se comercializa en España como solución inyectable. Su uso original conocido es el control de las náuseas y vómitos posoperatorios.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette**, pero actualmente hay **0 ensayos clínicos** y solo **1 publicación** indirecta (sobre haloperidol, no sobre droperidol).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack (sin licencias en España; MOA marcado como dato pendiente — ver DG002) |
-| Nueva Indicación Predicha | Cefalea/Migraña Aguda (seleccionada entre 10 candidatos TxGNN por ser la de mayor nivel de evidencia) |
-| Puntaje de Predicción TxGNN | 99.47% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | Náuseas y vómitos posoperatorios (según la ficha técnica conocida del producto; el texto de indicación no viene en el Evidence Pack) |
+| Nueva Indicación Predicha | Síndrome de Tourette |
+| Puntaje de Predicción TxGNN | 99,89 % |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
+| Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción confirmados por DrugBank (gap DG002, severidad alta). Según la información disponible en la propia literatura del pack, droperidol es una **butirofenona** con antagonismo D2/5-HT2, clase farmacológica que en varias publicaciones (Cochrane 2016, 2004, 2001) se describe como utilizada para tranquilización/sedación en cuadros de agitación aguda en varios países.
+Droperidol es un antagonista del receptor dopaminérgico D2 de la clase de las butirofenonas. Actualmente no se dispone de datos detallados de mecanismo de acción en el registro de DrugBank utilizado, pero esta clase de fármacos es bien conocida.
 
-Ese mismo mecanismo de antagonismo D2/5-HT2 —junto con su efecto antiemético ya reconocido— es coherente con la fisiopatología de la migraña aguda, donde las vías dopaminérgicas participan tanto en las náuseas/vómitos asociados como en la sensibilización central. Esto explica por qué droperidol lleva décadas usándose off-label en servicios de urgencias para migraña y status migrainosus, y por qué ha sido incorporado en las revisiones de evidencia de la American Headache Society y la Canadian Headache Society.
+El bloqueo D2 es la base establecida del tratamiento del síndrome de Tourette, con haloperidol y pimozida como referentes. Por eso el vínculo mecanístico es plausible, pero **solo por efecto de clase**.
 
-## Evidencia de Ensayos Clínicos
+Esta plausibilidad es débil. No existen datos específicos de droperidol en Tourette. El único artículo citado trata de haloperidol, no de droperidol. Además, la advertencia de prolongación del intervalo QT de droperidol y la disponibilidad de fármacos mejor estudiados reducen aún más el interés de esta indicación.
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01406860](https://clinicaltrials.gov/study/NCT01406860) | N/A | Terminado | 19 | Comparó droperidol vs. metoclopramida+difenhidramina para cefalea primaria en urgencias; finalizado anticipadamente por reclutamiento lento, por lo que la potencia estadística es insuficiente (evidencia solo de apoyo, grado B). |
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12552051](https://pubmed.ncbi.nlm.nih.gov/12552051/) | 2003 | ECA doble ciego, controlado con placebo | Neurology | Evalúa droperidol como terapia de "rescate" parenteral en migraña cuando fallan los fármacos de primera línea. |
-| [11781912](https://pubmed.ncbi.nlm.nih.gov/11781912/) | 2002 | ECA | Am J Emerg Med | Confirma eficacia de droperidol IM para migraña aguda en urgencias, replicando hallazgos de una serie de casos previa. |
-| [10452443](https://pubmed.ncbi.nlm.nih.gov/10452443/) | 1999 | Serie de casos retrospectiva | Am J Emerg Med | Revisión piloto de pacientes tratados con droperidol IM para migraña aguda; lo describe como terapia prometedora. |
-| [9237411](https://pubmed.ncbi.nlm.nih.gov/9237411/) | 1997 | Cohorte/Serie de casos | Headache | Estudio piloto en 35 pacientes con status migrainosus/migraña refractaria tratados con droperidol IV 2.5 mg cada 30 min. |
-| [21435315](https://pubmed.ncbi.nlm.nih.gov/21435315/) | 2011 | Revisión sistemática | CJEM | Evalúa si las butirofenonas (incluye droperidol) son eficaces para cefalea primaria en urgencias. |
-| [25416184](https://pubmed.ncbi.nlm.nih.gov/25416184/) | 2015 | Revisión | Ann Pharmacother | Evalúa seguridad y eficacia de droperidol para el alivio de la migraña aguda. |
-| [12890142](https://pubmed.ncbi.nlm.nih.gov/12890142/) | 2003 | Revisión | Headache | Droperidol y otros neurolépticos/antieméticos en el manejo de la migraña. |
-| [32839811](https://pubmed.ncbi.nlm.nih.gov/32839811/) | 2020 | Revisión | AJHP | Revisión integral sobre la reintegración de droperidol a la práctica de urgencias (seguridad, indicaciones, eficacia, dosificación). |
-| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | Revisión/Guía (Cochrane-tier) | Cephalalgia | Recomendaciones de la Sociedad Canadiense de Cefalea sobre tratamiento del dolor migrañoso en urgencias. |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revisión/Guía | Headache | Evaluación de evidencia de la Sociedad Americana de Cefalea sobre farmacoterapias para migraña aguda. |
+| [791589](https://pubmed.ncbi.nlm.nih.gov/791589/) | 1976 | Otro (indirecto) | Current psychiatric therapies | Informe sobre haloperidol en trastornos graves de conducta. No trata droperidol ni Tourette de forma específica. No hay resumen disponible. |
+
+---
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 90791 | Droperidol Aguettant 2,5 mg/ml solución inyectable EFG | Solución inyectable | Laboratoire Aguettant |
+| 69837 | Xomolix 2,5 mg/ml solución inyectable | Solución inyectable | Substipharm |
+| 86009 | Droperidol Kalceks 2,5 mg/ml solución inyectable EFG | Solución inyectable | Kalceks As |
+| 86008 | Droperidol Kalceks 1,25 mg/ml solución inyectable | Solución inyectable | Kalceks As |
+| 82997 | Droperidol Hikma 2,5 mg/ml solución inyectable EFG | Solución inyectable | Hikma Farmacéutica (Portugal) S.A. |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay advertencias, contraindicaciones ni interacciones farmacológicas registradas en este Evidence Pack (DG001, gap bloqueante: falta el prospecto/ficha técnica de TFDA, necesario antes de la evaluación de seguridad S1).
+Consultar el prospecto para información de seguridad.
+
+Como referencia adicional del análisis de la predicción: se señala un riesgo de prolongación del intervalo QT con droperidol, que exigiría cribado con ECG, monitorización y límites de dosis si se avanzara.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existen múltiples ensayos aleatorizados (incluyendo uno doble ciego controlado con placebo) y revisiones de sociedades científicas de cefalea que respaldan el uso de droperidol en migraña aguda, pero el único ensayo indexado en ClinicalTrials.gov se terminó anticipadamente por bajo reclutamiento (n=19), y falta por completo la información de seguridad/ficha técnica (gap bloqueante DG001) necesaria para una evaluación S1 completa.
+La predicción se apoya solo en el modelo y en un efecto de clase. No hay ensayos clínicos ni literatura específica de droperidol en síndrome de Tourette, y existen alternativas mejor estudiadas con un perfil de seguridad más favorable.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha técnica de TFDA con advertencias y contraindicaciones (DG001, bloqueante — especialmente relevante dado el riesgo conocido de prolongación del QT asociado a butirofenonas)
-- Confirmar el mecanismo de acción vía API de DrugBank (DG002)
-- Aclarar el estatus regulatorio real en España, dado que actualmente figura como no comercializado (0 autorizaciones)
-- Considerar un ensayo adecuadamente potenciado que replique NCT01406860, dado que este se terminó con muestra insuficiente
+- Estudios de droperidol específicos en síndrome de Tourette, preclínicos o clínicos
+- Datos de seguridad de la ficha técnica de la AEMPS (advertencias y contraindicaciones), aún no incorporados
+- Datos de mecanismo de acción desde DrugBank
+- Evaluación de la compatibilidad de vía de administración: la presentación disponible es solo inyectable, poco práctica para un trastorno crónico
+
+**Nota:** en este mismo Evidence Pack hay candidatos con más respaldo que Tourette: **cefalea/migraña** (nivel L2, 1 ensayo registrado y varias revisiones y guías, recomendación "Proceed with Guardrails") y **manía bipolar / agitación aguda** (nivel L2, revisiones Cochrane y un ECA de 1977). Si el objetivo es priorizar, conviene evaluar esos dos antes que Tourette.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

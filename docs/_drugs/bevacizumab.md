@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bevacizumab
-parent: Evidencia alta (L1-L2)
-nav_order: 40
-evidence_level: L1
+parent: Solo predicción del modelo (L5)
+nav_order: 73
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bevacizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,82 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Bevacizumab: Hacia Neoplasia Quística (Cáncer de Ovario) como Nueva Indicación
+# Bevacizumab: De Cáncer (indicaciones autorizadas no detalladas) a Neoplasia de Epiglotis
 
 ## Resumen en Una Frase
 
-Bevacizumab es un anticuerpo monoclonal anti-VEGF de uso oncológico establecido, actualmente **no comercializado en España** y sin indicación original registrada en esta base de datos. El modelo TxGNN predice que podría ser efectivo para **Neoplasia Quística** (mayoritariamente representada por cáncer de ovario en la evidencia disponible), con **8 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección, incluyendo un ensayo de Fase 3 con 1.052 pacientes.
-
----
+Bevacizumab es un anticuerpo monoclonal que actúa sobre el factor de crecimiento endotelial vascular (VEGF) y se utiliza en oncología. En los datos recibidos no figura el texto de sus indicaciones autorizadas.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia de epiglotis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es, por tanto, una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos regulatorios (fármaco no comercializado en España; sin licencias registradas) |
-| Nueva Indicación Predicha | Neoplasia Quística (Cystic Neoplasm) |
-| Puntaje de Predicción TxGNN | 99.89% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No disponible: los textos de indicación de las autorizaciones están vacíos |
+| Nueva Indicación Predicha | Neoplasia de epiglotis |
+| Puntaje de Predicción TxGNN | 99.90% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 13 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, bevacizumab es un anticuerpo dirigido contra el VEGF, que participa en la formación de nuevos vasos sanguíneos (angiogénesis) de los tumores. Sus estudios en otros cánceres aparecen en los datos recibidos, y mecanísticamente podría ser aplicable a la neoplasia de epiglotis.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en esta base de datos. Según la evidencia clínica recopilada, bevacizumab es un anticuerpo monoclonal que actúa como inhibidor del factor de crecimiento endotelial vascular (VEGF-A), un mecanismo antiangiogénico documentado de forma consistente en los ensayos incluidos en este informe (cáncer de ovario, mama, colorrectal, renal, tumores estromales gastrointestinales, entre otros).
+La única base de la hipótesis es que la angiogénesis dependiente de VEGF es plausible en los tumores de cabeza y cuello. No se recuperó ningún ensayo ni publicación para esta indicación. La relación con la indicación original tampoco está evaluada (estado "pendiente").
 
-Las "neoplasias quísticas" son, en la práctica clínica, con frecuencia manifestaciones de cáncer de ovario (especialmente el subtipo seroso de bajo grado y el mucinoso), un tumor altamente vascularizado donde el bloqueo de VEGF ya es una estrategia terapéutica consolidada. Esto explica por qué la mayor parte de la evidencia recuperada para esta predicción corresponde en realidad a estudios sobre cáncer de ovario y no a "neoplasia quística" como categoría amplia.
-
-Mecanísticamente, la aplicabilidad es razonable: la angiogénesis tumoral es un rasgo compartido entre tumores quísticos ováricos y otras neoplasias donde bevacizumab ya demuestra actividad. Sin embargo, debe señalarse una salvedad importante: la etiqueta "neoplasia quística" agrupa entidades muy heterogéneas (benignas y malignas, de múltiples órganos), y la evidencia real disponible es específica de cáncer de ovario, por lo que la extrapolación a neoplasias quísticas benignas o de otros órganos no está respaldada.
-
----
+Con una puntuación TxGNN muy alta (99.90%), pero sin ningún estudio real que la respalde, esta predicción debe considerarse una hipótesis inicial y no una recomendación terapéutica.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00565851](https://clinicaltrials.gov/study/NCT00565851) | Fase 3 | Activo, no reclutando | 1.052 | Carboplatino + paclitaxel (o gemcitabina) ± bevacizumab, seguido de bevacizumab de mantenimiento, en cáncer de ovario/peritoneal/trompa de Falopio recidivante sensible a platino |
-| [NCT03074513](https://clinicaltrials.gov/study/NCT03074513) | Fase 2 | Activo, no reclutando | 133 | Atezolizumab + bevacizumab en tumores sólidos raros, estudio abierto de un solo brazo |
-| [NCT00381797](https://clinicaltrials.gov/study/NCT00381797) | Fase 2 | Completado | 97 | Bevacizumab + irinotecán en niños con glioma, meduloblastoma o ependimoma recurrente/refractario |
-| [NCT00023959](https://clinicaltrials.gov/study/NCT00023959) | Fase 1 | Completado | 39 | Bevacizumab + 5-FU + hidroxiurea con radioterapia concomitante en cáncer de cabeza y cuello de mal pronóstico |
-| [NCT01096381](https://clinicaltrials.gov/study/NCT01096381) | N/A | Terminado | 8 | Biomarcadores de hipertensión inducida por bevacizumab en tumores sólidos malignos |
-| [NCT00492089](https://clinicaltrials.gov/study/NCT00492089) | Fase 2 | Completado | 11 | Bevacizumab para reducir el daño por radiación cerebral tras radioterapia en tumor cerebral, meningioma o cáncer de cabeza y cuello |
-| [NCT00101348](https://clinicaltrials.gov/study/NCT00101348) | Fase 1/2 | Completado | 66 | Erlotinib + cetuximab ± bevacizumab en carcinoma renal metastásico y otros tumores sólidos |
-| [NCT00324987](https://clinicaltrials.gov/study/NCT00324987) | Fase 3 | Terminado (prematuramente) | 12 | Imatinib ± bevacizumab en tumor estromal gastrointestinal (GIST) metastásico/irresecable |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [37754507](https://pubmed.ncbi.nlm.nih.gov/37754507/) | 2023 | Revisión Sistemática | Current Oncology | Confirma actividad de bevacizumab en cáncer de ovario seroso de bajo grado, subtipo quimiorresistente sin tratamiento estándar definido |
-| [38328890](https://pubmed.ncbi.nlm.nih.gov/38328890/) | 2024 | Cohorte | Future Oncology | En 51 pacientes con cáncer de ovario seroso de bajo grado recurrente, tasa de respuesta objetiva del 54,1% con bevacizumab + quimioterapia |
-| [24978709](https://pubmed.ncbi.nlm.nih.gov/24978709/) | 2014 | Estudio de cohorte | Int J Gynecol Cancer | Bevacizumab muestra actividad significativa en cáncer de ovario seroso de bajo grado y peritoneal primario recurrente |
-| [18165643](https://pubmed.ncbi.nlm.nih.gov/18165643/) | 2008 | Ensayo Fase II | J Clin Oncol | Bevacizumab + ciclofosfamida oral metronómica evaluado en cáncer de ovario recurrente (consorcio California/Chicago/Princess Margaret) |
-| [27412268](https://pubmed.ncbi.nlm.nih.gov/27412268/) | 2016 | ECA Fase II | Cancer | Paclitaxel + capecitabina + bevacizumab de primera línea en cáncer de mama triple negativo metastásico/localmente avanzado (estudio GINECO A-TaXel) |
-| [40513287](https://pubmed.ncbi.nlm.nih.gov/40513287/) | 2025 | Sub-estudio Fase III | Eur J Cancer | Estudio ancilar de PAOLA-1/ENGOT-ov25: bevacizumab + olaparib de mantenimiento en cáncer de ovario seroso de alto grado con deficiencia de recombinación homóloga |
-| [37657955](https://pubmed.ncbi.nlm.nih.gov/37657955/) | 2023 | Cohorte | Clin Colorectal Cancer | Mitomicina-C + capecitabina metronómica + bevacizumab en pseudomixoma peritoneal irresecable/recidivante de origen apendicular |
-| [18796376](https://pubmed.ncbi.nlm.nih.gov/18796376/) | 2008 | Cohorte | Clin Transl Oncol | Ciclofosfamida oral + bevacizumab en cáncer de ovario pesadamente pretratado |
-| [32494876](https://pubmed.ncbi.nlm.nih.gov/32494876/) | 2020 | Revisión | Curr Oncol Rep | Manejo de primera línea del cáncer de ovario seroso de alto grado avanzado; describe el papel de la vía VEGF |
-| [27141073](https://pubmed.ncbi.nlm.nih.gov/27141073/) | 2016 | Revisión | Ann Oncol | Carcinoma ovárico mucinoso: diferenciación diagnóstica entre tumores primarios y metastásicos |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Actualmente no hay autorizaciones de comercialización registradas para bevacizumab en esta base de datos (estado: **no comercializado**, 0 licencias).
+Se muestran 5 de las 13 autorizaciones. El texto de la indicación aprobada no está disponible en los datos.
 
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 04300002IP | Avastin 25 mg/ml | Concentrado para solución para perfusión | Roche Registration GmbH |
+| 1201454001 | Aybintio 25 mg/ml | Concentrado para solución para perfusión | Samsung Bioepis NL B.V. |
+| 04300001 | Avastin 25 mg/ml | Concentrado para solución para perfusión | Roche Registration GmbH |
+| 1181344002 | Zirabev 25 mg/ml | Concentrado para solución para perfusión | Pfizer Europe MA EEIG |
+| 1201509001 | Alymsys 25 mg/ml | Concentrado para solución para perfusión | Mabxience Research S.L. |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal antiangiogénico anti-VEGF; no es quimioterapia citotóxica convencional) |
+| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-VEGF); no es un citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Presión arterial (un ensayo del paquete estudia la hipertensión inducida por bevacizumab), hemograma, función hepática y renal |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
----
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La evidencia alcanza nivel L1, con un ensayo Fase 3 de gran tamaño (n=1.052) y una revisión sistemática dedicada que respaldan la actividad de bevacizumab en cáncer de ovario, la entidad clínica que mejor representa "neoplasia quística" en los datos disponibles. No obstante, esta evidencia es específica de cáncer de ovario (particularmente el subtipo seroso de bajo grado) y no de neoplasias quísticas benignas u otros órganos, por lo que el avance debe limitarse a esa subpoblación y con las debidas salvaguardas.
+La predicción para neoplasia de epiglotis es de nivel L5: solo hay puntuación del modelo, sin ensayos ni publicaciones que la respalden. Tampoco se dispone de datos de mecanismo de acción ni de seguridad del prospecto, por lo que no se puede avanzar a un cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Mecanismo de acción (MOA), advertencias, contraindicaciones e interacciones farmacológicas (actualmente data gap bloqueante para evaluación de seguridad)
-- Delimitación clínica precisa de la subpoblación diana (cáncer de ovario seroso de bajo grado / mucinoso) en lugar de "neoplasia quística" como categoría genérica
-- Confirmación del estatus regulatorio y vía de acceso en España, dado que el fármaco no está actualmente comercializado en este mercado
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío bloqueante.
+- Obtener el mecanismo de acción desde DrugBank.
+- Obtener los textos de indicación autorizada de las licencias para definir la indicación original.
+- Hacer una búsqueda dirigida de ensayos y literatura sobre bevacizumab en neoplasias de epiglotis o de laringe y cabeza y cuello.
+- Como referencia, entre las otras predicciones del paquete, "neoplasia quística" alcanza el nivel L2 por evidencia en cáncer de ovario. La correspondencia con la enfermedad es indirecta, así que su interpretación es limitada.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

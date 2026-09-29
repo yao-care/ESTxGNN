@@ -2,15 +2,15 @@
 layout: default
 title: Clobazam
 parent: Evidencia moderada (L3-L4)
-nav_order: 73
-evidence_level: L3
+nav_order: 133
+evidence_level: L4
 indication_count: 10
 ---
 
 # Clobazam
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,30 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Clobazam: De Epilepsia a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+# Clobazam: De Benzodiacepina Antiepiléptica a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
 
 ## Resumen en Una Frase
 
-Clobazam es una benzodiazepina 1,5 utilizada de forma general como terapia antiepiléptica adyuvante. El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)**, con **0 ensayos clínicos** y **2 publicaciones** (series/reportes de casos) que actualmente respaldan esta dirección.
+Clobazam es una benzodiacepina que actúa sobre el receptor GABA-A y se comercializa en España como antiepiléptico. El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**. Esta dirección solo cuenta con **2 publicaciones** (una serie de casos y un reporte de caso) y **ningún ensayo clínico**, y ninguna de las dos publicaciones evalúa clobazam.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia (uso adyuvante general) — no hay texto de indicación aprobada específica disponible, ya que CLOBAZAM no cuenta con autorización de comercialización vigente en España |
-| Nueva Indicación Predicha | Síndrome de Epilepsia Relacionada con Infección Febril (FIRES) |
+| Nueva Indicación Predicha | Síndrome de epilepsia relacionada con infección febril (FIRES) |
 | Puntaje de Predicción TxGNN | 99.82% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción específico de Clobazam en este Evidence Pack (brecha de datos pendiente de DrugBank). Según la información conocida a partir del propio conjunto de evidencias, Clobazam es una benzodiazepina de clase 1,5, y en las justificaciones mecanísticas de otras indicaciones predichas para este mismo fármaco se le describe de forma consistente como un modulador del receptor GABA-A, mecanismo compartido por toda la clase de benzodiazepinas antiepilépticas.
+Clobazam es un modulador alostérico positivo del receptor GABA-A. Este mecanismo es propio de las benzodiacepinas y es plausible en el estatus epiléptico refractario. La FIRES es un tipo de epilepsia refractaria de inicio agudo tras una infección febril, en niños previamente sanos. Suele requerir coma farmacológico con midazolam u otros anestésicos generales.
 
-FIRES es un subtipo grave de estado epiléptico refractario de nueva aparición (NORSE) en niños previamente sanos, en el que el control de crisis suele depender de anestésicos generales (midazolam, barbitúricos) y, en fases de destete, de benzodiazepinas orales/enterales. Dado que Clobazam ya se emplea ampliamente como antiepiléptico adyuvante en síndromes epilépticos refractarios, existe una continuidad mecanística plausible entre su uso general en epilepsia y su aplicación específica en el manejo/destete de FIRES.
+Por eso la predicción tiene cierto sentido mecanístico: una benzodiacepina con perfil antiepiléptico podría ayudar a controlar las crisis o a reducir la dependencia de anestésicos.
 
-La evidencia disponible, sin embargo, corresponde a experiencias clínicas puntuales con benzodiazepinas relacionadas (p. ej., lorazepam enteral) más que a estudios controlados con Clobazam propiamente, por lo que la relación mecanística es razonable pero no está confirmada de forma específica para esta molécula.
+Los dos artículos disponibles describen estrategias de retirada del coma farmacológico, con lorazepam enteral y con perampanel. **Ninguno prueba clobazam**. El puntaje TxGNN de 0.998 es una predicción del modelo, no un respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,29 +62,39 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Serie de casos | Epileptic Disorders | El lorazepam enteral es una estrategia prometedora de destete en pacientes con FIRES dependientes de midazolam, sugiriendo un rol para benzodiazepinas orales en el manejo de mantenimiento |
-| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Reporte de caso | Cureus | Caso de un niño de 13 años con FIRES en el que perampanel ayudó a reducir la dependencia de barbitúricos, ilustrando el contexto de politerapia (incluyendo benzodiazepinas) en el manejo refractario de FIRES |
+| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Serie de casos | Epileptic Disorders | El lorazepam enteral resulta una estrategia prometedora para retirar el midazolam en pacientes con FIRES que responden a este último. |
+| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Reporte de caso | Cureus | Un niño de 13 años con FIRES: el perampanel podría ayudar a reducir la dependencia de barbitúricos. |
 
 ## Información de Mercado en España
 
-Actualmente CLOBAZAM no cuenta con autorizaciones de comercialización registradas en España (estado: no comercializado).
+Los datos no incluyen el texto de la indicación aprobada para estas autorizaciones.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 54862 | NOIAFREN 10 mg COMPRIMIDOS | Comprimido | Atnahs Pharma Netherlands Bv. |
+| 56993 | NOIAFREN 20 mg COMPRIMIDOS | Comprimido | Atnahs Pharma Netherlands Bv. |
+| 81523 | SILOCALM 2 MG/ML SUSPENSIÓN ORAL | Suspensión oral | Ethypharm |
+| 81524 | SILOCALM 1 MG/ML SUSPENSIÓN ORAL | Suspensión oral | Ethypharm |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. La consulta de interacciones farmacológicas no devolvió resultados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia actual se limita a series y reportes de casos sobre benzodiazepinas relacionadas en el manejo de FIRES, sin ensayos clínicos ni estudios controlados específicos para Clobazam. Además, el fármaco no está comercializado en España y falta información crítica de seguridad (ficha técnica/prospecto), lo que impide una evaluación de seguridad inicial (S1).
+La predicción de FIRES se apoya solo en dos publicaciones de casos que no evalúan clobazam. Además, no hay ensayos clínicos. Con esto no es posible sostener una hipótesis clínica.
+
+Entre las otras indicaciones predichas, la **encefalopatía epiléptica de inicio en la infancia** (L4, categoría "Research Question") tiene un respaldo indirecto mayor. La literatura aportada incluye guías y revisiones sobre el síndrome de Lennox-Gastaut y otras encefalopatías epilépticas.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto oficial (advertencias, contraindicaciones) — actualmente es una brecha bloqueante
-- Datos de mecanismo de acción (MOA) desde DrugBank
-- Estudios prospectivos o series de casos que evalúen Clobazam específicamente (no solo otras benzodiazepinas) en el destete/manejo de FIRES
-- Evaluación de vía de administración disponible (oral/enteral) compatible con el contexto de cuidados críticos pediátricos de FIRES
+- Datos clínicos específicos de clobazam en FIRES, por ejemplo una revisión retrospectiva de casos o una búsqueda dirigida en la literatura.
+- Descargar y analizar la ficha técnica de la AEMPS (advertencias y contraindicaciones), lo que actualmente bloquea el cribado de seguridad.
+- Confirmar las indicaciones aprobadas en España para las 4 autorizaciones.
+- Completar los datos detallados del mecanismo de acción desde DrugBank.
+- Evaluar si conviene priorizar otras indicaciones predichas con más respaldo indirecto.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

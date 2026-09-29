@@ -2,7 +2,7 @@
 layout: default
 title: Cabotegravir
 parent: Solo predicción del modelo (L5)
-nav_order: 50
+nav_order: 92
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,56 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Cabotegravir: De VIH a Artritis Reumatoide
+# Cabotegravir: De Infección por VIH a Artritis Reumatoide
 
 ## Resumen en Una Frase
 
-Cabotegravir es un inhibidor de la integrasa del VIH (INSTI), utilizado originalmente en el tratamiento antirretroviral y la profilaxis pre-exposición (PrEP) frente al VIH. El modelo TxGNN predice que podría ser efectivo para **Artritis Reumatoide**, con un puntaje de **99,45%**, pero **sin ningún ensayo clínico ni publicación** que respalde actualmente esta direccion.
+Cabotegravir es un inhibidor de la integrasa del VIH (según el conocimiento general del fármaco), comercializado en España como Apretude y Vocabria.
+El modelo TxGNN predice que podría ser efectivo para **Artritis Reumatoide**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | VIH (terapia antirretroviral y profilaxis pre-exposicion) — no consta en registro español, medicamento no comercializado |
-| Nueva Indicacion Predicha | Artritis Reumatoide |
-| Puntaje de Prediccion TxGNN | 99,45% |
+| Indicación Original | No disponible en los datos de autorización (por conocimiento general: infección por VIH) |
+| Nueva Indicación Predicha | Artritis Reumatoide |
+| Puntaje de Predicción TxGNN | 99.45% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de accion (MOA) en la ficha tecnica del farmaco. Segun la informacion recogida en el analisis, cabotegravir actua como inhibidor de la transferencia de cadena de la integrasa del VIH (INSTI), bloqueando la insercion del ADN viral en el genoma de la celula huesped — un mecanismo antirretroviral especifico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, cabotegravir es un inhibidor de la transferencia de cadena de la integrasa del VIH. Su eficacia se asocia a la infección por VIH, y no se ha documentado un mecanismo antiinflamatorio o inmunomodulador que lo conecte con la artritis reumatoide.
 
-Este mecanismo no presenta ninguna conexion biologica conocida con las vias autoinmunes/inflamatorias implicadas en la artritis reumatoide (TNF-α, IL-6, RANKL). La ausencia total de ensayos clinicos y literatura que respalden esta asociacion, junto con la posicion relativamente baja del ranking interno del modelo (rank 8291), sugiere que el puntaje elevado podria deberse a un efecto de "hub" en el espacio de embeddings de TxGNN (nodos de enfermedad muy conectados que reciben puntajes altos de forma generalizada) mas que a una relacion farmacologica real.
+Con los datos aportados no se identifica un vínculo mecanístico entre la inhibición de la integrasa y la fisiopatología de la artritis reumatoide, una enfermedad autoinmune e inflamatoria articular. La similitud con la indicación original no se ha evaluado (pendiente).
 
-En conjunto, la plausibilidad mecanistica de esta prediccion es baja y no se recomienda avanzar sin evidencia adicional independiente.
+El puntaje de 99.45% es solo una predicción del modelo y no está corroborado por ningún ensayo clínico ni publicación. Debe interpretarse como una hipótesis que requiere validación independiente, no como una señal clínica.
 
-## Evidencia de Ensayos Clinicos
+Otras indicaciones predichas por TxGNN, todas con nivel L5, sin evidencia y con recomendación Hold: colangitis esclerosante (99.22%), bronquitis (99.19%), síndrome de displasia rizomélica con microftalmía colobomatosa (99.16%) y retinopatía diabética no proliferativa grave (99.03%).
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1231760002 | Apretude 600 mg suspensión inyectable de liberación prolongada | Suspensión inyectable de liberación prolongada |
+| 1201481001 | Vocabria 30 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 1231760001 | Apretude 30 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 1201481003 | Vocabria 600 mg suspensión inyectable de liberación prolongada | Suspensión inyectable de liberación prolongada |
+
+Titular de las cuatro autorizaciones: Viiv Healthcare B.V.
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-No existe evidencia clinica ni bibliografica que respalde la asociacion entre cabotegravir y la artritis reumatoide, y el vinculo mecanistico propuesto es biologicamente inconsistente con el modo de accion antirretroviral conocido del farmaco. El nivel de evidencia (L5) corresponde unicamente a una prediccion del modelo, sin ningun estudio real de respaldo.
+**Justificación:**
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que la respalden, y no existe un vínculo mecanístico plausible con la artritis reumatoide.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica de la TFDA con advertencias y contraindicaciones (actualmente bloqueante para la evaluacion de seguridad S1)
-- Confirmar el mecanismo de accion (MOA) mediante consulta directa a DrugBank u otra fuente farmacologica primaria
-- Identificar estudios preclinicos o de mecanismo que exploren alguna relacion inmunomoduladora de cabotegravir, de existir
-- Evaluar si el puntaje TxGNN es reproducible o corresponde a ruido del modelo antes de invertir en investigacion adicional
+- Descargar y analizar el prospecto de la AEMPS para obtener advertencias y contraindicaciones (brecha bloqueante para el cribado de seguridad)
+- Obtener datos del mecanismo de acción desde DrugBank para analizar un posible vínculo mecanístico
+- Buscar evidencia preclínica o de literatura que relacione cabotegravir con la artritis reumatoide
+- Evaluar la compatibilidad de vías de administración, hoy pendiente
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

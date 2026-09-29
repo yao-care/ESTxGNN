@@ -2,7 +2,7 @@
 layout: default
 title: Efmoroctocog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 101
+nav_order: 193
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,41 +29,41 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Efmoroctocog Alfa: De Hemofilia A a Pseudo-Enfermedad de von Willebrand
+# Efmoroctocog alfa: De Hemofilia A a Pseudo-enfermedad de von Willebrand
 
 ## Resumen en Una Frase
 
-Efmoroctocog alfa (rFVIIIFc) es un producto de reemplazo del Factor VIII de coagulacion, utilizado en el tratamiento de la hemofilia A (deficiencia de Factor VIII), segun se desprende de las justificaciones mecanisticas incluidas en este mismo paquete de evidencia. El modelo TxGNN predice que podria ser efectivo para **Pseudo-Enfermedad de von Willebrand**, con una puntuacion muy alta (99.99%), pero actualmente **no existe ningun ensayo clinico ni publicacion** que respalde esta direccion, y la propia justificacion mecanistica generada advierte que la relacion podria ser indirecta.
+Efmoroctocog alfa es una proteína de fusión recombinante del factor VIII unido a Fc (FVIII-Fc), utilizada originalmente para la hemofilia A. El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de von Willebrand** (von Willebrand de tipo plaquetario), pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Hemofilia A (deficiencia de Factor VIII) — no hay ficha tecnica en Espana disponible, ya que el farmaco no esta comercializado |
-| Nueva Indicacion Predicha | Pseudo-Enfermedad de von Willebrand |
-| Puntaje de Prediccion TxGNN | 99.997% |
+| Indicación Original | Hemofilia A (deducida del contexto del fármaco; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) |
+| Puntaje de Predicción TxGNN | 99.997% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | Sin comercializar |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 8 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en este Evidence Pack (Data Gap de severidad alta). Sin embargo, a partir de las justificaciones mecanisticas generadas para otras indicaciones predichas del mismo farmaco (por ejemplo, la referencia a "rFVIIIFc" en el candidato de deficiencia adquirida de factores de coagulacion), se puede establecer que efmoroctocog alfa es una proteina de fusion Factor VIII-Fc, cuya funcion es sustituir el Factor VIII deficiente en la cascada de coagulacion, tal y como ocurre en la hemofilia A.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, efmoroctocog alfa es un factor VIII recombinante fusionado a Fc, cuya eficacia en la hemofilia A (reposición del FVIII deficiente) está comprobada. Mecanísticamente, su aplicabilidad a la nueva indicación es dudosa.
 
-La pseudo-enfermedad de von Willebrand, sin embargo, **no es causada por una deficiencia de Factor VIII**, sino por una mutacion del gen GP1BA que aumenta anomalamente la afinidad de la glicoproteina plaquetaria GPIb por el Factor von Willebrand (VWF). Es decir, el defecto es plaquetario, no un deficit del factor que efmoroctocog alfa repone.
+La pseudo-enfermedad de von Willebrand (tipo plaquetario) se debe a una mutación de ganancia de función en GP1BA. Esta provoca una unión anormal entre las plaquetas y el factor von Willebrand (VWF) y la pérdida de multímeros grandes de VWF. La reposición de FVIII no corrige ese defecto. Cualquier vínculo con el fármaco es indirecto y se apoya solo en la predicción del modelo.
 
-Por ello, la propia razon mecanistica incluida en el Evidence Pack senala explicitamente que **no hay una justificacion fisiopatologica clara** para usar este farmaco en esta indicacion, y que la puntuacion elevada de TxGNN probablemente refleje una proximidad de red entre el complejo VWF-FVIII, mas que una relacion causal directa. Esto explica por que, pese al altisimo score, la evidencia real (ensayos y literatura) es nula.
+La puntuación alta probablemente refleja la cercanía en el grafo de conocimiento entre "trastornos hemorrágicos" y "hemostasia", más que una justificación biológica. Las otras nueve indicaciones predichas (rangos 2 a 10) también quedan en L5 y Hold, y la mayoría carece de un mecanismo plausible. La más próxima biológicamente es "hemofilia A con anomalía vascular", pero tampoco tiene evidencia aportada.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,24 +73,39 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Consideraciones de Seguridad
+## Información de Mercado en España
 
-Consultar el prospecto para informacion de seguridad. (El farmaco no esta comercializado en Espana, por lo que actualmente no existe ficha tecnica local; tampoco se han identificado interacciones farmacologicas en las bases de datos consultadas.)
+Se muestran 5 de las 8 autorizaciones. Todas son de Swedish Orphan Biovitrum AB (Publ).
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1151046005 | Elocta 1500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
+| 1151046004 | Elocta 1000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
+| 1151046002 | Elocta 500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
+| 1151046001 | Elocta 250 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
+| 1151046007 | Elocta 3000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
 
 ---
 
-## Conclusion y Proximos Pasos
+## Consideraciones de Seguridad
 
-**Decision: Hold**
+Consultar el prospecto para información de seguridad.
 
-**Justificacion:**
-Aunque la puntuacion de TxGNN es muy alta, la propia justificacion mecanistica generada indica que no existe una relacion fisiopatologica clara entre el reemplazo de Factor VIII y la pseudo-enfermedad de von Willebrand (un trastorno plaquetario, no de coagulacion). Ademas, no hay ningun ensayo clinico ni publicacion que respalde esta indicacion, y falta informacion regulatoria basica (el farmaco no esta comercializado en Espana).
+---
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones. El defecto de la pseudo-enfermedad de von Willebrand está en la interacción GP1BA-VWF, no en la cantidad de FVIII, por lo que la reposición de FVIII no tiene una base mecanística clara.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de accion (MOA) directamente desde DrugBank (Data Gap DG002)
-- Ficha tecnica/prospecto de TFDA-AEMPS con advertencias y contraindicaciones (Data Gap DG001, bloqueante para evaluacion de seguridad S1)
-- Evaluacion in vitro/preclinica de si la modulacion del complejo VWF-FVIII tiene algun efecto sobre la afinidad GPIb-VWF alterada en esta enfermedad
-- Nota complementaria: dentro de este mismo Evidence Pack, los candidatos "deficiencia adquirida de factores de coagulacion" y "hemofilia A con anomalia vascular" (ambos L4/Research Question) presentan una plausibilidad mecanistica considerablemente mayor que el candidato de mayor puntuacion, y podrian merecer revision prioritaria pese a su score TxGNN mas bajo.
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un paso que bloquea el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Confirmar las indicaciones aprobadas de cada autorización española.
+- Realizar una revisión de literatura dirigida (FVIII en el tipo plaquetario de von Willebrand) antes de reconsiderar la candidatura.
+- Si se reevalúa el fármaco, priorizar "hemofilia A con anomalía vascular", que es la indicación más cercana biológicamente, definiendo antes su componente vascular o de VWF.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

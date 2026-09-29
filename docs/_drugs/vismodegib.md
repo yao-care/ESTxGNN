@@ -2,7 +2,7 @@
 layout: default
 title: Vismodegib
 parent: Solo predicción del modelo (L5)
-nav_order: 294
+nav_order: 564
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,79 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vismodegib: De Carcinoma Basocelular a Meduloblastoma con Nodularidad Extensa
+# Vismodegib: De Carcinoma Basocelular Avanzado a Meduloblastoma con Nodularidad Extensa
 
 ## Resumen en Una Frase
 
-Vismodegib es un inhibidor oral de la via Hedgehog (antagonista de SMO), originalmente aprobado para el carcinoma basocelular localmente avanzado o metastasico. El modelo TxGNN predice que podria ser efectivo para **Meduloblastoma con Nodularidad Extensa** (subtipo SHH-activado), con una puntuacion del **99.93%**, pero actualmente **no hay ensayos clinicos ni publicaciones especificas** en este Evidence Pack que respalden directamente esta asociacion — la base es unicamente mecanistica.
+Vismodegib es un inhibidor oral de la vía Hedgehog (bloquea Smoothened, SMO), comercializado como Erivedge para el carcinoma basocelular avanzado.
+El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodularidad extensa**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta indicación concreta: es solo una predicción del modelo.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Carcinoma basocelular localmente avanzado o metastasico |
-| Nueva Indicacion Predicha | Meduloblastoma con nodularidad extensa |
-| Puntaje de Prediccion TxGNN | 99.93% |
+| Indicación Original | Carcinoma basocelular localmente avanzado o metastásico (según la literatura; la ficha de AEMPS no incluye texto de indicación) |
+| Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa |
+| Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Vismodegib inhibe Smoothened (SMO), una proteína clave de la vía Hedgehog. Esta vía está hiperactivada en la mayoría de los carcinomas basocelulares, y por eso el fármaco se usa en esa enfermedad. Actualmente no se dispone de datos detallados del mecanismo de acción en DrugBank para este paquete de evidencia.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en la ficha del farmaco (campo MOA marcado como vacio). Segun la literatura disponible en este mismo Evidence Pack, vismodegib es un inhibidor de la via Hedgehog que se une a Smoothened (SMO), bloqueando la activacion aberrante de esta via de senalizacion y la proliferacion tumoral asociada; fue el primer farmaco de esta clase aprobado para carcinoma basocelular.
+El meduloblastoma con nodularidad extensa suele estar impulsado por la vía SHH (Sonic Hedgehog). Por eso, biológicamente, la predicción es plausible: el mismo mecanismo que sustenta el uso en carcinoma basocelular podría aplicarse a este tumor cerebral.
 
-La nueva indicacion predicha, meduloblastoma con nodularidad extensa, corresponde a un subtipo de meduloblastoma **SHH-activado** (dependiente de la misma via Sonic Hedgehog/SMO que el carcinoma basocelular). Existe por tanto una logica mecanistica compartida entre ambas indicaciones: en ambos casos el tumor depende de una activacion anomala de la via Hedgehog, lo que en principio haria a vismodegib farmacologicamente aplicable.
+Hay dos limitaciones importantes:
+- Los tumores con mutaciones por debajo de SMO en la vía (por ejemplo, *SUFU*) probablemente serían resistentes.
+- En pacientes pediátricos habría que revisar la toxicidad sobre el cartílago de crecimiento (fusión epifisaria prematura).
 
-Sin embargo, esta relacion es puramente una inferencia mecanistica del modelo. No se han identificado en este Evidence Pack ensayos clinicos ni literatura que evaluen directamente vismodegib en este subtipo especifico de meduloblastoma, por lo que la asociacion debe considerarse una hipotesis de investigacion, no una evidencia clinica.
+## Evidencia de Ensayos Clínicos
 
----
-
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clinicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 113848001 | ERIVEDGE 150 MG CAPSULAS DURAS (Roche Registration GmbH) | Cápsula dura | — |
 
 ## Citotoxicidad
 
-Vismodegib es un farmaco antineoplasico (indicacion original oncologica, carcinoma basocelular), por lo que aplica esta seccion.
-
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (inhibidor de la via Hedgehog/SMO), no es quimioterapia citotoxica convencional |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto (sin datos de toxicidad en este informe) |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de SMO / vía Hedgehog) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Espasmos musculares, disgeusia y alopecia (efectos descritos para el uso en carcinoma basocelular); resto según el prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
----
+## Conclusión y Próximos Pasos
 
-## Conclusion y Proximos Pasos
+**Decisión: Hold**
 
-**Decision: Hold**
+**Justificación:**
+Para meduloblastoma con nodularidad extensa solo existe la predicción del modelo (L5), sin ensayos ni literatura. Además, la seguridad en población pediátrica es una preocupación y la resistencia por mutaciones posteriores a SMO es posible.
 
-**Justificacion:**
-La prediccion tiene una puntuacion TxGNN elevada (99.93%) y una racional mecanistica coherente (via Hedgehog/SMO compartida entre carcinoma basocelular y meduloblastoma SHH-activado), pero no cuenta con ningun ensayo clinico ni publicacion especifica en este Evidence Pack (Nivel de Evidencia L5). Sin datos reales, no se justifica avanzar mas alla de la fase de hipotesis de investigacion.
+Como referencia, la indicación de mayor evidencia entre las predichas es "cáncer de piel" (en la práctica, carcinoma basocelular), con nivel L2 y decisión "Proceed with Guardrails". Corresponde al uso ya comercializado del fármaco.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de accion (MOA) desde DrugBank (actualmente vacio)
-- Ficha tecnica/prospecto de la AEMPS con advertencias, contraindicaciones e interacciones (actualmente vacio, marcado como bloqueante)
-- Busqueda dirigida de ensayos clinicos y literatura sobre vismodegib especificamente en meduloblastoma SHH-activado o con nodularidad extensa
-- Evaluacion adicional de otras indicaciones predichas con evidencia mas solida detectadas en el mismo lote (p. ej. la asociacion con "skin cancer", que ya cuenta con 23 ensayos clinicos y 20 publicaciones, aunque coincide en gran medida con la indicacion original)
+- Búsqueda de literatura y ensayos específicos de vismodegib en meduloblastoma SHH.
+- Confirmar el subtipo molecular (SHH, ausencia de mutaciones en *SUFU*) que justificaría el uso.
+- Evaluar la toxicidad en el crecimiento óseo si se considera población pediátrica.
+- Obtener las advertencias y contraindicaciones del prospecto de AEMPS.
+- Completar los datos del mecanismo de acción desde DrugBank.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

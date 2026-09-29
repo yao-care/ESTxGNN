@@ -2,7 +2,7 @@
 layout: default
 title: Minoxidil
 parent: Evidencia moderada (L3-L4)
-nav_order: 184
+nav_order: 357
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,62 +29,93 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Minoxidil: De Hipertensión Arterial a Hipotricosis Simple del Cuero Cabelludo
+# Minoxidil: De Indicación Original No Registrada a Hipotricosis Simple del Cuero Cabelludo
 
 ## Resumen en Una Frase
 
-Minoxidil es un vasodilatador oral utilizado clásicamente para el tratamiento de la hipertensión arterial grave, actuando como abridor de canales de potasio (K+ ATP).
-El modelo TxGNN predice que podría ser efectivo para la **Hipotricosis Simple del Cuero Cabelludo**, una enfermedad genética rara del folículo piloso,
-con evidencia actual limitada a **3 publicaciones de casos clínicos** y **ningún ensayo clínico registrado**.
+Minoxidil está comercializado en España en solución cutánea y en comprimidos, pero los datos de AEMPS suministrados no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para la **hipotricosis simple del cuero cabelludo**, una alopecia hereditaria rara.
+Esta dirección está respaldada por **0 ensayos clínicos** y **3 publicaciones**, todas de reportes de caso con terapias combinadas.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Hipertensión arterial grave (uso oral histórico) |
-| Nueva Indicacion Predicha | Hipotricosis Simple del Cuero Cabelludo |
-| Puntaje de Prediccion TxGNN | 99.9999% |
+| Indicación Original | No disponible: los textos de indicación de las autorizaciones de AEMPS están vacíos |
+| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
+| Puntaje de Predicción TxGNN | 99.9999% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de una ficha estructurada del mecanismo de acción (MOA) para minoxidil. Sin embargo, la literatura recogida en este informe describe a minoxidil como un abridor de canales de potasio (K+ ATP) con efecto vasodilatador que, a nivel folicular, prolonga la fase anágena e induce la vía de señalización Wnt/β-catenina — mecanismo ya reconocido y aprovechado en el uso tópico establecido de minoxidil para la alopecia androgenética (AGA).
+## ¿Por qué es Razonable esta Predicción?
 
-La hipotricosis simple del cuero cabelludo es un trastorno monogénico autosómico dominante raro, asociado a variantes del gen *CDSN* (corneodesmosina), que al igual que la AGA cursa con alteración del ciclo de crecimiento del folículo piloso. Dado que el efecto de minoxidil actúa directamente sobre ese ciclo (fases anágena/telógena) con independencia de la causa subyacente de la miniaturización folicular, existe una lógica mecanística razonable para extender su uso a esta indicación.
+Minoxidil es un abridor de canales de potasio dependientes de ATP (K-ATP). Acorta la fase telógena, prolonga la fase anágena y podría aumentar la expresión de VEGF, lo que favorece el rebrote del cabello. La base de datos no aporta un texto de mecanismo de acción (MOA) propio. Esta descripción proviene del razonamiento de reposicionamiento incluido en el Evidence Pack.
 
-No obstante, al tratarse de una enfermedad genética con muy pocos pacientes en el mundo, es intrínsecamente difícil generar evidencia de mayor nivel (ensayos aleatorizados), por lo que la evidencia disponible se limita a reportes de caso aislados, muchas veces en combinación con otras terapias (factores de crecimiento, extractos botánicos, PRP).
+La hipotricosis simple del cuero cabelludo es un trastorno monogénico autosómico dominante, asociado a variantes del gen CDSN (corneodesmosina), con miniaturización folicular hereditaria. Un fármaco que estimula el crecimiento del folículo es, en teoría, aplicable a este cuadro. No existe hoy un tratamiento definitivo ni satisfactorio.
 
-## Evidencia de Ensayos Clinicos
+Esta plausibilidad es solo mecanística. Las tres publicaciones describen minoxidil oral o tópico combinado con factores de crecimiento, extractos botánicos o plasma rico en plaquetas (PRP). Como todos son casos aislados con cointervenciones, no se puede atribuir el efecto observado al minoxidil.
+
+---
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Reporte de caso | Frontiers in genetics | Caso familiar de HSS en un niño de 8 años por mutación en *CDSN*, tratado con combinación de extractos botánicos y minoxidil |
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Reporte de caso | Dermatologic therapy | Tratamiento de hipotricosis simple hereditaria del cuero cabelludo con minoxidil oral combinado con factores de crecimiento |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Reporte de caso | The Journal of dermatological treatment | Tratamiento exitoso mediante inyección de plasma rico en plaquetas (PRP) combinada con minoxidil tópico al 2% |
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Reporte/serie de casos | Dermatologic Therapy | Tratamiento de hipotricosis simple hereditaria con minoxidil oral y factores de crecimiento (sin resumen disponible; según el título) |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Reporte de caso | Frontiers in Genetics | Niño de 8 años con HSS por mutación de CDSN, tratado con extractos botánicos y minoxidil |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Reporte de caso | Journal of Dermatological Treatment | Paciente de 14 años tratada con inyecciones de PRP y minoxidil tópico al 2%, con resultado descrito como exitoso |
+
+---
+
+## Información de Mercado en España
+
+Hay 20 autorizaciones en total. Se listan las 5 principales:
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 84231 | NORMOPIL 50 mg/ml solución cutánea | Solución cutánea | No disponible en los datos suministrados |
+| 57597 | REGAXIDIL 20 mg/ml solución cutánea | Solución cutánea | No disponible en los datos suministrados |
+| 57822 | DINAXIL 20 mg/ml solución cutánea | Solución cutánea | No disponible en los datos suministrados |
+| 91046 | MINOGAL 5 mg comprimidos EFG | Comprimido | No disponible en los datos suministrados |
+| 66953 | ALOXIDIL 50 mg/ml solución cutánea | Solución cutánea | No disponible en los datos suministrados |
+
+Existen formulaciones cutáneas (solución, incluida la de pulverización) y orales (comprimidos), por lo que ambas vías usadas en la literatura cuentan con presentaciones comercializadas.
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+---
+
+## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible para esta indicación se limita a 3 reportes de caso (nivel L4), sin ningún ensayo clínico registrado, en una enfermedad genética de muy baja prevalencia. Esto corresponde a una etapa de "pregunta de investigación" (S2), insuficiente para avanzar incluso con medidas de mitigación (guardrails).
+La evidencia se limita a tres reportes de caso con terapias combinadas, sin ensayos registrados ni grupo control. Además, faltan los datos de seguridad de la ficha técnica de AEMPS, por lo que no se puede avanzar a la evaluación de seguridad. El Evidence Pack clasifica esta indicación como "pregunta de investigación" (etapa S1).
 
 **Para avanzar se necesita:**
-- Datos estructurados del mecanismo de acción (MOA) de minoxidil
-- Advertencias y contraindicaciones del prospecto (TFDA/AEMPS), actualmente bloqueado como data gap crítico
-- Series de casos más amplias o un registro de pacientes con hipotricosis simple, dado lo improbable de un ECA en esta población
-- Evaluación de interacciones farmacológicas, ya que la base de datos DDI no arrojó resultados
+- Descargar y analizar el prospecto/ficha técnica de AEMPS (advertencias y contraindicaciones), un vacío bloqueante en los datos.
+- Obtener el texto de indicación aprobada de las autorizaciones para definir con precisión la indicación original.
+- Consultar el mecanismo de acción en DrugBank para reforzar el vínculo mecanístico.
+- Reunir evidencia que separe el efecto del minoxidil del de las cointervenciones (series de casos más amplias o un estudio controlado).
+- Definir la vía y la dosis (tópica u oral de baja dosis), y evaluar la seguridad en población pediátrica, dado que los casos descritos son niños y adolescentes.
+
+*Los resultados de este informe son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

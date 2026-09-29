@@ -2,7 +2,7 @@
 layout: default
 title: Interferon Beta-1B
 parent: Evidencia moderada (L3-L4)
-nav_order: 148
+nav_order: 286
 evidence_level: L3
 indication_count: 2
 ---
@@ -29,67 +29,74 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-# Interferon Beta-1b: De Indicación Original No Documentada a Leucemia de Células Pilosas
+# Interferón beta-1b: De Esclerosis Múltiple a Leucemia de Células Pilosas
 
 ## Resumen en Una Frase
 
-La indicación original de interferon beta-1b no está documentada en esta fuente de datos (brecha de datos bloqueante, ver Conclusión). El modelo TxGNN predice que podría ser efectivo para **Leucemia de Células Pilosas (Hairy Cell Leukemia)**, con **4 publicaciones** históricas que respaldan esta dirección, sin ensayos clínicos registrados específicamente para esta indicación.
-
----
+El interferón beta-1b es un interferón de tipo I comercializado en España (Betaferon, Extavia), utilizado originalmente en la esclerosis múltiple recurrente-remitente.
+El modelo TxGNN predice que podría ser efectivo para la **leucemia de células pilosas**, aunque la evidencia se limita a **4 publicaciones** (series pequeñas de 1987-1990) y **ningún ensayo clínico** registrado.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en esta fuente (brecha de datos bloqueante DG001) |
-| Nueva Indicación Predicha | Leucemia de Células Pilosas (Hairy Cell Leukemia) |
-| Puntaje de Predicción TxGNN | 99.16% |
+| Indicación Original | Esclerosis múltiple (según el Evidence Pack; el texto de indicación de la AEMPS viene vacío) |
+| Nueva Indicación Predicha | Leucemia de células pilosas (hairy cell leukemia) |
+| Puntaje de Predicción TxGNN | 99,16% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Taiwán/España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, el interferón beta-1b es un interferón de tipo I (análogo beta-ser17) y actúa a través del receptor IFNAR, el mismo que utiliza el interferón alfa. Su eficacia en esclerosis múltiple está comprobada, y mecanísticamente podría ser aplicable a la leucemia de células pilosas.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de interferon beta-1b en esta fuente. Según la información disponible, se trata de un interferón tipo I con actividad antiproliferativa directa y capacidad de inducir diferenciación celular.
+El interferón alfa se usó históricamente en esta leucemia. La señalización antiproliferativa e inmunomoduladora por IFNAR explicaría de forma plausible la actividad observada en las series clínicas de los años 80 y 90.
 
-El razonamiento de vinculación mecanística indica que los interferones tipo I (incluyendo beta-1b) inhiben la proliferación de los linfocitos B neoplásicos característicos de la leucemia de células pilosas, con un mecanismo similar al ya conocido del interferón alfa en esta misma indicación. Esta similitud de clase terapéutica es la base principal de la predicción del modelo TxGNN.
-
-Es importante señalar una limitación relevante: el estándar de tratamiento actual para leucemia de células pilosas ha migrado hacia los análogos de purina (cladribina, pentostatina), por lo que el interferón beta tendría hoy un papel principalmente histórico más que de primera línea, según se refleja también en la literatura disponible (ver más abajo).
-
----
+Sin embargo, la relevancia clínica actual es baja. Los análogos de purinas (cladribina, pentostatina) son hoy el tratamiento estándar, por lo que la necesidad clínica de interferón beta en esta enfermedad es reducida.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Cohorte retrospectiva | Leukemia | 51 pacientes con HCL tratados con interferones tipo I; mejoría hematológica en 71% de los tratados con interferón beta-ser recombinante, comparable a interferón alfa |
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Estudio comparativo prospectivo | Cancer | 10 pacientes con HCL tratados con interferón beta-ser recombinante (90×10⁶ U SC, 3x/semana); 63% normalización de conteos sanguíneos periféricos |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Estudio clínico de un solo brazo | American Journal of Hematology | 12 pacientes con HCL (compromiso medular 90-100% células pilosas) tratados con interferón beta-ser IV, 90 millones U 3x/semana |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Serie de casos | American Journal of Clinical Oncology | Pacientes que fallaron a interferón alfa o beta-ser lograron respuesta completa con 2'-deoxicoformicina (pentostatina), sugiriendo el rol posterior de los análogos de purina tras fallo a interferón |
+| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Estudio clínico prospectivo comparativo (pequeño) | Cancer | 10 pacientes tratados con IFN beta-ser subcutáneo (90 x 10^6 U, 3 veces por semana). De 8 evaluables, 5 (63%) normalizaron el hemograma y 2 (25%) mejoraron al menos un parámetro. Persistieron células pilosas en la médula de todos. Comparado prospectivamente con interferón alfa |
+| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Cohorte retrospectiva unicéntrica | Leukemia | Experiencia de UCLA con 51 pacientes. Mejoría hematológica en el 96% con alfa-2b recombinante, 69% con alfa-N1 linfoblastoide y 71% (5 pacientes) con beta-ser recombinante |
+| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Serie pequeña de casos | Am J Hematol | 12 pacientes con leucemia de células pilosas (10 con tratamiento previo) recibieron IFN beta-ser intravenoso, 90 millones de U tres veces por semana. Los autores lo describen como tratamiento exitoso |
+| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Reporte de casos (evidencia indirecta) | Am J Clin Oncol | Tres pacientes que fallaron a interferón (uno a beta-ser) lograron respuesta completa con 2'-desoxicoformicina. Sugiere una alternativa tras el fracaso del interferón |
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 95003005 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | Bayer Ag |
+| 95003008 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | Bayer Ag |
+| 108454008 | Extavia 250 microgramos/ml | Polvo y solución para solución inyectable | Novartis Europharm Limited |
+| 95003005IP1 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | Bayer Ag |
+| 95003003 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | Bayer Pharma Ag |
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad. No hay interacciones farmacológicas registradas en los datos disponibles. Las guardarraíles descritas en el Evidence Pack para el uso establecido del fármaco incluyen monitorizar enzimas hepáticas, hemograma, función tiroidea, depresión y reacciones en el sitio de inyección. Los anticuerpos neutralizantes pueden reducir la eficacia.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible para esta indicación proviene exclusivamente de estudios pequeños y series de casos de finales de los años 1980, sin ensayos clínicos activos registrados. Además, existe una brecha de datos bloqueante (DG001: ausencia de información de seguridad/prospecto TFDA) que impide completar la evaluación de seguridad inicial (S1).
+La evidencia para leucemia de células pilosas proviene solo de series pequeñas de 1987-1990, sin ensayos clínicos registrados. Además, los análogos de purinas son el estándar actual, por lo que el interés clínico es bajo y es más una pregunta de investigación que una candidata a reposicionamiento.
 
 **Para avanzar se necesita:**
-- Prospecto/ficha técnica con advertencias y contraindicaciones (DG001, bloqueante)
-- Datos del mecanismo de acción (MOA) (DG002)
-- Evidencia clínica moderna (la disponible tiene más de 35 años) o revisión sistemática actualizada
-- Evaluación de relevancia clínica frente al estándar de cuidado actual (análogos de purina)
+- Comparar la actividad del interferón beta con el tratamiento estándar actual (cladribina, pentostatina) para justificar cualquier necesidad clínica.
+- Datos de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones).
+- Datos del mecanismo de acción (MOA) desde DrugBank.
+- Completar el texto de indicación aprobada en los registros de la AEMPS, hoy vacío.
+
+**Nota:** la segunda predicción del modelo, enfermedad autoinmune del sistema nervioso central (esclerosis múltiple, evidencia L1), corresponde a una indicación ya establecida y comercializada, no a un reposicionamiento novedoso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

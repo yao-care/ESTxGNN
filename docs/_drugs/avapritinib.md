@@ -2,7 +2,7 @@
 layout: default
 title: Avapritinib
 parent: Solo predicción del modelo (L5)
-nav_order: 29
+nav_order: 55
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,41 +29,42 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Avapritinib: De Indicacion Original No Documentada a Axial Spondylometaphyseal Dysplasia
+# Avapritinib: De Inhibidor de Quinasas KIT/PDGFRA a Displasia Espondilometafisaria Axial
 
 ## Resumen en Una Frase
 
-No hay datos disponibles en este Evidence Pack sobre la indicacion original ni el mecanismo de accion de avapritinib (brecha de datos bloqueante en la fuente TFDA). El modelo TxGNN predice una posible relacion con **axial spondylometaphyseal dysplasia**, con una puntuacion de **99.92%**, pero esta prediccion no cuenta actualmente con **ningun ensayo clinico ni publicacion** que la respalde.
+Avapritinib es un inhibidor de quinasas de las familias KIT/PDGFRA, comercializado en España con el nombre Ayvakyt. Los datos de autorización recibidos no detallan su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para la **displasia espondilometafisaria axial**, una displasia esquelética rara, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección. La predicción es puramente computacional.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en la evidencia actual (sin autorizaciones registradas, MOA en brecha) |
-| Nueva Indicacion Predicha | Axial spondylometaphyseal dysplasia |
-| Puntaje de Prediccion TxGNN | 99.92% |
+| Indicación Original | No consta en los datos de autorización de la AEMPS recibidos |
+| Nueva Indicación Predicha | Displasia espondilometafisaria axial |
+| Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Taiwan | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion de avapritinib en este informe (brecha de datos de severidad alta, DG002). Tampoco hay indicacion original registrada ni autorizaciones de mercado en Taiwan, por lo que no es posible establecer una comparacion mecanistica entre un uso previo y la neoplasia/enfermedad predicha.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, avapritinib es un inhibidor de quinasas KIT/PDGFRA de uso oncológico. No hay datos que permitan trazar un vínculo mecanístico con la displasia espondilometafisaria axial.
 
-Segun la propia evidencia recopilada, la puntuacion de TxGNN para axial spondylometaphyseal dysplasia refleja unicamente similitud de embeddings dentro del grafo de conocimiento, no una relacion mecanistica verificada: no existe ningun ensayo clinico, registro ICTRP ni publicacion en PubMed que conecte el farmaco con esta displasia osea rara.
+Con la información disponible, **no se ha establecido ningún vínculo mecanístico**. Se trata de una displasia esquelética rara sin conexión conocida con las rutas de KIT o PDGFRA. El único respaldo es el puntaje elevado del grafo de conocimiento de TxGNN (0.9992), que es una predicción computacional y no evidencia.
 
-Es relevante notar que, de las 10 indicaciones predichas en este paquete, 5 pertenecen al espectro de esclerosis lateral amiotrofica (ALS) y sindromes de neurona motora relacionados (rangos 3, 5, 6, 7, 9, 10), todas con el mismo patron: puntuaciones de TxGNN muy altas y cercanas entre si, pero cero evidencia clinica o bibliografica. Este agrupamiento sugiere que las predicciones en este rango del modelo podrian estar influenciadas por nodos de alta conectividad en el grafo (posible artefacto de "hub"), y no por una senal farmacologica especifica. Todas las 10 indicaciones fueron clasificadas por el propio sistema como L5 / Hold.
+Además, la similitud con la indicación original queda pendiente de evaluación. Conviene interpretar el puntaje con cautela: entre las 10 primeras predicciones, siete pertenecen al grupo de esclerosis lateral amiotrófica (ELA) y enfermedades de la motoneurona. Esto sugiere que los puntajes reflejan agrupamiento por vecindad en el grafo y no señales independientes.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,25 +74,53 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Consideraciones de Seguridad
+## Información de Mercado en España
 
-Consultar el prospecto para informacion de seguridad.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1201473004 | Ayvakyt 25 mg | Comprimido recubierto con película |
+| 1201473005 | Ayvakyt 50 mg | Comprimido recubierto con película |
+| 1201473001 | Ayvakyt 100 mg | Comprimido recubierto con película |
+| 1201473002 | Ayvakyt 200 mg | Comprimido recubierto con película |
+| 1201473003 | Ayvakyt 300 mg | Comprimido recubierto con película |
+
+Titular de todas las autorizaciones: Blueprint Medicines (Netherlands) B.V.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Citotoxicidad
 
-**Decision: Hold**
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de quinasas KIT/PDGFRA) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
-**Justificacion:**
-No existe evidencia clinica ni bibliografica para ninguna de las 10 indicaciones predichas (todas en nivel L5), y faltan datos criticos de seguridad y mecanismo de accion (brecha bloqueante DG001 sobre advertencias/contraindicaciones TFDA, y brecha alta DG002 sobre MOA). El farmaco tampoco esta comercializado en Taiwan. No hay base suficiente para avanzar a evaluacion de seguridad (S1) en ninguna de las direcciones predichas.
+---
+
+## Consideraciones de Seguridad
+
+- **Señales neurológicas**: el análisis de las predicciones señala eventos adversos del sistema nervioso central asociados a avapritinib (hemorragia intracraneal y efectos cognitivos). Esto es relevante para cualquier uso neurológico. Esta información no proviene de las advertencias del prospecto de la AEMPS, que no se recibieron.
+- **Interacciones farmacológicas**: no se encontraron interacciones registradas en la consulta realizada.
+
+Consultar el prospecto para el resto de la información de seguridad.
+
+---
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible. Las señales de seguridad del sistema nervioso central añaden cautela.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto/ficha tecnica de TFDA con advertencias y contraindicaciones (DG001, bloqueante)
-- Obtener el mecanismo de accion (MOA) desde DrugBank API (DG002)
-- Confirmar la(s) indicacion(es) original(es) aprobada(s) del farmaco, actualmente ausentes en este paquete
-- Evaluar si la agrupacion de predicciones tipo ALS refleja una senal real o un artefacto del modelo antes de priorizar recursos de validacion
-- Revisar interacciones farmacologicas (DDI), actualmente sin datos ("not_found")
+- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada), que es un requisito bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Buscar evidencia preclínica que relacione KIT/PDGFRA con la displasia espondilometafisaria axial.
+- Revisar el agrupamiento de predicciones en torno a ELA y enfermedades de la motoneurona antes de darles peso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

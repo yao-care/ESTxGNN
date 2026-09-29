@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Solo predicción del modelo (L5)
-nav_order: 131
+nav_order: 253
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,35 +29,36 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# GALCANEZUMAB: De Migraña/Cefalea en Racimos a Deficiencia de Cofactor II de Heparina
+# Galcanezumab: De Migraña a Deficiencia de Cofactor II de la Heparina
 
 ## Resumen en Una Frase
 
-Galcanezumab es un anticuerpo monoclonal anti-CGRP, utilizado originalmente para la prevención de la migraña y la cefalea en racimos.
-El modelo TxGNN predice que podría ser efectivo para la **Deficiencia de Cofactor II de Heparina**,
-pero actualmente **no existen ensayos clínicos ni publicaciones** que respalden esta direccion — la prediccion se apoya unicamente en el puntaje del modelo.
+Galcanezumab es un anticuerpo monoclonal que neutraliza el péptido CGRP y está comercializado en España con el nombre Emgality. Los registros de autorización recibidos no indican su indicación original.
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofactor II de la heparina**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Migraña / cefalea en racimos (segun mecanismo de accion conocido; sin licencias registradas en España) |
-| Nueva Indicacion Predicha | Deficiencia de Cofactor II de Heparina |
-| Puntaje de Prediccion TxGNN | 99.50% |
+| Indicación Original | No especificada en los registros de autorización recibidos |
+| Nueva Indicación Predicha | Deficiencia de cofactor II de la heparina |
+| Puntaje de Predicción TxGNN | 99.50% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Los datos detallados de mecanismo de accion (MOA) de galcanezumab estan marcados como no disponibles en esta evaluacion. Segun la informacion contenida en el propio analisis de reposicionamiento, galcanezumab es un anticuerpo monoclonal dirigido contra CGRP (peptido relacionado con el gen de la calcitonina), con un mecanismo centrado en la via trigeminovascular, empleado en la prevencion de la migraña y la cefalea en racimos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, galcanezumab es un anticuerpo monoclonal que neutraliza el CGRP (péptido relacionado con el gen de la calcitonina). La deficiencia de cofactor II de la heparina es un defecto en un inhibidor de serina proteasas de la trombina.
 
-Este mecanismo no tiene una relacion biologica conocida con la deficiencia de cofactor II de heparina, un trastorno relacionado con la regulacion de la actividad de la trombina por una serpina (SERPIND1). El propio analisis mecanistico incluido en el expediente concluye que **no existe evidencia de que la via de CGRP module la expresion o funcion de esta proteina**, y que el efecto vasodilatador leve del CGRP no es suficiente para justificar el vinculo.
+**No se identificó ningún vínculo mecanístico plausible.** La señalización del CGRP no participa en la vía de inhibición de la trombina. El puntaje alto de TxGNN (0.995) proviene de una predicción basada en grafos de conocimiento, sin ensayos ni literatura que la respalden, y no debe interpretarse como apoyo biológico.
 
-Es relevante notar que las otras dos indicaciones predichas para este farmaco (deficiencia de antitrombina tipo 2 y exceso de factor V con trombosis espontanea) pertenecen tambien al mismo grupo de trastornos raros de la coagulacion, con puntajes TxGNN muy similares (99.41–99.41%). Este patron sugiere que la prediccion podria originarse de la proximidad de nodos en el grafo de conocimiento, mas que de una señal farmacologica real — de ahi que el propio analisis la califique como sin plausibilidad biologica.
+El CGRP tiene funciones vasodilatadoras. Por eso, cualquier efecto en una condición trombofílica requeriría una revisión de seguridad antes de considerarse un posible beneficio.
 
-## Evidencia de Ensayos Clinicos
+Las otras dos predicciones principales (deficiencia de antitrombina tipo 2, con 99.41%, y exceso de factor V con trombosis espontánea, con 99.41%) tampoco tienen ensayos, publicaciones ni vínculo mecanístico. Todas son trastornos de la coagulación, lo que sugiere un artefacto del grafo de conocimiento compartido entre estas enfermedades y no una señal específica del fármaco.
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -65,22 +66,33 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1181330001 | EMGALITY 120 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Solución inyectable | No especificada en el registro |
+| 1181330003 | EMGALITY 120 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Solución inyectable | No especificada en el registro |
+
+Ambas autorizaciones corresponden a Eli Lilly Nederland B.V.
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-No existe ningun ensayo clinico ni publicacion que respalde esta direccion, y el propio analisis mecanistico indica ausencia de plausibilidad biologica entre la via anti-CGRP y los trastornos de coagulacion predichos. El patron de puntajes similares entre las tres indicaciones (todas relacionadas con coagulacion) sugiere una posible senal artefactual del grafo de conocimiento, no una hipotesis farmacologica solida.
+**Justificación:**
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura y sin vínculo mecanístico plausible con el CGRP. Además, el contexto trombofílico exige cautela por el papel vasodilatador del CGRP.
 
 **Para avanzar se necesita:**
-- Confirmar el mecanismo de accion (MOA) detallado de galcanezumab (actualmente brecha de datos de severidad Alta)
-- Obtener el prospecto/ficha tecnica de TFDA con advertencias y contraindicaciones (brecha de datos bloqueante — DG001)
-- Estudios preclinicos que exploren una posible relacion entre la via de CGRP y la regulacion de proteinas de la coagulacion (cofactor II de heparina, antitrombina, factor V)
-- Registro de ensayos clinicos dirigidos, unicamente si se identifica una senal mecanistica real que justifique la investigacion
+- Ficha técnica de la AEMPS (advertencias y contraindicaciones), un bloqueo para el cribado de seguridad
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Indicación aprobada de las autorizaciones españolas, ausente en los registros recibidos
+- Una hipótesis biológica que justifique la predicción, con revisión de seguridad sobre riesgo trombótico, antes de considerar cualquier estudio
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

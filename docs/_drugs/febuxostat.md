@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Febuxostat
-parent: Solo predicción del modelo (L5)
-nav_order: 118
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 227
+evidence_level: L4
 indication_count: 3
 ---
 
 # Febuxostat
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +33,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Febuxostat es un inhibidor de la xantina oxidasa (XOR) utilizado habitualmente en el tratamiento de la hiperuricemia y la gota. El modelo TxGNN predice que podría ser efectivo para **Hipouricemia Renal**, pero esta dirección solo cuenta con **1 ensayo clínico** de relevancia cuestionable y **2 publicaciones** de tipo revisión, y existe una señal mecanística fuerte de que se trata de un falso positivo del modelo.
+Febuxostat es un inhibidor selectivo no purínico de la xantina oxidorreductasa (XOR) que reduce el ácido úrico en sangre. Su uso conocido es la hiperuricemia y la gota, aunque los registros de AEMPS del paquete de evidencia no incluyen el texto de indicación.
+El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pero solo hay **1 ensayo clínico** (con relevancia baja) y **2 publicaciones** (una revisión narrativa y un reporte de caso), por lo que la predicción es muy débil.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperuricemia / Gota (según información conocida de la clase farmacológica; sin ficha técnica TFDA verificada) |
-| Nueva Indicación Predicha | Hipouricemia Renal |
+| Indicación Original | No consta en los registros de AEMPS del paquete de evidencia (uso conocido: hiperuricemia/gota) |
+| Nueva Indicación Predicha | Hipouricemia renal |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha técnica (TFDA). Según la información conocida, febuxostat es un inhibidor de la xantina oxidasa (XOR) cuya acción farmacológica consiste en **reducir** la producción de ácido úrico, y su eficacia en hiperuricemia/gota está firmemente establecida.
+Febuxostat inhibe la xantina oxidorreductasa, enzima que produce ácido úrico. Por eso reduce el urato sérico. No se dispone de datos detallados de mecanismo de acción en DrugBank para este paquete, pero la naturaleza del fármaco como inhibidor de XOR es conocida.
 
-Sin embargo, en este caso el análisis mecanístico apunta en contra de la predicción, no a favor. La hipouricemia renal es una alteración genética del transportador tubular de urato (p. ej. defectos de URAT1/GLUT9) en la que el paciente **ya excreta ácido úrico en exceso** y presenta niveles séricos bajos. Administrar un fármaco que reduce aún más la síntesis de ácido úrico no trataría esta condición, sino que teóricamente la agravaría.
+La hipouricemia renal es lo contrario de la indicación original. Es un estado de urato bajo causado por una reabsorción renal defectuosa (por ejemplo, alteraciones de URAT1/GLUT9). El alto puntaje de TxGNN probablemente refleja cercanía en el grafo del metabolismo del urato y no una adecuación terapéutica real.
 
-Por esta razón, la asociación identificada por TxGNN se considera **altamente sospechosa de ser un artefacto lingüístico** entre los términos "hyperuricemia" (exceso de ácido úrico, indicación real de febuxostat) e "hypouricemia" (déficit de ácido úrico), más que una hipótesis de reposicionamiento genuina.
+La única hipótesis mecanística es que inhibir la XOR podría reducir las especies reactivas de oxígeno y el estrés del catabolismo de purinas en la lesión renal aguda inducida por el ejercicio (EIAKI), una complicación conocida de esta condición. Reducir aún más el urato podría ser contraproducente, y no hay datos clínicos que respalden un beneficio.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Desconocido | 100 | Estudio prospectivo controlado sobre el efecto del control de ácido úrico en la recurrencia de cálculos y la función renal en pacientes con litiasis por hiperuricemia. El título no especifica intervención ni indicación, y la relevancia respecto a hipouricemia renal se calificó como baja (Grado C) — no puede considerarse evidencia de soporte. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Desconocido | 100 | Estudio prospectivo controlado sobre el efecto del control del ácido úrico en la recurrencia de cálculos y la función renal en pacientes con litiasis e hiperuricemia. Relevancia baja (grado C): no se puede verificar su relación con la hipouricemia renal. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Revisión | Clinical Rheumatology | Revisión narrativa sobre hipouricemia (urato sérico <2 mg/dL), su etiología y relevancia clínica para el reumatólogo; no evalúa febuxostat como tratamiento. |
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Revisión | Internal Medicine (Tokyo) | Reporte de un caso de lesión renal aguda inducida por ejercicio (EIAKI) asociada a hipouricemia renal familiar (mutación URAT1); menciona febuxostat como posible profilaxis de EIAKI en este contexto específico, no como tratamiento de la hipouricemia en sí. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Revisión narrativa | Clinical Rheumatology | Actualización sobre hipouricemia (urato sérico < 2 mg/dL) y sus causas, dirigida al reumatólogo. No evalúa febuxostat como tratamiento. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Reporte de caso / hipótesis | Internal Medicine | Futbolista japonés de 16 años con hipouricemia renal familiar (mutaciones en URAT1) y EIAKI recurrente. La hidratación no bastó como profilaxis y se planteó febuxostat. El resumen disponible está truncado y no permite confirmar el resultado. |
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 83214 | Febuxostat Kern Pharma 120 mg EFG | Comprimido recubierto con película | Kern Pharma S.L. |
+| 83910 | Febuxostat Combix 120 mg EFG | Comprimido recubierto con película | Laboratorios Combix S.L.U. |
+| 08447014IP | Adenuric 80 mg | Comprimido recubierto con película | Menarini International Operations Luxembourg S.A. |
+| 83229 | Uxaton 80 mg EFG | Comprimido recubierto con película | Uxa Farma S.A. |
+| 83769 | Gotaric 80 mg EFG | Comprimido recubierto con película | Especialidades Farmacéuticas Centrum S.A. |
+
+Se muestran 5 de las 20 autorizaciones. Los registros no incluyen el texto de indicación aprobada.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+Desde el punto de vista mecanístico, el análisis del paquete advierte que reducir aún más el urato en una condición ya hipouricémica podría ser contraproducente.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L5 (solo predicción del modelo), el único ensayo clínico disponible tiene relevancia baja y estado de reclutamiento desconocido, y la literatura no respalda directamente el uso de febuxostat para tratar la hipouricemia renal. Además, el análisis mecanístico sugiere que la dirección farmacológica es opuesta a la necesaria para esta indicación, por lo que se sospecha un falso positivo derivado de similitud terminológica (hiperuricemia vs. hipouricemia).
+La evidencia es de nivel L4: solo hay una revisión narrativa, un reporte de caso con resultado no confirmado y un ensayo de relevancia baja. Además, la hipouricemia renal ya es un estado de urato bajo, por lo que el alto puntaje de TxGNN parece reflejar proximidad en el grafo y no un ajuste terapéutico.
 
 **Para avanzar se necesita:**
-- Obtener los datos de advertencias/contraindicaciones de la TFDA (actualmente bloqueante para la evaluación de seguridad S1)
-- Confirmar el mecanismo de acción (MOA) mediante DrugBank u otra fuente verificada
-- Revisión mecanística independiente que descarte el falso positivo antes de invertir en investigación adicional sobre esta indicación específica
-- Como alternativa, evaluar los candidatos secundarios del mismo evidence pack —deficiencia parcial de HPRT y síndrome de Lesch-Nyhan (ambos L4, etapa S1, "Research Question")— que presentan una lógica mecanística coherente con la acción real de febuxostat (reducción de producción de ácido úrico en estados de hiperuricemia por sobreproducción), aunque también carecen de ensayos clínicos directos
+- Revisar el texto completo del reporte de caso (PMID 36754409) para confirmar si febuxostat previno la EIAKI
+- Verificar en el registro completo si NCT04398251 tiene alguna relación con la hipouricemia renal
+- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones)
+- Obtener datos de mecanismo de acción desde DrugBank
+- Evaluar el riesgo de reducir aún más el urato sérico en estos pacientes
+
+**Otras predicciones del modelo (para seguimiento, con nivel L4):**
+- Deficiencia parcial de HPRT (puntaje 99.98%)
+- Síndrome de Lesch-Nyhan (puntaje 99.68%)
+
+Ambas se apoyan solo en reportes de caso y series pequeñas. Su mecanismo es más plausible que el de la hipouricemia renal, porque en ellas el urato está elevado. Habría que vigilar el riesgo de cálculos de xantina, y en Lesch-Nyhan el beneficio se limitaría al componente metabólico.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

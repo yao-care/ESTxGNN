@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Anakinra
-parent: Evidencia moderada (L3-L4)
-nav_order: 23
-evidence_level: L3
+parent: Solo predicción del modelo (L5)
+nav_order: 42
+evidence_level: L5
 indication_count: 10
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,35 +29,31 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Anakinra: De Artritis Reumatoide a Fiebre Mediterránea Familiar
+# Anakinra: Hacia Mastocitoma Extracutáneo (predicción sin evidencia directa)
 
 ## Resumen en Una Frase
 
-Anakinra es un antagonista recombinante del receptor de interleucina-1 (IL-1Ra), aprobado originalmente para el tratamiento de la artritis reumatoide y de enfermedades autoinflamatorias mediadas por IL-1.
-El modelo TxGNN predice que también podría ser efectivo para la **Fiebre Mediterránea Familiar (FMF)**,
-con **20 publicaciones** que actualmente respaldan esta dirección, aunque sin ensayos clínicos registrados en este paquete de evidencia.
-
-*Nota: TxGNN generó 10 indicaciones candidatas para anakinra en este análisis; se selecciona la Fiebre Mediterránea Familiar como la más respaldada por evidencia real (nivel L3, frente a L4-L5 del resto).*
+Anakinra es un antagonista recombinante del receptor de interleucina-1 (IL-1) que está comercializado en España como Kineret. Los datos suministrados no incluyen su indicación aprobada original.
+El modelo TxGNN predice que podría ser efectivo para **mastocitoma extracutáneo**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (indicación global conocida; el paquete de evidencia no incluye datos de comercialización en España) |
-| Nueva Indicación Predicha | Fiebre Mediterránea Familiar (autosómica recesiva) |
-| Puntaje de Predicción TxGNN | 99.89% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nueva Indicación Predicha | Mastocitoma extracutáneo |
+| Puntaje de Predicción TxGNN | 99.93% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente el paquete de evidencia no incluye datos estructurados sobre el mecanismo de acción (MOA) de anakinra. Según la información farmacológica conocida, anakinra es un antagonista recombinante del receptor de interleucina-1 (IL-1Ra) que bloquea la unión de IL-1α e IL-1β a su receptor, interrumpiendo la cascada inflamatoria mediada por esta citocina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, anakinra bloquea la señal de la IL-1, una citocina central en la inflamación. Su eficacia en enfermedades autoinflamatorias se ha estudiado, pero los datos suministrados no la documentan para esta indicación.
 
-La Fiebre Mediterránea Familiar es una enfermedad autoinflamatoria causada por mutaciones en el gen MEFV, que provocan una activación excesiva del inflamasoma de pirina y una liberación masiva de IL-1β. Al bloquear directamente el receptor de IL-1, anakinra actúa sobre la vía fisiopatológica central de la enfermedad, en lugar de tratar solo sus síntomas.
+No se puede construir una justificación mecanística a partir de los datos disponibles. El puntaje de 99.93% es únicamente una predicción del modelo. No hay ensayos ni literatura que relacionen anakinra con el mastocitoma extracutáneo, y no se ha evaluado la similitud con la indicación original.
 
-Esta relación mecanística ya cuenta con respaldo en la práctica clínica real: anakinra se utiliza fuera de indicación (off-label) en pacientes con FMF resistente o intolerante a colchicina, el tratamiento estándar de primera línea, lo que refuerza la plausibilidad biológica de la predicción del modelo TxGNN.
+Por ello, esta predicción debe tratarse como una hipótesis sin respaldo. Otras predicciones del mismo análisis tienen una base biológica y bibliográfica más sólida (ver Conclusión).
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,35 +61,37 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [23322405](https://pubmed.ncbi.nlm.nih.gov/23322405/) | 2013 | Revisión | Clin Rev Allergy Immunol | Revisión del tratamiento biológico anti-IL-1β en FMF; posiciona anakinra en pacientes resistentes a colchicina |
-| [21277619](https://pubmed.ncbi.nlm.nih.gov/21277619/) | 2011 | Serie de casos/Revisión | Semin Arthritis Rheum | Fármacos dirigidos a IL-1 (anakinra) eficaces en FMF, especialmente en resistencia a colchicina |
-| [19033248](https://pubmed.ncbi.nlm.nih.gov/19033248/) | 2009 | Reporte de caso | Nephrol Dial Transplant | Tratamiento exitoso con anakinra en FMF, con buen desenlace tras trasplante renal |
-| [23928237](https://pubmed.ncbi.nlm.nih.gov/23928237/) | 2013 | Reporte de caso | Joint Bone Spine | Miositis en paciente con FMF y espondiloartritis, tratada con éxito con anakinra |
-| [21931121](https://pubmed.ncbi.nlm.nih.gov/21931121/) | 2012 | Serie de casos | Nephrol Dial Transplant | Efecto beneficioso marcado de inhibidor de IL-1 en FMF con amiloidosis e insuficiencia renal |
-| [28585601](https://pubmed.ncbi.nlm.nih.gov/28585601/) | 2017 | Serie de casos | J Pak Med Assoc | Anakinra y canakinumab eficaces en 4 niños con FMF resistente a colchicina |
-| [34550430](https://pubmed.ncbi.nlm.nih.gov/34550430/) | 2022 | Serie de casos | Rheumatol Int | Canakinumab eficaz en pacientes con FMF resistentes/intolerantes a colchicina y/o anakinra |
-| [26572612](https://pubmed.ncbi.nlm.nih.gov/26572612/) | 2016 | Revisión | Curr Med Chem | Colchicina y agentes biológicos (incluyendo anti-IL-1) en el tratamiento de FMF |
-| [23867542](https://pubmed.ncbi.nlm.nih.gov/23867542/) | 2014 | Revisión | Clin Pharmacol Ther | Nuevas terapias para FMF, de colchicina a agentes biológicos |
-| [25945034](https://pubmed.ncbi.nlm.nih.gov/25945034/) | 2015 | Serie de casos | Drug Des Devel Ther | Canakinumab como terapia de rescate en FMF refractaria a tratamiento convencional |
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 102203006 | KINERET 100 mg/0,67 ml solución inyectable en jeringa precargada | Solución inyectable | Swedish Orphan Biovitrum AB (publ) |
+
+El registro suministrado no incluye el texto de la indicación aprobada.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La FMF tiene una base mecanística sólida (inflamasoma de pirina/IL-1β) y cuenta con 20 publicaciones, incluyendo múltiples series de casos y revisiones que documentan el uso real de anakinra en pacientes resistentes a colchicina. Sin embargo, la evidencia proviene de estudios observacionales y reportes de casos, no de ensayos clínicos aleatorizados, por lo que se recomienda avanzar con medidas de seguimiento adicionales.
+La predicción para mastocitoma extracutáneo es de nivel L5: no hay ensayos, no hay literatura ni una justificación mecanística. No hay base para avanzar con esta indicación.
 
 **Para avanzar se necesita:**
-- Datos de advertencias, contraindicaciones e interacciones farmacológicas (actualmente bloqueado — TFDA/AEMPS no ha sido consultado con éxito, gap DG001)
-- Datos estructurados del mecanismo de acción (MOA) desde DrugBank (gap DG002)
-- Confirmación del estatus regulatorio de anakinra para FMF en España, dado que actualmente no está comercializado
-- Idealmente, datos de ensayos clínicos prospectivos o registros de vida real específicos para FMF resistente a colchicina
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad.
+- Obtener el mecanismo de acción y las indicaciones originales desde DrugBank.
+- Buscar literatura y ensayos específicos sobre IL-1 en mastocitosis y mastocitoma.
+- Priorizar otras predicciones del mismo análisis con más respaldo:
+  - Fiebre mediterránea familiar autosómica recesiva (L4, con base mecanística sólida vía pirina/IL-1β).
+  - Síndrome autoinflamatorio piogénico (PAPA/PAPASH, L3).
+  - Síndrome autoinflamatorio no clasificado (L3).
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

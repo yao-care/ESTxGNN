@@ -2,7 +2,7 @@
 layout: default
 title: Meloxicam
 parent: Solo predicción del modelo (L5)
-nav_order: 177
+nav_order: 341
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Meloxicam: De Antiinflamatorio AINE (COX-2) a Displasia Acromesomélica tipo Hunter-Thompson
+# Meloxicam: De Antiinflamatorio No Esteroideo (Inhibidor de COX) a Displasia Acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Meloxicam es un antiinflamatorio no esteroideo (AINE) con inhibicion preferencial de COX-2, empleado en el manejo del dolor e inflamacion musculoesqueletica (la indicacion original detallada no consta en esta ficha de datos). El modelo TxGNN predice como principal candidato la **displasia acromesomélica tipo Hunter-Thompson**, pero esta direccion no cuenta actualmente con **ningun ensayo clinico ni publicacion** que la respalde, y el propio analisis de racionalidad del pack senala ausencia de plausibilidad biologica.
+Meloxicam es un antiinflamatorio no esteroideo (AINE) que inhibe la ciclooxigenasa y está comercializado en España. El paquete de evidencia no incluye el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, que se basa solo en el modelo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No consta en la fuente de datos disponible (AINE de uso general en dolor e inflamacion musculoesqueletica, segun contexto del propio pack) |
-| Nueva Indicacion Predicha | Displasia acromesomélica tipo Hunter-Thompson |
-| Puntaje de Prediccion TxGNN | 99.92% |
+| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
+| Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 16 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Los datos estructurados de esta ficha no incluyen el mecanismo de accion detallado de meloxicam. Sin embargo, el propio Evidence Pack describe en otras entradas a meloxicam como un AINE de inhibicion preferencial de COX-2, que reduce la sintesis de prostaglandinas implicadas en el dolor y la inflamacion.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Meloxicam es un inhibidor de la COX (AINE), y su uso está autorizado en España. Las fichas de autorización recibidas no incluyen el texto de la indicación aprobada, por lo que la indicación original no pudo verificarse.
 
-La displasia acromesomélica tipo Hunter-Thompson es un trastorno esqueletico causado por defectos del gen GDF5, de naturaleza estructural/del desarrollo y no inflamatoria. Segun el propio analisis de racionalidad del modelo (`repurposing_rationale`), no existe una relacion mecanistica conocida entre la inhibicion de COX/prostaglandinas y esta patologia; la asociacion se atribuye a similitud de embeddings en TxGNN, sin respaldo biologico identificado.
+La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética monogénica causada por un defecto en la señalización del cartílago de crecimiento (vía CDMP1/GDF5). La inhibición de la COX no tiene ningún papel conocido en modificar esta enfermedad. Como máximo, ofrecería alivio sintomático del dolor.
 
-En consecuencia, esta prediccion en concreto debe tratarse como una hipotesis exploratoria de baja plausibilidad, no como una direccion con fundamento mecanistico solido.
+El puntaje alto de TxGNN (99.92%) proviene de la cercanía en el grafo de conocimiento, no de datos clínicos ni de una relación farmacológica demostrada. Por eso la predicción debe considerarse una hipótesis sin respaldo mecanístico.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Informacion de Mercado en España
+## Información de Mercado en España
 
-Meloxicam no cuenta actualmente con ninguna autorizacion de comercializacion registrada (estado: no comercializado, 0 autorizaciones).
+Se listan 5 de las 16 autorizaciones.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 64313 | MOVALIS 15 mg/1,5 ml SOLUCIÓN INYECTABLE | Solución inyectable |
+| 69366 | MELOXICAM NORMON 15 mg COMPRIMIDOS EFG | Comprimido |
+| 69094 | MELOXICAM CINFA 15 mg COMPRIMIDOS EFG | Comprimido |
+| 66410 | MELOXICAM MYLAN 15 mg COMPRIMIDOS EFG | Comprimido |
+| 61076 | MOVALIS 15 mg COMPRIMIDOS | Comprimido |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La indicacion de mayor puntaje TxGNN (displasia acromesomélica tipo Hunter-Thompson) carece de ensayos clinicos, literatura y vinculo mecanistico verificable; es una prediccion puramente algoritmica (L5) sin sustento biologico identificado.
+**Justificación:**
+No hay ensayos clínicos ni literatura que respalden esta indicación (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de la COX y una displasia esquelética genética. Las otras nueve predicciones del paquete tampoco tienen ensayos clínicos.
 
 **Para avanzar se necesita:**
-- Resolver el gap bloqueante de seguridad (DG001): advertencias/contraindicaciones del prospecto TFDA, mediante descarga y analisis del PDF oficial — requisito previo a cualquier evaluacion S1.
-- Completar el mecanismo de accion (MOA) via DrugBank API (DG002).
-- Si se desea continuar el reposicionamiento de meloxicam, evaluar en su lugar los candidatos de mayor nivel de evidencia dentro de este mismo pack — en particular la **artritis idiopatica juvenil poliarticular con factor reumatoide positivo** (rank 8, nivel L3, recomendacion "Proceed with Guardrails", con literatura de seguridad disponible, PMID 25057265), que presenta vinculo mecanistico directo y evidencia real, a diferencia de la indicacion de rank 1 aqui evaluada.
+- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad
+- Completar la indicación original y el mecanismo de acción desde DrugBank
+- Revisar candidatas con mayor plausibilidad, como la **artritis idiopática juvenil poliarticular con factor reumatoide positivo** (rango 8, nivel L4). Su única publicación (PMID 25057265) trata celecoxib y AINE no selectivos, no meloxicam. Además, meloxicam podría ya estar autorizado para esa indicación en algunas jurisdicciones, lo que debe verificarse con la ficha técnica local.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

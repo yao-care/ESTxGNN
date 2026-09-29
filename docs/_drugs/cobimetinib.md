@@ -2,7 +2,7 @@
 layout: default
 title: Cobimetinib
 parent: Solo predicción del modelo (L5)
-nav_order: 78
+nav_order: 143
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,36 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cobimetinib: Indicación Original No Disponible → Esclerosis Lateral Amiotrófica (ELA)
+# Cobimetinib: De Indicación Original No Registrada a Esclerosis Lateral Amiotrófica
 
 ## Resumen en Una Frase
 
-Los datos de indicación original y mecanismo de acción registrado de Cobimetinib no están disponibles en este informe (brecha de datos pendiente de DrugBank/TFDA).
-Según la evidencia recopilada, el fármaco actúa como inhibidor de MEK1/2 sobre la vía RAS-RAF-MEK-ERK, y el modelo TxGNN predice que podría ser relevante para la **Esclerosis Lateral Amiotrófica (ELA)**,
-pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección — se trata únicamente de una predicción algorítmica.
+Cobimetinib es un comprimido comercializado en España (COTELLIC 20 mg), pero el Evidence Pack no incluye el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **esclerosis lateral amiotrófica (ELA)**, con una puntuación alta (99,73 %).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, que se basa solo en el modelo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible en los datos actuales |
-| Nueva Indicacion Predicha | Esclerosis Lateral Amiotrófica (ELA) |
-| Puntaje de Prediccion TxGNN | 99.73% (rank #5100) |
+| Nueva Indicación Predicha | Esclerosis lateral amiotrófica |
+| Puntaje de Predicción TxGNN | 99,73 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado de cobimetinib ni de su indicación original aprobada (brecha de datos de alta prioridad, pendiente de consulta a DrugBank). Según la información disponible en el análisis de repurposing, cobimetinib es un inhibidor de MEK1/2 que actúa sobre la vía RAS-RAF-MEK-ERK (MAPK).
+El Evidence Pack no contiene datos de mecanismo de acción. Por conocimiento general (no verificado en los datos recibidos), cobimetinib es un inhibidor de MEK1/2, una diana de la vía MAPK/ERK. Esta vía se ha discutido en la neuroinflamación y en la degeneración de motoneuronas, y ese sería el posible nexo con la ELA.
 
-Esta vía tiene un papel descrito en la supervivencia de las motoneuronas y en la activación de astrocitos, lo que ha llevado a plantear un posible vínculo teórico con la fisiopatología de la ELA. Sin embargo, este razonamiento es puramente mecanístico: no existe literatura preclínica ni clínica en este informe que lo respalde, y algunos modelos in vitro sugieren que la inhibición de MEK/ERK podría ser incluso perjudicial —y no protectora— para la supervivencia neuronal. Por tanto, la dirección del efecto (beneficioso vs. perjudicial) no está establecida.
+Este vínculo es **especulativo**. Ningún ensayo ni publicación de los datos lo respalda. Tampoco se ha verificado que cobimetinib alcance el sistema nervioso central en concentraciones útiles. La similitud con la indicación original está pendiente de evaluar porque no hay texto de indicación aprobada.
 
-## Evidencia de Ensayos Clinicos
+Conviene interpretar las diez predicciones con cautela:
+- Varias son enfermedades de motoneurona relacionadas entre sí (ELA, ELA tipo 22, susceptibilidad a ELA, síndrome de Mills, síndrome de motoneurona inferior, amiotrofia monomélica). Es probable que aparezcan juntas por proximidad en la red del modelo y no por evidencia independiente.
+- Otras son malformaciones o displasias genéticas sin una justificación plausible para un inhibidor de MEK (polimicrogiria parieto-occipital, displasia espondilometafisaria axial, síndrome de tricomegalia-degeneración retiniana-enanismo).
+
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -63,22 +66,43 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1151048001 | COTELLIC 20 MG comprimidos recubiertos con película (Roche Registration GmbH) | Comprimido recubierto con película | No disponible en los datos recibidos |
+
+## Citotoxicidad
+
+Cobimetinib pertenece, por conocimiento general, a los antineoplásicos de tipo terapia dirigida. Los datos recibidos no incluyen categorías de DrugBank ni indicación original, por lo que esta clasificación no está confirmada por el pack.
+
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de MEK), no citotóxico convencional |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No hay advertencias, contraindicaciones ni interacciones farmacológicas disponibles en los datos recibidos.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La predicción se apoya únicamente en el puntaje del modelo TxGNN (L5/S0), sin ningún ensayo clínico ni publicación de respaldo, y el propio razonamiento mecanístico reconoce que el efecto de la inhibición de MEK sobre la supervivencia neuronal es incierto y potencialmente contradictorio. Las 10 indicaciones predichas para este fármaco comparten el mismo nivel de evidencia (L5) y recomendación (Hold), lo que refuerza que aún se trata de una etapa exploratoria temprana.
+**Justificación:**
+La predicción se apoya solo en el modelo (L5), sin ensayos, sin literatura y sin datos de mecanismo. Además, faltan por completo los datos de seguridad del prospecto de la AEMPS, lo que impide cualquier evaluación de seguridad.
 
 **Para avanzar se necesita:**
-- Datos de advertencias/contraindicaciones del prospecto TFDA (brecha bloqueante para la evaluación de seguridad S1)
-- Mecanismo de acción confirmado vía DrugBank (brecha de alta prioridad)
-- Estudios preclínicos que aclaren si la inhibición de MEK/ERK es neuroprotectora o neurotóxica en modelos de ELA
-- Al menos un estudio observacional o ensayo clínico que valide la señal antes de reconsiderar el estadio de decisión
+- Descargar y analizar la ficha técnica/prospecto de la AEMPS (indicación aprobada, advertencias, contraindicaciones).
+- Obtener el mecanismo de acción desde DrugBank.
+- Realizar una búsqueda dirigida de literatura preclínica sobre inhibición de MEK en modelos de ELA.
+- Verificar la penetración de cobimetinib en el sistema nervioso central.
+- Evaluar la relación beneficio-riesgo en una población neurodegenerativa antes de considerar cualquier estudio clínico.
+
+*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

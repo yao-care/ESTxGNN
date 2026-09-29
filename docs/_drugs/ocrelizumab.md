@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 200
+nav_order: 388
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,33 +29,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Ocrelizumab: De Indicación Original No Disponible a HER2 Positive Breast Carcinoma
+# Ocrelizumab: De Indicación Original No Registrada a Carcinoma de Mama HER2 Positivo
 
 ## Resumen en Una Frase
 
-Ocrelizumab es un anticuerpo monoclonal anti-CD20 (agente de depleción de células B); esta fuente de datos no registra su indicación original ni su ficha técnica, y el fármaco actualmente **no está comercializado en España**. El modelo TxGNN predice que podría ser efectivo para **HER2 positive breast carcinoma**, con una puntuación de predicción del **99.89%**, pero sin ningún ensayo clínico ni publicación científica real que respalde esta dirección.
+Ocrelizumab es un anticuerpo monoclonal anti-CD20 que depleciona linfocitos B. Los datos disponibles no incluyen su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama HER2 positivo**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa únicamente en el modelo.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (sin registro en la fuente de datos) |
-| Nueva Indicación Predicha | HER2 positive breast carcinoma |
+| Indicación Original | No disponible (el texto de indicación aprobada de la autorización está vacío) |
+| Nueva Indicación Predicha | Carcinoma de mama HER2 positivo |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Ocrelizumab es un anticuerpo monoclonal anti-CD20 cuyo mecanismo conocido es la depleción de células B. No se dispone de datos detallados de MOA más allá de esta clasificación general, y esta fuente no registra la indicación original del fármaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, ocrelizumab es un anticuerpo anti-CD20 que depleciona los linfocitos B. Los tumores de mama no dependen de CD20, y no existe un mecanismo directo que relacione la depleción de células B con la enfermedad HER2 positiva.
 
-El mecanismo de depleción de células B no tiene una relación biológica establecida con ninguna de las cinco indicaciones oncológicas de mama predichas por TxGNN para este fármaco (HER2+, subtipo normal-like, RP+, luminal A/B, RP-). En el caso de HER2 positive breast carcinoma en concreto, el mecanismo tumoral impulsor es la señalización por sobreexpresión de HER2/ERBB2, sin conexión biológica conocida con la depleción de CD20/células B.
+Un posible vínculo, aunque especulativo, es que los linfocitos B infiltrantes del tumor podrían influir en el microambiente tumoral, ya sea a favor o en contra del tumor. No hay datos que confirmen esta hipótesis.
 
-En consecuencia, la puntuación alta de TxGNN probablemente refleja similitud topológica en el grafo de conocimiento (por ejemplo, nodos compartidos con otros fármacos inmunomoduladores u oncológicos) más que evidencia mecanística real. No hay, por tanto, una base biológica sólida que respalde esta predicción específica.
+El puntaje TxGNN es muy alto (0.9989), pero es solo una predicción basada en el grafo de conocimiento. Además, podría ser un artefacto, ya que el fármaco no tiene indicaciones originales registradas en este paquete de evidencia. Las otras cuatro indicaciones predichas (subtipo *normal breast-like*, cáncer de mama con receptor de progesterona positivo, tumor de mama luminal A o B, y cáncer de mama con receptor de progesterona negativo) tienen puntajes entre 99.80% y 99.81%. Tampoco cuentan con vínculo mecanístico establecido ni con evidencia clínica.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -63,24 +64,31 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
-*Nota de transparencia: para otra de las cinco indicaciones predichas (breast tumor luminal A or B, rank 4), la búsqueda automatizada devolvió 19 resultados en PubMed. Sin embargo, la revisión de estos artículos indica que corresponden a coincidencias espurias de la letra "B" (desarrollo de células B, vacunas de hepatitis B, tipificación HLA-B), sin relación real con el subtipo luminal de cáncer de mama. Se han excluido como ruido de la búsqueda y no se consideran evidencia válida.*
+Nota: para la indicación de rango 4 (tumor de mama luminal A o B) se recuperaron 19 artículos. Parecen coincidencias por la letra "B" (células B, vacunas contra hepatitis B, alelos HLA-B, bacterioclorofila b). Ninguno trata sobre ocrelizumab, la depleción de CD20 ni el cáncer de mama, por lo que no constituyen evidencia.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1171231001 | OCREVUS 300 MG CONCENTRADO PARA SOLUCION PARA PERFUSION (Roche Registration GmbH) | Concentrado para solución para perfusión | No especificada en los datos disponibles |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo clínico ni publicación científica real que respalde el uso de ocrelizumab en HER2 positive breast carcinoma (ni en ninguna de las otras cuatro indicaciones de mama predichas). Además, el mecanismo conocido del fármaco (depleción de células B vía anti-CD20) no tiene un vínculo biológico establecido con esta indicación; la predicción se basa únicamente en la puntuación del modelo TxGNN, sin ningún estudio real que la sustente.
+La predicción tiene nivel de evidencia L5: solo puntaje del modelo, sin ensayos clínicos ni literatura relevante. Además, no hay un vínculo mecanístico plausible entre la depleción de células B anti-CD20 y el carcinoma de mama HER2 positivo.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de acción (MOA) detallados desde DrugBank
-- Ficha técnica/prospecto oficial con advertencias, contraindicaciones e interacciones
-- Confirmación de la indicación original y del estado de registro/comercialización en España
-- Estudios preclínicos o clínicos que evalúen específicamente ocrelizumab en cáncer de mama HER2+, dado que actualmente no existe ninguno
+- Obtener el prospecto de la AEMPS con advertencias y contraindicaciones, ya que sin esos datos no se puede pasar al cribado de seguridad.
+- Confirmar la indicación original y el mecanismo de acción (por ejemplo, mediante DrugBank).
+- Realizar una búsqueda dirigida de literatura sobre anti-CD20, linfocitos B y cáncer de mama, para reemplazar los resultados irrelevantes.
+- Revisar si la predicción es un artefacto del grafo, dado que el fármaco no tiene indicaciones originales registradas.
+- Obtener evidencia preclínica que respalde un rol de las células B en el microambiente tumoral mamario antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

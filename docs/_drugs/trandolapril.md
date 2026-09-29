@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trandolapril
-parent: Evidencia moderada (L3-L4)
-nav_order: 282
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 539
+evidence_level: L5
 indication_count: 6
 ---
 
 # Trandolapril
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,43 +29,38 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-Usando el skill **data-report** implícitamente no aplica aquí (no es CLI output crudo), sino que sigo el prompt-plantilla ya definido en la conversación. Genero el informe directamente:
-
----
-
-# Trandolapril: De Hipertensión Arterial (IECA) a Hipertensión Renovascular Maligna
+# Trandolapril: De Indicación Original No Registrada a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Trandolapril es un inhibidor de la enzima convertidora de angiotensina (IECA); no hay datos de indicación original ni de MOA detallado en las fuentes consultadas, pero por clase farmacológica se usa para hipertensión arterial e insuficiencia cardiaca. El modelo TxGNN predice que podría ser efectivo para **Hipertensión Renovascular Maligna**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde específicamente esta dirección.
+Trandolapril es un inhibidor de la enzima convertidora de angiotensina (IECA) comercializado en España como Gopten. Los registros disponibles no recogen su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa únicamente en el modelo.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No disponible — Trandolapril no está comercializado en España (0 autorizaciones); sin texto de indicación aprobada en la fuente regulatoria consultada |
-| Nueva Indicacion Predicha | Hipertensión Renovascular Maligna |
-| Puntaje de Prediccion TxGNN | 99.92% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Indicación Original | No disponible (el texto de indicación aprobada está vacío en las autorizaciones) |
+| Nueva Indicación Predicha | Hipertensión renovascular maligna |
+| Puntaje de Predicción TxGNN | 99,92% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción específico de trandolapril en esta fuente. Según la información conocida, trandolapril pertenece a la clase de los inhibidores de la ECA (IECA), que bloquean la conversión de angiotensina I a angiotensina II, reduciendo la presión arterial y la resistencia vascular periférica; su eficacia como antihipertensivo de clase está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Trandolapril pertenece a la clase de los IECA, que bloquean el sistema renina-angiotensina-aldosterona (SRAA). La hipertensión renovascular depende de la renina, por lo que existe una plausibilidad biológica a nivel de clase.
 
-La hipertensión renovascular maligna suele asociarse a estenosis de la arteria renal (con frecuencia bilateral) y activación intensa del sistema renina-angiotensina-aldosterona, lo que en teoría hace atractivo el uso de un IECA para controlar la presión. Sin embargo, este mismo mecanismo es un arma de doble filo: en presencia de estenosis bilateral de arteria renal, los IECA dilatan la arteriola eferente y pueden provocar una caída abrupta de la presión de filtración glomerular, con riesgo de insuficiencia renal aguda.
-
-No existe evidencia clínica específica de trandolapril en esta indicación — la predicción se basa únicamente en similitud mecanística de clase farmacológica, sin estudios que confirmen beneficio ni descarten el riesgo renal mencionado.
+Este razonamiento es genérico y no está respaldado por datos específicos de trandolapril. No hay ensayos ni literatura que vinculen el fármaco con esta condición. El puntaje alto (0,999) es solo una predicción del modelo y podría reflejar en parte la pertenencia del fármaco a la clase antihipertensiva. Además, no consta ninguna indicación original en los registros. Por ello, hay que comprobar si se trata realmente de un reposicionamiento o de un uso ya cubierto por la ficha técnica.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -77,28 +72,39 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 59984 | GOPTEN 0,5 mg CAPSULAS DURAS | Cápsula dura | No especificada en el registro |
+| 59985 | GOPTEN 2 mg CAPSULAS DURAS | Cápsula dura | No especificada en el registro |
+
+Ambas autorizaciones pertenecen a Viatris Healthcare Limited.
+
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La predicción se apoya únicamente en el score de TxGNN (99.92%) y en un razonamiento mecanístico de clase (IECA), sin ningún ensayo clínico ni publicación que la respalde, y con un riesgo mecánico conocido (insuficiencia renal aguda en estenosis bilateral de arteria renal) que no ha sido evaluado. La evidencia actual (L4) es insuficiente para avanzar a evaluación de seguridad.
+**Justificación:**
+La predicción está en nivel L5, sin ensayos clínicos ni literatura que la respalden. El vínculo mecanístico se apoya solo en razonamiento de clase (IECA y SRAA). Además, faltan la indicación original, el mecanismo de acción y los datos de seguridad de la ficha técnica.
 
 **Para avanzar se necesita:**
-- Datos del prospecto/ficha técnica (TFDA/AEMPS) sobre advertencias y contraindicaciones — actualmente es un vacío de datos bloqueante (Blocking)
-- Mecanismo de acción (MOA) detallado y específico de trandolapril, verificado en DrugBank
-- Estudios preclínicos o clínicos específicos en hipertensión renovascular maligna, dado el riesgo teórico de deterioro de función renal en estenosis bilateral
-- Evaluación de la interacción fármaco-enfermedad en pacientes con enfermedad renovascular antes de cualquier consideración clínica
+- Descargar y analizar el prospecto/ficha técnica de AEMPS (advertencias y contraindicaciones), un bloqueo para el cribado de seguridad.
+- Obtener el mecanismo de acción detallado desde DrugBank.
+- Confirmar la indicación original de Gopten, para verificar si hay reposicionamiento real o solapamiento con la hipertensión ya aprobada.
+- Buscar ensayos y literatura específicos sobre trandolapril o IECA en hipertensión renovascular maligna.
 
----
-
-**Nota:** El conjunto de predicciones de TxGNN para trandolapril incluye otro candidato con evidencia mecanística más concreta — enfermedad cardiopulmonar crónica (cor pulmonale), respaldada por un estudio animal específico de trandolapril (PMID 8989645, nivel L3, etapa S1, recomendación "Research Question") — que podría merecer un informe independiente si se desea explorar esa vía en lugar de, o además de, la indicación de rango 1 aquí evaluada.
+**Otras predicciones del modelo (para referencia):**
+- La predicción de *cor pulmonale* crónico (puntaje 99,19%) tiene evidencia L4, con un único estudio preclínico en ratas de 1996 (PMID 8989645). Solo justifica una pregunta de investigación.
+- La predicción de hipertensión pulmonar por enfermedad pulmonar o hipoxia tiene 10 publicaciones visibles que tratan la hipoxia en general. Ninguna menciona trandolapril, por lo que no aportan apoyo clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

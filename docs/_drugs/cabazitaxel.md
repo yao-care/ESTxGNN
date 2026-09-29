@@ -2,7 +2,7 @@
 layout: default
 title: Cabazitaxel
 parent: Evidencia alta (L1-L2)
-nav_order: 49
+nav_order: 90
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,91 +29,92 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Cabazitaxel: De Cáncer de Próstata Resistente a la Castración a Cáncer de Mama
+# Cabazitaxel: De Cáncer de Próstata Resistente a la Castración a Carcinoma de Mama Femenino
 
 ## Resumen en Una Frase
 
-Cabazitaxel es un taxano de segunda generación cuya evidencia clínica disponible en este paquete lo sitúa históricamente en el tratamiento del **cáncer de próstata metastásico resistente a la castración** (combinado con prednisona, tras progresión a docetaxel). El modelo TxGNN predice que podría ser efectivo para **Cáncer de Mama**, con un puntaje del **99.92%**. Actualmente no hay ensayos clínicos catalogados de forma estructurada para este par fármaco-indicación, pero existen **20 publicaciones**, incluyendo un **ensayo clínico aleatorizado de Fase II completado** (GENEVIEVE) y un estudio de Fase I/II con combinación de capecitabina en cáncer de mama metastásico.
-
----
+Cabazitaxel es un taxano citotóxico, autorizado originalmente para el cáncer de próstata metastásico resistente a la castración tras docetaxel, según la literatura aportada.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **0 ensayos clínicos registrados** y **20 publicaciones**, entre ellas un ensayo aleatorizado de fase II (GENEVIEVE).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de próstata metastásico resistente a la castración (mCRPC), según contexto derivado de la literatura del paquete |
-| Nueva Indicación Predicha | Cáncer de Mama (carcinoma de mama femenino) |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | Cáncer de próstata metastásico resistente a la castración (según la literatura; el registro de la AEMPS no incluye texto de indicación) |
+| Nueva Indicación Predicha | Carcinoma de mama femenino |
+| Puntaje de Predicción TxGNN | 99,92% |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 15 |
 | Decisión Recomendada | Proceed with Guardrails |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos estructurados de mecanismo de acción (MOA) en la base de datos (dato bloqueante pendiente de DrugBank). Sin embargo, según la información contextual disponible, cabazitaxel es un taxano de segunda generación cuyo mecanismo es equivalente al de docetaxel y paclitaxel: se une a la β-tubulina, estabiliza los microtúbulos y bloquea la mitosis, induciendo apoptosis en células de rápida proliferación. A diferencia de los taxanos clásicos, cabazitaxel es menos sensible al eflujo mediado por la glicoproteína P (P-gp), lo que en teoría le confiere actividad frente a células tumorales con resistencia previa a taxanos.
+No se dispone de datos detallados de mecanismo de acción en el registro de origen. Según la literatura, cabazitaxel es un taxano que se une a los microtúbulos, los estabiliza y provoca detención mitótica. Su diseño busca conservar actividad en tumores que resisten a taxanos previos por eflujo mediado por glicoproteína P. Los estudios de resistencia muestran menor resistencia cruzada que con paclitaxel y docetaxel, incluso en líneas de cáncer de mama MCF-7.
 
-El cáncer de mama es una de las indicaciones estándar de la clase de los taxanos (paclitaxel, docetaxel), por lo que la extensión mecanística a esta neoplasia es razonable. De hecho, esta hipótesis ya cuenta con respaldo clínico real: el estudio GENEVIEVE (Fase II, aleatorizado) comparó cabazitaxel frente a paclitaxel semanal como tratamiento neoadyuvante en cáncer de mama triple negativo o luminal B/HER2-negativo operable, y el estudio de Villanueva et al. evaluó cabazitaxel combinado con capecitabina en cáncer de mama metastásico previamente tratado con antraciclinas y taxanos. Esto sugiere que la predicción de TxGNN no es puramente especulativa, sino que coincide con una línea de investigación clínica ya explorada.
+El cáncer de próstata y el de mama ya se tratan con taxanos, por lo que la predicción es coherente. Existen datos preclínicos en cáncer de mama triple negativo (inmunoterapia con CD47 y macrófagos) y en formulaciones como liposferas, NLC y nanopartículas. También hay un ensayo aleatorizado de fase II frente a paclitaxel semanal.
 
----
+Cabazitaxel ya está comercializado en España, así que esto se entiende mejor como ampliación de indicación dentro de oncología que como reposicionamiento clásico.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados en el campo estructurado de ensayos clínicos del paquete de evidencia. La evidencia de ensayos clínicos disponible se encuentra referenciada dentro de la literatura (ver tabla siguiente).
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | ECA (Fase II) | European Journal of Cancer | Estudio GENEVIEVE: comparó tasa de respuesta patológica completa de cabazitaxel vs. paclitaxel semanal como neoadyuvancia en cáncer de mama HER2-negativo (triple negativo o luminal B) operable |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Fase I/II | European Journal of Cancer | Estudio de escalada de dosis de cabazitaxel + capecitabina en cáncer de mama metastásico progresado tras antraciclina y taxano; evaluó dosis máxima tolerada, seguridad y actividad |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Preclínico | Journal for ImmunoTherapy of Cancer | Cabazitaxel mejora la inmunoterapia dirigida a CD47 en cáncer de mama triple negativo al modular macrófagos asociados al tumor |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Revisión | Molecular Cancer Therapeutics | Mecanismos de resistencia a cabazitaxel usando modelos celulares de cáncer de mama (MCF-7); menor resistencia cruzada que paclitaxel/docetaxel en variantes multirresistentes |
-| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Preclínico | Journal of Controlled Release | Nanopartículas de cabazitaxel mejoran la eficacia en un modelo de xenoinjerto derivado de paciente (PDX) de cáncer de mama basal, con remisión completa en 6 de 8 tumores |
-| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | Preclínico | Acta Pharmacologica Sinica | Micelas poliméricas cargadas con cabazitaxel evaluadas frente a metástasis de cáncer de mama in vitro e in vivo |
-| [36918084](https://pubmed.ncbi.nlm.nih.gov/36918084/) | 2023 | Preclínico | Journal of Controlled Release | Nanomedicina redox-sensible con cabazitaxel conjugado y dasatinib para modular la interacción tumor-estroma en cáncer de mama |
-| [34309357](https://pubmed.ncbi.nlm.nih.gov/34309357/) | 2021 | Preclínico | Bioconjugate Chemistry | Entrega dirigida de cabazitaxel mediante péptido cíclico penetrante en modelos de cáncer de mama y próstata |
-| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Preclínico | Colloids and Surfaces B: Biointerfaces | Diseño y evaluación de nanopartículas lipídicas (NLC) cargadas con cabazitaxel frente a líneas celulares de cáncer de mama |
-| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Preclínico | Chemistry and Physics of Lipids | Liposferas coencapsuladas de cabazitaxel y timoquinona como combinación sinérgica para cáncer de mama |
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | ECA fase II | Eur J Cancer | GENEVIEVE: cabazitaxel vs. paclitaxel semanal neoadyuvante en cáncer de mama HER2-negativo (triple negativo o luminal B). Variable principal: tasa de respuesta patológica completa. El resumen disponible no incluye los resultados |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Fase I/II | Eur J Cancer | Escalada de dosis de cabazitaxel + capecitabina en cáncer de mama metastásico tras antraciclinas y taxanos; evalúa dosis máxima tolerada, seguridad y actividad |
+| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Revisión | Br J Clin Pharmacol | Ajuste de dosis de taxanos guiado por monitorización de fármacos |
+| [26651178](https://pubmed.ncbi.nlm.nih.gov/26651178/) | 2016 | Revisión | Expert Opin Ther Pat | Panorama de patentes de taxanos; cabazitaxel aprobado por la FDA en 2010 para cáncer de próstata |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Preclínico | Mol Cancer Ther | Mecanismos de resistencia a cabazitaxel; menor resistencia cruzada que paclitaxel y docetaxel en modelos resistentes, incluido MCF-7 |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Preclínico | J Immunother Cancer | Cabazitaxel actúa sobre macrófagos y mejora la inmunoterapia anti-CD47 en cáncer de mama triple negativo |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Preclínico | J Control Release | Nanopartículas de cabazitaxel: remisión completa en 6 de 8 tumores de xenoinjerto derivado de paciente (mama), frente a menor respuesta con el fármaco libre |
+| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | Preclínico | Acta Pharmacol Sin | Micelas poliméricas con cabazitaxel evaluadas contra la metástasis del cáncer de mama |
+| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Preclínico | Chem Phys Lipids | Liposferas de cabazitaxel y timoquinona con efecto sinérgico en cáncer de mama |
+| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Preclínico | Colloids Surf B | Portadores lipídicos nanoestructurados con cabazitaxel evaluados en líneas celulares de mama |
 
----
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 11676001 | Jevtana 60 mg | Concentrado y disolvente para solución para perfusión | No especificada en el registro |
+| 88361 | Cabazitaxel Aurovit 20 mg/ml | Concentrado para solución para perfusión | No especificada en el registro |
+| 85677 | Cabazitaxel Teva 10 mg/ml | Concentrado para solución para perfusión | No especificada en el registro |
+| 85660 | Cabazitaxel Mylan 60 mg EFG | Concentrado y disolvente para solución para perfusión | No especificada en el registro |
+| 88035 | Cabazitaxel Tevagen 10 mg/ml | Concentrado para solución para perfusión | No especificada en el registro |
 
 ## Citotoxicidad
 
-Cabazitaxel es un agente antineoplásico citotóxico (taxano de segunda generación).
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (clase taxano, inhibidor de microtúbulos) |
-| Riesgo de Mielosupresión | Alto — la literatura del paquete describe la neutropenia como una de las toxicidades más frecuentes de cabazitaxel, de forma consistente con la clase de los taxanos |
-| Clasificación de Emetogenicidad | No especificada en los datos disponibles — consultar el prospecto |
-| Items de Monitoreo | Hemograma completo con diferencial (por riesgo de neutropenia), función hepática y renal |
-| Protección en Manejo | Requiere manejo conforme a normativas de fármacos citotóxicos/peligrosos, al tratarse de un agente antineoplásico parenteral |
-
----
+| Clasificación de Citotoxicidad | Citotóxico convencional (taxano, antimitótico) |
+| Riesgo de Mielosupresión | Alto (la literatura señala neutropenia y neuropatía como toxicidades principales de la clase) |
+| Clasificación de Emetogenicidad | Baja a moderada (según la categoría del fármaco; consultar el prospecto) |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Protección en Manejo | Debe seguir las normas de manejo de medicamentos citotóxicos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay datos de advertencias, contraindicaciones ni interacciones farmacológicas disponibles en el paquete de evidencia actual (esta es una brecha de datos de severidad *Blocking*, ver Próximos Pasos).
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo clínico aleatorizado de Fase II completado (GENEVIEVE) y un estudio de Fase I/II con evidencia clínica real de cabazitaxel en cáncer de mama, respaldados por una base mecanística sólida (clase taxano) y múltiples estudios preclínicos convergentes. Sin embargo, la ausencia total de datos de seguridad (ficha técnica/prospecto) impide avanzar sin salvaguardas.
+Hay un ECA de fase II frente a paclitaxel en cáncer de mama y un estudio de fase I/II. Se suma un cuerpo preclínico amplio y un mecanismo plausible, en un fármaco ya comercializado en España. No hay ensayos registrados en ClinicalTrials.gov y no se dispone de los resultados de GENEVIEVE en el material aportado, por lo que la evidencia no permite pasar directamente a "Go".
+
+Las otras nueve predicciones (síndromes drepanocíticos, VIH, hipertiroidismo, artritis reumatoide) son L5 y se recomienda **Hold**. Las cinco de células falciformes comparten un puntaje idéntico, lo que sugiere un artefacto del grafo, y el perfil mielosupresor es desfavorable. El neuroblastoma (L5) es el más plausible mecanísticamente y podría ser el primer candidato para una búsqueda bibliográfica dirigida.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto de TFDA con advertencias y contraindicaciones (brecha bloqueante, DG001)
-- Datos estructurados de mecanismo de acción vía DrugBank (DG002)
-- Datos de interacciones farmacológicas (DDI), actualmente no encontrados
-- Confirmación formal del estado regulatorio original y posible vía de autorización en España, dado que el fármaco no está actualmente comercializado
+- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), bloqueante para el cribado de seguridad
+- Extraer los resultados de eficacia y seguridad de GENEVIEVE (pCR frente a paclitaxel)
+- Consultar en DrugBank el mecanismo de acción y las categorías del fármaco
+- Buscar ensayos en ClinicalTrials.gov e ICTRP para cabazitaxel en cáncer de mama
+- Confirmar el texto de indicación aprobado en los registros de las autorizaciones españolas
+- Definir un plan de monitoreo hematológico para poblaciones específicas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

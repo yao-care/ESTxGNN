@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Solo predicción del modelo (L5)
-nav_order: 297
+nav_order: 570
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,86 +29,66 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Zanamivir: De Antiviral para Influenza a Pielonefritis
+# Zanamivir: De Influenza a Pielonefritis
 
 ## Resumen en Una Frase
 
-Zanamivir es un inhibidor de la neuraminidasa viral, conocido por su uso como antiviral en el tratamiento y profilaxis de la influenza A/B.
-El modelo TxGNN predice que podria ser efectivo para **Pielonefritis**,
-pero actualmente **no hay ningun ensayo clinico ni publicacion** que respalde directamente esta direccion, y el analisis mecanistico disponible indica que no existe una relacion conocida entre el mecanismo antiviral del farmaco y la fisiopatologia bacteriana de esta condicion.
+Zanamivir es un inhibidor de la neuraminidasa viral, utilizado originalmente para tratar la gripe (influenza).
+El modelo TxGNN predice que podría ser efectivo para **pielonefritis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No consta en registros formales (Zanamivir no esta comercializado en Taiwan); segun la descripcion mecanistica adjunta al evidence pack, su uso conocido es como antiviral frente a influenza |
-| Nueva Indicacion Predicha | Pielonefritis |
-| Puntaje de Prediccion TxGNN | 99.84% (rank 3481) |
+| Indicación Original | Influenza (el texto de indicación no figura en las autorizaciones registradas) |
+| Nueva Indicación Predicha | Pielonefritis |
+| Puntaje de Predicción TxGNN | 99.84% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Taiwan | No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, zanamivir inhibe la neuraminidasa (sialidasa) del virus de la influenza, y su eficacia en esta infección viral está establecida.
 
-Actualmente no se dispone de datos estructurados sobre el mecanismo de accion (campo `original_moa` marcado como vacio, brecha de datos de severidad **High**). Segun la informacion narrativa disponible en el evidence pack, Zanamivir actua como inhibidor de la neuraminidasa viral, una proteina de superficie del virus de la influenza, bloqueando la liberacion de nuevas particulas virales de las celulas infectadas.
+Con la información disponible, **no se identifica un vínculo mecanístico plausible** con la pielonefritis. Esta es una infección principalmente bacteriana de las vías urinarias altas, y zanamivir no tiene actividad antibacteriana conocida de relevancia clínica. Existen sialidasas bacterianas, pero no hay evidencia de que zanamivir las inhiba ni de que eso sirva para el tratamiento.
 
-La pielonefritis, en cambio, es mayoritariamente una infeccion bacteriana ascendente del tracto urinario que afecta al rinon. No existe una neuraminidasa bacteriana homologa relevante ni una via inflamatoria urinaria conocida sobre la que actue este farmaco. El propio analisis mecanistico incluido en el evidence pack concluye explicitamente que **no hay evidencia de un mecanismo compartido** entre ambas condiciones.
+El puntaje muy alto (99.84%) proviene de un grafo de conocimiento y no equivale a evidencia biológica o clínica. Debe interpretarse con cautela.
 
-En consecuencia, esta prediccion de TxGNN debe interpretarse como una senal de alto puntaje estadistico sin respaldo mecanistico ni de evidencia real (ensayos clinicos = 0, literatura = 0), lo que justifica una recomendacion de **Hold** en esta etapa (`decision_stage: S0`).
+## Evidencia de Ensayos Clínicos
 
----
-
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clinicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en España
 
-## Senal Secundaria Detectada (Segundo Candidato del Modelo)
-
-El evidence pack incluye un segundo candidato de menor prioridad que se resume aqui por transparencia, dado que cuenta con literatura asociada (aunque no directamente relevante):
-
-**Trastorno del metabolismo de la tirosina** — Puntaje TxGNN: 99.02% (rank 12601) — Nivel de Evidencia: L5 — Recomendacion: Hold
-
-Este trastorno es una anomalia metabolica congenita (deficiencia enzimatica hepatica, p. ej. FAH, TAT, HPD) sin relacion bioquimica con la inhibicion viral de neuraminidasa. La literatura recuperada no aborda este trastorno metabolico, sino resistencia antiviral y metodos de deteccion de neuraminidasa, por lo que se considera un probable falso positivo del modelo:
-
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [23675925](https://pubmed.ncbi.nlm.nih.gov/23675925/) | 2013 | Revision | Infectious Disorders Drug Targets | Resistencia a oseltamivir por mutacion H275Y en neuraminidasa; no aborda metabolismo de tirosina |
-| [25727669](https://pubmed.ncbi.nlm.nih.gov/25727669/) | 2015 | Otro (metodologia de deteccion) | J Mol Recognit | Ensayo de resonancia de plasmon superficial para medir inhibicion de neuraminidasa (mutante H274Y) |
-| [21367898](https://pubmed.ncbi.nlm.nih.gov/21367898/) | 2011 | Otro (genotipo viral/patogenicidad) | Journal of Virology | Mutacion N294S en neuraminidasa y su efecto en patogenicidad de H5N1 |
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 1181349001 | DECTOVA 10 mg/ml solución para perfusión | Solución para perfusión | Glaxosmithkline Trading Services Limited |
+| 62712 | RELENZA 5 mg/dosis polvo para inhalación (unidosis) | Polvo para inhalación | Glaxosmithkline S.A. |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
----
+## Conclusión y Próximos Pasos
 
-## Conclusion y Proximos Pasos
+**Decisión: Hold**
 
-**Decision: Hold**
-
-**Justificacion:**
-Ambos candidatos predichos por TxGNN presentan Nivel de Evidencia L5 (solo prediccion del modelo, sin ensayos clinicos ni literatura directamente relevante) y etapa de decision S0. El propio analisis mecanistico incluido en el evidence pack concluye que no existe relacion biologica plausible entre el mecanismo antiviral de Zanamivir y ninguna de las dos indicaciones propuestas (pielonefritis bacteriana y trastorno congenito del metabolismo de la tirosina).
+**Justificación:**
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura para pielonefritis y sin un mecanismo plausible. No hay base para avanzar en esta indicación en este momento.
 
 **Para avanzar se necesita:**
-- Obtener el texto de advertencias/contraindicaciones del prospecto TFDA (brecha bloqueante DG001, impide la evaluacion inicial de seguridad S1)
-- Documentar formalmente el mecanismo de accion via API de DrugBank (brecha DG002, severidad High)
-- Buscar evidencia preclinica o clinica real y especifica que vincule Zanamivir con pielonefritis o con trastornos del metabolismo de la tirosina (actualmente inexistente)
-- Reevaluar la prediccion si surgen nuevos datos; en su ausencia, ambos candidatos deben considerarse probables falsos positivos del modelo
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), una brecha bloqueante para el cribado de seguridad.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Buscar evidencia preclínica que demuestre actividad de zanamivir frente a patógenos de pielonefritis, o algún mecanismo que la explique.
+- Evaluar la compatibilidad de vías de administración (hay presentaciones inhalada e intravenosa) si aparece evidencia de eficacia.
+
+**Nota sobre la segunda predicción:** el modelo también predice "trastorno del metabolismo de la tirosina" (99.02%). Las 3 publicaciones asociadas tratan sobre resistencia de la neuraminidasa de la influenza y métodos de ensayo, no sobre metabolismo de la tirosina. No respaldan esa predicción, que también queda en **Hold** con nivel L5.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

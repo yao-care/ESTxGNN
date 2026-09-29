@@ -2,7 +2,7 @@
 layout: default
 title: Aflibercept
 parent: Solo predicción del modelo (L5)
-nav_order: 14
+nav_order: 21
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Aflibercept: De Indicación Original No Registrada a Esotropía
+# Aflibercept: Hacia Esotropía (predicción de reposicionamiento)
 
 ## Resumen en Una Frase
 
-Aflibercept es una proteína de fusión que actúa como "trampa" de VEGF-A/VEGF-B/PlGF; el Evidence Pack actual no registra su indicación original específica en España (brecha de datos bloqueante, DG001).
-El modelo TxGNN predice que podría ser efectivo para **Esotropía**, con un puntaje de **99.38%**,
-pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección — la evidencia se limita únicamente a la predicción del modelo (Nivel L5).
+Aflibercept es un fármaco biológico que se comercializa en España como solución inyectable (marcas como Eylea, Opuviz, Eydenzelt y Pavblu), pero los datos de autorización recibidos no incluyen el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, por lo que se trata únicamente de una hipótesis del modelo.
 
 ---
 
@@ -43,23 +42,23 @@ pero actualmente **no existe ningún ensayo clínico ni publicación** que respa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack (indicaciones originales y ficha técnica AEMPS sin datos — ver brecha DG001) |
+| Indicación Original | No consta en los datos de autorización disponibles |
 | Nueva Indicación Predicha | Esotropía |
-| Puntaje de Predicción TxGNN | 99.38% |
+| Puntaje de Predicción TxGNN | 99,38 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados y verificados sobre el mecanismo de acción de aflibercept en este Evidence Pack (brecha de datos DG002, severidad Alta). Según la información disponible en la justificación de reposicionamiento, aflibercept actúa como receptor señuelo ("trap") de VEGF-A, VEGF-B y PlGF, inhibiendo la angiogénesis patológica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada. Según la información complementaria del análisis, aflibercept actúa como una "trampa" de los factores de crecimiento VEGF-A, VEGF-B y PlGF. Este dato no está confirmado por el campo de mecanismo de acción del paquete de evidencia.
 
-La esotropía (estrabismo convergente) tiene como causas principales alteraciones refractivas acomodativas o desequilibrios neuromusculares de los músculos extraoculares, sin un vínculo fisiopatológico directo conocido con la vía de señalización del VEGF. Existen reportes de casos en los que fármacos anti-VEGF se han usado para tratar la retinopatía del prematuro (ROP), y en algunos de estos casos se ha observado estrabismo como complicación posterior; sin embargo, esto constituye una **señal de seguridad** (posiblemente asociada a comorbilidades del desarrollo neurológico en prematuros) y **no evidencia de eficacia** de aflibercept para tratar la esotropía.
+La esotropía es un trastorno de la motilidad y la alineación ocular. Su origen suele ser neuromuscular, acomodativo o sensorial, y no hay un mecanismo establecido impulsado por VEGF. La puntuación alta de TxGNN (0,994) proviene solo de un modelo de grafo de conocimiento. Puede reflejar la cercanía en el grafo entre los usos oftálmicos de los anti-VEGF y los nodos de enfermedades oculares, y no necesariamente un vínculo biológico real.
 
-En conjunto, esta predicción se sustenta únicamente en el puntaje del modelo TxGNN (99.38%), sin respaldo mecanístico, clínico ni de literatura. Se considera que la asociación mecanística es **débil y no validada**.
+Por ello, cualquier justificación mecanística es especulativa y los datos recibidos no la respaldan. No se ha podido evaluar la similitud con la indicación original ni la compatibilidad de vía de administración.
 
 ---
 
@@ -75,11 +74,23 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
+## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1241895001 | EYDENZELT 40 mg/ml solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No consta en los datos disponibles |
+| 1241865002 | OPUVIZ 40 mg/ml solución inyectable en vial | Solución inyectable | No consta en los datos disponibles |
+| 112797001 | EYLEA 40 mg/ml solución inyectable en jeringa precargada | Solución inyectable | No consta en los datos disponibles |
+| 1251909002 | PAVBLU 40 mg/ml solución inyectable en vial | Solución inyectable | No consta en los datos disponibles |
+| 112797004 | EYLEA 114,3 mg/ml solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No consta en los datos disponibles |
+
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
-> **Nota:** La ficha técnica/prospecto (advertencias, contraindicaciones e interacciones) no ha podido obtenerse en esta consulta (brecha de datos DG001, severidad **Bloqueante** — impide el avance a la fase de evaluación inicial de seguridad S1). No se ha localizado tampoco información de interacciones farmacológicas (DDI) para aflibercept.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas para este fármaco en la fuente consultada.
 
 ---
 
@@ -88,14 +99,18 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya exclusivamente en el puntaje del modelo TxGNN (Nivel de Evidencia L5), sin ningún ensayo clínico ni publicación que la respalde, y el propio análisis mecanístico indica que la relación entre la vía de VEGF y la esotropía es débil y no validada. Adicionalmente, faltan datos bloqueantes de seguridad (ficha técnica/prospecto) y el fármaco no está actualmente comercializado en España, por lo que no es posible avanzar de la etapa S0.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, no hay un mecanismo biológico plausible que conecte la inhibición de VEGF con la esotropía, y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener la ficha técnica/prospecto oficial (AEMPS) con advertencias y contraindicaciones (resolver DG001, bloqueante)
-- Confirmar el mecanismo de acción y la(s) indicación(es) original(es) aprobada(s) de aflibercept (resolver DG002)
-- Estudios preclínicos o mecanísticos que exploren una posible relación entre la vía VEGF y el control neuromuscular ocular
-- Al menos un estudio observacional o reporte de caso clínico que documente un efecto terapéutico (no solo un evento adverso) sobre esotropía
-- Verificación del estado de autorización de comercialización en España
+- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un requisito bloqueante para el cribado de seguridad.
+- Obtener los datos del mecanismo de acción y la indicación original aprobada (DrugBank y fichas técnicas).
+- Realizar una revisión de literatura preclínica o clínica sobre anti-VEGF en esotropía o trastornos de motilidad ocular.
+- Evaluar la compatibilidad de la vía de administración con la nueva indicación.
+- Solicitar una valoración clínica experta que confirme o descarte la plausibilidad biológica antes de asignar más recursos.
+
+---
+
+*Este informe es solo de referencia para la investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

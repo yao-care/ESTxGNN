@@ -2,7 +2,7 @@
 layout: default
 title: Triflusal
 parent: Solo predicción del modelo (L5)
-nav_order: 286
+nav_order: 546
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,31 +29,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Triflusal: De Indicación Original No Especificada a Exceso del Factor V con Trombosis Espontánea
+# Triflusal: De Antiagregante Plaquetario a Exceso de Factor V con Trombosis Espontánea
 
 ## Resumen en Una Frase
 
-La indicación original de Triflusal (DrugBank ID: DB08814) no está especificada en los datos disponibles de este Evidence Pack; la evidencia recopilada para otras predicciones sugiere, de forma referencial, que se trata de un inhibidor irreversible de la COX-1 con actividad adicional sobre la fosfodiesterasa, usado en la prevención secundaria de eventos tromboembólicos arteriales. El modelo TxGNN predice que podría ser efectivo para **Exceso del Factor V con Trombosis Espontánea**, pero actualmente **no existe ningún ensayo clínico ni publicación** que respalde esta dirección — la predicción se basa únicamente en la puntuación del modelo (nivel de evidencia L5).
+Triflusal es un antiagregante plaquetario comercializado en España. Los datos recibidos no incluyen su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **exceso de factor V con trombosis espontánea**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos disponibles |
-| Nueva Indicación Predicha | Exceso del Factor V con Trombosis Espontánea |
+| Nueva Indicación Predicha | Exceso de factor V con trombosis espontánea |
 | Puntaje de Predicción TxGNN | 99.60% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 10 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El campo formal de mecanismo de acción (MOA) de Triflusal está marcado como brecha de datos en la fuente DrugBank consultada, por lo que no se dispone de una descripción oficial y verificada del MOA en este momento. No obstante, la evidencia recopilada para las indicaciones predichas menciona que Triflusal actúa como inhibidor irreversible de la ciclooxigenasa-1 (COX-1), con actividad adicional sobre la fosfodiesterasa, y que clínicamente ha sido utilizado en la prevención secundaria de eventos tromboembólicos arteriales (por ejemplo, tras un accidente cerebrovascular o un infarto de miocardio). Esta información proviene del contexto mecanístico incluido junto a otras predicciones del propio Evidence Pack, no de una ficha de MOA verificada, por lo que debe tratarse como referencial hasta su confirmación directa en DrugBank.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, triflusal es un antiagregante plaquetario que inhibe de forma irreversible la COX-1. Su metabolito HTB añade inhibición de fosfodiesterasas y preserva la prostaciclina del endotelio. Estos datos provienen del análisis de la hipótesis de reposicionamiento, no de un campo de MOA verificado.
 
-Aunque no se dispone de una indicación original confirmada en los datos regulatorios, el perfil farmacológico descrito (antiagregante plaquetario usado en la prevención de trombosis arterial) comparte una lógica fisiopatológica con el exceso del Factor V con trombosis espontánea, un trastorno protrombótico. Un fármaco que reduce la agregación plaquetaria podría tener, en principio, utilidad teórica en cuadros de hipercoagulabilidad, lo que explicaría por qué el modelo TxGNN asignó una puntuación tan alta (99.60%) a esta asociación.
+El exceso de factor V es un defecto de la cascada de coagulación, no del funcionamiento plaquetario. El vínculo con triflusal es por tanto **indirecto**: el fármaco solo podría reducir la contribución de las plaquetas a la propagación del trombo. No corregiría el defecto de coagulación de fondo.
 
-Sin embargo, esta relación mecanística es puramente teórica: no existe ningún ensayo clínico, estudio observacional o artículo científico que evalúe específicamente a Triflusal en el exceso del Factor V con trombosis espontánea. La puntuación del modelo, por sí sola, no constituye evidencia clínica y debe interpretarse como una hipótesis a explorar, no como una relación validada.
+El puntaje de 99.60% refleja una asociación en el grafo de conocimiento de TxGNN, no evidencia clínica. Sin ensayos ni literatura, esta predicción debe tratarse como una hipótesis por verificar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,22 +64,36 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+## Información de Mercado en España
+
+Se muestran 5 de las 10 autorizaciones. El Evidence Pack no incluye el texto de indicación aprobada de ninguna de ellas.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 68135 | DISGREN 600 mg polvo y disolvente para solución oral | Polvo y disolvente para solución oral |
+| 65268 | Triflusal Ratiopharm 300 mg cápsulas EFG | Cápsula dura |
+| 76110 | Triflusal Pensa 300 mg cápsulas duras EFG | Cápsula dura |
+| 65248 | Anpeval 300 mg cápsulas duras EFG | Cápsula dura |
+| 68092 | Triflusal Teva 300 mg cápsulas EFG | Cápsula dura |
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (Exceso del Factor V con Trombosis Espontánea) carece por completo de respaldo clínico o de literatura (nivel L5), y además existe una brecha de datos bloqueante — advertencias y contraindicaciones del TFDA (DG001) — que impide iniciar la evaluación de seguridad S1. No se recomienda avanzar en este momento.
+La predicción no tiene ensayos clínicos ni publicaciones (nivel L5), y el mecanismo es solo indirecto: triflusal actúa sobre las plaquetas y la indicación predicha es un defecto de la coagulación. No hay base suficiente para avanzar.
 
 **Para avanzar se necesita:**
-- Completar la ficha de mecanismo de acción (MOA) mediante consulta directa a la API de DrugBank (DG002).
-- Obtener y analizar el prospecto/etiquetado de seguridad de Triflusal (DG001, bloqueante) antes de cualquier evaluación S1.
-- Generar datos preclínicos o clínicos específicos para el exceso del Factor V con trombosis espontánea, ya que actualmente no existe ningún estudio real sobre esta asociación.
-- Como vía de investigación secundaria, considerar "thrombophilia" (rank 4 en las predicciones), que presenta el único nivel de evidencia L4 con literatura real (aunque de tipo farmacodinámico, no un ensayo clínico dirigido) y ya se encuentra en etapa de decisión S1 ("Research Question").
+- Descargar y analizar la ficha técnica de la AEMPS (advertencias, contraindicaciones e indicación aprobada), un vacío bloqueante para el cribado de seguridad
+- Obtener los datos de mecanismo de acción desde DrugBank
+- Buscar estudios de mecanismo o casos clínicos sobre triflusal en trastornos trombofílicos
+- Valorar candidatas alternativas del mismo modelo con algo de literatura, como **trombofilia** (1 estudio farmacodinámico de función plaquetaria, nivel L4), aunque la evidencia sigue siendo indirecta
+
+*Este informe es solo una referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
