@@ -2,7 +2,7 @@
 layout: default
 title: Tagraxofusp
 parent: Solo predicción del modelo (L5)
-nav_order: 509
+nav_order: 760
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tagraxofusp: De Neoplasia Blástica de Células Dendríticas Plasmocitoides a Esotropía
+# Tagraxofusp: De Neoplasia Hematodérmica CD4+/CD56+ a Esotropía
 
 ## Resumen en Una Frase
 
-Tagraxofusp es una proteína de fusión dirigida a CD123 (cadena alfa del receptor de IL-3) con toxina diftérica, comercializada para la neoplasia blástica de células dendríticas plasmocitoides (BPDCN).
-El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero **no hay ningún ensayo clínico ni publicación** que respalde esta predicción.
-
----
+Tagraxofusp es una proteína de fusión dirigida contra CD123, utilizada originalmente para tratar la neoplasia hematodérmica CD4+/CD56+.
+El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | BPDCN (según la información de los ensayos clínicos; el registro español no incluye el texto de indicación) |
+| Indicación Original | Neoplasia hematodérmica CD4+/CD56+ (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
 | Nueva Indicación Predicha | Esotropía |
-| Puntaje de Predicción TxGNN | 99.73% (posición 4985) |
+| Puntaje de Predicción TxGNN | 99,73% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, tagraxofusp es una proteína de fusión que dirige una toxina diftérica contra células que expresan CD123, y esa dirección está validada en neoplasias hematológicas CD123 positivas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tagraxofusp es una proteína de fusión que une interleucina-3 con una toxina diftérica truncada; se dirige a células que expresan CD123 y las elimina. Su eficacia se ha establecido en una neoplasia hematológica con expresión de CD123.
 
-**En este caso no se identifica un vínculo plausible.** La esotropía es un trastorno de alineación ocular de origen neuromuscular, sin patología conocida dependiente de CD123. Un fármaco citotóxico dirigido a células malignas no tiene una justificación biológica ni clínica para este trastorno.
+La esotropía es un trastorno de la alineación motora ocular sin patología conocida dependiente de CD123. **No se identifica un vínculo mecanístico creíble** entre el fármaco y esta indicación. El puntaje elevado (0,997) refleja únicamente una predicción basada en el grafo, sin respaldo clínico ni bibliográfico.
 
-El puntaje TxGNN (0.997) es casi idéntico en todos los candidatos de este fármaco, por lo que no permite distinguir predicciones más plausibles de las que no lo son. Por sí solo no constituye evidencia a favor.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+Las demás predicciones del modelo (neoplasia premaligna, neoplasia del oído interno, neoplasia benigna de lengua, proliferación ductal, entre otras) tampoco cuentan con ensayos ni literatura; todas se mantienen en nivel L5 y recomendación Hold. La más cercana a un fundamento mecanístico es la neoplasia premaligna, aunque la categoría es demasiado inespecífica y el perfil de toxicidad (síndrome de fuga capilar, hepatotoxicidad) sería difícil de justificar.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1201504001 | ELZONRIS 1 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN | Concentrado para solución para perfusión | Stemline Therapeutics B.V. |
-
----
+| 1201504001 | ELZONRIS 1 MG/ML concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (proteína de fusión con toxina diftérica dirigida a CD123) |
+| Clasificación de Citotoxicidad | Terapia dirigida (proteína de fusión IL-3/toxina diftérica dirigida a CD123) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Función hepática; hemograma y demás parámetros según el prospecto |
+| Items de Monitoreo | Consultar el prospecto; se consideran relevantes la función hepática y los signos de fuga capilar (según el perfil de toxicidad conocido) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Como referencia, la evaluación del candidato menciona el **síndrome de fuga capilar** y la **hepatotoxicidad** como riesgos relevantes de este fármaco. No se dispone de datos de interacciones farmacológicas.
+- **Interacciones Farmacológicas**: se registraron 66 interacciones, de nivel moderado en las principales mostradas, fundamentalmente con antidiabéticos e insulinas: acarbosa, albiglutida, alogliptina, metformina, pioglitazona, canagliflozina, clorpropamida, dapagliflozina, saxagliptina, dulaglutida, empagliflozina, linagliptina, glimepirida, semaglutida e insulinas (aspart, degludec, detemir, glargina, glulisina, isófana humana).
+- **Riesgos del perfil terapéutico**: el síndrome de fuga capilar y la hepatotoxicidad son riesgos relevantes de la terapia con toxina, difíciles de justificar en indicaciones benignas o no oncológicas.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe mecanismo plausible ni evidencia clínica o bibliográfica para esotropía. Además, el perfil de riesgo del fármaco (síndrome de fuga capilar, hepatotoxicidad) no es razonable para un trastorno no oncológico.
+La predicción para esotropía carece de ensayos clínicos, literatura y mecanismo plausible; el riesgo de toxicidad sistémica de una toxina citotóxica no se justifica en un trastorno motor ocular.
 
 **Para avanzar se necesita:**
-- Una hipótesis mecanística que relacione CD123 con la esotropía, o evidencia preclínica.
-- El prospecto de la AEMPS (advertencias y contraindicaciones), aún pendiente.
-- Datos del mecanismo de acción desde DrugBank.
-- Redirigir la evaluación hacia otra predicción del mismo fármaco. La de **neoplasia premaligna** (posición 2) tiene 5 ensayos clínicos (fase temprana a fase 1/2, en mielofibrosis y leucemia mieloide aguda) y nivel L3. Su ajuste a la etiqueta es solo indirecto.
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Evidencia preclínica que demuestre expresión o dependencia de CD123 en la indicación propuesta
+- Reevaluar candidatos con mayor plausibilidad biológica (p. ej., otras neoplasias hematológicas con expresión de CD123) antes de considerar esta predicción
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

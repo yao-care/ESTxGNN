@@ -2,7 +2,7 @@
 layout: default
 title: Carteolol
 parent: Solo predicción del modelo (L5)
-nav_order: 105
+nav_order: 149
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,21 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Carteolol: De Indicación Original No Registrada a Glaucoma Hereditario Primario
+# Carteolol: De Hipertensión Ocular y Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
 
 ## Resumen en Una Frase
 
-Carteolol es un betabloqueante no selectivo que se comercializa en España en colirios. Los datos recibidos no incluyen su indicación original.
+Carteolol es un betabloqueante no selectivo con actividad simpaticomimética intrínseca, utilizado originalmente para el glaucoma de ángulo abierto y la hipertensión ocular (el grafo de conocimiento también lo asocia con la hipertensión arterial).
 El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos (ninguna autorización de AEMPS incluye texto de indicación) |
+| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (el texto de indicación aprobado no figura en las autorizaciones; se toma de las indicaciones del grafo de conocimiento) |
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99,92% |
+| Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 6 |
@@ -51,11 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, carteolol es un betabloqueante no selectivo con actividad simpaticomimética intrínseca. Los betabloqueantes oftálmicos reducen la presión intraocular al disminuir la producción de humor acuoso en el cuerpo ciliar, por lo que mecanísticamente podría ser aplicable al glaucoma. Este razonamiento procede de la farmacología general, no de los datos aportados.
+Carteolol es un betabloqueante adrenérgico no selectivo con actividad simpaticomimética intrínseca, comercializado en forma oftálmica. Reduce la presión intraocular (PIO) al disminuir la producción de humor acuoso en el cuerpo ciliar. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada; la descripción anterior procede del análisis de la relación mecanística y no ha podido contrastarse con el registro original.
 
-Hay una limitación importante. Carteolol se conoce como fármaco oftálmico para glaucoma e hipertensión ocular, y en España se comercializa solo como colirio. El puntaje alto (99,92%) podría reflejar un uso ya existente y no una señal real de reposicionamiento. Primero conviene completar el campo de indicación original.
+El glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario, con variantes en CYP1B1 o MYOC) también se caracteriza por una PIO elevada. Por ello, reducir la presión mediante betabloqueo es plausible como mecanismo sintomático, dirigido a la presión.
 
-Tampoco hay respaldo para las formas hereditarias o congénitas en concreto. No se aportaron ensayos ni literatura, y el uso de betabloqueantes en glaucoma pediátrico o congénito requiere una revisión de seguridad aparte.
+Conviene, sin embargo, ser prudentes: la causa de fondo es del desarrollo o genética (disgenesia de la malla trabecular o del ángulo de la cámara anterior) y carteolol no la corrige. El puntaje tan alto de TxGNN (0.999) probablemente refleja la cercanía en el grafo con las indicaciones aprobadas de glaucoma y es únicamente una predicción computacional.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,33 +67,40 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se registran 6 autorizaciones. La tabla lista las 5 disponibles en los datos, y ninguna incluye texto de indicación aprobada.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 71069 | Arteoptic 10 mg/ml Unidosis (Bausch Health Ireland) | Colirio de liberación prolongada | No consta en los datos |
-| 89580 | Arteoptic PF 2% (Bausch + Lomb Ireland) | Colirio en solución de liberación prolongada | No consta en los datos |
-| 71070 | Arteoptic 20 mg/ml Unidosis (Bausch + Lomb Ireland) | Colirio de liberación prolongada | No consta en los datos |
-| 66383 | Arteoptic 1% (Bausch + Lomb Ireland) | Colirio de liberación prolongada | No consta en los datos |
-| 59039 | Eleboc 20 mg/ml (Immedica Pharma AB) | Colirio en solución | No consta en los datos |
+| 71069 | ARTEOPTIC 10 mg/ml Unidosis | Colirio de liberación prolongada | No disponible en los datos compilados |
+| 89580 | ARTEOPTIC PF 2% | Colirio en solución de liberación prolongada | No disponible en los datos compilados |
+| 71070 | ARTEOPTIC 20 mg/ml Unidosis | Colirio de liberación prolongada | No disponible en los datos compilados |
+| 66383 | ARTEOPTIC 1% | Colirio de liberación prolongada | No disponible en los datos compilados |
+| 59039 | ELEBLOC 20 mg/ml | Colirio en solución | No disponible en los datos compilados |
+
+Hay una sexta autorización vigente (66366, ARTEOPTIC 2% colirio de liberación prolongada), hasta un total de 6 autorizaciones válidas.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: bronquitis, asma (incluidos asma intrínseco y alérgico), enfisema pulmonar, diabetes mellitus, cetoacidosis diabética, miastenia gravis y enfermedades de la unión neuromuscular, bloqueo auriculoventricular, insuficiencia cardíaca (incluida la congestiva) y anafilaxia.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones; entre las 20 primeras reveladas, las de gravedad **mayor** son:
+  - Epinefrina
+  - Dolasetrón
+
+  Entre las de gravedad moderada figuran corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), anticolinérgicos (atropina, hiosciamina, metescopolamina, diciclomina), bupropión, cimetidina, canagliflozina, dapagliflozina, clorpropamida y sales de calcio. Las de gravedad menor incluyen ácido acetilsalicílico y óxido de magnesio.
+
+Las advertencias y contraindicaciones del prospecto de la AEMPS no estaban disponibles; consultar el prospecto para la información de seguridad oficial.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Solo hay una predicción del modelo (L5), sin ensayos ni literatura. Además, faltan la indicación original y el mecanismo de acción, por lo que no se puede distinguir un reposicionamiento real de un uso ya aprobado.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y la etiología del glaucoma hereditario primario es del desarrollo o genética, por lo que el efecto de carteolol sería, como máximo, sintomático (reducción de la PIO).
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS y extraer las indicaciones aprobadas, advertencias y contraindicaciones (bloqueante para el cribado de seguridad)
-- Completar la indicación original y el mecanismo de acción (por ejemplo, desde DrugBank)
-- Confirmar si el glaucoma hereditario primario ya está cubierto por las indicaciones vigentes o si es una indicación nueva
-- Buscar ensayos clínicos y literatura sobre carteolol en glaucoma hereditario o congénito
-- Revisar la seguridad en población pediátrica si la indicación abarca glaucoma congénito
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío bloqueante para el cribado de seguridad.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Buscar literatura y ensayos sobre el uso de betabloqueantes tópicos en glaucoma congénito o juvenil, y su perfil de seguridad en población pediátrica.
+- Evaluar la compatibilidad de vías y formulaciones (los productos actuales son colirios) con la población objetivo.
+- Valorar la relevancia de las contraindicaciones cardiorrespiratorias en pacientes pediátricos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

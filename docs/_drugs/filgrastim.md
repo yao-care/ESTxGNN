@@ -2,7 +2,7 @@
 layout: default
 title: Filgrastim
 parent: Solo predicción del modelo (L5)
-nav_order: 232
+nav_order: 336
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Filgrastim: De Indicación Original No Registrada a Trastorno de Liberación Primaria de las Plaquetas
+# Filgrastim: De Neutropenia Congénita Grave a Trastorno de Liberación Primaria de las Plaquetas
 
 ## Resumen en Una Frase
 
-Filgrastim es un factor estimulante de colonias de granulocitos (G-CSF). En los registros de AEMPS analizados no consta el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de liberación primaria de las plaquetas**,
-con **14 ensayos clínicos** y **1 publicación** vinculados. Ninguno estudia directamente esa enfermedad, por lo que la predicción no tiene respaldo clínico real.
+Filgrastim es un factor estimulante de colonias de granulocitos (G-CSF), utilizado originalmente en neutropenias crónicas y congénitas (neutropenia constitucional, neutropenia congénita grave, hematopoyesis cíclica y neutropenia crónica familiar).
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberación primaria de las plaquetas**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción directamente; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (las autorizaciones de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Neutropenia constitucional / neutropenia congénita grave (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
-| Puntaje de Predicción TxGNN | 99.998% |
-| Nivel de Evidencia | L4 (solo evidencia indirecta) |
+| Puntaje de Predicción TxGNN | 99,998% |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Filgrastim actúa sobre el receptor de G-CSF. Impulsa la proliferación del linaje de neutrófilos y la movilización de células madre hematopoyéticas. No se conoce ningún mecanismo por el que afecte la liberación de gránulos plaquetarios ni la función de las plaquetas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en las fuentes compiladas. Según la información conocida, filgrastim es un G-CSF recombinante que actúa sobre el receptor de G-CSF en el linaje granulocítico, estimulando la proliferación y maduración de neutrófilos. Su eficacia en las neutropenias congénitas y crónicas está bien establecida.
 
-La relación con la nueva indicación es sobre todo de vecindad en el grafo de conocimiento. Los 14 ensayos vinculados son en su mayoría trasplantes de progenitores hematopoyéticos o profilaxis de la enfermedad de injerto contra huésped (EICH), donde el G-CSF es, como mucho, un agente de apoyo o movilización. Todos fueron clasificados con relevancia baja (grado C). El puntaje tan alto (0.99998) probablemente es un artefacto de proximidad en el grafo y no una señal de eficacia.
+La relación entre la indicación original y la nueva es débil. Los trastornos de liberación plaquetaria afectan a la función de las plaquetas (secreción de gránulos), no al número de neutrófilos, y no se ha identificado un vínculo mecanístico establecido con la señalización de G-CSF. El puntaje alto del modelo refleja asociaciones dentro del grafo de conocimiento, no evidencia biológica o clínica.
 
-Las otras nueve indicaciones predichas tampoco tienen respaldo mecanístico. Incluyen pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott y trombocitopenia aloinmune fetal y neonatal. Ninguna tiene ensayos ni literatura directamente relacionados.
+Las otras indicaciones predichas con mayor puntaje (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, entre otras) presentan el mismo patrón: sin ensayos, sin literatura y sin mecanismo plausible. Por ello, esta predicción debe considerarse generadora de hipótesis y no una recomendación terapéutica.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Fase 2 | Terminado | 200 | Trasplante de progenitores de donante no emparentado en neoplasias hematológicas. No estudia trastornos plaquetarios. |
-| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Fase 2 | Completado | 64 | Trasplante autólogo con selección CD34+ frente a sin selección en linfoma de células del manto y linfoma B difuso de células grandes. El G-CSF es a lo sumo un componente de movilización. |
-| [NCT04047628](https://clinicaltrials.gov/study/NCT04047628) | Fase 3 | Reclutando | 156 | ECA de trasplante autólogo frente a mejor terapia disponible en esclerosis múltiple resistente. No se puede aislar la contribución de filgrastim. |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Fase 2 | Reclutando | 358 | Protocolo de plataforma de profilaxis de EICH con ciclofosfamida postrasplante. |
-| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Fase 1/2 | Completado | 147 | Trasplante alogénico no mieloablativo con busulfán, fludarabina e irradiación corporal total. |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Fase 1 | Retirado | 0 | Médula ósea criopreservada de donante no emparentado con HLA discordante. Sin participantes ni datos. |
-| [NCT01335932](https://clinicaltrials.gov/study/NCT01335932) | Fase 2 | Completado | 160 | Ganciclovir/valganciclovir para prevenir la reactivación de CMV en lesión pulmonar aguda. Filgrastim no es la intervención. |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Fase 2 | Completado | 60 | Piloto de trasplante alogénico/singénico en sarcomas pediátricos de alto riesgo. Relación solo indirecta. |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Fase 2 | Terminado | 49 | Dapansutrilo oral en COVID-19 moderado con síndrome de liberación de citocinas. Sin relación con filgrastim. |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Fase 1/2 | Reclutando | 260 | Búsqueda de dosis mínima eficaz de ciclofosfamida postrasplante como profilaxis de EICH. |
+Actualmente no hay ensayos clínicos relacionados registrados para el trastorno de liberación primaria de las plaquetas.
 
-Se muestran 10 de los 14 ensayos vinculados. Ninguno evalúa un trastorno de liberación plaquetaria.
+Como referencia, la predicción de rango 10 ("trastorno hemorrágico de tipo plaquetario") tiene 7 ensayos asociados, todos de relevancia indirecta (trasplante de progenitores hematopoyéticos en neoplasias hematológicas, donde G-CSF es un componente de apoyo). No evalúan filgrastim en trastornos plaquetarios y no se consideran evidencia para la predicción principal.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Cohorte | Frontiers in Immunology | La movilización de células madre de sangre periférica con G-CSF en donantes sanos moviliza de forma preferente subpoblaciones de linfocitos. Es un estudio sobre el trasplante, no sobre trastornos plaquetarios. |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 08495003 | ZARZIO 30 MU/0,5 ml SOL. INY. O PARA PERFUSION EN JERINGA PRECARGADA | Solución inyectable y para perfusión en jeringa precargada |
-| 110631007 | NIVESTIM 48 MU/0,5 ml SOLUCION INYECTABLE O PARA PERFUSION | Solución inyectable y para perfusión |
-| 110631001 | NIVESTIM 12 MU/0,2 ml SOLUCION INYECTABLE O PARA PERFUSION | Solución inyectable y para perfusión |
-| 08495005 | ZARZIO 48 MU/0,5 ml SOL. INY. O PARA PERFUSION EN JERINGA PRECARGADA | Solución inyectable y para perfusión en jeringa precargada |
-| 114946004 | Accofil 48 MU/0,5 ml solución inyectable y para perfusión en jeringa precargada | Solución inyectable y para perfusión en jeringa precargada |
+Se registran 20 autorizaciones vigentes (todas monofármaco). Las principales:
 
-Hay 20 autorizaciones en total; se muestran 5. Los titulares son Sandoz GmbH, Pfizer Europe MA EEIG y Accord Healthcare S.L.U.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 08495003 | ZARZIO 30 MU/0,5 ml | Solución inyectable y para perfusión en jeringa precargada | No disponible |
+| 110631007 | NIVESTIM 48 MU/0,5 ml | Solución inyectable y para perfusión | No disponible |
+| 114946004 | Accofil 48 MU/0,5 ml | Solución inyectable y para perfusión en jeringa precargada | No disponible |
+| 08444006 | RATIOGRASTIM 48 MU/0,8 ml | Solución inyectable y para perfusión en jeringa precargada | No disponible |
+| 64314 | NEUPOGEN 30 MU (0,6 mg/ml) | Solución inyectable en jeringa precargada | No disponible |
+
+Las 20 autorizaciones corresponden a las marcas Zarzio, Nivestim, Accofil, Ratiograstim y Neupogen (biosimilares y originador).
+
+## Citotoxicidad
+
+No aplica: filgrastim es un factor de crecimiento hematopoyético, no un fármaco antineoplásico citotóxico.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; las primeras listadas son de nivel moderado. Ejemplos: ibritumomab tiuxetán, tositumomab (incluido I-131), iobenguano (I-131), fludesoxiglucosa (18F), levamisol, trimetrexato, mercaptopurina, abemaciclib, paclitaxel, acalabrutinib, aldesleukina, alemtuzumab, altretamina, trióxido de arsénico, asparaginasa, avapritinib, azacitidina, belantamab mafodotina y bendamustina. Se debe revisar el conjunto completo antes de cualquier uso.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe evidencia clínica ni mecanismo plausible que vincule filgrastim con el trastorno de liberación primaria de las plaquetas. El puntaje alto de TxGNN parece reflejar cercanía en el grafo, y los ensayos asociados son de trasplante y oncología donde el G-CSF es solo apoyo.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre la señalización de G-CSF y la función plaquetaria. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), necesario antes de cualquier cribado de seguridad.
-- Obtener el texto de las indicaciones aprobadas y los datos del mecanismo de acción desde DrugBank.
-- Encontrar estudios preclínicos o clínicos que muestren un efecto de G-CSF sobre la función plaquetaria. Sin ellos, la predicción debería permanecer en Hold.
-- Considerar otras predicciones del mismo fármaco solo si aparece evidencia directa, ya que ninguna la tiene por ahora.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción (consulta a DrugBank) y análisis de plausibilidad biológica con la función plaquetaria
+- Revisión sistemática de literatura preclínica o clínica sobre G-CSF en trastornos plaquetarios
+- Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones), necesario para cualquier evaluación de seguridad
+- Texto de indicaciones aprobadas de las autorizaciones españolas
+- Evaluación de compatibilidad de vía de administración y similitud con la indicación original (pendientes)
+- Valorar otras predicciones del listado con mayor racionalidad biológica, por ejemplo en trombocitopenias constitucionales, si se dispone de evidencia directa
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

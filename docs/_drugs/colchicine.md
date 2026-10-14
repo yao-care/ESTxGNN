@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Colchicine
-parent: Evidencia moderada (L3-L4)
-nav_order: 145
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 206
+evidence_level: L5
 indication_count: 3
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,79 +33,95 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-La colchicina es un alcaloide oral, utilizado sobre todo para tratar la gota y otras enfermedades autoinflamatorias como el síndrome de Behçet.
-El modelo TxGNN predice que podría ser efectiva para la **malaria por Plasmodium falciparum**,
-pero hay **0 ensayos clínicos** y solo **6 publicaciones**, todas de laboratorio o indirectas, por lo que la evidencia es muy débil.
+La colchicina es un fármaco oral utilizado originalmente para tratar la gota y la fiebre mediterránea familiar.
+El modelo TxGNN predice que podría ser efectiva para la **malaria por Plasmodium falciparum**, pero **no hay ensayos clínicos** y solo **2 publicaciones** de laboratorio, ninguna de las cuales evalúa la colchicina como tratamiento antipalúdico.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Gota (según los datos farmacológicos; las autorizaciones de la AEMPS no incluyen texto de indicación) |
+| Indicación Original | Gota y fiebre mediterránea familiar (según las indicaciones originales del grafo de conocimiento; los textos de las autorizaciones españolas no incluyen indicación) |
 | Nueva Indicación Predicha | Malaria por Plasmodium falciparum |
 | Puntaje de Predicción TxGNN | 99.60% |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 8 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-El campo de mecanismo de acción del registro está vacío. Aun así, los datos farmacológicos indican que la colchicina se une a la tubulina (diana: tubulina beta clase I, *TUBB*) y altera los microtúbulos. Ese es el mecanismo conocido de su acción antiinflamatoria y antimitótica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según lo conocido, la colchicina es un inhibidor de la polimerización de microtúbulos, y entre sus dianas farmacológicas figura la tubulina beta de clase I (TUBB). Su eficacia en la gota y la fiebre mediterránea familiar está bien establecida, y mecanísticamente podría ser aplicable a la malaria.
 
-La relación con la malaria es solo hipotética. Plasmodium usa microtúbulos para dividirse y para invadir los glóbulos rojos, así que un compuesto que actúe sobre la tubulina podría tener efecto antiparasitario. Los estudios disponibles apoyan la idea de forma indirecta: en 1989 se vio que compuestos que se unen a proteínas del citoesqueleto inhiben *P. falciparum* in vitro. Esos estudios no probaron colchicina directamente.
+El vínculo que sugiere el modelo es plausible. El parásito *Plasmodium* depende de la tubulina y los microtúbulos para dividirse e invadir las células. Un fármaco que altera los microtúbulos podría, en teoría, afectar al parásito. La relación con las indicaciones originales (enfermedades inflamatorias) es débil, porque la colchicina se usa en ellas por su efecto antiinflamatorio sobre los neutrófilos y no por una acción antiparasitaria.
 
-Hay dos razones para ser cautos. Primero, el puntaje alto de TxGNN (99.60%) es una predicción basada en redes de conocimiento y no una prueba clínica. Segundo, la colchicina tiene un margen terapéutico muy estrecho y una toxicidad bien documentada, por lo que es dudoso que se alcancen concentraciones antiparasitarias en humanos sin toxicidad.
+Esta hipótesis no tiene respaldo experimental directo en los datos disponibles. Las dos publicaciones recuperadas estudian la curcumina y el gen pfmdr1 en células de mamífero, no la colchicina. Además, el estrecho margen terapéutico y la toxicidad conocida de la colchicina serían una barrera importante para un uso antipalúdico. El puntaje de 99.60% es solo una predicción computacional.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | In vitro | Cell Biol Int Rep | Nueve sustancias que se unen a tubulina y una que se une a actina se probaron contra *P. falciparum*. Las tubulinas del parásito parecen distintas de las de mamíferos. El compuesto más prometedor fue tubulozol-T, no la colchicina. (El registro [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) es un duplicado.) |
-| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | In vitro | Antimicrob Agents Chemother | Mecanismo de los tubulozoles, otra clase de compuestos: reducen la síntesis de proteínas del parásito. La colcemida, un análogo de la colchicina, tuvo un efecto similar sobre la síntesis de proteínas. |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro (células) | Mol Cell Biol | La expresión del gen *pfmdr1* del parásito en células de mamífero modifica la sensibilidad a fármacos, incluida la colchicina. Es un estudio de resistencia a fármacos, no de eficacia. |
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro | PLoS One | La curcumina, no la colchicina, altera los microtúbulos de *P. falciparum*. Apoya la idea de que los microtúbulos del parásito son una diana, pero no prueba nada sobre la colchicina. |
-| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Observacional (serología) | Clin Exp Immunol | Pacientes con malaria aguda presentan anticuerpos contra filamentos intermedios del citoesqueleto. No está relacionado con ningún fármaco. |
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | Estudio in vitro (curcumina, no colchicina) | PLoS One | La curcumina altera los microtúbulos de *P. falciparum*. Apoya la tubulina como diana en el parásito, pero no evalúa la colchicina. |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | Estudio in vitro / celular | Mol Cell Biol | La expresión del gen plasmodial pfmdr1 en células de mamífero se asocia a mayor sensibilidad a cloroquina. No evalúa la colchicina. |
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
-| 86658 | COLCHICINA TIOFARMA 1 MG COMPRIMIDOS | Comprimido |
-| 33720 | COLCHICINA SEID 1 mg COMPRIMIDOS | Comprimido |
-| 86430 | COLCAMEXX 0,5 MG COMPRIMIDOS EFG | Comprimido |
-| 86659 | COLCHICINA TIOFARMA 0,5 MG COMPRIMIDOS | Comprimido |
-| 78947 | COLCHICINA SEID 0,5 MG COMPRIMIDOS | Comprimido |
+| 86658 | Colchicina Tiofarma 1 mg comprimidos | Comprimido |
+| 33720 | Colchicina Seid 1 mg comprimidos | Comprimido |
+| 86430 | Colcamexx 0,5 mg comprimidos EFG | Comprimido |
+| 86659 | Colchicina Tiofarma 0,5 mg comprimidos | Comprimido |
+| 78947 | Colchicina Seid 0,5 mg comprimidos | Comprimido |
 
-Se muestran 5 de las 8 autorizaciones. El registro no incluye el texto de indicación aprobada de ninguna de ellas.
+Se muestran 5 de las 8 autorizaciones vigentes, todas de principio activo único. No hay autorizaciones canceladas.
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Dianas farmacológicas registradas (7):** tubulina beta clase I (*TUBB*), receptores de glicina (subunidades α1, α2 y todos los subtipos), receptores del gusto amargo *TAS2R4* y *TAS2R46*, y *BRD4*. Son interacciones con dianas moleculares, no interacciones clínicas con otros medicamentos.
-- **Toxicidad:** la literatura describe un margen terapéutico estrecho, sin una distinción clara entre dosis no tóxicas, tóxicas y letales. La intoxicación no intencionada es frecuente y suele tener mal pronóstico ([PMID 20586571](https://pubmed.ncbi.nlm.nih.gov/20586571/)). Esto es un obstáculo importante para cualquier uso antiparasitario.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad de TxGNN; no proceden del texto del prospecto):
+  - Hepáticas y renales: insuficiencia hepática, función renal alterada, nefropatía aguda por uratos.
+  - Hematológicas: enfermedad hematológica, trombocitopenia, leucopenia, agranulocitosis, neutropenia (incluidas diversas formas congénitas), anemia aplásica.
+  - Musculares: miopatía, enfermedad muscular y del músculo esquelético, rabdomiólisis, parálisis periódica familiar.
+  - Digestivas: úlcera péptica, enfermedades diarreicas.
+  - Otras: fascitis nodular.
+- **Interacciones Farmacológicas**: los datos disponibles describen dianas farmacológicas de la colchicina (receptores de glicina GLRA1 y GLRA2, TAS2R4, TAS2R46, BRD4 y tubulina beta clase I), no interacciones con otros medicamentos. No se dispone de una lista de interacciones clínicamente relevantes.
+- **Margen terapéutico**: según el análisis de la predicción, la colchicina tiene un índice terapéutico estrecho y toxicidad conocida.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones clínicas).
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en un puntaje del modelo y en estudios in vitro antiguos, casi todos con otros compuestos. No hay datos en animales ni en humanos, y el margen terapéutico estrecho de la colchicina hace dudosa la viabilidad de alcanzar concentraciones antipalúdicas seguras.
+La predicción se apoya solo en el modelo (L5). No hay ensayos clínicos ni estudios que evalúen la colchicina frente a *P. falciparum*. Además, su estrecho margen terapéutico y sus contraindicaciones hematológicas, hepáticas y renales plantean un obstáculo importante.
 
 **Para avanzar se necesita:**
-- Ensayos in vitro con colchicina sobre *P. falciparum* que determinen la CI50 y la comparen con las concentraciones plasmáticas alcanzables de forma segura.
-- Datos de selectividad entre la tubulina del parásito y la humana, y modelos animales de malaria.
-- El prospecto de la AEMPS, para cerrar el vacío de advertencias y contraindicaciones.
-- Datos formales del mecanismo de acción (por ejemplo, desde DrugBank).
+- Estudios in vitro de actividad de la colchicina frente a cultivos de *P. falciparum*, incluidas cepas resistentes a cloroquina.
+- Datos de selectividad: concentración eficaz frente al parásito comparada con la toxicidad en células humanas.
+- Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
+- Evaluación de la viabilidad de alcanzar concentraciones antipalúdicas con una exposición segura.
 
-**Nota:** entre las otras predicciones del modelo, la fiebre mediterránea familiar (nivel L3, *Proceed with Guardrails*) tiene mucha más evidencia. Sin embargo, la colchicina ya es tratamiento de primera línea para esa enfermedad, así que probablemente no sea un reposicionamiento genuino, y habría que comprobarlo con la ficha técnica. La predicción de dermatofibrosarcoma protuberans (L5) no tiene ninguna evidencia.
-
-*Este informe es solo para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+**Otras predicciones del modelo (para contexto):**
+- *Fiebre mediterránea familiar autosómica dominante*: es una variante de una indicación ya establecida, por lo que no constituye reposicionamiento real. Evidencia L4, basada sobre todo en revisiones.
+- *Dermatofibrosarcoma protuberans*: sin ensayos ni literatura, y sin vínculo mecanístico establecido (L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

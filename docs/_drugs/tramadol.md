@@ -2,7 +2,7 @@
 layout: default
 title: Tramadol
 parent: Solo predicción del modelo (L5)
-nav_order: 536
+nav_order: 809
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tramadol: De Analgésico Opioide a Displasia Acromesomélica tipo Hunter-Thompson
+# Tramadol: De Osteoartritis a Displasia Acromesomélica de Tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Tramadol es un analgésico opioide comercializado en España en varias formas farmacéuticas (cápsulas, gotas orales, comprimidos de liberación prolongada).
-El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, con una puntuación muy alta (99,99 %).
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
-
----
+Tramadol es un analgésico opioide utilizado originalmente para el dolor asociado a la osteoartritis y otras artropatías.
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica de tipo Hunter-Thompson**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los textos de autorización de AEMPS registrados |
-| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
+| Indicación Original | Osteoartritis / artropatía (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Displasia acromesomélica de tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 99,99 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank para este informe. Según la información del análisis, tramadol es un agonista del receptor opioide mu que además inhibe la recaptación de serotonina y noradrenalina. Su uso establecido es el control del dolor.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, tramadol es un agonista del receptor opioide mu con inhibición adicional de la recaptación de serotonina y noradrenalina, y su uso está establecido en el dolor de moderado a intenso, incluido el dolor articular crónico.
 
-La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética monogénica, ligada a la vía GDF5/CDMP1. No se identifica ningún vínculo plausible entre el mecanismo de tramadol y la biología de esta enfermedad. En el mejor de los casos, tramadol podría dar alivio sintomático del dolor, lo cual es distinto de lo que implica la predicción (modificar la enfermedad).
+La displasia acromesomélica de tipo Hunter-Thompson es una displasia esquelética genética rara (defecto de CDMP1/GDF5). **No se ha establecido un vínculo mecanístico**: tramadol, como mucho, podría ofrecer alivio sintomático del dolor y no tiene ningún papel plausible como modificador de la enfermedad.
 
-Por tanto, la puntuación alta del modelo debe interpretarse con cautela. Probablemente refleja la cercanía en el grafo de conocimiento y no una relación biológica demostrada.
-
----
+La puntuación tan alta del modelo parece reflejar la proximidad en el grafo entre esta enfermedad y los trastornos esqueléticos o articulares de las indicaciones originales, más que una justificación biológica. Esta puntuación debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
-
----
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones.
+Se registran 20 autorizaciones vigentes, todas de medicamentos con tramadol como único principio activo. Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 63920 | TRAMADOL KERN PHARMA 50 mg, cápsulas duras EFG | Cápsula dura | No especificada en el registro |
-| 69404 | TRAMADOL FARMALIDER 100 mg/ml solución oral EFG | Gotas orales en solución | No especificada en el registro |
-| 72399 | TRAMADOL VIR 100 mg/ml gotas orales en solución EFG | Gotas orales en solución | No especificada en el registro |
-| 77198 | TRAMADOL RETARD STADA 150 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No especificada en el registro |
-| 65408 | TRAMADOL TARBIS 200 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No especificada en el registro |
-
----
+| 63920 | Tramadol Kern Pharma 50 mg cápsulas duras EFG | Cápsula dura | No disponible |
+| 69404 | Tramadol Farmalider 100 mg/ml solución oral EFG | Gotas orales en solución | No disponible |
+| 72399 | Tramadol Vir 100 mg/ml gotas orales en solución EFG | Gotas orales en solución | No disponible |
+| 77198 | Tramadol Retard Stada 150 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
+| 65408 | Tramadol Tarbis 200 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión, insuficiencia hepática, enfermedad hepática y cirrosis, epilepsia, trastornos de ansiedad, abuso o dependencia de sustancias, síndrome de abstinencia (incluida la abstinencia alcohólica), insuficiencia respiratoria, intoxicación por paracetamol, síndrome serotoninérgico, hipertensión intracraneal y seudotumor cerebral, diabetes y cetoacidosis diabética, hiperlipidemia, enfermedad de la vesícula biliar, síndrome de Wernicke-Korsakoff e infecciones del sistema nervioso central.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las de nivel **mayor** figuran alvimopán, bupropión, cisaprida, dexfenfluramina, dietilpropión, dolasetrón, dronabinol, efedrina y fenfluramina. Entre las de nivel **moderado** figuran atropina, bisacodilo, cimetidina, claritromicina, famotidina y eliglustat, entre otras.
 
----
+Las advertencias y contraindicaciones del prospecto no están disponibles en los datos compilados; consultar el prospecto oficial de la AEMPS.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre tramadol y esta displasia esquelética. Cualquier beneficio se limitaría al alivio sintomático del dolor, que no está respaldado por datos. Las otras nueve predicciones (displasias esqueléticas, artropatías y artritis juvenil) tampoco tienen evidencia. En artritis idiopática juvenil se recuperaron dos publicaciones, pero ninguna evalúa tramadol.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre tramadol y una displasia esquelética genética. Como mucho, tramadol serviría para el control sintomático del dolor, lo cual no constituye un reposicionamiento con valor terapéutico específico.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de AEMPS (advertencias y contraindicaciones), un paso bloqueante para cualquier cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Identificar un vínculo biológico concreto con la vía GDF5/CDMP1, o reformular la hipótesis como analgesia sintomática con estudios específicos.
-- Realizar una búsqueda dirigida de literatura y ensayos sobre tramadol en esta enfermedad.
-
-*Los resultados de este informe son solo para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Datos del mecanismo de acción y un análisis mecanístico que justifique la relación con la enfermedad
+- Revisión del prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas) para completar la evaluación de seguridad
+- Evidencia clínica o preclínica que respalde cualquier beneficio más allá del alivio sintomático
+- Evaluar candidatas de menor rango con más plausibilidad clínica, como el dolor articular crónico en artropatías, antes de invertir recursos en esta indicación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vernakalant
-parent: Solo predicción del modelo (L5)
-nav_order: 557
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 844
+evidence_level: L4
 indication_count: 6
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Vernakalant: De Fibrilación Auricular de Inicio Reciente a Ictus (Trastorno Cerebrovascular)
+# Vernakalant: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
 
 ## Resumen en Una Frase
 
-Vernakalant es un antiarrítmico de acción selectiva auricular, utilizado para la cardioversión farmacológica de la fibrilación auricular (FA) de inicio reciente.
-El modelo TxGNN predice que podría ser efectivo para **ictus (stroke disorder)**, pero los **3 ensayos clínicos** y **7 publicaciones** encontrados tratan sobre la FA y **ninguno evalúa el ictus como desenlace**. La predicción se explica probablemente por la asociación entre FA e ictus en el grafo de conocimiento, no por un efecto terapéutico demostrado.
-
----
+Vernakalant es un antiarrítmico de acción selectiva sobre la aurícula, utilizado originalmente para el tratamiento de la fibrilación auricular.
+El modelo TxGNN predice que podría ser efectivo para **trastorno cerebrovascular (ictus)**, pero actualmente no hay ensayos clínicos registrados y solo hay **7 publicaciones** de contexto (principalmente revisiones sobre fibrilación auricular, sin evidencia directa en ictus).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta texto de indicación en el registro de AEMPS. Según la literatura del paquete: cardioversión de la FA de inicio reciente |
-| Nueva Indicación Predicha | Ictus (stroke disorder) |
+| Indicación Original | Fibrilación auricular |
+| Nueva Indicación Predicha | Trastorno cerebrovascular (ictus) |
 | Puntaje de Predicción TxGNN | 99,83% |
-| Nivel de Evidencia | L4 (solo evidencia indirecta; sin datos directos en ictus) |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de un mecanismo de acción curado en el registro de DrugBank. Según la descripción general del paquete de evidencia, vernakalant es un bloqueador mixto de canales de sodio y potasio con predominio auricular. Esto explica su uso para convertir la FA a ritmo sinusal.
+Vernakalant es un antiarrítmico selectivo auricular que bloquea varios canales iónicos, entre ellos canales de sodio y de potasio con predominio auricular. Está indicado para la cardioversión de la fibrilación auricular de inicio reciente. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe, por lo que el análisis mecanístico es limitado.
 
-La relación con el ictus es **indirecta**. La FA es un importante factor de riesgo de ictus, por lo que controlar el ritmo podría influir en ese riesgo. Sin embargo, ningún dato disponible demuestra que vernakalant prevenga o trate el ictus, ni que mejore sus desenlaces.
+La relación entre ambas indicaciones es indirecta: la fibrilación auricular es un importante factor de riesgo de ictus cardioembólico, por lo que el control del ritmo podría vincularse plausiblemente con la prevención del ictus. Sin embargo, la propia cardioversión conlleva un riesgo tromboembólico, y no existe evidencia de que vernakalant prevenga o trate el ictus.
 
-El puntaje TxGNN tan alto (0,998) probablemente refleja la asociación FA–ictus en el grafo de conocimiento y no un efecto terapéutico directo. Debe interpretarse con cautela.
-
----
+El puntaje elevado de TxGNN probablemente refleja la asociación entre fibrilación auricular e ictus en el grafo de conocimiento, y no un efecto terapéutico directo. Por ello, la predicción debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04485195](https://clinicaltrials.gov/study/NCT04485195) | Fase 4 | Completado | 350 | RAFF4: vernakalant vs. procainamida i.v. para FA aguda en urgencias. El objetivo es la cardioversión y su seguridad, sin desenlace de ictus |
-| [NCT01447862](https://clinicaltrials.gov/study/NCT01447862) | Fase 4 | Completado | 101 | Vernakalant vs. ibutilida en FA de inicio reciente. Criterio principal: conversión a ritmo sinusal |
-| [NCT01646281](https://clinicaltrials.gov/study/NCT01646281) | Fase 4 | Desconocido | 70 | Vernakalant vs. flecainida sobre la contractilidad auricular tras la cardioversión. Vínculo teórico con el riesgo tromboembólico, pero no se evaluó el ictus y el estado no está verificado |
-
-Los tres ensayos se clasificaron con relevancia baja (C) para ictus. Solo respaldan la indicación en FA.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
+Se incluyen las publicaciones disponibles (ninguna es un ECA; todas tratan de fibrilación auricular en general):
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [27292602](https://pubmed.ncbi.nlm.nih.gov/27292602/) | 2016 | Cohorte | Am J Emerg Med | Seguridad y eficacia de la cardioversión farmacológica de FA de inicio reciente en urgencias, con seguimiento de tromboembolia o muerte a 30 días |
-| [17371199](https://pubmed.ncbi.nlm.nih.gov/17371199/) | 2007 | Revisión | Expert Opin Investig Drugs | Propiedades del mecanismo y desarrollo de vernakalant como agente antifibrilatorio auricular selectivo |
-| [22576674](https://pubmed.ncbi.nlm.nih.gov/22576674/) | 2012 | Revisión | Curr Hypertens Rep | Ensayos recientes en FA e hipertensión; menciona la FA como factor de riesgo de ictus y los antiarrítmicos nuevos (dronedarona, vernakalant) |
-| [22166900](https://pubmed.ncbi.nlm.nih.gov/22166900/) | 2012 | Revisión | Lancet | Manejo de la FA: estratificación del riesgo de ictus y tromboprofilaxis con anticoagulantes orales |
+| [27292602](https://pubmed.ncbi.nlm.nih.gov/27292602/) | 2016 | Cohorte | Am J Emerg Med | Seguridad y eficacia de la cardioversión farmacológica de la FA de inicio reciente en urgencias, con seguimiento de tromboembolia y mortalidad a 30 días |
+| [22166900](https://pubmed.ncbi.nlm.nih.gov/22166900/) | 2012 | Revisión | Lancet | Manejo de la FA: anticoagulantes orales y estratificación del riesgo de ictus |
+| [17371199](https://pubmed.ncbi.nlm.nih.gov/17371199/) | 2007 | Revisión | Expert Opin Investig Drugs | Propiedades mecanísticas y desarrollo de vernakalant para la conversión aguda de FA a ritmo sinusal |
+| [19678722](https://pubmed.ncbi.nlm.nih.gov/19678722/) | 2009 | Revisión | J Manag Care Pharm | Opciones farmacológicas establecidas y emergentes para la FA |
+| [22576674](https://pubmed.ncbi.nlm.nih.gov/22576674/) | 2012 | Revisión | Curr Hypertens Rep | Ensayos recientes de FA en pacientes hipertensos, incluyendo antiarrítmicos como dronedarona y vernakalant |
 | [23553811](https://pubmed.ncbi.nlm.nih.gov/23553811/) | 2013 | Revisión | Pharmacotherapy | Actualización clínica sobre el manejo de la FA |
-| [19678722](https://pubmed.ncbi.nlm.nih.gov/19678722/) | 2009 | Revisión | J Manag Care Pharm | Manejo farmacológico de la FA: opciones establecidas y emergentes |
-| [25024989](https://pubmed.ncbi.nlm.nih.gov/25024989/) | 2014 | Revisión | Heart Lung Vessels | Avances de 2013 en anestesia cardiotorácica; incluye la oclusión de la orejuela auricular izquierda para reducir el ictus |
-
-Ninguna publicación demuestra un efecto de vernakalant sobre el ictus. Todas abordan el contexto de la FA.
-
----
+| [25024989](https://pubmed.ncbi.nlm.nih.gov/25024989/) | 2014 | Revisión | Heart Lung Vessels | Avances en el manejo de la FA, incluyendo oclusión de la orejuela izquierda para reducir el ictus |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 10645002 | BRINAVESS 20 mg/ml (Advanz Pharma Limited) | Concentrado para solución para perfusión | No consta en el registro |
-
----
+| 10645002 | BRINAVESS 20 mg/ml, concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos disponibles |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas.
-
-Como observación general del análisis del paquete (no procede del prospecto), el bloqueo de canales de sodio puede provocar bradicardia o enlentecimiento de la conducción. Este riesgo sería relevante en pacientes con disfunción del nodo sinusal.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Los estudios disponibles respaldan a vernakalant en la cardioversión de la FA, pero ninguno evalúa el ictus. La predicción se apoya sobre todo en la relación FA–ictus del grafo de conocimiento. Las otras cinco predicciones (síndrome del seno enfermo, susceptibilidad obsoleta al ictus isquémico, sarcoglicanopatía, síndrome de Wildervanck y amiloidosis ABri) son de nivel L5, sin evidencia. Además, una de ellas es un término ontológico obsoleto y otra podría ser un riesgo de seguridad en lugar de una indicación.
+La predicción se basa únicamente en la asociación del grafo de conocimiento entre fibrilación auricular e ictus. No hay ensayos clínicos ni estudios que demuestren un efecto de vernakalant sobre el ictus, y la cardioversión conlleva un riesgo tromboembólico propio.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción desde una fuente curada (DrugBank).
-- Buscar evidencia directa sobre desenlaces de ictus con vernakalant, o justificar si el objetivo real es la prevención del ictus asociado a la FA.
-- Definir la indicación original con el texto aprobado en AEMPS, ausente en el registro actual.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Datos del mecanismo de acción para evaluar el vínculo mecanístico
+- Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones), indispensable antes de cualquier evaluación de seguridad
+- Estudios clínicos u observacionales que evalúen directamente el efecto de vernakalant sobre la incidencia de ictus
+- Evaluación del riesgo tromboembólico asociado a la cardioversión
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

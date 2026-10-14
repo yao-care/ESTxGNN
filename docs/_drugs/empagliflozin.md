@@ -2,7 +2,7 @@
 layout: default
 title: Empagliflozin
 parent: Solo predicción del modelo (L5)
-nav_order: 199
+nav_order: 287
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,20 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Empagliflozina: De Diabetes Mellitus Tipo 2 a Síndrome de la Extremidad Rígida Focal
+# Empagliflozina: De Diabetes Mellitus Tipo 2 a Síndrome de Rigidez Focal de Extremidad
 
 ## Resumen en Una Frase
 
-Empagliflozina es un fármaco comercializado en España, utilizado originalmente para el tratamiento de la diabetes mellitus tipo 2 (según los datos farmacológicos incluidos).
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de la extremidad rígida focal**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
+Empagliflozina es un inhibidor del cotransportador sodio-glucosa tipo 2 (SGLT2), utilizado originalmente para el tratamiento de la diabetes mellitus tipo 2.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de rigidez focal de extremidad**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según datos farmacológicos; los textos de indicación de las autorizaciones de la AEMPS están vacíos) |
-| Nueva Indicación Predicha | Síndrome de la extremidad rígida focal |
+| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Síndrome de rigidez focal de extremidad |
 | Puntaje de Predicción TxGNN | 99.06% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -51,11 +51,13 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según los datos farmacológicos incluidos, empagliflozina actúa sobre los cotransportadores de sodio-glucosa **SGLT2** (gen SLC5A2) y **SGLT1** (gen SLC5A1). Su eficacia en la diabetes tipo 2 está comprobada, y también se ha descrito una reducción del riesgo de muerte cardiovascular en pacientes con diabetes tipo 2 y enfermedad cardiovascular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, empagliflozina inhibe el cotransportador SGLT2 renal (y, con menor afinidad, SGLT1), lo que favorece la excreción urinaria de glucosa y reduce la glucemia. Su eficacia en la diabetes mellitus tipo 2 está comprobada.
 
-**Con los datos disponibles, no se identifica un vínculo mecanístico plausible** entre la inhibición de SGLT2 y el síndrome de la extremidad rígida focal. Esta enfermedad rara pertenece al espectro del síndrome de la persona rígida, que suele asociarse a alteraciones de la vía GABAérgica o a mecanismos autoinmunes. No hay una relación evidente con el metabolismo de la glucosa ni con el transporte renal de sodio-glucosa.
+Hay que ser claros: **no existe un vínculo mecanístico establecido** con la nueva indicación. El síndrome de rigidez focal de extremidad es un trastorno neurológico raro, probablemente autoinmune, dentro del espectro de la persona rígida, asociado a una menor inhibición GABAérgica (por ejemplo, anticuerpos anti-GAD65 o anti-anfifisina). La inhibición de SGLT2 no tiene un efecto conocido sobre esta vía.
 
-Además, el puntaje de 0.9906 es idéntico al del síndrome de la persona rígida clásico (segunda predicción). Esto sugiere un artefacto de proximidad en el grafo del modelo y no evidencia independiente. La tercera predicción, la opsismodisplasia (puntaje 0.9903), tampoco tiene ensayos, literatura ni vínculo mecanístico identificado. Ninguno de estos puntajes debe interpretarse como señal clínica sin validación independiente.
+La puntuación elevada de TxGNN (0.99) probablemente refleja la proximidad en la red del conocimiento con la diabetes y la autoinmunidad (los anti-GAD65 se asocian tanto a la diabetes tipo 1 como al síndrome de la persona rígida). Esto es una asociación indirecta y no una justificación de eficacia.
+
+Otras predicciones del modelo con puntuaciones similares (síndrome clásico de la persona rígida, 99.06 %, y opsismodisplasia, 99.03 %) tampoco cuentan con vínculo mecanístico ni evidencia clínica en los datos compilados.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,33 +69,36 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 8 autorizaciones. Los textos de indicación aprobada no están disponibles en los datos recibidos.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 89672 | GLUSOD 10 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Medochemie Limited |
-| 89671 | GLUSOD 25 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Medochemie Limited |
-| 91043 | EMPAGLIFLOZINA KERN PHARMA 25 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Kern Pharma S.L. |
-| 91044 | EMPAGLIFLOZINA KERN PHARMA 10 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Kern Pharma S.L. |
-| 114930014 | JARDIANCE 10 MG comprimidos recubiertos con película | Comprimido recubierto con película | Boehringer Ingelheim International GmbH |
+| 114930014 | JARDIANCE 10 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 114930005 | JARDIANCE 25 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 89672 | GLUSOD 10 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+| 89671 | GLUSOD 25 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+| 91044 | EMPAGLIFLOZINA KERN PHARMA 10 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+
+Hay 8 autorizaciones vigentes en total, todas de monofármaco; aquí se muestran 5.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas / farmacología de dianas**: la consulta se completó con 2 resultados, ambos de tipo farmacológico (sin nivel de gravedad asignado): interacción con los cotransportadores sodio-glucosa tipo 1 (SGLT1, gen SLC5A1) y tipo 2 (SGLT2, gen SLC5A2). Son las dianas farmacológicas de empagliflozina y no interacciones con otros fármacos.
+
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5): no hay ensayos, no hay literatura y no se identifica un vínculo mecanístico plausible entre la inhibición de SGLT2 y el síndrome de la extremidad rígida focal. El puntaje idéntico al de otra enfermedad vecina apunta a un artefacto del grafo.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no hay vínculo mecanístico plausible entre la inhibición de SGLT2 y la fisiopatología GABAérgica/autoinmune del síndrome de rigidez focal. La puntuación alta no basta para avanzar.
 
 **Para avanzar se necesita:**
-- Prospecto de la AEMPS con advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
-- Datos del mecanismo de acción desde DrugBank.
-- Búsqueda de literatura y de estudios preclínicos que relacionen SGLT1/SGLT2 con el síndrome de la persona rígida y sus variantes.
-- Revisión de la estructura del grafo de TxGNN para descartar un artefacto de proximidad entre la extremidad rígida focal y el síndrome de la persona rígida clásico.
-- Evaluación de la compatibilidad de la vía de administración (pendiente).
+- Datos del mecanismo de acción y un análisis mecanístico que justifique la relación con la vía GABAérgica o autoinmune
+- Estudios preclínicos o series de casos que sugieran algún beneficio en síndromes de la persona rígida
+- Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS, aún no incorporadas
+- Textos de indicación aprobada de las autorizaciones españolas
+- Evaluación de la compatibilidad de vía de administración y de la similitud con la indicación original (pendientes)
+- Evaluación de seguridad específica en la población objetivo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

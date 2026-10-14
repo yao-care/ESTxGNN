@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Axitinib
-parent: Solo predicción del modelo (L5)
-nav_order: 58
-evidence_level: L5
+parent: Evidencia alta (L1-L2)
+nav_order: 82
+evidence_level: L2
 indication_count: 10
 ---
 
 # Axitinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Axitinib: De Carcinoma de Células Renales Avanzado a Carcinoma Renal con Translocaciones Xp11.2/Fusiones del Gen TFE3
+# Axitinib: De Carcinoma de Células Renales a Carcinoma Renal Asociado a Translocaciones Xp11.2/Fusiones del Gen TFE3
 
 ## Resumen en Una Frase
 
-Axitinib es un inhibidor de tirosina quinasa dirigido a los receptores VEGFR1-3. Se comercializa en España y, según el Evidence Pack, su indicación establecida es el carcinoma de células renales.
-El modelo TxGNN predice que podría ser efectivo para el **carcinoma renal asociado a translocaciones Xp11.2/fusiones del gen TFE3**, un subtipo raro de carcinoma renal.
-Esta dirección la respalda **1 ensayo clínico** (Fase 2, aleatorizado, 15 pacientes, sin resultados) y **ninguna publicación** específica.
+Axitinib es un inhibidor selectivo de los receptores del VEGF (VEGFR-1, -2 y -3), utilizado originalmente para el tratamiento del carcinoma de células renales avanzado.
+El modelo TxGNN predice que podría ser efectivo para el **carcinoma renal asociado a translocaciones Xp11.2/fusiones del gen TFE3**, con **1 ensayo clínico** de Fase 2 (aún activo, sin resultados publicados) que actualmente respalda esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en las autorizaciones españolas (el campo de indicación está vacío). El Evidence Pack señala el carcinoma de células renales como su indicación comercializada establecida |
-| Nueva Indicación Predicha | Carcinoma renal asociado a translocaciones Xp11.2/fusiones del gen TFE3 |
-| Puntaje de Prediccion TxGNN | 99.90% |
-| Nivel de Evidencia | L5 según las reglas de este informe (el único ensayo no está completado y no hay resultados). El Evidence Pack asigna L2 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Numero de Autorizaciones | 9 |
-| Decision Recomendada | Hold |
+| Indicación Original | Carcinoma de células renales (carcinoma renal de células claras y no papilar) |
+| Nueva Indicación Predicha | Carcinoma de células renales asociado a translocaciones Xp11.2/fusiones del gen TFE3 |
+| Puntaje de Predicción TxGNN | 99.90% |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 9 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información disponible en el análisis, axitinib inhibe de forma selectiva los receptores VEGFR1, VEGFR2 y VEGFR3, con lo que bloquea la angiogénesis tumoral.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, axitinib es un inhibidor de tirosina quinasa que bloquea selectivamente VEGFR-1, -2 y -3, con lo que frena la angiogénesis tumoral. Su eficacia en el carcinoma de células renales avanzado está comprobada, y mecanísticamente podría ser aplicable a esta nueva indicación.
 
-El carcinoma renal con fusiones TFE3 tiene un fenotipo angiogénico ligado a las vías MET y VEGF. Por eso el bloqueo de VEGFR es plausible por extrapolación desde el carcinoma renal de células claras, donde el uso de axitinib ya está establecido. El ensayo registrado añade nivolumab (bloqueo de PD-1) a axitinib.
+El carcinoma renal con translocación Xp11.2/TFE3 es un subtipo raro de carcinoma renal que, según los datos compilados, muestra dependencia de la vía del VEGF. Al ser una forma de cáncer renal, comparte con la indicación original la dependencia de la angiogénesis, lo que hace plausible el efecto de un inhibidor de VEGFR.
 
-Esta predicción es más una **extensión a un subtipo histológico** que un reposicionamiento hacia una enfermedad distinta. El propio Evidence Pack indica que el vacío en las indicaciones originales probablemente refleja datos de origen incompletos. Además, no hay resultados publicados en este subtipo, que es muy raro, y la extrapolación desde el adulto con células claras es incierta.
+Conviene ser prudente: la única evidencia directa es un ensayo aleatorizado de Fase 2 muy pequeño (15 participantes) que compara axitinib + nivolumab frente a nivolumab solo, todavía activo y sin resultados. Además, los grandes ensayos de Fase 3 se centraron en el carcinoma de células claras, no en este subtipo.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-| Numero de Ensayo | Fase | Estado | Inscripcion | Hallazgos Principales |
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Fase 2 | Activo, sin reclutar | 15 | Ensayo aleatorizado de axitinib + nivolumab frente a nivolumab en monoterapia en carcinoma renal con translocación TFE (irresecable o metastásico), en todas las edades. Fecha estimada de finalización: 13/11/2026. Sin resultados publicados. Muestra muy pequeña: no permite concluir sobre eficacia |
+| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Fase 2 | Activo, sin reclutamiento | 15 | Axitinib + nivolumab frente a nivolumab solo en carcinoma renal con translocación TFE, irresecable o metastásico, en todos los grupos de edad. Sin resultados disponibles. |
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible para esta indicación específica.
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-Se muestran 5 de las 9 autorizaciones. El texto de indicación aprobada está vacío en todas las fuentes recibidas, por lo que no se incluye esa columna.
-
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 12777005 | INLYTA 5 mg comprimidos recubiertos con película | Comprimido recubierto con película | Pfizer Europe MA EEIG |
-| 1241847009 | Axitinib Accord 3 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Accord Healthcare S.L.U. |
-| 1241847014 | Axitinib Accord 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Accord Healthcare S.L.U. |
-| 89675 | Axitinib Teva 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Teva Pharma S.L.U. |
-| 88718 | Axitinib Stada 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
+| 12777005 | INLYTA 5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 12777002 | INLYTA 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 1241847014 | Axitinib Accord 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
+| 1241847009 | Axitinib Accord 3 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
+| 89675 | Axitinib Teva 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
+
+Hay 9 autorizaciones vigentes en total (todas de medicamentos de un solo principio activo); se muestran las 5 principales.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa de VEGFR1-3) |
-| Riesgo de Mielosupresion | Consultar las advertencias y precauciones del prospecto |
-| Clasificacion de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa de VEGFR) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Proteccion en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las principales:
+  - **Mayores**: claritromicina y dexametasona.
+  - **Moderadas**: aprepitant, clotrimazol, miconazol y naltrexona.
+  - **Menores**: antiácidos y antisecretores gástricos (famotidina, ranitidina, cimetidina, nizatidina, hidróxido de aluminio, carbonato cálcico, compuestos de magnesio) e inhibidores de la bomba de protones (rabeprazol, esomeprazol, lansoprazol, dexlansoprazol).
 
-## Conclusion y Proximos Pasos
+Para advertencias y contraindicaciones, consultar el prospecto.
 
-**Decision: Hold**
+## Conclusión y Próximos Pasos
 
-**Justificacion:**
-Para este subtipo solo existe un ensayo de Fase 2 pequeño (n=15), aún sin resultados ni publicaciones, y no hay datos de seguridad del prospecto español. Con la información actual no se puede pasar a una fase de decisión más avanzada. Por separado, el uso de axitinib en carcinoma renal en general sí cuenta con ensayos de Fase 3 (por ejemplo AXIS y JAVELIN Renal 101), pero eso corresponde a su indicación establecida y no a esta predicción.
+**Decisión: Hold**
+
+**Justificación:**
+Aunque el puntaje TxGNN es muy alto y el mecanismo es plausible, la única evidencia directa es un ensayo de Fase 2 con 15 participantes, todavía activo y sin resultados. Esto no basta para avanzar; se recomienda mantener la indicación como pregunta de investigación hasta contar con datos.
 
 **Para avanzar se necesita:**
-- Resultados del ensayo NCT03595124 (finalización estimada en noviembre de 2026).
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones) para completar la evaluación de seguridad.
-- Obtener el mecanismo de acción detallado desde DrugBank.
-- Confirmar la indicación original aprobada en España, ya que el texto de indicación está vacío en las 9 autorizaciones.
-- Revisar la literatura sobre axitinib en carcinoma renal de niños y adultos jóvenes (por ejemplo, la revisión narrativa PMID 39326645, identificada en otras predicciones del mismo farmaco), como apoyo indirecto.
+- Resultados publicados del ensayo NCT03595124 (eficacia y seguridad en carcinoma renal con translocación TFE3).
+- Datos específicos del subtipo, ya que los ensayos de Fase 3 se centraron en células claras.
+- Datos detallados del mecanismo de acción.
+- Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones), actualmente no disponible.
+- Revisión de las interacciones mayores (claritromicina, dexametasona) para definir pautas de manejo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

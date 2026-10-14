@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ceftriaxone
-parent: Evidencia moderada (L3-L4)
-nav_order: 111
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 159
+evidence_level: L5
 indication_count: 7
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,80 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Ceftriaxona: De Indicación Original No Registrada a Hiperamilasemia
+# Ceftriaxona: De Infección Estreptocócica a Hiperamilasemia
 
 ## Resumen en Una Frase
 
-Ceftriaxona es un antibiótico betalactámico (cefalosporina de tercera generación). Los datos de AEMPS disponibles no incluyen el texto de su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **Hiperamilasemia**,
-pero solo hay **0 ensayos clínicos** y **3 publicaciones** de relevancia indirecta, por lo que la evidencia real es muy débil.
+Ceftriaxona es un antibiótico cefalosporínico de tercera generación, utilizado originalmente para infecciones bacterianas como neumonía, meningitis, gonorrea y salmonelosis.
+El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia** (puntaje de 99,39 %), pero esta predicción **no cuenta con ensayos clínicos** y solo con **3 publicaciones** de relevancia indirecta.
+Entre las demás predicciones, la **otitis media infecciosa** es la mejor respaldada (1 ensayo registrado, aunque no evalúa ceftriaxona, y 18 publicaciones), por lo que se comenta como alternativa más plausible.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | Infección estreptocócica, neumonía bacteriana, meningitis bacteriana, gonorrea, salmonelosis, entre otras (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.39% |
-| Nivel de Evidencia | L4 |
+| Puntaje de Predicción TxGNN | 99,39 % |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, ceftriaxona es un betalactámico que inhibe las proteínas de unión a penicilina (PBP) bacterianas, y su uso antibacteriano está establecido.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ceftriaxona es una cefalosporina de tercera generación con acción antibacteriana, y su eficacia en infecciones bacterianas está bien establecida.
 
-Sin embargo, no existe un mecanismo directo que relacione ceftriaxona con la reducción de la amilasa. La hiperamilasemia es un hallazgo de laboratorio, no una enfermedad tratable en sí misma. Cualquier señal sería indirecta, por ejemplo la prevención de complicaciones infecciosas tras procedimientos biliares o pancreáticos.
+Para la hiperamilasemia, la predicción **no es mecanísticamente plausible**. La elevación de amilasa es un hallazgo de laboratorio y no una infección. La literatura recuperada trata sobre síndrome de Weil con hemorragia digestiva, enzimas pancreáticas en hemorragia intracraneal y profilaxis tras papilosfinterotomía endoscópica; ninguna demuestra que ceftriaxona trate la hiperamilasemia. El puntaje alto del modelo es solo una predicción.
 
-El puntaje TxGNN (0.994) es muy alto, pero **no está respaldado por datos clínicos**. Debe interpretarse como una hipótesis del modelo, no como una señal de eficacia.
+Otras predicciones del modelo siguen el mismo patrón. Las de síndrome de hiperviscosidad policlonal, analbuminemia congénita e incompatibilidad de grupo sanguíneo carecen de vínculo mecanístico. En cambio, las predicciones de **otitis media** (infecciosa, supurativa y crónica) sí son coherentes con la actividad antibacteriana del fármaco, aunque se acercan más a un uso ya conocido que a un reposicionamiento genuino.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para hiperamilasemia.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | Estudio clínico (diseño no determinable) | Bratislavske lekarske listy | Compara 30 pacientes con ceftriaxona profiláctica (1 g) tras esfinterotomía endoscópica papilar con 30 sin antibiótico. Las bacterias biliares (*Pseudomonas aeruginosa*, *E. coli*) eran sensibles a ceftriaxona. El resumen disponible está truncado y no permite confirmar el resultado sobre la amilasa. |
-| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Observacional (no específico de ceftriaxona) | Southern Medical Journal | En 38 pacientes con hemorragia intracraneal, 25 tenían lipasa elevada y 17 también amilasa elevada, sin pancreatitis. No evalúa ceftriaxona. |
-| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Reporte de caso | Revista Española de Enfermedades Digestivas | Síndrome de Weil (leptospirosis) con hemorragia digestiva alta por úlcera gástrica. Es un caso aislado sin valor de eficacia. |
+| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | Estudio clínico | Bratislavske lekarske listy | Profilaxis con 1 g de ceftriaxona tras papilosfinterotomía endoscópica en 30 pacientes frente a 30 controles; las bacterias biliares fueron sensibles a ceftriaxona |
+| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Cohorte | Southern Medical Journal | Hiperamilasemia/hiperlipasemia de origen pancreático en 38 pacientes con hemorragia intracraneal, sin pancreatitis; no involucra ceftriaxona |
+| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Reporte de caso | Revista Española de Enfermedades Digestivas | Síndrome de Weil con hemorragia digestiva alta; sin relación terapéutica demostrada |
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones. Los textos de indicación aprobada están vacíos en los datos recibidos, por lo que se omite esa columna.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 83903 | Ceftriaxona Qilu 1 g | Polvo para solución inyectable y para perfusión | No disponible |
+| 63251 | Ceftriaxona LDP Torlan 500 mg | Polvo y disolvente para solución inyectable | No disponible |
+| 88920 | Ceftriaxona Kalceks 1 g | Polvo para solución inyectable y para perfusión | No disponible |
+| 64950 | Ceftriaxona Sala 2 g | Polvo para solución para perfusión | No disponible |
+| 62635 | Ceftriaxona Normon 1000 mg | Polvo y disolvente para solución inyectable | No disponible |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 83903 | CEFTRIAXONA QILU 1 G POLVO PARA SOLUCION INYECTABLE Y PARA PERFUSION EFG | Polvo para solución inyectable y para perfusión |
-| 63251 | CEFTRIAXONA LDP TORLAN 500 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE INTRAVENOSA EFG | Polvo y disolvente para solución inyectable |
-| 88920 | CEFTRIAXONA KALCEKS 1 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Polvo para solución inyectable y para perfusión |
-| 64950 | CEFTRIAXONA SALA 2 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | Polvo para solución para perfusión |
-| 62635 | CEFTRIAXONA NORMON 1000 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE Y PARA PERFUSION EFG | Polvo y disolvente para solución inyectable |
+Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: enfermedad hepática, enfermedad de la vesícula biliar, ictericia neonatal, colitis por *Clostridium difficile*, enterocolitis necrotizante perinatal y anemia hemolítica.
+- **Interacciones Farmacológicas** (100 registradas en total):
+  - **Mayores**: cloruro de calcio, glucoheptonato de calcio y gluconato de calcio.
+  - **Moderadas**: kanamicina, neomicina, estreptomicina y ácido picosulfúrico.
+  - Otras interacciones, como calcitriol, epinefrina, anfotericina B y manitol, tienen nivel desconocido.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni mecanismo plausible para hiperamilasemia, que es un hallazgo de laboratorio y no una enfermedad tratable. Las tres publicaciones son indirectas o anecdóticas, y el alto puntaje de TxGNN no compensa esa falta de respaldo.
+La predicción principal (hiperamilasemia) es solo del modelo (L5), sin ensayos ni mecanismo plausible, por lo que no justifica avanzar. La otitis media infecciosa (L3, S2) podría avanzar como "Proceed with Guardrails": hay un ensayo comparativo de ceftriaxona frente a trimetoprim-sulfametoxazol y guías con ceftriaxona intramuscular en dosis única. Sin embargo, el único ensayo registrado evalúa tubos de timpanostomía, no ceftriaxona, y no se verificó ningún ECA de Fase 3. La otitis media supurativa y la crónica quedan como preguntas de investigación (L3 y L4), con evidencia antigua, no controlada o microbiológica.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Definir si existe una enfermedad clínica concreta asociada a la hiperamilasemia (por ejemplo, complicaciones infecciosas tras procedimientos biliares o pancreáticos) que pueda ser el verdadero objetivo terapéutico.
-- Como referencia, en el mismo Evidence Pack la predicción de otitis media infecciosa (rango 4) tiene nivel L2 y decisión "Proceed with Guardrails". Probablemente ya es un uso antibacteriano establecido y no un reposicionamiento genuino, por lo que conviene evaluarla por separado.
+- Prospecto de AEMPS con advertencias, contraindicaciones e indicaciones aprobadas.
+- Datos del mecanismo de acción desde DrugBank.
+- Para otitis media: ECA de Fase 3 de ceftriaxona y verificación de su estatus frente a la indicación ya autorizada.
+- Para otitis media: salvaguardas de uso restringido (fracaso terapéutico, vómitos o imposibilidad de vía oral) y de control de resistencias antimicrobianas.
+- Separar las formas aguda y crónica de otitis media supurativa en futuros análisis.
+- Descartar la hiperamilasemia, la hiperviscosidad, la analbuminemia y la incompatibilidad de grupo sanguíneo como candidatas terapéuticas, salvo nueva evidencia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

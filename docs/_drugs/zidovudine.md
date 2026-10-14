@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Evidencia moderada (L3-L4)
-nav_order: 572
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 865
+evidence_level: L5
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,108 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Zidovudina: De Antirretroviral Contra el VIH a Sindrome de Inmunodeficiencia Adquirida Felina
+# Zidovudina: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-La zidovudina es un inhibidor nucleosidico de la transcriptasa inversa, conocido como antirretroviral contra el VIH.
-El modelo TxGNN predice que podria ser efectiva para el **sindrome de inmunodeficiencia adquirida felina (FIV/FeLV)**.
-Esta prediccion tiene **0 ensayos clinicos** y **20 publicaciones**, todas de estudios preclinicos o en animales.
+Zidovudina es un inhibidor nucleosídico de la transcriptasa inversa, utilizado originalmente para tratar la infección por VIH y el SIDA.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, una indicación **veterinaria** y no humana.
+La respaldan **0 ensayos clínicos** y **20 publicaciones**, todas ellas estudios en animales, observacionales o revisiones.
 
-## Resumen Rapido
+---
+
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Nueva Indicacion Predicha | Sindrome de inmunodeficiencia adquirida felina |
-| Puntaje de Prediccion TxGNN | 99.96% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Numero de Autorizaciones | 3 |
-| Decision Recomendada | Hold |
+| Indicación Original | Infección por VIH / SIDA (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (SIDA felino) |
+| Puntaje de Predicción TxGNN | 99.96% |
+| Nivel de Evidencia | L4 (solo estudios preclínicos y veterinarios; sin ensayos en humanos) |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 3 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el paquete de evidencia. Segun la informacion conocida, la zidovudina es un analogo de nucleosido que actua sobre la transcriptasa inversa de los retrovirus. Su eficacia contra el VIH esta comprobada, y mecanisticamente podria ser aplicable a otros lentivirus con una enzima similar.
+## ¿Por qué es Razonable esta Predicción?
 
-El virus de la inmunodeficiencia felina (FIV) es un lentivirus que causa en gatos una inmunodeficiencia muy parecida al SIDA humano. Su transcriptasa inversa se parece a la del VIH-1, por lo que se ha usado como modelo para probar quimioterapia dirigida a esta enzima. Por eso el mecanismo es plausible.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, zidovudina es un análogo de la timidina que actúa como profármaco. Se fosforila en los linfocitos y bloquea la transcriptasa inversa del VIH, lo que detiene la replicación viral.
 
-Esta es una indicacion veterinaria o de modelo animal. No hay ensayos en humanos, y la evidencia no respalda un reposicionamiento para uso humano.
+El virus de la inmunodeficiencia felina (FIV) es un lentivirus cuya transcriptasa inversa es muy parecida a la del VIH. Por eso la inhibición de su replicación es mecanísticamente plausible. Es la misma lógica por la que el gato infectado con FIV se usa como modelo animal del VIH humano.
 
-## Evidencia de Ensayos Clinicos
+Los estudios en gatos con FIV (infección natural o experimental) muestran reducciones de la carga viral plasmática y, en algunos casos, mejor función inmunitaria. Sin embargo, la zidovudina no evitó la infección en los modelos de profilaxis. Esta predicción es una extensión veterinaria del mecanismo ya conocido en humanos, no una nueva indicación para personas.
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación. Esto es esperable, porque se trata de una indicación veterinaria.
+
+---
 
 ## Evidencia de Literatura
 
-Todos los estudios son preclinicos, en animales o revisiones. Se muestran los 10 mas relevantes.
+Se listan las 10 publicaciones más relevantes de las 20 disponibles. No hay ECA en humanos; todas son estudios en gatos, una revisión o series clínicas veterinarias.
 
-| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Modelo preclinico / Revision | Antimicrob Agents Chemother | La transcriptasa inversa del FIV se examino como modelo para quimioterapia contra el SIDA |
-| [3034403](https://pubmed.ncbi.nlm.nih.gov/3034403/) | 1987 | Estudio en animales | Cancer Res | AZT evaluado como terapia y profilaxis en gatos infectados con FeLV, modelo del SIDA |
-| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Estudio en animales | Antimicrob Agents Chemother | Interferon alfa 2b con AZT en gatos presintomaticos con inmunodeficiencia inducida por FeLV |
-| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Estudio en animales | Arch Virol | En gatos con FIV, la zidovudina redujo el titulo viral en plasma a las 2 semanas, pero no evito la infeccion |
-| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Estudio en animales (profilaxis) | J Acquir Immune Defic Syndr | La profilaxis con ZDV previno la viremia temprana y el descenso de linfocitos, pero no la infeccion primaria |
-| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Estudio en animales (raton SCID-felino) | Vet Immunol Immunopathol | Menor carga de provirus y mejor funcion inmune humoral con AZT en ratones inoculados con FIV |
-| [10952586](https://pubmed.ncbi.nlm.nih.gov/10952586/) | 2000 | Estudio en animales | Antimicrob Agents Chemother | La terapia antiviral redujo la carga viral, pero no evito la involucion tímica en gatos jovenes con FIV |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Estudio in vitro e in vivo | Vet Immunol Immunopathol | Evaluacion de AZT/3TC como profilaxis y terapia contra FIV; efecto aditivo a sinergico en celulas primarias |
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Estudio en gatos con infeccion natural | Viruses | Comparo ZDV sola, con interferon-α, con lamivudina y con acido valproico durante un ano en gatos con FIV |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Seguimiento en gatos | J Feline Med Surg | Efectos de la terapia antirretroviral a largo plazo (5-6 anos) en gatos con FIV, iniciada con AZT |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Estudio animal | Archives of Virology | En gatos infectados con FIV, la zidovudina no evitó la infección, pero redujo significativamente el título viral plasmático a las 2 semanas. No modificó el título en células mononucleares de sangre periférica. |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Comparación clínica en gatos | Viruses | Compara durante un año zidovudina sola o combinada con interferón-α, lamivudina o ácido valproico en gatos con infección natural por FIV. Evalúa carga viral, cociente CD4/CD8 y signos neurológicos. |
+| [21723621](https://pubmed.ncbi.nlm.nih.gov/21723621/) | 2011 | Cohorte | Veterinary Immunology and Immunopathology | Estudio de 6 meses en 20 gatos con infección natural, tratados y no tratados. Analiza interacciones inmunoendocrinas (citocinas y ejes hipofisario-adrenal y tiroideo). |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Estudio animal | J Acquir Immune Defic Syndr | La zidovudina profiláctica previno la viremia temprana y el descenso de linfocitos, pero no la infección primaria. |
+| [10952586](https://pubmed.ncbi.nlm.nih.gov/10952586/) | 2000 | Estudio animal | Antimicrob Agents Chemother | La terapia antiviral redujo la carga viral, pero no evitó la involución tímica en gatos jóvenes infectados. |
+| [7495172](https://pubmed.ncbi.nlm.nih.gov/7495172/) | 1995 | Estudio clínico veterinario | Zentralblatt für Veterinärmedizin A | Tratamiento a largo plazo con AZT (5 mg/kg, 3 veces al día) en gatos FIV-positivos sintomáticos frente a tratamiento sintomático convencional. Incluye datos farmacocinéticos (semivida de 1,5 h). |
+| [1363008](https://pubmed.ncbi.nlm.nih.gov/1363008/) | 1992 | Estudio clínico veterinario | Veterinary Immunology and Immunopathology | Evalúa la eficacia terapéutica y los efectos secundarios de AZT y PMEA en gatos con infección natural por FIV o FeLV con síntomas clínicos. |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Seguimiento | Journal of Feline Medicine and Surgery | Seguimiento de terapia antirretroviral a largo plazo (5-6 años) en gatos con FIV, iniciada con zidovudina. |
+| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Estudio de toxicidad animal | Fundamental and Applied Toxicology | Evalúa la toxicidad de la zidovudina (0-60 mg/kg/día) en gatos infectados con FeLV, un modelo de SIDA. Señal de seguridad relevante. |
+| [8820595](https://pubmed.ncbi.nlm.nih.gov/8820595/) | 1995 | Revisión | Seminars in Veterinary Medicine and Surgery | Revisión del manejo de gatos infectados por retrovirus. Incluye la zidovudina entre las terapias específicas frente al virus. |
 
-## Informacion de Mercado en Espana
+---
 
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica |
-|---------|------|------|
-| 57486 | RETROVIR 250 mg CAPSULAS DURAS | Capsula dura |
-| 69184 | ZIDOVUDINA ALTAN 2 MG/ML SOLUCION PARA PERFUSION | Solucion para perfusion |
-| 64213 | ZIDOVUDINA ACCORD 50 mg/5 ml SOLUCION ORAL EFG | Solucion oral |
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 57486 | RETROVIR 250 mg CÁPSULAS DURAS | Cápsula dura | No especificada en los datos compilados |
+| 69184 | ZIDOVUDINA ALTAN 2 mg/ml SOLUCIÓN PARA PERFUSIÓN | Solución para perfusión | No especificada en los datos compilados |
+| 64213 | ZIDOVUDINA ACCORD 50 mg/5 ml SOLUCIÓN ORAL EFG | Solución oral | No especificada en los datos compilados |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Contraindicaciones y condiciones de riesgo (del grafo de conocimiento, no del texto del prospecto)**:
+  - Hepáticas: insuficiencia hepática, enfermedad hepática, hígado graso, esteatohepatitis no alcohólica.
+  - Renales y urinarias: enfermedad renal, piouréter.
+  - Digestivas: pancreatitis, enfermedad de la vesícula biliar.
+  - Musculares: miopatía, enfermedades musculares y del músculo esquelético, parálisis periódica familiar, dermatomiositis, miositis.
+  - Hematológicas: neutropenia, agranulocitosis, anemia, anemia macrocítica.
+  - Metabólicas: hipertrigliceridemia, obesidad (incluida la monogénica), acidosis láctica.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones, de las cuales se muestran las principales:
+  - Moderadas: anfotericina B (incluidas las formulaciones de sulfato de colesterilo y complejo lipídico), corticosteroides (betametasona, budesonida, dexametasona, hidrocortisona, prednisolona, prednisona, triamcinolona), estatinas (rosuvastatina, simvastatina), naltrexona y orlistat.
+  - Menores: cimetidina y claritromicina.
+  - Sin clasificar: pantoprazol, morfina, metformina y omeprazol.
+- **Seguridad en gatos**: existe un estudio de toxicidad de zidovudina en gatos infectados con FeLV (PMID 2163339), que debe tenerse en cuenta en cualquier uso veterinario.
 
-## Conclusion y Proximos Pasos
+Para las advertencias principales, consultar el prospecto de cada producto.
 
-**Decision: Hold**
+---
 
-**Justificacion:**
-La prediccion para el SIDA felino solo tiene respaldo en estudios preclinicos y en animales (L4), sin ensayos clinicos. Ademas, es una indicacion veterinaria que no aporta a un reposicionamiento en humanos.
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La indicación predicha es veterinaria, y la evidencia es exclusivamente preclínica o veterinaria. No hay ensayos clínicos registrados ni estudios en humanos, y los modelos de profilaxis muestran que la zidovudina no evita la infección. Además, existe una señal de toxicidad en gatos. No se justifica avanzar como reposicionamiento para uso humano.
 
 **Para avanzar se necesita:**
-- Aclarar si el interes es veterinario o humano. Si es veterinario, la evaluacion debe hacerse bajo el marco regulatorio de medicamentos veterinarios.
-- Datos de mecanismo de accion y de indicaciones aprobadas por AEMPS, que estan pendientes.
-- Advertencias y contraindicaciones del prospecto de AEMPS.
-- Nota sobre otras predicciones del mismo farmaco: "VIH congenito" y "complejo relacionado con el SIDA" tienen nivel L1 y recomendacion "Proceed with Guardrails". Corresponden a usos ya establecidos, no a un reposicionamiento novedoso. Antes de avanzar, hay que confirmar que las poblaciones de los ensayos coinciden con el escenario perinatal o congenito, y vigilar la toxicidad hematologica.
+- Aclarar si el objetivo es un uso veterinario, que cae fuera del marco regulatorio humano de la AEMPS.
+- Obtener el texto de indicaciones, advertencias y contraindicaciones de los prospectos de las tres autorizaciones españolas.
+- Completar los datos del mecanismo de acción.
+- Si se persigue la vía veterinaria, realizar ensayos controlados en gatos con evaluación de seguridad hematológica.
+
+**Nota adicional:** otras predicciones del modelo para este fármaco, como VIH congénito y complejo relacionado con el SIDA, tienen respaldo de ensayos de Fase 3. Corresponden a usos ya establecidos, no a un reposicionamiento nuevo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

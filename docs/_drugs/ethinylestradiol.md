@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ethinylestradiol
-parent: Evidencia moderada (L3-L4)
-nav_order: 217
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 314
+evidence_level: L5
 indication_count: 1
 ---
 
 # Ethinylestradiol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,32 +29,33 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Etinilestradiol: De Indicación Original No Registrada a Zinc Plasmático Elevado
+# Etinilestradiol: De Acné y Osteoporosis Posmenopáusica a Zinc Plasmático Elevado
 
 ## Resumen en Una Frase
 
-Etinilestradiol es un estrógeno sintético que en España se comercializa en combinación con acetato de ciproterona. El registro de la AEMPS disponible no incluye el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado**, pero hay **0 ensayos clínicos** y solo **2 publicaciones** antiguas e indirectas. Son más un efecto secundario farmacológico que un tratamiento.
+Etinilestradiol es un estrógeno sintético utilizado originalmente para el acné, la osteoporosis posmenopáusica y la vaginitis atrófica posmenopáusica.
+El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
+| Indicación Original | Acné, osteoporosis posmenopáusica, vaginitis atrófica posmenopáusica (según el grafo de conocimiento; la autorización española no incluye texto de indicación) |
 | Nueva Indicación Predicha | Zinc plasmático elevado |
-| Puntaje de Prediccion TxGNN | 99.63% |
-| Nivel de Evidencia | L4 |
+| Puntaje de Predicción TxGNN | 99.63% |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, etinilestradiol es un estrógeno sintético que actúa sobre los receptores de estrógeno alfa (ESR1) y beta (ESR2). En España se comercializa dentro de una combinación con acetato de ciproterona. Su relación mecanística con la nueva indicación no está establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, el etinilestradiol es un agonista de los receptores de estrógenos alfa (ESR1) y beta (ESR2), y su eficacia en indicaciones hormonales como la osteoporosis posmenopáusica y la atrofia vaginal es conocida.
 
-Existe una plausibilidad biológica limitada. La exposición a estrógenos altera la homeostasis de oligoelementos, como el manejo del zinc y del cobre y sus proteínas transportadoras. Por eso es concebible que el etinilestradiol modifique el zinc plasmático.
+Un vínculo meramente especulativo sería que los estrógenos modifican la síntesis hepática de proteínas transportadoras de zinc (albúmina, alfa-2-macroglobulina) y, con ello, los niveles circulantes de zinc. Sin embargo, la exposición a estrógenos se asocia por lo general con una **disminución**, no con un aumento, del zinc plasmático, por lo que la dirección del efecto no respalda claramente un beneficio terapéutico.
 
-Los dos estudios recuperados describen cómo los anticonceptivos hormonales modifican los niveles minerales. Es decir, describen un efecto farmacológico y no el tratamiento de una hiperzincemia. Además, no se puede confirmar la dirección del efecto a partir de los títulos y resúmenes disponibles. El puntaje alto de TxGNN (0.996) es solo una predicción y no está respaldado por evidencia clínica.
+Además, el zinc plasmático elevado es un hallazgo de laboratorio y no una enfermedad con una diana terapéutica establecida, lo que debilita aún más la justificación. La similitud con las indicaciones originales aún está pendiente de evaluar. El único sustento es el puntaje alto del modelo, sin corroboración clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,35 +63,34 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [736629](https://pubmed.ncbi.nlm.nih.gov/736629/) | 1978 | Observacional | Archives of Gynecology | En mujeres que tomaban anticonceptivos orales, el cobre en plasma y endometrio aumentó de forma significativa. El zinc se mantuvo prácticamente constante. |
-| [961877](https://pubmed.ncbi.nlm.nih.gov/961877/) | 1976 | Estudio en animales (rata) | American Journal of Physiology | Con dietas con distintos niveles de zinc, el mestranol (profármaco del etinilestradiol) redujo el zinc plasmático y el cobre y magnesio de la tibia. La relevancia es indirecta y el efecto va en dirección opuesta a una elevación. |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 68629 | Acetato de Ciproterona/Etinilestradiol Sandoz 2 mg/0.035 mg comprimidos recubiertos EFG | Comprimido recubierto | No especificada en el registro |
+| 68629 | Acetato de ciproterona/Etinilestradiol Sandoz 2 mg/0,035 mg comprimidos recubiertos EFG | Comprimido recubierto | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): hipertensión, epilepsia, trastornos de ansiedad, porfirias, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus y cetoacidosis diabética, insuficiencia cardíaca congestiva, hipercalcemia, insuficiencia suprarrenal (enfermedad de Addison), hipotiroidismo, lupus eritematoso sistémico, asma e hiperplasia prostática benigna.
+- **Interacciones farmacológicas:** Se identificaron 3 interacciones de tipo farmacológico (dianas): receptor de estrógenos alfa (ESR1), receptor de estrógenos beta (ESR2) y transportador de aminoácidos acoplado a protones 1 (SLC36A1). No se dispone de niveles de gravedad.
 
-- **Interacciones farmacológicas**: la consulta se completó, pero los 3 resultados son dianas farmacológicas y no interacciones con otros medicamentos: receptor de estrógeno alfa (ESR1), receptor de estrógeno beta (ESR2) y transportador de aminoácidos acoplado a protones 1 (SLC36A1).
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura son dos estudios de los años 70, indirectos, que describen un efecto secundario y no un tratamiento. Uno de ellos incluso muestra descenso del zinc, no elevación. El puntaje de TxGNN es alto, pero no basta para avanzar sin respaldo clínico.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura, y la dirección del efecto de los estrógenos sobre el zinc plasmático no favorece un beneficio terapéutico. Además, el perfil de contraindicaciones es extenso.
 
 **Para avanzar se necesita:**
-- Obtener la ficha técnica de la AEMPS (advertencias, contraindicaciones e indicación aprobada), que hoy es un bloqueo para el cribado de seguridad
-- Completar los datos del mecanismo de acción (por ejemplo, consultando DrugBank)
-- Revisar el texto completo de los artículos para confirmar la dirección del efecto sobre el zinc
-- Buscar evidencia de que la hiperzincemia sea una condición clínica relevante que justifique un tratamiento con estrógenos, y estudios humanos directos con etinilestradiol
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), requisito bloqueante para el cribado de seguridad
+- Datos del mecanismo de acción desde DrugBank
+- Justificar que el zinc plasmático elevado sea una indicación clínica con relevancia terapéutica
+- Revisión sistemática de la literatura sobre estrógenos y zinc sérico
+- Evaluar la compatibilidad de la vía de administración y la similitud con las indicaciones originales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

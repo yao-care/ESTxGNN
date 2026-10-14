@@ -2,7 +2,7 @@
 layout: default
 title: Canakinumab
 parent: Solo predicción del modelo (L5)
-nav_order: 97
+nav_order: 136
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Canakinumab: Predicción de Reposicionamiento a Infarto Hepático
+# Canakinumab: De Gota y Síndromes Periódicos Autoinflamatorios a Infarto Hepático
 
 ## Resumen en Una Frase
 
-Canakinumab (comercializado como Ilaris) es un anticuerpo monoclonal humano que neutraliza la interleucina-1β (IL-1β). Los datos de autorización disponibles no indican su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **infarto hepático**, pero no hay **ningún ensayo clínico** y solo **1 publicación**, sin relación con esta enfermedad. Se trata de una predicción del modelo sin respaldo real.
+Canakinumab es un anticuerpo monoclonal dirigido contra la interleucina-1β (IL-1β). Se ha usado en enfermedades autoinflamatorias como los síndromes periódicos asociados a criopirina (CAPS), la artritis idiopática juvenil sistémica, la fiebre mediterránea familiar y la gota.
+El modelo TxGNN predice que podría ser efectivo para **infarto hepático**, con un puntaje muy alto (99,86 %).
+Sin embargo, **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Gota, síndromes periódicos asociados a criopirina, artritis idiopática juvenil sistémica y otras fiebres periódicas hereditarias (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Infarto hepático |
 | Puntaje de Predicción TxGNN | 99,86 % |
 | Nivel de Evidencia | L5 |
@@ -47,50 +51,68 @@ El modelo TxGNN predice que podría ser efectivo para **infarto hepático**, per
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Canakinumab actúa neutralizando la señalización de IL-1β, lo que suprime la inflamación en enfermedades autoinflamatorias. Este mecanismo proviene de la literatura recuperada, no de un campo de mecanismo de acción del fármaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes consultadas. Según la información conocida, canakinumab neutraliza la IL-1β, una citocina central en la inflamación. Su eficacia está comprobada en enfermedades autoinflamatorias mediadas por IL-1β, y mecanísticamente podría ser aplicable a procesos en los que esta vía contribuya al daño tisular.
 
-En este caso, la predicción no tiene una base mecanística sólida. Los datos no documentan ningún mecanismo plausible mediado por IL-1β que explique un papel del fármaco en el infarto hepático. El puntaje alto del modelo (99,86 %) es solo una predicción. Además, no hay datos sobre la similitud con la indicación original.
+La relación con el infarto hepático es especulativa. Una hipótesis plausible es que la inflamación dependiente de IL-1β participe en la lesión de tejidos isquémicos. Aun así, no hay evidencia directa que respalde el uso de canakinumab en esta enfermedad, y la indicación original (enfermedades autoinflamatorias hereditarias o metabólicas) difiere mucho de una lesión vascular y isquémica del hígado.
 
-Ninguno de los demás candidatos hepáticos de la lista (enfermedad venooclusiva hepática, peliosis hepática, angiosarcoma hepático) tiene evidencia que los respalde.
+El puntaje del modelo es alto, pero refleja patrones del grafo de conocimiento y no confirmación clínica. La similitud con las indicaciones originales aún no se ha evaluado, y tampoco la compatibilidad de la vía de administración.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [37354546](https://pubmed.ncbi.nlm.nih.gov/37354546/) | 2023 | ECA | JAMA | Ácido bempedoico para prevención primaria de eventos cardiovasculares en pacientes intolerantes a estatinas. No evalúa canakinumab ni infarto hepático, por lo que probablemente es una coincidencia de palabras clave. |
+Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 109564004 | ILARIS 150 MG/ML SOLUCION INYECTABLE | Solución inyectable | No especificada en los datos disponibles |
-| 09564001 | ILARIS 150 mg POLVO PARA SOLUCION INYECTABLE | Polvo para solución inyectable | No especificada en los datos disponibles |
+| 109564004 | ILARIS 150 mg/ml solución inyectable | Solución inyectable | No especificada en los datos disponibles |
+| 09564001 | ILARIS 150 mg polvo para solución inyectable | Polvo para solución inyectable | No especificada en los datos disponibles |
 
-Titular de ambas autorizaciones: Novartis Europharm Limited.
+Ambas autorizaciones son de Novartis Europharm Limited, están vigentes y corresponden a monofármaco.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+- **Interacciones Farmacológicas**: se han registrado 100 interacciones. Las principales, de nivel **moderado**, son:
+  - Corticosteroides: hidrocortisona, triamcinolona (incluida la oftálmica), dexametasona, betametasona, budesonida, prednisolona y prednisona.
+  - Simvastatina.
+  - Anticoagulantes: warfarina, dicumarol, apixabán y rivaroxabán.
+  - Radiofármacos y anticuerpos radiomarcados: ibritumomab tiuxetán, iobenguano (I-131), tositumomab y tositumomab (I-131).
+  - De nivel **menor**: sales de zinc (acetato, gluconato y sulfato).
+
+Para advertencias y contraindicaciones, consultar el prospecto. Dado que canakinumab bloquea la IL-1β, el riesgo de infecciones y de neutropenia debe revisarse en la ficha técnica.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para infarto hepático no tiene ensayos clínicos, la única publicación no guarda relación con el fármaco y no existe un vínculo mecanístico documentado con la inhibición de IL-1β. El nivel de evidencia es L5.
+La predicción para infarto hepático se basa solo en el modelo (nivel L5), sin ensayos ni literatura. El vínculo mecanístico es hipotético, así que no hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas), ya que sin él no se puede pasar al cribado de seguridad.
-- Confirmar el mecanismo de acción en DrugBank.
-- Una hipótesis biológica que vincule la IL-1β con el infarto hepático y estudios preclínicos que la respalden.
+- Datos del mecanismo de acción y de la fisiopatología de la IL-1β en el infarto hepático.
+- Estudios preclínicos o series de casos que apoyen la hipótesis.
+- Revisión de advertencias y contraindicaciones del prospecto de la AEMPS.
+- Evaluación de la similitud con las indicaciones originales y de la compatibilidad de la vía de administración.
 
-**Nota sobre otros candidatos del mismo análisis:** el candidato mejor respaldado es la **fiebre mediterránea familiar** (rank 6, L1, *Proceed with Guardrails*), con un ECA de fase 3 (PMID 29768139), revisiones sistemáticas y estudios de cohorte. Conviene evaluarlo por separado, verificando que el subtipo autosómico dominante coincida con la población estudiada. El **síndrome de Blau** (L3) y el síndrome autoinflamatorio con fiebre periódica y enterocolitis infantil (L4) quedan como preguntas de investigación (*Research Question*).
+**Nota sobre otras predicciones:** entre las 10 principales predicciones de TxGNN, la de **fiebre mediterránea familiar autosómica dominante** (puntaje 99,41 %) es la mejor respaldada. Cuenta con 3 ensayos de Fase 3 abiertos y completados en síndromes periódicos asociados a criopirina, además de revisiones, metaanálisis y estudios de cohorte en fiebre mediterránea familiar resistente a colchicina. Su evaluación sería «Proceed with Guardrails», con nivel L1 según los criterios del sistema. Los ensayos no son específicos de esa enfermedad y su aplicabilidad requiere confirmación. La predicción de **síndrome de Blau** tiene evidencia limitada a casos y series pequeñas (nivel L3).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

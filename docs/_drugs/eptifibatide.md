@@ -2,7 +2,7 @@
 layout: default
 title: Eptifibatide
 parent: Solo predicción del modelo (L5)
-nav_order: 205
+nav_order: 299
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Eptifibatida es un antagonista del receptor plaquetario GP IIb/IIIa (integrina αIIbβ3), utilizado originalmente junto con aspirina y heparina no fraccionada para prevenir el infarto de miocardio en pacientes de alto riesgo, como los que sufren angina aguda.
-El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+La eptifibatida es un antiagregante plaquetario utilizado originalmente en el síndrome coronario agudo.
+El modelo TxGNN predice que podría ser efectiva para la **artritis reumatoide**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta indicación; se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención del infarto de miocardio en síndrome coronario agudo/angina aguda (según la información farmacológica; las fichas de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Síndrome coronario agudo (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no vienen informados) |
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
@@ -51,11 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Eptifibatida es un péptido cíclico sintético que bloquea la integrina αIIbβ3 de las plaquetas e impide la agregación plaquetaria. En cardiología se usa por vía parenteral, en episodios agudos, para evitar la formación de trombos. No se dispone de datos detallados adicionales sobre el mecanismo de acción más allá de esta diana.
+Los datos compilados no incluyen una descripción detallada del mecanismo de acción. Aun así, la eptifibatida es un antagonista del receptor GPIIb/IIIa (integrina αIIbβ3) que inhibe la agregación plaquetaria. Por ello se usa en el síndrome coronario agudo, normalmente junto con aspirina y heparina no fraccionada, para prevenir el infarto de miocardio en pacientes de alto riesgo.
 
-La hipótesis que enlaza ambas indicaciones es especulativa: las plaquetas y las integrinas podrían participar en la inflamación sinovial de la artritis reumatoide. No existe ningún ensayo ni publicación con eptifibatida en esta enfermedad, por lo que el vínculo es solo una predicción del modelo.
+La relación con la artritis reumatoide es solo conceptual. La activación plaquetaria contribuye a la inflamación sinovial, por lo que bloquear la función plaquetaria podría tener algún efecto. Sin embargo, la indicación original es cardiovascular y trombótica, y la nueva es una enfermedad autoinmune crónica, de modo que la similitud entre ambas es limitada. El dato de similitud con la indicación original figura como pendiente de análisis.
 
-Además, la artritis reumatoide requiere tratamiento crónico, y un antiplaquetario parenteral de uso agudo sería poco práctico para ese fin.
+El puntaje TxGNN es muy alto, pero refleja únicamente una predicción computacional sin respaldo clínico ni bibliográfico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,30 +67,36 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1151065001 | EPTIFIBATIDA ACCORD 0,75 MG/ML SOLUCIÓN PARA PERFUSIÓN EFG | Solución para perfusión | Accord Healthcare S.L.U. |
-| 99109002 | INTEGRILIN 2 mg/ml, SOLUCIÓN INYECTABLE | Solución inyectable | Glaxosmithkline (Ireland) Limited |
-| 1151065002 | EPTIFIBATIDA ACCORD 2 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | Accord Healthcare S.L.U. |
-| 99109001 | INTEGRILIN 0,75 mg/ml, SOLUCIÓN PARA PERFUSIÓN | Solución para perfusión | Glaxosmithkline (Ireland) Limited |
+| 1151065001 | Eptifibatida Accord 0,75 mg/ml solución para perfusión EFG | Solución para perfusión | No especificada en los datos compilados |
+| 99109002 | Integrilin 2 mg/ml, solución inyectable | Solución inyectable | No especificada en los datos compilados |
+| 1151065002 | Eptifibatida Accord 2 mg/ml solución inyectable EFG | Solución inyectable | No especificada en los datos compilados |
+| 99109001 | Integrilin 0,75 mg/ml, solución para perfusión | Solución para perfusión | No especificada en los datos compilados |
+
+Las cuatro autorizaciones son de monofármaco y están vigentes. Los titulares son Accord Healthcare S.L.U. y Glaxosmithkline (Ireland) Limited.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación (según el grafo de conocimiento, no según el prospecto)**: trombocitopenia, trastornos de la coagulación e insuficiencia renal.
+- **Interacciones farmacológicas**: la consulta no identificó interacciones con otros fármacos. El único registro corresponde a la diana farmacológica (integrina αIIbβ3). En la práctica clínica se administra junto con aspirina y heparina, por lo que conviene vigilar el riesgo hemorrágico de la combinación.
+- Para advertencias y contraindicaciones oficiales, consultar el prospecto de la AEMPS, ya que no se dispone de ellas en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para artritis reumatoide no existe ningún ensayo ni publicación (nivel L5), y el uso crónico de un antiplaquetario parenteral sería poco viable. El puntaje alto del modelo por sí solo no basta para avanzar.
+Para la artritis reumatoide solo existe una predicción computacional (nivel L5), sin ensayos ni publicaciones. Además, el riesgo hemorrágico de un antiagregante intravenoso resulta difícil de justificar en una enfermedad crónica sin evidencia previa.
+
+Entre las demás predicciones del modelo, la **hemoglobinopatía (enfermedad de células falciformes)** es la que tiene más respaldo (nivel L2). Cuenta con un ensayo de Fase I/II (NCT00834899, terminado con solo 13 participantes) y tres estudios clínicos publicados (PMID 17916103, 23973010 y 29322543). Se sugiere considerarla como línea prioritaria de investigación frente a la artritis reumatoide.
 
 **Para avanzar se necesita:**
-- Datos preclínicos que respalden el papel de la integrina αIIbβ3 y las plaquetas en la sinovitis reumatoide
-- Advertencias y contraindicaciones del prospecto de AEMPS, aún no incorporadas
-- Datos detallados del mecanismo de acción en DrugBank
-
-**Nota:** entre las otras predicciones, la más respaldada es **hemoglobinopatía** (rank 7, nivel L2). Incluye el ensayo de Fase 1/2 [NCT00834899](https://clinicaltrials.gov/study/NCT00834899) en crisis dolorosas de anemia falciforme, aleatorizado y controlado con placebo, pero terminado con solo 13 participantes. También hay estudios piloto y de biomarcadores publicados ([PMID 23973010](https://pubmed.ncbi.nlm.nih.gov/23973010/), [PMID 29322543](https://pubmed.ncbi.nlm.nih.gov/29322543/)). Solo respalda seguridad, viabilidad y señal de biomarcadores, no eficacia, pero sería un candidato más sólido que la artritis reumatoide para priorizar.
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que es un dato bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión bibliográfica dirigida sobre plaquetas/GPIIb/IIIa en artritis reumatoide y estudios preclínicos que justifiquen avanzar.
+- Evaluar la compatibilidad de la vía de administración (parenteral) con el uso crónico previsto.
+- Definir un análisis de riesgo-beneficio frente al riesgo hemorrágico en esta población.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

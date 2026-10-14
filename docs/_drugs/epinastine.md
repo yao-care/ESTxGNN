@@ -2,7 +2,7 @@
 layout: default
 title: Epinastine
 parent: Solo predicción del modelo (L5)
-nav_order: 204
+nav_order: 295
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,20 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Epinastina: De Conjuntivitis Alérgica a Conjuntivitis por Rosácea
+# Epinastina: De Conjuntivitis Atópica a Conjuntivitis Rosácea
 
 ## Resumen en Una Frase
 
-La epinastina es un antihistamínico H1 que se usa en colirio para tratar el picor asociado a la conjuntivitis alérgica.
-El modelo TxGNN predice que podría ser efectivo para **conjuntivitis por rosácea**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Epinastina es un antihistamínico antagonista del receptor H1, utilizado originalmente en el tratamiento de la conjuntivitis alérgica (atópica, papilar y vernal).
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis rosácea**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección específica; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Conjuntivitis alérgica (según el uso clínico descrito en la fuente de farmacología; el texto de indicación de la autorización de la AEMPS está vacío) |
-| Nueva Indicación Predicha | Conjuntivitis por rosácea |
+| Indicación Original | Conjuntivitis atópica, papilar y vernal (según el grafo de conocimiento; la ficha de AEMPS no incluye texto de indicación) |
+| Nueva Indicación Predicha | Conjuntivitis rosácea |
 | Puntaje de Predicción TxGNN | 99,57% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -51,11 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, la epinastina es un antagonista del receptor H1 de la histamina (diana HRH1 en la base de datos de farmacología). Además tiene actividad estabilizadora de mastocitos, y su eficacia en la conjuntivitis alérgica está comprobada. Mecanísticamente podría ser aplicable a la conjuntivitis por rosácea.
+Epinastina es un antagonista tópico del receptor H1 de histamina con actividad estabilizadora de mastocitos. Ya está comercializada en forma de colirio para conjuntivitis alérgica, vernal y papilar. Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe, pero la farmacología conocida del fármaco apunta a la inhibición de la histamina y de la liberación de mediadores desde los mastocitos.
 
-La conjuntivitis alérgica y la afectación ocular de la rosácea comparten inflamación de la superficie ocular. Por eso es plausible que un fármaco que reduce la liberación de mediadores de los mastocitos y bloquea la histamina tenga algún efecto. La vía de administración actual, un colirio, también es coherente con una enfermedad de la superficie ocular.
+La conjuntivitis rosácea (rosácea ocular) se debe principalmente a disfunción de las glándulas de Meibomio, inflamación del borde palpebral y factores microbianos o de *Demodex*, más que a una alergia clásica mediada por IgE. Por ello, el mecanismo antihistamínico y de estabilización de mastocitos ofrece solo un vínculo plausible y parcial, probablemente limitado al componente inflamatorio o al picor asociado.
 
-Este vínculo es solo una hipótesis. No hay ensayos ni publicaciones que lo apoyen, y el mecanismo no se ha verificado contra DrugBank. La similitud con la indicación original tampoco se ha evaluado formalmente.
+El puntaje tan alto del modelo (99,57%) probablemente refleja la proximidad en la red de conocimiento con otras indicaciones de conjuntivitis, y no está respaldado por evidencia clínica ni bibliográfica. Debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,26 +69,33 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 65574 | RELESTAT 0,5 mg/ml COLIRIO EN SOLUCIÓN (Abbvie Spain, S.L.U.) | Colirio en solución | No especificada en los datos recibidos |
+| 65574 | RELESTAT 0,5 mg/ml colirio en solución (Abbvie Spain, S.L.U.) | Colirio en solución | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas**: la consulta se completó sin interacciones fármaco-fármaco clínicamente catalogadas. Solo consta el dato farmacológico de que epinastina actúa sobre el receptor H1 (gen HRH1) en humanos.
+
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99,57%), pero es la única base: no hay ensayos clínicos ni literatura sobre conjuntivitis por rosácea (nivel L5). Tampoco están disponibles las advertencias y contraindicaciones del prospecto de la AEMPS, así que no se puede avanzar al cribado de seguridad.
+La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo antihistamínico solo explica parcialmente la fisiopatología de la rosácea ocular, que es principalmente de origen meibomiano e inflamatorio.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación autorizada)
-- Obtener el mecanismo de acción desde DrugBank y verificar el vínculo con la inflamación ocular en rosácea
-- Buscar estudios preclínicos o clínicos sobre epinastina en rosácea ocular
-- Evaluar formalmente la similitud con la indicación original y la compatibilidad de vía (colirio)
+- Datos detallados del mecanismo de acción (MOA).
+- Revisión sistemática de la literatura sobre antihistamínicos tópicos o estabilizadores de mastocitos en rosácea ocular.
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada).
+- Evaluación de la compatibilidad de vía de administración y de la similitud con la indicación original.
+- Estudios preclínicos o piloto que justifiquen un ensayo clínico exploratorio.
 
-**Nota:** la segunda predicción del modelo, **urticaria alérgica** (puntaje 99,28%), tiene más respaldo: 2 estudios observacionales poscomercialización (n = 2001 y n = 3793), revisiones y estudios farmacodinámicos de habón y eritema, con nivel L3 y recomendación "Proceed with Guardrails". Sin embargo, el uso poscomercialización sugiere que ya podría ser una indicación aprobada en otros mercados, por lo que no sería un reposicionamiento genuino. Conviene revisarla como un informe separado.
+---
+
+### Nota sobre la segunda predicción (urticaria alérgica)
+
+El segundo candidato, **urticaria alérgica** (puntaje TxGNN 99,28%), tiene una evidencia indirecta algo mayor (nivel L4, recomendación "Research Question"). La literatura disponible consiste en revisiones y estudios farmacodinámicos de supresión de roncha y eritema inducidos por histamina (por ejemplo, un ensayo cruzado doble ciego en voluntarios sanos, PMID [10442525](https://pubmed.ncbi.nlm.nih.gov/10442525/)), pero no hay ensayos clínicos registrados ni un ECA específico en urticaria. Además, la autorización española corresponde únicamente a un colirio oftálmico, por lo que habría que verificar la formulación oral y su estado regulatorio antes de cualquier decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

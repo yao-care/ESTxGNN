@@ -2,7 +2,7 @@
 layout: default
 title: Famciclovir
 parent: Evidencia moderada (L3-L4)
-nav_order: 225
+nav_order: 324
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,17 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Famciclovir: De Antiviral contra Herpesvirus a Neuralgia Postinfecciosa
+# Famciclovir: De Herpes Zóster a Neuralgia Postinfecciosa
 
 ## Resumen en Una Frase
 
-Famciclovir es un profármaco antiviral que se convierte en penciclovir y actúa contra los herpesvirus. El modelo TxGNN predice que podría ser útil para la **neuralgia postinfecciosa** (neuralgia posherpética), con un puntaje de 99.75%. Actualmente hay **2 ensayos clínicos** relacionados con la enfermedad, pero ninguno evalúa famciclovir, y **no hay publicaciones** que respalden esta dirección.
+Famciclovir es un antiviral oral (profármaco del penciclovir), originalmente utilizado para el tratamiento del herpes zóster.
+El modelo TxGNN predice que podría ser efectivo para **neuralgia postinfecciosa (postherpética)**, pero actualmente solo hay **1 ensayo clínico** relacionado, que no evalúa famciclovir, y **ninguna publicación** que respalde directamente esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Nueva Indicación Predicha | Neuralgia postinfecciosa (neuralgia posherpética) |
+| Indicación Original | Herpes zóster (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Neuralgia postinfecciosa |
 | Puntaje de Predicción TxGNN | 99.75% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -48,53 +50,62 @@ Famciclovir es un profármaco antiviral que se convierte en penciclovir y actúa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, famciclovir se convierte en penciclovir, que inhibe la ADN polimerasa del virus varicela-zóster (VZV).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, famciclovir es un profármaco del penciclovir, que en su forma trifosfato inhibe la ADN polimerasa del virus varicela-zóster (VZV). Esta es la base de su eficacia en el herpes zóster.
 
-La neuralgia posherpética es la complicación más frecuente del herpes zóster, que es una reactivación del VZV. Reducir la replicación viral durante la fase aguda del zóster podría disminuir el daño nervioso y, en teoría, el riesgo de que el dolor persista. Esa es la única base mecanística de la predicción.
+La neuralgia postherpética es la complicación más frecuente del herpes zóster y persiste más de 90 días tras resolverse el episodio agudo. Mecanísticamente, el tratamiento antiviral temprano podría reducir la gravedad del episodio agudo y, posiblemente, el riesgo de neuralgia posterior.
 
-Ninguno de los dos ensayos encontrados prueba famciclovir. No hay evidencia directa de que prevenga o trate la neuralgia posherpética. Por eso el respaldo es solo plausibilidad biológica y la predicción del modelo.
+Sin embargo, el único ensayo vinculado (NCT03120962) evalúa oxicodona para prevenir la neuralgia postherpética, no famciclovir, por lo que no aporta evidencia directa sobre este fármaco. La predicción se apoya sobre todo en la relación biológica entre ambas enfermedades.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | N/A | Desconocido | 140 | Oxicodona temprana durante la fase aguda del herpes zóster para prevenir la neuralgia posherpética. Famciclovir, como mucho, sería tratamiento antiviral de base. |
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | N/A | Aún sin reclutar | 120 | Bloqueo nervioso con bupivacaína liposomal o ropivacaína y radiofrecuencia pulsada para el dolor agudo del herpes zóster. No es un estudio de famciclovir. |
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | No aplica | Desconocido | 140 | Uso temprano de oxicodona en la fase aguda del herpes zóster para prevenir la neuralgia postherpética. Famciclovir no es la intervención evaluada; solo relevancia contextual |
 
 ## Información de Mercado en España
 
-Famciclovir figura con 13 autorizaciones. Se muestran las 5 principales. Los datos recibidos no incluyen el texto de indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61597 | FAMVIR 125 mg comprimidos recubiertos con película | Comprimido recubierto con película | Phoenix Labs Unlimited Company |
-| 71964 | FAMCICLOVIR NORMON 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorios Normon S.A. |
-| 65027 | FAMVIR 500 mg comprimidos recubiertos con película | Comprimido recubierto con película | Phoenix Labs Unlimited Company |
-| 76997 | FAMCICLOVIR TECNIGEN 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Tecnimede España Industria Farmacéutica S.A. |
-| 77136 | FAMCICLOVIR STADA 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
+| 61597 | FAMVIR 125 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 60609 | FAMVIR 250 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 65027 | FAMVIR 500 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 71964 | Famciclovir Normon 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 76997 | Famciclovir Tecnigen 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+
+Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo; ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación en el grafo de conocimiento**: enfermedad renal y piouréter (no proviene del texto del prospecto, debe confirmarse con la ficha técnica).
+- **Interacciones Farmacológicas**: se identificaron 84 posibles interacciones, todas con nivel de gravedad desconocido. Entre las principales figuran calcitriol, doxiciclina, clotrimazol, pantoprazol, glimepirida, morfina, metformina, omeprazol, palonosetrón, rosiglitazona, lansoprazol y vancomicina.
+
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo y en un mecanismo antiviral plausible. Los dos ensayos encontrados no evalúan famciclovir y no hay literatura específica. Además, faltan las advertencias y contraindicaciones del prospecto de la AEMPS, un vacío que bloquea el cribado de seguridad.
+La predicción tiene un puntaje alto en TxGNN, pero la evidencia es de nivel L4: el único ensayo relacionado no evalúa famciclovir y no hay literatura de apoyo. Además, no se dispone del texto de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Buscar estudios que evalúen famciclovir (u otros antivirales) para prevenir la neuralgia posherpética.
-- Si aparece evidencia, definir un diseño de estudio de prevención en herpes zóster agudo.
+- Obtener y revisar las advertencias y contraindicaciones de la ficha técnica de la AEMPS
+- Completar los datos del mecanismo de acción
+- Buscar y evaluar estudios que analicen específicamente famciclovir (o antivirales análogos) en la prevención o el tratamiento de la neuralgia postherpética
+- Valorar la seguridad en poblaciones con insuficiencia renal, dada la señal del grafo de conocimiento
 
-**Nota:** de las demás predicciones del paquete, solo la varicela tiene evidencia de fase 3 (L1). Esa evidencia corresponde a enfermedad por VZV que se solapa con el uso ya conocido de famciclovir en herpes zóster, por lo que no constituye un reposicionamiento novedoso.
+---
+
+### Nota Complementaria: Otras Indicaciones Predichas
+
+Entre las demás predicciones, solo **varicela** alcanza el nivel L1 (decisión: Proceed with Guardrails), con puntaje TxGNN de 99.11%. Se respalda en dos ensayos de Fase 3 completados:
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00098046](https://clinicaltrials.gov/study/NCT00098046) | Fase 3 | Completado | 76 | Farmacocinética y seguridad de una formulación pediátrica oral de famciclovir en niños de 1 a 12 años con infección por VZV |
+| [NCT01327144](https://clinicaltrials.gov/study/NCT01327144) | Fase 3 | Completado | 177 | Famciclovir 500 mg frente a aciclovir en herpes zóster: eficacia y seguridad |
+
+Estos estudios son de zóster o de farmacocinética/seguridad, no ensayos de eficacia en varicela primaria, y el tratamiento estándar (aciclovir/valaciclovir) debe tenerse en cuenta. El resto de las predicciones (COVID-19 persistente, cirrosis por hepatitis C, mesoteliomas y tumor pleural visceral) carecen de fundamento mecanístico o evidencia, y se mantienen en Hold. La predicción de trastorno relacionado con el SIDA queda como pregunta de investigación, con apoyo indirecto limitado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

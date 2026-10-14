@@ -2,7 +2,7 @@
 layout: default
 title: Ziprasidone
 parent: Solo predicción del modelo (L5)
-nav_order: 573
+nav_order: 866
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ziprasidona: De Esquizofrenia a Tricotilomanía
+# Ziprasidona: De Trastorno Bipolar Maníaco a Tricotilomanía
 
 ## Resumen en Una Frase
 
-Ziprasidona es un antipsicótico atípico, utilizado clínicamente en esquizofrenia y en episodios maníacos o mixtos del trastorno bipolar.
-El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción basada solo en el modelo.
+Ziprasidona es un antipsicótico atípico utilizado originalmente para el tratamiento de la esquizofrenia y del trastorno bipolar (episodios maníacos).
+El modelo TxGNN predice que podría ser efectivo para la **tricotilomanía**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción exclusivamente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia y trastornos psicóticos relacionados (según la ficha farmacológica de referencia; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | Trastorno afectivo bipolar maníaco, trastorno bipolar y esquizofrenia |
 | Nueva Indicación Predicha | Tricotilomanía |
 | Puntaje de Predicción TxGNN | 99.83% |
 | Nivel de Evidencia | L5 |
@@ -51,11 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de una descripción formal del mecanismo de acción. Sin embargo, el perfil farmacológico de referencia muestra que ziprasidona se une a varios receptores serotoninérgicos (5-HT1A, 1B, 1D, 1E, 2A, 2C y 7), al receptor de dopamina D2 y al receptor de histamina H1. También actúa sobre los transportadores de noradrenalina (NET) y de serotonina (SERT).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Sí se conoce el perfil de unión a receptores de ziprasidona: actúa sobre el receptor de dopamina D2, múltiples receptores de serotonina (5-HT1A, 1B, 1D, 1E, 2A, 2C y 7), el receptor de histamina H1 y los transportadores de serotonina (SERT) y noradrenalina (NET).
 
-La tricotilomanía es un trastorno del control de impulsos y de conductas repetitivas. Mecanísticamente, el antagonismo 5-HT2A/D2 podría guardar cierta relación con las conductas compulsivas o de control de impulsos. Es una hipótesis plausible, pero no está respaldada por ningún ensayo ni publicación recuperados.
+Una posible conexión con la tricotilomanía sería el antagonismo dopaminérgico D2 y serotoninérgico 5-HT2A, mecanismos relevantes en trastornos de conductas repetitivas. Sin embargo, esta hipótesis es **especulativa** y no está respaldada por los datos compilados: no se recuperó ningún ensayo ni publicación que la sustente.
 
-La similitud con la indicación original aún no se ha evaluado. Además, el puntaje del modelo es muy alto (99.83%) pero no equivale a evidencia clínica.
+La relación con la indicación original es débil. La esquizofrenia y el trastorno bipolar son trastornos psicóticos y afectivos, mientras que la tricotilomanía se clasifica como un trastorno de conductas repetitivas centradas en el cuerpo. El puntaje alto del modelo debe interpretarse con cautela, ya que puede reflejar patrones del grafo de conocimiento y no evidencia biológica o clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,40 +67,43 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 64851 | ZELDOX 20 mg cápsulas duras | Cápsula dura | Viatris Healthcare Limited |
-| 75683 | ZIPRASIDONA STADA 40 mg cápsulas duras EFG | Cápsula dura | Laboratorio Stada S.L. |
-| 80957 | ZIPRASIDONA CINFA 80 mg cápsulas duras EFG | Cápsula dura | Laboratorios Cinfa S.A. |
-| 78167 | ZIPRASIDONA AUROBINDO 60 mg cápsulas duras EFG | Cápsula dura | Laboratorios Aurobindo S.L.U. |
-| 83770 | ZIPRASIDONA AUROVITAS 20 mg cápsulas duras EFG | Cápsula dura | Aurovitas Spain, S.A.U. |
+Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, en cápsula dura salvo una presentación inyectable).
 
-Existe también una presentación en polvo para solución inyectable. El texto de indicación aprobada no figura en los registros recibidos.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 64851 | ZELDOX 20 mg cápsulas duras | Cápsula dura |
+| 64852 | ZELDOX 40 mg cápsulas duras | Cápsula dura |
+| 64853 | ZELDOX 60 mg cápsulas duras | Cápsula dura |
+| 64854 | ZELDOX 80 mg cápsulas duras | Cápsula dura |
+| 64855 | ZELDOX 20 mg/ml polvo para solución inyectable | Polvo para solución inyectable |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Contraindicaciones y condiciones de riesgo (según la base de conocimiento del modelo, no el texto del prospecto)**:
+  - Cardiovasculares y del ritmo: síndrome de QT largo (incluido el familiar), torsades de pointes, enfermedad de la conducción cardíaca, paro cardíaco súbito, infarto de miocardio, trombosis coronaria.
+  - Hipotensión: hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica.
+  - Hematológicas: neutropenia, agranulocitosis, hemoglobinopatía.
+  - Metabólicas: diabetes mellitus, hiperglucemia, cetoacidosis diabética, hiperlipidemia (incluida la familiar), obesidad (incluida la monogénica), deficiencia de potasio.
+  - Neurológicas: epilepsia, enfermedades de los ganglios basales, distonía focal de la mano, blefarospasmo.
+  - Otras: insuficiencia hepática, enfermedad renal, piouréter, carcinoma de mama femenino.
+- **Perfil farmacológico**: los datos de interacciones disponibles describen únicamente la unión a receptores y transportadores, no interacciones con otros fármacos específicos. Por su riesgo de prolongación del QT, conviene evitar combinaciones con otros fármacos que prolonguen el QT.
 
-Las 11 entradas del apartado de interacciones del paquete de datos corresponden a dianas farmacológicas (receptores y transportadores), no a interacciones con otros fármacos. Por tanto, no se dispone de un listado de interacciones farmacológicas reales. Otras secciones del paquete señalan la vigilancia del intervalo QTc y del perfil metabólico como cuestiones de seguridad relevantes de ziprasidona.
+Para advertencias principales y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para tricotilomanía es de nivel L5: solo puntaje del modelo, sin ensayos ni literatura que la respalden. No hay base suficiente para avanzar.
+La predicción para tricotilomanía se basa solo en el puntaje del modelo (99.83%), sin ensayos clínicos ni literatura (nivel L5), y el vínculo mecanístico es especulativo. El perfil de seguridad, en especial el riesgo cardíaco (QT), exige una justificación clínica sólida antes de avanzar.
 
 **Para avanzar se necesita:**
-- Una revisión de la literatura específica de ziprasidona en tricotilomanía y en trastornos de control de impulsos, para comprobar si existe algún estudio.
-- Los textos de indicación y el prospecto de AEMPS (advertencias y contraindicaciones), aún no disponibles.
-- Datos de mecanismo de acción de una fuente formal como DrugBank.
-- Una evaluación de la similitud con la indicación original.
+- Revisión sistemática de literatura específica sobre ziprasidona (o antipsicóticos atípicos) en tricotilomanía y trastornos de conductas repetitivas.
+- Datos detallados del mecanismo de acción (MOA) y análisis de su vínculo con la fisiopatología de la tricotilomanía.
+- Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones oficiales).
+- Estudios preclínicos o un piloto clínico pequeño con monitorización de QTc, si el interés persiste.
 
-**Nota sobre otras predicciones del mismo paquete:**
-- **Trastorno afectivo mayor** (puesto 3, puntaje 99.66%): cuenta con múltiples ensayos de Fase 3 completados y evidencia clasificada como L1, con recomendación "Proceed with Guardrails". Probablemente se solape con el uso ya conocido en manía bipolar, por lo que no sería un reposicionamiento genuino. Sería la línea más sólida para evaluar en un informe propio.
-- **Síndrome de Tourette** (puesto 7, puntaje 99.63%): tiene un estudio piloto pediátrico y revisiones, con evidencia L3. Requiere prudencia por la seguridad cardíaca (QTc) en población pediátrica.
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+**Nota adicional:** en los mismos datos, otras indicaciones predichas para ziprasidona tienen más respaldo que la tricotilomanía: el **trastorno afectivo mayor** (nivel L2, con ensayos de Fase 2 completados, recomendación *Proceed with Guardrails*) y el **síndrome de Tourette** (nivel L3, con un estudio piloto pediátrico). Podrían priorizarse en una evaluación posterior.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

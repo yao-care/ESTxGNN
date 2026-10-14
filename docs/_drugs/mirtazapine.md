@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Solo predicción del modelo (L5)
-nav_order: 358
+nav_order: 533
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,21 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Mirtazapina: De Trastorno Depresivo Mayor a Síndrome de Ohdo y Variantes
+# Mirtazapina: De Trastorno Depresivo Mayor a Síndrome de Ohdo y variantes
 
 ## Resumen en Una Frase
 
-La mirtazapina es un antidepresivo cuyo uso clínico descrito es el tratamiento del trastorno depresivo mayor.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome de Ohdo y variantes**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción exclusivamente computacional.
+Mirtazapina es un antidepresivo utilizado originalmente para el tratamiento de la depresión (depresión unipolar, depresión endógena, trastorno depresivo mayor) y los trastornos de ansiedad.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de Ohdo y variantes**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según los datos de farmacología; los textos de indicación de las autorizaciones de la AEMPS están vacíos) |
+| Indicación Original | Depresión unipolar / trastorno depresivo mayor (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 99,42% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -51,44 +51,52 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Los datos de farmacología muestran que la mirtazapina tiene mayor afinidad por los adrenoceptores α2 (A, B y C, con antagonismo) y por los receptores serotoninérgicos 5-HT2A y 5-HT2C. En general también se describe un antagonismo sobre 5-HT3 y H1, aunque este dato no está en el registro.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, mirtazapina es un antidepresivo noradrenérgico y serotoninérgico específico. Los datos de farmacología recopilados indican que tiene la mayor afinidad por los adrenoceptores α2 (2A > 2C > 2B) y por los receptores serotoninérgicos 5-HT2A y 5-HT2C, lo que sustenta su eficacia en la depresión mayor.
 
-**No se ha establecido un vínculo mecanístico** entre este perfil de receptores y el síndrome de Ohdo. Este síndrome (relacionado con KAT6B) es un trastorno de regulación de la cromatina con manifestaciones del desarrollo, y no se identificó ninguna conexión farmacológica plausible. El puntaje alto (0.994) proviene solo del grafo de conocimiento y no constituye evidencia clínica.
+El síndrome de Ohdo es un trastorno genético raro (asociado a KAT6B) que implica la regulación de la cromatina. Con los datos disponibles **no se puede establecer un vínculo mecanístico** entre la acción de la mirtazapina sobre receptores monoaminérgicos y la fisiopatología de esta enfermedad. El puntaje del modelo es muy alto, pero es solo una predicción computacional.
 
-Las otras dos predicciones del modelo tampoco tienen respaldo:
-- **Blefarofimosis con discapacidad intelectual, tipo Ohdo** (99.11%): es casi un duplicado de la primera, por lo que ambos puntajes no son evidencia independiente. No hay fundamento para un beneficio sintomático ni modificador de la enfermedad.
-- **Tortícolis paroxística benigna de la infancia** (99.11%): es un equivalente migrañoso asociado a canalopatía CACNA1A. La modulación serotoninérgica y adrenérgica tiene una relación laxa con la migraña, pero no está verificada para la mirtazapina. Además, la enfermedad es autolimitada y faltan datos de seguridad en lactantes.
+Además, la segunda predicción (síndrome de blefarofimosis con discapacidad intelectual, tipo Ohdo; 99,11%) probablemente corresponde a la misma entidad o a una muy cercana en el grafo de conocimiento, por lo que ambas predicciones no son independientes y no deben contarse como apoyos separados. La tercera (tortícolis paroxística benigna de la infancia; 99,11%) solo tiene una conexión especulativa con variantes de migraña y canalopatías, y afecta a población lactante, para la cual mirtazapina no está establecida.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones registradas. El registro no incluye el texto de indicación aprobada.
+Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo; el texto de indicación aprobada no está disponible en los datos compilados).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
 |---------|------|------|-----------|
-| 90891 | Mirtazapina Stada 45 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en el registro |
-| 71841 | Mirtazapina Flas Kern Pharma 15 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible en el registro |
-| 89479 | Mirtazapina Sandoz 30 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en el registro |
-| 69802 | Mirtazapina Qualigen 15 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en el registro |
-| 66982 | Mirtazapina Alter 15 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en el registro |
+| 90891 | Mirtazapina Stada 45 mg EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
+| 71841 | Mirtazapina Flas Kern Pharma 15 mg EFG | Comprimido bucodispersable | Kern Pharma S.L. |
+| 89479 | Mirtazapina Sandoz 30 mg EFG | Comprimido recubierto con película | Sandoz Farmacéutica S.A. |
+| 69802 | Mirtazapina Qualigen 15 mg EFG | Comprimido recubierto con película | Neuraxpharm Spain S.L. |
+| 66985 | Afloyan 15 mg | Comprimido recubierto con película | Laboratorios Alter S.A. |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones o condiciones de precaución según el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de serotonina, acatisia inducida por fármacos, epilepsia, trastorno bipolar maníaco, hepatopatía, enfermedad de la vesícula biliar, neutropenia, agranulocitosis, deterioro de la función renal, hipotensión ortostática y otros trastornos hipotensivos, atrofia multisistémica, síndrome de taquicardia postural ortostática, hipertrigliceridemia, obesidad, ictus y trastornos cerebrovasculares, infarto de miocardio y trombosis coronaria, y hemoglobinopatías.
+- **Interacciones farmacológicas / dianas farmacológicas**: la consulta se completó con 5 registros, que corresponden a dianas farmacológicas y no a interacciones con otros fármacos: receptores 5-HT2A, 5-HT2C y adrenoceptores α2A, α2B y α2C. Se señala que la combinación con otros antidepresivos (ISRS, IRSN) cuenta con cierto respaldo clínico en depresión grave, pero conviene vigilar el riesgo de síndrome serotoninérgico.
+
+Las advertencias y contraindicaciones oficiales del prospecto de la AEMPS no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos clínicos, no hay literatura y no se ha identificado un vínculo mecanístico plausible. Las predicciones adicionales del mismo caso también carecen de respaldo, y en la de tortícolis infantil la falta de datos de seguridad pediátrica agrava el riesgo.
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible con una enfermedad genética rara de regulación de la cromatina. Las predicciones principales se solapan entre sí y la tercera implica población pediátrica, lo que añade barreras de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de la AEMPS las advertencias y contraindicaciones, y las indicaciones aprobadas de cada autorización.
-- Completar los datos del mecanismo de acción (MOA) desde DrugBank.
-- Una revisión de literatura que busque evidencia preclínica o mecanística que vincule la mirtazapina con la vía de KAT6B o con la regulación de la cromatina.
-- Volver a evaluar la candidatura solo si aparece evidencia que respalde un vínculo mecanístico; de lo contrario, priorizar otras candidaturas.
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Datos detallados del mecanismo de acción (MOA) y análisis de su relación con la vía de KAT6B/regulación de la cromatina
+- Estudios preclínicos o de mecanismo que justifiquen la hipótesis
+- Revisión sistemática de literatura y de registros de ensayos clínicos para el síndrome de Ohdo
+- Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones) para el cribado de seguridad
+- Evaluación de la compatibilidad de vías de administración y de la viabilidad en poblaciones pediátricas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

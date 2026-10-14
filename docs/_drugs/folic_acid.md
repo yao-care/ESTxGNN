@@ -2,7 +2,7 @@
 layout: default
 title: Folic Acid
 parent: Solo predicción del modelo (L5)
-nav_order: 242
+nav_order: 354
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,109 +29,90 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Ácido fólico: De Indicación Original No Registrada a Enfermedad Metabólica de la Biotina
+# Ácido fólico: De Deficiencia de Vitaminas a Enfermedad Metabólica de la Biotina
 
 ## Resumen en Una Frase
 
-El ácido fólico (folato, vitamina B9) es una vitamina del grupo B comercializada en España en comprimidos y cápsulas. Las fichas de autorización recibidas no incluyen el texto de su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad metabólica de la biotina** con una puntuación muy alta, pero **ningún** ensayo clínico (14 encontrados) ni publicación (20 encontradas) evalúa directamente esta relación. Las publicaciones son en su mayoría revisiones generales sobre vitaminas y errores congénitos del metabolismo.
-
----
+El ácido fólico es una vitamina del grupo B utilizada originalmente para tratar deficiencias vitamínicas y anemias carenciales (como la anemia por deficiencia de ácido fólico).
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólica de la biotina**,
+pero no hay **ningún ensayo clínico** y solo existen **19 publicaciones** de carácter general (mayoritariamente revisiones), por lo que la evidencia es únicamente predictiva.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en las fichas de AEMPS recibidas |
+| Indicación Original | Deficiencia de vitaminas / anemia por deficiencia de ácido fólico (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
-| Puntaje de Predicción TxGNN | 99,49% |
-| Nivel de Evidencia | L5 (solo predicción del modelo; el paquete preliminar indicaba L4, pero no hay estudios preclínicos ni de mecanismo dirigidos a esta indicación) |
+| Puntaje de Predicción TxGNN | 99.49% |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 7 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el ácido fólico es un cofactor del metabolismo de un carbono (síntesis de nucleótidos y remetilación). Su papel en la nueva indicación es, como máximo, indirecto.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido fólico es una vitamina hidrosoluble del grupo B que actúa como cofactor en el metabolismo de un carbono (síntesis de nucleótidos y metionina), y su eficacia en las anemias carenciales y deficiencias vitamínicas está bien establecida.
 
-No existe un mecanismo directo establecido entre el ácido fólico y la enfermedad metabólica de la biotina. Los trastornos centrales de este grupo, como la deficiencia de biotinidasa y la deficiencia de holocarboxilasa sintetasa, se tratan con biotina, no con folato.
+La biotina es también una vitamina hidrosoluble del grupo B, cofactor de las carboxilasas. Ambas vitaminas comparten cercanía en la red de conocimiento (rutas de metabolismo de un carbono y carboxilación), lo que explica el puntaje alto del modelo. Además, la literatura menciona interacciones metabólicas entre vitaminas del grupo B (por ejemplo, la relación entre B12, folato y biotina).
 
-La puntuación tan alta (0,995) probablemente refleja la cercanía en el grafo de conocimiento entre los nodos de vitaminas del grupo B y las enfermedades metabólicas sensibles a vitaminas, más que una base farmacológica. Los posibles vínculos serían la coadministración en regímenes multivitamínicos o la insuficiencia secundaria de folato u otras vitaminas B en enfermedades metabólicas. Como no se conoce el mecanismo de acción original, este vínculo no puede contrastarse con el registro de origen.
-
----
+Sin embargo, esta predicción debe interpretarse con cautela: el ácido fólico no sustituye la función de la biotina. Las deficiencias de carboxilasas dependientes de biotina, de biotinidasa o de holocarboxilasa sintetasa se tratan con biotina, no con folato. Lo más probable es que la predicción refleje similitud de clase (vitaminas del grupo B) y no un mecanismo terapéutico específico. La ausencia de datos de mecanismo de acción limita aún más la validación.
 
 ## Evidencia de Ensayos Clínicos
 
-Ninguno de los ensayos siguientes estudia una población con enfermedad metabólica de la biotina. Todos son multivitamínicos o nutricionales, sin efecto separable del folato.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Fase 2 | Desconocido | 1000 | Compara dos tratamientos sobre el estado nutricional y de micronutrientes (incluye folato sérico y eritrocitario, B12) en niños malnutridos. Es el más cercano, pero no evalúa la biotina |
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Fase 2 | Completado | 75 | Suplementación con vitaminas y minerales sobre neuropatía y nefropatía en diabetes tipo 2. No permite aislar el efecto del folato |
-| [NCT07592897](https://clinicaltrials.gov/study/NCT07592897) | Fase 4 | Aún sin reclutar | 50 | Complejo B en la recuperación de la parestesia del nervio alveolar inferior. Resultado neurológico, sin resultados publicados |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completado | 99 | Absorción de vitaminas transdérmicas tras cirugía bariátrica. Deficiencia por malabsorción, mecanismo distinto |
-| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completado | 39 | Estrés oxidativo y patología metabólica en autismo con intervención nutricional dirigida. Cierta relación con vías metabólicas |
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Desconocido | 200 | Cruzado con placebo de ubiquinol Q10 más complejo B y E en autismo y síndrome de Phelan-McDermid |
-| [NCT01558193](https://clinicaltrials.gov/study/NCT01558193) | N/A | Completado | 202 | Multivitamínicos y minerales, con y sin ácidos grasos, sobre impulsividad y agresividad |
-| [NCT02302729](https://clinicaltrials.gov/study/NCT02302729) | N/A | Completado | 1730 | Polvo de micronutrientes frente a placebo y estimulación temprana en niños con retraso del crecimiento en Guatemala. No se confirma población con enfermedad de la biotina |
-| [NCT04067921](https://clinicaltrials.gov/study/NCT04067921) | N/A | Desconocido | 1963 | Plataforma de ensayos en nutrición y salud. Nutrición general, sin relación específica con la biotina |
-| [NCT07350538](https://clinicaltrials.gov/study/NCT07350538) | N/A | Activo, sin reclutar | 20 | Piloto exploratorio sobre microbioma intestinal e intervenciones prebióticas en adicción al alcohol. Sin relación con la indicación |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Todas son revisiones (narrativas o de capítulo). No se encontraron ECA ni estudios que evalúen ácido fólico en enfermedad metabólica de la biotina.
+Las publicaciones disponibles son principalmente revisiones generales sobre vitaminas; ninguna evalúa directamente el ácido fólico como tratamiento de enfermedades metabólicas de la biotina.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Revisión | Handbook of Clinical Neurology | Trastornos sensibles a vitaminas (cobalamina, folato, biotina, B1 y E). Las vitaminas actúan como cofactores enzimáticos y existen errores congénitos raros de absorción y metabolismo de folato y cobalamina. La más pertinente |
-| [30557456](https://pubmed.ncbi.nlm.nih.gov/30557456/) | 2019 | Revisión | Movement Disorders | Trastornos del movimiento en errores congénitos del metabolismo tratables |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Revisión | Pediatric Clinics of North America | Aminoacidopatías que responden a megadosis de vitaminas del complejo B; recomienda ensayos terapéuticos por la seguridad de estos compuestos |
-| [779426](https://pubmed.ncbi.nlm.nih.gov/779426/) | 1976 | Revisión | Advances in Human Genetics | Trastornos metabólicos hereditarios sensibles a vitaminas (sin resumen disponible) |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Revisión | Acta Vitaminologica et Enzymologica | Vitaminas en enfermedades metabólicas por malabsorción, errores del metabolismo vitamínico y síndromes dependientes de vitaminas |
-| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Revisión | Advances in Clinical Chemistry | Errores congénitos del metabolismo sensibles a vitaminas (sin resumen disponible) |
-| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Revisión | Ryoikibetsu Shokogun Shirizu | Síndrome de dependencia de vitaminas (sin resumen disponible) |
-| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Revisión | Endocr Metab Immune Disord Drug Targets | Vitaminas y diabetes tipo 2; tiamina, piridoxina y biotina están reducidas en personas con diabetes |
-| [37123774](https://pubmed.ncbi.nlm.nih.gov/37123774/) | 2023 | Revisión | Cureus | Relación entre vitaminas y diabetes tipo 2, con niveles bajos de tiamina, piridoxina y biotina |
-| [41692080](https://pubmed.ncbi.nlm.nih.gov/41692080/) | 2026 | Revisión | Clinics in Dermatology | Vitaminas B en dermatología; papel en el metabolismo celular y la síntesis de eritrocitos |
-
----
+| [39828265](https://pubmed.ncbi.nlm.nih.gov/39828265/) | 2025 | Metaanálisis (revisión paraguas) | Asia Pac J Clin Nutr | Síntesis de metaanálisis sobre vitaminas hidrosolubles y control glucémico en diabetes tipo 2; resultados previos inconsistentes |
+| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Revisión | Handb Clin Neurol | Trastornos sensibles a vitaminas (cobalamina, folato, biotina, B1 y E); errores innatos del metabolismo vitamínico |
+| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Revisión | Int J Mol Sci | Deficiencia de B12 y sistema nervioso; menciona el papel de la B12 con biotina y folato en reacciones bioquímicas |
+| [37123774](https://pubmed.ncbi.nlm.nih.gov/37123774/) | 2023 | Revisión | Cureus | Relación entre vitaminas y diabetes tipo 2; niveles bajos de tiamina, piridoxina y biotina |
+| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Revisión | Endocr Metab Immune Disord Drug Targets | Vitaminas (individuales o combinadas) y diabetes tipo 2 |
+| [41692080](https://pubmed.ncbi.nlm.nih.gov/41692080/) | 2026 | Revisión | Clin Dermatol | Papel de las vitaminas del grupo B en el metabolismo celular y la síntesis de eritrocitos |
+| [14989256](https://pubmed.ncbi.nlm.nih.gov/14989256/) | 2004 | Revisión | Arch Biochem Biophys | Suplementos de micronutrientes (B12, folato, B6, etc.) y daño al ADN |
+| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Revisión | Acta Vitaminol Enzymol | Vitaminas en enfermedades metabólicas: malabsorción, errores del metabolismo y síndromes dependientes de vitaminas |
+| [38350491](https://pubmed.ncbi.nlm.nih.gov/38350491/) | 2025 | Cohorte | Nutr Rev | Estado de micronutrientes en niños con desnutrición grave |
+| [16183151](https://pubmed.ncbi.nlm.nih.gov/16183151/) | 2006 | Estudio preclínico (ratas) | Int J Cardiol | El ácido fólico reduce la expresión de VCAM-1 en la aorta de ratas con hiperhomocisteinemia |
 
 ## Información de Mercado en España
 
-Hay 7 autorizaciones en total; se listan las 5 principales. Ninguna incluye texto de indicación aprobada en los datos recibidos.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 64808 | ZOLICO 400 MICROGRAMOS COMPRIMIDOS | Comprimido | Versalya Pharma S.L. |
-| 86528 | ACIDO FOLICO ARISTO 5 MG COMPRIMIDOS | Comprimido | Aristo Pharma Gmbh |
-| 68965 | BIALFOLI 5 mg COMPRIMIDOS | Comprimido | Laboratorios Bial S.A. |
-| 11265 | ACFOL 5 mg COMPRIMIDOS | Comprimido | Italfarmaco S.A. |
-| 52788 | ACIDO FÓLICO ASPOL 10MG CÁPSULAS DURAS | Cápsula dura | Interpharma S.A. |
+| 64808 | ZOLICO 400 MICROGRAMOS COMPRIMIDOS | Comprimido | No disponible |
+| 86528 | ACIDO FOLICO ARISTO 5 MG COMPRIMIDOS | Comprimido | No disponible |
+| 68965 | BIALFOLI 5 mg COMPRIMIDOS | Comprimido | No disponible |
+| 11265 | ACFOL 5 mg COMPRIMIDOS | Comprimido | No disponible |
+| 52788 | ACIDO FÓLICO ASPOL 10MG CÁPSULAS DURAS | Cápsula dura | No disponible |
 
----
+Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se obtuvieron advertencias ni contraindicaciones de la ficha técnica de AEMPS, y no se encontraron interacciones farmacológicas registradas.
+- **Contraindicaciones según el grafo de conocimiento (no proviene del prospecto)**: el modelo asocia el fármaco con contraindicaciones en enfermedades como anemia hemolítica, enfermedad renal, diabetes mellitus, cetoacidosis diabética, úlcera péptica, enfermedad inflamatoria intestinal, colitis ulcerosa, hemocromatosis hereditaria, enfermedad de Wilson, nefrolitiasis, hipercalcemia, hiperparatiroidismo, sarcoidosis, anemia falciforme, hiperoxaluria primaria y trastorno bipolar, entre otras. Estas asociaciones requieren verificación con la ficha técnica, ya que algunas parecen reflejar relaciones de clase y no contraindicaciones propias del ácido fólico.
+- **Interacciones farmacológicas** (100 registradas; se muestran las principales):
+  - Pancrelipasa: moderada
+  - Sulfasalazina: leve
+  - Otras con nivel no clasificado: calcitriol, pantoprazol, glimepirida, mesalazina, acarbosa, morfina, metformina, omeprazol, sucralfato, lansoprazol, vancomicina, lactulosa, prednisona, simvastatina, entre otras.
 
----
+Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La puntuación TxGNN es muy alta, pero no hay mecanismo directo ni ensayos o literatura que respalden el ácido fólico en enfermedad metabólica de la biotina, cuyo tratamiento estándar es la propia biotina. Además, faltan datos básicos de seguridad y de mecanismo de acción.
+La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos, la literatura es indirecta y el razonamiento mecanístico sugiere que se trata de similitud de clase entre vitaminas, ya que las enfermedades metabólicas de la biotina se tratan con biotina.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS (advertencias, contraindicaciones e indicaciones autorizadas), lo que actualmente bloquea el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank para evaluar el vínculo mecanístico.
-- Buscar estudios específicos de folato en deficiencia de biotinidasa o de holocarboxilasa sintetasa, o de insuficiencia secundaria de folato en estas enfermedades.
-- Revisar si la predicción refleja solo la cercanía en el grafo entre vitaminas del grupo B, y decidir si tiene sentido continuar con esta indicación.
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), requisito previo para el cribado de seguridad
+- Datos del mecanismo de acción del ácido fólico (por ejemplo, desde DrugBank)
+- Estudios preclínicos o mecanísticos que justifiquen un papel del folato en trastornos del metabolismo de la biotina
+- Revisión de la literatura específica sobre deficiencia de biotinidasa/holocarboxilasa sintetasa y folato
+- Considerar si otra indicación predicha tiene una base más sólida
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

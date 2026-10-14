@@ -2,7 +2,7 @@
 layout: default
 title: Flutamide
 parent: Solo predicción del modelo (L5)
-nav_order: 239
+nav_order: 351
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Flutamida: De Cáncer de Próstata a Susceptibilidad a Cáncer de Próstata/Cáncer Cerebral
+# Flutamida: De Cáncer de Próstata a Susceptibilidad al Cáncer de Próstata/Cáncer Cerebral
 
 ## Resumen en Una Frase
 
-Flutamida es un antiandrógeno no esteroideo cuyo uso clínico conocido es el tratamiento del cáncer de próstata metastásico o localmente avanzado (dato de farmacología; el registro AEMPS del pack no incluye texto de indicación).
-El modelo TxGNN predice que podría ser efectiva para **susceptibilidad a cáncer de próstata/cáncer cerebral**, con un puntaje muy alto pero **sin ensayos clínicos ni publicaciones** que respalden esta entrada concreta.
+La flutamida es un antiandrógeno no esteroideo, utilizado originalmente para el tratamiento del cáncer de próstata.
+El modelo TxGNN predice que podría ser efectiva para **susceptibilidad al cáncer de próstata/cáncer cerebral**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden específicamente esta predicción, por lo que se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de próstata (según farmacología; los textos de indicación de las autorizaciones AEMPS están vacíos) |
-| Nueva Indicación Predicha | Susceptibilidad a cáncer de próstata/cáncer cerebral |
-| Puntaje de Predicción TxGNN | 99,98% |
+| Indicación Original | Cáncer de próstata (según el grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Susceptibilidad al cáncer de próstata/cáncer cerebral |
+| Puntaje de Predicción TxGNN | 99,98 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
@@ -50,59 +51,60 @@ El modelo TxGNN predice que podría ser efectiva para **susceptibilidad a cánce
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la información de farmacología disponible, flutamida actúa sobre el **receptor de andrógenos (AR)**. Se usa en cáncer de próstata, y mecanísticamente podría ser aplicable a esta nueva entrada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información farmacológica compilada, la flutamida actúa como antagonista del receptor de andrógenos (AR). Su metabolito activo, la hidroxiflutamida, bloquea la señalización androgénica en los tejidos dependientes de andrógenos. Su eficacia en el cáncer de próstata, solo o combinada con un agonista de LHRH, está bien establecida.
 
-El componente "cáncer de próstata" de la predicción es plausible: bloquear el receptor de andrógenos es el mecanismo establecido en tumores prostáticos dependientes de andrógenos. Sin embargo, la etiqueta predicha es una **categoría compuesta de susceptibilidad** (próstata/cerebro). No tiene ensayos ni literatura asociados, y no se identificó un vínculo mecanístico para el componente cerebral.
+La nueva indicación predicha combina dos componentes. El primero es un fenotipo de susceptibilidad al cáncer de próstata, estrechamente relacionado con la indicación original, y por tanto el bloqueo del AR resulta mecanísticamente plausible. El segundo es la susceptibilidad al cáncer cerebral, para la cual **no se ha identificado ningún vínculo mecanístico** con el bloqueo del AR.
 
-El puntaje TxGNN es muy alto, pero es solo una predicción del modelo. Sin evidencia real vinculada, no debe interpretarse como respaldo clínico.
+El puntaje del modelo es muy alto, pero no se aportaron ensayos ni literatura que lo sustenten. Debe interpretarse como una señal exploratoria y no como evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación predicha.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación predicha.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 59594 | GRISETIN 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | Faes Farma S.A. |
-| 59593 | PROSTACUR COMPRIMIDOS | Comprimido | Mylan Pharmaceuticals S.L. |
-| 62912 | FLUTAMIDA CINFA 250 mg COMPRIMIDOS EFG | Comprimido | Laboratorios Cinfa S.A. |
+| 59594 | GRISETIN 250 mg comprimidos recubiertos con película (Faes Farma S.A.) | Comprimido recubierto con película | No especificada en los datos disponibles |
+| 59593 | PROSTACUR comprimidos (Mylan Pharmaceuticals S.L.) | Comprimido | No especificada en los datos disponibles |
+| 62912 | FLUTAMIDA CINFA 250 mg comprimidos EFG (Laboratorios Cinfa S.A.) | Comprimido | No especificada en los datos disponibles |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia hormonal (antiandrógeno), no citotóxico convencional |
+| Clasificación de Citotoxicidad | Terapia hormonal (antiandrógeno no esteroideo); no es un citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Función hepática (advertencia de hepatotoxicidad grave) |
+| Items de Monitoreo | Función hepática (la hepatotoxicidad es el riesgo principal, con advertencia en recuadro); se recomienda además consultar en el prospecto otros parámetros hematológicos |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Advertencias Principales**: el análisis de las indicaciones predichas señala una advertencia de hepatotoxicidad (recuadro de advertencia) que exige monitorizar la función hepática.
-- **Interacciones Farmacológicas**: la consulta se completó con 1 registro, pero corresponde a la diana farmacológica (receptor de andrógenos, gen AR), no a una interacción con otro fármaco. No hay interacciones fármaco-fármaco clínicas listadas.
+- **Advertencias Principales**: la evaluación del perfil beneficio-riesgo señala la hepatotoxicidad (advertencia en recuadro) como la preocupación principal. Esto limita el beneficio en contextos no oncológicos o benignos.
+- **Contraindicaciones (según el grafo de conocimiento, no el texto del prospecto)**: insuficiencia hepática, enfermedad hepática, enfermedad de la vesícula biliar, metahemoglobinemia (incluida la causada por déficit de metahemoglobina reductasa), sulfohemoglobinemia, hiperbilirrubinemia (incluida la hereditaria), síndrome de Gilbert, déficit de G6PD, enfermedad por depósito de glucógeno, cistinuria, galactosemia y déficit de piruvato deshidrogenasa E3.
+- **Interacciones Farmacológicas**: la consulta se completó, pero solo devolvió la diana farmacológica (receptor de andrógenos, AR). No se identificaron interacciones con otros fármacos.
 
-Para el resto de la información de seguridad, consultar el prospecto.
+Para la información de seguridad oficial, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Esta entrada es solo una predicción del modelo (L5): no tiene ensayos ni literatura, y el componente cerebral carece de fundamento mecanístico. La hepatotoxicidad de flutamida hace que la relación beneficio-riesgo sea difícil de justificar sin evidencia.
+La predicción tiene un puntaje alto en TxGNN, pero se encuentra en nivel L5: no hay ensayos ni literatura específicos, y el componente de cáncer cerebral carece de vínculo mecanístico conocido. La flutamida además conlleva un riesgo hepático relevante.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Aclarar qué enfermedad concreta representa la etiqueta compuesta "susceptibilidad a cáncer de próstata/cáncer cerebral".
-- Como referencia, otras predicciones del mismo fármaco tienen más respaldo. "Cáncer de órgano reproductor masculino" (L2) es esencialmente la indicación nativa, con un ensayo de Fase 2 aleatorizado que incluye flutamida (NCT00450463). "Neoplasia benigna del sistema reproductor" (L3) tiene datos humanos limitados en hiperplasia prostática benigna. Ambas merecen evaluación por separado.
-
-*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Aclarar la definición y la relevancia clínica del fenotipo "susceptibilidad al cáncer de próstata/cáncer cerebral" y justificar o separar el componente de cáncer cerebral.
+- Obtener el prospecto oficial de la AEMPS (advertencias, contraindicaciones y textos de indicación aprobada).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión sistemática de la literatura y del registro de ensayos para esta indicación.
+- Valorar, de forma separada, otras predicciones del modelo con más respaldo. Por ejemplo, "neoplasia benigna del sistema reproductor" (nivel L3, con estudios clínicos pequeños y antiguos en hiperplasia prostática benigna) y la categoría de "cáncer de órgano reproductor masculino" (que corresponde a la indicación original, no a un reposicionamiento real).
+- Definir un plan de monitoreo hepático si se avanzara en cualquier indicación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

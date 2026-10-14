@@ -2,7 +2,7 @@
 layout: default
 title: Lorazepam
 parent: Solo predicción del modelo (L5)
-nav_order: 330
+nav_order: 483
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,71 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lorazepam: De Ansiolítico Benzodiacepínico a Neoplasia del Nervio Trigémino
+# Lorazepam: De Trastorno de Ansiedad a Neoplasia del Nervio Trigémino
 
 ## Resumen en Una Frase
 
-Lorazepam es una benzodiacepina que actúa sobre el receptor GABA-A y se usa como ansiolítico, sedante y anticonvulsivo.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
-La puntuación alta parece un artefacto de propagación en el grafo y no una señal terapéutica real.
-
----
+Lorazepam es una benzodiazepina utilizada originalmente para el tratamiento de la ansiedad y de diversos cuadros convulsivos (como el estado epiléptico).
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones AEMPS están vacíos) |
+| Indicación Original | Trastorno de ansiedad (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Puntaje de Predicción TxGNN | 99,87% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-En realidad, la predicción **no** es razonable desde el punto de vista mecanístico. Lorazepam es un modulador alostérico positivo del receptor GABA-A. Potencia la inhibición neuronal y produce efectos ansiolíticos, sedantes y anticonvulsivos. No tiene ningún mecanismo antineoplásico conocido.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, lorazepam es una benzodiazepina que potencia la inhibición mediada por el receptor GABA-A, con efectos ansiolíticos, sedantes y anticonvulsivos.
 
-Entre la indicación original del fármaco (ansiedad, sedación y convulsiones) y un tumor del nervio trigémino no hay una relación biológica plausible. En el mejor de los casos, lorazepam podría aliviar síntomas acompañantes en un paciente con tumor, como ansiedad o crisis convulsivas. Eso no sería un efecto sobre la neoplasia.
+La relación entre la indicación original y la nueva es débil. La ansiedad y la epilepsia son trastornos de hiperexcitabilidad neuronal sobre los que actúa el fármaco, mientras que una neoplasia del nervio trigémino es un tumor. No se conoce un vínculo mecanístico claro: lorazepam no tiene actividad antineoplásica ni modificadora de la enfermedad en tumores nerviosos. A lo sumo podría aliviar síntomas acompañantes (ansiedad, convulsiones, malestar asociado al dolor).
 
-Como no hay ni un solo ensayo ni una sola publicación, el puntaje de 0.9987 probablemente refleja un artefacto del grafo de conocimiento y no evidencia terapéutica.
-
----
+Por tanto, el puntaje muy alto de TxGNN refleja una predicción basada en el grafo, sin respaldo clínico ni bibliográfico que la sustente.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones.
+Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 90287 | Lorazepam Aurovitas 1 mg comprimidos EFG | Comprimido | No especificada en los datos |
-| 83684 | Lorazepam Aristo 2,5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No especificada en los datos |
-| 83683 | Lorazepam Aristo 1 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No especificada en los datos |
-| 88360 | Temelor 4 mg/ml solución inyectable EFG | Solución inyectable | No especificada en los datos |
-| 68477 | Lorazepam Cinfa 1 mg comprimidos EFG | Comprimido | No especificada en los datos |
-
----
+| 90287 | Lorazepam Aurovitas 1 mg comprimidos EFG | Comprimido | No disponible |
+| 83684 | Lorazepam Aristo 2,5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible |
+| 88360 | Temelor 4 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
+| 49796 | Orfidal 1 mg comprimidos | Comprimido | No disponible |
+| 68477 | Lorazepam Cinfa 1 mg comprimidos EFG | Comprimido | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): insuficiencia hepática, enfermedad hepática, encefalopatía hepática y coma hepático; enfermedad renal; porfiria; glaucoma de ángulo abierto y de ángulo cerrado; síndrome de apnea del sueño, síndrome de hipoventilación central congénita e insuficiencia respiratoria; trastornos relacionados con sustancias y abuso/dependencia de sustancias; enfermedad de la vesícula biliar.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones. Entre las principales destacan las de nivel **mayor** con morfina (incluida la morfina liposomal), por riesgo de depresión del sistema nervioso central y respiratoria. Hay interacciones **moderadas** con bupropión, dronabinol, nabilona, teduglutida, metoclopramida, opio y sibutramina. Los antiácidos (óxido de magnesio, hidróxido de aluminio, carbonato de calcio, entre otros) presentan interacciones menores.
+- **Señal adicional**: la literatura recuperada para otras indicaciones señala riesgo de toxicidad por propilenglicol con infusiones parenterales de lorazepam a dosis altas, además de tolerancia, dependencia y deterioro al día siguiente en el uso hipnótico.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo ni publicación que respalde lorazepam en neoplasia del nervio trigémino, y no hay un mecanismo antineoplásico plausible. Se trata de una predicción del modelo sin sustento (nivel L5).
+La predicción carece de ensayos clínicos, literatura y vínculo mecanístico plausible; el puntaje alto del modelo no basta por sí solo. Lorazepam solo podría tener un papel sintomático, no terapéutico sobre el tumor.
 
 **Para avanzar se necesita:**
-- Cualquier evidencia real (preclínica o clínica) que vincule lorazepam con esta neoplasia. Sin ella, no se recomienda invertir más recursos.
-- Advertencias y contraindicaciones del prospecto AEMPS, hoy no disponibles.
-- Como nota de priorización: en este mismo Evidence Pack, la segunda predicción (insomnio) tiene nivel L3, con estudios clínicos antiguos y pequeños sobre lorazepam (1988 y 1999). Sin embargo, es un uso sintomático ya conocido de las benzodiacepinas, no un reposicionamiento real. Los ensayos recientes sobre benzodiacepinas en el pack tratan sobre deprescripción, lo que indica un riesgo de dependencia y daños a largo plazo, sobre todo en adultos mayores.
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción y una hipótesis biológica que conecte el fármaco con la neoplasia del nervio trigémino
+- Revisión sistemática de la literatura y de registros de ensayos clínicos para esta indicación
+- Obtención de las advertencias y contraindicaciones del prospecto de la AEMPS (actualmente sin datos, lo que bloquea el cribado de seguridad)
+- Evaluación de otras predicciones con mayor respaldo, como insomnio (L3, con estudios clínicos pequeños y antiguos) y las epilepsias reflejas (L4), que son más cercanas a las indicaciones originales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

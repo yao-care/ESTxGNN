@@ -2,7 +2,7 @@
 layout: default
 title: Azithromycin
 parent: Solo predicción del modelo (L5)
-nav_order: 60
+nav_order: 84
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Azitromicina: De Antibiótico Macrólido a Síndrome de Hiperviscosidad Policlonal
+# Azitromicina: De Infecciones Estreptocócicas a Síndrome de Hiperviscosidad Policlonal
 
 ## Resumen en Una Frase
 
-La azitromicina es un antibiótico macrólido de uso antibacteriano, comercializado en España con 20 autorizaciones.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome de hiperviscosidad policlonal**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción: es solo una predicción del modelo.
+Azitromicina es un antibiótico macrólido, utilizado originalmente para tratar infecciones bacterianas como las estreptocócicas, la neumonía bacteriana y la conjuntivitis.
+El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal** (la predicción de mayor puntaje), pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible: las autorizaciones de AEMPS no incluyen texto de indicación (antibiótico macrólido) |
+| Indicación Original | Infección estreptocócica (indicaciones originales según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99,81% |
+| Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -51,52 +50,54 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la azitromicina es un antibiótico macrólido y su eficacia antibacteriana está establecida. Sin embargo, con los datos proporcionados no se puede establecer un vínculo mecanístico con el síndrome de hiperviscosidad policlonal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la azitromicina es un antibiótico macrólido con actividad antibacteriana y propiedades antiinflamatorias e inmunomoduladoras descritas. Su eficacia en infecciones bacterianas está bien establecida.
 
-El síndrome de hiperviscosidad policlonal es un cuadro asociado a un aumento de proteínas en sangre. No hay relación evidente con la actividad antibacteriana de la azitromicina. Tampoco hay estudios clínicos ni preclínicos que sugieran un efecto sobre esta condición.
+Para el síndrome de hiperviscosidad policlonal, **no se identifica un vínculo mecanístico plausible**: las acciones antibacterianas e inmunomoduladoras de la azitromicina no tienen relación establecida con la hiperviscosidad sérica. El puntaje alto (99.81%) refleja una predicción basada en el grafo de conocimiento, no evidencia biológica o clínica.
 
-El puntaje alto de TxGNN (99,81%, posición 3831 en el ranking del modelo) debe interpretarse solo como una señal computacional. Sin evidencia adicional, no justifica avanzar.
+Conviene señalar otras predicciones del mismo análisis con mayor respaldo indirecto, que podrían merecer evaluación prioritaria:
+- **Enfermedad hematológica congénita (enfermedad de células falciformes)**: plausible por efectos antiinflamatorios que podrían reducir el síndrome torácico agudo, aunque los dos ensayos específicos fueron retirados sin participantes.
+- **Peste septicémica**: existe un estudio de susceptibilidad in vitro, pero con actividad deficiente de azitromicina frente a *Yersinia pestis*.
+- **Gammapatía monoclonal**: un estudio preclínico muestra que los macrólidos bloquean el flujo autofágico y sensibilizan células de mieloma a bortezomib.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para el síndrome de hiperviscosidad policlonal.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 66065 | Azitromicina Normon 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 70190 | Azitromicina Sun 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 82363 | Azitromicina Teva 250 mg comprimidos dispersables | Comprimido dispersable |
-| 65621 | Azitromicina Vir 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 65636 | Azitromicina Sandoz 500 mg polvo para suspensión oral en sobre EFG | Polvo para suspensión oral |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 66065 | Azitromicina Normon 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 70190 | Azitromicina Sun 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 82363 | Azitromicina Teva 250 mg comprimidos dispersables | Comprimido dispersable | No disponible |
+| 65636 | Azitromicina Sandoz 500 mg polvo para suspensión oral en sobre EFG | Polvo para suspensión oral | No disponible |
+| 85006 | Azitromicina Tecnigen 500 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
 
-Se muestran 5 de las 20 autorizaciones. También constan formas de polvo para solución para perfusión y granulado para suspensión oral.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo). También está comercializado Zitromax 250 mg (Pfizer), polvo para suspensión oral en sobre. Hay presentaciones orales, dispersables e intravenosas.
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas / dianas farmacológicas**: la consulta de interacciones se completó y devolvió 2 registros. Son datos de farmacología de dianas, no interacciones con otros fármacos:
-  - Receptor de motilina (MLNR)
-  - TAS2R4 (receptor gustativo amargo tipo 2)
+- **Contraindicaciones / condiciones de riesgo según el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de QT largo (incluido el familiar), torsades de pointes, enfermedad hepática, enfermedad de la vesícula biliar, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, miastenia gravis, enfermedad de la unión neuromuscular, trastornos de la audición y enfermedades del sistema auditivo.
+- **Interacciones / farmacología**: se han descrito interacciones farmacológicas con el receptor de motilina (MLNR) y con el receptor del sabor amargo TAS2R4. No son interacciones medicamentosas clínicas clásicas, sino dianas farmacológicas.
 
-Consultar el prospecto para información sobre advertencias y contraindicaciones.
+Es imprescindible consultar el prospecto para las advertencias y contraindicaciones oficiales.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura, y no hay un vínculo mecanístico plausible con los datos disponibles. Solo cuenta con el puntaje del modelo (nivel L5).
+La predicción principal (síndrome de hiperviscosidad policlonal) tiene solo respaldo computacional (L5), sin ensayos, sin literatura y sin mecanismo plausible. No hay base para avanzar con esta indicación.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y un análisis de su vínculo con el síndrome de hiperviscosidad policlonal
-- Advertencias y contraindicaciones del prospecto de AEMPS, y las indicaciones aprobadas de las autorizaciones
-- Una búsqueda dirigida de literatura y ensayos clínicos para esta indicación
-- Como alternativa, priorizar otras predicciones del mismo fármaco con más respaldo (nivel L4): la gammapatía monoclonal, con un estudio in vitro de macrólidos en mieloma (PMID 23546223), y el trastorno hematológico congénito (enfermedad de células falciformes), cuyos dos ensayos fueron retirados con 0 inscritos
+- Obtener y analizar el prospecto oficial de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), ya que su ausencia impide el cribado de seguridad.
+- Completar los datos del mecanismo de acción.
+- Evaluar de forma prioritaria candidatas alternativas con más respaldo indirecto (p. ej., enfermedad de células falciformes con síndrome torácico agudo) y, si procede, replantear el ensayo piloto retirado.
+- Antes de cualquier uso, valorar el riesgo cardiaco (QT) y hepático.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

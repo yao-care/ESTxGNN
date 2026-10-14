@@ -2,7 +2,7 @@
 layout: default
 title: Clonidine
 parent: Solo predicción del modelo (L5)
-nav_order: 139
+nav_order: 199
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,83 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clonidina: De Antihipertensivo (indicación no especificada en la ficha) a Síndrome Faciodigitogenital
+# Clonidina: De Trastorno Hipertensivo a Síndrome Faciodigitogenital
 
 ## Resumen en Una Frase
 
-La clonidina es un agonista alfa-2 adrenérgico de acción central, conocido como agente hipotensor y comercializado en España como Catapresan. El modelo TxGNN predice que podría ser efectiva para el **síndrome faciodigitogenital**, pero **no hay ningún ensayo clínico ni publicación** que respalde esta predicción, por lo que se trata solo de una señal del modelo.
+La clonidina es un agonista de los receptores adrenérgicos alfa-2 de acción central, utilizado originalmente para tratar la hipertensión arterial (también glaucoma de ángulo abierto y TDAH).
+El modelo TxGNN predice que podría ser efectiva para el **síndrome faciodigitogenital**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en la ficha de AEMPS (texto de indicación vacío); farmacológicamente es un agente hipotensor |
+| Indicación Original | Hipertensión arterial (según la base de conocimiento de TxGNN; la autorización de AEMPS no incluye texto de indicación) |
 | Nueva Indicación Predicha | Síndrome faciodigitogenital |
-| Puntaje de Predicción TxGNN | 99.9993% |
+| Puntaje de Predicción TxGNN | 99,999% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la información farmacológica disponible, la clonidina actúa sobre los receptores alfa-2 adrenérgicos (subtipos A, B y C), y también se registra actividad sobre el receptor alfa-1D, los canales HCN y el transportador de cationes orgánicos 1 (OCT1). Su uso clínico conocido incluye hipertensión, profilaxis de migraña, dismenorrea grave, dolor oncológico intenso y TDAH.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la clonidina es un agonista alfa-2 adrenérgico que reduce el tono noradrenérgico central. Su eficacia en hipertensión está comprobada y también se usa en TDAH. Los datos farmacológicos compilados muestran afinidad por los receptores alfa-2A, alfa-2B, alfa-2C y alfa-1D, además de canales HCN y el transportador de cationes orgánicos 1.
 
-**No se ha identificado un vínculo mecanístico entre la clonidina y el síndrome faciodigitogenital.** No hay ensayos, literatura ni relación evidente con la indicación original. El puntaje casi perfecto del modelo proviene solo de la estructura del grafo de conocimiento y no debe interpretarse como evidencia de eficacia.
+El síndrome faciodigitogenital es un trastorno genético raro del desarrollo. Con los datos disponibles no se puede establecer un vínculo mecanístico plausible entre la agonía alfa-2 y la patología central de esta enfermedad. Un efecto sobre su causa de fondo es poco probable.
+
+El puntaje elevado de TxGNN (99,999%) proviene únicamente de la predicción basada en grafos. Ningún ensayo ni publicación lo respalda, por lo que debe interpretarse con mucha cautela.
+
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 50669 | CATAPRESAN 0,150 mg COMPRIMIDOS | Comprimido | No especificada en los datos disponibles |
+| 50669 | CATAPRESAN 0,150 mg COMPRIMIDOS | Comprimido | Texto de indicación no especificado en los datos disponibles |
 
-Titular: Glenwood GmbH Pharmazeutische Erzeugnisse.
+Titular: Glenwood GmbH Pharmazeutische Erzeugnisse. Autorización vigente, de tipo monofármaco.
 
-## Otras Indicaciones Predichas con Más Respaldo
-
-Para esta predicción no hay evidencia, pero el Evidence Pack incluye otras indicaciones con más respaldo. Como referencia para priorizar:
-
-| Indicación Predicha | Nivel | Evidencia disponible | Recomendación |
-|------|------|------|------|
-| Síndrome de Tourette | L2 | 3 ensayos (Fase 4, n pequeños; uno comparativo clonidina vs. levetiracetam), guías europeas, metaanálisis en red y ensayo con parche de clonidina (2024) | Proceed with Guardrails |
-| Trastorno bipolar maníaco | L3 | Revisión sistemática (2023), ECA adyuvante controlado con placebo (2022); único ensayo registrado terminado con n=5 | Research Question |
-| Migraña | L3 | Estudios pequeños antiguos, comparación con propranolol, metaanálisis 2023 de antihipertensivos | Research Question |
-| Trastorno específico del desarrollo | L4 | Evidencia indirecta (TDAH, autismo, aggressividad); ensayos en curso | Research Question |
-| Tricotilomanía | L4 | Un caso clínico y datos animales | Research Question |
-| Obesidad | L4 | Efecto sobre comorbilidades (hipertensión, resistencia a la insulina), no sobre el peso | Hold |
-| Condroma mixoide, hipervitaminosis, microdeleción 16p11.2 | L5 | Solo predicción del modelo | Hold |
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas:** la consulta se completó con 8 registros, pero corresponden a **dianas farmacológicas** de la clonidina y no a interacciones con otros medicamentos: receptores alfa-1D y alfa-2A/2B/2C, canales HCN1, HCN2 y HCN4 (datos de ratón) y OCT1. No se identificaron interacciones con fármacos concretos.
+- **Contraindicaciones según el grafo de conocimiento (no proceden del prospecto):** se asocian, entre otras, insuficiencia hepática, pancreatitis, lupus eritematoso sistémico, gota, anuria, hipotensión, infarto de miocardio e isquemia miocárdica, enfermedades de la conducción cardíaca, parada cardíaca súbita, insuficiencia respiratoria, diabetes mellitus tipo 1 y 2, cetoacidosis diabética, trastornos de la coagulación, trastornos de ansiedad y distimia, así como alteraciones del calcio, fósforo y potasio.
+- **Interacciones farmacológicas:** la consulta se completó, pero devolvió 8 dianas farmacológicas de la clonidina (receptores ADRA1D, ADRA2A, ADRA2B y ADRA2C, canales HCN1, HCN2 y HCN4, y transportador OCT1). No se identificaron interacciones con otros fármacos con nivel de gravedad asignado.
 
-Consultar el prospecto para información sobre advertencias y contraindicaciones.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto de AEMPS.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos, literatura ni mecanismo plausible, y el puntaje TxGNN es solo una señal basada en el grafo. Con nivel L5 no hay base para avanzar.
+La predicción se basa solo en el modelo de grafos, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible con una enfermedad genética rara del desarrollo. Entre las demás indicaciones predichas para la clonidina, el síndrome de Tourette cuenta con evidencia mucho más sólida (guías europeas de 2022, metaanálisis en red de 2023 y dos ensayos de Fase 4) y sería un candidato más prometedor.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS para completar la revisión de seguridad (advertencias y contraindicaciones), que actualmente bloquea el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar la indicación aprobada de Catapresan en AEMPS.
-- Redirigir el esfuerzo a las indicaciones con más respaldo, en particular el **síndrome de Tourette** (L2). Ahí conviene verificar manualmente si los metaanálisis justifican L1, y aplicar como salvaguardas la monitorización de presión arterial y frecuencia cardíaca, la vigilancia de sedación y la retirada gradual para evitar hipertensión de rebote.
+- Datos detallados del mecanismo de acción (MOA)
+- Una hipótesis biológica que vincule la señalización alfa-2 adrenérgica con la fisiopatología del síndrome faciodigitogenital
+- Revisión de la literatura y de registros de ensayos para detectar estudios no capturados
+- Advertencias y contraindicaciones del prospecto de AEMPS, para completar el cribado de seguridad
+- Valorar priorizar otras indicaciones predichas con mayor respaldo clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

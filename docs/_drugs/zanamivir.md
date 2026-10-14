@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Solo predicción del modelo (L5)
-nav_order: 570
+nav_order: 863
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,18 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Zanamivir: De Influenza a Pielonefritis
+# Zanamivir: De Gripe a Pielonefritis
 
 ## Resumen en Una Frase
 
-Zanamivir es un inhibidor de la neuraminidasa viral, utilizado originalmente para tratar la gripe (influenza).
-El modelo TxGNN predice que podría ser efectivo para **pielonefritis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Zanamivir es un inhibidor de la neuraminidasa viral, utilizado originalmente para el tratamiento de la gripe (influenza).
+El modelo TxGNN predice que podría ser efectivo para **pielonefritis**, pero no existe ningún ensayo clínico ni publicación que respalde esta dirección (**0 ensayos clínicos** y **0 publicaciones**), por lo que la predicción debe considerarse con mucha cautela.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Influenza (el texto de indicación no figura en las autorizaciones registradas) |
+| Indicación Original | Gripe (influenza) |
 | Nueva Indicación Predicha | Pielonefritis |
 | Puntaje de Predicción TxGNN | 99.84% |
 | Nivel de Evidencia | L5 |
@@ -50,11 +50,11 @@ El modelo TxGNN predice que podría ser efectivo para **pielonefritis**, pero **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, zanamivir inhibe la neuraminidasa (sialidasa) del virus de la influenza, y su eficacia en esta infección viral está establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, zanamivir es un inhibidor de la neuraminidasa viral con actividad frente a los virus de la gripe A y B, y su uso está establecido en la gripe (por vía inhalada o intravenosa).
 
-Con la información disponible, **no se identifica un vínculo mecanístico plausible** con la pielonefritis. Esta es una infección principalmente bacteriana de las vías urinarias altas, y zanamivir no tiene actividad antibacteriana conocida de relevancia clínica. Existen sialidasas bacterianas, pero no hay evidencia de que zanamivir las inhiba ni de que eso sirva para el tratamiento.
+Sin embargo, el análisis no identifica un vínculo mecanístico creíble con la pielonefritis. Esta es una infección del riñón de origen predominantemente bacteriano (habitualmente *E. coli*), por lo que un antiviral inhibidor de la neuraminidasa no tiene una diana o vía de acción establecida en este contexto.
 
-El puntaje muy alto (99.84%) proviene de un grafo de conocimiento y no equivale a evidencia biológica o clínica. Debe interpretarse con cautela.
+El puntaje TxGNN es muy alto (99.84%), pero es únicamente una predicción del grafo de conocimiento, sin respaldo de ensayos ni literatura. Probablemente refleja proximidad en la red a través de nodos genéricos relacionados con infecciones, por lo que debe tratarse como un probable falso positivo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,33 +62,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para pielonefritis.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1181349001 | DECTOVA 10 mg/ml solución para perfusión | Solución para perfusión | Glaxosmithkline Trading Services Limited |
-| 62712 | RELENZA 5 mg/dosis polvo para inhalación (unidosis) | Polvo para inhalación | Glaxosmithkline S.A. |
+| 1181349001 | DECTOVA 10 mg/ml solución para perfusión | Solución para perfusión | No disponible en los datos compilados |
+| 62712 | RELENZA 5 mg/dosis polvo para inhalación (unidosis) | Polvo para inhalación | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades con contraindicación según el grafo de conocimiento** (no proviene del texto del prospecto): epilepsia, enfermedad pulmonar obstructiva crónica (EPOC), EPOC grave de inicio temprano, enfermedad bronquial y delirio.
+- **Interacciones Farmacológicas**: se identificaron 8 interacciones potenciales.
+  - Insulina humana (inhalada, de acción rápida): nivel **moderado**.
+  - Claritromicina, loratadina, montelukast, ketotifeno, fexofenadina, ibuprofeno y diclofenaco: nivel de gravedad no determinado.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura para pielonefritis y sin un mecanismo plausible. No hay base para avanzar en esta indicación en este momento.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que la respalden, y no existe un vínculo mecanístico plausible entre un antiviral inhibidor de la neuraminidasa y una infección renal bacteriana. Se considera un probable falso positivo.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), una brecha bloqueante para el cribado de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Buscar evidencia preclínica que demuestre actividad de zanamivir frente a patógenos de pielonefritis, o algún mecanismo que la explique.
-- Evaluar la compatibilidad de vías de administración (hay presentaciones inhalada e intravenosa) si aparece evidencia de eficacia.
+- Datos del mecanismo de acción (MOA) del fármaco.
+- Evidencia preclínica o clínica que sustente una actividad en pielonefritis (actualmente inexistente).
+- Texto de indicaciones, advertencias y contraindicaciones del prospecto de la AEMPS, para completar la evaluación de seguridad.
+- Análisis de compatibilidad de vía de administración y exposición sistémica/renal.
 
-**Nota sobre la segunda predicción:** el modelo también predice "trastorno del metabolismo de la tirosina" (99.02%). Las 3 publicaciones asociadas tratan sobre resistencia de la neuraminidasa de la influenza y métodos de ensayo, no sobre metabolismo de la tirosina. No respaldan esa predicción, que también queda en **Hold** con nivel L5.
+---
+
+**Nota sobre la segunda predicción (trastorno del metabolismo de la tirosina; puntaje TxGNN 99.02%, nivel L5, decisión Hold):** no se identifica ningún vínculo mecanístico, ya que zanamivir no interactúa con las enzimas del catabolismo de la tirosina. Las tres publicaciones recuperadas tratan sobre resistencia antiviral y la neuraminidasa de la gripe, sin relación con esta indicación; probablemente aparecieron por la notación de mutaciones con aminoácidos (por ejemplo, H274Y, N294S). No aportan evidencia clínica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

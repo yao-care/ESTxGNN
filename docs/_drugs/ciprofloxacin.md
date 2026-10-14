@@ -2,7 +2,7 @@
 layout: default
 title: Ciprofloxacin
 parent: Evidencia moderada (L3-L4)
-nav_order: 128
+nav_order: 183
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ciprofloxacino: De Antibacteriano Fluoroquinolónico a Esclerodermia Difusa
+# Ciprofloxacino: De Fiebre Tifoidea e Infecciones Bacterianas a Esclerodermia Difusa
 
 ## Resumen en Una Frase
 
-Ciprofloxacino es un antibiótico fluoroquinolónico comercializado en España en varias formas farmacéuticas. El texto de indicación aprobada no figura en los datos de AEMPS recibidos.
-El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, aunque actualmente hay **0 ensayos clínicos** registrados y **2 publicaciones** de respaldo débil.
+Ciprofloxacino es una fluoroquinolona antibacteriana, originalmente utilizada para tratar infecciones como la fiebre tifoidea, la salmonelosis, la neumonía bacteriana y las infecciones por *Pseudomonas aeruginosa*.
+El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, aunque actualmente solo hay **0 ensayos clínicos** y **2 publicaciones** de apoyo, de carácter exploratorio.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS recibidos (los textos de indicación vienen vacíos) |
+| Indicación Original | Fiebre tifoidea, salmonelosis, infecciones bacterianas (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Esclerodermia difusa |
 | Puntaje de Predicción TxGNN | 99.87% |
 | Nivel de Evidencia | L4 |
@@ -50,14 +50,11 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, ciprofloxacino pertenece a la clase de las fluoroquinolonas, que inhiben la ADN girasa y la topoisomerasa IV bacterianas. Su eficacia antibacteriana está bien establecida, pero ese mecanismo no explica por sí solo un efecto en una enfermedad autoinmune como la esclerodermia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ciprofloxacino es una fluoroquinolona cuya eficacia antibacteriana está comprobada, y su acción clásica consiste en inhibir la ADN girasa y la topoisomerasa IV bacterianas. Esto no explica por sí solo un efecto en la esclerodermia.
 
-La literatura recuperada sugiere dos vías plausibles, ambas con respaldo débil:
+Para la esclerodermia difusa se plantean dos vínculos posibles. El primero es un posible efecto antifibrótico en la piel (PMID 20507401), aunque su mecanismo no está bien establecido. El segundo es indirecto: tratar el sobrecrecimiento bacteriano del intestino delgado, frecuente en la esclerosis sistémica (PMID 7728404), que causa diarrea y malabsorción.
 
-1. **Efecto antifibrótico en la piel.** Un estudio publicado en 2010 evaluó ciprofloxacino oral como antifibrótico en la piel de pacientes con esclerodermia (PMID 20507401). El fragmento del resumen disponible menciona un ensayo controlado, doble ciego y aleatorizado. Sin embargo, la clasificación automática lo marca como preclínico/ex vivo con diseño sin verificar, y los resultados no están en el extracto.
-2. **Tratamiento del sobrecrecimiento bacteriano del intestino delgado (SIBO).** Es una complicación frecuente en la esclerosis sistémica. El estudio de 1995 (PMID 7728404) es sobre todo de detección de SIBO, no un ensayo de tratamiento. En ese caso, el beneficio sería sobre una complicación y no sobre la enfermedad de fondo.
-
-Ninguna de las dos vías constituye evidencia clínica directa de beneficio en esclerodermia difusa. El puntaje TxGNN es muy alto, pero por sí solo no eleva el nivel de evidencia.
+La evidencia se limita a literatura pequeña y exploratoria, sin datos confirmatorios sobre desenlaces cutáneos o de fibrosis. Por ello la predicción debe considerarse una hipótesis.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,39 +64,43 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Preclínico/ex vivo según la clasificación (diseño sin verificar; el resumen menciona un ensayo aleatorizado doble ciego) | The Journal of Dermatology | Evalúa si ciprofloxacino oral reduce la gravedad de la esclerodermia como antifibrótico cutáneo. Los resultados no figuran en el extracto disponible. |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Cohorte diagnóstica | British Journal of Rheumatology | 24 pacientes con esclerosis sistémica y síntomas de malabsorción, estudiados con aspiración yeyunal para detectar sobrecrecimiento bacteriano del intestino delgado. El estudio se centra en la detección; los resultados del tratamiento no figuran en el extracto. |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Estudio clínico exploratorio (el resumen menciona un ensayo controlado, doble ciego y aleatorizado) | The Journal of Dermatology | Evalúa si ciprofloxacino oral reduce la gravedad de la esclerodermia y su utilidad como antifibrótico en la piel |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observacional | British Journal of Rheumatology | Sobrecrecimiento bacteriano del intestino delgado en 24 pacientes con esclerosis sistémica con diarrea y pérdida de peso; evalúa métodos diagnósticos y resultado del tratamiento |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 58407 | Ciprofloxacino Tarbis 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 62709 | Ciprofloxacino Pensa 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 65447 | Ciprofloxacino Vir Pharma 750 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 61521 | Septocipro Ótico 1 mg gotas óticas en solución en envase unidosis | Gotas óticas en solución |
-| 80160 | Ciprofloxacino Aurovitas 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 58407 | Ciprofloxacino Tarbis 250 mg | Comprimido recubierto con película | No disponible |
+| 62709 | Ciprofloxacino Pensa 500 mg | Comprimido recubierto con película | No disponible |
+| 62646 | Ciprofloxacino Normon 2 mg/ml | Solución para perfusión | No disponible |
+| 61521 | Septocipro Ótico 1 mg | Gotas óticas en solución | No disponible |
+| 60608 | Oftacilox 3 mg/ml | Colirio en solución | No disponible |
 
-De las 20 autorizaciones, se muestran las 5 principales. Los registros no incluyen el texto de la indicación aprobada. Además de los comprimidos y las gotas óticas, existen formas de solución para perfusión, colirio en solución y suspensión oral.
+Hay 20 autorizaciones vigentes, todas de medicamentos con un solo principio activo. Incluyen comprimidos, solución para perfusión, gotas óticas, colirio y suspensión oral.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de QT largo (incluido el familiar), torsades de pointes, epilepsia, enfermedad renal, deficiencia de potasio, tendinitis y otras afecciones tendinosas (bursitis aquílea, espolón calcáneo, periartritis), neuropatía periférica y enfermedades del sistema nervioso periférico, colitis por *Clostridium difficile*, miastenia gravis y enfermedades de la unión neuromuscular.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las de nivel **mayor** figuran los corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona) y bupropión. Entre las de nivel moderado figuran antidiabéticos (metformina, pioglitazona, acarbosa, alogliptina), famotidina, loperamida, ácido acetilsalicílico y aprepitant, entre otros.
+- Los corticoides son relevantes en la esclerosis sistémica por su uso frecuente en enfermedades autoinmunes. Se asocian con un mayor riesgo de tendinopatía junto con fluoroquinolonas, lo que exige cautela.
+- Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya en solo dos publicaciones de valor limitado, sin ensayos clínicos registrados y con diseño sin verificar en la más relevante. El nivel de evidencia es L4 y no hay datos de seguridad locales para evaluar el balance beneficio-riesgo.
+La predicción tiene un puntaje alto (99.87%), pero el respaldo se limita a dos publicaciones exploratorias, sin ensayos clínicos registrados y con un mecanismo antifibrótico no establecido. Además, los pacientes con esclerodermia podrían usar corticoides, que interactúan de forma importante con ciprofloxacino y aumentan el riesgo de tendinopatía.
 
 **Para avanzar se necesita:**
-- Verificar el diseño, la población y los resultados del estudio PMID 20507401, ya que su resumen menciona un ensayo aleatorizado doble ciego. Si se confirma y es positivo, el nivel de evidencia podría revisarse.
-- Descargar y revisar el prospecto de AEMPS (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
-- Obtener los datos de mecanismo de acción desde DrugBank y analizar el vínculo mecanístico con la fibrosis cutánea.
-- Confirmar la indicación original aprobada, que el Evidence Pack no incluye.
+- Revisar el texto completo del estudio de 2010 (PMID 20507401) para confirmar diseño, tamaño muestral y resultados.
+- Datos del mecanismo de acción y de la plausibilidad antifibrótica.
+- Un ensayo clínico confirmatorio con desenlaces cutáneos y de fibrosis.
+- Obtener del prospecto de la AEMPS las advertencias, contraindicaciones e indicaciones aprobadas.
+- Evaluar el perfil de seguridad en esta población (tendones, QT, neuropatía y uso concomitante de corticoides).
 
-*Nota:* entre las otras predicciones del paquete, la peste septicémica tiene evidencia L1 (ensayo aleatorizado en peste bubónica). Es probable que ya sea una indicación establecida y no un reposicionamiento real.
+**Otras predicciones del modelo:** la única otra con respaldo sustancial es la **peste septicémica** (nivel L3), por el uso consolidado de fluoroquinolonas contra *Yersinia pestis* y ensayos aleatorizados sobre peste bubónica. Es una extensión dentro de la misma clase antiinfecciosa más que un reposicionamiento, y requiere confirmar evidencia directa en peste septicémica. Las demás predicciones carecen de mecanismo y de evidencia clínica, y en algunos casos, como la neuropatía periférica adquirida asociada a enfermedad hematológica, plantean preocupaciones de seguridad.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Reboxetine
-parent: Solo predicción del modelo (L5)
-nav_order: 460
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 687
+evidence_level: L3
 indication_count: 10
 ---
 
 # Reboxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,100 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Reboxetina: De Depresión a Tortícolis Paroxística Benigna de la Infancia
+# Reboxetina: De Depresion Unipolar a Agorafobia
 
 ## Resumen en Una Frase
 
-La reboxetina es un inhibidor selectivo de la recaptación de noradrenalina, utilizado como antidepresivo. El modelo TxGNN predice que podría ser efectivo para la **tortícolis paroxística benigna de la infancia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que se basa solo en el modelo.
+Reboxetina es un inhibidor selectivo de la recaptacion de noradrenalina, originalmente utilizado para el tratamiento de la depresion (depresion unipolar, depresion endogena y trastorno depresivo mayor).
+El modelo TxGNN predice que podria ser efectivo para **agorafobia**, con **0 ensayos clinicos** registrados y **5 publicaciones** que actualmente respaldan esta direccion (principalmente sobre trastorno de panico).
 
-## Resumen Rápido
+> Nota: de las 10 predicciones generadas, se selecciono la de rango 1 por puntaje (trastorno de torticolis paroxistico benigno de la infancia), pero carece de toda evidencia y de plausibilidad mecanistica. Por ello este informe se centra en **agorafobia**, la prediccion con evidencia mas relevante y plausibilidad biologica. Las demas predicciones se comentan al final.
+
+---
+
+## Resumen Rapido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en las autorizaciones de AEMPS. Las fuentes farmacológicas la describen como depresión |
-| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
-| Puntaje de Predicción TxGNN | 99,92% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
-| Decisión Recomendada | Hold |
+| Indicacion Original | Depresion (unipolar, endogena y trastorno depresivo mayor, segun el grafo de conocimiento; los textos de indicacion de las autorizaciones espanolas no estan disponibles) |
+| Nueva Indicacion Predicha | Agorafobia |
+| Puntaje de Prediccion TxGNN | 99.91% |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Espana | ✓ Comercializado |
+| Numero de Autorizaciones | 2 |
+| Decision Recomendada | Hold (pregunta de investigacion) |
 
-## ¿Por qué es Razonable esta Predicción?
+---
 
-La reboxetina bloquea el transportador de noradrenalina (NET, gen SLC6A2). Al hacerlo aumenta la noradrenalina disponible en la sinapsis. Este mecanismo es el que sustenta su uso como antidepresivo.
+## Por que es Razonable esta Prediccion?
 
-Sin embargo, **no se identifica un vínculo mecanístico claro** con la nueva indicación. La tortícolis paroxística benigna de la infancia es un trastorno episódico pediátrico raro, asociado a canalopatías (CACNA1A) y relacionado con la migraña. No hay evidencia de que inhibir el NET sea relevante para esta condición. El puntaje alto parece reflejar solo la proximidad en el grafo de conocimiento, no una base biológica demostrada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de accion en los datos compilados. Segun la informacion conocida, reboxetina es un inhibidor selectivo de la recaptacion de noradrenalina: se une al transportador de noradrenalina (NET, gen SLC6A2) y bloquea la recaptacion de esta en las terminales nerviosas, con baja afinidad por otros transportadores y receptores.
 
-Además, usar un antidepresivo en lactantes plantearía serias preocupaciones de seguridad.
+La desregulacion noradrenergica esta implicada en los trastornos de panico y de ansiedad. La agorafobia suele aparecer asociada al trastorno de panico, y la depresion y la ansiedad presentan alta comorbilidad. Por ello es mecanisticamente plausible que un fármaco eficaz en depresion tambien tenga actividad en este cuadro.
 
-## Evidencia de Ensayos Clínicos
+Conviene ser prudente: la agorafobia no se ha estudiado como variable independiente. La evidencia procede de estudios en trastorno de panico (con o sin agorafobia) y es de tamano pequeno.
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clinicos
+
+Actualmente no hay ensayos clinicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Ano | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [11838623](https://pubmed.ncbi.nlm.nih.gov/11838623/) | 2002 | Estudio clinico | J Clin Psychiatry | Reboxetina descrita como eficaz y bien tolerada en trastorno de panico |
+| [12415550](https://pubmed.ncbi.nlm.nih.gov/12415550/) | 2002 | Estudio abierto | Hum Psychopharmacol | Eficacia de reboxetina en pacientes con trastorno de panico refractario a ISRS |
+| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Metaanalisis en red | Cochrane Database Syst Rev | Tratamientos farmacologicos del trastorno de panico en adultos; no se evidencia que establezca la eficacia de reboxetina |
+| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Revision sistematica | Expert Opin Pharmacother | Trastorno de panico resistente al tratamiento |
+| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2026 | Revision sistematica | Psychother Psychosom | Opciones farmacologicas, psicoterapeuticas y de neuroestimulacion en trastornos de ansiedad resistentes |
 
-## Información de Mercado en España
+---
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+## Informacion de Mercado en Espana
+
+| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
 |---------|------|------|-----------|
-| 63157 | IRENOR 4 mg COMPRIMIDOS | Comprimido | No consta en el registro |
-| 61969 | NOREBOX 4 mg COMPRIMIDOS | Comprimido | No consta en el registro |
+| 63157 | IRENOR 4 mg COMPRIMIDOS | Comprimido | No disponible |
+| 61969 | NOREBOX 4 mg COMPRIMIDOS | Comprimido | No disponible |
 
-Ambos productos son fabricados por Pfizer S.L.
+Ambas autorizaciones son de Pfizer S.L., monofarmaco y vigentes.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacologicas**: la consulta se completo con 1 registro, que corresponde a la farmacologia del transportador de noradrenalina (NET), diana de reboxetina, y no a una interaccion con otro farmaco.
 
-Como precaución específica, el uso de un antidepresivo en población infantil requeriría una evaluación de seguridad muy rigurosa.
+Consultar el prospecto para informacion adicional de advertencias y contraindicaciones.
 
-## Conclusión y Próximos Pasos
+---
 
-**Decisión: Hold**
+## Conclusion y Proximos Pasos
 
-**Justificación:**
-La predicción no tiene ensayos ni literatura (nivel L5), carece de plausibilidad mecanística y afectaría a una población infantil vulnerable. No hay base para avanzar.
+**Decision: Hold (pregunta de investigacion)**
+
+**Justificacion:**
+Existe plausibilidad biologica y estudios pequeños (uno abierto) en trastorno de panico, pero no hay ensayos registrados ni datos especificos de agorafobia. Ademas, la comparacion global de antidepresivos situa a reboxetina entre los menos eficaces.
 
 **Para avanzar se necesita:**
-- Una hipótesis mecanística que relacione la inhibición del NET con la fisiopatología de esta condición (canalopatía CACNA1A/migraña).
-- Datos preclínicos o de series de casos que apoyen alguna señal de eficacia.
-- Una evaluación de seguridad pediátrica específica.
-- Las advertencias y contraindicaciones del prospecto de AEMPS, hoy no disponibles.
+- Ensayos controlados aleatorizados de reboxetina en trastorno de panico/agorafobia
+- Datos del mecanismo de accion (MOA)
+- Advertencias y contraindicaciones del prospecto de la AEMPS (informacion bloqueante para la evaluacion de seguridad)
+- Textos de indicacion aprobados de las dos autorizaciones
 
-**Nota:** entre las demás predicciones del mismo paquete, la depresión melancólica (nivel L1) y la agorafobia/trastorno de pánico (nivel L2) cuentan con evidencia publicada. Merecen una evaluación aparte, ya que la reboxetina ya se usa como antidepresivo.
+### Otras predicciones del modelo (breve contexto)
+
+| Prediccion | Puntaje | Nivel | Valoracion |
+|------|------|------|------|
+| Distimia (trastorno distimico) | 99.87% | L3 | Evidencia indirecta; metaanalisis de antidepresivos en distimia (no especifico de reboxetina) y estudios pequeños de reboxetina; candidata de investigacion |
+| Melancolia | 99.74% | L4 | Relabeling de la indicacion existente; evidencia general en depresion |
+| Depresion neurotica | 99.74% | L4 | Termino antiguo solapado con distimia; sin evidencia especifica |
+| Trastorno neurotico | 99.66% | L5 | Categoria obsoleta; solo prediccion |
+| Torticolis paroxistico benigno de la infancia, sindrome de Ohdo y variantes, sindrome de blefarofimosis-discapacidad intelectual tipo Ohdo, sindrome de Keppen-Lubinsky, conjuntivitis leñosa | 99.40%–99.92% | L5 | Sin vinculo mecanistico plausible ni evidencia; probablemente artefactos del grafo |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,15 +2,15 @@
 layout: default
 title: Brivaracetam
 parent: Evidencia moderada (L3-L4)
-nav_order: 81
-evidence_level: L4
+nav_order: 114
+evidence_level: L3
 indication_count: 10
 ---
 
 # Brivaracetam
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,107 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Brivaracetam: De Crisis Epilépticas Focales a Epilepsia Visual
+# Brivaracetam: De Epilepsia Parcial a Estado Epiléptico
 
 ## Resumen en Una Frase
 
-Brivaracetam es un antiepiléptico que se une con alta afinidad a la proteína de vesícula sináptica 2A (SV2A) y está aprobado para crisis de inicio focal. El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, pero hoy no hay **ningún ensayo clínico** y solo **19 publicaciones** de epilepsia en general, casi todas indirectas para esta indicación.
+Brivaracetam es un antiepiléptico ligando de alta afinidad de la proteína de vesícula sináptica 2A (SV2A), utilizado originalmente para el tratamiento de la epilepsia parcial (crisis de inicio focal).
+El modelo TxGNN predice que podría ser efectivo para **estado epiléptico**, con **1 ensayo clínico** (completado, fase no aplicable, sin resultados disponibles) y **18 publicaciones** que respaldan esta dirección de forma mayoritariamente observacional.
+
+> Nota: la primera predicción por puntaje (epilepsia visual, 99,51 %) carece de ensayos y literatura específica (nivel L4, solo pregunta de investigación). Este informe se centra en el estado epiléptico, la predicción con mayor respaldo de evidencia entre las 10 candidatas (nivel L3, 99,40 %).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Crisis epilépticas de inicio focal (según la literatura; los registros de autorización no incluyen el texto de indicación) |
-| Nueva Indicación Predicha | Epilepsia visual (visual epilepsy) |
-| Puntaje de Predicción TxGNN | 99.51% |
-| Nivel de Evidencia | L4 |
+| Indicación Original | Epilepsia parcial / epilepsia motora parcial (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Estado epiléptico |
+| Puntaje de Predicción TxGNN | 99,40 % |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Brivaracetam es un análogo propilo del levetiracetam. Se une a SV2A con una afinidad 15 a 30 veces mayor que este y atraviesa con rapidez la barrera hematoencefálica. Al modular SV2A reduce la liberación de neurotransmisores y la hiperexcitabilidad neuronal, un mecanismo general contra las crisis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la literatura recuperada, brivaracetam es un ligando selectivo de alta afinidad de SV2A (entre 15 y 30 veces mayor afinidad que levetiracetam), análogo propílico de este. La modulación de SV2A reduce la liberación de neurotransmisores desde las vesículas sinápticas y la hiperexcitabilidad neuronal.
 
-La epilepsia visual pertenece al grupo de las epilepsias reflejas, en las que estímulos visuales desencadenan las crisis. Es razonable pensar que un fármaco que frena la hiperexcitabilidad neuronal también actúe aquí. Los modelos de fotosensibilidad, que miden la respuesta fotoparoxística en el EEG, apuntan en esa dirección (por ejemplo, PMID 36528008).
+Su eficacia en crisis focales está establecida, y la epilepsia focal y el estado epiléptico comparten la base de hiperexcitabilidad que no se autolimita. Además, brivaracetam penetra rápidamente en el cerebro y existe formulación intravenosa de inicio de acción rápido, lo que lo hace atractivo como fármaco de segunda o tercera línea en urgencias.
 
-Esa evidencia es **indirecta**. La literatura recuperada para esta indicación trata sobre epilepsia general, estado epiléptico y seguridad. No hay estudios de brivaracetam en epilepsia visual como tal, así que la relación sigue siendo una hipótesis.
+El respaldo actual proviene sobre todo de revisiones sistemáticas, registros multicéntricos y estudios retrospectivos, no de ensayos controlados. Por ello la evidencia se clasifica como L3.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | No aplica | Completado | 152 | Comparación directa de brivaracetam intravenoso frente a levetiracetam en estado epiléptico pediátrico (enero–agosto 2025). Resultados no disponibles. |
+
+---
 
 ## Evidencia de Literatura
 
-Se recuperaron 19 publicaciones. La tabla muestra las 10 más relevantes; ninguna estudia epilepsia visual de forma específica.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | ECA (Fase III) | Epilepsia Open | Brivaracetam adyuvante frente a placebo en adultos asiáticos con crisis focales no controladas: evalúa eficacia, seguridad y tolerabilidad |
-| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Revisión sistemática y metaanálisis | Frontiers in Neurology | Eficacia y seguridad de brivaracetam en epilepsia infantil |
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Revisión narrativa | Advances in Therapy | Perfil preclínico y beneficios clínicos; afinidad por SV2A 15 a 30 veces mayor que levetiracetam |
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Revisión | Journal of Epilepsy Research | Farmacología, eficacia y seguridad; aprobado como terapia adyuvante y monoterapia en crisis de inicio focal |
-| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Revisión | Expert Review of Neurotherapeutics | Eficacia y tolerabilidad en epilepsia focal, con datos de ensayos y de uso posterior a la comercialización |
-| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Análisis agrupado de seguridad | Epilepsy & Behavior | Análisis detallado de seguridad de brivaracetam adyuvante en crisis focales |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Revisión | Neuropharmacology | Mecanismos de acción de los fármacos antiepilépticos de uso actual |
-| [26664121](https://pubmed.ncbi.nlm.nih.gov/26664121/) | 2015 | Revisión | Neuropsychiatric Disease and Treatment | Perfil de brivaracetam como ligando de SV2A, 10 a 30 veces más potente que levetiracetam |
-| [38205459](https://pubmed.ncbi.nlm.nih.gov/38205459/) | 2023 | Observacional prospectivo | Cureus | Eficacia y seguridad en condiciones reales en personas con epilepsia |
-| [40069539](https://pubmed.ncbi.nlm.nih.gov/40069539/) | 2025 | Observacional multicéntrico | Neurology and Therapy | Efectividad de brivaracetam adyuvante en epilepsia con discapacidad intelectual (red italiana BRIVAFIRST) |
+| [31342405](https://pubmed.ncbi.nlm.nih.gov/31342405/) | 2019 | Revisión sistemática | CNS Drugs | Revisión del brivaracetam intravenoso en estado epiléptico; su perfil lo hace potencialmente idóneo en urgencias |
+| [32822230](https://pubmed.ncbi.nlm.nih.gov/32822230/) | 2020 | Revisión | Epilepsy Currents | Revisión de la American Epilepsy Society sobre fármacos parenterales de tercera línea en estado epiléptico convulsivo refractario |
+| [26891946](https://pubmed.ncbi.nlm.nih.gov/26891946/) | 2016 | Revisión | Expert Rev Clin Pharmacol | Brivaracetam en epilepsias focales, generalizadas idiopáticas y estado epiléptico |
+| [30473267](https://pubmed.ncbi.nlm.nih.gov/30473267/) | 2019 | Revisión | Seizure | Fármacos nuevos y politerapia temprana en estado epiléptico |
+| [31260101](https://pubmed.ncbi.nlm.nih.gov/31260101/) | 2019 | Registro multicéntrico | Epilepsia | Uso de brivaracetam intravenoso en estado epiléptico |
+| [33561784](https://pubmed.ncbi.nlm.nih.gov/33561784/) | 2021 | Estudio retrospectivo multicéntrico | Seizure | Uso, efectividad y eventos adversos del brivaracetam intravenoso en Italia |
+| [30043427](https://pubmed.ncbi.nlm.nih.gov/30043427/) | 2018 | Estudio retrospectivo | Epilepsia | Respuesta al tratamiento y efectos adversos en un centro único |
+| [30530123](https://pubmed.ncbi.nlm.nih.gov/30530123/) | 2019 | Estudio retrospectivo | Epilepsy Research | Correlación entre dosis de carga, niveles plasmáticos y respuesta clínica |
+| [41043236](https://pubmed.ncbi.nlm.nih.gov/41043236/) | 2025 | Estudio multicéntrico en práctica real | Epilepsy & Behavior | Eficacia del cambio de brivaracetam intravenoso a oral tras estado epiléptico |
+| [32480279](https://pubmed.ncbi.nlm.nih.gov/32480279/) | 2020 | Reporte de caso | Seizure | Brivaracetam en estado epiléptico de ausencia |
+
+---
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones. Los registros no incluyen el texto de indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 90946 | PAUCILEX 50 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorios Combix S.L.U. |
-| 1151073014IP | BRIVIACT 75 MG comprimidos recubiertos con película | Comprimido recubierto con película | UCB Pharma |
-| 90771 | BRIVARACETAM PENSA 75 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Towa Pharmaceutical S.A. |
-| 90760 | BRIVARACETAM DESITIN 10 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Desitin Arzneimittel GmbH |
-| 90494 | BRIVARACETAM STADA 100 MG comprimidos recubiertos con película EFG | Comprimido recubierto con película | Stada Arzneimittel AG |
+| 1151073006 | BRIVIACT 25 mg comprimidos recubiertos con película (UCB Pharma) | Comprimido recubierto con película | No disponible en los datos |
+| 1151073014 | BRIVIACT 75 mg comprimidos recubiertos con película (UCB Pharma) | Comprimido recubierto con película | No disponible en los datos |
+| 151073018IP | BRIVIACT 100 mg comprimidos recubiertos con película (UCB Pharma) | Comprimido recubierto con película | No disponible en los datos |
+| 90494 | Brivaracetam Stada 100 mg EFG | Comprimido recubierto con película | No disponible en los datos |
+| 90431 | Brivaracetam Cinfa 75 mg EFG | Comprimido recubierto con película | No disponible en los datos |
+
+En total hay 20 autorizaciones vigentes, todas de fármaco único (incluye marca original y genéricos EFG).
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas**: se identificaron 69 interacciones. Entre las listadas, las de nivel **moderado** incluyen morfina (también liposomal), opio, dronabinol, nabilona, metoclopramida, sibutramina, difenoxina, difenoxilato, etanol, prometazina y clopidogrel (efectos aditivos sobre el sistema nervioso central en varios casos). Las de nivel **leve** incluyen clorpropamida, tolbutamida, cilostazol y los inhibidores de la bomba de protones (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol).
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La predicción es mecanísticamente plausible, pero no hay ensayos clínicos ni estudios directos en epilepsia visual. La evidencia disponible es indirecta (epilepsia general y modelos de fotosensibilidad), por lo que el nivel es L4. Como comparación, dentro de las mismas predicciones, el **estado epiléptico** (posición 2) tiene más respaldo: nivel L3, una revisión sistemática de brivaracetam intravenoso y un ensayo pediátrico completado sin resultados disponibles.
+Brivaracetam está comercializado en España con un perfil de seguridad conocido, y existe una revisión sistemática, registros y estudios retrospectivos que respaldan el uso intravenoso en estado epiléptico. Sin embargo, el único ensayo registrado es de fase no aplicable y sin resultados, por lo que la evidencia no alcanza L1/L2.
 
 **Para avanzar se necesita:**
-- Estudios de brivaracetam en epilepsia fotosensible o refleja visual (por ejemplo, con el modelo de respuesta fotoparoxística en EEG) y series de casos en esta población.
-- Ficha técnica de la AEMPS con advertencias, contraindicaciones e interacciones, que hoy no están disponibles.
-- Datos detallados del mecanismo de acción en DrugBank para completar el análisis mecanístico.
-- Revisión por un especialista en epilepsia para decidir si la hipótesis merece un estudio exploratorio.
+- Obtener y analizar los resultados del ensayo NCT07163572 y verificar su diseño.
+- Ensayos controlados aleatorizados de fase 2/3 con brivaracetam intravenoso en estado epiléptico (adultos y población pediátrica).
+- Revisar el prospecto de AEMPS para completar advertencias y contraindicaciones, y confirmar la indicación y la vía intravenosa autorizadas en España (los datos disponibles solo muestran comprimidos orales).
+- Datos detallados del mecanismo de acción desde DrugBank.
+- Plan de monitoreo de seguridad y de interacciones con depresores del sistema nervioso central.
+
+**Otras predicciones (resumen):**
+- *Epilepsia visual* (99,51 %, L4): solo literatura general e indirecta; pregunta de investigación.
+- *Crisis audiogénicas* (99,19 %, L4): únicamente evidencia preclínica en animales.
+- *Crisis inducidas por micción, por pensamiento, por orgasmo, por alimentación, epilepsia por sobresalto, epilepsia autosómica dominante con rasgos auditivos* (L5): sin ensayos ni literatura específica; Hold.
+- *Deficiencia de beta-cetotiolasa* (99,14 %, L5): probable artefacto del grafo; el mecanismo no guarda relación con SV2A; Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

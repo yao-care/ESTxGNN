@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Latanoprost
-parent: Evidencia alta (L1-L2)
-nav_order: 307
-evidence_level: L2
+parent: Solo predicción del modelo (L5)
+nav_order: 456
+evidence_level: L5
 indication_count: 10
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,70 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Latanoprost es un análogo de la prostaglandina F2-alfa que se usa en colirio para reducir la presión intraocular en el glaucoma de ángulo abierto y la hipertensión ocular. El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**. Actualmente lo respalda **1 ensayo clínico** de Fase 2 (con una combinación de fármacos) y **ninguna publicación** en los datos suministrados.
-
----
+Latanoprost es un análogo de la prostaglandina F2-alfa, utilizado originalmente para tratar el glaucoma de ángulo abierto y la hipertensión ocular.
+El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS suministrados. La indicación conocida del fármaco es glaucoma de ángulo abierto e hipertensión ocular |
+| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de conocimiento; los textos de las autorizaciones no incluyen indicación) |
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99,88% |
-| Nivel de Evidencia | L2 |
+| Puntaje de Predicción TxGNN | 99.88% |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular al aumentar el drenaje del humor acuoso por la vía uveoescleral. Su eficacia en el glaucoma del adulto está establecida, y mecanísticamente podría ser aplicable a otras formas de glaucoma.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular al aumentar el drenaje uveoescleral del humor acuoso.
 
-La relación entre ambas indicaciones es coherente en el objetivo biológico: en los dos casos se busca bajar la presión intraocular. Sin embargo, el glaucoma hereditario (congénito o juvenil) implica defectos del desarrollo en las vías de drenaje. Los análogos de prostaglandinas suelen responder de forma menos consistente en ese contexto, por lo que **la eficacia no puede extrapolarse** de la indicación del adulto.
+El glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario) cursa con presión intraocular elevada, por lo que el mecanismo es biológicamente plausible. Sin embargo, esta indicación es muy cercana a la original (glaucoma de ángulo abierto), de modo que el puntaje alto probablemente refleja el solapamiento con la indicación ya aprobada y **no constituye una señal genuina de reposicionamiento**.
 
-El único ensayo disponible apoya la hipótesis de forma directa, pero no definitiva (véase la sección siguiente).
-
----
+Cabe señalar que el grafo de conocimiento no aporta evidencia clínica adicional para esta indicación, y la respuesta en formas hereditarias pediátricas podría diferir de la observada en adultos.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Fase 2 | Completado | 37 | Evalúa el efecto hipotensor ocular de latanoprost y dorzolamida en glaucoma pediátrico primario refractario a cirugía, además de su seguridad. El protocolo se enmendó y redujo el objetivo de 96 a 68 ojos. Periodo: 07/2009 a 11/2016 |
-
-**Limitaciones:** el diseño combina un análogo de prostaglandina con un inhibidor de la anhidrasa carbónica, por lo que es difícil aislar el efecto propio de latanoprost. Tampoco se puede confirmar el diseño de aleatorización. Se considera evidencia directa pero no definitiva (grado B).
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
+
+Se listan 5 de las 20 autorizaciones vigentes (todas de un solo principio activo, colirios):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20130076 | Monoprost 50 microgramos/ml colirio en solución en envase unidosis (Laboratoires Thea) | Colirio en solución | No especificada en los datos suministrados |
-| 76616 | Monoprost 50 microgramos/ml colirio en solución en envase unidosis (Laboratoires Thea) | Colirio en solución | No especificada en los datos suministrados |
-| 82878 | Monoprost 50 microgramos/ml colirio en solución (Laboratoires Thea) | Colirio en solución | No especificada en los datos suministrados |
-| 89747 | Latanoprost Yonsung 50 microgramos/ml colirio en solución en envase unidosis (Yonsung GmbH) | Colirio en solución en envase unidosis | No especificada en los datos suministrados |
-| 89695 | Latanoprost Stada Farma 50 microgramos/ml colirio en solución en envase unidosis (Laboratorio Stada S.L.) | Colirio en solución en envase unidosis | No especificada en los datos suministrados |
-
-Se muestran 5 de las 20 autorizaciones.
-
----
+| 20130076 | Monoprost 50 microgramos/ml colirio en solución en envase unidosis (Laboratoires Thea) | Colirio en solución | No disponible en los datos |
+| 76616 | Monoprost 50 microgramos/ml colirio en solución en envase unidosis (Laboratoires Thea) | Colirio en solución | No disponible en los datos |
+| 89747 | Latanoprost Yonsung 50 microgramos/ml (Yonsung GmbH) | Colirio en solución en envase unidosis | No disponible en los datos |
+| 73959 | Latanoprost Cinfa 50 microgramos/ml (Laboratorios Cinfa) | Colirio en solución | No disponible en los datos |
+| 1231763001 | Catiolanze 50 microgramos/ml (Santen Oy) | Colirio en emulsión | No disponible en los datos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades con relación de contraindicación en el grafo de conocimiento** (no proviene del texto del prospecto): uveítis, enfermedad del iris, enfermedad del cuerpo ciliar, panuveítis, edema macular retiniano, edema macular quístico, iritis y conjuntivitis (incluida la conjuntivitis contagiosa aguda).
+- **Interacciones farmacológicas**: se identificaron 100 interacciones potenciales, todas con nivel de gravedad "desconocido" (fuente: DDInter). Entre las primeras figuran calcitriol, glimepirida, doxiciclina, clotrimazol, lansoprazol, cimetidina, atropina, pantoprazol, mesalazina y acarbosa. Sin clasificación de gravedad, su relevancia clínica no puede valorarse.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Hay un ensayo de Fase 2 completado con apoyo directo pero limitado (n=37, combinación de fármacos, diseño no confirmado), sin literatura de respaldo. Además, faltan los datos de seguridad del prospecto de AEMPS, que constituyen una brecha bloqueante para pasar al cribado de seguridad.
-
-Las otras 9 predicciones (calcifilaxis visceral, hipotricosis, síndromes del desfiladero torácico, angiodisplasia gástrica, síndrome del dedo azul, linfangiectasia) tienen nivel L5. No cuentan con ensayos ni literatura, y su vínculo mecanístico es débil o inexistente. Solo la hipotricosis tiene una justificación plausible (efecto de las prostaglandinas sobre el crecimiento del pelo), que requeriría una revisión bibliográfica dirigida.
+La predicción se apoya únicamente en el modelo (nivel L5, sin ensayos ni literatura) y la indicación es prácticamente una extensión de la ya aprobada, por lo que no aporta un reposicionamiento real. Además, falta información de seguridad del prospecto, lo que impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es el requisito bloqueante.
-- Obtener el protocolo y los resultados completos de NCT01527682, para confirmar si latanoprost fue el análogo utilizado, la población y el diseño.
-- Realizar una búsqueda bibliográfica específica sobre latanoprost en glaucoma pediátrico o congénito, dado que no hay publicaciones en el paquete.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Evaluar la seguridad y la respuesta esperada en población pediátrica y en defectos del desarrollo del drenaje.
-
-*Estos resultados son solo para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener las advertencias y contraindicaciones del prospecto de AEMPS (descargar y analizar el PDF)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Revisar la literatura y los registros de ensayos sobre latanoprost en glaucoma congénito/hereditario, especialmente en población pediátrica
+- Evaluar la relevancia clínica de las interacciones, hoy sin clasificar
+- Considerar, entre los candidatos de la lista, la hipotricosis del cuero cabelludo (mecanismo plausible similar a bimatoprost en pestañas) como línea de investigación más prometedora desde el punto de vista del reposicionamiento
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

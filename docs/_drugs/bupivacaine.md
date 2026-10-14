@@ -2,7 +2,7 @@
 layout: default
 title: Bupivacaine
 parent: Solo predicción del modelo (L5)
-nav_order: 88
+nav_order: 124
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,19 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Bupivacaína: De Anestesia Local a Acrodermatitis Crónica Atrófica
+# Bupivacaína: De Dermatitis a Acrodermatitis Crónica Atrófica
 
 ## Resumen en Una Frase
 
-Bupivacaína es un anestésico local de tipo amida, utilizado originalmente para bloqueos nerviosos y el control del dolor postoperatorio.
+Bupivacaína es un anestésico local de tipo amida, cuya indicación original registrada en el grafo de conocimiento es la dermatitis.
 El modelo TxGNN predice que podría ser efectivo para **acrodermatitis crónica atrófica**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Anestesia local (bloqueo del plexo braquial o del nervio femoral, dolor postoperatorio). Procede de los datos farmacológicos, porque los textos de indicación autorizados están vacíos |
+| Indicación Original | Dermatitis (según el grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
 | Puntaje de Predicción TxGNN | 99.23% |
 | Nivel de Evidencia | L5 |
@@ -51,11 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, bupivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje. Su eficacia como anestésico local está comprobada. Sin embargo, mecanísticamente **no se identifica un vínculo creíble** con la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, bupivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje. Los datos farmacológicos compilados también muestran interacción con canales de potasio (Kir3.2, Kv1.5, Kv4.3) y con el canal de sodio cardíaco Nav1.5. No se encontraron datos públicos de afinidad que confirmen plenamente su mecanismo en canales de sodio humanos.
 
-La acrodermatitis crónica atrófica es una manifestación cutánea tardía de la infección por *Borrelia* (borreliosis de Lyme) y se trata con antibióticos. Un bloqueador de canales de sodio no tiene efecto antimicrobiano ni antiinflamatorio conocido sobre esta enfermedad. A lo sumo podría dar alivio sintomático del dolor neuropático, lo que no modifica el curso de la enfermedad.
+La acrodermatitis crónica atrófica es la manifestación cutánea tardía de la infección por *Borrelia* (borreliosis de Lyme) y se trata con antibióticos. Un anestésico local no tiene acción antimicrobiana ni modificadora de la enfermedad conocida en este contexto.
 
-El puntaje alto (99.23%) proviene de una predicción basada en grafos, sin datos clínicos que la respalden. Las otras tres predicciones del modelo (dermatomiositis neonatal, dermatomiositis amiopática y enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo) tienen puntajes similares y tampoco tienen evidencia. Es probable que compartan un mismo artefacto de vecindad en el grafo y no constituyan señales independientes.
+La puntuación alta de TxGNN (0.992) parece derivarse de la proximidad en el grafo con el nodo «dermatitis», no de una base biológica. **No se establece un vínculo mecanístico creíble**, por lo que la predicción debe considerarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,37 +67,46 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 10 autorizaciones. Los textos de indicación aprobada no están disponibles en los datos recibidos.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 57109 | BUPIVACAINA PHYSAN 2,5 MG/ML SOLUCION INYECTABLE | Solución inyectable | No disponible |
-| 58023 | BUPIVACAINA PHYSAN 7,5 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
-| 81695 | BUPIVACAINA ACCORD 2,5 MG/ML SOLUCION INYECTABLE EFG | Solución inyectable | No disponible |
-| 81696 | BUPIVACAINA ACCORD 5 MG/ML SOLUCION INYECTABLE EFG | Solución inyectable | No disponible |
-| 62412 | BUPIVACAINA B.BRAUN 2,5 mg/ml SOLUCION INYECTABLE | Solución inyectable | No disponible |
+| 57109 | Bupivacaína Physan 2,5 mg/ml solución inyectable | Solución inyectable | No disponible |
+| 58023 | Bupivacaína Physan 7,5 mg/ml solución inyectable | Solución inyectable | No disponible |
+| 81695 | Bupivacaína Accord 2,5 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
+| 81696 | Bupivacaína Accord 5 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
+| 62412 | Bupivacaína B. Braun 2,5 mg/ml solución inyectable | Solución inyectable | No disponible |
+
+Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-- **Dianas farmacológicas registradas** (son datos de farmacología, no interacciones con otros fármacos): Nav1.5 (SCN5A, humano), Kv1.5 (KCNA5, humano), Kv4.3 (Kcnd3, ratón) y Kir3.2. Nav1.5 es el canal de sodio cardíaco, lo que concuerda con la cardiotoxicidad conocida de bupivacaína.
-- **Preocupaciones señaladas en la evaluación de las predicciones**:
-  - Bupivacaína es miotóxica a concentraciones altas, lo que es una preocupación teórica en enfermedades inflamatorias del músculo como la dermatomiositis.
-  - En población neonatal, su cardiotoxicidad y sus límites de dosis añaden un riesgo de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no proviene del prospecto)**: el grafo TxGNN asocia bupivacaína con contraindicación en diversas enfermedades, entre ellas: hipertensión, insuficiencia hepática, enfermedad renal, epilepsia, EPOC, insuficiencia respiratoria, infarto de miocardio, enfermedad coronaria, parada cardíaca súbita, enfermedades de la conducción cardíaca, fibrilación auricular, hipotensión, diabetes mellitus, cetoacidosis diabética, hipotiroidismo, glaucoma de ángulo cerrado, hiperplasia prostática benigna, enfermedad inflamatoria intestinal, hemoglobinopatías y abuso o dependencia de sustancias.
+- **Interacciones farmacológicas (datos farmacológicos de dianas)**: se identificaron 4 interacciones con dianas moleculares: Nav1.5 (canal de sodio cardíaco humano), Kv1.5 (humano), Kv4.3 (ratón) y Kir3.2. Son interacciones con dianas, no con otros fármacos, y su relevancia clínica no está cuantificada.
+- **Señales de seguridad específicas de las indicaciones predichas**: la exposición sistémica a bupivacaína conlleva riesgo de cardiotoxicidad y de depresión respiratoria, y se describe miotoxicidad, lo cual preocupa en enfermedades musculares inflamatorias y en población pediátrica.
 
-Para advertencias y contraindicaciones detalladas, consultar el prospecto.
+No se dispone de advertencias ni contraindicaciones del prospecto de la AEMPS; consultar el prospecto para esta información.
+
+## Otras Predicciones Evaluadas
+
+| Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Decisión |
+|------|------|------|------|
+| Dermatomiositis neonatal | 99.15% | L5 | Hold |
+| Enfermedad pulmonar intersticial secundaria infantil asociada a enfermedad del tejido conectivo | 99.11% | L5 | Hold |
+| Dermatomiositis amiopática | 99.03% | L5 | Hold |
+
+Ninguna cuenta con ensayos clínicos ni literatura, y en ninguna se identifica un vínculo mecanístico creíble. Como mucho, bupivacaína podría tener un papel sintomático o procedimental (control del dolor), que no constituye una justificación de reposicionamiento.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni publicaciones (nivel L5), y no se identifica un vínculo mecanístico creíble entre el bloqueo de canales de sodio y una infección por *Borrelia* tratada con antibióticos. El puntaje alto del modelo por sí solo no basta para avanzar.
+La predicción se basa exclusivamente en el modelo TxGNN (nivel L5), sin ensayos clínicos ni literatura, y sin vínculo mecanístico plausible entre un anestésico local y una infección por *Borrelia* con manifestación cutánea crónica.
 
 **Para avanzar se necesita:**
-- Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente no disponibles y bloqueantes para el cribado de seguridad)
-- Datos del mecanismo de acción desde DrugBank
-- Evidencia preclínica o clínica que vincule bupivacaína con la acrodermatitis crónica atrófica, o revisar las otras tres predicciones por si alguna tiene un fundamento biológico
-- Textos de indicación aprobada de las autorizaciones españolas, para confirmar la indicación original
+- Obtener el mecanismo de acción detallado desde DrugBank
+- Descargar y analizar el prospecto de la AEMPS para disponer de advertencias y contraindicaciones oficiales, y de los textos de indicación aprobada
+- Realizar una búsqueda de literatura y de registros de ensayos que confirmen o descarten cualquier asociación
+- Si se persiguiera algún uso, evaluar la compatibilidad de vías de administración (hoy solo hay solución inyectable) y el perfil de seguridad cardíaca y respiratoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

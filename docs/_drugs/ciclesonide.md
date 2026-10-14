@@ -2,7 +2,7 @@
 layout: default
 title: Ciclesonide
 parent: Solo predicción del modelo (L5)
-nav_order: 125
+nav_order: 178
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,84 +29,77 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Ciclesonida: De Asma Persistente a Eccema Atópico
+# Ciclesonida: De Asma a Eccema Atópico
 
 ## Resumen en Una Frase
 
-Ciclesonida es un corticosteroide inhalado que se usa para tratar enfermedades inflamatorias y obstructivas de las vías respiratorias, como el asma persistente. El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero **no hay ensayos clínicos ni publicaciones** específicos de ciclesonida que respalden esta dirección. La predicción se basa solo en el modelo y en el efecto de clase de los corticosteroides.
-
----
+Ciclesonida es un corticosteroide inhalado (profármaco) utilizado originalmente para el tratamiento del asma y de la rinitis alérgica.
+El modelo TxGNN predice que podría ser efectivo para **eccema atópico**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma persistente (según la farmacología del ligando; las autorizaciones españolas no incluyen texto de indicación) |
+| Indicación Original | Asma (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 99,96% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Ciclesonida es un agonista del receptor de glucocorticoides (NR3C1). Es un profármaco inhalado: las esterasas del pulmón lo convierten en su metabolito activo, desisobutirilciclesonida. Este metabolito tiene mucha más afinidad por el receptor que el fármaco original (IC50 de 1,75 nM frente a 210 nM). La activación del receptor produce un efecto antiinflamatorio e inmunosupresor amplio.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información conocida, ciclesonida es un glucocorticoide inhalado que se administra como profármaco y es activado por esterasas a desisobutiril-ciclesonida (des-ciclesonida). Esta forma activa se une al receptor de glucocorticoides (NR3C1) con una afinidad mucho mayor que el fármaco original (IC50 de 1,75 nM frente a 210 nM).
 
-Los corticosteroides son una clase establecida para el eccema atópico, y de ahí viene el puntaje alto del modelo. Es una predicción a nivel de clase dentro del grafo de conocimiento, no un hallazgo específico de ciclesonida. Además, el término "dermatitis atópica" (puntaje 99.73%) es sinónimo de "eccema atópico" y debe fusionarse con él para no contar la señal dos veces.
+El asma alérgica y la rinitis alérgica comparten con el eccema atópico un trasfondo inflamatorio de tipo Th2. Como la acción antiinflamatoria mediada por el receptor de glucocorticoides es relevante en la inflamación cutánea atópica, existe una justificación mecanística plausible.
 
-Hay una limitación importante. No está establecido si ciclesonida se activa en la piel, cuánta exposición dérmica alcanzaría ni qué vía o dosis serían adecuadas (tópica o sistémica). Se diseñó como profármaco para activarse en el pulmón, por lo que su comportamiento en piel es incierto.
-
----
+Sin embargo, esta justificación es de clase (los corticosteroides tópicos están establecidos en dermatitis atópica) y no constituye evidencia específica de ciclesonida. La vía de administración (tópica o sistémica) y la seguridad de la exposición cutánea no están caracterizadas para este fármaco. Otras entradas predichas con puntajes altos incluyen la dermatitis atópica (entrada sinónima, 99,73%), la sensibilización al metacrilato de 2-hidroxietilo (99,76%), la bronquitis (99,70%) y la dermatitis de contacto (99,25%); todas ellas también carecen de ensayos clínicos.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para eccema atópico.
 
----
+Como referencia de indicaciones alternativas predichas, se identificó la siguiente literatura indirecta:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guía/Revisión | Basic & Clinical Pharmacology & Toxicology | Guía finlandesa sobre diagnóstico y farmacoterapia de la EPOC estable; contexto indirecto del uso de corticosteroides inhalados (bronquitis) |
+| [22957490](https://pubmed.ncbi.nlm.nih.gov/22957490/) | 2012 | Reporte de caso | Contact Dermatitis | Dermatitis alérgica sistémica por budesonida inhalada con reactividad cruzada en pruebas epicutáneas con ciclesonida (señal de seguridad) |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 70372 | ALVESCO 160 microgramos/INHALACIÓN solución para inhalación en envase a presión (Covis Pharma Europe B.V.) | Solución para inhalación en envase a presión |
-| 05-0019 | ALVESCO 160 microgramos/INHALACIÓN solución para inhalación en envase a presión (Takeda GmbH) | Solución para inhalación en envase a presión |
-
-Los registros no incluyen texto de indicación aprobada. Solo existe la presentación inhalada, sin formulación tópica.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 70372 | ALVESCO 160 microgramos/inhalación (Covis Pharma Europe B.V.) | Solución para inhalación en envase a presión | No disponible |
+| 05-0019 | ALVESCO 160 microgramos/inhalación (Takeda GmbH) | Solución para inhalación en envase a presión | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Señal de sensibilización cruzada**: un informe de caso (PMID 22957490, 2012) describe una dermatitis alérgica sistémica causada por budesonida inhalada, con reactividad cruzada en pruebas de parche con ciclesonida. No es evidencia de eficacia. Indica que un corticosteroide puede causar dermatitis y que existe posible sensibilización cruzada, algo relevante para cualquier uso dermatológico.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto del prospecto): queratitis por virus del herpes simple, insuficiencia suprarrenal, enfermedad de Addison, osteoporosis (incluida la posmenopáusica), infecciones fúngicas, dermatofitosis, hipertensión ocular, glaucoma e infecciones parasitarias.
+- **Interacciones farmacológicas**: solo se identificó su acción farmacológica sobre el receptor de glucocorticoides (diana principal); no hay interacciones con otros fármacos con nivel de gravedad definido.
+- **Señal de sensibilización**: un reporte de caso describe reactividad cruzada entre budesonida y ciclesonida en pruebas epicutáneas, lo que sugiere un posible riesgo de alergia de contacto dentro de la clase.
 
 Para el resto de la información de seguridad, consultar el prospecto.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5: solo el modelo, sin ensayos ni literatura de ciclesonida en eccema atópico. El puntaje alto refleja el efecto de clase de los corticosteroides, y la vía de administración para piel no está validada. Existen alternativas corticosteroides ya establecidas y optimizadas para uso cutáneo.
+La predicción del modelo es muy alta (99,96%), pero no existe ningún ensayo clínico ni publicación que la respalde (nivel L5). Además, no se ha definido la vía de administración necesaria, y la única señal indirecta de la literatura sobre piel apunta a un riesgo de sensibilización.
 
 **Para avanzar se necesita:**
-- Confirmar las indicaciones aprobadas y la información de seguridad en la ficha técnica de la AEMPS.
-- Revisar si ciclesonida se activa en la piel y qué exposición dérmica alcanzaría.
-- Buscar estudios preclínicos o clínicos de ciclesonida en dermatitis atópica.
-- Definir la vía y la formulación viables (tópica frente a sistémica).
-- Evaluar el riesgo de sensibilización cruzada entre corticosteroides.
-
-**Otras predicciones del modelo (no seleccionadas como principal):** bronquitis y dermatitis de contacto tienen solo evidencia indirecta (una guía de EPOC y un informe de caso de seguridad, respectivamente). "Sensibilización a metacrilato de 2-hidroxietilo" y "rasgos de susceptibilidad al asma" no son indicaciones tratables. Esta última probablemente refleja el uso ya conocido del fármaco en asma.
+- Obtener el prospecto de la AEMPS para completar advertencias y contraindicaciones.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Evaluar la compatibilidad de la vía de administración (la presentación comercializada es solo inhalatoria; el eccema requeriría formulación tópica o sistémica).
+- Realizar una búsqueda sistemática de literatura preclínica y clínica sobre ciclesonida en dermatitis atópica.
+- Caracterizar la seguridad de la exposición cutánea y el riesgo de sensibilización por reactividad cruzada.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

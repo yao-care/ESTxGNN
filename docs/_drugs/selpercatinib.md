@@ -2,7 +2,7 @@
 layout: default
 title: Selpercatinib
 parent: Solo predicción del modelo (L5)
-nav_order: 488
+nav_order: 730
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,20 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Selpercatinib: De Tumores con Alteraciones de RET a Hipertensión Pulmonar
+# Selpercatinib: De Indicación Original No Especificada a Hipertensión Pulmonar
 
 ## Resumen en Una Frase
 
-Selpercatinib es un inhibidor selectivo de la quinasa RET, comercializado en España como Retsevmo. La literatura aportada lo sitúa en cáncer de pulmón no microcítico con fusión de RET y carcinoma medular de tiroides; los datos de autorización no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero actualmente hay **0 ensayos clínicos** y **3 publicaciones**, ninguna de ellas sobre esta enfermedad.
-
----
+Selpercatinib es un inhibidor selectivo de la quinasa RET, comercializado en España con el nombre Retsevmo. Los datos compilados para este informe no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero actualmente hay **0 ensayos clínicos** y **ninguna publicación que estudie esta indicación** (las 3 publicaciones recuperadas tratan sobre cánceres con alteraciones de RET y perfiles de eventos adversos).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las 4 autorizaciones están vacíos) |
+| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
 | Puntaje de Predicción TxGNN | 99.18% |
 | Nivel de Evidencia | L5 |
@@ -50,81 +48,68 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, selpercatinib es un inhibidor selectivo de la quinasa RET, y la literatura aportada describe su uso en tumores con alteraciones de RET. Con los datos suministrados no se puede evaluar más a fondo la plausibilidad mecanística.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, selpercatinib es un inhibidor selectivo de la quinasa RET, y las publicaciones recuperadas lo sitúan en el tratamiento de cánceres con alteraciones de RET (cáncer de pulmón no microcítico con fusión de RET y carcinoma medular de tiroides).
 
-No se ha documentado un vínculo entre RET y la remodelación vascular pulmonar. El puntaje alto de TxGNN (0.992) proviene solo de la proximidad en el grafo de conocimiento, no de estudios reales. Además, la hipertensión sistémica es un efecto adverso conocido del fármaco, lo que no respalda un beneficio en hipertensión pulmonar.
+El puntaje de TxGNN es muy alto (0.992), pero se basa únicamente en asociaciones dentro de un grafo de conocimiento. Un posible vínculo hipotético sería la modulación de la señalización de receptores tirosina quinasa implicada en la remodelación vascular pulmonar, pero ningún dato respalda directamente esta idea.
 
-En conjunto, esta predicción debe considerarse una hipótesis sin respaldo experimental o clínico.
-
----
+Ninguna de las publicaciones recuperadas estudia la hipertensión pulmonar como indicación terapéutica. Cualquier señal de hipertensión pulmonar en el estudio de farmacovigilancia sería una observación de seguridad, no terapéutica. Por tanto, el vínculo mecanístico no está respaldado.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Ninguna publicación aborda la hipertensión pulmonar. Son estudios sobre el fármaco en su contexto oncológico o de seguridad.
+Las siguientes publicaciones fueron recuperadas, pero ninguna evalúa la hipertensión pulmonar como indicación:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Cohorte retrospectiva | Ther Adv Med Oncol | Análisis retrospectivo (SIREN) de pacientes con CPNM con fusión de RET tratados con selpercatinib en un programa de acceso. Evalúa su eficacia en la práctica real. |
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Estudio de farmacovigilancia | Front Pharmacol | Compara los eventos adversos de pralsetinib y selpercatinib con datos reales del sistema FAERS. |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Reporte de caso | Cureus | Carcinoma medular de tiroides metastásico en MEN 2B con mutación RET M918T. Describe los retos del tratamiento dirigido a largo plazo. |
-
----
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Cohorte retrospectiva | Therapeutic Advances in Medical Oncology | Análisis retrospectivo (SIREN) de selpercatinib en cáncer de pulmón no microcítico con fusión de RET, tratado mediante un programa de acceso |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Estudio de farmacovigilancia | Frontiers in Pharmacology | Comparación de los eventos adversos de pralsetinib y selpercatinib con datos reales del sistema FAERS |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Reporte de caso | Cureus | Carcinoma medular de tiroides metastásico en MEN 2B con mutación RET M918T: desafíos del manejo a largo plazo y la terapia dirigida |
 
 ## Información de Mercado en España
 
-Los datos de autorización no incluyen el texto de la indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1201527016 | RETSEVMO 80 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1201527001 | RETSEVMO 40 mg cápsulas duras | Cápsula dura |
-| 1201527002 | RETSEVMO 80 mg cápsulas duras | Cápsula dura |
-| 1201527013 | RETSEVMO 40 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-
-Titular: Eli Lilly Nederland B.V.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1201527016 | RETSEVMO 80 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 1201527001 | RETSEVMO 40 mg cápsulas duras | Cápsula dura | No disponible |
+| 1201527002 | RETSEVMO 80 mg cápsulas duras | Cápsula dura | No disponible |
+| 1201527013 | RETSEVMO 40 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de quinasa RET), no citotóxico convencional |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de quinasa RET) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
----
-
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: La consulta identificó 100 interacciones. Entre las principales:
+  - **Gravedad Mayor**: famotidina, ranitidina, rabeprazol, omeprazol, dexlansoprazol y cimetidina (fármacos que reducen la acidez gástrica), aprepitant, dexametasona, claritromicina y óxido de magnesio.
+  - **Gravedad Moderada**: hidrocortisona, triamcinolona, betametasona, budesonida, pioglitazona, loperamida, bisacodilo, polietilenglicol 3350 con electrolitos y saxagliptina.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura sobre hipertensión pulmonar. La hipertensión sistémica como efecto adverso conocido va en contra de un posible beneficio. Las otras dos predicciones (migraña y migraña con aura de tronco encefálico, ambas L5 y también Hold) tampoco tienen evidencia y no son independientes entre sí.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que respalden el uso en hipertensión pulmonar. El vínculo mecanístico no está respaldado por los datos disponibles.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones), ya que es un bloqueo para el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Buscar evidencia preclínica que relacione la vía RET con la vasculopatía pulmonar.
-- Evaluar el perfil cardiovascular del fármaco, en especial la hipertensión, antes de considerar cualquier estudio en esta población.
+- Obtener el texto de las indicaciones aprobadas y las advertencias y contraindicaciones del prospecto de la AEMPS
+- Obtener datos del mecanismo de acción (MOA) desde DrugBank
+- Estudios preclínicos que evalúen la inhibición de RET en modelos de hipertensión pulmonar
+- Revisar si la señal de hipertensión pulmonar en los datos de farmacovigilancia corresponde a un riesgo de seguridad
+- Evaluar el riesgo de las interacciones de gravedad mayor, especialmente con fármacos que reducen la acidez gástrica
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

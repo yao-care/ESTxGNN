@@ -2,7 +2,7 @@
 layout: default
 title: Vismodegib
 parent: Solo predicción del modelo (L5)
-nav_order: 564
+nav_order: 854
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vismodegib: De Carcinoma Basocelular Avanzado a Meduloblastoma con Nodularidad Extensa
+# Vismodegib: De Carcinoma Cutáneo a Meduloblastoma con Nodularidad Extensa
 
 ## Resumen en Una Frase
 
-Vismodegib es un inhibidor oral de la vía Hedgehog (bloquea Smoothened, SMO), comercializado como Erivedge para el carcinoma basocelular avanzado.
-El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodularidad extensa**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta indicación concreta: es solo una predicción del modelo.
+Vismodegib es un inhibidor de la vía Hedgehog (bloquea la proteína Smoothened, SMO), utilizado originalmente para tratar el carcinoma basocelular y otros carcinomas cutáneos.
+El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodularidad extensa**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma basocelular localmente avanzado o metastásico (según la literatura; la ficha de AEMPS no incluye texto de indicación) |
+| Indicación Original | Carcinoma cutáneo (carcinoma basocelular). El texto de indicación de la autorización española no está disponible, por lo que se toma de las indicaciones originales del grafo de conocimiento |
 | Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa |
 | Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L5 |
@@ -49,59 +50,79 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Vismodegib inhibe Smoothened (SMO), una proteína clave de la vía Hedgehog. Esta vía está hiperactivada en la mayoría de los carcinomas basocelulares, y por eso el fármaco se usa en esa enfermedad. Actualmente no se dispone de datos detallados del mecanismo de acción en DrugBank para este paquete de evidencia.
+El meduloblastoma con nodularidad extensa suele asociarse al subgrupo molecular SHH. En este subgrupo la activación de la vía Hedgehog, por mutaciones en PTCH1 o SUFU, impulsa el desarrollo del tumor. Vismodegib inhibe SMO, un componente central de esta vía, por lo que existe plausibilidad mecanística, sobre todo en la enfermedad dirigida por PTCH1 o SMO.
 
-El meduloblastoma con nodularidad extensa suele estar impulsado por la vía SHH (Sonic Hedgehog). Por eso, biológicamente, la predicción es plausible: el mismo mecanismo que sustenta el uso en carcinoma basocelular podría aplicarse a este tumor cerebral.
+La indicación original (carcinoma basocelular) comparte con esta nueva indicación la dependencia de la señalización Hedgehog. Por eso el modelo establece la conexión, y el puntaje es muy alto (99.93%).
 
-Hay dos limitaciones importantes:
-- Los tumores con mutaciones por debajo de SMO en la vía (por ejemplo, *SUFU*) probablemente serían resistentes.
-- En pacientes pediátricos habría que revisar la toxicidad sobre el cartílago de crecimiento (fusión epifisaria prematura).
+Hay limitaciones importantes:
+- Los tumores con mutaciones en SUFU actúan por debajo de SMO y se espera que sean resistentes al fármaco.
+- El uso pediátrico preocupa por el riesgo de cierre prematuro de las placas de crecimiento.
+- No se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas, y no hay estudios que respalden esta indicación concreta.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 113848001 | ERIVEDGE 150 MG CAPSULAS DURAS (Roche Registration GmbH) | Cápsula dura | — |
+| 113848001 | ERIVEDGE 150 MG CÁPSULAS DURAS (Roche Registration GmbH) | Cápsula dura | No disponible en los datos compilados |
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de SMO / vía Hedgehog) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de la vía Hedgehog / SMO) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Espasmos musculares, disgeusia y alopecia (efectos descritos para el uso en carcinoma basocelular); resto según el prospecto |
+| Items de Monitoreo | Consultar el prospecto. Los datos compilados señalan como puntos a vigilar la toxicidad embriofetal, los espasmos musculares, la alopecia, la disgeusia y la pérdida de peso |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se registran 56 interacciones. Las 20 disponibles para esta revisión son de gravedad **menor**, salvo una **moderada**:
+  - **Moderada**: claritromicina.
+  - **Menor**: antiácidos y reductores de acidez gástrica, entre ellos famotidina, ranitidina, cimetidina, nizatidina, omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol, hidróxido de aluminio, carbonato de calcio, óxido, carbonato e hidróxido de magnesio, magaldrato, citrato de sodio y bicarbonato de sodio.
+- **Consideraciones específicas de esta indicación**:
+  - Posible cierre prematuro de las placas de crecimiento en población pediátrica, relevante porque el meduloblastoma es frecuente en niños.
+  - Resistencia esperada en tumores con mutaciones en SUFU.
+  - Toxicidad embriofetal (teratogenicidad).
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para meduloblastoma con nodularidad extensa solo existe la predicción del modelo (L5), sin ensayos ni literatura. Además, la seguridad en población pediátrica es una preocupación y la resistencia por mutaciones posteriores a SMO es posible.
-
-Como referencia, la indicación de mayor evidencia entre las predichas es "cáncer de piel" (en la práctica, carcinoma basocelular), con nivel L2 y decisión "Proceed with Guardrails". Corresponde al uso ya comercializado del fármaco.
+La predicción tiene un puntaje alto y una base mecanística plausible en el subgrupo SHH, pero no hay ensayos clínicos ni literatura específica (nivel L5). Además, existen riesgos propios de la indicación: la resistencia en tumores con mutaciones en SUFU y la preocupación por el crecimiento óseo en niños.
 
 **Para avanzar se necesita:**
-- Búsqueda de literatura y ensayos específicos de vismodegib en meduloblastoma SHH.
-- Confirmar el subtipo molecular (SHH, ausencia de mutaciones en *SUFU*) que justificaría el uso.
-- Evaluar la toxicidad en el crecimiento óseo si se considera población pediátrica.
-- Obtener las advertencias y contraindicaciones del prospecto de AEMPS.
-- Completar los datos del mecanismo de acción desde DrugBank.
+- Estudios preclínicos o clínicos que evalúen vismodegib en meduloblastoma del subgrupo SHH, con selección por genotipo (PTCH1/SMO frente a SUFU).
+- Datos detallados del mecanismo de acción y las advertencias y contraindicaciones del prospecto de la AEMPS.
+- Una evaluación de seguridad en población pediátrica, en especial sobre el crecimiento óseo.
+- Un plan de prevención del riesgo embriofetal y de gestión de las interacciones farmacológicas.
+
+**Nota de contexto:** en los datos compilados, otras indicaciones predichas para este fármaco cuentan con más respaldo. El "cáncer de piel" corresponde esencialmente al uso ya aprobado (nivel L1, Proceed with Guardrails). La xeroderma pigmentosum tiene dos reportes de caso del uso de vismodegib para carcinomas basocelulares asociados (nivel L4).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

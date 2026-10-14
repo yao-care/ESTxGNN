@@ -2,7 +2,7 @@
 layout: default
 title: Dutasteride
 parent: Solo predicción del modelo (L5)
-nav_order: 189
+nav_order: 273
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dutasterida: De Hiperplasia Benigna de Próstata a Hipertricosis Universal Congénita Tipo Ambras
+# Dutasterida: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita tipo Ambras
 
 ## Resumen en Una Frase
 
-Dutasterida es un inhibidor dual de la 5-alfa reductasa (tipos 1 y 2) que reduce la dihidrotestosterona (DHT). Su uso original habitual es la hiperplasia benigna de próstata. Este dato no consta en el Evidence Pack ni en el texto de las autorizaciones de la AEMPS, y no está verificado.
-El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal congénita tipo Ambras**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción basada solo en el modelo.
+Dutasterida es un inhibidor dual de la 5-alfa-reductasa (tipos 1 y 2), utilizado originalmente para el tratamiento de la hiperplasia prostática benigna.
+El modelo TxGNN predice que podría ser efectivo para la **hipertricosis universal congénita tipo Ambras**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de autorización de la AEMPS (hiperplasia benigna de próstata según conocimiento general, no verificado) |
+| Indicación Original | Hiperplasia prostática benigna |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.998% |
+| Puntaje de Predicción TxGNN | 99,998% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -50,11 +50,11 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dutasterida inhibe la 5-alfa reductasa tipos 1 y 2, las enzimas que convierten la testosterona en DHT. Al reducir la DHT en los tejidos, también actúa sobre el folículo piloso. Por eso se usa fuera de indicación en la alopecia androgenética.
+Dutasterida inhibe la 5-alfa-reductasa de tipo 1 y 2, enzimas que convierten la testosterona en dihidrotestosterona (DHT). Al reducir la DHT, disminuye el estímulo androgénico sobre la próstata, lo que explica su uso en la hiperplasia prostática benigna. Esa misma vía actúa sobre los folículos pilosos sensibles a andrógenos, por lo que existe una relación a nivel de tejido con el crecimiento del pelo.
 
-El vínculo con el síndrome de Ambras es débil. Este síndrome es un trastorno congénito causado por reordenamientos genómicos en 8q22 que alteran la regulación de *TRPS1*. No es un cuadro principalmente androgénico, y no hay razón mecanística clara para que suprimir la DHT corrija el exceso de vello. El puntaje del modelo es muy alto (0.99998), pero ningún ensayo, publicación o reporte de caso lo respalda.
+Sin embargo, el síndrome de Ambras es una hipertricosis congénita asociada a alteraciones genéticas que afectan a la regulación de TRPS1 y no es principalmente una enfermedad dependiente de andrógenos. Reducir la DHT podría disminuir el vello terminal dependiente de andrógenos en algunas zonas, pero no necesariamente corregiría el fenotipo congénito, de modo que incluso el sentido del efecto es incierto.
 
-Las otras nueve predicciones del modelo tienen la misma limitación. Todas están en L5, salvo "alopecia areata difusa" en L4, y la mayoría en "Hold". La de "hipotricosis simple del cuero cabelludo" figura como "pregunta de investigación", por analogía con la alopecia androgenética. Sigue sin verificarse, porque la causa es genética y no androgénica.
+El puntaje muy alto de TxGNN refleja la proximidad en el grafo de conocimiento, sin datos clínicos que lo respalden. Debe interpretarse con cautela. Los datos compilados para este informe no incluyen información detallada sobre el mecanismo de acción del fármaco.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,36 +62,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal predicha.
 
 ## Información de Mercado en España
 
-Hay 20 autorizaciones en total. Se listan las 5 principales. El texto de indicación aprobada no está disponible en los datos recibidos.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de un único principio activo, en cápsula blanda). Los datos compilados no incluyen el texto de la indicación aprobada.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
+| 65178 | AVIDART 0,5 mg cápsulas blandas | Cápsula blanda | Glaxosmithkline S.A. |
+| 2578701 | AVIDART 0,5 mg cápsulas blandas | Cápsula blanda | Glaxosmithkline A.E.B.E. |
 | 83259 | Dutasterida Tarbis 0,5 mg cápsulas blandas EFG | Cápsula blanda | Tarbis Farma S.L. |
 | 77635 | Dutasterida Ratiopharm 0,5 mg cápsulas blandas EFG | Cápsula blanda | Teva Pharma S.L.U. |
-| 81431 | Dutasterida Sandoz 0,5 mg cápsulas blandas EFG | Cápsula blanda | Sandoz Farmacéutica S.A. |
-| 79750 | Dutasterida Vir 0,5 mg cápsulas blandas EFG | Cápsula blanda | Industria Química y Farmacéutica Vir S.A. |
-| 81153 | Dutasterida Pensa 0,5 mg cápsulas blandas EFG | Cápsula blanda | Towa Pharmaceutical S.A. |
+| 81794 | DUTRYS 0,5 mg cápsulas blandas EFG | Cápsula blanda | Krka D.D. Novo Mesto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones y condiciones de precaución (según el grafo de conocimiento, no según el prospecto)**: atrofia multisistémica, síndrome de taquicardia postural ortostática, hipotensión ortostática, enfermedad hepática, enfermedad de la vesícula biliar, priapismo y síndrome del iris flácido intraoperatorio.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las de nivel moderado destacan aprepitant, cimetidina, claritromicina, clotrimazol y miconazol. Otras (calcitriol, pantoprazol, glimepirida, mesalazina, doxiciclina, morfina, metformina, omeprazol, rosiglitazona, lansoprazol, lactulosa, triamcinolona, prednisona, simvastatina e hidrocortisona) figuran con nivel no clasificado.
+- **Nota adicional**: según el análisis de la predicción, existe una preocupación teratogénica (feminización de fetos masculinos), lo que desaconseja su uso en contextos del desarrollo.
+
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos, literatura ni casos clínicos. El mecanismo de la dutasterida (supresión de DHT) no explica un síndrome genético que no depende de andrógenos, por lo que la predicción parece un artefacto del grafo de conocimiento.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo es débil: el síndrome de Ambras no es una condición dependiente de DHT y el efecto esperado es incierto.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que hoy bloquea el cribado de seguridad.
-- Confirmar la indicación original aprobada en España, que no consta en los datos.
-- Buscar evidencia directa: reportes de caso, estudios preclínicos o datos sobre la vía TRPS1/8q22 y su relación con la señalización androgénica.
-- Priorizar las predicciones con racional androgénico más plausible, como la hipotricosis simple del cuero cabelludo, antes de invertir en esta.
+- Datos detallados del mecanismo de acción (MOA) y un análisis mecanístico específico sobre la vía de TRPS1 y el crecimiento del pelo.
+- Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS.
+- Evidencia preclínica o series de casos que muestren un efecto sobre el fenotipo de hipertricosis.
+- Evaluar alternativas más plausibles con la misma lógica de acción, como hirsutismo (dependiente de andrógenos), y una evaluación de riesgo teratogénico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

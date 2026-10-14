@@ -2,7 +2,7 @@
 layout: default
 title: Iodixanol
 parent: Solo predicción del modelo (L5)
-nav_order: 288
+nav_order: 426
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Iodixanol: De Medio de Contraste Radiológico a Susceptibilidad a la Osteoartritis
+# Iodixanol: De Medio de Contraste Radiológico a Artrosis (Osteoartritis)
 
 ## Resumen en Una Frase
 
-Iodixanol es un medio de contraste radiológico yodado, no iónico e iso-osmolar, comercializado en España como VISIPAQUE y utilizado en pruebas de imagen diagnóstica.
-El modelo TxGNN predice que podría ser efectivo para **susceptibilidad a la osteoartritis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
-Para la indicación cercana "osteoartritis" existen 6 publicaciones, todas sobre el uso del fármaco como sonda de imagen y ninguna sobre un efecto terapéutico.
+Iodixanol es un medio de contraste radiológico yodado, no iónico e iso-osmolar, utilizado como ayuda en técnicas de diagnóstico por imagen.
+El modelo TxGNN predice que podría ser efectivo para **osteoartritis (artrosis)**, pero **no hay ensayos clínicos** y las **5 publicaciones** disponibles tratan el fármaco como herramienta de imagen, no como tratamiento.
+La predicción es, por tanto, puramente computacional.
 
 ---
 
@@ -43,9 +43,9 @@ Para la indicación cercana "osteoartritis" existen 6 publicaciones, todas sobre
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos de AEMPS (uso como medio de contraste radiológico) |
-| Nueva Indicación Predicha | Susceptibilidad a la osteoartritis |
-| Puntaje de Predicción TxGNN | 99,16% |
+| Indicación Original | No disponible en las autorizaciones registradas (el texto de indicación está vacío) |
+| Nueva Indicación Predicha | Osteoartritis susceptibility (susceptibilidad a la osteoartritis); la segunda predicción, osteoartritis, es la que cuenta con literatura |
+| Puntaje de Predicción TxGNN | 99,16 % (susceptibilidad a la osteoartritis); 99,07 % (osteoartritis); 99,00 % (artritis reumatoide) |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
@@ -55,11 +55,11 @@ Para la indicación cercana "osteoartritis" existen 6 publicaciones, todas sobre
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, iodixanol es un contraste yodado que absorbe rayos X y permite visualizar estructuras en tomografía computarizada (TC) y otras técnicas radiológicas. No es un fármaco con acción farmacológica sobre enfermedades.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, iodixanol es un medio de contraste yodado no iónico e iso-osmolar, que atenúa los rayos X y mejora la visualización de estructuras en imagen. No se le conoce acción farmacológica sobre los determinantes genéticos o biológicos de la osteoartritis.
 
-**No se identifica un vínculo mecanístico que respalde esta predicción.** No hay una acción documentada de iodixanol sobre las vías de susceptibilidad a la osteoartritis. El puntaje alto de TxGNN (0,99) es solo una predicción del modelo.
+**No se ha establecido un vínculo mecanístico.** Las publicaciones sobre osteoartritis emplean iodixanol como herramienta de imagen (TC con contraste del cartílago, imagen de difusión de nanopartículas, modelado del transporte de solutos en la interfaz osteocondral). Un estudio in vitro halló que los contrastes yodados no alteran la función del plasma rico en plaquetas, lo que es un hallazgo de compatibilidad y no de beneficio terapéutico.
 
-Es probable que el puntaje refleje la aparición frecuente de iodixanol junto a la osteoartritis en la literatura de imagen. Allí se usa como molécula de contraste o sonda para estudiar el cartílago, no como tratamiento. Por eso la predicción debe interpretarse con mucha cautela.
+El alto puntaje de TxGNN probablemente refleja la frecuente coaparición del fármaco con la osteoartritis en la investigación de imagen, y no una relación terapéutica. Para la artritis reumatoide, la única publicación es un caso clínico de desensibilización a iohexol (un contraste relacionado), sin plausibilidad inmunomoduladora para iodixanol.
 
 ---
 
@@ -71,19 +71,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para "susceptibilidad a la osteoartritis".
-
-**Literatura de la indicación cercana "osteoartritis"** (segunda predicción del modelo, puntaje 99,07%, nivel L4). Todos los estudios son preclínicos, ex vivo, in vitro o computacionales, y ninguno demuestra modificación de la enfermedad:
+Literatura asociada a osteoartritis (predicción 2):
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Estudio preclínico de imagen | Ann Biomed Eng | Contraste dual (nanopartículas y componente molecular) en TC de conteo de fotones para evaluar la salud del cartílago articular |
-| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Estudio preclínico de imagen | Ann Biomed Eng | Imagen de difusión de nanopartículas por TC y elementos finitos para revelar la función del cartílago |
-| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | Estudio in vitro | J Exp Orthop | Los contrastes yodados no alteran la función del plasma rico en plaquetas en fases tempranas in vitro |
-| [30145230](https://pubmed.ncbi.nlm.nih.gov/30145230/) | 2018 | Estudio biomecánico ex vivo | Osteoarthritis Cartilage | El envejecimiento no cambia la rigidez a la compresión del cartílago condilar mandibular en caballos |
-| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Estudio ex vivo / computacional | J Biomech | Iodixanol como contraste neutro para estudiar la permeabilidad de la interfaz osteocondral |
-| [28518064](https://pubmed.ncbi.nlm.nih.gov/28518064/) | 2017 | Protocolo experimental y de elementos finitos | JoVE | Protocolo para investigar el transporte de solutos neutros y cargados a través del cartílago articular |
-| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Modelado computacional | J Biomech | Modelo de elementos finitos del transporte de solutos neutros a través de la interfaz osteocondral |
+| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Método de imagen/diagnóstico | Annals of Biomedical Engineering | TC y elementos finitos con difusión de nanopartículas para describir la función del cartílago |
+| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Modelado computacional | Journal of Biomechanics | Modelo de elementos finitos del transporte de solutos neutros a través de la interfaz osteocondral |
+| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Método de imagen/diagnóstico | Annals of Biomedical Engineering | Agente de contraste dual en TC de conteo de fotones para evaluar la salud del cartílago articular |
+| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Estudio ex vivo/transporte | Journal of Biomechanics | Iodixanol como contraste difusor para estudiar la permeabilidad de la interfaz osteocondral |
+| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | Estudio in vitro | Journal of Experimental Orthopaedics | Los contrastes yodados no influyen en la función del plasma rico en plaquetas en fase temprana |
+
+Literatura asociada a artritis reumatoide (predicción 3):
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/) | 2022 | Reporte de caso | Cureus | Desensibilización exitosa a iohexol en una paciente con amiloidosis secundaria a artritis reumatoide |
+
+No se recuperó literatura para la susceptibilidad a la osteoartritis.
 
 ---
 
@@ -91,16 +95,26 @@ Actualmente no hay literatura relacionada disponible para "susceptibilidad a la 
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 60636 | VISIPAQUE 270 mg/ml solución inyectable | Solución inyectable | No especificada en los datos disponibles |
-| 60637 | VISIPAQUE 320 mg/ml solución inyectable | Solución inyectable | No especificada en los datos disponibles |
+| 60636 | VISIPAQUE 270 mg/ml solución inyectable | Solución inyectable | No disponible |
+| 60637 | VISIPAQUE 320 mg/ml solución inyectable | Solución inyectable | No disponible |
 
-Titular de ambas autorizaciones: GE Healthcare Bio-Sciences, S.A.U.
+Ambas autorizaciones están vigentes y corresponden al titular GE Healthcare Bio-Sciences, S.A.U.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las mostradas, la mayoría son de nivel **Mayor**:
+  - Metformina
+  - Anfotericina B (incluidas las formulaciones lipídica, de sulfato de colesterilo y liposomal)
+  - Mesalazina, balsalazida, olsalazina y sulfasalazina
+  - Vancomicina
+  - Aminoglucósidos: kanamicina, neomicina y estreptomicina
+  - Polimixina B
+- De nivel **Moderado**: manitol.
+- De nivel **Desconocido**: famotidina, ácido acetilsalicílico, morfina, omeprazol y prednisona.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -109,15 +123,13 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura para la indicación principal. La literatura de la indicación cercana describe a iodixanol como agente de imagen, no como tratamiento, y no existe un mecanismo terapéutico plausible.
+No existen ensayos clínicos y la literatura describe a iodixanol únicamente como herramienta de imagen, sin evidencia de efecto terapéutico en artrosis ni en artritis reumatoide. El puntaje de TxGNN, aunque alto, es solo una predicción computacional (nivel L5).
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y evidencia de un efecto biológico sobre las vías de la osteoartritis
-- Estudios preclínicos que muestren un efecto terapéutico, distinto del uso como sonda de imagen
-- Revisión de la ficha técnica de AEMPS (advertencias y contraindicaciones), necesaria antes de cualquier evaluación de seguridad
-- Evaluación de la compatibilidad de vía de administración (por ejemplo, intraarticular) frente a las formas actuales, que son solo inyectables
-
-*Estos resultados son solo para referencia de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción del fármaco
+- Texto de indicaciones, advertencias y contraindicaciones del prospecto de la AEMPS
+- Una hipótesis mecanística plausible de acción terapéutica en osteoartritis, respaldada por estudios preclínicos
+- Revisión del posible sesgo de coaparición en la literatura de imagen que pudo inflar la predicción
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

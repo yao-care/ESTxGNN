@@ -2,15 +2,15 @@
 layout: default
 title: Flecainide
 parent: Evidencia moderada (L3-L4)
-nav_order: 234
-evidence_level: L4
+nav_order: 338
+evidence_level: L3
 indication_count: 10
 ---
 
 # Flecainide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,91 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Flecainida: De Arritmias Cardíacas a Accidente Cerebrovascular (Ictus)
+# Flecainida: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
 
 ## Resumen en Una Frase
 
-Flecainida es un antiarrítmico de clase IC (bloqueante de canales de sodio), utilizado originalmente para controlar arritmias ventriculares y auriculares y taquicardias.
-El modelo TxGNN predice que podría ser efectivo para **accidente cerebrovascular (ictus)**, pero la evidencia es solo **indirecta**: se registran **21 ensayos clínicos** y **20 publicaciones**, casi todos sobre fibrilación auricular (FA) y ninguno demuestra un efecto de la flecainida sobre el ictus.
+Flecainida es un antiarrítmico de clase IC (bloqueador de canales de sodio), utilizado originalmente para el tratamiento de la fibrilación auricular.
+El modelo TxGNN predice que podría ser efectivo para **ictus (stroke disorder)**,
+con **1 ensayo clínico** (Fase 3, en curso, con un criterio de valoración indirecto) y **20 publicaciones** que actualmente respaldan esta dirección de forma indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Arritmias ventriculares y auriculares y taquicardias (según la farmacología de referencia; los registros de AEMPS no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Accidente cerebrovascular (stroke disorder) |
+| Indicación Original | Fibrilación auricular (según las indicaciones de referencia del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Ictus (stroke disorder) |
 | Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 6 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, la flecainida es un bloqueante de canales de sodio de clase IC que mantiene el ritmo sinusal en la fibrilación auricular. Su eficacia en arritmias está comprobada, y el vínculo con el ictus sería solo indirecto.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, flecainida es un bloqueador de canales de sodio de clase IC, su eficacia en la fibrilación auricular está establecida, y mecanísticamente podría ser aplicable de forma indirecta al ictus. Los datos farmacológicos compilados muestran además actividad sobre varios canales de potasio dependientes de voltaje (Kv1.1, Kv1.2, Kv1.5, Kv1.7 y Kv3.1), aunque sin datos de bioactividad cuantitativos.
 
-La relación entre ambas indicaciones pasa por la FA. La FA aumenta el riesgo de ictus cardioembólico, y el control temprano del ritmo podría reducirlo. El ensayo EAST-AFNET 4 (NCT01288352, Fase 4, n=2789) apoya el control precoz del ritmo como estrategia. Sin embargo, la flecainida es solo uno de varios fármacos de ese brazo, y no se ha demostrado un efecto preventivo del ictus atribuible a ella sola.
+La relación entre ambas indicaciones es indirecta: la fibrilación auricular es una causa importante de ictus cardioembólico, por lo que el control del ritmo podría reducir el riesgo de eventos cerebrovasculares. No se trata de un efecto neuroprotector directo.
 
-No existe un mecanismo neuroprotector directo. El puntaje alto de TxGNN probablemente refleja la cercanía entre FA e ictus en el grafo de conocimiento y no un mecanismo nuevo. Por eso esta predicción debe leerse como una pregunta de investigación, no como una indicación candidata madura.
+El único ensayo de Fase 3 (NCT05213104) evalúa flecainida para reducir las arritmias auriculares tras el cierre del foramen oval permeable (FOP), un contexto de prevención de ictus criptogénico. Sin embargo, su criterio principal es la arritmia, no la recurrencia del ictus, por lo que la evidencia es indirecta y no alcanza el nivel de evidencia directa para esta indicación.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 10 más relevantes de 21 registrados. Solo NCT05213104 y NCT07405671 estudian directamente la flecainida, y ninguno tiene ictus como desenlace.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01288352](https://clinicaltrials.gov/study/NCT01288352) | Fase 4 | Completado | 2789 | EAST-AFNET 4: control precoz del ritmo (fármacos antiarrítmicos, incluida flecainida, o ablación) frente a atención habitual; el ictus forma parte del desenlace compuesto. Evidencia indirecta más sólida |
-| [NCT05293080](https://clinicaltrials.gov/study/NCT05293080) | Fase 3 | Reclutando | 1746 | EAST-STROKE: control precoz del ritmo en ictus isquémico agudo con FA. Sin resultados aún; estrategia no específica de flecainida |
-| [NCT05213104](https://clinicaltrials.gov/study/NCT05213104) | Fase 3 | Activo, sin reclutar | 186 | Flecainida para reducir arritmia auricular tras cierre de foramen oval permeable (población con ictus criptogénico); desenlace sustituto (arritmia) |
-| [NCT00911508](https://clinicaltrials.gov/study/NCT00911508) | N/A | Completado | 2204 | CABANA: ablación con catéter frente a fármacos antiarrítmicos (entre ellos flecainida); ictus dentro del desenlace compuesto |
-| [NCT01646281](https://clinicaltrials.gov/study/NCT01646281) | Fase 4 | Desconocido | 70 | Vernakalant y flecainida sobre la contractilidad auricular en FA; marcador sustituto del riesgo tromboembólico |
-| [NCT06783868](https://clinicaltrials.gov/study/NCT06783868) | N/A | Aún no reclutando | 100 | SAVE STROKE II: ablación de FA frente a medicación tras ictus reciente; la intervención es la ablación |
-| [NCT07405671](https://clinicaltrials.gov/study/NCT07405671) | Fase 4 | Reclutando | 988 | Seguridad de flecainida frente a sotalol o amiodarona en FA con enfermedad coronaria estable |
-| [NCT00523978](https://clinicaltrials.gov/study/NCT00523978) | Fase 3 | Completado | 245 | STOP AF: crioablación frente a fármaco antiarrítmico (flecainida, propafenona o sotalol) en FA paroxística |
-| [NCT05939076](https://clinicaltrials.gov/study/NCT05939076) | Fase 3 | Aún no reclutando | 220 | Crioablación de primera línea frente a antiarrítmicos en FA persistente |
-| [NCT06096337](https://clinicaltrials.gov/study/NCT06096337) | N/A | Activo, sin reclutar | 484 | Ablación por campo pulsado frente a antiarrítmicos como primera línea en FA persistente |
+| [NCT05213104](https://clinicaltrials.gov/study/NCT05213104) | Fase 3 | Activo, sin reclutamiento | 186 | Flecainida para reducir el riesgo de arritmia o taquicardia auricular tras el cierre percutáneo del FOP (frecuente en ictus criptogénico). El criterio de valoración es la arritmia, no el ictus. Finalización prevista: 11/09/2026 |
 
 ## Evidencia de Literatura
 
-Se muestran 10 de 20 publicaciones. Ninguna evalúa la flecainida como tratamiento del ictus.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38702961](https://pubmed.ncbi.nlm.nih.gov/38702961/) | 2024 | ECA (análisis secundario) | Europace | Seguridad y eficacia a largo plazo de los bloqueantes de sodio (flecainida y propafenona) para el control precoz del ritmo en EAST-AFNET 4 |
-| [37109225](https://pubmed.ncbi.nlm.nih.gov/37109225/) | 2023 | ECA piloto | J Clin Med | Carvedilol frente a flecainida en extrasístoles ventriculares idiopáticas del tracto de salida; no aborda el ictus |
-| [41954064](https://pubmed.ncbi.nlm.nih.gov/41954064/) | 2026 | Cohorte | J Am Heart Assoc | Resultados a largo plazo de los antiarrítmicos de clase 1C en FA; el beneficio cardiovascular frente al control de frecuencia sigue sin estar claro |
-| [27159789](https://pubmed.ncbi.nlm.nih.gov/27159789/) | 2016 | Revisión | Nat Rev Dis Primers | Revisión general de la FA y su asociación con mayor riesgo de ictus |
-| [25430048](https://pubmed.ncbi.nlm.nih.gov/25430048/) | 2014 | Revisión | BMJ Clin Evidence | FA de inicio agudo; aumenta el riesgo de ictus e insuficiencia cardíaca |
-| [39077579](https://pubmed.ncbi.nlm.nih.gov/39077579/) | 2023 | Revisión | Rev Cardiovasc Med | Manejo de la FA en el embarazo y equilibrio entre riesgos de antiarrítmicos y anticoagulantes |
-| [8199770](https://pubmed.ncbi.nlm.nih.gov/8199770/) | 1994 | Revisión | Heart Dis Stroke | Valor y peligros de la flecainida; útil en taquicardia supraventricular sin cardiopatía estructural |
-| [38551548](https://pubmed.ncbi.nlm.nih.gov/38551548/) | 2024 | Estudio clínico | JACC Clin Electrophysiol | Antiarrítmicos 1C para suprimir extrasístoles ventriculares en miocardiopatía no isquémica con DAI |
-| [35114252](https://pubmed.ncbi.nlm.nih.gov/35114252/) | 2022 | Estudio de mecanismo | J Mol Cell Cardiol | Mayor eficacia auricular de la flecainida por diferencias biofísicas de los canales de sodio |
-| [40800559](https://pubmed.ncbi.nlm.nih.gov/40800559/) | 2025 | Reporte de caso | Eur Heart J Case Rep | Taquicardia ventricular refractaria asociada a flecainida (proarritmia) |
+| [38702961](https://pubmed.ncbi.nlm.nih.gov/38702961/) | 2024 | ECA (análisis secundario) | Europace | Seguridad y eficacia a largo plazo de bloqueadores de canales de sodio (flecainida, propafenona) para control precoz del ritmo en EAST-AFNET 4 |
+| [25820938](https://pubmed.ncbi.nlm.nih.gov/25820938/) | 2015 | Revisión sistemática/Metaanálisis | Cochrane Database Syst Rev | Antiarrítmicos para mantener el ritmo sinusal tras cardioversión de fibrilación auricular |
+| [38551548](https://pubmed.ncbi.nlm.nih.gov/38551548/) | 2024 | Cohorte/Metaanálisis | JACC Clin Electrophysiol | Antiarrítmicos de clase 1C para suprimir extrasístoles ventriculares en miocardiopatía no isquémica con DAI |
+| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Cohorte | BMC Medicine | Uso concomitante de anticoagulantes orales directos y antiarrítmicos con interacción: riesgo de ictus y hemorragia en FA no valvular |
+| [41954064](https://pubmed.ncbi.nlm.nih.gov/41954064/) | 2026 | Cohorte | J Am Heart Assoc | Resultados a largo plazo del uso de antiarrítmicos de clase 1C en fibrilación auricular |
+| [37109225](https://pubmed.ncbi.nlm.nih.gov/37109225/) | 2023 | ECA piloto | J Clin Med | Comparación de carvedilol y flecainida en extrasístoles ventriculares idiopáticas del tracto de salida |
+| [8729366](https://pubmed.ncbi.nlm.nih.gov/8729366/) | 1995 | Estudio clínico | Arch Mal Coeur Vaiss | Estudio electrofisiológico auricular y efecto de flecainida i.v. en 38 pacientes con ictus isquémico inexplicado |
+| [19265095](https://pubmed.ncbi.nlm.nih.gov/19265095/) | 2009 | Revisión | Chest | Manejo agudo de la fibrilación auricular (control de frecuencia vs. ritmo; tromboembolismo) |
+| [25430048](https://pubmed.ncbi.nlm.nih.gov/25430048/) | 2014 | Revisión | BMJ Clin Evid | Fibrilación auricular de inicio agudo, que aumenta el riesgo de ictus e insuficiencia cardíaca |
+| [27884575](https://pubmed.ncbi.nlm.nih.gov/27884575/) | 2017 | Reporte de caso | J Emerg Med | Patrón de Brugada causado por sobredosis de flecainida |
+
+Nota: la mayoría de las publicaciones abordan la fibrilación auricular y no evalúan directamente el ictus como indicación de flecainida.
 
 ## Información de Mercado en España
 
-Se listan 5 de las 6 autorizaciones. El registro no incluye texto de indicación aprobada para ninguna de ellas. También constan formas farmacéuticas en comprimido y solución inyectable.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 79337 | Flecainida Apotex 100 mg comprimidos EFG | Comprimido | Sin texto de indicación en el registro |
-| 79329 | Flecainida Normon 100 mg comprimidos EFG | Comprimido | Sin texto de indicación en el registro |
-| 77173 | Flecainida Aurovitas 100 mg comprimidos EFG | Comprimido | Sin texto de indicación en el registro |
-| 78070 | Flecard 100 mg comprimidos EFG | Comprimido | Sin texto de indicación en el registro |
-| 57532 | Apocard 100 mg comprimidos | Comprimido | Sin texto de indicación en el registro |
+| 79337 | FLECAINIDA APOTEX 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
+| 79329 | FLECAINIDA NORMON 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
+| 77173 | FLECAINIDA AUROVITAS 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
+| 78070 | FLECARD 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
+| 57532 | APOCARD 100 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+
+Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514). Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada.
 
 ## Consideraciones de Seguridad
 
-No se dispone de advertencias ni contraindicaciones del prospecto de AEMPS. Consultar el prospecto para la información de seguridad completa. Los cinco registros de interacción de la consulta corresponden a dianas farmacológicas (canales Kv), no a interacciones medicamentosas clínicas, por lo que no se listan.
+- **Contraindicaciones (según el grafo de conocimiento, no texto del prospecto)**: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, déficit de potasio, infarto de miocardio, trombosis coronaria, hemoglobinopatía, bloqueo auriculoventricular, síndrome del seno enfermo (incluida la forma familiar) y piouréter.
+- **Cardiopatía estructural/isquémica**: los antiarrítmicos de clase IC están contraindicados en estos pacientes, lo que es especialmente relevante en poblaciones con riesgo de ictus.
+- **Riesgos señalados en la literatura**: proarritmia, desenmascaramiento del patrón de Brugada en sobredosis e interacciones con anticoagulantes.
+- **Interacciones farmacológicas**: la consulta se completó, pero los 5 registros devueltos corresponden a actividad farmacológica sobre canales de potasio (Kv1.1, Kv1.2, Kv1.5, Kv1.7, Kv3.1), no a interacciones con otros fármacos con nivel de gravedad.
 
-A partir de la evidencia revisada, se señalan estos puntos de cautela para esta indicación:
-- **Cardiopatía estructural e infarto previo**: la flecainida está contraindicada en estos casos (estudio CAST), y son frecuentes en pacientes con ictus isquémico.
-- **Anticoagulantes orales directos**: se ha documentado una interacción entre estos y ciertos antiarrítmicos (PMID 41152878) que requiere revisión.
-- **Proarritmia**: el reporte de caso PMID 40800559 describe taquicardia ventricular refractaria asociada a flecainida.
+Las advertencias del prospecto de la AEMPS no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es indirecta (L4). Los ensayos relevantes evalúan estrategias de control del ritmo en general, no la flecainida como tratamiento del ictus, y no existe un mecanismo neuroprotector directo. Además, las contraindicaciones en cardiopatía estructural e isquémica afectan a buena parte de la población con ictus. Las otras nueve predicciones (por ejemplo, síndrome del seno enfermo, amiloidosis ABri o sarcoglicanopatía) son solo predicciones del modelo (L5) y también se mantienen en Hold. La del síndrome del seno enfermo es probablemente un falso positivo con riesgo de seguridad.
+La evidencia es indirecta (L3): el único ensayo de Fase 3 mide arritmia y no ictus, y la literatura se centra en la fibrilación auricular. Además, el perfil de seguridad (contraindicación en cardiopatía estructural/isquémica, proarritmia) limita su aplicación en pacientes con ictus. Se considera una pregunta de investigación, no una candidata lista para avanzar.
 
 **Para avanzar se necesita:**
-- Revisar la ficha técnica de AEMPS (advertencias y contraindicaciones), actualmente no disponible.
-- Obtener los resultados de NCT05213104 (finalización prevista en septiembre de 2026) y de NCT05293080 (EAST-STROKE).
-- Analizar el subgrupo de flecainida en EAST-AFNET 4 (PMID 38702961) para valorar eventos cerebrovasculares.
-- Seguir NCT07405671 (seguridad de flecainida en FA con enfermedad coronaria estable).
-- Definir un plan de seguridad para pacientes con ictus (exclusión de cardiopatía estructural e isquémica y revisión de la interacción con anticoagulantes orales directos).
-- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisar el prospecto de la AEMPS (advertencias y contraindicaciones), cuyos datos faltan y bloquean el cribado de seguridad.
+- Obtener datos del mecanismo de acción (por ejemplo, desde DrugBank).
+- Esperar los resultados de NCT05213104 (finalización prevista en septiembre de 2026) y evaluar si reducen eventos cerebrovasculares y no solo arritmias.
+- Realizar estudios que midan directamente la prevención de ictus con flecainida, con definición clara de la población (excluyendo cardiopatía estructural).
+- Definir la población elegible y un plan de monitorización de seguridad (ECG, función renal y hepática, interacciones con anticoagulantes).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Dienogest
 parent: Evidencia moderada (L3-L4)
-nav_order: 175
+nav_order: 248
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,98 +29,85 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dienogest: De Endometriosis a Amenorrea
+# Dienogest: De Indicación No Especificada en la Ficha a Amenorrea
 
 ## Resumen en Una Frase
 
-Dienogest es un progestágeno que se utiliza en el tratamiento de la endometriosis (indicación tomada de la literatura, ya que las fichas de AEMPS del paquete no incluyen texto de indicación). El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero **ninguno de los 4 ensayos clínicos** ni de las **6 publicaciones** asociadas estudia la amenorrea como enfermedad a tratar. La amenorrea es un efecto esperado del fármaco y no un objetivo terapéutico.
-
----
+Dienogest es un progestágeno selectivo comercializado en España en comprimidos de 2 mg; en los datos compilados no figura el texto de la indicación aprobada, aunque la literatura lo describe como tratamiento hormonal de la endometriosis.
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero la amenorrea es en realidad un efecto farmacológico esperado del fármaco y no una enfermedad que trate.
+La evidencia es indirecta: **0 ensayos clínicos** y **7 publicaciones** (revisiones, una cohorte retrospectiva y casos clínicos), ninguna que demuestre eficacia en esta indicación.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | No disponible en los datos de las autorizaciones (el texto de indicación está vacío en las 7 licencias) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,71 % |
+| Puntaje de Predicción TxGNN | 99,71% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 7 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, dienogest es un progestágeno que suprime el endometrio y reduce los niveles de gonadotropinas y estradiol. Su eficacia en endometriosis está descrita en la literatura, y la amenorrea es una consecuencia frecuente de este efecto hormonal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dienogest es un progestágeno de cuarta generación con fuerte efecto sobre el endometrio y actividad antiovulatoria y antigonadotrópica. Provoca atrofia endometrial y decidualización, y por ello a menudo induce amenorrea.
 
-La predicción del modelo probablemente refleja esta asociación fármaco-fenotipo (el fármaco provoca amenorrea), no una indicación tratable. Un progestágeno que induce amenorrea no es, por ello, un tratamiento de la amenorrea.
+Esta relación explica el alto puntaje del modelo, pero invierte el sentido clínico: la amenorrea es un efecto esperado del tratamiento (y figura entre sus efectos adversos), no una enfermedad que el fármaco cure. No hay respaldo para usar dienogest en la amenorrea patológica, por ejemplo como terapia de privación de progestágeno o de protección endometrial en estados hipoestrogénicos. Además, un progestágeno no restablecería la menstruación en la mayoría de las causas de amenorrea.
 
-Por tanto, esta predicción **no tiene respaldo mecanístico como nueva indicación**. No hay evidencia directa de que dienogest sirva para tratar la amenorrea.
-
----
+En conclusión, el vínculo mecanístico es plausible solo en el sentido de supresión menstrual. El puntaje de 99,71% debe interpretarse con cautela y probablemente refleja proximidad en la red de conocimiento.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | Completado | 895 | Cohorte observacional prospectiva sobre calidad de vida y seguridad a largo plazo de dienogest en mujeres asiáticas con endometriosis |
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | Completado | 968 | Estudio observacional en práctica clínica real de dienogest en endometriosis |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Activo, sin reclutar | 138 | Compara estradiol transdérmico + dienogest frente a drospirenona en endometriosis (satisfacción de las pacientes) |
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Fase 3 | Reclutando | 290 | Ensayo abierto y aleatorizado de no inferioridad: Indinol Forto frente a Visanne 2 mg en endometriosis |
-
-Todos los ensayos son de relevancia baja (grado C): estudian endometriosis, no amenorrea. El único de Fase 3 sigue en reclutamiento y su condición objetivo no es la amenorrea.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Revisión sistemática | BMC Pharmacol Toxicol | Resume los eventos adversos de dienogest y su prevalencia durante el tratamiento de endometriosis y adenomiosis |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Revisión | Rev Endocr Metab Disord | Base endocrina de los tratamientos hormonales de la endometriosis (dependencia de estrógenos y resistencia a la progesterona) |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Otro | Eur J Contracept Reprod Health Care | Propiedades farmacológicas de dienogest 2 mg y su uso en endometriosis; menciona la inducción de amenorrea como objetivo hormonal general |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Cohorte | Reprod Sci | Cohorte retrospectiva de 514 mujeres: eficacia, seguridad y recurrencia del endometrioma con dienogest más allá de 12 meses |
-| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Reporte de caso | Medicine | Tumor de células de la granulosa ovárico en una paciente con síndrome de ovario poliquístico (relevancia indirecta) |
-| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Revisión | J Pediatr Adolesc Gynecol | Visualización avanzada de anomalías müllerianas para diagnóstico y planificación quirúrgica (relevancia indirecta) |
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Revisión sistemática/Metaanálisis | BMC Pharmacol Toxicol | Resume los eventos adversos de dienogest en endometriosis y adenomiosis, donde es opción de primera línea para el dolor pélvico |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Cohorte retrospectiva | Reprod Sci | 514 mujeres con endometrioma tratadas con dienogest 2 mg/día; evalúa eficacia, seguridad y recurrencia más allá de 12 meses |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Revisión | Rev Endocr Metab Disord | Tratamientos hormonales de la endometriosis y su base endocrina (dependencia de estrógenos y resistencia a progesterona) |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Estudio farmacodinámico/endometrial | Eur J Contracept Reprod Health Care | Evidencia adicional del uso de dienogest 2 mg en endometriosis; los tratamientos buscan inducir amenorrea e hipoestrogenismo |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Revisión | J Pediatr Adolesc Gynecol | Visualización avanzada de anomalías müllerianas para diagnóstico y planificación quirúrgica; relación solo indirecta |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Reporte de caso | Medicine | Tumor de células de la granulosa ovárico en una paciente con síndrome de ovario poliquístico; relación solo indirecta |
+| [42438810](https://pubmed.ncbi.nlm.nih.gov/42438810/) | 2026 | Reporte de caso | JCEM Case Rep | Hiperparatiroidismo primario desenmascarado tras cambios en la dinámica estrogénica con dienogest |
 
 Ninguna publicación evalúa dienogest como tratamiento de la amenorrea.
 
----
-
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 84765 | Dienogest Aristo 2 mg comprimidos EFG | Comprimido |
-| 85463 | Adienocare 2 mg comprimidos EFG | Comprimido |
-| 84820 | Endovelle 2 mg comprimidos EFG | Comprimido |
-| 84015 | Dimetrio 2 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 89468 | Dienogest Adalvo 2 mg comprimidos EFG | Comprimido |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 84765 | Dienogest Aristo 2 mg comprimidos EFG | Comprimido | No disponible |
+| 85463 | Adienocare 2 mg comprimidos EFG | Comprimido | No disponible |
+| 84820 | Endovelle 2 mg comprimidos EFG | Comprimido | No disponible |
+| 84015 | Dimetrio 2 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 89468 | Dienogest Adalvo 2 mg comprimidos EFG | Comprimido | No disponible |
 
-Se muestran 5 de las 7 autorizaciones. Los registros no incluyen texto de indicación aprobada.
-
----
+Hay 7 autorizaciones vigentes en total, todas de monofármaco; se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Contraindicaciones sugeridas por el grafo de conocimiento** (relaciones fármaco-enfermedad de TxGNN, no texto del prospecto): hipertensión, epilepsia, trastornos de ansiedad, porfiria, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hipotiroidismo, lupus eritematoso sistémico, asma, diabetes mellitus, hipertrigliceridemia, hipercalcemia, carcinoma de mama femenino y tromboflebitis.
+- **Interacciones farmacológicas**: se identificaron 37 interacciones, de las cuales se muestran 20. Las de nivel **mayor** incluyen sugammadex, griseofulvina, bexaroteno, brigatinib, dabrafenib y encorafenib. Hay varias de nivel moderado (por ejemplo linaclotida, metreleptina, prucaprida, miltefosina, adalimumab, anakinra, cladribina) y una menor (etanol).
+- **Señales de la literatura**: un reporte de caso describe hiperparatiroidismo primario desenmascarado tras iniciar dienogest, y la amenorrea figura entre los efectos adversos esperados.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- La amenorrea es un efecto esperado de dienogest, no un objetivo terapéutico. La puntuación alta de TxGNN (99,71 %) refleja probablemente esa asociación y no una indicación tratable. Ningún ensayo ni publicación respalda su uso para esta condición.
-- Las otras nueve predicciones del modelo (insuficiencia ovárica primaria, enfermedad fibroquística de mama, entre otras) tienen evidencia L4-L5 y tampoco justifican avanzar. Solo la enfermedad fibroquística de mama se marca como pregunta de investigación.
+La amenorrea es un efecto esperado de dienogest, no una indicación terapéutica, y no hay ensayos clínicos ni literatura que respalden su eficacia en amenorrea patológica. El alto puntaje de TxGNN (99,71%) probablemente refleja proximidad en la red y no utilidad clínica; el nivel de evidencia es L4.
 
 **Para avanzar se necesita:**
-- Confirmar si la predicción tiene un objetivo clínico real (por ejemplo, control de sangrado) o si es solo un efecto farmacológico esperado.
-- Obtener el prospecto de AEMPS con advertencias y contraindicaciones, que hoy falta y bloquea el cribado de seguridad.
-- Obtener los datos de mecanismo de acción desde DrugBank.
-- Obtener el texto de indicación aprobada de las autorizaciones españolas.
+- Obtener el texto de indicaciones, advertencias y contraindicaciones de los prospectos de la AEMPS (hoy vacíos).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Aclarar si la hipótesis es tratar amenorrea patológica (p. ej., protección endometrial) y no la amenorrea como efecto del fármaco.
+- Si se persigue, diseñar estudios preclínicos o piloto que definan la población y el beneficio frente a los tratamientos estándar.
+- Valorar las demás predicciones: *enfermedad fibroquística de mama* (L4, con una única revisión indirecta) merece seguimiento como pregunta de investigación; el resto carece de evidencia y de vínculo mecanístico plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

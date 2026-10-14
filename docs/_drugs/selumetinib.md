@@ -2,7 +2,7 @@
 layout: default
 title: Selumetinib
 parent: Solo predicción del modelo (L5)
-nav_order: 489
+nav_order: 731
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Selumetinib: De Neurofibroma Plexiforme asociado a NF1 a Lentiginosis Generalizada Familiar
+# Selumetinib: De Neurofibromatosis a Familial Generalized Lentiginosis (Lentiginosis Generalizada Familiar)
 
 ## Resumen en Una Frase
 
-Selumetinib es un inhibidor de MEK1/2 comercializado en España como Koselugo. Según la información del paquete de evidencia, está indicado en el neurofibroma plexiforme asociado a NF1. El modelo TxGNN predice que podría ser efectivo para **lentiginosis generalizada familiar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, que se basa solo en el modelo.
-
----
+Selumetinib es un inhibidor de MEK1/2 comercializado en España (KOSELUGO), originalmente utilizado para el tratamiento de la neurofibromatosis.
+El modelo TxGNN predice que podría ser efectivo para **lentiginosis generalizada familiar** (puntaje 99,96 %), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción concreta; se trata únicamente de una predicción del modelo.
+Entre las demás predicciones de alto puntaje, la mejor respaldada es el **schwannoma de nervio periférico** (3 ensayos clínicos y 6 publicaciones), que se comenta como alternativa de priorización.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neurofibroma plexiforme asociado a NF1 (según el análisis de otra indicación del paquete; los textos de autorización de AEMPS están vacíos) |
+| Indicación Original | Neurofibromatosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Lentiginosis generalizada familiar |
-| Puntaje de Predicción TxGNN | 99,96 % (puntaje saturado, no discrimina entre candidatos) |
+| Puntaje de Predicción TxGNN | 99,96 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados de mecanismo de acción en DrugBank para este paquete. Según la información conocida, selumetinib inhibe MEK1/2 en la vía RAS/MAPK. Su eficacia se ha comprobado en el neurofibroma plexiforme asociado a NF1, un tumor con activación de esta vía.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, selumetinib es un inhibidor de MEK1/2 de la vía RAS/RAF/MEK/ERK. Su eficacia en la neurofibromatosis (tumores del tipo neurofibroma plexiforme) ha sido comprobada y es la base de su comercialización.
 
-La relación con la lentiginosis generalizada familiar es **especulativa**. Los datos no muestran que esta enfermedad esté causada por una desregulación de la vía MAPK. Un vínculo con trastornos de la pigmentación no se puede establecer con la información disponible.
+Los síndromes de lentiginosis pigmentaria suelen implicar una desregulación de la vía RAS/MAPK, que es una diana plausible de la inhibición de MEK. Además, las manchas café con leche y otros rasgos pigmentarios son característicos de la neurofibromatosis, lo que explica la cercanía fenotípica que probablemente capta el modelo.
 
-El puntaje TxGNN (~0,9996) está saturado y no permite distinguir esta predicción de otras. Por tanto, no debe interpretarse como señal de eficacia.
-
----
+Sin embargo, este vínculo es solo conceptual: no se aportaron ensayos ni literatura que lo sustenten, y la similitud con la indicación original no ha sido evaluada. La predicción debe considerarse una hipótesis.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para lentiginosis generalizada familiar.
 
----
+*Nota sobre otras predicciones con evidencia (no son la indicación principal de este informe):*
+
+| Número de Ensayo | Indicación | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|------|---------|
+| [NCT03095248](https://clinicaltrials.gov/study/NCT03095248) | Schwannoma de nervio periférico (NF2) | Fase 2 | Terminado | 10 | Selumetinib en tumores relacionados con NF2; terminado con solo 10 participantes, con poca potencia estadística |
+| [NCT07707947](https://clinicaltrials.gov/study/NCT07707947) | Schwannoma de nervio periférico (NF2-SWN) | Fase 2 | Aún no recluta | 20 | Estudio de brazo único de un inhibidor de MEK1/2 en schwannomatosis relacionada con NF2; sin resultados |
+| [NCT07713745](https://clinicaltrials.gov/study/NCT07713745) | Schwannoma de nervio periférico (NF2-SWN) | Fase 2 | Aún no recluta | 200 | Plataforma adaptativa (PRIME-NF2); inclusión de selumetinib no confirmada |
+| [NCT03155620](https://clinicaltrials.gov/study/NCT03155620) | Tumor rabdoide | Fase 2 | Activo, sin reclutar | 1377 | Protocolo paraguas Pediatric MATCH; apoyo indirecto y no específico |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para lentiginosis generalizada familiar.
 
----
+*Literatura de las predicciones alternativas:*
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [37906356](https://pubmed.ncbi.nlm.nih.gov/37906356/) | 2023 | Revisión | Current Oncology Reports | Manejo de tumores del sistema nervioso central y periférico en neurofibromatosis; papel de los inhibidores de MEK |
+| [37046591](https://pubmed.ncbi.nlm.nih.gov/37046591/) | 2023 | Consenso de expertos/Revisión | Cancers | Recomendaciones EURACAN para tumores de nervios periféricos y craneales; evidencia escasa por la rareza |
+| [38058737](https://pubmed.ncbi.nlm.nih.gov/38058737/) | 2023 | Reporte de caso | Mol Ther Methods Clin Dev | Respuesta parcial a selumetinib en un ependimoma asociado a NF2 |
+| [38216572](https://pubmed.ncbi.nlm.nih.gov/38216572/) | 2024 | Preclínico | Nature Communications | Interacciones entre supresores tumorales NF1/NF2 en la desdiferenciación de tumores de células de Schwann y resistencia al tratamiento |
+| [25638158](https://pubmed.ncbi.nlm.nih.gov/25638158/) | 2015 | Preclínico | Oncotarget | Importancia de la vía MAPK en tumores teratoides/rabdoides atípicos tras alterar LIN28 |
+| [33835000](https://pubmed.ncbi.nlm.nih.gov/33835000/) | 2020 | Reporte de caso | Acta Dermatovenerol Croat | Neurofibroma plexiforme sin neurofibromatosis tipo 1 |
+| [40861330](https://pubmed.ncbi.nlm.nih.gov/40861330/) | 2025 | Reporte de caso | Surgical Case Reports | Manejo quirúrgico de un schwannoma mediastínico gigante asociado a NF1 |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1211552004 | KOSELUGO 7,5 MG granulado en cápsula para abrir | Granulado en envase unidosis |
-| 1211552001 | KOSELUGO 10 mg cápsulas duras | Cápsula dura |
-| 1211552003 | KOSELUGO 5 MG granulado en cápsula para abrir | Granulado en envase unidosis |
-| 1211552002 | KOSELUGO 25 mg cápsulas duras | Cápsula dura |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1211552001 | KOSELUGO 10 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
+| 1211552002 | KOSELUGO 25 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
+| 1211552003 | KOSELUGO 5 mg granulado en cápsula para abrir | Granulado en envase unidosis | No disponible en los datos compilados |
+| 1211552004 | KOSELUGO 7,5 mg granulado en cápsula para abrir | Granulado en envase unidosis | No disponible en los datos compilados |
 
-Titular de las cuatro autorizaciones: AstraZeneca AB.
-
----
+Titular: AstraZeneca AB. Las cuatro autorizaciones son de monofármaco y están vigentes.
 
 ## Citotoxicidad
 
@@ -96,28 +107,25 @@ Titular de las cuatro autorizaciones: AstraZeneca AB.
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
----
-
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 84 interacciones; en la muestra revisada destacan las de nivel **Mayor** con aprepitant, dexametasona, claritromicina y cobicistat (posiblemente relacionadas con el metabolismo por CYP3A4, a confirmar en el prospecto). Entre las de nivel **Moderado** figuran ácido acetilsalicílico, cimetidina, clotrimazol, deferasirox, apixabán, dipiridamol, cilostazol, abciximab, bivalirudina, cangrelor, caplacizumab, betrixabán y antitrombina III humana. Muchas de ellas son antitrombóticos o antiagregantes, por lo que conviene vigilar el riesgo hemorrágico.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos ni literatura, y el mecanismo hacia esta enfermedad no está respaldado por los datos. Además, faltan los datos de seguridad del prospecto de AEMPS.
+La predicción para lentiginosis generalizada familiar es solo del modelo (nivel L5), sin ensayos ni literatura, y los datos de seguridad de la ficha técnica no están disponibles. Si se desea priorizar una línea con respaldo, el schwannoma de nervio periférico (NF2) es más prometedor (nivel L3, ensayos de Fase 2 en curso o terminados), aunque su evidencia sigue siendo temprana.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Demostrar si la lentiginosis generalizada familiar tiene una base genética o funcional en la vía RAS/MAPK.
-- Como referencia, entre las 10 predicciones principales, **schwannoma de nervio periférico** (L3) es la que tiene más respaldo. Incluye un ensayo de Fase 2 terminado en NF2 (NCT03095248, n=10, sin resultados de eficacia) y estudios preclínicos con inhibidores de MEK en células de schwannoma. Podría priorizarse antes que esta indicación.
-
-*Este informe es solo para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un requisito bloqueante para el cribado de seguridad
+- Completar los datos del mecanismo de acción desde DrugBank
+- Revisión de literatura específica sobre lentiginosis generalizada familiar y su base molecular (vía RAS/MAPK)
+- Evaluar la similitud con la indicación original y la compatibilidad de vías de administración
+- Valorar si procede reorientar el análisis hacia el schwannoma de nervio periférico y seguir los resultados de los ensayos NCT07707947 y NCT07713745
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

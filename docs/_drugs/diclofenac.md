@@ -2,7 +2,7 @@
 layout: default
 title: Diclofenac
 parent: Solo predicción del modelo (L5)
-nav_order: 174
+nav_order: 247
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Diclofenaco: De Dolor e Inflamación (Artrosis y Artritis Reumatoide) a Hipotricosis Simple del Cuero Cabelludo
+# Diclofenaco: De Queratosis Actínica a Hipotricosis Simple del Cuero Cabelludo
 
 ## Resumen en Una Frase
 
-Diclofenaco es un antiinflamatorio no esteroideo (AINE) utilizado para tratar el dolor y la inflamación de la artrosis y la artritis reumatoide.
+Diclofenaco es un antiinflamatorio no esteroideo (AINE) utilizado originalmente para tratar enfermedades articulares como la artritis reumatoide y la artrosis, así como lesiones cutáneas como la queratosis actínica.
 El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
-
----
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el texto de las autorizaciones. Según la base farmacológica: dolor e inflamación en artrosis y artritis reumatoide |
+| Indicación Original | Queratosis actínica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 99.69% |
 | Nivel de Evidencia | L5 |
@@ -51,64 +49,60 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la ficha del fármaco. Los datos farmacológicos complementarios indican que diclofenaco actúa sobre COX-1 y COX-2 (inhibición de la síntesis de prostaglandinas). También aparece asociado a TRPM3, PPARγ, ASIC3 y al transportador de aminoácidos PAT1 (SLC36A1). Su eficacia como analgésico y antiinflamatorio en enfermedades articulares está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, el diclofenaco es un AINE que inhibe las ciclooxigenasas COX-1 y COX-2 y reduce la síntesis de prostaglandinas. Su eficacia en la inflamación y el dolor articular está bien establecida. Los datos farmacológicos compilados también lo asocian con otras dianas, como PPARγ, TRPM3, ASIC3 y el transportador de aminoácidos PAT1.
 
-Para esta predicción concreta, **los datos no respaldan un vínculo mecanístico**. La hipotricosis simple es un trastorno genético del folículo piloso, y no se identifica una vía plausible que conecte la inhibición de la COX con su fisiopatología. La relación con la indicación original está pendiente de evaluar.
+La relación entre la indicación original y la nueva es débil. La hipotricosis simple del cuero cabelludo es un trastorno folicular de origen genético y monogénico (por ejemplo, variantes en CDSN, APCDD1 o RPL21). Las vías de las prostaglandinas influyen en el ciclo del cabello, pero inhibir la COX no corregiría un defecto genético de este tipo.
 
-El puntaje alto (99.69%) debe interpretarse con cautela. Refleja la posición del fármaco en el grafo de conocimiento del modelo, no una prueba de eficacia. Las otras predicciones de mayor rango (displasias esqueléticas, alopecia areata difusa, síndrome WHIM) tampoco tienen evidencia clínica ni vínculo mecanístico documentado.
-
----
+Por tanto, el puntaje alto del modelo parece reflejar una relación en la red de conocimiento y no un fundamento terapéutico plausible. Se debe interpretar con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones. El texto de indicación aprobada no está disponible en los datos recibidos.
+Se muestran 5 de las 20 autorizaciones vigentes. Todas son de principio activo único y ninguna está cancelada. Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 74119 | Diclofenaco Kern Pharma 11,6 mg/g gel | Gel | Kern Pharma S.L. |
-| 62000 | Diclofenaco Pensa 50 mg comprimidos gastrorresistentes EFG | Comprimido | Towa Pharmaceutical S.A. |
-| 62024 | Voltaren Retard 75 mg comprimidos de liberación modificada | Comprimido de liberación modificada | Novartis Farmacéutica S.A. |
-| 57589 | Diclofenaco Llorens 75 mg solución inyectable EFG | Solución inyectable | Laboratorios Llorens S.L. |
-| 61866 | Diclofenaco Alter 50 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | Laboratorios Alter S.A. |
-
-El conjunto de autorizaciones incluye también otras formas: jeringa precargada, colirio, supositorio y solución para pulverización cutánea.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 74119 | Diclofenaco Kern Pharma 11,6 mg/g gel | Gel |
+| 62000 | Diclofenaco Pensa 50 mg comprimidos gastrorresistentes EFG | Comprimido |
+| 62024 | Voltaren Retard 75 mg comprimidos de liberación modificada | Comprimido de liberación modificada |
+| 57589 | Diclofenaco Llorens 75 mg solución inyectable EFG | Solución inyectable |
+| 61866 | Diclofenaco Alter 50 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no el prospecto):**
+  - Cardiovasculares: hipertensión, insuficiencia cardíaca congestiva, infarto de miocardio, ictus y enfermedad cerebrovascular.
+  - Hepáticas: insuficiencia hepática, hepatopatía y lesión hepática inducida por fármacos.
+  - Digestivas: úlcera péptica activa y enfermedad inflamatoria intestinal.
+  - Respiratorias: asma.
+  - Otras: trastornos de la coagulación, anemia, hemoglobinopatías, diabetes y cetoacidosis diabética, enfermedad de la vesícula biliar, abuso o dependencia de sustancias y queratitis.
+- **Dianas farmacológicas relevantes:** COX-1 y COX-2 (mecanismo principal), PPARγ, TRPM3, ASIC3 y PAT1. Estos datos describen la farmacología del fármaco y no son interacciones medicamentosas clínicas.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5: no hay ensayos, no hay literatura y no hay un vínculo mecanístico plausible entre la inhibición de la COX y un trastorno genético del folículo piloso. Con estos datos no se justifica avanzar.
+La predicción para hipotricosis simple del cuero cabelludo tiene nivel de evidencia L5: no hay ensayos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de la COX y un defecto genético folicular.
+
+Entre las 10 principales predicciones, solo la **artritis idiopática juvenil** (puntaje 99.25%) cuenta con literatura de apoyo (nivel L3). Esa literatura consiste en estudios pediátricos pequeños y antiguos con diclofenaco, como un estudio abierto de 1983 y un cruzado de 1988, además de revisiones. En la práctica esto es una extensión del uso habitual de los AINE y no un reposicionamiento novedoso. Podría evaluarse como una línea de investigación independiente.
 
 **Para avanzar se necesita:**
-- Datos preclínicos o de mecanismo que conecten la vía de las prostaglandinas con la hipotricosis simple.
-- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), actualmente sin datos y con impacto bloqueante para el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Revisar las demás predicciones. La de **artritis idiopática juvenil** (rango 9, puntaje 99.25%) tiene evidencia nivel L3, con estudios clínicos antiguos de diclofenaco en artritis juvenil, y recomendación "Proceed with Guardrails". Es más cercana a un uso ya establecido de la clase AINE que a un reposicionamiento nuevo, y es la candidata con más respaldo de este paquete.
+- Datos detallados del mecanismo de acción (MOA) y un análisis mecanístico que vincule la COX o las prostaglandinas con la biología del folículo piloso.
+- Estudios preclínicos o revisión de literatura que respalden la hipótesis; actualmente no existen.
+- Advertencias y contraindicaciones del prospecto de la AEMPS para completar la evaluación de seguridad.
+- Si se prioriza una indicación alternativa (por ejemplo, artritis idiopática juvenil), una revisión sistemática de la evidencia pediátrica y un análisis de seguridad gastrointestinal, renal y hepática.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

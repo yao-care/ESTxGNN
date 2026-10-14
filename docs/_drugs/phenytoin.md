@@ -2,7 +2,7 @@
 layout: default
 title: Phenytoin
 parent: Solo predicción del modelo (L5)
-nav_order: 422
+nav_order: 634
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,8 +33,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-La fenitoína es un anticonvulsivo bloqueador de canales de sodio dependientes de voltaje, utilizado originalmente para tratar la epilepsia (crisis tónico-clónicas y parciales complejas).
-El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio trigémino**, pero **no hay ensayos clínicos** y las **5 publicaciones** recuperadas tratan de neuralgia del trigémino y síndrome de Sturge-Weber, no de tumores. Esta predicción carece de respaldo real.
+Fenitoína es un antiepiléptico bloqueador de canales de sodio dependientes de voltaje, utilizado originalmente para tratar la epilepsia (crisis tónico-clónicas generalizadas, crisis parciales, síndrome de Lennox-Gastaut y estatus epiléptico).
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, aunque **no hay ensayos clínicos** y solo **2 publicaciones** relacionadas, ninguna de las cuales aborda directamente esa enfermedad.
+Se trata de una predicción sin respaldo real (nivel L5); la señal parece reflejar la cercanía en el grafo con la neuralgia del trigémino, una indicación distinta y mejor sustentada.
 
 ---
 
@@ -42,9 +43,9 @@ El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio tri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia (fuente: datos de farmacología; las autorizaciones de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Epilepsia (las autorizaciones españolas no incluyen texto de indicación; el dato procede del grafo de conocimiento) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 99,99 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 6 |
@@ -54,11 +55,11 @@ El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, la fenitoína es un bloqueador de canales de sodio dependiente del uso, y la base de datos de farmacología la vincula con el canal Nav1.2 (gen *SCN2A*). Su eficacia en epilepsia está comprobada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la fenitoína bloquea de forma dependiente del uso los canales de sodio dependientes de voltaje (entre ellos Nav1.2, codificado por SCN2A), lo que estabiliza las membranas neuronales y limita la descarga repetitiva de alta frecuencia. Su eficacia en la epilepsia está bien establecida.
 
-**Este mecanismo no respalda un efecto antitumoral.** El bloqueo de canales de sodio suprime descargas neuronales anómalas, pero no hay evidencia de actividad antineoplásica. Es probable que el vínculo del modelo provenga de nodos vecinos en el grafo de conocimiento relacionados con el nervio trigémino. La literatura recuperada confirma esta sospecha: habla de neuralgia del trigémino y Sturge-Weber, no de neoplasia.
+Para la neoplasia del nervio trigémino, **no existe una justificación mecanística directa de actividad antitumoral**. El bloqueo de canales de sodio podría aliviar el dolor neuropático causado por la afectación nerviosa, pero sería un efecto sintomático y no modificador de la enfermedad. Los dos artículos recuperados tratan sobre la neuralgia del trigémino y el síndrome de Sturge-Weber, no sobre neoplasias del trigémino.
 
-Como indicación relacionada, la neuralgia del trigémino (predicción n.º 9) sí tiene una justificación mecanística coherente. Se detalla más abajo.
+La puntuación elevada probablemente se explica por la proximidad en el grafo con la **neuralgia del trigémino** (puesto 9 de las predicciones), donde la fenitoína sí tiene una base mecanística sólida, aunque como opción de segunda línea o histórica.
 
 ---
 
@@ -72,69 +73,53 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revisión | Expert Rev Neurother | Revisión de tratamientos médicos y quirúrgicos de la neuralgia del trigémino. No trata neoplasias. |
-| [21751615](https://pubmed.ncbi.nlm.nih.gov/21751615/) | 2011 | Revisión | J Assoc Physicians India | Síndrome de Sturge-Weber (angiomatosis encefalotrigeminal) con crisis epilépticas. No es un tumor. |
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | An Esp Pediatr | Experiencia con 14 casos de Sturge-Weber: características clínicas y respuesta terapéutica. |
-| [4155965](https://pubmed.ncbi.nlm.nih.gov/4155965/) | 1971 | Sin clasificar | Birth Defects Orig Artic Ser | Trastornos dermatológicos en personas con discapacidad intelectual institucionalizadas, incluidas reacciones iatrogénicas a fármacos. |
-| [5514358](https://pubmed.ncbi.nlm.nih.gov/5514358/) | 1970 | Sin clasificar | Trans Am Neurol Assoc | Tamaño de fibras de la raíz posterior del trigémino y analgesia en neuralgia del trigémino. Sin resumen disponible. |
-
-Ninguna publicación evalúa fenitoína en neoplasia del nervio trigémino.
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revisión | Expert Review of Neurotherapeutics | Revisión de los múltiples tratamientos médicos y quirúrgicos de la neuralgia del trigémino; no trata neoplasias del nervio |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | Anales Españoles de Pediatría | Experiencia con 14 casos de síndrome de Sturge-Weber, con su evolución y respuesta terapéutica; no aborda la indicación predicha |
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 56245 | Fenitoína Rubio 50 mg/ml solución inyectable | Solución inyectable |
-| 65372 | Fenitoína Altan 50 mg/ml solución inyectable | Solución inyectable |
-| 65340 | Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG | Solución inyectable |
-| 45695 | Epanutin 100 mg cápsulas duras | Cápsula dura |
-| 5970 | Sinergina 100 mg comprimidos | Comprimido |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 56245 | Fenitoína Rubio 50 mg/ml solución inyectable | Solución inyectable | No disponible |
+| 65372 | Fenitoína Altan 50 mg/ml solución inyectable | Solución inyectable | No disponible |
+| 65340 | Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
+| 45695 | Epanutin 100 mg cápsulas duras | Cápsula dura | No disponible |
+| 5970 | Sinergina 100 mg comprimidos | Comprimido | No disponible |
 
-Hay 6 autorizaciones en total, de las cuales se muestran 5. Los registros no incluyen texto de indicación aprobada.
+Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / enfermedades de precaución (según el grafo de conocimiento, no el prospecto)**:
+  - Cardiovasculares: síndrome de QT largo (incluido el familiar), torsades de pointes, trastornos hipotensivos.
+  - Hepáticas: insuficiencia hepática, hepatopatía, enfermedad de la vesícula biliar, coma hepático y encefalopatía hepática.
+  - Hematológicas: trombocitopenia, neutropenia, agranulocitosis.
+  - Metabólicas: hiperglucemia, diabetes mellitus, cetoacidosis diabética, porfiria (incluida la hereditaria).
+  - Otras: enfermedad renal, piouréter, lupus eritematoso sistémico (incluido el pediátrico), trastornos de ansiedad, trastorno neurótico, trastorno distímico, abuso/dependencia de sustancias, apnea del sueño (obstructiva), síndrome de hipoventilación central congénita y síndrome de Haddad.
+- **Interacciones farmacológicas**: la consulta se completó y solo registró una relación farmacológica, con el canal Nav1.2 (SCN2A) como diana. No se identificaron interacciones con otros fármacos.
+- La literatura recuperada para otras indicaciones describe reacciones adversas como trombocitopenia, hiperglucemia, cetoacidosis diabética y empeoramiento de porfiria aguda intermitente, coherentes con la lista anterior.
 
----
-
-## Otras Indicaciones Predichas con Más Sustento
-
-El modelo devolvió 10 predicciones. La primera es un probable artefacto del grafo. Otras tienen más respaldo:
-
-| Indicación | Puntaje | Nivel | Evidencia disponible | Decisión |
-|------|------|------|------|------|
-| Neuralgia del trigémino | 99.97% | L3 | Ensayo [NCT03712254](https://clinicaltrials.gov/study/NCT03712254) (completado, 15 pacientes, fenitoína en exacerbaciones agudas). Estudios retrospectivos de fenitoína IV ([32981076](https://pubmed.ncbi.nlm.nih.gov/32981076/), [35469475](https://pubmed.ncbi.nlm.nih.gov/35469475/)). ECA de fosfenitoína IV, 2026 ([42096672](https://pubmed.ncbi.nlm.nih.gov/42096672/)). Una revisión ([28761370](https://pubmed.ncbi.nlm.nih.gov/28761370/)) cuestiona su base de evidencia. | Proceed with Guardrails |
-| Convulsiones reflejas (por sobresalto, audiógenas, por lectura, por micción, etc.) | 99.97–99.98% | L4–L5 | Solo evidencia preclínica, informes de casos y justificación por efecto de clase. Sin ensayos específicos. | Hold |
-| Déficit de beta-cetotiolasa | 99.95% | L5 | Sin ensayos ni literatura. Sin vínculo mecanístico. | Hold |
-
-Para la neuralgia del trigémino, las salvaguardas propuestas son:
-- Limitar el uso al rescate agudo.
-- Administrar por vía IV con monitorización, por el riesgo cardíaco y de hipotensión.
-- Confirmar el lugar actual de la fenitoína en las guías antes de recomendarla.
-
-El ECA de 2026 evaluó fosfenitoína, un profármaco, no fenitoína directamente.
+Las advertencias y contraindicaciones del prospecto de la AEMPS no estaban disponibles en los datos compilados; consulte el prospecto para la información de seguridad oficial.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold** (para neoplasia del nervio trigémino)
+**Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni literatura sobre fenitoína en neoplasia del trigémino, y no hay mecanismo antitumoral plausible. El puntaje alto del modelo parece un artefacto del grafo.
+La predicción para neoplasia del nervio trigémino carece de ensayos clínicos, de literatura directa y de un mecanismo antitumoral plausible (nivel L5). La puntuación alta parece un artefacto del grafo por la cercanía con la neuralgia del trigémino.
 
 **Para avanzar se necesita:**
-- Reorientar la evaluación hacia la neuralgia del trigémino, la única indicación con evidencia clínica directa (L3).
-- Obtener la ficha técnica de AEMPS para advertencias y contraindicaciones, que hoy no están disponibles.
-- Completar el mecanismo de acción desde DrugBank.
-- Confirmar la posición de la fenitoína IV en las guías vigentes, por ejemplo la guía de la Academia Europea de Neurología ([30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/)).
-
-*Los resultados son solo para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Descartar esta indicación como candidata antitumoral, salvo que aparezca evidencia preclínica o clínica específica.
+- Considerar reorientar el análisis hacia la **neuralgia del trigémino**, donde existen guías (EAN 2019), revisiones y estudios observacionales con fenitoína intravenosa (nivel L3, aunque no supera a carbamazepina/oxcarbazepina de primera línea); requeriría una comparación directa con los tratamientos actuales.
+- Obtener los datos del mecanismo de acción detallados (DrugBank).
+- Descargar y analizar el prospecto de la AEMPS para completar las advertencias y contraindicaciones oficiales (bloqueante para el cribado de seguridad).
+- Verificar los textos de indicación aprobada en las autorizaciones españolas, que aparecen vacíos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorpromazine
-parent: Solo predicción del modelo (L5)
-nav_order: 122
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 174
+evidence_level: L4
 indication_count: 10
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clorpromazina: De Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+# Clorpromazina: De Trastorno Bipolar Maníaco y Esquizofrenia a Distrofia Retiniana
 
 ## Resumen en Una Frase
 
-La clorpromazina es un antipsicótico de primera generación, utilizado originalmente en el tratamiento de la esquizofrenia y la fase maníaca del trastorno bipolar.
-El modelo TxGNN predice que podría ser efectiva para la **distrofia retiniana con o sin anomalías extraoculares**, pero **no hay ensayos clínicos** y las **15 publicaciones** recuperadas son de oftalmología general y no mencionan el fármaco, por lo que no respaldan la predicción.
-
----
+La clorpromazina es un antipsicótico clásico utilizado originalmente para el tratamiento de la esquizofrenia, los trastornos psicóticos y la fase maníaca del trastorno bipolar.
+El modelo TxGNN predice que podría ser efectiva para **distrofia retiniana con o sin anomalías extraoculares**, pero **no existen ensayos clínicos** y solo hay **1 publicación**, que describe reacciones fototóxicas (una señal de efecto adverso, no terapéutica).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia (según la farmacología de referencia; los registros de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Trastorno bipolar maníaco, trastorno psicótico, esquizofrenia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99,95% |
-| Nivel de Evidencia | L5 |
+| Puntaje de Predicción TxGNN | 99.95% |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información farmacológica conocida, la clorpromazina es un antagonista de múltiples receptores: dopaminérgicos (D1 a D5), serotoninérgicos (5-HT1A, 5-HT2A, 5-HT2C, 5-HT6 y 5-HT7), adrenérgicos alfa-2 (A, B y C) e histamínico H1. También actúa sobre el canal TRPC5 y sobre los canales de cloro de tipo Maxi. Su eficacia en esquizofrenia proviene sobre todo del bloqueo dopaminérgico D2.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información farmacológica conocida, la clorpromazina actúa como antagonista de múltiples receptores: dopaminérgicos (D1 a D5), serotoninérgicos (5-HT1A, 5-HT2A, 5-HT2C, 5-HT6, 5-HT7), adrenérgicos α2 y de histamina H1. Su efecto antipsicótico se atribuye principalmente al antagonismo del receptor D2.
 
-**No se identificó un mecanismo plausible** que vincule estos blancos con la distrofia retiniana. El puntaje de 99,95% procede únicamente de la predicción del grafo de conocimiento. La literatura recuperada trata de enfermedades orbitarias y oculares en general y no menciona la clorpromazina, así que parece una coincidencia por palabras clave del nombre de la enfermedad.
+La relación entre la indicación original (trastornos psiquiátricos) y la distrofia retiniana es muy débil. La única publicación disponible (JAMA, 1967) describe reacciones fototóxicas con dosis altas de clorpromazina y tioridazina. La clorpromazina se acumula en tejidos con melanina, como el epitelio pigmentario de la retina, lo que sugiere un posible **daño** y no un beneficio en esta enfermedad.
 
-Además, la clorpromazina puede causar depósitos oculares (córnea y cristalino), y existe un informe antiguo de retinopatía por fenotiazinas. Esto apunta a **precaución más que a beneficio** en enfermedades oculares.
-
----
+Por tanto, el puntaje elevado del modelo no está respaldado por un mecanismo terapéutico identificable y probablemente refleja asociaciones de red del grafo de conocimiento. Entre las demás predicciones del modelo, la más coherente es la esquizofrenia de inicio temprano (puntaje 99.47%, nivel L4), que es más una extensión a un subgrupo de edad de una indicación ya existente que un reposicionamiento verdadero. Sin embargo, su evidencia se limita a estudios observacionales, de imagen y farmacogenéticos, sin ensayos clínicos pediátricos o adolescentes.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
-
-Las publicaciones se ordenan por cercanía al tema. Ninguna evalúa la clorpromazina como tratamiento de la distrofia retiniana.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [5647013](https://pubmed.ncbi.nlm.nih.gov/5647013/) | 1968 | No clasificado | Ophthalmologica | Retinopatía asociada a fenotiazinas (sin resumen disponible); señal de toxicidad, no de beneficio |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | No clasificado | Am J Ophthalmol | Patogenia y tratamiento de la maculopatía asociada a anomalías cavitarias del disco óptico |
-| [31359131](https://pubmed.ncbi.nlm.nih.gov/31359131/) | 2019 | No clasificado | Human Genetics | Arquitectura genética de los defectos del desarrollo ocular ligados a la señalización del ácido retinoico |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | No clasificado | Int J Mol Sci | Anomalías del nervio óptico y de la retina en la fibrosis congénita de los músculos extraoculares |
-| [36892533](https://pubmed.ncbi.nlm.nih.gov/36892533/) | 2023 | No clasificado | Invest Ophthalmol Vis Sci | Mutaciones de MAB21L1 y un nuevo síndrome ocular autosómico dominante (BAMD) |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Revisión | Pediatr Radiol | Diagnóstico diferencial y hallazgos de imagen de las patologías oculares pediátricas |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Revisión | Taiwan J Ophthalmol | Anomalías congénitas de la forma del cristalino |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Revisión | J Binocul Vis Ocul Motil | Oftalmoplejía y trastornos congénitos de disinervación craneal |
-| [30747268](https://pubmed.ncbi.nlm.nih.gov/30747268/) | 2019 | Cohorte | Neuroradiology | Características neurorradiológicas y clínicas de la oftalmoplejía |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Revisión | Semin Neurol | Enfoque sistemático del paciente con diplopía |
-
----
+| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Revisión / casos (toxicidad) | JAMA | Reacciones fototóxicas inducidas por dosis altas de clorpromazina y tioridazina; señal de seguridad, no de eficacia |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 42934 | LARGACTIL 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | Neuraxpharm Spain S.L. |
-| 23665 | LARGACTIL 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | Neuraxpharm Spain S.L. |
-| 19622 | LARGACTIL 5 mg/ml solución inyectable | Solución inyectable | Neuraxpharm Spain S.L. |
-| 23661 | LARGACTIL 40 mg/ml gotas orales en solución | Gotas orales en solución | Neuraxpharm Spain S.L. |
+| 42934 | LARGACTIL 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 23665 | LARGACTIL 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 19622 | LARGACTIL 5 mg/ml solución inyectable | Solución inyectable | No disponible |
+| 23661 | LARGACTIL 40 mg/ml gotas orales en solución | Gotas orales en solución | No disponible |
 
----
+Todas las autorizaciones son de medicamentos de un solo principio activo, vigentes, y su titular es Neuraxpharm Spain S.L.
 
 ## Consideraciones de Seguridad
 
-- **Consideración relevante para la nueva indicación**: la clorpromazina puede producir depósitos oculares en córnea y cristalino, y existe un antecedente publicado de retinopatía por fenotiazinas.
-- **Interacciones Farmacológicas**: la consulta se completó, pero los 16 registros corresponden a blancos farmacológicos (receptores y canales) y no a interacciones con otros fármacos.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto, por lo que deben verificarse): síndrome de QT largo (incluido el familiar), torsades de pointes, parada cardíaca súbita, enfermedad de la conducción cardíaca, infarto de miocardio, hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica, epilepsia, enfermedades de los ganglios basales, distonía focal de la mano, blefaroespasmo, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, leucopenia, anemias (incluida la macrocítica), hemoglobinopatías, hiperglucemia, obesidad, hiperplasia benigna de próstata, carcinoma de mama femenino y abuso o dependencia de sustancias.
+- **Interacciones farmacológicas**: los datos compilados corresponden a perfiles de afinidad por dianas farmacológicas (receptores dopaminérgicos, serotoninérgicos, adrenérgicos α2 e histaminérgico H1, entre otros) y no a interacciones con otros fármacos concretos. Estas dianas implican posible efecto aditivo con otros depresores del sistema nervioso central, antihipertensivos y fármacos que prolonguen el intervalo QT.
+- **Señal específica de esta predicción**: la fototoxicidad y la acumulación en tejidos pigmentados, incluida la retina, aconsejan especial cautela en enfermedades oculares.
 
-Consultar el prospecto para el resto de la información de seguridad.
-
----
+Para las advertencias principales y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos clínicos, sin mecanismo plausible y con una literatura que no menciona el fármaco. Las señales de toxicidad ocular sugieren precaución.
+La predicción para distrofia retiniana carece de ensayos clínicos y de un mecanismo terapéutico plausible, y la única publicación apunta a toxicidad retiniana potencial. El puntaje alto del modelo no basta para avanzar.
 
 **Para avanzar se necesita:**
-- Completar el mecanismo de acción del fármaco (DrugBank).
-- Obtener las advertencias y contraindicaciones del prospecto de AEMPS.
-- Documentar la indicación autorizada, ya que los registros de AEMPS no incluyen texto de indicación.
-- Buscar estudios preclínicos que respalden algún efecto en distrofias retinianas.
-
-**Nota sobre otras predicciones:** la única predicción de la lista con respaldo clínico es la **esquizofrenia de inicio temprano** (puesto 10, puntaje 99,47%, nivel L3). Probablemente no es un reposicionamiento real, porque la esquizofrenia ya es un uso establecido del fármaco. La evidencia disponible es observacional y farmacogenética, y no hay ECA en población pediátrica. Las demás predicciones (miopías, hidranencefalia, Charcot-Marie-Tooth, entre otras) no tienen mecanismo plausible ni evidencia.
+- Obtener y analizar el prospecto oficial de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas), que es un vacío bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción (por ejemplo, mediante consulta a DrugBank).
+- Evaluar la toxicidad ocular y retiniana de la clorpromazina con estudios preclínicos o de mecanismo antes de considerar cualquier uso en enfermedades de la retina.
+- Si se quiere priorizar una línea de investigación, considerar la esquizofrenia de inicio temprano como pregunta de investigación, con revisión de seguridad en población joven (síntomas extrapiramidales, sedación, efectos metabólicos) y comparación con antipsicóticos de segunda generación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

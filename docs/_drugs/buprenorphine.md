@@ -2,7 +2,7 @@
 layout: default
 title: Buprenorphine
 parent: Evidencia moderada (L3-L4)
-nav_order: 89
+nav_order: 125
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,21 +29,20 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Buprenorfina: De Dolor Intenso y Dependencia de Opioides a Porfiria Aguda Intermitente
+# Buprenorfina: De Dependencia de Opioides a Porfiria Aguda Intermitente
 
 ## Resumen en Una Frase
 
-La buprenorfina se utiliza originalmente para tratar el dolor intenso y la dependencia de opioides.
-El modelo TxGNN predice que podría ser efectiva para **porfiria aguda intermitente**,
-pero solo hay **0 ensayos clínicos** y **1 publicación** (un reporte de caso sobre manejo anestésico), que no respalda un efecto terapéutico.
+La buprenorfina es un opioide agonista parcial utilizado originalmente para el tratamiento de la dependencia de opioides (y de otras sustancias, incluida la dependencia de morfina).
+El modelo TxGNN predice que podría ser efectiva para **porfiria aguda intermitente**, pero **no hay ensayos clínicos** y solo **1 publicación** (un informe de caso de 1993 sobre manejo anestésico), que no demuestra eficacia terapéutica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dolor intenso y dependencia de opioides (según datos farmacológicos; los registros de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Dependencia de opioides (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Porfiria aguda intermitente |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Puntaje de Predicción TxGNN | 99,41% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -51,50 +50,55 @@ pero solo hay **0 ensayos clínicos** y **1 publicación** (un reporte de caso s
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de DrugBank. Según la información farmacológica disponible, la buprenorfina es un agonista parcial del receptor opioide mu (OPRM1) y antagonista del receptor kappa (OPRK1). Se usa como analgésico potente y en el tratamiento de mantenimiento de la dependencia de opioides.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la buprenorfina actúa sobre los receptores opioides μ (OPRM1) y κ (OPRK1), y su eficacia en la dependencia de opioides está comprobada.
 
-**Con la evidencia actual, la predicción no es razonable desde el punto de vista mecanístico.** No existe un vínculo terapéutico conocido entre la buprenorfina y la porfiria aguda intermitente. El único artículo asociado es un reporte de caso sobre el manejo anestésico de una paciente con porfiria, es decir, sobre la seguridad de la analgesia durante una cirugía y no sobre el tratamiento de la enfermedad.
+Sin embargo, **no se ha establecido un vínculo mecanístico directo** con la porfiria aguda intermitente. La única publicación recuperada describe el manejo anestésico de una paciente con esta enfermedad; trata de la seguridad de los fármacos durante la cirugía, no del tratamiento de la enfermedad. El puntaje tan alto del modelo (0,994) es solo una predicción computacional y no constituye evidencia clínica.
 
-El puntaje alto de TxGNN (0.994) probablemente es un artefacto del grafo de conocimiento y no está respaldado por evidencia clínica.
+Antes de cualquier consideración, sería necesario verificar de forma independiente el perfil de seguridad de la buprenorfina en porfiria, es decir, si es porfirinogénica.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Reporte de caso | Masui (Revista japonesa de anestesiología) | Manejo anestésico de una mujer de 40 años con sospecha de porfiria aguda intermitente, operada por un tumor maligno de ovario. Trata la seguridad perioperatoria, no un tratamiento de la porfiria. |
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Reporte de caso | Masui (Japanese Journal of Anesthesiology) | Manejo anestésico de una mujer de 40 años con sospecha de porfiria aguda intermitente sometida a histerectomía radical por tumor ovario maligno; trata de seguridad perioperatoria, no de eficacia terapéutica |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 80670 | GEXANA 52,5 microgramos/hora parche transdérmico EFG | Parche transdérmico |
-| 82322 | Buprenorfina Sandoz Farmacéutica 70 microgramos/hora parches transdérmicos EFG | Parche transdérmico |
-| 1191369001 | SIXMO 74,2 mg implante | Implante |
-| 82066 | Buprenorfina Semanal Stada 10 microgramos/hora parche transdérmico | Parche transdérmico |
-| 70804 | FELIBEN 35 microgramos/hora parches transdérmicos | Parche transdérmico |
+Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-Se muestran 5 de las 20 autorizaciones. Los registros no incluyen el texto de la indicación aprobada. También existe una forma de solución inyectable de liberación prolongada.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 80670 | Gexana 52,5 microgramos/hora parche transdérmico EFG | Parche transdérmico | No disponible |
+| 82322 | Buprenorfina Sandoz Farmacéutica 70 microgramos/hora parches transdérmicos EFG | Parche transdérmico | No disponible |
+| 1191369001 | Sixmo 74,2 mg implante | Implante | No disponible |
+| 1181336002 | Buvidal 16 mg solución inyectable de liberación prolongada | Solución inyectable de liberación prolongada | No disponible |
+| 70804 | Feliben 35 microgramos/hora parches transdérmicos | Parche transdérmico | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones asociadas en el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de QT largo (incluido el familiar) y torsades de pointes, hipotensión ortostática, enfermedad pulmonar obstructiva crónica, insuficiencia respiratoria, enfermedad hepática (incluidas las infecciones crónicas por virus de la hepatitis B y C), enfermedad de la vesícula biliar, insuficiencia suprarrenal/enfermedad de Addison, hipotiroidismo/mixedema, hiperplasia benigna de próstata, íleo paralítico y obstrucción intestinal, hipertensión intracraneal/pseudotumor cerebral, estenosis uretral, y trastornos por uso de sustancias.
+- **Farmacología**: la buprenorfina interactúa con los receptores opioides μ y κ humanos.
+- Para las advertencias principales, contraindicaciones oficiales e interacciones medicamentosas, consultar el prospecto.
 
-Dado que la indicación propuesta es una porfiria aguda, conviene verificar en la ficha técnica la seguridad del fármaco en pacientes con porfiria antes de cualquier uso.
+Además, en las otras indicaciones predichas se señalan preocupaciones específicas: los opioides pueden reducir el umbral convulsivo (relevante en la encefalopatía epiléptica con espigas-onda continuas durante el sueño) y la relación beneficio-riesgo sería desfavorable en condiciones benignas y autolimitadas como los episodios de estremecimiento benigno.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos, y la única publicación es un reporte de caso sobre manejo anestésico que no muestra ningún efecto terapéutico. El puntaje de TxGNN por sí solo no basta para avanzar. Las otras cinco predicciones (discinesia lingual-facial-bucal, trastorno de tics crónico, punta-onda continua durante el sueño, enfermedad extrapiramidal y del movimiento, y ataques de estremecimiento benigno) tampoco tienen respaldo clínico. Cuatro de ellas están en nivel L4 o L5 sin ensayos, y en la discinesia solo hay señales indirectas o de seguridad.
+La predicción se apoya únicamente en el modelo computacional y en un informe de caso sobre anestesia que no aborda el tratamiento de la enfermedad. No hay ensayos clínicos ni vínculo mecanístico establecido, y la seguridad en porfiria no está verificada.
 
 **Para avanzar se necesita:**
-- Una hipótesis mecanística concreta que vincule los receptores mu y kappa con la fisiopatología de la porfiria aguda intermitente
-- Datos del mecanismo de acción (MOA) desde DrugBank
-- Advertencias y contraindicaciones del prospecto de AEMPS, incluyendo la seguridad en porfiria
-- Estudios preclínicos o clínicos que evalúen la eficacia, no solo el manejo anestésico
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Datos del mecanismo de acción de la buprenorfina y análisis de su vínculo con la fisiopatología de la porfiria aguda intermitente
+- Verificación de si la buprenorfina es porfirinogénica (bases de datos de seguridad en porfiria)
+- Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones oficiales)
+- Estudios preclínicos o series de casos que sugieran un posible beneficio terapéutico
+- Revisión de los demás candidatos predichos (discinesia lingual-facial-bucal, trastorno de tics crónico, entre otros), todos con evidencia igualmente débil (L4–L5) y también en estado Hold
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

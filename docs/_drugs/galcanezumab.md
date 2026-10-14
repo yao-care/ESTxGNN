@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Solo predicción del modelo (L5)
-nav_order: 253
+nav_order: 369
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,16 +33,16 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Galcanezumab es un anticuerpo monoclonal que neutraliza el péptido CGRP y está comercializado en España con el nombre Emgality. Los registros de autorización recibidos no indican su indicación original.
-El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofactor II de la heparina**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+Galcanezumab es un anticuerpo monoclonal que neutraliza el péptido relacionado con el gen de la calcitonina (CGRP), originalmente utilizado para el tratamiento de la migraña.
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofactor II de la heparina**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los registros de autorización recibidos |
+| Indicación Original | Migraña (según el grafo de conocimiento; el texto de indicación autorizada no está disponible en los datos de AEMPS) |
 | Nueva Indicación Predicha | Deficiencia de cofactor II de la heparina |
-| Puntaje de Predicción TxGNN | 99.50% |
+| Puntaje de Predicción TxGNN | 99,50% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
@@ -50,13 +50,11 @@ El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofact
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, galcanezumab es un anticuerpo monoclonal que neutraliza el CGRP (péptido relacionado con el gen de la calcitonina). La deficiencia de cofactor II de la heparina es un defecto en un inhibidor de serina proteasas de la trombina.
+En los datos compilados para este informe, el mecanismo de acción original del fármaco no figura de forma detallada. Según la información conocida, galcanezumab es un anticuerpo monoclonal que neutraliza el CGRP y actúa sobre la vía trigeminovascular, lo que explica su eficacia en la migraña.
 
-**No se identificó ningún vínculo mecanístico plausible.** La señalización del CGRP no participa en la vía de inhibición de la trombina. El puntaje alto de TxGNN (0.995) proviene de una predicción basada en grafos de conocimiento, sin ensayos ni literatura que la respalden, y no debe interpretarse como apoyo biológico.
+**La predicción no resulta biológicamente razonable.** La deficiencia de cofactor II de la heparina es una trombofilia causada por una menor inhibición de la trombina (vía SERPIND1) y no involucra la señalización del CGRP. No se ha identificado ningún vínculo mecanístico creíble entre ambas condiciones.
 
-El CGRP tiene funciones vasodilatadoras. Por eso, cualquier efecto en una condición trombofílica requeriría una revisión de seguridad antes de considerarse un posible beneficio.
-
-Las otras dos predicciones principales (deficiencia de antitrombina tipo 2, con 99.41%, y exceso de factor V con trombosis espontánea, con 99.41%) tampoco tienen ensayos, publicaciones ni vínculo mecanístico. Todas son trastornos de la coagulación, lo que sugiere un artefacto del grafo de conocimiento compartido entre estas enfermedades y no una señal específica del fármaco.
+El puntaje alto (0,995) parece ser un artefacto del grafo de conocimiento, probablemente por proximidad en la red a procesos vasculares o de coagulación. Además, las otras dos predicciones principales (deficiencia de antitrombina tipo 2, con 99,41%, y exceso de factor 5 con trombosis espontánea, con 99,41%) son también trombofilias con puntajes casi idénticos. Esto sugiere un artefacto común del modelo y no señales independientes.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,10 +68,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1181330001 | EMGALITY 120 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Solución inyectable | No especificada en el registro |
-| 1181330003 | EMGALITY 120 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Solución inyectable | No especificada en el registro |
-
-Ambas autorizaciones corresponden a Eli Lilly Nederland B.V.
+| 1181330001 | EMGALITY 120 MG solución inyectable en pluma precargada | Solución inyectable | No disponible en los datos |
+| 1181330003 | EMGALITY 120 MG solución inyectable en jeringa precargada | Solución inyectable | No disponible en los datos |
 
 ## Consideraciones de Seguridad
 
@@ -84,15 +80,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura y sin vínculo mecanístico plausible con el CGRP. Además, el contexto trombofílico exige cautela por el papel vasodilatador del CGRP.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre el bloqueo del CGRP y las trombofilias hereditarias. Los tres candidatos predichos presentan el mismo patrón, lo que apunta a un artefacto del grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- Ficha técnica de la AEMPS (advertencias y contraindicaciones), un bloqueo para el cribado de seguridad
-- Datos del mecanismo de acción (MOA) desde DrugBank
-- Indicación aprobada de las autorizaciones españolas, ausente en los registros recibidos
-- Una hipótesis biológica que justifique la predicción, con revisión de seguridad sobre riesgo trombótico, antes de considerar cualquier estudio
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos detallados del mecanismo de acción (MOA) del fármaco
+- Advertencias y contraindicaciones del prospecto de AEMPS, necesarias para cualquier evaluación de seguridad
+- Un fundamento biológico plausible que relacione la vía del CGRP con la inhibición de la trombina
+- Estudios preclínicos o de mecanismo que justifiquen reconsiderar la hipótesis
+- Valorar la posible consideración de la seguridad vascular y trombótica de los inhibidores del CGRP en estos pacientes antes de cualquier uso
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Iohexol
 parent: Solo predicción del modelo (L5)
-nav_order: 289
+nav_order: 427
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,66 +29,95 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Iohexol: De Medio de Contraste Diagnóstico a Insomnio
+# Iohexol: De Medio de Contraste Radiológico a Insomnio
 
 ## Resumen en Una Frase
 
-Iohexol es un medio de contraste yodado no iónico, hidrosoluble, que se utiliza como agente de diagnóstico por imagen. El modelo TxGNN predice que podría ser efectivo para el **insomnio**, con una puntuación muy alta (99,87 %). Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es una predicción puramente computacional.
+Iohexol es un medio de contraste yodado, no iónico e hidrosoluble, utilizado en técnicas de diagnóstico por imagen con rayos X.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero no existe ningún ensayo clínico ni publicación que respalde esta dirección (**0 ensayos clínicos** y **0 publicaciones**).
+La predicción carece de plausibilidad biológica y debe considerarse un probable artefacto del grafo de conocimiento.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Medio de contraste yodado para diagnóstico por imagen (los registros de AEMPS no incluyen el texto de indicación) |
+| Indicación Original | No disponible en los datos de autorización compilados (el texto de indicación está vacío); el producto se emplea como medio de contraste radiológico |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,87 % |
+| Puntaje de Predicción TxGNN | 99,87% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, iohexol es un contraste yodado no iónico que no se metaboliza y se excreta sin cambios por vía renal. Su función es diagnóstica (opacificación en imagen), no farmacológica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, iohexol es un medio de contraste yodado, no iónico e hidrosoluble, que actúa por atenuación de los rayos X y es farmacológicamente inerte.
 
-**No se identifica un vínculo mecanístico plausible** con el insomnio. Iohexol no tiene actividad conocida sobre las dianas relacionadas con el sueño (receptores GABA-A, orexina, histamina o melatonina). La puntuación alta de TxGNN proviene de asociaciones en el grafo de conocimiento, sin farmacología que la sustente.
+No se identifica un vínculo mecanístico con el insomnio. Iohexol no tiene actividad conocida sobre las vías que regulan el sueño (GABAérgica, orexinérgica, melatoninérgica o monoaminérgica). La relación con su uso original (diagnóstico por imagen) tampoco se traslada a un efecto terapéutico sobre el sueño.
 
-Tampoco existe relación terapéutica entre la indicación original (diagnóstico por imagen) y el insomnio. Por eso esta predicción debe considerarse una señal del modelo sin respaldo mecanístico ni clínico.
+El puntaje TxGNN muy alto (0,9987) probablemente refleja artefactos del grafo de conocimiento, como las 100 interacciones farmacológicas registradas, más que una relación biológica real.
+
+> **Nota sobre la segunda predicción (ansiedad, puntaje 99,25%):** tampoco se sustenta un mecanismo terapéutico. Las cuatro publicaciones recuperadas mencionan la ansiedad solo de forma incidental (contexto procedimental o efectos adversos), no como objetivo de tratamiento.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para insomnio.
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 62019 | OMNIPAQUE 350 mg Iodo/ml solución inyectable | Solución inyectable | GE Healthcare Bio-Sciences, S.A.U. |
-| 62017 | OMNIPAQUE 240 mg Iodo/ml solución inyectable | Solución inyectable | GE Healthcare Bio-Sciences, S.A.U. |
-| 62018 | OMNIPAQUE 300 mg Iodo/ml solución inyectable | Solución inyectable | GE Healthcare Bio-Sciences, S.A.U. |
+| 62019 | OMNIPAQUE 350 mg Iodo/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
+| 62017 | OMNIPAQUE 240 mg Iodo/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
+| 62018 | OMNIPAQUE 300 mg Iodo/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
+
+Titular: GE Healthcare Bio-Sciences, S.A.U.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se registran 100 interacciones. Entre las de gravedad mayor figuran:
+  - Corticoides: hidrocortisona, dexametasona, betametasona, triamcinolona
+  - Metformina
+  - Anfotericina B (incluida la formulación de complejo lipídico)
+  - Antibióticos: vancomicina, kanamicina, neomicina, levofloxacino
+  - Bupropión, morfina, metoclopramida
+  - Mesalazina y balsalazida
+  - Fentermina, dietilpropión, dronabinol
+  
+  Con gravedad moderada se registra manitol.
+
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni literatura para insomnio, y no existe un mecanismo plausible. La puntuación de TxGNN por sí sola no basta para avanzar.
-
-Como nota adicional, la segunda predicción (ansiedad, 99,25 %) tampoco tiene respaldo. Los seis ensayos y las publicaciones recuperados son coincidencias incidentales: iohexol se usa allí para medir la tasa de filtración glomerular (TFG) o como contraste en procedimientos, y nunca se evalúa como tratamiento. Todos se clasificaron con relevancia C y nivel L5.
+La predicción es solo computacional (nivel L5): no hay ensayos ni literatura, y la farmacología de iohexol, un agente de contraste inerte, no ofrece un mecanismo plausible sobre el sueño. El puntaje elevado parece un artefacto del grafo.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad
-- Completar los datos de mecanismo de acción desde DrugBank
-- Confirmar el texto de indicación aprobada de las tres autorizaciones
-- Encontrar alguna evidencia preclínica o clínica que vincule iohexol con el sueño; de lo contrario, descartar esta candidatura
+- Datos del mecanismo de acción y de las indicaciones aprobadas (ficha técnica de la AEMPS)
+- Advertencias y contraindicaciones del prospecto, para completar el cribado de seguridad
+- Una hipótesis mecanística y evidencia preclínica que justifiquen el insomnio antes de reconsiderar la candidatura
+- Valorar si el sistema debe filtrar predicciones de agentes de diagnóstico farmacológicamente inertes
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

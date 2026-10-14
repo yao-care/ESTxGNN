@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Palbociclib
-parent: Solo predicción del modelo (L5)
-nav_order: 402
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 603
+evidence_level: L4
 indication_count: 4
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,29 +29,35 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Palbociclib: De Cáncer de Mama a Hipertiroidismo
+# Palbociclib: De Indicación No Especificada a Artritis Reumatoide
 
 ## Resumen en Una Frase
 
-Palbociclib es un inhibidor de CDK4/6 utilizado en el cáncer de mama avanzado con receptores hormonales positivos y HER2 negativo (HR+/HER2-). El modelo TxGNN predice que podría ser efectivo para **hipertiroidismo**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, por lo que se basa solo en el modelo.
+Palbociclib es un inhibidor de las quinasas dependientes de ciclinas 4 y 6 (CDK4/6) que se comercializa en España con el nombre IBRANCE; los datos compilados para este informe no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (puntaje de 99,36 %, segunda predicción del ranking).
+Esta predicción se respalda con **0 ensayos clínicos** y **4 publicaciones** (un reporte de caso, un estudio observacional y dos estudios preclínicos).
+
+> **Nota sobre la selección:** la predicción de mayor puntaje del modelo es hipertiroidismo (99,44 %), pero no tiene ensayos ni literatura. Se evalúa aquí la artritis reumatoide por ser la primera con evidencia indirecta disponible. Las demás predicciones (hipertiroidismo, enfermedad trombótica y resistencia a la hormona tiroidea por mutación del receptor beta) se comentan en la conclusión.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de mama HR+/HER2- (deducido de la literatura recopilada; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Hipertiroidismo |
-| Puntaje de Predicción TxGNN | 99.44% |
-| Nivel de Evidencia | L5 |
+| Indicación Original | No disponible en los datos de autorización (el texto de indicación está vacío) |
+| Nueva Indicación Predicha | Artritis reumatoide (predicción n.º 2; la n.º 1, hipertiroidismo, no tiene evidencia) |
+| Puntaje de Predicción TxGNN | 99,36 % |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 6 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la literatura recopilada, palbociclib es un inhibidor dual de CDK4/6 con eficacia comprobada en cáncer de mama HR+/HER2-. Actúa frenando la proliferación celular en la fase G1 del ciclo celular.
+Palbociclib es un inhibidor de CDK4/6 que bloquea la progresión del ciclo celular en la fase G1. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada, pero su clase farmacológica es conocida y se usa en cáncer de mama con receptores hormonales positivos.
 
-**No hay un vínculo mecanístico respaldado** entre la inhibición de CDK4/6 y el hipertiroidismo. La puntuación de 99.44% proviene únicamente del grafo de conocimiento de TxGNN. No existen ensayos clínicos ni literatura sobre este uso, y la similitud con la indicación original no ha sido evaluada. Esta predicción debe tratarse como una hipótesis sin sustento y no como un candidato con fundamento.
+En artritis reumatoide, la hiperplasia sinovial depende de la proliferación de fibroblastos sinoviales. Estudios preclínicos indican que la inhibición del ciclo celular mejora la enfermedad en modelos animales sin suprimir la inmunidad adquirida (PMID 25165034). Otro trabajo señala una hiperplasia sinovial dependiente de CDK6 (PMID 39940918). Además, un reporte de caso describe la mejoría de una artritis reumatoide en una paciente con cáncer de mama tratada con palbociclib (PMID 33587021).
+
+Aun así, la evidencia es indirecta: modelos animales, un caso aislado y un estudio observacional. No hay evidencia clínica controlada, y la similitud con la indicación original no se ha podido evaluar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -59,55 +65,55 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/) | 2021 | Reporte de caso | Modern Rheumatology Case Reports | Mejoría de la artritis reumatoide en una mujer de 56 años con cáncer de mama tratada con palbociclib |
+| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Observacional (cohorte) | The Oncologist | Enfermedades inmunomediadas preexistentes y emergentes en pacientes con cáncer de mama tratadas con inhibidores de CDK4/6 y terapia endocrina |
+| [25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/) | 2016 | Preclínico (modelo animal) | Annals of the Rheumatic Diseases | La inhibición del ciclo celular combinada con bloqueo de citocinas potencia el efecto antiartrítico sin aumentar la inmunosupresión |
+| [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/) | 2025 | Preclínico (modelo animal) | Int J Mol Sci | Hiperplasia sinovial dependiente de CDK6 e independiente de CDK4 en ratones artríticos |
 
 ## Información de Mercado en España
 
-Se registran 6 autorizaciones en total. Los datos disponibles incluyen 5, todas de Pfizer Europe MA EEIG. El registro no incluye texto de indicación aprobada.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1161147005 | IBRANCE 125 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
+| 1161147003 | IBRANCE 100 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
+| 1161147001 | IBRANCE 75 MG CÁPSULAS DURAS | Cápsula dura | No disponible |
+| 1161147012 | IBRANCE 100 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
+| 1161147010 | IBRANCE 75 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1161147005 | IBRANCE 125 mg cápsulas duras | Cápsula dura |
-| 1161147003 | IBRANCE 100 mg cápsulas duras | Cápsula dura |
-| 1161147001 | IBRANCE 75 mg cápsulas duras | Cápsula dura |
-| 1161147012 | IBRANCE 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1161147010 | IBRANCE 75 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+Hay una sexta autorización (1161147014, IBRANCE 125 MG comprimidos recubiertos con película), no listada por el límite de cinco.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de CDK4/6) |
-| Riesgo de Mielosupresión | Alto (la neutropenia es un efecto conocido de la clase; un estudio preclínico también describe mielosupresión con palbociclib, PMID 39940918) |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de CDK4/6), usada en cáncer de mama |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. La literatura preclínica reporta mielosupresión inducida por palbociclib (PMID 39940918) |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar el prospecto; en general, hemograma con diferencial |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-No hay datos de advertencias, contraindicaciones ni interacciones en el paquete de evidencia. Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas:** se identificaron 100 interacciones (fuente: DDInter). Entre las de nivel **mayor** figuran claritromicina, cobicistat, deferiprona y lexidronam de samario (153Sm). Hay además numerosas interacciones moderadas (por ejemplo aprepitant, dexametasona, cimetidina, simvastatina, cilostazol, miconazol y cisaprida) y una menor (prucaloprida). La lista completa debe revisarse antes de cualquier uso.
+- **Señal de seguridad relacionada:** la literatura de farmacovigilancia (FAERS) describe eventos tromboembólicos con inhibidores de CDK4/6 (PMID 36794339, 39123221), además de toxicidad pulmonar, como la enfermedad pulmonar intersticial (PMID 37994878).
 
-Como referencia, la literatura recopilada para otras predicciones señala estas señales de seguridad de la clase CDK4/6:
-- **Eventos tromboembólicos** (PMID 36794339, 35300061), detectados en estudios de farmacovigilancia.
-- **Enfermedad pulmonar intersticial** (PMID 37994878).
-- **Neutropenia y supresión de médula ósea**, los efectos adversos más habituales de la clase.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de hipertiroidismo tiene nivel L5: solo hay puntuación del modelo, sin ensayos, sin literatura y sin vínculo mecanístico plausible.
+La evidencia para artritis reumatoide es solo preclínica y de un caso aislado (nivel L4), sin ensayos clínicos. Las otras predicciones carecen de respaldo (hipertiroidismo y resistencia a la hormona tiroidea, nivel L5) o la literatura apunta a un riesgo y no a un beneficio (enfermedad trombótica, donde la tromboembolia es un evento adverso). Los antecedentes de mielosupresión y las interacciones de nivel mayor añaden cautela.
 
 **Para avanzar se necesita:**
-- Datos de la indicación original y del mecanismo de acción (DrugBank y ficha técnica de la AEMPS).
-- Datos de advertencias y contraindicaciones del prospecto.
-- Una revisión de literatura específica sobre CDK4/6 y patología tiroidea que justifique un vínculo biológico.
-
-**Nota sobre otras predicciones del mismo análisis:**
-- **Artritis reumatoide** (puntaje 99.36%, nivel L4, "Research Question"): es la más prometedora. Hay un caso clínico de mejoría en una paciente con cáncer de mama tratada con palbociclib (PMID 33587021) y estudios en animales sobre hiperplasia sinovial dependiente de CDK6 (PMID 25165034, 39940918). Antes de cualquier estudio clínico habría que evaluar el riesgo de inmunosupresión y neutropenia.
-- **Enfermedad trombótica** (puntaje 99.32%, nivel L4, Hold): debe tratarse como una **alerta de seguridad**, no como una oportunidad terapéutica. La farmacovigilancia indica que los inhibidores de CDK4/6 se asocian a un mayor riesgo de eventos tromboembólicos.
-- **Resistencia a la hormona tiroidea por mutación en TRβ** (puntaje 99.30%, nivel L5, Hold): sin datos que la respalden.
+- Obtener el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones), actualmente ausente.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Estudios preclínicos adicionales y, de ser favorables, un ensayo exploratorio de fase 2 en artritis reumatoide.
+- Evaluar la relación beneficio-riesgo, en particular mielosupresión, eventos tromboembólicos e interacciones, en una población no oncológica.
+- Valorar la compatibilidad de vías de administración y la similitud con la indicación original, hoy pendientes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

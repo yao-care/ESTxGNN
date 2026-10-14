@@ -2,7 +2,7 @@
 layout: default
 title: Vinpocetine
 parent: Evidencia moderada (L3-L4)
-nav_order: 563
+nav_order: 853
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,87 +29,74 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Vinpocetina: De Trastornos Cerebrovasculares a Enfermedad de la Arteria Coronaria
+# Vinpocetina: De Demencia a Enfermedad de las Arterias Coronarias
 
 ## Resumen en Una Frase
 
-La vinpocetina es un fármaco comercializado en España en comprimidos, que según la farmacología de referencia se utiliza en trastornos cerebrovasculares y en el deterioro de memoria asociado a la edad.
-El modelo TxGNN predice que podría ser efectivo para la **enfermedad de la arteria coronaria**,
-pero actualmente **no hay ensayos clínicos registrados** y solo **3 publicaciones** indirectas (una revisión, un estudio preclínico y un estudio hemodinámico pequeño de 1988) respaldan esta dirección.
-
----
+Vinpocetina es un derivado sintético utilizado originalmente en trastornos cerebrovasculares y en el deterioro de la memoria asociado a la edad, con la demencia como indicación de partida.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de las arterias coronarias**,
+pero actualmente no hay **ningún ensayo clínico** registrado y solo se dispone de **2 publicaciones** de apoyo indirecto (una revisión sobre enfermedad cerebrovascular y un estudio preclínico sobre PDE en circulación pulmonar).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en las autorizaciones de AEMPS; la farmacología de referencia indica trastornos cerebrovasculares y deterioro de memoria asociado a la edad |
-| Nueva Indicación Predicha | Enfermedad de la arteria coronaria |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | Demencia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Nueva Indicación Predicha | Enfermedad de las arterias coronarias |
+| Puntaje de Predicción TxGNN | 99,90% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en Español | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
+> Nota: en la fila de mercado, léase "Estado de Mercado en España".
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro suministrado. Los datos farmacológicos disponibles indican que la vinpocetina actúa sobre las fosfodiesterasas PDE1A y PDE1C humanas. Según el conocimiento general de farmacología (no procede del registro), también se describe como vasodilatador cerebral, con bloqueo de canales de sodio dependientes de voltaje y actividad antiinflamatoria (vía IKK).
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información farmacológica disponible, la vinpocetina interactúa con las fosfodiesterasas PDE1A y PDE1C humanas. Se le atribuye la capacidad de aumentar el flujo sanguíneo cerebral y un efecto neuroprotector. La evaluación mecanística preliminar la describe además como bloqueante de canales de sodio dependientes de voltaje, con actividad vasodilatadora y antiinflamatoria (por ejemplo, inhibición de IKK).
 
-Mecanísticamente, aumentar los niveles de cAMP/cGMP podría mejorar el tono vascular y el flujo sanguíneo en enfermedad aterosclerótica. Por eso es plausible que un fármaco usado en enfermedad cerebrovascular se explore en enfermedad coronaria, ya que ambas comparten un sustrato vascular aterosclerótico.
+La relación entre la indicación original (demencia y trastornos cerebrovasculares) y la nueva (enfermedad coronaria) es de tipo vascular: en ambos casos hay un déficit de perfusión tisular. Mecanísticamente, la inhibición de PDE1 eleva los niveles de AMPc y GMPc, lo que produce vasodilatación y podría favorecer la función vascular coronaria.
 
-Este vínculo es solo una hipótesis. La literatura de apoyo es indirecta y no hay datos de resultados coronarios ni ensayos registrados. El puntaje alto de TxGNN refleja proximidad en el grafo de conocimiento, no evidencia clínica.
-
----
+Sin embargo, no existe evidencia directa en enfermedad coronaria. La literatura aportada trata sobre enfermedad cerebrovascular y sobre inhibidores de PDE en vasorreactividad pulmonar, por lo que solo respalda el mecanismo de forma indirecta. El puntaje de 0,999 es una predicción computacional y no sustituye a los datos clínicos.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17631470](https://pubmed.ncbi.nlm.nih.gov/17631470/) | 2007 | Revisión | Orvosi Hetilap | Revisa el papel de la vinpocetina en enfermedades cerebrovasculares a partir de estudios en humanos; destaca el beneficio de aumentar el flujo sanguíneo cerebral en hipoperfusión crónica |
-| [15377497](https://pubmed.ncbi.nlm.nih.gov/15377497/) | 2005 | Preclínico | Am J Physiol Lung Cell Mol Physiol | Inhibidores de PDE de cAMP potencian el efecto de análogos de prostaciclina en el remodelado vascular pulmonar hipóxico; relevancia indirecta para la vinpocetina |
-| [3188457](https://pubmed.ncbi.nlm.nih.gov/3188457/) | 1988 | Estudio clínico pequeño (diseño no especificado) | Vrachebnoe Delo | Efecto de Kavinton (vinpocetina) sobre la hemodinámica y el metabolismo de la adenosina en pacientes con aterosclerosis; sin resumen disponible |
-
----
+| [17631470](https://pubmed.ncbi.nlm.nih.gov/17631470/) | 2007 | Revisión | Orvosi Hetilap | Revisa el papel de la vinpocetina en enfermedades cerebrovasculares a partir de estudios en humanos; el aumento del flujo sanguíneo cerebral beneficia a pacientes con hipoperfusión crónica |
+| [15377497](https://pubmed.ncbi.nlm.nih.gov/15377497/) | 2005 | Preclínico | Am J Physiol Lung Cell Mol Physiol | Los inhibidores de PDE de AMPc potencian los efectos de los análogos de prostaciclina en el remodelado vascular pulmonar hipóxico (evidencia indirecta) |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61827 | VINPOCETINA COVEX 5 mg COMPRIMIDOS | Comprimido | Covex S.A. |
-| 85430 | VINPOCETINA COVEX 10 MG COMPRIMIDOS | Comprimido | Covex S.A. |
-
----
+| 61827 | VINPOCETINA COVEX 5 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+| 85430 | VINPOCETINA COVEX 10 MG COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: los datos compilados describen interacciones farmacológicas con los blancos PDE1A y PDE1C (inhibición de fosfodiesterasas); no se dispone de interacciones con otros fármacos ni de niveles de gravedad.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto. No se evaluó el perfil de seguridad en pacientes con enfermedad cardíaca.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para enfermedad coronaria solo existe evidencia indirecta (una revisión cerebrovascular, un estudio preclínico de PDE y un estudio hemodinámico de 1988), sin ensayos registrados. El nivel es L4 y no justifica avanzar por ahora.
-
-Dentro de las predicciones del modelo, la **isquemia miocárdica** (puntaje 99.90%) cuenta con más respaldo: estudios en animales de 2019 y 2026 que muestran cardioprotección. Es la línea más prometedora para una pregunta de investigación futura.
+La predicción tiene un puntaje muy alto, pero no existen ensayos clínicos ni estudios en humanos en enfermedad coronaria, y la literatura disponible solo apoya el mecanismo de forma indirecta (nivel L4).
 
 **Para avanzar se necesita:**
-- Prospecto de AEMPS con advertencias, contraindicaciones e indicación aprobada (actualmente sin datos)
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank
-- Estudios clínicos con desenlaces coronarios y evaluación de seguridad cardíaca específica
-- Revisión del contenido de los estudios clínicos antiguos, cuyo diseño y desenlaces no pueden verificarse solo con los títulos
+- Obtener el prospecto de la AEMPS para completar advertencias y contraindicaciones, requisito previo al cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Evidencia preclínica directa en modelos de enfermedad coronaria y, posteriormente, estudios clínicos exploratorios.
+- Evaluar la seguridad en pacientes con enfermedad cardíaca y posibles interacciones con fármacos cardiovasculares.
 
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Todo candidato de reposicionamiento requiere validación clínica antes de su uso.*
+**Otras indicaciones predichas (contexto):** el puntaje de la isquemia miocárdica (99,90%) cuenta con dos estudios preclínicos directos (modelos de rata y ratón) y podría ser una línea de investigación más sólida (L4, "pregunta de investigación"). Las demás predicciones (anomalía de la arteria coronaria izquierda, lisencefalia, alexia, malformación respiratoria y síndrome de Rienhoff) carecen de evidencia y de plausibilidad mecanística (L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

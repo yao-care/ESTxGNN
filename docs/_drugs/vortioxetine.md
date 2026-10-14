@@ -2,15 +2,15 @@
 layout: default
 title: Vortioxetine
 parent: Evidencia moderada (L3-L4)
-nav_order: 568
-evidence_level: L3
+nav_order: 858
+evidence_level: L4
 indication_count: 5
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,9 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Vortioxetina es un antidepresivo multimodal, utilizado originalmente para el trastorno depresivo mayor (TDM). El modelo TxGNN predice que podría ser efectivo para **trastorno neurótico**, una categoría diagnóstica antigua y amplia. Actualmente lo respaldan solo **1 ensayo clínico** (observacional) y **1 publicación** (de baja calidad metodológica).
+Vortioxetina es un antidepresivo multimodal de acción serotoninérgica, utilizado originalmente para el tratamiento del trastorno depresivo mayor y de los trastornos de ansiedad.
+El modelo TxGNN predice que podría ser efectivo para **trastorno neurótico**,
+pero actualmente hay **0 ensayos clínicos** y **1 publicación** de apoyo indirecto, por lo que la evidencia es muy limitada.
 
 ---
 
@@ -41,11 +43,11 @@ Vortioxetina es un antidepresivo multimodal, utilizado originalmente para el tra
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según la base de farmacología; el texto de indicación de la AEMPS no está disponible) |
+| Indicación Original | Trastorno depresivo mayor (depresión unipolar, depresión endógena y trastorno de ansiedad, según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Trastorno neurótico |
 | Puntaje de Predicción TxGNN | 99.24% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Español | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -53,19 +55,17 @@ Vortioxetina es un antidepresivo multimodal, utilizado originalmente para el tra
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos de mecanismo de acción en DrugBank. Los datos de farmacología muestran que vortioxetina actúa sobre el transportador de serotonina (SERT) y sobre varios receptores serotoninérgicos (5-HT1A, 5-HT1B, 5-HT1D, 5-HT3, 5-HT5A, 5-HT6 y 5-HT7). La literatura la describe como inhibidora de SERT, agonista 5-HT1A, agonista parcial 5-HT1B y antagonista 5-HT3/5-HT7.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado oficialmente. Según la información farmacológica compilada, vortioxetina actúa sobre el transportador de serotonina (SERT) y sobre varios receptores serotoninérgicos (5-HT1A, 5-HT1B, 5-HT1D, 5-HT3, 5-HT5A, 5-HT6 y 5-HT7). Este perfil multimodal explica su efecto antidepresivo y es plausiblemente relevante en cuadros ansioso-depresivos.
 
-"Trastorno neurótico" es una categoría antigua y muy amplia, y por eso el vínculo con la indicación original es **indirecto**. El puntaje alto de TxGNN probablemente refleja la cercanía de este término a los trastornos depresivos en el grafo de conocimiento, no un mecanismo propio. Por ello, la predicción debe leerse con cautela.
+"Trastorno neurótico" es una categoría clásica y en desuso que agrupa cuadros como la depresión neurótica y los estados de ansiedad. Se solapa en gran medida con las indicaciones ya establecidas de vortioxetina (depresión y trastorno de ansiedad). Por ello, el puntaje alto del modelo probablemente refleja la cercanía semántica con las indicaciones aprobadas y no un uso terapéutico realmente nuevo.
 
-Mecanísticamente, un fármaco serotoninérgico con perfil antidepresivo y ansiolítico podría ser aplicable a cuadros depresivos y ansiosos englobados bajo este término. Sin embargo, la evidencia actual no permite confirmarlo para el trastorno neurótico como tal.
+Mecanísticamente la aplicación es verosímil, pero no hay un mecanismo específico establecido para esta etiqueta diagnóstica. La predicción debe considerarse una hipótesis más que un hallazgo de reposicionamiento.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Completado | 370,212 | Estudio de cohorte retrospectivo con datos de reclamaciones nacionales. Compara patrones de uso y riesgo de eventos adversos entre antidepresivos comunes. Aporta contexto general de seguridad y efectividad, pero no es específico del trastorno neurótico. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -73,25 +73,27 @@ Mecanísticamente, un fármaco serotoninérgico con perfil antidepresivo y ansio
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Revisión / reporte de caso | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Presenta un caso de depresión neurótica y destaca las ventajas de un abordaje integrado con antidepresivos y terapia cognitivo-conductual. No es específico de vortioxetina. |
+| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Revisión / reporte de caso | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Describe un caso de depresión neurótica y destaca las ventajas de un abordaje integrado con antidepresivos y psicoterapia cognitivo-conductual. No evalúa vortioxetina específicamente. |
 
 ---
 
 ## Información de Mercado en España
 
+Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). El texto de indicación aprobada no figura en los datos disponibles.
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
-| 89290 | VORTIOXETINA STADA 15 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
-| 113891028IP1 | BRINTELLIX 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 89288 | VORTIOXETINA STADA 5 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
-| 90983 | VORTIOXETINA KRKA 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
-| 90972 | VORTIOXETINA CINFA 15 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
+| 113891010 | Brintellix 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 113891028IP1 | Brintellix 20 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 89290 | Vortioxetina Stada 15 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 90983 | Vortioxetina Krka 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 90972 | Vortioxetina Cinfa 15 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. La consulta de interacciones devolvió solo dianas farmacológicas (SERT y receptores de serotonina), no interacciones entre fármacos.
+Consultar el prospecto para información de seguridad (advertencias y contraindicaciones). Los datos compilados sobre interacciones corresponden a dianas farmacológicas (SERT y receptores 5-HT), no a interacciones con otros fármacos, por lo que no permiten identificar combinaciones de riesgo.
 
 ---
 
@@ -100,13 +102,13 @@ Consultar el prospecto para información de seguridad. La consulta de interaccio
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para "trastorno neurótico" es indirecta: un estudio observacional no específico y una publicación de bajo nivel. Además, el término es antiguo y ambiguo, y el puntaje alto de TxGNN probablemente refleja su proximidad a los trastornos depresivos.
+La indicación predicha es una categoría diagnóstica obsoleta que se solapa con las indicaciones ya aprobadas, y no existen ensayos clínicos ni literatura directa que la respalden. No constituye un candidato real de reposicionamiento.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de la AEMPS las advertencias, contraindicaciones y la indicación aprobada.
-- Completar los datos de mecanismo de acción en DrugBank.
-- Traducir "trastorno neurótico" a diagnósticos actuales (depresión, trastornos de ansiedad, distimia) y evaluar la evidencia por separado.
-- Nota: la evidencia de "melancolía" (5 ensayos, 4 de ellos aleatorizados de Fase 2/3 o 3) corresponde en realidad al TDM, ya comercializado, y no a un reposicionamiento propiamente dicho.
+- Aclarar si "trastorno neurótico" aporta algo más allá de la depresión y la ansiedad ya cubiertas por la ficha técnica.
+- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS, que no están disponibles actualmente.
+- Disponer de datos formales del mecanismo de acción.
+- Si se busca un reposicionamiento con más sustento, valorar otras predicciones del modelo, por ejemplo melancolía, que cuenta con 6 ensayos clínicos de fase 2/3 en trastorno depresivo mayor. Esa evidencia es de uso en indicación aprobada y no específica del subtipo melancólico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

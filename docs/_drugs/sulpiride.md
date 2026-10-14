@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulpiride
-parent: Solo predicción del modelo (L5)
-nav_order: 506
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 754
+evidence_level: L4
 indication_count: 9
 ---
 
 # Sulpiride
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,28 +33,29 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-La sulpirida es un antipsicótico benzamida antagonista de los receptores de dopamina D2/D3, utilizado en esquizofrenia, depresión, ansiedad y trastornos de conducta en niños.
-El modelo TxGNN predice que podría ser efectiva para la **distrofia retiniana con o sin anomalías extraoculares**, pero **no hay ensayos clínicos** y las **16 publicaciones** halladas son artículos generales sobre anomalías oculares que no mencionan la sulpirida, por lo que no constituyen evidencia del fármaco.
+Sulpirida es un antagonista selectivo de los receptores de dopamina D2/D3, originalmente utilizado para el tratamiento de la esquizofrenia.
+El modelo TxGNN predice que podría ser efectivo para **distrofia retiniana con o sin anomalías extraoculares**,
+pero actualmente solo cuenta con **2 estudios preclínicos** (sin ensayos clínicos) que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia, depresión y ansiedad (según la ficha farmacológica; los textos de indicación de las autorizaciones de la AEMPS no están disponibles) |
+| Indicación Original | Esquizofrenia (según el grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
 | Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L5 |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La sulpirida es un antagonista selectivo de los receptores de dopamina D2 y D3 (genes DRD2 y DRD3), con baja afinidad por el receptor D4. La ficha farmacológica también registra interacción con las anhidrasas carbónicas 1, 7 y 12. No se dispone de una descripción detallada del mecanismo de acción en DrugBank.
+Sulpirida es un antagonista selectivo de los receptores de dopamina D2 y D3, con baja afinidad por el receptor D4. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero sí señalan esta actividad farmacológica sobre DRD2 y DRD3. En la esquizofrenia, el bloqueo de D2 es la base de su efecto terapéutico.
 
-La relación con la nueva indicación es débil. La dopamina participa en la señalización retiniana, lo que ofrece un puente biológico muy laxo. Sin embargo, las distrofias retinianas hereditarias se deben a defectos génicos específicos de los fotorreceptores o del epitelio pigmentario retiniano, y no se ha establecido ningún mecanismo dopaminérgico que aporte beneficio.
+La relación con la nueva indicación es indirecta. La dopamina participa en la modulación de las respuestas a la luz de las células ganglionares de la retina. En el modelo de rata P23H de retinitis pigmentosa, el sistema dopaminérgico retiniano parece estar alterado. Dos estudios preclínicos (2015 y 2016) indican que los antagonistas D2, entre ellos la sulpirida, podrían mejorar las respuestas visuales de estas células, aumentando su sensibilidad a la luz.
 
-El puntaje de 99.95% proviene únicamente del grafo de conocimiento de TxGNN. Las publicaciones asociadas coinciden con el término de la enfermedad, pero no tratan sobre el fármaco. Por eso esta predicción debe considerarse una hipótesis sin respaldo experimental.
+Esto aporta plausibilidad mecanística, pero **no** constituye evidencia de un efecto modificador de la enfermedad en distrofias retinianas hereditarias. El puntaje tan alto de TxGNN es únicamente una predicción computacional. No existen datos en humanos.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,47 +63,41 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Ninguna de estas publicaciones menciona la sulpirida. Son resultados por coincidencia de palabras clave con la enfermedad y no evidencia del fármaco.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Revisión | Seminars in Neurology | Enfoque sistemático para evaluar la diplopía y su diagnóstico diferencial |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Revisión | Pediatric Radiology | Diagnóstico diferencial y hallazgos de imagen de lesiones oculares pediátricas congénitas y del desarrollo |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Revisión | Taiwan Journal of Ophthalmology | Anomalías congénitas de la forma del cristalino |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Revisión | Klinische Monatsblätter für Augenheilkunde | Ptosis congénita y sus asociaciones con errores refractivos |
-| [31359131](https://pubmed.ncbi.nlm.nih.gov/31359131/) | 2019 | Sin clasificar | Human Genetics | Arquitectura genética de los defectos del desarrollo ocular asociados a la vía del ácido retinoico |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Sin clasificar | International Journal of Molecular Sciences | Anomalías del nervio óptico y de la retina en la fibrosis congénita de los músculos extraoculares |
-| [39582415](https://pubmed.ncbi.nlm.nih.gov/39582415/) | 2024 | Cohorte | Birth Defects Research | Prevalencia de anomalías oculares congénitas en 15 países europeos (estudio Medikeye) |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Sin clasificar | American Journal of Ophthalmology | Patogenia y tratamiento de la maculopatía asociada a anomalías cavitarias del disco óptico |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Reporte de caso | Optometry and Vision Science | Divergencia sinérgica en un paciente con fibrosis congénita de los músculos extraoculares |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Reporte de caso | American Journal of Ophthalmology | Dos casos de criptoftalmía unilateral |
+| [27788033](https://pubmed.ncbi.nlm.nih.gov/27788033/) | 2016 | Preclínico (animal/electrofisiología) | J Ocul Pharmacol Ther | En el modelo de rata P23H de retinitis pigmentosa, los antagonistas D2 (sulpirida y eticloprida) parecen mejorar las respuestas visuales de las células ganglionares. Se evaluó si haloperidol y clozapina producen efectos similares. |
+| [26717015](https://pubmed.ncbi.nlm.nih.gov/26717015/) | 2015 | Preclínico (animal/electrofisiología) | PLoS One | Se estudiaron los efectos de antagonistas de receptores D2-like sobre las respuestas a la luz de las células ganglionares en retinas de rata normales y P23H, en un contexto de disfunción dopaminérgica retiniana. |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 51836 | PSICOCEN 50 mg CÁPSULAS | Cápsula dura | Especialidades Farmacéuticas Centrum S.A. |
-| 48557 | DOGMATIL 50 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | Neuraxpharm Spain S.L. |
-| 48558 | DOGMATIL FUERTE 200 mg COMPRIMIDOS | Comprimido | Neuraxpharm Spain S.L.U. |
-| 73195 | SULPIRIDA KERN PHARMA 50 mg CÁPSULAS EFG | Cápsula dura | Kern Pharma S.L. |
+| 51836 | PSICOCEN 50 mg CÁPSULAS | Cápsula dura | No disponible en los datos compilados |
+| 48557 | DOGMATIL 50 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
+| 48558 | DOGMATIL FUERTE 200 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+| 73195 | SULPIRIDA KERN PHARMA 50 mg CÁPSULAS EFG | Cápsula dura | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones y dianas farmacológicas**: los datos compilados describen actividad sobre los receptores D2 y D3 (diana principal) y sobre las anhidrasas carbónicas 1, 7 y 12. No se dispone de una lista de interacciones con otros fármacos y su nivel de gravedad no está especificado.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el grafo de TxGNN, sin ensayos clínicos ni literatura que mencione la sulpirida (nivel L5). El mecanismo dopaminérgico no explica un beneficio en distrofias retinianas de origen genético. Las otras 8 indicaciones predichas (hidranencefalia, polimicrogiria, Charcot-Marie-Tooth 1G, miopías, entre otras) también están en L5 y Hold, y varias no tienen vínculo mecanístico plausible.
+La predicción se apoya solo en dos estudios preclínicos en ratas, sin ensayos clínicos ni evidencia en humanos. La indicación es una distrofia retiniana hereditaria, para la que los datos actuales no demuestran un efecto modificador de la enfermedad. Se mantiene como pregunta de investigación.
+
+Las demás predicciones del modelo (hidranencefalia, polimicrogiria, Charcot-Marie-Tooth 1G, miopías, defecto de glicosilación y encefalopatía glicínica atípica) carecen de ensayos y literatura y de un vínculo mecanístico identificable. Para las miopías, el antagonismo D2 sería direccionalmente desfavorable, y todas quedan en Hold con nivel L5.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), pendiente y bloqueante para cualquier evaluación de seguridad
-- Confirmar la indicación aprobada en cada autorización española, hoy ausente en los datos
-- Datos preclínicos que muestren un efecto de la sulpirida sobre la biología de los fotorreceptores o del epitelio pigmentario retiniano
-- Una revisión de literatura específica que busque sulpirida o antagonistas D2 junto con distrofia retiniana
-- Un análisis de seguridad en población pediátrica y oftalmológica, incluidos los efectos extrapiramidales
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente sin datos)
+- Textos de indicación aprobada de las autorizaciones españolas
+- Estudios preclínicos adicionales que confirmen un efecto sobre la función o la degeneración retiniana, y no solo sobre respuestas electrofisiológicas
+- Evaluación de la vía de administración y de la seguridad ocular antes de plantear estudios clínicos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

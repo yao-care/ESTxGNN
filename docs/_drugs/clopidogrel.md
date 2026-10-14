@@ -2,7 +2,7 @@
 layout: default
 title: Clopidogrel
 parent: Evidencia moderada (L3-L4)
-nav_order: 140
+nav_order: 200
 evidence_level: L3
 indication_count: 8
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-# Clopidogrel: De Prevención de Eventos Aterotrombóticos a Migraña con Aura de Tronco Encefálico
+# Clopidogrel: De Síndrome Coronario Agudo a Migraña con Aura del Tronco Encefálico
 
 ## Resumen en Una Frase
 
-Clopidogrel es un antiagregante plaquetario que se usa para prevenir eventos aterotrombóticos. El modelo TxGNN predice que podría ser efectivo para **migraña con aura de tronco encefálico**, pero no hay **ningún ensayo clínico** registrado para esta indicación exacta. Las **16 publicaciones** recuperadas son en su mayoría estudios observacionales o pequeños, y hablan de migraña con aura en general, no del subtipo de tronco encefálico.
+Clopidogrel es un antiagregante plaquetario utilizado originalmente en el síndrome coronario agudo, el infarto de miocardio con elevación del ST y la embolia intracraneal.
+El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**, pero actualmente hay **0 ensayos clínicos** y **15 publicaciones recuperadas** para esta indicación concreta. Solo unas pocas tratan directamente de clopidogrel en migraña con aura, sobre todo en pacientes con foramen oval permeable (FOP), y casi todas son estudios observacionales.
 
 ---
 
@@ -41,8 +42,8 @@ Clopidogrel es un antiagregante plaquetario que se usa para prevenir eventos ate
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención de eventos aterotrombóticos (dato de conocimiento general del fármaco; los registros de autorización recibidos no incluyen el texto de indicación) |
-| Nueva Indicación Predicha | Migraña con aura de tronco encefálico |
+| Indicación Original | Síndrome coronario agudo, embolia intracraneal, infarto de miocardio con elevación del ST (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
 | Puntaje de Predicción TxGNN | 99.44% |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -53,19 +54,19 @@ Clopidogrel es un antiagregante plaquetario que se usa para prevenir eventos ate
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, clopidogrel es un inhibidor del receptor plaquetario P2Y12. Su eficacia como antitrombótico está comprobada, y mecanísticamente podría ser aplicable a la migraña con aura.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción original en la información compilada. Según lo conocido, clopidogrel es un antagonista del receptor plaquetario P2Y12. Su eficacia como antitrombótico en patología coronaria y cerebrovascular está comprobada, y mecanísticamente podría ser aplicable a ciertos tipos de migraña con aura.
 
-La hipótesis es que el bloqueo de P2Y12 reduce la activación plaquetaria, la liberación de serotonina y la microembolia paradójica. Estos fenómenos son posibles desencadenantes de la depresión cortical propagada, que se asocia con el aura migrañosa. Ocurren sobre todo en pacientes con cortocircuito derecha-izquierda, como el foramen oval permeable (FOP).
+La hipótesis de trabajo es que, en pacientes con cortocircuito derecha-izquierda (por ejemplo, FOP), la activación plaquetaria y la microembolia paradójica, junto con la liberación de mediadores vasoactivos y serotoninérgicos, podrían desencadenar el aura. Al inhibir la agregación plaquetaria, clopidogrel podría reducir esos episodios. Existe además cierta base preclínica sobre receptores P2Y12 en modelos animales de migraña.
 
-Esta relación es indirecta. La evidencia recuperada corresponde a la migraña con aura en general, no específicamente al subtipo con aura de tronco encefálico. La predicción del modelo es coherente con esa línea de investigación, pero no está demostrada para este subtipo.
+Hay que ser cautos. Los datos disponibles se refieren sobre todo a la migraña con aura en pacientes con FOP o tras el cierre de defectos septales, no específicamente al aura del tronco encefálico. La evidencia se extrapola, por tanto, de una población más amplia, y la relación con las indicaciones cardiovasculares originales es indirecta (ambas comparten un componente trombótico/embólico).
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para migraña con aura de tronco encefálico.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación específica.
 
-Para la indicación más amplia de *trastorno migrañoso* sí existen ensayos que evalúan clopidogrel, por ejemplo [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) (CANOA, Fase 4, completado, n=220) y [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) (Fase 4, estado desconocido, n=50). Son evidencia indirecta para este subtipo.
+Como contexto, para la indicación más amplia de *migraña* (predicción de rango 2) sí existen ensayos con clopidogrel, entre ellos [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) (CANOA, Fase 4, completado, 220 participantes) y [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) (COMPETE, Fase 2, completado, 1000 participantes). No evalúan el aura del tronco encefálico específicamente.
 
 ---
 
@@ -73,36 +74,39 @@ Para la indicación más amplia de *trastorno migrañoso* sí existen ensayos qu
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | ECA piloto | Cephalalgia | Ensayo piloto aleatorizado de clopidogrel como profilaxis de migraña; el resumen disponible no detalla los resultados |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | ECA (cierre de FOP, no farmacológico) | Eur Heart J | Ensayo PRIMA: cierre percutáneo del FOP en migraña con aura refractaria; evalúa un dispositivo, no clopidogrel |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Revisión sistemática | Headache | Explora el papel de los fármacos antitrombóticos en la prevención de la migraña |
-| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohorte | J Investig Med | Clopidogrel 75 mg/día añadido a la profilaxis en migraña refractaria con FOP, con seguimiento a 3 y 6 meses |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Cohorte | Heart | Clopidogrel se asoció con menos migraña con aura tras el cierre transcatéter de FOP y comunicación interauricular |
-| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Revisión retrospectiva | Cephalalgia | Clopidogrel como tratamiento principal en migrañosos con cortocircuito derecha-izquierda |
-| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Revisión retrospectiva | Neurology | Uso fuera de indicación de tienopiridinas en pacientes con migraña y FOP |
-| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Estudio piloto abierto (ticagrelor) | Neurology | Estudio piloto con ticagrelor, otro inhibidor de P2Y12, en migraña refractaria con FOP |
-| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | Serie de casos | J Interv Cardiol | Migraña intensa tras el cierre de comunicación interauricular en 5 de 13 pacientes, con alivio casi inmediato tras 300 mg de clopidogrel |
-| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Reporte de caso | Cephalalgia | Migraña de novo tras el cierre de comunicación interauricular; eficacia de ticlopidina, análogo de clopidogrel |
+| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | ECA piloto | Cephalalgia | Estudio piloto aleatorizado de clopidogrel como tratamiento profiláctico de la migraña |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Revisión sistemática | Headache | Revisa el papel de los fármacos antitrombóticos en la prevención de la migraña |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | ECA (cierre de FOP, no farmacológico) | European Heart Journal | Ensayo PRIMA de cierre percutáneo del FOP en migraña con aura; contexto, no evalúa clopidogrel |
+| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohorte/serie de casos | J Investig Med | Clopidogrel 75 mg/día añadido a la profilaxis habitual en migraña refractaria con FOP |
+| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Revisión retrospectiva | Cephalalgia | Clopidogrel como tratamiento primario en migrañosos con cortocircuito derecha-izquierda |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Revisión retrospectiva | Neurology | Uso fuera de indicación de tienopiridinas en migraña con FOP |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Cohorte | Heart | Clopidogrel redujo la migraña con aura tras el cierre transcatéter de FOP y defectos septales auriculares |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Estudio piloto abierto (clase relacionada) | Neurology | Ticagrelor en migraña refractaria con FOP (estudio TRACTOR) |
+| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | Serie de casos | J Interv Cardiol | Migraña intensa en 5 de 13 pacientes tras el cierre de defectos septales; alivio rápido con 300 mg de clopidogrel |
+| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Caso clínico (ticlopidina) | Cephalalgia | Migraña de novo tras el cierre de comunicación interauricular; respuesta a ticlopidina, análogo de clopidogrel |
 
 ---
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones. Los registros recibidos no incluyen el texto de indicación aprobada.
+Se muestran 5 de las 20 autorizaciones vigentes, todas de medicamentos con clopidogrel como único principio activo. Las 20 están en vigor y ninguna está cancelada. Los textos de indicación aprobada no están disponibles para estas autorizaciones.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 71821 | Clopidogrel Ababor 75 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Ababor Pharmaceuticals S.L. |
-| 9555001 | Clopidogrel TAD 75 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Tad Pharma GmbH |
-| 109556003 | Clopidogrel Krka 75 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Krka d.d. Novo Mesto |
-| 98070009 | Iscover 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | Sanofi Winthrop Industrie |
-| 98069001AIP1 | Plavix 75 mg comprimidos recubiertos con película | Comprimido recubierto con película | Sanofi Pharma Bristol-Myers Squibb Snc |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 98069001AIP1 | PLAVIX 75 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 98069009 | PLAVIX 300 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 98070001 | ISCOVER 75 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 98070009 | ISCOVER 300 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 72537 | AGRELAN 75 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: insuficiencia hepática aguda, hepatitis, trastornos de la coagulación sanguínea, lesiones/traumatismos, púrpura trombocitopénica, úlcera péptica activa y hemorragia intracraneal.
+- **Interacciones farmacológicas**: se registraron 100 interacciones. Entre las de nivel **mayor** figuran rabeprazol, omeprazol, esomeprazol (inhibidores de la bomba de protones), pioglitazona, loperamida y repaglinida. Entre las de nivel moderado figuran ácido acetilsalicílico, cimetidina, claritromicina, bupropión, morfina y lansoprazol.
+
+Para las advertencias y precauciones oficiales, consultar el prospecto.
 
 ---
 
@@ -111,13 +115,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para migraña con aura de tronco encefálico. La literatura disponible es mayormente observacional y pequeña, y se refiere a migraña con aura en general, sobre todo en pacientes con FOP o tras un cierre septal. Para la indicación más amplia de trastorno migrañoso la evidencia es más sólida (ensayo CANOA), por lo que ese sería el punto de partida más razonable.
+Para la migraña con aura del tronco encefálico no hay ensayos clínicos y la evidencia se limita a estudios observacionales y series de casos extrapolados de migraña con aura asociada a FOP (L3). El puntaje de TxGNN es alto (99.44%), pero no compensa esa falta de evidencia directa. Para la indicación más amplia de migraña con cortocircuito derecha-izquierda hay evidencia más sólida, incluido un ECA publicado de clopidogrel más aspirina tras el cierre de comunicación interauricular (CANOA) y un ensayo multicéntrico reciente de tratamiento antitrombótico en migraña con FOP. Aun así, ningún ensayo de Fase 3 evalúa directamente clopidogrel en migraña.
 
 **Para avanzar se necesita:**
-- Evidencia específica en pacientes con aura de tronco encefálico, o justificar la extrapolación desde migraña con aura.
-- Ensayos aleatorizados de mayor tamaño que confirmen la eficacia de clopidogrel en migraña, con o sin FOP.
-- Datos de seguridad del prospecto (advertencias, contraindicaciones e interacciones), sobre todo el riesgo de sangrado en una población sin indicación cardiovascular.
-- Datos detallados del mecanismo de acción.
+- Reorientar la hipótesis hacia migraña con aura asociada a FOP o cortocircuito derecha-izquierda, donde existen más datos.
+- Analizar los resultados detallados de los ensayos CANOA y COMPETE.
+- Casos o series específicas de aura del tronco encefálico tratados con clopidogrel.
+- Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
+- Un plan de seguimiento del riesgo hemorrágico y de las interacciones, en particular con inhibidores de la bomba de protones (omeprazol, esomeprazol) y otros antitrombóticos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Fedratinib
 parent: Solo predicción del modelo (L5)
-nav_order: 228
+nav_order: 327
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,17 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Fedratinib es un inhibidor de JAK2 (también de FLT3 y BRD4) comercializado en España como INREBIC; el registro de la AEMPS no incluye el texto de la indicación, pero por conocimiento general se usa en la mielofibrosis. El modelo TxGNN predice que podría ser efectivo para **PEComa benigno**, aunque hoy hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, y la relación mecanística no está sustentada.
+Fedratinib es un inhibidor selectivo de JAK2 (que también inhibe FLT3 y BRD4), utilizado originalmente para el tratamiento de la mielofibrosis primaria.
+El modelo TxGNN predice que podría ser efectivo para **PEComa benigno**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en el registro de la AEMPS (texto vacío); por conocimiento general, mielofibrosis |
+| Indicación Original | Mielofibrosis primaria / mielofibrosis (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
 | Nueva Indicación Predicha | PEComa benigno |
-| Puntaje de Predicción TxGNN | 99,84% |
+| Puntaje de Predicción TxGNN | 99.84% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
@@ -49,23 +51,25 @@ Fedratinib es un inhibidor de JAK2 (también de FLT3 y BRD4) comercializado en E
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Fedratinib inhibe principalmente JAK2, y también FLT3 y BRD4. No hay datos detallados de mecanismo de acción en DrugBank. La descripción anterior proviene del análisis mecanístico de las predicciones.
+Fedratinib es un inhibidor selectivo de JAK2 con actividad adicional sobre FLT3 y BRD4. En la mielofibrosis, la señalización JAK/STAT está desregulada, y su inhibición reduce el tamaño del bazo y los síntomas. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción original, por lo que la descripción anterior se basa en el conocimiento general del fármaco.
 
-Para el PEComa benigno **no se identifica un vínculo directo**. Esta neoplasia depende sobre todo de la activación de la vía mTOR (pérdida de TSC1/TSC2, reordenamiento de TFE3). Cualquier conexión a través de la comunicación cruzada JAK/STAT es especulativa. El puntaje alto de TxGNN probablemente refleja cercanía en el grafo de conocimiento con tumores relacionados, no respaldo farmacológico.
+Los PEComas se deben principalmente a la activación de la vía mTOR (pérdida de TSC1/TSC2), por lo que no existe un vínculo directo establecido con la inhibición de JAK2. Cualquier relación sería especulativa, por ejemplo a través de la interacción entre la señalización JAK/STAT y la vía PI3K/AKT/mTOR.
 
-Las otras predicciones de mayor puntaje tampoco cuentan con evidencia en el paquete:
+En consecuencia, la predicción tiene un puntaje alto en el modelo, pero una plausibilidad mecanística débil y sin respaldo experimental o clínico. Debe considerarse una hipótesis generadora, no una conclusión.
 
-| # | Enfermedad | Puntaje | Comentario mecanístico |
-|---|---|---|---|
-| 2 | Linfangiomioma | 99,83% | Espectro de LAM (mTOR); sin vínculo con JAK2 |
-| 3 | PEC tumoral perivascular de cuerpo uterino | 99,83% | Mismo razonamiento que el PEComa |
-| 4 | Dermatofibrosarcoma protuberans | 99,80% | Impulsado por PDGFRB (imatinib); sin acción directa |
-| 5-6 | Tumor rabdoide (y familiar) | 99,78% / 99,77% | Pérdida de SMARCB1; el ángulo BRD4 es débil |
-| 7 | Fiebre mediterránea familiar AR | 99,75% | Autoinflamatoria (IL-1); fedratinib es selectivo de JAK2 |
-| 8-9 | Linfohistiocitosis hemofagocítica (asociada a neoplasia / a infección) | 99,74% | La más plausible: hiperinflamación vía JAK/STAT; el precedente es ruxolitinib, no fedratinib |
-| 10 | Linfangioleiomiomatosis | 99,74% | Enfermedad dependiente de mTORC1 (sirolimus) |
+Otras predicciones del modelo, todas con evidencia L5 y recomendación Hold:
 
-Las dos formas de linfohistiocitosis hemofagocítica (puestos 8 y 9) se clasificaron como "Research Question". Ese precedente de clase no se transfiere automáticamente a fedratinib.
+| Indicación predicha | Puntaje TxGNN | Comentario mecanístico |
+|------|------|------|
+| Linfangiomioma | 99.83% | Biología TSC/mTOR; vínculo con JAK2 indirecto |
+| Tumor de células epitelioides perivasculares del cuerpo uterino | 99.83% | Dependencia de mTOR; sin relevancia demostrada de JAK2/FLT3 |
+| Dermatofibrosarcoma protuberans | 99.80% | Impulsado por COL1A1-PDGFB; fedratinib no actúa principalmente sobre PDGFR |
+| Tumor rabdoide | 99.78% | Pérdida de SMARCB1; vínculo especulativo vía BRD4 |
+| Tumor rabdoide familiar | 99.77% | Mismo razonamiento especulativo que el tumor rabdoide |
+| Fiebre mediterránea familiar autosómica recesiva | 99.75% | Autoinflamatoria; modulación indirecta de citocinas |
+| Linfohistiocitosis hemofagocítica adquirida asociada a neoplasia | 99.74% | Razonamiento de clase plausible (JAK/STAT, tormenta de citocinas); preocupación de seguridad |
+| Síndrome hemofagocítico asociado a infección | 99.74% | Mismo razonamiento; riesgo adicional por inmunosupresión |
+| Linfangioleiomiomatosis | 99.74% | Impulsada por TSC/mTORC1; sirolimus es el tratamiento estándar |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -79,41 +83,38 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1201514001 | INREBIC 100 mg cápsulas duras | Cápsula dura | No disponible en el registro |
-
-Titular: Bristol-Myers Squibb Pharma EEIG.
+| 1201514001 | INREBIC 100 mg CÁPSULAS DURAS (Bristol-Myers Squibb Pharma EEIG) | Cápsula dura | No disponible en los datos compilados |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de quinasas) |
-| Riesgo de Mielosupresión | Preocupación por citopenias señalada en el análisis; consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de quinasas JAK2/FLT3) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto (en las predicciones se menciona mielosupresión como preocupación) |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma; función hepática y renal; consultar el prospecto |
+| Items de Monitoreo | Hemograma, función hepática y renal, y vigilancia neurológica (según el prospecto) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Advertencias principales**: el análisis menciona una advertencia en recuadro por encefalopatía (incluida la de Wernicke) y por citopenias. Es un riesgo relevante en pacientes críticos, como en la linfohistiocitosis hemofagocítica. Esta información no se ha verificado contra el prospecto de la AEMPS.
-- **Interacciones farmacológicas**: no se encontraron registros en la consulta realizada.
-
-Para el resto de la información de seguridad, consultar el prospecto.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones en total; la lista compilada muestra, entre las principales:
+  - **Mayores**: dexametasona, claritromicina, eliglustat, naloxegol.
+  - **Moderadas**: inhibidores de la bomba de protones y antiácidos (omeprazol, rabeprazol, lansoprazol, cimetidina), corticoides (hidrocortisona, triamcinolona, betametasona, budesonida), aprepitant, saxagliptina, naldemedina, naltrexona.
+- **Advertencia de contexto**: las predicciones señalan que fedratinib presenta una advertencia en recuadro por encefalopatía (incluida la de Wernicke), toxicidad gastrointestinal y mielosupresión. Esta información no procede del prospecto de la AEMPS y debe verificarse.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos ni literatura, y la biología del PEComa (mTOR) no se conecta con la inhibición de JAK2. La hipótesis más defendible es la linfohistiocitosis hemofagocítica, pero solo como pregunta de investigación.
+La predicción para PEComa benigno se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y con un vínculo mecanístico no establecido, ya que estos tumores dependen de mTOR y no de JAK2.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), un bloqueo para el cribado de seguridad.
-- Completar el mecanismo de acción desde DrugBank.
-- Revisión sistemática de literatura preclínica sobre inhibición de JAK2 en PEComa y en linfohistiocitosis hemofagocítica.
-- Si se prioriza la linfohistiocitosis hemofagocítica, evaluar la viabilidad frente a ruxolitinib y el perfil de seguridad en pacientes críticos.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente un vacío bloqueante.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar estudios preclínicos que evalúen la relevancia de JAK2/STAT en PEComa.
+- Revisar la literatura y los registros de ensayos para detectar evidencia directa.
+- Valorar si alguna otra indicación predicha (por ejemplo, linfohistiocitosis hemofagocítica, con razonamiento de clase JAK) merece priorizarse.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

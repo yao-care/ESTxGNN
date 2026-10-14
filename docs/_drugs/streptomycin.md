@@ -2,7 +2,7 @@
 layout: default
 title: Streptomycin
 parent: Evidencia moderada (L3-L4)
-nav_order: 502
+nav_order: 748
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Estreptomicina: De Antibiótico Aminoglucósido a Conjuntivitis
+# Estreptomicina: De Tuberculosis Pulmonar a Conjuntivitis
 
 ## Resumen en Una Frase
 
-La estreptomicina es un antibiótico aminoglucósido bactericida, comercializado en España como polvo para solución inyectable.
-El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero **no hay ensayos clínicos** y solo hay **20 publicaciones** de bajo nivel (revisiones, reportes de caso, estudios de susceptibilidad e informes históricos).
+La estreptomicina es un antibiótico aminoglucósido, utilizado originalmente para el tratamiento de la tuberculosis pulmonar y de otras infecciones bacterianas como la brucelosis, la tularemia y la peste.
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**,
+pero actualmente no hay **ningún ensayo clínico** y la literatura disponible (**20 publicaciones**) es en su mayoría antigua, indirecta o de casos aislados.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Tuberculosis pulmonar (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
 | Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99,87% |
+| Puntaje de Predicción TxGNN | 99.87% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
@@ -49,11 +51,11 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La estreptomicina es un aminoglucósido bactericida que inhibe la subunidad ribosomal 30S. Actualmente no se dispone de datos detallados del mecanismo de acción en DrugBank, pero esta descripción general es coherente con el mecanismo descrito en el análisis de la predicción.
+La estreptomicina es un antibiótico aminoglucósido bactericida que inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosómica 30S. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada, por lo que esta descripción procede del conocimiento farmacológico general.
 
-En la literatura, la estreptomicina se relaciona con la conjuntivitis solo a través de causas bacterianas zoonóticas o granulomatosas sensibles a este antibiótico: tularemia (síndrome oculoglandular de Parinaud), brucelosis y tuberculosis conjuntival. Es una relación indirecta. La estreptomicina trata la infección de fondo, no la conjuntivitis en general.
+La relación con la conjuntivitis es indirecta. La estreptomicina ya se utiliza contra *Francisella tularensis* y *Brucella*, y estos patógenos pueden causar afectación ocular, como el síndrome oculoglandular de Parinaud en la tularemia o la queratoconjuntivitis por Brucella. También existen publicaciones antiguas (décadas de 1950 y 1960) sobre conjuntivitis tuberculosa tratada con estreptomicina.
 
-Además, no existe una formulación oftálmica de estreptomicina en el mercado español. Solo hay una presentación inyectable, por lo que la vía de administración tendría que resolverse antes de cualquier desarrollo.
+Sin embargo, no hay evidencia que respalde su uso en la conjuntivitis bacteriana común, y existen alternativas tópicas más seguras, como la tobramicina. La predicción es plausible solo para formas de conjuntivitis causadas por patógenos sensibles ya cubiertos por las indicaciones conocidas.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -61,48 +63,47 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se recuperaron 20 publicaciones. Se muestran las 10 más relevantes (revisiones y observacionales primero, luego reportes de caso e informes históricos):
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [3317953](https://pubmed.ncbi.nlm.nih.gov/3317953/) | 1987 | Revisión | Survey of Ophthalmology | Revisión sobre tobramicina en oftalmología. Menciona la estreptomicina solo como el primer aminoglucósido descubierto (1943). |
-| [38298538](https://pubmed.ncbi.nlm.nih.gov/38298538/) | 2023 | Revisión | Frontiers in Microbiology | Datos experimentales y clínicos sobre el tratamiento de la tularemia, que puede presentarse como conjuntivitis. |
-| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Revisión | Current Medicinal Chemistry | Enfermedades bacterianas desatendidas (úlcera de Buruli y tracoma). Menciona la combinación rifampicina/estreptomicina en la úlcera de Buruli. |
-| [39852896](https://pubmed.ncbi.nlm.nih.gov/39852896/) | 2025 | Observacional (microbiología) | Veterinary Sciences | Bacterias aisladas de perros con conjuntivitis bacteriana en Wuhan y su resistencia a aminoglucósidos. Es un estudio veterinario. |
-| [21484175](https://pubmed.ncbi.nlm.nih.gov/21484175/) | 2011 | Observacional (microbiología) | J Ophthalmic Inflamm Infect | Distribución bacteriana, resistencia antibiótica y plásmidos en pacientes con conjuntivitis en Lagos, Nigeria. |
-| [38941282](https://pubmed.ncbi.nlm.nih.gov/38941282/) | 2024 | Reporte de caso | Am J Case Reports | Tularemia como causa del síndrome oculoglandular de Parinaud (conjuntivitis granulomatosa unilateral). |
-| [6789462](https://pubmed.ncbi.nlm.nih.gov/6789462/) | 1981 | Reporte de caso | S Afr Med J | Queratoconjuntivitis por Brucella tras salpicadura de vacuna. Se trató con tetraciclinas, cotrimoxazol y estreptomicina sistémica. |
-| [15442493](https://pubmed.ncbi.nlm.nih.gov/15442493/) | 1950 | Reporte de caso | La Semana Médica | Conjuntivitis tuberculosa primaria tratada con estreptomicina general y local. |
-| [13075256](https://pubmed.ncbi.nlm.nih.gov/13075256/) | 1953 | Informe histórico | Rev Int Trachome | Experimento en Marruecos con instilaciones de estreptomicina y cloramina en conjuntivitis estacional. Sin resumen disponible, resultados no evaluados. |
-| [13075257](https://pubmed.ncbi.nlm.nih.gov/13075257/) | 1953 | Informe histórico | Rev Int Trachome | Comparación de un colirio de estreptomicina con una pomada de aureomicina en conjuntivitis estacional del sur de Marruecos. Sin resumen disponible, resultados no evaluados. |
+| [38298538](https://pubmed.ncbi.nlm.nih.gov/38298538/) | 2023 | Revisión | Frontiers in Microbiology | Datos experimentales y clínicos sobre el tratamiento de la tularemia, que puede presentarse con conjuntivitis |
+| [3317953](https://pubmed.ncbi.nlm.nih.gov/3317953/) | 1987 | Revisión | Survey of Ophthalmology | Revisión sobre tobramicina en oftalmología; menciona la estreptomicina como primer aminoglucósido |
+| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Revisión | Current Medicinal Chemistry | Enfermedades bacterianas desatendidas (úlcera de Buruli, tracoma); combinación rifampicina/estreptomicina |
+| [38941282](https://pubmed.ncbi.nlm.nih.gov/38941282/) | 2024 | Reporte de caso | Am J Case Reports | Síndrome oculoglandular de Parinaud por *F. tularensis* |
+| [6789462](https://pubmed.ncbi.nlm.nih.gov/6789462/) | 1981 | Reporte de caso | S Afr Med J | Queratoconjuntivitis por Brucella tratada con tetraciclinas, cotrimoxazol y estreptomicina |
+| [19584516](https://pubmed.ncbi.nlm.nih.gov/19584516/) | 2009 | Reporte de caso | Indian J Med Microbiol | Tres casos familiares de tularemia |
+| [22639311](https://pubmed.ncbi.nlm.nih.gov/22639311/) | 2012 | Cohorte | Mikrobiyoloji Bülteni | 35 casos de tularemia en dos brotes en Konya, Turquía |
+| [21484175](https://pubmed.ncbi.nlm.nih.gov/21484175/) | 2011 | Cohorte | J Ophthalmic Inflamm Infect | Bacterias causantes de conjuntivitis en Lagos y su resistencia a antibióticos |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 16129 | SULFATO DE ESTREPTOMICINA REIG JOFRE 1 G POLVO PARA SOLUCIÓN INYECTABLE | Polvo para solución inyectable | Laboratorio Reig Jofre, S.A. |
+| 16129 | Sulfato de Estreptomicina Reig Jofre 1 g polvo para solución inyectable | Polvo para solución inyectable | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-- **Toxicidad de clase (aminoglucósidos):** la evidencia recuperada señala riesgo de ototoxicidad y nefrotoxicidad. Un caso de laberintitis estreptomicínica (1964) documenta toxicidad vestibular.
+- **Contraindicaciones** (asociaciones del grafo de conocimiento, no texto del prospecto): enfermedad renal, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, vértigo de origen central, miastenia gravis, enfermedades de la unión neuromuscular y parkinsonismo/enfermedad de Parkinson.
+- **Interacciones Farmacológicas** (100 interacciones detectadas; se destacan las principales):
+  - **Mayores**: toxina botulínica tipo A, inmunoglobulina G humana intravenosa, bacitracina.
+  - **Moderadas**: anfotericina B (incluido el complejo lipídico), amikacina, neomicina tópica, AINE (ketorolaco, ibuprofeno, celecoxib, ácido acetilsalicílico), bisfosfonatos (ácido alendrónico, risedrónico, ibandronato), estrógenos (etinilestradiol, estradiol), rabeprazol, mesalazina y balsalazida.
+  - **Menores**: lidocaína.
+- Como aminoglucósido, la estreptomicina es vestibulotóxica, cocleotóxica y nefrotóxica. Esto es especialmente relevante para indicaciones como la otitis externa o la patología del oído interno.
 
-No hay advertencias, contraindicaciones ni interacciones registradas en el Evidence Pack. Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no están disponibles en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos. La literatura se limita a revisiones generales, reportes de caso, estudios de susceptibilidad e informes históricos de los años 1950. La asociación con la conjuntivitis es indirecta, pasa por infecciones específicas ya tratadas con estreptomicina, y no existe una formulación oftálmica. La mayoría de las otras diez indicaciones predichas tampoco tiene ensayos ni literatura de apoyo.
+La predicción se apoya solo en puntaje computacional y en literatura indirecta, antigua o de casos aislados, sin ensayos clínicos. Además, existen alternativas tópicas más seguras para la conjuntivitis y el perfil de toxicidad de la estreptomicina es desfavorable.
 
 **Para avanzar se necesita:**
-- Ficha técnica/prospecto de la AEMPS (advertencias y contraindicaciones), pendiente de obtener.
-- Datos del mecanismo de acción desde DrugBank.
-- Definir un subgrupo concreto (p. ej., conjuntivitis por tularemia, brucelosis o tuberculosis) en lugar de conjuntivitis en general.
-- Revisar la evidencia frente a alternativas tópicas oftálmicas establecidas.
-- Evaluar la vía de administración (no hay formulación oftálmica) y la relación riesgo-beneficio por la toxicidad de los aminoglucósidos.
-
-*Los resultados son solo para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Obtener y revisar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), actualmente un vacío bloqueante.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Acotar la indicación a conjuntivitis por patógenos específicos (tularemia, brucelosis, tuberculosis) en lugar de conjuntivitis en general.
+- Evaluar la viabilidad de una vía de administración ocular, ya que la presentación autorizada es inyectable.
+- Disponer de estudios comparativos o clínicos frente a tratamientos estándar antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

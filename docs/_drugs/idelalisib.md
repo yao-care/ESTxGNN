@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Idelalisib
-parent: Evidencia moderada (L3-L4)
-nav_order: 270
-evidence_level: L3
+parent: Evidencia alta (L1-L2)
+nav_order: 403
+evidence_level: L2
 indication_count: 10
 ---
 
 # Idelalisib
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Idelalisib: Hacia el Linfoma de Células del Manto
+# Idelalisib: De Neoplasias de Células B (LLC/Linfoma Folicular) a Linfoma de Células del Manto
 
 ## Resumen en Una Frase
 
-Idelalisib es un inhibidor oral de PI3Kδ, comercializado en España como Zydelig. El registro español consultado no incluye texto de indicación. La literatura lo describe como aprobado para leucemia linfocítica crónica y linfoma folicular recidivante.
-El modelo TxGNN predice que podría ser efectivo para **linfoma de células del manto**, con **9 ensayos clínicos** y **20 publicaciones** relacionados. Ninguno de los ensayos supera la Fase 1 en esta enfermedad.
+Idelalisib es un inhibidor oral de PI3K delta, originalmente utilizado para el tratamiento de la leucemia linfocítica crónica/linfoma linfocítico de células pequeñas y el linfoma folicular.
+El modelo TxGNN predice que podría ser efectivo para el **Linfoma de Células del Manto**,
+con **5 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, en su mayoría de fase temprana, preclínicos o de revisión.
 
 ---
 
@@ -42,9 +43,10 @@ El modelo TxGNN predice que podría ser efectivo para **linfoma de células del 
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | No disponible en el texto de autorización de la AEMPS; según el grafo de conocimiento: linfoma folicular, leucemia linfocítica crónica/linfoma linfocítico de células pequeñas, neoplasia de células B maduras, leucemia linfoblástica aguda y síndrome de Richter |
 | Nueva Indicación Predicha | Linfoma de células del manto |
-| Puntaje de Predicción TxGNN | 99,84 % |
-| Nivel de Evidencia | L3 |
+| Puntaje de Predicción TxGNN | 99.84% |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
@@ -53,12 +55,11 @@ El modelo TxGNN predice que podría ser efectivo para **linfoma de células del 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la evidencia recopilada, idelalisib inhibe PI3Kδ, una proteína situada por debajo del receptor de células B. Esta vía es clave para la supervivencia y proliferación de las neoplasias de células B maduras, entre ellas el linfoma de células del manto (LCM).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, idelalisib es un inhibidor selectivo de la isoforma delta de la fosfatidilinositol 3-quinasa (PI3Kδ), una pieza central de la señalización del receptor de células B. Su eficacia en LLC y linfoma folicular ha sido comprobada.
 
-Los estudios preclínicos apoyan la hipótesis. Idelalisib suprime los mecanismos reguladores de la traducción en células de LCM. También se ha descrito sensibilización por inhibición de P300/CBP y sinergia con inhibidores de CDK4/6 (palbociclib).
+El linfoma de células del manto depende de la señalización del receptor de células B y de PI3K delta para su supervivencia. Los estudios preclínicos indican que idelalisib reduce los mecanismos de regulación de la traducción y el crecimiento de las células de este linfoma. Se exploran combinaciones (inhibición de P300/CBP, inhibidores de CDK4/6) y se ha vinculado la pérdida de CBX5 con la resistencia.
 
-Hay además señales de cautela. El LCM muestra resistencia intrínseca a idelalisib en algunos modelos. Se han descrito mecanismos de resistencia, como la pérdida de CBX5.
-El apoyo clínico se limita a datos de Fase 1. En el paquete no aparece ningún ensayo aleatorizado de Fase 2 o 3 con idelalisib específico en LCM.
+Sin embargo, la evidencia clínica es limitada: un estudio de fase 1 en combinación (NCT01088048), un estudio de fase 1/2 con lenalidomida (NCT01838434) y un estudio de fase 2 terminado de forma anticipada (NCT01796470). Además, una publicación señala resistencia intrínseca de este linfoma a idelalisib en monoterapia.
 
 ---
 
@@ -66,15 +67,11 @@ El apoyo clínico se limita a datos de Fase 1. En el paquete no aparece ningún 
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Fase 1 | Completado | 241 | Seguridad de idelalisib combinado con quimioterapia, inmunomoduladores y anti-CD20 en linfoma no Hodgkin indolente, LCM y LLC en recaída/refractarios |
-| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Fase 1 (fase I/II aleatorizada) | Completado | 106 | Lenalidomida con o sin idelalisib en LCM recidivante/refractario |
-| [NCT02457598](https://clinicaltrials.gov/study/NCT02457598) | Fase 1 | Terminado | 203 | Tirabrutinib combinado con otras terapias dirigidas, incluido idelalisib, en neoplasias de células B; sin resultados específicos de LCM |
-| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Fase 1 | Terminado | 16 | Idelalisib como mantenimiento tras trasplante alogénico en neoplasias de células B; estudio pequeño y terminado antes de tiempo |
-| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Fase 1 | Completado | 20 | BCL201 más idelalisib en linfoma folicular y LCM; objetivo principal de seguridad |
-| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Fase 2 | Terminado | 66 | Entospletinib más idelalisib en neoplasias hematológicas en recaída/refractarias (incluye LCM); relevancia indirecta |
-| [NCT03740529](https://clinicaltrials.gov/study/NCT03740529) | Fase 1/2 | Completado | 803 | Pirtobrutinib en LLC/LLP y linfoma no Hodgkin; idelalisib solo como terapia previa |
-| [NCT04985214](https://clinicaltrials.gov/study/NCT04985214) | N/A | Desconocido | 464 | Estudio observacional de calidad de vida con terapias orales en linfoma; sin señal de eficacia |
-| [NCT02824159](https://clinicaltrials.gov/study/NCT02824159) | N/A | Completado | 121 | Estudio observacional de efectos adversos y concentraciones plasmáticas de ibrutinib e idelalisib; sin señal de eficacia |
+| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Fase 1 | Completado | 241 | Seguridad y actividad de idelalisib combinado con quimioterapia, inmunomoduladores y anti-CD20 en linfoma no Hodgkin indolente, linfoma del manto y LLC en recaída/refractarios; incluye una cohorte de LCM |
+| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Fase 1/2 aleatorizada | Completado | 106 | Idelalisib más lenalidomida frente a lenalidomida en linfoma del manto en recaída/refractario; la evidencia más cercana específica de la enfermedad |
+| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Fase 2 | Terminado | 66 | Entospletinib más idelalisib en neoplasias hematológicas en recaída/refractarias (incluido LCM); la terminación anticipada limita la interpretación |
+| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Fase 1 | Completado | 20 | Escalada de dosis de BCL201 con idelalisib en linfoma folicular y LCM; estudio pequeño de seguridad |
+| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Fase 1 | Terminado | 16 | Seguridad de idelalisib como mantenimiento tras trasplante alogénico en neoplasias de células B; relevancia indirecta |
 
 ---
 
@@ -82,25 +79,29 @@ El apoyo clínico se limita a datos de Fase 1. En el paquete no aparece ningún 
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [24615778](https://pubmed.ncbi.nlm.nih.gov/24615778/) | 2014 | Ensayo clínico Fase 1 | Blood | Estudio de 48 semanas en 40 pacientes con LCM recidivante/refractario. Objetivo principal: seguridad y toxicidad limitante de dosis |
-| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Comentario sobre datos clínicos tempranos | Cancer Discovery | Idelalisib fue eficaz en pacientes con LCM muy pretratados |
-| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Preclínico (in vitro) | Clin Cancer Res | Idelalisib inhibe el crecimiento celular en LCM al alterar mecanismos reguladores de la traducción |
-| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Preclínico (in vitro/in vivo) | Acta Pharmacol Sin | El inhibidor de P300/CBP A-485 supera la resistencia a idelalisib en células de LCM |
-| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Preclínico (in vitro) | Cancer Lett | Idelalisib potencia el efecto antitumoral de palbociclib mediante PLK1 en linfoma de células B |
-| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Preclínico (mecanismo de resistencia) | Phytomedicine | La pérdida de CBX5 causa resistencia a inhibidores de PI3Kδ en LCM; el propóleo restaura la sensibilidad |
-| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Revisión | Br J Haematol | Regímenes actuales y nuevos agentes en LCM |
-| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Revisión | Expert Opin Pharmacother | Opciones de tratamiento del LCM, estándar y emergentes |
+| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Preclínico | Clin Cancer Res | Idelalisib afecta el crecimiento celular al inhibir mecanismos reguladores de la traducción en LCM |
+| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Preclínico | Acta Pharmacol Sin | La inhibición de p300/CBP (A-485) supera la resistencia a idelalisib en células de LCM |
+| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Preclínico | Cancer Lett | Idelalisib potencia el efecto antitumoral de palbociclib mediante PLK1 en linfoma de células B |
+| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Preclínico | Phytomedicine | La pérdida de CBX5 causa resistencia a inhibidores de PI3Kδ en LCM; el propóleo restaura la sensibilidad |
+| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Comentario | Cancer Discov | Idelalisib mostró actividad en pacientes con LCM muy tratados previamente |
+| [26841011](https://pubmed.ncbi.nlm.nih.gov/26841011/) | 2016 | Revisión | Cancer J | Idelalisib como inhibidor de PI3Kδ de primera clase en linfoma no Hodgkin |
+| [28775119](https://pubmed.ncbi.nlm.nih.gov/28775119/) | 2017 | Revisión | Haematologica | Incidencia y manejo de la toxicidad de ibrutinib e idelalisib |
+| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Revisión | Br J Haematol | Regímenes actuales y nuevos agentes para el linfoma del manto |
+| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Revisión | Expert Opin Pharmacother | Opciones de tratamiento del linfoma del manto |
 | [28295729](https://pubmed.ncbi.nlm.nih.gov/28295729/) | 2017 | Revisión | J Intern Med | Inhibición de la señalización del receptor de células B en neoplasias de células B |
-| [28775119](https://pubmed.ncbi.nlm.nih.gov/28775119/) | 2017 | Revisión | Haematologica | Incidencia y manejo de la toxicidad asociada a ibrutinib e idelalisib |
+
+No se identificaron ensayos controlados aleatorizados publicados específicos para LCM.
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 114938002 | Zydelig 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | Gilead Sciences Ireland Unlimited Company |
-| 114938001 | Zydelig 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | Gilead Sciences Ireland Unlimited Company |
+| 114938002 | Zydelig 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 114938001 | Zydelig 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+
+Titular: Gilead Sciences Ireland Unlimited Company.
 
 ---
 
@@ -111,17 +112,17 @@ El apoyo clínico se limita a datos de Fase 1. En el paquete no aparece ningún 
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de PI3Kδ) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto. La evidencia disponible señala toxicidades de clase (hepática, diarrea/colitis, neumonitis, infecciones, reacciones cutáneas), por lo que se sugiere vigilar función hepática y hemograma |
+| Items de Monitoreo | Hemograma, función hepática y renal; vigilancia de diarrea/colitis y síntomas respiratorios (según los estudios de seguridad compilados) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Advertencias de la literatura y los ensayos:** los estudios compilados describen toxicidades graves y a veces mortales de idelalisib: hepatotoxicidad, diarrea grave/colitis, neumonitis, infecciones e intestinal perforation. Varios ensayos de fase 3 en primera línea y en LNH indolente se terminaron por un aumento de muertes y eventos adversos graves.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Las de nivel **mayor** incluyen loperamida, triamcinolona, budesonida y eliglustat. Entre las de nivel moderado figuran acarbosa, doxiciclina, hidrocortisona, pioglitazona, bupropión, aprepitant, dexametasona, betametasona, claritromicina, saxagliptina, minociclina y eluxadolina.
 
-No se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas procedentes de la ficha técnica de la AEMPS. Los ensayos de Fase 3 en primera línea de LLC y linfoma indolente registraron un aumento de muertes y eventos adversos graves con idelalisib más terapias estándar, según el comité independiente de monitoreo. Esto es un antecedente relevante para cualquier extensión de indicación.
-La literatura también indica que el laboratorio retiró voluntariamente en 2022 la indicación de aprobación acelerada en EE. UU. (PMID 36939665).
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -130,14 +131,14 @@ La literatura también indica que el laboratorio retiró voluntariamente en 2022
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia específica en LCM se limita a estudios de Fase 1 y a trabajos preclínicos. Estos incluyen datos de resistencia intrínseca. No hay ensayos aleatorizados en LCM, y el perfil beneficio-riesgo de idelalisib está condicionado por sus toxicidades graves de clase. El puntaje TxGNN alto no compensa esta falta de datos clínicos.
+Aunque el puntaje del modelo es alto y existe un racional mecanístico plausible, la evidencia clínica específica para linfoma de células del manto se limita a estudios de fase 1, 1/2 y un fase 2 terminado, sin resultados de eficacia concluyentes. Se ha descrito resistencia intrínseca en monoterapia y el perfil de seguridad exige cautela. El nivel de evidencia asignado es L2, pero no hay un ECA de fase 2/3 completado específico para esta indicación.
 
 **Para avanzar se necesita:**
-- Ficha técnica de la AEMPS (advertencias, contraindicaciones, interacciones), que hoy bloquea el cribado de seguridad
-- Datos de mecanismo de acción desde DrugBank
-- Resultados del ensayo NCT01838434 (idelalisib más lenalidomida en LCM) y evidencia de eficacia específica en LCM de Fase 2 o superior
-- Evaluación del beneficio-riesgo frente a alternativas ya establecidas en LCM (por ejemplo, inhibidores de BTK), considerando la resistencia y las toxicidades de clase
-- Revisión del estado regulatorio actual de idelalisib en cada jurisdicción
+- Revisar los resultados publicados de NCT01838434 (idelalisib más lenalidomida) en LCM
+- Obtener las advertencias y contraindicaciones oficiales de la ficha técnica de la AEMPS
+- Completar los datos del mecanismo de acción (MOA)
+- Comparar con alternativas ya aprobadas para LCM (por ejemplo, inhibidores de BTK)
+- Definir un plan de monitoreo de seguridad (hepático, gastrointestinal, pulmonar e infeccioso)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

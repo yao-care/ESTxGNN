@@ -2,7 +2,7 @@
 layout: default
 title: Tretinoin
 parent: Solo predicción del modelo (L5)
-nav_order: 544
+nav_order: 822
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tretinoína: De Usos Dermatológicos y Leucemia Promielocítica Aguda a Nodulosis Reumatoide
+# Tretinoína: De Acné a Nodulosis Reumatoide
 
 ## Resumen en Una Frase
 
-La tretinoína (ácido retinoico all-trans) se utiliza en trastornos cutáneos como el acné y la queratinización anómala, y como agente diferenciador en la leucemia promielocítica aguda.
-El modelo TxGNN predice que podría ser efectiva para **nodulosis reumatoide**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción concreta.
+La tretinoína (ácido retinoico todo-trans) es un retinoide utilizado originalmente para el tratamiento del acné, la leucemia promielocítica aguda, la queratosis adquirida y la queratodermia palmoplantar.
+El modelo TxGNN predice que podría ser efectiva para la **nodulosis reumatoide**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta dirección: se trata de una predicción puramente computacional.
 
 ---
 
@@ -43,7 +43,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Las autorizaciones de la AEMPS no incluyen texto de indicación. Según datos farmacológicos: acné, daño por radiación UV, trastornos de la queratinización y leucemia promielocítica aguda |
+| Indicación Original | Acné, leucemia promielocítica aguda, queratosis adquirida y queratodermia palmoplantar (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Nodulosis reumatoide |
 | Puntaje de Predicción TxGNN | 99.84% |
 | Nivel de Evidencia | L5 |
@@ -55,11 +55,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la tretinoína es un retinoide que actúa sobre receptores nucleares. Su eficacia en enfermedades de la piel y en la leucemia promielocítica aguda está establecida, y mecanísticamente podría ser aplicable a enfermedades inflamatorias e inmunomediadas. Los datos farmacológicos la vinculan con los receptores del ácido retinoico (RARα, RARβ y RARγ). También muestran interacción con PPARδ, RORβ, TR4 (NR2C2) y TLX (NR2E1).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción original del fármaco. Según la información conocida, la tretinoína es un retinoide que actúa como ligando de los receptores del ácido retinoico (RAR-α, RAR-β y RAR-γ), y además interactúa con otros receptores nucleares como PPAR-β/δ, RORB, NR2C2 (receptor testicular 4) y NR2E1 (TLX). Se utiliza como agente diferenciador en la leucemia promielocítica aguda y para normalizar la queratinización en trastornos cutáneos como el acné.
 
-La relación entre las indicaciones originales y la nodulosis reumatoide es indirecta. La nodulosis reumatoide es una afección inflamatoria asociada a la artritis reumatoide, y el ácido retinoico tiene actividad inmunomoduladora. Sin embargo, no hay ensayos ni literatura que vinculen la tretinoína con esta enfermedad. La predicción se apoya únicamente en el puntaje del modelo.
+La relación entre las indicaciones originales (dermatológicas y hematológicas) y la nodulosis reumatoide es indirecta. Un vínculo plausible, pero no verificado, sería la modulación retinoide de la señalización inmunitaria e inflamatoria (por ejemplo, efectos sobre la diferenciación de los linfocitos T y la producción de citocinas). Esta hipótesis es especulativa para los nódulos reumatoides en particular.
 
-Conviene interpretar el resultado con cautela. Un puntaje alto indica una asociación en el grafo de conocimiento, no eficacia demostrada. La nodulosis reumatoide es solo la primera de diez candidatas, y la mayoría son artropatías o displasias esqueléticas sin evidencia propia.
+Conviene destacar que las demás predicciones de mayor puntaje (artritis idiopática juvenil y sus variantes, espondiloartropatía, osteoartritis, displasias esqueléticas) tampoco cuentan con evidencia clínica. Todas reflejan probablemente la proximidad en la red del grafo de conocimiento y no una base farmacológica establecida. Entre las predicciones del listado, la foliculitis decalvante de Quinquaud (rango 10) parece mecanísticamente más verosímil por la acción dermatológica de la tretinoína, aunque tampoco está verificada.
 
 ---
 
@@ -71,19 +71,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la nodulosis reumatoide.
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 65396 | VESANOID 10 mg cápsulas blandas | Cápsula blanda | Cheplapharm Arzneimittel GmbH |
-| 52751 | NEOCARE 4 mg/g crema | Crema | Industrial Farmacéutica Cantabria S.A. |
-| 60140 | RETIRIDES 0,25 mg/g crema | Crema | Galenicum Derma S.L.U. |
-| 60142 | RETIRIDES 1 mg/g crema | Crema | Galenicum Derma S.L.U. |
-| 60141 | RETIRIDES 0,5 mg/g crema | Crema | Galenicum Derma S.L.U. |
+| 65396 | VESANOID 10 mg CÁPSULAS BLANDAS | Cápsula blanda | No disponible en los datos compilados |
+| 52751 | NEOCARE 4 mg/g CREMA | Crema | No disponible en los datos compilados |
+| 60140 | RETIRIDES 0,25 MG/G CREMA | Crema | No disponible en los datos compilados |
+| 60142 | RETIRIDES 1 MG/G CREMA | Crema | No disponible en los datos compilados |
+| 60141 | RETIRIDES 0,5 MG/G CREMA | Crema | No disponible en los datos compilados |
 
 ---
 
@@ -91,7 +91,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Agente diferenciador antineoplásico (no citotóxico convencional), en su uso oncológico |
+| Clasificación de Citotoxicidad | Agente diferenciador (retinoide) usado en leucemia promielocítica aguda; no es un citotóxico convencional clásico |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
@@ -101,11 +101,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas:** la consulta se completó, pero los 7 registros son dianas farmacológicas, no interacciones con otros medicamentos. Son RARα, RARβ, RARγ, PPARδ, RORβ, TR4 (NR2C2) y TLX (NR2E1).
-- **Población pediátrica:** para las candidatas de artritis idiopática juvenil, el uso sistémico de retinoides en niños implica riesgo de teratogenicidad y toxicidad esquelética. Habría que sopesarlo antes de cualquier desarrollo.
-- **Sistema esquelético:** los retinoides pueden afectar negativamente al crecimiento esquelético, lo que es relevante para las candidatas de displasia esquelética.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo, no texto de prospecto): quemadura solar, trastornos de ansiedad y neuróticos, trastorno distímico, enfermedad renal, pioureter, pancreatitis, enfermedad hepática, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, insuficiencia suprarrenal y enfermedad de Addison, enfermedad de Crohn y enfermedad inflamatoria intestinal, eccema/dermatitis atópica, osteoporosis (incluida la posmenopáusica), trastornos psicóticos y mentales (esquizofreniforme, esquizoafectivo), micosis fungoide y linfomas cutáneos de células T relacionados, diabetes mellitus y cetoacidosis diabética.
+- **Interacciones farmacológicas**: se identificaron 7 interacciones de tipo farmacológico con receptores diana (RAR-α, RAR-β, RAR-γ, PPAR-β/δ, RORB, NR2C2 y NR2E1). Son relaciones de unión a receptores, sin nivel de gravedad clínica asignado.
+- **Consideraciones específicas de las predicciones**: el uso pediátrico de tretinoína sistémica (relevante para las predicciones de artritis juvenil) plantearía preocupaciones de seguridad (teratogenicidad, toxicidad ósea y mucocutánea). En displasias esqueléticas, los retinoides pueden alterar el desarrollo esquelético.
 
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
+Las advertencias principales del prospecto de la AEMPS no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ---
 
@@ -114,18 +114,14 @@ Para el resto de la información de seguridad (advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para nodulosis reumatoide es solo del modelo (nivel L5), sin ensayos clínicos ni literatura que la respalden. Además, las advertencias y contraindicaciones oficiales no están disponibles, así que no se puede completar el cribado de seguridad.
-
-Entre las candidatas, la **artrosis** es la única con literatura relevante (nivel L4): estudios genéticos y preclínicos sobre ALDH1A2 y ácido retinoico (PMID 36542696, 37418291). Sin embargo, la dirección del efecto es contradictoria, porque un estudio de 2025 (PMID 40564983) sugiere que un exceso de ácido retinoico podría dañar el cartílago. Por eso se trata como pregunta de investigación, no como candidata lista para avanzar.
+El puntaje de TxGNN es alto (99.84%), pero no existe ningún ensayo clínico ni publicación que respalde el uso de tretinoína en la nodulosis reumatoide (nivel L5). Además, el mecanismo de acción original y los datos de seguridad del prospecto no están disponibles, y el perfil de contraindicaciones del grafo es amplio.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones).
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión sistemática de la literatura sobre retinoides en nodulosis reumatoide y artritis reumatoide.
-- Definir la vía de administración compatible (oral frente a tópica), hoy sin evaluar.
-- Si se prioriza la artrosis, aclarar la relación dosis-efecto del ácido retinoico en cartílago antes de proponer estudios clínicos.
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un requisito previo para cualquier evaluación de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión sistemática de la literatura sobre retinoides en nodulosis reumatoide y artritis inflamatoria.
+- Establecer estudios preclínicos que respalden el vínculo mecanístico (por ejemplo, equilibrio Th17/Treg).
+- Evaluar si otras predicciones, como la foliculitis decalvante, ofrecen una hipótesis más sólida y mejor alineada con la vía tópica ya comercializada.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

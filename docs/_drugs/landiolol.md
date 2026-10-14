@@ -2,7 +2,7 @@
 layout: default
 title: Landiolol
 parent: Solo predicción del modelo (L5)
-nav_order: 302
+nav_order: 449
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Landiolol: De Indicación Original No Registrada a Discinesia Linguo-Facial-Bucal
+# Landiolol: De Indicación Original No Especificada a Discinesia Lingual-Facial-Bucal
 
 ## Resumen en Una Frase
 
-Landiolol es un betabloqueante intravenoso de acción ultracorta y alta selectividad beta-1. En los datos disponibles no consta el texto de su indicación aprobada en España.
-El modelo TxGNN predice que podría ser efectivo para **discinesia linguo-facial-bucal**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Landiolol es un antagonista adrenérgico beta-1 altamente selectivo y de acción ultracorta, administrado por vía intravenosa en entorno de cuidados críticos, que se utiliza en taquicardia supraventricular (fibrilación y aleteo auricular).
+El modelo TxGNN predice que podría ser efectivo para **discinesia lingual-facial-bucal**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Discinesia linguo-facial-bucal |
-| Puntaje de Predicción TxGNN | 99,11% |
+| Indicación Original | No disponible en la autorización de AEMPS (el texto de indicación está vacío); según datos farmacológicos, taquicardia supraventricular |
+| Nueva Indicación Predicha | Discinesia lingual-facial-bucal |
+| Puntaje de Predicción TxGNN | 99.11% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
@@ -50,19 +51,11 @@ El modelo TxGNN predice que podría ser efectivo para **discinesia linguo-facial
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el Evidence Pack. Según la información conocida, landiolol es un bloqueante beta-1 adrenérgico intravenoso, de acción ultracorta y cardioselectivo, pensado para uso agudo en entornos hospitalarios.
+Landiolol es un bloqueante beta-1 adrenérgico de acción ultracorta, con una selectividad aproximadamente 250 veces mayor por los receptores β1 que por los β2. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción original, por lo que la predicción no puede anclarse a un mecanismo documentado.
 
-La relación con la nueva indicación es débil. Los betabloqueantes orales o no selectivos se han usado en algunos trastornos del movimiento inducidos por fármacos, pero nada vincula específicamente a landiolol con la discinesia orofacial. Además, su perfil de uso solo intravenoso y agudo encaja mal con una enfermedad crónica.
+Algunos betabloqueantes (principalmente propranolol) se han empleado en ciertos trastornos hipercinéticos del movimiento, como la discinesia tardía y la acatisia. Sin embargo, no hay evidencia de que el bloqueo selectivo beta-1 actúe sobre la discinesia orofacial, que depende de mecanismos dopaminérgicos y estriatales centrales. Además, landiolol actúa de forma periférica, con penetración limitada en el sistema nervioso central.
 
-El puntaje alto (99,11%) probablemente refleja similitud a nivel de grafo con otros betabloqueantes, y no biología específica de landiolol. Otras predicciones del modelo siguen el mismo patrón, todas con nivel L5 y sin evidencia recuperada:
-
-| Enfermedad predicha | Puntaje TxGNN | Comentario |
-|------|------|------|
-| Trastorno de tics crónico | 99,08% | Circuitos dopaminérgicos y cortico-estriatales, sin mecanismo beta-1 establecido |
-| Trastornos de movimiento psicógenos | 99,05% | Vínculo teórico especulativo, vía modulación adrenérgica periférica |
-| Ataques de escalofrío benignos | 99,04% | Cuadro benigno y autolimitado en lactantes, relación riesgo-beneficio muy desfavorable |
-| Enfermedad extrapiramidal y de movimiento | 99,04% | Categoría amplia, la señal debería resolverse en subdiagnósticos concretos |
-| Temblor ortostático primario | 99,00% | Beneficio limitado de los betabloqueantes, y landiolol es beta-1 selectivo y solo intravenoso |
+En conclusión, el vínculo mecanístico es especulativo y se basa solo en la proximidad dentro de la red de conocimiento del modelo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -76,29 +69,39 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 89271 | RAPIBLOC 300 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución para perfusión | No especificada en los datos disponibles |
-
-Titular: Orpha-Devel Handels Und Vertriebs Gmbh.
+| 89271 | RAPIBLOC 300 MG POLVO PARA SOLUCIÓN PARA PERFUSIÓN | Polvo para solución para perfusión | No especificada en los datos disponibles |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas para este fármaco.
+- **Interacciones Farmacológicas / Farmacología:** los datos registran su acción sobre el receptor adrenérgico β1 (ADRB1) y, con mucha menor afinidad, sobre el β2 (ADRB2). No se dispone de interacciones con otros fármacos con nivel de gravedad asignado.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+## Otras Predicciones Evaluadas
+
+Todas las predicciones tienen nivel L5 y recomendación Hold, sin ensayos ni literatura:
+
+| Enfermedad Predicha | Puntaje TxGNN | Comentario |
+|------|------|------|
+| Trastorno de tics crónico | 99.08% | Los tratamientos adrenérgicos relevantes son agonistas alfa-2 de acción central; vínculo débil |
+| Trastornos del movimiento psicógenos | 99.05% | Sin estándar farmacológico; perfil intravenoso de corta duración poco adecuado para una enfermedad crónica |
+| Episodios de estremecimiento benigno | 99.04% | Condición benigna y autolimitada del lactante; el umbral de seguridad para un betabloqueante intravenoso es alto |
+| Enfermedad extrapiramidal y del movimiento | 99.04% | Categoría amplia; la puntuación refleja cercanía en el grafo, no un mecanismo específico |
+| Temblor ortostático primario | 99.00% | Se trata con clonazepam, gabapentina o primidona; improbable efecto sobre el oscilador central |
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y no hay un mecanismo plausible que conecte un betabloqueante intravenoso cardioselectivo de acción ultracorta con trastornos del movimiento crónicos. Faltan además los datos de seguridad y de la indicación original.
+La predicción se basa únicamente en el modelo computacional, sin ensayos clínicos ni literatura de apoyo. Además, el mecanismo es biológicamente poco plausible (acción periférica y vía intravenosa frente a una patología de origen central).
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de AEMPS las advertencias, contraindicaciones y el texto de la indicación aprobada
-- Completar los datos de mecanismo de acción desde DrugBank
-- Realizar una búsqueda dirigida de literatura y ensayos sobre betabloqueantes en discinesias y temblores
-- Evaluar la compatibilidad de la vía de administración (solo intravenosa) con el uso crónico
-- Considerar la priorización de otras predicciones solo si aparece evidencia independiente
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos detallados del mecanismo de acción (MOA) del fármaco
+- Información de seguridad completa del prospecto de AEMPS (advertencias y contraindicaciones)
+- Texto de la indicación aprobada en la autorización española
+- Estudios preclínicos o de mecanismo que justifiquen un vínculo con trastornos del movimiento
+- Evaluación de la compatibilidad de la vía de administración (intravenosa) con las indicaciones propuestas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

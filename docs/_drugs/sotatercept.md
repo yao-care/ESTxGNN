@@ -2,7 +2,7 @@
 layout: default
 title: Sotatercept
 parent: Solo predicción del modelo (L5)
-nav_order: 500
+nav_order: 746
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Sotatercept: De Indicación Original No Registrada a Leucemia Linfoblástica Aguda
+# Sotatercept: De Indicación Original No Especificada a Leucemia Linfoblástica Aguda
 
 ## Resumen en Una Frase
 
-Sotatercept se comercializa en España con el nombre Winrevair, pero los registros de autorización disponibles no incluyen el texto de la indicación original.
-El modelo TxGNN predice que podría ser efectivo para **leucemia linfoblástica aguda**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Sotatercept es una proteína de fusión del receptor de activina tipo IIA unido a Fc (ActRIIA-Fc), comercializada en España como Winrevair. En los datos compilados para este informe no consta el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **leucemia linfoblástica aguda**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | No disponible (el texto de indicación de las autorizaciones AEMPS está vacío) |
 | Nueva Indicación Predicha | Leucemia linfoblástica aguda |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Puntaje de Predicción TxGNN | 99,78 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
@@ -51,9 +50,9 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Como contexto general, que no proviene de los datos suministrados y no está verificado, sotatercept se describe como una trampa de ligandos basada en el receptor de activina tipo IIA fusionado a Fc. Modula la señalización de la superfamilia del TGF-beta, que podría tener alguna relación con la regulación de la hematopoyesis.
+Sotatercept es una proteína de fusión ActRIIA-Fc que captura activina y factores de diferenciación de crecimiento (GDF), con el fin de reequilibrar la señalización BMP/activina. Los datos compilados no incluyen una descripción detallada del mecanismo de acción registrada, por lo que esta descripción procede del análisis de racionalidad de la predicción.
 
-El puntaje de 0.998 refleja únicamente la proximidad en el grafo de conocimiento de TxGNN, no un estudio real. La similitud con la indicación original tampoco se ha podido evaluar. Además, el fármaco eleva la hemoglobina y el hematocrito, por lo que su uso en una neoplasia hematológica activa requeriría una revisión de seguridad específica.
+El vínculo con la leucemia linfoblástica aguda es **especulativo**. La señalización de la familia activina/TGF-beta influye en la hematopoyesis, pero no existen datos mecanísticos ni clínicos directos que apoyen un beneficio en esta enfermedad. Modular la diferenciación hematopoyética podría incluso ser contraproducente. El puntaje alto de TxGNN refleja solo una predicción computacional.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,32 +66,28 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1241850001 | WINREVAIR 45 MG polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No consta en el registro |
-| 1241850003 | WINREVAIR 60 MG polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No consta en el registro |
-
-Titular: Merck Sharp & Dohme B.V.
+| 1241850001 | Winrevair 45 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+| 1241850003 | Winrevair 60 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+Consultar el prospecto para información de seguridad.
+
+Como aspecto cualitativo del análisis de la predicción: sotatercept se ha asociado con telangiectasias y eventos hemorrágicos (p. ej., epistaxis, sangrado gingival) por sus efectos sobre la biología vascular. Esto es relevante sobre todo para las indicaciones oculares predichas (retinopatía diabética).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5, etapa S0), sin ensayos ni publicaciones. Además, el aumento de hemoglobina y hematocrito plantea una preocupación de seguridad en una neoplasia hematológica.
+La predicción para leucemia linfoblástica aguda se basa solo en el modelo (L5), sin ensayos, literatura ni respaldo mecanístico directo. Además, la modulación de la diferenciación hematopoyética podría ser contraproducente.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicación autorizada), ya que sin él no se puede pasar al cribado de seguridad.
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), y confirmar la indicación aprobada de las autorizaciones.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una búsqueda bibliográfica dirigida sobre sotatercept y leucemia linfoblástica aguda.
-- Revisar la seguridad hematológica específica de esta posible indicación.
-
-**Otras predicciones del modelo (contexto):**
-- Las 10 predicciones principales son todas L5, con puntajes entre 99.34% y 99.78%.
-- Las entradas de retinopatía diabética (3, incluida la catarata diabética) y las de carcinoma urotelial (4) forman grupos redundantes. Sus puntajes no son señales independientes.
-- **Osteoporosis inducida por fármacos** es la única marcada como "Research Question". Tiene la justificación biológica más coherente: los inhibidores de ligandos del receptor de activina pueden afectar la remodelación ósea. Merece una búsqueda bibliográfica dirigida sobre marcadores de recambio óseo y densidad ósea antes de avanzar de etapa.
+- Realizar una revisión bibliográfica dirigida y estudios preclínicos que respalden un vínculo mecanístico con la leucemia linfoblástica aguda.
+- Valorar otras predicciones del modelo con mayor plausibilidad biológica, como la osteoporosis inducida por fármacos (señalización de activina en el remodelado óseo), que también requiere verificación bibliográfica. Las predicciones de carcinoma urotelial forman un grupo correlacionado y no deben considerarse apoyo independiente.
+- Evaluar el riesgo hemorrágico/vascular antes de considerar usos oftalmológicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

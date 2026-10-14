@@ -2,7 +2,7 @@
 layout: default
 title: Foscarnet
 parent: Solo predicción del modelo (L5)
-nav_order: 246
+nav_order: 358
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,83 +29,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Foscarnet: De Infecciones Virales por Herpesvirus a Síndrome Familiar Autosómico Dominante de Hematuria, Tortuosidad Arteriolar Retiniana y Contracturas
+# Foscarnet: De Indicación Original No Disponible a Síndrome de Hematuria Familiar Autosómico Dominante con Tortuosidad Arteriolar Retiniana y Contracturas
 
 ## Resumen en Una Frase
 
-Foscarnet es un antiviral en solución para perfusión que se usa en infecciones por herpesvirus (CMV, HSV y VEB). El modelo TxGNN predice que podría ser efectivo para el **síndrome familiar autosómico dominante de hematuria, tortuosidad arteriolar retiniana y contracturas**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Se trata de una predicción puramente computacional.
-
----
+Foscarnet es un antiviral de administración intravenosa que está comercializado en España; los datos compilados para este informe no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, y el análisis mecanístico la considera probablemente un artefacto del grafo de conocimiento.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en las fichas de autorización de AEMPS (los textos de indicación están vacíos) |
-| Nueva Indicación Predicha | Síndrome familiar autosómico dominante de hematuria, tortuosidad arteriolar retiniana y contracturas |
-| Puntaje de Predicción TxGNN | 99.56% |
+| Indicación Original | No disponible en los datos de las autorizaciones de la AEMPS |
+| Nueva Indicación Predicha | Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas |
+| Puntaje de Predicción TxGNN | 99,56 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, foscarnet es un análogo del pirofosfato que inhibe la ADN polimerasa viral, y su eficacia está establecida en infecciones por herpesvirus.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento farmacológico general, foscarnet es un análogo del pirofosfato que inhibe la ADN polimerasa viral y la transcriptasa inversa.
 
-**No se identifica un vínculo mecanístico plausible con la nueva indicación.** El síndrome predicho es un trastorno monogénico raro de los vasos y de la membrana basal, sin componente viral ni de ADN polimerasa. El puntaje de 99.56% proviene de la estructura del grafo de conocimiento y no de evidencia biológica o clínica. Con una sola indicación predicha sin ensayos ni literatura, lo prudente es tratarla como una hipótesis sin respaldo.
+La enfermedad predicha es un trastorno genético raro (vasculopatía relacionada con COL4A1) sin etiología viral. El análisis realizado concluye que **no existe un vínculo mecanístico que respalde la predicción**. El puntaje alto de TxGNN parece deberse a nodos de fenotipo retiniano compartidos en el grafo de conocimiento, y no a una justificación farmacológica.
 
-Las otras tres predicciones del modelo (enfermedad de vasos pequeños cerebrales tipo 1, artritis reumatoide y nefropatía diabética) tampoco tienen respaldo. La literatura y el ensayo que aparecen asociados no tratan de foscarnet en esas enfermedades, y probablemente son coincidencias de palabras clave o artefactos del grafo. En la nefropatía diabética, además, la nefrotoxicidad conocida de foscarnet iría en contra de su uso.
+Por tanto, esta predicción debe considerarse una señal computacional sin sustento biológico demostrado, y no una hipótesis de reposicionamiento plausible.
 
----
+Otras predicciones del modelo tampoco muestran respaldo: enfermedad de vasos pequeños cerebrales tipo 1 (99,54 %), artritis reumatoide (99,52 %) y nefropatía diabética (99,43 %). En esta última existe además una preocupación de seguridad, ya que foscarnet es nefrotóxico.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
-
----
+Actualmente no hay literatura relacionada disponible para la indicación principal predicha.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 88760 | Foscarnet Tillomed 24 mg/ml solución para perfusión EFG | Solución para perfusión | No especificada en el registro |
-| 59712 | Foscavir 24 mg/ml solución para perfusión | Solución para perfusión | No especificada en el registro |
-| 85153 | Foscarnet Kabi 24 mg/ml solución para perfusión EFG | Solución para perfusión | No especificada en el registro |
-
----
+| 88760 | Foscarnet Tillomed 24 mg/ml solución para perfusión EFG | Solución para perfusión | No disponible |
+| 59712 | Foscavir 24 mg/ml solución para perfusión | Solución para perfusión | No disponible |
+| 85153 | Foscarnet Kabi 24 mg/ml solución para perfusión EFG | Solución para perfusión | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+- **Contraindicaciones según el grafo de conocimiento (no proceden del prospecto):** síndrome de QT largo (incluida la forma familiar), torsades de pointes, epilepsia, enfermedad renal, déficit de potasio, neutropenia y agranulocitosis (incluidas formas congénitas), hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo (hiperfosfatemia e hipofosfatemia) y anemia.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Entre las de nivel **mayor** figuran anfotericina B (incluido el complejo lipídico), dolasetrón y bupropión. Entre las de nivel moderado se incluyen famotidina, omeprazol, rabeprazol, dexlansoprazol, claritromicina, loperamida, mesalazina, balsalazida y varios corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, beclometasona).
+- Consultar el prospecto para información de seguridad adicional, ya que no se dispone de advertencias de etiqueta.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (nivel L5) y carece de un vínculo mecanístico plausible entre un antiviral inhibidor de la ADN polimerasa viral y un trastorno vascular monogénico. No hay base para avanzar.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre un antiviral y una vasculopatía genética por defecto de colágeno IV. El puntaje alto parece un artefacto del grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- Un mecanismo biológico concreto que conecte foscarnet con la patogenia del síndrome, apoyado en estudios preclínicos
-- Descargar y analizar el prospecto de AEMPS para completar advertencias y contraindicaciones
-- Obtener los datos de mecanismo de acción desde DrugBank
-- Confirmar la indicación original autorizada, ya que los registros de AEMPS no traen el texto
-- Reconsiderar el caso solo si aparece evidencia real (ensayos o publicaciones específicas del fármaco en esta enfermedad)
-
----
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Obtener y analizar el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Justificación biológica independiente que vincule foscarnet con la patología de COL4A1 antes de considerar cualquier estudio
+- Si se retomara el caso, evaluar la nefrotoxicidad y las alteraciones electrolíticas, que son riesgos relevantes para esta población
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

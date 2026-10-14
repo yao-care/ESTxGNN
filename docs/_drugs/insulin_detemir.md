@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Detemir
 parent: Evidencia alta (L1-L2)
-nav_order: 281
+nav_order: 419
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Insulina detemir: De Indicación Original No Registrada a Diabetes Mellitus Tipo 1
+# Insulina detemir: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
 
 ## Resumen en Una Frase
 
-La insulina detemir (Levemir) es una insulina basal de acción prolongada, comercializada en España por Novo Nordisk. El registro de AEMPS de este paquete de evidencia no incluye el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectiva para la **diabetes mellitus tipo 1**, con **50 ensayos clínicos** y **19 publicaciones** que respaldan esta dirección.
-Esta predicción coincide con un uso ya comercializado, por lo que en la práctica no es un reposicionamiento.
+Insulina detemir es un análogo de insulina basal de acción prolongada, originalmente utilizado para el tratamiento de la diabetes mellitus y la cetoacidosis diabética.
+El modelo TxGNN predice que podría ser efectivo para la **diabetes mellitus tipo 1**, con **39 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección. Cabe señalar que esta predicción coincide con el uso central del fármaco, por lo que no constituye un reposicionamiento en sentido estricto.
 
 ---
 
@@ -43,6 +42,7 @@ Esta predicción coincide con un uso ya comercializado, por lo que en la prácti
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Diabetes mellitus y cetoacidosis diabética (según el grafo de conocimiento; el texto de indicación aprobado en las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
 | Puntaje de Predicción TxGNN | 99.77% |
 | Nivel de Evidencia | L1 |
@@ -54,66 +54,73 @@ Esta predicción coincide con un uso ya comercializado, por lo que en la prácti
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank para este paquete. Según la literatura recuperada, la insulina detemir es un análogo soluble de la insulina humana, acilado con un ácido graso de 14 carbonos. Tras la inyección subcutánea se une de forma reversible a la albúmina, lo que produce una absorción lenta y un efecto metabólico prolongado de hasta 24 horas. Actúa sobre el receptor de insulina y sustituye la insulina basal endógena que falta.
+Insulina detemir es un análogo de insulina soluble de acción prolongada. Se diferencia de la insulina humana por la eliminación del aminoácido treonina en la posición B30 y la acilación de un ácido graso de 14 carbonos (ácido mirístico) en la lisina B29. Esta modificación permite que se una de forma reversible a la albúmina tras la inyección subcutánea, lo que produce una absorción lenta y un efecto metabólico prolongado de hasta 24 horas. Se une al receptor de insulina para reemplazar la insulina endógena deficiente. Los datos compilados no incluyen un campo formal de mecanismo de acción, pero esta farmacología está bien descrita en la literatura (por ejemplo, PMID 17881328).
 
-En la diabetes tipo 1 el páncreas deja de producir insulina, y el tratamiento de base es reponerla. Por eso la predicción es mecanísticamente coherente: la insulina detemir cumple esa función como insulina basal dentro de un régimen basal-bolo. Se trata de un uso comercializado, no de un hallazgo nuevo. La ausencia de indicación original en el registro es una laguna de datos, no una señal de que el uso sea nuevo.
+La diabetes tipo 1 se caracteriza por una deficiencia absoluta de insulina, por lo que la terapia basal con insulina es el tratamiento de referencia. Por ello, la predicción del modelo es coherente con el mecanismo establecido y con el uso original del fármaco, y el puntaje elevado (0.998) refleja una indicación ya consolidada, no una hipótesis novedosa.
+
+Otras predicciones del modelo (por ejemplo, ooforitis autoinmune, opsismodisplasia, síndrome de la persona rígida o lipodistrofias) carecen de ensayos clínicos y de literatura de respaldo. Probablemente reflejan asociaciones en el grafo de conocimiento y no mecanismos terapéuticos. En el caso de las lipodistrofias, la insulina es más bien una causa conocida en el sitio de inyección. La agenesia pancreática es mecanísticamente plausible, pero la evidencia es indirecta y solo trataría la manifestación diabética. Ninguna de ellas se desarrolla en este informe.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Se identificaron 50 ensayos; se muestran los 10 más relevantes para diabetes tipo 1.
+Se listan los 10 ensayos más relevantes, priorizando los de mayor relevancia directa y fase más avanzada, de un total de 39 registrados.
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Fase 3 | Completado | 114 | Detemir + aspart frente a NPH + aspart en adultos con DM1: eficacia y seguridad en el control glucémico |
-| [NCT00312104](https://clinicaltrials.gov/study/NCT00312104) | Fase 3 | Completado | 325 | Detemir dos veces al día frente a glargina una vez al día, ambas con aspart, en DM1 |
-| [NCT01697657](https://clinicaltrials.gov/study/NCT01697657) | Fase 3 | Completado | 131 | Cruzado: frecuencia de hipoglucemias con detemir frente a NPH en DM1 bien controlada |
-| [NCT00271284](https://clinicaltrials.gov/study/NCT00271284) | Fase 3 | Completado | 88 | Cruzado: variabilidad de la glucemia en ayunas con glargina o detemir, combinadas con glulisina, en DM1 |
-| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Fase 3 | Completado | 350 | Degludec frente a detemir en niños y adolescentes con DM1 (detemir como comparador) |
-| [NCT00605137](https://clinicaltrials.gov/study/NCT00605137) | Fase 3 | Completado | 83 | Seguridad de detemir frente a NPH en niños con DM1 (Japón) |
-| [NCT01831765](https://clinicaltrials.gov/study/NCT01831765) | Fase 3 | Completado | 1290 | FIAsp frente a aspart, ambas con detemir como insulina basal de fondo en adultos con DM1 |
-| [NCT01461616](https://clinicaltrials.gov/study/NCT01461616) | Fase 3 | Completado | 19 | Triple cruzado NPH, detemir y glargina: efecto sobre IGFBP-1 e IGF-I en DM1 |
-| [NCT00542399](https://clinicaltrials.gov/study/NCT00542399) | Fase 4 | Completado | 50 | Detemir una frente a dos veces al día en niños y adolescentes con DM1 |
-| [NCT00704574](https://clinicaltrials.gov/study/NCT00704574) | N/A | Completado | 159 | Estudio observacional (PREDICTIVE Youth): reacciones adversas graves con detemir en menores con DM1 |
-
-**Nota:** en varios de estos ensayos la detemir es solo el comparador o la insulina basal de fondo (NCT01831765, NCT01513473). Por eso respaldan su uso y seguridad, pero no siempre miden su eficacia de forma directa.
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Fase 3 | Completado | 114 | Detemir + aspart vs. NPH + aspart en adultos con diabetes tipo 1 en Europa; compara control glucémico y seguridad |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Fase 3 | Completado | 330 | Comparación doble ciego de 12 meses entre detemir del proceso actual y del proceso NN729 en diabetes tipo 1 |
+| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Fase 3 | Completado | 347 | Detemir vs. NPH, con aspart en las comidas, en niños y adolescentes con diabetes tipo 1 |
+| [NCT00184639](https://clinicaltrials.gov/study/NCT00184639) | Fase 3 | Completado | 71 | Detemir vs. insulina Semilente MC durante 32 semanas en niños, adolescentes y adultos jóvenes (6-21 años) |
+| [NCT01709929](https://clinicaltrials.gov/study/NCT01709929) | Fase 3 | Completado | 2287 | Estudio de seguridad abierto y no aleatorizado de detemir en diabetes tipo 1 o 2 en Norteamérica |
+| [NCT00978627](https://clinicaltrials.gov/study/NCT00978627) | Fase 3 | Completado | 548 | NN5401 (degludec/aspart) vs. detemir + aspart en diabetes tipo 1; detemir como comparador |
+| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Fase 3 | Terminado | 596 | Insulina inhalada vs. aspart subcutánea, ambas con detemir como basal; detemir es tratamiento de fondo y la terminación temprana limita la interpretación |
+| [NCT00117780](https://clinicaltrials.gov/study/NCT00117780) | Fase 4 | Completado | 520 | Detemir una vez vs. dos veces al día en régimen basal-bolo con aspart en diabetes tipo 1 |
+| [NCT01440439](https://clinicaltrials.gov/study/NCT01440439) | Fase 4 | Desconocido | 30 | Detemir vs. glargina sobre el control glucémico y el metabolismo durante el ejercicio; muestra pequeña y estado incierto |
+| [NCT01542463](https://clinicaltrials.gov/study/NCT01542463) | N/A | Completado | 4464 | Estudio no intervencionista europeo sobre seguridad, control glucémico y peso con detemir en diabetes tipo 1 o 2 |
 
 ---
 
 ## Evidencia de Literatura
 
-Se recuperaron 19 publicaciones; se muestran 10 (ECA y metaanálisis primero, luego revisiones).
+Se listan 10 de las 20 publicaciones, priorizando ECA y revisiones sistemáticas.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | ECA | Lancet Diabetes Endocrinol | Estudio EXPECT: degludec frente a detemir, ambas con aspart, en embarazadas con DM1 (no inferioridad) |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Revisión sistemática y metaanálisis | Pol Arch Med Wewn | Compara detemir con NPH en DM1; los beneficios de la detemir no fueron confirmados por todos los estudios |
-| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Análogos de insulina de acción (ultra)prolongada en DM1: beneficio sobre complicaciones e hipoglucemia |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Metaanálisis en red | Value Health | Eficacia y seguridad relativas de las pautas de insulina basal en adultos con DM1 |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Revisión sistemática y metaanálisis | Clin Ther | Degludec frente a otras insulinas basales (glargina, detemir) en DM1 y DM2 |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Revisión | Lancet Diabetes Endocrinol | Manejo de la DM1 en el embarazo: estilo de vida, tratamiento farmacológico y tecnologías |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Revisión | Vasc Health Risk Manag | La detemir se une a la albúmina, con perfil farmacocinético menos variable; puede reducir el riesgo de hipoglucemia, sobre todo nocturna |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Revisión | Drugs | Efecto más predecible y consistente que NPH, con menor variabilidad intraindividual, hasta 24 horas |
-| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Revisión | Vasc Health Risk Manag | La detemir es una opción eficaz en DM1 y DM2, con menor tasa de hipoglucemias |
-| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Revisión | Drugs Today (Barc) | Análogos de insulina en DM1 de niños y adolescentes; la detemir es uno de los dos análogos de acción prolongada aprobados |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | ECA | Lancet Diabetes Endocrinol | Ensayo EXPECT de no inferioridad: degludec vs. detemir, con aspart, en embarazadas con diabetes tipo 1 |
+| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Revisión sistemática/Metaanálisis | Cochrane Database Syst Rev | Análogos de insulina de acción (ultra)larga en diabetes tipo 1, con foco en complicaciones e hipoglucemia |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Revisión sistemática/Metaanálisis | Pol Arch Med Wewn | Detemir vs. insulina NPH en diabetes tipo 1; los beneficios sobre el control glucémico no se confirmaron en todos los estudios |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Revisión sistemática/Metaanálisis en red | Value Health | Eficacia y seguridad relativas de regímenes de insulina basal en adultos con diabetes tipo 1 |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Revisión sistemática/Metaanálisis | Clin Ther | Eficacia y tolerabilidad de degludec frente a glargina y detemir en diabetes tipo 1 y 2 |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Revisión sistemática | Drugs Today (Barc) | Análogos de insulina en niños y adolescentes con diabetes tipo 1 |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Revisión | Vasc Health Risk Manag | Detemir tiene un perfil farmacocinético menos variable que NPH y puede reducir el riesgo de hipoglucemia, sobre todo nocturna |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Revisión | Drugs | Efecto más predecible y consistente que NPH, con hasta 24 horas de duración |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Revisión | Vasc Health Risk Manag | Actualización sobre detemir en diabetes tipo 1 y 2 |
+| [17881328](https://pubmed.ncbi.nlm.nih.gov/17881328/) | 2007 | Revisión | Endocrinol Metab Clin North Am | Farmacología de detemir: acilación con ácido mirístico y unión a albúmina |
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 04278005 | LEVEMIR FLEXPEN 100 U/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | Solución inyectable en pluma precargada | Novo Nordisk A/S |
-| 04278008 | LEVEMIR INNOLET 100 U/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | Solución inyectable en pluma precargada | Novo Nordisk A/S |
+| 04278005 | LEVEMIR FLEXPEN 100 U/ML solución inyectable en una pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
+| 04278008 | LEVEMIR INNOLET 100 U/ML solución inyectable en una pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
 
-El registro no incluye el texto de la indicación aprobada.
+Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Novo Nordisk A/S.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en las fuentes consultadas.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las listadas, la mayoría son de gravedad moderada; entre ellas:
+  - Antidiabéticos (metformina, pioglitazona, alogliptina, albiglutida): posible efecto hipoglucemiante aditivo.
+  - Simpaticomiméticos y agonistas beta (epinefrina, fenilefrina, pseudoefedrina, salbutamol, formoterol): pueden alterar el control glucémico.
+  - Betabloqueantes (acebutolol): pueden enmascarar los síntomas de hipoglucemia.
+  - Corticoides (hidrocortisona), estrógenos (etinilestradiol, estradiol), hidroclorotiazida, acetazolamida, doxiciclina, etanol y alpelisib: pueden modificar los requerimientos de insulina o el control glucémico.
+  - Corticoides tópicos (hidrocortisona tópica, alclometasona tópica): interacción de gravedad leve.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -122,19 +129,14 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay varios ensayos de Fase 3 completados en diabetes tipo 1 (frente a NPH, glargina y degludec), además de metaanálisis y revisiones, lo que cumple el criterio de nivel L1. Los guardarraíles son necesarios porque en varios ensayos la detemir actúa solo como comparador o tratamiento de fondo, y porque faltan los datos de seguridad del prospecto.
+Existen varios ensayos de Fase 3 completados en diabetes tipo 1 y numerosas revisiones sistemáticas que respaldan la eficacia y seguridad de insulina detemir (nivel L1). Sin embargo, esta indicación es el uso central ya consolidado del fármaco, no un reposicionamiento. Las demás indicaciones predichas carecen de evidencia y deberían mantenerse en espera (Hold).
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), pendiente para el cribado de seguridad.
-- Confirmar la indicación aprobada de Levemir en España y consultar el mecanismo de acción en DrugBank.
-- Definir los guardarraíles clínicos: riesgo de hipoglucemia, dosificación individualizada y rotación de sitios de inyección.
-- Ejecutar una revisión formal de la literatura que priorice los ECA con detemir como brazo de estudio, no como comparador.
-
-**Otras predicciones del modelo:** las nueve restantes (por ejemplo, ooforitis autoinmune, síndrome de la persona rígida, lipodistrofias) están en nivel L5 y se recomiendan como Hold. La agenesia pancreática se marca como pregunta de investigación: la reposición de insulina es coherente, pero no hay evidencia recuperada. La lipodistrofia localizada inducida por fármacos es una señal de seguridad de las insulinas inyectadas, no un objetivo terapéutico.
-
----
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente no disponible en los datos compilados.
+- Confirmar el texto de indicación aprobado en las autorizaciones españolas.
+- Completar los datos del mecanismo de acción en las fuentes del fármaco.
+- Establecer un plan de monitoreo de hipoglucemia y de interacciones, especialmente con otros antidiabéticos y betabloqueantes.
+- Si se desea un reposicionamiento genuino, evaluar por separado las indicaciones de menor evidencia (por ejemplo, agenesia pancreática) con estudios específicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

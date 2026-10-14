@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Solo predicción del modelo (L5)
-nav_order: 46
+nav_order: 63
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Aprepitant: De Antiemético Antagonista NK1 a Síndrome Nefrogénico de Antidiuresis Inapropiada
+# Aprepitant: De Indicación Original No Disponible a Síndrome Nefrogénico de Antidiuresis Inapropiada
 
 ## Resumen en Una Frase
 
-Aprepitant es un antagonista del receptor de neuroquinina 1 (NK1) comercializado en España en cápsulas duras y polvo para suspensión oral. Los datos de AEMPS recibidos no incluyen el texto de su indicación original.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada (NSIAD)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. Se trata de una hipótesis basada únicamente en el modelo.
-
----
+Aprepitant es un antagonista del receptor NK1 comercializado en España en varias presentaciones. En los datos compilados para este informe no consta el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada (NSIAD)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS proporcionados (los textos de indicación están vacíos) |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
@@ -50,62 +48,58 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 | Número de Autorizaciones | 13 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Aprepitant actúa como antagonista del receptor NK1, es decir, bloquea la señalización de la sustancia P. Los datos de DrugBank recibidos no incluyen una descripción detallada del mecanismo de acción, así que este resumen se basa en la clase farmacológica conocida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aprepitant es un antagonista del receptor de neuroquinina 1 (NK1), que bloquea la señalización de la sustancia P. Este mecanismo se utiliza clásicamente en la prevención de náuseas y vómitos, aunque el texto de indicación no figura en los datos de las autorizaciones españolas.
 
-El NSIAD es una enfermedad genética causada por variantes de ganancia de función del receptor V2 de la vasopresina (AVPR2). Esto provoca una antidiuresis inapropiada y una hiponatremia que no dependen de la vasopresina. No se conoce ninguna vía establecida que conecte la señalización sustancia P/NK1 con ese defecto, por lo que **el vínculo mecanístico es especulativo**.
+La relación con el NSIAD es solo indirecta. La señalización de sustancia P/NK1 en el sistema nervioso central podría influir en el equilibrio hídrico relacionado con la vasopresina. Sin embargo, el NSIAD se debe a mutaciones activadoras del receptor V2 de vasopresina (AVPR2), una vía que el antagonismo NK1 no actúa directamente.
 
-El puntaje del modelo es muy alto (99.97%), pero no está respaldado por ningún ensayo clínico, estudio preclínico ni publicación. Debe interpretarse como una señal exploratoria del grafo de conocimiento y no como una recomendación terapéutica.
-
----
+Por ello, el puntaje tan alto del modelo (99.97%) debe interpretarse con cautela: no hay ensayos, literatura ni relación mecanística directa que lo respalden.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
-
----
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 03262002 | EMEND 80 MG CÁPSULAS DURAS | Cápsula dura |
-| 84275 | APREPITANT ACCORD 125 MG CÁPSULAS DURAS EFG | Cápsula dura |
-| 84706 | ATANTO 125 MG CÁPSULAS DURAS EFG | Cápsula dura |
-| 85689 | APREPITANT QILU 80 MG CÁPSULAS DURAS EFG | Cápsula dura |
-| 103262011 | EMEND 125 MG POLVO PARA SUSPENSIÓN ORAL | Polvo para suspensión oral |
+Se listan 5 de las 13 autorizaciones vigentes (todas de principio activo único).
 
-Se muestran 5 de las 13 autorizaciones registradas. Los datos recibidos no incluyen el texto de indicación aprobada.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 03262002 | EMEND 80 mg cápsulas duras | Cápsula dura | No disponible |
+| 84275 | Aprepitant Accord 125 mg cápsulas duras EFG | Cápsula dura | No disponible |
+| 84706 | Atanto 125 mg cápsulas duras EFG | Cápsula dura | No disponible |
+| 85689 | Aprepitant Qilu 80 mg cápsulas duras EFG | Cápsula dura | No disponible |
+| 103262011 | EMEND 125 mg polvo para suspensión oral | Polvo para suspensión oral | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada, y las advertencias y contraindicaciones del prospecto de AEMPS aún no se han incorporado.
+- **Contraindicaciones (grafo de conocimiento, no texto del prospecto)**: el grafo de conocimiento asocia aprepitant con insuficiencia hepática (*liver failure*) como contraindicación.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; las primeras 20 revisadas incluyen:
+  - **Mayores**: fentanilo, alfentanilo, acalabrutinib.
+  - **Moderadas**: paclitaxel, abemaciclib, lidocaína, dihidrocodeína, rabeprazol, nifedipino, ibuprofeno, levonorgestrel, hidrocortisona, albendazol, fluvoxamina, fosamprenavir, fosfenitoína, fostamatinib, gefitinib y abametapir (tópico).
+  - **Menores**: dolutegravir.
+- Aprepitant presenta numerosas interacciones mediadas por CYP3A4, lo que debe considerarse con inductores o inhibidores potentes.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura específica de aprepitant, y con un vínculo mecanístico que los propios datos califican de especulativo. Además, falta la información de seguridad del prospecto, que es un vacío bloqueante para pasar a la siguiente etapa.
+La predicción se basa únicamente en el modelo computacional (nivel L5), sin ensayos clínicos, sin literatura relevante y sin vínculo mecanístico directo entre el antagonismo NK1 y la vía AVPR2 del NSIAD.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e interacciones).
+- Obtener el prospecto de AEMPS para confirmar indicaciones, advertencias y contraindicaciones (brecha bloqueante para el cribado de seguridad).
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Buscar evidencia preclínica o mecanística que relacione la señalización NK1/sustancia P con la función del receptor AVPR2 o con el manejo de la hiponatremia.
-- Revisar otras predicciones del mismo fármaco con una hipótesis biológica algo más plausible, como la hemorragia subaracnoidea (neuroinflamación mediada por sustancia P). Ninguna cuenta hoy con evidencia clínica, y la literatura recuperada para la malformación con componente periodontal es solo coincidencia de palabras clave y no evalúa aprepitant.
+- Realizar estudios preclínicos o de mecanismo que justifiquen un vínculo entre NK1/sustancia P y la regulación de la vasopresina o la función del receptor V2.
+- Revisar otras predicciones de la lista (p. ej., hipertensión pulmonar y hemorragia subaracnoidea), que tienen un racional biológico débil pero, al igual que esta, carecen de evidencia clínica.
+- Evaluar el riesgo de interacciones CYP3A4 y la contraindicación por insuficiencia hepática antes de cualquier uso en una nueva población.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

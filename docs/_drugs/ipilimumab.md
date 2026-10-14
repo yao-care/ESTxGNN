@@ -2,7 +2,7 @@
 layout: default
 title: Ipilimumab
 parent: Solo predicción del modelo (L5)
-nav_order: 291
+nav_order: 429
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,17 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Ipilimumab: De Inmunoterapia Anti-CTLA-4 a Coroideremia
+# Ipilimumab: De Melanoma Metastásico a Coroideremia
 
 ## Resumen en Una Frase
 
-Ipilimumab es un anticuerpo que bloquea CTLA-4 y activa los linfocitos T. Es un fármaco de inmunoterapia oncológica y está comercializado en España como Yervoy.
-El modelo TxGNN predice que podría ser efectivo para **coroideremia**, con un puntaje muy alto, pero **sin ningún ensayo clínico ni publicación** que respalde esta dirección.
+Ipilimumab es un anticuerpo monoclonal que bloquea CTLA-4, utilizado originalmente para el tratamiento del melanoma metastásico.
+El modelo TxGNN predice que podría ser efectivo para **coroideremia**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Melanoma metastásico |
 | Nueva Indicación Predicha | Coroideremia |
 | Puntaje de Predicción TxGNN | 99.06% |
 | Nivel de Evidencia | L5 |
@@ -47,67 +51,81 @@ El modelo TxGNN predice que podría ser efectivo para **coroideremia**, con un p
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-**No se identifica un vínculo mecanístico plausible.** Ipilimumab bloquea CTLA-4, un freno del sistema inmunitario, y así potencia la activación de los linfocitos T. Este mecanismo está bien validado en oncología.
+Ipilimumab bloquea el receptor CTLA-4 en los linfocitos T. Esto potencia su activación y su capacidad de atacar células tumorales, y es la base de su uso en melanoma. No se dispone de una descripción detallada del mecanismo de acción más allá de este bloqueo de CTLA-4.
 
-La coroideremia es una degeneración retiniana hereditaria ligada al cromosoma X. Se debe a la pérdida de función del gen *CHM* (proteína REP1). No la causa una tolerancia inmunitaria mediada por linfocitos T, así que potenciar la respuesta T no tiene un blanco biológico claro en esta enfermedad.
+**La relación mecanística con la coroideremia es muy débil.** La coroideremia es una degeneración retiniana hereditaria ligada al cromosoma X, causada por la pérdida de función del gen *CHM* (REP1). Su patología consiste en la degeneración progresiva del epitelio pigmentario de la retina, los fotorreceptores y la coroides. No depende de la evasión inmune tumoral, que es el proceso sobre el que actúa ipilimumab.
 
-Además, el bloqueo sistémico de puntos de control inmunitarios puede provocar eventos adversos inmunomediados, incluida la uveítis. Eso podría dañar una retina que ya se está degenerando. El puntaje alto de TxGNN (0.99) probablemente es un artefacto del grafo de conocimiento, porque no lo respalda ningún ensayo ni publicación.
+Además, la inhibición de puntos de control inmunitarios puede provocar eventos adversos oculares inmunomediados (por ejemplo, uveítis), lo que supondría un riesgo adicional en una retina ya vulnerable. La puntuación alta del modelo probablemente es un artefacto derivado de la estructura del grafo de conocimiento y no refleja una plausibilidad biológica real.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 11698001 | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión |
-| 11698002 | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión |
-| 11698001IP | YERVOY 5 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 11698001 | YERVOY 5 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | Bristol-Myers Squibb Pharma EEIG |
+| 11698002 | YERVOY 5 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | Bristol-Myers Squibb Pharma EEIG |
+| 11698001IP | YERVOY 5 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | Bristol-Myers Squibb Pharma EEIG |
 
-Titular de las tres autorizaciones: Bristol-Myers Squibb Pharma EEIG.
+Las tres autorizaciones están vigentes y corresponden a medicamentos de un único principio activo. Los datos compilados no incluyen el texto de la indicación aprobada para estas autorizaciones.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia (inhibidor de punto de control inmunitario anti-CTLA-4) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo monoclonal anti-CTLA-4); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Bajo; el riesgo principal son los eventos adversos inmunomediados y no la supresión medular directa |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Hemograma, función hepática, función renal, función tiroidea y suprarrenal, glucemia; vigilancia de síntomas oculares, cutáneos y gastrointestinales |
+| Protección en Manejo | Manejo estándar de preparados parenterales; consultar las advertencias y precauciones del prospecto |
+
+Esta información se basa en conocimiento general de la clase farmacológica. Los datos compilados no incluyen datos específicos de toxicidad.
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Eventos adversos inmunomediados**: el bloqueo sistémico de CTLA-4 conlleva riesgo de eventos adversos inmunomediados, incluida la uveítis. En una enfermedad retiniana degenerativa como la coroideremia, este riesgo es especialmente relevante.
+- **Riesgo ocular:** la inhibición de puntos de control inmunitarios puede causar eventos adversos oculares inmunomediados (por ejemplo, uveítis), un riesgo especialmente relevante en una retina ya degenerada.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Las principales entre las 20 revisadas son:
+  - **Gravedad mayor:** anticoagulantes (apixabán, betrixabán, bivalirudina, dalteparina, desirudina, edoxabán, argatrobán, danaparoide).
+  - **Gravedad moderada:** corticoides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida, prednisolona, prednisona), metronidazol, tinidazol, naltrexona, y estatinas (rosuvastatina, simvastatina).
 
-Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones), consultar el prospecto.
+Para el resto de la información de seguridad, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para coroideremia es solo un resultado del modelo (L5). No hay ensayos ni literatura, y no existe un vínculo mecanístico plausible. Además, existe un riesgo de toxicidad ocular inmunomediada.
+La predicción para coroideremia carece de ensayos clínicos y de literatura, y su nivel de evidencia es L5. Además, no existe un vínculo mecanístico plausible entre el bloqueo de CTLA-4 y una enfermedad degenerativa monogénica, y existe un riesgo ocular inmunomediado.
 
 **Para avanzar se necesita:**
-- Una hipótesis mecanística que justifique el bloqueo de CTLA-4 en una enfermedad no dependiente de la tolerancia inmunitaria de linfocitos T
-- Datos preclínicos que respalden la hipótesis
-- Datos de mecanismo de acción y de seguridad del prospecto de la AEMPS
+- Un fundamento biológico que justifique el uso de un inhibidor de puntos de control en una degeneración retiniana hereditaria. Hasta ahora no se ha identificado ninguno.
+- Estudios preclínicos en modelos de coroideremia que evalúen eficacia y seguridad ocular.
+- Revisión de las alternativas terapéuticas ya dirigidas a la causa de la enfermedad (por ejemplo, enfoques de terapia génica).
+- Verificación del texto de indicaciones, advertencias y contraindicaciones en la ficha técnica vigente de la AEMPS.
 
-**Nota sobre la segunda predicción:** TxGNN también propone **melanoma no cutáneo** (puntaje 99.02%). Esa predicción sí cuenta con respaldo, con nivel de evidencia L3 y recomendación *Proceed with Guardrails*.
-
-- **Ensayos clínicos:** el registro incluye decenas de ensayos en melanoma, entre ellos ensayos de Fase 3. La mayoría enrolan melanoma cutáneo, por lo que son evidencia indirecta.
-- **Literatura:** hay 5 publicaciones. La única con datos directos en subtipos no cutáneos es un estudio de cohorte retrospectivo en melanoma cutáneo, uveal y mucoso (PMID 24999899).
-- **Salvaguardas:** confirmar el subtipo de melanoma, exigir resultados estratificados por subtipo, vigilar los eventos adversos inmunomediados y preferir combinaciones con un inhibidor de PD-1 cuando los datos las respalden.
-
-Este resultado merece una evaluación separada.
+**Nota adicional:** la segunda predicción del modelo para este fármaco, el **melanoma no cutáneo** (puntaje 99.02%), cuenta con mucha más evidencia: ensayos de Fase 2 y 3 en melanoma, incluida la combinación nivolumab + ipilimumab en melanoma uveal, y literatura clínica. Esta dirección parece una candidata mucho más sólida para una evaluación de reposicionamiento. Debe analizarse en un informe específico, ya que la evidencia depende del subtipo y los estudios de Fase 3 identificados corresponden sobre todo a melanoma cutáneo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

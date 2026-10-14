@@ -2,7 +2,7 @@
 layout: default
 title: Rabeprazole
 parent: Solo predicción del modelo (L5)
-nav_order: 450
+nav_order: 676
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Rabeprazol: De Inhibidor de la Bomba de Protones a Mastocitosis Sistémica Latente (Smouldering)
+# Rabeprazol: De Enfermedad Ulcerosa Péptica a Mastocitosis Sistémica Latente (Smouldering)
 
 ## Resumen en Una Frase
 
-Rabeprazol es un inhibidor de la bomba de protones (IBP) comercializado en España en comprimidos gastrorresistentes. Los datos de AEMPS recibidos no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **mastocitosis sistémica latente (smouldering)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Rabeprazol es un inhibidor de la bomba de protones, utilizado originalmente para el tratamiento de la enfermedad ulcerosa péptica y el reflujo gastroesofágico.
+El modelo TxGNN predice que podría ser efectivo para **mastocitosis sistémica latente (smouldering)**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de AEMPS están vacíos) |
-| Nueva Indicación Predicha | Mastocitosis sistémica latente (smouldering systemic mastocytosis) |
+| Indicación Original | Enfermedad ulcerosa péptica y reflujo gastroesofágico (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Mastocitosis sistémica latente (smouldering) |
 | Puntaje de Predicción TxGNN | 99.44% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -50,13 +51,13 @@ El modelo TxGNN predice que podría ser efectivo para **mastocitosis sistémica 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Rabeprazol pertenece a la clase de los inhibidores de la bomba de protones, que reducen la secreción de ácido gástrico. No hay evidencia de que actúe sobre la mastocitosis en sí.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, rabeprazol pertenece a la clase de los inhibidores de la bomba de protones, su eficacia en patologías de hipersecreción ácida está establecida, y mecanísticamente podría ser aplicable de forma limitada a la mastocitosis sistémica.
 
-El único vínculo plausible es sintomático. En la mastocitosis sistémica, los mastocitos liberan mediadores como histamina y prostaglandina D2, que pueden provocar hipersecreción ácida y síntomas de úlcera péptica o reflujo. La supresión ácida se usa como tratamiento de soporte. Eso sería control de síntomas, no un efecto sobre la carga de mastocitos ni sobre la enfermedad impulsada por KIT.
+Entre las indicaciones originales registradas figuran la mastocitosis, la mastocitosis sistémica y el síndrome de Zollinger-Ellison. Esto probablemente explica el puntaje alto del modelo: la nueva indicación está muy próxima a estas enfermedades en el grafo de conocimiento.
 
-El puntaje alto de TxGNN (0.994) es solo una predicción del modelo. No está respaldado por ningún ensayo ni publicación en los datos proporcionados.
+Conviene ser claro sobre el alcance: el vínculo es indirecto y se basa solo en la predicción. En la mastocitosis, los mediadores de los mastocitos pueden provocar hipersecreción ácida gástrica, y el rabeprazol aportaría control sintomático de la acidez. No actúa sobre la enfermedad clonal de mastocitos (por ejemplo, la proliferación impulsada por KIT D816V), por lo que no hay un mecanismo modificador de la enfermedad respaldado.
 
-**Otra predicción del modelo:** TxGNN también predice *mastocitosis linfoadenopática con eosinofilia* (puntaje 99.35%, nivel L5, decisión Hold). Es una neoplasia rara de mastocitos impulsada por mecanismos clonales o de cinasas, sobre los que no se espera que un IBP actúe. Ambas predicciones podrían reflejar vecinos compartidos en el grafo de conocimiento entre subtipos de mastocitosis, más que una señal independiente.
+Una segunda predicción (rango 2), la mastocitosis linfadenopática con eosinofilia (puntaje 99.35%), sigue la misma lógica de proximidad en el grafo y tampoco cuenta con evidencia. No hay indicios de que la inhibición de la bomba de protones afecte la linfadenopatía, la eosinofilia ni la biología clonal de los mastocitos.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,34 +69,39 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 76934 | Rabeprazol Mabo 10 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | Mabo Farma S.A. |
-| 034216186 | Pariet 20 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | Janssen Cilag S.P.A. |
-| BE199692IP1 | Pariet 10 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | Janssen-Cilag |
-| 75791 | Rabeprazol Teva-Ratio 10 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | Teva Pharma S.L.U. |
-| 3400935514790 | Pariet 20 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | Janssen-Cilag |
+Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo). Los textos de indicación aprobada no estaban disponibles en los datos compilados.
 
-Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada está vacío en todas.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 76934 | Rabeprazol Mabo 10 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
+| 034216186 | Pariet 20 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
+| 62461 | Pariet 10 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
+| 72744 | Rabeprazol Cinfa 20 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
+| 73505 | Rabeprazol Sandoz 10 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+- **Contraindicaciones según el grafo de conocimiento** (no proviene del texto del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, osteoporosis, osteoporosis posmenopáusica y fractura ósea.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total; se muestran las de mayor gravedad entre las primeras 20 revisadas:
+  - **Mayor**: acalabrutinib, atazanavir.
+  - **Moderada**: por ejemplo, amikacina, anfotericina B (y sus formulaciones), anfetamina, apalutamida, aprepitant, armodafinilo, bosutinib, bendroflumetiazida.
+  - **Menor**: ácido acetilsalicílico, axitinib.
+
+No se dispone de advertencias principales ni de contraindicaciones extraídas del prospecto. Consultar el prospecto para esta información.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. El mecanismo plausible se limita al control sintomático de la hipersecreción ácida, no a un efecto modificador de la enfermedad.
+La predicción alcanza un puntaje alto (99.44%), pero se basa solo en la proximidad en el grafo de conocimiento (nivel L5), sin ensayos clínicos ni literatura. El rabeprazol solo aportaría control sintomático de la hipersecreción ácida y no tiene un efecto demostrado sobre la enfermedad clonal de mastocitos.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación aprobada)
-- Consultar DrugBank para completar el mecanismo de acción
-- Buscar evidencia clínica o de literatura sobre IBP como soporte sintomático en mastocitosis
-- Definir si el objetivo es solo el control sintomático, lo que no constituiría un reposicionamiento propiamente dicho
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Datos del mecanismo de acción (MOA) del rabeprazol.
+- Advertencias y contraindicaciones del prospecto de la AEMPS (hoy es un bloqueo para el cribado de seguridad).
+- Revisión de la literatura y de registros de ensayos sobre inhibidores de la bomba de protones en mastocitosis sistémica.
+- Aclarar si el beneficio buscado es solo sintomático (control de la acidez) o si se pretende un efecto sobre la enfermedad.
+- Evaluar las interacciones de gravedad mayor (acalabrutinib, atazanavir) y las contraindicaciones del grafo (enfermedad hepática, osteoporosis) en la población con mastocitosis.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

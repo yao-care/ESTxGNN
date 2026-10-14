@@ -2,7 +2,7 @@
 layout: default
 title: Betaxolol
 parent: Solo predicción del modelo (L5)
-nav_order: 72
+nav_order: 100
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,64 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Betaxolol: De Indicación Original No Registrada a Glaucoma Hereditario Primario
+# Betaxolol: De Hipertensión e Hipertensión Ocular a Glaucoma Hereditario Primario
 
 ## Resumen en Una Frase
 
-Betaxolol es un betabloqueante cardioselectivo que en España se comercializa como colirio en suspensión. El registro analizado no incluye su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Betaxolol es un betabloqueante adrenérgico beta-1 selectivo, utilizado originalmente para el tratamiento de la hipertensión arterial, el glaucoma de ángulo abierto y la hipertensión ocular.
+El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el registro (el texto de indicación de la autorización está vacío) |
+| Indicación Original | Hipertensión arterial, glaucoma de ángulo abierto e hipertensión ocular (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99,74% |
+| Puntaje de Predicción TxGNN | 99,74 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Por farmacología general, betaxolol es un bloqueante beta-1 adrenérgico cardioselectivo. Los betabloqueantes oftálmicos reducen la presión intraocular (PIO) al disminuir la producción de humor acuoso en el cuerpo ciliar. Esta explicación proviene de conocimiento farmacológico general, no de los datos suministrados.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, betaxolol es un antagonista adrenérgico beta-1 selectivo. En el ojo reduce la presión intraocular (PIO) al disminuir la producción de humor acuoso en el cuerpo ciliar.
 
-La reducción de la PIO es el objetivo terapéutico común en los distintos tipos de glaucoma, y eso hace mecanísticamente plausible la predicción de TxGNN (puntaje 0,997). Además, betaxolol es conocido como agente oftálmico para el glaucoma de ángulo abierto y la hipertensión ocular.
+El glaucoma hereditario primario (por ejemplo, las formas asociadas a MYOC o CYP1B1) comparte con el glaucoma de ángulo abierto y la hipertensión ocular la vía final de elevación de la PIO y daño de las células ganglionares de la retina. Por ello, un mecanismo que reduce la PIO es biológicamente plausible. El puntaje tan alto del modelo (0,997) probablemente refleja esta cercanía con las indicaciones oftálmicas ya conocidas en el grafo de conocimiento.
 
-Por ello, la ausencia de indicación original en el registro probablemente refleja un problema de completitud de datos y no un reposicionamiento realmente novedoso. Los datos suministrados no establecen si su uso se extiende al glaucoma hereditario (por ejemplo, congénito o juvenil).
+Conviene ser prudente: las formas hereditarias congénitas o juveniles suelen tratarse de forma quirúrgica, y el uso de betabloqueantes tópicos en población pediátrica conlleva preocupaciones de seguridad sistémica (bradicardia, broncoespasmo), aunque la selectividad beta-1 de betaxolol reduce el riesgo respiratorio frente a los betabloqueantes no selectivos. Esta asociación es, por tanto, una predicción del modelo sin respaldo clínico directo.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61015 | BETOPTIC SUSPENSIÓN 2,5 MG/ML COLIRIO EN SUSPENSIÓN (Immedica Pharma Ab) | Colirio en suspensión | No especificada en el registro |
+| 61015 | BETOPTIC SUSPENSIÓN 2,5 MG/ML COLIRIO EN SUSPENSIÓN (Immedica Pharma AB) | Colirio en suspensión | No disponible en los datos compilados |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Los datos de advertencias y contraindicaciones del prospecto no están disponibles en los datos compilados. Se recomienda consultar el prospecto de AEMPS.
+
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): asma (incluidas las formas intrínseca y alérgica), enfisema pulmonar y enfermedad bronquial; bloqueo auriculoventricular y disociación auriculoventricular; enfermedad renal, hepática y de la vesícula biliar; diabetes mellitus, cetoacidosis diabética e hipoglucemia; miastenia gravis y enfermedades de la unión neuromuscular; feocromocitoma, paraganglioma simpático y cáncer de glándula suprarrenal; psoriasis y parapsoriasis; trastornos de ansiedad, neuróticos y distímicos; y otras neoplasias (duodeno, intestino delgado, corazón).
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total; se muestran las 20 primeras consultadas.
+  - Moderadas: epinefrina, hidrocortisona, hioscina (hiosciamina), bupropión, triamcinolona, morfina, atropina, dexametasona, betametasona, acetohexamida, budesonida, y sales de calcio (acetato, carbonato, citrato, glubionato, gluconato, lactato).
+  - Leves: ácido acetilsalicílico, hidróxido de aluminio, attapulgita.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente plausible, pero no hay ensayos ni literatura que la respalden (nivel L5). Además, faltan la indicación original y los datos de seguridad del prospecto, por lo que no se puede avanzar al cribado de seguridad.
+La predicción es plausible mecanísticamente por la cercanía con las indicaciones oftálmicas ya conocidas, pero no existe ningún ensayo clínico ni publicación que la respalde (nivel L5). Además, falta información de seguridad del prospecto y los datos de mecanismo de acción.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS para obtener advertencias y contraindicaciones (brecha bloqueante).
-- Confirmar la indicación autorizada de la licencia 61015, probablemente glaucoma de ángulo abierto e hipertensión ocular, para saber si la predicción aporta algo nuevo.
-- Obtener el mecanismo de acción desde DrugBank.
-- Buscar ensayos y literatura específicos sobre betaxolol en glaucoma hereditario (congénito o juvenil).
-- Evaluar la compatibilidad de la vía de administración y la similitud con la indicación original, actualmente pendientes.
+- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), una carencia que bloquea el cribado de seguridad.
+- Obtener datos detallados del mecanismo de acción (por ejemplo, desde DrugBank).
+- Revisar la literatura sobre el uso de betabloqueantes tópicos en glaucoma hereditario (formas MYOC/CYP1B1) y en población pediátrica.
+- Confirmar la indicación autorizada en España para BETOPTIC y la compatibilidad de la vía de administración.
+- Evaluar el perfil de seguridad cardiovascular y respiratoria en las poblaciones objetivo, en particular la pediátrica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

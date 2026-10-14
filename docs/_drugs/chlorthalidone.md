@@ -2,7 +2,7 @@
 layout: default
 title: Chlorthalidone
 parent: Solo predicción del modelo (L5)
-nav_order: 123
+nav_order: 176
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clortalidona: De Hipertensión Arterial a Glaucoma Hereditario Primario
+# Clortalidona: De Hipertensión a Glaucoma Hereditario Primario
 
 ## Resumen en Una Frase
 
-Clortalidona es un diurético tipo tiazida que se usa sobre todo como antihipertensivo y para reducir edemas. El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
+Clortalidona es un diurético de tipo tiazídico, utilizado originalmente para el tratamiento de la hipertensión y la insuficiencia cardíaca congestiva.
+El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial y edema (según datos farmacológicos; los textos de indicación de las autorizaciones de AEMPS no están disponibles) |
+| Indicación Original | Hipertensión arterial e insuficiencia cardíaca congestiva (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 99,92% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 5 |
@@ -49,11 +51,11 @@ Clortalidona es un diurético tipo tiazida que se usa sobre todo como antihipert
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados del mecanismo de acción en el Evidence Pack. Según la información farmacológica disponible, la clortalidona es un diurético de acción tiazídica que se usa solo o combinado con otros antihipertensivos, y que también reduce edemas de distintas causas. Además, la base farmacológica la vincula con varias anhidrasas carbónicas humanas (CA1, CA4, CA7, CA12 y CA14) y con la enzima NAPEPLD.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la clortalidona es un diurético tiazídico-like con eficacia comprobada en hipertensión e insuficiencia cardíaca congestiva. Los datos farmacológicos compilados muestran que se une a varias anhidrasas carbónicas humanas (CA1, CA4, CA7, CA12 y CA14) y a la enzima NAPEPLD.
 
-El único vínculo plausible con el glaucoma es esa inhibición débil de la anhidrasa carbónica, que en teoría podría reducir la producción de humor acuoso. Es una hipótesis especulativa, sin respaldo en ningún ensayo ni publicación de los datos recibidos.
+El vínculo con el glaucoma es débil. Los inhibidores de la anhidrasa carbónica pueden reducir la presión intraocular, y esa interacción con anhidrasas carbónicas podría ofrecer una vía especulativa. Sin embargo, la clortalidona no es un tratamiento establecido del glaucoma, y no hay datos que respalden un mecanismo concreto.
 
-Hay dos razones para dudar de la relevancia clínica. El glaucoma hereditario primario es un trastorno genético del desarrollo, y es poco probable que un diurético sistémico actúe sobre él. Además, el puntaje alto probablemente refleja conectividad en el grafo de conocimiento y no una relación terapéutica real.
+El puntaje elevado (0,999) es solo una inferencia del modelo. No hay ensayos ni literatura que lo confirmen, por lo que debe tratarse como una hipótesis de investigación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,32 +67,35 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 89953 | Clortalidona Glenmark 12,5 mg comprimidos | Comprimido | Glenmark Arzneimittel GmbH |
-| 89952 | Clortalidona Glenmark 50 mg comprimidos EFG | Comprimido | Glenmark Arzneimittel GmbH |
-| 89954 | Clortalidona Glenmark 25 mg comprimidos EFG | Comprimido | Glenmark Arzneimittel GmbH |
-| 45843 | Higrotona 50 mg comprimidos | Comprimido | Amdipharm Limited |
-| 83330 | Clortalidona Tecnigen 50 mg comprimidos EFG | Comprimido | Tecnimede España Industria Farmacéutica S.A. |
-
-Los textos de indicación aprobada no están disponibles en los registros recibidos, por lo que no se incluyen en la tabla.
+| 89953 | CLORTALIDONA GLENMARK 12,5 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
+| 89952 | CLORTALIDONA GLENMARK 50 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 89954 | CLORTALIDONA GLENMARK 25 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 45843 | HIGROTONA 50 mg comprimidos | Comprimido | No disponible en los datos |
+| 83330 | CLORTALIDONA TECNIGEN 50 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay advertencias ni contraindicaciones disponibles, y los datos recibidos no incluyen interacciones farmacológicas clínicas. Las seis entradas de la consulta corresponden a dianas farmacológicas (anhidrasas carbónicas y NAPEPLD), no a interacciones con otros medicamentos.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): insuficiencia hepática, enfermedad renal, anuria, gota, hiperuricemia, déficit de potasio, hipercalcemia, nefrocalcinosis, alteraciones del metabolismo del fósforo, diabetes mellitus (incluida la tipo 2), lupus eritematoso sistémico, asma, psoriasis, pancreatitis, úlcera péptica, epilepsia, trastornos de ansiedad y neuróticos, infarto de miocardio, parada cardíaca súbita y hemoglobinopatías.
+- **Interacciones farmacológicas**: la consulta se completó y devolvió 6 registros, todos de farmacología de dianas (no interacciones con otros fármacos): NAPEPLD y las anhidrasas carbónicas CA1, CA4, CA7, CA12 y CA14. No se identificaron interacciones con otros medicamentos con nivel de gravedad.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos ni literatura, y el mecanismo propuesto es especulativo y poco compatible con un trastorno genético del desarrollo. Existen además terapias establecidas para el glaucoma. Entre las otras predicciones, la más respaldada es la **cardiopatía pulmonar crónica** (L3, estado "Research Question"), con una publicación de 1967 sobre clortalidona en insuficiencia cardíaca por cor pulmonale crónico. Sería una pregunta de investigación más razonable que el glaucoma.
+La predicción para glaucoma hereditario primario se basa solo en el modelo (L5), sin ensayos clínicos ni literatura, y sin mecanismo respaldado por datos. Entre las otras predicciones, solo la cardiopatía pulmonar crónica tiene respaldo indirecto y antiguo (informe clínico de 1967 sobre clortalidona en insuficiencia cardíaca por cor pulmonale crónico), lo que la sitúa como pregunta de investigación (L4).
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS para completar advertencias, contraindicaciones e indicaciones autorizadas (bloqueante para el cribado de seguridad).
-- Obtener el mecanismo de acción desde DrugBank para evaluar el vínculo mecanístico.
-- Buscar estudios preclínicos o clínicos sobre clortalidona (o tiazidas) y presión intraocular.
-- Valorar priorizar la evaluación de cardiopatía pulmonar crónica frente al glaucoma.
+- Datos detallados del mecanismo de acción (MOA) de la clortalidona
+- Revisión de la literatura sobre diuréticos tiazídicos y presión intraocular o glaucoma
+- Estudios preclínicos o de mecanismo sobre el efecto en la presión intraocular
+- Textos de indicación, advertencias y contraindicaciones del prospecto de la AEMPS
+- Evaluación de seguridad, dado el perfil metabólico y electrolítico de la clortalidona
+- Valorar, como alternativa más plausible, la cardiopatía pulmonar crónica (con insuficiencia cardíaca derecha)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

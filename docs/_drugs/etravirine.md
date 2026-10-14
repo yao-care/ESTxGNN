@@ -2,7 +2,7 @@
 layout: default
 title: Etravirine
 parent: Solo predicción del modelo (L5)
-nav_order: 221
+nav_order: 320
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etravirina: De Infección por VIH-1 a Síndrome de Inmunodeficiencia Adquirida Felina
+# Etravirina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-La etravirina es un inhibidor de la transcriptasa inversa no análogo de nucleósidos (ITINN) que se utiliza contra la infección por VIH-1.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina (SIDA felino)**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
+Etravirina es un inhibidor no nucleosídico de la transcriptasa inversa (ITINN), originalmente utilizado para el tratamiento de la infección por VIH y el SIDA.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, una indicación veterinaria,
+sin **ensayos clínicos** ni **publicaciones** que respalden actualmente esta dirección; la predicción se basa únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos de AEMPS (uso conocido: infección por VIH-1) |
+| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L5 |
@@ -51,11 +51,17 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, la etravirina es un ITINN que bloquea la transcriptasa inversa del VIH-1. Su eficacia en la infección por VIH-1 está establecida y, mecanísticamente, podría ser aplicable a otros lentivirus, aunque con reservas importantes.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la etravirina es un ITINN que inhibe la transcriptasa inversa del VIH-1, y su eficacia en la infección por VIH ha sido comprobada.
 
-El virus de la inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH, y de ahí probablemente proviene la cercanía en el grafo de conocimiento. Sin embargo, según la literatura general, la transcriptasa inversa del FIV es poco sensible a los ITINN. Por eso el fundamento mecanístico es débil y el puntaje alto probablemente refleja la proximidad en el grafo con términos de VIH, no una eficacia esperada en el gato.
+El virus de la inmunodeficiencia felina (VIF) es un lentivirus, por lo que existe cierta cercanía biológica con el VIH. Sin embargo, los ITINN suelen tener poca actividad frente a lentivirus distintos del VIH-1, de modo que el vínculo es solo una predicción del modelo basada en similitud entre enfermedades, sin datos que la respalden.
 
-Además, el Evidence Pack no incluye ensayos, literatura ni datos de compatibilidad de vía de administración para esta indicación. La evaluación depende, por tanto, únicamente de la predicción del modelo.
+Además, se trata de una indicación veterinaria, fuera del alcance del reposicionamiento de fármacos en humanos. Esta predicción debe interpretarse con mucha cautela.
+
+### Otras predicciones del modelo (contexto)
+
+- **Infección por virus de inmunodeficiencia simia (VIS)** (99.98%, nivel L4): solo hay un estudio in vitro de nanopartículas con combinaciones antirretrovirales (PMID 26529558), con relevancia indirecta. Los ITINN suelen ser poco activos frente al VIS y el VIH-2 por polimorfismos naturales de resistencia.
+- **Complejo relacionado con el SIDA** (99.79%, L4) y **VIH congénito** (99.79%, L4): son esencialmente extensiones de la indicación aprobada, no un reposicionamiento real. La literatura disponible trata de seguridad, resistencia y casos en embarazo, no de eficacia nueva.
+- **Tumores benignos, trastorno del neurodesarrollo raro e hiperlipidemia familiar combinada (obsoleta)**: sin vínculo mecanístico identificable; probablemente son artefactos del grafo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,34 +69,41 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal predicha (síndrome de inmunodeficiencia adquirida felina).
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 08468001 | INTELENCE 100 MG COMPRIMIDOS | Comprimido | Janssen-Cilag International N.V |
-| 08468002 | INTELENCE 200 MG COMPRIMIDOS | Comprimido | Janssen-Cilag International N.V |
+| 08468001 | INTELENCE 100 MG COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+| 08468002 | INTELENCE 200 MG COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+
+Titular: Janssen-Cilag International N.V. Ambas autorizaciones son de medicamento único y están vigentes.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): hepatitis C crónica, infección por virus de la hepatitis C, hepatitis B crónica, enfermedad del sistema nervioso periférico y neuropatía periférica.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones potenciales. Entre las de nivel moderado destacan:
+  - Inhibidores de la bomba de protones: omeprazol, rabeprazol.
+  - Antagonistas H2: cimetidina (ranitidina es de nivel menor).
+  - Corticosteroides: hidrocortisona, dexametasona, betametasona, triamcinolona.
+  - Antidiabéticos: pioglitazona, glimepirida, clorpropamida, saxagliptina, linagliptina.
+  - Otros: claritromicina, aprepitant, metronidazol, dronabinol, eliglustat, naloxegol, naldemedina.
+
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no están disponibles en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos ni literatura propios (L5) y su plausibilidad mecanística es baja, porque el FIV es poco sensible a los ITINN. Además, no se dispone de las advertencias ni contraindicaciones de AEMPS.
+La predicción principal no tiene ensayos clínicos ni literatura, el nivel de evidencia es L5, la indicación es veterinaria y el mecanismo (los ITINN son poco activos frente a lentivirus no VIH-1) la hace poco plausible.
 
 **Para avanzar se necesita:**
-- Datos in vitro de actividad de la etravirina frente a la transcriptasa inversa del FIV
-- Datos del mecanismo de acción (MOA) desde DrugBank
-- Advertencias y contraindicaciones del prospecto de AEMPS
-- Confirmación de la indicación original aprobada, ya que el texto de indicación de las dos autorizaciones está vacío
-- Evaluación de la compatibilidad de vía de administración y de la relevancia veterinaria de esta indicación
-
-**Nota sobre otras predicciones del Evidence Pack:** «Complejo relacionado con el SIDA» y «VIH congénito» (rangos 4 y 5) tienen nivel L3 y decisión «Research Question». Probablemente son concordantes con el uso ya conocido en VIH y no reposicionamiento real. Los tres ensayos de fase 3 listados para el VIH congénito parecen evaluar otros regímenes, no etravirina. Por eso no elevan el nivel de evidencia.
+- Datos del mecanismo de acción (MOA) y de la actividad antiviral frente al VIF.
+- Advertencias y contraindicaciones del prospecto de la AEMPS (carencia bloqueante para el cribado de seguridad).
+- Textos de indicación aprobada de las autorizaciones españolas.
+- Confirmar si la indicación veterinaria está dentro del alcance del programa; de lo contrario, priorizar candidatas humanas con mayor respaldo (p. ej., VIH en embarazo, que es una extensión de la indicación aprobada con seguridad por evaluar).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Clomipramine
 parent: Evidencia alta (L1-L2)
-nav_order: 137
+nav_order: 197
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,104 +29,103 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Clomipramina: De Trastorno Depresivo Mayor a Trastorno de Ansiedad
+# Clomipramina: De Trastorno Obsesivo-Compulsivo a Trastorno de Ansiedad
 
 ## Resumen en Una Frase
 
-Clomipramina es un antidepresivo tricíclico que se utiliza para la depresión mayor, el trastorno obsesivo-compulsivo (TOC), el trastorno de pánico y la cataplejía en la narcolepsia, según la base farmacológica consultada. El modelo TxGNN predice que podría ser efectivo para **trastorno de ansiedad**, con **19 ensayos clínicos** y **20 publicaciones** asociados. Sin embargo, la mayoría de esos ensayos son de TOC, que el DSM-5 ya no clasifica como trastorno de ansiedad, por lo que la evidencia directa es menor de lo que sugieren las cifras.
+Clomipramina es un antidepresivo tricíclico, utilizado originalmente para el tratamiento del trastorno obsesivo-compulsivo (TOC).
+El modelo TxGNN predice que podría ser efectivo para **Trastorno de Ansiedad**,
+con **8 ensayos clínicos** registrados y **20 publicaciones** que se han recopilado en torno a esta dirección. Sin embargo, los ensayos se centran casi por completo en el TOC (la indicación original), por lo que la evidencia directa para la nueva indicación es limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Trastorno obsesivo-compulsivo (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Trastorno de ansiedad |
-| Puntaje de Predicción TxGNN | 99,93 % |
+| Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
-| Decisión Recomendada | Proceed with Guardrails |
-
-Los textos de indicación aprobada de las autorizaciones de la AEMPS están vacíos en el registro. Por eso no se muestra una indicación original oficial. La referencia a la depresión mayor y al TOC procede de la información farmacológica del paquete de evidencia.
+| Decisión Recomendada | Hold (con línea de investigación abierta en trastorno de pánico/agorafobia) |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la farmacología general y los datos de dianas del paquete, clomipramina inhibe con fuerza el transportador de serotonina (SERT). También actúa sobre el transportador de noradrenalina (NET), el de dopamina (DAT) y el receptor adrenérgico α1A. Su metabolito, la desmetilclomipramina, aporta una inhibición adicional de la recaptación de noradrenalina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos consultada. Según la información conocida, clomipramina es un antidepresivo tricíclico con potente inhibición de la recaptación de serotonina y actividad noradrenérgica adicional. Los datos farmacológicos compilados muestran interacción con el transportador de serotonina (SERT), el de noradrenalina (NET), el de dopamina (DAT) y el receptor adrenérgico α1A.
 
-La modulación serotoninérgica es el mecanismo establecido en el TOC, el pánico y la ansiedad fóbica. Por eso es plausible que un fármaco con uso reconocido en depresión y TOC también sea útil en trastornos de ansiedad. La literatura recuperada incluye estudios controlados en trastorno de pánico y agorafobia, que respaldan esa idea.
+El TOC se considera clásicamente un trastorno estrechamente relacionado con la ansiedad, y la modulación serotoninérgica y noradrenérgica podría reducir los síntomas ansiosos en un espectro más amplio. La evidencia es más sólida en trastorno de pánico y agorafobia: la literatura recopilada incluye un metaanálisis en red de tratamientos farmacológicos del trastorno de pánico y varios estudios clínicos, en su mayoría antiguos, de clomipramina frente a diazepam, imipramina o paroxetina.
 
-Hay una limitación importante. La mayoría de los ensayos registrados de este grupo son de TOC, y el puntaje del modelo mezcla el TOC con trastornos de ansiedad propiamente dichos. Además, las guías actuales suelen preferir los ISRS y la terapia cognitivo-conductual por el perfil de efectos adversos de clomipramina.
+Conviene matizar que la etiqueta "trastorno de ansiedad" es genérica. Los ensayos clínicos recuperados estudian sobre todo TOC, por lo que no constituyen evidencia directa de reposicionamiento. Además, clomipramina no suele ser de primera línea por su tolerabilidad.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los ensayos más relevantes de los 19 registrados.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00004310](https://clinicaltrials.gov/study/NCT00004310) | Fase 2 | Desconocido | 76 | Clomipramina intravenosa frente a oral, con carga en pulsos y mantenimiento de 12 semanas, en TOC. |
-| [NCT00564564](https://clinicaltrials.gov/study/NCT00564564) | Fase 4 | Completado | 21 | Aumento de ISRS con quetiapina frente a clomipramina en TOC sin respuesta a ISRS. Muestra pequeña. |
-| [NCT00466609](https://clinicaltrials.gov/study/NCT00466609) | Fase 4 | Completado | 54 | Estudio doble ciego de estrategias de aumento en TOC sin respuesta: fluoxetina sola, con quetiapina o con clomipramina. |
-| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completado | 26 | Predicción de la respuesta a clomipramina o escitalopram en TOC. |
-| [NCT00254735](https://clinicaltrials.gov/study/NCT00254735) | Fase 3 | Completado | 44 | Quetiapina o placebo añadidos a ISRS/clomipramina en TOC grave. Clomipramina es tratamiento de base, no fármaco en estudio. |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Fase 3 | Completado | 124 | Terapia cognitivo-conductual añadida a inhibidores de la recaptación de serotonina en TOC pediátrico. |
-| [NCT03299166](https://clinicaltrials.gov/study/NCT03299166) | Fase 2/3 | Completado | 426 | Troriluzol adyuvante en TOC con respuesta inadecuada a ISRS o clomipramina. No evalúa clomipramina. |
-| [NCT01148316](https://clinicaltrials.gov/study/NCT01148316) | N/A | Completado | 144 | Estrategias adaptativas en niños y adolescentes con trastornos psiquiátricos, incluido TOC. |
-| [NCT05737511](https://clinicaltrials.gov/study/NCT05737511) | Fase 4 | Aún sin reclutar | 80 | Hidroxizina frente al tratamiento habitual en trastorno de pánico. Estudio piloto sin clomipramina. |
-| [NCT02374567](https://clinicaltrials.gov/study/NCT02374567) | Fase 3 | Terminado | 407 | Farmacovigilancia en pacientes gerontopsiquiátricos. No es específico de ansiedad ni de clomipramina. |
+| [NCT00466609](https://clinicaltrials.gov/study/NCT00466609) | Fase 4 | Completado | 54 | Estrategias de potenciación (fluoxetina + quetiapina o clomipramina) en TOC no respondedor |
+| [NCT00004310](https://clinicaltrials.gov/study/NCT00004310) | Fase 2 | Desconocido | 76 | Clomipramina intravenosa vs oral en TOC |
+| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Fase 3 | Completado | 124 | Terapia cognitivo-conductual como adyuvante de ISRS en TOC pediátrico |
+| [NCT00254735](https://clinicaltrials.gov/study/NCT00254735) | Fase 3 | Completado | 44 | Potenciación con quetiapina en TOC grave |
+| [NCT00564564](https://clinicaltrials.gov/study/NCT00564564) | Fase 4 | Completado | 21 | Quetiapina vs clomipramina como potenciación de ISRS en TOC |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | No aplica | Completado | 26 | Predicción de respuesta a clomipramina o escitalopram en TOC |
+| [NCT02374567](https://clinicaltrials.gov/study/NCT02374567) | Fase 3 | Terminado | 407 | Farmacovigilancia en pacientes gerontopsiquiátricos |
+| [NCT05737511](https://clinicaltrials.gov/study/NCT05737511) | Fase 4 | Aún sin reclutar | 80 | Hidroxizina vs tratamiento habitual en trastorno de pánico (sin evidencia directa de clomipramina) |
 
-Solo dos ensayos (NCT00004310 y NCT00564564) tienen a clomipramina como fármaco directamente evaluado. Ambos son de TOC y ninguno es de Fase 3.
+Ninguno de estos ensayos evalúa directamente clomipramina en trastornos de ansiedad distintos del TOC.
 
 ## Evidencia de Literatura
 
-Se muestran las publicaciones más relevantes de las 20 recuperadas.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Metaanálisis en red | Cochrane Database Syst Rev | Comparación de tratamientos farmacológicos del trastorno de pánico en adultos. |
-| [10665629](https://pubmed.ncbi.nlm.nih.gov/10665629/) | 1999 | Estudio controlado con placebo | J Clin Psychiatry | Paroxetina, clomipramina y terapia cognitiva en trastorno de pánico durante 12 semanas. |
-| [10221358](https://pubmed.ncbi.nlm.nih.gov/10221358/) | 1999 | Estudio clínico | J Psychopharmacol | En 41 pacientes con pánico tratados 14 semanas con clomipramina, el 97 % quedó libre de ataques de pánico. |
-| [27663940](https://pubmed.ncbi.nlm.nih.gov/27663940/) | 2016 | Metaanálisis | J Am Acad Child Adolesc Psychiatry | Respuesta temprana a ISRS y clomipramina en TOC pediátrico. |
-| [8263222](https://pubmed.ncbi.nlm.nih.gov/8263222/) | 1993 | Metaanálisis | J Behav Ther Exp Psychiatry | Clomipramina, fluoxetina y terapia conductual fueron eficaces en TOC (25 estudios). |
-| [1474179](https://pubmed.ncbi.nlm.nih.gov/1474179/) | 1992 | Estudio clínico comparativo | J Clin Psychopharmacol | Clomipramina, clonazepam y clonidina frente a difenhidramina como control en TOC. |
-| [2178909](https://pubmed.ncbi.nlm.nih.gov/2178909/) | 1990 | Revisión | Drugs | Propiedades farmacológicas y uso terapéutico de clomipramina en TOC y trastorno de pánico. |
-| [22204483](https://pubmed.ncbi.nlm.nih.gov/22204483/) | 2012 | Revisión | Curr Top Med Chem | Estrategias de tratamiento del TOC y del pánico/agorafobia. |
-| [2021107](https://pubmed.ncbi.nlm.nih.gov/2021107/) | 1991 | Revisión | Am Fam Physician | Clomipramina en TOC. Menciona una incidencia de convulsiones del 0,4 % y efectos anticolinérgicos. |
-| [34582562](https://pubmed.ncbi.nlm.nih.gov/34582562/) | 2021 | Revisión sistemática | Cochrane Database Syst Rev | Farmacoterapia de la tricotilomanía. Relación indirecta con ansiedad. |
-
-Dos de las 20 publicaciones son veterinarias (perros), y otras tratan tricotilomanía o TOC. La evidencia directa en pánico procede sobre todo de estudios de los años 90.
+| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Metaanálisis en red | Cochrane Database Syst Rev | Tratamientos farmacológicos del trastorno de pánico en adultos |
+| [40788541](https://pubmed.ncbi.nlm.nih.gov/40788541/) | 2026 | Revisión sistemática / metaanálisis en red | Eur Arch Psychiatry Clin Neurosci | Eficacia y aceptabilidad comparadas de ansiolíticos en trastornos de ansiedad |
+| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2026 | Revisión sistemática | Psychother Psychosom | Opciones de tratamiento en trastornos de ansiedad resistentes |
+| [35900217](https://pubmed.ncbi.nlm.nih.gov/35900217/) | 2023 | Guía clínica | World J Biol Psychiatry | Guías WFSBP para ansiedad, TOC y TEPT |
+| [27663940](https://pubmed.ncbi.nlm.nih.gov/27663940/) | 2016 | Revisión sistemática / metaanálisis | J Am Acad Child Adolesc Psychiatry | Respuesta temprana a ISRS y clomipramina en TOC pediátrico |
+| [10665629](https://pubmed.ncbi.nlm.nih.gov/10665629/) | 1999 | Ensayo controlado con placebo | J Clin Psychiatry | Paroxetina, clomipramina y terapia cognitiva en trastorno de pánico |
+| [9585709](https://pubmed.ncbi.nlm.nih.gov/9585709/) | 1998 | Ensayo clínico | Am J Psychiatry | Ejercicio aeróbico, clomipramina y placebo en trastorno de pánico |
+| [6373161](https://pubmed.ncbi.nlm.nih.gov/6373161/) | 1984 | Ensayo comparativo doble ciego | Curr Med Res Opin | Clomipramina vs diazepam en agorafobia y fobia social |
+| [2178909](https://pubmed.ncbi.nlm.nih.gov/2178909/) | 1990 | Revisión | Drugs | Propiedades farmacológicas y uso terapéutico en TOC y trastorno de pánico |
+| [2021107](https://pubmed.ncbi.nlm.nih.gov/2021107/) | 1991 | Revisión | Am Fam Physician | Clomipramina en TOC: eficacia singular entre los tricíclicos, riesgo de convulsiones de 0,4% |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 57568 | ANAFRANIL 75 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No consta en el registro |
-| 49656 | ANAFRANIL 10 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No consta en el registro |
-| 44656 | ANAFRANIL 25 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No consta en el registro |
-| 44657 | ANAFRANIL 25 MG SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Solución inyectable y para perfusión | No consta en el registro |
+| 57568 | ANAFRANIL 75 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No disponible |
+| 49656 | ANAFRANIL 10 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No disponible |
+| 44656 | ANAFRANIL 25 MG COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No disponible |
+| 44657 | ANAFRANIL 25 MG SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN | Solución inyectable y para perfusión | No disponible |
 
-Las cuatro autorizaciones pertenecen al titular Alfasigma S.P.A.
+Todas las autorizaciones son de medicamentos de un solo principio activo, vigentes, y titularidad de Alfasigma S.P.A.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informar la seguridad. El paquete no incluye advertencias ni contraindicaciones de la AEMPS.
+- **Contraindicaciones y condiciones de riesgo (según el grafo de conocimiento, no el prospecto)**: epilepsia, trastorno bipolar en fase maníaca, enfermedad hepática, enfermedad de la vesícula biliar, abuso o dependencia de sustancias, hipertermia maligna, feocromocitoma y paraganglioma simpático, cáncer de duodeno, intestino delgado, corazón y glándula suprarrenal, glaucoma, hipertiroidismo (enfermedad de Graves, tirotoxicosis) y neuroblastoma.
+- **Interacciones y farmacología**: la información compilada describe interacciones con dianas farmacológicas (receptor α1A, canales Kir3.2 y Kir3.4, transportadores NET, DAT y SERT), pero no incluye interacciones con otros medicamentos clasificadas por gravedad.
+- **Alertas de la literatura**: riesgo de toxicidad anticolinérgica y cardíaca, y un caso de pancitopenia asociado a clomipramina. Además, se describen disfunción sexual y variabilidad por CYP2D6/CYP2C19.
 
-La literatura recuperada señala lo siguiente:
-- **Efectos anticolinérgicos y riesgo de convulsiones:** una revisión menciona una incidencia de convulsiones del 0,4 % y efectos anticolinérgicos (PMID 2021107).
-- **Efectos adversos en la literatura:** se describen un caso de pancitopenia (PMID 3572384), tics inducidos por clomipramina en TOC (PMID 9316681) y efectos ortostáticos (PMID 16195134).
-- **Metabolismo:** clomipramina depende de CYP2C19 y CYP2D6, por lo que los metabolizadores lentos pueden alcanzar concentraciones más altas (PMID 28470111).
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existen ensayos controlados y revisiones que respaldan clomipramina en trastorno de pánico y agorafobia, y el mecanismo serotoninérgico es plausible. Aun así, los ensayos registrados son mayoritariamente de TOC, no hay estudios de Fase 3 con clomipramina para ansiedad y su perfil de efectos adversos limita su uso frente a los ISRS.
+El puntaje de TxGNN es muy alto (99.93%), pero los ensayos recuperados estudian el TOC, la indicación original, y no ofrecen evidencia directa para ansiedad en general. La evidencia más sólida se limita a trastorno de pánico y agorafobia, con estudios mayormente antiguos y heterogéneos, y la tolerabilidad limita su uso frente a alternativas de primera línea.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas), porque el registro no aporta esos datos.
-- Obtener los datos del mecanismo de acción desde DrugBank.
-- Definir qué trastorno de ansiedad concreto se busca (pánico, agorafobia, fobia social), separándolo del TOC, para que el puntaje sea interpretable.
-- Comparar con los ISRS y la terapia cognitivo-conductual como tratamientos de primera línea.
-- Definir un plan de monitorización de seguridad (perfil cardíaco, umbral convulsivo, carga anticolinérgica y farmacogenética de CYP2D6/CYP2C19).
+- Delimitar la indicación concreta (por ejemplo, trastorno de pánico con o sin agorafobia) en lugar de "trastorno de ansiedad" genérico.
+- Ensayos controlados recientes de clomipramina frente a ISRS/IRSN en esa indicación.
+- Datos del mecanismo de acción y análisis de enlace mecanístico.
+- Textos oficiales de indicaciones, advertencias y contraindicaciones de las fichas técnicas de la AEMPS.
+- Plan de seguridad: vigilancia cardíaca (ECG), hematológica y hepática, y valoración de la variabilidad genética en CYP2D6/CYP2C19.
+
+### Otras predicciones destacadas
+
+- **Trastorno depresivo mayor y depresión endógena**: nivel L1, con respaldo en metaanálisis en red de antidepresivos. Se trata de un uso consolidado de un antidepresivo tricíclico más que de un reposicionamiento novedoso, y requiere precauciones de seguridad (cardiotoxicidad, toxicidad anticolinérgica, sobredosis, eventos hematológicos).
+- **Agorafobia**: nivel L3, con varios estudios clínicos antiguos de clomipramina en pánico y agorafobia.
+- **TDAH**: nivel L3, evidencia escasa y específica de clomipramina limitada; prioridad baja.
+- **Trastornos de personalidad esquizoide, paranoide, histriónica y esquizotípica, y tortícolis paroxística benigna de la infancia**: nivel L4/L5, sin evidencia terapéutica; se recomienda mantener en espera.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

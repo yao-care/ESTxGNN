@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Romiplostim
-parent: Evidencia moderada (L3-L4)
-nav_order: 474
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 711
+evidence_level: L5
 indication_count: 10
 ---
 
 # Romiplostim
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Romiplostim: De Trombocitopenia Inmune (ITP) a Trastorno de Liberación Primaria de Plaquetas
+# Romiplostim: De Anemia Aplásica y Trombocitopenia Autoinmune a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Romiplostim es un agonista del receptor de la trombopoyetina (TPO), comercializado en España como Nplate. Los datos de AEMPS recibidos no incluyen el texto de la indicación aprobada; por el contexto de la evidencia, su uso se asocia a la trombocitopenia inmune (ITP).
-El modelo TxGNN predice que podría ser efectivo para **trastorno de liberación primaria de plaquetas**, pero solo hay **1 ensayo clínico observacional indirecto** y **2 publicaciones** (una revisión y un estudio preclínico), sin evidencia directa.
+Romiplostim es un agonista del receptor de trombopoyetina (TPO), utilizado originalmente para aumentar el recuento de plaquetas en la trombocitopenia inmune (púrpura trombocitopénica idiopática) y relacionado con indicaciones como la anemia aplásica.
+El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**, pero **no hay ensayos clínicos** y solo **1 publicación** de tipo preclínico/mecanístico, indirecta, que respalde esta dirección.
 
 ---
 
@@ -42,10 +42,10 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de liberación
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS (texto de indicación vacío en las 4 autorizaciones); ITP inferida del contexto de la evidencia |
-| Nueva Indicación Predicha | Trastorno de liberación primaria de plaquetas |
-| Puntaje de Predicción TxGNN | 99.9998% |
-| Nivel de Evidencia | L4 |
+| Indicación Original | Anemia aplásica idiopática, anemia aplásica y trombocitopenia autoinmune (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
+| Puntaje de Predicción TxGNN | 99,99 % |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
@@ -54,19 +54,17 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de liberación
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, romiplostim es un agonista del receptor de TPO que aumenta la producción de plaquetas. Su eficacia en trombocitopenias por déficit de producción o destrucción está documentada en los ensayos y la literatura del paquete de evidencia.
+Romiplostim es un péptido agonista del receptor de trombopoyetina (c-Mpl) que estimula la megacariopoyesis y aumenta la producción de plaquetas. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero su perfil farmacológico como agonista del receptor TPO está bien establecido.
 
-Sin embargo, el ajuste mecanístico con esta nueva indicación es débil. Un defecto de liberación (secreción) plaquetaria es un problema de **función** plaquetaria, y un fármaco que eleva el **recuento** de plaquetas no tiene un encaje claro. La puntuación tan alta del grafo probablemente refleja vecinos compartidos en la red de ITP y trombopoyesis, no una relación terapéutica directa.
+Los trastornos de liberación plaquetaria son defectos **funcionales** (por ejemplo, alteración en la secreción de gránulos), normalmente con recuento plaquetario normal. Aumentar el número de plaquetas no corregiría el defecto de base, por lo que el vínculo mecanístico es débil. La única publicación disponible (PMID 25682608) trata de autoanticuerpos antiplaquetarios que inhiben la formación de proplaquetas en la trombocitopenia inmune, lo que es un nexo indirecto con la producción, no con la disfunción de liberación.
 
-Los datos disponibles refuerzan esta cautela. El único ensayo es un estudio observacional sobre factores de riesgo de trombosis en ITP y no prueba romiplostim en este trastorno. La literatura describe la megacariopoyesis en general y el efecto de autoanticuerpos sobre la formación de proplaquetas in vitro.
+El puntaje alto del modelo probablemente refleja la cercanía en la red del conocimiento con nodos de trombocitopenia, más que una relación terapéutica real. Debe interpretarse con cautela.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A (observacional) | Completado | 10039 | Factores de riesgo de trombosis en trombocitopenia inmune. No evalúa romiplostim en un trastorno de liberación plaquetaria (relevancia: C) |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -74,27 +72,30 @@ Los datos disponibles refuerzan esta cautela. El único ensayo es un estudio obs
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Revisión | British Journal of Haematology | Avances en megacariopoyesis y trombopoyesis: la TPO es el principal factor de crecimiento del linaje megacariocítico |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Preclínico/mecanístico | Haematologica | En ITP, los autoanticuerpos antiplaquetarios inhiben in vitro la formación de proplaquetas por los megacariocitos y reducen la producción de plaquetas |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Preclínico/mecanístico | Haematologica | Los autoanticuerpos antiplaquetarios de pacientes con trombocitopenia inmune inhiben la formación de proplaquetas por los megacariocitos y reducen la producción de plaquetas in vitro. Vínculo indirecto con la indicación predicha. |
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 08497001 | NPLATE 250 microgramos polvo para solución inyectable | Polvo para solución inyectable |
-| 08497005 | NPLATE 250 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
-| 08497007 | NPLATE 500 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
-| 08497002 | NPLATE 500 microgramos polvo para solución inyectable | Polvo para solución inyectable |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 08497001 | NPLATE 250 microgramos polvo para solución inyectable | Polvo para solución inyectable | No disponible |
+| 08497005 | NPLATE 250 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+| 08497007 | NPLATE 500 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+| 08497002 | NPLATE 500 microgramos polvo para solución inyectable | Polvo para solución inyectable | No disponible |
 
-Titular: Amgen Europe B.V. El texto de indicación aprobada no figura en los datos recibidos.
+Titular de las autorizaciones: Amgen Europe B.V.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 2 registros.
+  - **Carfilzomib**: interacción de nivel **Mayor** (fuente: DDInter).
+  - **Receptor de trombopoyetina (MPL)**: corresponde a la diana farmacológica del romiplostim (agonista), no a una interacción clínica entre fármacos.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -103,15 +104,16 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay respaldo mecanístico ni clínico directo: romiplostim aumenta el recuento de plaquetas, pero este trastorno afecta a su función. La evidencia se limita a un estudio observacional indirecto y a literatura general (nivel L4).
+La predicción se apoya solo en el puntaje del modelo y en una publicación preclínica indirecta (nivel L5). Además, el mecanismo del fármaco (aumentar el número de plaquetas) no corrige un defecto funcional de liberación plaquetaria.
 
 **Para avanzar se necesita:**
-- Texto de indicaciones, advertencias y contraindicaciones del prospecto de AEMPS
-- Datos del mecanismo de acción desde DrugBank
-- Estudios que evalúen romiplostim específicamente en defectos de liberación plaquetaria
-- Revisar otras predicciones del mismo paquete con más respaldo, como "trastorno hemorrágico de tipo plaquetario" (nivel L2, decisión "Research Question"), que agrupa ensayos de romiplostim en trombocitopenias
+- Datos de eficacia que demuestren un beneficio en trastornos funcionales plaquetarios, o la reorientación hacia trombocitopenias constitucionales o macrotrombocitopenias, donde el mecanismo es más plausible.
+- Datos detallados del mecanismo de acción.
+- Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS.
+- Evaluación de la interacción mayor con carfilzomib.
+- Los textos de indicación aprobada de las autorizaciones españolas.
 
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
+**Nota adicional:** entre las otras predicciones, la trombocitopenia aloinmune fetal y neonatal (puntaje 99,99 %, nivel L4) cuenta con literatura indirecta sobre trombocitopenia inmune, pero ninguna sobre esa enfermedad en concreto. Merece considerarse como pregunta de investigación, con dudas abiertas sobre el paso placentario y la seguridad fetal y neonatal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

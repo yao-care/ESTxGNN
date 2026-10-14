@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Solo predicción del modelo (L5)
-nav_order: 346
+nav_order: 510
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,90 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Metformina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásica
+# Metformina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásico
 
 ## Resumen en Una Frase
 
-La metformina es un antidiabético oral ampliamente comercializado en España. La indicación original no figura en los datos de AEMPS del Evidence Pack; se cita diabetes tipo 2 por conocimiento general del fármaco.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome de la persona rígida clásico**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
-
----
+Metformina es un antidiabético oral utilizado originalmente para el tratamiento de la diabetes mellitus tipo 2.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de la persona rígida clásico**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS (conocimiento general: diabetes tipo 2) |
+| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Síndrome de la persona rígida clásico |
-| Puntaje de Predicción TxGNN | 99,45% |
+| Puntaje de Predicción TxGNN | 99.45% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la metformina es un antidiabético oral de uso muy extendido, con eficacia comprobada en el control glucémico. Mecanísticamente, podría ser aplicable al síndrome de la persona rígida solo de forma especulativa.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, metformina es un fármaco de uso consolidado en la diabetes tipo 2, y su eficacia en esa indicación está comprobada, pero no existe un vínculo mecanístico claro con la nueva indicación.
 
-La hipótesis, no respaldada por ningún ensayo ni publicación del Evidence Pack, se basa en la activación de AMPK y en posibles efectos inmunomoduladores de la metformina. El síndrome de la persona rígida es una enfermedad autoinmune, asociada a anticuerpos anti-GAD. El puntaje de 99,45% es únicamente una predicción del modelo, sin validación clínica.
+El síndrome de la persona rígida es un trastorno neurológico autoinmune, típicamente asociado a anticuerpos anti-GAD65, que afecta a la neurotransmisión GABAérgica. La activación de AMPK y los posibles efectos inmunomoduladores de metformina solo constituyen una conexión especulativa.
 
-La variante **síndrome de la extremidad rígida focal** tiene exactamente el mismo puntaje. Probablemente no es una predicción independiente, sino parte del mismo espectro de la enfermedad.
+El puntaje elevado (0.994) es únicamente una predicción del modelo. Cabe señalar que el síndrome de la extremidad rígida focal obtiene exactamente el mismo puntaje, lo que sugiere que la predicción se debe a la proximidad de ambas enfermedades en el grafo de conocimiento y no a evidencia independiente.
 
----
+## Otras Indicaciones Predichas
+
+Todas con nivel de evidencia L5 y recomendación Hold, sin ensayos clínicos ni literatura:
+
+| Enfermedad | Puntaje TxGNN | Comentario |
+|---|---|---|
+| Síndrome de la extremidad rígida focal | 99.45% | Variante del espectro de la persona rígida; puntaje idéntico, probablemente por vecindad en el grafo |
+| Opsismodisplasia | 99.40% | Displasia esquelética por mutaciones de INPPL1; posible conexión a nivel de vía PI3K/AKT, puramente hipotética |
+| Síndrome de disfunción sensible a tiamina | 99.40% | Posible vínculo especulativo con transportadores de tiamina; se trata con suplementos de tiamina |
+| Lipodistrofia localizada inducida por fármacos | 99.06% | Racional metabólico plausible pero indirecto; el mecanismo local difiere de la resistencia sistémica a la insulina |
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones. El texto de indicación aprobada está vacío en los datos recibidos, por lo que no se incluye.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de formulación única; ninguna cancelada). El texto de indicación aprobada no figura en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 89159 | Metformina Adair 850 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 84266 | Metformina Juta 850 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 83866 | Metformina Vir 1000 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 72221 | Metformina Viatris 850 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 73662 | Metformina Combix 850 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 89159 | Metformina Adair 850 mg EFG | Comprimido recubierto con película | No disponible |
+| 84266 | Metformina Juta 850 mg EFG | Comprimido recubierto con película | No disponible |
+| 83866 | Metformina Vir 1000 mg EFG | Comprimido recubierto con película | No disponible |
+| 72221 | Metformina Viatris 850 mg EFG | Comprimido recubierto con película | No disponible |
+| 85976 | Brotmin 1000 mg EFG | Comprimido recubierto con película | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación (según el grafo de conocimiento, no el prospecto)**: insuficiencia hepática, enfermedad hepática, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, insuficiencia suprarrenal (adrenocortical), hipopituitarismo y deficiencias hormonales hipofisarias (incluido el síndrome de Sheehan), hipogonadismo hipogonadotrópico (incluido el síndrome de Kallmann), enfermedad del timo y piouréter.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones; entre las mostradas destacan las de nivel **mayor** con **acetazolamida** y **etanol**. Hay además numerosas interacciones moderadas (por ejemplo, dolutegravir, abemaciclib, fenilefrina, ranitidina, formoterol, pseudoefedrina, ketorolaco, nifedipino, epinefrina, ibuprofeno, etinilestradiol, hidrocortisona, salbutamol, hidroclorotiazida y acetohexamida) y algunas menores (acarbosa y corticoides tópicos).
 
----
+Las advertencias y contraindicaciones del prospecto no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ningún ensayo clínico ni publicación (nivel L5), y no hay datos de mecanismo de acción ni de seguridad. No hay base para avanzar más allá del cribado inicial (S0).
-
-**Otras predicciones del modelo (todas L5 y Hold):**
-- Síndrome de la extremidad rígida focal (99,45%)
-- Opsismodisplasia (99,40%)
-- Síndrome de disfunción sensible a tiamina (99,40%)
-- Lipodistrofia localizada inducida por fármacos (99,06%)
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico claro entre metformina y el síndrome de la persona rígida.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que bloquea el cribado de seguridad
-- Obtener el mecanismo de acción desde DrugBank
-- Hacer una búsqueda sistemática de literatura y de ensayos en ClinicalTrials.gov e ICTRP sobre metformina en síndrome de la persona rígida
-- Comprobar si el puntaje duplicado con la variante focal refleja una sola señal del modelo
-- Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, actualmente pendientes
+- Datos del mecanismo de acción de metformina para evaluar el vínculo mecanístico
+- Revisión de la literatura y búsqueda de ensayos clínicos o estudios preclínicos en síndrome de la persona rígida
+- Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones) para el cribado de seguridad
+- Evaluación de compatibilidad de vía de administración y de la población diana, considerando las contraindicaciones señaladas y las interacciones mayores
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Vancomycin
 parent: Solo predicción del modelo (L5)
-nav_order: 554
+nav_order: 839
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vancomicina: De Infecciones por Bacterias Gram-positivas a Esclerodermia Difusa
+# Vancomicina: De Colitis por Clostridium difficile a Esclerodermia Difusa
 
 ## Resumen en Una Frase
 
-La vancomicina es un antibiótico glucopéptido activo frente a bacterias Gram-positivas, y en España se comercializa en forma de perfusión intravenosa y cápsulas.
-El modelo TxGNN predice que podría ser efectiva para **esclerodermia difusa**, pero solo hay **0 ensayos clínicos** y **1 publicación** (un reporte de caso en el que la vancomicina es un dato incidental).
-La predicción carece de respaldo real y no se identifica ningún mecanismo plausible.
+Vancomicina es un antibiótico glucopéptido, originalmente utilizado para tratar la colitis por *Clostridium difficile*, infecciones estafilocócicas, endocarditis y artritis bacteriana.
+El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, pero **no hay ensayos clínicos** y solo **1 publicación** (un reporte de caso sin relación directa con el tratamiento de la esclerodermia) acompaña esta predicción.
+La evidencia es únicamente computacional y la predicción carece de plausibilidad mecanística.
 
 ---
 
@@ -43,9 +43,9 @@ La predicción carece de respaldo real y no se identifica ningún mecanismo plau
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los textos de AEMPS recibidos; por su clase farmacológica, infecciones por bacterias Gram-positivas |
+| Indicación Original | Colitis por *Clostridium difficile* (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Esclerodermia difusa |
-| Puntaje de Predicción TxGNN | 99,92 % |
+| Puntaje de Predicción TxGNN | 99,92% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 10 |
@@ -55,11 +55,11 @@ La predicción carece de respaldo real y no se identifica ningún mecanismo plau
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, la vancomicina es un antibiótico glucopéptido con actividad frente a bacterias Gram-positivas, y no se le conoce acción inmunomoduladora ni antifibrótica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la vancomicina es un antibiótico glucopéptido que inhibe la síntesis de la pared celular de bacterias grampositivas, y su eficacia en infecciones por grampositivos y colitis por *C. difficile* está bien establecida.
 
-**Esta predicción no tiene un vínculo mecanístico plausible.** La esclerodermia difusa (esclerosis sistémica) es una enfermedad autoinmune y fibrosante, y la vancomicina no actúa sobre esos procesos. El puntaje alto de TxGNN (99,92 %) es solo una predicción del modelo. No implica eficacia.
+Sin embargo, **la predicción no resulta razonable desde el punto de vista biológico**. La esclerodermia difusa (esclerosis sistémica) es una enfermedad autoinmune y fibrótica, sin un componente bacteriano que la vancomicina pueda tratar. El análisis de los datos indica que no existe un vínculo mecanístico plausible y que el puntaje alto de TxGNN parece ser un artefacto del grafo de conocimiento.
 
-La única publicación recuperada describe un caso de eritrodermia con sepsis y eosinofilia. La vancomicina aparece allí de forma incidental, sin relación con el tratamiento de la esclerodermia.
+La única publicación recuperada describe un caso de eritrodermia con sepsis y eosinofilia, que no aborda el tratamiento de la esclerodermia.
 
 ---
 
@@ -73,27 +73,30 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Reporte de caso | The American Journal of Case Reports | Varón de 56 años con exantema descamativo difuso (eritrodermia), sepsis y eosinofilia. No aporta evidencia de eficacia de la vancomicina en esclerodermia. |
+| [31541072](https://pubmed.ncbi.nlm.nih.gov/31541072/) | 2019 | Reporte de caso | The American Journal of Case Reports | Caso de erupción exfoliativa difusa con sepsis y eosinofilia en un varón de 56 años (posible eritrodermia); no trata la esclerodermia |
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 73785 | Vancomicina Pfizer 1000 mg | Polvo para concentrado para solución para perfusión |
-| 90304 | Vangozyr 250 mg cápsulas duras | Cápsula dura |
-| 73784 | Vancomicina Pfizer 500 mg | Polvo para concentrado para solución para perfusión |
-| 85651 | Vancomicina Normon 1000 mg | Polvo para concentrado para solución para perfusión |
-| 67283 | Vancomicina Sala 1.000 mg | Polvo para solución inyectable |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 73785 | Vancomicina Pfizer 1000 mg | Polvo para concentrado para solución para perfusión | No disponible |
+| 90304 | Vangozyr 250 mg cápsulas duras | Cápsula dura | No disponible |
+| 73784 | Vancomicina Pfizer 500 mg | Polvo para concentrado para solución para perfusión | No disponible |
+| 85651 | Vancomicina Normon 1000 mg | Polvo para concentrado para solución para perfusión | No disponible |
+| 67283 | Vancomicina Sala 1.000 mg | Polvo para solución inyectable | No disponible |
 
-Se muestran 5 de las 10 autorizaciones. Los textos de indicación aprobada no están disponibles en los datos recibidos.
+Se muestran 5 de las 10 autorizaciones vigentes, todas de principio activo único.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+- **Contraindicaciones / condiciones de riesgo (según el grafo de conocimiento, no el prospecto)**: enfermedad renal, piouréter, neutropenia, agranulocitosis, trastornos de la audición y enfermedades del sistema auditivo.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones; entre las principales:
+  - **Mayores**: inmunoglobulina G humana (intravenosa), inmunoglobulina humana antineurotoxina botulínica A/B y vacuna viva de *Vibrio cholerae* (cepa CVD 103-HgR).
+  - **Moderadas**: AINE (ketorolaco, ibuprofeno, diclofenaco, celecoxib), anfotericina B (incluido el complejo lipídico), aminoglucósidos y polipéptidos (amikacina, capreomicina, bacitracina), carboplatino, metformina, estrógenos (etinilestradiol, estradiol), mesalazina, balsalazida, ibandronato y colestiramina.
 
 ---
 
@@ -102,15 +105,12 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos, la única publicación es un reporte de caso sin relación causal y no existe un mecanismo plausible. La vancomicina no tiene acción antifibrótica ni inmunomoduladora conocida, por lo que el puntaje de TxGNN no basta para avanzar.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura relevante, y no existe un mecanismo biológico plausible que vincule un antibiótico antibacteriano con la fibrosis autoinmune de la esclerodermia.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas) para poder realizar el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Justificar un mecanismo biológico entre la vancomicina y la esclerosis sistémica. Sin él, no se recomienda ninguna investigación adicional para esta indicación.
-- Entre las demás predicciones del modelo, solo la neumonía estreptocócica (puesto 9) tiene un mecanismo plausible (inhibición de la síntesis de pared celular en Gram-positivos). Es probable que se trate de un uso ya cercano a la indicación autorizada o a las guías, no de un reposicionamiento real. Conviene revisar primero la indicación original.
-
-*Los resultados son solo para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto de la AEMPS.
+- Evidencia preclínica o clínica que justifique un vínculo entre vancomicina y la esclerodermia (actualmente inexistente).
+- Revisar otras indicaciones predichas con mayor plausibilidad biológica, como la **neumonía estreptocócica** (nivel L4, actividad frente a grampositivos). Aun así, podría tratarse más de una extensión de uso existente que de un reposicionamiento genuino. Las predicciones para salmonelosis, fiebre tifoidea y paratifoidea carecen de fundamento, ya que son bacterias gramnegativas intrínsecamente resistentes a la vancomicina.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Oxybutynin
 parent: Solo predicción del modelo (L5)
-nav_order: 399
+nav_order: 597
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,18 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Oxybutynin: De Vejiga Hiperactiva a Síndrome de Piernas Inquietas
+# Oxibutinina: De Vejiga Hiperactiva a Síndrome de Piernas Inquietas
 
 ## Resumen en Una Frase
 
-Oxybutynin es un antimuscarínico utilizado originalmente para tratar la vejiga hiperactiva.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas inquietas**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, así que es solo una predicción del modelo.
+Oxibutinina es un fármaco antimuscarínico, originalmente utilizado para el tratamiento de la vejiga hiperactiva y la vejiga neurógena.
+El modelo TxGNN predice que podría ser efectivo para **Síndrome de Piernas Inquietas**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Vejiga hiperactiva (según la información farmacológica de la ficha del fármaco; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Indicación Original | Vejiga hiperactiva (según las indicaciones del grafo de conocimiento; los textos de indicación autorizados no están disponibles) |
 | Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 99.74% |
 | Nivel de Evidencia | L5 |
@@ -50,11 +51,16 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Oxybutynin actúa sobre los receptores muscarínicos humanos M1, M2, M3, M4 y M5 (genes CHRM1 a CHRM5). Es un antimuscarínico con acción antiespasmódica sobre el músculo liso, y su uso establecido es la vejiga hiperactiva. Los datos recibidos no incluyen una descripción detallada del mecanismo de acción.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la oxibutinina es un antagonista de los receptores muscarínicos (los datos farmacológicos compilados la vinculan con los receptores M1 a M5) y su eficacia en la vejiga hiperactiva está establecida. Además, se le atribuye una acción antiespasmódica directa sobre el músculo liso.
 
-**En este caso no se identifica una justificación mecanística sólida.** El síndrome de piernas inquietas se relaciona principalmente con la deficiencia de hierro cerebral y la disfunción dopaminérgica, y oxybutynin no actúa sobre esas vías. El puntaje alto de TxGNN (0.997) proviene solo del grafo de conocimiento y no está respaldado por ningún estudio en los datos disponibles.
+Una posible relación es que el desequilibrio colinérgico/dopaminérgico se ha discutido en la fisiopatología del síndrome de piernas inquietas. Sin embargo, este vínculo es especulativo: los anticolinérgicos con actividad central suelen describirse como agravantes o sin beneficio claro en este síndrome. La relación con la indicación original (un trastorno urológico) es débil y no está establecida.
 
-Además, los efectos anticolinérgicos centrales podrían empeorar el sueño o los síntomas sensoriales, por lo que la dirección del efecto es incierta. Por eso se recomienda tratar esta predicción con cautela.
+**Otras predicciones del modelo (todas con evidencia limitada):**
+
+| Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
+|------|------|------|------|
+| Gastroduodenitis | 99.62% | L5 | Sin ensayos ni literatura; racional teórico antiespasmódico/antisecretor |
+| Enfermedad ulcerosa péptica | 99.31% | L4 | Literatura antigua e indirecta, con una señal de seguridad contraria (esofagitis por reflujo) |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,36 +68,46 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para el síndrome de piernas inquietas.
+
+Para la indicación predicha de menor rango (enfermedad ulcerosa péptica), solo existe literatura indirecta y antigua:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/) | 1990 | Reporte de caso | DICP: Annals of Pharmacotherapy | Caso de esofagitis por reflujo inducida por oxibutinina, probablemente por reducción del tono del esfínter esofágico inferior |
+| [4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/) | 1965 | Revisión farmacológica/preclínica | Arch Int Pharmacodyn Ther | Caracterización de la oxibutinina como antiespasmódico musculotrópico con acción anticolinérgica moderada |
+| [14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/) | 1964 | Evaluación clínica (no controlada) | Curr Ther Res | Evaluación clínica histórica de la oxibutinina en enfermedad gastrointestinal |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 57185 | DITROPAN 5 mg COMPRIMIDOS | Comprimido | Cheplapharm Arzneimittel GmbH |
-| 03270001 | KENTERA 3,9 mg/24 HORAS, PARCHE TRANSDÉRMICO | Parche transdérmico | Teva B.V. |
-| 85899 | VESOXX 1 MG/ML SOLUCIÓN INTRAVESICAL | Solución intravesical | Farco-Pharma GmbH |
-| 62205 | DRESPLAN COMPRIMIDOS | Comprimido | Macure Healthcare Limited |
+| 57185 | DITROPAN 5 mg COMPRIMIDOS | Comprimido | No disponible |
+| 03270001 | KENTERA 3,9 mg/24 HORAS, PARCHE TRANSDÉRMICO | Parche transdérmico | No disponible |
+| 85899 | VESOXX 1 MG/ML SOLUCIÓN INTRAVESICAL | Solución intravesical | No disponible |
+| 62205 | DRESPLAN COMPRIMIDOS | Comprimido | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: no hay datos de interacciones fármaco-fármaco. Los 5 registros consultados corresponden a las dianas farmacológicas de oxybutynin (receptores muscarínicos M1 a M5).
-- **Señal de seguridad relevante**: los efectos anticolinérgicos podrían empeorar el sueño o los síntomas sensoriales en el síndrome de piernas inquietas, según el análisis del modelo. Un caso publicado de esofagitis por reflujo asociado a oxybutynin (PMID 2360335) muestra un efecto adverso digestivo de este fármaco, aunque no se refiere a esta indicación.
+- **Contraindicaciones (según el grafo de conocimiento, no el texto del prospecto)**: hipertensión, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hiperplasia prostática benigna, enfermedad coronaria, paro cardíaco súbito, trastornos de la conducción cardíaca, glaucoma de ángulo cerrado, miastenia gravis y enfermedades de la unión neuromuscular, colitis ulcerosa y enfermedad inflamatoria intestinal, hipertiroidismo (enfermedad de Graves, tirotoxicosis), hernia de hiato, íleo paralítico, obstrucción intestinal, obstrucción del cuello vesical, megacolon tóxico, enfermedad por reflujo gastroesofágico y esofagitis.
+- **Interacciones Farmacológicas**: la consulta no identificó interacciones con otros fármacos; únicamente se registró la afinidad farmacológica por los receptores muscarínicos M1 a M5.
+- **Señal de seguridad relevante**: se ha descrito esofagitis por reflujo asociada a la oxibutinina (1990), lo que es desfavorable para las indicaciones gastrointestinales predichas.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos ni literatura, y no tiene un vínculo mecanístico plausible con la fisiopatología del síndrome de piernas inquietas. Además, existe riesgo de que los efectos anticolinérgicos centrales empeoren los síntomas.
+La predicción tiene un puntaje alto (99.74%), pero no cuenta con ningún ensayo clínico ni publicación (nivel L5). Además, el vínculo mecanístico es especulativo y los anticolinérgicos de acción central no han mostrado beneficio claro en el síndrome de piernas inquietas.
 
 **Para avanzar se necesita:**
-- Buscar y revisar estudios clínicos o preclínicos que relacionen antimuscarínicos con el síndrome de piernas inquietas.
-- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS, que es un paso bloqueante para la evaluación de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Valorar otras predicciones del mismo fármaco. Para la enfermedad ulcerosa péptica hay 3 publicaciones históricas (nivel L4), pero son antiguas y una de ellas describe un efecto adverso digestivo; para la gastroduodenitis no hay evidencia (L5). Ambas siguen en Hold.
+- Datos detallados del mecanismo de acción (MOA) y análisis del vínculo mecanístico con el síndrome de piernas inquietas
+- Revisión de la literatura sobre anticolinérgicos en este síndrome, incluido el posible empeoramiento de los síntomas
+- Obtención de los textos de indicación y del prospecto de la AEMPS (advertencias y contraindicaciones oficiales)
+- Evaluación de la compatibilidad de las vías de administración (pendiente)
+- Evidencia clínica o preclínica directa antes de reconsiderar la decisión
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Lovastatin
 parent: Evidencia moderada (L3-L4)
-nav_order: 334
+nav_order: 488
 evidence_level: L3
 indication_count: 6
 ---
@@ -29,103 +29,92 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **6**
 
 </div>
 
-# Lovastatina: De Hipercolesterolemia a Hipercolesterolemia Familiar Homocigota
+# Lovastatina: De Hiperlipidemia a Hipercolesterolemia Familiar Homocigota
 
 ## Resumen en Una Frase
 
-Lovastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada para tratar la hipercolesterolemia y la dislipidemia mixta.
-El modelo TxGNN predice que podría ser efectiva para la **hipercolesterolemia familiar homocigota (HFHo)**.
-Hay **3 ensayos clínicos** relacionados, pero ninguno evalúa lovastatina (todos usan ezetimiba o alirocumab), y **20 publicaciones**, de las cuales solo unos pocos casos y series pequeñas tratan directamente con lovastatina.
-
----
+Lovastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada originalmente para tratar la hiperlipidemia, la hipertrigliceridemia y la aterosclerosis.
+El modelo TxGNN predice que podría ser efectiva para la **hipercolesterolemia familiar homocigota**, pero esta predicción se apoya en **1 ensayo clínico** que no evalúa lovastatina y en **19 publicaciones**, en su mayoría revisiones y series de casos antiguas, con resultados mixtos.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipercolesterolemia y dislipidemia mixta (según el uso clínico descrito en la base farmacológica; no hay texto de indicación de AEMPS disponible) |
+| Indicación Original | Hiperlipidemia (hipertrigliceridemia, hiperlipidemia familiar, aterosclerosis) |
 | Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota |
-| Puntaje de Predicción TxGNN | 99,89 % |
+| Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
+> Nota: la indicación original procede de las relaciones fármaco-enfermedad del grafo de conocimiento, ya que los textos de indicación aprobados por la AEMPS no están disponibles en los datos compilados.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La base farmacológica identifica la HMG-CoA reductasa (gen *HMGCR*) como diana de lovastatina. También registra el receptor X de pregnano (*NR1I2*) como diana. No hay un texto de mecanismo de acción detallado en el paquete de evidencia. Al inhibir la HMG-CoA reductasa, lovastatina reduce la síntesis hepática de colesterol. Su efecto principal sobre el LDL-C se debe a que aumenta los receptores hepáticos de LDL.
+Los datos compilados no incluyen una descripción detallada del mecanismo de acción. Según la información conocida, lovastatina inhibe la HMG-CoA reductasa, enzima limitante de la síntesis de colesterol, y con ello aumenta la expresión de receptores de LDL en el hígado. Los datos de farmacología también registran su interacción con el receptor X de pregnano (NR1I2).
 
-Esa dependencia del receptor es lo que limita la predicción. Los pacientes con HFHo y actividad residual del receptor (alelos defectuosos) pueden responder. Los pacientes con receptor negativo responden mal. La literatura lo confirma: un estudio en tres niños con HFHo receptor-negativo no mostró descenso del LDL-C con lovastatina, mientras que otro caso, un niño con HFHo tras trasplante hepático, alcanzó niveles normales de colesterol con lovastatina.
+La hipercolesterolemia familiar homocigota pertenece al mismo espacio terapéutico que las indicaciones originales (hiperlipidemia familiar). Por ello, más que un reposicionamiento real, se trata de una extensión dentro de la misma clase de fármacos hipolipemiantes.
 
-La HFHo comparte con la indicación original la misma vía biológica: el colesterol LDL elevado por un defecto en su aclaramiento. Por eso la predicción es plausible, pero **depende del genotipo** y no está respaldada por ensayos directos con lovastatina.
-
----
+La limitación mecanística es importante: el efecto depende de que exista actividad residual del receptor de LDL. En pacientes con receptor defectuoso se observa respuesta parcial, mientras que en pacientes sin receptor (receptor-negativos) no se observó descenso del LDL-C (PMID 3397806). Por tanto, la eficacia sería variable según el genotipo.
 
 ## Evidencia de Ensayos Clínicos
 
-Ninguno de los ensayos registrados incluye lovastatina como brazo de tratamiento. Aportan solo contexto indirecto de clase o de la enfermedad.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Completado | 44 | Extensión abierta de 24 meses sobre la seguridad y tolerabilidad de ezetimiba añadida a atorvastatina o simvastatina en HFHo |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Completado | 50 | Eficacia y seguridad de ezetimiba 10 mg añadida a atorvastatina o simvastatina en HFHo |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Alirocumab en niños y adolescentes (8-17 años) con HFHo; objetivo principal: LDL-C a la semana 12 |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Estudio abierto de alirocumab (no lovastatina) en niños y adolescentes de 8 a 17 años con HoFH; aporta solo contexto de la enfermedad |
 
----
+No hay ensayos clínicos que evalúen directamente lovastatina en esta indicación.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12034651](https://pubmed.ncbi.nlm.nih.gov/12034651/) | 2002 | ECA | Circulation | Ezetimiba añadida a atorvastatina o simvastatina en 50 pacientes con HFHo (no incluye lovastatina) |
-| [3397806](https://pubmed.ncbi.nlm.nih.gov/3397806/) | 1988 | Estudio clínico | J Pediatr | Tres niños con HFHo receptor-negativo tratados con lovastatina (2 mg/kg/día): sin descenso del LDL-C ni cambios en su recambio |
-| [1785747](https://pubmed.ncbi.nlm.nih.gov/1785747/) | 1991 | Estudio clínico | An Esp Pediatr | Dos pacientes con HFHo tratados con lovastatina combinada con probucol y colestiramina, con análisis del receptor de LDL |
-| [3534334](https://pubmed.ncbi.nlm.nih.gov/3534334/) | 1986 | Reporte de caso | JAMA | Niña con HFHo tras trasplante hepático: con lovastatina se lograron niveles normales de colesterol |
-| [2252289](https://pubmed.ncbi.nlm.nih.gov/2252289/) | 1990 | Reporte de caso | An Esp Pediatr | Respuesta de un paciente con HFHo a la combinación de colestiramina y lovastatina |
-| [2209665](https://pubmed.ncbi.nlm.nih.gov/2209665/) | 1990 | Reporte de caso | Eur J Pediatr | Niña de 7 años con HFHo tratada con plasmaféresis de LDL (HELP), con y sin lovastatina |
-| [2912429](https://pubmed.ncbi.nlm.nih.gov/2912429/) | 1989 | Revisión de experiencia clínica | Arteriosclerosis | Experiencia con plasmaféresis en HFH; la combinación de lovastatina con aféresis de LDL se evaluaba como estrategia |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Revisión | Ann N Y Acad Sci | Tratamientos farmacológicos y quirúrgicos de dislipidemias pediátricas, entre ellos lovastatina |
-| [29284604](https://pubmed.ncbi.nlm.nih.gov/29284604/) | 2018 | Cohorte | Arterioscler Thromb Vasc Biol | Variabilidad de la expresión del LDLR entre pacientes con HFHo y su relación con la respuesta a evolocumab |
-| [7229037](https://pubmed.ncbi.nlm.nih.gov/7229037/) | 1981 | Preclínico | J Clin Invest | Efecto de compactina (ML-236b) sobre la síntesis de esteroles y la actividad del receptor de LDL en fibroblastos de pacientes con HFHo |
-
----
+| [1785747](https://pubmed.ncbi.nlm.nih.gov/1785747/) | 1991 | Cohorte | Anales Españoles de Pediatría | Lovastatina combinada con probucol y colestiramina en 2 pacientes con HoFH, con estudio de receptores de LDL |
+| [3397806](https://pubmed.ncbi.nlm.nih.gov/3397806/) | 1988 | Serie de casos | J Pediatr | En 3 niños con HoFH receptor-negativa, lovastatina no redujo el LDL-C ni modificó su recambio |
+| [3534334](https://pubmed.ncbi.nlm.nih.gov/3534334/) | 1986 | Reporte de caso | JAMA | Niña con HoFH trasplantada de hígado: lovastatina contribuyó a normalizar el colesterol |
+| [2252289](https://pubmed.ncbi.nlm.nih.gov/2252289/) | 1990 | Reporte de caso | An Esp Pediatr | Respuesta a colestiramina más lovastatina en paciente con receptor defectuoso |
+| [2209665](https://pubmed.ncbi.nlm.nih.gov/2209665/) | 1990 | Reporte de caso | Eur J Pediatr | Plasmaféresis de LDL con y sin lovastatina en una niña de 7 años con HoFH |
+| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Revisión | Ann N Y Acad Sci | Tratamiento farmacológico y quirúrgico de la dislipidemia pediátrica; incluye lovastatina |
+| [12063772](https://pubmed.ncbi.nlm.nih.gov/12063772/) | 2001 | Revisión | Nutr Metab Cardiovasc Dis | Uso de estatinas en niños con hipercolesterolemia familiar |
+| [2912429](https://pubmed.ncbi.nlm.nih.gov/2912429/) | 1989 | Revisión | Arteriosclerosis | Plasmaféresis en HoFH; se evalúa la combinación de lovastatina con aféresis de LDL |
+| [3278832](https://pubmed.ncbi.nlm.nih.gov/3278832/) | 1988 | Revisión | Clin Pharm | Revisión de la farmacología y eficacia clínica de lovastatina |
+| [2912428](https://pubmed.ncbi.nlm.nih.gov/2912428/) | 1989 | Serie clínica | Arteriosclerosis | Tratamiento farmacológico de la hipercolesterolemia familiar en niños, incluidos 3 con forma homocigota |
 
 ## Información de Mercado en España
 
-Los datos de AEMPS no incluyen el texto de indicación aprobada de estas autorizaciones.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 63359 | LOVASTATINA CINFA 40 mg COMPRIMIDOS EFG | Comprimido | Laboratorios Cinfa S.A. |
-| 63361 | COLESVIR 20 mg COMPRIMIDOS | Comprimido | Industria Química y Farmacéutica Vir S.A. |
-| 63330 | LOVASTATINA VIR 20 mg COMPRIMIDOS EFG | Comprimido | Industria Química y Farmacéutica Vir S.A. |
-| 64385 | LOVASTATINA PENSA 20 mg COMPRIMIDOS EFG | Comprimido | Pensa Pharma, S.A.U |
-| 63765 | LOVASTATINA SANDOZ 20 mg COMPRIMIDOS EFG | Comprimido | Sandoz Farmacéutica S.A. |
+| 63359 | LOVASTATINA CINFA 40 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 63361 | COLESVIR 20 mg COMPRIMIDOS | Comprimido | No disponible en los datos |
+| 63330 | LOVASTATINA VIR 20 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 64385 | LOVASTATINA PENSA 20 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 58757 | TAUCOR 20 mg | Comprimido | No disponible en los datos |
 
----
+Se muestran 5 de las 20 autorizaciones vigentes (todas de monocomponente, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta se completó, pero los 2 registros devueltos son dianas farmacológicas de lovastatina (HMG-CoA reductasa y receptor X de pregnano), no interacciones con otros fármacos.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, miopatía y enfermedades musculares, rabdomiólisis, diabetes mellitus y cetoacidosis diabética, trombocitopenia, enfermedad ulcerosa péptica, gota, trastornos de la coagulación, síndrome coronario agudo e infarto de miocardio, entre otras.
+- **Interacciones farmacológicas**: los datos registran la interacción farmacológica con la HMG-CoA reductasa (diana principal) y con el receptor X de pregnano (NR1I2). No se identificaron interacciones con otros fármacos.
+- Los casos publicados de combinación con niacina describen riesgo de rabdomiólisis (PMID 3421570).
 
-Consultar el prospecto para las advertencias y contraindicaciones.
-
----
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es muy alto (99,89 %), pero no hay ningún ensayo clínico con lovastatina en HFHo. La evidencia directa se limita a series pequeñas y reportes de caso, con resultados contradictorios según el estado del receptor de LDL. La plausibilidad mecanística es real pero depende del genotipo.
+La predicción es coherente con la clase terapéutica, pero la evidencia directa es escasa y antigua (casos aislados y series pequeñas), y muestra falta de respuesta en pacientes receptor-negativos. El único ensayo registrado evalúa alirocumab, no lovastatina. Además, la hipercolesterolemia familiar homocigota ya se maneja con otras estatinas más potentes y terapias específicas.
 
 **Para avanzar se necesita:**
-- Datos de eficacia de lovastatina en HFHo estratificados por genotipo (receptor-defectuoso frente a receptor-negativo)
-- Comparación con las opciones ya establecidas para HFHo, como aféresis de LDL, ezetimiba e inhibidores de PCSK9
-- Advertencias, contraindicaciones e indicaciones aprobadas del prospecto de AEMPS
-- Plan de seguridad para población pediátrica, dado que la evidencia existente incluye niños
+- Ensayos o estudios modernos que evalúen lovastatina en HoFH, estratificados por actividad del receptor de LDL.
+- Datos del mecanismo de acción y de las advertencias y contraindicaciones oficiales de la AEMPS (prospecto).
+- Comparación con estatinas de mayor potencia y con terapias actuales para HoFH.
+- Plan de seguridad para población pediátrica (dosificación, monitorización hepática y muscular).
+
+**Nota sobre otras indicaciones predichas:** la hipercolesterolemia familiar (heterocigota) y la hiperlipoproteinemia presentan evidencia L1 y recomendación "Proceed with Guardrails", pero corresponden a usos ya establecidos o muy cercanos a la indicación original, por lo que no constituyen reposicionamiento propiamente dicho. Las predicciones de deficiencia de colesterol 7α-hidroxilasa, deficiencia de CETP y deficiencia de lipasa hepática carecen de evidencia clínica (L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

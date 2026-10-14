@@ -2,7 +2,7 @@
 layout: default
 title: Pravastatin
 parent: Evidencia moderada (L3-L4)
-nav_order: 434
+nav_order: 656
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Pravastatina: De Hipercolesterolemia a Hipercolesterolemia Familiar Homocigota
+# Pravastatina: De Hiperlipidemia e Hipertrigliceridemia a Hipercolesterolemia Familiar Homocigota
 
 ## Resumen en Una Frase
 
-La pravastatina es una estatina que se usa para tratar la hipercolesterolemia y reducir el riesgo cardiovascular.
-El modelo TxGNN predice que podría ser efectiva para la **hipercolesterolemia familiar homocigota**,
-pero solo hay **1 ensayo clínico** (que evalúa otro fármaco, alirocumab) y **13 publicaciones** sin evidencia directa con pravastatina en esta enfermedad.
+La pravastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada originalmente para tratar la hiperlipidemia, la hipertrigliceridemia y la prevención de enfermedad cerebrovascular y aterosclerosis.
+El modelo TxGNN predice que podría ser efectiva para la **hipercolesterolemia familiar homocigota**, pero actualmente **ningún ensayo clínico evalúa la pravastatina en esta enfermedad** (el único ensayo listado estudia alirocumab) y la literatura disponible es indirecta (12 publicaciones, casi todas revisiones, guías o estudios generales).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en las autorizaciones de AEMPS. Según farmacología (GtoPdb): hipercolesterolemia y reducción del riesgo cardiovascular |
+| Indicación Original | Hiperlipidemia e hipertrigliceridemia, enfermedad cerebrovascular y aterosclerosis (según las relaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles en los datos compilados) |
 | Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota |
 | Puntaje de Predicción TxGNN | 99.95% |
 | Nivel de Evidencia | L4 |
@@ -49,63 +50,80 @@ pero solo hay **1 ensayo clínico** (que evalúa otro fármaco, alirocumab) y **
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de un campo detallado de mecanismo de acción en el paquete de datos. Según la información farmacológica, la pravastatina inhibe la HMG-CoA reductasa (HMGCR), la enzima limitante de la síntesis de colesterol, y aumenta los receptores hepáticos de LDL. También es sustrato del transportador hepático OATP1B1 (SLCO1B1).
+No se dispone de datos detallados del mecanismo de acción en los datos compilados. Sin embargo, la pravastatina pertenece a la clase de las estatinas, cuyo objetivo farmacológico es la enzima HMG-CoA reductasa (HMGCR). Al inhibirla, reduce la síntesis hepática de colesterol y aumenta los receptores hepáticos de LDL, con lo que disminuye el colesterol LDL circulante.
 
-La relación entre ambas indicaciones es clara en lo conceptual: en las dos hay un LDL-colesterol elevado. Sin embargo, la forma homocigota se debe a la ausencia o el defecto grave del receptor de LDL (LDLR). Como la pravastatina depende de aumentar esos receptores, se espera una respuesta limitada, sobre todo en pacientes sin actividad residual del receptor.
+La hipercolesterolemia familiar es una enfermedad hereditaria con colesterol LDL muy elevado, estrechamente relacionada con las indicaciones originales del fármaco (hiperlipidemia y aterosclerosis). Por eso el modelo la identifica como cercana en la red de conocimiento.
 
-Por tanto, la predicción tiene un puntaje alto en el grafo de conocimiento, pero el mecanismo la respalda solo de forma parcial. Además, no existen ensayos con pravastatina en la forma homocigota. La literatura sobre estatinas en niños con hipercolesterolemia familiar cubre sobre todo la forma heterocigota.
+Hay una limitación importante en la forma homocigota. Las estatinas dependen de cierta actividad residual del receptor de LDL, que en estos pacientes es mínima o nula, por lo que el beneficio esperado es limitado y variable. Una de las publicaciones recopiladas señala que las estatinas "no son muy eficaces" en la hipercolesterolemia familiar homocigota. Esto explica por qué la puntuación alta del modelo no equivale a respaldo clínico.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Alirocumab (inhibidor de PCSK9) cada 2 semanas en niños y adolescentes de 8 a 17 años con hipercolesterolemia familiar homocigota, sobre el tratamiento de base. No evalúa pravastatina |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Estudio abierto de alirocumab (no de pravastatina) en niños y adolescentes de 8 a 17 años con hipercolesterolemia familiar homocigota; evalúa la reducción de LDL-C a la semana 12. Solo aporta contexto de la enfermedad. |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Revisión sistemática | Cochrane Database Syst Rev | Estatinas en niños con hipercolesterolemia familiar; se centra sobre todo en la forma heterocigota |
-| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Revisión sistemática | Cochrane Database Syst Rev | Versión anterior de la misma revisión sobre estatinas en niños con hipercolesterolemia familiar |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guía clínica | Endocr Pract | Guía AACE/ACE para el manejo de la dislipidemia y la prevención cardiovascular |
-| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Revisión | Clin Ther | Rosuvastatina, con indicación en hipercolesterolemia primaria, dislipidemia mixta e hipercolesterolemia familiar homocigota. No trata de pravastatina |
-| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Revisión | Drugs | Rosuvastatina frente a otras estatinas, incluida pravastatina, en hipercolesterolemia |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Revisión | Am J Cardiovasc Drugs | Ezetimiba, inhibidor de la absorción intestinal de colesterol |
-| [14647533](https://pubmed.ncbi.nlm.nih.gov/14647533/) | 2003 | Revisión | Cardiovasc Drug Rev | Ezetimiba como inhibidor de la absorción de colesterol de primera clase |
-| [15067249](https://pubmed.ncbi.nlm.nih.gov/15067249/) | 2003 | Revisión | Ann Endocrinol | Ezetimiba y terapias combinadas con estatinas en casos graves de dislipidemia |
-| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Preclínico (modelo iPSC) | Stem Cell Res Ther | Hepatocitos derivados de iPSC con déficit de LDLR para modelar la hipercolesterolemia familiar y su corrección con CRISPR |
-| [34425670](https://pubmed.ncbi.nlm.nih.gov/34425670/) | 2021 | Estudio genético | Iran Biomed J | Nueva variante de splicing en LDLRAP1 en una familia con hipercolesterolemia familiar |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Estatinas en niños con hipercolesterolemia familiar; contexto general de la clase, no específico de la forma homocigota |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Actualización de la revisión anterior sobre estatinas en niños con hipercolesterolemia familiar |
+| [15532136](https://pubmed.ncbi.nlm.nih.gov/15532136/) | 2004 | Revisión | Prescrire Int | Simvastatina y pravastatina son estatinas de referencia en hipercolesterolemia; las estatinas son poco eficaces en la forma homocigota |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guía clínica | Endocr Pract | Guías AACE/ACE para el manejo de la dislipidemia y la prevención cardiovascular |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Revisión | Drugs | Rosuvastatina superó a atorvastatina, simvastatina y pravastatina en el perfil lipídico |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Revisión | Clin Ther | Rosuvastatina indicada, entre otras, en hipercolesterolemia familiar homocigota |
+| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Revisión | Am J Cardiovasc Drugs | Ezetimiba como inhibidor de la absorción de colesterol |
+| [14647533](https://pubmed.ncbi.nlm.nih.gov/14647533/) | 2003 | Revisión | Cardiovasc Drug Rev | Ezetimiba como inhibidor novedoso de la absorción de colesterol |
+| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Revisión | Drugs | Farmacología y potencial terapéutico de la atorvastatina en hiperlipidemias |
+| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Preclínico | Stem Cell Res Ther | Modelo de hepatocitos derivados de células iPS con déficit de receptor LDL para estudiar la hipercolesterolemia familiar |
+
+Ninguna de estas publicaciones evalúa directamente la pravastatina en la forma homocigota.
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 66521 | PRAVASTATINA TARBIS 40 mg COMPRIMIDOS EFG | Comprimido | Tarbis Farma S.L. |
-| 81468 | PRAVASTATINA AUROVITAS 20 MG COMPRIMIDOS EFG | Comprimido | Aurovitas Spain, S.A.U. |
-| 60162 | BRISTACOL 20 mg COMPRIMIDOS | Comprimido | Exeltis Healthcare S.L. |
-| 70376 | PRAVASTATINA KORHISPANA 10 mg COMPRIMIDOS EFG | Comprimido | Korhispana S.L. |
-| 68535 | PRAVASTATINA QUALIGEN 10 mg COMPRIMIDOS EFG | Comprimido | Neuraxpharm Spain S.L. |
+La pravastatina cuenta con 20 autorizaciones vigentes, todas de fármaco único y en forma de comprimido. Se muestran las 5 principales:
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 66521 | Pravastatina Tarbis 40 mg comprimidos EFG | Comprimido |
+| 81468 | Pravastatina Aurovitas 20 mg comprimidos EFG | Comprimido |
+| 60162 | Bristacol 20 mg comprimidos | Comprimido |
+| 62688 | Prareduct 40 mg comprimidos | Comprimido |
+| 66609 | Pravastatina Teva 40 mg comprimidos EFG | Comprimido |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la base de datos registra dos elementos farmacológicos, no fármacos concretos: la diana HMG-CoA reductasa (HMGCR) y el transportador hepático OATP1B1 (SLCO1B1). Este último es relevante porque los inhibidores de OATP1B1 pueden aumentar la exposición a pravastatina. No se especifica nivel de gravedad.
+- **Contraindicaciones o enfermedades de precaución (según el grafo de conocimiento, no según el prospecto):** enfermedad hepática, enfermedad renal, miopatía y enfermedades musculares, rabdomiólisis, trombocitopenia, úlcera péptica, enfermedad de la vesícula biliar, gota, hipercalcemia, hiperparatiroidismo, sarcoidosis, hemofilia, anemia, enfermedad diarreica y abuso de sustancias, entre otras.
+- **Interacciones y transportadores:** la pravastatina actúa sobre la HMG-CoA reductasa (HMGCR) y es sustrato del transportador hepático OATP1B1 (gen SLCO1B1). Las alteraciones en este transportador pueden modificar su exposición plasmática.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Solo hay una predicción del modelo, sin evidencia directa. El único ensayo registrado evalúa alirocumab, y la literatura consiste en revisiones de otros hipolipemiantes y estudios de estatinas en hipercolesterolemia familiar sobre todo heterocigota. Además, el mecanismo de la pravastatina depende del receptor de LDL, que en la forma homocigota está ausente o es defectuoso.
+La puntuación del modelo es muy alta, pero no hay ningún ensayo con pravastatina en hipercolesterolemia familiar homocigota y la literatura es indirecta. Además, el mecanismo de las estatinas depende de la actividad residual del receptor de LDL, que en esta forma de la enfermedad es mínima o nula, lo que sugiere un beneficio limitado.
 
 **Para avanzar se necesita:**
-- Confirmar la indicación autorizada actual de pravastatina en el prospecto de AEMPS. Los datos de indicación y de seguridad (advertencias y contraindicaciones) no están disponibles en el paquete y bloquean el cribado de seguridad.
-- Buscar estudios con pravastatina en pacientes con hipercolesterolemia familiar homocigota, estratificados por actividad residual del LDLR.
-- Contrastar con las terapias ya establecidas para esta forma (por ejemplo, inhibidores de PCSK9 como alirocumab) para valorar si aportaría algo.
-- Nota: en este mismo paquete, otras dos predicciones tienen evidencia más sólida y nivel L2 con recomendación *Proceed with Guardrails*: la dislipidemia asociada al VIH (con ensayos y ECA con pravastatina) y la hipercolesterolemia familiar heterocigota. Conviene evaluarlas por separado.
+- Evidencia clínica directa de pravastatina en hipercolesterolemia familiar homocigota (series de casos o estudios controlados).
+- Datos del mecanismo de acción y análisis de la respuesta según la actividad residual del receptor de LDL.
+- Advertencias y contraindicaciones oficiales del prospecto de la AEMPS.
+- Como alternativas con mejor respaldo en los datos compilados, valorar las otras indicaciones predichas, como la hipercolesterolemia familiar heterocigota o la dislipidemia asociada al VIH. Para esta última hay ensayos con pravastatina y datos de interacciones con antirretrovirales.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

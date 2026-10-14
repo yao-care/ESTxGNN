@@ -2,7 +2,7 @@
 layout: default
 title: Miglitol
 parent: Solo predicción del modelo (L5)
-nav_order: 355
+nav_order: 528
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,99 +29,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Miglitol: De Diabetes Tipo 2 a Síndrome de la Extremidad Rígida Focal
+# Miglitol: De Diabetes Mellitus Tipo 2 a Síndrome de Extremidad Rígida Focal
 
 ## Resumen en Una Frase
 
-Miglitol es un inhibidor de la alfa-glucosidasa intestinal, comercializado en España como PLUMAROL para la diabetes tipo 2. El modelo TxGNN predice que podría ser efectivo para el **síndrome de la extremidad rígida focal**, pero **no existe ningún ensayo clínico ni publicación** que respalde esta predicción. Entre las 10 predicciones, la única con literatura es la **diabetes mellitus tipo 1** (16 publicaciones, ningún ensayo registrado), que se detalla más abajo.
-
----
+Miglitol es un fármaco antidiabético oral, originalmente utilizado para el tratamiento de la diabetes mellitus tipo 2.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de extremidad rígida focal**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes tipo 2 (según el racional del Evidence Pack; los textos de indicación de las autorizaciones AEMPS vienen vacíos) |
-| Nueva Indicación Predicha | Síndrome de la extremidad rígida focal |
-| Puntaje de Predicción TxGNN | 99,87 % |
+| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Síndrome de extremidad rígida focal |
+| Puntaje de Predicción TxGNN | 99.87% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en el Evidence Pack. Según la información conocida, miglitol inhibe la alfa-glucosidasa del intestino, lo que retrasa la digestión de los carbohidratos y reduce los picos de glucosa después de las comidas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, miglitol es un inhibidor de las alfa-glucosidasas intestinales. Retrasa la digestión y absorción de los carbohidratos y reduce los picos de glucosa posprandial. Su eficacia en la diabetes tipo 2 es conocida.
 
-Para esta predicción concreta, **no se identifica un vínculo mecanístico plausible**. El síndrome de la extremidad rígida focal es un trastorno de hiperexcitabilidad del sistema nervioso central y la médula espinal, sin relación con la digestión de carbohidratos. La puntuación alta de TxGNN (99,87 %) es una predicción basada en el grafo de conocimiento, sin respaldo de ensayos ni de literatura.
+El síndrome de extremidad rígida focal es un trastorno neurológico de origen probablemente autoinmune, perteneciente al espectro del síndrome de la persona rígida. Se relaciona con una disfunción GABAérgica y con anticuerpos anti-GAD. **No se ha identificado un vínculo mecanístico plausible** entre la inhibición de las alfa-glucosidasas intestinales y esta enfermedad.
 
-La segunda predicción (síndrome de la persona rígida clásico) tampoco tiene vínculo mecanístico. Suele ser autoinmune por GAD65 y coexistir con la diabetes tipo 1, pero esa autoinmunidad compartida no implica que miglitol trate el síndrome neurológico.
-
----
+La puntuación alta del modelo parece reflejar una asociación basada en el grafo, probablemente por vecinos compartidos de diabetes y autoinmunidad, y no una justificación farmacológica. En otras palabras, la predicción debe considerarse un artefacto computacional hasta que haya evidencia independiente.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para el síndrome de la extremidad rígida focal.
-
-### Nota: candidato con evidencia (rank 10, diabetes mellitus tipo 1)
-
-La única predicción con literatura es la diabetes mellitus tipo 1 (TxGNN 99,60 %, nivel L3, etapa S1, "Research Question"). Se encontraron 16 publicaciones, de las que se listan las 10 más relevantes. **Los diseños de los estudios se infieren de los títulos, porque no se dispone de los resúmenes completos.** No hay ensayos clínicos registrados.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [21869539](https://pubmed.ncbi.nlm.nih.gov/21869539/) | 2011 | Estudio clínico | Endocrine Journal | 11 pacientes con DM1 en insulinoterapia intensiva recibieron miglitol (25 mg y luego 50 mg, 3 veces al día); se analizaron dosis de insulina, peso, hipoglucemia y respuesta de incretinas |
-| [24843410](https://pubmed.ncbi.nlm.nih.gov/24843410/) | 2010 | Estudio clínico | J Diabetes Investig | Terapia combinada de miglitol e insulina en DM1; se plantea beneficio ante el aumento posprandial de glucosa no controlado con insulina intensiva |
-| [2060451](https://pubmed.ncbi.nlm.nih.gov/2060451/) | 1991 | Estudio clínico | Diabetes Care | Efecto de la inhibición de alfa-glucosidasa sobre la tolerancia a la glucosa y el momento de administración de insulina |
-| [2180090](https://pubmed.ncbi.nlm.nih.gov/2180090/) | 1990 | Estudio clínico | S Afr Med J | 11 pacientes; miglitol 50 mg redujo de forma significativa el incremento posprandial de glucosa frente a placebo |
-| [2663321](https://pubmed.ncbi.nlm.nih.gov/2663321/) | 1989 | Estudio simple ciego | Diabetes Res | 13 pacientes; miglitol redujo significativamente el área bajo la curva de glucosa frente a placebo, sin reducir la glucosa en ayunas |
-| [3311550](https://pubmed.ncbi.nlm.nih.gov/3311550/) | 1987 | Estudio clínico | Clin Pharmacol Ther | Bay-m-1099 (miglitol) redujo los requerimientos de insulina con las comidas en 9 pacientes con DM insulinodependiente |
-| [3130257](https://pubmed.ncbi.nlm.nih.gov/3130257/) | 1988 | Estudio clínico | Eur J Clin Invest | Administración prolongada de dos inhibidores de alfa-glucosidasa en 17 pacientes insulinodependientes |
-| [8261749](https://pubmed.ncbi.nlm.nih.gov/8261749/) | 1993 | Revisión | Diabetic Medicine | Inhibición de alfa-glucosidasa como coadyuvante en el tratamiento de la DM1 |
-| [12073790](https://pubmed.ncbi.nlm.nih.gov/12073790/) | 2002 | Revisión | Rev Med Liege | Abordajes farmacológicos de la hiperglucemia posprandial, incluidos acarbosa y miglitol |
-| [11460577](https://pubmed.ncbi.nlm.nih.gov/11460577/) | 2001 | Revisión | Exp Clin Endocrinol Diabetes | Antidiabéticos orales (secretagogos, inhibidores de alfa-glucosidasa y sensibilizadores), centrada en la DM2 |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 62701 | PLUMAROL 50 mg COMPRIMIDOS | Comprimido | Lacer S.A. |
-| 62702 | PLUMAROL 100 mg COMPRIMIDOS | Comprimido | Lacer S.A. |
+| 62701 | PLUMAROL 50 mg COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
+| 62702 | PLUMAROL 100 mg COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
 
----
+Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Lacer S.A.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no según el prospecto)**: enfermedad renal, piouréter, enfermedad inflamatoria intestinal, colitis ulcerosa, enfermedades infecciosas, hipoglucemia y lesiones.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones. Entre las 20 revisadas, la mayoría son de nivel moderado:
+  - Simpaticomiméticos y broncodilatadores: fenilefrina, pseudoefedrina, epinefrina, formoterol, salbutamol.
+  - Corticosteroides: hidrocortisona, triamcinolona.
+  - Estrógenos: etinilestradiol, estradiol.
+  - Otros: acetazolamida, hidroclorotiazida, etanol, alpelisib, aripiprazol, asenapina, asparaginasa.
+  - De nivel menor: ranitidina y corticosteroides tópicos (hidrocortisona, alclometasona).
+- Como contexto general de la clase, los inhibidores de alfa-glucosidasas pueden causar efectos adversos gastrointestinales. Si hay hipoglucemia durante el tratamiento, debe usarse glucosa oral y no sacarosa.
 
-Para un eventual uso en DM1 con insulina, la hipoglucemia debe tratarse con glucosa y no con sacarosa, porque miglitol retrasa la digestión de la sacarosa.
-
----
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- Las 9 primeras predicciones, incluida la principal (síndrome de la extremidad rígida focal), son de nivel L5: no tienen vínculo mecanístico plausible ni ensayos ni literatura.
-- La DM1 (rank 10) es biológicamente plausible solo como **coadyuvante** de la insulina, no como tratamiento modificador de la enfermedad. Su evidencia (nivel L3) proviene de estudios pequeños y antiguos (1987-2011).
+La predicción para el síndrome de extremidad rígida focal no cuenta con ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible con la acción de miglitol sobre las alfa-glucosidasas intestinales. La puntuación alta del modelo parece deberse a la proximidad en el grafo (diabetes y autoinmunidad), no a evidencia farmacológica.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad S1.
-- Completar el mecanismo de acción y las indicaciones originales desde DrugBank.
-- Para la DM1: confirmar los diseños de estudio y los tamaños de efecto leyendo los textos completos, y revisar el manejo de la hipoglucemia.
-- Repriorizar el análisis hacia la DM1, ya que las demás predicciones (síndrome de la persona rígida, lipodistrofias, opsismodisplasia, agenesia pancreática, síndrome sensible a tiamina) no tienen respaldo clínico. La agenesia pancreática y el síndrome sensible a tiamina solo tendrían un vínculo indirecto vía glucemia posprandial, sin datos.
-
-Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.
+- Una hipótesis mecanística plausible, respaldada por estudios preclínicos o de mecanismo, que conecte miglitol con la fisiopatología del síndrome de extremidad rígida focal.
+- Datos oficiales de advertencias y contraindicaciones del prospecto de la AEMPS, y datos detallados del mecanismo de acción.
+- Revisión de otras indicaciones predichas con mayor respaldo. Por ejemplo, la **diabetes mellitus tipo 1** (puntaje TxGNN 99.60%) cuenta con un ensayo de Fase 3 completado (NCT00213109, diseño abierto y sin inscripción reportada) y varios estudios clínicos publicados entre 1987 y 2011. Estos indican un beneficio adjunto a la insulina, aunque modesto, y no un mecanismo nuevo. Esa indicación podría evaluarse por separado, verificando antes los resultados del ensayo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

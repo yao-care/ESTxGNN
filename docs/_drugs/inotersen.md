@@ -2,7 +2,7 @@
 layout: default
 title: Inotersen
 parent: Evidencia moderada (L3-L4)
-nav_order: 280
+nav_order: 416
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Inotersen: De Polineuropatía por Amiloidosis Hereditaria por Transtiretina (hATTR) a Porfiria Aguda Intermitente
+# Inotersen: De Indicación Original No Especificada a Porfiria Aguda Intermitente
 
 ## Resumen en Una Frase
 
-Inotersen es un oligonucleótido antisentido que reduce la producción hepática de transtiretina (TTR). La literatura recuperada lo sitúa en el tratamiento de la amiloidosis hereditaria por transtiretina (hATTR). El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermitente**, pero por ahora solo hay **0 ensayos clínicos** y **1 publicación** (una revisión general) que lo mencionan, sin respaldo mecanístico directo.
+Inotersen es un oligonucleótido antisentido que reduce la producción de transtiretina (TTR). En los datos compilados para este informe no consta el texto de la indicación aprobada en España.
+El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermitente**, pero no hay ensayos clínicos registrados y solo hay **1 publicación** (una revisión general) que ofrece un apoyo indirecto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en los datos de AEMPS (el texto de indicación está vacío). Según la literatura: hATTR |
-| Nueva Indicación Predicha | Porfiria aguda intermitente (PAI) |
+| Indicación Original | No disponible en los datos de la autorización de AEMPS |
+| Nueva Indicación Predicha | Porfiria aguda intermitente |
 | Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -49,11 +50,11 @@ Inotersen es un oligonucleótido antisentido que reduce la producción hepática
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, inotersen es un oligonucleótido antisentido dirigido al hígado que disminuye la producción de TTR. Su uso en hATTR se apoya en la literatura recuperada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, inotersen es un oligonucleótido antisentido 2'-O-metoxietilo que se dirige al ARNm de la transtiretina (TTR), expresada principalmente en el hígado. Su efecto es disminuir la producción de la proteína TTR.
 
-La relación con la porfiria aguda intermitente es débil. La PAI se debe a una producción excesiva de ALAS1 en el hígado, secundaria a un defecto en la enzima PBGD (gen *HMBS*). La TTR no forma parte de esa vía. Los únicos vínculos plausibles son de clase: ambas enfermedades se tratan con terapias oligonucleotídicas dirigidas al hígado y ambas cursan con neuropatía periférica.
+La porfiria aguda intermitente es un trastorno hepático en el que la biosíntesis del grupo hemo está desregulada y puede causar neuropatía. Existen terapias dirigidas al ARN para esta enfermedad (por ejemplo, givosirán, un ARNip contra ALAS1), por lo que el silenciamiento génico hepático tiene una justificación conceptual.
 
-El puntaje TxGNN es muy alto, pero no está respaldado por una justificación a nivel de vía. El agente mecanísticamente relevante para la PAI es givosirán, un ARNip contra ALAS1. Las otras 9 predicciones del modelo (apendicitis, paquimeningitis y otras entidades relacionadas con IgG4, meningitis, peritonitis) tienen nivel L5 y ninguna evidencia clínica ni de literatura. Todas quedan en Hold.
+Sin embargo, la diana de inotersen (TTR) no está vinculada mecanísticamente con la vía de las porfirinas. La única publicación disponible es una revisión general sobre trastornos neuromusculares genéticos y sus terapias, que aporta apoyo indirecto a nivel de clase. El puntaje alto de TxGNN probablemente refleja características de red compartidas (neuropatía y terapias con oligonucleótidos) más que un vínculo biológico directo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,33 +64,41 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [30847674](https://pubmed.ncbi.nlm.nih.gov/30847674/) | 2019 | Revisión | Neurological Sciences | Revisión general de terapias nuevas y ya aprobadas para neuropatías periféricas genéticas, con énfasis en hATTR. El resumen disponible no evalúa el uso en porfiria aguda intermitente |
+| [30847674](https://pubmed.ncbi.nlm.nih.gov/30847674/) | 2019 | Revisión | Neurological Sciences | Revisión de terapias nuevas y ya disponibles para trastornos neuromusculares genéticos, en particular neuropatías periféricas como la amiloidosis hereditaria por transtiretina (hATTR). No aborda directamente la porfiria aguda intermitente. |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1181296002 | TEGSEDI 284 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA (Akcea Therapeutics Ireland Limited) | Solución inyectable en jeringa precargada | No especificada en los datos disponibles |
+| 1181296002 | TEGSEDI 284 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Solución inyectable en jeringa precargada | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Advertencias del análisis de predicciones**: inotersen tiene eventos adversos inmunomediados conocidos (glomerulonefritis, trombocitopenia), lo que aconseja cautela en enfermedades de base inmunitaria.
-- **Interacciones farmacológicas**: no se encontraron registros en la consulta realizada.
+- **Contraindicaciones según el grafo de conocimiento (no proviene del prospecto)**: trombocitopenia y glomerulonefritis.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones registradas. Entre las principales, de nivel **Mayor**:
+  - Anfotericina B (incluidas las formulaciones lipídicas, de sulfato de colesterilo y liposomal)
+  - Aminoglucósidos: kanamicina, neomicina, estreptomicina
+  - Polimixina B y vancomicina
+  - Antiinflamatorios y salicilatos: ácido acetilsalicílico, mesalazina, balsalazida, olsalazina, sulfasalazina
+  - Ácido iotalámico
 
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
+  De nivel **Moderado**: dexfenfluramina, fenfluramina, exenatida, naltrexona y sibutramina.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para porfiria aguda intermitente se basa solo en el modelo, sin ensayos clínicos, con una única revisión general y sin vínculo mecanístico entre la TTR y la vía de la PAI. Existe además una alternativa mecanísticamente adecuada (givosirán).
+La predicción tiene un puntaje alto en TxGNN, pero carece de ensayos clínicos y de un vínculo mecanístico directo entre la diana (TTR) y la vía del hemo. La única publicación es una revisión general con apoyo indirecto. Además, el perfil de riesgo (trombocitopenia y glomerulonefritis) exige cautela. Por ahora debe tratarse como una pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS para completar advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
-- Confirmar el mecanismo de acción y la indicación original consultando DrugBank.
-- Justificar a nivel de vía por qué la reducción de TTR podría influir en la PAI, o descartar la hipótesis.
-- Buscar estudios preclínicos o clínicos específicos en PAI antes de reconsiderar la decisión.
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación aprobada).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Estudios preclínicos que evalúen si la reducción de TTR influye en la vía del hemo o en la neuropatía de la porfiria.
+- Comparar con terapias ya establecidas, como givosirán.
+- Evaluar la relación beneficio-riesgo, dado el riesgo de trombocitopenia y glomerulonefritis.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

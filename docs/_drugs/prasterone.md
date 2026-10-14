@@ -1,0 +1,99 @@
+---
+layout: default
+title: Prasterone
+parent: Solo predicción del modelo (L5)
+nav_order: 654
+evidence_level: L5
+indication_count: 10
+---
+
+# Prasterone
+{: .fs-9 }
+
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+{: .fs-6 .fw-300 }
+
+---
+
+## Índice
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## Informe de evaluación farmacéutica
+
+</div>
+
+# Prasterona: De Dispareunia Psicológica a Deficiencia del Cofactor 2 de la Heparina
+
+## Resumen en Una Frase
+
+Prasterona (DHEA) es un precursor de andrógenos y estrógenos, utilizado originalmente en dispareunia (dolor durante las relaciones sexuales) y con indicaciones asociadas en lupus eritematoso sistémico según el grafo de conocimiento.
+El modelo TxGNN predice que podría ser efectivo para **deficiencia del cofactor 2 de la heparina**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata de una predicción puramente basada en el modelo.
+
+## Resumen Rápido
+
+| Item | Contenido |
+|------|------|
+| Indicación Original | Dispareunia (según el grafo de conocimiento: lupus eritematoso sistémico, lupus eritematoso sistémico pediátrico y dispareunia psicológica; el texto de indicación autorizado no está disponible) |
+| Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina |
+| Puntaje de Predicción TxGNN | 99,99% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
+
+## ¿Por qué es Razonable esta Predicción?
+
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la prasterona es un precursor hormonal (DHEA) que se convierte localmente en andrógenos y estrógenos. Su eficacia se ha establecido en la atrofia vulvovaginal con dispareunia, y se ha estudiado por sus propiedades inmunomoduladoras en el lupus.
+
+Para la deficiencia del cofactor 2 de la heparina (SERPIND1), **no se ha identificado un vínculo mecanístico establecido**. La puntuación del modelo es muy alta (0,9999), pero es solo una predicción basada en proximidad dentro del grafo. Cualquier relación sería especulativa, por ejemplo, mediante una modulación hormonal de la síntesis hepática de proteínas de coagulación.
+
+Conviene señalar que el resto de las predicciones principales corresponden también a trastornos de la coagulación (factor V, antitrombina, trombofilia, deficiencia de proteína S, etc.) y carecen igualmente de respaldo clínico. La única predicción con una justificación biológica algo más plausible es la **esclerodermia** (posición 7, puntuación 99,11%), por su cercanía con el lupus y las propiedades inmunomoduladoras de la DHEA; requeriría una búsqueda bibliográfica específica antes de avanzar.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en España
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1171255001 | INTRAROSA 6,5 MG ÓVULOS | Óvulo | No disponible en los datos compilados |
+
+## Consideraciones de Seguridad
+
+- **Interacciones Farmacológicas / Farmacología**: se registró una interacción de tipo farmacológico con el receptor de glicina (todos los subtipos), en la que la deshidroepiandrosterona actúa como ligando (metabolito). No se dispone de un nivel de gravedad clínica asociado.
+- **Consideración teórica**: en las predicciones de trastornos protrombóticos (p. ej., exceso de factor V con trombosis espontánea, trombofilia), los precursores de esteroides sexuales exógenos podrían afectar teóricamente al equilibrio de la coagulación. Esto constituye una preocupación potencial de seguridad, no una justificación terapéutica.
+
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un mecanismo plausible; además, el efecto de los esteroides sexuales sobre la coagulación podría ser incluso adverso.
+
+**Para avanzar se necesita:**
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente un vacío bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción (p. ej., consultando DrugBank).
+- Realizar una búsqueda bibliográfica dirigida, priorizando la esclerodermia como hipótesis más plausible desde el punto de vista biológico.
+- Evaluar la compatibilidad de la vía de administración (actualmente solo óvulo vaginal) con la nueva indicación.
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
+---
+

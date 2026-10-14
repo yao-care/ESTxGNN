@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: Solo predicción del modelo (L5)
-nav_order: 312
+nav_order: 462
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,80 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Letermovir: De Infección por Citomegalovirus (CMV) a Candidiasis Vulvovaginal
+# Letermovir: De Infección por Citomegalovirus a Candidiasis Vulvovaginal
 
 ## Resumen en Una Frase
 
-Letermovir es un antiviral comercializado en España como Prevymis, utilizado frente al citomegalovirus (CMV). El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal** con una puntuación muy alta (99,88 %), pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
-
----
+Letermovir es un antiviral originalmente utilizado para la infección por citomegalovirus (CMV).
+El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Antiviral frente a CMV (el texto de indicación no figura en los registros de AEMPS recibidos) |
+| Indicación Original | Infección por citomegalovirus |
 | Nueva Indicación Predicha | Candidiasis vulvovaginal |
-| Puntaje de Predicción TxGNN | 99,88 % |
+| Puntaje de Predicción TxGNN | 99,88% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, letermovir es un antiviral que inhibe el complejo terminasa viral (pUL56) del CMV. Es una diana específica del virus.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en las fuentes compiladas. No obstante, según el conocimiento farmacológico general, letermovir inhibe el complejo terminasa del CMV humano (pUL56/pUL51/pUL89), una diana esencial para el empaquetamiento del ADN viral.
 
-Esa diana no tiene un homólogo conocido en *Candida*, un hongo. Por eso no se identifica una relación mecanística plausible entre la indicación original (una infección viral) y la nueva (una infección fúngica). Tampoco hay una vía o mecanismo declarado que explique la puntuación del modelo.
+**En este caso no se identifica un vínculo mecanístico creíble.** La candidiasis vulvovaginal está causada por especies de *Candida* (principalmente *C. albicans*), hongos eucariotas que carecen de un equivalente de la terminasa viral. Por tanto, no cabe esperar que el mecanismo antiviral de letermovir actúe sobre ellos. Tampoco existen datos antifúngicos in vitro ni observaciones clínicas que apoyen la hipótesis.
 
-La alta puntuación de TxGNN (posición 2753) parece más bien un artefacto del grafo de conocimiento que una predicción con fundamento biológico. Debe validarse de forma independiente, por ejemplo con pruebas de sensibilidad *in vitro* frente a *Candida*, antes de cualquier interpretación clínica.
-
----
+La puntuación tan elevada del modelo (0,9988) debe interpretarse con cautela: podría reflejar artefactos del grafo de conocimiento, como conexiones compartidas a través de nodos de interacciones farmacológicas o de CYP (por ejemplo, interacciones con antifúngicos azólicos), y no una relevancia terapéutica real.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1171245001 | PREVYMIS 240 MG comprimidos recubiertos con película | Comprimido recubierto con película | Merck Sharp & Dohme B.V. |
-| 1171245002 | PREVYMIS 480 MG comprimidos recubiertos con película | Comprimido recubierto con película | Merck Sharp & Dohme B.V. |
-| 1171245003 | PREVYMIS 240 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | Merck Sharp & Dohme B.V. |
-| 1171245004 | PREVYMIS 480 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | Merck Sharp & Dohme B.V. |
+| 1171245002 | PREVYMIS 480 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 1171245003 | PREVYMIS 240 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
+| 1171245001 | PREVYMIS 240 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 1171245004 | PREVYMIS 480 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
 
----
+Todas las autorizaciones están vigentes y pertenecen a Merck Sharp & Dohme B.V.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las mostradas, destacan las de nivel **mayor** con:
+  - Eliglustat
+  - Naloxegol
+  - Cisapride
 
----
+  También se registraron interacciones de nivel **moderado** con, entre otros:
+  - Corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona)
+  - Antidiabéticos (pioglitazona, glimepirida, saxagliptina, clorpropamida, acetohexamida)
+  - Inhibidores de la bomba de protones (omeprazol, lansoprazol)
+  - Claritromicina
+  - Aprepitant
+  - Naldemedina
+  - Nitisinona
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no hay un vínculo mecanístico plausible entre un inhibidor de la terminasa viral del CMV y la candidiasis. Con estos datos no hay base para avanzar.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible entre un inhibidor de la terminasa viral y un patógeno fúngico. La puntuación alta probablemente sea un artefacto del grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- Pruebas de sensibilidad *in vitro* de letermovir frente a especies de *Candida*
-- Datos detallados del mecanismo de acción (MOA), por ejemplo desde DrugBank
-- Descarga y análisis del prospecto de AEMPS para completar advertencias y contraindicaciones
-- Revisión de por qué el grafo de conocimiento asocia este fármaco con la candidiasis vulvovaginal
-- Evaluación de la compatibilidad de vías de administración, ya que las presentaciones actuales son oral e intravenosa
+- Datos de actividad antifúngica in vitro de letermovir frente a *Candida* spp.
+- Datos detallados del mecanismo de acción (MOA)
+- Revisión del prospecto de la AEMPS para advertencias y contraindicaciones
+- Análisis de los nodos del grafo que originan la puntuación para descartar artefactos
+- Evaluación de la compatibilidad de vías de administración (las formas actuales son oral e intravenosa, no tópica/vaginal)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Deferasirox
 parent: Evidencia moderada (L3-L4)
-nav_order: 162
+nav_order: 229
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Deferasirox: De Quelante de Hierro (Sobrecarga de Hierro) a Infección por VIH
+# Deferasirox: De Betatalasemia y Hemoglobinopatías a Infección por VIH
 
 ## Resumen en Una Frase
 
-Deferasirox es un quelante de hierro comercializado en España en varias presentaciones genéricas. Los datos de AEMPS recibidos no incluyen el texto de su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero solo hay **0 ensayos clínicos** y **2 publicaciones**, ninguna con datos clínicos en VIH.
-Además, la evidencia preclínica disponible sugiere que la quelación de hierro podría ser contraproducente.
+Deferasirox es un quelante de hierro utilizado originalmente en enfermedades hematológicas asociadas a la betatalasemia y otras hemoglobinopatías.
+El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero actualmente no hay **ningún ensayo clínico** y solo **2 publicaciones** (una revisión general del fármaco y un estudio preclínico) que lo respaldan de forma indirecta.
 
 ---
 
@@ -43,9 +42,9 @@ Además, la evidencia preclínica disponible sugiere que la quelación de hierro
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS recibidos (los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | Betatalasemia y hemoglobinopatías (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99,40 % |
+| Puntaje de Predicción TxGNN | 99,40% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -55,11 +54,11 @@ Además, la evidencia preclínica disponible sugiere que la quelación de hierro
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, deferasirox se utiliza como quelante de hierro (tratamiento de la sobrecarga de hierro, por ejemplo en talasemia). Esta clasificación proviene del contexto de la literatura recuperada y no de un texto de indicación aprobado en los datos recibidos. Su relación mecanística con el VIH es solo indirecta.
+Deferasirox es un quelante de hierro. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, su función como quelante de hierro ha sido comprobada en la sobrecarga de hierro asociada a la betatalasemia, y mecanísticamente podría ser aplicable a procesos en los que la homeostasis del hierro influya en la biología de una infección.
 
-La única pista mecanística proviene de un estudio preclínico (PMID 34550543). Según ese estudio, el hierro en los endolisosomas **restringe** la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina. Si esto es correcto, quelar hierro con deferasirox podría debilitar esa restricción natural y favorecer la replicación viral. La dirección del efecto es, por tanto, incierta o incluso adversa.
+La única pista mecanística proviene de un estudio preclínico (PMID 34550543, 2021). Este describe que el hierro endolisosomal restringe la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina. Esto sugiere que el hierro puede modular la transcripción del VIH-1.
 
-El puntaje TxGNN es muy alto (99,40 %), pero es una predicción del modelo basada en el grafo de conocimiento. No está respaldada por datos clínicos.
+Conviene ser prudente: se trata de evidencia indirecta y preclínica, y no está establecido en qué dirección actuaría la quelación del hierro (podría incluso ser desfavorable). La otra publicación (PMID 16529348) es una reseña general de nuevos fármacos sin datos específicos sobre VIH. El puntaje alto de TxGNN es solo una predicción computacional.
 
 ---
 
@@ -73,30 +72,31 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclínico / mecanístico in vitro | J Neurovirol | El hierro endolisosomal restringe la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina. |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Revisión (resumen de nuevos fármacos) | J Am Pharm Assoc | Resumen general de nuevos fármacos, incluido deferasirox. No es específico de VIH. |
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclínico/Mecanístico | Journal of Neurovirology | El hierro endolisosomal restringe la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Revisión | Journal of the American Pharmacists Association | Reseña general de nuevos fármacos (ramelteón, tipranavir, nepafenac y deferasirox); sin evidencia específica sobre VIH |
 
 ---
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones. Los datos recibidos no incluyen el texto de indicación aprobada.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único). Los textos de indicación aprobada no figuran en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 84909 | Deferasirox Stada 180 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
-| 86261 | Deferasirox Aurovitas 90 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aurovitas Spain, S.A.U. |
-| 86337 | Deferasirox Alembic 360 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Alembic Pharmaceuticals Europe Limited |
-| 89130 | Deferasirox Sun 360 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Sun Pharmaceutical Industries (Europe) B.V. |
-| 1191412002 | Deferasirox Accord 90 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Accord Healthcare S.L.U. |
-
-También existe la forma de comprimido dispersable entre las presentaciones registradas.
+| 06356001 | Exjade 125 mg comprimidos dispersables | Comprimido dispersable | No disponible |
+| 106356011 | Exjade 90 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 84909 | Deferasirox Stada 180 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 86261 | Deferasirox Aurovitas 90 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 89130 | Deferasirox Sun 360 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): insuficiencia hepática, enfermedad renal y función renal alterada, cirrosis, hiperbilirrubinemia y síndrome de Gilbert, trombocitopenia, neutropenia (incluidas las formas congénitas) y agranulocitosis, anemia, enfermedad de la vesícula biliar, hipertensión ocular, úlcera péptica activa, síndrome de disfunción multiorgánica y cáncer.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones; entre las de nivel **Mayor** figuran hidrocortisona, dexametasona, betametasona, triamcinolona, ácido acetilsalicílico, mesalazina, balsalazida y las formulaciones de anfotericina B. Entre las de nivel **Moderado** figuran rabeprazol, pioglitazona, alosetrón, aprepitant, claritromicina, saxagliptina, hidróxido de aluminio, cisaprida y dexfenfluramina.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -105,19 +105,14 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la única evidencia es un estudio preclínico cuyo sentido apunta a un posible efecto adverso de la quelación de hierro sobre el VIH. El puntaje TxGNN por sí solo no basta para avanzar.
+La predicción se apoya solo en el modelo TxGNN y en un estudio preclínico indirecto cuya dirección de efecto es incierta. No hay ensayos clínicos, por lo que la hipótesis es, por ahora, una pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS para confirmar la indicación original, las advertencias y las contraindicaciones (actualmente falta información de seguridad).
-- Obtener los datos del mecanismo de acción desde DrugBank.
-- Realizar estudios in vitro de deferasirox en modelos de replicación del VIH para aclarar si el efecto es beneficioso o perjudicial.
-- Solo si esos estudios son favorables, evaluar estudios clínicos exploratorios con monitorización de carga viral.
-
-**Otras predicciones del modelo (para referencia):**
-- **Hepatitis C crónica:** L4, "Research Question". El vínculo es indirecto, a través de la sobrecarga de hierro. Cualquier beneficio vendría de tratar la sobrecarga de hierro comórbida, no de una acción antiviral.
-- **Trastorno del neurodesarrollo con marcha atáxica, dermatofibrosarcoma protuberans e hiperlipidemia familiar combinada (término obsoleto):** L5, "Hold". No hay ensayos ni literatura. El término de hiperlipidemia debe actualizarse en la ontología antes de evaluarlo.
-
-*Estos resultados son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Estudios in vitro y en modelos animales que evalúen directamente el efecto de deferasirox sobre la replicación del VIH.
+- Datos del mecanismo de acción y clarificación de si la quelación del hierro favorece o perjudica la replicación viral.
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), dado que el perfil renal, hepático y hematológico exige especial atención en personas con VIH.
+- Evaluación de interacciones con los antirretrovirales.
+- Revisión de las demás indicaciones predichas (hepatitis C crónica, etc.), todas con nivel L5, si se desea ampliar el análisis.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

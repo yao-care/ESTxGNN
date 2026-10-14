@@ -2,7 +2,7 @@
 layout: default
 title: Caplacizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 99
+nav_order: 139
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Caplacizumab: De Púrpura Trombocítica Trombótica Adquirida a Trastorno Primario de Liberación Plaquetaria
+# Caplacizumab: De Púrpura Trombocitopénica a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Caplacizumab es un nanobody anti-factor von Willebrand (vWF) comercializado en España como Cablivi. Por el contexto del caso (ver la nota más abajo), su uso original es la púrpura trombocitopénica trombótica adquirida (PTTa).
-El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
-
-> Nota: el campo de indicaciones originales del Evidence Pack está vacío y la ficha de AEMPS no incluye texto de indicación. La PTTa se toma de la justificación de reposicionamiento de la predicción n.º 5, que la identifica como la indicación comercializada.
+Caplacizumab es un nanocuerpo anti-factor von Willebrand (vWF), originalmente utilizado para el tratamiento de la púrpura trombocitopénica (púrpura trombocitopénica trombótica adquirida).
+El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, y el análisis mecanístico sugiere que la predicción probablemente sea un artefacto del grafo de conocimiento.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Púrpura trombocitopénica |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
-| Puntaje de Predicción TxGNN | 99,9998% |
+| Puntaje de Predicción TxGNN | 99.9998% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
@@ -51,43 +50,61 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno primario de li
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, caplacizumab se une al dominio A1 del vWF y bloquea su interacción con el receptor plaquetario GPIb-IX-V. Con ello evita la adhesión plaquetaria y la formación de microtrombos, y por eso es eficaz en la PTTa.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, caplacizumab es un nanocuerpo humanizado dirigido al dominio A1 del vWF, que bloquea la interacción entre el vWF y el receptor plaquetario GPIb-IX-V, evitando la adhesión plaquetaria y la microtrombosis.
 
-**En este caso la predicción no parece razonable.** En el trastorno primario de liberación plaquetaria, el defecto está en la secreción de gránulos, un paso posterior a la adhesión. Bloquear la adhesión mediada por vWF no aporta un beneficio plausible. Además, inhibir aún más la función plaquetaria aumentaría el riesgo de sangrado.
+En la púrpura trombocitopénica trombótica (PTT), la deficiencia grave de ADAMTS13 deja multímeros ultragrandes de vWF que se unen a las plaquetas. Caplacizumab interrumpe este proceso, por lo que su eficacia en la indicación original está bien establecida.
 
-Lo más probable es que el puntaje alto de TxGNN refleje la cercanía entre nodos en la ontología de trastornos plaquetarios y no una base terapéutica real. Ninguna de las otras predicciones de sangrado o de función plaquetaria (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, hemofilia, entre otras) tiene sustento mecanístico. En todas, el bloqueo de vWF-GPIb empeoraría el sangrado.
+Sin embargo, en los trastornos de liberación plaquetaria el defecto es intrínseco a la secreción plaquetaria y no depende de la unión vWF-A1. Bloquear la adhesión plaquetaria previsiblemente empeoraría, no mejoraría, la tendencia hemorrágica. El puntaje elevado de TxGNN probablemente refleja proximidad en el grafo y no una relación mecanística real.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para el trastorno primario de liberación plaquetaria.
+
+*Nota:* para la púrpura trombocitopénica trombótica (indicación original, ya aprobada) sí existen ensayos clínicos que validan el uso autorizado, como HERCULES (NCT02553317, Fase 3, 145 pacientes) y TITAN (NCT01151423, Fase 2, 75 pacientes). No constituyen evidencia para la nueva indicación predicha.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para el trastorno primario de liberación plaquetaria.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1181305001 | CABLIVI 10 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE (Ablynx) | Polvo y disolvente para solución inyectable |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1181305001 | CABLIVI 10 MG POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE | Polvo y disolvente para solución inyectable | No disponible en el registro |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones registradas; entre las principales de nivel **Mayor** figuran:
+  - Ácido acetilsalicílico
+  - Fondaparinux
+  - Alteplasa
+  - Abciximab
+  - Anagrelida
+  - Acalabrutinib
+  - Deferasirox
+  - Trastuzumab emtansina
+  - Ibritumomab tiuxetán
+  - Tositumomab (con y sin I-131)
+
+  También hay interacciones de nivel **Moderado**, como ibuprofeno, celecoxib, ketorolaco (incluida la vía oftálmica), diclofenaco tópico, fluvoxamina, fenfluramina, dexfenfluramina y sibutramina. En general se trata de fármacos antitrombóticos, antiagregantes o que afectan la hemostasia, lo que sugiere un riesgo aditivo de sangrado.
+- **Riesgo mecanístico**: al inhibir la adhesión plaquetaria dependiente de vWF, en trastornos hemorrágicos plaquetarios se esperaría un aumento del riesgo de sangrado.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe evidencia clínica ni preclínica para esta indicación (L5) y el mecanismo apunta a un riesgo mayor de sangrado. El puntaje TxGNN por sí solo no basta para avanzar.
-
-**Nota sobre la PTTa:** la predicción n.º 5 (púrpura trombocitopénica trombótica) sí tiene respaldo sólido. Incluye 13 ensayos clínicos, entre ellos los Fase 3 HERCULES (NCT02553317) y NCT05468320, y 20 publicaciones. Su nivel de evidencia es L1 y su decisión es *Proceed with Guardrails*. Es la indicación ya comercializada, por lo que no constituye un reposicionamiento real.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura específica, y el mecanismo de acción de caplacizumab es contrario al necesario en un trastorno de la función plaquetaria, con riesgo de agravar la hemorragia.
 
 **Para avanzar se necesita:**
-- Completar el texto de indicación aprobada y la advertencias/contraindicaciones desde la ficha técnica de AEMPS.
-- Completar el mecanismo de acción desde DrugBank.
-- Dar prioridad a la predicción de PTTa, con vigilancia del riesgo de sangrado, monitorización de ADAMTS13 e inmunosupresión concomitante, según las guías ISTH 2020 y su actualización de 2025.
+- Datos de mecanismo de acción confirmados (p. ej., desde DrugBank)
+- Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS
+- Evidencia preclínica que justifique un beneficio en trastornos de liberación plaquetaria
+- Evaluación formal del riesgo hemorrágico antes de considerar cualquier estudio clínico
+
+*Observación adicional:* otras indicaciones predichas (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, hemofilia, entre otras) también carecen de evidencia y presentan preocupaciones de seguridad similares. La única con respaldo sólido es la púrpura trombocitopénica trombótica, que corresponde al uso ya autorizado y no a un reposicionamiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

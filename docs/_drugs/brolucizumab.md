@@ -2,7 +2,7 @@
 layout: default
 title: Brolucizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 83
+nav_order: 116
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,20 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Brolucizumab: De Anti-VEGF Intravítreo (indicación original no registrada) a Trastorno Mitocondrial de la Fosforilación Oxidativa por Anomalías del ADN Nuclear
+# Brolucizumab: De Degeneración Macular a Trastorno de la Fosforilación Oxidativa Mitocondrial por Anomalías del ADN Nuclear
 
 ## Resumen en Una Frase
 
-Brolucizumab es un fragmento de anticuerpo de cadena única anti-VEGF-A que se administra por vía intravítrea. Los datos recibidos no incluyen su indicación original aprobada.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno mitocondrial de la fosforilación oxidativa por anomalías del ADN nuclear**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Brolucizumab es un fragmento de anticuerpo humanizado de cadena sencilla (scFv) que inhibe el VEGF-A, utilizado originalmente para el tratamiento de la degeneración macular.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de la fosforilación oxidativa mitocondrial por anomalías del ADN nuclear**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Trastorno mitocondrial de la fosforilación oxidativa por anomalías del ADN nuclear |
+| Indicación Original | Degeneración macular (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
+| Nueva Indicación Predicha | Trastorno de la fosforilación oxidativa mitocondrial por anomalías del ADN nuclear |
 | Puntaje de Predicción TxGNN | 99.67% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -51,13 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se ha identificado un vínculo mecanístico plausible. Brolucizumab bloquea VEGF-A y se administra en el ojo. La inhibición de VEGF no tiene un papel conocido en los defectos de fosforilación oxidativa causados por el ADN nuclear. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, brolucizumab es un fragmento de anticuerpo scFv humanizado que inhibe el VEGF-A y se comercializa por vía intravítrea para la degeneración macular asociada a la edad de tipo neovascular.
 
-El puntaje alto (0.997) proviene solo de la predicción del grafo de conocimiento, sin ensayos ni literatura de apoyo. Por eso debe interpretarse como una señal computacional y no como evidencia de eficacia.
+No se encontró un vínculo mecanístico documentado entre la inhibición del VEGF-A y los trastornos de la fosforilación oxidativa causados por anomalías del ADN nuclear. Algunas enfermedades mitocondriales cursan con afectación retiniana, lo que podría explicar parcialmente la señal del modelo, pero no hay evidencia de que la terapia anti-VEGF modifique la enfermedad de base.
 
-Otras predicciones del modelo para este fármaco tampoco cuentan con evidencia (todas L5, decisión Hold):
-- **Várices esofágicas con sangrado y sin sangrado** (puntaje 99.12%): existe una lógica biológica indirecta, ya que la angiogénesis dependiente de VEGF contribuye a la hipertensión portal. Sin embargo, la vía intravítrea implica una exposición sistémica mínima, por lo que es poco probable que el fármaco llegue a la circulación esplácnica. Ambos nodos comparten el mismo puntaje, lo que sugiere que son nodos duplicados o hermanos y no señales independientes.
-- **Insuficiencia pancreática exocrina** (puntaje 99.07%): no hay vínculo mecanístico creíble, porque el bloqueo de VEGF-A no corrige la pérdida de secreción de enzimas digestivas.
+Además, la administración intravítrea implica una exposición sistémica mínima, lo que limita aún más la relevancia del fármaco en una enfermedad mitocondrial sistémica. El puntaje de 99.67% es una predicción basada en el grafo de conocimiento y debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,28 +69,29 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1191417 | BEOVU 120 MG/ML SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA (Novartis Europharm Limited) | Solución inyectable en jeringa precargada | No disponible en los datos |
+| 1191417 | BEOVU 120 mg/ml solución inyectable en jeringa precargada (Novartis Europharm Limited) | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): uveítis, enfermedad del iris, enfermedad del cuerpo ciliar, panuveítis, enfermedad infecciosa ocular y conjuntivitis.
 
-Como referencia, el análisis mecanístico señala que brolucizumab conlleva advertencias de inflamación intraocular y vasculitis retiniana. No se han consultado los datos oficiales de la AEMPS, y no se encontraron interacciones farmacológicas registradas.
+Para el resto de la información de seguridad (advertencias, contraindicaciones oficiales), consultar el prospecto. No se encontraron interacciones farmacológicas en los datos compilados.
+
+Nota adicional: las otras predicciones del modelo (varices esofágicas con y sin sangrado, insuficiencia pancreática exocrina) tampoco cuentan con ensayos ni literatura. En el caso de las varices con sangrado, los agentes anti-VEGF sistémicos conllevan riesgo hemorrágico y tromboembólico, lo que supone una preocupación de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones. Además, no hay un vínculo mecanístico plausible con la enfermedad mitocondrial, y falta información básica de seguridad e indicación.
+La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico documentado. La vía intravítrea con exposición sistémica mínima reduce además la plausibilidad de un efecto en una enfermedad mitocondrial sistémica.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto/ficha técnica de la AEMPS (advertencias, contraindicaciones e indicación aprobada), que hoy bloquea el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Evaluar la compatibilidad de la vía de administración (intravítrea) con el tejido diana de cada indicación predicha.
-- Buscar evidencia preclínica o clínica independiente antes de reconsiderar cualquier indicación.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Datos detallados del mecanismo de acción (por ejemplo, consulta a DrugBank)
+- Prospecto de AEMPS con advertencias y contraindicaciones oficiales, necesario antes de cualquier evaluación de seguridad
+- Evidencia preclínica que relacione la inhibición del VEGF-A con la fisiopatología mitocondrial de origen nuclear
+- Evaluación de la compatibilidad de la vía de administración con la nueva indicación
+- Revisión de la literatura y registros de ensayos para confirmar la ausencia de estudios
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

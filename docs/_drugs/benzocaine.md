@@ -2,7 +2,7 @@
 layout: default
 title: Benzocaine
 parent: Solo predicción del modelo (L5)
-nav_order: 70
+nav_order: 98
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,84 +29,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Benzocaína: De Anestesia Local Bucal a Conjuntivitis Papilar
+# Benzocaína: De Tiña del Pie a Conjuntivitis Papilar
 
 ## Resumen en Una Frase
 
-Benzocaína es un anestésico local tópico. En España está autorizada en formas de uso bucal y dental (solución para pulverización, gel bucal), aunque los datos recibidos no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
-
----
+La benzocaína es un anestésico local tópico de tipo éster, utilizado originalmente en afecciones como la tiña del pie, la dermatitis y la faringitis (según el grafo de conocimiento de TxGNN), y comercializado en España en forma de gel y solución bucal.
+El modelo TxGNN predice que podría ser efectiva para la **conjuntivitis papilar**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en las autorizaciones (por las formas farmacéuticas se infiere uso anestésico local en la cavidad bucal) |
+| Indicación Original | Tiña del pie (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Conjuntivitis papilar |
-| Puntaje de Predicción TxGNN | 99.38% |
+| Puntaje de Predicción TxGNN | 99,38% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 8 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la farmacología general (no según los datos aportados), la benzocaína es un anestésico local tipo éster que bloquea los canales de sodio dependientes de voltaje. Esto reduce la transmisión del dolor en la superficie donde se aplica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la benzocaína es un anestésico local tópico de tipo éster que bloquea los canales de sodio dependientes de voltaje, reduciendo la conducción nerviosa y la sensibilidad local. Su uso se ha asociado con el alivio sintomático de molestias en piel y mucosas.
 
-En teoría, ese efecto podría aliviar la molestia de la superficie ocular. Sin embargo, la conjuntivitis papilar suele deberse a causas alérgicas o mecánicas (lentes de contacto, prótesis oculares, suturas). Un anestésico local no actúa sobre esos procesos de fondo.
+Un vínculo mecanístico especulativo sería el alivio del picor o la molestia ocular. Sin embargo, la conjuntivitis papilar es principalmente una afección inflamatoria alérgica o mecánica (por ejemplo, asociada al uso de lentes de contacto), y un anestésico no actúa sobre su causa subyacente. La similitud con las indicaciones originales (afecciones cutáneas y de mucosas con síntomas locales) es solo parcial y está pendiente de evaluar.
 
-Además, los anestésicos tópicos tienen un riesgo conocido de toxicidad del epitelio corneal con el uso ocular repetido. Por eso no se puede establecer una relación beneficio-riesgo favorable. El puntaje alto de TxGNN no está corroborado por ninguna evidencia independiente, y el vínculo mecanístico es especulativo.
-
----
+El puntaje elevado de TxGNN (99,38%) es únicamente una predicción del modelo, sin respaldo de estudios reales. Además, el uso ocular de benzocaína plantea preocupaciones de seguridad: toxicidad corneal con exposición repetida a anestésicos y riesgo de sensibilización por contacto, que podría empeorar la inflamación conjuntival. La compatibilidad de vías de administración también está pendiente de evaluar: las presentaciones actuales son bucales, gingivales y dentales, no oftálmicas.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
-
-Se muestran 5 de las 8 autorizaciones.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 65866 | TOPISPRAY 200mg/ml Solución para pulverización bucal | Solución dental | No especificada en los datos |
-| 69069 | TOPIGEL 200 mg/g Gel bucal | Gel bucal | No especificada en los datos |
-| 58609 | DENTISPRAY 50 mg/ml Solución dental | Solución dental | No especificada en los datos |
-| 59360 | HURRICAINE 200 mg/g Gel bucal | Gel bucal | No especificada en los datos |
-| 59359 | HURRICAINE SPRAY 200 mg/ml Solución para pulverización bucal | Solución dental | No especificada en los datos |
+| 65866 | TOPISPRAY 200 mg/ml solución para pulverización bucal | Solución dental | No disponible en los datos compilados |
+| 69069 | TOPIGEL 200 mg/g gel bucal | Gel bucal | No disponible en los datos compilados |
+| 58609 | DENTISPRAY 50 mg/ml solución dental | Solución dental | No disponible en los datos compilados |
+| 59360 | HURRICAINE 200 mg/g gel bucal | Gel bucal | No disponible en los datos compilados |
+| 59359 | HURRICAINE SPRAY 200 mg/ml solución para pulverización bucal | Solución dental | No disponible en los datos compilados |
 
----
+Hay 8 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto; requieren verificación): insuficiencia y enfermedad hepática, encefalopatía hepática, epilepsia, porfirias, enfermedad renal, trombocitopenia, neutropenia, agranulocitosis, trastornos de la coagulación, diabetes mellitus y cetoacidosis diabética, sarcoidosis, hiperparatiroidismo e hipercalcemia, herpes simple, gastritis, trastornos de ansiedad y neuróticos, y abuso/dependencia de sustancias, entre otras.
+- **Consideración específica para el uso ocular propuesto**: riesgo de toxicidad corneal con uso repetido de anestésicos y de sensibilización por contacto.
 
----
+No se dispone de datos de interacciones farmacológicas. Consultar el prospecto para información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La única base de la predicción es el puntaje del modelo (99.38%), sin ensayos clínicos, sin literatura y sin indicación original registrada. Además, el riesgo conocido de toxicidad corneal con anestésicos tópicos oculares pesa en contra de una relación beneficio-riesgo favorable.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo de un anestésico no aborda la causa de la conjuntivitis papilar y el uso ocular plantea riesgos de seguridad relevantes.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad
-- Completar los datos del mecanismo de acción desde DrugBank
-- Completar el texto de indicación aprobada de las autorizaciones españolas
-- Realizar una búsqueda dirigida de literatura preclínica y clínica sobre benzocaína ocular y conjuntivitis papilar
-- Evaluar la compatibilidad de vía de administración (las formas actuales son solo bucales/dentales, no oftálmicas) y la seguridad corneal
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad
+- Datos detallados del mecanismo de acción desde DrugBank
+- Estudios preclínicos de tolerabilidad ocular (toxicidad corneal y sensibilización)
+- Evaluación de la viabilidad de una formulación oftálmica, ya que las presentaciones actuales no son oftálmicas
+- Revisión sistemática de literatura que justifique la hipótesis antes de plantear ensayos clínicos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

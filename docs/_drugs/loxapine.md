@@ -2,7 +2,7 @@
 layout: default
 title: Loxapine
 parent: Solo predicción del modelo (L5)
-nav_order: 335
+nav_order: 489
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,93 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Loxapina: De Agitación en Esquizofrenia o Trastorno Bipolar a Trastorno Bipolar Afectivo Maníaco
+# Loxapina: De Esquizofrenia y Trastorno Bipolar a Trastorno Afectivo Bipolar Maníaco
 
 ## Resumen en Una Frase
 
-Loxapina es un antipsicótico de primera generación, comercializado en España como polvo para inhalación (Adasuve) para la agitación aguda asociada a esquizofrenia o trastorno bipolar.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno bipolar afectivo maníaco**, con **0 ensayos clínicos registrados** en el Evidence Pack y **18 publicaciones** relacionadas.
-Esta predicción se parece más a una confirmación de la indicación ya autorizada que a un verdadero reposicionamiento.
+Loxapina es un antipsicótico de primera generación (dibenzoxazepina), originalmente utilizado en el tratamiento de la esquizofrenia, el trastorno bipolar y el trastorno afectivo mayor.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno afectivo bipolar maníaco**, con **0 ensayos clínicos** registrados y **20 publicaciones** en los datos compilados.
+Cabe señalar que el trastorno bipolar ya es una indicación original, por lo que esta predicción no constituye un reposicionamiento en sentido estricto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Agitación asociada a esquizofrenia o trastorno bipolar (según la literatura; el texto de indicación de AEMPS no está disponible en el registro) |
-| Nueva Indicación Predicha | Trastorno bipolar afectivo maníaco |
+| Indicación Original | Esquizofrenia, trastorno bipolar, trastorno afectivo mayor (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L1 (con reservas, ver más abajo) |
+| Nivel de Evidencia | L1 (asignado por conocimiento externo; ver nota abajo) |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
+> **Nota sobre el nivel de evidencia:** los datos compilados no incluyen ensayos clínicos verificados. El nivel L1 se basa en los dos ensayos de Fase 3 con loxapina inhalada para la agitación en trastorno bipolar, conocidos externamente y citados solo de forma indirecta por las revisiones incluidas. Con los datos verificables, el nivel sería más prudente (L3, estudios de revisión).
+
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de un campo detallado de mecanismo de acción en DrugBank, pero los datos farmacológicos muestran que loxapina se une a receptores dopaminérgicos (D2, D3, D4) y serotoninérgicos (5-HT2A, 5-HT2C, 5-HT6, 5-HT7). También se une al receptor de histamina H1 y al canal KNa1.1 (KCNT1). El antagonismo D2/5-HT2A es el perfil típico de los antipsicóticos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal. Según la información conocida, loxapina es un antipsicótico de la clase de las dibenzoxazepinas. Los datos farmacológicos compilados indican afinidad por los receptores dopaminérgicos D2, D3 y D4, los serotoninérgicos 5-HT2A, 5-HT2C, 5-HT6 y 5-HT7, y el receptor histaminérgico H1, además del canal de potasio KNa1.1 (KCNT1).
 
-Los antipsicóticos son una clase establecida para la manía aguda y la agitación en el trastorno bipolar, por lo que el ajuste mecanístico es sólido. Esquizofrenia y trastorno bipolar comparten síntomas psicóticos y de agitación que responden a la modulación dopaminérgica y serotoninérgica.
+El antagonismo dopaminérgico D2 y serotoninérgico 5-HT2A es coherente con los efectos antimaníacos y antiagitación. La esquizofrenia y el trastorno bipolar comparten sintomatología (psicosis, agitación), y los antipsicóticos se usan de forma establecida en los episodios maníacos.
 
-Hay una limitación importante. La literatura cubre la loxapina inhalada para la **agitación** asociada al trastorno bipolar I, no los síntomas centrales de la manía ni el tratamiento de mantenimiento. Además, la agitación ya es una indicación consistente con la ficha técnica.
+La literatura se centra sobre todo en la formulación inhalada (Adasuve) para la agitación aguda asociada a trastorno bipolar o esquizofrenia. Esto es una indicación sintomática más acotada que la manía en general.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados en el Evidence Pack.
-
-La literatura sí cita dos ensayos de Fase III aleatorizados, doble ciego y controlados con placebo: [NCT00628589](https://clinicaltrials.gov/study/NCT00628589) (esquizofrenia) y [NCT00721955](https://clinicaltrials.gov/study/NCT00721955) (trastorno bipolar I). Aparecen solo a través de PMID 29163985, no como registros suministrados. Por eso el nivel L1 descansa en esas citas secundarias.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
+Se muestran 10 publicaciones representativas (de 20 disponibles). Todas son revisiones o análisis; ninguna es un ensayo clínico primario.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Revisión de 2 ECA de Fase III | Int J Clin Pract | Análisis de tamaños del efecto de loxapina inhalada en agitación por esquizofrenia o trastorno bipolar |
-| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | Análisis de respondedores de 2 ECA de Fase III | BJPsych Open | Loxapina inhalada 5 o 10 mg redujo la agitación (PANSS-EC) frente a placebo en 314 pacientes con trastorno bipolar I y 344 con esquizofrenia |
-| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | ECA (PLACID) | Eur Neuropsychopharmacol | Loxapina inhalada frente a aripiprazol intramuscular en pacientes agitados con esquizofrenia o trastorno bipolar I |
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Revisión sistemática y metaanálisis | Hum Psychopharmacol | Evaluación de intervenciones farmacológicas a corto plazo para la agitación en esquizofrenia o trastorno bipolar |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Revisión del fármaco | CNS Drugs | Adasuve, aprobado en EE. UU. y la UE para agitación aguda; concentración plasmática máxima en una mediana de 2 minutos |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Revisión | Neuropsychiatr Dis Treat | Seguridad, eficacia y aceptación por el paciente de loxapina inhalada en agitación por esquizofrenia o trastorno bipolar I |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Revisión | Acta Psychiatr Scand | Opciones de tratamiento basadas en evidencia para la manía bipolar (estabilizadores del ánimo y antipsicóticos) |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Revisión de expertos | Drugs R D | Loxapina inhalada para agitación aguda en trastorno bipolar y esquizofrenia, en el contexto de las guías actuales |
-| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Revisión | Expert Rev Neurother | Cincuenta años de experiencia con loxapina para la tranquilización rápida no coercitiva |
-| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Revisión | Expert Opin Pharmacother | Mejora del tratamiento farmacológico de la agitación asociada al trastorno bipolar |
+| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Revisión sistemática y metaanálisis | Human Psychopharmacology | Evalúa intervenciones farmacológicas a corto plazo para la agitación en esquizofrenia o trastorno bipolar |
+| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Análisis de tamaños de efecto de 2 ECA de Fase 3 | Int J Clin Pract | Describe la eficacia de loxapina inhalada en agitación asociada a esquizofrenia o trastorno bipolar |
+| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Revisión | CNS Drugs | Adasuve fue aprobado en EE. UU. y la UE para agitación aguda en bipolar o esquizofrenia; concentración máxima en unos 2 min; resume dos ECA doble ciego |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Revisión | Acta Psychiatr Scand | Opciones basadas en evidencia para la manía bipolar y elección de estabilizador del ánimo y antipsicótico |
+| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Revisión | Drugs in R&D | Revisión de expertos sobre loxapina inhalada en agitación aguda en bipolar y esquizofrenia |
+| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Revisión | Neuropsychiatr Dis Treat | Seguridad, eficacia y aceptabilidad por parte del paciente de loxapina inhalada |
+| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Revisión | Prim Care Companion CNS Disord | Alternativas a la vía intramuscular para la agitación aguda en esquizofrenia y bipolar |
+| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Revisión | Expert Rev Neurother | Cincuenta años de experiencia con loxapina en la tranquilización rápida no coercitiva |
+| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Revisión clínica | Int J Mol Sci | Eficacia y tolerabilidad de loxapina inhalada en la agitación aguda en trastornos psiquiátricos |
+| [30497838](https://pubmed.ncbi.nlm.nih.gov/30497838/) | 2019 | Estudio retrospectivo (41 pacientes) | Eur Neuropsychopharmacol | Loxapina inhalada redujo la agitación en 10 minutos en pacientes con trastorno de personalidad |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 113823002 | ADASUVE 9,1 MG POLVO PARA INHALACIÓN (UNIDOSIS) | Polvo para inhalación (unidosis) | Ferrer Internacional S.A. |
-| 113823004 | ADASUVE 9,1 MG POLVO PARA INHALACIÓN (UNIDOSIS) | Polvo para inhalación (unidosis) | Ferrer Internacional S.A. |
+| 113823002 | ADASUVE 9,1 mg polvo para inhalación (unidosis) | Polvo para inhalación (unidosis) | No disponible en los datos |
+| 113823004 | ADASUVE 9,1 mg polvo para inhalación (unidosis) | Polvo para inhalación (unidosis) | No disponible en los datos |
 
-El registro no incluye el texto de la indicación aprobada para ninguna de las dos autorizaciones.
+Ambas autorizaciones corresponden al titular Ferrer Internacional S.A. y están vigentes.
 
 ## Consideraciones de Seguridad
 
-- **Perfil de unión a receptores** (no son interacciones con otros fármacos): D2, D3, D4, 5-HT2A, 5-HT2C, 5-HT6, 5-HT7, H1 y KNa1.1. La afinidad por H1 sugiere sedación.
-- **Vía inhalada**: el análisis del Evidence Pack señala riesgo de broncoespasmo y la necesidad de monitorización tipo REMS.
+- **Contraindicaciones y condiciones de riesgo (según el grafo de conocimiento, no según el prospecto):** epilepsia, hiperplasia benigna de próstata, abuso o dependencia de sustancias, carcinoma de mama femenino, enfermedad cardiovascular, cardiopatía, glaucoma, síndrome neuroléptico maligno, enfermedad de Alzheimer, discinesia tardía, discinesia linguo-facial-bucal e hiperprolactinemia (incluidas las formas familiar y adquirida, y el tumor hipofisario productor de prolactina).
+- **Formulación inhalada:** riesgo de broncoespasmo, por lo que se restringe a pacientes sin enfermedad de las vías respiratorias (programa REMS en EE. UU.).
+- **Interacciones farmacológicas:** se identificaron 9 registros, que corresponden a interacciones farmacodinámicas con dianas (receptores 5-HT2A, 5-HT2C, 5-HT6, 5-HT7, D2, D3, D4, H1 y KNa1.1), no a interacciones con otros fármacos. Se requiere revisión específica de la medicación concomitante, especialmente depresores del SNC y otros antipsicóticos.
 
-No hay datos de advertencias, contraindicaciones ni interacciones fármaco-fármaco. Consultar el prospecto para información de seguridad.
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Los ECA de Fase III citados en la literatura respaldan la loxapina inhalada para la agitación en trastorno bipolar I, y el ajuste mecanístico D2/5-HT2A es fuerte. Los datos apoyan la indicación de agitación y la vía inhalada, no la loxapina oral para la manía.
+Loxapina ya tiene como indicación original el trastorno bipolar, y la formulación inhalada está comercializada en España para la agitación asociada. La evidencia verificable en los datos son revisiones; el nivel L1 depende de ensayos de Fase 3 conocidos externamente, por lo que debe confirmarse.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada).
-- Verificar directamente los ensayos NCT00628589 y NCT00721955, y registrar los ECA de Fase III como evidencia primaria.
-- Definir si el objetivo es la manía nuclear o el mantenimiento, ya que la evidencia actual no los cubre.
-- Establecer un plan de monitorización del broncoespasmo para la vía inhalada.
+- Verificar directamente los ensayos pivotales de Fase 3 de loxapina inhalada (registros y publicaciones primarias).
+- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicación autorizada), ya que los textos de indicación están vacíos.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir criterios de exclusión por enfermedad respiratoria y un plan de monitorización de seguridad (broncoespasmo, sedación, efectos extrapiramidales, prolactina).
+- Aclarar si la indicación objetivo es la manía en general o únicamente la agitación aguda asociada, ya que la evidencia disponible respalda sobre todo esta última.
 
-Las otras 9 predicciones (retinopatías, miopías, hidranencefalia, entre otras) quedan en **Hold** con nivel L5. No tienen vínculo mecanístico plausible y el puntaje alto parece un artefacto del grafo de conocimiento. Las 15 publicaciones recuperadas para la distrofia retiniana son revisiones oftalmológicas genéricas que no mencionan la loxapina.
+---
+
+### Nota sobre otras predicciones
+
+Las otras nueve predicciones (rangos 2 a 10, p. ej., distrofia retiniana, hidranencefalia, miopía ligada al X, enfermedad de Charcot-Marie-Tooth tipo 1G) tienen puntajes TxGNN altos (≈99.9%), pero carecen de ensayos clínicos y de literatura, y no presentan un vínculo mecanístico plausible. Todas se clasifican como L5 con decisión **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

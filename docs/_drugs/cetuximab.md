@@ -2,7 +2,7 @@
 layout: default
 title: Cetuximab
 parent: Solo predicción del modelo (L5)
-nav_order: 119
+nav_order: 168
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,100 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cetuximab: De Indicación Original No Registrada a Adenoma/Carcinoide Bronquial Infantil
+# Cetuximab: De Cáncer Colorrectal a Bronchial Adenomas/Carcinoides Infantiles
 
 ## Resumen en Una Frase
 
-Cetuximab es un anticuerpo monoclonal dirigido contra el receptor del factor de crecimiento epidérmico (EGFR). En España está autorizado como ERBITUX, solución para perfusión, pero el registro no incluye el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **adenomas/carcinoides bronquiales de la infancia**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción concreta.
+Cetuximab es un anticuerpo monoclonal dirigido contra el receptor del factor de crecimiento epidérmico (EGFR), utilizado originalmente en el cáncer colorrectal y en el carcinoma escamocelular de cabeza y cuello.
+El modelo TxGNN predice que podría ser efectivo para **adenomas/carcinoides bronquiales infantiles**, aunque **no existen ensayos clínicos ni publicaciones** que respalden esta predicción (solo predicción del modelo).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Adenomas/carcinoides bronquiales de la infancia |
-| Puntaje de Predicción TxGNN | 99,95 % |
+| Indicación Original | Cáncer colorrectal y carcinoma escamocelular (de colon, faringe y laringe), según el grafo de conocimiento; el texto de indicación de la autorización no está disponible |
+| Nueva Indicación Predicha | Adenomas/carcinoides bronquiales infantiles |
+| Puntaje de Predicción TxGNN | 99.95% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en Espana | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, cetuximab es un anticuerpo anti-EGFR que se usa en oncología. Mecanísticamente, el bloqueo de EGFR podría ser aplicable a tumores que dependan de esta vía, pero los datos aportados no permiten confirmarlo para esta neoplasia.
+Cetuximab es un anticuerpo que se une al EGFR, un receptor frecuentemente sobreexpresado en tumores epiteliales. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero sí confirman que el EGFR es su diana farmacológica. Su uso está establecido en el cáncer colorrectal metastásico con EGFR expresado y en tumores escamosos de cabeza y cuello, en combinación con radioterapia.
 
-No hay ensayos ni literatura que vinculen cetuximab con los tumores carcinoides bronquiales infantiles. Tampoco hay una indicación original registrada con la que comparar la similitud. La predicción se apoya solo en la puntuación del modelo (99,95 %, posición 1350 del ranking) y no en evidencia externa.
+Para los adenomas/carcinoides bronquiales infantiles, los datos aportados no muestran ningún vínculo entre cetuximab y esta enfermedad. La predicción se basa únicamente en la puntuación del modelo, por lo que la relación con las indicaciones originales sigue sin evaluarse y la plausibilidad mecanística es débil.
+
+### Otras predicciones con más respaldo
+
+Entre las 10 principales predicciones, dos cuentan con algo más de evidencia, aunque ninguna alcanza un nivel alto:
+
+- **Neoplasia quística (rango 9, L2):** la evidencia se centra en el carcinoma adenoide quístico y otros carcinomas de glándulas salivales. Incluye el ensayo de Fase 1/2 NCT01192087 (cetuximab + IMRT + boost de iones de carbono, estado desconocido) y un estudio de Fase 2 en carcinomas salivales (PMID 18804410). Los resultados no pueden darse por positivos sin revisar el texto completo.
+- **Neoplasia premaligna (rango 10, L2):** el ensayo de Fase 2 NCT00524017 evaluó cetuximab en monoterapia en lesiones premalignas de alto riesgo del tracto aerodigestivo superior. Está completado, pero no se aportaron resultados. La toxicidad crónica (reacciones cutáneas y a la perfusión) preocupa en un contexto de prevención.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para la indicación principal (adenomas/carcinoides bronquiales infantiles).
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal.
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 04281003 | ERBITUX 5 MG/ML SOLUCIÓN PARA PERFUSIÓN (Merck Europe B.V.) | Solución para perfusión |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 04281003 | ERBITUX 5 MG/ML SOLUCIÓN PARA PERFUSIÓN (Merck Europe B.V.) | Solución para perfusión | No disponible en los datos compilados |
+
+---
 
 ## Citotoxicidad
-
-Cetuximab se trata como fármaco antineoplásico por su clase (anticuerpo monoclonal anti-EGFR usado en cáncer). Los datos de esta tabla proceden de conocimiento general de la clase, no del Evidence Pack.
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-EGFR) |
-| Riesgo de Mielosupresión | Bajo como agente único; puede aumentar en combinación con quimioterapia |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Reacciones a la perfusión, toxicidad cutánea, electrolitos (magnesio, potasio, calcio), hemograma si se combina con quimioterapia |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar el prospecto; en los datos compilados se mencionan reacciones cutáneas y reacciones a la perfusión como preocupaciones de tolerabilidad |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas:** se identificaron 20 registros de interacción. Los principales:
+  - **Mayores:** talidomida y ácido aminolevulínico.
+  - **Moderadas:** inhibidores de la bomba de protones (rabeprazol, omeprazol, dexlansoprazol, esomeprazol, lansoprazol, pantoprazol), fluorouracilo, capecitabina, cisplatino, carboplatino, oxaliplatino, idelalisib, metoxaleno, verteporfina, omacetaxina y metilaminolevulinato/ácido aminolevulínico tópico.
+  - Además figura la interacción farmacológica con su diana, el EGFR.
+
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5), sin ensayos ni publicaciones para esta neoplasia y sin mecanismo de acción documentado en el registro. No hay base para avanzar.
+La indicación principal predicha solo cuenta con la puntuación del modelo (L5), sin ensayos ni literatura, y no hay un vínculo mecanístico demostrado con los carcinoides bronquiales infantiles.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS para completar advertencias, contraindicaciones y la indicación aprobada.
-- Completar el mecanismo de acción desde DrugBank y analizar su relación con los carcinoides bronquiales.
-- Hacer una búsqueda específica de ensayos y literatura sobre tumores carcinoides bronquiales pediátricos y EGFR.
-- Valorar otras predicciones del mismo paquete con más contexto. Por ejemplo, "cystic neoplasm" (nivel L3, posible relación con carcinomas de glándulas salivales) y "epiglottis neoplasm" (plausible por el uso en carcinoma escamoso de cabeza y cuello) merecen revisión manual antes de decidir.
+- Datos de mecanismo de acción detallados y una evaluación de la similitud con las indicaciones originales.
+- Revisión del prospecto de la AEMPS (advertencias y contraindicaciones), cuya ausencia bloquea el cribado de seguridad.
+- Evidencia preclínica o clínica específica en carcinoides bronquiales (expresión de EGFR en el tejido tumoral).
+- Priorizar, como líneas alternativas de investigación, la revisión de resultados de NCT01192087 y PMID 18804410 (carcinomas de glándulas salivales) y de NCT00524017 (lesiones premalignas aerodigestivas).
+- Valorar un plan de monitoreo de seguridad, dadas las reacciones cutáneas y a la perfusión asociadas a cetuximab.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

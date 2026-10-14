@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: Evidencia alta (L1-L2)
-nav_order: 283
-evidence_level: L1
+parent: Solo predicción del modelo (L5)
+nav_order: 421
+evidence_level: L5
 indication_count: 10
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Insulina glulisina: De Diabetes Mellitus (control glucémico) a Diabetes Mellitus Tipo 1
+# Insulina glulisina: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
 
 ## Resumen en Una Frase
 
-La insulina glulisina es un análogo de insulina de acción rápida (comercializado como Apidra), utilizado para mejorar el control glucémico en la diabetes mellitus.
-El modelo TxGNN predice que podría ser efectiva para la **diabetes mellitus tipo 1**, con **50 ensayos clínicos** y **19 publicaciones** que respaldan esta dirección.
-Se trata de un uso ya establecido en el mercado, por lo que la predicción confirma una indicación existente y no constituye una señal de reposicionamiento propiamente dicha.
+La insulina glulisina es un análogo de insulina humana de acción rápida, originalmente utilizado para el tratamiento de la diabetes mellitus y la cetoacidosis diabética.
+El modelo TxGNN predice que podría ser efectiva para la **diabetes mellitus tipo 1**, con **30 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
+Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicación original (diabetes mellitus), por lo que se trata más de una confirmación de una indicación existente que de un reposicionamiento propiamente dicho.
 
 ---
 
@@ -43,87 +43,91 @@ Se trata de un uso ya establecido en el mercado, por lo que la predicción confi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus (control glucémico), según la literatura (PMID 19496630). El texto de indicación de las autorizaciones de AEMPS viene vacío en los datos recibidos |
+| Indicación Original | Diabetes mellitus; cetoacidosis diabética |
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
-| Puntaje de Predicción TxGNN | 99,55 % |
-| Nivel de Evidencia | L1 |
+| Puntaje de Predicción TxGNN | 99,55% |
+| Nivel de Evidencia | L2 (provisional; probablemente L1 si se verifican los ensayos pivotales de Fase 3) |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 5 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
-## ¿Por qué es Razonable esta Predicción?
+## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone en el registro de datos detallados sobre el mecanismo de acción. Según la literatura, la insulina glulisina es un análogo de la insulina humana con dos cambios en la cadena B (Lys en posición B3 y Glu en B29). Estos cambios aceleran su absorción, y se une al receptor de forma similar a la insulina humana regular. Su inicio de acción es más rápido y su duración más corta (aprox. 4 horas), y cubre las necesidades de insulina en las comidas (bolo prandial).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina glulisina es un análogo de insulina humana de acción rápida que se une al receptor de insulina, favorece la captación periférica de glucosa y suprime la producción hepática de glucosa. Su perfil farmacocinético se caracteriza por un inicio de acción más rápido y una duración más corta que la insulina humana regular.
 
-En la diabetes tipo 1 hay una deficiencia casi total de insulina endógena. Por eso un análogo de acción rápida, que sustituye la insulina prandial, es mecanísticamente adecuado. No hay una diferencia real entre la indicación original (control glucémico en diabetes) y la nueva (diabetes tipo 1), porque la segunda está incluida en la primera. Por eso el puntaje alto del modelo es coherente con la práctica clínica.
+La diabetes tipo 1 es una enfermedad de deficiencia absoluta de insulina, por lo que el reemplazo con insulina de acción rápida a la hora de las comidas (bolo) en un régimen basal-bolo es mecanísticamente directo. Por ello, la predicción es coherente con el amplio historial clínico existente y con el alto puntaje del modelo (0,996).
 
-Los ensayos y las publicaciones respaldan un efecto directo en pacientes con diabetes tipo 1, tanto en múltiples inyecciones diarias como en infusión subcutánea continua (bomba). Un detalle del registro: el campo de indicaciones originales del fármaco está vacío y conviene corregirlo en el registro de entrada.
+Es importante subrayar que esta predicción no constituye un reposicionamiento genuino: la diabetes tipo 1 queda comprendida dentro de la indicación original de diabetes mellitus. Las demás indicaciones predichas (rangos 2 a 10) tienen únicamente respaldo del modelo (L4-L5), sin ensayos ni literatura, y varias parecen reflejar comorbilidad (síndrome de la persona rígida) o incluso un efecto adverso conocido de la insulina (lipodistrofia localizada), por lo que no se consideran oportunidades terapéuticas.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Se listan los 10 ensayos más relevantes para diabetes tipo 1, de un total de 50 registrados.
+Se han compilado 30 ensayos; se listan los 10 más relevantes, priorizando los de mayor tamaño y diseño más sólido.
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Fase 3 | Completado | 250 | Glulisina frente a insulina lispro en diabetes tipo 1; estudio abierto, aleatorizado, de no inferioridad en HbA1c durante 28 semanas |
-| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Fase 3 | Completado | 485 | Glulisina frente a lispro durante 12 semanas en diabetes tipo 1 o 2 con glargina como basal; eficacia, seguridad y frecuencia de hipoglucemia |
-| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | Fase 3 | Completado | 224 | Inmunogenicidad no inferior de un biosimilar (GP40321) frente a Apidra SoloStar en diabetes tipo 1 |
-| [NCT00397553](https://clinicaltrials.gov/study/NCT00397553) | Fase 3 | Completado | 104 | Eficacia y seguridad de glulisina en diabetes tipo 1 con glargina como insulina basal; estudio abierto no aleatorizado |
-| [NCT00271284](https://clinicaltrials.gov/study/NCT00271284) | Fase 3 | Completado | 88 | Cruzado aleatorizado: glargina frente a detemir, combinadas con glulisina en bolo, en diabetes tipo 1; variabilidad de la glucemia en ayunas |
-| [NCT00964574](https://clinicaltrials.gov/study/NCT00964574) | Fase 4 | Completado | 68 | Eficacia y seguridad de glulisina subcutánea junto con glargina en diabetes tipo 1; estudio abierto no aleatorizado |
-| [NCT01678235](https://clinicaltrials.gov/study/NCT01678235) | Fase 4 | Completado | 64 | Glulisina frente a aspart en la glucemia posprandial tras una comida de alto índice glucémico, en niños con diabetes tipo 1 con bomba de insulina |
-| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Fase 3 | Completado | 59 | Seguridad de glulisina frente a aspart en infusión subcutánea continua (bomba) durante 12 semanas, con foco en oclusiones del catéter |
-| [NCT00489190](https://clinicaltrials.gov/study/NCT00489190) | Fase 4 | Completado | 45 | Recolección de datos de eficacia y seguridad de Apidra en diabetes tipo 1 durante 12 semanas |
-| [NCT02910518](https://clinicaltrials.gov/study/NCT02910518) | Fase 1 | Completado | 44 | Bioequivalencia de glulisina 300 U/mL frente a 100 U/mL (Apidra) mediante clamp euglucémico en diabetes tipo 1 |
+| [NCT00115570](https://clinicaltrials.gov/study/NCT00115570) | Fase 3 | Completado | 572 | Glulisina vs. lispro en niños y adolescentes con DM1 (26 semanas, abierto, paralelo) |
+| [NCT00135941](https://clinicaltrials.gov/study/NCT00135941) | Fase 3 | Completado | 582 | Glargina + glulisina (MDI) vs. insulina premezclada en DM1 o DM2; resultados reportados por pacientes |
+| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Fase 3 | Completado | 485 | Glulisina vs. lispro con glargina en DM1 o DM2 (12 semanas); eficacia, seguridad e hipoglucemia |
+| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Fase 3 | Completado | 250 | No inferioridad de glulisina (HMR1964) frente a lispro en DM1 (28 semanas), según cambio de HbA1c |
+| [NCT07070752](https://clinicaltrials.gov/study/NCT07070752) | Fase 3 | Completado | 224 | Inmunogenicidad de GP40321 frente a Apidra SoloStar en DM1 |
+| [NCT00397553](https://clinicaltrials.gov/study/NCT00397553) | Fase 3 | Completado | 104 | Eficacia y seguridad de glulisina con glargina en DM1 (datos locales, abierto, no aleatorizado) |
+| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Fase 3 | Completado | 59 | Seguridad de glulisina vs. insulina aspart en bombas de infusión (CSII) en DM1 |
+| [NCT01194245](https://clinicaltrials.gov/study/NCT01194245) | Fase 2 | Completado | 135 | Lispro-PH20 o aspart-PH20 vs. lispro en DM1; estudio cruzado doble ciego aleatorizado |
+| [NCT01848990](https://clinicaltrials.gov/study/NCT01848990) | Fase 4 | Completado | 456 | Hialuronidasa recombinante antes de la infusión (CSII) en DM1; cambio de HbA1c a 6 meses |
+| [NCT00384085](https://clinicaltrials.gov/study/NCT00384085) | Fase 4 | Completado | 588 | Glargina con adición escalonada de glulisina vs. insulina premezclada en DM2 (64 semanas) |
 
-**Nota:** el ensayo de Fase 3 NCT00174668 (n=311, 52 semanas, régimen intensificado con glulisina y glargina) figura en el registro con la máxima relevancia. Sin embargo, por su título su población es de diabetes tipo 2, por lo que aquí solo respalda el uso general de glulisina y no la indicación de diabetes tipo 1.
+Entre los demás ensayos figuran estudios de Fase 4 en CSII (p. ej., NCT00607087, n=289, glulisina vs. aspart y lispro) y estudios pediátricos sobre la glucemia posprandial. Nótese que el ensayo NCT04974528 (Afrezza, Fase 3, n=319) usa glulisina solo como comparador.
 
 ---
 
 ## Evidencia de Literatura
 
-Se listan las 10 publicaciones más relevantes, de un total de 19. Los resúmenes disponibles están truncados, por lo que los hallazgos se limitan a lo que indican.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | ECA | Horm Metab Res | Estudio multinacional, abierto y aleatorizado que compara eficacia y seguridad de glulisina y lispro en adultos con diabetes tipo 1 (683 aleatorizados) |
-| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | ECA | Diabetes Obes Metab | Glulisina frente a lispro, con glargina como basal, en pacientes japoneses con diabetes tipo 1 |
-| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | ECA (Fase 3) | Diabetes Obes Metab | Inmunogenicidad, eficacia y seguridad de una glulisina biosimilar (T-Glu) frente al original en adultos con diabetes tipo 1 |
-| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Revisión sistemática | Drugs Today | Análogos de insulina (lispro, aspart, glulisina, glargina, detemir) aprobados en niños y adolescentes con diabetes tipo 1 |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Revisión | Drugs | Glulisina está aprobada para mejorar el control glucémico; inicio más rápido y efecto similar al de la insulina humana regular; efectos similares a lispro |
-| [20150026](https://pubmed.ncbi.nlm.nih.gov/20150026/) | 2010 | Revisión | Endocr Pract | Análogos de acción rápida frente a insulina humana regular en regímenes basal-bolo en diabetes tipo 1 (HbA1c, hipoglucemia, dosis) |
-| [16706558](https://pubmed.ncbi.nlm.nih.gov/16706558/) | 2006 | Revisión | Drugs | En ensayos amplios en diabetes tipo 1, control glucémico (HbA1c) similar al de la insulina humana regular a las 12 semanas, con inicio más rápido |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Estudio comparativo | Acta Diabetol | Glulisina frente a lispro y aspart en bomba de insulina en diabetes tipo 1: HbA1c, glucemia en ayunas, dosis, hiperglucemia, hipoglucemia y cetoacidosis |
-| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | Estudio clínico | Diabetes Care | Farmacocinética, glucemia posprandial y seguridad de glulisina frente a insulina regular en niños y adolescentes con diabetes tipo 1 |
-| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Estudio clínico | Pediatr Int | Glulisina en infusión subcutánea continua en 20 niños con diabetes tipo 1: mejoría de la glucemia posprandial tras 1 año |
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | ECA | Horm Metab Res | Estudio multinacional, abierto, aleatorizado (683 pacientes) que compara glulisina con lispro en adultos con DM1 |
+| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | Ensayo clínico | Diabetes Obes Metab | Eficacia y seguridad de glulisina vs. lispro en pacientes japoneses con DM1, con glargina como basal |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Revisión sistemática | Drugs Today | Análogos de insulina en DM1 pediátrica, incluida glulisina |
+| [20150026](https://pubmed.ncbi.nlm.nih.gov/20150026/) | 2010 | Revisión sistemática | Endocr Pract | Análogos de acción rápida vs. insulina regular en regímenes basal-bolo en DM1 (HbA1c, hipoglucemia, dosis) |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Estudio comparativo | Acta Diabetol | Glulisina vs. lispro y aspart en bomba en DM1; efectividad relativa y tasas de hipoglucemia y cetoacidosis |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Revisión | Drugs | Revisión de su uso en diabetes; no inferior a otras insulinas rápidas y de acción corta |
+| [16706558](https://pubmed.ncbi.nlm.nih.gov/16706558/) | 2006 | Revisión | Drugs | Inicio más rápido y duración más corta que la insulina regular; control glucémico similar en DM1 |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Estudio clínico | Pediatr Int | Glulisina en CSII en 20 niños con DM1; mejora de la glucemia posprandial tras 1 año |
+| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | Farmacología clínica | Clin Pharmacokinet | Farmacocinética y farmacodinamia: absorción más rápida y duración más corta que la insulina regular |
+| [25865292](https://pubmed.ncbi.nlm.nih.gov/25865292/) | 2016 | Revisión | Diabetes Metab Res Rev | Infusión subcutánea continua: poblaciones, seguridad, eficacia y farmacoeconomía |
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 04285001 | APIDRA 100 UNIDADES/ML SOLUCION INYECTABLE EN VIAL | Solución inyectable |
-| 04285032 | APIDRA 100 UNIDADES/ML, SOLOSTAR SOLUCION INYECTABLE EN PLUMA PRECARGADA | Solución inyectable en pluma precargada |
-| 04285008 | APIDRA 100 UNIDADES/ML SOLUCION INYECTABLE EN CARTUCHO | Solución inyectable en cartucho |
-| 04285032IP | APIDRA SOLOSTAR 100 UNIDADES/ML SOLUCION INYECTABLE EN UNA PLUMA PRECARGADA | Solución inyectable en pluma precargada |
-| 04285024 | APIDRA 100 UNIDADES/ML OPTICLIK SOLUCION INYECTABLE EN CARTUCHO | Solución inyectable en cartucho |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 04285001 | APIDRA 100 unidades/ml solución inyectable en vial | Solución inyectable | No disponible en los datos |
+| 04285032 | APIDRA 100 unidades/ml SoloStar solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
+| 04285008 | APIDRA 100 unidades/ml solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
+| 04285032IP | APIDRA SoloStar 100 unidades/ml solución inyectable en una pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
+| 04285024 | APIDRA 100 unidades/ml OptiClik solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
 
-Todas las autorizaciones pertenecen a Sanofi-Aventis Deutschland GmbH. El texto de indicación aprobada no está disponible en los datos recibidos.
+Las cinco autorizaciones están vigentes, son de monofármaco y pertenecen a Sanofi-Aventis Deutschland GmbH.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone de advertencias, contraindicaciones ni interacciones farmacológicas registradas.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; las principales, de nivel moderado, incluyen:
+  - Agonistas adrenérgicos y simpaticomiméticos: fenilefrina, epinefrina, pseudoefedrina, salbutamol y formoterol.
+  - Betabloqueantes: acebutolol.
+  - Otros antidiabéticos: metformina, pioglitazona, alogliptina y albiglutida.
+  - Corticoides: hidrocortisona sistémica (moderada); hidrocortisona y alclometasona tópicas (leve).
+  - Otros: acetazolamida, hidroclorotiazida, doxiciclina, etinilestradiol, estradiol, alpelisib y etanol.
 
-Como guardarraíles derivados del análisis de la evidencia:
-- Monitorizar la hipoglucemia y titular la dosis.
-- Rotar los sitios de inyección, ya que la lipodistrofia y la lipoatrofia localizadas son efectos adversos conocidos de la inyección subcutánea repetida de insulina.
+  Estas interacciones pueden alterar el control glucémico, con riesgo de hipoglucemia o hiperglucemia, por lo que requieren seguimiento.
+- **Riesgo adicional**: la lipodistrofia localizada en el sitio de inyección es un efecto adverso conocido de la terapia con insulina (rotar los sitios de inyección).
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -132,19 +136,14 @@ Como guardarraíles derivados del análisis de la evidencia:
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay múltiples ensayos de Fase 3 completados y ECA publicados que comparan glulisina con lispro y aspart en diabetes tipo 1, lo que cumple el criterio de nivel L1. Es un uso ya establecido y comercializado en España, así que la decisión se centra en mantener el uso con monitorización de seguridad y no en abrir una nueva indicación.
+Existe un amplio cuerpo de ensayos clínicos (incluidos varios de Fase 3 en DM1) y literatura que respalda la eficacia y seguridad de la glulisina en diabetes tipo 1, además de su comercialización vigente en España. Sin embargo, la indicación ya está cubierta por la aprobación original, y falta verificar formalmente el nivel de evidencia y los datos de seguridad de la ficha técnica.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de AEMPS las advertencias, contraindicaciones y el texto de indicación aprobada.
-- Consultar el mecanismo de acción en DrugBank.
-- Corregir el campo de indicaciones originales del registro, que está vacío.
-- Plan de monitorización de hipoglucemia y de lipodistrofia en el sitio de inyección.
-
-**Otras predicciones del modelo (puestos 2 a 10):** todas tienen nivel L5, sin ensayos ni literatura, y la recomendación es Hold. Estas son las salvedades:
-- **Agenesia pancreática:** biológicamente plausible, porque la insulina exógena es el tratamiento estándar en la diabetes neonatal. Se sugiere una búsqueda bibliográfica dirigida (recomendación "Research Question").
-- **Síndrome con disfunción sensible a tiamina, síndrome de la persona rígida y ooforitis autoinmune:** la relación es de comorbilidad con diabetes y la insulina solo trataría la diabetes asociada.
-- **Lipodistrofias y lipoatrofia localizadas:** son señales de seguridad, no indicaciones terapéuticas, porque son efectos adversos conocidos de la insulina inyectada.
-- **Opsismodisplasia:** sin vínculo mecanístico plausible; probablemente un artefacto del grafo de conocimiento.
+- Descargar y analizar el prospecto/ficha técnica de la AEMPS para obtener advertencias, contraindicaciones y el texto de las indicaciones aprobadas (actualmente vacío).
+- Confirmar el nivel de evidencia: verificar los ensayos pivotales de Fase 3 (p. ej., NCT00115570, NCT00290979, PMID 16308840) para valorar la elevación a L1.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Plan de monitoreo de hipoglucemia y de interacciones farmacológicas.
+- No priorizar las indicaciones de rangos 2 a 10, que solo cuentan con predicción del modelo (L4-L5); en las lipodistrofias existe además una señal de seguridad. La agenesia pancreática (L4) podría estudiarse como pregunta de investigación, con evaluación específica de dosis y seguridad neonatal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

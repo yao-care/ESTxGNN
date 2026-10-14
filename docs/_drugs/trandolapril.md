@@ -2,7 +2,7 @@
 layout: default
 title: Trandolapril
 parent: Solo predicción del modelo (L5)
-nav_order: 539
+nav_order: 812
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,82 +29,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Trandolapril: De Indicación Original No Registrada a Hipertensión Renovascular Maligna
+# Trandolapril: De Hipertensión Arterial a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Trandolapril es un inhibidor de la enzima convertidora de angiotensina (IECA) comercializado en España como Gopten. Los registros disponibles no recogen su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa únicamente en el modelo.
-
----
+Trandolapril es un inhibidor de la enzima convertidora de angiotensina (IECA), utilizado originalmente para el tratamiento de la hipertensión arterial.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta indicación; la predicción se apoya solo en el modelo y en un razonamiento mecanístico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación aprobada está vacío en las autorizaciones) |
+| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Hipertensión renovascular maligna |
 | Puntaje de Predicción TxGNN | 99,92% |
-| Nivel de Evidencia | L5 |
+| Nivel de Evidencia | L4 (según la clasificación de los datos compilados; sin ensayos ni literatura propios para esta indicación, lo que en rigor corresponde a L5) |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Trandolapril pertenece a la clase de los IECA, que bloquean el sistema renina-angiotensina-aldosterona (SRAA). La hipertensión renovascular depende de la renina, por lo que existe una plausibilidad biológica a nivel de clase.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, trandolapril pertenece a la clase de los inhibidores de la ECA: bloquea la conversión de angiotensina I en angiotensina II, reduciendo la vasoconstricción y la secreción de aldosterona. Su eficacia en hipertensión arterial está establecida.
 
-Este razonamiento es genérico y no está respaldado por datos específicos de trandolapril. No hay ensayos ni literatura que vinculen el fármaco con esta condición. El puntaje alto (0,999) es solo una predicción del modelo y podría reflejar en parte la pertenencia del fármaco a la clase antihipertensiva. Además, no consta ninguna indicación original en los registros. Por ello, hay que comprobar si se trata realmente de un reposicionamiento o de un uso ya cubierto por la ficha técnica.
+La hipertensión renovascular está impulsada en gran medida por la activación del sistema renina-angiotensina, por lo que el bloqueo de este eje es mecanísticamente plausible. La predicción tiene, por tanto, una base biológica razonable.
 
----
+Sin embargo, el puntaje elevado probablemente refleja la cercanía con la indicación ya aprobada (hipertensión) y no una evidencia independiente. Además, los IECA pueden precipitar insuficiencia renal aguda en la estenosis bilateral de la arteria renal, lo que exige especial cautela en este escenario.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal (hipertensión renovascular maligna).
 
----
+Para otras indicaciones predichas (por ejemplo, hipertensión pulmonar asociada a enfermedad pulmonar o hipoxia) se identificaron publicaciones preclínicas o indirectas, ninguna en humanos con hipertensión pulmonar. No constituyen respaldo para la indicación principal y se mencionan solo como contexto.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 59984 | GOPTEN 0,5 mg CAPSULAS DURAS | Cápsula dura | No especificada en el registro |
-| 59985 | GOPTEN 2 mg CAPSULAS DURAS | Cápsula dura | No especificada en el registro |
+| 59984 | GOPTEN 0,5 mg CAPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+| 59985 | GOPTEN 2 mg CAPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
 
-Ambas autorizaciones pertenecen a Viatris Healthcare Limited.
-
----
+Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Viatris Healthcare Limited.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+- **Contraindicaciones / condiciones de riesgo según el grafo de conocimiento** (no proceden del texto del prospecto): enfermedad renal, enfermedad hepática, angioedema (incluido el hereditario, el adquirido y el inducido por bloqueadores del sistema renina-angiotensina-aldosterona), neutropenia y agranulocitosis, estenosis aórtica, miocardiopatía hipertrófica, obstrucción de la arteria renal, trastornos hipotensivos, miastenia gravis, taquicardia ventricular, bloqueo auriculoventricular e insuficiencia cardíaca, entre otras.
+- **Interacciones farmacológicas**: se registraron 100 interacciones en total. Entre las mostradas, las de nivel **mayor** son con **citrato de potasio** y **bicarbonato de potasio** (riesgo de hiperpotasemia). Hay numerosas interacciones de nivel **moderado**, por ejemplo con corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), antidiabéticos (metformina, alogliptina, canagliflozina, dapagliflozina, empagliflozina, glimepirida, clorpropamida), ácido acetilsalicílico, morfina, bupropión, dronabinol, ácido picosulfúrico y polietilenglicol con electrolitos.
+- Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción está en nivel L5, sin ensayos clínicos ni literatura que la respalden. El vínculo mecanístico se apoya solo en razonamiento de clase (IECA y SRAA). Además, faltan la indicación original, el mecanismo de acción y los datos de seguridad de la ficha técnica.
+No existen ensayos clínicos ni literatura que respalden la hipertensión renovascular maligna; la predicción se basa solo en el modelo y en la plausibilidad mecanística, con un riesgo renal relevante en este contexto.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto/ficha técnica de AEMPS (advertencias y contraindicaciones), un bloqueo para el cribado de seguridad.
-- Obtener el mecanismo de acción detallado desde DrugBank.
-- Confirmar la indicación original de Gopten, para verificar si hay reposicionamiento real o solapamiento con la hipertensión ya aprobada.
-- Buscar ensayos y literatura específicos sobre trandolapril o IECA en hipertensión renovascular maligna.
-
-**Otras predicciones del modelo (para referencia):**
-- La predicción de *cor pulmonale* crónico (puntaje 99,19%) tiene evidencia L4, con un único estudio preclínico en ratas de 1996 (PMID 8989645). Solo justifica una pregunta de investigación.
-- La predicción de hipertensión pulmonar por enfermedad pulmonar o hipoxia tiene 10 publicaciones visibles que tratan la hipoxia en general. Ninguna menciona trandolapril, por lo que no aportan apoyo clínico.
+- Obtener y analizar el prospecto oficial de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Completar los datos del mecanismo de acción.
+- Realizar una búsqueda sistemática de ensayos y literatura clínica sobre IECA en hipertensión renovascular maligna.
+- Evaluar el riesgo de insuficiencia renal aguda (estenosis bilateral de arteria renal) e hiperpotasemia, con un plan de monitoreo de función renal y potasio.
+- Confirmar la compatibilidad de vía y forma farmacéutica con la nueva indicación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

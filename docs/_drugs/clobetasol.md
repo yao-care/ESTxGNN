@@ -2,7 +2,7 @@
 layout: default
 title: Clobetasol
 parent: Evidencia moderada (L3-L4)
-nav_order: 134
+nav_order: 192
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,98 +29,84 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Clobetasol: De Corticoide Tópico Dermatológico a Linfoma Cutáneo Primario de Células T
+# Clobetasol: De Indicación Dermatológica Tópica a Linfoma Cutáneo de Células T Primario
 
 ## Resumen en Una Frase
 
-Clobetasol es un glucocorticoide tópico de muy alta potencia, comercializado en España en cremas, pomadas, champú, solución cutánea y colirio.
-El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo primario de células T**, con **0 ensayos clínicos** y **20 publicaciones** identificadas (se evaluaron 10). Casi todas son casos clínicos o revisiones, y solo un estudio retrospectivo describe el uso de clobetasol en micosis fungoide temprana.
-
----
+Clobetasol es un glucocorticoide tópico de potencia muy alta, comercializado en España en varias formas cutáneas y oftálmicas.
+El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo primario de células T**, en particular la micosis fungoide en estadio temprano,
+con **0 ensayos clínicos registrados** y **15 publicaciones** (casi todas informes de caso y algunos estudios de cohorte) que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | No disponible en los datos de autorización compilados (los textos de indicación están vacíos) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
 | Puntaje de Predicción TxGNN | 99,51% |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 7 |
-| Decisión Recomendada | Hold |
-
----
+| Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en el registro. Por su clase, clobetasol es un glucocorticoide de potencia superior. Los glucocorticoides actúan sobre el receptor de glucocorticoides, pueden inducir apoptosis en linfocitos T y reducen la inflamación cutánea mediada por citocinas. Esta explicación se infiere de la clase del fármaco y no proviene de los datos suministrados.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, clobetasol propionato es un glucocorticoide tópico de potencia muy alta (clase I). La activación del receptor de glucocorticoides induce apoptosis y frena la proliferación de células T malignas, además de reducir las citocinas inflamatorias y la infiltración de linfocitos con tropismo cutáneo.
 
-La micosis fungoide en estadio temprano (parches y placas), la forma más frecuente de linfoma cutáneo de células T, es una enfermedad limitada a la piel. Un corticoide tópico potente es, por tanto, biológicamente plausible como tratamiento dirigido a la piel. Varias publicaciones de la lista describen precisamente este uso.
+Estas características son características de la micosis fungoide en estadio de mancha y placa, el tipo más frecuente de linfoma cutáneo primario de células T. Los corticoides tópicos ya se emplean en la práctica clínica con este fin, lo que es coherente con el puntaje elevado de TxGNN.
 
-El puntaje alto de TxGNN (0,995) es solo una predicción computacional y no constituye evidencia clínica. La similitud con la indicación original y la compatibilidad de vías de administración están pendientes de evaluar.
-
----
+Conviene delimitar el alcance: la evidencia se circunscribe a la enfermedad temprana (mancha/placa). No se extiende a la enfermedad avanzada, al síndrome de Sézary ni a subtipos sistémicos como el linfoma angioinmunoblástico de células T.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
-
-De las 20 publicaciones identificadas solo se proporcionaron 10, que son las que se muestran. Los hallazgos se resumen a partir de títulos y resúmenes parciales, sin datos de eficacia cuantitativos.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Cohorte retrospectiva | Cutis | Estudio observacional de clobetasol crema 0,05% en micosis fungoide temprana. Se centra en los efectos adversos cutáneos, por lo que aporta más sobre seguridad y viabilidad que sobre eficacia |
-| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Estudio comparativo (tipo sin clasificar) | An Bras Dermatol | Compara la eficacia de clobetasol y bexarotene en micosis fungoide temprana. El resumen disponible no incluye resultados |
-| [9722724](https://pubmed.ncbi.nlm.nih.gov/9722724/) | 1998 | Serie clínica (sin clasificar) | Arch Dermatol | Experiencia con corticoides tópicos en 79 pacientes con micosis fungoide. Evalúa su efectividad; no se dispone del resultado |
-| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Caso clínico | Ned Tijdschr Geneeskd | Niña con micosis fungoide hipopigmentada tratada con éxito con clobetasol 0,05% pomada 4 días por semana |
-| [8987063](https://pubmed.ncbi.nlm.nih.gov/8987063/) | 1996 | Serie de casos | Pediatr Dermatol | Tres niños con papulosis linfomatoide tratados con corticoides tópicos superpotentes en pulsos semanales, con resultado descrito como exitoso |
-| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Caso/Revisión | Skinmed | Linfoma angioinmunoblástico de células T con presentación cutánea. Se trató inicialmente como psoriasis, incluido clobetasol; no aporta datos de eficacia |
-| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Caso clínico y revisión | Clin Case Rep | Micosis fungoide con placas psoriasiformes, confundida con psoriasis pese al tratamiento con corticoides tópicos |
-| [30677799](https://pubmed.ncbi.nlm.nih.gov/30677799/) | 2018 | Revisión | Dermatol Online J | Papulosis linfomatoide, variante de bajo grado del linfoma cutáneo de células T; las guías permiten vigilancia sin tratamiento |
-| [17083888](https://pubmed.ncbi.nlm.nih.gov/17083888/) | 2006 | Revisión | Dermatol Online J | Distinción diagnóstica y manejo del linfoma cutáneo de células T grandes CD30+ |
-| [23773745](https://pubmed.ncbi.nlm.nih.gov/23773745/) | 2013 | Caso clínico y revisión | Ann Dermatol Venereol | Micosis fungoide papular, una forma incipiente descrita recientemente |
-
----
+| [14686970](https://pubmed.ncbi.nlm.nih.gov/14686970/) | 2003 | Cohorte / revisión de experiencia | Dermatologic Therapy | Experiencia de UCSF con ~200 pacientes con micosis fungoide en estadio de mancha tratados con corticoides tópicos potentes; tasa de respuesta >90 %, efectos secundarios menores; clobetasol es tratamiento de primera línea en estadio temprano |
+| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Cohorte (observacional) | Cutis | Evaluación de efectos adversos cutáneos de clobetasol crema 0,05 % en micosis fungoide temprana; los corticoides de clase I son eficaces y con efectos secundarios menores |
+| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Cohorte | Anais Brasileiros de Dermatologia | Comparación de la eficacia de clobetasol propionato frente a bexaroteno en micosis fungoide temprana |
+| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Caso clínico | Nederlands Tijdschrift voor Geneeskunde | Niña de 9 años con micosis fungoide hipopigmentada tratada con éxito con clobetasol 0,05 % pomada 4 días por semana |
+| [8987063](https://pubmed.ncbi.nlm.nih.gov/8987063/) | 1996 | Serie de casos | Pediatric Dermatology | Tres niños con papulosis linfomatoide tratados con éxito con corticoides tópicos superpotentes en pulsos semanales |
+| [23773745](https://pubmed.ncbi.nlm.nih.gov/23773745/) | 2013 | Caso clínico | Annales de Dermatologie et de Vénéréologie | Descripción de la forma papular de micosis fungoide y revisión de la literatura |
+| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Caso clínico | Skinmed | Linfoma angioinmunoblástico de células T con presentación cutánea, tratado inicialmente como psoriasis (incluido clobetasol); empeoró, lo que indica que no es una indicación respaldada |
+| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Caso clínico y revisión | Clinical Case Reports | Micosis fungoide con placas psoriasiformes que no respondió a corticoides tópicos y fue confundida con psoriasis |
+| [28804923](https://pubmed.ncbi.nlm.nih.gov/28804923/) | 2017 | Caso clínico | Pediatric Dermatology | Micosis fungoide hipopigmentada con transformación a células grandes en un niño |
+| [39803735](https://pubmed.ncbi.nlm.nih.gov/39803735/) | 2024 | Caso clínico | Acta Dermatovenerologica Croatica | Uso de ecografía de ultra alta frecuencia para evaluar la respuesta al gel de clormetina en micosis fungoide |
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 7 autorizaciones. El texto de indicación aprobada no figura en los datos de cada registro.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 79415 | CLOBISDIN 500 microgramos/ml solución cutánea | Solución cutánea | No especificada |
-| 85249 | CLOVATE 500 microgramos/g champú | Champú | No especificada |
-| 56530 | DECLOBAN 500 microgramos/g pomada | Pomada | No especificada |
-| 55746 | CLOVATE 0,5 mg/g crema | Crema | No especificada |
-| 90724 | ELEUS 0,5 mg/ml colirio en emulsión en envase unidosis | Colirio en emulsión en envase unidosis | No especificada |
+| 79415 | CLOBISDIN 500 microgramos/ml solución cutánea | Solución cutánea | No disponible |
+| 85249 | CLOVATE 500 microgramos/g champú | Champú | No disponible |
+| 56530 | DECLOBAN 500 microgramos/g pomada | Pomada | No disponible |
+| 55746 | CLOVATE 0,5 mg/g crema | Crema | No disponible |
+| 90724 | ELEUS 0,5 mg/ml colirio en emulsión en envase unidosis | Colirio en emulsión | No disponible |
 
----
+Hay 7 autorizaciones vigentes en total; la tabla muestra las 5 principales. Las otras dos son CLARELUX 500 microgramos/g espuma cutánea (66071) y CLOBEX 500 microgramos/g champú (68316).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales, todas con nivel de gravedad sin clasificar. Entre ellas figuran otros corticoides (triamcinolona, prednisona, hidrocortisona, prednisolona), inhibidores de la bomba de protones (omeprazol, pantoprazol, lansoprazol), calcitriol, vitamina A, doxiciclina, metronidazol y ondansetrón, entre otros.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto. Como medida general de clase, el uso prolongado de corticoides de clase I puede causar atrofia cutánea y absorción sistémica; el estudio observacional PMID 32603400 evaluó específicamente este riesgo en micosis fungoide temprana.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El nivel de evidencia es L3 y la etapa es S1. El único dato directo es un estudio retrospectivo sobre tolerabilidad cutánea de clobetasol en micosis fungoide temprana, y no hay ensayos clínicos registrados. Además, faltan los datos de seguridad del prospecto de la AEMPS, que bloquean el cribado de seguridad.
+Existe evidencia observacional (estudios de cohorte y series de casos) y uso clínico establecido de clobetasol tópico como tratamiento de primera línea en micosis fungoide temprana, coherente con el puntaje de TxGNN. Sin embargo, no hay ensayos clínicos registrados ni ECA, y la evidencia no abarca la enfermedad avanzada.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones)
-- Completar los datos del mecanismo de acción desde DrugBank
-- Revisar las 10 publicaciones restantes y el texto completo de los estudios de clobetasol en micosis fungoide (PMID 39741016, 9722724, 32603400)
-- Evaluar la eficacia y la comparación con otras terapias dirigidas a la piel
-- Evaluar la compatibilidad de las vías de administración y la similitud con la indicación original
-
-Este informe es solo de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.
+- Ensayos clínicos controlados que confirmen eficacia y seguridad en micosis fungoide en estadio temprano.
+- Revisión del prospecto de la AEMPS para obtener advertencias, contraindicaciones e indicaciones aprobadas, hoy ausentes.
+- Datos detallados del mecanismo de acción.
+- Limitar la indicación a enfermedad en estadio de mancha/placa y definir un plan de monitoreo de efectos adversos cutáneos y de absorción sistémica en uso prolongado.
+- Compatibilidad de vía de administración: confirmar que las formas cutáneas disponibles son adecuadas para la nueva indicación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

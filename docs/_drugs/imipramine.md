@@ -2,15 +2,15 @@
 layout: default
 title: Imipramine
 parent: Evidencia moderada (L3-L4)
-nav_order: 275
-evidence_level: L4
+nav_order: 410
+evidence_level: L3
 indication_count: 7
 ---
 
 # Imipramine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,81 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Imipramina: De Trastorno Depresivo Mayor a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+# Imipramina: De Trastorno de Ansiedad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
 
 ## Resumen en Una Frase
 
-La imipramina es un antidepresivo tricíclico comercializado en España como Tofranil, utilizado originalmente para el trastorno depresivo mayor.
-El modelo TxGNN predice que podría ser efectiva para el **TDAH**,
-con **1 ensayo clínico** registrado (sin relación real con el fármaco) y **20 publicaciones** que respaldan esta dirección solo de forma indirecta.
+Imipramina es un antidepresivo tricíclico, originalmente utilizado para trastornos de ansiedad, trastornos neuróticos, trastorno distímico y enuresis nocturna.
+El modelo TxGNN predice que podría ser efectivo para **TDAH**,
+sin ensayos clínicos registrados, pero con **20 publicaciones** recuperadas (en su mayoría revisiones narrativas y estudios antiguos) que respaldan esta dirección de forma limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según los datos farmacológicos; las fichas de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Trastorno de ansiedad (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos de DrugBank no traen una descripción detallada del mecanismo de acción. Los datos farmacológicos disponibles indican que la imipramina actúa sobre el transportador de noradrenalina (NET) y el transportador de serotonina (SERT), es decir, inhibe la recaptación de ambos neurotransmisores. También interactúa con el receptor muscarínico M2 y con varios canales de potasio (Kir3.2, Kir3.4 y Kv10.1).
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción original. No obstante, según el conocimiento farmacológico, la imipramina inhibe la recaptación presináptica de noradrenalina y, en menor medida, de serotonina. Los datos de farmacología confirman interacción con el transportador de noradrenalina (NET) y el de serotonina (SERT), además del receptor muscarínico M2 y varios canales de potasio.
 
-El TDAH se trata con fármacos que aumentan la señal noradrenérgica y dopaminérgica. Los no estimulantes, como la atomoxetina, comparten con la imipramina el efecto sobre la noradrenalina. Una de las revisiones recuperadas (Sangal, 2006) menciona a la imipramina y a la desipramina como inhibidores no selectivos de la recaptación de noradrenalina que pueden ser eficaces. Por eso la relación biológica es plausible.
+El TDAH se trata con fármacos que potencian la señalización noradrenérgica en los circuitos prefrontales, como la atomoxetina, un inhibidor selectivo de la recaptación de noradrenalina. La imipramina comparte este mecanismo de forma no selectiva, por lo que la predicción es biológicamente plausible. Existe además un informe específico sobre imipramina en el trastorno por déficit de atención (PMID 6849467, 1983) y revisiones que la mencionan como alternativa no estimulante cuando fallan los estimulantes.
 
-Aun así, este vínculo es una hipótesis. Los datos aportados no incluyen ningún ensayo controlado con imipramina en TDAH. La puntuación de 0.999 es solo una predicción del modelo y no equivale a eficacia demostrada.
+Sin embargo, la evidencia es antigua y mayormente narrativa. Las preocupaciones de seguridad cardiovascular de los tricíclicos (en especial en niños) y los riesgos de interacciones farmacológicas limitan su uso frente a los tratamientos de primera línea actuales.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03220308](https://clinicaltrials.gov/study/NCT03220308) | No aplica | Completado | 103 | Entrenamiento en atención plena (mindfulness) para niños de 8 a 16 años con TDAH y sus padres, frente a atención habitual. **No involucra imipramina** y no aporta evidencia de eficacia del fármaco. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Meta-revisión | Frontiers in Psychiatry | Evalúa eficacia, tolerabilidad y suicidalidad de los antidepresivos en niños y adolescentes, incluido el TDAH. Es una revisión general, no específica de imipramina. |
-| [34002501](https://pubmed.ncbi.nlm.nih.gov/34002501/) | 2021 | Revisión paraguas | World Psychiatry | Compara eficacia y aceptabilidad de intervenciones farmacológicas, psicosociales y de estimulación cerebral en trastornos mentales infantiles. |
-| [10790990](https://pubmed.ncbi.nlm.nih.gov/10790990/) | 1999 | Revisión (informe de evaluación) | Evidence Report/Technology Assessment | Evalúa la eficacia y seguridad a corto y largo plazo de tratamientos farmacológicos y no farmacológicos del TDAH. |
-| [17078784](https://pubmed.ncbi.nlm.nih.gov/17078784/) | 2006 | Estudio clínico / revisión | Expert Review of Neurotherapeutics | Usa la topografía P300 para elegir tratamiento en TDAH. Señala que desipramina e imipramina pueden ser eficaces. |
-| [9465283](https://pubmed.ncbi.nlm.nih.gov/9465283/) | 1996 | Estudio clínico | Clinical EEG | De 25 niños con mala respuesta a pemolina, 17 recibieron imipramina. Una latencia P300 prolongada predijo mala respuesta. |
-| [18304665](https://pubmed.ncbi.nlm.nih.gov/18304665/) | 2008 | Estudio clínico (EEG) | International Journal of Psychophysiology | Efectos de la imipramina sobre el EEG de niños con TDAH que no responden a estimulantes. |
-| [6849467](https://pubmed.ncbi.nlm.nih.gov/6849467/) | 1983 | Reporte clínico | American Journal of Psychiatry | Trata el uso de imipramina en el trastorno por déficit de atención. Sin resumen disponible. |
-| [2258453](https://pubmed.ncbi.nlm.nih.gov/2258453/) | 1990 | Estudio retrospectivo | Journal of Clinical Psychopharmacology | Analiza el efecto de la carbamazepina sobre las concentraciones plasmáticas de imipramina y desipramina en 36 niños con TDAH. |
-| [31776871](https://pubmed.ncbi.nlm.nih.gov/31776871/) | 2019 | Revisión | CNS Drugs | Panorama de interacciones farmacocinéticas de los fármacos usados en TDAH. |
-| [1351794](https://pubmed.ncbi.nlm.nih.gov/1351794/) | 1992 | Revisión | Clinical Therapeutics | TDAH en adultos: estima que entre el 30% y el 70% de los niños diagnosticados mantienen síntomas en la adultez. |
+| [6849467](https://pubmed.ncbi.nlm.nih.gov/6849467/) | 1983 | Informe clínico | Am J Psychiatry | Informe específico sobre el uso de imipramina en trastorno por déficit de atención |
+| [18304665](https://pubmed.ncbi.nlm.nih.gov/18304665/) | 2008 | Estudio clínico | Int J Psychophysiol | Efectos de la imipramina sobre el EEG en niños con TDAH que no responden a estimulantes |
+| [9465283](https://pubmed.ncbi.nlm.nih.gov/9465283/) | 1996 | Estudio clínico | Clin EEG | Una latencia P300 prolongada en TDAH predice mala respuesta a imipramina (17 niños) |
+| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Meta-revisión | Front Psychiatry | Eficacia, tolerabilidad y suicidalidad de antidepresivos en niños y adolescentes, incluido el TDAH |
+| [10790990](https://pubmed.ncbi.nlm.nih.gov/10790990/) | 1999 | Revisión | Evid Rep Technol Assess | Efectividad y seguridad de intervenciones farmacológicas y no farmacológicas en TDAH |
+| [15794722](https://pubmed.ncbi.nlm.nih.gov/15794722/) | 2005 | Revisión | Expert Opin Drug Saf | Seguridad de agentes no estimulantes; desipramina e imipramina pueden ser eficaces |
+| [17078784](https://pubmed.ncbi.nlm.nih.gov/17078784/) | 2006 | Estudio clínico | Expert Rev Neurother | Topografía P300 para elegir el tratamiento; inhibidores de noradrenalina (incl. imipramina) como opción |
+| [31776871](https://pubmed.ncbi.nlm.nih.gov/31776871/) | 2019 | Revisión | CNS Drugs | Interacciones farmacocinéticas clínicamente relevantes de los fármacos para TDAH |
+| [14501767](https://pubmed.ncbi.nlm.nih.gov/14501767/) | 2003 | Estudio clínico | J Urol | Manejo de incontinencia urinaria y enuresis nocturna en pacientes con TDAH |
+| [6487858](https://pubmed.ncbi.nlm.nih.gov/6487858/) | 1984 | Revisión | Br J Clin Psychol | Niños hiperactivos con imipramina o metilfenidato: aprendizaje dependiente del estado |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 40366 | TOFRANIL 10 mg comprimidos recubiertos | Comprimido recubierto | Amdipharm Limited |
-| 48384 | TOFRANIL 50 mg comprimidos recubiertos | Comprimido recubierto | Amdipharm Limited |
-| 31004 | TOFRANIL 25 mg comprimidos recubiertos | Comprimido recubierto | Amdipharm Limited |
-
-Los datos disponibles no incluyen el texto de indicación aprobada de estas autorizaciones.
+| 40366 | TOFRANIL 10 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
+| 48384 | TOFRANIL 50 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
+| 31004 | TOFRANIL 25 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Dianas farmacológicas registradas (no son interacciones medicamentosas clínicas):** NET, SERT, receptor muscarínico M2, Kir3.2, Kir3.4 y Kv10.1. La acción sobre el receptor M2 es relevante para los efectos anticolinérgicos. La acción sobre canales de potasio, sobre todo Kv10.1, merece revisión en los perfiles de seguridad cardiaca.
-- **Interacción descrita en la literatura:** la carbamazepina podría modificar las concentraciones plasmáticas de imipramina y desipramina en niños con TDAH (PMID 2258453).
-- El TDAH afecta sobre todo a población pediátrica, por lo que cualquier evaluación de un tricíclico en niños exige atención especial a la seguridad.
-
-Consultar el prospecto para la información completa de advertencias y contraindicaciones.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): epilepsia, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trastorno bipolar, trastorno afectivo mayor, trombocitopenia, neutropenia, agranulocitosis, abuso/dependencia de sustancias, hiperplasia prostática benigna, enfermedad coronaria, ictus y otros trastornos cerebrovasculares, infarto cerebral, íleo (incluido el paralítico) y obstrucción intestinal, hipertensión ocular, glaucoma de ángulo cerrado, parada cardíaca súbita, enfermedad de la conducción cardíaca, enfermedad cardiovascular y cardíaca, hipertiroidismo (enfermedad de Graves, tirotoxicosis) y piuria ureteral.
+- **Interacciones y dianas farmacológicas**: los datos disponibles describen dianas farmacológicas (receptor M2, canales Kir3.2, Kir3.4 y Kv10.1, NET y SERT), no interacciones con otros medicamentos con nivel de gravedad. Una revisión (PMID 31776871) señala que la polifarmacia en TDAH expone a interacciones farmacocinéticas con posibles efectos adversos.
+- Se destaca la preocupación por la seguridad cardiovascular de los tricíclicos, sobre todo en población pediátrica.
+- Las advertencias del prospecto de la AEMPS no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TDAH tiene un mecanismo plausible (inhibición de la recaptación de noradrenalina) y estudios clínicos pequeños con imipramina en niños. Sin embargo, no hay ningún ensayo controlado específico en los datos, y el único ensayo registrado no evalúa el fármaco. Además, falta la información de seguridad del prospecto de AEMPS, lo que impide avanzar a una evaluación de seguridad.
+La predicción es mecanísticamente plausible, pero la evidencia es antigua, mayormente narrativa, sin ensayos clínicos registrados, y existen alternativas establecidas con mejor perfil de seguridad (estimulantes, atomoxetina). Además, falta el texto de seguridad del prospecto, lo cual impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un requisito bloqueante.
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un dato bloqueante.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Revisar de forma sistemática los ensayos controlados de imipramina en TDAH, con comparación frente a estimulantes y atomoxetina.
-- Evaluar el perfil de seguridad cardiaca y anticolinérgica, sobre todo en población pediátrica.
-
-**Otras predicciones del modelo:** el TDAH de tipo inatento se considera parte de la misma pregunta. El trastorno obsesivo-compulsivo tiene un vínculo serotoninérgico, pero la evidencia procede sobre todo de la clomipramina y se clasifica L4. Las demás predicciones (síndrome faciodigitogenital, trastorno específico del desarrollo, fibroma condromixoide y tortícolis paroxística benigna de la infancia) no tienen sustento y quedan en espera (L5).
+- Revisión sistemática de la evidencia de imipramina en TDAH, con ensayos controlados modernos.
+- Evaluación del perfil cardiovascular e interacciones en población pediátrica y adulta.
+- Comparación frente a los tratamientos actuales de primera y segunda línea.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

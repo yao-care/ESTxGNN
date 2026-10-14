@@ -2,7 +2,7 @@
 layout: default
 title: Levocabastine
 parent: Evidencia moderada (L3-L4)
-nav_order: 314
+nav_order: 464
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,19 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Levocabastina: De Conjuntivitis y Rinitis Alérgicas a Urticaria Alérgica
+# Levocabastina: De Conjuntivitis Atópica a Urticaria Alérgica
 
 ## Resumen en Una Frase
 
-Levocabastina es un antihistamínico de uso tópico (colirio y spray nasal), utilizado para la conjuntivitis alérgica estacional y la rinitis alérgica.
+Levocabastina es un antihistamínico antagonista selectivo de los receptores H1, utilizado originalmente en el tratamiento de la conjuntivitis alérgica (atópica, papilar y primaveral).
 El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**,
-pero actualmente hay **0 ensayos clínicos** y **3 publicaciones**, ninguna con datos específicos de urticaria.
+pero actualmente no hay **ningún ensayo clínico** registrado y solo se dispone de **3 publicaciones** de apoyo indirecto (una revisión, un estudio clínico en rinitis alérgica y un análisis de farmacovigilancia).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Conjuntivitis alérgica estacional y rinitis alérgica (según información farmacológica; las autorizaciones de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Conjuntivitis atópica, papilar y primaveral (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Urticaria alérgica |
 | Puntaje de Predicción TxGNN | 99,18% |
 | Nivel de Evidencia | L4 |
@@ -51,11 +51,13 @@ pero actualmente hay **0 ensayos clínicos** y **3 publicaciones**, ninguna con 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según el conocimiento de la clase farmacológica, levocabastina es un antagonista selectivo del receptor H1 de histamina. Su eficacia en la conjuntivitis y la rinitis alérgicas está establecida, y mecanísticamente podría ser aplicable a la urticaria alérgica.
+No se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la farmacología establecida, la levocabastina es un antagonista selectivo del receptor H1 de la histamina. En la urticaria alérgica, la liberación de histamina por los mastocitos provoca el habón y el eritema, y los antihistamínicos H1 son el tratamiento de primera línea. Por ello, el mecanismo es biológicamente plausible.
 
-En la urticaria, la histamina liberada por los mastocitos produce ronchas y prurito. Por eso un antagonista H1 es una hipótesis biológicamente coherente. Los antihistamínicos H1 de segunda generación ya se usan de forma sistémica en la urticaria crónica.
+La relación con la indicación original es de tipo fisiopatológico: tanto la conjuntivitis alérgica como la urticaria alérgica son procesos mediados por histamina.
 
-Existe una brecha de traslación importante. Levocabastina solo está comercializada en España como agente tópico nasal u oftálmico, mientras que la urticaria se trata normalmente con antihistamínicos sistémicos. No hay datos específicos en urticaria que respalden la exposición tópica como estrategia.
+Sin embargo, existe una limitación importante: la levocabastina solo se comercializa en forma de colirio y spray nasal, con exposición sistémica mínima. No hay evidencia de que estas vías controlen la urticaria cutánea. Además, ya existen antihistamínicos H1 sistémicos (p. ej., de segunda generación) que cubren esta necesidad, por lo que un producto tópico reposicionado encaja mal.
+
+También se observa una segunda predicción (conjuntivitis rosácea, 99,17%), sin ninguna evidencia clínica ni bibliográfica. La rosácea ocular se debe principalmente a disfunción de las glándulas de Meibomio, inestabilidad de la película lagrimal, inflamación y factores microbianos o de Demodex, y no principalmente a la histamina. La predicción probablemente refleja la cercanía nosológica con otras conjuntivitis. Su nivel de evidencia es L5 y se recomienda Hold.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,36 +67,37 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [8938880](https://pubmed.ncbi.nlm.nih.gov/8938880/) | 1996 | ECA (cruzado, doble ciego, controlado con placebo; n=22) | Rhinology | El spray nasal de levocabastina redujo de forma significativa los estornudos y la rinorrea tras provocación alérgica nasal. Es un modelo de rinitis alérgica, no de urticaria. |
-| [1685361](https://pubmed.ncbi.nlm.nih.gov/1685361/) | 1991 | Revisión | Clinical Pharmacokinetics | Resume la farmacocinética y farmacodinamia de los antihistamínicos H1 de segunda generación, usados en rinoconjuntivitis alérgica y urticaria crónica. Es una revisión de clase, no específica de levocabastina. |
-| [42585211](https://pubmed.ncbi.nlm.nih.gov/42585211/) | 2026 | Análisis descriptivo de farmacovigilancia | PLoS One | Compara las reacciones adversas de azelastina y levocabastina en la base WHO-VigiAccess. Aporta datos de seguridad, no de eficacia. |
+| [8938880](https://pubmed.ncbi.nlm.nih.gov/8938880/) | 1996 | Estudio clínico (ECA cruzado, doble ciego, controlado con placebo) | Rhinology | En 22 pacientes con rinitis alérgica, la levocabastina nasal (0,5 mg/ml) redujo significativamente los estornudos y la rinorrea tras provocación nasal con alérgeno; evidencia en rinitis, no en urticaria |
+| [1685361](https://pubmed.ncbi.nlm.nih.gov/1685361/) | 1991 | Revisión | Clinical Pharmacokinetics | Revisa la farmacocinética y farmacodinamia de los antihistamínicos H1 de segunda generación, usados en rinoconjuntivitis alérgica y urticaria crónica; no es específica de levocabastina |
+| [42585211](https://pubmed.ncbi.nlm.nih.gov/42585211/) | 2026 | Análisis descriptivo de farmacovigilancia | PloS one | Caracteriza las reacciones adversas de azelastina y levocabastina a partir de la base WHO-VigiAccess; aporta información de seguridad, no de eficacia en urticaria |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 60920 | REACTINE LEVOCABASTINA 0,5 mg/ml | Colirio en suspensión | No disponible en el registro |
-| 60918 | BILINA 0,5 mg/ml | Solución para pulverización nasal | No disponible en el registro |
-| 60917 | BILINA 0,5 mg/ml | Colirio en suspensión | No disponible en el registro |
+| 60920 | REACTINE LEVOCABASTINA 0,5 mg/ml colirio en suspensión | Colirio en suspensión | Texto de indicación no disponible |
+| 60918 | BILINA 0,5 mg/ml suspensión para pulverización nasal | Solución para pulverización nasal | Texto de indicación no disponible |
+| 60917 | BILINA 0,5 mg/ml colirio en suspensión | Colirio en suspensión | Texto de indicación no disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Interacciones Farmacológicas**: los datos farmacológicos compilados registran una interacción con el receptor NTS2 (NTSR2), sin afinidad documentada que sustente este mecanismo ni nivel de gravedad clínica asignado. Se señala además que la FDA registra este fármaco como «descontinuado» en EE. UU.
 
-No hay datos de interacciones farmacológicas con otros medicamentos. La única entrada de la base es farmacológica: el receptor NTS2 (NTSR2), sin datos de afinidad que la respalden.
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es plausible por el mecanismo antihistamínico H1, pero no hay ensayos ni literatura específica en urticaria. Además, los productos autorizados son solo tópicos, lo que limita la traslación a una enfermedad que se trata con antihistamínicos sistémicos. La segunda predicción del modelo, conjuntivitis rosácea (puntaje 99,17%), solo tiene respaldo del modelo (L5) y no está respaldada por el mecanismo, por lo que también queda en Hold.
+Aunque el puntaje TxGNN es alto y el mecanismo H1 es plausible, no hay ensayos clínicos y la evidencia es solo indirecta (L4). Las formulaciones comercializadas (oftálmica y nasal) con exposición sistémica mínima no son adecuadas para una enfermedad cutánea, y ya existen alternativas sistémicas.
 
 **Para avanzar se necesita:**
-- Confirmar el mecanismo de acción y su afinidad por H1 desde DrugBank u otra fuente primaria.
-- Obtener el prospecto de AEMPS para revisar advertencias y contraindicaciones, pendiente antes de cualquier cribado de seguridad.
-- Evaluar si existe una vía de administración viable para urticaria (sistémica o tópica cutánea), dado que hoy solo hay formas nasal y oftálmica.
-- Buscar datos clínicos o preclínicos específicos de levocabastina en urticaria.
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones) para completar la evaluación de seguridad
+- Confirmar los datos del mecanismo de acción en DrugBank
+- Evidencia de que alguna vía o formulación pueda lograr exposición suficiente para controlar la urticaria cutánea
+- Estudios clínicos o preclínicos específicos de levocabastina en urticaria que demuestren ventajas frente a los antihistamínicos sistémicos actuales
+- Completar el análisis de compatibilidad de vías de administración, actualmente pendiente
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

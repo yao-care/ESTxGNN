@@ -2,7 +2,7 @@
 layout: default
 title: Crizotinib
 parent: Solo predicción del modelo (L5)
-nav_order: 147
+nav_order: 208
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Crizotinib: De Cáncer de Pulmón No Microcítico ALK/ROS1 Positivo a Fibromatosis Gingival
+# Crizotinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Crizotinib es un inhibidor de tirosina quinasa (ALK, ROS1 y MET), utilizado originalmente en el cáncer de pulmón no microcítico con reordenamientos de ALK o ROS1.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
-
----
+Crizotinib es un inhibidor de tirosina quinasa utilizado originalmente para el tratamiento del carcinoma de pulmón no microcítico (CPNM).
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico ALK/ROS1 positivo (según la literatura; los textos de indicación de AEMPS no vienen en el paquete de evidencia) |
+| Indicación Original | Carcinoma de pulmón no microcítico / cáncer de pulmón (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
@@ -50,76 +48,62 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 | Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Crizotinib inhibe las quinasas ALK, ROS1 y MET. Este mecanismo está bien establecido en tumores con reordenamientos de ALK o ROS1, donde estas proteínas actúan como motores oncogénicos. Los datos de DrugBank sobre el mecanismo de acción detallado no están disponibles en el paquete, por lo que esta descripción se basa en el resumen del análisis mecanístico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida de la literatura, crizotinib es un inhibidor competitivo de ATP de las tirosina quinasas receptoras ALK, ROS1 y c-MET. Su eficacia en CPNM con reordenamientos de ALK o ROS1 está bien establecida.
 
-La fibromatosis gingival es un sobrecrecimiento fibroso benigno de la encía, sin relación documentada con las vías ALK, ROS1 o MET. No se ha identificado un vínculo entre el mecanismo de crizotinib y esta enfermedad. La similitud con la indicación original está pendiente de evaluación.
-
-La puntuación alta del modelo (99.81%) refleja una asociación estadística en el grafo de conocimiento, no evidencia biológica ni clínica. Sin ensayos ni literatura, la predicción debe considerarse solo una hipótesis exploratoria.
-
----
+Para la fibromatosis gingival, sin embargo, **no se ha identificado un vínculo mecanístico plausible** entre la inhibición de ALK/ROS1/MET y esta enfermedad en los datos disponibles. La puntuación alta del modelo (99.81%) no está acompañada de ensayos, literatura ni una hipótesis biológica respaldada, por lo que debe interpretarse con mucha cautela. Es una señal computacional que requeriría validación preclínica antes de cualquier consideración clínica.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 112793007 | XALKORI 150 MG GRANULADO EN CAPSULAS PARA ABRIR | Granulado en cápsulas para abrir |
-| 112793003 | XALKORI 250 MG CAPSULAS DURAS | Cápsula dura |
-| 112793005 | XALKORI 20 MG GRANULADO EN CAPSULAS PARA ABRIR | Granulado en cápsulas para abrir |
-| 112793001 | XALKORI 200 MG CAPSULAS DURAS | Cápsula dura |
-| 112793006 | XALKORI 50 MG GRANULADO EN CAPSULAS PARA ABRIR | Granulado en cápsulas para abrir |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 112793007 | XALKORI 150 MG granulado en cápsulas para abrir | Granulado en cápsulas para abrir | No disponible en los datos compilados |
+| 112793003 | XALKORI 250 MG cápsulas duras | Cápsula dura | No disponible en los datos compilados |
+| 112793005 | XALKORI 20 MG granulado en cápsulas para abrir | Granulado en cápsulas para abrir | No disponible en los datos compilados |
+| 112793001 | XALKORI 200 MG cápsulas duras | Cápsula dura | No disponible en los datos compilados |
+| 112793006 | XALKORI 50 MG granulado en cápsulas para abrir | Granulado en cápsulas para abrir | No disponible en los datos compilados |
 
-Titular de todas las autorizaciones: Pfizer Europe MA EEIG. Todas las vías de administración son orales.
-
----
+Todas las autorizaciones pertenecen a Pfizer Europe MA EEIG, son de monofármaco y están vigentes.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/ROS1/MET) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/ROS1/MET), no citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | La literatura describe hepatotoxicidad, cardiotoxicidad (bradicardia, prolongación del QT) y enfermedad pulmonar intersticial. Se recomienda vigilar función hepática, ECG y síntomas respiratorios. Confirmar en el prospecto. |
+| Items de Monitoreo | Función hepática (se ha notificado insuficiencia hepática fulminante mortal), ECG/frecuencia cardíaca (bradicardia, prolongación del QT), hemograma |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Las de nivel **mayor** incluidas entre las principales son claritromicina, cisaprida, dolasetrón, eliglustat y granisetrón. Hay además numerosas interacciones de nivel moderado, entre ellas famotidina, metformina, loperamida, bupropión, aprepitant, dexametasona, bisacodilo y budesonida.
+- **Señales de seguridad en la literatura**: se han descrito casos de insuficiencia hepática fulminante mortal, toxicidad cardíaca múltiple (bradicardia, prolongación del QT, pericarditis), síndrome del seno enfermo, eritema multiforme y esofagitis erosiva en un paciente pediátrico. Son casos aislados, pero relevantes para cualquier evaluación de reposicionamiento.
 
----
+No se dispone de datos de advertencias y contraindicaciones del prospecto; consultar el prospecto para esa información.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5): no hay ensayos, no hay literatura y no existe un vínculo mecanístico documentado entre ALK/ROS1/MET y la fibromatosis gingival. Además, el perfil de toxicidad de crizotinib es considerable para una enfermedad benigna.
+La predicción se basa únicamente en la puntuación del modelo (nivel L5), sin ensayos clínicos, sin literatura y sin vínculo mecanístico plausible con la fibromatosis gingival. Además, el perfil de seguridad de crizotinib (hepatotoxicidad, cardiotoxicidad, múltiples interacciones) exige un beneficio claro que hoy no está respaldado.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS, con advertencias, contraindicaciones e indicaciones aprobadas, para poder hacer el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Buscar evidencia preclínica que relacione las vías ALK/ROS1/MET con la fibrosis gingival.
-- Valorar la relación beneficio-riesgo, dado que la fibromatosis gingival es benigna y crizotinib tiene riesgos de hepatotoxicidad y cardiotoxicidad.
-
-**Nota:** entre las otras predicciones del paquete, "carcinoma del hilio pulmonar" (puesto 4) es la única con un vínculo mecanístico plausible. Se apoya en dos informes de caso de adenocarcinoma de pulmón ALK/ROS1 positivo, y su beneficio depende de la selección molecular, no de la localización anatómica.
+- Una hipótesis mecanística que vincule ALK/ROS1/MET con la fibromatosis gingival, y validación preclínica (modelos celulares o animales)
+- Datos del mecanismo de acción del fármaco desde fuentes primarias
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Evaluación de la relación beneficio-riesgo en una enfermedad benigna, dada la toxicidad conocida
+- Revisión de otras predicciones mejor respaldadas, como los tumores pulmonares con alteraciones de ALK/ROS1, aunque estas se solapan con la indicación ya aprobada y no constituyen reposicionamiento genuino
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

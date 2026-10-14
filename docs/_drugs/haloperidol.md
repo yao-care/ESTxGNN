@@ -2,7 +2,7 @@
 layout: default
 title: Haloperidol
 parent: Solo predicción del modelo (L5)
-nav_order: 264
+nav_order: 390
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,88 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Haloperidol: De Antipsicótico a Trastorno Congénito de la Glicosilación con Fucosilación Defectuosa
+# Haloperidol: De Trastorno Psicótico a Trastorno Congénito de Glicosilación con Fucosilación Defectuosa
 
 ## Resumen en Una Frase
 
-Haloperidol es un antagonista del receptor de dopamina D2, un fármaco antipsicótico comercializado en España.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno congénito de la glicosilación con fucosilación defectuosa**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+Haloperidol es un antipsicótico clásico, utilizado originalmente para tratar trastornos psicóticos como la esquizofrenia y el síndrome de Tourette.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno congénito de glicosilación con fucosilación defectuosa**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Nueva Indicación Predicha | Trastorno congénito de la glicosilación con fucosilación defectuosa |
+| Indicación Original | Trastorno psicótico (incluye esquizofrenia, trastorno esquizoafectivo, trastorno esquizofreniforme y síndrome de Tourette) |
+| Nueva Indicación Predicha | Trastorno congénito de glicosilación con fucosilación defectuosa |
 | Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L5 (solo predicción del modelo) |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el paquete de evidencia. Según la información conocida, haloperidol actúa bloqueando los receptores de dopamina D2, y ese es el fundamento de su efecto antipsicótico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, haloperidol es un antagonista del receptor de dopamina D2. Su eficacia en psicosis y esquizofrenia está bien establecida, y ese efecto se explica por la reducción de la hiperactividad dopaminérgica.
 
-En este caso no se identifica una relación plausible entre ese mecanismo y la enfermedad predicha. El trastorno se debe a un defecto en la fucosilación, una etapa de la biosíntesis de glicanos, y el bloqueo dopaminérgico no tiene un vínculo conocido con esa vía.
+La nueva indicación es muy distinta de la original. Los trastornos congénitos de glicosilación con fucosilación defectuosa son enfermedades metabólicas hereditarias raras. Se asocian al transporte de GDP-fucosa (por ejemplo, el gen SLC35C1) y a la modificación de proteínas con azúcares. No se identificó ninguna relación mecanística plausible entre el bloqueo de receptores D2 y estas vías.
 
-El puntaje alto del modelo (99.91%) proviene de patrones en el grafo de conocimiento, sin ensayos ni literatura que lo respalden. Debe considerarse una hipótesis sin validar.
+El puntaje del modelo es muy alto (99.91%), pero es un resultado computacional sin respaldo experimental ni clínico. Por ello, la predicción debe considerarse una hipótesis sin fundamento mecanístico evidente, no una pista terapéutica.
+
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 58355 | HALOPERIDOL ESTEVE 2 mg/ml SOLUCION ORAL | Solución oral |
-| 58343 | HALOPERIDOL ESTEVE 10 mg COMPRIMIDOS | Comprimido |
-| 55576 | HALOPERIDOL PRODES 10 mg COMPRIMIDOS | Comprimido |
-| 33488 | HALOPERIDOL PRODES 2mg/ml GOTAS ORALES EN SOLUCION | Gotas orales en solución |
-| 58345 | HALOPERIDOL ESTEVE 5 mg/ml SOLUCION INYECTABLE | Solución inyectable |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 58355 | Haloperidol Esteve 2 mg/ml solución oral | Solución oral | — |
+| 58343 | Haloperidol Esteve 10 mg comprimidos | Comprimido | — |
+| 55576 | Haloperidol Prodes 10 mg comprimidos | Comprimido | — |
+| 33488 | Haloperidol Prodes 2 mg/ml gotas orales en solución | Gotas orales en solución | — |
+| 58345 | Haloperidol Esteve 5 mg/ml solución inyectable | Solución inyectable | — |
+
+Las cinco autorizaciones son de medicamentos de un solo principio activo y están vigentes. El texto de la indicación aprobada no figura en los datos compilados.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas**: se registraron unas 100 interacciones. Entre las de nivel **mayor** figuran bupropión, morfina, claritromicina y dolasetrón. Hay además numerosas interacciones de nivel moderado, por ejemplo con famotidina, epinefrina, hidrocortisona, anfotericina B, atropina, loperamida y aprepitant.
+- **Condiciones de precaución o contraindicación según la base de conocimiento** (no proceden del prospecto): síndrome de QT largo y torsades de pointes, epilepsia, enfermedades de los ganglios basales y distonías, enfermedad hepática y de la vesícula biliar, hipotiroidismo, deficiencia de potasio, neutropenia, agranulocitosis y leucopenia (incluidas las neutropenias congénitas), hipotensión, carcinoma de mama y síndrome neuroléptico maligno.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible. No hay base para avanzar en esta indicación.
+La predicción para esta indicación es solo computacional (nivel L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible con el mecanismo antidopaminérgico del fármaco. Además, haloperidol tiene un perfil de seguridad exigente (QT, efectos extrapiramidales, numerosas interacciones), lo que no justifica avanzar sin una base científica.
 
 **Para avanzar se necesita:**
-- Evidencia preclínica o de mecanismo que conecte la vía dopaminérgica con la fucosilación defectuosa
-- Datos de seguridad y contraindicaciones del prospecto de la AEMPS, actualmente no disponibles
-- Datos de mecanismo de acción y de indicaciones aprobadas en España, actualmente no disponibles
+- Una hipótesis mecanística que conecte la antagonización de D2 con la vía de fucosilación o transporte de GDP-fucosa
+- Estudios preclínicos in vitro o en modelos celulares de la enfermedad
+- Datos completos de mecanismo de acción y de advertencias y contraindicaciones del prospecto de la AEMPS
+- Evaluación de la viabilidad en una población pediátrica con una enfermedad rara
 
-**Nota sobre otras predicciones:** el paquete incluye otras nueve indicaciones predichas. La de **trastorno bipolar maníaco** (puesto 10, puntaje 99.83%) es la única con evidencia sólida: 4 ensayos de Fase 3 completados con haloperidol como comparador o brazo de tratamiento, y un metaanálisis en red. Esa evidencia (L1, Proceed with Guardrails) probablemente refleja un uso ya establecido más que un reposicionamiento nuevo. Conviene evaluarla en un informe aparte, verificando su estado de aprobación en España y considerando el riesgo de síntomas extrapiramidales.
+**Nota:** entre las predicciones secundarias del modelo, el **trastorno afectivo bipolar maníaco** tiene el respaldo más sólido de los datos compilados: 3 ensayos clínicos y múltiples revisiones sistemáticas y metaanálisis, con haloperidol como comparador activo en un ensayo de Fase 3 completado (NCT00129220). Esa indicación ya está respaldada por guías clínicas y su evaluación corresponde a un informe aparte. Otras predicciones, como la distrofia retiniana, solo cuentan con estudios preclínicos en animales, y las relacionadas con la miopía son especulativas y posiblemente desfavorables.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

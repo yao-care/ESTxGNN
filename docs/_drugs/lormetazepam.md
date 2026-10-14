@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lormetazepam
-parent: Solo predicción del modelo (L5)
-nav_order: 332
-evidence_level: L5
+parent: Evidencia alta (L1-L2)
+nav_order: 485
+evidence_level: L1
 indication_count: 10
 ---
 
 # Lormetazepam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lormetazepam: Predicción de Insomnio (indicación ya establecida en el mercado)
+# Lormetazepam: De Insomnio a Insomnio (Indicación ya establecida)
 
 ## Resumen en Una Frase
 
-Lormetazepam es una benzodiacepina de acción corta, comercializada en España como hipnótico sedante.
-El modelo TxGNN predice que podría ser eficaz para **insomnio**, que en la práctica es una indicación ya establecida y no un reposicionamiento en sentido estricto.
-Hay **3 ensayos clínicos** y **4 publicaciones** vinculados a esta predicción, con un ensayo de Fase 3 completado frente a un comparador.
+Lormetazepam es una benzodiazepina hipnótica comercializada en España, cuya indicación original no figura en el texto de las autorizaciones compiladas, pero que se utiliza clásicamente para el insomnio.
+El modelo TxGNN predice como primera indicación el **insomnio**, con **2 ensayos clínicos** y **3 publicaciones** directamente asociados. Es una indicación ya establecida, por lo que no se trata de un reposicionamiento en sentido estricto.
 
 ---
 
@@ -43,22 +42,23 @@ Hay **3 ensayos clínicos** y **4 publicaciones** vinculados a esta predicción,
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | No disponible en los textos de autorización compilados (el uso hipnótico para el insomnio se deduce del perfil del fármaco) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,98% |
-| Nivel de Evidencia | L2 (ver nota) |
+| Puntaje de Predicción TxGNN | 99.98% |
+| Nivel de Evidencia | L1 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
-
-**Nota sobre el nivel de evidencia:** el Evidence Pack asigna L1. Con las reglas de este informe solo hay un ECA de Fase 3 completado (NCT00679900), ya que NCT00788515 fue terminado con 33 participantes. Por eso se asigna L2. Los registros de AEMPS no traen el texto de indicación aprobada, así que no se puede citar una indicación original desde esa fuente.
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Lormetazepam potencia la señalización del receptor GABA-A, lo que produce efectos sedantes e hipnóticos. Los datos de mecanismo de acción de DrugBank no están disponibles. Esta descripción proviene de la justificación mecanística del Evidence Pack y del conocimiento general de la clase.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, lormetazepam es una benzodiazepina que modula positivamente los receptores GABA-A, lo que produce efectos sedante-hipnóticos. Esto coincide directamente con el tratamiento del insomnio.
 
-El insomnio es el uso comercial establecido del fármaco. La predicción del modelo coincide con la práctica clínica real, por lo que funciona como confirmación y no como una nueva hipótesis terapéutica. Esa coherencia respalda la fiabilidad del puntaje, pero no aporta un hallazgo novedoso.
+La predicción del insomnio no es un reposicionamiento real: es el uso establecido y comercializado del fármaco. El modelo TxGNN, por tanto, redescubre la indicación conocida, y está respaldada por ensayos de fase 3 con comparador activo.
+
+Otras predicciones del modelo (ansiedad, trastorno de ansiedad, trastorno del sueño de inicio y mantenimiento) son mecanísticamente plausibles por el mismo efecto GABAérgico. Varias de las demás (abuso de alucinógenos, síndrome de cauda equina, tortícolis paroxística benigna de la infancia) carecen de fundamento mecanístico creíble y probablemente sean artefactos del grafo de conocimiento.
 
 ---
 
@@ -66,9 +66,8 @@ El insomnio es el uso comercial establecido del fármaco. La predicción del mod
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00679900](https://clinicaltrials.gov/study/NCT00679900) | Fase 3 | Completado | 283 | Eplivanserina 5 mg vs lormetazepam 1 mg durante 4 semanas en insomnio primario crónico con dificultad de mantenimiento del sueño. Evalúa somnolencia residual matutina, seguridad, insomnio de rebote y síntomas de abstinencia. Lormetazepam es el comparador activo. |
-| [NCT00788515](https://clinicaltrials.gov/study/NCT00788515) | Fase 3 | Terminado | 33 | Volinanserina 2 mg vs lormetazepam 1 mg, mismo diseño de 4 semanas. Terminado con solo 33 participantes, por lo que tiene poca potencia y aporta poco. |
-| [NCT06473415](https://clinicaltrials.gov/study/NCT06473415) | N/A | Reclutando | 50 | Efecto de la infusión continua de lormetazepam sobre el EEG y la calidad del sueño en pacientes críticos en UCI. Sin resultados todavía. |
+| [NCT00679900](https://clinicaltrials.gov/study/NCT00679900) | Fase 3 | Completado | 283 | Eplivanserina 5 mg vs lormetazepam 1 mg durante 4 semanas en insomnio primario crónico con dificultad de mantenimiento del sueño; compara somnolencia matutina, seguridad, insomnio de rebote y abstinencia |
+| [NCT00788515](https://clinicaltrials.gov/study/NCT00788515) | Fase 3 | Terminado | 33 | Volinanserina 2 mg vs lormetazepam 1 mg en insomnio de mantenimiento; terminado antes de tiempo, con poca potencia estadística |
 
 ---
 
@@ -76,32 +75,31 @@ El insomnio es el uso comercial establecido del fármaco. La predicción del mod
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | Ensayo clínico comparativo | J Int Med Res | Lormetazepam 1 mg vs diazepam 5 mg durante 7 días en 100 pacientes ambulatorios con trastornos del sueño. Lormetazepam fue significativamente mejor en reducir el tiempo para dormirse y en prolongar el sueño continuo (p < 0,05). |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Uso clínico de los hipnóticos. Defiende disponer de varias benzodiacepinas con distinta farmacocinética y farmacodinamia según el patrón de insomnio. |
-| [2873832](https://pubmed.ncbi.nlm.nih.gov/2873832/) | 1986 | Estudio clínico no controlado | Br J Clin Pract | Transferencia de usuarios crónicos de nitrazepam con insomnio a lormetazepam. Sin resumen disponible. |
-| [11215344](https://pubmed.ncbi.nlm.nih.gov/11215344/) | 2001 | Revisión | MMW Fortschr Med | Un antidepresivo como alternativa a las benzodiacepinas para dormir. Sin resumen disponible. |
-
-La evidencia bibliográfica es antigua (1981-2001) y limitada. Solo un estudio es comparativo controlado.
+| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | ECA | J Int Med Res | Lormetazepam 1 mg superó a diazepam 5 mg en reducir la latencia del sueño y prolongar el sueño ininterrumpido en 100 pacientes ambulatorios |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Uso clínico de hipnóticos y necesidad de contar con distintos perfiles farmacocinéticos |
+| [2873832](https://pubmed.ncbi.nlm.nih.gov/2873832/) | 1986 | Cohorte | Br J Clin Pract | Transferencia de usuarios crónicos de nitrazepam a lormetazepam |
 
 ---
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones. El registro no incluye texto de indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 89877 | Lormetazepam Alter 2 mg comprimidos EFG | Comprimido | Laboratorios Alter S.A. |
-| 63332 | Noctamid 2,5 mg/ml gotas orales en solución | Gotas orales en solución | Teofarma S.R.L. |
-| 75732 | Lormetazepam Stada 1 mg comprimidos EFG | Comprimido | Laboratorio Stada S.L. |
-| 88831 | Lormetazepam Tecnigen 1 mg comprimidos EFG | Comprimido | Tecnimede España Industria Farmacéutica S.A. |
-| 73584 | Lormetazepam Kern Pharma 1 mg comprimidos EFG | Comprimido | Kern Pharma S.L. |
+| 89877 | Lormetazepam Alter 2 mg comprimidos EFG | Comprimido | No disponible |
+| 63332 | Noctamid 2,5 mg/ml gotas orales en solución | Gotas orales en solución | No disponible |
+| 75732 | Lormetazepam Stada 1 mg comprimidos EFG | Comprimido | No disponible |
+| 88831 | Lormetazepam Tecnigen 1 mg comprimidos EFG | Comprimido | No disponible |
+| 58639 | Loramet 2 mg comprimidos | Comprimido | No disponible |
+
+Hay 20 autorizaciones vigentes en total, todas de monofármaco (sin combinaciones) y ninguna cancelada.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se recuperaron advertencias, contraindicaciones ni interacciones farmacológicas.
+Consultar el prospecto para informar la seguridad. Los datos compilados no incluyen advertencias, contraindicaciones ni interacciones farmacológicas.
+
+Como orientación de cautela derivada de la literatura revisada: riesgo de dependencia, insomnio de rebote, efectos residuales al día siguiente (somnolencia, deterioro psicomotor y de memoria) y mayor riesgo en personas de edad avanzada.
 
 ---
 
@@ -110,20 +108,14 @@ Consultar el prospecto para información de seguridad. No se recuperaron adverte
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El insomnio es una indicación ya establecida de lormetazepam, con un ECA de Fase 3 completado y estudios comparativos clásicos. La predicción es coherente, pero aporta poca novedad. Debe avanzar con salvaguardas por el riesgo de dependencia y tolerancia, el deterioro psicomotor al día siguiente, la cautela en personas mayores y con alcohol u otros depresores del SNC.
+El insomnio está respaldado por un ensayo de fase 3 completado (283 participantes) en el que lormetazepam es comparador activo, además de un segundo ensayo de fase 3 terminado prematuramente y literatura clínica. Se trata de una indicación ya establecida, por lo que la decisión se centra en gestionar el riesgo. El resto de las indicaciones predichas quedan en *Hold* (abuso de sustancias, cauda equina, tortícolis paroxística infantil) o como pregunta de investigación (ansiedad, trastorno de ansiedad).
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS para obtener advertencias y contraindicaciones.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Confirmar el texto de indicación aprobada en los registros de AEMPS.
-
-**Otras predicciones del modelo (no evaluadas en detalle):**
-- Ansiedad y trastorno de ansiedad tienen evidencia L3, con solo estudios indirectos (sedación en UCI, farmacovigilancia). Quedan como pregunta de investigación.
-- Delirium por abstinencia alcohólica es plausible por la clase farmacológica, pero no tiene evidencia y queda en espera.
-- Abuso de alucinógenos, barbitúricos y antidepresivos, síndrome de cauda equina y tortícolis paroxística benigna de la infancia probablemente son artefactos del grafo, sin respaldo terapéutico. Todos quedan en espera.
-- "Trastorno del sueño, inicio y mantenimiento" es casi sinónimo de insomnio y conviene fusionarlo con esa entrada.
-
-*Los resultados de este informe son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Obtener el prospecto de la AEMPS para confirmar indicaciones, advertencias y contraindicaciones
+- Datos detallados del mecanismo de acción (MOA)
+- Limitar la duración del tratamiento y monitorizar dependencia, insomnio de rebote y efectos residuales
+- Precaución específica en pacientes de edad avanzada (caídas, deterioro cognitivo)
+- Para ansiedad: ensayos específicos de lormetazepam, dado que la evidencia actual son revisiones y estudios farmacológicos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

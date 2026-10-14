@@ -2,7 +2,7 @@
 layout: default
 title: Metoclopramide
 parent: Evidencia moderada (L3-L4)
-nav_order: 349
+nav_order: 517
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Metoclopramida: De Náuseas, Vómitos y Trastornos de Motilidad Gástrica a Úlcera Gástrica
+# Metoclopramida: De Enfermedad por Reflujo Gastroesofágico a Úlcera Gástrica
 
 ## Resumen en Una Frase
 
-> Metoclopramida es un antiemético y procinético que se usa para las náuseas y los vómitos, el reflujo gastroesofágico y para acelerar el vaciamiento gástrico.
-> El modelo TxGNN predice que podría ser efectivo para la **úlcera gástrica**,
-> pero solo **2 ensayos clínicos** (ninguno con resultados sobre curación de úlceras) y **20 publicaciones** (en su mayoría revisiones y estudios en animales) respaldan esta dirección, por lo que la evidencia es débil.
+Metoclopramida es un procinético (antagonista dopaminérgico D2 y agonista 5-HT4) utilizado originalmente para la enfermedad por reflujo gastroesofágico y la esofagitis.
+El modelo TxGNN predice que podría ser efectivo para **Úlcera gástrica**, pero actualmente solo existe **1 ensayo clínico** (indirectamente relacionado, sobre visualización endoscópica) y literatura mayoritariamente indirecta, por lo que la evidencia es muy limitada.
 
 ---
 
@@ -43,9 +42,9 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Náuseas y vómitos, reflujo gastroesofágico y vaciamiento gástrico retardado (según la farmacología de referencia; los registros de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Enfermedad por reflujo gastroesofágico, esofagitis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Úlcera gástrica |
-| Puntaje de Predicción TxGNN | 99,93 % |
+| Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 8 |
@@ -55,11 +54,11 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Metoclopramida es un antagonista del receptor de dopamina D2 y agonista del receptor de serotonina 5-HT4. También actúa sobre los receptores 5-HT3. Estas acciones aumentan la motilidad del estómago y el duodeno y aceleran el vaciamiento gástrico. Por eso se usa contra las náuseas, los vómitos y el reflujo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según la farmacología conocida y los datos de interacción con dianas, la metoclopramida actúa sobre los receptores D2 (antagonista), 5-HT4 (agonista) y 5-HT3. Esto aumenta la motilidad gastroduodenal, acelera el vaciamiento gástrico y eleva el tono del esfínter esofágico inferior.
 
-La relación con la úlcera gástrica es débil. Metoclopramida no reduce la acidez ni protege la mucosa, así que no se espera un efecto directo sobre la curación de la úlcera. Los únicos datos específicos son estudios en ratas y cobayas (PMID 2730234 y 6436177). En ellos el efecto protector se atribuye a un mejor drenaje gástrico y a menos reflujo pilórico, no a menos acidez.
+La relación con la indicación original es de vecindad fisiopatológica: el reflujo y la úlcera gástrica afectan al tracto digestivo superior, y el vaciamiento gástrico retardado o el reflujo biliar pueden contribuir a ambos. Sin embargo, **la metoclopramida no suprime el ácido ni protege la mucosa, y no hay evidencia de que cure úlceras**. Solo existe un estudio en ratas (PMID 2730234) con efecto protector en modelos de úlcera inducida.
 
-El puntaje alto de TxGNN (0,999) refleja cercanía en la red de conocimiento entre el fármaco y la enfermedad, no apoyo clínico. Cualquier beneficio sería como complemento, por ejemplo sobre el vaciamiento, las náuseas o la visualización endoscópica.
+El puntaje alto del modelo probablemente refleja la proximidad en la red de conocimiento con las indicaciones originales (reflujo/esofagitis) y no un efecto terapéutico distinto. El único ensayo registrado evalúa la metoclopramida como premedicación para mejorar la visualización endoscópica en hemorragia digestiva alta, un uso procedimental y no tratamiento de la úlcera.
 
 ---
 
@@ -67,8 +66,7 @@ El puntaje alto de TxGNN (0,999) refleja cercanía en la red de conocimiento ent
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT05746377](https://clinicaltrials.gov/study/NCT05746377) | Fase 4 | Desconocido | 60 | Premedicación con metoclopramida en hemorragia digestiva alta, doble ciego. Evalúa si reduce la necesidad de repetir la endoscopia y si mejora la visibilidad. Solo relevancia indirecta: no mide la curación de la úlcera. |
-| [NCT03747107](https://clinicaltrials.gov/study/NCT03747107) | N/A | Completado | 19 | Programa de mejora de calidad de prescripción dirigido por farmacéuticos en atención primaria. No es un ensayo de eficacia de metoclopramida y no guarda relación con la úlcera gástrica. |
+| [NCT05746377](https://clinicaltrials.gov/study/NCT05746377) | Fase 4 | Desconocido | 60 | Ensayo aleatorizado doble ciego de metoclopramida como premedicación en hemorragia digestiva alta, para reducir la necesidad de repetir endoscopia, radiología intervencionista o cirugía y mejorar la visibilidad. Relevancia indirecta (grado B). |
 
 ---
 
@@ -76,16 +74,17 @@ El puntaje alto de TxGNN (0,999) refleja cercanía en la red de conocimiento ent
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [16807979](https://pubmed.ncbi.nlm.nih.gov/16807979/) | 2006 | Estudio clínico aleatorizado, doble ciego | Yonsei Med J | Metoclopramida y ranitidina intravenosas antes de cirugía ambulatoria, con efecto sobre el contenido gástrico preoperatorio. No estudia úlceras. |
-| [2730234](https://pubmed.ncbi.nlm.nih.gov/2730234/) | 1989 | Preclínico (rata) | Arch Int Pharmacodyn Ther | Efecto protector frente a úlceras inducidas por aspirina y por ligadura pilórica, comparado con ranitidina. |
-| [6436177](https://pubmed.ncbi.nlm.nih.gov/6436177/) | 1984 | Preclínico (cobaya) | Indian J Physiol Pharmacol | Protege frente a tres modelos de úlcera sin modificar la acidez gástrica. Probable efecto por drenaje gástrico y menor reflujo pilórico. |
-| [28652516](https://pubmed.ncbi.nlm.nih.gov/28652516/) | 2017 | Preclínico (rata) | J Smooth Muscle Res | Vaciamiento gástrico tras úlcera artificial según su localización y efecto de procinéticos. |
-| [4779253](https://pubmed.ncbi.nlm.nih.gov/4779253/) | 1973 | Estudio clínico | Curr Med Res Opin | Reflujo biliar en úlcera gástrica y efecto del tabaco, la metoclopramida y la carbenoxolona. Sin resumen disponible. |
-| [775822](https://pubmed.ncbi.nlm.nih.gov/775822/) | 1976 | Estudio clínico | ZFA (Z Allgemeinmed) | Tratamiento de úlcera gástrica y duodenal con metoclopramida. Sin resumen disponible. |
-| [6336644](https://pubmed.ncbi.nlm.nih.gov/6336644/) | 1983 | Revisión | Ann Intern Med | Farmacología y aplicación clínica: antiemético y estimulante del músculo liso digestivo. |
-| [19225](https://pubmed.ncbi.nlm.nih.gov/19225/) | 1977 | Revisión | Drugs | Fármacos para la úlcera gástrica y duodenal. Sin resumen disponible. |
-| [793063](https://pubmed.ncbi.nlm.nih.gov/793063/) | 1976 | Revisión | Surg Clin North Am | Gastritis por reflujo alcalino posquirúrgico. |
-| [797497](https://pubmed.ncbi.nlm.nih.gov/797497/) | 1976 | Revisión | Clin Pharmacokinet | Fármacos, enfermedades y alteración del vaciamiento gástrico. |
+| [786607](https://pubmed.ncbi.nlm.nih.gov/786607/) | 1976 | Revisión | Drugs | Revisión de propiedades farmacológicas y uso clínico de la metoclopramida, incluido su papel facilitando la endoscopia urgente en hemorragia digestiva alta |
+| [19445547](https://pubmed.ncbi.nlm.nih.gov/19445547/) | 2009 | Revisión sistemática | Paediatr Drugs | Manejo farmacológico del reflujo gastroesofágico en niños |
+| [12825960](https://pubmed.ncbi.nlm.nih.gov/12825960/) | 2003 | Revisión | Drugs | Gastroparesia diabética y opciones terapéuticas limitadas |
+| [15001829](https://pubmed.ncbi.nlm.nih.gov/15001829/) | 2004 | Revisión | Digestion | Manejo del reflujo gastroesofágico en niños |
+| [11879596](https://pubmed.ncbi.nlm.nih.gov/11879596/) | 2002 | Revisión | Curr Treat Options Gastroenterol | Dispepsia funcional (no ulcerosa) y papel de los procinéticos |
+| [8686797](https://pubmed.ncbi.nlm.nih.gov/8686797/) | 1996 | Revisión | Am J Surg | Retraso del vaciamiento gástrico tras cirugía gástrica |
+| [579607](https://pubmed.ncbi.nlm.nih.gov/579607/) | 1978 | Simposio/Revisión | Can J Surg | Tratamiento médico de la úlcera péptica; la metoclopramida acelera el vaciamiento gástrico |
+| [6782467](https://pubmed.ncbi.nlm.nih.gov/6782467/) | 1981 | Estudio cruzado doble ciego | MMW Munch Med Wochenschr | En 12 voluntarios sanos, ni domperidona ni metoclopramida modificaron significativamente la gastrina sérica ni la secreción ácida |
+| [2730234](https://pubmed.ncbi.nlm.nih.gov/2730234/) | 1989 | Estudio preclínico (ratas) | Arch Int Pharmacodyn Ther | Efecto protector frente a úlceras inducidas por aspirina y ligadura pilórica en ratas |
+| [3970596](https://pubmed.ncbi.nlm.nih.gov/3970596/) | 1985 | Serie de casos | Ann Surg | Gastritis y esofagitis por reflujo enterogástrico espontáneo |
+| [8095331](https://pubmed.ncbi.nlm.nih.gov/8095331/) | 1993 | Revisión | Postgrad Med | Estrategias para úlceras y esofagitis refractarias a regímenes estándar |
 
 ---
 
@@ -93,22 +92,23 @@ El puntaje alto de TxGNN (0,999) refleja cercanía en la red de conocimiento ent
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 78556 | METOCLOPRAMIDA KERN PHARMA 10MG/2ML SOLUCION INYECTABLE EFG | Solución inyectable | No consta en el registro |
-| 69265 | METOCLOPRAMIDA PENSA 1 mg/ml SOLUCION ORAL EFG | Solución oral | No consta en el registro |
-| 69266 | METOCLOPRAMIDA KERN PHARMA 1 mg/ml SOLUCION ORAL EFG | Solución oral | No consta en el registro |
-| 89715 | METOCLOPRAMIDA BASI 5 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION EFG | Solución inyectable y para perfusión | No consta en el registro |
-| 41446 | PRIMPERAN 10 mg COMPRIMIDOS | Comprimido | No consta en el registro |
+| 78556 | Metoclopramida Kern Pharma 10 mg/2 ml solución inyectable EFG | Solución inyectable | No disponible |
+| 69265 | Metoclopramida Pensa 1 mg/ml solución oral EFG | Solución oral | No disponible |
+| 69266 | Metoclopramida Kern Pharma 1 mg/ml solución oral EFG | Solución oral | No disponible |
+| 89715 | Metoclopramida Basi 5 mg/ml solución inyectable y para perfusión EFG | Solución inyectable y para perfusión | No disponible |
+| 41446 | Primperan 10 mg comprimidos | Comprimido | No disponible |
 
-Hay 8 autorizaciones en total; la tabla muestra las 5 principales.
+Hay 8 autorizaciones vigentes en total, todas de principio activo único. Las tres restantes son Primperan 1 mg/ml solución oral (40257), Metoclopramida Accord 10 mg comprimidos EFG (75665) y Primperan 10 mg/2 ml solución inyectable (40256).
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Perfil farmacológico** (no son interacciones clínicamente clasificadas): metoclopramida actúa sobre los receptores D2, 5-HT4, 5-HT3A y 5-HT3AB.
-- **Señales de la literatura recuperada**: un reporte de neurotoxicidad (PMID 3059051) señala riesgo de efectos extrapiramidales y discinesia tardía. Además, el uso está contraindicado si hay obstrucción o perforación gastrointestinal.
+- **Contraindicaciones (según el grafo de conocimiento, no el prospecto):** enfermedad de Parkinson y trastornos parkinsonianos, discinesia tardía, distonía de torsión, síndrome neuroléptico maligno, epilepsia, feocromocitoma y paraganglioma, hipertensión, porfiria, cirrosis hepática, insuficiencia renal, trastornos de ansiedad y distímicos, úlcera péptica activa, y deficiencias metabólicas raras (déficit de piruvato deshidrogenasa E3 y metahemoglobinemia por déficit de metahemoglobina reductasa).
+- **Perforación:** el aumento de la motilidad gástrica está generalmente contraindicado ante perforación u obstrucción, lo que hace inadecuado el uso en perforación ulcerosa.
+- **Interacciones:** la información disponible describe solo la afinidad por dianas farmacológicas (receptores 5-HT4, D2, 5-HT3A y 5-HT3AB), sin interacciones medicamentosas clínicas específicas.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Para advertencias formales, consultar el prospecto.
 
 ---
 
@@ -117,14 +117,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-- La predicción se apoya en proximidad en la red del modelo, no en datos clínicos. Solo hay estudios preclínicos en roedores (L4), y el mecanismo procinético no explica una curación directa de la úlcera.
-- El único ensayo con metoclopramida (NCT05746377) evalúa la visualización endoscópica en hemorragia digestiva, no la úlcera. La señal de neurotoxicidad reportada refuerza la cautela.
+No existe evidencia directa de que la metoclopramida cure la úlcera gástrica; el único ensayo evalúa un uso procedimental y la literatura es indirecta o preclínica. El puntaje elevado del modelo parece reflejar proximidad en la red, no un efecto terapéutico propio. Además, la "úlcera péptica activa" figura entre las contraindicaciones del grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto oficial de AEMPS, con indicaciones, advertencias y contraindicaciones, para completar el cribado de seguridad.
-- Completar los datos del mecanismo de acción en DrugBank.
-- Disponer de ensayos clínicos con desenlaces de curación o recurrencia de úlcera gástrica, o replantear la hipótesis como uso complementario (náuseas, vaciamiento, visualización endoscópica).
-- Verificar la compatibilidad de vías de administración y la similitud con la indicación original, que siguen pendientes.
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones formales), pendiente y bloqueante para el cribado de seguridad
+- Completar los datos del mecanismo de acción
+- Ensayos clínicos que evalúen cicatrización de úlceras o desenlaces clínicos, no solo visualización endoscópica
+- Aclarar la contradicción con la contraindicación en úlcera péptica activa
+- Considerar, como alternativa de menor riesgo, un uso acotado como adyuvante previo a la endoscopia en hemorragia digestiva alta, evaluando los resultados de los ensayos de 2024 y 2026
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

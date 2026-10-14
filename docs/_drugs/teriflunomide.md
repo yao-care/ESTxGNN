@@ -2,7 +2,7 @@
 layout: default
 title: Teriflunomide
 parent: Evidencia alta (L1-L2)
-nav_order: 521
+nav_order: 781
 evidence_level: L1
 indication_count: 1
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 </div>
 
-# Teriflunomida: De Indicación Original No Registrada a Esclerosis Múltiple Remitente-Recurrente
+# Teriflunomida: De Esclerosis Múltiple a Esclerosis Múltiple Remitente-Recurrente
 
 ## Resumen en Una Frase
 
-Los datos de AEMPS no incluyen la indicación original de la teriflunomida. Según la información farmacológica disponible, se usa para reducir los brotes en la esclerosis múltiple (EM) recurrente.
-El modelo TxGNN predice eficacia en **esclerosis múltiple remitente-recurrente (EMRR)**, con **28 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
-Como el fármaco ya está comercializado para EM recurrente, este resultado confirma una indicación existente y no constituye un reposicionamiento propiamente dicho.
+Teriflunomida es un inmunomodulador oral, metabolito activo de la leflunomida, utilizado originalmente para el tratamiento de la esclerosis múltiple.
+El modelo TxGNN predice que podría ser efectivo para la **esclerosis múltiple remitente-recurrente (EMRR)**, con **12 ensayos clínicos** y **19 publicaciones** que respaldan esta dirección. Cabe señalar que la EMRR ya forma parte de la indicación original del fármaco, por lo que no se trata de un reposicionamiento en sentido estricto, sino de la confirmación de un uso ya autorizado.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos (los textos de indicación de las autorizaciones AEMPS están vacíos) |
+| Indicación Original | Esclerosis múltiple |
 | Nueva Indicación Predicha | Esclerosis múltiple remitente-recurrente |
 | Puntaje de Predicción TxGNN | 99.24% |
 | Nivel de Evidencia | L1 |
@@ -49,76 +50,88 @@ Como el fármaco ya está comercializado para EM recurrente, este resultado conf
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados de mecanismo de acción en el registro del fármaco. Sin embargo, los datos farmacológicos y la literatura aportada indican que la teriflunomida inhibe de forma selectiva y reversible la enzima mitocondrial dihidroorotato deshidrogenasa (DHODH). Esto bloquea la síntesis de novo de pirimidinas y reduce la proliferación de linfocitos (Scott, *Drugs*, 2019). Según la farmacología general, y sin verificarlo contra los datos aportados, es además el metabolito activo de la leflunomida.
+Teriflunomida es el metabolito activo de la leflunomida. Inhibe de forma selectiva y reversible la enzima mitocondrial dihidroorotato deshidrogenasa (DHODH), lo que limita la síntesis de novo de pirimidinas en los linfocitos T y B activados que proliferan rápidamente. Los datos compilados para este informe no incluyen el mecanismo de acción de la base de datos de fármacos, pero este mecanismo está bien establecido en la literatura y coincide con la diana DHODH registrada en los datos farmacológicos.
 
-En la EMRR, la inflamación autoinmune está impulsada por linfocitos T y B activados. Al frenar la expansión de estas células, el mecanismo de la teriflunomida encaja con la fisiopatología de la enfermedad.
+La EMRR es la forma más frecuente de esclerosis múltiple, y su patología está impulsada por la inflamación mediada por linfocitos. Al reducir la proliferación linfocitaria, teriflunomida disminuye la neuroinflamación que causa los brotes. Por ello, la alta puntuación de TxGNN es coherente con el uso ya aprobado del fármaco.
 
-El puntaje TxGNN tan alto (0.992) es coherente con que la EM recurrente ya es una indicación conocida y comercializada. Los ensayos de fase 3 (incluido el pivotal controlado con placebo) y los estudios comparativos posteriores respaldan esa indicación.
+---
 
 ## Evidencia de Ensayos Clínicos
 
+Se muestran los ensayos más relevantes, priorizando los de mayor relevancia directa para teriflunomida.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | Fase 3 | Completado | 1088 | Ensayo pivotal, doble ciego y controlado con placebo, sobre la reducción de recaídas y la progresión de la discapacidad en EM con recaídas |
-| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | Fase 3 | Completado | 324 | Teriflunomida (dos dosis) frente a interferón beta-1a, con evaluador ciego y extensión a largo plazo |
-| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | Fase 3 | Completado | 742 | Extensión a largo plazo del estudio pivotal para documentar la seguridad de 7 y 14 mg |
-| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | Fase 2 | Completado | 147 | Extensión de fase 2: seguridad y eficacia a largo plazo en EM con recaídas |
-| [NCT04788615](https://clinicaltrials.gov/study/NCT04788615) | Fase 3 | Completado | 185 | Ofatumumab frente a DMT de primera línea en EM recién diagnosticada. El papel exacto de la teriflunomida no está confirmado |
-| [NCT02490982](https://clinicaltrials.gov/study/NCT02490982) | N/A | Completado | 106 | Estudio observacional de efectividad de teriflunomida en la práctica clínica habitual en EMRR |
-| [NCT03302442](https://clinicaltrials.gov/study/NCT03302442) | N/A | Completado | 3000 | Comparación observacional de dimetilfumarato y teriflunomida en la cohorte francesa de EM |
-| [NCT02776072](https://clinicaltrials.gov/study/NCT02776072) | N/A | Completado | 2978 | Estudio retrospectivo global de resultados en la vida real con Tecfidera, Copaxone, Aubagio y Gilenya |
-| [NCT01881191](https://clinicaltrials.gov/study/NCT01881191) | N/A | Completado | 50 | Efecto de teriflunomida sobre la patología de la sustancia gris mediante RM durante 12 meses |
-| [NCT03561402](https://clinicaltrials.gov/study/NCT03561402) | N/A | Completado | 24 | Biomarcadores asociados a la actividad de la enfermedad en pacientes tratados con teriflunomida |
+| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | Fase 3 | Completado | 1088 | Ensayo pivotal aleatorizado, doble ciego y controlado con placebo: eficacia y seguridad de teriflunomida para reducir recaídas y retrasar la discapacidad en EM con brotes |
+| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | Fase 3 | Completado | 324 | Comparación directa de dos dosis de teriflunomida frente a interferón beta-1a, con evaluador ciego y extensión a largo plazo |
+| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | Fase 3 | Completado | 742 | Extensión a largo plazo para documentar la seguridad de teriflunomida 7 y 14 mg |
+| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | Fase 2 | Completado | 147 | Extensión de un estudio de fase II sobre seguridad y eficacia a largo plazo |
+| [NCT02490982](https://clinicaltrials.gov/study/NCT02490982) | N/A | Completado | 106 | Estudio observacional de efectividad en la práctica clínica habitual (≥2 años) |
+| [NCT03464448](https://clinicaltrials.gov/study/NCT03464448) | N/A | Completado | 30 | Estudio mecanístico: papel de los linfocitos B reguladores en el efecto terapéutico |
+| [NCT04788615](https://clinicaltrials.gov/study/NCT04788615) | Fase 3 | Completado | 185 | Ofatumumab frente a DMT de primera línea (incluida teriflunomida) en EM recién diagnosticada |
+| [NCT03561402](https://clinicaltrials.gov/study/NCT03561402) | N/A | Completado | 24 | Estudio observacional de biomarcadores asociados a la actividad de la enfermedad con teriflunomida |
+| [NCT03500328](https://clinicaltrials.gov/study/NCT03500328) | N/A | Completado | 900 | Ensayo pragmático de terapia temprana agresiva frente a escalonada; evidencia indirecta |
+| [NCT03535298](https://clinicaltrials.gov/study/NCT03535298) | Fase 4 | Activo, sin reclutar | 800 | DELIVER-MS: estrategia intensiva temprana frente a escalonada; evidencia indirecta |
+
+---
 
 ## Evidencia de Literatura
 
-En los ECA comparativos más recientes, la teriflunomida actúa como comparador activo.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | ECA | N Engl J Med | Ofatumumab frente a teriflunomida en EM recurrente |
-| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | ECA | N Engl J Med | Tolebrutinib frente a teriflunomida en EM recurrente |
+| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | ECA | N Engl J Med | Ofatumumab frente a teriflunomida (comparador activo) en esclerosis múltiple |
 | [36001711](https://pubmed.ncbi.nlm.nih.gov/36001711/) | 2022 | ECA | N Engl J Med | Ublituximab frente a teriflunomida en EM recurrente |
-| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | ECA | Lancet Neurol | Evobrutinib frente a teriflunomida como comparador activo (dos ensayos de fase 3) |
-| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | ECA | JAMA Neurol | Estudio OPTIMUM: ponesimod frente a teriflunomida en EM recurrente |
+| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | ECA | JAMA Neurol | Estudio OPTIMUM: ponesimod frente a teriflunomida |
+| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | ECA | Lancet Neurol | Evobrutinib frente a teriflunomida en dos ensayos de fase 3 |
+| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | ECA | N Engl J Med | Tolebrutinib frente a teriflunomida en EM recurrente |
 | [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | Metaanálisis en red | Cochrane Database Syst Rev | Comparación de inmunomoduladores e inmunosupresores en EMRR |
-| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | Revisión | Drugs | Teriflunomida es eficaz y en general bien tolerada en EM recurrente, según ECA y datos de práctica real |
-| [26758290](https://pubmed.ncbi.nlm.nih.gov/26758290/) | 2016 | Revisión | CNS Drugs | Revisión de la ficha técnica europea: resultados clínicos, seguridad y consideraciones prácticas |
-| [37382446](https://pubmed.ncbi.nlm.nih.gov/37382446/) | 2023 | Revisión | Expert Rev Neurother | Teriflunomida como terapia oral de primera línea en EMRR pediátrica, aprobada en la UE |
-| [33620411](https://pubmed.ncbi.nlm.nih.gov/33620411/) | 2021 | Revisión | JAMA | Revisión general del diagnóstico y tratamiento de la EM |
+| [38032059](https://pubmed.ncbi.nlm.nih.gov/38032059/) | 2023 | Metaanálisis en red | Cochrane Database Syst Rev | Efectos adversos de las inmunoterapias en EM |
+| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | Revisión | Drugs | Teriflunomida inhibe la DHODH y reduce la proliferación linfocitaria; eficaz y generalmente bien tolerada según ECA y datos de práctica real |
+| [26758290](https://pubmed.ncbi.nlm.nih.gov/26758290/) | 2016 | Revisión | CNS Drugs | Revisión de la ficha técnica europea de teriflunomida en EMRR |
+| [37578431](https://pubmed.ncbi.nlm.nih.gov/37578431/) | 2023 | Estudio observacional | Eur J Neurol | Comparación en práctica real de dimetilfumarato y teriflunomida en EMRR |
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1221693002 | Teriflunomida Accord 14 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 89393 | Teriflunomida Viatris Pharmaceuticals 14 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 1130838006 | Aubagio 7 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 88844 | Teriflunomida Dr. Reddys 7 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 88753 | Teriflunomida Krka 14 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco).
 
-Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada no figura en los datos recibidos.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 113838002 | AUBAGIO 14 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 1130838006 | AUBAGIO 7 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 88947 | CLEFIREM 14 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+| 89843 | THEDITRAX 14 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+| 88466 | Teriflunomida Sandoz 14 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+
+Las 15 autorizaciones restantes corresponden a genéricos (EFG) de distintos laboratorios.
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: no se registran interacciones fármaco-fármaco. Solo consta la interacción farmacológica con su diana, la dihidroorotato deshidrogenasa (gen *DHODH*), coherente con su mecanismo de acción.
+- **Interacciones farmacológicas**: los datos farmacológicos registran únicamente la interacción con su diana, la dihidroorotato deshidrogenasa (quinona) (gen DHODH), que corresponde al mecanismo de acción y no a una interacción clínica con otros fármacos.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para las advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay varios ensayos de fase 3 completados, entre ellos el pivotal controlado con placebo, y metaanálisis y ECA comparativos que respaldan la eficacia en EM recurrente (nivel L1). Sin embargo, es una indicación ya comercializada y falta información de seguridad de AEMPS, por lo que conviene avanzar con salvaguardas.
+Existen al menos dos ensayos de fase 3 completados con teriflunomida en esclerosis múltiple (NCT00134563 y NCT00883337), además de numerosos ECA de comparación activa, lo que sostiene un nivel de evidencia L1. Dado que la EMRR ya es un uso aprobado, la decisión se centra en mantener salvaguardas de seguridad y no en validar una nueva indicación.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS para completar advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
-- Confirmar el texto de la indicación aprobada en las autorizaciones y la indicación original del fármaco.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Revisar el rol de la teriflunomida en los ensayos con relevancia pendiente (por ejemplo, NCT04788615).
+- Revisar el prospecto oficial de la AEMPS para obtener advertencias y contraindicaciones, ya que no están incluidas en los datos compilados.
+- Confirmar el texto de la indicación aprobada en cada autorización, que figura vacío en los datos.
+- Completar los datos de mecanismo de acción desde la base de datos de fármacos.
+- Definir un plan de monitoreo de seguridad para poblaciones específicas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

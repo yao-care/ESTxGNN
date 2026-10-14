@@ -2,7 +2,7 @@
 layout: default
 title: Nifurtimox
 parent: Solo predicción del modelo (L5)
-nav_order: 379
+nav_order: 565
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,20 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Nifurtimox: De Uso Antiprotozoario a Analbuminemia Congénita
+# Nifurtimox: De Enfermedad de Chagas a Analbuminemia Congénita
 
 ## Resumen en Una Frase
 
-Nifurtimox está comercializado en España como Lampit (comprimidos de 30 mg y 120 mg, Bayer Hispania). El Evidence Pack no incluye su indicación aprobada. Según conocimiento general, es un antiprotozoario nitrofurano.
-El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es únicamente una predicción computacional.
-
----
+Nifurtimox es un antiprotozoario utilizado originalmente para el tratamiento de la enfermedad de Chagas.
+El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos (el texto de indicación de ambas autorizaciones está vacío) |
+| Indicación Original | Enfermedad de Chagas |
 | Nueva Indicación Predicha | Analbuminemia congénita |
 | Puntaje de Predicción TxGNN | 99.58% |
 | Nivel de Evidencia | L5 |
@@ -50,61 +49,56 @@ El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Por conocimiento general (no incluido en los datos), nifurtimox es un antiparasitario nitrofurano que genera radicales nitro y estrés oxidativo en los tripanosomas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, nifurtimox es un antiprotozoario de la clase de los nitrofuranos y su eficacia en la enfermedad de Chagas es la indicación original conocida. Su actividad se atribuye generalmente a la nitrorreducción y al estrés oxidativo en los tripanosomas, aunque este punto no figura en los datos compilados para este informe.
 
-La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina (gen *ALB*). Un antiparasitario no ofrece un mecanismo plausible para corregirlo, y no se ha identificado ningún vínculo mecanístico entre ambos. El puntaje de 99.58% proviene solo de la topología del grafo de conocimiento y **no debe interpretarse como evidencia clínica**. Por eso la predicción se considera poco razonable desde el punto de vista biológico, aunque el puntaje sea alto.
+La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina. No se identifica una relación farmacológica plausible entre la acción antiprotozoaria de nifurtimox y esta enfermedad, ni una similitud con la indicación original.
 
-Las otras seis predicciones del modelo (síndrome de hiperviscosidad policlonal, hiperamilasemia, incompatibilidad de grupo sanguíneo, gammapatía monoclonal, enfermedad hematológica premaligna y enfermedad hematológica asociada a neuropatía periférica adquirida) tienen puntajes de 99.0% a 99.5%. Tampoco cuentan con evidencia ni vínculo mecanístico. En la última, la neuropatía periférica es además un efecto adverso conocido de nifurtimox (conocimiento general), lo que sugiere riesgo más que beneficio.
+El puntaje alto del modelo (99.58%) es una predicción computacional que no está corroborada por ensayos clínicos ni por literatura. Debe interpretarse con cautela, ya que probablemente refleja características de vecindad en el grafo de conocimiento y no una base farmacológica.
 
----
+Otras indicaciones predichas, todas con nivel L5 y sin evidencia clínica ni bibliográfica: hiperviscosidad policlonal (99.47%), hiperamilasemia (99.47%), incompatibilidad de grupo sanguíneo (99.24%), gammapatía monoclonal (99.16%), enfermedad hematológica premaligna (99.11%) y enfermedad hematológica asociada a neuropatía periférica adquirida (99.06%). En este último caso, la neuropatía periférica es un efecto adverso conocido de nifurtimox, lo que va en contra de un papel terapéutico.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
-
----
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 89506 | LAMPIT 120 MG COMPRIMIDOS | Comprimido | No especificada en los datos |
-| 89507 | LAMPIT 30 MG COMPRIMIDOS | Comprimido | No especificada en los datos |
+| 89506 | LAMPIT 120 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
+| 89507 | LAMPIT 30 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
 
-Titular de ambas autorizaciones: Bayer Hispania S.L.
-
----
+Ambas autorizaciones están vigentes y pertenecen a Bayer Hispania S.L.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas** (5 registradas):
+  - **Etanol**: gravedad mayor.
+  - **Ritonavir**: gravedad moderada.
+  - **Tipranavir**: gravedad moderada.
+  - **Bifidobacterium longum infantis**: gravedad moderada.
+  - **Lactobacillus acidophilus**: gravedad moderada.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible entre un antiparasitario y un trastorno genético de síntesis de albúmina. Tampoco se dispone de información de seguridad para evaluar el balance beneficio-riesgo.
+La predicción no cuenta con ensayos clínicos ni literatura (nivel L5), no existe una conexión mecanística plausible entre nifurtimox y la analbuminemia congénita, y faltan los datos de seguridad del prospecto necesarios para continuar la evaluación.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada de Lampit).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una búsqueda sistemática de literatura y de registros de ensayos para confirmar la ausencia de evidencia.
-- Solo si aparece un vínculo mecanístico plausible, plantear estudios preclínicos antes de cualquier evaluación clínica.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS (descargar y analizar el PDF).
+- Completar los datos del mecanismo de acción (consultar la API de DrugBank).
+- Realizar una revisión de literatura preclínica para determinar si existe alguna base biológica que relacione nifurtimox con la síntesis de albúmina.
+- Reevaluar la prioridad de esta indicación frente a otras candidatas, dado que ninguna de las siete predicciones cuenta con evidencia de apoyo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

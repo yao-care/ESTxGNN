@@ -2,7 +2,7 @@
 layout: default
 title: Itopride
 parent: Solo predicción del modelo (L5)
-nav_order: 294
+nav_order: 436
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,32 +29,41 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Itopride: De Indicación Original No Registrada a Enfermedad de Crohn del Intestino Delgado
+# Itopride: De Gastritis a Enfermedad de Crohn del Intestino Delgado
 
 ## Resumen en Una Frase
 
-Itopride es un fármaco comercializado en España (1 autorización) cuya indicación original no consta en los datos recibidos.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de Crohn del intestino delgado**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Itopride es un procinético gastrointestinal, originalmente utilizado para el tratamiento de la gastritis.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Crohn del intestino delgado**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Gastritis (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
 | Nueva Indicación Predicha | Enfermedad de Crohn del intestino delgado |
 | Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Español | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información general, itopride es un procinético gastrointestinal, descrito como antagonista de dopamina D2 e inhibidor de la acetilcolinesterasa. Este dato proviene de conocimiento farmacológico general, no del Evidence Pack.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, itopride es un antagonista del receptor de dopamina D2 e inhibidor de la acetilcolinesterasa que favorece la motilidad gastrointestinal, y su uso en trastornos gástricos como la gastritis está establecido. Mecanísticamente, su aplicabilidad a la enfermedad de Crohn es muy dudosa.
 
-Con esa base, **no se identifica un vínculo mecanístico sólido** con la enfermedad de Crohn. La enfermedad de Crohn es una inflamación de origen inmunitario, y un procinético no actúa sobre ese proceso. Además, aumentar la motilidad podría ser indeseable si existen estenosis intestinales.
+La enfermedad de Crohn es una afección inflamatoria, y la actividad procinética no tiene un papel antiinflamatorio establecido. Cualquier vínculo sería especulativo (por ejemplo, una posible vía antiinflamatoria colinérgica) y no está respaldado por los datos disponibles. Además, los procinéticos podrían estar contraindicados o ser riesgosos en la enfermedad de Crohn con estenosis u obstrucción.
 
-El puntaje TxGNN (0.999) es solo una predicción del modelo. Ningún ensayo clínico ni publicación lo corrobora, por lo que debe tratarse como una hipótesis sin verificar.
+El puntaje TxGNN (0.999) es solo una predicción computacional sin corroboración clínica y no debe interpretarse como evidencia de eficacia.
+
+### Otras indicaciones predichas (solo con fines de contexto)
+
+| Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
+|------|------|------|------|
+| Insuficiencia venosa | 99.23% | L5 | Sin vínculo mecanístico plausible; podría reflejar artefactos del grafo de conocimiento |
+| Aclorhidria | 99.16% | L5 | Relativamente más cercana a la indicación gástrica original, pero el beneficio se limitaría a aliviar síntomas (p. ej., vaciamiento gástrico retrasado o dispepsia), sin corregir la deficiencia de ácido |
+| Hernia de hiato | 99.02% | L5 | Un procinético no corrige el defecto anatómico; posible beneficio sintomático en reflujo o dispepsia asociados |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,37 +77,25 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 86657 | PROGIT 50 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No consta en los datos disponibles |
-
-Titular: Kappler Pharma Consult GmbH.
+| 86657 | PROGIT 50 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-## Otras Predicciones del Modelo
-
-Todas tienen evidencia L5 y ningún ensayo ni publicación asociados.
-
-| Indicación Predicha | Puntaje TxGNN | Valoración |
-|------|------|------|
-| Insuficiencia venosa | 99.23% | Sin vínculo farmacológico plausible; probable artefacto del grafo de conocimiento |
-| Aclorhidria | 99.16% | Vínculo débil e indirecto; un procinético no restaura la secreción ácida |
-| Hernia de hiato | 99.02% | Plausibilidad indirecta a nivel de síntomas (vaciamiento gástrico y reflujo); no corrige el defecto anatómico. Clasificada como "Research Question" |
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para la enfermedad de Crohn del intestino delgado se basa solo en el modelo (L5). No hay ensayos, literatura ni vínculo mecanístico plausible, y el procinético no aborda la inflamación inmunomediada.
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y el vínculo mecanístico entre un procinético y una enfermedad inflamatoria como el Crohn es especulativo, con posibles riesgos en casos con estenosis u obstrucción.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción desde DrugBank.
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un bloqueo para el cribado de seguridad.
-- Confirmar la indicación original aprobada del producto.
-- Hacer una búsqueda sistemática de ensayos y literatura sobre itopride en enfermedad de Crohn.
-- Si se prioriza alguna predicción, la hernia de hiato es la única marcada como pregunta de investigación.
+- Datos detallados del mecanismo de acción (MOA) y análisis de un posible vínculo antiinflamatorio
+- Revisión de la ficha técnica/prospecto de la AEMPS (advertencias y contraindicaciones), indispensable antes de cualquier evaluación de seguridad
+- Revisión sistemática de la literatura preclínica y clínica sobre procinéticos o agonismo colinérgico en enfermedad inflamatoria intestinal
+- Evaluación de riesgos en pacientes con estenosis u obstrucción intestinal
+- Si se prioriza otra indicación, definir un criterio de valoración clínico claro (p. ej., aclorhidria o hernia de hiato con síntomas de dispepsia o reflujo), ya que parecen más plausibles a nivel sintomático
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

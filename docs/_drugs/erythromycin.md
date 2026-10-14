@@ -2,7 +2,7 @@
 layout: default
 title: Erythromycin
 parent: Evidencia moderada (L3-L4)
-nav_order: 210
+nav_order: 306
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,21 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Eritromicina: De Antibiótico Macrólido a Queratoconjuntivitis Epitelial Punteada
+# Eritromicina: De Infecciones Bacterianas (Acné, Otitis, Neumonía) a Queratoconjuntivitis Epitelial Punteada
 
 ## Resumen en Una Frase
 
-La eritromicina es un antibiótico macrólido, utilizado originalmente para tratar infecciones bacterianas.
-El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis epitelial punteada**,
-pero actualmente hay **0 ensayos clínicos** y solo **2 publicaciones** de relevancia indirecta, por lo que la predicción sigue siendo esencialmente teórica.
-
----
+La eritromicina es un antibiótico macrólido utilizado originalmente para tratar infecciones bacterianas como el acné, la otitis media infecciosa, las neumonías, la tos ferina, la gonorrea y la conjuntivitis.
+El modelo TxGNN predice que podría ser efectiva para **queratoconjuntivitis epitelial punteada**,
+pero por ahora solo hay **0 ensayos clínicos** y **1 publicación** (una revisión) que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones bacterianas (los registros de AEMPS disponibles no incluyen el texto de indicación) |
+| Indicación Original | Infecciones bacterianas (acné, otitis media infecciosa, neumonía, tos ferina, gonorrea, conjuntivitis, entre otras; la información procede del grafo de conocimiento, ya que los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L4 |
@@ -51,68 +49,55 @@ pero actualmente hay **0 ensayos clínicos** y solo **2 publicaciones** de relev
 | Número de Autorizaciones | 15 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente. Según la información conocida, la eritromicina es un macrólido que inhibe la subunidad ribosomal 50S bacteriana y tiene cierta actividad antiinflamatoria. Además, la base de datos farmacológica la relaciona con el receptor de motilina (MLNR), aunque esto no tiene relación evidente con la indicación predicha.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, la eritromicina es un antibiótico macrólido con actividad antibacteriana (inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosómica 50S) y propiedades antiinflamatorias. Su eficacia en infecciones bacterianas, incluida la conjuntivitis, está establecida, y ya se utiliza por vía oftálmica tópica.
 
-Su eficacia antibacteriana está comprobada y existen presentaciones oftálmicas en España, como la pomada oftálmica. Por eso es plausible que sea útil en cuadros inflamatorios o infecciosos de la superficie ocular. La literatura recuperada describe el manejo de la blefaroqueratoconjuntivitis crónica en niños, un cuadro cercano a la queratoconjuntivitis punteada. Es un vínculo indirecto.
+La queratoconjuntivitis epitelial punteada es una afección de la superficie ocular que suele asociarse a blefaritis y disfunción de las glándulas de Meibomio. Los macrólidos se emplean en estos cuadros por su efecto antibacteriano y antiinflamatorio, lo que da un vínculo mecanístico plausible con la indicación original de conjuntivitis.
 
-Hay que ser prudentes. El puntaje de TxGNN es muy alto, pero ningún ensayo ni publicación evalúa directamente la eritromicina para esta indicación exacta. La relación mecanística es una hipótesis y no una demostración.
-
----
+Sin embargo, el respaldo es débil: solo una revisión sobre blefaroqueratoconjuntivitis crónica en niños, sin ensayos clínicos. La puntuación del modelo es muy alta, pero es una predicción y no demuestra eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Revisión | J Pediatr Ophthalmol Strabismus | Describe la historia, los síntomas, los signos clínicos y el tratamiento de la blefaroqueratoconjuntivitis crónica en niños. No se muestra evaluación específica de eritromicina. |
-| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | Reporte de caso | Cornea | Queratoconjuntivitis por microsporidios (*Encephalitozoon hellem*) en un adulto inmunocompetente, diagnosticada por secuenciación metagenómica. Solo guarda relación temática con la indicación. |
-
----
+| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Revisión | Journal of Pediatric Ophthalmology and Strabismus | Describe la historia, los síntomas y los signos clínicos de la blefaroqueratoconjuntivitis crónica en niños y analiza su tratamiento |
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 15 autorizaciones registradas.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 57686 | DERIPIL SOLUCION | Solución cutánea | No especificada en el registro |
-| 25412 | OFTALMOLOSA CUSI ERITROMICINA 5 MG/G POMADA OFTÁLMICA | Pomada oftálmica | No especificada en el registro |
-| 58854 | LODERM GEL | Gel | No especificada en el registro |
-| 59470 | ERIDOSIS, TOALLITAS | Apósito impregnado | No especificada en el registro |
-| 41000 | PANTOMICINA 250 mg GRANULADO PARA SUSPENSION ORAL EN SOBRES | Granulado para suspensión oral | No especificada en el registro |
+| 57686 | DERIPIL SOLUCION | Solución cutánea | No disponible |
+| 25412 | OFTALMOLOSA CUSI ERITROMICINA 5 MG/G POMADA OFTÁLMICA | Pomada oftálmica | No disponible |
+| 58854 | LODERM GEL | Gel | No disponible |
+| 59470 | ERIDOSIS, TOALLITAS | Apósito impregnado | No disponible |
+| 41000 | PANTOMICINA 250 mg GRANULADO PARA SUSPENSION ORAL EN SOBRES | Granulado para suspensión oral | No disponible |
 
----
+Se muestran 5 de las 15 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la base de datos farmacológica solo registra la relación con el receptor de motilina (MLNR). Es un dato de farmacología y no una interacción con otro medicamento.
+- **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: síndrome de QT largo (incluido el familiar) y torsades de pointes; porfiria; enfermedad renal; enfermedad hepática y de la vesícula biliar; enfermedad hematológica; colitis por *Clostridium difficile*; dermatitis y dermatitis exfoliativa; miastenia gravis y enfermedades de la unión neuromuscular; anemia por deficiencia de ácido fólico; trastornos auditivos.
+- **Interacciones Farmacológicas**: solo se identificó una interacción farmacológica de tipo farmacológico, con el receptor de motilina (MLNR), de la que la eritromicina es agonista. No hay datos de interacciones con otros fármacos.
 
-Para el resto de la información de seguridad, consultar el prospecto.
-
----
+Para advertencias principales y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni estudios directos de eritromicina en queratoconjuntivitis epitelial punteada. La literatura es indirecta y no evalúa el fármaco en esta indicación, por lo que el respaldo es básicamente la predicción del modelo.
+La predicción se apoya en una sola revisión sin ensayos clínicos (nivel L4), y el vínculo mecanístico, aunque plausible, es indirecto. Además, el fármaco ya tiene presentaciones oftálmicas, por lo que falta una señal clara de reposicionamiento.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de AEMPS las advertencias y contraindicaciones, que hoy no están disponibles.
-- Completar los datos del mecanismo de acción (MOA) desde DrugBank.
-- Buscar estudios que evalúen directamente la eritromicina oftálmica en queratoconjuntivitis punteada o blefaroqueratoconjuntivitis.
-- Verificar la compatibilidad de vías de administración, pendiente de análisis. Existe la pomada oftálmica de eritromicina en el mercado español.
-- Como referencia, otras predicciones del mismo fármaco tienen algo más de respaldo. Son el linfogranuloma venéreo, con un ensayo de fase 4 que solo apoya la clase macrólido, y la gingivitis ulcerativa necrosante, con reportes históricos. Ambas están en la etapa "Research Question".
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Prospecto de la AEMPS (advertencias y contraindicaciones oficiales) para el cribado de seguridad
+- Estudios clínicos o series de casos que evalúen eritromicina tópica en queratoconjuntivitis epitelial punteada o blefaroqueratoconjuntivitis
+- Comparación con los tratamientos estándar actuales y valoración de la compatibilidad de la vía de administración (oftálmica)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

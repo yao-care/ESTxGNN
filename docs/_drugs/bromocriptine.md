@@ -2,7 +2,7 @@
 layout: default
 title: Bromocriptine
 parent: Solo predicción del modelo (L5)
-nav_order: 84
+nav_order: 119
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bromocriptina: De Hiperprolactinemia y Enfermedad de Parkinson a Trastorno Congénito de la Glicosilación con Defecto de Fucosilación
+# Bromocriptina: De Enfermedad de Parkinson a Defecto Congénito de Glucosilación con Fucosilación Defectuosa
 
 ## Resumen en Una Frase
 
-Bromocriptina es un agonista dopaminérgico D2 que se usa en enfermedad de Parkinson, tumores hipofisarios, hiperprolactinemia y acromegalia. Los datos de la AEMPS recibidos no incluyen el texto de la indicación aprobada, así que esta información procede de los datos de farmacología.
-El modelo TxGNN predice que podría ser efectivo para **trastorno congénito de la glicosilación con defecto de fucosilación**, pero **no hay ningún ensayo clínico ni publicación** que respalde esta predicción. Es solo una predicción del modelo.
+Bromocriptina es un agonista dopaminérgico D2, originalmente utilizado para tratar la enfermedad de Parkinson, la hiperprolactinemia y la acromegalia.
+El modelo TxGNN predice que podría ser efectiva para el **defecto congénito de glucosilación con fucosilación defectuosa**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperprolactinemia, enfermedad de Parkinson, tumores hipofisarios y acromegalia (según datos de farmacología; la AEMPS no aporta texto de indicación) |
-| Nueva Indicación Predicha | Trastorno congénito de la glicosilación con defecto de fucosilación |
+| Indicación Original | Enfermedad de Parkinson (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
+| Nueva Indicación Predicha | Defecto congénito de glucosilación con fucosilación defectuosa |
 | Puntaje de Predicción TxGNN | 99.83% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -50,48 +51,55 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno congénito de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Los datos de farmacología muestran que bromocriptina actúa sobre receptores dopaminérgicos (D1 a D5), varios receptores serotoninérgicos (5-HT1A, 1B, 1D, 2A, 2B, 2C, 6, 7) y receptores adrenérgicos α2 (A, B y C). Su acción terapéutica principal es como agonista D2.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, bromocriptina es un derivado ergotínico que actúa principalmente como agonista de los receptores dopaminérgicos D2 (con actividad adicional sobre receptores D1, D3-D5, serotoninérgicos 5-HT y adrenérgicos α2). Su eficacia en la enfermedad de Parkinson, la hiperprolactinemia y la acromegalia está bien establecida.
 
-**No se identificó un vínculo mecanístico plausible.** Un agonista dopaminérgico D2 no tiene un papel conocido en la fucosilación ni en el metabolismo del GDP-fucosa, que es la vía afectada en este trastorno. Además, en los datos recibidos la indicación original no tiene una relación clara con esta enfermedad metabólica rara.
+Para la nueva indicación predicha **no se ha identificado ningún vínculo mecanístico plausible**. La enfermedad es un trastorno congénito de la glucosilación y no existe una conexión conocida entre la agonista dopaminérgico y las vías de fucosilación. El puntaje de TxGNN es muy alto (0.998), pero refleja únicamente una asociación computacional en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Esta predicción debe considerarse una hipótesis sin fundamento mecanístico actual.
 
-El puntaje alto (99.83%) proviene únicamente de la estructura del grafo de conocimiento del modelo. No debe interpretarse como evidencia de eficacia.
+### Otras predicciones del modelo (contexto)
+
+Entre las 10 principales predicciones, solo algunas cuentan con algún dato asociado:
+
+- **Distrofia retiniana con o sin anomalías extraoculares (puntaje 99.82%, L4):** un estudio preclínico de 2024 (Nature Communications) con una combinación de tamsulosina, metoprolol y bromocriptina, y un reporte de 1991 sobre el síndrome de Goldmann-Favre tratado con ciclosporina A y bromocriptina. Evidencia débil, sin datos humanos controlados.
+- **Esquizofrenia (puntaje 99.73%, L4):** un ensayo de Fase 4 abierto (NCT03575000, n=15, aún sin reclutar) evalúa bromocriptina adyuvante para alteraciones metabólicas (prediabetes) en pacientes con esquizofrenia, no para la psicosis. Existe un reporte de caso de esquizofrenia inducida por bromocriptina, lo que plantea una preocupación de seguridad psiquiátrica.
+- El resto (miopía, hidranencefalia, Charcot-Marie-Tooth, encefalopatía atípica por glicina, etc.) carece de evidencia propia; el único artículo vinculado a hidranencefalia es una revisión sobre prolactinomas gigantes, probablemente una coincidencia espuria.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 54633 | PARLODEL 2,5 mg COMPRIMIDOS | Comprimido | No disponible en los datos recibidos |
-| 56200 | PARLODEL 5 mg CÁPSULAS | Cápsula dura | No disponible en los datos recibidos |
+| 54633 | PARLODEL 2,5 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+| 56200 | PARLODEL 5 mg CÁPSULAS | Cápsula dura | No disponible en los datos compilados |
 
-Ambos productos pertenecen al titular Exeltis Healthcare S.L.
+Ambas autorizaciones están vigentes, son monofármaco y su titular es Exeltis Healthcare S.L.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones asociadas en el grafo de conocimiento** (no proceden del texto del prospecto): trastornos hipertensivos e hipertensión, enfermedad hepática, enfermedad de la vesícula biliar, enfermedad arterial coronaria, accidente cerebrovascular y trastornos cerebrovasculares, infarto cerebral, preeclampsia (leve y grave) y síndrome HELLP.
+- **Perfil farmacológico/interacciones:** se registraron 16 interacciones de tipo farmacológico con dianas de bromocriptina: receptores serotoninérgicos (5-HT1A, 1B, 1D, 2A, 2B, 2C, 6, 7), adrenérgicos α2 (A, B, C) y dopaminérgicos (D1-D5). No se dispone de interacciones con otros fármacos clasificadas por nivel de gravedad.
+- **Preocupación psiquiátrica:** existe un reporte de caso de psicosis/esquizofrenia inducida por bromocriptina (PMID 8120934), relevante si se considerara cualquier uso en trastornos psiquiátricos.
 
-Los 16 registros de "interacciones" recibidos corresponden a dianas farmacológicas (receptores 5-HT, α2-adrenérgicos y dopaminérgicos), no a interacciones con otros medicamentos.
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos ni literatura, y no existe un vínculo mecanístico plausible entre un agonista D2 y el defecto de fucosilación.
+La predicción principal se basa solo en el modelo computacional (L5), sin ensayos, literatura ni vínculo mecanístico conocido entre el agonismo dopaminérgico D2 y la fucosilación.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada), que está pendiente.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Proponer una hipótesis mecanística sobre la vía de fucosilación antes de plantear estudios preclínicos.
-- Si se busca una línea con más soporte, evaluar otras predicciones del mismo fármaco. La de **esquizofrenia** (rango 9, nivel L4) tiene 3 ensayos registrados, pero orientados al manejo de comorbilidades (prediabetes e hiperprolactinemia inducida por antipsicóticos), no a tratar la psicosis. Además, un reporte de caso sugiere riesgo de exacerbación psicótica.
-- Verificar si bromocriptina forma parte de la combinación del estudio preclínico PMID 39009597 (retinopatías), que hoy no está confirmado.
+- Datos del mecanismo de acción (MOA) y análisis de un posible vínculo con las vías de glucosilación/fucosilación
+- Estudios preclínicos (in vitro o en modelos celulares) que justifiquen la hipótesis
+- Texto de indicaciones y advertencias/contraindicaciones del prospecto de AEMPS
+- Priorizar, si se desea explorar reposicionamiento, candidatas con algún respaldo (distrofia retiniana, con evidencia preclínica; esquizofrenia con comorbilidad metabólica, con evaluación de seguridad psiquiátrica)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

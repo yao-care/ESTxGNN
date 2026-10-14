@@ -2,7 +2,7 @@
 layout: default
 title: Pioglitazone
 parent: Solo predicción del modelo (L5)
-nav_order: 427
+nav_order: 640
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,15 +33,17 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Pioglitazona es un antidiabético oral de la familia de las tiazolidindionas, utilizado originalmente para el tratamiento de la diabetes mellitus tipo 2.
+Pioglitazona es un agonista de PPAR-gamma (tiazolidindiona) utilizado originalmente para el tratamiento de la diabetes mellitus tipo 2.
 El modelo TxGNN predice que podría ser efectivo para **opsismodisplasia**, una displasia esquelética rara,
-pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según datos farmacológicos; los textos de indicación de las autorizaciones de AEMPS no están disponibles) |
+| Indicación Original | Diabetes mellitus tipo 2 |
 | Nueva Indicación Predicha | Opsismodisplasia |
 | Puntaje de Predicción TxGNN | 99.59% |
 | Nivel de Evidencia | L5 |
@@ -49,50 +51,66 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, pioglitazona es un agonista del receptor activado por proliferadores de peroxisomas gamma (PPAR-γ) y actúa como sensibilizador a la insulina. Su eficacia en la diabetes tipo 2 está comprobada. El único vínculo mecanístico disponible es su acción sobre PPAR-γ (y, según la base farmacológica, TRPM3), que no se ha relacionado con esta nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pioglitazona es un agonista del receptor activado por proliferadores de peroxisomas gamma (PPARG), lo que se confirma en los datos de farmacología recopilados (que también muestran interacción con TRPM3). Su eficacia en diabetes tipo 2 como sensibilizador de insulina está bien establecida.
 
-La opsismodisplasia es una displasia esquelética rara, típicamente asociada a mutaciones en INPPL1. Con los datos suministrados no se pudo identificar un vínculo plausible entre el agonismo de PPAR-γ y la fisiopatología de esta enfermedad. No hay similitud evidente con la indicación original.
+Para la opsismodisplasia, **no se identifica un vínculo mecanístico respaldado por los datos**. Esta enfermedad es una displasia esquelética rara asociada a variantes del gen INPPL1, y su relación con la activación de PPAR-gamma no está establecida. El puntaje elevado del modelo (99.59%) es únicamente una predicción computacional, sin ensayos ni literatura que la corroboren.
 
-Por ello, la puntuación alta (0.996) probablemente sea un artefacto del grafo de conocimiento y no una señal terapéutica real. Debe interpretarse como una hipótesis sin sustento, no como una candidata con racionalidad demostrada.
+Cabe señalar que el modelo generó otras predicciones con puntajes similares (síndrome de la persona rígida clásico y focal, síndrome de disfunción sensible a tiamina, varias lipodistrofias localizadas y agenesia pancreática). Entre ellas, las lipodistrofias tienen una justificación biológica teórica por el papel de PPAR-gamma en el tejido adiposo, aunque tampoco cuentan con evidencia clínica. Todas permanecen en nivel L5 y decisión Hold.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la opsismodisplasia.
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 00150005 | ACTOS 30 mg COMPRIMIDOS | Comprimido | Cheplapharm Arzneimittel GmbH |
-| 76481 | PIOGLITAZONA CINFA 15 MG COMPRIMIDOS EFG | Comprimido | Laboratorios Cinfa S.A. |
-| 00150010IP | ACTOS 30 MG COMPRIMIDOS | Comprimido | Takeda Pharma A/S |
-| 00151001 | GLUSTIN 15 mg COMPRIMIDOS | Comprimido | Takeda Pharma A/S |
-| 76275 | PIOGLITAZONA AUROBINDO 15 MG COMPRIMIDOS EFG | Comprimido | Laboratorios Aurobindo S.L.U. |
+Pioglitazona está comercializada en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de comprimidos. Se muestran las 5 principales:
 
-Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada no está disponible en los datos recibidos.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 00150005 | ACTOS 30 mg COMPRIMIDOS (Cheplapharm) | Comprimido | No disponible en los datos |
+| 76481 | PIOGLITAZONA CINFA 15 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 00150010IP | ACTOS 30 MG COMPRIMIDOS (Takeda) | Comprimido | No disponible en los datos |
+| 00151001 | GLUSTIN 15 mg COMPRIMIDOS | Comprimido | No disponible en los datos |
+| 76275 | PIOGLITAZONA AUROBINDO 15 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+No se dispone de advertencias ni contraindicaciones extraídas del prospecto. Consultar el prospecto para información de seguridad completa.
+
+- **Contraindicaciones según el grafo de conocimiento (no proviene del prospecto)**: el grafo de conocimiento asocia pioglitazona con enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, deficiencias hipofisarias (incluido hipopituitarismo y síndrome de Sheehan), hipogonadismo hipogonadotrópico (incluido síndrome de Kallmann), deficiencia de hormona del crecimiento, enfermedad del timo, insuficiencia suprarrenal (enfermedad de Addison) y enfermedades infecciosas. Esta información debe confirmarse con la ficha técnica oficial.
+- **Interacciones y dianas farmacológicas**: los datos registran dos dianas de pioglitazona: el receptor PPAR-gamma (PPARG) y el canal TRPM3. No son interacciones medicamentosas clínicas propiamente dichas. Además, la EMA concedió en 2014 la designación de medicamento huérfano a pioglitazona para la adrenoleucodistrofia.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos, literatura ni un mecanismo plausible que vincule el agonismo de PPAR-γ con la opsismodisplasia (nivel L5, etapa S0). No hay base para avanzar.
+La predicción para opsismodisplasia es solo del modelo (nivel L5), sin ensayos clínicos, sin literatura específica y sin un vínculo mecanístico plausible. Además, el perfil de seguridad conocido de pioglitazona (insuficiencia cardíaca, enfermedad hepática y renal) exige cautela en cualquier nueva indicación.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción desde DrugBank y un análisis que justifique (o descarte) el vínculo con la vía de INPPL1.
-- Descarga y análisis del prospecto de AEMPS (advertencias y contraindicaciones), necesarios antes de cualquier cribado de seguridad.
-- Búsqueda dirigida de literatura preclínica sobre pioglitazona u otros agonistas PPAR-γ en displasias esqueléticas.
-- Como aparte, las indicaciones predichas en lipodistrofias localizadas (rangos 5, 6, 7 y 8) tienen un racional biológico más plausible (adipogénesis mediada por PPAR-γ) y se han clasificado como preguntas de investigación. Podrían priorizarse antes que esta.
+- Datos del mecanismo de acción y análisis de un posible vínculo entre PPAR-gamma e INPPL1 o la vía implicada en la opsismodisplasia
+- Estudios preclínicos (modelos celulares o animales) que justifiquen la hipótesis
+- Obtener y revisar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), lo que constituye un vacío de datos bloqueante para el cribado de seguridad
+- Evaluar si otras predicciones (por ejemplo, lipodistrofias) tienen una justificación biológica más sólida antes de priorizar esta indicación
+- Confirmar la compatibilidad de la vía de administración y la similitud con la indicación original (pendientes)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Sunitinib
 parent: Evidencia alta (L1-L2)
-nav_order: 507
+nav_order: 757
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,94 +29,121 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sunitinib: Hacia Liposarcoma (Nueva Indicación Predicha)
+# Sunitinib: De Carcinoma de Células Renales a Liposarcoma
 
 ## Resumen en Una Frase
 
-Sunitinib es un inhibidor de tirosina quinasas (VEGFR, PDGFR y KIT) que se comercializa en España con 20 autorizaciones, la mayoría genéricos en cápsulas duras.
-El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **3 ensayos clínicos** (2 de sunitinib en sarcomas de partes blandas no GIST) y **9 publicaciones** que respaldan esta dirección de forma limitada.
-La eficacia específica en liposarcoma no está demostrada.
+Sunitinib es un inhibidor multidiana de tirosina quinasas, originalmente utilizado para el tratamiento del carcinoma de células renales y del tumor del estroma gastrointestinal (GIST).
+El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 ensayos clínicos de Fase 2 completados** y **9 publicaciones** que actualmente respaldan esta dirección, aunque sin confirmación en Fase 3.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Carcinoma de células renales y tumor del estroma gastrointestinal (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99,87 % |
+| Puntaje de Predicción TxGNN | 99.87% |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Hold (con línea de investigación abierta; ver conclusión) |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El registro de DrugBank no incluye una descripción detallada del mecanismo de acción. Según el análisis de la evidencia, sunitinib inhibe los receptores VEGFR, PDGFR y KIT. La señalización angiogénica y la de PDGFR son plausibles en los sarcomas de partes blandas, y bloquearlas podría frenar el crecimiento tumoral y el aporte sanguíneo al tumor.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, sunitinib es un inhibidor multidiana de tirosina quinasas (VEGFR, PDGFR, KIT, RET, FLT3). Su eficacia en el carcinoma de células renales y en el GIST resistente a imatinib está establecida, y mecanísticamente podría ser aplicable al liposarcoma.
 
-El liposarcoma es uno de los sarcomas de partes blandas más frecuentes en adultos y con frecuencia progresa a enfermedad avanzada, irresecable o metastásica, con pocas opciones dirigidas. Por eso hay interés en extender a este tumor el uso de inhibidores multiquinasa que han funcionado en otros tumores sólidos.
+La angiogénesis y la señalización de PDGFR son impulsores plausibles en los sarcomas de partes blandas, incluido el liposarcoma. Esto explica la proximidad entre la indicación original (tumores sólidos dependientes de angiogénesis y de quinasas, como el GIST) y la nueva indicación (sarcoma de partes blandas).
 
-Esta relación es indirecta. La evidencia proviene de ensayos de fase 2 de un solo brazo en sarcomas no GIST, donde el liposarcoma es solo uno de varios subtipos, y la señal de respuesta es modesta.
+Conviene ser prudente: dos ensayos de Fase 2 y un informe publicado de Fase 2 aportan señales clínicas directas, pero el efecto parece modesto y dependiente de la histología, sin confirmación en Fase 3.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Fase 2 | Completado | 53 | Sunitinib a dosis continua en sarcomas no GIST metastásicos, localmente avanzados o recurrentes. Coincidencia directa de fármaco y clase de enfermedad, pero el liposarcoma es solo un subtipo. |
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Fase 2 | Completado | 48 | Estudio abierto de un solo centro con sunitinib en sarcoma de partes blandas irresecable o metastásico (leiomiosarcoma, liposarcoma, fibrosarcoma y histiocitoma fibroso maligno). |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Completado | 131 | Protocolo SARC024 con **regorafenib** (no sunitinib) en subtipos seleccionados de sarcoma. Solo apoya el concepto de inhibidores multiquinasa. |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Fase 2 | Completado | 53 | Dosificación continua de sunitinib en sarcomas no GIST metastásicos, localmente avanzados o recurrentes; incluye subtipos de liposarcoma |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Fase 2 | Completado | 48 | Estudio abierto de un solo centro en sarcoma de partes blandas irresecable o metastásico (leiomiosarcoma, liposarcoma, fibrosarcoma, histiocitoma fibroso maligno); relevancia indirecta |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Ensayo de fase 2 | Int J Cancer | Estudio de un solo centro sobre seguridad y eficacia de sunitinib en sarcomas de partes blandas recidivantes o refractarios, centrado en leiomiosarcoma, liposarcoma e histiocitoma fibroso maligno. |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Revisión de perfil molecular | Cancers | Alteraciones genéticas, epigenéticas y transcriptómicas del liposarcoma para seleccionar terapias dirigidas. Las opciones dirigidas actuales son limitadas. |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Revisión | Magy Onkol | El tratamiento médico de los sarcomas de partes blandas depende cada vez más del subtipo histológico, tanto con citotóxicos como con terapias dirigidas. |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Revisión | Expert Rev Anticancer Ther | Terapias emergentes en sarcoma de partes blandas del adulto. La doxorrubicina con o sin ifosfamida es la base del tratamiento en enfermedad irresecable. |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Revisión | Ann Oncol | Terapia guiada o no por histología. Se describe eficacia de trabectedina en liposarcomas, con actividad muy alta en el mixoide. |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Reporte de caso | Anticancer Res | Beneficio clínico duradero con sunitinib en un caso de liposarcoma metastásico muy pretratado. |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Estudio de secuenciación | Oncotarget | Secuenciación de condrosarcoma mixoide extraesquelético y evaluación de factores predictivos de beneficio con sunitinib. Es otro tipo de sarcoma. |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Análisis clinicopatológico | Am J Surg Pathol | 25 casos de sarcoma inflamatorio miofibroblástico mixoide. Relevancia indirecta para liposarcoma. |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Protocolo de ensayo | BMC Cancer | Protocolo REGOSARC de fase 2 con **regorafenib** en sarcoma de partes blandas avanzado. No evalúa sunitinib. |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Ensayo Fase 2 | Int J Cancer | Sunitinib en sarcomas de partes blandas recidivantes o refractarios (leiomiosarcoma, liposarcoma, histiocitoma fibroso maligno) |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Revisión | Expert Rev Anticancer Ther | Terapias emergentes en sarcoma de partes blandas del adulto |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Revisión | Magyar Onkologia | Tratamiento médico de los sarcomas según el subtipo histológico |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Revisión | Ann Oncol | Terapias dirigidas por histología; trabectedina con alta actividad en liposarcoma mixoide |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Revisión/perfil molecular | Cancers | Alteraciones genéticas, epigenéticas y transcriptómicas del liposarcoma para seleccionar terapias dirigidas |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Reporte de caso | Anticancer Res | Beneficio clínico prolongado con sunitinib en un liposarcoma metastásico muy pretratado |
+
+---
 
 ## Información de Mercado en España
 
-Se registran 20 autorizaciones. Se muestran las 5 principales; el texto de indicación aprobada no está disponible en los datos recibidos.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 86495 | Sunitinib Bluepharma Industria 12,5 mg cápsulas duras EFG | Cápsula dura | Bluepharma Industria Farmacêutica S.A. |
-| 86344 | Sunitinib Tecnigen 25 mg cápsulas duras EFG | Cápsula dura | Tecnimede España Industria Farmacéutica S.A. |
-| 86868 | Sunitinib Vivanta 12,5 mg cápsulas duras EFG | Cápsula dura | Vivanta Generics S.R.O. |
-| 85718 | Sunitinib Piramal 12,5 mg cápsulas duras EFG | Cápsula dura | Piramal Critical Care B.V. |
-| 83278 | Sunitinib Teva 25 mg cápsulas duras EFG | Cápsula dura | Teva B.V. |
+| 06347001 | SUTENT 12,5 MG CÁPSULAS DURAS (Pfizer) | Cápsula dura | No disponible en los datos compilados |
+| 83278 | SUNITINIB TEVA 25 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
+| 84506 | SUNITINIB VIATRIS 12,5 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
+| 85667 | SUNITINIB CIPLA 25 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
+| 1201511002 | SUNITINIB ACCORD 12,5 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
+
+Hay 20 autorizaciones vigentes en total (todas monofármaco), la mayoría genéricos EFG.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multiquinasa de VEGFR, PDGFR y KIT) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multidiana de tirosina quinasas) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto (las contraindicaciones del grafo de conocimiento mencionan trombocitopenia y anemia) |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma, función hepática y tiroidea, electrolitos (incluido potasio), función cardíaca y ECG (intervalo QT) |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y la normativa local de manejo de antineoplásicos orales |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / condiciones de riesgo (según el grafo de conocimiento, no texto de prospecto)**: síndrome de QT largo (incluido el familiar) y torsades de pointes; insuficiencia cardíaca y insuficiencia cardíaca congestiva; insuficiencia hepática, enfermedad hepática y lesión hepática inducida por fármacos; hiperbilirrubinemia y síndrome de Gilbert; trombocitopenia y anemia; hipotiroidismo e hipertiroidismo (incluida enfermedad de Graves y tirotoxicosis); insuficiencia suprarrenal y enfermedad de Addison; epilepsia; pancreatitis; enfermedad de la vesícula biliar; deficiencia de potasio; síndrome de leucoencefalopatía posterior.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las principales:
+  - **Mayor**: dolasetrón (riesgo de prolongación del QT).
+  - **Moderadas**: claritromicina, dexametasona, famotidina, loperamida, palonosetrón, bisacodilo, ácido picosulfúrico, polietilenglicol con electrolitos, sulfato de sodio, clorpropamida, glimepirida y múltiples insulinas (aspart, degludec, detemir, glargina, glulisina, humana).
+- La información de advertencias y contraindicaciones del prospecto de la AEMPS no está disponible; consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia de nivel L2 procede de ensayos de fase 2 de un solo brazo en sarcomas no GIST, sin resultados específicos para liposarcoma y con una señal de respuesta modesta. Además, faltan los datos de seguridad de la ficha técnica de la AEMPS, una brecha que el propio Evidence Pack marca como bloqueante. La etiqueta original del paquete para esta predicción es "Research Question" (pregunta de investigación).
+Existen dos ensayos de Fase 2 completados y un informe publicado de Fase 2 con señales clínicas directas, pero el efecto es modesto, dependiente de la histología y sin confirmación en Fase 3. Además, falta la información de seguridad del prospecto, lo que impide avanzar a un cribado de seguridad formal. Se mantiene como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), para poder completar el cribado de seguridad.
-- Obtener los resultados desglosados por subtipo (liposarcoma) de NCT00474994 y NCT00400569 y del estudio PMID 21154746.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Definir una indicación original verificable, ya que ninguna autorización registra texto de indicación.
-- Comparar con las alternativas ya establecidas en liposarcoma (por ejemplo, trabectedina) antes de priorizar un estudio.
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisar los resultados de los ensayos NCT00474994 y NCT00400569 en la población específica de liposarcoma por subtipo histológico.
+- Valorar un ensayo confirmatorio de mayor tamaño, comparando con alternativas establecidas (p. ej., trabectedina en liposarcoma).
+- Plan de monitoreo cardiovascular, hepático y tiroideo, y revisión de interacciones con fármacos que prolongan el QT.
+
+---
+
+### Otras indicaciones predichas (referencia)
+
+Para contexto, el análisis incluye otras predicciones con distinto grado de respaldo:
+- **Carcinoma de células renales no de células claras / no clasificado** (L2, Proceed with Guardrails): ensayos aleatorizados de Fase 2 (ASPEN, ESPN) muestran actividad, aunque menor que en células claras; CaboSun II sugiere que cabozantinib podría ser superior.
+- **Carcinoma renal** (L1): coincide con la indicación original, por lo que no es reposicionamiento propiamente dicho.
+- **Dermatofibrosarcoma protuberans** (L3, Research Question): fundamento mecanístico sólido (fusión COL1A1-PDGFB) en enfermedad resistente a imatinib, con evidencia retrospectiva y casos.
+- **Carcinoma renal asociado a translocaciones Xp11.2/TFE3** (L3): evidencia mayormente retrospectiva y de casos.
+- Otras entidades (liposarcoma mixoide ovárico, carcinoma renal infantil, angiolipoma, fibrosarcoma cardíaco, carcinoma renal asociado a neuroblastoma): evidencia escasa o nula (L4-L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

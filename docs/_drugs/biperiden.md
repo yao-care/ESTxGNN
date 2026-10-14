@@ -2,7 +2,7 @@
 layout: default
 title: Biperiden
 parent: Solo predicción del modelo (L5)
-nav_order: 77
+nav_order: 107
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Biperideno: De Síndrome Parkinsoniano a Encefalitis Subaguda de Rasmussen
+# Biperideno: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
 
 ## Resumen en Una Frase
 
-Biperideno es un anticolinérgico muscarínico comercializado en España (Akineton), utilizado para aliviar la rigidez muscular, el temblor y la sialorrea en el síndrome parkinsoniano.
-El modelo TxGNN predice que podría ser efectivo para la **encefalitis subaguda de Rasmussen**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción: es solo una predicción del modelo.
-
----
+Biperideno es un anticolinérgico muscarínico, utilizado originalmente para el tratamiento de la enfermedad de Parkinson y de los síndromes parkinsonianos.
+El modelo TxGNN predice que podría ser efectivo para la **encefalitis subaguda de Rasmussen**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Las autorizaciones de la AEMPS no incluyen texto de indicación; según farmacología (GtoPdb), síndrome parkinsoniano |
+| Indicación Original | Enfermedad de Parkinson y síndromes parkinsonianos (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 99.94% |
 | Nivel de Evidencia | L5 |
@@ -50,60 +49,49 @@ El modelo TxGNN predice que podría ser efectivo para la **encefalitis subaguda 
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información farmacológica disponible, biperideno actúa sobre los receptores muscarínicos M1, M2, M3, M4 y M5 (genes CHRM1 a CHRM5), con preferencia conocida por M1. Su eficacia en el síndrome parkinsoniano proviene del bloqueo colinérgico central.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, biperideno es un anticolinérgico antagonista de los receptores muscarínicos, con selectividad por M1. Los datos farmacológicos compilados lo vinculan con los receptores M1, M2, M3, M4 y M5. Su uso clínico consiste en aliviar la rigidez muscular, la sudoración y la salivación, y en mejorar la marcha y el temblor en el síndrome parkinsoniano.
 
-**Este caso es débil mecanísticamente.** La encefalitis de Rasmussen es un proceso inmunomediado, dirigido por linfocitos T, y no se identifica un vínculo plausible con el bloqueo muscarínico. La relación con la indicación original es tenue. Es probable que el puntaje alto (99.94%) refleje cercanía en el grafo de conocimiento y no una relación biológica real.
+La encefalitis de Rasmussen es una encefalitis crónica de origen inmunitario, mediada por linfocitos T, que cursa con crisis focales. No existe un vínculo establecido entre esta enfermedad y el antagonismo muscarínico. Cualquier justificación sería especulativa (por ejemplo, la modulación de circuitos colinérgicos implicados en las crisis).
 
----
+Por tanto, la predicción parece reflejar sobre todo la proximidad en el grafo de conocimiento y no una base mecanística sólida. Incluso si hubiera algún efecto, sería a lo sumo sintomático y no modificador de la enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
-
----
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 28994 | AKINETON 5MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No especificada en los datos recibidos |
-| 26692 | AKINETON 2 mg COMPRIMIDOS | Comprimido | No especificada en los datos recibidos |
-| 51224 | AKINETON RETARD 4 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No especificada en los datos recibidos |
-
----
+| 28994 | AKINETON 5 mg/ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
+| 26692 | AKINETON 2 mg comprimidos | Comprimido | No disponible en los datos compilados |
+| 51224 | AKINETON RETARD 4 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones sugeridas por el grafo de conocimiento** (no proceden del texto del prospecto; deben verificarse con la ficha técnica): glaucoma de ángulo abierto y de ángulo cerrado, hiperplasia benigna de próstata, miastenia gravis y enfermedades de la unión neuromuscular, íleo paralítico, acalasia/megaesófago, hernia de hiato, colitis ulcerosa y enfermedad inflamatoria intestinal, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, enfermedad pulmonar obstructiva crónica, hipertensión e hipotensión, enfermedad coronaria, parada cardíaca súbita y enfermedad de la conducción cardíaca, úlcera gástrica, y enfermedad renal, hepática o de la vesícula biliar.
+- **Interacciones farmacológicas**: los datos compilados no incluyen interacciones fármaco-fármaco clínicas, solo la afinidad por los receptores muscarínicos M1 a M5.
 
-Como nota general basada en conocimiento farmacológico (no proviene de los datos recibidos), el bloqueo muscarínico central puede afectar la cognición, un aspecto a considerar en cualquier población neurológica.
-
----
+Consultar el prospecto para la información de seguridad oficial (advertencias y contraindicaciones), ya que no se dispone del texto de AEMPS.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos, literatura ni un vínculo mecanístico plausible (nivel L5). Además, faltan datos de seguridad de la AEMPS, lo que impide avanzar al cribado de seguridad.
+La predicción tiene un puntaje alto (99.94%), pero no cuenta con ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre el antagonismo muscarínico y una encefalitis inmunomediada. Por ello, el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que actualmente bloquea el cribado de seguridad
-- Obtener el mecanismo de acción desde DrugBank
-- Buscar literatura específica sobre biperideno y encefalitis de Rasmussen para confirmar que no hay evidencia previa
-- Considerar priorizar otras predicciones del mismo fármaco. La más coherente biológicamente es el **parkinsonismo juvenil de Hunt** (puntaje 99.73%, también L5), por su similitud con el uso clásico de biperideno, aunque sigue sin evidencia directa en los datos recibidos.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), pendiente para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión de literatura dirigida y estudios preclínicos que evalúen la relación entre la señalización colinérgica muscarínica y las crisis o la neuroinflamación en la encefalitis de Rasmussen.
+- Considerar candidatas alternativas con mayor plausibilidad clínica entre las otras predicciones. Por ejemplo, el parkinsonismo juvenil de Hunt, la neurodegeneración asociada a PLA2G6 y el síndrome de parálisis supranuclear progresiva-corticobasal son extensiones sintomáticas cercanas a la indicación original, aunque tampoco tienen ensayos ni literatura específica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

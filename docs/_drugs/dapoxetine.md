@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dapoxetine
-parent: Solo predicción del modelo (L5)
-nav_order: 156
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 221
+evidence_level: L4
 indication_count: 3
 ---
 
 # Dapoxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,79 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Dapoxetina: De Eyaculación Precoz a Migraña
+# Dapoxetina: De Eyaculación Precoz a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
 Dapoxetina es un inhibidor selectivo de la recaptación de serotonina (ISRS) de acción corta, utilizado originalmente para el tratamiento de la eyaculación precoz.
-El modelo TxGNN predice que podría ser efectivo para **migraña (trastorno de migraña)**, pero actualmente hay **0 ensayos clínicos** y solo **2 publicaciones** de relación indirecta, por lo que la predicción sigue siendo una hipótesis de investigación.
-
----
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero actualmente no hay ensayos clínicos registrados y solo se dispone de **2 publicaciones** de apoyo indirecto (una revisión sobre usos off-label de ISRS y un estudio de cohorte sobre dapoxetina en eyaculación precoz).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Eyaculación precoz (según la farmacología de referencia; los registros de AEMPS no incluyen el texto de indicación) |
+| Indicación Original | Eyaculación precoz (indicación del grafo de conocimiento; el texto autorizado en España no está disponible) |
 | Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 99.34% |
-| Nivel de Evidencia | L4 (solo evidencia indirecta a nivel de clase de fármaco) |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Dapoxetina actúa como inhibidor selectivo de la recaptación de serotonina, con el transportador SERT (gen *SLC6A4*) como diana. No se dispone de datos detallados del mecanismo de acción en DrugBank. La descripción anterior procede de la ficha farmacológica. Su perfil es de absorción rápida y vida media corta, diseñado para uso a demanda.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dapoxetina es un ISRS de acción corta que inhibe el transportador de serotonina (SERT, gen SLC6A4). Su eficacia en la eyaculación precoz está respaldada por su uso clínico, y mecanísticamente podría ser aplicable a la migraña por la vía serotoninérgica.
 
-La relación con la migraña es indirecta y se da a nivel de clase: la modulación serotoninérgica es biológicamente plausible en la migraña, y los ISRS se han explorado como usos fuera de indicación. Sin embargo, la evidencia de los ISRS en la profilaxis de la migraña es débil e inconsistente, y no hay datos que muestren que dapoxetina en particular haya sido estudiada en migraña.
+La señalización de la serotonina (5-HT) participa en la activación trigeminovascular y en la depresión cortical propagada, y los triptanes actúan sobre los receptores 5-HT1B/1D. Esto hace biológicamente plausible la hipótesis de modulación serotoninérgica en la migraña.
 
-Además, su perfil a demanda y de vida media corta encaja mal con un uso profiláctico continuo. El puntaje alto de TxGNN (0.993) es únicamente una predicción computacional, y el razonamiento mecanístico es una inferencia, no una confirmación.
+Sin embargo, como clase, los ISRS han mostrado una eficacia profiláctica limitada e inconsistente en migraña. El vínculo para dapoxetina se basa en inferencia a nivel de clase y en el alto puntaje de TxGNN, y el mecanismo no está verificado de forma independiente.
 
----
+### Otras predicciones del modelo
+
+| Posición | Indicación predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
+|------|------|------|------|------|
+| 2 | Trastorno distímico | 99.14% | L5 | Hold |
+| 3 | Migraña con aura de tronco encefálico | 99.11% | L5 | Hold |
+
+La distimia es coherente a nivel de clase (los ISRS tratan trastornos depresivos), pero dapoxetina tiene vida media corta y está pensada para uso a demanda, sin evidencia en condiciones depresivas crónicas. La migraña con aura de tronco encefálico es un subtipo raro, y la predicción probablemente se deriva de su relación con la categoría general de migraña.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33998993](https://pubmed.ncbi.nlm.nih.gov/33998993/) | 2022 | Revisión | Current Neuropharmacology | Revisión de los usos fuera de indicación de los ISRS, incluida la migraña. Evidencia a nivel de clase, no específica de dapoxetina |
-| [23504864](https://pubmed.ncbi.nlm.nih.gov/23504864/) | 2013 | Cohorte | Urologia | Cumplimiento del tratamiento con dapoxetina en pacientes con eyaculación precoz. No aborda la migraña |
-
----
+| [33998993](https://pubmed.ncbi.nlm.nih.gov/33998993/) | 2022 | Revisión | Current Neuropharmacology | Revisión del estado actual de los usos off-label de los ISRS en distintas indicaciones, entre ellas la migraña |
+| [23504864](https://pubmed.ncbi.nlm.nih.gov/23504864/) | 2013 | Cohorte | Urologia | Cumplimiento del tratamiento con dapoxetina en pacientes con eyaculación precoz; no aborda migraña |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 70875 | PRILIGY 60 mg comprimidos recubiertos con película | Comprimido recubierto con película | Phoenix Labs Unlimited Company |
-| 70874 | PRILIGY 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | Phoenix Labs Unlimited Company |
-
----
+| 70875 | PRILIGY 60 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 70874 | PRILIGY 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: la consulta se completó y registró una interacción de tipo farmacológico con el transportador de serotonina (SERT, SLC6A4), que es la diana principal de dapoxetina como ISRS. No se trata de una interacción con otro fármaco y no tiene nivel de gravedad asignado.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura disponible es indirecta (una revisión general de ISRS y un estudio sobre eyaculación precoz). El perfil farmacocinético a demanda no encaja con la profilaxis de la migraña, así que el puntaje de TxGNN no basta por sí solo para avanzar.
-
-Las otras dos predicciones, **trastorno distímico** (99.14%) y **migraña con aura de tronco encefálico** (99.11%), tampoco tienen ensayos ni literatura específica (nivel L5), y también quedan en Hold.
+La predicción para migraña (L4) se apoya únicamente en el puntaje del modelo y en inferencia a nivel de clase, sin ensayos clínicos ni estudios específicos de dapoxetina en migraña. Además, la eficacia profiláctica de los ISRS en migraña es limitada e inconsistente.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de AEMPS (advertencias y contraindicaciones), un dato que bloquea el cribado de seguridad.
-- Completar el mecanismo de acción desde DrugBank.
-- Buscar estudios específicos de dapoxetina en migraña y valorar la evidencia de ISRS en profilaxis migrañosa, con especial atención a la compatibilidad con una pauta a demanda.
-- Definir si la migraña es realmente una pregunta de investigación prioritaria frente a otros candidatos.
+- Datos del mecanismo de acción (MOA) de dapoxetina
+- Advertencias y contraindicaciones del prospecto de la AEMPS, necesarias para el cribado de seguridad
+- Estudios preclínicos o de mecanismo que respalden el uso de dapoxetina en migraña
+- Evaluación de si el perfil de dosis a demanda es compatible con una indicación profiláctica o aguda en migraña
+- Texto de la indicación autorizada en España para las dos autorizaciones vigentes
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Carbamazepine
 parent: Evidencia moderada (L3-L4)
-nav_order: 102
+nav_order: 143
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Carbamazepina: De Epilepsia y Neuralgia a Neoplasia del Nervio Trigémino
+# Carbamazepina: De Epilepsia a Neoplasia del Nervio Trigémino
 
 ## Resumen en Una Frase
 
-La carbamazepina es un anticonvulsivo bloqueador de canales de sodio, usado originalmente para la epilepsia y el dolor neuropático, como la neuralgia del trigémino.
-El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio trigémino**, pero esta señal parece reflejar el alivio sintomático de la neuralgia asociada al tumor y no un efecto antitumoral.
-La evidencia es débil: **1 ensayo clínico** (observacional, sin relación directa) y **20 publicaciones** (en su mayoría reportes de caso).
+La carbamazepina es un antiepiléptico originalmente utilizado para tratar la epilepsia, el trastorno bipolar y la neuralgia del trigémino.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero no existen ensayos clínicos y la literatura disponible (**20 publicaciones**) consiste sobre todo en casos clínicos de neuralgia secundaria a tumores, sin evidencia de efecto antitumoral.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia y dolor neuropático (neuralgia del trigémino, neuropatía diabética); trastorno bipolar. Los textos de indicación de las autorizaciones españolas vienen vacíos, así que este dato procede de la ficha farmacológica |
+| Indicación Original | Epilepsia (según los datos compilados; el texto de indicación aprobado en las autorizaciones españolas está vacío) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 99.998% |
 | Nivel de Evidencia | L4 |
@@ -51,63 +50,68 @@ La evidencia es débil: **1 ensayo clínico** (observacional, sin relación dire
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, la carbamazepina bloquea los canales de sodio dependientes de voltaje y es tratamiento de primera línea de la neuralgia del trigémino. La ficha farmacológica menciona el receptor FZD8 como diana registrada, pero indica que no se ha definido una diana primaria por la complejidad de los canales de sodio.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la carbamazepina actúa bloqueando los canales de sodio dependientes de voltaje, lo que explica su eficacia comprobada en epilepsia y neuralgia del trigémino.
 
-La relación entre la indicación original y la nueva es indirecta. Los tumores del nervio trigémino o de su entorno (schwannoma, meningioma, linfoma, lipoma del ángulo pontocerebeloso) pueden causar neuralgia secundaria, y la carbamazepina se prescribe con frecuencia para ese dolor. La literatura recuperada describe sobre todo casos en los que el fármaco se usó para el dolor y, a veces, no fue eficaz o se toleró mal mientras se diagnosticaba el tumor.
+La relación con la nueva indicación es indirecta. La literatura recuperada trata de neuralgia del trigémino secundaria a tumores (schwannoma, meningioma, quiste dermoide, lipoma, angioma, linfoma), donde la carbamazepina solo controlaría el dolor neurálgico. No hay evidencia de un efecto antineoplásico.
 
-Ninguna fuente muestra que la carbamazepina actúe sobre la neoplasia misma. El puntaje TxGNN (0.99998) probablemente está impulsado por el vínculo con la neuralgia y por sí solo no es informativo. Cualquier beneficio sería sintomático, no antitumoral.
+Por ello, el puntaje alto del modelo probablemente refleja la cercanía en la red de conocimiento con la neuralgia del trigémino (indicación original) y no una señal real de reposicionamiento para tratar el tumor. En varios casos descritos, además, la carbamazepina no controló adecuadamente el dolor o se retrasó el diagnóstico tumoral.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT06853119](https://clinicaltrials.gov/study/NCT06853119) | N/A | Aún no reclutando | 120 | Estudio observacional con resonancia magnética sobre cambios funcionales y estructurales cerebrales en neuralgia del trigémino. No evalúa carbamazepina ni aborda neoplasias (relevancia: C) |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
+Se muestran las publicaciones más relevantes (de 20 recuperadas):
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Revisión | Acta Clinica Croatica | Opciones de tratamiento de la neuralgia del trigémino; señala que puede deberse a compresión vascular o a un proceso tumoral |
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revisión | Expert Review of Neurotherapeutics | Tratamientos médicos y quirúrgicos de la neuralgia del trigémino; la causa más frecuente es la compresión vascular de la raíz nerviosa |
-| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Reporte de caso | British Journal of Neurosurgery | Linfoma primario del nervio trigémino con dolor facial; la carbamazepina no mejoró los síntomas |
-| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | Reporte de caso | Rinsho Shinkeigaku | Linfoma con diseminación perineural que se presentó como neuralgia; la carbamazepina mejoró el dolor al inicio y luego dejó de ser eficaz |
-| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | Reporte de caso | World Neurosurgery | Meningioma petroclival con neuralgia del trigémino, resecado por vía de Kawase |
-| [25433061](https://pubmed.ncbi.nlm.nih.gov/25433061/) | 2014 | Reporte de caso | No Shinkei Geka | Lipoma del ángulo pontocerebeloso con neuralgia; la carbamazepina no controló el dolor por efectos secundarios |
-| [26768887](https://pubmed.ncbi.nlm.nih.gov/26768887/) | 2016 | Reporte de caso | Turkish Neurosurgery | Neuralgia del trigémino como síntoma aislado e inusual de un adenoma hipofisario |
-| [32454201](https://pubmed.ncbi.nlm.nih.gov/32454201/) | 2020 | Reporte quirúrgico | World Neurosurgery | Resección endoscópica endonasal de un schwannoma de la fosa pterigopalatina |
-| [19184299](https://pubmed.ncbi.nlm.nih.gov/19184299/) | 2009 | Reporte de caso | Odontology | Neuralgia secundaria a quiste epidermoide del ángulo pontocerebeloso |
-| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | Preclínico (animal) | Experimental Neurology | En ratas, la carbamazepina intravenosa inhibió la actividad espontánea de neuromas experimentales |
+| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Revisión | Acta Clin Croat | Opciones de tratamiento de la neuralgia del trigémino, que puede deberse a compresión vascular o a un proceso tumoral |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revisión | Expert Rev Neurother | Múltiples tratamientos médicos y quirúrgicos para la neuralgia del trigémino |
+| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Caso clínico | Br J Neurosurg | Linfoma primario del nervio trigémino; la carbamazepina no mejoró los síntomas |
+| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | Caso clínico | Rinsho Shinkeigaku | Linfoma con diseminación perineural; mejoría inicial con carbamazepina y posterior ineficacia |
+| [15235745](https://pubmed.ncbi.nlm.nih.gov/15235745/) | 2004 | Caso clínico | Arq Neuropsiquiatr | Melanoma primario de la cavidad de Meckel; dolor no aliviado con carbamazepina |
+| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | Caso clínico | World Neurosurg | Meningioma petroclival con neuralgia del trigémino, resecado por abordaje de Kawase |
+| [32454201](https://pubmed.ncbi.nlm.nih.gov/32454201/) | 2020 | Caso clínico/Quirúrgico | World Neurosurg | Resección endoscópica de schwannoma de la fosa pterigopalatina |
+| [25433061](https://pubmed.ncbi.nlm.nih.gov/25433061/) | 2014 | Caso clínico/Revisión | No Shinkei Geka | Neuralgia por lipoma del ángulo pontocerebeloso; efectos adversos con carbamazepina |
+| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | Preclínico | Exp Neurol | La carbamazepina inhibe la actividad espontánea en neuromas experimentales de rata |
+| [12590697](https://pubmed.ncbi.nlm.nih.gov/12590697/) | 2003 | Caso clínico | Neurosurgery | Granuloma sarcoideo del nervio trigémino que simula un schwannoma |
 
 ## Información de Mercado en España
 
-Se registran 7 autorizaciones en total. Los textos de indicación aprobada vienen vacíos en el registro, por lo que no se incluyen.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 39955 | TEGRETOL 200 mg COMPRIMIDOS | Comprimido |
-| 56232 | TEGRETOL 400 mg COMPRIMIDOS | Comprimido |
-| 86377 | CARBAMAZEPINA VEGAL 200 MG COMPRIMIDOS EFG | Comprimido |
-| 62620 | CARBAMAZEPINA NORMON 200 mg COMPRIMIDOS EFG | Comprimido |
-| 86378 | CARBAMAZEPINA VEGAL 400 MG COMPRIMIDOS EFG | Comprimido |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 39955 | TEGRETOL 200 mg COMPRIMIDOS | Comprimido | No disponible |
+| 56232 | TEGRETOL 400 mg COMPRIMIDOS | Comprimido | No disponible |
+| 86377 | CARBAMAZEPINA VEGAL 200 MG COMPRIMIDOS EFG | Comprimido | No disponible |
+| 62620 | CARBAMAZEPINA NORMON 200 mg COMPRIMIDOS EFG | Comprimido | No disponible |
+| 86378 | CARBAMAZEPINA VEGAL 400 MG COMPRIMIDOS EFG | Comprimido | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Los datos de advertencias y contraindicaciones del prospecto no están disponibles; consultar el prospecto para esa información. Como referencia, el grafo de conocimiento asocia la carbamazepina con contraindicación en las siguientes condiciones (no proviene del texto del prospecto):
+
+- **Hematológicas:** neutropenia, agranulocitosis, pancitopenia, trombocitopenia, anemia (incluida la macrocítica) y neutropenia congénita grave.
+- **Cardiovasculares:** bloqueo auriculoventricular, enfermedad de la conducción cardíaca, paro cardíaco súbito, enfermedad coronaria e hipertensión.
+- **Hepáticas y renales:** enfermedad hepática, enfermedad de la vesícula biliar, enfermedad renal y función renal alterada.
+- **Otras:** glaucoma, hipertensión ocular, síndrome de secreción inapropiada de ADH y epilepsia de ausencia.
+
+**Interacciones farmacológicas:** la consulta se completó sin interacciones medicamentosas clínicas. Solo se registró una asociación farmacológica con la diana FZD8 (receptor Frizzled 8), sin nivel de gravedad clínica asignado.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya en reportes de caso y revisiones sobre neuralgia secundaria a tumores. No hay evidencia de que la carbamazepina actúe sobre la neoplasia, y el único ensayo registrado es observacional y no evalúa el fármaco. El beneficio plausible es el control sintomático del dolor, algo ya cubierto por su uso establecido en neuralgia del trigémino.
-
-Las otras predicciones del modelo (crisis audiogénicas, epilepsia sobresalto, crisis de lectura, entre otras) son epilepsias reflejas raras. Se explican por el efecto anticonvulsivo general del fármaco y tampoco tienen evidencia específica.
+No hay ensayos clínicos y la literatura son casos clínicos que describen la carbamazepina como tratamiento sintomático del dolor, sin efecto antitumoral. El puntaje alto de TxGNN probablemente refleja su vínculo con la neuralgia del trigémino, no un reposicionamiento oncológico real.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS para obtener advertencias, contraindicaciones e indicaciones aprobadas
-- Datos del mecanismo de acción (por ejemplo, desde DrugBank)
-- Evidencia preclínica o clínica de un efecto directo sobre la neoplasia, o replantear la hipótesis como control sintomático del dolor tumoral
-- Estudios comparativos en pacientes con neuralgia secundaria a tumor que evalúen carbamazepina
+- Datos de mecanismo de acción (MOA) que sustenten un posible efecto antitumoral.
+- Estudios preclínicos que evalúen actividad antineoplásica en tumores del nervio trigémino.
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones) para el cribado de seguridad.
+- Si el interés es clínico, reorientar la hipótesis hacia el control sintomático del dolor en neuralgia secundaria a tumores.
+
+**Nota sobre otras predicciones:** las demás indicaciones predichas (convulsiones audiogénicas, epilepsia por sobresalto, convulsiones al leer, etc.) son epilepsias reflejas ya cubiertas conceptualmente por la indicación de epilepsia. Su evidencia es L4 (preclínica o indirecta) o L5 (solo predicción del modelo, p. ej., convulsiones inducidas por orgasmo, déficit de beta-cetotiolasa y síndrome de Rett variante congénita), por lo que no representan un reposicionamiento distinto.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

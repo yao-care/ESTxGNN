@@ -2,7 +2,7 @@
 layout: default
 title: Tamoxifen
 parent: Evidencia moderada (L3-L4)
-nav_order: 510
+nav_order: 762
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Tamoxifeno: De Cáncer de Mama Metastásico a Enfermedad de Paget Mamaria
+# Tamoxifeno: De Carcinoma de Mama Femenino a Mama Paget (Enfermedad de Paget Mamaria)
 
 ## Resumen en Una Frase
 
-Tamoxifeno es un modulador selectivo de los receptores de estrógeno (SERM), utilizado originalmente en el tratamiento del cáncer de mama metastásico y del carcinoma ductal.
-El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Paget mamaria**, pero la evidencia es muy limitada: **1 ensayo clínico** que no evalúa la eficacia del tamoxifeno en esta enfermedad y **12 publicaciones**, en su mayoría reportes y series de casos.
+Tamoxifeno es un modulador selectivo de los receptores de estrógenos, originalmente utilizado para el tratamiento del carcinoma de mama.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Paget mamaria**, con **1 ensayo clínico** (indirecto) y **10 publicaciones** (casos clínicos y series quirúrgicas) que actualmente respaldan esta dirección de forma muy limitada.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de mama metastásico y carcinoma ductal (según datos farmacológicos de referencia; los registros de AEMPS no incluyen el texto de indicación) |
+| Indicación Original | Carcinoma de mama femenino (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Enfermedad de Paget mamaria |
 | Puntaje de Predicción TxGNN | 99.69% |
 | Nivel de Evidencia | L4 |
@@ -48,82 +50,91 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Paget m
 | Número de Autorizaciones | 9 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la farmacología general, el tamoxifeno actúa sobre los receptores de estrógeno α y β (ESR1, ESR2) y sobre GPER1. Bloquea la señal estrogénica en el tejido mamario y su eficacia en el cáncer de mama con receptores hormonales positivos está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tamoxifeno es un modulador selectivo de los receptores de estrógenos (SERM) que antagoniza la señalización de ER en el tejido mamario (los datos farmacológicos lo vinculan con ESR1, ESR2 y GPER). Su eficacia en el carcinoma de mama ha sido comprobada.
 
-La enfermedad de Paget mamaria suele coexistir con un carcinoma ductal in situ (CDIS) o un carcinoma invasivo subyacente, que a menudo es positivo para receptores hormonales. De ahí surge una justificación indirecta: si el tumor subyacente responde a la terapia endocrina, el tamoxifeno podría ser útil. Es probable que el puntaje TxGNN, muy alto, refleje esta asociación con el cáncer de mama y no un efecto demostrado sobre la enfermedad de Paget.
+La enfermedad de Paget mamaria se asocia con frecuencia a carcinoma ductal in situ o carcinoma ductal invasivo subyacente, que en muchos casos son sensibles a hormonas. Por ello, el antagonismo del receptor de estrógenos es mecanísticamente plausible.
 
-Ningún estudio recuperado evalúa el tamoxifeno para la enfermedad de Paget mamaria en sí. La evidencia directa se limita a reportes de casos aislados, como una respuesta al tamoxifeno en un caso muy extenso de Paget del pezón. Por eso la predicción debe considerarse una hipótesis y no una indicación respaldada.
+Sin embargo, la evidencia disponible se limita a casos clínicos y series quirúrgicas, no a ensayos con tamoxifeno específicos para esta enfermedad. El único ensayo vinculado trata la prevención de patología endometrial en mujeres tratadas con tamoxifeno, no el tratamiento de la enfermedad de Paget.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Fase 3 | Completado | 313 | Acetato de medroxiprogesterona vs observación para prevenir patología endometrial en mujeres posmenopáusicas tratadas con tamoxifeno (incluye pacientes con enfermedad de Paget del pezón). No evalúa la eficacia del tamoxifeno contra la enfermedad de Paget. |
+| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Fase 3 | Completado | 313 | Acetato de medroxiprogesterona vs. observación para prevenir patología endometrial en mujeres posmenopáusicas con cáncer de mama (incluida enfermedad de Paget del pezón) tratadas con tamoxifeno. No evalúa tamoxifeno como tratamiento de Paget; evidencia indirecta. |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Metaanálisis / Revisión | Breast Care | Recurrencia local tras mastectomía y cirugía conservadora en la enfermedad de Paget mamaria; la recurrencia total llega al 20-40%. No trata sobre tamoxifeno. |
-| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Revisión | Am Surg | Revisión de 32 casos de enfermedad de Paget de la mama masculina. |
-| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Serie de casos / Revisión | Br J Surg | 48 mujeres con Paget del pezón; solo un caso fue tratado con tamoxifeno, el resto con cirugía. |
-| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Reporte de caso | Invest New Drugs | Tratamiento exitoso con tamoxifeno de una enfermedad de Paget **extramamaria** metastásica con receptores hormonales positivos (no es enfermedad mamaria). |
-| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | Reporte de caso | Breast | Caso muy extenso de Paget del pezón con respuesta al tamoxifeno, combinado con radioterapia. |
-| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | Reporte de caso | Il Giornale di Chirurgia | Paget del pezón en un hombre; no existen guías estandarizadas y puede ocultar un carcinoma ductal invasivo. |
-| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Reporte de caso / Serie | Clin Breast Cancer | Paget del pezón como recurrencia local tras cirugía conservadora (2181 mujeres tratadas). |
-| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Reporte de caso | Surg Today | Cáncer de mama bilateral sincrónico con enfermedad de Paget y carcinoma ductal invasivo. |
-| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Serie de casos | Arch Gynecol Obstet | Paget vulvar y mamario asociado a cánceres subyacentes sincrónicos. |
-| [17319355](https://pubmed.ncbi.nlm.nih.gov/17319355/) | 2006 | Serie de casos | Niger J Clin Pract | 8 casos (3.3%) de Paget del complejo areola-pezón entre 240 pacientes con cáncer de mama en Benin City. |
+| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Metaanálisis (cohortes) | Breast Care | Recurrencia local tras mastectomía y cirugía conservadora en Paget; recurrencia total del 20-40% según la literatura |
+| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Revisión | Br J Surg | 48 mujeres con Paget del pezón; tratamiento principalmente quirúrgico, un caso con tamoxifeno |
+| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Caso clínico | Invest New Drugs | Tratamiento exitoso con tamoxifeno de un Paget extramamario metastásico con receptores hormonales positivos |
+| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | Caso clínico | Breast | Caso extenso de Paget del pezón con respuesta a tamoxifeno y radioterapia |
+| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Caso clínico | Clin Breast Cancer | Paget del pezón como recurrencia local tras cirugía conservadora (2181 mujeres en la serie) |
+| [17319355](https://pubmed.ncbi.nlm.nih.gov/17319355/) | 2006 | Cohorte | Niger J Clin Pract | 8 de 240 pacientes con cáncer de mama tenían Paget del complejo areola-pezón |
+| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Caso clínico | Am Surg | Paget de mama masculina; revisión de 32 casos |
+| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Caso clínico | Surg Today | Cáncer de mama bilateral sincrónico con Paget y carcinoma ductal invasivo |
+| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Cohorte (caso) | Arch Gynecol Obstet | Paget vulvar y mamario con cáncer subyacente sincrónico |
+| [18288984](https://pubmed.ncbi.nlm.nih.gov/18288984/) | 2008 | Revisión | Curr Med Chem | Farmacoterapias para la pérdida ósea; contexto general de moduladores de ER |
 
-Se excluyó la referencia PMID 18288984, porque parece tratar de la enfermedad de Paget ósea y no de la mamaria.
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 61556 | TAMOXIFENO TEVA 20 mg, COMPRIMIDOS EFG | Comprimido |
-| 63416 | TAMOXIFENO VIR 20 mg COMPRIMIDOS EFG | Comprimido |
-| 63774 | TAMOXIFENO CINFA 20 mg COMPRIMIDOS EFG | Comprimido |
-| 84787 | TAMOXIFENO TILLOMED 10 MG COMPRIMIDOS EFG | Comprimido |
-| 63754 | TAMOXIFENO CINFA 10 mg COMPRIMIDOS EFG | Comprimido |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 61556 | Tamoxifeno Teva 20 mg comprimidos EFG | Comprimido | No disponible |
+| 63416 | Tamoxifeno Vir 20 mg comprimidos EFG | Comprimido | No disponible |
+| 63774 | Tamoxifeno Cinfa 20 mg comprimidos EFG | Comprimido | No disponible |
+| 84787 | Tamoxifeno Tillomed 10 mg comprimidos EFG | Comprimido | No disponible |
+| 63754 | Tamoxifeno Cinfa 10 mg comprimidos EFG | Comprimido | No disponible |
 
-Hay 9 autorizaciones en total; se muestran las 5 principales. Las formas farmacéuticas registradas son comprimido y comprimido recubierto con película.
+Hay 9 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia hormonal dirigida (antagonista/modulador de receptores de estrógeno); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Riesgo endometrial y tromboembólico; considerar el estado de CYP2D6. Para otros parámetros, consultar el prospecto |
+| Clasificación de Citotoxicidad | Terapia hormonal (modulador selectivo de receptores de estrógenos); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Bajo a moderado; el grafo de conocimiento asocia el fármaco con trombocitopenia y leucopenia como contraindicaciones/precauciones |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Hemograma, función hepática, calcemia, evaluación endometrial y riesgo tromboembólico |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta devolvió 5 registros, pero corresponden a dianas farmacológicas del tamoxifeno (GPER1, receptores de estrógeno α y β, y canales de cloruro Maxi-Cl⁻ y VRAC), no a interacciones con otros medicamentos. No hay interacciones clínicas con nivel de gravedad verificadas. Se recomienda una revisión específica, en especial de inhibidores de CYP2D6.
-- **Riesgos generales a vigilar** (según la evaluación de evidencia): riesgo endometrial y tromboembólico.
+- **Enfermedades asociadas como contraindicación o precaución (grafo de conocimiento, no texto de prospecto)**: trombocitopenia, leucopenia, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, accidente cerebrovascular y trastornos cerebrovasculares, infarto cerebral, embolia pulmonar, trastornos de la visión y ceguera.
+- **Interacciones farmacológicas**: la consulta se completó con 5 registros, que corresponden a dianas farmacológicas (GPER, receptores de estrógenos α y β, canales de cloruro Maxi-Cl⁻ y VRAC) y no a interacciones con otros medicamentos.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún estudio que evalúe el tamoxifeno en la enfermedad de Paget mamaria. El único ensayo de Fase 3 trata de protección endometrial, y la literatura se limita a casos aislados, series de recurrencia y un caso de enfermedad extramamaria. El puntaje TxGNN de 99.69% probablemente refleja la cercanía con el cáncer de mama y no una evidencia directa.
+La predicción se apoya en un puntaje alto del modelo y en un mecanismo plausible, pero la evidencia real se limita a casos clínicos y series quirúrgicas sin ensayos específicos de tamoxifeno en enfermedad de Paget mamaria (nivel L4). El único ensayo vinculado es indirecto.
 
 **Para avanzar se necesita:**
-- Revisar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones autorizadas) y los datos del mecanismo de acción.
-- Estudios que determinen el estado de receptores hormonales (ER/PR) y HER2 en la enfermedad de Paget mamaria y en el carcinoma subyacente.
-- Series de casos o estudios observacionales que aíslen el efecto del tamoxifeno de la cirugía y la radioterapia.
-- Un plan de seguridad que contemple el riesgo endometrial y tromboembólico, el estado de CYP2D6 y las interacciones.
+- Estudios clínicos (al menos observacionales comparativos) de tamoxifeno en enfermedad de Paget mamaria, estratificados por estado de receptores hormonales
+- Datos detallados del mecanismo de acción y del texto de indicaciones, advertencias y contraindicaciones del prospecto de la AEMPS
+- Evaluación del riesgo-beneficio (tromboembolismo, efectos endometriales) en la población objetivo
 
-Nota: en otras indicaciones predichas para el tamoxifeno, como el carcinoma de mama in situ y el cáncer de mama con receptores de estrógeno positivos, la evidencia es de nivel L1. Sin embargo, son usos ya establecidos y no un reposicionamiento nuevo.
-
-*Este informe es solo de referencia para la investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+**Nota sobre otras predicciones:** entre las demás indicaciones predichas, el carcinoma de mama in situ (nivel L1, Proceed with Guardrails) y el cáncer de mama con receptores de estrógenos positivos (L1) tienen respaldo sólido de ensayos de Fase 3 (por ejemplo, TAM-01, NSABP B-24), pero corresponden a usos ya establecidos y no a un reposicionamiento nuevo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

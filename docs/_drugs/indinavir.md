@@ -2,7 +2,7 @@
 layout: default
 title: Indinavir
 parent: Evidencia moderada (L3-L4)
-nav_order: 278
+nav_order: 414
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,95 +29,80 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Indinavir: De Infección por VIH-1 a Infección por el Virus de la Inmunodeficiencia Simia (SIV)
+# Indinavir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
 
 ## Resumen en Una Frase
 
-Indinavir es un inhibidor de la proteasa del VIH-1, comercializado en España como Crixivan y utilizado en el tratamiento de la infección por VIH.
-El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la inmunodeficiencia simia (SIV)**, con **0 ensayos clínicos** y **11 publicaciones** preclínicas (macacos y estudios in vitro).
-Se trata de una enfermedad de un modelo animal no humano, por lo que la predicción refleja sobre todo la similitud VIH/SIV y no una nueva indicación en humanos.
-
----
+Indinavir es un inhibidor de la proteasa del VIH-1, utilizado originalmente para el tratamiento de la infección por VIH y el sida.
+El modelo TxGNN predice que podría ser efectivo para **infección por el virus de la inmunodeficiencia simia (VIS)**, aunque no hay **ningún ensayo clínico** y solo **8 publicaciones**, todas preclínicas o de carácter indirecto, que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH-1 (deducida del mecanismo del fármaco; los textos de indicación de AEMPS están vacíos) |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (SIV) |
+| Indicación Original | Infección por VIH / sida (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, indinavir inhibe la proteasa del VIH-1, una enzima esencial para la maduración de las partículas virales. Su eficacia en la infección por VIH es la razón de su uso clínico, y mecanísticamente podría ser aplicable al SIV.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, indinavir es un inhibidor de la proteasa del VIH-1, su eficacia en la infección por VIH está establecida, y mecanísticamente podría ser aplicable a un lentivirus muy relacionado como el VIS.
 
-La proteasa del SIV está estrechamente relacionada con la del VIH-1. Un estudio in vitro (PMID 12709355) mostró que indinavir inhibe SIVmac239 con una concentración eficaz 50% de 39 ± 8 nM, frente a 66 ± 4 nM para el VIH-1. Varios estudios en macacos usaron indinavir dentro de combinaciones antirretrovirales, por ejemplo con zidovudina y lamivudina en profilaxis postexposición.
+El VIS es un lentivirus cercano al VIH, pero su proteasa difiere lo suficiente como para que la sensibilidad al fármaco sea algo menor. Estudios in vitro muestran que el VIS (cepa mac239) es inhibido por indinavir con una concentración eficaz del 50% de unos 39 nM, frente a unos 66 nM para el VIH-1, es decir, una actividad comparable.
 
-Esta predicción debe interpretarse con cautela. El SIV es un virus de primates no humanos que se usa como modelo experimental del sida, y no existe una vía de desarrollo clínico en humanos. El puntaje TxGNN de 0.9999 probablemente refleja la similitud entre VIH y SIV en el grafo de conocimiento, más que un hallazgo terapéutico nuevo.
-
----
+Conviene interpretar el resultado con cautela: la infección por VIS es una enfermedad de modelo animal, no una indicación clínica humana. La predicción es en gran medida una reformulación de la indicación ya existente para el VIH, y el apoyo disponible es preclínico e indirecto.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Estudio preclínico en animales | AIDS | Evalúa la profilaxis postexposición con zidovudina, lamivudina e indinavir tras exposición vaginal en macacos; el título señala prevención de la transmisión de SIV |
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | Estudio in vitro | Antimicrob Agents Chemother | Indinavir inhibe SIVmac239 (CE50 39 nM), con potencia comparable a la del VIH-1 (66 nM) |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Estudio in vitro | Antivir Ther | Compara la actividad de 16 antirretrovirales aprobados frente a HIV-2, SIV y SHIV; aporta datos para tratamiento y profilaxis postexposición |
-| [20868521](https://pubmed.ncbi.nlm.nih.gov/20868521/) | 2010 | Estudio preclínico en animales | Retrovirology | Un TARGA de corta duración en macacos afecta la carga de SIV en los tejidos según el momento de inicio y la difusión de los antivirales |
-| [22615988](https://pubmed.ncbi.nlm.nih.gov/22615988/) | 2012 | Estudio preclínico en animales | PLoS One | Impacto de un TARGA breve, iniciado en fase crónica o poco después de la exposición, sobre la infección por SIV de los órganos genitales masculinos |
-| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Estudio preclínico en animales | J Virol | Cinética de la proliferación linfocitaria en la infección primaria por SIVmac251 y efecto preliminar de la profilaxis antirretroviral temprana |
-| [11689641](https://pubmed.ncbi.nlm.nih.gov/11689641/) | 2001 | Estudio preclínico en animales | J Virol | En macacos con SHIV, el defecto de hematopoyesis medular aparece pronto y persiste pese a la reducción eficaz de la viremia con TARGA |
-| [12804006](https://pubmed.ncbi.nlm.nih.gov/12804006/) | 2003 | Estudio in vitro / celular | AIDS Res Hum Retroviruses | La infección y el TARGA (AZT, 3TC, indinavir) modulan la expresión de glucoproteína P y de quinasas celulares en un modelo de primates |
-| [15378436](https://pubmed.ncbi.nlm.nih.gov/15378436/) | 2004 | Estudio preclínico en animales | J Infect Dis | En macacos con SIV y coinfección por micobacterias tratados con tenofovir o tenofovir + indinavir, se estudia el desarrollo de respuestas de linfocitos T Vγ2Vδ2 |
-| [11507214](https://pubmed.ncbi.nlm.nih.gov/11507214/) | 2001 | Estudio preclínico en animales | J Virol | Los antirretrovirales restauran la inmunidad T específica contra micobacterias en macacos coinfectados con SIV y BCG |
-
----
+| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Estudio animal (profilaxis postexposición en macacos) | AIDS | Evalúa la eficacia de zidovudina, lamivudina e indinavir como profilaxis tras exposición vaginal al virus |
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | Estudio in vitro de sensibilidad | Antimicrob Agents Chemother | El VIS fue inhibido por indinavir (CE50 ≈ 39 nM), con valores similares a los del VIH-1 (≈ 66 nM) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Estudio in vitro de sensibilidad | Antivir Ther | Compara la actividad de 16 fármacos aprobados frente a VIH-2, VIS y VIHS |
+| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Estudio animal (inmunología) | J Virol | Efecto de la profilaxis antirretroviral precoz sobre la proliferación linfocitaria en macacos infectados con SIVmac251 |
+| [15378436](https://pubmed.ncbi.nlm.nih.gov/15378436/) | 2004 | Estudio animal (coinfección) | J Infect Dis | Respuestas de linfocitos T Vγ2Vδ2 en macacos con VIS y coinfección micobacteriana tratados con tenofovir ± indinavir |
+| [11689641](https://pubmed.ncbi.nlm.nih.gov/11689641/) | 2001 | Estudio animal (hematopoyesis) | J Virol | Defecto persistente de la hematopoyesis medular en macacos con VIHS pese a la reducción de la viremia con tratamiento antirretroviral |
+| [12804006](https://pubmed.ncbi.nlm.nih.gov/12804006/) | 2003 | Estudio mecanístico in vitro | AIDS Res Hum Retroviruses | La infección y el tratamiento (AZT, 3TC, IDV) modulan la expresión de glicoproteína P y quinasas en un modelo primate |
+| [11364629](https://pubmed.ncbi.nlm.nih.gov/11364629/) | 1997 | Comentario | J Int Assoc Physicians AIDS Care | Comentario sin resumen disponible; relevancia limitada |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 96024005 | CRIXIVAN 400 MG CAPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
-| 96024003 | CRIXIVAN 200 MG CAPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
-| 96024009 | CRIXIVAN 400 mg CAPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
-
-Titular de las tres autorizaciones: Merck Sharp & Dohme B.V.
-
----
+| 96024005 | CRIXIVAN 400 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+| 96024003 | CRIXIVAN 200 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+| 96024009 | CRIXIVAN 400 mg CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones o precauciones según el grafo de conocimiento** (no proceden del texto del prospecto): enfermedad hepática, cirrosis hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus, cetoacidosis diabética, hemofilia, hipertrigliceridemia, hiperbilirrubinemia (incluida la hereditaria y el síndrome de Gilbert), nefrolitiasis (incluida la asociada a SLC26A1), nefropatía aguda por uratos, anemia hemolítica y piuria.
+- **Interacciones farmacológicas** (se identificaron 100 interacciones; se muestran las más relevantes):
+  - **Graves:** loperamida, triamcinolona, budesonida.
+  - **Moderadas:** acarbosa, rabeprazol, hidrocortisona, albiglutida, alogliptina, metformina, alosetrón, aprepitant, omeprazol, dexametasona, betametasona, canagliflozina, clorpropamida.
+  - **Leves:** ácido ascórbico, claritromicina.
 
----
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La única evidencia disponible es preclínica (macacos y estudios in vitro), sin ensayos clínicos. El SIV es una enfermedad de un modelo animal, sin vía de desarrollo clínico en humanos, y el puntaje TxGNN probablemente refleja la similitud con el VIH. Por tanto, no constituye una oportunidad real de reposicionamiento.
+La predicción se apoya solo en estudios preclínicos (en macacos e in vitro) y no hay ensayos clínicos. Además, la infección por VIS es una enfermedad de modelo animal y no una indicación humana, por lo que no aporta un reposicionamiento clínico real frente a la indicación ya existente para el VIH.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), y confirmar el texto de indicación aprobado
-- Consultar el mecanismo de acción en DrugBank
-- Verificar la indicación original en la base regulatoria, ya que los textos de indicación están vacíos
-- Reorientar la evaluación hacia predicciones con relevancia humana. "Complejo relacionado con el sida" (nivel L2) y "VIH congénito" (nivel L3) coinciden con la indicación ya conocida del VIH, por lo que no son reposicionamiento en sentido estricto. En el segundo caso, la seguridad perinatal es la principal incógnita.
-
-*Este informe es solo de referencia para la investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto oficial de la AEMPS (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Definir si existe una aplicación clínica o veterinaria concreta que justifique la indicación, ya que se trata de un modelo animal.
+- Valorar con atención los riesgos de seguridad metabólicos, hepáticos y renales (nefrolitiasis), así como las interacciones graves, antes de cualquier uso nuevo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

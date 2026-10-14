@@ -2,7 +2,7 @@
 layout: default
 title: Lanreotide
 parent: Solo predicción del modelo (L5)
-nav_order: 303
+nav_order: 450
 evidence_level: L5
 indication_count: 5
 ---
@@ -33,14 +33,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Lanreotida es un análogo de la somatostatina que, según la referencia farmacológica disponible, se usa en la acromegalia y en los síntomas de los tumores neuroendocrinos.
-El modelo TxGNN predice que podría ser efectivo para **Hipertricosis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
+Lanreotida es un análogo de la somatostatina, utilizado originalmente para el tratamiento de la acromegalia (también asociada a hiperpituitarismo y gigantismo hipofisario).
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ningún texto de indicación aprobada figura en las autorizaciones de la AEMPS. La referencia farmacológica indica acromegalia y síntomas de tumores neuroendocrinos. |
+| Indicación Original | Acromegalia (según el grafo de conocimiento; el texto de indicación aprobado en las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Hipertricosis |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
@@ -50,11 +51,13 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis**, pero **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de entrada. Según la información farmacológica, lanreotida es un péptido análogo de la somatostatina que actúa sobre los receptores **SSTR2, SSTR3 y SSTR5**. Su eficacia en acromegalia y tumores neuroendocrinos está establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, lanreotida es un análogo peptídico de la somatostatina que actúa sobre los receptores de somatostatina SST2, SST3 y SST5 (según los datos farmacológicos compilados). Mediante este mecanismo suprime la secreción de hormona del crecimiento (GH) y, de forma secundaria, de IGF-1, lo que explica su eficacia en acromegalia.
 
-Mecanísticamente, la única vía plausible es indirecta. Al actuar sobre SSTR2 y SSTR5, lanreotida suprime la señalización de GH/IGF-1, e IGF-1 influye en el ciclo del folículo piloso. Sin embargo, **no existe evidencia directa** que vincule esta vía con la hipertricosis.
+La relación con la hipertricosis es indirecta: la señalización de IGF-1 puede influir en la biología del folículo piloso, por lo que un vínculo es plausible en teoría. Sin embargo, la hipertricosis es clínicamente heterogénea (formas congénitas, inducidas por fármacos y adquiridas) y no existe evidencia que conecte la inhibición de GH/IGF-1 con su tratamiento.
 
-El puntaje de 99.97% por sí solo no es evidencia clínica. Probablemente refleja cercanía en el grafo de conocimiento, no un mecanismo demostrado. Las otras cuatro predicciones principales (síndromes malformativos, hipertricosis congénita de tipo Ambras, anomalías genéticas del tallo piloso) tampoco cuentan con ensayos ni literatura relevante. Las 20 publicaciones recuperadas para el síndrome malformativo con componente periodontal tratan de periodontitis en general, no de lanreotida.
+Por lo tanto, este vínculo debe considerarse especulativo y sin verificar. La puntuación alta del modelo refleja una predicción basada en el grafo de conocimiento, no una validación clínica.
+
+Otras predicciones del modelo (todas con evidencia L5 y recomendación Hold) son: síndrome de malformación con componente dental/periodontal (99.96%), síndrome con malformación de Dandy-Walker (99.96%), anomalía genética aislada del tallo piloso (99.96%) e hipertricosis universal congénita tipo Ambras (99.96%). Para ellas, el vínculo mecanístico es aún más débil o no creíble.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,33 +69,35 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 64838 | SOMATULINA AUTOGEL 90 mg, solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
-| 86176 | MYRELEZ 60 mg solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada |
-| 90113 | LANREOTIDA SUN 90 mg solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada |
-| 90111 | LANREOTIDA SUN 120 mg solución inyectable en jeringa precargada EFG | Solución inyectable en jeringa precargada |
-| 60914 | SOMATULINA 30 mg polvo y disolvente para suspensión inyectable de liberación prolongada | Polvo y disolvente para suspensión inyectable de liberación prolongada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 64838 | Somatulina Autogel 90 mg | Solución inyectable en jeringa precargada | No disponible |
+| 86176 | Myrelez 60 mg EFG | Solución inyectable en jeringa precargada | No disponible |
+| 90113 | Lanreotida Sun 90 mg EFG | Solución inyectable en jeringa precargada | No disponible |
+| 90111 | Lanreotida Sun 120 mg EFG | Solución inyectable en jeringa precargada | No disponible |
+| 60914 | Somatulina 30 mg | Polvo y disolvente para suspensión inyectable de liberación prolongada | No disponible |
 
-Se muestran 5 de las 10 autorizaciones. Los registros no incluyen el texto de la indicación aprobada.
+Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / condiciones de precaución (según el grafo de conocimiento, no texto del prospecto)**: enfermedad hepática, enfermedad de la vesícula biliar (colelitiasis, colecistolitiasis, coledocolitiasis), hiperglucemia, hipoglucemia, hipotiroidismo (incluido mixedema e hipotiroidismo congénito), insuficiencia renal y trastornos hipertensivos (hipertensión).
+- **Interacciones farmacológicas**: los datos compilados describen únicamente la farmacología de unión a receptores (SST2, SST3 y SST5); no se identificaron interacciones con otros fármacos con nivel de gravedad asignado.
+
+Consultar el prospecto para la información de seguridad completa, ya que las advertencias y contraindicaciones oficiales no están disponibles.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos, literatura ni mecanismo directo que la sustenten. Además, no se han revisado las advertencias ni contraindicaciones de la ficha técnica, lo que impide avanzar al cribado de seguridad.
+La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos clínicos ni literatura, y el vínculo mecanístico con la hipertricosis es especulativo.
 
 **Para avanzar se necesita:**
-- Obtener y analizar la ficha técnica de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
-- Completar el mecanismo de acción desde DrugBank.
-- Buscar estudios preclínicos o series de casos que relacionen análogos de somatostatina o la vía GH/IGF-1 con la hipertricosis.
-- Evaluar la compatibilidad de la vía de administración (inyectable) con una indicación dermatológica.
-- Reevaluar la decisión solo si aparece evidencia mecanística o clínica directa.
+- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Confirmar el mecanismo de acción en DrugBank para un análisis mecanístico más sólido.
+- Realizar una revisión de literatura preclínica sobre somatostatina/GH/IGF-1 y biología del folículo piloso.
+- Evaluar la compatibilidad de la vía de administración (pendiente) y definir la subpoblación de hipertricosis (adquirida vs. congénita) más plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

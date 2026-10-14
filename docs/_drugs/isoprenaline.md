@@ -2,7 +2,7 @@
 layout: default
 title: Isoprenaline
 parent: Solo predicción del modelo (L5)
-nav_order: 292
+nav_order: 433
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Isoprenalina: De Bloqueo Cardíaco, Asma y Bronquitis Crónica a Enfermedad de la Cavidad Nasal
+# Isoprenalina: De Resfriado Común a Enfermedad de la Cavidad Nasal
 
 ## Resumen en Una Frase
 
-La isoprenalina (isoproterenol) es un agonista beta-adrenérgico no selectivo, utilizado clásicamente en el bloqueo cardíaco, el asma y la bronquitis crónica.
-El modelo TxGNN predice que podría ser efectiva para la **enfermedad de la cavidad nasal**, pero **no hay ensayos clínicos** y la única publicación recuperada es un reporte de caso sin relación con la indicación, por lo que la predicción carece de respaldo real.
+Isoprenalina es un agonista beta-adrenérgico no selectivo, originalmente utilizado en el tratamiento del resfriado común, la nasofaringitis, la parada cardíaca y el bloqueo auriculoventricular.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**,
+pero actualmente **no hay ensayos clínicos** y solo **1 publicación** (un reporte de caso no relacionado terapéuticamente) respalda esta dirección: es una predicción basada únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Las autorizaciones de la AEMPS no incluyen texto de indicación. Según datos farmacológicos: bloqueo cardíaco, asma y bronquitis crónica |
+| Indicación Original | Resfriado común, nasofaringitis, parada cardíaca y bloqueo auriculoventricular (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99,95 % |
+| Puntaje de Predicción TxGNN | 99.95% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
@@ -50,11 +51,11 @@ El modelo TxGNN predice que podría ser efectiva para la **enfermedad de la cavi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La isoprenalina actúa sobre los receptores beta-adrenérgicos β1 (ADRB1), β2 (ADRB2) y β3 (ADRB3). Es un agonista no selectivo: la activación de β1 aumenta la frecuencia y la contractilidad cardíacas, y la de β2 relaja el músculo liso bronquial. De ahí proviene su uso en el bloqueo cardíaco y en las enfermedades obstructivas de las vías respiratorias.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la isoprenalina es un agonista beta-adrenérgico no selectivo que activa los receptores β1, β2 y β3, con aumento del AMP cíclico. Sus efectos clásicos son cardioestimulación (β1) y broncodilatación/vasodilatación (β2).
 
-Mecanísticamente, la estimulación beta-adrenérgica podría, en teoría, afectar la vasculatura de la mucosa nasal. Sin embargo, el análisis de evidencia concluye que **no existe un vínculo claro**. El único artículo recuperado es un reporte de caso sobre espasmo coronario y taquicardia ventricular perioperatoria. En ese caso se usó epinefrina en la cavidad nasal para la intubación, y no tiene relación con la isoprenalina ni con enfermedades nasales.
+La relación con la nueva indicación es débil. Un efecto descongestionante o sobre la mucosa mediado por receptores beta es concebible, pero no hay datos que lo respalden. La única publicación recuperada trata de taquicardia ventricular perioperatoria y espasmo coronario, y no tiene relación con la enfermedad nasal. El puntaje alto del modelo probablemente se debe a que, en el grafo de conocimiento, el fármaco ya figura con indicaciones de resfriado común y nasofaringitis, enfermedades cercanas a la cavidad nasal.
 
-El puntaje alto de TxGNN (99,95 %) refleja la proximidad en el grafo de conocimiento entre los receptores adrenérgicos y las enfermedades de las vías respiratorias. No está respaldado por datos clínicos. Por ello, esta predicción debe tratarse como una hipótesis sin validar.
+Por tanto, esta predicción debe considerarse una hipótesis del modelo, sin una justificación mecanística sólida.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -64,33 +65,36 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [14711196](https://pubmed.ncbi.nlm.nih.gov/14711196/) | 2003 | Reporte de caso | Japanese Heart Journal | Varón japonés de 26 años con taquicardia ventricular perioperatoria tras la aplicación nasal de epinefrina 1:100.000 durante la intubación; se halló espasmo coronario. No es relevante para la indicación predicha. |
+| [14711196](https://pubmed.ncbi.nlm.nih.gov/14711196/) | 2003 | Reporte de caso | Japanese Heart Journal | Varón japonés de 26 años con taquicardia ventricular perioperatoria tras la instilación nasal de epinefrina; se halló espasmo coronario. No aporta evidencia terapéutica sobre enfermedad nasal. |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 89777 | LABRYCOR 0,2 MG/ML CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG | Concentrado para solución para perfusión | Macure Healthcare Limited |
-| 47131 | ALEUDRINA 0,2 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | Laboratorio Reig Jofre, S.A. |
-
-Ambas presentaciones son de administración parenteral (perfusión o inyección). Los datos recibidos no incluyen el texto de la indicación aprobada.
+| 89777 | LABRYCOR 0,2 mg/ml concentrado para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible |
+| 47131 | ALEUDRINA 0,2 mg/ml solución inyectable | Solución inyectable | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades con contraindicación según el grafo de conocimiento** (no proviene del texto del prospecto): hipertensión, diabetes mellitus, cetoacidosis diabética, enfermedad coronaria, infarto de miocardio, trombosis coronaria, hemoglobinopatía, hipertiroidismo, enfermedad de Graves y tirotoxicosis.
+- **Farmacología**: actúa sobre los receptores β1 (ADRB1), β2 (ADRB2) y β3 (ADRB3) humanos. No se identificaron interacciones con otros fármacos.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos clínicos, y la única publicación es un reporte de caso no relevante. Además, las presentaciones autorizadas en España son parenterales, lo que dificulta su aplicación en una enfermedad nasal.
+La predicción para enfermedad de la cavidad nasal se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura terapéutica pertinente. Además, los antecedentes cardiovasculares y metabólicos de contraindicación y las formas farmacéuticas disponibles en España (perfusión e inyectable) no son adecuadas para un uso nasal.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos o clínicos que evalúen la isoprenalina o los agonistas beta-adrenérgicos en enfermedades de la cavidad nasal.
-- Obtener el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones) y completar los datos de seguridad.
-- Evaluar la compatibilidad de vías de administración, ya que solo hay formas parenterales autorizadas.
-- Considerar otras predicciones del mismo fármaco con más respaldo. La más sólida es **enfermedad bronquial** (L3), con estudios históricos de 1966 a 1979 en asma y obstrucción de las vías aéreas. Su valor de reposicionamiento es bajo: es un uso ya conocido, desplazado por los agonistas β2 selectivos por sus efectos cardíacos. El único ensayo listado para esa indicación evalúa alendronato, no isoprenalina.
+- Datos del mecanismo de acción y un fundamento biológico específico para la mucosa nasal.
+- Revisión sistemática de literatura preclínica o clínica sobre isoprenalina y enfermedad nasal.
+- Evaluación de la compatibilidad de la vía de administración (formulación nasal o tópica) frente a las presentaciones actuales.
+- Extracción de las advertencias, contraindicaciones e indicaciones aprobadas de los prospectos de la AEMPS.
+
+**Nota sobre otras predicciones:** entre las demás indicaciones predichas, **enfermedad bronquial** (puntaje 99.77%, nivel L4) es la que cuenta con más respaldo, con 19 publicaciones, principalmente revisiones de la clase de agonistas β2 y estudios históricos de isoprenalina en asma. Se trata más de un uso histórico ya establecido que de un reposicionamiento novedoso, y la evidencia es indirecta. Esta alternativa merece una evaluación específica por separado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

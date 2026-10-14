@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Duloxetine
-parent: Solo predicción del modelo (L5)
-nav_order: 186
-evidence_level: L5
+parent: Evidencia alta (L1-L2)
+nav_order: 270
+evidence_level: L2
 indication_count: 10
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,94 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Duloxetina: De Trastorno Depresivo Mayor a Tortícolis Paroxística Benigna de la Infancia
+# Duloxetina: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
 
 ## Resumen en Una Frase
 
-La duloxetina es un inhibidor de la recaptación de serotonina y noradrenalina (IRSN), utilizado originalmente para el trastorno depresivo mayor y el trastorno de ansiedad generalizada.
-El modelo TxGNN predice que podría ser efectiva para la **tortícolis paroxística benigna de la infancia**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Duloxetina es un inhibidor de la recaptación de serotonina y noradrenalina (IRSN), utilizado originalmente para el tratamiento del trastorno depresivo mayor, los trastornos de ansiedad y la fibromialgia.
+El modelo TxGNN predice que podría ser efectivo para el **Trastorno Obsesivo-Compulsivo (TOC)**, con **3 ensayos clínicos** (solo 1 directamente relevante) y **20 publicaciones** que actualmente respaldan esta dirección.
+
+*Nota:* la predicción con mayor puntaje TxGNN (rank 1) es "tortícolis paroxística benigna de la infancia", pero carece de toda evidencia (L5). Este informe se centra en la predicción con mayor respaldo disponible: el TOC (rank 3). Se menciona también la agorafobia como segunda candidata con evidencia indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor y trastorno de ansiedad generalizada (según los datos farmacológicos; los textos de indicación de las autorizaciones de AEMPS vienen vacíos) |
-| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
-| Puntaje de Predicción TxGNN | 99,85 % |
-| Nivel de Evidencia | L5 |
+| Indicación Original | Trastorno depresivo mayor (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
+| Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (predicción de mayor evidencia entre las 10 candidatas) |
+| Puntaje de Predicción TxGNN | 99.84% |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados de mecanismo de acción en DrugBank. Los datos farmacológicos disponibles indican que la duloxetina actúa sobre el transportador de serotonina (SERT) y el de noradrenalina (NET). También interactúa con los receptores 5-HT2A, 5-HT2C y 5-HT6. Este perfil corresponde a su uso en depresión, ansiedad y dolor crónico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, duloxetina inhibe la recaptación de serotonina (SERT) y de noradrenalina (NET), y los datos de farmacología muestran además interacción con los receptores 5-HT2A, 5-HT2C y 5-HT6.
 
-La tortícolis paroxística benigna de la infancia es un trastorno autolimitado, considerado un equivalente migrañoso infantil. La única conexión plausible es indirecta: los IRSN tienen un apoyo débil en la profilaxis de la migraña del adulto. No hay un vínculo mecanístico directo. La condición se resuelve espontáneamente y no existen datos de seguridad de la duloxetina en lactantes.
+El TOC responde principalmente a fármacos serotoninérgicos (ISRS, clomipramina). Como duloxetina actúa sobre el transportador de serotonina y ya está establecida en depresión y ansiedad generalizada, es mecanísticamente plausible su aplicación en un trastorno del espectro ansioso-obsesivo. Las revisiones sobre IRSN apoyan esta idea, aunque indican que la evidencia es menos sólida que para los ISRS.
 
-El puntaje alto de TxGNN (99,85 %) es solo una predicción del modelo. No está respaldado por estudios reales, por lo que debe interpretarse con mucha cautela.
+La evidencia clínica proviene de estudios pequeños (n≈20-26): un ensayo doble ciego de potenciación en TOC resistente, un estudio abierto y un ensayo de Fase 4. No existe un ECA de Fase 3 grande, por lo que el nivel es L2 y no superior.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Fase 4 | Completado | 20 | Eficacia de duloxetina en TOC; directamente relevante, pero pequeño y probablemente abierto |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completado | 26 | Predicción de respuesta a medicación en TOC (clomipramina o escitalopram; duloxetina para quienes ya los probaron) |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Desconocido | 8800 | Metaanálisis de datos individuales sobre gravedad inicial y eficacia de antidepresivos en ansiedad; relevancia solo indirecta |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | ECA | J Clin Psychopharmacol | Ensayo doble ciego de potenciación con duloxetina en TOC resistente |
+| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Estudio abierto | Int J Neuropsychopharmacol | Eficacia de duloxetina en TOC (DSM-IV) |
+| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Revisión sistemática | Front Psychiatry | Usos de duloxetina en trastornos psiquiátricos más allá de la depresión y la ansiedad generalizada |
+| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Revisión | J Clin Psychiatry | Revisión crítica de IRSN en TOC como alternativa a los ISRS |
+| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Revisión | Expert Opin Pharmacother | Revisión de estudios doble ciego con antidepresivos serotoninérgicos en TOC |
+| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Metaanálisis | J Affect Disord | El TOC muestra menor respuesta a placebo y antidepresivos que otros trastornos de ansiedad |
+| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Revisión | Innov Clin Neurosci | Los IRSN como alternativas farmacológicas para el TOC |
+| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Serie de casos | J Psychopharmacol | Cambio de inhibidores de recaptación de serotonina a duloxetina en TOC resistente |
+| [19483491](https://pubmed.ncbi.nlm.nih.gov/19483491/) | 2009 | Reporte de caso | Clin Neuropharmacol | Dosis altas de duloxetina con remisión completa sostenida en TOC resistente |
+| [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Reporte de caso | Cureus | Duloxetina supraterapéutica con TCC en TOC grave resistente con depresión |
 
-## Otras Indicaciones Predichas con Evidencia
+### Candidata secundaria: agorafobia (L3, TxGNN 99.84%)
 
-Otras predicciones del mismo modelo sí tienen datos, y son más prometedoras que la principal:
-
-| Indicación | Puntaje TxGNN | Nivel de Evidencia | Comentario |
-|------|------|------|------|
-| Trastorno obsesivo-compulsivo | 99,84 % | L2 | Ensayo de Fase 4 completado ([NCT00464698](https://clinicaltrials.gov/study/NCT00464698), n=20). Estudio abierto ([PMID 25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/)). ECA doble ciego de aumento en TOC resistente ([PMID 27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/)). Las muestras son pequeñas y no hay confirmación en Fase 3. |
-| Agorafobia | 99,84 % | L4 | La evidencia corresponde a trastorno de pánico y ansiedad generalizada, no a agorafobia en sí (p. ej. [PMID 19228176](https://pubmed.ncbi.nlm.nih.gov/19228176/), estudio abierto). |
-
-Las demás predicciones (trastornos de personalidad histriónico, paranoide, esquizoide y esquizotípico; síndrome de Ohdo y variantes; conjuntivitis leñosa) tienen nivel L5. No tienen vínculo mecanístico plausible y probablemente son artefactos del grafo de conocimiento.
+La evidencia es indirecta: estudios abiertos o pequeños en trastorno de pánico (con o sin agorafobia), como el [PMID 19228176](https://pubmed.ncbi.nlm.nih.gov/19228176/) (2009, estudio abierto) y el [PMID 24294001](https://pubmed.ncbi.nlm.nih.gov/24294001/) (2013, reporte de caso). El único ensayo vinculado ([NCT05930912](https://clinicaltrials.gov/study/NCT05930912)) no guarda relación con duloxetina. Se considera una pregunta de investigación.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 82593 | DULOTEX 30 MG COMPRIMIDOS GASTRORRESISTENTES | Comprimido gastrorresistente |
-| 3400930020609 | XERISTAR 30 MG CÁPSULAS DURAS GASTRORRESISTENTES EFG | Cápsula dura gastrorresistente |
-| 04296006 | CYMBALTA 30 MG CÁPSULAS DURAS GASTRORRESISTENTES | Cápsula gastrorresistente |
-| 04296002IP2 | CYMBALTA 60 MG CÁPSULAS DURAS GASTRORRESISTENTES | Cápsula dura gastrorresistente |
-| 79731 | DULOXETINA PHARMAKERN 30 MG CÁPSULAS DURAS GASTRORRESISTENTES EFG | Cápsula dura gastrorresistente |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 82593 | Dulotex 30 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | Texto de indicación no disponible |
+| 04296006 | Cymbalta 30 mg cápsulas duras gastrorresistentes | Cápsula gastrorresistente | Texto de indicación no disponible |
+| 04296002IP2 | Cymbalta 60 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | Texto de indicación no disponible |
+| 04280003 | Yentreve 40 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | Texto de indicación no disponible |
+| 88002 | Duloxetina Cinfamed 120 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | Texto de indicación no disponible |
 
-Se muestran 5 de las 20 autorizaciones. Los datos recibidos no incluyen el texto de indicación aprobada.
+Hay 20 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no proviene del prospecto):** hipertensión, hipotensión ortostática, atrofia multisistémica, síndrome de taquicardia ortostática postural, epilepsia, trastorno bipolar, trastorno afectivo mayor, enfermedad hepática (incluidos cirrosis, hígado graso y hepatitis), enfermedad de la vesícula biliar, hiperglucemia, abuso/dependencia de sustancias, trastornos de la coagulación, glaucoma de ángulo cerrado, síndrome neuroléptico maligno, síndrome de secreción inadecuada de ADH (incluida la forma nefrogénica) y síndrome serotoninérgico.
+- **Interacciones farmacológicas:** los datos compilados reflejan sobre todo dianas farmacológicas (SERT, NET, receptores 5-HT2A, 5-HT2C y 5-HT6, ZC3H14), no interacciones con otros fármacos de relevancia clínica. Dado el riesgo de síndrome serotoninérgico, conviene revisar con cuidado cualquier asociación con otros agentes serotoninérgicos.
 
-Las contraindicaciones y advertencias principales no están disponibles en los datos recibidos. La consulta de interacciones solo devolvió dianas farmacológicas (SERT, NET, 5-HT2A, 5-HT2C, 5-HT6, ZC3H14), no interacciones con otros fármacos. Además, no existen datos de seguridad de la duloxetina en lactantes, que es la población de la indicación predicha.
+Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La predicción solo cuenta con el puntaje del modelo, sin ensayos ni literatura (L5). No hay un vínculo mecanístico directo. La condición es autolimitada y afecta a lactantes, para quienes no hay datos de seguridad de la duloxetina.
+Existe un ECA doble ciego, un estudio abierto y un ensayo de Fase 4 que respaldan duloxetina en TOC, junto con un mecanismo plausible (inhibición de SERT/NET). Sin embargo, todos los estudios son pequeños, no hay ECA de Fase 3 y las revisiones consideran a los IRSN menos establecidos que los ISRS, por lo que se recomienda avanzar con cautela.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones).
-- Consultar el mecanismo de acción en DrugBank.
-- Priorizar la evaluación del trastorno obsesivo-compulsivo (L2), que tiene evidencia directa, en lugar de esta indicación.
-- Aportar cualquier dato clínico o preclínico específico de esta indicación antes de reconsiderar la decisión.
-
-*Los resultados de este informe son solo de referencia para la investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Un ECA de mayor tamaño (Fase 2b/3) de duloxetina en TOC, frente a un ISRS o placebo
+- Datos del mecanismo de acción (MOA) y de las advertencias y contraindicaciones del prospecto de la AEMPS, hoy pendientes
+- Textos de indicación aprobada de las autorizaciones españolas
+- Plan de monitorización de seguridad (presión arterial, función hepática, riesgo de síndrome serotoninérgico, historial bipolar)
+- Las demás candidatas (rank 1 y 4-10) carecen de evidencia y mecanismo plausible: se recomienda **Hold**. La agorafobia puede mantenerse como pregunta de investigación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

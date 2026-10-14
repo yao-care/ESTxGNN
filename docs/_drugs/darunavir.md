@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Darunavir
-parent: Evidencia moderada (L3-L4)
-nav_order: 158
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 223
+evidence_level: L5
 indication_count: 4
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,75 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Darunavir: De Infección por VIH-1 a Síndrome de Inmunodeficiencia Adquirida Felina
+# Darunavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Darunavir es un inhibidor de la proteasa del VIH-1, comercializado en España para el tratamiento de la infección por VIH-1 (esta indicación no figura en el texto de las autorizaciones y se deduce del contexto de los ensayos).
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina (FIV)**, pero solo hay **1 ensayo clínico** (en pacientes humanos con VIH-1, evidencia indirecta) y **ninguna publicación** que respalde esta indicación concreta.
-
----
+Darunavir es un inhibidor de la proteasa del VIH-1, utilizado originalmente para el tratamiento de la infección por VIH y el SIDA.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, aunque se trata de una indicación veterinaria.
+Actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta predicción; solo se dispone de la señal del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH-1 (deducida del contexto; el texto de indicación no consta en las autorizaciones) |
+| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Darunavir inhibe la proteasa del VIH-1, una enzima que el virus necesita para madurar y producir partículas infecciosas. No se dispone de datos detallados de mecanismo de acción procedentes de DrugBank; la descripción anterior se basa en la información mecanística del propio análisis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, darunavir es un inhibidor de la proteasa del VIH-1, su eficacia en la infección por VIH ha sido comprobada, y mecanísticamente podría ser aplicable a otros lentivirus con proteasas aspárticas.
 
-El virus de la inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH y también tiene su propia proteasa. Esa cercanía explica que el modelo relacione ambas enfermedades.
+El virus de la inmunodeficiencia felina (FIV) también codifica una proteasa aspártica, por lo que existe una lógica mecanística plausible. Sin embargo, la proteasa del FIV difiere de la del VIH-1 en especificidad de sustrato y sensibilidad a los inhibidores, y los datos disponibles no respaldan la unión de darunavir a ella. El puntaje elevado del modelo probablemente refleja la similitud de esta enfermedad con el VIH/SIDA dentro del grafo de conocimiento.
 
-Sin embargo, las proteasas del FIV y del VIH-1 son diferentes a nivel estructural, por lo que no se puede asumir que darunavir inhiba también la del FIV. El puntaje tan alto probablemente refleja la proximidad en el grafo de conocimiento entre enfermedades por VIH y lentivirus, no evidencia veterinaria. No hay datos de eficacia ni de seguridad en gatos.
-
----
+Cabe señalar que se trata de una indicación veterinaria, con relevancia limitada para el reposicionamiento en medicina humana. Como contexto, la infección por el virus de la inmunodeficiencia de los simios (SIV) obtuvo el mismo puntaje y cuenta con cuatro estudios preclínicos en macacos (nivel L4), pero son indirectos: evalúan regímenes combinados de antirretrovirales y no darunavir en solitario.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Fase 4 | Completado | 145 | Darunavir/ritonavir con lamivudina frente a darunavir/ritonavir con tenofovir + emtricitabina o lamivudina, en adultos con VIH-1 sin tratamiento previo. Población humana; solo contexto mecanístico indirecto (relevancia C). |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para el síndrome de inmunodeficiencia adquirida felina.
-
-Como dato contextual, para otra predicción (infección por el virus de inmunodeficiencia simia, SIV) existen 4 estudios preclínicos en macacos con terapia antirretroviral combinada. Sus títulos están truncados y no se puede confirmar que darunavir sea un componente de cada régimen, por lo que no constituyen respaldo para el FIV.
-
----
+Actualmente no hay literatura relacionada disponible para la indicación principal (síndrome de inmunodeficiencia adquirida felina).
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada no está disponible en los datos recibidos.
+Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo, en comprimidos recubiertos con película):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 85186 | Darunavir Tarbis 800 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada en los datos |
-| 85184 | Darunavir Tarbis 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada en los datos |
-| 83578 | Darunavir Dr. Reddys 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada en los datos |
-| 84777 | Darunavir Accord 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada en los datos |
-| 83163 | Darunavir Stada 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada en los datos |
-
----
+| 06380003 | PREZISTA 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 06380004 | PREZISTA 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 106380007 | PREZISTA 800 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 85186 | Darunavir Tarbis 800 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 83578 | Darunavir Dr. Reddys 600 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): insuficiencia hepática, enfermedad hepática, cirrosis hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus, cetoacidosis diabética, hepatitis C (aguda y crónica), hepatitis B crónica, hipertrigliceridemia y hemofilia (incluida la forma sintomática en portadoras).
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las 20 reveladas, la más relevante es **cisaprida (gravedad mayor)**. Las restantes son de gravedad moderada e incluyen antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, saxagliptina, canagliflozina, dapagliflozina, clorpropamida, acetohexamida, albiglutida), corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), aprepitant y claritromicina.
+- Las advertencias y contraindicaciones del prospecto de la AEMPS no están disponibles; consultar el prospecto para esa información.
+- Por la clase farmacológica, y según se señala en el análisis de la indicación de hiperlipidemia, los inhibidores de la proteasa se asocian a alteraciones lipídicas, lo que debe tenerse en cuenta.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene respaldo veterinario directo: el único ensayo es en humanos con VIH-1 y no hay literatura sobre FIV. Además, las diferencias estructurales entre las proteasas del FIV y del VIH-1 impiden asumir eficacia cruzada. Las autorizaciones españolas corresponden a medicamentos de uso humano.
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos ni literatura, y corresponde a una indicación veterinaria con escasa relevancia para el reposicionamiento en humanos. Además, la compatibilidad de darunavir con la proteasa del FIV no está respaldada por los datos.
 
 **Para avanzar se necesita:**
-- Estudios in vitro de actividad de darunavir frente a la proteasa del FIV y comparación estructural con la del VIH-1
-- Datos de farmacocinética, eficacia y seguridad en gatos
-- Confirmar con veterinaria si el objetivo es realmente un uso animal, dado que las autorizaciones existentes son de uso humano
-- Obtener del prospecto de la AEMPS las advertencias y contraindicaciones, hoy sin datos
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank
+- Estudios de actividad in vitro de darunavir frente a la proteasa del FIV.
+- Datos detallados del mecanismo de acción (MOA).
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones) para completar la evaluación de seguridad.
+- Verificar en los textos completos el papel de darunavir en los estudios con macacos (SIV), si se quisiera explorar esa línea.
+- Definir si una indicación veterinaria entra en el alcance del programa de reposicionamiento; en caso contrario, priorizar otras candidatas.
+- Las otras predicciones (trastorno del neurodesarrollo raro e hiperlipidemia familiar combinada, esta última obsoleta en la ontología) carecen de vínculo mecanístico plausible y no se recomienda priorizarlas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

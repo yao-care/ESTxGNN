@@ -2,7 +2,7 @@
 layout: default
 title: Golimumab
 parent: Evidencia moderada (L3-L4)
-nav_order: 260
+nav_order: 383
 evidence_level: L4
 indication_count: 5
 ---
@@ -33,14 +33,17 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Golimumab es un anticuerpo monoclonal humano anti-TNF-alfa, comercializado en España como Simponi y Gobivaz. Según la literatura, se usa en artritis reumatoide, artritis psoriásica y espondilitis anquilosante.
-El modelo TxGNN predice que podría ser efectivo para **Vasculitis Reumatoide**, pero la evidencia es **indirecta**: 3 ensayos clínicos y 6 publicaciones, ninguno de los cuales evalúa golimumab en esta enfermedad.
+Golimumab es un anticuerpo monoclonal humano anti-TNF-alfa, utilizado originalmente en enfermedades inflamatorias inmunomediadas como la artritis reumatoide, la artritis psoriásica, la espondilitis anquilosante y la colitis ulcerosa.
+El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**,
+pero actualmente solo hay **1 ensayo clínico** (de relevancia tangencial) y **6 publicaciones** (ninguna evalúa la eficacia de golimumab en esta indicación), por lo que la evidencia es muy limitada.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (según la literatura; los datos de AEMPS no incluyen el texto de indicación) |
+| Indicación Original | Artritis reumatoide (junto con artritis psoriásica, espondilitis anquilosante, colitis ulcerosa y enfermedad inflamatoria intestinal) |
 | Nueva Indicación Predicha | Vasculitis reumatoide |
 | Puntaje de Predicción TxGNN | 99.73% |
 | Nivel de Evidencia | L4 |
@@ -48,69 +51,76 @@ El modelo TxGNN predice que podría ser efectivo para **Vasculitis Reumatoide**,
 | Número de Autorizaciones | 7 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la literatura, golimumab es un anticuerpo monoclonal humano que neutraliza el TNF-alfa, y su eficacia en artritis reumatoide está comprobada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, golimumab es un anticuerpo monoclonal que bloquea el factor de necrosis tumoral alfa (TNF-alfa), una citocina clave en la inflamación sinovial y sistémica de varias enfermedades autoinmunes.
 
-La vasculitis reumatoide es una manifestación extraarticular grave de la artritis reumatoide, más frecuente en pacientes seropositivos. El TNF-alfa participa en la inflamación vascular, por lo que existe una lógica mecanística para bloquearlo. Un artículo de la literatura señala además que la incidencia de esta complicación disminuyó tras la introducción de los fármacos biológicos, entre ellos los anti-TNF.
+La vasculitis reumatoide es una manifestación extraarticular grave de la artritis reumatoide, más frecuente en pacientes seropositivos. Como la artritis reumatoide es una indicación ya establecida de golimumab, y la inflamación mediada por TNF contribuye también a sus manifestaciones extraarticulares, existe una justificación mecanística plausible.
 
-Esa lógica es solo un argumento indirecto. Ningún estudio listado evalúa golimumab en vasculitis reumatoide. Además, la literatura recoge un caso de arteritis de Takayasu que apareció durante un tratamiento anti-TNF, lo que es una señal de precaución y no de apoyo.
+Sin embargo, no hay evidencia de que golimumab se haya probado específicamente en vasculitis reumatoide. El puntaje tan alto del modelo (0.997) probablemente refleja la proximidad en el grafo de conocimiento con la indicación aprobada de artritis reumatoide, más que una señal terapéutica propia. Además, se ha descrito que la incidencia de esta complicación disminuyó tras la introducción de los fármacos biológicos anti-TNF, y que en casos aislados han aparecido vasculitis (p. ej., arteritis de Takayasu) durante el tratamiento anti-TNF.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún no recluta | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos sometidos a artroplastia de hombro. No evalúa golimumab en vasculitis. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Desconocido | 750000 | Estudio observacional del riesgo de nuevas enfermedades inflamatorias inmunomediadas con biológicos. No es un estudio de eficacia en vasculitis. |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completado | 184 | Estudio no intervencionista con tocilizumab en artritis reumatoide. Es relevante para la población con AR, pero no para vasculitis. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | En reclutamiento | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos sometidos a artroplastia total de hombro: compara suspender los fármacos durante el mismo tiempo que en cadera y rodilla frente a un periodo más corto, evaluando brotes, dolor, función y complicaciones de la herida. No evalúa golimumab en vasculitis; relación solo tangencial. |
 
-Los tres ensayos se clasifican con relevancia baja (grado C).
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Metaanálisis en red (36 ECA) | Int J Mol Sci | Los inhibidores de TNF, incluido golimumab, reducen de forma similar la destrucción articular en artritis reumatoide. |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Revisión | BMC Med | Actualización sobre terapias biológicas en enfermedades autoinmunes, con sus limitaciones (coste, vía intravenosa, eventos adversos). |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Revisión | Semin Arthritis Rheum | Frecuencia y causas de enfermedad renal terminal en artritis reumatoide, y tratamiento de la AR en ese contexto. |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Reporte de caso | Rheumatol Int | Pioderma gangrenoso y artritis piógena con sepsis grave en una paciente con AR tratada con golimumab. Menciona la vasculitis reumatoide como complicación de la AR. |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Reporte de caso | Joint Bone Spine | Dos casos de arteritis de Takayasu aparecidos durante el tratamiento anti-TNF (evento paradójico). |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Reporte de caso | Ocul Immunol Inflamm | Uveítis asociada a la enfermedad de Behçet tratada con éxito con golimumab. |
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Metaanálisis en red de 36 ECA | Int J Mol Sci | Los inhibidores de TNF originales y biosimilares (incluido golimumab) reducen de forma similar la destrucción articular en artritis reumatoide. No aborda vasculitis. |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Revisión | BMC Med | Actualización sobre terapias biológicas en enfermedades autoinmunes; resalta limitaciones como la vía intravenosa, el costo y los eventos adversos. |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Revisión | Semin Arthritis Rheum | Frecuencia, causas y tratamiento de la enfermedad renal terminal en pacientes con artritis reumatoide. |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Reporte de caso | Rheumatol Int | Pioderma gangrenoso y artritis piógena con sepsis grave en un paciente con artritis reumatoide tratado con golimumab; menciona la vasculitis reumatoide solo como contexto. Aporta información de seguridad, no de eficacia. |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Reporte de caso | Ocul Immunol Inflamm | Uveítis asociada a enfermedad de Behçet tratada con éxito con golimumab; sugiere utilidad en inflamación inmunomediada refractaria. |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Reporte de caso | Joint Bone Spine | Dos casos de arteritis de Takayasu aparecidos durante tratamiento anti-TNF, en un contexto donde el bloqueo de TNF se ha propuesto como opción en casos refractarios. |
+
+---
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 7 autorizaciones registradas.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 09546001IP1 | SIMPONI 50 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Janssen Biologics B.V. |
+| 109546005 | SIMPONI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Janssen-Cilag International N.V. |
+| 09546005IP1 | SIMPONI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Janssen Biologics B.V. |
+| 09546001IP | SIMPONI 50 mg solución inyectable | Solución inyectable en jeringa precargada | Janssen Biologics B.V. |
+| 1251988005 | GOBIVAZ 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Advanz Pharma Limited |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 09546001IP1 | SIMPONI 50 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
-| 109546005 | SIMPONI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
-| 09546005IP1 | SIMPONI 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
-| 09546001IP | SIMPONI 50 mg solución inyectable en pluma precargada | Solución inyectable en jeringa precargada |
-| 1251988005 | GOBIVAZ 100 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada |
+Hay 7 autorizaciones vigentes en total; la tabla muestra las 5 principales. Las otras dos corresponden a GOBIVAZ 50 mg (1251988001) y SIMPONI 50 mg (09546001).
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Señales en la literatura**:
-  - Un caso de arteritis de Takayasu apareció durante un tratamiento anti-TNF.
-  - Un caso de pioderma gangrenoso y artritis piógena con sepsis grave ocurrió en una paciente con AR tratada con golimumab.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las principales:
+  - **Gravedad mayor**: corticosteroides (hidrocortisona, prednisona, prednisolona, dexametasona, betametasona, triamcinolona, budesonida), deferiprona y radiofármacos/radioinmunoterapias (iobenguano I-131, ibritumomab tiuxetán, tositumomab).
+  - **Gravedad moderada**: metronidazol, tinidazol, rosuvastatina y simvastatina.
+  - **Gravedad menor**: sales de zinc (sulfato, acetato, gluconato).
 
-Consultar el prospecto para información de seguridad sobre advertencias, contraindicaciones e interacciones.
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Existe una lógica mecanística (bloqueo de TNF-alfa), pero ningún estudio evalúa golimumab en vasculitis reumatoide. La evidencia disponible es indirecta (datos de AR y reportes de caso), y la literatura incluye un evento paradójico con anti-TNF que exige cautela. El nivel de evidencia es L4.
+El puntaje del modelo es alto, pero no hay ningún estudio que pruebe golimumab en vasculitis reumatoide: el único ensayo registrado es tangencial y la literatura no evalúa su eficacia en esta indicación. Por ello, la evidencia se limita al nivel L4 (justificación mecanística).
 
 **Para avanzar se necesita:**
-- Estudios observacionales o series de casos de anti-TNF, y de golimumab en particular, en vasculitis reumatoide.
-- Datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- La ficha técnica de AEMPS con advertencias y contraindicaciones, que es un vacío bloqueante para el cribado de seguridad.
-- El texto de las indicaciones autorizadas en España, que no consta en los datos actuales.
-
-**Nota sobre otras predicciones:** dos predicciones del mismo modelo tienen mucho más respaldo: espondiloartropatía inflamatoria (L1, Proceed with Guardrails) y artritis reumatoide juvenil poliarticular (L1, Proceed with Guardrails). Ambas se acercan más a usos ya establecidos que a un reposicionamiento nuevo, y conviene evaluarlas por separado.
+- Estudios clínicos u observacionales (series de casos, registros) de golimumab o anti-TNF en vasculitis reumatoide, con resultados de eficacia.
+- Evaluar el riesgo de eventos paradójicos (vasculitis inducida por anti-TNF, infecciones graves) en esta población.
+- Información de seguridad del prospecto (advertencias y contraindicaciones) y datos detallados del mecanismo de acción.
+- Considerar priorizar otras indicaciones predichas con mayor respaldo, como la espondilopatía inflamatoria y la artritis idiopática juvenil poliarticular (ambas con ensayos de Fase 3 y nivel L1), aunque en gran medida son extensiones de indicaciones ya existentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

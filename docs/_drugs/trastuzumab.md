@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Solo predicción del modelo (L5)
-nav_order: 540
-evidence_level: L5
+parent: Evidencia alta (L1-L2)
+nav_order: 815
+evidence_level: L1
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Trastuzumab: Nueva Indicación Predicha en Subtipo de Carcinoma de Mama Tipo «Normal-like»
+# Trastuzumab: De Carcinoma de Mama HER2 Positivo a Carcinoma de Mama con Receptor de Progesterona Positivo
 
 ## Resumen en Una Frase
 
-Trastuzumab es un anticuerpo monoclonal dirigido contra HER2, comercializado en España como biosimilares en polvo para perfusión. Los registros de la AEMPS recibidos no incluyen el texto de la indicación original.
-El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma de mama tipo «normal-like»**. Hay **12 ensayos clínicos** y **1 publicación** asociados, pero ninguno demuestra beneficio específico en este subtipo.
+Trastuzumab es un anticuerpo monoclonal dirigido contra HER2, utilizado originalmente para el tratamiento del carcinoma de mama HER2 positivo.
+El modelo TxGNN predice que podría ser efectivo para el **cáncer de mama con receptor de progesterona positivo**, con **12 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
+Cabe aclarar que se trata de una estratificación por subtipo dentro de una indicación ya aprobada, y no de un reposicionamiento verdaderamente nuevo.
 
 ---
 
@@ -42,24 +43,25 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 
 | Item | Contenido |
 |------|------|
-| Nueva Indicación Predicha | Subtipo de carcinoma de mama tipo «normal-like» |
-| Puntaje de Predicción TxGNN | 99,90 % |
-| Nivel de Evidencia | L3 (el paquete de datos asignó L2; ver nota abajo) |
+| Indicación Original | Carcinoma de mama HER2 positivo |
+| Nueva Indicación Predicha | Cáncer de mama con receptor de progesterona positivo (predicción de mayor rango: subtipo "normal breast-like", ver nota) |
+| Puntaje de Predicción TxGNN | 99.90% |
+| Nivel de Evidencia | L1 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 17 |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
 
-> **Nota sobre el nivel de evidencia:** el paquete asignó L2, pero ningún ensayo aportado es un ECA de Fase 2/3 completado en este subtipo. El único estudio publicado es una cohorte observacional. Por eso lo clasifico como L3.
+**Nota:** la primera predicción de la lista (subtipo de mama "normal breast-like", puntaje 99.90%, nivel L4) tiene solo un ensayo, que evalúa un fármaco distinto (trastuzumab rezetecán, un conjugado anticuerpo-fármaco), y no tiene fundamento mecanístico directo, por lo que se recomienda **Hold**. Este informe se centra en la predicción de cáncer de mama con receptor de progesterona positivo (mismo puntaje, 99.90%), que es la primera con evidencia sustancial (L1).
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de datos. Según la información conocida, trastuzumab es un anticuerpo monoclonal anti-HER2. Bloquea la señalización de HER2 y puede mediar citotoxicidad celular dependiente de anticuerpos (ADCC). Mecanísticamente podría ser aplicable al cáncer de mama, pero solo cuando el tumor depende de HER2.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, trastuzumab se une al dominio extracelular de HER2, bloquea su señalización y media citotoxicidad celular dependiente de anticuerpos (ADCC). Su eficacia en el cáncer de mama HER2 positivo está comprobada.
 
-Aquí está el problema. El beneficio de trastuzumab depende del estado de HER2, no de la etiqueta del subtipo intrínseco. La etiqueta «normal-like» es ambigua y se solapa poco con la enfermedad enriquecida en HER2.
+En tumores con receptor de progesterona positivo, el beneficio depende de la coexpresión de HER2. La interacción (crosstalk) entre HER2 y los receptores hormonales es un mecanismo de resistencia conocido, y la combinación con terapia endocrina o inhibidores de CDK4/6 cuenta con respaldo.
 
-El puntaje TxGNN muy alto probablemente refleja la relación general del fármaco con el carcinoma de mama, no un mecanismo específico de este subtipo. Como los campos de indicación original y de mecanismo de acción están vacíos, no se pudo contrastar el solapamiento con la indicación autorizada.
+Por tanto, esta predicción se solapa con la indicación ya aprobada: es una estratificación por subtipo y no una indicación novedosa. El beneficio se limita a pacientes HER2 positivas. La predicción de cáncer de mama con receptor de progesterona negativo (99.90%) sigue la misma lógica, ya que la acción de trastuzumab es independiente del estado del receptor de progesterona.
 
 ---
 
@@ -67,16 +69,16 @@ El puntaje TxGNN muy alto probablemente refleja la relación general del fármac
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Fase 2 | Activo, sin reclutar | 55 | Atezolizumab + trastuzumab + vinorelbina en cáncer de mama HER2+ con RE negativo o subtipo PAM50 no luminal. Es el más cercano a un subtipo no luminal; sin resultados. |
-| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | Fase 2 | Reclutando | 716 | Plataforma de terapia neoadyuvante de precisión (FASCINATE-N). Relevante para anti-HER2, sin resultados por subtipo. |
-| [NCT06328387](https://clinicaltrials.gov/study/NCT06328387) | Fase 1/2 | Desconocido | 120 | Hidroxicloroquina + conjugado anticuerpo-fármaco en cáncer de mama avanzado. Estudio temprano de combinación. |
-| [NCT06585969](https://clinicaltrials.gov/study/NCT06585969) | Fase 3 | Retirado | 0 | Trastuzumab deruxtecán frente a inhibidores de CDK4/6 en cáncer de mama no luminal A, HER2-bajo. No aporta evidencia; además evalúa otro fármaco. |
-| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Fase 3 | Activo, sin reclutar | 720 | Paclitaxel semanal ± carboplatino neoadyuvante en cáncer de mama triple negativo. La contribución de trastuzumab no está confirmada. |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Fase 2 | Completado | 23 | Paclitaxel + trastuzumab + pertuzumab preoperatorio en cáncer de mama inflamatorio HER2+. Brazo único. |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Reclutando | 74 | Tratamiento anti-HER2 neoadyuvante/adyuvante en mujeres nigerianas con cáncer de mama HER2+. |
-| [NCT05659056](https://clinicaltrials.gov/study/NCT05659056) | Fase 2 | Reclutando | 65 | Pirotinib + trastuzumab + Abraxane neoadyuvante en enfermedad enriquecida en HER2. |
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Fase 2 | Reclutando | 370 | ARIADNE: trastuzumab deruxtecán frente a tratamiento preoperatorio estándar en HER2+. |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Fase 1/2 | Reclutando | 46 | Neoadyuvancia guiada por cribado de fármacos en agregados celulares derivados del paciente, en HER2+ precoz. |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Fase 3 | Completado | 3270 | Quimioterapia adyuvante con o sin trastuzumab en cáncer de mama invasivo con ganglios positivos o alto riesgo |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Fase 3 | Completado | 517 | QL1209/pertuzumab con docetaxel y trastuzumab en cáncer de mama HER2 positivo, ER/PR negativo |
+| [NCT01750073](https://clinicaltrials.gov/study/NCT01750073) | Fase 2 | Completado | 92 | Quimioterapia neoadyuvante con o sin trastuzumab |
+| [NCT00194779](https://clinicaltrials.gov/study/NCT00194779) | Fase 2 | Completado | 50 | Quimioterapia neoadyuvante en cáncer de mama HER2 positivo resecable |
+| [NCT02260531](https://clinicaltrials.gov/study/NCT02260531) | Fase 2 | Completado | 36 | Cabozantinib solo o con trastuzumab en metástasis cerebrales |
+| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | Fase 2 | Completado | 33 | Letrozol más trastuzumab en cáncer de mama metastásico ErbB2 positivo con receptores hormonales positivos |
+| [NCT04334330](https://clinicaltrials.gov/study/NCT04334330) | Fase 2 | Desconocido | 34 | Palbociclib, trastuzumab, pirotinib y fulvestrant en metástasis cerebrales ER/PR+, HER2+ |
+| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Fase 2 | Reclutando | 30 | Neratinib y terapia endocrina con trastuzumab preoperatorio en ER+, HER2+ |
+| [NCT02152943](https://clinicaltrials.gov/study/NCT02152943) | Fase 1 | Completado | 37 | Everolimus, letrozol y trastuzumab en cáncer avanzado con receptores hormonales y HER2 positivos |
+| [NCT00053339](https://clinicaltrials.gov/study/NCT00053339) | Fase 3 | Retirado | 0 | Trastuzumab con o sin tamoxifeno; sin inscripción, no aporta evidencia |
 
 ---
 
@@ -84,21 +86,30 @@ El puntaje TxGNN muy alto probablemente refleja la relación general del fármac
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Cohorte | Breast Cancer (Tokyo) | Características morfológicas y citopatológicas del carcinoma de mama de subtipo basal-like. Describe los subtipos moleculares, pero no evalúa trastuzumab ni el subtipo «normal-like». |
+| [32353342](https://pubmed.ncbi.nlm.nih.gov/32353342/) | 2020 | ECA (fase 2) | Lancet Oncol | monarcHER: abemaciclib más trastuzumab con o sin fulvestrant frente a quimioterapia más trastuzumab en cáncer avanzado HR+/HER2+ |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | ECA (fase 2) | Ann Oncol | WSG-ADAPT: desescalada neoadyuvante con trastuzumab y pertuzumab ± paclitaxel |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | ECA (fase 3) | Lancet Oncol | ExteNET: neratinib tras terapia adyuvante basada en trastuzumab |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | Ensayo fase 2 | Lancet Oncol | NeoSphere: análisis a 5 años de pertuzumab y trastuzumab neoadyuvantes |
+| [15894097](https://pubmed.ncbi.nlm.nih.gov/15894097/) | 2005 | Metaanálisis | Lancet | Efecto de quimioterapia y terapia hormonal en cáncer de mama precoz sobre recurrencia y supervivencia a 15 años |
+| [31410192](https://pubmed.ncbi.nlm.nih.gov/31410192/) | 2019 | Cohorte | Theranostics | Perfiles moleculares y respuesta a trastuzumab en cáncer triple positivo (ER+/PR+/HER2+) |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Revisión | Future Oncol | Tendencias actuales en el tratamiento del cáncer HR+/HER2+ |
+| [21151204](https://pubmed.ncbi.nlm.nih.gov/21151204/) | 2011 | Revisión | Nat Rev Clin Oncol | Cáncer de mama HER2 y receptor hormonal positivo: bloqueo de la diana correcta |
+| [40339592](https://pubmed.ncbi.nlm.nih.gov/40339592/) | 2025 | Fase 2a | Lancet Oncol | Zanidatamab con palbociclib y fulvestrant en cáncer HR+/HER2+ metastásico |
+| [26253814](https://pubmed.ncbi.nlm.nih.gov/26253814/) | 2015 | Revisión | Breast | Implicaciones clínicas de los subtipos moleculares intrínsecos del cáncer de mama |
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1171241001 | Ontruzant 150 mg | Polvo para concentrado para solución para perfusión | Samsung Bioepis NL B.V. |
-| 1171241002 | Ontruzant 420 mg | Polvo para concentrado para solución para perfusión | Samsung Bioepis NL B.V. |
-| 1181281001 | Kanjinti 150 mg | Polvo para concentrado para solución para perfusión | Amgen Europe B.V. |
-| 1181295002 | Trazimera 420 mg | Polvo para concentrado para solución para perfusión | Pfizer Europe MA EEIG |
-| 1171257001 | Herzuma 150 mg | Polvo para concentrado para solución para perfusión | Celltrion Healthcare Hungary Kft. |
+| 1171241001 | Ontruzant 150 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+| 1181281001 | Kanjinti 150 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+| 1181295002 | Trazimera 420 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+| 1171257001 | Herzuma 150 mg | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+| 100145002 | Herceptin 600 mg | Solución inyectable | No disponible en los datos compilados |
 
-Los registros recibidos no incluyen el texto de las indicaciones aprobadas.
+Se registran 17 autorizaciones vigentes en total (incluyen biosimilares como Ontruzant, Kanjinti, Trazimera, Herzuma, Ogivri y Zercepac, además del original Herceptin).
 
 ---
 
@@ -107,34 +118,35 @@ Los registros recibidos no incluyen el texto de las indicaciones aprobadas.
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-HER2) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Función cardíaca (uno de los ensayos aportados, NCT01436604, estudia la toxicidad cardíaca de trastuzumab); resto según el prospecto |
-| Protección en Manejo | Consultar el prospecto y la normativa local de manejo de medicamentos citotóxicos |
+| Riesgo de Mielosupresión | Bajo como agente único; puede aumentar al combinarse con quimioterapia |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Función cardíaca (fracción de eyección del ventrículo izquierdo), hemograma, función hepática y renal |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+La literatura compilada también señala la cardiotoxicidad como aspecto relevante de seguimiento (PMID 17687157, 27038641).
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 94 interacciones; entre las de nivel **Mayor** figuran deferiprona, samario (153Sm) lexidronam, adalimumab y baricitinib. Entre las de nivel moderado destacan warfarina, paclitaxel, zidovudina, azatioprina, alemtuzumab y anakinra.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-- El puntaje TxGNN es muy alto, pero ningún ensayo ni publicación aportado demuestra beneficio de trastuzumab en el subtipo «normal-like». El beneficio depende de HER2, no del subtipo.
-- Los datos de seguridad de la AEMPS faltan (carencia bloqueante).
+La evidencia es sólida (L1): hay ensayos de fase 3 completados (como NCT01275677 con 3270 pacientes) y varios ECA en poblaciones HR+/HER2+. Sin embargo, la predicción coincide con la indicación ya aprobada y el beneficio se restringe a pacientes HER2 positivas, por lo que se trata de una estratificación y no de un reposicionamiento novedoso. Las predicciones de subtipo "normal breast-like" y las de tumores raros (L5) deben quedar en **Hold**.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un requisito bloqueante.
-- Obtener las indicaciones autorizadas y el mecanismo de acción (DrugBank) para contrastar el solapamiento con la indicación original.
-- Definir si «normal-like» se refiere a tumores con HER2 confirmado. Si no, la predicción carece de base clínica.
-- Como alternativa dentro del mismo paquete, revisar las predicciones de cáncer de mama con receptor de progesterona positivo o negativo y de luminal A/B. Tienen más ensayos de Fase 2 y ECA, pero solo se sostienen en tumores HER2-positivos confirmados.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Obtener las advertencias y contraindicaciones del prospecto de AEMPS (hueco de datos bloqueante para el cribado de seguridad)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Confirmar los textos de indicación aprobada de las autorizaciones españolas
+- Definir un plan de monitoreo cardíaco y restringir el uso a pacientes con HER2 positivo confirmado
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

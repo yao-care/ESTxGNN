@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: Solo predicción del modelo (L5)
-nav_order: 235
+nav_order: 339
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fluconazol: De Antifúngico Triazólico a Queratoconjuntivitis Epitelial Punteada
+# Fluconazol: De Candidiasis Oral a Queratoconjuntivitis Epitelial Punteada
 
 ## Resumen en Una Frase
 
-Fluconazol es un antifúngico triazólico de uso sistémico. Los datos de autorización disponibles no detallan el texto de su indicación original.
+Fluconazol es un antifúngico azólico utilizado originalmente para tratar candidiasis (oral, vulvovaginal, esofágica, diseminada y candidemia) y meningitis criptocócica.
 El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Se trata solo de una predicción del modelo.
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ---
 
@@ -43,7 +43,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de autorización (los textos de indicación están vacíos) |
+| Indicación Original | Candidiasis oral (y otras candidiasis, meningitis criptocócica) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 99.24% |
 | Nivel de Evidencia | L5 |
@@ -55,11 +55,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, fluconazol es un antifúngico triazólico que inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-desmetilasa). Su uso en infecciones fúngicas es conocido, y mecanísticamente su aplicación a la queratoconjuntivitis epitelial punteada **no está establecida**.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fluconazol es un antifúngico azólico que inhibe la enzima fúngica lanosterol 14-alfa-desmetilasa (CYP51), bloqueando la síntesis de ergosterol y comprometiendo la membrana de la célula fúngica. Su eficacia en candidiasis y criptococosis está comprobada.
 
-La queratoconjuntivitis epitelial punteada suele estar causada por mecanismos virales (por ejemplo, adenovirus) o inflamatorios de la superficie ocular. Un efecto antifúngico no tiene una diana evidente en ese cuadro. El puntaje alto de TxGNN (0.992) proviene solo de la predicción sobre el grafo de conocimiento.
+La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele ser de origen viral (adenovirus), tóxico, o estar asociada a ojo seco y uso de lentes de contacto, causas que un antifúngico no aborda. Solo sería mecanísticamente aplicable si existiera un componente fúngico en algunos casos.
 
-Se podrían plantear hipótesis, como un efecto antiinflamatorio, un efecto fuera de diana o una relación con infecciones fúngicas oculares. Ninguna cuenta con respaldo en los datos suministrados, y **el vínculo mecanístico sigue sin verificar**.
+La predicción podría reflejar asociaciones del grafo de conocimiento con queratitis fúngica u otras infecciones oculares fúngicas, y no una coincidencia mecanística real. Debe tratarse únicamente como una hipótesis sin verificar.
 
 ---
 
@@ -77,23 +77,27 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Hay 20 autorizaciones en total. Se listan las 5 principales. Ninguna incluye texto de indicación aprobada en los datos recibidos.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, sin autorizaciones canceladas).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 64331 | Fluconazol Tarbis 200 mg cápsulas duras EFG | Cápsula dura | Tarbis Farma S.L. |
-| 69082 | Fluconazol Teva 50 mg cápsulas duras EFG | Cápsula dura | Teva Pharma S.L.U. |
-| 73953 | Fluconazol Aurobindo 200 mg cápsulas duras EFG | Cápsula dura | Laboratorios Aurobindo S.L.U. |
-| 64957 | Fluconazol Aristo 50 mg cápsulas duras EFG | Cápsula dura | Aristo Pharma Iberia S.L. |
-| 69848 | Candifix 150 mg cápsulas duras EFG | Cápsula dura | Arafarma Group S.A. |
-
-Otras formas farmacéuticas registradas: polvo para suspensión oral y solución para perfusión.
+| 58766 | DIFLUCAN 150 mg cápsulas duras | Cápsula dura | No disponible |
+| 59672 | DIFLUCAN 10 mg/ml polvo para suspensión oral | Polvo para suspensión oral | No disponible |
+| 68049 | FLUCONAZOL SALA 2 mg/ml solución para perfusión EFG | Solución para perfusión | No disponible |
+| 69848 | CANDIFIX 150 mg cápsulas duras EFG | Cápsula dura | No disponible |
+| 64619 | FLUCONAZOL NORMON 200 mg cápsulas duras EFG | Cápsula dura | No disponible |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación o precaución (grafo de conocimiento, no texto del prospecto)**: síndrome de QT largo (incluido el familiar), enfermedad renal, piouréter, enfermedad hepática y enfermedad de la vesícula biliar.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones; entre las muestras revisadas:
+  - **Mayor**: clorpropamida.
+  - **Moderadas**: famotidina, rabeprazol, omeprazol, dexlansoprazol, hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida, loperamida, aprepitant, bisacodilo, ácido picosulfúrico, polietilenglicol con electrolitos y saxagliptina.
+  - **Menores**: anfotericina B, clWarithromicina (claritromicina).
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -102,13 +106,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo (nivel L5). No hay ensayos clínicos ni literatura, y no se ha podido establecer un vínculo mecanístico plausible entre un antifúngico y esta afección ocular, de origen principalmente viral o inflamatorio.
+La única base es una puntuación alta del modelo (99.24%), sin ensayos clínicos ni literatura, y con una plausibilidad mecanística limitada, ya que las causas habituales de esta enfermedad no son fúngicas.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), requisito bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
-- Realizar una búsqueda sistemática de literatura y de registros de ensayos (ClinicalTrials.gov, ICTRP) sobre fluconazol y queratoconjuntivitis.
-- Evaluar la compatibilidad de vía de administración (ocular frente a las formas oral e intravenosa autorizadas) y su similitud con la indicación original.
+- Revisión sistemática de literatura sobre fluconazol en patología ocular (queratitis fúngica y uso oftálmico).
+- Datos detallados del mecanismo de acción y análisis de su vínculo con la fisiopatología de la queratoconjuntivitis epitelial punteada.
+- Textos de indicaciones, advertencias y contraindicaciones del prospecto de la AEMPS.
+- Evaluación de la compatibilidad de vías de administración (oral/intravenosa frente a la vía tópica ocular).
+- Evaluación de seguridad en población con prolongación del QT, enfermedad hepática o renal, y revisión de interacciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

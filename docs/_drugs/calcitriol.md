@@ -2,7 +2,7 @@
 layout: default
 title: Calcitriol
 parent: Solo predicción del modelo (L5)
-nav_order: 96
+nav_order: 135
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Calcitriol: De Indicación Original No Registrada a Deficiencia de Vitamina D (término obsoleto)
+# Calcitriol: De Trastornos del Metabolismo del Calcio y el Fósforo a Deficiencia de Vitamina D (entrada obsoleta)
 
 ## Resumen en Una Frase
 
-Calcitriol es la forma activa de la vitamina D y está comercializado en España en cápsulas, solución inyectable y pomada, aunque los datos de autorización no recogen su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para la **deficiencia de vitamina D (término obsoleto)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Calcitriol es la forma activa de la vitamina D, utilizada en trastornos del metabolismo del calcio y el fósforo, como el hipoparatiroidismo y la osteodistrofia renal.
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de vitamina D (entrada catalogada como obsoleta)**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción concreta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de autorización de la AEMPS |
-| Nueva Indicación Predicha | Deficiencia de vitamina D (término obsoleto) |
-| Puntaje de Predicción TxGNN | 99,96% |
+| Indicación Original | Las licencias españolas no incluyen texto de indicación. Según el grafo de conocimiento (PrimeKG): hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, hipofosfatemia, hipoparatiroidismo y osteodistrofia renal |
+| Nueva Indicación Predicha | Deficiencia de vitamina D (entrada obsoleta) |
+| Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
@@ -50,9 +51,15 @@ El modelo TxGNN predice que podría ser efectivo para la **deficiencia de vitami
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, calcitriol es la forma activa de la vitamina D. Su relación biológica con la deficiencia de vitamina D es, por tanto, plausible. La indicación original no está registrada en los datos recibidos, así que no se puede comparar formalmente con la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, calcitriol es el metabolito activo de la vitamina D (1,25-dihidroxivitamina D3). Actúa sobre el receptor de la vitamina D y regula la absorción intestinal de calcio y fosfato, la mineralización ósea y la secreción de hormona paratiroidea (PTH). Su eficacia en trastornos del calcio y el fósforo está establecida.
 
-Hay una advertencia importante. La etiqueta de la enfermedad figura como «obsoleta», y el puntaje tan alto (0,9996) probablemente sea un artefacto de la predicción y no una señal terapéutica real. Antes de cualquier evaluación, este término debe asignarse a un concepto de enfermedad vigente.
+Existe un vínculo biológico plausible con la deficiencia de vitamina D, porque calcitriol es la forma activa de esa vitamina. Sin embargo, hay varias razones para ser prudente:
+
+- La entrada de enfermedad está marcada como **obsoleta** en la ontología.
+- No se recuperó ningún ensayo ni publicación.
+- En la deficiencia nutricional se usa normalmente la vitamina D nativa (colecalciferol o ergocalciferol), no el metabolito activo.
+
+El puntaje alto de TxGNN (99.96%) es solo una predicción y probablemente refleja la cercanía en la ontología, no evidencia clínica nueva.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,39 +73,46 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 55973 | ROCALTROL 0,25 mcg CAPSULAS BLANDAS | Cápsula blanda | No disponible |
-| 68934 | CALCITRIOL KERN PHARMA 1 microgramo/ml SOLUCION INYECTABLE EFG | Solución inyectable | No disponible |
-| 55974 | ROCALTROL 0,50 mcg CAPSULAS BLANDAS | Cápsula blanda | No disponible |
-| 64527 | SILKIS 3 microgramos/g POMADA | Pomada | No disponible |
+| 55973 | ROCALTROL 0,25 mcg cápsulas blandas | Cápsula blanda | No disponible en los datos compilados |
+| 55974 | ROCALTROL 0,50 mcg cápsulas blandas | Cápsula blanda | No disponible en los datos compilados |
+| 68934 | CALCITRIOL KERN PHARMA 1 microgramo/ml solución inyectable EFG | Solución inyectable | No disponible en los datos compilados |
+| 64527 | SILKIS 3 microgramos/g pomada | Pomada | No disponible en los datos compilados |
+
+Las cuatro autorizaciones están vigentes y son de monofármaco. Ninguna está cancelada.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no el texto del prospecto)**: enfermedad renal, sarcoidosis, hipercalcemia, nefrocalcinosis, nefrolitiasis, hiperfosfatemia, hipervitaminosis, nefropatía aguda por uratos, piouréter, trastornos del metabolismo del fósforo y arteriosclerosis obliterante.
+- **Interacciones farmacológicas**: se registraron 100 interacciones. Las principales son:
+  - **Mayores**: colecalciferol, calcifediol y burosumab.
+  - **Moderadas**:
+    - Diuréticos tiazídicos (hidroclorotiazida, clortalidona, clorotiazida, bendroflumetiazida, benztiazida).
+    - Anticonvulsivantes y barbitúricos (fosfenitoína, carbamazepina, amobarbital, butabarbital, butalbital).
+    - Resinas secuestradoras de ácidos biliares (colestiramina, colesevelam, colestipol).
+    - Digoxina y digitoxina.
+    - Hidróxido de aluminio.
+    - Calcipotriol tópico.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos ni literatura para esta predicción y la etiqueta de la enfermedad está obsoleta. Solo se sostiene sobre la plausibilidad biológica, así que no puede pasar de L5.
-
-**Otras predicciones del mismo farmaco con más respaldo:**
-
-| Posición | Indicación predicha | Puntaje TxGNN | Nivel | Recomendación |
-|------|------|------|------|------|
-| 7 | Raquitismo hipofosfatémico hereditario | 99,28% | L3 | Proceed with Guardrails |
-| 2 | Acidosis tubular renal | 99,93% | L4 | Research Question |
-| 6 | Síndrome de Dahlberg-Borer-Newcomer | 99,76% | L4 | Hold |
-
-- **Raquitismo hipofosfatémico hereditario:** hay dos ensayos que evalúan directamente calcitriol o vitamina D activa en hipofosfatemia ligada al X. Son NCT03748966 (fase 1 temprana, en curso) y NCT03820518 (fase 4, estado desconocido). Ninguno tiene resultados en el paquete. Probablemente ya sea tratamiento estándar, y la ausencia de indicación original en los datos es una laguna y no prueba de novedad.
-- **Acidosis tubular renal:** la literatura es sobre todo casos clínicos y estudios fisiológicos, y un estudio concluye que la enfermedad no altera el calcitriol circulante. El beneficio probable se limitaría a la enfermedad ósea secundaria.
-- **Síndrome de Dahlberg-Borer-Newcomer:** la evidencia es indirecta y ninguna publicación aborda el síndrome ni el tratamiento con calcitriol.
+La predicción para la deficiencia de vitamina D solo tiene respaldo del modelo (nivel L5). No hay ensayos ni literatura, la entrada de enfermedad es obsoleta y la práctica clínica usa vitamina D nativa para esta condición.
 
 **Para avanzar se necesita:**
-- Asignar «deficiencia de vitamina D (obsoleta)» a un concepto de enfermedad vigente y volver a evaluarlo.
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones) y obtener las indicaciones aprobadas de cada autorización.
-- Consultar el mecanismo de acción en la API de DrugBank.
-- Para raquitismo hipofosfatémico hereditario, buscar los resultados de los ensayos NCT03748966 y NCT03820518, y definir un plan de monitoreo de hipercalciuria, nefrocalcinosis e hiperparatiroidismo.
+- Confirmar si existe una entrada de enfermedad vigente que sustituya a la obsoleta.
+- Datos detallados del mecanismo de acción.
+- Revisión del prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas).
+- Evidencia clínica o de literatura específica.
+
+**Nota sobre otras predicciones del mismo fármaco:** el análisis incluye otra candidata con mejor respaldo, el **raquitismo hipofosfatémico hereditario** (puntaje TxGNN 99.28%). Tiene nivel L2, una recomendación de *Proceed with Guardrails* y dos ensayos clínicos:
+- NCT03748966, fase 1 temprana, completado, 16 participantes.
+- NCT03820518, fase 4, estado desconocido, 100 participantes.
+
+Los controles necesarios serían calcio, PTH y ecografía renal, por el riesgo de hipercalciuria y nefrocalcinosis. Esa indicación merece priorizarse en una evaluación posterior.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

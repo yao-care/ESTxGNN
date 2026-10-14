@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 412
+nav_order: 618
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,102 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pembrolizumab: De Indicaciones Oncológicas a Fibromatosis Gingival
+# Pembrolizumab: De Cáncer de Pulmón no Microcítico a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Pembrolizumab es un anticuerpo monoclonal inhibidor del punto de control inmunitario PD-1, comercializado en España como Keytruda y usado en oncología. El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que por ahora es solo una señal del modelo.
+Pembrolizumab es un anticuerpo monoclonal anti-PD-1, utilizado originalmente para el tratamiento del carcinoma de pulmón no microcítico, el cáncer de pulmón y el melanoma metastásico.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival** (puntaje de 99,40 %), pero **no existen ensayos clínicos ni publicaciones** que respalden esta predicción.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible: los registros de autorización no incluyen el texto de indicación aprobada |
+| Indicación Original | Carcinoma de pulmón no microcítico, cáncer de pulmón y melanoma metastásico (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.40% |
+| Puntaje de Predicción TxGNN | 99,40 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 7 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, pembrolizumab es un inhibidor de PD-1 que refuerza la respuesta de los linfocitos T contra las células tumorales. Su eficacia está establecida en cánceres como el pulmonar no microcítico, aunque el registro no detalla las indicaciones autorizadas en España.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, pembrolizumab es un anticuerpo que bloquea el receptor de muerte celular programada 1 (PD-1, CD279; gen PDCD1). Al hacerlo, restablece la actividad de los linfocitos T contra las células tumorales. Su eficacia está comprobada en cáncer de pulmón y melanoma.
 
-La fibromatosis gingival es un sobrecrecimiento fibroso no neoplásico, generalmente hereditario o inducido por fármacos. No tiene relación conocida con el eje PD-1/PD-L1, y no se identificó ningún fundamento mecanístico que justifique el bloqueo de puntos de control en esta enfermedad.
+Para la fibromatosis gingival, una proliferación del tejido conectivo de la encía, **no se identifica un vínculo plausible con la vía PD-1** en los datos disponibles. Tampoco hay estudios que lo respalden. La puntuación alta de TxGNN es únicamente una predicción computacional, y la relación de similitud con la indicación original está pendiente de evaluar.
 
-El puntaje alto (99.40%) refleja proximidad en el grafo de conocimiento, no evidencia biológica ni clínica. Por eso esta predicción debe tratarse con mucha cautela.
+Por ello, esta predicción debe considerarse una hipótesis sin respaldo mecanístico ni clínico, y no una oportunidad de reposicionamiento validada.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en España
 
-El registro no incluye el texto de indicación aprobada para ninguna autorización. Se muestran las 5 autorizaciones principales, de un total de 7.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1151024002IP3 | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
+| 1151024001 | KEYTRUDA 50 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos |
+| 115024001IP | KEYTRUDA 50 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos |
+| 1151024002IP | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
+| 1151024002IP2 | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1151024002IP3 | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión |
-| 1151024001 | KEYTRUDA 50 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión |
-| 115024001IP | KEYTRUDA 50 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión |
-| 1151024002IP | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión |
-| 1151024002IP2 | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión |
+Las 7 autorizaciones son de monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V.; se muestran las 5 principales.
 
-Titular de todas: Merck Sharp & Dohme B.V.
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo anti-PD-1); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo como efecto directo; pueden aparecer citopenias de origen inmunomediado |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Hemograma, función hepática, renal y tiroidea, glucemia. Vigilar eventos adversos inmunomediados |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y los protocolos del centro para preparación de medicamentos biológicos antineoplásicos |
+| Clasificación de Citotoxicidad | Inmunoterapia (inhibidor del punto de control inmunitario anti-PD-1); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar el prospecto; en la literatura se describen eventos adversos inmunomediados (endocrinopatías como hipotiroidismo e hipoadrenalismo, hepatitis, colitis, toxicidades cutáneas y neurológicas), por lo que suele recomendarse vigilar la función tiroidea, hepática y suprarrenal |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas** (13 registradas):
+  - **Mayor**: lenalidomida, pomalidomida y talidomida.
+  - **Moderada**: corticosteroides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida, prednisolona, prednisona, metilprednisolona y deflazacort).
+  - Además se registra la interacción farmacológica con su diana, PD-1 (CD279).
+
+No se dispone de datos de advertencias principales ni de contraindicaciones en la información compilada; consultar el prospecto para esa información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción está en nivel L5: solo hay una señal del modelo, sin ensayos, sin literatura y sin fundamento mecanístico plausible. Además, la fibromatosis gingival es una condición benigna en la que la toxicidad inmunomediada de un inhibidor de puntos de control difícilmente se justificaría.
+La predicción para fibromatosis gingival se apoya solo en el modelo (L5), sin ensayos ni literatura, y sin vínculo plausible con el bloqueo de PD-1. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Completar los datos de mecanismo de acción (DrugBank).
-- Obtener la ficha técnica de la AEMPS con indicaciones, advertencias y contraindicaciones.
-- Encontrar evidencia biológica o preclínica que vincule PD-1 con la fibrosis gingival; sin ella no conviene seguir con esta candidata.
-- Revisar el resto de las predicciones del modelo: la mayoría carece de respaldo, y las de carcinoma del hilio pulmonar, neoplasia del surco pulmonar y neoplasia benigna de pulmón se solapan con las indicaciones de cáncer de pulmón ya establecidas. Deberían evaluarse dentro de esas indicaciones y no como reposicionamientos nuevos.
+- Datos del mecanismo de acción y una hipótesis biológica que vincule la vía PD-1 con la fibromatosis gingival.
+- Estudios preclínicos o de mecanismo en el tejido gingival.
+- Prospecto de la AEMPS con advertencias y contraindicaciones (actualmente ausentes) para el cribado de seguridad.
+- Una evaluación de la relación de similitud con la indicación original.
+
+**Nota sobre otras predicciones del análisis:** las demás candidatas de mayor puntuación tampoco están respaldadas. Las entidades con evidencia aparente (neoplasia benigna de pulmón, nivel L1; tumor de células germinales de pulmón, nivel L3) corresponden en realidad a estudios de cáncer de pulmón maligno ya aprobado y a ensayos generales de tumores sólidos. Es probable que se trate de un cruce de ontologías y no de evidencia específica de la entidad predicha.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

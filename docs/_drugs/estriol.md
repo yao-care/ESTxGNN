@@ -2,7 +2,7 @@
 layout: default
 title: Estriol
 parent: Evidencia moderada (L3-L4)
-nav_order: 214
+nav_order: 310
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Estriol: De Indicación Original No Disponible a Amenorrea
+# Estriol: De Indicación Original No Especificada a Amenorrea
 
 ## Resumen en Una Frase
 
-Estriol es un estrógeno comercializado en España en formas vaginales (gel, crema y óvulos). Los datos recibidos no incluyen su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero los **3 ensayos clínicos** encontrados no son pertinentes (dos evalúan estetrol, otro es un ensayo retirado de fotobiomodulación). De las **13 publicaciones** identificadas, solo una es un estudio intervencional pequeño con estriol en amenorrea hipotalámica funcional.
+Estriol es un estrógeno de acción débil comercializado en España en formulaciones vaginales (geles, cremas y óvulos). En los datos compilados para este informe no consta el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ensayos clínicos** y **6 publicaciones** (solo 2 directamente relevantes) que actualmente respaldan esta dirección.
 
 ---
 
@@ -42,7 +42,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero los **
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS recibidos |
+| Indicación Original | No disponible en los datos de las autorizaciones de AEMPS (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 99.18% |
 | Nivel de Evidencia | L3 |
@@ -54,44 +54,30 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero los **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, estriol es un estrógeno de baja potencia. Sus productos autorizados en España son de administración vaginal, pero la indicación aprobada no consta en los datos. Mecanísticamente, podría ser aplicable a la amenorrea en los casos con hipoestrogenismo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información farmacológica disponible, el estriol actúa como agonista de los receptores de estrógeno alfa (ESR1) y beta (ESR2), con una potencia estrogénica menor que la del estradiol. En Europa y Asia se comercializa desde hace más de 40 años, principalmente para síntomas de la menopausia como los sofocos.
 
-El vínculo más plausible es la **amenorrea hipotalámica funcional (AHF)**. En este trastorno, la secreción pulsátil de GnRH está alterada y hay un estado hipoestrogénico. Un estudio de 2012 (PMID 22137494) informa que la administración de estriol modula la secreción de hormona luteinizante (LH) en mujeres con AHF. Una revisión de 2023 (PMID 37371858) propone que los estrógenos a dosis bajas actúan como moduladores neuroendocrinos en la AHF. Esto sugiere que estriol podría ejercer una señal estrogénica suave y restaurar en parte la retroalimentación hipotálamo-hipofisaria.
+En la amenorrea hipotalámica funcional (AHF), la secreción pulsátil de GnRH está alterada, lo que reduce las gonadotropinas y la función ovárica y provoca un estado hipoestrogénico. Se plantea que dosis bajas de estrógenos podrían actuar como moduladores neuroendocrinos. Un estudio fisiológico pequeño en humanos (2012, PMID 22137494) comunicó que la administración de estriol modulaba la secreción de LH en mujeres con AHF.
 
-Conviene tener cautela. El puntaje TxGNN (0.99) proviene solo de un grafo de conocimiento y no distingue entre subtipos de amenorrea (AHF, insuficiencia ovárica prematura, posanticonceptiva). Esos subtipos tienen mecanismos y objetivos terapéuticos distintos. Además, al no tener indicación original ni MOA, no fue posible contrastar el mecanismo con una indicación autorizada.
+Esto respalda un mecanismo plausible y datos fisiológicos humanos iniciales, pero **no demuestra eficacia clínica** para restablecer la menstruación. El puntaje de 0.99 es solo una predicción computacional. La terapia estrogénica en amenorrea hipoestrogénica es práctica establecida con estradiol, pero la eficacia y seguridad específicas del estriol (hueso, endometrio) no están establecidas.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Fase 2 | Retirado | 0 | Fotobiomodulación en atrofia vulvovaginal posmenopáusica. Sin resultados. Población y condición no coinciden con amenorrea; estriol sería a lo sumo comparador o terapia de base. |
-| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Fase 3 | Completado | 1015 | Estetrol (E4) 15 mg, 20 mg o placebo en síntomas vasomotores de mujeres posmenopáusicas (E4Comfort II). Estetrol es una molécula distinta de estriol; no es amenorrea. |
-| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Fase 3 | Completado | 1570 | Estudio complementario (E4Comfort I) con estetrol frente a placebo. Mismas limitaciones: otra molécula y otra población. |
-
-Ninguno de estos ensayos aporta apoyo directo a la indicación de amenorrea, y no deben contarse como evidencia L1.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Muchos registros no tienen resumen disponible, por lo que se describen según su título.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Estudio clínico intervencional (pequeño) | Fertility and Sterility | Evalúa el efecto de estriol sobre la función hipotálamo-hipofisaria y la secreción de gonadotropinas en AHF; modula la secreción de LH. Es la evidencia más directa. |
-| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Revisión | Biomedicines | Estrógenos a dosis bajas como moduladores neuroendocrinos en AHF y posible activación de mecanismos de retroalimentación positiva. |
-| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Estudio clínico | Medicinski pregled | Efecto de estro-progestágenos sobre perfiles lipídico y hormonal en insuficiencia ovárica primaria prematura (amenorrea hipergonadotrópica). |
-| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Ensayo clínico | J Obstet Gynaecol Br Commonw | Gonadotropinas humanas en amenorrea secundaria idiopática; no evalúa estriol. |
-| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Revisión | Clin Obstet Gynecol | Neoplasia y anticoncepción hormonal. Relación indirecta. |
-| [4254759](https://pubmed.ncbi.nlm.nih.gov/4254759/) | 1971 | Revisión | Br J Psychiatry | Anorexia nerviosa, causa frecuente de amenorrea funcional. Relación indirecta. |
-| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Observación clínica | Zhong Xi Yi Jie He Za Zhi | Relación entre la "deficiencia renal" (medicina tradicional china) y la función gonadal en amenorrea y oligomenorrea. |
-| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Reporte de caso | Lancet | Hallazgos endocrinológicos en dos pacientes con insuficiencia ovárica prematura. |
-| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Serie de casos | Am J Obstet Gynecol | Manifestaciones ginecológicas y endocrinas prolongadas tras acetato de medroxiprogesterona en el embarazo. |
-| [4307531](https://pubmed.ncbi.nlm.nih.gov/4307531/) | 1969 | Sin clasificar | Fertility and Sterility | Efectos comparados de estrógenos sobre la amilasa del moco cervical. Relación indirecta. |
-
-Además se identificaron tres publicaciones sobre metodología de dosaje hormonal y mecanismo de compuestos antiovulatorios (PMID 979592, 1239569, 13931724), de utilidad limitada para esta indicación.
+| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Estudio fisiológico intervencionista pequeño (humanos, AHF) | Fertility and Sterility | Evalúa el efecto de la administración de estriol sobre el eje hipotálamo-hipófisis y la secreción de gonadotropinas en mujeres con AHF; modula la secreción de LH |
+| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Revisión | Biomedicines | Los estrógenos en dosis bajas como moduladores neuroendocrinos en AHF y su posible papel en el mecanismo de retroalimentación positiva |
+| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Serie de casos (indirecto) | Am J Obstet Gynecol | Manifestaciones ginecológicas y endocrinas prolongadas tras medroxiprogesterona en el embarazo; relación indirecta |
+| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Ensayo clínico histórico (indirecto) | J Obstet Gynaecol Br Commonw | Gonadotropinas en amenorrea secundaria idiopática; no evalúa estriol |
+| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | Revisión histórica (indirecto) | J Clin Endocrinol Metab | Mecanismo de los compuestos antiovulatorios; relación indirecta |
+| [979592](https://pubmed.ncbi.nlm.nih.gov/979592/) | 1976 | Revisión metodológica (no terapéutica) | Med Welt | Radioinmunoanálisis de LH, FSH, progesterona y estrógenos; no aporta evidencia terapéutica |
 
 ---
 
@@ -99,17 +85,19 @@ Además se identificaron tres publicaciones sobre metodología de dosaje hormona
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 72727 | GELISTROL 50 microgramos/g GEL VAGINAL | Gel vaginal | No disponible en los datos recibidos |
-| 61533 | OVESTINON 1 mg/g CREMA VAGINAL | Crema vaginal | No disponible en los datos recibidos |
-| 82222 | FEMMYN 0,03 MG ÓVULOS | Óvulo | No disponible en los datos recibidos |
-| 72726 | BLISSEL 50 microgramos/g GEL VAGINAL | Gel vaginal | No disponible en los datos recibidos |
-| 57467 | OVESTINON 0,5 mg ÓVULOS | Óvulo | No disponible en los datos recibidos |
+| 72727 | GELISTROL 50 microgramos/g | Gel vaginal | No disponible |
+| 61533 | OVESTINON 1 mg/g | Crema vaginal | No disponible |
+| 82222 | FEMMYN 0,03 mg | Óvulo | No disponible |
+| 72726 | BLISSEL 50 microgramos/g | Gel vaginal | No disponible |
+| 57467 | OVESTINON 0,5 mg | Óvulo | No disponible |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas / farmacología**: Se identificaron 2 registros, correspondientes a la actividad del estriol sobre sus dianas, el receptor de estrógeno alfa (ESR1) y el receptor de estrógeno beta (ESR2). No son interacciones con otros fármacos con nivel de gravedad asignado.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -118,14 +106,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero es solo una predicción del modelo. Los ensayos clínicos no son pertinentes y la evidencia real se limita a un estudio pequeño y una revisión sobre AHF. Además, faltan la indicación aprobada, el MOA y los datos de seguridad del prospecto, por lo que por ahora es una pregunta de investigación.
+La evidencia se limita a un estudio fisiológico pequeño y una revisión, sin ensayos clínicos registrados. El puntaje de TxGNN es solo una predicción computacional, y faltan datos de seguridad de la ficha técnica (hueco de datos bloqueante).
 
 **Para avanzar se necesita:**
-- Descargar y analizar los prospectos de AEMPS (advertencias y contraindicaciones), ya que sin ellos no se puede pasar al cribado de seguridad.
-- Obtener el mecanismo de acción y la indicación aprobada (por ejemplo, vía DrugBank).
-- Definir el subtipo de amenorrea objetivo (AHF, insuficiencia ovárica prematura u otro).
-- Revisar los textos completos de PMID 22137494 y 37371858 y buscar ensayos controlados con estriol en AHF.
-- Evaluar la compatibilidad de vía de administración: los productos españoles son vaginales y aún no se ha determinado la vía requerida para amenorrea.
+- Obtener y analizar el prospecto/ficha técnica de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas)
+- Datos detallados del mecanismo de acción
+- Estudios clínicos que evalúen la eficacia del estriol para restablecer la menstruación en AHF
+- Evaluación de seguridad ósea y endometrial del estriol en esta población
+- Análisis de compatibilidad de vías de administración: las formulaciones comercializadas son vaginales y su idoneidad para esta indicación no está evaluada
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

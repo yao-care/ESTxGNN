@@ -2,7 +2,7 @@
 layout: default
 title: Amantadine
 parent: Solo predicción del modelo (L5)
-nav_order: 35
+nav_order: 46
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,17 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Amantadina: De Antivírico y Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+# Amantadina: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
 
 ## Resumen en Una Frase
 
-La amantadina se ha usado históricamente como antivírico contra la gripe y, más tarde, para la discinesia y la enfermedad de Parkinson. El modelo TxGNN predice que podría ser efectiva para la **encefalitis subaguda de Rasmussen**, pero esta predicción **no tiene ensayos clínicos ni publicaciones** que la respalden: es solo una señal del modelo.
+La amantadina es un fármaco utilizado originalmente para el tratamiento de la enfermedad de Parkinson y otros trastornos extrapiramidales.
+El modelo TxGNN predice que podría ser efectiva para la **encefalitis subaguda de Rasmussen**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en la autorización de AEMPS. Según la farmacología: gripe (uso ya no recomendado), discinesia y enfermedad de Parkinson |
+| Indicación Original | Enfermedad de Parkinson (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 99.48% |
 | Nivel de Evidencia | L5 |
@@ -49,11 +51,11 @@ La amantadina se ha usado históricamente como antivírico contra la gripe y, m�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Los datos farmacológicos indican que la amantadina actúa sobre las subunidades del receptor NMDA (GluN2A, GluN2B, GluN2C y GluN2D, genes GRIN2A-D), con un efecto antagonista débil.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información farmacológica conocida, la amantadina actúa como antagonista de los receptores NMDA (con interacción descrita con las subunidades GluN2A, GluN2B, GluN2C y GluN2D) y modula la transmisión dopaminérgica. Su eficacia en la enfermedad de Parkinson y en la discinesia asociada a levodopa está documentada.
 
-La encefalitis de Rasmussen es una enfermedad inflamatoria cerebral crónica que cursa con crisis epilépticas. En teoría, el antagonismo del receptor NMDA podría influir en la excitotoxicidad mediada por glutamato y en las crisis. Esta hipótesis **no está respaldada por estudios** y no se pudo contrastar con el mecanismo de acción de la fuente.
+La encefalitis de Rasmussen es una enfermedad inflamatoria cerebral de base inmunomediada, con lesión neuronal excitotóxica relacionada con el glutamato y crisis focales intratables. Desde un punto de vista teórico, el antagonismo NMDA podría tener relevancia en ese componente excitotóxico.
 
-Un puntaje alto del grafo, por sí solo, no se considera evidencia. Por ahora la predicción es una pista para investigar, no una base para uso clínico.
+No obstante, este vínculo es solo hipotético. No hay ensayos ni literatura que lo respalden, y la similitud con la indicación original no ha podido evaluarse. La predicción debe considerarse no verificada.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,34 +67,30 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 44541 | AMANTADINE LEVEL 100 mg CAPSULAS DURAS | Cápsula dura | Laboratorios Ern S.A. |
-
-El texto de la indicación aprobada no figura en los datos recibidos.
+| 44541 | AMANTADINE LEVEL 100 mg CÁPSULAS DURAS (Laboratorios Ern S.A.) | Cápsula dura | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto del prospecto): atrofia multisistémica, síndrome de taquicardia postural ortostática, hipotensión ortostática, epilepsia, enfermedad renal, piouréter, insuficiencia cardíaca congestiva, trastorno psicótico, trastorno esquizofreniforme, trastorno mental, trastorno esquizoafectivo, melanoma, glaucoma de ángulo cerrado, trastornos relacionados con sustancias y abuso/dependencia, eccema atópico y dermatitis.
+- **Interacciones farmacológicas**: la consulta se completó con 4 registros, todos de farmacología de dianas (no interacciones con otros fármacos): la amantadina actúa sobre las subunidades de receptor NMDA GluN2A, GluN2B, GluN2C y GluN2D.
 
-La consulta de interacciones devolvió solo registros farmacológicos de dianas (subunidades del receptor NMDA), no interacciones clínicas con otros fármacos.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5: solo el modelo, sin ensayos ni publicaciones, y sin mecanismo de acción ni ficha técnica verificados. No hay base suficiente para avanzar.
+La predicción se basa únicamente en el modelo (puntaje alto, pero sin ensayos clínicos ni literatura), el mecanismo de acción original no está documentado y la información del prospecto no está disponible. Además, la epilepsia figura entre las contraindicaciones del grafo de conocimiento, lo que es relevante para una enfermedad caracterizada por crisis focales.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones).
-- Obtener el mecanismo de acción desde DrugBank.
-- Hacer una búsqueda de literatura específica sobre amantadina y encefalitis de Rasmussen.
-- Confirmar la compatibilidad de la vía y forma farmacéutica (hoy solo hay cápsula dura oral).
-
-**Otras predicciones del mismo fármaco (fuera de esta evaluación principal):**
-- **Mielitis** (L4, "Research Question"): la literatura trata sobre todo el síndrome postpolio, donde se probó la amantadina para la fatiga, y solo aporta evidencia indirecta. Conviene una revisión dirigida para definir qué subtipo de mielitis, si alguno, sería un objetivo razonable.
-- **Neurodegeneración asociada a PLA2G6** (L4, Hold): los dos artículos tratan sobre PKAN, una enfermedad hermana, y no hay evidencia específica de PLA2G6.
+- Obtener el prospecto oficial de la AEMPS (advertencias, contraindicaciones e indicación aprobada).
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Realizar una revisión de literatura específica sobre antagonistas NMDA en encefalitis de Rasmussen y estudios preclínicos.
+- Evaluar la contraindicación en epilepsia frente al contexto de crisis intratables.
+- Si se desea explorar otras predicciones, la mielitis (síndrome pospolio, con un ensayo doble ciego de 1995 sobre fatiga, evidencia indirecta, nivel L4) y la neurodegeneración asociada a PLA2G6 (un reporte de caso en PKAN, evidencia indirecta, nivel L4) cuentan con algo más de respaldo bibliográfico, aunque ambas siguen siendo preguntas de investigación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

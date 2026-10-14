@@ -2,7 +2,7 @@
 layout: default
 title: Fremanezumab
 parent: Evidencia moderada (L3-L4)
-nav_order: 249
+nav_order: 363
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,32 +29,33 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Fremanezumab: De Prevención de la Migraña a Migraña con Aura del Tronco Encefálico
+# Fremanezumab: De Migraña a Migraña con Aura del Tronco Encefálico
 
 ## Resumen en Una Frase
 
-Fremanezumab es un anticuerpo monoclonal humanizado que se une al péptido relacionado con el gen de la calcitonina (CGRP). Se comercializa para la prevención de la migraña.
-El modelo TxGNN predice que podría ser efectivo para la **migraña con aura del tronco encefálico**, pero hoy no hay **ningún ensayo clínico** registrado y solo **20 publicaciones**, casi todas sobre migraña en general y no sobre este subtipo.
+Fremanezumab es un anticuerpo monoclonal humanizado dirigido contra el péptido relacionado con el gen de la calcitonina (CGRP), originalmente utilizado para la prevención de la migraña.
+El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**,
+pero actualmente no hay ensayos clínicos registrados y la literatura recopilada (**20 publicaciones**) trata sobre la migraña en general, sin evaluar específicamente a pacientes con aura de tronco encefálico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención de la migraña (deducida de la justificación mecanística; el texto de indicación de la AEMPS no está disponible) |
+| Indicación Original | Migraña (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
 | Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 99,94 % |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
-| Decisión Recomendada | Hold (mantener como pregunta de investigación) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Fremanezumab bloquea el ligando CGRP, un péptido vasodilatador clave en la activación del sistema trigeminovascular durante la migraña. No hay datos detallados del mecanismo de acción en el paquete de evidencia, pero su papel como anti-CGRP está bien establecido en la prevención de la migraña.
+Fremanezumab es un anticuerpo monoclonal humanizado que se une al ligando CGRP, un neuropéptido clave en la fisiopatología de la migraña. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero la literatura confirma que actúa inhibiendo selectivamente las neuronas trigeminovasculares (PMID 28642283).
 
-La migraña con aura se relaciona con la depresión cortical propagada (CSD, por sus siglas en inglés), una onda de despolarización neuronal. Existe una conexión funcional entre CSD y CGRP, por lo que un fármaco anti-CGRP podría tener algún efecto sobre el aura.
+La migraña con aura del tronco encefálico es un subtipo de migraña con fisiopatología trigeminovascular y mediada por CGRP compartida con la indicación original. Por ello existe una justificación mecanística plausible.
 
-Sin embargo, los estudios preclínicos indican que fremanezumab **no impide que se inicie la CSD**. Solo parece ralentizar su propagación y acortar la recuperación cortical. Por eso, cualquier beneficio sobre el aura sería probablemente indirecto. La única señal clínica específica del aura son reportes de casos. No hay datos de ensayos ni de cohortes sobre el subtipo de tronco encefálico. El puntaje alto de TxGNN es una predicción computacional y no sustituye a la evidencia clínica.
+Conviene matizar que este caso se interpreta mejor como una **subpoblación de la indicación ya aprobada** que como un reposicionamiento genuino. La eficacia y seguridad específicas en este subtipo no están establecidas. Además, el CGRP es un vasodilatador, y los estudios sobre riesgo cerebrovascular (PMID 42390441) y dilatación arterial inducida por depresión cortical propagada (PMID 31127003) plantean una cuestión de seguridad vascular que debe examinarse en pacientes con aura, especialmente de tronco encefálico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,48 +63,47 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se muestran las 10 publicaciones más relevantes de un total de 20. No hay ECAs sobre el aura.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Reportes de casos y revisión | J Clin Med | Analiza si los anticuerpos anti-CGRP pueden ser útiles en el aura migrañosa. Señala que la información sobre su efecto en el aura es escasa. |
-| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Serie de casos observacional | CNS Neurosci Ther | Evalúa el efecto de la terapia anti-CGRP sobre el aura. El resumen disponible indica que la evidencia clínica en migraña con aura es limitada. |
-| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Análisis cuantitativo de pacientes individuales | J Headache Pain | Efectividad y seguridad de anti-CGRP en migraña hemipléjica, un subtipo raro de migraña con aura. Estos pacientes suelen quedar excluidos de los ECAs. |
-| [40264646](https://pubmed.ncbi.nlm.nih.gov/40264646/) | 2025 | Reporte de caso y revisión | Front Neurol | Caso de migraña hemipléjica tratado con anticuerpos anti-CGRP, con revisión de la literatura. |
-| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | Análisis post hoc (estudio FOCUS, fase 3b) | Eur J Neurol | Eficacia y calidad de vida con fremanezumab en migraña difícil de tratar, con subgrupos con y sin aura o disfunción neurológica similar. |
-| [35775208](https://pubmed.ncbi.nlm.nih.gov/35775208/) | 2022 | Estudio observacional | Cephalalgia | Efecto de erenumab, fremanezumab y galcanezumab sobre síntomas prodrómicos y acompañantes del ataque. |
-| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Preclínico (modelo animal de CSD) | J Neurosci | Fremanezumab no modificó la dilatación arterial ni la extravasación de proteínas plasmáticas inducidas por CSD. |
-| [31895266](https://pubmed.ncbi.nlm.nih.gov/31895266/) | 2020 | Preclínico (ratas) | Pain | Fremanezumab ralentiza la propagación de la CSD y acorta la recuperación cortical, pero no evita que ocurra. |
-| [28642283](https://pubmed.ncbi.nlm.nih.gov/28642283/) | 2017 | Preclínico | J Neurosci | Estudia la inhibición selectiva de neuronas trigeminovasculares por fremanezumab. |
-| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Cohorte prospectiva de mundo real | Front Neurol | Eficacia y tolerabilidad de fremanezumab en migraña crónica durante 3 meses. No es específico de aura. |
+| [37638190](https://pubmed.ncbi.nlm.nih.gov/37638190/) | 2023 | Cohorte | Frontiers in Neurology | Estudio prospectivo observacional de 3 meses sobre eficacia y tolerabilidad de fremanezumab en migraña crónica en práctica real |
+| [35302681](https://pubmed.ncbi.nlm.nih.gov/35302681/) | 2022 | Cohorte (análisis post hoc) | European Journal of Neurology | Eficacia y calidad de vida con fremanezumab en migraña de difícil tratamiento con disfunción neurológica asociada (estudio FOCUS) |
+| [40596876](https://pubmed.ncbi.nlm.nih.gov/40596876/) | 2025 | Cohorte | The Journal of Headache and Pain | Tolerabilidad al cambiar de erenumab a fremanezumab en migraña crónica |
+| [42090640](https://pubmed.ncbi.nlm.nih.gov/42090640/) | 2026 | Cohorte | Neurology | Riesgo de glaucoma asociado al uso de inhibidores de CGRP en migraña |
+| [42390441](https://pubmed.ncbi.nlm.nih.gov/42390441/) | 2026 | Cohorte | Cephalalgia | Riesgo cerebrovascular con anticuerpos anti-CGRP frente a onabotulinumtoxinA |
+| [41618146](https://pubmed.ncbi.nlm.nih.gov/41618146/) | 2026 | Revisión sistemática | The Journal of Headache and Pain | Efectividad y seguridad de anticuerpos anti-CGRP en migraña hemipléjica (subtipo de migraña con aura) |
+| [38332541](https://pubmed.ncbi.nlm.nih.gov/38332541/) | 2024 | Serie de casos | CNS Neuroscience & Therapeutics | Efecto de la terapia anti-CGRP sobre el aura migrañosa |
+| [38091211](https://pubmed.ncbi.nlm.nih.gov/38091211/) | 2024 | Cohorte piloto | Neurological Sciences | Efectividad de anticuerpos anti-CGRP en la prevención de la migraña con aura |
+| [41589756](https://pubmed.ncbi.nlm.nih.gov/41589756/) | 2026 | Reporte de caso | European Journal of Neurology | Reducción de la frecuencia de ataques prolongados de migraña hemipléjica esporádica con fremanezumab |
+| [31127003](https://pubmed.ncbi.nlm.nih.gov/31127003/) | 2019 | Preclínico | The Journal of Neuroscience | La dilatación arterial inducida por depresión cortical propagada no se ve afectada por fremanezumab; implicaciones para el papel del CGRP en la migraña con aura |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1191358001 | AJOVY 225 MG solución inyectable en jeringa precargada | Solución inyectable |
-| 1191358003 | AJOVY 225 MG solución inyectable en pluma precargada | Solución inyectable |
-
-Ambas autorizaciones pertenecen al titular Teva GmbH.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1191358001 | AJOVY 225 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Solución inyectable | No disponible en los datos compilados |
+| 1191358003 | AJOVY 225 MG SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Solución inyectable | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+No obstante, la literatura recopilada señala una cuestión que debe vigilarse: el posible riesgo cerebrovascular de los inhibidores del CGRP (por su papel vasodilatador), relevante en pacientes con aura, especialmente de tronco encefálico.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es muy alto, pero no hay ensayos clínicos y la evidencia clínica específica del aura se limita a reportes y series de casos. El mecanismo también es incierto, ya que fremanezumab no bloquea el inicio de la CSD. El fármaco ya está comercializado y tiene datos de seguridad en migraña, así que es una pregunta de investigación de bajo costo, pero no hay base para recomendar su uso en esta indicación.
+La predicción tiene un puntaje muy alto (99,94 %), pero es solo computacional. No hay ensayos clínicos y ninguna publicación evalúa específicamente la migraña con aura del tronco encefálico. Además, este subtipo se considera una subpoblación de la indicación ya aprobada, y persiste una incógnita de seguridad vascular.
 
 **Para avanzar se necesita:**
-- Descargar y revisar la ficha técnica de la AEMPS (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
-- Obtener los datos de mecanismo de acción desde DrugBank.
-- Datos clínicos específicos de migraña con aura del tronco encefálico, por ejemplo una serie de casos o un estudio observacional dirigido.
-- Un análisis de los datos de pacientes con aura y aura hemipléjica, para valorar si se pueden extrapolar al subtipo de tronco encefálico.
+- Obtener y analizar las advertencias y contraindicaciones del prospecto de AEMPS (carencia bloqueante para el cribado de seguridad).
+- Obtener datos detallados del mecanismo de acción.
+- Estudios o análisis de subgrupos específicos en pacientes con aura del tronco encefálico.
+- Evaluación del riesgo cerebrovascular en pacientes con aura.
+- Confirmar el texto de indicación autorizado en AEMPS.
 
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
+**Nota sobre la segunda predicción (atrofodermia vermiculada):** el puntaje TxGNN es alto (99,04 %), pero no existe un vínculo mecanístico creíble, ni ensayos clínicos, ni literatura de respaldo. Probablemente sea un artefacto del grafo de conocimiento; nivel de evidencia L5, decisión **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Celecoxib
 parent: Solo predicción del modelo (L5)
-nav_order: 113
+nav_order: 161
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Celecoxib: De Antiinflamatorio (AINE) a Displasia Acromesomélica tipo Hunter-Thompson
+# Celecoxib: De Artritis Reumatoide a Displasia Acromesomélica Tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Celecoxib es un inhibidor selectivo de la COX-2, un antiinflamatorio no esteroideo (AINE) que se usa en artrosis, artritis reumatoide y espondilitis anquilosante.
-El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, una displasia esquelética genética muy rara.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción del modelo.
+Celecoxib es un antiinflamatorio no esteroideo (AINE) inhibidor selectivo de la COX-2, utilizado originalmente en enfermedades articulares inflamatorias como la artritis reumatoide, la espondilitis anquilosante y la artrosis.
+El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomélica tipo Hunter-Thompson**, una enfermedad esquelética genética rara, pero **no existe ningún ensayo clínico ni publicación** que respalde esta dirección: se trata únicamente de una predicción del modelo.
 
 ---
 
@@ -43,9 +42,9 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS del Evidence Pack. La literatura citada lo describe como AINE para artrosis, artritis reumatoide y espondilitis anquilosante |
+| Indicación Original | Artritis reumatoide (según las indicaciones del grafo de conocimiento TxGNN; los registros de la AEMPS no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99,88 % |
+| Puntaje de Predicción TxGNN | 99.88% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -55,11 +54,11 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, celecoxib es un inhibidor selectivo de la COX-2 que reduce la inflamación y el dolor mediados por prostaglandinas. Su eficacia en enfermedades inflamatorias articulares está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, celecoxib es un inhibidor selectivo de la ciclooxigenasa-2 (COX-2). Reduce la síntesis de prostaglandinas inflamatorias y, con ello, el dolor y la inflamación articular. Su eficacia en artritis reumatoide, espondilitis anquilosante, artrosis y artritis idiopática juvenil está bien establecida.
 
-La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético genético, relacionado con el gen GDF5. No es una enfermedad inflamatoria. La inhibición de la COX-2 no actúa sobre la vía biológica que origina la enfermedad.
+La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético hereditario causado por variantes en el gen *CDMP1/GDF5*. Afecta al desarrollo del cartílago y del hueso, y no es una enfermedad inflamatoria. No se conoce un mecanismo por el cual inhibir la COX-2 pueda corregir o modificar su curso.
 
-Por ello, el análisis mecanístico del Evidence Pack concluye que **no hay un vínculo plausible**. La puntuación alta de TxGNN (0,9988) es solo una predicción del modelo y no se apoya en ensayos ni en literatura.
+**Conclusión sobre la razonabilidad:** el puntaje alto del modelo (99.88%) probablemente refleja asociaciones compartidas entre enfermedades óseas y articulares en el grafo de conocimiento, no una base mecanística plausible. En el mejor de los casos, celecoxib podría ofrecer alivio sintomático del dolor musculoesquelético, pero eso es especulativo y no está respaldado por datos específicos.
 
 ---
 
@@ -77,21 +76,32 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Celecoxib está comercializado en España con 20 autorizaciones. Se muestran las 5 principales:
+Celecoxib está comercializado en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de cápsula dura de 100 mg o 200 mg. Los registros no incluyen texto de indicación aprobada. Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
+| 63073 | CELEBREX 200 mg cápsulas duras | Cápsula dura | Viatris Healthcare Limited |
+| 3400935437068IP1 | CELEBREX 200 mg cápsulas duras | Cápsula dura | Pfizer Holding France |
+| 63891 | ARTILOG 200 mg cápsulas duras | Cápsula dura | Viatris Healthcare Limited |
+| 76749 | Celecoxib Teva 200 mg cápsulas duras EFG | Cápsula dura | Teva Pharma S.L.U. |
 | 77596 | Celecoxib Pensa 200 mg cápsulas duras EFG | Cápsula dura | Pensa Pharma, S.A.U |
-| 78034 | Celecoxib Pharmakern 200 mg cápsulas duras EFG | Cápsula dura | Kern Pharma S.L. |
-| 79034 | Celecoxib Alter 200 mg cápsulas duras EFG | Cápsula dura | Laboratorios Alter S.A. |
-| 83004 | Celecoxib UXA 200 mg cápsulas duras EFG | Cápsula dura | Uxa Farma S.A. |
-| 3400935437068IP1 | Celebrex 200 mg cápsulas duras | Cápsula dura | Pfizer Holding France |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación o precaución (según el grafo de conocimiento, no el texto del prospecto):**
+  - Cardiovasculares: hipertensión, insuficiencia cardíaca congestiva, infarto de miocardio, enfermedad cardiovascular, ictus y trastornos cerebrovasculares.
+  - Digestivas: úlcera péptica activa.
+  - Renales y hepáticas: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar.
+  - Respiratorias: asma.
+  - Hematológicas: anemia, hemoglobinopatías.
+  - Otras: abuso o dependencia de sustancias.
+- **Interacciones farmacológicas:** se registran 100 interacciones. Entre las principales:
+  - **Mayor:** eliglustat.
+  - **Moderadas:** hidrocortisona, metformina, antidiabéticos orales (acetohexamida, clorpropamida, glimepirida, glipizida, gliburida, nateglinida), exenatida, cimetidina, levofloxacino, metronidazol, kanamicina, naltrexona, mesalazina, balsalazida, olsalazina, fenfluramina y dexfenfluramina.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -100,16 +110,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mecanismo de la COX-2 no guarda relación con una displasia esquelética genética. Un puntaje alto del modelo no basta para avanzar.
+La predicción carece de ensayos clínicos, de literatura y de una base mecanística plausible. Se trata de una enfermedad genética esquelética no inflamatoria, en la que no hay motivo establecido para esperar beneficio de la inhibición de la COX-2. Además, el perfil de seguridad cardiovascular, gastrointestinal y renal de celecoxib exige una justificación clara para cualquier nuevo uso.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de acción desde DrugBank.
-- Ficha técnica de AEMPS con advertencias y contraindicaciones, y el texto de indicación aprobada.
-- Estudios preclínicos que justifiquen un vínculo entre la COX-2 y la vía GDF5 (mecanismo de la enfermedad).
+- Una hipótesis mecanística que vincule la inhibición de la COX-2 con la vía *GDF5/CDMP1*, respaldada por estudios preclínicos.
+- Datos detallados del mecanismo de acción (MOA) del fármaco.
+- Revisión de las advertencias y contraindicaciones del prospecto oficial de la AEMPS.
+- Una revisión de la literatura específica sobre esta enfermedad y sobre el papel de las prostaglandinas en ella.
 
-**Nota sobre otras predicciones del mismo Evidence Pack:** la mejor respaldada es la **espondilopatía inflamatoria** (espondilitis anquilosante y espondiloartritis axial), con nivel L1 y decisión *Proceed with Guardrails*. Incluye varios ensayos de fase 3 y 4 completados que comparan celecoxib con diclofenaco. Es una confirmación de uso establecido más que un reposicionamiento novedoso. También destaca la **artritis idiopática juvenil poliarticular con factor reumatoide positivo** (L3), que probablemente está cerca del uso en etiqueta pediátrica. Ambas merecen su propio informe.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
+**Nota:** entre las demás predicciones de celecoxib, la mejor respaldada es la espondilopatía inflamatoria (espondilitis anquilosante o espondiloartritis axial), con 4 ensayos de Fase 3/4 completados y evidencia L1. Sin embargo, es esencialmente una indicación ya existente del fármaco, no un reposicionamiento nuevo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

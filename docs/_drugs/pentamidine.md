@@ -2,7 +2,7 @@
 layout: default
 title: Pentamidine
 parent: Solo predicción del modelo (L5)
-nav_order: 416
+nav_order: 622
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,20 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Pentamidina: De Antiprotozoario a Queratoconjuntivitis Epitelial Punteada
+# Pentamidina: De Neumocistosis a Queratoconjuntivitis Epitelial Punteada
 
 ## Resumen en Una Frase
 
-La pentamidina es un antiprotozoario inyectable comercializado en España como PENTACARINAT 300 mg. El texto de su indicación autorizada no figura en los datos disponibles.
-El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis epitelial punteada**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
-
----
+Pentamidina es un antimicrobiano utilizado originalmente para tratar la neumocistosis y la tripanosomiasis (incluida la tripanosomiasis africana humana).
+El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis epitelial punteada**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos de la AEMPS (fármaco antiprotozoario) |
+| Indicación Original | Neumocistosis, tripanosomiasis africana humana y tripanosomiasis (según el grafo de conocimiento; el texto de indicación de la autorización española está vacío) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 99,73% |
 | Nivel de Evidencia | L5 |
@@ -50,58 +48,55 @@ El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis 
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la pentamidina es un antiprotozoario con actividad antiparasitaria, y se le atribuye la unión al surco menor del ADN. Mecanísticamente, esto solo tendría sentido si la queratoconjuntivitis fuera de origen infeccioso (por ejemplo, protozoario). Los datos no especifican la etiología.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la pentamidina en los datos compilados para este informe. Según la información conocida, pentamidina es un agente antiprotozoario y antifúngico, con eficacia establecida en infecciones como la neumocistosis y la tripanosomiasis.
 
-El puntaje de 99,73% proviene de la proximidad en el grafo de conocimiento y no de evidencia clínica. No hay ensayos ni literatura que lo sostengan. Tampoco existe una formulación oftálmica establecida. La toxicidad sistémica conocida de la pentamidina (nefrotoxicidad, alteraciones de la glucemia, prolongación del QT) refuerza la cautela.
+La relación con la nueva indicación es débil. Los datos no respaldan ningún vínculo mecanístico entre la pentamidina y la queratoconjuntivitis epitelial punteada. El puntaje de 0,997 es una predicción computacional sin ensayos ni literatura detrás. Cualquier justificación antimicrobiana o antiinflamatoria para una enfermedad de la superficie ocular sería especulativa.
 
-Las otras cuatro predicciones del modelo son queratopatía neurotrófica, queratitis por exposición, "enfermedad animal no humana" y analbuminemia congénita. Todas están en nivel L5 y sin respaldo mecanístico. "Enfermedad animal no humana" es una categoría inespecífica de la ontología, probablemente un artefacto del grafo, y debe excluirse de cualquier priorización clínica.
+Además, la toxicidad sistémica conocida de la pentamidina (nefrotoxicidad, alteraciones de la glucemia, prolongación del QT) y su elevada carga de interacciones farmacológicas pesarían en contra de su uso sin una justificación clara.
 
----
+Otras predicciones del modelo, todas con evidencia L5 y recomendación Hold: queratopatía neurotrófica (99,67%), queratitis por exposición (99,36%), enfermedad animal no humana (99,13%, categoría no específica y no accionable en humanos, probablemente un artefacto de la ontología) y analbuminemia congénita (99,09%).
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
-
----
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 59621 | PENTACARINAT 300 MG POLVO PARA SOLUCION INYECTABLE | Polvo para suspensión inyectable | No especificada en los datos disponibles |
-
-Titular: The Simple Pharma Company Limited.
-
----
+| 59621 | PENTACARINAT 300 MG POLVO PARA SOLUCIÓN INYECTABLE | Polvo para suspensión inyectable | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto del prospecto): hipertensión, torsades de pointes, enfermedad renal, pancreatitis, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, hiperglucemia, hipoglucemia, diabetes mellitus, cetoacidosis diabética, asma, trastornos hipotensivos, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, anemia (incluida la macrocítica), paro cardíaco súbito, enfermedad de la conducción cardíaca y leucopenia.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones. Las principales, de nivel moderado, incluyen:
+  - Antidiabéticos: acarbosa, albiglutida, alogliptina, metformina, pioglitazona, canagliflozina, clorpropamida, dapagliflozina.
+  - Antifúngicos nefrotóxicos: anfotericina B y anfotericina B (complejo lipídico).
+  - Inhibidores de la bomba de protones y antagonistas H2: omeprazol, rabeprazol, famotidina.
+  - Macrólidos: claritromicina.
+  - Fármacos gastrointestinales: loperamida, mesalazina, balsalazida, bisacodilo, ácido picosulfúrico, polietilenglicol con electrolitos.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto de la AEMPS.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos, sin literatura y sin mecanismo plausible documentado. Además, el fármaco solo existe en forma inyectable sistémica, con un perfil de toxicidad relevante.
+La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatura, sin mecanismo de acción disponible y con un perfil de seguridad sistémico preocupante para una enfermedad de la superficie ocular.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicación autorizada).
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Definir la etiología concreta de la queratoconjuntivitis (¿infecciosa/protozoaria?) y buscar evidencia preclínica.
-- Evaluar la viabilidad de una vía de administración oftálmica.
+- Datos del mecanismo de acción de la pentamidina (p. ej., consulta a DrugBank).
+- Advertencias y contraindicaciones del prospecto oficial de la AEMPS.
+- Una hipótesis mecanística plausible para la superficie ocular, respaldada por estudios preclínicos.
+- Evaluación de la compatibilidad de vía y formulación (el producto autorizado es inyectable; no hay datos de formulación oftálmica).
+- Búsqueda sistemática de literatura y ensayos clínicos que no aparecen en los datos actuales.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

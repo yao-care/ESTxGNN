@@ -2,7 +2,7 @@
 layout: default
 title: Reslizumab
 parent: Solo predicción del modelo (L5)
-nav_order: 464
+nav_order: 693
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,78 +29,65 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Reslizumab: De Anticuerpo Anti-IL-5 a Trombocitopenia por Destrucción Inmune
+# Reslizumab: De Neumonía Eosinofílica a Trombocitopenia por Destrucción Inmune
 
 ## Resumen en Una Frase
 
-Reslizumab es un anticuerpo monoclonal anti-IL-5 que reduce los eosinófilos. En el Evidence Pack no consta su indicación original ni el texto de indicación de su autorización en España.
-El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por destrucción inmune**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
-
----
+Reslizumab es un anticuerpo monoclonal anti-IL-5, asociado originalmente a enfermedades eosinofílicas pulmonares (neumonía eosinofílica y eosinofilia pulmonar).
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por destrucción inmune**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Neumonía eosinofílica / eosinofilia pulmonar (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
 | Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
-| Puntaje de Predicción TxGNN | 99.53% |
+| Puntaje de Predicción TxGNN | 99,53 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, reslizumab es un anticuerpo monoclonal anti-IL-5 que reduce los eosinófilos. Su eficacia se asocia a enfermedades mediadas por eosinófilos, y mecanísticamente su aplicabilidad a la nueva indicación es, por ahora, solo una hipótesis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, reslizumab es un anticuerpo monoclonal que bloquea la interleucina-5 (IL-5), la principal señal de supervivencia de los eosinófilos, y su uso se relaciona con enfermedades eosinofílicas.
 
-Hoy no se ha documentado ningún vínculo mecanístico ni clínico entre la vía IL-5/eosinófilos y la destrucción plaquetaria inmune. La trombocitopenia inmune se explica sobre todo por autoanticuerpos y desregulación de linfocitos T, y no se conoce un papel establecido de la IL-5 en ella.
+No existe un mecanismo establecido que vincule el bloqueo de IL-5 con la destrucción inmune de plaquetas. La trombocitopenia inmune (por ejemplo, la PTI) se debe principalmente a autoanticuerpos, desregulación de linfocitos T y aclaramiento mediado por macrófagos. Una posible conexión, de carácter especulativo, sería la reducción de la inflamación asociada a eosinófilos en trombocitopenias inmunes secundarias con eosinofilia.
 
-El puntaje alto de TxGNN (99.53%) proviene únicamente de una predicción basada en grafos de conocimiento. Debe tratarse como una señal para generar hipótesis y no como prueba de eficacia.
-
----
+Por tanto, el elevado puntaje de TxGNN (99,53 %) es solo una predicción computacional, sin respaldo clínico ni bibliográfico en los datos compilados. La similitud con la indicación original no ha sido evaluada.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación.
-
-*Nota:* para otra indicación predicha (trastorno primario de liberación plaquetaria, puntaje 99.25%, nivel L4) solo existe una revisión de 2010 sobre el síndrome hipereosinofílico y mepolizumab, otro anticuerpo anti-IL-5 ([PMID 20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/)). Ofrece contexto general sobre el bloqueo de IL-5, pero no aborda la función plaquetaria.
-
----
+Actualmente no hay literatura relacionada disponible para la indicación principal predicha.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161125001 | CINQAERO 10 MG/ML | Concentrado para solución para perfusión | Teva B.V. |
-
----
+| 1161125001 | CINQAERO 10 MG/ML (concentrado para solución para perfusión), Teva B.V. | Concentrado para solución para perfusión | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5) y no hay un vínculo mecanístico plausible entre el bloqueo de IL-5 y la trombocitopenia inmune. El puntaje alto del modelo no basta por sí solo para avanzar.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre el bloqueo de IL-5 y la destrucción inmune de plaquetas.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS para completar la revisión de seguridad, lo que actualmente bloquea el cribado de seguridad.
-- Completar los datos de mecanismo de acción e indicación original desde DrugBank.
-- Buscar evidencia preclínica o clínica que conecte la vía IL-5/eosinófilos con la destrucción plaquetaria inmune.
-- Evaluar la compatibilidad de vías de administración, hoy pendiente (reslizumab se presenta como perfusión intravenosa).
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), requisito bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisión de literatura específica sobre IL-5/eosinófilos en trombocitopenia inmune.
+- Evaluar hipótesis mecanística (p. ej., trombocitopenia inmune secundaria con eosinofilia) y, de ser plausible, estudios preclínicos o de mecanismo.
+- Evaluar la compatibilidad de la vía de administración (actualmente pendiente).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

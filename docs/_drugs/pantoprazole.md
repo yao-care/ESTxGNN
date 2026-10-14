@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pantoprazole
-parent: Solo predicción del modelo (L5)
-nav_order: 407
-evidence_level: L5
+parent: Evidencia alta (L1-L2)
+nav_order: 610
+evidence_level: L1
 indication_count: 6
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Pantoprazol: De Inhibidor de la Bomba de Protones (indicación original no registrada) a Úlcera Péptica Activa
+# Pantoprazol: De Enfermedad Ulcerosa Péptica a Úlcera Péptica Activa
 
 ## Resumen en Una Frase
 
-Pantoprazol es un inhibidor de la bomba de protones comercializado en España en comprimidos gastrorresistentes y polvo para solución inyectable. Los registros de AEMPS del Evidence Pack no incluyen el texto de su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **úlcera péptica activa**, con **3 ensayos clínicos** y **19 publicaciones** que respaldan esta dirección.
-Por tratarse de una indicación ácido-dependiente clásica, es probable que sea una indicación ya autorizada y no un reposicionamiento genuino.
-
----
+Pantoprazol es un inhibidor de la bomba de protones, utilizado originalmente para tratar la enfermedad ulcerosa péptica, el reflujo gastroesofágico y el síndrome de Zollinger-Ellison.
+El modelo TxGNN predice que podría ser efectivo para **úlcera péptica activa**, con **1 ensayo clínico** y **19 publicaciones** asociados a esta predicción.
+Hay que tener en cuenta que esta indicación coincide con una de las indicaciones originales del fármaco, por lo que no constituye un reposicionamiento en sentido estricto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS (texto de indicación vacío en todas las autorizaciones) |
-| Nueva Indicación Predicha | Úlcera péptica activa (active peptic ulcer disease) |
+| Indicación Original | Enfermedad ulcerosa péptica (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Úlcera péptica activa |
 | Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L2 (1 ECA de Fase 3 completado en los ensayos listados; el paquete de datos asigna L1 al contar además ECA publicados en la literatura) |
+| Nivel de Evidencia | L1 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-El paquete de datos no incluye el mecanismo de acción de DrugBank. Según la literatura recuperada (PMID 19938880), pantoprazol es un inhibidor de la bomba de protones que se une de forma irreversible y específica a la H+/K+ ATPasa de la célula parietal gástrica. Esto reduce la secreción de ácido gástrico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. No obstante, la literatura (PMID 19938880, 10450061) establece que pantoprazol es un inhibidor de la bomba de protones que se une de forma irreversible y específica a la H+/K+ ATPasa de las células parietales gástricas, reduciendo la secreción de ácido gástrico. Se activa en medio ácido, lo que le confiere selectividad por el compartimento ácido de la célula parietal.
 
-La úlcera péptica es una lesión de la mucosa en cuya aparición y cicatrización interviene el ácido gástrico. Suprimir el ácido favorece la curación de la úlcera y reduce las recurrencias. Por eso el vínculo entre el mecanismo y la nueva indicación es directo y está bien establecido.
+La relación entre la indicación original y la predicha es muy estrecha: la úlcera péptica activa es la manifestación aguda de la enfermedad ulcerosa péptica, y la supresión ácida permite la cicatrización de la lesión. Por ello, la predicción refleja una indicación ya establecida más que una verdadera novedad terapéutica.
 
-**Advertencia:** pantoprazol está comercializado y la úlcera péptica es una indicación central de esta clase de fármacos. Lo más probable es que el campo de indicaciones originales esté vacío por falta de datos y que esta sea una indicación ya autorizada. Antes de presentarla como reposicionamiento, hay que verificarla contra la ficha técnica aprobada.
-
----
+Los resultados de otras predicciones del mismo análisis aportan contexto: la úlcera duodenal (L1) también corresponde a un uso ya conocido; la úlcera gastroyeyunal, la perforación de úlcera péptica y el reflujo duodenogástrico (L3) tienen apoyo solo indirecto; y la obstrucción duodenal (L5, Hold) carece de vínculo mecanístico claro y su puntuación alta probablemente refleja proximidad en la red con la úlcera duodenal.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Fase 3 | Completado | 323 | ECA multicéntrico, doble ciego y con control activo: erradicación de H. pylori con triple terapia de 7 días, ilaprazol frente a pantoprazol, en pacientes con úlcera gástrica o duodenal. Evidencia directa; el título está truncado y conviene confirmar comparador y criterio principal. |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/D | Completado | 316 | Estudio prospectivo de factores de riesgo para decidir quién necesita una segunda endoscopia tras hemostasia y perfusión de IBP a dosis altas en úlcera péptica sangrante. No evalúa la eficacia de pantoprazol. |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Fase 4 | Completado | 320 | Efecto de estatinas e IBP sobre la acción antiagregante de clopidogrel en pacientes con ICP. Aborda una interacción farmacológica, no el tratamiento de la úlcera. |
-
----
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Fase 3 | Completado | 323 | Ensayo multicéntrico, aleatorizado, doble ciego y con control activo: ilaprazol frente a pantoprazol en triple terapia de 7 días para erradicar *H. pylori* en pacientes con úlcera gástrica o duodenal |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | ECA | Digestion | Compara la perfusión intermitente y la continua de pantoprazol para prevenir el resangrado de la úlcera péptica tras terapia endoscópica. |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | ECA | Aliment Pharmacol Ther | Compara tres triples terapias con pantoprazol para la erradicación de H. pylori y la cicatrización de la úlcera gástrica. |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | ECA (según el título) | J Gastroenterol Hepatol | Perfusión de pantoprazol como tratamiento adyuvante al endoscópico en la úlcera péptica sangrante. |
-| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | ECA | Gut and Liver | Tegoprazán frente a un comparador activo en úlceras artificiales tras resección endoscópica. Es evidencia indirecta, de la clase de fármacos. |
-| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Revisión sistemática / metaanálisis en red | Am J Gastroenterol | Compara P-CAB con IBP en esofagitis grado C/D. Es evidencia indirecta, de la clase de fármacos. |
-| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Estudio clínico (diseño no verificado) | Hepatogastroenterology | Compara lansoprazol y pantoprazol en úlcera duodenal activa y erradicación de H. pylori. |
-| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | Estudio clínico (tipo no verificado) | Aliment Pharmacol Ther | Pantoprazol, amoxicilina y azitromicina o claritromicina para erradicar H. pylori en úlcera duodenal. |
-| [10228801](https://pubmed.ncbi.nlm.nih.gov/10228801/) | 1999 | Estudio clínico (tipo no verificado) | Hepatogastroenterology | Eficacia y tolerabilidad de una triple terapia de una semana con pantoprazol, amoxicilina y metronidazol en úlcera duodenal con H. pylori. |
-| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclínico (modelo animal) | Inflammopharmacology | Pantoprazol combinado con células madre mesenquimales en úlcera gástrica experimental en ratas: estrés oxidativo, inflamación y apoptosis. |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Revisión | Clin Drug Investig | Revisión del mecanismo de pantoprazol como inhibidor de la bomba de protones y de su perfil de interacciones. |
-
----
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Revisión sistemática/metanálisis en red | Am J Gastroenterol | Compara bloqueadores ácidos competitivos de potasio (P-CAB) con IBP en esofagitis grado C/D |
+| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | ECA | Gut Liver | Tegoprazán en úlceras artificiales tras resección endoscópica, con control activo |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Revisión | Clin Drug Investig | Pantoprazol: mecanismo, larga duración de acción y escasas interacciones descritas |
+| [21534455](https://pubmed.ncbi.nlm.nih.gov/21534455/) | 2011 | Revisión | Med Arh | Manejo de la ERGE con inhibidores de la bomba de protones |
+| [10450061](https://pubmed.ncbi.nlm.nih.gov/10450061/) | 1999 | Revisión | Pharmacology | Eficacia relativa de los IBP: relaciones dosis-respuesta similares a igual dosis en mg |
+| [16961157](https://pubmed.ncbi.nlm.nih.gov/16961157/) | 2006 | Revisión | Int J Clin Pharmacol Ther | Impacto del polimorfismo de CYP2C19 en la acción de los IBP |
+| [10638560](https://pubmed.ncbi.nlm.nih.gov/10638560/) | 2000 | Estudio multicéntrico | Am J Gastroenterol | Pantoprazol frente a ranitidina en úlcera duodenal en Brasil |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Estudio comparativo | Hepatogastroenterology | Lansoprazol frente a pantoprazol en úlcera duodenal activa y erradicación de *H. pylori* |
+| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclínico (ratas) | Inflammopharmacology | Pantoprazol combinado con células madre mesenquimales en úlcera gástrica experimental |
+| [26439477](https://pubmed.ncbi.nlm.nih.gov/26439477/) | 2016 | Preclínico (ratas) | J Nat Med | Efecto gastroprotector de la crocina frente a lesiones por indometacina, con pantoprazol como comparador |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 17903-12-09-1995 | PANTECTA 40 mg COMPRIMIDOS GASTRORRESISTENTES (Takeda Hellas S.A.) | Comprimido gastrorresistente |
-| 61001 | PANTECTA 40 mg COMPRIMIDOS GASTRORRESISTENTES (Takeda Gmbh) | Comprimido gastrorresistente |
-| 77931 | PANTOPRAZOL DURBAN 40 MG COMPRIMIDOS GASTRORRESISTENTES EFG (Laboratorios Francisco Durban S.A.) | Comprimido gastrorresistente |
-| 69698 | PANTOPRAZOL NORMON 40 mg POLVO PARA SOLUCION INYECTABLE EFG (Laboratorios Normon S.A.) | Polvo para solución inyectable |
-| 72528 | PANTOPRAZOL BLUEFISH 40 mg COMPRIMIDOS GASTRORRESISTENTES EFG (Bluefish Pharmaceuticals Ab) | Comprimido gastrorresistente |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 61001 | PANTECTA 40 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible en los datos compilados |
+| 77931 | PANTOPRAZOL DURBAN 40 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible en los datos compilados |
+| 69698 | PANTOPRAZOL NORMON 40 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible en los datos compilados |
+| 72528 | PANTOPRAZOL BLUEFISH 40 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible en los datos compilados |
+| 84014 | PANTOPRAZOL HIKMA 40 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible en los datos compilados |
 
-Se muestran 5 de las 20 autorizaciones. Los registros no incluyen el texto de la indicación aprobada, por lo que se omite esa columna.
-
----
+Se registran 20 autorizaciones vigentes, todas de fármaco único y ninguna cancelada. Se incluyen formas orales (comprimidos de 20 y 40 mg) e inyectables.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): osteoporosis, osteoporosis posmenopáusica, fractura ósea y anemia perniciosa.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las mostradas, las de gravedad **mayor** son **acalabrutinib** y **atazanavir**. Entre las de gravedad moderada figuran hidroclorotiazida, alpelisib, anfotericina B, amikacina, anfetamina, fenofibrato, apalutamida, armodafinilo, atorvastatina, bosutinib y bumetanida. Entre las menores figuran ácido acetilsalicílico, axitinib, bortezomib, brivaracetam y cianocobalamina.
 
-Como referencia, el ensayo NCT00930670 estudia la posible interferencia de los IBP con el efecto antiagregante de clopidogrel. Conviene revisar esta interacción al evaluar pacientes con doble antiagregación.
-
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay un mecanismo directo y bien establecido, un ensayo de Fase 3 completado y varios ECA publicados en úlcera péptica y duodenal. La evidencia es sólida, pero es probable que la indicación ya esté autorizada, por lo que no debe presentarse como reposicionamiento sin verificarlo.
+El respaldo clínico es sólido (nivel L1, con ensayos de Fase 3 y ECA comparativos frente a ranitidina y omeprazol en úlcera duodenal), pero la indicación ya forma parte del uso establecido del fármaco, por lo que no es un reposicionamiento. El único ensayo vinculado directamente a esta predicción evalúa la erradicación de *H. pylori* con pantoprazol como comparador.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS para confirmar si la úlcera péptica es una indicación ya aprobada. Este dato también aporta las advertencias y contraindicaciones, que hoy faltan.
-- Obtener el mecanismo de acción de DrugBank para completar el análisis mecanístico.
-- Confirmar el comparador y el criterio principal del ensayo NCT02084420, cuyo título está truncado.
-- Completar los datos de seguridad e interacciones, que no constan en el paquete de datos.
+- Obtener y revisar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), actualmente sin datos.
+- Completar los datos del mecanismo de acción en DrugBank.
+- Evaluar el riesgo en poblaciones con osteoporosis o riesgo de fractura y con anemia perniciosa, dado el posible efecto de la supresión ácida prolongada.
+- Revisar las interacciones de gravedad mayor (acalabrutinib, atazanavir) antes de cualquier uso combinado.
+- Si el interés es un reposicionamiento genuino, priorizar las indicaciones L3 (úlcera gastroyeyunal, perforación, reflujo duodenogástrico) con ensayos específicos; descartar por ahora la obstrucción duodenal (Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Loperamide
 parent: Solo predicción del modelo (L5)
-nav_order: 328
+nav_order: 480
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Loperamida: De Diarrea a Conjuntivitis Contagiosa Aguda
+# Loperamida: De Enfermedad Diarreica a Conjuntivitis Contagiosa Aguda
 
 ## Resumen en Una Frase
 
-Loperamida es un agonista opioide periférico, utilizado originalmente para tratar la diarrea.
-El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa aguda**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. El puntaje alto parece un artefacto del grafo de conocimiento.
-
----
+Loperamida es un antidiarreico de uso extendido, originalmente utilizado para el tratamiento de la enfermedad diarreica y la disentería.
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa aguda**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diarrea (según la ficha farmacológica; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | Enfermedad diarreica y disentería (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 99,97% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Por ahora **no es razonable**. Loperamida actúa como agonista del receptor opioide μ (gen *OPRM1*) a nivel periférico. Reduce la motilidad y la secreción intestinales, lo que explica su uso en la diarrea. No se conoce que tenga acción antiinfecciosa ni antiinflamatoria ocular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, loperamida es un agonista periférico del receptor opioide mu (OPRM1) que actúa sobre las neuronas del plexo mientérico intestinal y reduce la motilidad gastrointestinal. Su eficacia en la diarrea está bien establecida.
 
-La diarrea y la conjuntivitis contagiosa aguda no comparten órgano, fisiopatología ni mecanismo farmacológico plausible. Además, la vía de administración oral de los productos comercializados no es compatible con un tratamiento ocular. El puntaje TxGNN elevado probablemente proviene de asociaciones indirectas del grafo de conocimiento, sin base biológica verificable.
+**Sin embargo, no existe un vínculo mecanístico establecido con la conjuntivitis.** La señalización opioide a nivel de la superficie ocular no es un mecanismo antiinfeccioso ni antiinflamatorio reconocido para esta enfermedad. El puntaje alto de TxGNN parece reflejar la proximidad en el grafo con otros términos de conjuntivitis (varios subtipos comparten puntajes casi idénticos, lo que sugiere un artefacto correlacionado del grafo) y no evidencia biológica independiente.
 
----
+Como dato aislado, la base farmacológica menciona que loperamida, por ser un fármaco catiónico anfifílico, mostró actividad anti-SARS-CoV-2 en cribados de reposicionamiento, probablemente por inducción de fosfolipidosis. Esto no respalda su uso en conjuntivitis.
+
+Entre las demás predicciones (conjuntivitis y subtipos, síndrome de Angelucci, gastroduodenitis, disentería amebiana), la que tiene algo de literatura es la disentería amebiana, pero esa literatura apunta a **daño potencial**, no a beneficio (ver más abajo).
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis contagiosa aguda.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para conjuntivitis contagiosa aguda.
 
----
+Como contexto, en otras indicaciones predichas del mismo fármaco se identificaron estas publicaciones, todas con señales de seguridad y no de eficacia:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [17241255](https://pubmed.ncbi.nlm.nih.gov/17241255/) | 2007 | Reporte de caso | J Travel Med | Colitis amebiana fulminante tras uso de loperamida; el uso intenso del fármaco pudo influir en la evolución (megacolon tóxico). Predicción: disentería amebiana |
+| [3893119](https://pubmed.ncbi.nlm.nih.gov/3893119/) | 1985 | Revisión | Am J Med | Tratamientos no líquidos y quimioprofilaxis de la diarrea aguda; los agentes inespecíficos pueden reducir los síntomas. Predicción: disentería amebiana |
+| [41924411](https://pubmed.ncbi.nlm.nih.gov/41924411/) | 2026 | Reporte de caso | Cureus | Depresión respiratoria inducida por loperamida en inflamación gastrointestinal grave posquimioterapia, por mayor absorción sistémica. Predicción: gastroduodenitis |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 88777 | LOPERAMIDA OPKO 2 MG CAPSULAS DURAS EFG | Cápsula dura |
-| 89192 | LOPERAMIDA GRINDEKS 2 MG CÁPSULAS DURAS | Cápsula dura |
-| 36747 | SALVACOLINA 0,2 mg/ml SOLUCIÓN ORAL | Solución oral |
-| 9091IP | FORTASEC FLAS 2 MG LIOFILIZADO ORAL | Liofilizado oral |
-| 67219 | DIARFIN 2 mg CAPSULAS DURAS | Cápsula dura |
+Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-Se muestran 5 de las 20 autorizaciones. Las formas registradas incluyen también comprimidos y comprimidos bucodispersables.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 88777 | Loperamida Opko 2 mg cápsulas duras EFG | Cápsula dura | No disponible |
+| 89192 | Loperamida Grindeks 2 mg cápsulas duras | Cápsula dura | No disponible |
+| 36747 | Salvacolina 0,2 mg/ml solución oral | Solución oral | No disponible |
+| 9091IP | Fortasec Flas 2 mg liofilizado oral | Liofilizado oral | No disponible |
+| 67219 | Diarfin 2 mg cápsulas duras | Cápsula dura | No disponible |
 
----
+Otras presentaciones incluyen comprimidos, comprimidos bucodispersables y liofilizados orales. Todas las formas disponibles son de **administración oral**; no hay formulación oftálmica, lo que supondría un obstáculo adicional para la indicación predicha.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, íleo paralítico, obstrucción intestinal, miopatía visceral familiar, disentería, enfermedad diarreica infecciosa y enfermedad infecciosa intestinal.
+- **Señales de la literatura:** en disentería invasiva, los antimotilidad pueden empeorar la evolución (caso de colitis amebiana fulminante). Con la barrera intestinal comprometida puede aumentar la absorción sistémica y producirse depresión respiratoria.
+- **Interacciones farmacológicas:** la consulta se completó y solo registró la interacción farmacológica con su diana, el receptor opioide mu (OPRM1); no se identificaron interacciones con otros fármacos.
 
-Las publicaciones asociadas a otras predicciones del modelo señalan dos riesgos:
-- **Colitis amebiana fulminante** tras el uso de loperamida (PMID 17241255, caso clínico). Los antimotilidad suelen evitarse en disentería invasiva.
-- **Depresión respiratoria** en pacientes con inflamación gastrointestinal grave por quimioterapia (PMID 41924411, caso clínico de 2026). Una mucosa dañada podría aumentar la absorción y la exposición central.
-
----
+Consultar el prospecto para información de seguridad completa, ya que las advertencias y contraindicaciones oficiales no están disponibles.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos, literatura ni mecanismo plausible para conjuntivitis contagiosa aguda. La predicción se basa solo en el modelo (L5) y se considera un artefacto del grafo de conocimiento.
+La predicción para conjuntivitis contagiosa aguda es exclusivamente computacional (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible; además, el fármaco solo existe en formas orales. Las demás predicciones del listado tampoco cuentan con evidencia de eficacia, y las pocas publicaciones disponibles señalan riesgos.
 
 **Para avanzar se necesita:**
-- No dedicar recursos a esta indicación ni a las otras variantes de conjuntivitis (rangos 3 y 5 a 9) salvo que aparezca una hipótesis mecanística nueva.
-- Si se quiere explorar algo del listado, la única señal con evidencia es **gastroduodenitis** (L3, "Research Question"). Se apoya en un estudio clínico de 1986 de diseño no verificado y solo aliviaría síntomas, no la inflamación de fondo. Requeriría verificar el diseño del estudio y evaluar el riesgo de absorción sistémica.
-- **Amebiasis/disentería amebiana** (rango 2) queda descartada por la señal de seguridad descrita.
-- Obtener la ficha técnica de la AEMPS para completar advertencias, contraindicaciones e indicaciones aprobadas.
+- Datos de mecanismo de acción y una hipótesis biológica que justifique un efecto en la superficie ocular
+- Estudios preclínicos (in vitro o en modelos animales) de actividad en conjuntivitis
+- Evaluación de la viabilidad de una formulación oftálmica
+- Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones oficiales), pendiente para el cribado de seguridad
+- Revisión de la similitud con las indicaciones originales y de la compatibilidad de vías de administración
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

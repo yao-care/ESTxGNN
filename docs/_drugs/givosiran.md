@@ -2,7 +2,7 @@
 layout: default
 title: Givosiran
 parent: Solo predicción del modelo (L5)
-nav_order: 258
+nav_order: 376
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Givosirán: De Porfiria Hepática Aguda a Síndrome Hepatopulmonar
+# Givosiran: De Porfiria Hepática a Síndrome Hepatopulmonar
 
 ## Resumen en Una Frase
 
-Givosirán es un ARN interferente pequeño (siRNA) que se utiliza en la porfiria hepática aguda, una indicación que se deduce de la literatura y del mecanismo del Evidence Pack, porque el registro español no incluye el texto de indicación.
-El modelo TxGNN predice que podría ser efectivo para **síndrome hepatopulmonar**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
-Es una predicción puramente computacional, sin base mecanística plausible.
-
----
+Givosiran es un ARN interferente pequeño (siRNA) conjugado con GalNAc, originalmente utilizado para el tratamiento de la porfiria hepática.
+El modelo TxGNN predice que podría ser efectivo para **síndrome hepatopulmonar**, pero **no existe ningún ensayo clínico ni publicación** que respalde esta dirección; se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Porfiria hepática aguda (deducida de la literatura del Evidence Pack; el registro no incluye texto de indicación) |
+| Indicación Original | Porfiria hepática |
 | Nueva Indicación Predicha | Síndrome hepatopulmonar |
-| Puntaje de Predicción TxGNN | 99.9986% |
+| Puntaje de Predicción TxGNN | 99,999% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Según el Evidence Pack, la respuesta es que **no es razonable con los datos actuales**. Givosirán es un siRNA conjugado con GalNAc que se dirige al hígado y silencia la enzima ALAS1. Con ello reduce los intermediarios de la vía del hemo, el ácido aminolevulínico (ALA) y el porfobilinógeno (PBG), responsables de los ataques neuroviscerales de la porfiria hepática aguda.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, givosiran es un siRNA conjugado con GalNAc que se dirige al hígado y silencia el ARNm de la ALAS1 hepática, reduciendo los precursores neurotóxicos ALA y PBG. Su eficacia en la porfiria hepática aguda ha sido comprobada en el ensayo de Fase 3 ENVISION.
 
-El síndrome hepatopulmonar, en cambio, se debe a una vasodilatación intrapulmonar en el contexto de una enfermedad hepática. No existe un vínculo conocido entre la supresión de ALAS1 y este proceso vascular pulmonar. Que ambas enfermedades tengan un componente hepático no basta para sostener una hipótesis mecanística.
+El síndrome hepatopulmonar se debe a una dilatación vascular intrapulmonar asociada a enfermedad hepática. No se identifica un vínculo mecanístico entre la supresión de ALAS1 y esta patología. Lo más probable es que el puntaje elevado refleje únicamente la cercanía en el grafo de conocimiento con otras enfermedades hepáticas.
 
-Además, el mismo puntaje (99.9986%) aparece en otras cuatro enfermedades hepatovasculares o hepáticas no relacionadas: hipertensión portal familiar no cirrótica de inicio temprano, esclerosis hepatoportal, trombosis portal primitiva y cirrosis idiopática asociada al cobre. Esto sugiere un artefacto de vecindad en el grafo del modelo, más que una señal específica de la enfermedad.
+Por tanto, esta predicción debe considerarse con mucha cautela: carece de sustento mecanístico y de evidencia clínica o bibliográfica. Las otras predicciones de mayor puntaje (hipertensión portal familiar no cirrótica, esclerosis hepatoportal, trombosis portal primitiva, cirrosis asociada al cobre) presentan la misma limitación.
 
----
+> Nota: entre las predicciones del modelo, la única con literatura relevante es la **porfiria por deficiencia de ALA deshidratasa (ADP)**, con puntaje de 99,91%. Es mecanísticamente plausible (acumulación de ALA) y cuenta con 9 publicaciones, aunque la evidencia específica se limita a casos clínicos con resultados discordantes (nivel L4). Podría ser una línea de investigación más razonable que la indicación principal.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
-
----
+Actualmente no hay literatura relacionada disponible para el síndrome hepatopulmonar.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1201428001 | GIVLAARI 189 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Alnylam Netherlands B.V. |
-
----
+| 1201428001 | GIVLAARI 189 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Texto de indicación no disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 87 interacciones registradas. Entre las mostradas, la de nivel **Mayor** es con **eliglustat**; el resto son de nivel **Moderado**, por ejemplo: anfotericina B (y sus formulaciones lipídicas), aminoglucósidos (kanamicina, neomicina, estreptomicina), vancomicina, mesalazina, sulfasalazina, balsalazida, olsalazina, alosetrón, naltrexona, metoclopramida, exenatida, fenfluramina, dexfenfluramina y cafeína.
 
-Solo se dispone de la consulta de interacciones farmacológicas, que no arrojó resultados (0 interacciones registradas).
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos ni literatura, y carece de vínculo mecanístico con el síndrome hepatopulmonar. El puntaje idéntico en varias enfermedades hepáticas apunta a un artefacto del grafo.
+La predicción para síndrome hepatopulmonar es solo computacional (nivel L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible con la supresión de ALAS1.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS con advertencias y contraindicaciones (dato bloqueante para el cribado de seguridad).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Aportar una hipótesis mecanística que conecte la supresión de ALAS1 con la vasodilatación intrapulmonar, o evidencia preclínica.
-
-**Observación adicional:** entre las 10 predicciones del paquete, la única con literatura es la porfiria por deficiencia de ALA deshidratasa (nivel L4, "Research Question"). Tiene una base mecanística sólida, pero la evidencia específica se limita a un reporte de caso sin respuesta a givosirán (PMID 35991568). Podría ser una línea de investigación más prometedora que el síndrome hepatopulmonar.
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción (MOA) y del prospecto de la AEMPS (advertencias y contraindicaciones), que siguen pendientes
+- Una hipótesis fisiopatológica que conecte el metabolismo del hemo con la dilatación vascular intrapulmonar, apoyada en estudios preclínicos
+- Valorar priorizar la indicación de porfiria por deficiencia de ALA deshidratasa, que tiene mayor respaldo mecanístico y bibliográfico, y aclarar la discordancia entre los casos publicados (genotipo y contribución eritroide a la producción de ALA)
+- Revisión del perfil de interacciones, en especial con eliglustat
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

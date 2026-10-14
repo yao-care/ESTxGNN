@@ -2,7 +2,7 @@
 layout: default
 title: Clobazam
 parent: Evidencia moderada (L3-L4)
-nav_order: 133
+nav_order: 191
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,16 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Clobazam: De Benzodiacepina Antiepiléptica a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+# Clobazam: De Síndrome de Lennox-Gastaut a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
 
 ## Resumen en Una Frase
 
-Clobazam es una benzodiacepina que actúa sobre el receptor GABA-A y se comercializa en España como antiepiléptico. El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**. Esta dirección solo cuenta con **2 publicaciones** (una serie de casos y un reporte de caso) y **ningún ensayo clínico**, y ninguna de las dos publicaciones evalúa clobazam.
+Clobazam es una benzodiazepina (1,5-benzodiazepina) utilizada originalmente para el tratamiento del síndrome de Lennox-Gastaut.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**,
+aunque actualmente solo hay **2 publicaciones** (series y reportes de casos, ninguna con clobazam) y **ningún ensayo clínico** que respalde esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Síndrome de Lennox-Gastaut (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Síndrome de epilepsia relacionada con infección febril (FIRES) |
 | Puntaje de Predicción TxGNN | 99.82% |
 | Nivel de Evidencia | L4 |
@@ -48,11 +51,11 @@ Clobazam es una benzodiacepina que actúa sobre el receptor GABA-A y se comercia
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Clobazam es un modulador alostérico positivo del receptor GABA-A. Este mecanismo es propio de las benzodiacepinas y es plausible en el estatus epiléptico refractario. La FIRES es un tipo de epilepsia refractaria de inicio agudo tras una infección febril, en niños previamente sanos. Suele requerir coma farmacológico con midazolam u otros anestésicos generales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clobazam es un modulador alostérico positivo del receptor GABA-A, igual que las benzodiazepinas (midazolam, lorazepam) empleadas en el manejo de FIRES. Esto ofrece una justificación plausible a nivel de clase farmacológica.
 
-Por eso la predicción tiene cierto sentido mecanístico: una benzodiacepina con perfil antiepiléptico podría ayudar a controlar las crisis o a reducir la dependencia de anestésicos.
+FIRES es un tipo de estado epiléptico refractorio de inicio reciente (NORSE) que aparece en niños previamente sanos, y las crisis suelen ser resistentes a los antiepilépticos convencionales. Clobazam ya se usa en una encefalopatía epiléptica grave de la infancia (Lennox-Gastaut), por lo que existe cierta afinidad clínica entre ambas condiciones.
 
-Los dos artículos disponibles describen estrategias de retirada del coma farmacológico, con lorazepam enteral y con perampanel. **Ninguno prueba clobazam**. El puntaje TxGNN de 0.998 es una predicción del modelo, no un respaldo clínico.
+Sin embargo, la literatura recuperada trata sobre lorazepam enteral y perampanel, no sobre clobazam. La evidencia es por tanto **indirecta**, y no demuestra eficacia de clobazam en FIRES.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,39 +65,42 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Serie de casos | Epileptic Disorders | El lorazepam enteral resulta una estrategia prometedora para retirar el midazolam en pacientes con FIRES que responden a este último. |
-| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Reporte de caso | Cureus | Un niño de 13 años con FIRES: el perampanel podría ayudar a reducir la dependencia de barbitúricos. |
+| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Serie de casos | Epileptic Disorders | El lorazepam enteral resultó una estrategia prometedora de retirada gradual en pacientes con FIRES dependientes de midazolam |
+| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Reporte de caso | Cureus | Posible papel de perampanel para reducir la dependencia de barbitúricos en un niño de 13 años con FIRES |
 
 ## Información de Mercado en España
 
-Los datos no incluyen el texto de la indicación aprobada para estas autorizaciones.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 54862 | NOIAFREN 10 mg COMPRIMIDOS | Comprimido | Atnahs Pharma Netherlands Bv. |
-| 56993 | NOIAFREN 20 mg COMPRIMIDOS | Comprimido | Atnahs Pharma Netherlands Bv. |
-| 81523 | SILOCALM 2 MG/ML SUSPENSIÓN ORAL | Suspensión oral | Ethypharm |
-| 81524 | SILOCALM 1 MG/ML SUSPENSIÓN ORAL | Suspensión oral | Ethypharm |
+| 54862 | NOIAFREN 10 mg COMPRIMIDOS | Comprimido | No disponible |
+| 56993 | NOIAFREN 20 mg COMPRIMIDOS | Comprimido | No disponible |
+| 81523 | SILOCALM 2 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No disponible |
+| 81524 | SILOCALM 1 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. La consulta de interacciones farmacológicas no devolvió resultados.
+- **Interacciones Farmacológicas** (se identificaron 100 interacciones; se muestran las principales):
+  - **Mayores**: morfina (incluida la liposomal) y eliglustat.
+  - **Moderadas**: bupropión, aprepitant, omeprazol, esomeprazol, lansoprazol, cimetidina, claritromicina, dexfenfluramina, fenfluramina, dronabinol y metoclopramida.
+  - **Menores**: antiácidos como óxido, carbonato e hidróxido de magnesio, hidróxido de aluminio, carbonato de calcio y magaldrato.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de FIRES se apoya solo en dos publicaciones de casos que no evalúan clobazam. Además, no hay ensayos clínicos. Con esto no es posible sostener una hipótesis clínica.
-
-Entre las otras indicaciones predichas, la **encefalopatía epiléptica de inicio en la infancia** (L4, categoría "Research Question") tiene un respaldo indirecto mayor. La literatura aportada incluye guías y revisiones sobre el síndrome de Lennox-Gastaut y otras encefalopatías epilépticas.
+El puntaje de TxGNN es alto, pero la evidencia se limita a una serie de casos y un reporte de caso con otras benzodiazepinas y perampanel, sin ensayos clínicos ni datos específicos de clobazam en FIRES (nivel L4).
 
 **Para avanzar se necesita:**
-- Datos clínicos específicos de clobazam en FIRES, por ejemplo una revisión retrospectiva de casos o una búsqueda dirigida en la literatura.
-- Descargar y analizar la ficha técnica de la AEMPS (advertencias y contraindicaciones), lo que actualmente bloquea el cribado de seguridad.
-- Confirmar las indicaciones aprobadas en España para las 4 autorizaciones.
-- Completar los datos detallados del mecanismo de acción desde DrugBank.
-- Evaluar si conviene priorizar otras indicaciones predichas con más respaldo indirecto.
+- Datos específicos de clobazam en FIRES/NORSE (series de casos o estudios retrospectivos)
+- Datos detallados del mecanismo de acción (MOA)
+- Texto de las indicaciones autorizadas y advertencias/contraindicaciones del prospecto de la AEMPS, necesarios para el cribado de seguridad
+- Evaluación de la compatibilidad de vías de administración (formas orales disponibles frente a las necesidades en pacientes críticos)
+- Plan de monitoreo de seguridad que contemple las interacciones de nivel mayor (opioides, eliglustat)
+
+**Nota sobre otras indicaciones predichas:** entre las otras nueve candidatas, la **encefalopatía epiléptica de inicio en la infancia** (puntaje 99.59%) es la que cuenta con mayor respaldo bibliográfico (nivel L3, 20 publicaciones, principalmente revisiones y guías sobre Lennox-Gastaut y otros síndromes). Dado que clobazam ya está indicado en Lennox-Gastaut, se trata en gran medida de una extensión de un uso conocido, y merece evaluarse como pregunta de investigación. El resto de candidatas tienen nivel L4 o L5 y se mantienen en Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

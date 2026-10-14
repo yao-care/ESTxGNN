@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Solo predicción del modelo (L5)
-nav_order: 482
+nav_order: 722
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Salbutamol: De Broncodilatador Agonista Beta2 a Conjuntivitis Papilar
+# Salbutamol: De Asma a Conjuntivitis Papilar
 
 ## Resumen en Una Frase
 
-Salbutamol es un agonista beta2-adrenérgico de acción corta, utilizado como broncodilatador en enfermedades respiratorias obstructivas. Los registros de AEMPS disponibles no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Salbutamol es un agonista beta-2 adrenérgico, utilizado originalmente para el tratamiento del asma y de las enfermedades bronquiales.
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional.
 
 ---
 
@@ -42,9 +42,10 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Asma y enfermedad bronquial (según el grafo de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Conjuntivitis papilar |
 | Puntaje de Predicción TxGNN | 99,996 % |
-| Nivel de Evidencia | L5 (solo predicción del modelo) |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 15 |
 | Decisión Recomendada | Hold |
@@ -53,11 +54,11 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, salbutamol es un agonista beta2 de acción corta, su eficacia en la obstrucción de las vías respiratorias está bien establecida, y mecanísticamente podría ser aplicable a la conjuntivitis papilar.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, salbutamol es un agonista beta-2 adrenérgico de acción corta, su eficacia en asma y enfermedad bronquial está bien establecida, y mecanísticamente podría ser aplicable a la conjuntivitis papilar solo de forma especulativa.
 
-La hipótesis es que la activación de receptores beta2 podría reducir la liberación de mediadores por los mastocitos conjuntivales y la permeabilidad vascular. Esto es plausible, pero en este análisis no se recuperó ningún dato que lo respalde para esta condición concreta.
+Los datos compilados indican que los agonistas beta-2 han mostrado cierta actividad antiinflamatoria en tejido conjuntival en modelos animales. Esto sugiere una posible vía de acción local, pero no se recuperó ningún ensayo clínico ni publicación específica sobre salbutamol en esta indicación. El vínculo mecanístico es, por tanto, hipotético.
 
-Conviene tener en cuenta un antecedente indirecto. Para la conjuntivitis atópica (otra predicción del mismo modelo), la literatura recoge estudios preclínicos: salbutamol tópico suprimió la conjuntivitis alérgica inmediata en cobayas (1987), y agonistas beta2 mostraron actividad antiinflamatoria en la conjuntiva (1985). Es evidencia animal y de una condición vecina, no de conjuntivitis papilar.
+La relación con la indicación original (una enfermedad respiratoria obstructiva) es débil. La conjuntivitis papilar es una inflamación ocular de naturaleza alérgica o mecánica, y la broncodilatación no tiene relevancia directa en ella. La similitud con la indicación original aún no ha sido evaluada.
 
 ---
 
@@ -75,6 +76,8 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
+Hay 15 autorizaciones vigentes, todas de salbutamol como principio activo único y ninguna cancelada. Se muestran las 5 principales:
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 90819 | Salbutamol Glenmark 100 microgramos/pulsación | Suspensión para inhalación en envase a presión |
@@ -83,13 +86,19 @@ Actualmente no hay literatura relacionada disponible.
 | 89256 | Salbutamol Neutec 2,5 mg | Solución para inhalación por nebulizador |
 | 53931 | Ventolin 4 mg | Comprimido |
 
-Se muestran 5 de las 15 autorizaciones. Ninguna de las formas farmacéuticas listadas es oftálmica (también consta un polvo para inhalación).
+Las formas farmacéuticas autorizadas incluyen inhalación (suspensión en envase a presión, polvo y solución para nebulizador), inyectable, jarabe y comprimido. No figura ninguna forma oftálmica, lo que es relevante para la nueva indicación predicha. Los textos de indicación aprobada no están disponibles en los datos compilados.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones o condiciones de precaución según el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión, síndrome de QT largo (incluido el familiar), epilepsia, déficit de potasio, diabetes mellitus, cetoacidosis diabética, hiperplasia benigna de próstata, hipertensión ocular, acidosis (incluida la metabólica), paro cardíaco súbito, enfermedad de la conducción cardíaca, glaucoma de ángulo cerrado, hipertiroidismo (enfermedad de Graves, tirotoxicosis), obstrucción del cuello vesical, isquemia miocárdica y enfermedad coronaria.
+  - Destaca la hipertensión ocular y el glaucoma de ángulo cerrado, por su relevancia si se considerara una vía oftálmica.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones; se muestran las 20 primeras.
+  - **Moderadas**: acarbosa, isometepteno, famotidina, epinefrina, albiglutida, acetohexamida, alogliptina, bisacodilo, canagliflozina, aceite de ricino, clorpropamida, cisaprida, claritromicina, dapagliflozina y dietilpropión.
+  - **Leves**: hidrocortisona, beclometasona, betametasona, budesonida y dexametasona.
+
+No se dispone de las advertencias principales ni de las contraindicaciones del prospecto. Consultar el prospecto para la información de seguridad completa.
 
 ---
 
@@ -98,17 +107,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5): no hay ensayos clínicos ni publicaciones sobre salbutamol en conjuntivitis papilar. Tampoco se dispone de datos de seguridad ni del mecanismo de acción.
+La predicción se basa únicamente en el puntaje del modelo (nivel de evidencia L5), sin ensayos clínicos ni literatura que la respalden, y el vínculo mecanístico es especulativo. No hay base suficiente para avanzar.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
-- Obtener el mecanismo de acción desde DrugBank.
-- Revisar la evidencia preclínica de agonistas beta2 en conjuntiva, incluidos los estudios en cobayas de 1985 y 1987, y valorar si justifica un estudio propio.
-- Evaluar la viabilidad de una vía de administración oftálmica, ya que no existe ninguna forma tópica ocular entre las autorizaciones españolas.
-- Comparar con alternativas establecidas (antihistamínicos y estabilizadores de mastocitos tópicos) para definir si hay valor añadido.
-- Considerar priorizar otras predicciones del mismo fármaco con más evidencia, como bronquitis crónica (L3), anafilaxia (L4) o conjuntivitis atópica (L4). La enfermedad pulmonar obstructiva (L2) corresponde a un uso ya establecido, no a un reposicionamiento novedoso.
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Datos del mecanismo de acción del salbutamol (DrugBank).
+- Advertencias y contraindicaciones del prospecto en AEMPS, necesarias para el cribado de seguridad.
+- Revisión de la literatura preclínica sobre agonistas beta-2 en tejido conjuntival y de su posible traslación a conjuntivitis papilar.
+- Evaluación de la compatibilidad de vía de administración, ya que no existe formulación oftálmica autorizada y habría que valorar el riesgo en pacientes con hipertensión ocular o glaucoma de ángulo cerrado.
+- Evaluación de la similitud con la indicación original.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

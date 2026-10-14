@@ -2,7 +2,7 @@
 layout: default
 title: Olanzapine
 parent: Solo predicción del modelo (L5)
-nav_order: 391
+nav_order: 584
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,78 +29,88 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Olanzapina: De Esquizofrenia y Otras Psicosis a Tortícolis Paroxística Benigna de la Infancia
+# Olanzapina: De Trastorno Bipolar y Esquizofrenia a Torticolis Paroxistica Benigna de la Infancia
 
 ## Resumen en Una Frase
 
-La olanzapina es un antipsicótico utilizado en el tratamiento de la esquizofrenia, otras enfermedades psicóticas y el trastorno bipolar.
-El modelo TxGNN predice que podría ser efectiva para la **tortícolis paroxística benigna de la infancia**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es únicamente una predicción del modelo.
+Olanzapina es un antipsicotico de segunda generacion, utilizado originalmente para el tratamiento de la esquizofrenia y el trastorno bipolar, y tambien asociado a cuadros depresivos y de ansiedad.
+El modelo TxGNN predice que podria ser efectivo para **torticolis paroxistica benigna de la infancia**, pero **no hay ensayos clinicos ni publicaciones** que respalden esta direccion; se trata solo de una prediccion computacional.
 
-## Resumen Rápido
+---
+
+## Resumen Rapido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia y otras enfermedades psicóticas, incluido el trastorno bipolar (según el uso clínico de la base farmacológica; los textos de indicación de AEMPS están vacíos) |
-| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Indicacion Original | Trastorno bipolar, esquizofrenia, depresion mayor y trastorno de ansiedad (segun el grafo de conocimiento; los textos de indicacion de las autorizaciones no estan disponibles) |
+| Nueva Indicacion Predicha | Torticolis paroxistica benigna de la infancia |
+| Puntaje de Prediccion TxGNN | 99.54% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
-| Decisión Recomendada | Hold |
+| Estado de Mercado en Espana | ✓ Comercializado |
+| Numero de Autorizaciones | 20 |
+| Decision Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el campo dedicado. Según la información farmacológica disponible, la olanzapina se une a receptores dopaminérgicos D2, a múltiples receptores serotoninérgicos (5-HT1A, 1B, 1D, 1E, 1F, 2A, 2C, 6 y 7), al receptor de histamina H1 y a receptores α1-adrenérgicos. Su eficacia en psicosis y trastorno bipolar está comprobada.
+## Por que es Razonable esta Prediccion?
 
-**Con los datos proporcionados, no se sustenta un vínculo mecanístico claro con la nueva indicación.** La tortícolis paroxística benigna de la infancia es un trastorno episódico infantil, a menudo asociado al espectro de la migraña y a la biología de canalopatías (CACNA1A). El antagonismo D2/5-HT2A/H1 de la olanzapina no tiene una conexión establecida con esta enfermedad.
+Actualmente no se dispone de datos detallados sobre el mecanismo de accion. Segun la informacion conocida, olanzapina es un antipsicotico atipico con antagonismo multirreceptor (dopamina D2, serotonina 5-HT2A/5-HT2C, histamina H1, entre otros), y su eficacia en esquizofrenia y trastorno bipolar esta comprobada.
 
-El puntaje alto (99.54%) refleja solo una predicción del grafo de conocimiento. Además, el uso de un antipsicótico en lactantes plantea preocupaciones de seguridad: sedación, efectos extrapiramidales y efectos metabólicos.
+La torticolis paroxistica benigna de la infancia es un trastorno pediatrico raro, relacionado con el espectro de la migrana y con variantes del gen CACNA1A. En teoria, el bloqueo de receptores dopaminergicos, serotoninergicos y histaminicos podria influir en los sintomas distonicos o vestibulares.
 
-## Evidencia de Ensayos Clínicos
+No obstante, esta relacion es puramente hipotetica: no hay estudios que la respalden. Ademas, el trastorno es autolimitado en la infancia, y la exposicion a antipsicoticos en esta edad plantea serias preocupaciones de seguridad (efectos extrapiramidales, efectos metabolicos y sedacion).
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+---
+
+## Evidencia de Ensayos Clinicos
+
+Actualmente no hay ensayos clinicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Información de Mercado en España
+---
 
-Se listan 5 de las 20 autorizaciones. Los textos de indicación aprobada no están disponibles en los datos recibidos.
+## Informacion de Mercado en Espana
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 72155 | Olanzapina Sun 5 mg comprimidos EFG | Comprimido | Sun Pharmaceutical Industries (Europe) B.V. |
-| 71751 | Olanzapina Sandoz 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Sandoz Farmacéutica S.A. |
-| 109592001 | Olazax Disperzi 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | Glenmark Pharmaceuticals S.R.O. |
-| 74752 | Zolafren 5 mg cápsulas duras EFG | Cápsula dura | Adamed Laboratorios S.L.U. |
-| 68837 | Olanzapina Normon 7,5 mg comprimidos EFG | Comprimido | Laboratorios Normon S.A. |
+Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo). Los textos de indicacion aprobada no estan disponibles en los datos compilados.
+
+| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica |
+|---------|------|------|
+| 72155 | Olanzapina Sun 5 mg comprimidos EFG | Comprimido |
+| 71751 | Olanzapina Sandoz 5 mg comprimidos recubiertos con pelicula EFG | Comprimido recubierto con pelicula |
+| 96022004IP1 | Zyprexa 5 mg comprimidos recubiertos | Comprimido recubierto |
+| 99125001IP2 | Zyprexa Velotab 5 mg comprimidos bucodispersables | Comprimido bucodispersable |
+| 74752 | Zolafren 5 mg capsulas duras EFG | Capsula dura |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Perfil de receptores (no son interacciones fármaco-fármaco):** los 13 registros de la consulta corresponden a dianas farmacológicas de la olanzapina: D2, H1, varios 5-HT y α1-adrenérgicos. No hay interacciones con otros medicamentos.
-- **Hipotensión ortostática:** estudios in vivo e in vitro en ratas indican que el antagonismo del receptor α1A-adrenérgico explica este efecto adverso.
+- **Contraindicaciones y condiciones de riesgo (segun el grafo de conocimiento, no del prospecto)**: hipotension ortostatica y trastornos hipotensivos, insuficiencia y enfermedad hepatica, cirrosis, epilepsia, diabetes mellitus, hiperglucemia y cetoacidosis diabetica, hiperlipidemia e hipertrigliceridemia, obesidad, neutropenia y agranulocitosis, hiperplasia prostatica benigna, enfermedad de la vesicula biliar, trastornos de la coagulacion, carcinoma de mama femenino, y enfermedad cerebrovascular (ictus, infarto cerebral) o cardiovascular (infarto de miocardio, trombosis coronaria).
+- **Interacciones farmacologicas**: se identificaron 13 registros, que corresponden a la afinidad de olanzapina por dianas farmacologicas (receptores 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A, 5-HT2C, 5-HT6, 5-HT7, adrenoceptores α1A y α1D, receptor D2 y receptor H1), y no a interacciones con otros farmacos. El antagonismo α1A se asocia con la hipotension ortostatica (datos en rata).
+- **Consideracion pediatrica**: el uso en lactantes y ninos pequenos conlleva riesgo de efectos extrapiramidales, alteraciones metabolicas y sedacion.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
-## Conclusión y Próximos Pasos
+---
 
-**Decisión: Hold**
+## Conclusion y Proximos Pasos
 
-**Justificación:**
-La predicción no tiene ensayos, literatura ni vínculo mecanístico sustentado (nivel L5), y la población objetivo son lactantes, donde los riesgos de un antipsicótico son especialmente relevantes.
+**Decision: Hold**
 
-Como referencia, las siguientes predicciones del mismo modelo tienen más respaldo: **agorafobia** (puntaje 99.47%, nivel L4, recomendación "Research Question", con un estudio abierto de 12 semanas de aumento en trastorno de pánico resistente y reportes de caso) y **trastorno distímico** (puntaje 99.28%, nivel L4, "Research Question", con una revisión Cochrane de antipsicóticos de segunda generación). Ambas siguen siendo indirectas y sin ensayos controlados.
+**Justificacion:**
+La prediccion (99.54%) es solo computacional, sin ensayos ni literatura que la respalden (L5). Ademas, el trastorno es benigno y autolimitado, y el perfil de riesgo de olanzapina en lactantes es desfavorable.
 
 **Para avanzar se necesita:**
-- Prospecto de AEMPS con advertencias y contraindicaciones (dato bloqueante para el cribado de seguridad).
-- Datos detallados de mecanismo de acción (MOA) desde DrugBank.
-- Evidencia mínima que vincule la olanzapina con la tortícolis paroxística benigna (revisión de literatura, estudios preclínicos o de mecanismo).
-- Evaluación de seguridad pediátrica específica antes de cualquier consideración clínica.
-- Decidir si conviene priorizar las indicaciones de rango 2 y 3, que tienen mayor respaldo.
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Obtener y revisar las advertencias y contraindicaciones del prospecto de la AEMPS
+- Completar los datos del mecanismo de accion
+- Revisar la literatura sobre la torticolis paroxistica benigna y su relacion con CACNA1A
+- Evaluar alternativas de menor riesgo en poblacion pediatrica y la compatibilidad de vias y formas farmaceuticas
+- Considerar otras indicaciones predichas con mayor respaldo, como agorafobia (L3, 99.47%) y trastorno distimico (L3, 99.28%), ambas con evidencia indirecta o limitada y clasificadas como preguntas de investigacion
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

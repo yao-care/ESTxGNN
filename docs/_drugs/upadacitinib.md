@@ -2,7 +2,7 @@
 layout: default
 title: Upadacitinib
 parent: Solo predicción del modelo (L5)
-nav_order: 551
+nav_order: 834
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Upadacitinib: De Enfermedades Inflamatorias Inmunomediadas a Síndrome de Microftalmía Colobomatosa-Displasia Rizomélica
+# Upadacitinib: De Artritis Reumatoide a Síndrome de Microftalmia Colobomatosa con Displasia Rizomélica
 
 ## Resumen en Una Frase
 
-Upadacitinib es un inhibidor selectivo de JAK1 que se comercializa en España como Rinvoq y se usa en enfermedades inflamatorias inmunomediadas. Los datos de autorización recibidos no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmía colobomatosa-displasia rizomélica**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
+Upadacitinib es un inhibidor selectivo de JAK1, originalmente utilizado para el tratamiento de la artritis reumatoide.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmia colobomatosa con displasia rizomélica**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en las autorizaciones (el texto de indicación está vacío); se asume uso inmunomediado por conocimiento general |
-| Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa-displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99.61% |
+| Indicación Original | Artritis reumatoide (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa con displasia rizomélica |
+| Puntaje de Predicción TxGNN | 99,61% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
@@ -50,11 +51,11 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Por conocimiento general, upadacitinib es un inhibidor selectivo de JAK1 que reduce la señalización de citocinas por la vía JAK-STAT en enfermedades inmunomediadas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, upadacitinib es un inhibidor selectivo de JAK1 que se emplea en enfermedades inflamatorias de base inmunitaria, y su eficacia en artritis reumatoide está establecida.
 
-Con los datos proporcionados, **no se sustenta un vínculo mecanístico** con la nueva indicación. Este síndrome es un trastorno congénito raro del desarrollo, con coloboma/microftalmía y displasia esquelética rizomélica. Presumiblemente es de origen genético y no está causado por inflamación dependiente de JAK. Además, un inmunomodulador administrado después del nacimiento difícilmente revertiría malformaciones estructurales que se originan en la embriogénesis.
+Sin embargo, **los datos disponibles no respaldan un vínculo mecanístico** con la nueva indicación. Este síndrome es un trastorno del desarrollo extremadamente raro, con malformaciones oculares y esqueléticas, y en general no está impulsado por inflamación mediada por la vía JAK-STAT. El puntaje del modelo es muy alto (0,996), pero es una predicción derivada del modelo; es probable que refleje un artefacto de proximidad en la red del grafo más que una base biológica real.
 
-El puntaje alto de TxGNN (0.996) es solo una predicción del grafo de conocimiento. Puede reflejar la topología del grafo o la escasa anotación de una enfermedad rara, más que una justificación biológica. La similitud con la indicación original está pendiente de análisis.
+Como segunda predicción, el modelo propone el **síndrome de braquidactilia-sindactilia** (puntaje 99,58%), también una malformación congénita de origen genético y del desarrollo, sin respuesta esperable a la inmunomodulación en pacientes posnatales. Tampoco cuenta con evidencia clínica ni bibliográfica y recibe la misma recomendación de Hold.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,35 +69,34 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1191404001 | RINVOQ 15 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No especificada en los datos |
-| 1191404006 | RINVOQ 30 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No especificada en los datos |
-| 1191404010 | RINVOQ 45 MG COMPRIMIDOS DE LIBERACIÓN PROLONGADA | Comprimido de liberación prolongada | No especificada en los datos |
+| 1191404001 | RINVOQ 15 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
+| 1191404010 | RINVOQ 45 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
+| 1191404006 | RINVOQ 30 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
 
-Las tres autorizaciones pertenecen al titular Abbvie Deutschland GmbH & Co. KG.
+Titular: Abbvie Deutschland GmbH & Co. KG.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; a continuación se muestran las principales de la muestra consultada.
+  - **Gravedad mayor**: corticoides (hidrocortisona, triamcinolona, dexametasona, beclometasona, betametasona, budesonida, prednisona, prednisolona), claritromicina, cobicistat, deferiprona e iobenguano (I-131).
+  - **Gravedad moderada**: aprepitant, cimetidina, miconazol y deferasirox.
+  - **Gravedad menor**: sales de zinc (sulfato, acetato, gluconato).
 
-Como referencia general, upadacitinib tiene advertencias conocidas de infecciones, trombosis y neoplasias malignas. Esto pesa en contra de su uso sin una justificación clara.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ningún respaldo clínico ni bibliográfico (L5). El mecanismo de JAK1 no explica de forma plausible una malformación congénita del desarrollo. El perfil de seguridad de upadacitinib exige una justificación clara que hoy no existe.
-
-La segunda predicción del modelo, el síndrome de braquidactilia-sindactilia (puntaje 99.58%, L5), tiene la misma limitación. Se trata de una malformación congénita de extremidades sin conexión evidente con la señalización JAK-STAT, y también queda en Hold.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y carece de plausibilidad biológica: ambos síndromes predichos son malformaciones congénitas del desarrollo sin un componente inflamatorio mediado por JAK1 que justifique el tratamiento.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) desde DrugBank
-- Prospecto de AEMPS con advertencias y contraindicaciones, y el texto de las indicaciones aprobadas
-- Evidencia de que la vía JAK-STAT participa en la fisiopatología de este síndrome
-- Estudios preclínicos o de mecanismo que respalden la hipótesis
-- Revisión de la anotación del grafo para descartar que el puntaje sea un artefacto de una enfermedad rara con pocos datos
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción (MOA) de upadacitinib y un análisis de su posible relación con la fisiopatología del síndrome.
+- Revisión de la ficha técnica de AEMPS (advertencias y contraindicaciones), actualmente no disponible.
+- Evidencia preclínica o biológica que vincule la vía JAK1-STAT con el síndrome predicho.
+- Una revisión sistemática de la literatura y de registros de ensayos que confirme la ausencia de estudios.
+- Considerar priorizar otras indicaciones predichas con mayor plausibilidad mecanística.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

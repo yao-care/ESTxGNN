@@ -2,7 +2,7 @@
 layout: default
 title: Venetoclax
 parent: Evidencia moderada (L3-L4)
-nav_order: 556
+nav_order: 842
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,102 +29,98 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Venetoclax: De Indicación Original No Registrada a LLC/LLP de Centro Pregerminal
+# Venetoclax: De Leucemia Linfoblástica Aguda y Síndrome de Richter a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Origen Pregerminal
 
 ## Resumen en Una Frase
 
-Venetoclax es un inhibidor de BCL-2 comercializado en España como Venclyxto, pero las autorizaciones del registro no incluyen el texto de la indicación original.
-El modelo TxGNN predice que podría ser efectivo para la **leucemia linfocítica crónica/linfoma linfocítico pequeño (LLC/LLP) de centro pregerminal**.
-La evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** (un estudio biológico que no evalúa venetoclax).
-
----
+Venetoclax es un inhibidor oral de la proteína BCL-2. En la base de conocimiento del modelo figura asociado a la leucemia linfoblástica aguda y al síndrome de Richter.
+El modelo TxGNN predice que podría ser efectivo para la **leucemia linfocítica crónica/linfoma linfocítico pequeño (LLC/LLP) de origen pregerminal (IGHV no mutado)**.
+Esta predicción cuenta con **0 ensayos clínicos** y **1 publicación** (una revisión sobre biología del receptor de células B), por lo que la evidencia directa es muy limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación está vacío en las 5 autorizaciones) |
-| Nueva Indicación Predicha | LLC/LLP de centro pregerminal |
+| Indicación Original | Leucemia linfoblástica aguda; síndrome de Richter (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | LLC/LLP de origen pregerminal (IGHV no mutado) |
 | Puntaje de Predicción TxGNN | 99.55% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, venetoclax es un inhibidor selectivo de la proteína antiapoptótica BCL-2. Las células de LLC/LLP dependen de la sobreexpresión de BCL-2 para sobrevivir, por lo que mecanísticamente es plausible que el fármaco sea aplicable.
+Venetoclax actúa inhibiendo BCL-2, una proteína que impide la muerte celular programada (apoptosis). Las células de LLC dependen mucho de BCL-2 para sobrevivir, por lo que bloquearla restablece la apoptosis en las células tumorales. En los datos compilados para este informe no consta una descripción detallada del mecanismo de acción del fármaco. Esta explicación se basa en el conocimiento general de la clase y en la justificación mecanística asociada a la predicción.
 
-La única publicación disponible analiza la estructura y función del receptor de células B (BCR) tumoral en la LLC. Distingue los subgrupos de origen pregerminal (IGHV no mutado, peor pronóstico) y postgerminal (IGHV mutado, mejor pronóstico). Es un estudio biológico y traslacional, y **no prueba venetoclax** en este subgrupo molecular.
+La nueva indicación predicha no es una enfermedad distinta. Es un subtipo molecular de la LLC/LLP, el de IGHV no mutado, que suele tener peor pronóstico. Venetoclax ya está aprobado para la LLC/LLP mediante inhibición de BCL-2, de modo que este subtipo queda cubierto por la indicación de LLC existente. **No es un candidato de reposicionamiento en sentido estricto.** La predicción del modelo refleja la cercanía biológica entre las enfermedades linfoides del grafo de conocimiento.
 
-**Advertencia sobre la calidad del dato:** el campo de indicaciones originales está vacío. La LLC/LLP en general se considera una indicación ya aprobada de venetoclax, por lo que este caso probablemente no es un reposicionamiento genuino. La segunda predicción (LLC/LLP con hipermutación somática de IGHV) tiene exactamente el mismo puntaje y parece un nodo hermano de la misma ontología. Ninguna de las dos aporta una señal independiente de reposicionamiento.
-
----
+Para este subtipo no hay ensayos listados. La única publicación analiza la estructura y función del receptor de células B tumoral, lo que da un apoyo solo indirecto.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para este subtipo específico.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35158929](https://pubmed.ncbi.nlm.nih.gov/35158929/) | 2022 | Estudio biológico/traslacional | Cancers | Revisa la estructura y función del BCR tumoral en la LLC y distingue los subgrupos U-CLL (origen pregerminal, mal pronóstico) y M-CLL (origen postgerminal, buen pronóstico). No evalúa venetoclax. |
-
----
+| [35158929](https://pubmed.ncbi.nlm.nih.gov/35158929/) | 2022 | Revisión | Cancers | Analiza el receptor de células B (BCR) en la LLC. Distingue dos grandes subgrupos: IGHV no mutado (origen pregerminal, peor pronóstico) e IGHV mutado (origen postgerminal, mejor pronóstico). Resume lo que el estudio del BCR tumoral aporta a la biología y la clínica. No evalúa venetoclax directamente. |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 161138005 | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en el registro |
-| 161138007IP1 | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en el registro |
-| 161138004 | VENCLYXTO 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en el registro |
-| 161138002 | VENCLYXTO 10 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en el registro |
-| 161138007IP | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en el registro |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 161138005 | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 161138007IP1 | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 161138004 | VENCLYXTO 50 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 161138002 | VENCLYXTO 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| 161138007IP | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
 
-Titular de todas las autorizaciones: AbbVie Deutschland GmbH & Co. KG.
-
----
+Las cinco autorizaciones están vigentes y corresponden a monofármaco, titular Abbvie Deutschland GmbH & Co. KG.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de BCL-2) |
-| Riesgo de Mielosupresión | Medio a alto. Una revisión de la literatura señala que el síndrome de lisis tumoral y la mielosupresión son las toxicidades más frecuentes. |
-| Clasificación de Emetogenicidad | Baja (según la categoría del fármaco; confirmar en la ficha técnica) |
-| Ítems de Monitoreo | Hemograma con diferencial, función hepática y renal, electrolitos, ácido úrico, fósforo, potasio y calcio (riesgo de lisis tumoral) |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y la normativa local de manejo de fármacos antineoplásicos |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de BCL-2), no citotóxico convencional |
+| Riesgo de Mielosupresión | Medio a alto. La literatura compilada señala el síndrome de lisis tumoral y la mielosupresión como los efectos adversos más frecuentes en enfermedades linfoides. Confirmar en el prospecto. |
+| Clasificación de Emetogenicidad | Baja a moderada (estimación general para un agente oral dirigido; confirmar en el prospecto) |
+| Items de Monitoreo | Hemograma con diferencial, función renal y hepática, electrolitos y ácido úrico (riesgo de lisis tumoral), signos de infección |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: la consulta de interacciones identificó 100 en total. Entre las principales de nivel **Mayor** figuran:
+  - Aprepitant
+  - Dexametasona
+  - Claritromicina
+  - Eliglustat
+  - Rolapitant
+  - Fidaxomicina
+  - Cobicistat
+  - Deferiprona
+  - Samario (153Sm) lexidronam
 
----
+  Hay además interacciones de nivel **Moderado** con alvimopán, loperamida, cimetidina, naldemedina, metreleptina, miconazol, rifaximina, clotrimazol, troglitazona y deferasirox. Naloxegol figura con nivel **Menor**.
+- La literatura compilada indica que los antifúngicos azólicos potentes, como posaconazol, inhiben CYP3A y requieren ajuste de dosis de venetoclax.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la única publicación no evalúa venetoclax en este subgrupo. Además, la predicción parece un artefacto de la ontología (LLC/LLP ya es un uso generalmente aprobado), no un reposicionamiento real.
+El subtipo ya está cubierto por la indicación aprobada de LLC/LLP, así que no constituye un reposicionamiento real. Además, no hay ensayos ni literatura específica para este subtipo (solo una revisión indirecta sobre biología del BCR), por lo que el respaldo se limita a la predicción del modelo (nivel L4).
 
 **Para avanzar se necesita:**
-- Corregir el campo de indicaciones originales y verificar la indicación aprobada de LLC/LLP en la ficha técnica de la AEMPS.
-- Descargar y analizar la ficha técnica de la AEMPS para completar advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
-- Obtener el mecanismo de acción desde DrugBank.
-- Buscar datos específicos del subtipo pregerminal (IGHV no mutado) antes de cualquier decisión.
-
-**Otras predicciones del mismo Evidence Pack con más apoyo (a priorizar):**
-- **Leucemia mieloide** (L2): incluye un ensayo aleatorizado de fase 2 (NCT04266795) y uno de fase 2/3 (NCT05805098). Decisión: Proceed with Guardrails, con vigilancia de resistencia (MCL-1, TP53), mielosupresión, infecciones y lisis tumoral.
-- **Linfoma folicular** y **leucemia mieloide crónica BCR-ABL1 positiva** (L2 ambas): solo hay estudios de fase 1/2, en su mayoría de un solo brazo. Se clasifican como pregunta de investigación.
+- Confirmar con el prospecto de la AEMPS el texto exacto de las indicaciones aprobadas y verificar que incluye la LLC/LLP sin restricción por estado de IGHV.
+- Obtener las advertencias y contraindicaciones del prospecto, que no están disponibles en los datos compilados.
+- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
+- Buscar datos de eficacia estratificados por estado de IGHV en los ensayos de LLC ya existentes, como el MURANO.
+- Si se busca un reposicionamiento genuino, centrar el análisis en las indicaciones con más respaldo del listado: leucemia mieloide (L1), leucemia mieloide crónica BCR-ABL1 positiva y linfoma folicular (ambas L2).
+- Establecer un plan de monitoreo de seguridad: lisis tumoral, mielosupresión e interacciones con inhibidores de CYP3A.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

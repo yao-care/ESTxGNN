@@ -2,7 +2,7 @@
 layout: default
 title: Dexamethasone
 parent: Evidencia alta (L1-L2)
-nav_order: 170
+nav_order: 238
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,102 +29,87 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexametasona: De Antiinflamatorio Glucocorticoide (indicación autorizada no especificada en los datos) a Alopecia Areata
+# Dexametasona: De Exantema e Insuficiencia Suprarrenal a Alopecia Areata
 
 ## Resumen en Una Frase
 
-La dexametasona es un glucocorticoide sistémico y tópico con amplio uso antiinflamatorio e inmunosupresor. En España está comercializada en comprimidos, colirios, pomada oftálmica e inyectables.
-El modelo TxGNN predice que podría ser efectiva para la **alopecia areata**.
-Hay **20 publicaciones** recuperadas (incluido al menos **1 ECA** y varias cohortes con el régimen de mini-pulso oral) y **ningún ensayo clínico registrado** que pruebe dexametasona en esta enfermedad.
-
----
+Dexametasona es un glucocorticoide sintético potente, utilizado originalmente en enfermedades inflamatorias y endocrinas como la insuficiencia suprarrenal, la enfermedad de Crohn, la hiperplasia suprarrenal congénita y la leucemia linfoblástica aguda.
+El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con **20 publicaciones** recuperadas (sin ensayos clínicos registrados) que actualmente respaldan esta dirección, entre ellas un ensayo aleatorizado pediátrico y una red de metaanálisis.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto de indicación de AEMPS viene vacío en los datos) |
+| Indicación Original | Exantema, hipercalcemia humoral de la malignidad, leucemia linfoblástica aguda, insuficiencia suprarrenal, enfermedad de Crohn, hiperplasia suprarrenal congénita (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Puntaje de Predicción TxGNN | 99,99% |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-La alopecia areata es una enfermedad autoinmune mediada por linfocitos T. Estos atacan el folículo piloso tras la pérdida de su privilegio inmune. La dexametasona es un agonista del receptor de glucocorticoides (NR3C1). Según los datos farmacológicos disponibles, también se une al receptor de mineralocorticoides (NR3C2). Su efecto antiinflamatorio e inmunosupresor amplio es coherente con el mecanismo de la enfermedad.
+La alopecia areata es una enfermedad autoinmune mediada por linfocitos T, en la que se colapsa el privilegio inmunitario del folículo piloso. Dexametasona es un glucocorticoide potente con efectos inmunosupresores y antiinflamatorios amplios (supresión de la producción de citocinas y de la actividad de los linfocitos T), lo que plausiblemente reduce el ataque autoinmune sobre los folículos. Los datos compilados señalan como dianas farmacológicas el receptor de glucocorticoides (NR3C1), el receptor de mineralocorticoides (NR3C2) y el receptor X de pregnano. No se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco, por lo que esta explicación se basa en el conocimiento farmacológico general de los glucocorticoides.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el campo específico del paquete de evidencia. Según la información conocida, la dexametasona es un corticoide sistémico de uso establecido en múltiples cuadros inflamatorios e inmunomediados. Mecanísticamente podría ser aplicable a la alopecia areata, aunque este razonamiento se apoya en farmacología general y no en datos de mecanismo específicos.
+La indicación original de dexametasona abarca trastornos inflamatorios e inmunomediados (enfermedad de Crohn, neumonía eosinofílica, exantema) y neoplasias linfoides. La alopecia areata comparte con ellos un componente inmunitario que responde a la inmunosupresión glucocorticoide. Además, el régimen de "mini-pulsos" orales de dexametasona es una pauta off-label establecida para esta enfermedad.
 
-En la práctica clínica, la literatura describe el uso de dexametasona en "mini-pulso" (oral o intravenosa, en días consecutivos de forma intermitente) para formas moderadas a graves de alopecia areata. Se usa sobre todo cuando los inhibidores de JAK no son una opción por acceso, coste o elegibilidad. Esto coincide con la predicción del modelo.
-
----
+Hay salvedades: la recaída tras suspender el tratamiento y los efectos adversos acumulados de los corticoides exigen salvaguardas (límites de dosis, monitorización y consideración de los inhibidores de JAK como comparadores o complementos). Los diseños de estudio descritos más abajo se infieren en parte de los títulos y no se han verificado con los textos completos.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados. Se recuperaron 15 registros, pero ninguno evalúa dexametasona en alopecia areata. Todos son estudios oncológicos (mieloma múltiple, pulmón, mesotelioma, linfoma) en los que la dexametasona es un componente de fondo o de premedicación, o bien estudios observacionales sin relación con la enfermedad.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | ECA | Dermatol Ther | Ensayo abierto aleatorizado en 30 niños con alopecia areata grave no progresiva: mini-pulso oral de dexametasona frente a sensibilización de contacto con DPCP (eficacia y seguridad) |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Revisión sistemática / metaanálisis en red | Arch Dermatol Res | Compara esteroides sistémicos, inhibidores de JAK orales e inmunoterapia de contacto en alopecia areata grave |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Revisión | Pediatr Dermatol | Revisa dosis y pautas de corticoides en pulsos en niños con alopecia areata, con sus efectos secundarios |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Cohorte prospectiva | J Clin Med | Efectividad y seguridad del mini-pulso de dexametasona en condiciones reales y factores asociados a la respuesta |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Cohorte multicéntrica | Dermatol Ther | Mini-pulso oral de dexametasona en alopecia areata moderada a grave, en centros españoles |
-| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Cohorte retrospectiva | Eur J Dermatol | 19 pacientes con alopecia areata grave: corticoide tópico con baricitinib y rescate con pulsos de dexametasona en no respondedores |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Estudio prospectivo | Dermatol Ther | 73 niños con alopecia areata grave: pulsos intravenosos de 1 día frente a 3 días, más clobetasol tópico |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Caso clínico y revisión | J Dermatolog Treat | Remisión duradera con mini-pulso oral de dexametasona cuando los inhibidores de JAK no son adecuados |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Serie de casos | J Dermatol | 30 pacientes con alopecia areata extensa tratados con pulso oral de 5 mg de dexametasona dos días consecutivos por semana |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Seguimiento a largo plazo | Dermatol Ther | 65 niños y adolescentes con alopecia areata grave, con pulso oral mensual de dexametasona y seguimiento mediano de 96 meses |
-
-*Nota: los resúmenes disponibles están truncados y no muestran resultados cuantitativos. Los tipos de estudio son inferidos y deben verificarse con el texto completo.*
-
----
+| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | ECA | Dermatologic Therapy | ECA abierto en 30 niños con alopecia areata grave: minipulso oral de dexametasona en dosis bajas frente a sensibilización con difenciprona (DPCP) |
+| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Revisión sistemática / metaanálisis en red | Archives of Dermatological Research | Compara corticoides sistémicos, inhibidores de JAK orales e inmunoterapia de contacto en alopecia areata grave |
+| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Cohorte prospectiva | Journal of Clinical Medicine | Efectividad y seguridad del minipulso de dexametasona en la práctica real y factores asociados a la respuesta |
+| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Estudio clínico multicéntrico | Dermatologic Therapy | Minipulso oral de dexametasona en alopecia areata moderada a grave (diseño no confirmado) |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Revisión | Pediatric Dermatology | Revisión de pautas de dosificación y efectos secundarios de corticoides en pulsos en niños |
+| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Estudio clínico retrospectivo | European Journal of Dermatology | Corticoide tópico escalonado con baricitinib y rescate con pulsos de dexametasona en 19 pacientes con alopecia areata grave |
+| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Estudio prospectivo | Dermatologic Therapy | Pulsos intravenosos de dexametasona de 1 día frente a 3 días más clobetasol tópico en 73 niños |
+| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Seguimiento a largo plazo | Dermatologic Therapy | Pulsos orales de dexametasona más corticoide tópico en 65 niños, con seguimiento mediano de 96 meses |
+| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Caso clínico y revisión | Journal of Dermatological Treatment | Remisión duradera de alopecia areata grave con minipulso de dexametasona cuando los inhibidores de JAK no son una opción |
+| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Estudio clínico | Journal of Dermatology | Pulso oral de 5 mg de dexametasona dos veces por semana en 30 pacientes con alopecia areata extensa |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 12090 | Dexafree 1mg/ml colirio en solución | Colirio en solución | No especificada en los datos disponibles |
-| 81415 | Dexametasona TAD 8 mg comprimidos | Comprimido | No especificada en los datos disponibles |
-| 84548 | Etacortilen 1,5 mg/ml colirio en solución | Colirio en solución | No especificada en los datos disponibles |
-| 90518 | Dexametasona Novamis 4 mg comprimidos EFG | Comprimido | No especificada en los datos disponibles |
-| 67671 | Dexafree 1 mg/ml colirio en solución en envase unidosis | Colirio en solución en envase unidosis | No especificada en los datos disponibles |
+| 12090 | Dexafree 1 mg/ml colirio en solución | Colirio en solución | No disponible |
+| 81415 | Dexametasona TAD 8 mg comprimidos | Comprimido | No disponible |
+| 84548 | Etacortilen 1,5 mg/ml colirio en solución | Colirio en solución | No disponible |
+| 90518 | Dexametasona Novamis 4 mg comprimidos EFG | Comprimido | No disponible |
+| 88798 | Dexametasona Medochemie 4 mg/ml solución inyectable y para perfusión EFG | Solución inyectable y para perfusión | No disponible |
 
-Hay 20 autorizaciones en total. Además de las formas mostradas, existen solución inyectable y para perfusión, colirio en suspensión, solución inyectable y pomada oftálmica.
-
----
+Hay 20 autorizaciones vigentes en total, todas de monofármaco, con formas oftálmicas, orales e inyectables. La tabla muestra solo las cinco principales.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas / dianas**: los datos compilados reflejan interacciones farmacológicas con el receptor de glucocorticoides, el receptor de mineralocorticoides y el receptor X de pregnano (este último, en ratón). Este último está implicado en la inducción de enzimas metabolizadoras, por lo que conviene revisar posibles interacciones con inductores o inhibidores del CYP3A4.
+- **Condiciones con contraindicación o precaución según el grafo de conocimiento** (no proviene del prospecto): hipertensión, epilepsia, hiperglucemia, insuficiencia cardíaca congestiva, queratitis por herpes simple, sarampión, déficits hipofisarios (hipopituitarismo, déficit de hormona de crecimiento, síndrome de Sheehan, síndrome de Kallmann) y alteraciones del ciclo de la urea (déficit de carbamoilfosfato sintetasa I, citrulinemia, hiperargininemia).
+- En alopecia areata, el uso de pulsos de corticoides conlleva riesgo de efectos adversos acumulados y de recaída al suspender.
 
-Los datos de interacciones consultados corresponden a dianas farmacológicas (receptor de glucocorticoides, receptor de mineralocorticoides y receptor X de pregnano de ratón), no a interacciones entre medicamentos. No hay datos de interacciones farmacológicas propiamente dichas.
-
----
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ECA publicado, varias cohortes y series con dexametasona en mini-pulso, y un mecanismo inmunosupresor plausible. Sin embargo, no hay ensayos registrados ni evidencia de fase 3. El ECA es pequeño (30 niños), y los datos de recaída a largo plazo y de seguridad esteroidea son limitados. El resto de las indicaciones predichas (rangos 2 a 10) solo cuentan con predicción del modelo (L5) y quedan en espera.
+Existe un ECA pediátrico, un metaanálisis en red, estudios de cohortes y series con minipulsos de dexametasona en alopecia areata, y el fármaco está ampliamente comercializado en España. Sin embargo, no hay ensayos clínicos registrados, la evidencia procede en gran parte de estudios pequeños u observacionales y no se han podido consultar las advertencias del prospecto, por lo que se requieren salvaguardas.
 
 **Para avanzar se necesita:**
-- Obtener advertencias y contraindicaciones de la ficha técnica de AEMPS (vacío bloqueante para el cribado de seguridad).
-- Verificar con el texto completo los tipos de estudio, resultados y tamaños de efecto de los artículos clave, sobre todo del ECA 36086930.
-- Confirmar las indicaciones autorizadas en España (los textos vienen vacíos) y la compatibilidad de vías. Las formas orales (4 y 8 mg) e inyectables cubren las pautas de mini-pulso descritas.
-- Obtener los datos de mecanismo de acción desde DrugBank.
-- Definir un plan de monitorización de seguridad esteroidea, con atención a la población pediátrica y a la comparación con inhibidores de JAK.
+- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Verificar con los textos completos los diseños y resultados de los estudios clave.
+- Definir un protocolo con límites de dosis, monitorización (presión arterial, glucemia, eje suprarrenal) y comparación con inhibidores de JAK.
+- Evaluar ensayos controlados adicionales y la tasa de recaída tras la suspensión.
 
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
+**Otras indicaciones predichas (decisión Hold, nivel L5):** alopecia mucinosa, efluvio telógeno, foliculitis decalvante de Quinquaud, alopecia con deficiencia de anticuerpos, hipotricosis hereditaria con vesículas cutáneas recurrentes, síndrome de alopecia-discapacidad intelectual-hipogonadismo hipergonadotrópico, atriquia con lesiones papulares, alopecia universal con onicodistrofia y vitíligo, y prolapso de la glándula lagrimal. Carecen de evidencia clínica directa y su puntaje elevado parece reflejar proximidad en la red del modelo. La alopecia universal con onicodistrofia y vitíligo podría reconsiderarse como subgrupo dentro de la evidencia de alopecia areata.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

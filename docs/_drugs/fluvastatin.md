@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluvastatin
-parent: Evidencia alta (L1-L2)
-nav_order: 240
-evidence_level: L2
+parent: Evidencia moderada (L3-L4)
+nav_order: 352
+evidence_level: L3
 indication_count: 10
 ---
 
 # Fluvastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluvastatina: De Hipercolesterolemia a Hiperlipoproteinemia
+# Fluvastatina: De Arteriosclerosis a Hiperlipoproteinemia
 
 ## Resumen en Una Frase
 
-Fluvastatina es una estatina (inhibidor de la HMG-CoA reductasa) que se usa para tratar la hipercolesterolemia y reducir el riesgo cardiovascular.
-El modelo TxGNN predice que podría ser efectiva para **hiperlipoproteinemia**, con **5 ensayos clínicos** registrados (ninguno evalúa fluvastatina directamente) y **20 publicaciones**, varias de ellas ensayos aleatorizados con fluvastatina.
-Al tratarse de una estatina ya comercializada, esta predicción es en la práctica un uso dentro de indicación y no un reposicionamiento en sentido estricto.
+Fluvastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada originalmente para tratar la arteriosclerosis, la aterosclerosis y la hiperlipidemia familiar combinada.
+El modelo TxGNN predice que podría ser efectiva para **hiperlipoproteinemia**, con **1 ensayo clínico** listado (que en realidad no evalúa fluvastatina) y **20 publicaciones**, varias de ellas específicas de fluvastatina.
+En la práctica es una extensión de sus indicaciones originales más que un reposicionamiento propiamente dicho.
 
 ---
 
@@ -43,23 +43,23 @@ Al tratarse de una estatina ya comercializada, esta predicción es en la prácti
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipercolesterolemia y reducción del riesgo cardiovascular (según datos farmacológicos; los textos de autorización de AEMPS no incluyen indicación) |
+| Indicación Original | Arteriosclerosis / aterosclerosis / hiperlipidemia familiar combinada (según el grafo de conocimiento; los registros de la AEMPS no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Hiperlipoproteinemia |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Fluvastatina inhibe la enzima HMG-CoA reductasa (gen *HMGCR*), paso limitante de la síntesis hepática de colesterol. Al reducir esa síntesis, el hígado aumenta los receptores de LDL y baja el colesterol LDL circulante. Es una coincidencia directa con los trastornos de las lipoproteínas.
+Fluvastatina inhibe la enzima HMG-CoA reductasa (HMGCR), clave en la síntesis hepática de colesterol. Con ello aumenta la expresión de receptores de LDL en el hígado y reduce el colesterol LDL. Es el mecanismo que sustenta su uso en hipercolesterolemia y en la reducción del riesgo cardiovascular. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, pero sí confirman HMGCR como diana humana.
 
-La hiperlipoproteinemia es precisamente el tipo de alteración que esta vía corrige. Por eso, más que un salto entre enfermedades distintas, la predicción refleja que la indicación original y la nueva pertenecen al mismo espacio clínico, el de los lípidos elevados. La literatura respalda esta relación con estudios de fluvastatina en hipercolesterolemia primaria, hiperlipidemia mixta e hipercolesterolemia familiar.
+La hiperlipoproteinemia está muy cerca de las indicaciones originales (hiperlipidemia familiar combinada, aterosclerosis). Todas son alteraciones del metabolismo lipídico que responden a la reducción del LDL-C. Por eso la predicción es mecanísticamente coherente. La literatura incluye estudios específicos de fluvastatina en monoterapia, en combinación con bezafibrato o fenofibrato, y en formulaciones de liberación prolongada frente a liberación inmediata, todos coherentes con eficacia hipolipemiante.
 
-Un matiz importante: los ensayos registrados en el paquete de evidencia estudian otros fármacos (alirocumab, lapaquistat, evolocumab). La evidencia directa proviene de la literatura publicada sobre fluvastatina, evaluada solo a partir de títulos y resúmenes.
+Conviene tener en cuenta que el único ensayo clínico asociado a esta predicción (NCT03510715) evalúa alirocumab, no fluvastatina. Por tanto, el respaldo proviene de la literatura y no de ensayos registrados.
 
 ---
 
@@ -67,11 +67,7 @@ Un matiz importante: los ensayos registrados en el paquete de evidencia estudian
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00726362](https://clinicaltrials.gov/study/NCT00726362) | No aplica | Completado | 3270 | Vigilancia de la eficacia de estatinas comercializadas (incluye posiblemente fluvastatina) en hiperlipidemia en práctica clínica real; no se puede confirmar la inclusión de fluvastatina |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Alirocumab en niños y adolescentes con hipercolesterolemia familiar homocigota; enfermedad afín, pero otro fármaco |
-| [NCT00532311](https://clinicaltrials.gov/study/NCT00532311) | Fase 3 | Terminado | 411 | Lapaquistat (inhibidor de escualeno sintasa) junto con estatinas en hipercolesterolemia; sin datos de fluvastatina |
-| [NCT04608474](https://clinicaltrials.gov/study/NCT04608474) | Fase 4 | Completado | 81 | Piloto de evolocumab (inhibidor de PCSK9) en receptores de trasplante renal; otro fármaco y otra población |
-| [NCT01634906](https://clinicaltrials.gov/study/NCT01634906) | No aplica | Completado | 55 | Estudio mecanístico de apoB unida a eritrocitos tras retirar estatinas; no especifica la estatina y no es de eficacia |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Estudio abierto de alirocumab (inhibidor de PCSK9) en niños y adolescentes con hipercolesterolemia familiar homocigota. No evalúa fluvastatina, por lo que no aporta evidencia directa. |
 
 ---
 
@@ -79,51 +75,54 @@ Un matiz importante: los ensayos registrados en el paquete de evidencia estudian
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [11219479](https://pubmed.ncbi.nlm.nih.gov/11219479/) | 2001 | ECA | Clin Ther | Comparación de eficacia y tolerabilidad de fluvastatina de liberación prolongada (80 mg) frente a liberación inmediata en hipercolesterolemia primaria |
-| [15598476](https://pubmed.ncbi.nlm.nih.gov/15598476/) | 2004 | ECA | Clin Ther | Fluvastatina + fenofibrato frente a fluvastatina sola durante 12 meses en hiperlipidemia combinada, diabetes tipo 2 y cardiopatía coronaria |
-| [10856536](https://pubmed.ncbi.nlm.nih.gov/10856536/) | 2000 | ECA | Atherosclerosis | Estudio FACT: 333 pacientes con hiperlipidemia mixta y enfermedad coronaria; fluvastatina sola, bezafibrato solo o su combinación |
-| [8157036](https://pubmed.ncbi.nlm.nih.gov/8157036/) | 1993 | ECA (doble ciego) | Eur J Clin Pharmacol | Eficacia y seguridad de fluvastatina a dosis altas en 52 pacientes con hipercolesterolemia familiar |
-| [7604789](https://pubmed.ncbi.nlm.nih.gov/7604789/) | 1995 | Estudio clínico | Am J Cardiol | Efecto de fluvastatina sobre el perfil lipídico y las apolipoproteínas en 31 pacientes chinos con hipercolesterolemia |
-| [10067240](https://pubmed.ncbi.nlm.nih.gov/10067240/) | 1998 | Estudio clínico comparativo | Ter Arkh | Variabilidad del efecto hipolipemiante de simvastatina y fluvastatina en hiperlipoproteinemia primaria |
-| [7604807](https://pubmed.ncbi.nlm.nih.gov/7604807/) | 1995 | Estudio abierto | Am J Cardiol | Terapia triple (fluvastatina, bezafibrato, colestiramina) durante 60 semanas en 22 pacientes con hipercolesterolemia familiar grave |
-| [9271817](https://pubmed.ncbi.nlm.nih.gov/9271817/) | 1997 | Estudio abierto | Thromb Res | Fluvastatina 40 mg durante 8 semanas en 20 pacientes con hiperlipidemia tipo IIa y IIb; efecto sobre lípidos y el inhibidor de la vía del factor tisular (TFPI) |
-| [24944371](https://pubmed.ncbi.nlm.nih.gov/24944371/) | 2003 | Estudio abierto | Curr Ther Res | 24 semanas con dosis crecientes; efecto sobre subfracciones de LDL, LDL oxidada y moléculas de adhesión |
-| [11347136](https://pubmed.ncbi.nlm.nih.gov/11347136/) | 2001 | Revisión | Nihon Rinsho | Monografía sobre fluvastatina (sin resumen disponible) |
+| [10856536](https://pubmed.ncbi.nlm.nih.gov/10856536/) | 2000 | ECA | Atherosclerosis | Estudio FACT: fluvastatina combinada con bezafibrato en 333 pacientes con enfermedad coronaria e hiperlipidemia mixta; evalúa eficacia lipídica y seguridad de la combinación. |
+| [15598476](https://pubmed.ncbi.nlm.nih.gov/15598476/) | 2004 | ECA | Clin Ther | Fluvastatina + fenofibrato frente a fluvastatina sola durante 12 meses en hiperlipidemia combinada, diabetes tipo 2 y enfermedad coronaria. |
+| [11219479](https://pubmed.ncbi.nlm.nih.gov/11219479/) | 2001 | ECA | Clin Ther | Comparación de fluvastatina 80 mg de liberación prolongada frente a liberación inmediata en hipercolesterolemia primaria. |
+| [8157036](https://pubmed.ncbi.nlm.nih.gov/8157036/) | 1993 | Ensayo doble ciego | Eur J Clin Pharmacol | Eficacia y seguridad de fluvastatina a dosis altas en 52 pacientes con hipercolesterolemia familiar. |
+| [17062478](https://pubmed.ncbi.nlm.nih.gov/17062478/) | 2006 | Ensayo clínico | Acta Paediatr | Eficacia y seguridad de fluvastatina en niños y adolescentes con hipercolesterolemia familiar heterocigota. |
+| [10067240](https://pubmed.ncbi.nlm.nih.gov/10067240/) | 1998 | Estudio clínico | Ter Arkh | Variabilidad de la respuesta hipolipemiante a simvastatina y fluvastatina en hiperlipoproteinemia primaria. |
+| [7604789](https://pubmed.ncbi.nlm.nih.gov/7604789/) | 1995 | Estudio clínico | Am J Cardiol | Efecto de fluvastatina sobre el perfil lipídico y las apolipoproteínas en 31 pacientes chinos con hipercolesterolemia. |
+| [7604794](https://pubmed.ncbi.nlm.nih.gov/7604794/) | 1995 | Estudio clínico | Am J Cardiol | Eficacia de fluvastatina durante un año en pacientes japoneses con hipercolesterolemia, incluida la familiar heterocigota. |
+| [8462180](https://pubmed.ncbi.nlm.nih.gov/8462180/) | 1993 | Revisión | Circulation | Revisión de 25 años de tratamiento farmacológico de la dislipoproteinemia, con foco en fluvastatina. |
+| [11347136](https://pubmed.ncbi.nlm.nih.gov/11347136/) | 2001 | Revisión / monografía | Nihon Rinsho | Monografía sobre fluvastatina (sin resumen disponible). |
 
 ---
 
 ## Información de Mercado en España
 
-Los textos de indicación aprobada están vacíos en los registros de AEMPS recibidos, por lo que se muestra el fabricante en su lugar.
+Hay 20 autorizaciones vigentes, todas de medicamentos de un solo principio activo y ninguna cancelada. Los registros no incluyen el texto de indicación aprobada. Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 72243 | Fluvastatina Farmalider 40 mg cápsulas duras EFG | Cápsula dura | Farmalider S.A. |
-| 64648 | Lescol Prolib 80 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Ethyx Pharmaceuticals |
-| 71207 | Fluvastatina Kern Pharma 80 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Kern Pharma S.L. |
-| 75532 | Fluvastatina Aristo 40 mg cápsulas duras EFG | Cápsula dura | Aristo Pharma Iberia S.L. |
-| 69981 | Fluvastatina Teva 20 mg cápsulas duras EFG | Cápsula dura | Teva Pharma S.L.U. |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 64648 | Lescol Prolib 80 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada |
+| 64782 | Vaditon Prolib 80 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada |
+| 72243 | Fluvastatina Farmalider 40 mg cápsulas duras EFG | Cápsula dura |
+| 69981 | Fluvastatina Teva 20 mg cápsulas duras EFG | Cápsula dura |
+| 71207 | Fluvastatina Kern Pharma 80 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones y afecciones de riesgo (según el grafo de conocimiento, no el texto del prospecto)**: enfermedad hepática, enfermedad de la vesícula biliar, miopatía, enfermedades musculares y del músculo esquelético, parálisis periódica familiar, trastornos hipotensivos, abuso o dependencia de sustancias, rabdomiólisis, fascitis nodular y lesiones.
+
+No se dispone de las advertencias ni de las contraindicaciones del prospecto de la AEMPS. Consultar el prospecto para la información de seguridad completa.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Fluvastatina es una estatina comercializada en España (20 autorizaciones) y existen varios ensayos aleatorizados publicados en hipercolesterolemia e hiperlipidemia mixta. La evidencia directa proviene de la literatura y no de ensayos registrados, y se ha evaluado solo por título y resumen. Por eso el nivel es L2 y no L1.
+La predicción es plausible y coherente con el mecanismo y las indicaciones originales, y está respaldada por literatura específica de fluvastatina. Sin embargo, no hay ensayos clínicos de fluvastatina vinculados a esta indicación genérica, y la hiperlipoproteinemia es una categoría amplia que ya se solapa con los usos establecidos del fármaco. Dentro de las predicciones, la **hipercolesterolemia familiar** (heterocigota) cuenta con un ensayo de Fase 3 completado con fluvastatina en niños (NCT00171236) y sería candidata a "Proceed with Guardrails". La forma homocigota no está respaldada.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad.
-- Confirmar el diseño y los resultados de los ECA clave (PMID 11219479, 15598476, 10856536) mediante lectura del texto completo.
-- Confirmar si NCT00726362 incluye fluvastatina.
-- Definir medidas de resguardo: monitorizar enzimas hepáticas y síntomas de miopatía, y revisar interacciones vía CYP2C9.
+- Precisar el subtipo de hiperlipoproteinemia a evaluar y definir si se trata de una indicación nueva o de una ya cubierta por la ficha técnica.
+- Ensayos clínicos controlados de fluvastatina específicos para ese subtipo.
+- Descargar y analizar el prospecto de la AEMPS para completar advertencias y contraindicaciones.
+- Datos detallados del mecanismo de acción.
+- Un plan de monitoreo de seguridad hepática y muscular (transaminasas, CK) y revisión de interacciones farmacológicas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

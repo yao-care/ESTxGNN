@@ -2,7 +2,7 @@
 layout: default
 title: Dextromethorphan
 parent: Solo predicción del modelo (L5)
-nav_order: 172
+nav_order: 244
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Dextrometorfano: De Tos (uso antitusivo) a Enfermedad de la Cavidad Nasal
+# Dextrometorfano: De Rinitis Alérgica y Cuadros de Vías Respiratorias Altas a Enfermedad de la Cavidad Nasal
 
 ## Resumen en Una Frase
 
-El dextrometorfano es un antitusivo de acción central, comercializado en España en jarabes, soluciones orales, comprimidos y pastillas.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**, pero actualmente **no hay literatura** que lo respalde y el único ensayo clínico asociado (**1 ensayo**) estudia depresión mayor, no patología nasal.
+Dextrometorfano es un antitusivo de uso muy extendido, cuyas indicaciones originales en el grafo de conocimiento incluyen rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, nasofaringitis y cefalea.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**, con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta dirección.
+La predicción se basa únicamente en el modelo (nivel de evidencia L5).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tos (uso antitusivo según datos farmacológicos; los textos de indicación de AEMPS no están disponibles) |
+| Indicación Original | Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, rinitis, nasofaringitis y cefalea (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 99,98% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -50,17 +51,15 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados de mecanismo de acción en el campo original del fármaco. Según la información complementaria, el dextrometorfano es un antagonista del receptor NMDA, agonista del receptor sigma-1 e inhibidor de la recaptación de serotonina, con actividad antitusiva central. Los datos farmacológicos también lo relacionan con GRIN2C (subunidad GluN2C del receptor NMDA), TAS2R1 (receptor del gusto amargo) y SIGMAR1.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el dextrometorfano actúa como antagonista del receptor NMDA y agonista del receptor sigma-1, con actividad antitusiva central. Los datos farmacológicos compilados también lo asocian con GluN2C (GRIN2C), TAS2R1 y SIGMAR1.
 
-La relación con la nueva indicación es débil. No hay un vínculo directo entre estos mecanismos y la patología de la cavidad nasal. Si existiera algún beneficio, probablemente sería sintomático (tos o hipersensibilidad de la vía aérea superior) y no modificador de la enfermedad.
+La predicción parece derivarse de la cercanía en el grafo con indicaciones nasales ya conocidas (rinitis y rinitis vasomotora). La enfermedad de la cavidad nasal es una categoría amplia que engloba esas condiciones, por lo que el resultado podría reflejar en gran parte un solapamiento con indicaciones existentes y no un uso realmente nuevo.
 
-Por ello, la puntuación tan alta del modelo debe leerse como una señal de hipótesis, no como evidencia de eficacia. Las otras indicaciones predichas tampoco tienen ensayos ni literatura: laringofaringitis aguda (99.98%), difteria faucial, cefalea trigémino-autonómica, trastorno degenerativo del disco cervical y urticaria alérgica. En varias de ellas el vínculo mecanístico es nulo o meramente especulativo.
+No se ha establecido un vínculo mecanístico directo entre el dextrometorfano y la patología nasal. Sin ensayos ni literatura, la razonabilidad de la predicción no puede verificarse.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT06958692](https://clinicaltrials.gov/study/NCT06958692) | Fase 3 | Reclutando | 388 | Ensayo multicéntrico, aleatorizado, doble ciego y controlado con placebo de comprimidos de liberación sostenida de dextrometorfano y bupropión en adultos chinos con trastorno depresivo mayor. Sin resultados aún. Es una combinación a dosis fija y no está relacionado con patología nasal. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
@@ -68,39 +67,36 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones. Los textos de indicación aprobada no están disponibles en los datos recibidos.
+Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 57623 | Cinfatos Antitusivo 2 mg/ml Solución Oral | Solución oral | No disponible |
-| 83679 | Intertos 15 mg Comprimidos | Comprimido | No disponible |
-| 67400 | Bicasan 2 mg/ml Jarabe | Jarabe | No disponible |
-| 80342 | Tosystop 20 mg Solución Oral | Solución oral | No disponible |
-| 24381 | Propalcof 15 mg Comprimidos | Comprimido | No disponible |
-
-Otras formas farmacéuticas registradas: comprimido bucodispersable, pastilla para chupar y cápsula blanda.
+| 57623 | Cinfatos Antitusivo 2 mg/ml solución oral | Solución oral | No disponible |
+| 83679 | Intertos 15 mg comprimidos | Comprimido | No disponible |
+| 67400 | Bicasan 2 mg/ml jarabe | Jarabe | No disponible |
+| 24381 | Propalcof 15 mg comprimidos | Comprimido | No disponible |
+| 57174 | Bisolvon Antitusivo 2 mg/ml jarabe | Jarabe | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: la consulta se completó, pero los 3 registros son dianas farmacológicas, no interacciones clínicas con otros medicamentos: GluN2C (GRIN2C), TAS2R1 y receptor sigma no opioide intracelular 1 (SIGMAR1). No incluyen nivel de gravedad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): hipertensión, síndrome de QT largo (incluido el familiar), torsades de pointes, insuficiencia y enfermedad hepática, epilepsia, EPOC, úlcera gástrica y péptica, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, trombocitopenia, insuficiencia suprarrenal (enfermedad de Addison), hipotiroidismo, enfermedad inflamatoria intestinal, déficit de potasio, diabetes y cetoacidosis diabética, hiperplasia prostática benigna, bronquitis y trastornos hipotensivos, entre otras.
+- **Interacciones y dianas farmacológicas**: se identificaron 3 dianas, GluN2C (GRIN2C), TAS2R1 y el receptor sigma-1 (SIGMAR1). Son interacciones de tipo farmacológico con dianas, no interacciones con otros fármacos con nivel de gravedad asignado.
 
-Consultar el prospecto para información de advertencias y contraindicaciones.
+Las advertencias y contraindicaciones del prospecto de la AEMPS no están disponibles; consultar el prospecto para la información de seguridad oficial.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene respaldo clínico ni bibliográfico. El único ensayo asociado evalúa una combinación en depresión mayor, y el mecanismo del fármaco no se conecta con la patología nasal. Con las reglas de nivel de evidencia el resultado es L5. El nivel L3 asignado inicialmente al ensayo no se sostiene.
+La predicción tiene un puntaje TxGNN muy alto, pero carece de ensayos clínicos y de literatura (nivel L5), y probablemente refleja la cercanía con indicaciones nasales ya conocidas más que una nueva indicación. Además, la información de seguridad del prospecto y el mecanismo de acción no están disponibles.
 
 **Para avanzar se necesita:**
-- Revisión bibliográfica dirigida (dextrometorfano en rinitis, rinosinusitis o hipersensibilidad de la vía aérea superior)
-- Definir con precisión qué patología nasal concreta abarca el término predicho
-- Obtener del prospecto de AEMPS las advertencias, contraindicaciones e indicaciones aprobadas, que actualmente faltan
-- Datos de mecanismo de acción desde DrugBank para analizar el vínculo mecanístico
-- Comprobar en el registro que el ensayo NCT06958692 no incluye ninguna rama nasal
-
-*Estos resultados son solo para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), ya que su ausencia bloquea el cribado de seguridad.
+- Completar los datos del mecanismo de acción (por ejemplo, consultando DrugBank).
+- Realizar una búsqueda sistemática de literatura y ensayos sobre dextrometorfano en patología nasal.
+- Aclarar si la «enfermedad de la cavidad nasal» aporta algo realmente distinto de las indicaciones de rinitis ya conocidas.
+- Evaluar la compatibilidad de las vías de administración y formas farmacéuticas, hoy pendiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

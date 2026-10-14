@@ -2,7 +2,7 @@
 layout: default
 title: Trametinib
 parent: Solo predicción del modelo (L5)
-nav_order: 538
+nav_order: 811
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,17 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Trametinib: De Melanoma con Mutación BRAF V600 a Coroideremia
+# Trametinib: De Melanoma Metastásico a Coriorremia
+
+**Nota sobre la selección de la indicación:** la predicción de mayor puntaje (rank 1) es la coriorremia, pero carece por completo de evidencia (L5) y de vínculo mecanístico. Esta es la indicación que sigue el formato del informe. Como contexto, el informe también señala que las predicciones de rank 2 a 10 se concentran en subtipos de melanoma, donde la evidencia es considerablemente mayor.
+
+---
 
 ## Resumen en Una Frase
 
-Trametinib es un inhibidor de MEK1/2 comercializado en España. Los registros de autorización no incluyen el texto de la indicación original, pero los ensayos asociados lo sitúan en melanoma con mutación BRAF V600. El modelo TxGNN predice que podría ser efectivo para la **coroideremia** (puntaje de 99,31 %), pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+Trametinib es un inhibidor de MEK, originalmente utilizado para el tratamiento del melanoma metastásico.
+El modelo TxGNN predice que podría ser efectivo para **coriorremia**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Se trata de una predicción puramente computacional, sin respaldo mecanístico conocido.
 
 ---
 
@@ -41,9 +47,9 @@ Trametinib es un inhibidor de MEK1/2 comercializado en España. Los registros de
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de autorización de la AEMPS (los ensayos del fármaco apuntan a melanoma con mutación BRAF V600) |
-| Nueva Indicación Predicha | Coroideremia |
-| Puntaje de Predicción TxGNN | 99,31 % |
+| Indicación Original | Melanoma metastásico (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Nueva Indicación Predicha | Coriorremia |
+| Puntaje de Predicción TxGNN | 99,31% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
@@ -53,36 +59,36 @@ Trametinib es un inhibidor de MEK1/2 comercializado en España. Los registros de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada. Según la información conocida, trametinib es un inhibidor alostérico de MEK1/2 que bloquea la señalización de la vía MAPK, y su eficacia está comprobada en tumores con activación de esa vía, como el melanoma BRAF-mutante.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trametinib inhibe MEK1 y MEK2 (genes MAP2K1 y MAP2K2), componentes de la vía MAPK situados por debajo de BRAF. Su eficacia en melanoma con mutación BRAF V600 está establecida, y se usa también en combinación con dabrafenib.
 
-La coroideremia es una degeneración retiniana hereditaria causada por la pérdida de función de CHM/REP1. Esta pérdida provoca defectos en la prenilación de las proteínas Rab y la degeneración del epitelio pigmentario de la retina y de los fotorreceptores. **No se ha encontrado un vínculo establecido entre esta enfermedad y la señalización MAPK/MEK.**
+La coriorremia es una degeneración retiniana ligada al cromosoma X, causada por la pérdida de función del gen CHM (REP1). No existe un vínculo establecido con la activación de la vía MAPK/MEK, por lo que el puntaje elevado (0,993) debe interpretarse como una predicción computacional sin sustento mecanístico. No se aportaron ensayos clínicos ni literatura.
 
-Por tanto, el puntaje alto proviene de una predicción basada en el grafo de conocimiento, sin respaldo mecanístico ni clínico. Además, la inhibición crónica de MEK conlleva un riesgo conocido de toxicidad retiniana (retinopatía asociada a inhibidores de MEK), lo que preocupa especialmente en una enfermedad degenerativa de la retina.
+**Alternativas dentro de la misma lista de predicciones:** las predicciones de rank 2 a 10 corresponden a subtipos de melanoma (no cutáneo, epitelioide, de párpado, escrotal, acral lentiginoso, amelanótico, nodular, de células en balón y de extensión superficial), con puntajes similares (99,2%–99,3%). Son mecanísticamente coherentes con la indicación original, y la de mayor respaldo es el melanoma no cutáneo (rank 2, nivel L1 asignado en el análisis, con salvedades) junto con el melanoma nodular (L3).
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para coriorremia.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para coriorremia.
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 114931002 | MEKINIST 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 114931006 | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1231781001 | SPEXOTRAS 0,05 mg/ml polvo para solución oral | Polvo para solución oral |
-| 114931006IP | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 114931002 | MEKINIST 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 114931006 | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 1231781001 | SPEXOTRAS 0,05 mg/ml polvo para solución oral | Polvo para solución oral | No disponible en los datos |
+| 114931006IP | MEKINIST 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 
-Todas las autorizaciones pertenecen a Novartis Europharm Limited. Los registros no incluyen el texto de la indicación aprobada.
+Titular de todas las autorizaciones: Novartis Europharm Limited.
 
 ---
 
@@ -90,19 +96,20 @@ Todas las autorizaciones pertenecen a Novartis Europharm Limited. Los registros 
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de MEK1/2) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de MEK1/MEK2) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Examen oftalmológico (por el riesgo de retinopatía asociada a inhibidores de MEK). Para el resto de parámetros, consultar el prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Toxicidad retiniana**: la inhibición crónica de MEK se asocia con retinopatía. Este riesgo es especialmente relevante en una enfermedad degenerativa de la retina como la coroideremia.
+- **Interacciones Farmacológicas**: se identificaron 17 registros, 15 de ellos de nivel moderado según DDInter. Los principales son: fostamatinib, elagolix, apalutamida, brigatinib, dabrafenib, encorafenib, isavuconazonio, lasmiditán, midostaurina, sarecyclina, enzalutamida, erdafitinib, gilteritinib, idelalisib y tucatinib. Los dos registros restantes corresponden a las dianas farmacológicas de trametinib (MEK1 y MEK2).
+- En los estudios sobre subtipos de melanoma se describen eventos adversos cutáneos asociados a la combinación BRAF/MEK, como la paniculitis.
 
-Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones), consultar el prospecto. No se encontraron interacciones farmacológicas registradas.
+No se dispone de advertencias principales ni contraindicaciones del prospecto; consultar el prospecto para esta información.
 
 ---
 
@@ -111,14 +118,13 @@ Para el resto de la información de seguridad (advertencias, contraindicaciones 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos, literatura ni vínculo mecanístico con la vía MEK, es decir, se trata solo de una predicción del modelo (L5). El riesgo de toxicidad retiniana del fármaco va en contra de su uso en una enfermedad degenerativa de la retina.
+La predicción para coriorremia se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos, sin literatura y sin vínculo biológico conocido entre la vía MEK y la enfermedad.
 
 **Para avanzar se necesita:**
-- Datos preclínicos que relacionen la vía MAPK/MEK con la fisiopatología de la coroideremia (CHM/REP1 y prenilación de Rab)
-- Evaluación del riesgo de retinopatía por inhibidores de MEK en este contexto
-- Datos de seguridad del prospecto de la AEMPS y del mecanismo de acción
-
-**Nota:** las predicciones posteriores del modelo, todas ellas subtipos de melanoma, cuentan con más respaldo. Varias alcanzan el nivel L2 gracias a ensayos de Fase 2 y 3 con dabrafenib más trametinib. Si el objetivo es priorizar candidatos con evidencia, conviene evaluarlas por separado.
+- Datos preclínicos que justifiquen un vínculo entre la deficiencia de CHM/REP1 y la vía MAPK/MEK
+- Revisión de las predicciones de melanoma (rank 2 a 10), en particular melanoma no cutáneo y nodular, como candidatas con mayor respaldo. En el melanoma no cutáneo, el nivel L1 depende de evidencia de fase 3 externa a los datos aportados y debe verificarse de forma independiente; con los datos aportados correspondería L2. Habría que confirmar el estado de BRAF y el subtipo.
+- Datos del mecanismo de acción y las advertencias y contraindicaciones del prospecto de la AEMPS
+- Textos de indicación aprobada de las autorizaciones españolas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Degarelix
 parent: Solo predicción del modelo (L5)
-nav_order: 164
+nav_order: 231
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Degarelix: De Indicación Original No Registrada a Hipertricosis
+# Degarelix: De Cáncer de Próstata (indicación original no registrada en los datos) a Hipertricosis
 
 ## Resumen en Una Frase
 
-Degarelix es un antagonista del receptor de GnRH que reduce la LH y la testosterona; el registro de AEMPS incluido en los datos no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
-Se trata de una predicción puramente computacional, con un vínculo mecanístico débil.
-
----
+Degarelix es un antagonista del receptor de GnRH comercializado en España como Firmagon, y los datos compilados para este informe no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones de AEMPS están vacíos) |
+| Indicación Original | No disponible en los datos de la licencia AEMPS (texto de indicación vacío) |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 99,99 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Degarelix es un antagonista del receptor de GnRH. Bloquea la señal hipofisaria que estimula la producción de LH y, por tanto, reduce la testosterona. Actualmente no se dispone de datos detallados del campo de mecanismo de acción en DrugBank; esta descripción procede del análisis mecanístico del propio Evidence Pack.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, degarelix es un antagonista del receptor de GnRH: bloquea la señal hipotalámica-hipofisaria, reduce la secreción de LH y FSH y, con ello, los andrógenos gonadales. Este tipo de fármaco se utiliza en patologías dependientes de andrógenos.
 
-La lógica de la predicción sería que un descenso de andrógenos podría reducir el crecimiento excesivo de vello. Sin embargo, la mayoría de las hipertricosis no dependen de andrógenos, por lo que el vínculo es débil y no está respaldado por datos. El puntaje alto del modelo (99.99%) refleja conectividad en el grafo de conocimiento, no evidencia biológica ni clínica.
+La relación con la hipertricosis es **débil**. A diferencia del hirsutismo, la hipertricosis generalmente no depende de los andrógenos. La supresión androgénica solo podría influir en el crecimiento del vello en subtipos sensibles a los andrógenos. La puntuación de 0,9999 proviene exclusivamente del grafo de conocimiento, sin ensayos ni literatura que la respalden.
 
-Otras predicciones de la lista tampoco tienen sustento:
-- **Hipertricosis universal congénita de Ambras:** trastorno congénito no mediado por andrógenos.
-- **Anomalías genéticas aisladas del tallo piloso:** defectos estructurales sin respuesta hormonal.
-- **Pubertad precoz masculina familiar:** es la más cercana biológicamente, pero depende de mutaciones activadoras de LHCGR y es independiente de GnRH, así que un antagonista de GnRH no debería funcionar.
-- **Pubertad precoz central:** es mecanísticamente plausible, pero los agonistas de GnRH son el tratamiento estándar y degarelix no tiene datos pediátricos. Queda solo como pregunta de investigación.
-
----
+Las demás predicciones del modelo tampoco muestran un vínculo farmacológico sólido. Las dos de mayor relevancia biológica, la pubertad precoz familiar limitada al varón y la pubertad precoz central, se consideran únicamente preguntas de investigación. En la primera el mecanismo va en contra del beneficio, porque la mutación activadora de LHCGR actúa por debajo del bloqueo de GnRH. En la segunda hay coherencia mecanística, pero no existen datos pediátricos y degarelix es una formulación depot desarrollada para adultos. En la urticaria alérgica, la asociación podría reflejar un efecto adverso y no un beneficio.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para hipertricosis.
-
-Las publicaciones recuperadas en el Evidence Pack corresponden a otra predicción (síndrome de malformación con componente dental o periodontal) y tratan de la periodontitis en general. Ninguna menciona degarelix ni antagonistas de GnRH, así que son coincidencias de palabras clave y no evidencia del fármaco.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 08504002 | FIRMAGON 120 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Ferring Pharmaceuticals A/S |
-| 08504001 | FIRMAGON 80 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Ferring Pharmaceuticals A/S |
+| 08504002 | FIRMAGON 120 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+| 08504001 | FIRMAGON 80 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
 
-El texto de indicación aprobada no figura en los datos de ambas autorizaciones.
+## Citotoxicidad
 
----
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia hormonal (antagonista de GnRH); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar el prospecto; según las contraindicaciones del grafo de conocimiento, considerar QT/electrolitos (potasio) y función hepática |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
-
-Como señal indirecta, el análisis de la predicción de urticaria alérgica indica que degarelix se asocia con reacciones en el lugar de inyección y, raramente, con hipersensibilidad.
-
----
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de QT largo (incluido el familiar), torsades de pointes, enfermedad hepática, enfermedad de la vesícula biliar y deficiencia de potasio.
+- **Interacciones farmacológicas** (100 registradas; se muestran las principales):
+  - **Mayores**: cisaprida, dolasetrón (riesgo de prolongación del QT).
+  - **Moderadas**: claritromicina, levofloxacino, ondansetrón, granisetrón, palonosetrón, famotidina, loperamida y diversos laxantes/purgantes (bisacodilo, ácido picosulfúrico, polietilenglicol, aceite de ricino, lactulosa, lactitol, glicerina, citrato e hidróxido de magnesio, aceite mineral).
+  - **Menores**: metronidazol.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Todas las predicciones están en nivel L5 (solo modelo), sin ensayos ni literatura específica del fármaco. El mecanismo no respalda la hipertricosis, que en su mayoría no depende de andrógenos.
+La predicción se basa solo en la puntuación del modelo (nivel L5), sin ensayos ni literatura, y el vínculo mecanístico con la hipertricosis es débil. Además, faltan los datos de seguridad del prospecto, lo que impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de AEMPS las advertencias, las contraindicaciones y la indicación aprobada.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una búsqueda dirigida en la literatura sobre degarelix o antagonistas de GnRH en hipertricosis, para comprobar si existe alguna evidencia.
-- Si se quiere explorar la pubertad precoz central (única hipótesis mecanísticamente plausible), justificar una ventaja sobre los agonistas de GnRH y aportar datos de seguridad pediátrica.
+- Descargar y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación aprobada).
+- Obtener el mecanismo de acción detallado desde DrugBank.
+- Revisión de la literatura sobre antagonistas de GnRH en trastornos del crecimiento del vello, para comprobar si existe un subtipo sensible a andrógenos.
+- Si se desea explorar alguna línea, priorizar como preguntas de investigación la pubertad precoz central y la pubertad precoz familiar limitada al varón, con evaluación de seguridad (QT, electrolitos) y de formulación pediátrica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

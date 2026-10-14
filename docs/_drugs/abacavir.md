@@ -29,19 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Abacavir: De Infección por VIH-1 a Síndrome de Inmunodeficiencia Adquirida Felina
+# Abacavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Abacavir es un inhibidor nucleósido de la transcriptasa inversa (ITIN) que se usa en el tratamiento de la infección por VIH-1 en humanos.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**,
-pero la evidencia es indirecta: **4 ensayos clínicos** en humanos con VIH-1 y **1 publicación** in vitro sobre el virus de la inmunodeficiencia felina (FIV).
+Abacavir es un inhibidor nucleosídico de la transcriptasa inversa, originalmente utilizado para el tratamiento de la infección por VIH y el SIDA.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, aunque se trata de una indicación veterinaria sin relevancia clínica humana directa.
+La evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** preclínica que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS (textos de indicación vacíos); uso conocido: infección por VIH-1, según los ensayos aportados |
+| Indicación Original | VIH / SIDA (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 99,79 % |
 | Nivel de Evidencia | L4 |
@@ -51,64 +51,56 @@ pero la evidencia es indirecta: **4 ensayos clínicos** en humanos con VIH-1 y *
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Abacavir es un ITIN, análogo de la guanosina. No se dispone de datos detallados de mecanismo de acción en el Evidence Pack. Por su clase farmacológica, actúa bloqueando la transcriptasa inversa viral, una enzima esencial para la replicación de los retrovirus.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general de la clase, abacavir es un inhibidor nucleosídico de la transcriptasa inversa (ITIN) con actividad frente al VIH-1 y VIH-2. Su eficacia en la infección por VIH está establecida, y mecanísticamente podría ser aplicable a otros lentivirus.
 
-El FIV es un lentivirus que también depende de una transcriptasa inversa, y comparte semejanzas moleculares y clínicas con el VIH. Por ello, el gato doméstico se usa como modelo animal del VIH. El estudio in vitro de 2002 indica que varios inhibidores de la transcriptasa inversa activos frente al VIH también lo son frente al FIV, y evalúa la combinación de zidovudina, lamivudina y abacavir. Esto hace plausible el vínculo mecanístico.
+El virus de la inmunodeficiencia felina (FIV) es un lentivirus cuya transcriptasa inversa está biológicamente emparentada con la del VIH, por lo que existe una justificación mecanística plausible. Sin embargo, esta relación se infiere del conocimiento de la clase farmacológica y no de los datos suministrados.
 
-Conviene ser prudente. Los cuatro ensayos clínicos disponibles se hicieron en humanos con VIH-1, no en gatos, y respaldan el uso humano de abacavir, no la enfermedad felina. El puntaje elevado del modelo probablemente refleja la asociación con la familia de los virus VIH en el grafo de conocimiento, más que evidencia directa en la especie felina.
+El único estudio disponible (PMID 11684314, 2002) evalúa la combinación zidovudina/lamivudina/abacavir en un modelo *in vitro*, por lo que no es posible aislar la contribución de abacavir por sí solo. El puntaje elevado de TxGNN refleja probablemente la similitud con la indicación ya existente (VIH), y no una nueva oportunidad terapéutica para pacientes humanos.
+
+Otras predicciones del modelo siguen un patrón similar: la infección por el virus de inmunodeficiencia símica (SIV; puntaje 99,79 %, evidencia L4) es un modelo en primates no humanos con un único estudio de susceptibilidad *in vitro*, y un trastorno del neurodesarrollo raro con ataxia, ausencia del habla y reducción de la sustancia blanca cortical (puntaje 99,78 %, evidencia L5) carece de ensayos, literatura y vínculo mecanístico evidente.
 
 ## Evidencia de Ensayos Clínicos
 
-Todos los ensayos son en humanos con VIH-1. Abacavir forma parte del tratamiento de base (abacavir/lamivudina) y no es la variable evaluada. La evidencia para la indicación felina es, por tanto, indirecta.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Fase 3 | Completado | 844 | ECA doble ciego: dolutegravir + abacavir/lamivudina frente a Atripla en adultos con VIH-1 sin tratamiento previo; objetivo de no inferioridad a 48 y 96 semanas |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Fase 3 | Completado | 828 | ECA doble ciego: dolutegravir frente a raltegravir, ambos con ITIN de base (abacavir/lamivudina o tenofovir/emtricitabina) |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Fase 2 | Completado | 208 | Estudio Fase IIb de selección de dosis de dolutegravir con abacavir/lamivudina o tenofovir/emtricitabina |
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Fase 3 | Completado | 13 | Estudio de un solo brazo: dolutegravir + abacavir/lamivudina durante 96 semanas; seguridad, eficacia y farmacocinética en plasma y líquido cefalorraquídeo |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Estudio preclínico in vitro | Antiviral Research | Efecto combinado de zidovudina, lamivudina y abacavir para suprimir la replicación in vitro del FIV; el gato se propone como modelo animal del VIH |
-
-Para la segunda predicción del modelo, la infección por el virus de inmunodeficiencia simia (SIV), solo existe un estudio in vitro de susceptibilidad ([PMID 15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/), *Antiviral Therapy*, 2004) y ningún ensayo clínico.
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Estudio preclínico (modelo animal/*in vitro*) | Antiviral Research | Efecto combinado de zidovudina, lamivudina y abacavir en la supresión de la replicación del FIV; el FIV en el gato doméstico se considera un modelo animal de la infección por VIH |
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 8 autorizaciones registradas. Los textos de indicación aprobada no figuran en los datos recibidos.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 85319 | Abacavir Accord 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Accord Healthcare S.L.U. |
-| 99112001 | Ziagen 300 mg comprimidos recubiertos con película | Comprimido recubierto | Viiv Healthcare B.V. |
-| 84740 | Abacavir Tarbis 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Tarbis Farma S.L. |
-| 86115 | Abacavir Zentiva 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Zentiva K.S. |
-| 99112002 | Ziagen 20 mg/ml solución oral | Solución oral | Viiv Healthcare B.V. |
+| 85319 | Abacavir Accord 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 99112001 | Ziagen 300 mg comprimidos recubiertos con película | Comprimido recubierto | No disponible |
+| 84740 | Abacavir Tarbis 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 86115 | Abacavir Zentiva 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 99112002 | Ziagen 20 mg/ml solución oral | Solución oral | No disponible |
+
+Hay 8 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación o precaución según el grafo de conocimiento** (no proviene del texto del prospecto): insuficiencia hepática, enfermedad hepática, hígado graso y esteatohepatitis no alcohólica, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, miopatía y miositis (incluida dermatomiositis), neutropenia, agranulocitosis, anemia (incluida la macrocítica), hipertrigliceridemia, obesidad y acidosis láctica.
+- **Interacciones farmacológicas**: se registran 93 interacciones. Entre las de nivel moderado figuran naltrexona y orlistat; otras (por ejemplo metformina, omeprazol, morfina, prednisona, vancomicina o anfotericina B) no tienen nivel de gravedad clasificado.
+- **Riesgo de hipersensibilidad asociado a HLA-B*57:01**: es un riesgo conocido de abacavir, que debería evaluarse antes de cualquier uso en una población nueva.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos en gatos ni en primates, y la única evidencia específica es un estudio in vitro de 2002 sobre el FIV. Los ensayos de Fase 2/3 sobre VIH-1 respaldan el uso humano de abacavir, no la indicación felina, por lo que el nivel de evidencia es L4. Además, los datos de seguridad locales están incompletos.
-
-Las otras dos predicciones tampoco justifican avanzar. La infección por SIV tiene solo un estudio in vitro (L4). El trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical no tiene ensayos, literatura ni vínculo mecanístico (L5), y su puntaje de 99,78 % es solo una predicción del modelo.
+La indicación predicha es veterinaria, está respaldada solo por un estudio preclínico de combinación y no representa una oportunidad terapéutica para pacientes humanos. El puntaje alto del modelo parece reflejar la similitud con la indicación original de VIH.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica y el prospecto de AEMPS para completar advertencias y contraindicaciones (brecha bloqueante de seguridad).
-- Obtener los datos del mecanismo de acción desde DrugBank.
-- Buscar estudios in vivo en gatos infectados con FIV, o en modelos de primates para SIV.
-- Comprobar la viabilidad veterinaria (vía, dosis y toxicidad en la especie felina), ya que la compatibilidad de vía de administración está pendiente de evaluar.
-- Revisar la relevancia de la literatura marcada como pendiente.
-
-*Este informe es solo para investigación y no constituye consejo médico ni veterinario. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Advertencias y contraindicaciones oficiales del prospecto de la AEMPS
+- Definir si existe interés real en una indicación veterinaria o si el modelo debe usarse solo como referencia de investigación
+- Evidencia que aísle el efecto de abacavir de forma individual, fuera de combinaciones
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

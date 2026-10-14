@@ -2,7 +2,7 @@
 layout: default
 title: Ertapenem
 parent: Evidencia moderada (L3-L4)
-nav_order: 209
+nav_order: 305
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,56 +29,67 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Ertapenem: De Antibiótico Carbapenémico Comercializado a Artritis Bacteriana
+# Ertapenem: De Neumonía Bacteriana a Artritis Bacteriana
 
 ## Resumen en Una Frase
 
-Ertapenem es un antibiótico carbapenémico de amplio espectro, comercializado en España, aunque los datos disponibles no incluyen su indicación original registrada.
-El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana**,
-pero actualmente hay **0 ensayos clínicos** y solo **10 publicaciones** de apoyo indirecto (casos clínicos, cohortes pequeñas y estudios in vitro).
+Ertapenem es un antibiótico carbapenémico de administración intravenosa. Según el grafo de conocimiento, sus indicaciones de partida incluyen la neumonía bacteriana, la neumonía estreptocócica y las infecciones por *Peptostreptococcus*.
+El modelo TxGNN predice que podría ser efectivo para la **artritis bacteriana**, pero por ahora hay **0 ensayos clínicos** y solo **10 publicaciones** (casos clínicos, series pequeñas y estudios in vitro). Se trata, por tanto, de una hipótesis con respaldo clínico débil.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones AEMPS están vacíos) |
+| Indicación Original | Neumonía bacteriana (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles en los datos compilados) |
 | Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99,72% |
+| Puntaje de Predicción TxGNN | 99,72 % |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 8 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos. Según la información conocida, ertapenem es un carbapenem de amplia cobertura frente a bacterias Gram-positivas, Gram-negativas y anaerobias, pero no frente a MRSA, *Pseudomonas* ni *Acinetobacter*. La literatura recopilada indica que se une preferentemente a las proteínas fijadoras de penicilina (PBP) 2 y 3.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este fármaco. Según el conocimiento general, ertapenem es un carbapenémico de amplio espectro que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina (PBP). Es eficaz en infecciones respiratorias bacterianas, lo que es coherente con sus indicaciones de partida.
 
-Las bacterias que causan artritis séptica e infecciones osteoarticulares (enterobacterias, anaerobios) entran en gran parte dentro de ese espectro. Además, su administración una vez al día facilita el tratamiento ambulatorio prolongado, habitual en estas infecciones. Un estudio de cohorte retrospectivo con 306 pacientes en terapia ambulatoria con ertapenem incluyó infecciones óseas y articulares entre sus indicaciones más frecuentes.
+La neumonía bacteriana y la artritis bacteriana son ambas infecciones causadas por bacterias sensibles a este antibiótico. Ertapenem tiene actividad frente a muchas enterobacterias (incluidas las productoras de BLEE) y frente a anaerobios, que son causas plausibles de artritis séptica e infecciones osteoarticulares. Por eso el vínculo mecanístico es coherente.
 
-Conviene ser prudentes: el vínculo es solo de plausibilidad farmacológica. El puntaje de 99,72% es una predicción del modelo y no constituye evidencia clínica.
+Sin embargo, el puntaje de 99,72 % es una predicción computacional y no constituye evidencia clínica. No hay ensayos registrados para esta indicación y la literatura disponible se compone sobre todo de casos clínicos y series pequeñas.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
+
+Varias publicaciones son solo tangenciales a la indicación; se señalan en la tabla.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [24709258](https://pubmed.ncbi.nlm.nih.gov/24709258/) | 2014 | Cohorte retrospectiva | Antimicrob Agents Chemother | 306 pacientes con ertapenem ambulatorio a largo plazo. Las indicaciones más frecuentes fueron infección intraabdominal (38%), neumonía (12%) e infecciones óseas y articulares. Evalúa seguridad y eficacia. |
-| [31220276](https://pubmed.ncbi.nlm.nih.gov/31220276/) | 2019 | Cohorte | J Antimicrob Chemother | 10 pacientes con infecciones óseas y articulares tratados con β-lactámico subcutáneo como terapia supresiva prolongada. No es específico de ertapenem. |
-| [22233826](https://pubmed.ncbi.nlm.nih.gov/22233826/) | 2011 | Caso clínico | J Chemother | Artritis séptica de muñeca por *Klebsiella pneumoniae* tratada con éxito con ertapenem y levofloxacino. |
-| [31352398](https://pubmed.ncbi.nlm.nih.gov/31352398/) | 2019 | Caso clínico | BMJ Case Rep | Osteomielitis por *Citrobacter koseri* en pie diabético, con gota aguda concomitante, tratada con éxito con ertapenem. |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohorte | Clin Lab | Distribución de patógenos y resistencias en infecciones óseas y articulares en menores de 4 años. Es un estudio epidemiológico, no evalúa ertapenem. |
-| [41878879](https://pubmed.ncbi.nlm.nih.gov/41878879/) | 2026 | Cohorte / in vitro | J Antimicrob Chemother | Propone temocilina como alternativa a los carbapenems en infecciones osteoarticulares por enterobacterias resistentes a cefalosporinas de tercera generación. |
-| [38924836](https://pubmed.ncbi.nlm.nih.gov/38924836/) | 2024 | In vitro / preclínico | Diagn Microbiol Infect Dis | Auranofina restaura la sensibilidad de *E. coli* resistente a carbapenems frente a ertapenem. |
-| [31585203](https://pubmed.ncbi.nlm.nih.gov/31585203/) | 2020 | Caso clínico | Anaerobe | Artritis séptica y osteomielitis de hombro por *Clostridium paraputrificum*. No se centra en ertapenem. |
-| [37578166](https://pubmed.ncbi.nlm.nih.gov/37578166/) | 2023 | Caso clínico | J Investig Med High Impact Case Rep | Artritis séptica por *Prevotella bivia* en adulto inmunocompetente. No se centra en ertapenem. |
-| [29183082](https://pubmed.ncbi.nlm.nih.gov/29183082/) | 2017 | Revisión | JAMA | Revisión sobre hidradenitis supurativa. Su relación con esta predicción es débil. |
+| [24709258](https://pubmed.ncbi.nlm.nih.gov/24709258/) | 2014 | Cohorte retrospectiva | Antimicrob Agents Chemother | Estudio de seguridad y eficacia de ertapenem ambulatorio a largo plazo en 306 pacientes; las indicaciones más frecuentes fueron infecciones intraabdominales (38 %) y neumonía (12 %), seguidas de infecciones óseas y articulares |
+| [22233826](https://pubmed.ncbi.nlm.nih.gov/22233826/) | 2011 | Caso clínico | J Chemother | Artritis séptica de muñeca por *Klebsiella pneumoniae* tratada con éxito con ertapenem y levofloxacino |
+| [31352398](https://pubmed.ncbi.nlm.nih.gov/31352398/) | 2019 | Caso clínico | BMJ Case Rep | Osteomielitis por *Citrobacter koseri* en pie diabético con artritis gotosa concomitante, tratada con éxito con ertapenem |
+| [31220276](https://pubmed.ncbi.nlm.nih.gov/31220276/) | 2019 | Cohorte (10 pacientes) | J Antimicrob Chemother | Terapia antibiótica supresora subcutánea con β-lactámicos en infecciones óseas y articulares cuando la cirugía óptima no es posible; analiza seguridad y evolución |
+| [31585203](https://pubmed.ncbi.nlm.nih.gov/31585203/) | 2020 | Caso clínico y revisión | Anaerobe | Primer caso de artritis séptica y osteomielitis de hombro por *Clostridium paraputrificum* |
+| [37578166](https://pubmed.ncbi.nlm.nih.gov/37578166/) | 2023 | Caso clínico y revisión | J Investig Med High Impact Case Rep | Artritis séptica de rodilla por *Prevotella bivia* (anaerobio) en una adulta inmunocompetente |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohorte | Clin Lab | Distribución de patógenos y resistencia antimicrobiana en infecciones osteoarticulares de niños menores de 4 años (relación indirecta con ertapenem) |
+| [38924836](https://pubmed.ncbi.nlm.nih.gov/38924836/) | 2024 | Estudio in vitro | Diagn Microbiol Infect Dis | Auranofina restablece la sensibilidad a ertapenem en *E. coli* resistente a carbapenémicos (no es un estudio en artritis) |
+| [41878879](https://pubmed.ncbi.nlm.nih.gov/41878879/) | 2026 | Cohorte / estudio in vitro | J Antimicrob Chemother | Evalúa la temocilina como alternativa a los carbapenémicos en infecciones osteoarticulares por enterobacterias resistentes a cefalosporinas de 3.ª generación |
+| [29183082](https://pubmed.ncbi.nlm.nih.gov/29183082/) | 2017 | Revisión | JAMA | Avances en el diagnóstico y tratamiento de la hidradenitis supurativa (relevancia baja para esta indicación) |
+
+---
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 8 autorizaciones.
+Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no están disponibles en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
@@ -88,24 +99,34 @@ Se muestran 5 de las 8 autorizaciones.
 | 89595 | ERTAPENEM QILU 1 G EFG | Polvo para concentrado para solución para perfusión | Qilu Pharma Spain S.L. |
 | 1221656001 | ERTAPENEM SUN 1 G EFG | Polvo para concentrado para solución para perfusión | Sun Pharmaceutical Industries (Europe) B.V. |
 
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones o enfermedades de precaución (según relaciones del grafo de conocimiento, no según el texto del prospecto):** epilepsia, enfermedad renal, piouréter, colitis por *Clostridium difficile* y enterocolitis necrosante perinatal.
+- **Interacciones farmacológicas:** se identificaron 38 interacciones en total; los datos revisados incluyen 20.
+  - **Mayor:** bupropión.
+  - **Moderada:** ácido picosulfúrico, polietilenglicol 3350 con electrolitos y sulfato de sodio.
+  - **Nivel no clasificado:** calcitriol, pantoprazol, doxiciclina, morfina, metformina, omeprazol, rosiglitazona, vancomicina, prednisona, simvastatina, ranitidina, ondansetrón, metronidazol, famotidina, ácido acetilsalicílico y metoclopramida, entre otros.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo clínico para artritis bacteriana. La evidencia se limita a casos clínicos, cohortes pequeñas o indirectas y estudios in vitro, por lo que el nivel es L4. El puntaje alto de TxGNN no sustituye la evidencia clínica.
+La predicción es mecanísticamente coherente, pero no hay ensayos clínicos para artritis bacteriana y la evidencia se limita a casos clínicos, series pequeñas y estudios indirectos (nivel L4). El puntaje alto de TxGNN no sustituye a la evidencia clínica.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank y confirmar las indicaciones originales aprobadas.
-- Buscar estudios comparativos de ertapenem en infecciones osteoarticulares (artritis séptica, infección protésica) y revisar guías clínicas.
-- Como referencia, la segunda indicación predicha, infección por *Staphylococcus aureus*, tiene evidencia más directa. Incluye el ensayo de Fase 2 [NCT04886284](https://clinicaltrials.gov/study/NCT04886284) (cefazolina + ertapenem en bacteriemia por SASM, aún en reclutamiento) y varias series de casos, y podría priorizarse.
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Estudios comparativos o ensayos clínicos específicos en artritis séptica e infecciones osteoarticulares con ertapenem.
+- Datos de penetración en hueso y líquido sinovial, y de dosificación y duración del tratamiento en esta indicación.
+- Información detallada del mecanismo de acción.
+- Advertencias y contraindicaciones del prospecto de la AEMPS, y los textos de indicación aprobada de las autorizaciones españolas.
+- Revisión clínica de las interacciones, en especial con bupropión, y de las precauciones en epilepsia e insuficiencia renal.
+- Como referencia, otra indicación predicha para este fármaco, la **infección por *Staphylococcus aureus*** (ertapenem combinado con cefazolina), tiene evidencia más sólida (nivel L2, con un ensayo de Fase 2 y uno de Fase 4 en curso) y podría priorizarse para evaluación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

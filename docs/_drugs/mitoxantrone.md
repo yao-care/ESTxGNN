@@ -2,7 +2,7 @@
 layout: default
 title: Mitoxantrone
 parent: Evidencia moderada (L3-L4)
-nav_order: 360
+nav_order: 536
 evidence_level: L3
 indication_count: 8
 ---
@@ -29,98 +29,111 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-# Mitoxantrona: De Cáncer de Mama Metastásico y Leucemias a Neoplasia de las Vías Aerodigestivas Superiores
+# Mitoxantrona: De Leucemia Mieloide Aguda a Neoplasia del Tracto Aerodigestivo Superior
 
 ## Resumen en Una Frase
 
-Mitoxantrona es un antineoplásico de la familia de las antracenodionas, utilizado en cáncer de mama metastásico, cáncer de próstata, algunas leucemias y esclerosis múltiple recidivante.
-El modelo TxGNN predice que podría ser efectivo para la **neoplasia de las vías aerodigestivas superiores**.
-Esta categoría cuenta con **1 ensayo clínico** (sin relación directa con mitoxantrona) y **20 publicaciones**, en su mayoría estudios de fase II antiguos y estudios farmacocinéticos.
+Mitoxantrona es un antineoplásico de la familia de las antracenodionas, utilizado originalmente en la leucemia mieloide aguda y sus variantes.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del tracto aerodigestivo superior**,
+pero esta dirección se apoya en **0 ensayos clínicos** registrados para este término exacto y **20 publicaciones**, en su mayoría antiguas, preclínicas o referidas a tumores de cabeza y cuello en sentido amplio.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Las fichas de la AEMPS no incluyen texto de indicación. Según la fuente farmacológica (GtoPdb): cáncer de próstata, cáncer de mama metastásico, algunas leucemias y esclerosis múltiple recidivante |
-| Nueva Indicación Predicha | Neoplasia de las vías aerodigestivas superiores |
-| Puntaje de Predicción TxGNN | 99,78 % (posición 4324) |
+| Indicación Original | Leucemia mieloide aguda y subtipos relacionados (los textos de indicación de las autorizaciones españolas no constan en los datos compilados; se usan las indicaciones originales del grafo de conocimiento) |
+| Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior |
+| Puntaje de Predicción TxGNN | 99.78% |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la literatura, mitoxantrona es un inhibidor de la topoisomerasa II y un intercalante del ADN, con un mecanismo similar al de las antraciclinas. La fuente farmacológica la vincula con la diana TOP2A (topoisomerasa II alfa), pero indica que no hay datos públicos de afinidad que confirmen este vínculo.
+Mitoxantrona es un inhibidor de la topoisomerasa II y un agente intercalante del ADN. Los datos farmacológicos compilados señalan como diana a la topoisomerasa II alfa (TOP2A), aunque no hay datos públicos de afinidad que confirmen formalmente esta diana. La literatura la describe como un agente con un mecanismo similar al de las antraciclinas (como la doxorrubicina). Al bloquear la reparación del ADN, es citotóxica sobre células que se dividen con rapidez.
 
-Su actividad citotóxica está bien establecida en cáncer de mama, leucemias agudas y linfoma no Hodgkin. Un tumor escamoso o de glándulas salivales de la región aerodigestiva superior podría ser sensible al mismo mecanismo de daño del ADN. Los estudios clínicos disponibles son pequeños y antiguos: un estudio de fase II con mitoxantrona y cisplatino en tumores de glándulas salivales (14 pacientes) y estudios farmacocinéticos en carcinoma nasofaríngeo.
+La leucemia mieloide aguda y los tumores del tracto aerodigestivo superior (cavidad oral, faringe, laringe, nasofaringe, glándulas salivales) son enfermedades distintas. Comparten, sin embargo, la sensibilidad a la quimioterapia citotóxica que daña el ADN. Desde el punto de vista mecanístico es plausible que un inhibidor de topoisomerasa II tenga alguna actividad en carcinomas escamosos y de glándulas salivales. Hay estudios de fase II históricos en carcinoma de cabeza y cuello, nasofaríngeo y adenoide quístico, y una serie pequeña con mitoxantrona más cisplatino en tumores de glándulas salivales.
 
-**Advertencia importante:** esta categoría se solapa mucho con la de «cáncer de cabeza y cuello» (puntaje TxGNN 99,31 %, evidencia L2). Esa categoría tiene más y mejores datos, entre ellos un estudio de fase Ib completado con mitoxantrona liposomal y un ensayo de fase III registrado. Conviene leer ambas entradas juntas.
+Esta plausibilidad es modesta. Los estudios son antiguos y de tamaño reducido, y la propia revisión de los datos indica que las pruebas más relevantes están en la entrada vecina de "cáncer de cabeza y cuello" y no en este término concreto. La puntuación del modelo debe leerse como una hipótesis de investigación, no como una prueba de eficacia.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT06953739](https://clinicaltrials.gov/study/NCT06953739) | Fase 3 | Aún no recluta | 60 | Pegaspargasa con P-GEMD frente a P-Gemox en linfoma NK/T extranodal (estadio temprano no aerodigestivo superior o avanzado). No incluye mitoxantrona como componente visible y no tiene resultados. No aporta evidencia directa. |
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación exacta.
 
-Solo hay un ensayo registrado y su relación con mitoxantrona es débil (relevancia C). Los ensayos de mayor interés en cabeza y cuello, como NCT05717764 (fase III en carcinoma nasofaríngeo) y NCT04902027 (fase Ib completada), están en la categoría «cáncer de cabeza y cuello».
+---
 
 ## Evidencia de Literatura
 
+Se listan las publicaciones más relevantes de las 20 identificadas. Ninguna es un ensayo aleatorizado. Donde el resumen disponible está truncado, no se indican resultados.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39952083](https://pubmed.ncbi.nlm.nih.gov/39952083/) | 2025 | Ensayo clínico fase 1b (un solo brazo) | Oral Oncology | Mitoxantrona liposomal en carcinoma escamoso de cabeza y cuello recurrente o metastásico. Ya está aprobada en China para linfoma T periférico. |
-| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Fase II (un solo brazo) | Anti-Cancer Drugs | Mitoxantrona con cisplatino en tumores de glándulas salivales recurrentes o metastásicos; 14 pacientes. |
-| [11290867](https://pubmed.ncbi.nlm.nih.gov/11290867/) | 2001 | Fase II | Anti-Cancer Drugs | Ifosfamida con mitoxantrona en carcinoma escamoso de cabeza y cuello recurrente o metastásico; 22 pacientes. |
-| [8418245](https://pubmed.ncbi.nlm.nih.gov/8418245/) | 1993 | Fase II multicéntrico | J Clin Oncol | Seguridad y eficacia de mitoxantrona en carcinoma nasofaríngeo avanzado en el sudeste asiático. |
-| [1735075](https://pubmed.ncbi.nlm.nih.gov/1735075/) | 1992 | Estudio PK/PD clínico | Cancer | Farmacocinética en 15 pacientes con carcinoma nasofaríngeo avanzado (12-14 mg/m²), con modelo de tres compartimentos. |
-| [11269736](https://pubmed.ncbi.nlm.nih.gov/11269736/) | 2001 | Fase I | Cancer Chemother Pharmacol | Mitoxantrona, raltitrexed, ácido levofolínico y 5-FU en tumores sólidos avanzados, con antecedentes de raltitrexed en cabeza y cuello. |
-| [6542006](https://pubmed.ncbi.nlm.nih.gov/6542006/) | 1984 | Fase II (EORTC) | Eur J Cancer Clin Oncol | Mitoxantrona en tumores sólidos y linfomas (335 pacientes), con cabeza y cuello entre las localizaciones evaluadas. |
-| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | Revisión sistemática | Bulletin du Cancer | Tratamientos sistémicos del carcinoma adenoide quístico de cabeza y cuello metastásico o recurrente. |
-| [3512224](https://pubmed.ncbi.nlm.nih.gov/3512224/) | 1986 | Revisión | Drug Intell Clin Pharm | Revisión general: actividad significativa en mama, leucemias agudas y linfoma no Hodgkin; algo de actividad en cabeza y cuello. |
-| [36070368](https://pubmed.ncbi.nlm.nih.gov/36070368/) | 2022 | Preclínico | Sci Transl Med | Cribado farmacogenómico en células derivadas de pacientes con carcinoma escamoso de cabeza y cuello. |
+| [1650529](https://pubmed.ncbi.nlm.nih.gov/1650529/) | 1991 | Fase II | Am J Clin Oncol | 19 pacientes con carcinoma de cabeza y cuello incurable (17 escamosos, 2 adenoides quísticos), mitoxantrona 14 mg/m² cada 3 semanas con ajuste de dosis según leucocitos; se evaluó toxicidad en 60 ciclos |
+| [8418245](https://pubmed.ncbi.nlm.nih.gov/8418245/) | 1993 | Fase II multicéntrico | J Clin Oncol | Seguridad y eficacia de mitoxantrona en carcinoma nasofaríngeo avanzado en el Sudeste Asiático |
+| [8922205](https://pubmed.ncbi.nlm.nih.gov/8922205/) | 1996 | Fase II | Ann Oncol | Estudio EORTC en carcinoma adenoide quístico de cabeza y cuello, motivado por la actividad observada en un caso clínico |
+| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Fase II (cohorte) | Anti-Cancer Drugs | Mitoxantrona + cisplatino en 14 pacientes con tumores malignos de glándulas salivales recurrentes o metastásicos |
+| [1735075](https://pubmed.ncbi.nlm.nih.gov/1735075/) | 1992 | Cohorte | Cancer | Farmacocinética y farmacodinamia en 15 pacientes con carcinoma nasofaríngeo avanzado (modelo de tres compartimentos) |
+| [6542006](https://pubmed.ncbi.nlm.nih.gov/6542006/) | 1984 | Fase II | Eur J Cancer Clin Oncol | Estudio EORTC en 335 pacientes con tumores sólidos y linfomas, entre ellos cabeza y cuello |
+| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | Revisión sistemática | Bull Cancer | Tratamientos sistémicos del carcinoma adenoide quístico de cabeza y cuello recurrente o metastásico |
+| [3512224](https://pubmed.ncbi.nlm.nih.gov/3512224/) | 1986 | Revisión | Drug Intell Clin Pharm | Describe actividad significativa en mama, leucemias agudas y linfoma no Hodgkin, y cierta actividad en cabeza y cuello |
+| [1985750](https://pubmed.ncbi.nlm.nih.gov/1985750/) | 1991 | Serie prospectiva | Cancer | Carcinoma tiroideo anaplásico de células gigantes: 20 pacientes con quimio-radioterapia; mitoxantrona en los mayores de 65 años |
+| [36070368](https://pubmed.ncbi.nlm.nih.gov/36070368/) | 2022 | Preclínico | Sci Transl Med | Estudio farmacogenómico en 56 células derivadas de pacientes con carcinoma escamoso de cabeza y cuello |
 
-Otras publicaciones recuperadas son preclínicas o sin relación directa. Un ejemplo es el uso de mitoxantrona como trazador linfático en cirugía de tiroides, que no es un uso terapéutico.
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 79737 | Mitoxantrona Accord 2 mg/ml EFG | Concentrado para solución para perfusión | Accord Healthcare S.L.U. |
-| 57408 | Novantrone 2 mg/ml | Concentrado para solución para perfusión | Mylan Ire Healthcare Limited |
-| 66166 | Mitoxantrona Sandoz 2 mg/ml | Concentrado para solución para perfusión | Sandoz Farmacéutica S.A. |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 79737 | Mitoxantrona Accord 2 mg/ml | Concentrado para solución para perfusión |
+| 57408 | Novantrone 2 mg/ml | Concentrado para solución para perfusión |
+| 66166 | Mitoxantrona Sandoz 2 mg/ml | Concentrado para solución para perfusión |
 
-Los registros no incluyen el texto de la indicación aprobada. Debe consultarse en las fichas técnicas de la AEMPS.
+Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada de cada producto.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (antracenodiona, inhibidor de topoisomerasa II) |
-| Riesgo de Mielosupresión | Alto. Los estudios de fase II señalan leucopenia y trombocitopenia como principales toxicidades |
-| Clasificación de Emetogenicidad | Baja a moderada (según la clase del fármaco; el Evidence Pack no aporta datos) |
-| Items de Monitoreo | Hemograma con diferencial, función hepática (metabolismo principalmente hepático), función cardíaca (la literatura recoge estudios de cardiotoxicidad) y función renal |
-| Protección en Manejo | Debe seguir las normas de manejo de medicamentos citotóxicos |
+| Riesgo de Mielosupresión | Alto. La literatura de cabeza y cuello describe leucopenia como toxicidad principal con trombocitopenia asociada, y el grafo de conocimiento vincula el fármaco con neutropenia, anemia y agranulocitosis |
+| Clasificación de Emetogenicidad | Baja a moderada |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, función cardíaca (fracción de eyección) y dosis acumulada de antracenodiona |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Condiciones asociadas en el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto de prospecto): insuficiencia hepática, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, leucopenia, anemia (incluida la macrocítica), insuficiencia cardíaca, epilepsia y enfermedades infecciosas (incluidas las fúngicas y la dermatofitosis). Deben verificarse contra el prospecto autorizado.
+- **Diana farmacológica**: topoisomerasa II alfa (TOP2A). No se identificaron interacciones con otros fármacos en los datos compilados.
+- **Advertencias y contraindicaciones oficiales**: consultar el prospecto de la AEMPS, ya que no están disponibles en los datos compilados.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para esta categoría concreta solo hay estudios de fase II antiguos y pequeños, y el único ensayo registrado no se relaciona con mitoxantrona (nivel L3). Además, no hay datos de seguridad del prospecto de la AEMPS, lo que bloquea el cribado de seguridad. La categoría «cáncer de cabeza y cuello» está mejor respaldada y es donde conviene concentrar la evaluación.
+La predicción tiene un puntaje alto, pero no hay ensayos registrados para esta indicación y la evidencia es antigua, de fase II pequeña o indirecta. El perfil de toxicidad (mielosupresión y riesgo cardíaco) exige una justificación clínica sólida. La entrada vecina de "cáncer de cabeza y cuello" tiene evidencia más relevante, incluido un ensayo de fase 3 con mitoxantrona liposomal en carcinoma nasofaríngeo (NCT05717764) que aún no ha reclutado, por lo que conviene evaluar esa línea en lugar de esta.
 
 **Para avanzar se necesita:**
-- Obtener las advertencias y contraindicaciones de las fichas técnicas de la AEMPS.
-- Confirmar los datos de mecanismo de acción en DrugBank.
-- Evaluar la indicación junto con «cáncer de cabeza y cuello», sobre todo la mitoxantrona liposomal (NCT05717764, NCT04902027 y el estudio publicado en 2025).
-- Confirmar si la formulación liposomal está disponible en España, ya que las autorizaciones locales son de solución convencional para perfusión.
-- Los resultados de eficacia de los estudios liposomales y del ensayo de fase III, cuando estén disponibles.
-
-*Los resultados son solo para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Revisar el prospecto de la AEMPS para obtener advertencias y contraindicaciones oficiales.
+- Definir con precisión qué tumores abarca "tracto aerodigestivo superior" y si los datos de cabeza y cuello pueden extrapolarse.
+- Distinguir entre la formulación convencional y la liposomal, cuya evidencia reciente es la más prometedora.
+- Esperar resultados de ensayos controlados, o diseñar un estudio de fase II, antes de cualquier recomendación clínica.
+- Establecer un plan de monitoreo hematológico y cardíaco, con control de la dosis acumulada.
+- Confirmar los datos de mecanismo de acción con una fuente primaria (DrugBank).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

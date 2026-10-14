@@ -2,7 +2,7 @@
 layout: default
 title: Febuxostat
 parent: Evidencia moderada (L3-L4)
-nav_order: 227
+nav_order: 326
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,18 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Febuxostat: De Hiperuricemia/Gota a Hipouricemia Renal
+# Febuxostat: De Hiperuricemia a Hipouricemia Renal
 
 ## Resumen en Una Frase
 
-Febuxostat es un inhibidor selectivo no purínico de la xantina oxidorreductasa (XOR) que reduce el ácido úrico en sangre. Su uso conocido es la hiperuricemia y la gota, aunque los registros de AEMPS del paquete de evidencia no incluyen el texto de indicación.
-El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pero solo hay **1 ensayo clínico** (con relevancia baja) y **2 publicaciones** (una revisión narrativa y un reporte de caso), por lo que la predicción es muy débil.
+Febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa, originalmente utilizado para el tratamiento de la hiperuricemia.
+El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**,
+con **1 ensayo clínico** (de relevancia baja) y **2 publicaciones** que actualmente respaldan esta dirección de forma muy indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los registros de AEMPS del paquete de evidencia (uso conocido: hiperuricemia/gota) |
+| Indicación Original | Hiperuricemia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Hipouricemia renal |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L4 |
@@ -50,64 +51,60 @@ El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Febuxostat inhibe la xantina oxidorreductasa, enzima que produce ácido úrico. Por eso reduce el urato sérico. No se dispone de datos detallados de mecanismo de acción en DrugBank para este paquete, pero la naturaleza del fármaco como inhibidor de XOR es conocida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa que reduce el ácido úrico sérico, y su eficacia en hiperuricemia y gota está bien establecida.
 
-La hipouricemia renal es lo contrario de la indicación original. Es un estado de urato bajo causado por una reabsorción renal defectuosa (por ejemplo, alteraciones de URAT1/GLUT9). El alto puntaje de TxGNN probablemente refleja cercanía en el grafo del metabolismo del urato y no una adecuación terapéutica real.
+Sin embargo, **la predicción es mecanísticamente cuestionable**. La hipouricemia renal es una condición de urato sérico ya bajo, causada por una reabsorción renal defectuosa de urato (pérdida de función de URAT1/SLC22A12 o GLUT9/SLC2A9). Reducir aún más el urato no corrige el defecto de fondo. Es probable que la puntuación del modelo se deba a la proximidad en la red a genes del metabolismo del urato y no a una razón terapéutica.
 
-La única hipótesis mecanística es que inhibir la XOR podría reducir las especies reactivas de oxígeno y el estrés del catabolismo de purinas en la lesión renal aguda inducida por el ejercicio (EIAKI), una complicación conocida de esta condición. Reducir aún más el urato podría ser contraproducente, y no hay datos clínicos que respalden un beneficio.
+El único vínculo en la literatura es un reporte de un futbolista de 16 años con hipouricemia renal familiar y lesión renal aguda recurrente inducida por ejercicio, donde se planteó el uso de inhibidores de la xantina oxidorreductasa como prevención. Se trata de un uso indirecto y preventivo, no de un tratamiento de la hipouricemia en sí.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Desconocido | 100 | Estudio prospectivo controlado sobre el efecto del control del ácido úrico en la recurrencia de cálculos y la función renal en pacientes con litiasis e hiperuricemia. Relevancia baja (grado C): no se puede verificar su relación con la hipouricemia renal. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Fase 4 | Desconocido | 100 | Estudio prospectivo controlado sobre el efecto del control del ácido úrico en la recurrencia de cálculos y la función renal en pacientes con litiasis e hiperuricemia. Relevancia baja: probablemente no estudia hipouricemia renal, por lo que no constituye evidencia directa. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Revisión narrativa | Clinical Rheumatology | Actualización sobre hipouricemia (urato sérico < 2 mg/dL) y sus causas, dirigida al reumatólogo. No evalúa febuxostat como tratamiento. |
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Reporte de caso / hipótesis | Internal Medicine | Futbolista japonés de 16 años con hipouricemia renal familiar (mutaciones en URAT1) y EIAKI recurrente. La hidratación no bastó como profilaxis y se planteó febuxostat. El resumen disponible está truncado y no permite confirmar el resultado. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Revisión | Clinical Rheumatology | Actualización sobre hipouricemia (urato sérico < 2 mg/dL) y su etiología, dirigida a reumatólogos. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Reporte de caso | Internal Medicine | Futbolista de 16 años con hipouricemia renal familiar (mutaciones en URAT1) y lesión renal aguda recurrente por ejercicio; se plantea el uso de inhibidores no purínicos de la xantina oxidorreductasa como profilaxis. |
+
+*Nota: la base de datos clasifica el segundo artículo como revisión, pero por su contenido descrito corresponde a un reporte de caso.*
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 83214 | Febuxostat Kern Pharma 120 mg EFG | Comprimido recubierto con película | Kern Pharma S.L. |
-| 83910 | Febuxostat Combix 120 mg EFG | Comprimido recubierto con película | Laboratorios Combix S.L.U. |
-| 08447014IP | Adenuric 80 mg | Comprimido recubierto con película | Menarini International Operations Luxembourg S.A. |
-| 83229 | Uxaton 80 mg EFG | Comprimido recubierto con película | Uxa Farma S.A. |
-| 83769 | Gotaric 80 mg EFG | Comprimido recubierto con película | Especialidades Farmacéuticas Centrum S.A. |
+Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada). El texto de indicación aprobada no está disponible en los datos compilados.
 
-Se muestran 5 de las 20 autorizaciones. Los registros no incluyen el texto de indicación aprobada.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 08447014IP | ADENURIC 80 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 08447003IP1 | ADENURIC 120 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 83214 | Febuxostat Kern Pharma 120 mg EFG | Comprimido recubierto con película | No disponible |
+| 83213 | Febuxostat Bluepharma 80 mg EFG | Comprimido recubierto con película | No disponible |
+| 83602 | Febuxostat Accord 80 mg EFG | Comprimido recubierto con película | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
-Desde el punto de vista mecanístico, el análisis del paquete advierte que reducir aún más el urato en una condición ya hipouricémica podría ser contraproducente.
+- **Contraindicaciones relacionadas en el grafo de conocimiento** (no provienen del prospecto): ictus, trastorno cerebrovascular, infarto cerebral, infarto de miocardio, trombosis coronaria y hemoglobinopatía.
+- **Interacciones farmacológicas** (22 registradas en total; se resumen las principales):
+  - **Mayores**: mercaptopurina, azatioprina, leflunomida, teriflunomida.
+  - **Moderadas**: teofilina, aminofilina, dyphylline, oxtrifilina, metotrexato, tioguanina, clofarabina, epirrubicina, trabectedina, brentuximab vedotina, asparaginasa, pegaspargasa, naltrexona, interferón beta-1a/1b y peginterferón beta-1a.
+- No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para esa información.
+- Riesgo teórico adicional en las indicaciones alternativas: acumulación de xantina e hipoxantina con riesgo de nefropatía o litiasis por xantina.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L4: solo hay una revisión narrativa, un reporte de caso con resultado no confirmado y un ensayo de relevancia baja. Además, la hipouricemia renal ya es un estado de urato bajo, por lo que el alto puntaje de TxGNN parece reflejar proximidad en el grafo y no un ajuste terapéutico.
+La predicción principal (hipouricemia renal) carece de racionalidad mecanística, ya que reducir más el urato es contraproducente, y la única evidencia es un ensayo de relevancia baja y literatura indirecta (nivel L4). El modelo no respalda un avance por ahora.
 
 **Para avanzar se necesita:**
-- Revisar el texto completo del reporte de caso (PMID 36754409) para confirmar si febuxostat previno la EIAKI
-- Verificar en el registro completo si NCT04398251 tiene alguna relación con la hipouricemia renal
-- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones)
-- Obtener datos de mecanismo de acción desde DrugBank
-- Evaluar el riesgo de reducir aún más el urato sérico en estos pacientes
-
-**Otras predicciones del modelo (para seguimiento, con nivel L4):**
-- Deficiencia parcial de HPRT (puntaje 99.98%)
-- Síndrome de Lesch-Nyhan (puntaje 99.68%)
-
-Ambas se apoyan solo en reportes de caso y series pequeñas. Su mecanismo es más plausible que el de la hipouricemia renal, porque en ellas el urato está elevado. Habría que vigilar el riesgo de cálculos de xantina, y en Lesch-Nyhan el beneficio se limitaría al componente metabólico.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS (brecha de seguridad que bloquea el cribado de seguridad).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Considerar como líneas alternativas con mejor racionalidad el déficit parcial de HPRT y el síndrome de Lesch-Nyhan (control sintomático de la hiperuricemia, nivel L4, solo reportes de casos), evaluando el riesgo de nefropatía por xantina.
+- Confirmar si febuxostat se usó realmente en los casos publicados y cuáles fueron los resultados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

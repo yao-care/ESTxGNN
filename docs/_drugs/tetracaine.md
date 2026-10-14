@@ -2,7 +2,7 @@
 layout: default
 title: Tetracaine
 parent: Solo predicción del modelo (L5)
-nav_order: 524
+nav_order: 785
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,17 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Tetracaína: De Anestesia Local a Acrodermatitis Crónica Atrófica
+# Tetracaína: De Dermatitis a Acrodermatitis Crónica Atrófica
 
 ## Resumen en Una Frase
 
-La tetracaína es un anestésico local (bloqueador de canales de sodio) que se comercializa en España en formas tópicas. El modelo TxGNN predice que podría ser efectivo para la **acrodermatitis crónica atrófica**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
+La tetracaína es un anestésico local de tipo éster, originalmente asociado al tratamiento de la dermatitis y comercializado en España en formulaciones tópicas.
+El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica atrófica**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta predicción: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Anestesia local tópica (inferida por la clase del fármaco y sus formas farmacéuticas; los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | Dermatitis (según el grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
 | Puntaje de Predicción TxGNN | 99,93% |
 | Nivel de Evidencia | L5 |
@@ -49,49 +50,52 @@ La tetracaína es un anestésico local (bloqueador de canales de sodio) que se c
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, la tetracaína es un anestésico local que bloquea los canales de sodio y su uso está establecido en anestesia tópica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la tetracaína es un anestésico local de tipo éster que actúa bloqueando los canales de sodio, con efecto sintomático (anestesia tópica o espinal), y su uso en dermatitis se relaciona con el alivio local de síntomas.
 
-Sin embargo, el análisis no encuentra un vínculo mecanístico plausible con la nueva indicación. La acrodermatitis crónica atrófica es una afección cutánea atrófica asociada a la infección por *Borrelia*. La tetracaína no tiene acción antimicrobiana ni antiinflamatoria conocida frente a ese proceso.
+Para la acrodermatitis crónica atrófica, sin embargo, **no se identifica un vínculo mecanístico plausible**. Esta enfermedad es una infección cutánea tardía por *Borrelia*, y la tetracaína no tiene actividad antimicrobiana relevante. El puntaje elevado probablemente refleja similitud en el grafo de conocimiento con la indicación original de dermatitis, y no un fundamento terapéutico real.
 
-El puntaje alto del modelo (99,93%) refleja solo una asociación en el grafo de conocimiento. No hay ensayos ni literatura que lo respalden, por lo que esta predicción debe considerarse hipótesis de bajo respaldo.
+Por ello, la predicción debe considerarse exploratoria y de baja credibilidad clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para acrodermatitis crónica atrófica.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para acrodermatitis crónica atrófica.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 80830 | TETRACAINA LAINCO 7,5 MG/G GEL | Gel |
-| 15371 | ANESTESIA TÓPICA B. BRAUN 10 mg/ml SOLUCIÓN | Solución cutánea |
-| 14534 | LUBRISTESIC 7,5 mg/g POMADA | Pomada |
-
-Las tres autorizaciones son de uso tópico o cutáneo. Los textos de indicación aprobada no figuran en los datos recibidos.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 80830 | Tetracaína Lainco 7,5 mg/g gel | Gel | No disponible |
+| 15371 | Anestesia Tópica B. Braun 10 mg/ml solución | Solución cutánea | No disponible |
+| 14534 | Lubristesic 7,5 mg/g pomada | Pomada | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: no se encontraron registros de interacciones en la consulta realizada.
-- **Señal de neurotoxicidad en uso espinal**: la literatura recuperada para otra predicción (síndrome de cola de caballo) describe casos de síndrome de cola de caballo tras anestesia espinal con tetracaína, incluidos informes de casos y estudios preclínicos. Esto es una señal de seguridad para la administración intratecal, no una oportunidad de reposicionamiento.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): epilepsia, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, enfermedad cardíaca y cardiovascular, paro cardíaco súbito, trastornos de la conducción cardíaca, insuficiencia respiratoria, miastenia gravis y enfermedades de la unión neuromuscular, deficiencia de butirilcolinesterasa, hipertiroidismo (enfermedad de Graves, tirotoxicosis) y enfermedades oculares inflamatorias o infecciosas (uveítis, enfermedades del iris y del cuerpo ciliar, conjuntivitis).
+- **Interacciones farmacológicas**: se identificaron 32 interacciones en total; las principales son:
+  - **Mayores**: ácido nitroso y bupivacaína liposomal.
+  - **Moderadas**: sulfasalazina, sulfametoxazol, otros anestésicos locales (lidocaína, benzocaína, cocaína, cincocaína, proparacaína, oxibuprocaína) y benzodiazepinas (alprazolam, clordiazepóxido, clobazam, clonazepam, ácido clorazépico, diazepam, estazolam).
+  - **Menores**: hialuronidasa.
 
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5, sin ensayos ni literatura, y carece de un vínculo mecanístico plausible entre un anestésico local y una afección cutánea atrófica de origen infeccioso. Las otras ocho indicaciones predichas también quedan en Hold. Ninguna tiene evidencia que respalde un reposicionamiento, y la de síndrome de cola de caballo es un signo de toxicidad.
+La predicción es solo del modelo (L5), sin ensayos ni literatura, y no existe un mecanismo plausible: la tetracaína carece de actividad antimicrobiana frente a *Borrelia*. No se recomienda avanzar.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío bloqueante para el cribado de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Obtener los textos de indicación aprobada de las tres autorizaciones.
-- Buscar evidencia preclínica o clínica que vincule la tetracaína con la acrodermatitis crónica atrófica. Sin ella, no se recomienda avanzar.
+- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Completar los datos del mecanismo de acción.
+- Evidencia preclínica o clínica que justifique un efecto sobre la acrodermatitis crónica atrófica.
+- Evaluar la compatibilidad de vías de administración (pendiente).
+
+**Nota sobre otras predicciones:** entre las demás indicaciones predichas, ninguna justifica avanzar. Los datos para acné queloide (L4) se refieren a analgesia durante procedimientos con láser, no al tratamiento de la enfermedad. La literatura sobre síndrome de cauda equina describe a la tetracaína como **causa** de neurotoxicidad, por lo que esa predicción refleja un efecto adverso y no un uso terapéutico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

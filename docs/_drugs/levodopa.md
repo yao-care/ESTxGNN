@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Solo predicción del modelo (L5)
-nav_order: 316
+nav_order: 466
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,16 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Levodopa: De Uso Antiparkinsoniano a Encefalitis Subaguda de Rasmussen
+# Levodopa: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
 
 ## Resumen en Una Frase
 
-Levodopa es un precursor de la dopamina. En España está comercializada como polvo para inhalación (Inbrija), y el Evidence Pack no recoge su indicación original. El modelo TxGNN predice que podría ser efectiva para la **encefalitis subaguda de Rasmussen**, pero hoy hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Levodopa es un precursor de la dopamina, utilizado originalmente para el tratamiento de la enfermedad de Parkinson y de otros síndromes parkinsonianos.
+El modelo TxGNN predice que podría ser efectivo para la **encefalitis subaguda de Rasmussen**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: la predicción se basa únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Enfermedad de Parkinson y síndromes parkinsonianos relacionados (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 99,06% |
 | Nivel de Evidencia | L5 |
@@ -48,46 +51,40 @@ Levodopa es un precursor de la dopamina. En España está comercializada como po
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción ni de indicaciones originales registradas. Según la información conocida, levodopa es un precursor de la dopamina. Esa función la conecta con los trastornos del movimiento, pero el Evidence Pack no aporta datos que la vinculen con la enfermedad de Rasmussen.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, levodopa es un precursor de la dopamina que actúa sobre la neurotransmisión dopaminérgica, y su eficacia en la enfermedad de Parkinson y en síndromes parkinsonianos relacionados está bien establecida.
 
-La encefalitis de Rasmussen es una inflamación cerebral unilateral mediada por linfocitos T. Provoca crisis focales intratables y atrofia progresiva de un hemisferio cerebral. Una conexión dopaminérgica solo podría plantearse de forma especulativa, por ejemplo a través de la afectación de los ganglios basales o de trastornos del movimiento secundarios. Nada de lo suministrado indica que levodopa actúe sobre la neuroinflamación de fondo ni sobre el control de las crisis.
+La encefalitis de Rasmussen es una enfermedad inflamatoria cerebral rara, crónica y unilateral, mediada por linfocitos T, con atrofia hemisférica progresiva y epilepsia focal refractaria. No se ha establecido un vínculo mecanístico directo con levodopa. Una conexión meramente especulativa podría estar en rasgos compartidos de los ganglios basales o de los trastornos del movimiento, ya que algunos pacientes desarrollan hemiparesia o distonía.
 
-El puntaje de 0,99 (posición 12270 en el ranking del modelo) es únicamente una predicción computacional, sin corroboración clínica en este conjunto de datos. Por eso, la razonabilidad mecanística de esta indicación **no está respaldada** por los datos disponibles.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+Sin embargo, la reposición de dopamina no actúa sobre la patología inmunomediada ni sobre las crisis epilépticas. Es probable que el puntaje elevado se deba a la cercanía en el grafo de conocimiento con el síndrome de hemiparkinsonismo-hemiatrofia y otros trastornos parkinsonianos, y no a evidencia biológica.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1191390002 | Inbrija 33 mg polvo para inhalación, cápsulas duras | Polvo para inhalación (cápsula dura) | Merz Therapeutics GmbH |
-
-La única presentación autorizada es de vía inhalatoria. No consta el texto de la indicación aprobada en los datos suministrados.
+| 1191390002 | INBRIJA 33 MG POLVO PARA INHALACIÓN CÁPSULAS DURAS | Polvo para inhalación (cápsula dura) | Texto de indicación no disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): atrofia multisistémica, síndrome de taquicardia postural ortostática, hipotensión ortostática, discinesia inducida por fármacos, epilepsia, úlcera gástrica y péptica, trastornos de ansiedad, neuróticos y distímicos, enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, glaucoma de ángulo abierto y de ángulo cerrado, trastornos psicóticos (incluidos esquizofreniforme y esquizoafectivo), trastorno mental, diabetes mellitus, cetoacidosis diabética, melanoma, infarto de miocardio, trombosis coronaria, hemoglobinopatía, enfermedad diarreica, paro cardíaco súbito y enfermedad de la conducción cardíaca.
+  - Cabe destacar la **epilepsia**, relevante porque la encefalitis de Rasmussen cursa con epilepsia focal refractaria.
+- **Interacciones farmacológicas** (se identificaron 100 en total; se muestran las principales):
+  - Moderadas: epinefrina, efedrina, bupropión, metronidazol, piridoxina, metoclopramida y anticolinérgicos (atropina, hiosciamina, metescopolamina, glicopirronio, clidinio, diciclomina, mepenzolato).
+  - Menores: antiácidos con aluminio, calcio o magnesio (hidróxido de aluminio, carbonato de calcio, magaldrato, carbonato, hidróxido y óxido de magnesio).
+  - Moderada: hierro.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos ni publicaciones que respalden la indicación (nivel L5). Tampoco hay un vínculo mecanístico plausible ni datos de seguridad locales, y la vía inhalatoria autorizada no se ha evaluado para esta enfermedad.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, sin vínculo mecanístico plausible y con la epilepsia señalada como contraindicación en el grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un requisito bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción de levodopa (DrugBank) y la indicación aprobada para evaluar la relación con la indicación original.
-- Realizar una revisión de literatura dirigida (levodopa y encefalitis de Rasmussen, dopamina y neuroinflamación) para buscar cualquier señal preclínica o clínica.
-- Evaluar la compatibilidad de la vía de administración, pendiente de análisis.
-
-*Los resultados son solo de referencia para la investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), pues su ausencia impide el cribado de seguridad.
+- Completar los datos del mecanismo de acción de levodopa (por ejemplo, desde DrugBank).
+- Realizar una revisión de literatura y de registros de ensayos sobre dopaminérgicos en encefalitis de Rasmussen.
+- Evaluar la compatibilidad de la vía de administración: la única presentación autorizada es inhalatoria (Inbrija) y no se ha determinado su idoneidad para esta indicación.
+- Generar evidencia preclínica o mecanística que justifique un vínculo biológico antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

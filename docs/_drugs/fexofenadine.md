@@ -2,7 +2,7 @@
 layout: default
 title: Fexofenadine
 parent: Solo predicción del modelo (L5)
-nav_order: 231
+nav_order: 333
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fexofenadina: De Alergias Estacionales a Conjuntivitis por Rosácea
+# Fexofenadina: De Rinitis Alérgica a Conjuntivitis Rosácea
 
 ## Resumen en Una Frase
 
-Fexofenadina es un antihistamínico que actúa sobre el receptor H1 y se usa para tratar los síntomas de las alergias estacionales y otras afecciones dependientes de la histamina.
-El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis por rosácea**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Fexofenadina es un antihistamínico antagonista selectivo del receptor H1 periférico, utilizado originalmente para tratar la rinitis alérgica, la urticaria idiopática y varias formas de conjuntivitis alérgica.
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis rosácea**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síntomas de alergias estacionales (según datos de farmacología; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Conjuntivitis por rosácea |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Nueva Indicación Predicha | Conjuntivitis rosácea |
+| Puntaje de Predicción TxGNN | 99,85% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 5 |
@@ -50,11 +51,11 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis por ros
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información de farmacología disponible, fexofenadina tiene como diana el receptor H1 de histamina (gen HRH1). Por conocimiento farmacológico general, y no por los datos aportados, es un antagonista H1 de selectividad periférica. Su utilidad en alergias estacionales es conocida.
+No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología bien establecida, la fexofenadina es un antagonista selectivo del receptor H1 de histamina (gen HRH1) con acción periférica. Bloquea los efectos mediados por histamina, como picor, enrojecimiento e inflamación.
 
-Mecanísticamente, una contribución de la histamina o de los mastocitos a la inflamación de la superficie ocular en la rosácea ocular es plausible. Sin embargo, no está establecida como factor principal y este vínculo no se ha verificado con los datos disponibles.
+La fexofenadina se asocia a la rinitis alérgica, la rinitis vasomotora, la urticaria idiopática y varias conjuntivitis (atópica, papilar y primaveral). Por ello, el bloqueo H1 podría aliviar el picor, el enrojecimiento y la inflamación de la superficie ocular en la conjuntivitis asociada a rosácea (rosácea ocular).
 
-La conjuntivitis asociada a rosácea suele deberse a disfunción de las glándulas de Meibomio, a *Demodex* y a vías inflamatorias. Por eso un antihistamínico no es una opción evidente. El único respaldo es el puntaje de predicción de TxGNN, que por sí solo no constituye evidencia clínica.
+Sin embargo, la rosácea ocular depende sobre todo de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal, la colonización por *Demodex*, la activación inmunitaria innata y microbiana y la desregulación neurovascular. La histamina probablemente contribuye poco. El puntaje de 0,998 es solo una predicción del modelo y probablemente refleja la cercanía del fármaco a otras indicaciones de conjuntivitis en el grafo de conocimiento, no un respaldo clínico independiente.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,31 +67,34 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61911 | Fexofenadina Opella 180 mg comprimidos recubiertos con película | Comprimido recubierto con película | Opella Healthcare Spain S.L. |
-| 61910 | Telfast 120 mg comprimidos recubiertos con película | Comprimido recubierto con película | Opella Healthcare Spain S.L. |
-| 79718 | Fexofenadina Cipla 180 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Cipla Europe N.V. |
-| 79726 | Fexofenadina Cipla 120 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Cipla Europe N.V. |
-| 89656 | Riniwel 120 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aurovitas Spain, S.A.U. |
+| 61911 | Fexofenadina Opella 180 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 61910 | Telfast 120 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 79718 | Fexofenadina Cipla 180 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+| 79726 | Fexofenadina Cipla 120 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
+| 89656 | Riniwel 120 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades señaladas como contraindicación en el grafo de conocimiento** (no proceden del texto del prospecto, por lo que deben verificarse): hipertensión, enfermedad renal, diabetes mellitus y cetoacidosis diabética, hiperplasia benigna de próstata, enfermedad coronaria y aterosclerosis, glaucoma de ángulo cerrado, e hipertiroidismo (enfermedad de Graves, tirotoxicosis).
+- **Interacciones farmacológicas**: la consulta se completó, pero solo devolvió información farmacológica del objetivo (receptor H1). No se identificaron interacciones con otros fármacos.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en un puntaje alto del modelo (99.85%), sin ensayos clínicos ni literatura (nivel L5). El vínculo mecanístico con la conjuntivitis por rosácea es especulativo, y la compatibilidad de vías de administración sigue pendiente.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo histaminérgico probablemente tiene un papel menor en la rosácea ocular. Además, faltan los datos de seguridad del prospecto, una brecha que bloquea el avance al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de la AEMPS las advertencias y contraindicaciones, hoy bloqueantes para el cribado de seguridad
-- Completar los datos del mecanismo de acción (por ejemplo, consultando la API de DrugBank)
-- Revisar la literatura preclínica y clínica sobre el papel de la histamina y los mastocitos en la rosácea ocular
-- Evaluar la compatibilidad de la vía de administración: las autorizaciones actuales son solo comprimidos orales, y una indicación ocular podría requerir otra formulación
-- Definir la similitud con la indicación original y, si hay respaldo mecanístico, considerar estudios preclínicos o exploratorios antes de un ensayo
+- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisar la literatura preclínica y clínica sobre antihistamínicos en rosácea ocular.
+- Evaluar la compatibilidad de vías de administración, ya que las formas actuales son comprimidos orales y la patología es ocular.
+- Valorar un estudio piloto o un análisis de datos reales si la revisión de la literatura apoya un componente histaminérgico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

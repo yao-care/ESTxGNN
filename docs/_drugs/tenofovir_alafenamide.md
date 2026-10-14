@@ -2,7 +2,7 @@
 layout: default
 title: Tenofovir Alafenamide
 parent: Solo predicción del modelo (L5)
-nav_order: 517
+nav_order: 776
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,66 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tenofovir alafenamida: De Hepatitis B Crónica a Síndrome de Inmunodeficiencia Adquirida Felina
+# Tenofovir alafenamida: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Tenofovir alafenamida (TAF) es un análogo nucleotídico comercializado en España como Vemlidy, utilizado originalmente para tratar la infección crónica por el virus de la hepatitis B.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Tenofovir alafenamida es un inhibidor nucleotídico de la transcriptasa inversa, originalmente utilizado para el tratamiento de la infección por VIH/sida (en España está comercializado como Vemlidy).
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta predicción. Se trata además de una indicación veterinaria.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hepatitis B crónica (según datos de farmacología; el texto de indicación de AEMPS no está disponible) |
+| Indicación Original | VIH / sida (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 99,89% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, TAF es un profármaco de tenofovir, un inhibidor nucleotídico de la transcriptasa inversa. Su eficacia en la hepatitis B crónica está comprobada, y por analogía podría ser aplicable a otros virus que dependen de una transcriptasa inversa.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, tenofovir alafenamida es un profármaco de tenofovir que actúa como inhibidor nucleotídico de la transcriptasa inversa (NRTI), y su eficacia en la infección por VIH está establecida.
 
-El virus de la inmunodeficiencia felina (FIV) es un lentivirus que, como el VIH, depende de la transcriptasa inversa. De ahí surge la plausibilidad por analogía. Sin embargo, no hay datos sobre la sensibilidad del FIV a TAF.
+El virus de la inmunodeficiencia felina (FIV) es un lentivirus que, al igual que el VIH, depende de la transcriptasa inversa para replicarse. Por ello, mecanísticamente es plausible que el fármaco tenga actividad, y el alto puntaje de TxGNN refleja esta similitud con la indicación original.
 
-Hay que interpretar el puntaje con cautela. Es idéntico al de la indicación "infección por virus de inmunodeficiencia simia" (0.9989), lo que sugiere que refleja la similitud entre nodos de virus de inmunodeficiencia en el grafo de conocimiento y no evidencia independiente. Además, es una indicación veterinaria, fuera del ámbito habitual de evaluación para uso humano.
+Sin embargo, esta es una indicación veterinaria, que queda fuera del reposicionamiento de fármacos en humanos, y no se aportó ninguna evidencia directa. La predicción debe considerarse solo una hipótesis computacional.
+
+**Otras predicciones del modelo (para contexto):**
+- **Infección por virus de inmunodeficiencia símica (SIV)** (puntaje 99,89%, nivel L4): 8 publicaciones preclínicas en macacos y ratones humanizados (PrEP oral y tópica, profilaxis posexposición, implantes, remisión de SHIV). Respaldan la actividad antiviral en modelos animales, pero son evidencia traslacional de la indicación VIH ya existente, no una nueva indicación humana.
+- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (puntaje 99,87%, nivel L5): no se identificó un vínculo mecanístico claro; la predicción carece de sustento.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para la indicación predicha.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación predicha (síndrome de inmunodeficiencia adquirida felina).
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161154001 | VEMLIDY 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (Gilead Sciences Ireland Unlimited Company) | Comprimido recubierto con película | No especificada en los datos disponibles |
+| 1161154001 | VEMLIDY 25 MG comprimidos recubiertos con película (Gilead Sciences Ireland Unlimited Company) | Comprimido recubierto con película | No disponible en los datos compilados |
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-El único registro de interacciones corresponde a una relación farmacológica con el receptor TAS2R39 (un receptor del gusto). No es una interacción medicamentosa clínicamente relevante.
+Los datos compilados registran una interacción farmacológica de tipo farmacológico con el receptor del gusto amargo TAS2R39 (el fármaco actúa como ligando); no se trata de una interacción medicamentosa con relevancia clínica establecida y no se dispone de nivel de gravedad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones para esta indicación. Además, es una indicación veterinaria, y la puntuación probablemente refleja similitud en el grafo entre virus de inmunodeficiencia.
+La predicción principal se apoya únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y corresponde a una indicación veterinaria fuera del alcance del reposicionamiento en humanos. Las publicaciones preclínicas sobre SIV/SHIV refuerzan la actividad antiviral conocida, pero no constituyen una nueva indicación humana.
 
 **Para avanzar se necesita:**
-- Datos de sensibilidad in vitro del FIV a tenofovir/TAF y estudios en gatos.
-- Definir si existe interés real en un uso veterinario, que requeriría un marco regulatorio distinto al de AEMPS para medicamentos humanos.
-- Datos de mecanismo de acción (DrugBank) y advertencias/contraindicaciones del prospecto de AEMPS.
-
-**Nota:** la segunda predicción, infección por virus de inmunodeficiencia simia, tiene 1 ensayo clínico (relevancia baja) y 10 publicaciones, casi todas estudios preclínicos en macacos (nivel L4, "Research Question"). Sin embargo, aporta poco valor de reposicionamiento, porque TAF ya está aprobado para el VIH-1 en humanos y esos estudios usan sobre todo el virus quimérico SHIV, no SIV puro.
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Advertencias y contraindicaciones del prospecto de la AEMPS (necesarias para cualquier cribado de seguridad)
+- Texto de la indicación aprobada de la autorización en España
+- Decidir si la indicación veterinaria está dentro del alcance; de lo contrario, priorizar predicciones con relevancia en humanos
+- Estudios in vitro o in vivo en FIV si se quisiera explorar la hipótesis veterinaria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

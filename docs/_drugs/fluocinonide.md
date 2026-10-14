@@ -2,7 +2,7 @@
 layout: default
 title: Fluocinonide
 parent: Solo predicción del modelo (L5)
-nav_order: 236
+nav_order: 342
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,79 +29,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Fluocinonida: De Afecciones Cutáneas Inflamatorias y Pruriginosas a Alopecia Mucinosa
+# Fluocinonida: De Dermatosis Inflamatorias y Pruriginosas a Alopecia Mucinosa
 
 ## Resumen en Una Frase
 
-Fluocinonida es un glucocorticoide tópico de alta potencia, utilizado en cremas para tratar afecciones cutáneas inflamatorias y pruriginosas.
-El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que es solo una hipótesis del modelo.
+Fluocinonida es un corticosteroide tópico de alta potencia, utilizado originalmente para tratar afecciones inflamatorias y pruriginosas de la piel, como la dermatitis atópica, la dermatitis de contacto y la dermatitis seborreica.
+El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se apoya únicamente en el puntaje del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Afecciones cutáneas inflamatorias y pruriginosas (según farmacología; el texto de la autorización de AEMPS está vacío) |
+| Indicación Original | Dermatosis inflamatorias y pruriginosas de la piel (la ficha de la autorización no incluye texto de indicación; se toma de las indicaciones del grafo de conocimiento: dermatitis atópica, de contacto, seborreica, etc.) |
 | Nueva Indicación Predicha | Alopecia mucinosa |
-| Puntaje de Predicción TxGNN | 99.61% |
+| Puntaje de Predicción TxGNN | 99,61 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, fluocinonida es un glucocorticoide sintético cuyo blanco farmacológico registrado es el receptor de glucocorticoides (NR3C1). Su eficacia en dermatosis inflamatorias y pruriginosas está establecida, y mecanísticamente podría ser aplicable a la alopecia mucinosa.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la fluocinonida es un corticosteroide tópico de alta potencia que actúa sobre el receptor de glucocorticoides (NR3C1) y ejerce efectos antiinflamatorios e inmunosupresores. Su eficacia en dermatosis inflamatorias está establecida.
 
-La alopecia mucinosa (mucinosis folicular) tiene un componente inflamatorio alrededor del folículo piloso. Por eso un corticoide tópico es mecanísticamente concebible. Esta relación se infiere de la clase del fármaco, no de datos aportados sobre fluocinonida en esta enfermedad.
+La alopecia mucinosa (mucinosis folicular) es un trastorno inflamatorio del folículo piloso. Por ello, existe un vínculo mecanístico plausible: reducir la inflamación folicular local mediante un corticosteroide tópico. Aun así, este vínculo se basa solo en la predicción de TxGNN y en un razonamiento general; no hay estudios que lo hayan comprobado con fluocinonida.
 
-El puntaje del modelo es muy alto, pero no constituye evidencia clínica. No hay ensayos ni literatura que prueben el uso de fluocinonida en esta enfermedad.
+Otras predicciones del modelo (efluvio telógeno, alopecia areata, foliculitis decalvante y varios síndromes genéticos raros) muestran puntajes similares. Algunas tienen una relación mecanística débil, como el efluvio telógeno (generalmente no inflamatorio) o los síndromes genéticos del desarrollo capilar. Esto sugiere cautela al interpretar el puntaje por sí solo. La alopecia areata, de base autoinmune, es la que presenta un vínculo biológico más plausible, aunque con evidencia solo indirecta.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para alopecia mucinosa.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para alopecia mucinosa.
 
-## Otras Predicciones del Modelo (Contexto)
-
-Las demás indicaciones predichas también son alopecias. Solo una tiene un ensayo, y es de apoyo indirecto.
-
-| Indicación Predicha | Puntaje | Nivel | Evidencia disponible | Recomendación |
-|------|------|------|------|------|
-| Telogen effluvium | 99.61% | L5 | Ninguna; vínculo mecanístico débil (alteración no inflamatoria del ciclo capilar) | Hold |
-| Alopecia areata | 99.59% | L4 | Un ensayo indirecto: [NCT04207931](https://clinicaltrials.gov/study/NCT04207931), Fase 4, en reclutamiento, n=250, sobre alopecia cicatricial central centrífuga (no alopecia areata). El registro no indica si fluocinonida es un brazo de tratamiento. | Pregunta de investigación |
-| Foliculitis decalvante (Quinquaud) | 99.58% | L5 | Ninguna; alopecia cicatricial inflamatoria, uso como coadyuvante plausible | Hold |
-| Hipotricosis hereditaria con vesículas cutáneas recurrentes | 99.56% | L5 | Ninguna; trastorno genético sin diana inflamatoria clara | Hold |
-| Alopecia con deficiencia de anticuerpos | 99.51% | L5 | Ninguna; la inmunosupresión podría ser contraproducente | Hold |
-| Síndrome de alopecia, discapacidad intelectual e hipogonadismo hipergonadotrópico | 99.49% | L5 | Ninguna; etiología genética no inflamatoria | Hold |
-
-De todas ellas, la alopecia areata es la más plausible. Es autoinmune y ataca el folículo, y los corticoides tópicos potentes son de uso habitual en ella.
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 54036 | NOVOTER 0,5 MG/G CREMA | Crema | Teofarma S.R.L. |
+| 54036 | NOVOTER 0,5 MG/G CREMA (Teofarma S.R.L.) | Crema | No se dispone del texto de indicación |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (no provienen del prospecto): hiperglucemia, diabetes mellitus, cetoacidosis diabética, síndrome de Cushing e hiperfunción de la glándula suprarrenal, así como diversas deficiencias hipofisarias (hipopituitarismo, déficit de hormona del crecimiento, hipogonadismo hipogonadotrópico, síndrome de Kallmann, síndrome de Sheehan) y enfermedad del timo.
+- **Interacciones farmacológicas**: solo se identificó la interacción farmacológica con el receptor de glucocorticoides (NR3C1), que es su diana terapéutica; no hay interacciones con otros fármacos documentadas.
+
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, ya que no se dispone de ellas en los datos compilados.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para alopecia mucinosa no hay ningún ensayo ni publicación, y la predicción se apoya solo en el puntaje del modelo (nivel L5). Para esta indicación no hay base clínica que justifique avanzar.
+La predicción para alopecia mucinosa tiene un puntaje alto (99,61 %), pero no cuenta con ensayos clínicos ni literatura (nivel L5). El vínculo mecanístico es plausible, pero no está verificado.
 
 **Para avanzar se necesita:**
-- Buscar literatura y ensayos específicos de corticoides tópicos potentes en mucinosis folicular
-- Obtener el prospecto de AEMPS (advertencias y contraindicaciones), aún no incorporado
-- Confirmar el mecanismo de acción en DrugBank
-- Evaluar si la alopecia areata (rango 3, L4) merece priorizarse como pregunta de investigación. Habría que verificar si NCT04207931 incluye fluocinonida
-- Verificar la compatibilidad de la vía (crema tópica) con la localización de la enfermedad, hoy pendiente
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), pues su ausencia impide completar el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisión de la literatura sobre corticosteroides tópicos en mucinosis folicular (series de casos, informes publicados).
+- Evaluar la compatibilidad de la vía de administración (crema tópica) con la localización de las lesiones, por ejemplo, el cuero cabelludo.
+- Si se desea priorizar otra indicación, la alopecia areata (nivel L4, evidencia solo indirecta) podría ser una pregunta de investigación más fundamentada.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

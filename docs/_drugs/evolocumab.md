@@ -2,7 +2,7 @@
 layout: default
 title: Evolocumab
 parent: Solo predicción del modelo (L5)
-nav_order: 223
+nav_order: 322
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,21 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Evolocumab: De Hipercolesterolemia a Forma Sintomática de Hemofilia en Portadoras
+# Evolocumab: De Hipercolesterolemia Familiar Homocigota a Hemofilia Sintomática en Portadoras
 
 ## Resumen en Una Frase
 
-Evolocumab es un anticuerpo monoclonal comercializado en España como Repatha, que se usa para reducir el colesterol LDL.
-El modelo TxGNN predice que podría ser efectivo para **la forma sintomática de hemofilia en mujeres portadoras**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Evolocumab es un anticuerpo monoclonal que inhibe PCSK9, utilizado originalmente para el tratamiento de la hipercolesterolemia familiar homocigota y la dislipidemia sindrómica.
+El modelo TxGNN predice que podría ser efectivo para la **forma sintomática de hemofilia en mujeres portadoras**, pero actualmente no hay **ningún ensayo clínico ni publicación** que respalde esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en el texto de las autorizaciones. Por su uso conocido, reducción del colesterol LDL (conocimiento general, no del Evidence Pack) |
+| Indicación Original | Hipercolesterolemia familiar homocigota; dislipidemia sindrómica |
 | Nueva Indicación Predicha | Forma sintomática de hemofilia en mujeres portadoras |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 99,82% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
@@ -51,11 +50,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la farmacología general, evolocumab es un anticuerpo monoclonal que neutraliza PCSK9. Esto aumenta el reciclaje del receptor de LDL y reduce el colesterol LDL.
+Evolocumab es un anticuerpo monoclonal dirigido contra PCSK9 (proproteína convertasa subtilisina/kexina tipo 9). Al bloquear esta proteína, aumenta la disponibilidad de receptores de LDL en el hígado y reduce el colesterol LDL. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, pero la diana (PCSK9) está bien identificada.
 
-Con este mecanismo, **no se identifica un vínculo plausible** con la hemofilia. La enfermedad se debe a una deficiencia de factor VIII o IX, y evolocumab no tiene un papel conocido en la producción de estos factores ni en la coagulación. El alto puntaje (0.998) refleja únicamente una asociación dentro del grafo de conocimiento, sin datos clínicos ni bibliográficos que la sostengan.
+Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre esta vía y la nueva indicación. La hemofilia en mujeres portadoras se debe a una actividad reducida del factor VIII o IX (herencia ligada al cromosoma X), algo ajeno a la vía PCSK9/receptor de LDL. El puntaje elevado de TxGNN (0,998) es solo una predicción del grafo de conocimiento y no está respaldado por una justificación biológica ni por datos clínicos.
 
-Por tanto, esta predicción debe tratarse como una hipótesis sin respaldo mecanístico. Se recomienda no priorizarla sin evidencia nueva.
+Por tanto, esta predicción debe considerarse especulativa. Otras predicciones del modelo (deficiencia familiar de apolipoproteína C-II, púrpura trombocitopénica, deficiencia de factor XI, hemofilia A con anomalía vascular y "enfermedad de actividad catalítica") tampoco cuentan con ensayos ni literatura. Solo la deficiencia de apoC-II guarda una relación conceptual indirecta, por ser un trastorno lipídico, aunque evolocumab no corregiría su defecto principal (la activación de la lipoproteína lipasa). "Enfermedad de actividad catalítica" es una categoría demasiado amplia para ser accionable.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,33 +68,30 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1151016003 | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No especificada en los datos |
-| 1151016003IP | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No especificada en los datos |
-| 1151016002 | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No especificada en los datos |
+| 1151016003 | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
+| 1151016003IP | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
+| 1151016002 | REPATHA 140 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
 
-El titular de las tres autorizaciones es Amgen Europe B.V.
+Titular: Amgen Europe B.V. Las tres autorizaciones están vigentes.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas**: la consulta se completó y devolvió un único registro, que corresponde a la interacción farmacológica con la diana (PCSK9), no a una interacción con otro medicamento. No se identificaron interacciones con otros fármacos.
+
+Para advertencias y contraindicaciones, consultar el prospecto. Además, el uso de un anticuerpo hipolipemiante en trastornos hemorrágicos plantearía cuestiones de seguridad sin resolver.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5: no hay ensayos, no hay literatura y no existe un mecanismo plausible que vincule la inhibición de PCSK9 con la hemofilia. Con esta información no se justifica avanzar.
-
-Las otras cinco predicciones del modelo también quedan en Hold con nivel L5:
-- **Deficiencia familiar de apolipoproteína C-II:** es la más cercana biológicamente, por ser una enfermedad del metabolismo lipídico. Aun así, la inhibición de PCSK9 no corrige el defecto de activación de la lipoproteína lipasa.
-- **Púrpura trombocitopénica, deficiencia de factor XI y hemofilia A con anomalía vascular:** no tienen mecanismo plausible.
-- **Enfermedad de actividad catalítica:** es un término genérico de ontología, no una entidad clínica, y debería excluirse o sustituirse por enfermedades específicas.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos, literatura ni un vínculo mecanístico plausible entre la inhibición de PCSK9 y la hemofilia en portadoras. Un puntaje alto en TxGNN no compensa esta falta de respaldo.
 
 **Para avanzar se necesita:**
-- Buscar ensayos clínicos y literatura específicos para la indicación predicha.
-- Contar con datos del mecanismo de acción y del prospecto de la AEMPS (advertencias y contraindicaciones), que hoy no están disponibles.
-- Obtener el texto de las indicaciones aprobadas en las autorizaciones españolas.
-- Aportar una hipótesis mecanística que justifique el vínculo entre PCSK9 y la coagulación antes de reconsiderar la decisión.
+- Datos detallados del mecanismo de acción y un análisis que justifique un vínculo biológico con la coagulación.
+- Revisión del prospecto de la AEMPS (advertencias y contraindicaciones), pendiente y necesaria antes de cualquier cribado de seguridad.
+- Estudios preclínicos o de mecanismo que apoyen la hipótesis.
+- Valorar priorizar otras candidatas con mayor plausibilidad biológica, como la deficiencia de apoC-II, con una evaluación realista de su beneficio.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

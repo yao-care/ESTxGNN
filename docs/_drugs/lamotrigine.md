@@ -2,7 +2,7 @@
 layout: default
 title: Lamotrigine
 parent: Solo predicción del modelo (L5)
-nav_order: 300
+nav_order: 447
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,20 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Lamotrigina: De Epilepsia y Trastorno Bipolar a Neoplasia del Nervio Trigémino
+# Lamotrigina: De Epilepsia a Neoplasia del Nervio Trigémino
 
 ## Resumen en Una Frase
 
-La lamotrigina es un anticonvulsivo utilizado para tratar la epilepsia y el trastorno bipolar.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero **no hay ensayos clínicos** ni estudios que respalden un efecto antitumoral. Las 2 publicaciones asociadas tratan sobre la neuralgia del trigémino, no sobre el tumor.
+La lamotrigina es un antiepiléptico de uso establecido, indicado originalmente en epilepsia (parcial, síndrome de Lennox-Gastaut y otras formas).
+El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio trigémino**, pero no hay **ningún ensayo clínico** y solo **2 publicaciones**, ambas sobre neuralgia del trigémino y no sobre tumores. La predicción carece por ahora de respaldo directo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia y trastorno bipolar (según la ficha farmacológica; los textos de indicación de las autorizaciones de la AEMPS vienen vacíos) |
+| Indicación Original | Epilepsia (según el grafo de conocimiento de TxGNN; las fichas españolas del dato no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 99,97% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -50,11 +50,11 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, la lamotrigina bloquea de forma dependiente del uso los canales de sodio dependientes de voltaje (la ficha farmacológica cita Nav1.2 como diana) y reduce la liberación de glutamato. Esto explica su eficacia comprobada en epilepsia.
+No se dispone de datos estructurados detallados sobre el mecanismo de acción. Según la información conocida, la lamotrigina bloquea los canales de sodio dependientes de voltaje y reduce la liberación de glutamato. Este mecanismo estabiliza las membranas neuronales hiperexcitables y explica su eficacia en epilepsia.
 
-**Con la información disponible, la predicción es poco razonable como tratamiento antitumoral.** No existe un mecanismo antineoplásico plausible para este fármaco. El puntaje alto probablemente proviene del nodo vecino "neuralgia del trigémino" en el grafo de conocimiento, donde el bloqueo de canales de sodio sí puede calmar el dolor neuropático.
+La puntuación tan alta probablemente se debe a la cercanía, en el grafo de conocimiento, con la **neuralgia del trigémino**, una enfermedad distinta de un tumor. Los dos artículos recuperados tratan sobre neuralgia del trigémino (una revisión general de tratamientos y un caso de radiocirugía Gamma Knife por malformación cavernosa), no sobre una neoplasia.
 
-Un posible beneficio sería el control sintomático del dolor facial, no el tratamiento del tumor. Por eso la señal del modelo debe leerse como una asociación con la neuralgia del trigémino y no como una indicación oncológica.
+Mecanísticamente, el bloqueo de canales de sodio podría aliviar el dolor facial neuropático asociado a un tumor del trigémino. Eso no equivale a un efecto antitumoral, y la evidencia recuperada no lo respalda.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -64,34 +64,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revisión | Expert Rev Neurother | Revisión de los tratamientos médicos y quirúrgicos de la neuralgia del trigémino. Trata el dolor, no el tumor. |
-| [30650431](https://pubmed.ncbi.nlm.nih.gov/30650431/) | 2018 | Reporte de caso | Stereotact Funct Neurosurg | Radiocirugía Gamma Knife en un paciente con neuralgia del trigémino causada por una malformación cavernosa. No involucra lamotrigina como tratamiento antitumoral. |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Revisión | Expert Review of Neurotherapeutics | Revisión de los múltiples tratamientos médicos y quirúrgicos de la neuralgia del trigémino. No aborda neoplasias |
+| [30650431](https://pubmed.ncbi.nlm.nih.gov/30650431/) | 2018 | Reporte de caso | Stereotactic and Functional Neurosurgery | Radiocirugía Gamma Knife en neuralgia del trigémino causada por una malformación cavernosa. No es un tumor ni un estudio con lamotrigina |
 
 ## Información de Mercado en España
 
+Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). Los datos de autorización no incluyen texto de indicación aprobada.
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
-| 67151 | LAMOTRIGINA SANDOZ 100 mg comprimidos dispersables/masticables EFG | Comprimido masticable y dispersable |
-| 67318 | LAMOTRIGINA NORMON 25 mg comprimidos dispersables/masticables EFG | Comprimido masticable y dispersable |
-| 64391 | LAMICTAL 2 mg comprimidos masticables/dispersables | Comprimido masticable y dispersable |
-| 67320 | LAMOTRIGINA NORMON 100 mg comprimidos dispersables/masticables EFG | Comprimido masticable y dispersable |
-| 68645 | LAMOTRIGINA COMBIX 200 mg comprimidos dispersables/masticables EFG | Comprimido masticable y dispersable |
+| 67151 | Lamotrigina Sandoz 100 mg EFG | Comprimido masticable y dispersable |
+| 67318 | Lamotrigina Normon 25 mg EFG | Comprimido masticable y dispersable |
+| 64391 | Lamictal 2 mg | Comprimido masticable y dispersable |
+| 67320 | Lamotrigina Normon 100 mg EFG | Comprimido masticable y dispersable |
+| 68645 | Lamotrigina Combix 200 mg EFG | Comprimido masticable y dispersable |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones o alertas del grafo de conocimiento** (no proceden del texto del prospecto): trastorno de ansiedad, trastorno neurótico, trastorno distímico, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, anemia (incluida la macrocítica), pancitopenia, anemia aplásica (incluida la idiopática) y meningitis no infecciosa.
+
+Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni estudios sobre tumores del nervio trigémino, y no existe un mecanismo antineoplásico plausible. El puntaje del modelo parece reflejar la cercanía con la neuralgia del trigémino, no un efecto antitumoral.
+La predicción es solo computacional (L5): no hay ensayos clínicos y la literatura recuperada trata sobre neuralgia del trigémino, no sobre neoplasia. Además, el efecto plausible (alivio del dolor neuropático) no es antitumoral.
 
 **Para avanzar se necesita:**
-- Reorientar la evaluación hacia **neuralgia del trigémino**, la segunda predicción del modelo (99.89%). Allí hay 4 ensayos, entre ellos NCT00913107 (Fase 2/3, completado, n=21, lamotrigina vs. carbamazepina) y NCT00203229 (doble ciego, controlado con placebo, completado, n=20). Las revisiones la sitúan como alternativa o terapia adicional. Con nivel L2 y decisión "Proceed with Guardrails", es la línea con más respaldo. Las precauciones serían titulación lenta por el riesgo de erupción cutánea/síndrome de Stevens-Johnson y revisar las interacciones con valproato y estrógenos.
-- Obtener los resultados publicados de esos ensayos, ya que el paquete no los incluye.
-- Completar los datos de seguridad (advertencias y contraindicaciones del prospecto de la AEMPS) y el mecanismo de acción detallado, que hoy no están disponibles.
+- Evidencia preclínica o clínica de actividad antitumoral de la lamotrigina en tumores del nervio trigémino.
+- Datos detallados del mecanismo de acción y del texto oficial de seguridad (prospecto de la AEMPS).
+- Aclarar si el objetivo real es el control del dolor neuropático asociado a tumores y no el tratamiento del tumor.
+
+**Nota para reorientar la hipótesis:** la segunda predicción del modelo, la **neuralgia del trigémino** (puntaje 99,89%), tiene un respaldo bastante mayor (nivel L2). Incluye dos ensayos pequeños completados: [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) (Fase 2/3, n=21, frente a carbamazepina) y [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) (controlado con placebo, n=20), además de guías y revisiones que citan la lamotrigina como opción adicional o alternativa. Esta indicación merece una evaluación independiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

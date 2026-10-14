@@ -2,7 +2,7 @@
 layout: default
 title: Selinexor
 parent: Solo predicción del modelo (L5)
-nav_order: 487
+nav_order: 729
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Selinexor: De Indicación Original No Registrada a Osteoporosis Inducida por Fármacos
+# Selinexor: De Indicación Original No Disponible a Osteoporosis Inducida por Fármacos
 
 ## Resumen en Una Frase
 
-Selinexor es un inhibidor de XPO1 (exportina-1) comercializado en España como NEXPOVIO. El Evidence Pack no registra su indicación aprobada. El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, así que se trata solo de una predicción computacional.
+Selinexor es un inhibidor selectivo de la exportación nuclear (XPO1/CRM1) comercializado en España como NEXPOVIO. En los datos compilados para este informe no consta el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; la predicción se basa únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación aprobada de la AEMPS está vacío) |
+| Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99.22% |
+| Puntaje de Predicción TxGNN | 99,22% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
@@ -49,14 +50,11 @@ Selinexor es un inhibidor de XPO1 (exportina-1) comercializado en España como N
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Selinexor inhibe XPO1, lo que afecta a la señalización de NF-κB y a la retención nuclear de supresores tumorales. Existen trabajos preclínicos sobre enfermedad ósea en mieloma que exploran efectos en las células de remodelado óseo. Este análisis no incluye citas que los respalden, por lo que el vínculo es hipotético y no está verificado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, selinexor es un inhibidor selectivo de la exportación nuclear que actúa sobre XPO1/CRM1 y es un fármaco oncológico.
 
-El puntaje alto (0.992) refleja únicamente una asociación en el grafo de conocimiento. Hay dos motivos para interpretarlo con mucha cautela:
+Una hipótesis plausible, pero no verificada, es que la inhibición de XPO1 modifique vías de señalización relevantes para la remodelación ósea (por ejemplo, NF-κB, Wnt/β-catenina o la regulación de osteoclastos y osteoblastos). Este vínculo es especulativo y no está respaldado por evidencia aportada.
 
-- **Confusión con dexametasona:** selinexor suele administrarse junto con dexametasona, una causa conocida de osteoporosis inducida por glucocorticoides. Cualquier efecto óseo observado en esos regímenes estaría confundido y no debe leerse como señal terapéutica.
-- **Dirección del efecto:** el puntaje podría reflejar una asociación con la pérdida ósea como efecto adverso y no como beneficio terapéutico. Con los datos disponibles no se puede determinar la dirección del efecto.
-
-La similitud con la indicación original y la compatibilidad de vías de administración están pendientes de evaluar.
+Además, selinexor es un fármaco oncológico con toxicidad significativa (citopenias, náuseas, anorexia, pérdida de peso, fatiga), por lo que no encaja de forma evidente en una enfermedad crónica y no mortal como la osteoporosis inducida por fármacos. Su perfil de seguridad y las 81 interacciones farmacológicas registradas pesan en contra de su uso en este contexto sin datos que lo respalden. La similitud con la indicación original aún está pendiente de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,37 +68,40 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1211537001 | NEXPOVIO 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No especificada en los datos disponibles |
+| 1211537001 | NEXPOVIO 20 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de XPO1), antineoplásico |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de la exportación nuclear XPO1) |
+| Riesgo de Mielosupresión | Medio a alto (se describen citopenias como toxicidad relevante; confirmar en el prospecto) |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto (se describen náuseas como toxicidad frecuente) |
+| Items de Monitoreo | Hemograma completo, función hepática y renal, electrolitos, peso y estado nutricional |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se registran 81 interacciones en total. Entre las principales mostradas:
+  - **Mayores**: deferiprona, samario (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribina y clozapina.
+  - **Moderadas**: cloruro de estroncio Sr-89, roflumilast, cloranfenicol (incluida la forma oftálmica), zidovudina, alefacept, alemtuzumab, anakinra, azatioprina, canakinumab, además de vacunas (toxoide tetánico, ántrax, cólera vivo).
+  - Muchas de ellas afectan a la médula ósea o al sistema inmunitario, lo que sugiere riesgo aditivo de mielosupresión e inmunosupresión.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura. Además, la dirección del efecto es incierta y hay un factor de confusión importante con dexametasona.
+La única base es una puntuación alta del modelo TxGNN (nivel de evidencia L5), sin ensayos clínicos ni literatura, con un vínculo mecanístico especulativo y un perfil de toxicidad desfavorable para una enfermedad crónica no mortal.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), dato que bloquea el cribado de seguridad
-- Confirmar la indicación aprobada y el mecanismo de acción desde DrugBank
-- Buscar evidencia preclínica y clínica de los efectos de selinexor sobre el hueso, separando el efecto de la dexametasona
-- Determinar si la asociación del grafo indica beneficio terapéutico o riesgo de pérdida ósea
-- Evaluar la similitud con la indicación original y la compatibilidad de vías de administración
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Obtener las advertencias y contraindicaciones del prospecto de AEMPS (brecha bloqueante para el cribado de seguridad).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Confirmar la indicación aprobada de la autorización española.
+- Estudios preclínicos que respalden el efecto de la inhibición de XPO1 sobre el metabolismo óseo.
+- Revisión sistemática de literatura sobre selinexor y salud ósea.
+- Evaluación de la relación beneficio-riesgo frente a las alternativas existentes para la osteoporosis inducida por fármacos.
+- Evaluación de compatibilidad de vía de administración y similitud con la indicación original (actualmente pendientes).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

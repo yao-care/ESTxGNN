@@ -2,7 +2,7 @@
 layout: default
 title: Doravirine
 parent: Solo predicción del modelo (L5)
-nav_order: 181
+nav_order: 261
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,19 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Doravirina: De Infección por VIH-1 a Síndrome de Inmunodeficiencia Adquirida Felina
+# Doravirina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Doravirina es un inhibidor no nucleósido de la transcriptasa inversa (ITINN) utilizado para tratar la infección por VIH-1.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Doravirina es un inhibidor no nucleosídico de la transcriptasa inversa (ITINN), utilizado originalmente para el tratamiento de la infección por VIH y el SIDA.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH-1 (el texto de indicación de la autorización no está disponible; se toma del conocimiento general sobre el fármaco) |
+| Indicación Original | Infección por VIH / SIDA (según las indicaciones del grafo de conocimiento; el texto de indicación autorizado no está disponible) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L5 |
@@ -51,11 +50,16 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, doravirina es un ITINN, es decir, inhibe la transcriptasa inversa del VIH-1 uniéndose a un sitio alostérico de la enzima. Su eficacia en VIH-1 está comprobada. Mecanísticamente, podría ser aplicable al virus de la inmunodeficiencia felina (VIF) por ser este también un lentivirus.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, doravirina pertenece a la clase de los inhibidores no nucleosídicos de la transcriptasa inversa (ITINN), con actividad comprobada frente al VIH-1. Su eficacia en la infección por VIH está establecida, y es un fármaco comercializado en España.
 
-La relación entre ambas indicaciones es de vecindad en el grafo de conocimiento: el VIH-1 y el VIF pertenecen al mismo género viral. Esto explica el puntaje alto (0.9993), pero **no es evidencia de eficacia**.
+El virus de la inmunodeficiencia felina (VIF) es un lentivirus emparentado con el VIH, lo que explica que el modelo asigne un puntaje alto por proximidad en la red de conocimiento a las indicaciones de VIH/SIDA. Sin embargo, esta cercanía refleja más una similitud entre enfermedades que una actividad demostrada del fármaco.
 
-Hay una limitación importante: los ITINN suelen tener poca actividad frente a transcriptasas inversas de lentivirus distintos del VIH-1, porque el bolsillo de unión difiere. No se aportaron datos específicos sobre VIF. Por eso el puntaje refleja probablemente la proximidad en el grafo y no una actividad antiviral demostrada.
+Existen razones para ser cautos: los ITINN suelen tener poca o ninguna actividad frente al VIF por diferencias en el bolsillo de unión de la transcriptasa inversa. Además, se trata de una indicación veterinaria, con escasa relevancia para el reposicionamiento en humanos. El puntaje elevado debe interpretarse como una señal del modelo y no como evidencia de eficacia.
+
+### Otras predicciones del modelo
+
+- **Infección por el virus de inmunodeficiencia simia (VIS)** (puntaje 99.93%): lentivirus de primates estrechamente relacionado con el VIH, pero los ITINN suelen ser inactivos frente al VIS y al VIH-2. Es una indicación de modelo animal/preclínica con escaso valor de reposicionamiento clínico.
+- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (puntaje 99.91%): no se identificó ningún vínculo mecanístico plausible; parece un artefacto de la predicción basada en grafos.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,32 +67,42 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para la indicación principal (síndrome de inmunodeficiencia adquirida felina) actualmente no hay literatura relacionada disponible.
+
+Para la segunda predicción (VIS), el modelo vinculó una publicación, que no aporta evidencia directa sobre doravirina:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Revisión | Current Opinion in HIV and AIDS | Analiza el papel potencial de islatravir, un inhibidor de la translocación de la transcriptasa inversa (fármaco distinto), en el tratamiento y la prevención del VIH-1 |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1181332001 | PIFELTRO 100 mg comprimidos recubiertos con película (Merck Sharp & Dohme B.V.) | Comprimido recubierto con película | No especificada en los datos disponibles |
+| 1181332001 | PIFELTRO 100 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 59 interacciones conocidas. Entre las de la muestra compilada destacan:
+  - **Mayores**: dexametasona y lumacaftor.
+  - **Moderadas**: fenilbutirato de glicerol, metreleptina, troglitazona, deferasirox, praziquantel y griseofulvina.
+  - **Menores**: aprepitant, cimetidina, claritromicina, clotrimazol, miconazol, cobicistat, ticagrelor, ivacaftor, zafirlukast, cloranfenicol, eritromicina y fluconazol.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo, sin ensayos ni literatura (nivel L5). Además, hay razones farmacológicas para dudar de la actividad de los ITINN fuera del VIH-1. Las otras predicciones del modelo tampoco avanzan:
-- **Infección por virus de inmunodeficiencia de simios:** el único artículo recuperado trata de islatravir en VIH-1 y no respalda a doravirina.
-- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de sustancia blanca cortical:** no hay vínculo mecanístico creíble y probablemente es un artefacto del grafo.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura directa. Además, los ITINN suelen carecer de actividad frente a lentivirus no humanos, y la indicación principal es veterinaria, con escasa relevancia para el reposicionamiento en humanos.
 
 **Para avanzar se necesita:**
-- Datos de susceptibilidad *in vitro* de doravirina frente al VIF (y, si se explora el VIS, frente al VIS o en modelos de primates no humanos)
-- Datos detallados del mecanismo de acción (MOA)
-- Advertencias y contraindicaciones del prospecto de la AEMPS, hoy no disponibles, para completar el cribado de seguridad
-- Evaluación de la relevancia veterinaria, porque la indicación predicha es una enfermedad animal y no humana
+- Datos del mecanismo de acción (MOA) del fármaco.
+- Advertencias y contraindicaciones del prospecto de la AEMPS, así como el texto de la indicación autorizada.
+- Estudios in vitro de actividad de doravirina frente a VIF/VIS para validar la señal del modelo.
+- Evaluar si existe interés real en una indicación veterinaria, o priorizar otras predicciones con mayor plausibilidad clínica.
+- Revisión de las interacciones farmacológicas (especialmente las mayores) si se avanzara hacia cualquier uso adicional.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

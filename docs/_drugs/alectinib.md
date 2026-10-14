@@ -2,7 +2,7 @@
 layout: default
 title: Alectinib
 parent: Solo predicción del modelo (L5)
-nav_order: 25
+nav_order: 31
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Alectinib: De Cáncer de Pulmón No Microcítico ALK Positivo a Fibromatosis Gingival
+# Alectinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Alectinib es un inhibidor de la quinasa ALK, utilizado en cáncer de pulmón no microcítico (CPNM) ALK positivo. El registro de AEMPS no incluye el texto de la indicación aprobada, por lo que este dato procede de la literatura del propio paquete de evidencia.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Alectinib es un inhibidor selectivo de la quinasa del linfoma anaplásico (ALK), utilizado originalmente para el tratamiento del cáncer de pulmón no microcítico (CPNM).
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción computacional.
 
 ---
 
@@ -42,7 +42,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | CPNM ALK positivo (según la literatura; los textos de indicación de las autorizaciones de AEMPS están vacíos) |
+| Indicación Original | Cáncer de pulmón no microcítico (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99,97% |
 | Nivel de Evidencia | L5 |
@@ -54,11 +54,11 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados del mecanismo de acción en la ficha del fármaco. Según el análisis del paquete de evidencia, alectinib inhibe las quinasas ALK y RET. Su eficacia en CPNM con reordenamiento de ALK está bien demostrada en ensayos fase 3 (ALEX, J-ALEX, ALESIA).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, alectinib es un inhibidor de tirosina quinasa de ALK (con actividad también sobre RET), cuya eficacia en el CPNM con reordenamiento de ALK está bien establecida mediante ensayos de fase 3 (ALEX, J-ALEX, ALINA).
 
-**Aquí no se identifica un vínculo mecanístico claro.** No hay una patología dependiente de ALK o RET establecida en la fibromatosis gingival. La fibromatosis gingival es un sobrecrecimiento benigno del tejido de las encías y no se parece a un tumor con reordenamiento de ALK.
+**No se ha identificado un vínculo mecanístico plausible** entre la inhibición de ALK/RET y la fibromatosis gingival. La fibromatosis gingival es una enfermedad de crecimiento fibroso benigno de las encías, sin relación conocida con una vía impulsada por ALK. El puntaje elevado del modelo refleja una predicción computacional basada en el grafo de conocimiento, y no una relación demostrada.
 
-El puntaje de 99,97% es una predicción del modelo sin respaldo clínico ni bibliográfico. Con este puntaje, la posición del fármaco en el ranking de TxGNN es la 1129, lo que sugiere que puntajes muy altos son frecuentes en este modelo. Por sí solo, no basta para justificar una hipótesis terapéutica.
+La similitud con la indicación original está pendiente de evaluar. Mientras no existan datos que respalden la hipótesis, esta predicción debe considerarse solo una pregunta de investigación.
 
 ---
 
@@ -78,8 +78,10 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161169001 | ALECENSA 150 MG CAPSULAS DURAS (Roche Registration GmbH) | Cápsula dura | No consta en el registro |
-| 1161169001IP | ALECENSA 150 MG CAPSULAS DURAS (Roche Registration GmbH) | Cápsula dura | No consta en el registro |
+| 1161169001 | ALECENSA 150 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+| 1161169001IP | ALECENSA 150 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
+
+Titular: Roche Registration GmbH. Ambas autorizaciones son de medicamento único y están vigentes.
 
 ---
 
@@ -87,17 +89,22 @@ Actualmente no hay literatura relacionada disponible.
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/RET), no citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo. La literatura describe anemia, habitualmente leve, y un caso de anemia hemolítica |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Hemograma, función hepática, lípidos y triglicéridos (hay un caso de pancreatitis por hipertrigliceridemia), peso corporal y frecuencia cardíaca/ECG |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto (la literatura recuperada describe anemia, generalmente leve, y un caso de anemia hemolítica) |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma, función hepática y renal; según la literatura, también perfil lipídico, peso y parámetros cardíacos (ECG) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 92 interacciones en total. Entre las listadas en los datos compilados:
+  - **Mayor**: ácido aminolevulínico.
+  - **Moderada**: dolasetrón, naltrexona, edrofonio, fisostigmina, mefloquina, quinina, metoxaleno, acebutolol, ambenonio, asparaginasa (Erwinia chrysanthemi y E. coli), atazanavir, atenolol, bedaquilina, betaxolol y bisoprolol, entre otras.
+- **Señales de seguridad en la literatura** (casos clínicos y análisis): pancreatitis por hipertrigliceridemia, anemia hemolítica, síndrome DRESS, eritema multiforme, aumento de peso grave y efectos sobre la electrofisiología cardíaca.
+
+Las advertencias y contraindicaciones del prospecto no están disponibles en los datos compilados; consultar el prospecto de AEMPS para la información completa.
 
 ---
 
@@ -106,15 +113,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni literatura para fibromatosis gingival, y no existe un vínculo mecanístico plausible con la inhibición de ALK/RET. La evidencia es solo la predicción del modelo (L5).
+La predicción se apoya solo en el modelo computacional (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre la inhibición de ALK y la fibromatosis gingival.
 
 **Para avanzar se necesita:**
-- Evidencia biológica de una alteración de ALK o RET en el tejido de fibromatosis gingival, o estudios preclínicos que la respalden.
-- Obtener del prospecto de AEMPS las advertencias, contraindicaciones e indicaciones aprobadas de Alecensa, que actualmente faltan.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Como referencia, otras predicciones del mismo fármaco tienen algo más de apoyo. Destaca el tumor de células germinales de pulmón (posición 6), con un ensayo fase 2/3 en curso (NCT05770037) y casos clínicos en tumores neuroendocrinos pulmonares ALK positivos. Está clasificada como pregunta de investigación y merece priorizarse antes que la fibromatosis gingival.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Obtener el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones autorizadas) para completar la evaluación de seguridad.
+- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
+- Investigar si existe alguna base biológica (preclínica) que relacione las vías ALK/RET con la fibromatosis gingival.
+- Evaluar si otras indicaciones predichas con evidencia indirecta (por ejemplo, tumores neuroendocrinos con fusión de ALK, predicción n.º 6) merecen priorizarse como pregunta de investigación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Imatinib
 parent: Evidencia moderada (L3-L4)
-nav_order: 273
+nav_order: 406
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,83 +29,102 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Imatinib: De Leucemia Mieloide Crónica y GIST a Fibrosarcoma Cardíaco
+# Imatinib: De Leucemia Mieloide Crónica a Fibrosarcoma Cardíaco
 
 ## Resumen en Una Frase
 
-Imatinib es un inhibidor de tirosina quinasa que se comercializó inicialmente para la leucemia mieloide crónica y algunos tumores del estroma gastrointestinal (GIST), según la literatura aportada.
-El modelo TxGNN predice que podría ser efectivo para **fibrosarcoma cardíaco**, pero hay **0 ensayos clínicos** y solo **1 publicación** general, sin datos específicos de esta enfermedad.
+Imatinib es un inhibidor de tirosina quinasas, utilizado originalmente para el tratamiento de la leucemia mieloide crónica BCR-ABL1 positiva, los tumores del estroma gastrointestinal (GIST) y otras enfermedades hematológicas y sarcomatosas.
+El modelo TxGNN predice que podría ser efectivo para **fibrosarcoma cardíaco**, aunque por ahora solo hay **1 publicación de carácter general** y **ningún ensayo clínico** que respalde esta dirección.
+La evidencia es muy limitada y se basa casi exclusivamente en la predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide crónica y GIST (según la literatura; los datos de AEMPS no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Fibrosarcoma cardíaco (heart fibrosarcoma) |
-| Puntaje de Predicción TxGNN | 99,94% |
+| Indicación Original | Leucemia mieloide crónica BCR-ABL1 positiva, tumor del estroma gastrointestinal, mastocitosis, dermatofibrosarcoma protuberans, entre otras (el texto de indicación de las autorizaciones españolas no está disponible; se utilizan las indicaciones del grafo de conocimiento) |
+| Nueva Indicación Predicha | Fibrosarcoma cardíaco |
+| Puntaje de Predicción TxGNN | 99.94% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la literatura citada, imatinib es un inhibidor de tirosina quinasa, comercializado primero para leucemia mieloide crónica y GIST, cuyas indicaciones se han ampliado con los años. Mecanísticamente podría ser aplicable a sarcomas dependientes de estas vías, pero esto es una hipótesis general.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, imatinib inhibe las quinasas ABL, KIT y PDGFR. Su eficacia en leucemia mieloide crónica y GIST está bien establecida, y mecanísticamente podría ser aplicable a tumores impulsados por estas vías.
 
-Los datos no respaldan un mecanismo específico para el fibrosarcoma cardíaco. La única publicación es un comentario general de un boletín farmacéutico sobre nuevas indicaciones de imatinib. Ese comentario parece tratar sobre otros tumores (tipo DFSP/GIST) y no sobre el fibrosarcoma cardíaco.
+Los fibrosarcomas y tumores fibroblásticos similares, en particular los dirigidos por la fusión COL1A1-PDGFB (como el dermatofibrosarcoma protuberans, que ya es una indicación original de imatinib), podrían responder mediante la inhibición de PDGFRB. Esto aporta una base biológica plausible para la predicción.
 
-El puntaje TxGNN es muy alto, pero probablemente refleja la cercanía en el grafo entre nodos de tipo fibrosarcoma y el eje PDGFR/KIT. No constituye evidencia específica de la enfermedad.
+Sin embargo, no existen datos específicos en localización cardíaca. La única publicación asociada es un comentario general sobre nuevas indicaciones de imatinib que señala que la evidencia no es sólida. La predicción debe considerarse, por tanto, una hipótesis de investigación y no una evidencia clínica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para fibrosarcoma cardíaco.
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Revisión | Prescrire international | Comentario sobre las nuevas indicaciones de imatinib, con la conclusión de que la evidencia no es robusta. Incluye un ensayo en leucemia linfoblástica aguda Ph+ (55 pacientes). No aborda el fibrosarcoma cardíaco. |
+| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Revisión | Prescrire International | Comentario sobre las nuevas indicaciones de imatinib (p. ej., leucemia linfoblástica aguda Ph+); concluye que la evidencia de varias de ellas no es sólida. No aporta datos cardíacos específicos |
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 81933 | Imatinib Aristo 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aristo Pharma GmbH |
-| 81037 | Imatinib Normon 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorios Normon S.A. |
-| 113845002 | Imatinib Accord 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | Accord Healthcare S.L.U. |
-| 113845006 | Imatinib Accord 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | Accord Healthcare S.L.U. |
-| 80736 | Imatinib Dr. Reddys 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Dr Reddy's Laboratories (UK) Limited |
+| 81933 | Imatinib Aristo 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 81037 | Imatinib Normon 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 113845002 | Imatinib Accord 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 01198010 | Glivec 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 01198008 | Glivec 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 
-Se muestran 5 de las 20 autorizaciones. También existe una presentación en cápsula dura.
+Hay 20 autorizaciones vigentes en total (todas de monofármaco), incluidas presentaciones en comprimidos y cápsulas duras; arriba se muestran 5 de ellas.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas) |
+| Riesgo de Mielosupresión | Medio (el grafo de conocimiento asocia imatinib con neutropenia, trombocitopenia y anemia como condiciones de precaución) |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma completo, función hepática y renal, control de peso y signos de retención de líquidos, función cardíaca |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Condiciones de precaución según el grafo de conocimiento** (no proceden del texto del prospecto): insuficiencia hepática y enfermedad hepática, enfermedad renal, neutropenia, trombocitopenia, anemia, agranulocitosis, insuficiencia cardíaca congestiva e insuficiencia cardíaca, enfermedad de las arterias coronarias, valvulopatías, derrame pericárdico, edema pulmonar, edema cerebral, hipertensión, diabetes mellitus y cetoacidosis diabética, hipofosfatemia, úlcera péptica activa, síndrome de Gilbert e hiperbilirrubinemia, entre otras.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las incluidas en la muestra revisada, las de nivel **mayor** son con **eliglustat** y **naloxegol**. Las de nivel moderado incluyen corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), cimetidina, claritromicina, aprepitant, pioglitazona, glimepirida, saxagliptina, lansoprazol, dexlansoprazol, morfina, naltrexona, naldemedina y metreleptina.
+
+Dado que el propio candidato tiene una localización cardíaca, las condiciones cardiovasculares señaladas (insuficiencia cardíaca, derrame pericárdico) son especialmente relevantes. Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni literatura específica sobre fibrosarcoma cardíaco. La única cita es un comentario general, y el puntaje TxGNN por sí solo no basta para avanzar.
+La predicción del fibrosarcoma cardíaco tiene un puntaje alto del modelo, pero no cuenta con ensayos clínicos ni con literatura específica; solo hay un comentario general. Además, las condiciones cardíacas señaladas como precaución para imatinib exigen cautela adicional en esta localización.
 
 **Para avanzar se necesita:**
-- Evidencia específica del fibrosarcoma cardíaco (series de casos, registros o ensayos).
-- Datos del mecanismo de acción (DrugBank).
-- Advertencias y contraindicaciones del prospecto de AEMPS.
-- Evaluar por separado la segunda predicción (neoplasia fibroblástica/DFSP con fusión COL1A1-PDGFB), que tiene respaldo de guías europeas 2024 y un mecanismo coherente.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos detallados del mecanismo de acción (MOA) y búsqueda de evidencia específica en sarcomas cardíacos (series de casos, informes de casos).
+- Confirmar si estos tumores presentan alteraciones de PDGFR/KIT o la fusión COL1A1-PDGFB.
+- Obtener las advertencias y contraindicaciones oficiales del prospecto de la AEMPS.
+- Evaluar el perfil de seguridad cardiovascular en la población de interés.
+- Como alternativas con más respaldo dentro de las predicciones del modelo, considerar priorizar tumores fibroblásticos relacionados con el dermatofibrosarcoma (con evidencia de revisiones y guías, aunque se trata en gran parte de una indicación ya existente) y sarcomas de tejidos blandos en general (ensayos de Fase 2 completados, pero sin resultados específicos por histología).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

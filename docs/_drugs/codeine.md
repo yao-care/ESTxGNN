@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Codeine
-parent: Evidencia moderada (L3-L4)
-nav_order: 144
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 205
+evidence_level: L5
 indication_count: 4
 ---
 
 # Codeine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,33 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Codeína: De Dolor y Tos a Enfermedad de la Cavidad Nasal
+# Codeína: De Rinitis y Resfriado Común a Enfermedad de la Cavidad Nasal
 
 ## Resumen en Una Frase
 
-La codeína es un opioide utilizado para el dolor sistémico, la tos y, en algunos casos, la diarrea.
-El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**,
-pero hay **0 ensayos clínicos** y solo **2 publicaciones** (dos casos clínicos), que describen daño por mal uso de opioides y no un efecto terapéutico.
+La codeína es un opioide natural, comercializado en España en jarabes, soluciones orales y comprimidos, cuyas indicaciones originales en el conocimiento disponible incluyen rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, nasofaringitis y cefalea.
+El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**, con una puntuación muy alta (99,93%).
+Sin embargo, no hay ensayos clínicos y la única publicación disponible es un reporte de caso que describe un hallazgo accidental, no un efecto terapéutico, por lo que la evidencia es de **nivel L5**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dolor sistémico y tos (según la farmacología; los textos de indicación de AEMPS no están disponibles) |
+| Indicación Original | Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, nasofaringitis, cefalea (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 99,93% |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 6 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información farmacológica disponible, la codeína actúa sobre el receptor opioide μ (gen OPRM1), y esto explica su uso analgésico y antitusivo. Ese mecanismo no aporta una razón para tratar una enfermedad de la cavidad nasal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la codeína es un agonista del receptor opioide μ (OPRM1), con uso clínico como analgésico, antitusígeno y antidiarreico.
 
-Las dos publicaciones recuperadas apuntan en sentido contrario al tratamiento. Una describe necrosis de la cavidad nasal y la faringe por abuso intranasal de hidrocodona-paracetamol. La otra describe un rinolito ("opioma") formado alrededor de una mezcla endurecida de codeína y opio. El puntaje tan alto del modelo (0,999) probablemente refleja una asociación en el grafo de conocimiento con patología nasal inducida por opioides, no un efecto terapéutico.
+La predicción parece estar impulsada sobre todo por la proximidad anatómica y de enfermedad en el grafo de conocimiento: la codeína ya figura para rinitis, resfriado común y nasofaringitis, que afectan a la cavidad nasal. Esto sugiere una extensión de las indicaciones existentes más que una señal de reposicionamiento genuina.
 
-En conclusión, la predicción no está respaldada mecanísticamente y debe interpretarse como una asociación de daño, no de beneficio.
+Además, la única publicación recuperada describe un "opioma" (una rinolitiasis formada alrededor de una mezcla endurecida de codeína y opio), es decir, un hallazgo accidental asociado al fármaco, no un beneficio terapéutico. No hay evidencia de que la codeína sea útil para la enfermedad de la cavidad nasal como categoría.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,37 +65,43 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [22965281](https://pubmed.ncbi.nlm.nih.gov/22965281/) | 2012 | Reporte de caso | The Laryngoscope | El abuso intranasal de hidrocodona-paracetamol provoca necrosis de la cavidad nasal y la faringe. Es un opioide distinto de la codeína y describe un daño, no un beneficio. |
-| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Reporte de caso | Ear, Nose & Throat Journal | Rinolito inusual formado alrededor de un cuerpo extraño compuesto por codeína y opio ("opioma") en un varón de 21 años. |
+| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Reporte de caso | Ear, Nose, & Throat Journal | Varón de 21 años con rinolito unilateral formado alrededor de un cuerpo extraño compuesto por codeína y opio ("opioma"); se extrajo bajo anestesia local. No describe efecto terapéutico. |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 65343 | NOTUSIN SOLUCION ORAL | Solución oral |
-| 24797 | HISTAVERIN 2 mg/ml JARABE | Jarabe |
-| 32357 | TOSEINA 2 mg/ml SOLUCION ORAL | Solución oral |
-| 5255 | CODEISAN 1,26 mg/ml JARABE | Jarabe |
-| 1778 | CODEISAN 28,7 mg COMPRIMIDOS | Comprimido |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 65343 | Notusin solución oral | Solución oral | No disponible |
+| 24797 | Histaverin 2 mg/ml jarabe | Jarabe | No disponible |
+| 32357 | Toseína 2 mg/ml solución oral | Solución oral | No disponible |
+| 5255 | Codeisan 1,26 mg/ml jarabe | Jarabe | No disponible |
+| 1778 | Codeisan 28,7 mg comprimidos | Comprimido | No disponible |
+
+Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma). Las 6 autorizaciones son de monofármaco y están vigentes.
 
 ## Consideraciones de Seguridad
 
-- **Señal de urticaria (predicción de menor rango, rango 4)**: la literatura describe la codeína como un liberador no mediado por IgE de histamina desde los mastocitos, usada como control positivo en pruebas cutáneas intradérmicas. También hay casos de erupción urticarial por codeína oral.
-- **Uso intranasal**: los casos recuperados asocian el uso intranasal indebido de opioides con necrosis y rinolitiasis.
-- Para advertencias, contraindicaciones e interacciones, consultar el prospecto.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión, insuficiencia hepática y hepatopatía, epilepsia, insomnio, EPOC, trastornos de ansiedad y neuróticos, distimia, porfiria, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, trombocitopenia, hipotiroidismo/mixedema, úlcera péptica, enfermedad inflamatoria intestinal, gastritis, trastornos psicóticos y esquizoafectivos, y dermatitis herpetiforme.
+- **Interacciones farmacológicas**: solo consta la interacción farmacodinámica con el receptor μ opioide (OPRM1); no hay datos de interacciones con otros fármacos.
+- **Señales de otras predicciones**: la codeína es un liberador no inmunológico de histamina de los mastocitos y puede provocar urticaria. Además, los opioides no se recomiendan en cefalea en racimos por su eficacia limitada y el riesgo de cefalea por abuso de medicación.
+
+Para las advertencias y contraindicaciones del prospecto, consultar la ficha técnica de la AEMPS.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos, la literatura disponible describe daño y no beneficio, y no existe un mecanismo terapéutico plausible. El puntaje alto de TxGNN no compensa la ausencia de evidencia de eficacia.
+Pese a la puntuación alta del modelo, no existen ensayos clínicos y la única publicación es un reporte de caso sobre un hallazgo accidental, sin valor terapéutico. La predicción refleja la cercanía con las indicaciones ya existentes (rinitis, resfriado), no una nueva oportunidad.
+
+Las otras indicaciones predichas tampoco respaldan el reposicionamiento: laringofaringitis aguda (L5, sin evidencia, extensión de indicaciones actuales), cefalea trigémino-autonómica (L4, evidencia indirecta y preocupación de seguridad) y urticaria alérgica (L4, la codeína la provoca, por lo que estaría mecanísticamente contraindicada).
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de AEMPS (advertencias y contraindicaciones), un dato bloqueante para el cribado de seguridad.
-- Confirmar el mecanismo de acción en DrugBank.
-- Evidencia real de eficacia (estudios preclínicos o clínicos) que apoye un beneficio en enfermedad de la cavidad nasal.
-- Otras predicciones del mismo paquete: laringofaringitis aguda (L5, solo predicción, solapa con el uso antitusivo actual), cefalea trigémino-autonómica (L4, casos indirectos, riesgo de uso excesivo) y urticaria alérgica (L4, dirección causal, no terapéutica). Ninguna cambia la decisión de Hold.
+- Obtener los textos de indicación y el prospecto de las autorizaciones de la AEMPS (advertencias y contraindicaciones), actualmente ausentes.
+- Datos detallados del mecanismo de acción.
+- Definir qué se entiende por "enfermedad de la cavidad nasal" y si existe un beneficio sintomático distinto de las indicaciones actuales.
+- Estudios clínicos o revisiones sistemáticas que evalúen eficacia en patología nasal.
+- Evaluación de compatibilidad de vías de administración y de la relación beneficio-riesgo de un opioide en esta población.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: Solo predicción del modelo (L5)
-nav_order: 269
+nav_order: 400
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,19 +29,18 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Ibuprofeno: De Dolor y Fiebre a Displasia Acromesomélica tipo Hunter-Thompson
+# Ibuprofeno: De Artritis Reumatoide a Displasia Acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Ibuprofeno es un antiinflamatorio no esteroideo (AINE) de uso muy extendido, utilizado originalmente como analgésico y antipirético.
-El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomélica tipo Hunter-Thompson**, una enfermedad esquelética rara.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que se trata solo de una predicción del modelo.
+Ibuprofeno es un antiinflamatorio no esteroideo (AINE) utilizado ampliamente por su acción analgésica y antipirética, con indicaciones originales como artritis reumatoide, artrosis, cefalea y artropatías.
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dolor y fiebre (uso clínico general; las autorizaciones de la AEMPS del registro no incluyen texto de indicación) |
+| Indicación Original | Artritis reumatoide (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 99.74% |
 | Nivel de Evidencia | L5 |
@@ -51,11 +50,11 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información farmacológica conocida, ibuprofeno es un inhibidor no selectivo de las ciclooxigenasas (COX-1 y COX-2). Su eficacia en dolor, inflamación y fiebre está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ibuprofeno es un inhibidor no selectivo de la ciclooxigenasa (COX-1 y COX-2), y su eficacia en artritis reumatoide, artrosis y otras artropatías está bien establecida.
 
-La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético relacionado con GDF5. Hasta donde alcanzan los datos proporcionados, no existe una vía establecida que conecte la inhibición de COX con la modificación de esta enfermedad. Un posible beneficio, en el mejor de los casos, sería sintomático (dolor o inflamación), y no se aportó evidencia de ello.
+La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética rara causada por variantes de pérdida de función en CDMP1/GDF5 (vía de señalización BMP). No se aprecia un vínculo mecanístico plausible entre la inhibición de COX y la señalización de GDF5, ni una forma de corregir la displasia esquelética con ibuprofeno.
 
-Por tanto, esta predicción **no tiene un vínculo mecanístico respaldado**. El puntaje alto (0.997) proviene únicamente del grafo de conocimiento del modelo y no debe interpretarse como evidencia de eficacia.
+El puntaje alto del modelo (0.997) probablemente es un artefacto del grafo de conocimiento, derivado de anotaciones fenotípicas musculoesqueléticas compartidas con las indicaciones originales (artritis y artropatía). En el mejor de los casos, ibuprofeno podría ofrecer analgesia sintomática para el dolor articular, lo cual no constituye modificación de la enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,38 +66,38 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Ibuprofeno tiene 20 autorizaciones en España. Se muestran las 5 principales. El registro no incluye el texto de la indicación aprobada de estas autorizaciones. También existen otras formas, como cápsula blanda, granulado efervescente, solución para perfusión y polvo para suspensión oral.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco; ninguna cancelada). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 90114 | Ibuprofeno Combix 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorios Combix S.L.U. |
-| 68200 | Ibufarmalid 400 mg suspensión oral | Suspensión oral | Farmalider S.A. |
-| 80719 | Espidifen 600 mg granulado para solución oral sabor cola-limón | Granulado para solución oral | Zambon S.A.U. |
-| 64030 | Ibuprofeno Mabo 50 mg/g gel | Gel (tópico) | Mabo Farma S.A. |
-| 69343 | Ibuprofeno (arginina) Stada 600 mg granulado para solución oral EFG | Granulado para solución oral | Laboratorio Stada S.L. |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 90114 | Ibuprofeno Combix 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 68200 | Ibufarmalid 400 mg suspensión oral | Suspensión oral |
+| 80719 | Espidifen 600 mg granulado para solución oral sabor cola-limón | Granulado para solución oral |
+| 64030 | Ibuprofeno Mabo 50 mg/g gel | Gel |
+| 85161 | Ibuprofeno B. Braun Pediátrico 200 mg solución para perfusión | Solución para perfusión |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión, insuficiencia hepática, hepatopatía, enfermedad renal, úlcera péptica, enfermedad inflamatoria intestinal, trombocitopenia, trastornos de la coagulación, ictus y trastornos cerebrovasculares, infarto de miocardio, epilepsia, EPOC, diabetes mellitus y cetoacidosis diabética, lupus eritematoso sistémico, hipotiroidismo, enfermedad de la vesícula biliar, hipertrofia prostática benigna, hipotensión, déficit de potasio y abuso/dependencia de sustancias.
+- **Interacciones y dianas farmacológicas**: los datos compilados describen dianas farmacológicas (COX-1, COX-2, PPAR-γ, ASIC1, SMCT1 y el transportador de aminoácidos acoplado a protones 1), no interacciones con otros medicamentos con nivel de gravedad definido.
+- **Exposición prenatal**: para síndromes malformativos congénitos como el síndrome braquidactilia-sindactilia, la exposición prenatal a AINE es en sí misma una preocupación de seguridad.
 
-La consulta de interacciones devolvió solo dianas farmacológicas de ibuprofeno (COX-1, COX-2, ASIC1, SMCT1, PAT1 y PPARγ), no interacciones con otros fármacos.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible. Las otras seis indicaciones predichas están en la misma situación: braquiolmia con amelogénesis imperfecta, miosclerosis, braquiolmia, síndrome de braquidactilia-sindactilia, pseudoacondroplasia y síndrome de microftalmia colobomatosa con displasia rizomélica. Todas son L5 y Hold.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP. Lo más probable es que el puntaje elevado sea un artefacto del grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción desde DrugBank y un análisis del posible vínculo entre COX y la vía GDF5.
-- Estudios preclínicos en modelos de la enfermedad que respalden un efecto sobre el hueso o el cartílago.
-- Búsqueda sistemática de literatura y ensayos, incluidos reportes de caso.
-- Advertencias y contraindicaciones del prospecto de la AEMPS, hoy no disponibles, antes de cualquier revisión de seguridad.
-- Evaluación de la compatibilidad de vías de administración (pendiente).
-- Valorar, con mayor plausibilidad, si el beneficio sintomático en pseudoacondroplasia (dolor articular) merece una evaluación separada.
+- Datos del mecanismo de acción confirmados desde DrugBank
+- Advertencias y contraindicaciones oficiales de los prospectos de la AEMPS
+- Estudios preclínicos o de mecanismo que sustenten un efecto sobre la señalización GDF5/BMP
+- Si se considera, evaluar el uso solo como analgesia sintomática (cuidado de soporte), no como reposicionamiento modificador de la enfermedad
 
-Los resultados de este informe son solo para referencia de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.
+**Otras predicciones del modelo (todas L5, Hold):** síndrome de braquiolmia-amelogénesis imperfecta, miosclerosis, braquiolmia, síndrome de braquidactilia-sindactilia, pseudoacondroplasia y síndrome de microftalmia colobomatosa-displasia rizomélica. Ninguna cuenta con ensayos ni literatura, y en todas el vínculo mecanístico es indirecto o inexistente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

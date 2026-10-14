@@ -2,7 +2,7 @@
 layout: default
 title: Valproic Acid
 parent: Solo predicción del modelo (L5)
-nav_order: 553
+nav_order: 837
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido valproico: De Trastornos Convulsivos a Neoplasia del Nervio Trigémino
+# Ácido valproico: De Epilepsia a Neoplasia del Nervio Trigémino
 
 ## Resumen en Una Frase
 
-El ácido valproico es un antiepiléptico de amplio espectro. Está aprobado para trastornos convulsivos, episodios maníacos del trastorno bipolar y migraña.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, con **0 ensayos clínicos** y **1 publicación** que no aborda directamente esta indicación (trata sobre el síndrome de Sturge-Weber). La predicción carece de respaldo clínico.
-
----
+El ácido valproico es un fármaco antiepiléptico de amplio espectro, utilizado originalmente para el tratamiento de la epilepsia, la epilepsia de ausencia y los episodios maníacos del trastorno bipolar.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero actualmente **no hay ensayos clínicos** y solo **1 publicación** (una serie de casos sobre el síndrome de Sturge-Weber, que no trata de esta indicación) está vinculada a la predicción. La evidencia es, en la práctica, solo la predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastornos convulsivos, episodios maníacos del trastorno bipolar y migraña (según los datos farmacológicos; las licencias de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Epilepsia, trastorno bipolar maníaco, epilepsia de ausencia (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99,97 % |
+| Puntaje de Predicción TxGNN | 99,97% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 14 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información farmacológica disponible, el ácido valproico es un inhibidor de la histona desacetilasa (HDAC), con HDAC1 como diana humana registrada. Se investiga como tratamiento en infección por VIH y en varios tipos de cáncer, además de sus usos aprobados como antiepiléptico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el ácido valproico es un antiepiléptico de amplio espectro cuya eficacia en epilepsia está bien establecida. Su acción antiepiléptica se atribuye al refuerzo de la transmisión GABAérgica, al bloqueo de canales de sodio y a la modulación de canales de calcio tipo T. Además, es un inhibidor de la histona desacetilasa (HDAC1 figura como diana en los datos farmacológicos), y esta propiedad se investiga como estrategia en diversos cánceres e infección por VIH.
 
-La relación entre la indicación original y la nueva es débil. Los usos aprobados son neurológicos y psiquiátricos, y una neoplasia del nervio trigémino es un tumor. El único puente posible sería un efecto antineoplásico por inhibición de HDAC. El análisis del Evidence Pack lo califica de **especulativo y sin respaldo en los datos disponibles**.
+La relación entre la indicación original y la nueva es débil. La epilepsia es un trastorno neurológico funcional, mientras que la neoplasia del nervio trigémino es un tumor. El único vínculo mecanístico plausible es el efecto antitumoral preclínico de los inhibidores de HDAC, que es teórico y para el cual no se aporta evidencia específica en tumores del trigémino.
 
-El puntaje TxGNN es muy alto (99,97 %), pero no está apoyado por ningún dato clínico o preclínico recuperado. Debe tratarse como una hipótesis del modelo, no como una señal de eficacia.
-
----
+La única publicación vinculada (PMID 9157801) es una serie de 14 casos de síndrome de Sturge-Weber de 1997, un trastorno neurocutáneo vascular en el que el valproato se usa solo para controlar las convulsiones. No respalda la predicción. El puntaje alto del modelo parece reflejar la cercanía en el grafo de conocimiento con trastornos neurológicos, no evidencia real.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | Anales españoles de pediatría | Revisión de 14 casos de síndrome de Sturge-Weber seguidos durante 25 años, con sus características clínicas, evolución y respuesta terapéutica. No trata sobre tumores del trigémino, por lo que no respalda esta indicación. |
-
----
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | Anales Españoles de Pediatría | Revisión de 14 casos de síndrome de Sturge-Weber en 25 años (características clínicas, evolución y respuesta terapéutica). No aborda tumores del nervio trigémino. |
 
 ## Información de Mercado en España
 
-Se listan 5 de las 14 autorizaciones. El registro no incluye texto de indicación aprobada para ninguna de ellas.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 84514 | Ácido valproico Aurobindo 300 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
+| 60350 | Depakine Crono 500 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
+| 60352 | Depakine 100 mg/ml polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+| 48828 | Depakine 200 mg/ml solución oral | Solución oral | No disponible |
+| 68033 | Ácido valproico Altan 400 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 84514 | Ácido Valproico Aurobindo 300 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
-| 60350 | Depakine Crono 500 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada |
-| 60352 | Depakine 100 mg/ml polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable |
-| 48828 | Depakine 200 mg/ml solución oral | Solución oral |
-| 68033 | Ácido Valproico Altan 400 mg polvo para solución inyectable EFG | Polvo para solución inyectable |
-
----
+Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): trastornos de ansiedad, trastornos neuróticos, trastorno distímico, deficiencia de carbamoil fosfato sintetasa I, porfiria hereditaria y trastornos del metabolismo de porfirinas, enfermedad renal, piouréter, hiperargininemia, enfermedades hematológicas, pancreatitis, citrulinemia, trastorno cognitivo, enfermedad hepática, enfermedad de la vesícula biliar y trombocitopenia.
+- **Interacciones farmacológicas**: la consulta se completó con un único registro, que corresponde a la interacción farmacológica con su diana HDAC1 (inhibición de histona desacetilasa 1), no a una interacción con otro medicamento.
 
-Los datos de interacciones del Evidence Pack solo registran a HDAC1 como diana farmacológica, no interacciones con otros medicamentos.
-
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5). No hay ensayos clínicos, y la única publicación recuperada no guarda relación con la indicación. El vínculo mecanístico por inhibición de HDAC es especulativo.
+La predicción se apoya solo en el puntaje del modelo (nivel L5): no hay ensayos clínicos y la única publicación vinculada no trata de tumores del trigémino. Además, el perfil de contraindicaciones (hepáticas, hematológicas, pancreáticas) exige cautela en un contexto oncológico.
 
 **Para avanzar se necesita:**
-- Datos preclínicos (líneas celulares o modelos animales) del ácido valproico en tumores del nervio trigémino o tumores nerviosos comparables.
-- Datos detallados del mecanismo de acción, a partir de DrugBank.
-- Revisión del prospecto de AEMPS para los datos de advertencias y contraindicaciones.
-- Una revisión de literatura dirigida sobre ácido valproico y neoplasias del sistema nervioso.
+- Evidencia preclínica específica del efecto de inhibidores de HDAC/ácido valproico en tumores del nervio trigémino o tumores relacionados.
+- Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto de la AEMPS.
+- Una revisión de la literatura más específica sobre tumores del trigémino, ya que la publicación actual no es pertinente.
+- Evaluación de seguridad para poblaciones con enfermedad hepática, trombocitopenia o riesgo de pancreatitis.
 
-Entre las otras indicaciones predichas, algunas tienen más respaldo que esta. Por ejemplo, la epilepsia visual alcanza nivel L3, aunque es en la práctica una extensión del uso antiepiléptico ya existente y no un reposicionamiento propiamente dicho.
+> Nota: entre las demás predicciones, la **neuralgia del trigémino** (puntaje 99,83%, nivel L4) y la **epilepsia de sobresalto** (puntaje 99,81%, nivel L3) cuentan con más respaldo bibliográfico. La epilepsia visual (L3) cae esencialmente dentro de la indicación existente de epilepsia, por lo que no es un reposicionamiento genuino.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

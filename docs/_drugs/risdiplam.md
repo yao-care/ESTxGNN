@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Solo predicción del modelo (L5)
-nav_order: 470
+nav_order: 705
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,77 +33,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Risdiplam es un modulador del empalme del pre-ARNm de SMN2, utilizado para la atrofia muscular espinal (AME).
-El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es únicamente una predicción computacional.
-
----
+Risdiplam es un modulador del empalme del pre-ARNm de SMN2, utilizado originalmente para el tratamiento de la atrofia muscular espinal (AME).
+El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Atrofia muscular espinal (según la descripción del mecanismo; el texto de indicación de las autorizaciones españolas está vacío) |
+| Indicación Original | Atrofia muscular espinal (según el perfil conocido del fármaco; el texto de indicación no figura en las autorizaciones compiladas) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.45% |
+| Puntaje de Predicción TxGNN | 99,45% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, risdiplam es un modulador del empalme del pre-ARNm de SMN2 aprobado para la atrofia muscular espinal. No hay una relación mecanística establecida con el acné.
+Risdiplam es un modulador del empalme del pre-ARNm de SMN2 que favorece la inclusión del exón 7 y aumenta la producción de proteína SMN funcional. Actualmente no se dispone de datos detallados del mecanismo de acción en los datos compilados; la descripción anterior corresponde al conocimiento general del fármaco.
 
-El acné depende de la producción de sebo, la hiperqueratinización folicular, la colonización por *Cutibacterium acnes* y la inflamación. Ninguna de estas vías se conoce como dependiente del empalme de SMN2, y la AME (una enfermedad neuromuscular) y el acné (una enfermedad dermatológica) no comparten una base fisiopatológica evidente.
+Con la información disponible, **no se identifica un vínculo mecanístico establecido** entre este mecanismo y la fisiopatología del acné (producción de sebo, hiperqueratinización folicular, colonización por *Cutibacterium acnes* e inflamación). El puntaje de 99,45% es una predicción del grafo de conocimiento y puede reflejar artefactos de la red más que una justificación biológica. La similitud con la indicación original está pendiente de evaluar.
 
-El puntaje alto de TxGNN (0.995) proviene solo del grafo de conocimiento y no está respaldado por datos clínicos ni bibliográficos. Se han descrito cambios de empalme fuera de diana (por ejemplo, inclusión de exones en genes como FOXM1 y MADD), y en estudios preclínicos aparecieron toxicidades cutáneas y retinianas. Esto son señales de seguridad, no evidencia de beneficio en acné.
-
----
+Los posibles efectos de empalme fuera de diana de risdiplam en otros genes, incluidos los que afectan a piel o tejidos epiteliales, deben considerarse un aspecto de seguridad, no una evidencia de beneficio en el acné. Tampoco se ha evaluado la compatibilidad de vías de administración (oral actual frente a las requeridas para acné).
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1211531002 | EVRYSDI 5 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1211531001 | EVRYSDI 0,75 mg/ml polvo para solución oral | Polvo para solución oral |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1211531002 | EVRYSDI 5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 1211531001 | EVRYSDI 0,75 mg/ml polvo para solución oral | Polvo para solución oral | No disponible en los datos compilados |
 
-Ambas autorizaciones pertenecen a Roche Registration GmbH.
-
----
+Titular: Roche Registration GmbH (ambas autorizaciones vigentes).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas** (2 interacciones de nivel moderado):
+  - Metformina: moderada
+  - Metilnaltrexona: moderada
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre la modulación del empalme de SMN2 y el acné. Además, las señales preclínicas de toxicidad cutánea y retiniana no favorecen el uso en una enfermedad de curso benigno.
+La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible con el acné. Además, faltan datos clave de seguridad del prospecto, lo que impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad
-- Completar los datos de mecanismo de acción desde DrugBank
-- Identificar estudios preclínicos o de mecanismo que vinculen la vía de SMN2 o los efectos de empalme con la biología del acné
-- Evaluar la compatibilidad de vía de administración (actualmente solo formas orales; una indicación dermatológica requeriría justificación)
-- Reevaluar solo si aparece evidencia independiente al modelo
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), incluida la indicación aprobada
+- Completar los datos del mecanismo de acción (p. ej., desde DrugBank)
+- Establecer una hipótesis biológica que vincule el empalme de SMN2 con la fisiopatología del acné
+- Revisar la literatura preclínica y de seguridad cutánea/epitelial por efectos fuera de diana
+- Evaluar la compatibilidad de vías de administración para el uso propuesto
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

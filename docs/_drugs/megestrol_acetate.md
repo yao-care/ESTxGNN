@@ -2,7 +2,7 @@
 layout: default
 title: Megestrol Acetate
 parent: Evidencia alta (L1-L2)
-nav_order: 340
+nav_order: 501
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetato de megestrol: De Indicación Autorizada en España (sin detallar) a Carcinoma Endometrial del Cuerpo Uterino
+# Acetato de megestrol: De Carcinoma de Endometrio a Carcinoma Endometrial de Cuerpo Uterino
 
 ## Resumen en Una Frase
 
-El acetato de megestrol es un progestágeno sintético comercializado en España en suspensión oral, comprimidos y granulado, aunque los datos disponibles no detallan su indicación autorizada. El modelo TxGNN predice que podría ser efectivo para el **carcinoma endometrial del cuerpo uterino**, con **4 ensayos clínicos** registrados y **ninguna publicación** específica para esta indicación en el paquete de evidencia.
+El acetato de megestrol es un progestágeno sintético, originalmente utilizado en el tratamiento del carcinoma de endometrio.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma endometrial de cuerpo uterino**, con **1 ensayo clínico** y **ninguna publicación** que respaldan directamente esta predicción.
+Esta nueva indicación coincide en la práctica con la indicación original, por lo que no constituye un reposicionamiento propiamente dicho.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos de autorización |
-| Nueva Indicación Predicha | Carcinoma endometrial del cuerpo uterino |
+| Indicación Original | Carcinoma de endometrio (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
+| Nueva Indicación Predicha | Carcinoma endometrial de cuerpo uterino |
 | Puntaje de Predicción TxGNN | 99.94% |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -49,36 +51,33 @@ El acetato de megestrol es un progestágeno sintético comercializado en España
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El acetato de megestrol es un progestágeno sintético. Actúa sobre los receptores de progesterona de los tumores endometriales sensibles a hormonas, favoreciendo la diferenciación celular y reduciendo la proliferación. Es un mecanismo hormonal bien establecido, no solo una predicción del grafo. Actualmente no se dispone de datos detallados de mecanismo de acción en DrugBank para este registro.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el acetato de megestrol es un progestágeno que actúa a través de los receptores de progesterona y glucocorticoides. La terapia con progestágenos es un tratamiento hormonal establecido para el cáncer de endometrio con receptores hormonales positivos.
 
-El estrógeno estimula el crecimiento de las células del cáncer de endometrio, y la terapia con progestágenos contrarresta ese efecto. Por eso los ensayos del paquete evalúan el megestrol o progestágenos afines en carcinoma endometrial, hiperplasia atípica y neoplasia intraepitelial endometrial. Varios de ellos se centran en la preservación de la fertilidad.
+La nueva indicación predicha es esencialmente la indicación original, de modo que la alta puntuación del modelo es coherente con el uso clínico conocido. Esto respalda la validez de la predicción, pero no aporta un beneficio de reposicionamiento más allá de la indicación existente.
 
-La relación con la indicación original no puede evaluarse con estos datos, porque los textos de indicación de las autorizaciones españolas están vacíos y el análisis de similitud está pendiente.
+Otras predicciones del modelo, con menor respaldo, incluyen el cáncer de ovario (evidencia L2: un estudio de fase 2 con megestrol a dosis altas en cáncer epitelial de ovario refractario a platino, PMID 11593052, y revisiones sobre terapia hormonal) y el carcinosarcoma uterino (L4, solo evidencia indirecta). El resto de predicciones se basan únicamente en el modelo (L5) y quedan en espera (Hold).
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Fase 2 | Completado | 73 | ECA aleatorizado de temsirolimus solo o con terapia hormonal (megestrol y tamoxifeno) en cáncer de endometrio avanzado, persistente o recurrente. Señal directa más relevante; falta confirmar el brazo de megestrol. |
-| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Fase 2 | Terminado | 9 | Progestágeno continuo vs. secuencial (megestrol) en neoplasia intraepitelial endometrial con deseo de preservar el útero. Terminado con n=9, sin datos de eficacia utilizables. |
-| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Fase 1 temprana | Desconocido | 60 | Inhibidor de PD-1 con progesterona vs. progesterona sola en cáncer de endometrio precoz con deseo de fertilidad. El efecto del megestrol no puede aislarse. |
-| [NCT07462663](https://clinicaltrials.gov/study/NCT07462663) | Fase 4 | Aún sin reclutar | 80 | Piloto (SHAPE-ENDO, Barcelona) de estrategia hormonal más prehabilitación frente a cirugía inmediata en hiperplasia atípica o cáncer endometrioide de bajo riesgo con IMC ≥40. Sin resultados. |
+| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Fase 2 | Completado | 73 | Ensayo aleatorizado de temsirolimus solo o combinado con terapia hormonal (megestrol y tamoxifeno) en carcinoma de endometrio avanzado, persistente o recurrente. El papel exacto del brazo con megestrol debe verificarse |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 4376IP | MAYGACE ALTAS DOSIS 40 MG/ML | Suspensión oral | No especificada en los datos |
-| 58775 | BOREA 160 mg | Comprimido | No especificada en los datos |
-| 62012 | MEGEFREN SOBRES | Granulado | No especificada en los datos |
-| 60783 | MAYGACE ALTAS DOSIS 40 mg/ml | Suspensión oral | No especificada en los datos |
-| 58773 | MEGEFREN 160 mg | Comprimido | No especificada en los datos |
+| 4376IP | MAYGACE ALTAS DOSIS 40 MG/ML | Suspensión oral | No disponible |
+| 58775 | BOREA 160 mg | Comprimido | No disponible |
+| 62012 | MEGEFREN SOBRES | Granulado | No disponible |
+| 60783 | MAYGACE ALTAS DOSIS 40 mg/ml | Suspensión oral | No disponible |
+| 58773 | MEGEFREN 160 mg | Comprimido | No disponible |
 
-Se muestran 5 de las 6 autorizaciones registradas.
+Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes.
 
 ## Citotoxicidad
 
@@ -87,26 +86,29 @@ Se muestran 5 de las 6 autorizaciones registradas.
 | Clasificación de Citotoxicidad | Terapia hormonal (progestágeno); no es un citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar el prospecto; la literatura del paquete describe efectos sobre la coagulación y supresión suprarrenal con dosis altas |
+| Items de Monitoreo | Consultar el prospecto; por las contraindicaciones del grafo de conocimiento, conviene vigilar glucemia, presión arterial y función hepática y renal. También se ha descrito supresión suprarrenal secundaria (PMID 10491532) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no texto del prospecto)**: trastorno hipertensivo e hipertensión, enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus, cetoacidosis diabética, insuficiencia suprarrenal y enfermedad de Addison, hipogonadismo masculino, eunucoidismo, menopausia prematura y síndrome de insensibilidad a los andrógenos.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones, las mostradas son de nivel moderado. Destacan los antidiabéticos (acarbosa, metformina, pioglitazona, glimepirida, repaglinida, sitagliptina, saxagliptina, linagliptina, alogliptina, canagliflozina, dapagliflozina, empagliflozina, clorpropamida), los agonistas del receptor de GLP-1 (albiglutida, dulaglutida, semaglutida), las insulinas (aspart, degludec), el aprepitant y la claritromicina. El patrón sugiere un posible efecto sobre el control glucémico.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ECA de Fase 2 completado (n=73) que incluye terapia hormonal con megestrol en cáncer de endometrio avanzado, lo que sitúa la evidencia en L2, y el mecanismo progestágeno es plausible y conocido. Sin embargo, no hay literatura específica, el efecto del megestrol no está aislado en la mayoría de los ensayos y faltan los datos de seguridad de la ficha técnica.
+La indicación predicha coincide con la indicación original, y existe un ensayo de fase 2 completado en carcinoma de endometrio avanzado o recurrente. Sin embargo, no aporta valor de reposicionamiento nuevo, y la información de seguridad oficial y del mecanismo no está disponible.
 
 **Para avanzar se necesita:**
-- Confirmar que el megestrol figura en el brazo de tratamiento de NCT00729586 y obtener sus resultados.
-- Descargar la ficha técnica de la AEMPS para obtener advertencias, contraindicaciones e indicaciones autorizadas.
-- Completar el mecanismo de acción desde DrugBank.
-- Buscar literatura específica de megestrol en carcinoma endometrial.
-- Definir un plan de monitoreo de seguridad (eventos tromboembólicos, supresión suprarrenal) antes de cualquier uso en esta indicación.
+- Obtener los datos de advertencias y contraindicaciones del prospecto de la AEMPS (carencia bloqueante para el cribado de seguridad).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Confirmar el diseño del brazo con megestrol en NCT00729586.
+- Si se busca un reposicionamiento real, priorizar el cáncer de ovario (revisar PMID 11593052 y verificar la aplicabilidad de NCT00005975) y el carcinosarcoma uterino.
+- Definir un plan de monitoreo para pacientes con diabetes, hipertensión o enfermedad hepática o renal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

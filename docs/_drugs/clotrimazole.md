@@ -2,7 +2,7 @@
 layout: default
 title: Clotrimazole
 parent: Solo predicción del modelo (L5)
-nav_order: 141
+nav_order: 202
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,77 +29,93 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Clotrimazol: De Infecciones Fúngicas y por Levaduras a Acné
+# Clotrimazol: De Tiña del Pie a Acné
 
 ## Resumen en Una Frase
 
-Clotrimazol es un antifúngico azólico de uso local, empleado en infecciones de la piel por hongos y levaduras y en la candidiasis vaginal.
-El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidencia es muy débil: **1 ensayo clínico** suspendido, con una combinación de tres fármacos, y **ninguna publicación** que lo respalde.
+Clotrimazol es un antifúngico azólico de uso tópico, originalmente indicado para infecciones cutáneas por hongos (como la tiña del pie, la tiña corporal y la pitiriasis versicolor) y para candidiasis oral y vulvovaginal.
+El modelo TxGNN predice que podría ser efectivo para **acné**, pero solo existe **1 ensayo clínico** suspendido, que evalúa una combinación de tres fármacos, y **ninguna publicación** que respalde esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones locales de la piel por hongos y levaduras (tiña, pie de atleta) y candidiasis vaginal (según datos farmacológicos; las autorizaciones de la AEMPS no incluyen texto de indicación) |
+| Indicación Original | Tiña del pie (pie de atleta), tomada del grafo de conocimiento porque las autorizaciones españolas no incluyen texto de indicación |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99,86% |
-| Nivel de Evidencia | L4 (indirecta) |
+| Puntaje de Predicción TxGNN | 99.86% |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Clotrimazol es un antifúngico azólico. Inhibe la enzima fúngica lanosterol 14-alfa-desmetilasa (CYP51), bloquea la síntesis de ergosterol y daña la membrana del hongo. Los datos del paquete de evidencia no incluyen una descripción detallada del mecanismo de acción, así que esta descripción procede del razonamiento del análisis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, clotrimazol es un antifúngico azólico que inhibe la CYP51 (lanosterol 14-alfa-desmetilasa) del hongo. Esto bloquea la síntesis de ergosterol y altera la integridad de la membrana fúngica. Su eficacia en micosis cutáneas y candidiasis está bien establecida. También se le atribuyen efectos antiinflamatorios y antimicrobianos modestos.
 
-El vínculo con el acné es plausible pero **no está demostrado**. Se podría pensar en una actividad frente a levaduras del género *Malassezia* asociadas a inflamación cutánea, pero no hay datos que lo confirmen. El único ensayo disponible prueba una combinación fija (beclometasona + gentamicina + clotrimazol). Cualquier efecto se explicaría mejor por el corticoide y el antibiótico que por clotrimazol.
+Un posible vínculo con el acné sería el papel de *Malassezia* (*Pityrosporum*) en la inflamación folicular. Otra posibilidad sería el efecto de una combinación tópica con antibiótico y corticoide. Sin embargo, esta relación es hipotética. El único ensayo disponible usa una combinación fija (beclometasona + gentamicina + clotrimazol), por lo que no se puede aislar la contribución del clotrimazol.
 
-El puntaje de 99,86% es una predicción del modelo, no un respaldo clínico. Probablemente refleja la cercanía en el grafo de conocimiento entre clotrimazol y las afecciones dermatológicas.
+El puntaje TxGNN (99.86%) es una predicción computacional y no está respaldado por evidencia clínica directa. Debe interpretarse con cautela.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspendido | 80 | Compara la combinación de beclometasona + gentamicina + clotrimazol en crema tópica en pacientes con dermatosis contaminada con lesiones bilaterales simétricas. Sin resultados. Relevancia baja (grado C): el efecto de clotrimazol no puede aislarse y el enfoque no es específicamente acné. |
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspendido | 80 | Compara la eficacia de la crema tópica de beclometasona 0,025% + gentamicina 0,1% + clotrimazol 1% en dermatosis contaminada con lesiones bilaterales simétricas. Sin resultados disponibles. |
+
+**Valoración:** la relevancia es baja (grado C). El ensayo está suspendido, no tiene resultados y prueba una combinación de varios fármacos. Además, el título está truncado y no permite confirmar si la población es realmente de acné o de otra dermatosis. La evidencia es, como mucho, indirecta.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones vigentes, todas de fármaco único. Los datos disponibles no incluyen el texto de indicación aprobada.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
-| 11003-29-03-1999 | GINE-CANESTEN 20 MG/G CREMA VAGINAL | Crema vaginal |
-| 90227 | CLOTIC 10 MG/ML GOTAS ÓTICAS EN SOLUCIÓN EN ENVASE UNIDOSIS | Gotas óticas en solución |
-| 56755 | GINE-CANESTEN 500 mg COMPRIMIDO VAGINAL | Comprimido vaginal |
-| 52626 | CANESTEN 10 mg/g CREMA | Crema |
-| 56825 | GINE-CANESTEN 20 mg/g CREMA VAGINAL | Crema vaginal |
+| 52626 | Canesten 10 mg/g crema | Crema |
+| 52625 | Canesten 10 mg/ml solución para pulverización cutánea | Solución para pulverización cutánea |
+| 56826 | Canesten 10 mg/g polvo cutáneo | Polvo cutáneo |
+| 82837 | Clotrimazol Nutra Essential 10 mg/g espuma cutánea | Espuma cutánea |
+| 90227 | Clotic 10 mg/ml gotas óticas en solución en envase unidosis | Gotas óticas en solución |
 
-Existen además otras formas comercializadas: cápsula vaginal blanda, solución para pulverización cutánea, polvo cutáneo y espuma cutánea.
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: los datos disponibles describen dianas farmacológicas de clotrimazol, no interacciones con otros medicamentos. Incluyen los canales KCa1.1 y KCa3.1, los canales TRPM (TRPM2, TRPM4, TRPM8), y los receptores nucleares PXR y CAR, que regulan el metabolismo de fármacos. La relevancia clínica de estas dianas no está establecida en los datos.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto de prospecto): insuficiencia suprarrenal, enfermedad de Addison, atrofia cutánea, telangiectasia, enfermedad capilar, telangiectasia hemorrágica hereditaria, enfermedad vascular periférica, claudicación vascular intermitente y enfermedad arterial periférica.
+- **Interacciones farmacológicas:** no se dispone de interacciones con otros fármacos. Los datos farmacológicos solo muestran dianas moleculares de clotrimazol: canales de potasio activados por calcio (KCa1.1 y KCa3.1), canales TRP (TRPM2, TRPM3, TRPM4 y TRPM8), receptor X de pregnano (PXR) y receptor constitutivo de androstano (CAR). Estas dianas no equivalen a interacciones clínicamente confirmadas.
 
 Para el resto de la información de seguridad, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La única evidencia es un ensayo suspendido, sin resultados, con una combinación triple en la que no se puede atribuir efecto a clotrimazol. Sin literatura ni un vínculo mecanístico establecido, la predicción no basta para avanzar.
+La predicción para acné se basa únicamente en el modelo. El único ensayo es de una combinación de tres fármacos, está suspendido y no tiene resultados, y no hay publicaciones que lo respalden. Por ello no es posible atribuir ningún efecto al clotrimazol en esta indicación.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de acción y estudios preclínicos sobre la actividad de clotrimazol en acné (por ejemplo, frente a *Malassezia* o *Cutibacterium*)
-- Un ensayo con clotrimazol en monoterapia, comparado con placebo o tratamiento estándar en acné
-- Advertencias y contraindicaciones del prospecto de la AEMPS
-- Aclarar la indicación original (los datos de autorización de la AEMPS no incluyen texto de indicación)
+- Aclarar la población real del ensayo NCT01244256 (acné frente a otra dermatosis) y obtener sus resultados, si existen.
+- Estudios preclínicos o de mecanismo que justifiquen el uso de clotrimazol en acné, por ejemplo su papel frente a *Malassezia* o su actividad antiinflamatoria.
+- Datos detallados del mecanismo de acción.
+- Ensayos controlados con clotrimazol en monoterapia frente a un comparador estándar para el acné.
+- Revisar las advertencias y contraindicaciones del prospecto oficial en la AEMPS.
 
-**Nota sobre otras predicciones del modelo:**
-- **Vulvovaginitis** (98,96%... véase abajo) es con alta probabilidad un uso ya establecido y comercializado, no un reposicionamiento real. Tiene evidencia de nivel L2 y decisión Proceed with Guardrails, pero hay que confirmar qué ensayos incluyen realmente clotrimazol. Aplica solo a la vaginitis candidiásica.
-- **Vaginitis atrófica posmenopáusica** carece de vínculo mecanístico creíble (L5, Hold).
+**Nota adicional:** entre las demás predicciones del modelo, la vulvovaginitis (candidiasis vulvovaginal) es una indicación ya establecida de clotrimazol, con ensayos de Fase 3 completados. No constituye un reposicionamiento real, sino una confirmación de un uso existente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

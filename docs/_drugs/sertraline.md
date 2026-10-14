@@ -2,7 +2,7 @@
 layout: default
 title: Sertraline
 parent: Solo predicción del modelo (L5)
-nav_order: 490
+nav_order: 733
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,69 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Sertralina: De Trastorno Depresivo Mayor a Trastorno Esquizoide de la Personalidad
+# Sertralina: De Trastorno de Ansiedad a Agorafobia
 
 ## Resumen en Una Frase
 
-La sertralina es un inhibidor selectivo de la recaptación de serotonina (ISRS), utilizado clínicamente sobre todo para el trastorno depresivo mayor y otros trastornos de ansiedad.
-El modelo TxGNN predice que podría ser efectiva para el **trastorno esquizoide de la personalidad**, pero hay **0 ensayos clínicos** y solo **2 publicaciones**, ninguna con relación directa con esta indicación.
+Sertralina es un inhibidor selectivo de la recaptación de serotonina (ISRS), utilizado originalmente para el tratamiento de trastornos de ansiedad, trastorno obsesivo-compulsivo, estrés postraumático y fobia social.
+El modelo TxGNN predice que podría ser efectivo para **agorafobia**, con **2 ensayos clínicos** registrados (solo uno con relación indirecta) y **19 publicaciones** que respaldan esta dirección, la mayoría centradas en el trastorno de pánico con o sin agorafobia.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según el uso clínico descrito en la base farmacológica; los registros de la AEMPS no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Trastorno esquizoide de la personalidad |
-| Puntaje de Predicción TxGNN | 99,93 % |
-| Nivel de Evidencia | L5 |
+| Indicación Original | Trastorno de ansiedad (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Agorafobia |
+| Puntaje de Predicción TxGNN | 99.54% |
+| Nivel de Evidencia | L1 (con salvedades, ver más abajo) |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
+
+> **Nota sobre el nivel de evidencia:** el nivel L1 se asigna por la existencia de varios ensayos controlados aleatorizados y metaanálisis en trastorno de pánico con o sin agorafobia. Ningún ensayo registrado completado de Fase 3 evalúa la agorafobia como diagnóstico independiente, por lo que la asignación debe interpretarse con cautela.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente. Según la información conocida, la sertralina es un ISRS que actúa sobre el transportador de serotonina (SERT, gen SLC6A4). Su eficacia en depresión y ansiedad está comprobada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sertralina inhibe el transportador de serotonina (SERT, gen SLC6A4), lo que aumenta la disponibilidad de serotonina en la sinapsis. Su eficacia en varios trastornos de ansiedad (fobia social, TEPT, TOC) está establecida.
 
-Los datos aportados no respaldan un vínculo plausible con los rasgos centrales del trastorno esquizoide de la personalidad, que son el desapego afectivo y el rango emocional restringido. El puntaje alto de TxGNN (0,9993) es solo una predicción del modelo. Además, las cuatro primeras predicciones (trastornos esquizoide, paranoide, esquizotípico e histriónico) comparten exactamente el mismo puntaje, por lo que este valor no permite distinguir entre ellas.
+La agorafobia suele presentarse junto con el trastorno de pánico, y los ISRS son tratamiento farmacológico de primera línea para el trastorno de pánico con o sin agorafobia. Por tanto, la relación con las indicaciones originales es estrecha: comparten circuitos de miedo y ansiedad moduladores de la serotonina.
+
+Conviene precisar que la fuerza de la evidencia procede sobre todo de estudios en trastorno de pánico (con o sin agorafobia), no de agorafobia como diagnóstico aislado.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00182533](https://clinicaltrials.gov/study/NCT00182533) | Fase 4 | Terminado | 170 | Sertralina en fobia social generalizada con comorbilidad; evalúa seguridad y eficacia en pacientes con otros trastornos de ansiedad concurrentes. Relación indirecta con agorafobia |
+| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Desconocido | 1 | Tratamiento psicoanalítico de trastornos psiquiátricos en trastorno del espectro autista; no relacionado con la eficacia de sertralina en agorafobia |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19794312](https://pubmed.ncbi.nlm.nih.gov/19794312/) | 2009 | Otro (terapia multimodal) | Int Clin Psychopharmacol | Tratamiento combinado (dieta, terapia cognitivo-conductual y sertralina) en 30 pacientes con trastorno por atracón. No guarda relación directa con el trastorno esquizoide. |
-| [21163152](https://pubmed.ncbi.nlm.nih.gov/21163152/) | 2010 | Reporte de caso | Dermatol Online J | Caso de lupus eritematoso discoide hipertrófico. No está relacionado con la indicación predicha. |
+| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Metaanálisis en red | Cochrane Database Syst Rev | Tratamientos farmacológicos del trastorno de pánico en adultos |
+| [35045991](https://pubmed.ncbi.nlm.nih.gov/35045991/) | 2022 | Revisión sistemática y metaanálisis en red de ECA | BMJ | Clases de fármacos y ISRS con mayores tasas de remisión y menor riesgo de efectos adversos en pánico con o sin agorafobia |
+| [9734541](https://pubmed.ncbi.nlm.nih.gov/9734541/) | 1998 | ECA | Am J Psychiatry | Ensayo multicéntrico doble ciego de sertralina en trastorno de pánico |
+| [9819070](https://pubmed.ncbi.nlm.nih.gov/9819070/) | 1998 | ECA | Arch Gen Psychiatry | Eficacia y seguridad de sertralina a dosis flexibles en trastorno de pánico |
+| [14971862](https://pubmed.ncbi.nlm.nih.gov/14971862/) | 2003 | ECA | Ann Clin Psychiatry | Imipramina frente a sertralina en pánico, pacientes que completaron 24 semanas |
+| [16053461](https://pubmed.ncbi.nlm.nih.gov/16053461/) | 2005 | ECA | Bosn J Basic Med Sci | Sertralina frente a alprazolam en pánico con y sin agorafobia (40 pacientes, 12 semanas) |
+| [15096081](https://pubmed.ncbi.nlm.nih.gov/15096081/) | 2004 | ECA | J Clin Psychiatry | Comparación de no inferioridad de sertralina y paroxetina en pánico |
+| [11110009](https://pubmed.ncbi.nlm.nih.gov/11110009/) | 2000 | Análisis combinado de ensayos | Int Clin Psychopharmacol | Resultados agrupados de dos estudios de dosis fijas de sertralina en pánico con o sin agorafobia |
+| [11110016](https://pubmed.ncbi.nlm.nih.gov/11110016/) | 2000 | Revisión | Int Clin Psychopharmacol | Los ISRS, incluida sertralina, superan al placebo en pánico y agorafobia |
+| [36573969](https://pubmed.ncbi.nlm.nih.gov/36573969/) | 2022 | Revisión | JAMA | Revisión general de los trastornos de ansiedad |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 84732 | Sertralina Cinfa 150 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 59717 | Besitran 50 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 65922 | Sertralina Normon 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 65997 | Sertralina Cuve 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 66116 | Sertralina Qualigen Farma 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 84732 | Sertralina Cinfa 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 59717 | Besitran 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 65922 | Sertralina Normon 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 65997 | Sertralina Cuve 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 66116 | Sertralina Qualigen Farma 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
 
-Se muestran 5 de las 20 autorizaciones registradas.
+Existen 20 autorizaciones vigentes en total, todas de medicamentos monocomponente.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según relaciones del grafo de conocimiento, no del prospecto):** epilepsia, trastorno bipolar, trastorno afectivo mayor, enfermedad hepática, enfermedad de la vesícula biliar, trastornos de la coagulación, síndrome neuroléptico maligno, síndrome de secreción inadecuada de ADH, síndrome nefrogénico de antidiuresis inapropiada y síndrome serotoninérgico.
+- **Interacciones farmacológicas:** los datos compilados solo muestran la interacción farmacológica con su diana, el transportador de serotonina (SERT); no hay información de interacciones con otros fármacos.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-No existen ensayos clínicos y la literatura aportada es indirecta o no relacionada. Sin un vínculo mecanístico plausible, la predicción se queda en el nivel L5 (solo predicción del modelo).
+Existen múltiples ECA y metaanálisis que respaldan a los ISRS, incluida sertralina, en trastorno de pánico con o sin agorafobia, y el mecanismo es coherente con sus indicaciones ansiolíticas. Sin embargo, la evidencia no aborda la agorafobia como diagnóstico independiente y no hay ensayos registrados directamente relevantes.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o de mecanismo específicos en trastorno esquizoide de la personalidad.
-- Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto de la AEMPS.
-- Como referencia, entre las predicciones del mismo fármaco, la **agorafobia** (puntaje 99,54 %) tiene nivel L2 y recomendación "Proceed with Guardrails", respaldada por metaanálisis en red y ensayos de sertralina en trastorno de pánico. Sin embargo, podría tratarse de una indicación ya establecida y no de un verdadero reposicionamiento.
+- Ensayos o análisis de subgrupos específicos en agorafobia como diagnóstico principal.
+- Obtener y revisar el prospecto oficial de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Datos detallados del mecanismo de acción.
+- Plan de monitoreo de seguridad (p. ej., síndrome serotoninérgico, hiponatremia, riesgo de sangrado, antecedentes de trastorno bipolar o epilepsia).
+
+---
+
+**Otras predicciones del modelo (para referencia):** los trastornos de personalidad esquizoide, paranoide, esquizotípico, histriónico, dependiente y narcisista, así como la tortícolis paroxística benigna de la infancia, obtuvieron puntajes TxGNN elevados (99.1%–99.9%), pero con evidencia nula o solo indirecta (niveles L4–L5). Se recomienda **Hold** para todas ellas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

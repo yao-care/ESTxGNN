@@ -2,7 +2,7 @@
 layout: default
 title: Doxazosin
 parent: Evidencia moderada (L3-L4)
-nav_order: 183
+nav_order: 263
 evidence_level: L4
 indication_count: 2
 ---
@@ -33,71 +33,88 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-La doxazosina es un bloqueante alfa-1 adrenérgico, utilizado originalmente para tratar la hipertensión y mejorar la micción en la hiperplasia prostática benigna.
-El modelo TxGNN predice que podría ser efectiva para **migraña**,
-pero actualmente hay **0 ensayos clínicos** y solo **1 publicación** (una serie pequeña de 10 pacientes de 1997) que respalda esta dirección.
+Doxazosina es un antagonista selectivo de los receptores adrenérgicos alfa-1, utilizado originalmente para tratar la hipertensión y la hiperplasia prostática benigna.
+El modelo TxGNN predice que podría ser efectivo para **migraña (trastorno de migraña)**,
+pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** (una revisión/discusión de 1997 con 10 pacientes) que respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión e hiperplasia prostática benigna (según datos farmacológicos; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Migraña (*migraine disorder*) |
-| Puntaje de Predicción TxGNN | 99.20% |
+| Indicación Original | Hipertensión e hiperplasia prostática benigna (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Trastorno de migraña |
+| Puntaje de Predicción TxGNN | 99,20% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-La doxazosina es un antagonista selectivo de los receptores alfa-1 adrenérgicos. Los datos farmacológicos disponibles la vinculan con los subtipos α1A, α1B y α1D (genes ADRA1A, ADRA1B y ADRA1D). El campo de mecanismo de acción de la fuente original no está disponible, por lo que esta descripción se basa en la clase del fármaco y no en una ficha de mecanismo confirmada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, doxazosina es un antagonista selectivo de los receptores adrenérgicos alfa-1. Los datos de farmacología confirman su unión a los receptores α1A, α1B y α1D (genes ADRA1A, ADRA1B y ADRA1D). Su eficacia en hipertensión y en hiperplasia prostática benigna está bien establecida.
 
-Su uso original (hipertensión e hiperplasia prostática) se apoya en la relajación del músculo liso vascular y prostático mediante el bloqueo alfa-1. Para la migraña, la hipótesis es que este bloqueo podría modular el tono cerebrovascular y simpático. Es el mismo razonamiento que planteó la revisión de 1997 sobre bloqueantes alfa-1 en la profilaxis de la migraña. La relación con la indicación original es indirecta: comparten el blanco farmacológico, pero no la fisiopatología.
+La señalización adrenérgica modula el tono vascular cerebral y las vías noradrenérgicas centrales, que podrían intervenir en la fisiopatología de la migraña. Esto ofrece un vínculo biológicamente plausible, pero no demostrado. Este razonamiento se infiere de la farmacología conocida del fármaco, no de datos de mecanismo aportados directamente.
 
-El puntaje de 99.20% es una predicción computacional y no constituye evidencia clínica. También se predijo la *migraña con aura del tronco encefálico* (99.19%), pero no tiene ensayos ni literatura propios. Su puntaje probablemente refleja la cercanía en el grafo con la migraña general, y su fisiopatología podría ser distinta, por lo que la hipótesis no está verificada para ese subtipo.
+El puntaje de 99,20% es una predicción computacional y no constituye evidencia clínica. Además, el modelo predice también "migraña con aura del tronco encefálico" (99,19%), un subtipo de migraña sin ensayos ni literatura propios; esa predicción hereda la hipótesis general de migraña y debería abordarse dentro de la misma pregunta de investigación, no por separado.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Revisión / serie de casos | Headache | Diez pacientes con migraña recibieron terazosina o doxazosina. Todos menos uno mostraron menor frecuencia o gravedad de las crisis, pero 5 abandonaron el tratamiento por efectos secundarios. No se notificaron reacciones adversas graves. |
+| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Revisión / discusión | Headache | Diez pacientes con migraña en una consulta de neurología general recibieron terazosina o doxazosina. Nueve de diez presentaron menor frecuencia o gravedad de las migrañas, pero 5 abandonaron el tratamiento por efectos secundarios. No se notificaron reacciones adversas graves. |
+
+Se trata de una serie de casos pequeña y sin control, con valor limitado como evidencia.
+
+---
 
 ## Información de Mercado en España
 
-Hay 20 autorizaciones en total. Estas son las 5 principales. Los textos de indicación aprobada no figuran en los datos recibidos.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 75010 | Doxazosina Neo Viatris 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Viatris Limited |
-| 70679 | Doxazosina Neo Aurovitas Spain 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Aurovitas Spain, S.A.U. |
-| 62930 | Progandol Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación modificada | Almirall S.A. |
-| 58861 | Progandol 4 mg comprimidos | Comprimido | Almirall S.A. |
-| 3400937625784 | Carduran Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación prolongada | Viatris Up |
+| 75010 | Doxazosina Neo Viatris 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
+| 70679 | Doxazosina Neo Aurovitas Spain 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible |
+| 62930 | Progandol Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación modificada | No disponible |
+| 58861 | Progandol 4 mg comprimidos | Comprimido | No disponible |
+| 3400937625784 | Carduran Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación prolongada | No disponible |
+
+Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento monocomponente, ninguna cancelada).
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Tolerabilidad en migraña**: en la única serie disponible, 5 de 10 pacientes suspendieron el fármaco por efectos secundarios, aunque no hubo reacciones graves.
+- **Contraindicaciones asociadas (según el grafo de conocimiento, no según el prospecto)**: atrofia multisistémica, síndrome de taquicardia postural ortostática, hipotensión ortostática, insuficiencia hepática, enfermedad hepática, enfermedad de la vesícula biliar, trastornos hipotensivos, estenosis pilórica, priapismo, síndrome del iris flácido intraoperatorio y obstrucción intestinal.
+- **Interacciones Farmacológicas**: la consulta se completó con 3 registros, que corresponden a la unión a los receptores adrenérgicos α1A, α1B y α1D (interacciones farmacológicas con dianas), no a interacciones con otros medicamentos. En una población migrañosa no hipertensa, el efecto hipotensor del fármaco debe considerarse con especial atención.
 
-Para advertencias, contraindicaciones e interacciones, consultar el prospecto. La ficha de AEMPS aún no se ha incorporado a este análisis.
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en un puntaje computacional y en una serie pequeña, sin control, de 1997. No hay ensayos clínicos, y la mitad de los pacientes de esa serie abandonó el tratamiento por efectos secundarios.
+La predicción se apoya únicamente en un puntaje del modelo y en una serie de 10 casos de 1997 sin control, sin ensayos clínicos registrados (nivel L4). Además, 5 de los 10 pacientes abandonaron el tratamiento por efectos secundarios, y el efecto hipotensor es una preocupación en pacientes no hipertensos. Se mantiene como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un vacío que bloquea el cribado de seguridad
-- Confirmar el mecanismo de acción en DrugBank
-- Revisar la literatura más reciente sobre bloqueantes alfa-1 en migraña
-- Si se continúa, diseñar un estudio exploratorio controlado con seguimiento de hipotensión y tolerabilidad
-- Verificar por separado la hipótesis para el subtipo con aura del tronco encefálico, que hoy carece de evidencia propia
+- Datos del mecanismo de acción (MOA) desde DrugBank para fortalecer el vínculo mecanístico.
+- Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente sin datos), requisito previo para cualquier cribado de seguridad.
+- Revisión sistemática de la literatura sobre bloqueadores alfa-1 en profilaxis de migraña.
+- Estudios preclínicos o un ensayo piloto controlado, con evaluación del riesgo de hipotensión en población normotensa.
+- Tratar la migraña con aura del tronco encefálico dentro de la misma pregunta de investigación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

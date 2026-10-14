@@ -2,7 +2,7 @@
 layout: default
 title: Bumetanide
 parent: Evidencia moderada (L3-L4)
-nav_order: 87
+nav_order: 123
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,89 +29,74 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Bumetanida: De Edema (Insuficiencia Cardiaca, Hepática y Renal) a Enfermedad Cardiaca Pulmonar Aguda
+# Bumetanida: De Insuficiencia Cardiaca Congestiva a Enfermedad Cardiaca Pulmonar Aguda
 
 ## Resumen en Una Frase
 
-La bumetanida es un diurético de asa, utilizado para tratar el edema asociado a insuficiencia cardiaca, enfermedad hepática y enfermedad renal.
+Bumetanida es un diurético de asa, utilizado originalmente para el tratamiento de la insuficiencia cardiaca congestiva y los edemas asociados.
 El modelo TxGNN predice que podría ser efectivo para la **enfermedad cardiaca pulmonar aguda (cor pulmonale agudo)**,
-pero ningún ensayo ni publicación disponible estudia directamente esta indicación: hay **3 ensayos clínicos** y **5 publicaciones**, todos sobre insuficiencia cardiaca en general.
-
----
+pero actualmente solo cuenta con **0 ensayos clínicos** y **5 publicaciones** de apoyo indirecto (sobre insuficiencia cardiaca y diuréticos en general, no específicas de esta indicación).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Edema asociado a insuficiencia cardiaca, enfermedad hepática y renal (según datos de farmacología; la ficha de AEMPS disponible no incluye texto de indicación) |
+| Indicación Original | Insuficiencia cardiaca congestiva (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
 | Nueva Indicación Predicha | Enfermedad cardiaca pulmonar aguda |
-| Puntaje de Predicción TxGNN | 99,58 % |
+| Puntaje de Predicción TxGNN | 99,58% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-La bumetanida inhibe los cotransportadores Na-K-Cl. Según los datos de farmacología, actúa sobre el cotransportador renal SLC12A1 (NKCC2) y sobre el basolateral SLC12A2 (NKCC1), y también figura asociada a GPR35. Al bloquear NKCC2 en la rama ascendente gruesa del asa de Henle, produce una natriuresis rápida y descongestión. No hay un mecanismo de acción curado en la base de datos de origen, por lo que esta explicación se basa en farmacología general.
+La bumetanida es un diurético de asa potente que inhibe el cotransportador Na-K-2Cl (NKCC2, codificado por SLC12A1) en la rama ascendente gruesa del asa de Henle, lo que produce una natriuresis y diuresis rápidas. Los datos compilados también muestran interacción farmacológica con el cotransportador basolateral NKCC1 (SLC12A2) y con el receptor GPR35. No se dispone de un campo detallado de mecanismo de acción en DrugBank, por lo que esta descripción se basa en la información farmacológica disponible.
 
-En el cor pulmonale agudo, la sobrecarga de volumen del ventrículo derecho y la congestión sistémica pueden empeorar la función cardiaca derecha. Un diurético potente que reduzca el volumen circulante podría aliviar esa sobrecarga, y esta es la conexión que respalda la predicción.
+La insuficiencia cardiaca congestiva y el cor pulmonale agudo comparten un elemento fisiopatológico: la sobrecarga de volumen y la congestión venosa sistémica. En el cor pulmonale agudo, la sobrecarga del ventrículo derecho puede aliviarse mediante la descongestión, por lo que el vínculo es plausible y coherente con el uso aprobado en insuficiencia cardiaca y edema.
 
-El puntaje TxGNN es muy alto (0,996), pero es solo una predicción computacional. La evidencia humana disponible se refiere a insuficiencia cardiaca izquierda o general y a edema, no a cor pulmonale agudo. No hay ningún estudio en embolia pulmonar ni en fallo ventricular derecho asociado a SDRA.
-
----
+Es necesario ser prudente: la evidencia es indirecta y se refiere a insuficiencia cardiaca aguda y crónica en general, no al cor pulmonale agudo. Además, una reducción excesiva de la precarga puede empeorar el llenado del ventrículo derecho y el gasto cardiaco, de modo que el beneficio depende del estado volémico. El puntaje elevado de TxGNN (0,996) es una predicción computacional y probablemente refleja la gran similitud con la indicación existente de insuficiencia cardiaca.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT07375212](https://clinicaltrials.gov/study/NCT07375212) | Fase 4 | Retirado | 0 | Dosis única de 4 mg de bumetanida intranasal para medir su efecto sobre la presión arterial pulmonar y el volumen sanguíneo en pacientes con insuficiencia cardiaca y dispositivo implantado (CardioMEMS/Cordella). Directamente relevante, pero sin participantes ni datos. |
-| [NCT05580510](https://clinicaltrials.gov/study/NCT05580510) | Fase 2/3 | Desconocido | 160 | Empagliflozina y sacubitrilo/valsartán en insuficiencia cardiaca con fracción de eyección reducida asociada a cardiopatía congénita del adulto. No evalúa bumetanida. |
-| [NCT06885164](https://clinicaltrials.gov/study/NCT06885164) | N/A | Reclutando | 200 | Monitorización sismocardiográfica en insuficiencia cardiaca. Estudio no intervencionista, sin evidencia de eficacia. |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [3304383](https://pubmed.ncbi.nlm.nih.gov/3304383/) | 1987 | Estudio hemodinámico clínico | Br J Clin Pharmacol | En 24 pacientes con enfermedad coronaria e insuficiencia cardiaca aguda (inducida por esfuerzo) o crónica, la bumetanida i.v. redujo el índice cardiaco y la presión de oclusión de la arteria pulmonar, y aumentó la presión arterial y la resistencia vascular sistémica. |
-| [6391889](https://pubmed.ncbi.nlm.nih.gov/6391889/) | 1984 | Revisión | Drugs | Revisión farmacodinámica y farmacocinética. Describe su uso en edema por insuficiencia cardiaca congestiva, enfermedad hepática y renal, y congestión pulmonar aguda, con diuresis rápida (en 30 minutos) que dura de 3 a 6 horas. |
-| [19142155](https://pubmed.ncbi.nlm.nih.gov/19142155/) | 2009 | Revisión | Am J Ther | Revisión del manejo de la insuficiencia cardiaca aguda y las opciones diuréticas, con resultados de ensayos recientes. |
-| [19843838](https://pubmed.ncbi.nlm.nih.gov/19843838/) | 2009 | Revisión | Ann Pharmacother | Revisión comparativa de diuréticos de asa (farmacocinética, seguridad, eficacia y costes) que cuestiona si la furosemida debe ser de primera línea. |
-| [39366035](https://pubmed.ncbi.nlm.nih.gov/39366035/) | 2024 | Cohorte/Epidemiología | Am J Emerg Med | Epidemiología de las consultas por insuficiencia cardiaca en urgencias de EE. UU. (2016-2023). Contexto general, sin relación directa con bumetanida. |
-
----
+| [3304383](https://pubmed.ncbi.nlm.nih.gov/3304383/) | 1987 | Estudio hemodinámico clínico (pequeño, mecanístico) | Br J Clin Pharmacol | Con bumetanida i.v. en 24 pacientes con enfermedad coronaria e insuficiencia cardiaca aguda o crónica, disminuyeron el índice cardiaco y la presión de oclusión de la arteria pulmonar |
+| [6391889](https://pubmed.ncbi.nlm.nih.gov/6391889/) | 1984 | Revisión | Drugs | Propiedades farmacodinámicas y farmacocinéticas de la bumetanida; uso en edema por insuficiencia cardiaca, enfermedad hepática y renal, y congestión pulmonar aguda |
+| [19142155](https://pubmed.ncbi.nlm.nih.gov/19142155/) | 2009 | Revisión | Am J Ther | Manejo de la insuficiencia cardiaca aguda; la mayoría de los pacientes se controla con diuréticos |
+| [19843838](https://pubmed.ncbi.nlm.nih.gov/19843838/) | 2009 | Revisión | Ann Pharmacother | Comparación de perfiles farmacocinéticos, seguridad, eficacia y costes de los diuréticos de asa |
+| [39366035](https://pubmed.ncbi.nlm.nih.gov/39366035/) | 2024 | Epidemiología / Cohorte | Am J Emerg Med | Presentaciones de insuficiencia cardiaca en urgencias de EE. UU. (2016-2023); no es específico del fármaco |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 52047 | FORDIURAN 1 mg COMPRIMIDOS | Comprimido | No especificada en los datos disponibles |
-
----
+| 52047 | FORDIURAN 1 mg COMPRIMIDOS | Comprimido | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no del prospecto)**: enfermedad hepática, coma hepático y encefalopatía hepática, enfermedad de la vesícula biliar, trombocitopenia, deficiencia de potasio, diabetes mellitus, cetoacidosis diabética, hiperuricemia, anuria, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, trastornos de la audición y enfermedades del sistema auditivo.
+- **Interacciones farmacológicas**: la consulta se completó y devolvió 3 resultados, todos de farmacología de dianas (no interacciones con otros fármacos): GPR35, cotransportador Na-K-Cl específico del riñón (SLC12A1) y cotransportador Na-K-Cl basolateral (SLC12A2). No se identificaron interacciones con otros medicamentos.
 
----
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto de la AEMPS.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente plausible, pero la evidencia es solo de nivel L4: no hay ningún estudio de bumetanida en cor pulmonale agudo. El único ensayo con el fármaco directamente implicado fue retirado sin participantes, y la literatura se refiere a insuficiencia cardiaca general.
+La predicción se basa solo en el modelo y en evidencia indirecta (nivel L4): no hay ensayos clínicos y la literatura trata de insuficiencia cardiaca en general, no de cor pulmonale agudo. Además, la reducción de la precarga podría ser perjudicial en el ventrículo derecho según el estado volémico.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS (advertencias y contraindicaciones), cuya ausencia bloquea el cribado de seguridad.
-- Completar los datos curados de mecanismo de acción desde DrugBank.
-- Buscar estudios específicos en cor pulmonale agudo, embolia pulmonar o fallo ventricular derecho.
-- Evaluar la seguridad de la diuresis intensa en una situación de precarga dependiente del ventrículo derecho.
-- Definir la compatibilidad de vía de administración (oral frente a intravenosa en el contexto agudo), aún pendiente.
+- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada), ya que su ausencia impide completar el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Buscar estudios específicos de diuréticos de asa en cor pulmonale agudo o en disfunción aguda del ventrículo derecho.
+- Definir la población y el estado volémico en que el beneficio superaría el riesgo, y valorar un estudio exploratorio de fase 2 si la revisión es favorable.
+- Evaluar la compatibilidad de vías de administración (la presentación comercializada en España es solo en comprimidos, y el contexto agudo suele requerir vía intravenosa).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

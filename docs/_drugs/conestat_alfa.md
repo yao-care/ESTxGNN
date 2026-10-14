@@ -2,7 +2,7 @@
 layout: default
 title: Conestat Alfa
 parent: Evidencia alta (L1-L2)
-nav_order: 146
+nav_order: 207
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,110 +29,91 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Conestat alfa: De Indicación Original no Registrada a Deficiencia del Inhibidor de C1
+# Conestat alfa: De Angioedema Hereditario a Deficiencia de C1 Inhibidor
 
 ## Resumen en Una Frase
 
-Conestat alfa es un inhibidor de C1 esterasa humano recombinante (producido en conejos transgénicos), comercializado como Ruconest. Los datos de AEMPS recibidos no incluyen su indicación original.
-El modelo TxGNN predice que podría ser efectivo para la **deficiencia del inhibidor de C1** (angioedema hereditario), con **41 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
-Esta indicación ya es su uso establecido en ataques agudos de angioedema hereditario, por lo que no es un reposicionamiento en sentido estricto.
-
----
+Conestat alfa es un inhibidor de la C1 esterasa humano recombinante, utilizado originalmente para el tratamiento del angioedema hereditario.
+El modelo TxGNN predice que podría ser efectivo para **Deficiencia de C1 inhibidor**, con **4 ensayos clínicos** registrados (3 directamente relevantes) y **9 publicaciones** que respaldan esta dirección. Cabe señalar que esta predicción coincide con la indicación original del fármaco, por lo que no constituye un caso de reposicionamiento propiamente dicho.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS recibidos (el texto de indicación de las autorizaciones está vacío) |
-| Nueva Indicación Predicha | Deficiencia del inhibidor de C1 (C1 inhibitor deficiency) |
-| Puntaje de Predicción TxGNN | 99.999% |
+| Indicación Original | Angioedema hereditario |
+| Nueva Indicación Predicha | Deficiencia de C1 inhibidor |
+| Puntaje de Predicción TxGNN | 99,999% |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados de mecanismo de acción en DrugBank. Según la información conocida, conestat alfa es la forma recombinante de la proteína C1-INH. Repone el inhibidor deficiente o disfuncional y restablece el control de las proteasas del complemento (C1r/C1s), del sistema de contacto (calicreína, FXIIa) y de la fibrinólisis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, conestat alfa es una forma recombinante del inhibidor de C1 esterasa humano (C1-INH), producida en conejos transgénicos. Su mecanismo está bien establecido en la literatura: repone el inhibidor deficiente o disfuncional y restablece el control de las vías del complemento, de contacto y de calicreína-cinina.
 
-Con ello limita la generación de bradicinina, el mediador que causa los ataques de angioedema. En la deficiencia de C1-INH la proteína falta, y conestat alfa la sustituye. El vínculo entre fármaco y enfermedad es por tanto directo y mecanístico.
+La deficiencia de C1 inhibidor es la causa del angioedema hereditario de tipo I/II. Al restablecer la actividad de C1-INH se reduce la generación de bradicinina, mediador principal de la inflamación y el edema característicos de los ataques. Por ello, la indicación predicha y la original describen en esencia la misma enfermedad.
 
-Conviene precisar la calidad de la evidencia. Muchos de los ensayos de Fase 3 de la lista evalúan productos derivados de plasma (Cinryze, Berinert), no conestat alfa, y sirven solo como evidencia de clase. El respaldo directo procede de los ensayos con C1-INH recombinante (por ejemplo NCT01188564, NCT00262301 y NCT00225147) y de la literatura citada.
-
----
+Por tanto, la alta puntuación de TxGNN refleja una asociación ya conocida y respaldada por ensayos de Fase 3, no un hallazgo nuevo. El modelo también propone otras nueve indicaciones (trastornos plaquetarios, serpinopatías, etc.); ninguna cuenta con ensayos ni literatura, y no se identifica un vínculo mecanístico plausible, por lo que quedan en espera (Hold).
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 10 ensayos más relevantes de un total de 41.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01188564](https://clinicaltrials.gov/study/NCT01188564) | Fase 3 | Completado | 75 | ECA doble ciego con placebo de C1-INH recombinante (50 U/kg) en ataques agudos de AEH, con extensión abierta; evalúa eficacia, seguridad e inmunogenicidad |
-| [NCT00262301](https://clinicaltrials.gov/study/NCT00262301) | Fase 3 | Completado | 75 | ECA con placebo de C1-INH recombinante en ataques agudos de AEH |
-| [NCT00225147](https://clinicaltrials.gov/study/NCT00225147) | Fase 2/3 | Completado | 77 | Estudio aleatorizado, doble ciego, con placebo, de C1-INH recombinante en ataques agudos |
-| [NCT02247739](https://clinicaltrials.gov/study/NCT02247739) | Fase 2 | Completado | 32 | Estudio cruzado de 3 períodos, con placebo, de C1-INH recombinante en profilaxis de ataques |
-| [NCT00261053](https://clinicaltrials.gov/study/NCT00261053) | Fase 2 | Completado | 14 | Estudio abierto exploratorio de C1-INH recombinante en ataques agudos; evidencia directa, pero pequeña y sin control |
-| [NCT01359969](https://clinicaltrials.gov/study/NCT01359969) | Fase 2 | Completado | 57 | Estudio abierto de Ruconest (50 U/kg) en niños de 2 a 13 años con ataques agudos |
-| [NCT06690047](https://clinicaltrials.gov/study/NCT06690047) | Fase 4 | Completado | 5 | Ruconest en el pródromo del AEH para evitar la progresión a ataque; directamente relevante, pero muy pequeño |
-| [NCT03697187](https://clinicaltrials.gov/study/NCT03697187) | N/A | Completado | 152 | Registro observacional prospectivo de seguridad de Ruconest en la práctica real |
-| [NCT01397864](https://clinicaltrials.gov/study/NCT01397864) | N/A | Completado | 181 | Registro de tratamiento con C1-INH (derivado de plasma o recombinante) para evaluar eventos adversos y perfil inmunológico de Ruconest |
-| [NCT06679426](https://clinicaltrials.gov/study/NCT06679426) | Fase 3 | Aún sin reclutar | 24 | Conestat alfa frente a placebo en angioedema inducido por inhibidores de la ECA (indicación distinta) |
-
----
+| [NCT00262301](https://clinicaltrials.gov/study/NCT00262301) | Fase 3 | Completado | 75 | ECA doble ciego controlado con placebo de eficacia y seguridad en ataques agudos de angioedema hereditario |
+| [NCT00225147](https://clinicaltrials.gov/study/NCT00225147) | Fase 2/3 | Completado | 77 | ECA doble ciego controlado con placebo de seguridad, eficacia y farmacocinética/farmacodinamia en ataques agudos |
+| [NCT02247739](https://clinicaltrials.gov/study/NCT02247739) | Fase 2 | Completado | 32 | ECA cruzado de 3 períodos controlado con placebo sobre profilaxis de ataques de angioedema |
+| [NCT04414631](https://clinicaltrials.gov/study/NCT04414631) | Fase 2 | Terminado | 80 | Prevención de COVID-19 grave en pacientes hospitalizados; no relacionado con esta indicación |
 
 ## Evidencia de Literatura
 
-Se muestran las 10 publicaciones más relevantes de un total de 20.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [28754491](https://pubmed.ncbi.nlm.nih.gov/28754491/) | 2017 | ECA (Fase 2, cruzado) | Lancet | C1-INH recombinante como profilaxis del angioedema hereditario, frente a placebo |
-| [30021471](https://pubmed.ncbi.nlm.nih.gov/30021471/) | 2018 | Revisión (clasificada como ECA en el pack) | Expert Rev Clin Immunol | Conestat alfa en profilaxis de adultos y adolescentes; ya registrado para ataques agudos en Europa y otros países |
-| [22946752](https://pubmed.ncbi.nlm.nih.gov/22946752/) | 2012 | Revisión | BioDrugs | Dos ECA con placebo respaldan la eficacia de conestat alfa en ataques agudos |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Revisión sistemática | Pneumonol Alergol Pol | Comparación de eficacia entre conestat alfa, C1-INH humano e icatibant en ataques agudos |
-| [24801469](https://pubmed.ncbi.nlm.nih.gov/24801469/) | 2014 | Cohorte | Allergy Asthma Proc | Tratamiento domiciliario de 65 episodios en 2 pacientes; evaluación de eficacia y seguridad en condiciones reales |
-| [31982824](https://pubmed.ncbi.nlm.nih.gov/31982824/) | 2020 | Cohorte | Int Immunopharmacol | Eficacia y seguridad del C1-INH recombinante en casa, en ataques y en profilaxis a corto plazo |
-| [22171564](https://pubmed.ncbi.nlm.nih.gov/22171564/) | 2012 | Estudio clínico | BioDrugs | Efectos sobre coagulación y fibrinólisis; aborda el riesgo tromboembólico descrito con productos derivados de plasma |
-| [26250409](https://pubmed.ncbi.nlm.nih.gov/26250409/) | 2015 | Revisión | Immunotherapy | Terapia de reemplazo recombinante en la deficiencia de C1-INH |
-| [24556385](https://pubmed.ncbi.nlm.nih.gov/24556385/) | 2014 | Serie de casos | Eur J Dermatol | Uso de C1-INH recombinante en pacientes con ataques frecuentes o resistentes, de angioedema hereditario o adquirido |
-| [39675680](https://pubmed.ncbi.nlm.nih.gov/39675680/) | 2025 | Estudio clínico | J Allergy Clin Immunol | Respuesta clínica y vías del transcriptoma sanguíneo antes y después del tratamiento de pródromos de AEH |
-
----
+| [30021471](https://pubmed.ncbi.nlm.nih.gov/30021471/) | 2018 | ECA / revisión de ECA | Expert Rev Clin Immunol | Conestat alfa como profilaxis para prevenir ataques en adultos y adolescentes con angioedema hereditario |
+| [22946752](https://pubmed.ncbi.nlm.nih.gov/22946752/) | 2012 | Revisión | BioDrugs | Eficacia en ataques de angioedema evaluada en dos ECA doble ciego controlados con placebo |
+| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Revisión sistemática | Pneumonol Alergol Pol | Comparación de conestat alfa, C1-INH humano e icatibant en ataques agudos |
+| [24801469](https://pubmed.ncbi.nlm.nih.gov/24801469/) | 2014 | Cohorte | Allergy Asthma Proc | Tratamiento domiciliario de 65 episodios en dos pacientes; perfil de eficacia y seguridad en condiciones reales |
+| [24556385](https://pubmed.ncbi.nlm.nih.gov/24556385/) | 2014 | Cohorte | Eur J Dermatol | Uso en pacientes con ataques frecuentes o resistentes de angioedema hereditario o adquirido |
+| [29357215](https://pubmed.ncbi.nlm.nih.gov/29357215/) | 2018 | Revisión | Skin Therapy Lett | Nuevos tratamientos, incluida la forma recombinante de C1-INH y fármacos dirigidos a la vía calicreína-cinina |
+| [23776358](https://pubmed.ncbi.nlm.nih.gov/23776358/) | 2010 | Revisión | Appl Clin Genet | Avances en el tratamiento de ataques abdominales y faciales con C1-INH |
+| [19093699](https://pubmed.ncbi.nlm.nih.gov/19093699/) | 2008 | Revisión | Drugs | Opciones de manejo actuales y emergentes del angioedema hereditario en EE. UU. |
+| [39675680](https://pubmed.ncbi.nlm.nih.gov/39675680/) | 2025 | Cohorte | J Allergy Clin Immunol | Respuesta clínica y vías del transcriptoma sanguíneo antes y después del tratamiento de pródromos frente a ataques activos |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 110641002 | RUCONEST 2100 U POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | Polvo y disolvente para solución inyectable | No especificada en los datos de AEMPS recibidos |
-| 110641001 | RUCONEST 2100 U POLVO PARA SOLUCION INYECTABLE | Polvo para solución inyectable | No especificada en los datos de AEMPS recibidos |
+| 110641002 | RUCONEST 2100 U polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en el registro |
+| 110641001 | RUCONEST 2100 U polvo para solución inyectable | Polvo para solución inyectable | No disponible en el registro |
 
-Ambas autorizaciones pertenecen a Pharming Group N.V.
-
----
+Ambas autorizaciones son vigentes, de tipo monofármaco, y su titular es Pharming Group N.V.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas.
+**Interacciones Farmacológicas:** se identificaron 41 interacciones en total. La principal de nivel mayor es:
+- **Carfilzomib** (mayor)
 
----
+Entre las de nivel moderado, destacan:
+- Andrógenos y anabolizantes: oxandrolona, oximetolona, estanozolol, testosterona, danazol, prasterona enantato
+- Estrógenos: etinilestradiol, estradiol (incluido tópico), estrógenos conjugados y esterificados, dietilestilbestrol, drospirenona
+- Trombolíticos: alteplasa, anistreplasa
+- Agentes eritropoyéticos: darbepoetina alfa, eritropoyetina
+
+Para advertencias y contraindicaciones específicas, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia es de nivel L1. Hay al menos dos ECA de Fase 3 completados con C1-INH recombinante (NCT01188564 y NCT00262301), y la indicación ya es un uso establecido de conestat alfa. Al faltar los datos de seguridad de la ficha técnica de AEMPS, el avance debe ir acompañado de salvaguardas.
+Dos ECA de Fase 3 (incluido uno de Fase 2/3) completados respaldan la eficacia y seguridad en el angioedema hereditario por deficiencia de C1-INH, y el fármaco ya está comercializado en España. Sin embargo, esto corresponde a su indicación aprobada, no a un reposicionamiento; las demás indicaciones predichas carecen de evidencia y deben mantenerse en espera.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), que es la brecha bloqueante para el cribado de seguridad.
-- Confirmar la población y la dosis autorizadas.
-- Como proteína derivada de conejo, cribar alergia al conejo o hipersensibilidad antes del uso.
-- Vigilar eventos tromboembólicos y la formación de anticuerpos.
-- Obtener el mecanismo de acción desde DrugBank para completar el análisis mecanístico.
-
-**Otras predicciones:** el resto de las predicciones (rank 2 y 4 a 10), como la serpinopatía con polimerización tóxica, la enfermedad de Glanzmann o la trombocitopenia aloinmune fetal y neonatal, tienen nivel L5 y decisión **Hold**. No hay ensayos ni literatura, y no se identifica un mecanismo plausible o este es muy débil. La predicción de rank 3 (angioedema hereditario con deficiencia de C1Inh) corresponde a la misma enfermedad que la principal y tiene la misma evidencia (L1).
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), una carencia de datos que bloquea el cribado de seguridad
+- Completar los datos oficiales del mecanismo de acción desde DrugBank
+- Confirmar el texto de la indicación aprobada en las autorizaciones españolas
+- Revisar las interacciones con andrógenos, estrógenos y trombolíticos, y la interacción mayor con carfilzomib
+- Si se desea explorar indicaciones nuevas (p. ej., trastornos plaquetarios), generar primero evidencia mecanística y preclínica, pues actualmente no existe respaldo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

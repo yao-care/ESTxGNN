@@ -2,7 +2,7 @@
 layout: default
 title: Mesalazine
 parent: Solo predicción del modelo (L5)
-nav_order: 345
+nav_order: 508
 evidence_level: L5
 indication_count: 7
 ---
@@ -33,70 +33,91 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-La mesalazina (5-ASA) es un antiinflamatorio que se usa originalmente para tratar la colitis ulcerosa y prevenir sus recaídas.
-El modelo TxGNN predice que podría ser efectiva para la **hipotricosis congénita con distrofia macular juvenil**, una enfermedad hereditaria rara.
-Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que se apoya únicamente en el puntaje del modelo.
+Mesalazina (5-ASA, ácido 5-aminosalicílico) se utiliza originalmente para tratar la colitis ulcerosa y otras enfermedades inflamatorias intestinales.
+El modelo TxGNN predice que podría ser efectiva para **hipotricosis congénita con distrofia macular juvenil**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata de una predicción puramente computacional.
+
+> **Nota:** La indicación con mayor puntaje es una enfermedad genética ultrarrara sin vínculo mecanístico identificado. Entre las demás predicciones, la **artritis reumatoide** (nivel L4) y la **artrosis** (L5) son las que cuentan con algo de literatura asociada, aunque indirecta. Se comentan en la sección de conclusiones.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Colitis ulcerosa (según información farmacológica; el texto de indicación de las autorizaciones de la AEMPS no está disponible) |
+| Indicación Original | Colitis ulcerosa; enfermedad inflamatoria intestinal; proctosigmoiditis ulcerosa (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
 | Nueva Indicación Predicha | Hipotricosis congénita con distrofia macular juvenil |
-| Puntaje de Predicción TxGNN | 99.65% |
+| Puntaje de Predicción TxGNN | 99,65% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, la mesalazina ejerce acción antiinflamatoria mediante inhibición de las vías de COX/LOX, agonismo de PPAR-gamma y modulación de NF-κB. Su eficacia en colitis ulcerosa y otras enfermedades inflamatorias intestinales está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la mesalazina es el componente 5-ASA, con actividad antiinflamatoria local en la mucosa intestinal, y su eficacia en colitis ulcerosa está bien establecida. Los datos farmacológicos compilados indican interacción con el receptor PPAR-γ (receptor activado por proliferadores de peroxisomas gamma).
 
-En este caso, sin embargo, **no se identificó un vínculo mecanístico**. La hipotricosis congénita con distrofia macular juvenil es un trastorno hereditario raro relacionado con mutaciones en CDH3. Su patología no guarda relación conocida con las vías antiinflamatorias de la mesalazina.
+Para esta indicación concreta **no se identificó ningún vínculo mecanístico**. La hipotricosis congénita con distrofia macular juvenil es un trastorno genético ultrarraro (mutaciones en CDH3) sin una vía inflamatoria conocida que la mesalazina module. El puntaje alto de TxGNN (0,996) refleja una predicción basada únicamente en la estructura del grafo, no en evidencia biológica o clínica.
 
-Por ello, el puntaje del modelo (0.996) es el único respaldo de esta predicción. Debe tratarse como una señal computacional sin sustento biológico ni clínico verificado.
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 62670 | PENTASA 1g granulado de liberación prolongada | Granulado de liberación modificada |
-| 74791 | SALOFALK 3 g granulado de liberación prolongada | Granulado de liberación modificada |
-| 61335 | CLAVERSAL espuma rectal | Espuma rectal |
-| 65771 | SALOFALK 500 mg granulado de liberación prolongada | Granulado de liberación modificada |
-| 037734011IP | MEZAVANT 1200 mg comprimidos de liberación prolongada gastrorresistentes | Comprimido de liberación prolongada |
+Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). No se dispone del texto de indicación aprobada en los datos compilados.
 
-Se muestran 5 de las 20 autorizaciones. También existen otras formas, como supositorios, suspensión rectal y comprimidos gastrorresistentes.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 62670 | Pentasa 1 g granulado de liberación prolongada | Granulado de liberación modificada | No disponible |
+| 74791 | Salofalk 3 g granulado de liberación prolongada | Granulado de liberación modificada | No disponible |
+| 61335 | Claversal espuma rectal | Espuma rectal | No disponible |
+| 85724 | Azzavix 1000 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
+| 88174 | Mecolvix 500 mg supositorios | Supositorio | No disponible |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: Solo hay un registro farmacológico, la mesalazina con el receptor PPAR-gamma (PPARG). Es una interacción con una diana biológica, no una interacción clínica entre fármacos, y no indica un nivel de riesgo.
+- **Contraindicaciones/enfermedades de riesgo (según el grafo de conocimiento, no según prospecto):** enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, neutropenia, agranulocitosis, anemia (incluida la macrocítica), estenosis pilórica, nefrosis lipoidea, nefritis intersticial y piouréter.
+- **Interacciones farmacológicas:** se registró una interacción farmacológica de tipo farmacodinámico con el receptor PPAR-γ (diana humana); no se dispone de un nivel de gravedad clínica.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para información completa de advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción solo cuenta con el puntaje de TxGNN (evidencia L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible con una enfermedad hereditaria de origen no inflamatorio.
+La predicción principal carece de ensayos, literatura y mecanismo plausible; es una enfermedad genética ultrarrara que no es previsiblemente tratable con un aminosalicilato antiinflamatorio. El nivel de evidencia es L5.
 
-Entre las otras indicaciones predichas, la **osteoartritis** es la única con respaldo preclínico (evidencia L4, recomendación "Research Question"). Un estudio de 2024 en *Nature Communications* (PMID 38310093) describe que el 5-ASA suprime la osteoartritis a través del eje OSCAR-PPARγ. Es la línea con más fundamento biológico de este candidato, aunque aún no cuenta con ensayos clínicos.
+**Otras predicciones del modelo (para contexto):**
+
+| Indicación | Puntaje TxGNN | Nivel | Valoración |
+|---|---|---|---|
+| Artrosis | 99,63% | L5 | Hold. Mecanismo plausible pero no probado (inflamación sinovial, NF-κB/PPAR-γ); un único estudio transcriptómico de 2024 (PMID 38491514), sin ensayos clínicos. |
+| Artritis reumatoide | 99,57% | L4 | Pregunta de investigación. La literatura es mayoritariamente sobre sulfasalazina, farmacocinética y reacciones adversas; la actividad antirreumática se atribuye sobre todo a la sulfapiridina, no al 5-ASA. No demuestra beneficio. |
+| Queratosis seborreica, susceptibilidad a artrosis, queratosis folicular invertida vulvar, pseudoacondroplasia | 99,18%–99,50% | L5 | Hold. Sin vínculo mecanístico ni evidencia; la susceptibilidad a artrosis probablemente duplica el nodo de artrosis. |
 
 **Para avanzar se necesita:**
-- Un vínculo mecanístico documentado entre la mesalazina y la vía de CDH3, o una razón biológica alternativa.
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank.
-- Advertencias y contraindicaciones del prospecto de la AEMPS.
-- Priorizar la osteoartritis: replicación preclínica y revisión de seguridad y viabilidad antes de cualquier estudio clínico.
+- Datos del mecanismo de acción (MOA) de la mesalazina para analizar posibles vínculos mecanísticos.
+- Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente solo se dispone de datos del grafo de conocimiento), imprescindibles antes de cualquier evaluación de seguridad.
+- Texto de indicación aprobada de las autorizaciones españolas.
+- Si se desea priorizar, concentrar la revisión en artrosis y artritis reumatoide, con revisión sistemática de la literatura y estudios preclínicos antes de plantear ensayos; descartar la indicación principal salvo que aparezca nueva evidencia biológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

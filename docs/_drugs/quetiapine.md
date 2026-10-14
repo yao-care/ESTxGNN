@@ -2,7 +2,7 @@
 layout: default
 title: Quetiapine
 parent: Solo predicción del modelo (L5)
-nav_order: 448
+nav_order: 674
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Quetiapina: De Esquizofrenia y Trastornos del Estado de Ánimo a Distrofia Retiniana con o sin Anomalías Extraoculares
+# Quetiapina: De Trastorno Bipolar y Esquizofrenia a Retinopatía Distrófica (con o sin Anomalías Extraoculares)
+
+> **Nota sobre la selección de la indicación:** la primera predicción del modelo (rank 1, retinopatía distrófica) carece por completo de ensayos clínicos y literatura. La única predicción con alguna evidencia publicada es **tricotilomanía** (rank 8), que se analiza en detalle en las secciones de evidencia como alternativa de interés.
 
 ## Resumen en Una Frase
 
-La quetiapina es un antipsicótico atípico, utilizado originalmente para la esquizofrenia, el trastorno bipolar y el trastorno depresivo mayor.
-El modelo TxGNN predice que podría ser efectiva para la **distrofia retiniana con o sin anomalías extraoculares**, pero **no hay ensayos clínicos** y las **15 publicaciones** recuperadas no respaldan esta dirección (se trata de literatura general sobre patología ocular).
+Quetiapina es un antipsicótico atípico utilizado originalmente para el tratamiento de la esquizofrenia y el trastorno bipolar.
+El modelo TxGNN predice que podría ser efectivo para **distrofia retiniana con o sin anomalías extraoculares**, pero sin ningún ensayo clínico ni publicación que lo respalde (nivel de evidencia L5).
+La predicción con más respaldo documental es **tricotilomanía**, con **0 ensayos clínicos** y **6 publicaciones** (casos clínicos y revisiones).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia, trastorno bipolar I y trastorno depresivo mayor (fuente: ficha farmacológica; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Indicación Original | Trastorno bipolar, trastorno afectivo mayor, trastorno bipolar maníaco y esquizofrenia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99,57 % |
+| Puntaje de Predicción TxGNN | 99.57% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+**Referencia alternativa (tricotilomanía, rank 8):** puntaje TxGNN 99.38%, nivel de evidencia L4, recomendación "pregunta de investigación".
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal. Según la información farmacológica conocida, la quetiapina actúa sobre receptores de serotonina (5-HT1A, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A), dopamina D2, histamina H1 y el transportador de noradrenalina (NET). Su efecto antipsicótico se atribuye principalmente al antagonismo D2/5-HT2A.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, quetiapina es un antipsicótico atípico con eficacia comprobada en esquizofrenia y trastorno bipolar. Los datos farmacológicos compilados indican afinidad por los receptores serotoninérgicos (5-HT1A, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A), el receptor dopaminérgico D2, el receptor histamínico H1 y el transportador de noradrenalina (NET).
 
-**No se ha establecido un vínculo mecanístico** entre estas vías y la degeneración retiniana. El puntaje alto proviene únicamente del modelo de grafos. Además, la toxicidad retiniana figura como una preocupación de seguridad asociada a la quetiapina, no como una señal terapéutica.
+Para la distrofia retiniana no se identificó ningún vínculo mecanístico con los datos disponibles. Es un trastorno hereditario de la retina y no hay estudios que relacionen la quetiapina con esta enfermedad. El puntaje alto del modelo (99.57%) es una predicción computacional sin respaldo clínico, por lo que debe interpretarse con mucha cautela.
 
-La relación entre la indicación original (psiquiátrica) y la nueva (distrofia hereditaria de la retina) es débil. Por tanto, esta predicción debe considerarse un resultado computacional sin respaldo biológico o clínico actual.
+En el caso de la tricotilomanía, el vínculo es plausible pero no confirmado: se trata de un trastorno del espectro obsesivo-compulsivo con conductas repetitivas centradas en el cuerpo, y los antipsicóticos atípicos con actividad serotoninérgica y dopaminérgica se han usado como aumento en cuadros de ese espectro. Esta inferencia proviene de conocimiento general de la clase farmacológica, no de los datos compilados.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados, ni para distrofia retiniana ni para tricotilomanía.
 
 ## Evidencia de Literatura
 
-Ninguna de las publicaciones recuperadas evalúa la quetiapina en distrofia retiniana. Tratan sobre patología ocular y extraocular en general, y su relevancia está pendiente de revisión.
+Para la indicación principal (distrofia retiniana) actualmente no hay literatura relacionada disponible. Para la alternativa **tricotilomanía** se identificaron las siguientes publicaciones:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Revisión | Seminars in Neurology | Enfoque sistemático de la diplopía; sin relación con quetiapina |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Revisión | Seminars in Ultrasound, CT, and MR | Infecciones orbitarias y su diagnóstico por imagen |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Revisión | Klinische Monatsblätter für Augenheilkunde | Ptosis congénita y sus formas complicadas |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Revisión | Taiwan Journal of Ophthalmology | Anomalías congénitas de la forma del cristalino |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Revisión | Pediatric Radiology | Diagnóstico diferencial por imagen de lesiones oculares pediátricas |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Revisión | Journal of Binocular Vision and Ocular Motility | Oftalmoplejía y trastornos congénitos de disinervación craneal |
-| [10192514](https://pubmed.ncbi.nlm.nih.gov/10192514/) | 1999 | Revisión | Progress in Retinal and Eye Research | Propioceptores de los músculos extraoculares |
-| [31359131](https://pubmed.ncbi.nlm.nih.gov/31359131/) | 2019 | Revisión | Human Genetics | Arquitectura genética de defectos oculares del desarrollo por señalización del ácido retinoico |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Reporte de caso | American Journal of Ophthalmology | Dos casos de criptoftalmía unilateral |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Otro | Optometry and Vision Science | Divergencia sinérgica en fibrosis congénita de músculos extraoculares |
+| [12405081](https://pubmed.ncbi.nlm.nih.gov/12405081/) | 2002 | Revisión y caso clínico | Psychiatry | Revisión de la tricotilomanía y caso de una veterana de 33 años con respuesta favorable a quetiapina |
+| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | Revisión | Int J Dermatol | Revisión del tratamiento farmacológico de la tricotilomanía; no existen guías y la patogenia es desconocida |
+| [19142421](https://pubmed.ncbi.nlm.nih.gov/19142421/) | 2008 | Caso clínico | Rev Bras Psiquiatr | Quetiapina para el tratamiento de la tricotilomanía (sin resumen disponible) |
+| [11212595](https://pubmed.ncbi.nlm.nih.gov/11212595/) | 2001 | Caso clínico y revisión | J Psychiatry Neurosci | Quetiapina exacerbó síntomas obsesivo-compulsivos en un paciente con TOC y tricotilomanía (señal contraria) |
+| [20833945](https://pubmed.ncbi.nlm.nih.gov/20833945/) | 2010 | Caso clínico y revisión | Psychosomatics | Tratamiento del síndrome de Rapunzel recurrente y tricotilomanía |
+| [27840761](https://pubmed.ncbi.nlm.nih.gov/27840761/) | 2016 | Caso clínico | Case Rep Psychiatry | Tricotilomanía como manifestación de demencia; no evalúa directamente quetiapina |
 
 ## Información de Mercado en España
 
-Los textos de indicación aprobada de estas autorizaciones no están disponibles en los datos recibidos.
+Se registran 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada). Los textos de indicación aprobada no están disponibles en los datos compilados. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 80241 | Quetiapina Tarbis 50 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Tarbis Farma S.L. |
-| 83355 | Quetiapina Alter 300 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Laboratorios Alter S.A. |
-| 80242 | Quetiapina Tarbis 150 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Tarbis Farma S.L. |
-| 70202 | Quetiapina Stada 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
-| 74447 | Quetiapina Aristo 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aristo Pharma GmbH |
+| 123461IP | Seroquel 100 mg | Comprimido recubierto con película | No disponible |
+| 80241 | Quetiapina Tarbis 50 mg EFG | Comprimido de liberación prolongada | No disponible |
+| 83355 | Quetiapina Alter 300 mg EFG | Comprimido de liberación prolongada | No disponible |
+| 70202 | Quetiapina Stada 300 mg EFG | Comprimido recubierto con película | No disponible |
+| 84880 | Silesto 300 mg EFG | Comprimido de liberación prolongada | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Toxicidad retiniana**: se ha descrito como una preocupación de seguridad de la quetiapina. Es especialmente relevante al plantear su uso en enfermedades de la retina.
-- **Interacciones farmacológicas**: las 8 entradas de la consulta corresponden a dianas farmacológicas (receptores y transportadores), no a interacciones con otros medicamentos. No se dispone de datos de interacciones farmacológicas clínicas.
+- **Contraindicaciones y condiciones de riesgo (según el grafo de conocimiento, no el prospecto):** síndrome de QT largo (incluido el familiar) y torsades de pointes; hipotensión ortostática, hipertensión y atrofia multisistémica; epilepsia; neutropenia y agranulocitosis; diabetes mellitus, cetoacidosis diabética e hiperglucemia; hiperlipidemia e hipertrigliceridemia; obesidad; hipotiroidismo; enfermedad hepática y de vesícula biliar; infarto de miocardio; carcinoma de mama femenino; deficiencia de potasio; y trastornos de los ganglios basales (distonía focal de mano, blefaroespasmo).
+- **Interacciones farmacológicas:** los datos compilados describen únicamente afinidad por dianas (receptores 5-HT1A/1D/1E/1F/2A, D2, H1 y NET), no interacciones con otros fármacos específicos.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
+Las advertencias y contraindicaciones oficiales del prospecto de la AEMPS no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5), sin ensayos clínicos, sin literatura pertinente y sin vínculo mecanístico plausible. Además, la toxicidad retiniana es una preocupación de seguridad conocida de la quetiapina.
+La predicción de distrofia retiniana se basa únicamente en el modelo (L5), sin ensayos, literatura ni vínculo mecanístico identificable. La alternativa de tricotilomanía (L4) solo cuenta con casos clínicos y revisiones, incluido un reporte de empeoramiento de síntomas obsesivo-compulsivos, por lo que tampoco justifica avanzar sin más estudios.
 
 **Para avanzar se necesita:**
-- Un vínculo mecanístico plausible entre las dianas de la quetiapina y las vías de la distrofia retiniana, con estudios preclínicos que lo respalden
-- Advertencias y contraindicaciones del prospecto de la AEMPS (dato bloqueante para el cribado de seguridad)
-- Datos de mecanismo de acción desde DrugBank
-- Considerar priorizar otras predicciones de la lista con más respaldo. En particular, la **tricotilomanía** (rank 8, puntaje 99,38 %, nivel L4) cuenta con reportes de caso y revisiones específicos de quetiapina, aunque sin ensayos controlados.
+- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Para distrofia retiniana: estudios preclínicos o de mecanismo que justifiquen cualquier vínculo biológico.
+- Para tricotilomanía: ensayos clínicos controlados y una revisión sistemática que aclare la señal contradictoria.
+- Evaluar el perfil de riesgo cardiometabólico y hematológico (QT, glucosa, lípidos, neutropenia) en la población objetivo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

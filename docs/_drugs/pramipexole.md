@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pramipexole
-parent: Evidencia moderada (L3-L4)
-nav_order: 432
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 653
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pramipexole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Pramipexol: De Enfermedad de Parkinson a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+# Pramipexol: De Síndrome de Piernas Inquietas a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
 
 ## Resumen en Una Frase
 
-Pramipexol es un agonista dopaminérgico D2/D3 utilizado originalmente para tratar la enfermedad de Parkinson idiopática.
-El modelo TxGNN predice que podría ser efectivo para el **TDAH**, pero el respaldo actual es débil: **1 ensayo clínico** (sin pacientes con TDAH) y **9 publicaciones** indirectas, ninguna de ellas un ensayo específico en TDAH.
+Pramipexol es un agonista dopaminérgico D2/D3, utilizado originalmente para el síndrome de piernas inquietas y la enfermedad de Parkinson.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno por déficit de atención e hiperactividad (TDAH)**, pero actualmente no hay **ningún ensayo clínico** registrado y solo **7 publicaciones**, todas indirectas o de apoyo débil (ninguna es un estudio específico de pramipexol en TDAH).
 
 ---
 
@@ -42,10 +42,10 @@ El modelo TxGNN predice que podría ser efectivo para el **TDAH**, pero el respa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson idiopática (según los datos farmacológicos; los textos de indicación de la AEMPS no venían informados) |
+| Indicación Original | Síndrome de piernas inquietas (los textos de indicación de las autorizaciones españolas no están disponibles; se toma la primera indicación original del grafo de conocimiento) |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 99,998 % |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L4 (solo estudios preclínicos/de mecanismo y un reporte de caso; sin estudios clínicos específicos) |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
@@ -54,19 +54,17 @@ El modelo TxGNN predice que podría ser efectivo para el **TDAH**, pero el respa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Pramipexol es un agonista de los receptores de dopamina D2 y D3 (genes DRD2 y DRD3), con selectividad preferente por D3. No se dispone de datos detallados de mecanismo de acción procedentes de DrugBank, pero la farmacología de los receptores diana está bien establecida.
+Pramipexol es un agonista dopaminérgico no ergolínico con actividad sobre los receptores D2 y D3 (con preferencia por D3). No se dispone de una descripción detallada del mecanismo de acción, pero los datos farmacológicos compilados confirman que sus dianas son los receptores DRD2 y DRD3. Su eficacia está establecida en el síndrome de piernas inquietas y en la enfermedad de Parkinson idiopática, ambas con un componente de disfunción dopaminérgica.
 
-La disfunción dopaminérgica está implicada en el TDAH, lo que ofrece un vínculo mecanístico plausible. Además, el TDAH puede coexistir con el síndrome de piernas inquietas y los movimientos periódicos de las piernas, condiciones en las que pramipexol se ha usado. Un estudio en niños con movimientos periódicos de piernas y trastornos del sueño evaluó la respuesta a este fármaco.
+La relación con el TDAH es plausible pero indirecta. La desregulación dopaminérgica se ha implicado en el TDAH, y variantes del gen del receptor D4 (DRD4) se han asociado con este trastorno. Un estudio preclínico reciente (2021) sugiere además interacciones entre receptores dopaminérgicos y adrenérgicos α2A, diana de fármacos como la guanfacina.
 
-Sin embargo, el apoyo es indirecto. Consiste en la superposición con el síndrome de piernas inquietas, un caso clínico de un paciente con TDAH comórbido tratado con atomoxetina y pramipexol, y estudios preclínicos. **No existe ningún ensayo específico en TDAH.**
+Sin embargo, el vínculo mecanístico no está demostrado. La literatura recuperada no contiene ningún ensayo de pramipexol en TDAH. Solo hay un reporte de caso en un paciente con TDAH y dolor crónico, tratado con atomoxetina y pramipexol, y un ensayo aleatorizado en síndrome de Tourette, un trastorno del neurodesarrollo relacionado. El resto de los documentos tratan sobre síndrome de piernas inquietas, Parkinson o biología de receptores.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00558766](https://clinicaltrials.gov/study/NCT00558766) | N/A | Completado | 35 | Señalización de recompensa en la corteza motora en enfermedad de Parkinson mediante estimulación magnética transcraneal. No incluye pacientes con TDAH ni aporta evidencia de eficacia para esta indicación (relevancia: C). |
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ---
 
@@ -74,35 +72,38 @@ Sin embargo, el apoyo es indirecto. Consiste en la superposición con el síndro
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | ECA | Movement Disorders | Ensayo multicéntrico controlado con placebo de pramipexol en síndrome de Tourette (trastorno del neurodesarrollo cercano al TDAH), basado en la hipótesis de hipersensibilidad dopaminérgica central. |
-| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Revisión | Neuropsychiatric Disease and Treatment | Uso potencial de pramipexol en el síndrome de piernas inquietas; destaca el papel de la dopamina y la selectividad por D3. |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Revisión | Revue Neurologique | Revisión del síndrome de piernas inquietas (afecta al 2-3 % de la población occidental). |
-| [15540638](https://pubmed.ncbi.nlm.nih.gov/15540638/) | 2004 | Cohorte | Developmental Medicine & Child Neurology | 252 niños prepúberes con trastornos del sueño: prevalencia de movimientos periódicos de piernas y respuesta al tratamiento con pramipexol. |
-| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Caso clínico | Frontiers in Pain Research | Remisión de dolor lumbar crónico y disestesia oral en un paciente con TDAH tratado con atomoxetina y pramipexol. |
-| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Estudio clínico (otro fármaco) | Clinical Neuropharmacology | Piribedil frente a pramipexol y ropinirol en pacientes con Parkinson y somnolencia diurna; no es evidencia en TDAH. |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclínico | Pharmacological Research | Heteromerización entre receptores adrenérgicos α2A y variantes del receptor D4; relevante para TDAH y trastornos del control de impulsos. |
-| [24079375](https://pubmed.ncbi.nlm.nih.gov/24079375/) | 2013 | Modelo animal | Journal of Motor Behavior | La rata espontáneamente hipertensa como posible modelo de trastornos del movimiento relacionados con el sueño (SPI, TDAH). |
-| [38649244](https://pubmed.ncbi.nlm.nih.gov/38649244/) | 2024 | Caso clínico (no relacionado) | BMJ Case Reports | Hipopotasemia por consumo excesivo de refrescos de cola; el paciente tenía TDAH y tomaba pramipexol, pero no guarda relación con la eficacia. |
+| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | ECA | Movement Disorders | Ensayo multicéntrico controlado con placebo de pramipexol en síndrome de Tourette (trastorno relacionado), basado en la hipótesis de hipersensibilidad dopaminérgica central. Relevancia indirecta |
+| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Reporte de caso | Frontiers in Pain Research | Remisión de dolor lumbar crónico y disestesia oral en un paciente con TDAH tratado con atomoxetina y pramipexol |
+| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Revisión | Neuropsychiatric Disease and Treatment | Uso potencial de pramipexol en el síndrome de piernas inquietas; destaca el papel de la dopamina en su fisiopatología |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Revisión | Revue Neurologique | Revisión del síndrome de piernas inquietas (prevalencia del 2-3 % en países occidentales) |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclínico/molecular | Pharmacological Research | Heteromerización entre receptores α2A y variantes del receptor D4 con implicaciones para trastornos del control de impulsos y TDAH |
+| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Estudio clínico (otro fármaco) | Clinical Neuropharmacology | Comparación de piribedil frente a pramipexol y ropinirol en Parkinson con somnolencia diurna; no relacionado con TDAH |
+| [38649244](https://pubmed.ncbi.nlm.nih.gov/38649244/) | 2024 | Reporte de caso (no relacionado) | BMJ Case Reports | Hipopotasemia por consumo excesivo de bebidas de cola en un paciente con TDAH que tomaba pramipexol; sin relevancia terapéutica |
 
 ---
 
 ## Información de Mercado en España
 
+Pramipexol está comercializado con 20 autorizaciones vigentes, todas de principio activo único y ninguna cancelada. Los textos de indicación aprobada no están disponibles en los datos compilados. A continuación se muestran 5 autorizaciones principales.
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
-| 108469043 | Oprymea 2,1 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | Krka D.D. Novo Mesto |
-| 71039 | Pramipexol Sandoz 0,7 mg comprimidos EFG | Comprimido | Sandoz Farmacéutica S.A. |
-| 70733 | Pramipexol Stada 0,18 mg comprimidos EFG | Comprimido | Laboratorio Stada S.L. |
-| 97051006 | Mirapexin 0,7 mg comprimidos | Comprimido | Boehringer Ingelheim International GmbH |
-| 97051023IP | Mirapexin 2,1 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Boehringer Ingelheim International GmbH |
-
-Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada no estaba disponible en los datos recibidos.
+| 97051003 | MIRAPEXIN 0,18 mg comprimidos | Comprimido | Boehringer Ingelheim International GmbH |
+| 97051006 | MIRAPEXIN 0,7 mg comprimidos | Comprimido | Boehringer Ingelheim International GmbH |
+| 97051023IP | MIRAPEXIN 2,1 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Boehringer Ingelheim International GmbH |
+| 108469002 | Oprymea 0,088 mg comprimidos EFG | Comprimido | Krka D.D. Novo Mesto |
+| 71039 | PRAMIPEXOL SANDOZ 0,7 mg comprimidos EFG | Comprimido | Sandoz Farmacéutica S.A. |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / enfermedades de precaución según el grafo de conocimiento** (no proceden del texto del prospecto): atrofia multisistémica, hipotensión ortostática, síndrome de taquicardia postural ortostática, discinesia inducida por fármacos, enfermedad renal, trastornos psicóticos (incluidos esquizoafectivo y esquizofreniforme), trastorno mental, melanoma, síndromes de apnea del sueño, narcolepsia y enfermedades del sistema nervioso central.
+- **Interacciones farmacológicas**: no se identificaron interacciones con otros fármacos. Los datos de farmacología solo confirman como dianas los receptores D2 (DRD2) y D3 (DRD3).
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+Es relevante en la población con TDAH el riesgo de trastornos del control de impulsos (por ejemplo, juego patológico) asociado a los agonistas dopaminérgicos, descrito en un estudio de registro sueco incluido en la literatura de otra indicación predicha.
 
 ---
 
@@ -111,15 +112,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es muy alta, pero no hay ensayos en TDAH y la evidencia se limita a estudios indirectos, casos clínicos y trabajos preclínicos (L4). Con este respaldo no procede avanzar; la hipótesis dopaminérgica queda como pregunta de investigación.
-
-Entre las otras indicaciones predichas, **esquizofrenia** (puesto 9) tiene evidencia mucho más sólida: nivel L2, un ensayo de Fase 3 de 400 pacientes con estado desconocido y un ECA de 2022 con 200 sujetos. Conviene evaluarla por separado, siempre como tratamiento adyuvante y no como monoterapia.
+La predicción de TxGNN es muy alta, pero no hay ensayos clínicos ni estudios de pramipexol específicos en TDAH. Solo existe un reporte de caso aislado y evidencia indirecta, por lo que la hipótesis sigue siendo una pregunta de investigación. Entre las demás indicaciones predichas, la esquizofrenia cuenta con un ensayo de Fase 3 (NCT01320982, estado desconocido) y un ECA publicado en 2022, y podría tener mayor respaldo.
 
 **Para avanzar se necesita:**
-- Ensayos clínicos controlados de pramipexol en TDAH, o al menos estudios piloto.
-- Datos de mecanismo de acción de DrugBank y análisis de la relación con la indicación original.
-- Advertencias y contraindicaciones del prospecto de la AEMPS, pendientes para el cribado de seguridad.
-- Evaluación del perfil de seguridad en poblaciones pediátricas, dado que el TDAH se diagnostica sobre todo en niños.
+- Estudios preclínicos o ensayos exploratorios de pramipexol específicos en TDAH
+- Datos detallados del mecanismo de acción y su vínculo con la neurobiología del TDAH
+- Información de seguridad del prospecto (advertencias y contraindicaciones oficiales)
+- Evaluación del riesgo de trastornos del control de impulsos y somnolencia en poblaciones jóvenes o con TDAH
+- Evaluación de la compatibilidad de vías y formas farmacéuticas para esta nueva indicación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

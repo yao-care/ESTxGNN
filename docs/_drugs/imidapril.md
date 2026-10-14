@@ -2,7 +2,7 @@
 layout: default
 title: Imidapril
 parent: Solo predicción del modelo (L5)
-nav_order: 274
+nav_order: 407
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,21 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Imidapril: De Hipertensión Arterial a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+# Imidapril: De Hipertensión a Hipertensión Pulmonar Secundaria a Enfermedad Pulmonar y/o Hipoxia
 
 ## Resumen en Una Frase
 
-Imidapril es un inhibidor de la enzima convertidora de angiotensina (IECA), una clase de fármacos que se usa para tratar la hipertensión arterial.
-El modelo TxGNN predice que podría ser efectivo para la **hipertensión pulmonar por enfermedad pulmonar y/o hipoxia**,
-pero **no hay ensayos clínicos** y las **20 publicaciones** recuperadas tratan de la hipoxia en general, sin mencionar imidapril.
+Imidapril es un inhibidor de la enzima convertidora de angiotensina (IECA) utilizado originalmente para el tratamiento de la hipertensión arterial.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en las autorizaciones de la AEMPS (el campo está vacío). Por su clase (IECA), se asume hipertensión arterial |
-| Nueva Indicación Predicha | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia |
-| Puntaje de Predicción TxGNN | 99,78 % |
+| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia |
+| Puntaje de Predicción TxGNN | 99.78% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 12 |
@@ -51,11 +51,20 @@ pero **no hay ensayos clínicos** y las **20 publicaciones** recuperadas tratan 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Por su clase, imidapril inhibe la ACE, lo que reduce la angiotensina II y la vasoconstricción mediada por el sistema renina-angiotensina-aldosterona (SRAA). Su uso en hipertensión arterial sistémica es la base de su perfil terapéutico.
+Imidapril es un profármaco IECA cuyo metabolito activo, el imidaprilato, reduce la producción de angiotensina II. Esto puede disminuir la vasoconstricción y el remodelado vascular. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción del fármaco, por lo que este razonamiento se basa en la farmacología general de la clase de los IECA.
 
-La conexión con la nueva indicación es plausible pero débil. El SRAA podría intervenir en la vasoconstricción y el remodelado vascular pulmonar inducidos por hipoxia. Sin embargo, ninguna evidencia aportada une imidapril con esta enfermedad. El puntaje de 99,78 % es solo una predicción basada en grafos de conocimiento y no constituye evidencia clínica.
+La hipertensión sistémica y la hipertensión pulmonar son ambas enfermedades vasculares con alteración del tono y del remodelado vascular, y el sistema renina-angiotensina podría participar en ambas. Sin embargo, en la hipertensión pulmonar por hipoxia los principales factores son la vasoconstricción pulmonar hipóxica y el remodelado, y los IECA no han mostrado un beneficio consistente en este contexto.
 
-Además, hay argumentos en contra. Los IECA no tienen beneficio establecido en la hipertensión pulmonar del grupo 3, y la vasodilatación sistémica podría empeorar el equilibrio ventilación-perfusión. La segunda predicción (hipertensión pulmonar de mecanismo multifactorial poco claro) tiene exactamente el mismo puntaje. Esto sugiere que ambas comparten vecindad en el grafo y no que existan evidencias independientes.
+Por tanto, el puntaje alto de TxGNN (99.78%) debe interpretarse con cautela: es una señal computacional basada en el grafo de conocimiento, sin respaldo clínico propio. Otra entrada de hipertensión pulmonar de causa multifactorial poco clara comparte exactamente el mismo puntaje, lo que sugiere una señal común del grafo y no evidencia independiente.
+
+## Otras Predicciones del Modelo
+
+| Posición | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
+|------|------|------|------|------|
+| 2 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.78% | L5 | Justificación teórica por el sistema renina-angiotensina; sin ensayos ni literatura |
+| 3 | Enfermedad renal hipertensiva maligna | 99.76% | L5 | La más coherente mecanísticamente (efecto renoprotector de los IECA), pero se maneja de forma aguda con fármacos parenterales; riesgo de lesión renal aguda e hiperpotasemia |
+| 4 | Hipertensión renovascular maligna | 99.76% | L5 | Dependiente de angiotensina II; en estenosis bilateral de arteria renal o de riñón único los IECA pueden precipitar insuficiencia renal aguda |
+| 5 | Síndrome de Braddock | 99.70% | L5 | Sin justificación mecanística clara; probablemente refleja proximidad en el grafo con nodos de hipertensión |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,55 +72,41 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se recuperaron 20 publicaciones, ninguna de las cuales estudia imidapril ni el tratamiento de la hipertensión pulmonar. Todas son revisiones o investigación básica sobre hipoxia en general, y su relevancia sigue pendiente de evaluación. Se muestran las 10 más relevantes, priorizando revisiones.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Revisión | Ageing Research Reviews | Hipoxia y envejecimiento cerebral: efectos neurodegenerativos frente a posibles efectos neuroprotectores |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Revisión | Metabolic Brain Disease | Deterioro cognitivo por hipoxia aguda y crónica: evidencia clínica y mecanismos moleculares |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Revisión | Journal of Cellular Biochemistry | Respuesta celular a la hipoxia y su papel en enfermedad vascular, inflamación y cáncer |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Revisión | Respiratory Care Clinics of North America | Mecanismos básicos de la hipoxemia (incluido el desajuste ventilación-perfusión) |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Revisión | Clinical Oncology | Modificación terapéutica de la hipoxia tumoral y su relación con la resistencia a radioterapia |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Revisión | Trends in Cancer | Desubiquitinasas, factores inducibles por hipoxia (HIF) y cáncer |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Revisión | Revista Médica del IMSS | Hipoxia hipobárica y adaptación en habitantes de altitud |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Revisión | Redox Biology | Papel de la hipoxia en la esclerosis múltiple |
-| [24557798](https://pubmed.ncbi.nlm.nih.gov/24557798/) | 2014 | Revisión | Journal of Applied Physiology | Revisión general sobre hipoxia (sin resumen disponible) |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Investigación básica | Advanced Science | Modificación de ARNm (ac4C) y adicción a la glucólisis en cáncer gástrico bajo hipoxia |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Imidapril figura con 12 autorizaciones. Se muestran las 5 principales; el texto de indicación aprobada no está disponible en los registros.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 83139 | IMIDAPRIL QUALIGEN 5 MG COMPRIMIDOS EFG | Comprimido | Neuraxpharm Spain S.L. |
-| 63425 | HIPERTENE 5 mg COMPRIMIDOS | Comprimido | Laboratorios Bial S.A. |
-| 83141 | IMIDAPRIL QUALIGEN 20 MG COMPRIMIDOS EFG | Comprimido | Neuraxpharm Spain S.L. |
-| 83177 | IMIDAPRIL ASIBILAN 20 MG COMPRIMIDOS EFG | Comprimido | Neuraxpharm Pharmaceuticals S.L. |
-| 83179 | IMIDAPRIL DARI PHARMA 20 MG COMPRIMIDOS EFG | Comprimido | Dari Pharma S.L. |
+| 63425 | HIPERTENE 5 mg comprimidos | Comprimido | No disponible |
+| 63426 | HIPERTENE 10 mg comprimidos | Comprimido | No disponible |
+| 63427 | HIPERTENE 20 mg comprimidos | Comprimido | No disponible |
+| 83139 | IMIDAPRIL QUALIGEN 5 mg comprimidos EFG | Comprimido | No disponible |
+| 83140 | IMIDAPRIL QUALIGEN 10 mg comprimidos EFG | Comprimido | No disponible |
+
+Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone de advertencias, contraindicaciones ni interacciones farmacológicas registradas.
+- **Interacciones Farmacológicas**: la consulta se completó y devolvió un único registro, relativo a la diana farmacológica de imidapril (la enzima convertidora de angiotensina, ACE), sin nivel de gravedad asignado. No se identificaron interacciones con otros fármacos.
+- **Consideraciones específicas de clase** (según el análisis mecanístico de las predicciones): los IECA pueden causar lesión renal aguda e hiperpotasemia, y en estenosis bilateral de arteria renal o de riñón único pueden precipitar insuficiencia renal aguda.
 
-Del análisis del mecanismo de las predicciones se desprenden dos precauciones de clase:
-- **Hipertensión pulmonar por hipoxia**: la vasodilatación sistémica podría empeorar el equilibrio ventilación-perfusión.
-- **Hipertensión renovascular**: los IECA pueden causar lesión renal aguda en estenosis bilateral de la arteria renal o en riñón único. También hay que vigilar la función renal, el potasio y el volumen.
+No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados. Consultar el prospecto para información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5): no hay ensayos clínicos y ninguna publicación vincula imidapril con la hipertensión pulmonar. Además, existe una razón fisiopatológica de cautela, porque los IECA no tienen beneficio establecido en la hipertensión pulmonar del grupo 3.
+Todas las predicciones son de nivel L5: solo existe la señal del modelo, sin ensayos clínicos ni literatura. Además, la plausibilidad mecanística para la hipertensión pulmonar hipóxica es débil y los IECA no han mostrado beneficio consistente en ese contexto.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que es un requisito bloqueante para el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una búsqueda bibliográfica dirigida a imidapril o IECA en hipertensión pulmonar, con estudios preclínicos o de mecanismo como mínimo.
-- Valorar las otras predicciones, más coherentes con la clase farmacológica: la enfermedad renal hipertensiva maligna y la hipertensión renovascular maligna (ambas con puntaje de 99,76 %, nivel L5, "pregunta de investigación"). Estas exigirían un diseño que priorice la seguridad renal.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente ausente y bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción de imidapril (por ejemplo, desde DrugBank).
+- Realizar una revisión sistemática de la literatura sobre IECA en hipertensión pulmonar y registrar ensayos relevantes.
+- Estudios preclínicos o de mecanismo que respalden el vínculo con la hipertensión pulmonar.
+- Si se desea una alternativa más cercana a la indicación original, evaluar la enfermedad renal hipertensiva con atención a los riesgos renales y de potasio.
+- Verificar la compatibilidad de vía de administración (actualmente pendiente; el fármaco solo está disponible en comprimidos).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

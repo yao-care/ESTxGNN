@@ -2,15 +2,15 @@
 layout: default
 title: Omalizumab
 parent: Evidencia moderada (L3-L4)
-nav_order: 395
-evidence_level: L4
+nav_order: 589
+evidence_level: L3
 indication_count: 10
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Omalizumab es un anticuerpo monoclonal anti-IgE. Según la literatura del paquete, se usa sobre todo en asma alérgica moderada-grave y urticaria crónica espontánea.
-El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero solo hay **2 ensayos clínicos** y **8 publicaciones** asociados, y ninguno prueba omalizumab en bronquitis de forma directa.
+Omalizumab es un anticuerpo monoclonal anti-IgE, utilizado originalmente para el tratamiento del asma (incluida el asma alérgica e intrínseca) y la urticaria idiopática.
+El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **2 ensayos clínicos** y **7 publicaciones** que actualmente respaldan esta dirección, aunque de forma indirecta y principalmente a través del asma y el solapamiento asma-EPOC.
 
 ---
 
@@ -42,10 +42,10 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero solo 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma alérgica (según la literatura; los registros de AEMPS del paquete no incluyen el texto de indicación) |
+| Indicación Original | Asma, asma intrínseca, asma alérgica y urticaria idiopática (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.999% |
-| Nivel de Evidencia | L4 |
+| Puntaje de Predicción TxGNN | 99.99% |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 8 |
 | Decisión Recomendada | Hold |
@@ -54,11 +54,11 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero solo 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Omalizumab se une a la IgE libre y reduce la expresión del receptor FcεRI en mastocitos, basófilos y células dendríticas. Con ello disminuye la inflamación alérgica de las vías respiratorias. El paquete no contiene datos de mecanismo de acción de DrugBank, así que esta descripción se basa en la literatura incluida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas. Según la información conocida y la literatura recuperada, omalizumab es un anticuerpo monoclonal humanizado que se une a la IgE libre, reduce su disponibilidad y disminuye la expresión de FcεRI en mastocitos, basófilos y células dendríticas, lo que atenúa la inflamación alérgica de las vías respiratorias.
 
-La relación con la bronquitis es indirecta. Las publicaciones asociadas tratan de asma alérgica, superposición asma-EPOC y enfermedad de las vías aéreas en fumadores. Solo un ensayo, con población de asma y bronquitis eosinofílica, se acerca a la bronquitis.
+La relación con la indicación original es indirecta. La señal de bronquitis se explica en gran medida por el asma y por el solapamiento asma-EPOC, en los que coexisten rasgos de bronquitis crónica. Un ensayo de fase 2/3 explora la bronquitis eosinofílica persistente en pacientes con asma, de modo que el vínculo con la bronquitis como entidad propia no está demostrado.
 
-El puntaje TxGNN es muy alto, pero por sí solo no es evidencia clínica. La predicción podría reflejar la cercanía entre "asma" y "enfermedad bronquial" más que un beneficio real en bronquitis.
+Mecanísticamente podría ser aplicable a fenotipos de bronquitis con componente alérgico o eosinofílico, pero no hay evidencia directa en bronquitis como enfermedad diferenciada.
 
 ---
 
@@ -66,8 +66,8 @@ El puntaje TxGNN es muy alto, pero por sí solo no es evidencia clínica. La pre
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Fase 2/3 | Completado | 11 | Ensayo doble ciego controlado con placebo. Evalúa si omalizumab permite reducir la dosis de prednisona en pacientes con asma y bronquitis eosinofílica persistente. La muestra es demasiado pequeña para sacar conclusiones. |
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Fase 2 | Completado | 382 | Estudio de búsqueda de dosis de QGE031 en urticaria crónica espontánea, con omalizumab como comparador activo. No es un ensayo de bronquitis; aporta solo contexto indirecto. |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Fase 2/3 | Completado | 11 | Ensayo doble ciego controlado con placebo sobre el efecto ahorrador de esteroides de omalizumab en bronquitis eosinofílica persistente con asma. Muestra muy pequeña; relevancia indirecta (grado C) |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Fase 2 | Completado | 382 | Estudio de búsqueda de dosis (fase 2b) de QGE031 frente a placebo y control activo en urticaria crónica espontánea. Relevancia para bronquitis no verificada (grado C) |
 
 ---
 
@@ -75,34 +75,38 @@ El puntaje TxGNN es muy alto, pero por sí solo no es evidencia clínica. La pre
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohorte | Postepy Dermatol Alergol | Terapias biológicas, incluido omalizumab, en pacientes de mediana edad o mayores con asma alérgica grave y superposición con EPOC. |
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Análisis agrupado de seguridad | Curr Med Res Opin | Seguridad y tolerabilidad de omalizumab en niños con asma alérgica. |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Revisión | Clin Rev Allergy Immunol | Aprobación y experiencia posterior de omalizumab en asma. Reduce la IgE libre y la inflamación de la vía aérea. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revisión | Expert Opin Pharmacother | Manejo del asma asociada a enfermedades de la vía aérea inducidas por el tabaco, entre ellas la bronquitis crónica. Estos pacientes suelen quedar fuera de los ensayos. |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Revisión | Masui | Manejo preoperatorio de pacientes con asma bronquial o bronquitis crónica. Menciona omalizumab en asma alérgica grave. |
-| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | Revisión | Rev Mal Respir | Definición, fisiopatología y tratamiento de las exacerbaciones del asma en adultos. |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Revisión | Allergol Immunopathol | Anticuerpos monoclonales en pediatría, incluido su uso en enfermedades alérgicas. |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Reporte de caso | J Investig Allergol Clin Immunol | Bronquitis plástica rara tras termoplastia bronquial. Sin resumen disponible. |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Revisión (análisis agrupado) | Curr Med Res Opin | Seguridad y tolerabilidad de omalizumab en niños con asma alérgica |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohorte | Postepy Dermatol Alergol | Omalizumab en pacientes de mediana edad o mayores con solapamiento asma alérgica grave-EPOC |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Revisión | Clin Rev Allergy Immunol | Eficacia de omalizumab en asma persistente moderada a grave y experiencia posautorización |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revisión | Expert Opin Pharmacother | Manejo del asma asociada a enfermedades de las vías respiratorias inducidas por el tabaco (bronquitis crónica, enfisema) |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Revisión | Allergol Immunopathol | Anticuerpos monoclonales en pediatría: prevención y tratamiento |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Revisión | Masui | Manejo preoperatorio de pacientes con asma bronquial o bronquitis crónica; menciona omalizumab para asma alérgica grave |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Reporte de caso | J Investig Allergol Clin Immunol | Caso raro de bronquitis plástica tras termoplastia bronquial |
 
 ---
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 8 autorizaciones. El paquete no incluye el texto de indicación aprobada de AEMPS.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 05319002 | XOLAIR 150 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Novartis Europharm Limited |
-| 05319008 | XOLAIR 150 mg solución inyectable | Solución inyectable en jeringa precargada | Novartis Europharm Limited |
-| 05319005 | XOLAIR 75 mg solución inyectable | Solución inyectable en jeringa precargada | Novartis Europharm Limited |
-| 1241817002 | OMLYCLO 150 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Celltrion Healthcare Hungary Kft. |
-| 1241817001 | OMLYCLO 75 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Celltrion Healthcare Hungary Kft. |
+| 05319002 | XOLAIR 150 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
+| 05319008 | XOLAIR 150 mg solución inyectable | Solución inyectable en jeringa precargada | No disponible |
+| 05319005 | XOLAIR 75 mg solución inyectable | Solución inyectable en jeringa precargada | No disponible |
+| 1241817002 | OMLYCLO 150 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
+| 1241817001 | OMLYCLO 75 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible |
+
+Hay 8 autorizaciones vigentes en total (todas de medicamento único); la tabla muestra las 5 principales. Las restantes corresponden a presentaciones de OMLYCLO (pluma precargada de 75 mg y 150 mg, y jeringa de 300 mg).
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 8 registros de interacción.
+  - Moderada: omacetaxina mepesuccinato.
+  - Leves: sulfato de zinc, acetato de zinc, gluconato de zinc, cloruro de zinc, equinácea y vitamina E.
+  - Además, se registra su diana farmacológica, la cadena pesada constante épsilon de la inmunoglobulina (IGHE), correspondiente a la IgE.
+
+No se dispone de datos de advertencias principales ni de contraindicaciones; consultar el prospecto para esa información de seguridad.
 
 ---
 
@@ -111,14 +115,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Ningún ensayo ni estudio del paquete evalúa omalizumab en bronquitis. El único ensayo cercano es una Fase 2/3 con 11 pacientes con asma y bronquitis eosinofílica, y no permite conclusiones. El puntaje TxGNN es muy alto, pero no equivale a evidencia clínica.
+La evidencia directa en bronquitis es muy limitada: un único ensayo de fase 2/3 con 11 participantes en bronquitis eosinofílica asociada al asma, y literatura mayoritariamente de revisión centrada en asma y solapamiento asma-EPOC. La señal parece derivarse de la indicación ya aprobada más que de un reposicionamiento genuino.
 
 **Para avanzar se necesita:**
-- Definir el subtipo de bronquitis de interés (eosinofílica, crónica u otra) y su relación con la IgE.
-- Ensayos o series de casos de omalizumab específicos en ese subtipo.
-- Consultar el prospecto de AEMPS para las indicaciones aprobadas, advertencias y contraindicaciones.
-- Datos de mecanismo de acción desde DrugBank.
-- Como alternativa dentro de esta misma predicción, la indicación "enfermedad pulmonar obstructiva" tiene mucha más evidencia (asma alérgica, con ensayos de Fase 3 y 4). Conviene evaluarla primero.
+- Definir el fenotipo de bronquitis a evaluar (por ejemplo, bronquitis eosinofílica o alérgica) y su diferenciación frente al asma ya autorizada.
+- Ensayos controlados con mayor tamaño muestral en ese fenotipo.
+- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS, así como los textos de indicación aprobados.
+- Datos detallados del mecanismo de acción.
+- Valorar como alternativas con más respaldo las predicciones de dermatitis atópica (nivel L2) y de enfermedad pulmonar obstructiva, esta última con sus matices (evidencia en gran parte ligada al asma ya aprobada; ensayos en EPOC aún tempranos).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

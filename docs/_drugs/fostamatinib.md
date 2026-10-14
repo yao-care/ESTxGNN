@@ -2,7 +2,7 @@
 layout: default
 title: Fostamatinib
 parent: Solo predicción del modelo (L5)
-nav_order: 248
+nav_order: 361
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Fostamatinib: De Trombocitopenia Inmune Crónica a Trombocitopenia Autosómica con Plaquetas Normales
+# Fostamatinib: De Trombocitopenia por Destrucción Inmune a Trombocitopenia Autosómica con Plaquetas Normales
 
 ## Resumen en Una Frase
 
-Fostamatinib es un inhibidor de SYK que se comercializa en España como Tavlesse. Según el conocimiento farmacológico general, se usa en la trombocitopenia inmune crónica.
+Fostamatinib es un inhibidor de la tirosina quinasa SYK, originalmente utilizado para el tratamiento de la trombocitopenia por destrucción inmune.
 El modelo TxGNN predice que podría ser efectivo para **trombocitopenia autosómica con plaquetas normales**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los textos de autorización locales (según conocimiento farmacológico general: trombocitopenia inmune crónica) |
+| Indicación Original | Trombocitopenia por destrucción inmune |
 | Nueva Indicación Predicha | Trombocitopenia autosómica con plaquetas normales |
 | Puntaje de Predicción TxGNN | 99.45% |
 | Nivel de Evidencia | L5 |
@@ -51,13 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según el conocimiento farmacológico general, fostamatinib es un profármaco de R406, un inhibidor de la tirosina quinasa SYK. Reduce la destrucción de plaquetas mediada por receptores Fc en los macrófagos, y por eso se usa en la trombocitopenia inmune crónica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, fostamatinib es un inhibidor de SYK cuyo metabolito activo (R406) reduce la destrucción de plaquetas mediada por anticuerpos en los macrófagos, lo que explica su eficacia en la trombocitopenia inmune.
 
-La relación con la nueva indicación es débil. Las trombocitopenias hereditarias suelen deberse a defectos en la producción de plaquetas o en la función de los megacariocitos, no a un aclaramiento inmunitario. Solo sería plausible si en esta enfermedad participara la destrucción inmunitaria de plaquetas, y eso no está verificado.
+La nueva indicación predicha es una trombocitopenia hereditaria (autosómica), cuyo origen no es la destrucción inmune de plaquetas. Por ello, el vínculo mecanístico es débil. El puntaje elevado del modelo (99.45%) probablemente refleja la cercanía en la red de conocimiento con el fenotipo de trombocitopenia, más que un mecanismo patogénico compartido.
 
-El puntaje de 99.45% es únicamente una predicción computacional. Ningún dato clínico del paquete lo respalda.
-
-Nota: el modelo también predijo, en segundo lugar, **malformación esofágica no sindrómica** (puntaje 99.05%). No se identifica un vínculo mecanístico plausible. La inhibición de SYK no tiene relevancia establecida en la embriogénesis del esófago, y la predicción podría deberse a artefactos de la topología del grafo de conocimiento. Tampoco tiene ensayos ni literatura de apoyo (nivel L5, Hold).
+En conclusión, la predicción debe considerarse con cautela: no hay estudios que respalden un vínculo real y la similitud entre ambas indicaciones está pendiente de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,30 +69,32 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1191405002 | TAVLESSE 150 MG comprimidos recubiertos con película | Comprimido recubierto con película | No consta en el registro |
-| 1191405001 | TAVLESSE 100 MG comprimidos recubiertos con película | Comprimido recubierto con película | No consta en el registro |
+| 1191405002 | TAVLESSE 150 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 1191405001 | TAVLESSE 100 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 
-Ambas autorizaciones pertenecen a Instituto Grifols S.A.
+Ambas autorizaciones son de Instituto Grifols S.A., vigentes y de principio activo único.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las principales:
+  - **Mayor**: claritromicina.
+  - **Moderadas**: inhibidores de la bomba de protones y antiácidos (rabeprazol, omeprazol, dexlansoprazol, cimetidina), corticoides (hidrocortisona, betametasona, budesonida, triamcinolona, dexametasona), aprepitant, alosetrón, alvimopán, dolasetrón, dronabinol, eliglustat, empagliflozina, loperamida, pioglitazona y morfina.
+
+Para advertencias y contraindicaciones, consultar el prospecto. Para el uso en una condición del desarrollo o hereditaria, el análisis previo señala posibles preocupaciones como hipertensión, hepatotoxicidad y toxicidad embrio-fetal.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5), sin ensayos clínicos ni literatura. El vínculo mecanístico con una trombocitopenia hereditaria es débil, porque el mecanismo inmunitario de fostamatinib no encaja con un defecto de producción plaquetaria. Además, no se dispone de datos de seguridad locales.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y el mecanismo de acción de fostamatinib (frenar la destrucción inmune de plaquetas) no se corresponde con una trombocitopenia hereditaria. No hay base suficiente para avanzar.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad
-- Obtener datos del mecanismo de acción desde DrugBank
-- Confirmar la indicación aprobada en España, ya que los textos de autorización están vacíos
-- Buscar evidencia preclínica o clínica que vincule la vía SYK con la fisiopatología de esta trombocitopenia
-- Revisar si la predicción de malformación esofágica es un artefacto del grafo antes de dedicarle más recursos
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos detallados del mecanismo de acción (MOA), por ejemplo desde DrugBank
+- Revisión de advertencias y contraindicaciones del prospecto de AEMPS
+- Evidencia preclínica o clínica que vincule la inhibición de SYK con la trombocitopenia autosómica
+- Evaluación del perfil de seguridad (hipertensión, hepatotoxicidad, toxicidad embrio-fetal) en la población objetivo
+- Análisis de similitud con la indicación original y de compatibilidad de vía de administración
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

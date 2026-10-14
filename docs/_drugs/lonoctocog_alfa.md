@@ -2,7 +2,7 @@
 layout: default
 title: Lonoctocog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 327
+nav_order: 479
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Lonoctocog alfa: De Hemofilia A a Pseudo-enfermedad de von Willebrand
+# Lonoctocog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
 
 ## Resumen en Una Frase
 
-Lonoctocog alfa es un factor VIII de coagulación recombinante de cadena única (comercializado en España como AFSTYLA). Se usa como tratamiento sustitutivo en la hemofilia A, aunque el registro de la AEMPS recibido no incluye el texto de indicación.
-El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de von Willebrand** (von Willebrand de tipo plaquetario), pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Lonoctocog alfa es un factor VIII de coagulación recombinante de cadena única, utilizado originalmente para el tratamiento de la hemofilia.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad de pseudo-von Willebrand**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia A (según la caracterización general del fármaco; el registro de la AEMPS no incluye texto de indicación) |
-| Nueva Indicación Predicha | Pseudo-enfermedad de von Willebrand |
+| Indicación Original | Hemofilia (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Enfermedad de pseudo-von Willebrand |
 | Puntaje de Predicción TxGNN | 99.85% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -50,17 +51,19 @@ El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, lonoctocog alfa es un factor VIII recombinante de cadena única. Su función es reponer el FVIII que falta en la cascada de coagulación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, lonoctocog alfa es un factor VIII recombinante de cadena única con mayor afinidad de unión al factor von Willebrand (VWF), cuya eficacia en la reposición de FVIII en hemofilia está establecida.
 
-La pseudo-enfermedad de von Willebrand (tipo plaquetario) tiene otro origen: una alteración de ganancia de función de la GPIb-alfa plaquetaria. Esta alteración aumenta la unión al factor von Willebrand (VWF) y favorece la eliminación de multímeros de VWF de alto peso molecular y de plaquetas. El FVIII exógeno no corrige este defecto plaquetario. El único vínculo posible es indirecto: la pérdida de VWF puede reducir secundariamente el FVIII.
+La enfermedad de pseudo-von Willebrand (tipo plaquetario) se debe a mutaciones de ganancia de función en GPIbα, que aumentan la unión de las plaquetas al VWF y provocan un defecto de hemostasia primaria con pérdida de multímeros de VWF de alto peso molecular. El reemplazo de FVIII no corrige este defecto del receptor plaquetario.
 
-**El puntaje alto (99.85%) refleja solo cercanía en el grafo de conocimiento.** No está respaldado por datos mecanísticos ni clínicos.
+El puntaje tan alto (99.85%) probablemente refleja la cercanía en el grafo con otros trastornos hemorrágicos y de la coagulación, más que un mecanismo validado. El vínculo es especulativo: el FVIII podría ayudar, como mucho, en casos con reducción secundaria de FVIII, algo que aquí no está respaldado.
 
-Las otras tres predicciones del modelo tampoco tienen respaldo. Todas son L5 y con recomendación Hold:
+**Otras predicciones del modelo (todas de nivel L5, sin ensayos ni literatura):**
 
-- **Trastorno primario de liberación plaquetaria (99.84%)**: es un defecto intrínseco de la plaqueta, previo a la cascada de coagulación.
-- **Trombastenia de Glanzmann (99.76%)**: el defecto está en la integrina alfaIIb-beta3, y el tratamiento estándar es transfusión de plaquetas o FVIIa recombinante.
-- **Síndrome de Scott (99.44%)**: hay un vínculo teórico débil, porque el FVIII forma parte del complejo tenasa. Sin embargo, añadir FVIII no restauraría la superficie procoagulante ausente.
+| Enfermedad predicha | Puntaje TxGNN | Valoración mecanística |
+|------|------|------|
+| Trastorno primario de liberación plaquetaria | 99.84% | El FVIII no corrige defectos de gránulos o señalización plaquetaria |
+| Trombastenia de Glanzmann | 99.76% | Defecto de la integrina αIIbβ3; el FVIII no restaura la agregación plaquetaria, por lo que es mecanísticamente inconsistente |
+| Síndrome de Scott | 99.44% | Conexión conceptual laxa (el FVIII depende de membranas con fosfatidilserina), pero aportar más FVIII no repara la superficie procoagulante ausente |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,15 +75,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 7 autorizaciones registradas. Todas corresponden a AFSTYLA (Csl Behring GmbH), en polvo y disolvente para solución inyectable.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161158003 | AFSTYLA 1.000 UI | Polvo y disolvente para solución inyectable | No especificada en el registro |
-| 1161158002 | AFSTYLA 500 UI | Polvo y disolvente para solución inyectable | No especificada en el registro |
-| 1161158007 | AFSTYLA 3.000 UI | Polvo y disolvente para solución inyectable | No especificada en el registro |
-| 1161158004 | AFSTYLA 1.500 UI | Polvo y disolvente para solución inyectable | No especificada en el registro |
-| 1161158006 | AFSTYLA 2.500 UI | Polvo y disolvente para solución inyectable | No especificada en el registro |
+| 1161158003 | AFSTYLA 1.000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161158002 | AFSTYLA 500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161158007 | AFSTYLA 3.000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161158004 | AFSTYLA 1.500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161158006 | AFSTYLA 2.500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+
+Se muestran 5 de las 7 autorizaciones vigentes (todas de CSL Behring GmbH; las otras dos corresponden a las presentaciones de 250 UI y 2.000 UI).
 
 ## Consideraciones de Seguridad
 
@@ -91,13 +94,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones. Además, el mecanismo del FVIII no corrige el defecto plaquetario de la pseudo-enfermedad de von Willebrand.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo conocido del FVIII no corresponde a la fisiopatología de la enfermedad de pseudo-von Willebrand, que es un defecto del receptor plaquetario GPIbα.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un paso bloqueante para el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión sistemática de la literatura sobre FVIII en von Willebrand de tipo plaquetario y en otros trastornos plaquetarios, para descartar o encontrar evidencia real.
-- Completar la evaluación de similitud con la indicación original y de compatibilidad de vía de administración, que siguen pendientes.
+- Datos detallados del mecanismo de acción (MOA) del fármaco
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Evidencia preclínica o clínica que sustente el uso de FVIII en defectos de función plaquetaria
+- Evaluación de si existe algún subgrupo con reducción secundaria de FVIII que pudiera beneficiarse
+- Análisis de compatibilidad de vía de administración y de similitud con la indicación original
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

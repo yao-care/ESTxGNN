@@ -2,7 +2,7 @@
 layout: default
 title: Brodalumab
 parent: Solo predicción del modelo (L5)
-nav_order: 82
+nav_order: 115
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,22 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Brodalumab: De Psoriasis en Placas a Estrongiloidiasis
+# Brodalumab: De Indicación Original No Especificada a Enfermedad Ocular (Estrongiloidiasis como predicción principal)
+
+> Nota: la predicción de mayor puntaje del modelo es **estrongiloidiasis**, pero carece de toda evidencia. Se muestra también la predicción con mayor soporte documental (**enfermedad ocular**), de forma informativa.
 
 ## Resumen en Una Frase
 
-Brodalumab es un anticuerpo monoclonal que bloquea el receptor IL-17RA y se comercializa en España como KYNTHEUM. Su indicación original no figura en el texto de la autorización registrada; según la información general del fármaco, es la psoriasis en placas.
-El modelo TxGNN predice que podría ser efectivo para **estrongiloidiasis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
+Brodalumab es un anticuerpo monoclonal antagonista del receptor A de la interleucina-17 (IL-17RA), comercializado en España como Kyntheum, cuya indicación aprobada no figura en los datos compilados para este informe.
+El modelo TxGNN predice que podría ser efectivo para **estrongiloidiasis**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; la segunda predicción, **enfermedad ocular**, cuenta con **3 publicaciones** indirectas y ningún ensayo clínico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Psoriasis en placas (dato no incluido en el texto de la autorización; procede de información general del fármaco) |
+| Indicación Original | No disponible en los datos de la autorización de AEMPS |
 | Nueva Indicación Predicha | Estrongiloidiasis |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 99,84% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
@@ -50,46 +52,54 @@ El modelo TxGNN predice que podría ser efectivo para **estrongiloidiasis**, per
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, brodalumab bloquea el receptor IL-17RA, y la vía de IL-17 participa en la defensa de las mucosas frente a bacterias y hongos. Su eficacia se ha establecido en enfermedades inflamatorias mediadas por el sistema inmune, no en infecciones parasitarias.
+Brodalumab bloquea el receptor IL-17RA, una vía compartida por varias isoformas de IL-17. Los datos detallados sobre su mecanismo de acción no están disponibles en la información compilada; esta descripción procede del conocimiento general del fármaco.
 
-Aquí la razonabilidad biológica es **débil**. La estrongiloidiasis es una infección por un helminto, y el bloqueo de IL-17RA no tiene un vínculo mecanístico claro con su tratamiento. Además, los biológicos inmunosupresores son un factor de riesgo reconocido de hiperinfección por *Strongyloides*, así que el efecto podría ir en sentido desfavorable.
+Para la estrongiloidiasis, no se identificó ningún vínculo clínico ni bibliográfico. La IL-17 participa en la defensa del huésped frente a algunos patógenos, por lo que bloquearla podría, en teoría, aumentar el riesgo de infección en lugar de tratarla. El puntaje alto del modelo es solo una predicción sin datos de respaldo, y la predicción no resulta mecanísticamente razonable con la información disponible.
 
-El puntaje alto (99.84%) refleja probablemente la cercanía entre nodos en el grafo de conocimiento y no una señal biológica independiente. No hay estudios que la confirmen.
+Como referencia, la predicción de **enfermedad ocular** (puntaje 99,82%) tiene una justificación plausible, ya que la vía IL-17 se ha implicado en inflamación ocular como la uveítis. Sin embargo, la literatura recuperada es indirecta y en parte contradictoria, y "enfermedad ocular" es una categoría demasiado amplia para ser accionable. El resto de predicciones (deficiencia vitamínica, anomalía de von Hippel, neuropatías ópticas inflamatorias, epiescleritis) carecen de evidencia y, en su mayoría, de vínculo mecanístico claro.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para estrongiloidiasis (ni para enfermedad ocular).
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para estrongiloidiasis, actualmente no hay literatura relacionada disponible. Como referencia, la literatura para la segunda predicción (enfermedad ocular) es:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [41916603](https://pubmed.ncbi.nlm.nih.gov/41916603/) | 2026 | Farmacovigilancia (mundo real) | Canadian Journal of Ophthalmology | Análisis de fármacos sistémicos asociados desproporcionadamente con eventos de uveítis; se trata de un evento adverso, no de eficacia |
+| [41770262](https://pubmed.ncbi.nlm.nih.gov/41770262/) | 2026 | Reporte de caso | Rheumatology International | Primer caso de enfermedad de Behçet como reacción paradójica tras iniciar brodalumab en un paciente con osteítis no bacteriana crónica |
+| [42576218](https://pubmed.ncbi.nlm.nih.gov/42576218/) | 2026 | Preclínico (modelo animal) | Journal of Translational Medicine | El bloqueo de IL-17R con brodalumab limita la periodontitis experimental; no es un estudio de enfermedad ocular |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161155001 | KYNTHEUM 210 MG SOLUCION INYECTABLE EN JERINGA PRECARGADA (Leo Pharma A/S) | Solución inyectable | No especificada en los datos disponibles |
+| 1161155001 | KYNTHEUM 210 MG SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | Solución inyectable | No especificada en los datos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento TxGNN, no el prospecto)**: enfermedad de Crohn, enfermedad inflamatoria intestinal y colitis de Crohn.
+- **Advertencia adicional señalada en el análisis**: se menciona una advertencia de ideación y conducta suicida, que pesaría sobre cualquier nuevo uso neurológico u oftálmico; debe confirmarse con el prospecto.
+- **Interacciones farmacológicas**: se identificaron 68 interacciones en total. Entre las principales:
+  - **Mayor**: adalimumab, baricitinib, certolizumab pegol, vacuna BCG (cepa Tice, viva).
+  - **Moderada**: roflumilast, alefacept, alemtuzumab, anakinra, canakinumab, y diversas vacunas vivas o antígenos (ántrax, adenovirus tipo 4, cólera, *Candida albicans*, toxoide tetánico).
+  - **Menor**: sales de zinc (acetato, gluconato, sulfato, cloruro).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni publicaciones. Además, el mecanismo de acción sugiere que el bloqueo de IL-17RA no aporta beneficio en una infección helmíntica y podría aumentar el riesgo de hiperinfección.
+La predicción de estrongiloidiasis tiene un puntaje alto del modelo, pero ninguna evidencia clínica ni bibliográfica (L5), y el bloqueo de IL-17 podría aumentar el riesgo de infección. La predicción de enfermedad ocular (L4) tiene una justificación plausible, pero la evidencia es indirecta y no demuestra beneficio terapéutico.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones).
+- Obtener el prospecto de AEMPS (indicaciones, advertencias y contraindicaciones), lo cual es un requisito bloqueante para el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión específica del riesgo de hiperinfección por *Strongyloides* con biológicos inmunosupresores.
-- Obtener evidencia preclínica o clínica antes de reconsiderar la indicación.
-
-**Nota sobre otras predicciones:** el resto de las 10 principales predicciones (por ejemplo, enfermedad ocular y las neuritis ópticas) también quedan en *Hold*. Solo "enfermedad ocular" alcanza L4, apoyada en una revisión indirecta sobre IL-17 en enfermedades reumáticas sistémicas. Las neuritis ópticas comparten el mismo puntaje, así que probablemente representan una sola señal correlacionada.
-
-*Los resultados son solo para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Para estrongiloidiasis: evidencia preclínica o clínica que justifique la hipótesis frente al riesgo infeccioso teórico.
+- Para el ámbito ocular: acotar a una entidad específica (por ejemplo, uveítis no infecciosa) y buscar estudios dirigidos.
+- Evaluar la compatibilidad de la vía de administración (pendiente) y el perfil de seguridad, incluido el riesgo de ideación suicida y las contraindicaciones en enfermedad inflamatoria intestinal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Albutrepenonacog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 24
+nav_order: 30
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,83 +29,82 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Albutrepenonacog Alfa: De Reposición de Factor IX a Pseudo-enfermedad de von Willebrand
+# Albutrepenonacog alfa: De Hemofilia a Enfermedad de von Willebrand Pseudo (pseudo-von Willebrand)
 
 ## Resumen en Una Frase
 
-Albutrepenonacog alfa es una proteína de fusión recombinante de factor IX con albúmina, que sustituye al factor IX en la vía intrínseca de la coagulación. Se comercializa en España como IDELVION.
-El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de von Willebrand**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción del modelo.
-
----
+Albutrepenonacog alfa es un factor IX de coagulación recombinante fusionado a albúmina, utilizado originalmente para el tratamiento de la hemofilia.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad pseudo-von Willebrand**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS (los textos de indicación de las 5 autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Pseudo-enfermedad de von Willebrand |
+| Indicación Original | Hemofilia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Enfermedad pseudo-von Willebrand |
 | Puntaje de Predicción TxGNN | 99.94% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, albutrepenonacog alfa es un factor IX recombinante fusionado con albúmina, que repone el factor IX en la vía intrínseca de la coagulación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, albutrepenonacog alfa es un factor IX recombinante fusionado a albúmina (rFIX-FP), que apoya la vía intrínseca de la coagulación. Su eficacia en la hemofilia, donde falta factor IX, es la base de su uso original.
 
-La pseudo-enfermedad de von Willebrand tiene un origen distinto. Se debe a una ganancia de función de la GPIb-alfa plaquetaria, que aumenta su unión al factor de von Willebrand. El defecto está en la interacción plaqueta-VWF y no en una deficiencia de factor IX, por lo que el vínculo mecanístico es débil.
+La enfermedad pseudo-von Willebrand es un trastorno de tipo plaquetario causado por una mutación de ganancia de función en GP1BA, que aumenta la afinidad de las plaquetas por el factor von Willebrand (VWF). Su fenotipo hemorrágico se debe a la disfunción plaquetaria y del VWF, no a un déficit de factor IX.
 
-La puntuación alta de TxGNN probablemente refleja la cercanía dentro de la red de conocimiento de hemorragia y coagulación, y no una razón biológica directa. No se encontró una justificación directa para esta indicación.
+Por ello, el vínculo mecanístico directo es débil. El puntaje TxGNN, muy alto, proviene de una predicción basada en el grafo y no está respaldado por evidencia clínica ni bibliográfica. Esta predicción debe considerarse una hipótesis exploratoria.
 
----
+### Otras indicaciones predichas (para contexto)
+
+| Rango | Enfermedad | Puntaje TxGNN | Comentario mecanístico |
+|------|------|------|------|
+| 2 | Trastorno primario de liberación plaquetaria | 99.94% | El defecto de secreción plaquetaria no se corrige con factor IX; un beneficio por mayor generación de trombina sería puramente teórico. |
+| 3 | Trombastenia de Glanzmann | 99.92% | El defecto es la ausencia de integrina αIIbβ3; el tratamiento estándar es transfusión de plaquetas o FVIIa recombinante. |
+| 4 | Síndrome de Scott | 99.63% | Existe una conexión conceptual (FIXa actúa en el complejo tenasa), pero el defecto está en la superficie de membrana (TMEM16F/ANO6), no en la cantidad de FIX. |
+| 5 | Diátesis hemorrágica por defecto del receptor de colágeno | 99.28% | Defecto plaquetario previo a la cascada de coagulación, sin justificación mecanística para el FIX. |
+| 6 | Trastorno hemorrágico por trombocitopenia constitucional | 99.26% | El sangrado se debe a la falta de plaquetas; no hay mecanismo plausible de beneficio con FIX. |
+
+Todas estas predicciones tienen nivel de evidencia L5 y recomendación Hold.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
-
----
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161095009 | IDELVION 3.500 UI polvo y disolvente para solución inyectable | Polvo y solución para solución inyectable | No especificada en los datos |
-| 1161095004 | IDELVION 2000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
-| 1161095002 | IDELVION 500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
-| 1161095001 | IDELVION 250 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
-| 1161095003 | IDELVION 1000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No especificada en los datos |
+| 1161095001 | IDELVION 250 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161095002 | IDELVION 500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161095003 | IDELVION 1000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161095004 | IDELVION 2000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161095009 | IDELVION 3.500 UI polvo y disolvente para solución inyectable | Polvo y solución para solución inyectable | No disponible en los datos compilados |
 
-El titular de todas las autorizaciones es CSL Behring GmbH.
-
----
+Las cinco autorizaciones corresponden a presentaciones de un solo principio activo, están vigentes y pertenecen a CSL Behring GmbH.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. La consulta de interacciones farmacológicas no arrojó resultados.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos ni literatura. El defecto de la enfermedad está en la interacción plaqueta-VWF, no en el factor IX, y el vínculo mecanístico es débil. Las otras cinco indicaciones predichas (trastorno de liberación plaquetaria, trombastenia de Glanzmann, síndrome de Scott, defecto del receptor de colágeno y trombocitopenia constitucional) también son L5, con vínculos poco creíbles o meramente especulativos.
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni publicaciones. Además, la fisiopatología de la enfermedad pseudo-von Willebrand es plaquetaria y del VWF, no un déficit de factor IX, por lo que el fundamento mecanístico es débil.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS con las indicaciones, advertencias y contraindicaciones aprobadas.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Buscar evidencia preclínica o clínica que sustente el uso del factor IX en trastornos plaquetarios o del VWF.
-- Reevaluar solo si aparece un fundamento mecanístico directo.
+- Obtener el prospecto de la AEMPS para completar advertencias y contraindicaciones (es un requisito previo para cualquier evaluación de seguridad).
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión sistemática de la literatura y de registros de ensayos sobre factor IX en trastornos hemorrágicos plaquetarios.
+- Evaluar estudios preclínicos o de mecanismo (por ejemplo, generación de trombina en modelos de disfunción plaquetaria) antes de plantear un estudio clínico.
+- Valorar si las alternativas ya establecidas (transfusión de plaquetas, FVIIa recombinante, antifibrinolíticos) hacen innecesaria esta vía.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

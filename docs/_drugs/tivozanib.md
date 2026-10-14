@@ -2,7 +2,7 @@
 layout: default
 title: Tivozanib
 parent: Solo predicción del modelo (L5)
-nav_order: 531
+nav_order: 799
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,101 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tivozanib: De Indicación Original No Registrada a Carcinoma Endocervical
+# Tivozanib: De Carcinoma de Células Renales a Carcinoma Endocervical
 
 ## Resumen en Una Frase
 
-Tivozanib es un inhibidor de tirosina quinasas de los receptores VEGFR-1/2/3 y está comercializado en España como FOTIVDA. El registro recibido no incluye el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **carcinoma endocervical**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+Tivozanib es un inhibidor selectivo de la tirosina quinasa de los receptores VEGF (VEGFR-1/2/3), utilizado originalmente para el tratamiento del carcinoma de células renales avanzado.
+El modelo TxGNN predice que podría ser efectivo para **Carcinoma Endocervical**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción; se trata únicamente de una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el registro (las autorizaciones no incluyen texto de indicación) |
+| Indicación Original | Carcinoma de células renales (carcinoma renal de células claras, adenocarcinoma de células renales) |
 | Nueva Indicación Predicha | Carcinoma endocervical |
-| Puntaje de Predicción TxGNN | 99,81 % |
+| Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en Espana | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+---
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en el registro. Según el análisis de la predicción, tivozanib es un inhibidor de VEGFR-1/2/3, es decir, actúa sobre la vía que impulsa la formación de nuevos vasos sanguíneos (angiogénesis) en los tumores.
+## Por qué es Razonable esta Predicción?
 
-En cáncer de cuello uterino la angiogénesis tumoral es una diana validada: la terapia anti-VEGF (bevacizumab) se usa en enfermedad avanzada. Por eso inhibir VEGFR es biológicamente plausible en el carcinoma endocervical.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal. Según la información farmacológica compilada, tivozanib inhibe con potencia similar los tres receptores de VEGF con actividad tirosina quinasa: VEGFR-1 (FLT1), VEGFR-2 (KDR) y VEGFR-3 (FLT4). Su eficacia en el carcinoma renal avanzado está establecida: fue aprobado por la EMA en 2017 y por la FDA en marzo de 2021.
 
-Esta plausibilidad es solo **indirecta**. No hay datos mecanísticos específicos de tivozanib para esta enfermedad, la similitud con la indicación original no ha sido evaluada y el puntaje refleja cercanía en el grafo de conocimiento, no una señal clínica.
+El carcinoma renal y los carcinomas cervicales comparten una dependencia relevante de la angiogénesis mediada por VEGF. En cáncer cervical avanzado, otro fármaco antiangiogénico (bevacizumab) ha mostrado beneficio, lo que vuelve plausible, en teoría, la inhibición de la vía VEGFR.
+
+Sin embargo, el puntaje alto de TxGNN (0.998) es solo una predicción del modelo y probablemente refleja, en parte, la proximidad entre nodos de enfermedad en el grafo de conocimiento. No se recuperaron ensayos clínicos ni literatura que respalden el uso de tivozanib en esta indicación, y la similitud con la indicación original aún no ha sido evaluada.
+
+Otras predicciones del modelo (todas con nivel L5 y sin evidencia) incluyen adenocarcinomas del ligamento uterino y variantes raras de adenocarcinoma cervical, con puntajes entre 99.76% y 99.80%.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1171215001 | FOTIVDA 890 microgramos cápsulas duras | Cápsula dura | No consta en el registro |
-| 1171215002 | FOTIVDA 1340 microgramos cápsulas duras | Cápsula dura | No consta en el registro |
+| 1171215001 | FOTIVDA 890 microgramos cápsulas duras | Cápsula dura | No especificada en los datos compilados |
+| 1171215002 | FOTIVDA 1340 microgramos cápsulas duras | Cápsula dura | No especificada en los datos compilados |
 
-Titular de ambas autorizaciones: Recordati Netherlands B.V.
+Ambas autorizaciones están vigentes y pertenecen a Recordati Netherlands B.V.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas de VEGFR) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa de VEGFR) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+**Interacciones Farmacológicas** (7 registros en total; los 4 con nivel de gravedad asignado son):
+- **Mayor**: Fenobarbital y hierba de San Juan (hipérico). Requieren especial atención y, en general, deben evitarse o manejarse con precaución.
+- **Moderada**: Riociguat y acetato de medroxiprogesterona.
+
+Los otros 3 registros corresponden a las dianas farmacológicas de tivozanib (VEGFR-1, VEGFR-2 y VEGFR-3), no a interacciones con otros fármacos.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni publicaciones que apoyen tivozanib en carcinoma endocervical (nivel L5, etapa S0). Además, faltan los datos de seguridad del prospecto. Las otras nueve predicciones del modelo (adenocarcinomas de ligamento uterino y variantes raras de adenocarcinoma cervical) tienen el mismo nivel L5 y la misma recomendación Hold.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que la respalden. Aunque la inhibición de VEGFR es mecanísticamente plausible en cáncer cervical, no hay datos específicos de tivozanib en esta enfermedad.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un dato bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción detallado desde DrugBank.
-- Confirmar la indicación aprobada de FOTIVDA en España.
-- Buscar ensayos clínicos y literatura, incluidos estudios preclínicos, sobre inhibidores de VEGFR en cáncer de cuello uterino.
-- Evaluar la compatibilidad de la vía de administración (actualmente solo hay cápsula oral) y la similitud con la indicación original.
+- Búsqueda más amplia de literatura y registros de ensayos (incluyendo estudios preclínicos en modelos de cáncer cervical)
+- Datos detallados del mecanismo de acción y análisis de similitud con la indicación original
+- Revisión del prospecto de la AEMPS para advertencias y contraindicaciones (actualmente un vacío de datos bloqueante para el cribado de seguridad)
+- Evaluación de la viabilidad de ensayos dada la rareza de las histologías predichas
+- Evaluación de la compatibilidad de vía de administración (actualmente pendiente)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

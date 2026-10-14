@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midodrine
-parent: Solo predicción del modelo (L5)
-nav_order: 354
-evidence_level: L5
+parent: Evidencia alta (L1-L2)
+nav_order: 527
+evidence_level: L2
 indication_count: 10
 ---
 
 # Midodrine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,70 +29,82 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Midodrina: De Indicación No Registrada a Prionopatía Variablemente Sensible a Proteasas
+# Midodrina: De Hipotensión Ortostática a Trastorno Hipotensivo
 
 ## Resumen en Una Frase
 
-La midodrina es un profármaco cuyo metabolito activo, la desglimidodrina, es un agonista alfa-1 adrenérgico periférico. En la ficha de la AEMPS analizada no consta el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectiva para **prionopatía variablemente sensible a proteasas**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que es solo una predicción del modelo.
+Midodrina es un agonista adrenérgico alfa-1 de acción periférica, utilizado originalmente para el tratamiento de la hipotensión ortostática y otros trastornos de la regulación autonómica.
+El modelo TxGNN predice que podría ser efectivo para **trastorno hipotensivo**, con **1 ensayo clínico** y **19 publicaciones** que actualmente respaldan esta dirección. Cabe señalar que esta nueva indicación se solapa en gran medida con el uso ya conocido del fármaco.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de la AEMPS |
-| Nueva Indicación Predicha | Prionopatía variablemente sensible a proteasas |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L5 |
+| Indicación Original | Hipotensión ortostática, síndrome de taquicardia ortostática postural y atrofia multisistémica (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
+| Nueva Indicación Predicha | Trastorno hipotensivo |
+| Puntaje de Predicción TxGNN | 99,90 % |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados de mecanismo de acción en DrugBank. Según la información conocida, la midodrina se convierte por hidrólisis enzimática en desglimidodrina, que estimula selectivamente los receptores alfa-1 periféricos. Esto produce vasoconstricción arterial y venosa y aumenta la presión arterial.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, midodrina es un profármaco cuyo metabolito activo, la desglimidodrina, actúa como agonista alfa-1 adrenérgico, provocando vasoconstricción arteriolar y venosa y elevando la presión arterial.
 
-Este mecanismo **no tiene una relación plausible** con la prionopatía variablemente sensible a proteasas, una enfermedad neurodegenerativa por mal plegamiento de la proteína priónica. El agonismo alfa-1 periférico no actúa sobre el plegamiento proteico ni sobre la neurodegeneración, y la desglimidodrina apenas atraviesa la barrera hematoencefálica. El puntaje alto del modelo debe leerse como una señal computacional, no como un indicio biológico.
+La hipotensión ortostática y el trastorno hipotensivo comparten la misma fisiopatología de fondo: una presión arterial insuficiente por falta de tono vascular. Por ello, el mecanismo vasoconstrictor es directamente aplicable. Es importante señalar que esta indicación coincide en buena parte con el uso ya establecido, por lo que se interpreta más como una confirmación de la indicación conocida que como un reposicionamiento genuino.
+
+Una revisión clásica (McTavish y Goa, 1989) describe el uso de midodrina en la hipotensión ortostática y en hipotensiones secundarias a otras condiciones o tratamientos, lo que respalda la plausibilidad de la predicción.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT02893553](https://clinicaltrials.gov/study/NCT02893553) | Fase 2 | Completado | 21 | Efectos de normalizar la presión arterial sobre el flujo sanguíneo cerebral en personas hipotensas con lesión medular. Muestra pequeña; el título está truncado en la fuente, por lo que conviene verificar el agente utilizado. |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [2480881](https://pubmed.ncbi.nlm.nih.gov/2480881/) | 1989 | Revisión | Drugs | Propiedades farmacológicas y uso terapéutico de midodrina en hipotensión ortostática e hipotensiones secundarias |
+| [25644760](https://pubmed.ncbi.nlm.nih.gov/25644760/) | 2015 | ECA | Hepatology | Terlipresina más albúmina frente a midodrina y octreotida más albúmina en síndrome hepatorrenal |
+| [38205630](https://pubmed.ncbi.nlm.nih.gov/38205630/) | 2024 | Revisión (declaración científica) | Hypertension | Hipotensión ortostática en adultos con hipertensión: declaración de la American Heart Association |
+| [38123372](https://pubmed.ncbi.nlm.nih.gov/38123372/) | 2024 | Revisión | Revue Neurologique | Revisión y posicionamiento de expertos sobre hipotensión ortostática |
+| [41941194](https://pubmed.ncbi.nlm.nih.gov/41941194/) | 2026 | Revisión | JAMA Internal Medicine | Manejo de la hipotensión ortostática y su coexistencia con hipertensión supina |
+| [35029940](https://pubmed.ncbi.nlm.nih.gov/35029940/) | 2022 | Revisión | American Family Physician | Enfoque práctico de la hipotensión ortostática |
+| [31996627](https://pubmed.ncbi.nlm.nih.gov/31996627/) | 2020 | Revisión | Continuum | Manejo de la hipotensión ortostática, con énfasis en la forma neurógena |
+| [32979782](https://pubmed.ncbi.nlm.nih.gov/32979782/) | 2020 | Revisión | Autonomic Neuroscience | Tratamiento farmacológico de la hipotensión ortostática neurógena |
+| [28050656](https://pubmed.ncbi.nlm.nih.gov/28050656/) | 2017 | Consenso de expertos | Journal of Neurology | Recomendaciones para cribado, diagnóstico y tratamiento de la hipotensión ortostática neurógena e hipertensión supina asociada |
+| [42635998](https://pubmed.ncbi.nlm.nih.gov/42635998/) | 2026 | Revisión | JAMA | Revisión del síndrome de taquicardia ortostática postural (POTS) |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 65058 | GUTRON 5 mg COMPRIMIDOS (Cheplapharm Arzneimittel GmbH) | Comprimido | No disponible |
+| 65058 | GUTRON 5 mg COMPRIMIDOS (Cheplapharm Arzneimittel GmbH) | Comprimido | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): feocromocitoma (suprarrenal), paraganglioma simpático, cáncer de glándula suprarrenal, cáncer de duodeno, cáncer de intestino delgado, cáncer cardíaco, tirotoxicosis, hipertiroidismo y enfermedad de Graves.
+- **Interacciones farmacológicas**: se identificaron 81 interacciones conocidas. Entre las de nivel moderado destacan simpaticomiméticos y vasoconstrictores como epinefrina, efedrina, isometepteno, fentermina, dietilpropión, mazindol y sibutramina, además de bupropión, lorcaserina, trospio, rolapitant y fenilbutirato de glicerol. Entre las de nivel menor figuran ranitidina, cimetidina y metformina.
+- **Precauciones señaladas en la evaluación**: riesgo de hipertensión en decúbito supino, retención urinaria y bradicardia, además de la interacción con betabloqueantes y glucósidos cardíacos.
 
-## Otras Predicciones Relevantes del Mismo Paquete
-
-- **Trastorno hipotensivo (posición 4, puntaje 99.90%)**: es la única predicción con evidencia sustancial, con 9 ensayos clínicos y 19 publicaciones. Incluye estudios directos de midodrina en hipotensión posterior a anestesia espinal (NCT05548985, completado, n=58), hipotensión intradialítica (NCT03431194, completado, n=80) e insuficiencia cardíaca con hipotensión (NCT06405555, en reclutamiento). Estos datos respaldan el uso ya establecido del fármaco, así que es más una indicación en ficha técnica que un reposicionamiento real.
-- **Discrepancia de nivel**: el paquete le asigna L1 (Proceed with Guardrails), pero solo hay un ensayo de Fase 3 completado (NCT02307565, n=19). Con la regla de niveles, el nivel correspondería más bien a L2 y conviene revisarlo.
-- **Salvaguardas señaladas**: hipertensión en decúbito supino (advertencia destacada), bradicardia refleja, retención urinaria y precaución en insuficiencia cardíaca y renal.
-- **TDAH (posiciones 3 y 5)**: solo hay un vínculo noradrenérgico especulativo. El único ensayo (NCT05159687) evalúa atomoxetina en síncope vasovagal, no midodrina.
-- **Bloqueo y enfermedad del nodo sinoauricular (posiciones 6 y 10)**: no aportan beneficio esperado, y la bradicardia refleja de la midodrina es un riesgo.
-- **Restantes (posiciones 2, 7, 8 y 9)**: sin evidencia ni vínculo mecanístico.
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La predicción de prionopatía se basa solo en el modelo, sin ensayos, literatura ni vínculo mecanístico plausible.
+Existe un ensayo de Fase 2 completado y una amplia literatura de revisión que respaldan el uso de midodrina en estados hipotensivos, con un mecanismo alfa-1 agonista directamente coherente. Sin embargo, la indicación se solapa con el uso ya conocido, el ensayo es pequeño y no confirma el agente evaluado, y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Descartar esta indicación como candidata prioritaria, salvo que aparezca evidencia preclínica.
-- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada).
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Revisar el nivel de evidencia de la indicación de hipotensión, hoy L1, según las reglas de niveles.
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones) y el texto de la indicación aprobada.
+- Confirmar el agente utilizado en NCT02893553 y, si procede, disponer de ensayos con mayor tamaño muestral.
+- Obtener datos detallados del mecanismo de acción desde DrugBank.
+- Definir un plan de monitorización de la presión arterial en decúbito, la frecuencia cardíaca y la función urinaria, así como una revisión de las interacciones con otros vasoconstrictores, betabloqueantes y glucósidos cardíacos.
+
+**Nota sobre otras predicciones:** las demás indicaciones predichas (p. ej., prionopatía sensible a proteasa de forma variable, síndrome faciodigitogenital, trastorno por déficit de atención e hiperactividad, obesidad monogénica, bloqueo sinoauricular y enfermedad del nodo sinusal) no cuentan con ensayos clínicos ni con un vínculo mecanístico plausible, y se recomienda **Hold**. En el caso de las alteraciones del nodo sinusal, la posible bradicardia refleja de midodrina supone además una preocupación de seguridad.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

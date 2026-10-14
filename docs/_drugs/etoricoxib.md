@@ -2,7 +2,7 @@
 layout: default
 title: Etoricoxib
 parent: Solo predicción del modelo (L5)
-nav_order: 220
+nav_order: 319
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etoricoxib: De Inhibidor Selectivo de COX-2 a Trastorno de Migraña
+# Etoricoxib: De Indicación Original No Especificada a Migraña
 
 ## Resumen en Una Frase
 
-Etoricoxib es un inhibidor selectivo de la ciclooxigenasa-2 (COX-2) comercializado en España. Los datos recibidos no incluyen su indicación original aprobada.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno de migraña**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. Es una señal puramente computacional.
+Etoricoxib es un inhibidor selectivo de la COX-2 que se comercializa en España como antiinflamatorio y analgésico. Los datos compilados para este informe no incluyen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **migraña (trastorno migrañoso)**, pero **no hay ensayos clínicos** y solo **1 publicación** vinculada, una revisión exploratoria sin datos de eficacia específicos de etoricoxib.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones AEMPS vienen vacíos) |
-| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Migraña (trastorno migrañoso) |
+| Puntaje de Predicción TxGNN | 99,90 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información del análisis, etoricoxib es un inhibidor selectivo de COX-2, y la vía de las prostaglandinas participa en la neuroinflamación y en la sensibilización trigeminovascular que se asocian a la migraña.
+No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, etoricoxib es un inhibidor selectivo de la ciclooxigenasa-2 (COX-2; gen PTGS2), utilizado en artritis reumatoide, artrosis, lumbalgia crónica, espondilitis anquilosante, dolor agudo y gota. Mecanísticamente podría ser aplicable a la migraña.
 
-Esta relación es plausible, pero no está verificada. No se aportaron ensayos ni literatura sobre etoricoxib en migraña, por lo que el puntaje alto de TxGNN (99.90%) es solo una predicción. No se pudo evaluar la similitud con la indicación original, porque esta no está disponible.
+La inflamación neurogénica mediada por prostaglandinas y la sensibilización trigeminovascular contribuyen a la migraña, por lo que inhibir la COX-2 es biológicamente plausible. Un estudio preclínico en ganglios trigéminos de rata (PMID 29209105) examinó el efecto de AINE, incluido etoricoxib, sobre la liberación de CGRP y PGE2, lo que apoya de forma indirecta este mecanismo, aunque está vinculado a otra entidad (migraña con o sin aura, susceptibilidad).
 
-Como contexto, otras predicciones del mismo análisis tienen algo más de respaldo. Para **trastorno de cefalea** y **cefalalgia autonómica trigeminal** existen informes de casos de respuesta a etoricoxib o a otros inhibidores de COX-2 (por ejemplo, cefalea punzante primaria y cefaleas que responden a indometacina), aunque no hay ensayos controlados. Esos informes de casos no constituyen evidencia directa para la migraña.
+Para la migraña como tal, la única publicación vinculada es una revisión exploratoria sobre cefalea por ayuno en Ramadán, que no aporta datos de eficacia de etoricoxib. El puntaje tan alto del modelo es solo una predicción computacional.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [42841395](https://pubmed.ncbi.nlm.nih.gov/42841395/) | 2026 | Revisión exploratoria | Pain management | Revisa la cefalea atribuida al ayuno (p. ej., Ramadán); no ofrece datos de eficacia específicos de etoricoxib en migraña |
+
+---
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones. Los datos no incluyen el texto de la indicación aprobada.
+Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único, comprimidos recubiertos con película). Los textos de indicación aprobada no están disponibles.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 81890 | Etoricoxib Aurovitas 120 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada |
-| 81956 | Etoricoxib Combix 120 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada |
-| 81060 | Etoricoxib Apotex 120 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada |
-| 72076 | Exxiv 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada |
-| 80373 | Etoricoxib Viatris 60 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No especificada |
+| 64933 | EXXIV 120 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 72076 | EXXIV 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 80373 | Etoricoxib Viatris 60 mg EFG | Comprimido recubierto con película | No disponible |
+| 80262 | Etoricoxib Sandoz 60 mg EFG | Comprimido recubierto con película | No disponible |
+| 80673 | Torixib 30 mg EFG | Comprimido recubierto con película | No disponible |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: la consulta de interacciones se completó y solo devolvió la relación farmacológica con su diana, COX-2 (PTGS2), sin interacciones medicamentosas clínicas con nivel de gravedad asignado.
+- **Señales de seguridad en la literatura vinculada**:
+  - Hiperqueratemia: caso de hiperpotasemia potencialmente mortal y disfunción renal aguda con etoricoxib en un paciente tratado con telmisartán y dieta baja en sodio (rica en potasio) (PMID 21373319).
+  - Síndrome de vasoconstricción cerebral reversible posiblemente inducido por etoricoxib (PMID 25229174), relevante para cualquier uso en cefaleas.
+  - Los inhibidores de COX-2 se asocian a riesgo cardiovascular y de retención de líquidos.
 
-Como aviso adicional, el análisis del trastorno de cefalea señala un informe de síndrome de vasoconstricción cerebral reversible (SVCR) posiblemente inducido por etoricoxib. También recuerda que los inhibidores de COX-2 se asocian a retención de líquidos, hipertensión y riesgo cardiovascular. Estos puntos requieren revisión de seguridad antes de cualquier estudio en indicaciones neurológicas.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para migraña tiene un puntaje alto en TxGNN, pero no cuenta con ningún ensayo ni publicación que la respalde (nivel L5). Además, falta la información de seguridad de la ficha técnica de la AEMPS.
+Para migraña solo existe una predicción del modelo (nivel L5), sin ensayos clínicos y con una única revisión sin datos específicos del fármaco. Como contexto, la predicción de «trastorno de cefalea» (nivel L4) cuenta con series y casos clínicos con etoricoxib (cefalea punzante primaria, cefaleas sensibles a indometacina, cefalea tusígena secundaria), pero sin estudios controlados.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de la AEMPS (advertencias y contraindicaciones), ya que la falta de estos datos impide el cribado de seguridad.
-- Obtener el mecanismo de acción y la indicación original desde DrugBank.
-- Buscar ensayos clínicos o estudios controlados de etoricoxib en migraña.
-- Valorar si conviene priorizar la indicación de cefalea o cefalalgia autonómica trigeminal, que tiene informes de casos, con revisión previa de seguridad (SVCR y riesgo cardiovascular).
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Obtener del prospecto de la AEMPS las indicaciones aprobadas, advertencias y contraindicaciones.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Búsqueda de estudios clínicos específicos de etoricoxib en migraña (ensayos aleatorizados o revisiones sistemáticas).
+- Evaluar el riesgo cardiovascular, renal y cerebrovascular en la población con migraña antes de plantear un estudio.
+- Valorar con mayor prioridad las entidades de cefalea con evidencia de casos (cefalea primaria punzante, cefaleas sensibles a indometacina).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

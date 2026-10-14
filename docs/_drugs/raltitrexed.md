@@ -2,7 +2,7 @@
 layout: default
 title: Raltitrexed
 parent: Solo predicción del modelo (L5)
-nav_order: 453
+nav_order: 679
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Raltitrexed: De Indicación Original No Registrada a Colangitis Esclerosante
+# Raltitrexed: De Indicación Original No Especificada a Colangitis Esclerosante
 
 ## Resumen en Una Frase
 
-Raltitrexed es un antimetabolito (antifolato) inhibidor de la timidilato sintasa, comercializado en España como polvo para solución para perfusión (Tomudex). El Evidence Pack no registra su indicación original aprobada.
-El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
-
----
+Raltitrexed es un inhibidor de la timidilato sintasa (antifolato) que se utiliza en oncología, en concreto en cáncer colorrectal y mesotelioma maligno.
+El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de autorización disponibles |
+| Indicación Original | No disponible en la ficha de autorización de la AEMPS (el uso clínico conocido es cáncer colorrectal y mesotelioma maligno) |
 | Nueva Indicación Predicha | Colangitis esclerosante |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
@@ -50,84 +49,66 @@ El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante*
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según el análisis asociado, raltitrexed es un inhibidor de la timidilato sintasa (antifolato), que bloquea la síntesis de ADN en células que se dividen rápidamente.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, raltitrexed inhibe la timidilato sintasa (TYMS), enzima clave en la síntesis de ADN, y bloquea así la proliferación de células que se dividen rápidamente. Su eficacia se ha utilizado en cáncer colorrectal y mesotelioma maligno.
 
-Para la colangitis esclerosante, **no se identifica un mecanismo plausible**. Esta enfermedad es colestásica y fibroinflamatoria, y la inhibición de la timidilato sintasa no tiene un vínculo evidente con esa patología. Raltitrexed además puede elevar las transaminasas y causar hepatotoxicidad, lo que es una preocupación en una enfermedad hepática colestásica.
+Con los datos compilados, **no se identifica un vínculo mecanístico plausible** entre la inhibición de la timidilato sintasa y la patología colestásica, inmunomediada y fibroinflamatoria de la colangitis esclerosante. El puntaje elevado del modelo parece reflejar asociaciones del grafo de conocimiento y no evidencia específica del fármaco. Además, la elevación de transaminasas asociada al fármaco es una preocupación en una enfermedad hepatobiliar.
 
-El puntaje de 99.97% es solo una salida del modelo, sin respaldo en ensayos ni publicaciones. Por tanto, la predicción debe tratarse como una hipótesis sin corroborar.
+**Otras predicciones del modelo** (todas con nivel L5, sin ensayos ni literatura, decisión Hold):
 
-### Otras indicaciones predichas (todas L5, Hold)
-
-| # | Indicación predicha | Puntaje TxGNN | Comentario |
-|---|------|------|------|
-| 2 | Síndrome mielodisplásico | 99.97% | Efecto antiproliferativo concebible, pero especulativo. La mielosupresión es grave en pacientes que ya tienen citopenias |
-| 3–7 | Síndromes drepanocíticos (Hb E, beta-talasemia, Hb C, HPFH, Hb D) | 99.96% | Hipótesis no probada de inducción de hemoglobina fetal. El puntaje idéntico sugiere una señal compartida del grafo, no evidencia independiente |
-| 8 | Síndrome mielodisplásico no clasificado | 99.96% | Misma lógica y mismo riesgo que el síndrome mielodisplásico |
-| 9 | Citopenia refractaria de la infancia | 99.96% | Sin datos pediátricos. La mielosupresión es una preocupación mayor en niños con fallo medular |
-| 10 | Deleción parcial del brazo largo del cromosoma 5 | 99.95% | Equivale al SMD con del(5q), que ya cuenta con terapia dirigida establecida |
-
----
+| Enfermedad predicha | Puntaje TxGNN | Comentario |
+|------|------|------|
+| Síndrome mielodisplásico | 99.97% | Racional teórico como antimetabolito, pero la mielosupresión es una preocupación importante en pacientes con citopenias |
+| Síndrome mielodisplásico no clasificado | 99.96% | Mismo racional y misma preocupación de seguridad |
+| Síndromes de células falciformes (Hb E, beta-talasemia, Hb C, Hb D, persistencia hereditaria de Hb fetal) | 99.96% | Racional especulativo de inducción de hemoglobina fetal, análogo a la hidroxiurea; probablemente refleja agrupación por clase de enfermedad |
+| Citopenia refractaria de la infancia | 99.96% | Un antifolato mielosupresor es mecanísticamente contraproducente |
+| Deleción parcial del brazo largo del cromosoma 5 | 99.95% | Sin vínculo con la inhibición de la timidilato sintasa; el tratamiento establecido en del(5q) es lenalidomida |
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
-
----
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61452 | TOMUDEX 2 MG POLVO PARA SOLUCION PARA PERFUSION (Hospira Invicta S.A.) | Polvo para solución para perfusión | No consta en los datos disponibles |
-
----
+| 61452 | TOMUDEX 2 MG POLVO PARA SOLUCIÓN PARA PERFUSIÓN (Hospira Invicta S.A.) | Polvo para solución para perfusión | No especificada en los datos compilados |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, antifolato inhibidor de la timidilato sintasa) |
-| Riesgo de Mielosupresión | Alto (la mielosupresión marcada es una toxicidad conocida) |
+| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, antifolato, inhibidor de la timidilato sintasa) |
+| Riesgo de Mielosupresión | Alto (se describen neutropenia, anemia y trombocitopenia) |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial, transaminasas y función hepática, función renal |
+| Items de Monitoreo | Hemograma completo, función hepática (transaminasas) y función renal |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
----
 
 ## Consideraciones de Seguridad
 
-- **Hepatotoxicidad**: raltitrexed puede elevar las transaminasas, lo que es especialmente relevante en una enfermedad colestásica como la colangitis esclerosante.
-- **Mielosupresión**: es un riesgo importante y desfavorable en las indicaciones hematológicas predichas (síndromes mielodisplásicos, síndromes drepanocíticos, citopenia refractaria de la infancia).
-- **Interacciones farmacológicas**: no se encontraron registros en la consulta realizada.
+- **Interacciones Farmacológicas**: la consulta se completó y solo registra la interacción farmacológica con su diana, la timidilato sintasa (TYMS), sin nivel de gravedad asignado. No se identificaron interacciones con otros fármacos.
+- **Preocupaciones identificadas en el análisis**: elevación de transaminasas (relevante en enfermedad hepatobiliar) y mielosupresión (relevante en síndromes mielodisplásicos y hemoglobinopatías).
 
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos ni publicaciones, y no se identifica un mecanismo plausible. El perfil de toxicidad (hepatotoxicidad y mielosupresión) es desfavorable para las indicaciones predichas.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible. Además, el perfil de hepatotoxicidad y mielosupresión del fármaco es desfavorable para las indicaciones predichas.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS para completar advertencias y contraindicaciones, y confirmar la indicación aprobada.
-- Obtener datos del mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
-- Buscar evidencia preclínica o clínica que conecte la inhibición de la timidilato sintasa con la colangitis esclerosante.
-- Evaluar la seguridad hepática y hematológica antes de considerar cualquier estudio.
-
-*Estos resultados son solo para investigación y no constituyen consejo médico. Todo candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), imprescindible para el cribado de seguridad
+- Completar los datos del mecanismo de acción desde DrugBank
+- Confirmar la indicación aprobada en la autorización de la AEMPS
+- Evidencia preclínica o clínica que respalde un vínculo entre la inhibición de la timidilato sintasa y la colangitis esclerosante
+- Evaluar la compatibilidad de la vía de administración (actualmente solo perfusión intravenosa)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

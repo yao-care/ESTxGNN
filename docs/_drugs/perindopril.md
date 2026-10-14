@@ -2,7 +2,7 @@
 layout: default
 title: Perindopril
 parent: Solo predicción del modelo (L5)
-nav_order: 418
+nav_order: 627
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Perindopril: De Indicación Original No Registrada a Enfermedad Renal Hipertensiva Maligna
+# Perindopril: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Perindopril es un inhibidor de la enzima convertidora de angiotensina (IECA) comercializado en España. Los datos recibidos no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**, pero actualmente hay **0 ensayos clínicos** y **1 publicación** que no aborda el fármaco ni la enfermedad. La predicción se apoya solo en el modelo.
+Perindopril es un inhibidor de la enzima convertidora de angiotensina (IECA), utilizado originalmente para el tratamiento de la hipertensión arterial.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**,
+pero actualmente no hay ensayos clínicos registrados y solo se dispone de **1 publicación** recuperada, que no aborda directamente esta indicación, por lo que la predicción se apoya únicamente en el modelo computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | Hipertensión arterial (trastorno hipertensivo) |
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99,77% |
+| Puntaje de Predicción TxGNN | 99.77% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 13 |
@@ -50,11 +51,11 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Perindopril es un inhibidor de la ECA, es decir, bloquea el sistema renina-angiotensina-aldosterona (SRAA). No se pudo contrastar esta información con la indicación autorizada, porque ese dato tampoco está disponible.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, perindopril es un IECA, su eficacia en hipertensión está establecida, y mecanísticamente podría ser aplicable a la nefropatía hipertensiva maligna.
 
-La hipertensión maligna con afectación renal se asocia a una activación del SRAA que contribuye al daño vascular. Por eso el bloqueo del SRAA es biológicamente plausible en este contexto. Sin embargo, esto es solo una hipótesis mecanística y no está confirmado por estudios.
+La inhibición de la ECA reduce la lesión vascular mediada por angiotensina II y la hipertensión glomerular, lo que es biológicamente plausible en la afectación renal de la hipertensión maligna. Sin embargo, se trata más bien de una extensión de la indicación antihipertensiva existente que de una señal de reposicionamiento realmente distinta.
 
-El puntaje de TxGNN (99,77%) es una predicción del modelo y no equivale a evidencia clínica. La única publicación recuperada no incluye datos sobre perindopril ni sobre hipertensión maligna.
+Conviene tener cautela: el puntaje elevado de TxGNN (0,998) es solo una predicción computacional. La única publicación recuperada (PMID 36382821) trata sobre la función del riñón solitario tras nefrectomía por cáncer renal y no menciona perindopril ni la enfermedad renal hipertensiva maligna.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -64,40 +65,46 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36382821](https://pubmed.ncbi.nlm.nih.gov/36382821/) | 2022 | Cohorte | Urologiia (Moscú) | Estudia el estado funcional del riñón único tras nefrectomía por cáncer renal. No aborda perindopril ni hipertensión maligna, por lo que no respalda la predicción. |
+| [36382821](https://pubmed.ncbi.nlm.nih.gov/36382821/) | 2022 | Estudio clínico/observacional (sin clasificar con certeza) | Urologiia | Función del riñón solitario tras nefrectomía por cáncer renal; no aborda perindopril ni la nueva indicación predicha |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 68827 | PERINDOPRIL KRKA 4 mg COMPRIMIDOS EFG | Comprimido | No especificada en el registro |
-| 72240 | PERINDOPRIL TECNIGEN 4 mg COMPRIMIDOS EFG | Comprimido | No especificada en el registro |
-| 74661 | PERINDOPRIL MARIPER 2 MG COMPRIMIDOS | Comprimido | No especificada en el registro |
-| 71941 | COVERSORAL 10 mg COMPRIMIDOS BUCODISPERSABLES | Comprimido bucodispersable | No especificada en el registro |
-| 58636 | COVERSYL 4 mg COMPRIMIDOS | Comprimido | No especificada en el registro |
+| 68827 | PERINDOPRIL KRKA 4 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 72240 | PERINDOPRIL TECNIGEN 4 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 74661 | PERINDOPRIL MARIPER 2 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
+| 71941 | COVERSORAL 10 mg COMPRIMIDOS BUCODISPERSABLES | Comprimido bucodispersable | No disponible en los datos |
+| 58636 | COVERSYL 4 mg COMPRIMIDOS | Comprimido | No disponible en los datos |
 
-Se muestran 5 de las 13 autorizaciones registradas.
+Se muestran 5 de las 13 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / condiciones de riesgo (según relaciones del grafo de conocimiento, no texto del prospecto)**: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, angioedema (incluido el hereditario, el adquirido y el inducido por bloqueadores del sistema renina-angiotensina-aldosterona), neutropenia, agranulocitosis, trastorno hipotensivo, enfermedad del tejido conectivo, enfermedades óseas y del cartílago, obstrucción de la arteria renal y piouréter.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales. Las de nivel **mayor** incluyen **citrato de potasio** y **bicarbonato de potasio** (riesgo de hiperpotasemia). Entre las de nivel moderado figuran corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), antidiabéticos (metformina, alogliptina, saxagliptina, canagliflozina, dapagliflozina, empagliflozina, clorpropamida), ácido acetilsalicílico, morfina, bupropión, dronabinol, ácido picosulfúrico y polietilenglicol con electrolitos.
+- **Consideración específica de la nueva indicación**: en la hipertensión renovascular, los IECA conllevan riesgo de deterioro agudo de la función renal en estenosis bilateral de arteria renal o de riñón único, lo cual es especialmente relevante.
+- Consultar el prospecto de la AEMPS para las advertencias y contraindicaciones oficiales, que no figuran en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene nivel de evidencia L5: no hay ensayos clínicos y la única publicación recuperada no guarda relación con el fármaco ni con la enfermedad. Además, faltan la indicación original y el mecanismo de acción, y no hay información de seguridad con la que avanzar.
+La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos y la única publicación recuperada no es pertinente. Además, existen riesgos renales relevantes con los IECA en ciertos contextos de enfermedad renovascular.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS para obtener la indicación autorizada, las advertencias y las contraindicaciones (bloqueante para el cribado de seguridad).
-- Obtener los datos de mecanismo de acción desde DrugBank.
-- Realizar una búsqueda dirigida de literatura sobre IECA en hipertensión maligna con afectación renal.
-- Tener en cuenta que los IECA pueden precipitar un deterioro agudo de la función renal en estenosis bilateral de la arteria renal o en riñón único con estenosis. Este punto exige revisión de seguridad antes de cualquier avance.
+- Obtener y analizar las advertencias y contraindicaciones del prospecto de la AEMPS (dato bloqueante para el cribado de seguridad).
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Realizar una búsqueda bibliográfica dirigida sobre IECA en nefropatía hipertensiva maligna y registros de ensayos.
+- Evaluar el riesgo renal en estenosis de arteria renal y la monitorización de potasio y función renal.
 
-**Otras predicciones del modelo:** hipertensión renovascular maligna, dos formas de hipertensión pulmonar y síndrome de Braddock. Todas tienen nivel L5, sin ensayos ni literatura de apoyo, y se mantienen en Hold. La literatura recuperada para hipertensión pulmonar por enfermedad pulmonar o hipoxia parece corresponder a coincidencias por la palabra "hipoxia" y no se cuenta como evidencia.
+### Otras predicciones de menor prioridad (para referencia)
 
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- **Hipertensión renovascular maligna** (99.77%, L5, Hold): plausible por dependencia del sistema renina-angiotensina, sin ensayos ni literatura.
+- **Hipertensión pulmonar de mecanismo multifactorial incierto** (99.75%, L5, Hold): vínculo débil e inespecífico; los IECA no son terapia recomendada.
+- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (99.75%, L4, pregunta de investigación): solo datos preclínicos en ratas hipóxicas (PMID 11282121 y 10602319), sin ensayos en humanos.
+- **Síndrome de Braddock** (99.66%, L5, Hold): sin fundamento mecanístico identificable.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Deferiprone
 parent: Evidencia moderada (L3-L4)
-nav_order: 163
+nav_order: 230
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,32 +29,33 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Deferiprona: De Indicación Original No Registrada a Porfiria Hepática
+# Deferiprona: De Hemosiderosis y Talasemia a Porfiria Hepática
 
 ## Resumen en Una Frase
 
-La deferiprona es un quelante de hierro comercializado en España como Ferriprox (comprimidos y solución oral). El registro disponible no incluye el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectiva para **porfiria hepática**, pero solo la respaldan **2 publicaciones preclínicas en ratón** y **ningún ensayo clínico**.
+Deferiprona es un quelante oral de hierro, utilizado originalmente para la sobrecarga de hierro asociada a hemosiderosis y a talasemia beta.
+El modelo TxGNN predice que podría ser efectivo para **porfiria hepática**,
+con **0 ensayos clínicos** y **2 publicaciones preclínicas** (modelos murinos) que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el registro (los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | Hemosiderosis y talasemia beta (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Porfiria hepática |
 | Puntaje de Predicción TxGNN | 99.20% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en Espana | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, la deferiprona es un quelante de hierro de administración oral. Mecanísticamente podría ser aplicable a la porfiria hepática porque el hierro interviene en la acumulación de porfirinas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, deferiprona es un quelante oral de hierro, su eficacia en la sobrecarga de hierro por talasemia está establecida, y mecanísticamente podría ser aplicable a porfirias en las que el hierro participa en la patología.
 
-La hipótesis es que quelar el hierro reduciría la acumulación de porfirinas dependiente del hierro y el daño oxidativo asociado. Dos estudios en ratón respaldan esta idea: uno en un modelo de porfiria eritropoyética congénita y otro en un modelo de uroporfiria, similar a la porfiria cutánea tardía. No hay datos en humanos.
+En ciertas porfirias, como la porfiria cutánea tarda, el exceso de hierro hepático y la inhibición oxidativa mediada por hierro de la uroporfirinógeno descarboxilasa son factores clave. Reducir el hierro mediante quelación es, por tanto, plausible. La flebotomía, que actúa probablemente por depleción de hierro hepático, es un tratamiento eficaz en esta enfermedad.
 
-No se pudo comparar con la indicación original porque el registro no la incluye. Antes de clasificar este caso como reposicionamiento, conviene verificar en la ficha técnica si la deferiprona ya tiene un uso autorizado relacionado con la sobrecarga de hierro.
+Hay que ser prudente: la evidencia proviene solo de modelos animales (un modelo murino de uroporfiria y un modelo de porfiria eritropoyética congénita, esta última un subtipo relacionado pero distinto). No se aportaron ensayos en humanos, por lo que la evidencia es indirecta.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -64,35 +65,38 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclínico (modelo murino) | Blood | Según el título, la quelación de hierro corrige la anemia hemolítica y la fotosensibilidad cutánea en un modelo de porfiria eritropoyética congénita. El extracto disponible no confirma que el quelante usado fuera deferiprona. |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclínico (modelo murino) | Hepatology | Compara la quelación con deferiprona (L1) frente a dietas deficientes en hierro sobre la acumulación de uroporfirina hepática en ratones Hfe-/- alimentados con ALA (modelo de porfiria cutánea tardía). El extracto disponible está truncado y no incluye los resultados. |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclínico (modelo animal) | Blood | La quelación de hierro mejoró la anemia hemolítica y la fotosensibilidad cutánea en un modelo de porfiria eritropoyética congénita |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclínico (modelo murino) | Hepatology | Comparó la quelación con deferiprona frente a dietas deficientes en hierro sobre la acumulación hepática de uroporfirina en ratones Hfe-/- con modelo de porfiria cutánea tarda |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 99108001 | FERRIPROX 500 mg comprimidos con cubierta pelicular | Comprimido recubierto | No consta en el registro |
-| 99108003 | FERRIPROX 100 mg/ml solución oral | Solución oral | No consta en el registro |
-
-Ambas autorizaciones pertenecen a Chiesi Farmaceutici S.P.A.
+| 99108001 | FERRIPROX 500 mg comprimidos con cubierta pelicular | Comprimido recubierto | No disponible en los datos compilados |
+| 99108003 | FERRIPROX 100 mg/ml solución oral | Solución oral | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales; las principales listadas son de nivel moderado. Corresponden sobre todo a productos con cationes polivalentes que pueden quelarse con deferiprona y reducir su absorción:
+  - Antiácidos y sales de calcio: fosfato, acetato, carbonato, citrato, gluconato, lactato y glubionato de calcio.
+  - Sales de magnesio y aluminio: óxido, carbonato, cloruro, citrato, gluconato, hidróxido y sulfato de magnesio; hidróxido de aluminio; magaldrato.
+  - Otros: hierro, caolín, attapulgita y sucralfato.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo un puntaje del grafo de conocimiento, respaldado por dos estudios preclínicos en ratón, sin datos en humanos y sin información de seguridad disponible. Con este nivel de evidencia (L4) no se justifica avanzar todavía.
+La predicción tiene un puntaje alto, pero la evidencia se limita a estudios preclínicos en modelos animales, sin ensayos en humanos (nivel L4). Tampoco se dispone de datos de seguridad de ficha técnica, por lo que se mantiene como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de AEMPS (advertencias y contraindicaciones), un requisito bloqueante antes de cualquier evaluación de seguridad.
-- Confirmar la indicación autorizada en la ficha técnica y obtener el mecanismo de acción desde DrugBank.
-- Buscar estudios en humanos (series de casos o ensayos) de deferiprona en porfirias.
-- Completar el texto de estudio de los resultados del PMID 17854053 y confirmar qué quelante se usó en el PMID 32678895.
-- Considerar la talasemia beta (L4), que tiene el mecanismo más directo (quelación del hierro transfusional) entre las demás predicciones. Las otras siete predicciones (L5) tienen puntajes similares pero ninguna evidencia.
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción.
+- Aclarar el subtipo de porfiria con relevancia (cutánea tarda, eritropoyética congénita u otra) y su dependencia del hierro.
+- Estudios en humanos (series de casos o ensayo piloto) que apoyen la eficacia y la seguridad en porfiria.
+- Plan de manejo de las interacciones con antiácidos y suplementos minerales.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

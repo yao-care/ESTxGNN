@@ -2,7 +2,7 @@
 layout: default
 title: Ozanimod
 parent: Evidencia moderada (L3-L4)
-nav_order: 400
+nav_order: 600
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,78 +29,84 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Ozanimod: De Esclerosis Múltiple Recurrente a Esclerosis Múltiple Recurrente Progresiva
+# Ozanimod: De Esclerosis Múltiple a Esclerosis Múltiple Progresiva Recidivante
 
 ## Resumen en Una Frase
 
-Ozanimod es un modulador de los receptores de esfingosina-1-fosfato (S1P), utilizado en esclerosis múltiple recurrente. Los datos suministrados no incluyen la indicación original, así que este dato procede del conocimiento de clase.
-El modelo TxGNN predice que podría ser efectivo para **esclerosis múltiple recurrente progresiva**, pero la evidencia directa es escasa: hay **8 ensayos clínicos** asociados (solo **1** de Fase 3 con valor indirecto) y **ninguna publicación** disponible.
+Ozanimod es un modulador del receptor de esfingosina 1-fosfato (S1P), originalmente utilizado para el tratamiento de la esclerosis múltiple.
+El modelo TxGNN predice que podría ser efectivo para la **esclerosis múltiple progresiva recidivante**,
+pero actualmente **no hay ensayos clínicos registrados** y las **18 publicaciones** identificadas son en su mayoría revisiones generales, sin evidencia directa en esta población.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Nueva Indicación Predicha | Esclerosis múltiple recurrente progresiva |
+| Indicación Original | Esclerosis múltiple (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Esclerosis múltiple progresiva recidivante |
 | Puntaje de Predicción TxGNN | 99,34 % |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según el conocimiento de clase, ozanimod modula los receptores S1P 1 y 5. Retiene los linfocitos en los ganglios linfáticos y reduce la entrada de linfocitos autorreactivos al sistema nervioso central. Este es el mecanismo que respalda su uso en esclerosis múltiple (EM) recurrente.
+Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según el conocimiento farmacológico general, ozanimod es un modulador selectivo de los receptores S1P1 y S1P5. La activación de S1P1 provoca la internalización del receptor en los linfocitos, lo que impide su salida de los ganglios linfáticos y reduce la infiltración de linfocitos autorreactivos en el sistema nervioso central. S1P5 se expresa en oligodendrocitos y otras células del SNC, por lo que es plausible un efecto directo (neuroprotección, remielinización).
 
-"EM recurrente progresiva" es una etiqueta antigua. La clasificación actual la considera EM progresiva con brotes superpuestos. Por eso, el beneficio esperable vendría solo del componente inflamatorio (menos brotes), no de un efecto sobre la progresión sin brotes.
+La indicación original (formas recidivantes de esclerosis múltiple, incluido el síndrome clínicamente aislado, la forma remitente-recidivante y la secundaria progresiva activa) y la nueva indicación predicha pertenecen a la misma enfermedad. Por ello, la predicción es una extensión biológicamente coherente de la indicación existente y no un mecanismo nuevo. El componente inflamatorio de las formas progresivas podría responder a este mecanismo.
 
-El puntaje alto de TxGNN (0,993) es una predicción computacional y **no cuenta como evidencia clínica**.
+Conviene interpretar con cautela el puntaje de 99,34 %: probablemente refleja la cercanía de este nodo de enfermedad con la indicación aprobada en el grafo de conocimiento, y no constituye evidencia independiente de eficacia. No hay evidencia directa en enfermedad progresiva no activa.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02576717](https://clinicaltrials.gov/study/NCT02576717) | Fase 3 | Completado | 2494 | Ensayo aleatorizado, doble ciego, con control activo, de RPC1063 (ozanimod) en EM recurrente. Es la única evidencia aleatorizada del conjunto y es indirecta para este fenotipo. |
-| [NCT06396039](https://clinicaltrials.gov/study/NCT06396039) | Fase 4 | Activo, no recluta | 84 | Estudio abierto de un solo brazo sobre efectividad y seguridad de ozanimod oral en adultos chinos con EM recurrente. No tiene comparador. |
-| [NCT05605782](https://clinicaltrials.gov/study/NCT05605782) | N/A | Activo, no recluta | 9000 | ORION: estudio observacional poscomercialización de seguridad a largo plazo de ozanimod. No aporta datos de eficacia. |
-| [NCT05828901](https://clinicaltrials.gov/study/NCT05828901) | N/A | Reclutando | 60 | Estudio observacional de actividad de la enfermedad y riesgo de rebote con moduladores S1P. Es de clase, no específico de ozanimod. |
-| [NCT03535298](https://clinicaltrials.gov/study/NCT03535298) | Fase 4 | Activo, no recluta | 800 | DELIVER-MS: compara estrategias de tratamiento temprano intensivo y escalonado. No se confirma que ozanimod sea un brazo. Vínculo débil. |
-| [NCT03500328](https://clinicaltrials.gov/study/NCT03500328) | N/A | Activo, no recluta | 900 | TREAT-MS: compara terapia temprana agresiva y escalonada. Vínculo débil con ozanimod. |
-| [NCT04676204](https://clinicaltrials.gov/study/NCT04676204) | N/A | Inscripción por invitación | 323 | STATURE: estudio observacional de carga del tratamiento y adherencia a DMT orales, entre ellos ozanimod. No evalúa eficacia. |
-
-Se excluyó NCT05688436, un registro de embarazo de otro fármaco (diroximima fumarato), porque no guarda relación con ozanimod.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Se muestran las publicaciones más relevantes (prioridad: metaanálisis y revisiones directamente relacionadas con ozanimod o la esclerosis múltiple progresiva).
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [39254048](https://pubmed.ncbi.nlm.nih.gov/39254048/) | 2024 | Metaanálisis en red | Cochrane Database Syst Rev | Compara inmunomoduladores e inmunosupresores en EM progresiva; directamente relevante, pero el resumen disponible no indica si se incluyó ozanimod ni si mostró beneficio |
+| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | Metaanálisis en red | Cochrane Database Syst Rev | Compara tratamientos en EM remitente-recidivante; población distinta de la diana |
+| [32385738](https://pubmed.ncbi.nlm.nih.gov/32385738/) | 2020 | Revisión | Drugs | Resumen de la primera aprobación: la FDA aprobó ozanimod en 2020 para formas recidivantes de EM, incluida la secundaria progresiva activa |
+| [33287177](https://pubmed.ncbi.nlm.nih.gov/33287177/) | 2020 | Revisión | Neurology International | Revisión de eficacia y efectos secundarios de ozanimod en formas recidivantes de EM |
+| [31598138](https://pubmed.ncbi.nlm.nih.gov/31598138/) | 2019 | Revisión | Ther Adv Neurol Disord | Avances terapéuticos y perspectivas futuras en EM progresiva |
+| [33797705](https://pubmed.ncbi.nlm.nih.gov/33797705/) | 2021 | Revisión | CNS Drugs | Moduladores del receptor S1P en esclerosis múltiple |
+| [36946625](https://pubmed.ncbi.nlm.nih.gov/36946625/) | 2023 | Revisión | Expert Opin Pharmacother | Actualización sobre moduladores S1PR en EM recidivante |
+| [38162670](https://pubmed.ncbi.nlm.nih.gov/38162670/) | 2023 | Revisión | Front Immunol | Terapias modificadoras con biodisponibilidad en el SNC; las terapias periféricas tienen eficacia limitada en formas progresivas |
+| [37638037](https://pubmed.ncbi.nlm.nih.gov/37638037/) | 2023 | Preclínico | Front Immunol | El modulador S1PR-1/5 RP-101074 muestra efectos beneficiosos en un modelo de degeneración del SNC |
+| [41919069](https://pubmed.ncbi.nlm.nih.gov/41919069/) | 2026 | Estudio observacional | Ther Adv Neurol Disord | Efectividad comparada de anti-CD20 y moduladores S1P en EM de inicio tardío (registro MSBase) |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1201442002 | ZEPOSIA 0,92 MG CÁPSULAS DURAS | Cápsula dura |
-| 1201442001 | ZEPOSIA 0,23 MG/0,46 MG CÁPSULAS DURAS | Cápsula dura |
-
-Titular: Bristol-Myers Squibb Pharma EEIG. Los registros no incluyen el texto de la indicación aprobada.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1201442002 | ZEPOSIA 0,92 MG CÁPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
+| 1201442001 | ZEPOSIA 0,23 MG/0,46 MG CÁPSULAS DURAS | Cápsula dura | Texto de indicación no disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de apnea del sueño (obstructiva y otras formas), síndrome de hipoventilación central congénita, ictus y trastornos cerebrovasculares, infarto cerebral, ataque isquémico transitorio, insuficiencia vertebrobasilar, infarto de miocardio, trombosis coronaria, síndrome coronario intermedio, insuficiencia cardíaca congestiva, síndrome del seno enfermo (incluida la forma familiar), bloqueo auriculoventricular, bloqueo sinoauricular y hemoglobinopatías.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total; se muestran las principales.
+  - Gravedad **mayor**: isometepteno, famotidina, hidrocortisona, bupropión, triamcinolona, morfina, lorcaserina, betametasona, budesonida, claritromicina, dietilpropión, dolasetrón, palonosetrón y fentermina.
+  - Gravedad **moderada**: ranitidina, epinefrina, loperamida, cimetidina, ácido picosulfúrico y polietilenglicol (3350 con electrolitos).
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El fármaco ya está comercializado en España y su mecanismo es plausible para el componente inflamatorio de la EM. Sin embargo, no hay evidencia directa en el fenotipo predicho: el único ensayo aleatorizado es en EM recurrente y no hay literatura. La prediccion de TxGNN por sí sola no basta.
+La predicción se apoya solo en el modelo y en literatura general, sin ensayos clínicos específicos para esta población. Además, el puntaje elevado probablemente refleja la proximidad con la indicación ya aprobada y no eficacia independiente. Tampoco se dispone del texto de seguridad del prospecto, que impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de la AEMPS las advertencias y contraindicaciones (vacío bloqueante para el cribado de seguridad).
-- Completar el mecanismo de acción desde DrugBank.
-- Confirmar si NCT02576717 incluyó pacientes con EM recurrente progresiva y revisar sus resultados publicados.
-- Hacer una búsqueda de literatura específica sobre ozanimod en EM progresiva con brotes.
-- Definir criterios de selección de pacientes limitados a enfermedad con actividad inflamatoria (brotes).
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
+- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones y texto de indicación aprobada).
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Revisar el metaanálisis Cochrane sobre EM progresiva (PMID 39254048) para verificar si incluye ozanimod y qué resultados muestra.
+- Buscar ensayos clínicos en formas progresivas, en particular en enfermedad no activa.
+- Evaluar el perfil cardiovascular y respiratorio frente a las contraindicaciones del grafo de conocimiento, así como las interacciones de gravedad mayor.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

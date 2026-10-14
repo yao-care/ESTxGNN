@@ -2,7 +2,7 @@
 layout: default
 title: Safinamide
 parent: Solo predicción del modelo (L5)
-nav_order: 481
+nav_order: 721
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,15 +33,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Safinamida se utiliza como tratamiento adyuvante en la enfermedad de Parkinson con episodios "off". El modelo TxGNN predice que podría ser efectiva para la **encefalitis subaguda de Rasmussen**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
-
----
+Safinamida es un inhibidor de la monoaminooxidasa B (MAO-B), utilizado originalmente para el tratamiento de la enfermedad de Parkinson.
+El modelo TxGNN predice que podría ser efectivo para la **encefalitis subaguda de Rasmussen**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson (adyuvante a agonistas dopaminérgicos o levodopa en pacientes con episodios "off"). Los textos de indicación de las autorizaciones de AEMPS vienen vacíos; este dato procede de la base farmacológica consultada. |
+| Indicación Original | Enfermedad de Parkinson (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 99.63% |
 | Nivel de Evidencia | L5 |
@@ -49,72 +49,53 @@ Safinamida se utiliza como tratamiento adyuvante en la enfermedad de Parkinson c
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos de DrugBank no incluyen una descripción detallada del mecanismo de acción. La base farmacológica sí indica que safinamida es un inhibidor de la monoamino oxidasa B (MAO-B), con una selectividad superior a 800 veces frente a MAO-A. Por farmacología general, no respaldada por los datos aportados, también se le atribuye bloqueo de canales de sodio dependientes de voltaje y reducción de la liberación de glutamato.
+Los datos compilados para este informe no incluyen el mecanismo de acción original del fármaco. Según la información farmacológica conocida, safinamida es un inhibidor reversible y selectivo de la MAO-B (más de 800 veces más selectivo para MAO-B que para MAO-A). Se utiliza como tratamiento adyuvante en pacientes con Parkinson que presentan episodios "off". Además, se le atribuyen el bloqueo de canales de sodio dependientes de voltaje y la reducción de la liberación de glutamato.
 
-La encefalitis de Rasmussen es una encefalitis unilateral de origen inmunomediado, con convulsiones focales refractarias. La excitotoxicidad por glutamato se propone como uno de los factores contribuyentes. Por ello, un efecto de safinamida sobre las convulsiones o la excitotoxicidad es concebible desde el punto de vista teórico.
+Estas propiedades podrían relacionarse de forma plausible con las crisis epilépticas y los rasgos neuroinflamatorios de la encefalitis de Rasmussen. Sin embargo, esta enfermedad está impulsada principalmente por una inflamación autoinmune mediada por linfocitos T, y no se ha demostrado ningún vínculo directo entre ese mecanismo y safinamida.
 
-Aun así, ese beneficio probablemente se limitaría al control sintomático. No actuaría sobre la inflamación subyacente mediada por linfocitos T. No existe ningún estudio específico, y el puntaje de 0.996 es solo una predicción del modelo, sin corroboración clínica.
-
-TxGNN también predijo otras dos indicaciones, ambas con nivel L5 y sin evidencia:
-- **Mielitis** (99.46%): no hay una vinculación mecanística respaldada por los datos.
-- **Neurodegeneración asociada a PLA2G6** (99.22%): el parkinsonismo y la distonía de estadios avanzados hacen plausible un apoyo sintomático dopaminérgico. No corregiría el defecto de fondo.
-
----
+Por tanto, la predicción procede únicamente del grafo de conocimiento y el razonamiento mecanístico es especulativo. No se dispone de evidencia clínica ni bibliográfica que lo sustente.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
+
+Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). El texto de indicación aprobada no figura en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
-| 91074 | Safinamida Teva 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Teva Pharma S.L.U. |
-| 114984008IP1 | Xadago 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | Zambon S.P.A. |
-| 90309 | Safinamida Stada 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
-| 114984003 | Xadago 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | Zambon S.P.A. |
-| 90156 | Safinamida Aurovitas 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aurovitas Spain, S.A.U. |
-
-Se muestran 5 de las 20 autorizaciones. Los textos de indicación aprobada no figuran en los datos recibidos, por lo que se sustituyó esa columna por el titular.
-
----
+| 91074 | Safinamida Teva 100 mg EFG | Comprimido recubierto con película | Teva Pharma S.L.U. |
+| 114984008IP1 | Xadago 100 mg | Comprimido recubierto con película | Zambon S.P.A. |
+| 90309 | Safinamida Stada 50 mg EFG | Comprimido recubierto con película | Laboratorio Stada S.L. |
+| 114984003 | Xadago 50 mg | Comprimido recubierto con película | Zambon S.P.A. |
+| 90156 | Safinamida Aurovitas 100 mg EFG | Comprimido recubierto con película | Aurovitas Spain, S.A.U. |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Interacciones Farmacológicas**: la consulta se completó y registró una única entrada, que corresponde a la diana farmacológica del fármaco (MAO-B, gen *MAOB*), no a una interacción con otro medicamento. No se identificaron interacciones con otros fármacos con nivel de gravedad asignado.
 
-El único registro de interacción es de tipo farmacológico: safinamida actúa sobre su diana, la monoamino oxidasa B (MAO-B). No se trata de una interacción clínica entre fármacos.
-
----
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el vínculo mecanístico es limitado, porque no actuaría sobre el proceso inmunológico central de la enfermedad.
+La predicción tiene un puntaje TxGNN alto, pero no cuenta con ningún ensayo clínico ni publicación (nivel L5). Además, la base fisiopatológica de la encefalitis de Rasmussen (autoinmunidad mediada por linfocitos T) no guarda una relación mecanística demostrada con safinamida.
 
 **Para avanzar se necesita:**
-- Descargar y revisar la ficha técnica de AEMPS (advertencias y contraindicaciones), paso previo al cribado de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Buscar evidencia preclínica o casos clínicos en encefalitis de Rasmussen, en especial sobre control de convulsiones y excitotoxicidad.
-- Evaluar la relevancia clínica frente a los tratamientos inmunomoduladores establecidos.
-
----
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), imprescindible antes de cualquier evaluación de seguridad.
+- Completar los datos del mecanismo de acción del fármaco.
+- Revisión sistemática de literatura y de registros de ensayos sobre safinamida en encefalitis de Rasmussen.
+- Estudios preclínicos que respalden una hipótesis mecanística concreta.
+- Valorar, como alternativas, las otras dos predicciones del modelo: la **mielitis** (puntaje 99.46%, L5, hipótesis muy especulativa por la heterogeneidad de la enfermedad) y la **neurodegeneración asociada a PLA2G6** (puntaje 99.22%, L5), que es la biológicamente más plausible por su solapamiento con el parkinsonismo, aunque sigue sin respaldo clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

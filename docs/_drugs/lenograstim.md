@@ -2,7 +2,7 @@
 layout: default
 title: Lenograstim
 parent: Solo predicción del modelo (L5)
-nav_order: 310
+nav_order: 460
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,94 +29,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Lenograstim: De G-CSF (factor estimulante de colonias de granulocitos) a Trastorno de Liberación Primaria Plaquetaria
+# Lenograstim: De Indicación Original No Especificada a Trastorno de Liberación Primaria de Plaquetas
 
 ## Resumen en Una Frase
 
-Lenograstim es un factor estimulante de colonias de granulocitos (G-CSF) recombinante, comercializado en España como Granocyte. Los registros disponibles no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de liberación primaria de las plaquetas**, pero la evidencia real es muy débil: hay **13 ensayos clínicos** vinculados, todos de baja relevancia (centrados en trasplante de progenitores hematopoyéticos), y **ninguna publicación** que respalde esta dirección.
-
----
+Lenograstim es un factor estimulante de colonias de granulocitos (G-CSF) recombinante humano, comercializado en España con el nombre Granocyte. En los datos compilados para este informe no consta el texto de su indicación original.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberación primaria de plaquetas**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L5 (solo predicción del modelo; los ensayos vinculados no estudian esta indicación) |
+| Indicación Original | No disponible en los datos de las autorizaciones de AEMPS (texto de indicación vacío) |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de plaquetas |
+| Puntaje de Predicción TxGNN | 99,91% |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el paquete de evidencia. Según la información conocida, lenograstim es un G-CSF recombinante que actúa sobre el receptor de G-CSF, impulsa la proliferación del linaje de neutrófilos y moviliza células madre hematopoyéticas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, lenograstim es un G-CSF recombinante que actúa sobre el receptor de G-CSF, estimulando la proliferación y diferenciación de los progenitores de neutrófilos (linaje granulocítico).
 
-Sin embargo, **no existe un vínculo mecanístico establecido** con la liberación plaquetaria (secreción de gránulos). El puntaje alto de TxGNN (0.999) es únicamente una salida del grafo de conocimiento. Los 13 ensayos asociados parecen haberse emparejado por el contexto de trasplante de progenitores hematopoyéticos (TPH), no por trastornos de la función plaquetaria.
+Los trastornos de liberación plaquetaria son defectos cualitativos de la función plaquetaria, relacionados con la secreción del contenido de los gránulos. Este no es un objetivo conocido del G-CSF. No se ha identificado ninguna vía biológica que conecte el fármaco con esta enfermedad, por lo que la razonabilidad mecanística es **baja**. El puntaje elevado de TxGNN refleja probablemente la proximidad en el grafo de conocimiento entre trastornos relacionados con plaquetas, y no una relación causal demostrada.
 
-Por ello, la plausibilidad biológica de esta predicción es baja y debe tratarse como una hipótesis sin respaldo clínico.
+### Otras predicciones del modelo (para contexto)
 
----
+| Enfermedad predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
+|------|------|------|------|
+| Trastorno de liberación primaria de plaquetas | 99,91% | L5 | Sin vínculo mecanístico conocido |
+| Trombastenia de Glanzmann | 99,89% | L5 | Defecto genético de la integrina αIIbβ3; G-CSF no actúa sobre este receptor |
+| Pseudoenfermedad de von Willebrand | 99,88% | L5 | Mutación con ganancia de función en GP1BA; sin interacción conocida con el eje GPIb-VWF |
+| Retinopatía diabética no proliferativa grave | 99,61% | L5 | Vínculo especulativo por la movilización de progenitores de médula ósea; la dirección del efecto es incierta, pues podría favorecer la neovascularización patológica |
 
 ## Evidencia de Ensayos Clínicos
 
-Ningún ensayo estudia trastornos plaquetarios. Todos se evaluaron como de relevancia baja (grado C) o pendiente de evaluación. Se muestran 10 de los 13 ensayos vinculados.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Fase 2 | Terminado | 200 | Trasplante de células madre de donante no emparentado en neoplasias hematológicas; lenograstim, como mucho, es soporte |
-| [NCT04047628](https://clinicaltrials.gov/study/NCT04047628) | Fase 3 | Reclutando | 156 | Mejor terapia disponible vs. trasplante autólogo en esclerosis múltiple resistente al tratamiento |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Fase 2 | Reclutando | 358 | Protocolo de plataforma de profilaxis de EICH con ciclofosfamida postrasplante |
-| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Fase 1/2 | Completado | 147 | Trasplante alogénico no mieloablativo con busulfán, fludarabina e irradiación corporal total |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Fase 1 | Retirado | 0 | Médula ósea criopreservada de donante HLA no compatible; sin participantes, sin valor probatorio |
-| [NCT01335932](https://clinicaltrials.gov/study/NCT01335932) | Fase 2 | Completado | 160 | Ganciclovir/valganciclovir para prevenir reactivación de CMV en lesión pulmonar aguda |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Fase 2 | Completado | 60 | Piloto de trasplante alogénico/singénico en sarcomas pediátricos de alto riesgo |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Fase 2 | Terminado | 49 | Dapansutrilo oral en COVID-19 moderado con síndrome de liberación de citocinas temprano |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Fase 1/2 | Reclutando | 260 | Búsqueda de la dosis mínima eficaz de ciclofosfamida postrasplante |
-| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Fase 2 | Completado | 9 | Piloto de linfodepleción intensificada y trasplante autólogo en lupus eritematoso sistémico grave |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-Los registros no incluyen el texto de la indicación aprobada de ninguna de las dos autorizaciones. Ambas pertenecen a Italfarmaco S.A.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 60672 | Granocyte 13 millones de UI | Polvo y disolvente para solución inyectable o perfusión |
-| 60211 | Granocyte 34 millones de UI | Polvo y disolvente para solución inyectable o perfusión |
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 60672 | Granocyte 13 millones de UI polvo y disolvente para solución inyectable o perfusión | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 60211 | Granocyte 34 millones de UI polvo y disolvente para solución inyectable o perfusión | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. La búsqueda de interacciones farmacológicas no devolvió resultados.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el grafo de conocimiento. No hay vínculo mecanístico entre la señalización de G-CSF y la liberación plaquetaria, y ningún ensayo ni publicación estudia esta indicación. Las otras predicciones del modelo (tromboastenia de Glanzmann, pseudo-enfermedad de von Willebrand y retinopatía diabética no proliferativa grave) tampoco tienen evidencia y quedan igualmente en espera.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre el G-CSF y los defectos de función plaquetaria. Además, no se dispone de datos de seguridad ni de las indicaciones autorizadas.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS para obtener advertencias, contraindicaciones y el texto de la indicación aprobada (hoy es un bloqueo para el cribado de seguridad).
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión de literatura preclínica o de mecanismo que justifique un vínculo entre G-CSF y la función plaquetaria.
-- Reevaluar la relevancia de los ensayos que siguen pendientes de clasificación (NCT00923364, NCT01503918, NCT00354172).
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), actualmente una carencia crítica para el cribado de seguridad.
+- Completar los datos del mecanismo de acción (por ejemplo, mediante DrugBank).
+- Realizar una revisión sistemática de la literatura que busque evidencia preclínica o clínica de G-CSF en trastornos plaquetarios.
+- Evaluar la compatibilidad de la vía de administración y la similitud con la indicación original.
+- Si se desea explorar otra línea, valorar por separado la hipótesis de retinopatía diabética, teniendo en cuenta el riesgo de neovascularización patológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

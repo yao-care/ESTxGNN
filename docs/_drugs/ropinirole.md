@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ropinirole
-parent: Solo predicción del modelo (L5)
-nav_order: 475
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 712
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ropinirole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,86 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ropinirol: De Enfermedad de Parkinson y Síndrome de Piernas Inquietas a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+# Ropinirol: De Síndrome de Piernas Inquietas y Enfermedad de Parkinson a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
 
 ## Resumen en Una Frase
 
-Ropinirol es un agonista dopaminérgico D2/D3 utilizado originalmente para tratar la enfermedad de Parkinson y el síndrome de piernas inquietas (SPI).
-El modelo TxGNN predice que podría ser efectivo para el **TDAH**, con **0 ensayos clínicos registrados** y **9 publicaciones**, entre ellas **1 ensayo aleatorizado** (ECA) reciente que evalúa ropinirol como complemento del metilfenidato.
-
----
+Ropinirol es un agonista dopaminérgico D2/D3, utilizado originalmente para el tratamiento del síndrome de piernas inquietas y de la enfermedad de Parkinson.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno por déficit de atención e hiperactividad (TDAH)**,
+con **0 ensayos clínicos registrados** y **8 publicaciones** (incluyendo un posible ensayo aleatorizado de 2026 cuyo diseño no se ha podido verificar) que actualmente respaldan esta dirección de forma limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson y síndrome de piernas inquietas (según la fuente farmacológica; el texto de indicación de AEMPS no está disponible) |
+| Indicación Original | Síndrome de piernas inquietas y enfermedad de Parkinson (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L2 (con reservas: la fase y los resultados del ECA no se han podido verificar) |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Ropinirol actúa como agonista de los receptores de dopamina D2 y D3 (genes *DRD2* y *DRD3*). Actualmente no se dispone de datos detallados del mecanismo de acción en DrugBank. Esta descripción proviene de la información farmacológica del propio Evidence Pack.
+Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción. Según la farmacología conocida y los datos de dianas, ropinirol es un agonista de los receptores de dopamina D2 y D3 (genes DRD2 y DRD3), y su eficacia en el síndrome de piernas inquietas y en la enfermedad de Parkinson está establecida.
 
-El TDAH se relaciona con una regulación anómala del sistema dopaminérgico, por lo que un agonista D2/D3 tiene una base biológica plausible. Además, el SPI y el TDAH coexisten con frecuencia. Una revisión de 2005 discute esta asociación y el posible interés de tratamientos farmacológicos comunes. Un caso clínico pediátrico describió mejoría tanto de los síntomas de TDAH como del sueño tras añadir ropinirol.
+El TDAH implica una desregulación dopaminérgica y, con frecuencia, coexiste con el síndrome de piernas inquietas, una de las indicaciones de ropinirol. Una vía compartida de dopamina y metabolismo del hierro ofrece un vínculo plausible. Una revisión de 2005 analiza esta asociación y su posible interés terapéutico común.
 
-El ECA de 2026 (66 pacientes de 6 a 17 años, 8 semanas, ropinirol o placebo añadido a metilfenidato) apoya la hipótesis. Aun así, del texto disponible no se pudieron verificar la fase, los resultados ni los desenlaces, y no hay ningún ensayo registrado. Hay que tratar esta predicción como una pregunta de investigación, no como una indicación respaldada.
-
----
+Conviene ser prudente: un caso pediátrico describe mejoría de los síntomas de TDAH con ropinirol, pero podría deberse al tratamiento de la alteración del sueño asociada al síndrome de piernas inquietas y no a un efecto directo sobre el TDAH. Además, una publicación de 2026 parece describir un ensayo de ropinirol como adyuvante de metilfenidato frente a placebo (66 pacientes de 6 a 17 años, 8 semanas), pero el título está truncado y el diseño y los resultados no pueden confirmarse con los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [42640474](https://pubmed.ncbi.nlm.nih.gov/42640474/) | 2026 | ECA | Eur Child Adolesc Psychiatry | Ropinirol vs. placebo como complemento del metilfenidato en 66 pacientes de 6 a 17 años con TDAH, doble ciego, 8 semanas. Los resultados no constan en el extracto disponible. |
-| [16218085](https://pubmed.ncbi.nlm.nih.gov/16218085/) | 2005 | Revisión | Sleep | Revisa la asociación entre SPI y TDAH, sus posibles mecanismos y el interés de tratamientos farmacológicos comunes. |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Revisión | Revue Neurologique | Revisión general del SPI, un trastorno sensitivo-motor que afecta al 2-3% de la población occidental. |
-| [15866437](https://pubmed.ncbi.nlm.nih.gov/15866437/) | 2005 | Caso clínico | Pediatric Neurology | Niño de 6 años con TDAH y posible SPI: ropinirol mejoró de forma significativa los síntomas de TDAH y el sueño. |
-| [30950895](https://pubmed.ncbi.nlm.nih.gov/30950895/) | 2019 | Caso clínico | Cornea | Describe edema corneal en 3 pacientes expuestos a agentes dopaminérgicos sistémicos (señal de seguridad). |
-| [30460371](https://pubmed.ncbi.nlm.nih.gov/30460371/) | 2019 | Caso clínico | Acta Derm Venereol | Delirios de infestación asociados al aumento de dopamina cerebral por el tratamiento (señal de seguridad). |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclínico | Pharmacol Res | Heteromerización entre adrenoceptores α2A y variantes del receptor D4; implicaciones para trastornos del control de impulsos y TDAH. |
-| [17483695](https://pubmed.ncbi.nlm.nih.gov/17483695/) | 2007 | Preclínico | J Neuropathol Exp Neurol | Modelo murino de SPI (lesión A11 con déficit de hierro) con mayor locomoción. |
-| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Estudio clínico (otro fármaco) | Clin Neuropharmacol | Compara piribedil con pramipexol y ropinirol sobre la vigilancia en Parkinson con somnolencia diurna. Aporta poco a la hipótesis de TDAH. |
-
----
+| [42640474](https://pubmed.ncbi.nlm.nih.gov/42640474/) | 2026 | Posible ECA (diseño no verificado) | Eur Child Adolesc Psychiatry | Ropinirol añadido a metilfenidato frente a placebo más metilfenidato en 66 pacientes de 6-17 años con TDAH, durante 8 semanas; resultados no disponibles en los datos |
+| [16218085](https://pubmed.ncbi.nlm.nih.gov/16218085/) | 2005 | Revisión | Sleep | Revisión de la asociación entre síndrome de piernas inquietas y TDAH, y del posible interés de tratamientos comunes |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Revisión | Revue Neurologique | Revisión del síndrome de piernas inquietas (prevalencia del 2-3% en países occidentales y criterios clínicos) |
+| [15866437](https://pubmed.ncbi.nlm.nih.gov/15866437/) | 2005 | Reporte de caso | Pediatric Neurology | Niño de 6 años con TDAH y síndrome de piernas inquietas: mejoría significativa de los síntomas de TDAH y del sueño con ropinirol |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclínico/molecular | Pharmacological Research | Heteromerización entre receptores α2A y variantes del receptor D4 de dopamina, con implicaciones en trastornos del control de impulsos |
+| [17483695](https://pubmed.ncbi.nlm.nih.gov/17483695/) | 2007 | Modelo animal | J Neuropathol Exp Neurol | Modelo murino de síndrome de piernas inquietas con lesión de A11 y deprivación de hierro |
+| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Estudio clínico (fármaco distinto; indirecto) | Clin Neuropharmacol | Piribedil frente a pramipexol y ropinirol sobre la vigilia en pacientes con Parkinson y somnolencia diurna |
+| [30950895](https://pubmed.ncbi.nlm.nih.gov/30950895/) | 2019 | Informe de seguridad | Cornea | Edema corneal en 3 pacientes expuestos a agentes dopaminérgicos sistémicos |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 69437 | Ropinirol Kern Pharma 1 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 69438 | Ropinirol Kern Pharma 2 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 74552 | Ropinirol Krka 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
-| 75989 | Ropinirol Stada 8 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
-| 90648 | Ropinirol Cinfa 4 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 61469 | REQUIP 5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 61465 | REQUIP 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 61466 | REQUIP 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 67921 | ADARTREL 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 74665 | ROLPRYNA SR 8 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible en los datos |
 
-Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada no está disponible en los datos de AEMPS recibidos.
-
----
+Hay 20 autorizaciones vigentes en total, todas de monofármaco, con formas de comprimido recubierto y de liberación prolongada de varios laboratorios (GSK, Kern Pharma, Cinfa, Krka, Stada, Teva).
 
 ## Consideraciones de Seguridad
 
-- **Señales en la literatura**: los agonistas dopaminérgicos se han asociado con psicosis y delirios, trastornos del control de impulsos (incluido el juego patológico) y edema corneal. Estas señales deben revisarse específicamente en población pediátrica o con TDAH.
-- **Dianas farmacológicas**: ropinirol actúa sobre los receptores D2 (*DRD2*) y D3 (*DRD3*). No se recibieron interacciones con otros fármacos.
+- **Contraindicaciones (según el grafo de conocimiento, no del prospecto)**: atrofia multisistémica, síndrome de taquicardia postural ortostática, hipotensión ortostática, trastornos hipotensivos, discinesia inducida por fármacos, insuficiencia hepática, trastorno psicótico, trastorno esquizofreniforme, trastorno esquizoafectivo y trastorno mental.
+- **Interacciones farmacológicas**: los datos solo recogen las dianas farmacológicas (receptores D2 y D3 de dopamina), sin interacciones con otros fármacos.
+- **Señales de la literatura**: se ha descrito un mayor riesgo de trastorno por juego patológico con agonistas dopaminérgicos, incluido ropinirol, y edema corneal con agentes dopaminérgicos sistémicos. En poblaciones pediátricas con TDAH, estas señales requerirían una vigilancia específica.
 
-Consultar el prospecto para las advertencias y contraindicaciones oficiales.
-
----
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Hay una base mecanística plausible y un ECA reciente, pero solo un estudio de tamaño moderado sin ensayo registrado, con resultados no verificados y sin datos de seguridad de AEMPS. El perfil dopaminérgico (psicosis, control de impulsos) exige cautela en niños y adolescentes.
+La predicción del modelo es muy alta (99.99%), pero la evidencia directa es limitada: no hay ensayos clínicos registrados, un caso pediátrico con un posible efecto indirecto sobre el sueño, y un posible ensayo aleatorizado de 2026 cuyo diseño y resultados no están verificados. Ropinirol es un fármaco comercializado con perfil conocido, por lo que la hipótesis merece seguimiento como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Verificar la fase, los resultados y los desenlaces de eficacia y seguridad del ECA de 2026 (PMID 42640474).
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un vacío bloqueante para el cribado de seguridad.
-- Obtener los datos del mecanismo de acción desde DrugBank.
-- Buscar ensayos registrados adicionales o replicación independiente en TDAH.
-- Definir un plan de monitorización de eventos psiquiátricos, del control de impulsos y de la seguridad ocular en población pediátrica.
+- Verificar el diseño, los resultados y la calidad del ensayo de 2026 (PMID 42640474) y registrar o localizar ensayos clínicos formales.
+- Datos del mecanismo de acción desde DrugBank.
+- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), pues esta información no está disponible y bloquea el cribado de seguridad.
+- Evaluar la seguridad en población pediátrica (trastornos del control de impulsos, somnolencia, hipotensión y efectos psiquiátricos).
+- Confirmar si el beneficio en TDAH es directo o secundario al tratamiento del síndrome de piernas inquietas.
 
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+**Nota sobre otras predicciones:** el resto de las indicaciones predichas (por ejemplo, esquizofrenia, con nivel L4, y varias enfermedades genéticas raras, con nivel L5) carecen de evidencia clínica y se mantienen en Hold. En esquizofrenia, la agonista dopaminérgica va en dirección opuesta al antagonismo antipsicótico habitual y podría empeorar los síntomas positivos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

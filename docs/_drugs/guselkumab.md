@@ -2,7 +2,7 @@
 layout: default
 title: Guselkumab
 parent: Solo predicción del modelo (L5)
-nav_order: 263
+nav_order: 389
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,91 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Guselkumab: Hacia Osteoporosis Inducida por Fármacos
+# Guselkumab: De Psoriasis en Placas a Osteoporosis Inducida por Fármacos
 
 ## Resumen en Una Frase
 
-Guselkumab es un anticuerpo monoclonal que bloquea la subunidad p19 de la IL-23 y se comercializa en España como Tremfya. Los datos de licencia recibidos no incluyen el texto de sus indicaciones aprobadas.
-El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Se trata de una predicción puramente computacional.
+Guselkumab es un anticuerpo monoclonal que bloquea la subunidad p19 de la interleucina-23 (IL-23) y se comercializa en España como TREMFYA. Los datos compilados lo asocian sobre todo con la psoriasis, pero el campo de indicación original de las autorizaciones está vacío.
+El modelo TxGNN predice que podría ser efectivo para la **osteoporosis inducida por fármacos**, pero para esta indicación hay **0 ensayos clínicos** y **0 publicaciones**, de modo que la predicción carece por ahora de respaldo experimental.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | No consta en los textos de las autorizaciones españolas. La evidencia compilada se centra en la psoriasis en placas, que se usa como referencia en este informe. |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L5 (solo predicción del modelo) |
+| Puntaje de Predicción TxGNN | 99,84 % (posición 3491 en el ranking del modelo) |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Número de Autorizaciones | 5 (todas vigentes, monofármaco) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la literatura asociada, guselkumab es un inhibidor selectivo de la subunidad p19 de la IL-23. Esta citocina impulsa la diferenciación de linfocitos Th17 y la señalización de IL-17/IL-22, y su bloqueo está validado en enfermedades inflamatorias inmunomediadas como la psoriasis.
+Guselkumab se une a la subunidad p19 de la IL-23 e inhibe esta vía. La IL-23 favorece la diferenciación y supervivencia de las células Th17, que sostienen la inflamación mediada por IL-17 típica de la psoriasis. Los datos compilados no incluyen una descripción detallada del mecanismo de acción procedente de DrugBank. Esta explicación se basa en el conocimiento general de la clase y en la justificación mecanística asociada a la psoriasis.
 
-El vínculo con la osteoporosis inducida por fármacos es **especulativo**. La señalización IL-23/IL-17 puede favorecer la osteoclastogénesis, por lo que bloquear la IL-23 podría influir en la pérdida ósea. Sin embargo, esta relación no está establecida para la osteoporosis causada por medicamentos (por ejemplo, glucocorticoides). No hay estudios preclínicos ni clínicos aportados que la respalden.
+La relación con la osteoporosis inducida por fármacos es indirecta y especulativa. Se ha sugerido que la señalización IL-23/IL-17 participa en la remodelación ósea y en la pérdida ósea inflamatoria. Sin embargo, los datos compilados no respaldan un vínculo directo con esta forma de osteoporosis, y no se han encontrado ensayos ni literatura que lo apoyen.
 
-El puntaje alto de TxGNN (99.84%, posición 3491 del ranking global del modelo) indica una asociación en el grafo de conocimiento, pero no constituye evidencia de eficacia. No se ha evaluado la similitud con la indicación original ni la compatibilidad de vías de administración.
+Por tanto, la predicción debe considerarse una hipótesis generada por el modelo, no un hallazgo respaldado por evidencia clínica. La similitud con la indicación original tampoco se ha podido evaluar.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para guselkumab en osteoporosis inducida por fármacos.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
+
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1171234001 | TREMFYA 100 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | Janssen-Cilag International N.V |
-| 1171234008 | TREMFYA 200 MG solución inyectable en pluma precargada | Solución inyectable | Janssen-Cilag International N.V |
-| 1171234002 | TREMFYA 100 MG OnePress solución inyectable en pluma precargada | Solución inyectable en pluma precargada | Janssen-Cilag International N.V |
-| 1171234012 | TREMFYA 45 MG/0,45 ML solución inyectable en pluma precargada | Solución inyectable | Janssen-Cilag International N.V |
-| 1171234005 | TREMFYA 200 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | Janssen-Cilag International N.V |
+| 1171234001 | TREMFYA 100 mg solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No especificada en los datos |
+| 1171234008 | TREMFYA 200 mg solución inyectable en pluma precargada | Solución inyectable | No especificada en los datos |
+| 1171234002 | TREMFYA 100 mg OnePress solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No especificada en los datos |
+| 1171234012 | TREMFYA 45 mg/0,45 ml solución inyectable en pluma precargada | Solución inyectable | No especificada en los datos |
+| 1171234005 | TREMFYA 200 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No especificada en los datos |
+
+Titular de todas las autorizaciones: Janssen-Cilag International N.V.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas.
+- **Interacciones farmacológicas**: se consultaron 100 interacciones y se muestran 20.
+  - **Mayor**: adalimumab.
+  - **Moderadas**: simvastatina, apixabán, warfarina, rivaroxabán, dicumarol, lidocaína, hidrocodona, teofilina, aminofilina, oxtrifilina, roflumilast, tacrolimus, fentanilo, nifedipino y toxoide tetánico.
+  - **Menores**: sales de zinc (sulfato, acetato, gluconato y cloruro).
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para osteoporosis inducida por fármacos no tiene ensayos, literatura ni estudios preclínicos que la respalden (L5). El vínculo mecanístico es especulativo, y el cribado de seguridad no puede avanzar sin el prospecto de la AEMPS.
+La indicación predicha, la osteoporosis inducida por fármacos, solo cuenta con la puntuación del modelo (nivel L5), sin ensayos clínicos ni literatura que la respalden. El vínculo mecanístico con la IL-23 es especulativo.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
-- Obtener el mecanismo de acción desde DrugBank.
-- Realizar estudios preclínicos que evalúen el efecto del bloqueo de IL-23 sobre el hueso, y una revisión sistemática de la literatura sobre IL-23 y metabolismo óseo.
+- Estudios preclínicos o de mecanismo que evalúen el papel de la IL-23 en la pérdida ósea inducida por fármacos.
+- Revisión sistemática de la literatura sobre la vía IL-23/IL-17 y el metabolismo óseo.
+- Texto de las indicaciones aprobadas y de las advertencias y contraindicaciones del prospecto de la AEMPS.
+- Datos detallados del mecanismo de acción desde DrugBank.
+- Evaluación de la compatibilidad de las vías de administración y de la similitud con la indicación original.
 
-**Nota sobre otras predicciones del mismo análisis:** dos predicciones de menor rango sí tienen evidencia sólida. La **psoriasis** (puntaje 99.75%) tiene ensayos de Fase 3 completados (por ejemplo, NCT02325219 y los estudios VOYAGE 1 y 2), y la **colitis ulcerosa** (99.70%) tiene el programa QUASAR de Fase 3. Ambas alcanzan nivel L1 y una recomendación de *Proceed with Guardrails*. Probablemente son indicaciones ya aprobadas o en fase avanzada, no reposicionamientos nuevos. Conviene confirmarlo con la ficha técnica antes de tratarlas como candidatas. Las demás predicciones (retinopatía diabética, osteodistrofia renal, entre otras) están en nivel L5 y sin evidencia.
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+**Nota de contexto:** otras indicaciones predichas para guselkumab tienen una evidencia mucho más sólida. La psoriasis (puntaje 99,75 %) cuenta con múltiples ensayos de Fase 3 completados (nivel L1). La colitis ulcerosa (puntaje 99,70 %) cuenta con el ensayo de Fase 2b/3 QUASAR y otros ensayos de Fase 3 (nivel L1). Ambas están marcadas como "Proceed with Guardrails" y son candidatas más sólidas que la osteoporosis inducida por fármacos para un análisis de reposicionamiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

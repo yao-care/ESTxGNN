@@ -2,7 +2,7 @@
 layout: default
 title: Isotretinoin
 parent: Solo predicción del modelo (L5)
-nav_order: 293
+nav_order: 435
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Isotretinoína: De Indicación Original No Registrada a Hipertensión Renovascular Maligna
+# Isotretinoína: De Hipertensión a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Los datos de autorización de AEMPS suministrados no incluyen el texto de indicación de la isotretinoína, por lo que no consta para qué se usa originalmente. El modelo TxGNN predice que podría ser efectiva para **hipertensión renovascular maligna**, con una puntuación alta (99,01 %). Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, que es solo una hipótesis computacional.
+Según el grafo de conocimiento utilizado por el modelo, la isotretinoína figura con indicaciones originales de hipertensión y trastorno hipertensivo; sin embargo, en la práctica clínica es un retinoide empleado en dermatología (acné), por lo que esa indicación original debe tomarse con cautela.
+El modelo TxGNN predice que podría ser efectiva para la **hipertensión renovascular maligna**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+La única base es el puntaje del modelo.
 
 ---
 
@@ -41,25 +43,23 @@ Los datos de autorización de AEMPS suministrados no incluyen el texto de indica
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de autorización suministrados |
+| Indicación Original | Hipertensión / trastorno hipertensivo (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Hipertensión renovascular maligna |
 | Puntaje de Predicción TxGNN | 99,01 % |
-| Nivel de Evidencia | L5 (solo predicción del modelo) |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
-
-Hay una segunda predicción, **enfermedad renal hipertensiva maligna**, con la misma puntuación (99,01 %), el mismo nivel L5 y la misma decisión Hold. Ambas enfermedades están estrechamente relacionadas y probablemente comparten vecindad en el grafo de conocimiento. Por eso no constituyen evidencia independiente.
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción, y los datos suministrados tampoco incluyen indicaciones originales. Con la información disponible no se puede establecer un vínculo mecanístico entre el fármaco y la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. La isotretinoína es un retinoide cuya farmacología conocida (supresión de las glándulas sebáceas, efectos sobre la diferenciación y proliferación celular) no guarda relación con el control de la presión arterial.
 
-La isotretinoína es un retinoide, y la señalización de retinoides se ha estudiado en biología renal y vascular. Este dato es solo contexto general: no se aportó ningún mecanismo de respaldo y aquí no se ha verificado ninguno. La puntuación de TxGNN refleja únicamente la posición del fármaco en el grafo de conocimiento, no una demostración de eficacia.
+Las indicaciones originales de hipertensión que figuran en los datos son incoherentes con el uso clínico conocido de la isotretinoína y podrían ser un artefacto del grafo de conocimiento. Por ello, la relación entre la indicación original y la nueva indicación no puede considerarse mecanísticamente sólida.
 
-Además, su perfil de seguridad conocido (teratogenicidad y efectos lipídicos y hepáticos) aconseja especial cautela en una enfermedad grave y de alto riesgo como la hipertensión maligna.
+La señalización de retinoides se ha explorado en modelos preclínicos de lesión y fibrosis renal, pero esto es especulativo y no está respaldado por evidencia en los datos compilados. Esto aplica también a la segunda predicción (enfermedad renal hipertensiva maligna, con el mismo puntaje de 99,01 %, lo que sugiere que ambos nodos están estrechamente relacionados en el grafo). La predicción debe tratarse con cautela.
 
 ---
 
@@ -77,21 +77,23 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 67570 | ISOACNE 10 mg CÁPSULAS BLANDAS | Cápsula blanda |
-| 67878 | DERCUTANE 40 mg CÁPSULAS BLANDAS | Cápsula blanda |
-| 86649 | ISOTIORGA 40 MG CÁPSULAS BLANDAS | Cápsula blanda |
-| 78326 | DERCUTANE 30 MG CÁPSULAS BLANDAS | Cápsula blanda |
-| 82566 | ACNEMIN 10 MG CÁPSULAS BLANDAS EFG | Cápsula blanda |
+Se muestran 5 de las 20 autorizaciones vigentes (todas son monofármaco, en cápsula blanda).
 
-Se muestran 5 de las 20 autorizaciones. El texto de indicación aprobada no está disponible en los datos suministrados, por lo que se omite esa columna.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 67570 | ISOACNE 10 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
+| 67878 | DERCUTANE 40 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
+| 86649 | ISOTIORGA 40 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
+| 78326 | DERCUTANE 30 mg cápsulas blandas | Cápsula blanda | No disponible en los datos |
+| 82566 | ACNEMIN 10 mg cápsulas blandas EFG | Cápsula blanda | No disponible en los datos |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): trastornos de ansiedad, trastornos neuróticos y distímicos, trastornos psicóticos y mentales, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, pancreatitis, angioedema (incluido el hereditario), enfermedad inflamatoria intestinal, osteoporosis, lupus eritematoso sistémico, diabetes mellitus y cetoacidosis diabética, neutropenia y agranulocitosis, deficiencia de potasio y trastorno hipotensivo. Es relevante que figuren enfermedad renal y trastorno hipotensivo en relación con las indicaciones predichas.
+- **Interacciones farmacológicas**: se registran 98 interacciones. Entre las de nivel **mayor** se encuentran doxiciclina, minociclina, tetraciclina y vitamina A. Entre las de nivel moderado se incluyen corticoides (betametasona, budesonida, dexametasona, hidrocortisona, prednisolona, prednisona, triamcinolona), warfarina, dicumarol, etanol, naltrexona, nitisinona, fostamatinib, ivacaftor, lumacaftor y abametapir tópico.
+- **Otras consideraciones**: de forma general, la isotretinoína se asocia a teratogenicidad, elevación de lípidos y efectos hepáticos, que habría que ponderar cuidadosamente en pacientes con hipertensión grave o insuficiencia renal que reciben varios antihipertensivos.
 
 ---
 
@@ -100,14 +102,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin mecanismo de acción verificado. Faltan además los datos de seguridad del prospecto de AEMPS, lo que impide el cribado de seguridad. El perfil de riesgo conocido del fármaco refuerza la necesidad de cautela.
+La única base es un puntaje alto del modelo (99,01 %), sin ensayos clínicos ni literatura, sin mecanismo de acción disponible y con una indicación original incoherente con el uso clínico conocido. Además, el perfil de seguridad de la isotretinoína plantea dudas importantes en pacientes con hipertensión maligna y afectación renal.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), una carencia de datos bloqueante.
-- Obtener el mecanismo de acción desde DrugBank (consulta a la API).
-- Confirmar la indicación original aprobada de la isotretinoína a partir de la ficha técnica.
-- Realizar una búsqueda dirigida de estudios preclínicos o de mecanismo sobre retinoides e hipertensión renovascular o nefropatía hipertensiva.
-- Evaluar la compatibilidad de vías de administración (actualmente pendiente).
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad.
+- Obtener los datos del mecanismo de acción (por ejemplo, desde DrugBank) para analizar un posible vínculo mecanístico.
+- Verificar y corregir las indicaciones originales del grafo de conocimiento, que parecen un artefacto.
+- Realizar una búsqueda sistemática de literatura y ensayos, incluidos estudios preclínicos de retinoides en daño renal e hipertensión.
+- Evaluar la relación beneficio-riesgo en población con hipertensión maligna y enfermedad renal, considerando las interacciones y contraindicaciones señaladas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

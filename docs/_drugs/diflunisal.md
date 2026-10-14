@@ -2,7 +2,7 @@
 layout: default
 title: Diflunisal
 parent: Solo predicción del modelo (L5)
-nav_order: 176
+nav_order: 249
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Diflunisal: De Indicación Original No Registrada a Displasia Acromesomélica tipo Hunter-Thompson
+# Diflunisal: De Artritis Reumatoide a Displasia Acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Diflunisal es un antiinflamatorio no esteroideo (AINE) que inhibe la ciclooxigenasa (COX). Los datos de AEMPS disponibles no registran su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, una displasia esquelética genética.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que es solo una predicción del modelo.
+Diflunisal es un antiinflamatorio no esteroideo (AINE), utilizado originalmente en artritis reumatoide, artrosis y otras artropatías.
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, una displasia esquelética genética muy rara, pero **no existen ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en los datos de AEMPS |
-| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
+| Indicación Original | Artritis reumatoide (según el grafo de conocimiento; la autorización española no incluye texto de indicación) |
+| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -51,34 +50,51 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, diflunisal es un AINE que inhibe COX-1 y COX-2 y reduce la inflamación y el dolor mediados por prostaglandinas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por su clase, diflunisal es un AINE derivado del ácido salicílico que inhibe la ciclooxigenasa y reduce la síntesis de prostaglandinas. Su eficacia como antiinflamatorio y analgésico en enfermedades reumáticas es conocida.
 
-Esta predicción **no tiene un vínculo mecanístico plausible**. La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética genética que afecta a la vía GDF5/CDMP1. Diflunisal no actúa sobre esa vía. La inhibición de COX no modificaría el defecto genético subyacente.
+La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético hereditario raro, asociado al gen *GDF5* (CDMP1). No es una enfermedad de origen inflamatorio, y no se identifica un vínculo plausible con la inhibición de la COX. El puntaje elevado probablemente refleja la cercanía en el grafo de conocimiento con términos musculoesqueléticos (artropatía, artrosis) y no una justificación farmacológica.
 
-El puntaje alto (99.99%) probablemente es un artefacto del grafo de conocimiento y no refleja una relación biológica real. No hay ensayos ni literatura que lo respalden.
+Por tanto, esta predicción debe considerarse una señal estadística del modelo sin respaldo mecanístico ni clínico.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1251929001 | ATTROGY 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (Purpose Pharma International Ab) | Comprimido recubierto con película | No especificada en los datos disponibles |
+| 1251929001 | ATTROGY 250 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+
+La autorización es de tipo monofármaco, está vigente y su titular es Purpose Pharma International AB.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión y trastornos hipertensivos, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, úlcera péptica (incluida la activa), trastornos de la coagulación, infarto de miocardio y trombosis coronaria, enfermedad cardiovascular y cardiopatía, hemoglobinopatías y piouréter.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones, y las 20 primeras listadas son de nivel moderado. Las principales son:
+  - Corticoides: hidrocortisona, triamcinolona, dexametasona, betametasona y budesonida.
+  - Antidiabéticos: metformina, clorpropamida, glimepirida y varias insulinas (aspart, degludec, detemir y glargina).
+  - Salicilatos y aminosalicilatos: ácido acetilsalicílico, mesalazina y balsalazida.
+  - Laxantes y soluciones de preparación intestinal, además de sales de potasio: ácido picosulfúrico, polietilenglicol con electrolitos, sulfato de sodio, citrato de potasio y bicarbonato de potasio.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de plausibilidad mecanística, ensayos clínicos y literatura (nivel L5). El puntaje alto de TxGNN parece un artefacto del grafo de conocimiento y no justifica avanzar.
+La predicción es solo del modelo (L5), sin ensayos ni literatura. Además, la enfermedad es un trastorno genético esquelético sin componente inflamatorio, por lo que no hay un vínculo mecanístico plausible con un AINE.
 
 **Para avanzar se necesita:**
-- Datos del prospecto de AEMPS (advertencias y contraindicaciones), y confirmar la indicación original aprobada
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank
-- Evidencia preclínica que vincule la vía GDF5/CDMP1 con la inhibición de COX, si se quisiera reconsiderar esta indicación
-- **Nota:** en la misma evaluación, **espondilitis anquilosante** (rango 5, nivel L3) y **espondilopatía inflamatoria** (rango 10, nivel L3) tienen mayor respaldo. Existe un estudio clínico comparativo de diflunisal frente a fenilbutazona (PMID 3524970, 1986), cuyo diseño aleatorizado y doble ciego debe verificarse. Se recomienda priorizar estas indicaciones en una evaluación aparte.
+- Datos del mecanismo de acción y una hipótesis biológica que conecte diflunisal con la vía de *GDF5*/BMP.
+- Evidencia preclínica o clínica específica de esta enfermedad; hoy no hay ninguna.
+- Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS, ya que no están disponibles en los datos compilados.
+- Considerar otras predicciones del mismo análisis con más respaldo. La **espondilitis anquilosante** (puntaje 99.98%, nivel L3) cuenta con un estudio doble ciego aleatorizado de 1986 que compara diflunisal con fenilbutazona en 38 pacientes (PMID 3524970). Es una evidencia antigua y de pequeña escala, y su novedad es limitada porque diflunisal ya se usa en patologías reumáticas inflamatorias.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

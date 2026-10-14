@@ -2,7 +2,7 @@
 layout: default
 title: Spironolactone
 parent: Solo predicción del modelo (L5)
-nav_order: 501
+nav_order: 747
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,18 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Espironolactona: De Hipertensión e Hiperaldosteronismo a Hipotricosis Simple del Cuero Cabelludo
+# Espironolactona: De Hipertensión a Hipotricosis Simple del Cuero Cabelludo
 
 ## Resumen en Una Frase
 
-La espironolactona es un antagonista del receptor de mineralocorticoides, usado originalmente en hipertensión, hipopotasemia, síndrome de Conn e insuficiencia cardíaca.
-El modelo TxGNN predice que podría ser efectiva para **hipotricosis simple del cuero cabelludo**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción por ahora.
+La espironolactona es un antagonista del receptor de mineralocorticoides con actividad antiandrogénica, utilizado originalmente en hipertensión, insuficiencia cardíaca congestiva e hiperaldosteronismo.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión, hipopotasemia, síndrome de Conn e insuficiencia cardíaca (según los datos de farmacología; los textos de indicación de las autorizaciones españolas vienen vacíos) |
+| Indicación Original | Hipertensión (según el grafo de conocimiento; el texto de indicación aprobado en las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 99.26% |
 | Nivel de Evidencia | L5 |
@@ -50,49 +51,46 @@ El modelo TxGNN predice que podría ser efectiva para **hipotricosis simple del 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El registro no incluye datos detallados del mecanismo de acción del fármaco. Los datos de farmacología indican que la espironolactona se une al receptor de mineralocorticoides (gen *NR3C2*). Según la farmacología general, además de bloquear ese receptor tiene un efecto antiandrogénico débil. Por esa razón se usa fuera de indicación en la alopecia de origen androgénico, como la alopecia femenina de patrón.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la espironolactona antagoniza el receptor de mineralocorticoides (NR3C2) y además tiene actividad antiandrogénica (bloqueo del receptor de andrógenos y reducción de la síntesis de andrógenos). Su eficacia en hipertensión e insuficiencia cardíaca está comprobada.
 
-El vínculo con la nueva indicación es débil. La hipotricosis simple es una pérdida de cabello hereditaria y rara. Los genes causales descritos (por ejemplo *CDSN*, *APCDD1* y *SNRPE*) no forman parte de la señalización androgénica. La conexión se basa solo en suponer que una acción antiandrogénica podría ayudar, sin pruebas. El puntaje de 99.26% es únicamente una predicción del modelo.
+Esa acción antiandrogénica se usa fuera de indicación en la alopecia femenina de patrón, lo que da un vínculo plausible pero indirecto con los trastornos de pérdida de cabello.
 
-TxGNN también predice como segunda indicación la **hipotricosis congénita con milia** (99.04%). Tampoco tiene ensayos ni literatura, y no hay un puente mecanístico plausible, porque su etiología está poco caracterizada. También queda en nivel L5 y en Hold.
+Sin embargo, la hipotricosis simple es una condición hereditaria no dependiente de andrógenos, asociada a variantes en genes como CDSN, APCDD1 y RPL21. Por ello, la lógica de la vía androgénica no parece aplicarse con claridad. El puntaje alto (0.993) es una predicción computacional sin respaldo en ensayos ni literatura.
 
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+También se predijo **hipotricosis congénita con milia** (puntaje 99.04%, nivel L5, Hold). Probablemente refleja la cercanía en la red con otros fenotipos de hipotricosis y no un mecanismo específico; es un trastorno genético raro sin patología androgénica establecida.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 88190 | Espironolactona Orion 50 mg comprimidos EFG | Comprimido | Orion Corporation |
-| 54900 | Aldactone 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | Pfizer S.L. |
-| 88191 | Espironolactona Orion 100 mg comprimidos EFG | Comprimido | Orion Corporation |
-| 81033 | Espironolactona Accord 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Accord Healthcare S.L.U. |
-| 63835 | Espironolactona Alter 25 mg comprimidos recubiertos EFG | Comprimido recubierto | Laboratorios Alter S.A. |
+| 88190 | Espironolactona Orion 50 mg comprimidos EFG | Comprimido | No disponible |
+| 54900 | Aldactone 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 88191 | Espironolactona Orion 100 mg comprimidos EFG | Comprimido | No disponible |
+| 81033 | Espironolactona Accord 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
+| 63835 | Espironolactona Alter 25 mg comprimidos recubiertos EFG | Comprimido recubierto | No disponible |
 
-Se muestran 5 de las 9 autorizaciones. Todas son formas orales sólidas. Los textos de indicación aprobada no están disponibles en el registro.
+Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no provienen del texto del prospecto): enfermedad renal, anuria, pancreatitis, lupus eritematoso sistémico (incluido el pediátrico), deficiencia de potasio, diabetes mellitus, cetoacidosis diabética, hiperuricemia, gota, hiperparatiroidismo, osteítis fibrosa, coma hepático, encefalopatía hepática, ictericia neonatal, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo y piouréter.
+- **Interacciones farmacológicas**: solo consta la interacción farmacológica con su diana, el receptor de mineralocorticoides (NR3C2); no hay interacciones con otros fármacos.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos ni publicaciones. El vínculo mecanístico con una enfermedad genética que no depende de andrógenos es especulativo. Tampoco se dispone aún de la información de seguridad del prospecto.
+La predicción es solo computacional (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo antiandrogénico no encaja claramente con una hipotricosis hereditaria no androgénica.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de la AEMPS las advertencias y contraindicaciones.
-- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Revisar la literatura sobre espironolactona en hipotricosis hereditarias y evaluar si existe un mecanismo biológico creíble.
-- Comprobar la compatibilidad de la vía de administración, ya que las formas autorizadas en España son solo orales y no hay datos de una formulación adecuada para el cuero cabelludo.
-- Si aparece evidencia preclínica o clínica, reevaluar el nivel de evidencia.
+- Datos de mecanismo de acción (MOA) del fármaco
+- Texto de indicaciones, advertencias y contraindicaciones del prospecto de AEMPS
+- Revisión de literatura y estudios preclínicos que vinculen la espironolactona con hipotricosis hereditaria
+- Evaluación de la compatibilidad de vía de administración (por ejemplo, formulación tópica), actualmente pendiente
+- Evaluar si la hipotricosis simple u otras alopecias androgénicas serían indicaciones candidatas más razonables
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

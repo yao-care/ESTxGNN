@@ -2,7 +2,7 @@
 layout: default
 title: Baricitinib
 parent: Solo predicción del modelo (L5)
-nav_order: 62
+nav_order: 87
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,20 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Baricitinib: De Enfermedad Inflamatoria Inmunomediada a Síndrome de Microftalmía Colobomatosa con Displasia Rizomélica
+# Baricitinib: De Artritis Reumatoide a Síndrome de Microftalmia Colobomatosa con Displasia Rizomélica
 
 ## Resumen en Una Frase
 
-Baricitinib es un inhibidor selectivo de JAK1/JAK2, comercializado para enfermedades inflamatorias mediadas por el sistema inmune.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmía colobomatosa con displasia rizomélica**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Baricitinib es un inhibidor de JAK1/JAK2 utilizado originalmente para el tratamiento de la artritis reumatoide.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmia colobomatosa con displasia rizomélica**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: la predicción se basa únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los registros de autorización recibidos |
-| Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa con displasia rizomélica |
+| Indicación Original | Artritis reumatoide (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa con displasia rizomélica |
 | Puntaje de Predicción TxGNN | 99.94% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
@@ -51,13 +51,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Baricitinib es un inhibidor selectivo de JAK1 y JAK2, que atenúa la señalización de citocinas por la vía JAK-STAT. Su uso comercializado se centra en enfermedades inflamatorias mediadas por el sistema inmune. No se dispone de datos detallados de mecanismo de acción en DrugBank para este informe. La descripción anterior proviene del análisis mecanístico del propio Evidence Pack.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, baricitinib es un inhibidor de JAK1/JAK2 que modula la señalización de citocinas en enfermedades autoinmunes e inflamatorias, y su eficacia en artritis reumatoide está establecida.
 
-Este síndrome es una malformación congénita rara, con coloboma y microftalmía oculares junto con displasia esquelética rizomélica. No hay documentación de que su patogenia sea inflamatoria o dependa de JAK-STAT, por lo que **no existe un vínculo mecanístico establecido** con la indicación original.
+Con los datos disponibles, **no puede establecerse un vínculo biológicamente plausible** entre la inhibición de la vía JAK-STAT y este síndrome raro del desarrollo (una malformación congénita que afecta al ojo y al esqueleto). La predicción probablemente refleja la topología de la red de conocimiento más que una vía validada.
 
-El puntaje de 0.9994 es solo una predicción del grafo de conocimiento. Probablemente refleja cercanía en la red y no biología real, y no constituye evidencia clínica. Para dar una valoración mecanística más sólida habría que completar primero el campo de mecanismo de acción.
-
-**Otra predicción del modelo:** el síndrome de braquidactilia-sindactilia (puntaje 99.94%, L5, Hold). Es una malformación congénita de las extremidades de base genética y del desarrollo. No hay evidencia de que inhibir JAK1/JAK2 corrija defectos de patrón de las extremidades. Un inmunomodulador difícilmente modificaría malformaciones estructurales posnatales, por lo que su plausibilidad biológica es baja.
+Cualquier hipótesis requeriría primero evidencia genética y de vías moleculares independiente. El puntaje alto, por sí solo, no basta para justificar el desarrollo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,27 +69,33 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161170002 | OLUMIANT 2 MG comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en el registro |
-| 1161170010 | OLUMIANT 4 MG comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en el registro |
+| 1161170002 | OLUMIANT 2 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 1161170010 | OLUMIANT 4 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 
-Titular de ambas autorizaciones: Eli Lilly Nederland B.V.
+Titular de ambas autorizaciones: Eli Lilly Nederland B.V. (ambas vigentes, de tipo monofármaco).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; entre las principales:
+  - **Mayores**: corticosteroides (hidrocortisona, triamcinolona, betametasona, budesonida, dexametasona, prednisolona, prednisona), deferiprona, y radiofármacos/anticuerpos radiomarcados (ibritumomab tiuxetán, iobenguano I-131, tositumomab I-131).
+  - **Moderadas**: morfina (incluida la liposomal), ácido acetilsalicílico, nitisinona, opio.
+  - **Menores**: sales de zinc (acetato, gluconato, sulfato).
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni literatura de apoyo. Tampoco hay vínculo mecanístico plausible entre la inhibición de JAK1/JAK2 y una malformación congénita del desarrollo.
+La predicción se apoya solo en un puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible entre la inhibición de JAK1/JAK2 y un síndrome malformativo congénito.
 
 **Para avanzar se necesita:**
-- Completar los datos de mecanismo de acción (MOA) desde DrugBank
-- Obtener del prospecto de la AEMPS las advertencias y contraindicaciones, y las indicaciones aprobadas
-- Aportar evidencia preclínica o mecanística independiente que vincule la vía JAK-STAT con la patogenia del síndrome
-- Reevaluar solo si aparece evidencia de que el síndrome tiene un componente inflamatorio o dependiente de JAK-STAT
+- Datos del mecanismo de acción y análisis de vínculo mecanístico con la enfermedad predicha
+- Evidencia genética y de vías moleculares independiente que relacione la señalización JAK-STAT con el síndrome
+- Revisión sistemática de la literatura
+- Advertencias y contraindicaciones del prospecto de AEMPS
+- Textos de indicación aprobada de las autorizaciones españolas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

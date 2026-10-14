@@ -2,7 +2,7 @@
 layout: default
 title: Gefitinib
 parent: Solo predicción del modelo (L5)
-nav_order: 255
+nav_order: 371
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Gefitinib: Hacia Fibromatosis Gingival (Predicción sin Evidencia Directa)
+# Gefitinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Gefitinib es un inhibidor de la tirosina quinasa del receptor EGFR, comercializado en España en comprimidos recubiertos. La literatura del propio paquete de evidencia lo describe como tratamiento del cáncer de pulmón no microcítico, pero los registros de autorización no incluyen el texto de indicación.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción es solo del modelo.
+Gefitinib es un inhibidor de la tirosina quinasa del receptor del factor de crecimiento epidérmico (EGFR), utilizado originalmente para el tratamiento del cáncer de pulmón no microcítico.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata de una predicción puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Cáncer de pulmón no microcítico (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L5 |
@@ -47,68 +50,80 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 | Número de Autorizaciones | 11 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos suministrados no establecen ningún vínculo mecanístico entre gefitinib y la fibromatosis gingival. El puntaje de 0.999 es solo una predicción del modelo, sin ensayos ni literatura que lo apoyen.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, gefitinib inhibe la tirosina quinasa del EGFR, y su eficacia en el cáncer de pulmón no microcítico con mutaciones de EGFR está comprobada.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la literatura recuperada para otras indicaciones, gefitinib inhibe el receptor del factor de crecimiento epidérmico (EGFR), que interviene en la proliferación celular, la apoptosis y la angiogénesis. Una hipótesis posible es que la vía EGFR participe en el crecimiento fibroproliferativo del tejido gingival. Sin embargo, es una especulación y no consta en los datos.
+Mecanísticamente, la señalización de EGFR participa en la proliferación y el crecimiento celular, por lo que podría influir en procesos fibroproliferativos como la fibromatosis gingival. Sin embargo, esta relación es especulativa: no existe ningún estudio, ensayo ni publicación en los datos compilados que la respalde. El puntaje de 99.89% (posición 2513 del ranking del modelo) es el único sustento de esta predicción.
 
-Tampoco se dispone de una indicación original en las autorizaciones españolas, por lo que no se puede evaluar la similitud entre la indicación original y la nueva. Hay que verificar la indicación autorizada en la ficha técnica.
+Además, la indicación original (un cáncer maligno) y la nueva (un crecimiento gingival fibroso, generalmente benigno) son muy distintas. Esto eleva el listón de la relación beneficio-riesgo, ya que se trataría de usar un fármaco oncológico en una condición no maligna.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en España
 
-Se muestran 5 de las 11 autorizaciones.
+Se muestran 5 de las 11 autorizaciones vigentes (todas de medicamentos con un único principio activo; no hay autorizaciones canceladas). Los textos de indicación aprobada no figuran en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
 |---------|------|------|-----------|
-| 83606 | Gefitinib Aristo 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Aristo Pharma Iberia S.L. |
-| 83986 | Gefitinib Genthon 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Genthon B.V. |
-| 84021 | Gefitinib Qilu 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Qilu Pharma Spain S.L. |
-| 84785 | Gefitinib Cipla 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Cipla Europe |
-| 09526001 | Iressa 250 mg comprimidos recubiertos con película | Comprimido recubierto con película | AstraZeneca AB |
+| 09526001 | IRESSA 250 mg comprimidos recubiertos con película | Comprimido recubierto con película | AstraZeneca AB |
+| 83606 | Gefitinib Aristo 250 mg EFG | Comprimido recubierto con película | Aristo Pharma Iberia S.L. |
+| 83716 | Gefitinib Sandoz 250 mg EFG | Comprimido recubierto con película | Sandoz Farmacéutica S.A. |
+| 83851 | Gefitinib Teva 250 mg EFG | Comprimido recubierto con película | Teva B.V. |
+| 84785 | Gefitinib Cipla 250 mg EFG | Comprimido recubierto con película | Cipla Europe |
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de la tirosina quinasa de EGFR) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa de EGFR), no citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar el prospecto (hemograma y función hepática y renal como referencia general) |
-| Protección en Manejo | Consultar el prospecto y las regulaciones de manejo de fármacos antineoplásicos |
+| Items de Monitoreo | Función hepática, función respiratoria (síntomas de enfermedad pulmonar intersticial) y vigilancia de toxicidad cutánea |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-No hay advertencias, contraindicaciones ni interacciones registradas en el paquete de evidencia para este fármaco. Consultar el prospecto para la información de seguridad completa.
+- **Contraindicaciones según el grafo de conocimiento** (no proviene del texto del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, enfermedad pulmonar intersticial, fibrosis pulmonar y fibrosis pulmonar postinflamatoria.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total; las principales, de nivel moderado, son:
+  - Antiácidos y antisecretores gástricos: famotidina, ranitidina, cimetidina, nizatidina y los inhibidores de la bomba de protones (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol).
+  - Otros: aprepitant, claritromicina, dexametasona, naltrexona, miconazol, clotrimazol y troglitazona.
+  - Con nivel desconocido: calcitriol y glimepirida.
+- **Consideración específica**: la literatura recuperada para otras predicciones del mismo fármaco señala toxicidad cutánea, neumonitis/enfermedad pulmonar intersticial y prolongación del QT, aspectos a valorar en cualquier uso nuevo.
 
-La literatura recuperada para otras indicaciones señala estos riesgos, que conviene tener presentes:
-- **Enfermedad pulmonar intersticial** asociada a gefitinib (cartas en *N Engl J Med*, 2010, y una revisión de toxicidad pulmonar).
-- **Prolongación del intervalo QT** (estudio en pacientes con CPNM, 2023, y estudio in vitro, 2021).
-- **Toxicidad cutánea** propia de los inhibidores de EGFR, como erupción acneiforme, paroniquia y xerosis. Es relevante si se plantea una indicación en trastornos de fragilidad cutánea o mucosa.
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación principal predicha (fibromatosis gingival) tiene un puntaje alto del modelo, pero no cuenta con ensayos clínicos, literatura ni un vínculo mecanístico documentado (nivel L5). Otras indicaciones predichas del mismo fármaco, como neoplasias pulmonares, tienen algo más de apoyo indirecto (L4), pero también son insuficientes para avanzar.
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico demostrado, y la relación beneficio-riesgo de un inhibidor de EGFR oncológico en una condición generalmente benigna es desfavorable sin datos adicionales.
 
 **Para avanzar se necesita:**
-- Revisión bibliográfica dirigida sobre EGFR y gefitinib en fibromatosis gingival y fibrosis gingival, para comprobar si existe algún respaldo.
-- Datos de mecanismo de acción y del texto de indicación autorizada, desde DrugBank y la ficha técnica de la AEMPS.
-- Advertencias y contraindicaciones del prospecto de la AEMPS, necesarias para el cribado de seguridad.
-- Estudios preclínicos que muestren participación de la vía EGFR en el tejido gingival fibroproliferativo, antes de considerar cualquier ensayo.
-- Valoración de la ruta de administración y de la relación riesgo-beneficio en una enfermedad benigna, dado el perfil de toxicidad del fármaco.
-
-*Este informe es solo una referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Revisión bibliográfica dirigida sobre EGFR y fibromatosis gingival (modelos preclínicos).
+- Datos detallados del mecanismo de acción y análisis del vínculo mecanístico con la nueva indicación.
+- Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones), actualmente no disponible.
+- Evaluación de la compatibilidad de la vía de administración y de la viabilidad de una formulación o dosis adecuada para una condición no maligna.
+- Comparación con alternativas terapéuticas ya establecidas para la fibromatosis gingival.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Fosaprepitant
 parent: Solo predicción del modelo (L5)
-nav_order: 245
+nav_order: 357
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fosaprepitant: De Náuseas y Vómitos Inducidos por Quimioterapia a Síndrome Nefrogénico de Antidiuresis Inapropiada
+# Fosaprepitant: De Indicación Original No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
 
 ## Resumen en Una Frase
 
-Fosaprepitant es un profármaco intravenoso del antagonista del receptor NK1 aprepitant, usado como antiemético en pacientes que reciben quimioterapia.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada**, pero **no hay ningún ensayo clínico ni publicación** que respalde esta predicción.
+Fosaprepitant es un profármaco de aprepitant, un antagonista del receptor NK1, comercializado en España en perfusión intravenosa. En los datos compilados para este informe no consta el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada (NSIAD)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención de náuseas y vómitos por quimioterapia (uso antiemético deducido de los ensayos vinculados; los registros de AEMPS no traen texto de indicación) |
+| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
@@ -48,50 +50,70 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 | Número de Autorizaciones | 6 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, fosaprepitant es el profármaco de aprepitant, un antagonista del receptor NK1 (sustancia P), y su eficacia antiemética está comprobada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, fosaprepitant es un profármaco de aprepitant, un antagonista del receptor de neuroquinina 1 (NK1) que bloquea la señalización de la sustancia P.
 
-Con los datos disponibles, **la predicción no tiene un vínculo mecanístico que la sostenga**. Esta enfermedad se debe a una mutación con ganancia de función del receptor V2 de vasopresina (AVPR2). Fosaprepitant no tiene una acción conocida sobre esa vía. El puntaje TxGNN, aunque muy alto, es solo una predicción del grafo de conocimiento y no está apoyado por estudios reales.
+El NSIAD se debe a mutaciones con ganancia de función en el receptor V2 de la vasopresina (AVPR2). **No se ha establecido un vínculo mecanístico directo**: el antagonismo de NK1 no tiene un papel conocido en la señalización del receptor V2. El elevado puntaje de TxGNN es únicamente una predicción basada en el grafo de conocimiento y debe interpretarse con cautela.
 
-Entre las 10 indicaciones predichas, solo **retinitis** (puesto 7) tiene algún respaldo: un estudio preclínico en ratón (nivel L4). Ese estudio muestra que fosaprepitant bloquea la expresión de NK1R inducida por radiación UV-B en tejido ocular. Trata de lesión ocular por UV y no de retinitis, así que la extrapolación es indirecta. Las demás predicciones no tienen ensayos ni literatura, o solo tienen ensayos antieméticos sin relación con la enfermedad.
+Otras predicciones del modelo (neumocistosis, lepra, meningitis criptocócica, síndromes de neoplasia endocrina múltiple, absceso intracraneal, malaria por *P. falciparum*, equinococosis, hiperargininemia) tampoco cuentan con ensayos ni literatura. La excepción es la retinitis, con un estudio preclínico indirecto (nivel L4, ver más abajo).
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
+
+*Nota:* para la segunda indicación mejor puntuada con algún respaldo, la retinitis (puntaje TxGNN 99.68%), existe un estudio preclínico en ratones (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/), 2021, *Ocular Immunology and Inflammation*). En él, fosaprepitant bloqueó la expresión de NK1 inducida por radiación UVR-B en tejidos oculares. Es evidencia indirecta (lesión ocular por UV, no retinitis) y se clasifica como L4.
+
+---
 
 ## Información de Mercado en España
 
-Hay 6 autorizaciones en total; los datos detallan las 5 siguientes. Los registros no incluyen el texto de indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 88344 | Fosaprepitant Tarbis 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | Tarbis Farma S.L. |
-| 07437003 | Ivemend 150 mg polvo para solución para perfusión | Polvo para solución para perfusión | Merck Sharp & Dohme B.V. |
-| 86382 | Fosaprepitant Hikma 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | Hikma Farmacéutica (Portugal) S.A. |
-| 83380 | Fosaprepitant Accord 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | Accord Healthcare S.L.U. |
-| 88054 | Fosaprepitant Tecnigen 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | Tecnimede España Industria Farmacéutica S.A. |
+| 88344 | Fosaprepitant Tarbis 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
+| 07437003 | Ivemend 150 mg polvo para solución para perfusión | Polvo para solución para perfusión | No disponible |
+| 86382 | Fosaprepitant Hikma 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
+| 83380 | Fosaprepitant Accord 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
+| 88054 | Fosaprepitant Tecnigen 150 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible |
+
+Se muestran 5 de las 6 autorizaciones vigentes (la sexta es Fosaprepitant Zentiva, nº 84452).
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (grafo de conocimiento):** el grafo de conocimiento TxGNN señala insuficiencia hepática como enfermedad asociada a contraindicación. No proviene del texto del prospecto.
+- **Interacciones Farmacológicas:** se identificaron 100 interacciones en total. Entre las principales mostradas:
+  - **Mayores:** eliglustat, naloxegol.
+  - **Moderadas:** corticoides (hidrocortisona, betametasona, budesonida, dexametasona, triamcinolona), claritromicina, cimetidina, rabeprazol, lansoprazol, miconazol, dronabinol, alosetrón, pioglitazona, saxagliptina, glimepirida, nateglinida y naldemedina.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.92%), pero es solo un resultado del modelo (L5). No hay ensayos ni publicaciones, y no se identifica un mecanismo plausible entre el antagonismo NK1 y la activación del receptor V2.
+La predicción para NSIAD se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y el mecanismo conocido (antagonismo de NK1) no se relaciona con el defecto del receptor V2. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción desde DrugBank para analizar posibles vínculos mecanísticos.
-- Descargar y revisar el prospecto de AEMPS (advertencias y contraindicaciones), que hoy bloquea el cribado de seguridad.
-- Validar en estudios preclínicos si el antagonismo NK1 influye en la señalización de AVPR2 o en el manejo de agua renal.
-- Valorar si conviene priorizar **retinitis** (L4, preclínico) como candidata alternativa de investigación.
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), actualmente un vacío bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción (por ejemplo, vía DrugBank).
+- Establecer una hipótesis mecanística plausible entre NK1 y la señalización de AVPR2 y evaluarla en estudios preclínicos.
+- Valorar si otra indicación predicha con algún respaldo preclínico (retinitis) merece priorización como pregunta de investigación.
+- Revisar las interacciones mayores (eliglustat, naloxegol) y la contraindicación en insuficiencia hepática en cualquier plan futuro.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

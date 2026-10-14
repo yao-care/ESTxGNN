@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Solo predicción del modelo (L5)
-nav_order: 142
+nav_order: 203
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,67 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Cobicistat: De Potenciador Farmacocinetico en la Infeccion por VIH-1 a Infeccion por el Virus de la Inmunodeficiencia Simia
+# Cobicistat: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
 
 ## Resumen en Una Frase
 
-Cobicistat es un inhibidor de CYP3A que se comercializa como potenciador farmacocinetico de antirretrovirales contra el VIH-1.
-El modelo TxGNN predice que podria ser util en la **infeccion por el virus de la inmunodeficiencia simia (VIS)**,
-pero actualmente hay **0 ensayos clinicos** y **0 publicaciones** que respalden esta direccion, por lo que es solo una prediccion del modelo.
+Cobicistat es un potenciador farmacocinético utilizado originalmente en el tratamiento de la infección por VIH y el SIDA.
+El modelo TxGNN predice que podría ser efectivo para **infección por el virus de la inmunodeficiencia simia (VIS)**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Nueva Indicacion Predicha | Infeccion por el virus de la inmunodeficiencia simia (VIS) |
-| Puntaje de Prediccion TxGNN | 99.92% |
+| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; el texto de indicación autorizado no está disponible) |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia |
+| Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Numero de Autorizaciones | 1 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en España | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el paquete de evidencia. Segun la informacion conocida, cobicistat inhibe la enzima CYP3A y se usa como potenciador farmacocinetico junto con antirretrovirales como elvitegravir, darunavir y atazanavir. No tiene actividad antiviral propia relevante. Su funcion es aumentar la exposicion del antirretroviral que lo acompana.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, cobicistat es un inhibidor del CYP3A basado en mecanismo que se usa como potenciador farmacocinético de antirretrovirales (por ejemplo, elvitegravir, atazanavir, darunavir) en el tratamiento del VIH-1. No tiene actividad antiviral intrínseca conocida.
 
-El VIS es un lentivirus de primates muy parecido al VIH-1. Lo mas probable es que la puntuacion alta refleje la cercania en el grafo de conocimiento con el VIH-1, y no un efecto directo sobre el VIS. Cualquier utilidad seria indirecta, por ejemplo potenciar antirretrovirales coadministrados en modelos animales de VIS.
+El VIS es un lentivirus muy cercano al VIH y es el modelo de primates no humanos más habitual de esta enfermedad. Por ello, el alto puntaje de TxGNN probablemente refleja la proximidad en la red de conocimiento con la indicación de VIH. Cualquier beneficio dependería de potenciar un antirretroviral administrado conjuntamente.
 
-Este vinculo es una inferencia, no un hecho verificado. Los datos de origen no incluyen indicaciones originales ni mecanismo de accion, y no hay ensayos ni literatura que lo apoyen.
+Conviene tener en cuenta que el VIS es un modelo veterinario/preclínico y no una enfermedad humana, lo que limita la traslación clínica. Las otras dos predicciones del modelo tampoco aportan una vía de reposicionamiento humana sólida: el SIDA felino (enfermedad veterinaria, puntaje 99.92%) y un trastorno del neurodesarrollo raro con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical (puntaje 99.91%), para el cual no se identificó ningún vínculo mecanístico claro.
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Informacion de Mercado en Espana
+## Información de Mercado en España
 
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 113872001 | TYBOST 150mg comprimidos recubiertos con pelicula | Comprimido recubierto con pelicula | Gilead Sciences Ireland Unlimited Company |
+| 113872001 | TYBOST 150 mg comprimidos recubiertos con película (Gilead Sciences Ireland Unlimited Company) | Comprimido recubierto con película | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones (fuente: DDInter). Entre las principales de gravedad **Mayor**:
+  - Loperamida
+  - Triamcinolona
+  - Cisaprida
+  - Budesonida
 
-## Conclusion y Proximos Pasos
+  Entre las de gravedad **Moderada** figuran hidrocortisona, aprepitant, betametasona, clotrimazol, dexametasona, fenfluramina, dexfenfluramina, metoclopramida, repaglinida y claritromicina. También se registró una interacción **Menor** con prucaloprida. Muchas se explican por la inhibición del CYP3A.
 
-**Decision: Hold**
+Para advertencias y contraindicaciones, consultar el prospecto.
 
-**Justificacion:**
-La prediccion se apoya solo en el modelo (L5). No hay ensayos ni publicaciones, y el mecanismo es indirecto, ya que cobicistat solo potenciaria a otro antirretroviral. Ademas, el VIS es una infeccion animal, por lo que el flujo de reposicionamiento para uso humano no se aplica directamente.
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el VIS es un modelo animal y no una enfermedad humana, y cobicistat carece de actividad antiviral propia.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de accion desde DrugBank.
-- Advertencias y contraindicaciones del prospecto de AEMPS.
-- Estudios preclinicos en modelos de VIS que evaluen cobicistat como potenciador de un antirretroviral concreto.
-- Una justificacion clara de la relevancia para uso humano.
-
-**Otras predicciones del modelo (no priorizadas):**
-- **Sindrome de inmunodeficiencia adquirida felina** (99.92%): indicacion veterinaria, sin evidencia. Decision: Hold.
-- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminucion de la sustancia blanca cortical** (99.91%): no se identifico ningun vinculo mecanistico plausible, y probablemente sea un artefacto del grafo. Decision: Hold.
+- Obtener y revisar las advertencias y contraindicaciones del prospecto de la AEMPS
+- Completar los datos del mecanismo de acción
+- Evaluar si la indicación tiene relevancia clínica humana o solo valor como modelo preclínico
+- Buscar estudios preclínicos o de farmacocinética que respalden el uso como potenciador en el contexto del VIS
+- Revisar el perfil de interacciones farmacológicas (100 registradas) antes de cualquier uso fuera de indicación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

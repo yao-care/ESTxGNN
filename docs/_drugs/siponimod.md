@@ -2,7 +2,7 @@
 layout: default
 title: Siponimod
 parent: Solo predicción del modelo (L5)
-nav_order: 494
+nav_order: 739
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Siponimod: De Esclerosis Múltiple a Hipertensión Pulmonar
+# Siponimod: De Indicación Original No Especificada a Hipertensión Pulmonar
 
 ## Resumen en Una Frase
 
-Siponimod (comercializado en España como Mayzent) es un modulador de los receptores S1P1/S5 de la esfingosina-1-fosfato, utilizado como inmunomodulador en esclerosis múltiple. El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
+Siponimod es un modulador selectivo de los receptores S1P1/S1P5 que se comercializa en España con el nombre Mayzent. Los datos compilados para este informe no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ---
 
@@ -41,9 +42,9 @@ Siponimod (comercializado en España como Mayzent) es un modulador de los recept
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible: los textos de indicación de las autorizaciones de la AEMPS están vacíos. La esclerosis múltiple se deduce del contexto de la literatura y de la clase farmacológica |
+| Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99,68% |
+| Puntaje de Predicción TxGNN | 99,68 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
@@ -53,11 +54,23 @@ Siponimod (comercializado en España como Mayzent) es un modulador de los recept
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, siponimod es un modulador de los receptores S1P1 y S5, cuya acción reduce la salida de linfocitos de los ganglios linfáticos. Su eficacia inmunomoduladora es la base de su uso original.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, siponimod es un modulador selectivo de los receptores de esfingosina-1-fosfato (S1P1 y S1P5). Estos receptores intervienen en la migración de los linfocitos y en la función de barrera endotelial.
 
-La señalización de S1P participa en la remodelación vascular pulmonar, por lo que existe un vínculo biológico plausible pero **no verificado**. No hay estudios que lo confirmen. Además, los efectos cardiovasculares conocidos de siponimod (bradicardia, cambios en la presión arterial) no respaldan un vínculo terapéutico con esta enfermedad.
+La señalización de S1P se ha relacionado con la remodelación vascular pulmonar y con la función de barrera del endotelio, lo que ofrece un posible vínculo teórico con la hipertensión pulmonar. Sin embargo, la modulación de S1P1 provoca bradicardia transitoria y podría tener efectos impredecibles sobre la vasculatura pulmonar.
 
-En conjunto, la predicción tiene un puntaje alto (rango 5666 en TxGNN), pero no cuenta con respaldo mecanístico ni clínico. Debe tratarse como una hipótesis exploratoria.
+Este vínculo es puramente computacional (puntaje alto de TxGNN) y no cuenta con ensayos ni literatura de apoyo. No se pudo establecer la relación con la indicación original, ya que esta no figura en los datos.
+
+### Otras predicciones del modelo (para contexto)
+
+| Posición | Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
+|------|------|------|------|------|
+| 2 | Trastorno de migraña | 99,66 % | L4 | Solo un reporte de caso/comentario (2022) y una entrada genérica de «Neurología» |
+| 3 | Cardiopatía cifoscoliótica | 99,56 % | L5 | Sin vínculo mecanístico plausible; probable artefacto del grafo |
+| 4 | Migraña con aura de tronco encefálico | 99,56 % | L4 | Misma publicación de 2022, no específica |
+| 5 | Susceptibilidad a migraña con o sin aura | 99,49 % | L4 | Evidencia indirecta, redundante con otras migrañas |
+| 6 | Angina de Prinzmetal | 99,34 % | L5 | Sin evidencia; preocupación de seguridad cardíaca |
+| 7 | Artritis reumatoide | 99,16 % | L4 | La más plausible biológicamente (secuestro linfocitario), aún en fase de hipótesis |
+| 8 | Atrofodermia vermiculada | 99,10 % | L5 | Sin vínculo mecanístico; probable artefacto computacional |
 
 ---
 
@@ -69,27 +82,34 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para hipertensión pulmonar.
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1191414001 | Mayzent 0,25 mg comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
-| 1191414003 | Mayzent 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
-| 1191414007 | Mayzent 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | Novartis Europharm Limited |
+| 1191414003 | MAYZENT 2 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 1191414001 | MAYZENT 0,25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 1191414007 | MAYZENT 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 
-El texto de indicación aprobada no está disponible en los registros recibidos.
+Titular de las tres autorizaciones: Novartis Europharm Limited.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las que se muestran, muchas son de nivel **Mayor**:
+  - Antiácidos/antagonistas H2: famotidina, ranitidina, cimetidina.
+  - Corticosteroides: hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida.
+  - Antieméticos: aprepitant, dolasetrón, palonosetrón.
+  - Antibióticos: claritromicina, levofloxacino.
+  - Otros: oxandrolona.
+  - De nivel **Moderado**: loperamida, bisacodilo, ácido picosulfúrico, polietilenglicol 3350 con electrolitos, sulfato de sodio, naltrexona.
+- **Consideración cardíaca (según el análisis de la predicción)**: la modulación de S1P1 puede causar bradicardia y retraso de la conducción auriculoventricular. Esto es especialmente relevante en hipertensión pulmonar, cardiopatía cifoscoliótica y angina de Prinzmetal.
 
-Como precaución adicional, los efectos cardíacos de siponimod (bradicardia, retraso de la conducción auriculoventricular) requerirían una evaluación específica en pacientes con enfermedad cardiopulmonar.
+Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dispone de esos datos.
 
 ---
 
@@ -98,21 +118,14 @@ Como precaución adicional, los efectos cardíacos de siponimod (bradicardia, re
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5), sin ensayos ni publicaciones. El mecanismo es especulativo, y el perfil cardiovascular del fármaco plantea un posible conflicto con esta indicación.
+La predicción para hipertensión pulmonar se basa únicamente en el modelo (L5), sin ensayos ni literatura, con un vínculo mecanístico débil y posibles riesgos cardiovasculares. Entre las demás predicciones, solo la artritis reumatoide muestra un fundamento de clase razonable, aunque sigue en fase de hipótesis.
 
 **Para avanzar se necesita:**
-- Prospecto de la AEMPS con advertencias y contraindicaciones (falta bloqueante para el cribado de seguridad)
-- Datos del mecanismo de acción (MOA) desde DrugBank
-- Datos preclínicos que muestren un efecto de la modulación de S1P1/S5 en modelos de hipertensión pulmonar
-- Evaluación de la seguridad cardiovascular en esta población
-
-**Otras predicciones del mismo fármaco, para referencia:**
-- **Migraña (L4, Research Question):** un único artículo de 2022 (PMID 35382764) menciona siponimod junto con migraña. Solo se dispuso del título y de un resumen parcial. No se puede determinar si el efecto observado es beneficio, agravamiento o coincidencia en pacientes con EM. No hay ensayos.
-- **Artritis reumatoide (L4, Research Question):** existe plausibilidad biológica indirecta por la señalización S1P en enfermedades inmunomediadas (PMID 33983615), pero no hay ensayos específicos de siponimod.
-- **Cardiopatía cifoescoliótica, angina de Prinzmetal y atrofodermia vermiculada (L5, Hold):** solo predicción, sin ensayos, sin publicaciones y sin mecanismo plausible.
-- **Migraña con aura de tronco encefálico y migraña con o sin aura, susceptibilidad a (L4, Hold):** dependen del mismo artículo general sobre migraña. La literatura restante trata de genética de la epilepsia y es contexto, no evidencia de siponimod.
-
-Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación aprobada), un vacío crítico que impide el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Estudios preclínicos de siponimod en modelos de hipertensión pulmonar.
+- Evaluación específica del riesgo cardiovascular (bradicardia, conducción AV) en pacientes con enfermedad cardiopulmonar.
+- Priorizar, de forma exploratoria, la revisión de la hipótesis de artritis reumatoide como alternativa más plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Bedaquiline
 parent: Evidencia moderada (L3-L4)
-nav_order: 64
+nav_order: 89
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Bedaquilina: De Tuberculosis Multirresistente a Tuberculosis Bovina
+# Bedaquilina: De Tuberculosis Pulmonar a Tuberculosis Bovina
 
 ## Resumen en Una Frase
 
-Bedaquilina (comercializada como Sirturo) es un antibiótico antituberculoso que actúa sobre la ATP sintasa de las micobacterias y se usa en la tuberculosis multirresistente (TB-MDR). Este uso no figura en el texto de indicación de las autorizaciones españolas, que está vacío.
-El modelo TxGNN predice que podría ser efectiva para la **tuberculosis bovina**, pero hoy solo hay **0 ensayos clínicos** y **3 publicaciones** de laboratorio (in vitro) sobre *M. tuberculosis*, ninguna sobre *M. bovis*.
-
----
+Bedaquilina es un antibiótico antituberculoso, utilizado originalmente para tratar la tuberculosis pulmonar y la tuberculosis multirresistente.
+El modelo TxGNN predice que podría ser efectivo para **tuberculosis bovina**,
+pero actualmente no hay **ningún ensayo clínico** y solo **1 publicación** (un estudio in vitro sobre *M. tuberculosis*) respalda esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tuberculosis multirresistente (según el análisis de mecanismo; no consta en el texto de las autorizaciones) |
+| Indicación Original | Tuberculosis pulmonar y tuberculosis multirresistente |
 | Nueva Indicación Predicha | Tuberculosis bovina |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L4 |
@@ -50,61 +49,54 @@ El modelo TxGNN predice que podría ser efectiva para la **tuberculosis bovina**
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Bedaquilina es una diarilquinolina que mata a *Mycobacterium tuberculosis* inhibiendo de forma específica su ATP sintasa. La ficha no incluye datos detallados del mecanismo de acción, pero la literatura recuperada lo respalda. Un estudio bioquímico de 2009 mostró que la ATP sintasa mitocondrial humana es más de 20.000 veces menos sensible al fármaco que la micobacteriana (IC50 >200 µM frente a 10 nM).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, bedaquilina inhibe la ATP sintasa de las micobacterias (subunidad c de la F-ATP sintasa), por lo que bloquea la producción de energía de la bacteria. Esta información no procede de los datos compilados y debe confirmarse en una fuente oficial.
 
-*Mycobacterium bovis*, causante de la tuberculosis bovina, pertenece al complejo *M. tuberculosis*. Por eso es plausible que el mismo mecanismo funcione. Además, el modelo TxGNN asigna a esta indicación una puntuación muy alta.
+La tuberculosis bovina la causa *Mycobacterium bovis*, que pertenece al mismo complejo que *M. tuberculosis*, el agente de la tuberculosis humana. Como ambas especies comparten gran parte de su biología, es plausible que un fármaco activo contra una también lo sea contra la otra.
 
-La plausibilidad es solo teórica. Los tres artículos encontrados son estudios in vitro o bioquímicos sobre *M. tuberculosis* (metodología de la concentración mínima inhibitoria, selectividad de la ATP sintasa y efectos de arrastre del fármaco en cultivos). Ninguno evalúa *M. bovis*, la enfermedad bovina ni pacientes.
-
----
+Sin embargo, la única evidencia disponible es un artículo metodológico in vitro sobre la concentración mínima inhibitoria (CMI) de bedaquilina frente a *M. tuberculosis* H37Rv. No hay datos específicos de *M. bovis* ni datos clínicos. El puntaje alto del modelo refleja sobre todo la cercanía en el grafo de conocimiento con la tuberculosis, no una demostración de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [27210281](https://pubmed.ncbi.nlm.nih.gov/27210281/) | 2016 | Estudio in vitro | Médecine et Maladies Infectieuses | Analiza cómo las condiciones de cultivo modifican la concentración mínima inhibitoria (CMI) de bedaquilina frente a *M. tuberculosis* H37Rv. Sirve para estandarizar las pruebas de sensibilidad y evitar falsas resistencias. |
-| [19075053](https://pubmed.ncbi.nlm.nih.gov/19075053/) | 2009 | Estudio in vitro/bioquímico | Antimicrobial Agents and Chemotherapy | La ATP sintasa mitocondrial humana es más de 20.000 veces menos sensible al fármaco que la micobacteriana. Sugiere una alta selectividad por la bacteria. |
-| [18480227](https://pubmed.ncbi.nlm.nih.gov/18480227/) | 2008 | Estudio in vitro | Journal of Clinical Microbiology | Los medios enriquecidos con proteínas (albúmina) previenen el efecto de arrastre del fármaco al medir su eficacia antimicobacteriana. |
-
----
+| [27210281](https://pubmed.ncbi.nlm.nih.gov/27210281/) | 2016 | Estudio in vitro | Medecine et maladies infectieuses | Evalúa cómo las condiciones de cultivo in vitro afectan la CMI de bedaquilina frente a *M. tuberculosis* H37Rv, con el fin de estandarizar las pruebas de sensibilidad. No aborda la tuberculosis bovina. |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 113901001 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | Janssen-Cilag International N.V |
-| 113901002 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | Janssen-Cilag International N.V |
+| 113901001 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
+| 113901002 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
 
----
+Ambas autorizaciones están vigentes, corresponden a monofármaco y su titular es Janssen-Cilag International N.V.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones (la lista revisada incluye 20). Entre las de nivel **Mayor** figuran dexametasona, claritromicina, ácido picosulfúrico, polietilenglicol (3350 con electrolitos), dolasetrón, palonosetrón y sulfato de sodio. Hay además varias de nivel **Moderado**, como acarbosa, famotidina, doxiciclina, pioglitazona, loperamida, bupropión, bisacodilo, ácido quenodesoxicólico, minociclina, oxandrolona, oximetolona, tetraciclina y naltrexona.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para la tuberculosis bovina solo existe evidencia preclínica (L4), sin ensayos clínicos ni estudios en *M. bovis*. La puntuación de TxGNN, aunque alta, no equivale a evidencia clínica.
+La predicción se apoya solo en un estudio in vitro sobre *M. tuberculosis*, sin ensayos clínicos ni datos específicos de *M. bovis* (nivel L4). El mecanismo es plausible, pero no hay evidencia directa que justifique avanzar.
 
 **Para avanzar se necesita:**
-- Estudios de sensibilidad in vitro (CMI) de bedaquilina frente a cepas de *M. bovis*, y luego modelos animales.
-- Los textos de indicación y las advertencias del prospecto de la AEMPS, hoy ausentes, y los datos de mecanismo de acción de DrugBank.
-- Definir si el interés está en la enfermedad humana por *M. bovis* o en el uso veterinario. Esta predicción no aclara ese punto.
-- Revisar las otras predicciones de este fármaco, que tienen más respaldo clínico. La más avanzada es la tuberculosis "inactiva" (probablemente latente), con el ensayo de fase 2/3 BREACH-TB (NCT06568484) en curso. Hay que confirmar antes esa denominación de la enfermedad.
+- Datos de actividad in vitro e in vivo de bedaquilina frente a *M. bovis*.
+- Confirmación del mecanismo de acción en una fuente oficial.
+- Revisión de advertencias y contraindicaciones del prospecto de la AEMPS.
+- Análisis detallado de interacciones, dado el elevado número de las de nivel Mayor.
+- Valorar si esta indicación tiene relevancia clínica real en humanos, porque la tuberculosis bovina es poco frecuente y se maneja dentro del espectro de la tuberculosis.
+
+**Nota complementaria:** entre las otras predicciones del modelo, la **tuberculosis inactiva (infección latente)** cuenta con evidencia más sólida, en particular el ensayo de fase 2/3 BREACH-TB (NCT06568484), aún en reclutamiento y sin resultados. Podría ser una dirección más prometedora para una evaluación posterior.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

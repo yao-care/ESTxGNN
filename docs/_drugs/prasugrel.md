@@ -2,7 +2,7 @@
 layout: default
 title: Prasugrel
 parent: Solo predicción del modelo (L5)
-nav_order: 433
+nav_order: 655
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Prasugrel: De Inhibidor Plaquetario P2Y12 a Hipertensión Pulmonar
+# Prasugrel: De Síndrome Coronario Agudo a Hipertensión Pulmonar
 
 ## Resumen en Una Frase
 
-Prasugrel es un antiagregante plaquetario de la familia de las tienopiridinas (inhibidor del receptor P2Y12).
-El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero la evidencia es muy débil: aunque se recuperaron **2 ensayos clínicos** y **2 publicaciones**, ninguno estudia prasugrel ni la hipertensión pulmonar, por lo que la predicción sigue siendo solo teórica.
+Prasugrel es un antiagregante plaquetario que se utiliza originalmente en el síndrome coronario agudo.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero actualmente hay **0 ensayos clínicos** y **2 publicaciones** de relevancia indirecta, ninguna de las cuales evalúa prasugrel en esta enfermedad. La predicción se apoya solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Síndrome coronario agudo |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 99,88% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
@@ -49,61 +50,57 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, prasugrel es una tienopiridina que bloquea el receptor plaquetario P2Y12 y reduce la agregación de las plaquetas. Su uso establecido está en la prevención de eventos trombóticos.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información conocida, prasugrel es un antagonista del receptor plaquetario P2Y12 (clase de las tienopiridinas). Su eficacia en el síndrome coronario agudo, donde previene la formación de trombos, está establecida.
 
-La activación plaquetaria y la trombosis in situ participan en algunas formas de hipertensión pulmonar. Por eso, mecanísticamente, un antiagregante podría tener un papel teórico en esta enfermedad.
+La relación con la hipertensión pulmonar es plausible pero no está demostrada. La activación plaquetaria y la trombosis in situ contribuyen a la remodelación vascular pulmonar, por lo que bloquear P2Y12 podría, en teoría, modificar ese proceso.
 
-Este vínculo es solo una hipótesis. No hay datos específicos de prasugrel que la respalden, y la puntuación alta de TxGNN es únicamente una predicción computacional.
+Las dos publicaciones recuperadas tratan sobre la adherencia a clopidogrel en pacientes con síndrome coronario agudo y sobre el efecto de terapias previas en el desenlace de COVID-19. Ninguna prueba prasugrel en hipertensión pulmonar, así que el vínculo sigue siendo especulativo.
 
 ## Evidencia de Ensayos Clínicos
 
-Los dos ensayos recuperados fueron valorados como poco relevantes: no involucran prasugrel ni hipertensión pulmonar.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Completado | 300 | Estudio retrospectivo multicéntrico sobre la proporción de pacientes con trombosis asociada a cáncer que no serían elegibles para un estudio como CARAVAGGIO. No guarda relación con prasugrel ni con hipertensión pulmonar. |
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completado | 500 | Estudio observacional transversal sobre el manejo de anticoagulantes orales no antagonistas de la vitamina K en ancianos con fibrilación auricular no valvular en España. No guarda relación con prasugrel ni con hipertensión pulmonar. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Ambas publicaciones son estudios de cohorte y tampoco aportan evidencia directa.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohorte | Kardiologiia | Análisis del registro ACTIVE (más de 5.800 pacientes con COVID-19) sobre cómo influye el tratamiento previo de enfermedades cardiovasculares y otras comorbilidades en la gravedad y el desenlace de la infección. |
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohorte | Current Medical Research and Opinion | Factores asociados al uso, la adherencia y la persistencia de clopidogrel en pacientes con síndrome coronario agudo sometidos a intervención coronaria percutánea. |
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohorte | Current Medical Research and Opinion | Factores asociados al uso, la adherencia y la persistencia de clopidogrel en pacientes con síndrome coronario agudo tras intervención coronaria percutánea. No aborda hipertensión pulmonar. |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohorte (registro) | Kardiologiia | Influencia de las terapias previas para comorbilidades sobre el riesgo de muerte por COVID-19 en el registro internacional ACTIV. No evalúa prasugrel en hipertensión pulmonar. |
 
 ## Información de Mercado en España
 
-Prasugrel tiene 20 autorizaciones en España. Estas son las 5 principales:
+Hay 20 autorizaciones vigentes, todas de medicamentos de un solo principio activo (comprimidos recubiertos con película, 5 mg y 10 mg). A continuación se listan las 5 principales; el texto de indicación aprobada no estaba disponible en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
-| 83790 | Prasugrel Swanpond Investments 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 83730 | Prasugrel Lesvi 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 08503009IP3 | Efient 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 83098 | Prasugrel Stada 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 82930 | Prasugrel Teva 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
+| 08503009 | Efient 10 mg (Substipharm) | Comprimido recubierto con película |
+| 82930 | Prasugrel Teva 10 mg EFG | Comprimido recubierto con película |
+| 83098 | Prasugrel Stada 10 mg EFG | Comprimido recubierto con película |
+| 83508 | Prasugrel Krka 5 mg EFG | Comprimido recubierto con película |
+| 83730 | Prasugrel Lesvi 10 mg EFG | Comprimido recubierto con película |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones sugeridas por el grafo de conocimiento** (no proceden del prospecto): insuficiencia hepática, trastornos hipotensivos, enfermedades de la coagulación, ictus y trastornos cerebrovasculares, infarto cerebral, ataque isquémico transitorio, insuficiencia vertebrobasilar, hemorragia intracraneal, púrpura trombocitopénica y lesiones o traumatismos.
+- **Interacciones farmacológicas** (100 registradas; se muestran las de mayor gravedad):
+  - **Mayor**: deferasirox e ibritumomab tiuxetán.
+  - **Moderada**: ácido acetilsalicílico, morfina, opio, fenfluramina, dexfenfluramina y sibutramina.
+  - **Menor**: varios antagonistas H2 (famotidina, ranitidina, cimetidina, nizatidina) e inhibidores de la bomba de protones (omeprazol, esomeprazol, pantoprazol, lansoprazol, rabeprazol, dexlansoprazol), además de bupropión.
+
+Para las advertencias principales y las contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de hipertensión pulmonar se apoya solo en el modelo (nivel L5). Ningún ensayo ni publicación recuperados estudia prasugrel en esta enfermedad, y el vínculo con la trombosis in situ es únicamente teórico.
+La predicción para hipertensión pulmonar tiene un puntaje alto en el modelo, pero no cuenta con ensayos clínicos ni con literatura que pruebe prasugrel en esta enfermedad (nivel L5). El perfil de riesgo hemorrágico del fármaco exige una base de evidencia mayor antes de plantear su uso en esta población.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos o clínicos que evalúen prasugrel o inhibidores P2Y12 en hipertensión pulmonar.
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank.
-- Advertencias y contraindicaciones del prospecto de la AEMPS para el cribado de seguridad, con especial atención al riesgo de sangrado en una población no cardíaca.
-
-**Otras predicciones del modelo:** la mejor respaldada es la **migraña** (puntaje TxGNN 99.88%, nivel L3, decisión "Research Question"). Existe una revisión retrospectiva de tienopiridinas en pacientes con migraña y foramen oval permeable, además de un piloto con ticagrelor, otro inhibidor P2Y12. Como línea de investigación, merece más atención que la hipertensión pulmonar. El resto de predicciones (por ejemplo, artritis reumatoide o lepra) están en nivel L5 y no tienen evidencia.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Estudios preclínicos que respalden el papel de P2Y12 en la remodelación vascular pulmonar.
+- Datos detallados del mecanismo de acción para analizar el vínculo mecanístico.
+- Revisión del prospecto de la AEMPS (advertencias y contraindicaciones) para completar el cribado de seguridad, sobre todo el riesgo hemorrágico.
+- Valorar la migraña asociada a foramen oval permeable, que en los mismos datos tiene mejor respaldo (nivel L3, con un ensayo de Fase 3 en reclutamiento y revisiones retrospectivas de tienopiridinas) como alternativa prioritaria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

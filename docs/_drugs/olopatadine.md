@@ -2,7 +2,7 @@
 layout: default
 title: Olopatadine
 parent: Solo predicción del modelo (L5)
-nav_order: 394
+nav_order: 588
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,84 +29,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Olopatadina: De Conjuntivitis Alérgica a Conjuntivitis Rosácea
+# Olopatadina: De Rinitis Alérgica y Conjuntivitis Alérgica a Conjuntivitis Rosácea
 
 ## Resumen en Una Frase
 
-Olopatadina es un antihistamínico H1 con acción estabilizadora de mastocitos, usado por vía tópica ocular (colirio) para la conjuntivitis alérgica. Este uso procede de conocimiento farmacológico general, porque las autorizaciones del Evidence Pack no incluyen el texto de indicación.
-El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosácea**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción basada solo en el modelo.
-
----
+Olopatadina es un antihistamínico y estabilizador de mastocitos, utilizado originalmente para tratar la rinitis alérgica, la rinitis vasomotora y distintos tipos de conjuntivitis alérgica (atópica, papilar y primaveral).
+El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosácea** (rosácea ocular), pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS (texto de indicación vacío en todas las autorizaciones). Uso conocido: conjuntivitis alérgica (conocimiento general, no verificado) |
+| Indicación Original | Rinitis alérgica, rinitis vasomotora y conjuntivitis (atópica, papilar y primaveral), según el grafo de conocimiento TxGNN (los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Conjuntivitis rosácea |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Puntaje de Predicción TxGNN | 99,41% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 9 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según el conocimiento farmacológico general (no verificado con los datos suministrados), la olopatadina es un antagonista H1 con actividad estabilizadora de mastocitos. Se usa por vía tópica en conjuntivitis alérgica, y mecanísticamente podría ser aplicable a la conjuntivitis asociada a rosácea (rosácea ocular).
+Olopatadina es un antagonista del receptor H1 de histamina y estabilizador de mastocitos. Ya se comercializa como colirio para varios tipos de conjuntivitis alérgica. Los datos curados sobre su mecanismo de acción no están disponibles, por lo que este razonamiento se basa en farmacología general y no en datos verificados.
 
-La relación sería solo indirecta: la histamina y los mastocitos podrían contribuir a la inflamación de la superficie ocular. Sin embargo, la rosácea ocular se explica sobre todo por disfunción de las glándulas de Meibomio, inestabilidad de la película lagrimal y factores inmunes innatos y microbianos. Un mecanismo antihistamínico abordaría, como mucho, una parte menor del cuadro.
+Un vínculo plausible con la conjuntivitis rosácea es su actividad antiinflamatoria y antihistamínica en la superficie ocular, ya que la actividad de los mastocitos y los mediadores inflamatorios se han relacionado con la inflamación ocular de la rosácea.
 
-El puntaje alto (0.994) no es evidencia clínica. Podría reflejar en parte la asociación conocida del fármaco con conjuntivitis en el grafo de conocimiento, lo que lo convertiría en una señal de indicación cercana y no específica de rosácea. Como no hay indicaciones originales registradas, no fue posible confirmar si el grafo ya cubre la conjuntivitis alérgica.
-
----
+Sin embargo, la rosácea ocular depende principalmente de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal y factores inmunitarios innatos y microbianos. El mecanismo antihistamínico/estabilizador de mastocitos probablemente solo aborda una parte menor de la patología. El alto puntaje de TxGNN (0,994) es una predicción computacional que probablemente refleja la proximidad en la red a otras indicaciones de conjuntivitis ya asociadas al fármaco.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-Se muestran 5 de las 9 autorizaciones. Todas corresponden a colirio en solución.
+Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada). Se listan las 5 principales. El texto de indicación aprobada no figura en los datos compilados para este informe.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 02217001IP3 | OPATANOL 1 mg/ml colirio en solución | Colirio en solución | No consignada en los datos |
-| 02217001IP | OPATANOL 1 mg/ml colirio en solución | Colirio en solución | No consignada en los datos |
-| 02217001IP1 | OPATANOL 1 mg/ml colirio en solución | Colirio en solución | No consignada en los datos |
-| 02217001 | OPATANOL 1 mg/ml colirio en solución | Colirio en solución | No consignada en los datos |
-| 02217001IP2 | OPATANOL 1 mg/ml colirio en solución | Colirio en solución | No consignada en los datos |
+| 02217001 | OPATANOL 1 mg/ml colirio en solución (Novartis Europharm Limited) | Colirio en solución | No disponible en los datos compilados |
+| 02217001IP | OPATANOL 1 mg/ml colirio en solución (Alcon Laboratories Ltd, Reino Unido) | Colirio en solución | No disponible en los datos compilados |
+| 84786 | Olopatadina Juta 1 mg/ml colirio en solución | Colirio en solución | No disponible en los datos compilados |
+| 80808 | Apadin 1 mg/ml colirio en solución (Tiedra Farmacéutica S.L.) | Colirio en solución | No disponible en los datos compilados |
+| 83595 | Olopatadina Abamed 1 mg/ml colirio en solución (Qualix Pharma S.L.) | Colirio en solución | No disponible en los datos compilados |
 
----
+Las otras autorizaciones corresponden a presentaciones adicionales de Opatanol (02217001IP1, 02217001IP2, 02217001IP3) y a Olopatadina Vir (84864). Todas las formas son colirio en solución.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no proceden del prospecto)**: enfermedad del tracto respiratorio inferior, enfermedad de los senos paranasales, enfermedad de la cavidad nasal y enfermedad del tracto respiratorio superior. Deben interpretarse con cautela, ya que no están confirmadas por el texto de la ficha técnica.
+- **Interacciones Farmacológicas**: la consulta se completó con 100 interacciones registradas, todas con nivel de gravedad "Desconocido" (fuente: DDInter). Entre las principales figuran pantoprazol, doxiciclina, clotrimazol, metformina, omeprazol, lansoprazol, cimetidina, triamcinolona, prednisona, simvastatina, epinefrina e hidrocortisona. Al ser un colirio con baja exposición sistémica, la relevancia clínica no está establecida con estos datos.
 
----
+Consultar el prospecto para información de advertencias y contraindicaciones oficiales.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni publicaciones. El vínculo mecanístico con la rosácea ocular es débil e indirecto, y faltan datos de seguridad y de mecanismo de acción.
+La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, la fisiopatología de la rosácea ocular se explica solo en parte por el mecanismo antihistamínico, y faltan datos de mecanismo y de seguridad oficiales.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS y extraer advertencias, contraindicaciones e indicación aprobada (este dato bloquea el cribado de seguridad).
-- Completar el mecanismo de acción (MOA) desde DrugBank.
-- Revisar la literatura y los registros de ensayos por si existe evidencia en conjuntivitis rosácea o rosácea ocular.
-- Confirmar si el grafo ya cubre la conjuntivitis alérgica, para saber si la señal es específica o de una indicación cercana.
-- Evaluar la compatibilidad de vía. El colirio es de uso ocular tópico, pero el estado está pendiente.
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), necesario para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisar la literatura sobre mastocitos e histamina en la rosácea ocular y sobre el uso de antihistamínicos tópicos en esta condición.
+- Buscar o diseñar estudios preclínicos o clínicos exploratorios (por ejemplo, ensayo piloto de fase 2 de colirio de olopatadina en rosácea ocular).
+- Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, actualmente pendientes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

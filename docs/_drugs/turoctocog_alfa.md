@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 549
+nav_order: 832
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Turoctocog alfa: De Indicación Original No Disponible a Trastorno Primario de Liberación Plaquetaria
+# Turoctocog Alfa: De Hemofilia a Trastorno de Liberación Primaria de las Plaquetas
 
 ## Resumen en Una Frase
 
-Turoctocog alfa es un factor VIII (FVIII) recombinante con dominio B truncado, comercializado en España como NovoEight. Los datos de autorización de la AEMPS recibidos no incluyen el texto de su indicación original.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Turoctocog alfa es un factor VIII de coagulación humano recombinante (con dominio B truncado), utilizado originalmente para el tratamiento de la hemofilia.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberación primaria de las plaquetas**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria (primary release disorder of platelets) |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Indicación Original | Hemofilia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
+| Puntaje de Predicción TxGNN | 99,99 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 6 |
@@ -50,11 +51,25 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos. Por su naturaleza, turoctocog alfa es un FVIII recombinante que reemplaza el cofactor ausente del factor IXa en el complejo tenasa intrínseco, dentro de la cascada de coagulación. Su uso establecido es el déficit congénito de FVIII.
+Turoctocog alfa es un factor VIII recombinante con el dominio B truncado. Su función es reponer el factor VIII deficiente en la hemofilia. No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.
 
-Los trastornos de liberación plaquetaria son defectos de la secreción de los gránulos de las plaquetas. La reposición de FVIII no corrige ese defecto de fondo. El puntaje alto de TxGNN (99,99%) proviene de una predicción basada en el grafo de conocimiento, probablemente por la cercanía con otros trastornos hemorrágicos. No cuenta con ensayos ni literatura de respaldo.
+Los trastornos de liberación plaquetaria son defectos de la secreción de gránulos de las plaquetas, no una deficiencia de factor VIII. Un papel de apoyo del factor VIII solo es concebible en la amplificación secundaria de la coagulación, algo meramente especulativo. La relación entre la indicación original y la nueva se limita probablemente al fenotipo hemorrágico compartido.
 
-En resumen, la relación mecanística entre la indicación original y la nueva es débil y especulativa. La predicción debe tratarse como una hipótesis de baja plausibilidad, no como una vía de desarrollo con soporte.
+La puntuación alta de TxGNN es solo una predicción del modelo, sin respaldo de ensayos ni literatura. La plausibilidad mecanística es débil y debe considerarse una hipótesis por verificar.
+
+### Otras indicaciones predichas
+
+| Rango | Indicación | Puntaje TxGNN | Comentario |
+|------|------|------|------|
+| 2 | Pseudo-enfermedad de von Willebrand | 99,99 % | Vínculo plausible pero indirecto (el VWF transporta y estabiliza al FVIII); no corrige el defecto del receptor GPIbα |
+| 3 | Trombastenia de Glanzmann | 99,99 % | El FVIII no corrige el defecto de la integrina αIIbβ3; el manejo estándar es transfusión de plaquetas y FVIIa recombinante |
+| 4 | Síndrome de Scott | 99,95 % | Conexión teórica vía complejo tenasa, pero el FVIII no restituye la superficie de membrana ausente |
+| 5 | Déficit adquirido de factores de coagulación | 99,95 % | La más plausible mecanísticamente (p. ej., hemofilia A adquirida), pero los inhibidores autoinmunes neutralizan el FVIII; suelen preferirse agentes puenteantes. Clasificada como pregunta de investigación |
+| 6 | Diátesis hemorrágica por defecto del receptor de colágeno | 99,91 % | Problema primario de función plaquetaria; sin respaldo |
+| 7 | Trastorno hemorrágico por trombocitopenia constitucional | 99,91 % | El FVIII no trata la causa subyacente |
+| 8 | "Flood factor deficiency" | 99,61 % | Nombre no identificable; posible artefacto de la ontología, debe verificarse |
+| 9 | Púrpura trombótica trombocitopénica | 99,54 % | Preocupación de seguridad: un producto procoagulante podría agravar la trombosis |
+| 10 | Trombocitosis hereditaria con defecto transverso de miembros | 99,52 % | Sin fundamento biológico identificado |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,37 +81,36 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Titular: Novo Nordisk A/S. Todas las presentaciones son polvo y disolvente para solución inyectable. Los textos de indicación aprobada llegaron vacíos en los datos, por lo que no se incluyen. Se listan 5 de las 6 autorizaciones registradas, porque el paquete solo trae 5 entradas.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 113888001 | NOVOEIGHT 250 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 113888002 | NOVOEIGHT 500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 113888003 | NOVOEIGHT 1000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 113888004 | NOVOEIGHT 1500 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 113888005 | NOVOEIGHT 2000 UI | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 113888001 | NovoEight 250 UI | Polvo y disolvente para solución inyectable |
-| 113888002 | NovoEight 500 UI | Polvo y disolvente para solución inyectable |
-| 113888003 | NovoEight 1000 UI | Polvo y disolvente para solución inyectable |
-| 113888005 | NovoEight 2000 UI | Polvo y disolvente para solución inyectable |
-| 113888006 | NovoEight 3000 UI | Polvo y disolvente para solución inyectable |
+Existe además una sexta autorización (113888006, NOVOEIGHT 3000 UI). Las seis son monofármaco, vigentes y de Novo Nordisk A/S.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se recuperaron advertencias, contraindicaciones ni interacciones farmacológicas.
+Consultar el prospecto para información de seguridad.
 
-Como aviso derivado del análisis mecanístico: para la púrpura trombocitopénica trombótica y la trombocitosis hereditaria con defecto transverso de extremidades (predicciones de rango 9 y 10), un factor procoagulante podría aumentar el riesgo trombótico.
+Como observación derivada del análisis mecanístico: para la púrpura trombótica trombocitopénica (rango 9), un producto procoagulante podría agravar la trombosis, por lo que esa indicación no debería perseguirse sin evidencia sólida.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, y el mecanismo no conecta la reposición de FVIII con un defecto de secreción plaquetaria. Las otras 9 predicciones del paquete también son L5. La mejor situada es "déficit adquirido de factores de coagulación" (Research Question), aunque también sin evidencia, y en el caso de inhibidores anti-FVIII la eficacia sería incierta.
+Todas las indicaciones predichas se sustentan únicamente en la puntuación del modelo (nivel L5), sin ensayos ni literatura, y la plausibilidad mecanística de la principal (trastorno de liberación plaquetaria) es débil, ya que el FVIII no corrige defectos primarios de función plaquetaria.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (indicación aprobada, advertencias y contraindicaciones), un vacío que bloquea el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Realizar una búsqueda dirigida de literatura y ensayos sobre FVIII en trastornos plaquetarios.
-- Evaluar la compatibilidad de vías de administración, que sigue pendiente.
-- Verificar la definición de "flood factor deficiency" (rango 8) en el grafo de conocimiento de origen, ya que no es un término estándar.
-
-*Este informe es solo de referencia para la investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente sin datos
+- Completar los datos del mecanismo de acción
+- Realizar una búsqueda sistemática de literatura y ensayos para cada indicación predicha
+- Priorizar la investigación del déficit adquirido de factores de coagulación (hemofilia A adquirida), la más plausible, considerando el problema de los inhibidores
+- Verificar en la ontología la entrada "flood factor deficiency"
+- Evaluar la compatibilidad de vía de administración y el riesgo trombótico antes de cualquier avance
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

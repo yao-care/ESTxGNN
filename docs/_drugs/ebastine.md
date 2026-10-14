@@ -2,7 +2,7 @@
 layout: default
 title: Ebastine
 parent: Solo predicción del modelo (L5)
-nav_order: 190
+nav_order: 274
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Ebastina: De Antihistamínico H1 a Enfermedad de las Arterias Coronarias
+# Ebastina: De Rinitis Alérgica a Enfermedad de las Arterias Coronarias
 
 ## Resumen en Una Frase
 
-Ebastina es un antihistamínico H1 comercializado en España. Los datos disponibles no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectiva para **enfermedad de las arterias coronarias** (y, en segundo lugar, **isquemia miocárdica**).
-Actualmente no hay **ningún ensayo clínico** y solo **1 publicación** (un estudio computacional) respalda esta dirección.
+Ebastina es un antihistamínico H1 de segunda generación, utilizado originalmente para el tratamiento de la rinitis alérgica, la rinitis vasomotora y la urticaria idiopática.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de las arterias coronarias**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en los datos de AEMPS (ebastina es un antihistamínico H1) |
+| Indicación Original | Rinitis alérgica (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Enfermedad de las arterias coronarias |
 | Puntaje de Predicción TxGNN | 99,18% |
 | Nivel de Evidencia | L5 |
@@ -49,13 +49,15 @@ Actualmente no hay **ningún ensayo clínico** y solo **1 publicación** (un est
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
+Nota: el modelo también predijo **isquemia miocárdica** (puntaje 99,10%, nivel de evidencia L5, decisión Hold). Esta indicación está estrechamente relacionada con la enfermedad coronaria, por lo que ambas predicciones probablemente no son independientes.
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ebastina es un antihistamínico H1, pero no existe un mecanismo establecido que vincule el bloqueo H1 con un beneficio en la enfermedad coronaria.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, ebastina es un antagonista del receptor H1 de histamina de segunda generación, con eficacia comprobada en rinitis alérgica, rinitis vasomotora y urticaria idiopática.
 
-El único vínculo identificado es indirecto. Un estudio computacional sobre la enzima CYP2J2, presente en tejido cardiovascular y que metaboliza ebastina, describe una interacción metabólica. CYP2J2 produce ácidos epoxieicosatrienoicos (EET), que se estudian en cardioprotección. Por eso la unión de ebastina a CYP2J2 podría alterar la señalización de los EET, pero se desconoce en qué dirección, si beneficiosa o perjudicial.
+Una posible vía especulativa sería la participación de la histamina y de los mastocitos en el vasoespasmo coronario y en la inestabilidad de la placa aterosclerótica. Sin embargo, **ninguna evidencia incluida en los datos compilados para este informe respalda esta hipótesis**. Las indicaciones originales (alérgicas y respiratorias) y la nueva indicación (cardiovascular) pertenecen a áreas terapéuticas distintas, y la similitud entre ambas aún está pendiente de análisis.
 
-La predicción es, por tanto, una hipótesis del grafo de conocimiento y no un hallazgo terapéutico. La segunda indicación predicha, **isquemia miocárdica** (puntaje 99,10%), se apoya en la misma publicación, por lo que ambas evidencias no son independientes.
+El puntaje elevado de TxGNN (0,992) es una predicción basada en el modelo, no corroborada por ensayos ni literatura. Además, la seguridad cardiaca requiere atención: algunos antihistamínicos presentan preocupaciones de prolongación del intervalo QT, y esto no se ha evaluado en los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,38 +65,39 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [18004755](https://pubmed.ncbi.nlm.nih.gov/18004755/) | 2008 | Estudio in silico | Proteins | Modelado por homología, dinámica molecular y acoplamiento (docking) de ligandos en CYP2J2 humano. No incluye resultados de isquemia ni datos de eficacia o seguridad en pacientes o modelos cardíacos. |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 78558 | Ebastina Ratiopharm 10 mg comprimidos bucodispersables EFG | Comprimido bucodispersable |
-| 68663 | Alastina 20 mg comprimidos recubiertos con película | Comprimido recubierto con película |
-| 67663 | Ebastina Tarbis 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
-| 80256 | Ebastina Flas Stada 10 mg comprimidos bucodispersables EFG | Comprimido bucodispersable |
-| 74992 | Ebastina Teva-Ratiopharm 20 mg comprimidos bucodispersables EFG | Comprimido bucodispersable |
+Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
-Se muestran 5 de las 20 autorizaciones. Los datos no incluyen el texto de indicación aprobada.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 63365 | Bactil Forte 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | Laboratorios Almirall S.L. |
+| 63366 | Ebastel Forte 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | Almirall S.A. |
+| 68663 | Alastina 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | Uxa Farma S.A. |
+| 67674 | Ebastina Cinfa 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | Laboratorios Cinfa S.A. |
+| 78558 | Ebastina Ratiopharm 10 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | Teva Pharma S.L.U. |
+
+Los textos de indicación aprobada no figuran en los datos compilados. Las formas farmacéuticas disponibles son comprimidos recubiertos con película y comprimidos bucodispersables, ambos de administración oral.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo TxGNN y en un único estudio computacional que describe una interacción metabólica, no un efecto terapéutico. No hay ensayos clínicos, no hay un mecanismo plausible establecido y la dirección del efecto es desconocida.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que la respalden, y sin datos de mecanismo de acción ni de seguridad. Además, existe una preocupación potencial de seguridad cardiaca (prolongación del QT) con algunos antihistamínicos.
 
 **Para avanzar se necesita:**
-- Prospecto de AEMPS (advertencias y contraindicaciones), que es un bloqueo para el cribado de seguridad
-- Datos del mecanismo de acción (por ejemplo, desde DrugBank)
-- Estudios preclínicos que muestren el efecto de ebastina sobre la vía CYP2J2/EET en tejido cardiovascular y su dirección
-- Texto de la indicación aprobada para analizar la relación con la indicación original
+- Obtener los datos del mecanismo de acción (por ejemplo, desde DrugBank) y analizar el vínculo mecanístico con la enfermedad coronaria.
+- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), paso necesario antes del cribado de seguridad.
+- Evaluar específicamente el riesgo cardiaco, incluida la prolongación del QT.
+- Buscar estudios preclínicos, observacionales o ensayos clínicos que relacionen antihistamínicos H1 con enfermedad coronaria o isquemia miocárdica.
+- Consultar interacciones farmacológicas, ya que la consulta no arrojó resultados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

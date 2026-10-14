@@ -2,7 +2,7 @@
 layout: default
 title: Eftrenonacog Alfa
 parent: Solo predicción del modelo (L5)
-nav_order: 194
+nav_order: 279
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,21 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Eftrenonacog alfa: De Hemofilia B a Pseudo-enfermedad de von Willebrand
+# Eftrenonacog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
 
 ## Resumen en Una Frase
 
-Eftrenonacog alfa es una proteína de fusión recombinante del factor IX unido a Fc, utilizada originalmente como tratamiento sustitutivo en la hemofilia B.
-El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de von Willebrand**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Eftrenonacog alfa es una proteína de fusión recombinante del factor IX unido al fragmento Fc (rFIXFc), utilizada originalmente para el tratamiento de la hemofilia.
+El modelo TxGNN predice que podría ser efectivo para **la enfermedad pseudo-von Willebrand**, aunque actualmente **no existen ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia B (según el mecanismo conocido del producto; el texto de indicación aprobada no está disponible en los registros) |
-| Nueva Indicación Predicha | Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) |
-| Puntaje de Predicción TxGNN | 99.48% |
+| Indicación Original | Hemofilia (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Enfermedad pseudo-von Willebrand |
+| Puntaje de Predicción TxGNN | 99,48 % |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 5 |
@@ -51,40 +50,55 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, eftrenonacog alfa es un factor IX recombinante fusionado a Fc que repone la actividad de FIX en la vía intrínseca de la coagulación, y su eficacia en la hemofilia B es la base de su uso.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, eftrenonacog alfa es un factor IX recombinante fusionado con Fc que repone el factor IX deficiente en la cascada de coagulación, y su eficacia en hemofilia es la base de su uso clínico.
 
-En este caso, la predicción es **débil desde el punto de vista mecanístico**. La pseudo-enfermedad de von Willebrand (tipo plaquetario) se debe a una mutación de ganancia de función en la GPIbα plaquetaria, que provoca una unión excesiva de multímeros de alto peso molecular del VWF y una eliminación acelerada de plaquetas. El defecto principal está en la interacción plaqueta-VWF, no en una deficiencia de FIX.
+La enfermedad pseudo-von Willebrand (tipo plaquetario) se debe a una mutación con ganancia de función del receptor plaquetario GPIbα, que aumenta su afinidad por el factor von Willebrand y provoca la eliminación de plaquetas y la pérdida de multímeros de alto peso molecular del factor von Willebrand. El defecto reside en la interacción plaqueta-VWF (hemostasia primaria), no en una deficiencia de factor IX.
 
-El puntaje alto (0.995) probablemente refleja la cercanía en el grafo de conocimiento con los trastornos hemorrágicos y de la coagulación, y no un vínculo biológico validado. Otras predicciones del mismo modelo para este fármaco (trastorno primario de liberación plaquetaria y trombastenia de Glanzmann) presentan el mismo problema: son defectos de la función plaquetaria que la reposición de FIX no corrige.
+Por ello, el vínculo mecanístico es débil. Cualquier justificación sería indirecta (por ejemplo, apoyo a la hemostasia secundaria) y no corregiría el defecto de fondo. El puntaje elevado de TxGNN (0,995) refleja únicamente una predicción basada en el grafo, sin respaldo de ensayos ni de literatura.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161098001 | ALPROLIX 250 UI | Polvo y disolvente para solución inyectable | — |
-| 1161098002 | ALPROLIX 500 UI | Polvo y disolvente para solución inyectable | — |
-| 1161098003 | ALPROLIX 1.000 UI | Polvo y disolvente para solución inyectable | — |
-| 1161098004 | ALPROLIX 2.000 UI | Polvo y disolvente para solución inyectable | — |
-| 1161098005 | ALPROLIX 3.000 UI | Polvo y disolvente para solución inyectable | — |
+| 1161098001 | ALPROLIX 250 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161098002 | ALPROLIX 500 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161098003 | ALPROLIX 1.000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161098004 | ALPROLIX 2.000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
+| 1161098005 | ALPROLIX 3.000 UI polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
 
-Titular: Swedish Orphan Biovitrum AB (publ).
+Titular: Swedish Orphan Biovitrum AB (publ). Las cinco autorizaciones están vigentes y corresponden a monofármaco.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la base de datos consultada.
+Consultar el prospecto para información de seguridad. No se identificaron interacciones farmacológicas en los datos compilados.
+
+## Otras Predicciones del Modelo (Referencia)
+
+| Rango | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
+|------|------|------|------|------|
+| 2 | Trastorno primario de liberación plaquetaria | 99,42 % | L5 | El factor IX actúa en la hemostasia secundaria y no corrige defectos de secreción de gránulos plaquetarios. Vínculo indirecto y especulativo. |
+| 3 | Trombastenia de Glanzmann | 99,28 % | L5 | El defecto está en la integrina αIIbβ3; el factor IX no restaura la agregación plaquetaria. El manejo actual usa transfusión de plaquetas, antifibrinolíticos y factor VIIa recombinante. |
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un fundamento mecanístico plausible: el defecto de la enfermedad es plaquetario y no de FIX. Las otras dos indicaciones predichas comparten esta limitación.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo del factor IX no aborda el defecto plaqueta-VWF de la enfermedad pseudo-von Willebrand. Lo mismo aplica a las otras dos indicaciones predichas.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción del fármaco (DrugBank) y del texto de indicación aprobada en AEMPS
-- Prospecto de AEMPS con advertencias y contraindicaciones
-- Una hipótesis biológica que explique por qué la reposición de FIX podría ser útil en un defecto plaqueta-VWF, respaldada por estudios preclínicos
-- Revisión de literatura y de registros de ensayos que confirme la ausencia o presencia de evidencia real
+- Datos detallados del mecanismo de acción y un análisis mecanístico que justifique un papel del factor IX en estas patologías
+- Revisión del prospecto de AEMPS (advertencias y contraindicaciones) para completar el análisis de seguridad
+- Búsqueda de estudios preclínicos o series de casos que respalden la hipótesis
+- Evaluación de la compatibilidad de vía de administración y de la similitud con la indicación original
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

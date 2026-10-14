@@ -2,7 +2,7 @@
 layout: default
 title: Lorlatinib
 parent: Solo predicción del modelo (L5)
-nav_order: 331
+nav_order: 484
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lorlatinib: De Cáncer de Pulmón No Microcítico ALK-positivo a Fibromatosis Gingival
+# Lorlatinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Lorlatinib es un inhibidor de tirosina quinasa de tercera generación, con buena penetración cerebral, que actúa sobre ALK y ROS1. Se usa para tratar el cáncer de pulmón no microcítico (CPNM) ALK-positivo.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero **no hay ningún ensayo clínico ni publicación** que respalde esta dirección. Es una predicción puramente computacional.
+Lorlatinib es un inhibidor de tirosina quinasas (ALK/ROS1) de tercera generación, utilizado originalmente para el tratamiento del cáncer de pulmón no microcítico (CPNM).
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | CPNM ALK-positivo (el texto de indicación de las autorizaciones españolas no está disponible; se toma de la literatura y de la clasificación del farmaco) |
+| Indicación Original | Cáncer de pulmón no microcítico (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
@@ -48,59 +50,81 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Lorlatinib bloquea las quinasas ALK y ROS1, dos proteínas que impulsan el crecimiento de ciertos tumores cuando presentan reordenamientos genéticos. Por eso funciona en el CPNM con alteraciones de ALK o ROS1. No se dispone de datos detallados de mecanismo de acción en DrugBank para este informe.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, lorlatinib es un inhibidor de tirosina quinasas de tercera generación dirigido contra ALK y ROS1, con eficacia comprobada en el CPNM con reordenamientos de ALK, incluida la actividad intracraneal.
 
-En este caso **no se ha establecido un vínculo mecanístico**. La fibromatosis gingival es un crecimiento fibroso benigno de las encías, y no hay documentación de que ALK o ROS1 participen en su origen. La indicación original es un cáncer maligno dependiente de un oncogén concreto, mientras que la nueva indicación es un trastorno benigno sin esa dependencia.
+Para la fibromatosis gingival no se ha identificado una justificación mecanística. La fibromatosis gingival es un trastorno de proliferación del tejido conectivo de la encía, y no se ha establecido ningún vínculo con las vías de ALK/ROS1. El puntaje alto del modelo (99.81%) refleja una asociación estadística dentro del grafo de conocimiento, no una base biológica demostrada.
 
-El puntaje alto (99.81%) refleja patrones del grafo de conocimiento del modelo, no evidencia biológica ni clínica. Por sí solo no justifica avanzar.
+Por tanto, esta predicción debe considerarse una hipótesis sin respaldo y no una candidata con apoyo mecanístico o clínico.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 1191355001 | LORVIQUA 25 MG comprimidos recubiertos con película | Comprimido recubierto con película |
-| 1191355002 | LORVIQUA 100 MG comprimidos recubiertos con película | Comprimido recubierto con película |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1191355001 | LORVIQUA 25 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
+| 1191355002 | LORVIQUA 100 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 
-Titular: Pfizer Europe MA EEIG.
+Ambas autorizaciones corresponden a Pfizer Europe MA EEIG, están vigentes y son de monofármaco.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/ROS1) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas ALK/ROS1) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar el prospecto. La literatura sobre eventos adversos del fármaco describe alteraciones metabólicas (hipercolesterolemia, hipertrigliceridemia, aumento de peso) y efectos sobre el sistema nervioso central, por lo que se sugiere vigilar el perfil lipídico y la función neurocognitiva |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; entre las principales mostradas:
+  - **Mayores**: dexametasona, claritromicina.
+  - **Moderadas**: hidrocortisona, betametasona, triamcinolona, aprepitant, bupropión, morfina, cimetidina, alosetrón, dronabinol, eliglustat, naldemedina, naloxegol, y antidiabéticos como dapagliflozina, empagliflozina, saxagliptina, linagliptina, glimepirida y clorpropamida.
+
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni publicaciones, y no hay un vínculo mecanístico plausible entre la inhibición de ALK/ROS1 y la fibromatosis gingival. Además, se trata de una enfermedad benigna, por lo que el balance riesgo-beneficio de un antineoplásico sería desfavorable sin evidencia previa.
+La predicción para fibromatosis gingival carece de ensayos clínicos, literatura y justificación mecanística; el puntaje del modelo es el único respaldo (nivel L5). No se recomienda avanzar sin una hipótesis biológica fundamentada.
 
 **Para avanzar se necesita:**
-- Evidencia biológica de que ALK/ROS1 u otra diana de lorlatinib participa en la fibromatosis gingival (estudios preclínicos o de tejido)
-- Datos de mecanismo de acción desde DrugBank
-- Advertencias y contraindicaciones del prospecto de la AEMPS, un requisito previo para cualquier evaluación de seguridad
-- Texto de las indicaciones aprobadas en las autorizaciones españolas
+- Datos del mecanismo de acción y una hipótesis biológica que vincule ALK/ROS1 con la fibromatosis gingival.
+- Revisión de la literatura preclínica sobre vías de proliferación fibroblástica gingival.
+- Información de seguridad del prospecto de AEMPS (advertencias y contraindicaciones), actualmente no disponible.
+- Evaluación de la compatibilidad de vías de administración (el fármaco es oral sistémico y la enfermedad es localizada).
 
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+---
+
+### Nota sobre otras predicciones evaluadas
+
+Entre las otras candidatas, **cáncer de hilio pulmonar** (L4, puntaje 99.74%) es la que cuenta con respaldo más plausible, aunque se trata en gran medida de una extensión de la indicación aprobada de CPNM y se apoya en un único reporte de caso. Para **neoplasia benigna de pulmón** y **tumor de células germinales de pulmón**, la literatura es indirecta (corresponde a CPNM maligno y neuroblastoma, respectivamente) y no debe extrapolarse. El resto carece de evidencia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

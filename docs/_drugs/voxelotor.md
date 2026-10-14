@@ -2,7 +2,7 @@
 layout: default
 title: Voxelotor
 parent: Solo predicción del modelo (L5)
-nav_order: 569
+nav_order: 859
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,32 +29,44 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Voxelotor: De Enfermedad de Células Falciformes a Trombocitopenia Hereditaria con Plaquetas Normales
+# Voxelotor: De Anemia Falciforme a Trombocitopenia Hereditaria con Plaquetas Normales
 
 ## Resumen en Una Frase
 
-Voxelotor es un inhibidor de la polimerización de la hemoglobina S, utilizado para la enfermedad de células falciformes. Esta indicación se deduce del mecanismo descrito en el paquete de evidencia, porque el registro de AEMPS no incluye el texto de indicación.
-El modelo TxGNN predice que podría ser efectivo para **trombocitopenia hereditaria con plaquetas normales**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Voxelotor es un fármaco originalmente utilizado para la anemia falciforme (con la persistencia hereditaria de hemoglobina fetal como segunda indicación asociada en el grafo de conocimiento).
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia hereditaria con plaquetas normales**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro de AEMPS (por mecanismo, enfermedad de células falciformes) |
+| Indicación Original | Anemia falciforme (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
 | Nueva Indicación Predicha | Trombocitopenia hereditaria con plaquetas normales |
 | Puntaje de Predicción TxGNN | 99.58% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado (según los datos del paquete; ver nota en Conclusión) |
+| Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información del análisis de razonamiento, voxelotor inhibe la polimerización de la hemoglobina S y aumenta la afinidad de la hemoglobina por el oxígeno.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, voxelotor se une a la hemoglobina y aumenta su afinidad por el oxígeno, lo que inhibe la polimerización de la hemoglobina S (HbS). Esta acción es la base de su uso en la anemia falciforme.
 
-**No existe un vínculo mecanístico conocido** entre este mecanismo y la trombocitopenia hereditaria. Voxelotor no tiene acción conocida sobre la megacariopoyesis ni sobre la producción de plaquetas. El puntaje alto (99.58%) proviene solo de patrones en el grafo de conocimiento y no de evidencia biológica o clínica. La similitud con la indicación original aún no ha sido evaluada.
+Sin embargo, **no se identifica un vínculo mecanístico plausible** con la nueva indicación. La trombocitopenia hereditaria con plaquetas normales se relaciona con la producción o función de las plaquetas (megacariopoyesis), un proceso sin relación conocida con la afinidad de la hemoglobina por el oxígeno ni con la polimerización de HbS.
 
-Las demás predicciones del modelo tienen puntajes entre 99.0% y 99.6%. Son otras alteraciones plaquetarias (macrotrombocitopenia con insuficiencia mitral, enfermedad de gránulos densos, trombocitopenia neonatal transitoria, trombocitopenia, trastorno primario de liberación plaquetaria) y el síndrome de Fanconi asociado a cadenas ligeras. Ninguna tiene vínculo mecanístico establecido ni evidencia clínica.
+El alto puntaje de TxGNN (0.996) refleja probablemente la proximidad en el grafo de conocimiento (vecinos hematológicos compartidos, como la enfermedad de células falciformes) y no una base biológica demostrada. Por ello, la predicción debe considerarse una hipótesis sin respaldo mecanístico, clínico ni bibliográfico.
+
+### Otras indicaciones predichas (todas L5, sin evidencia)
+
+| Rango | Indicación Predicha | Puntaje TxGNN | Comentario |
+|---|---|---|---|
+| 2 | Macrotrombocitopenia con insuficiencia mitral | 99.58% | Trastorno congénito raro sin relación mecanística con la acción de voxelotor |
+| 3 | Enfermedad de los gránulos densos | 99.58% | Defecto de almacenamiento plaquetario; no abordado por el mecanismo de voxelotor |
+| 4 | Trombocitopenia neonatal transitoria | 99.57% | Cuadro autolimitado; faltan datos de seguridad en neonatos |
+| 5 | Trombocitopenia | 99.51% | Causas heterogéneas; no se identifica vía por la que voxelotor eleve las plaquetas |
+| 6 | Síndrome de Fanconi adquirido asociado a cadenas ligeras monoclonales de Ig | 99.13% | Lesión del túbulo proximal sin vínculo con el mecanismo del fármaco |
+| 7 | Trastorno primario de liberación plaquetaria | 99.00% | Defecto de secreción plaquetaria no relacionado con la acción de voxelotor |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,26 +80,31 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1211622001 | OXBRYTA 500 mg comprimidos recubiertos con película (Pfizer Europe MA EEIG) | Comprimido recubierto con película | No especificada en los datos disponibles |
+| 1211622001 | OXBRYTA 500 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos disponibles.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; en la muestra disponible destacan:
+  - **Mayor gravedad**: dexametasona, claritromicina, eliglustat y naloxegol.
+  - **Gravedad moderada**: hidrocortisona, prednisona, betametasona, budesonida, triamcinolona, aprepitant, saxagliptina, repaglinida, simvastatina, tinidazol, nitisinona y naldemedina, entre otros (incluidas formulaciones oftálmicas y nasales de corticoides).
+
+  El patrón sugiere una interacción relevante con inductores o inhibidores enzimáticos (p. ej., corticoides y macrólidos), por lo que se requiere revisión detallada de la medicación concomitante.
+
+Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dispone de esa información en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible entre la inhibición de la polimerización de la HbS y la producción o función plaquetaria. Además, faltan los datos de seguridad de la ficha técnica, lo que impide pasar al cribado de seguridad.
+La predicción se basa únicamente en el grafo de conocimiento (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre la acción de voxelotor sobre la hemoglobina y la producción o función plaquetaria. Todas las demás indicaciones predichas presentan la misma situación.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante.
-- Consultar DrugBank para obtener el mecanismo de acción detallado.
-- Verificar el estado regulatorio actual de Oxbryta. El paquete lo marca como comercializado, pero conviene confirmarlo en AEMPS/EMA, porque según mi conocimiento el producto fue retirado del mercado en septiembre de 2024 por preocupaciones de seguridad. Esto es una recomendación de verificación, no un dato del paquete.
-- Realizar una revisión de literatura preclínica sobre megacariopoyesis y función plaquetaria antes de reconsiderar la hipótesis.
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), requisito previo para cualquier cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión bibliográfica sistemática y buscar estudios preclínicos que respalden algún vínculo con la megacariopoyesis o la función plaquetaria.
+- Establecer una hipótesis biológica plausible antes de considerar estudios exploratorios.
+- Evaluar la compatibilidad de vía de administración y la similitud con la indicación original (actualmente pendientes).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

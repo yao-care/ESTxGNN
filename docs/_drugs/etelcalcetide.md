@@ -2,15 +2,15 @@
 layout: default
 title: Etelcalcetide
 parent: Evidencia moderada (L3-L4)
-nav_order: 216
-evidence_level: L4
+nav_order: 312
+evidence_level: L3
 indication_count: 4
 ---
 
 # Etelcalcetide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,78 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Etelcalcetida: De Hiperparatiroidismo Secundario a Hiperfosfatemia
+# Etelcalcetida: De Hiperparatiroidismo a Hiperfosfatemia
 
 ## Resumen en Una Frase
 
-Etelcalcetida es un calcimimético intravenoso, utilizado originalmente para tratar el hiperparatiroidismo secundario en pacientes con enfermedad renal crónica (ERC) en hemodiálisis.
-El modelo TxGNN predice que podría ser efectivo para **hiperfosfatemia**,
-pero por ahora solo cuenta con **1 ensayo clínico** (mecanístico, sin evaluar el fosfato como resultado) y **5 publicaciones**, la mayoría indirectas.
-
----
+Etelcalcetida es un calcimimético intravenoso, originalmente utilizado para el tratamiento del hiperparatiroidismo (secundario) en pacientes con enfermedad renal crónica en hemodiálisis.
+El modelo TxGNN predice que podría ser efectivo para **hiperfosfatemia**, pero actualmente no hay ensayos clínicos registrados y solo **6 publicaciones** se relacionan con esta dirección, ninguna de ellas con evidencia directa de eficacia sobre el fósforo sérico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperparatiroidismo secundario en ERC en hemodiálisis (según la información farmacológica de referencia; el registro de la AEMPS no incluye el texto de la indicación) |
+| Indicación Original | Hiperparatiroidismo (secundario, en enfermedad renal crónica en hemodiálisis) |
 | Nueva Indicación Predicha | Hiperfosfatemia |
-| Puntaje de Predicción TxGNN | 99,42 % |
-| Nivel de Evidencia | L4 |
+| Puntaje de Predicción TxGNN | 99.42% |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Etelcalcetida es un calcimimético que activa el receptor sensor de calcio (CaSR) en las células paratiroideas y reduce la hormona paratiroidea (PTH). Se administra por vía intravenosa al final de la sesión de hemodiálisis. El registro no aporta datos detallados del mecanismo de acción; esta descripción se basa en la información farmacológica y en la literatura disponibles.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, etelcalcetida es un calcimimético que activa el receptor sensor de calcio (CaSR, gen *CASR*) de la glándula paratiroides y reduce la hormona paratiroidea (PTH). Su eficacia en el hiperparatiroidismo secundario de pacientes en hemodiálisis está comprobada y fue aprobada por la EMA en 2016 y por la FDA en 2017.
 
-La hiperfosfatemia y el hiperparatiroidismo secundario forman parte del mismo cuadro de alteraciones minerales y óseas de la ERC. La retención de fosfato es uno de los motores del hiperparatiroidismo secundario. Al reducir la PTH, etelcalcetida podría disminuir de forma indirecta el calcio y el fosfato séricos. Por eso la hiperfosfatemia es una indicación biológicamente cercana a la aprobada.
+La relación con la hiperfosfatemia es sobre todo indirecta. Al reducir la PTH, puede disminuir el recambio óseo y la liberación de minerales, y podría bajar de forma modesta el fósforo sérico y el producto calcio-fósforo. No es un mecanismo de quelación ni de excreción de fosfato.
 
-Conviene ser cautos: la reducción del fosfato sería un efecto secundario, no una indicación primaria ni validada. La única señal específica es un informe preclínico de 2026 (PMID 42044867), que sugiere un beneficio cardíaco mediado por CaSR en hiperfosfatemia crónica. Esa señal no equivale a evidencia clínica de que el fármaco reduzca el fosfato.
-
----
+La hiperfosfatemia suele ser una comorbilidad de la misma población (pacientes en diálisis), por lo que la señal de TxGNN probablemente refleja la coocurrencia de enfermedades y no una indicación realmente nueva. Un estudio preclínico de 2026 sugiere además un beneficio cardíaco mediado por CaSR en hiperfosfatemia crónica, lo cual es un hallazgo mecanístico y no una prueba de eficacia sobre el fósforo.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03527511](https://clinicaltrials.gov/study/NCT03527511) | N/A | Completado | 21 | Efecto de la vitamina D activa y etelcalcetida sobre osteoclastos humanos en pacientes con ERC. No evalúa la reducción de fosfato ni la hiperfosfatemia como criterio de valoración; solo aporta contexto indirecto (relevancia: C). |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | ECA | Kidney Int Rep | Ensayo DUET: eficacia de etelcalcetida intravenosa en el control del hiperparatiroidismo secundario en hemodiálisis. Respalda la indicación original, no la hiperfosfatemia. |
-| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Revisión | Int J Nephrol Renovasc Dis | Papel de etelcalcetida en el manejo del hiperparatiroidismo en hemodiálisis; reduce la PTH con dosificación tres veces por semana. |
-| [42495460](https://pubmed.ncbi.nlm.nih.gov/42495460/) | 2026 | Revisión | Cureus | Revisión narrativa sobre calcimiméticos, análogos de vitamina D y captores de fosfato en el hiperparatiroidismo secundario de pacientes en diálisis. |
-| [42044867](https://pubmed.ncbi.nlm.nih.gov/42044867/) | 2026 | Preclínico/Mecanístico | Kidney Int | Etelcalcetida restaura la función cardíaca en hiperfosfatemia crónica mediante la activación de CaSR-cAMP. Es la señal más directa para la nueva indicación. |
-| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Reporte de caso | Clin Nephrol | Calcificación pulmonar metastásica transitoria en un paciente con hiperparatiroidismo en diálisis peritoneal. Relevancia indirecta. |
-
----
+| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | ECA | Kidney Int Rep | Ensayo DUET: eficacia de etelcalcetida en pacientes en hemodiálisis con hiperparatiroidismo secundario; no se puede confirmar que evalúe resultados sobre fósforo |
+| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Revisión | Int J Nephrol Renovasc Dis | Papel de etelcalcetida en el manejo del hiperparatiroidismo en hemodiálisis; reduce la PTH con administración intravenosa tres veces por semana |
+| [42495460](https://pubmed.ncbi.nlm.nih.gov/42495460/) | 2026 | Revisión narrativa | Cureus | Revisión del manejo farmacológico del hiperparatiroidismo secundario en diálisis (calcimiméticos, análogos de vitamina D y quelantes de fosfato) |
+| [42044867](https://pubmed.ncbi.nlm.nih.gov/42044867/) | 2026 | Preclínico/mecanístico | Kidney Int | Etelcalcetida restaura la función cardíaca en hiperfosfatemia crónica mediante activación de CaSR-AMPc |
+| [42853437](https://pubmed.ncbi.nlm.nih.gov/42853437/) | 2026 | Reporte de caso | CEN Case Rep | Regresión de calcinosis tumoral urémica tras cambiar de cinacalcet a etelcalcetida en un paciente sin hiperfosfatemia grave |
+| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Reporte de caso | Clin Nephrol | Calcificación pulmonar metastásica temporal en un paciente con hiperparatiroidismo en diálisis peritoneal |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161142002 | PARSABIV 2,5 MG SOLUCIÓN INYECTABLE | Solución inyectable | Amgen Europe B.V. |
-| 1161142006 | PARSABIV 5 MG SOLUCIÓN INYECTABLE | Solución inyectable | Amgen Europe B.V. |
-| 1161142010 | PARSABIV 10 MG SOLUCIÓN INYECTABLE | Solución inyectable | Amgen Europe B.V. |
+| 1161142002 | PARSABIV 2,5 MG SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
+| 1161142006 | PARSABIV 5 MG SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
+| 1161142010 | PARSABIV 10 MG SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
 
----
+Titular de las tres autorizaciones: Amgen Europe B.V.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: la consulta se completó y solo se identificó una relación farmacológica de diana, con el receptor sensor de calcio (CaSR), sin nivel de gravedad asignado ni interacciones con otros fármacos.
 
----
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es biológicamente plausible por su cercanía con el hiperparatiroidismo secundario, pero no existe ningún ensayo que evalúe el fosfato como resultado. La única señal específica es preclínica (nivel L4), y el efecto sobre el fosfato sería secundario. Las otras tres predicciones del modelo (várices esofágicas con y sin sangrado, y enfermedad varicosa) no tienen mecanismo plausible ni evidencia (L5) y deben mantenerse en Hold; las dos primeras tienen puntajes idénticos, lo que sugiere nodos casi duplicados en el grafo.
+La puntuación de TxGNN es alta (99.42%), pero no hay ensayos clínicos y la literatura se centra en el hiperparatiroidismo secundario, no en la hiperfosfatemia como indicación independiente. La señal probablemente refleja la coocurrencia de ambas enfermedades en pacientes en diálisis.
 
 **Para avanzar se necesita:**
-- Analizar datos de los ensayos existentes de etelcalcetida (por ejemplo, el DUET) para ver el efecto sobre el fosfato sérico como resultado secundario.
-- Diseñar un estudio clínico que use el fosfato sérico como criterio de valoración principal.
-- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones) para poder hacer el cribado de seguridad.
-- Completar los datos del mecanismo de acción y del texto de la indicación aprobada en el registro.
+- Datos del mecanismo de acción detallados y verificados
+- Datos de eficacia sobre el fósforo sérico como variable principal o secundaria (por ejemplo, análisis de los ensayos existentes en hemodiálisis)
+- Texto de la indicación aprobada y el prospecto de la AEMPS (advertencias y contraindicaciones)
+- Aclarar si la hiperfosfatemia constituiría una indicación distinta o solo un resultado secundario del control del hiperparatiroidismo secundario
+
+*Nota: las demás predicciones (varices esofágicas con y sin sangrado, enfermedad varicosa) tienen puntuaciones altas, pero carecen de ensayos, de literatura y de un vínculo mecanístico plausible (nivel L5), por lo que no se recomiendan para avanzar.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

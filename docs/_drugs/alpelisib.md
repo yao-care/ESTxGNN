@@ -2,7 +2,7 @@
 layout: default
 title: Alpelisib
 parent: Solo predicción del modelo (L5)
-nav_order: 32
+nav_order: 42
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Alpelisib: De Cáncer de Mama HR+/HER2- Avanzado a Hipertensión Pulmonar
+# Alpelisib: De Indicación Original No Disponible a Hipertensión Pulmonar
 
 ## Resumen en Una Frase
 
-Alpelisib es un inhibidor selectivo de PI3Kα, comercializado en España como Piqray y utilizado en cáncer de mama avanzado HR+/HER2-.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero **ningún ensayo clínico** lo respalda y las **2 publicaciones** encontradas apuntan más bien a posibles riesgos (toxicidad pulmonar y cardíaca).
+Alpelisib es un inhibidor de PI3K-alfa comercializado en España bajo la marca Piqray (Novartis), aunque los datos compilados no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero **no hay ensayos clínicos** y solo hay **1 publicación** (un reporte de caso que describe un evento adverso pulmonar, no un beneficio terapéutico).
+La predicción se apoya únicamente en el modelo, por lo que la evidencia real es muy limitada.
 
 ---
 
@@ -42,9 +43,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de autorización de la AEMPS (el texto de indicación está vacío). El contexto de los ensayos y del producto apunta a cáncer de mama avanzado HR+/HER2- |
+| Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones de AEMPS está vacío) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99,03% |
+| Puntaje de Predicción TxGNN | 99.03% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 3 |
@@ -54,21 +55,17 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, alpelisib es un inhibidor selectivo de la isoforma alfa de la PI3K (PI3Kα). Su eficacia se ha estudiado en cáncer de mama avanzado HR+/HER2-, y mecanísticamente podría ser aplicable a la hipertensión pulmonar.
+Alpelisib es un inhibidor de PI3K-alfa. Los datos compilados para este informe no incluyen el mecanismo de acción original, por lo que el razonamiento siguiente se basa en conocimiento general de la clase farmacológica y no en los datos suministrados.
 
-La vía PI3K/Akt participa en la proliferación de las células musculares lisas de las arterias pulmonares y en el remodelado vascular, procesos centrales de la hipertensión pulmonar. Esto ofrece una base plausible, pero **no demostrada**, para la predicción.
+La vía PI3K/AKT/mTOR participa en la proliferación del músculo liso vascular pulmonar y en el remodelado vascular característico de la hipertensión pulmonar. Por ello existe un vínculo teórico entre inhibir PI3K y modificar la enfermedad. Sin embargo, no se dispone de la indicación original aprobada en España, así que no es posible analizar con rigor la relación entre esta y la nueva indicación.
 
-Conviene interpretar el puntaje con cautela. El 99,03% es solo una predicción computacional, y ningún estudio clínico ni preclínico de los datos analizados prueba alpelisib en hipertensión pulmonar. Además, la literatura disponible sugiere posible daño: enfermedad pulmonar intersticial y señales de atrofia cardíaca con la inhibición de PI3Kα. Como faltan las indicaciones originales y el MOA en DrugBank, no fue posible contrastar este razonamiento con la ficha técnica.
+Conviene ser cautos: el puntaje del modelo es muy alto (0.990), pero es solo una predicción computacional. La única publicación recuperada describe una enfermedad pulmonar intersticial inducida por alpelisib en una paciente con cáncer de mama avanzado. Esto no respalda un beneficio terapéutico y sugiere una posible preocupación de seguridad pulmonar.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) | N/A | Completado | 435 | Estudio retrospectivo no intervencionista (REASSURE) en cáncer de mama avanzado HR+/HER2- tratado con ribociclib o alpelisib. No estudia hipertensión pulmonar; probable coincidencia de palabras clave (relevancia C) |
-
-Este ensayo no aporta evidencia a favor de la nueva indicación.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -76,10 +73,7 @@ Este ensayo no aporta evidencia a favor de la nueva indicación.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Reporte de caso | J Oncol Pharm Pract | Enfermedad pulmonar intersticial inducida por alpelisib en una paciente con cáncer de mama avanzado. Señal de toxicidad pulmonar |
-| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Estudio preclínico (animal) | J Am Heart Assoc | La inhibición de PI3Kα con doxorrubicina produjo atrofia biventricular, remodelado y disfunción del ventrículo derecho. Señal de riesgo cardíaco |
-
-Ninguna publicación evalúa alpelisib como tratamiento de la hipertensión pulmonar. Ambas describen posibles efectos adversos.
+| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Reporte de caso | Journal of Oncology Pharmacy Practice | Enfermedad pulmonar intersticial inducida por alpelisib en una paciente con cáncer de mama avanzado; es un evento adverso pulmonar, no evidencia de beneficio en hipertensión pulmonar |
 
 ---
 
@@ -87,11 +81,9 @@ Ninguna publicación evalúa alpelisib como tratamiento de la hipertensión pulm
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1201455005 | PIQRAY 50 mg y 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos de la autorización |
-| 1201455008 | PIQRAY 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos de la autorización |
-| 1201455002 | PIQRAY 150 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos de la autorización |
-
-Titular de las tres autorizaciones: Novartis Europharm Limited.
+| 1201455005 | PIQRAY 50 MG y 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 1201455008 | PIQRAY 200 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
+| 1201455002 | PIQRAY 150 MG comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 
 ---
 
@@ -99,7 +91,7 @@ Titular de las tres autorizaciones: Novartis Europharm Limited.
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de PI3Kα) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de PI3K-alfa) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
@@ -109,11 +101,10 @@ Titular de las tres autorizaciones: Novartis Europharm Limited.
 
 ## Consideraciones de Seguridad
 
-Los datos de seguridad de la AEMPS (advertencias y contraindicaciones) no están disponibles y no se encontraron interacciones farmacológicas registradas. Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: la consulta de interacciones se completó y devolvió 100 registros. Los 20 mostrados son de nivel moderado y se concentran en antidiabéticos y fármacos relacionados con la glucosa: acarbosa, albiglutida, alogliptina, metformina, pioglitazona, acetohexamida, canagliflozina, clorpropamida, dapagliflozina, empagliflozina, ertugliflozina, exenatida, glimepirida, glipizida y dulaglutida. También figuran alosetrón, bupropión, dexametasona, dronabinol y fidaxomicina.
+- **Señal pulmonar**: la única publicación recuperada describe enfermedad pulmonar intersticial asociada a alpelisib, relevante para cualquier uso en patología pulmonar.
 
-La literatura revisada señala dos aspectos a vigilar si se explorara esta nueva indicación:
-- **Toxicidad pulmonar**: un caso de enfermedad pulmonar intersticial asociada a alpelisib.
-- **Riesgo cardíaco**: en un modelo animal, la inhibición de PI3Kα se asoció con disfunción del ventrículo derecho, órgano especialmente relevante en la hipertensión pulmonar.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -122,15 +113,14 @@ La literatura revisada señala dos aspectos a vigilar si se explorara esta nueva
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni estudios que evalúen alpelisib en hipertensión pulmonar. Las señales de seguridad disponibles, pulmonares y del ventrículo derecho, apuntan en sentido contrario a un beneficio.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos y con una única publicación que apunta a un riesgo pulmonar y no a un beneficio. Con esta evidencia no es posible avanzar.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), que es un vacío bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Estudios preclínicos que evalúen la inhibición de PI3Kα en modelos de hipertensión pulmonar, prestando atención a la función del ventrículo derecho.
-- Una revisión de la biología de PI3K en la vasculatura pulmonar para confirmar si la inhibición sería beneficiosa o perjudicial.
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener el prospecto de AEMPS (indicaciones, advertencias y contraindicaciones), cuya ausencia bloquea el cribado de seguridad
+- Obtener datos del mecanismo de acción desde DrugBank
+- Revisar de forma específica el riesgo de toxicidad pulmonar, incluida la enfermedad pulmonar intersticial
+- Buscar estudios preclínicos de inhibición de PI3K en modelos de hipertensión pulmonar
+- Evaluar el perfil de interacciones, en especial con antidiabéticos, dado que alpelisib puede afectar la glucemia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

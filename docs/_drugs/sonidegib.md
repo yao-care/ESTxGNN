@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sonidegib
-parent: Solo predicción del modelo (L5)
-nav_order: 497
-evidence_level: L5
+parent: Evidencia alta (L1-L2)
+nav_order: 743
+evidence_level: L2
 indication_count: 10
 ---
 
 # Sonidegib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,122 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Sonidegib: De Carcinoma Basocelular Avanzado a Meduloblastoma con Nodularidad Extensa
+# Sonidegib: De Carcinoma Cutáneo a Cáncer de Piel (Categoría Amplia)
 
 ## Resumen en Una Frase
 
-Sonidegib es un inhibidor oral de Smoothened (SMO) de la vía Hedgehog, utilizado en el carcinoma basocelular localmente avanzado o metastásico.
-El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodularidad extensa**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación concreta; es solo una predicción del modelo.
+Sonidegib es un inhibidor oral de la proteína Smoothened (SMO) de la vía Hedgehog, originalmente utilizado para el tratamiento del carcinoma basocelular y otros carcinomas cutáneos.
+El modelo TxGNN predice que podría ser efectivo para **cáncer de piel**, con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
+Cabe señalar que esta predicción se solapa en gran medida con la indicación ya aprobada, por lo que es más una ampliación a una categoría adyacente que un uso verdaderamente nuevo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma basocelular localmente avanzado o metastásico (según la literatura; el registro de la autorización no incluye el texto de indicación) |
-| Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa |
-| Puntaje de Predicción TxGNN | 99,90% |
-| Nivel de Evidencia | L5 |
+| Indicación Original | Carcinoma cutáneo / carcinoma basocelular (según las indicaciones originales registradas en el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
+| Nueva Indicación Predicha | Cáncer de piel |
+| Puntaje de Predicción TxGNN | 99.76% |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Sonidegib bloquea el receptor SMO, una pieza esencial de la vía de señalización Hedgehog. Esta vía está activada de forma anómala en el carcinoma basocelular, donde sonidegib ha demostrado eficacia. La evidencia procede del ensayo BOLT, un estudio de Fase 2 aleatorizado y doble ciego (NCT01327053, n=230).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, sonidegib es un antagonista del receptor Smoothened (SMO), una molécula similar a un receptor acoplado a proteína G esencial para la señalización de las proteínas Hedgehog. Su eficacia en carcinoma basocelular avanzado ha sido comprobada, y mecanísticamente es aplicable al cáncer de piel dependiente de Hedgehog.
 
-El meduloblastoma con nodularidad extensa se asocia estrechamente con el subgrupo activado por SHH (Sonic Hedgehog). Existe, por tanto, una justificación biológica plausible: si el tumor depende de la misma vía, inhibir SMO podría ser útil.
+El carcinoma basocelular (CBC) está impulsado por la activación aberrante de la vía Hedgehog (mutaciones en PTCH1/SMO), que sonidegib inhibe. La indicación predicha, "cáncer de piel", engloba al CBC, por lo que se solapa con el uso ya aprobado (CBC localmente avanzado). Se trata, por tanto, de una categoría más amplia o adyacente y no de un uso completamente nuevo.
 
-Esta relación es solo un razonamiento mecanístico. Los datos proporcionados no contienen ensayos ni literatura para esta indicación. Además, un posible uso pediátrico exigiría una revisión aparte de la toxicidad en las placas de crecimiento y en el sistema musculoesquelético. El puntaje alto de TxGNN es únicamente una predicción.
+Conviene tener presente que otros tumores cutáneos no dependientes de Hedgehog (por ejemplo, carcinoma espinocelular o melanoma) no tendrían el mismo sustento mecanístico. La utilidad real de la predicción se limita, en la práctica, a los tumores cutáneos con activación de la vía Hedgehog.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT01327053](https://clinicaltrials.gov/study/NCT01327053) | Fase 2 | Completado | 230 | Ensayo aleatorizado y doble ciego de dos dosis de LDE225 (sonidegib) en CBC localmente avanzado o metastásico; evidencia directa de eficacia y seguridad |
+| [NCT03534947](https://clinicaltrials.gov/study/NCT03534947) | Fase 2 | Completado | 16 | Piloto de sonidegib neoadyuvante de corta duración seguido de cirugía o imiquimod en CBC de localizaciones cosméticamente difíciles |
+| [NCT05463757](https://clinicaltrials.gov/study/NCT05463757) | N/A | Reclutando | 80 | Registro prospectivo de vismodegib y sonidegib en CBC avanzado o múltiple en los Países Bajos; datos de práctica real |
+| [NCT04007744](https://clinicaltrials.gov/study/NCT04007744) | Fase 1 | Activo, sin reclutar | 36 | Sonidegib más pembrolizumab en tumores sólidos avanzados; información de seguridad de la combinación, no específica de piel |
+| [NCT02303041](https://clinicaltrials.gov/study/NCT02303041) | Fase 2 | Terminado | 10 | Piloto de sonidegib más buparlisib en CBC avanzado; terminado con solo 10 pacientes, evidencia mínima |
+| [NCT01757327](https://clinicaltrials.gov/study/NCT01757327) | Fase 2 | Retirado | 0 | Ensayo controlado con placebo en cáncer de mama; retirado sin inscripción, no aporta datos |
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [37604067](https://pubmed.ncbi.nlm.nih.gov/37604067/) | 2023 | Guía | Eur J Cancer | Actualización 2023 de la guía europea de consenso para el diagnóstico y tratamiento del CBC, con clasificación en CBC "fácil" y "difícil de tratar" |
+| [31288208](https://pubmed.ncbi.nlm.nih.gov/31288208/) | 2019 | Guía | Eur J Cancer | Guía europea interdisciplinaria previa para el diagnóstico y tratamiento del CBC |
+| [32759706](https://pubmed.ncbi.nlm.nih.gov/32759706/) | 2020 | Revisión | Int J Mol Sci | Revisión integral del CBC: características histológicas y moleculares, y mecanismos de resistencia a tratamientos sistémicos |
+| [26919418](https://pubmed.ncbi.nlm.nih.gov/26919418/) | 2016 | Revisión | Cell | Inhibición de la vía Hedgehog; vismodegib y sonidegib son inhibidores de SMO aprobados en CBC localmente avanzado |
+| [39062023](https://pubmed.ncbi.nlm.nih.gov/39062023/) | 2024 | Revisión | Biomedicines | Epidemiología, factores de riesgo y opciones de tratamiento del cáncer de piel no melanoma avanzado y metastásico |
+| [36844955](https://pubmed.ncbi.nlm.nih.gov/36844955/) | 2022 | Revisión | Front Med | Estrategias clásicas y nuevas en melanoma avanzado y cáncer de piel no melanoma |
+| [26833519](https://pubmed.ncbi.nlm.nih.gov/26833519/) | 2016 | Revisión | Clin Med (Lond) | Panorama del cáncer de piel no melanoma (CBC y carcinoma espinocelular) |
+| [33888008](https://pubmed.ncbi.nlm.nih.gov/33888008/) | 2021 | Opinión de expertos | Expert Opin Drug Saf | Opinión de expertos sobre eficacia, seguridad y tolerabilidad de sonidegib |
+| [33194718](https://pubmed.ncbi.nlm.nih.gov/33194718/) | 2020 | Revisión | Front Oncol | Sonidegib en el tratamiento del CBC avanzado |
+| [26323341](https://pubmed.ncbi.nlm.nih.gov/26323341/) | 2015 | Revisión | Drugs | Primera aprobación global de sonidegib (Odomzo), antagonista oral de SMO |
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1151030002 | ODOMZO 200 MG CÁPSULAS DURAS (Sun Pharmaceutical Industries (Europe) B.V.) | Cápsula dura | No especificada en el registro |
+| 1151030002 | ODOMZO 200 MG CÁPSULAS DURAS | Cápsula dura | Texto de indicación no disponible en los datos compilados |
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de SMO / vía Hedgehog) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de SMO de la vía Hedgehog) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Toxicidad musculoesquelética y creatina quinasa (CK); consultar el prospecto para el resto de parámetros |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Según la evaluación de los ensayos: creatina quinasa (CK) por toxicidad musculoesquelética; además de funciones hepática y renal según el prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto; considerar además el riesgo de toxicidad embriofetal |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Puntos a tener en cuenta**: teratogenicidad, toxicidad musculoesquelética con elevación de CK y, en población pediátrica, posible toxicidad sobre las placas de crecimiento.
+- **Toxicidad musculoesquelética:** vigilar la elevación de CK.
+- **Teratogenicidad:** riesgo de toxicidad embriofetal.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones en la base consultada; la lista muestra las principales:
+  - **Mayores:** aprepitant, dexametasona, claritromicina, clotrimazol, cobicistat. Es relevante el manejo de inhibidores e inductores de CYP3A.
+  - **Moderadas:** cimetidina, metreleptina, miconazol, troglitazona, deferasirox.
+  - **Menores:** famotidina, ranitidina, rabeprazol, dexlansoprazol, omeprazol, lansoprazol, nizatidina, pantoprazol, esomeprazol.
 
-Para el resto de la información de seguridad, consultar el prospecto.
+Para advertencias y contraindicaciones detalladas, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La indicación se apoya solo en la predicción del modelo (L5) y en un razonamiento mecanístico plausible, sin ensayos ni publicaciones. Un posible uso pediátrico añade preocupaciones de seguridad que hay que resolver antes.
+Existe un ensayo aleatorizado de Fase 2 completado (NCT01327053) que respalda la eficacia y seguridad de sonidegib en CBC, y la indicación predicha se solapa ampliamente con el uso ya aprobado. Se recomienda avanzar con salvaguardas, dado que no se trata de un uso verdaderamente nuevo y existen riesgos relevantes de seguridad.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos o clínicos en meduloblastoma del subgrupo SHH.
-- Revisión específica de la seguridad pediátrica (crecimiento óseo y toxicidad musculoesquelética).
-- Descarga y análisis del prospecto de la AEMPS para completar el perfil de seguridad.
-- Datos detallados del mecanismo de acción desde DrugBank.
+- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada), actualmente no disponible.
+- Datos detallados del mecanismo de acción (MOA).
+- Definir con precisión qué subtipos de cáncer de piel (distintos del CBC) dependen de Hedgehog, para delimitar la población objetivo.
+- Plan de monitoreo de CK y toxicidad musculoesquelética, anticoncepción y prevención de toxicidad embriofetal.
+- Revisión del manejo de interacciones con inhibidores e inductores de CYP3A.
 
-**Nota:** entre las demás indicaciones predichas, "cáncer de piel" (carcinoma basocelular) tiene la evidencia más sólida (L2, ensayo BOLT de Fase 2). Ese uso ya está autorizado, por lo que no es un reposicionamiento propiamente dicho. El único otro dato clínico es un caso aislado en xeroderma pigmentoso (L4).
+---
+
+### Nota sobre otras indicaciones predichas
+
+Entre las demás predicciones, la **xerodermia pigmentosa** (L4, solo un reporte de caso de 2026 sobre múltiples CBC en un paciente con esta enfermedad, con beneficio indirecto sobre los tumores) merece seguimiento como pregunta de investigación. El **meduloblastoma con nodularidad extensa** es mecanísticamente plausible (vía SHH/SMO) pero carece de ensayos y literatura, y exigiría abordar la toxicidad sobre las placas de crecimiento en pacientes pediátricos; se mantiene en Hold. El resto de las predicciones (L5) carece de evidencia y de fundamento mecanístico claro.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alimemazine
-parent: Solo predicción del modelo (L5)
-nav_order: 28
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 35
+evidence_level: L4
 indication_count: 6
 ---
 
 # Alimemazine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,97 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Alimemazina: De Prurito Alérgico y Cinetosis a Urticaria Alérgica
+# Alimemazina: De Urticaria y Rinitis Alérgica a Urticaria Alérgica
 
 ## Resumen en Una Frase
 
-Alimemazina (trimeprazina) es un antihistamínico H1 de la familia de las fenotiazinas. Según la farmacología de referencia, se usa para el prurito alérgico y la cinetosis (mareo por movimiento). El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Alimemazina (trimeprazina) es un antihistamínico H1 de primera generación del grupo de las fenotiazinas, utilizado originalmente para urticaria, rinitis alérgica, dermatografismo familiar y otras afecciones alérgicas.
+El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; el apoyo es solo indirecto (efecto de clase e indicaciones ya existentes).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos de AEMPS (el texto de indicación está vacío). Según farmacología (IUPHAR): prurito alérgico y cinetosis |
+| Indicación Original | Urticaria, rinitis alérgica, angioedema y otras afecciones alérgicas (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
 | Nueva Indicación Predicha | Urticaria alérgica |
 | Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L5 |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, alimemazina es una fenotiazina con actividad antihistamínica H1. Su uso en cuadros alérgicos pruriginosos es conocido, y mecanísticamente podría ser aplicable a la urticaria alérgica. Un estudio en cerebro bovino describe efectos antihistamínicos y antimuscarínicos (Ki de 38 nM para la unión muscarínica). No se encontraron datos públicos de afinidad en el objetivo humano, por lo que el mecanismo no está confirmado en humanos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, alimemazina es una fenotiazina con actividad antihistamínica H1 y efectos antimuscarínicos (datos farmacológicos en tejido cerebral bovino indican una Ki de 38 nM para la unión muscarínica). Mecanísticamente podría ser aplicable a la urticaria alérgica, una condición mediada por la liberación de histamina de los mastocitos.
 
-La urticaria alérgica está mediada por la liberación de histamina en los mastocitos, que produce ronchas y picor. El bloqueo del receptor H1 actúa directamente sobre ese mecanismo, por lo que el vínculo biológico es plausible.
+La urticaria alérgica queda esencialmente dentro del espacio de las indicaciones originales del fármaco (urticaria, dermatografismo familiar, rinitis alérgica). El puntaje tan alto de TxGNN es coherente con esta cercanía farmacológica, pero por ello no constituye un hallazgo nuevo de reposicionamiento, sino más bien una confirmación del uso ya establecido.
 
-Esta predicción podría solaparse con un uso ya autorizado. Como el campo de indicaciones originales está vacío, el conjunto de datos no lo refleja. Conviene verificarlo en la ficha técnica antes de considerarla un verdadero reposicionamiento.
+Cabe señalar que los datos de afinidad por el receptor H1 humano no están disponibles públicamente, por lo que el mecanismo se infiere por la clase del fármaco.
 
-### Otras predicciones del modelo
+### Otras indicaciones predichas (todas sin ensayos ni literatura)
 
-| Indicación Predicha | Puntaje TxGNN | Nivel | Valoración |
-|------|------|------|------|
-| Urticaria por frío | 99.96% | L5 | Plausible: los antihistamínicos H1 son tratamiento de primera línea, pero sin evidencia específica de alimemazina |
-| Recalcitrant atopic dermatitis (dermatitis atópica refractaria) | 99.59% | L5 | Posible alivio sintomático del picor y del sueño; la histamina influye poco en la enfermedad de fondo |
-| Respuesta IgE atópica | 99.60% | L5 | Vínculo débil: es un fenotipo inmunológico, no una enfermedad tratable (Hold) |
-| Enfermedad de la cavidad nasal | 99.60% | L5 | Término demasiado amplio; habría que concretar el subtipo (Hold) |
-| Laringofaringitis aguda | 99.54% | L5 | Sin justificación clara; el efecto anticolinérgico secante podría empeorar los síntomas (Hold) |
+| Rank | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
+|------|------|------|------|------|
+| 2 | Urticaria por frío | 99.96% | L4 | Plausible por bloqueo H1, pero las guías prefieren antihistamínicos de segunda generación; los sedantes tienen efectos anticolinérgicos y sedantes |
+| 3 | Respuesta IgE atópica | 99.60% | L5 | Es un fenotipo y no una enfermedad tratable; solo predicción del modelo |
+| 4 | Enfermedad de la cavidad nasal | 99.60% | L4 | Categoría muy inespecífica que incluye rinitis ya indicadas |
+| 5 | Dermatitis atópica recalcitrante | 99.59% | L4 | Posible uso adyuvante para prurito y sueño; no modifica la inflamación Th2 |
+| 6 | Laringofaringitis aguda | 99.54% | L4 | Solapa con faringitis y resfriado común; beneficio probado limitado |
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 40002 | VARIARGIL 40MG/ML GOTAS ORALES EN SOLUCIÓN (Laboratorios Farmacéuticos Logogen S.A.) | Gotas orales en solución | No especificada en los datos |
+| 40002 | VARIARGIL 40 MG/ML gotas orales en solución | Gotas orales en solución | No disponible en los datos compilados |
 
-La única vía disponible es la oral.
+Titular: Laboratorios Farmacéuticos Logogen S.A. (autorización vigente, monofármaco, vía oral).
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados. Consultar el prospecto para esa información.
 
-Por su perfil antimuscarínico, cabe esperar un efecto anticolinérgico (sequedad de mucosas). Esto debe evaluarse antes de proponer usos en patología de vías respiratorias altas.
+- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): 
+  - Cardiovasculares: síndrome de QT largo (familiar o no), torsades de pointes, parada cardíaca súbita, enfermedad de conducción cardíaca, infarto de miocardio, trombosis coronaria, hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica.
+  - Hematológicas: neutropenia, agranulocitosis, leucopenia, trombocitopenia, anemia (incluida la macrocítica), hemoglobinopatía.
+  - Neurológicas: epilepsia, enfermedad de los ganglios basales, distonía focal de la mano, blefaroespasmo.
+  - Otras: enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, hiperplasia prostática benigna, obesidad (incluida la monogénica), carcinoma de mama femenino, abuso o dependencia de sustancias.
+- **Interacciones farmacológicas**: la consulta se completó sin interacciones clínicas con otros fármacos; solo se registró la farmacología del receptor H1 (sin nivel de gravedad).
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es biológicamente plausible y el puntaje del modelo es muy alto, pero no hay ensayos ni literatura (nivel L5). Además, falta la información de la ficha técnica, por lo que no se puede descartar que la indicación ya esté autorizada.
+La predicción es de alta puntuación pero no aporta una indicación realmente nueva: la urticaria alérgica ya se solapa con las indicaciones existentes. No hay ensayos ni literatura (nivel L4), y falta información de seguridad del prospecto, lo que bloquea el cribado de seguridad.
 
 **Para avanzar se necesita:**
-- Descargar y analizar la ficha técnica de AEMPS (advertencias, contraindicaciones e indicaciones autorizadas) para confirmar si la urticaria ya está cubierta.
-- Completar el mecanismo de acción desde DrugBank y datos de afinidad en el receptor H1 humano.
-- Hacer una búsqueda dirigida de literatura y ensayos sobre alimemazina/trimeprazina en urticaria (aguda, crónica y por frío).
-- Concretar las indicaciones amplias (cavidad nasal) o poco plausibles (IgE atópica, laringofaringitis) antes de plantearlas como preguntas de investigación.
-
-*Los resultados son solo para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Descargar y analizar el prospecto de la AEMPS para obtener advertencias, contraindicaciones y el texto de la indicación autorizada.
+- Obtener datos del mecanismo de acción (por ejemplo, mediante DrugBank).
+- Revisar la literatura y los registros de ensayos específicos de alimemazina en urticaria.
+- Evaluar el perfil de seguridad (sedación, efectos anticolinérgicos, prolongación del QT, discrasias sanguíneas) frente a los antihistamínicos de segunda generación, preferidos por las guías.
+- Confirmar la compatibilidad de vías de administración y la similitud con la indicación original (pendientes).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

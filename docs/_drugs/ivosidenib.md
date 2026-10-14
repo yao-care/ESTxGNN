@@ -2,7 +2,7 @@
 layout: default
 title: Ivosidenib
 parent: Solo predicción del modelo (L5)
-nav_order: 297
+nav_order: 439
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,69 +29,104 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Ivosidenib: De Enfermedad Mieloide con Mutación IDH1 a Poliomielitis Bulbar
+# Ivosidenib: De Leucemia Mieloide Aguda a Bulbar Polio
 
 ## Resumen en Una Frase
 
-Ivosidenib es un inhibidor de la enzima IDH1 mutada y está comercializado en España como TIBSOVO, aunque el registro no incluye el texto de su indicación aprobada. El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, y no existe un vínculo mecanístico plausible.
+Ivosidenib es un inhibidor de la IDH1 mutada, originalmente utilizado para el tratamiento de la leucemia mieloide aguda (LMA) y sus subtipos.
+El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, aunque no hay **ningún ensayo clínico** ni **ninguna publicación** que respalde esta predicción.
+Los datos compilados indican que el puntaje alto es probablemente un artefacto del grafo de conocimiento.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el registro de autorización (el texto de indicación está vacío) |
+| Indicación Original | Leucemia mieloide aguda (según los datos compilados; el texto de indicación autorizado en AEMPS no está disponible) |
 | Nueva Indicación Predicha | Poliomielitis bulbar |
-| Puntaje de Predicción TxGNN | 99.31% |
+| Puntaje de Predicción TxGNN | 99,31% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-**Esta predicción no es razonable desde el punto de vista biológico.** Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según el análisis mecanístico disponible, ivosidenib inhibe la enzima IDH1 mutada y reduce el oncometabolito 2-hidroxiglutarato. Este mecanismo es relevante en neoplasias mieloides con mutación IDH1.
+Ivosidenib es un inhibidor de la isocitrato deshidrogenasa 1 (IDH1) mutada. Reduce los niveles de 2-hidroxiglutarato (2-HG) y alivia el bloqueo de diferenciación en neoplasias mieloides con mutación de IDH1. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; la descripción anterior procede del análisis mecanístico asociado a la predicción.
 
-La poliomielitis bulbar es una infección viral aguda de las neuronas motoras. La inhibición de IDH1 no tiene un papel conocido en la replicación del poliovirus ni en la respuesta del huésped. El puntaje alto (0.993) probablemente sea un artefacto del grafo de conocimiento, ya que no hay ensayos ni literatura que lo sustenten.
+**En este caso, la predicción no resulta razonable desde el punto de vista biológico.** La poliomielitis bulbar es una infección viral de las neuronas motoras causada por el poliovirus, sin dependencia conocida de mutaciones de IDH1 ni de la señalización por 2-HG. No se identificó ningún vínculo mecanístico creíble con la indicación original. El puntaje elevado (0,993) se interpreta como un artefacto del grafo de conocimiento y no está respaldado por una justificación biológica.
 
-Las otras dos predicciones del modelo sí son biológicamente plausibles: **leucemia mieloide aguda y síndromes mielodisplásicos relacionados con radiación**, y los **relacionados con agentes alquilantes**. Ambas tienen un puntaje de 99.26%. Son subtipos secundarios a terapia que pueden portar mutaciones en IDH1, y el posible beneficio dependería del estado mutacional y no de la causa. Como ivosidenib ya se comercializa para enfermedad mieloide con IDH1 mutado, la pregunta abierta es si estos subgrupos necesitan evidencia propia. El modelo les asigna puntajes idénticos, lo que sugiere que los trata como nodos casi equivalentes y no como evidencia independiente. También en estos dos casos hay 0 ensayos y 0 publicaciones, por lo que son solo preguntas de investigación.
+### Otras predicciones del modelo con mayor plausibilidad
+
+Los datos compilados incluyen dos predicciones alternativas con un vínculo indirecto plausible. Ambas son neoplasias mieloides relacionadas con tratamientos previos, cercanas a las indicaciones originales de LMA relacionada con terapia:
+
+| Indicación predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
+|------|------|------|------|
+| LMA y síndromes mielodisplásicos relacionados con radiación | 99,26% | L4 | Pregunta de investigación |
+| LMA y síndromes mielodisplásicos relacionados con agentes alquilantes | 99,26% | L4 | Pregunta de investigación |
+
+En ambos casos, la actividad se esperaría únicamente en casos con mutación de IDH1. La evidencia es indirecta (extrapolada de las indicaciones de LMA existentes), no se aportaron ensayos ni literatura específicos, y el componente de síndrome mielodisplásico no está claramente respaldado.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1231728001 | TIBSOVO 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (Les Laboratoires Servier) | Comprimido recubierto con película | No especificada en el registro |
+| 1231728001 | TIBSOVO 250 mg comprimidos recubiertos con película (Les Laboratoires Servier) | Comprimido recubierto con película | No disponible en los datos compilados |
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de IDH1 mutada) |
-| Riesgo de Mielosupresión, Emetogenicidad, Monitoreo y Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+**Interacciones Farmacológicas** (se identificaron 100 interacciones en total; se muestran las de la muestra analizada):
+
+- **Gravedad mayor:** aprepitant, claritromicina, dolasetrón, palonosetrón, cisaprida, granisetrón, levofloxacino.
+- **Gravedad moderada:** famotidina, loperamida, bisacodilo, ácido picosulfúrico, polietilenglicol (3350 con electrolitos), saxagliptina, eliglustat, linagliptina, sulfato de sodio, aceite de ricino, glicerina, lactitol, lactulosa.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (poliomielitis bulbar) carece de ensayos, literatura y vínculo mecanístico, por lo que solo es una predicción del modelo (L5). No se recomienda avanzar con ella, y el puntaje alto probablemente refleja un artefacto del grafo de conocimiento.
+La predicción para poliomielitis bulbar carece de ensayos, literatura y fundamento mecanístico (nivel L5), y el puntaje alto de TxGNN parece un artefacto del grafo de conocimiento. No se recomienda avanzar con esta indicación.
 
 **Para avanzar se necesita:**
-- Descartar la poliomielitis bulbar como línea de investigación, salvo que aparezca evidencia independiente.
-- Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada), pendiente y bloqueante para cualquier cribado de seguridad.
+- Descartar esta indicación como candidata o, en su caso, replantear la priorización hacia las neoplasias mieloides relacionadas con radiación o agentes alquilantes (nivel L4, sujetas a estado mutacional de IDH1).
+- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada), una brecha de datos bloqueante para el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Evaluar por separado las predicciones de leucemia mieloide aguda y síndromes mielodisplásicos relacionados con radiación y con agentes alquilantes, estratificadas por estado mutacional de IDH1.
+- Realizar una revisión de la literatura y de registros de ensayos para las indicaciones alternativas de LMA/SMD relacionadas con terapia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

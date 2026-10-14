@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dantrolene
-parent: Solo predicción del modelo (L5)
-nav_order: 155
-evidence_level: L5
+parent: Evidencia moderada (L3-L4)
+nav_order: 220
+evidence_level: L3
 indication_count: 9
 ---
 
 # Dantrolene
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Dantroleno: De Relajante Muscular a Hipertermia Maligna (Susceptibilidad)
+# Dantroleno: De Hipertermia Maligna Anestésica a Susceptibilidad a la Hipertermia Maligna
 
 ## Resumen en Una Frase
 
-Dantroleno es un relajante muscular de acción directa sobre el músculo esquelético, utilizado en crisis de hipertermia maligna.
-El modelo TxGNN predice que podría ser efectivo para **hipertermia maligna, susceptibilidad a**, con un puntaje del 99,93 %.
-Actualmente no hay **ensayos clínicos** ni **publicaciones** asociados a esta indicación en el conjunto de datos, por lo que el respaldo proviene del mecanismo farmacológico conocido.
+Dantroleno es un relajante muscular que actúa sobre el receptor de rianodina, utilizado originalmente para tratar la hipertermia maligna asociada a la anestesia y la inducida por el ejercicio.
+El modelo TxGNN predice que podría ser efectivo para **hipertermia maligna, susceptibilidad a** (puntaje 99,93%), con **0 ensayos clínicos** y **18 publicaciones** (guías, revisiones y estudios mecanísticos) que respaldan esta dirección.
+Cabe señalar que esta predicción coincide en la práctica con la indicación original, por lo que no constituye un reposicionamiento propiamente dicho.
 
 ---
 
@@ -43,9 +43,10 @@ Actualmente no hay **ensayos clínicos** ni **publicaciones** asociados a esta i
 
 | Item | Contenido |
 |------|------|
+| Indicación Original | Hipertermia maligna de la anestesia / hipertermia maligna inducida por el ejercicio (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
 | Nueva Indicación Predicha | Hipertermia maligna, susceptibilidad a |
-| Puntaje de Predicción TxGNN | 99,93 % |
-| Nivel de Evidencia | L4 (solo mecanismo farmacológico; sin ensayos ni literatura en los datos) |
+| Puntaje de Predicción TxGNN | 99,93% |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -54,11 +55,13 @@ Actualmente no hay **ensayos clínicos** ni **publicaciones** asociados a esta i
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dantroleno actúa sobre los receptores de rianodina, en particular **RyR1** (gen *RYR1*) y **RyR3** (gen *RYR3*), según los datos farmacológicos disponibles. RyR1 es el canal que libera calcio desde el retículo sarcoplásmico en el músculo esquelético. Al inhibir esta liberación, el fármaco reduce la contracción muscular sostenida y la respuesta hipermetabólica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información farmacológica compilada, dantroleno actúa sobre los receptores de rianodina (RyR1 y RyR3), canales de liberación de calcio del retículo sarcoplásmico del músculo esquelético. Al inhibir esta liberación, reduce la contractilidad y el estado hipermetabólico característico de la crisis.
 
-La hipertermia maligna es un trastorno farmacogenético del músculo esquelético. Las mutaciones de *RYR1* provocan una liberación descontrolada de calcio cuando el paciente se expone a anestésicos volátiles o a relajantes musculares despolarizantes. La relación entre el mecanismo del fármaco y la fisiopatología de la enfermedad es directa, y el puntaje alto del modelo es coherente con ella.
+La susceptibilidad a la hipertermia maligna se debe principalmente a variantes de ganancia de función en *RYR1*, que provocan una liberación descontrolada de calcio. Es el mismo mecanismo que justifica la indicación aprobada, y dantroleno es el tratamiento de referencia recomendado por las guías de la Association of Anaesthetists (PMID 33399225) y del European Malignant Hyperthermia Group (PMID 33131754). Un estudio mecanístico (PMID 28373535) además describe que el fármaco requiere Mg2+ para detener la crisis.
 
-Los datos farmacológicos indican que dantroleno se usa en crisis de hipertermia maligna y de forma perioperatoria para prevenirlas. También indican que una formulación de dantroleno sódico hemiheptahidrato fue aprobada por la EMA en mayo de 2024. Es probable que esta predicción describa un uso ya establecido y no un reposicionamiento nuevo. El texto de indicación de la autorización española no consta en los datos, así que conviene verificarlo con la ficha técnica vigente antes de tratarlo como uso aprobado.
+**Otras predicciones del modelo (contexto):**
+- **Con respaldo indirecto (L4, "pregunta de investigación"):** síndrome de King-Denborough, miopatía multicore congénita con oftalmoplejía externa, miopatía del núcleo central y miopatía centronuclear. En ellas la relevancia del dantroleno se limita al manejo del riesgo de hipertermia maligna, sin evidencia de beneficio sobre la miopatía de base.
+- **Solo predicción del modelo (L5, "Hold"):** enfermedad multiminicore moderada con afectación de la mano, parálisis periódica hipopotasémica y parálisis periódica tirotóxica (ambas formas). No hay ensayos ni literatura que las respalden.
 
 ---
 
@@ -70,7 +73,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Se muestran las publicaciones más relevantes (guías y revisiones priorizadas, más un estudio mecanístico):
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [33399225](https://pubmed.ncbi.nlm.nih.gov/33399225/) | 2021 | Guía | Anaesthesia | Guía de la Association of Anaesthetists 2020 sobre hipertermia maligna, con base genética y riesgo ante anestésicos inhalatorios y suxametonio |
+| [33131754](https://pubmed.ncbi.nlm.nih.gov/33131754/) | 2021 | Guía/Consenso | British Journal of Anaesthesia | Consenso europeo sobre manejo perioperatorio de pacientes sospechosos o susceptibles; no hay ensayos intervencionistas por la rareza y límites éticos |
+| [26238698](https://pubmed.ncbi.nlm.nih.gov/26238698/) | 2015 | Revisión | Orphanet J Rare Dis | Trastorno farmacogenético del músculo esquelético; incidencia de 1:10.000 a 1:250.000 anestesias |
+| [39171998](https://pubmed.ncbi.nlm.nih.gov/39171998/) | 2024 | Revisión | Critical Care Medicine | Revisión narrativa de epidemiología clínica y manejo de pacientes críticos con hipertermia maligna |
+| [32008650](https://pubmed.ncbi.nlm.nih.gov/32008650/) | 2020 | Revisión | Anesthesiology Clinics | Trastorno de los canales de liberación de calcio, herencia autosómica dominante; la mortalidad ha mejorado |
+| [9538480](https://pubmed.ncbi.nlm.nih.gov/9538480/) | 1998 | Revisión | Postgrad Med J | Indica el dantroleno sódico como tratamiento definitivo y describe precauciones en pacientes susceptibles |
+| [25989378](https://pubmed.ncbi.nlm.nih.gov/25989378/) | 2015 | Revisión | Acta Anaesthesiol Scand | Actualización escandinava; la mayoría de los casos se vinculan a mutaciones en *RYR1* |
+| [28373535](https://pubmed.ncbi.nlm.nih.gov/28373535/) | 2017 | Mecanístico | PNAS | El dantroleno requiere Mg2+ para detener la hipertermia maligna |
+| [23198031](https://pubmed.ncbi.nlm.nih.gov/23198031/) | 2012 | Revisión | Korean J Anesthesiol | Herencia autosómica dominante con expresión variable y penetrancia incompleta |
+| [14661655](https://pubmed.ncbi.nlm.nih.gov/14661655/) | 2003 | Revisión | Best Pract Res Clin Anaesthesiol | Liberación descontrolada de calcio desde el retículo sarcoplásmico; posible relación con golpe de calor y rabdomiólisis |
 
 ---
 
@@ -78,13 +94,16 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1241805001 | AGILUS 120 MG POLVO PARA SOLUCIÓN INYECTABLE (Norgine B.V.) | Polvo para solución inyectable | No consta en los datos |
+| 1241805001 | AGILUS 120 MG POLVO PARA SOLUCIÓN INYECTABLE (Norgine B.V.) | Polvo para solución inyectable | No disponible en los datos compilados |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / enfermedades de precaución según el grafo de conocimiento** (no proceden del texto del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, miopatía, enfermedad muscular, enfermedad del músculo esquelético, parálisis periódica familiar y enfermedad pulmonar (incluida una enfermedad pulmonar rara).
+- **Interacciones farmacológicas:** no se registraron interacciones con otros fármacos. Solo constan las dianas farmacológicas RyR1 y RyR3 (humanas).
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -93,15 +112,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El mecanismo (inhibición de RyR1) coincide con la causa de la enfermedad y el puntaje del modelo es muy alto. Sin embargo, los datos no incluyen ensayos, literatura, indicación autorizada ni información de seguridad, por lo que no se puede confirmar el uso con la evidencia proporcionada.
+Dantroleno es el tratamiento de referencia para la hipertermia maligna, respaldado por guías internacionales y por un mecanismo coherente con la indicación aprobada. El nivel L3 refleja que no hay ensayos registrados y que la evidencia se basa en guías y revisiones, no una debilidad del uso clínico.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto o ficha técnica de AEMPS de AGILUS para confirmar la indicación autorizada, las advertencias y las contraindicaciones.
-- Completar los datos del mecanismo de acción y de la indicación original del fármaco.
-- Recopilar literatura clínica específica sobre dantroleno en hipertermia maligna, con la que ahora no se cuenta.
-- Aclarar si esta predicción es un uso ya aprobado o un reposicionamiento genuino.
-
-**Otras predicciones del modelo (no evaluadas en este informe):** el síndrome de King-Denborough, la enfermedad del núcleo central y otras miopatías relacionadas con *RYR1* tienen literatura que respalda solo el riesgo de hipertermia maligna, no un beneficio de dantroleno sobre la miopatía. Las parálisis periódicas tienen una vinculación solo especulativa y una posible preocupación por debilidad muscular. Ninguna se recomienda avanzar por ahora.
+- Obtener el prospecto oficial de la AEMPS (advertencias y contraindicaciones), cuya ausencia impide completar el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Confirmar la indicación aprobada en la autorización española.
+- Para las indicaciones de miopatías congénitas y parálisis periódicas, considerar solo como preguntas de investigación (o mantener en espera), dado que no hay evidencia de beneficio sobre la enfermedad de base.
+- Valorar con cautela el uso en pacientes con enfermedad hepática o muscular, según las contraindicaciones del grafo de conocimiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

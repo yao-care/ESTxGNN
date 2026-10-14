@@ -2,7 +2,7 @@
 layout: default
 title: Iloprost
 parent: Solo predicción del modelo (L5)
-nav_order: 272
+nav_order: 405
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,18 +29,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Iloprost: De Hipertensión Pulmonar a Hipotricosis Simple del Cuero Cabelludo
+# Iloprost: De Hipertensión Arterial Pulmonar a Hipotricosis Simple del Cuero Cabelludo
 
 ## Resumen en Una Frase
 
-Iloprost es un análogo de la prostaciclina que en España se comercializa en solución para inhalación por nebulizador y en concentrado para perfusión. Su uso conocido es la hipertensión pulmonar, pero el texto de indicación de las autorizaciones está vacío en los datos recibidos.
-El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Iloprost es un análogo estable de la prostaciclina, utilizado originalmente para el tratamiento de la hipertensión arterial pulmonar.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en las autorizaciones de la AEMPS (texto vacío). La literatura del paquete indica que iloprost está aprobado para hipertensión pulmonar en adultos; requiere confirmación |
+| Indicación Original | Hipertensión arterial pulmonar |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 99,45% |
 | Nivel de Evidencia | L5 |
@@ -50,11 +51,11 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, iloprost es un análogo de la prostaciclina con efectos vasodilatadores y antiagregantes plaquetarios. Su eficacia en hipertensión pulmonar está descrita en la literatura, pero no hay un vínculo mecanístico demostrado con la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, iloprost es un análogo de la prostaciclina que actúa a través del receptor IP y la señalización del AMPc. Produce vasodilatación pulmonar e inhibe la agregación plaquetaria y la proliferación del músculo liso. Su eficacia en la hipertensión arterial pulmonar está establecida.
 
-La única hipótesis es especulativa: la señalización de prostaciclina y prostaglandinas podría influir en el ciclo del folículo piloso. Esto no está establecido para iloprost.
+La relación entre la indicación original y la nueva es débil. La hipotricosis simple es un trastorno genético del folículo piloso (por ejemplo, variantes en *CDSN* o *APCDD1*) y no tiene una vía de prostaciclina establecida. Solo existe una conexión especulativa: otros análogos de prostaglandinas, como bimatoprost, influyen en el crecimiento del cabello.
 
-Además, la hipotricosis simple es un trastorno genético. Un efecto vasodilatador o antiagregante difícilmente corregiría una causa hereditaria del folículo. El alto puntaje de TxGNN (99,45%) proviene solo del grafo de conocimiento y no está respaldado por estudios reales.
+En conclusión, el puntaje alto de TxGNN (99,45%) no está respaldado por ningún vínculo mecanístico demostrado ni por datos clínicos. Debe interpretarse como una hipótesis que requiere validación, no como una indicación plausible.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,36 +67,49 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 86227 | Iloprost Zentiva 20 microgramos/ml | Solución para inhalación por nebulizador | Zentiva K.S. |
-| 61596 | Ilomedin 50 microgramos/0,5 ml | Concentrado para solución para perfusión | Bayer Hispania S.L. |
-| 03255004 | Ventavis 10 microgramos/ml | Solución para inhalación por nebulizador | Bayer AG |
-| 86242 | Iloprost Rafarm 10 microgramos/ml | Solución para inhalación por nebulizador | Rafarm S.A. |
-| 86226 | Iloprost Zentiva 10 microgramos/ml | Solución para inhalación por nebulizador | Zentiva K.S. |
+| 86227 | Iloprost Zentiva 20 microgramos/ml solución para inhalación por nebulizador | Solución para inhalación por nebulizador | No consta en los datos compilados |
+| 61596 | Ilomedin 50 microgramos/0,5 ml, concentrado para solución para perfusión | Concentrado para solución para perfusión | No consta en los datos compilados |
+| 03255004 | Ventavis 10 microgramos/ml solución para inhalación por nebulizador | Solución para inhalación por nebulizador | No consta en los datos compilados |
+| 86242 | Iloprost Rafarm 10 microgramos/ml solución para inhalación por nebulizador | Solución para inhalación por nebulizador | No consta en los datos compilados |
+| 86226 | Iloprost Zentiva 10 microgramos/ml solución para inhalación por nebulizador | Solución para inhalación por nebulizador | No consta en los datos compilados |
 
-Las autorizaciones no incluyen texto de indicación aprobada en los datos recibidos, por lo que se omite esa columna.
+Las cinco autorizaciones son de monofármaco y están vigentes. Ninguna incluye una formulación tópica o dermatológica; solo hay formas inhaladas y de perfusión.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no proceden del prospecto)**: insuficiencia hepática, enfermedad pulmonar obstructiva crónica (incluida la de inicio precoz grave), trastornos hipotensivos, edema pulmonar y enfermedad bronquial.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las de nivel moderado destacan:
+  - Adrenalina
+  - Ácido acetilsalicílico
+  - Inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina)
+  - Insulina humana inhalada
+  - Manitol
+  - Efedrina
+  - Fenfluramina y dexfenfluramina
+  - Glicerina
+  - Papaverina
+  - Sibutramina
+
+  También hay interacciones de nivel no clasificado, como calcitriol, pantoprazol, morfina, metformina y omeprazol.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5: sin ensayos, sin literatura y sin un mecanismo plausible para un trastorno capilar genético. Con estos datos no hay base para avanzar.
+La predicción carece de ensayos clínicos, literatura y vínculo mecanístico plausible; es solo un resultado del modelo (nivel L5). Una enfermedad genética del folículo piloso sin relación conocida con la vía de la prostaciclina no justifica avanzar sin evidencia adicional.
 
 **Para avanzar se necesita:**
-- Confirmar las indicaciones autorizadas y la información de seguridad en la ficha técnica de la AEMPS.
-- Obtener los datos del mecanismo de acción desde DrugBank.
-- Realizar estudios preclínicos que sustenten un efecto en el folículo piloso, y valorar la vía de administración, dado que las formas disponibles son inhalada e intravenosa.
-- Priorizar otras predicciones del mismo paquete con más respaldo:
-  - Hipertensión arterial pulmonar asociada a cardiopatía congénita (L3, Proceed with Guardrails): 1 ensayo N/A con 42 pacientes y 20 publicaciones.
-  - Hipertensión arterial pulmonar asociada a VIH: incluye un ensayo de Fase 3 completado (NCT00709956) cuyo fármaco y población deben verificarse.
+- Datos del mecanismo de acción de iloprost y una hipótesis biológica concreta sobre el folículo piloso
+- Estudios preclínicos en modelos de folículo piloso o de hipotricosis
+- Evaluación de la viabilidad de una vía de administración adecuada (las formas autorizadas son inhaladas y de perfusión, no tópicas)
+- Revisión del prospecto de la AEMPS para advertencias y contraindicaciones
 
-*Este informe es solo para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+**Nota complementaria:** entre las demás predicciones del modelo, la hipertensión arterial pulmonar asociada a enfermedad del tejido conectivo muestra el respaldo más sólido (nivel L3, con estudios observacionales y un estudio preclínico). Sin embargo, es un subgrupo dentro de la clase ya aprobada y no un reposicionamiento propiamente dicho. Si el objetivo es priorizar líneas de investigación, esa sería más prometedora que la hipotricosis.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

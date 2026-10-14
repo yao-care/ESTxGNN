@@ -2,7 +2,7 @@
 layout: default
 title: Tramazoline
 parent: Solo predicción del modelo (L5)
-nav_order: 537
+nav_order: 810
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,81 +29,104 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Tramazolina: De Uso Nasal Tópico (Indicación Original No Registrada) a Urticaria Alérgica
+# Tramazolina: De Rinitis Alérgica a Urticaria Alérgica
 
 ## Resumen en Una Frase
 
-Tramazolina es un agonista alfa-adrenérgico de tipo imidazolina que se comercializa en España como solución para pulverización nasal.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción basada solo en el grafo de conocimiento.
+Tramazolina es un descongestionante nasal y ocular de tipo imidazolina, utilizado originalmente en rinitis alérgica, rinitis vasomotora, faringitis, resfriado común y distintas formas de conjuntivitis.
+El modelo TxGNN predice que podría ser efectiva para **urticaria alérgica**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de la AEMPS (los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Puntaje de Predicción TxGNN | 99,95% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
+---
+
 ## ¿Por qué es Razonable esta Predicción?
 
-Tramazolina es un agonista alfa-adrenérgico de tipo imidazolina que produce vasoconstricción local. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Las dos presentaciones autorizadas en España son pulverizadores nasales, coherentes con un uso como descongestionante de la mucosa nasal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la tramazolina es un agonista alfa-adrenérgico tópico de la clase de las imidazolinas, que produce vasoconstricción de la mucosa y se usa como descongestionante. Su eficacia sintomática en rinitis alérgica y conjuntivitis alérgica se basa en la reducción de la congestión y el enrojecimiento.
 
-La urticaria alérgica depende sobre todo de la activación de los mastocitos y de las vías mediadas por histamina. Un vasoconstrictor nasal tópico no tiene un vínculo mecanístico claro con ese proceso. El puntaje alto de TxGNN refleja una asociación en el grafo, sin apoyo clínico ni bibliográfico.
+La relación con la urticaria alérgica es débil. La urticaria es una afección cutánea mediada por mastocitos e histamina, y un descongestionante nasal u ocular no tiene una vía de beneficio establecida en ella. El vínculo más plausible sería el síntoma común de «alergia», pero esto es solo una asociación del modelo.
 
-Por ello, esta predicción debe leerse con cautela. No hay razones mecanísticas sólidas ni evidencia real que la sustenten, y la similitud con la indicación original aún no se ha evaluado.
+Por ello, el puntaje elevado (99,95%) debe interpretarse con cautela: no hay evidencia clínica ni de literatura que lo confirme, y la exposición sistémica tras uso tópico es baja.
+
+### Otras predicciones del modelo (para contexto)
+
+| Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
+|------|------|------|------|
+| Laringofaringitis aguda | 99,92% | L5 | Adyacente a las indicaciones de faringitis/nasofaringitis; sin evidencia directa |
+| Enfermedad de la cavidad nasal | 99,91% | L5 | Categoría amplia, solapada con usos ya existentes |
+| Conjuntivitis rosácea | 99,68% | L5 | Posible alivio sintomático de la hiperemia; riesgo de hiperemia de rebote |
+| Rinitis | 99,53% | L4 | Cercana a la indicación actual; hay literatura de apoyo |
+| Urticaria por frío | 99,45% | L5 | Sin vínculo mecanístico creíble |
+| Trastorno de cefalea | 99,26% | L5 | Categoría demasiado amplia |
+| Cefalalgia autonómica trigeminal | 99,17% | L5 | Vínculo especulativo; preocupación cardiovascular |
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para urticaria alérgica.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para urticaria alérgica.
 
-## Otras Indicaciones Predichas (Referencia)
+Como referencia, para la indicación predicha de menor distancia a las existentes (**rinitis**) se identificó la siguiente literatura:
 
-| Rank | Indicación | Puntaje TxGNN | Nivel | Comentario |
-|------|------|------|------|------|
-| 2 | Laringofaringitis aguda | 99.92% | L5 | Vasoconstricción mucosa débilmente plausible; el fármaco es de vía nasal y no hay evidencia en la zona laringofaríngea |
-| 3 | Enfermedad de la cavidad nasal | 99.91% | L5 | Vínculo plausible con la farmacología descongestionante, pero el término es muy amplio y no hay datos de ninguna condición específica |
-| 4 | Conjuntivitis rosácea | 99.68% | L5 | Otros vasoconstrictores imidazolínicos se usan en el enrojecimiento ocular, pero no hay datos oculares de tramazolina |
-| 5 | Rinitis | 99.53% | L4 | Es la única con ensayos asociados; probablemente esté cerca del uso descongestionante ya conocido y no sea un reposicionamiento real |
-| 6 | Urticaria por frío | 99.45% | L5 | Mediada por mastocitos; sin relevancia mecanística establecida |
-| 7 | Trastorno de cefalea | 99.26% | L5 | Un posible beneficio sería indirecto (cefalea por congestión sinusal) |
-| 8 | Cefalalgia trigémino-autonómica | 99.17% | L5 | Podría aliviar la congestión nasal asociada, pero no trata el mecanismo del dolor |
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [26539289](https://pubmed.ncbi.nlm.nih.gov/26539289/) | 2015 | Estudio observacional multicéntrico sin control | Clinical and Translational Allergy | Efectividad y tolerabilidad de un spray nasal con tramazolina y aceites esenciales en rinitis aguda por resfriado común |
+| [9745265](https://pubmed.ncbi.nlm.nih.gov/9745265/) | 1998 | Estudio clínico fisiológico | Nihon Jibiinkoka Gakkai Kaiho | Efecto descongestionante de la tramazolina sobre la permeabilidad nasal, medido por rinometría acústica en 30 sujetos alérgicos y 6 no alérgicos |
+| [2874366](https://pubmed.ncbi.nlm.nih.gov/2874366/) | 1986 | Estudio controlado | Lancet | Spray tópico con dexametasona, tramazolina y neomicina en rinosinusitis mucopurulenta crónica (50 pacientes); relevancia específica de la tramazolina poco clara |
 
-De los tres ensayos asociados a rinitis, solo NCT01971086 (estudio observacional de Rhinospray Plus en rinitis aguda, Hungría, n=300, completado) es potencialmente pertinente. La composición del producto no está confirmada en los datos y debe verificarse. Los otros dos (antibióticos tópicos en rinosinusitis crónica, retirado; omalizumab en polinosis por cedro japonés) no guardan relación con tramazolina.
+---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 56731 | RHINOSPRAY EUCALIPTUS 1,18 mg/ml | Solución para pulverización nasal | Opella Healthcare Spain S.L. |
-| 39574 | RHINOSPRAY 1,18 mg/ml | Solución para pulverización nasal | Opella Healthcare Spain S.L. |
+| 56731 | Rhinospray Eucaliptus 1,18 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos compilados |
+| 39574 | Rhinospray 1,18 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos compilados |
+
+Ambas autorizaciones son monofármaco, están vigentes y pertenecen a Opella Healthcare Spain S.L.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no texto del prospecto)**: hipertensión, enfermedad pulmonar obstructiva crónica (EPOC), enfermedad ulcerosa péptica, hiperplasia benigna de próstata, glaucoma de ángulo cerrado, hipertiroidismo (enfermedad de Graves, tirotoxicosis) y obstrucción del cuello vesical.
+- **Consideraciones adicionales**: el uso crónico de vasoconstrictores puede causar hiperemia de rebote, y los simpaticomiméticos tienen efectos cardiovasculares relevantes en ciertas poblaciones.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de urticaria alérgica es solo del modelo (L5), sin ensayos ni literatura, y no tiene un vínculo mecanístico plausible con un vasoconstrictor nasal. No hay datos de seguridad disponibles para avanzar.
+La predicción para urticaria alérgica se basa únicamente en el modelo (L5), sin ensayos ni literatura, y carece de un vínculo mecanístico plausible para un descongestionante tópico nasal u ocular.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), lo que actualmente bloquea el cribado de seguridad
-- Obtener datos del mecanismo de acción desde DrugBank
-- Confirmar la indicación original según el etiquetado
-- Si se busca una indicación más viable, evaluar la rinitis (L4) como línea separada, verificando primero la composición de Rhinospray Plus en NCT01971086 y considerando el riesgo de congestión de rebote (rinitis medicamentosa) con el uso prolongado
-- Definir la ruta de administración necesaria para cualquier nueva indicación, ya que la compatibilidad de vía está pendiente
-
-*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica.*
+- Datos del mecanismo de acción (MOA) de la tramazolina.
+- Advertencias y contraindicaciones oficiales del prospecto de la AEMPS.
+- Evidencia preclínica o clínica que respalde un efecto en urticaria.
+- Evaluación de la compatibilidad de vía de administración (forma nasal frente a necesidades de una afección cutánea).
+- Si se busca una opción más viable, priorizar la indicación **rinitis** (L4), que es adyacente a la indicación autorizada y cuenta con literatura de apoyo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

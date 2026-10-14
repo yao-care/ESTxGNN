@@ -2,7 +2,7 @@
 layout: default
 title: Agomelatine
 parent: Solo predicción del modelo (L5)
-nav_order: 22
+nav_order: 27
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,14 +33,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Agomelatina es un antidepresivo comercializado en España (por ejemplo, como Valdoxan) y utilizado para el trastorno depresivo mayor en adultos.
-El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística benigna de la infancia**, pero **no hay ningún ensayo clínico ni publicación** que respalde esta dirección, por lo que se trata de una predicción puramente computacional.
+Agomelatina es un antidepresivo con acción melatoninérgica (agonista MT1/MT2) y antagonista serotoninérgico 5-HT2C, utilizado originalmente para el tratamiento de la depresión unipolar, la depresión endógena, el trastorno depresivo mayor y los trastornos de ansiedad.
+El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística benigna de la infancia**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según los datos farmacológicos y la literatura del paquete; los registros de autorización no incluyen texto de indicación) |
+| Indicación Original | Depresión unipolar / trastorno depresivo mayor (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L5 |
@@ -50,9 +51,11 @@ El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados del mecanismo de acción en DrugBank. Según la literatura del paquete, agomelatina es un agonista de los receptores melatoninérgicos MT1 y MT2 y un antagonista del receptor serotoninérgico 5-HT2C. Los datos farmacológicos también la vinculan con los receptores 5-HT2A y 5-HT2B. Este mecanismo permite resincronizar los ritmos circadianos y aumentar la liberación de dopamina y noradrenalina en la corteza prefrontal, lo que explica su efecto antidepresivo.
+Según la literatura revisada para este informe, agomelatina actúa como agonista de los receptores melatoninérgicos MT1 y MT2 y como antagonista del receptor serotoninérgico 5-HT2C. Esto puede normalizar los ritmos circadianos, mejorar el sueño de ondas lentas y aumentar la liberación de dopamina y noradrenalina en la corteza prefrontal. Los datos farmacológicos compilados confirman además su unión a los receptores 5-HT2A, 5-HT2B, 5-HT2C, MT1 y MT2. No se dispone de datos detallados de mecanismo de acción en la fuente principal de fármacos, por lo que esta descripción procede de la literatura y no ha podido contrastarse.
 
-**No se identifica un vínculo mecanístico entre este perfil y la tortícolis paroxística benigna de la infancia.** Es un trastorno pediátrico episódico y agomelatina se ha estudiado en depresión del adulto. El puntaje alto del grafo de conocimiento no está respaldado por ningún ensayo ni publicación, y el análisis del paquete señala además una preocupación de seguridad pediátrica. Por ello, esta predicción debe considerarse una hipótesis sin fundamento clínico por ahora.
+La tortícolis paroxística benigna de la infancia es un trastorno episódico neurológico, relacionado con el espectro migrañoso. El vínculo con la indicación original es plausible, pero no está demostrado: la modulación melatoninérgica y 5-HT2C podría ser relevante para fenómenos neurológicos episódicos. La similitud con la indicación original no ha sido evaluada.
+
+El puntaje del modelo (99.96%) es una predicción basada en el grafo de conocimiento y no sustituye a la evidencia clínica. Hay que ser especialmente prudente porque se trata de una población pediátrica, mientras que agomelatina está autorizada en adultos.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -64,36 +67,47 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 83546 | AGOMELATINA STADA 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
-| 83453 | AGOMELATINA ARISTO 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
-| 08499003IP1 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 08499008 | VALDOXAN 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película |
-| 83521 | AGOMELATINA QUALIGEN 25 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película |
+Se han compilado 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada). Los textos de indicación aprobada no estaban disponibles en los datos. Se listan las 5 principales:
 
-Se muestran 5 de las 20 autorizaciones. Todas son comprimidos de 25 mg, y los registros no incluyen el texto de la indicación aprobada.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 08499003 | VALDOXAN 25 mg comprimidos recubiertos con película (Servier) | Comprimido recubierto con película | No disponible en los datos |
+| 08498003 | THYMANAX 25 mg comprimidos recubiertos con película (Servier Ireland) | Comprimido recubierto con película | No disponible en los datos |
+| 83546 | AGOMELATINA STADA 25 mg EFG | Comprimido recubierto con película | No disponible en los datos |
+| 83360 | AGOMELATINA RATIOPHARM 25 mg EFG | Comprimido recubierto con película | No disponible en los datos |
+| 83440 | AGLONEX 25 mg EFG (Accord Healthcare) | Comprimido recubierto con película | No disponible en los datos |
 
 ## Consideraciones de Seguridad
 
-- **Población pediátrica**: el análisis del paquete señala una preocupación de seguridad en niños, relevante porque la indicación predicha es infantil.
+- **Interacciones Farmacológicas / Farmacología de dianas**: los datos compilados no incluyen interacciones con otros fármacos, sino la unión de agomelatina a sus dianas: receptores 5-HT2A, 5-HT2B, 5-HT2C, MT1 y MT2.
 
-Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones farmacológicas), consultar el prospecto.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (nivel L5), carece de un vínculo mecanístico plausible y plantea una preocupación de seguridad pediátrica. Un puntaje alto del modelo no basta para avanzar.
+No existe ningún ensayo clínico ni publicación para esta indicación; el puntaje alto de TxGNN es una predicción basada en grafos y no puede contrastarse con el mecanismo de acción por falta de datos. Además, la población diana es pediátrica.
 
 **Para avanzar se necesita:**
-- Una hipótesis mecanística que relacione la modulación MT1/MT2 y 5-HT2C con la fisiopatología de la tortícolis paroxística benigna.
-- Datos de seguridad pediátrica, ya que la población objetivo son lactantes.
-- Advertencias y contraindicaciones extraídas del prospecto de la AEMPS.
-- Datos del mecanismo de acción desde DrugBank.
+- Datos detallados del mecanismo de acción (MOA)
+- Prospecto de AEMPS con advertencias y contraindicaciones, necesario antes de cualquier evaluación de seguridad
+- Revisión sistemática de la literatura sobre melatonina/5-HT2C en tortícolis paroxística benigna y migraña pediátrica
+- Evaluación de la seguridad y la justificación de uso en población pediátrica
+- Evidencia preclínica o clínica específica que respalde el vínculo mecanístico
 
-**Nota:** entre las otras predicciones del paquete, las de melancolía y depresión neurótica (nivel L3, "Proceed with Guardrails") son las mejor respaldadas. Sin embargo, probablemente se solapan con la indicación ya comercializada, por lo que no constituirían un reposicionamiento genuino.
+### Otras indicaciones predichas (contexto)
+
+Para otras indicaciones del ranking, la evidencia es más sólida pero indirecta y en su mayoría solapa con las indicaciones ya aprobadas:
+
+| Indicación | Puntaje TxGNN | Nivel de Evidencia | Observación |
+|------|------|------|------|
+| Melancolía | 99.88% | L4 | Metaanálisis en red de antidepresivos, no específicos del subtipo melancólico |
+| Depresión neurótica | 99.88% | L4 | Mismo conjunto de literatura, evidencia indirecta |
+| Trastorno distímico | 99.86% | L4 | Metaanálisis de ECA de antidepresivos en distimia, no específico de agomelatina |
+
+Estas indicaciones son las más prometedoras para una futura investigación, aunque constituyen sobre todo una extensión de la indicación depresiva ya aprobada y no un reposicionamiento genuino.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Gemcitabine
 parent: Evidencia alta (L1-L2)
-nav_order: 256
+nav_order: 372
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Gemcitabina: De Cáncer de Páncreas a Carcinoma de Mama Femenino
+# Gemcitabina: De Cáncer de Ovario a Carcinoma de Mama Femenino
 
 ## Resumen en Una Frase
 
-La gemcitabina es un análogo de nucleósido que se usa como quimioterapia en adenocarcinoma de páncreas, cáncer de pulmón no microcítico y cáncer de ovario, y en combinación en cáncer de mama metastásico.
-El modelo TxGNN predice que podría ser efectiva para el **carcinoma de mama femenino**, con **50 ensayos clínicos** recuperados (solo una parte evalúa gemcitabina en mama) y **20 publicaciones** que respaldan esta dirección.
-Esta predicción no es un reposicionamiento en sentido estricto, porque la gemcitabina ya se usa en cáncer de mama metastásico.
-
----
+Gemcitabina es un análogo de nucleósidos citotóxico, originalmente utilizado para el tratamiento del cáncer de ovario (en combinación con carboplatino en la enfermedad recidivante).
+El modelo TxGNN predice que podría ser efectiva para **carcinoma de mama femenino**,
+con **39 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, incluidos ensayos de Fase 3 completados.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Adenocarcinoma de páncreas (monoterapia); cáncer de pulmón no microcítico, ovario y mama en combinación (fuente: datos farmacológicos, porque el texto de indicación de AEMPS está vacío) |
+| Indicación Original | Cáncer de ovario (sin texto de indicación autorizada en los registros de la AEMPS; indicación según el grafo de conocimiento) |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L1 |
@@ -51,106 +49,89 @@ Esta predicción no es un reposicionamiento en sentido estricto, porque la gemci
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la farmacología general, la gemcitabina es un análogo de nucleósido que inhibe la síntesis de ADN en la fase S del ciclo celular. Los datos farmacológicos disponibles la asocian con las subunidades **RRM1** y **RRM2** de la ribonucleótido reductasa, una enzima necesaria para producir los nucleótidos que requiere la replicación del ADN.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, la gemcitabina es un análogo de nucleósidos que inhibe la síntesis de ADN y actúa sobre la ribonucleótido reductasa (subunidades RRM1 y RRM2, identificadas como dianas farmacológicas). Su eficacia en cáncer de ovario ha sido comprobada, y mecanísticamente puede aplicarse a otros tumores de proliferación rápida.
 
-Este mecanismo es citotóxico y no depende del órgano de origen, por lo que es aplicable a tumores sólidos muy distintos. La gemcitabina se usa en páncreas, pulmón y ovario, y en combinación con paclitaxel en cáncer de mama metastásico. La predicción hacia mama es coherente con un uso ya conocido, y por eso el puntaje del modelo es tan alto.
+Este mecanismo citotóxico no es específico de un tipo tumoral, por lo que es coherente que se aplique a las células proliferativas del carcinoma de mama. Además, el cáncer de ovario y el de mama comparten un paradigma de tratamiento basado en combinaciones con platino y taxanos.
 
-Los ensayos de fase 3 y fase 2 revisados evalúan la gemcitabina sobre todo en **combinaciones** (con paclitaxel, trastuzumab, docetaxel o capecitabina) y en **cáncer de mama metastásico o avanzado**.
-
----
+Cabe destacar que la combinación de gemcitabina con paclitaxel ya es un régimen establecido para el cáncer de mama metastásico. Por tanto, esta predicción confirma un uso ya existente más que una señal de reposicionamiento nueva. El puntaje muy alto del modelo concuerda con la evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-Se listan los 10 ensayos más relevantes para gemcitabina en cáncer de mama. Los hallazgos se resumen a partir del diseño descrito en cada ensayo, porque el registro no incluye resultados.
+Se muestran los ensayos más relevantes (de un total de 39 identificados):
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00093795](https://clinicaltrials.gov/study/NCT00093795) | Fase 3 | Completado | 4894 | Tres regímenes adyuvantes en cáncer de mama con ganglios positivos; uno añade gemcitabina a paclitaxel tras AC de dosis densa |
-| [NCT00006459](https://clinicaltrials.gov/study/NCT00006459) | Fase 3 | Completado | No disponible | Paclitaxel con o sin gemcitabina en cáncer de mama avanzado o metastásico |
-| [NCT00561119](https://clinicaltrials.gov/study/NCT00561119) | Fase 3 | Completado | 326 | Mantenimiento frente a observación tras 6 ciclos de gemcitabina + paclitaxel en primera línea |
-| [NCT00408408](https://clinicaltrials.gov/study/NCT00408408) | Fase 3 | Desconocido | 1206 | Terapia neoadyuvante: capecitabina o gemcitabina añadidas a docetaxel, con o sin bevacizumab; objetivo de respuesta patológica completa |
-| [NCT00039546](https://clinicaltrials.gov/study/NCT00039546) | Fase 3 | Desconocido | No disponible | Estudio tAnGo: gemcitabina añadida a paclitaxel, epirrubicina y ciclofosfamida en adyuvancia |
-| [NCT02252887](https://clinicaltrials.gov/study/NCT02252887) | Fase 2 | Completado | 45 | Gemcitabina + trastuzumab + pertuzumab en cáncer de mama metastásico HER2 positivo |
-| [NCT01050322](https://clinicaltrials.gov/study/NCT01050322) | Fase 2 | Completado | 142 | Lapatinib con capecitabina, vinorelbina o gemcitabina en cáncer de mama HER2 amplificado tras taxanos |
-| [NCT00006007](https://clinicaltrials.gov/study/NCT00006007) | Fase 2 | Completado | 59 | Pemetrexed + gemcitabina en cáncer de mama metastásico |
-| [NCT00193063](https://clinicaltrials.gov/study/NCT00193063) | Fase 2 | Completado | 41 | Gemcitabina semanal + trastuzumab en cáncer de mama metastásico con sobreexpresión de HER2 |
-| [NCT00110084](https://clinicaltrials.gov/study/NCT00110084) | Fase 2 | Completado | 50 | Nab-paclitaxel semanal + gemcitabina en cáncer de mama metastásico |
-
-**Nota:** el ensayo NCT00942331 (fase 3, n=506) fue marcado con relevancia "A" en el registro, pero estudia carcinoma urotelial y no cáncer de mama. No se cuenta como evidencia para esta indicación.
-
----
+| [NCT00006459](https://clinicaltrials.gov/study/NCT00006459) | Fase 3 | Completado | No disponible | Gemcitabina + paclitaxel vs paclitaxel en cáncer de mama irresecable, localmente recurrente o metastásico |
+| [NCT00093795](https://clinicaltrials.gov/study/NCT00093795) | Fase 3 | Completado | 4894 | Tres regímenes adyuvantes en cáncer de mama con ganglios positivos, uno con gemcitabina añadida a paclitaxel |
+| [NCT00408408](https://clinicaltrials.gov/study/NCT00408408) | Fase 3 | Desconocido | 1206 | Neoadyuvancia: capecitabina o gemcitabina añadida a docetaxel antes de AC, con o sin bevacizumab |
+| [NCT00070278](https://clinicaltrials.gov/study/NCT00070278) | Fase 3 | Desconocido | 800 | Neoadyuvancia con epirubicina/ciclofosfamida y paclitaxel ± gemcitabina en cáncer de mama precoz de mal pronóstico |
+| [NCT00039546](https://clinicaltrials.gov/study/NCT00039546) | Fase 3 | Desconocido | No disponible | Estudio tAnGo: gemcitabina añadida a quimioterapia adyuvante en cáncer de mama precoz ER/PgR-pobre |
+| [NCT00006007](https://clinicaltrials.gov/study/NCT00006007) | Fase 2 | Completado | 59 | Pemetrexed + gemcitabina en cáncer de mama metastásico (brazo único) |
+| [NCT00110084](https://clinicaltrials.gov/study/NCT00110084) | Fase 2 | Completado | 50 | Nab-paclitaxel + gemcitabina en cáncer de mama metastásico |
+| [NCT00003540](https://clinicaltrials.gov/study/NCT00003540) | Fase 2 | Completado | 30 | Gemcitabina en cáncer de mama metastásico previamente tratado con adriamicina y taxol |
+| [NCT00244933](https://clinicaltrials.gov/study/NCT00244933) | Fase 2 | Completado | 19 | Gemcitabina + genisteína en cáncer de mama metastásico |
+| [NCT07528768](https://clinicaltrials.gov/study/NCT07528768) | Fase 2 | Aún sin reclutar | 750 | Gemcitabina vs paclitaxel en cáncer de mama triple negativo metastásico en mujeres de ascendencia africana |
 
 ## Evidencia de Literatura
 
-No hay ECA entre las publicaciones recuperadas. Se listan revisiones y estudios clínicos.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17462169](https://pubmed.ncbi.nlm.nih.gov/17462169/) | 2007 | Revisión sistemática | Health Technol Assess | Evalúa la efectividad clínica y el coste-efectividad de gemcitabina + paclitaxel en segunda línea tras antraciclinas |
-| [15685819](https://pubmed.ncbi.nlm.nih.gov/15685819/) | 2004 | Revisión | Oncology (Williston Park) | Gemcitabina y paclitaxel son activos en cáncer de mama metastásico; en ensayos fase II respondieron 114 de 221 pacientes (52%) |
-| [15685821](https://pubmed.ncbi.nlm.nih.gov/15685821/) | 2004 | Revisión | Oncology (Williston Park) | Gemcitabina con platinos en cáncer de mama metastásico, con beneficio clínico y tasas de respuesta |
-| [15685820](https://pubmed.ncbi.nlm.nih.gov/15685820/) | 2004 | Revisión | Oncology (Williston Park) | Gemcitabina + docetaxel: mecanismos complementarios y toxicidades parcialmente no solapadas |
+| [15685819](https://pubmed.ncbi.nlm.nih.gov/15685819/) | 2004 | Revisión | Oncology (Williston Park) | Gemcitabina y paclitaxel son activos en cáncer de mama metastásico; respuestas objetivas del 52% en ensayos de Fase 2 |
+| [15685821](https://pubmed.ncbi.nlm.nih.gov/15685821/) | 2004 | Revisión | Oncology (Williston Park) | Gemcitabina con platino aporta beneficio clínico y tasas de respuesta en cáncer de mama metastásico |
+| [15685820](https://pubmed.ncbi.nlm.nih.gov/15685820/) | 2004 | Revisión | Oncology (Williston Park) | Combinación gemcitabina + docetaxel con toxicidades parcialmente no solapadas |
 | [14768404](https://pubmed.ncbi.nlm.nih.gov/14768404/) | 2003 | Revisión | Oncology (Williston Park) | Combinaciones de gemcitabina, antraciclinas y taxanos en cáncer de mama avanzado |
-| [14754469](https://pubmed.ncbi.nlm.nih.gov/14754469/) | 2004 | Revisión | Clin Breast Cancer | Fundamento y datos clínicos de gemcitabina + trastuzumab en HER2 positivo |
-| [12722022](https://pubmed.ncbi.nlm.nih.gov/12722022/) | 2003 | Estudio fase II (presentación) | Semin Oncol | Gemcitabina + trastuzumab en cáncer de mama metastásico muy pretratado; efecto aditivo o sinérgico en líneas celulares |
-| [41348333](https://pubmed.ncbi.nlm.nih.gov/41348333/) | 2025 | Estudio clínico | Breast Cancer Res Treat | Vinorelbina + gemcitabina cada dos semanas en cáncer de mama HR+/HER2- tras inhibidor de CDK4/6 |
-| [40779028](https://pubmed.ncbi.nlm.nih.gov/40779028/) | 2025 | Ensayo fase I | Breast Cancer Res Treat | Carboplatino + gemcitabina + mifepristona en cáncer de mama avanzado y ovario recurrente |
-| [12123338](https://pubmed.ncbi.nlm.nih.gov/12123338/) | 2002 | Farmacocinética | Ann Oncol | Interacciones farmacocinéticas y farmacodinámicas de gemcitabina, epirrubicina y paclitaxel en cáncer de mama avanzado |
-
----
+| [12138397](https://pubmed.ncbi.nlm.nih.gov/12138397/) | 2002 | Revisión | Seminars in Oncology | Como agente único, respuestas del 16% al 37%; mayores tasas en combinación |
+| [14754469](https://pubmed.ncbi.nlm.nih.gov/14754469/) | 2004 | Revisión | Clinical Breast Cancer | Gemcitabina + trastuzumab en cáncer de mama metastásico HER2 positivo |
+| [40779028](https://pubmed.ncbi.nlm.nih.gov/40779028/) | 2025 | Estudio clínico (Fase I) | Breast Cancer Research and Treatment | Carboplatino, gemcitabina y mifepristona en cáncer de mama avanzado y ovario recurrente |
+| [12057045](https://pubmed.ncbi.nlm.nih.gov/12057045/) | 2002 | Revisión | Clinical Breast Cancer | Gemcitabina neoadyuvante en cáncer de mama con buen perfil de toxicidad |
+| [12057039](https://pubmed.ncbi.nlm.nih.gov/12057039/) | 2002 | Preclínico | Clinical Breast Cancer | Estudios en líneas celulares de gemcitabina y trastuzumab en mama y pulmón |
+| [38472166](https://pubmed.ncbi.nlm.nih.gov/38472166/) | 2024 | Preclínico | Chemical Biology & Drug Design | El miR-3662 exosomal sérico promueve la resistencia a gemcitabina en células de cáncer de mama |
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones. El registro no contiene texto de indicación aprobada.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 73626 | Gemcitabina GP-Pharm 200 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible en el registro |
-| 74479 | Gemcitabina Accord 2000 mg polvo para solución para perfusión | Polvo para solución para perfusión | No disponible en el registro |
-| 71169 | Gemcitabina Accord 200 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible en el registro |
-| 72981 | Gemcitabina Aurovitas 1000 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en el registro |
-| 76156 | Gemcitabina Accord 2000 mg concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en el registro |
-
----
+| 73626 | Gemcitabina GP-Pharm 200 mg | Polvo para solución para perfusión | No disponible en los datos |
+| 74479 | Gemcitabina Accord 2000 mg | Polvo para solución para perfusión | No disponible en los datos |
+| 72981 | Gemcitabina Aurovitas 1000 mg | Concentrado para solución para perfusión | No disponible en los datos |
+| 74082 | Gemcitabina Hospira 1000 mg | Concentrado para solución para perfusión | No disponible en los datos |
+| 80814 | Gemcitabina Sun 10 mg/ml | Solución para perfusión | No disponible en los datos |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, análogo de nucleósido) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal (recomendación general; confirmar en la ficha técnica) |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
----
+| Clasificación de Citotoxicidad | Citotóxico convencional (análogo de nucleósidos / antimetabolito) |
+| Riesgo de Mielosupresión | Medio a alto. El grafo de conocimiento asocia contraindicaciones con trombocitopenia, leucopenia y anemia |
+| Clasificación de Emetogenicidad | Baja a media (según la categoría general del fármaco) |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos. Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Señal en literatura:** existe un reporte de retinopatía inducida por gemcitabina (PMID 28961673, 2017). Se incluye solo como alerta y no está confirmado por el prospecto.
+- **Contraindicaciones / condiciones de riesgo (según el grafo de conocimiento, no texto del prospecto)**: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, leucopenia, anemia (incluida la macrocítica), enfermedad pulmonar intersticial, síndrome hemolítico urémico (incluido el típico), infecciones y piouréter.
+- **Interacciones farmacológicas**: no se identificaron interacciones con otros fármacos. Solo constan las dianas farmacológicas RRM1 y RRM2 (subunidades de la ribonucleótido reductasa).
+- Un caso publicado describe retinopatía inducida por gemcitabina (reporte de caso).
 
-Consultar el prospecto para información de seguridad. El registro no incluye advertencias ni contraindicaciones de la ficha técnica de AEMPS. La consulta de interacciones solo devolvió dianas farmacológicas (RRM1 y RRM2), no interacciones con otros fármacos.
-
----
+Consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay varios ensayos de fase 3 completados que incluyen gemcitabina en cáncer de mama (NCT00093795, NCT00006459, NCT00561119), lo que sostiene el nivel L1. Sin embargo, el uso ya existe en mama metastásico y la evidencia se centra en combinaciones. Por eso el uso debe limitarse a los escenarios respaldados, por ejemplo cáncer de mama triple negativo (TNBC) y regímenes combinados.
+Existen varios ensayos de Fase 3 completados (como NCT00006459 y NCT00093795) y múltiples ensayos de Fase 2 en cáncer de mama, y la combinación de gemcitabina con paclitaxel ya es un régimen establecido en cáncer de mama metastásico. La evidencia es sólida, pero no constituye un uso nuevo, y faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad.
-- Confirmar el estado de la indicación en mama en las fichas técnicas españolas.
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Verificar los resultados publicados de los ensayos de fase 3, porque el registro solo aporta su diseño.
-
-**Otras predicciones del modelo:** el adenocarcinoma mixto endometrial, el adenocarcinoma mucinoso endometrial y el adenocarcinoma mucinoso cervical quedan como preguntas de investigación (L3). Las demás predicciones (recto, colon, vesícula, endometrio velloglandular, rete ovarii y endometrioide rico en mucina) quedan en espera (Hold), con evidencia L4-L5.
+- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad
+- Confirmar los datos detallados del mecanismo de acción (MOA) desde DrugBank
+- Verificar la indicación de mama en la ficha técnica española, ya que los registros de la AEMPS no incluyen texto de indicación
+- Plan de monitoreo hematológico, renal y hepático para poblaciones específicas
+- Revisión de resultados publicados de los ensayos de Fase 3 con fecha de inscripción no disponible
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

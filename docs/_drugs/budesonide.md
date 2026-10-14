@@ -2,7 +2,7 @@
 layout: default
 title: Budesonide
 parent: Evidencia moderada (L3-L4)
-nav_order: 86
+nav_order: 122
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,109 +29,91 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Budesonida: De Asma y Enfermedades Inflamatorias a Eccema Atópico
+# Budesonida: De Enfermedad de Crohn a Eccema Atópico
 
 ## Resumen en Una Frase
 
-La budesonida es un corticoide sintético que se usa por inhalación en asma y EPOC, y por vía oral o rectal en enfermedad de Crohn, colitis ulcerosa y esofagitis eosinofílica.
-El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, con una puntuación muy alta (99,96 %).
-Los datos recuperados incluyen **2 ensayos clínicos** y **20 publicaciones**, pero ninguno demuestra eficacia clínica de la budesonida en eccema. La única evidencia específica es un estudio preclínico de formulación (2024).
-
----
+Budesonida es un glucocorticoide de acción local, utilizado originalmente para la enfermedad de Crohn, la enfermedad inflamatoria intestinal y el asma, entre otras indicaciones.
+El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, con un puntaje muy alto, pero **sin ensayos clínicos** y con **20 publicaciones**, en su mayoría indirectas, que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS (los textos de indicación están vacíos). Según farmacología (GtoPdb): asma, EPOC, enfermedad de Crohn, colitis ulcerosa, esofagitis eosinofílica |
+| Indicación Original | Enfermedad de Crohn (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99,96 % |
+| Puntaje de Predicción TxGNN | 99,96% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados del mecanismo de acción en DrugBank. Los datos farmacológicos indican que la budesonida actúa sobre tres receptores: el receptor de glucocorticoides (NR3C1), el de mineralocorticoides (NR3C2) y el de progesterona (PGR). Como agonista del receptor de glucocorticoides, suprime las vías inflamatorias, incluida la inflamación de tipo 2.
+Budesonida es un glucocorticoide sintético con potente actividad antiinflamatoria e inmunosupresora. Los datos compilados muestran que actúa sobre el receptor de glucocorticoides (NR3C1) y también interactúa con los receptores de mineralocorticoides y de progesterona. No se dispone de datos detallados del mecanismo de acción como campo específico, pero esta actividad sobre el receptor de glucocorticoides es la base de su uso en enfermedades inflamatorias del intestino, las vías respiratorias y la nariz.
 
-Su uso original ya se centra en enfermedades inflamatorias de mucosas (vías respiratorias e intestino). El eccema atópico es una enfermedad inflamatoria cutánea de tipo 2, y los corticoides tópicos ya son tratamiento establecido, por lo que el mecanismo es plausible.
+La dermatitis atópica es una enfermedad inflamatoria de la piel impulsada por una respuesta Th2, por lo que un antiinflamatorio glucocorticoide es mecanísticamente plausible. Los corticoides tópicos ya son un tratamiento estándar del eccema. Por ello, el puntaje elevado de TxGNN refleja sobre todo un efecto de clase y no evidencia específica de budesonida.
 
-Sin embargo, esta plausibilidad es de clase farmacológica (corticoides en general), no específica de la budesonida. La puntuación TxGNN es alta, pero no discrimina entre candidatos. La única evidencia específica en dermatología es un estudio preclínico de nanopartículas en hidrogel (2024).
-
----
+Cabe señalar que "atopic eczema" (rango 1) y "dermatitis, atopic" (rango 3) son la misma enfermedad con distinta etiqueta; conviene considerarlas conjuntamente. La literatura directamente relevante se limita a un estudio preclínico de formulación (nanopartículas de budesonida en hidrogel).
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | N/A | Completado | 54 | Caracterización de endotipos de asma pediátrica grave (inmunología, metabolómica, microbiota). No es un ensayo de budesonida en eccema; la relación con la atopia es indirecta |
-| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Fase 1/2 | Completado | 58 | Inmunoterapia alérgica para prevenir morbilidad asmática en niños atópicos con sibilancias. El objetivo es asma, no eccema, y la budesonida no es claramente la intervención |
-
-Ambos ensayos se clasificaron con relevancia baja (grado C).
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
+Se muestran las publicaciones más relevantes (ninguna es un ECA en humanos para esta indicación).
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Estudio preclínico de formulación | Gels | Nanopartículas de Eudragit L 100 con budesonida en hidrogeles para terapia local de dermatitis atópica, con liberación sensible al pH |
-| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | ECA (veterinario) | J Vet Pharmacol Ther | Acondicionador de budesonida al 0,025 % en perros con dermatitis atópica (29 perros, cruzado, con placebo): mejora de lesiones y prurito |
-| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Estudio in vitro | Int Immunopharmacol | La budesonida, pero no el tacrolimus, altera funciones inmunes de queratinocitos humanos normales |
-| [19875223](https://pubmed.ncbi.nlm.nih.gov/19875223/) | 2010 | Estudio clínico | Allergol Immunopathol | Respuesta a budesonida en lactantes y preescolares con sibilancias recurrentes, atópicos y no atópicos. Es asma, no eccema |
-| [31705907](https://pubmed.ncbi.nlm.nih.gov/31705907/) | 2020 | Revisión | J Allergy Clin Immunol | Terapias emergentes en esofagitis eosinofílica. Fuera del objetivo |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Revisión | Neuroimmunomodulation | Corticoides intranasales y supresión adrenal en rinitis alérgica (a menudo coexiste con dermatitis atópica) |
-| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Estudio clínico | Dermatology | Eje IGF, recambio óseo y de colágeno en niños con dermatitis atópica tratados con corticoides tópicos (no específico de budesonida) |
-| [30053491](https://pubmed.ncbi.nlm.nih.gov/30053491/) | 2018 | Estudio observacional | J Am Acad Dermatol | Dermatitis de contacto alérgica a productos de cuidado personal y medicamentos tópicos en adultos con dermatitis atópica |
-| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Estudio observacional | Contact Dermatitis | Pruebas de parche con budesonida en Italia (serie SIDAPA 2018-2019): tendencia decreciente de alergia a budesonida |
-| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Reporte de caso | Cureus | Angioedema y urticaria inducidos por esteroides en un paciente de 81 años con antecedente de dermatitis atópica |
-
-Se recuperaron 20 publicaciones; se muestran las 10 más relevantes. La mayoría no aborda la eficacia de la budesonida en eccema. La evidencia más directa es preclínica o veterinaria.
-
----
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Estudio preclínico de formulación | Gels | Nanopartículas de budesonida sensibles al pH en hidrogeles para terapia local de dermatitis atópica pediátrica |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Estudio abierto longitudinal | Pediatric Dermatology | Knemometría en 14 niños con dermatitis atópica tratados con budesonida tópica para evaluar su efecto sobre el crecimiento a corto plazo |
+| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Estudio in vitro | International Immunopharmacology | Budesonida, a diferencia de tacrolimus, modifica las funciones inmunitarias de queratinocitos humanos normales |
+| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | ECA veterinario | J Vet Pharmacol Ther | Acondicionador de budesonida al 0,025% redujo lesiones y prurito en perros con dermatitis atópica |
+| [31705907](https://pubmed.ncbi.nlm.nih.gov/31705907/) | 2020 | Revisión | J Allergy Clin Immunol | Terapias emergentes en esofagitis eosinofílica (relevancia indirecta) |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Revisión | Neuroimmunomodulation | Corticoides intranasales y supresión adrenal (seguridad) |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Revisión | Allergy | Alergia a corticoides en pacientes con asma |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Estudio de pruebas epicutáneas | Contact Dermatitis | Budesonida como marcador de hipersensibilidad a corticoides; tendencia decreciente de alergia |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Reporte de caso | Cureus | Angioedema y urticaria inducidos por corticoides en un paciente con antecedentes de dermatitis atópica |
+| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Estudio clínico | Dermatology | Eje IGF, recambio óseo y de colágeno en niños con dermatitis atópica tratados con corticoides tópicos |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Laboratorio |
+Budesonida cuenta con 20 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61728 | ENTOCORD 3 mg | Cápsula dura de liberación modificada | Tillotts Pharma GmbH |
-| 83987 | Budesonida Aldo-Unión 100 microgramos/pulsación | Suspensión para inhalación en envase a presión | Laboratorio Aldo Unión S.L. |
-| 88386 | Intestifalk 4 mg | Supositorio | Dr. Falk Pharma GmbH |
-| 67103 | Novopulm Novolizer 400 microgramos | Polvo para inhalación | Viatris Healthcare Limited |
-| 1171254003 | Jorveza 1 mg | Comprimido bucodispersable | Dr. Falk Pharma GmbH |
+| 61728 | Entocord 3 mg cápsulas de liberación modificada | Cápsula dura de liberación modificada | No disponible |
+| 83987 | Budesonida Aldo-Unión 100 microgramos/pulsación | Suspensión para inhalación en envase a presión | No disponible |
+| 88386 | Intestifalk 4 mg supositorios | Supositorio | No disponible |
+| 67103 | Novopulm Novolizer 400 microgramos | Polvo para inhalación | No disponible |
+| 1171254003 | Jorveza 1 mg | Comprimido bucodispersable | No disponible |
 
-Se muestran 5 de las 20 autorizaciones. Entre las formas farmacéuticas registradas (inhalación, oral, rectal, nasal) no figura ninguna de aplicación cutánea.
-
----
+Las formas farmacéuticas autorizadas abarcan las vías oral, rectal, inhalatoria y nasal; no hay formulación cutánea autorizada entre ellas, lo que es relevante para la indicación de eccema.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento, no texto del prospecto):** hipertensión, epilepsia, enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, insuficiencia cardíaca congestiva, queratitis por herpes simple, sarampión, hipopituitarismo y deficiencias hormonales hipofisarias, y algunos trastornos del ciclo de la urea (deficiencia de carbamoil fosfato sintetasa I, hiperargininemia, citrulinemia).
+- **Interacciones farmacológicas:** se identificaron 3 interacciones farmacológicas con dianas, no con otros medicamentos: receptor de glucocorticoides, receptor de mineralocorticoides y receptor de progesterona. No se dispone de niveles de gravedad.
+- **Señales de seguridad en la literatura:** alergia de contacto a corticoides (incluida budesonida), supresión del eje hipotálamo-hipofisario-adrenal con corticoides intranasales y posible efecto sobre el crecimiento en niños con uso tópico.
 
-La literatura recuperada, aunque no procede del prospecto, señala puntos a vigilar con corticoides en atopia:
-- Supresión del eje hipotálamo-hipófiso-adrenal con corticoides intranasales.
-- Posible efecto sobre el crecimiento en niños con corticoides tópicos por absorción percutánea.
-- Sensibilización de contacto: la budesonida es marcador de hipersensibilidad a corticoides en la serie básica europea.
-
----
+Para las advertencias formales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque la puntuación TxGNN es muy alta y el mecanismo glucocorticoide es plausible, no hay ningún ensayo clínico de budesonida en eccema. La única evidencia específica es un estudio preclínico de formulación (L4), y la puntuación del modelo no discrimina entre candidatos. Además, la entrada "dermatitis, atópica" (puesto 3) es sinónimo de "eccema atópico" y debería fusionarse con esta.
+No existen ensayos clínicos de budesonida en eccema atópico y la evidencia directa se limita a un estudio preclínico de formulación. Además, los corticoides tópicos ya son el estándar, por lo que el puntaje alto de TxGNN refleja principalmente un efecto de clase.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es una brecha bloqueante para el cribado de seguridad.
-- Obtener el mecanismo de acción de DrugBank.
-- Evaluar la compatibilidad de vía: las formas comercializadas en España no son cutáneas, y se requeriría una formulación tópica.
-- Buscar ensayos clínicos de budesonida específicos en dermatitis atópica, frente a corticoides tópicos ya establecidos.
-- Fusionar los registros duplicados de eccema atópico y dermatitis atópica.
-- Si se busca una dirección con más respaldo dentro de esta lista, la predicción de **bronquitis** (puesto 2, L2, Proceed with Guardrails) tiene ensayos de fase 2/4 en bronquitis eosinofílica. Requiere confirmar la población y la intervención de cada ensayo.
+- Fusionar las entradas duplicadas "atopic eczema" y "dermatitis, atopic" y definir con claridad la indicación.
+- Desarrollar y validar una formulación cutánea (no hay ninguna autorizada en España) con estudios preclínicos y de seguridad dérmica.
+- Ensayos clínicos controlados frente a corticoides tópicos estándar.
+- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS y los datos del mecanismo de acción.
+- Evaluar el riesgo de sensibilización por contacto y de efectos sistémicos (supresión adrenal, crecimiento en niños).
+
+**Otras predicciones del modelo (para referencia):** bronquitis (L2, 2.º lugar, con ensayos de Fase 2 pequeños de budesonida/formoterol en bronquiolitis obliterante) es la indicación con mayor respaldo clínico entre las predichas y podría ser una candidata más sólida que el eccema atópico para una evaluación posterior. Las demás (pólipos de cuerda vocal, oído medio, epúlide, pólipo fibroepitelial, uterino, del seno frontal y del conducto auditivo externo) tienen evidencia nula o solo indirecta (L4-L5).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

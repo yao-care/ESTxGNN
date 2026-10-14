@@ -2,7 +2,7 @@
 layout: default
 title: Tegafur
 parent: Evidencia alta (L1-L2)
-nav_order: 513
+nav_order: 768
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,126 +29,104 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Tegafur: De Indicación Original No Registrada a Neoplasia de Colon
+# Tegafur: De Cáncer Gástrico a Neoplasia de Colon
 
 ## Resumen en Una Frase
 
-Tegafur es un profármaco oral del 5-fluorouracilo (5-FU) que se utiliza en quimioterapia, habitualmente combinado con uracilo (UFT). En los datos de la AEMPS disponibles no consta el texto de su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia de colon**, con **30 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección, entre ellos varios ensayos de Fase 3 completados.
-Esta predicción se parece más a un uso ya establecido en otras regiones que a un reposicionamiento novedoso.
-
----
+Tegafur es un profármaco oral del 5-fluorouracilo (5-FU), originalmente utilizado para el tratamiento del cáncer gástrico.
+El modelo TxGNN predice que podría ser efectivo para **Neoplasia de Colon**,
+con **16 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
+| Indicación Original | Cáncer gástrico (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
 | Nueva Indicación Predicha | Neoplasia de colon |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 99,90% |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, tegafur es un profármaco oral del 5-FU. Su combinación con uracilo (UFT) es una fluoropirimidina dirigida a la timidilato sintasa, la misma clase mecanística que la quimioterapia estándar del cáncer colorrectal. Mecanísticamente es aplicable a la neoplasia de colon.
+No se dispone actualmente de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, tegafur es un profármaco del 5-FU, un antimetabolito que inhibe la timidilato sintasa. Su eficacia en cáncer gástrico está establecida y, mecanísticamente, es aplicable al cáncer de colon, un tumor clásicamente sensible a las fluoropirimidinas.
 
-La relación con la indicación original no puede verificarse, porque el registro español no incluye el texto de indicación. Aun así, la literatura y los ensayos muestran que UFT/leucovorina se usa como quimioterapia adyuvante en cáncer de colon estadio II y III, sobre todo en Japón y otras zonas de Asia. Por eso la propuesta se entiende mejor como un uso ya establecido regionalmente que como un reposicionamiento verdadero. Se recomienda añadir esta indicación a las indicaciones originales del fármaco en lugar de tratarla como novedosa.
+Tegafur se usa en regímenes orales establecidos: UFT (tegafur-uracilo), donde el uracilo inhibe la degradación del 5-FU mediada por DPD, y S-1 (tegafur con gimeracilo y oteracilo). Ambos se han estudiado ampliamente en cáncer colorrectal.
 
-Conviene tener en cuenta que el estado regulatorio varía por región (aprobado en Japón y partes de Asia, no aprobado por la FDA). Por eso la evidencia clínica asiática debe contrastarse con la práctica y la autorización europeas.
-
----
+Conviene señalar que el fármaco ya se emplea clínicamente en este contexto, por lo que se trata más de una extensión de indicación dentro de la misma familia de cánceres (adenocarcinoma gastrointestinal) que de un reposicionamiento verdaderamente novedoso.
 
 ## Evidencia de Ensayos Clínicos
 
-Se listan 10 de los 30 ensayos registrados, priorizando Fase 3 y los que evalúan tegafur de forma directa.
+Se muestran los 10 ensayos más relevantes de los 16 compilados.
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Fase 3 | Completado | 1608 | UFT/leucovorina vs 5-FU/leucovorina en cáncer de colon resecado estadio II y III |
-| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Fase 3 | Completado | 2025 | Quimioterapia adyuvante con UFT vs observación en cáncer de colon estadio II resecado |
-| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Fase 3 | Completado | 900 | UFT adyuvante vs cirugía sola en cáncer colorrectal Dukes C (NSAS-CC) |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Fase 3 | Completado | 1535 | UFT+leucovorina vs TS-1 (S-1) como adyuvancia en cáncer de colon estadio III |
-| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Fase 3 | Completado | 89 | Cruzado según preferencia del paciente entre Xeloda y UFT con ácido folínico en cáncer colorrectal avanzado o metastásico |
-| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Fase 3 | Desconocido | 340 | UFT+LV, UFT+LV/UFT y UFT+LV+PSK/UFT+PSK como adyuvancia en cáncer colorrectal estadio III |
-| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Fase 3 | Desconocido | 380 | UFT+PSK vs UFT+LV en cáncer colorrectal estadio IIB/III; UFT es la base de ambos brazos |
-| [NCT00497107](https://clinicaltrials.gov/study/NCT00497107) | Fase 3 | Desconocido | 300 | UFT/LV vs UFT/LV+PSK como adyuvancia en cáncer colorrectal estadio IIIa/IIIb |
-| [NCT02887365](https://clinicaltrials.gov/study/NCT02887365) | Fase 4 | Desconocido | 300 | Tegafur-uracilo como quimioterapia de mantenimiento en cáncer de colon estadio II MSS/MSI-L |
-| [NCT00439517](https://clinicaltrials.gov/study/NCT00439517) | Fase 2 | Completado | 302 | FOLFOX-4 + cetuximab vs UFOX (UFT + oxaliplatino + ácido folínico) + cetuximab en cáncer colorrectal metastásico |
-
----
+| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Fase 3 | Completado | 1608 | UFT + leucovorina vs. 5-FU + leucovorina en cáncer de colon resecado estadio II/III |
+| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Fase 3 | Completado | 900 | UFT adyuvante vs. cirugía sola en cáncer colorrectal Dukes C (NSAS-CC) |
+| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Fase 3 | Completado | 2025 | UFT adyuvante vs. observación en cáncer de colon estadio II resecado |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Fase 3 | Completado | 1535 | UFT + leucovorina vs. TS-1 como adyuvante en cáncer de colon estadio III |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Fase 3 | Desconocido | 1191 | SOX (oxaliplatino + S-1) vs. XELOX como adyuvante en cáncer colorrectal estadio III |
+| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Fase 3 | Desconocido | 380 | UFT + PSK vs. UFT + leucovorina en cáncer colorrectal estadio IIB/III |
+| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Fase 3 | Desconocido | 340 | Comparación de UFT+LV, UFT+LV/UFT y UFT+LV+PSK/UFT+PSK en estadio III |
+| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Fase 3 | Completado | 89 | Estudio cruzado de preferencia: capecitabina vs. UFT con ácido folínico en cáncer colorrectal avanzado |
+| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Fase 2 | Completado | 47 | Cetuximab, irinotecán, oxaliplatino y UFT en primera línea de cáncer colorrectal metastásico |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Fase 2 | Desconocido | 40 | S-1 + bevacizumab en cáncer colorrectal irresecable o recurrente tras fracaso previo |
 
 ## Evidencia de Literatura
 
-Se listan 10 de las 20 publicaciones recuperadas, priorizando ensayos aleatorizados y revisiones.
+Se muestran las 10 publicaciones más relevantes de las 20 compiladas.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | ECA | ESMO Open | Supervivencia global a 5 años y análisis por subgrupos del ensayo ACTS-CC 02: S-1 + oxaliplatino (SOX) no fue superior a UFT/LV en supervivencia libre de enfermedad en cáncer de colon estadio III de alto riesgo |
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | ECA | Clin Colorectal Cancer | Ensayo de Fase 3 de superioridad que compara SOX con UFT/LV como adyuvancia en cáncer de colon estadio III de alto riesgo |
-| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | ECA | J Clin Oncol | Protocolo NSABP C-06: UFT oral + leucovorina vs 5-FU intravenoso + leucovorina en cáncer de colon estadio II y III |
-| [26347106](https://pubmed.ncbi.nlm.nih.gov/26347106/) | 2015 | ECA | Ann Oncol | Ensayo de Fase 3 JFMC33-0502 sobre la duración óptima de UFT/LV adyuvante en cáncer de colon estadio IIB/III |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | ECA | Int J Clin Oncol | Inmunoquimioterapia adyuvante (OK-432) y quimioterapia con pirimidinas orales (HCFU y UFT) en cáncer colorrectal |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Cohorte y metaanálisis | Medicine | UFT vs 5-FU como adyuvancia en cáncer de colon estadio II y III, con datos del seguro de salud nacional de Taiwán (2000-2015) |
-| [38833114](https://pubmed.ncbi.nlm.nih.gov/38833114/) | 2024 | Estudio prospectivo controlado | Int J Clin Oncol | Resultados finales de JFMC46-1201: UFT/LV adyuvante en cáncer de colon estadio II con factores de riesgo; en el análisis previo la supervivencia libre de enfermedad a 3 años fue mayor que con cirugía sola |
-| [35168560](https://pubmed.ncbi.nlm.nih.gov/35168560/) | 2022 | Estudio observacional prospectivo | BMC Cancer | UFT/LV frente a cirugía sola en cáncer de colon estadio II de alto riesgo, con emparejamiento por puntaje de propensión |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Revisión | Surg Today | UFT como quimioterapia adyuvante en tumores sólidos: evidencia clínica y mecanismo de acción; su toxicidad leve lo hace adecuado tras la resección completa |
-| [6402917](https://pubmed.ncbi.nlm.nih.gov/6402917/) | 1983 | Estudio clínico comparativo aleatorizado | Am J Clin Oncol | Tegafur oral vs 5-FU intravenoso en cáncer colorrectal metastásico |
-
----
+| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Cohorte nacional y metaanálisis | Medicine | UFT vs. 5-FU como adyuvante en cáncer de colon estadio II/III (base de datos de seguros de Taiwán) |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | ECA fase 3 | Clin Colorectal Cancer | SOX vs. UFT/LV como adyuvante en cáncer de colon estadio III de alto riesgo (ACTS-CC 02) |
+| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | ECA fase 3 (seguimiento) | ESMO Open | Supervivencia a 5 años de ACTS-CC 02: SOX no fue superior a UFT/LV en supervivencia libre de enfermedad |
+| [10089948](https://pubmed.ncbi.nlm.nih.gov/10089948/) | 1999 | Metaanálisis de datos individuales | Jpn J Clin Oncol | Fluoropirimidinas orales como adyuvante tras resección curativa de cáncer colorrectal |
+| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Revisión | Surg Today | UFT como quimioterapia adyuvante en tumores sólidos: evidencia clínica y mecanismo de acción |
+| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Revisión | Expert Rev Anticancer Ther | Opciones de quimioterapia por estadio en cáncer de colon |
+| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Consenso/guía | Clin Colorectal Cancer | Adaptación de guías internacionales para cáncer colorrectal metastásico en Asia |
+| [36676634](https://pubmed.ncbi.nlm.nih.gov/36676634/) | 2022 | Cohorte | Medicina (Kaunas) | Beneficio de UFT adyuvante en cáncer de colon estadio IIA frente a observación |
+| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | ECA | Int J Clin Oncol | Inmunoquimioterapia (OK-432) y quimioterapia adyuvante con pirimidinas orales (HCFU, UFT) en cáncer colorrectal |
+| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Reporte de caso (evento adverso) | Cancer Chemother Pharmacol | Anemia hemolítica asociada a UFT en cáncer de colon metastásico |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 54192 | UTEFOS 400 mg cápsulas duras | Cápsula dura | No especificada en los datos disponibles |
-
----
+| 54192 | UTEFOS 400 mg cápsulas duras (Mylan Pharmaceuticals S.L.) | Cápsula dura | No disponible en los datos compilados |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (fluoropirimidina, profármaco del 5-FU) |
+| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, clase fluoropirimidina; profármaco del 5-FU) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Cribado de deficiencia de DPD (genotipado DPYD); demás parámetros según el prospecto |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto; seguir la normativa de manejo de fármacos citotóxicos |
-
----
+| Items de Monitoreo | Hemograma, función hepática y renal (recomendación general para fluoropirimidinas) |
+| Protección en Manejo | Seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ## Consideraciones de Seguridad
 
-No hay datos de seguridad extraídos del prospecto de la AEMPS ni interacciones registradas. Los siguientes puntos de atención proceden del análisis de reposicionamiento:
+- **Advertencias de la literatura**: se ha descrito un caso de anemia hemolítica asociada a UFT en un paciente con cáncer de colon metastásico (reporte de caso).
+- **Interacciones farmacológicas**: no se encontraron interacciones registradas en la consulta realizada.
 
-- **Toxicidad relacionada con DPD**: se necesita cribado previo, ya que la deficiencia de DPD aumenta el riesgo de toxicidad grave por fluoropirimidinas.
-- **Interacciones farmacológicas a verificar**: warfarina y otras fluoropirimidinas.
-
-Consultar el prospecto para el resto de la información de seguridad.
-
----
+Para el resto de la información de seguridad (advertencias y contraindicaciones oficiales), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay varios ensayos de Fase 3 completados (NCT00378716, NCT00392899, NCT00152230, NCT00660894) y ensayos aleatorizados publicados con UFT en cáncer de colon adyuvante, lo que sitúa la evidencia en nivel L1. Los puntos débiles son la falta de indicación registrada en España y la ausencia de datos de seguridad del prospecto.
-
-Las otras nueve predicciones (adenoma velloso de ciego, tumor neuroendocrino G1, lipoma, leiomioma, linfangioma, hemangioma cavernoso, etc.) tienen evidencia L4-L5 y carecen de justificación clínica. Las de enfermedad cecal y neoplasia de la unión rectosigmoidea se solapan con el cáncer colorrectal. Ninguna se recomienda como línea independiente.
+Varios ECA de fase 3 completados (por ejemplo, NCT00378716, NCT00152230, NCT00392899 y NCT00660894) evalúan directamente regímenes con tegafur en cáncer de colon, lo que respalda un nivel de evidencia L1. Sin embargo, la mayoría de la evidencia procede de UFT o S-1 y no de tegafur en monoterapia, y faltan los datos oficiales de seguridad de la autorización española.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que es el vacío bloqueante para el cribado de seguridad
-- Confirmar la indicación autorizada de UTEFOS 400 mg y si incluye cáncer colorrectal
-- Obtener datos detallados del mecanismo de acción desde DrugBank
-- Definir un plan de cribado de DPD y de revisión de interacciones (warfarina y otras fluoropirimidinas)
-- Contrastar los resultados de los ensayos, en su mayoría asiáticos, con la práctica y la población europeas
-
-*Los resultados de este informe son solo para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un requisito previo para el cribado de seguridad.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Confirmar el texto de indicación aprobado de la autorización 54192 (UTEFOS) y su coherencia con el uso en cáncer de colon.
+- Revisar los resultados publicados de los ensayos de fase 3 completados para confirmar eficacia y perfil de seguridad.
+- Plan de monitoreo hematológico y de toxicidad, con atención a la actividad de DPD.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

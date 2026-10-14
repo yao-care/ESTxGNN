@@ -2,7 +2,7 @@
 layout: default
 title: Phenobarbital
 parent: Solo predicción del modelo (L5)
-nav_order: 420
+nav_order: 631
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fenobarbital: De Epilepsia (Crisis Convulsivas) a Neoplasia del Nervio Trigémino
+# Fenobarbital: De Epilepsia a Neoplasia del Nervio Trigémino
 
 ## Resumen en Una Frase
 
-Fenobarbital es un barbitúrico antiepiléptico, utilizado para tratar casi todos los tipos de crisis convulsivas, salvo las crisis de ausencia.
-El modelo TxGNN predice que podría ser efectivo para **Neoplasia del Nervio Trigémino**, pero **no hay ensayos clínicos** y solo **1 publicación** (una serie de casos sobre otra enfermedad), por lo que la predicción carece de respaldo real.
+Fenobarbital es un barbitúrico anticonvulsivo utilizado originalmente para el tratamiento de la epilepsia (incluidas las crisis tónico-clónicas generalizadas, la epilepsia parcial y el síndrome de Lennox-Gastaut) y de algunas cefaleas.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero **no hay ensayos clínicos** y solo **1 publicación** (una serie de casos sobre el síndrome de Sturge-Weber, no relacionada directamente con la indicación), por lo que la evidencia es esencialmente nula.
 
 ---
 
@@ -42,9 +42,9 @@ El modelo TxGNN predice que podría ser efectivo para **Neoplasia del Nervio Tri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Crisis epilépticas, excepto ausencias (dato farmacológico; los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | Epilepsia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 99,96% |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
@@ -54,11 +54,11 @@ El modelo TxGNN predice que podría ser efectivo para **Neoplasia del Nervio Tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, fenobarbital es un modulador alostérico positivo del receptor GABA-A. Su eficacia como antiepiléptico está comprobada. Además, se une al receptor X de pregnano (PXR, gen NR1I2), que regula la inducción de enzimas hepáticas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el fenobarbital es un modulador alostérico positivo del receptor GABA-A con actividad anticonvulsiva de amplio espectro. Además, la base de datos farmacológica lo registra como ligando del receptor X de pregnano (NR1I2), lo que explica su efecto inductor enzimático.
 
-**La predicción no parece razonable desde el punto de vista mecanístico.** Fenobarbital no tiene actividad antitumoral conocida. Inhibir la actividad neuronal por vía GABAérgica no se relaciona con el control del crecimiento de un tumor del nervio trigémino. El puntaje alto (99.96%) probablemente refleja la cercanía en el grafo de conocimiento con nodos relacionados con crisis convulsivas, y no un mecanismo oncológico.
+**En este caso la predicción no es creíble.** La neoplasia del nervio trigémino es un tumor, y no existe un vínculo mecanístico creíble con el fenobarbital: como mucho podría controlar crisis asociadas, pero no trataría el tumor. La única publicación recuperada (PMID 9157801) trata del síndrome de Sturge-Weber, que es otra enfermedad. El puntaje alto probablemente es un artefacto de proximidad en el grafo, a través de nodos relacionados con la epilepsia y el trigémino.
 
-La única publicación recuperada trata sobre el síndrome de Sturge-Weber, una enfermedad neurocutánea que cursa con epilepsia. Esto refuerza la idea de que la asociación viene de la epilepsia y no de un efecto sobre tumores.
+**Otras predicciones del modelo.** Entre las candidatas posteriores predominan las epilepsias reflejas (crisis por alimentación, sobresalto, audiógenas, lectura, etc.), que son extensiones de la clase anticonvulsiva ya cubierta por las indicaciones existentes, y sin evidencia directa de eficacia. La neuralgia del trigémino (puntaje 99,88%) tiene como tratamiento de referencia la carbamazepina, no el fenobarbital.
 
 ---
 
@@ -72,26 +72,26 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | Anales españoles de pediatría | Revisión de 14 casos de síndrome de Sturge-Weber seguidos durante 25 años (características clínicas, evolución y respuesta terapéutica). No aporta evidencia sobre actividad antitumoral de fenobarbital. |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | Anales Españoles de Pediatría | Revisión de 14 casos de síndrome de Sturge-Weber en un centro durante 25 años (características clínicas, evolución y respuesta terapéutica). No aborda la neoplasia del nervio trigémino. |
 
 ---
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 35052 | LUMINAL 100 MG COMPRIMIDOS | Comprimido | Kern Pharma S.L. |
-| 3275 | LUMINALETAS 15 MG COMPRIMIDOS | Comprimido | Kern Pharma S.L. |
-| 49002 | GARDENAL 50 mg COMPRIMIDOS | Comprimido | Sanofi Aventis S.A. |
-| 3905 | LUMINAL 200 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Kern Pharma S.L. |
+| 35052 | LUMINAL 100 MG COMPRIMIDOS | Comprimido | No disponible |
+| 3275 | LUMINALETAS 15 MG COMPRIMIDOS | Comprimido | No disponible |
+| 49002 | GARDENAL 50 mg COMPRIMIDOS | Comprimido | No disponible |
+| 3905 | LUMINAL 200 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta se completó con un único registro, y es farmacológico, no una interacción con otro fármaco. Fenobarbital actúa sobre el receptor X de pregnano (PXR/NR1I2), una vía asociada a la inducción enzimática. Esto sugiere vigilar la exposición de otros medicamentos metabolizados por el hígado.
-
-Consultar el prospecto para información de advertencias y contraindicaciones.
+- **Contraindicaciones según el grafo de conocimiento (no proceden del prospecto):** insuficiencia y enfermedad hepática, enfermedad renal, porfiria (incluida la porfiria hereditaria), enfermedad pulmonar obstructiva crónica, trombocitopenia, hipotiroidismo/mixedema, hiperglucemia, lupus eritematoso sistémico, úlcera gástrica/péptica y gastritis, hipertensión, enfermedad de la vesícula biliar, y trastornos de ansiedad, neuróticos, distímicos y psicóticos.
+- **Interacciones farmacológicas:** se registra la interacción farmacológica con el receptor X de pregnano (NR1I2), lo que apunta a inducción enzimática y posibles interacciones con otros fármacos metabolizados por esa vía. No se dispone de una lista de fármacos con nivel de gravedad.
+- **Señales de seguridad en la literatura recuperada:** riesgos teratogénicos y cognitivos de los anticonvulsivos, deterioro cognitivo tardío tras la exposición temprana (PMID 10416094) y apoptosis neuronal en modelos animales neonatales.
 
 ---
 
@@ -100,13 +100,13 @@ Consultar el prospecto para información de advertencias y contraindicaciones.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos, la única publicación no se relaciona con tumores y no hay un vínculo mecanístico plausible. El puntaje del modelo es el único sustento de esta predicción.
+La predicción para neoplasia del nervio trigémino carece de ensayos clínicos, de literatura relevante y de un vínculo mecanístico creíble; el puntaje elevado parece un artefacto del grafo. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS para completar las advertencias y contraindicaciones.
-- Obtener el mecanismo de acción desde DrugBank.
-- Considerar que otras predicciones del mismo fármaco son más plausibles y merecen revisión prioritaria. Se trata de epilepsias reflejas (convulsiones por comer, por sobresalto, por sonido, por lectura), con nivel L4, además de la neuralgia del trigémino. En esta última, el fármaco de referencia es la carbamazepina y fenobarbital actúa sobre todo como medicación concomitante que reduce sus niveles.
-- Solo se justificaría reabrir la neoplasia del nervio trigémino si aparece evidencia preclínica o clínica directa.
+- Datos de advertencias y contraindicaciones del prospecto de la AEMPS (lagunas de seguridad que bloquean el cribado).
+- Datos detallados del mecanismo de acción (MOA).
+- Evidencia preclínica o clínica directa en tumores del trigémino; de lo contrario, no se recomienda priorizar esta indicación.
+- Si se busca reposicionamiento dentro de la neurología, valorar candidatas con más sustento (por ejemplo, epilepsias reflejas), teniendo en cuenta que son extensiones de clase y que existe evidencia de riesgo cognitivo en edades tempranas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

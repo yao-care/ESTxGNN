@@ -2,7 +2,7 @@
 layout: default
 title: Lansoprazole
 parent: Evidencia moderada (L3-L4)
-nav_order: 304
+nav_order: 451
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,88 +29,78 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Lansoprazol: De Indicación Original No Registrada a Reflujo Duodenogástrico
+# Lansoprazol: De Úlcera Gástrica y Enfermedad por Reflujo Gastroesofágico a Reflujo Duodenogástrico
 
 ## Resumen en Una Frase
 
-Lansoprazol es un inhibidor de la bomba de protones (IBP) que reduce la secreción de ácido gástrico. Los datos recibidos no incluyen su indicación original ni su mecanismo de acción.
-El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico**, pero actualmente hay **0 ensayos clínicos** y **2 publicaciones** relacionadas.
-Una de ellas es un estudio en ratas que sugiere un riesgo, no un beneficio.
-
----
+Lansoprazol es un inhibidor de la bomba de protones, utilizado originalmente para el tratamiento de la úlcera gástrica, la úlcera duodenal, la enfermedad por reflujo gastroesofágico y el síndrome de Zollinger-Ellison.
+El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico**,
+pero actualmente no hay **ningún ensayo clínico** y solo **1 publicación** general (una revisión sobre inhibidores de la bomba de protones, no específica de esta condición).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (los textos de indicación de las autorizaciones de AEMPS están vacíos) |
+| Indicación Original | Úlcera gástrica, enfermedad ulcerosa péptica, enfermedad por reflujo gastroesofágico, esofagitis, úlcera duodenal, síndrome de Zollinger-Ellison (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99,69% |
+| Puntaje de Predicción TxGNN | 99.69% |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, lansoprazol pertenece a la clase de los inhibidores de la bomba de protones. Estos fármacos reducen el ácido gástrico y se usan de forma general en úlcera péptica, infección por *Helicobacter pylori*, enfermedad por reflujo gastroesofágico y síndrome de Zollinger-Ellison, según la revisión de Shi y Klotz (2008).
+Lansoprazol es un inhibidor de la bomba de protones que suprime la secreción de ácido gástrico. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero esta es la función conocida de la clase y es la base de sus indicaciones aprobadas en patología ácido-péptica.
 
-La relación con el reflujo duodenogástrico es **indirecta**. Suprimir el ácido puede aliviar el daño de la mucosa, pero no impide que la bilis y el contenido duodenal refluyan al estómago. El puntaje alto del modelo probablemente refleja la cercanía en el grafo de conocimiento entre lansoprazol y las enfermedades gástricas y duodenales relacionadas con el ácido. No indica un efecto terapéutico directo demostrado.
+El reflujo duodenogástrico (reflujo biliar) depende sobre todo de la motilidad pilórica y duodenal y de la exposición a bilis, más que de una hipersecreción ácida. Por ello, el vínculo mecanístico es **indirecto**: suprimir el ácido podría aliviar síntomas y reducir el daño de la mucosa causado por la exposición combinada a ácido y bilis, pero no corrige el reflujo del contenido duodenal en sí.
 
-El único estudio específico para esta indicación apunta en sentido contrario. En ratas con reflujo duodenogástrico, lansoprazol **promovió la carcinogénesis gástrica**. Es una señal preclínica de seguridad que desaconseja este uso hasta que se aclare.
-
----
+El puntaje TxGNN muy alto (0.997) probablemente refleja la proximidad en la red del lansoprazol a indicaciones aprobadas relacionadas con el reflujo (enfermedad por reflujo gastroesofágico, esofagitis, úlcera péptica) y no una evidencia independiente. Debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para reflujo duodenogástrico.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | Eur J Clin Pharmacol | Actualización del uso clínico y la farmacocinética de los IBP. Son fármacos de primera elección en úlcera péptica, *H. pylori*, ERGE, lesiones por AINE y síndrome de Zollinger-Ellison. No trata el reflujo duodenogástrico. |
-| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Estudio animal (rata) | Gastric Cancer | Evaluó el efecto combinado del reflujo gastroduodenal y la inhibición ácida sobre el carcinoma gástrico. Lansoprazol promovió la carcinogénesis gástrica en ratas con reflujo duodenogástrico. |
-
----
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | European Journal of Clinical Pharmacology | Actualización del uso clínico y la farmacocinética de los inhibidores de la bomba de protones: tratamiento de primera elección en úlcera péptica, infección por *H. pylori*, reflujo gastroesofágico, lesiones por AINE y síndrome de Zollinger-Ellison. No es específica del reflujo duodenogástrico. |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 66127 | LANSOPRAZOL SANDOZ 15 mg CÁPSULAS GASTRORRESISTENTES EFG | Cápsula dura gastrorresistente |
-| 67430 | LANSOPRAZOL VIR PHARMA 30 mg CÁPSULAS GASTRORRESISTENTES EFG | Cápsula dura gastrorresistente |
-| 77014 | LANSOPRAZOL STADA 30 MG CÁPSULAS DURAS GASTRORRESISTENTES EFG | Cápsula dura gastrorresistente |
-| 77739 | LANSOPRAZOL FLAS SALVAT 30 MG COMPRIMIDOS BUCODISPERSABLE | Comprimido bucodispersable |
-| 69189 | LANSOPRAZOL VIR 30 mg CÁPSULAS DURAS GASTRORRESISTENTES EFG | Cápsula dura gastrorresistente |
+Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 66127 | Lansoprazol Sandoz 15 mg cápsulas gastrorresistentes EFG | Cápsula dura gastrorresistente | No disponible |
+| 77739 | Lansoprazol Flas Salvat 30 mg comprimidos bucodispersables | Comprimido bucodispersable | No disponible |
+| 36286-00-00IP | Opiren 30 mg cápsulas | Cápsula dura gastrorresistente | No disponible |
+| 61219 | Pro Ulco 30 mg cápsulas gastrorresistentes | Cápsula dura | No disponible |
+| 62316 | Estomil 15 mg cápsulas duras gastrorresistentes EFG | Cápsula dura | No disponible |
 
 ## Consideraciones de Seguridad
 
-- **Señal preclínica:** en un modelo de rata con reflujo duodenogástrico, lansoprazol promovió la carcinogénesis gástrica (PMID 15052437). No se ha confirmado su relevancia en humanos, pero es un motivo de cautela específico para esta indicación.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (no proceden del prospecto, deben verificarse): hipertensión, síndrome de QT largo, torsades de pointes, insuficiencia hepática, porfirias, enfermedad renal, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, osteoporosis, trastornos de coagulación, ictus e infarto de miocardio, anemias, colitis por *Clostridium difficile*, miastenia gravis, entre otras.
+- **Interacciones farmacológicas**: se registraron 100 interacciones. Entre las incluidas en la muestra revisada, las de nivel **mayor** son con **acalabrutinib** y **atazanavir**. Entre las de nivel moderado figuran hidroclorotiazida, anfotericina B, amikacina, anfetamina, ampicilina, fenofibrato, apalutamida, aprepitant, atorvastatina, bosutinib, brigatinib y bromocriptina. Entre las de nivel menor figuran ácido acetilsalicílico, axitinib, brivaracetam y cianocobalamina.
 
-Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones), consultar el prospecto.
-
----
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones oficiales).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo y en un vínculo mecanístico indirecto (nivel L4). No hay ensayos clínicos, y el único estudio específico muestra una posible promoción del cáncer gástrico en ratas. También se predijo obstrucción duodenal (puntaje 99,68%), pero esa indicación tampoco tiene respaldo: es un problema mecánico o anatómico que la supresión ácida no resuelve.
+La predicción se apoya únicamente en el puntaje del modelo y en una revisión general sin relación específica con la condición. No hay ensayos clínicos, y el vínculo mecanístico es indirecto porque el reflujo duodenogástrico no se debe principalmente a hipersecreción ácida.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de AEMPS la indicación original, las advertencias y las contraindicaciones (brecha de datos bloqueante para el cribado de seguridad).
-- Completar el mecanismo de acción desde DrugBank.
-- Evaluar si la señal de carcinogénesis en ratas es relevante para humanos, con revisión de estudios clínicos u observacionales de IBP en reflujo biliar o duodenogástrico.
-- Buscar ensayos clínicos con lansoprazol en reflujo duodenogástrico. Hoy no hay ninguno registrado.
-- Revisar la relevancia del ensayo de fase 3 NCT00175032, cuya condición no se pudo confirmar.
+- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), pues es un requisito previo para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una búsqueda bibliográfica específica de inhibidores de la bomba de protones en reflujo duodenogástrico o biliar.
+- Valorar la relevancia clínica real frente a alternativas terapéuticas existentes.
+- Evaluar el riesgo de interacciones (acalabrutinib, atazanavir) y de las comorbilidades señaladas.
+
+*Nota: la segunda predicción del modelo, obstrucción duodenal (puntaje 99.68%, nivel L5), no tiene vínculo mecanístico claro, ni ensayos ni literatura; la obstrucción es de naturaleza mecánica y su tratamiento es endoscópico o quirúrgico. No se recomienda priorizarla (Hold).*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

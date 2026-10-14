@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Digoxin
-parent: Evidencia moderada (L3-L4)
-nav_order: 177
-evidence_level: L4
+parent: Solo predicción del modelo (L5)
+nav_order: 250
+evidence_level: L5
 indication_count: 6
 ---
 
 # Digoxin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,32 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Digoxina: De Insuficiencia Cardiaca Congestiva y Fibrilación Auricular a Angina de Prinzmetal
+# Digoxina: De Fibrilación Auricular a Angina de Prinzmetal
 
 ## Resumen en Una Frase
 
-La digoxina es un glucósido cardiaco que se usa para tratar la insuficiencia cardiaca congestiva y la fibrilación auricular.
-El modelo TxGNN predice que podría ser efectiva para **angina de Prinzmetal**, pero actualmente hay **0 ensayos clínicos** y solo **2 publicaciones** de relevancia indirecta.
-Ninguna de las dos muestra beneficio de la digoxina, así que la predicción se apoya únicamente en el modelo.
+Digoxina es un glucósido cardíaco utilizado originalmente para el tratamiento de la fibrilación auricular y la intoxicación digitálica.
+El modelo TxGNN predice que podría ser efectiva para **Angina de Prinzmetal**, pero actualmente **no hay ensayos clínicos** y solo **1 publicación** (una revisión no específica de la digoxina) relacionada con esta dirección, por lo que la evidencia es únicamente predictiva.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Insuficiencia cardiaca congestiva y fibrilación auricular (según datos de farmacología; las autorizaciones de AEMPS no incluyen texto de indicación) |
+| Indicación Original | Fibrilación auricular e intoxicación digitálica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99,81 % |
-| Nivel de Evidencia | L4 |
+| Puntaje de Predicción TxGNN | 99.81% |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La digoxina actúa sobre la subunidad alfa-1 de la bomba Na+/K+-ATPasa (gen *ATP1A1*). Su inhibición produce un efecto inotrópico positivo y un efecto vagotónico. Por eso se usa en insuficiencia cardiaca y en el control de la frecuencia en fibrilación auricular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la digoxina inhibe la bomba Na+/K+-ATPasa (subunidad α-1, gen ATP1A1), lo que aumenta el calcio intracelular y la contractilidad miocárdica. Su eficacia en la fibrilación auricular está comprobada, pero no hay una base mecanística clara para la angina de Prinzmetal.
 
-La angina de Prinzmetal y las indicaciones originales son enfermedades cardiovasculares, y esa cercanía explica en parte el puntaje alto del modelo. Sin embargo, no se ha establecido un vínculo mecanístico directo. La angina de Prinzmetal se debe a vasoespasmo coronario, y los glucósidos cardiacos no son un tratamiento reconocido para ella. Incluso podrían aumentar el tono vascular.
+La angina de Prinzmetal se debe a vasoespasmo coronario y se trata con antagonistas del calcio y nitratos. El aumento del calcio intracelular y el potencial de vasoconstricción hacen que la digoxina sea, en teoría, desfavorable para esta indicación.
 
-El puntaje de 0,998 es una predicción del modelo, no evidencia clínica. Los dos artículos recuperados tratan sobre cronofarmacología de antihipertensivos y sobre el mecanismo de la angina decubitus, y ninguno estudia la digoxina.
+Por tanto, el alto puntaje de TxGNN (99.81%) es solo una predicción basada en la red de conocimiento, sin vínculo mecanístico creíble. La única publicación asociada (PMID 10736610) es una revisión sobre cronofarmacología del tratamiento antihipertensivo, no específica de la digoxina ni de esta indicación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,34 +64,36 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Revisión | Acta Physiol Pharmacol Bulg | Cronofarmacología y su impacto en el tratamiento antihipertensivo. No evalúa la digoxina ni la angina de Prinzmetal. |
-| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Revisión (según clasificación del pack) | Chin Med Sci J | Reevaluación del mecanismo y tratamiento de la angina decubitus en 30 pacientes con lesiones coronarias graves. No muestra beneficio de la digoxina. |
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Revisión | Acta physiologica et pharmacologica Bulgarica | Revisión sobre ritmos circadianos y su impacto en el tratamiento antihipertensivo; no es específica de la digoxina ni de la angina de Prinzmetal |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 23850 | Digoxina Teofarma 0,25 mg comprimidos | Comprimido | No consta en los datos disponibles |
-| 34566 | Digoxina Kern Pharma 0,25 mg comprimidos | Comprimido | No consta en los datos disponibles |
-| 34753 | Digoxina Kern Pharma 0,25 mg/ml solución inyectable | Solución inyectable | No consta en los datos disponibles |
-| 34755 | Lanacordin Pediátrico | Solución oral | No consta en los datos disponibles |
+| 23850 | DIGOXINA TEOFARMA 0,25 mg COMPRIMIDOS | Comprimido | No disponible |
+| 34566 | DIGOXINA KERN PHARMA 0,25 mg COMPRIMIDOS | Comprimido | No disponible |
+| 34753 | DIGOXINA KERN PHARMA 0,25 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
+| 34755 | LANACORDIN PEDIÁTRICO | Solución oral | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay advertencias ni contraindicaciones disponibles, y la consulta de interacciones solo devolvió el registro del blanco farmacológico (*ATP1A1*), no interacciones con otros fármacos.
+- **Contraindicaciones (según el grafo de conocimiento, no del prospecto)**: enfermedad renal, deficiencia de potasio, hipercalcemia, nefrocalcinosis, alteraciones del metabolismo del fósforo, infarto de miocardio, trombosis coronaria, cor pulmonale, síndrome de Wolff-Parkinson-White, síndrome del seno enfermo (incluida la forma familiar), fibrilación ventricular, miocardiopatía hipertrófica (incluida la familiar), miocardiopatía restrictiva, bloqueo auriculoventricular, hipotiroidismo (incluido el congénito) y mixedema, miocarditis, pericarditis constrictiva, hemoglobinopatía y piuria ureteral.
+- **Interacciones Farmacológicas**: la consulta se completó con 1 registro, correspondiente a la diana farmacológica de la digoxina (subunidad α-1 de la Na+/K+-ATPasa), no a una interacción con otro fármaco. Se debe consultar el prospecto para interacciones clínicas.
+
+Las advertencias y contraindicaciones del prospecto de la AEMPS no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos, la literatura es solo indirecta y no muestra beneficio, y no existe un vínculo mecanístico plausible con el vasoespasmo coronario. El puntaje alto de TxGNN no basta por sí solo. Las otras cinco indicaciones predichas también están en Hold (L4 o L5).
+La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos, la única publicación no es específica y el mecanismo de la digoxina es teóricamente desfavorable en el vasoespasmo coronario. Además, varias contraindicaciones cardiovasculares conocidas refuerzan la cautela.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un dato bloqueante para el cribado de seguridad.
-- Una hipótesis mecanística que explique por qué un inhibidor de Na+/K+-ATPasa ayudaría en un vasoespasmo coronario.
-- Estudios preclínicos o clínicos específicos de digoxina en angina de Prinzmetal.
-- Una revisión de seguridad que considere el estrecho margen terapéutico de la digoxina y el posible aumento del tono vascular.
+- Datos detallados del mecanismo de acción (MOA) y un análisis de su vínculo con el vasoespasmo coronario
+- Estudios preclínicos o clínicos específicos de digoxina en angina de Prinzmetal
+- Prospecto de la AEMPS con advertencias, contraindicaciones e indicaciones aprobadas, para completar el cribado de seguridad
+- Evaluación de la relación riesgo-beneficio frente a los tratamientos estándar (antagonistas del calcio y nitratos)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
