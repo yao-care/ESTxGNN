@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00015-septal-myocardial-infarction",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00015"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "septal myocardial infarction"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L4"
+    },
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.999
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db09093-infective-urethral-stricture",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db09093"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "infective urethral stricture"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9981
+    }
+  ]
+}

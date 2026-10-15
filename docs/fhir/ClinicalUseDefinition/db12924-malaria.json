@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db12924-malaria",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db12924"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "malaria"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9916
+    }
+  ]
+}

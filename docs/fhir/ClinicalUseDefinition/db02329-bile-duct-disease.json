@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db02329-bile-duct-disease",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db02329"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "bile duct disease"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://estxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9954
+    }
+  ]
+}
