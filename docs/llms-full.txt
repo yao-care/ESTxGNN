@@ -1,0 +1,41 @@
+# ESTxGNN — Resumen legible por IA
+
+## Posicionamiento de la plataforma
+
+ESTxGNN es una plataforma de investigación de reposicionamiento de fármacos para los medicamentos disponibles en España, mantenida por 藥提醒科技有限公司 (yao.care). Publica predicciones de IA, evidencia clínica e información de seguridad de medicamentos; el contenido es solo para investigación y no constituye consejo médico.
+
+## Método y evidencia
+
+Se basa en el método TxGNN publicado por el Zitnik Lab de Harvard para explorar posibles relaciones entre medicamentos existentes y nuevas indicaciones. Las predicciones del modelo se combinan con ClinicalTrials.gov, PubMed, DrugBank, datos de AEMPS y DDInter en informes trazables.
+
+Los niveles de evidencia van de L1 (evidencia clínica más sólida) a L5 (solo predicción del modelo); una puntuación del modelo no equivale a eficacia clínica. Todo candidato a reposicionamiento requiere ensayos clínicos, revisión regulatoria y la evaluación de profesionales de la salud calificados.
+
+## Contenido principal
+
+- `/` Predicciones de Reposicionamiento de Medicamentos — Predicciones de reposicionamiento de medicamentos impulsadas por IA para España. Análisis basado en evidencia de medicamentos aprobados para posibles nuevas indicaciones terapéuticas.
+- `/drugs/` Todos los medicamentos — Todos los informes de validación de medicamentos y las estadísticas de niveles de evidencia de ESTxGNN.
+- `/evidence-high/` Evidencia alta (L1-L2) — Candidatos a reposicionamiento de medicamentos L1-L2 en ESTxGNN, respaldados por ensayos clínicos o revisiones sistemáticas.
+- `/evidence-medium/` Evidencia moderada (L3-L4) — Candidatos a reposicionamiento de medicamentos L3-L4 en ESTxGNN, respaldados por evidencia observacional o preclínica.
+- `/evidence-low/` Solo predicción del modelo (L5) — Candidatos L5 en ESTxGNN: solo predicción del modelo, todavía sin evidencia clínica ni bibliográfica.
+- `/methodology/` Metodología — Cómo genera y valida ESTxGNN sus predicciones: predicción con el grafo de conocimiento TxGNN, recopilación de evidencia, gradación L1-L5 y recomendaciones de decisión.
+- `/guide/` Guía de uso — Guía de uso de ESTxGNN: cómo buscar medicamentos, leer los niveles de evidencia e interpretar las recomendaciones.
+- `/sources/` Fuentes de datos — Fuentes de datos en las que se basa ESTxGNN: datos de registro de la AEMPS, TxGNN, ClinicalTrials.gov, PubMed y DrugBank.
+- `/downloads/` Descargas — Descargas de datos abiertos de ESTxGNN: recursos FHIR, resultados de predicción e índice de búsqueda.
+- `/about/` Acerca de — ESTxGNN es una plataforma de predicción de reposicionamiento de medicamentos desarrollada por 藥提醒科技有限公司 (yao.care), construida sobre el modelo TxGNN de Harvard, que cubre los medicamentos autorizados por la AEMPS en España.
+
+## Ejemplos de informes de medicamentos
+
+- Aripiprazole (L1): https://estxgnn.yao.care/drugs/aripiprazole/
+- Artemether (L1): https://estxgnn.yao.care/drugs/artemether/
+- Atorvastatin (L1): https://estxgnn.yao.care/drugs/atorvastatin/
+
+## Cita y limitaciones
+
+Cite el artículo original de TxGNN (https://doi.org/10.1038/s41591-023-02233-x). El contenido y las predicciones del sitio son solo para investigación y docencia y no constituyen consejo médico; cualquier uso real o decisión de reposicionamiento debe ser confirmada por profesionales calificados, ensayos clínicos y revisión regulatoria.
+
+## Enlaces oficiales
+
+- https://estxgnn.yao.care/
+- https://www.yao.care/medical/txgnn/
+- https://github.com/yao-care/ESTxGNN
+- https://doi.org/10.1038/s41591-023-02233-x
