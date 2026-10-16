@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Guselkumab: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: No consta en los textos de las autorizaciones españolas. La evidencia…"
 ---
 
 # Guselkumab

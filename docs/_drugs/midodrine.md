@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 527
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Midodrine: nueva indicación predicha, Trastorno hipotensivo (nivel de evidencia L2). Indicación original: Hipotensión ortostática…"
 ---
 
 # Midodrine

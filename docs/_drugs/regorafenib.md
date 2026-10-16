@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 689
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Cáncer colorrectal metastásico…"
 ---
 
 # Regorafenib

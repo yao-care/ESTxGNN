@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Relebactam: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infección del tracto urinario y pielonefritis (según el grafo de cono…"
 ---
 
 # Relebactam

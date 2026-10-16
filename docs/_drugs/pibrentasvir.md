@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 635
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L4). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 ---
 
 # Pibrentasvir

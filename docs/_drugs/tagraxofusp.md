@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tagraxofusp: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: Neoplasia hematodérmica CD4+/CD56+ (según el grafo de conocimiento"
 ---
 
 # Tagraxofusp

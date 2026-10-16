@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 70
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Aspartic Acid: nueva indicación predicha, Acidosis tubular renal (nivel de evidencia L5). Indicación original: Deficiencia de potasio (según el grafo de conocimiento de TxGNN"
 ---
 
 # Aspartic Acid

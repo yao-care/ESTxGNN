@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 382
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (nivel de evidencia L4). Indicación original: No disponible en la autorización de la AEMPS (texto de indicación vac…"
 ---
 
 # Glutamic Acid

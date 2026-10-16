@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 110
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Hipertensión arterial pulmonar / esclerodermia (esclerosis sistémica)"
 ---
 
 # Bosentan

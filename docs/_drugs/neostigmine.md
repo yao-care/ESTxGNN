@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Neostigmine: nueva indicación predicha, Miastenia gravis con hiperplasia de timo (nivel de evidencia L5). Indicación original: Miastenia gravis (según el grafo de conocimiento"
 ---
 
 # Neostigmine

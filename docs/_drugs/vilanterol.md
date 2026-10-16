@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 846
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vilanterol: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: EPOC / asma (según las indicaciones del grafo de conocimiento"
 ---
 
 # Vilanterol

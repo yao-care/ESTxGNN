@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 838
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Valsartan: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L4). Indicación original: Hipertensión arterial (trastorno hipertensivo"
 ---
 
 # Valsartan

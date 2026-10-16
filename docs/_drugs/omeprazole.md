@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 590
 evidence_level: L3
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Omeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L3). Indicación original: Úlcera gástrica, enfermedad ulcerosa péptica…"
 ---
 
 # Omeprazole

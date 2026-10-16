@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 268
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). Indicación original: Fibrilación auricular (según el grafo de conocimiento"
 ---
 
 # Dronedarone

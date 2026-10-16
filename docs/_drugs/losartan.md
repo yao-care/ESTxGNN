@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 487
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Losartan: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L4). Indicación original: Hipertensión / trastorno hipertensivo / nefropatía diabética (según e…"
 ---
 
 # Losartan

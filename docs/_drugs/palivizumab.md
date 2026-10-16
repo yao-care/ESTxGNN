@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Palivizumab: nueva indicación predicha, Neoplasia benigna de la lengua (nivel de evidencia L5). Indicación original: Infección por virus respiratorio sincitial (según el grafo de conocim…"
 ---
 
 # Palivizumab

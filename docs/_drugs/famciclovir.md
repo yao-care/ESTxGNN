@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 324
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Famciclovir: nueva indicación predicha, Neuralgia postinfecciosa (nivel de evidencia L4). Indicación original: Herpes zóster (según el grafo de conocimiento"
 ---
 
 # Famciclovir

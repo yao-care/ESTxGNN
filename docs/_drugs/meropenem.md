@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 507
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Meropenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Infección por Pseudomonas aeruginosa, peritonitis…"
 ---
 
 # Meropenem

@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 619
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pemetrexed: nueva indicación predicha, Mesotelioma peritoneal maligno (nivel de evidencia L2). Indicación original: Cáncer de pulmón no microcítico, cáncer de pulmón…"
 ---
 
 # Pemetrexed

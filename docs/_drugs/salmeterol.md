@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 724
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Salmeterol: nueva indicación predicha, Bronquitis (nivel de evidencia L1). Indicación original: Enfisema pulmonar…"
 ---
 
 # Salmeterol

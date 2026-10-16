@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 795
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tinidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (nivel de evidencia L5). Indicación original: Giardiasis, vaginosis bacteriana, vaginitis, vulvitis, vulvovaginitis…"
 ---
 
 # Tinidazole

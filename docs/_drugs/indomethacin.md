@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Artritis reumatoide, espondilitis anquilosante, artrosis, gota…"
 ---
 
 # Indomethacin

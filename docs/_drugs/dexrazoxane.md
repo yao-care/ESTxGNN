@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dexrazoxane: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización compilados"
 ---
 
 # Dexrazoxane

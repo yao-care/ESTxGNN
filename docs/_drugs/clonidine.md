@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clonidine: nueva indicación predicha, Síndrome faciodigitogenital (nivel de evidencia L5). Indicación original: Hipertensión arterial (según la base de conocimiento de TxGNN"
 ---
 
 # Clonidine

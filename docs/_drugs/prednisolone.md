@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 658
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Prednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: No especificada en el texto de las autorizaciones españolas"
 ---
 
 # Prednisolone

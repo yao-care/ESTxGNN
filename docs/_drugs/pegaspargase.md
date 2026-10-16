@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 615
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pegaspargase: nueva indicación predicha, Linfoma/leucemia linfoblástica de precursores (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda (según el grafo de conocimiento"
 ---
 
 # Pegaspargase

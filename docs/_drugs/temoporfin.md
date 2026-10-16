@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 771
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Temoporfin: nueva indicación predicha, Teratoma nasofaríngeo (nivel de evidencia L5). Indicación original: Carcinoma de células escamosas / neoplasia de cabeza y cuello (según…"
 ---
 
 # Temoporfin

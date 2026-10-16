@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: Dispareunia (según el grafo de conocimiento: lupus eritematoso sistém…"
 ---
 
 # Prasterone

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 798
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tipranavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según el grafo de conocimie…"
 ---
 
 # Tipranavir

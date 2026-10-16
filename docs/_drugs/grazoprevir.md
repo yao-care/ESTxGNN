@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Grazoprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C (el texto de indicac…"
 ---
 
 # Grazoprevir

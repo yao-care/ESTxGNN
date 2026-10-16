@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 753
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sulfasalazine: nueva indicación predicha, Osteoartritis (nivel de evidencia L4). Indicación original: Artritis reumatoide, colitis ulcerosa…"
 ---
 
 # Sulfasalazine

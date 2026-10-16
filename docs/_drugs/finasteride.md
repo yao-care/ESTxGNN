@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Finasteride: nueva indicación predicha, Hipertricosis (predicción de mayor puntaje: hipertricosis universalis… (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna (según el g…"
 ---
 
 # Finasteride

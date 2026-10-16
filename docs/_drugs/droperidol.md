@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Droperidol: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de la AEMPS"
 ---
 
 # Droperidol

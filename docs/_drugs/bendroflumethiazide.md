@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Bendroflumethiazide: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
 ---
 
 # Bendroflumethiazide

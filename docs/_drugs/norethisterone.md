@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 574
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Norethisterone: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Endometriosis y trastornos ginecológicos relacionados (según la base…"
 ---
 
 # Norethisterone

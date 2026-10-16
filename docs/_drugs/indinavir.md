@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 414
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Indinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Infección por VIH / sida (según el grafo de conocimiento"
 ---
 
 # Indinavir

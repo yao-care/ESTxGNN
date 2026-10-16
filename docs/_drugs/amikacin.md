@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 49
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Amikacin: nueva indicación predicha, Fiebre paratifoidea (nivel de evidencia L4). Indicación original: Infecciones bacterianas (neumonía bacteriana…"
 ---
 
 # Amikacin

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 89
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bedaquiline: nueva indicación predicha, Tuberculosis bovina (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar y tuberculosis multirresistente"
 ---
 
 # Bedaquiline

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones"
 ---
 
 # Hesperidin

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 603
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Palbociclib: nueva indicación predicha, Artritis reumatoide (predicción n.º 2 (nivel de evidencia L4). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 ---
 
 # Palbociclib

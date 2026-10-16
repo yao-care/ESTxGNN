@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 737
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Simoctocog Alfa: nueva indicación predicha, Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: Hemofilia (según el grafo de conocimiento"
 ---
 
 # Simoctocog Alfa

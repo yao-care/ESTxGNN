@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Telavancin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Neumonía bacteriana / neumonía por Staphylococcus aureus (según el gr…"
 ---
 
 # Telavancin

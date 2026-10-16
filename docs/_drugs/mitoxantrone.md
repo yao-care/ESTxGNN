@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 536
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (nivel de evidencia L3). Indicación original: Leucemia mieloide aguda y subtipos relacionados (los textos de indic…"
 ---
 
 # Mitoxantrone

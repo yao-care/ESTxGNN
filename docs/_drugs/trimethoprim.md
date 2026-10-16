@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
 ---
 
 # Trimethoprim

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Epilepsia (según el grafo de conocimiento"
 ---
 
 # Phenobarbital

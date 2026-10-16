@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática po… (nivel de evidencia L5). Indicación original: Enfermedad de Huntington (según el grafo…"
 ---
 
 # Tetrabenazine

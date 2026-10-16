@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 748
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Streptomycin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar (según el grafo de conocimiento"
 ---
 
 # Streptomycin

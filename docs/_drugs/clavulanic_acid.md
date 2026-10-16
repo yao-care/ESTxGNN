@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clavulanic Acid: nueva indicación predicha, Uretritis por Ureaplasma (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según la base de conocimiento"
 ---
 
 # Clavulanic Acid

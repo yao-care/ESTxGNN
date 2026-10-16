@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Azithromycin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infección estreptocócica (indicaciones originales según el grafo de c…"
 ---
 
 # Azithromycin

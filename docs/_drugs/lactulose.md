@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 445
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Lactulose: nueva indicación predicha, Ictericia obstructiva (nivel de evidencia L3). Indicación original: Encefalopatía hepática…"
 ---
 
 # Lactulose

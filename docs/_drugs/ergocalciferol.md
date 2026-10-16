@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ergocalciferol: nueva indicación predicha, Hipoparatiroidismo aislado familiar por alteración de la secreción de… (nivel de evidencia L5). Indicación original: Osteoporosis, hipoparatiroidismo, raqui…"
 ---
 
 # Ergocalciferol

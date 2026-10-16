@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 174
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Chlorpromazine: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L4). Indicación original: Trastorno bipolar maníaco, trastorno psicótico…"
 ---
 
 # Chlorpromazine

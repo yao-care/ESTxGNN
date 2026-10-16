@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Givosiran: nueva indicación predicha, Síndrome hepatopulmonar (nivel de evidencia L5). Indicación original: Porfiria hepática"
 ---
 
 # Givosiran

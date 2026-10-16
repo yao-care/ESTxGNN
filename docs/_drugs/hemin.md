@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Hemin: nueva indicación predicha, Púrpura trombocitopénica (nivel de evidencia L5). Indicación original: Porfiria aguda intermitente (según el grafo de conocimiento"
 ---
 
 # Hemin

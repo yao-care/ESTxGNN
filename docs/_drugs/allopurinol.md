@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 39
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: Gota (según las indicaciones originales del grafo de conocimiento"
 ---
 
 # Allopurinol

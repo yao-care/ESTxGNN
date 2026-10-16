@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Tramazoline: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 ---
 
 # Tramazoline

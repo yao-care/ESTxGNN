@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 734
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Silibinin: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: No disponible (los textos de indicación de las autorizaciones están v…"
 ---
 
 # Silibinin

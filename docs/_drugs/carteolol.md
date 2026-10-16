@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Carteolol: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (el texto de indicac…"
 ---
 
 # Carteolol

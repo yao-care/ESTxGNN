@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dexibuprofen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Artritis reumatoide (según las indicaciones de origen de la base de c…"
 ---
 
 # Dexibuprofen

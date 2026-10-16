@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (nivel de evidencia L5). Indicación original: Esclerosis múltiple remitente-recurrente"
 ---
 
 # Interferon Beta-1B

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Fosamprenavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según las relaciones de indicación del…"
 ---
 
 # Fosamprenavir

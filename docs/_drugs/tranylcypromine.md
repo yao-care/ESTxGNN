@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 814
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tranylcypromine: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: Depresión unipolar, depresión endógena…"
 ---
 
 # Tranylcypromine

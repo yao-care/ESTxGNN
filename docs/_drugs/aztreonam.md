@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 85
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aztreonam: nueva indicación predicha, Uretritis gonocócica (nivel de evidencia L3). Indicación original: Infección del tracto urinario, infección por Pseudomonas aeruginosa…"
 ---
 
 # Aztreonam

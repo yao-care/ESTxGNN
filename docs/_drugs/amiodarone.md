@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (CPVT) (nivel de evidencia L5). Indicación original: Fibrilación ventricular (el texto de indicación de la…"
 ---
 
 # Amiodarone

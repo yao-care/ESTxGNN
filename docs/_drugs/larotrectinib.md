@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización compilados (el fármaco es…"
 ---
 
 # Larotrectinib

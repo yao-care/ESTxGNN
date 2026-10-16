@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 288
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Emtricitabine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
 ---
 
 # Emtricitabine

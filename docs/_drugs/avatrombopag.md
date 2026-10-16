@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Avatrombopag: nueva indicación predicha, Macrotrombocitopenia con insuficiencia de la válvula mitral (nivel de evidencia L5). Indicación original: Trombocitopenia (según el grafo de conocimiento"
 ---
 
 # Avatrombopag

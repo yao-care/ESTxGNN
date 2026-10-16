@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Morphine: nueva indicación predicha, Síndrome de piernas inquietas (puntaje más alto del modelo: síndrome… (nivel de evidencia L5). Indicación original: Enfermedad diarreica (según el grafo de conoci…"
 ---
 
 # Morphine

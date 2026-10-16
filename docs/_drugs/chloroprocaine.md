@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Chloroprocaine: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de AEMPS (texto de indicación vac…"
 ---
 
 # Chloroprocaine

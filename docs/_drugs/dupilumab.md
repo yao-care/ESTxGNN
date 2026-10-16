@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dupilumab: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Dermatitis atópica (los datos de autorización de la AEMPS no incluyen…"
 ---
 
 # Dupilumab

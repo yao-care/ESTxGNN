@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Levocetirizine: nueva indicación predicha, Artritis Reumatoide (nivel de evidencia L5). Indicación original: Rinitis alérgica…"
 ---
 
 # Levocetirizine

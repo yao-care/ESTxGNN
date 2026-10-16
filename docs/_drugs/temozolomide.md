@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 772
 evidence_level: L1
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Temozolomide: nueva indicación predicha, Tumor astrocítico del adulto (nivel de evidencia L1). Indicación original: Astrocitoma anaplásico…"
 ---
 
 # Temozolomide

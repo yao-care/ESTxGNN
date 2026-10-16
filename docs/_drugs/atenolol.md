@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Atenolol: nueva indicación predicha, Infarto de miocardio posterolateral (nivel de evidencia L5). Indicación original: Hipertensión arterial / infarto de miocardio (según el grafo de conoc…"
 ---
 
 # Atenolol

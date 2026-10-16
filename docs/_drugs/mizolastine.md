@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mizolastine: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L5). Indicación original: Rinitis alérgica y rinitis vasomotora (según las relaciones de indica…"
 ---
 
 # Mizolastine

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Insulin Glulisine: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L5). Indicación original: Diabetes mellitus"
 ---
 
 # Insulin Glulisine

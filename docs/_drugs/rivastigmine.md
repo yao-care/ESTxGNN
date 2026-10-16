@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: Enfermedad de Alzheimer (según el grafo de conocimiento"
 ---
 
 # Rivastigmine

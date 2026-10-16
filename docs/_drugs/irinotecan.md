@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 431
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Metástasis de tumor maligno de colon"
 ---
 
 # Irinotecan

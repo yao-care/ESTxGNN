@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Hipertensión (según el grafo de conocimiento"
 ---
 
 # Spironolactone

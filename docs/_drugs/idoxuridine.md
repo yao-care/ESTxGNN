@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Idoxuridine: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Queratitis por virus del herpes simple (según el grafo de conocimiento"
 ---
 
 # Idoxuridine

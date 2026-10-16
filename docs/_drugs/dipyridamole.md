@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 256
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dipyridamole: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L4). Indicación original: Fibrilación auricular (según la base de conocimiento del modelo"
 ---
 
 # Dipyridamole

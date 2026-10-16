@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión / trastorno hipertensivo (según el grafo de conocimiento"
 ---
 
 # Labetalol

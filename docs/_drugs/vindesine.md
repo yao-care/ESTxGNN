@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 851
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Vindesine: nueva indicación predicha, Ganglioneuroblastoma (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda (según el grafo de conocimiento"
 ---
 
 # Vindesine

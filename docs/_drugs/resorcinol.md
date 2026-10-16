@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 694
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Resorcinol: nueva indicación predicha, Acné queloideo (nivel de evidencia L5). Indicación original: Acné…"
 ---
 
 # Resorcinol

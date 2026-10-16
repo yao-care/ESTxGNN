@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Chlortetracycline: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Tracoma…"
 ---
 
 # Chlortetracycline

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 827
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Triflusal: nueva indicación predicha, Exceso de factor V con trombosis espontánea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 ---
 
 # Triflusal

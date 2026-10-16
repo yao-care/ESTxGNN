@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 169
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Chlorambucil: nueva indicación predicha, Leucemia linfocítica crónica/linfoma linfocítico pequeño de centro pr… (nivel de evidencia L4). Indicación original: Linfoma de Hodgkin, linfoma folicular, le…"
 ---
 
 # Chlorambucil

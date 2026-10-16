@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mitomycin: nueva indicación predicha, Carcinoma pseudopapilar sólido del páncreas (nivel de evidencia L5). Indicación original: Adenocarcinoma pancreático (según el grafo de conocimiento"
 ---
 
 # Mitomycin

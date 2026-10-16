@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 743
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sonidegib: nueva indicación predicha, Cáncer de piel (nivel de evidencia L2). Indicación original: Carcinoma cutáneo / carcinoma basocelular"
 ---
 
 # Sonidegib

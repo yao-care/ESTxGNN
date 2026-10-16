@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Norgestimate: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Acné (según el grafo de conocimiento"
 ---
 
 # Norgestimate

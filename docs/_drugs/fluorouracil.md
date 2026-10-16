@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (nivel de evidencia L5). Indicación original: Carcinoma basocelular superficial multifocal (según el grafo de …"
 ---
 
 # Fluorouracil

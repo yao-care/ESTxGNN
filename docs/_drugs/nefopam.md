@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Nefopam: nueva indicación predicha, Estenosis espinal lumbar (lumbar spinal stenosis) (nivel de evidencia L5). Indicación original: No disponible (el texto de indicación de la autorización está vacío)"
 ---
 
 # Nefopam

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Doxylamine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (las autorizaciones de AEMPS no incluyen texto de in…"
 ---
 
 # Doxylamine

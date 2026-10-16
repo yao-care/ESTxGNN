@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 173
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide posit… (nivel de evidencia L4). Indicación original: Artritis reumatoide…"
 ---
 
 # Chloroquine

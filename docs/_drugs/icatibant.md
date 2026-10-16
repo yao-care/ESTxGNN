@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 401
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Icatibant: nueva indicación predicha, Deficiencia de inhibidor de C1 (nivel de evidencia L1). Indicación original: Angioedema hereditario"
 ---
 
 # Icatibant

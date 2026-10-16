@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 513
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methoxsalen: nueva indicación predicha, Reticulosis pagetoide localizada (nivel de evidencia L4). Indicación original: Linfoma cutáneo primario de células T (según el grafo de conocimiento"
 ---
 
 # Methoxsalen

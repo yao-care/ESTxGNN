@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Avapritinib: nueva indicación predicha, Displasia espondilometafisaria axial (nivel de evidencia L5). Indicación original: Tumor del estroma gastrointestinal (según el grafo de conocimiento"
 ---
 
 # Avapritinib

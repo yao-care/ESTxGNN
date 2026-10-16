@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Haloperidol: nueva indicación predicha, Trastorno congénito de glicosilación con fucosilación defectuosa (nivel de evidencia L5). Indicación original: Trastorno psicótico (incluye esquizofrenia, tras…"
 ---
 
 # Haloperidol

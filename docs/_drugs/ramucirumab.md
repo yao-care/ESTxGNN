@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 681
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ramucirumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (nivel de evidencia L5). Indicación original: Adenocarcinoma gástrico (según el grafo de conocimiento"
 ---
 
 # Ramucirumab

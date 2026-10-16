@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 469
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Levothyroxine: nueva indicación predicha, Bocio endémico (nivel de evidencia L3). Indicación original: Hipotiroidismo (según la base de conocimiento del modelo"
 ---
 
 # Levothyroxine

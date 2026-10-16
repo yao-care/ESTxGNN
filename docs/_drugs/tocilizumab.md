@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 801
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L3). Indicación original: Artritis reumatoide, artritis idiopática juvenil, arteritis temporal…"
 ---
 
 # Tocilizumab

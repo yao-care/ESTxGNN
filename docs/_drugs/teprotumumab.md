@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Teprotumumab: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: Exoftalmos endocrino (según el grafo de conocimiento"
 ---
 
 # Teprotumumab

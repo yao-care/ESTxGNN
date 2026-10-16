@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: Síndrome de insensibilidad a la hormona del crecimiento y síndrome de…"
 ---
 
 # Mecasermin

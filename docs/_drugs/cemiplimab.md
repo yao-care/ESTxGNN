@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cemiplimab: nueva indicación predicha, Carcinoma adenoescamoso de vesícula biliar (nivel de evidencia L5). Indicación original: Carcinoma escamoso (según el grafo de conocimiento"
 ---
 
 # Cemiplimab

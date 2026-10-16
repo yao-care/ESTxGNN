@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 741
 evidence_level: L2
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Sofosbuvir: nueva indicación predicha, Infección por el virus de la hepatitis B (nivel de evidencia L2). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 ---
 
 # Sofosbuvir

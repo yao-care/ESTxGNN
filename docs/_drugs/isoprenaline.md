@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Isoprenaline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Resfriado común, nasofaringitis…"
 ---
 
 # Isoprenaline

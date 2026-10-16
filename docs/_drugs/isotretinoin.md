@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Isotretinoin: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Hipertensión / trastorno hipertensivo (según el grafo de conocimiento"
 ---
 
 # Isotretinoin

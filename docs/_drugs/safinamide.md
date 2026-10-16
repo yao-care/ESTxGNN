@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Safinamide: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (según el grafo de conocimiento"
 ---
 
 # Safinamide

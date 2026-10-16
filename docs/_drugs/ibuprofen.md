@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide (según las indicaciones originales del grafo de …"
 ---
 
 # Ibuprofen

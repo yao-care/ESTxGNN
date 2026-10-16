@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 56
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Anagrelide: nueva indicación predicha, Trombocitosis reactiva (nivel de evidencia L4). Indicación original: Trombocitemia / trombocitosis familiar (según el grafo de conocimiento"
 ---
 
 # Anagrelide

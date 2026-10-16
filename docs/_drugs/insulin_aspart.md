@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 417
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Insulin Aspart: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L1). Indicación original: Diabetes mellitus (según la base de conocimiento"
 ---
 
 # Insulin Aspart

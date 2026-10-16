@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 682
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ranibizumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L4). Indicación original: Retinopatía diabética, edema macular diabético…"
 ---
 
 # Ranibizumab

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: Depresión mayor y dependencia de nicotina (según las indi…"
 ---
 
 # Bupropion

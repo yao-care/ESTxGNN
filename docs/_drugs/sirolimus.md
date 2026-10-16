@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 740
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: Carcinoma de células renales (según las indicaciones originales del g…"
 ---
 
 # Sirolimus

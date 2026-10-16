@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cholecalciferol: nueva indicación predicha, Hipoparatiroidismo aislado familiar por secreción alterada de PTH (nivel de evidencia L5). Indicación original: Osteoporosis (según las indicaciones del gr…"
 ---
 
 # Cholecalciferol

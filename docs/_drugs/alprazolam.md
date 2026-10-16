@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 43
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Alprazolam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Trastorno de ansiedad (según el grafo de conocimiento"
 ---
 
 # Alprazolam

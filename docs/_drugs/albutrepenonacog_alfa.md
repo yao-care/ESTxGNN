@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Albutrepenonacog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (nivel de evidencia L5). Indicación original: Hemofilia (según el grafo de conocimiento"
 ---
 
 # Albutrepenonacog Alfa

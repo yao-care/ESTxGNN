@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Oritavancin: nueva indicación predicha, Enfermedad infecciosa por Bacteroidaceae (nivel de evidencia L5). Indicación original: Infección cutánea de origen bacteriano (según el grafo de conocimiento"
 ---
 
 # Oritavancin

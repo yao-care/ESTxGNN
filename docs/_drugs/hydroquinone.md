@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 397
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 ---
 
 # Hydroquinone

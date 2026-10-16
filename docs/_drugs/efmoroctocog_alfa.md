@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Efmoroctocog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: Hemofilia"
 ---
 
 # Efmoroctocog Alfa

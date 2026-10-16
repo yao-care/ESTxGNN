@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 232
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Delamanid: nueva indicación predicha, Tuberculosis bovina (nivel de evidencia L4). Indicación original: Tuberculosis multirresistente (según el grafo de conocimiento"
 ---
 
 # Delamanid

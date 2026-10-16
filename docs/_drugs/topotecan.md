@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 806
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Cáncer de ovario (según las indicaciones originales del grafo de cono…"
 ---
 
 # Topotecan

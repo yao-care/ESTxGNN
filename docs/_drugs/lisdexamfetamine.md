@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 475
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (nivel de evidencia L3). Indicación original: TDAH (trastorno por déficit de atención e hiperactividad) y trastorno…"
 ---
 
 # Lisdexamfetamine

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 656
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Pravastatin: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L4). Indicación original: Hiperlipidemia e hipertrigliceridemia…"
 ---
 
 # Pravastatin

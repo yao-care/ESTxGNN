@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 491
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lurasidone: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L3). Indicación original: Trastorno bipolar y esquizofrenia (según el grafo de conocimiento"
 ---
 
 # Lurasidone

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Nimodipine: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L5). Indicación original: Hemorragia subaracnoidea (según el grafo de conocimiento de TxGNN"
 ---
 
 # Nimodipine

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 672
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Rinitis alérgica"
 ---
 
 # Pseudoephedrine

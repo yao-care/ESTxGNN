@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 509
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 ---
 
 # Metamizole

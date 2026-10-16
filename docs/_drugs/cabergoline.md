@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Cabergoline: nueva indicación predicha, Cáncer de hipófisis (pituitary cancer) (nivel de evidencia L5). Indicación original: Hiperprolactinemia y tumor hipofisario productor de prolactina (según…"
 ---
 
 # Cabergoline

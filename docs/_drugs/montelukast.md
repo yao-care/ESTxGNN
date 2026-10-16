@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Rinitis alérgica, rinitis vasomotora…"
 ---
 
 # Montelukast

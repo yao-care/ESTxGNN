@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Ephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Rinitis alérgica (según las indicaciones del grafo de conocimiento"
 ---
 
 # Ephedrine

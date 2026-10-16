@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 318
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Etoposide: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L1). Indicación original: Carcinoma pulmonar de células pequeñas y tumores de células germinale…"
 ---
 
 # Etoposide

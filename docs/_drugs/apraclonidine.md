@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Apraclonidine: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto (según el grafo de conocimiento…"
 ---
 
 # Apraclonidine

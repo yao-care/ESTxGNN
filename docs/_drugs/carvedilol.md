@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Carvedilol: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Hipertensión (según el grafo de conocimiento"
 ---
 
 # Carvedilol

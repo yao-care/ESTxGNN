@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 234
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Desloratadine: nueva indicación predicha, Urticaria por frío (nivel de evidencia L1). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 ---
 
 # Desloratadine

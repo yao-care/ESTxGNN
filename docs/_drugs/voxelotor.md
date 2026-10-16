@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 859
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Voxelotor: nueva indicación predicha, Trombocitopenia hereditaria con plaquetas normales (nivel de evidencia L5). Indicación original: Anemia falciforme (según el grafo de conocimiento"
 ---
 
 # Voxelotor

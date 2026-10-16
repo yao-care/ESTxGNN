@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Cefditoren: nueva indicación predicha, Susceptibilidad a la osteoartritis (osteoarthritis susceptibility) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los text…"
 ---
 
 # Cefditoren

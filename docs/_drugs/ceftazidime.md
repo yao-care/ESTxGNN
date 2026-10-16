@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 157
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ceftazidime: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infecciones bacterianas (los datos compilados no incluyen el texto de…"
 ---
 
 # Ceftazidime

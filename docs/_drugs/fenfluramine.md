@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Fenfluramine: nueva indicación predicha, Síndrome de microdeleción proximal 16p11.2 (nivel de evidencia L5). Indicación original: Obesidad (trastorno de obesidad y obesidad monogénica…"
 ---
 
 # Fenfluramine

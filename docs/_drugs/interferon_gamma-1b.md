@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 425
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Interferon Gamma-1B: nueva indicación predicha, Enfermedad cardíaca (nivel de evidencia L4). Indicación original: No disponible en los datos de la autorización"
 ---
 
 # Interferon Gamma-1B

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tenecteplase: nueva indicación predicha, Infarto de miocardio posteroinferior (nivel de evidencia L5). Indicación original: Infarto de miocardio (según las indicaciones originales del grafo de…"
 ---
 
 # Tenecteplase

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Niraparib: nueva indicación predicha, Neoplasia quística (cystic neoplasm) (nivel de evidencia L5). Indicación original: Cáncer de peritoneo / neoplasia epitelial maligna de ovario (según el…"
 ---
 
 # Niraparib

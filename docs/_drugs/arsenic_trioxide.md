@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 65
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Arsenic Trioxide: nueva indicación predicha, Síndrome mielodisplásico (la primera predicción del listado… (nivel de evidencia L2). Indicación original: Leucemia promielocítica aguda"
 ---
 
 # Arsenic Trioxide

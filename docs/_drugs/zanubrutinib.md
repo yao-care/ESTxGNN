@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 864
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Linfoma de células del manto (según el grafo de conocimiento"
 ---
 
 # Zanubrutinib

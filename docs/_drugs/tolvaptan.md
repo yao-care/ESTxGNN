@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 804
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tolvaptan: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática po… (nivel de evidencia L1). Indicación original: Síndrome de ADH inapropiada (según el grafo …"
 ---
 
 # Tolvaptan

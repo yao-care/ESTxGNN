@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 728
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Selegiline: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (según el grafo de c…"
 ---
 
 # Selegiline

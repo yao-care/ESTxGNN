@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 181
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Cilazapril: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial (el texto de indicación d…"
 ---
 
 # Cilazapril

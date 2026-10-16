@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 214
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Cytarabine: nueva indicación predicha, Carcinoma pulmonar de células pequeñas (nivel de evidencia L4). Indicación original: Leucemia linfoblástica aguda y leucemia mieloide aguda (el texto de i…"
 ---
 
 # Cytarabine

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 505
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Mepyramine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común…"
 ---
 
 # Mepyramine

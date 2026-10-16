@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Galcanezumab: nueva indicación predicha, Deficiencia de cofactor II de la heparina (nivel de evidencia L5). Indicación original: Migraña (según el grafo de conocimiento"
 ---
 
 # Galcanezumab

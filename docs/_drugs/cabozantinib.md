@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 132
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: Carcinoma de células renales (según las indicaciones originales del g…"
 ---
 
 # Cabozantinib

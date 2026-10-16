@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Rosuvastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Hipertrigliceridemia (según las indicacione…"
 ---
 
 # Rosuvastatin

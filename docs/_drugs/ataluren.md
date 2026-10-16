@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Ataluren: nueva indicación predicha, Colestasis intrahepática recurrente benigna (nivel de evidencia L5). Indicación original: Distrofia muscular de Duchenne (según el grafo de conocimiento"
 ---
 
 # Ataluren

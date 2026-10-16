@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 180
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (nivel de evidencia L3). Indicación original: Neumonía bacteriana (según las indicaciones del grafo de conocimiento"
 ---
 
 # Cilastatin

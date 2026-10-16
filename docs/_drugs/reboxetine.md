@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 687
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Reboxetine: nueva indicación predicha, Agorafobia (nivel de evidencia L3). Indicación original: Depresion (unipolar, endogena y trastorno depresivo mayor…"
 ---
 
 # Reboxetine

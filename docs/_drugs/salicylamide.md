@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 723
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Salicylamide: nueva indicación predicha, Faringitis (nivel de evidencia L4). Indicación original: Cefalea (trastorno de cefalea, según el grafo de conocimiento"
 ---
 
 # Salicylamide

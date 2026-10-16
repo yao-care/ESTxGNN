@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 822
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tretinoin: nueva indicación predicha, Nodulosis reumatoide (nivel de evidencia L5). Indicación original: Acné, leucemia promielocítica aguda…"
 ---
 
 # Tretinoin

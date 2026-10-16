@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ribavirin: nueva indicación predicha, Infección crónica por virus de la hepatitis B (nivel de evidencia L5). Indicación original: Infección crónica por virus de la hepatitis C"
 ---
 
 # Ribavirin

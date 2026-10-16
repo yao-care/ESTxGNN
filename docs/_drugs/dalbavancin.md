@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dalbavancin: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Enfermedad de la piel causada por infección (el texto de indicación a…"
 ---
 
 # Dalbavancin

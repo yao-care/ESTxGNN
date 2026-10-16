@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis B (los textos de in…"
 ---
 
 # Entecavir

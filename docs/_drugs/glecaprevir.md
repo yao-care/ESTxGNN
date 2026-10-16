@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 378
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Glecaprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L1). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 ---
 
 # Glecaprevir

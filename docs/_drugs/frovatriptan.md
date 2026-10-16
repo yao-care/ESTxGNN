@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 364
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Frovatriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (según la base de conocimiento"
 ---
 
 # Frovatriptan

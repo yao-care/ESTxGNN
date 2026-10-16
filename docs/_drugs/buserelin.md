@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 127
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Buserelin: nueva indicación predicha, Hipertricosis (nivel de evidencia L4). Indicación original: Cáncer de próstata (según la información farmacológica compilada"
 ---
 
 # Buserelin

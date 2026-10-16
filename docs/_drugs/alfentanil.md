@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Alfentanil: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No especificada en la autorización (uso conocido: anestesia y ana…"
 ---
 
 # Alfentanil

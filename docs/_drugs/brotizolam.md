@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 121
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Brotizolam: nueva indicación predicha, Insomnio (nivel de evidencia L1). Indicación original: No disponible en los datos de AEMPS (el insomnio es su uso hipnótico…"
 ---
 
 # Brotizolam

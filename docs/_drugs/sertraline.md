@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 733
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Sertraline: nueva indicación predicha, Agorafobia (nivel de evidencia L5). Indicación original: Trastorno de ansiedad (según las indicaciones del grafo de conocimien…"
 ---
 
 # Sertraline

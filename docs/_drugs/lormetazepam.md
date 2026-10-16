@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 485
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lormetazepam: nueva indicación predicha, Insomnio (nivel de evidencia L1). Indicación original: No disponible en los textos de autorización compilados (el uso hipnót…"
 ---
 
 # Lormetazepam

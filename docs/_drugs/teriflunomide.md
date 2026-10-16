@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 781
 evidence_level: L1
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Teriflunomide: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (nivel de evidencia L1). Indicación original: Esclerosis múltiple"
 ---
 
 # Teriflunomide

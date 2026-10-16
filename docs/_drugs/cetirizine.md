@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Cetirizine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (según la lista de indicaciones originales del grafo…"
 ---
 
 # Cetirizine

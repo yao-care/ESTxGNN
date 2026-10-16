@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Catumaxomab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización de la AEMPS (según infor…"
 ---
 
 # Catumaxomab

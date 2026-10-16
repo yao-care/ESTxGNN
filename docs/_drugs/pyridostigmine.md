@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 673
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Pyridostigmine: nueva indicación predicha, Miastenia gravis con hiperplasia tímica (nivel de evidencia L3). Indicación original: Miastenia gravis (según las relaciones de indicación del grafo de con…"
 ---
 
 # Pyridostigmine

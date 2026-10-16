@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 281
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Elbasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (nivel de evidencia L4). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 ---
 
 # Elbasvir

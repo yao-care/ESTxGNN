@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Efavirenz: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
 ---
 
 # Efavirenz

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Eptifibatide: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Síndrome coronario agudo (según el grafo de conocimiento"
 ---
 
 # Eptifibatide

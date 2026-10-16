@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 200
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: Síndrome coronario agudo, embolia intracraneal…"
 ---
 
 # Clopidogrel

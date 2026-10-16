@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 800
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Meningitis bacteriana, conjuntivitis…"
 ---
 
 # Tobramycin

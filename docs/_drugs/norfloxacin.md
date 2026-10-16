@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infecciones del tracto urinario (según las indicaciones originales de…"
 ---
 
 # Norfloxacin

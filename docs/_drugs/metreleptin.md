@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 519
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Metreleptin: nueva indicación predicha, Lentiginosis generalizada familiar (nivel de evidencia L5). Indicación original: Lipodistrofia congénita generalizada / lipodistrofia (según las indic…"
 ---
 
 # Metreleptin

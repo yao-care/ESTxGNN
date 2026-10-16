@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 632
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Phenylbutazone: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L3). Indicación original: No disponible en las licencias registradas"
 ---
 
 # Phenylbutazone

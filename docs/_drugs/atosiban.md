@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Atosiban: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización de la AEMPS (según otras…"
 ---
 
 # Atosiban

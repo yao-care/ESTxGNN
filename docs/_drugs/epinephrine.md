@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 296
 evidence_level: L1
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Glaucoma de ángulo abierto (según el grafo de conocimiento"
 ---
 
 # Epinephrine

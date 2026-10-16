@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 742
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Solriamfetol: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L1). Indicación original: Narcolepsia (según las indicaciones originales del gra…"
 ---
 
 # Solriamfetol

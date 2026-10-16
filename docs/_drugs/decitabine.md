@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 228
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (nivel de evidencia L4). Indicación original: Leucemia mieloide aguda (según el grafo de conocimiento"
 ---
 
 # Decitabine

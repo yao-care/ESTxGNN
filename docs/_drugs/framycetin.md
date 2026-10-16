@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Framycetin: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 ---
 
 # Framycetin

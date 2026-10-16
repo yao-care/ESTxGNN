@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Liothyronine: nueva indicación predicha, Hipodisplasia/aplasia renal (nivel de evidencia L5). Indicación original: No disponible en la ficha de AEMPS (el texto de indicación está vacío…"
 ---
 
 # Liothyronine

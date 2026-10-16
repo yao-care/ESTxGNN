@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Everolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Carcinoma de células renales (según el grafo de conocimiento"
 ---
 
 # Everolimus

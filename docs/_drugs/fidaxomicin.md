@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Fidaxomicin: nueva indicación predicha, Síndrome de la piel escaldada estafilocócica (nivel de evidencia L5). Indicación original: Colitis por Clostridium difficile"
 ---
 
 # Fidaxomicin

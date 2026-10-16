@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 516
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methylprednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Enfermedad autoinmune (según el grafo de conocimiento"
 ---
 
 # Methylprednisolone

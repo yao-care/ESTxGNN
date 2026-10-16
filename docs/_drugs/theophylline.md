@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 789
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Theophylline: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Asma (según las indicaciones originales del grafo de conocimiento"
 ---
 
 # Theophylline

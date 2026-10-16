@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 532
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L3). Indicación original: Hipertensión arterial / alopecia (según el grafo de conocimiento"
 ---
 
 # Minoxidil

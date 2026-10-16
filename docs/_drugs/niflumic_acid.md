@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Niflumic Acid: nueva indicación predicha, Enfermedad de Raynaud (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (referencia externa: artrit…"
 ---
 
 # Niflumic Acid

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 701
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Rilpivirine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (nivel de evidencia L4). Indicación original: VIH / SIDA (según el grafo de conocimiento"
 ---
 
 # Rilpivirine

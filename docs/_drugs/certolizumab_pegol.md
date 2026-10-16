@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 165
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Certolizumab Pegol: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: Enfermedad de Crohn (según el grafo de conocimiento"
 ---
 
 # Certolizumab Pegol

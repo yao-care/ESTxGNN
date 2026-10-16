@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 143
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Carbamazepine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L4). Indicación original: Epilepsia (según los datos compilados"
 ---
 
 # Carbamazepine

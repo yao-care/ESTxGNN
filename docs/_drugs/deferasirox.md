@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 229
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: Betatalasemia y hemoglobinopatías (según las indicaciones del grafo d…"
 ---
 
 # Deferasirox

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cefoxitin: nueva indicación predicha, Infección del tracto urinario (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 ---
 
 # Cefoxitin

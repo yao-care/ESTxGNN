@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Dalteparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (nivel de evidencia L5). Indicación original: Embolia pulmonar, coagulación intravascular disemin…"
 ---
 
 # Dalteparin

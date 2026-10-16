@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ascorbic Acid: nueva indicación predicha, Malformación esofágica no sindrómica (nivel de evidencia L5). Indicación original: Deficiencia de ácido ascórbico y escorbuto (según el grafo de conocim…"
 ---
 
 # Ascorbic Acid

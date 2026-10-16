@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Brinzolamide: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de c…"
 ---
 
 # Brinzolamide

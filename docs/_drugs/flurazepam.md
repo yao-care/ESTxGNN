@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 349
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Flurazepam: nueva indicación predicha, Trastorno del sueño: dificultad para iniciar y mantener el sueño (nivel de evidencia L4). Indicación original: Insomnio (según el grafo de conocimiento"
 ---
 
 # Flurazepam

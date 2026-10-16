@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 646
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Pitolisant: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Narcolepsia (según las indicaciones de referencia del grafo de conoci…"
 ---
 
 # Pitolisant

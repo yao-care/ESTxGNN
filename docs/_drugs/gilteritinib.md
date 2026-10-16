@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Gilteritinib: nueva indicación predicha, Poliomielitis bulbar (nivel de evidencia L5). Indicación original: Leucemia mieloide aguda (según el grafo de conocimiento"
 ---
 
 # Gilteritinib

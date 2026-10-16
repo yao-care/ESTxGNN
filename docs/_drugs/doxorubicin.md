@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 264
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Doxorubicin: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda y linfomas (Hodgkin y no Hodgkin)…"
 ---
 
 # Doxorubicin

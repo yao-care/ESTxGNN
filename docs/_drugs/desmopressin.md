@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Enfermedad de von Willebrand (hereditaria o adquirida)…"
 ---
 
 # Desmopressin

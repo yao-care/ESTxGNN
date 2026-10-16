@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Leflunomide: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Artritis reumatoide y artritis psoriásica (según el grafo de conocimi…"
 ---
 
 # Leflunomide

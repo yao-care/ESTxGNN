@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Rabeprazole: nueva indicación predicha, Mastocitosis sistémica latente (smouldering) (nivel de evidencia L5). Indicación original: Enfermedad ulcerosa péptica y reflujo gastroesofágico (según las ind…"
 ---
 
 # Rabeprazole

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 841
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Velpatasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (nivel de evidencia L3). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 ---
 
 # Velpatasvir

@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 714
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Rotigotine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L4). Indicación original: Síndrome de piernas inquietas y enfermedad de Parkinson …"
 ---
 
 # Rotigotine

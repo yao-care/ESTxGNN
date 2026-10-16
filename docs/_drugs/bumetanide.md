@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 123
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Bumetanide: nueva indicación predicha, Enfermedad cardiaca pulmonar aguda (nivel de evidencia L4). Indicación original: Insuficiencia cardiaca congestiva (según el grafo de conocimiento"
 ---
 
 # Bumetanide

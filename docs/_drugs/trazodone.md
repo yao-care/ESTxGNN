@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 819
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L3). Indicación original: Depresión unipolar, depresión endógena…"
 ---
 
 # Trazodone

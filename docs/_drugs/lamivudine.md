@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 446
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lamivudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L3). Indicación original: Infección crónica por el virus de la hepatitis B…"
 ---
 
 # Lamivudine

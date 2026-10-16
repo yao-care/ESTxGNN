@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 265
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Doxycycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (nivel de evidencia L4). Indicación original: Bronquitis, acné, neumonía bacteriana, ántrax…"
 ---
 
 # Doxycycline

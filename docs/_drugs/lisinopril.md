@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lisinopril: nueva indicación predicha, Infarto de miocardio posterolateral (nivel de evidencia L4). Indicación original: Hipertensión arterial (según el grafo de conocimiento"
 ---
 
 # Lisinopril

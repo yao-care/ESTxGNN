@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Metformin: nueva indicación predicha, Síndrome de la persona rígida clásico (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según el grafo de conocimiento"
 ---
 
 # Metformin

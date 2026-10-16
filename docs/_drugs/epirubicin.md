@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 297
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Epirubicin: nueva indicación predicha, Linfoma pulmonar primario (nivel de evidencia L4). Indicación original: Carcinoma de mama (según las relaciones fármaco-enfermedad del grafo…"
 ---
 
 # Epirubicin

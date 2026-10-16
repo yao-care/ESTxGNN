@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 114
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Brivaracetam: nueva indicación predicha, Estado epiléptico (nivel de evidencia L3). Indicación original: Epilepsia parcial / epilepsia motora parcial (según el grafo de conoc…"
 ---
 
 # Brivaracetam

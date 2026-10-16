@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Hexetidine: nueva indicación predicha, Aneurisma del tabique interventricular (nivel de evidencia L5). Indicación original: No disponible en la autorización de la AEMPS (el texto de indicación…"
 ---
 
 # Hexetidine

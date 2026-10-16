@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 74
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Atezolizumab: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (nivel de evidencia L3). Indicación original: Carcinoma de células transicionales (según el grafo de conocimiento"
 ---
 
 # Atezolizumab

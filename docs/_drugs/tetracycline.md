@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 786
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Tetracycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L4). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
 ---
 
 # Tetracycline

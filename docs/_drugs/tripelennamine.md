@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 829
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Tripelennamine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Las autorizaciones españolas no incluyen texto de indicación"
 ---
 
 # Tripelennamine

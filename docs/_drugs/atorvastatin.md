@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 76
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Atorvastatin: nueva indicación predicha, Hipercolesterolemia familiar (nivel de evidencia L1). Indicación original: Hipertrigliceridemia (primera indicación del grafo de conocimiento"
 ---
 
 # Atorvastatin

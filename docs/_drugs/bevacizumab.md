@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bevacizumab: nueva indicación predicha, Neoplasia de epiglotis (nivel de evidencia L5). Indicación original: Cáncer de peritoneo (según el grafo de conocimiento"
 ---
 
 # Bevacizumab

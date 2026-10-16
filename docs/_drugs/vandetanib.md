@@ -5,6 +5,8 @@ parent: Evidencia alta (L1-L2)
 nav_order: 840
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vandetanib: nueva indicación predicha, Carcinoma de células renales (nivel de evidencia L2). Indicación original: Carcinoma de tiroides (según el grafo de conocimiento"
 ---
 
 # Vandetanib

@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Belimumab: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Lupus eritematoso sistémico (el texto de indicación aprobado no está…"
 ---
 
 # Belimumab

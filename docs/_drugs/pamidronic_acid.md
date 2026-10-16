@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Pamidronic Acid: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Hipercalcemia humoral de origen maligno…"
 ---
 
 # Pamidronic Acid

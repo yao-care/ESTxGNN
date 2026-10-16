@@ -5,6 +5,8 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 360
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Fosinopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L4). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
 ---
 
 # Fosinopril

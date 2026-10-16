@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Paromomycin: nueva indicación predicha, Cirrosis asociada a cobre idiopática (nivel de evidencia L5). Indicación original: Coma hepático / encefalopatía hepática (según el grafo de conocimiento"
 ---
 
 # Paromomycin

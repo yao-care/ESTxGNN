@@ -5,6 +5,8 @@ parent: Solo predicción del modelo (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Sacubitril: nueva indicación predicha, Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías ocular… (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización …"
 ---
 
 # Sacubitril
