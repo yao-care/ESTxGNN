@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T00:50:51.798513+00:00",
+  "fetched_at": "2026-10-16T05:11:59.380220+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "e46bbb01f807",
-      "title": "¿Podrían los fármacos GLP-1 ser medicamentos antienvejecimiento? - CNN en Español",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWjdJaThfUk5mQzNiNWc2ZGpaSk9ySlJlVVhjck9veVZLT09Xak1kdF9QZGwxY1UtX1BBTjRyNl8zRDdwUTZVTFNVS19WdGJqWmRVYktJajlhS1ZEVTlIN1otSFBVOEhxZ0lEdjBkaTBRNExuLWlsRXdRb2poMzcxS0RQcjhvVXdHVmc4cDlkcEVRYUhxRnFWT3J1cVVJUQ?oc=5",
-      "published": "2026-10-13T12:48:00+00:00",
-      "source": {
-        "name": "CNN en Español",
-        "url": "https://cnnespanol.cnn.com"
-      }
-    },
-    {
       "id": "6018b3967116",
       "title": "Alerta por falta de stock de Azactam y Emblaveo: Sanidad restringirá su uso a casos graves y sin alternativa - El Diario Vasco",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM0pzQ2tCWlVqZTJfY21wNGl2alFvUHByMGpOZEhxV1FYNmJjNHJ0YnpnZlpmMVdySnNleTgzVmg3MzJROEZ4RDR2Q0lIb1VoM0ZrZ09majJ5aE8wMHp6N1FfLUZsZ1UzUEVaby11ZXpoNUVxMlFGYnJSYXVKOUEyTzVON2dQdTB6OGhMcGlGdXRGYTY1Y3FITWxCN3RIYTBacmYzNFZZUF9wZVhJU1JzR1lBSnl0SUdmWGk4ckRjRW9EWHJPRVBoWTZBSmtSWVM4aklZa0lJTdIB3AFBVV95cUxNclVaam51R1UzX2M0eXB3YTRGVDdzOGNya2dfM3hkRnhvLTRuUXhVRTdLWThSSTdZZnZwSmxLbjh3OEtZb0JKTFZEZ01jcWVnb25ObkNxaE80N1pEUDNBUzVjZ0NCTlJISTJrUmF0WUZiQ3N2U1FFblZ5Z1RQZjYzSnRCdy14SlVlZU1zOXVaZlRjaEpqeG1NTlFMeEgtQzg5c1lGQWhHRzFNOHRSU2tIS3c4QVB5MjdKdHhJNlNaOGhwM19nV29GUjBqWGZrbm5lZGlYOU9qdVY5bEVi?oc=5",
@@ -61,6 +51,16 @@
       "source": {
         "name": "Europa Press",
         "url": "https://www.europapress.es"
+      }
+    },
+    {
+      "id": "e46bbb01f807",
+      "title": "¿Podrían los fármacos GLP-1 ser medicamentos antienvejecimiento? - CNN en Español",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWjdJaThfUk5mQzNiNWc2ZGpaSk9ySlJlVVhjck9veVZLT09Xak1kdF9QZGwxY1UtX1BBTjRyNl8zRDdwUTZVTFNVS19WdGJqWmRVYktJajlhS1ZEVTlIN1otSFBVOEhxZ0lEdjBkaTBRNExuLWlsRXdRb2poMzcxS0RQcjhvVXdHVmc4cDlkcEVRYUhxRnFWT3J1cVVJUQ?oc=5",
+      "published": "2026-10-13T12:48:00+00:00",
+      "source": {
+        "name": "CNN en Español",
+        "url": "https://cnnespanol.cnn.com"
       }
     },
     {
@@ -124,6 +124,26 @@
       }
     },
     {
+      "id": "4d66923dcd9b",
+      "title": "Hay españoles que llevan años tomando las mismas pastillas: el problema es que quizá ya no las necesitan - El Confidencial",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZUVqaG5jdHVaTVN0RW8wRUdHcFp4M3o2SXViM3drSzNZZlU5NEswVFJicTY2a0tJa2Fya0Q5alV6VkVKRkRxNEFDb2VwNnlvMjI4d0FGOWllTjhSblNBeXNzN2d4NWMwYl9HMnNLUXA0cDFERmZmbTAwcWpHdzVuMGpMMjB6dXZDYUtWT1FhZXhrU0JFNnFRTG1DSQ?oc=5",
+      "published": "2026-10-16T03:00:00+00:00",
+      "source": {
+        "name": "El Confidencial",
+        "url": "https://www.elconfidencial.com"
+      }
+    },
+    {
+      "id": "74960fb19327",
+      "title": "Cruzar la frontera con Portugal para comprar tratamientos frente a la menopausia: «Me he llevado una alegría al encontrarlo» - La Voz de Galicia",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxObFFMeTNtSndJLWRYWlJnMmNWdDFlZnd3aEVTcHByQzdnSk5LekhlLWVBanFDVTZaSVo0dUp5cnUwREZUSlJEc1BralhKeHZKM3JlemVPMk81Q3dsUEdFa3B2aVJ5emd3NjBwTXdlNXdxM3h2c05KVmdKZ2cyYU9lOXlfWHN4TU1VMUxqMkctTXFKejlYYV9xQWJ6eG8xcE90Z05RQlZINHFtVlB1VXlQODVBdENzT0ptRXFNM2xTTUh1cFdkc1RFVkFrQnY4N2lfNWhrN2xDRWhWSzgxSFZQZ1k3TFhKbTJ1S2ktd01USEVTSmF0b0o4M1RyODhZTzhOaUtz0gGIAkFVX3lxTFBfRWhuRHdNTnc3QXRuaTc2SWFMajBweDVaT1Ffa2dmc0R5NTNXb00xVjR1R21SSE1ZUnRyTFN1Z29tT2w5SW94ZlkyNnNvb0hRR2gtUm1jUENVN1FIakhDSUZDU2NkdEFzQW4yQTNqWkZTQVBhZS1YemZUdUR5ajdxWGg0ZHJna1hlc3BKcm1DWk9tWVYyek1YWi1GQndyYmxvWkdyc2NEUjdKUG1UeU5PeG1MWi1tOVVlZlRRVFZCYzU4WmxLa2hlOHpYdm50bXhRczNVc0w1UGlfRllud2F6Y1R4bFB2LVlsSEJWOTZEYnNXdkhFSG9UWWNEM1ZWQTZiZ0FjbVYwMw?oc=5",
+      "published": "2026-10-16T03:00:38+00:00",
+      "source": {
+        "name": "La Voz de Galicia",
+        "url": "https://www.lavozdegalicia.es"
+      }
+    },
+    {
       "id": "91b9aba2c1e9",
       "title": "Raquel Martínez ingresará como Académica Correspondiente de la Academia de Farmacia de Castilla y León - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONm1adk5lZjU5aTh2dnoxRkQ3bjdhM1lwZ0FYYkJMdjFWY0ZMZWRQQ3RNWXJKaFRUcTM4WUtKdjlWT2J5T0duZ2thQ1o1QU5lUzJucUdQWVowcmhjWUtqNWswa1JtajVOZHVBQ2Y5ZDRZay1mMEIzZmNrdWlNUGZLelNISHR1aXQ1QWYxeS1B?oc=5",
@@ -174,16 +194,6 @@
       }
     },
     {
-      "id": "d8c0e150ab68",
-      "title": "La EMA recomienda autorizar daraxonrasib (Revolution Medicine) para cáncer de páncreas metastásico - heraldo.es",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMk05NXpPc0FnZUIwZjdkaTl0UThnQ0dPZHBPamRLMktTc0p1RlFocXFZVGVqNFozQUtjVFBlbjJCS3BvbV93YmJ1NXNqSTFrSDJPc2xETl9qNXU4T2xYTHdrY01nYldmLXZhdV9kWG9PZ2s2aDJVSDJRcDZqT3FnZVZqUXRXMUV4d3RNMklqWV92R2I1N2h3ZjZOMl9sYm81UzgxM2R3cktYSmtqTE5hM2ZOUUVJSE1hWXRxbl93XzVuNU9iSWR2ZjhHUGtINmJGR0llYmR1WE52YVdLR3hfQTlNSzA3NDFNRDlaM9IB8gFBVV95cUxQcFJuZ2ROeGtsbTRyLW0tc1E3M2RRaG9OVVpYSTBVNjcwNW11a0ZkNGdRMDFnZ1F0VkJVZkx4dzlTcV8yWjFjQkRieUFvRDhQdGtRTjR4YmFoeWwzc0l3NVRQTnpaN29pWHJ6YW90SkJzUHNwaGI3b1BXT1V5RGJ4bkg5dDNrQVdORS1YUG1ZRU8zVmRvY0g4c0NaMER2OEw1ei1nWTNiRGZEZ2tEejRNVU5qZFVuWmdqWFlQeFJINnlfT1pkVVRLWFdZVk5laTVlWU4tc1pwOXlfaWtLZUN5Z1NtYmhVYnlSOV9zUHV2ZGZKdw?oc=5",
-      "published": "2026-10-15T17:28:14+00:00",
-      "source": {
-        "name": "heraldo.es",
-        "url": "https://www.heraldo.es"
-      }
-    },
-    {
       "id": "cb9eb5d90b34",
       "title": "López-Belmonte vuelve a presidir Farmaindustria y pide elevar un punto de PIB la inversión sanitaria - El Economista",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTGp2YlEwR1h0TnNlUGpXSWNIalkxYlZ2Ynd6blVsRXZ0bGlnOG1fT3JIT1MxcGZvT1oxMXRjZUJtV19uelNpUmpYNUNWdm5zSEJvTEw5V2FoN3lWYVZzUGl1Vnd0ZnFhXzNRY1dmOVBwUWNFWEFfRnVIU1pyVkZBSTZIWGJTb1BPWlVsdmJqMm0yMXZ2S3VHQzdXTEtuRjNZUUpCMjRVWjg2blVSTW5FRE9QdFNKbTVjY3NGSEhHRGlidlliZUJCanJESG1YdEp3cnVXTTBOWlcxR2ozcDB1cjdhOWJrUkJEWG9fRHpMWnVKdWNDZmxNdldBNGVzVGtMaXfSAewBQVVfeXFMTXBHemlYbWgyVjBEV0REcElpWFdzWXc1VVJuQ1cyM3E1RHhkR1BuWEc0c0R2Nkp2UjhrZlRLUUhQQmEyQU5XeWp1WXljWVpzYXlPVHc2OXl5VXRNb3AtZnNHRHQ0M0pwdVFwTzhMd05ndG1mU3J5Rnd2TjdwM1puWjlsVmRVWU03MXhUQjk0QlZ5ckE5Rm5xQlNWNS16MXFfRjVTTW1HWTNpYlZaXzVKVHQ5YXJDRHlOMjF3WHZiSUFKaDNYYVRNc1FVTjM1QnNtT04ycUNpYXpwOXc1R0x0dGtDUV9SOHF4UWdmWm0?oc=5",
@@ -191,26 +201,6 @@
       "source": {
         "name": "El Economista",
         "url": "https://www.eleconomista.es"
-      }
-    },
-    {
-      "id": "a1718aa1d7a6",
-      "title": "Medicamentos para la pérdida de peso relacionados con menos hospitalizaciones por esquizofrenia - Quartz",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXlOUkJGZTNQT1UxRVNJeFg0a0J5ZUxINlNNQXZDNHdtZUdFNU1hbWQxMlduTnFzQ3JFUUE1THdaTWY4NDVEV2F6aE5ZZDVWY29ZSnJ1Sm9qTWRQX3ZMMGh6elNpUkN6NXVFVXV0ZXlrYnhpWWFvWGdqaEFEM1NzaGdIWXJRSEpueHZIdXl2YkxJbzFLRGw2Z2dKQU1QTGxSS0E?oc=5",
-      "published": "2026-10-15T12:55:10+00:00",
-      "source": {
-        "name": "Quartz",
-        "url": "https://es.qz.com"
-      }
-    },
-    {
-      "id": "44bffdabe89c",
-      "title": "El Sescam destina casi 10 millones de euros a medicamentos exclusivos de Roche Farma para pacientes en Albacete - El Digital de Albacete",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOb1B6cXU3WHZkY2JpVWtUX01nQVJCMnJpRXJfZm5La2xRS0tscHp6TWZRNXBPRUl6SXNNaVhnNHB5VzNRMDdOakNXaTY1ZnIwa0RWcUs4SExXN0lzUkt0bElucHVFbTYzNmMzVnNYdjJtMDVuWTUyVTg3OXJWZE9uc0p2NjVCbGlrZUlUMFMxTkg4WjJodWUxdEtuZXZtUjQ1V3BxMU9oc1EwQUUtWmgyZHdfVU01M2p4M0lFTUZKblFZajRCMWVIYzJIMDhLdlo5TEdiNkpCcG00cHVaVXFEX2JCZzR3ZklfaF80SzVab1g?oc=5",
-      "published": "2026-10-15T18:04:31+00:00",
-      "source": {
-        "name": "El Digital de Albacete",
-        "url": "https://www.eldigitaldealbacete.com"
       }
     },
     {
@@ -234,16 +224,6 @@
       }
     },
     {
-      "id": "b2e5e4c3c24c",
-      "title": "La historia de los mineros que fortuitamente revelaron el potencial de la Viagra - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOa2c5NHpid1hLRGVHNnFCdkp1d05SbVVZM0ZUem9JSlJqQ3Vicm1ScWlKX2RpeElIcjNyYlo5MmFMLWVRUzhhQkpjU2loLTdSRmpDeUVYVXJWeVNmVHNqX2RWdUNPUE1YY3NCYzJBUkFFUDlUWGIxUU9OeEVfalhNOW4yQ1MxWHhQbzhlbmgyS2MyQ3lERlJheFpWc3ZuY2szYW9yTHdMZTdwYTd4OGxseDlwLTluSnNJa0kzejBONjhlZlZvVkpxY3ZnS0toUnBOM2U4Nm50MVJ6ZXluZjZ6QWNHRGhlVmhB0gHTAUFVX3lxTE5CUDA3NnM3SmJPZkljeU0zaUlzNktBWkdRU21CWXFxVU1yRHY1UjN5QzByZ0lmdC1KRXY2eDJwcnlpX3huTUZYYzFabTdYc1FZQVZqOVFzN0FEb19sZE1LakZNelpnLXl0ZDBjbEJrbWpVdXc4Q3N0bHRSYkJBa2xqaDRodjBvd2NVSl9ETEtRTzRXOWhzU2J5UXVocWdJUmZfUjNFU0NtUFVmSTFCZmdnY25peTJtaWk1SHBlRFNETkJvVVhjbjdxQXd4ZS1rTlpZYXc?oc=5",
-      "published": "2026-10-15T11:17:43+00:00",
-      "source": {
-        "name": "El Economista",
-        "url": "https://www.eleconomista.es"
-      }
-    },
-    {
       "id": "c1c0f8cf5b75",
       "title": "Las tres medidas de López-Belmonte para impulsar el liderazgo de España en salud, innovación y autonomía estratégica - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYjdzOXNOc05hVktoSTRmdTJvWXhqUzJQLXhIVGNBM21sNmlrQ0FINGFtR3RGbzR0LUJzNDFObVNncjhJc3dPZUtVNzdQZjNldDRGUno0SXlLOENxT1BkYW9XQmFzakNYT2Z4NEQ0RkItNl9GQTlSN1NidTllWnowV1puWEh1U1hOOElXSW9JOXNQaHNTbzhPbUxyQURGbFd0a2VscXhxNExoVXd2M3Q4VmgtM2tVaVZ5UlA0SEhaOHBLNG1tY3NVSmd3?oc=5",
@@ -264,13 +244,13 @@
       }
     },
     {
-      "id": "3398babb09da",
-      "title": "La Ley del Medicamento se atasca con el adelanto electoral: este es el plan B de Sanidad - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYWFYZ0NtWlhaajJzeXNTM19jLTNzaG54NW9lQjFSZWlIVGZtOGNtMUVGNU9Vd1lSbm1xb2hEN3Bkb2RWMU1aYUNTamU2R3VrNzVXUlhsZ3dzVThfTlNNcW5BeUJMTlR2NTdaZmVoRzRhandadEFuZkJOaXhiWWxadnZra1pGemRXX3g5ZVU1d1JuanZKdE9iNnphVmJlS1JSalBsZ1hpeGRwVk9IaTBrTUdrN0t3czJMeXI2aGZHTGFBTXBNQzh0QUR2T20zYTE1WF8tWFZ2QnpTWGdMMjBxWl9iQXFrc09rc2ZvbEU5RF9iQdIB3AFBVV95cUxQbEJ6TVNoNlJnMGlnZG1xYVB2b2sxdlZFUnZnN0tkd2VYQ1RpaDJJVkpUVnBzVFByM0NmZkx1bF8wQTJ6VEx3eEVhRjhhRjRjcDRnbnV4OS11NDBmM2Y4ak9aa2dVakFyM3BuWVdRQ1BObTJoZkJVWHk2dVY1NEludEtkVXUwM0FSMHpVem42cjQtTFJJNlY5dEd5RGVyaFBvWUpIZk9wNjV6MjliNkQ1VkY4YTRRaHBnUHZXZ1JYY3Z3cjhvZkFCTEZscWJwVVROdFd5cWt4UFpzb2Vu?oc=5",
-      "published": "2026-10-14T11:54:12+00:00",
+      "id": "2cf713883a8b",
+      "title": "La MHRA fija en su Estrategia 2030 un marco regulatorio ágil para la IA y la medicina - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZEtnTHBYbk85UXd5YlNuWXJyRTdGeHJKa1I0U1IzS0NZcm03a2p5WkE3dDlXNl80Q2UzWmJEOTBWSHlfVFR1NHlJUUc0S1NEd0o5MkxqZno3V2Z0VTNnVmhtWGY1UUxWWjBZM2x1X0VTU2VGUmZpSWsyOGRHd1ZxeEN4ZF9HYWlIeVhKTVdWTDl1dkxZU2VQS1dKNjZSN0tYSi1yeENUUlJXQXhGbWQtcDRjQ0V6X3ZSSHZDcw?oc=5",
+      "published": "2026-10-14T15:53:03+00:00",
       "source": {
-        "name": "El Economista",
-        "url": "https://www.eleconomista.es"
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
       }
     },
     {
@@ -284,33 +264,33 @@
       }
     },
     {
-      "id": "23d5f847d1a4",
-      "title": "Bruselas recomienda autorizar la terapia de Revolution Medicines para el cáncer de páncreas metastásico - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNMEF5d0tSSkRGOElORDRBRk5rVW1tenpaamNuRGdfdkpiMkM4ZGhsN081N3BZUmgyX0RCdWNBRGpFYkNseWpGb2pIYlpyQmc5eXpkNWVTQUVTdXJrd0t6dHcwQWZPa1ZmWFZzMkUzV3UyMmQ2R1NOSHhCaS1JZ1MzY0c3ZWRxbnVkSFM1MkpVQVBaVUlmZFRhM1FMLTdQazlhUFU5YmtpY2pxMGFURE9tOXl0ejFKWTR3SmFQdlcyN3FteldJZGhRLU4wcTAyUmpLMXR2aEg0WnFnZmRsOUE0U1ZqYkRQRi1nNjRsRlRFQWhULVNSdktmSkU5dXE0akFvZ3BLeEpQTdIB8gFBVV95cUxQT1pkNGc1Z1hlLVdHd0o1QjhmZ0tTc1NOeXp2NjZHeksxU0s4OVpxUTBoZXpvV2M4bnJMcThZdEtBeXVhbTI2elVMczZRR09NNEFUOXZfVVVwTFFrY0FxRUNIU0JJam5hVno5MGduOG5XNGFXMTNtQXJBdU1QLXl3YXZ2NWxYekh5dkVYQ3BZdmpYUDY3RGY3MnhqVW82SVhWTTc0OUpzUGlhaFdIRjJyUWRCUUFMUjZod05JOXVad2pYeFYtbjhSZVFyYXViUWVRSnZJWmp0d0VUX3FoemxycmNibzJiU0NCM3VXT3RieTJYZw?oc=5",
-      "published": "2026-10-15T14:53:21+00:00",
+      "id": "a1718aa1d7a6",
+      "title": "Medicamentos para la pérdida de peso relacionados con menos hospitalizaciones por esquizofrenia - Quartz",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXlOUkJGZTNQT1UxRVNJeFg0a0J5ZUxINlNNQXZDNHdtZUdFNU1hbWQxMlduTnFzQ3JFUUE1THdaTWY4NDVEV2F6aE5ZZDVWY29ZSnJ1Sm9qTWRQX3ZMMGh6elNpUkN6NXVFVXV0ZXlrYnhpWWFvWGdqaEFEM1NzaGdIWXJRSEpueHZIdXl2YkxJbzFLRGw2Z2dKQU1QTGxSS0E?oc=5",
+      "published": "2026-10-15T12:55:10+00:00",
+      "source": {
+        "name": "Quartz",
+        "url": "https://es.qz.com"
+      }
+    },
+    {
+      "id": "44bffdabe89c",
+      "title": "El Sescam destina casi 10 millones de euros a medicamentos exclusivos de Roche Farma para pacientes en Albacete - El Digital de Albacete",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOb1B6cXU3WHZkY2JpVWtUX01nQVJCMnJpRXJfZm5La2xRS0tscHp6TWZRNXBPRUl6SXNNaVhnNHB5VzNRMDdOakNXaTY1ZnIwa0RWcUs4SExXN0lzUkt0bElucHVFbTYzNmMzVnNYdjJtMDVuWTUyVTg3OXJWZE9uc0p2NjVCbGlrZUlUMFMxTkg4WjJodWUxdEtuZXZtUjQ1V3BxMU9oc1EwQUUtWmgyZHdfVU01M2p4M0lFTUZKblFZajRCMWVIYzJIMDhLdlo5TEdiNkpCcG00cHVaVXFEX2JCZzR3ZklfaF80SzVab1g?oc=5",
+      "published": "2026-10-15T18:04:31+00:00",
+      "source": {
+        "name": "El Digital de Albacete",
+        "url": "https://www.eldigitaldealbacete.com"
+      }
+    },
+    {
+      "id": "b2e5e4c3c24c",
+      "title": "La historia de los mineros que fortuitamente revelaron el potencial de la Viagra - El Economista",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOa2c5NHpid1hLRGVHNnFCdkp1d05SbVVZM0ZUem9JSlJqQ3Vicm1ScWlKX2RpeElIcjNyYlo5MmFMLWVRUzhhQkpjU2loLTdSRmpDeUVYVXJWeVNmVHNqX2RWdUNPUE1YY3NCYzJBUkFFUDlUWGIxUU9OeEVfalhNOW4yQ1MxWHhQbzhlbmgyS2MyQ3lERlJheFpWc3ZuY2szYW9yTHdMZTdwYTd4OGxseDlwLTluSnNJa0kzejBONjhlZlZvVkpxY3ZnS0toUnBOM2U4Nm50MVJ6ZXluZjZ6QWNHRGhlVmhB0gHTAUFVX3lxTE5CUDA3NnM3SmJPZkljeU0zaUlzNktBWkdRU21CWXFxVU1yRHY1UjN5QzByZ0lmdC1KRXY2eDJwcnlpX3huTUZYYzFabTdYc1FZQVZqOVFzN0FEb19sZE1LakZNelpnLXl0ZDBjbEJrbWpVdXc4Q3N0bHRSYkJBa2xqaDRodjBvd2NVSl9ETEtRTzRXOWhzU2J5UXVocWdJUmZfUjNFU0NtUFVmSTFCZmdnY25peTJtaWk1SHBlRFNETkJvVVhjbjdxQXd4ZS1rTlpZYXc?oc=5",
+      "published": "2026-10-15T11:17:43+00:00",
       "source": {
         "name": "El Economista",
         "url": "https://www.eleconomista.es"
-      }
-    },
-    {
-      "id": "f2fe03aa9dce",
-      "title": "2,8 millones para adquirir medicamentos exclusivos destinados a pacientes con enfermedades hepáticas - Europa Press",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNenFURjhzd2hXLWl1Rmp4aTRBaXE0WVhpaGlibjduUDZEZlR6cVJXbF9TaEtXWnR1TGJVN25VV0NROUFvTkpseFZHU0dSTVQxV241Y0Uzd2ZpNEJTUDFjOGpEYWlyLVEtV3lHa1dhMTJXTDlSb0JTc1dyc1g3Ylk1emNrSVpueUNhUFU3ZHBnNXI4eGdpaXkxdXNtcHVPWVVOZWRNOUd2UXdJMC1TWldhU1VWUXh5a3UxeTZyVERKNHRaMWdJV3RISnFybng3aTlXT1FDN2x5alZfaDV5aWhYQ0lhMks?oc=5",
-      "published": "2026-10-15T10:55:48+00:00",
-      "source": {
-        "name": "Europa Press",
-        "url": "https://www.europapress.es"
-      }
-    },
-    {
-      "id": "9b6f5fdef580",
-      "title": "EMA recomienda autorización de Rasonque para cáncer pancreático metastásico - CONSULTORSALUD",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeXJJMGJ2X0xvYTRXUEVSang4QURLQ3JaaHZpLXM3MUlGUDNBMVRaUVhYYVdTVjllOHlmeEhmanlQclU4ai1tNE5wU3lQQzRTOXowbWRDN1Y4TlZfMnpYQnNlQ05Xa01PR0o2TlZUQkNMVnNKdzJMYmJfYjlvWm5HNQ?oc=5",
-      "published": "2026-10-15T17:27:39+00:00",
-      "source": {
-        "name": "CONSULTORSALUD",
-        "url": "https://consultorsalud.com.mx"
       }
     },
     {
@@ -324,43 +304,53 @@
       }
     },
     {
-      "id": "8a9d914dd30e",
-      "title": "La agencia del medicamento pelea por zanjar en noviembre la falta de suministro de Lenzetto, el fármaco frente a la menopausia - La Voz de Galicia",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPS2JoRFJvR0QyTnhQWURJRm1STWZ1ZFF0WFRQRlZyQXJXbmo1UWhwRlg5S3BZVW1UTWtLM212RU9kMXRzMGdxWnc3ai1tMEhPcExOR3JzNGhWYVFWMjZzaWZidTVpVUhkOTlzYVNtLVhIR2JrcWs3NWFVMmVXaTVpWTdIN1Fxdjd1bVBsN0dwa1UzUXNKN3RtV25vd2ZRRm9oNkZHVmtXQllDbUViaktaQlVDVUFXYnNXLThQMFpUeTBkUTZRUUJ0aElsZFFMckhjOW5hTjl5ZW9STUkxMk5KZmZadDJheGVReEFxdVRXVdIB9AFBVV95cUxNY050T0hKdWhDWTUxOHZKVzhHNWlKenB6aEhNMnN3YzhNTVlvS3ZZQVJuWFZZbFI3Nng0Z3BjVlcxT1hFTHpJZkYyNVJwR0dPRi1iLUtHUVpibmZMTTU4TWo4X2NObUFnbHZUV1lUNlhTTGJ1RGtOSmNWYXp2QlBYejA5Z2pXVmYtVEtQam1DSHFCNG5IdXFzeFgxUWJPOTZIdVJ3d25QeWRQYV8zWFY5ZGpVRTVtTV8zQ1hZOTFiVDVPMGxUb3R1eHlHazRYU2lUVVRmOW5IR3RDdFVvSEFwSkNLb3NYWHVWUkt1Vl94TEVORUxs?oc=5",
-      "published": "2026-10-15T03:01:09+00:00",
-      "source": {
-        "name": "La Voz de Galicia",
-        "url": "https://www.lavozdegalicia.es"
-      }
-    },
-    {
-      "id": "eff390a57df7",
-      "title": "Farmacología Clínica apuesta por una visión transversal para determinar el impacto de las tecnologías y medicamentos en el SNS - iSanidad",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkNISjBxTGNOdm1xZERDOFRGeldOTUxFQnJiTXVwVGl6ODE5LW5XVzBYQkhWSC1rV2FaZTZDQlVwNkdoYXN5TGN5dURmWXFheGhXcHBYWThIaGVZRjhoQi0xUEh1LWhJanBEVFUySDdnN1JuazFDNFg3elN6b3kydXR2eHlFSW5SZC0yQm5rcUI1SGwwOTkwSDV5X2x1NklXUGpnS1lLMjJvMXZaeFE3elMwNkJNZDZxWlVoLUJPa0xoUQ?oc=5",
-      "published": "2026-10-14T18:26:56+00:00",
-      "source": {
-        "name": "iSanidad",
-        "url": "https://isanidad.com"
-      }
-    },
-    {
-      "id": "2812dca3cb48",
-      "title": "Un fármaco empleado después del parto podría tener un beneficio inesperado frente al cáncer de mama, según una nueva investigación - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPeUF0YzBOSzkybldDTlNNeGxRZzFQcGVMTnRSN0tPRms1cjZQOURkQVJ2ZXpneGw4bTM1NF9oOHV5TWplWFl5SFl4VjM2SDB5WFRPRnZMQWp1bVBfN2RINkRMcDh5ODdwcEgwTGtiUE1hRF9FLTRjTFVUWmstSWRFUk81cVZVSHpYSGJHQWhxcFFUU0ktOFpYTUpUbU81M3R4TlVHR0NId3k2TFhCVU03YS1JNndtbmo1YVdCU3RtVVJEcjBBMURqajUtVDNVRTVWRDNQV0pmYWRZSnlpTkFTSzJqNVplSnMzZ3BtM2d4Nk0xc2xjbkVVR3Rmd3BNdmZQSk9qYjViS1pwYzlwYmZEQ19SQ1dUVmxFdU5LaEpLLXBya1FaVzAzNFRMcmRHNHVMdGpSYk90cXFtVEE?oc=5",
-      "published": "2026-10-15T18:54:41+00:00",
+      "id": "23d5f847d1a4",
+      "title": "Bruselas recomienda autorizar la terapia de Revolution Medicines para el cáncer de páncreas metastásico - El Economista",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNMEF5d0tSSkRGOElORDRBRk5rVW1tenpaamNuRGdfdkpiMkM4ZGhsN081N3BZUmgyX0RCdWNBRGpFYkNseWpGb2pIYlpyQmc5eXpkNWVTQUVTdXJrd0t6dHcwQWZPa1ZmWFZzMkUzV3UyMmQ2R1NOSHhCaS1JZ1MzY0c3ZWRxbnVkSFM1MkpVQVBaVUlmZFRhM1FMLTdQazlhUFU5YmtpY2pxMGFURE9tOXl0ejFKWTR3SmFQdlcyN3FteldJZGhRLU4wcTAyUmpLMXR2aEg0WnFnZmRsOUE0U1ZqYkRQRi1nNjRsRlRFQWhULVNSdktmSkU5dXE0akFvZ3BLeEpQTdIB8gFBVV95cUxQT1pkNGc1Z1hlLVdHd0o1QjhmZ0tTc1NOeXp2NjZHeksxU0s4OVpxUTBoZXpvV2M4bnJMcThZdEtBeXVhbTI2elVMczZRR09NNEFUOXZfVVVwTFFrY0FxRUNIU0JJam5hVno5MGduOG5XNGFXMTNtQXJBdU1QLXl3YXZ2NWxYekh5dkVYQ3BZdmpYUDY3RGY3MnhqVW82SVhWTTc0OUpzUGlhaFdIRjJyUWRCUUFMUjZod05JOXVad2pYeFYtbjhSZVFyYXViUWVRSnZJWmp0d0VUX3FoemxycmNibzJiU0NCM3VXT3RieTJYZw?oc=5",
+      "published": "2026-10-15T14:53:21+00:00",
       "source": {
         "name": "El Economista",
         "url": "https://www.eleconomista.es"
       }
     },
     {
-      "id": "87a4291d4838",
-      "title": "La Farmacia puede y quiere hacer más por la salud y por el SNS - Diario Médico",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcjhwTEtJTEd3UzZOY1p6MVFwQ0hvUG9tTTJ2d25fOXFwdWZqV1VXVjlWMUoxSGFfaTBzb1Zud1BMWWg3SXdFNnBQZHNVUTdSak1tQktuMnNQaXNuNUk0QndiRnJmWFBBNGtlb3VUcVZxWDJQS0JQY2h2YTBjbTNCeHVNQnV1WjA?oc=5",
-      "published": "2026-10-14T07:53:59+00:00",
+      "id": "2ae55adfd0c6",
+      "title": "Este popular medicamento está siendo falsificado y es un riesgo para la salud: podría estar en su posesión - Revista Semana",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORjNOTU1sZnhqdml1eHplM0ZJV1NJSGx4MjBVekVJeFdEODZ1Wmx4Q0NGcW10VGZXYkFFWjlMZzFkWUU3dUxUOFBoWmNDT0JWdlZSNjBnNTlnbFduYWtyMmdZZWtZVWtIX1hlWl90NTRicHN2cWZmeFA2eTlPYWNtcWtZem5DNDl0a3VQN21aRU5HVnVRaTZqM1Rhb1hfcFN3azhfdUJUX0FveU1tN2pTZS1Kd2xFX05lTENDLWNhUEZtN2ZDUVF1RHJSV1ZCbmtPaXlIdXY2QXFZcHB4dEpldktJVXVYQdIB6wFBVV95cUxQV09pWElwSkcwdWhTdnZ2allRSDJQRFp4WnlMcjlVODBKamdqMUZtbExRUS1JalFqN1pCM2pwZEtnVHB1bEJHTjhram43QUtGOU10MllSS211RGtzOVA4R3ZPTGRlVGxCY1dfN1pudnMwSktqWkFYbFZHTVY1ZWkzTFRDTmhUNnR0N2otb09JZW9BZUlDaVVWTzRuYklIYjhzUEJrdjVkVFZ5WEllZ2VkRURSN1dDNVViRU91NzRraFJITm5HMVJQRmJpQlBfRHZQc2JqbjgwZTUtOU5MLXVwTmMzdnpfR3BLNklV?oc=5",
+      "published": "2026-10-16T03:46:45+00:00",
       "source": {
-        "name": "Diario Médico",
-        "url": "https://www.diariomedico.com"
+        "name": "Revista Semana",
+        "url": "https://www.semana.com"
+      }
+    },
+    {
+      "id": "f2fe03aa9dce",
+      "title": "2,8 millones para adquirir medicamentos exclusivos destinados a pacientes con enfermedades hepáticas - Europa Press",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNenFURjhzd2hXLWl1Rmp4aTRBaXE0WVhpaGlibjduUDZEZlR6cVJXbF9TaEtXWnR1TGJVN25VV0NROUFvTkpseFZHU0dSTVQxV241Y0Uzd2ZpNEJTUDFjOGpEYWlyLVEtV3lHa1dhMTJXTDlSb0JTc1dyc1g3Ylk1emNrSVpueUNhUFU3ZHBnNXI4eGdpaXkxdXNtcHVPWVVOZWRNOUd2UXdJMC1TWldhU1VWUXh5a3UxeTZyVERKNHRaMWdJV3RISnFybng3aTlXT1FDN2x5alZfaDV5aWhYQ0lhMks?oc=5",
+      "published": "2026-10-15T10:55:48+00:00",
+      "source": {
+        "name": "Europa Press",
+        "url": "https://www.europapress.es"
+      }
+    },
+    {
+      "id": "94f57a345abd",
+      "title": "Las recomendaciones para una política de financiación sostenible de medicamentos en España - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ3VDdTF6QjdTaC1XdWNPd1dTcXRyb0NSVHZOejgxNTl2WDM1QWlIb3d4MmZUMWdsUE9TeHM5aTNyOTRKTjdMOXY4YzNLUzh5QXBtSVVER29hYlZKTEp2WEtyTlVBeW9GTXAyd2UxUDgwUXRvajNFRzNsbWxRRmplTnJ5VW1wOHNrR1RfT3hvTjRMNHotdTNfNjI0YXMtbjg?oc=5",
+      "published": "2026-10-14T07:11:31+00:00",
+      "source": {
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "9b6f5fdef580",
+      "title": "EMA recomienda autorización de Rasonque para cáncer pancreático metastásico - CONSULTORSALUD",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeXJJMGJ2X0xvYTRXUEVSang4QURLQ3JaaHZpLXM3MUlGUDNBMVRaUVhYYVdTVjllOHlmeEhmanlQclU4ai1tNE5wU3lQQzRTOXowbWRDN1Y4TlZfMnpYQnNlQ05Xa01PR0o2TlZUQkNMVnNKdzJMYmJfYjlvWm5HNQ?oc=5",
+      "published": "2026-10-15T17:27:39+00:00",
+      "source": {
+        "name": "CONSULTORSALUD",
+        "url": "https://consultorsalud.com.mx"
       }
     },
     {
@@ -371,16 +361,6 @@
       "source": {
         "name": "Colegio Oficial de Farmacéuticos de Madrid",
         "url": "https://www.cofm.es"
-      }
-    },
-    {
-      "id": "caf197a3e885",
-      "title": "Dejar de fumar: una oportunidad para reforzar la intervención de la farmacia - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcXk5RWE4VkxUbFZLQkxlMHhtMVktdFZRMXdOaU5mYkpPS2FxcWhWQ09TMmtlTXg2c3VmYlJqU0x0T0NqVkk0MURPaGJPUC1IdjgwMWx1b1hrU3lFeEdDUEh0VE1Fdk4waHNtSVd2Y0Z6NmNzNDdMT2xpLWQ5UVdud1dBOTJIclFITTNIMHRWSU9WQ2ZX?oc=5",
-      "published": "2026-10-14T11:56:24+00:00",
-      "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
       }
     },
     {
@@ -404,23 +384,33 @@
       }
     },
     {
-      "id": "bc8f6ce0736b",
-      "title": "La FDA impulsa la Rare Disease Framework Initiative para medicamentos huérfanos - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNS16SWZ6ZmJXTUZrVFo2Y1NDU1BVeloyVS1qMVVwdEN4RjZVSzR6SkYtVU1MY3NBeEZ0VmtkUDRjZG12OUhER2xoMUVralJROFdsLTl0WXNMOHR4RExlWERqSjNmTUFndnJkeTdmRTVzbm1ReW9BbEg0VUdKbXVqcQ?oc=5",
-      "published": "2026-10-15T15:59:47+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "d8b2fce2462d",
-      "title": "La innovación en salud no termina cuando se desarrolla un medicamento - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTXdXd2Z6NWtKTXluR1hqYnM0dXFpNmpvcHZMd3hVSkNzU1J4NEktVk9uOHRQWFJxNDhHbzBrQnFkSDlQeEFSTExvZ0RUQnB0S05FaEpTNHZJOHJ6Q3lHaVJQUUItR0NXcnZSVF9zUTBJdFFUd0hNV1N1MmFTS3hoUjVHS0hocjlnZlVMdEVyZTh0a0loSDJ5d09uOVQ3enJmVVEwWkF5WnhBdGFZYVlYNFh2RQ?oc=5",
-      "published": "2026-10-15T05:25:07+00:00",
+      "id": "0d4a04ebd131",
+      "title": "Consejo de Estado ordenó formular una nueva política farmacéutica nacional para regular los precios de los medicamentos y garantizar su acceso - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNQXh5NXV2ZzJ4U1daWXJoY0JJcDc0OS16Y0R0ZjJ1aU9MZUY0UWFWNHE2OUVTV3EyVlRkc1JDd25aeHp0VXJQajdtYmw2MHNCVVdTSnFtVkRjOW9Gbms5YXZsMmVhcjlzdk1OTUMyNlZvWklFZjFDNUN0YXE2X3NVWE44NUdGeTFva0ZRZFV2TDgzN3lxQnIzZzZwQ3lfRlNPaHRvZThDa09SbEUwYlhUN1ZPOThhNHhuSnRzZzJtMmFvT2tEcXJHUHZXVmdXT3R6SUJMQ25VVmc3YkxrTHo4MFBpaTg1b2FSbmdZd0NQSURhLTRZZExlYmhMbXpHQmRPYmxFU3lZLUN2bDkxZXlTOGhBaHNHUdIBsAJBVV95cUxPQ3BWdmVYNGFqencweVBBZG1aM3RwbnV2WVE4N2ExczVVUmdib2xJVzlQZHlSelZBY3dzMTRxaEtuaExOWGJVSEFOOVYyVk1YNDZubGlvSGV4UUJVTW9VbHkxbEg3b3loQ21VcHNNSU01cmNoUy1uQ0x4M0lIWVVYWkZBSkVsakptYnVBRFV6QzN5Uzc3QWRSZW42bmtvNW5LQkg1RDhPQVJfSUVIT3NjTDBRWm5oRXVpclNwZlhITnFtX0JFY0lBa3FaaENnWTRzeGJOWFY4Q3h4a1VmQ2VRaFhWRzFDdzdubkF5UlBpR0J0ckxLTWxweW9lUG9wdkJzbzJhekI5bm9EZ3ZQTEJueGUyN2NxbFg2UENoN1ZkQ2Q2bU1vbXV3Sks5bnpxQTA1?oc=5",
+      "published": "2026-10-16T01:47:05+00:00",
       "source": {
         "name": "Infobae",
         "url": "https://www.infobae.com"
+      }
+    },
+    {
+      "id": "8a9d914dd30e",
+      "title": "La agencia del medicamento pelea por zanjar en noviembre la falta de suministro de Lenzetto, el fármaco frente a la menopausia - La Voz de Galicia",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPS2JoRFJvR0QyTnhQWURJRm1STWZ1ZFF0WFRQRlZyQXJXbmo1UWhwRlg5S3BZVW1UTWtLM212RU9kMXRzMGdxWnc3ai1tMEhPcExOR3JzNGhWYVFWMjZzaWZidTVpVUhkOTlzYVNtLVhIR2JrcWs3NWFVMmVXaTVpWTdIN1Fxdjd1bVBsN0dwa1UzUXNKN3RtV25vd2ZRRm9oNkZHVmtXQllDbUViaktaQlVDVUFXYnNXLThQMFpUeTBkUTZRUUJ0aElsZFFMckhjOW5hTjl5ZW9STUkxMk5KZmZadDJheGVReEFxdVRXVdIB9AFBVV95cUxNY050T0hKdWhDWTUxOHZKVzhHNWlKenB6aEhNMnN3YzhNTVlvS3ZZQVJuWFZZbFI3Nng0Z3BjVlcxT1hFTHpJZkYyNVJwR0dPRi1iLUtHUVpibmZMTTU4TWo4X2NObUFnbHZUV1lUNlhTTGJ1RGtOSmNWYXp2QlBYejA5Z2pXVmYtVEtQam1DSHFCNG5IdXFzeFgxUWJPOTZIdVJ3d25QeWRQYV8zWFY5ZGpVRTVtTV8zQ1hZOTFiVDVPMGxUb3R1eHlHazRYU2lUVVRmOW5IR3RDdFVvSEFwSkNLb3NYWHVWUkt1Vl94TEVORUxs?oc=5",
+      "published": "2026-10-15T03:01:09+00:00",
+      "source": {
+        "name": "La Voz de Galicia",
+        "url": "https://www.lavozdegalicia.es"
+      }
+    },
+    {
+      "id": "2812dca3cb48",
+      "title": "Un fármaco empleado después del parto podría tener un beneficio inesperado frente al cáncer de mama, según una nueva investigación - El Economista",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPeUF0YzBOSzkybldDTlNNeGxRZzFQcGVMTnRSN0tPRms1cjZQOURkQVJ2ZXpneGw4bTM1NF9oOHV5TWplWFl5SFl4VjM2SDB5WFRPRnZMQWp1bVBfN2RINkRMcDh5ODdwcEgwTGtiUE1hRF9FLTRjTFVUWmstSWRFUk81cVZVSHpYSGJHQWhxcFFUU0ktOFpYTUpUbU81M3R4TlVHR0NId3k2TFhCVU03YS1JNndtbmo1YVdCU3RtVVJEcjBBMURqajUtVDNVRTVWRDNQV0pmYWRZSnlpTkFTSzJqNVplSnMzZ3BtM2d4Nk0xc2xjbkVVR3Rmd3BNdmZQSk9qYjViS1pwYzlwYmZEQ19SQ1dUVmxFdU5LaEpLLXBya1FaVzAzNFRMcmRHNHVMdGpSYk90cXFtVEE?oc=5",
+      "published": "2026-10-15T18:54:41+00:00",
+      "source": {
+        "name": "El Economista",
+        "url": "https://www.eleconomista.es"
       }
     },
     {
@@ -464,16 +454,6 @@
       }
     },
     {
-      "id": "58076ff890f0",
-      "title": "La farmacéutica Eli Lilly llega US$1 billón. El CEO Dave Ricks apuesta miles de millones a que puede repetirlo - Forbes Colombia",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQXE0OURiT3lUbHhaTHM4bUxkZ1NHYlV3U3ZqR0xiM095M3Vrc3pEak9oT2ZUQVpQcWduTXBGSW5hcEFIUG1RX1lxYnFvUXg5MzNhNWFwaXo4RXBod1pLYlNQR21Qd1c4OXNOa1Rkbko2VU1TYnFjWExrdkEyWEtiT3B0MExBZWRValdsZDUwZHZyNkpyeU5DUm1nb2htUTlaZEY5b1JKMS1EZlFRVmNxQTZmTDlYdWg0Y0ZsQjNhMzg2Rmo4b2s1OWpuLUFpeVJWRGN6ZnpSY0dLSDVZTFJYRA?oc=5",
-      "published": "2026-10-15T18:40:03+00:00",
-      "source": {
-        "name": "Forbes Colombia",
-        "url": "https://forbes.co"
-      }
-    },
-    {
       "id": "ec253ef89e81",
       "title": "Hospitales y farmacias duplican el consumo de biosimilares en cinco años - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOUDRkNGNPejUza0N4cUMtXzdibWVWcHVTTmtzOTFnd2hGR1pfMVJBdXB5a0oyWUZRQlRTZndGQ3Y1X1lzZmw5VzJwczNNR2RGV2g1QlFpQ2xyYndvcWt6VVUzTUlGVC1vWkE?oc=5",
@@ -484,20 +464,10 @@
       }
     },
     {
-      "id": "0205d49c67fc",
-      "title": "Plan de Choque en Salud: 273.000 pacientes ya recibieron medicamentos, pero el 60,8 % de las entregas pendientes sigue sin resolverse - IFM Noticias",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTjNka0F2Vkg5MUdPdWdmWWdwU2VISWF4UEhweFZWTjJ1dWFTV3NfODktTVNqZTJlTHVNXzY3bGdYLXZPRk1vV29QRjBIeEx3YnRJVlczRm82Nl9PZVVwU091S3V4U3ZSenhsVGZJdU1ERGdjV1JMRkhVSGZDLUNVS0gzN1FxZkY0TlFXTVF1QnRIR2t2b09lemxJYVhVUTNPb1JvSUE0enlqeXNMc3FCT0lVdVU?oc=5",
-      "published": "2026-10-15T22:46:46+00:00",
-      "source": {
-        "name": "IFM Noticias",
-        "url": "https://ifmnoticias.com"
-      }
-    },
-    {
-      "id": "07240c25e05d",
-      "title": "Acceso a medicamentos en el Valle del Cauca: Defensoría anuncia medidas - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WRDN4SG1TcUQzT3dFbk52Mkt6SGcwV2Ztb3VuYWg0X1ExRFotYmdLd1AzM3MxeGNyX05QTFJKdUkwR1ZZYzlQdUVZWVhmV3M0MklUVTBOc3ZyTGk4MWVKRXhuV2xERGZxNnVFX2p5NGRfX2I4Q0Z3ZHQ4Zw?oc=5",
-      "published": "2026-10-15T15:22:25+00:00",
+      "id": "bc8f6ce0736b",
+      "title": "La FDA impulsa la Rare Disease Framework Initiative para medicamentos huérfanos - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNS16SWZ6ZmJXTUZrVFo2Y1NDU1BVeloyVS1qMVVwdEN4RjZVSzR6SkYtVU1MY3NBeEZ0VmtkUDRjZG12OUhER2xoMUVralJROFdsLTl0WXNMOHR4RExlWERqSjNmTUFndnJkeTdmRTVzbm1ReW9BbEg0VUdKbXVqcQ?oc=5",
+      "published": "2026-10-15T15:59:47+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -514,26 +484,6 @@
       }
     },
     {
-      "id": "c7f8541872b5",
-      "title": "La compañía especializada en enfermedades raras, Ultragenyx, recupera 368 millones de euros gracias a los vales de revisión de la FDA - ConSalud",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNckprMEFhaE9kbTV3aHBfVjI2cjVRdF9zQzRKVk5adzFYUHpsbndlQjAwWnR2VlQ2cDBIa0N1dzdEME5SMlNuYU93MlVfTkdJdXZYVTkwVFBtZ05MajZrcDNGMHh0UmFpdVlQYWI3U1RsM0Z2ZFh2ZFJXWXNBZnpfZzc3UGdDdGdjS3Z1NElGbWFQUG00cWI1dGltOUhjdG1YbnRzT1pDN3Q4bTlJOER0a3ZGaUVkVFQwVFg1aDNkanZsbklaTjd5YjB1UEw3dlE?oc=5",
-      "published": "2026-10-15T11:33:00+00:00",
-      "source": {
-        "name": "ConSalud",
-        "url": "https://www.consalud.es"
-      }
-    },
-    {
-      "id": "b85bfb5086da",
-      "title": "“Fijate qué medicamento le puede dar la doctora, que ella no sabe”: las escuchas a la red de servicios médicos ilegales - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQS0RWRjdianRZQXFmalV0eUJnb0RwNFFBRUwteHo2RERQWWk3SHRfVm55d05DU1BXTWN5N01fb05ZM3NaRVpjZ1JVVWhTTHRnR0FaOGJXOFFqVXBwbEYtRjhfaE40T3BoVGg4aWlBdzFMRFpMYUl3bjJ6b2V0MHJDbFlNOW95UV9aNWl0M2o0VE5pRWxVNlBYQ0M5N3EzQTQtSWw3WnYzT1hhUXVTUkFiUW5MMVhuYmhsWVNNWDQybEV5dVExSFYtZGhpYlRJbnoyanJUb1YtbGVRQkVYNTJSWG9ZNF8zcEZGSkxfUnFyejFBeXhvV1N5MlZOaWdmaG1I0gGbAkFVX3lxTFB1cnRKekFGMkVlNEZ3ZkRwTDV5T1A2QmxzX1ZHN1pwR1V5d1hRVUdEczV5VVFRMUxIeHB1S2xtZDdFX0xRN2RDMGUwV2puOUVvWmZETVN2bGQ5WkZRaW5GZUU5SkswWGY2UWJFZVlSdG52eUk3Q2FJdTlFNU1pQnV3d2xxUU5ZaGlGRkRsbGtWcHN6SnNncDlnLWxJY0ZfajFlMmc5YlQ3XzR5Q0JRWUVWYU1MQThyLW1CZjEwUVZjZGVkcW1mOXI1Y2M4bTJlM2l0T1pwclA0NzNFQnliRmRiQUt5T0pDQkNFS2wzRWRuZi1XX0FsVVVURnFmeUt3azIzUXd5Q05fVGYwMkdta1hxcTNpcm9DbDdFMW8?oc=5",
-      "published": "2026-10-15T23:59:00+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
-    {
       "id": "762874471944",
       "title": "El Gobierno reforma el sistema de copago farmacéutico para blindar la equidad y proteger a las rentas medias y bajas - Ministerio de Sanidad",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GeGNHdTJvcEFCejgyOUt5Qk5VNFpRREE3ZUlIMndGWWlKeUJWTk5JTGJnaUNIaGZOQnJmYlVneTNVOUhpTGFTOF9UeVQ5andLQndla1JsMU1RWG1UNXZ4WTdVcThzeXM2T1E?oc=5",
@@ -544,43 +494,13 @@
       }
     },
     {
-      "id": "4f1836941b5b",
-      "title": "Un estudio reveló por qué un fármaco usado para tratar la hipertensión puede activar la grasa parda y mejorar el metabolismo - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOcjFVRXdnMnRXYVQtUFEwczdmOEtZcVpGaVJLcHliMEhjVVhOLXh3bGtkVEFiaVE1THMtY0hSamgzSFFYV25KZm9VLWVjaEM5cTlkdi13b1A0ZHBkYWRUSzEyQU81b1JuWjdwOGt3UC1EOUVOUFVRWG1tbTJCZFFycllhUzBOQ1lxdUltS2VWQUtfbmJ5TkRDU1k4Z3Nla1lBU1Y1N1ZZMzczNUp1RDVtVWtsSTduQ2JXTDVEUkJCNGZtck12N0JoWHh6Q05zTlg2bjBUeWhjSk1ZcVQyWGJQSVpsQS1yX2ZJaUxkNDd1WllqQWx1Z29sc05zMjRxdEtnWTE0atIBnwJBVV95cUxPZlN5ZC1NQnB1eDJ5dmpkU1pUQTdqNS14aXFGbWhmRm9fM0lKcmdSTkc0VUp2UEM5WHhCRGVfQW5BUHZYQ0pTNThrWXZ0cXgtNUlRRHE2QXg2aFpjbWJTeHRxdjN3NDUwWi1yTEFueS1mLTE3YkZGMUlmR3k5VHZJWm03d2ZIZHh1WDZNYlRwc3E1TTNJY2VfMDdZWWpFNlJraWYzNzBIZXl1ZUlTMXAtWEhBSHFkcUtkZzN0cWsta2Z2UG4zNmkydV9aQ2tINlhER2FkMlZrTFFCNEJKcTFBSVFKU3FnUFRiMmJFOVJhVUlXRkh0T3NhajRLTmZzQXVOV01LSTl5UWhUM3ctUWk2VkR5NjQxVzZWazRsYUwyYw?oc=5",
-      "published": "2026-10-15T15:57:00+00:00",
+      "id": "58076ff890f0",
+      "title": "La farmacéutica Eli Lilly llega US$1 billón. El CEO Dave Ricks apuesta miles de millones a que puede repetirlo - Forbes Colombia",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQXE0OURiT3lUbHhaTHM4bUxkZ1NHYlV3U3ZqR0xiM095M3Vrc3pEak9oT2ZUQVpQcWduTXBGSW5hcEFIUG1RX1lxYnFvUXg5MzNhNWFwaXo4RXBod1pLYlNQR21Qd1c4OXNOa1Rkbko2VU1TYnFjWExrdkEyWEtiT3B0MExBZWRValdsZDUwZHZyNkpyeU5DUm1nb2htUTlaZEY5b1JKMS1EZlFRVmNxQTZmTDlYdWg0Y0ZsQjNhMzg2Rmo4b2s1OWpuLUFpeVJWRGN6ZnpSY0dLSDVZTFJYRA?oc=5",
+      "published": "2026-10-15T18:40:03+00:00",
       "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
-    {
-      "id": "180b14f0a267",
-      "title": "Gobierno explica cómo avanza el Plan de Choque en Salud: pacientes que reciben medicamentos aumentaron de 177.000 a 273.000 - El Tiempo",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdWQ5T2VGeWk1SGZqV0ZIWDdxOHB1X1ZpcklXeFZMejVyTm9DZGY2TkVWbzJMTlFNMUZ4Znd4ck8wYk9zVy04V3BZRk04YzdfNlNvY09SLTRRLTVSXzk3ZEY5enM3alhLeW1lLURHVm5NZHJpYWpSRURFRFVUakptN2V1ZTJuTXVWVDU3eFBaRHBrSy1OcnFDMFlKWFdZamdxaGRudDAxWDE4RXNndFVLYkt5MDNlYzNwSy1iTFVzTlFCdGdQOVJiLVVUc3A0emhYZktkSS1qNzZyNzhsODVfWWlnckQ0QVZmRFhwVm530gHzAUFVX3lxTE9Hdll4ZVJuYTd0bnRFYWduLTBpZTU4U3ZmaXhnQ1hiSzBnRzNKUDdhOWtRaXNQenRSckxUQTNnUDBKWGowcUJVOWhhNHFXdHZ5bjUzcVJaWjgzM0FzeFE0VU8yWU5QZ3FvamlSa0tjNloxR0hFNGg2YUg1ZUdsT2FPN3AtQVYyQmV1WkJlUHotbWFCcUczYkp1bHU5cFA3b0xWeHU4MnVpLTRnamVReVEwcmhCd05GTzQ1TG1YYXo1TjBTWHB2eDQtUWh5NVZCQUswUXFfVmtGaEw3dkpyOE45NHU2SlZuTE1BdXdoRGoxSUc0UQ?oc=5",
-      "published": "2026-10-15T23:00:17+00:00",
-      "source": {
-        "name": "El Tiempo",
-        "url": "https://www.eltiempo.com"
-      }
-    },
-    {
-      "id": "3adfb51cca98",
-      "title": "El Salvador recibe los primeros medicamentos contra el cáncer infantil - Pan American Health Organization (PAHO)",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU2FXZzRWTnhuMHExMXRpeElBU3loZWZlY0xmLVZReGFQVE5JNUVYeVZZcUdBckFtQ2tpZVBjODZ5ZlBnMEFVRndZcDV0eUtVLUJqMkRHV2xuTmNCVFJMeW5uMlg3NkdDdVk3emwxN3JFSGdZRVRlT0pfcEZMeEhmNlFEM3JWZEVsRHlJbXVfemJUQl9QVXUwRnZQejVIQk9TeUNfTlVwdw?oc=5",
-      "published": "2026-10-12T15:57:39+00:00",
-      "source": {
-        "name": "Pan American Health Organization (PAHO)",
-        "url": "https://www.paho.org"
-      }
-    },
-    {
-      "id": "7b164a26399c",
-      "title": "Un medicamento muy usado para la presión arterial mostró un efecto inesperado en la grasa parda - La Voz del Interior",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMmJ2MjhhTE9sM2dZbnZjR3FuN1NLS2I0ZFhJWENEbE1RZDEzODZ0OExxUmlmZ09JRGhvMTF1LU54SVVBNzVhdURHdUNKeGk1em43U3BOWXJCaU8zSHdKcVFPMjRxZHZJZ3B1S25JX0pRX2JIdkFOdHlkSmI1MmllR3FYNG55dFNISTg5TDFON3J4YVk1UzhQbTJQWGJhR0RuZlZ2MUdUT1NGYTJfWUZ3dVppUlM0NUllYkhsRQ?oc=5",
-      "published": "2026-10-15T17:40:26+00:00",
-      "source": {
-        "name": "La Voz del Interior",
-        "url": "https://www.lavoz.com.ar"
+        "name": "Forbes Colombia",
+        "url": "https://forbes.co"
       }
     },
     {
@@ -594,23 +514,33 @@
       }
     },
     {
-      "id": "4535e839988a",
-      "title": "México y Unión Europea abren diálogo sanitario con foco en regulación, medicamentos y cadenas de suministro - CódigoF",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQalFWY2NST21iUnVGRWFRTTVJb1A1QUF6X2I4U3pKNnVISVhmREx2T2FadnBsdHBOOHNGYjg1LWFrNHRwdG1TQndQNm01Z0xvdzlMdmpuYXIxMTlIdWRVVEkxSjhOYkVKQW80LWdQX3ZrZEZlQ0FKV0o2OU1iZUxLZG40bHdxZ1gtRWRQVmh2UzhqMDk3bXVFalZtb1Q0SHcycTNBWEtacVFkcG5EWmFQMUVrWlJGcEx4SFJRYUZ5RU1CbFJs?oc=5",
-      "published": "2026-10-15T23:54:47+00:00",
+      "id": "3adfb51cca98",
+      "title": "El Salvador recibe los primeros medicamentos contra el cáncer infantil - Pan American Health Organization (PAHO)",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU2FXZzRWTnhuMHExMXRpeElBU3loZWZlY0xmLVZReGFQVE5JNUVYeVZZcUdBckFtQ2tpZVBjODZ5ZlBnMEFVRndZcDV0eUtVLUJqMkRHV2xuTmNCVFJMeW5uMlg3NkdDdVk3emwxN3JFSGdZRVRlT0pfcEZMeEhmNlFEM3JWZEVsRHlJbXVfemJUQl9QVXUwRnZQejVIQk9TeUNfTlVwdw?oc=5",
+      "published": "2026-10-12T15:57:39+00:00",
       "source": {
-        "name": "CódigoF",
-        "url": "https://codigof.mx"
+        "name": "Pan American Health Organization (PAHO)",
+        "url": "https://www.paho.org"
       }
     },
     {
-      "id": "cb085de2aebf",
-      "title": "Gobierno De la Espriella revela avances del plan de choque en salud y cuántos pacientes ya reciben - Valora Analitik",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVTJIOWtIQ2dDTHJUb1FmbTZMdWRjUURtWS04QldPNGRIUHR2MFg0NFo1UWdSTWhZbTlpOTQ1WkI1b0dmUkd4cjNUZjR6MEIwTXhCeWxtSG5tdllfcngzdXVfOXVwV0dmMDQ3WnJ0RHNDOVdsb2tUejZqWFFGMEhiUHRZV1lIT3NNd3o0dEJGX1hZRlB6SUp5N3lnTjROd3VJVGNrUFRrZzJGejREVlVjay1pTFVYRC1JbzR1dE5MRUhpV3l3T1VyWHlKSjFxTHZyTWR2b0VVcFgtLVXSAeABQVVfeXFMTkdkODRyellMNHpyRHEzZHpXcnhsbkNXaG1mTWxaOWJlaWxOQ0RtTm9VcXV4aWZYMmduaWdFS0pqeUZib3lmSE9UR01kTXE2SS1waE5CUHlZNVBoaTFUMkZiUHl2VVVfWFRsRXlNNXVyQzFJdnQ0QlQ0ck5Ja1MtYWE2LThsUnlTMGttQU16RWRESVRvTlBESmwzUi1HRVJ5ZDVTNUIwTl96amp1WjhGSWV5b2tJblR5UW1feFB6X1JBOVJnekVpQ1VLbS1yd2htX2tha0U1YV9ERjliVldFeTQ?oc=5",
-      "published": "2026-10-15T22:20:00+00:00",
+      "id": "d8b2fce2462d",
+      "title": "La innovación en salud no termina cuando se desarrolla un medicamento - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTXdXd2Z6NWtKTXluR1hqYnM0dXFpNmpvcHZMd3hVSkNzU1J4NEktVk9uOHRQWFJxNDhHbzBrQnFkSDlQeEFSTExvZ0RUQnB0S05FaEpTNHZJOHJ6Q3lHaVJQUUItR0NXcnZSVF9zUTBJdFFUd0hNV1N1MmFTS3hoUjVHS0hocjlnZlVMdEVyZTh0a0loSDJ5d09uOVQ3enJmVVEwWkF5WnhBdGFZYVlYNFh2RQ?oc=5",
+      "published": "2026-10-15T05:25:07+00:00",
       "source": {
-        "name": "Valora Analitik",
-        "url": "https://www.valoraanalitik.com"
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
+      "id": "0205d49c67fc",
+      "title": "Plan de Choque en Salud: 273.000 pacientes ya recibieron medicamentos, pero el 60,8 % de las entregas pendientes sigue sin resolverse - IFM Noticias",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTjNka0F2Vkg5MUdPdWdmWWdwU2VISWF4UEhweFZWTjJ1dWFTV3NfODktTVNqZTJlTHVNXzY3bGdYLXZPRk1vV29QRjBIeEx3YnRJVlczRm82Nl9PZVVwU091S3V4U3ZSenhsVGZJdU1ERGdjV1JMRkhVSGZDLUNVS0gzN1FxZkY0TlFXTVF1QnRIR2t2b09lemxJYVhVUTNPb1JvSUE0enlqeXNMc3FCT0lVdVU?oc=5",
+      "published": "2026-10-15T22:46:46+00:00",
+      "source": {
+        "name": "IFM Noticias",
+        "url": "https://ifmnoticias.com"
       }
     },
     {
@@ -624,13 +554,13 @@
       }
     },
     {
-      "id": "e521d0b37f7d",
-      "title": "Plan de choque en salud: 273.000 pacientes recibieron medicamentos, pero falta entregar el 60,8% de los pendientes - Portafolio.co",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQkhjb0RoaHo0ODdYSXpKQktFSmFhNjBXQlBWLWFXbkFyZld2MVNVSjY0YnNNaFp2TFJMdEZfOC04M2FNVmtiWGx5Vk82d0dvQjNQSXUwbUNFR0d1SjRhMVRpZ3lFQW9sMnF4cFNKMjVxMV9leXRLUXlRb0E0N2N5OW5lXzlvZktBaWJGQnU3NV9wT0NSM0ZhRVpxUGExNDBVZ1VlLWpUTk13Q3V5X29aWXVEa3d3N0hEdE5iQkFZbzVPRWF2OFpDcHVwamhhczZIYk5NRkdoczBFeXRBS19BZnZQaFVoMVdUTGxNbENQNWlCOEIx0gH6AUFVX3lxTFBueHdLbXpKZ25za2tkTmRWQTgwZXVhT0FGbjZLYXBzbGxLcXNOdXlLTHU4c0lhZWlXZnU3RnNVU0x3ZWVzeW5LM1pxaWcxb0hYVVRza0U3Z3dCYTVvRE5ibmpia0w3OWZKR1pweGZEd3JXWnNJdnE0elpQQ2YxeGx4V3l0ZkVRX0Jfbzc5NTJBZ2lDei1SQXVBV1BRNldPdFB1NHpqempodW1MdkNVSWgyZkJjQjZ6alVzMGZCMmZITmtfYkRyUjE5STd2cWkwRXk2YzQ2bkNFTlZNSnYwQjVPeVFCRklfSjlrTzgzcnMxV3VmQ25wUmR6eFE?oc=5",
-      "published": "2026-10-15T20:11:01+00:00",
+      "id": "07240c25e05d",
+      "title": "Acceso a medicamentos en el Valle del Cauca: Defensoría anuncia medidas - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WRDN4SG1TcUQzT3dFbk52Mkt6SGcwV2Ztb3VuYWg0X1ExRFotYmdLd1AzM3MxeGNyX05QTFJKdUkwR1ZZYzlQdUVZWVhmV3M0MklUVTBOc3ZyTGk4MWVKRXhuV2xERGZxNnVFX2p5NGRfX2I4Q0Z3ZHQ4Zw?oc=5",
+      "published": "2026-10-15T15:22:25+00:00",
       "source": {
-        "name": "Portafolio.co",
-        "url": "https://www.portafolio.co"
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
       }
     },
     {
@@ -644,6 +574,66 @@
       }
     },
     {
+      "id": "180b14f0a267",
+      "title": "Gobierno explica cómo avanza el Plan de Choque en Salud: pacientes que reciben medicamentos aumentaron de 177.000 a 273.000 - El Tiempo",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdWQ5T2VGeWk1SGZqV0ZIWDdxOHB1X1ZpcklXeFZMejVyTm9DZGY2TkVWbzJMTlFNMUZ4Znd4ck8wYk9zVy04V3BZRk04YzdfNlNvY09SLTRRLTVSXzk3ZEY5enM3alhLeW1lLURHVm5NZHJpYWpSRURFRFVUakptN2V1ZTJuTXVWVDU3eFBaRHBrSy1OcnFDMFlKWFdZamdxaGRudDAxWDE4RXNndFVLYkt5MDNlYzNwSy1iTFVzTlFCdGdQOVJiLVVUc3A0emhYZktkSS1qNzZyNzhsODVfWWlnckQ0QVZmRFhwVm530gHzAUFVX3lxTE9Hdll4ZVJuYTd0bnRFYWduLTBpZTU4U3ZmaXhnQ1hiSzBnRzNKUDdhOWtRaXNQenRSckxUQTNnUDBKWGowcUJVOWhhNHFXdHZ5bjUzcVJaWjgzM0FzeFE0VU8yWU5QZ3FvamlSa0tjNloxR0hFNGg2YUg1ZUdsT2FPN3AtQVYyQmV1WkJlUHotbWFCcUczYkp1bHU5cFA3b0xWeHU4MnVpLTRnamVReVEwcmhCd05GTzQ1TG1YYXo1TjBTWHB2eDQtUWh5NVZCQUswUXFfVmtGaEw3dkpyOE45NHU2SlZuTE1BdXdoRGoxSUc0UQ?oc=5",
+      "published": "2026-10-15T23:00:17+00:00",
+      "source": {
+        "name": "El Tiempo",
+        "url": "https://www.eltiempo.com"
+      }
+    },
+    {
+      "id": "c7f8541872b5",
+      "title": "La compañía especializada en enfermedades raras, Ultragenyx, recupera 368 millones de euros gracias a los vales de revisión de la FDA - ConSalud",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNckprMEFhaE9kbTV3aHBfVjI2cjVRdF9zQzRKVk5adzFYUHpsbndlQjAwWnR2VlQ2cDBIa0N1dzdEME5SMlNuYU93MlVfTkdJdXZYVTkwVFBtZ05MajZrcDNGMHh0UmFpdVlQYWI3U1RsM0Z2ZFh2ZFJXWXNBZnpfZzc3UGdDdGdjS3Z1NElGbWFQUG00cWI1dGltOUhjdG1YbnRzT1pDN3Q4bTlJOER0a3ZGaUVkVFQwVFg1aDNkanZsbklaTjd5YjB1UEw3dlE?oc=5",
+      "published": "2026-10-15T11:33:00+00:00",
+      "source": {
+        "name": "ConSalud",
+        "url": "https://www.consalud.es"
+      }
+    },
+    {
+      "id": "4f1836941b5b",
+      "title": "Un estudio reveló por qué un fármaco usado para tratar la hipertensión puede activar la grasa parda y mejorar el metabolismo - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOcjFVRXdnMnRXYVQtUFEwczdmOEtZcVpGaVJLcHliMEhjVVhOLXh3bGtkVEFiaVE1THMtY0hSamgzSFFYV25KZm9VLWVjaEM5cTlkdi13b1A0ZHBkYWRUSzEyQU81b1JuWjdwOGt3UC1EOUVOUFVRWG1tbTJCZFFycllhUzBOQ1lxdUltS2VWQUtfbmJ5TkRDU1k4Z3Nla1lBU1Y1N1ZZMzczNUp1RDVtVWtsSTduQ2JXTDVEUkJCNGZtck12N0JoWHh6Q05zTlg2bjBUeWhjSk1ZcVQyWGJQSVpsQS1yX2ZJaUxkNDd1WllqQWx1Z29sc05zMjRxdEtnWTE0atIBnwJBVV95cUxPZlN5ZC1NQnB1eDJ5dmpkU1pUQTdqNS14aXFGbWhmRm9fM0lKcmdSTkc0VUp2UEM5WHhCRGVfQW5BUHZYQ0pTNThrWXZ0cXgtNUlRRHE2QXg2aFpjbWJTeHRxdjN3NDUwWi1yTEFueS1mLTE3YkZGMUlmR3k5VHZJWm03d2ZIZHh1WDZNYlRwc3E1TTNJY2VfMDdZWWpFNlJraWYzNzBIZXl1ZUlTMXAtWEhBSHFkcUtkZzN0cWsta2Z2UG4zNmkydV9aQ2tINlhER2FkMlZrTFFCNEJKcTFBSVFKU3FnUFRiMmJFOVJhVUlXRkh0T3NhajRLTmZzQXVOV01LSTl5UWhUM3ctUWk2VkR5NjQxVzZWazRsYUwyYw?oc=5",
+      "published": "2026-10-15T15:57:00+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
+      "id": "7b164a26399c",
+      "title": "Un medicamento muy usado para la presión arterial mostró un efecto inesperado en la grasa parda - La Voz del Interior",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMmJ2MjhhTE9sM2dZbnZjR3FuN1NLS2I0ZFhJWENEbE1RZDEzODZ0OExxUmlmZ09JRGhvMTF1LU54SVVBNzVhdURHdUNKeGk1em43U3BOWXJCaU8zSHdKcVFPMjRxZHZJZ3B1S25JX0pRX2JIdkFOdHlkSmI1MmllR3FYNG55dFNISTg5TDFON3J4YVk1UzhQbTJQWGJhR0RuZlZ2MUdUT1NGYTJfWUZ3dVppUlM0NUllYkhsRQ?oc=5",
+      "published": "2026-10-15T17:40:26+00:00",
+      "source": {
+        "name": "La Voz del Interior",
+        "url": "https://www.lavoz.com.ar"
+      }
+    },
+    {
+      "id": "cb085de2aebf",
+      "title": "Gobierno De la Espriella revela avances del plan de choque en salud y cuántos pacientes ya reciben - Valora Analitik",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVTJIOWtIQ2dDTHJUb1FmbTZMdWRjUURtWS04QldPNGRIUHR2MFg0NFo1UWdSTWhZbTlpOTQ1WkI1b0dmUkd4cjNUZjR6MEIwTXhCeWxtSG5tdllfcngzdXVfOXVwV0dmMDQ3WnJ0RHNDOVdsb2tUejZqWFFGMEhiUHRZV1lIT3NNd3o0dEJGX1hZRlB6SUp5N3lnTjROd3VJVGNrUFRrZzJGejREVlVjay1pTFVYRC1JbzR1dE5MRUhpV3l3T1VyWHlKSjFxTHZyTWR2b0VVcFgtLVXSAeABQVVfeXFMTkdkODRyellMNHpyRHEzZHpXcnhsbkNXaG1mTWxaOWJlaWxOQ0RtTm9VcXV4aWZYMmduaWdFS0pqeUZib3lmSE9UR01kTXE2SS1waE5CUHlZNVBoaTFUMkZiUHl2VVVfWFRsRXlNNXVyQzFJdnQ0QlQ0ck5Ja1MtYWE2LThsUnlTMGttQU16RWRESVRvTlBESmwzUi1HRVJ5ZDVTNUIwTl96amp1WjhGSWV5b2tJblR5UW1feFB6X1JBOVJnekVpQ1VLbS1yd2htX2tha0U1YV9ERjliVldFeTQ?oc=5",
+      "published": "2026-10-15T22:20:00+00:00",
+      "source": {
+        "name": "Valora Analitik",
+        "url": "https://www.valoraanalitik.com"
+      }
+    },
+    {
+      "id": "4535e839988a",
+      "title": "México y Unión Europea abren diálogo sanitario con foco en regulación, medicamentos y cadenas de suministro - CódigoF",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQalFWY2NST21iUnVGRWFRTTVJb1A1QUF6X2I4U3pKNnVISVhmREx2T2FadnBsdHBOOHNGYjg1LWFrNHRwdG1TQndQNm01Z0xvdzlMdmpuYXIxMTlIdWRVVEkxSjhOYkVKQW80LWdQX3ZrZEZlQ0FKV0o2OU1iZUxLZG40bHdxZ1gtRWRQVmh2UzhqMDk3bXVFalZtb1Q0SHcycTNBWEtacVFkcG5EWmFQMUVrWlJGcEx4SFJRYUZ5RU1CbFJs?oc=5",
+      "published": "2026-10-15T23:54:47+00:00",
+      "source": {
+        "name": "CódigoF",
+        "url": "https://codigof.mx"
+      }
+    },
+    {
       "id": "1c096c70d1cd",
       "title": "Escasez de medicamentos en Europa: cómo está respondiendo la UE | Temas | Parlamento Europeo - European Parliament",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa2F5SllycVlQZmxTWGloeEMyOUdUZV81cXJyWkJkZWN3V2FOTk5QY19wODBNc19yMmExcmJtaWVERzBLazBQazE5R3E2dnBtSnNpWklpbTJ5VVBtQnFsRTFKOUxrQWI5UXExT2luTXZVdEVIZlhBSWZoTlhHWFAzcXY1SnRnVkhQSHA4am40QzVQOGFmclVXM1VVRjlHREJydXRrTEFPLVZpWkF4REFSTURyMkVFd1o3OFY3UUlUN00tUDJ0Zncw?oc=5",
@@ -654,33 +644,13 @@
       }
     },
     {
-      "id": "e7cde64e9d1b",
-      "title": "El Gobierno puso fin al Remediar: cuáles son los 6 medicamentos que quedaron del listado - Info del Estero",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRnVISzZ4dnduYkIwTWx1N2xUUEhUdC14ZVBBMnpyb1FmVkNVS0tHVUQ1Z0NoaEFUYzZ1Q0xHc1ZocUZTWm44WG4ycjV1ZmR3UWx1VmV1VnFEdDI5c2tDR2JyVHRiak1TRHNRaGJvS0dORThOU1pXaHBneWdVMm1EazJaSk4zZEhVd2VCOFBfS3B3N3BHSUEyV21DaHpvMktiSXg5QzBaUEZNQmY5VlR6S0hRZ0U1ZlBFTUFnLVNwN2tlUQ?oc=5",
-      "published": "2026-10-15T19:46:30+00:00",
+      "id": "b85bfb5086da",
+      "title": "“Fijate qué medicamento le puede dar la doctora, que ella no sabe”: las escuchas a la red de servicios médicos ilegales - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQS0RWRjdianRZQXFmalV0eUJnb0RwNFFBRUwteHo2RERQWWk3SHRfVm55d05DU1BXTWN5N01fb05ZM3NaRVpjZ1JVVWhTTHRnR0FaOGJXOFFqVXBwbEYtRjhfaE40T3BoVGg4aWlBdzFMRFpMYUl3bjJ6b2V0MHJDbFlNOW95UV9aNWl0M2o0VE5pRWxVNlBYQ0M5N3EzQTQtSWw3WnYzT1hhUXVTUkFiUW5MMVhuYmhsWVNNWDQybEV5dVExSFYtZGhpYlRJbnoyanJUb1YtbGVRQkVYNTJSWG9ZNF8zcEZGSkxfUnFyejFBeXhvV1N5MlZOaWdmaG1I0gGbAkFVX3lxTFB1cnRKekFGMkVlNEZ3ZkRwTDV5T1A2QmxzX1ZHN1pwR1V5d1hRVUdEczV5VVFRMUxIeHB1S2xtZDdFX0xRN2RDMGUwV2puOUVvWmZETVN2bGQ5WkZRaW5GZUU5SkswWGY2UWJFZVlSdG52eUk3Q2FJdTlFNU1pQnV3d2xxUU5ZaGlGRkRsbGtWcHN6SnNncDlnLWxJY0ZfajFlMmc5YlQ3XzR5Q0JRWUVWYU1MQThyLW1CZjEwUVZjZGVkcW1mOXI1Y2M4bTJlM2l0T1pwclA0NzNFQnliRmRiQUt5T0pDQkNFS2wzRWRuZi1XX0FsVVVURnFmeUt3azIzUXd5Q05fVGYwMkdta1hxcTNpcm9DbDdFMW8?oc=5",
+      "published": "2026-10-15T23:59:00+00:00",
       "source": {
-        "name": "Info del Estero",
-        "url": "https://infodelestero.com"
-      }
-    },
-    {
-      "id": "3a295ab21a2b",
-      "title": "Capacitan a 75 profesionales de salud en vigilancia de medicamentos y dispositivos médicos - El Imparcial",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORHZrdThzMkVaeE02VHp3cVNCclUwQVZmRDlVMWtPNG1WR1VyX0hxTWNheTZYYXBqTFVISFZCS1VveUtNRG5nZmozNlBJeWZ1ZzFvS0VLaUJiUlpRYjNBemY3NHlyYkQtRzBuLVNzdDAwUEFsNXg5S3dXRFNTUHJ3ZXZpMjhGTEFQX0RHZlpnSlctMEVianNKN2p5dXM4bzNxVlV6UGx3cWE0RFBmVlpCYV9NaW5CZndEdWNLdVNjTTVOTHVCeXdlN3daai1RSFhRTm9UaTVpb25NOWPSAfYBQVVfeXFMT3Qtd214STNOcVgtbEZjcEVtZjdGRlgwclNYMjlzMnhVbGhseFQzaWpocTRpcjVtUEd3aTNHS2hXaEFBOHBYUEhyWEZPMTBsYmFLNTM4UTB3Z2drWmMyVUs0aUI0eV9uRG1pVG1sWXh4UE9TNHVNR0s3OEU0TEhBSUZEZkFzY2dyVHNVcnc3Q2t3ZVdHMzdDYTFVVXRLelBrMGVIWEg4LWtIOUdWQk1hX3cxVG1tZEo5cGFKbzJzeGJ2b0owZGdTbS1POURyTTYxWHh4NGV0VHl6S1dMQUpkRUxtWEJocHY5RjlGdEJVQjBHTFg1NkpR?oc=5",
-      "published": "2026-10-15T23:18:04+00:00",
-      "source": {
-        "name": "El Imparcial",
-        "url": "https://www.elimparcial.com"
-      }
-    },
-    {
-      "id": "c5cf2eee657d",
-      "title": "Académico advierte que abrir farmacias sin químicos farmacéutico no garantiza mayor acceso a medicamentos - Portal Red Salud",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZkp6SGRzdjZLZV90SkFJdTBBaUZ3Y04zQ1VlX3MwVXFtYUc3UDlHNW1JRno0VHBDNW5CMG83VjMwUVBORGdZcFhsOWU2ZTZJa09nSmdNVS1IdGg5aG1qSmt5RVV4cFVlUkNLczlVSFZaUVhZN3F0YzBqdF9wcHZ4S1AydkFUOHRZWDhhQXBoN19CbGE3ejVSRGJLY0o4ckV0dGZQdWJ2TFBvRzhKWndldDhqQnFhVkVZMkpaTHphWDRmelVHV3ctUjAwWWczU1JDcEZvN29IRmhuamc?oc=5",
-      "published": "2026-10-15T19:15:25+00:00",
-      "source": {
-        "name": "Portal Red Salud",
-        "url": "https://portalredsalud.cl"
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
       }
     },
     {
@@ -694,23 +664,13 @@
       }
     },
     {
-      "id": "cc35a57f4e88",
-      "title": "Alerta del Invima por Buscapina falsificada en Colombia: este es el lote que debe revisar - Vanguardia",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeEhNaFhuSTJnV3VobXRhR0o4dlByTmdfZDZITllSbmVtVy1JM05DR3FoYXdiak5WcllidjhEN1FNYjRZdnJSdUFxaVlMTHFtUzY0SXVqUVRBNmpld1o3dVBFTFVna2NFbVRWc0NKcEg0QndTbG9ncjhFZWF1OE9rQUpRcUd0ZU9VSjBmdGhUeWJmZl93LTFTRmMtTERMQnpkWDNkRmEwREtnc2htTl9idUJCbHZGVUNDRXpKbkpTbnZTbkpiZnRESHNTRnFuVHdfdVpmazJzZEd2MV9oQWN2LXBEVWs?oc=5",
-      "published": "2026-10-15T17:16:00+00:00",
+      "id": "e521d0b37f7d",
+      "title": "Plan de choque en salud: 273.000 pacientes recibieron medicamentos, pero falta entregar el 60,8% de los pendientes - Portafolio.co",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQkhjb0RoaHo0ODdYSXpKQktFSmFhNjBXQlBWLWFXbkFyZld2MVNVSjY0YnNNaFp2TFJMdEZfOC04M2FNVmtiWGx5Vk82d0dvQjNQSXUwbUNFR0d1SjRhMVRpZ3lFQW9sMnF4cFNKMjVxMV9leXRLUXlRb0E0N2N5OW5lXzlvZktBaWJGQnU3NV9wT0NSM0ZhRVpxUGExNDBVZ1VlLWpUTk13Q3V5X29aWXVEa3d3N0hEdE5iQkFZbzVPRWF2OFpDcHVwamhhczZIYk5NRkdoczBFeXRBS19BZnZQaFVoMVdUTGxNbENQNWlCOEIx0gH6AUFVX3lxTFBueHdLbXpKZ25za2tkTmRWQTgwZXVhT0FGbjZLYXBzbGxLcXNOdXlLTHU4c0lhZWlXZnU3RnNVU0x3ZWVzeW5LM1pxaWcxb0hYVVRza0U3Z3dCYTVvRE5ibmpia0w3OWZKR1pweGZEd3JXWnNJdnE0elpQQ2YxeGx4V3l0ZkVRX0Jfbzc5NTJBZ2lDei1SQXVBV1BRNldPdFB1NHpqempodW1MdkNVSWgyZkJjQjZ6alVzMGZCMmZITmtfYkRyUjE5STd2cWkwRXk2YzQ2bkNFTlZNSnYwQjVPeVFCRklfSjlrTzgzcnMxV3VmQ25wUmR6eFE?oc=5",
+      "published": "2026-10-15T20:11:01+00:00",
       "source": {
-        "name": "Vanguardia",
-        "url": "https://www.vanguardia.com"
-      }
-    },
-    {
-      "id": "893ac6cd6fd5",
-      "title": "Aurelio Rojas, cardiólogo, sobre la cúrcuma: “A pesar de sus efectos antiinflamatorios, puede interferir con los medicamentos para la diabetes” - Radio Mitre",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOeDQtTmpfY3hoS0x3U1kyVW9NSjJBT1FKSEM5dF9mRzBad0lFR3lMak1acDRBMDlNZGMxcDBYdEFmOE9sdXpkc25GelV6UVRUUzBCWkNLUnM3S1hJb3AyaGVxcThOVWk3S3RTcGw4MHFyTXdLUHliZmJrcmJtektCMG9IbGdKamxRY3ZvZG5KZ205MGZTQWpwYWRLOUFrTkRjYllsb2syU3czOEdwUllEZHpqOFlmNnhOWEFmU2dsZjZyRHVMc1o1NVMtY1JQN05OdGpyR2g3NDhaeFNfVDJCNU1HUHA1ZnlqZF9VVU5mc0ZibHBaZmNzMHRTY3p0UUNjRDcxendOcXVFY3lSVDN5WWF4dzlwMmUyenc?oc=5",
-      "published": "2026-10-15T21:53:51+00:00",
-      "source": {
-        "name": "Radio Mitre",
-        "url": "https://radiomitre.cienradios.com"
+        "name": "Portafolio.co",
+        "url": "https://www.portafolio.co"
       }
     },
     {
@@ -734,6 +694,16 @@
       }
     },
     {
+      "id": "c5cf2eee657d",
+      "title": "Académico advierte que abrir farmacias sin químicos farmacéutico no garantiza mayor acceso a medicamentos - Portal Red Salud",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZkp6SGRzdjZLZV90SkFJdTBBaUZ3Y04zQ1VlX3MwVXFtYUc3UDlHNW1JRno0VHBDNW5CMG83VjMwUVBORGdZcFhsOWU2ZTZJa09nSmdNVS1IdGg5aG1qSmt5RVV4cFVlUkNLczlVSFZaUVhZN3F0YzBqdF9wcHZ4S1AydkFUOHRZWDhhQXBoN19CbGE3ejVSRGJLY0o4ckV0dGZQdWJ2TFBvRzhKWndldDhqQnFhVkVZMkpaTHphWDRmelVHV3ctUjAwWWczU1JDcEZvN29IRmhuamc?oc=5",
+      "published": "2026-10-15T19:15:25+00:00",
+      "source": {
+        "name": "Portal Red Salud",
+        "url": "https://portalredsalud.cl"
+      }
+    },
+    {
       "id": "913c0d783d63",
       "title": "La carrera por ocultar el precio de los medicamentos - Salud por Derecho",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0g5NXc0YzBKZmlXSTVRSV9YMjJuNlk2RzFHOU9HVHpwLV9jWDE4Ykd6RXFsTDdEQ0I1SjNPY2J2VjRLLXdnYmdieGtGT0ctWWlPZjBYMkNoZ1NsRk5yVUI4N0xVbGJUTlZhSWVLekktS0I4Z1dIZ04xek9hOFVUcXA4VW1jVVd3?oc=5",
@@ -741,16 +711,6 @@
       "source": {
         "name": "Salud por Derecho",
         "url": "https://saludporderecho.org"
-      }
-    },
-    {
-      "id": "3c8dbb46e016",
-      "title": "El Gobierno oficializó la quita de 92 medicamentos del Programa Remediar y traslada el gasto a las provincias - El Destape",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa2h2R18xMnNmNFF0a01hRFpaVDdURDladWRsaTY4c3laeUFiSTFQdVBiei1WRnFuYVpzU3dsYmxsME13THVNdDhZa3dqTmplcmZxLTlEempVdGJ4dmRLbmY3MlhfbEtFUmU1Mk5FYUk4SnktdzZ1UUhiVy15OW54Xy1KbVRma1VadXNqOGIwYTh1aWY4ckktY1M3Zl8wY05JTjROcS1BbHNnRTdjbVpxRXVZeWUtSS1lUXJzcm56OFZYTEIzd3RnOTFuN3VybXhNN3hoatIB6AFBVV95cUxQa1d0bGtneld5cVhTQ2taOHlqajVZMnlWTDczTy1CQ3VKS0M3SzRaQVZUSFl0MGp1VnhWdmJHT2lxRi1UQzB3dWpCV2JJdDNUeTdKMHlUa2pJWlVNV0Q5SUk4ZVNmcE9FZkVqTDMxaW9tOUxQQ1h1cWxrRHIzYmNFMGZKNU5BaVBaQS1hQVBaRXNKREw1akg3a3JaX1JpZlZGU0hSbHBQODNmeVZXWEpqblJ3Q3l0QVgwOHhUdWVMTUlRMXNxMnBYV3BqVmNZRFM0ems1dkRqLUUzbE92bE94UklSNXl0Tm0z?oc=5",
-      "published": "2026-10-15T23:31:27+00:00",
-      "source": {
-        "name": "El Destape",
-        "url": "https://www.eldestapeweb.com"
       }
     },
     {
@@ -774,26 +734,6 @@
       }
     },
     {
-      "id": "e92e0821339c",
-      "title": "Plan de Choque en Salud: más de 273 mil pacientes reportan entregas de medicamentos pendientes - Blu Radio",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcjl4d3EzX1dibXptRXN5RVpaWldENHN6VmphQkJXTUE1NWM1RFVmak1mdkR5eG1NVWdiYmpBUzIxb2x5LXMzMHJueUx3dzNXVlduMnZHQXk4Z3drdnRwV0hldjJHallYNmQzT1ZmZFA4ZkMyYzVYYWxZZ19qWWZqUy01RzV1cXFTRHRwb1cxUWY3c2Q5QUF0S0E1ejRxbEhOdVRIVWxKM19BdXUxQTlzVFZRQlN5d09aR0dEalc4N29SMG9admZDTA?oc=5",
-      "published": "2026-10-15T22:32:13+00:00",
-      "source": {
-        "name": "Blu Radio",
-        "url": "https://www.bluradio.com"
-      }
-    },
-    {
-      "id": "3586856453fb",
-      "title": "Sabotajes contra medicamentos - El Financiero",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY0hiS2dGOGRwakw5YW9hYVhUakdValM1RnRodlVGX1puSzdWZncxanhlalB4cUI0Qk85WlppdHpXM3hGQzhGSS11bS13SHhrd19aRWloVzJ0Nk1FVXdWeS1KT1VBQldJNlpsOGJtUzlFRGUwRW5HYkRLOXVfX0pfSlAwVDBxVWM5WXdEcEctUThQeHhZT3ctcHh4dEV3OWJteUhHSVpR?oc=5",
-      "published": "2026-10-15T10:56:05+00:00",
-      "source": {
-        "name": "El Financiero",
-        "url": "https://www.elfinanciero.com.mx"
-      }
-    },
-    {
       "id": "b46ed12872f3",
       "title": "El valor social influirá en la financiación de medicamentos - Roche España",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLVNuX3ZXT05YWnR2d0w5RVV2YWdqOXNWUEhEN21pd21TdlFPR0xOX0R3WE9qMldTY1RCOHpSenU5SlVoeEtidHZ0TG81dzhPSHhFbXhhdUZsYWpyb1dpeldfS1NwcGNqZFNTRXFDdGFjU0ZpaXRMQlBNcEcxZ1hRZVkySDNnaFJ6YnZlcW4tbkotVVFDUjhOc2tPN1h0OWE4S2c?oc=5",
@@ -801,6 +741,16 @@
       "source": {
         "name": "Roche España",
         "url": "https://www.roche.es"
+      }
+    },
+    {
+      "id": "3a295ab21a2b",
+      "title": "Capacitan a 75 profesionales de salud en vigilancia de medicamentos y dispositivos médicos - El Imparcial",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORHZrdThzMkVaeE02VHp3cVNCclUwQVZmRDlVMWtPNG1WR1VyX0hxTWNheTZYYXBqTFVISFZCS1VveUtNRG5nZmozNlBJeWZ1ZzFvS0VLaUJiUlpRYjNBemY3NHlyYkQtRzBuLVNzdDAwUEFsNXg5S3dXRFNTUHJ3ZXZpMjhGTEFQX0RHZlpnSlctMEVianNKN2p5dXM4bzNxVlV6UGx3cWE0RFBmVlpCYV9NaW5CZndEdWNLdVNjTTVOTHVCeXdlN3daai1RSFhRTm9UaTVpb25NOWPSAfYBQVVfeXFMT3Qtd214STNOcVgtbEZjcEVtZjdGRlgwclNYMjlzMnhVbGhseFQzaWpocTRpcjVtUEd3aTNHS2hXaEFBOHBYUEhyWEZPMTBsYmFLNTM4UTB3Z2drWmMyVUs0aUI0eV9uRG1pVG1sWXh4UE9TNHVNR0s3OEU0TEhBSUZEZkFzY2dyVHNVcnc3Q2t3ZVdHMzdDYTFVVXRLelBrMGVIWEg4LWtIOUdWQk1hX3cxVG1tZEo5cGFKbzJzeGJ2b0owZGdTbS1POURyTTYxWHh4NGV0VHl6S1dMQUpkRUxtWEJocHY5RjlGdEJVQjBHTFg1NkpR?oc=5",
+      "published": "2026-10-15T23:18:04+00:00",
+      "source": {
+        "name": "El Imparcial",
+        "url": "https://www.elimparcial.com"
       }
     },
     {
@@ -834,6 +784,26 @@
       }
     },
     {
+      "id": "e7cde64e9d1b",
+      "title": "El Gobierno puso fin al Remediar: cuáles son los 6 medicamentos que quedaron del listado - Info del Estero",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRnVISzZ4dnduYkIwTWx1N2xUUEhUdC14ZVBBMnpyb1FmVkNVS0tHVUQ1Z0NoaEFUYzZ1Q0xHc1ZocUZTWm44WG4ycjV1ZmR3UWx1VmV1VnFEdDI5c2tDR2JyVHRiak1TRHNRaGJvS0dORThOU1pXaHBneWdVMm1EazJaSk4zZEhVd2VCOFBfS3B3N3BHSUEyV21DaHpvMktiSXg5QzBaUEZNQmY5VlR6S0hRZ0U1ZlBFTUFnLVNwN2tlUQ?oc=5",
+      "published": "2026-10-15T19:51:47+00:00",
+      "source": {
+        "name": "Info del Estero",
+        "url": "https://infodelestero.com"
+      }
+    },
+    {
+      "id": "3c8dbb46e016",
+      "title": "El Gobierno oficializó la quita de 92 medicamentos del Programa Remediar y traslada el gasto a las provincias - El Destape",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa2h2R18xMnNmNFF0a01hRFpaVDdURDladWRsaTY4c3laeUFiSTFQdVBiei1WRnFuYVpzU3dsYmxsME13THVNdDhZa3dqTmplcmZxLTlEempVdGJ4dmRLbmY3MlhfbEtFUmU1Mk5FYUk4SnktdzZ1UUhiVy15OW54Xy1KbVRma1VadXNqOGIwYTh1aWY4ckktY1M3Zl8wY05JTjROcS1BbHNnRTdjbVpxRXVZeWUtSS1lUXJzcm56OFZYTEIzd3RnOTFuN3VybXhNN3hoatIB6AFBVV95cUxQa1d0bGtneld5cVhTQ2taOHlqajVZMnlWTDczTy1CQ3VKS0M3SzRaQVZUSFl0MGp1VnhWdmJHT2lxRi1UQzB3dWpCV2JJdDNUeTdKMHlUa2pJWlVNV0Q5SUk4ZVNmcE9FZkVqTDMxaW9tOUxQQ1h1cWxrRHIzYmNFMGZKNU5BaVBaQS1hQVBaRXNKREw1akg3a3JaX1JpZlZGU0hSbHBQODNmeVZXWEpqblJ3Q3l0QVgwOHhUdWVMTUlRMXNxMnBYV3BqVmNZRFM0ems1dkRqLUUzbE92bE94UklSNXl0Tm0z?oc=5",
+      "published": "2026-10-15T23:32:12+00:00",
+      "source": {
+        "name": "El Destape",
+        "url": "https://www.eldestapeweb.com"
+      }
+    },
+    {
       "id": "9ee74c13a339",
       "title": "Problemas de suministro de medicamentos - Agencia Española de Medicamentos y Productos Sanitarios",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY3c1NEltaFk1MERaejlBRkFhS2xLOEx1bmZ3WjhzUzlzandZUFdWZTFlcFdET3RyVWxhdG1hWjlHWHhQM2RpeTd1eGRkams2cHNBR2cyQ3R3TFN1bkw1RlY3eHZvdjF6b2syanRIVDhteWJla1NtWVJtdEk2dEFuQmduRFZ6WC15MW1TRW10LXNxRHc?oc=5",
@@ -844,6 +814,16 @@
       }
     },
     {
+      "id": "cc35a57f4e88",
+      "title": "Alerta del Invima por Buscapina falsificada en Colombia: este es el lote que debe revisar - Vanguardia",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeEhNaFhuSTJnV3VobXRhR0o4dlByTmdfZDZITllSbmVtVy1JM05DR3FoYXdiak5WcllidjhEN1FNYjRZdnJSdUFxaVlMTHFtUzY0SXVqUVRBNmpld1o3dVBFTFVna2NFbVRWc0NKcEg0QndTbG9ncjhFZWF1OE9rQUpRcUd0ZU9VSjBmdGhUeWJmZl93LTFTRmMtTERMQnpkWDNkRmEwREtnc2htTl9idUJCbHZGVUNDRXpKbkpTbnZTbkpiZnRESHNTRnFuVHdfdVpmazJzZEd2MV9oQWN2LXBEVWs?oc=5",
+      "published": "2026-10-15T17:16:00+00:00",
+      "source": {
+        "name": "Vanguardia",
+        "url": "https://www.vanguardia.com"
+      }
+    },
+    {
       "id": "297ed81baa9a",
       "title": "Nuevo Proyecto de Real Decreto de financiación de medicamentos - Cuatrecasas",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV1NWSmhLdlM5Q3dlaHhYTFZhdWc4SVIwcDFyb1BERVJlcXA3dklFenBoQzZBWmI4X3JVdWpGU2NFNzdxczZpWjVlV3dGT2hFOHN3UDl0amk4MWsxQW15ZURqQTlMcDRkbi15aTI0TWhOTEdVenFjV2tTcTYtTDFKa09hNTJISGd6U1U0aVo3Z0xudVAzbXRwY3NwbXF4dGtaRFl3UExQUzJrX1EycnJucVpPUlprMGZW?oc=5",
@@ -851,16 +831,6 @@
       "source": {
         "name": "Cuatrecasas",
         "url": "https://www.cuatrecasas.com"
-      }
-    },
-    {
-      "id": "a4569fedce37",
-      "title": "Un estudio vincula los medicamentos GLP-1 con un incremento en la fertilidad de las mujeres - Telemundo",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQSnQ3TXVIdHh3T0Y4LWJYMjl6NVJVcThDNzRyXzMzVkY5cGhDMzBjX3JjcmQ5Rk5XdkpldTltS1RNTnJpSVdkbVM5bmlsUWZhWmp2TjdKTnVEbnprUUhJNWRmTmJxbU9heHAzS2tvU3NoWlMtNXBLT1kwWXNZMUNrR3FMU3dGS2ZJaHVhYUUyUjhwekhMUUZPRDNHN3ZjcTdnVndvMDRUdUo3aGJZM1pTRGp6U3k3aGRIZGVsaHctWHB6VnktTGo0S1hCU1JiNk5La1dNbDkzQWFaQ1hhZW9LMlFDU3NzUWo2VHd5WHNsYnlwcU5rS042dVQ3ZnZWV1BiRHpRUWU5R3NDMUk?oc=5",
-      "published": "2026-10-14T04:38:00+00:00",
-      "source": {
-        "name": "Telemundo",
-        "url": "https://www.telemundo.com"
       }
     },
     {
@@ -884,6 +854,26 @@
       }
     },
     {
+      "id": "a4569fedce37",
+      "title": "Un estudio vincula los medicamentos GLP-1 con un incremento en la fertilidad de las mujeres - Telemundo",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQSnQ3TXVIdHh3T0Y4LWJYMjl6NVJVcThDNzRyXzMzVkY5cGhDMzBjX3JjcmQ5Rk5XdkpldTltS1RNTnJpSVdkbVM5bmlsUWZhWmp2TjdKTnVEbnprUUhJNWRmTmJxbU9heHAzS2tvU3NoWlMtNXBLT1kwWXNZMUNrR3FMU3dGS2ZJaHVhYUUyUjhwekhMUUZPRDNHN3ZjcTdnVndvMDRUdUo3aGJZM1pTRGp6U3k3aGRIZGVsaHctWHB6VnktTGo0S1hCU1JiNk5La1dNbDkzQWFaQ1hhZW9LMlFDU3NzUWo2VHd5WHNsYnlwcU5rS042dVQ3ZnZWV1BiRHpRUWU5R3NDMUk?oc=5",
+      "published": "2026-10-14T04:38:00+00:00",
+      "source": {
+        "name": "Telemundo",
+        "url": "https://www.telemundo.com"
+      }
+    },
+    {
+      "id": "6e24b82982b1",
+      "title": "Empresa pública AIL recibe asignación del Ministerio de Salud, de USD 17 millones, para primera compra de medicamentos e insumos - Primicias",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV3dLSFNJa1NwVTZQamZGM2M0SjJranNfN0I0b1prOVJPYkJqRklCZVhiclBPS0xWUUtZclRGR0N2ZHI0SmJVTWQ2Z3FwNmMxSTJTUHcyWk9yaXQ2OHB2T1ViSV9jbGt3Z0RkYklfekNFXzN2cFFMODBybGNhcTFGWHpfZ3QyWk15Mm5IdVNiY3M4R2d3Sm5OaWtFXzRPSHZsNzc3YU9mZms1NU9vbVBNMEExY1loeEJjLVoxQXZR?oc=5",
+      "published": "2026-10-16T01:28:21+00:00",
+      "source": {
+        "name": "Primicias",
+        "url": "https://www.primicias.ec"
+      }
+    },
+    {
       "id": "b9b528a01e70",
       "title": "APL de medicamentos: Sanidad lleva al Consejo de Estado un texto reescrito a fondo - Diariofarma",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS1FSWDE1cnRzVjJMRG85VGdNSXFFa29TUnBGQks0UzZ3UzdrWXZDTHYwdEFLQUxQZ1A1UWVHWjZCVGkzaUplLS1saFFZb0pfcEJVSmtjQW1RejJGZTNwdjBuM19iMlNpNWowVG5tOUpsMDB3cC1FaUFYVWZlY2tFZDJVa1lqQ1M2TEIwRTFGZllSQXh4TkdZYzRYSjEzVXdQWHkwTzN3anE5a0JUYWpwUXRSd0F1Uzg?oc=5",
@@ -901,6 +891,16 @@
       "source": {
         "name": "www.caib.es",
         "url": "https://www.caib.es"
+      }
+    },
+    {
+      "id": "893ac6cd6fd5",
+      "title": "Aurelio Rojas, cardiólogo, sobre la cúrcuma: “A pesar de sus efectos antiinflamatorios, puede interferir con los medicamentos para la diabetes” - Radio Mitre",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOeDQtTmpfY3hoS0x3U1kyVW9NSjJBT1FKSEM5dF9mRzBad0lFR3lMak1acDRBMDlNZGMxcDBYdEFmOE9sdXpkc25GelV6UVRUUzBCWkNLUnM3S1hJb3AyaGVxcThOVWk3S3RTcGw4MHFyTXdLUHliZmJrcmJtektCMG9IbGdKamxRY3ZvZG5KZ205MGZTQWpwYWRLOUFrTkRjYllsb2syU3czOEdwUllEZHpqOFlmNnhOWEFmU2dsZjZyRHVMc1o1NVMtY1JQN05OdGpyR2g3NDhaeFNfVDJCNU1HUHA1ZnlqZF9VVU5mc0ZibHBaZmNzMHRTY3p0UUNjRDcxendOcXVFY3lSVDN5WWF4dzlwMmUyenc?oc=5",
+      "published": "2026-10-15T21:53:51+00:00",
+      "source": {
+        "name": "Radio Mitre",
+        "url": "https://radiomitre.cienradios.com"
       }
     },
     {
@@ -924,13 +924,13 @@
       }
     },
     {
-      "id": "638814eef5bf",
-      "title": "Tulum abastece de medicamentos las Casas de Salud - Quintana Roo Hoy",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3hBVE45ZDNoN0Q4TVF5SmRndURrU3J5MXlfb0VaYkZhVEdkSE5VdVExaThab1pDakpOQUJJNUZwa0xkZnlYeUhFaHl3cFVzSkhQOUR4UWJQSXMwZ1ZiMm81RUFmTDNMTEt6NWRqcDVtV0tjRVp2QVpWRjhOLXhBQlNTNU9rNTd3aDU5bWdWNlh5a1ozaVlsUnd3QQ?oc=5",
-      "published": "2026-10-15T19:32:02+00:00",
+      "id": "e92e0821339c",
+      "title": "Plan de Choque en Salud: más de 273 mil pacientes reportan entregas de medicamentos pendientes - Blu Radio",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcjl4d3EzX1dibXptRXN5RVpaWldENHN6VmphQkJXTUE1NWM1RFVmak1mdkR5eG1NVWdiYmpBUzIxb2x5LXMzMHJueUx3dzNXVlduMnZHQXk4Z3drdnRwV0hldjJHallYNmQzT1ZmZFA4ZkMyYzVYYWxZZ19qWWZqUy01RzV1cXFTRHRwb1cxUWY3c2Q5QUF0S0E1ejRxbEhOdVRIVWxKM19BdXUxQTlzVFZRQlN5d09aR0dEalc4N29SMG9admZDTA?oc=5",
+      "published": "2026-10-15T22:32:13+00:00",
       "source": {
-        "name": "Quintana Roo Hoy",
-        "url": "https://quintanaroohoy.com"
+        "name": "Blu Radio",
+        "url": "https://www.bluradio.com"
       }
     },
     {
@@ -944,33 +944,13 @@
       }
     },
     {
-      "id": "03454145c6a7",
-      "title": "Recorte en el Remediar: la Nación distribuirá solo 6 drogas - Diario Huarpe",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSnJtQlNGa1o1eVh5cmxXMk92Wk1Ydl9hUXJTcWdRV1R1Um5NclR1TzV6ZVdMYi1TYXNSelRJMWo0SFJlRDJwZnFZajZsR0JlcDRnbnVzc2R1b0xQczVOSFBiSjlsUWxTT1Z2TjJnakR4TkZmLXFRM0ozbDg4T0dmUloyVDUyVUktVEl2REcxZlBPd2NfZjZpY3pTbEVlRHpmN1hZV0dZNUpiM0V2TFN1clFtb0hZeXlDRFE?oc=5",
-      "published": "2026-10-15T21:48:58+00:00",
+      "id": "3586856453fb",
+      "title": "Sabotajes contra medicamentos - El Financiero",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY0hiS2dGOGRwakw5YW9hYVhUakdValM1RnRodlVGX1puSzdWZncxanhlalB4cUI0Qk85WlppdHpXM3hGQzhGSS11bS13SHhrd19aRWloVzJ0Nk1FVXdWeS1KT1VBQldJNlpsOGJtUzlFRGUwRW5HYkRLOXVfX0pfSlAwVDBxVWM5WXdEcEctUThQeHhZT3ctcHh4dEV3OWJteUhHSVpR?oc=5",
+      "published": "2026-10-15T10:56:05+00:00",
       "source": {
-        "name": "Diario Huarpe",
-        "url": "https://www.diariohuarpe.com"
-      }
-    },
-    {
-      "id": "2065e4d438f2",
-      "title": "Sheinbaum promete solucionar la falta de medicamentos en la salud pública de México - HolaNews",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXdzNFZYWmxrWmpLbHFRWnZ1bjlub3BkYTdYM01jTWJyQ21xUlFTZHpCc3ljZklsTWQ5bmFMNFNwV2FxS2VnSjcwakFMS3JwQXZKSHFCSXFnQ09ZUVRleU9VaDExbW9Ud29KNjJKb3FaeXJCMkxPQk0xbE41VTJQTUJPRVBRdjNha0pJMTFjUEVSbXN2Ri0zeXdFS0FzLUhnTTlHNVdQODg?oc=5",
-      "published": "2026-10-14T16:35:41+00:00",
-      "source": {
-        "name": "HolaNews",
-        "url": "https://holanews.com"
-      }
-    },
-    {
-      "id": "42dea7590fae",
-      "title": "Sector salud: Sabotajes contra medicamentos han detonado el desabasto - vanguardia.com.mx",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ19QRHY0STNiT0wxdEFfTkhBV1FDZm9maVJiVXBHTzRkbXJpZ29KUkJpM2kxQkc3bnJLN2laX0ZoQ3BUTndkc25jSmd5MjRyd2tHcFAzMzFWMEtBaC1MRjBxeG5CZTVOQXN4bXI3d0UxWUdQMzJjanUzNjZCWTZ3ekM3N19mNzFGZGJORFBNZFNFWlV2VjFlQzI3bzNvYVY3aE9FQkIwOGhqOENFYUROUlhhSQ?oc=5",
-      "published": "2026-10-15T11:00:00+00:00",
-      "source": {
-        "name": "vanguardia.com.mx",
-        "url": "https://vanguardia.com.mx"
+        "name": "El Financiero",
+        "url": "https://www.elfinanciero.com.mx"
       }
     },
     {
@@ -981,6 +961,16 @@
       "source": {
         "name": "navarra.es",
         "url": "https://www.navarra.es"
+      }
+    },
+    {
+      "id": "2065e4d438f2",
+      "title": "Sheinbaum promete solucionar la falta de medicamentos en la salud pública de México - HolaNews",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXdzNFZYWmxrWmpLbHFRWnZ1bjlub3BkYTdYM01jTWJyQ21xUlFTZHpCc3ljZklsTWQ5bmFMNFNwV2FxS2VnSjcwakFMS3JwQXZKSHFCSXFnQ09ZUVRleU9VaDExbW9Ud29KNjJKb3FaeXJCMkxPQk0xbE41VTJQTUJPRVBRdjNha0pJMTFjUEVSbXN2Ri0zeXdFS0FzLUhnTTlHNVdQODg?oc=5",
+      "published": "2026-10-14T16:35:41+00:00",
+      "source": {
+        "name": "HolaNews",
+        "url": "https://holanews.com"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Diariofarma",
         "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "bafdc01c942a",
+      "title": "Vigilar y controlar entrega de medicamentos a personas sin seguridad social, pide diputada - Billie Parker Noticias",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2Q4Q09FdWpXUTlmWE9HTFFMcVFRejVSMGVRcW82UXVHMlQwR3pMM1g0MTgzaTBnX2swXzM2endBQjhlUVBKQUZFOGdybVBXNk5fQjlyWE9kNVg1eVJQNVhETzhHcTlUa01FQ0Y5OWE0TW8zUHJNRmhqeURRdWJtbW90OFFWdnBHZmliaEJXS3BwdEwwSzlQZGQ1N29ZR1lxZm5LY21xZGJCemN6TXgwZEJWSXVrd2tuR0U4U1NyMng?oc=5",
+      "published": "2026-10-16T03:02:59+00:00",
+      "source": {
+        "name": "Billie Parker Noticias",
+        "url": "https://billieparkernoticias.com"
       }
     }
   ]
