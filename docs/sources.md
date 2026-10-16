@@ -36,7 +36,7 @@ Cada conclusión puede rastrearse hasta una fuente de datos pública: nada es un
 
 Cada fuente tiene su propia licencia; consúltela antes de citar:
 
-- **TxGNN**: uso académico; cite a Huang et al. (2023)
+- **TxGNN**: uso académico; cite a Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: datos públicos de los NIH de EE. UU.
 - **DrugBank**: uso no comercial sujeto a sus condiciones de licencia
 - **AEMPS**: sujeto a las condiciones de datos abiertos del organismo regulador de España
@@ -55,7 +55,7 @@ Cada fuente tiene su propia licencia; consúltela antes de citar:
 
 ## Cita académica
 
-> Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
+> Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
 > [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---
