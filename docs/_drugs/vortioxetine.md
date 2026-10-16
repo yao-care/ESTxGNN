@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (nivel de evidencia L4). Indicación original: Trastorno depresivo mayor (depresión unipolar…"
+monitor_inn: "Vortioxetine"
+predicted_indications: ["neurotic disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
 ---
 
 # Vortioxetine

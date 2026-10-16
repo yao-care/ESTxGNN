@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lanreotide: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Acromegalia (según el grafo de conocimiento"
+monitor_inn: "Lanreotide"
+predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 ---
 
 # Lanreotide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Trombocitopenia autoinmune (según el grafo de conocimiento"
+monitor_inn: "ELTROMBOPAG"
+predicted_indications: ["HIV infectious disease"]
 ---
 
 # Eltrombopag

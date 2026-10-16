@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: Hipertensión e hiperplasia prostática benigna (según el grafo de cono…"
+monitor_inn: "Doxazosin"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Doxazosin

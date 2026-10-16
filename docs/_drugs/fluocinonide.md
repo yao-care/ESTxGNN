@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Fluocinonide: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: Dermatosis inflamatorias y pruriginosas de la piel (la ficha de la au…"
+monitor_inn: "Fluocinonide"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
 ---
 
 # Fluocinonide

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Endometriosis (según el grafo de conocimiento"
+monitor_inn: "tranexamic acid"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Tranexamic Acid

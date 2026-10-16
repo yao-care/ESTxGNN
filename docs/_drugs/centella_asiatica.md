@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Centella Asiatica: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+monitor_inn: "centella asiatica"
+predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Centella Asiatica

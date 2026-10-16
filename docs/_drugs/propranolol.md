@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Propranolol: nueva indicación predicha, Miopatía distal tipo Tateyama (nivel de evidencia L5). Indicación original: Hipertensión (según el grafo de conocimiento"
+monitor_inn: "PROPRANOLOL"
+predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "chondroma", "cirrhotic cardiomyopathy", "cardiomyopathy"]
 ---
 
 # Propranolol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Apomorphine: nueva indicación predicha, Esquizofrenia (la predicción nº 1 del modelo es polimicrogiria perisi… (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parki…"
+monitor_inn: "Apomorphine"
+predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
 ---
 
 # Apomorphine

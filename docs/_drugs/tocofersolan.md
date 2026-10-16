@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tocofersolan: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS"
+monitor_inn: "tocofersolan"
+predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
 ---
 
 # Tocofersolan

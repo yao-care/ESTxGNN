@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Cáncer de ovario (según las indicaciones originales del grafo de cono…"
+monitor_inn: "topotecan"
+predicted_indications: ["female breast carcinoma", "adult germ cell tumor", "testicular yolk sac tumor, solid pattern", "testicular yolk sac tumor, papillary pattern", "testicular yolk sac tumor, hepatoid pattern", "enteric pattern testicular yolk sac tumor", "testicular yolk sac tumor, macrocystic pattern", "reticular pattern testicular yolk sac tumor", "polyvesicular vitelline pattern testicular yolk sac tumor", "testicular yolk sac tumor, endodermal sinus pattern"]
 ---
 
 # Topotecan

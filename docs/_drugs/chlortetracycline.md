@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Chlortetracycline: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Tracoma…"
+monitor_inn: "chlortetracycline"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 ---
 
 # Chlortetracycline

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Acyclovir: nueva indicación predicha, Verrugas comunes (la predicción de mayor puntaje… (nivel de evidencia L2). Indicación original: Infecciones por herpes simple, herpes zóster, varicela, herpes la…"
+monitor_inn: "Acyclovir"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
 ---
 
 # Acyclovir

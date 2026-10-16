@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Pentostatin: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (nivel de evidencia L5). Indicación original: Leucemia de células peludas (según el grafo de conocimiento"
+monitor_inn: "pentostatin"
+predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma"]
 ---
 
 # Pentostatin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Vincamine: nueva indicación predicha, Hemorragia subaracnoidea (nivel de evidencia L5). Indicación original: No disponible en los datos de la licencia"
+monitor_inn: "vincamine"
+predicted_indications: ["subarachnoid hemorrhage (disease)"]
 ---
 
 # Vincamine

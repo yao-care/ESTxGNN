@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vitamin A: nueva indicación predicha, Deficiencia congénita de protrombina (primera predicción del modelo (nivel de evidencia L5). Indicación original: Trastorno por deficiencia vitamínica / deficien…"
+monitor_inn: "Vitamin A"
+predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 ---
 
 # Vitamin A

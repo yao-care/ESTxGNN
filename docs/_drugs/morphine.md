@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Morphine: nueva indicación predicha, Síndrome de piernas inquietas (puntaje más alto del modelo: síndrome… (nivel de evidencia L5). Indicación original: Enfermedad diarreica (según el grafo de conoci…"
+monitor_inn: "Morphine"
+predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 ---
 
 # Morphine

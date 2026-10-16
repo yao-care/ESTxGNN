@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atomoxetine: nueva indicación predicha, Trastorno específico del desarrollo (nivel de evidencia L3). Indicación original: Trastorno por déficit de atención e hiperactividad (TDAH)"
+monitor_inn: "Atomoxetine"
+predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
 ---
 
 # Atomoxetine

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Elbasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (nivel de evidencia L4). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
+monitor_inn: "elbasvir"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Elbasvir

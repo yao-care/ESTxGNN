@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Laronidase: nueva indicación predicha, Enfermedad de depósito lisosomal con afectación esquelética (nivel de evidencia L4). Indicación original: Mucopolisacaridosis (síndromes de Hurler, Hurler-Schei…"
+monitor_inn: "laronidase"
+predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 ---
 
 # Laronidase

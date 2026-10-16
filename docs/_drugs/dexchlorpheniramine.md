@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Dexchlorpheniramine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
+monitor_inn: "Dexchlorpheniramine"
+predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Dexchlorpheniramine

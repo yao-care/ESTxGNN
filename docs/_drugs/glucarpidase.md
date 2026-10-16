@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Glucarpidase: nueva indicación predicha, Catarata diabética (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (el texto de indicación est…"
+monitor_inn: "glucarpidase"
+predicted_indications: ["diabetic cataract", "diabetic retinopathy", "tetanic cataract", "mature cataract", "craniostenosis cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract"]
 ---
 
 # Glucarpidase

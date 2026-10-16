@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (nivel de evidencia L3). Indicación original: Leucemia mieloide aguda y subtipos relacionados (los textos de indic…"
+monitor_inn: "Mitoxantrone"
+predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 ---
 
 # Mitoxantrone

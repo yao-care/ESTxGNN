@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Catridecacog: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (nivel de evidencia L5). Indicación original: Deficiencia de factor XIII, subunidad A"
+monitor_inn: "CATRIDECACOG"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
 ---
 
 # Catridecacog

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Avatrombopag: nueva indicación predicha, Macrotrombocitopenia con insuficiencia de la válvula mitral (nivel de evidencia L5). Indicación original: Trombocitopenia (según el grafo de conocimiento"
+monitor_inn: "AVATROMBOPAG"
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "Mills syndrome", "monomelic amyotrophy"]
 ---
 
 # Avatrombopag

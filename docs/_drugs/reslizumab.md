@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Reslizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L5). Indicación original: Neumonía eosinofílica / eosinofilia pulmonar (según el grafo de conoc…"
+monitor_inn: "RESLIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
 ---
 
 # Reslizumab

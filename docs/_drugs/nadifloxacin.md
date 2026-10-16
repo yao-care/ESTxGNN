@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Nadifloxacin: nueva indicación predicha, Malaria (nivel de evidencia L5). Indicación original: Acné (según la base de conocimiento del modelo"
+monitor_inn: "nadifloxacin"
+predicted_indications: ["malaria"]
 ---
 
 # Nadifloxacin

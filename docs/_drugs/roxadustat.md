@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Roxadustat: nueva indicación predicha, Síndrome del ojo seco (nivel de evidencia L5). Indicación original: Anemia refractaria (según el grafo de conocimiento"
+monitor_inn: "ROXADUSTAT"
+predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
 ---
 
 # Roxadustat

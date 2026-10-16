@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Almasilate: nueva indicación predicha, Úlcera péptica activa (nivel de evidencia L5). Indicación original: Enfermedad ulcerosa péptica (según el grafo de conocimiento"
+monitor_inn: "Almasilate"
+predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "gastroduodenitis", "gastric ulcer (disease)"]
 ---
 
 # Almasilate

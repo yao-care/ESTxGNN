@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Streptomycin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar (según el grafo de conocimiento"
+monitor_inn: "Streptomycin"
+predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
 ---
 
 # Streptomycin

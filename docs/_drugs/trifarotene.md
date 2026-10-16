@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Trifarotene: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Acné (según las relaciones de indicación del grafo de conocimiento"
+monitor_inn: "trifarotene"
+predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
 ---
 
 # Trifarotene

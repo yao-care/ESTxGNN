@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide posit… (nivel de evidencia L4). Indicación original: Artritis reumatoide…"
+monitor_inn: "Chloroquine"
+predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
 ---
 
 # Chloroquine

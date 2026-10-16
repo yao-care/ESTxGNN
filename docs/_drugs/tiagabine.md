@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Tiagabine: nueva indicación predicha, Epilepsia visual (nivel de evidencia L4). Indicación original: Epilepsia parcial (según el grafo de conocimiento"
+monitor_inn: "Tiagabine"
+predicted_indications: ["visual epilepsy"]
 ---
 
 # Tiagabine

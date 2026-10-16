@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Alanine: nueva indicación predicha, Gastroparesia (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS"
+monitor_inn: "alanine"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Alanine

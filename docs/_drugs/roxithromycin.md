@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Roxithromycin: nueva indicación predicha, Lepra (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de AEMPS"
+monitor_inn: "roxithromycin"
+predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
 ---
 
 # Roxithromycin

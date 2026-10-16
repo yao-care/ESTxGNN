@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Amiloride: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L4). Indicación original: Hipertensión arterial e insuficiencia cardíaca congestiva (según la b…"
+monitor_inn: "amiloride"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 ---
 
 # Amiloride

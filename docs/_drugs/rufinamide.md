@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rufinamide: nueva indicación predicha, Síndrome de epilepsia relacionada con infección febril (FIRES) (nivel de evidencia L5). Indicación original: Síndrome de Lennox-Gastaut (según el grafo de conoc…"
+monitor_inn: "Rufinamide"
+predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes"]
 ---
 
 # Rufinamide

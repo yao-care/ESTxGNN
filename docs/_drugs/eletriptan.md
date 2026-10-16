@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Eletriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (trastorno migrañoso, con o sin aura)"
+monitor_inn: "eletriptan"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 ---
 
 # Eletriptan

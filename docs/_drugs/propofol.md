@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No disponible en los textos de autorización de AEMPS (uso conocido: a…"
+monitor_inn: "PROPOFOL"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 ---
 
 # Propofol

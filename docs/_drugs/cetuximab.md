@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cetuximab: nueva indicación predicha, Adenomas/carcinoides bronquiales infantiles (nivel de evidencia L5). Indicación original: Cáncer colorrectal y carcinoma escamocelular (de colon…"
+monitor_inn: "CETUXIMAB"
+predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
 ---
 
 # Cetuximab

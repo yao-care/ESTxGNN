@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Rimegepant: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (según el grafo de conocimiento"
+monitor_inn: "RIMEGEPANT"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Rimegepant

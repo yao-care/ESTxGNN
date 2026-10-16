@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Vincristine: nueva indicación predicha, Ganglioneuroblastoma (nivel de evidencia L3). Indicación original: Leucemia linfoblástica aguda y linfomas (según las indicaciones origi…"
+monitor_inn: "Vincristine"
+predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 ---
 
 # Vincristine

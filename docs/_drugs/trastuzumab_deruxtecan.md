@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trastuzumab Deruxtecan: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de …"
+monitor_inn: "trastuzumab deruxtecan"
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Trastuzumab Deruxtecan

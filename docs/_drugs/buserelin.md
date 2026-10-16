@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Buserelin: nueva indicación predicha, Hipertricosis (nivel de evidencia L4). Indicación original: Cáncer de próstata (según la información farmacológica compilada"
+monitor_inn: "buserelin"
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 ---
 
 # Buserelin

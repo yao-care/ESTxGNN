@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftolozane: nueva indicación predicha, Uretritis por Ureaplasma (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
+monitor_inn: "ceftolozane"
+predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
 ---
 
 # Ceftolozane

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Glargine: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (también diabetes mellitus tipo 1 y cetoacid…"
+monitor_inn: "Insulin glargine"
+predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 ---
 
 # Insulin Glargine

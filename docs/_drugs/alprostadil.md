@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alprostadil: nueva indicación predicha, Malformación aórtica (nivel de evidencia L4). Indicación original: Disfunción eréctil (el texto de indicación de las autorizaciones espa…"
+monitor_inn: "ALPROSTADIL"
+predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve agenesis", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
 ---
 
 # Alprostadil

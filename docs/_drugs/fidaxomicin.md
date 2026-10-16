@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Fidaxomicin: nueva indicación predicha, Síndrome de la piel escaldada estafilocócica (nivel de evidencia L5). Indicación original: Colitis por Clostridium difficile"
+monitor_inn: "fidaxomicin"
+predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Fidaxomicin

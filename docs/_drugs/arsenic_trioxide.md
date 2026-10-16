@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Arsenic Trioxide: nueva indicación predicha, Síndrome mielodisplásico (la primera predicción del listado… (nivel de evidencia L2). Indicación original: Leucemia promielocítica aguda"
+monitor_inn: "arsenic trioxide"
+predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 ---
 
 # Arsenic Trioxide

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (nivel de evidencia L3). Indicación original: Candidiasis esofágica…"
+monitor_inn: "micafungin"
+predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Micafungin

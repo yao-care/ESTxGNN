@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trametinib: nueva indicación predicha, Coriorremia (nivel de evidencia L5). Indicación original: Melanoma metastásico (según el grafo de conocimiento"
+monitor_inn: "TRAMETINIB"
+predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "acral lentiginous melanoma (disease)", "amelanotic skin melanoma", "nodular malignant melanoma", "balloon cell malignant melanoma", "superficial spreading melanoma"]
 ---
 
 # Trametinib

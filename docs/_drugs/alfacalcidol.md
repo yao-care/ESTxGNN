@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Alfacalcidol: nueva indicación predicha, Hipoparatiroidismo aislado familiar por alteración de la secreción de… (nivel de evidencia L4). Indicación original: Hiperparatiroidismo, osteítis fibrosa…"
+monitor_inn: "ALFACALCIDOL"
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
 ---
 
 # Alfacalcidol

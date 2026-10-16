@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (nivel de evidencia L4). Indicación original: Leucemia mieloide crónica BCR-ABL1 positiva…"
+monitor_inn: "IMATINIB"
+predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 ---
 
 # Imatinib

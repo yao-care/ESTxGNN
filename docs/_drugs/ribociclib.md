@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Cáncer de mama HR+/HER2- avanzado o metastásico (según la literatura…"
+monitor_inn: "RIBOCICLIB"
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 ---
 
 # Ribociclib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Lapatinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). Indicación original: Carcinoma de mama HER2 positivo"
+monitor_inn: "LAPATINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Lapatinib

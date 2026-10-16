@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dronabinol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No disponible en los datos de la autorización de AEMPS"
+monitor_inn: "dronabinol"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
 ---
 
 # Dronabinol

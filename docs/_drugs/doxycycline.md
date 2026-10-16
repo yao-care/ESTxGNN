@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Doxycycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (nivel de evidencia L4). Indicación original: Bronquitis, acné, neumonía bacteriana, ántrax…"
+monitor_inn: "doxycycline"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 ---
 
 # Doxycycline

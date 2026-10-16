@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Eptinezumab: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Trastorno de migraña (según las indicaciones del grafo de conocimiento"
+monitor_inn: "EPTINEZUMAB"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Eptinezumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (CPVT) (nivel de evidencia L5). Indicación original: Fibrilación ventricular (el texto de indicación de la…"
+monitor_inn: "Amiodarone"
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 ---
 
 # Amiodarone

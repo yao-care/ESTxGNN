@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
+monitor_inn: "procaine"
+predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
 ---
 
 # Procaine

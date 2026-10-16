@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bromocriptine: nueva indicación predicha, Defecto congénito de glucosilación con fucosilación defectuosa (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (según el grafo de conoc…"
+monitor_inn: "Bromocriptine"
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
 ---
 
 # Bromocriptine

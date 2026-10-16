@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bedaquiline: nueva indicación predicha, Tuberculosis bovina (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar y tuberculosis multirresistente"
+monitor_inn: "Bedaquiline"
+predicted_indications: ["tuberculosis, bovine", "tuberculoma", "tuberculous ascites", "inactive tuberculosis", "tuberculosis, avian", "vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "cutaneous tuberculosis", "esophageal candidiasis"]
 ---
 
 # Bedaquiline

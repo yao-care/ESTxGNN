@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Sertraline: nueva indicación predicha, Agorafobia (nivel de evidencia L5). Indicación original: Trastorno de ansiedad (según las indicaciones del grafo de conocimien…"
+monitor_inn: "Sertraline"
+predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
 ---
 
 # Sertraline

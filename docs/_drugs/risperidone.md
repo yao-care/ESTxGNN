@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Risperidone: nueva indicación predicha, Parálisis de la mirada horizontal familiar con escoliosis progresiva (nivel de evidencia L5). Indicación original: Esquizofrenia…"
+monitor_inn: "Risperidone"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 ---
 
 # Risperidone

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Panobinostat: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L2). Indicación original: Mieloma de células plasmáticas (según el grafo de conocimiento"
+monitor_inn: "PANOBINOSTAT"
+predicted_indications: ["myeloid leukemia"]
 ---
 
 # Panobinostat

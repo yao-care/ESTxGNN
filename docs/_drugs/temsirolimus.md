@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Temsirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Carcinoma de células renales y linfoma de células del manto (según el…"
+monitor_inn: "TEMSIROLIMUS"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
 ---
 
 # Temsirolimus

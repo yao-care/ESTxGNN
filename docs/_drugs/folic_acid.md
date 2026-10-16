@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Deficiencia de vitaminas / anemia por deficiencia de ácido fólico (se…"
+monitor_inn: "Folic acid"
+predicted_indications: ["biotin metabolic disease"]
 ---
 
 # Folic Acid

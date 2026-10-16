@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Givosiran: nueva indicación predicha, Síndrome hepatopulmonar (nivel de evidencia L5). Indicación original: Porfiria hepática"
+monitor_inn: "GIVOSIRAN"
+predicted_indications: ["hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "porphyria due to ALA dehydratase deficiency", "disorder of phenylalanine metabolism"]
 ---
 
 # Givosiran

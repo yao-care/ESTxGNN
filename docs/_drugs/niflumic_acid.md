@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Niflumic Acid: nueva indicación predicha, Enfermedad de Raynaud (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (referencia externa: artrit…"
+monitor_inn: "niflumic acid"
+predicted_indications: ["Raynaud disease", "Prinzmetal angina", "headache disorder", "trigeminal autonomic cephalalgia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "migraine disorder"]
 ---
 
 # Niflumic Acid

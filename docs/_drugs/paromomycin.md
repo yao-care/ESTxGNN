@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Paromomycin: nueva indicación predicha, Cirrosis asociada a cobre idiopática (nivel de evidencia L5). Indicación original: Coma hepático / encefalopatía hepática (según el grafo de conocimiento"
+monitor_inn: "paromomycin"
+predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 ---
 
 # Paromomycin

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Neratinib: nueva indicación predicha, Cáncer de mama con receptor de progesterona positivo (nivel de evidencia L2). Indicación original: Carcinoma de mama HER2 positivo"
+monitor_inn: "NERATINIB"
+predicted_indications: ["progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B"]
 ---
 
 # Neratinib

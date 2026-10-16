@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Clioquinol: nueva indicación predicha, Candidiasis cutánea (nivel de evidencia L4). Indicación original: Tiña del pie, tiña del cuerpo, tiña…"
+monitor_inn: "clioquinol"
+predicted_indications: ["cutaneous candidiasis", "Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "tinea profunda"]
 ---
 
 # Clioquinol

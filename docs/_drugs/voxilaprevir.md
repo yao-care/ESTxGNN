@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Voxilaprevir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C"
+monitor_inn: "voxilaprevir"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Voxilaprevir

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Carfilzomib: nueva indicación predicha, Melanoma (nivel de evidencia L4). Indicación original: Mieloma de células plasmáticas (según la base de conocimiento TxGNN"
+monitor_inn: "CARFILZOMIB"
+predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
 ---
 
 # Carfilzomib

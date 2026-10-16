@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nintedanib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L4). Indicación original: Cáncer de pulmón no microcítico y fibrosis pulmonar idiopática (según…"
+monitor_inn: "NINTEDANIB"
+predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 ---
 
 # Nintedanib

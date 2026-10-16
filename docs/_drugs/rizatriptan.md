@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Rizatriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Trastorno de migraña (migraña con o sin aura)"
+monitor_inn: "rizatriptan"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata"]
 ---
 
 # Rizatriptan

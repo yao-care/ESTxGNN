@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (SIDA felino) (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según las indicaciones orig…"
+monitor_inn: "Zidovudine"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "congenital human immunodeficiency virus", "AIDS related complex"]
 ---
 
 # Zidovudine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (nivel de evidencia L5). Indicación original: Enfermedad de Chagas"
+monitor_inn: "NIFURTIMOX"
+predicted_indications: ["congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"]
 ---
 
 # Nifurtimox

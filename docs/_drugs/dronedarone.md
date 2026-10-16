@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). Indicación original: Fibrilación auricular (según el grafo de conocimiento"
+monitor_inn: "dronedarone"
+predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 ---
 
 # Dronedarone

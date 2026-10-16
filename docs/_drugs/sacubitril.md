@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sacubitril: nueva indicación predicha, Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías ocular… (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización …"
+monitor_inn: "sacubitril"
+predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 ---
 
 # Sacubitril

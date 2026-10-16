@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bempedoic Acid: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L5). Indicación original: Hipercolesterolemia (conocimiento general"
+monitor_inn: "bempedoic acid"
+predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "homozygous familial hypercholesterolemia", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
 ---
 
 # Bempedoic Acid

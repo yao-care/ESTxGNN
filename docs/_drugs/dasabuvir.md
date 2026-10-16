@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Dasabuvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L3). Indicación original: Infección crónica por virus de la hepatitis C (según la base de conoc…"
+monitor_inn: "DASABUVIR"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever"]
 ---
 
 # Dasabuvir

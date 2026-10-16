@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Acenocoumarol: nueva indicación predicha, Deficiencia de cofactor II de la heparina (nivel de evidencia L5). Indicación original: Embolia pulmonar y trombofilia (según el grafo de conocimiento"
+monitor_inn: "acenocoumarol"
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2"]
 ---
 
 # Acenocoumarol

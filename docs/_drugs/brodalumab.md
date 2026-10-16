@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brodalumab: nueva indicación predicha, Estrongiloidiasis (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS"
+monitor_inn: "BRODALUMAB"
+predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "optic perineuritis", "isolated optic neuritis", "episcleritis periodica fugax", "nodular episcleritis"]
 ---
 
 # Brodalumab

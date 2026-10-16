@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Nortriptyline: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L2). Indicación original: Trastorno de ansiedad (según el grafo de conocimiento…"
+monitor_inn: "Nortriptyline"
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 ---
 
 # Nortriptyline

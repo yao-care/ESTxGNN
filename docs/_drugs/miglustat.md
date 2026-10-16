@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Miglustat: nueva indicación predicha, Enfermedad de Tay-Sachs (nivel de evidencia L5). Indicación original: Enfermedad de Gaucher y enfermedad de Niemann-Pick (según el grafo de…"
+monitor_inn: "MIGLUSTAT"
+predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 ---
 
 # Miglustat

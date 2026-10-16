@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Nelarabine: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda / leucemia de células T / linfoma linfob…"
+monitor_inn: "Nelarabine"
+predicted_indications: ["relapsing-remitting multiple sclerosis"]
 ---
 
 # Nelarabine

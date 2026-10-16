@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (nivel de evidencia L2). Indicación original: Trastorno obsesivo-compulsivo (según el grafo de conocimiento"
+monitor_inn: "Clomipramine"
+predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "agoraphobia", "major depressive disorder", "endogenous depression", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine

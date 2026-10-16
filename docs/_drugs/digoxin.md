@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Digoxin: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: Fibrilación auricular e intoxicación digitálica (según el grafo de co…"
+monitor_inn: "Digoxin"
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
 ---
 
 # Digoxin

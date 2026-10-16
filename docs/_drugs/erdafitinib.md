@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Erdafitinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+monitor_inn: "ERDAFITINIB"
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Erdafitinib

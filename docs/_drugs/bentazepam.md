@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Bentazepam: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en la ficha de autorización (la literatura la describe…"
+monitor_inn: "BENTAZEPAM"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Bentazepam

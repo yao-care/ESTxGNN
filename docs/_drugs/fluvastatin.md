@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fluvastatin: nueva indicación predicha, Hiperlipoproteinemia (nivel de evidencia L3). Indicación original: Arteriosclerosis / aterosclerosis / hiperlipidemia familiar combinada"
+monitor_inn: "Fluvastatin"
+predicted_indications: ["hyperlipoproteinemia", "homozygous familial hypercholesterolemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "familial hypercholesterolemia", "HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "fibroma of prostate"]
 ---
 
 # Fluvastatin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ruxolitinib: nueva indicación predicha, Tumor de células epitelioides perivasculares (PEComa) del cuerpo uter… (nivel de evidencia L5). Indicación original: Neoplasias mieloproliferativas (mielofibro…"
+monitor_inn: "RUXOLITINIB"
+predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 ---
 
 # Ruxolitinib

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Nilotinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L4). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positivo"
+monitor_inn: "NILOTINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Nilotinib

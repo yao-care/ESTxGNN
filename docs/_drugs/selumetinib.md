@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Selumetinib: nueva indicación predicha, Lentiginosis generalizada familiar (nivel de evidencia L5). Indicación original: Neurofibromatosis (según el grafo de conocimiento"
+monitor_inn: "SELUMETINIB"
+predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
 ---
 
 # Selumetinib

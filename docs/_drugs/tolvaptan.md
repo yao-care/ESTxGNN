@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tolvaptan: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática po… (nivel de evidencia L1). Indicación original: Síndrome de ADH inapropiada (según el grafo …"
+monitor_inn: "tolvaptan"
+predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 ---
 
 # Tolvaptan

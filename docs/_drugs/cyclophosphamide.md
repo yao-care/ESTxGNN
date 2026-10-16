@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cyclophosphamide: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: Micosis fungoide y variantes (según el grafo de conocimiento"
+monitor_inn: "Cyclophosphamide"
+predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
 ---
 
 # Cyclophosphamide

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Moclobemide: nueva indicación predicha, Agorafobia (nivel de evidencia L2). Indicación original: Trastorno de ansiedad, trastorno neurótico…"
+monitor_inn: "Moclobemide"
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Moclobemide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Fostamatinib: nueva indicación predicha, Trombocitopenia autosómica con plaquetas normales (nivel de evidencia L5). Indicación original: Trombocitopenia por destrucción inmune"
+monitor_inn: "FOSTAMATINIB"
+predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation"]
 ---
 
 # Fostamatinib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fedratinib: nueva indicación predicha, PEComa benigno (nivel de evidencia L5). Indicación original: Mielofibrosis primaria / mielofibrosis (según el grafo de conocimiento"
+monitor_inn: "FEDRATINIB"
+predicted_indications: ["benign PEComa", "lymphangiomyoma", "uterine corpus perivascular epithelioid cell tumor", "dermatofibrosarcoma protuberans", "rhabdoid tumor", "familial rhabdoid tumor", "autosomal recessive familial Mediterranean fever", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "lymphangioleiomyomatosis"]
 ---
 
 # Fedratinib

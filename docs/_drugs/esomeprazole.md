@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Esomeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L5). Indicación original: Enfermedad de úlcera péptica (según las indicaciones originales del g…"
+monitor_inn: "Esomeprazole"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
 ---
 
 # Esomeprazole

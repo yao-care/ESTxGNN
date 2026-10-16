@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Benzbromarone: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L5). Indicación original: Gota e hiperuricemia (según las relaciones de indicación del grafo de…"
+monitor_inn: "benzbromarone"
+predicted_indications: ["hypouricemia, renal"]
 ---
 
 # Benzbromarone

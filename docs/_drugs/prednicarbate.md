@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida vulvar (nivel de evidencia L5). Indicación original: Dermatosis inflamatorias cutáneas (dermatitis atópica…"
+monitor_inn: "Prednicarbate"
+predicted_indications: ["vulvar inverted follicular keratosis", "lichen planus pigmentosus", "hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
 ---
 
 # Prednicarbate

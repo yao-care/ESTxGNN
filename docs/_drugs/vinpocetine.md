@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Vinpocetine: nueva indicación predicha, Enfermedad de las arterias coronarias (nivel de evidencia L4). Indicación original: Demencia (según el grafo de conocimiento"
+monitor_inn: "Vinpocetine"
+predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Vinpocetine

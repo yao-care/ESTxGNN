@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pegvaliase: nueva indicación predicha, Retinopatía diabética (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+monitor_inn: "pegvaliase"
+predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Pegvaliase

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Clarithromycin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L4). Indicación original: Infecciones bacterianas (otitis media infecciosa…"
+monitor_inn: "Clarithromycin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 ---
 
 # Clarithromycin

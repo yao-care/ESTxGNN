@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Pinazepam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+monitor_inn: "PINAZEPAM"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "anxiety", "sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Pinazepam

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Terlipressin: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+monitor_inn: "terlipressin"
+predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 ---
 
 # Terlipressin

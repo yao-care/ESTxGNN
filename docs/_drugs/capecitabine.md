@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capecitabine: nueva indicación predicha, Adenocarcinoma tubular gástrico (nivel de evidencia L1). Indicación original: Cáncer gástrico (según el grafo de conocimiento"
+monitor_inn: "Capecitabine"
+predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "signet ring cell gastric adenocarcinoma", "microinvasive gastric cancer", "gastric tubular adenocarcinoma", "gastric cardia adenocarcinoma", "carcinoma of stomach, salivary gland type", "gastric pylorus carcinoma", "gastric body carcinoma", "Epstein-Barr virus-associated gastric carcinoma", "malignant gastric granular cell tumor"]
 ---
 
 # Capecitabine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pertuzumab: nueva indicación predicha, Subtipo de carcinoma de mama de tipo normal (normal-like) (nivel de evidencia L5). Indicación original: Carcinoma de mama HER2 positivo"
+monitor_inn: "PERTUZUMAB"
+predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 ---
 
 # Pertuzumab

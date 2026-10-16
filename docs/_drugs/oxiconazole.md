@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Oxiconazole: nueva indicación predicha, Candidiasis cutánea (nivel de evidencia L4). Indicación original: Tiña del pie, tiña del cuerpo…"
+monitor_inn: "oxiconazole"
+predicted_indications: ["cutaneous candidiasis"]
 ---
 
 # Oxiconazole

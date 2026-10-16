@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Natalizumab: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Enfermedad de Crohn, enfermedad inflamatoria intestinal…"
+monitor_inn: "NATALIZUMAB"
+predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 ---
 
 # Natalizumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Necitumumab: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Cáncer de pulmón no microcítico (según la base de conocimiento"
+monitor_inn: "NECITUMUMAB"
+predicted_indications: ["fibromatosis, gingival", "hamartoma of lung", "lung hilum carcinoma", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
 ---
 
 # Necitumumab

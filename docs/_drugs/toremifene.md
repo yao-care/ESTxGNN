@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Toremifene: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización (texto de indicación va…"
+monitor_inn: "toremifene"
+predicted_indications: ["HIV infectious disease"]
 ---
 
 # Toremifene

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vinorelbine: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: Carcinoma de pulmón no microcítico / cáncer de pulmón (según el grafo…"
+monitor_inn: "Vinorelbine"
+predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "small cell lung carcinoma", "lung benign neoplasm", "lung hilum carcinoma", "pulmonary blastoma"]
 ---
 
 # Vinorelbine

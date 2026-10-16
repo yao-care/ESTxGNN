@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Letermovir: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Infección por citomegalovirus"
+monitor_inn: "LETERMOVIR"
+predicted_indications: ["vulvovaginal candidiasis"]
 ---
 
 # Letermovir

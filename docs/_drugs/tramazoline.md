@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Tramazoline: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
+monitor_inn: "Tramazoline"
+predicted_indications: ["allergic urticaria", "acute laryngopharyngitis", "nasal cavity disease", "rosacea conjunctivitis", "rhinitis", "cold urticaria", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Tramazoline

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Insulin Glulisine: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L5). Indicación original: Diabetes mellitus"
+monitor_inn: "Insulin glulisine"
+predicted_indications: ["type 1 diabetes mellitus", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---
 
 # Insulin Glulisine

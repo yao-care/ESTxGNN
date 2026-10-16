@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Carbenoxolone: nueva indicación predicha, Malformación esofágica no sindrómica (nivel de evidencia L5). Indicación original: Enfermedad ulcerosa péptica…"
+monitor_inn: "carbenoxolone"
+predicted_indications: ["non-syndromic esophageal malformation", "vitamin deficiency disorder", "biotin metabolic disease", "filariasis", "bile duct disease", "bile duct neoplasm", "tinea nigra"]
 ---
 
 # Carbenoxolone

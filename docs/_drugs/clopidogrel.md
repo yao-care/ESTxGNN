@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: Síndrome coronario agudo, embolia intracraneal…"
+monitor_inn: "CLOPIDOGREL"
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility"]
 ---
 
 # Clopidogrel

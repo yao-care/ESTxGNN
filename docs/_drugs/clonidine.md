@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clonidine: nueva indicación predicha, Síndrome faciodigitogenital (nivel de evidencia L5). Indicación original: Hipertensión arterial (según la base de conocimiento de TxGNN"
+monitor_inn: "Clonidine"
+predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
 ---
 
 # Clonidine

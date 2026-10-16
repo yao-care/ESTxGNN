@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pipemidic Acid: nueva indicación predicha, Enfermedad cardíaca (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
+monitor_inn: "pipemidic acid"
+predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
 ---
 
 # Pipemidic Acid

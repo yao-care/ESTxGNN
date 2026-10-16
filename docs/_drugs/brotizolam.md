@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Brotizolam: nueva indicación predicha, Insomnio (nivel de evidencia L1). Indicación original: No disponible en los datos de AEMPS (el insomnio es su uso hipnótico…"
+monitor_inn: "BROTIZOLAM"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety"]
 ---
 
 # Brotizolam

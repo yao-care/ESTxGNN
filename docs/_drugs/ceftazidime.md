@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftazidime: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infecciones bacterianas (los datos compilados no incluyen el texto de…"
+monitor_inn: "Ceftazidime"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 ---
 
 # Ceftazidime

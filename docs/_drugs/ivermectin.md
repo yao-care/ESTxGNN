@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Estrongiloidiasis y oncocercosis (según el grafo de conocimiento"
+monitor_inn: "Ivermectin"
+predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 ---
 
 # Ivermectin

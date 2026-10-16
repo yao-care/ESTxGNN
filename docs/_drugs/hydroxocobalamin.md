@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Hydroxocobalamin: nueva indicación predicha, Várices esofágicas con sangrado (nivel de evidencia L5). Indicación original: Deficiencia de vitamina B12 (según el grafo de conocimiento"
+monitor_inn: "Hydroxocobalamin"
+predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
 ---
 
 # Hydroxocobalamin

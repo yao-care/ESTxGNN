@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flecainide: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L3). Indicación original: Fibrilación auricular (según las indicaciones de referencia del grafo…"
+monitor_inn: "Flecainide"
+predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Flecainide

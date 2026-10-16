@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methionine: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (pomada oftálmica epitelizante)"
+monitor_inn: "methionine"
+predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
 ---
 
 # Methionine

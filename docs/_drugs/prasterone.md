@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: Dispareunia (según el grafo de conocimiento: lupus eritematoso sistém…"
+monitor_inn: "prasterone"
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
 ---
 
 # Prasterone

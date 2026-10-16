@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amylmetacresol: nueva indicación predicha, Síndrome de la cauda equina (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+monitor_inn: "amylmetacresol"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
 ---
 
 # Amylmetacresol

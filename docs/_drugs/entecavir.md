@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis B (los textos de in…"
+monitor_inn: "ENTECAVIR"
+predicted_indications: ["chronic hepatitis C virus infection", "hepatitis B virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 ---
 
 # Entecavir

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Colchicine: nueva indicación predicha, Malaria por Plasmodium falciparum (nivel de evidencia L5). Indicación original: Gota y fiebre mediterránea familiar (según las indicaciones originale…"
+monitor_inn: "Colchicine"
+predicted_indications: ["Plasmodium falciparum malaria", "familial Mediterranean fever, autosomal dominant", "dermatofibrosarcoma protuberans"]
 ---
 
 # Colchicine

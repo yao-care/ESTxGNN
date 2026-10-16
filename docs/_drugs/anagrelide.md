@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Anagrelide: nueva indicación predicha, Trombocitosis reactiva (nivel de evidencia L4). Indicación original: Trombocitemia / trombocitosis familiar (según el grafo de conocimiento"
+monitor_inn: "Anagrelide"
+predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
 ---
 
 # Anagrelide

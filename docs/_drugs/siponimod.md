@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Siponimod: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
+monitor_inn: "SIPONIMOD"
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
 ---
 
 # Siponimod

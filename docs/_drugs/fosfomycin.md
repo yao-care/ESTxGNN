@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fosfomycin: nueva indicación predicha, Uretritis gonocócica (nivel de evidencia L2). Indicación original: Infección del tracto urinario (según el grafo de conocimiento del mod…"
+monitor_inn: "fosfomycin"
+predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
 ---
 
 # Fosfomycin

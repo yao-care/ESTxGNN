@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tazobactam: nueva indicación predicha, Neumonía (nivel de evidencia L1). Indicación original: Neumonía bacteriana (según las indicaciones originales del grafo de c…"
+monitor_inn: "tazobactam"
+predicted_indications: ["pneumonia", "urinary tract infection (disease)"]
 ---
 
 # Tazobactam

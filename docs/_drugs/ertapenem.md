@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Neumonía bacteriana (según el grafo de conocimiento"
+monitor_inn: "ERTAPENEM"
+predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
 ---
 
 # Ertapenem

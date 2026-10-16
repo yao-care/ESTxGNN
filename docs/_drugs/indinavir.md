@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Indinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Infección por VIH / sida (según el grafo de conocimiento"
+monitor_inn: "INDINAVIR"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "AIDS related complex", "congenital human immunodeficiency virus", "fibroma of prostate"]
 ---
 
 # Indinavir
