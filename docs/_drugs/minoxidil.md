@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L3). Indicación original: Hipertensión arterial / alopecia (según el grafo de conocimiento"
 monitor_inn: "MINOXIDIL"
-predicted_indications: ["congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "primary hereditary glaucoma"]
+predicted_indications: ["congenital hypotrichosis milia", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with schistosomiasis"]
 ---
 
 # Minoxidil

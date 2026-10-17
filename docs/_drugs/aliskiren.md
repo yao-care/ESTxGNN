@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Aliskiren: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial (según el grafo de conocim…"
 monitor_inn: "aliskiren"
-predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "cerebrovascular disorder"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "chronic pulmonary heart disease", "cerebrovascular disorder"]
 ---
 
 # Aliskiren
