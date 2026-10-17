@@ -6,9 +6,9 @@ nav_order: 557
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Nefopam: nueva indicación predicha, Estenosis espinal lumbar (lumbar spinal stenosis) (nivel de evidencia L5). Indicación original: No disponible (el texto de indicación de la autorización está vacío)"
 monitor_inn: "NEFOPAM"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
+description: "Nefopam: nueva indicación predicha, Estenosis espinal lumbar (lumbar spinal stenosis) (nivel de evidencia L5). Indicación original: No disponible (el texto de indicación de la autorización está vacío"
 ---
 
 # Nefopam

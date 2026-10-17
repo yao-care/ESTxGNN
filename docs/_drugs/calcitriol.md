@@ -6,9 +6,9 @@ nav_order: 135
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D (entrada obsoleta) (nivel de evidencia L5). Indicación original: Las licencias españolas no incluyen texto de indicación. Según el gra…"
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets"]
+description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D (entrada obsoleta) (nivel de evidencia L5). Indicación original: Las licencias españolas no incluyen texto de indicación. Según el gra"
 ---
 
 # Calcitriol

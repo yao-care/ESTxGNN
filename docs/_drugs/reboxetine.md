@@ -6,9 +6,9 @@ nav_order: 687
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Reboxetine: nueva indicación predicha, Agorafobia (nivel de evidencia L3). Indicación original: Depresion (unipolar, endogena y trastorno depresivo mayor…"
 monitor_inn: "Reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "Ohdo syndrome and variants", "melancholia", "neurotic depression", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
+description: "Reboxetine: nueva indicación predicha, Agorafobia (nivel de evidencia L3). Indicación original: Depresion (unipolar, endogena y trastorno depresivo mayor…"
 ---
 
 # Reboxetine
