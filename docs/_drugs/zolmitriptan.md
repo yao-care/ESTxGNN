@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Zolmitriptan: nueva indicación predicha, Migraña con aura de tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (trastorno de migraña, con o sin aura)"
 monitor_inn: "zolmitriptan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Zolmitriptan
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

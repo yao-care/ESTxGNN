@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tripelennamine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Las autorizaciones españolas no incluyen texto de indicación"
 monitor_inn: "tripelennamine"
-predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis"]
 ---
 
 # Tripelennamine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

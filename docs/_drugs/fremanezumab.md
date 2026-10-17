@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Fremanezumab: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (según el grafo de conocimiento"
 monitor_inn: "FREMANEZUMAB"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata"]
+predicted_indications: ["atrophoderma vermiculata"]
 ---
 
 # Fremanezumab
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

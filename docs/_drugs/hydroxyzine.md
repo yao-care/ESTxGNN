@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Hydroxyzine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Eccema atópico / dermatitis atópica, rinitis alérgica…"
-monitor_inn: "Hydroxyzine"
-predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Hydroxyzine
@@ -27,7 +25,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Alimemazine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Urticaria, rinitis alérgica…"
 monitor_inn: "Alimemazine"
-predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
+predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis", "acute laryngopharyngitis"]
 ---
 
 # Alimemazine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

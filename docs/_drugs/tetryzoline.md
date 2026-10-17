@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tetryzoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Faringitis y resfriado común (según el grafo de conocimiento"
 monitor_inn: "tetryzoline"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Tetryzoline
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

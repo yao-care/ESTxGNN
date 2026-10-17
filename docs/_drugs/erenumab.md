@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Erenumab: nueva indicación predicha, Migraña con aura de tronco encefálico (nivel de evidencia L4). Indicación original: Trastorno de migraña (según las indicaciones originales del grafo de…"
-monitor_inn: "ERENUMAB"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Erenumab
@@ -27,7 +25,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

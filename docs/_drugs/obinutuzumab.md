@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Obinutuzumab: nueva indicación predicha, LLC/LLCP de centro pregerminal (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda y síndrome de Richter (según el grafo de…"
 monitor_inn: "OBINUTUZUMAB"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma"]
+predicted_indications: ["follicular lymphoma"]
 ---
 
 # Obinutuzumab
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

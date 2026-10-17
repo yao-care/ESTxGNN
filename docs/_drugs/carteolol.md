@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Carteolol: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (el texto de indicac…"
-monitor_inn: "CARTEOLOL"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Carteolol
@@ -27,7 +25,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

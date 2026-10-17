@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tamoxifen: nueva indicación predicha, Enfermedad de Paget mamaria (nivel de evidencia L4). Indicación original: Carcinoma de mama femenino (según el grafo de conocimiento"
 monitor_inn: "Tamoxifen"
-predicted_indications: ["mammary Paget disease", "intraductal cribriform breast adenocarcinoma", "breast carcinoma in situ", "sebaceous breast carcinoma", "estrogen-receptor positive breast cancer", "hormone-resistant breast carcinoma", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Tamoxifen
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxcarbazepine: nueva indicación predicha, Epilepsia visual (nivel de evidencia L4). Indicación original: Epilepsia parcial (focal) y epilepsia motora parcial (según el grafo…"
 monitor_inn: "Oxcarbazepine"
-predicted_indications: ["visual epilepsy", "restless legs syndrome", "micturation-induced seizures", "startle epilepsy", "thinking seizures", "audiogenic seizures", "eating seizures", "orgasm-induced seizures", "status epilepticus", "reading seizures"]
+predicted_indications: ["restless legs syndrome"]
 ---
 
 # Oxcarbazepine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

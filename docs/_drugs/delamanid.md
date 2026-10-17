@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Delamanid: nueva indicación predicha, Tuberculosis bovina (nivel de evidencia L4). Indicación original: Tuberculosis multirresistente (según el grafo de conocimiento"
 monitor_inn: "DELAMANID"
-predicted_indications: ["tuberculosis, bovine", "inactive tuberculosis", "tuberculous ascites", "tuberculosis, avian", "tuberculoma", "allergic urticaria", "cutaneous tuberculosis"]
+predicted_indications: ["allergic urticaria"]
 ---
 
 # Delamanid
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 
