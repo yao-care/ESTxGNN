@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Erythromycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L4). Indicación original: Infecciones bacterianas (acné, otitis media infecciosa, neumonía…"
 monitor_inn: "Erythromycin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+predicted_indications: ["exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 ---
 
 # Erythromycin

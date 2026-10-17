@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Levothyroxine: nueva indicación predicha, Bocio endémico (nivel de evidencia L3). Indicación original: Hipotiroidismo (según la base de conocimiento del modelo"
 monitor_inn: "Levothyroxine"
-predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "substernal goiter", "lingual goiter", "nontoxic goiter", "dyshormonogenic goiter", "Potter sequence", "Carney complex"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
 ---
 
 # Levothyroxine

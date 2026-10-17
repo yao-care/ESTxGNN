@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amlodipine: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L5). Indicación original: Hipertensión arterial (según el grafo de conocimiento"
 monitor_inn: "Amlodipine"
-predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant renovascular hypertension", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
+predicted_indications: ["brain stem infarction", "malignant hypertensive renal disease", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
 ---
 
 # Amlodipine

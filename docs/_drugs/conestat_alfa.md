@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Conestat Alfa: nueva indicación predicha, Deficiencia de C1 inhibidor (nivel de evidencia L1). Indicación original: Angioedema hereditario"
 monitor_inn: "CONESTAT ALFA"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
 ---
 
 # Conestat Alfa

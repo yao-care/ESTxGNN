@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ampicillin: nueva indicación predicha, Laringitis (nivel de evidencia L4). Indicación original: Infecciones bacterianas (infección del tracto urinario…"
 monitor_inn: "Ampicillin"
-predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 ---
 
 # Ampicillin

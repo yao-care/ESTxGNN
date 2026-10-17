@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Epilepsia (según el grafo de conocimiento de TxGNN"
 monitor_inn: "Lamotrigine"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "startle epilepsy", "thinking seizures", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "orgasm-induced seizures", "reading seizures"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "thinking seizures", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "orgasm-induced seizures", "reading seizures"]
 ---
 
 # Lamotrigine

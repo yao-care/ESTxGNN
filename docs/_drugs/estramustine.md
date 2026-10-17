@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Estramustine: nueva indicación predicha, Susceptibilidad al cáncer de próstata/cáncer cerebral (nivel de evidencia L5). Indicación original: Cáncer de próstata (según el grafo de conocimiento"
 monitor_inn: "Estramustine"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "male reproductive organ cancer", "benign prostate phyllodes tumor", "female breast carcinoma", "HIV infectious disease", "breast fibrocystic disease"]
+predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "female breast carcinoma", "HIV infectious disease", "breast fibrocystic disease"]
 ---
 
 # Estramustine

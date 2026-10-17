@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Guanfacine: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: Hipertensión y TDAH (según el grafo de conocimiento"
 monitor_inn: "Guanfacine"
-predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 ---
 
 # Guanfacine

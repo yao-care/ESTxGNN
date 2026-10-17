@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Enzalutamide: nueva indicación predicha, Susceptibilidad al cáncer de próstata/cáncer cerebral (nivel de evidencia L5). Indicación original: Cáncer de próstata"
 monitor_inn: "Enzalutamide"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Simoctocog Alfa: nueva indicación predicha, Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: Hemofilia (según el grafo de conocimiento"
 monitor_inn: "SIMOCTOCOG ALFA"
-predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia A with vascular abnormality", "thrombotic thrombocytopenic purpura"]
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
 ---
 
 # Simoctocog Alfa

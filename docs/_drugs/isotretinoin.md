@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Isotretinoin: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Hipertensión / trastorno hipertensivo (según el grafo de conocimiento"
 monitor_inn: "Isotretinoin"
-predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Isotretinoin

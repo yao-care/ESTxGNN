@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Adenosine: nueva indicación predicha, Bloqueo de rama (término obsoleto) (nivel de evidencia L5). Indicación original: Taquicardia ventricular (según el grafo de conocimiento"
 monitor_inn: "Adenosine"
-predicted_indications: ["obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia"]
+predicted_indications: ["obsolete bundle branch block"]
 ---
 
 # Adenosine

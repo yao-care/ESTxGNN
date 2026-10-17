@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pazopanib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: Carcinoma de células renales y sarcoma de tejidos blandos (los textos…"
 monitor_inn: "PAZOPANIB"
-predicted_indications: ["renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "liposarcoma", "childhood kidney cell carcinoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["fibroblastic neoplasm"]
 ---
 
 # Pazopanib

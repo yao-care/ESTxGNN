@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rilpivirine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (nivel de evidencia L4). Indicación original: VIH / SIDA (según el grafo de conocimiento"
 monitor_inn: "Rilpivirine"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "AIDS related complex", "congenital human immunodeficiency virus"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Rilpivirine

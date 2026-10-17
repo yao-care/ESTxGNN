@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Sapropterin: nueva indicación predicha, Trastorno del metabolismo de la tirosina (nivel de evidencia L4). Indicación original: Fenilcetonuria / trastorno del metabolismo de la fenilalanina (la fic…"
 monitor_inn: "sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
+predicted_indications: ["disorder of tyrosine metabolism", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
 ---
 
 # Sapropterin

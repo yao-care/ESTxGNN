@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ivosidenib: nueva indicación predicha, Poliomielitis bulbar (nivel de evidencia L5). Indicación original: Leucemia mieloide aguda (según los datos compilados"
 monitor_inn: "IVOSIDENIB"
-predicted_indications: ["bulbar polio", "acute myeloid leukemia and myelodysplastic syndromes related to radiation", "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"]
+predicted_indications: ["bulbar polio"]
 ---
 
 # Ivosidenib

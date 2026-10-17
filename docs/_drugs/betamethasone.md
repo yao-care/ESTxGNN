@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Betamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Enfermedades autoinmunes e inflamatorias (según el grafo de conocimie…"
 monitor_inn: "Betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "idiopathic steroid-sensitive nephrotic syndrome", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 ---
 
 # Betamethasone

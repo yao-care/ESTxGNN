@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ranitidine: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L4). Indicación original: Úlcera gástrica, enfermedad por reflujo gastroesofágico, esofagitis…"
 monitor_inn: "Ranitidine"
-predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenogastric reflux", "duodenal obstruction", "gastroduodenitis", "peptic ulcer disease", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenal obstruction", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Ranitidine

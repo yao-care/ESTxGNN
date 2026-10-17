@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (nivel de evidencia L3). Indicación original: Neumonía bacteriana (según las indicaciones del grafo de conocimiento"
 monitor_inn: "cilastatin"
-predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "pneumonia", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
+predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 ---
 
 # Cilastatin

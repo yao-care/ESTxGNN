@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Carbimazole: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación en el receptor beta de… (nivel de evidencia L5). Indicación original: Hipertiroidismo…"
 monitor_inn: "Carbimazole"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Carbimazole

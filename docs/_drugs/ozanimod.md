@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ozanimod: nueva indicación predicha, Esclerosis múltiple progresiva recidivante (nivel de evidencia L4). Indicación original: Esclerosis múltiple (según el grafo de conocimiento"
-monitor_inn: "OZANIMOD"
-predicted_indications: ["progressive relapsing multiple sclerosis"]
 ---
 
 # Ozanimod

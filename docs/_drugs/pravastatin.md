@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pravastatin: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L4). Indicación original: Hiperlipidemia e hipertrigliceridemia…"
 monitor_inn: "Pravastatin"
-predicted_indications: ["homozygous familial hypercholesterolemia", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "familial hypercholesterolemia", "hypoalphalipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["homozygous familial hypercholesterolemia", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Pravastatin

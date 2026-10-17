@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ranibizumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L4). Indicación original: Retinopatía diabética, edema macular diabético…"
 monitor_inn: "RANIBIZUMAB"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+predicted_indications: ["diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 ---
 
 # Ranibizumab

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vindesine: nueva indicación predicha, Ganglioneuroblastoma (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda (según el grafo de conocimiento"
 monitor_inn: "Vindesine"
-predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm", "myeloid leukemia"]
+predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 ---
 
 # Vindesine

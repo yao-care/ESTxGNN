@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tioconazole: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L5). Indicación original: Candidiasis vulvovaginal"
 monitor_inn: "tioconazole"
-predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Tioconazole

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Antazoline: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 monitor_inn: "antazoline"
-predicted_indications: ["allergic urticaria", "cold urticaria", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
 ---
 
 # Antazoline

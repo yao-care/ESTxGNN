@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Dexpanthenol: nueva indicación predicha, Estenosis anorrectal (nivel de evidencia L5). Indicación original: No consta texto de indicación aprobada en las autorizaciones española…"
 monitor_inn: "dexpanthenol"
-predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Dexpanthenol

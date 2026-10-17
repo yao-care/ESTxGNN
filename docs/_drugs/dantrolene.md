@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dantrolene: nueva indicación predicha, Hipertermia maligna, susceptibilidad a (nivel de evidencia L3). Indicación original: Hipertermia maligna de la anestesia / hipertermia maligna inducida po…"
 monitor_inn: "Dantrolene"
-predicted_indications: ["malignant hyperthermia, susceptibility to", "moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
 ---
 
 # Dantrolene
