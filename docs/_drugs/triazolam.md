@@ -7,8 +7,6 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Triazolam: nueva indicación predicha, Trastorno del sueño con dificultad para iniciar y mantener el sueño (nivel de evidencia L3). Indicación original: Insomnio (según la base de conocimiento del mod…"
-monitor_inn: "TRIAZOLAM"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Triazolam

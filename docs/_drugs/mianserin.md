@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Mianserin: nueva indicación predicha, Trastorno distímico (dysthymic disorder) (nivel de evidencia L4). Indicación original: Depresión unipolar / depresión endógena / trastorno depresivo mayor /…"
 monitor_inn: "mianserin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "neurotic disorder"]
 ---
 
 # Mianserin

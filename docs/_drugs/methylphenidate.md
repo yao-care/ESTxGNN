@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Methylphenidate: nueva indicación predicha, Trastorno específico del desarrollo (nivel de evidencia L4). Indicación original: Trastorno por déficit de atención e hiperactividad (TDAH) (según el g…"
 monitor_inn: "methylphenidate"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "dysthymic disorder"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 ---
 
 # Methylphenidate

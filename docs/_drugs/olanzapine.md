@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Olanzapine: nueva indicación predicha, Torticolis paroxistica benigna de la infancia (nivel de evidencia L5). Indicación original: Trastorno bipolar, esquizofrenia…"
 monitor_inn: "Olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
 ---
 
 # Olanzapine

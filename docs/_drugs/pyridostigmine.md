@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Pyridostigmine: nueva indicación predicha, Miastenia gravis con hiperplasia tímica (nivel de evidencia L3). Indicación original: Miastenia gravis (según las relaciones de indicación del grafo de con…"
 monitor_inn: "Pyridostigmine"
-predicted_indications: ["hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 ---
 
 # Pyridostigmine

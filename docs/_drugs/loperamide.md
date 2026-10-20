@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L5). Indicación original: Enfermedad diarreica y disentería (según el grafo de conocimiento"
 monitor_inn: "Loperamide"
-predicted_indications: ["acute contagious conjunctivitis", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
+predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
 ---
 
 # Loperamide

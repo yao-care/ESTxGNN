@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Levocabastine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Conjuntivitis atópica…"
 monitor_inn: "Levocabastine"
-predicted_indications: ["allergic urticaria"]
+predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
 ---
 
 # Levocabastine

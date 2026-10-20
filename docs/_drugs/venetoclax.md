@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Venetoclax: nueva indicación predicha, LLC/LLP de origen pregerminal (IGHV no mutado) (nivel de evidencia L4). Indicación original: Leucemia linfoblástica aguda"
 monitor_inn: "VENETOCLAX"
-predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 ---
 
 # Venetoclax

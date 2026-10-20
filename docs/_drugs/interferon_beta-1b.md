@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (nivel de evidencia L5). Indicación original: Esclerosis múltiple remitente-recurrente"
 monitor_inn: "INTERFERON BETA-1B"
-predicted_indications: ["hairy cell leukemia"]
+predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 ---
 
 # Interferon Beta-1B

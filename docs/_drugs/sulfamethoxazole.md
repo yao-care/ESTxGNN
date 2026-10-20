@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L4). Indicación original: Otitis media infecciosa (según el grafo de conocimiento"
+monitor_inn: "sulfamethoxazole"
+predicted_indications: ["acute contagious conjunctivitis"]
 ---
 
 # Sulfamethoxazole
