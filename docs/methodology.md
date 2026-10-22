@@ -3,7 +3,7 @@ layout: default
 title: Metodología
 nav_order: 91
 permalink: /methodology/
-description: "Cómo genera y valida ESTxGNN sus predicciones: predicción con el grafo de conocimiento TxGNN, recopilación de evidencia, gradación L1-L5 y recomendaciones de decisión."
+description: "Cómo genera y valida ESTxGNN sus predicciones: predicción con el modelo TxGNN (aprendizaje profundo), recopilación de evidencia, gradación L1-L5 y recomendaciones de decisión."
 ---
 
 # Metodología
@@ -17,13 +17,13 @@ De la predicción de la IA a la gradación de la evidencia: cada candidato tiene
 ## Flujo general
 
 <p class="key-answer" data-question="¿Cómo genera ESTxGNN sus predicciones?">
-La plataforma emplea un flujo de cuatro etapas: el modelo de grafo de conocimiento TxGNN predice posibles
+La plataforma emplea un flujo de cuatro etapas: el modelo TxGNN (aprendizaje profundo) predice posibles
 asociaciones entre medicamentos y enfermedades, a continuación se recopila automáticamente la evidencia de cada par predicho,
 esa evidencia se gradúa de L1 a L5 y, por último, se emite una recomendación de decisión.
 </p>
 
 <ol class="actionable-steps">
-<li><strong>Predicción TxGNN</strong>: relaciones medicamento&ndash;enfermedad predichas con un grafo de conocimiento combinado con redes neuronales de grafos.</li>
+<li><strong>Predicción TxGNN</strong>: relaciones medicamento&ndash;enfermedad predichas por el modelo TxGNN (aprendizaje profundo: una red neuronal de grafos entrenada con un grafo de conocimiento biomédico).</li>
 <li><strong>Recopilación de evidencia</strong>: para cada par predicho se reúne evidencia de ClinicalTrials.gov, PubMed, DrugBank y la AEMPS.</li>
 <li><strong>Gradación de la evidencia</strong>: graduada de L1 a L5, donde L1 es la más sólida (múltiples ECA de fase 3) y L5 es solo predicción del modelo.</li>
 <li><strong>Recomendación de decisión</strong>: Go, Proceed, Consider, Explore o Hold, en función del nivel de evidencia.</li>

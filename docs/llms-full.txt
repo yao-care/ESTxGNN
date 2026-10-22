@@ -17,7 +17,7 @@ Los niveles de evidencia van de L1 (evidencia clínica más sólida) a L5 (solo 
 - `/evidence-high/` Evidencia alta (L1-L2) — Candidatos a reposicionamiento de medicamentos L1-L2 en ESTxGNN, respaldados por ensayos clínicos o revisiones sistemáticas.
 - `/evidence-medium/` Evidencia moderada (L3-L4) — Candidatos a reposicionamiento de medicamentos L3-L4 en ESTxGNN, respaldados por evidencia observacional o preclínica.
 - `/evidence-low/` Solo predicción del modelo (L5) — Candidatos L5 en ESTxGNN: solo predicción del modelo, todavía sin evidencia clínica ni bibliográfica.
-- `/methodology/` Metodología — Cómo genera y valida ESTxGNN sus predicciones: predicción con el grafo de conocimiento TxGNN, recopilación de evidencia, gradación L1-L5 y recomendaciones de decisión.
+- `/methodology/` Metodología — Cómo genera y valida ESTxGNN sus predicciones: predicción con el modelo TxGNN (aprendizaje profundo), recopilación de evidencia, gradación L1-L5 y recomendaciones de decisión.
 - `/guide/` Guía de uso — Guía de uso de ESTxGNN: cómo buscar medicamentos, leer los niveles de evidencia e interpretar las recomendaciones.
 - `/sources/` Fuentes de datos — Fuentes de datos en las que se basa ESTxGNN: datos de registro de la AEMPS, TxGNN, ClinicalTrials.gov, PubMed y DrugBank.
 - `/downloads/` Descargas — Descargas de datos abiertos de ESTxGNN: recursos FHIR, resultados de predicción e índice de búsqueda.
