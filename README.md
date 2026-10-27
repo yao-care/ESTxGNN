@@ -19,7 +19,7 @@ Predicciones de reposicionamiento de medicamentos para medicamentos aprobados po
 
 | Elemento | Cantidad |
 |------|------|
-| **Informes de medicamentos** | 643 |
+| **Informes de medicamentos** | 859 |
 | **Predicciones totales** | 22,798,010 |
 | **Medicamentos unicos** | 872 |
 | **Indicaciones unicas** | 17,041 |

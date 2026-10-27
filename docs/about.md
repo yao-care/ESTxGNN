@@ -112,7 +112,7 @@ enfermedades raras».
 
 | Elemento | Valor |
 |------|-------|
-| Informes de medicamentos | {{ site.drugs.size }} |
+| Informes de medicamentos | {{ site.data.drug_stats.total_drugs }} |
 | Autoridad reguladora | AEMPS |
 | Sitios desplegados | 30 países / regiones |
 
