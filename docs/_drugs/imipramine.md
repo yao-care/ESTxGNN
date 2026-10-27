@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-# Imipramina: De Trastorno de Ansiedad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Imipramina: De Trastorno de Ansiedad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

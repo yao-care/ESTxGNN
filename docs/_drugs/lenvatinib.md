@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Lenvatinib: De Carcinoma de Células Renales y Tiroideo a Liposarcoma
+## Lenvatinib: De Carcinoma de Células Renales y Tiroideo a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

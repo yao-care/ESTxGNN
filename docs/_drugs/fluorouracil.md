@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluorouracilo: De Carcinoma Basocelular Superficial Multifocal a Rabdomiosarcoma Embrionario Botrioide de Vagina
+## Fluorouracilo: De Carcinoma Basocelular Superficial Multifocal a Rabdomiosarcoma Embrionario Botrioide de Vagina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

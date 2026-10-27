@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Vinpocetina: De Demencia a Enfermedad de las Arterias Coronarias
+## Vinpocetina: De Demencia a Enfermedad de las Arterias Coronarias
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

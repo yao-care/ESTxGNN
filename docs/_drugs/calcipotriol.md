@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Calcipotriol: De Psoriasis (uso tópico) a Queratosis Seborreica
+## Calcipotriol: De Psoriasis (uso tópico) a Queratosis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

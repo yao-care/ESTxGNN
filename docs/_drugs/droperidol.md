@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Droperidol: De Neuroléptico Inyectable a Síndrome de Tourette
+## Droperidol: De Neuroléptico Inyectable a Síndrome de Tourette
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

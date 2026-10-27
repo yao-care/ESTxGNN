@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Vortioxetina: De Trastorno Depresivo Mayor a Trastorno Neurótico
+## Vortioxetina: De Trastorno Depresivo Mayor a Trastorno Neurótico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

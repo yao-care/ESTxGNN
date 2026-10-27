@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Evolocumab: De Hipercolesterolemia Familiar Homocigota a Hemofilia Sintomática en Portadoras
+## Evolocumab: De Hipercolesterolemia Familiar Homocigota a Hemofilia Sintomática en Portadoras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

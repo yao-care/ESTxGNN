@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Hidrocortisona: De Enfermedades Autoinmunes e Insuficiencia Suprarrenal a Alopecia Areata
+## Hidrocortisona: De Enfermedades Autoinmunes e Insuficiencia Suprarrenal a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Cabazitaxel: De Indicación Original No Especificada a Carcinoma de Mama Femenino
+## Cabazitaxel: De Indicación Original No Especificada a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

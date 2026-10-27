@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Catumaxomab: De Ascitis Maligna a Retinopatía Diabética No Proliferativa Grave
+## Catumaxomab: De Ascitis Maligna a Retinopatía Diabética No Proliferativa Grave
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

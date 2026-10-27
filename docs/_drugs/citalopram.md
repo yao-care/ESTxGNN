@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-# Citalopram: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+## Citalopram: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

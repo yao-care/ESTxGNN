@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Flurazepam: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+## Flurazepam: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

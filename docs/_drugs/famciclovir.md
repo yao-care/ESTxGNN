@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Famciclovir: De Herpes Zóster a Neuralgia Postinfecciosa
+## Famciclovir: De Herpes Zóster a Neuralgia Postinfecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

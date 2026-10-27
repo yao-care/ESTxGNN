@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Iodixanol: De Medio de Contraste Radiológico a Artrosis (Osteoartritis)
+## Iodixanol: De Medio de Contraste Radiológico a Artrosis (Osteoartritis)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

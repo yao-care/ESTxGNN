@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Raltitrexed: De Indicación Original No Especificada a Colangitis Esclerosante
+## Raltitrexed: De Indicación Original No Especificada a Colangitis Esclerosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

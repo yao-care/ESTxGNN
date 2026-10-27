@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ustekinumab: De Psoriasis y Artritis Psoriásica a Dermatitis
+## Ustekinumab: De Psoriasis y Artritis Psoriásica a Dermatitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

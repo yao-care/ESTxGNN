@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-# Pantoprazol: De Enfermedad Ulcerosa Péptica a Úlcera Péptica Activa
+## Pantoprazol: De Enfermedad Ulcerosa Péptica a Úlcera Péptica Activa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

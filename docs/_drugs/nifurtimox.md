@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Nifurtimox: De Enfermedad de Chagas a Analbuminemia Congénita
+## Nifurtimox: De Enfermedad de Chagas a Analbuminemia Congénita
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

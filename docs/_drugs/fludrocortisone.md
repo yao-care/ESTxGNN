@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Fludrocortisona: De Indicación Original No Disponible a Linfoma Cutáneo Primario de Células T
+## Fludrocortisona: De Indicación Original No Disponible a Linfoma Cutáneo Primario de Células T
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

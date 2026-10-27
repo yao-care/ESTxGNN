@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Azatioprina: De Artritis Reumatoide a Síndrome de Microftalmia Colobomatosa-Displasia Rizomélica
+## Azatioprina: De Artritis Reumatoide a Síndrome de Microftalmia Colobomatosa-Displasia Rizomélica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

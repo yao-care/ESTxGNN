@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Relebactam: De Infección del Tracto Urinario a Hiperamilasemia
+## Relebactam: De Infección del Tracto Urinario a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

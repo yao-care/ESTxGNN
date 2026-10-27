@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ribavirina: De Hepatitis C Crónica a Infección Crónica por Virus de la Hepatitis B
+## Ribavirina: De Hepatitis C Crónica a Infección Crónica por Virus de la Hepatitis B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

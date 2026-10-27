@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Acetaminofén (Paracetamol): De Cefalea y Migraña a Migraña con Aura del Tronco Encefálico
+## Acetaminofén (Paracetamol): De Cefalea y Migraña a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

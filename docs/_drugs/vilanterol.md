@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Vilanterol: De Enfermedad Pulmonar Obstructiva Crónica a Enfermedad Pulmonar Obstructiva (Indicación Predicha)
+## Vilanterol: De Enfermedad Pulmonar Obstructiva Crónica a Enfermedad Pulmonar Obstructiva (Indicación Predicha)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

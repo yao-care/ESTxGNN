@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Aprepitant: De Indicación Original No Disponible a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Aprepitant: De Indicación Original No Disponible a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

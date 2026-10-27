@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sorafenib: De Carcinoma Hepatocelular a Liposarcoma
+## Sorafenib: De Carcinoma Hepatocelular a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

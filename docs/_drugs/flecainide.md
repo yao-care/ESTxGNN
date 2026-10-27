@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Flecainida: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
+## Flecainida: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

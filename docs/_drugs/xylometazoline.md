@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-# Xilometazolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+## Xilometazolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Piperacilina: De Infecciones Bacterianas a Artritis Reumatoide
+## Piperacilina: De Infecciones Bacterianas a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

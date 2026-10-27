@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sonidegib: De Carcinoma Cutáneo a Cáncer de Piel (Categoría Amplia)
+## Sonidegib: De Carcinoma Cutáneo a Cáncer de Piel (Categoría Amplia)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Liotironina: De Hipotiroidismo a Hipodisplasia/Aplasia Renal
+## Liotironina: De Hipotiroidismo a Hipodisplasia/Aplasia Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

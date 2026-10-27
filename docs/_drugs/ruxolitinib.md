@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ruxolitinib: De Mielofibrosis y Policitemia Vera a Neoplasia PEComa Perivascular Epitelioide del Cuerpo Uterino
+## Ruxolitinib: De Mielofibrosis y Policitemia Vera a Neoplasia PEComa Perivascular Epitelioide del Cuerpo Uterino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

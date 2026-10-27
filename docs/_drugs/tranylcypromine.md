@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tranilcipromina: De Depresión Unipolar a Trastorno Distímico
+## Tranilcipromina: De Depresión Unipolar a Trastorno Distímico
+{: .text-alpha }
 
 > Nota: la predicción con mayor puntaje de TxGNN es la "tortícolis paroxística benigna de la infancia" (99,67 %), pero no cuenta con ningún ensayo ni publicación. Esta ficha se centra en la predicción principal, tal como se solicita. Más abajo se señala que, entre las diez predicciones, la "depresión neurótica" tiene la evidencia más sólida.
 

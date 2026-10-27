@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Pridinol: De Indicación Original No Registrada a Insomnio
+## Pridinol: De Indicación Original No Registrada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

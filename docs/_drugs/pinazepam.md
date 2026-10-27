@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Pinazepam: De Indicación Original No Especificada a Insomnio
+## Pinazepam: De Indicación Original No Especificada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

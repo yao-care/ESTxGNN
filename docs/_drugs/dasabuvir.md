@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Dasabuvir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+## Dasabuvir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

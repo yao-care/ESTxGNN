@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dipiridamol: De Fibrilación Auricular a Angina de Prinzmetal
+## Dipiridamol: De Fibrilación Auricular a Angina de Prinzmetal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

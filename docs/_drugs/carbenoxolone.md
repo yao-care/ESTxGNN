@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Carbenoxolona: De Úlcera Péptica a Malformación Esofágica No Sindrómica
+## Carbenoxolona: De Úlcera Péptica a Malformación Esofágica No Sindrómica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

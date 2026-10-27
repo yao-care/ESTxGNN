@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fexofenadina: De Rinitis Alérgica a Conjuntivitis Rosácea
+## Fexofenadina: De Rinitis Alérgica a Conjuntivitis Rosácea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

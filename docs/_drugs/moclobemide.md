@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 
 </div>
 
-# Moclobemida: De Trastorno de Ansiedad a Agorafobia
+## Moclobemida: De Trastorno de Ansiedad a Agorafobia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

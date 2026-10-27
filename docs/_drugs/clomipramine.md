@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Clomipramina: De Trastorno Obsesivo-Compulsivo a Trastorno de Ansiedad
+## Clomipramina: De Trastorno Obsesivo-Compulsivo a Trastorno de Ansiedad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

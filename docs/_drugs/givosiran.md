@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Givosiran: De Porfiria Hepática a Síndrome Hepatopulmonar
+## Givosiran: De Porfiria Hepática a Síndrome Hepatopulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

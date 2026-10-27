@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Elafibranor: De Colangitis Biliar Primaria a Amenorrea
+## Elafibranor: De Colangitis Biliar Primaria a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

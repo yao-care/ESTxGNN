@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Mecasermina: De Síndrome de Insensibilidad a la Hormona del Crecimiento a Monosomía X
+## Mecasermina: De Síndrome de Insensibilidad a la Hormona del Crecimiento a Monosomía X
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

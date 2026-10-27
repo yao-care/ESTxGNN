@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Ácido pamidrónico: De Hipercalcemia Humoral Maligna a Infección por VIH
+## Ácido pamidrónico: De Hipercalcemia Humoral Maligna a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

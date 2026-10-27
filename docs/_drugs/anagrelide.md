@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Anagrelida: De Trombocitemia a Trombocitosis Reactiva
+## Anagrelida: De Trombocitemia a Trombocitosis Reactiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

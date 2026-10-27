@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Perampanel: De Epilepsia Parcial a Epilepsia Visual
+## Perampanel: De Epilepsia Parcial a Epilepsia Visual
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

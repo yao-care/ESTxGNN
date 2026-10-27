@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pertuzumab: De Carcinoma de Mama HER2 Positivo a Subtipo de Carcinoma de Mama de Tipo Normal (Normal-like)
+## Pertuzumab: De Carcinoma de Mama HER2 Positivo a Subtipo de Carcinoma de Mama de Tipo Normal (Normal-like)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

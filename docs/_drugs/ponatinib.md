@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Ponatinib: De Leucemia Mieloide Crónica BCR-ABL1 Positiva a Fibromatosis Gingival
+## Ponatinib: De Leucemia Mieloide Crónica BCR-ABL1 Positiva a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

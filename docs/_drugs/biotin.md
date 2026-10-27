@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Biotina: De Deficiencia Nutricional de Biotina a Dispepsia
+## Biotina: De Deficiencia Nutricional de Biotina a Dispepsia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

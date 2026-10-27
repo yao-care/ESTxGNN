@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Sultiamo: De Indicación Original No Especificada a Síndrome de la Cola de Caballo
+## Sultiamo: De Indicación Original No Especificada a Síndrome de la Cola de Caballo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

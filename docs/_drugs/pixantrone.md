@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Pixantrona: De Linfoma No Hodgkin de Células B Agresivo a Catarata Diabética
+## Pixantrona: De Linfoma No Hodgkin de Células B Agresivo a Catarata Diabética
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

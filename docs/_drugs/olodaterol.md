@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Olodaterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) a Bronquitis
+## Olodaterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

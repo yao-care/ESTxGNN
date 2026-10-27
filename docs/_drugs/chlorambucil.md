@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Clorambucilo: De Linfoma de Hodgkin a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Centro Pregerminal
+## Clorambucilo: De Linfoma de Hodgkin a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Centro Pregerminal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

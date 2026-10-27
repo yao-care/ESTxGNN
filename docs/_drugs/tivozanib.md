@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tivozanib: De Carcinoma de Células Renales a Carcinoma Endocervical
+## Tivozanib: De Carcinoma de Células Renales a Carcinoma Endocervical
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

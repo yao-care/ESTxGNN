@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Ivermectina: De Estrongiloidiasis a Candidiasis Vulvovaginal
+## Ivermectina: De Estrongiloidiasis a Candidiasis Vulvovaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

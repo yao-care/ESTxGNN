@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Volanesorsen: De Hipertrigliceridemia (indicación no registrada en los datos) a Anemia Megaloblástica
+## Volanesorsen: De Hipertrigliceridemia (indicación no registrada en los datos) a Anemia Megaloblástica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

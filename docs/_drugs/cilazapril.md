@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Cilazapril: De Hipertensión Arterial a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+## Cilazapril: De Hipertensión Arterial a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+{: .text-alpha }
 
 *Nota: el informe se centra en la indicación predicha con mayor respaldo de evidencia (rango 2 de 4), ya que la predicha en primer lugar carece por completo de ensayos y literatura. Las demás predicciones se mencionan en la conclusión.*
 

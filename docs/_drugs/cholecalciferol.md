@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Colecalciferol: De Osteoporosis a Hipoparatiroidismo Aislado Familiar por Secreción Alterada de PTH
+## Colecalciferol: De Osteoporosis a Hipoparatiroidismo Aislado Familiar por Secreción Alterada de PTH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

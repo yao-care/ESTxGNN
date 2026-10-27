@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Clotrimazol: De Tiña del Pie a Acné
+## Clotrimazol: De Tiña del Pie a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

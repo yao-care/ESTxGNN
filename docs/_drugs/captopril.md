@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Captopril: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
+## Captopril: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

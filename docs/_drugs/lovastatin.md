@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **6**
 
 </div>
 
-# Lovastatina: De Hiperlipidemia a Hipercolesterolemia Familiar Homocigota
+## Lovastatina: De Hiperlipidemia a Hipercolesterolemia Familiar Homocigota
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

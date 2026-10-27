@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Diltiazem: De Trastorno Hipertensivo a Susceptibilidad al Ictus Isquémico (término obsoleto)
+## Diltiazem: De Trastorno Hipertensivo a Susceptibilidad al Ictus Isquémico (término obsoleto)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

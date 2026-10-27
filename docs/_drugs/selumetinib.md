@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Selumetinib: De Neurofibromatosis a Familial Generalized Lentiginosis (Lentiginosis Generalizada Familiar)
+## Selumetinib: De Neurofibromatosis a Familial Generalized Lentiginosis (Lentiginosis Generalizada Familiar)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

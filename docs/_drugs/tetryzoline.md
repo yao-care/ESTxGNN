@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Tetrizolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+## Tetrizolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

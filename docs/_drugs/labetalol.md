@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Labetalol: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Labetalol: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

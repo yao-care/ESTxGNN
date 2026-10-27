@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ciprofloxacino: De Fiebre Tifoidea e Infecciones Bacterianas a Esclerodermia Difusa
+## Ciprofloxacino: De Fiebre Tifoidea e Infecciones Bacterianas a Esclerodermia Difusa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

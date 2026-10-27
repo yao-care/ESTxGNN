@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Procaína: De Anestésico Local a Metahemoglobinemia (predicción con dirección adversa)
+## Procaína: De Anestésico Local a Metahemoglobinemia (predicción con dirección adversa)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

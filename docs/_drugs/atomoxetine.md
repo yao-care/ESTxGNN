@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Atomoxetina: De Trastorno por Déficit de Atención e Hiperactividad a Trastorno Específico del Desarrollo
+## Atomoxetina: De Trastorno por Déficit de Atención e Hiperactividad a Trastorno Específico del Desarrollo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

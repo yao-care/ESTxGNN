@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Metotrexato: De Leucemia Linfoblástica Aguda a Linfoma de Hodgkin
+## Metotrexato: De Leucemia Linfoblástica Aguda a Linfoma de Hodgkin
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

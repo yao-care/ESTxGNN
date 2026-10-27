@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cetuximab: De Cáncer Colorrectal a Bronchial Adenomas/Carcinoides Infantiles
+## Cetuximab: De Cáncer Colorrectal a Bronchial Adenomas/Carcinoides Infantiles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

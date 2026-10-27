@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Brivaracetam: De Epilepsia Parcial a Estado Epiléptico
+## Brivaracetam: De Epilepsia Parcial a Estado Epiléptico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

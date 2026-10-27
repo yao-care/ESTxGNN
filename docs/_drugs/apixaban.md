@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Apixabán: De Indicación Original no Especificada a Trastorno de Migraña
+## Apixabán: De Indicación Original no Especificada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

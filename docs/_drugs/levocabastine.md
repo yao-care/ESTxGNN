@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Levocabastina: De Conjuntivitis Atópica a Urticaria Alérgica
+## Levocabastina: De Conjuntivitis Atópica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

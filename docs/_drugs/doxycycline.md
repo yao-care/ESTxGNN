@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Doxiciclina: De Bronquitis, Acné y Neumonía Bacteriana a Queratoconjuntivitis Epitelial Punctata
+## Doxiciclina: De Bronquitis, Acné y Neumonía Bacteriana a Queratoconjuntivitis Epitelial Punctata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

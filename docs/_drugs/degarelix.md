@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Degarelix: De Cáncer de Próstata (indicación original no registrada en los datos) a Hipertricosis
+## Degarelix: De Cáncer de Próstata (indicación original no registrada en los datos) a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

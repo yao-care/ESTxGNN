@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Triprolidina: De Rinitis Alérgica a Urticaria Alérgica
+## Triprolidina: De Rinitis Alérgica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

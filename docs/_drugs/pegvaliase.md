@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Pegvaliasa: De Indicación Original No Especificada a Retinopatía Diabética
+## Pegvaliasa: De Indicación Original No Especificada a Retinopatía Diabética
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

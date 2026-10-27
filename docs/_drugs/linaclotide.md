@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Linaclotida: De Síndrome del Intestino Irritable a Síndrome de la Cola de Caballo
+## Linaclotida: De Síndrome del Intestino Irritable a Síndrome de la Cola de Caballo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

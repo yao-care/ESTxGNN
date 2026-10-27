@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Cetirizina: De Rinitis Alérgica a Urticaria Alérgica
+## Cetirizina: De Rinitis Alérgica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

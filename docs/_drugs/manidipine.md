@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Manidipino: De Hipertensión Arterial a Trastorno de Migraña
+## Manidipino: De Hipertensión Arterial a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

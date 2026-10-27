@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Diosmina: De Insuficiencia Venosa Crónica a Amenorrea
+## Diosmina: De Insuficiencia Venosa Crónica a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

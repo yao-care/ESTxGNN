@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Trametinib: De Melanoma Metastásico a Coriorremia
+## Trametinib: De Melanoma Metastásico a Coriorremia
+{: .text-alpha }
 
 **Nota sobre la selección de la indicación:** la predicción de mayor puntaje (rank 1) es la coriorremia, pero carece por completo de evidencia (L5) y de vínculo mecanístico. Esta es la indicación que sigue el formato del informe. Como contexto, el informe también señala que las predicciones de rank 2 a 10 se concentran en subtipos de melanoma, donde la evidencia es considerablemente mayor.
 

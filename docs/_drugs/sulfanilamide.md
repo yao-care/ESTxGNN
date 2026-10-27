@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Sulfanilamida: De Candidiasis Vulvovaginal a Vaginitis Atrófica Posmenopáusica
+## Sulfanilamida: De Candidiasis Vulvovaginal a Vaginitis Atrófica Posmenopáusica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Polisulfato de pentosano: De Cistitis Intersticial a Trastorno de Liberación Primaria de las Plaquetas
+## Polisulfato de pentosano: De Cistitis Intersticial a Trastorno de Liberación Primaria de las Plaquetas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

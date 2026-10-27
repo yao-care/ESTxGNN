@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Ritonavir: De Infección por VIH/SIDA a Infección por Virus de la Inmunodeficiencia Simia
+## Ritonavir: De Infección por VIH/SIDA a Infección por Virus de la Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

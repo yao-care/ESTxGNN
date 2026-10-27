@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Verapamilo: De Hipertensión Arterial a Bloqueo de Rama (Entrada Obsoleta)
+## Verapamilo: De Hipertensión Arterial a Bloqueo de Rama (Entrada Obsoleta)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Dexclorfeniramina: De Rinitis Alérgica a Urticaria Alérgica
+## Dexclorfeniramina: De Rinitis Alérgica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

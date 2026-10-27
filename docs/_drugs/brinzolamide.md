@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Brinzolamida: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+## Brinzolamida: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

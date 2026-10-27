@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Colchicina: De Gota a Malaria por Plasmodium falciparum
+## Colchicina: De Gota a Malaria por Plasmodium falciparum
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

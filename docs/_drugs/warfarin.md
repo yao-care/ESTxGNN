@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Warfarina: De Enfermedad Tromboembólica a Deficiencia de Cofactor 2 de la Heparina
+## Warfarina: De Enfermedad Tromboembólica a Deficiencia de Cofactor 2 de la Heparina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

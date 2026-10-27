@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Urofolitropina: De Indicación Original No Registrada a Trastorno de Migraña
+## Urofolitropina: De Indicación Original No Registrada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

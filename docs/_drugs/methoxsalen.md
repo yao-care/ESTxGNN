@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Metoxaleno: De Linfoma Cutáneo de Células T a Reticulosis Pagetoide Localizada
+## Metoxaleno: De Linfoma Cutáneo de Células T a Reticulosis Pagetoide Localizada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

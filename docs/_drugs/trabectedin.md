@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Trabectedina: De Cáncer de Ovario a Carcinoma de Mama Femenino
+## Trabectedina: De Cáncer de Ovario a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

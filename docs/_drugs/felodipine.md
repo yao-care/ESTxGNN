@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Felodipino: De Hipertensión a Hipertensión Pulmonar de Mecanismo Multifactorial No Aclarado
+## Felodipino: De Hipertensión a Hipertensión Pulmonar de Mecanismo Multifactorial No Aclarado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

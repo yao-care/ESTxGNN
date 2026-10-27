@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluvastatina: De Arteriosclerosis a Hiperlipoproteinemia
+## Fluvastatina: De Arteriosclerosis a Hiperlipoproteinemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

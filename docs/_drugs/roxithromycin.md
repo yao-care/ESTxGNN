@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Roxitromicina: De Infecciones Bacterianas a Lepra
+## Roxitromicina: De Infecciones Bacterianas a Lepra
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

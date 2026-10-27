@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Lansoprazol: De Úlcera Gástrica y Enfermedad por Reflujo Gastroesofágico a Reflujo Duodenogástrico
+## Lansoprazol: De Úlcera Gástrica y Enfermedad por Reflujo Gastroesofágico a Reflujo Duodenogástrico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

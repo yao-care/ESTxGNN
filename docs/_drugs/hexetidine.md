@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Hexetidina: De Antiséptico Local a Aneurisma del Tabique Interventricular
+## Hexetidina: De Antiséptico Local a Aneurisma del Tabique Interventricular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

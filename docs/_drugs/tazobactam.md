@@ -31,7 +31,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **2**
 
 </div>
 
-# Tazobactam: De Neumonía Bacteriana a Neumonía (Nosocomial y Asociada a Ventilación)
+## Tazobactam: De Neumonía Bacteriana a Neumonía (Nosocomial y Asociada a Ventilación)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

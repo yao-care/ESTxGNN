@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Remdesivir: De Indicación Original No Especificada a Neoplasia Endocrina Múltiple
+## Remdesivir: De Indicación Original No Especificada a Neoplasia Endocrina Múltiple
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

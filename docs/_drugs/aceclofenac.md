@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Aceclofenaco: De Artritis Reumatoide a Síndrome de Braquiolmia-Amelogénesis Imperfecta
+## Aceclofenaco: De Artritis Reumatoide a Síndrome de Braquiolmia-Amelogénesis Imperfecta
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

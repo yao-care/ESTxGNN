@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Insulina lispro: De Diabetes Mellitus Tipo 2 a Ooforitis Autoinmune
+## Insulina lispro: De Diabetes Mellitus Tipo 2 a Ooforitis Autoinmune
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

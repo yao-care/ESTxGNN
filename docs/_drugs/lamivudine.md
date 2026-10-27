@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Lamivudina: De Hepatitis B Crónica e Infección por VIH a Síndrome de Inmunodeficiencia Felina Adquirida
+## Lamivudina: De Hepatitis B Crónica e Infección por VIH a Síndrome de Inmunodeficiencia Felina Adquirida
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

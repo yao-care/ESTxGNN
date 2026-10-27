@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-# Benralizumab: De Neumonía Eosinofílica a Dermatitis
+## Benralizumab: De Neumonía Eosinofílica a Dermatitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

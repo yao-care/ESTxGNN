@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Ozanimod: De Esclerosis Múltiple a Esclerosis Múltiple Progresiva Recidivante
+## Ozanimod: De Esclerosis Múltiple a Esclerosis Múltiple Progresiva Recidivante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

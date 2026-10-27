@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Zuclopentixol: De Esquizofrenia a Distrofia Retiniana (con o sin anomalías extraoculares)
+## Zuclopentixol: De Esquizofrenia a Distrofia Retiniana (con o sin anomalías extraoculares)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

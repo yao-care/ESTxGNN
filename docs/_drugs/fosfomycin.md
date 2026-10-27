@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Fosfomicina: De Infección del Tracto Urinario a Uretritis Gonocócica
+## Fosfomicina: De Infección del Tracto Urinario a Uretritis Gonocócica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Eltrombopag: De Trombocitopenia Autoinmune a Infección por VIH
+## Eltrombopag: De Trombocitopenia Autoinmune a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

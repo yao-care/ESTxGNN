@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Nefopam: De Analgésico (indicación original no registrada) a Estenosis Espinal Lumbar
+## Nefopam: De Analgésico (indicación original no registrada) a Estenosis Espinal Lumbar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

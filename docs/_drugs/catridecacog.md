@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Catridecacog: De Deficiencia de Factor XIII (subunidad A) a Trastorno de Liberación Primaria Plaquetaria
+## Catridecacog: De Deficiencia de Factor XIII (subunidad A) a Trastorno de Liberación Primaria Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

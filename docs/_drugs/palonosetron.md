@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Palonosetrón: De Prevención de Náuseas y Vómitos a Trastorno de Migraña
+## Palonosetrón: De Prevención de Náuseas y Vómitos a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

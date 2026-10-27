@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Ozenoxacino: De Acné a Malaria
+## Ozenoxacino: De Acné a Malaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

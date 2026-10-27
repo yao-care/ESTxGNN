@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Lenograstim: De Indicación Original No Especificada a Trastorno de Liberación Primaria de Plaquetas
+## Lenograstim: De Indicación Original No Especificada a Trastorno de Liberación Primaria de Plaquetas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

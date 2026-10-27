@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Trastuzumab Deruxtecán: De Indicación Original No Especificada a Osteoporosis Inducida por Fármacos
+## Trastuzumab Deruxtecán: De Indicación Original No Especificada a Osteoporosis Inducida por Fármacos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

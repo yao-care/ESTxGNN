@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Pibrentasvir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+## Pibrentasvir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

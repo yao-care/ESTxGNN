@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Itraconazol: De Candidiasis Esofágica y Otras Micosis a Pneumocistosis
+## Itraconazol: De Candidiasis Esofágica y Otras Micosis a Pneumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

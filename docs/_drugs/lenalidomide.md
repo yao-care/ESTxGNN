@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **6**
 
 </div>
 
-# Lenalidomida: De Mieloma de Células Plasmáticas a Leucemia Mieloide
+## Lenalidomida: De Mieloma de Células Plasmáticas a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

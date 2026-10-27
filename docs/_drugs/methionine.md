@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metionina: De Pomada Oftálmica Epitelizante a Acné (predicción principal)
+## Metionina: De Pomada Oftálmica Epitelizante a Acné (predicción principal)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

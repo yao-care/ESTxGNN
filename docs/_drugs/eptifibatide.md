@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Eptifibatida: De Síndrome Coronario Agudo a Artritis Reumatoide
+## Eptifibatida: De Síndrome Coronario Agudo a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

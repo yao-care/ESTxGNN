@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Buserelina: De Cáncer de Próstata a Hipertricosis
+## Buserelina: De Cáncer de Próstata a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

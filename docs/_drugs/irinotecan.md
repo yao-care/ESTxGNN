@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Irinotecán: De Metástasis de Tumor Maligno de Colon a Carcinoma de Mama Femenino
+## Irinotecán: De Metástasis de Tumor Maligno de Colon a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

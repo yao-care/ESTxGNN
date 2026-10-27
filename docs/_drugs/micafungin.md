@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Micafungina: De Candidiasis Esofágica a Infección del Tracto Urinario
+## Micafungina: De Candidiasis Esofágica a Infección del Tracto Urinario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

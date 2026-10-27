@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Desmopresina: De Enfermedad de von Willebrand a Deficiencia Congénita de Protrombina
+## Desmopresina: De Enfermedad de von Willebrand a Deficiencia Congénita de Protrombina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -31,7 +31,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Loprazolam: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+## Loprazolam: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

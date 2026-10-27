@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Bexaroteno: De Linfoma Cutáneo Primario de Células T a Linfoma Cutáneo Primario de Células B
+## Bexaroteno: De Linfoma Cutáneo Primario de Células T a Linfoma Cutáneo Primario de Células B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

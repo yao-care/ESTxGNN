@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Ebastina: De Rinitis Alérgica a Enfermedad de las Arterias Coronarias
+## Ebastina: De Rinitis Alérgica a Enfermedad de las Arterias Coronarias
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

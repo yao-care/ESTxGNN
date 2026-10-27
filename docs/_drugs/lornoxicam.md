@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Lornoxicam: De Indicación Original No Especificada a Artritis Reumatoide
+## Lornoxicam: De Indicación Original No Especificada a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

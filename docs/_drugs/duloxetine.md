@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Duloxetina: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+## Duloxetina: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

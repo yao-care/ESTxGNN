@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Indinavir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+## Indinavir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

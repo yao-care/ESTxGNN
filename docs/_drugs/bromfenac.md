@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Bromfenaco: De Inflamación Ocular Posoperatoria a Enfermedad Ocular (Ojo Seco y Maculopatías)
+## Bromfenaco: De Inflamación Ocular Posoperatoria a Enfermedad Ocular (Ojo Seco y Maculopatías)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

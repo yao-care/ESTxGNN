@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Morfina: De Enfermedad Diarreica a Síndrome de Piernas Inquietas
+## Morfina: De Enfermedad Diarreica a Síndrome de Piernas Inquietas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

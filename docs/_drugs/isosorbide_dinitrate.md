@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dinitrato de isosorbida: De Uso Cardiovascular a Alopecia
+## Dinitrato de isosorbida: De Uso Cardiovascular a Alopecia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

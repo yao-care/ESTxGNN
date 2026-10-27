@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tiopental: De Epilepsia a Tricotilomanía
+## Tiopental: De Epilepsia a Tricotilomanía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Metformina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásico
+## Metformina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

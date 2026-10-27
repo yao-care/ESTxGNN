@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Albutrepenonacog alfa: De Hemofilia a Enfermedad de von Willebrand Pseudo (pseudo-von Willebrand)
+## Albutrepenonacog alfa: De Hemofilia a Enfermedad de von Willebrand Pseudo (pseudo-von Willebrand)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

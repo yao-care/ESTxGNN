@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Lumacaftor: De Fibrosis Quística a Lepra
+## Lumacaftor: De Fibrosis Quística a Lepra
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

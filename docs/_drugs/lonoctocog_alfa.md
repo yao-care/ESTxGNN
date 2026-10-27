@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Lonoctocog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
+## Lonoctocog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

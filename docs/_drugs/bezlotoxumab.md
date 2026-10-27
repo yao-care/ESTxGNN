@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bezlotoxumab: De Colitis por Clostridium difficile a Peritonitis Pélvica Aguda Femenina
+## Bezlotoxumab: De Colitis por Clostridium difficile a Peritonitis Pélvica Aguda Femenina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

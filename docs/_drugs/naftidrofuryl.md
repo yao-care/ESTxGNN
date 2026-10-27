@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Naftidrofurilo: De Trastorno Cerebrovascular a Ictus
+## Naftidrofurilo: De Trastorno Cerebrovascular a Ictus
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

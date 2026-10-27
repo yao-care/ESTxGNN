@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 
 </div>
 
-# Nortriptilina: De Trastorno de Ansiedad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Nortriptilina: De Trastorno de Ansiedad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

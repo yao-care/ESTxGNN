@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Perindopril: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Perindopril: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

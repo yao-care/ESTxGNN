@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Glecaprevir: De Infección por el Virus de la Hepatitis C a Infección por VIH (Coinfección VIH/VHC)
+## Glecaprevir: De Infección por el Virus de la Hepatitis C a Infección por VIH (Coinfección VIH/VHC)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

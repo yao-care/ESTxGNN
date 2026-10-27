@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Sulpirida: De Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+## Sulpirida: De Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Trifaroteno: De Acné a Zinc Plasmático Elevado
+## Trifaroteno: De Acné a Zinc Plasmático Elevado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

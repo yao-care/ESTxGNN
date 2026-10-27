@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Deanol: De Indicación No Registrada a Insomnio
+## Deanol: De Indicación No Registrada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

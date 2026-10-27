@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Terbutalina: De Asma a Enfermedad Pulmonar Obstructiva
+## Terbutalina: De Asma a Enfermedad Pulmonar Obstructiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

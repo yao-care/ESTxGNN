@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexametasona: De Exantema e Insuficiencia Suprarrenal a Alopecia Areata
+## Dexametasona: De Exantema e Insuficiencia Suprarrenal a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

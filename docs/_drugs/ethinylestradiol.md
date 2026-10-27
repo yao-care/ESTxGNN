@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Etinilestradiol: De Acné y Osteoporosis Posmenopáusica a Zinc Plasmático Elevado
+## Etinilestradiol: De Acné y Osteoporosis Posmenopáusica a Zinc Plasmático Elevado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

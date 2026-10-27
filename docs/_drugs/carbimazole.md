@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Carbimazol: De Hipertiroidismo a Resistencia a la Hormona Tiroidea por Mutación del Receptor Beta
+## Carbimazol: De Hipertiroidismo a Resistencia a la Hormona Tiroidea por Mutación del Receptor Beta
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

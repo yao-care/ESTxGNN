@@ -31,7 +31,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 
 </div>
 
-# Emedastina: De Conjuntivitis Atópica a Urticaria Alérgica
+## Emedastina: De Conjuntivitis Atópica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

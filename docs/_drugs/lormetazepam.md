@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Lormetazepam: De Insomnio a Insomnio (Indicación ya establecida)
+## Lormetazepam: De Insomnio a Insomnio (Indicación ya establecida)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

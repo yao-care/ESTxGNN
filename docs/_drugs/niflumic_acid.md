@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Ácido niflúmico: De Indicación Original No Especificada a Enfermedad de Raynaud
+## Ácido niflúmico: De Indicación Original No Especificada a Enfermedad de Raynaud
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

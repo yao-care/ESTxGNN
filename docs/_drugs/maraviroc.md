@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Maraviroc: De Indicación Original (no especificada en los datos) a Neoplasia Endocrina Múltiple
+## Maraviroc: De Indicación Original (no especificada en los datos) a Neoplasia Endocrina Múltiple
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Ácido acético: De otitis externa a trastorno posbacteriano
+## Ácido acético: De otitis externa a trastorno posbacteriano
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

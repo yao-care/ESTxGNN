@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Prucalopride: De Trastorno de Estreñimiento a Hipoalfalipoproteinemia
+## Prucalopride: De Trastorno de Estreñimiento a Hipoalfalipoproteinemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

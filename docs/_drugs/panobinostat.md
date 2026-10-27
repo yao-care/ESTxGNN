@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **1**
 
 </div>
 
-# Panobinostat: De Mieloma de Células Plasmáticas a Leucemia Mieloide
+## Panobinostat: De Mieloma de Células Plasmáticas a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

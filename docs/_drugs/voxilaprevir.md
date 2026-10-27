@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Voxilaprevir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+## Voxilaprevir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

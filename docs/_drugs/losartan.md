@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Losartán: De Hipertensión a Hipertensión Renovascular Maligna
+## Losartán: De Hipertensión a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

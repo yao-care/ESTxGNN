@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etoricoxib: De Indicación Original No Especificada a Migraña
+## Etoricoxib: De Indicación Original No Especificada a Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

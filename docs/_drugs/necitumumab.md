@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Necitumumab: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+## Necitumumab: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

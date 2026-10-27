@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tenofovir: De Hepatitis B Crónica e Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Tenofovir: De Hepatitis B Crónica e Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

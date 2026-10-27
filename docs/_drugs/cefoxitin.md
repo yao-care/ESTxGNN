@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cefoxitina: De Infecciones Bacterianas a Infección del Tracto Urinario
+## Cefoxitina: De Infecciones Bacterianas a Infección del Tracto Urinario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexibuprofeno: De Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+## Dexibuprofeno: De Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

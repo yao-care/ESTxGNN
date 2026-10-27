@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Atezolizumab: De Carcinoma de Células Transicionales a Carcinoma Urotelial de la Uretra Prostática
+## Atezolizumab: De Carcinoma de Células Transicionales a Carcinoma Urotelial de la Uretra Prostática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

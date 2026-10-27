@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tazaroteno: De Psoriasis a Dermatitis Seborreica
+## Tazaroteno: De Psoriasis a Dermatitis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

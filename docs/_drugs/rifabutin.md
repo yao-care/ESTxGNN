@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Rifabutina: De Indicación No Especificada en la Ficha a Infección por VIH
+## Rifabutina: De Indicación No Especificada en la Ficha a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

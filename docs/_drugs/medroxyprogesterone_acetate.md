@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetato de Medroxiprogesterona: De Endometriosis a Amenorrea
+## Acetato de Medroxiprogesterona: De Endometriosis a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

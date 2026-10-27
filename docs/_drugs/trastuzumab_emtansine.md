@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Trastuzumab emtansina: De Carcinoma de Mama HER2 Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+## Trastuzumab emtansina: De Carcinoma de Mama HER2 Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

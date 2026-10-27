@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Zanamivir: De Gripe a Pielonefritis
+## Zanamivir: De Gripe a Pielonefritis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

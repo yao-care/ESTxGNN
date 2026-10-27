@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Doxorrubicina: De Leucemia Linfoblástica Aguda y Linfomas a Sarcoma de Ewing
+## Doxorrubicina: De Leucemia Linfoblástica Aguda y Linfomas a Sarcoma de Ewing
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

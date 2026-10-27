@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Topiramato: De Epilepsia a Neoplasia del Nervio Trigémino
+## Topiramato: De Epilepsia a Neoplasia del Nervio Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

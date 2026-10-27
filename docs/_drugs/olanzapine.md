@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Olanzapina: De Trastorno Bipolar y Esquizofrenia a Torticolis Paroxistica Benigna de la Infancia
+## Olanzapina: De Trastorno Bipolar y Esquizofrenia a Torticolis Paroxistica Benigna de la Infancia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ampicilina: De Infecciones Bacterianas (Urinarias, Respiratorias y Meníngeas) a Laringitis
+## Ampicilina: De Infecciones Bacterianas (Urinarias, Respiratorias y Meníngeas) a Laringitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

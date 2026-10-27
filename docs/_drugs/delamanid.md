@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Delamanid: De Tuberculosis Multirresistente a Tuberculosis Bovina
+## Delamanid: De Tuberculosis Multirresistente a Tuberculosis Bovina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

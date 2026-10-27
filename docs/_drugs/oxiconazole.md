@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Oxiconazol: De Tiña del Pie a Candidiasis Cutánea
+## Oxiconazol: De Tiña del Pie a Candidiasis Cutánea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

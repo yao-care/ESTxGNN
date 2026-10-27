@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Enfortumab Vedotin: De Indicación No Registrada en los Datos a Lepra
+## Enfortumab Vedotin: De Indicación No Registrada en los Datos a Lepra
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Doxazosina: De Hipertensión e Hiperplasia Prostática Benigna a Migraña
+## Doxazosina: De Hipertensión e Hiperplasia Prostática Benigna a Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

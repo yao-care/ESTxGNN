@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Capreomicina: De Tuberculosis Pulmonar a Gota
+## Capreomicina: De Tuberculosis Pulmonar a Gota
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

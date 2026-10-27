@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Fosinopril: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Fosinopril: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

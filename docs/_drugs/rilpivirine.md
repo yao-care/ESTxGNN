@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Rilpivirina: De Infección por VIH a Infección por Virus de la Inmunodeficiencia de los Simios
+## Rilpivirina: De Infección por VIH a Infección por Virus de la Inmunodeficiencia de los Simios
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

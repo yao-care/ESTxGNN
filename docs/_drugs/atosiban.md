@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Atosiban: De Indicación Original No Registrada a Glaucoma Hereditario Primario
+## Atosiban: De Indicación Original No Registrada a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

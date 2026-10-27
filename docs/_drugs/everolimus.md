@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Everolimus: De Carcinoma de Células Renales a Liposarcoma
+## Everolimus: De Carcinoma de Células Renales a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

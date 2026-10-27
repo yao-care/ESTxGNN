@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Dipropionato de Beclometasona: De Asma y Rinitis Alérgica a Eccema Atópico
+## Dipropionato de Beclometasona: De Asma y Rinitis Alérgica a Eccema Atópico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

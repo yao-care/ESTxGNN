@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluoxetina: De Trastorno de Ansiedad y Depresión a Trastorno de Personalidad Esquizotípica
+## Fluoxetina: De Trastorno de Ansiedad y Depresión a Trastorno de Personalidad Esquizotípica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

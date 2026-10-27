@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tezacaftor: De Fibrosis Quística a Infección por VIH
+## Tezacaftor: De Fibrosis Quística a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

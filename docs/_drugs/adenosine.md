@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Adenosina: De Taquicardia Ventricular a Bloqueo de Rama (término obsoleto)
+## Adenosina: De Taquicardia Ventricular a Bloqueo de Rama (término obsoleto)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

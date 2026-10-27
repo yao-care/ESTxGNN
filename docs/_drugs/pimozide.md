@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Pimozida: De Síndrome de Tourette a Tricotilomanía
+## Pimozida: De Síndrome de Tourette a Tricotilomanía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

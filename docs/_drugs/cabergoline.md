@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Cabergolina: De Hiperprolactinemia a Cáncer de Hipófisis
+## Cabergolina: De Hiperprolactinemia a Cáncer de Hipófisis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

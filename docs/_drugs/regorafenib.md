@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Regorafenib: De Cáncer Colorrectal Metastásico y Carcinoma Hepatocelular a Liposarcoma
+## Regorafenib: De Cáncer Colorrectal Metastásico y Carcinoma Hepatocelular a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

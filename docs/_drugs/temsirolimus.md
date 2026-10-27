@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Temsirolimus: De Carcinoma de Células Renales a Liposarcoma
+## Temsirolimus: De Carcinoma de Células Renales a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

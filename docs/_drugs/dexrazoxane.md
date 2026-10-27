@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexrazoxano: De Indicación Original No Especificada a Colangitis Esclerosante
+## Dexrazoxano: De Indicación Original No Especificada a Colangitis Esclerosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

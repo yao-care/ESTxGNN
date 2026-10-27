@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Foscarnet: De Indicación Original No Disponible a Síndrome de Hematuria Familiar Autosómico Dominante con Tortuosidad Arteriolar Retiniana y Contracturas
+## Foscarnet: De Indicación Original No Disponible a Síndrome de Hematuria Familiar Autosómico Dominante con Tortuosidad Arteriolar Retiniana y Contracturas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

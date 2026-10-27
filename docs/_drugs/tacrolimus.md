@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Tacrolimus: De Dermatitis Atópica a Dermatitis Seborreica
+## Tacrolimus: De Dermatitis Atópica a Dermatitis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

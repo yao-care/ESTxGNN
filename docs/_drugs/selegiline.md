@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Selegilina: De Enfermedad de Parkinson a Polimicrogiria Perisilviana con Hipoplasia Cerebelosa y Artrogriposis
+## Selegilina: De Enfermedad de Parkinson a Polimicrogiria Perisilviana con Hipoplasia Cerebelosa y Artrogriposis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

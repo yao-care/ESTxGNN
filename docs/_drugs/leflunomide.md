@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Leflunomida: De Artritis Psoriásica y Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+## Leflunomida: De Artritis Psoriásica y Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

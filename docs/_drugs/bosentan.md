@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Bosentán: De Hipertensión Pulmonar Arterial a Artritis Reumatoide
+## Bosentán: De Hipertensión Pulmonar Arterial a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

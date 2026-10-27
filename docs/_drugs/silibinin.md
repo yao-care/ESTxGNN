@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Silibinina: De Indicación No Especificada a Hemoglobinopatía
+## Silibinina: De Indicación No Especificada a Hemoglobinopatía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

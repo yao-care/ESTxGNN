@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pitavastatina: De Hiperlipidemia Familiar Combinada a Hipercolesterolemia Homocigota Familiar
+## Pitavastatina: De Hiperlipidemia Familiar Combinada a Hipercolesterolemia Homocigota Familiar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

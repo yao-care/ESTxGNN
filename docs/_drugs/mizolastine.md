@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Mizolastina: De Rinitis Alérgica a Porfiria Aguda Intermitente
+## Mizolastina: De Rinitis Alérgica a Porfiria Aguda Intermitente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

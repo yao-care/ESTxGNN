@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Oritavancina: De Infección Cutánea Bacteriana a Enfermedad Infecciosa por Bacteroidaceae
+## Oritavancina: De Infección Cutánea Bacteriana a Enfermedad Infecciosa por Bacteroidaceae
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

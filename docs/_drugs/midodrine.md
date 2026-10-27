@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Midodrina: De Hipotensión Ortostática a Trastorno Hipotensivo
+## Midodrina: De Hipotensión Ortostática a Trastorno Hipotensivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

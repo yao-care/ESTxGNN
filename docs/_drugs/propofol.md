@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-# Propofol: De Anestesia/Sedación a Migraña
+## Propofol: De Anestesia/Sedación a Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

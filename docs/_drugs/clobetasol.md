@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Clobetasol: De Indicación Dermatológica Tópica a Linfoma Cutáneo de Células T Primario
+## Clobetasol: De Indicación Dermatológica Tópica a Linfoma Cutáneo de Células T Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

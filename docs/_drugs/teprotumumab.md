@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Teprotumumab: De Exoftalmos Endocrino a Monosomía X
+## Teprotumumab: De Exoftalmos Endocrino a Monosomía X
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Prasterona: De Dispareunia Psicológica a Deficiencia del Cofactor 2 de la Heparina
+## Prasterona: De Dispareunia Psicológica a Deficiencia del Cofactor 2 de la Heparina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

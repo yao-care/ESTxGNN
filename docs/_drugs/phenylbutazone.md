@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Fenilbutazona: De Indicación Original No Registrada a Artritis Reumatoide
+## Fenilbutazona: De Indicación Original No Registrada a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

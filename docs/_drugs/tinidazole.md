@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tinidazol: De Giardiasis y Vaginosis Bacteriana a Vaginitis Atrófica Posmenopáusica
+## Tinidazol: De Giardiasis y Vaginosis Bacteriana a Vaginitis Atrófica Posmenopáusica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

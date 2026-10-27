@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sunitinib: De Carcinoma de Células Renales a Liposarcoma
+## Sunitinib: De Carcinoma de Células Renales a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

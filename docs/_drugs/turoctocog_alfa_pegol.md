@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Turoctocog alfa pegol: De Hemofilia a Trastorno de Liberación Plaquetaria Primario
+## Turoctocog alfa pegol: De Hemofilia a Trastorno de Liberación Plaquetaria Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

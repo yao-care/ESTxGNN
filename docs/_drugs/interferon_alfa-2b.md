@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Interferón alfa-2b: De Infección Anogenital por Virus del Papiloma Humano a Esclerosis Múltiple Remitente-Recurrente
+## Interferón alfa-2b: De Infección Anogenital por Virus del Papiloma Humano a Esclerosis Múltiple Remitente-Recurrente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

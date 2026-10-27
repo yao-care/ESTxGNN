@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Efavirenz: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+## Efavirenz: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

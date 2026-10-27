@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Quetiapina: De Trastorno Bipolar y Esquizofrenia a Retinopatía Distrófica (con o sin Anomalías Extraoculares)
+## Quetiapina: De Trastorno Bipolar y Esquizofrenia a Retinopatía Distrófica (con o sin Anomalías Extraoculares)
+{: .text-alpha }
 
 > **Nota sobre la selección de la indicación:** la primera predicción del modelo (rank 1, retinopatía distrófica) carece por completo de ensayos clínicos y literatura. La única predicción con alguna evidencia publicada es **tricotilomanía** (rank 8), que se analiza en detalle en las secciones de evidencia como alternativa de interés.
 

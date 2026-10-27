@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Dacarbazina: De Linfoma de Hodgkin y Melanoma Metastásico a Neoplasia del Tracto Aerodigestivo Superior
+## Dacarbazina: De Linfoma de Hodgkin y Melanoma Metastásico a Neoplasia del Tracto Aerodigestivo Superior
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

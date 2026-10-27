@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Flupentixol: De Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+## Flupentixol: De Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

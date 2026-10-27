@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Obinutuzumab: De Leucemia Linfoblástica Aguda a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas de Centro Pregerminal
+## Obinutuzumab: De Leucemia Linfoblástica Aguda a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas de Centro Pregerminal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

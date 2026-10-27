@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Dexpanthenol: De Íleo Paralítico y Enfermedades de la Piel a Estenosis Anorrectal
+## Dexpanthenol: De Íleo Paralítico y Enfermedades de la Piel a Estenosis Anorrectal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

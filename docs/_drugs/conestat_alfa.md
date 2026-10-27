@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Conestat alfa: De Angioedema Hereditario a Deficiencia de C1 Inhibidor
+## Conestat alfa: De Angioedema Hereditario a Deficiencia de C1 Inhibidor
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

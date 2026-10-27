@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Saquinavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+## Saquinavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

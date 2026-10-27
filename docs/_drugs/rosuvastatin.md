@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Rosuvastatina: De Hipertrigliceridemia a Deficiencia de la Proteína de Transferencia de Ésteres de Colesterol
+## Rosuvastatina: De Hipertrigliceridemia a Deficiencia de la Proteína de Transferencia de Ésteres de Colesterol
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

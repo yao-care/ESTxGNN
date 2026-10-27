@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Irbesartán: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+## Irbesartán: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

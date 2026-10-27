@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ergocalciferol: De Osteoporosis y Trastornos del Metabolismo del Calcio y la Vitamina D a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+## Ergocalciferol: De Osteoporosis y Trastornos del Metabolismo del Calcio y la Vitamina D a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

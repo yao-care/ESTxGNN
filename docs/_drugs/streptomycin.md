@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Estreptomicina: De Tuberculosis Pulmonar a Conjuntivitis
+## Estreptomicina: De Tuberculosis Pulmonar a Conjuntivitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

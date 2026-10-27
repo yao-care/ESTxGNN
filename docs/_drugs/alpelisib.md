@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Alpelisib: De Indicación Original No Disponible a Hipertensión Pulmonar
+## Alpelisib: De Indicación Original No Disponible a Hipertensión Pulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

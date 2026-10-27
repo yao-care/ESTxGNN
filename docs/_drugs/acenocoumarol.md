@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Acenocumarol: De Embolia Pulmonar y Trombofilia a Deficiencia de Cofactor II de la Heparina
+## Acenocumarol: De Embolia Pulmonar y Trombofilia a Deficiencia de Cofactor II de la Heparina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

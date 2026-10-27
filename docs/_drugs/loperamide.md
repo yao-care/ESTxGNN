@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Loperamida: De Enfermedad Diarreica a Conjuntivitis Contagiosa Aguda
+## Loperamida: De Enfermedad Diarreica a Conjuntivitis Contagiosa Aguda
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

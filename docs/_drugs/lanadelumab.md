@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Lanadelumab: De Angioedema Hereditario a Deficiencia de C1 Inhibidor
+## Lanadelumab: De Angioedema Hereditario a Deficiencia de C1 Inhibidor
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Miglitol: De Diabetes Mellitus Tipo 2 a Síndrome de Extremidad Rígida Focal
+## Miglitol: De Diabetes Mellitus Tipo 2 a Síndrome de Extremidad Rígida Focal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Landiolol: De Indicación Original No Especificada a Discinesia Lingual-Facial-Bucal
+## Landiolol: De Indicación Original No Especificada a Discinesia Lingual-Facial-Bucal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

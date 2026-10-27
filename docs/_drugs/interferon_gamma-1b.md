@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Interferón gamma-1b: De Indicación No Especificada a Enfermedad Cardíaca
+## Interferón gamma-1b: De Indicación No Especificada a Enfermedad Cardíaca
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

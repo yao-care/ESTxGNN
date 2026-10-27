@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Espironolactona: De Hipertensión a Hipotricosis Simple del Cuero Cabelludo
+## Espironolactona: De Hipertensión a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

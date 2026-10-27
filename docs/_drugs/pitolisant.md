@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Pitolisant: De Narcolepsia a Insomnio
+## Pitolisant: De Narcolepsia a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

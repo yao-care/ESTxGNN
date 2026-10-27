@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Ketoconazol: De Infecciones Fúngicas Cutáneas a Acné
+## Ketoconazol: De Infecciones Fúngicas Cutáneas a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

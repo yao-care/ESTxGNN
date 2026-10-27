@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Nelarabina: De Leucemia Linfoblástica Aguda a Esclerosis Múltiple Remitente-Recurrente
+## Nelarabina: De Leucemia Linfoblástica Aguda a Esclerosis Múltiple Remitente-Recurrente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

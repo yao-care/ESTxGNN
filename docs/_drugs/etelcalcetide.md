@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **4**
 
 </div>
 
-# Etelcalcetida: De Hiperparatiroidismo a Hiperfosfatemia
+## Etelcalcetida: De Hiperparatiroidismo a Hiperfosfatemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

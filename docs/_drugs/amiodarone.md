@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Amiodarona: De Fibrilación Ventricular a Taquicardia Ventricular Catecolaminérgica Polimórfica
+## Amiodarona: De Fibrilación Ventricular a Taquicardia Ventricular Catecolaminérgica Polimórfica
+{: .text-alpha }
 
 *Nota: la predicción de mayor puntaje del modelo (taquicardia ventricular catecolaminérgica polimórfica) tiene poco respaldo y, según los datos, la amiodarona se considera generalmente ineficaz en ella. Por ello, este informe también analiza la indicación con mejor respaldo clínico entre las predichas: la taquicardia ventricular.*
 

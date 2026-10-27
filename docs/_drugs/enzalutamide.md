@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Enzalutamida: De Cáncer de Próstata a Susceptibilidad al Cáncer de Próstata/Cáncer Cerebral
+## Enzalutamida: De Cáncer de Próstata a Susceptibilidad al Cáncer de Próstata/Cáncer Cerebral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

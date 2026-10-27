@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Claritromicina: De Otitis Media Infecciosa a Hiperamilasemia
+## Claritromicina: De Otitis Media Infecciosa a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

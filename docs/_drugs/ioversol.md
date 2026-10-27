@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ioversol: De Agente de Contraste Radiográfico a Osteoartritis (Susceptibilidad)
+## Ioversol: De Agente de Contraste Radiográfico a Osteoartritis (Susceptibilidad)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

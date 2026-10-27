@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Neostigmina: De Miastenia Gravis a Miastenia Gravis con Hiperplasia de Timo
+## Neostigmina: De Miastenia Gravis a Miastenia Gravis con Hiperplasia de Timo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

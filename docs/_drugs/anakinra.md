@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Anakinra: De Artritis Reumatoide a Mastocitoma Extracutáneo
+## Anakinra: De Artritis Reumatoide a Mastocitoma Extracutáneo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

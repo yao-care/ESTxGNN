@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexketoprofeno: De AINE Analgésico (indicación original no disponible) a Tendinitis
+## Dexketoprofeno: De AINE Analgésico (indicación original no disponible) a Tendinitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

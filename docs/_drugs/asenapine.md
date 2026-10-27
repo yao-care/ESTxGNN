@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Asenapina: De Trastorno Bipolar y Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+## Asenapina: De Trastorno Bipolar y Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

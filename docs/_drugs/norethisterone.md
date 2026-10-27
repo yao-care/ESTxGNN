@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Noretisterona: De Acné y Endometriosis a Amenorrea
+## Noretisterona: De Acné y Endometriosis a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

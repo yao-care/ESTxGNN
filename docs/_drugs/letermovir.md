@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Letermovir: De Infección por Citomegalovirus a Candidiasis Vulvovaginal
+## Letermovir: De Infección por Citomegalovirus a Candidiasis Vulvovaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

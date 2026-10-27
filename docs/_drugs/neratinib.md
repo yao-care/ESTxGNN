@@ -31,7 +31,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 </div>
 
-# Neratinib: De Cáncer de Mama HER2 Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+## Neratinib: De Cáncer de Mama HER2 Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

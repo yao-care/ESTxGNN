@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Pentoxiverina: De Rinitis y Faringitis a Laringofaringitis Aguda
+## Pentoxiverina: De Rinitis y Faringitis a Laringofaringitis Aguda
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

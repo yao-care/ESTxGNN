@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bupropión: De Trastornos Depresivos y Dependencia de Nicotina a Trastorno por Déficit de Atención e Hiperactividad
+## Bupropión: De Trastornos Depresivos y Dependencia de Nicotina a Trastorno por Déficit de Atención e Hiperactividad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

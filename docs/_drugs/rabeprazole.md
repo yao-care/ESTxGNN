@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Rabeprazol: De Enfermedad Ulcerosa Péptica a Mastocitosis Sistémica Latente (Smouldering)
+## Rabeprazol: De Enfermedad Ulcerosa Péptica a Mastocitosis Sistémica Latente (Smouldering)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

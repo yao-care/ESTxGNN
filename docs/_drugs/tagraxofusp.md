@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tagraxofusp: De Neoplasia Hematodérmica CD4+/CD56+ a Esotropía
+## Tagraxofusp: De Neoplasia Hematodérmica CD4+/CD56+ a Esotropía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

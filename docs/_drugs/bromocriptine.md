@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bromocriptina: De Enfermedad de Parkinson a Defecto Congénito de Glucosilación con Fucosilación Defectuosa
+## Bromocriptina: De Enfermedad de Parkinson a Defecto Congénito de Glucosilación con Fucosilación Defectuosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

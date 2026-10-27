@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Dihidrocodeína: De Rinitis y Faringitis a Enfermedad de la Cavidad Nasal
+## Dihidrocodeína: De Rinitis y Faringitis a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

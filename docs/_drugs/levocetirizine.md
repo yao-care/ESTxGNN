@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Levocetirizina: De Rinitis Alérgica a Artritis Reumatoide
+## Levocetirizina: De Rinitis Alérgica a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

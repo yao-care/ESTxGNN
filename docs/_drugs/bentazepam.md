@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Bentazepam: De Trastornos de Ansiedad a Insomnio
+## Bentazepam: De Trastornos de Ansiedad a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

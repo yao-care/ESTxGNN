@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Lomustina: De Linfoma de Hodgkin y Cáncer Cerebral a Linfosarcoma
+## Lomustina: De Linfoma de Hodgkin y Cáncer Cerebral a Linfosarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

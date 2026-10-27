@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Ciclesonida: De Asma a Eccema Atópico
+## Ciclesonida: De Asma a Eccema Atópico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

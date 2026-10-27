@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Mogamulizumab: De Linfoma Cutáneo de Células T a Carcinoma Urotelial de la Uretra Prostática
+## Mogamulizumab: De Linfoma Cutáneo de Células T a Carcinoma Urotelial de la Uretra Prostática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

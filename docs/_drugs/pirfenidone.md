@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pirfenidona: De Fibrosis Pulmonar Idiopática a Mastocitoma Extracutáneo
+## Pirfenidona: De Fibrosis Pulmonar Idiopática a Mastocitoma Extracutáneo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

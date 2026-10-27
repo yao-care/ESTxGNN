@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Mebendazol: De Enterobiasis, Ascariasis y Tricuriasis a Acné
+## Mebendazol: De Enterobiasis, Ascariasis y Tricuriasis a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Vindesina: De Leucemia Linfoblástica Aguda a Ganglioneuroblastoma
+## Vindesina: De Leucemia Linfoblástica Aguda a Ganglioneuroblastoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

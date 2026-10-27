@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Indometacina: De Artritis Reumatoide y Enfermedades Articulares a Brachydactyly-Syndactyly Syndrome (Síndrome de Braquidactilia-Sindactilia)
+## Indometacina: De Artritis Reumatoide y Enfermedades Articulares a Brachydactyly-Syndactyly Syndrome (Síndrome de Braquidactilia-Sindactilia)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

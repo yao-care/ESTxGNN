@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Candesartán: De Indicación No Especificada en la Ficha a Trastorno de Migraña
+## Candesartán: De Indicación No Especificada en la Ficha a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

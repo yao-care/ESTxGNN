@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Clofazimina: De Lepra a Pneumocystosis
+## Clofazimina: De Lepra a Pneumocystosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

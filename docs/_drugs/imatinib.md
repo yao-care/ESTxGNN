@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Imatinib: De Leucemia Mieloide Crónica a Fibrosarcoma Cardíaco
+## Imatinib: De Leucemia Mieloide Crónica a Fibrosarcoma Cardíaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

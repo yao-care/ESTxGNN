@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Lamotrigina: De Epilepsia a Neoplasia del Nervio Trigémino
+## Lamotrigina: De Epilepsia a Neoplasia del Nervio Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

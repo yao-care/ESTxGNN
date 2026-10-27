@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tetrabenazina: De Enfermedad de Huntington a Enfermedad Renal Poliquística Tipo 3 (con o sin Enfermedad Hepática Poliquística)
+## Tetrabenazina: De Enfermedad de Huntington a Enfermedad Renal Poliquística Tipo 3 (con o sin Enfermedad Hepática Poliquística)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

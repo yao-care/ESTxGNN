@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Valsartán: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+## Valsartán: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Cefditoreno: De Indicación Original No Disponible a Susceptibilidad a la Osteoartritis
+## Cefditoreno: De Indicación Original No Disponible a Susceptibilidad a la Osteoartritis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

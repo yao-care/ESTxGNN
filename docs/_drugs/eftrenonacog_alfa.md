@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Eftrenonacog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
+## Eftrenonacog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

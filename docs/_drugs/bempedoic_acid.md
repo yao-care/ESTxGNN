@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido bempedoico: De Hipercolesterolemia a Hipertiroidismo
+## Ácido bempedoico: De Hipercolesterolemia a Hipertiroidismo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

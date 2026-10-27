@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Zanubrutinib: De Linfoma de Células del Manto a Leucemia Mieloide
+## Zanubrutinib: De Linfoma de Células del Manto a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

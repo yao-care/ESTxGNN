@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Talco: De Uso Dermatológico en Polvo Cutáneo a Enfermedad Trombótica (predicción del modelo)
+## Talco: De Uso Dermatológico en Polvo Cutáneo a Enfermedad Trombótica (predicción del modelo)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

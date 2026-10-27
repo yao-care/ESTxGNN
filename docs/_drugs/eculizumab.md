@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Eculizumab: De Hemoglobinuria Paroxística Nocturna a Hematopoyesis Cíclica
+## Eculizumab: De Hemoglobinuria Paroxística Nocturna a Hematopoyesis Cíclica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Lasmiditan: De Trastorno de Migraña a Migraña con Aura del Tronco Encefálico
+## Lasmiditan: De Trastorno de Migraña a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Netarsudil: De Glaucoma de Ángulo Abierto e Hipertensión Ocular a Glaucoma Hereditario Primario
+## Netarsudil: De Glaucoma de Ángulo Abierto e Hipertensión Ocular a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Atazanavir: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Atazanavir: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

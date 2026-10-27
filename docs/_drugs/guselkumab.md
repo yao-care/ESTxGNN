@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Guselkumab: De Psoriasis en Placas a Osteoporosis Inducida por Fármacos
+## Guselkumab: De Psoriasis en Placas a Osteoporosis Inducida por Fármacos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

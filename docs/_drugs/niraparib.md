@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Niraparib: De Cáncer de Peritoneo / Neoplasia Epitelial Maligna de Ovario a Neoplasia Quística
+## Niraparib: De Cáncer de Peritoneo / Neoplasia Epitelial Maligna de Ovario a Neoplasia Quística
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Isotretinoína: De Hipertensión a Hipertensión Renovascular Maligna
+## Isotretinoína: De Hipertensión a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

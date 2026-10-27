@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Caplacizumab: De Púrpura Trombocitopénica a Trastorno Primario de Liberación Plaquetaria
+## Caplacizumab: De Púrpura Trombocitopénica a Trastorno Primario de Liberación Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

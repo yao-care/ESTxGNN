@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Clotiapina: De Indicación Original No Registrada a Insomnio
+## Clotiapina: De Indicación Original No Registrada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

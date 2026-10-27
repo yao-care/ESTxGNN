@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Prednicarbato: De Dermatosis Inflamatorias Cutáneas a Queratosis Folicular Invertida Vulvar
+## Prednicarbato: De Dermatosis Inflamatorias Cutáneas a Queratosis Folicular Invertida Vulvar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

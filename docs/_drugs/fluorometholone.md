@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluorometolona: De Uveítis y Patología Inflamatoria Ocular a Vasculitis Postinfecciosa
+## Fluorometolona: De Uveítis y Patología Inflamatoria Ocular a Vasculitis Postinfecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

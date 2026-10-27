@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Lopinavir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia de los Simios
+## Lopinavir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia de los Simios
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

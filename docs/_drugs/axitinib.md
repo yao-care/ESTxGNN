@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Axitinib: De Carcinoma de Células Renales a Carcinoma Renal Asociado a Translocaciones Xp11.2/Fusiones del Gen TFE3
+## Axitinib: De Carcinoma de Células Renales a Carcinoma Renal Asociado a Translocaciones Xp11.2/Fusiones del Gen TFE3
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

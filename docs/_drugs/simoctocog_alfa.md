@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Simoctocog alfa: De Hemofilia a Pseudo-enfermedad de von Willebrand
+## Simoctocog alfa: De Hemofilia a Pseudo-enfermedad de von Willebrand
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

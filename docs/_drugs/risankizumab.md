@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Risankizumab: De Psoriasis a Dermatitis
+## Risankizumab: De Psoriasis a Dermatitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

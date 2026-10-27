@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 </div>
 
-# Dapsona: De Dermatitis Herpetiforme a Neumocistosis
+## Dapsona: De Dermatitis Herpetiforme a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

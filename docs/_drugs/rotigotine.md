@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Rotigotina: De Síndrome de Piernas Inquietas a Trastorno por Déficit de Atención e Hiperactividad
+## Rotigotina: De Síndrome de Piernas Inquietas a Trastorno por Déficit de Atención e Hiperactividad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

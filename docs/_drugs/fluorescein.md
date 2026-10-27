@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluoresceína: De Agente Diagnóstico a Angina de Prinzmetal
+## Fluoresceína: De Agente Diagnóstico a Angina de Prinzmetal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

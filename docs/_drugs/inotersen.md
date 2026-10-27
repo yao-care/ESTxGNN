@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Inotersen: De Indicación Original No Especificada a Porfiria Aguda Intermitente
+## Inotersen: De Indicación Original No Especificada a Porfiria Aguda Intermitente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

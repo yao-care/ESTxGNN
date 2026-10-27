@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Certolizumab Pegol: De Enfermedad de Crohn a Reumatoide Vasculitis
+## Certolizumab Pegol: De Enfermedad de Crohn a Reumatoide Vasculitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

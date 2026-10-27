@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Ataluren: De Distrofia Muscular de Duchenne a Colestasis Intrahepática Recurrente Benigna
+## Ataluren: De Distrofia Muscular de Duchenne a Colestasis Intrahepática Recurrente Benigna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

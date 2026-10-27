@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fenazopiridina: De Indicación Original No Registrada a Bronquitis
+## Fenazopiridina: De Indicación Original No Registrada a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Canakinumab: De Gota y Síndromes Periódicos Autoinflamatorios a Infarto Hepático
+## Canakinumab: De Gota y Síndromes Periódicos Autoinflamatorios a Infarto Hepático
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

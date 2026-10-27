@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Laronidasa: De Mucopolisacaridosis a Enfermedad de Depósito Lisosomal con Afectación Esquelética
+## Laronidasa: De Mucopolisacaridosis a Enfermedad de Depósito Lisosomal con Afectación Esquelética
+{: .text-alpha }
 
 ## Resumen en Una Frase
 
@@ -101,7 +102,8 @@ La predicción se solapa con la indicación ya aprobada (MPS I con afectación e
 
 ---
 
-# Laronidasa: De Mucopolisacaridosis a Síndrome de Sanfilippo
+## Laronidasa: De Mucopolisacaridosis a Síndrome de Sanfilippo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

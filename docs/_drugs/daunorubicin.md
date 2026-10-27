@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Daunorrubicina: De Leucemia Aguda a Linfoma de Hodgkin
+## Daunorrubicina: De Leucemia Aguda a Linfoma de Hodgkin
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

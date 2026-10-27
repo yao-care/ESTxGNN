@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fluconazol: De Candidiasis Oral a Queratoconjuntivitis Epitelial Punteada
+## Fluconazol: De Candidiasis Oral a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

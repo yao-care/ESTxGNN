@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Fremanezumab: De Migraña a Migraña con Aura del Tronco Encefálico
+## Fremanezumab: De Migraña a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

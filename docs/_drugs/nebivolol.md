@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Nebivolol: De Hipertensión a Hipertensión Renovascular Maligna
+## Nebivolol: De Hipertensión a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

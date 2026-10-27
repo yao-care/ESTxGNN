@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Selinexor: De Indicación Original No Disponible a Osteoporosis Inducida por Fármacos
+## Selinexor: De Indicación Original No Disponible a Osteoporosis Inducida por Fármacos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

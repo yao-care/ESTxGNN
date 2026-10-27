@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Aciclovir: De Infecciones por Herpes a Verrugas Comunes
+## Aciclovir: De Infecciones por Herpes a Verrugas Comunes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

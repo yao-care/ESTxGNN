@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Mianserina: De Depresión Unipolar a Trastorno Distímico
+## Mianserina: De Depresión Unipolar a Trastorno Distímico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

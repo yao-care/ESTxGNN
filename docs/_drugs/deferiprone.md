@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Deferiprona: De Hemosiderosis y Talasemia a Porfiria Hepática
+## Deferiprona: De Hemosiderosis y Talasemia a Porfiria Hepática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

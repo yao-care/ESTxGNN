@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Capmatinib: De Indicación Original No Especificada a Artritis Reumatoide
+## Capmatinib: De Indicación Original No Especificada a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

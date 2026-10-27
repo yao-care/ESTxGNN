@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clonidina: De Trastorno Hipertensivo a Síndrome Faciodigitogenital
+## Clonidina: De Trastorno Hipertensivo a Síndrome Faciodigitogenital
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

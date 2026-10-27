@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Sertralina: De Trastorno de Ansiedad a Agorafobia
+## Sertralina: De Trastorno de Ansiedad a Agorafobia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

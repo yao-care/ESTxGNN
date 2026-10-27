@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Tocilizumab: De Artritis Reumatoide a Espondilitis Anquilosante
+## Tocilizumab: De Artritis Reumatoide a Espondilitis Anquilosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

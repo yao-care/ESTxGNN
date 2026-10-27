@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Tetracaína: De Dermatitis a Acrodermatitis Crónica Atrófica
+## Tetracaína: De Dermatitis a Acrodermatitis Crónica Atrófica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-# Terlipresina: De Indicación Original No Especificada a Hipertensión Pulmonar
+## Terlipresina: De Indicación Original No Especificada a Hipertensión Pulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

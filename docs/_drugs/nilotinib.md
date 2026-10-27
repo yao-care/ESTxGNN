@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Nilotinib: De Leucemia Mieloide Crónica a Dermatofibrosarcoma Protuberans
+## Nilotinib: De Leucemia Mieloide Crónica a Dermatofibrosarcoma Protuberans
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

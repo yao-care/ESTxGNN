@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Procarbazina: De Linfoma de Hodgkin a Linfoma Folicular
+## Procarbazina: De Linfoma de Hodgkin a Linfoma Folicular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

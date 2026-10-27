@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Tiagabina: De Epilepsia Parcial a Epilepsia Visual
+## Tiagabina: De Epilepsia Parcial a Epilepsia Visual
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

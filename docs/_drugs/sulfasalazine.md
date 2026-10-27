@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Sulfasalazina: De Artritis Reumatoide a Osteoartritis
+## Sulfasalazina: De Artritis Reumatoide a Osteoartritis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

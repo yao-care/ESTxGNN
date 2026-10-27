@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Hidroxizina: De Eccema Atópico y Rinitis Alérgica a Urticaria Alérgica
+## Hidroxizina: De Eccema Atópico y Rinitis Alérgica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

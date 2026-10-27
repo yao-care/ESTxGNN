@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Etambutol: De Tuberculosis Pulmonar a Epiglotitis
+## Etambutol: De Tuberculosis Pulmonar a Epiglotitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

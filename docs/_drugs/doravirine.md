@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Doravirina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Doravirina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

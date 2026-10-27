@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Entecavir: De Infección Crónica por el Virus de la Hepatitis B a Infección Crónica por el Virus de la Hepatitis C
+## Entecavir: De Infección Crónica por el Virus de la Hepatitis B a Infección Crónica por el Virus de la Hepatitis C
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

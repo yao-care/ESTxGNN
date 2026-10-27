@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Reslizumab: De Neumonía Eosinofílica a Trombocitopenia por Destrucción Inmune
+## Reslizumab: De Neumonía Eosinofílica a Trombocitopenia por Destrucción Inmune
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

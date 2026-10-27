@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Solriamfetol: De Narcolepsia a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Solriamfetol: De Narcolepsia a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

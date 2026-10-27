@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Efmoroctocog alfa: De Hemofilia a Enfermedad de von Willebrand Pseudo (tipo plaquetario)
+## Efmoroctocog alfa: De Hemofilia a Enfermedad de von Willebrand Pseudo (tipo plaquetario)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

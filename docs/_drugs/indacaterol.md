@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Indacaterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Indacaterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Nitrendipino: De Hipertensión Arterial a Migraña
+## Nitrendipino: De Hipertensión Arterial a Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

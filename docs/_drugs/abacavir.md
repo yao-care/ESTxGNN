@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Abacavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+## Abacavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

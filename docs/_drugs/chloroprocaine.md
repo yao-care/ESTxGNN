@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Cloroprocaína: De Anestesia Local a Síndrome de la Cola de Caballo (Predicción No Terapéutica)
+## Cloroprocaína: De Anestesia Local a Síndrome de la Cola de Caballo (Predicción No Terapéutica)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

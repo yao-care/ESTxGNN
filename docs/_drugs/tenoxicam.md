@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tenoxicam: De Enfermedad Articular Artrítica a Artritis Reumatoide
+## Tenoxicam: De Enfermedad Articular Artrítica a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

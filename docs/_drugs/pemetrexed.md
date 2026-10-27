@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Pemetrexed: De Cáncer de Pulmón no Microcítico y Mesotelioma Pleural a Mesotelioma Peritoneal Maligno
+## Pemetrexed: De Cáncer de Pulmón no Microcítico y Mesotelioma Pleural a Mesotelioma Peritoneal Maligno
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

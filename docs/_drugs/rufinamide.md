@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Rufinamida: De Síndrome de Lennox-Gastaut a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+## Rufinamida: De Síndrome de Lennox-Gastaut a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

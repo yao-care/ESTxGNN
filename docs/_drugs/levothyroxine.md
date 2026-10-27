@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Levotiroxina: De Hipotiroidismo a Bocio Endémico
+## Levotiroxina: De Hipotiroidismo a Bocio Endémico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

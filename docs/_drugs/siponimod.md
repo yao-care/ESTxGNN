@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Siponimod: De Indicación Original No Especificada a Hipertensión Pulmonar
+## Siponimod: De Indicación Original No Especificada a Hipertensión Pulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

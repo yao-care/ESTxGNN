@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Tramazolina: De Rinitis Alérgica a Urticaria Alérgica
+## Tramazolina: De Rinitis Alérgica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

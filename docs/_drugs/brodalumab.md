@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Brodalumab: De Indicación Original No Especificada a Enfermedad Ocular (Estrongiloidiasis como predicción principal)
+## Brodalumab: De Indicación Original No Especificada a Enfermedad Ocular (Estrongiloidiasis como predicción principal)
+{: .text-alpha }
 
 > Nota: la predicción de mayor puntaje del modelo es **estrongiloidiasis**, pero carece de toda evidencia. Se muestra también la predicción con mayor soporte documental (**enfermedad ocular**), de forma informativa.
 

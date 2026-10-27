@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Brolucizumab: De Degeneración Macular a Trastorno de la Fosforilación Oxidativa Mitocondrial por Anomalías del ADN Nuclear
+## Brolucizumab: De Degeneración Macular a Trastorno de la Fosforilación Oxidativa Mitocondrial por Anomalías del ADN Nuclear
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

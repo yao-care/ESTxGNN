@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Sapropterina: De Fenilcetonuria a Trastorno del Metabolismo de la Tirosina
+## Sapropterina: De Fenilcetonuria a Trastorno del Metabolismo de la Tirosina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

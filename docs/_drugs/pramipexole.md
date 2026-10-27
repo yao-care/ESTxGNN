@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pramipexol: De Síndrome de Piernas Inquietas a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Pramipexol: De Síndrome de Piernas Inquietas a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

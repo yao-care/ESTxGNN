@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Golimumab: De Artritis Reumatoide a Vasculitis Reumatoide
+## Golimumab: De Artritis Reumatoide a Vasculitis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-# Clopidogrel: De Síndrome Coronario Agudo a Migraña con Aura del Tronco Encefálico
+## Clopidogrel: De Síndrome Coronario Agudo a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

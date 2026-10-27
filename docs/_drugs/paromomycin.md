@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Paromomicina: De Coma Hepático a Cirrosis Asociada a Cobre Idiopática
+## Paromomicina: De Coma Hepático a Cirrosis Asociada a Cobre Idiopática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ranibizumab: De Retinopatía Diabética y Degeneración Macular a Retinopatía Diabética No Proliferativa Grave
+## Ranibizumab: De Retinopatía Diabética y Degeneración Macular a Retinopatía Diabética No Proliferativa Grave
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

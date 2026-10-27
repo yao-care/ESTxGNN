@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Glimepirida: De Diabetes Mellitus Tipo 2 a Síndrome de la Extremidad Rígida Focal
+## Glimepirida: De Diabetes Mellitus Tipo 2 a Síndrome de la Extremidad Rígida Focal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Reboxetina: De Depresion Unipolar a Agorafobia
+## Reboxetina: De Depresion Unipolar a Agorafobia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

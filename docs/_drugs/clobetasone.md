@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clobetasona: De Corticoide Tópico a Linfoma Cutáneo Primario de Células T
+## Clobetasona: De Corticoide Tópico a Linfoma Cutáneo Primario de Células T
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

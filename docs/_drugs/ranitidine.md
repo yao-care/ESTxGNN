@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ranitidina: De Úlcera Gástrica y Reflujo a Enfermedad Ulcerosa Péptica Activa
+## Ranitidina: De Úlcera Gástrica y Reflujo a Enfermedad Ulcerosa Péptica Activa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

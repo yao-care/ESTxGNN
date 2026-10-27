@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Amlodipino: De Hipertensión a Infarto del Tronco Encefálico
+## Amlodipino: De Hipertensión a Infarto del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

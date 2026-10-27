@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Famotidina: De Úlcera Gástrica a Reflujo Duodenogástrico
+## Famotidina: De Úlcera Gástrica a Reflujo Duodenogástrico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

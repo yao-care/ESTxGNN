@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Prednisolona: De Enfermedades Autoinmunes e Inflamatorias a Alopecia Areata
+## Prednisolona: De Enfermedades Autoinmunes e Inflamatorias a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

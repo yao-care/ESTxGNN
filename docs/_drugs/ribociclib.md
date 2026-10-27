@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Ribociclib: De Cáncer de Mama (HR+/HER2-) a Leucemia Mieloide
+## Ribociclib: De Cáncer de Mama (HR+/HER2-) a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

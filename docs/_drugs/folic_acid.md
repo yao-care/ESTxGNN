@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Ácido fólico: De Deficiencia de Vitaminas a Enfermedad Metabólica de la Biotina
+## Ácido fólico: De Deficiencia de Vitaminas a Enfermedad Metabólica de la Biotina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ceftolozano: De Infección del Tracto Urinario a Uretritis por Ureaplasma
+## Ceftolozano: De Infección del Tracto Urinario a Uretritis por Ureaplasma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

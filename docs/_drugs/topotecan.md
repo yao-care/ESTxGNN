@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Topotecan: De Cáncer de Ovario a Carcinoma de Mama Femenino
+## Topotecan: De Cáncer de Ovario a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

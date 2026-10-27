@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Tildrakizumab: De Indicación Original No Registrada a Retinopatía Diabética No Proliferativa Grave
+## Tildrakizumab: De Indicación Original No Registrada a Retinopatía Diabética No Proliferativa Grave
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

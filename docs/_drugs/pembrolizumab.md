@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pembrolizumab: De Cáncer de Pulmón no Microcítico a Fibromatosis Gingival
+## Pembrolizumab: De Cáncer de Pulmón no Microcítico a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lorazepam: De Trastorno de Ansiedad a Neoplasia del Nervio Trigémino
+## Lorazepam: De Trastorno de Ansiedad a Neoplasia del Nervio Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

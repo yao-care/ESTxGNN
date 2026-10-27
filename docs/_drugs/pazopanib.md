@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Pazopanib: De Carcinoma de Células Renales y Sarcoma de Tejidos Blandos a Liposarcoma
+## Pazopanib: De Carcinoma de Células Renales y Sarcoma de Tejidos Blandos a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

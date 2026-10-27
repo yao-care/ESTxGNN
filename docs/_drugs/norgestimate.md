@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Norgestimato: De Acné a Zinc Plasmático Elevado
+## Norgestimato: De Acné a Zinc Plasmático Elevado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

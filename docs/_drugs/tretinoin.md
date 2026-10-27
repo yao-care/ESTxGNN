@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tretinoína: De Acné a Nodulosis Reumatoide
+## Tretinoína: De Acné a Nodulosis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

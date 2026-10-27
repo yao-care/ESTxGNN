@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-# Omeprazol: De Úlcera Gástrica y Enfermedad por Reflujo Gastroesofágico a Reflujo Duodenogástrico
+## Omeprazol: De Úlcera Gástrica y Enfermedad por Reflujo Gastroesofágico a Reflujo Duodenogástrico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

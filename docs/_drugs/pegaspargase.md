@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Pegaspargasa: De Leucemia Linfoblástica Aguda a Linfoma/Leucemia Linfoblástica de Precursores
+## Pegaspargasa: De Leucemia Linfoblástica Aguda a Linfoma/Leucemia Linfoblástica de Precursores
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

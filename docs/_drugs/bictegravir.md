@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Bictegravir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+## Bictegravir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Gefitinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+## Gefitinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

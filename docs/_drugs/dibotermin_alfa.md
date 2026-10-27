@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Dibotermina alfa: De Trastorno Degenerativo del Disco Intervertebral y Fractura de Tibia a Esotropía
+## Dibotermina alfa: De Trastorno Degenerativo del Disco Intervertebral y Fractura de Tibia a Esotropía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

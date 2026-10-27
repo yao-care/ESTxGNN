@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Hemina: De Porfiria Aguda Intermitente a Púrpura Trombocitopénica
+## Hemina: De Porfiria Aguda Intermitente a Púrpura Trombocitopénica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

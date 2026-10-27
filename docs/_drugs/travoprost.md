@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Travoprost: De Glaucoma de Ángulo Abierto a Enfermedad Vascular
+## Travoprost: De Glaucoma de Ángulo Abierto a Enfermedad Vascular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

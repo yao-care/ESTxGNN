@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Nafarelina: De Endometriosis a Hipertricosis Universal Congénita tipo Ambras
+## Nafarelina: De Endometriosis a Hipertricosis Universal Congénita tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

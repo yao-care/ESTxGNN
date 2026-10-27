@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Penciclovir: De Herpes Labial a Fascioliasis
+## Penciclovir: De Herpes Labial a Fascioliasis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

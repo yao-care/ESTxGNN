@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Centella asiatica: De Indicación Original No Especificada a Insomnio
+## Centella asiatica: De Indicación Original No Especificada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

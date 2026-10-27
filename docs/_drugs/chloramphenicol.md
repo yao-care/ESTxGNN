@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Cloranfenicol: De Fiebre Tifoidea e Infecciones Bacterianas a Conjuntivitis
+## Cloranfenicol: De Fiebre Tifoidea e Infecciones Bacterianas a Conjuntivitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Omalizumab: De Asma Alérgica a Bronquitis
+## Omalizumab: De Asma Alérgica a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

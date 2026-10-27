@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sirolimus: De Carcinoma de Células Renales a Liposarcoma
+## Sirolimus: De Carcinoma de Células Renales a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

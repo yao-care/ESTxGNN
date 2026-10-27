@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Vinblastina: De Linfoma de Hodgkin y Linfomas Relacionados a Rabdomiosarcoma
+## Vinblastina: De Linfoma de Hodgkin y Linfomas Relacionados a Rabdomiosarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Fidaxomicina: De Colitis por Clostridium difficile a Síndrome de la Piel Escaldada Estafilocócica
+## Fidaxomicina: De Colitis por Clostridium difficile a Síndrome de la Piel Escaldada Estafilocócica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

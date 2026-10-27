@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Filgrastim: De Neutropenia Congénita Grave a Trastorno de Liberación Primaria de las Plaquetas
+## Filgrastim: De Neutropenia Congénita Grave a Trastorno de Liberación Primaria de las Plaquetas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Fenfluramina: De Obesidad a Síndrome de Microdeleción Proximal 16p11.2
+## Fenfluramina: De Obesidad a Síndrome de Microdeleción Proximal 16p11.2
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

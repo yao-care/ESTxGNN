@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluvoxamina: De Fobia Social y Trastorno Obsesivo-Compulsivo a Trastorno Esquizoide de la Personalidad
+## Fluvoxamina: De Fobia Social y Trastorno Obsesivo-Compulsivo a Trastorno Esquizoide de la Personalidad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

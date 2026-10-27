@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **4**
 
 </div>
 
-# Acitretina: De Indicación No Especificada en la Ficha Regulatoria a Acné
+## Acitretina: De Indicación No Especificada en la Ficha Regulatoria a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

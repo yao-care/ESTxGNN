@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Sacubitrilo: De Indicación No Especificada en la Ficha a Enfermedad de Pequeño Vaso Cerebral Tipo 1
+## Sacubitrilo: De Indicación No Especificada en la Ficha a Enfermedad de Pequeño Vaso Cerebral Tipo 1
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

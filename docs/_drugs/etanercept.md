@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Etanercept: De Artritis Psoriásica y Artritis Reumatoide a Vasculitis Reumatoide
+## Etanercept: De Artritis Psoriásica y Artritis Reumatoide a Vasculitis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

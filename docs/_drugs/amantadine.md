@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Amantadina: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+## Amantadina: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

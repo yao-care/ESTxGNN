@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Belimumab: De Lupus Eritematoso Sistémico a Trastorno Primario de Liberación Plaquetaria
+## Belimumab: De Lupus Eritematoso Sistémico a Trastorno Primario de Liberación Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

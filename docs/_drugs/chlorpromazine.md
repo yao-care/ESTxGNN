@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Clorpromazina: De Trastorno Bipolar Maníaco y Esquizofrenia a Distrofia Retiniana
+## Clorpromazina: De Trastorno Bipolar Maníaco y Esquizofrenia a Distrofia Retiniana
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

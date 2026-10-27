@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cetrorelix: De Inhibición de Picos Prematuros de LH en Estimulación Ovárica a Hipertricosis
+## Cetrorelix: De Inhibición de Picos Prematuros de LH en Estimulación Ovárica a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

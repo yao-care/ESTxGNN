@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Loxapina: De Esquizofrenia y Trastorno Bipolar a Trastorno Afectivo Bipolar Maníaco
+## Loxapina: De Esquizofrenia y Trastorno Bipolar a Trastorno Afectivo Bipolar Maníaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

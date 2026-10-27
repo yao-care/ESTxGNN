@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Raltegravir: De Infección por VIH/SIDA a Infección por el Virus de la Inmunodeficiencia de los Simios
+## Raltegravir: De Infección por VIH/SIDA a Infección por el Virus de la Inmunodeficiencia de los Simios
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

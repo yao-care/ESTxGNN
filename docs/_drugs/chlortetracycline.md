@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Clortetraciclina: De Tracoma a Vasculitis Postinfecciosa
+## Clortetraciclina: De Tracoma a Vasculitis Postinfecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

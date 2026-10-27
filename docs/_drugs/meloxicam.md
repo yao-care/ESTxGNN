@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Meloxicam: De Artritis Reumatoide a Displasia Acromesomélica de tipo Hunter-Thompson
+## Meloxicam: De Artritis Reumatoide a Displasia Acromesomélica de tipo Hunter-Thompson
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

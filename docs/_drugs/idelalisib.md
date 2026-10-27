@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Idelalisib: De Neoplasias de Células B (LLC/Linfoma Folicular) a Linfoma de Células del Manto
+## Idelalisib: De Neoplasias de Células B (LLC/Linfoma Folicular) a Linfoma de Células del Manto
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

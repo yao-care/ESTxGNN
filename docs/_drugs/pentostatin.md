@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Pentostatina: De Leucemia de Células Peludas a Rabdomiosarcoma Embrionario Botrioide de Vagina
+## Pentostatina: De Leucemia de Células Peludas a Rabdomiosarcoma Embrionario Botrioide de Vagina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

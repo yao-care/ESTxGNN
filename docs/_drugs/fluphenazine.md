@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluphenazine: De Trastorno Psicótico a Distrofia Retiniana (con o sin anomalías extraoculares)
+## Fluphenazine: De Trastorno Psicótico a Distrofia Retiniana (con o sin anomalías extraoculares)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

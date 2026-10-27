@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etofenamato: De Osteoartritis a Espondiloartropatía (Susceptibilidad Genética)
+## Etofenamato: De Osteoartritis a Espondiloartropatía (Susceptibilidad Genética)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

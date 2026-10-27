@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dronedarona: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
+## Dronedarona: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

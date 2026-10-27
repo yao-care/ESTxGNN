@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Eflornitina: De Tripanosomiasis Africana Humana a Esotropía
+## Eflornitina: De Tripanosomiasis Africana Humana a Esotropía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

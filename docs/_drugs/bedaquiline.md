@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Bedaquilina: De Tuberculosis Pulmonar a Tuberculosis Bovina
+## Bedaquilina: De Tuberculosis Pulmonar a Tuberculosis Bovina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

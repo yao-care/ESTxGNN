@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Moxifloxacino: De Infecciones Bacterianas a Síndrome de Hiperviscosidad Policlonal
+## Moxifloxacino: De Infecciones Bacterianas a Síndrome de Hiperviscosidad Policlonal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

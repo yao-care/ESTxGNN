@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Alfacalcidol: De Hiperparatiroidismo a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+## Alfacalcidol: De Hiperparatiroidismo a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

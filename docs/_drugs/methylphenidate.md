@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Metilfenidato: De Trastorno por Déficit de Atención e Hiperactividad (TDAH) a Trastorno Específico del Desarrollo
+## Metilfenidato: De Trastorno por Déficit de Atención e Hiperactividad (TDAH) a Trastorno Específico del Desarrollo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

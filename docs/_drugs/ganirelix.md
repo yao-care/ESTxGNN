@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ganirelix: De Indicación Original No Registrada a Hipertricosis
+## Ganirelix: De Indicación Original No Registrada a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Cilastatina: De Neumonía Bacteriana a Infección por Staphylococcus aureus
+## Cilastatina: De Neumonía Bacteriana a Infección por Staphylococcus aureus
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Propafenona: De Fibrilación Auricular y Taquicardia Ventricular a Trastorno Bipolar Maníaco
+## Propafenona: De Fibrilación Auricular y Taquicardia Ventricular a Trastorno Bipolar Maníaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

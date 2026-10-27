@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Miconazol: De Dermatofitosis y Candidiasis Cutánea a Acné
+## Miconazol: De Dermatofitosis y Candidiasis Cutánea a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

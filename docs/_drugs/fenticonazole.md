@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Fenticonazol: De Candidiasis Vulvovaginal a Vulvovaginitis Tricomoniásica
+## Fenticonazol: De Candidiasis Vulvovaginal a Vulvovaginitis Tricomoniásica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Bleomicina: De Linfoma de Hodgkin y No Hodgkin a Neoplasia de la Cauda Equina
+## Bleomicina: De Linfoma de Hodgkin y No Hodgkin a Neoplasia de la Cauda Equina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

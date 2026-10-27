@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-# Ofatumumab: De Leucemia Linfoblástica Aguda a Linfoma Folicular
+## Ofatumumab: De Leucemia Linfoblástica Aguda a Linfoma Folicular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

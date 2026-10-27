@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Cabotegravir: De Indicación Original No Especificada a Artritis Reumatoide
+## Cabotegravir: De Indicación Original No Especificada a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

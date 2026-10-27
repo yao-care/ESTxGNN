@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Pregabalina: De Trastorno de Ansiedad a Tendinitis
+## Pregabalina: De Trastorno de Ansiedad a Tendinitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

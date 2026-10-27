@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Fenilefrina: De Rinitis Alérgica a Enfermedad de la Cavidad Nasal
+## Fenilefrina: De Rinitis Alérgica a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

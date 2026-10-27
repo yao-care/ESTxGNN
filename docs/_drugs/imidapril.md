@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Imidapril: De Hipertensión a Hipertensión Pulmonar Secundaria a Enfermedad Pulmonar y/o Hipoxia
+## Imidapril: De Hipertensión a Hipertensión Pulmonar Secundaria a Enfermedad Pulmonar y/o Hipoxia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

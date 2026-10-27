@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Metamizol: De Indicación No Especificada en la Ficha a Artritis Reumatoide
+## Metamizol: De Indicación No Especificada en la Ficha a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

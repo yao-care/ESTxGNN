@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Desvenlafaxina: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+## Desvenlafaxina: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

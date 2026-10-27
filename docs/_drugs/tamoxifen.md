@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Tamoxifeno: De Carcinoma de Mama Femenino a Mama Paget (Enfermedad de Paget Mamaria)
+## Tamoxifeno: De Carcinoma de Mama Femenino a Mama Paget (Enfermedad de Paget Mamaria)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

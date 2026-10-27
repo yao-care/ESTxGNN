@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Reteplasa: De Infarto de Miocardio a Infarto de Miocardio Posterolateral
+## Reteplasa: De Infarto de Miocardio a Infarto de Miocardio Posterolateral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

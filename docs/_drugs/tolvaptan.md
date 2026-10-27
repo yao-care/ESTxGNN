@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Tolvaptán: De Síndrome de ADH Inapropiada a Enfermedad Renal Poliquística Tipo 3 (con o sin Enfermedad Hepática Poliquística)
+## Tolvaptán: De Síndrome de ADH Inapropiada a Enfermedad Renal Poliquística Tipo 3 (con o sin Enfermedad Hepática Poliquística)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

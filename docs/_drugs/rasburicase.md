@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Rasburicasa: De Hiperuricemia (obsoleta) a Hipouricemia Renal
+## Rasburicasa: De Hiperuricemia (obsoleta) a Hipouricemia Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Cidofovir: De Indicación Original No Registrada a Colangitis Esclerosante
+## Cidofovir: De Indicación Original No Registrada a Colangitis Esclerosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

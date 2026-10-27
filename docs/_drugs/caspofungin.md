@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Caspofungina: De Candidiasis Esofágica y Candidemia a Anomalía de la Secreción de Gastrina
+## Caspofungina: De Candidiasis Esofágica y Candidemia a Anomalía de la Secreción de Gastrina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

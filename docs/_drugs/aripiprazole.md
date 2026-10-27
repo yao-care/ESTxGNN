@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Aripiprazol: De Trastorno Bipolar y Esquizofrenia a Trastorno Afectivo Mayor
+## Aripiprazol: De Trastorno Bipolar y Esquizofrenia a Trastorno Afectivo Mayor
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

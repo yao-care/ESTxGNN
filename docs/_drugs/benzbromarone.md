@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Benzbromarona: De Hiperuricemia y Gota a Hipouricemia Renal
+## Benzbromarona: De Hiperuricemia y Gota a Hipouricemia Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

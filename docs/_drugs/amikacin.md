@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Amikacina: De Infecciones Bacterianas a Fiebre Paratifoidea
+## Amikacina: De Infecciones Bacterianas a Fiebre Paratifoidea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

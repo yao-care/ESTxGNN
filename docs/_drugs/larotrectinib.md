@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Larotrectinib: De Tumores Sólidos con Fusión NTRK a Neoplasia Endocrina Múltiple
+## Larotrectinib: De Tumores Sólidos con Fusión NTRK a Neoplasia Endocrina Múltiple
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

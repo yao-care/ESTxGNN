@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Moroctocog alfa: De Hemofilia a Trastorno de Liberación Primaria de las Plaquetas
+## Moroctocog alfa: De Hemofilia a Trastorno de Liberación Primaria de las Plaquetas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

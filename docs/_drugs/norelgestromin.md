@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Norelgestromina: De Anticoncepción Transdérmica a Amenorrea
+## Norelgestromina: De Anticoncepción Transdérmica a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

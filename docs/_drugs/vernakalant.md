@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Vernakalant: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
+## Vernakalant: De Fibrilación Auricular a Trastorno Cerebrovascular (Ictus)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 </div>
 
-# Dantroleno: De Hipertermia Maligna Anestésica a Susceptibilidad a la Hipertermia Maligna
+## Dantroleno: De Hipertermia Maligna Anestésica a Susceptibilidad a la Hipertermia Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

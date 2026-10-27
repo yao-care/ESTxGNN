@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Prilocaína: De Eyaculación Precoz a Papilar Conjuntivitis (Conjuntivitis Papilar)
+## Prilocaína: De Eyaculación Precoz a Papilar Conjuntivitis (Conjuntivitis Papilar)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

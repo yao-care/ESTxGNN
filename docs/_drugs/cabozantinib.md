@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Cabozantinib: De Carcinoma de Células Renales a Liposarcoma
+## Cabozantinib: De Carcinoma de Células Renales a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

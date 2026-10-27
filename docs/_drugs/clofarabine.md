@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Clofarabina: De Leucemia Linfoblástica Aguda a Leucemia Mieloide
+## Clofarabina: De Leucemia Linfoblástica Aguda a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

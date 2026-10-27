@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fosaprepitant: De Indicación Original No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Fosaprepitant: De Indicación Original No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

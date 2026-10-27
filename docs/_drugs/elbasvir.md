@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Elbasvir: De Infección por el Virus de la Hepatitis C a Infección por el Virus de la Hepatitis B
+## Elbasvir: De Infección por el Virus de la Hepatitis C a Infección por el Virus de la Hepatitis B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Trastuzumab: De Carcinoma de Mama HER2 Positivo a Carcinoma de Mama con Receptor de Progesterona Positivo
+## Trastuzumab: De Carcinoma de Mama HER2 Positivo a Carcinoma de Mama con Receptor de Progesterona Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

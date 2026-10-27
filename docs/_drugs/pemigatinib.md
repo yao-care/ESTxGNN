@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pemigatinib: De Indicación Original No Disponible a Neoplasia Endocrina Múltiple
+## Pemigatinib: De Indicación Original No Disponible a Neoplasia Endocrina Múltiple
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

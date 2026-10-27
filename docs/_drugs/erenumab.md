@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Erenumab: De Trastorno de Migraña a Migraña con Aura de Tronco Encefálico
+## Erenumab: De Trastorno de Migraña a Migraña con Aura de Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

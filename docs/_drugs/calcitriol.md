@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Calcitriol: De Trastornos del Metabolismo del Calcio y el Fósforo a Deficiencia de Vitamina D (entrada obsoleta)
+## Calcitriol: De Trastornos del Metabolismo del Calcio y el Fósforo a Deficiencia de Vitamina D (entrada obsoleta)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

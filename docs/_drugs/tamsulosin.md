@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tamsulosina: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita de tipo Ambras
+## Tamsulosina: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita de tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

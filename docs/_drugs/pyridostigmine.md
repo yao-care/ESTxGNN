@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-# Piridostigmina: De Miastenia Gravis a Miastenia Gravis con Hiperplasia Tímica
+## Piridostigmina: De Miastenia Gravis a Miastenia Gravis con Hiperplasia Tímica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

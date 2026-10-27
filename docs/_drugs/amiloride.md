@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Amilorida: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+## Amilorida: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

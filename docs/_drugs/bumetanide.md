@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Bumetanida: De Insuficiencia Cardiaca Congestiva a Enfermedad Cardiaca Pulmonar Aguda
+## Bumetanida: De Insuficiencia Cardiaca Congestiva a Enfermedad Cardiaca Pulmonar Aguda
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

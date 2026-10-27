@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Ácido acetohidroxámico: De Infección del Tracto Urinario a Uretritis por Ureaplasma
+## Ácido acetohidroxámico: De Infección del Tracto Urinario a Uretritis por Ureaplasma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

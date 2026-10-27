@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Telavancina: De Neumonía Bacteriana a Síndrome de Hiperviscosidad Policlonal
+## Telavancina: De Neumonía Bacteriana a Síndrome de Hiperviscosidad Policlonal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

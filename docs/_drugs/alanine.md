@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Alanina: De Indicación Original No Especificada a Gastroparesia
+## Alanina: De Indicación Original No Especificada a Gastroparesia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

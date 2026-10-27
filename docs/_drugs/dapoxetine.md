@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Dapoxetina: De Eyaculación Precoz a Trastorno de Migraña
+## Dapoxetina: De Eyaculación Precoz a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

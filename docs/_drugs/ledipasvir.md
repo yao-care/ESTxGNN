@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ledipasvir: De Infección por Hepatitis C a Infección por Virus de la Hepatitis B
+## Ledipasvir: De Infección por Hepatitis C a Infección por Virus de la Hepatitis B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

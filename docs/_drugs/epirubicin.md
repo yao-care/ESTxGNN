@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Epirubicina: De Carcinoma de Mama a Linfoma Pulmonar Primario
+## Epirubicina: De Carcinoma de Mama a Linfoma Pulmonar Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

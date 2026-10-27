@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Andexanet alfa: De Reversión de Anticoagulantes Inhibidores del FXa a Trombastenia de Glanzmann
+## Andexanet alfa: De Reversión de Anticoagulantes Inhibidores del FXa a Trombastenia de Glanzmann
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

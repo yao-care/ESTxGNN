@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Sulfametoxazol: De Otitis Media Infecciosa a Conjuntivitis Contagiosa Aguda
+## Sulfametoxazol: De Otitis Media Infecciosa a Conjuntivitis Contagiosa Aguda
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

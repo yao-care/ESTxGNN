@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Oxcarbazepina: De Epilepsia Parcial a Epilepsia Visual
+## Oxcarbazepina: De Epilepsia Parcial a Epilepsia Visual
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

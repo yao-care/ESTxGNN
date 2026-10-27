@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Mercaptopurina: De Leucemia Linfoblástica Aguda a Leucemia Mieloide
+## Mercaptopurina: De Leucemia Linfoblástica Aguda a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

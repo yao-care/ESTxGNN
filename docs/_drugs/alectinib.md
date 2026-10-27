@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Alectinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+## Alectinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

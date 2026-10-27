@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ceftazidima: De Infecciones Bacterianas (estreptocócicas, neumonía, meningitis, entre otras) a Hiperamilasemia
+## Ceftazidima: De Infecciones Bacterianas (estreptocócicas, neumonía, meningitis, entre otras) a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

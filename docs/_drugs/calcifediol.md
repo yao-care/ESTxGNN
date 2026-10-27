@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Calcifediol: De Hipercalcemia y Trastornos del Metabolismo del Fósforo a Deficiencia de Vitamina D (término obsoleto)
+## Calcifediol: De Hipercalcemia y Trastornos del Metabolismo del Fósforo a Deficiencia de Vitamina D (término obsoleto)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

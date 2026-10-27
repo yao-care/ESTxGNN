@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Levetiracetam: De Epilepsia Parcial a Estado Epiléptico
+## Levetiracetam: De Epilepsia Parcial a Estado Epiléptico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

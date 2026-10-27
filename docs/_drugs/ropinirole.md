@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Ropinirol: De Síndrome de Piernas Inquietas y Enfermedad de Parkinson a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Ropinirol: De Síndrome de Piernas Inquietas y Enfermedad de Parkinson a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

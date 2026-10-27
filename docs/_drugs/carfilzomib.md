@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Carfilzomib: De Mieloma de Células Plasmáticas a Melanoma
+## Carfilzomib: De Mieloma de Células Plasmáticas a Melanoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

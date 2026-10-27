@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Fostamatinib: De Trombocitopenia por Destrucción Inmune a Trombocitopenia Autosómica con Plaquetas Normales
+## Fostamatinib: De Trombocitopenia por Destrucción Inmune a Trombocitopenia Autosómica con Plaquetas Normales
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

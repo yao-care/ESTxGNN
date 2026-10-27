@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Carteolol: De Hipertensión Ocular y Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+## Carteolol: De Hipertensión Ocular y Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

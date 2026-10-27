@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **5**
 
 </div>
 
-# Ciclofosfamida: De Micosis Fungoide y Linfomas a Leucemia Mieloide
+## Ciclofosfamida: De Micosis Fungoide y Linfomas a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

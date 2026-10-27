@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tasonermin: De Sarcoma de Tejidos Blandos a Carcinoma Urotelial de la Uretra Prostática
+## Tasonermin: De Sarcoma de Tejidos Blandos a Carcinoma Urotelial de la Uretra Prostática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Dalteparina: De Embolia Pulmonar a Trombofilia por Deficiencia de Proteína C (Autosómica Recesiva)
+## Dalteparina: De Embolia Pulmonar a Trombofilia por Deficiencia de Proteína C (Autosómica Recesiva)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

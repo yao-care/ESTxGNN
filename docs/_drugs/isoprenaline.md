@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Isoprenalina: De Resfriado Común a Enfermedad de la Cavidad Nasal
+## Isoprenalina: De Resfriado Común a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

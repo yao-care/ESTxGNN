@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Etonogestrel: De Anticoncepción (implante) a Amenorrea
+## Etonogestrel: De Anticoncepción (implante) a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

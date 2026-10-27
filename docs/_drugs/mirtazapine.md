@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Mirtazapina: De Trastorno Depresivo Mayor a Síndrome de Ohdo y variantes
+## Mirtazapina: De Trastorno Depresivo Mayor a Síndrome de Ohdo y variantes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Mepiramina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+## Mepiramina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

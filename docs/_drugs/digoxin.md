@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Digoxina: De Fibrilación Auricular a Angina de Prinzmetal
+## Digoxina: De Fibrilación Auricular a Angina de Prinzmetal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

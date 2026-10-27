@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Bromfeniramina: De Rinitis Alérgica a Urticaria Alérgica
+## Bromfeniramina: De Rinitis Alérgica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

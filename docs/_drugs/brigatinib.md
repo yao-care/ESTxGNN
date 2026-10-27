@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Brigatinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+## Brigatinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

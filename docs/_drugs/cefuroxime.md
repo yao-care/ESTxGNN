@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cefuroxima: De Infecciones Bacterianas (p. ej., Otitis Media Infecciosa) a Hiperamilasemia
+## Cefuroxima: De Infecciones Bacterianas (p. ej., Otitis Media Infecciosa) a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

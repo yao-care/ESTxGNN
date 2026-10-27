@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Empagliflozina: De Diabetes Mellitus Tipo 2 a Síndrome de Rigidez Focal de Extremidad
+## Empagliflozina: De Diabetes Mellitus Tipo 2 a Síndrome de Rigidez Focal de Extremidad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

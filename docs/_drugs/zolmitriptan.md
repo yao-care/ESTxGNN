@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Zolmitriptán: De Migraña a Migraña con Aura de Tronco Encefálico
+## Zolmitriptán: De Migraña a Migraña con Aura de Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

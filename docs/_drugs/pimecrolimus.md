@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 </div>
 
-# Pimecrolimus: De Dermatitis Atópica a Dermatitis Seborreica
+## Pimecrolimus: De Dermatitis Atópica a Dermatitis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

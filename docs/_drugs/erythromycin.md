@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Eritromicina: De Infecciones Bacterianas (Acné, Otitis, Neumonía) a Queratoconjuntivitis Epitelial Punteada
+## Eritromicina: De Infecciones Bacterianas (Acné, Otitis, Neumonía) a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

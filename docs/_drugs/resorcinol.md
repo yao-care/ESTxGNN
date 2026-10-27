@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Resorcinol: De Acné y Dermatitis a Acné Queloideo
+## Resorcinol: De Acné y Dermatitis a Acné Queloideo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Temoporfina: De Carcinoma de Células Escamosas de Cabeza y Cuello a Teratoma Nasofaríngeo
+## Temoporfina: De Carcinoma de Células Escamosas de Cabeza y Cuello a Teratoma Nasofaríngeo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Medazepam: De Indicación No Registrada en la Ficha a Insomnio
+## Medazepam: De Indicación No Registrada en la Ficha a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

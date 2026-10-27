@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Idoxuridina: De Queratitis por Virus del Herpes Simple a Candidiasis Vulvovaginal
+## Idoxuridina: De Queratitis por Virus del Herpes Simple a Candidiasis Vulvovaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

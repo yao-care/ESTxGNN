@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cobimetinib: De Melanoma Metastásico a Esclerosis Lateral Amiotrófica
+## Cobimetinib: De Melanoma Metastásico a Esclerosis Lateral Amiotrófica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

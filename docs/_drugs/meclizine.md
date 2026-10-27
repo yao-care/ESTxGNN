@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Meclizina: De Vértigo de Origen en el Sistema Nervioso Central a Urticaria Alérgica
+## Meclizina: De Vértigo de Origen en el Sistema Nervioso Central a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

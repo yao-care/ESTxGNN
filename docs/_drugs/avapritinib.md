@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Avapritinib: De Tumor del Estroma Gastrointestinal a Displasia Espondilometafisaria Axial
+## Avapritinib: De Tumor del Estroma Gastrointestinal a Displasia Espondilometafisaria Axial
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

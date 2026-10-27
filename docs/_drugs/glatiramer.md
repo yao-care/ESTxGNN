@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Glatiramero: De Esclerosis Múltiple a Hemoglobinopatía
+## Glatiramero: De Esclerosis Múltiple a Hemoglobinopatía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metirapona: De Indicación Original No Especificada a Hipertermia Maligna Inducida por el Ejercicio
+## Metirapona: De Indicación Original No Especificada a Hipertermia Maligna Inducida por el Ejercicio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

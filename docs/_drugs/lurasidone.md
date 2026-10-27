@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Lurasidona: De Trastorno Bipolar y Esquizofrenia a Trastorno Afectivo Bipolar Maníaco
+## Lurasidona: De Trastorno Bipolar y Esquizofrenia a Trastorno Afectivo Bipolar Maníaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

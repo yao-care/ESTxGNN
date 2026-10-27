@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Fosamprenavir: De VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+## Fosamprenavir: De VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

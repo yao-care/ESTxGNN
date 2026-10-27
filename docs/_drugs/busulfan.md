@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Busulfano: De Uso Antineoplásico Hematológico a Síndrome Mielodisplásico
+## Busulfano: De Uso Antineoplásico Hematológico a Síndrome Mielodisplásico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

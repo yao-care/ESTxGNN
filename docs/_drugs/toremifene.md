@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Toremifeno: De Cáncer de Mama (indicación original no registrada en la autorización) a Infección por VIH
+## Toremifeno: De Cáncer de Mama (indicación original no registrada en la autorización) a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

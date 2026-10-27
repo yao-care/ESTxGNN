@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Mesalazina: De Colitis Ulcerosa a Hipotricosis Congénita con Distrofia Macular Juvenil
+## Mesalazina: De Colitis Ulcerosa a Hipotricosis Congénita con Distrofia Macular Juvenil
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

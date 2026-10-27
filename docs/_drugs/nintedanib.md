@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Nintedanib: De Cáncer de Pulmón y Fibrosis Pulmonar a Dermatofibrosarcoma Protuberans
+## Nintedanib: De Cáncer de Pulmón y Fibrosis Pulmonar a Dermatofibrosarcoma Protuberans
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

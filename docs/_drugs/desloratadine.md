@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-# Desloratadina: De Rinitis Alérgica a Urticaria por Frío
+## Desloratadina: De Rinitis Alérgica a Urticaria por Frío
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

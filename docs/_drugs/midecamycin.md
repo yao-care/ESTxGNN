@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Midecamicina: De Indicación Original No Registrada a Candidiasis
+## Midecamicina: De Indicación Original No Registrada a Candidiasis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

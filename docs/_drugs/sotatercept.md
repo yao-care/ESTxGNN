@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Sotatercept: De Indicación Original No Especificada a Leucemia Linfoblástica Aguda
+## Sotatercept: De Indicación Original No Especificada a Leucemia Linfoblástica Aguda
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

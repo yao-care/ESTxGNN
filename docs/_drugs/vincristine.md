@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Vincristina: De Leucemia Linfoblástica Aguda a Ganglioneuroblastoma
+## Vincristina: De Leucemia Linfoblástica Aguda a Ganglioneuroblastoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

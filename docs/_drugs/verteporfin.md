@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Verteporfina: De Degeneración Macular a Trastorno de la Fosforilación Oxidativa Mitocondrial por Anomalías del ADN Nuclear
+## Verteporfina: De Degeneración Macular a Trastorno de la Fosforilación Oxidativa Mitocondrial por Anomalías del ADN Nuclear
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

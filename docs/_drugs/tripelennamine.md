@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Tripelennamina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+## Tripelennamina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

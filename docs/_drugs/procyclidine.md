@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Procyclidina: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+## Procyclidina: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Avibactam: De Pielonefritis a Neumonía Estreptocócica
+## Avibactam: De Pielonefritis a Neumonía Estreptocócica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

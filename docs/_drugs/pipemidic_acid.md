@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido pipemídico: De Indicación No Registrada a Enfermedad Cardíaca
+## Ácido pipemídico: De Indicación No Registrada a Enfermedad Cardíaca
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

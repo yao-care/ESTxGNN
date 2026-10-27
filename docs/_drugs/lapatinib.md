@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Lapatinib: De Carcinoma de Mama HER2 Positivo a Dermatofibrosarcoma Protuberans
+## Lapatinib: De Carcinoma de Mama HER2 Positivo a Dermatofibrosarcoma Protuberans
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

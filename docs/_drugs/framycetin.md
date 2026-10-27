@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Framicetina: De Indicación Original No Especificada a Colangitis Esclerosante
+## Framicetina: De Indicación Original No Especificada a Colangitis Esclerosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

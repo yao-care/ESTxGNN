@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Hidroxocobalamina: De Deficiencia de Vitamina B12 a Várices Esofágicas con Sangrado
+## Hidroxocobalamina: De Deficiencia de Vitamina B12 a Várices Esofágicas con Sangrado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

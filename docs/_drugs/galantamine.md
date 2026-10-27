@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Galantamina: De Enfermedad de Alzheimer a Trastornos Psicógenos del Movimiento
+## Galantamina: De Enfermedad de Alzheimer a Trastornos Psicógenos del Movimiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

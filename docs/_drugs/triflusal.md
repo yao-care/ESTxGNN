@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Triflusal: De Indicación Original No Especificada a Exceso de Factor V con Trombosis Espontánea
+## Triflusal: De Indicación Original No Especificada a Exceso de Factor V con Trombosis Espontánea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

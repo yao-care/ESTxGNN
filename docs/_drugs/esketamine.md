@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Esketamina: De Trastorno de Ansiedad a Agorafobia
+## Esketamina: De Trastorno de Ansiedad a Agorafobia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

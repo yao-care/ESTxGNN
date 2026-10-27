@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Erdafitinib: De Indicación Original No Especificada a Hipertensión Pulmonar
+## Erdafitinib: De Indicación Original No Especificada a Hipertensión Pulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Fentanilo: De Indicación Original No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Fentanilo: De Indicación Original No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

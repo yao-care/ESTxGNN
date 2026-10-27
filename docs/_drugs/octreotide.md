@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Octreotida: De Acromegalia a Queratosis Folicular Invertida Vulvar
+## Octreotida: De Acromegalia a Queratosis Folicular Invertida Vulvar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

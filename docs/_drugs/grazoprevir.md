@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Grazoprevir: De Infección por Virus de la Hepatitis C a Infección por VIH
+## Grazoprevir: De Infección por Virus de la Hepatitis C a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

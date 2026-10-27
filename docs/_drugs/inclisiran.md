@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Inclisirán: De Hipercolesterolemia a Deficiencia de Potasio (predicción del modelo)
+## Inclisirán: De Hipercolesterolemia a Deficiencia de Potasio (predicción del modelo)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

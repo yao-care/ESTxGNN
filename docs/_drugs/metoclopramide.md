@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Metoclopramida: De Enfermedad por Reflujo Gastroesofágico a Úlcera Gástrica
+## Metoclopramida: De Enfermedad por Reflujo Gastroesofágico a Úlcera Gástrica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

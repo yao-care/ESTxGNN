@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Danaparoid: De Anticoagulación (indicación original no especificada en la licencia) a Trombastenia de Glanzmann
+## Danaparoid: De Anticoagulación (indicación original no especificada en la licencia) a Trombastenia de Glanzmann
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

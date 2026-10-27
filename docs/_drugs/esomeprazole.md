@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Esomeprazol: De Enfermedad de Úlcera Péptica a Reflujo Duodenogástrico
+## Esomeprazol: De Enfermedad de Úlcera Péptica a Reflujo Duodenogástrico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Lanreotida: De Acromegalia a Hipertricosis
+## Lanreotida: De Acromegalia a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

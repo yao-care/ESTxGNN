@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clomifeno: De Infertilidad Femenina a Trastorno del Desarrollo Sexual 46,XY por Defecto de la Esteroidogénesis Testicular
+## Clomifeno: De Infertilidad Femenina a Trastorno del Desarrollo Sexual 46,XY por Defecto de la Esteroidogénesis Testicular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-# Mitoxantrona: De Leucemia Mieloide Aguda a Neoplasia del Tracto Aerodigestivo Superior
+## Mitoxantrona: De Leucemia Mieloide Aguda a Neoplasia del Tracto Aerodigestivo Superior
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

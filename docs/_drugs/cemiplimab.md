@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cemiplimab: De Carcinoma Escamoso a Carcinoma Adenoescamoso de Vesícula Biliar
+## Cemiplimab: De Carcinoma Escamoso a Carcinoma Adenoescamoso de Vesícula Biliar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

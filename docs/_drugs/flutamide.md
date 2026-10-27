@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Flutamida: De Cáncer de Próstata a Susceptibilidad al Cáncer de Próstata/Cáncer Cerebral
+## Flutamida: De Cáncer de Próstata a Susceptibilidad al Cáncer de Próstata/Cáncer Cerebral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

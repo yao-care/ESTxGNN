@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Sacituzumab govitecan: De Indicación Original No Disponible a Osteoporosis Inducida por Fármacos
+## Sacituzumab govitecan: De Indicación Original No Disponible a Osteoporosis Inducida por Fármacos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Lipegfilgrastim: De Indicación Original No Especificada a Trastorno Primario de Liberación Plaquetaria
+## Lipegfilgrastim: De Indicación Original No Especificada a Trastorno Primario de Liberación Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

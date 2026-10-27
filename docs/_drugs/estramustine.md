@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Estramustina: De Cáncer de Próstata a Susceptibilidad Genética al Cáncer de Próstata/Cerebro
+## Estramustina: De Cáncer de Próstata a Susceptibilidad Genética al Cáncer de Próstata/Cerebro
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

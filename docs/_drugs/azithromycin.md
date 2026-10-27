@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Azitromicina: De Infecciones Estreptocócicas a Síndrome de Hiperviscosidad Policlonal
+## Azitromicina: De Infecciones Estreptocócicas a Síndrome de Hiperviscosidad Policlonal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

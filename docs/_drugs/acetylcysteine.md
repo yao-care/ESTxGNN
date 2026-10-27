@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetilcisteína: De Bronquitis e Intoxicación por Paracetamol a Enfermedad Trombótica
+## Acetilcisteína: De Bronquitis e Intoxicación por Paracetamol a Enfermedad Trombótica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

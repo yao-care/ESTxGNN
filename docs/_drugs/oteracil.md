@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Oteracil: De Cáncer Gástrico a Neoplasia de Colon
+## Oteracil: De Cáncer Gástrico a Neoplasia de Colon
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

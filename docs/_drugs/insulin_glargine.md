@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Insulina glargina: De Diabetes mellitus tipo 2 a Ooforitis autoinmune
+## Insulina glargina: De Diabetes mellitus tipo 2 a Ooforitis autoinmune
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

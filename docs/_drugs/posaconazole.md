@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Posaconazol: De Micosis Invasivas (Candidiasis y Aspergilosis) a Neumocistosis
+## Posaconazol: De Micosis Invasivas (Candidiasis y Aspergilosis) a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

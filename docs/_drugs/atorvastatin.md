@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-# Atorvastatina: De Hipertrigliceridemia a Hipercolesterolemia Familiar
+## Atorvastatina: De Hipertrigliceridemia a Hipercolesterolemia Familiar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

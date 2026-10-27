@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Alfentanilo: De Indicación No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Alfentanilo: De Indicación No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

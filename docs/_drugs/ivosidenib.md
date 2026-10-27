@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Ivosidenib: De Leucemia Mieloide Aguda a Bulbar Polio
+## Ivosidenib: De Leucemia Mieloide Aguda a Bulbar Polio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

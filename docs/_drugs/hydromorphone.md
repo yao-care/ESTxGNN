@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Hidromorfona: De Resfriado Común a Faringitis
+## Hidromorfona: De Resfriado Común a Faringitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

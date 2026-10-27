@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Mitomicina: De Adenocarcinoma Pancreático a Carcinoma Pseudopapilar Sólido del Páncreas
+## Mitomicina: De Adenocarcinoma Pancreático a Carcinoma Pseudopapilar Sólido del Páncreas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

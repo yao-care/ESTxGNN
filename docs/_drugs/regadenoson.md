@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Regadenoson: De Agente Diagnóstico de Estrés Farmacológico a Anafilaxia
+## Regadenoson: De Agente Diagnóstico de Estrés Farmacológico a Anafilaxia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

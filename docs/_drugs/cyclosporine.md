@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Ciclosporina: De Artritis Reumatoide y Síndrome del Ojo Seco a Enfermedad Granulomatosa Crónica Autosómica Recesiva
+## Ciclosporina: De Artritis Reumatoide y Síndrome del Ojo Seco a Enfermedad Granulomatosa Crónica Autosómica Recesiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

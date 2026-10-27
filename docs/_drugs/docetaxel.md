@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Docetaxel: De Cáncer de Pulmón No Microcítico a Carcinoma de Mama Femenino
+## Docetaxel: De Cáncer de Pulmón No Microcítico a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fibrinógeno humano: De indicación original no registrada a hemoglobinopatía
+## Fibrinógeno humano: De indicación original no registrada a hemoglobinopatía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

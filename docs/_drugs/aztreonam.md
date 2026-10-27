@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Aztreonam: De Infección Urinaria a Uretritis Gonocócica
+## Aztreonam: De Infección Urinaria a Uretritis Gonocócica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

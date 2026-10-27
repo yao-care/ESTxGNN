@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metronidazol: De Infecciones Anaerobias y Protozoarias a Neumocistosis
+## Metronidazol: De Infecciones Anaerobias y Protozoarias a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

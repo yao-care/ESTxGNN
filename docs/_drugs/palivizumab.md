@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Palivizumab: De Infección por Virus Respiratorio Sincitial a Neoplasia Benigna de la Lengua
+## Palivizumab: De Infección por Virus Respiratorio Sincitial a Neoplasia Benigna de la Lengua
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

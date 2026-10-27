@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Bimatoprost: De Glaucoma de Ángulo Abierto a Alopecia
+## Bimatoprost: De Glaucoma de Ángulo Abierto a Alopecia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

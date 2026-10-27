@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ramucirumab: De Adenocarcinoma Gástrico a Adenocarcinoma del Ligamento Uterino
+## Ramucirumab: De Adenocarcinoma Gástrico a Adenocarcinoma del Ligamento Uterino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

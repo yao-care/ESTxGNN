@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Goserelina: De Endometriosis a Amenorrea
+## Goserelina: De Endometriosis a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

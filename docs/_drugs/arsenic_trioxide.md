@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Trióxido de Arsénico: De Leucemia Promielocítica Aguda a Síndrome Mielodisplásico
+## Trióxido de Arsénico: De Leucemia Promielocítica Aguda a Síndrome Mielodisplásico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

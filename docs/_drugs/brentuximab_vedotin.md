@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Brentuximab vedotin: De Linfoma de Hodgkin a Linfoma Folicular
+## Brentuximab vedotin: De Linfoma de Hodgkin a Linfoma Folicular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

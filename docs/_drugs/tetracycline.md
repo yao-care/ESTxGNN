@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Tetraciclina: De Infección del Tracto Urinario a Queratoconjuntivitis Epitelial Punteada
+## Tetraciclina: De Infección del Tracto Urinario a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

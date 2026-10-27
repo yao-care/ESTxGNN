@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Emtricitabina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Emtricitabina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

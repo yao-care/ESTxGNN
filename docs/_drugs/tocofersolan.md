@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Tocofersolan: De Indicación Original No Especificada a Amenorrea
+## Tocofersolan: De Indicación Original No Especificada a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

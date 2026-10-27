@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Meropenem: De Infecciones Bacterianas Graves a Artritis Bacteriana
+## Meropenem: De Infecciones Bacterianas Graves a Artritis Bacteriana
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

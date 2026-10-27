@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Romiplostim: De Anemia Aplásica y Trombocitopenia Autoinmune a Trastorno Primario de Liberación Plaquetaria
+## Romiplostim: De Anemia Aplásica y Trombocitopenia Autoinmune a Trastorno Primario de Liberación Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

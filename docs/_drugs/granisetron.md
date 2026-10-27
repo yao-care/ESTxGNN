@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Granisetrón: De Indicación Original No Registrada a Trastorno Bipolar Maníaco
+## Granisetrón: De Indicación Original No Registrada a Trastorno Bipolar Maníaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Sertaconazol: De Tinea Pedis a Dermatofitosis de la Ingle y del Área Perianal
+## Sertaconazol: De Tinea Pedis a Dermatofitosis de la Ingle y del Área Perianal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

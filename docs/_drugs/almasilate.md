@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Almasilato: De Enfermedad Ulcerosa Péptica a Úlcera Péptica Activa
+## Almasilato: De Enfermedad Ulcerosa Péptica a Úlcera Péptica Activa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

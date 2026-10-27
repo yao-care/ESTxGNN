@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Raloxifeno: De Osteoporosis Posmenopáusica a Úlcera Duodenal
+## Raloxifeno: De Osteoporosis Posmenopáusica a Úlcera Duodenal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Eplerenona: De Hipertensión a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+## Eplerenona: De Hipertensión a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

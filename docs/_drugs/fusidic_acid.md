@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido Fusídico: De Infecciones Bacterianas (Uso Tópico) a Queratitis por Exposición
+## Ácido Fusídico: De Infecciones Bacterianas (Uso Tópico) a Queratitis por Exposición
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Tobramicina: De Meningitis Bacteriana e Infecciones Oculares a Queratitis por Exposición
+## Tobramicina: De Meningitis Bacteriana e Infecciones Oculares a Queratitis por Exposición
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

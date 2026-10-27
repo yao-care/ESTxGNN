@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lusutrombopag: De Trombocitopenia a Trombocitopenia Hereditaria con Plaquetas Normales
+## Lusutrombopag: De Trombocitopenia a Trombocitopenia Hereditaria con Plaquetas Normales
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

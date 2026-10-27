@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Alitretinoína: De Indicación Original No Registrada a Amenorrea
+## Alitretinoína: De Indicación Original No Registrada a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

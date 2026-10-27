@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Rivastigmina: De Enfermedad de Alzheimer a Glaucoma
+## Rivastigmina: De Enfermedad de Alzheimer a Glaucoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

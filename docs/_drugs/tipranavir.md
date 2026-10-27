@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tipranavir: De Infección por VIH/SIDA a Infección por el Virus de la Inmunodeficiencia de los Simios
+## Tipranavir: De Infección por VIH/SIDA a Infección por el Virus de la Inmunodeficiencia de los Simios
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

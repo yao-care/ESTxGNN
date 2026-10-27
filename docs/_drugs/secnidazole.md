@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-# Secnidazol: De Giardiasis y Vaginosis Bacteriana a Flujo Vaginal
+## Secnidazol: De Giardiasis y Vaginosis Bacteriana a Flujo Vaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

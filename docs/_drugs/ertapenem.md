@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Ertapenem: De Neumonía Bacteriana a Artritis Bacteriana
+## Ertapenem: De Neumonía Bacteriana a Artritis Bacteriana
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Guanfacina: De Hipertensión/TDAH a Síndrome de Tourette
+## Guanfacina: De Hipertensión/TDAH a Síndrome de Tourette
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

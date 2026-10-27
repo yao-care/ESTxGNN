@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Teofilina: De Asma a Enfermedad Trombótica
+## Teofilina: De Asma a Enfermedad Trombótica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

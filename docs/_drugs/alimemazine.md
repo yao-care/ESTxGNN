@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Alimemazina: De Urticaria y Rinitis Alérgica a Urticaria Alérgica
+## Alimemazina: De Urticaria y Rinitis Alérgica a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

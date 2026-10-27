@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Piroxicam: De Artritis Reumatoide a Síndrome de Microftalmía Colobomatosa-Displasia Rizomélica
+## Piroxicam: De Artritis Reumatoide a Síndrome de Microftalmía Colobomatosa-Displasia Rizomélica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

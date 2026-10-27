@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido ascórbico: De deficiencia de ácido ascórbico y escorbuto a malformación esofágica no sindrómica
+## Ácido ascórbico: De deficiencia de ácido ascórbico y escorbuto a malformación esofágica no sindrómica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Ceftriaxona: De Infección Estreptocócica a Hiperamilasemia
+## Ceftriaxona: De Infección Estreptocócica a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

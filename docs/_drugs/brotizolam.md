@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-# Brotizolam: De Indicación Original No Especificada a Insomnio
+## Brotizolam: De Indicación Original No Especificada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

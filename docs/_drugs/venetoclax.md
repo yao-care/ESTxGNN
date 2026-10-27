@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Venetoclax: De Leucemia Linfoblástica Aguda y Síndrome de Richter a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Origen Pregerminal
+## Venetoclax: De Leucemia Linfoblástica Aguda y Síndrome de Richter a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Origen Pregerminal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

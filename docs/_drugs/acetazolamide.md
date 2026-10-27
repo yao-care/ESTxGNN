@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetazolamida: De Epilepsia de Ausencia a Hipertermia Maligna Inducida por el Ejercicio
+## Acetazolamida: De Epilepsia de Ausencia a Hipertermia Maligna Inducida por el Ejercicio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

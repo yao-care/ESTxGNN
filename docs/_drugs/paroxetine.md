@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Paroxetina: De Trastornos de Ansiedad y Depresión a Síndrome de Ohdo y Variantes
+## Paroxetina: De Trastornos de Ansiedad y Depresión a Síndrome de Ohdo y Variantes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

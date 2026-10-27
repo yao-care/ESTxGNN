@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metreleptina: De Lipodistrofia Congénita a Lentiginosis Generalizada Familiar
+## Metreleptina: De Lipodistrofia Congénita a Lentiginosis Generalizada Familiar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

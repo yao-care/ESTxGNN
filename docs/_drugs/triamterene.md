@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Triamtereno: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Triamtereno: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

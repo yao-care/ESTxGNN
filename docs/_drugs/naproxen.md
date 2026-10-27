@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Naproxeno: De Bursitis y Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+## Naproxeno: De Bursitis y Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

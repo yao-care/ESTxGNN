@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Aflibercept: De Degeneración Macular a Esotropía
+## Aflibercept: De Degeneración Macular a Esotropía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

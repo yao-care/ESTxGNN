@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Vinorelbina: De Cáncer de Pulmón No Microcítico a Sarcoma de Ewing
+## Vinorelbina: De Cáncer de Pulmón No Microcítico a Sarcoma de Ewing
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

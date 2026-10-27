@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Artemeter: De Indicación Original No Registrada a Malaria por *Plasmodium falciparum*
+## Artemeter: De Indicación Original No Registrada a Malaria por *Plasmodium falciparum*
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

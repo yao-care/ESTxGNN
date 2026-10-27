@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Salicilamida: De Cefalea a Faringitis
+## Salicilamida: De Cefalea a Faringitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

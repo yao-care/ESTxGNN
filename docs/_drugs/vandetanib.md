@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Vandetanib: De Carcinoma de Tiroides a Carcinoma de Células Renales
+## Vandetanib: De Carcinoma de Tiroides a Carcinoma de Células Renales
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

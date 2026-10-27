@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Treosulfán: De Indicación Original No Registrada a Catarata Diabética
+## Treosulfán: De Indicación Original No Registrada a Catarata Diabética
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

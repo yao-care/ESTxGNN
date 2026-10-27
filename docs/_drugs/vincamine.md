@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Vincamina: De Indicación Original No Especificada a Hemorragia Subaracnoidea
+## Vincamina: De Indicación Original No Especificada a Hemorragia Subaracnoidea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

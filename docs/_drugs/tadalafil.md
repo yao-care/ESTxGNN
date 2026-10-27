@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Tadalafilo: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita de tipo Ambras
+## Tadalafilo: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita de tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

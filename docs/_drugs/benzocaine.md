@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Benzocaína: De Tiña del Pie a Conjuntivitis Papilar
+## Benzocaína: De Tiña del Pie a Conjuntivitis Papilar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Apomorfina: De Enfermedad de Parkinson a Esquizofrenia
+## Apomorfina: De Enfermedad de Parkinson a Esquizofrenia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Fenofibrato: De Hipertrigliceridemia a Hipercolesterolemia Familiar Homocigota
+## Fenofibrato: De Hipertrigliceridemia a Hipercolesterolemia Familiar Homocigota
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

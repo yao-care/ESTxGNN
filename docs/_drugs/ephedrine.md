@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Efedrina: De Rinitis Alérgica a Enfermedad de la Cavidad Nasal
+## Efedrina: De Rinitis Alérgica a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

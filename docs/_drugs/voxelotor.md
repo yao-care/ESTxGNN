@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Voxelotor: De Anemia Falciforme a Trombocitopenia Hereditaria con Plaquetas Normales
+## Voxelotor: De Anemia Falciforme a Trombocitopenia Hereditaria con Plaquetas Normales
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

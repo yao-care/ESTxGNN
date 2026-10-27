@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Propranolol: De Trastornos Hipertensivos y Cardiovasculares a Distrofia Miopática Distal Tipo Tateyama
+## Propranolol: De Trastornos Hipertensivos y Cardiovasculares a Distrofia Miopática Distal Tipo Tateyama
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Fluocinolona acetónido: De Dermatosis Inflamatorias a Liquen Plano Atrófico Anular
+## Fluocinolona acetónido: De Dermatosis Inflamatorias a Liquen Plano Atrófico Anular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

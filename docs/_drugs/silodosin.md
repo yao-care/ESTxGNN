@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Silodosina: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita tipo Ambras
+## Silodosina: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

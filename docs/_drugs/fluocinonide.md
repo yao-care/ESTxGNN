@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Fluocinonida: De Dermatosis Inflamatorias y Pruriginosas a Alopecia Mucinosa
+## Fluocinonida: De Dermatosis Inflamatorias y Pruriginosas a Alopecia Mucinosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

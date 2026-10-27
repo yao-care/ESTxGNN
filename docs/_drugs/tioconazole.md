@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tioconazol: De Candidiasis Vulvovaginal a Vulvovaginitis
+## Tioconazol: De Candidiasis Vulvovaginal a Vulvovaginitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

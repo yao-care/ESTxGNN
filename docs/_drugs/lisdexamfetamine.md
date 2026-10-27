@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Lisdexanfetamina: De Trastorno por Déficit de Atención e Hiperactividad (TDAH) a Trastorno Específico del Desarrollo
+## Lisdexanfetamina: De Trastorno por Déficit de Atención e Hiperactividad (TDAH) a Trastorno Específico del Desarrollo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Agomelatina: De Trastorno Depresivo Mayor a Tortícolis Paroxística Benigna de la Infancia
+## Agomelatina: De Trastorno Depresivo Mayor a Tortícolis Paroxística Benigna de la Infancia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

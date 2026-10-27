@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Paliperidona: De Esquizofrenia a Distrofia Retiniana (con o sin Anomalías Extraoculares)
+## Paliperidona: De Esquizofrenia a Distrofia Retiniana (con o sin Anomalías Extraoculares)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Emicizumab: De Hemofilia a Hemofilia A Adquirida (Déficit Adquirido de Factores de Coagulación)
+## Emicizumab: De Hemofilia a Hemofilia A Adquirida (Déficit Adquirido de Factores de Coagulación)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

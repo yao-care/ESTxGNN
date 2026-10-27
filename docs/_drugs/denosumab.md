@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Denosumab: De Osteoporosis a Retinopatía Diabética No Proliferativa Grave
+## Denosumab: De Osteoporosis a Retinopatía Diabética No Proliferativa Grave
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

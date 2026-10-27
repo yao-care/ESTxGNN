@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Risperidona: De Esquizofrenia y Trastorno Bipolar a Síndrome de Parálisis de la Mirada Horizontal Familiar con Escoliosis Progresiva
+## Risperidona: De Esquizofrenia y Trastorno Bipolar a Síndrome de Parálisis de la Mirada Horizontal Familiar con Escoliosis Progresiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

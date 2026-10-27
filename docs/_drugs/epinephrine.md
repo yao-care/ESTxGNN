@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-# Epinefrina: De Glaucoma de Ángulo Abierto a Enfermedad Pulmonar Obstructiva
+## Epinefrina: De Glaucoma de Ángulo Abierto a Enfermedad Pulmonar Obstructiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

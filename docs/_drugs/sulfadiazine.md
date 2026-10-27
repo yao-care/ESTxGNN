@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Sulfadiazina: De Toxoplasmosis a Neumocistosis
+## Sulfadiazina: De Toxoplasmosis a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

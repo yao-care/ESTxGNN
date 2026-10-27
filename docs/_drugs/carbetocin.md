@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Carbetocina: De Síndrome de Prader-Willi a Síndrome Similar a la Isotretinoína
+## Carbetocina: De Síndrome de Prader-Willi a Síndrome Similar a la Isotretinoína
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Cloroquina: De Artritis Reumatoide y Lupus a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
+## Cloroquina: De Artritis Reumatoide y Lupus a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

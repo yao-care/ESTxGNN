@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Dronabinol: De Indicación No Especificada en la Autorización a Migraña
+## Dronabinol: De Indicación No Especificada en la Autorización a Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

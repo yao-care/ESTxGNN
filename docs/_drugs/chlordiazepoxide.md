@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Clordiazepóxido: De Ansiedad y Abstinencia Alcohólica a Insomnio
+## Clordiazepóxido: De Ansiedad y Abstinencia Alcohólica a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Miglustat: De Enfermedad de Gaucher a Enfermedad de Tay-Sachs
+## Miglustat: De Enfermedad de Gaucher a Enfermedad de Tay-Sachs
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Adalimumab: De Enfermedad de Crohn a Vasculitis Reumatoide
+## Adalimumab: De Enfermedad de Crohn a Vasculitis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

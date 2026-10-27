@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ravulizumab: De Hemoglobinuria Paroxística Nocturna a Neutropenia Congénita Grave Autosómica Recesiva por Deficiencia de G6PC3
+## Ravulizumab: De Hemoglobinuria Paroxística Nocturna a Neutropenia Congénita Grave Autosómica Recesiva por Deficiencia de G6PC3
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

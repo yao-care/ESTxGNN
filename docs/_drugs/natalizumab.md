@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Natalizumab: De Enfermedad de Crohn y Esclerosis Múltiple a Bronquitis
+## Natalizumab: De Enfermedad de Crohn y Esclerosis Múltiple a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 
