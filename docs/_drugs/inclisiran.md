@@ -4,17 +4,17 @@ title: Inclisiran
 parent: Solo predicción del modelo (L5)
 nav_order: 412
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Inclisiran: nueva indicación predicha, Deficiencia de potasio (potassium deficiency disease) (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de la AEMPS"
 monitor_inn: "inclisiran"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia de potasio**
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones de la AEMPS |
 | Nueva Indicación Predicha | Deficiencia de potasio (potassium deficiency disease) |
-| Puntaje de Predicción TxGNN | 99,93% |
+| Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, inclisirán es un siRNA que silencia PCSK9 en el hígado, lo que aumenta la expresión de receptores de LDL hepáticos y reduce el colesterol LDL.
 
-No se ha identificado un vínculo mecanístico plausible entre este mecanismo y la homeostasis del potasio. El puntaje elevado de TxGNN refleja una asociación derivada del grafo de conocimiento, sin respaldo clínico ni bibliográfico. Por ello, esta predicción debe considerarse una hipótesis sin fundamento mecanístico actual, y no una indicación razonable para reposicionamiento.
+No se ha identificado un vínculo mecanístico plausible entre este mecanismo y la homeostasis del potasio. El puntaje elevado (0.9993) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Por ello, esta predicción debe considerarse una hipótesis sin fundamento mecanístico actual, y no una indicación razonable para reposicionamiento.
 
 Otras predicciones del modelo (todas con nivel L5 y recomendación Hold) incluyen enfermedad esofágica, coartación atípica de aorta, migraña y enfermedad de Raynaud. Ninguna cuenta con evidencia directa. En el caso de la malformación aórtica, aparecen dos ensayos de Fase 3 que, por su diseño, estudian hipercolesterolemia familiar pediátrica y no esa enfermedad.
 

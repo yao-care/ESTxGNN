@@ -50,10 +50,10 @@ Se trata en esencia de un uso ya cubierto por la indicación original, más que 
 |------|------|
 | Indicación Original | Candidiasis vulvovaginal |
 | Nueva Indicación Predicha | Vulvovaginitis |
-| Puntaje de Predicción TxGNN | 99,23% |
-| Nivel de Evidencia | L1 (ver matices en la sección de mecanismo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Puntaje de Predicción TxGNN | 0,9923 |
+| Nivel de Evidencia | L5 (ver matices en la sección de mecanismo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -66,7 +66,7 @@ La candidiasis vulvovaginal es una forma frecuente de vulvovaginitis, por lo que
 
 **Matiz sobre el nivel L1:** no hay ensayos registrados y la literatura es antigua (1983-1988). El nivel L1 se apoya en estudios aleatorizados o controlados (doble ciego frente a placebo y comparativos con clotrimazol) cuya fase no se indica en los datos. Debe leerse como evidencia directa controlada para la indicación en ficha, no como una confirmación de ECA de Fase 3.
 
-Respecto a las otras predicciones del modelo: la **vulvitis** (puntaje 99,20%, nivel L3) solo está respaldada de forma indirecta y únicamente en su forma candidiásica; la **vaginitis atrófica posmenopáusica** (puntaje 99,19%, nivel L5, Hold) carece de mecanismo plausible, ya que su causa es el déficit estrogénico, y su puntaje probablemente refleja proximidad en el grafo con otros diagnósticos de vaginitis.
+Respecto a las otras predicciones del modelo TxGNN (aprendizaje profundo): la **vulvitis** (puntaje 0,9920, nivel L3) solo está respaldada de forma indirecta y únicamente en su forma candidiásica; la **vaginitis atrófica posmenopáusica** (puntaje 0,9919, nivel L5, Hold) carece de mecanismo plausible, ya que su causa es el déficit estrogénico, y su puntaje proviene del modelo TxGNN y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

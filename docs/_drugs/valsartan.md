@@ -4,17 +4,17 @@ title: Valsartan
 parent: Evidencia moderada (L3-L4)
 nav_order: 838
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Valsartan: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L4). Indicación original: Hipertensión arterial (trastorno hipertensivo"
 monitor_inn: "valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Valsartán: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+## Valsartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente solo existe **1 publicación preclínica** (estudio en animales
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (trastorno hipertensivo; según el grafo de conocimiento, ya que los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Hipertensión renovascular maligna |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

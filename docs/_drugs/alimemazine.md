@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alimemazine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 35
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Alimemazine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Urticaria, rinitis alérgica…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Alimemazine"
-predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis", "acute laryngopharyngitis"]
+predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
+last_modified_at: 2026-10-27
+description: "Alimemazine: nueva indicación predicha, respuesta de IgE atópica (IgE responsiveness, atopic) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Alimemazine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,67 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Alimemazina: De Urticaria y Rinitis Alérgica a Urticaria Alérgica
+## Alimemazina: antihistamínico H1 → IgE responsiveness, atopic (respuesta de IgE atópica)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Alimemazina (trimeprazina) es un antihistamínico H1 de primera generación del grupo de las fenotiazinas, utilizado originalmente para urticaria, rinitis alérgica, dermatografismo familiar y otras afecciones alérgicas.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; el apoyo es solo indirecto (efecto de clase e indicaciones ya existentes).
-
----
+Alimemazina es un antihistamínico de tipo H1 (fenotiazina) que se comercializa en España en forma de gotas orales.
+El modelo TxGNN predice que podría ser útil para **respuesta de IgE atópica (IgE responsiveness, atopic)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Urticaria, rinitis alérgica, angioedema y otras afecciones alérgicas (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | respuesta de IgE atópica (IgE responsiveness, atopic) |
+| Puntaje de Predicción TxGNN | 0,9960 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
----
+## Por qué es Razonable esta Predicción
 
-## ¿Por qué es Razonable esta Predicción?
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado. Según la información farmacológica disponible, alimemazina antagoniza el receptor H1 de histamina y muestra efectos antimuscarínicos; los datos cuantitativos proceden de preparaciones de cerebro bovino (Ki de 38 nM en la unión muscarínica), por lo que no hay datos de afinidad humana publicados.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, alimemazina es una fenotiazina con actividad antihistamínica H1 y efectos antimuscarínicos (datos farmacológicos en tejido cerebral bovino indican una Ki de 38 nM para la unión muscarínica). Mecanísticamente podría ser aplicable a la urticaria alérgica, una condición mediada por la liberación de histamina de los mastocitos.
+La respuesta de IgE atópica es una predisposición o fenotipo, no una enfermedad discreta tratable. Un antihistamínico H1 puede aliviar síntomas posteriores de la enfermedad atópica (rinitis, urticaria, conjuntivitis), pero no modifica la producción de IgE. La puntuación alta probablemente refleja la cercanía con indicaciones alérgicas ya conocidas del fármaco.
 
-La urticaria alérgica queda esencialmente dentro del espacio de las indicaciones originales del fármaco (urticaria, dermatografismo familiar, rinitis alérgica). El puntaje tan alto de TxGNN es coherente con esta cercanía farmacológica, pero por ello no constituye un hallazgo nuevo de reposicionamiento, sino más bien una confirmación del uso ya establecido.
-
-Cabe señalar que los datos de afinidad por el receptor H1 humano no están disponibles públicamente, por lo que el mecanismo se infiere por la clase del fármaco.
-
-### Otras indicaciones predichas (todas sin ensayos ni literatura)
-
-| Rank | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
-|------|------|------|------|------|
-| 2 | Urticaria por frío | 99.96% | L4 | Plausible por bloqueo H1, pero las guías prefieren antihistamínicos de segunda generación; los sedantes tienen efectos anticolinérgicos y sedantes |
-| 3 | Respuesta IgE atópica | 99.60% | L5 | Es un fenotipo y no una enfermedad tratable; solo predicción del modelo |
-| 4 | Enfermedad de la cavidad nasal | 99.60% | L4 | Categoría muy inespecífica que incluye rinitis ya indicadas |
-| 5 | Dermatitis atópica recalcitrante | 99.59% | L4 | Posible uso adyuvante para prurito y sueño; no modifica la inflamación Th2 |
-| 6 | Laringofaringitis aguda | 99.54% | L4 | Solapa con faringitis y resfriado común; beneficio probado limitado |
-
----
+Por tanto, la predicción es solo del modelo: no existe evidencia clínica que la sustente y el beneficio, de existir, sería sintomático y no modificador de la enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
-
----
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 40002 | VARIARGIL 40 MG/ML gotas orales en solución | Gotas orales en solución | No disponible en los datos compilados |
-
-Titular: Laboratorios Farmacéuticos Logogen S.A. (autorización vigente, monofármaco, vía oral).
-
----
+| 40002 | VARIARGIL 40MG/ML GOTAS ORALES EN SOLUCIÓN | Gotas orales en solución | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados. Consultar el prospecto para esa información.
+- **Interacciones Farmacológicas**: solo se dispone de información farmacológica sobre el receptor H1 (efectos antihistamínicos y antimuscarínicos observados en tejido bovino); no hay interacciones medicamentosas específicas registradas.
 
-- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): 
-  - Cardiovasculares: síndrome de QT largo (familiar o no), torsades de pointes, parada cardíaca súbita, enfermedad de conducción cardíaca, infarto de miocardio, trombosis coronaria, hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica.
-  - Hematológicas: neutropenia, agranulocitosis, leucopenia, trombocitopenia, anemia (incluida la macrocítica), hemoglobinopatía.
-  - Neurológicas: epilepsia, enfermedad de los ganglios basales, distonía focal de la mano, blefaroespasmo.
-  - Otras: enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, hiperplasia prostática benigna, obesidad (incluida la monogénica), carcinoma de mama femenino, abuso o dependencia de sustancias.
-- **Interacciones farmacológicas**: la consulta se completó sin interacciones clínicas con otros fármacos; solo se registró la farmacología del receptor H1 (sin nivel de gravedad).
-
----
+Para el resto de información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de alta puntuación pero no aporta una indicación realmente nueva: la urticaria alérgica ya se solapa con las indicaciones existentes. No hay ensayos ni literatura (nivel L4), y falta información de seguridad del prospecto, lo que bloquea el cribado de seguridad.
+La predicción carece de ensayos clínicos y literatura, y la respuesta de IgE atópica es un fenotipo más que una enfermedad tratable, por lo que un antihistamínico no modificaría su causa. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS para obtener advertencias, contraindicaciones y el texto de la indicación autorizada.
-- Obtener datos del mecanismo de acción (por ejemplo, mediante DrugBank).
-- Revisar la literatura y los registros de ensayos específicos de alimemazina en urticaria.
-- Evaluar el perfil de seguridad (sedación, efectos anticolinérgicos, prolongación del QT, discrasias sanguíneas) frente a los antihistamínicos de segunda generación, preferidos por las guías.
-- Confirmar la compatibilidad de vías de administración y la similitud con la indicación original (pendientes).
+- Definir una indicación clínica concreta y medible (por ejemplo, síntomas alérgicos específicos) en lugar del fenotipo de IgE
+- Datos del mecanismo de acción en humanos (afinidad por H1 y receptores muscarínicos)
+- Estudios clínicos o revisiones que evalúen alimemazina en población atópica
+- Obtener y revisar el prospecto de la AEMPS para advertencias y contraindicaciones
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

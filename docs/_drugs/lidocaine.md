@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Lidocaine: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Dermatitis…"
 monitor_inn: "Lidocaine"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
+last_modified_at: 2026-10-23
+description: "Lidocaine: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lidocaine
@@ -33,82 +33,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Lidocaína: De Dermatitis y Neuralgia a Queratoconjuntivitis Epitelial Punteada
+## Lidocaine: Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La lidocaína es un anestésico local bloqueador de canales de sodio, utilizado originalmente en anestesia local y regional, y en el alivio del dolor y del picor (por ejemplo, neuralgia postherpética y afecciones dermatológicas).
-El modelo TxGNN predice que podría ser efectiva para **queratoconjuntivitis epitelial punteada**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción concreta: se trata únicamente de una predicción del modelo.
+La lidocaína es un anestésico local de uso muy extendido, tanto inyectable como tópico. El modelo TxGNN (deep learning) predice que podría ser efectiva para la **queratoconjuntivitis epitelial punctata**, con una puntuación de 0.9999, que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que estudien directamente esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatitis, neuralgia y neuralgia postherpética (según el grafo de conocimiento; los textos de indicación autorizados no están disponibles) |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Estado de Mercado en Español | Comercializado (registros vigentes: al menos 16) |
+| Número de Autorizaciones | Al menos 20 (la lista puede ser parcial): 16 vigentes, 3 canceladas y 1 no comercializada |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la lidocaína bloquea los canales de sodio dependientes de voltaje (Nav1.2, Nav1.4, Nav1.5, Nav1.7 y Nav1.8 figuran entre sus dianas farmacológicas), lo que reduce la transmisión de señales dolorosas por las fibras nerviosas sensitivas. Ya se utiliza en forma de gel oftálmico (Ophtesic) como anestésico de superficie ocular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la farmacología conocida, la lidocaína bloquea los canales de sodio dependientes de voltaje. Los datos compilados la vinculan con Nav1.2, Nav1.4, Nav1.5, Nav1.7 y Nav1.8. Este bloqueo explica su efecto anestésico y analgésico.
 
-La relación con la nueva indicación es débil. Las indicaciones originales son sobre todo de control sintomático del dolor y del picor, y la queratoconjuntivitis epitelial punteada es una afección inflamatoria o lesiva de la superficie ocular. Un posible beneficio se limitaría al alivio sintomático del dolor, sin modificar la enfermedad.
+La conexión con la nueva indicación es débil. La lidocaína tiene usos oftálmicos como anestésico tópico, y existe un producto en gel oftálmico en el mercado español. Sin embargo, la anestesia de la superficie ocular no equivale a tratar una enfermedad inflamatoria o epitelial de la córnea y la conjuntiva.
 
-Hay además una señal de cautela: los anestésicos tópicos pueden **perjudicar la cicatrización del epitelio corneal**, y su uso crónico se asocia a queratopatía. Por ello, la predicción es plausible solo como analgesia sintomática, no como tratamiento de la enfermedad.
+Además, los anestésicos tópicos pueden dificultar la cicatrización del epitelio corneal. Por eso un papel modificador de la enfermedad es biológicamente dudoso. La predicción del modelo debe considerarse una hipótesis sin respaldo clínico. En el mejor de los casos, podría orientar hacia un alivio sintomático.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para queratoconjuntivitis epitelial punteada.
+Actualmente no hay ensayos clínicos relacionados registrados para la queratoconjuntivitis epitelial punteada.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación.
-
-*Nota sobre otras predicciones:* entre las demás indicaciones predichas, la mejor respaldada es "trastorno conjuntival" (L4), con un ensayo de Fase 4 completado ([NCT05978687](https://clinicaltrials.gov/study/NCT05978687), 41 participantes, gel de lidocaína Ophtesic frente a inyección subconjuntival en la escisión de pterigión). Se trata de anestesia durante el procedimiento, no de tratamiento de la enfermedad. La conjuntivitis atópica (L4) solo cuenta con evidencia mecanística indirecta (PMID 37819721 y 8039024). El resto de predicciones son L5.
+Actualmente no hay literatura relacionada disponible para la queratoconjuntivitis epitelial punteada.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 44793 | Lidocaína B. Braun 10 mg/ml solución inyectable | Solución inyectable | No disponible en los datos |
-| 83397 | Verira 700 mg apósito adhesivo medicamentoso | Apósito adhesivo medicamentoso | No disponible en los datos |
-| 83733 | Lidocaína Aguettant 10 mg/ml en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos |
-| 84450 | Ophtesic 20 mg/g gel oftálmico en envase unidosis | Gel oftálmico | No disponible en los datos |
-| 79538 | Dynexan 20 mg/g gel bucal | Gel bucal | No disponible en los datos |
+La lista de autorizaciones puede ser parcial (al menos 20). Se muestran 5 de ellas. Los registros compilados no incluyen texto de indicación aprobada, por lo que no se puede resumir.
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco). Entre ellas hay presentaciones inyectables, apósitos, cremas, pulverizador cutáneo, gel bucal, crema vaginal y gel oftálmico.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Estado |
+|---------|------|------|-----------|
+| 44793 | Lidocaína B. Braun 10 mg/ml solución inyectable | Solución inyectable | Vigente |
+| 83733 | Lidocaína Aguettant 10 mg/ml en jeringa precargada | Solución inyectable en jeringa precargada | Vigente |
+| 69789 | Lambdalina 40 mg/g crema | Crema | Vigente |
+| 84450 | Ophtesic 20 mg/g gel oftálmico en envase unidosis | Gel oftálmico en envase unidosis | Vigente |
+| 71848 | Versatis 700 mg apósito adhesivo medicamentoso | Apósito adhesivo medicamentoso | Vigente |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): hipertensión, insuficiencia hepática, enfermedad hepática y cirrosis, epilepsia, enfermedad renal, enfermedad de la vesícula biliar, insuficiencia suprarrenal (enfermedad de Addison), hipotiroidismo, glaucoma de ángulo abierto, queratitis por herpes simple, infección por varicela zóster, dermatitis atópica, osteoporosis, trastornos psicóticos y mentales, infecciones fúngicas (dermatofitosis), déficit de potasio y gastritis, entre otras.
-- **Señales de seguridad en la literatura recuperada:**
-  - Efectos secundarios neuropsiquiátricos y cardiológicos con lidocaína intravenosa en cefalea refractoria (PMID 19250287).
-  - Un caso de metahemoglobinemia grave en un niño con síndrome nefrótico por uso simultáneo de lidocaína tópica, benzocaína y cotrimoxazol (PMID 41995267).
-  - Convulsiones en macacos tras administrar ceftriaxona disuelta en lidocaína al 1% (PMID 19858165).
-  - Menor unión a proteínas plasmáticas de la lidocaína en enfermedad renal (PMID 7037263).
-- **Interacciones farmacológicas:** los datos corresponden a dianas farmacológicas (canales de sodio Nav1.2, 1.4, 1.5, 1.7 y 1.8), no a interacciones con otros fármacos.
+- **Contraindicaciones registradas en el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión, insuficiencia hepática, epilepsia, enfermedad renal, cirrosis hepática, glaucoma de ángulo abierto, insuficiencia suprarrenal, hipotiroidismo, queratitis por herpes simple, infección por varicela zóster, dermatitis atópica, osteoporosis, trastornos psicóticos y esquizoafectivos, infecciones fúngicas, dermatofitosis, déficit de potasio y gastritis, entre otras.
+- **Riesgos señalados en la literatura recuperada**:
+  - Un caso pediátrico de metahemoglobinemia asociada al uso tópico de lidocaína junto con benzocaína y cotrimoxazol.
+  - Efectos neuropsiquiátricos y cardiológicos con lidocaína intravenosa.
+  - Convulsiones en macacos con dosis bajas de lidocaína como diluyente.
+- **Riesgo ocular específico**: el uso indebido de anestésicos tópicos es una causa reconocida de queratopatía tóxica, lo que va en contra de su uso prolongado en enfermedades de la superficie ocular.
 
-Para la información de seguridad completa, consultar el prospecto.
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5), sin ensayos ni literatura para la queratoconjuntivitis epitelial punteada. Además, los anestésicos tópicos pueden retrasar la cicatrización corneal, lo que va en contra de un uso terapéutico.
+La predicción tiene un puntaje alto (0,9999), pero no hay ningún ensayo ni publicación que estudie la lidocaína en esta enfermedad, por lo que el nivel de evidencia es L5. Además, existe un riesgo biológico plausible de empeorar la cicatrización corneal.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de la AEMPS (actualmente sin datos).
-- Estudios preclínicos o clínicos que evalúen la lidocaína en la queratoconjuntivitis epitelial punteada, incluyendo su efecto sobre la cicatrización del epitelio corneal.
-- Evaluación de la compatibilidad de vía de administración: el gel oftálmico existente (Ophtesic) es el único formato relevante.
-- Valorar si el interés real se limita al alivio sintomático del dolor ocular, para lo cual ya existen anestésicos oftálmicos.
-- Priorizar, si se desea explorar la vía oftálmica, las predicciones con evidencia indirecta (conjuntivitis atópica y trastorno conjuntival) como preguntas de investigación.
+- Datos detallados del mecanismo de acción y un análisis mecanístico específico para la superficie ocular.
+- Estudios preclínicos sobre el efecto de la lidocaína en el epitelio corneal inflamado y en su cicatrización.
+- Revisión de los prospectos de AEMPS (advertencias y contraindicaciones), especialmente del gel oftálmico.
+- Si se persigue un beneficio sintomático, un ensayo piloto con una pregunta de investigación definida y vigilancia estrecha de la toxicidad corneal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

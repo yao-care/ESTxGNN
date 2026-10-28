@@ -48,10 +48,10 @@ Gran parte de esa evidencia corresponde al uso ya establecido (posoperatorio de 
 |------|------|
 | Indicación Original | No disponible en las autorizaciones (el texto de indicación está vacío); el uso conocido es la inflamación y el dolor ocular posoperatorios tras cirugía de cataratas |
 | Nueva Indicación Predicha | Enfermedad ocular (categoría amplia) |
-| Puntaje de Predicción TxGNN | 99,80% |
+| Puntaje de Predicción TxGNN | 0,9980 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

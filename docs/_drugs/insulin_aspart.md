@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 417
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Insulin Aspart: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L1). Indicación original: Diabetes mellitus (según la base de conocimiento"
+description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Diabetes mellitus (según la base de conocimiento"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 # Insulin Aspart
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Insulina Aspart: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
+## Insulina Aspart: De Diabetes Mellitus a Ooforitis autoinmune
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ con **30 ensayos clínicos** y **20 publicaciones** que respaldan actualmente es
 |------|------|
 | Indicación Original | Diabetes mellitus (según la base de conocimiento; el texto de indicación de las autorizaciones españolas está vacío) |
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
-| Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -6,9 +6,9 @@ nav_order: 826
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Trifarotene: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Acné (según las relaciones de indicación del grafo de conocimiento"
 monitor_inn: "trifarotene"
 predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
+description: "Trifarotene: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Trifarotene
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Trifaroteno: De Acné a Zinc Plasmático Elevado
+## Trifarotene: Zinc plasmático elevado (zinc, elevated plasma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acné (según las relaciones de indicación del grafo de conocimiento; el texto de indicación de la autorización de la AEMPS no está disponible) |
-| Nueva Indicación Predicha | Zinc plasmático elevado |
-| Puntaje de Predicción TxGNN | 99,40% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Zinc plasmático elevado (zinc, elevated plasma) |
+| Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,9 +59,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 **No se identifica un vínculo mecanístico creíble** con la nueva indicación. El zinc plasmático elevado es un hallazgo metabólico o de laboratorio sistémico (por ejemplo, asociado a suplementación, insuficiencia renal o artefactos del ensayo) y no se conoce dependencia de la señalización por RAR-γ. Además, el trifaroteno presenta una alta inestabilidad metabólica y, aplicado por vía tópica, una exposición sistémica limitada, lo que reduce aún más la plausibilidad de un efecto sobre el zinc plasmático.
 
-El puntaje alto de TxGNN (99,40%) es solo una predicción basada en el modelo y no cuenta con respaldo clínico ni bibliográfico.
+El puntaje alto de TxGNN (0,9940) es solo una predicción basada en el modelo y no cuenta con respaldo clínico ni bibliográfico.
 
-**Otra predicción del modelo (rango 2):** el síndrome de artritis piogénica-pioderma gangrenoso-acné (PAPA), con un puntaje de 99,32%, también con nivel de evidencia L5 y recomendación Hold. El vínculo es indirecto y especulativo: el componente de acné cutáneo coincide fenotípicamente con la indicación original, y el RAR-γ podría modular la diferenciación de queratinocitos y la inflamación folicular. Sin embargo, no abordaría la patología subyacente de activación del inflamasoma (mutaciones en PSTPIP1, inflamación dependiente de IL-1), ni la artritis ni el pioderma gangrenoso, cuyo tratamiento estándar se dirige a las vías de IL-1 y TNF.
+**Otra predicción del modelo (rango 2):** el síndrome de artritis piogénica-pioderma gangrenoso-acné (PAPA), con un puntaje de 0,9932, también con nivel de evidencia L5 y recomendación Hold. El vínculo es indirecto y especulativo: el componente de acné cutáneo coincide fenotípicamente con la indicación original, y el RAR-γ podría modular la diferenciación de queratinocitos y la inflamación folicular. Sin embargo, no abordaría la patología subyacente de activación del inflamasoma (mutaciones en PSTPIP1, inflamación dependiente de IL-1), ni la artritis ni el pioderma gangrenoso, cuyo tratamiento estándar se dirige a las vías de IL-1 y TNF.
 
 ## Evidencia de Ensayos Clínicos
 

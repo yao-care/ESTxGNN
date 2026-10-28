@@ -48,9 +48,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Síndrome del ojo seco / xeroftalmia |
 | Nueva Indicación Predicha | Eritrodermia ictiosiforme congénita |
-| Puntaje de Predicción TxGNN | 99.11% |
+| Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 5) |
 | Número de Autorizaciones | 5 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción de l
 
 Una hipótesis puramente especulativa es que esas mismas propiedades (formación de película y fijación de agua) podrían contribuir a hidratar la piel en una enfermedad caracterizada por descamación y alteración de la barrera cutánea. Esta hipótesis no ha sido probada.
 
-La eritrodermia ictiosiforme congénita es un trastorno genético de la queratinización (por ejemplo, variantes en TGM1, ALOX12B, ALOXE3). Nada en los datos disponibles conecta la povidona con esas vías. El puntaje elevado de TxGNN (0.991) es una predicción del modelo y no constituye evidencia clínica ni mecanística.
+La eritrodermia ictiosiforme congénita es un trastorno genético de la queratinización (por ejemplo, variantes en TGM1, ALOX12B, ALOXE3). Nada en los datos disponibles conecta la povidona con esas vías. El puntaje elevado de TxGNN (0.9911) es una predicción del modelo y no constituye evidencia clínica ni mecanística.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible.
 | 1-21275 | OCULOTECT 50 mg/ml colirio en solución (Laboratoires Thea) | Colirio en solución | No especificada en los datos |
 | 2630085 | OCULOTECT 50 mg/ml colirio en solución (Alcon Portugal) | Colirio en solución | No especificada en los datos |
 
-La indicación original (síndrome del ojo seco / xeroftalmia) proviene de las relaciones de indicación del grafo de conocimiento de TxGNN, no del texto de las autorizaciones.
+La indicación original (síndrome del ojo seco / xeroftalmia) no proviene del texto de las autorizaciones; procede del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Consideraciones de Seguridad
 

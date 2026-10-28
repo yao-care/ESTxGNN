@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo prim
 |------|------|
 | Indicación Original | No disponible (las autorizaciones de AEMPS no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
-| Puntaje de Predicción TxGNN | 99,58% |
+| Puntaje de Predicción TxGNN | 0,9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la fludrocortisona es un corticosteroide sintético que actúa sobre el receptor mineralocorticoide, con cierta actividad glucocorticoide.
 
-No se ha establecido un vínculo mecanístico a partir de los datos disponibles. Los corticosteroides tópicos y sistémicos se utilizan en el linfoma cutáneo de células T, pero se trata de una observación a nivel de clase farmacológica y no constituye evidencia para la fludrocortisona. El puntaje alto (99,58%) es solo una predicción computacional; no hay ensayos ni literatura que la sustenten.
+No se ha establecido un vínculo mecanístico a partir de los datos disponibles. Los corticosteroides tópicos y sistémicos se utilizan en el linfoma cutáneo de células T, pero se trata de una observación a nivel de clase farmacológica y no constituye evidencia para la fludrocortisona. El puntaje alto (0,9958) es solo una predicción computacional; no hay ensayos ni literatura que la sustenten.
 
 Cabe señalar que el uso establecido de la fludrocortisona (por ejemplo, en insuficiencia suprarrenal o hipotensión ortostática) es muy distinto de esta predicción, y la similitud con la indicación original no ha sido evaluada.
 

@@ -6,9 +6,9 @@ nav_order: 771
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Temoporfin: nueva indicación predicha, Teratoma nasofaríngeo (nivel de evidencia L5). Indicación original: Carcinoma de células escamosas / neoplasia de cabeza y cuello (según…"
 monitor_inn: "temoporfin"
 predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
+description: "Temoporfin: nueva indicación predicha, Teratoma nasofaríngeo (nasopharyngeal teratoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Temoporfin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Temoporfina: De Carcinoma de Células Escamosas de Cabeza y Cuello a Teratoma Nasofaríngeo
+## Temoporfin: Teratoma nasofaríngeo (nasopharyngeal teratoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **teratoma nasofaríngeo**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de células escamosas / neoplasia de cabeza y cuello (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Teratoma nasofaríngeo |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Teratoma nasofaríngeo (nasopharyngeal teratoma) |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
+| Número de Autorizaciones | 4 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,21 +59,21 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La nasofaringe está anatómicamente próxima a las localizaciones de cabeza y cuello donde se usa temoporfina. Sin embargo, el teratoma es un tumor de células germinales con una biología distinta a la del carcinoma escamoso, y ningún ensayo ni publicación respalda su uso en esta entidad.
 
-Por ello, la puntuación alta del modelo (0.998) no constituye evidencia clínica. Es una hipótesis que requeriría validación preclínica y clínica antes de considerarse seriamente.
+Por ello, la puntuación alta del modelo (0.9978) no constituye evidencia clínica. Es una hipótesis que requeriría validación preclínica y clínica antes de considerarse seriamente.
 
 ### Otras predicciones del modelo (referencia)
 
 | Posición | Enfermedad predicha | Puntaje | Nivel | Comentario |
 |------|------|------|------|------|
-| 2 | Quiste odontogénico | 99.77% | L5 | Lesión benigna, normalmente de manejo quirúrgico |
-| 3 | Neoplasia premaligna | 99.77% | L5 | Biológicamente plausible, pero categoría muy amplia; conviene evaluar entidades específicas (p. ej., displasia oral) |
-| 4 | Neoplasia de epiglotis | 99.76% | L5 | Dentro del tracto aerodigestivo superior; plausible, sin evidencia específica |
-| 5 | Tumor de testículo y paratestículo | 99.76% | L5 | Sin vínculo anatómico; la administración de luz en profundidad es poco práctica |
-| 6 | Neoplasia quística | 99.76% | L4 | Una publicación indirecta sobre TFD adyuvante en tumores paranasales |
-| 7 | Neoplasia benigna del suelo de la boca | 99.76% | L5 | Localización plausible; riesgo-beneficio no establecido |
-| 8 | Neoplasia benigna de la lengua | 99.76% | L4 | Una publicación indirecta sobre TFD en carcinoma de base de lengua |
-| 9 | Neoplasia benigna de hipofaringe | 99.76% | L5 | Adyacente a la indicación aprobada, sin evidencia |
-| 10 | Neuroblastoma cervical | 99.76% | L5 | Biología distinta; riesgos pediátricos (fotosensibilidad prolongada) |
+| 2 | Quiste odontogénico | 0.9977 | L5 | Lesión benigna, normalmente de manejo quirúrgico |
+| 3 | Neoplasia premaligna | 0.9977 | L5 | Biológicamente plausible, pero categoría muy amplia; conviene evaluar entidades específicas (p. ej., displasia oral) |
+| 4 | Neoplasia de epiglotis | 0.9976 | L5 | Dentro del tracto aerodigestivo superior; plausible, sin evidencia específica |
+| 5 | Tumor de testículo y paratestículo | 0.9976 | L5 | Sin vínculo anatómico; la administración de luz en profundidad es poco práctica |
+| 6 | Neoplasia quística | 0.9976 | L4 | Una publicación indirecta sobre TFD adyuvante en tumores paranasales |
+| 7 | Neoplasia benigna del suelo de la boca | 0.9976 | L5 | Localización plausible; riesgo-beneficio no establecido |
+| 8 | Neoplasia benigna de la lengua | 0.9976 | L4 | Una publicación indirecta sobre TFD en carcinoma de base de lengua |
+| 9 | Neoplasia benigna de hipofaringe | 0.9976 | L5 | Adyacente a la indicación aprobada, sin evidencia |
+| 10 | Neuroblastoma cervical | 0.9976 | L5 | Biología distinta; riesgos pediátricos (fotosensibilidad prolongada) |
 
 ## Evidencia de Ensayos Clínicos
 

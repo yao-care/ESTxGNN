@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dapoxetine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 221
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: Eyaculación precoz (indicación del grafo de conocimiento"
 monitor_inn: "Dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
+description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dapoxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Dapoxetina: De Eyaculación Precoz a Trastorno de Migraña
+## Dapoxetine: Trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Eyaculación precoz (indicación del grafo de conocimiento; el texto autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99.34% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0.9934 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -65,8 +65,8 @@ Sin embargo, como clase, los ISRS han mostrado una eficacia profiláctica limita
 
 | Posición | Indicación predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|------|
-| 2 | Trastorno distímico | 99.14% | L5 | Hold |
-| 3 | Migraña con aura de tronco encefálico | 99.11% | L5 | Hold |
+| 2 | Trastorno distímico | 0.9914 | L5 | Hold |
+| 3 | Migraña con aura de tronco encefálico | 0.9911 | L5 | Hold |
 
 La distimia es coherente a nivel de clase (los ISRS tratan trastornos depresivos), pero dapoxetina tiene vida media corta y está pensada para uso a demanda, sin evidencia en condiciones depresivas crónicas. La migraña con aura de tronco encefálico es un subtipo raro, y la predicción probablemente se deriva de su relación con la categoría general de migraña.
 

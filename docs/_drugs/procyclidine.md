@@ -6,9 +6,9 @@ nav_order: 666
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Procyclidine: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson y trastornos parkinsonianos (según el grafo d…"
 monitor_inn: "procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
+description: "Procyclidine: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Procyclidine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Procyclidina: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+## Procyclidine: Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **encefalitis subaguda de 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson y trastornos parkinsonianos (según el grafo de conocimiento; el texto de indicación de la autorización de AEMPS no está disponible) |
-| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99,74% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, procyclidina es un antagonista de los receptores muscarínicos (anticolinérgico), cuya eficacia sintomática en parkinsonismo y distonías (incluidos distonía focal de la mano y blefaroespasmo) está reconocida.
 
-La encefalitis de Rasmussen es una encefalitis crónica inmunomediada, dirigida por linfocitos T, con crisis focales. No se ha establecido un vínculo claro entre el bloqueo muscarínico y su fisiopatología. El puntaje elevado probablemente refleja la proximidad en la red del grafo a nodos de enfermedades neurológicas, más que una señal mecanística real.
+La encefalitis de Rasmussen es una encefalitis crónica inmunomediada, dirigida por linfocitos T, con crisis focales. No se ha establecido un vínculo claro entre el bloqueo muscarínico y su fisiopatología. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Es una predicción puramente computacional, sin respaldo clínico ni bibliográfico, por lo que debe interpretarse con mucha cautela.
 
@@ -65,15 +65,15 @@ Es una predicción puramente computacional, sin respaldo clínico ni bibliográf
 
 | Rango | Enfermedad | Puntaje TxGNN | Comentario |
 |---|---|---|---|
-| 2 | Mielitis | 99,65% | Sin justificación mecanística; solo señal computacional |
-| 3 | Neurodegeneración asociada a PLA2G6 | 99,63% | Posible relevancia sintomática (distonía-parkinsonismo); no modifica la enfermedad |
-| 4 | Trastorno por déficit de atención e hiperactividad | 99,63% | Sin vínculo; los anticolinérgicos pueden empeorar la atención (riesgo) |
-| 5 | Síndrome faciodigitogenital | 99,45% | Sin vínculo mecanístico plausible |
-| 6 | Déficit de transaldolasa | 99,42% | Sin justificación mecanística |
-| 7 | Síndrome de parálisis supranuclear progresiva-corticobasal | 99,42% | Solapamiento clínico; mala tolerabilidad de anticolinérgicos en esta población |
-| 8 | Parálisis agitante juvenil de Hunt | 99,37% | Probablemente ya cubierta por la indicación original; baja novedad |
-| 9 | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 99,34% | Sin base mecanística |
-| 10 | Déficit de fructosa-1,6-bisfosfatasa | 99,34% | Sin justificación mecanística |
+| 2 | Mielitis | 0,9965 | Sin justificación mecanística; solo señal computacional |
+| 3 | Neurodegeneración asociada a PLA2G6 | 0,9963 | Posible relevancia sintomática (distonía-parkinsonismo); no modifica la enfermedad |
+| 4 | Trastorno por déficit de atención e hiperactividad | 0,9963 | Sin vínculo; los anticolinérgicos pueden empeorar la atención (riesgo) |
+| 5 | Síndrome faciodigitogenital | 0,9945 | Sin vínculo mecanístico plausible |
+| 6 | Déficit de transaldolasa | 0,9942 | Sin justificación mecanística |
+| 7 | Síndrome de parálisis supranuclear progresiva-corticobasal | 0,9942 | Solapamiento clínico; mala tolerabilidad de anticolinérgicos en esta población |
+| 8 | Parálisis agitante juvenil de Hunt | 0,9937 | Probablemente ya cubierta por la indicación original; baja novedad |
+| 9 | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 0,9934 | Sin base mecanística |
+| 10 | Déficit de fructosa-1,6-bisfosfatasa | 0,9934 | Sin justificación mecanística |
 
 ## Evidencia de Ensayos Clínicos
 

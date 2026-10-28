@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorambucil
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 169
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Chlorambucil: nueva indicación predicha, Leucemia linfocítica crónica/linfoma linfocítico pequeño de centro pr… (nivel de evidencia L4). Indicación original: Linfoma de Hodgkin, linfoma folicular, le…"
 monitor_inn: "chlorambucil"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+description: "Chlorambucil: nueva indicación predicha, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-## Clorambucilo: De Linfoma de Hodgkin a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Centro Pregerminal
+## Chlorambucil: Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia linfocítica cr
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Linfoma de Hodgkin, linfoma folicular, leucemia linfoblástica aguda, neoplasias de células B maduras (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Leucemia linfocítica crónica/linfoma linfocítico pequeño de centro pregerminal |
-| Puntaje de Predicción TxGNN | 99.72% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
+| Puntaje de Predicción TxGNN | 0.9972 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

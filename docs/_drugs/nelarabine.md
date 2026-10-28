@@ -6,9 +6,9 @@ nav_order: 558
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nelarabine: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda / leucemia de células T / linfoma linfob…"
 monitor_inn: "Nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
+description: "Nelarabine: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nelarabine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Nelarabina: De Leucemia Linfoblástica Aguda a Esclerosis Múltiple Remitente-Recurrente
+## Nelarabine: Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfoblástica aguda / leucemia de células T / linfoma linfoblástico T (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
-| Nueva Indicación Predicha | Esclerosis múltiple remitente-recurrente |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) |
+| Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -6,9 +6,9 @@ nav_order: 690
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Relebactam: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infección del tracto urinario y pielonefritis (según el grafo de cono…"
 monitor_inn: "relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Relebactam: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Relebactam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Relebactam: De Infección del Tracto Urinario a Hiperamilasemia
+## Relebactam: Hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección del tracto urinario y pielonefritis (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.22% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
+| Puntaje de Predicción TxGNN | 0.9922 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Sin embargo, **no se identifica un vínculo mecanístico creíble** con la hiperamilasemia. Relebactam no tiene acción conocida sobre el metabolismo ni el aclaramiento de la amilasa pancreática o salival. Además, la hiperamilasemia suele ser un hallazgo de laboratorio (pancreatitis, insuficiencia renal, enfermedad de glándulas salivales) más que una enfermedad tratable en sí misma, por lo que el fundamento de reposicionamiento es débil.
 
-El puntaje elevado de TxGNN (99.22%) refleja una predicción basada en el grafo de conocimiento y no está respaldado por estudios reales. Otras predicciones del modelo con puntajes similares, como el síndrome de hiperviscosidad policlonal (99.22%) y la analbuminemia congénita (99.08%), tampoco muestran un vínculo mecanístico plausible y también quedan en nivel L5.
+El puntaje elevado de TxGNN (0.9922) refleja una predicción del modelo TxGNN (aprendizaje profundo) y no está respaldado por estudios reales. Otras predicciones del modelo con puntajes similares, como el síndrome de hiperviscosidad policlonal (0.9922) y la analbuminemia congénita (0.9908), tampoco muestran un vínculo mecanístico plausible y también quedan en nivel L5.
 
 ---
 

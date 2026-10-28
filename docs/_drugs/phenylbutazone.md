@@ -48,10 +48,10 @@ Se trata de un uso histórico ya conocido más que de un reposicionamiento noved
 |------|------|
 | Indicación Original | No disponible en las licencias registradas |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99,82% |
+| Puntaje de Predicción TxGNN | 0,9982 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

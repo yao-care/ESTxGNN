@@ -47,23 +47,23 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Los datos de mecanismo de acción del registro original no están disponibles. Según la información farmacológica conocida, el tiocolchicósido es un derivado semisintético de la colchicósida con efecto miorrelajante. Actúa como antagonista competitivo de los receptores GABA-A y también inhibe los receptores de glicina.
 
-La relación con el insomnio es indirecta: la modulación de GABA-A es central en la farmacología de los hipnóticos sedantes, lo que explica la conexión en el grafo de conocimiento. Sin embargo, el tiocolchicósido **antagoniza** el receptor GABA-A, la dirección opuesta a la de los hipnóticos clásicos (benzodiazepinas, fármacos Z), que lo potencian. Además, tiene actividad proconvulsivante a dosis altas.
+La relación con el insomnio es indirecta: la modulación de GABA-A es central en la farmacología de los hipnóticos sedantes. La puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Sin embargo, el tiocolchicósido **antagoniza** el receptor GABA-A, la dirección opuesta a la de los hipnóticos clásicos (benzodiazepinas, fármacos Z), que lo potencian. Además, tiene actividad proconvulsivante a dosis altas.
 
-Por tanto, el puntaje alto del modelo (99,89%) no está respaldado por la dirección farmacológica conocida. Al faltar los datos de mecanismo original, este vínculo no puede verificarse más.
+Por tanto, el puntaje alto del modelo (0,9989) no está respaldado por la dirección farmacológica conocida. Al faltar los datos de mecanismo original, este vínculo no puede verificarse más.
 
 ### Segunda predicción: delirium por abstinencia alcohólica
 
-El modelo también predice **delirium por abstinencia alcohólica** (puntaje 99,21%, nivel L5, decisión Hold). La abstinencia alcohólica implica una reducción de la inhibición GABAérgica y una hiperexcitabilidad glutamatérgica, y su tratamiento se basa en moduladores positivos de GABA-A. Dado que el tiocolchicósido es antagonista de GABA-A y proconvulsivante, podría **empeorar** el riesgo de convulsiones. Esto representa una preocupación de seguridad, no evidencia a favor.
+El modelo también predice **delirium por abstinencia alcohólica** (puntaje 0,9921, nivel L5, decisión Hold). La abstinencia alcohólica implica una reducción de la inhibición GABAérgica y una hiperexcitabilidad glutamatérgica, y su tratamiento se basa en moduladores positivos de GABA-A. Dado que el tiocolchicósido es antagonista de GABA-A y proconvulsivante, podría **empeorar** el riesgo de convulsiones. Esto representa una preocupación de seguridad, no evidencia a favor.
 
 ## Evidencia de Ensayos Clínicos
 

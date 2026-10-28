@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **anemia megaloblástica**
 |------|------|
 | Indicación Original | No disponible en los datos de la licencia AEMPS (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Anemia megaloblástica |
-| Puntaje de Predicción TxGNN | 99,997% |
+| Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, volanesorsen es un oligonucleótido antisentido que se une al ARNm de APOC3 y reduce la producción de apolipoproteína C-III, lo que disminuye los triglicéridos plasmáticos.
 
-La anemia megaloblástica surge por deficiencia de vitamina B12 o folato, que altera la síntesis de ADN en las células hematopoyéticas. No se identifica un vínculo mecanístico entre la inhibición de APOC3 y esta enfermedad. El puntaje TxGNN muy alto (0,99997) refleja una predicción del grafo de conocimiento, no evidencia independiente.
+La anemia megaloblástica surge por deficiencia de vitamina B12 o folato, que altera la síntesis de ADN en las células hematopoyéticas. No se identifica un vínculo mecanístico entre la inhibición de APOC3 y esta enfermedad. El puntaje TxGNN muy alto (0,99997) refleja una predicción del modelo TxGNN (aprendizaje profundo), no evidencia independiente.
 
 Por ello, la plausibilidad biológica es baja con los datos disponibles, y cualquier conexión (por ejemplo, vías lipídicas o inflamatorias) sería hipotética.
 

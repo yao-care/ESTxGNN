@@ -6,9 +6,9 @@ nav_order: 766
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tazarotene: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L5). Indicación original: Psoriasis, parapsoriasis y acné (según el grafo de conocimiento"
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
+description: "Tazarotene: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tazarotene
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Tazaroteno: De Psoriasis a Dermatitis Seborreica
+## Tazarotene: Dermatitis seborreica (seborrheic dermatitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Psoriasis, parapsoriasis y acné (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Dermatitis seborreica |
-| Puntaje de Predicción TxGNN | 99,79% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Dermatitis seborreica (seborrheic dermatitis) |
+| Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -78,7 +78,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para dermatitis seborreica.
 
-Como información complementaria, para la segunda indicación predicha (queratosis seborreica, puntaje 99,51%, nivel L4) se recuperaron dos publicaciones indirectas. Sus resúmenes no confirman que informen resultados con tazaroteno:
+Como información complementaria, para la segunda indicación predicha (queratosis seborreica, puntaje 0,9951, nivel L4) se recuperaron dos publicaciones indirectas. Sus resúmenes no confirman que informen resultados con tazaroteno:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
@@ -113,7 +113,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para dermatitis seborreica tiene un puntaje alto (99,79%), pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, la dermatitis seborreica tiene un componente fúngico e inmunitario que el tazaroteno no aborda, y su potencial irritante podría ser un problema.
+La predicción para dermatitis seborreica tiene un puntaje alto (0,9979), pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, la dermatitis seborreica tiene un componente fúngico e inmunitario que el tazaroteno no aborda, y su potencial irritante podría ser un problema.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción original verificados en DrugBank

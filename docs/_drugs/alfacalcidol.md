@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alfacalcidol
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 32
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Alfacalcidol: nueva indicación predicha, Hipoparatiroidismo aislado familiar por alteración de la secreción de… (nivel de evidencia L4). Indicación original: Hiperparatiroidismo, osteítis fibrosa…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "ALFACALCIDOL"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
+predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
+last_modified_at: 2026-10-27
+description: "Alfacalcidol: nueva indicación predicha, Conodisplasia craneofacial (craniofacial conodysplasia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Alfacalcidol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Alfacalcidol: De Hiperparatiroidismo a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+## Alfacalcidol: análogo de la vitamina D (profármaco de calcitriol) → conodisplasia craneofacial (craniofacial conodysplasia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Alfacalcidol es un análogo de la vitamina D (vitamina D 1-alfa-hidroxilada), utilizado originalmente en el hiperparatiroidismo, la osteítis fibrosa, el hipoparatiroidismo y la osteodistrofia renal.
-El modelo TxGNN predice que podría ser efectivo para **hipoparatiroidismo aislado familiar por alteración de la secreción de PTH**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** específicas que respalden esta predicción; se trata de una extrapolación a partir de una indicación ya existente.
+Alfacalcidol es un análogo de la vitamina D que se convierte en calcitriol en el organismo y actúa sobre el metabolismo del calcio y el fósforo.
+El modelo TxGNN predice que podría ser efectivo para **conodisplasia craneofacial (craniofacial conodysplasia)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperparatiroidismo, osteítis fibrosa, hipoparatiroidismo y osteodistrofia renal (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipoparatiroidismo aislado familiar por alteración de la secreción de PTH |
-| Puntaje de Predicción TxGNN | 99.61% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conodisplasia craneofacial (craniofacial conodysplasia) |
+| Puntaje de Predicción TxGNN | 0,9955 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, alfacalcidol es un derivado de la vitamina D ya hidroxilado en posición 1-alfa; solo requiere la 25-hidroxilación hepática para convertirse en la forma activa (calcitriol). Por ello evita el paso de la 1-alfa-hidroxilasa renal, que depende de la PTH.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, alfacalcidol es un profármaco de la vitamina D: ya está hidroxilado en posición 1-alfa, por lo que no necesita la activación renal y se transforma en calcitriol, la forma activa. Su función principal es favorecer la absorción de calcio y fosfato y la mineralización ósea.
 
-El hipoparatiroidismo aislado familiar es un subtipo genético de una enfermedad que ya figura entre las indicaciones originales del fármaco. En esta condición la secreción de PTH está alterada, la activación renal de la vitamina D disminuye y la calcemia baja. Un análogo que no depende de la PTH puede elevar el calcio sérico, lo que hace plausible el mecanismo.
+Esto podría guardar una relación biológica general con un trastorno esquelético. Sin embargo, la conodisplasia craneofacial es una enfermedad estructural esquelética rara, y los datos compilados no muestran que la activación del receptor de la vitamina D pueda modificar su patología de fondo.
 
-El puntaje alto de TxGNN probablemente refleja este solapamiento con la indicación ya existente. Conviene interpretarlo con cautela: no hay estudios específicos en este subtipo, de modo que la evidencia es indirecta y extrapolada de la indicación general.
+Por tanto, la predicción tiene un puntaje de modelo muy alto, pero carece de respaldo mecanístico o clínico. Cualquier justificación basada en el metabolismo óseo es, por ahora, especulativa.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,45 +68,32 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación específica.
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61022 | ETALPHA 1 microgramo solución inyectable | Solución inyectable | No disponible en los datos compilados |
-| 55906 | ETALPHA 2 microgramos/ml gotas orales en solución | Gotas orales en solución | No disponible en los datos compilados |
-| 61023 | ETALPHA 2 microgramos solución inyectable | Solución inyectable | No disponible en los datos compilados |
-
-Las tres autorizaciones están vigentes y corresponden a monofármacos del titular Cheplapharm Arzneimittel GmbH.
+| 61022 | ETALPHA 1 microgramo SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
+| 55906 | ETALPHA 2 microgramos/ml GOTAS ORALES EN SOLUCION | Gotas orales en solución | No registrada en los datos locales |
+| 61023 | ETALPHA 2 microgramos SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se identificaron interacciones farmacológicas en los datos compilados para este informe.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo y en su cercanía con una indicación ya existente (hipoparatiroidismo), sin ensayos ni publicaciones específicas del subtipo familiar. El nivel de evidencia es bajo (L4) y faltan los datos de seguridad de la ficha técnica.
+La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clínicos, sin literatura y sin un vínculo mecanístico demostrado con la conodisplasia craneofacial. No hay base suficiente para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener y revisar las advertencias y contraindicaciones del prospecto de la AEMPS, así como los textos de indicación aprobados.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una búsqueda bibliográfica dirigida a hipoparatiroidismo familiar aislado y al uso de análogos de vitamina D.
-- Valorar series de casos o registros que documenten la respuesta de la calcemia en este subtipo genético.
-
----
-
-### Nota sobre otras predicciones evaluadas
-
-Los datos compilados incluyen otras cuatro predicciones de menor prioridad. Ninguna cuenta con ensayos clínicos:
-
-- **Síndrome de Dahlberg-Borer-Newcomer** (99.60%, L5, Hold): no se estableció un vínculo mecanístico claro. La literatura recuperada es mayormente general o ajena al tema, y el único artículo directamente relacionado trata de empagliflozina, no de alfacalcidol.
-- **Conodisplasia craneofacial** (99.55%, L5, Hold): sin fundamento mecanístico, solo predicción del modelo.
-- **Displasia acromesomélica tipo Campailla-Martinelli** (99.53%, L5, Hold): sin fundamento mecanístico, solo predicción del modelo.
-- **Acidosis tubular renal** (99.27%, L4, pregunta de investigación): cinco casos clínicos describen mejoría de la osteomalacia con vitamina D activa, incluido alfacalcidol, pero apuntan a la complicación ósea y no a la acidosis, y están confundidos por tratamientos concurrentes con álcalis.
+- Datos del mecanismo de acción de alfacalcidol y su posible relación con la fisiopatología de la enfermedad
+- Revisión bibliográfica específica sobre conodisplasia craneofacial y vitamina D
+- Obtención y análisis del prospecto de la AEMPS (advertencias, contraindicaciones e interacciones)
+- Evaluación de la compatibilidad de vías de administración y de la población diana
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

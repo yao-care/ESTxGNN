@@ -6,9 +6,9 @@ nav_order: 785
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tetracaine: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: Dermatitis (según el grafo de conocimiento TxGNN"
 monitor_inn: "Tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
+description: "Tetracaine: nueva indicación predicha, Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tetracaine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Tetracaína: De Dermatitis a Acrodermatitis Crónica Atrófica
+## Tetracaine: Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatitis (según el grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
-| Puntaje de Predicción TxGNN | 99,93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acrodermatitis crónica atrófica (acrodermatitis chronica atrophicans) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la tetracaína es un anestésico local de tipo éster que actúa bloqueando los canales de sodio, con efecto sintomático (anestesia tópica o espinal), y su uso en dermatitis se relaciona con el alivio local de síntomas.
 
-Para la acrodermatitis crónica atrófica, sin embargo, **no se identifica un vínculo mecanístico plausible**. Esta enfermedad es una infección cutánea tardía por *Borrelia*, y la tetracaína no tiene actividad antimicrobiana relevante. El puntaje elevado probablemente refleja similitud en el grafo de conocimiento con la indicación original de dermatitis, y no un fundamento terapéutico real.
+Para la acrodermatitis crónica atrófica, sin embargo, **no se identifica un vínculo mecanístico plausible**. Esta enfermedad es una infección cutánea tardía por *Borrelia*, y la tetracaína no tiene actividad antimicrobiana relevante. El puntaje elevado (0.9993) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por ello, la predicción debe considerarse exploratoria y de baja credibilidad clínica.
 

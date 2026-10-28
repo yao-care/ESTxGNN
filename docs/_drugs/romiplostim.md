@@ -6,9 +6,9 @@ nav_order: 711
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Romiplostim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Anemia aplásica idiopática…"
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
+description: "Romiplostim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
 # Romiplostim
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Romiplostim: De Anemia Aplásica y Trombocitopenia Autoinmune a Trastorno Primario de Liberación Plaquetaria
+## Romiplostim: Trastorno primario de liberación plaquetaria (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno primario de li
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Anemia aplásica idiopática, anemia aplásica y trombocitopenia autoinmune (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria (primary release disorder of platelets) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -118,7 +118,7 @@ La predicción se apoya solo en el puntaje del modelo y en una publicación prec
 - Evaluación de la interacción mayor con carfilzomib.
 - Los textos de indicación aprobada de las autorizaciones españolas.
 
-**Nota adicional:** entre las otras predicciones, la trombocitopenia aloinmune fetal y neonatal (puntaje 99,99 %, nivel L4) cuenta con literatura indirecta sobre trombocitopenia inmune, pero ninguna sobre esa enfermedad en concreto. Merece considerarse como pregunta de investigación, con dudas abiertas sobre el paso placentario y la seguridad fetal y neonatal.
+**Nota adicional:** entre las otras predicciones, la trombocitopenia aloinmune fetal y neonatal (puntaje 0,9999, nivel L4) cuenta con literatura indirecta sobre trombocitopenia inmune, pero ninguna sobre esa enfermedad en concreto. Merece considerarse como pregunta de investigación, con dudas abiertas sobre el paso placentario y la seguridad fetal y neonatal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

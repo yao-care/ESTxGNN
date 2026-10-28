@@ -40,7 +40,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 Iohexol es un medio de contraste yodado, no iónico e hidrosoluble, utilizado en técnicas de diagnóstico por imagen con rayos X.
 El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero no existe ningún ensayo clínico ni publicación que respalde esta dirección (**0 ensayos clínicos** y **0 publicaciones**).
-La predicción carece de plausibilidad biológica y debe considerarse un probable artefacto del grafo de conocimiento.
+La predicción carece de plausibilidad biológica y debe considerarse un probable artefacto del modelo TxGNN (aprendizaje profundo).
 
 ---
 
@@ -50,10 +50,10 @@ La predicción carece de plausibilidad biológica y debe considerarse un probabl
 |------|------|
 | Indicación Original | No disponible en los datos de autorización compilados (el texto de indicación está vacío); el producto se emplea como medio de contraste radiológico |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,87% |
+| Puntaje de Predicción TxGNN | 0,9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,9 +64,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 No se identifica un vínculo mecanístico con el insomnio. Iohexol no tiene actividad conocida sobre las vías que regulan el sueño (GABAérgica, orexinérgica, melatoninérgica o monoaminérgica). La relación con su uso original (diagnóstico por imagen) tampoco se traslada a un efecto terapéutico sobre el sueño.
 
-El puntaje TxGNN muy alto (0,9987) probablemente refleja artefactos del grafo de conocimiento, como las 100 interacciones farmacológicas registradas, más que una relación biológica real.
+El puntaje TxGNN muy alto (0,9987) probablemente refleja artefactos del modelo TxGNN (aprendizaje profundo), como las 100 interacciones farmacológicas registradas, más que una relación biológica real.
 
-> **Nota sobre la segunda predicción (ansiedad, puntaje 99,25%):** tampoco se sustenta un mecanismo terapéutico. Las cuatro publicaciones recuperadas mencionan la ansiedad solo de forma incidental (contexto procedimental o efectos adversos), no como objetivo de tratamiento.
+> **Nota sobre la segunda predicción (ansiedad, puntaje 0,9925):** tampoco se sustenta un mecanismo terapéutico. Las cuatro publicaciones recuperadas mencionan la ansiedad solo de forma incidental (contexto procedimental o efectos adversos), no como objetivo de tratamiento.
 
 ---
 
@@ -116,7 +116,7 @@ Para el resto de la información de seguridad (advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5): no hay ensayos ni literatura, y la farmacología de iohexol, un agente de contraste inerte, no ofrece un mecanismo plausible sobre el sueño. El puntaje elevado parece un artefacto del grafo.
+La predicción es solo computacional (nivel L5): no hay ensayos ni literatura, y la farmacología de iohexol, un agente de contraste inerte, no ofrece un mecanismo plausible sobre el sueño. El puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y de las indicaciones aprobadas (ficha técnica de la AEMPS)

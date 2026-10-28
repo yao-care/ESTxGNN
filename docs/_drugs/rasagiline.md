@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para la **neurodegeneración as
 |------|------|
 | Indicación Original | Enfermedad de Parkinson (y síndromes parkinsonianos relacionados) |
 | Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -69,11 +69,11 @@ Conviene ser prudentes: el vínculo se apoya únicamente en el puntaje elevado d
 
 | Enfermedad predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Encefalitis subaguda de Rasmussen | 99.56% | Enfermedad inmunomediada; no hay vínculo mecanístico evidente con la inhibición de MAO-B |
-| Mielitis | 99.32% | Grupo heterogéneo de causas; vínculo especulativo |
-| Parálisis agitante juvenil de Hunt | 99.25% | Término histórico de parkinsonismo juvenil; probablemente solapa con la indicación existente, no es una novedad real; seguridad y eficacia pediátricas no establecidas |
-| Deficiencia de transaldolasa | 99.19% | Error congénito de la vía de las pentosas fosfato; mecanismo no evidente |
-| Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 99.01% | Malformación del neurodesarrollo; improbable que un inhibidor de MAO-B postnatal tenga efecto |
+| Encefalitis subaguda de Rasmussen | 0.9956 | Enfermedad inmunomediada; no hay vínculo mecanístico evidente con la inhibición de MAO-B |
+| Mielitis | 0.9932 | Grupo heterogéneo de causas; vínculo especulativo |
+| Parálisis agitante juvenil de Hunt | 0.9925 | Término histórico de parkinsonismo juvenil; probablemente solapa con la indicación existente, no es una novedad real; seguridad y eficacia pediátricas no establecidas |
+| Deficiencia de transaldolasa | 0.9919 | Error congénito de la vía de las pentosas fosfato; mecanismo no evidente |
+| Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 0.9901 | Malformación del neurodesarrollo; improbable que un inhibidor de MAO-B postnatal tenga efecto |
 
 ---
 

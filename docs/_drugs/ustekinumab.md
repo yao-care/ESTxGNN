@@ -6,9 +6,9 @@ nav_order: 836
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: Psoriasis…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Ustekinumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Ustekinumab: De Psoriasis y Artritis Psoriásica a Dermatitis
+## Ustekinumab: Dermatitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ con **6 ensayos clínicos** (2 de ellos con evidencia directa en dermatitis ató
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Psoriasis, artritis psoriásica y parapsoriasis (según el grafo de conocimiento; no hay texto de indicación autorizado disponible) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Dermatitis |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

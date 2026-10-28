@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 296
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Glaucoma de ángulo abierto (según el grafo de conocimiento"
 monitor_inn: "epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-## Epinefrina: De Glaucoma de Ángulo Abierto a Enfermedad Pulmonar Obstructiva
+## Epinephrine: Enfermedad pulmonar obstructiva (obstructive lung disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **15 ensayos clínicos** (14 de ellos relacionados con el sistema respirator
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto (según el grafo de conocimiento; los textos de indicación autorizados en España no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva (obstructive lung disease) |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

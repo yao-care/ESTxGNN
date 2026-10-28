@@ -6,9 +6,9 @@ nav_order: 398
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Hydroxocobalamin: nueva indicación predicha, Várices esofágicas con sangrado (nivel de evidencia L5). Indicación original: Deficiencia de vitamina B12 (según el grafo de conocimiento"
 monitor_inn: "Hydroxocobalamin"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
+description: "Hydroxocobalamin: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Hydroxocobalamin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Hidroxocobalamina: De Deficiencia de Vitamina B12 a Várices Esofágicas con Sangrado
+## Hydroxocobalamin: Esophageal varices with bleeding
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectiva para **várices esofágicas con
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Deficiencia de vitamina B12 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Várices esofágicas con sangrado |
-| Puntaje de Predicción TxGNN | 99.23% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Esophageal varices with bleeding |
+| Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la hidroxocobalamina es una forma inyectable de vitamina B12 cuya eficacia en la deficiencia de B12, la anemia perniciosa y (en su presentación de perfusión) la intoxicación por cianuro es conocida. Con los datos compilados, no es posible establecer un vínculo mecanístico con las várices esofágicas.
 
-La puntuación del modelo (99.23%) es idéntica para las várices con y sin sangrado. Esto sugiere una señal compartida del grafo de conocimiento más que evidencia específica de la indicación.
+La puntuación del modelo (0.9923) es idéntica para las várices con y sin sangrado.
 
 Existe una hipótesis especulativa basada en farmacología general: la hidroxocobalamina puede unirse al óxido nítrico (NO), un mediador de la vasodilatación esplácnica en la hipertensión portal. Esta hipótesis no procede de los datos compilados y no está validada. El manejo actual de la hemorragia varicosa aguda se basa en fármacos vasoactivos, ligadura endoscópica con bandas y antibióticos, sin papel establecido para la vitamina B12.
 

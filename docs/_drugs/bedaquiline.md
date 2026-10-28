@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bedaquiline
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 89
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bedaquiline: nueva indicación predicha, Tuberculosis bovina (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar y tuberculosis multirresistente"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "Bedaquiline"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
+last_modified_at: 2026-10-27
+description: "Bedaquiline: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Bedaquiline
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Bedaquilina: De Tuberculosis Pulmonar a Tuberculosis Bovina
+## Bedaquilina: inhibidor de la ATP sintasa micobacteriana → candidiasis vulvovaginal (vulvovaginal candidiasis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Bedaquilina es un antibiótico antituberculoso, utilizado originalmente para tratar la tuberculosis pulmonar y la tuberculosis multirresistente.
-El modelo TxGNN predice que podría ser efectivo para **tuberculosis bovina**,
-pero actualmente no hay **ningún ensayo clínico** y solo **1 publicación** (un estudio in vitro sobre *M. tuberculosis*) respalda esta dirección.
+Bedaquilina es un antibiótico antimicobacteriano que actúa sobre la ATP sintasa de las micobacterias.
+El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal (vulvovaginal candidiasis)**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tuberculosis pulmonar y tuberculosis multirresistente |
-| Nueva Indicación Predicha | Tuberculosis bovina |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Candidiasis vulvovaginal (vulvovaginal candidiasis) |
+| Puntaje de Predicción TxGNN | 0,9988 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, bedaquilina inhibe la ATP sintasa de las micobacterias (subunidad c de la F-ATP sintasa), por lo que bloquea la producción de energía de la bacteria. Esta información no procede de los datos compilados y debe confirmarse en una fuente oficial.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción registrada. Según la información conocida, la bedaquilina inhibe la ATP sintasa de las micobacterias.
 
-La tuberculosis bovina la causa *Mycobacterium bovis*, que pertenece al mismo complejo que *M. tuberculosis*, el agente de la tuberculosis humana. Como ambas especies comparten gran parte de su biología, es plausible que un fármaco activo contra una también lo sea contra la otra.
-
-Sin embargo, la única evidencia disponible es un artículo metodológico in vitro sobre la concentración mínima inhibitoria (CMI) de bedaquilina frente a *M. tuberculosis* H37Rv. No hay datos específicos de *M. bovis* ni datos clínicos. El puntaje alto del modelo refleja sobre todo la cercanía en el grafo de conocimiento con la tuberculosis, no una demostración de eficacia.
+No se ha establecido un vínculo mecanístico plausible con la candidiasis vulvovaginal: la ATP sintasa micobacteriana no tiene actividad antifúngica conocida. La predicción probablemente sea un artefacto del modelo, y no se encontraron ensayos ni literatura que la respalden. La similitud con la indicación original está pendiente de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,22 +66,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [27210281](https://pubmed.ncbi.nlm.nih.gov/27210281/) | 2016 | Estudio in vitro | Medecine et maladies infectieuses | Evalúa cómo las condiciones de cultivo in vitro afectan la CMI de bedaquilina frente a *M. tuberculosis* H37Rv, con el fin de estandarizar las pruebas de sensibilidad. No aborda la tuberculosis bovina. |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 113901001 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
-| 113901002 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
-
-Ambas autorizaciones están vigentes, corresponden a monofármaco y su titular es Janssen-Cilag International N.V.
+| 113901001 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+| 113901002 | SIRTURO 100 MG COMPRIMIDOS | Comprimido | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se registraron 100 interacciones (la lista revisada incluye 20). Entre las de nivel **Mayor** figuran dexametasona, claritromicina, ácido picosulfúrico, polietilenglicol (3350 con electrolitos), dolasetrón, palonosetrón y sulfato de sodio. Hay además varias de nivel **Moderado**, como acarbosa, famotidina, doxiciclina, pioglitazona, loperamida, bupropión, bisacodilo, ácido quenodesoxicólico, minociclina, oxandrolona, oximetolona, tetraciclina y naltrexona.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; las principales de nivel mayor incluyen dexametasona, claritromicina, ácido picosulfúrico, polietilenglicol (3350 con electrolitos), dolasetrón, palonosetrón y sulfato de sodio. Entre las de nivel moderado figuran acarbosa, famotidina, doxiciclina, pioglitazona, loperamida, bupropión, bisacodilo, ácido quenodesoxicólico, minociclina, oxandrolona, oximetolona, tetraciclina y naltrexona.
 
 Para advertencias y contraindicaciones, consultar el prospecto.
 
@@ -92,16 +86,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en un estudio in vitro sobre *M. tuberculosis*, sin ensayos clínicos ni datos específicos de *M. bovis* (nivel L4). El mecanismo es plausible, pero no hay evidencia directa que justifique avanzar.
+La predicción carece de ensayos clínicos y de literatura, no existe un vínculo mecanístico plausible (la bedaquilina no tiene actividad antifúngica conocida) y el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos de actividad in vitro e in vivo de bedaquilina frente a *M. bovis*.
-- Confirmación del mecanismo de acción en una fuente oficial.
-- Revisión de advertencias y contraindicaciones del prospecto de la AEMPS.
-- Análisis detallado de interacciones, dado el elevado número de las de nivel Mayor.
-- Valorar si esta indicación tiene relevancia clínica real en humanos, porque la tuberculosis bovina es poco frecuente y se maneja dentro del espectro de la tuberculosis.
-
-**Nota complementaria:** entre las otras predicciones del modelo, la **tuberculosis inactiva (infección latente)** cuenta con evidencia más sólida, en particular el ensayo de fase 2/3 BREACH-TB (NCT06568484), aún en reclutamiento y sin resultados. Podría ser una dirección más prometedora para una evaluación posterior.
+- Datos de actividad antifúngica *in vitro* frente a *Candida* que justifiquen la hipótesis
+- Datos del mecanismo de acción detallado
+- Advertencias y contraindicaciones del prospecto de AEMPS
+- Evaluación de compatibilidad de la vía de administración (actualmente solo comprimidos orales)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

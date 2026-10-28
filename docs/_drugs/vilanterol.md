@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 846
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Vilanterol: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: EPOC / asma (según las indicaciones del grafo de conocimiento"
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Vilanterol: De Enfermedad Pulmonar Obstructiva Crónica a Enfermedad Pulmonar Obstructiva (Indicación Predicha)
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Vilanterol es un agonista beta2 de acción prolongada (LABA) que se utiliza en inhaladores combinados para la enfermedad pulmonar obstructiva crónica (EPOC) y el asma.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obstructiva**, con **29 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
 Cabe señalar que esta predicción es en realidad una categoría paraguas que engloba las indicaciones ya conocidas del fármaco, por lo que no constituye un reposicionamiento en sentido estricto.
 
 ---
@@ -48,12 +47,12 @@ Cabe señalar que esta predicción es en realidad una categoría paraguas que en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | EPOC / asma (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hyperlucent lung |
+| Puntaje de Predicción TxGNN | 0.9972 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 15 de 20) |
+| Número de Autorizaciones | 20 (vigentes: 15) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -135,7 +134,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La indicación predicha (enfermedad pulmonar obstructiva) coincide con las indicaciones ya establecidas de vilanterol y cuenta con múltiples ECA de Fase 3 completados (nivel L1). No obstante, no es un reposicionamiento real, y la información de seguridad de la ficha técnica no está disponible.
+No obstante, no es un reposicionamiento real, y la información de seguridad de la ficha técnica no está disponible.
 
 **Para avanzar se necesita:**
 - Obtener advertencias y contraindicaciones del prospecto de la AEMPS (bloqueante para el cribado de seguridad).

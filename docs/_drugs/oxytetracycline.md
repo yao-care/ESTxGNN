@@ -6,9 +6,9 @@ nav_order: 599
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Oxytetracycline: nueva indicación predicha, Rinosinusitis crónica (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+description: "Oxytetracycline: nueva indicación predicha, Chronic rhinosinusitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Oxytetracycline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Oxitetraciclina: De Infección del Tracto Urinario a Rinosinusitis Crónica
+## Oxytetracycline: Chronic rhinosinusitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **rinosinusitis crónica**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección del tracto urinario (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Rinosinusitis crónica |
-| Puntaje de Predicción TxGNN | 99.61% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Chronic rhinosinusitis |
+| Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción de e
 
 La relación entre ambas indicaciones es plausible, aunque débil. Varias indicaciones originales son infecciones de vías respiratorias (bronquitis, faringitis, neumonía), y la rinosinusitis crónica puede tener un componente bacteriano e inflamatorio. Además, las tetraciclinas tienen propiedades antiinflamatorias y de inhibición de metaloproteinasas (MMP) que podrían ser relevantes en la inflamación sinusal.
 
-Este razonamiento es una hipótesis. El puntaje alto del modelo refleja la cercanía en el grafo de conocimiento entre el fármaco y enfermedades de tipo infeccioso o sinusal, no una demostración clínica. Tampoco está definida la compatibilidad de vía de administración: las presentaciones disponibles en España son pomadas, no formulaciones nasales ni sistémicas.
+Este razonamiento es una hipótesis. Tampoco está definida la compatibilidad de vía de administración: las presentaciones disponibles en España son pomadas, no formulaciones nasales ni sistémicas.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,7 +69,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para rinosinusitis crónica.
 
-**Nota sobre otra indicación predicha:** entre las predicciones secundarias, la **otitis externa** (puntaje TxGNN 99.27%) es la única con literatura. Incluye varios estudios comparativos con combinaciones tópicas de oxitetraciclina, hidrocortisona y polimixina B. Por ejemplo, un ECA de 1985 con 55 pacientes (PMID [2415098](https://pubmed.ncbi.nlm.nih.gov/2415098/)) no halló diferencias frente a framicetina/gramicidina. Un estudio de 2005 (PMID [15949095](https://pubmed.ncbi.nlm.nih.gov/15949095/)) sugiere que un esteroide solo también es eficaz. Esa indicación quedaría en nivel L3, pero la evidencia es antigua, de diseño mixto y con combinaciones, por lo que no puede atribuirse el beneficio solo al antibiótico.
+**Nota sobre otra indicación predicha:** entre las predicciones secundarias, la **otitis externa** (puntaje TxGNN 0.9927) es la única con literatura. Incluye varios estudios comparativos con combinaciones tópicas de oxitetraciclina, hidrocortisona y polimixina B. Por ejemplo, un ECA de 1985 con 55 pacientes (PMID [2415098](https://pubmed.ncbi.nlm.nih.gov/2415098/)) no halló diferencias frente a framicetina/gramicidina. Un estudio de 2005 (PMID [15949095](https://pubmed.ncbi.nlm.nih.gov/15949095/)) sugiere que un esteroide solo también es eficaz. Esa indicación quedaría en nivel L3, pero la evidencia es antigua, de diseño mixto y con combinaciones, por lo que no puede atribuirse el beneficio solo al antibiótico.
 
 ## Información de Mercado en España
 

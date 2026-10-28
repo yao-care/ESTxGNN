@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Carteolol
-parent: Solo predicción del modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 149
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Carteolol: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (el texto de indicac…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Carteolol: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Carteolol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,54 +32,50 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Carteolol: De Hipertensión Ocular y Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+<!-- known-uses-page -->
+<!-- description: Carteolol: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata -->
+## Carteolol: Usos conocidos y estado de comercialización en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Todos los candidatos que el modelo TxGNN propone para Carteolol (puntuación ≥ 0,99) y que pueden rastrearse hasta una fuente corresponden a usos ya conocidos. Por ello, actualmente no existe ninguna nueva indicación predicha para este fármaco.
 
-Carteolol es un betabloqueante no selectivo con actividad simpaticomimética intrínseca, utilizado originalmente para el glaucoma de ángulo abierto y la hipertensión ocular (el grafo de conocimiento también lo asocia con la hipertensión arterial).
-El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata solo de una predicción computacional.
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Resumen rápido
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (el texto de indicación aprobado no figura en las autorizaciones; se toma de las indicaciones del grafo de conocimiento) |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que pueden rastrearse son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 0 |
+| Nivel de evidencia | No aplicable |
+| Estado de comercialización en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 
-## ¿Por qué es Razonable esta Predicción?
+## Usos conocidos entre los candidatos del modelo
 
-Carteolol es un betabloqueante adrenérgico no selectivo con actividad simpaticomimética intrínseca, comercializado en forma oftálmica. Reduce la presión intraocular (PIO) al disminuir la producción de humor acuoso en el cuerpo ciliar. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada; la descripción anterior procede del análisis de la relación mecanística y no ha podido contrastarse con el registro original.
+### Aprobadas (respaldadas por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguna | — |
 
-El glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario, con variantes en CYP1B1 o MYOC) también se caracteriza por una PIO elevada. Por ello, reducir la presión mediante betabloqueo es plausible como mecanismo sintomático, dirigido a la presión.
+### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | — |
 
-Conviene, sin embargo, ser prudentes: la causa de fondo es del desarrollo o genética (disgenesia de la malla trabecular o del ángulo de la cámara anterior) y carteolol no la corrige. El puntaje tan alto de TxGNN (0.999) probablemente refleja la cercanía en el grafo con las indicaciones aprobadas de glaucoma y es únicamente una predicción computacional.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 71069 | ARTEOPTIC 10 mg/ml Unidosis | Colirio de liberación prolongada | No disponible en los datos compilados |
-| 89580 | ARTEOPTIC PF 2% | Colirio en solución de liberación prolongada | No disponible en los datos compilados |
-| 71070 | ARTEOPTIC 20 mg/ml Unidosis | Colirio de liberación prolongada | No disponible en los datos compilados |
-| 66383 | ARTEOPTIC 1% | Colirio de liberación prolongada | No disponible en los datos compilados |
-| 59039 | ELEBLOC 20 mg/ml | Colirio en solución | No disponible en los datos compilados |
-
-Hay una sexta autorización vigente (66366, ARTEOPTIC 2% colirio de liberación prolongada), hasta un total de 6 autorizaciones válidas.
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 71069 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Cancelado |
+| 89580 | carteolol | COLIRIO EN SOLUCION DE LIBERACION PROLON | Autorizado, no comercializado |
+| 71070 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Vigente |
+| 66383 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Vigente |
+| 59039 | carteolol | COLIRIO EN SOLUCIÓN | Vigente |
+| 66366 | carteolol | COLIRIO DE LIBERACION PROLONGADA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -91,19 +88,6 @@ Hay una sexta autorización vigente (66366, ARTEOPTIC 2% colirio de liberación 
 
 Las advertencias y contraindicaciones del prospecto de la AEMPS no estaban disponibles; consultar el prospecto para la información de seguridad oficial.
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y la etiología del glaucoma hereditario primario es del desarrollo o genética, por lo que el efecto de carteolol sería, como máximo, sintomático (reducción de la PIO).
-
-**Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un vacío bloqueante para el cribado de seguridad.
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Buscar literatura y ensayos sobre el uso de betabloqueantes tópicos en glaucoma congénito o juvenil, y su perfil de seguridad en población pediátrica.
-- Evaluar la compatibilidad de vías y formulaciones (los productos actuales son colirios) con la población objetivo.
-- Valorar la relevancia de las contraindicaciones cardiorrespiratorias en pacientes pediátricos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

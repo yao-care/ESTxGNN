@@ -4,17 +4,17 @@ title: Manidipine
 parent: Solo predicción del modelo (L5)
 nav_order: 493
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Manidipine: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "manidipine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
 ---
 
 # Manidipine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | No disponible en las autorizaciones de la AEMPS (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99,80% |
+| Puntaje de Predicción TxGNN | 0,9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -65,14 +65,13 @@ Es importante subrayar que no se aportó ninguna evidencia clínica ni bibliogr�
 
 | Posición | Indicación | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|------|
-| 2 | Migraña con aura del tronco encefálico | 99,73% | L5 | Subtipo de migraña; mismo vínculo plausible, subtipo raro y difícil de estudiar |
-| 3 | Síndrome nefrogénico de antidiuresis inapropiada | 99,63% | L5 | Sin vía mecanística clara desde el bloqueo del calcio |
-| 4 | Hipertensión pulmonar | 99,52% | L5 | Vasodilatación plausible; la literatura recuperada no respalda eficacia |
-| 5 | Angina de Prinzmetal | 99,41% | L4 | Los bloqueadores del calcio son tratamiento de primera línea; evidencia indirecta de clase |
-| 6 | Cardiopatía cifoescoliótica | 99,41% | L5 | Beneficio indirecto y especulativo |
-| 7 | Hiperplasia prostática benigna | 99,36% | L5 | Vínculo débil; las clases establecidas actúan por otros mecanismos |
-| 8 | Susceptibilidad a migraña con o sin aura | 99,24% | L5 | Fenotipo genético, no directamente accionable |
-| 9 | Atrofodermia vermiculada | 99,04% | L5 | Sin conexión mecanística identificable |
+| 2 | Migraña con aura del tronco encefálico | 0,9973 | L5 | Subtipo de migraña; mismo vínculo plausible, subtipo raro y difícil de estudiar |
+| 3 | Síndrome nefrogénico de antidiuresis inapropiada | 0,9963 | L5 | Sin vía mecanística clara desde el bloqueo del calcio |
+| 4 | Hipertensión pulmonar | 0,9952 | L5 | Vasodilatación plausible; la literatura recuperada no respalda eficacia |
+| 5 | Angina de Prinzmetal | 0,9941 | L4 | Los bloqueadores del calcio son tratamiento de primera línea; evidencia indirecta de clase |
+| 6 | Cardiopatía cifoescoliótica | 0,9941 | L5 | Beneficio indirecto y especulativo |
+| 7 | Hiperplasia prostática benigna | 0,9936 | L5 | Vínculo débil; las clases establecidas actúan por otros mecanismos |
+| 9 | Atrofodermia vermiculada | 0,9904 | L5 | Sin conexión mecanística identificable |
 
 ## Evidencia de Ensayos Clínicos
 

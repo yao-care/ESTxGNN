@@ -6,9 +6,9 @@ nav_order: 759
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Tadalafil: nueva indicación predicha, Hipertricosis universal congénita de tipo Ambras (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna (según el grafo de conocimiento"
 monitor_inn: "tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tadalafil
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Tadalafilo: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita de tipo Ambras
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperplasia prostática benigna (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Hipertricosis universal congénita de tipo Ambras |
-| Puntaje de Predicción TxGNN | 99,98% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ambras type hypertrichosis universalis congenita |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

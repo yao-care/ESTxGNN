@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desloratadine
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 234
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Desloratadine: nueva indicación predicha, Urticaria por frío (nivel de evidencia L1). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 monitor_inn: "Desloratadine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+description: "Desloratadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-## Desloratadina: De Rinitis Alérgica a Urticaria por Frío
+## Desloratadine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Desloratadina es un antihistamínico H1 de segunda generación, utilizado originalmente para el tratamiento de la rinitis alérgica y la urticaria.
-El modelo TxGNN predice que podría ser efectivo para **Urticaria por frío**,
 con **2 ensayos clínicos** y **6 publicaciones** (de las cuales 3 son ensayos aleatorizados directamente relacionados con la indicación) que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria por frío |
-| Puntaje de Predicción TxGNN | 99.94% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nasal cavity disease |
+| Puntaje de Predicción TxGNN | 0.9987 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

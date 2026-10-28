@@ -6,9 +6,9 @@ nav_order: 34
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Alfuzosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna (según el grafo de conocimiento"
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Alfuzosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los d…"
 ---
 
 # Alfuzosin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Alfuzosina: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita tipo Ambras
+## Alfuzosin: Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperplasia prostática benigna (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 14 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 14) |
+| Número de Autorizaciones | 14 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, alfuzosina es un antagonista selectivo de los receptores adrenérgicos alfa-1 (se une a ADRA1A, ADRA1B y ADRA1D), y su eficacia en la HPB está establecida, al relajar el músculo liso del tracto urinario inferior y facilitar la micción.
 
-**Honestamente, no se identifica un vínculo mecanístico plausible.** El síndrome de Ambras es un trastorno genético raro, asociado a reordenamientos del cromosoma 8q que afectan la regulación de TRPS1, sin relación conocida con la señalización adrenérgica alfa-1. El puntaje TxGNN muy alto (0.99999) es una predicción basada en el grafo de conocimiento y probablemente refleja la cercanía en la red con otras enfermedades de fenotipo piloso, no una justificación farmacológica.
+**Honestamente, no se identifica un vínculo mecanístico plausible.** El síndrome de Ambras es un trastorno genético raro, asociado a reordenamientos del cromosoma 8q que afectan la regulación de TRPS1, sin relación conocida con la señalización adrenérgica alfa-1. El puntaje TxGNN muy alto (0.99999) es una predicción del modelo TxGNN (aprendizaje profundo) y probablemente refleja la cercanía en la red con otras enfermedades de fenotipo piloso, no una justificación farmacológica.
 
 Cabe señalar que las demás predicciones del modelo (hipertricosis, trastornos del tallo piloso, hipotricosis, síndromes malformativos, urticaria alérgica, circulación fetal persistente) tampoco cuentan con ensayos ni literatura, y todas tienen nivel L5. En el caso de la hipertricosis, la señal podría reflejar un posible efecto adverso más que uno terapéutico.
 

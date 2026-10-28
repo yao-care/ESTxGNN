@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Frovatriptan
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 364
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Frovatriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (según la base de conocimiento"
 monitor_inn: "FROVATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Frovatriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Frovatriptan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Frovatriptán: De Migraña a Migraña con Aura del Tronco Encefálico
+## Frovatriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Frovatriptán es un agonista de los receptores de serotonina 5-HT1B/1D (triptán), utilizado originalmente para el tratamiento agudo de la migraña.
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**,
 pero actualmente no hay **ensayos clínicos** registrados y las **18 publicaciones** identificadas abordan la migraña en general, no este subtipo específico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Migraña (según la base de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99,98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Atrophoderma vermiculata |
+| Puntaje de Predicción TxGNN | 0.9973 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

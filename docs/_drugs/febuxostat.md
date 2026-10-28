@@ -6,9 +6,9 @@ nav_order: 326
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L4). Indicación original: Hiperuricemia (según el grafo de conocimiento"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
+description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (hypouricemia, renal) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Febuxostat
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Febuxostat: De Hiperuricemia a Hipouricemia Renal
+## Febuxostat: Hipouricemia renal (hypouricemia, renal)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **1 ensayo clínico** (de relevancia baja) y **2 publicaciones** que actualm
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperuricemia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipouricemia renal |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipouricemia renal (hypouricemia, renal) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

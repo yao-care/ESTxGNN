@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Síndrome de Tourette |
-| Puntaje de Predicción TxGNN | 99,86 % |
+| Puntaje de Predicción TxGNN | 0,9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, disopiramida es un antiarrítmico de clase Ia: bloquea los canales de sodio y posee actividad anticolinérgica.
 
-El síndrome de Tourette implica una disfunción de la dopamina y de los circuitos córtico-estriado-tálamo-corticales. No se ha identificado un vínculo mecanístico establecido entre ambos. El puntaje elevado procede de una predicción basada en grafos de conocimiento, sin respaldo clínico ni bibliográfico, por lo que debe interpretarse con mucha cautela.
+El síndrome de Tourette implica una disfunción de la dopamina y de los circuitos córtico-estriado-tálamo-corticales. No se ha identificado un vínculo mecanístico establecido entre ambos. El puntaje elevado procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; carece de respaldo clínico o bibliográfico, por lo que debe interpretarse con mucha cautela.
 
 Otras predicciones del modelo siguen el mismo patrón. Trastorno por déficit de atención e hiperactividad (TDAH, 99,82 %), tricotilomanía (99,81 %) y otros trastornos del neurodesarrollo carecen de mecanismo plausible. Las únicas con cierta plausibilidad farmacológica indirecta, por el efecto de clase antiarrítmica, son el flutter auricular neonatal idiopático y la taquicardia auricular multifocal (nivel L4). Ninguna cuenta con evidencia directa con disopiramida.
 

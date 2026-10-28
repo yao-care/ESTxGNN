@@ -4,17 +4,17 @@ title: Loxapine
 parent: Solo predicción del modelo (L5)
 nav_order: 489
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Loxapine: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L5). Indicación original: Esquizofrenia, trastorno bipolar…"
 monitor_inn: "Loxapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
+description: "Loxapine: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Loxapina: De Esquizofrenia y Trastorno Bipolar a Trastorno Afectivo Bipolar Maníaco
+## Loxapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Loxapina es un antipsicótico de primera generación (dibenzoxazepina), originalmente utilizado en el tratamiento de la esquizofrenia, el trastorno bipolar y el trastorno afectivo mayor.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno afectivo bipolar maníaco**, con **0 ensayos clínicos** registrados y **20 publicaciones** en los datos compilados.
+El modelo TxGNN predice que podría ser efectivo para la **distrofia retiniana con o sin anomalías extraoculares**, con **0 ensayos clínicos** registrados y **20 publicaciones** en los datos compilados.
 Cabe señalar que el trastorno bipolar ya es una indicación original, por lo que esta predicción no constituye un reposicionamiento en sentido estricto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia, trastorno bipolar, trastorno afectivo mayor (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L1 (asignado por conocimiento externo; ver nota abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Retinal dystrophy with or without extraocular anomalies |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 (asignado por conocimiento externo; ver nota abajo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > **Nota sobre el nivel de evidencia:** los datos compilados no incluyen ensayos clínicos verificados. El nivel L1 se basa en los dos ensayos de Fase 3 con loxapina inhalada para la agitación en trastorno bipolar, conocidos externamente y citados solo de forma indirecta por las revisiones incluidas. Con los datos verificables, el nivel sería más prudente (L3, estudios de revisión).
@@ -120,7 +120,7 @@ Loxapina ya tiene como indicación original el trastorno bipolar, y la formulaci
 
 ### Nota sobre otras predicciones
 
-Las otras nueve predicciones (rangos 2 a 10, p. ej., distrofia retiniana, hidranencefalia, miopía ligada al X, enfermedad de Charcot-Marie-Tooth tipo 1G) tienen puntajes TxGNN altos (≈99.9%), pero carecen de ensayos clínicos y de literatura, y no presentan un vínculo mecanístico plausible. Todas se clasifican como L5 con decisión **Hold**.
+Las otras nueve predicciones (rangos 2 a 10, p. ej., distrofia retiniana, hidranencefalia, miopía ligada al X, enfermedad de Charcot-Marie-Tooth tipo 1G) tienen puntajes TxGNN altos (≈0.9990), pero carecen de ensayos clínicos y de literatura, y no presentan un vínculo mecanístico plausible. Todas se clasifican como L5 con decisión **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

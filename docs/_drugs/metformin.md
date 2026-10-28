@@ -6,9 +6,9 @@ nav_order: 510
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Metformin: nueva indicación predicha, Síndrome de la persona rígida clásico (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según el grafo de conocimiento"
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Metformin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Metformina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásico
+## Metformin: Classic stiff person syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Síndrome de la persona rígida clásico |
-| Puntaje de Predicción TxGNN | 99.45% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Classic stiff person syndrome |
+| Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El síndrome de la persona rígida es un trastorno neurológico autoinmune, típicamente asociado a anticuerpos anti-GAD65, que afecta a la neurotransmisión GABAérgica. La activación de AMPK y los posibles efectos inmunomoduladores de metformina solo constituyen una conexión especulativa.
 
-El puntaje elevado (0.994) es únicamente una predicción del modelo. Cabe señalar que el síndrome de la extremidad rígida focal obtiene exactamente el mismo puntaje, lo que sugiere que la predicción se debe a la proximidad de ambas enfermedades en el grafo de conocimiento y no a evidencia independiente.
+El puntaje elevado (0.994) es únicamente una predicción del modelo.
 
 ## Otras Indicaciones Predichas
 
@@ -68,10 +68,9 @@ Todas con nivel de evidencia L5 y recomendación Hold, sin ensayos clínicos ni 
 
 | Enfermedad | Puntaje TxGNN | Comentario |
 |---|---|---|
-| Síndrome de la extremidad rígida focal | 99.45% | Variante del espectro de la persona rígida; puntaje idéntico, probablemente por vecindad en el grafo |
-| Opsismodisplasia | 99.40% | Displasia esquelética por mutaciones de INPPL1; posible conexión a nivel de vía PI3K/AKT, puramente hipotética |
-| Síndrome de disfunción sensible a tiamina | 99.40% | Posible vínculo especulativo con transportadores de tiamina; se trata con suplementos de tiamina |
-| Lipodistrofia localizada inducida por fármacos | 99.06% | Racional metabólico plausible pero indirecto; el mecanismo local difiere de la resistencia sistémica a la insulina |
+| Opsismodisplasia | 0.9940 | Displasia esquelética por mutaciones de INPPL1; posible conexión a nivel de vía PI3K/AKT, puramente hipotética |
+| Síndrome de disfunción sensible a tiamina | 0.9940 | Posible vínculo especulativo con transportadores de tiamina; se trata con suplementos de tiamina |
+| Lipodistrofia localizada inducida por fármacos | 0.9906 | Racional metabólico plausible pero indirecto; el mecanismo local difiere de la resistencia sistémica a la insulina |
 
 ## Evidencia de Ensayos Clínicos
 

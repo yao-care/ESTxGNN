@@ -4,17 +4,17 @@ title: Ciclesonide
 parent: Solo predicción del modelo (L5)
 nav_order: 178
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ciclesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Asma (según el grafo de conocimiento"
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
+description: "Ciclesonide: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ciclesonide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Ciclesonida: De Asma a Eccema Atópico
+## Ciclesonide: Eccema atópico (atopic eczema)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99,96% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Eccema atópico (atopic eczema) |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Los datos compilados para este informe no incluyen una descripción detallada de
 
 El asma alérgica y la rinitis alérgica comparten con el eccema atópico un trasfondo inflamatorio de tipo Th2. Como la acción antiinflamatoria mediada por el receptor de glucocorticoides es relevante en la inflamación cutánea atópica, existe una justificación mecanística plausible.
 
-Sin embargo, esta justificación es de clase (los corticosteroides tópicos están establecidos en dermatitis atópica) y no constituye evidencia específica de ciclesonida. La vía de administración (tópica o sistémica) y la seguridad de la exposición cutánea no están caracterizadas para este fármaco. Otras entradas predichas con puntajes altos incluyen la dermatitis atópica (entrada sinónima, 99,73%), la sensibilización al metacrilato de 2-hidroxietilo (99,76%), la bronquitis (99,70%) y la dermatitis de contacto (99,25%); todas ellas también carecen de ensayos clínicos.
+Sin embargo, esta justificación es de clase (los corticosteroides tópicos están establecidos en dermatitis atópica) y no constituye evidencia específica de ciclesonida. La vía de administración (tópica o sistémica) y la seguridad de la exposición cutánea no están caracterizadas para este fármaco. Otras entradas predichas con puntajes altos incluyen la dermatitis atópica (entrada sinónima, 0,9973), la sensibilización al metacrilato de 2-hidroxietilo (0,9976), la bronquitis (0,9970) y la dermatitis de contacto (0,9925); todas ellas también carecen de ensayos clínicos.
 
 ## Evidencia de Ensayos Clínicos
 

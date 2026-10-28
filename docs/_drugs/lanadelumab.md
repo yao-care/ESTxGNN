@@ -6,9 +6,9 @@ nav_order: 448
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lanadelumab: nueva indicación predicha, Deficiencia de C1 inhibidor (nivel de evidencia L1). Indicación original: Angioedema hereditario (incluido el asociado a deficiencia de C1-INH)"
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: nueva indicación predicha, C1 inhibitor deficiency (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Lanadelumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Lanadelumab: De Angioedema Hereditario a Deficiencia de C1 Inhibidor
+## Lanadelumab: C1 inhibitor deficiency
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **Deficiencia de C1 inhibi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Angioedema hereditario (incluido el asociado a deficiencia de C1-INH) |
-| Nueva Indicación Predicha | Deficiencia de C1 inhibidor |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | C1 inhibitor deficiency |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

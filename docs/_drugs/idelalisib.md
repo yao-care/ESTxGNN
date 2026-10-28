@@ -4,17 +4,17 @@ title: Idelalisib
 parent: Evidencia alta (L1-L2)
 nav_order: 403
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Idelalisib: nueva indicación predicha, Linfoma de células del manto (nivel de evidencia L2). Indicación original: No disponible en el texto de autorización de la AEMPS"
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
+description: "Idelalisib: nueva indicación predicha, Linfoma de células del manto (mantle cell lymphoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Idelalisib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Idelalisib: De Neoplasias de Células B (LLC/Linfoma Folicular) a Linfoma de Células del Manto
+## Idelalisib: Linfoma de células del manto (mantle cell lymphoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **5 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el texto de autorización de la AEMPS; según el grafo de conocimiento: linfoma folicular, leucemia linfocítica crónica/linfoma linfocítico de células pequeñas, neoplasia de células B maduras, leucemia linfoblástica aguda y síndrome de Richter |
-| Nueva Indicación Predicha | Linfoma de células del manto |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Linfoma de células del manto (mantle cell lymphoma) |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

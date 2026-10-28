@@ -6,9 +6,9 @@ nav_order: 245
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diazepam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Epilepsia (según el grafo de conocimiento"
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
+description: "Diazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Diazepam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Diazepam: De Epilepsia a Insomnio
+## Diazepam: Insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero no hay 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

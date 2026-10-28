@@ -6,9 +6,9 @@ nav_order: 709
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: Enfermedad de Alzheimer (según el grafo de conocimiento"
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
+description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Rivastigmine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Rivastigmina: De Enfermedad de Alzheimer a Glaucoma
+## Rivastigmine: Glaucoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **glaucoma**, aunque por a
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Alzheimer (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Glaucoma |
-| Puntaje de Predicción TxGNN | 99,27 % |
-| Nivel de Evidencia | L4 (solo estudios preclínicos y de mecanismo) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Puntaje de Predicción TxGNN | 0.9927 |
+| Nivel de Evidencia | L5 (solo estudios preclínicos y de mecanismo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

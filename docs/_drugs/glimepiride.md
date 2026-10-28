@@ -6,9 +6,9 @@ nav_order: 379
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Glimepiride: nueva indicación predicha, Síndrome de la extremidad rígida focal (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según el grafo de conocimiento"
 monitor_inn: "Glimepiride"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Glimepiride: nueva indicación predicha, Síndrome de la extremidad rígida focal (focal stiff limb syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Glimepiride
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Glimepirida: De Diabetes Mellitus Tipo 2 a Síndrome de la Extremidad Rígida Focal
+## Glimepiride: Síndrome de la extremidad rígida focal (focal stiff limb syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de la extremidad rígida focal |
-| Puntaje de Predicción TxGNN | 99,75% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de la extremidad rígida focal (focal stiff limb syndrome) |
+| Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,11 +58,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, glimepirida es una sulfonilurea que estimula la secreción de insulina al actuar sobre los canales de potasio dependientes de ATP (K-ATP) de las células beta pancreáticas. Su eficacia en la diabetes tipo 2 está comprobada.
 
-La posible conexión con el síndrome de la extremidad rígida focal es indirecta: este trastorno, del espectro del síndrome de la persona rígida, se asocia con autoinmunidad frente a GAD65 y con frecuencia coexiste con diabetes. Es probable que el modelo refleje esta co-ocurrencia de enfermedades en el grafo de conocimiento y no un efecto terapéutico real.
+La posible conexión con el síndrome de la extremidad rígida focal es indirecta: este trastorno, del espectro del síndrome de la persona rígida, se asocia con autoinmunidad frente a GAD65 y con frecuencia coexiste con diabetes.
 
 Glimepirida no tiene un mecanismo establecido sobre la rigidez muscular ni sobre la disfunción GABAérgica. Por ello, el vínculo mecanístico es especulativo y no está verificado.
 
-Otras predicciones con puntajes similares (síndrome de la persona rígida clásico, opsismodisplasia, síndrome de disfunción sensible a tiamina, varias lipodistrofias localizadas y agenesia pancreática) tampoco cuentan con evidencia clínica. Todas se clasifican como L5 y "Hold". Cabe destacar que el síndrome de la persona rígida clásico obtuvo exactamente el mismo puntaje que la variante focal, lo que sugiere una asociación compartida del grafo y no evidencia independiente.
+Otras predicciones con puntajes similares (síndrome de la persona rígida clásico, opsismodisplasia, síndrome de disfunción sensible a tiamina, varias lipodistrofias localizadas y agenesia pancreática) tampoco cuentan con evidencia clínica. Todas se clasifican como L5 y "Hold".
 
 ## Evidencia de Ensayos Clínicos
 

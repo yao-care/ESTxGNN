@@ -6,9 +6,9 @@ nav_order: 728
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Selegiline: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (según el grafo de c…"
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (polymicrogyria, perisylvian… (nivel de evidencia L5). Indicación original: No consta en l…"
 ---
 
 # Selegiline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Selegilina: De Enfermedad de Parkinson a Polimicrogiria Perisilviana con Hipoplasia Cerebelosa y Artrogriposis
+## Selegiline: Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis |
-| Puntaje de Predicción TxGNN | 99.15% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) |
+| Puntaje de Predicción TxGNN | 0.9915 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Con los datos disponibles **no se identifica una relación mecanística plausible** entre la inhibición de MAO-B y este síndrome de malformación del neurodesarrollo. La polimicrogiria con hipoplasia cerebelosa y artrogriposis es un trastorno estructural del desarrollo cerebral, muy distinto de la enfermedad de Parkinson, que es degenerativa y dopaminérgica.
 
-El puntaje de 99.15% es una predicción computacional del modelo, sin respaldo clínico ni bibliográfico. No debe interpretarse como evidencia de eficacia.
+El puntaje de 0.9915 es una predicción computacional del modelo, sin respaldo clínico ni bibliográfico. No debe interpretarse como evidencia de eficacia.
 
 ## Información de Mercado en España
 
@@ -89,7 +89,7 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Las advertencias y contraindicaciones oficiales del prospecto de la AEMPS
 - Evaluación de la compatibilidad de la vía de administración y del similitud con la indicación original
 
-**Nota complementaria:** entre las otras indicaciones predichas, la **esquizofrenia** (puntaje 99.14%) tiene mucho más respaldo: un ensayo clínico completado (NCT00456976, fase temprana 1, n=70) y literatura sobre selegilina como terapia adyuvante para síntomas negativos, incluidos ensayos aleatorizados y una revisión sistemática. Su nivel de evidencia es L3 y podría ser una candidata más prometedora para una evaluación independiente.
+**Nota complementaria:** entre las otras indicaciones predichas, la **esquizofrenia** (puntaje 0.9914) tiene mucho más respaldo: un ensayo clínico completado (NCT00456976, fase temprana 1, n=70) y literatura sobre selegilina como terapia adyuvante para síntomas negativos, incluidos ensayos aleatorizados y una revisión sistemática. Su nivel de evidencia es L3 y podría ser una candidata más prometedora para una evaluación independiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

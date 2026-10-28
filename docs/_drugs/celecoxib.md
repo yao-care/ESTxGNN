@@ -4,17 +4,17 @@ title: Celecoxib
 parent: Solo predicción del modelo (L5)
 nav_order: 161
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide"
 monitor_inn: "CELECOXIB"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "inflammatory spondylopathy", "WHIM syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
+description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dato…"
 ---
 
 # Celecoxib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Celecoxib: De Artritis Reumatoide a Displasia Acromesomélica Tipo Hunter-Thompson
+## Celecoxib: Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (según las indicaciones del grafo de conocimiento TxGNN; los registros de la AEMPS no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético hereditario causado por variantes en el gen *CDMP1/GDF5*. Afecta al desarrollo del cartílago y del hueso, y no es una enfermedad inflamatoria. No se conoce un mecanismo por el cual inhibir la COX-2 pueda corregir o modificar su curso.
 
-**Conclusión sobre la razonabilidad:** el puntaje alto del modelo (99.88%) probablemente refleja asociaciones compartidas entre enfermedades óseas y articulares en el grafo de conocimiento, no una base mecanística plausible. En el mejor de los casos, celecoxib podría ofrecer alivio sintomático del dolor musculoesquelético, pero eso es especulativo y no está respaldado por datos específicos.
+**Conclusión sobre la razonabilidad:** el puntaje alto del modelo TxGNN (aprendizaje profundo) (0.9988) probablemente refleja similitudes que el modelo aprendió entre enfermedades óseas y articulares relacionadas, no evidencia biológica ni una base mecanística plausible. En el mejor de los casos, celecoxib podría ofrecer alivio sintomático del dolor musculoesquelético, pero eso es especulativo y no está respaldado por datos específicos.
 
 ---
 

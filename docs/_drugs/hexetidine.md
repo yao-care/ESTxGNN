@@ -48,10 +48,10 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 |------|------|
 | Indicación Original | No disponible en la autorización de la AEMPS (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Aneurisma del tabique interventricular |
-| Puntaje de Predicción TxGNN | 99,16% |
+| Puntaje de Predicción TxGNN | 0,9916 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La relación entre su uso original y la nueva indicación es muy débil. Un aneurisma del tabique interventricular es una alteración estructural cardíaca, y la hexetidina no tiene ninguna acción conocida sobre las vías del desarrollo o la estructura cardíaca. Además, un antiséptico tópico tiene una exposición sistémica mínima.
 
-Por ello, la puntuación alta del modelo parece un artefacto basado en la estructura del grafo de conocimiento, sin respaldo clínico, mecanístico ni bibliográfico. No se identifica un vínculo mecanístico plausible.
+Por ello, la puntuación alta proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, sin respaldo clínico, mecanístico ni bibliográfico. No se identifica un vínculo mecanístico plausible.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -86,15 +86,15 @@ Las siguientes predicciones de mayor rango tampoco cuentan con ensayos clínicos
 
 | Rango | Enfermedad Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Enfermedad de la válvula pulmonar | 99,09% | Sin mecanismo plausible; exposición sistémica insignificante |
-| 3 | Síndrome de fisura orofacial | 99,08% | Malformación del desarrollo; el antiséptico no puede corregirla |
-| 4 | Síndrome de Laubry-Pezzi | 99,06% | Cardiopatía estructural; sin mecanismo conocido |
-| 5 | Síndrome de Pierre Robin sindrómico genético | 99,05% | Origen del desarrollo; sin acción modificadora de la enfermedad |
-| 6 | Trastorno de la síntesis de fucoglicanos | 99,04% | Una revisión (PMID 12974527) sobre agentes antiplaca; relación indirecta, no es evidencia clínica |
-| 7 | Deleción parcial del brazo largo del cromosoma 22 | 99,03% | Causa genética; sin mecanismo |
-| 8 | Síndrome de Pierre Robin asociado a anomalía cromosómica | 99,03% | Causa genética; sin mecanismo |
-| 9 | Deleción parcial del brazo largo del cromosoma 7 | 99,03% | Causa genética; sin mecanismo |
-| 10 | Síndrome de Jeune con situs inversus | 99,02% | Ciliopatía; sin acción conocida |
+| 2 | Enfermedad de la válvula pulmonar | 0,9909 | Sin mecanismo plausible; exposición sistémica insignificante |
+| 3 | Síndrome de fisura orofacial | 0,9908 | Malformación del desarrollo; el antiséptico no puede corregirla |
+| 4 | Síndrome de Laubry-Pezzi | 0,9906 | Cardiopatía estructural; sin mecanismo conocido |
+| 5 | Síndrome de Pierre Robin sindrómico genético | 0,9905 | Origen del desarrollo; sin acción modificadora de la enfermedad |
+| 6 | Trastorno de la síntesis de fucoglicanos | 0,9904 | Una revisión (PMID 12974527) sobre agentes antiplaca; relación indirecta, no es evidencia clínica |
+| 7 | Deleción parcial del brazo largo del cromosoma 22 | 0,9903 | Causa genética; sin mecanismo |
+| 8 | Síndrome de Pierre Robin asociado a anomalía cromosómica | 0,9903 | Causa genética; sin mecanismo |
+| 9 | Deleción parcial del brazo largo del cromosoma 7 | 0,9903 | Causa genética; sin mecanismo |
+| 10 | Síndrome de Jeune con situs inversus | 0,9902 | Ciliopatía; sin acción conocida |
 
 ## Conclusión y Próximos Pasos
 

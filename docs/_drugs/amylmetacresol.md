@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cauda
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Síndrome de la cauda equina |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 En este caso, **la predicción no resulta razonable desde el punto de vista farmacológico**. El síndrome de la cauda equina es una urgencia neurológica compresiva que se trata mediante cirugía, y no existe una justificación plausible para un antiséptico bucofaríngeo. No se ha establecido ningún vínculo mecanístico.
 
-El puntaje elevado del modelo (0,9999) es únicamente una predicción computacional y probablemente refleja artefactos del grafo de conocimiento. Otras predicciones del mismo modelo (síndrome del intestino irritable, uveítis, enfermedades del cuerpo ciliar, entre otras) presentan puntajes similares y tampoco cuentan con ningún respaldo clínico o bibliográfico.
+El puntaje elevado del modelo (0,9999) es únicamente una predicción computacional y probablemente refleja artefactos del modelo TxGNN (aprendizaje profundo). Otras predicciones del mismo modelo (síndrome del intestino irritable, uveítis, enfermedades del cuerpo ciliar, entre otras) presentan puntajes similares y tampoco cuentan con ningún respaldo clínico o bibliográfico.
 
 ---
 

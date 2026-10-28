@@ -6,9 +6,9 @@ nav_order: 466
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson y síndromes parkinsonianos relacionados (segú…"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
+description: "Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Levodopa
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Levodopa: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+## Levodopa: Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson y síndromes parkinsonianos relacionados (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99,06% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La encefalitis de Rasmussen es una enfermedad inflamatoria cerebral rara, crónica y unilateral, mediada por linfocitos T, con atrofia hemisférica progresiva y epilepsia focal refractaria. No se ha establecido un vínculo mecanístico directo con levodopa. Una conexión meramente especulativa podría estar en rasgos compartidos de los ganglios basales o de los trastornos del movimiento, ya que algunos pacientes desarrollan hemiparesia o distonía.
 
-Sin embargo, la reposición de dopamina no actúa sobre la patología inmunomediada ni sobre las crisis epilépticas. Es probable que el puntaje elevado se deba a la cercanía en el grafo de conocimiento con el síndrome de hemiparkinsonismo-hemiatrofia y otros trastornos parkinsonianos, y no a evidencia biológica.
+Sin embargo, la reposición de dopamina no actúa sobre la patología inmunomediada ni sobre las crisis epilépticas. Es probable que el puntaje elevado provenga del modelo TxGNN (aprendizaje profundo) y refleje similitudes que el modelo aprendió entre enfermedades relacionadas, como el síndrome de hemiparkinsonismo-hemiatrofia y otros trastornos parkinsonianos, y no evidencia biológica.
 
 ## Información de Mercado en España
 
@@ -82,7 +82,7 @@ Sin embargo, la reposición de dopamina no actúa sobre la patología inmunomedi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, sin vínculo mecanístico plausible y con la epilepsia señalada como contraindicación en el grafo de conocimiento.
+La predicción se apoya solo en el puntaje del modelo TxGNN (aprendizaje profundo, nivel L5), que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos clínicos ni literatura, ni un vínculo mecanístico plausible, y la epilepsia figura como contraindicación.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), pues su ausencia impide el cribado de seguridad.

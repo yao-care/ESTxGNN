@@ -6,9 +6,9 @@ nav_order: 694
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Resorcinol: nueva indicación predicha, Acné queloideo (nivel de evidencia L5). Indicación original: Acné…"
 monitor_inn: "resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
+description: "Resorcinol: nueva indicación predicha, Acné queloideo (acne keloid) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Resorcinol
@@ -33,12 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Resorcinol: De Acné y Dermatitis a Acné Queloideo
+## Resorcinol: Acné queloideo (acne keloid)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Resorcinol es un queratolítico y antiséptico leve de uso tópico, comercializado en España como solución bucal (RESORBORINA SOLUCION) y asociado en el grafo de conocimiento a acné y dermatitis.
+Resorcinol es un queratolítico y antiséptico leve de uso tópico, comercializado en España como solución bucal (RESORBORINA SOLUCION); el modelo TxGNN (deep learning) lo señala para acné queloideo, un resultado que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 El modelo TxGNN predice que podría ser efectivo para **acné queloideo** (foliculitis queloidea de la nuca),
 pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acné, dermatitis y dermatitis acneiforme (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
-| Nueva Indicación Predicha | Acné queloideo |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acné queloideo (acne keloid) |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -62,7 +62,7 @@ El acné queloideo es una afección inflamatoria folicular crónica que se solap
 
 Aun así, existen limitaciones importantes: la predicción se apoya solo en el modelo, no hay ensayos ni literatura, y el queloide es un proceso fibrótico dérmico sobre el que es poco probable que influya una queratólisis superficial a las bajas concentraciones de uso tópico.
 
-Otras predicciones del modelo (dermatomiositis amiopática, dermatomiositis neonatal, enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo, acrodermatitis crónica atrófica e hidroa vacciniforme familiar) carecen de vínculo mecanístico creíble y probablemente reflejan artefactos del grafo.
+Otras predicciones del modelo (dermatomiositis amiopática, dermatomiositis neonatal, enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo, acrodermatitis crónica atrófica e hidroa vacciniforme familiar) carecen de vínculo mecanístico creíble y probablemente reflejan similitudes que el modelo TxGNN (deep learning) aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 

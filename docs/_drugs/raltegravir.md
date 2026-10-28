@@ -6,9 +6,9 @@ nav_order: 678
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Raltegravir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (nivel de evidencia L4). Indicación original: Infección por VIH / SIDA"
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Raltegravir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Raltegravir: De Infección por VIH/SIDA a Infección por el Virus de la Inmunodeficiencia de los Simios
+## Raltegravir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero no hay **ensayos clínicos** registrados y solo se dispone de **15 publicac
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios |
-| Puntaje de Predicción TxGNN | 99,78% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Simian immunodeficiency virus infection |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -107,7 +107,7 @@ Consultar el prospecto para el resto de la información de seguridad (advertenci
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente plausible, pero la evidencia es exclusivamente preclínica (L4), sin ensayos clínicos, y la SIV es una infección animal sin relevancia terapéutica humana; además, no constituye un mecanismo nuevo respecto a la indicación ya aprobada. Las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo raro) carecen de respaldo (L5), y la segunda parece un artefacto del grafo de conocimiento.
+La predicción es mecanísticamente plausible, pero la evidencia es exclusivamente preclínica (L4), sin ensayos clínicos, y la SIV es una infección animal sin relevancia terapéutica humana; además, no constituye un mecanismo nuevo respecto a la indicación ya aprobada. Las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo raro) carecen de respaldo (L5), y la segunda parece un artefacto del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Definir si existe un objetivo de investigación relevante (p. ej., uso como modelo preclínico) o una indicación humana distinta del VIH.

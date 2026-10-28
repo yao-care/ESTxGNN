@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Glucagon
-parent: Solo predicción del modelo (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 380
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Glucagon: nueva indicación predicha, Síndrome del intestino irritable (nivel de evidencia L5). Indicación original: No disponible en los datos de las licencias de la AEMPS"
@@ -14,7 +14,7 @@ predicted_indications: ["irritable bowel syndrome"]
 # Glucagon
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome del intesti
 |------|------|
 | Indicación Original | No disponible en los datos de las licencias de la AEMPS |
 | Nueva Indicación Predicha | Síndrome del intestino irritable |
-| Puntaje de Predicción TxGNN | 99,24 % |
+| Puntaje de Predicción TxGNN | 0,9924 |
 | Nivel de Evidencia | L3 (estudios observacionales y revisiones sistemáticas, todos indirectos) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El GLP-1 y el glucagón derivan del mismo precursor (proglucagón) y ambos pueden reducir la motilidad gastrointestinal. Los estudios recuperados sobre el síndrome del intestino irritable se refieren a GLP-1 y a sus agonistas (por ejemplo, ROSE-010), que actúan sobre un receptor distinto (GLP-1R frente a GCGR). Por ello, esa evidencia no puede atribuirse directamente al glucagón.
 
-El puntaje elevado de TxGNN (99,24 %) es una predicción computacional y probablemente refleja la relación de la familia de péptidos y de las vías compartidas, no una eficacia demostrada.
+El puntaje elevado de TxGNN (0,9924) es una predicción computacional y probablemente refleja la relación de la familia de péptidos y de las vías compartidas, no una eficacia demostrada.
 
 ---
 

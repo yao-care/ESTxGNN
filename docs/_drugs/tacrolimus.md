@@ -4,7 +4,7 @@ title: Tacrolimus
 parent: Evidencia alta (L1-L2)
 nav_order: 758
 evidence_level: L1
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: Dermatitis atópica (eccema atópico)"
 monitor_inn: "TACROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 # Tacrolimus
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **dermatitis seborreica**,
 |------|------|
 | Indicación Original | Dermatitis atópica (eccema atópico); los textos de indicación de las autorizaciones españolas no están disponibles en los datos compilados |
 | Nueva Indicación Predicha | Dermatitis seborreica |
-| Puntaje de Predicción TxGNN | 99,26% |
+| Puntaje de Predicción TxGNN | 0,9926 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

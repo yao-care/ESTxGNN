@@ -6,9 +6,9 @@ nav_order: 255
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Diphenhydramine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Insomnio, rinitis vasomotora…"
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Diphenhydramine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Diphenhydramine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Difenhidramina: De Insomnio y Rinitis Alérgica a Conjuntivitis Rosácea
+## Diphenhydramine: Conjuntivitis rosácea (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosáce
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Insomnio, rinitis vasomotora, rinitis alérgica y conjuntivitis atópica, papilar y vernal (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Conjuntivitis rosácea |
-| Puntaje de Predicción TxGNN | 99.20% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis rosácea (rosacea conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosáce
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la difenhidramina es un antagonista del receptor H1 de primera generación con efectos anticolinérgicos y sedantes, y su utilidad en conjuntivitis de origen alérgico está establecida. Por ello, un componente de inflamación ocular mediado por histamina podría, en teoría, ser aplicable a la conjuntivitis rosácea.
 
-El puntaje elevado de TxGNN (99.20%) probablemente refleja la cercanía en la red de conocimiento con las indicaciones conjuntivales ya aprobadas, más que una base mecanística sólida. La rosácea ocular se asocia principalmente con disfunción de las glándulas de Meibomio, inestabilidad de la película lagrimal, colonización por Demodex y desregulación inmunitaria innata y neurovascular, con poca evidencia de un papel dominante de la histamina.
+El puntaje elevado de TxGNN (0.9920) probablemente refleja la cercanía en la red de conocimiento con las indicaciones conjuntivales ya aprobadas, más que una base mecanística sólida. La rosácea ocular se asocia principalmente con disfunción de las glándulas de Meibomio, inestabilidad de la película lagrimal, colonización por Demodex y desregulación inmunitaria innata y neurovascular, con poca evidencia de un papel dominante de la histamina.
 
 Además, los efectos anticolinérgicos de la difenhidramina podrían empeorar el ojo seco, que es una preocupación relevante en la enfermedad ocular asociada a la rosácea. En conjunto, la predicción no cuenta actualmente con una justificación mecanística clara. La similitud con el mecanismo original y la compatibilidad de vías de administración están pendientes de evaluación.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ranibizumab
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 682
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ranibizumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L4). Indicación original: Retinopatía diabética, edema macular diabético…"
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab: nueva indicación predicha, Diabetes mellitus type 2 associated cataract (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Ranibizumab: De Retinopatía Diabética y Degeneración Macular a Retinopatía Diabética No Proliferativa Grave
+## Ranibizumab: Diabetes mellitus type 2 associated cataract
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Ranibizumab es un fragmento de anticuerpo anti-VEGF, utilizado originalmente para el tratamiento de la retinopatía diabética, el edema macular diabético y la degeneración macular.
-El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave**,
+El modelo TxGNN predice que podría ser efectivo para la **catarata asociada a diabetes mellitus tipo 2**,
 con **19 publicaciones** identificadas en los datos compilados para esta indicación (ningún ensayo clínico registrado), entre ellas análisis de los ensayos RIDE/RISE y un ensayo aleatorizado del sistema de liberación por puerto en NPDR.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Retinopatía diabética, edema macular diabético, degeneración macular (indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99,99 % |
-| Nivel de Evidencia | L1 (con reservas, véase más abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Diabetes mellitus type 2 associated cataract |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 (con reservas, véase más abajo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

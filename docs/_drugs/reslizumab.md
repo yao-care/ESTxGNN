@@ -6,9 +6,9 @@ nav_order: 693
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Reslizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L5). Indicación original: Neumonía eosinofílica / eosinofilia pulmonar (según el grafo de conoc…"
 monitor_inn: "RESLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
+description: "Reslizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Reslizumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Reslizumab: De Neumonía Eosinofílica a Trombocitopenia por Destrucción Inmune
+## Reslizumab: Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumonía eosinofílica / eosinofilia pulmonar (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
-| Puntaje de Predicción TxGNN | 99,53 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) |
+| Puntaje de Predicción TxGNN | 0.9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 No existe un mecanismo establecido que vincule el bloqueo de IL-5 con la destrucción inmune de plaquetas. La trombocitopenia inmune (por ejemplo, la PTI) se debe principalmente a autoanticuerpos, desregulación de linfocitos T y aclaramiento mediado por macrófagos. Una posible conexión, de carácter especulativo, sería la reducción de la inflamación asociada a eosinófilos en trombocitopenias inmunes secundarias con eosinofilia.
 
-Por tanto, el elevado puntaje de TxGNN (99,53 %) es solo una predicción computacional, sin respaldo clínico ni bibliográfico en los datos compilados. La similitud con la indicación original no ha sido evaluada.
+Por tanto, el elevado puntaje de TxGNN (0,9953) es solo una predicción computacional, sin respaldo clínico ni bibliográfico en los datos compilados. La similitud con la indicación original no ha sido evaluada.
 
 ## Evidencia de Ensayos Clínicos
 

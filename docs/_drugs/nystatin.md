@@ -6,9 +6,9 @@ nav_order: 578
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Nystatin: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L4). Indicación original: Candidiasis cutánea, oral…"
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Nystatin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Nistatina: De Candidiasis Cutánea a Vulvovaginitis
+## Nystatin: Vulvovaginitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **20 publicaciones** (en su mayoría revisiones y 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Candidiasis cutánea, oral, candidiasis y candidiasis vulvovaginal (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Vulvovaginitis |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -103,7 +103,7 @@ Consultar el prospecto para información adicional de advertencias y contraindic
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (vulvovaginitis) se solapa con la indicación ya establecida de candidiasis vulvovaginal, por lo que no aporta un reposicionamiento genuino. No hay ensayos clínicos y la literatura se compone de revisiones y estudios indirectos. Las demás predicciones (región orbitaria, teratoma quístico, quiste dermoide, enfermedad del metabolismo de la biotina, entre otras) carecen de vínculo mecanístico y probablemente son artefactos del grafo de conocimiento.
+La predicción principal (vulvovaginitis) se solapa con la indicación ya establecida de candidiasis vulvovaginal, por lo que no aporta un reposicionamiento genuino. No hay ensayos clínicos y la literatura se compone de revisiones y estudios indirectos. Las demás predicciones (región orbitaria, teratoma quístico, quiste dermoide, enfermedad del metabolismo de la biotina, entre otras) carecen de vínculo mecanístico y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada), actualmente ausente.

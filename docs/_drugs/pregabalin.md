@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pregabalin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 660
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L4). Indicación original: Trastorno de ansiedad (indicaciones originales según el grafo de cono…"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Pregabalina: De Trastorno de Ansiedad a Tendinitis
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **tendinitis**, pero actua
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad (indicaciones originales según el grafo de conocimiento: trastorno de ansiedad, fibromialgia, síndrome de dolor miofascial, neuralgia posherpética) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Tendinitis |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -116,7 +116,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de TxGNN es muy alto (99.71%), no existen ensayos clínicos ni estudios que evalúen la pregabalina en tendinitis; la literatura disponible es indirecta (analgesia posquirúrgica y reportes de casos) y el vínculo mecanístico es débil. La evidencia se sitúa en L4.
+Aunque el puntaje de TxGNN es muy alto (0.9971), no existen ensayos clínicos ni estudios que evalúen la pregabalina en tendinitis; la literatura disponible es indirecta (analgesia posquirúrgica y reportes de casos) y el vínculo mecanístico es débil. La evidencia se sitúa en L4.
 
 **Para avanzar se necesita:**
 - Estudios clínicos o series de casos que evalúen directamente la pregabalina en tendinitis (dolor, función y recuperación).
@@ -130,11 +130,11 @@ Aunque el puntaje de TxGNN es muy alto (99.71%), no existen ensayos clínicos ni
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Trastorno de migraña | 99.47% | L2 | Pregunta de investigación (evidencia limitada, sobre todo pediátrica; el ensayo de fase 3 NCT00447369 fue retirado) |
-| Migraña con aura de tronco encefálico | 99.43% | L4 | Hold (evidencia preclínica) |
-| Miositis de cuerpos de inclusión | 99.52% | L5 | Hold |
-| Miositis fibrosa | 99.71% | L5 | Hold |
-| Miositis granulomatosa idiopática | 99.71% | L5 | Hold |
+| Trastorno de migraña | 0.9947 | L2 | Pregunta de investigación (evidencia limitada, sobre todo pediátrica; el ensayo de fase 3 NCT00447369 fue retirado) |
+| Migraña con aura de tronco encefálico | 0.9943 | L5 | Hold (evidencia preclínica) |
+| Miositis de cuerpos de inclusión | 0.9952 | L5 | Hold |
+| Miositis fibrosa | 0.9971 | L5 | Hold |
+| Miositis granulomatosa idiopática | 0.9971 | L5 | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

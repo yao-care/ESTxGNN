@@ -6,9 +6,9 @@ nav_order: 831
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tropicamide: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: Cicloplejia (según el grafo de conocimiento"
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Tropicamide: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tropicamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Tropicamida: De Cicloplejia a Síndrome de la Cola de Caballo
+## Tropicamide: Síndrome de la cola de caballo (cauda equina syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cicloplejia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de la cola de caballo |
-| Puntaje de Predicción TxGNN | 99,53% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de la cola de caballo (cauda equina syndrome) |
+| Puntaje de Predicción TxGNN | 0.9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,14 +60,14 @@ La tropicamida es un antagonista muscarínico. Según los datos farmacológicos 
 
 En teoría, la actividad anticolinérgica podría reducir la hiperactividad del detrusor y los síntomas de disfunción vesical asociados al síndrome de la cola de caballo. Sin embargo, esta enfermedad es una urgencia quirúrgica causada por la compresión de raíces nerviosas, y un tratamiento anticolinérgico sintomático no abordaría la causa subyacente.
 
-Además, la tropicamida se presenta como colirio con exposición sistémica mínima, por lo que no está establecida una vía de administración adecuada para este uso. La puntuación alta del modelo (0,995) es solo una predicción computacional.
+Además, la tropicamida se presenta como colirio con exposición sistémica mínima, por lo que no está establecida una vía de administración adecuada para este uso. La puntuación alta del modelo (0,9953) es solo una predicción computacional.
 
 **Otras predicciones del modelo (todas con nivel L5 y decisión Hold):**
 
 | Indicación predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Vejiga neurógena (término obsoleto) | 99,13% | El antagonismo muscarínico es un mecanismo validado para la hiperactividad neurógena del detrusor (p. ej., oxibutinina, tolterodina). El término figura como obsoleto en la ontología y debería reasignarse a un concepto vigente (p. ej., hiperactividad neurógena del detrusor) antes de evaluarlo. |
-| Síndrome del intestino irritable | 99,12% | Existe un racional por efecto de clase (antiespasmódicos antimuscarínicos como hioscina o diciclomina), pero la formulación oftálmica y la corta duración de acción dificultan la traslación directa. |
+| Vejiga neurógena (término obsoleto) | 0,9913 | El antagonismo muscarínico es un mecanismo validado para la hiperactividad neurógena del detrusor (p. ej., oxibutinina, tolterodina). El término figura como obsoleto en la ontología y debería reasignarse a un concepto vigente (p. ej., hiperactividad neurógena del detrusor) antes de evaluarlo. |
+| Síndrome del intestino irritable | 0,9912 | Existe un racional por efecto de clase (antiespasmódicos antimuscarínicos como hioscina o diciclomina), pero la formulación oftálmica y la corta duración de acción dificultan la traslación directa. |
 
 ## Evidencia de Ensayos Clínicos
 

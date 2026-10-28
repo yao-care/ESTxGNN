@@ -4,17 +4,17 @@ title: Cyclophosphamide
 parent: Evidencia alta (L1-L2)
 nav_order: 211
 evidence_level: L1
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Cyclophosphamide: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: Micosis fungoide y variantes (según el grafo de conocimiento"
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+description: "Cyclophosphamide: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **5**
 
 </div>
 
-## Ciclofosfamida: De Micosis Fungoide y Linfomas a Leucemia Mieloide
+## Cyclophosphamide: Leucemia mieloide (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **35 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Micosis fungoide y variantes (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.47% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
+| Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

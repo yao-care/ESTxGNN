@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Irinotecan
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 431
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Metástasis de tumor maligno de colon"
 monitor_inn: "irinotecan"
 predicted_indications: ["female breast carcinoma"]
+description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Irinotecán: De Metástasis de Tumor Maligno de Colon a Carcinoma de Mama Femenino
+## Irinotecan: Carcinoma de mama femenino (female breast carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Metástasis de tumor maligno de colon; adenocarcinoma de páncreas (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.08% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
+| Puntaje de Predicción TxGNN | 0.9908 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ No se dispone de datos detallados sobre el mecanismo de acción en los datos com
 
 El apoyo indirecto más relevante proviene de sacituzumab govitecán, un conjugado anticuerpo-fármaco dirigido a Trop-2 que transporta SN-38 y que ha mostrado eficacia en cáncer de mama metastásico (incluido el estudio TROPiCS-02 en enfermedad HR+/HER2-). Esto respalda la actividad de la carga SN-38 en mama, pero **no valida directamente** el uso de irinotecán sistémico. Además, la revisión de 2003 sobre irinotecán y mitomicina señala que irinotecán tiene actividad solo marginal en cáncer de mama.
 
-El puntaje de 0.99 es una predicción computacional y no sustituye a la evidencia clínica.
+El puntaje de 0.9908 es una predicción computacional y no sustituye a la evidencia clínica.
 
 ---
 

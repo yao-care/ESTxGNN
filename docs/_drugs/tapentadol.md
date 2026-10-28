@@ -4,17 +4,17 @@ title: Tapentadol
 parent: Solo predicción del modelo (L5)
 nav_order: 764
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "TAPENTADOL"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Tapentadol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.67% |
+| Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, tapentadol es un agonista del receptor mu-opioide con inhibición adicional de la recaptación de noradrenalina, lo que le permite modular las vías centrales del dolor. Teóricamente, esto podría ser aplicable a cuadros dolorosos como la migraña.
 
-Sin embargo, la predicción se basa únicamente en una puntuación alta del modelo (0.997), sin ensayos clínicos ni literatura que la respalden. Además, los opioides no se recomiendan en general para la migraña por el riesgo de cefalea por abuso de medicación, cronificación y dependencia, y su eficacia es inferior a la de triptanes o gepantes.
+Sin embargo, la predicción se basa únicamente en una puntuación alta del modelo (0.9967), sin ensayos clínicos ni literatura que la respalden. Además, los opioides no se recomiendan en general para la migraña por el riesgo de cefalea por abuso de medicación, cronificación y dependencia, y su eficacia es inferior a la de triptanes o gepantes.
 
-Los otros subtipos predichos (migraña con aura del tronco encefálico, puntuación 99.57%, y susceptibilidad a migraña con o sin aura, puntuación 99.08%) probablemente reflejan un arrastre del grafo de conocimiento desde el fenotipo general de migraña, sin una justificación mecanística específica.
+El otro subtipo predicho (migraña con aura del tronco encefálico, puntuación 0.9957) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, sin una justificación mecanística específica.
 
 ---
 

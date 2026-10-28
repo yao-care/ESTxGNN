@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Triazolam
-parent: Evidencia moderada (L3-L4)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 825
-evidence_level: L3
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Triazolam: nueva indicación predicha, Trastorno del sueño con dificultad para iniciar y mantener el sueño (nivel de evidencia L3). Indicación original: Insomnio (según la base de conocimiento del mod…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Triazolam: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Triazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,71 +32,45 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Triazolam: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+<!-- known-uses-page -->
+<!-- description: Triazolam: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata -->
+## Triazolam: Usos conocidos y estado de comercialización en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Todos los candidatos que el modelo TxGNN (puntuación ≥ 0.99) propone para Triazolam corresponden a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. El único candidato rastreable pertenece a la misma categoría de enfermedad que una indicación aprobada.
 
-Triazolam es una benzodiazepina de acción corta, utilizada originalmente para el tratamiento del insomnio.
-El modelo TxGNN predice que podría ser efectivo para **trastorno del sueño con dificultad para iniciar y mantener el sueño**, una entidad clínica prácticamente idéntica al insomnio, por lo que se trata más de una confirmación de un uso ya conocido que de un reposicionamiento real.
-Actualmente no hay ensayos clínicos registrados y se dispone de **20 publicaciones** (en su mayoría revisiones y guías) que respaldan esta dirección.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Resumen rápido
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Insomnio (según la base de conocimiento del modelo; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Trastorno del sueño con dificultad para iniciar y mantener el sueño |
-| Puntaje de Predicción TxGNN | 99.72% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplica |
+| Estado en el mercado de España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobados (respaldados por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguno | — |
 
-Triazolam es una benzodiazepina de acción corta que actúa como modulador alostérico positivo de los receptores GABA-A, potenciando la neurotransmisión inhibitoria y favoreciendo el inicio del sueño. Los datos compilados para este informe no incluyen el mecanismo de acción original, pero el mecanismo GABA-A está bien establecido en la literatura.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Trastorno del sueño: inicio y mantenimiento del sueño (sleep disorder, initiating and maintaining sleep) | insomnio (insomnia) |
 
-La nueva indicación predicha (trastorno del sueño con dificultad para iniciar y mantener el sueño) es esencialmente la misma entidad clínica que el insomnio. Por ello, el puntaje elevado del modelo (0.997) refleja un uso ya conocido y no una señal genuina de reposicionamiento.
-
-En consecuencia, la predicción es coherente, pero aporta poco valor novedoso. Cualquier interés de desarrollo adicional debería centrarse en poblaciones o contextos específicos (por ejemplo, ancianos o insomnio asociado a depresión), no en la indicación en sí.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guía clínica | J Clin Sleep Med | Guía de la AASM con recomendaciones sobre fármacos individuales para el insomnio crónico en adultos |
-| [40110890](https://pubmed.ncbi.nlm.nih.gov/40110890/) | 2025 | Revisión sistemática / Metaanálisis | Psychiatry Clin Neurosci | Eficacia y seguridad de cada clase de hipnóticos (incl. benzodiazepinas) añadidos a antidepresivos en depresión mayor con insomnio |
-| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Revisión sistemática / Metaanálisis en red | Sleep | Comparación de eficacia y seguridad de hipnóticos en adultos mayores |
-| [38401406](https://pubmed.ncbi.nlm.nih.gov/38401406/) | 2024 | Revisión sistemática / Metaanálisis en red de ECA | Eur Neuropsychopharmacol | Efectos residuales de los hipnóticos sobre el rendimiento al conducir |
-| [39932761](https://pubmed.ncbi.nlm.nih.gov/39932761/) | 2025 | Revisión | Minerva Med | Panorama del trastorno de insomnio: prevalencia, síntomas diurnos y riesgos asociados |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Revisión | Drugs Aging | Recomendaciones de manejo farmacológico del insomnio en ancianos |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Revisión | Clin Ther | Seguridad y eficacia de los medicamentos para dormir en adultos mayores |
-| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Revisión | J Clin Psychopharmacol | Insomnio de rebote tras suspender hipnóticos de vida media corta, incluido triazolam |
-| [9161660](https://pubmed.ncbi.nlm.nih.gov/9161660/) | 1997 | Revisión comparativa | Ann Pharmacother | Comparación de zolpidem con triazolam en eficacia y seguridad |
-| [8573298](https://pubmed.ncbi.nlm.nih.gov/8573298/) | 1995 | Revisión | Drug Saf | Evaluación de hipnóticos de acción corta |
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguno |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58118 | HALCION 0,125 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-
----
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 58118 | triazolam | COMPRIMIDO | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -106,19 +81,6 @@ Las advertencias y contraindicaciones del prospecto autorizado no estaban dispon
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La indicación predicha equivale a la indicación original (insomnio), por lo que no constituye un reposicionamiento genuino. La evidencia se basa en revisiones y guías (L3), sin ensayos clínicos registrados, y falta el prospecto autorizado necesario para el análisis de seguridad.
-
-**Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones oficiales)
-- Confirmar el mecanismo de acción en DrugBank
-- Definir si existe una población o indicación realmente nueva que justifique el desarrollo (por ejemplo, insomnio comórbido con depresión)
-- Evaluar el perfil de riesgo en ancianos (efectos residuales, conducción, insomnio de rebote, dependencia)
-- Revisar la relevancia de las interacciones, en especial con opioides como la morfina
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia linfoblástica 
 |------|------|
 | Indicación Original | No disponible (el texto de indicación de las autorizaciones AEMPS está vacío) |
 | Nueva Indicación Predicha | Leucemia linfoblástica aguda |
-| Puntaje de Predicción TxGNN | 99,78 % |
+| Puntaje de Predicción TxGNN | 0,9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

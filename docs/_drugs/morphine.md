@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Morphine
-parent: Solo predicción del modelo (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 543
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Morphine: nueva indicación predicha, Síndrome de piernas inquietas (puntaje más alto del modelo: síndrome… (nivel de evidencia L5). Indicación original: Enfermedad diarreica (según el grafo de conoci…"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: nueva indicación predicha, Myofascial pain syndrome (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Morphine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,31 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Morfina: De Enfermedad Diarreica a Síndrome de Piernas Inquietas
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La morfina es un analgésico opioide agonista de los receptores mu, delta y kappa. En el grafo de conocimiento utilizado por el modelo figura asociada a la enfermedad diarreica, y en España se comercializa para el dolor intenso.
+La morfina es un analgésico opioide agonista de los receptores mu, delta y kappa.
 El modelo TxGNN genera varias predicciones; la que cuenta con más respaldo es el **síndrome de piernas inquietas** (predicción n.º 4 por puntaje, con **1 ensayo clínico** de Fase 1 y **19 publicaciones**). La predicción de mayor puntaje, el **síndrome de dolor miofascial**, tiene solo evidencia indirecta y nivel L4.
 
-> **Nota metodológica:** la indicación de mayor puntaje del modelo es el síndrome de dolor miofascial (99,75 %), pero no existe ningún estudio que muestre que la morfina lo trate, y los opioides no se recomiendan a largo plazo en esa condición. Por ello, este informe se centra en el síndrome de piernas inquietas, que tiene la evidencia más sólida entre las diez candidatas, y resume las demás al final de la sección de conclusiones.
+> **Nota metodológica:** la indicación de mayor puntaje del modelo es el síndrome de dolor miofascial (0,9975), pero no existe ningún estudio que muestre que la morfina lo trate, y los opioides no se recomiendan a largo plazo en esa condición. Por ello, este informe se centra en el síndrome de piernas inquietas, que tiene la evidencia más sólida entre las diez candidatas, y resume las demás al final de la sección de conclusiones.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad diarreica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de piernas inquietas (puntaje más alto del modelo: síndrome de dolor miofascial) |
-| Puntaje de Predicción TxGNN | 99,47 % (síndrome de piernas inquietas); 99,75 % (dolor miofascial) |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Myofascial pain syndrome |
+| Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L3 (síndrome de piernas inquietas) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails (solo síndrome de piernas inquietas refractario); Hold para el resto |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la morfina es un agonista de los receptores opioides mu (OPRM1), delta (OPRD1) y kappa (OPRK1), y se utiliza en el tratamiento del dolor intenso. Su relación con la enfermedad diarreica (indicación original según el grafo) se explica por el efecto opioide sobre la motilidad intestinal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la morfina es un agonista de los receptores opioides mu (OPRM1), delta (OPRD1) y kappa (OPRK1), y se utiliza en el tratamiento del dolor intenso.
 
 En el síndrome de piernas inquietas, los opioides modulan las vías dopaminérgicas y sensitivas implicadas en la enfermedad. Se emplean clínicamente en casos refractarios, es decir, cuando los agonistas dopaminérgicos o los ligandos alfa-2-delta no funcionan, causan aumento paradójico de síntomas (aumentación) o producen efectos adversos. La literatura incluye revisiones, un registro nacional de opioides con seguimiento a 1, 2 y 5 años, y varios reportes de morfina intratecal en dosis bajas para casos graves.
 

@@ -6,9 +6,9 @@ nav_order: 839
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vancomycin: nueva indicación predicha, Esclerodermia difusa (nivel de evidencia L5). Indicación original: Colitis por Clostridium difficile (según el grafo de conocimiento"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
+description: "Vancomycin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Vancomycin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vancomicina: De Colitis por Clostridium difficile a Esclerodermia Difusa
+## Vancomycin: Esclerodermia difusa (diffuse scleroderma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ La evidencia es únicamente computacional y la predicción carece de plausibilid
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Colitis por *Clostridium difficile* (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Esclerodermia difusa |
-| Puntaje de Predicción TxGNN | 99,92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ La evidencia es únicamente computacional y la predicción carece de plausibilid
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la vancomicina es un antibiótico glucopéptido que inhibe la síntesis de la pared celular de bacterias grampositivas, y su eficacia en infecciones por grampositivos y colitis por *C. difficile* está bien establecida.
 
-Sin embargo, **la predicción no resulta razonable desde el punto de vista biológico**. La esclerodermia difusa (esclerosis sistémica) es una enfermedad autoinmune y fibrótica, sin un componente bacteriano que la vancomicina pueda tratar. El análisis de los datos indica que no existe un vínculo mecanístico plausible y que el puntaje alto de TxGNN parece ser un artefacto del grafo de conocimiento.
+Sin embargo, **la predicción no resulta razonable desde el punto de vista biológico**. La esclerodermia difusa (esclerosis sistémica) es una enfermedad autoinmune y fibrótica, sin un componente bacteriano que la vancomicina pueda tratar. El análisis de los datos indica que no existe un vínculo mecanístico plausible y que el puntaje alto de TxGNN parece ser un artefacto del modelo TxGNN (aprendizaje profundo).
 
 La única publicación recuperada describe un caso de eritrodermia con sepsis y eosinofilia, que no aborda el tratamiento de la esclerodermia.
 

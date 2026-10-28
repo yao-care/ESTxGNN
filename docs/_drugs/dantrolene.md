@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dantrolene
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 220
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dantrolene: nueva indicación predicha, Hipertermia maligna, susceptibilidad a (nivel de evidencia L3). Indicación original: Hipertermia maligna de la anestesia / hipertermia maligna inducida po…"
 monitor_inn: "Dantrolene"
-predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+description: "Dantrolene: nueva indicación predicha, Moderate multiminicore disease with hand involvement (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dantrolene
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 </div>
 
-## Dantroleno: De Hipertermia Maligna Anestésica a Susceptibilidad a la Hipertermia Maligna
+## Dantrolene: Moderate multiminicore disease with hand involvement
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Dantroleno es un relajante muscular que actúa sobre el receptor de rianodina, utilizado originalmente para tratar la hipertermia maligna asociada a la anestesia y la inducida por el ejercicio.
-El modelo TxGNN predice que podría ser efectivo para **hipertermia maligna, susceptibilidad a** (puntaje 99,93%), con **0 ensayos clínicos** y **18 publicaciones** (guías, revisiones y estudios mecanísticos) que respaldan esta dirección.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad multiminicore moderada con afectación de la mano** (puntaje 0,9990), con **0 ensayos clínicos** y **18 publicaciones** (guías, revisiones y estudios mecanísticos) que respaldan esta dirección.
 Cabe señalar que esta predicción coincide en la práctica con la indicación original, por lo que no constituye un reposicionamiento propiamente dicho.
 
 ---
@@ -48,12 +48,12 @@ Cabe señalar que esta predicción coincide en la práctica con la indicación o
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertermia maligna de la anestesia / hipertermia maligna inducida por el ejercicio (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Hipertermia maligna, susceptibilidad a |
-| Puntaje de Predicción TxGNN | 99,93% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Moderate multiminicore disease with hand involvement |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

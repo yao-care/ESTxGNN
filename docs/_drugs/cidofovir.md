@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante*
 |------|------|
 | Indicación Original | No disponible en los datos compilados para este informe (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Colangitis esclerosante |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La colangitis esclerosante es principalmente una enfermedad de origen inmunomediado. Un vínculo plausible sería solo indirecto, por ejemplo una colangiopatía de origen viral (como CMV) en pacientes inmunodeprimidos. Por ello, la justificación mecanística directa es débil.
 
-El puntaje TxGNN muy alto (0.999) proviene de una predicción basada en grafos de conocimiento y no está respaldado por evidencia clínica ni bibliográfica. Además, la nefrotoxicidad significativa de cidofovir va en contra de su uso en este contexto.
+El puntaje TxGNN muy alto (0.9994) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por evidencia clínica ni bibliográfica. Además, la nefrotoxicidad significativa de cidofovir va en contra de su uso en este contexto.
 
 ## Evidencia de Ensayos Clínicos
 

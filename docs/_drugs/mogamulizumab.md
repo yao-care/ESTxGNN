@@ -6,9 +6,9 @@ nav_order: 540
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Mogamulizumab: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (nivel de evidencia L5). Indicación original: Micosis fungoide y variantes / linfoma cutáneo primario de células …"
 monitor_inn: "MOGAMULIZUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
+description: "Mogamulizumab: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos loc…"
 ---
 
 # Mogamulizumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Mogamulizumab: De Linfoma Cutáneo de Células T a Carcinoma Urotelial de la Uretra Prostática
+## Mogamulizumab: Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Micosis fungoide y variantes / linfoma cutáneo primario de células T (según el grafo de conocimiento; el texto de indicación autorizada en España no está disponible) |
-| Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática |
-| Puntaje de Predicción TxGNN | 99,44% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) |
+| Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con el carcinoma urotelial es solo teórica: la reducción de Treg podría potenciar la inmunidad antitumoral, quizás en combinación con inhibidores de puntos de control inmunitario. Sin embargo, los datos disponibles no respaldan un mecanismo específico de CCR4 en este tipo de tumor, ni hay información sobre la expresión de CCR4 o la infiltración de Treg en él.
 
-Otras predicciones del modelo de la misma familia (carcinoma urotelial de pelvis renal, variantes sarcomatoides de vejiga y pelvis renal) comparten la misma limitación: puntajes altos (≈99,4%) sin ensayos ni publicaciones. El puntaje es una predicción del modelo y no establece por sí solo plausibilidad clínica.
+Otras predicciones del modelo de la misma familia (carcinoma urotelial de pelvis renal, variantes sarcomatoides de vejiga y pelvis renal) comparten la misma limitación: puntajes altos (≈0,9940) sin ensayos ni publicaciones. El puntaje es una predicción del modelo y no establece por sí solo plausibilidad clínica.
 
 ## Evidencia de Ensayos Clínicos
 

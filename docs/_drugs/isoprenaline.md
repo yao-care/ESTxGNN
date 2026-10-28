@@ -6,9 +6,9 @@ nav_order: 433
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Isoprenaline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Resfriado común, nasofaringitis…"
 monitor_inn: "Isoprenaline"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
+description: "Isoprenaline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Isoprenaline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Isoprenalina: De Resfriado Común a Enfermedad de la Cavidad Nasal
+## Isoprenaline: Enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos** y solo **1 publicación** (un repo
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Resfriado común, nasofaringitis, parada cardíaca y bloqueo auriculoventricular (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la isoprenalina es un agonista beta-adrenérgico no selectivo que activa los receptores β1, β2 y β3, con aumento del AMP cíclico. Sus efectos clásicos son cardioestimulación (β1) y broncodilatación/vasodilatación (β2).
 
-La relación con la nueva indicación es débil. Un efecto descongestionante o sobre la mucosa mediado por receptores beta es concebible, pero no hay datos que lo respalden. La única publicación recuperada trata de taquicardia ventricular perioperatoria y espasmo coronario, y no tiene relación con la enfermedad nasal. El puntaje alto del modelo probablemente se debe a que, en el grafo de conocimiento, el fármaco ya figura con indicaciones de resfriado común y nasofaringitis, enfermedades cercanas a la cavidad nasal.
+La relación con la nueva indicación es débil. Un efecto descongestionante o sobre la mucosa mediado por receptores beta es concebible, pero no hay datos que lo respalden. La única publicación recuperada trata de taquicardia ventricular perioperatoria y espasmo coronario, y no tiene relación con la enfermedad nasal. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por tanto, esta predicción debe considerarse una hipótesis del modelo, sin una justificación mecanística sólida.
 
@@ -99,7 +99,7 @@ La predicción para enfermedad de la cavidad nasal se basa solo en el modelo (ni
 - Evaluación de la compatibilidad de la vía de administración (formulación nasal o tópica) frente a las presentaciones actuales.
 - Extracción de las advertencias, contraindicaciones e indicaciones aprobadas de los prospectos de la AEMPS.
 
-**Nota sobre otras predicciones:** entre las demás indicaciones predichas, **enfermedad bronquial** (puntaje 99.77%, nivel L4) es la que cuenta con más respaldo, con 19 publicaciones, principalmente revisiones de la clase de agonistas β2 y estudios históricos de isoprenalina en asma. Se trata más de un uso histórico ya establecido que de un reposicionamiento novedoso, y la evidencia es indirecta. Esta alternativa merece una evaluación específica por separado.
+**Nota sobre otras predicciones:** entre las demás indicaciones predichas, **enfermedad bronquial** (puntaje 0.9977, nivel L4) es la que cuenta con más respaldo, con 19 publicaciones, principalmente revisiones de la clase de agonistas β2 y estudios históricos de isoprenalina en asma. Se trata más de un uso histórico ya establecido que de un reposicionamiento novedoso, y la evidencia es indirecta. Esta alternativa merece una evaluación específica por separado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

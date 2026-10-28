@@ -6,9 +6,9 @@ nav_order: 450
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lanreotide: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Acromegalia (según el grafo de conocimiento"
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
+description: "Lanreotide: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lanreotide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Lanreotida: De Acromegalia a Hipertricosis
+## Lanreotide: Hipertricosis (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acromegalia (según el grafo de conocimiento; el texto de indicación aprobado en las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipertricosis (hypertrichosis (disease)) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la hipertricosis es indirecta: la señalización de IGF-1 puede influir en la biología del folículo piloso, por lo que un vínculo es plausible en teoría. Sin embargo, la hipertricosis es clínicamente heterogénea (formas congénitas, inducidas por fármacos y adquiridas) y no existe evidencia que conecte la inhibición de GH/IGF-1 con su tratamiento.
 
-Por lo tanto, este vínculo debe considerarse especulativo y sin verificar. La puntuación alta del modelo refleja una predicción basada en el grafo de conocimiento, no una validación clínica.
+Por lo tanto, este vínculo debe considerarse especulativo y sin verificar. La puntuación alta del modelo refleja una predicción del modelo TxGNN (aprendizaje profundo), no una validación clínica.
 
 Otras predicciones del modelo (todas con evidencia L5 y recomendación Hold) son: síndrome de malformación con componente dental/periodontal (99.96%), síndrome con malformación de Dandy-Walker (99.96%), anomalía genética aislada del tallo piloso (99.96%) e hipertricosis universal congénita tipo Ambras (99.96%). Para ellas, el vínculo mecanístico es aún más débil o no creíble.
 

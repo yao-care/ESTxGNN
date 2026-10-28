@@ -6,9 +6,9 @@ nav_order: 356
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Fosamprenavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según las relaciones de indicación del…"
 monitor_inn: "FOSAMPRENAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
+description: "Fosamprenavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los dat…"
 ---
 
 # Fosamprenavir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Fosamprenavir: De VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+## Fosamprenavir: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunode
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según las relaciones de indicación del grafo de conocimiento; los textos de las autorizaciones españolas no incluyen indicación) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios reales; el análisis mecanístico preliminar la sitúa como pregunta de investigación) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -65,12 +65,12 @@ El puntaje elevado de TxGNN probablemente refleja la proximidad en la red de con
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Infección por virus de inmunodeficiencia simia (SIV) | 99.88% | L4 | Modelo preclínico; la proteasa del SIV es más parecida a la del VIH que la del VIF. No es una diana terapéutica humana |
-| Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical | 99.86% | L5 | Sin vínculo mecanístico identificable; no se aborda la penetración en el sistema nervioso central |
-| Enfermedad fibroquística de la mama | 99.57% | L5 | Sin fundamento mecanístico |
-| Adenosis apocrina de la mama | 99.34% | L5 | Probable artefacto computacional |
-| Adenosis de conductos romos de la mama | 99.34% | L5 | Puntaje idéntico al anterior, señal de grafo compartida |
-| Displasia mamaria benigna | 99.10% | L5 | Grupo de predicciones benignas mamarias con probable señal espuria |
+| Infección por virus de inmunodeficiencia simia (SIV) | 0.9988 | L4 | Modelo preclínico; la proteasa del SIV es más parecida a la del VIH que la del VIF. No es una diana terapéutica humana |
+| Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical | 0.9986 | L5 | Sin vínculo mecanístico identificable; no se aborda la penetración en el sistema nervioso central |
+| Enfermedad fibroquística de la mama | 0.9957 | L5 | Sin fundamento mecanístico |
+| Adenosis apocrina de la mama | 0.9934 | L5 | Probable artefacto computacional |
+| Adenosis de conductos romos de la mama | 0.9934 | L5 | Puntaje idéntico al anterior; el puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
+| Displasia mamaria benigna | 0.9910 | L5 | Grupo de predicciones benignas mamarias con probable señal espuria |
 
 ## Evidencia de Ensayos Clínicos
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 673
-evidence_level: L3
-indication_count: 7
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Pyridostigmine: nueva indicación predicha, Miastenia gravis con hiperplasia tímica (nivel de evidencia L3). Indicación original: Miastenia gravis (según las relaciones de indicación del grafo de con…"
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine: nueva indicación predicha, Autoimmune disease of peripheral nervous system (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-## Piridostigmina: De Miastenia Gravis a Miastenia Gravis con Hiperplasia Tímica
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ Actualmente no hay **ensayos clínicos** registrados y solo **3 publicaciones** 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Miastenia gravis (según las relaciones de indicación del grafo de conocimiento; los prospectos de las autorizaciones en España no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Miastenia gravis con hiperplasia tímica |
-| Puntaje de Predicción TxGNN | 99.76% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Autoimmune disease of peripheral nervous system |
+| Puntaje de Predicción TxGNN | 0.9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

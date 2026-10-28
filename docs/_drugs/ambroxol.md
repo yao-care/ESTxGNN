@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ambroxol
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 48
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Faringitis (según el grafo de conocimiento"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "AMBROXOL"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
+last_modified_at: 2026-10-27
+description: "Ambroxol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ambroxol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Ambroxol: De Faringitis a Enfermedad de la Cavidad Nasal
+## Ambroxol: mucolítico y secretolítico → enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ambroxol es un agente mucolítico/secretolítico utilizado originalmente para el tratamiento de la faringitis.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**,
-pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** (una revisión sobre tos aguda, de relevancia indirecta) que respaldan esta dirección.
+Ambroxol es un agente mucolítico y secretolítico que se comercializa en España en múltiples presentaciones orales y bucales.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**,
+pero actualmente no hay ensayos clínicos registrados y solo **1 publicación** de relevancia indirecta (sobre tos aguda) acompaña esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Faringitis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99,91% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ambroxol es un agente mucolítico y secretolítico que estimula la secreción de surfactante y de moco seroso, y mejora el aclaramiento mucociliar. Además, se le atribuye una actividad de bloqueo de canales de sodio similar a la de un anestésico local, así como efectos antiinflamatorios. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; lo anterior procede de la justificación de reposicionamiento disponible.
+Ambroxol estimula la secreción de surfactante y de moco seroso y mejora el aclaramiento mucociliar. Además, se le atribuye una actividad de bloqueo de canales de sodio de tipo anestésico local y efectos antiinflamatorios. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción original, por lo que esta descripción procede del razonamiento general sobre el fármaco.
 
-La faringitis y las enfermedades de la cavidad nasal son afecciones de la mucosa de las vías respiratorias altas. Es plausible que la mejora del aclaramiento mucociliar y el efecto antiinflamatorio local beneficien a ambas. Sin embargo, el único respaldo disponible es un artículo de 2015 sobre tos aguda, que se relaciona solo de forma indirecta con la patología nasal.
+Estas propiedades podrían guardar relación con afecciones de la mucosa de las vías respiratorias superiores, entre ellas la cavidad nasal: mejorar el manejo de las secreciones y reducir la inflamación local sería, en teoría, útil. Se trata, sin embargo, de un vínculo plausible y no demostrado.
 
-Por ello, la predicción es mecanísticamente verosímil, pero no está corroborada por evidencia clínica directa.
+La única publicación disponible es una revisión de 2015 sobre tos aguda asociada a infecciones respiratorias virales, que solo se relaciona de forma indirecta con la enfermedad de la cavidad nasal. Ninguna fuente estudia directamente esta enfermedad, por lo que el nivel de evidencia se limita a L5.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,23 +70,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revisión | Vestnik otorinolaringologii | Revisión sobre nuevas opciones para la tos aguda asociada a gripe e infecciones respiratorias virales agudas; relevancia solo indirecta para enfermedad de la cavidad nasal |
+| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revisión | Vestnik otorinolaringologii | Revisión sobre el tratamiento de la tos aguda asociada a gripe e infecciones respiratorias virales agudas; relevancia solo indirecta para la enfermedad de la cavidad nasal |
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con ambroxol como único principio activo). El texto de indicación aprobada no figura en los datos compilados.
+Se registran al menos 20 autorizaciones, todas de producto de un solo principio activo; la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 68110 | MUCOSAN 6 MG/ML JARABE | Jarabe | Opella Healthcare Spain S.L. |
-| 63790 | AMBROXOL NORMON 3 mg/ml SOLUCIÓN ORAL EFG | Jarabe | Laboratorios Normon S.A. |
-| 56155 | MOTOSOL 7,5 mg/ml SOLUCIÓN INYECTABLE | Solución inyectable | Opella Healthcare Spain S.L. |
-| 80439 | BUCOXON 20 MG PASTILLAS PARA CHUPAR SABOR REGALIZ | Pastilla para chupar | Laboratorios Cinfa S.A. |
-| 78669 | LIZIPAINA AMBROXOL 17,86 MG/ML SOLUCIÓN PARA PULVERIZACIÓN BUCAL | Solución para pulverización bucal | Opella Healthcare Spain S.L. |
+| 68110 | MUCOSAN 6 MG/ML JARABE | Jarabe | No registrada en los datos locales |
+| 63790 | AMBROXOL NORMON 3 mg/ml SOLUCION ORAL EFG | Jarabe | No registrada en los datos locales |
+| 56155 | MOTOSOL 7,5 mg/ml SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
+| 86435 | BROXIVAN 6 MG/ML SOLUCION ORAL EFG | Solución oral | No registrada en los datos locales |
+| 56154 | MUCOSAN 30 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificó una interacción de tipo farmacológico (sin nivel de gravedad asignado) con la glucosilceramidasa beta (GBA1). Ambroxol actúa como chaperona de esta enzima: a pH neutro inhibe su actividad en medio acelular, mientras que dentro de las células y sus lisosomas ácidos aumenta la actividad intracelular de la enzima. No se trata de una interacción con otro fármaco, sino de una acción sobre su diana.
+- **Interacciones Farmacológicas**: se registra una interacción de tipo farmacológico con la glucosilceramidasa beta (GBA1). Ambroxol actúa como chaperona de esta enzima: a pH neutro inhibe su actividad en medio acelular, mientras que dentro de las células aumenta la actividad intralisosomal de la enzima.
 
 Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
@@ -95,15 +95,13 @@ Para el resto de la información de seguridad (advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de TxGNN es muy alto (99,91%), no existe ningún ensayo clínico y la única publicación es una revisión sobre tos aguda, indirectamente relacionada. El nivel de evidencia es L4 y la predicción debe tratarse por ahora como una pregunta de investigación.
+La puntuación del modelo es muy alta (0.9991), pero no hay ensayos clínicos y la única publicación disponible aborda la tos aguda, no la enfermedad de la cavidad nasal. La predicción carece por ahora de respaldo clínico directo.
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA) de ambroxol.
-- Advertencias y contraindicaciones del prospecto de la AEMPS, necesarias antes de cualquier evaluación de seguridad.
-- Textos de indicación aprobada de las autorizaciones españolas.
-- Literatura y ensayos clínicos específicos sobre ambroxol en enfermedades de la cavidad nasal (p. ej., rinosinusitis).
-- Evaluación de la compatibilidad de vías de administración (oral, pastillas, pulverización bucal) con la indicación propuesta.
-- Como alternativa de menor incertidumbre, valorar la segunda predicción (laringofaringitis aguda), más próxima a la indicación original, aunque también carece de evidencia directa.
+- Estudios clínicos o publicaciones que evalúen directamente ambroxol en enfermedades de la cavidad nasal
+- Datos detallados del mecanismo de acción y su relación con la mucosa nasal
+- Revisión de advertencias y contraindicaciones del prospecto autorizado por la AEMPS
+- Evaluación de la compatibilidad de las vías de administración disponibles (oral, bucal, inyectable) con el uso nasal propuesto
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

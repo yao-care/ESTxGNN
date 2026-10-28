@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **Trastorno de migraña**,
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99,02 % |
+| Puntaje de Predicción TxGNN | 0,9902 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 1) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Una hipótesis es que la migraña con aura, especialmente en pacientes con foramen oval permeable (FOP) o con anticuerpos antifosfolípidos, podría implicar embolia paradójica o microtrombosis. En ese escenario, la terapia antitrombótica podría reducir el aura o la carga de migraña.
 
-El puntaje de TxGNN es muy alto (0,990), pero proviene de una predicción basada en grafos de conocimiento, sin un mecanismo establecido. Los informes de caso disponibles son contradictorios: uno describe empeoramiento de migraña con aura tras iniciar apixabán, y otro describe resolución del aura con warfarina pero no con apixabán. Esto sugiere que un posible beneficio no sería un efecto de clase de los anticoagulantes y no está respaldado para apixabán.
+El puntaje de TxGNN es muy alto (0,9902), pero proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay un mecanismo establecido. Los informes de caso disponibles son contradictorios: uno describe empeoramiento de migraña con aura tras iniciar apixabán, y otro describe resolución del aura con warfarina pero no con apixabán. Esto sugiere que un posible beneficio no sería un efecto de clase de los anticoagulantes y no está respaldado para apixabán.
 
 ## Evidencia de Ensayos Clínicos
 

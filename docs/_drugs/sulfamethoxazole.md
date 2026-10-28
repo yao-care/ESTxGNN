@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfamethoxazole
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 751
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L4). Indicación original: Otitis media infecciosa (según el grafo de conocimiento"
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
+description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sulfamethoxazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Sulfametoxazol: De Otitis Media Infecciosa a Conjuntivitis Contagiosa Aguda
+## Sulfamethoxazole: Conjuntivitis contagiosa aguda (acute contagious conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Sulfametoxazol es una sulfonamida antibacteriana, originalmente utilizada para infecciones como la otitis media infecciosa, la nocardiosis, la toxoplasmosis y la neumocistosis.
-El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa aguda**, aunque esta enfermedad ya figura entre sus indicaciones originales en el grafo de conocimiento, por lo que no es un reposicionamiento genuino.
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **conjuntivitis contagiosa aguda**.
 La evidencia se limita a **0 ensayos clínicos** y **1 publicación** (un estudio de cohorte sobre bacteriología de la conjuntivitis infantil).
 
 ---
@@ -48,12 +48,12 @@ La evidencia se limita a **0 ensayos clínicos** y **1 publicación** (un estudi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Otitis media infecciosa (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
-| Puntaje de Predicción TxGNN | 99,63% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9963 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ La evidencia se limita a **0 ensayos clínicos** y **1 publicación** (un estudi
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, el sulfametoxazol inhibe la enzima bacteriana dihidropteroato sintetasa, bloqueando la síntesis de folato, y se combina habitualmente con trimetoprima para lograr un efecto sinérgico. Esta explicación procede de conocimiento general y no de los datos aportados.
 
-Mecanísticamente, un antibacteriano de este tipo es plausible frente a la conjuntivitis bacteriana. Sin embargo, la conjuntivitis ya figura entre las indicaciones originales del fármaco en el grafo de conocimiento, por lo que **no se trata de un verdadero candidato a reposicionamiento**. El puntaje elevado (0,996) probablemente refleja esa asociación ya existente y no una señal nueva.
+Mecanísticamente, un antibacteriano de este tipo es plausible frente a la conjuntivitis bacteriana. El puntaje elevado (0,9963) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Además, la compatibilidad de vías de administración no está evaluada: las formas disponibles en España son orales (comprimidos, suspensión) e inyectables, y no hay formulación oftálmica en los datos.
 
@@ -110,7 +110,7 @@ No se dispone de las advertencias y contraindicaciones del prospecto de la AEMPS
 **Decisión: Hold**
 
 **Justificación:**
-La conjuntivitis ya es una indicación original del fármaco según el grafo de conocimiento, por lo que el puntaje alto de TxGNN no representa una señal nueva. Además, no hay ensayos clínicos, solo un estudio de cohorte indirecto, y falta información clave de seguridad del prospecto.
+El puntaje alto de TxGNN (modelo de aprendizaje profundo) puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, no hay ensayos clínicos, solo un estudio de cohorte indirecto, y falta información clave de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Confirmar con el prospecto de la AEMPS las indicaciones aprobadas, advertencias y contraindicaciones.

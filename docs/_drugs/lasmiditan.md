@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lasmiditan
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 455
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Lasmiditan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (trastorno de migraña"
 monitor_inn: "lasmiditan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Lasmiditan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lasmiditan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Lasmiditan: De Trastorno de Migraña a Migraña con Aura del Tronco Encefálico
+## Lasmiditan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Lasmiditan es un agonista selectivo del receptor serotoninérgico 5-HT1F, utilizado originalmente para el tratamiento agudo de la migraña con o sin aura en adultos.
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**, un subtipo de migraña con aura, pero **no hay ensayos clínicos específicos** y la literatura recopilada (**16 publicaciones**) es en su mayoría sobre migraña en general, no sobre este subtipo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Migraña (trastorno de migraña; migraña con o sin aura). El texto de indicación autorizado en AEMPS no está disponible en los datos compilados |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99,92 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Atrophoderma vermiculata |
+| Puntaje de Predicción TxGNN | 0.9959 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -108,7 +107,7 @@ La predicción es mecanísticamente plausible, pero es esencialmente una extensi
 - Evaluar el riesgo de confusión entre los efectos adversos del SNC y los síntomas del aura, incluida la restricción de conducción.
 - Revisar con criterio clínico las interacciones de nivel mayor (lorcaserina, dolasetrón, palonosetrón).
 
-**Nota sobre otras predicciones:** las predicciones de menor rango, atrofodermia vermiculada (99,59 %) y uleritema oftalmógeno (99,46 %), carecen de ensayos y literatura y no tienen un vínculo mecanístico plausible. Probablemente reflejan proximidad en el grafo de conocimiento y no constituyen evidencia independiente. Se recomienda mantenerlas en **Hold**.
+**Nota sobre otras predicciones:** las predicciones de menor rango, atrofodermia vermiculada (0,9959) y uleritema oftalmógeno (0,9946), carecen de ensayos y literatura y no tienen un vínculo mecanístico plausible. El puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Se recomienda mantenerlas en **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

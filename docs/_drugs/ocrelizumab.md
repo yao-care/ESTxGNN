@@ -6,9 +6,9 @@ nav_order: 580
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ocrelizumab: nueva indicación predicha, Carcinoma de mama HER2 positivo (nivel de evidencia L5). Indicación original: Esclerosis múltiple progresiva (según el grafo de conocimiento"
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
+description: "Ocrelizumab: nueva indicación predicha, Carcinoma de mama HER2 positivo (HER2 positive breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ocrelizumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Ocrelizumab: De Esclerosis Múltiple Progresiva a Carcinoma de Mama HER2 Positivo
+## Ocrelizumab: Carcinoma de mama HER2 positivo (HER2 positive breast carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para el **carcinoma de mama HER
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esclerosis múltiple progresiva (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Carcinoma de mama HER2 positivo |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Carcinoma de mama HER2 positivo (HER2 positive breast carcinoma) |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación entre la indicación original y la nueva es débil. La esclerosis múltiple es una enfermedad autoinmune mediada en parte por linfocitos B, mientras que el cáncer de mama HER2 positivo está impulsado por la señalización del receptor HER2 en las células epiteliales tumorales. Los datos compilados no respaldan ningún vínculo mecanístico directo entre la depleción de linfocitos B y este tumor.
 
-El puntaje elevado (0.9989) refleja una inferencia basada en el grafo de conocimiento y no está respaldado por estudios reales. La única conexión teórica sería la biología de los linfocitos B infiltrantes de tumores, que es especulativa. Las demás predicciones del modelo (subtipos de mama similar a normal, receptor de progesterona positivo/negativo y luminal A/B) presentan el mismo nivel de evidencia L5 y recomendación Hold.
+El puntaje elevado (0.9989) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por estudios reales. La única conexión teórica sería la biología de los linfocitos B infiltrantes de tumores, que es especulativa. Las demás predicciones del modelo (subtipos de mama similar a normal, receptor de progesterona positivo/negativo y luminal A/B) presentan el mismo nivel de evidencia L5 y recomendación Hold.
 
 ## Evidencia de Ensayos Clínicos
 

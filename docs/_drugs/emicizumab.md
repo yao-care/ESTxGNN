@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emicizumab
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 286
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Emicizumab: nueva indicación predicha, Déficit adquirido de factores de coagulación (evidencia centrada en h… (nivel de evidencia L2). Indicación original: Hemofilia (según el grafo de conocimiento"
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
+description: "Emicizumab: nueva indicación predicha, Pseudo-von Willebrand disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Emicizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Emicizumab: De Hemofilia a Hemofilia A Adquirida (Déficit Adquirido de Factores de Coagulación)
+## Emicizumab: Pseudo-von Willebrand disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para el **déficit adquirido de
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Déficit adquirido de factores de coagulación (evidencia centrada en hemofilia A adquirida) |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pseudo-von Willebrand disease |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre la selección:** la primera predicción del modelo (rank 1) es la pseudoenfermedad de von Willebrand (99.99%), pero carece de toda evidencia y su vínculo mecanístico es débil (L5, Hold). Este informe se centra en la predicción con mayor sustento: el déficit adquirido de factores de coagulación. Las demás predicciones se resumen al final.
@@ -124,15 +124,15 @@ Hay estudios prospectivos de fase 2/3 (GTH-AHA-EMI, estudio japonés de fase III
 
 | Enfermedad | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
-| Pseudoenfermedad de von Willebrand | 99.99% | L5 | El mecanismo no corrige la ganancia de función de GP1BA; vínculo débil |
-| Trastorno primario de liberación plaquetaria | 99.99% | L5 | No corrige la secreción plaquetaria; beneficio solo especulativo |
-| Trombastenia de Glanzmann | 99.98% | L4 (Research Question) | Única referencia es una revisión de rFVIIa, evidencia indirecta |
-| Síndrome de Scott | 99.92% | L5 | Posible limitación por menor superficie procoagulante |
-| Defecto del receptor de colágeno | 99.86% | L5 | Mecanismo no relacionado |
-| Trombocitopenia constitucional con hemorragia | 99.85% | L5 | Mecanismo no relacionado |
-| Púrpura trombótica trombocitopénica | 99.61% | L5 | Posiblemente dañino por riesgo trombótico; probable falso positivo |
-| Trombocitopenia aloinmune fetal y neonatal | 99.52% | L5 | Mecanismo inmunitario no abordado |
-| "Flood factor deficiency" | 99.40% | L5 | Nombre ambiguo; requiere aclaración |
+| Pseudoenfermedad de von Willebrand | 0.9999 | L5 | El mecanismo no corrige la ganancia de función de GP1BA; vínculo débil |
+| Trastorno primario de liberación plaquetaria | 0.9999 | L5 | No corrige la secreción plaquetaria; beneficio solo especulativo |
+| Trombastenia de Glanzmann | 0.9998 | L4 (Research Question) | Única referencia es una revisión de rFVIIa, evidencia indirecta |
+| Síndrome de Scott | 0.9992 | L5 | Posible limitación por menor superficie procoagulante |
+| Defecto del receptor de colágeno | 0.9986 | L5 | Mecanismo no relacionado |
+| Trombocitopenia constitucional con hemorragia | 0.9985 | L5 | Mecanismo no relacionado |
+| Púrpura trombótica trombocitopénica | 0.9961 | L5 | Posiblemente dañino por riesgo trombótico; probable falso positivo |
+| Trombocitopenia aloinmune fetal y neonatal | 0.9952 | L5 | Mecanismo inmunitario no abordado |
+| "Flood factor deficiency" | 0.9940 | L5 | Nombre ambiguo; requiere aclaración |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

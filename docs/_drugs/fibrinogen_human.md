@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hemoglobinopatía**, per
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Hemoglobinopatía |
-| Puntaje de Predicción TxGNN | 99.12% |
+| Puntaje de Predicción TxGNN | 0.9912 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---

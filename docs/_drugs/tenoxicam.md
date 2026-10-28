@@ -4,17 +4,17 @@ title: Tenoxicam
 parent: Solo predicción del modelo (L5)
 nav_order: 777
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tenoxicam: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Enfermedad articular artrítica / artropatía (la ficha de autorización…"
+indication_count: 8
 monitor_inn: "TENOXICAM"
-predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
+last_modified_at: 2026-10-23
+description: "Tenoxicam: nueva indicación predicha, Brachydactyly-syndactyly syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tenoxicam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +33,88 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tenoxicam: De Enfermedad Articular Artrítica a Artritis Reumatoide
+## Tenoxicam: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Tenoxicam es un antiinflamatorio no esteroideo (AINE) de la familia de los oxicams, originalmente utilizado para el tratamiento de enfermedades articulares artríticas y artropatías.
-El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, con **0 ensayos clínicos registrados** y **20 publicaciones** que respaldan esta dirección, aunque se trata más de una indicación cercana a la ya conocida que de un reposicionamiento propiamente dicho.
-
----
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de cefalea**, con **1 ensayo clínico** (en curso, sin resultados) y **2 publicaciones** de apoyo indirecto.
+Ningún estudio citado evalúa tenoxicam de forma directa en esta indicación con resultados concluyentes.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad articular artrítica / artropatía (la ficha de autorización en España no incluye texto de indicación) |
-| Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Brachydactyly-syndactyly syndrome |
+| Puntaje de Predicción TxGNN | 0.9980 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
+| Decisión Recomendada | Hold (línea de investigación) |
 
----
+> Nota: se presenta la predicción de mayor interés clínico. Los puestos 1 y 2 del modelo (síndrome de braquidactilia-sindactilia y síndrome de microftalmia colobomatosa-displasia rizomélica) tienen puntajes algo superiores, pero carecen de cualquier evidencia y de vínculo mecanístico, por lo que se descartan como líneas de trabajo.
 
-## Por qué es Razonable esta Predicción
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, tenoxicam es un AINE de la clase oxicam que inhibe COX-1 y COX-2, con lo que reduce la producción de prostaglandinas y, con ello, la inflamación, el dolor y la inflamación articular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, tenoxicam es un AINE que inhibe la ciclooxigenasa (COX-1 y COX-2) y reduce la síntesis de prostaglandinas, lo que explica su efecto antiinflamatorio y analgésico en patología articular.
 
-La indicación original (enfermedad articular artrítica) y la artritis reumatoide comparten un componente inflamatorio articular mediado por prostaglandinas. Por ello, la artritis reumatoide debe considerarse una indicación en o cerca de la ficha técnica, más que un reposicionamiento real. La literatura describe ensayos en artritis reumatoide, artrosis, espondilitis anquilosante, gota y reumatismo no articular.
+Las prostaglandinas participan en la inflamación neurogénica y la sensibilización al dolor de la migraña y otras cefaleas primarias. Los AINE son una clase establecida para el tratamiento de la migraña aguda, de modo que la predicción es mecanísticamente coherente a nivel de clase.
 
-Cabe señalar que el tenoxicam alivia los síntomas (dolor, rigidez, inflamación), pero no se describe como un fármaco modificador de la enfermedad.
-
----
+Sin embargo, el respaldo específico de tenoxicam es limitado: hay un ensayo de fase 4 en curso y literatura observacional o comparativa sobre AINE y triptanes, no ensayos controlados con tenoxicam que hayan finalizado.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para artritis reumatoide.
-
----
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT06786650](https://clinicaltrials.gov/study/NCT06786650) | Fase 4 | Activo, sin reclutamiento | 100 | Compara tenoxicam intravenoso con ibuprofeno intravenoso para aliviar la cefalea en el ataque agudo de migraña. Inicio en mayo de 2024; sin resultados disponibles. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | ECA | Clin Rheumatol | Ensayo multicéntrico, doble ciego, de 3 meses en 292 pacientes con artritis reumatoide: aceclofenaco frente a tenoxicam; ambos grupos mejoraron los parámetros clínicos |
-| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | Estudio doble ciego multicéntrico | Br J Clin Pract | 1.328 pacientes con artrosis o artritis reumatoide; tenoxicam frente a piroxicam, con efecto global ligeramente mayor para tenoxicam |
-| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | Estudio comparativo | J Rheumatol | 102 pacientes con artritis reumatoide; sin diferencias de eficacia entre tenoxicam 20 mg y piroxicam 20 mg |
-| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Estudio clínico doble ciego | Eur J Rheumatol Inflamm | Tenoxicam al menos tan eficaz como piroxicam (20 mg/día) en artrosis, artritis reumatoide y espondilitis anquilosante |
-| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | Estudio multicéntrico | J Int Med Res | 2.963 pacientes en atención primaria con artrosis o artritis reumatoide tratados con 20 mg/día durante 12 semanas o más |
-| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Revisión | Drugs | Tenoxicam es eficaz como analgésico y antiinflamatorio sintomático en artritis reumatoide y otras enfermedades reumáticas; bien tolerado en comparación con otros AINE |
-| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Revisión | Drugs | Revisión preliminar: 20 mg diarios con eficacia equivalente a piroxicam 20 mg |
-| [3317799](https://pubmed.ncbi.nlm.nih.gov/3317799/) | 1987 | Revisión | Scand J Rheumatol Suppl | Nueve estudios clínicos; menor pérdida de sangre fecal que con aspirina y comparable a piroxicam |
-| [3329109](https://pubmed.ncbi.nlm.nih.gov/3329109/) | 1987 | Revisión | Eur J Rheumatol Inflamm | Revisión de 133 estudios clínicos; eficacia demostrada frente a placebo y dosis óptima de 20 mg |
-| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Revisión farmacocinética | Clin Pharmacokinet | Absorción oral completa, unión a proteínas plasmáticas de ~99% y semivida larga |
-
----
+| [27813032](https://pubmed.ncbi.nlm.nih.gov/27813032/) | 2016 | Cohorte | Agri | Compara triptanes, AINE y su combinación en el tratamiento del ataque de migraña (estudio de clase, no específico de tenoxicam). |
+| [18345416](https://pubmed.ncbi.nlm.nih.gov/18345416/) | 2007 | Cohorte | Arquivos de Neuro-Psiquiatria | Revisión de historias de 109 pacientes con cefaleas primarias agudas en un centro de urgencias; la migraña probable fue el diagnóstico más frecuente. |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 60557 | REUTENOX 20 mg granulado para suspensión oral | Granulado para suspensión oral | No disponible en los datos compilados |
-| 58665 | REUTENOX 20 mg comprimidos recubiertos | Comprimido recubierto | No disponible en los datos compilados |
-
----
+| 58665 | REUTENOX 20 mg comprimidos recubiertos (vigente) | Comprimido recubierto | Sin texto de indicación disponible |
+| 60557 | REUTENOX 20 mg granulado para suspensión oral (cancelada) | Granulado para suspensión oral | Sin texto de indicación disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Señal de seguridad relacionada:** una publicación de 1997 (PMID 9303679) describe un caso de alopecia secundaria a tenoxicam, como posible reacción adversa no descrita previamente. Esto va en contra de la predicción de beneficio para alopecia.
+- No se encontraron interacciones farmacológicas registradas en los datos compilados.
 
-Como nota complementaria, la literatura recoge un caso de alopecia como posible efecto adverso del tenoxicam (PMID 9303679).
+Consultar el prospecto para información completa de advertencias y contraindicaciones.
 
----
+## Otras Predicciones del Modelo (Resumen)
+
+| Enfermedad predicha | Puntaje TxGNN | Nivel | Valoración |
+|------|------|------|------|
+| Síndrome de braquidactilia-sindactilia | 0,9980 | L5 | Sin vínculo mecanístico ni evidencia; trastorno congénito genético |
+| Síndrome de microftalmia colobomatosa-displasia rizomélica | 0,9980 | L5 | Sin vínculo mecanístico ni evidencia |
+| Hipotricosis simple del cuero cabelludo | 0,9966 | L5 | Sin vínculo mecanístico ni evidencia |
+| Hipotricosis congénita con milia | 0,9966 | L5 | Sin vínculo mecanístico ni evidencia |
+| Alopecia areata difusa | 0,9961 | L5 | Especulativa; sin evidencia |
+| Cefalea autonómica trigeminal | 0,9961 | L5 | Solo extrapolación indirecta desde otro AINE (indometacina); ningún estudio citado aborda esta enfermedad |
+| Alopecia | 0,9960 | L5 | La única publicación sugiere un efecto adverso, no un beneficio |
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold (línea de investigación)**
 
 **Justificación:**
-La artritis reumatoide es una indicación cercana a la ya conocida de tenoxicam y cuenta con múltiples estudios comparativos y revisiones que respaldan su eficacia sintomática. No obstante, no hay ensayos registrados en este conjunto de datos y los estudios son en su mayoría antiguos, por lo que el nivel L1 debe interpretarse con cautela: no se ha confirmado explícitamente la existencia de dos ECAs de fase 3 completados.
+La predicción de trastorno de cefalea es plausible a nivel de clase de AINE y cuenta con un ensayo de fase 4 directamente relacionado, pero aún sin resultados, y con literatura solo observacional. No hay un ensayo controlado completado que permita concluir eficacia de tenoxicam.
 
 **Para avanzar se necesita:**
-- Confirmar el diseño y la fase de los estudios comparativos clave (por ejemplo, PMID 8894360)
-- Obtener el prospecto de la AEMPS para completar advertencias, contraindicaciones e indicaciones aprobadas
-- Completar los datos del mecanismo de acción
-- Verificar si la artritis reumatoide ya figura en la ficha técnica en España, para determinar si procede un reposicionamiento real
-
-**Otras predicciones del modelo (para referencia):**
-- **Trastorno de cefalea** (puntaje 99.68%): existe un ensayo de Fase 4 en curso, [NCT06786650](https://clinicaltrials.gov/study/NCT06786650) (n=100, tenoxicam IV frente a ibuprofeno IV en migraña aguda, sin resultados aún). Se considera una pregunta de investigación razonable por la plausibilidad mecanística de la inhibición de COX.
-- **Susceptibilidad a la artrosis**: concepto de susceptibilidad genética y no una condición tratable; la artrosis sintomática debería evaluarse como indicación separada. Se recomienda mantener en espera.
-- **Alopecia y trastornos relacionados, síndromes congénitos raros y cefalea trigémino-autonómica**: sin respaldo clínico plausible. En el caso de la alopecia, la única evidencia es una señal de seguridad (efecto adverso), no un beneficio terapéutico. Se recomienda mantener en espera.
+- Resultados del ensayo NCT06786650 (tenoxicam IV frente a ibuprofeno IV en migraña aguda).
+- Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de la AEMPS (actualmente faltan y bloquean el cribado de seguridad).
+- Texto de indicación de las autorizaciones españolas para confirmar los usos aprobados.
+- Si se prosigue, revisar la señal de alopecia como posible reacción adversa.
+- Descartar las predicciones de enfermedades congénitas raras y de alopecia por falta de respaldo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

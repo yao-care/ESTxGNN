@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lamivudine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 446
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lamivudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L3). Indicación original: Infección crónica por el virus de la hepatitis B…"
 monitor_inn: "Lamivudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+description: "Lamivudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
 # Lamivudine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-## Lamivudina: De Hepatitis B Crónica e Infección por VIH a Síndrome de Inmunodeficiencia Felina Adquirida
+## Lamivudine: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ Se trata de una predicción de valor veterinario, ya que la indicación humana e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis B, infección por VIH y sida (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9993 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -97,10 +97,10 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 | Indicación Predicha | Puntaje TxGNN | Nivel | Valoración |
 |------|------|------|------|
-| Infección por virus de inmunodeficiencia simia | 99.93% | L3 | Solo modelos preclínicos en macacos de VIH; refleja la indicación VIH ya existente |
-| Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical | 99.93% | L5 | Sin vínculo mecanístico ni evidencia; Hold |
-| Hiperlipidemia combinada familiar (término obsoleto) | 99.63% | L5 | Término obsoleto en la ontología, predicción poco fiable; Hold |
-| Infección crónica por virus de la hepatitis C | 99.11% | L4 | Sin actividad establecida frente al VHC; la literatura son revisiones que tratan VHB y VHC conjuntamente; Hold |
+| Infección por virus de inmunodeficiencia simia | 0.9993 | L3 | Solo modelos preclínicos en macacos de VIH; refleja la indicación VIH ya existente |
+| Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical | 0.9993 | L5 | Sin vínculo mecanístico ni evidencia; Hold |
+| Hiperlipidemia combinada familiar (término obsoleto) | 0.9963 | L5 | Término obsoleto en la ontología, predicción poco fiable; Hold |
+| Infección crónica por virus de la hepatitis C | 0.9911 | L4 | Sin actividad establecida frente al VHC; la literatura son revisiones que tratan VHB y VHC conjuntamente; Hold |
 
 ## Conclusión y Próximos Pasos
 

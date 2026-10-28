@@ -6,9 +6,9 @@ nav_order: 597
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L5). Indicación original: Vejiga hiperactiva (según las indicaciones del grafo de conocimiento"
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
+description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Oxybutynin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Oxibutinina: De Vejiga Hiperactiva a Síndrome de Piernas Inquietas
+## Oxybutynin: Síndrome de piernas inquietas (restless legs syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Vejiga hiperactiva (según las indicaciones del grafo de conocimiento; los textos de indicación autorizados no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de piernas inquietas |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de piernas inquietas (restless legs syndrome) |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -64,8 +64,8 @@ Una posible relación es que el desequilibrio colinérgico/dopaminérgico se ha 
 
 | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
 |------|------|------|------|
-| Gastroduodenitis | 99.62% | L5 | Sin ensayos ni literatura; racional teórico antiespasmódico/antisecretor |
-| Enfermedad ulcerosa péptica | 99.31% | L4 | Literatura antigua e indirecta, con una señal de seguridad contraria (esofagitis por reflujo) |
+| Gastroduodenitis | 0.9962 | L5 | Sin ensayos ni literatura; racional teórico antiespasmódico/antisecretor |
+| Enfermedad ulcerosa péptica | 0.9931 | L5 | Literatura antigua e indirecta, con una señal de seguridad contraria (esofagitis por reflujo) |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -105,7 +105,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.74%), pero no cuenta con ningún ensayo clínico ni publicación (nivel L5). Además, el vínculo mecanístico es especulativo y los anticolinérgicos de acción central no han mostrado beneficio claro en el síndrome de piernas inquietas.
+La predicción tiene un puntaje alto (0.9974), pero no cuenta con ningún ensayo clínico ni publicación (nivel L5). Además, el vínculo mecanístico es especulativo y los anticolinérgicos de acción central no han mostrado beneficio claro en el síndrome de piernas inquietas.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA) y análisis del vínculo mecanístico con el síndrome de piernas inquietas

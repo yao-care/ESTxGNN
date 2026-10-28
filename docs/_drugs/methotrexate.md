@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methotrexate
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 512
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Methotrexate: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L3). Indicación original: Leucemia linfoblástica aguda (el texto de indicación aprobado de las…"
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate: nueva indicación predicha, Pulmonary blastoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Metotrexato: De Leucemia Linfoblástica Aguda a Linfoma de Hodgkin
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -41,7 +41,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 El metotrexato es un antimetabolito (antifolato) utilizado originalmente para la leucemia linfoblástica aguda, la artritis reumatoide, la psoriasis, la micosis fungoide y los linfomas no Hodgkin.
 El modelo TxGNN predice que podría ser efectivo para el **Linfoma de Hodgkin**, con **44 ensayos clínicos** y **20 publicaciones** relacionados. Sin embargo, la mayoría son estudios de linfoma no Hodgkin o de trasplante, en los que el metotrexato es solo un componente, de modo que la evidencia específica para Hodgkin es limitada.
 
-> **Nota sobre la selección de la indicación:** la predicción con mayor puntaje TxGNN es el blastoma pulmonar (99,45 %), pero no tiene ningún ensayo ni publicación asociados (nivel L5). Se presenta el linfoma de Hodgkin (puntaje 99,32 %) porque es la indicación predicha con mayor respaldo de evidencia (nivel L3, etapa S1). Al final se resumen las demás predicciones.
+> **Nota sobre la selección de la indicación:** la predicción con mayor puntaje TxGNN es el blastoma pulmonar (0,9945), pero no tiene ningún ensayo ni publicación asociados (nivel L5). Se presenta el linfoma de Hodgkin (puntaje 0,9932) porque es la indicación predicha con mayor respaldo de evidencia (nivel L3, etapa S1). Al final se resumen las demás predicciones.
 
 ---
 
@@ -49,11 +49,11 @@ El modelo TxGNN predice que podría ser efectivo para el **Linfoma de Hodgkin**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfoblástica aguda (el texto de indicación aprobado de las autorizaciones españolas no está disponible; se usan las indicaciones del grafo de conocimiento) |
-| Nueva Indicación Predicha | Linfoma de Hodgkin |
-| Puntaje de Predicción TxGNN | 99,32 % |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pulmonary blastoma |
+| Puntaje de Predicción TxGNN | 0.9945 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold (con la pregunta de investigación abierta; ver Conclusión) |
 
@@ -160,14 +160,12 @@ El metotrexato tiene alta plausibilidad mecanística y uso histórico en linfoma
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Recomendación |
 |------|------|------|------|
-| Blastoma pulmonar | 99,45 % | L5 | Hold |
-| Linfoma pulmonar primario | 99,45 % | L4 | Hold |
-| Carcinoma pulmonar de células pequeñas | 99,43 % | L4 | Hold (ensayos solo en CPNM) |
-| Adenocarcinoma fetal bien diferenciado de pulmón | 99,42 % | L5 | Hold |
-| Rabdomiosarcoma | 99,25 % | L2 | Pregunta de investigación (S1) |
-| LLC/linfoma linfocítico de células pequeñas (2 entradas) | 99,23 % | L5 | Hold |
-| Rabdomiosarcoma embrionario parameníngeo | 99,21 % | L5 | Hold |
-| Rabdomiosarcoma embrionario botrioide de vagina | 99,21 % | L5 | Hold |
+| Blastoma pulmonar | 0,9945 | L5 | Hold |
+| Linfoma pulmonar primario | 0,9945 | L5 | Hold |
+| Adenocarcinoma fetal bien diferenciado de pulmón | 0,9942 | L5 | Hold |
+| Rabdomiosarcoma | 0,9925 | L2 | Pregunta de investigación (S1) |
+| Rabdomiosarcoma embrionario parameníngeo | 0,9921 | L5 | Hold |
+| Rabdomiosarcoma embrionario botrioide de vagina | 0,9921 | L5 | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

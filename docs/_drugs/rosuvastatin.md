@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: Solo predicción del modelo (L5)
 nav_order: 713
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rosuvastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Hipertrigliceridemia (según las indicacione…"
 monitor_inn: "Rosuvastatin"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5). Indicación origi…"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Rosuvastatina: De Hipertrigliceridemia a Deficiencia de la Proteína de Transferencia de Ésteres de Colesterol
+## Rosuvastatin: Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertrigliceridemia (según las indicaciones originales del grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas no estaban disponibles) |
-| Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la indicación original es débil. La deficiencia de CETP **eleva el colesterol HDL y reduce el LDL**. Por eso, reducir el colesterol LDL con una estatina no encaja de forma evidente como tratamiento. No se identificaron ensayos clínicos ni literatura que respalden la hipótesis.
 
-La puntuación alta del modelo (99.54%) refleja la cercanía de la enfermedad con las indicaciones originales del fármaco en el grafo de conocimiento. No constituye evidencia clínica. Con los datos actuales, la aplicabilidad mecanística es solo especulativa.
+La puntuación alta del modelo TxGNN (aprendizaje profundo) (0.9954) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No constituye evidencia clínica. Con los datos actuales, la aplicabilidad mecanística es solo especulativa.
 
 ## Evidencia de Ensayos Clínicos
 

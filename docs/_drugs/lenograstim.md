@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Lenograstim es un factor estimulante de colonias de granulocitos (G-CSF) recombinante humano, comercializado en España con el nombre Granocyte. En los datos compilados para este informe no consta el texto de su indicación original.
+Lenograstim es un factor estimulante de colonias de granulocitos (G-CSF) recombinante humano, con el nombre Granocyte. Actualmente no está comercializado en España: solo constan autorizaciones canceladas. En los datos compilados para este informe no consta el texto de su indicación original.
 El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberación primaria de plaquetas**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
@@ -47,26 +47,26 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones de AEMPS (texto de indicación vacío) |
 | Nueva Indicación Predicha | Trastorno de liberación primaria de plaquetas |
-| Puntaje de Predicción TxGNN | 99,91% |
+| Puntaje de Predicción TxGNN | 0,9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, lenograstim es un G-CSF recombinante que actúa sobre el receptor de G-CSF, estimulando la proliferación y diferenciación de los progenitores de neutrófilos (linaje granulocítico).
 
-Los trastornos de liberación plaquetaria son defectos cualitativos de la función plaquetaria, relacionados con la secreción del contenido de los gránulos. Este no es un objetivo conocido del G-CSF. No se ha identificado ninguna vía biológica que conecte el fármaco con esta enfermedad, por lo que la razonabilidad mecanística es **baja**. El puntaje elevado de TxGNN refleja probablemente la proximidad en el grafo de conocimiento entre trastornos relacionados con plaquetas, y no una relación causal demostrada.
+Los trastornos de liberación plaquetaria son defectos cualitativos de la función plaquetaria, relacionados con la secreción del contenido de los gránulos. Este no es un objetivo conocido del G-CSF. No se ha identificado ninguna vía biológica que conecte el fármaco con esta enfermedad, por lo que la razonabilidad mecanística es **baja**. La puntuación elevada del modelo TxGNN (deep learning) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con las plaquetas, y no evidencia biológica ni una relación causal demostrada.
 
 ### Otras predicciones del modelo (para contexto)
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
 |------|------|------|------|
-| Trastorno de liberación primaria de plaquetas | 99,91% | L5 | Sin vínculo mecanístico conocido |
-| Trombastenia de Glanzmann | 99,89% | L5 | Defecto genético de la integrina αIIbβ3; G-CSF no actúa sobre este receptor |
-| Pseudoenfermedad de von Willebrand | 99,88% | L5 | Mutación con ganancia de función en GP1BA; sin interacción conocida con el eje GPIb-VWF |
-| Retinopatía diabética no proliferativa grave | 99,61% | L5 | Vínculo especulativo por la movilización de progenitores de médula ósea; la dirección del efecto es incierta, pues podría favorecer la neovascularización patológica |
+| Trastorno de liberación primaria de plaquetas | 0,9991 | L5 | Sin vínculo mecanístico conocido |
+| Trombastenia de Glanzmann | 0,9989 | L5 | Defecto genético de la integrina αIIbβ3; G-CSF no actúa sobre este receptor |
+| Pseudoenfermedad de von Willebrand | 0,9988 | L5 | Mutación con ganancia de función en GP1BA; sin interacción conocida con el eje GPIb-VWF |
+| Retinopatía diabética no proliferativa grave | 0,9961 | L5 | Vínculo especulativo por la movilización de progenitores de médula ósea; la dirección del efecto es incierta, pues podría favorecer la neovascularización patológica |
 
 ## Evidencia de Ensayos Clínicos
 

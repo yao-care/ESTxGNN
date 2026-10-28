@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Sumatriptan
-parent: Evidencia moderada (L3-L4)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 756
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Sumatriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (con o sin aura) y cefalea en racimos (según el grafo de cono…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Sumatriptan: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Sumatriptan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,67 +32,61 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Sumatriptán: De Migraña a Migraña con Aura del Tronco Encefálico
+<!-- known-uses-page -->
+<!-- description: Sumatriptan: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata -->
+## Sumatriptan: Usos conocidos y estado de mercado en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Sumatriptan son, en todos los casos que se pueden rastrear hasta una fuente, usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este medicamento.
 
-Sumatriptán es un fármaco de la clase de los triptanes, utilizado originalmente para el tratamiento agudo de la migraña (con o sin aura) y de la cefalea en racimos.
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**,
-pero actualmente no hay ensayos clínicos registrados y las **18 publicaciones** identificadas son en su mayoría revisiones o estudios indirectos sobre migraña en general.
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Migraña (con o sin aura) y cefalea en racimos (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.74% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 17 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplicable |
+| Estado de mercado en España | Comercializado (registros vigentes: 11 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 11) |
 
-## ¿Por qué es Razonable esta Predicción?
+## Usos conocidos entre los candidatos del modelo
 
-Los datos compilados no incluyen el mecanismo de acción original del fármaco. Según la farmacología conocida, sumatriptán es un agonista de los receptores de serotonina 5-HT1B/1D: provoca vasoconstricción de los vasos craneales e inhibe la liberación de CGRP y otros neuropéptidos desde las terminaciones trigeminales.
+### Aprobados (respaldados por una licencia o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| migraña con aura del tronco encefálico (migraine with brainstem aura) | licencia en otro país; indicación aprobada: migraine |
 
-La migraña con aura del tronco encefálico (antes llamada migraña de tipo basilar) comparte la fisiopatología trigeminovascular con las indicaciones de migraña ya conocidas, lo que explica el puntaje tan alto del modelo. Mecanísticamente, por tanto, la eficacia es plausible.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | Ninguna |
 
-Sin embargo, existe una advertencia importante: históricamente se ha sido cauteloso con los triptanes en este subtipo por el riesgo teórico de vasoconstricción en la circulación posterior, y las fichas técnicas tradicionalmente lo han desaconsejado. La predicción es sólida en cuanto a eficacia, pero plantea una duda de seguridad que no está resuelta con evidencia directa en los datos compilados.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Se listan las publicaciones más relevantes. Ninguna aborda específicamente la migraña con aura del tronco encefálico.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Sin clasificar | Neurology | Eficacia reducida de sumatriptán en migraña con aura frente a migraña sin aura |
-| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | ECA (doble ciego, controlado con placebo) | Cephalalgia | Sumatriptán oral 200 mg en el tratamiento agudo de migraña con aura (clásica) |
-| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | ECA | Phytotherapy Research | Jengibre frente a sumatriptán en migraña común sin aura (100 pacientes); no específico de aura de tronco encefálico |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revisión (guía) | Headache | Evaluación de evidencia de la American Headache Society sobre tratamiento agudo de la migraña |
-| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Revisión | Cephalalgia | Revisión crítica de sumatriptán en migraña y cefalea en racimos |
-| [26628293](https://pubmed.ncbi.nlm.nih.gov/26628293/) | 2016 | Revisión | Drugs | Sumatriptán/naproxeno en migraña con o sin aura; ensayos de fase 3 con mayor ausencia de dolor a las 2 h frente a placebo |
-| [27681528](https://pubmed.ncbi.nlm.nih.gov/27681528/) | 2016 | Revisión | Drugs | Sumatriptán en polvo nasal para el tratamiento agudo de la migraña |
-| [12917936](https://pubmed.ncbi.nlm.nih.gov/12917936/) | 2003 | Revisión Cochrane | Cochrane Database Syst Rev | Sumatriptán oral en migraña aguda |
-| [8559405](https://pubmed.ncbi.nlm.nih.gov/8559405/) | 1996 | Sin clasificar | Neurology | Sumatriptán subcutáneo y aura migrañosa |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Revisión | Handbook of Clinical Neurology | Estado migrañoso como complicación de la migraña con o sin aura |
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 68727 | Sumatriptán Teva 50 mg | Comprimido recubierto con película | No disponible |
-| 61629 | Imigran 10 mg | Solución para pulverización nasal | No disponible |
-| 59973 | Imigran 6 mg | Solución inyectable en jeringa precargada | No disponible |
-| 66406 | Imigran Neo 50 mg | Comprimido recubierto con película | No disponible |
-| 90084 | Sumatriptán Klaria 27 mg | Película bucal | No disponible |
-
-Hay 17 autorizaciones vigentes en total (todas de monocomponente, ninguna cancelada). Entre ellas figura Suvexx 85 mg/500 mg, que corresponde a una asociación con naproxeno, aunque en los datos aparece clasificada como monocomponente.
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 68727 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 90084 | sumatriptán | Película bucal (buccal film) | Autorizado, no comercializado |
+| 72020 | sumatriptán | SOLUCIÓN INYECTABLE EN JERINGA PRECARGAD | Vigente |
+| 69893 | sumatriptán | COMPRIMIDO | Vigente |
+| 85221 | sumatriptán | SOLUCIÓN INYECTABLE | Autorizado, no comercializado |
+| 61629 | sumatriptán | SOLUCION PARA PULVERIZACION NASAL | Vigente |
+| 71178 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 59973 | sumatriptán | SOLUCIÓN INYECTABLE EN JERINGA PRECARGAD | Vigente |
+| 61630 | sumatriptán | SOLUCION PARA PULVERIZACION NASAL | Vigente |
+| 11591201901 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 66406 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 3314999C | sumatriptán | SOLUCION PARA PULVERIZACION NASAL | Autorizado, no comercializado |
+| 66453 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 71487 | sumatriptán | COMPRIMIDO | Autorizado, no comercializado |
+| 68658 | sumatriptán | COMPRIMIDO | Cancelado |
+| 89461 | sumatriptán | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Autorizado, no comercializado |
+| 89272 | sumatriptán + naproxeno | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -101,19 +96,6 @@ Hay 17 autorizaciones vigentes en total (todas de monocomponente, ninguna cancel
 
 Para el resto de la información de seguridad, consultar el prospecto.
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción del modelo es muy alta y mecanísticamente plausible, pero solo hay evidencia indirecta (nivel L4, sin ensayos clínicos) y existe una duda de seguridad no resuelta en este subtipo de migraña. Además, falta la información de advertencias y contraindicaciones de la ficha técnica, por lo que no es posible avanzar al cribado de seguridad.
-
-**Para avanzar se necesita:**
-- Obtener y analizar la ficha técnica de la AEMPS (advertencias y contraindicaciones, en particular sobre migraña con aura del tronco encefálico o hemipléjica)
-- Completar los datos del mecanismo de acción desde DrugBank
-- Buscar estudios específicos sobre uso de triptanes en migraña con aura del tronco encefálico, incluida la seguridad vascular en circulación posterior
-- Confirmar los textos de indicación aprobada de las autorizaciones españolas
-- Valorar un estudio observacional o ensayo clínico con protocolo estricto de seguridad antes de cualquier recomendación de uso
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

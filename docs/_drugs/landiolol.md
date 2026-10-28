@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | No disponible en la autorización de AEMPS (el texto de indicación está vacío); según datos farmacológicos, taquicardia supraventricular |
 | Nueva Indicación Predicha | Discinesia lingual-facial-bucal |
-| Puntaje de Predicción TxGNN | 99.11% |
+| Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -88,11 +88,11 @@ Todas las predicciones tienen nivel L5 y recomendación Hold, sin ensayos ni lit
 
 | Enfermedad Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Trastorno de tics crónico | 99.08% | Los tratamientos adrenérgicos relevantes son agonistas alfa-2 de acción central; vínculo débil |
-| Trastornos del movimiento psicógenos | 99.05% | Sin estándar farmacológico; perfil intravenoso de corta duración poco adecuado para una enfermedad crónica |
-| Episodios de estremecimiento benigno | 99.04% | Condición benigna y autolimitada del lactante; el umbral de seguridad para un betabloqueante intravenoso es alto |
-| Enfermedad extrapiramidal y del movimiento | 99.04% | Categoría amplia; la puntuación refleja cercanía en el grafo, no un mecanismo específico |
-| Temblor ortostático primario | 99.00% | Se trata con clonazepam, gabapentina o primidona; improbable efecto sobre el oscilador central |
+| Trastorno de tics crónico | 0.9908 | Los tratamientos adrenérgicos relevantes son agonistas alfa-2 de acción central; vínculo débil |
+| Trastornos del movimiento psicógenos | 0.9905 | Sin estándar farmacológico; perfil intravenoso de corta duración poco adecuado para una enfermedad crónica |
+| Episodios de estremecimiento benigno | 0.9904 | Condición benigna y autolimitada del lactante; el umbral de seguridad para un betabloqueante intravenoso es alto |
+| Enfermedad extrapiramidal y del movimiento | 0.9904 | Categoría amplia; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
+| Temblor ortostático primario | 0.9900 | Se trata con clonazepam, gabapentina o primidona; improbable efecto sobre el oscilador central |
 
 ## Conclusión y Próximos Pasos
 

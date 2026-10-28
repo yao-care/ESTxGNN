@@ -6,9 +6,9 @@ nav_order: 562
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nevirapine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
 monitor_inn: "Nevirapine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Nevirapine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: No consta en los da…"
 ---
 
 # Nevirapine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Nevirapina: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+## Nevirapine: Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero no hay **ningún ensayo clínico** y solo se dispone de **13 publicaciones*
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 14 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 14) |
+| Número de Autorizaciones | 14 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

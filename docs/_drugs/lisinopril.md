@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisinopril
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 476
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Lisinopril: nueva indicación predicha, Infarto de miocardio posterolateral (nivel de evidencia L4). Indicación original: Hipertensión arterial (según el grafo de conocimiento"
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Lisinopril: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
+## Lisinopril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Se trata de un subtipo anatómico de una indicación ya conocida, por lo que no 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Infarto de miocardio posterolateral |
-| Puntaje de Predicción TxGNN | 99,90 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pulmonary hypertension with unclear multifactorial mechanism |
+| Puntaje de Predicción TxGNN | 0.9989 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El infarto de miocardio ya figura entre las indicaciones originales de lisinopril. El infarto posterolateral es un subtipo anatómico del infarto de miocardio, por lo que el beneficio de la inhibición de la ECA (menor remodelado ventricular y menor mortalidad tras el infarto) se extiende de forma plausible a esta localización.
 
-La puntuación alta del modelo refleja sobre todo la relación ontológica con la enfermedad de origen y no aporta evidencia nueva. Cabe destacar que otro subtipo, el infarto posteroinferior, obtiene exactamente la misma puntuación (99,90 %), lo que apunta en la misma dirección.
+La puntuación alta del modelo refleja sobre todo la relación ontológica con la enfermedad de origen y no aporta evidencia nueva.
 
 ---
 

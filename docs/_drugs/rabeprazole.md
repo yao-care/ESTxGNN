@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Rabeprazole
-parent: Solo predicción del modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 676
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Rabeprazole: nueva indicación predicha, Mastocitosis sistémica latente (smouldering) (nivel de evidencia L5). Indicación original: Enfermedad ulcerosa péptica y reflujo gastroesofágico (según las ind…"
-monitor_inn: "Rabeprazole"
-predicted_indications: ["lymphoadenopathic mastocytosis with eosinophilia"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Rabeprazole: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Rabeprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,56 +32,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Rabeprazol: De Enfermedad Ulcerosa Péptica a Mastocitosis Sistémica Latente (Smouldering)
+<!-- known-uses-page -->
+<!-- description: Rabeprazole: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata -->
+## Rabeprazole: Usos conocidos y estado de comercialización en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+El modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99) generó candidatos para Rabeprazole, pero todos los que pueden rastrearse hasta una fuente corresponden a usos ya conocidos. Por ello, actualmente no existe ninguna nueva indicación predicha para este fármaco. Los usos conocidos aparecen como relaciones del grafo de conocimiento, sin aprobación encontrada.
 
-Rabeprazol es un inhibidor de la bomba de protones, utilizado originalmente para el tratamiento de la enfermedad ulcerosa péptica y el reflujo gastroesofágico.
-El modelo TxGNN predice que podría ser efectivo para **mastocitosis sistémica latente (smouldering)**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Resumen rápido
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Enfermedad ulcerosa péptica y reflujo gastroesofágico (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Mastocitosis sistémica latente (smouldering) |
-| Puntaje de Predicción TxGNN | 99.44% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 2 |
+| Nivel de evidencia | No aplicable |
+| Estado de comercialización en España | Comercializado (registros vigentes: al menos 14) |
+| Número de Autorizaciones | al menos 20 |
 
-## ¿Por qué es Razonable esta Predicción?
+## Usos conocidos entre los candidatos del modelo
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, rabeprazol pertenece a la clase de los inhibidores de la bomba de protones, su eficacia en patologías de hipersecreción ácida está establecida, y mecanísticamente podría ser aplicable de forma limitada a la mastocitosis sistémica.
+### Aprobados (respaldados por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguna | — |
 
-Entre las indicaciones originales registradas figuran la mastocitosis, la mastocitosis sistémica y el síndrome de Zollinger-Ellison. Esto probablemente explica el puntaje alto del modelo: la nueva indicación está muy próxima a estas enfermedades en el grafo de conocimiento.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | — |
 
-Conviene ser claro sobre el alcance: el vínculo es indirecto y se basa solo en la predicción. En la mastocitosis, los mediadores de los mastocitos pueden provocar hipersecreción ácida gástrica, y el rabeprazol aportaría control sintomático de la acidez. No actúa sobre la enfermedad clonal de mastocitos (por ejemplo, la proliferación impulsada por KIT D816V), por lo que no hay un mecanismo modificador de la enfermedad respaldado.
-
-Una segunda predicción (rango 2), la mastocitosis linfadenopática con eosinofilia (puntaje 99.35%), sigue la misma lógica de proximidad en el grafo y tampoco cuenta con evidencia. No hay indicios de que la inhibición de la bomba de protones afecte la linfadenopatía, la eosinofilia ni la biología clonal de los mastocitos.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Mastocitosis sistémica latente (Smouldering systemic mastocytosis) |
+| Mastocitosis linfoadenopática con eosinofilia (lymphoadenopathic mastocytosis with eosinophilia) |
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo). Los textos de indicación aprobada no estaban disponibles en los datos compilados.
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 76934 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
+| 034216186 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| BE199692IP1 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 75791 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 3400935514790 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 3247308042014 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 76969 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
+| 83465 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 75481 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 72744 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 62461 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 73898 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
+| 75440 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 3247308042014IP1 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Autorizado, no comercializado |
+| 3247308042014IP | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 355147-9IP | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 73505 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
+| 76198 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Cancelado |
+| 76936 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Autorizado, no comercializado |
+| 355147-9 | rabeprazol | COMPRIMIDO GASTRORRESISTENTE | Vigente |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 76934 | Rabeprazol Mabo 10 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
-| 034216186 | Pariet 20 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
-| 62461 | Pariet 10 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
-| 72744 | Rabeprazol Cinfa 20 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
-| 73505 | Rabeprazol Sandoz 10 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
+Los datos solo contienen parte de los registros; la lista puede estar incompleta.
 
 ## Consideraciones de Seguridad
 
@@ -94,19 +104,6 @@ Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo 
 
 No se dispone de advertencias principales ni de contraindicaciones extraídas del prospecto. Consultar el prospecto para esta información.
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción alcanza un puntaje alto (99.44%), pero se basa solo en la proximidad en el grafo de conocimiento (nivel L5), sin ensayos clínicos ni literatura. El rabeprazol solo aportaría control sintomático de la hipersecreción ácida y no tiene un efecto demostrado sobre la enfermedad clonal de mastocitos.
-
-**Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) del rabeprazol.
-- Advertencias y contraindicaciones del prospecto de la AEMPS (hoy es un bloqueo para el cribado de seguridad).
-- Revisión de la literatura y de registros de ensayos sobre inhibidores de la bomba de protones en mastocitosis sistémica.
-- Aclarar si el beneficio buscado es solo sintomático (control de la acidez) o si se pretende un efecto sobre la enfermedad.
-- Evaluar las interacciones de gravedad mayor (acalabrutinib, atazanavir) y las contraindicaciones del grafo (enfermedad hepática, osteoporosis) en la población con mastocitosis.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

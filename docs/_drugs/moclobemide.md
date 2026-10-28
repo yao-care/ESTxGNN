@@ -6,9 +6,9 @@ nav_order: 538
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Moclobemide: nueva indicación predicha, Agorafobia (nivel de evidencia L2). Indicación original: Trastorno de ansiedad, trastorno neurótico…"
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Moclobemide: nueva indicación predicha, Agorafobia (agoraphobia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Moclobemide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 
 </div>
 
-## Moclobemida: De Trastorno de Ansiedad a Agorafobia
+## Moclobemide: Agorafobia (agoraphobia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos registrados** y **10 publicaciones** que actualmente r
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad, trastorno neurótico, trastorno distímico (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Agorafobia |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Agorafobia (agoraphobia) |
+| Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -102,7 +102,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen dos ensayos aleatorizados que evalúan moclobemida en trastorno de pánico con agorafobia, además de revisiones y un alto puntaje de TxGNN (99.43%), lo que sitúa la evidencia en L2. Sin embargo, no hay ensayos clínicos registrados y faltan los datos de seguridad de la ficha técnica, por lo que se recomienda avanzar con cautela.
+Existen dos ensayos aleatorizados que evalúan moclobemida en trastorno de pánico con agorafobia, además de revisiones y un alto puntaje de TxGNN (0.9943), lo que sitúa la evidencia en L2. Sin embargo, no hay ensayos clínicos registrados y faltan los datos de seguridad de la ficha técnica, por lo que se recomienda avanzar con cautela.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente un vacío bloqueante para el cribado de seguridad.
@@ -111,7 +111,7 @@ Existen dos ensayos aleatorizados que evalúan moclobemida en trastorno de páni
 - Evaluar la evidencia específica en agorafobia (los ensayos disponibles se centran en trastorno de pánico) y considerar un ensayo clínico dirigido.
 - Definir un plan de gestión de interacciones propio de los IMAO.
 
-**Nota sobre la segunda predicción:** la indicación «tortícolis paroxística benigna de la infancia» (puntaje 99.30%) se clasifica como L5 y **Hold**: no hay evidencia clínica ni de literatura, y no existe un vínculo mecanístico respaldado por los datos.
+**Nota sobre la segunda predicción:** la indicación «tortícolis paroxística benigna de la infancia» (puntaje 0.9930) se clasifica como L5 y **Hold**: no hay evidencia clínica ni de literatura, y no existe un vínculo mecanístico respaldado por los datos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

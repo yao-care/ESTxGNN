@@ -48,17 +48,17 @@ pero actualmente **no hay ensayos clínicos** registrados y solo hay **10 public
 |------|------|
 | Indicación Original | Linfoma cutáneo primario de células T (no Hodgkin) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células B |
-| Puntaje de Predicción TxGNN | 99.44% |
+| Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Bexaroteno es un agonista del receptor X de retinoides (RXR). Al activarlo, induce apoteosis y diferenciación en células T malignas, y ese es el fundamento de su uso aprobado en el linfoma cutáneo de células T. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento general del fármaco.
 
-La relación entre ambas indicaciones es sobre todo de "vecindad": los linfomas cutáneos de células T y de células B son linfomas no Hodgkin que afectan a la piel y se agrupan en las mismas clasificaciones (OMS/EORTC). El puntaje de TxGNN es muy alto (0.994), pero probablemente refleja la cercanía en la red de conocimiento con las indicaciones aprobadas de linfoma de células T, y no una señal específica de células B.
+La relación entre ambas indicaciones es sobre todo de "vecindad": los linfomas cutáneos de células T y de células B son linfomas no Hodgkin que afectan a la piel y se agrupan en las mismas clasificaciones (OMS/EORTC). El puntaje de TxGNN es muy alto (0.9944), pero probablemente refleja la cercanía en la red de conocimiento con las indicaciones aprobadas de linfoma de células T, y no una señal específica de células B.
 
 No hay datos que respalden un mecanismo específico para la enfermedad de células B. La literatura recuperada son revisiones generales de linfomas cutáneos y reportes de caso que no muestran actividad de bexaroteno en esta enfermedad. Por ello, la plausibilidad mecanística no puede confirmarse con la información disponible.
 

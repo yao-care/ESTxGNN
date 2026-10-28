@@ -6,9 +6,9 @@ nav_order: 195
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clofazimine: nueva indicación predicha, Pneumocystosis (neumocistosis) (nivel de evidencia L5). Indicación original: Lepra (según las indicaciones del grafo de conocimiento"
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
+description: "Clofazimine: nueva indicación predicha, Pneumocystosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clofazimine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Clofazimina: De Lepra a Pneumocystosis
+## Clofazimine: Pneumocystosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **pneumocystosis (neumocis
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lepra (según las indicaciones del grafo de conocimiento; el texto de indicación de la autorización de AEMPS está vacío) |
-| Nueva Indicación Predicha | Pneumocystosis (neumocistosis) |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pneumocystosis |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La neumocistosis es una infección oportunista pulmonar causada por un hongo. La relación con la indicación original es débil: la literatura recuperada trata sobre pacientes con sida en los que la clofazimina se usó contra *Mycobacterium avium* o en coinfecciones, sin mostrar actividad contra *Pneumocystis*.
 
-Por tanto, **no se ha establecido un vínculo mecanístico creíble**. El puntaje de 99.90% es una predicción basada únicamente en el grafo de conocimiento y no debe interpretarse como evidencia de eficacia.
+Por tanto, **no se ha establecido un vínculo mecanístico creíble**. El puntaje de 0.9990 proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no debe interpretarse como evidencia de eficacia.
 
 ---
 
@@ -122,8 +122,8 @@ La predicción es solo computacional (L5): no hay ensayos clínicos y la literat
 
 ### Nota sobre otras predicciones evaluadas
 
-- **Malaria** (TxGNN 99.60%, nivel L4, categoría "pregunta de investigación"): solo hay evidencia preclínica indirecta, un estudio in vitro de análogos de clofazimina con actividad antiplasmodial (PMID 29026393). No hay ensayos clínicos. Justifica seguimiento preclínico, no recomendación clínica.
-- **Anomalía de la secreción de gastrina** (TxGNN 99.57%, nivel L5, Hold): sin ensayos ni literatura y sin fundamento mecanístico.
+- **Malaria** (TxGNN 0.9960, nivel L4, categoría "pregunta de investigación"): solo hay evidencia preclínica indirecta, un estudio in vitro de análogos de clofazimina con actividad antiplasmodial (PMID 29026393). No hay ensayos clínicos. Justifica seguimiento preclínico, no recomendación clínica.
+- **Anomalía de la secreción de gastrina** (TxGNN 0.9957, nivel L5, Hold): sin ensayos ni literatura y sin fundamento mecanístico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

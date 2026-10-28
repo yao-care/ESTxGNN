@@ -6,9 +6,9 @@ nav_order: 281
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Elbasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (nivel de evidencia L4). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 monitor_inn: "elbasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Elbasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Elbasvir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Elbasvir: De Infección por el Virus de la Hepatitis C a Infección por el Virus de la Hepatitis B
+## Elbasvir: Infección por el virus de la hepatitis B (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **infección por el virus 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis C (según el grafo de conocimiento; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Infección por el virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por el virus de la hepatitis B (hepatitis B virus infection) |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---

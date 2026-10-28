@@ -4,17 +4,17 @@ title: Nabumetone
 parent: Solo predicción del modelo (L5)
 nav_order: 547
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Nabumetone: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide / artrosis / artropatía (según el grafo de cono…"
 monitor_inn: "nabumetone"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "rheumatoid nodulosis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis"]
+description: "Nabumetone: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los da…"
 ---
 
 # Nabumetone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Nabumetona: De Artritis Reumatoide a Displasia Acromesomélica Tipo Hunter-Thompson
+## Nabumetone: Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide / artrosis / artropatía (según el grafo de conocimiento; el texto de indicación de la autorización de AEMPS no está disponible) |
-| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, nabumetona es un profármaco cuyo metabolito activo, el 6-MNA, inhibe preferentemente la COX-2, con eficacia comprobada en enfermedades articulares inflamatorias y degenerativas.
 
-La displasia acromesomélica tipo Hunter-Thompson es una enfermedad esquelética genética rara, asociada a defectos en la vía de señalización CDMP1/GDF5. **No se identifica un vínculo mecanístico plausible**: la inhibición de la COX-2 no guarda relación conocida con esa vía. El puntaje elevado probablemente refleja la cercanía en el grafo de conocimiento con nodos de fenotipo articular/esquelético (artropatía, artrosis), y no una justificación farmacológica.
+La displasia acromesomélica tipo Hunter-Thompson es una enfermedad esquelética genética rara, asociada a defectos en la vía de señalización CDMP1/GDF5. **No se identifica un vínculo mecanístico plausible**: la inhibición de la COX-2 no guarda relación conocida con esa vía. El puntaje elevado proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como las de fenotipo articular/esquelético (artropatía, artrosis), no evidencia biológica ni una justificación farmacológica.
 
 Por ello, esta predicción debe considerarse una hipótesis sin respaldo mecanístico ni clínico.
 

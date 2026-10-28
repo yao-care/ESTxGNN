@@ -6,9 +6,9 @@ nav_order: 203
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Cobicistat: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
 monitor_inn: "COBICISTAT"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Cobicistat: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L5). Indicación original: No consta en los da…"
 ---
 
 # Cobicistat
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Cobicistat: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+## Cobicistat: Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El VIS es un lentivirus muy cercano al VIH y es el modelo de primates no humanos más habitual de esta enfermedad. Por ello, el alto puntaje de TxGNN probablemente refleja la proximidad en la red de conocimiento con la indicación de VIH. Cualquier beneficio dependería de potenciar un antirretroviral administrado conjuntamente.
 
-Conviene tener en cuenta que el VIS es un modelo veterinario/preclínico y no una enfermedad humana, lo que limita la traslación clínica. Las otras dos predicciones del modelo tampoco aportan una vía de reposicionamiento humana sólida: el SIDA felino (enfermedad veterinaria, puntaje 99.92%) y un trastorno del neurodesarrollo raro con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical (puntaje 99.91%), para el cual no se identificó ningún vínculo mecanístico claro.
+Conviene tener en cuenta que el VIS es un modelo veterinario/preclínico y no una enfermedad humana, lo que limita la traslación clínica. Las otras dos predicciones del modelo tampoco aportan una vía de reposicionamiento humana sólida: el SIDA felino (enfermedad veterinaria, puntaje 0.9992) y un trastorno del neurodesarrollo raro con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical (puntaje 0.9991), para el cual no se identificó ningún vínculo mecanístico claro.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 ## Resumen en Una Frase
 
 Remdesivir es un análogo de nucleótido (profármaco) comercializado en España como Veklury, en formulación para perfusión intravenosa; los datos compilados no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múltiple** (puntaje de 99.5%), pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múltiple** (puntaje de 0.9950), pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 Se trata de una predicción puramente computacional, sin vínculo mecanístico identificable, y probablemente sea un artefacto del modelo.
 
 ## Resumen Rápido
@@ -48,10 +48,10 @@ Se trata de una predicción puramente computacional, sin vínculo mecanístico i
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
-| Puntaje de Predicción TxGNN | 99.50% |
+| Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La neoplasia endocrina múltiple es un síndrome tumoral hereditario (por ejemplo, mutaciones en MEN1 o RET) sin etiología viral ni diana viral. No se identifica ningún vínculo mecanístico entre la inhibición de la polimerasa viral y esta enfermedad.
 
-El puntaje elevado (0.995) proviene de una predicción basada en grafos de conocimiento, sin ensayos ni literatura de apoyo. Debe interpretarse con mucha cautela, ya que probablemente sea un artefacto del modelo.
+El puntaje elevado (0.9950) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura de apoyo. Debe interpretarse con mucha cautela, ya que probablemente sea un artefacto del modelo.
 
 ## Evidencia de Ensayos Clínicos
 

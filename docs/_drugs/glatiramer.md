@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **hemoglobinopatía**, per
 |------|------|
 | Indicación Original | No disponible en las autorizaciones de AEMPS (el texto de indicación está vacío); el uso conocido del fármaco es la esclerosis múltiple |
 | Nueva Indicación Predicha | Hemoglobinopatía |
-| Puntaje de Predicción TxGNN | 99.03% |
+| Puntaje de Predicción TxGNN | 0.9903 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Glatiramero es un inmunomodulador, una mezcla aleatoria de polímeros de cuatro aminoácidos. Se cree que desvía las respuestas de los linfocitos T hacia fenotipos Th2/reguladores y que compite con los antígenos de la mielina por la presentación en el MHC. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior procede del análisis mecanístico de la propia predicción.
 
-**La predicción no tiene, a día de hoy, un respaldo mecanístico creíble.** Las hemoglobinopatías (por ejemplo, la anemia falciforme y la talasemia) son trastornos causados principalmente por mutaciones en los genes de la globina y por patología del glóbulo rojo. La modulación inmunitaria no es un eje terapéutico reconocido en ellas. El puntaje elevado de TxGNN (0.990) es únicamente una predicción computacional y no está respaldado por evidencia clínica ni mecanística.
+**La predicción no tiene, a día de hoy, un respaldo mecanístico creíble.** Las hemoglobinopatías (por ejemplo, la anemia falciforme y la talasemia) son trastornos causados principalmente por mutaciones en los genes de la globina y por patología del glóbulo rojo. La modulación inmunitaria no es un eje terapéutico reconocido en ellas. El puntaje elevado de TxGNN (0.9903) es únicamente una predicción computacional y no está respaldado por evidencia clínica ni mecanística.
 
 La única publicación vinculada trata sobre trastornos inmunitarios tras suspender natalizumab en esclerosis múltiple, y no evalúa glatiramero en hemoglobinopatía. Su relación con esta indicación probablemente es incidental: la paciente descrita tenía antecedentes de beta talasemia.
 

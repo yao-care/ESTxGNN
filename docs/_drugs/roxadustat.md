@@ -6,9 +6,9 @@ nav_order: 715
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Roxadustat: nueva indicación predicha, Síndrome del ojo seco (nivel de evidencia L5). Indicación original: Anemia refractaria (según el grafo de conocimiento"
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
+description: "Roxadustat: nueva indicación predicha, Síndrome del ojo seco (dry eye syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Roxadustat
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Roxadustat: De Anemia Refractaria a Síndrome del Ojo Seco
+## Roxadustat: Síndrome del ojo seco (dry eye syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome del ojo seco**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Anemia refractaria (según el grafo de conocimiento; el texto de indicación autorizado no está disponible en los datos compilados) |
-| Nueva Indicación Predicha | Síndrome del ojo seco |
-| Puntaje de Predicción TxGNN | 99.51% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome del ojo seco (dry eye syndrome) |
+| Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,15 +59,15 @@ Roxadustat inhibe las prolil hidroxilasas del HIF (EGLN1-3), lo que estabiliza H
 
 La relación con el ojo seco es especulativa. La activación de HIF podría modular la inflamación de la superficie ocular, la respuesta al estrés hipóxico y la reparación epitelial. Sin embargo, no existe evidencia clínica ni bibliográfica que lo confirme, y el sentido del efecto (beneficioso o perjudicial) es incierto.
 
-El puntaje TxGNN (0.995) es una predicción computacional y no sustituye a la evidencia experimental. La similitud mecanística con la indicación original (anemia) aún está pendiente de análisis.
+El puntaje TxGNN (0.9951) es una predicción computacional y no sustituye a la evidencia experimental. La similitud mecanística con la indicación original (anemia) aún está pendiente de análisis.
 
 ### Otras predicciones del modelo (para contexto)
 
 | Rango | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|------|
-| 2 | Enfermedad de Paget ósea | 99.12% | L5 | HIF influye en el remodelado óseo, pero el sentido del efecto es incierto |
-| 3 | Dentinogénesis imperfecta | 99.06% | L5 | Sin vía mecanística clara; probable artefacto de proximidad en la red |
-| 4 | Carcinoma de células escamosas | 99.02% | L5 | La estabilización de HIF podría favorecer el crecimiento tumoral: preocupación de seguridad |
+| 2 | Enfermedad de Paget ósea | 0.9912 | L5 | HIF influye en el remodelado óseo, pero el sentido del efecto es incierto |
+| 3 | Dentinogénesis imperfecta | 0.9906 | L5 | Sin vía mecanística clara; probable artefacto de proximidad en la red |
+| 4 | Carcinoma de células escamosas | 0.9902 | L5 | La estabilización de HIF podría favorecer el crecimiento tumoral: preocupación de seguridad |
 
 ## Evidencia de Ensayos Clínicos
 

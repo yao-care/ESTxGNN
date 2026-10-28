@@ -6,9 +6,9 @@ nav_order: 217
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dalteparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (nivel de evidencia L5). Indicación original: Embolia pulmonar, coagulación intravascular disemin…"
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
+description: "Dalteparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No cons…"
 ---
 
 # Dalteparin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Dalteparina: De Embolia Pulmonar a Trombofilia por Deficiencia de Proteína C (Autosómica Recesiva)
+## Dalteparin: Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **trombofilia por deficien
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Embolia pulmonar, coagulación intravascular diseminada, púrpura fulminante (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva |
-| Puntaje de Predicción TxGNN | 99,88 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive) |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ No se dispone actualmente de datos detallados sobre el mecanismo de acción regi
 
 La deficiencia de proteína C es un estado de hipercoagulabilidad, y la púrpura fulminante (incluida su forma adquirida), una de las indicaciones originales, se asocia clásicamente con deficiencia grave de proteína C. Esta relación hace biológicamente plausible la predicción. En la práctica clínica ya se utiliza anticoagulación en esta condición, aunque los datos compilados no contienen evidencia específica de dalteparina.
 
-Conviene subrayar que el puntaje de 99,88 % es una predicción computacional sin validación clínica ni bibliográfica en los datos compilados.
+Conviene subrayar que el puntaje de 0,9988 es una predicción computacional sin validación clínica ni bibliográfica en los datos compilados.
 
 ## Evidencia de Ensayos Clínicos
 

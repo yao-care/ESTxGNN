@@ -6,9 +6,9 @@ nav_order: 440
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ketoconazole: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Micosis cutáneas (tinea pedis, dermatitis seborreica…"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
+description: "Ketoconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Ketoconazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Ketoconazol: De Infecciones Fúngicas Cutáneas a Acné
+## Ketoconazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **1 ensayo clínico** (aún sin resultados) y **15 publicaciones** de releva
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Micosis cutáneas (tinea pedis, dermatitis seborreica, pitiriasis versicolor, candidiasis cutánea, entre otras; según el grafo de conocimiento, ya que los textos de autorización no incluyen indicación) |
-| Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a estudios preclínicos y mecanísticos (nivel L4) y a un único ensayo aleatorizado todavía sin resultados; el puntaje de 99.80% es solo una predicción computacional. Además, falta la información de seguridad oficial del prospecto, por lo que no es posible avanzar a una evaluación de seguridad.
+La evidencia se limita a estudios preclínicos y mecanísticos (nivel L4) y a un único ensayo aleatorizado todavía sin resultados; el puntaje de 0.9980 es solo una predicción computacional. Además, falta la información de seguridad oficial del prospecto, por lo que no es posible avanzar a una evaluación de seguridad.
 
 **Para avanzar se necesita:**
 - Resultados del ensayo NCT07237763 (ketoconazol 2% frente a adapaleno 2%).

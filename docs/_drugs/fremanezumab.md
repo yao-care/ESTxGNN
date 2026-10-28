@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 363
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fremanezumab: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Migraña (según el grafo de conocimiento"
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Fremanezumab: De Migraña a Migraña con Aura del Tronco Encefálico
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Fremanezumab es un anticuerpo monoclonal humanizado dirigido contra el péptido relacionado con el gen de la calcitonina (CGRP), originalmente utilizado para la prevención de la migraña.
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**,
 pero actualmente no hay ensayos clínicos registrados y la literatura recopilada (**20 publicaciones**) trata sobre la migraña en general, sin evaluar específicamente a pacientes con aura de tronco encefálico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Migraña (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99,94 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Atrophoderma vermiculata |
+| Puntaje de Predicción TxGNN | 0.9904 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -99,7 +98,7 @@ No obstante, la literatura recopilada señala una cuestión que debe vigilarse: 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje muy alto (99,94 %), pero es solo computacional. No hay ensayos clínicos y ninguna publicación evalúa específicamente la migraña con aura del tronco encefálico. Además, este subtipo se considera una subpoblación de la indicación ya aprobada, y persiste una incógnita de seguridad vascular.
+No hay ensayos clínicos y ninguna publicación evalúa específicamente la migraña con aura del tronco encefálico. Además, este subtipo se considera una subpoblación de la indicación ya aprobada, y persiste una incógnita de seguridad vascular.
 
 **Para avanzar se necesita:**
 - Obtener y analizar las advertencias y contraindicaciones del prospecto de AEMPS (carencia bloqueante para el cribado de seguridad).
@@ -108,7 +107,7 @@ La predicción tiene un puntaje muy alto (99,94 %), pero es solo computacional. 
 - Evaluación del riesgo cerebrovascular en pacientes con aura.
 - Confirmar el texto de indicación autorizado en AEMPS.
 
-**Nota sobre la segunda predicción (atrofodermia vermiculada):** el puntaje TxGNN es alto (99,04 %), pero no existe un vínculo mecanístico creíble, ni ensayos clínicos, ni literatura de respaldo. Probablemente sea un artefacto del grafo de conocimiento; nivel de evidencia L5, decisión **Hold**.
+**Nota sobre la segunda predicción (atrofodermia vermiculada):** el puntaje TxGNN es alto (0,9904), pero no existe un vínculo mecanístico creíble, ni ensayos clínicos, ni literatura de respaldo. Probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo); nivel de evidencia L5, decisión **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -6,9 +6,9 @@ nav_order: 712
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ropinirole: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L3). Indicación original: Síndrome de piernas inquietas y enfermedad de Parkinson …"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
+description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Ropinirole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Ropinirol: De Síndrome de Piernas Inquietas y Enfermedad de Parkinson a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Ropinirole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **0 ensayos clínicos registrados** y **8 publicaciones** (incluyendo un pos
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de piernas inquietas y enfermedad de Parkinson (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

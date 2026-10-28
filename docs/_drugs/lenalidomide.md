@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: Evidencia alta (L1-L2)
 nav_order: 459
 evidence_level: L2
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L2). Indicación original: Mieloma de células plasmáticas (según el grafo de conocimiento"
 monitor_inn: "Lenalidomide"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **6**
 
 </div>
 
-## Lenalidomida: De Mieloma de Células Plasmáticas a Leucemia Mieloide
+## Lenalidomide: Leucemia mieloide (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **42 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Mieloma de células plasmáticas (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99,49% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -145,11 +145,9 @@ Las demás predicciones tienen menor respaldo y no se recomienda priorizarlas:
 
 | Indicación | Puntaje TxGNN | Nivel | Recomendación |
 |------|------|------|------|
-| Síndrome mielodisplásico no clasificado | 99,43% | L3 | Pregunta de investigación |
-| Citopenia refractaria de la infancia | 99,35% | L3 | Hold |
-| Anemia aregenerativa | 99,32% | L3 | Hold |
-| Anemia hipocrómica congénita grave con sideroblastos en anillo | 99,28% | L5 | Hold |
-| Deleción parcial del brazo largo del cromosoma 5 | 99,27% | L5 | Hold (probable duplicado de la indicación original SMD del(5q)) |
+| Citopenia refractaria de la infancia | 0,9935 | L3 | Hold |
+| Anemia aregenerativa | 0,9932 | L3 | Hold |
+| Anemia hipocrómica congénita grave con sideroblastos en anillo | 0,9928 | L5 | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

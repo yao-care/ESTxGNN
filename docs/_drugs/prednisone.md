@@ -6,9 +6,9 @@ nav_order: 659
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prednisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Enfermedad autoinmune (los datos compilados no incluyen el texto de i…"
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+description: "Prednisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Prednisone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Prednisona: De Enfermedades Autoinmunes e Inflamatorias a Alopecia Areata
+## Prednisone: Alopecia areata
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad autoinmune (los datos compilados no incluyen el texto de indicación aprobado por la AEMPS; la indicación procede del grafo de conocimiento) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -120,9 +120,8 @@ Consultar el prospecto para la información completa de advertencias y contraind
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Tenosinovitis | 99,80 % | L4 | Pregunta de investigación |
-| Alopecia mucinosa | 99,99 % | L4 | Hold |
-| Efluvio telógeno, foliculitis decalvante de Quinquaud, entre otras | 99,98 % | L5 | Hold |
+| Tenosinovitis | 0,9980 | L4 | Pregunta de investigación |
+| Alopecia mucinosa | 0,9999 | L5 | Hold |
 
 Las demás indicaciones predichas (excepto alopecia areata) carecen de evidencia clínica sólida o de un mecanismo plausible.
 

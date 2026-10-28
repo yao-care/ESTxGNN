@@ -6,9 +6,9 @@ nav_order: 747
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Hipertensión (según el grafo de conocimiento"
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Espironolactona: De Hipertensión a Hipotricosis Simple del Cuero Cabelludo
+## Spironolactone: Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión (según el grafo de conocimiento; el texto de indicación aprobado en las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.26% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
+| Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,9 +60,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Esa acción antiandrogénica se usa fuera de indicación en la alopecia femenina de patrón, lo que da un vínculo plausible pero indirecto con los trastornos de pérdida de cabello.
 
-Sin embargo, la hipotricosis simple es una condición hereditaria no dependiente de andrógenos, asociada a variantes en genes como CDSN, APCDD1 y RPL21. Por ello, la lógica de la vía androgénica no parece aplicarse con claridad. El puntaje alto (0.993) es una predicción computacional sin respaldo en ensayos ni literatura.
+Sin embargo, la hipotricosis simple es una condición hereditaria no dependiente de andrógenos, asociada a variantes en genes como CDSN, APCDD1 y RPL21. Por ello, la lógica de la vía androgénica no parece aplicarse con claridad. El puntaje alto (0.9926) es una predicción computacional sin respaldo en ensayos ni literatura.
 
-También se predijo **hipotricosis congénita con milia** (puntaje 99.04%, nivel L5, Hold). Probablemente refleja la cercanía en la red con otros fenotipos de hipotricosis y no un mecanismo específico; es un trastorno genético raro sin patología androgénica establecida.
+También se predijo **hipotricosis congénita con milia** (puntaje 0.9904, nivel L5, Hold). Probablemente refleja la cercanía en la red con otros fenotipos de hipotricosis y no un mecanismo específico; es un trastorno genético raro sin patología androgénica establecida.
 
 ## Información de Mercado en España
 

@@ -48,17 +48,17 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Infección anogenital por virus del papiloma humano (primera indicación original registrada en el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Esclerosis múltiple remitente-recurrente |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Numero de Autorizaciones | 4 |
+| Estado de Mercado en Espana | No comercializado (registros anulados: 4 de 4) |
+| Numero de Autorizaciones | 4 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el interferón alfa-2b es un interferón de tipo I con actividad inmunomoduladora y antiviral, y su eficacia en varias indicaciones oncológicas y virales ha sido establecida. Mecanísticamente podría ser aplicable a la esclerosis múltiple, aunque esto es una inferencia a partir de conocimiento general y no de los datos compilados para este informe.
 
-Otros interferones de tipo I (interferón beta-1a e interferón beta-1b) son terapias modificadoras de la enfermedad establecidas para la esclerosis múltiple remitente-recurrente. Se cree que actúan a través del receptor compartido IFNAR, lo que podría reducir la activación de los linfocitos T, modificar el equilibrio de citocinas y limitar el paso de células inmunes a través de la barrera hematoencefálica. Esta plausibilidad a nivel de clase probablemente explica el puntaje tan alto de la predicción (0.998).
+Otros interferones de tipo I (interferón beta-1a e interferón beta-1b) son terapias modificadoras de la enfermedad establecidas para la esclerosis múltiple remitente-recurrente. Se cree que actúan a través del receptor compartido IFNAR, lo que podría reducir la activación de los linfocitos T, modificar el equilibrio de citocinas y limitar el paso de células inmunes a través de la barrera hematoencefálica. Esta plausibilidad a nivel de clase probablemente explica el puntaje tan alto de la predicción (0.9981).
 
 Sin embargo, es una predicción computacional. No existe evidencia clínica específica del interferón alfa-2b en esta enfermedad, y la farmacología de los subtipos alfa y beta no es intercambiable. Además, el interferón alfa se ha asociado con reportes de inducción o agravamiento de enfermedades autoinmunes y neurológicas, incluidos eventos desmielinizantes, por lo que el balance beneficio-riesgo es incierto.
 
@@ -105,7 +105,7 @@ Para advertencias y contraindicaciones detalladas, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje TxGNN muy alto (99.81%), pero no hay ningún ensayo clínico ni publicación que la respalde (nivel L5). Además, el interferón alfa se asocia con posibles efectos autoinmunes y desmielinizantes, y los interferones beta ya cubren esta necesidad terapéutica, por lo que el balance beneficio-riesgo es incierto.
+La predicción tiene un puntaje TxGNN muy alto (0.9981), pero no hay ningún ensayo clínico ni publicación que la respalde (nivel L5). Además, el interferón alfa se asocia con posibles efectos autoinmunes y desmielinizantes, y los interferones beta ya cubren esta necesidad terapéutica, por lo que el balance beneficio-riesgo es incierto.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre interferón alfa en esclerosis múltiple, incluidos los reportes de eventos desmielinizantes

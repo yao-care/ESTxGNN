@@ -6,9 +6,9 @@ nav_order: 681
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ramucirumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (nivel de evidencia L5). Indicación original: Adenocarcinoma gástrico (según el grafo de conocimiento"
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+description: "Ramucirumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ramucirumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ramucirumab: De Adenocarcinoma Gástrico a Adenocarcinoma del Ligamento Uterino
+## Ramucirumab: Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Adenocarcinoma gástrico (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino |
-| Puntaje de Predicción TxGNN | 99,95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,21 +64,21 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Los adenocarcinomas de origen ginecológico también dependen en parte de la angiogénesis, por lo que el bloqueo de VEGFR2 ofrece una justificación plausible pero no validada. En cáncer de cuello uterino, la terapia antiangiogénica (por ejemplo, bevacizumab) tiene un papel establecido, lo que apoya el racional a nivel de clase farmacológica.
 
-Es importante subrayar que no hay evidencia específica de ramucirumab en esta enfermedad. El puntaje TxGNN (99,95%) es una predicción del modelo y no equivale a eficacia demostrada.
+Es importante subrayar que no hay evidencia específica de ramucirumab en esta enfermedad. El puntaje TxGNN (0,9995) es una predicción del modelo y no equivale a eficacia demostrada.
 
 ### Otras indicaciones predichas (todas con nivel L5 y sin evidencia clínica)
 
 | Posición | Enfermedad predicha | Puntaje TxGNN |
 |------|------|------|
-| 2 | Carcinoma endocervical | 99,95% |
-| 3 | Carcinoma adenoide quístico del cuello uterino | 99,95% |
-| 4 | Adenocarcinoma seroso del ligamento uterino | 99,94% |
-| 5 | Adenocarcinoma mucinoso cervical, variante de células en anillo de sello | 99,94% |
-| 6 | Carcinoma adenoescamoso cervical, variante de células vítreas | 99,94% |
-| 7 | Adenocarcinoma endometrioide del ligamento uterino | 99,94% |
-| 8 | Adenocarcinoma de células claras del ligamento uterino | 99,94% |
-| 9 | Adenocarcinoma mucinoso del ligamento uterino | 99,94% |
-| 10 | Adenocarcinoma mucinoso cervical, variante intestinal | 99,94% |
+| 2 | Carcinoma endocervical | 0,9995 |
+| 3 | Carcinoma adenoide quístico del cuello uterino | 0,9995 |
+| 4 | Adenocarcinoma seroso del ligamento uterino | 0,9994 |
+| 5 | Adenocarcinoma mucinoso cervical, variante de células en anillo de sello | 0,9994 |
+| 6 | Carcinoma adenoescamoso cervical, variante de células vítreas | 0,9994 |
+| 7 | Adenocarcinoma endometrioide del ligamento uterino | 0,9994 |
+| 8 | Adenocarcinoma de células claras del ligamento uterino | 0,9994 |
+| 9 | Adenocarcinoma mucinoso del ligamento uterino | 0,9994 |
+| 10 | Adenocarcinoma mucinoso cervical, variante intestinal | 0,9994 |
 
 ---
 

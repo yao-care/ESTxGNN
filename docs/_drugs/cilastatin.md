@@ -4,17 +4,17 @@ title: Cilastatin
 parent: Evidencia moderada (L3-L4)
 nav_order: 180
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (nivel de evidencia L3). Indicación original: Neumonía bacteriana (según las indicaciones del grafo de conocimiento"
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
+description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Cilastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Cilastatina: De Neumonía Bacteriana a Infección por Staphylococcus aureus
+## Cilastatin: Infección por Staphylococcus aureus (staphylococcus aureus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ El efecto antibacteriano proviene del imipenem, no de la cilastatina.
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumonía bacteriana (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por Staphylococcus aureus |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por Staphylococcus aureus (staphylococcus aureus infection) |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -123,7 +123,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La evidencia para S. aureus se limita a estudios clínicos pequeños y antiguos, reportes de casos, estudios preclínicos y un único ensayo de Fase 4 indirecto. Algunos datos preclínicos muestran incluso menor actividad frente a MRSA que vancomicina. El efecto depende del imipenem y no de la cilastatina, por lo que no constituye un reposicionamiento propiamente dicho.
 
-Entre las demás predicciones del modelo, la **neumonía** (HABP/VABP) tiene mucho mejor respaldo, con ensayos de Fase 3 completados (por ejemplo NCT02493764 y la publicación PMID 39674398). Sin embargo, es una indicación ya cercana a las aprobadas, no un reposicionamiento novedoso.
 
 **Para avanzar se necesita:**
 - Estudios comparativos controlados de imipenem/cilastatina en infecciones por S. aureus, diferenciando MSSA y MRSA

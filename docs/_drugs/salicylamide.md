@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salicylamide
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 723
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Salicylamide: nueva indicación predicha, Faringitis (nivel de evidencia L4). Indicación original: Cefalea (trastorno de cefalea, según el grafo de conocimiento"
 monitor_inn: "salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
+description: "Salicylamide: nueva indicación predicha, Faringitis (pharyngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Salicylamide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Salicilamida: De Cefalea a Faringitis
+## Salicylamide: Faringitis (pharyngitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **1 publicación** (un informe clínico histórico
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cefalea (trastorno de cefalea, según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Faringitis |
-| Puntaje de Predicción TxGNN | 99,98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Faringitis (pharyngitis) |
+| Puntaje de Predicción TxGNN | 0.9998 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

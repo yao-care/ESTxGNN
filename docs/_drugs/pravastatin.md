@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Evidencia moderada (L3-L4)
 nav_order: 656
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pravastatin: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L4). Indicación original: Hiperlipidemia e hipertrigliceridemia…"
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-## Pravastatina: De Hiperlipidemia e Hipertrigliceridemia a Hipercolesterolemia Familiar Homocigota
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La pravastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada originalmente para tratar la hiperlipidemia, la hipertrigliceridemia y la prevención de enfermedad cerebrovascular y aterosclerosis.
-El modelo TxGNN predice que podría ser efectiva para la **hipercolesterolemia familiar homocigota**, pero actualmente **ningún ensayo clínico evalúa la pravastatina en esta enfermedad** (el único ensayo listado estudia alirocumab) y la literatura disponible es indirecta (12 publicaciones, casi todas revisiones, guías o estudios generales).
 
 ---
 
@@ -47,11 +46,11 @@ El modelo TxGNN predice que podría ser efectiva para la **hipercolesterolemia f
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperlipidemia e hipertrigliceridemia, enfermedad cerebrovascular y aterosclerosis (según las relaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles en los datos compilados) |
-| Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | HIV infectious disease |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +62,6 @@ No se dispone de datos detallados del mecanismo de acción en los datos compilad
 
 La hipercolesterolemia familiar es una enfermedad hereditaria con colesterol LDL muy elevado, estrechamente relacionada con las indicaciones originales del fármaco (hiperlipidemia y aterosclerosis). Por eso el modelo la identifica como cercana en la red de conocimiento.
 
-Hay una limitación importante en la forma homocigota. Las estatinas dependen de cierta actividad residual del receptor de LDL, que en estos pacientes es mínima o nula, por lo que el beneficio esperado es limitado y variable. Una de las publicaciones recopiladas señala que las estatinas "no son muy eficaces" en la hipercolesterolemia familiar homocigota. Esto explica por qué la puntuación alta del modelo no equivale a respaldo clínico.
 
 ---
 
@@ -122,7 +120,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La puntuación del modelo es muy alta, pero no hay ningún ensayo con pravastatina en hipercolesterolemia familiar homocigota y la literatura es indirecta. Además, el mecanismo de las estatinas depende de la actividad residual del receptor de LDL, que en esta forma de la enfermedad es mínima o nula, lo que sugiere un beneficio limitado.
 
 **Para avanzar se necesita:**
 - Evidencia clínica directa de pravastatina en hipercolesterolemia familiar homocigota (series de casos o estudios controlados).

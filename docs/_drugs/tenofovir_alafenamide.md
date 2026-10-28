@@ -6,9 +6,9 @@ nav_order: 776
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tenofovir Alafenamide: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: VIH / sida (según el grafo de conocimiento"
 monitor_inn: "Tenofovir alafenamide"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en…"
 ---
 
 # Tenofovir Alafenamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Tenofovir alafenamida: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Tenofovir Alafenamide: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunode
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | VIH / sida (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -66,8 +66,8 @@ El virus de la inmunodeficiencia felina (FIV) es un lentivirus que, al igual que
 Sin embargo, esta es una indicación veterinaria, que queda fuera del reposicionamiento de fármacos en humanos, y no se aportó ninguna evidencia directa. La predicción debe considerarse solo una hipótesis computacional.
 
 **Otras predicciones del modelo (para contexto):**
-- **Infección por virus de inmunodeficiencia símica (SIV)** (puntaje 99,89%, nivel L4): 8 publicaciones preclínicas en macacos y ratones humanizados (PrEP oral y tópica, profilaxis posexposición, implantes, remisión de SHIV). Respaldan la actividad antiviral en modelos animales, pero son evidencia traslacional de la indicación VIH ya existente, no una nueva indicación humana.
-- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (puntaje 99,87%, nivel L5): no se identificó un vínculo mecanístico claro; la predicción carece de sustento.
+- **Infección por virus de inmunodeficiencia símica (SIV)** (puntaje 0,9989, nivel L4): 8 publicaciones preclínicas en macacos y ratones humanizados (PrEP oral y tópica, profilaxis posexposición, implantes, remisión de SHIV). Respaldan la actividad antiviral en modelos animales, pero son evidencia traslacional de la indicación VIH ya existente, no una nueva indicación humana.
+- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (puntaje 0,9987, nivel L5): no se identificó un vínculo mecanístico claro; la predicción carece de sustento.
 
 ---
 

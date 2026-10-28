@@ -6,9 +6,9 @@ nav_order: 458
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Leflunomide: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Artritis reumatoide y artritis psoriásica (según el grafo de conocimi…"
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Leflunomide: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Leflunomide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Leflunomida: De Artritis Psoriásica y Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+## Leflunomide: Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no existe ningún ensayo clínico ni publicación** que respa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide y artritis psoriásica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
-| Puntaje de Predicción TxGNN | 99,93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,11 +58,11 @@ pero actualmente **no existe ningún ensayo clínico ni publicación** que respa
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, leflunomida inhibe la enzima dihidroorotato deshidrogenasa (DHODH, gen *DHODH*), lo que reduce la síntesis de pirimidinas en los linfocitos en proliferación. Esto explica su eficacia en enfermedades autoinmunes como la artritis reumatoide y la artritis psoriásica.
 
-**No se ha establecido un vínculo mecanístico** entre esta inhibición y la fisiopatología del síndrome de braquidactilia-sindactilia, una malformación congénita del desarrollo de las extremidades. La similitud con las indicaciones originales no ha sido evaluada. El puntaje de 99,93% es únicamente una predicción computacional, sin respaldo de ensayos clínicos ni literatura.
+**No se ha establecido un vínculo mecanístico** entre esta inhibición y la fisiopatología del síndrome de braquidactilia-sindactilia, una malformación congénita del desarrollo de las extremidades. La similitud con las indicaciones originales no ha sido evaluada. El puntaje de 0,9993 es únicamente una predicción computacional, sin respaldo de ensayos clínicos ni literatura.
 
 Además, leflunomida es teratogénica y tiene una advertencia de toxicidad embriofetal, por lo que cualquier hipótesis en un trastorno congénito del desarrollo requeriría una revisión toxicológica cuidadosa.
 
-Cabe mencionar una segunda predicción de menor rango, el síndrome de microftalmia colobomatosa-displasia rizomélica (puntaje 99,93%), que tampoco tiene ensayos ni literatura y presenta las mismas limitaciones.
+Cabe mencionar una segunda predicción de menor rango, el síndrome de microftalmia colobomatosa-displasia rizomélica (puntaje 0,9993), que tampoco tiene ensayos ni literatura y presenta las mismas limitaciones.
 
 ## Evidencia de Ensayos Clínicos
 

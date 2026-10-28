@@ -6,9 +6,9 @@ nav_order: 472
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infección neumocócica…"
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lincomycin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Lincomicina: De Infección Neumocócica, Estafilocócica y Estreptocócica a Hiperamilasemia
+## Lincomycin: Hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección neumocócica, estafilocócica y estreptocócica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99,14% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
+| Puntaje de Predicción TxGNN | 0.9914 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,9 +62,9 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la lincomicina es una lincosamida que inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosomal 50S, y su eficacia en infecciones por cocos grampositivos está bien establecida.
 
-**En este caso la predicción no resulta razonable desde el punto de vista mecanístico.** No se identifica ningún vínculo plausible entre la inhibición ribosomal bacteriana y la regulación de la amilasa. La hiperamilasemia es un hallazgo de laboratorio, no una enfermedad con una diana terapéutica clara, por lo que la señal del modelo podría reflejar artefactos del grafo de conocimiento (por ejemplo, asociaciones con pancreatitis inducida por fármacos o elevación de amilasa) y no un potencial terapéutico real.
+**En este caso la predicción no resulta razonable desde el punto de vista mecanístico.** No se identifica ningún vínculo plausible entre la inhibición ribosomal bacteriana y la regulación de la amilasa. La hiperamilasemia es un hallazgo de laboratorio, no una enfermedad con una diana terapéutica clara, por lo que el puntaje proviene del modelo TxGNN (aprendizaje profundo) y podría reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (por ejemplo, con pancreatitis inducida por fármacos o elevación de amilasa), no evidencia biológica ni un potencial terapéutico real.
 
-Las otras dos predicciones de mayor puntaje tampoco tienen sustento: el **síndrome de hiperviscosidad policlonal** (99,14%, idéntico puntaje, lo que sugiere un artefacto compartido del grafo) y la **analbuminemia congénita** (99,06%, un trastorno genético por mutaciones del gen ALB que un antibiótico no puede corregir). Ninguna cuenta con ensayos ni literatura.
+Las otras dos predicciones de mayor puntaje tampoco tienen sustento: el **síndrome de hiperviscosidad policlonal** (0,9914, idéntico puntaje, lo que sugiere una similitud compartida aprendida por el modelo TxGNN, no evidencia biológica) y la **analbuminemia congénita** (0,9906, un trastorno genético por mutaciones del gen ALB que un antibiótico no puede corregir). Ninguna cuenta con ensayos ni literatura.
 
 ---
 

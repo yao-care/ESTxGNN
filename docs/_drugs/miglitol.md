@@ -4,17 +4,17 @@ title: Miglitol
 parent: Solo predicción del modelo (L5)
 nav_order: 528
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Miglitol: nueva indicación predicha, Síndrome de extremidad rígida focal (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según el grafo de conocimiento"
 monitor_inn: "MIGLITOL"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pancreatic agenesis", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Miglitol: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Miglitol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Miglitol: De Diabetes Mellitus Tipo 2 a Síndrome de Extremidad Rígida Focal
+## Miglitol: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de extremidad rígida focal |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Focal stiff limb syndrome |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome de extremidad rígida focal es un trastorno neurológico de origen probablemente autoinmune, perteneciente al espectro del síndrome de la persona rígida. Se relaciona con una disfunción GABAérgica y con anticuerpos anti-GAD. **No se ha identificado un vínculo mecanístico plausible** entre la inhibición de las alfa-glucosidasas intestinales y esta enfermedad.
 
-La puntuación alta del modelo parece reflejar una asociación basada en el grafo, probablemente por vecinos compartidos de diabetes y autoinmunidad, y no una justificación farmacológica. En otras palabras, la predicción debe considerarse un artefacto computacional hasta que haya evidencia independiente.
+En otras palabras, la predicción debe considerarse un artefacto computacional hasta que haya evidencia independiente.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -97,12 +97,12 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el síndrome de extremidad rígida focal no cuenta con ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible con la acción de miglitol sobre las alfa-glucosidasas intestinales. La puntuación alta del modelo parece deberse a la proximidad en el grafo (diabetes y autoinmunidad), no a evidencia farmacológica.
+La predicción para el síndrome de extremidad rígida focal no cuenta con ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible con la acción de miglitol sobre las alfa-glucosidasas intestinales.
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística plausible, respaldada por estudios preclínicos o de mecanismo, que conecte miglitol con la fisiopatología del síndrome de extremidad rígida focal.
 - Datos oficiales de advertencias y contraindicaciones del prospecto de la AEMPS, y datos detallados del mecanismo de acción.
-- Revisión de otras indicaciones predichas con mayor respaldo. Por ejemplo, la **diabetes mellitus tipo 1** (puntaje TxGNN 99.60%) cuenta con un ensayo de Fase 3 completado (NCT00213109, diseño abierto y sin inscripción reportada) y varios estudios clínicos publicados entre 1987 y 2011. Estos indican un beneficio adjunto a la insulina, aunque modesto, y no un mecanismo nuevo. Esa indicación podría evaluarse por separado, verificando antes los resultados del ensayo.
+- Revisión de otras indicaciones predichas con mayor respaldo. Estos indican un beneficio adjunto a la insulina, aunque modesto, y no un mecanismo nuevo. Esa indicación podría evaluarse por separado, verificando antes los resultados del ensayo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

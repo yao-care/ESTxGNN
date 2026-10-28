@@ -6,9 +6,9 @@ nav_order: 242
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dexpanthenol: nueva indicación predicha, Estenosis anorrectal (nivel de evidencia L5). Indicación original: No consta texto de indicación aprobada en las autorizaciones española…"
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Dexpanthenol: nueva indicación predicha, Estenosis anorrectal (anorectal stricture) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dexpanthenol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Dexpanthenol: De Íleo Paralítico y Enfermedades de la Piel a Estenosis Anorrectal
+## Dexpanthenol: Estenosis anorrectal (anorectal stricture)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ La única señal de evidencia directa en las predicciones es un ensayo clínico 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta texto de indicación aprobada en las autorizaciones españolas. Según el grafo de conocimiento: íleo paralítico, obstrucción intestinal, gastroparesia, dermatitis, eccema atópico, entre otras |
-| Nueva Indicación Predicha | Estenosis anorrectal |
-| Puntaje de Predicción TxGNN | 99.72% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Estenosis anorrectal (anorectal stricture) |
+| Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,18 +64,18 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la indicación original es plausible pero no demostrada: dexpanthenol se ha asociado a trastornos de motilidad y obstrucción intestinal y a enfermedades cutáneas. Un posible efecto sobre la cicatrización de la mucosa podría ser relevante en estenosis anorrectal, pero se trata de una hipótesis. La similitud con las indicaciones originales aún está pendiente de evaluar.
 
-Cabe señalar que la predicción puede reflejar simplemente proximidad en el grafo de conocimiento. No hay ensayos ni literatura que la sustenten, por lo que debe interpretarse como una hipótesis de investigación.
+Cabe señalar que la puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No hay ensayos ni literatura que la sustenten, por lo que debe interpretarse como una hipótesis de investigación.
 
 ### Otras predicciones del modelo (para contexto)
 
 | Rango | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |---|---|---|---|---|
-| 2 | Ano imperforado | 99.71% | L5 | Hold |
-| 3 | Pólipo anal | 99.62% | L5 | Hold |
-| 4 | Queratosis folicular invertida vulvar | 99.60% | L5 | Hold |
-| 5 | Proctitis | 99.60% | L5 | Hold |
-| 6 | Exantema | 99.60% | L4 | Pregunta de investigación |
-| 7 | Queratoconjuntivitis epitelial punteada | 99.34% | L5 | Hold |
+| 2 | Ano imperforado | 0.9971 | L5 | Hold |
+| 3 | Pólipo anal | 0.9962 | L5 | Hold |
+| 4 | Queratosis folicular invertida vulvar | 0.9960 | L5 | Hold |
+| 5 | Proctitis | 0.9960 | L5 | Hold |
+| 6 | Exantema | 0.9960 | L5 | Pregunta de investigación |
+| 7 | Queratoconjuntivitis epitelial punteada | 0.9934 | L5 | Hold |
 
 ---
 

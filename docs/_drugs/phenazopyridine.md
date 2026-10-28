@@ -47,19 +47,19 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actua
 |------|------|
 | Indicación Original | No disponible en los datos compilados (las autorizaciones no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.23% |
+| Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la fenazopiridina es un analgésico que actúa localmente sobre la mucosa de las vías urinarias, y no hay una indicación original registrada en los datos de las autorizaciones españolas.
 
-Con la información disponible no es posible establecer un vínculo mecanístico entre un analgésico urinario de acción local y la bronquitis, que es una afección inflamatoria de las vías respiratorias. El puntaje alto del modelo (99.23%) es una predicción derivada del grafo de conocimiento y no está respaldado por estudios reales.
+Con la información disponible no es posible establecer un vínculo mecanístico entre un analgésico urinario de acción local y la bronquitis, que es una afección inflamatoria de las vías respiratorias. El puntaje alto del modelo (0.9923) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por estudios reales.
 
-La predicción podría reflejar artefactos del grafo de conocimiento, como vecinos compartidos o anotaciones genéricas de tipo analgésico o antiinflamatorio. Por ello, debe interpretarse con mucha cautela.
+La predicción podría reflejar artefactos del modelo TxGNN (aprendizaje profundo), como vecinos compartidos o anotaciones genéricas de tipo analgésico o antiinflamatorio. Por ello, debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -99,7 +99,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión de literatura preclínica y clínica sobre fenazopiridina y afecciones respiratorias.
 - Evaluar la compatibilidad de vía de administración (comprimido oral frente a una indicación respiratoria).
-- Verificar si la predicción es un artefacto del grafo de conocimiento antes de invertir en estudios adicionales.
+- Verificar si la predicción es un artefacto del modelo TxGNN (aprendizaje profundo) antes de invertir en estudios adicionales.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

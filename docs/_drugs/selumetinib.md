@@ -6,9 +6,9 @@ nav_order: 731
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Selumetinib: nueva indicación predicha, Lentiginosis generalizada familiar (nivel de evidencia L5). Indicación original: Neurofibromatosis (según el grafo de conocimiento"
 monitor_inn: "SELUMETINIB"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
+description: "Selumetinib: nueva indicación predicha, Lentiginosis generalizada familiar (familial generalized lentiginosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Selumetinib
@@ -33,25 +33,25 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Selumetinib: De Neurofibromatosis a Familial Generalized Lentiginosis (Lentiginosis Generalizada Familiar)
+## Selumetinib: Lentiginosis generalizada familiar (familial generalized lentiginosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Selumetinib es un inhibidor de MEK1/2 comercializado en España (KOSELUGO), originalmente utilizado para el tratamiento de la neurofibromatosis.
-El modelo TxGNN predice que podría ser efectivo para **lentiginosis generalizada familiar** (puntaje 99,96 %), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción concreta; se trata únicamente de una predicción del modelo.
+El modelo TxGNN predice que podría ser efectivo para **lentiginosis generalizada familiar** (puntaje 0,9996), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción concreta; se trata únicamente de una predicción del modelo.
 Entre las demás predicciones de alto puntaje, la mejor respaldada es el **schwannoma de nervio periférico** (3 ensayos clínicos y 6 publicaciones), que se comenta como alternativa de priorización.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neurofibromatosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Lentiginosis generalizada familiar |
-| Puntaje de Predicción TxGNN | 99,96 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Lentiginosis generalizada familiar (familial generalized lentiginosis) |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

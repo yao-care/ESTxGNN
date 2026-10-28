@@ -6,9 +6,9 @@ nav_order: 623
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pentosan Polysulfate: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (nivel de evidencia L5). Indicación original: Cistitis intersticial (según el grafo de conocimiento"
 monitor_inn: "pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
+description: "Pentosan Polysulfate: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en l…"
 ---
 
 # Pentosan Polysulfate
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Polisulfato de pentosano: De Cistitis Intersticial a Trastorno de Liberación Primaria de las Plaquetas
+## Pentosan Polysulfate: Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cistitis intersticial (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Mecanísticamente, **la predicción resulta poco plausible**. Un defecto de liberación (secreción o gránulos de almacenamiento) plaquetaria cursa con tendencia al sangrado, y un fármaco con efecto anticoagulante tipo heparina tendería a empeorarla, no a tratarla. La relación con la indicación original (una patología urinaria) es prácticamente inexistente.
 
-La puntuación elevada probablemente refleja la proximidad en la red del grafo de conocimiento con nodos de plaquetas y coagulación, y no un mecanismo terapéutico real. Otras predicciones del modelo (trombastenia de Glanzmann y enfermedad de pseudo-von Willebrand) presentan el mismo problema: el fármaco no corrige los defectos subyacentes y podría agravar el sangrado.
+La puntuación elevada proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo terapéutico real. Otras predicciones del modelo (Trombastenia de Glanzmann y Enfermedad pseudo-von Willebrand) presentan el mismo problema: el fármaco no corrige los defectos subyacentes y podría agravar el sangrado.
 
 ## Evidencia de Ensayos Clínicos
 

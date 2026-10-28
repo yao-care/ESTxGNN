@@ -49,9 +49,9 @@ El modelo TxGNN predice como primera indicación el **insomnio**, con **2 ensayo
 |------|------|
 | Indicación Original | No disponible en los textos de autorización compilados (el uso hipnótico para el insomnio se deduce del perfil del fármaco) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La predicción del insomnio no es un reposicionamiento real: es el uso establecido y comercializado del fármaco. El modelo TxGNN, por tanto, redescubre la indicación conocida, y está respaldada por ensayos de fase 3 con comparador activo.
 
-Otras predicciones del modelo (ansiedad, trastorno de ansiedad, trastorno del sueño de inicio y mantenimiento) son mecanísticamente plausibles por el mismo efecto GABAérgico. Varias de las demás (abuso de alucinógenos, síndrome de cauda equina, tortícolis paroxística benigna de la infancia) carecen de fundamento mecanístico creíble y probablemente sean artefactos del grafo de conocimiento.
+Otras predicciones del modelo (ansiedad, trastorno de ansiedad, trastorno del sueño de inicio y mantenimiento) son mecanísticamente plausibles por el mismo efecto GABAérgico. Varias de las demás (abuso de alucinógenos, síndrome de cauda equina, tortícolis paroxística benigna de la infancia) carecen de fundamento mecanístico creíble; sus puntuaciones provienen del modelo TxGNN (deep learning) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

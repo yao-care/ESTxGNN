@@ -6,9 +6,9 @@ nav_order: 297
 evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Epirubicin: nueva indicación predicha, Linfoma pulmonar primario (nivel de evidencia L4). Indicación original: Carcinoma de mama (según las relaciones fármaco-enfermedad del grafo…"
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
+description: "Epirubicin: nueva indicación predicha, Linfoma pulmonar primario (primary pulmonary lymphoma) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Epirubicin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Epirubicina: De Carcinoma de Mama a Linfoma Pulmonar Primario
+## Epirubicin: Linfoma pulmonar primario (primary pulmonary lymphoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y solo **6 publicaciones** de apoyo
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de mama (según las relaciones fármaco-enfermedad del grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Linfoma pulmonar primario |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Linfoma pulmonar primario (primary pulmonary lymphoma) |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

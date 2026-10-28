@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 |------|------|
 | Indicación Original | Cicloplejía |
 | Nueva Indicación Predicha | Síndrome de la cola de caballo |
-| Puntaje de Predicción TxGNN | 99,54% |
+| Puntaje de Predicción TxGNN | 0,9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,14 +59,14 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome de la cola de caballo es una emergencia neurológica compresiva con disfunción vesical, intestinal y motora, cuyo tratamiento definitivo es la descompresión quirúrgica. La única justificación plausible sería el control sintomático de la hiperactividad del detrusor mediante bloqueo muscarínico, un efecto indirecto que no modifica la enfermedad.
 
-Además, el puntaje elevado de TxGNN (0,995) es solo una predicción computacional. El ciclopentolato se comercializa únicamente como colirio, por lo que la exposición sistémica y la vía o formulación adecuadas para este uso no están establecidas.
+Además, el puntaje elevado de TxGNN (0,9954) es solo una predicción computacional. El ciclopentolato se comercializa únicamente como colirio, por lo que la exposición sistémica y la vía o formulación adecuadas para este uso no están establecidas.
 
 ### Otras predicciones del modelo (para contexto)
 
 | Rango | Enfermedad predicha | Puntaje TxGNN | Nivel | Comentario |
 |---|---|---|---|---|
-| 2 | Vejiga neurógena (término obsoleto en la ontología) | 99,40% | L5 | Plausibilidad mecanística relativamente buena (antimuscarínicos como oxibutinina y tolterodina), pero el término debe reasignarse a uno vigente (p. ej., hiperactividad neurógena del detrusor). Existen alternativas mejor respaldadas. |
-| 3 | Síndrome del intestino irritable | 99,27% | L5 | Vínculo indirecto por efecto de clase (antiespasmódicos). Podría empeorar el estreñimiento y no hay formulación dirigida al tracto digestivo. |
+| 2 | Vejiga neurógena (término obsoleto en la ontología) | 0,9940 | L5 | Plausibilidad mecanística relativamente buena (antimuscarínicos como oxibutinina y tolterodina), pero el término debe reasignarse a uno vigente (p. ej., hiperactividad neurógena del detrusor). Existen alternativas mejor respaldadas. |
+| 3 | Síndrome del intestino irritable | 0,9927 | L5 | Vínculo indirecto por efecto de clase (antiespasmódicos). Podría empeorar el estreñimiento y no hay formulación dirigida al tracto digestivo. |
 
 ## Evidencia de Ensayos Clínicos
 

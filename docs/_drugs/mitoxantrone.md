@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mitoxantrone
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 536
-evidence_level: L3
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (nivel de evidencia L3). Indicación original: Leucemia mieloide aguda y subtipos relacionados (los textos de indic…"
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
+description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-## Mitoxantrona: De Leucemia Mieloide Aguda a Neoplasia del Tracto Aerodigestivo Superior
+## Mitoxantrone: Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero esta dirección se apoya en **0 ensayos clínicos** registrados para este t
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide aguda y subtipos relacionados (los textos de indicación de las autorizaciones españolas no constan en los datos compilados; se usan las indicaciones originales del grafo de conocimiento) |
-| Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior |
-| Puntaje de Predicción TxGNN | 99.78% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9978 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,7 +110,6 @@ Las tres autorizaciones están vigentes y corresponden a medicamentos de princip
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (antracenodiona, inhibidor de topoisomerasa II) |
-| Riesgo de Mielosupresión | Alto. La literatura de cabeza y cuello describe leucopenia como toxicidad principal con trombocitopenia asociada, y el grafo de conocimiento vincula el fármaco con neutropenia, anemia y agranulocitosis |
 | Clasificación de Emetogenicidad | Baja a moderada |
 | Items de Monitoreo | Hemograma con diferencial, función hepática y renal, función cardíaca (fracción de eyección) y dosis acumulada de antracenodiona |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |

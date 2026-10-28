@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Everolimus
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 321
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Everolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Carcinoma de células renales (según el grafo de conocimiento"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
+description: "Everolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Everolimus
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Everolimus: De Carcinoma de Células Renales a Liposarcoma
+## Everolimus: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de células renales (según el grafo de conocimiento; los textos de indicación de las autorizaciones en España no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99,88 % |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L2 (un ensayo de Fase 2 en curso, en combinación; sin resultados maduros) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -132,7 +132,7 @@ Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje TxGNN es muy alto (99,88 %), la única evidencia clínica es un ensayo de Fase 2 de combinación aún en curso y sin resultados de eficacia maduros, por lo que no se puede atribuir beneficio a everolimus por sí solo. Debe considerarse una pregunta de investigación más que una opción lista para avanzar.
+Aunque el puntaje TxGNN es muy alto (0,9988), la única evidencia clínica es un ensayo de Fase 2 de combinación aún en curso y sin resultados de eficacia maduros, por lo que no se puede atribuir beneficio a everolimus por sí solo. Debe considerarse una pregunta de investigación más que una opción lista para avanzar.
 
 **Para avanzar se necesita:**
 - Resultados de eficacia maduros del ensayo NCT03114527 (finalización prevista a finales de 2026), con análisis específico del brazo de liposarcoma desdiferenciado.

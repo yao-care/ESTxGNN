@@ -6,9 +6,9 @@ nav_order: 581
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (nivel de evidencia L5). Indicación original: Acromegalia…"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
+description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Octreotide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Octreotida: De Acromegalia a Queratosis Folicular Invertida Vulvar
+## Octreotide: Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,21 +46,21 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acromegalia, hiperpituitarismo y síndrome carcinoide (según el grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Queratosis folicular invertida vulvar |
-| Puntaje de Predicción TxGNN | 99.58% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) |
+| Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 16 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica disponible, octreotida actúa como ligando de los receptores de somatostatina SST2, SST3 y SST5 (genes SSTR2, SSTR3 y SSTR5). Se utiliza en tumores secretores de hormona de crecimiento, tumores hipofisarios secretores de TSH y en la obtención de imágenes de tumores neuroendocrinos que expresan receptores de somatostatina.
 
-**No se identifica un vínculo mecanístico respaldado por los datos** entre la señalización de los receptores de somatostatina y la queratosis folicular invertida vulvar. Esta última es una lesión epitelial benigna poco frecuente, que normalmente se trata mediante escisión. La puntuación alta de TxGNN (0.996) es una predicción computacional, sin respaldo clínico ni biológico demostrado en este análisis. La similitud con la indicación original está pendiente de evaluar.
+**No se identifica un vínculo mecanístico respaldado por los datos** entre la señalización de los receptores de somatostatina y la queratosis folicular invertida vulvar. Esta última es una lesión epitelial benigna poco frecuente, que normalmente se trata mediante escisión. La puntuación alta de TxGNN (0.9958) es una predicción computacional del modelo de aprendizaje profundo, sin respaldo clínico ni biológico demostrado en este análisis. La similitud con la indicación original está pendiente de evaluar.
 
-Cabe señalar que la segunda predicción del modelo, la queratosis seborreica (puntaje 99.55%), también carece de ensayos y literatura, y cuenta con tratamientos procedimentales establecidos (crioterapia, curetaje). Ambas predicciones podrían derivar de la misma señal de vecindad en el grafo (lesiones queratinocíticas relacionadas) y no de evidencia independiente.
+Cabe señalar que la segunda predicción del modelo, la queratosis seborreica (puntaje 0.9955), también carece de ensayos y literatura, y cuenta con tratamientos procedimentales establecidos (crioterapia, curetaje). Ambas puntuaciones provienen del modelo TxGNN (aprendizaje profundo) y podrían reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (lesiones queratinocíticas), no evidencia biológica independiente.
 
 ## Evidencia de Ensayos Clínicos
 

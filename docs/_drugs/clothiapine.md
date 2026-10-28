@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 ## Resumen en Una Frase
 
 Clotiapina (clothiapine) es un antipsicótico tricíclico de la familia de las dibenzotiazepinas, comercializado en España como ETUMINA 40 mg comprimidos; la ficha de autorización consultada no incluye el texto de la indicación original.
-El modelo TxGNN predice que podría ser efectivo para **insomnio**, con un puntaje muy alto (99.84%).
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, con un puntaje muy alto (0.9984).
 Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
@@ -48,10 +48,10 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

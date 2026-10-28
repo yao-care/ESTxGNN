@@ -6,9 +6,9 @@ nav_order: 479
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lonoctocog Alfa: nueva indicación predicha, Enfermedad de pseudo-von Willebrand (nivel de evidencia L5). Indicación original: Hemofilia (según las indicaciones del grafo de conocimiento"
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
+description: "Lonoctocog Alfa: nueva indicación predicha, Enfermedad de pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lonoctocog Alfa
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Lonoctocog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
+## Lonoctocog Alfa: Enfermedad de pseudo-von Willebrand (pseudo-von Willebrand disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de pseudo-von Willebrand |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de pseudo-von Willebrand (pseudo-von Willebrand disease) |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,15 +60,15 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La enfermedad de pseudo-von Willebrand (tipo plaquetario) se debe a mutaciones de ganancia de función en GPIbα, que aumentan la unión de las plaquetas al VWF y provocan un defecto de hemostasia primaria con pérdida de multímeros de VWF de alto peso molecular. El reemplazo de FVIII no corrige este defecto del receptor plaquetario.
 
-El puntaje tan alto (99.85%) probablemente refleja la cercanía en el grafo con otros trastornos hemorrágicos y de la coagulación, más que un mecanismo validado. El vínculo es especulativo: el FVIII podría ayudar, como mucho, en casos con reducción secundaria de FVIII, algo que aquí no está respaldado.
+El puntaje tan alto (0.9985) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. El vínculo es especulativo: el FVIII podría ayudar, como mucho, en casos con reducción secundaria de FVIII, algo que aquí no está respaldado.
 
 **Otras predicciones del modelo (todas de nivel L5, sin ensayos ni literatura):**
 
 | Enfermedad predicha | Puntaje TxGNN | Valoración mecanística |
 |------|------|------|
-| Trastorno primario de liberación plaquetaria | 99.84% | El FVIII no corrige defectos de gránulos o señalización plaquetaria |
-| Trombastenia de Glanzmann | 99.76% | Defecto de la integrina αIIbβ3; el FVIII no restaura la agregación plaquetaria, por lo que es mecanísticamente inconsistente |
-| Síndrome de Scott | 99.44% | Conexión conceptual laxa (el FVIII depende de membranas con fosfatidilserina), pero aportar más FVIII no repara la superficie procoagulante ausente |
+| Trastorno primario de liberación plaquetaria | 0.9984 | El FVIII no corrige defectos de gránulos o señalización plaquetaria |
+| Trombastenia de Glanzmann | 0.9976 | Defecto de la integrina αIIbβ3; el FVIII no restaura la agregación plaquetaria, por lo que es mecanísticamente inconsistente |
+| Síndrome de Scott | 0.9944 | Conexión conceptual laxa (el FVIII depende de membranas con fosfatidilserina), pero aportar más FVIII no repara la superficie procoagulante ausente |
 
 ## Evidencia de Ensayos Clínicos
 

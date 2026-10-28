@@ -6,9 +6,9 @@ nav_order: 471
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Linaclotide: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: Síndrome del intestino irritable (según el grafo de conocimiento"
 monitor_inn: "Linaclotide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
+description: "Linaclotide: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Linaclotide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Linaclotida: De Síndrome del Intestino Irritable a Síndrome de la Cola de Caballo
+## Linaclotide: Síndrome de la cola de caballo (cauda equina syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome del intestino irritable (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Síndrome de la cola de caballo |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de la cola de caballo (cauda equina syndrome) |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Linaclotida es un agonista de la guanilato ciclasa-C (GC-C, gen GUCY2C) que act�
 
 El síndrome de la cola de caballo es un trastorno neurológico por compresión de las raíces nerviosas lumbosacras, que provoca disfunción intestinal y vesical, incluido el estreñimiento neurógeno. Teóricamente, linaclotida podría aliviar el síntoma intestinal (estreñimiento) secundario a esta condición, pero **no actuaría sobre la compresión nerviosa de fondo**.
 
-No se identificó un vínculo mecanístico directo con la patología de la enfermedad. El puntaje tan alto (99.96%) es solo una predicción del modelo y probablemente refleja asociaciones a nivel de síntomas (estreñimiento, disfunción intestinal) y no un efecto modificador de la enfermedad. Por ello, esta predicción debe interpretarse como potencial uso sintomático.
+No se identificó un vínculo mecanístico directo con la patología de la enfermedad. El puntaje tan alto (0.9996) es solo una predicción del modelo y probablemente refleja asociaciones a nivel de síntomas (estreñimiento, disfunción intestinal) y no un efecto modificador de la enfermedad. Por ello, esta predicción debe interpretarse como potencial uso sintomático.
 
 ## Evidencia de Ensayos Clínicos
 

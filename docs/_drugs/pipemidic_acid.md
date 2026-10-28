@@ -6,9 +6,9 @@ nav_order: 641
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pipemidic Acid: nueva indicación predicha, Enfermedad cardíaca (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
 monitor_inn: "pipemidic acid"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
+description: "Pipemidic Acid: nueva indicación predicha, Heart disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pipemidic Acid
@@ -33,24 +33,24 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ácido pipemídico: De Indicación No Registrada a Enfermedad Cardíaca
+## Pipemidic Acid: Heart disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El ácido pipemídico es un antibacteriano de la familia de las quinolonas, comercializado en España como GALUSAN CÁPSULAS; los datos compilados no incluyen el texto de su indicación aprobada.
+El ácido pipemídico es un antibacteriano de la familia de las quinolonas; actualmente no está comercializado en España (solo constan autorizaciones canceladas) y los datos compilados no incluyen el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad cardíaca**, pero **no hay ensayos clínicos** y solo **1 publicación indirecta** (de 1978) relacionada con esta dirección, que no demuestra eficacia cardíaca.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Enfermedad cardíaca |
-| Puntaje de Predicción TxGNN | 99,93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Heart disease |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 (solo predicción del modelo; la única publicación es indirecta y no respalda la indicación) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 **No se identifica un vínculo mecanístico plausible** con la enfermedad cardíaca. No se conoce una diana cardíaca directa para este fármaco. La única publicación asociada (1978) describe su uso como antibiótico extraurinario en insuficiencia renal y hemodiálisis; se trata de un contexto de uso y farmacocinética antibacteriana, no de evidencia de eficacia en cardiopatías.
 
-El puntaje elevado de TxGNN (0,999) proviene de una predicción basada en grafos de conocimiento y no constituye evidencia clínica. Además, las quinolonas como clase presentan señales de seguridad cardíaca (p. ej., prolongación del intervalo QT y advertencias de aneurisma/disección aórtica), lo que aconseja cautela.
+El puntaje elevado de TxGNN (0,9993) proviene de una predicción del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica. Además, las quinolonas como clase presentan señales de seguridad cardíaca (p. ej., prolongación del intervalo QT y advertencias de aneurisma/disección aórtica), lo que aconseja cautela.
 
 Otras predicciones del modelo (síndrome de Laubry-Pezzi, síndromes de Pierre Robin, deleción parcial del brazo largo del cromosoma 7, síndrome de fisura orofacial, valvulopatías pulmonar y mitral, trastorno de síntesis de fucoglicanos, síndrome de Jeune con situs inversus) tampoco presentan vínculo mecanístico plausible, ensayos ni literatura pertinente. Se trata de predicciones puramente computacionales.
 

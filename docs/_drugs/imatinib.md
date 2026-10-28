@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imatinib
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 406
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (nivel de evidencia L4). Indicación original: Leucemia mieloide crónica BCR-ABL1 positiva…"
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+description: "Imatinib: nueva indicación predicha, Heart fibrosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Imatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Imatinib: De Leucemia Mieloide Crónica a Fibrosarcoma Cardíaco
+## Imatinib: Heart fibrosarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ La evidencia es muy limitada y se basa casi exclusivamente en la predicción del
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide crónica BCR-ABL1 positiva, tumor del estroma gastrointestinal, mastocitosis, dermatofibrosarcoma protuberans, entre otras (el texto de indicación de las autorizaciones españolas no está disponible; se utilizan las indicaciones del grafo de conocimiento) |
-| Nueva Indicación Predicha | Fibrosarcoma cardíaco |
-| Puntaje de Predicción TxGNN | 99.94% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Heart fibrosarcoma |
+| Puntaje de Predicción TxGNN | 0.9994 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -110,7 +110,7 @@ Hay 20 autorizaciones vigentes en total (todas de monofármaco), incluidas prese
 
 ## Consideraciones de Seguridad
 
-- **Condiciones de precaución según el grafo de conocimiento** (no proceden del texto del prospecto): insuficiencia hepática y enfermedad hepática, enfermedad renal, neutropenia, trombocitopenia, anemia, agranulocitosis, insuficiencia cardíaca congestiva e insuficiencia cardíaca, enfermedad de las arterias coronarias, valvulopatías, derrame pericárdico, edema pulmonar, edema cerebral, hipertensión, diabetes mellitus y cetoacidosis diabética, hipofosfatemia, úlcera péptica activa, síndrome de Gilbert e hiperbilirrubinemia, entre otras.
+- **Condiciones de precaución según el modelo TxGNN (deep learning)** (no proceden del texto del prospecto): insuficiencia hepática y enfermedad hepática, enfermedad renal, neutropenia, trombocitopenia, anemia, agranulocitosis, insuficiencia cardíaca congestiva e insuficiencia cardíaca, enfermedad de las arterias coronarias, valvulopatías, derrame pericárdico, edema pulmonar, edema cerebral, hipertensión, diabetes mellitus y cetoacidosis diabética, hipofosfatemia, úlcera péptica activa, síndrome de Gilbert e hiperbilirrubinemia, entre otras. Esta información proviene del modelo y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 - **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las incluidas en la muestra revisada, las de nivel **mayor** son con **eliglustat** y **naloxegol**. Las de nivel moderado incluyen corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), cimetidina, claritromicina, aprepitant, pioglitazona, glimepirida, saxagliptina, lansoprazol, dexlansoprazol, morfina, naltrexona, naldemedina y metreleptina.
 
 Dado que el propio candidato tiene una localización cardíaca, las condiciones cardiovasculares señaladas (insuficiencia cardíaca, derrame pericárdico) son especialmente relevantes. Para advertencias y contraindicaciones oficiales, consultar el prospecto.

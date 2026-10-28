@@ -4,17 +4,17 @@ title: Trametinib
 parent: Solo predicción del modelo (L5)
 nav_order: 811
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trametinib: nueva indicación predicha, Coriorremia (nivel de evidencia L5). Indicación original: Melanoma metastásico (según el grafo de conocimiento"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
+description: "Trametinib: nueva indicación predicha, Choroideremia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Trametinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Trametinib: De Melanoma Metastásico a Coriorremia
+## Trametinib: Choroideremia
 {: .text-alpha }
 
 **Nota sobre la selección de la indicación:** la predicción de mayor puntaje (rank 1) es la coriorremia, pero carece por completo de evidencia (L5) y de vínculo mecanístico. Esta es la indicación que sigue el formato del informe. Como contexto, el informe también señala que las predicciones de rank 2 a 10 se concentran en subtipos de melanoma, donde la evidencia es considerablemente mayor.
@@ -52,12 +52,12 @@ Se trata de una predicción puramente computacional, sin respaldo mecanístico c
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Melanoma metastásico (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Coriorremia |
-| Puntaje de Predicción TxGNN | 99,31% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Choroideremia |
+| Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -66,9 +66,8 @@ Se trata de una predicción puramente computacional, sin respaldo mecanístico c
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trametinib inhibe MEK1 y MEK2 (genes MAP2K1 y MAP2K2), componentes de la vía MAPK situados por debajo de BRAF. Su eficacia en melanoma con mutación BRAF V600 está establecida, y se usa también en combinación con dabrafenib.
 
-La coriorremia es una degeneración retiniana ligada al cromosoma X, causada por la pérdida de función del gen CHM (REP1). No existe un vínculo establecido con la activación de la vía MAPK/MEK, por lo que el puntaje elevado (0,993) debe interpretarse como una predicción computacional sin sustento mecanístico. No se aportaron ensayos clínicos ni literatura.
+La coriorremia es una degeneración retiniana ligada al cromosoma X, causada por la pérdida de función del gen CHM (REP1). No existe un vínculo establecido con la activación de la vía MAPK/MEK, por lo que el puntaje elevado (0,9931) debe interpretarse como una predicción computacional sin sustento mecanístico. No se aportaron ensayos clínicos ni literatura.
 
-**Alternativas dentro de la misma lista de predicciones:** las predicciones de rank 2 a 10 corresponden a subtipos de melanoma (no cutáneo, epitelioide, de párpado, escrotal, acral lentiginoso, amelanótico, nodular, de células en balón y de extensión superficial), con puntajes similares (99,2%–99,3%). Son mecanísticamente coherentes con la indicación original, y la de mayor respaldo es el melanoma no cutáneo (rank 2, nivel L1 asignado en el análisis, con salvedades) junto con el melanoma nodular (L3).
 
 ---
 

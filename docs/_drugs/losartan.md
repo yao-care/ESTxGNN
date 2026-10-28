@@ -4,17 +4,17 @@ title: Losartan
 parent: Evidencia moderada (L3-L4)
 nav_order: 487
 evidence_level: L4
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Losartan: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L4). Indicación original: Hipertensión / trastorno hipertensivo / nefropatía diabética (según e…"
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Losartan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-## Losartán: De Hipertensión a Hipertensión Renovascular Maligna
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **2 p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión / trastorno hipertensivo / nefropatía diabética (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipertensión renovascular maligna |
-| Puntaje de Predicción TxGNN | 99,73% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

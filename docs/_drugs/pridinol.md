@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Pridinol es un fármaco comercializado en España (comprimidos), cuya indicación original no figura en los datos compilados para este informe; se conoce de forma general como relajante muscular anticolinérgico de acción central.
+Pridinol es un fármaco no comercializado en España (solo constan autorizaciones canceladas, comprimidos), cuya indicación original no figura en los datos compilados para este informe; se conoce de forma general como relajante muscular anticolinérgico de acción central.
 El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 |------|------|
 | Indicación Original | No disponible en los datos compilados |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción ni d
 
 Un posible vínculo con el insomnio solo podría inferirse de efectos anticolinérgicos centrales o sedantes. Esta hipótesis es especulativa y no está respaldada por la evidencia disponible en los datos compilados.
 
-El puntaje de TxGNN es muy alto (99,89%), pero es únicamente una predicción del modelo, sin ensayos clínicos ni literatura que la sustenten. La similitud con la indicación original no ha podido evaluarse y la compatibilidad de vías de administración está pendiente.
+El puntaje de TxGNN es muy alto (0,9989), pero es únicamente una predicción del modelo, sin ensayos clínicos ni literatura que la sustenten. La similitud con la indicación original no ha podido evaluarse y la compatibilidad de vías de administración está pendiente.
 
 ---
 

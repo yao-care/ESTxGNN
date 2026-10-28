@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización de AEMPS |
 | Nueva Indicación Predicha | Síndrome de la cola de caballo (cauda equina syndrome) |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
@@ -59,23 +59,23 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El síndrome de la cola de caballo es una afección neurológica compresiva, de manejo habitualmente quirúrgico. No hay evidencia en los datos de que un inhibidor de la anhidrasa carbónica tenga un papel en ella. La similitud con la indicación original queda pendiente de evaluar.
 
-El puntaje de TxGNN (0,9997) es una predicción basada en el grafo de conocimiento y no constituye prueba de eficacia. Hay que interpretarlo con cautela.
+El puntaje de TxGNN (0,9997) es una predicción del modelo TxGNN (aprendizaje profundo) y no constituye prueba de eficacia. Hay que interpretarlo con cautela.
 
 ### Otras indicaciones predichas (referencia)
 
 | Rango | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |---|---|---|---|---|
-| 2 | Vejiga neurógena (término obsoleto) | 99,94% | L5 | Hold |
-| 3 | Síndrome del intestino irritable | 99,86% | L5 | Hold |
-| 4 | Astenia neurocirculatoria | 99,79% | L5 | Hold |
-| 5 | Anafilaxia | 99,72% | L5 | Hold |
-| 6 | Anafilaxia inducida por ejercicio dependiente de alimentos | 99,62% | L5 | Hold |
-| 7 | Prolapso de la válvula mitral familiar | 99,49% | L5 | Hold |
-| 8 | Prolapso de la válvula mitral | 99,48% | L5 | Hold |
-| 9 | MVP1 | 99,43% | L5 | Hold |
-| 10 | Enfermedad del sistema nervioso autónomo | 99,35% | L5 | Hold |
+| 2 | Vejiga neurógena (término obsoleto) | 0,9994 | L5 | Hold |
+| 3 | Síndrome del intestino irritable | 0,9986 | L5 | Hold |
+| 4 | Astenia neurocirculatoria | 0,9979 | L5 | Hold |
+| 5 | Anafilaxia | 0,9972 | L5 | Hold |
+| 6 | Anafilaxia inducida por ejercicio dependiente de alimentos | 0,9962 | L5 | Hold |
+| 7 | Prolapso de la válvula mitral familiar | 0,9949 | L5 | Hold |
+| 8 | Prolapso de la válvula mitral | 0,9948 | L5 | Hold |
+| 9 | MVP1 | 0,9943 | L5 | Hold |
+| 10 | Enfermedad del sistema nervioso autónomo | 0,9935 | L5 | Hold |
 
-Ninguna cuenta con ensayos clínicos ni literatura. Varias se solapan entre sí (las tres de prolapso mitral y las relacionadas con anafilaxia), por lo que probablemente reflejan la misma señal del grafo y no evidencia independiente.
+Ninguna cuenta con ensayos clínicos ni literatura. Varias se solapan entre sí (las tres de prolapso mitral y las relacionadas con anafilaxia), por lo que sus puntuaciones provienen del modelo TxGNN (aprendizaje profundo) y probablemente reflejan similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica independiente.
 
 ## Evidencia de Ensayos Clínicos
 

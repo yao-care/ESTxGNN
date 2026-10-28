@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 700
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rifaximin: nueva indicación predicha, Candidiasis oral (nivel de evidencia L4). Indicación original: Encefalopatía hepática, coma hepático"
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
+description: "Rifaximin: nueva indicación predicha, Oral candidiasis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Rifaximina: De Encefalopatía Hepática a Candidiasis Oral
+## Rifaximin: Oral candidiasis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis oral**, pero
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Encefalopatía hepática, coma hepático |
-| Nueva Indicación Predicha | Candidiasis oral |
-| Puntaje de Predicción TxGNN | 99,75% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Oral candidiasis |
+| Puntaje de Predicción TxGNN | 0.9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, rifaximina es un antibacteriano que apenas se absorbe y actúa en el intestino, modificando la microbiota intestinal. Su eficacia en la encefalopatía hepática está establecida, y se relaciona con la reducción de bacterias intestinales productoras de toxinas.
 
-En este caso, la predicción **no resulta mecanísticamente convincente**. Rifaximina no tiene actividad antifúngica conocida, y la alteración de la microbiota intestinal podría incluso favorecer el sobrecrecimiento de hongos. El puntaje elevado (0,997) probablemente refleja un artefacto del grafo de conocimiento y no una relación terapéutica real.
+En este caso, la predicción **no resulta mecanísticamente convincente**. Rifaximina no tiene actividad antifúngica conocida, y la alteración de la microbiota intestinal podría incluso favorecer el sobrecrecimiento de hongos. El puntaje elevado (0,9975) probablemente refleja un artefacto del modelo TxGNN (aprendizaje profundo) y no una relación terapéutica real.
 
 La única publicación disponible (PMID 34180023) asocia el uso de rifaximina con infecciones por *Candida* resistentes a micafungina en receptores de trasplante alogénico de progenitores hematopoyéticos. Es decir, constituye una señal de posible daño, no de beneficio terapéutico.
 
@@ -98,7 +98,7 @@ Para el resto de la información de seguridad (advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de respaldo mecanístico y clínico: no hay ensayos, y la única publicación sugiere un posible perjuicio (infecciones por *Candida* resistentes) en lugar de beneficio. Rifaximina no tiene actividad antifúngica conocida, por lo que el puntaje alto de TxGNN probablemente es un artefacto del grafo.
+La predicción carece de respaldo mecanístico y clínico: no hay ensayos, y la única publicación sugiere un posible perjuicio (infecciones por *Candida* resistentes) en lugar de beneficio. Rifaximina no tiene actividad antifúngica conocida; el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de la AEMPS.

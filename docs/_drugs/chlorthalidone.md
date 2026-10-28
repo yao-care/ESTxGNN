@@ -4,17 +4,17 @@ title: Chlorthalidone
 parent: Solo predicción del modelo (L5)
 nav_order: 176
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Chlorthalidone: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Hipertensión arterial e insuficiencia cardíaca congestiva (según el g…"
 monitor_inn: "Chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
+description: "Chlorthalidone: nueva indicación predicha, Glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Chlorthalidone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Clortalidona: De Hipertensión a Glaucoma Hereditario Primario
+## Chlorthalidone: Glaucoma hereditario primario (primary hereditary glaucoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial e insuficiencia cardíaca congestiva (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99,92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Glaucoma hereditario primario (primary hereditary glaucoma) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

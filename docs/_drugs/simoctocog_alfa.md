@@ -4,17 +4,17 @@ title: Simoctocog Alfa
 parent: Solo predicción del modelo (L5)
 nav_order: 737
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Simoctocog Alfa: nueva indicación predicha, Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: Hemofilia (según el grafo de conocimiento"
 monitor_inn: "SIMOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
+description: "Simoctocog Alfa: nueva indicación predicha, Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Simoctocog Alfa
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Simoctocog alfa: De Hemofilia a Pseudo-enfermedad de von Willebrand
+## Simoctocog Alfa: Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para la **pseudo-enfermedad de 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Pseudo-enfermedad de von Willebrand (pseudo-von Willebrand disease) |
-| Puntaje de Predicción TxGNN | 99,997 % |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -65,15 +65,14 @@ Por tanto, la puntuación alta del modelo refleja una proximidad en la red de co
 
 | Posición | Indicación | Puntaje TxGNN | Comentario |
 |---|---|---|---|
-| 2 | Trastorno primario de liberación plaquetaria | 99,997 % | Vínculo débil e indirecto; el FVIII no corrige la secreción plaquetaria |
-| 3 | Trombastenia de Glanzmann | 99,995 % | Defecto de la integrina αIIbβ3; el tratamiento estándar es transfusión de plaquetas o FVIIa recombinante |
-| 4 | Síndrome de Scott | 99,969 % | Conexión teórica con el complejo tenasa, pero el FVIII no restaura la superficie fosfolipídica ausente |
-| 5 | Déficit adquirido de factores de coagulación | 99,952 % | Más plausible mecanísticamente (p. ej., hemofilia A adquirida), pero los inhibidores pueden neutralizar el producto y la indicación es demasiado amplia |
-| 6 | Diátesis hemorrágica por defecto del receptor de colágeno | 99,921 % | Sin vínculo mecanístico directo |
-| 7 | Trastorno hemorrágico por trombocitopenia constitucional | 99,917 % | El FVIII no corrige el recuento plaquetario |
-| 8 | Trombocitopenia aloinmune fetal y neonatal | 99,845 % | Sin fundamento mecanístico |
-| 9 | Hemofilia A con anomalía vascular | 99,779 % | Esencialmente un subtipo de la indicación ya autorizada, no un reposicionamiento real |
-| 10 | Púrpura trombótica trombocitopénica | 99,724 % | Posible riesgo de seguridad por aporte procoagulante en una microangiopatía protrombótica |
+| 2 | Trastorno primario de liberación plaquetaria | 1,0000 | Vínculo débil e indirecto; el FVIII no corrige la secreción plaquetaria |
+| 3 | Trombastenia de Glanzmann | 1,0000 | Defecto de la integrina αIIbβ3; el tratamiento estándar es transfusión de plaquetas o FVIIa recombinante |
+| 4 | Síndrome de Scott | 0,9997 | Conexión teórica con el complejo tenasa, pero el FVIII no restaura la superficie fosfolipídica ausente |
+| 5 | Déficit adquirido de factores de coagulación | 0,9995 | Más plausible mecanísticamente (p. ej., hemofilia A adquirida), pero los inhibidores pueden neutralizar el producto y la indicación es demasiado amplia |
+| 6 | Diátesis hemorrágica por defecto del receptor de colágeno | 0,9992 | Sin vínculo mecanístico directo |
+| 7 | Trastorno hemorrágico por trombocitopenia constitucional | 0,9992 | El FVIII no corrige el recuento plaquetario |
+| 8 | Trombocitopenia aloinmune fetal y neonatal | 0,9984 | Sin fundamento mecanístico |
+| 10 | Púrpura trombótica trombocitopénica | 0,9972 | Posible riesgo de seguridad por aporte procoagulante en una microangiopatía protrombótica |
 
 ## Evidencia de Ensayos Clínicos
 

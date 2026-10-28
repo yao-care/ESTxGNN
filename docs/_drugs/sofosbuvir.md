@@ -6,9 +6,9 @@ nav_order: 741
 evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Sofosbuvir: nueva indicación predicha, Infección por el virus de la hepatitis B (nivel de evidencia L2). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
+description: "Sofosbuvir: nueva indicación predicha, Infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Sofosbuvir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-## Sofosbuvir: De Infección por el Virus de la Hepatitis C a Infección por el Virus de la Hepatitis B
+## Sofosbuvir: Infección por el virus de la hepatitis B (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis C (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
-| Nueva Indicación Predicha | Infección por el virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por el virus de la hepatitis B (hepatitis B virus infection) |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold (pregunta de investigación; no avanzar a la fase clínica sin más datos) |
 
 ## ¿Por qué es Razonable esta Predicción?

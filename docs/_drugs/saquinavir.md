@@ -4,17 +4,17 @@ title: Saquinavir
 parent: Solo predicción del modelo (L5)
 nav_order: 726
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Saquinavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Infección por VIH y SIDA (el texto de indicación de la autorización…"
 monitor_inn: "SAQUINAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Saquinavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
 # Saquinavir
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Saquinavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+## Saquinavir: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ Entre las otras predicciones, solo "complejo relacionado con el SIDA" cuenta con
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH y SIDA (el texto de indicación de la autorización de AEMPS no está disponible; se toma del grafo de conocimiento) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---

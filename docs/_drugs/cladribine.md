@@ -6,9 +6,9 @@ nav_order: 186
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cladribine: nueva indicación predicha, Rabdomiosarcoma embrionario parameníngeo (nivel de evidencia L5). Indicación original: Leucemia de células pilosas…"
 monitor_inn: "Cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
+description: "Cladribine: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cladribine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Cladribina: De Leucemia de Células Pilosas a Rabdomiosarcoma Embrionario Parameníngeo
+## Cladribine: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para el **rabdomiosarcoma embri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia de células pilosas, variante de la leucemia de células pilosas y esclerosis múltiple remitente-recurrente (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Rabdomiosarcoma embrionario parameníngeo |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ No se dispone actualmente de datos detallados sobre el mecanismo de acción en l
 
 La relación con el rabdomiosarcoma embrionario parameníngeo es **débil y no está establecida**. Se trata de un tumor sólido de origen mesenquimal, muy distinto de las neoplasias linfoides. No hay evidencia en los datos de que la citotoxicidad de este análogo de purina sea relevante para este tumor.
 
-Además, las siete predicciones principales (seis variantes de rabdomiosarcoma, incluido el término general, y un sarcoma hepático) probablemente reflejan una misma señal repetida por la proximidad en el grafo de enfermedades y no hallazgos independientes. Por ello, el puntaje elevado (0.998) debe interpretarse con cautela.
+Además, las siete predicciones principales (seis variantes de rabdomiosarcoma, incluido el término general, y un sarcoma hepático) probablemente reflejan una misma señal repetida, y no hallazgos independientes. El puntaje elevado (0.9977) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Por ello, debe interpretarse con cautela.
 
 ---
 

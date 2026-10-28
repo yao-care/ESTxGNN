@@ -4,17 +4,17 @@ title: Neostigmine
 parent: Solo predicción del modelo (L5)
 nav_order: 559
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Neostigmine: nueva indicación predicha, Miastenia gravis con hiperplasia de timo (nivel de evidencia L5). Indicación original: Miastenia gravis (según el grafo de conocimiento"
 monitor_inn: "Neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
+description: "Neostigmine: nueva indicación predicha, Autoimmune disease of peripheral nervous system (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Neostigmine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Neostigmina: De Miastenia Gravis a Miastenia Gravis con Hiperplasia de Timo
+## Neostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **miastenia gravis con hip
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Miastenia gravis (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Miastenia gravis con hiperplasia de timo |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Autoimmune disease of peripheral nervous system |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

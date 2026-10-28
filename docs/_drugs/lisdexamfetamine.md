@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisdexamfetamine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 475
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (nivel de evidencia L3). Indicación original: TDAH (trastorno por déficit de atención e hiperactividad) y trastorno…"
 monitor_inn: "lisdexamfetamine"
-predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy", "narcolepsy, susceptibility to"]
+predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
+description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lisdexamfetamine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Lisdexanfetamina: De Trastorno por Déficit de Atención e Hiperactividad (TDAH) a Trastorno Específico del Desarrollo
+## Lisdexamfetamine: Trastorno específico del desarrollo (specific developmental disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno específico de
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | TDAH (trastorno por déficit de atención e hiperactividad) y trastorno por atracón (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno específico del desarrollo |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 19 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno específico del desarrollo (specific developmental disorder) |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 19) |
+| Número de Autorizaciones | 19 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Lisdexanfetamina es un profármaco de la d-anfetamina: tras su absorción se con
 
 La relación con la nueva indicación es limitada. El TDAH es un trastorno del neurodesarrollo y suele coexistir con otros trastornos específicos del desarrollo, lo que explica en parte la cercanía en la red del modelo. Sin embargo, el único estudio clínico de apoyo (un ensayo de fase II/III en pacientes pediátricos japoneses con TDAH) se refiere a una indicación ya existente, no a un trastorno del desarrollo distinto. El otro artículo es un reporte de caso de síndrome de Hao-Fountain (diagnóstico diferencial con síndrome de X frágil) que no aporta evidencia de eficacia.
 
-Por tanto, el puntaje muy alto de TxGNN probablemente refleja la proximidad en el grafo con nodos relacionados con el TDAH, más que un beneficio terapéutico demostrado.
+Por tanto, el puntaje muy alto de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con el TDAH, no evidencia biológica ni un beneficio terapéutico demostrado.
 
 ## Evidencia de Ensayos Clínicos
 

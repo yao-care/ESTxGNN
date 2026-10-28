@@ -4,17 +4,17 @@ title: Cefditoren
 parent: Solo predicción del modelo (L5)
 nav_order: 155
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Cefditoren: nueva indicación predicha, Susceptibilidad a la osteoartritis (osteoarthritis susceptibility) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los text…"
+indication_count: 1
 monitor_inn: "cefditoren"
-predicted_indications: ["osteoarthritis susceptibility", "rheumatoid arthritis"]
+predicted_indications: ["rheumatoid arthritis"]
+last_modified_at: 2026-10-23
+description: "Cefditoren: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 ---
 
 # Cefditoren
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Cefditoreno: De Indicación Original No Disponible a Susceptibilidad a la Osteoartritis
+## Cefditoreno: De Indicación Original No Registrada a Artritis Reumatoide
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Cefditoreno es una cefalosporina oral de tercera generación (profármaco pivoxilo) comercializada en España. Los datos compilados para este informe no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **susceptibilidad a la osteoartritis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
+Cefditoreno es una cefalosporina oral de tercera generación, comercializada en España con cuatro autorizaciones, aunque los datos compilados para este informe no incluyen el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Susceptibilidad a la osteoartritis (osteoarthritis susceptibility) |
-| Puntaje de Predicción TxGNN | 99,16% |
+| Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
+| Nueva Indicación Predicha | Artritis reumatoide |
+| Puntaje de Predicción TxGNN | 0,9902 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, cefditoreno es una cefalosporina de tercera generación que inhibe la síntesis de la pared celular bacteriana mediante la unión a las proteínas de unión a penicilina (PBP). Esta acción es antibacteriana y no tiene relevancia establecida para la fisiopatología de la osteoartritis (degradación del cartílago, remodelado óseo subcondral e inflamación de bajo grado).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, cefditoreno es una cefalosporina oral de tercera generación que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas de unión a penicilina (PBP). No tiene actividad antiinflamatoria o inmunomoduladora establecida que sea relevante para la artritis reumatoide.
 
-Los datos compilados **no respaldan un vínculo mecanístico**. La predicción se apoya solo en el puntaje elevado del grafo de conocimiento de TxGNN (0,992). Además, "susceptibilidad a la osteoartritis" describe un fenotipo de predisposición genética y no una condición clínica tratable, por lo que la predicción podría reflejar la topología del grafo (genes o vías vecinas compartidas) y no un mecanismo terapéutico real.
+La relación entre la indicación original (una infección bacteriana, aunque su texto no figura en los datos) y la artritis reumatoide no es evidente desde el punto de vista mecanístico. Cualquier vínculo sería especulativo, por ejemplo, efectos indirectos mediante la modulación del microbioma o brotes desencadenados por infecciones, y ninguno está respaldado por los datos disponibles.
 
-Como segunda predicción del modelo aparece la **artritis reumatoide** (puntaje 99,02%), también sin ensayos ni literatura. Tampoco hay un vínculo mecanístico: cefditoreno no tiene actividad inmunomoduladora conocida sobre TNF, IL-6, JAK ni vías de linfocitos T/B. Un uso crónico plantearía además problemas de microbiota, resistencias y depleción de carnitina asociada a profármacos pivoxilo.
+El puntaje alto (0,9902) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -78,31 +78,26 @@ Actualmente no hay literatura relacionada disponible.
 | 65942 | SPECTRACEF 200 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 | 65973 | SPECTRACEF 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 
-Las cuatro autorizaciones están vigentes, son de monofármaco y pertenecen a Meiji Pharma Spain S.A.
-
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 27 interacciones en total, todas de nivel moderado en las que se muestran los datos disponibles. Los grupos principales son:
-  - **Antiácidos** (hidróxido de aluminio, carbonato de calcio, magaldrato, carbonato/hidróxido/óxido de magnesio, citrato de sodio, bicarbonato de sodio).
-  - **Antagonistas H2** (famotidina, ranitidina, ranitidina con citrato de bismuto, cimetidina, nizatidina).
-  - **Inhibidores de la bomba de protones** (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol).
-  - **Anticoagulante** (dicumarol).
-
-  Los fármacos que reducen la acidez gástrica pueden disminuir la absorción de cefditoreno.
+- **Interacciones Farmacológicas**: se identificaron 27 interacciones, todas de nivel moderado (los datos compilados detallan 20). Las principales son:
+  - Antiácidos y sales de magnesio, aluminio o calcio: hidróxido de aluminio, carbonato de calcio, magaldrato, carbonato de magnesio, hidróxido de magnesio, óxido de magnesio, citrato de sodio y bicarbonato de sodio.
+  - Antagonistas H2: famotidina, ranitidina (incluida la de citrato de bismuto), cimetidina y nizatidina.
+  - Inhibidores de la bomba de protones: omeprazol, esomeprazol, lansoprazol, dexlansoprazol, rabeprazol y pantoprazol.
+  - Anticoagulante: dicumarol.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un antibiótico betalactámico y la osteoartritis o la artritis reumatoide. Además, "susceptibilidad a la osteoartritis" no es una indicación terapéutica clara.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni publicaciones, y sin una plausibilidad mecanística documentada para la artritis reumatoide. Además, faltan los datos de advertencias y contraindicaciones del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), necesario antes de cualquier evaluación de seguridad.
+- Obtener y analizar el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar la indicación original aprobada, ausente en los datos de las autorizaciones.
-- Definir una hipótesis mecanística desde cero (p. ej., modelos in vitro/in vivo de inmunomodulación por antibióticos) antes de plantear estudios clínicos.
-- Valorar si una indicación más clara, como la artritis reumatoide, o una enfermedad con mejor definición clínica justifica reorientar la evaluación.
+- Realizar una revisión de la literatura y de registros de ensayos sobre cefditoreno (o cefalosporinas) en artritis reumatoide.
+- Evaluar estudios preclínicos que justifiquen una hipótesis inmunomoduladora o de microbioma antes de considerar estudios clínicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

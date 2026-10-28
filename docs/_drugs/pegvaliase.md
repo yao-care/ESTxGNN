@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética*
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Retinopatía diabética |
-| Puntaje de Predicción TxGNN | 99,17 % |
+| Puntaje de Predicción TxGNN | 0,9917 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 3) |
 | Número de Autorizaciones | 3 |
 | Decisión Recomendada | Hold |
 
@@ -59,8 +59,8 @@ Otras predicciones del modelo, con el mismo nivel de evidencia (L5) y recomendac
 
 | Indicación Predicha | Puntaje TxGNN |
 |------|------|
-| Retinopatía diabética grave no proliferativa | 99,16 % |
-| Catarata diabética | 99,11 % |
+| Retinopatía diabética grave no proliferativa | 0,9916 |
+| Catarata diabética | 0,9911 |
 
 ---
 
@@ -68,9 +68,9 @@ Otras predicciones del modelo, con el mismo nivel de evidencia (L5) y recomendac
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, pegvaliasa es una fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada para la fenilcetonuria. No obstante, la indicación original no figura en los textos de autorización disponibles.
 
-**Los datos compilados no respaldan un vínculo mecanístico** entre esta enzima y la retinopatía diabética. El puntaje elevado (99,17 %) es una predicción del grafo de conocimiento y no constituye evidencia clínica. Una hipótesis meramente especulativa sería que la alteración del metabolismo de aminoácidos influya en las vías vasculares o neurodegenerativas de la retina, pero no hay datos que la sustenten.
+**Los datos compilados no respaldan un vínculo mecanístico** entre esta enzima y la retinopatía diabética. El puntaje elevado (0,9917) es una predicción del modelo TxGNN (aprendizaje profundo) y no constituye evidencia clínica. Una hipótesis meramente especulativa sería que la alteración del metabolismo de aminoácidos influya en las vías vasculares o neurodegenerativas de la retina, pero no hay datos que la sustenten.
 
-Las tres indicaciones predichas (retinopatía diabética, su forma grave no proliferativa y catarata diabética) son complicaciones diabéticas estrechamente relacionadas. Probablemente comparten una misma señal subyacente del grafo y **no deben considerarse evidencia independiente**. Tampoco se ha establecido una justificación biológica para la depleción de fenilalanina en enfermedad del cristalino o de la retina.
+Las tres indicaciones predichas (retinopatía diabética, su forma grave no proliferativa y catarata diabética) son complicaciones diabéticas estrechamente relacionadas. Las puntuaciones proceden del modelo TxGNN (deep learning) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, por lo que **no deben considerarse evidencia independiente**. Tampoco se ha establecido una justificación biológica para la depleción de fenilalanina en enfermedad del cristalino o de la retina.
 
 ---
 
@@ -122,7 +122,7 @@ La predicción es exclusivamente computacional (nivel L5), sin ensayos clínicos
 - Completar los datos del mecanismo de acción (por ejemplo, mediante consulta a DrugBank).
 - Realizar una revisión de literatura preclínica sobre el metabolismo de la fenilalanina en la retina y el cristalino.
 - Evaluar la compatibilidad de la vía de administración con la enfermedad ocular propuesta (actualmente pendiente).
-- Valorar si las tres predicciones representan una única señal del grafo antes de asignar recursos.
+- Valorar si las tres predicciones del modelo TxGNN (deep learning) representan una única señal de similitud entre enfermedades relacionadas antes de asignar recursos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

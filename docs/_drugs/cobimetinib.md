@@ -4,17 +4,17 @@ title: Cobimetinib
 parent: Solo predicción del modelo (L5)
 nav_order: 204
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cobimetinib: nueva indicación predicha, Esclerosis lateral amiotrófica (nivel de evidencia L5). Indicación original: Melanoma metastásico"
 monitor_inn: "COBIMETINIB"
-predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
 ---
 
 # Cobimetinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Melanoma metastásico |
 | Nueva Indicación Predicha | Esclerosis lateral amiotrófica |
-| Puntaje de Predicción TxGNN | 99,73% |
+| Puntaje de Predicción TxGNN | 0,9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Cobimetinib inhibe MEK1/2, componentes de la vía RAS-RAF-MEK-ERK. Los datos com
 
 La relación con la ELA es indirecta. La señalización ERK/MAPK se ha implicado en la neuroinflamación y en las respuestas de estrés de las motoneuronas en modelos de ELA, por lo que existe un vínculo plausible pero no validado. Además, la penetración de cobimetinib en el sistema nervioso central es limitada (es sustrato de la glicoproteína P), lo que debilita el fundamento para una enfermedad neurológica.
 
-Las demás predicciones de mayor puntaje (todas con puntajes entre 99,5% y 99,7%) son en su mayoría trastornos de la motoneurona del espectro de la ELA (síndrome de Mills, ELA tipo 22, susceptibilidad a ELA, síndrome de motoneurona inferior de inicio tardío, amiotrofia monomélica, entre otros) o enfermedades del desarrollo y esqueléticas sin vínculo mecanístico claro (polimicrogiria parieto-occipital parasagital bilateral, displasia espondilometafisaria axial, síndrome de tricomegalia-degeneración pigmentaria de la retina-enanismo). Ninguna cuenta con ensayos ni literatura. Cabe destacar que la toxicidad retiniana (retinopatía serosa) de cobimetinib supone una preocupación de seguridad específica para fenotipos de degeneración retiniana.
+Las demás predicciones de mayor puntaje (todas con puntajes entre 0,9951 y 0,9966) son en su mayoría trastornos de la motoneurona del espectro de la ELA (síndrome de Mills, ELA tipo 22, síndrome de motoneurona inferior de inicio tardío, amiotrofia monomélica, entre otros) o enfermedades del desarrollo y esqueléticas sin vínculo mecanístico claro (polimicrogiria parieto-occipital parasagital bilateral, displasia espondilometafisaria axial, síndrome de tricomegalia-degeneración pigmentaria de la retina-enanismo). Ninguna cuenta con ensayos ni literatura. Cabe destacar que la toxicidad retiniana (retinopatía serosa) de cobimetinib supone una preocupación de seguridad específica para fenotipos de degeneración retiniana.
 
 ## Evidencia de Ensayos Clínicos
 

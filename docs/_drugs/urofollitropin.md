@@ -4,17 +4,17 @@ title: Urofollitropin
 parent: Solo predicción del modelo (L5)
 nav_order: 835
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 monitor_inn: "urofollitropin"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "migraine with or without aura, susceptibility to", "Raynaud disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
 description: "Urofollitropin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la"
 ---
 
 # Urofollitropin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **trastorno de migraña**,
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99,85 % |
+| Puntaje de Predicción TxGNN | 0,9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,9 +63,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Podría plantearse un vínculo teórico a través de la modulación hormonal de la migraña (por ejemplo, las fluctuaciones de estrógenos), pero esta hipótesis es **especulativa**. No existe un mecanismo establecido que relacione la actividad de la FSH con la fisiopatología de la migraña.
 
-El puntaje alto de TxGNN (99,85 %) proviene de asociaciones en un grafo de conocimiento, sin respaldo de ensayos ni literatura. Por ello, debe interpretarse con cautela.
+El puntaje alto de TxGNN (0,9985) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, sin respaldo de ensayos ni literatura. Por ello, debe interpretarse con cautela.
 
-Otras predicciones del modelo (todas con nivel L5 y sin evidencia) incluyen: migraña con aura del tronco encefálico, síndrome de cauda equina, taquicardia del haz de His, síndrome de piernas inquietas, vejiga neurógena (término obsoleto), taquicardia auricular multifocal, síndrome de taquicardia postural ortostática, susceptibilidad genética a la migraña y enfermedad de Raynaud. Ninguna presenta un mecanismo plausible; varias son probablemente artefactos del grafo.
+Otras predicciones del modelo (todas con nivel L5 y sin evidencia) incluyen: migraña con aura del tronco encefálico, síndrome de cauda equina, taquicardia del haz de His, síndrome de piernas inquietas, vejiga neurógena (término obsoleto), taquicardia auricular multifocal, síndrome de taquicardia postural ortostática y enfermedad de Raynaud. Ninguna presenta un mecanismo plausible; varias probablemente reflejan similitudes que el modelo aprendió entre enfermedades relacionadas.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlordiazepoxide
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 171
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Chlordiazepoxide: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Ansiedad…"
 monitor_inn: "Chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
+description: "Chlordiazepoxide: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Chlordiazepoxide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Clordiazepóxido: De Ansiedad y Abstinencia Alcohólica a Insomnio
+## Chlordiazepoxide: Insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ansiedad, abstinencia alcohólica y otras (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.998% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

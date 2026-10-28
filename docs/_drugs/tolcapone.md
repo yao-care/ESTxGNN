@@ -6,9 +6,9 @@ nav_order: 803
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tolcapone: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (según el grafo de conocimiento"
 monitor_inn: "Tolcapone"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
+description: "Tolcapone: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tolcapone
@@ -33,14 +33,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tolcapona: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+## Tolcapone: Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Tolcapona es un inhibidor de la catecol-O-metiltransferasa (COMT), utilizado originalmente como tratamiento complementario de la enfermedad de Parkinson.
 El modelo TxGNN predice que podría ser efectivo para la **encefalitis subaguda de Rasmussen**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción basada en el grafo de conocimiento.
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo TxGNN (aprendizaje profundo).
 
 ---
 
@@ -48,12 +48,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99,93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, tolcapona es un inhibidor de la COMT (enzima codificada por el gen *COMT*), que se utiliza como terapia complementaria en la enfermedad de Parkinson. Al inhibir la degradación periférica de la levodopa, prolonga su efecto dopaminérgico.
 
-La encefalitis de Rasmussen es una encefalitis crónica inmunomediada, impulsada por linfocitos T. La COMT no tiene un papel inmunomodulador establecido, por lo que **no se aprecia un mecanismo plausible** que vincule el fármaco con esta enfermedad. La puntuación elevada del modelo refleja probablemente la proximidad en la red del grafo, no una relación biológica demostrada.
+La encefalitis de Rasmussen es una encefalitis crónica inmunomediada, impulsada por linfocitos T. La COMT no tiene un papel inmunomodulador establecido, por lo que **no se aprecia un mecanismo plausible** que vincule el fármaco con esta enfermedad. La puntuación elevada del modelo TxGNN (deep learning) (0.9993) procede del modelo y puede reflejar similitudes que este aprendió entre enfermedades relacionadas, no una evidencia biológica.
 
 Por tanto, esta predicción debe considerarse altamente especulativa y requeriría evidencia preclínica básica antes de cualquier consideración clínica.
 
@@ -114,7 +114,7 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura,
 - Revisión del prospecto de AEMPS (advertencias y contraindicaciones), actualmente no disponible en los datos compilados.
 - Evaluación del riesgo hepático antes de cualquier estudio clínico.
 
-**Nota sobre otras predicciones:** entre las demás candidatas, la **demencia con cuerpos de Lewy** (puntaje 99,64%, nivel L4) es la que cuenta con cierto respaldo, una publicación preclínica de 2024 (PMID [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/)) en organoides corticales derivados de iPSC, aunque no se pudo confirmar el papel específico de la tolcapona. Se considera una pregunta de investigación, con cautela por la sensibilidad a agentes dopaminérgicos y el riesgo de psicosis. La predicción "parálisis agitante juvenil de Hunt" es en esencia un solapamiento de nomenclatura con la indicación ya existente, no un reposicionamiento novedoso.
+**Nota sobre otras predicciones:** entre las demás candidatas, la **demencia con cuerpos de Lewy** (puntaje 0,9964, nivel L4) es la que cuenta con cierto respaldo, una publicación preclínica de 2024 (PMID [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/)) en organoides corticales derivados de iPSC, aunque no se pudo confirmar el papel específico de la tolcapona. Se considera una pregunta de investigación, con cautela por la sensibilidad a agentes dopaminérgicos y el riesgo de psicosis. La predicción "parálisis agitante juvenil de Hunt" es en esencia un solapamiento de nomenclatura con la indicación ya existente, no un reposicionamiento novedoso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

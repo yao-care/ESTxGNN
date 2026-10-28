@@ -4,17 +4,17 @@ title: Brigatinib
 parent: Solo predicción del modelo (L5)
 nav_order: 112
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Brigatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Cáncer de pulmón no microcítico (según el grafo de conocimiento"
+indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+last_modified_at: 2026-10-27
+description: "Brigatinib: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Brigatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,109 +33,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Brigatinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+## Brigatinib: inhibidor de quinasas (ALK/EGFR/FAK) → Fibromatosis gingival (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Brigatinib es un inhibidor de la quinasa del linfoma anaplásico (ALK) de nueva generación, utilizado originalmente para el tratamiento del cáncer de pulmón no microcítico (CPNM).
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, aunque **no existe ningún ensayo clínico ni publicación** que respalde esta predicción; se trata únicamente de una predicción basada en el grafo de conocimiento.
-
----
+Brigatinib es un inhibidor de tirosina quinasas de nueva generación que actúa sobre ALK, EGFR y FAK, y está comercializado en España.
+El modelo TxGNN predice que podría ser efectivo para **Fibromatosis gingival (fibromatosis, gingival)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción basada únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Fibromatosis gingival (fibromatosis, gingival) |
+| Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, brigatinib es un inhibidor de tirosina quinasas con actividad establecida frente a ALK, y también frente a EGFR y FAK. Su eficacia en el CPNM con ALK positivo está demostrada en el ensayo de Fase 3 ALTA-1L.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, brigatinib es un inhibidor de quinasas dirigido principalmente a ALK, con actividad adicional sobre otras tirosina quinasas (como EGFR y FAK).
 
-Para la fibromatosis gingival no se ha identificado un vínculo mecanístico plausible. Es un trastorno fibroso benigno de las encías, muy distinto de una neoplasia maligna impulsada por ALK. El puntaje elevado (99.89%) refleja una asociación dentro del grafo, no una evidencia biológica ni clínica.
+Para la fibromatosis gingival, una proliferación fibrosa benigna de la encía, los datos compilados no establecen un vínculo mecanístico plausible con la inhibición de estas quinasas. La puntuación elevada (0,9989) proviene exclusivamente de la predicción del modelo y no está respaldada por estudios reales.
 
-Por tanto, esta predicción debe considerarse especulativa. Conviene tratarla como una hipótesis que requeriría respaldo preclínico antes de cualquier avance.
-
----
+Por ello, cualquier aplicación en esta enfermedad sería especulativa y requeriría, como mínimo, trabajo preclínico que justifique la hipótesis antes de plantear estudios en pacientes.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181264008 | ALUNBRIG 90 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1181264011 | ALUNBRIG 30 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1181264012 | ALUNBRIG 90 mg + 180 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 1181264010 | ALUNBRIG 180 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-
-Titular de todas las autorizaciones: Takeda Pharma A/S.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 1181264008 | ALUNBRIG 90 MG comprimidos recubiertos con película | Comprimido recubierto con película |
+| 1181264011 | ALUNBRIG 30 MG comprimidos recubiertos con película | Comprimido recubierto con película |
+| 1181264012 | ALUNBRIG 90 MG + 180 MG comprimidos recubiertos con película | Comprimido recubierto con película |
+| 1181264010 | ALUNBRIG 180 MG comprimidos recubiertos con película | Comprimido recubierto con película |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas, ALK) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
----
-
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; se muestran 20 de ellas.
-  - **Mayores**: aprepitant, dexametasona y claritromicina.
-  - **Moderadas** (entre otras): acarbosa, famotidina, ranitidina, rabeprazol, cimetidina, cisaprida, loperamida, morfina, clotrimazol, y antidiabéticos como metformina, pioglitazona, alogliptina, canagliflozina y dapagliflozina.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en las bases consultadas. Entre las de nivel **mayor** figuran aprepitant, dexametasona y claritromicina. Entre las de nivel **moderado** figuran acarbosa, famotidina, ranitidina, rabeprazol, metformina, pioglitazona, loperamida, morfina, cimetidina, cisaprida y dapagliflozina, entre otras.
+- Literatura relacionada con brigatinib describe un caso de síndrome de lisis tumoral fatal en un paciente con adenocarcinoma de pulmón (PMID 34987411), lo que justifica precaución.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
-
----
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, y no hay un mecanismo plausible que vincule la inhibición de ALK/EGFR/FAK con la fibromatosis gingival. La evidencia de Fase 3 de brigatinib corresponde al CPNM ya aprobado y no puede atribuirse a esta indicación.
+La predicción se apoya solo en la puntuación del modelo (0,9989), sin ensayos clínicos ni publicaciones sobre fibromatosis gingival, y sin un vínculo mecanístico plausible identificado. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción, para evaluar un posible vínculo con la fibrosis gingival
-- Estudios preclínicos (modelos celulares o animales de fibrosis gingival)
-- Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS
-- Evaluación de la relación beneficio-riesgo, dado que se trata de una enfermedad benigna y brigatinib es un antineoplásico con riesgos de seguridad relevantes
-
----
-
-### Nota sobre otras predicciones
-
-Entre las demás predicciones de mayor puntaje, las siguientes tienen alguna evidencia indirecta, aunque ninguna directa:
-
-- **Neoplasia benigna de pulmón (puntaje 99.85%)**: las 20 publicaciones vinculadas (10 en los datos mostrados) se refieren al CPNM con ALK positivo, ya aprobado, por lo que no respaldan esta indicación. Nivel L5, Hold.
-- **Tumor de células germinales de pulmón (99.84%)**: solo hay evidencia indirecta en otros tumores relacionados con ALK, como neuroblastoma, feocromocitoma y carcinoma neuroendocrino de células grandes de pulmón. Nivel L4, "Research Question".
-- **Síndrome de leucomelanodermia-infantilismo-discapacidad intelectual-hipodoncia-hipotricosis (99.83%)**: la coincidencia de nombre parece un artefacto del grafo. La literatura vinculada trata sobre la **schwannomatosis relacionada con NF2**, con un informe clínico de 2024 (PMID 38904277) y un estudio preclínico (PMID 34264955). Esta indicación debería evaluarse por separado. Nivel L4, Hold. También consta un caso de síndrome de lisis tumoral mortal (PMID 34987411), que exige cautela.
+- Datos del mecanismo de acción y una hipótesis biológica que conecte la inhibición de ALK/EGFR/FAK con la fibromatosis gingival
+- Estudios preclínicos (por ejemplo, modelos de fibroblastos gingivales) que respalden la hipótesis
+- Revisión del prospecto para completar advertencias, contraindicaciones y perfil de seguridad
+- Evaluación del balance beneficio-riesgo en una enfermedad benigna, dado el perfil de toxicidad de un fármaco antineoplásico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

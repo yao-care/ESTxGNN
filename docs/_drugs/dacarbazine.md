@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 215
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
-description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (nivel de evidencia L4). Indicación original: Melanoma metastásico y linfoma de Hodgkin (según el grafo de conocimi"
+description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Dacarbazina: De Linfoma de Hodgkin y Melanoma Metastásico a Neoplasia del Tracto Aerodigestivo Superior
+## Dacarbazine: Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del tracto aer
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Melanoma metastásico y linfoma de Hodgkin (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior |
-| Puntaje de Predicción TxGNN | 99,26% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9926 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Dacarbazina es un agente alquilante que actúa como profármaco metilante: se ac
 
 La relación con la nueva indicación es indirecta. El tracto aerodigestivo superior puede albergar histologías en las que dacarbazina tiene uso o actividad: melanoma mucoso de cabeza y cuello, paragangliomas malignos de cabeza y cuello y linfoma de Hodgkin con afectación de cabeza y cuello. Sin embargo, el tumor dominante en esta región es el carcinoma escamoso, para el cual no hay evidencia de beneficio en los datos disponibles.
 
-Por tanto, el puntaje elevado del modelo (99,26%) es una predicción computacional que probablemente refleja este solapamiento indirecto con las indicaciones ya conocidas, más que evidencia directa de eficacia en la nueva indicación.
+Por tanto, el puntaje elevado del modelo (0,9926) es una predicción computacional que probablemente refleja este solapamiento indirecto con las indicaciones ya conocidas, más que evidencia directa de eficacia en la nueva indicación.
 
 ## Evidencia de Ensayos Clínicos
 

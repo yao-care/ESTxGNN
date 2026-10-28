@@ -6,9 +6,9 @@ nav_order: 336
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Filgrastim: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (nivel de evidencia L5). Indicación original: Neutropenia constitucional / neutropenia congénita grave (según …"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
+description: "Filgrastim: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
 ---
 
 # Filgrastim
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Filgrastim: De Neutropenia Congénita Grave a Trastorno de Liberación Primaria de las Plaquetas
+## Filgrastim: Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neutropenia constitucional / neutropenia congénita grave (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
-| Puntaje de Predicción TxGNN | 99,998% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en las fuentes compiladas. Según la información conocida, filgrastim es un G-CSF recombinante que actúa sobre el receptor de G-CSF en el linaje granulocítico, estimulando la proliferación y maduración de neutrófilos. Su eficacia en las neutropenias congénitas y crónicas está bien establecida.
 
-La relación entre la indicación original y la nueva es débil. Los trastornos de liberación plaquetaria afectan a la función de las plaquetas (secreción de gránulos), no al número de neutrófilos, y no se ha identificado un vínculo mecanístico establecido con la señalización de G-CSF. El puntaje alto del modelo refleja asociaciones dentro del grafo de conocimiento, no evidencia biológica o clínica.
+La relación entre la indicación original y la nueva es débil. Los trastornos de liberación plaquetaria afectan a la función de las plaquetas (secreción de gránulos), no al número de neutrófilos, y no se ha identificado un vínculo mecanístico establecido con la señalización de G-CSF. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica o clínica.
 
 Las otras indicaciones predichas con mayor puntaje (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, entre otras) presentan el mismo patrón: sin ensayos, sin literatura y sin mecanismo plausible. Por ello, esta predicción debe considerarse generadora de hipótesis y no una recomendación terapéutica.
 

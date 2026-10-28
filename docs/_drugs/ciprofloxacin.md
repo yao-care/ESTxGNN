@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ciprofloxacin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 183
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ciprofloxacin: nueva indicación predicha, Esclerodermia difusa (nivel de evidencia L4). Indicación original: Fiebre tifoidea, salmonelosis…"
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+description: "Ciprofloxacin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Ciprofloxacino: De Fiebre Tifoidea e Infecciones Bacterianas a Esclerodermia Difusa
+## Ciprofloxacin: Esclerodermia difusa (diffuse scleroderma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fiebre tifoidea, salmonelosis, infecciones bacterianas (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Esclerodermia difusa |
-| Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
+| Puntaje de Predicción TxGNN | 0.9987 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -96,7 +96,7 @@ Hay 20 autorizaciones vigentes, todas de medicamentos con un solo principio acti
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.87%), pero el respaldo se limita a dos publicaciones exploratorias, sin ensayos clínicos registrados y con un mecanismo antifibrótico no establecido. Además, los pacientes con esclerodermia podrían usar corticoides, que interactúan de forma importante con ciprofloxacino y aumentan el riesgo de tendinopatía.
+La predicción tiene un puntaje alto (0.9987), pero el respaldo se limita a dos publicaciones exploratorias, sin ensayos clínicos registrados y con un mecanismo antifibrótico no establecido. Además, los pacientes con esclerodermia podrían usar corticoides, que interactúan de forma importante con ciprofloxacino y aumentan el riesgo de tendinopatía.
 
 **Para avanzar se necesita:**
 - Revisar el texto completo del estudio de 2010 (PMID 20507401) para confirmar diseño, tamaño muestral y resultados.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etoposide
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 318
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Etoposide: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L1). Indicación original: Carcinoma pulmonar de células pequeñas y tumores de células germinale…"
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+description: "Etoposide: nueva indicación predicha, Well-differentiated fetal adenocarcinoma of the lung (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Etoposide
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Etopósido: De Cáncer de Pulmón de Células Pequeñas y Tumores Testiculares a Sarcoma de Ewing
+## Etoposide: Well-differentiated fetal adenocarcinoma of the lung
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **32 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma pulmonar de células pequeñas y tumores de células germinales testiculares (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Sarcoma de Ewing |
-| Puntaje de Predicción TxGNN | 99.85% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Well-differentiated fetal adenocarcinoma of the lung |
+| Puntaje de Predicción TxGNN | 0.9994 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

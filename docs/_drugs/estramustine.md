@@ -4,17 +4,17 @@ title: Estramustine
 parent: Solo predicción del modelo (L5)
 nav_order: 309
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Estramustine: nueva indicación predicha, Susceptibilidad al cáncer de próstata/cáncer cerebral (nivel de evidencia L5). Indicación original: Cáncer de próstata (según el grafo de conocimiento"
 monitor_inn: "Estramustine"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "female breast carcinoma", "HIV infectious disease", "breast fibrocystic disease"]
+description: "Estramustine: nueva indicación predicha, Fibroma of prostate (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Estramustine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Estramustina: De Cáncer de Próstata a Susceptibilidad Genética al Cáncer de Próstata/Cerebro
+## Estramustine: Fibroma of prostate
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ Se trata de una entidad de predisposición genética, no de una enfermedad trata
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de próstata (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
-| Nueva Indicación Predicha | Susceptibilidad al cáncer de próstata/cáncer cerebral |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Fibroma of prostate |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Se trata de una entidad de predisposición genética, no de una enfermedad trata
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal. Según la información conocida, estramustina combina estradiol con una mostaza nitrogenada en forma de carbamato. Actúa como agente antimicrotúbulos: se une a las proteínas asociadas a microtúbulos y a la tubulina, y detiene las células en la fase G2/M. En el tejido prostático se concentra gracias a una proteína de unión específica (EMBP).
 
-El puntaje tan alto probablemente refleja la **cercanía en el grafo de conocimiento** con el cáncer de próstata, que es su indicación aprobada. No refleja una relación terapéutica real. Una susceptibilidad genética no es un estado patológico que un fármaco citotóxico pueda tratar, y no existe un vínculo demostrado entre estramustina y la modificación de dicha susceptibilidad.
+No refleja una relación terapéutica real. Una susceptibilidad genética no es un estado patológico que un fármaco citotóxico pueda tratar, y no existe un vínculo demostrado entre estramustina y la modificación de dicha susceptibilidad.
 
 Por tanto, la predicción no aporta una hipótesis de reposicionamiento mecanísticamente defendible. La similitud con la indicación original queda pendiente de evaluación.
 
@@ -117,7 +117,7 @@ La información de advertencias y contraindicaciones del prospecto de la AEMPS n
 **Decisión: Hold**
 
 **Justificación:**
-La predicción corresponde a una entidad de susceptibilidad genética sin ensayos ni publicaciones, con evidencia de nivel L5 y sin mecanismo plausible. El puntaje alto parece un artefacto de la cercanía al cáncer de próstata en el grafo de conocimiento.
+La predicción corresponde a una entidad de susceptibilidad genética sin ensayos ni publicaciones, con evidencia de nivel L5 y sin mecanismo plausible.
 
 **Para avanzar se necesita:**
 - Aclarar si esta entidad puede considerarse una indicación tratable. Lo más probable es que deba descartarse como candidata.

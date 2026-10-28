@@ -6,9 +6,9 @@ nav_order: 575
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infecciones del tracto urinario (según las indicaciones originales de…"
 monitor_inn: "Norfloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Norfloxacin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Norfloxacino: De Infecciones Bacterianas (Urinarias y Gastrointestinales) a Síndrome de Hiperviscosidad Policlonal
+## Norfloxacin: Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hipervis
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones del tracto urinario (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, norfloxacino es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su eficacia en infecciones bacterianas está bien establecida.
 
-Sin embargo, **no se identifica un vínculo mecanístico plausible** con el síndrome de hiperviscosidad policlonal. El norfloxacino no tiene efecto conocido sobre los niveles de proteínas séricas ni sobre la viscosidad sanguínea. El puntaje alto de TxGNN (99.70%) refleja una predicción basada en el grafo de conocimiento, sin respaldo clínico ni bibliográfico, y debe interpretarse como una hipótesis no sustentada.
+Sin embargo, **no se identifica un vínculo mecanístico plausible** con el síndrome de hiperviscosidad policlonal. El norfloxacino no tiene efecto conocido sobre los niveles de proteínas séricas ni sobre la viscosidad sanguínea. El puntaje alto de TxGNN (0.9970) refleja una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo clínico ni bibliográfico, y debe interpretarse como una hipótesis no sustentada.
 
 Cabe señalar que otras predicciones del modelo con el mismo perfil (hiperamilasemia, analbuminemia congénita, incompatibilidad de grupo sanguíneo, esclerodermia difusa) tampoco cuentan con vínculo mecanístico ni evidencia. Las únicas con plausibilidad indirecta son la queratoconjuntivitis epitelial punteada y la peste septicémica (ambas nivel L4, "pregunta de investigación"), aunque con evidencia limitada y sin datos específicos de norfloxacino en humanos.
 

@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Betaxolol
-parent: Solo predicción del modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 100
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Betaxolol: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Hipertensión arterial…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Betaxolol: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Betaxolol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,60 +32,45 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Betaxolol: De Hipertensión e Hipertensión Ocular a Glaucoma Hereditario Primario
+<!-- known-uses-page -->
+<!-- description: Betaxolol: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata -->
+## Betaxolol: Usos conocidos y estado de comercialización en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Todos los candidatos que el modelo TxGNN propone para Betaxolol, y que se pueden rastrear hasta una fuente, corresponden a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco.
 
-Betaxolol es un betabloqueante adrenérgico beta-1 selectivo, utilizado originalmente para el tratamiento de la hipertensión arterial, el glaucoma de ángulo abierto y la hipertensión ocular.
-El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Resumen rápido
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial, glaucoma de ángulo abierto e hipertensión ocular (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99,74 % |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 0 |
+| Nivel de evidencia | No aplicable |
+| Estado de comercialización en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobadas (respaldadas por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguna | Ninguna |
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, betaxolol es un antagonista adrenérgico beta-1 selectivo. En el ojo reduce la presión intraocular (PIO) al disminuir la producción de humor acuoso en el cuerpo ciliar.
+### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | Ninguna |
 
-El glaucoma hereditario primario (por ejemplo, las formas asociadas a MYOC o CYP1B1) comparte con el glaucoma de ángulo abierto y la hipertensión ocular la vía final de elevación de la PIO y daño de las células ganglionares de la retina. Por ello, un mecanismo que reduce la PIO es biológicamente plausible. El puntaje tan alto del modelo (0,997) probablemente refleja esta cercanía con las indicaciones oftálmicas ya conocidas en el grafo de conocimiento.
-
-Conviene ser prudente: las formas hereditarias congénitas o juveniles suelen tratarse de forma quirúrgica, y el uso de betabloqueantes tópicos en población pediátrica conlleva preocupaciones de seguridad sistémica (bradicardia, broncoespasmo), aunque la selectividad beta-1 de betaxolol reduce el riesgo respiratorio frente a los betabloqueantes no selectivos. Esta asociación es, por tanto, una predicción del modelo sin respaldo clínico directo.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61015 | BETOPTIC SUSPENSIÓN 2,5 MG/ML COLIRIO EN SUSPENSIÓN (Immedica Pharma AB) | Colirio en suspensión | No disponible en los datos compilados |
-
----
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 61015 | betaxolol | COLIRIO EN SUSPENSIÓN | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -97,19 +83,6 @@ Los datos de advertencias y contraindicaciones del prospecto no están disponibl
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción es plausible mecanísticamente por la cercanía con las indicaciones oftálmicas ya conocidas, pero no existe ningún ensayo clínico ni publicación que la respalde (nivel L5). Además, falta información de seguridad del prospecto y los datos de mecanismo de acción.
-
-**Para avanzar se necesita:**
-- Descargar y analizar el prospecto de AEMPS (advertencias y contraindicaciones), una carencia que bloquea el cribado de seguridad.
-- Obtener datos detallados del mecanismo de acción (por ejemplo, desde DrugBank).
-- Revisar la literatura sobre el uso de betabloqueantes tópicos en glaucoma hereditario (formas MYOC/CYP1B1) y en población pediátrica.
-- Confirmar la indicación autorizada en España para BETOPTIC y la compatibilidad de la vía de administración.
-- Evaluar el perfil de seguridad cardiovascular y respiratoria en las poblaciones objetivo, en particular la pediátrica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Deanol (DMAE) es un fármaco comercializado en España como solución oral (DENUBIL), cuya indicación aprobada no figura en los datos compilados para este informe.
+Deanol (DMAE) es un fármaco que actualmente no está comercializado en España (solo constan autorizaciones canceladas), con presentación en solución oral (DENUBIL), cuya indicación aprobada no figura en los datos compilados para este informe.
 El modelo TxGNN predice que podría ser efectivo para **Insomnio**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: el único apoyo es la predicción del modelo.
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **Insomnio**, pero actualm
 |------|------|
 | Indicación Original | No disponible en la autorización de la AEMPS |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Tampoco se puede establecer una relación entre la indicación original y la nueva, ya que la autorización española no incluye texto de indicación. Además, no está claro si la modulación colinérgica ayudaría o empeoraría el insomnio.
 
-Por lo tanto, la razonabilidad de la predicción descansa únicamente en el alto puntaje del grafo de conocimiento (0.9987). No hay un vínculo mecanístico verificable.
+Por lo tanto, la razonabilidad de la predicción descansa únicamente en el alto puntaje del modelo TxGNN (aprendizaje profundo) (0.9987), que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No hay un vínculo mecanístico verificable.
 
 ---
 

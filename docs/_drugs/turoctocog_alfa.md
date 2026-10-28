@@ -6,9 +6,9 @@ nav_order: 832
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Turoctocog Alfa: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (nivel de evidencia L5). Indicación original: Hemofilia (según el grafo de conocimiento"
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
+description: "Turoctocog Alfa: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los da…"
 ---
 
 # Turoctocog Alfa
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Turoctocog Alfa: De Hemofilia a Trastorno de Liberación Primaria de las Plaquetas
+## Turoctocog Alfa: Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -66,15 +66,15 @@ La puntuación alta de TxGNN es solo una predicción del modelo, sin respaldo de
 
 | Rango | Indicación | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Pseudo-enfermedad de von Willebrand | 99,99 % | Vínculo plausible pero indirecto (el VWF transporta y estabiliza al FVIII); no corrige el defecto del receptor GPIbα |
-| 3 | Trombastenia de Glanzmann | 99,99 % | El FVIII no corrige el defecto de la integrina αIIbβ3; el manejo estándar es transfusión de plaquetas y FVIIa recombinante |
-| 4 | Síndrome de Scott | 99,95 % | Conexión teórica vía complejo tenasa, pero el FVIII no restituye la superficie de membrana ausente |
-| 5 | Déficit adquirido de factores de coagulación | 99,95 % | La más plausible mecanísticamente (p. ej., hemofilia A adquirida), pero los inhibidores autoinmunes neutralizan el FVIII; suelen preferirse agentes puenteantes. Clasificada como pregunta de investigación |
-| 6 | Diátesis hemorrágica por defecto del receptor de colágeno | 99,91 % | Problema primario de función plaquetaria; sin respaldo |
-| 7 | Trastorno hemorrágico por trombocitopenia constitucional | 99,91 % | El FVIII no trata la causa subyacente |
-| 8 | "Flood factor deficiency" | 99,61 % | Nombre no identificable; posible artefacto de la ontología, debe verificarse |
-| 9 | Púrpura trombótica trombocitopénica | 99,54 % | Preocupación de seguridad: un producto procoagulante podría agravar la trombosis |
-| 10 | Trombocitosis hereditaria con defecto transverso de miembros | 99,52 % | Sin fundamento biológico identificado |
+| 2 | Pseudo-enfermedad de von Willebrand | 0,9999 | Vínculo plausible pero indirecto (el VWF transporta y estabiliza al FVIII); no corrige el defecto del receptor GPIbα |
+| 3 | Trombastenia de Glanzmann | 0,9999 | El FVIII no corrige el defecto de la integrina αIIbβ3; el manejo estándar es transfusión de plaquetas y FVIIa recombinante |
+| 4 | Síndrome de Scott | 0,9995 | Conexión teórica vía complejo tenasa, pero el FVIII no restituye la superficie de membrana ausente |
+| 5 | Déficit adquirido de factores de coagulación | 0,9995 | La más plausible mecanísticamente (p. ej., hemofilia A adquirida), pero los inhibidores autoinmunes neutralizan el FVIII; suelen preferirse agentes puenteantes. Clasificada como pregunta de investigación |
+| 6 | Diátesis hemorrágica por defecto del receptor de colágeno | 0,9991 | Problema primario de función plaquetaria; sin respaldo |
+| 7 | Trastorno hemorrágico por trombocitopenia constitucional | 0,9991 | El FVIII no trata la causa subyacente |
+| 8 | "Flood factor deficiency" | 0,9961 | Nombre no identificable; posible artefacto de la ontología, debe verificarse |
+| 9 | Púrpura trombótica trombocitopénica | 0,9954 | Preocupación de seguridad: un producto procoagulante podría agravar la trombosis |
+| 10 | Trombocitosis hereditaria con defecto transverso de miembros | 0,9952 | Sin fundamento biológico identificado |
 
 ## Evidencia de Ensayos Clínicos
 

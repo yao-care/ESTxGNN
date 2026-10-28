@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Donepezil
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 260
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Donepezil: nueva indicación predicha, Trastorno de tics crónicos (nivel de evidencia L3). Indicación original: Enfermedad de Alzheimer (según el grafo de conocimiento"
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
+description: "Donepezil: nueva indicación predicha, Psychogenic movement disorders (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Donepezil
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-## Donepezilo: De Enfermedad de Alzheimer a Trastorno de Tics Crónicos
+## Donepezil: Psychogenic movement disorders
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -41,17 +41,17 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 Donepezilo es un inhibidor de la colinesterasa, originalmente utilizado para el tratamiento de la enfermedad de Alzheimer.
 El modelo TxGNN predice que podría ser efectivo para **Trastorno de Tics Crónicos** (segunda predicción de mayor puntaje, y la primera con respaldo bibliográfico), sin ensayos clínicos registrados y con **5 publicaciones** de alcance limitado (estudios pequeños, reportes de caso y trabajos preclínicos en ratón).
 
-> Nota: la predicción con mayor puntaje (trastornos del movimiento psicógenos, 99,23%) no cuenta con ensayos clínicos ni literatura, por lo que este informe se centra en la primera indicación con evidencia disponible. En el anexo de la conclusión se resumen las demás predicciones.
+> Nota: la predicción con mayor puntaje (trastornos del movimiento psicógenos, 0,9923) no cuenta con ensayos clínicos ni literatura, por lo que este informe se centra en la primera indicación con evidencia disponible. En el anexo de la conclusión se resumen las demás predicciones.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Alzheimer (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Trastorno de tics crónicos |
-| Puntaje de Predicción TxGNN | 99,19% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Español | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Psychogenic movement disorders |
+| Puntaje de Predicción TxGNN | 0.9923 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Español | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold (pregunta de investigación; no avanzar a uso clínico sin estudios controlados) |
 
@@ -117,13 +117,13 @@ Aunque el puntaje del modelo es alto y existe plausibilidad colinérgica, la evi
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
-| Trastornos del movimiento psicógenos | 99,23% | L5 | Solo predicción; sin racional de inhibición colinesterásica claro. Hold |
-| Temblor ortostático primario | 99,17% | L5 | Solo predicción. Hold |
-| Enfermedad extrapiramidal y de movimiento | 99,16% | L3 | Evidencia mixta: un beneficio reportado en discinesias tardías, pero la revisión sistemática de 2025 señala trastornos del movimiento asociados a inhibidores de la colinesterasa. Pregunta de investigación |
-| Ataques de escalofrío benignos | 99,16% | L5 | Solo predicción; trastorno benigno y autolimitado. Hold |
-| Síndrome de temblor-nistagmo-úlcera duodenal | 99,15% | L5 | El único registro recuperado parece una coincidencia espuria. Hold |
-| Mirada tónica hacia arriba paroxística benigna con ataxia | 99,12% | L5 | Solo predicción; uso pediátrico requeriría amplia justificación. Hold |
-| Discinesia linguo-facial-bucal | 99,02% | L3 | Revisiones Cochrane sobre medicación colinérgica en discinesia tardía, sin establecer eficacia de donepezilo; hay reportes de movimientos anormales inducidos. Balance beneficio-riesgo incierto. Hold |
+| Trastornos del movimiento psicógenos | 0,9923 | L5 | Solo predicción; sin racional de inhibición colinesterásica claro. Hold |
+| Temblor ortostático primario | 0,9917 | L5 | Solo predicción. Hold |
+| Enfermedad extrapiramidal y de movimiento | 0,9916 | L3 | Evidencia mixta: un beneficio reportado en discinesias tardías, pero la revisión sistemática de 2025 señala trastornos del movimiento asociados a inhibidores de la colinesterasa. Pregunta de investigación |
+| Ataques de escalofrío benignos | 0,9916 | L5 | Solo predicción; trastorno benigno y autolimitado. Hold |
+| Síndrome de temblor-nistagmo-úlcera duodenal | 0,9915 | L5 | El único registro recuperado parece una coincidencia espuria. Hold |
+| Mirada tónica hacia arriba paroxística benigna con ataxia | 0,9912 | L5 | Solo predicción; uso pediátrico requeriría amplia justificación. Hold |
+| Discinesia linguo-facial-bucal | 0,9902 | L3 | Revisiones Cochrane sobre medicación colinérgica en discinesia tardía, sin establecer eficacia de donepezilo; hay reportes de movimientos anormales inducidos. Balance beneficio-riesgo incierto. Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

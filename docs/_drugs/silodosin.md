@@ -6,9 +6,9 @@ nav_order: 735
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Silodosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna (según el grafo de conocimiento"
 monitor_inn: "Silodosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Silodosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los d…"
 ---
 
 # Silodosin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Silodosina: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita tipo Ambras
+## Silodosin: Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperplasia prostática benigna (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,17 +60,17 @@ Silodosina es un antagonista selectivo del adrenoceptor alfa-1A, con afinidad po
 
 La relación con la nueva indicación es débil. El síndrome de Ambras es un trastorno congénito raro causado por reordenamientos genómicos que afectan la regulación de TRPS1, lo que altera el desarrollo del folículo piloso. Los datos compilados no conectan el bloqueo alfa-1A con esta vía, ni existe un papel establecido del antagonismo adrenérgico alfa-1 en el crecimiento del cabello.
 
-Por tanto, el puntaje muy alto de TxGNN (0.9999) refleja inferencia basada en el grafo, no una justificación biológica ni clínica. No debe interpretarse como evidencia de eficacia.
+Por tanto, el puntaje muy alto de TxGNN (0.9999) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación clínica. No debe interpretarse como evidencia de eficacia.
 
 ### Otras predicciones del modelo (todas L5, Hold)
 
 | Rango | Indicación Predicha | Puntaje TxGNN | Comentario |
 |---|---|---|---|
-| 2 | Hipertricosis | 99.99% | Sin vínculo mecanístico; causas heterogéneas |
-| 3 | Síndrome malformativo con componente odontológico/periodontal | 99.99% | Sin vínculo plausible |
-| 4 | Síndrome con malformación de Dandy-Walker como rasgo principal | 99.98% | Defecto estructural; exposición del SNC limitada |
-| 5 | Anomalía genética aislada del tallo piloso | 99.98% | Defectos estructurales de queratina |
-| 6 | Tricomegalia familiar aislada | 99.23% | Rasgo familiar raro, sin relación con la señalización alfa-1A |
+| 2 | Hipertricosis | 0.9999 | Sin vínculo mecanístico; causas heterogéneas |
+| 3 | Síndrome malformativo con componente odontológico/periodontal | 0.9999 | Sin vínculo plausible |
+| 4 | Síndrome con malformación de Dandy-Walker como rasgo principal | 0.9998 | Defecto estructural; exposición del SNC limitada |
+| 5 | Anomalía genética aislada del tallo piloso | 0.9998 | Defectos estructurales de queratina |
+| 6 | Tricomegalia familiar aislada | 0.9923 | Rasgo familiar raro, sin relación con la señalización alfa-1A |
 
 ## Evidencia de Ensayos Clínicos
 

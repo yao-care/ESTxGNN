@@ -6,9 +6,9 @@ nav_order: 184
 evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L2). Indicación original: Trastorno de ansiedad, trastorno neurótico, trastorno distímico…"
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
+description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Citalopram
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-## Citalopram: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+## Citalopram: Trastorno obsesivo-compulsivo (obsessive-compulsive disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **4 ensayos clínicos** (de los cuales ninguno evalúa citalopram de forma e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad, trastorno neurótico, trastorno distímico, depresión unipolar, depresión endógena y trastorno depresivo mayor (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -129,7 +129,7 @@ El TOC cuenta con un mecanismo plausible a nivel de clase (ISRS) y con varios es
 - Definir un plan de monitoreo de seguridad: electrocardiograma/QT, electrolitos (potasio), función hepática y revisión de interacciones.
 - Evaluar la dosis máxima en poblaciones de riesgo, ya que no se dispone de información de posología en los datos compilados.
 
-**Nota sobre otras predicciones:** las predicciones para trastornos de la personalidad paranoide, esquizoide, histriónica y esquizotípica (puntuación ~99.68%) carecen de evidencia clínica y mecanismo demostrado, y probablemente reflejan la proximidad en el grafo entre nodos similares. Se recomienda mantenerlas en **Hold**.
+**Nota sobre otras predicciones:** las predicciones para trastornos de la personalidad paranoide, esquizoide, histriónica y esquizotípica (puntuación 0.9968) carecen de evidencia clínica y mecanismo demostrado. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Se recomienda mantenerlas en **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

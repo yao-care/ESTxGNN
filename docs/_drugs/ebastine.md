@@ -6,9 +6,9 @@ nav_order: 274
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ebastine: nueva indicación predicha, Enfermedad de las arterias coronarias (nivel de evidencia L5). Indicación original: Rinitis alérgica (según las indicaciones del grafo de conocimiento"
 monitor_inn: "Ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
+description: "Ebastine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ebastine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Ebastina: De Rinitis Alérgica a Enfermedad de las Arterias Coronarias
+## Ebastine: Enfermedad de las arterias coronarias (coronary artery disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,15 +46,15 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de las arterias coronarias |
-| Puntaje de Predicción TxGNN | 99,18% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de las arterias coronarias (coronary artery disease) |
+| Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
-Nota: el modelo también predijo **isquemia miocárdica** (puntaje 99,10%, nivel de evidencia L5, decisión Hold). Esta indicación está estrechamente relacionada con la enfermedad coronaria, por lo que ambas predicciones probablemente no son independientes.
+Nota: el modelo también predijo **isquemia miocárdica** (puntaje 0,9910, nivel de evidencia L5, decisión Hold). Esta indicación está estrechamente relacionada con la enfermedad coronaria, por lo que ambas predicciones probablemente no son independientes.
 
 ## ¿Por qué es Razonable esta Predicción?
 
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Una posible vía especulativa sería la participación de la histamina y de los mastocitos en el vasoespasmo coronario y en la inestabilidad de la placa aterosclerótica. Sin embargo, **ninguna evidencia incluida en los datos compilados para este informe respalda esta hipótesis**. Las indicaciones originales (alérgicas y respiratorias) y la nueva indicación (cardiovascular) pertenecen a áreas terapéuticas distintas, y la similitud entre ambas aún está pendiente de análisis.
 
-El puntaje elevado de TxGNN (0,992) es una predicción basada en el modelo, no corroborada por ensayos ni literatura. Además, la seguridad cardiaca requiere atención: algunos antihistamínicos presentan preocupaciones de prolongación del intervalo QT, y esto no se ha evaluado en los datos disponibles.
+El puntaje elevado de TxGNN (0,9918) es una predicción basada en el modelo, no corroborada por ensayos ni literatura. Además, la seguridad cardiaca requiere atención: algunos antihistamínicos presentan preocupaciones de prolongación del intervalo QT, y esto no se ha evaluado en los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 

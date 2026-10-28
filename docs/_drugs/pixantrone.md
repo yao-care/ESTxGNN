@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Pixantrona es un fármaco citotóxico de la clase de las aza-antracenodionas, comercializado en España (conocido por su aprobación condicional en la UE) para el linfoma no Hodgkin de células B agresivo en recaída o refractario.
+Este medicamento no está comercializado actualmente en España (solo constan autorizaciones canceladas).
 El modelo TxGNN predice que podría ser efectivo para **catarata diabética**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **catarata diabética**, p
 |------|------|
 | Indicación Original | No disponible en la autorización de AEMPS (el texto de indicación está vacío); según el perfil farmacológico conocido, linfoma no Hodgkin de células B agresivo en recaída o refractario |
 | Nueva Indicación Predicha | Catarata diabética |
-| Puntaje de Predicción TxGNN | 99,01% |
+| Puntaje de Predicción TxGNN | 0,9901 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---

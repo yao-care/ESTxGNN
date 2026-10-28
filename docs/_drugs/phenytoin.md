@@ -4,17 +4,17 @@ title: Phenytoin
 parent: Solo predicción del modelo (L5)
 nav_order: 634
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Phenytoin: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Epilepsia (las autorizaciones españolas no incluyen texto de indicaci…"
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenytoin: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fenitoína: De Epilepsia a Neoplasia del Nervio Trigémino
+## Phenytoin: Neoplasia del nervio trigémino (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Fenitoína es un antiepiléptico bloqueador de canales de sodio dependientes de voltaje, utilizado originalmente para tratar la epilepsia (crisis tónico-clónicas generalizadas, crisis parciales, síndrome de Lennox-Gastaut y estatus epiléptico).
 El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, aunque **no hay ensayos clínicos** y solo **2 publicaciones** relacionadas, ninguna de las cuales aborda directamente esa enfermedad.
-Se trata de una predicción sin respaldo real (nivel L5); la señal parece reflejar la cercanía en el grafo con la neuralgia del trigémino, una indicación distinta y mejor sustentada.
+Se trata de una predicción sin respaldo real (nivel L5); la puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la neuralgia del trigémino, una indicación distinta y mejor sustentada, no evidencia biológica.
 
 ---
 
@@ -48,12 +48,12 @@ Se trata de una predicción sin respaldo real (nivel L5); la señal parece refle
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia (las autorizaciones españolas no incluyen texto de indicación; el dato procede del grafo de conocimiento) |
-| Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Para la neoplasia del nervio trigémino, **no existe una justificación mecanística directa de actividad antitumoral**. El bloqueo de canales de sodio podría aliviar el dolor neuropático causado por la afectación nerviosa, pero sería un efecto sintomático y no modificador de la enfermedad. Los dos artículos recuperados tratan sobre la neuralgia del trigémino y el síndrome de Sturge-Weber, no sobre neoplasias del trigémino.
 
-La puntuación elevada probablemente se explica por la proximidad en el grafo con la **neuralgia del trigémino** (puesto 9 de las predicciones), donde la fenitoína sí tiene una base mecanística sólida, aunque como opción de segunda línea o histórica.
+La puntuación elevada procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la **neuralgia del trigémino** (puesto 9 de las predicciones), donde la fenitoína sí tiene una base mecanística sólida, aunque como opción de segunda línea o histórica; no es evidencia biológica.
 
 ---
 
@@ -117,7 +117,7 @@ Las advertencias y contraindicaciones del prospecto de la AEMPS no estaban dispo
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para neoplasia del nervio trigémino carece de ensayos clínicos, de literatura directa y de un mecanismo antitumoral plausible (nivel L5). La puntuación alta parece un artefacto del grafo por la cercanía con la neuralgia del trigémino.
+La predicción para neoplasia del nervio trigémino carece de ensayos clínicos, de literatura directa y de un mecanismo antitumoral plausible (nivel L5). La puntuación alta procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la neuralgia del trigémino, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Descartar esta indicación como candidata antitumoral, salvo que aparezca evidencia preclínica o clínica específica.

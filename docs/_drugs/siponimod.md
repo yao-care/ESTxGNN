@@ -4,17 +4,17 @@ title: Siponimod
 parent: Solo predicción del modelo (L5)
 nav_order: 739
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Siponimod: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 monitor_inn: "SIPONIMOD"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
 ---
 
 # Siponimod
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99,68 % |
+| Puntaje de Predicción TxGNN | 0,9968 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -69,13 +69,12 @@ Este vínculo es puramente computacional (puntaje alto de TxGNN) y no cuenta con
 
 | Posición | Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|------|
-| 2 | Trastorno de migraña | 99,66 % | L4 | Solo un reporte de caso/comentario (2022) y una entrada genérica de «Neurología» |
-| 3 | Cardiopatía cifoscoliótica | 99,56 % | L5 | Sin vínculo mecanístico plausible; probable artefacto del grafo |
-| 4 | Migraña con aura de tronco encefálico | 99,56 % | L4 | Misma publicación de 2022, no específica |
-| 5 | Susceptibilidad a migraña con o sin aura | 99,49 % | L4 | Evidencia indirecta, redundante con otras migrañas |
-| 6 | Angina de Prinzmetal | 99,34 % | L5 | Sin evidencia; preocupación de seguridad cardíaca |
-| 7 | Artritis reumatoide | 99,16 % | L4 | La más plausible biológicamente (secuestro linfocitario), aún en fase de hipótesis |
-| 8 | Atrofodermia vermiculada | 99,10 % | L5 | Sin vínculo mecanístico; probable artefacto computacional |
+| 2 | Trastorno de migraña | 0,9966 | L4 | Solo un reporte de caso/comentario (2022) y una entrada genérica de «Neurología» |
+| 3 | Cardiopatía cifoscoliótica | 0,9956 | L5 | Sin vínculo mecanístico plausible; la puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
+| 4 | Migraña con aura de tronco encefálico | 0,9956 | L4 | Misma publicación de 2022, no específica |
+| 6 | Angina de Prinzmetal | 0,9934 | L5 | Sin evidencia; preocupación de seguridad cardíaca |
+| 7 | Artritis reumatoide | 0,9916 | L4 | La más plausible biológicamente (secuestro linfocitario), aún en fase de hipótesis |
+| 8 | Atrofodermia vermiculada | 0,9910 | L5 | Sin vínculo mecanístico; probable artefacto computacional |
 
 ---
 

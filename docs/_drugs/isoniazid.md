@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Isoniazid
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 432
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar (según el grafo de conocimiento"
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
+description: "Isoniazid: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Isoniazid
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Isoniazida: De Tuberculosis Pulmonar a Conjuntivitis
+## Isoniazid: Conjuntivitis (conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero ac
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tuberculosis pulmonar (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99.36% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis (conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9936 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El único vínculo plausible con la conjuntivitis es indirecto: la enfermedad ocular asociada a la tuberculosis, en concreto la queratoconjuntivitis flictenular (una reacción de hipersensibilidad a antígenos micobacterianos) y la tuberculosis conjuntival primaria. En esos casos la isoniazida trata o previene la infección micobacteriana subyacente, no la conjuntivitis en general.
 
-No hay evidencia de actividad frente a conjuntivitis bacteriana, vírica o alérgica común. El puntaje elevado de TxGNN (99.36%) es una predicción computacional y probablemente refleja la cercanía en el grafo con cuadros oculares relacionados con la tuberculosis. Varias de las publicaciones recuperadas tratan de efectos adversos oculares o sistémicos, o de artritis reactiva por BCG, y no respaldan la eficacia.
+No hay evidencia de actividad frente a conjuntivitis bacteriana, vírica o alérgica común. El puntaje elevado de TxGNN (0.9936) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Varias de las publicaciones recuperadas tratan de efectos adversos oculares o sistémicos, o de artritis reactiva por BCG, y no respaldan la eficacia.
 
 ## Evidencia de Ensayos Clínicos
 

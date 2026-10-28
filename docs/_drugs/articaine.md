@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **gota**, pero no existen 
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Gota |
-| Puntaje de Predicción TxGNN | 99.58% |
+| Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, articaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, y su uso establecido es la anestesia local (principalmente en odontología).
 
-**No se identifica un vínculo mecanístico plausible** entre este mecanismo y la gota. Nada en los datos conecta el bloqueo de canales de sodio con el metabolismo del ácido úrico ni con la cascada inflamatoria de la gota (por ejemplo, NLRP3/IL-1β). El puntaje alto de TxGNN (99.58%) es una predicción computacional que, por sí sola, no constituye evidencia de eficacia; probablemente refleja similitudes de red en el grafo de conocimiento y no una justificación farmacológica definida.
+**No se identifica un vínculo mecanístico plausible** entre este mecanismo y la gota. Nada en los datos conecta el bloqueo de canales de sodio con el metabolismo del ácido úrico ni con la cascada inflamatoria de la gota (por ejemplo, NLRP3/IL-1β). El puntaje alto de TxGNN (0.9958) proviene del modelo TxGNN (aprendizaje profundo) y es una predicción computacional que, por sí sola, no constituye evidencia de eficacia; puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación farmacológica definida.
 
 Otras predicciones del modelo (exóstosis, asma alérgica, asma intrínseca) tampoco cuentan con respaldo mecanístico ni clínico. La similitud con la indicación original está pendiente de evaluación.
 

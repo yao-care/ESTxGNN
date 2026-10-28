@@ -6,9 +6,9 @@ nav_order: 583
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ofloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infecciones bacterianas (fiebre tifoidea, infecciones urinarias…"
 monitor_inn: "ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
+description: "Ofloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ofloxacin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ofloxacino: De Infecciones Bacterianas a Síndrome de Hiperviscosidad Policlonal
+## Ofloxacin: Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscos
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones bacterianas (fiebre tifoidea, infecciones urinarias, bronquitis, neumonía bacteriana, carbunco, entre otras). El texto de indicación de las autorizaciones españolas no está disponible; se toma del grafo de conocimiento |
-| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, ofloxacino pertenece a la clase de las fluoroquinolonas, que inhiben la ADN girasa y la topoisomerasa IV bacterianas, y su eficacia en infecciones bacterianas está establecida.
 
-Sin embargo, el síndrome de hiperviscosidad policlonal es una afección hematológica ligada a proteínas e inmunoglobulinas, no a un patógeno. No se identifica un vínculo mecanístico plausible entre un antibacteriano y esta enfermedad. El puntaje alto de TxGNN refleja únicamente una predicción basada en el grafo de conocimiento, sin ensayos ni literatura que la sustenten.
+Sin embargo, el síndrome de hiperviscosidad policlonal es una afección hematológica ligada a proteínas e inmunoglobulinas, no a un patógeno. No se identifica un vínculo mecanístico plausible entre un antibacteriano y esta enfermedad. El puntaje alto de TxGNN refleja únicamente una predicción del modelo TxGNN (aprendizaje profundo), sin ensayos ni literatura que la sustenten.
 
 Cabe señalar que otras predicciones de la lista tampoco muestran respaldo: hiperamilasemia, analbuminemia congénita y varias enfermedades hematológicas carecen de vínculo mecanístico. La única predicción biológicamente plausible es la **peste septicémica** (nivel L4), que sería una extensión del uso antibacteriano y no un reposicionamiento propiamente dicho. Se apoya en datos in vitro y modelos animales, sin ensayos en humanos.
 

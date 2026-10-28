@@ -6,9 +6,9 @@ nav_order: 519
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Metreleptin: nueva indicación predicha, Lentiginosis generalizada familiar (nivel de evidencia L5). Indicación original: Lipodistrofia congénita generalizada / lipodistrofia (según las indic…"
 monitor_inn: "metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
+description: "Metreleptin: nueva indicación predicha, Lentiginosis generalizada familiar (familial generalized lentiginosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Metreleptin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Metreleptina: De Lipodistrofia Congénita a Lentiginosis Generalizada Familiar
+## Metreleptin: Lentiginosis generalizada familiar (familial generalized lentiginosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectiva para **lentiginosis generalizad
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lipodistrofia congénita generalizada / lipodistrofia (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Lentiginosis generalizada familiar |
-| Puntaje de Predicción TxGNN | 99,71 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Lentiginosis generalizada familiar (familial generalized lentiginosis) |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la metreleptina actúa a través de la señalización del receptor de leptina para corregir la deficiencia de leptina en la lipodistrofia.
 
-Los datos compilados no identifican un vínculo mecanístico claro con la lentiginosis generalizada familiar, que es un trastorno de la pigmentación sin participación establecida de la vía de la leptina. La puntuación elevada del modelo es una predicción basada en el grafo, probablemente derivada de asociaciones a nivel de fenotipo o de síndrome compartidas, y no de una base biológica demostrada.
+Los datos compilados no identifican un vínculo mecanístico claro con la lentiginosis generalizada familiar, que es un trastorno de la pigmentación sin participación establecida de la vía de la leptina. La puntuación elevada proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por tanto, la razonabilidad de esta predicción es baja: no se sustenta en estudios clínicos ni en literatura, y debe considerarse una hipótesis exploratoria.
 

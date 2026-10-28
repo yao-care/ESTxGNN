@@ -48,10 +48,10 @@ La evidencia es muy limitada y se basa en una predicción computacional.
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,94% |
+| Puntaje de Predicción TxGNN | 0,9994 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El único respaldo para insomnio es un estudio de 2024 con un extracto etanólico en larvas de pez cebra (PMID 38812527). Ese estudio sugiere que el extracto podría inhibir la vía de la orexina y las rutas ERK, Akt y p38, implicadas en la regulación de la vigilia. Es un modelo no mamífero, sin datos en humanos, por lo que el vínculo mecanístico es plausible pero no está verificado.
 
-Las otras dos predicciones del modelo tienen un perfil similar. La de "trastorno del sueño (inicio y mantenimiento)" (puntaje 99,03%) se solapa con insomnio y se apoya en el mismo estudio, así que no aporta evidencia independiente. La de ansiedad (puntaje 99,08%) cuenta con más literatura, pero mayoritariamente revisiones y estudios en animales. Además, un estudio de 2025 indica que los constituyentes triterpénicos y cafeoilquínicos no explican el efecto ansiolítico.
+Las otras dos predicciones del modelo tienen un perfil similar. La de "trastorno del sueño (inicio y mantenimiento)" (puntaje 0,9903) se solapa con insomnio y se apoya en el mismo estudio, así que no aporta evidencia independiente. La de ansiedad (puntaje 0,9908) cuenta con más literatura, pero mayoritariamente revisiones y estudios en animales. Además, un estudio de 2025 indica que los constituyentes triterpénicos y cafeoilquínicos no explican el efecto ansiolítico.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -4,17 +4,17 @@ title: Tipranavir
 parent: Solo predicción del modelo (L5)
 nav_order: 798
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Tipranavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según el grafo de conocimie…"
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Tipranavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tipranavir
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tipranavir: De Infección por VIH/SIDA a Infección por el Virus de la Inmunodeficiencia de los Simios
+## Tipranavir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Simian immunodeficiency virus infection |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El SIV es un lentivirus muy cercano al VIH y posee una proteasa homóloga, por lo que existe un fundamento mecanístico plausible. Sin embargo, es un virus de modelos animales y no una indicación clínica humana. El puntaje elevado probablemente refleja la proximidad en la red de conocimiento con la indicación de VIH ya aprobada, más que una oportunidad real de reposicionamiento.
 
-Otras predicciones del modelo (p. ej., síndrome de inmunodeficiencia adquirida felina, el complejo relacionado con el SIDA o el VIH congénito) son variantes de la misma indicación o condiciones veterinarias. Las predicciones en neoplasias benignas y trastornos del neurodesarrollo no tienen vínculo mecanístico identificable y parecen artefactos del grafo de conocimiento.
+Otras predicciones del modelo (p. ej., síndrome de inmunodeficiencia adquirida felina, el complejo relacionado con el SIDA o el VIH congénito) son variantes de la misma indicación o condiciones veterinarias. Las predicciones en neoplasias benignas y trastornos del neurodesarrollo no tienen vínculo mecanístico identificable y parecen artefactos del modelo TxGNN (aprendizaje profundo).
 
 ## Evidencia de Ensayos Clínicos
 

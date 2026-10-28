@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 418
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Insulin Degludec: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L1). Indicación original: Diabetes mellitus (según las indicaciones originales del grafo de con…"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+description: "Insulin Degludec: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-## Insulina Degludec: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para la **diabetes mellitus tip
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
-| Puntaje de Predicción TxGNN | 99,44 % |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Autoimmune oophoritis |
+| Puntaje de Predicción TxGNN | 0.9923 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para la **diabetes mellitus tip
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la insulina degludec es un análogo de insulina basal de acción ultra larga que se une al receptor de insulina y reemplaza la insulina endógena deficiente. Su perfil farmacológico se caracteriza por una vida media de aproximadamente 25 horas y una duración de acción superior a 42 horas, con un efecto hipoglucemiante plano y estable.
 
-La diabetes mellitus tipo 1 se caracteriza por la deficiencia absoluta de insulina, por lo que el mecanismo del fármaco es exactamente el mismo que en su uso original en diabetes mellitus. Por ello, la puntuación tan alta del modelo (0,994) concuerda con la práctica clínica establecida: se trata de una indicación dentro de ficha o muy próxima a ella.
+La diabetes mellitus tipo 1 se caracteriza por la deficiencia absoluta de insulina, por lo que el mecanismo del fármaco es exactamente el mismo que en su uso original en diabetes mellitus.
 
 Esto debe tenerse en cuenta al interpretar el informe: el valor de esta candidatura no reside en descubrir un nuevo uso, sino en confirmar con evidencia sólida una indicación ya respaldada.
 
@@ -145,7 +145,7 @@ Existen múltiples ECA de fase 3 completados (por ejemplo, SWITCH 1 y BOOST T1),
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir un plan de monitorización de hipoglucemia y de interacciones, especialmente con betabloqueantes y otros antidiabéticos.
 
-**Otras predicciones del modelo (no recomendadas por ahora):** cooforitis autoinmune, opsismodisplasia, síndrome de disfunción sensible a la tiamina, síndrome de persona rígida clásico y síndrome de extremidad rígida focal. Todas tienen puntuaciones TxGNN superiores a 0,99, pero carecen de ensayos o literatura (nivel L5), por lo que la decisión es **Hold**.
+**Otras predicciones del modelo (no recomendadas por ahora):** cooforitis autoinmune, opsismodisplasia, síndrome de disfunción sensible a la tiamina, síndrome de persona rígida clásico y síndrome de extremidad rígida focal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

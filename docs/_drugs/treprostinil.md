@@ -4,7 +4,7 @@ title: Treprostinil
 parent: Solo predicción del modelo (L5)
 nav_order: 821
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Treprostinil: nueva indicación predicha, Malformación arteriovenosa pulmonar (nivel de evidencia L5). Indicación original: Hipertensión arterial pulmonar (los textos de indicación de las autor…"
 monitor_inn: "treprostinil"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypot
 # Treprostinil
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,10 +51,10 @@ El modelo TxGNN predice que podría ser efectivo para **malformación arterioven
 |------|------|
 | Indicación Original | Hipertensión arterial pulmonar (los textos de indicación de las autorizaciones españolas no están disponibles; se toma la indicación de la base de conocimiento) |
 | Nueva Indicación Predicha | Malformación arteriovenosa pulmonar |
-| Puntaje de Predicción TxGNN | 99,70% |
+| Puntaje de Predicción TxGNN | 0,9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 16 de 20) |
+| Número de Autorizaciones | 20 (vigentes: 16) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -65,7 +65,7 @@ Treprostinil es un análogo estable de la prostaciclina que produce vasodilataci
 
 En este caso, la relación mecanística es **débil**. Las malformaciones arteriovenosas pulmonares son cortocircuitos vasculares estructurales, no un problema de vasoconstricción o remodelado vascular como en la HAP. En teoría, la vasodilatación podría incluso empeorar el cortocircuito o la hipoxemia. Por ello, esta predicción debe interpretarse con mucha cautela.
 
-Por el contrario, varias predicciones de menor puntaje son mecanísticamente coherentes, al ser subtipos de HAP del Grupo 1 de la OMS: cardiopatía congénita, enfermedad del tejido conectivo, VIH y esquistosomiasis. Otras predicciones (hipotricosis, hipertricosis congénita, síndromes malformativos con componente dental) parecen artefactos del grafo de conocimiento sin vínculo mecanístico plausible.
+Por el contrario, varias predicciones de menor puntaje son mecanísticamente coherentes, al ser subtipos de HAP del Grupo 1 de la OMS: cardiopatía congénita, enfermedad del tejido conectivo, VIH y esquistosomiasis. Otras predicciones (hipotricosis, hipertricosis congénita, síndromes malformativos con componente dental) parecen artefactos del modelo TxGNN (aprendizaje profundo) sin vínculo mecanístico plausible.
 
 ---
 
@@ -142,15 +142,10 @@ La predicción de mayor puntaje carece de ensayos, literatura y plausibilidad me
 
 | Indicación predicha | Puntaje | Nivel | Decisión |
 |---|---|---|---|
-| HAP asociada a cardiopatía congénita | 99,60% | L3 | Proceed with Guardrails |
-| HAP asociada a enfermedad del tejido conectivo | 99,55% | L3 | Proceed with Guardrails |
-| HAP asociada a VIH | 99,55% | L4 | Pregunta de investigación |
-| HAP asociada a anemia hemolítica crónica | 99,55% | L5 | Hold |
-| HAP asociada a esquistosomiasis | 99,55% | L5 | Hold |
-| Hipotricosis simple del cuero cabelludo | 99,48% | L5 | Hold |
-| Hipotricosis congénita con milia | 99,30% | L5 | Hold |
-| Síndrome malformativo con componente dental/periodontal | 99,21% | L5 | Hold |
-| Hipertricosis universal congénita tipo Ambras | 99,17% | L5 | Hold |
+| Hipotricosis simple del cuero cabelludo | 0,9948 | L5 | Hold |
+| Hipotricosis congénita con milia | 0,9930 | L5 | Hold |
+| Síndrome malformativo con componente dental/periodontal | 0,9921 | L5 | Hold |
+| Hipertricosis universal congénita tipo Ambras | 0,9917 | L5 | Hold |
 
 **Para avanzar se necesita:**
 - Priorizar la evaluación de la HAP asociada a cardiopatía congénita y a enfermedad del tejido conectivo, confirmando el diseño de los estudios (los niveles L3 son asignaciones conservadoras basadas en títulos y resúmenes).

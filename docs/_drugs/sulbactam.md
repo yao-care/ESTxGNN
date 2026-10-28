@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulbactam
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 749
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Colangitis…"
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
+description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sulbactam
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Sulbactam: De Colangitis e Infecciones Bacterianas a Artritis Bacteriana
+## Sulbactam: Artritis bacteriana (bacterial arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos registrados** y existen **20 publica
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Colangitis, infecciones por *Staphylococcus aureus* y *Escherichia coli* (según el grafo de conocimiento; el texto de indicación aprobada en AEMPS no está disponible) |
-| Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99.79% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis bacteriana (bacterial arthritis) |
+| Puntaje de Predicción TxGNN | 0.9979 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

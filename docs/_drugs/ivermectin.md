@@ -6,9 +6,9 @@ nav_order: 438
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Estrongiloidiasis y oncocercosis (según el grafo de conocimiento"
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ivermectin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Ivermectina: De Estrongiloidiasis a Candidiasis Vulvovaginal
+## Ivermectin: Candidiasis vulvovaginal (vulvovaginal candidiasis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Estrongiloidiasis y oncocercosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Candidiasis vulvovaginal |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Candidiasis vulvovaginal (vulvovaginal candidiasis) |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, ivermectina actúa principalmente sobre los canales de cloruro dependientes de glutamato en invertebrados, lo que explica su eficacia en infecciones parasitarias como la estrongiloidiasis y la oncocercosis. Los datos compilados también muestran interacción farmacológica con varios receptores humanos (receptor de glicina, receptor nicotínico α7, P2X4 y P2X7).
 
-La relación entre la indicación original (infecciones parasitarias) y la nueva (infección fúngica por *Candida*) es débil. No existe un vínculo mecanístico establecido: ivermectina no tiene actividad antifúngica clínica reconocida frente a *Candida*. El puntaje elevado de TxGNN refleja una asociación computacional en el grafo de conocimiento, no una evidencia clínica o preclínica.
+La relación entre la indicación original (infecciones parasitarias) y la nueva (infección fúngica por *Candida*) es débil. No existe un vínculo mecanístico establecido: ivermectina no tiene actividad antifúngica clínica reconocida frente a *Candida*. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una evidencia biológica, clínica o preclínica.
 
 Por tanto, la predicción debe considerarse hipotética. Otras predicciones del modelo (candidiasis esofágica, neonatal, congénita e invasiva, vulvovaginitis, infección anogenital por VPH y vaginitis atrófica posmenopáusica) siguen el mismo patrón: puntajes altos, sin ensayos ni literatura relevante y sin justificación mecanística.
 

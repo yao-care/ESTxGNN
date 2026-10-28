@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyzine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 399
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Hydroxyzine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Eccema atópico / dermatitis atópica, rinitis alérgica…"
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Hydroxyzine: nueva indicación predicha, Rosacea conjunctivitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Hidroxizina: De Eccema Atópico y Rinitis Alérgica a Urticaria Alérgica
+## Hydroxyzine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La hidroxizina es un antihistamínico H1 de primera generación, utilizado originalmente para el tratamiento de afecciones alérgicas y cutáneas como la dermatitis atópica, la rinitis alérgica y la urticaria.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, aunque se trata de un uso prácticamente ya contemplado en sus indicaciones conocidas.
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **conjuntivitis rosácea**.
 Actualmente no hay **ensayos clínicos** registrados y la evidencia consiste en **18 publicaciones**, en su mayoría revisiones sobre antihistamínicos H1 en general.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Eccema atópico / dermatitis atópica, rinitis alérgica, urticaria y angioedema, entre otras (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.77% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Rosacea conjunctivitis |
+| Puntaje de Predicción TxGNN | 0.9970 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información conocida, la hidroxizina es un antagonista de los receptores H1 de histamina (la base de datos farmacológica consultada confirma el receptor H1, gen HRH1, como diana), y su metabolito activo es la cetirizina. Al bloquear los receptores H1 del endotelio vascular cutáneo y de las terminaciones nerviosas sensitivas, reduce la formación de habones y el prurito mediados por histamina.
 
-La urticaria alérgica y las indicaciones originales (urticaria, angioedema, rinitis alérgica, dermatitis atópica) comparten la histamina como mediador central. Por ello, la predicción es mecanísticamente coherente, pero es más un uso en indicación o muy cercano a ella que un reposicionamiento genuino.
 
 Cabe señalar que las guías actuales favorecen los antihistamínicos de segunda generación, a dosis ajustadas, como primera línea en urticaria, debido a la sedación y la carga anticolinérgica de los de primera generación como la hidroxizina.
 
@@ -119,10 +118,7 @@ La predicción es mecanísticamente plausible, pero equivale esencialmente a una
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Recomendación |
 |------|------|------|------|
-| Urticaria por frío | 99.66% | L3 | Pregunta de investigación; existe un ensayo doble ciego de 1984 que incluye hidroxizina, pero es antiguo y probablemente pequeño |
-| Conjuntivitis rosácea | 99.70% | L5 | Hold; solo predicción computacional, relevancia mecanística débil |
-| Dermatitis atópica refractaria | 99.36% | L5 | Hold; sin evidencia específica, beneficio probablemente limitado al control del picor |
-| Respuesta IgE atópica | 99.27% | L5 | Hold; es un rasgo fenotípico, no una enfermedad tratable |
+| Conjuntivitis rosácea | 0.9970 | L5 | Hold; solo predicción computacional, relevancia mecanística débil |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

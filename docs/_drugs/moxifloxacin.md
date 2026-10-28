@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Solo predicción del modelo (L5)
 nav_order: 544
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Moxifloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 monitor_inn: "Moxifloxacin"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Infecciones bacterianas (neumonía bacteriana, peritonitis, infecciones estreptocócicas y estafilocócicas, conjuntivitis, peste, entre otras) |
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, moxifloxacino pertenece a la clase de las fluoroquinolonas. Su eficacia en infecciones bacterianas está bien establecida, y actúa inhibiendo la ADN girasa y la topoisomerasa IV bacterianas.
 
-**Con los datos actuales, la predicción no resulta mecanísticamente plausible.** El síndrome de hiperviscosidad policlonal es un trastorno reológico causado por proteínas o inmunoglobulinas, y un antibacteriano no actúa sobre ese proceso. El puntaje alto de TxGNN (99.98%) proviene de patrones del grafo de conocimiento, no de ensayos ni de literatura que lo sustenten.
+**Con los datos actuales, la predicción no resulta mecanísticamente plausible.** El síndrome de hiperviscosidad policlonal es un trastorno reológico causado por proteínas o inmunoglobulinas, y un antibacteriano no actúa sobre ese proceso. El puntaje alto de TxGNN (0.9998) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura que lo sustenten.
 
 Por ello, esta predicción debe considerarse una hipótesis sin respaldo. Otras predicciones del mismo modelo tienen una base más sólida. Un ejemplo es la **peste bubónica** (rango 10), que es una extensión cercana de usos ya existentes (peste y peste neumónica) y cuenta con estudios preclínicos in vitro y en modelos animales.
 

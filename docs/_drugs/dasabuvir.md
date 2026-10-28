@@ -50,10 +50,10 @@ La evidencia real es limitada y la predicción se apoya sobre todo en la proximi
 |------|------|
 | Indicación Original | Infección crónica por virus de la hepatitis C (según la base de conocimiento del modelo; el texto de indicación autorizado no está disponible) |
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99.37% |
+| Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -124,10 +124,10 @@ Los ensayos disponibles se centran en el tratamiento del VHC en pacientes coinfe
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación | Comentario |
 |---|---|---|---|---|
-| Infección por virus de la hepatitis E | 99.07% | L5 | Hold | Solo predicción; sin ensayos ni literatura. Su polimerasa es estructuralmente distinta de NS5B. |
-| Infección por virus de la hepatitis A | 99.05% | L4 | Hold | Los ensayos listados son estudios de VHC, asociados por artefactos de coincidencia de términos; no respaldan actividad frente al VHA. |
-| Hepatitis viral animal | 99.05% | L4 | Hold | Solo evidencia estructural preclínica indirecta (NS5B de hepacivirus equinos); término demasiado inespecífico. |
-| Fiebre hemorrágica de Omsk | 99.03% | L5 | Hold | Solo predicción; el sitio alostérico de dasabuvir está poco conservado entre flavivirus. |
+| Infección por virus de la hepatitis E | 0.9907 | L5 | Hold | Solo predicción; sin ensayos ni literatura. Su polimerasa es estructuralmente distinta de NS5B. |
+| Infección por virus de la hepatitis A | 0.9905 | L4 | Hold | Los ensayos listados son estudios de VHC, asociados por artefactos de coincidencia de términos; no respaldan actividad frente al VHA. |
+| Hepatitis viral animal | 0.9905 | L4 | Hold | Solo evidencia estructural preclínica indirecta (NS5B de hepacivirus equinos); término demasiado inespecífico. |
+| Fiebre hemorrágica de Omsk | 0.9903 | L5 | Hold | Solo predicción; el sitio alostérico de dasabuvir está poco conservado entre flavivirus. |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Evidencia moderada (L3-L4)
 nav_order: 633
 evidence_level: L3
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 monitor_inn: "Phenylephrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-## Fenilefrina: De Rinitis Alérgica a Enfermedad de la Cavidad Nasal
+## Phenylephrine: Enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **5 publicaciones** recuperadas, de las cuales sol
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99,97 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -111,8 +111,8 @@ La indicación predicha se solapa en gran medida con los usos ya conocidos (rini
 
 ## Otras Predicciones Evaluadas
 
-- **Laringofaringitis aguda** (TxGNN 99,97 %, L5): solo hay predicción del modelo, sin literatura ni ensayos. La faringitis ya es una indicación original, por lo que no se considera un candidato claro de reposicionamiento. Decisión: Hold.
-- **Cefalalgia trigémino-autonómica** (TxGNN 99,30 %, L4): la literatura consiste en estudios de pupilometría donde la fenilefrina se usa como sonda diagnóstica de la función simpática, no como tratamiento. No hay evidencia de beneficio terapéutico y la vasoconstricción podría ser perjudicial. La puntuación alta probablemente es un artefacto del uso diagnóstico. Decisión: Hold.
+- **Laringofaringitis aguda** (TxGNN 0,9997, L5): solo hay predicción del modelo, sin literatura ni ensayos. La faringitis ya es una indicación original, por lo que no se considera un candidato claro de reposicionamiento. Decisión: Hold.
+- **Cefalalgia trigémino-autonómica** (TxGNN 0,9930, L4): la literatura consiste en estudios de pupilometría donde la fenilefrina se usa como sonda diagnóstica de la función simpática, no como tratamiento. No hay evidencia de beneficio terapéutico y la vasoconstricción podría ser perjudicial. La puntuación alta probablemente es un artefacto del uso diagnóstico. Decisión: Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

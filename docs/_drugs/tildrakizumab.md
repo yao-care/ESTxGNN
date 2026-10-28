@@ -48,17 +48,17 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99,63 % |
+| Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, tildrakizumab es un anticuerpo monoclonal anti-IL-23 p19, que bloquea el eje inflamatorio IL-23/IL-17.
 
-La hipótesis es que la inflamación crónica de bajo grado, incluido el eje IL-23/IL-17, podría contribuir al daño vascular retiniano en la retinopatía diabética. Este vínculo es **especulativo**: no hay ensayos ni literatura que lo respalden, y el puntaje de 99,63 % es solo una predicción del modelo.
+La hipótesis es que la inflamación crónica de bajo grado, incluido el eje IL-23/IL-17, podría contribuir al daño vascular retiniano en la retinopatía diabética. Este vínculo es **especulativo**: no hay ensayos ni literatura que lo respalden, y el puntaje de 0,9963 es solo una predicción del modelo.
 
 Además, plantea dudas adicionales de seguridad y viabilidad: la administración intravítrea de un anticuerpo de gran tamaño, o bien la inmunosupresión sistémica en una población diabética. Las terapias establecidas (anti-VEGF, láser, control glucémico y de la presión arterial) actúan por mecanismos distintos, y no hay una justificación demostrada para preferir el bloqueo de IL-23.
 
@@ -66,9 +66,9 @@ Además, plantea dudas adicionales de seguridad y viabilidad: la administración
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
 |------|------|------|------|
-| Retinopatía diabética | 99,53 % | L5 | Misma hipótesis inflamatoria; sin ensayos ni publicaciones |
-| Catarata diabética | 99,21 % | L5 | Vínculo débil: predominan la vía de los polioles, el estrés oxidativo y la glicación; la cirugía es el tratamiento definitivo |
-| Osteoporosis inducida por fármacos | 99,20 % | L5 | Vínculo plausible pero indirecto (IL-17 favorece la osteoclastogénesis vía RANKL); ya existen bisfosfonatos, denosumab y teriparatida |
+| Retinopatía diabética | 0,9953 | L5 | Misma hipótesis inflamatoria; sin ensayos ni publicaciones |
+| Catarata diabética | 0,9921 | L5 | Vínculo débil: predominan la vía de los polioles, el estrés oxidativo y la glicación; la cirugía es el tratamiento definitivo |
+| Osteoporosis inducida por fármacos | 0,9920 | L5 | Vínculo plausible pero indirecto (IL-17 favorece la osteoclastogénesis vía RANKL); ya existen bisfosfonatos, denosumab y teriparatida |
 
 ## Evidencia de Ensayos Clínicos
 

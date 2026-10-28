@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Naftidrofuryl
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 550
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Naftidrofuryl: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L5). Indicación original: Trastorno cerebrovascular (según el grafo de conocimiento"
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
+description: "Naftidrofuryl: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Naftidrofuryl
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Naftidrofurilo: De Trastorno Cerebrovascular a Ictus
+## Naftidrofuryl: Ictus (stroke disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Naftidrofurilo es un fármaco vasoactivo comercializado en España (PRAXILENE 100 mg cápsulas), originalmente utilizado en trastornos cerebrovasculares.
+Naftidrofurilo es un fármaco vasoactivo que no está comercializado actualmente en España (solo constan autorizaciones canceladas de PRAXILENE 100 mg cápsulas), originalmente utilizado en trastornos cerebrovasculares.
 El modelo TxGNN predice que podría ser efectivo para el **ictus (stroke disorder)**,
 con **0 ensayos clínicos registrados** y **17 publicaciones** que actualmente respaldan esta dirección, entre ellas una revisión sistemática Cochrane y varios ensayos aleatorizados antiguos (1978-1990).
 
@@ -46,12 +46,12 @@ con **0 ensayos clínicos registrados** y **17 publicaciones** que actualmente r
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno cerebrovascular (según el grafo de conocimiento; el texto de indicación de la autorización de AEMPS no está disponible) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Ictus (stroke disorder) |
-| Puntaje de Predicción TxGNN | 99,65 % |
+| Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

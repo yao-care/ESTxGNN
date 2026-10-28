@@ -6,9 +6,9 @@ nav_order: 198
 evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: Epilepsia (ausencias…"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
+description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Clonazepam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-## Clonazepam: De Epilepsia y Trastorno de Ansiedad a Síndrome de Piernas Inquietas
+## Clonazepam: Síndrome de piernas inquietas (restless legs syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia (ausencias, síndrome de Lennox-Gastaut) y trastorno de ansiedad (según el grafo de conocimiento; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Síndrome de piernas inquietas |
-| Puntaje de Predicción TxGNN | 99.65% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de piernas inquietas (restless legs syndrome) |
+| Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -130,8 +130,8 @@ Existe respaldo bibliográfico consistente (guía de la AASM, revisión Cochrane
 - Diseñar o identificar ensayos controlados modernos y de mayor tamaño.
 
 **Otras predicciones del modelo (para información):**
-- **Insomnio** (puntaje 99.32%, nivel L4, "Research Question"): la literatura es mayormente indirecta y no hay ensayos controlados de clonazepam en insomnio primario; requiere evaluación centrada en la seguridad.
-- **Neoplasia del nervio trigémino** (puntaje 99.30%, nivel L5, "Hold"): sin ensayos ni literatura de respaldo, y sin vínculo mecanístico clínicamente significativo; se recomienda no avanzar.
+- **Insomnio** (puntaje 0.9932, nivel L4, "Research Question"): la literatura es mayormente indirecta y no hay ensayos controlados de clonazepam en insomnio primario; requiere evaluación centrada en la seguridad.
+- **Neoplasia del nervio trigémino** (puntaje 0.9930, nivel L5, "Hold"): sin ensayos ni literatura de respaldo, y sin vínculo mecanístico clínicamente significativo; se recomienda no avanzar.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -4,17 +4,17 @@ title: Phenobarbital
 parent: Solo predicción del modelo (L5)
 nav_order: 631
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Epilepsia (según el grafo de conocimiento"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Phenobarbital
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fenobarbital: De Epilepsia a Neoplasia del Nervio Trigémino
+## Phenobarbital: Neoplasia del nervio trigémino (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99,96% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el fenobarbital es un modulador alostérico positivo del receptor GABA-A con actividad anticonvulsiva de amplio espectro. Además, la base de datos farmacológica lo registra como ligando del receptor X de pregnano (NR1I2), lo que explica su efecto inductor enzimático.
 
-**En este caso la predicción no es creíble.** La neoplasia del nervio trigémino es un tumor, y no existe un vínculo mecanístico creíble con el fenobarbital: como mucho podría controlar crisis asociadas, pero no trataría el tumor. La única publicación recuperada (PMID 9157801) trata del síndrome de Sturge-Weber, que es otra enfermedad. El puntaje alto probablemente es un artefacto de proximidad en el grafo, a través de nodos relacionados con la epilepsia y el trigémino.
+**En este caso la predicción no es creíble.** La neoplasia del nervio trigémino es un tumor, y no existe un vínculo mecanístico creíble con el fenobarbital: como mucho podría controlar crisis asociadas, pero no trataría el tumor. La única publicación recuperada (PMID 9157801) trata del síndrome de Sturge-Weber, que es otra enfermedad. El puntaje alto proviene del modelo TxGNN (deep learning) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas (epilepsia y trigémino), no evidencia biológica.
 
-**Otras predicciones del modelo.** Entre las candidatas posteriores predominan las epilepsias reflejas (crisis por alimentación, sobresalto, audiógenas, lectura, etc.), que son extensiones de la clase anticonvulsiva ya cubierta por las indicaciones existentes, y sin evidencia directa de eficacia. La neuralgia del trigémino (puntaje 99,88%) tiene como tratamiento de referencia la carbamazepina, no el fenobarbital.
+**Otras predicciones del modelo.** Entre las candidatas posteriores predominan las epilepsias reflejas (crisis por alimentación, sobresalto, audiógenas, lectura, etc.), que son extensiones de la clase anticonvulsiva ya cubierta por las indicaciones existentes, y sin evidencia directa de eficacia. La neuralgia del trigémino (puntaje 0,9988) tiene como tratamiento de referencia la carbamazepina, no el fenobarbital.
 
 ---
 
@@ -105,7 +105,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para neoplasia del nervio trigémino carece de ensayos clínicos, de literatura relevante y de un vínculo mecanístico creíble; el puntaje elevado parece un artefacto del grafo. El nivel de evidencia es L5.
+La predicción para neoplasia del nervio trigémino carece de ensayos clínicos, de literatura relevante y de un vínculo mecanístico creíble; el puntaje elevado proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
 - Datos de advertencias y contraindicaciones del prospecto de la AEMPS (lagunas de seguridad que bloquean el cribado).

@@ -6,9 +6,9 @@ nav_order: 784
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática po… (nivel de evidencia L5). Indicación original: Enfermedad de Huntington (según el grafo…"
 monitor_inn: "Tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
+description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (polycystic kidney disease 3 with or wi… (nivel de evidencia L5). Indicación …"
 ---
 
 # Tetrabenazine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tetrabenazina: De Enfermedad de Huntington a Enfermedad Renal Poliquística Tipo 3 (con o sin Enfermedad Hepática Poliquística)
+## Tetrabenazine: Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (polycystic kidney disease 3 with or without polycystic liver disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Huntington (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (polycystic kidney disease 3 with or without polycystic liver disease) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La indicación original (corea de Huntington y otros trastornos hipercinéticos) es un trastorno neurológico del movimiento. La nueva indicación predicha es una enfermedad genética relacionada con ciliopatías, caracterizada por la formación de quistes renales y hepáticos. **No se identifica ningún vínculo mecanístico plausible** entre ambas: la inhibición de VMAT2 actúa sobre la neurotransmisión monoaminérgica y no sobre la formación de quistes.
 
-El puntaje elevado del modelo parece ser un artefacto del grafo de conocimiento y no una justificación biológica. Esta predicción debe considerarse puramente computacional.
+El puntaje elevado del modelo parece ser un artefacto del modelo TxGNN (aprendizaje profundo) y no una justificación biológica. Esta predicción debe considerarse puramente computacional.
 
 ## Evidencia de Ensayos Clínicos
 

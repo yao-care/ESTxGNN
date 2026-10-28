@@ -6,9 +6,9 @@ nav_order: 523
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (nivel de evidencia L3). Indicación original: Candidiasis esofágica…"
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
+description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (urinary tract infection (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Micafungin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Micafungina: De Candidiasis Esofágica a Infección del Tracto Urinario
+## Micafungin: Infección del tracto urinario (urinary tract infection (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para la **infección del tracto
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Candidiasis esofágica, candidemia y candidiasis diseminada (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Infección del tracto urinario |
-| Puntaje de Predicción TxGNN | 99.03% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección del tracto urinario (urinary tract infection (disease)) |
+| Puntaje de Predicción TxGNN | 0.9903 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

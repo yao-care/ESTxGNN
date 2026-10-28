@@ -6,9 +6,9 @@ nav_order: 520
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Metronidazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: Infecciones por bacterias anaerobias (peritonitis, endocarditis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+description: "Metronidazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Metronidazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Metronidazol: De Infecciones Anaerobias y Protozoarias a Neumocistosis
+## Metronidazole: Neumocistosis (pneumocystosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero **
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones por bacterias anaerobias (peritonitis, endocarditis, vaginosis bacteriana, giardiasis, rosácea, absceso intracraneal, entre otras; según el grafo de conocimiento, ya que los textos de indicación de AEMPS no estaban disponibles) |
-| Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neumocistosis (pneumocystosis) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 17 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero **
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, metronidazol es un nitroimidazol cuya eficacia en infecciones anaerobias y por protozoos está bien establecida; actúa mediante la activación reductora de su grupo nitro en microorganismos anaerobios.
 
-**En este caso, la predicción no tiene un fundamento mecanístico plausible.** *Pneumocystis* es un hongo y carece de la vía de activación que hace sensible a metronidazol a bacterias anaerobias y protozoos. El puntaje elevado de TxGNN probablemente es un artefacto de proximidad en la red del grafo de conocimiento.
+**En este caso, la predicción no tiene un fundamento mecanístico plausible.** *Pneumocystis* es un hongo y carece de la vía de activación que hace sensible a metronidazol a bacterias anaerobias y protozoos. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 La literatura recuperada se compone de revisiones generales sobre antiparasitarios e infecciones oportunistas en VIH, así como reportes de caso en los que metronidazol se menciona de forma incidental (por ejemplo, tratamiento de amebiasis en pacientes que luego desarrollaron neumonía por *Pneumocystis*). El tratamiento de referencia para neumocistosis es trimetoprima-sulfametoxazol, algo que la propia literatura recuperada refleja.
 
@@ -121,7 +121,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5): no hay ensayos clínicos, la literatura es general o incidental, y el mecanismo de metronidazol no es plausible frente a un hongo como *Pneumocystis*. El puntaje alto parece un artefacto de la red del grafo.
+La predicción se apoya solo en el modelo (L5): no hay ensayos clínicos, la literatura es general o incidental, y el mecanismo de metronidazol no es plausible frente a un hongo como *Pneumocystis*. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y evidencia preclínica que justifique actividad frente a *Pneumocystis*

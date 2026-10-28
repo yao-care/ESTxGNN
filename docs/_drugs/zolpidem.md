@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolpidem
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 868
-evidence_level: L1
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Zolpidem: nueva indicación predicha, Trastorno del sueño, dificultad para iniciar y mantener el sueño (nivel de evidencia L1). Indicación original: Insomnio"
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Zolpidem: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-## Zolpidem: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+## Zolpidem: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **0 ensayos clínicos** y **19 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Insomnio |
-| Nueva Indicación Predicha | Trastorno del sueño, dificultad para iniciar y mantener el sueño |
-| Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Benign paroxysmal torticollis of infancy |
+| Puntaje de Predicción TxGNN | 0.9926 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -110,8 +110,7 @@ Las advertencias y contraindicaciones del prospecto de la AEMPS no estaban dispo
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Decisión | Comentario |
 |------|------|------|------|------|
-| Tortícolis paroxística benigna de la infancia | 99.26% | L5 | Hold | Sin vínculo mecanístico creíble; probable artefacto del grafo; sin ensayos ni literatura; riesgo de seguridad de hipnóticos en lactantes |
-| Agorafobia | 99.25% | L5 | Hold | Fundamento débil e indirecto; zolpidem (subunidad alfa-1) se asocia a sedación y no a ansiólisis; existen terapias de primera línea bien establecidas; riesgo de dependencia |
+| Agorafobia | 0.9925 | L5 | Hold | Fundamento débil e indirecto; zolpidem (subunidad alfa-1) se asocia a sedación y no a ansiólisis; existen terapias de primera línea bien establecidas; riesgo de dependencia |
 
 ## Conclusión y Próximos Pasos
 

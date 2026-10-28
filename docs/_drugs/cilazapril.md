@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cilazapril
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 181
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Cilazapril: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial (el texto de indicación d…"
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
+description: "Cilazapril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cilazapril
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Cilazapril: De Hipertensión Arterial a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+## Cilazapril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 *Nota: el informe se centra en la indicación predicha con mayor respaldo de evidencia (rango 2 de 4), ya que la predicha en primer lugar carece por completo de ensayos y literatura. Las demás predicciones se mencionan en la conclusión.*
@@ -48,12 +48,12 @@ pero la evidencia actual se limita a **4 publicaciones preclínicas** (estudios 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (el texto de indicación de las autorizaciones españolas no está disponible; se toma de la base de conocimiento del modelo) |
-| Nueva Indicación Predicha | Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia |
-| Puntaje de Predicción TxGNN | 99,20% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pulmonary hypertension with unclear multifactorial mechanism |
+| Puntaje de Predicción TxGNN | 0.9920 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold (tratar como pregunta de investigación) |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -97,7 +97,7 @@ Para el resto de la información de seguridad (advertencias y contraindicaciones
 **Decisión: Hold (pregunta de investigación)**
 
 **Justificación:**
-El puntaje de TxGNN es alto (99,20%), pero la evidencia se limita a estudios preclínicos de los años 90, sin ensayos clínicos ni estudios en humanos, y los inhibidores de la ECA no son terapia establecida en este tipo de hipertensión pulmonar.
+El puntaje de TxGNN es alto (0,9920), pero la evidencia se limita a estudios preclínicos de los años 90, sin ensayos clínicos ni estudios en humanos, y los inhibidores de la ECA no son terapia establecida en este tipo de hipertensión pulmonar.
 
 Las otras predicciones (hipertensión pulmonar de mecanismo multifactorial poco claro, enfermedad renal hipertensiva maligna e hipertensión renovascular maligna) se encuentran en nivel L5, sin ningún ensayo ni literatura, por lo que también quedan en **Hold**. En las dos últimas, además, preocupa el riesgo renal (lesión renal aguda, hiperpotasemia y estenosis de la arteria renal).
 

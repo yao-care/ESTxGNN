@@ -6,9 +6,9 @@ nav_order: 686
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ravulizumab: nueva indicación predicha, Neutropenia congénita grave autosómica recesiva por deficiencia de G6… (nivel de evidencia L5). Indicación original: Hemoglobinuria paroxística nocturna (según…"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
+description: "Ravulizumab: nueva indicación predicha, Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 (autosomal recessive severe congenital neutrop… (nivel de evidencia L5). Indicación or…"
 ---
 
 # Ravulizumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ravulizumab: De Hemoglobinuria Paroxística Nocturna a Neutropenia Congénita Grave Autosómica Recesiva por Deficiencia de G6PC3
+## Ravulizumab: Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 (autosomal recessive severe congenital neutropenia due to G6PC3 deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,21 +46,21 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemoglobinuria paroxística nocturna (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 (autosomal recessive severe congenital neutropenia due to G6PC3 deficiency) |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Ravulizumab es un anticuerpo monoclonal que inhibe el componente C5 del complemento terminal. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase farmacológica, su eficacia en la HPN, una enfermedad de hemólisis intravascular mediada por complemento, es conocida.
 
-La relación entre la indicación original y la nueva es débil. La deficiencia de G6PC3 es un defecto metabólico y de maduración mieloide sin patología conocida dirigida por el complemento. El vínculo mecanístico proviene únicamente del grafo de conocimiento y no cuenta con respaldo mecanístico ni clínico.
+La relación entre la indicación original y la nueva es débil. La deficiencia de G6PC3 es un defecto metabólico y de maduración mieloide sin patología conocida dirigida por el complemento. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo mecanístico ni clínico.
 
-Por ello, la alta puntuación del modelo (99.96%) debe interpretarse con cautela: no hay una justificación biológica establecida para que la inhibición de C5 sea aplicable a esta enfermedad. Otras predicciones del mismo análisis (neutropenia cíclica, hiperoxaluria primaria, neutropenia congénita grave, entre otras) presentan igualmente evidencia de nivel L5 y recomendación Hold.
+Por ello, la alta puntuación del modelo (0.9996) debe interpretarse con cautela: no hay una justificación biológica establecida para que la inhibición de C5 sea aplicable a esta enfermedad. Otras predicciones del mismo análisis (neutropenia cíclica, hiperoxaluria primaria, neutropenia congénita grave, entre otras) presentan igualmente evidencia de nivel L5 y recomendación Hold.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -6,9 +6,9 @@ nav_order: 841
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Velpatasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (nivel de evidencia L3). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 monitor_inn: "velpatasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Velpatasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Velpatasvir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Velpatasvir: De Infección por el Virus de la Hepatitis C a Infección por el Virus de la Hepatitis B
+## Velpatasvir: Infección por el virus de la hepatitis B (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **infección por el virus 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis C (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por el virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por el virus de la hepatitis B (hepatitis B virus infection) |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -129,7 +129,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Velpatasvir carece de mecanismo plausible frente al VHB (virus de ADN sin diana NS5A), y los estudios asociados tratan la hepatitis C o la coinfección, donde el efecto anti-VHB proviene de otros fármacos como TAF. La puntuación alta de TxGNN parece reflejar similitud de anotaciones en el grafo y no una oportunidad real de reposicionamiento.
+Velpatasvir carece de mecanismo plausible frente al VHB (virus de ADN sin diana NS5A), y los estudios asociados tratan la hepatitis C o la coinfección, donde el efecto anti-VHB proviene de otros fármacos como TAF. La puntuación alta del modelo TxGNN (deep learning) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una oportunidad real de reposicionamiento.
 
 **Para avanzar se necesita:**
 - Datos de actividad antiviral in vitro de velpatasvir frente al VHB (replicación, ADNccc, HBsAg).

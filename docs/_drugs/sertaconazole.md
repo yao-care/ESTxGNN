@@ -4,17 +4,17 @@ title: Sertaconazole
 parent: Solo predicción del modelo (L5)
 nav_order: 732
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Sertaconazole: nueva indicación predicha, Dermatofitosis de la ingle y del área perianal (nivel de evidencia L5). Indicación original: Tinea pedis (según el grafo de conocimiento"
 monitor_inn: "sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "pityriasis versicolor"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
+description: "Sertaconazole: nueva indicación predicha, Ectothrix infectious disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Sertaconazol: De Tinea Pedis a Dermatofitosis de la Ingle y del Área Perianal
+## Sertaconazole: Ectothrix infectious disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Sertaconazol es un antifúngico imidazólico de uso tópico, originalmente utilizado para el tratamiento de la tinea pedis (pie de atleta).
 El modelo TxGNN predice que podría ser efectivo para **dermatofitosis de la ingle y del área perianal** (tinea cruris), pero para esta indicación concreta **no se recuperaron ensayos clínicos ni publicaciones**; la predicción se apoya únicamente en el modelo.
-Como dato complementario, la segunda indicación predicha (tinea corporis) cuenta con **19 publicaciones** y varios estudios comparativos aleatorizados.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tinea pedis (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Dermatofitosis de la ingle y del área perianal |
-| Puntaje de Predicción TxGNN | 99,98% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ectothrix infectious disease |
+| Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La tinea cruris es una infección por dermatofitos de la misma familia etiológica que la tinea pedis. Por ello, el mecanismo antifúngico es plausible para esta nueva indicación. Además, la literatura revisada sobre sertaconazol menciona que en la UE está indicado en dermatofitosis, incluyendo tinea corporis, tinea cruris y tinea pedis, por lo que se trataría de una extensión dentro de la misma clase de fármaco y la misma familia de enfermedades, con baja novedad de reposicionamiento.
 
-Cabe subrayar que, para esta indicación específica, la evidencia es solo la predicción del modelo. Sin embargo, existe un estudio comparativo aleatorizado de terbinafina frente a sertaconazol en tinea corporis y tinea cruris (PMID 24249898), que se detalla en la sección de otras indicaciones predichas.
+Cabe subrayar que, para esta indicación específica, la evidencia es solo la predicción del modelo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -76,12 +75,7 @@ Para contextualizar, estas son las demás indicaciones predichas y su evidencia:
 
 | Indicación | Puntaje TxGNN | Nivel | Decisión | Comentario |
 |------|------|------|------|------|
-| Tinea corporis | 99,94% | L1 | Proceed with Guardrails | Varios estudios comparativos aleatorizados frente a terbinafina, clotrimazol y eberconazol. El nivel L1 debe verificarse con los textos completos, ya que la fase 3 no se confirma en los metadatos. |
-| Candidiasis cutánea | 99,63% | L2 | Proceed with Guardrails | Estudio de fase II (1992) y revisiones. |
-| Micosis superficial | 99,55% | L1 | Proceed with Guardrails | Categoría amplia que incluye la indicación original; incluye un ensayo multicéntrico doble ciego frente a miconazol. No es un hallazgo de reposicionamiento realmente nuevo. |
-| Pitiriasis versicolor | 99,45% | L2 | Proceed with Guardrails | Estudio clínico de 1992; diseño y fase por verificar. |
-| Dermatofitosis del cuero cabelludo o la barba | 99,55% | L4 | Hold | Solo revisiones y datos in vitro. |
-| Enfermedad infecciosa ectotrix, granuloma de Majocchi, enfermedad infecciosa endotrix, tinea profunda | 99,37%–99,59% | L5 | Hold | Sin ensayos ni literatura; los antifúngicos tópicos penetran mal en folículos pilosos y tejido profundo, y suelen requerir tratamiento sistémico. |
+| Pitiriasis versicolor | 0,9945 | L2 | Proceed with Guardrails | Estudio clínico de 1992; diseño y fase por verificar. |
 
 ### Literatura destacada (tinea corporis / tinea cruris)
 

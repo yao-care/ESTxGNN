@@ -6,9 +6,9 @@ nav_order: 635
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L4). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Pibrentasvir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Pibrentasvir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+## Pibrentasvir: Infección por virus de la hepatitis B (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis C (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Infección por virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99,84 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por virus de la hepatitis B (hepatitis B virus infection) |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -100,7 +100,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para hepatitis B, la literatura se refiere exclusivamente al VHC y no existe un vínculo mecanístico plausible (el VHB carece de homólogo de NS5A). La puntuación elevada de TxGNN parece reflejar la proximidad en el grafo y no una actividad antiviral real.
+No hay ensayos clínicos para hepatitis B, la literatura se refiere exclusivamente al VHC y no existe un vínculo mecanístico plausible (el VHB carece de homólogo de NS5A). La puntuación elevada del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una actividad antiviral real.
 
 **Para avanzar se necesita:**
 - Datos in vitro de actividad de pibrentasvir frente al VHB, que hoy no existen

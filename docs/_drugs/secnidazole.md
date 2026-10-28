@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Secnidazole
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 727
-evidence_level: L1
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Secnidazole: nueva indicación predicha, Flujo vaginal (nivel de evidencia L1). Indicación original: Giardiasis, vaginosis bacteriana, vaginitis, vulvitis, vulvovaginitis…"
 monitor_inn: "Secnidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "trichomonal vulvovaginitis", "leukoplakia of vagina", "vulvovaginal candidiasis"]
+description: "Secnidazole: nueva indicación predicha, Postmenopausal atrophic vaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Secnidazole
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-## Secnidazol: De Giardiasis y Vaginosis Bacteriana a Flujo Vaginal
+## Secnidazole: Postmenopausal atrophic vaginitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **3 ensayos clínicos** y **15 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Giardiasis, vaginosis bacteriana, vaginitis, vulvitis, vulvovaginitis, tricomoniasis (según el grafo de conocimiento; el texto de indicación de la autorización española está vacío) |
-| Nueva Indicación Predicha | Flujo vaginal |
-| Puntaje de Predicción TxGNN | 99.41% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Postmenopausal atrophic vaginitis |
+| Puntaje de Predicción TxGNN | 0.9970 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -121,12 +121,12 @@ Hay dos ensayos de Fase 3 completados y varios ECA publicados con secnidazol en 
 
 | Predicción | Puntaje | Nivel | Decisión | Comentario |
 |---|---|---|---|---|
-| Vaginitis atrófica posmenopáusica | 99.70% | L5 | Hold | Causada por déficit de estrógenos; un mecanismo antimicrobiano es poco plausible |
-| Úlcera de vulva | 99.42% | L5 | Hold | Causas heterogéneas; sin evidencia |
-| Neoplasia de vulva | 99.37% | L5 | Hold | Sin evidencia ni mecanismo plausible |
-| Vulvovaginitis tricomoniásica | 99.37% | L3 | Pregunta de investigación | Ya es una indicación original; una publicación de Fase 3 |
-| Leucoplasia de vagina | 99.34% | L5 | Hold | Cambio epitelial queratinizante, no infeccioso |
-| Candidiasis vulvovaginal | 99.16% | L4 | Hold | Los nitroimidazoles no actúan sobre hongos; el único ensayo es una combinación con fluconazol |
+| Vaginitis atrófica posmenopáusica | 0.9970 | L5 | Hold | Causada por déficit de estrógenos; un mecanismo antimicrobiano es poco plausible |
+| Úlcera de vulva | 0.9942 | L5 | Hold | Causas heterogéneas; sin evidencia |
+| Neoplasia de vulva | 0.9937 | L5 | Hold | Sin evidencia ni mecanismo plausible |
+| Vulvovaginitis tricomoniásica | 0.9937 | L3 | Pregunta de investigación | Ya es una indicación original; una publicación de Fase 3 |
+| Leucoplasia de vagina | 0.9934 | L5 | Hold | Cambio epitelial queratinizante, no infeccioso |
+| Candidiasis vulvovaginal | 0.9916 | L4 | Hold | Los nitroimidazoles no actúan sobre hongos; el único ensayo es una combinación con fluconazol |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

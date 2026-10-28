@@ -6,9 +6,9 @@ nav_order: 638
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pimozide: nueva indicación predicha, Tricotilomanía (nivel de evidencia L3). Indicación original: Síndrome de Tourette (según las relaciones de indicación del grafo de…"
 monitor_inn: "Pimozide"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Pimozide: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Pimozide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Pimozida: De Síndrome de Tourette a Tricotilomanía
+## Pimozide: Tricotilomanía (trichotillomania)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **0 ensayos clínicos** y **8 publicaciones** (en su mayoría revisiones y u
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de Tourette (según las relaciones de indicación del grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Tricotilomanía |
-| Puntaje de Predicción TxGNN | 99,996% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Tricotilomanía (trichotillomania) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

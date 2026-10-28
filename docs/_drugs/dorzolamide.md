@@ -4,17 +4,17 @@ title: Dorzolamide
 parent: Solo predicción del modelo (L5)
 nav_order: 262
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dorzolamide: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular"
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+description: "Dorzolamide: nueva indicación predicha, Hypotrichosis simplex of the scalp (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Dorzolamida: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+## Dorzolamide: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Dorzolamida es un inhibidor tópico de la anhidrasa carbónica, utilizado originalmente para el tratamiento del glaucoma de ángulo abierto y la hipertensión ocular.
-El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción específica; se trata únicamente de una predicción del modelo.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción específica; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hypotrichosis simplex of the scalp |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dorzolamida es un inhibidor tópico de la anhidrasa carbónica (con dianas como CA1, CA7, CA12 y CA14 en los datos farmacológicos) que reduce la secreción de humor acuoso y, con ello, la presión intraocular (PIO).
 
-El glaucoma hereditario primario (congénito/juvenil) comparte con el glaucoma de ángulo abierto el rasgo central de la PIO elevada, por lo que un ajuste mecanístico es plausible. De hecho, un ensayo de Fase 2 (NCT01527682) evaluó dorzolamida junto con latanoprost en glaucoma pediátrico refractario a cirugía, lo que ofrece un indicio indirecto, aunque este ensayo aparece vinculado a la entrada de glaucoma de ángulo abierto y no a la predicción específica.
 
-Es importante señalar que la seguridad y eficacia en población pediátrica requerirían una evaluación independiente. Las demás predicciones de mayor puntaje (alopecias, hipotricosis) carecen de sustento mecanístico y parecen reflejar asociaciones del grafo de conocimiento.
+Las predicciones de mayor puntaje (alopecias, hipotricosis) carecen de sustento mecanístico; su puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -118,7 +117,7 @@ No hay literatura disponible específica para glaucoma hereditario primario. Com
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para glaucoma hereditario primario no cuenta con ensayos ni literatura específicos (nivel L5) y se basa solo en el puntaje del modelo y en la plausibilidad mecanística de reducir la PIO. La evidencia sólida (nivel L1, "Proceed with Guardrails") corresponde al glaucoma de ángulo abierto, que es la indicación ya aprobada y no constituye un reposicionamiento real.
+La predicción para hipotricosis simple del cuero cabelludo no cuenta con ensayos ni literatura específicos (nivel L5) y se basa solo en el puntaje del modelo TxGNN (aprendizaje profundo). La evidencia sólida (nivel L1, "Proceed with Guardrails") corresponde al glaucoma de ángulo abierto, que es la indicación ya aprobada y no constituye un reposicionamiento real.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA)

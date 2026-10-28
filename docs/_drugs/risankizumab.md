@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Risankizumab
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 704
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Risankizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L5). Indicación original: Psoriasis (la ficha de autorización no incluye texto de indicación"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Risankizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Risankizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Risankizumab: De Psoriasis a Dermatitis
+## Risankizumab: Dermatitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ Sin embargo, el único ensayo controlado de Fase 2 (en dermatitis atópica) no d
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Psoriasis (la ficha de autorización no incluye texto de indicación; se toma de las indicaciones originales del grafo de conocimiento) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Dermatitis |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L2 (un ECA de Fase 2 completado, con resultado no favorable) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Sin embargo, el único ensayo controlado de Fase 2 (en dermatitis atópica) no d
 
 Risankizumab bloquea selectivamente la subunidad p19 de la IL-23, situada aguas arriba de la activación de las células Th17/Th22. Este mecanismo está bien validado en la psoriasis. No se dispone de datos formales de mecanismo de acción en la base de datos consultada, por lo que esta descripción se basa en el análisis mecanístico del informe y en la literatura.
 
-La dermatitis atópica está impulsada sobre todo por la vía Th2, y el eje IL-23 contribuye solo de forma menor, por lo que el fundamento mecanístico es más débil que en la psoriasis. El ensayo de Fase 2 (NCT03706040) no mostró una eficacia relevante frente a placebo, lo que concuerda con esa limitación. Es probable que el puntaje tan alto de TxGNN refleje la cercanía con la psoriasis en el grafo de conocimiento y no evidencia independiente en dermatitis atópica.
+La dermatitis atópica está impulsada sobre todo por la vía Th2, y el eje IL-23 contribuye solo de forma menor, por lo que el fundamento mecanístico es más débil que en la psoriasis. El ensayo de Fase 2 (NCT03706040) no mostró una eficacia relevante frente a placebo, lo que concuerda con esa limitación. Es probable que el puntaje tan alto de TxGNN proceda del modelo TxGNN (deep learning) y refleje similitudes que el modelo aprendió entre enfermedades relacionadas, como la psoriasis, y no evidencia biológica independiente en dermatitis atópica.
 
 Queda un posible nicho en fenotipos de solapamiento psoriasis/eccema, donde hay reportes de casos con uso combinado con dupilumab. También hay reportes de eccema paradójico durante el tratamiento con inhibidores de IL-23, lo que sugiere que el fármaco incluso podría provocar lesiones eccematosas en algunos pacientes.
 
@@ -103,8 +103,6 @@ Queda un posible nicho en fenotipos de solapamiento psoriasis/eccema, donde hay 
 | 1191361004 | SKYRIZI 600 MG concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
 | 1191361002 | SKYRIZI 150 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
 | 1191361007 | SKYRIZI 180 MG solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
-
-Se muestran 5 de las 6 autorizaciones vigentes (todas de Abbvie Deutschland GmbH & Co. KG).
 
 ---
 

@@ -46,17 +46,17 @@ Naphazolina es un vasoconstrictor agonista alfa-adrenérgico que se comercializa
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos). La información farmacológica la describe como vasoconstrictor que reduce el enrojecimiento ocular |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99,83% |
+| Puntaje de Predicción TxGNN | 0,9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos de fármacos. Según la información farmacológica compilada, la naphazolina se une a los receptores adrenérgicos α1A, α2A y α2C (humanos), y es un vasoconstrictor que estrecha los vasos sanguíneos inflamados; se usa como descongestionante nasal y para aliviar el enrojecimiento ocular.
 
-**La predicción no resulta mecanísticamente razonable.** La hipotricosis simple es un trastorno hereditario de origen genético (p. ej., CDSN, APCDD1), y no existe un vínculo farmacológico plausible con la agonista alfa-adrenérgica. Si acaso, la vasoconstricción de los vasos del cuero cabelludo podría ser contraproducente para la perfusión folicular. El puntaje alto parece reflejar la proximidad en la red del grafo de conocimiento y no una señal farmacológica real.
+**La predicción no resulta mecanísticamente razonable.** La hipotricosis simple es un trastorno hereditario de origen genético (p. ej., CDSN, APCDD1), y no existe un vínculo farmacológico plausible con la agonista alfa-adrenérgica. Si acaso, la vasoconstricción de los vasos del cuero cabelludo podría ser contraproducente para la perfusión folicular. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una señal farmacológica real.
 
 Otras predicciones del modelo siguen el mismo patrón: congénita hipotricosis con milia, alopecia areata difusa, alopecia, hipertricosis y síndromes malformativos. Todas tienen nivel L5 y ninguna cuenta con ensayos clínicos. Es llamativo que se prediga tanto hipotricosis/alopecia como hipertricosis (fenotipo opuesto), lo que sugiere una señal inespecífica. La única predicción con una justificación de clase débil es la de glaucoma (los agonistas alfa, como la brimonidina, modulan la dinámica del humor acuoso), aunque la naphazolina carece de datos y presenta riesgos de seguridad en esa población.
 

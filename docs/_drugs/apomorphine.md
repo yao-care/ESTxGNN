@@ -6,7 +6,7 @@ nav_order: 61
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Apomorphine: nueva indicación predicha, Esquizofrenia (la predicción nº 1 del modelo es polimicrogiria perisi… (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parki…"
+description: "Apomorphine: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parki…"
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Apomorfina: De Enfermedad de Parkinson a Esquizofrenia
+## Apomorfina: De Enfermedad de Parkinson a Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -41,7 +41,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 Apomorfina es un agonista dopaminérgico no ergolínico, utilizado originalmente para tratar la enfermedad de Parkinson (en particular los episodios "off" en fases avanzadas).
 El modelo TxGNN predice que podría ser efectivo para **esquizofrenia** (la predicción con mayor respaldo bibliográfico entre las 10 candidatas), pero **no hay ensayos clínicos** y solo hay **20 publicaciones** de carácter mayoritariamente mecanístico, antiguas o preclínicas, cuya dirección es contraria a un uso terapéutico.
 
-> Nota: la predicción nº 1 del modelo es "polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis" (puntaje 99,75 %), pero carece por completo de evidencia. Este informe se centra en esquizofrenia por ser la única candidata con literatura disponible; el resto se resume en una tabla al final.
+> Nota: la predicción nº 1 del modelo es "polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis" (puntaje 0,9975), pero carece por completo de evidencia. Este informe se centra en esquizofrenia por ser la única candidata con literatura disponible; el resto se resume en una tabla al final.
 
 ## Resumen Rápido
 
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **esquizofrenia** (la pred
 |------|------|
 | Indicación Original | Enfermedad de Parkinson (y síndromes parkinsonianos relacionados) |
 | Nueva Indicación Predicha | Esquizofrenia (la predicción nº 1 del modelo es polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis) |
-| Puntaje de Predicción TxGNN | 99,69 % (esquizofrenia); 99,75 % (polimicrogiria, nº 1) |
-| Nivel de Evidencia | L4 (esquizofrenia); L5 (polimicrogiria) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 16 |
+| Puntaje de Predicción TxGNN | 0,9969 (esquizofrenia); 0,9975 (polimicrogiria, nº 1) |
+| Nivel de Evidencia | L5 (esquizofrenia); L5 (polimicrogiria) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -107,15 +107,15 @@ Un aspecto crítico: el grafo señala como contraindicados el trastorno psicóti
 
 | Rango | Enfermedad predicha | Puntaje TxGNN | Nivel | Valoración |
 |------|------|------|------|------|
-| 1 | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 99,75 % | L5 | Sin vínculo mecanístico; probable artefacto de red |
-| 2 | Trastorno congénito de la glicosilación con fucosilación defectuosa | 99,73 % | L5 | Sin justificación mecanística |
-| 3 | Distrofia retiniana con o sin anomalías extraoculares | 99,71 % | L5 | Plausibilidad laxa (dopamina retiniana), sin respaldo |
-| 4 | Enfermedad de Charcot-Marie-Tooth desmielinizante tipo 1G | 99,71 % | L5 | Sin vínculo mecanístico |
-| 6 | Miopía ligada al X | 99,69 % | L5 | Racional débil; etiología genética |
-| 7 | Encefalopatía atípica por glicina | 99,68 % | L5 | Sin vínculo mecanístico |
-| 8 | Miopía 26 ligada al X, limitada a mujeres | 99,64 % | L5 | Especulativo |
-| 9 | Miopía sindrómica | 99,60 % | L5 | Plausibilidad laxa, solo predicción |
-| 10 | Hidranencefalia | 99,54 % | L5 | Sin vínculo plausible |
+| 1 | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 0,9975 | L5 | Sin vínculo mecanístico; probable artefacto de red |
+| 2 | Trastorno congénito de la glicosilación con fucosilación defectuosa | 0,9973 | L5 | Sin justificación mecanística |
+| 3 | Distrofia retiniana con o sin anomalías extraoculares | 0,9971 | L5 | Plausibilidad laxa (dopamina retiniana), sin respaldo |
+| 4 | Enfermedad de Charcot-Marie-Tooth desmielinizante tipo 1G | 0,9971 | L5 | Sin vínculo mecanístico |
+| 6 | Miopía ligada al X | 0,9969 | L5 | Racional débil; etiología genética |
+| 7 | Encefalopatía atípica por glicina | 0,9968 | L5 | Sin vínculo mecanístico |
+| 8 | Miopía 26 ligada al X, limitada a mujeres | 0,9964 | L5 | Especulativo |
+| 9 | Miopía sindrómica | 0,9960 | L5 | Plausibilidad laxa, solo predicción |
+| 10 | Hidranencefalia | 0,9954 | L5 | Sin vínculo plausible |
 
 ## Conclusión y Próximos Pasos
 

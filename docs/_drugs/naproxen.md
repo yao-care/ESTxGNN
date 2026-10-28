@@ -6,9 +6,9 @@ nav_order: 552
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Bursitis, artritis reumatoide, espondilitis anquilosante, tendinitis…"
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Naproxen
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Naproxeno: De Bursitis y Artritis Reumatoide a Síndrome de Braquidactilia-Sindactilia
+## Naproxen: Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Bursitis, artritis reumatoide, espondilitis anquilosante, tendinitis, gota, osteoartritis (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
-| Puntaje de Predicción TxGNN | 99.35% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) |
+| Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Los síndromes de braquidactilia-sindactilia son malformaciones esqueléticas congénitas causadas por defectos genéticos del desarrollo. La inhibición de COX no corrige estas vías, por lo que **los datos disponibles no respaldan un vínculo mecanístico plausible**. En el mejor de los casos, el beneficio se limitaría al alivio sintomático del dolor, lo cual no constituye una señal de reposicionamiento.
 
-Es probable que el puntaje alto (99.35%) refleje la proximidad en el grafo de conocimiento con las indicaciones musculoesqueléticas de naproxeno (artritis, artropatía) y no una justificación biológica. Las otras tres predicciones de mayor puntaje (síndrome de microftalmia colobomatosa-displasia rizomélica, displasia acromesomélica tipo Hunter-Thompson y síndrome de braquiolmia-amelogénesis imperfecta) son también trastornos genéticos raros del desarrollo, igualmente sin evidencia ni vínculo mecanístico, y todas se mantienen en nivel L5 y decisión Hold.
+Es probable que el puntaje alto (0.9935), obtenido del modelo TxGNN (aprendizaje profundo), refleje similitudes que el modelo aprendió entre enfermedades relacionadas, como las indicaciones musculoesqueléticas de naproxeno (artritis, artropatía), y no una justificación biológica. Las otras tres predicciones de mayor puntaje (síndrome de microftalmia colobomatosa-displasia rizomélica, displasia acromesomélica tipo Hunter-Thompson y síndrome de braquiolmia-amelogénesis imperfecta) son también trastornos genéticos raros del desarrollo, igualmente sin evidencia ni vínculo mecanístico, y todas se mantienen en nivel L5 y decisión Hold.
 
 ## Evidencia de Ensayos Clínicos
 

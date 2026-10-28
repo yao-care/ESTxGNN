@@ -48,10 +48,10 @@ con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | No disponible en los textos de autorización de AEMPS (uso conocido: anestesia general y sedación) |
 | Nueva Indicación Predicha | Migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.69% |
+| Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 19 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 19) |
+| Número de Autorizaciones | 19 (vigentes: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

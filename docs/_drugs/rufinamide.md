@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Solo predicción del modelo (L5)
 nav_order: 717
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rufinamide: nueva indicación predicha, Síndrome de epilepsia relacionada con infección febril (FIRES) (nivel de evidencia L5). Indicación original: Síndrome de Lennox-Gastaut (según el grafo de conoc…"
 monitor_inn: "Rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: nueva indicación predicha, Perioral myoclonia with absences (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Rufinamida: De Síndrome de Lennox-Gastaut a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Rufinamida es un antiepiléptico originalmente utilizado para el tratamiento del síndrome de Lennox-Gastaut.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**,
 pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; la predicción se basa únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de Lennox-Gastaut (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles en los datos compilados) |
-| Nueva Indicación Predicha | Síndrome de epilepsia relacionada con infección febril (FIRES) |
-| Puntaje de Predicción TxGNN | 99.57% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Perioral myoclonia with absences |
+| Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,16 +59,13 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con FIRES es débil. FIRES es una epilepsia refractaria muy grave, pero su patología parece estar impulsada en gran medida por neuroinflamación (por ejemplo, las vías de IL-1 e IL-6), por lo que un mecanismo basado en canales de sodio probablemente no aborde el problema de fondo.
 
-Por tanto, el vínculo se apoya solo en el puntaje del modelo (0.996), sin ensayos ni literatura. Debe considerarse una hipótesis que requiere validación.
+Debe considerarse una hipótesis que requiere validación.
 
 ### Otras indicaciones predichas (para contexto)
 
 | Rango | Indicación predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|------|
-| 2 | Mioclonía perioral con ausencias | 99.51% | L5 | Los bloqueadores de canales de sodio pueden agravar ausencias y crisis mioclónicas |
-| 3 | Epilepsia fotosensible del lóbulo occipital | 99.44% | L5 | Plausibilidad general de clase para crisis focales |
-| 4 | Espasmos epilépticos criptogénicos de inicio tardío | 99.44% | L5 | Solapamiento clínico indirecto con Lennox-Gastaut |
-| 5 | Epilepsia infantil atípica con puntas centrotemporales | 99.44% | L5 | Posible empeoramiento con bloqueadores de sodio si hay punta-onda continua durante el sueño |
+| 2 | Mioclonía perioral con ausencias | 0.9951 | L5 | Los bloqueadores de canales de sodio pueden agravar ausencias y crisis mioclónicas |
 
 ## Evidencia de Ensayos Clínicos
 

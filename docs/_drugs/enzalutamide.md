@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: Solo predicción del modelo (L5)
 nav_order: 293
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Enzalutamide: nueva indicación predicha, Susceptibilidad al cáncer de próstata/cáncer cerebral (nivel de evidencia L5). Indicación original: Cáncer de próstata"
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Enzalutamide: nueva indicación predicha, Prostate leiomyoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Enzalutamida: De Cáncer de Próstata a Susceptibilidad al Cáncer de Próstata/Cáncer Cerebral
+## Enzalutamide: Prostate leiomyoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,21 +46,20 @@ con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de próstata |
-| Nueva Indicación Predicha | Susceptibilidad al cáncer de próstata/cáncer cerebral |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Prostate leiomyoma |
+| Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 17 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Enzalutamida es un inhibidor del receptor de andrógenos (AR), que es su diana farmacológica. Está aprobada para el cáncer de próstata, incluidos el cáncer de próstata resistente a la castración y el sensible a hormonas. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada, más allá de su acción sobre el AR.
 
-La predicción probablemente refleja que el nodo de "susceptibilidad al cáncer de próstata" está muy cerca de la indicación original en el grafo de conocimiento. No se encontró ningún vínculo con el cáncer cerebral. Además, una susceptibilidad es un fenotipo genético y no una enfermedad que se trate con un fármaco.
 
-Por ello, la puntuación alta debe interpretarse con cautela. Es probable que sea un artefacto del grafo y no una señal terapéutica nueva.
+Por ello, la puntuación alta debe interpretarse con cautela. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 

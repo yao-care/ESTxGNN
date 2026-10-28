@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Efavirenz
-parent: Solo predicción del modelo (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 276
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Efavirenz: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Efavirenz: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L3). Indicación original: No consta en los dat…"
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Efavirenz: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+## Efavirenz: Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **14 publicaciones**, en su mayoría estudios en a
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia |
-| Puntaje de Predicción TxGNN | 99,80% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L3 (según la evaluación de los datos compilados; los estudios son sobre todo preclínicos en primates no humanos) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

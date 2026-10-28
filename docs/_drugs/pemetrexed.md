@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 619
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pemetrexed: nueva indicación predicha, Mesotelioma peritoneal maligno (nivel de evidencia L2). Indicación original: Cáncer de pulmón no microcítico, cáncer de pulmón…"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Pemetrexed: De Cáncer de Pulmón no Microcítico y Mesotelioma Pleural a Mesotelioma Peritoneal Maligno
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser eficaz en el **mesotelioma peritoneal ma
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico, cáncer de pulmón, mesotelioma pleural maligno (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Mesotelioma peritoneal maligno |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pleural adenomatoid tumor |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 2) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -131,7 +131,7 @@ Existe un ensayo de Fase 2 completado con pemetrexed en mesotelioma pleural o pe
 **Otras predicciones del modelo:**
 - Mesotelioma pleural, epitelioide, sarcomatoide y bifásico (L1 a L2): ya cubiertos por la indicación aprobada o por ella extrapolables; sirven como control positivo del modelo.
 - Cáncer de pericardio y mesotelioma papilar bien diferenciado (L4, Hold): solo reportes de caso, sin ensayos.
-- Tumor adenomatoide pleural, mesotelioma linfohistiocitoide e iminoglicinuria (L5, Hold): sin respaldo clínico. La iminoglicinuria es probablemente un falso positivo del grafo de conocimiento.
+- Tumor adenomatoide pleural, mesotelioma linfohistiocitoide e iminoglicinuria (L5, Hold): sin respaldo clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

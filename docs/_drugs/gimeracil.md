@@ -4,17 +4,17 @@ title: Gimeracil
 parent: Evidencia alta (L1-L2)
 nav_order: 375
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Gimeracil: nueva indicación predicha, Neoplasia de colon (nivel de evidencia L1). Indicación original: Cáncer gástrico (según el grafo de conocimiento"
 monitor_inn: "gimeracil"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+description: "Gimeracil: nueva indicación predicha, Neoplasia de colon (colonic neoplasm) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Gimeracil: De Cáncer Gástrico a Neoplasia de Colon
+## Gimeracil: Neoplasia de colon (colonic neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia de colon**, co
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer gástrico (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neoplasia de colon |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia de colon (colonic neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
+| Número de Autorizaciones | 4 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

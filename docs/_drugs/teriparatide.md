@@ -4,17 +4,17 @@ title: Teriparatide
 parent: Solo predicción del modelo (L5)
 nav_order: 782
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (nivel de evidencia L5). Indicación original: Osteoporosis posmenopáusica / osteoporosis (según las relaciones indi…"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
+description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Teriparatida: De Osteoporosis Posmenopáusica a Úlcera Duodenal
+## Teriparatide: Úlcera duodenal (duodenal ulcer (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoporosis posmenopáusica / osteoporosis (según las relaciones indicación-fármaco del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Úlcera duodenal |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Úlcera duodenal (duodenal ulcer (disease)) |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, teriparatida es un fragmento activo de la hormona paratiroidea humana (PTH 1-34). Los datos farmacológicos compilados indican que actúa sobre los receptores PTH1 (PTH1R) y PTH2 (PTH2R). Su eficacia en osteoporosis en pacientes con alto riesgo de fractura está establecida, y su acción anabólica sobre el hueso se ejerce a través de la estimulación de la actividad osteoblástica.
 
-**En este caso, el vínculo mecanístico con la nueva indicación no es evidente.** No se identifica un mecanismo plausible por el cual la señalización anabólica ósea de la PTH favorezca la cicatrización de una úlcera duodenal, y no se aportaron ensayos ni literatura que lo apoyen. La relación entre la indicación original (enfermedad ósea metabólica) y la nueva (enfermedad gastrointestinal) tampoco ha podido establecerse. El puntaje alto del modelo (99.86%) debe interpretarse como una señal estadística del grafo de conocimiento y no como evidencia biológica o clínica.
+**En este caso, el vínculo mecanístico con la nueva indicación no es evidente.** No se identifica un mecanismo plausible por el cual la señalización anabólica ósea de la PTH favorezca la cicatrización de una úlcera duodenal, y no se aportaron ensayos ni literatura que lo apoyen. La relación entre la indicación original (enfermedad ósea metabólica) y la nueva (enfermedad gastrointestinal) tampoco ha podido establecerse. El puntaje alto (0.9986) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica.
 
 ---
 

@@ -48,9 +48,9 @@ Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3) comerciali
 |------|------|
 | Indicación Original | No disponible en los textos de autorización de la AEMPS (según información farmacológica de referencia: ascitis maligna asociada a cánceres EpCAM positivos) |
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99,64 % |
+| Puntaje de Predicción TxGNN | 0,9964 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
 | Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3) comerciali
 
 Catumaxomab es un anticuerpo biespecífico trifuncional que se une a EpCAM (presente en células tumorales epiteliales) y a CD3ε (en linfocitos T). Además, mediante su región Fc recluta células accesorias, dirigiendo la destrucción inmunitaria hacia las células tumorales. No se dispone de datos detallados del mecanismo de acción en la información compilada; lo anterior procede de la anotación farmacológica de su diana principal (CD3E).
 
-**La predicción no cuenta con un vínculo mecanístico respaldado por los datos.** La retinopatía diabética es una enfermedad microvascular, dependiente de VEGF e inflamatoria, y no una neoplasia que exprese EpCAM. Las terapias establecidas actúan sobre VEGF, la inflamación y el control glucémico y vascular, vías con las que catumaxomab no se alinea. El puntaje elevado (0,996) refleja un patrón del grafo de conocimiento, no evidencia biológica.
+**La predicción no cuenta con un vínculo mecanístico respaldado por los datos.** La retinopatía diabética es una enfermedad microvascular, dependiente de VEGF e inflamatoria, y no una neoplasia que exprese EpCAM. Las terapias establecidas actúan sobre VEGF, la inflamación y el control glucémico y vascular, vías con las que catumaxomab no se alinea. El puntaje elevado (0,9964) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Las otras dos predicciones del modelo (osteoporosis inducida por fármacos, 99,58 %, y retinopatía diabética general, 99,47 %) tampoco tienen respaldo clínico ni bibliográfico. La retinopatía diabética es la categoría general de la primera indicación, por lo que probablemente comparten patrones de embedding y no constituyen señales biológicas independientes. Además, la activación de linfocitos T implicaría riesgos de inflamación ocular y síndrome de liberación de citocinas.
 

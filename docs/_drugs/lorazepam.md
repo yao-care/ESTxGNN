@@ -4,17 +4,17 @@ title: Lorazepam
 parent: Solo predicción del modelo (L5)
 nav_order: 483
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Trastorno de ansiedad (según las indicaciones del grafo de conocimien…"
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Lorazepam: De Trastorno de Ansiedad a Neoplasia del Nervio Trigémino
+## Lorazepam: Neoplasia del nervio trigémino (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99,87% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original y la nueva es débil. La ansiedad y la epilepsia son trastornos de hiperexcitabilidad neuronal sobre los que actúa el fármaco, mientras que una neoplasia del nervio trigémino es un tumor. No se conoce un vínculo mecanístico claro: lorazepam no tiene actividad antineoplásica ni modificadora de la enfermedad en tumores nerviosos. A lo sumo podría aliviar síntomas acompañantes (ansiedad, convulsiones, malestar asociado al dolor).
 
-Por tanto, el puntaje muy alto de TxGNN refleja una predicción basada en el grafo, sin respaldo clínico ni bibliográfico que la sustente.
+Por tanto, el puntaje muy alto de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo clínico ni bibliográfico que la sustente.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -98,7 +98,6 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Datos del mecanismo de acción y una hipótesis biológica que conecte el fármaco con la neoplasia del nervio trigémino
 - Revisión sistemática de la literatura y de registros de ensayos clínicos para esta indicación
 - Obtención de las advertencias y contraindicaciones del prospecto de la AEMPS (actualmente sin datos, lo que bloquea el cribado de seguridad)
-- Evaluación de otras predicciones con mayor respaldo, como insomnio (L3, con estudios clínicos pequeños y antiguos) y las epilepsias reflejas (L4), que son más cercanas a las indicaciones originales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

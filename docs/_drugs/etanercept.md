@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 311
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Etanercept: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: Artritis psoriásica, artritis reumatoide, espondilitis anquilosante…"
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Etanercept: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Etanercept: De Artritis Psoriásica y Artritis Reumatoide a Vasculitis Reumatoide
+## Etanercept: Hypermobility of coccyx
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis psoriásica, artritis reumatoide, espondilitis anquilosante, artritis idiopática juvenil (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Vasculitis reumatoide |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hypermobility of coccyx |
+| Puntaje de Predicción TxGNN | 0.9963 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -6,9 +6,9 @@ nav_order: 778
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Teprotumumab: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: Exoftalmos endocrino (según el grafo de conocimiento"
 monitor_inn: "TEPROTUMUMAB"
 predicted_indications: ["monosomy X", "esophageal varices with bleeding", "esophageal varices without bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
+description: "Teprotumumab: nueva indicación predicha, Monosomía X (monosomy X) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Teprotumumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Teprotumumab: De Exoftalmos Endocrino a Monosomía X
+## Teprotumumab: Monosomía X (monosomy X)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Exoftalmos endocrino (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Monosomía X |
-| Puntaje de Predicción TxGNN | 99.79% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Monosomía X (monosomy X) |
+| Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, teprotumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento similar a la insulina tipo 1 (IGF-1R), y su eficacia en el exoftalmos endocrino es la base de su uso clínico.
 
-Sin embargo, el análisis disponible **no identifica un vínculo mecanístico plausible** con la monosomía X. Se trata de un trastorno cromosómico (síndrome de Turner) cuyo manejo del crecimiento se basa en hormona de crecimiento; bloquear IGF-1R podría incluso ser contraproducente para el crecimiento. El puntaje alto (0.998) refleja la proximidad en el grafo de conocimiento, no evidencia biológica o clínica.
+Sin embargo, el análisis disponible **no identifica un vínculo mecanístico plausible** con la monosomía X. Se trata de un trastorno cromosómico (síndrome de Turner) cuyo manejo del crecimiento se basa en hormona de crecimiento; bloquear IGF-1R podría incluso ser contraproducente para el crecimiento. El puntaje alto (0.9979) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica o clínica.
 
 Cabe señalar que las demás predicciones de mayor puntaje (otras variantes del síndrome de Turner, trastornos del desarrollo sexual de origen cromosómico, várices esofágicas, enfermedad varicosa y trastornos mitocondriales) tampoco cuentan con ensayos, literatura ni justificación mecanística. Muchas parecen agruparse en torno al mismo conjunto de enfermedades del síndrome de Turner, lo que sugiere redundancia en la predicción.
 

@@ -6,9 +6,9 @@ nav_order: 199
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clonidine: nueva indicación predicha, Síndrome faciodigitogenital (nivel de evidencia L5). Indicación original: Hipertensión arterial (según la base de conocimiento de TxGNN"
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
+description: "Clonidine: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clonidine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Clonidina: De Trastorno Hipertensivo a Síndrome Faciodigitogenital
+## Clonidine: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome faciodigito
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según la base de conocimiento de TxGNN; la autorización de AEMPS no incluye texto de indicación) |
-| Nueva Indicación Predicha | Síndrome faciodigitogenital |
-| Puntaje de Predicción TxGNN | 99,999% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Faciodigitogenital syndrome |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 El síndrome faciodigitogenital es un trastorno genético raro del desarrollo. Con los datos disponibles no se puede establecer un vínculo mecanístico plausible entre la agonía alfa-2 y la patología central de esta enfermedad. Un efecto sobre su causa de fondo es poco probable.
 
-El puntaje elevado de TxGNN (99,999%) proviene únicamente de la predicción basada en grafos. Ningún ensayo ni publicación lo respalda, por lo que debe interpretarse con mucha cautela.
+El puntaje elevado de TxGNN (1,0000) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Ningún ensayo ni publicación lo respalda, por lo que debe interpretarse con mucha cautela.
 
 ---
 
@@ -103,7 +103,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto de AEMP
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo de grafos, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible con una enfermedad genética rara del desarrollo. Entre las demás indicaciones predichas para la clonidina, el síndrome de Tourette cuenta con evidencia mucho más sólida (guías europeas de 2022, metaanálisis en red de 2023 y dos ensayos de Fase 4) y sería un candidato más prometedor.
+La predicción proviene solo del modelo TxGNN (aprendizaje profundo), que puede reflejar similitudes aprendidas entre enfermedades relacionadas, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible con una enfermedad genética rara del desarrollo. Entre las demás indicaciones predichas para la clonidina, el síndrome de Tourette cuenta con evidencia mucho más sólida (guías europeas de 2022, metaanálisis en red de 2023 y dos ensayos de Fase 4) y sería un candidato más prometedor.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA)

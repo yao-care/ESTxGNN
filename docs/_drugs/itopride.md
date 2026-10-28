@@ -6,9 +6,9 @@ nav_order: 436
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (nivel de evidencia L5). Indicación original: Gastritis (según el grafo de conocimiento"
 monitor_inn: "Itopride"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
+description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Itopride
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Itopride: De Gastritis a Enfermedad de Crohn del Intestino Delgado
+## Itopride: Enfermedad de Crohn del intestino delgado (small bowel Crohn disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Gastritis (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
-| Nueva Indicación Predicha | Enfermedad de Crohn del intestino delgado |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Español | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Español | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -66,9 +66,9 @@ El puntaje TxGNN (0.999) es solo una predicción computacional sin corroboració
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
 |------|------|------|------|
-| Insuficiencia venosa | 99.23% | L5 | Sin vínculo mecanístico plausible; podría reflejar artefactos del grafo de conocimiento |
-| Aclorhidria | 99.16% | L5 | Relativamente más cercana a la indicación gástrica original, pero el beneficio se limitaría a aliviar síntomas (p. ej., vaciamiento gástrico retrasado o dispepsia), sin corregir la deficiencia de ácido |
-| Hernia de hiato | 99.02% | L5 | Un procinético no corrige el defecto anatómico; posible beneficio sintomático en reflujo o dispepsia asociados |
+| Insuficiencia venosa | 0.9923 | L5 | Sin vínculo mecanístico plausible; la puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
+| Aclorhidria | 0.9916 | L5 | Relativamente más cercana a la indicación gástrica original, pero el beneficio se limitaría a aliviar síntomas (p. ej., vaciamiento gástrico retrasado o dispepsia), sin corregir la deficiencia de ácido |
+| Hernia de hiato | 0.9902 | L5 | Un procinético no corrige el defecto anatómico; posible beneficio sintomático en reflujo o dispepsia asociados |
 
 ## Evidencia de Ensayos Clínicos
 

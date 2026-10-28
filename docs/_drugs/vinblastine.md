@@ -6,9 +6,9 @@ nav_order: 848
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vinblastine: nueva indicación predicha, Rabdomiosarcoma (nivel de evidencia L3). Indicación original: Linfoma de Hodgkin y otros linfomas, micosis fungoide…"
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine: nueva indicación predicha, Rabdomiosarcoma (rhabdomyosarcoma (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Vinblastina: De Linfoma de Hodgkin y Linfomas Relacionados a Rabdomiosarcoma
+## Vinblastine: Rabdomiosarcoma (rhabdomyosarcoma (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero la evidencia actual se limita a **15 publicaciones** de bajo nivel (casos c
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Linfoma de Hodgkin y otros linfomas, micosis fungoide, histiocitosis de células de Langerhans (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
-| Nueva Indicación Predicha | Rabdomiosarcoma |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Rabdomiosarcoma (rhabdomyosarcoma (disease)) |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -108,7 +108,7 @@ Para las advertencias formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje TxGNN es muy alto (99.86%), la evidencia clínica se limita a casos aislados y regímenes combinados antiguos o pequeños, sin ensayos registrados, y vincristina ya ocupa el lugar del alcaloide de la vinca en el rabdomiosarcoma. Además, faltan los datos de seguridad del prospecto, lo cual impide avanzar al cribado de seguridad.
+Aunque el puntaje TxGNN es muy alto (0.9986), la evidencia clínica se limita a casos aislados y regímenes combinados antiguos o pequeños, sin ensayos registrados, y vincristina ya ocupa el lugar del alcaloide de la vinca en el rabdomiosarcoma. Además, faltan los datos de seguridad del prospecto, lo cual impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada de la autorización 37275).

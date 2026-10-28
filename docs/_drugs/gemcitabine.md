@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gemcitabine
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 372
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Gemcitabine: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L1). Indicación original: Cáncer de ovario"
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+description: "Gemcitabine: nueva indicación predicha, Rectum mucinous adenocarcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Gemcitabine
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Gemcitabina: De Cáncer de Ovario a Carcinoma de Mama Femenino
+## Gemcitabine: Rectum mucinous adenocarcinoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Gemcitabina es un análogo de nucleósidos citotóxico, originalmente utilizado para el tratamiento del cáncer de ovario (en combinación con carboplatino en la enfermedad recidivante).
-El modelo TxGNN predice que podría ser efectiva para **carcinoma de mama femenino**,
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectiva para **adenocarcinoma mucinoso de recto**,
 con **39 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, incluidos ensayos de Fase 3 completados.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de ovario (sin texto de indicación autorizada en los registros de la AEMPS; indicación según el grafo de conocimiento) |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Rectum mucinous adenocarcinoma |
+| Puntaje de Predicción TxGNN | 0.9977 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

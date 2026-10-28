@@ -4,17 +4,17 @@ title: Givosiran
 parent: Solo predicción del modelo (L5)
 nav_order: 376
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Givosiran: nueva indicación predicha, Síndrome hepatopulmonar (nivel de evidencia L5). Indicación original: Porfiria hepática"
 monitor_inn: "GIVOSIRAN"
 predicted_indications: ["hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
+description: "Givosiran: nueva indicación predicha, Hepatopulmonary syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Givosiran
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Givosiran: De Porfiria Hepática a Síndrome Hepatopulmonar
+## Givosiran: Hepatopulmonary syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,23 +45,22 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome hepatopulmonar
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Porfiria hepática |
-| Nueva Indicación Predicha | Síndrome hepatopulmonar |
-| Puntaje de Predicción TxGNN | 99,999% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hepatopulmonary syndrome |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, givosiran es un siRNA conjugado con GalNAc que se dirige al hígado y silencia el ARNm de la ALAS1 hepática, reduciendo los precursores neurotóxicos ALA y PBG. Su eficacia en la porfiria hepática aguda ha sido comprobada en el ensayo de Fase 3 ENVISION.
 
-El síndrome hepatopulmonar se debe a una dilatación vascular intrapulmonar asociada a enfermedad hepática. No se identifica un vínculo mecanístico entre la supresión de ALAS1 y esta patología. Lo más probable es que el puntaje elevado refleje únicamente la cercanía en el grafo de conocimiento con otras enfermedades hepáticas.
+El síndrome hepatopulmonar se debe a una dilatación vascular intrapulmonar asociada a enfermedad hepática. No se identifica un vínculo mecanístico entre la supresión de ALAS1 y esta patología. Lo más probable es que el puntaje elevado (1.0000) provenga del modelo TxGNN (aprendizaje profundo) y refleje similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por tanto, esta predicción debe considerarse con mucha cautela: carece de sustento mecanístico y de evidencia clínica o bibliográfica. Las otras predicciones de mayor puntaje (hipertensión portal familiar no cirrótica, esclerosis hepatoportal, trombosis portal primitiva, cirrosis asociada al cobre) presentan la misma limitación.
 
-> Nota: entre las predicciones del modelo, la única con literatura relevante es la **porfiria por deficiencia de ALA deshidratasa (ADP)**, con puntaje de 99,91%. Es mecanísticamente plausible (acumulación de ALA) y cuenta con 9 publicaciones, aunque la evidencia específica se limita a casos clínicos con resultados discordantes (nivel L4). Podría ser una línea de investigación más razonable que la indicación principal.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -6,9 +6,9 @@ nav_order: 374
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Gilteritinib: nueva indicación predicha, Poliomielitis bulbar (nivel de evidencia L5). Indicación original: Leucemia mieloide aguda (según el grafo de conocimiento"
 monitor_inn: "GILTERITINIB"
 predicted_indications: ["bulbar polio"]
+description: "Gilteritinib: nueva indicación predicha, Poliomielitis bulbar (bulbar polio) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Gilteritinib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Gilteritinib: De Leucemia Mieloide Aguda a Poliomielitis Bulbar
+## Gilteritinib: Poliomielitis bulbar (bulbar polio)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide aguda (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Poliomielitis bulbar |
-| Puntaje de Predicción TxGNN | 99.10% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Poliomielitis bulbar (bulbar polio) |
+| Puntaje de Predicción TxGNN | 0.9910 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

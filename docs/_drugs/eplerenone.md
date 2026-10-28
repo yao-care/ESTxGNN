@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eplerenone
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 298
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Eplerenone: nueva indicación predicha, Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial"
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Eplerenone: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Eplerenone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Eplerenona: De Hipertensión a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+## Eplerenone: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente no existen ensayos clínicos registrados y solo hay **13 public
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (el texto de indicación de las autorizaciones no está disponible; se toma de las indicaciones originales registradas en el grafo de conocimiento) |
-| Nueva Indicación Predicha | Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia |
-| Puntaje de Predicción TxGNN | 99.50% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Español | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| Puntaje de Predicción TxGNN | 0.9950 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Español | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

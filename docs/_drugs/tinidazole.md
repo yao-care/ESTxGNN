@@ -6,9 +6,9 @@ nav_order: 795
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tinidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (nivel de evidencia L5). Indicación original: Giardiasis, vaginosis bacteriana, vaginitis, vulvitis, vulvovaginitis…"
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "apocrine adenosis of breast", "blunt duct adenosis of breast", "congenital human immunodeficiency virus", "AIDS related complex", "benign mammary dysplasia"]
+description: "Tinidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tinidazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tinidazol: De Giardiasis y Vaginosis Bacteriana a Vaginitis Atrófica Posmenopáusica
+## Tinidazole: Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Giardiasis, vaginosis bacteriana, vaginitis, vulvitis, vulvovaginitis, amebiasis por *Entamoeba histolytica* y tricomoniasis (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
-| Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -66,10 +66,10 @@ El alto puntaje de TxGNN probablemente refleja la cercanía en la red del conoci
 
 | Rank | Indicación predicha | Puntaje TxGNN | Nivel de evidencia |
 |------|------|------|------|
-| 2 | Ulceración de la vulva | 99.87% | L5 |
-| 3 | Neoplasia vulvar | 99.86% | L5 |
-| 4 | Enfermedad fibroquística de la mama | 99.75% | L5 |
-| 5 | SIDA | 99.69% | L4 |
+| 2 | Ulceración de la vulva | 0.9987 | L5 |
+| 3 | Neoplasia vulvar | 0.9986 | L5 |
+| 4 | Enfermedad fibroquística de la mama | 0.9975 | L5 |
+| 5 | SIDA | 0.9969 | L4 |
 
 Ninguna cuenta con evidencia clínica directa. En el caso del SIDA, la literatura solo respalda un beneficio indirecto (tratar coinfecciones como amebiasis, tricomoniasis o giardiasis), no una actividad antirretroviral.
 
@@ -99,7 +99,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura, y su racionalidad biológica es débil: la vaginitis atrófica es de origen hormonal, no infeccioso. El puntaje alto parece un artefacto de proximidad en el grafo.
+La predicción carece de ensayos clínicos y literatura, y su racionalidad biológica es débil: la vaginitis atrófica es de origen hormonal, no infeccioso. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) y análisis del vínculo mecanístico

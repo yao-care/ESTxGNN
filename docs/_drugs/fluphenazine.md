@@ -6,9 +6,9 @@ nav_order: 348
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fluphenazine: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Trastorno psicótico, esquizofrenia…"
 monitor_inn: "fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Fluphenazine: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: …"
 ---
 
 # Fluphenazine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluphenazine: De Trastorno Psicótico a Distrofia Retiniana (con o sin anomalías extraoculares)
+## Fluphenazine: Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **distrofia retiniana con 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno psicótico, esquizofrenia, trastorno esquizoafectivo y trastornos relacionados (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
-| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **distrofia retiniana con 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fluphenazine es una fenotiazina antagonista de los receptores dopaminérgicos D2. Su eficacia en esquizofrenia y trastornos psicóticos está bien establecida, pero mecanísticamente no hay un vínculo demostrado con su posible aplicación en distrofias retinianas.
 
-La distrofia retiniana hereditaria es un grupo de enfermedades de origen genético que afectan a los fotorreceptores o al epitelio pigmentario de la retina. No existe una conexión farmacológica evidente entre el bloqueo de receptores D2 y la modificación de este tipo de enfermedades. La puntuación del modelo es muy alta (0.9999, posición 236 del ranking global), pero parece reflejar similitudes en la red del grafo de conocimiento y no una justificación farmacológica validada.
+La distrofia retiniana hereditaria es un grupo de enfermedades de origen genético que afectan a los fotorreceptores o al epitelio pigmentario de la retina. No existe una conexión farmacológica evidente entre el bloqueo de receptores D2 y la modificación de este tipo de enfermedades. La puntuación del modelo TxGNN (deep learning) es muy alta (0.9999, posición 236 del ranking global), pero puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación farmacológica validada.
 
 En consecuencia, esta predicción debe considerarse una hipótesis generada por computación, sin respaldo clínico ni bibliográfico en los datos disponibles.
 

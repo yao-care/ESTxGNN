@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 598
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Faringitis y resfriado común (según el grafo de conocimiento"
 monitor_inn: "oxymetazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
+description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Oximetazolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+## Oxymetazoline: Enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **5 p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Faringitis y resfriado común (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99,96% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -108,7 +108,7 @@ La predicción tiene un puntaje TxGNN alto, pero no hay ensayos clínicos y la l
 - Buscar o diseñar ensayos clínicos controlados en la indicación específica
 - Evaluar el perfil de seguridad en poblaciones con las comorbilidades señaladas (cardiovasculares, diabetes, glaucoma, hipertiroidismo)
 
-**Otras indicaciones predichas (no desarrolladas en este informe):** laringofaringitis aguda (puntaje 99,95%, nivel L5, sin evidencia; probablemente reformulación del uso ya conocido) y trastorno de cefalea (puntaje 99,04%, nivel L5, sin evidencia; vínculo meramente especulativo). Ambas se mantienen en *Hold*.
+**Otras indicaciones predichas (no desarrolladas en este informe):** trastorno de cefalea (puntaje 0,9904, nivel L5, sin evidencia; vínculo meramente especulativo). Se mantiene en *Hold*.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

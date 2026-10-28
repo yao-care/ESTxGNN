@@ -6,9 +6,9 @@ nav_order: 573
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L4). Indicación original: Asma, bronquitis, enfisema pulmonar…"
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Norepinephrine
@@ -33,29 +33,29 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Norepinefrina: De Asma y Trastornos Hipotensivos a Enfermedad Pulmonar Obstructiva
+## Norepinephrine: Enfermedad pulmonar obstructiva (obstructive lung disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La norepinefrina (noradrenalina) es una catecolamina que figura en el grafo de conocimiento con indicaciones originales como asma, bronquitis, enfisema pulmonar, bronquiectasias y trastornos hipotensivos, y que hoy se usa sobre todo como vasopresor por vía intravenosa.
+La norepinefrina (noradrenalina) es una catecolamina con indicaciones originales como asma, bronquitis, enfisema pulmonar, bronquiectasias y trastornos hipotensivos, y que hoy se usa sobre todo como vasopresor por vía intravenosa.
 El modelo TxGNN predice que podría ser efectiva para **enfermedad pulmonar obstructiva**, pero la evidencia es muy limitada: **1 ensayo clínico** (poco relevante, de fisiología vascular) y **18 publicaciones**, en su mayoría revisiones de carácter mecanístico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma, bronquitis, enfisema pulmonar, bronquiectasias y trastornos hipotensivos (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva (obstructive lung disease) |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La norepinefrina es una catecolamina con actividad adrenérgica alfa y beta. La estimulación de los receptores beta-2 del músculo liso bronquial puede producir broncodilatación, lo que es mecanísticamente coherente con una enfermedad pulmonar obstructiva. Además, las indicaciones originales del grafo incluyen asma, bronquitis, enfisema y bronquiectasias, todas ellas enfermedades obstructivas o relacionadas. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados.
+La norepinefrina es una catecolamina con actividad adrenérgica alfa y beta. La estimulación de los receptores beta-2 del músculo liso bronquial puede producir broncodilatación, lo que es mecanísticamente coherente con una enfermedad pulmonar obstructiva. Además, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como asma, bronquitis, enfisema y bronquiectasias, todas ellas enfermedades obstructivas o relacionadas; no constituye evidencia biológica. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados.
 
 Sin embargo, esta plausibilidad es limitada. Hoy la norepinefrina se utiliza casi exclusivamente como vasopresor intravenoso. Sus fuertes efectos alfa-1 y beta-1 (vasoconstricción, taquicardia, riesgo de arritmias) y su escasa selectividad beta-2 la hacen poco adecuada como broncodilatador frente a los agonistas beta-2 selectivos. La literatura disponible consiste sobre todo en revisiones sobre regulación neuroendocrina y adrenérgica de la inflamación e inervación de las vías respiratorias, lo que apoya solo la plausibilidad biológica. El puntaje elevado de TxGNN es una predicción computacional, no evidencia clínica.
 

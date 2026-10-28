@@ -6,9 +6,9 @@ nav_order: 478
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lomustine: nueva indicación predicha, Linfosarcoma (nivel de evidencia L2). Indicación original: Linfoma de Hodgkin y cáncer cerebral (según el grafo de conocimiento"
 monitor_inn: "Lomustine"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
+description: "Lomustine: nueva indicación predicha, Linfosarcoma (lymphosarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Lomustine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Lomustina: De Linfoma de Hodgkin y Cáncer Cerebral a Linfosarcoma
+## Lomustine: Linfosarcoma (lymphosarcoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **10 ensayos clínicos** (en su mayoría pequeños, de Fase 2, en regímenes
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Linfoma de Hodgkin y cáncer cerebral (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
-| Nueva Indicación Predicha | Linfosarcoma |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Linfosarcoma (lymphosarcoma) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -124,15 +124,15 @@ Consultar el prospecto para el resto de información de seguridad.
 
 | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Tumor maligno de las meninges | 99.87% | L4 | Hold |
-| Cáncer de médula espinal | 99.86% | L1 (por extrapolación de gliomas intracraneales) | Research Question |
-| Neuroblastoma cerebral | 99.85% | L4 | Hold |
-| Ependimoblastoma cerebral pediátrico | 99.85% | L2 | Research Question |
-| Ependimoblastoma infratentorial pediátrico | 99.85% | L3 | Research Question |
-| Germinoma cerebral infantil | 99.84% | L5 | Hold |
-| Tumor embrionario del ángulo pontocerebeloso | 99.84% | L5 | Hold |
-| Cáncer de ganglios linfáticos | 99.83% | L4 | Hold |
-| Sarcoma cerebral | 99.75% | L5 | Hold |
+| Tumor maligno de las meninges | 0.9987 | L5 | Hold |
+| Cáncer de médula espinal | 0.9986 | L1 (por extrapolación de gliomas intracraneales) | Research Question |
+| Neuroblastoma cerebral | 0.9985 | L5 | Hold |
+| Ependimoblastoma cerebral pediátrico | 0.9985 | L5 | Research Question |
+| Ependimoblastoma infratentorial pediátrico | 0.9985 | L5 | Research Question |
+| Germinoma cerebral infantil | 0.9984 | L5 | Hold |
+| Tumor embrionario del ángulo pontocerebeloso | 0.9984 | L5 | Hold |
+| Cáncer de ganglios linfáticos | 0.9983 | L5 | Hold |
+| Sarcoma cerebral | 0.9975 | L5 | Hold |
 
 El nivel L1 del cáncer de médula espinal debe interpretarse con cautela: se basa en ensayos de gliomas intracraneales, no en datos específicos de localización espinal.
 

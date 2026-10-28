@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 97
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
-description: "Benzbromarone: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L5). Indicación original: Gota e hiperuricemia (según las relaciones de indicación del grafo de…"
 monitor_inn: "benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
+last_modified_at: 2026-10-27
+description: "Benzbromarone: nueva indicación predicha, hipouricemia renal (hypouricemia, renal) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Benzbromarone
@@ -33,94 +33,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Benzbromarona: De Hiperuricemia y Gota a Hipouricemia Renal
+## Benzbromarona: inhibidor de URAT1 (uricosúrico) → hipouricemia renal (hypouricemia, renal)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Benzbromarona es un uricosúrico utilizado originalmente para el tratamiento de la gota y la hiperuricemia.
-El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pero **no hay ensayos clínicos** y solo hay **18 publicaciones** de apoyo indirecto (revisiones, casos clínicos y estudios fisiológicos, en los que la benzbromarona se usa como herramienta diagnóstica, no como tratamiento).
-Además, el análisis mecanístico sugiere que la predicción probablemente refleja una asociación del grafo en sentido inverso, no una relación terapéutica.
-
----
+Benzbromarona es un uricosúrico que inhibe el transportador de urato URAT1 y se comercializa en España en comprimidos.
+El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal (hypouricemia, renal)**,
+pero no hay ensayos clínicos y la literatura disponible describe la enfermedad y usa el fármaco solo como prueba diagnóstica, sin estudiar un beneficio terapéutico. La dirección de la predicción es mecanísticamente contraria a lo esperable.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Gota e hiperuricemia (según las relaciones de indicación del grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Hipouricemia renal |
-| Puntaje de Predicción TxGNN | 99,07% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | hipouricemia renal (hypouricemia, renal) |
+| Puntaje de Predicción TxGNN | 0.9907 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, benzbromarona es un inhibidor potente del transportador de urato 1 (URAT1, SLC22A12), que aumenta la excreción renal de ácido úrico y reduce la uricemia. Por ello se utiliza en gota e hiperuricemia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, benzbromarona es un inhibidor potente de URAT1 (SLC22A12) que aumenta la excreción renal de ácido úrico y reduce el urato sérico.
 
-La hipouricemia renal se caracteriza por una pérdida excesiva de urato por el riñón, habitualmente causada por variantes de pérdida de función en URAT1 o GLUT9. Farmacológicamente, la benzbromarona **imitaría o agravaría el defecto subyacente en lugar de corregirlo**. La puntuación alta de TxGNN (0,99) refleja probablemente una asociación en el grafo entre la diana del fármaco (URAT1) y el gen de la enfermedad, y no una relación terapéutica: el modelo parece haber capturado un vínculo mecanístico en dirección equivocada.
+La hipouricemia renal se caracteriza por una pérdida excesiva de urato por el riñón, causada con mayor frecuencia por variantes de pérdida de función en URAT1 o GLUT9. Por ello, farmacológicamente benzbromarona imitaría o agravaría el defecto de base en lugar de corregirlo.
 
-Esto concuerda con la literatura disponible: en los casos publicados, la benzbromarona se emplea en pruebas funcionales (junto con pirazinamida) para clasificar el defecto de transporte de urato, no para tratar la enfermedad. Además, estos pacientes ya tienen riesgo de insuficiencia renal aguda inducida por ejercicio y de nefrolitiasis, por lo que el tratamiento estaría, en principio, contraindicado.
-
----
+El puntaje alto (0.9907) probablemente refleja una asociación entre la diana del fármaco (URAT1) y el gen de la enfermedad, y no una relación terapéutica. El modelo parece haber captado un vínculo mecanístico en sentido inverso. En principio, el tratamiento estaría contraindicado, pues estos pacientes ya tienen riesgo de lesión renal aguda inducida por ejercicio y de nefrolitiasis.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Se muestran las publicaciones más relevantes (ninguna es un ECA; se priorizan revisiones y estudios de cohorte).
+La literatura sobre hipouricemia renal es abundante, pero se trata de revisiones, series y casos. En ellos benzbromarona se emplea como herramienta diagnóstica (prueba de supresión con benzbromarona/pirazinamida) y no como tratamiento.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Revisión | Clinical Rheumatology | Actualización sobre hipouricemia (urato sérico < 2 mg/dL) y su etiología para el reumatólogo |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Revisión | Clinical Rheumatology | Actualización sobre hipouricemia (urato sérico < 2 mg/dL) y su etiología, dirigida al reumatólogo |
 | [8976099](https://pubmed.ncbi.nlm.nih.gov/8976099/) | 1996 | Revisión | Nihon Rinsho | Concepto y clasificación de las alteraciones del metabolismo del urato |
-| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | Cohorte | J Am Soc Nephrol | Análisis clínico y genético de 32 pacientes con hipouricemia renal; mutaciones en SLC22A12 (URAT1) |
-| [4009341](https://pubmed.ncbi.nlm.nih.gov/4009341/) | 1985 | Serie de casos | J Pediatr | En niños con hipouricemia renal hereditaria, ni pirazinamida ni benzbromarona modificaron de forma relevante los cocientes de aclaramiento |
-| [10879667](https://pubmed.ncbi.nlm.nih.gov/10879667/) | 2000 | Serie de casos | Clin Nephrol | Hipouricemia renal con insuficiencia renal aguda inducida por ejercicio y disfunción renal crónica |
-| [14655203](https://pubmed.ncbi.nlm.nih.gov/14655203/) | 2003 | Caso clínico | Am J Kidney Dis | Dos hermanos con hipouricemia renal hereditaria e insuficiencia renal aguda por ejercicio |
-| [8863890](https://pubmed.ncbi.nlm.nih.gov/8863890/) | 1996 | Caso clínico | Acta Paediatr | Episodios recurrentes de insuficiencia renal aguda tras ejercicio; prueba benzbromarona/pirazinamida sugiere defecto de reabsorción presecretora |
-| [3380222](https://pubmed.ncbi.nlm.nih.gov/3380222/) | 1988 | Caso clínico | Nephron | Defecto renal aislado de transporte de urato; el aclaramiento de urato aumentó aún más con benzbromarona |
-| [8893184](https://pubmed.ncbi.nlm.nih.gov/8893184/) | 1996 | Caso clínico | Nephron | Transporte de urato en síndrome de Fanconi con hipouricemia renal, analizado con pirazinamida y benzbromarona |
-| [9144014](https://pubmed.ncbi.nlm.nih.gov/9144014/) | 1997 | Serie de casos | Intern Med | Dos casos de hipouricemia renal con nefrolitiasis; la benzbromarona aumentó el aclaramiento de urato (prueba diagnóstica) |
-
----
+| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | Cohorte | JASN | Análisis clínico y genético de 32 pacientes con hipouricemia renal; mutaciones en SLC22A12 (URAT1) |
+| [14655203](https://pubmed.ncbi.nlm.nih.gov/14655203/) | 2003 | Reporte de caso | Am J Kidney Dis | Dos hermanos con hipouricemia renal hereditaria e insuficiencia renal aguda inducida por ejercicio |
+| [10879667](https://pubmed.ncbi.nlm.nih.gov/10879667/) | 2000 | Serie de casos | Clin Nephrol | Hipouricemia renal con insuficiencia renal aguda por ejercicio y disfunción renal crónica |
+| [4009341](https://pubmed.ncbi.nlm.nih.gov/4009341/) | 1985 | Serie de casos | J Pediatr | Cuatro niños con hipouricemia renal hereditaria; benzbromarona no modificó los cocientes de aclaramiento |
+| [8863890](https://pubmed.ncbi.nlm.nih.gov/8863890/) | 1996 | Reporte de caso | Acta Paediatr | Insuficiencia renal aguda recurrente tras ejercicio; la prueba benzbromarona/pirazinamida sugirió un defecto de reabsorción presecretora |
+| [3380222](https://pubmed.ncbi.nlm.nih.gov/3380222/) | 1988 | Reporte de caso | Nephron | Defecto renal aislado del transporte de urato; el aclaramiento aumentó aún más con benzbromarona |
+| [8893184](https://pubmed.ncbi.nlm.nih.gov/8893184/) | 1996 | Reporte de caso | Nephron | Transporte de ácido úrico en síndrome de Fanconi con hipouricemia renal, analizado con pirazinamida y benzbromarona |
+| [12862209](https://pubmed.ncbi.nlm.nih.gov/12862209/) | 2003 | Reporte de caso | Hypertens Res | Insuficiencia renal aguda por ejercicio en un paciente con hipouricemia renal idiopática bajo losartán y triclormetiazida |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 49386 | URINORM 100 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-
----
+| 49386 | URINORM 100 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-No obstante, desde el punto de vista mecanístico, la benzbromarona aumenta la excreción renal de urato, por lo que en pacientes con hipouricemia renal podría agravar la pérdida de urato y los riesgos asociados descritos en la literatura (insuficiencia renal aguda inducida por ejercicio y nefrolitiasis).
-
----
+Como advertencia mecanística derivada de la literatura revisada, los pacientes con hipouricemia renal ya presentan riesgo de lesión renal aguda inducida por ejercicio y de nefrolitiasis; un uricosúrico podría agravar la pérdida renal de urato.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos, y el análisis mecanístico indica que el fármaco fenocopiaría la enfermedad en lugar de tratarla. La evidencia disponible usa la benzbromarona solo como herramienta diagnóstica.
+No existen ensayos clínicos ni estudios que evalúen benzbromarona como tratamiento de la hipouricemia renal, y el mecanismo (inhibición de URAT1) apunta en sentido contrario al defecto de la enfermedad, por lo que el puntaje alto no respalda un beneficio terapéutico.
 
 **Para avanzar se necesita:**
-- Una justificación mecanística que contradiga el análisis actual (por ahora no hay base para un efecto terapéutico).
-- Datos de mecanismo de acción verificados (por ejemplo, desde DrugBank).
-- Advertencias y contraindicaciones del prospecto de la AEMPS, indispensables para cualquier evaluación de seguridad.
-- Descartar formalmente la indicación como falso positivo del modelo antes de invertir más recursos.
+- Datos del mecanismo de acción confirmados desde fuentes farmacológicas
+- Advertencias y contraindicaciones del prospecto de AEMPS
+- Un análisis que explique el sentido de la asociación fármaco-enfermedad y confirme si el fármaco agravaría la enfermedad
+- Evidencia directa que respalde un beneficio terapéutico, antes de considerar cualquier estudio clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

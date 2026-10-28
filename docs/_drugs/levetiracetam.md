@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levetiracetam
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 463
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Levetiracetam: nueva indicación predicha, Estado epiléptico (status epilepticus) (nivel de evidencia L1). Indicación original: Epilepsia parcial (según la base de conocimiento del modelo"
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,27 +33,26 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Levetiracetam: De Epilepsia Parcial a Estado Epiléptico
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Levetiracetam es un antiepiléptico de segunda generación, utilizado originalmente para el tratamiento de la epilepsia parcial.
-El modelo TxGNN predice que podría ser efectivo para el **estado epiléptico**, con **16 ensayos clínicos** y **20 publicaciones** que respaldan actualmente esta dirección, incluidos varios ensayos de Fase 3 completados.
+El modelo TxGNN predice que podría ser efectivo para el **déficit de beta-cetotiolasa**, con **16 ensayos clínicos** y **20 publicaciones** que respaldan actualmente esta dirección, incluidos varios ensayos de Fase 3 completados.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia parcial (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Estado epiléptico (*status epilepticus*) |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Beta-ketothiolase deficiency |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
-**Nota sobre la selección de la indicación:** la primera indicación de la lista (epilepsia visual, 99.98%) tiene evidencia de nivel L3 sin ensayos clínicos y sin estudios específicos en el trastorno. Se ha seleccionado como foco de este informe el estado epiléptico, la predicción con mayor sustento clínico (L1). Las demás predicciones se resumen más abajo.
 
 ## ¿Por qué es Razonable esta Predicción?
 
@@ -61,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La epilepsia parcial y el estado epiléptico comparten la misma base fisiopatológica: una descarga neuronal excesiva y sostenida. Un fármaco que reduce la liberación de neurotransmisores excitadores es, por tanto, mecanísticamente aplicable a crisis prolongadas que no ceden con benzodiazepinas.
 
-Esta predicción cuenta con respaldo clínico directo: el ensayo ESETT (NCT01960075) comparó levetiracetam, fosfenitoína y valproato en estado epiléptico refractario a benzodiazepinas. Levetiracetam mostró una eficacia comparable, pero no superior, a las alternativas.
+El ensayo ESETT (NCT01960075) comparó levetiracetam, fosfenitoína y valproato en estado epiléptico refractario a benzodiazepinas. Levetiracetam mostró una eficacia comparable, pero no superior, a las alternativas.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -121,16 +120,7 @@ Las advertencias y contraindicaciones oficiales del prospecto de AEMPS no están
 
 | Indicación | Puntaje TxGNN | Nivel | Recomendación |
 |---|---|---|---|
-| Epilepsia visual | 99.98% | L3 | Pregunta de investigación |
-| Crisis por pensamiento | 99.96% | L4 | Hold |
-| Crisis inducidas por micción | 99.96% | L4 | Hold |
-| Crisis inducidas por orgasmo | 99.96% | L5 | Hold |
-| Epilepsia por sobresalto | 99.96% | L3 | Pregunta de investigación (estudios pequeños de levetiracetam como terapia adicional) |
-| Crisis audiogénicas | 99.96% | L3 | Pregunta de investigación (datos preclínicos y veterinarios) |
-| Crisis al comer | 99.96% | L4 | Hold |
-| Crisis al leer | 99.94% | L4 | Hold |
-| Estado epiléptico | 99.91% | L1 | Proceed with Guardrails |
-| Déficit de beta-cetotiolasa | 99.90% | L5 | Hold (probable artefacto del grafo) |
+| Déficit de beta-cetotiolasa | 0.9990 | L5 | Hold (el puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica) |
 
 ## Conclusión y Próximos Pasos
 

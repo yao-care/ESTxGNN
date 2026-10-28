@@ -4,17 +4,17 @@ title: Propafenone
 parent: Solo predicción del modelo (L5)
 nav_order: 668
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Propafenone: nueva indicación predicha, Trastorno bipolar maníaco (nivel de evidencia L5). Indicación original: Fibrilación auricular y taquicardia ventricular (según las relaciones…"
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
+description: "Propafenone: nueva indicación predicha, Trastorno bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Propafenone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Propafenona: De Fibrilación Auricular y Taquicardia Ventricular a Trastorno Bipolar Maníaco
+## Propafenone: Trastorno bipolar maníaco (manic bipolar affective disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para el **trastorno bipolar man
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fibrilación auricular y taquicardia ventricular (según las relaciones fármaco-enfermedad del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no figuran) |
-| Nueva Indicación Predicha | Trastorno bipolar maníaco |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno bipolar maníaco (manic bipolar affective disorder) |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -110,7 +110,7 @@ La predicción se apoya solo en el modelo (L5), sin ensayos clínicos, y la lite
 - Estudios preclínicos que demuestren un efecto terapéutico y no solo una asociación con efectos adversos psiquiátricos.
 - Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS.
 
-**Nota para la priorización:** entre las demás indicaciones predichas, la **taquicardia ventricular polimórfica catecolaminérgica** tiene un respaldo claramente mayor. Cuenta con estudios preclínicos sobre el bloqueo del receptor de rianodina RyR2, cohortes observacionales y un reporte de 35 años de tratamiento eficaz con propafenona. Se sitúa en el nivel L3 y se recomienda como "Proceed with Guardrails". Las salvaguardas son descartar cardiopatía estructural, usar un betabloqueante como terapia base y vigilar de cerca el ECG y la anchura del QRS. Conviene evaluarla en un informe específico.
+Cuenta con estudios preclínicos sobre el bloqueo del receptor de rianodina RyR2, cohortes observacionales y un reporte de 35 años de tratamiento eficaz con propafenona. Se sitúa en el nivel L3 y se recomienda como "Proceed with Guardrails". Las salvaguardas son descartar cardiopatía estructural, usar un betabloqueante como terapia base y vigilar de cerca el ECG y la anchura del QRS. Conviene evaluarla en un informe específico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-Bentazepam es una benzodiazepina comercializada en España, utilizada en la práctica clínica para trastornos de ansiedad.
+Bentazepam es una benzodiazepina que actualmente no está comercializada en España (solo constan autorizaciones canceladas).
 El modelo TxGNN predice que podría ser efectivo para **insomnio**, con un puntaje muy alto pero **sin ensayos clínicos ni publicaciones** específicas para esta indicación.
 La única indicación predicha con algo de literatura es la **ansiedad** (3 publicaciones, ninguna es un ensayo de eficacia controlado).
 
@@ -48,10 +48,10 @@ La única indicación predicha con algo de literatura es la **ansiedad** (3 publ
 |------|------|
 | Indicación Original | No disponible en la ficha de autorización (la literatura la describe como trastornos de ansiedad) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,95% |
+| Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -64,12 +64,12 @@ La ansiedad y el insomnio son trastornos frecuentemente comórbidos, y las benzo
 
 | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Delirium por abstinencia de alcohol | 99,69% | L5 | Racional de clase (GABA-A). Cuadro de alta gravedad; sin datos y con hepatotoxicidad descrita, no debería usarse sin evidencia. |
-| Abuso de alucinógenos | 99,48% | L5 | Vínculo indirecto (sedación de agitación/ansiedad); probablemente refleja cercanía en el grafo. |
-| Abuso de barbitúricos | 99,48% | L5 | Racional de clase (sustitución supervisada); riesgo de dependencia. |
-| Abuso de antidepresivos | 99,48% | L5 | Sin racional farmacológico claro. |
-| Ansiedad | 99,37% | L4 | Única con literatura; pregunta de investigación. |
-| Trastorno del sueño (inicio y mantenimiento) | 99,07% | L5 | Muy relacionado con insomnio; solo predicción. |
+| Delirium por abstinencia de alcohol | 0,9969 | L5 | Racional de clase (GABA-A). Cuadro de alta gravedad; sin datos y con hepatotoxicidad descrita, no debería usarse sin evidencia. |
+| Abuso de alucinógenos | 0,9948 | L5 | Vínculo indirecto (sedación de agitación/ansiedad); la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. |
+| Abuso de barbitúricos | 0,9948 | L5 | Racional de clase (sustitución supervisada); riesgo de dependencia. |
+| Abuso de antidepresivos | 0,9948 | L5 | Sin racional farmacológico claro. |
+| Ansiedad | 0,9937 | L4 | Única con literatura; pregunta de investigación. |
+| Trastorno del sueño (inicio y mantenimiento) | 0,9907 | L5 | Muy relacionado con insomnio; solo predicción. |
 
 ## Evidencia de Ensayos Clínicos
 

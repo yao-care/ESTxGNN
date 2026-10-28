@@ -50,9 +50,9 @@ Su puntaje alto parece reflejar cercanía en la red de conocimiento de trastorno
 |------|------|
 | Indicación Original | No disponible en los datos de autorización de la AEMPS (texto de indicación vacío) |
 | Nueva Indicación Predicha | Trombastenia de Glanzmann |
-| Puntaje de Predicción TxGNN | 99,77% |
+| Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La trombastenia de Glanzmann se debe a la deficiencia o disfunción de la integrina plaquetaria αIIbβ3 (GPIIb/IIIa), que impide la agregación plaquetaria. Ambos mecanismos no guardan relación: un agente de reversión de inhibidores del FXa no tiene una acción plausible sobre una agregación plaquetaria defectuosa.
 
-En consecuencia, la predicción parece un artefacto computacional derivado de la proximidad entre enfermedades hemostáticas en el grafo de conocimiento. **No se identificó una justificación mecanística sólida.**
+En consecuencia, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades hemostáticas relacionadas, no evidencia biológica. **No se identificó una justificación mecanística sólida.**
 
 ---
 
@@ -72,10 +72,10 @@ En consecuencia, la predicción parece un artefacto computacional derivado de la
 
 | Rango | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Recomendación | Comentario |
 |---|---|---|---|---|---|
-| 1 | Trombastenia de Glanzmann | 99,77% | L5 | Hold | Sin relación mecanística; sin estudios |
-| 2 | Trastorno primario de liberación plaquetaria | 99,76% | L5 | Hold | Andexanet no modula la secreción plaquetaria; sin estudios |
-| 3 | Pseudoenfermedad de von Willebrand | 99,65% | L5 | Hold | No actúa sobre el eje GPIb-VWF; sin estudios |
-| 4 | Hemofilia | 99,10% | L4 | Hold | Solo literatura indirecta (reversión de anticoagulantes e interferencia en pruebas de laboratorio) |
+| 1 | Trombastenia de Glanzmann | 0,9977 | L5 | Hold | Sin relación mecanística; sin estudios |
+| 2 | Trastorno primario de liberación plaquetaria | 0,9976 | L5 | Hold | Andexanet no modula la secreción plaquetaria; sin estudios |
+| 3 | Pseudoenfermedad de von Willebrand | 0,9965 | L5 | Hold | No actúa sobre el eje GPIb-VWF; sin estudios |
+| 4 | Hemofilia | 0,9910 | L5 | Hold | Solo literatura indirecta (reversión de anticoagulantes e interferencia en pruebas de laboratorio) |
 
 ---
 

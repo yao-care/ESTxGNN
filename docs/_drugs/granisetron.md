@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipol
 |------|------|
 | Indicación Original | No disponible en los datos de licencias de la AEMPS |
 | Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) |
-| Puntaje de Predicción TxGNN | 99,62% |
+| Puntaje de Predicción TxGNN | 0,9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipol
 
 Granisetrón es un antagonista selectivo del receptor 5-HT3 de serotonina. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; sin embargo, la clase de los antagonistas 5-HT3 es conocida por su uso en la prevención de náuseas y vómitos, y los productos en España (inyectables, comprimidos, parche) son coherentes con ese perfil.
 
-La relación con el trastorno bipolar maníaco es **especulativa**. Se ha planteado que la modulación de 5-HT3 podría influir en la señalización dopaminérgica y serotoninérgica relacionada con la regulación del ánimo, pero no hay ensayos ni literatura que lo confirmen. La puntuación alta de TxGNN (99,62%) refleja únicamente una predicción basada en el grafo de conocimiento.
+La relación con el trastorno bipolar maníaco es **especulativa**. Se ha planteado que la modulación de 5-HT3 podría influir en la señalización dopaminérgica y serotoninérgica relacionada con la regulación del ánimo, pero no hay ensayos ni literatura que lo confirmen. La puntuación alta de TxGNN (0,9962) refleja únicamente una predicción del modelo TxGNN (aprendizaje profundo).
 
 Cabe señalar que no se pudo establecer una similitud formal entre la indicación original y la nueva indicación, al no disponerse del texto de indicación aprobada.
 
@@ -69,15 +69,15 @@ Cabe señalar que no se pudo establecer una similitud formal entre la indicació
 
 | Rango | Indicación predicha | Puntaje TxGNN | Plausibilidad mecanística |
 |---|------|------|------|
-| 2 | Síndrome de Tourette | 99,52% | Hipotética (se han explorado otros 5-HT3 como ondansetrón en estudios pequeños) |
-| 3 | Conjuntivitis contagiosa aguda | 99,49% | Sin vínculo plausible; probable artefacto del grafo |
-| 4 | Angioedema | 99,36% | Débil (vías de histamina/bradicinina) |
-| 5 | Urticaria alérgica | 99,32% | Especulativa (serotonina y mastocitos) |
-| 6 | Síndrome nefrogénico de antidiuresis inapropiada | 99,32% | Sin vínculo aparente (mutaciones del receptor V2) |
-| 7 | Tricotilomanía | 99,23% | Hipotética (espectro obsesivo-compulsivo) |
-| 8 | Bronquitis | 99,18% | Sin fundamento mecanístico claro |
-| 9 | Urticaria por frío | 99,10% | Especulativa |
-| 10 | Conjuntivitis | 99,09% | Sin vínculo establecido |
+| 2 | Síndrome de Tourette | 0,9952 | Hipotética (se han explorado otros 5-HT3 como ondansetrón en estudios pequeños) |
+| 3 | Conjuntivitis contagiosa aguda | 0,9949 | Sin vínculo plausible; la puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
+| 4 | Angioedema | 0,9936 | Débil (vías de histamina/bradicinina) |
+| 5 | Urticaria alérgica | 0,9932 | Especulativa (serotonina y mastocitos) |
+| 6 | Síndrome nefrogénico de antidiuresis inapropiada | 0,9932 | Sin vínculo aparente (mutaciones del receptor V2) |
+| 7 | Tricotilomanía | 0,9923 | Hipotética (espectro obsesivo-compulsivo) |
+| 8 | Bronquitis | 0,9918 | Sin fundamento mecanístico claro |
+| 9 | Urticaria por frío | 0,9910 | Especulativa |
+| 10 | Conjuntivitis | 0,9909 | Sin vínculo establecido |
 
 Todas ellas tienen nivel de evidencia L5 y recomendación Hold.
 

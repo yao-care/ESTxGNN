@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dasatinib
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 225
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L5). Indicación original: Leucemia mieloide crónica…"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
+description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Dasatinib: De Leucemia Mieloide Crónica BCR-ABL1 Positiva a Sarcoma de Ewing
+## Dasatinib: Sarcoma de Ewing (Ewing sarcoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, aunq
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide crónica, BCR-ABL1 positiva (fuente: grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Sarcoma de Ewing |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Sarcoma de Ewing (Ewing sarcoma) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 según la clasificación del conjunto de datos (ver nota abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 6) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

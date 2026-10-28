@@ -4,17 +4,17 @@ title: Ranitidine
 parent: Evidencia moderada (L3-L4)
 nav_order: 683
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Ranitidine: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L4). Indicación original: Úlcera gástrica, enfermedad por reflujo gastroesofágico, esofagitis…"
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+description: "Ranitidine: nueva indicación predicha, Peptic ulcer perforation (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Ranitidina: De Úlcera Gástrica y Reflujo a Enfermedad Ulcerosa Péptica Activa
+## Ranitidine: Peptic ulcer perforation
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,9 +46,9 @@ La predicción cuenta con **0 ensayos clínicos** directamente vinculados y **20
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Úlcera gástrica, enfermedad por reflujo gastroesofágico, esofagitis, úlcera duodenal y síndrome de Zollinger-Ellison (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Enfermedad ulcerosa péptica activa |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Peptic ulcer perforation |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | ✓ Comercializado |
 | Número de Autorizaciones | 20 |

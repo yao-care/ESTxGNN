@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 ## Resumen en Una Frase
 
 Remimazolam es una benzodiazepina de acción ultracorta administrada por vía intravenosa, autorizada y comercializada en España (Byfavo), aunque los datos compilados no recogen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **insomnio** (puntaje 99,91%), y como segunda predicción para el **delirium por abstinencia alcohólica** (99,30%).
+El modelo TxGNN predice que podría ser efectivo para **insomnio** (puntaje 0,9991), y como segunda predicción para el **delirium por abstinencia alcohólica** (0,9930).
 Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden estas predicciones, por lo que se trata de una predicción puramente computacional.
 
 ---
@@ -50,9 +50,9 @@ Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilado
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,91% |
+| Puntaje de Predicción TxGNN | 0,9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 

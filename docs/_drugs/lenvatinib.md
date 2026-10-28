@@ -4,17 +4,17 @@ title: Lenvatinib
 parent: Evidencia alta (L1-L2)
 nav_order: 461
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: Carcinoma de células renales y carcinoma de tiroides (según el grafo…"
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Lenvatinib: De Carcinoma de Células Renales y Tiroideo a Liposarcoma
+## Lenvatinib: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de células renales y carcinoma de tiroides (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.51% |
+| Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold (pregunta de investigación; evidencia limitada a un estudio de brazo único) |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -120,7 +120,7 @@ La evidencia para liposarcoma se limita a un estudio de Fase Ib/II de brazo úni
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de la AEMPS.
 - Plan de monitoreo de seguridad (presión arterial, proteinuria, función hepática) y revisión de las interacciones farmacológicas.
 
-**Nota sobre otras predicciones:** el carcinoma renal (puntaje 99.37%, nivel L1) ya figura entre las indicaciones originales, por lo que representa validación de un uso existente y no un reposicionamiento. El carcinoma de células renales no clasificado cuenta con un estudio de Fase 2 de brazo único (nivel L2), mientras que el asociado a translocaciones TFE3 tiene solo un ensayo de Fase 2 aún sin reclutar (L4). El resto de las predicciones (por ejemplo, angiolipoma, neumotórax espontáneo familiar) carecen de evidencia (L5) y se recomienda mantenerlas en espera.
+**Nota sobre otras predicciones:** las predicciones restantes (por ejemplo, angiolipoma, neumotórax espontáneo familiar) carecen de evidencia (L5) y se recomienda mantenerlas en espera.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

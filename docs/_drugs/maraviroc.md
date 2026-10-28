@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múl
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Los datos compilados no incluyen información detallada sobre el mecanismo de ac
 
 Sin embargo, no existe un vínculo mecanístico establecido entre el bloqueo de CCR5 y los síndromes de neoplasia endocrina múltiple (asociados a MEN1 o RET). No se dispone de ensayos clínicos ni de literatura sobre esta asociación, por lo que la similitud con la indicación original no se ha podido evaluar.
 
-El puntaje alto de TxGNN (99.82%) es solo una predicción computacional y no sustituye a evidencia experimental o clínica.
+El puntaje alto de TxGNN (0.9982) es solo una predicción computacional y no sustituye a evidencia experimental o clínica.
 
 ---
 
@@ -85,15 +85,15 @@ Para esta misma molécula, el modelo generó otras predicciones. Ninguna supera 
 
 | Posición | Indicación Predicha | Puntaje TxGNN | Nivel | Evidencia disponible |
 |------|------|------|------|------|
-| 2 | Acné | 99.76% | L5 | Ninguna |
-| 3 | Linfoma cutáneo primario de células T | 99.72% | L5 | Una revisión sobre ACKR1 (PMID 37006247), sin evidencia clínica de maraviroc |
-| 4 | Lupus eritematoso sistémico pediátrico | 99.71% | L5 | Ninguna |
-| 5 | Linfoma cutáneo primario no Hodgkin de células T | 99.50% | L5 | Misma revisión sobre ACKR1 |
-| 6 | Linfoma cutáneo primario de células B | 99.38% | L5 | Ninguna |
-| 7 | Candidiasis | 99.28% | L5 | Revisión de efectos adversos de la terapia antirretroviral (PMID 21671545); no respalda un uso antifúngico |
-| 8 | Deficiencia del componente 4a del complemento | 99.24% | L5 | Ninguna |
-| 9 | Infección por citomegalovirus | 99.23% | L4 | Estudio de cohorte en pacientes con VIH (PMID 25397464), asociación indirecta |
-| 10 | Carcinoma de mama HER2 positivo | 99.22% | L4 | Estudio preclínico sobre CCL5 y resistencia a trastuzumab (PMID 32404410) |
+| 2 | Acné | 0.9976 | L5 | Ninguna |
+| 3 | Linfoma cutáneo primario de células T | 0.9972 | L5 | Una revisión sobre ACKR1 (PMID 37006247), sin evidencia clínica de maraviroc |
+| 4 | Lupus eritematoso sistémico pediátrico | 0.9971 | L5 | Ninguna |
+| 5 | Linfoma cutáneo primario no Hodgkin de células T | 0.9950 | L5 | Misma revisión sobre ACKR1 |
+| 6 | Linfoma cutáneo primario de células B | 0.9938 | L5 | Ninguna |
+| 7 | Candidiasis | 0.9928 | L5 | Revisión de efectos adversos de la terapia antirretroviral (PMID 21671545); no respalda un uso antifúngico |
+| 8 | Deficiencia del componente 4a del complemento | 0.9924 | L5 | Ninguna |
+| 9 | Infección por citomegalovirus | 0.9923 | L4 | Estudio de cohorte en pacientes con VIH (PMID 25397464), asociación indirecta |
+| 10 | Carcinoma de mama HER2 positivo | 0.9922 | L4 | Estudio preclínico sobre CCL5 y resistencia a trastuzumab (PMID 32404410) |
 
 De todas ellas, el carcinoma de mama HER2 positivo es la que cuenta con un racional mecanístico más plausible: el CCL5 señaliza a través de CCR5, por lo que su bloqueo con maraviroc podría ayudar a superar la resistencia a trastuzumab. La evidencia es preclínica e indirecta, y se considera una pregunta de investigación.
 

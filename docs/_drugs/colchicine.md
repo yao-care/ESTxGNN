@@ -4,17 +4,17 @@ title: Colchicine
 parent: Solo predicción del modelo (L5)
 nav_order: 206
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Colchicine: nueva indicación predicha, Malaria por Plasmodium falciparum (nivel de evidencia L5). Indicación original: Gota y fiebre mediterránea familiar (según las indicaciones originale…"
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
+description: "Colchicine: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Colchicina: De Gota a Malaria por Plasmodium falciparum
+## Colchicine: Malaria por Plasmodium falciparum (Plasmodium falciparum malaria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para la **malaria por Plasmodiu
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Gota y fiebre mediterránea familiar (según las indicaciones originales del grafo de conocimiento; los textos de las autorizaciones españolas no incluyen indicación) |
-| Nueva Indicación Predicha | Malaria por Plasmodium falciparum |
-| Puntaje de Predicción TxGNN | 99.60% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El vínculo que sugiere el modelo es plausible. El parásito *Plasmodium* depende de la tubulina y los microtúbulos para dividirse e invadir las células. Un fármaco que altera los microtúbulos podría, en teoría, afectar al parásito. La relación con las indicaciones originales (enfermedades inflamatorias) es débil, porque la colchicina se usa en ellas por su efecto antiinflamatorio sobre los neutrófilos y no por una acción antiparasitaria.
 
-Esta hipótesis no tiene respaldo experimental directo en los datos disponibles. Las dos publicaciones recuperadas estudian la curcumina y el gen pfmdr1 en células de mamífero, no la colchicina. Además, el estrecho margen terapéutico y la toxicidad conocida de la colchicina serían una barrera importante para un uso antipalúdico. El puntaje de 99.60% es solo una predicción computacional.
+Esta hipótesis no tiene respaldo experimental directo en los datos disponibles. Las dos publicaciones recuperadas estudian la curcumina y el gen pfmdr1 en células de mamífero, no la colchicina. Además, el estrecho margen terapéutico y la toxicidad conocida de la colchicina serían una barrera importante para un uso antipalúdico. El puntaje de 0.9960 es solo una predicción computacional.
 
 ---
 

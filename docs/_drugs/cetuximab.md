@@ -6,9 +6,9 @@ nav_order: 168
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Cetuximab: nueva indicación predicha, Adenomas/carcinoides bronquiales infantiles (nivel de evidencia L5). Indicación original: Cáncer colorrectal y carcinoma escamocelular (de colon…"
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
+description: "Cetuximab: nueva indicación predicha, Bronchial adenomas/carcinoids childhood (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cetuximab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Cetuximab: De Cáncer Colorrectal a Bronchial Adenomas/Carcinoides Infantiles
+## Cetuximab: Bronchial adenomas/carcinoids childhood
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **adenomas/carcinoides bro
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer colorrectal y carcinoma escamocelular (de colon, faringe y laringe), según el grafo de conocimiento; el texto de indicación de la autorización no está disponible |
-| Nueva Indicación Predicha | Adenomas/carcinoides bronquiales infantiles |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronchial adenomas/carcinoids childhood |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

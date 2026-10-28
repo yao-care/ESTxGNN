@@ -48,17 +48,17 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Trombocitopenia por destrucción inmune |
 | Nueva Indicación Predicha | Trombocitopenia autosómica con plaquetas normales |
-| Puntaje de Predicción TxGNN | 99.45% |
+| Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, fostamatinib es un inhibidor de SYK cuyo metabolito activo (R406) reduce la destrucción de plaquetas mediada por anticuerpos en los macrófagos, lo que explica su eficacia en la trombocitopenia inmune.
 
-La nueva indicación predicha es una trombocitopenia hereditaria (autosómica), cuyo origen no es la destrucción inmune de plaquetas. Por ello, el vínculo mecanístico es débil. El puntaje elevado del modelo (99.45%) probablemente refleja la cercanía en la red de conocimiento con el fenotipo de trombocitopenia, más que un mecanismo patogénico compartido.
+La nueva indicación predicha es una trombocitopenia hereditaria (autosómica), cuyo origen no es la destrucción inmune de plaquetas. Por ello, el vínculo mecanístico es débil. El puntaje elevado del modelo (0.9945) probablemente refleja la cercanía en la red de conocimiento con el fenotipo de trombocitopenia, más que un mecanismo patogénico compartido.
 
 En conclusión, la predicción debe considerarse con cautela: no hay estudios que respalden un vínculo real y la similitud entre ambas indicaciones está pendiente de evaluar.
 

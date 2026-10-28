@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **estrongiloidiasis**, con
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización de AEMPS |
 | Nueva Indicación Predicha | Estrongiloidiasis |
-| Puntaje de Predicción TxGNN | 99,84% |
+| Puntaje de Predicción TxGNN | 0,9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -61,7 +61,7 @@ Brodalumab bloquea el receptor IL-17RA, una vía compartida por varias isoformas
 
 Para la estrongiloidiasis, no se identificó ningún vínculo clínico ni bibliográfico. La IL-17 participa en la defensa del huésped frente a algunos patógenos, por lo que bloquearla podría, en teoría, aumentar el riesgo de infección en lugar de tratarla. El puntaje alto del modelo es solo una predicción sin datos de respaldo, y la predicción no resulta mecanísticamente razonable con la información disponible.
 
-Como referencia, la predicción de **enfermedad ocular** (puntaje 99,82%) tiene una justificación plausible, ya que la vía IL-17 se ha implicado en inflamación ocular como la uveítis. Sin embargo, la literatura recuperada es indirecta y en parte contradictoria, y "enfermedad ocular" es una categoría demasiado amplia para ser accionable. El resto de predicciones (deficiencia vitamínica, anomalía de von Hippel, neuropatías ópticas inflamatorias, epiescleritis) carecen de evidencia y, en su mayoría, de vínculo mecanístico claro.
+Como referencia, la predicción de **enfermedad ocular** (puntaje 0,9982) tiene una justificación plausible, ya que la vía IL-17 se ha implicado en inflamación ocular como la uveítis. Sin embargo, la literatura recuperada es indirecta y en parte contradictoria, y "enfermedad ocular" es una categoría demasiado amplia para ser accionable. El resto de predicciones (deficiencia vitamínica, anomalía de von Hippel, neuropatías ópticas inflamatorias, epiescleritis) carecen de evidencia y, en su mayoría, de vínculo mecanístico claro.
 
 ## Evidencia de Ensayos Clínicos
 

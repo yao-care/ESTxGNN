@@ -4,7 +4,7 @@ title: Necitumumab
 parent: Solo predicción del modelo (L5)
 nav_order: 556
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Necitumumab: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Cáncer de pulmón no microcítico (según la base de conocimiento"
 monitor_inn: "NECITUMUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "hamartoma of lung", "fibroma 
 # Necitumumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 |------|------|
 | Indicación Original | Cáncer de pulmón no microcítico (según la base de conocimiento; el texto de indicación de la autorización no está disponible) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99,92% |
+| Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, necitumumab es un anticuerpo monoclonal IgG1 humano que bloquea el sitio de unión del ligando del EGFR, y su eficacia en cáncer de pulmón escamoso avanzado (en combinación con gemcitabina y cisplatino) fue demostrada en el ensayo de fase 3 SQUIRE.
 
-La relación con la fibromatosis gingival es **especulativa**. La única conexión plausible es el papel de la señalización de EGFR en la proliferación de fibroblastos, pero ningún dato aportado respalda este vínculo. El puntaje alto del modelo probablemente refleje la estructura del grafo de conocimiento más que una justificación mecanística específica.
+La relación con la fibromatosis gingival es **especulativa**. La única conexión plausible es el papel de la señalización de EGFR en la proliferación de fibroblastos, pero ningún dato aportado respalda este vínculo. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleje similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación mecanística específica.
 
 Cabe señalar que la inhibición de EGFR produce con frecuencia toxicidad cutánea y de mucosas, lo que plantea dudas sobre su idoneidad en una enfermedad de tejidos blandos como esta.
 

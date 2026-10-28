@@ -6,9 +6,9 @@ nav_order: 295
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Epinastine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Conjuntivitis atópica…"
 monitor_inn: "Epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
+description: "Epinastine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Epinastine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Epinastina: De Conjuntivitis Atópica a Conjuntivitis Rosácea
+## Epinastine: Conjuntivitis rosácea (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,21 +46,21 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Conjuntivitis atópica, papilar y vernal (según el grafo de conocimiento; la ficha de AEMPS no incluye texto de indicación) |
-| Nueva Indicación Predicha | Conjuntivitis rosácea |
-| Puntaje de Predicción TxGNN | 99,57% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis rosácea (rosacea conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Epinastina es un antagonista tópico del receptor H1 de histamina con actividad estabilizadora de mastocitos. Ya está comercializada en forma de colirio para conjuntivitis alérgica, vernal y papilar. Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe, pero la farmacología conocida del fármaco apunta a la inhibición de la histamina y de la liberación de mediadores desde los mastocitos.
+Epinastina es un antagonista tópico del receptor H1 de histamina con actividad estabilizadora de mastocitos. Se presenta en forma de colirio para conjuntivitis alérgica, vernal y papilar, pero actualmente no está comercializada en este país (solo constan registros cancelados). Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe, pero la farmacología conocida del fármaco apunta a la inhibición de la histamina y de la liberación de mediadores desde los mastocitos.
 
 La conjuntivitis rosácea (rosácea ocular) se debe principalmente a disfunción de las glándulas de Meibomio, inflamación del borde palpebral y factores microbianos o de *Demodex*, más que a una alergia clásica mediada por IgE. Por ello, el mecanismo antihistamínico y de estabilización de mastocitos ofrece solo un vínculo plausible y parcial, probablemente limitado al componente inflamatorio o al picor asociado.
 
-El puntaje tan alto del modelo (99,57%) probablemente refleja la proximidad en la red de conocimiento con otras indicaciones de conjuntivitis, y no está respaldado por evidencia clínica ni bibliográfica. Debe interpretarse con cautela.
+El puntaje tan alto del modelo (0,9957) probablemente refleja la proximidad en la red de conocimiento con otras indicaciones de conjuntivitis, y no está respaldado por evidencia clínica ni bibliográfica. Debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 
 ### Nota sobre la segunda predicción (urticaria alérgica)
 
-El segundo candidato, **urticaria alérgica** (puntaje TxGNN 99,28%), tiene una evidencia indirecta algo mayor (nivel L4, recomendación "Research Question"). La literatura disponible consiste en revisiones y estudios farmacodinámicos de supresión de roncha y eritema inducidos por histamina (por ejemplo, un ensayo cruzado doble ciego en voluntarios sanos, PMID [10442525](https://pubmed.ncbi.nlm.nih.gov/10442525/)), pero no hay ensayos clínicos registrados ni un ECA específico en urticaria. Además, la autorización española corresponde únicamente a un colirio oftálmico, por lo que habría que verificar la formulación oral y su estado regulatorio antes de cualquier decisión.
+El segundo candidato, **urticaria alérgica** (puntaje TxGNN 0,9928), tiene una evidencia indirecta algo mayor (nivel L4, recomendación "Research Question"). La literatura disponible consiste en revisiones y estudios farmacodinámicos de supresión de roncha y eritema inducidos por histamina (por ejemplo, un ensayo cruzado doble ciego en voluntarios sanos, PMID [10442525](https://pubmed.ncbi.nlm.nih.gov/10442525/)), pero no hay ensayos clínicos registrados ni un ECA específico en urticaria. Además, la autorización española corresponde únicamente a un colirio oftálmico, por lo que habría que verificar la formulación oral y su estado regulatorio antes de cualquier decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

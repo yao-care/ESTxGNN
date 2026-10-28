@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Trabectedin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 808
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Cáncer de ovario"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma"]
 # Trabectedin
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ con **1 ensayo clínico** (de relevancia limitada) y **20 publicaciones** que ac
 |------|------|
 | Indicación Original | Cáncer de ovario |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.73% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Puntaje de Predicción TxGNN | 0.9973 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El cáncer de ovario y el cáncer de mama comparten rasgos biológicos relevantes, en especial la deficiencia de recombinación homóloga (por ejemplo, mutaciones en BRCA1/2), que aumenta la sensibilidad a trabectedina en modelos preclínicos. Hay también trabajos preclínicos que sugieren que podría potenciar la inmunoterapia (por ejemplo, IL-12) en cáncer de mama triple negativo.
 
-El puntaje TxGNN (0.997) es una predicción computacional que sirve para priorizar, pero no constituye evidencia clínica. La señal clínica existente proviene de estudios de fase 2 en cáncer de mama avanzado previamente tratado con antraciclinas y taxanos, con actividad limitada y posiblemente concentrada en un subgrupo con deficiencia de BRCA o triple negativo.
+El puntaje TxGNN (0.9973) es una predicción computacional que sirve para priorizar, pero no constituye evidencia clínica. La señal clínica existente proviene de estudios de fase 2 en cáncer de mama avanzado previamente tratado con antraciclinas y taxanos, con actividad limitada y posiblemente concentrada en un subgrupo con deficiencia de BRCA o triple negativo.
 
 ---
 

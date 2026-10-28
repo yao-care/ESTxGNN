@@ -4,17 +4,17 @@ title: Lamotrigine
 parent: Solo predicción del modelo (L5)
 nav_order: 447
 evidence_level: L5
-indication_count: 9
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Epilepsia (según el grafo de conocimiento de TxGNN"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lamotrigine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Lamotrigina: De Epilepsia a Neoplasia del Nervio Trigémino
+## Lamotrigine: Neoplasia del nervio trigémino (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio tri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia (según el grafo de conocimiento de TxGNN; las fichas españolas del dato no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 19) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectiva para **neoplasia del nervio tri
 
 No se dispone de datos estructurados detallados sobre el mecanismo de acción. Según la información conocida, la lamotrigina bloquea los canales de sodio dependientes de voltaje y reduce la liberación de glutamato. Este mecanismo estabiliza las membranas neuronales hiperexcitables y explica su eficacia en epilepsia.
 
-La puntuación tan alta probablemente se debe a la cercanía, en el grafo de conocimiento, con la **neuralgia del trigémino**, una enfermedad distinta de un tumor. Los dos artículos recuperados tratan sobre neuralgia del trigémino (una revisión general de tratamientos y un caso de radiocirugía Gamma Knife por malformación cavernosa), no sobre una neoplasia.
+La puntuación tan alta (0.9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; probablemente se debe a su parecido con la **neuralgia del trigémino**, una enfermedad distinta de un tumor. Los dos artículos recuperados tratan sobre neuralgia del trigémino (una revisión general de tratamientos y un caso de radiocirugía Gamma Knife por malformación cavernosa), no sobre una neoplasia.
 
 Mecanísticamente, el bloqueo de canales de sodio podría aliviar el dolor facial neuropático asociado a un tumor del trigémino. Eso no equivale a un efecto antitumoral, y la evidencia recuperada no lo respalda.
 
@@ -102,7 +102,7 @@ La predicción es solo computacional (L5): no hay ensayos clínicos y la literat
 - Datos detallados del mecanismo de acción y del texto oficial de seguridad (prospecto de la AEMPS).
 - Aclarar si el objetivo real es el control del dolor neuropático asociado a tumores y no el tratamiento del tumor.
 
-**Nota para reorientar la hipótesis:** la segunda predicción del modelo, la **neuralgia del trigémino** (puntaje 99,89%), tiene un respaldo bastante mayor (nivel L2). Incluye dos ensayos pequeños completados: [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) (Fase 2/3, n=21, frente a carbamazepina) y [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) (controlado con placebo, n=20), además de guías y revisiones que citan la lamotrigina como opción adicional o alternativa. Esta indicación merece una evaluación independiente.
+**Nota para reorientar la hipótesis:** la segunda predicción del modelo, la **neuralgia del trigémino** (puntaje 0,9989), tiene un respaldo bastante mayor (nivel L2). Incluye dos ensayos pequeños completados: [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) (Fase 2/3, n=21, frente a carbamazepina) y [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) (controlado con placebo, n=20), además de guías y revisiones que citan la lamotrigina como opción adicional o alternativa. Esta indicación merece una evaluación independiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -6,9 +6,9 @@ nav_order: 378
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Glecaprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L1). Indicación original: Infección crónica por el virus de la hepatitis C (según el grafo de c…"
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Glecaprevir: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Glecaprevir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Glecaprevir: De Infección por el Virus de la Hepatitis C a Infección por VIH (Coinfección VIH/VHC)
+## Glecaprevir: Infección por VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ Los datos corresponden en realidad a la curación del VHC en pacientes coinfecta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis C (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99,87% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, glecaprevir es un inhibidor de la proteasa NS3/4A del VHC, administrado en combinación fija con pibrentasvir (inhibidor de NS5A), y su eficacia en la hepatitis C crónica está bien establecida.
 
-Glecaprevir **no tiene actividad antiviral directa contra el VIH**. La predicción del modelo probablemente refleja la población de pacientes compartida (la coinfección VIH/VHC es frecuente) y la cercanía entre enfermedades virales en el grafo de conocimiento. La evidencia clínica disponible demuestra la cura del VHC en pacientes coinfectados con VIH, lo que es una extensión de la indicación original a una población coinfectada, no un tratamiento del VIH.
+Glecaprevir **no tiene actividad antiviral directa contra el VIH**. La puntuación del modelo TxGNN (deep learning) para la Infección por VIH (0.9987) probablemente refleja la población de pacientes compartida (la coinfección VIH/VHC es frecuente) y puede reflejar similitudes que el modelo aprendió entre enfermedades virales relacionadas, no evidencia biológica. La evidencia clínica disponible demuestra la cura del VHC en pacientes coinfectados con VIH, lo que es una extensión de la indicación original a una población coinfectada, no un tratamiento del VIH.
 
 Por ello, cualquier afirmación debe limitarse a la **curación del VHC en pacientes con coinfección por VIH**.
 

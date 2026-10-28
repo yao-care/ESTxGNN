@@ -6,9 +6,9 @@ nav_order: 341
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Fluocinolone Acetonide: nueva indicación predicha, Liquen plano atrófico anular (nivel de evidencia L5). Indicación original: No disponible en la ficha de autorización"
 monitor_inn: "fluocinolone acetonide"
 predicted_indications: ["annular atrophic lichen planus", "hypertrophic lichen planus", "lichen planus pigmentosus", "lichen planus pemphigoides"]
+description: "Fluocinolone Acetonide: nueva indicación predicha, Annular atrophic lichen planus (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fluocinolone Acetonide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Fluocinolona acetónido: De Dermatosis Inflamatorias a Liquen Plano Atrófico Anular
+## Fluocinolone Acetonide: Annular atrophic lichen planus
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,21 +48,21 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en la ficha de autorización; según el grafo de conocimiento: dermatitis atópica, dermatitis seborreica, lupus eritematoso discoide, entre otras |
-| Nueva Indicación Predicha | Liquen plano atrófico anular |
-| Puntaje de Predicción TxGNN | 99,42% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Annular atrophic lichen planus |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 Otras indicaciones predichas con el mismo nivel de evidencia (L5) y recomendación (Hold):
 
 | Indicación Predicha | Puntaje TxGNN |
 |------|------|
-| Liquen plano hipertrófico | 99,42% |
-| Liquen plano pigmentoso | 99,42% |
-| Liquen plano penfigoide | 99,34% |
+| Liquen plano hipertrófico | 0,9942 |
+| Liquen plano pigmentoso | 0,9942 |
+| Liquen plano penfigoide | 0,9934 |
 
 ---
 

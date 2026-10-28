@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Sonidegib
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 743
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Sonidegib: nueva indicación predicha, Cáncer de piel (nivel de evidencia L2). Indicación original: Carcinoma cutáneo / carcinoma basocelular"
+description: "Sonidegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (nivel de evidencia L2). Indicación original: Carcinoma cutáneo / carcinoma basocelular"
 monitor_inn: "SONIDEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma 
 # Sonidegib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Sonidegib: De Carcinoma Cutáneo a Cáncer de Piel (Categoría Amplia)
+## Sonidegib: De Carcinoma Cutáneo a Meduloblastoma con nodularidad extensa
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,10 +50,10 @@ Cabe señalar que esta predicción se solapa en gran medida con la indicación y
 |------|------|
 | Indicación Original | Carcinoma cutáneo / carcinoma basocelular (según las indicaciones originales registradas en el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
 | Nueva Indicación Predicha | Cáncer de piel |
-| Puntaje de Predicción TxGNN | 99.76% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

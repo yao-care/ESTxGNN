@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eltrombopag
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 283
-evidence_level: L5
+evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Eltrombopag: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Trombocitopenia autoinmune (según el grafo de conocimiento"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
+description: "Eltrombopag: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Eltrombopag
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Eltrombopag: De Trombocitopenia Autoinmune a Infección por VIH
+## Eltrombopag: Infección por VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Actualmente lo respaldan **1 ensayo clínico** (de fase 3, terminado, con aplica
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trombocitopenia autoinmune (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99.26% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
+| Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L2 (con reservas: el ensayo de fase 3 está terminado y no se confirma que sea específico para VIH) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

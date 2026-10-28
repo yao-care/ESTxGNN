@@ -6,9 +6,9 @@ nav_order: 415
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Artritis reumatoide, espondilitis anquilosante, artrosis, gota…"
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
+description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Indomethacin
@@ -33,25 +33,25 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Indometacina: De Artritis Reumatoide y Enfermedades Articulares a Brachydactyly-Syndactyly Syndrome (Síndrome de Braquidactilia-Sindactilia)
+## Indomethacin: Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Indometacina es un antiinflamatorio no esteroideo (AINE) utilizado originalmente en artritis reumatoide, espondilitis anquilosante, artrosis, gota, bursitis, tendinitis y ductus arterioso persistente.
-El modelo TxGNN predice como primera candidata el **síndrome de braquidactilia-sindactilia**, con un puntaje muy alto (99,97%), pero **sin ensayos clínicos ni publicaciones** que lo respalden: es solo una predicción del modelo.
+El modelo TxGNN predice como primera candidata el **síndrome de braquidactilia-sindactilia**, con un puntaje muy alto (0,9997), pero **sin ensayos clínicos ni publicaciones** que lo respalden: es solo una predicción del modelo.
 La candidata con más respaldo bibliográfico entre las 10 predichas es la **artritis idiopática juvenil** (19 publicaciones, sin ensayos registrados), que se comenta en la conclusión.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide, espondilitis anquilosante, artrosis, gota, bursitis, tendinitis, ductus arterioso persistente (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

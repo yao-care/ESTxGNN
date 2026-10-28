@@ -4,17 +4,17 @@ title: Valproic Acid
 parent: Solo predicción del modelo (L5)
 nav_order: 837
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Epilepsia, trastorno bipolar maníaco…"
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Valproic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ácido valproico: De Epilepsia a Neoplasia del Nervio Trigémino
+## Valproic Acid: Neoplasia del nervio trigémino (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia, trastorno bipolar maníaco, epilepsia de ausencia (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 14 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 14) |
+| Número de Autorizaciones | 14 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original y la nueva es débil. La epilepsia es un trastorno neurológico funcional, mientras que la neoplasia del nervio trigémino es un tumor. El único vínculo mecanístico plausible es el efecto antitumoral preclínico de los inhibidores de HDAC, que es teórico y para el cual no se aporta evidencia específica en tumores del trigémino.
 
-La única publicación vinculada (PMID 9157801) es una serie de 14 casos de síndrome de Sturge-Weber de 1997, un trastorno neurocutáneo vascular en el que el valproato se usa solo para controlar las convulsiones. No respalda la predicción. El puntaje alto del modelo parece reflejar la cercanía en el grafo de conocimiento con trastornos neurológicos, no evidencia real.
+La única publicación vinculada (PMID 9157801) es una serie de 14 casos de síndrome de Sturge-Weber de 1997, un trastorno neurocutáneo vascular en el que el valproato se usa solo para controlar las convulsiones. No respalda la predicción. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -103,7 +103,7 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5): no hay ensayos
 - Una revisión de la literatura más específica sobre tumores del trigémino, ya que la publicación actual no es pertinente.
 - Evaluación de seguridad para poblaciones con enfermedad hepática, trombocitopenia o riesgo de pancreatitis.
 
-> Nota: entre las demás predicciones, la **neuralgia del trigémino** (puntaje 99,83%, nivel L4) y la **epilepsia de sobresalto** (puntaje 99,81%, nivel L3) cuentan con más respaldo bibliográfico. La epilepsia visual (L3) cae esencialmente dentro de la indicación existente de epilepsia, por lo que no es un reposicionamiento genuino.
+> Nota: entre las demás predicciones, la **neuralgia del trigémino** (puntaje 0,9983, nivel L4) cuenta con más respaldo bibliográfico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -6,9 +6,9 @@ nav_order: 222
 evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Dapsone: nueva indicación predicha, Neumocistosis (nivel de evidencia L1). Indicación original: Dermatitis herpetiforme, acné y lepra (según el grafo de conocimiento"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
+description: "Dapsone: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Dapsone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 </div>
 
-## Dapsona: De Dermatitis Herpetiforme a Neumocistosis
+## Dapsone: Neumocistosis (pneumocystosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **10 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatitis herpetiforme, acné y lepra (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
-| Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neumocistosis (pneumocystosis) |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Español | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Español | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vernakalant
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 844
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vernakalant: nueva indicación predicha, Trastorno cerebrovascular (ictus) (nivel de evidencia L4). Indicación original: Fibrilación auricular"
 monitor_inn: "VERNAKALANT"
-predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno cerebrovascula
 |------|------|
 | Indicación Original | Fibrilación auricular |
 | Nueva Indicación Predicha | Trastorno cerebrovascular (ictus) |
-| Puntaje de Predicción TxGNN | 99,83% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Puntaje de Predicción TxGNN | 0,9983 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Vernakalant es un antiarrítmico selectivo auricular que bloquea varios canales 
 
 La relación entre ambas indicaciones es indirecta: la fibrilación auricular es un importante factor de riesgo de ictus cardioembólico, por lo que el control del ritmo podría vincularse plausiblemente con la prevención del ictus. Sin embargo, la propia cardioversión conlleva un riesgo tromboembólico, y no existe evidencia de que vernakalant prevenga o trate el ictus.
 
-El puntaje elevado de TxGNN probablemente refleja la asociación entre fibrilación auricular e ictus en el grafo de conocimiento, y no un efecto terapéutico directo. Por ello, la predicción debe interpretarse con cautela.
+El puntaje elevado del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la fibrilación auricular y el ictus, y no evidencia biológica ni un efecto terapéutico directo. Por ello, la predicción debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -94,7 +94,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en la asociación del grafo de conocimiento entre fibrilación auricular e ictus. No hay ensayos clínicos ni estudios que demuestren un efecto de vernakalant sobre el ictus, y la cardioversión conlleva un riesgo tromboembólico propio.
+La predicción proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la fibrilación auricular y el ictus, no evidencia biológica. No hay ensayos clínicos ni estudios que demuestren un efecto de vernakalant sobre el ictus, y la cardioversión conlleva un riesgo tromboembólico propio.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción para evaluar el vínculo mecanístico

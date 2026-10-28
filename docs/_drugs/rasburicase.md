@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **hipouricemia renal**, pe
 |------|------|
 | Indicación Original | Hiperuricemia (enfermedad obsoleta, según la base de conocimiento TxGNN; el texto de indicación aprobado por la AEMPS no está disponible) |
 | Nueva Indicación Predicha | Hipouricemia renal |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Sin embargo, en este caso **la predicción no resulta mecanísticamente razonable**. La hipouricemia renal es un estado de ácido úrico sérico ya bajo, causado por un defecto en la reabsorción renal de urato (por ejemplo, variantes de SLC22A12/URAT1 o SLC2A9). Reducir aún más el ácido úrico no trataría la enfermedad y podría empeorarla, además de añadir riesgo de lesión renal aguda inducida por el ejercicio.
 
-El puntaje elevado de TxGNN probablemente es un artefacto de proximidad en el grafo (vía compartida del ácido úrico) y no refleja una justificación terapéutica plausible. Debe interpretarse como una **señal de contraindicación mecanística**, no como una oportunidad de reposicionamiento.
+El puntaje elevado de TxGNN (0.9999 para Hipouricemia renal) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (vía compartida del ácido úrico), no evidencia biológica ni una justificación terapéutica plausible. Debe interpretarse como una **señal de contraindicación mecanística**, no como una oportunidad de reposicionamiento.
 
 ### Otras predicciones del modelo
 
@@ -71,15 +71,15 @@ Las demás indicaciones predichas también tienen nivel de evidencia L5, sin ens
 
 | Indicación predicha | Puntaje TxGNN | Valoración mecanística |
 |------|------|------|
-| Deficiencia parcial de hipoxantina-guanina fosforribosiltransferasa | 99.97% | Único vínculo biológicamente coherente (reducción aguda del ácido úrico), pero la rasburicasa es una proteína inmunógena de uso corto (1-5 días), mientras que la enfermedad es crónica y se maneja con alopurinol o febuxostat; tampoco actúa sobre la hipoxantina y la xantina acumuladas |
-| Porfiria hepática | 99.97% | Sin vínculo mecanístico claro |
-| Cirrosis idiopática asociada al cobre | 99.97% | Sin vínculo plausible; el peróxido de hidrógeno generado podría añadir estrés oxidativo teórico |
-| Hipertensión portal no cirrótica familiar de inicio temprano | 99.97% | Sin vínculo mecanístico |
-| Trombosis primitiva de la vena porta | 99.97% | Sin vínculo; la rasburicasa no tiene acción antitrombótica |
-| Síndrome hepatopulmonar | 99.97% | Sin vínculo mecanístico |
-| Esclerosis hepatoportal | 99.97% | Sin vínculo mecanístico |
-| Acidosis tubular renal | 99.85% | Sin vínculo directo; riesgo adicional de hemólisis y metahemoglobinemia en deficiencia de G6PD |
-| Trastorno del metabolismo de la fenilalanina | 99.83% | Sin vínculo mecanístico |
+| Deficiencia parcial de hipoxantina-guanina fosforribosiltransferasa | 0.9997 | Único vínculo biológicamente coherente (reducción aguda del ácido úrico), pero la rasburicasa es una proteína inmunógena de uso corto (1-5 días), mientras que la enfermedad es crónica y se maneja con alopurinol o febuxostat; tampoco actúa sobre la hipoxantina y la xantina acumuladas |
+| Porfiria hepática | 0.9997 | Sin vínculo mecanístico claro |
+| Cirrosis idiopática asociada al cobre | 0.9997 | Sin vínculo plausible; el peróxido de hidrógeno generado podría añadir estrés oxidativo teórico |
+| Hipertensión portal no cirrótica familiar de inicio temprano | 0.9997 | Sin vínculo mecanístico |
+| Trombosis primitiva de la vena porta | 0.9997 | Sin vínculo; la rasburicasa no tiene acción antitrombótica |
+| Síndrome hepatopulmonar | 0.9997 | Sin vínculo mecanístico |
+| Esclerosis hepatoportal | 0.9997 | Sin vínculo mecanístico |
+| Acidosis tubular renal | 0.9985 | Sin vínculo directo; riesgo adicional de hemólisis y metahemoglobinemia en deficiencia de G6PD |
+| Trastorno del metabolismo de la fenilalanina | 0.9983 | Sin vínculo mecanístico |
 
 ---
 

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **Trombastenia de Glanzman
 |------|------|
 | Indicación Original | No disponible en la autorización (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Trombastenia de Glanzmann |
-| Puntaje de Predicción TxGNN | 99,88% |
+| Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La trombastenia de Glanzmann es un trastorno hemorrágico causado por la deficiencia o disfunción de la integrina plaquetaria αIIbβ3. Un anticoagulante cabría esperar que **empeore, y no mejore**, el fenotipo hemorrágico. Por lo tanto, **no se identifica un vínculo mecanístico plausible**.
 
-El alto puntaje de TxGNN (0,9988) probablemente refleja asociaciones en el grafo de conocimiento con las vías de coagulación y plaquetas, y no un mecanismo terapéutico real. Las demás predicciones de mayor rango comparten el mismo problema: son trastornos hemorrágicos plaquetarios (trastorno primario de liberación plaquetaria, pseudo-enfermedad de von Willebrand, defecto del receptor de colágeno, trombocitopenia constitucional y síndrome de Scott), en los que un anticoagulante sería contraproducente.
+El alto puntaje de TxGNN (modelo de aprendizaje profundo) (0,9988) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no evidencia biológica de un mecanismo terapéutico real. Las demás predicciones de mayor rango comparten el mismo problema: son trastornos hemorrágicos plaquetarios (trastorno primario de liberación plaquetaria, enfermedad pseudo-von Willebrand, defecto del receptor de colágeno, trombocitopenia constitucional y síndrome de Scott), en los que un anticoagulante sería contraproducente.
 
 ---
 

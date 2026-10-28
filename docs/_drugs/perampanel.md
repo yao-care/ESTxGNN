@@ -4,17 +4,17 @@ title: Perampanel
 parent: Solo predicción del modelo (L5)
 nav_order: 626
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Perampanel: nueva indicación predicha, Epilepsia visual (nivel de evidencia L5). Indicación original: Epilepsia parcial (los textos de indicación de las autorizaciones no…"
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Perampanel: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Perampanel: De Epilepsia Parcial a Epilepsia Visual
+## Perampanel: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, pero
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia parcial (los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Epilepsia visual |
-| Puntaje de Predicción TxGNN | 99,92% |
-| Nivel de Evidencia | L4 (solo evidencia indirecta o de mecanismo) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Beta-ketothiolase deficiency |
+| Puntaje de Predicción TxGNN | 0.9979 |
+| Nivel de Evidencia | L5 (solo evidencia indirecta o de mecanismo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 5) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

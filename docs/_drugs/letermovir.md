@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Infección por citomegalovirus |
 | Nueva Indicación Predicha | Candidiasis vulvovaginal |
-| Puntaje de Predicción TxGNN | 99,88% |
+| Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 **En este caso no se identifica un vínculo mecanístico creíble.** La candidiasis vulvovaginal está causada por especies de *Candida* (principalmente *C. albicans*), hongos eucariotas que carecen de un equivalente de la terminasa viral. Por tanto, no cabe esperar que el mecanismo antiviral de letermovir actúe sobre ellos. Tampoco existen datos antifúngicos in vitro ni observaciones clínicas que apoyen la hipótesis.
 
-La puntuación tan elevada del modelo (0,9988) debe interpretarse con cautela: podría reflejar artefactos del grafo de conocimiento, como conexiones compartidas a través de nodos de interacciones farmacológicas o de CYP (por ejemplo, interacciones con antifúngicos azólicos), y no una relevancia terapéutica real.
+La puntuación tan elevada del modelo (0,9988) debe interpretarse con cautela: podría reflejar artefactos del modelo TxGNN (aprendizaje profundo), como conexiones compartidas a través de nodos de interacciones farmacológicas o de CYP (por ejemplo, interacciones con antifúngicos azólicos), y no una relevancia terapéutica real.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -104,13 +104,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible entre un inhibidor de la terminasa viral y un patógeno fúngico. La puntuación alta probablemente sea un artefacto del grafo de conocimiento.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible entre un inhibidor de la terminasa viral y un patógeno fúngico. La puntuación alta probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Datos de actividad antifúngica in vitro de letermovir frente a *Candida* spp.
 - Datos detallados del mecanismo de acción (MOA)
 - Revisión del prospecto de la AEMPS para advertencias y contraindicaciones
-- Análisis de los nodos del grafo que originan la puntuación para descartar artefactos
+- Revisión de que la puntuación procede del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, para descartar artefactos
 - Evaluación de la compatibilidad de vías de administración (las formas actuales son oral e intravenosa, no tópica/vaginal)
 ## Descargo de responsabilidad
 

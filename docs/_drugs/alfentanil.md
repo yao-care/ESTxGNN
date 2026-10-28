@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 |------|------|
 | Indicación Original | No especificada en la autorización (uso conocido: anestesia y analgesia) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99,51% |
+| Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 El NSIAD está causado por mutaciones de ganancia de función en el receptor V2 de la vasopresina (AVPR2, por ejemplo R137C/R137L). Estas mutaciones generan actividad constitutiva del receptor y retención de agua a pesar de niveles indetectables de vasopresina.
 
-**No se identifica un vínculo mecanístico creíble.** Los opioides se asocian en general con mayor liberación de vasopresina y efectos tipo SIADH, lo que empeoraría la antidiuresis en lugar de mejorarla. Además, no actuarían sobre un receptor V2 constitutivamente activo, que funciona independientemente de la vasopresina. El puntaje alto de TxGNN (0,995) es solo una predicción del modelo y probablemente refleja asociaciones a nivel de red, no un mecanismo biológicamente plausible.
+**No se identifica un vínculo mecanístico creíble.** Los opioides se asocian en general con mayor liberación de vasopresina y efectos tipo SIADH, lo que empeoraría la antidiuresis en lugar de mejorarla. Además, no actuarían sobre un receptor V2 constitutivamente activo, que funciona independientemente de la vasopresina. El puntaje alto de TxGNN (0,9951) es solo una predicción del modelo y probablemente refleja asociaciones a nivel de red, no un mecanismo biológicamente plausible.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Talc
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 761
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (la autorización no incluye tex…"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis
 # Talc
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La predicción carece de respaldo clínico y presenta una señal de seguridad.
 |------|------|
 | Indicación Original | No disponible en los datos compilados (la autorización no incluye texto de indicación) |
 | Nueva Indicación Predicha | Enfermedad trombótica |
-| Puntaje de Predicción TxGNN | 99,85 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Puntaje de Predicción TxGNN | 0,9985 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ La predicción carece de respaldo clínico y presenta una señal de seguridad.
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. El talco (silicato de magnesio) se comercializa en España como polvo cutáneo de uso tópico, y no se dispone de una indicación aprobada documentada en los datos compilados.
 
-La literatura recuperada no respalda un efecto terapéutico en trombosis. Describe que el talco inyectado por vía intravenosa (por ejemplo, en consumidores de drogas que inyectan comprimidos triturados) provoca microembolia pulmonar, hipertensión pulmonar angiotrombótica, granulomatosis y microembolización retiniana y cerebral. El alto puntaje del modelo probablemente refleja una asociación fármaco-enfermedad de tipo efecto adverso en el grafo de conocimiento, no una relación terapéutica.
+La literatura recuperada no respalda un efecto terapéutico en trombosis. Describe que el talco inyectado por vía intravenosa (por ejemplo, en consumidores de drogas que inyectan comprimidos triturados) provoca microembolia pulmonar, hipertensión pulmonar angiotrombótica, granulomatosis y microembolización retiniana y cerebral. El alto puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una relación terapéutica.
 
 Por ello, **el reposicionamiento del talco para trombosis es biológicamente poco plausible** y supone una señal de seguridad.
 
@@ -123,7 +123,7 @@ La predicción se basa solo en el modelo; la literatura apunta a que el talco ca
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada).
 - Obtener datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Confirmar si la asociación del grafo de conocimiento es de tipo efecto adverso y no terapéutico.
+- Confirmar si el puntaje del modelo TxGNN (deep learning), que puede reflejar similitudes aprendidas entre enfermedades relacionadas y no evidencia biológica, corresponde a un efecto adverso y no terapéutico.
 - Valorar otras indicaciones predichas solo si aparece evidencia directa; las demás (exóstosis, artritis reumatoide, bronquitis, déficit de cofactor II de heparina, entre otras) tienen evidencia L4-L5 y tampoco muestran respaldo terapéutico.
 ## Descargo de responsabilidad
 

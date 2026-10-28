@@ -6,9 +6,9 @@ nav_order: 259
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Dolutegravir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia símica (SIV) (nivel de evidencia L4). Indicación original: Infección por VIH / SIDA"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Dolutegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Dolutegravir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Dolutegravir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Símica
+## Dolutegravir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero la evidencia se limita a **14 publicaciones** preclínicas (modelos animale
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia símica (SIV) |
-| Puntaje de Predicción TxGNN | 99,85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Simian immunodeficiency virus infection |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La integrasa del SIV está estrechamente relacionada con la del VIH-1, y los estudios estructurales de la intasoma muestran un sitio de unión del inhibidor conservado. Además, los datos preclínicos en macacos indican que la monoterapia con dolutegravir selecciona mutaciones de resistencia, lo que evidencia una presión antiviral real sobre el SIV.
 
-Es importante matizar que el SIV es un modelo animal para la investigación del VIH, no una enfermedad humana. Su valor es como modelo preclínico, no como nueva indicación en personas. Las otras dos predicciones tienen aún menos respaldo: la infección por el virus de la inmunodeficiencia felina (FIV) cuenta con una sola publicación indirecta, y el trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical no tiene vínculo mecanístico conocido y probablemente es un artefacto de la estructura del grafo de conocimiento.
+Es importante matizar que el SIV es un modelo animal para la investigación del VIH, no una enfermedad humana. Su valor es como modelo preclínico, no como nueva indicación en personas.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -90,7 +90,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 113892001 | TIVICAY 50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 | 113892003 | TIVICAY 10 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 
-Todas las autorizaciones corresponden a Viiv Healthcare B.V. y están vigentes. La indicación original (VIH/SIDA) proviene del grafo de conocimiento, no del texto de la ficha técnica.
+Todas las autorizaciones corresponden a Viiv Healthcare B.V. y están vigentes.
 
 ## Consideraciones de Seguridad
 

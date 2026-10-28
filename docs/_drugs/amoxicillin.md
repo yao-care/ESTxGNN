@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 53
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
-description: "Amoxicillin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+last_modified_at: 2026-10-27
+description: "Amoxicillin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Amoxicillin
@@ -33,89 +33,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Amoxicilina: De Infección del Tracto Urinario a Síndrome de Hiperviscosidad Policlonal
+## Amoxicilina: antibacteriano betalactámico (inhibidor de la síntesis de pared celular bacteriana) → síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Amoxicilina es un antibiótico betalactámico, utilizado originalmente para tratar infecciones bacterianas como la infección del tracto urinario, la otitis media infecciosa, la faringitis y la neumonía bacteriana.
-El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata de una predicción puramente computacional.
-
----
+Amoxicilina es un antibiótico betalactámico de uso antibacteriano, comercializado en España en múltiples presentaciones.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección del tracto urinario (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
+| Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la amoxicilina es un antibiótico betalactámico que inhibe la síntesis de la pared celular bacteriana, y su eficacia en infecciones bacterianas está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la amoxicilina es un betalactámico que inhibe la síntesis de la pared celular bacteriana.
 
-**En este caso, la predicción no es mecanísticamente plausible.** El síndrome de hiperviscosidad policlonal se debe a niveles elevados de inmunoglobulinas u otras proteínas séricas, algo sobre lo que la amoxicilina no actúa. No existe relación clara entre las indicaciones originales (infecciones bacterianas) y esta nueva indicación (un trastorno hematológico no infeccioso).
+El síndrome de hiperviscosidad policlonal se debe a un aumento de inmunoglobulinas u otras proteínas séricas, un proceso que la amoxicilina no actúa sobre. No se identifica un vínculo mecanístico plausible entre ambos.
 
-El puntaje alto (0.996) probablemente es un artefacto del grafo de conocimiento, sin respaldo en evidencia clínica ni bibliográfica. Otras predicciones del mismo ranking con puntajes similares (hiperamilasemia, analbuminemia congénita, entre otras) comparten la misma limitación.
-
-Entre las predicciones evaluadas, la única biológicamente plausible es la **peste septicémica** (infección por *Yersinia pestis*), aunque los betalactámicos no son tratamiento de primera línea (se prefieren aminoglucósidos, fluoroquinolonas y tetraciclinas) y la evidencia disponible es indirecta (estudios in vitro, modelos animales y casos aislados).
-
----
+Por ello, el puntaje elevado (0,9963) debe interpretarse con cautela: no está respaldado por ningún dato clínico ni bibliográfico y probablemente es un artefacto del modelo.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para el síndrome de hiperviscosidad policlonal.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para el síndrome de hiperviscosidad policlonal.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-La amoxicilina cuenta con 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Se listan las 5 principales:
+Los datos compilados muestran al menos 20 autorizaciones, por lo que la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 62337 | Amoxicilina Pensa 1 g comprimidos recubiertos EFG | Comprimido recubierto | No disponible |
-| 64117 | Amoxicilina Cinfa 1000 mg polvo para suspensión oral en sobres EFG | Polvo para suspensión oral | No disponible |
-| 85966 | Amoxicilina Reiwa Healthcare 250 mg polvo para suspensión oral en sobre EFG | Polvo para suspensión oral | No disponible |
-| 50239 | Clamoxyl 500 mg cápsulas duras | Cápsula dura | No disponible |
-| 64390 | Amoxicilina Normon 1000 mg comprimidos EFG | Comprimido | No disponible |
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 62337 | AMOXICILINA PENSA 1 g comprimidos recubiertos EFG | Comprimido recubierto |
+| 64117 | AMOXICILINA CINFA 1000 mg polvo para suspensión oral en sobres EFG | Polvo para suspensión oral |
+| 50239 | CLAMOXYL 500 mg cápsulas duras | Cápsula dura |
+| 64390 | AMOXICILINA NORMON 1000 mg comprimidos EFG | Comprimido |
+| 56265 | AMITRON 500 mg polvo para solución inyectable | Polvo para solución inyectable |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de QT largo, torsades de pointes, taquicardia ventricular, insuficiencia hepática y enfermedad hepática, colestasis, porfiria, enfermedad renal, colitis por *Clostridium difficile*, miastenia gravis, osteoporosis, fractura ósea, mononucleosis infecciosa, entre otras.
-- **Interacciones farmacológicas** (100 interacciones registradas; se muestran las de mayor relevancia):
-  - **Mayor**: metotrexato; vacuna viva de *Vibrio cholerae* (cepa CVD 103-HgR).
-  - **Moderada**: doxiciclina, minociclina, demeclociclina, etinilestradiol, estradiol, anisindiona, dicumarol, micofenolato de mofetilo, entecavir, balsalazida, probióticos (*Lactobacillus acidophilus*, *Bifidobacterium longum infantis*), indio In-111 oxiquinolina.
-  - **Menor**: alopurinol, amilorida, azitromicina, claritromicina, eritromicina.
+- **Interacciones Farmacológicas** (100 registradas; principales):
+  - Mayor: metotrexato; vacuna viva de *Vibrio cholerae* (cepa CVD 103-HgR).
+  - Moderada: doxiciclina, minociclina, demeclociclina, etinilestradiol, estradiol, anisindiona, dicumarol, balsalazida, entecavir, micofenolato de mofetilo, entre otros.
+  - Menor: alopurinol, amilorida, azitromicina, claritromicina, eritromicina.
 
----
+No se dispone de advertencias ni contraindicaciones de prospecto en los datos compilados; consultar el prospecto para información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para síndrome de hiperviscosidad policlonal es solo computacional (L5), sin ensayos clínicos ni literatura, y carece de plausibilidad mecanística; el puntaje alto parece un artefacto del grafo de conocimiento.
+La predicción carece de ensayos clínicos y de literatura, no tiene un mecanismo plausible y su nivel de evidencia es L5. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y un vínculo mecanístico justificable con la nueva indicación (hoy inexistente).
-- Advertencias y contraindicaciones del prospecto de la AEMPS, pendientes de obtener, para completar el cribado de seguridad.
-- Si se desea priorizar una línea de investigación con amoxicilina, valorar la **peste septicémica** como pregunta de investigación (nivel L4, evidencia indirecta), comparándola con los tratamientos de primera línea.
+- Datos del mecanismo de acción de la amoxicilina y una hipótesis biológica que la vincule con la hiperviscosidad policlonal
+- Estudios preclínicos o clínicos que investiguen directamente esta enfermedad
+- Advertencias y contraindicaciones del prospecto de la AEMPS para el cribado de seguridad
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

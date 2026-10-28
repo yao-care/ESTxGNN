@@ -4,17 +4,17 @@ title: Ceritinib
 parent: Solo predicción del modelo (L5)
 nav_order: 164
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ceritinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Carcinoma de pulmón no microcítico / cáncer de pulmón (según el grafo…"
 monitor_inn: "CERITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "junctional epidermolysis bullosa"]
+description: "Ceritinib: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ceritinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ceritinib: De Carcinoma de Pulmón No Microcítico a Fibromatosis Gingival
+## Ceritinib: Fibromatosis gingival (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de pulmón no microcítico / cáncer de pulmón (según el grafo de conocimiento; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Fibromatosis gingival (fibromatosis, gingival) |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ceritinib es un inhibidor de la tirosina quinasa ALK, y su eficacia en el CPNM con reordenamiento de ALK ha sido comprobada, incluido el ensayo de fase 3 ASCEND-4 en primera línea frente a quimioterapia basada en platino.
 
-Para la fibromatosis gingival no se ha identificado ningún vínculo mecanístico. El puntaje de TxGNN es muy alto (99.86%), pero proviene únicamente de la estructura del grafo de conocimiento. No se conoce una dependencia de ALK en esta enfermedad, que es un sobrecrecimiento del tejido gingival de naturaleza benigna.
+Para la fibromatosis gingival no se ha identificado ningún vínculo mecanístico. El puntaje de TxGNN es muy alto (0.9986), pero proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No se conoce una dependencia de ALK en esta enfermedad, que es un sobrecrecimiento del tejido gingival de naturaleza benigna.
 
 Por ello, la predicción debe interpretarse con cautela: no hay una razón biológica demostrada que justifique que un inhibidor de ALK sea útil en este trastorno.
 

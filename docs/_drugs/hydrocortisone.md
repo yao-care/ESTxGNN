@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 395
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: Los textos de indicación aprobada de las autorizaciones no están disp…"
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Hidrocortisona: De Enfermedades Autoinmunes e Insuficiencia Suprarrenal a Alopecia Areata
+## Hydrocortisone: Alopecia areata
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **1 ensayo clínico** (Fase 3, completado, con hidrocortisona como comparado
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Los textos de indicación aprobada de las autorizaciones no están disponibles. Según el grafo de conocimiento: insuficiencia suprarrenal, enfermedad de Addison, enfermedad de Crohn, enfermedades autoinmunes, entre otras |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L1 según la regla de clasificación (con salvedad importante: ver conclusión) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

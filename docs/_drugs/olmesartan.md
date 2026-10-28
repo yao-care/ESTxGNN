@@ -46,9 +46,9 @@ Olmesartán es un antagonista del receptor de angiotensina II tipo 1 (ARA-II), c
 |------|------|
 | Indicación Original | No disponible en los datos de autorización compilados (el texto de indicación está vacío en todas las licencias) |
 | Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99,84 % |
+| Puntaje de Predicción TxGNN | 0,9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Una hipótesis plausible, pero **no verificada**, es que el bloqueo del receptor AT1 podría reducir el tono vasoespástico y la disfunción endotelial, procesos implicados en la angina vasoespástica. Esta idea es especulativa y no está respaldada por ningún dato aportado: no hay ensayos ni literatura sobre olmesartán en angina de Prinzmetal.
 
-La similitud con la indicación original queda pendiente de evaluación. El puntaje alto de TxGNN (99,84 %) refleja una predicción basada en el grafo de conocimiento, no una confirmación clínica.
+La similitud con la indicación original queda pendiente de evaluación. El puntaje alto de TxGNN (0,9984) refleja una predicción del modelo TxGNN (aprendizaje profundo), no una confirmación clínica.
 
 ### Otras indicaciones predichas (contexto)
 
@@ -66,9 +66,9 @@ Los datos compilados incluyen otras predicciones; las que tienen algún respaldo
 
 | Indicación | Puntaje TxGNN | Nivel | Evidencia disponible |
 |------|------|------|------|
-| Migraña | 99,64 % | L3 | Estudio pequeño en pacientes hipertensos/prehipertensos (2006), carta/comentario y revisión de clase IECA/ARA-II (2019); sin ensayos registrados |
-| Hipertensión pulmonar | 99,61 % | L4 | Estudios preclínicos en roedores; sin datos en humanos |
-| Glaucoma de ángulo abierto | 99,40 % | L4 | Solo una revisión indirecta (2009) |
+| Migraña | 0,9964 | L3 | Estudio pequeño en pacientes hipertensos/prehipertensos (2006), carta/comentario y revisión de clase IECA/ARA-II (2019); sin ensayos registrados |
+| Hipertensión pulmonar | 0,9961 | L4 | Estudios preclínicos en roedores; sin datos en humanos |
+| Glaucoma de ángulo abierto | 0,9940 | L4 | Solo una revisión indirecta (2009) |
 
 El resto de predicciones (hipotricosis, alopecia, migraña con aura de tronco encefálico, cardiopatía kifoescoliótica, entre otras) carecen de evidencia y son nivel L5.
 

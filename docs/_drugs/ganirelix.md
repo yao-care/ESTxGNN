@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 |------|------|
 | Indicación Original | No disponible en las autorizaciones de la AEMPS (el texto de indicación está vacío). Según la farmacología conocida: prevención de la ovulación prematura en estimulación ovárica |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99,98 % |
+| Puntaje de Predicción TxGNN | 0,9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro compilado. Según la información farmacológica conocida, ganirelix es un péptido antagonista del receptor GnRH₁ (gen GNRHR). Al bloquear este receptor, suprime la liberación de LH y FSH y, en consecuencia, reduce los esteroides sexuales derivados.
 
-La relación con la hipertricosis es **débil e indirecta**. La hipertricosis no está impulsada principalmente por gonadotropinas, por lo que cualquier vínculo pasaría por una modulación androgénica y es especulativo. El puntaje elevado de TxGNN refleja la proximidad en la red del grafo de conocimiento, no evidencia clínica ni de literatura.
+La relación con la hipertricosis es **débil e indirecta**. La hipertricosis no está impulsada principalmente por gonadotropinas, por lo que cualquier vínculo pasaría por una modulación androgénica y es especulativo. El puntaje elevado procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, clínica ni de la literatura.
 
 Conviene interpretar esta predicción con cautela. Entre las diez primeras predicciones, las más plausibles biológicamente son otras: **pubertad precoz central** (el bloqueo del receptor GnRH se alinea con el mecanismo, aunque los agonistas de GnRH son el estándar de tratamiento y no hay datos de ganirelix), **pubertad precoz familiar limitada a varones** (la eficacia sería limitada porque la producción de testosterona es independiente de gonadotropinas) y el **síndrome de exceso de aromatasa** (los inhibidores de aromatasa son un enfoque más directo). Estas tres están clasificadas como "pregunta de investigación". El resto (síndrome de Ambras, malformaciones dentales, síndrome de Dandy-Walker, anomalías del tallo piloso, circulación fetal persistente y tricomegalia familiar) carece de un vínculo mecanístico identificable.
 

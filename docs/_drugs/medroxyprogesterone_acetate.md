@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 499
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Endometriosis (según las indicaciones del grafo de conocimiento"
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Acetato de Medroxiprogesterona: De Endometriosis a Amenorrea
+## Medroxyprogesterone Acetate: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero **no h
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Endometriosis (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,999% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -124,7 +124,7 @@ La predicción para amenorrea solo tiene respaldo de revisiones sobre anticoncep
 - Aclarar si se busca una indicación terapéutica real (p. ej., amenorrea secundaria con prueba de progestágenos) o solo se describe un efecto farmacológico
 - Estudios clínicos específicos de MPA en amenorrea
 
-**Otras predicciones del análisis (referencia):** la **enfermedad fibroquística de mama** (L3, puntaje 99,95 %) es la candidata con más respaldo clínico, aunque con dos estudios pequeños, antiguos y conflictivos con los datos de terapia hormonal; podría considerarse una pregunta de investigación. Las predicciones de endometriosis cervical (L4) y de otros subtipos de endometriosis (L5) son extensiones plausibles de la indicación original, pero sin evidencia directa. Las predicciones de hipoplasia renal carecen de vínculo mecanístico creíble y probablemente son artefactos del grafo de conocimiento.
+**Otras predicciones del análisis (referencia):** la **enfermedad fibroquística de mama** (L3, puntaje 0,9995) es la candidata con más respaldo clínico, aunque con dos estudios pequeños, antiguos y conflictivos con los datos de terapia hormonal; podría considerarse una pregunta de investigación. Las predicciones de endometriosis cervical (L4) y de otros subtipos de endometriosis (L5) son extensiones plausibles de la indicación original, pero sin evidencia directa. Las predicciones de hipoplasia renal carecen de vínculo mecanístico creíble y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

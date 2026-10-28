@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Colangitis biliar primaria (según los datos farmacológicos compilados; el texto de indicación de la autorización española está vacío) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Elafibranor es un agonista dual de PPARα y PPARδ (genes *PPARA* y *PPARD*). Se
 
 La relación con la amenorrea es especulativa. La señalización PPAR influye en el metabolismo de lípidos y glucosa y en la inflamación, y posiblemente en la función ovárica e hipotálamo-hipofisaria. Esto podría ser relevante para causas metabólicas y endocrinas de amenorrea, como la disfunción ovulatoria asociada al síndrome de ovario poliquístico. Ningún dato compilado respalda este vínculo.
 
-Además, el puntaje tan alto (99.86%) puede reflejar artefactos de la topología del grafo de conocimiento, como vecinos compartidos con otros agonistas PPAR o fármacos metabólicos. Debe interpretarse con cautela.
+Además, el puntaje tan alto (0.9986) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -93,7 +93,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), incluida la indicación aprobada
 - Completar los datos del mecanismo de acción desde DrugBank
 - Revisión de literatura y de registros de ensayos sobre PPAR y amenorrea/función ovárica (p. ej., síndrome de ovario poliquístico)
-- Evaluar si el puntaje es un artefacto del grafo mediante análisis de los vecinos compartidos
+- Evaluar si el puntaje del modelo TxGNN (aprendizaje profundo) solo refleja similitudes aprendidas entre enfermedades relacionadas y no evidencia biológica
 - Evaluar la seguridad en mujeres en edad fértil (embarazo y fertilidad) antes de cualquier estudio exploratorio
 - Estudios preclínicos o de mecanismo que respalden el vínculo con el eje reproductivo
 ## Descargo de responsabilidad

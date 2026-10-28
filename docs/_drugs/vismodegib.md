@@ -4,17 +4,17 @@ title: Vismodegib
 parent: Solo predicción del modelo (L5)
 nav_order: 854
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Vismodegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (nivel de evidencia L5). Indicación original: Carcinoma cutáneo (carcinoma basocelular). El texto de indicación de…"
 monitor_inn: "VISMODEGIB"
-predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "prostate cancer/brain cancer susceptibility", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+description: "Vismodegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (medulloblastoma with extensive nodularity) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vismodegib: De Carcinoma Cutáneo a Meduloblastoma con Nodularidad Extensa
+## Vismodegib: Meduloblastoma con nodularidad extensa (medulloblastoma with extensive nodularity)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodul
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma cutáneo (carcinoma basocelular). El texto de indicación de la autorización española no está disponible, por lo que se toma de las indicaciones originales del grafo de conocimiento |
-| Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa (medulloblastoma with extensive nodularity) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodul
 
 El meduloblastoma con nodularidad extensa suele asociarse al subgrupo molecular SHH. En este subgrupo la activación de la vía Hedgehog, por mutaciones en PTCH1 o SUFU, impulsa el desarrollo del tumor. Vismodegib inhibe SMO, un componente central de esta vía, por lo que existe plausibilidad mecanística, sobre todo en la enfermedad dirigida por PTCH1 o SMO.
 
-La indicación original (carcinoma basocelular) comparte con esta nueva indicación la dependencia de la señalización Hedgehog. Por eso el modelo establece la conexión, y el puntaje es muy alto (99.93%).
+La indicación original (carcinoma basocelular) comparte con esta nueva indicación la dependencia de la señalización Hedgehog. Por eso el modelo establece la conexión, y el puntaje es muy alto (0.9993).
 
 Hay limitaciones importantes:
 - Los tumores con mutaciones en SUFU actúan por debajo de SMO y se espera que sean resistentes al fármaco.

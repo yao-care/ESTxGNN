@@ -6,9 +6,9 @@ nav_order: 643
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pirfenidone: nueva indicación predicha, Mastocitoma extracutáneo (nivel de evidencia L5). Indicación original: Fibrosis pulmonar idiopática (según el grafo de conocimiento"
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: nueva indicación predicha, Mastocitoma extracutáneo (extracutaneous mastocytoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pirfenidone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Pirfenidona: De Fibrosis Pulmonar Idiopática a Mastocitoma Extracutáneo
+## Pirfenidone: Mastocitoma extracutáneo (extracutaneous mastocytoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **mastocitoma extracutáne
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fibrosis pulmonar idiopática (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Mastocitoma extracutáneo |
-| Puntaje de Predicción TxGNN | 99,71 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Mastocitoma extracutáneo (extracutaneous mastocytoma) |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **mastocitoma extracutáne
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pirfenidona es un agente antifibrótico y antiinflamatorio oral que modula la vía del TGF-β y reduce la proliferación de fibroblastos y la síntesis de colágeno. Su uso está establecido en la fibrosis pulmonar idiopática.
 
-Para el mastocitoma extracutáneo **no se identifica un vínculo mecanístico respaldado por los datos**. Las neoplasias de mastocitos suelen depender de otras vías (por ejemplo, mutaciones de KIT), que pirfenidona no actúa sobre. El puntaje alto (99,71 %) es una predicción del modelo y no constituye evidencia clínica.
+Para el mastocitoma extracutáneo **no se identifica un vínculo mecanístico respaldado por los datos**. Las neoplasias de mastocitos suelen depender de otras vías (por ejemplo, mutaciones de KIT), que pirfenidona no actúa sobre. El puntaje alto (0,9971) es una predicción del modelo y no constituye evidencia clínica.
 
 Por ello, esta predicción debe considerarse una hipótesis sin respaldo y no una indicación candidata madura.
 

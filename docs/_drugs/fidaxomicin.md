@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la piel 
 |------|------|
 | Indicación Original | Colitis por *Clostridium difficile* |
 | Nueva Indicación Predicha | Síndrome de la piel escaldada estafilocócica |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -65,14 +65,14 @@ El alto puntaje de TxGNN es solo una predicción computacional, sin datos clíni
 
 | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Impétigo ampolloso | 99.70% | Exposición cutánea insignificante; existen alternativas tópicas y sistémicas eficaces |
-| Botulismo por inhalación | 99.69% | Tratamiento basado en antitoxina; los antibióticos no tienen papel establecido |
-| Impétigo | 99.68% | No está formulado para uso cutáneo; hay agentes tópicos establecidos |
-| Botulismo infeccioso mediado por toxina | 99.66% | Vínculo especulativo; los antibióticos generalmente no se recomiendan por el riesgo de liberar más toxina |
-| Candidiasis vulvovaginal | 99.65% | Sin actividad antifúngica; probable artefacto del grafo |
-| Orzuelo | 99.64% | Solo vínculo teórico; sin formulación oftálmica |
-| Neumonía por *Staphylococcus aureus* | 99.21% | Exposición pulmonar no esperable por absorción mínima; existen alternativas establecidas |
-| Queratoconjuntivitis epitelial punteada | 99.02% | Sin mecanismo plausible ni datos clínicos |
+| Impétigo ampolloso | 0.9970 | Exposición cutánea insignificante; existen alternativas tópicas y sistémicas eficaces |
+| Botulismo por inhalación | 0.9969 | Tratamiento basado en antitoxina; los antibióticos no tienen papel establecido |
+| Impétigo | 0.9968 | No está formulado para uso cutáneo; hay agentes tópicos establecidos |
+| Botulismo infeccioso mediado por toxina | 0.9966 | Vínculo especulativo; los antibióticos generalmente no se recomiendan por el riesgo de liberar más toxina |
+| Candidiasis vulvovaginal | 0.9965 | Sin actividad antifúngica; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
+| Orzuelo | 0.9964 | Solo vínculo teórico; sin formulación oftálmica |
+| Neumonía por *Staphylococcus aureus* | 0.9921 | Exposición pulmonar no esperable por absorción mínima; existen alternativas establecidas |
+| Queratoconjuntivitis epitelial punteada | 0.9902 | Sin mecanismo plausible ni datos clínicos |
 
 ## Evidencia de Ensayos Clínicos
 

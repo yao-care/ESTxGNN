@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Neratinib
-parent: Evidencia alta (L1-L2)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 560
-evidence_level: L2
-indication_count: 4
-last_modified_at: 2026-10-14
-description: "Neratinib: nueva indicación predicha, Cáncer de mama con receptor de progesterona positivo (nivel de evidencia L2). Indicación original: Carcinoma de mama HER2 positivo"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Neratinib: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Neratinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **4** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,62 +32,48 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 </div>
 
-## Neratinib: De Cáncer de Mama HER2 Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+<!-- known-uses-page -->
+<!-- description: Neratinib: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata -->
+## Neratinib: Usos conocidos y situación de mercado en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Neratinib son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. Los cuatro candidatos pertenecen a la misma categoría de enfermedad que una indicación aprobada, el cáncer de mama.
 
-Neratinib es un inhibidor de tirosina quinasa pan-HER (EGFR/HER2/HER4) de administración oral, utilizado originalmente para el tratamiento del carcinoma de mama HER2 positivo.
-El modelo TxGNN predice que podría ser efectivo para el **cáncer de mama con receptor de progesterona positivo**,
-con **2 ensayos clínicos** (uno en reclutamiento y otro retirado) y **12 publicaciones** que actualmente respaldan esta dirección.
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Resumen rápido
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de mama HER2 positivo |
-| Nueva Indicación Predicha | Cáncer de mama con receptor de progesterona positivo |
-| Puntaje de Predicción TxGNN | 99.68% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con origen trazable son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 4 |
+| Nivel de evidencia | No aplicable |
+| Situación de mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 
-## ¿Por qué es Razonable esta Predicción?
+## Usos conocidos entre los candidatos del modelo
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, neratinib es un inhibidor irreversible de la tirosina quinasa de la familia HER (EGFR, HER2 y HER4), y su eficacia en el cáncer de mama HER2 positivo está comprobada.
+### Aprobados (respaldados por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguna | Ninguna |
 
-El cáncer de mama con receptor de progesterona positivo coincide con frecuencia con la positividad de HER2 (subtipo HR+/HER2+), que es precisamente el escenario de la indicación aprobada de neratinib como tratamiento adyuvante extendido. Además, existe una interacción bidireccional conocida entre las vías de señalización de HER2 y del receptor de estrógenos, que constituye un mecanismo de resistencia endocrina y respalda la combinación con terapia endocrina.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Cáncer de mama con receptor de progesterona positivo (progesterone-receptor positive breast cancer) | cáncer de mama (breast cancer) |
+| Carcinoma de mama de subtipo similar a mama normal (normal breast-like subtype of breast carcinoma) | cáncer de mama (breast cancer) |
+| Cáncer de mama con receptor de progesterona negativo (progesterone-receptor negative breast cancer) | cáncer de mama (breast cancer) |
+| Tumor de mama luminal A o B (breast tumor luminal A or B) | cáncer de mama (breast cancer) |
 
-Conviene señalar que esta indicación se solapa considerablemente con la indicación original: en buena parte es un subgrupo de la población ya cubierta y no un reposicionamiento en sentido estricto. La evidencia en enfermedad HR+/HER2-negativa se limita a datos de fase 2 y preclínicos.
-
-## Evidencia de Ensayos Clínicos
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Fase 2 | En reclutamiento | 30 | Neratinib preoperatorio con inhibidor de aromatasa y trastuzumab durante 24 semanas en cáncer ER+/HER2+; brazo único, sin resultados de eficacia disponibles |
-| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Fase 2 | Retirado | 0 | Fulvestrant más neratinib en cáncer de mama metastásico HR+/HER2-negativo previamente tratado; no se inscribió ningún participante, por lo que no aporta evidencia |
-
-## Evidencia de Literatura
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | ECA (Fase 3) | The Lancet Oncology | ExteNET: 12 meses de neratinib tras terapia adyuvante con trastuzumab en cáncer de mama temprano HER2 positivo |
-| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | ECA (Fase 2) | N Engl J Med | I-SPY 2: aleatorización adaptativa de neratinib neoadyuvante en cáncer de mama temprano de alto riesgo |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guía | J Clin Oncol | Actualización de la guía ASCO sobre terapia sistémica en cáncer de mama avanzado HER2 positivo |
-| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Guía | J Natl Compr Canc Netw | Actualización de las guías NCCN; inhibidores de CDK4/6 en cáncer de mama avanzado con receptor de estrógenos positivo |
-| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Cohorte | Breast Cancer Res Treat | Patrones de uso y tolerancia de neratinib adyuvante en HR+/HER2+; los efectos gastrointestinales a menudo causan discontinuación |
-| [41499317](https://pubmed.ncbi.nlm.nih.gov/41499317/) | 2026 | Cohorte | Oncology | Tendencias de prescripción de neratinib adyuvante en HR+/HER2+ en la práctica actual |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Revisión | Future Oncology | Tendencias actuales en el tratamiento de HR+/HER2+, con combinaciones hormonales y anti-HER2 sin quimioterapia |
-| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Revisión | Clin Breast Cancer | Mesa redonda de expertos sobre el cáncer de mama HER2 positivo y orientación clínica |
-| [41886605](https://pubmed.ncbi.nlm.nih.gov/41886605/) | 2026 | Preclínico | Cancer Research | BRD8/EP400 como módulo de cromatina que media la respuesta anti-HER2 en HR+/HER2+ |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Reporte de caso | Front Oncol | Pirotinib y vinorelbina metronómica en cáncer de mama HER2 positivo con enfermedad leptomeníngea |
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1181311001 | NERLYNX 40 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible en el registro |
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 1181311001 | neratinib | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 
 ## Citotoxicidad
 
@@ -108,20 +95,6 @@ Conviene señalar que esta indicación se solapa considerablemente con la indica
 
 La información sobre advertencias y contraindicaciones no está disponible en los datos compilados; consultar el prospecto para completar la información de seguridad.
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Proceed with Guardrails**
-
-**Justificación:**
-Neratinib cuenta con un ECA de fase 3 (ExteNET) y datos de fase 2 en el escenario HR+/HER2+, pero la indicación predicha se solapa en gran medida con la indicación original. La evidencia específica para el subgrupo es limitada: el único ensayo activo es pequeño y de brazo único, y el otro fue retirado.
-
-**Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), cuya ausencia impide completar el cribado de seguridad.
-- Datos detallados del mecanismo de acción (MOA).
-- Resultados del ensayo NCT04886531 y evidencia específica de eficacia en pacientes con receptor de progesterona positivo.
-- Plan de manejo de la toxicidad gastrointestinal (diarrea) y revisión de las interacciones con antiácidos e inhibidores de la bomba de protones.
-
-**Nota sobre otras predicciones:** las predicciones restantes tienen menor respaldo. El cáncer de mama con receptor de progesterona negativo (nivel L2) comparte la misma evidencia, poco específica del subtipo. El subtipo luminal A o B (nivel L3) cuenta con datos de fase 2 en tumores con mutación de HER2 (SUMMIT, plasmaMATCH), limitados a un subgrupo reducido. El subtipo "normal-like" (nivel L5, Hold) carece de ensayos y literatura.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

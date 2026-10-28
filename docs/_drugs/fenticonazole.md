@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fenticonazole
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 332
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Fenticonazole: nueva indicación predicha, Vulvovaginitis tricomoniásica (nivel de evidencia L4). Indicación original: Candidiasis vulvovaginal (según el grafo de conocimiento"
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
+description: "Fenticonazole: nueva indicación predicha, Trichomonal vulvovaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fenticonazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Fenticonazol: De Candidiasis Vulvovaginal a Vulvovaginitis Tricomoniásica
+## Fenticonazole: Trichomonal vulvovaginitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **vulvovaginitis tricomoni
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Candidiasis vulvovaginal (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Vulvovaginitis tricomoniásica |
-| Puntaje de Predicción TxGNN | 99.50% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trichomonal vulvovaginitis |
+| Puntaje de Predicción TxGNN | 0.9950 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

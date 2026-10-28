@@ -6,9 +6,9 @@ nav_order: 185
 evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Citric Acid: nueva indicación predicha, Enfermedad del estómago (nivel de evidencia L4). Indicación original: Dispepsia (según las relaciones de indicación del grafo de conocimien…"
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
+description: "Citric Acid: nueva indicación predicha, Enfermedad del estómago (stomach disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Citric Acid
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-## Ácido cítrico: De Dispepsia a Enfermedad del Estómago
+## Citric Acid: Enfermedad del estómago (stomach disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,17 +45,17 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad del estómago
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dispepsia (según las relaciones de indicación del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad del estómago |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad del estómago (stomach disease) |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 18 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido cítrico es un componente de varias formulaciones orales (sales efervescentes, granulados alcalinizantes de la orina y preparados de limpieza intestinal), su uso en dispepsia figura en el grafo de conocimiento, y mecanísticamente podría relacionarse con la modulación de la acidez gástrica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido cítrico es un componente de varias formulaciones orales (sales efervescentes, granulados alcalinizantes de la orina y preparados de limpieza intestinal), y mecanísticamente podría relacionarse con la modulación de la acidez gástrica.
 
 La dispepsia y las enfermedades del estómago comparten el mismo territorio anatómico y fisiopatológico (tracto digestivo superior), lo que explica que el modelo asigne una puntuación alta. Sin embargo, la literatura recuperada es indirecta: el ácido cítrico como comida de prueba para mejorar la precisión de la prueba del aliento con urea-13C en el diagnóstico de *H. pylori*, la farmacocinética del bismuto en un compuesto antiulceroso con citrato, y revisiones generales sobre dieta en la úlcera. Ninguno muestra que el ácido cítrico por sí mismo trate una enfermedad gástrica.
 
@@ -106,7 +106,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene una puntuación alta (99.74%), pero no hay ensayos clínicos y la literatura es indirecta (diagnóstico de *H. pylori*, farmacocinética de sales de bismuto, revisiones generales), por lo que el nivel de evidencia es L4. Además, las contraindicaciones del grafo incluyen la úlcera péptica, lo que exige cautela en patología gástrica.
+La predicción tiene una puntuación alta (0.9974), pero no hay ensayos clínicos y la literatura es indirecta (diagnóstico de *H. pylori*, farmacocinética de sales de bismuto, revisiones generales), por lo que el nivel de evidencia es L4. Además, las contraindicaciones del grafo incluyen la úlcera péptica, lo que exige cautela en patología gástrica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) del ácido cítrico en el contexto gástrico

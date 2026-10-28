@@ -6,9 +6,9 @@ nav_order: 212
 evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cyclosporine: nueva indicación predicha, Enfermedad granulomatosa crónica, autosómica recesiva (nivel de evidencia L4). Indicación original: Artritis reumatoide (según el grafo de conocimiento"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
+description: "Cyclosporine: nueva indicación predicha, Enfermedad granulomatosa crónica, autosómica recesiva (granulomatous disease, chronic, autosomal recessive) (nivel de evidencia L4). Indicación original: No c…"
 ---
 
 # Cyclosporine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Ciclosporina: De Artritis Reumatoide y Síndrome del Ojo Seco a Enfermedad Granulomatosa Crónica Autosómica Recesiva
+## Cyclosporine: Enfermedad granulomatosa crónica, autosómica recesiva (granulomatous disease, chronic, autosomal recessive)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero actualmente solo se dispone de **1 publicación** (un estudio de cohortes s
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad granulomatosa crónica, autosómica recesiva |
-| Puntaje de Predicción TxGNN | 99,68 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad granulomatosa crónica, autosómica recesiva (granulomatous disease, chronic, autosomal recessive) |
+| Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ La ciclosporina es un inhibidor de la calcineurina que suprime la activación de
 
 En la enfermedad granulomatosa crónica (EGC), el defecto central es la disfunción de la NADPH oxidasa en los fagocitos, que provoca infecciones recurrentes y granulomas hiperinflamatorios. **No existe una justificación mecanística directa** para que la ciclosporina trate la EGC en sí. Su papel plausible es de apoyo: como parte de la profilaxis de la enfermedad injerto contra huésped (EICH) en el trasplante de células madre hematopoyéticas, que es el tratamiento curativo de la EGC.
 
-Por tanto, la predicción del modelo debe interpretarse con cautela: el puntaje alto refleja una asociación en el grafo de conocimiento, no una evidencia de eficacia modificadora de la enfermedad.
+Por tanto, la predicción del modelo debe interpretarse con cautela: el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica de eficacia modificadora de la enfermedad.
 
 ---
 

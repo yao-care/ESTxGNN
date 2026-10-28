@@ -4,17 +4,17 @@ title: Imidapril
 parent: Solo predicción del modelo (L5)
 nav_order: 407
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Imidapril: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L5). Indicación original: Hipertensión arterial (según el grafo de conocim…"
 monitor_inn: "IMIDAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Imidapril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Imidapril
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Imidapril: De Hipertensión a Hipertensión Pulmonar Secundaria a Enfermedad Pulmonar y/o Hipoxia
+## Imidapril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,16 +60,14 @@ Imidapril es un profármaco IECA cuyo metabolito activo, el imidaprilato, reduce
 
 La hipertensión sistémica y la hipertensión pulmonar son ambas enfermedades vasculares con alteración del tono y del remodelado vascular, y el sistema renina-angiotensina podría participar en ambas. Sin embargo, en la hipertensión pulmonar por hipoxia los principales factores son la vasoconstricción pulmonar hipóxica y el remodelado, y los IECA no han mostrado un beneficio consistente en este contexto.
 
-Por tanto, el puntaje alto de TxGNN (99.78%) debe interpretarse con cautela: es una señal computacional basada en el grafo de conocimiento, sin respaldo clínico propio. Otra entrada de hipertensión pulmonar de causa multifactorial poco clara comparte exactamente el mismo puntaje, lo que sugiere una señal común del grafo y no evidencia independiente.
 
 ## Otras Predicciones del Modelo
 
 | Posición | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|------|
-| 2 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.78% | L5 | Justificación teórica por el sistema renina-angiotensina; sin ensayos ni literatura |
-| 3 | Enfermedad renal hipertensiva maligna | 99.76% | L5 | La más coherente mecanísticamente (efecto renoprotector de los IECA), pero se maneja de forma aguda con fármacos parenterales; riesgo de lesión renal aguda e hiperpotasemia |
-| 4 | Hipertensión renovascular maligna | 99.76% | L5 | Dependiente de angiotensina II; en estenosis bilateral de arteria renal o de riñón único los IECA pueden precipitar insuficiencia renal aguda |
-| 5 | Síndrome de Braddock | 99.70% | L5 | Sin justificación mecanística clara; probablemente refleja proximidad en el grafo con nodos de hipertensión |
+| 2 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 0.9978 | L5 | Justificación teórica por el sistema renina-angiotensina; sin ensayos ni literatura |
+| 3 | Enfermedad renal hipertensiva maligna | 0.9976 | L5 | La más coherente mecanísticamente (efecto renoprotector de los IECA), pero se maneja de forma aguda con fármacos parenterales; riesgo de lesión renal aguda e hiperpotasemia |
+| 4 | Hipertensión renovascular maligna | 0.9976 | L5 | Dependiente de angiotensina II; en estenosis bilateral de arteria renal o de riñón único los IECA pueden precipitar insuficiencia renal aguda |
 
 ## Evidencia de Ensayos Clínicos
 

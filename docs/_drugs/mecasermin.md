@@ -4,17 +4,17 @@ title: Mecasermin
 parent: Solo predicción del modelo (L5)
 nav_order: 496
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: Síndrome de insensibilidad a la hormona del crecimiento y síndrome de…"
 monitor_inn: "mecasermin"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
+description: "Mecasermin: nueva indicación predicha, Monosomía X (monosomy X) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mecasermin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Mecasermina: De Síndrome de Insensibilidad a la Hormona del Crecimiento a Monosomía X
+## Mecasermin: Monosomía X (monosomy X)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de insensibilidad a la hormona del crecimiento y síndrome de Laron (según el grafo de conocimiento; la ficha de autorización en España no incluye texto de indicación) |
-| Nueva Indicación Predicha | Monosomía X |
-| Puntaje de Predicción TxGNN | 99.59% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Monosomía X (monosomy X) |
+| Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome de Turner (monosomía X) se caracteriza por talla baja, que habitualmente se trata con hormona del crecimiento. Por ello existe un vínculo plausible a través de los efectos promotores del crecimiento. Sin embargo, las pacientes con síndrome de Turner suelen tener intacta la vía GH–IGF-1, por lo que el beneficio de reponer IGF-1 es especulativo.
 
-El puntaje alto de TxGNN (0.996) es solo una predicción computacional; no hay ensayos ni literatura que la sustenten.
+El puntaje alto de TxGNN (0.9959) es solo una predicción computacional; no hay ensayos ni literatura que la sustenten.
 
 ## Evidencia de Ensayos Clínicos
 

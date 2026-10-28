@@ -4,17 +4,17 @@ title: Cetirizine
 parent: Solo predicción del modelo (L5)
 nav_order: 166
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Cetirizine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (según la lista de indicaciones originales del grafo…"
 monitor_inn: "Cetirizine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+description: "Cetirizine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cetirizine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Cetirizina: De Rinitis Alérgica a Urticaria Alérgica
+## Cetirizine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Cetirizina es un antihistamínico de segunda generación, utilizado originalmente para el tratamiento de la rinitis alérgica, la rinitis vasomotora, la conjuntivitis alérgica y la urticaria idiopática.
-El modelo TxGNN predice que podría ser efectivo para **Urticaria alérgica**,
 con **1 ensayo clínico** (Fase 3, piloto, completado) y **17 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según la lista de indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nasal cavity disease |
+| Puntaje de Predicción TxGNN | 0.9977 |
+| Nivel de Evidencia | L5 (según la clasificación de los datos compilados; ver nota en la conclusión) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -60,7 +59,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La urticaria alérgica se caracteriza por habones y eritema causados por la histamina liberada de los mastocitos. El bloqueo H1 actúa directamente sobre este mediador principal. Además, la urticaria idiopática ya figura entre las indicaciones originales del fármaco, por lo que se trata de una extensión cercana de una indicación existente y no de un reposicionamiento distante.
 
-Esto es coherente con las demás predicciones: la urticaria por frío (segundo lugar) también responde a antihistamínicos H1 como tratamiento de primera línea, con estudios que muestran que cetirizina reduce el habón inducido por frío.
 
 ## Evidencia de Ensayos Clínicos
 

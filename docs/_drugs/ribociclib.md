@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 |------|------|
 | Indicación Original | Cáncer de mama HR+/HER2- avanzado o metastásico (según la literatura revisada; el texto de indicación de las autorizaciones no está disponible) |
 | Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.35% |
+| Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

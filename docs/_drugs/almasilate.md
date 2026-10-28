@@ -4,17 +4,17 @@ title: Almasilate
 parent: Solo predicción del modelo (L5)
 nav_order: 40
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Almasilate: nueva indicación predicha, Úlcera péptica activa (nivel de evidencia L5). Indicación original: Enfermedad ulcerosa péptica (según el grafo de conocimiento"
+indication_count: 1
 monitor_inn: "Almasilate"
 predicted_indications: ["gastroduodenitis"]
+last_modified_at: 2026-10-27
+description: "Almasilate: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Almasilate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Almasilato: De Enfermedad Ulcerosa Péptica a Úlcera Péptica Activa
+## Almasilato: antiácido → gastroduodenitis (gastroduodenitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Almasilato es un antiácido de silicato de aluminio y magnesio, utilizado originalmente para la enfermedad ulcerosa péptica, el reflujo gastroesofágico, la esofagitis y la dispepsia.
-El modelo TxGNN predice que podría ser efectivo para **úlcera péptica activa**, aunque esta indicación ya está incluida en sus usos originales, por lo que no constituye un reposicionamiento genuino.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción concreta.
+Almasilato es un antiácido que se comercializa en España en forma de polvo para suspensión oral.
+El modelo TxGNN predice que podría ser útil para **gastroduodenitis (gastroduodenitis)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad ulcerosa péptica (según el grafo de conocimiento; la autorización española no incluye texto de indicación) |
-| Nueva Indicación Predicha | Úlcera péptica activa |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | gastroduodenitis (gastroduodenitis) |
+| Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, almasilato es un antiácido tamponante de silicato de aluminio y magnesio que neutraliza el ácido gástrico, y su uso en patología ácido-péptica es conocido.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información disponible, almasilato actúa como antiácido: la neutralización del ácido gástrico puede aliviar los síntomas en afecciones inflamatorias gastroduodenales.
 
-La úlcera péptica activa está comprendida dentro de la indicación original de enfermedad ulcerosa péptica. El puntaje alto (0.999) refleja con toda probabilidad este solapamiento con una indicación ya conocida y no un hallazgo nuevo. Por ello, esta predicción debe interpretarse como una confirmación del uso existente y no como reposicionamiento.
+La gastroduodenitis es cercana a otras afecciones del tracto digestivo superior relacionadas con la acidez, como la dispepsia o la esofagitis. Por ello, el uso sintomático del fármaco resulta plausible desde el punto de vista mecanístico.
 
-Entre las otras candidatas predichas, la **úlcera gastroyeyunal** (99.87%) cuenta con una única publicación indirecta (una revisión de 1985 sobre antiácidos tamponantes complejos). Mecanísticamente es plausible como tratamiento adyuvante, ya que estas úlceras son de naturaleza ácido-péptica. La **perforación de úlcera péptica** (99.87%) no es tratable con antiácidos, al ser una urgencia quirúrgica. La **gastroduodenitis** (99.77%) y la **úlcera gástrica** (99.55%) son cercanas a las indicaciones originales y carecen de evidencia propia.
+Es importante subrayar que se trata solo de una predicción del modelo, sin estudios que la confirmen.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,36 +68,30 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Para la indicación principal (úlcera péptica activa) actualmente no hay literatura relacionada disponible. Para la segunda candidata (úlcera gastroyeyunal) se identificó:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [3888581](https://pubmed.ncbi.nlm.nih.gov/3888581/) | 1985 | Revisión | Drug and Therapeutics Bulletin | Revisión de antiácidos tamponantes complejos (magaldrato y almasilato); evidencia general e indirecta, sin datos específicos de la enfermedad |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 52255 | DOLCOPIN 1 g polvo para suspensión oral | Polvo para suspensión oral | No disponible en los datos compilados |
+| 52255 | DOLCOPIN 1 g POLVO PARA SUSPENSIÓN ORAL | Polvo para suspensión oral | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): enfermedad renal, piouréter, enfermedades diarreicas (incluida la diarrea crónica), estreñimiento, hipofosfatemia, impactación intestinal y hemorroides.
-
-Consultar el prospecto para el resto de la información de seguridad, incluidas advertencias e interacciones.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha ya forma parte de los usos originales del fármaco, de modo que no es un reposicionamiento real, y no hay ensayos ni literatura que la respalden (nivel L5). La evidencia indirecta para úlcera gastroyeyunal (L4) es limitada y antigua.
+La predicción se basa únicamente en el modelo, sin ensayos clínicos ni literatura que estudien la gastroduodenitis, y la autorización local figura como cancelada.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
-- Completar los datos del mecanismo de acción.
-- Si se desea explorar reposicionamiento, priorizar indicaciones realmente distintas de las originales y buscar literatura específica (por ejemplo, úlcera gastroyeyunal).
-- Valorar las contraindicaciones del grafo de conocimiento, en especial la enfermedad renal, por el contenido de aluminio y magnesio.
+- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción
+- Buscar o generar estudios clínicos que evalúen directamente la gastroduodenitis
+- Aclarar el estado actual de la autorización en España
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

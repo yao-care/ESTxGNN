@@ -4,7 +4,7 @@ title: Bosentan
 parent: Evidencia moderada (L3-L4)
 nav_order: 110
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Hipertensión arterial pulmonar / esclerodermia (esclerosis sistémica)"
 monitor_inn: "bosentan"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 # Bosentan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 |------|------|
 | Indicación Original | Hipertensión arterial pulmonar / esclerodermia (esclerosis sistémica) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -112,7 +112,7 @@ La predicción tiene una puntuación TxGNN alta y un racional mecanístico plaus
 
 ### Nota sobre otras predicciones
 
-La segunda predicción de mayor interés es la **esclerosis sistémica limitada** (puntuación TxGNN 99.65%, nivel L3), respaldada por una revisión sistemática de 2023 sobre úlceras digitales (PMID 36974107) y un ensayo aleatorizado de bosentán frente a nifedipino (PMID 36278776). No obstante, se superpone sustancialmente con las indicaciones originales del fármaco, por lo que no constituye un reposicionamiento novedoso. Las demás predicciones (síndrome de braquidactilia-sindactilia, gota, hipertricosis, entre otras) solo cuentan con la puntuación del modelo, sin respaldo clínico ni bibliográfico (nivel L5, Hold).
+Las predicciones (síndrome de braquidactilia-sindactilia, gota, hipertricosis, entre otras) solo cuentan con la puntuación del modelo, sin respaldo clínico ni bibliográfico (nivel L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

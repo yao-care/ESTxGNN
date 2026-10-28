@@ -6,9 +6,9 @@ nav_order: 467
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Levofloxacin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Infecciones bacterianas (infección estreptocócica…"
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+description: "Levofloxacin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
 ---
 
 # Levofloxacin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Levofloxacino: De Infecciones Bacterianas a Queratoconjuntivitis Epitelial Punteada
+## Levofloxacin: Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para la **queratoconjuntivitis 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones bacterianas (infección estreptocócica, neumonía bacteriana, infección por ántrax, sinusitis maxilar, conjuntivitis, pielonefritis, entre otras). Procede de las relaciones fármaco-enfermedad del grafo de conocimiento, ya que los textos de indicación de las autorizaciones españolas no estaban disponibles |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para la **queratoconjuntivitis 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida, levofloxacino es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas, con lo que impide la replicación del ADN y tiene efecto bactericida.
 
-La relación con la indicación original es indirecta. Levofloxacino ya se usa en conjuntivitis bacteriana, por lo que existe una justificación antiinfecciosa ocular. El alto puntaje del modelo probablemente refleja la cercanía en el grafo de conocimiento con las indicaciones de conjuntivitis ya conocidas.
+La relación con la indicación original es indirecta. Levofloxacino ya se usa en conjuntivitis bacteriana, por lo que existe una justificación antiinfecciosa ocular. El alto puntaje (0.9992) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Esta justificación tiene límites importantes. La única publicación recuperada describe un brote de queratoconjuntivitis por microsporidios, y las fluoroquinolonas no tienen actividad establecida contra estos organismos. No hay evidencia directa que respalde su uso en la queratoconjuntivitis epitelial punteada. La predicción debe considerarse una hipótesis computacional.
 

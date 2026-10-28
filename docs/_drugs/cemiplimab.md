@@ -4,17 +4,17 @@ title: Cemiplimab
 parent: Solo predicción del modelo (L5)
 nav_order: 162
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Cemiplimab: nueva indicación predicha, Carcinoma adenoescamoso de vesícula biliar (nivel de evidencia L5). Indicación original: Carcinoma escamoso (según el grafo de conocimiento"
 monitor_inn: "CEMIPLIMAB"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
+description: "Cemiplimab: nueva indicación predicha, Gallbladder adenosquamous carcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cemiplimab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Cemiplimab: De Carcinoma Escamoso a Carcinoma Adenoescamoso de Vesícula Biliar
+## Cemiplimab: Gallbladder adenosquamous carcinoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma escamoso (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Carcinoma adenoescamoso de vesícula biliar |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Gallbladder adenosquamous carcinoma |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,7 +95,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje TxGNN alto (99.99%), pero no cuenta con ensayos clínicos ni literatura que la respalden (nivel L5), y el mecanismo se apoya solo en conocimiento general de la clase farmacológica.
+La predicción tiene un puntaje TxGNN alto (0.9999), pero no cuenta con ensayos clínicos ni literatura que la respalden (nivel L5), y el mecanismo se apoya solo en conocimiento general de la clase farmacológica.
 
 **Para avanzar se necesita:**
 - Revisión de la literatura y de registros de ensayos específicos sobre carcinoma adenoescamoso de vesícula biliar y PD-1.

@@ -4,17 +4,17 @@ title: Dextromethorphan
 parent: Solo predicción del modelo (L5)
 nav_order: 244
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dextromethorphan: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común…"
 monitor_inn: "Dextromethorphan"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+description: "Dextromethorphan: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dextromethorphan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Dextrometorfano: De Rinitis Alérgica y Cuadros de Vías Respiratorias Altas a Enfermedad de la Cavidad Nasal
+## Dextromethorphan: Enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Dextrometorfano es un antitusivo de uso muy extendido, cuyas indicaciones originales en el grafo de conocimiento incluyen rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, nasofaringitis y cefalea.
+Dextrometorfano es un antitusivo de uso muy extendido, cuyas indicaciones originales incluyen rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, nasofaringitis y cefalea.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**, con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta dirección.
 La predicción se basa únicamente en el modelo (nivel de evidencia L5).
 
@@ -46,11 +46,11 @@ La predicción se basa únicamente en el modelo (nivel de evidencia L5).
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, rinitis, nasofaringitis y cefalea (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99,98% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ La predicción se basa únicamente en el modelo (nivel de evidencia L5).
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el dextrometorfano actúa como antagonista del receptor NMDA y agonista del receptor sigma-1, con actividad antitusiva central. Los datos farmacológicos compilados también lo asocian con GluN2C (GRIN2C), TAS2R1 y SIGMAR1.
 
-La predicción parece derivarse de la cercanía en el grafo con indicaciones nasales ya conocidas (rinitis y rinitis vasomotora). La enfermedad de la cavidad nasal es una categoría amplia que engloba esas condiciones, por lo que el resultado podría reflejar en gran parte un solapamiento con indicaciones existentes y no un uso realmente nuevo.
+La puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (rinitis y rinitis vasomotora), no evidencia biológica. La enfermedad de la cavidad nasal es una categoría amplia que engloba esas condiciones, por lo que el resultado podría reflejar en gran parte un solapamiento con indicaciones existentes y no un uso realmente nuevo.
 
 No se ha establecido un vínculo mecanístico directo entre el dextrometorfano y la patología nasal. Sin ensayos ni literatura, la razonabilidad de la predicción no puede verificarse.
 

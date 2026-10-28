@@ -50,9 +50,9 @@ La predicción se apoya únicamente en el puntaje del modelo y debe considerarse
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.57% |
+| Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

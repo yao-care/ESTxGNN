@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Cabazitaxel
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 129
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cabazitaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E dis
 # Cabazitaxel
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---

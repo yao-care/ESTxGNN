@@ -6,9 +6,9 @@ nav_order: 654
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: Dispareunia (según el grafo de conocimiento: lupus eritematoso sistém…"
 monitor_inn: "prasterone"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
+description: "Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Prasterone
@@ -33,12 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Prasterona: De Dispareunia Psicológica a Deficiencia del Cofactor 2 de la Heparina
+## Prasterone: Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Prasterona (DHEA) es un precursor de andrógenos y estrógenos, utilizado originalmente en dispareunia (dolor durante las relaciones sexuales) y con indicaciones asociadas en lupus eritematoso sistémico según el grafo de conocimiento.
+Prasterona (DHEA) es un precursor de andrógenos y estrógenos, utilizado originalmente en dispareunia (dolor durante las relaciones sexuales).
 El modelo TxGNN predice que podría ser efectivo para **deficiencia del cofactor 2 de la heparina**,
 pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata de una predicción puramente basada en el modelo.
 
@@ -46,21 +46,21 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dispareunia (según el grafo de conocimiento: lupus eritematoso sistémico, lupus eritematoso sistémico pediátrico y dispareunia psicológica; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la prasterona es un precursor hormonal (DHEA) que se convierte localmente en andrógenos y estrógenos. Su eficacia se ha establecido en la atrofia vulvovaginal con dispareunia, y se ha estudiado por sus propiedades inmunomoduladoras en el lupus.
 
-Para la deficiencia del cofactor 2 de la heparina (SERPIND1), **no se ha identificado un vínculo mecanístico establecido**. La puntuación del modelo es muy alta (0,9999), pero es solo una predicción basada en proximidad dentro del grafo. Cualquier relación sería especulativa, por ejemplo, mediante una modulación hormonal de la síntesis hepática de proteínas de coagulación.
+Para la deficiencia del cofactor 2 de la heparina (SERPIND1), **no se ha identificado un vínculo mecanístico establecido**. La puntuación del modelo es muy alta (0,9999), pero proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Cualquier relación sería especulativa, por ejemplo, mediante una modulación hormonal de la síntesis hepática de proteínas de coagulación.
 
-Conviene señalar que el resto de las predicciones principales corresponden también a trastornos de la coagulación (factor V, antitrombina, trombofilia, deficiencia de proteína S, etc.) y carecen igualmente de respaldo clínico. La única predicción con una justificación biológica algo más plausible es la **esclerodermia** (posición 7, puntuación 99,11%), por su cercanía con el lupus y las propiedades inmunomoduladoras de la DHEA; requeriría una búsqueda bibliográfica específica antes de avanzar.
+Conviene señalar que el resto de las predicciones principales corresponden también a trastornos de la coagulación (factor V, antitrombina, trombofilia, deficiencia de proteína S, etc.) y carecen igualmente de respaldo clínico. La única predicción con una justificación biológica algo más plausible es la **esclerodermia** (posición 7, puntuación 0,9911), por su cercanía con el lupus y las propiedades inmunomoduladoras de la DHEA; requeriría una búsqueda bibliográfica específica antes de avanzar.
 
 ## Evidencia de Ensayos Clínicos
 

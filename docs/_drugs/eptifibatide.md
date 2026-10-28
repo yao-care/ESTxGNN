@@ -6,9 +6,9 @@ nav_order: 299
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Eptifibatide: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Síndrome coronario agudo (según el grafo de conocimiento"
 monitor_inn: "Eptifibatide"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
+description: "Eptifibatide: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Eptifibatide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Eptifibatida: De Síndrome Coronario Agudo a Artritis Reumatoide
+## Eptifibatide: Artritis reumatoide (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome coronario agudo (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no vienen informados) |
-| Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis reumatoide (rheumatoid arthritis) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
+| Número de Autorizaciones | 4 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

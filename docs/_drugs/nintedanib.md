@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nintedanib
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 568
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nintedanib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L4). Indicación original: Cáncer de pulmón no microcítico y fibrosis pulmonar idiopática (según…"
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
+description: "Nintedanib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Nintedanib: De Cáncer de Pulmón y Fibrosis Pulmonar a Dermatofibrosarcoma Protuberans
+## Nintedanib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente solo hay **0 ensayos clínicos** y **1 publicación** (una revi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico y fibrosis pulmonar idiopática (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Dermatofibrosarcoma protuberans |
-| Puntaje de Predicción TxGNN | 99,15% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Puntaje de Predicción TxGNN | 0.9915 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 4) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99,15%) y una base mecanística plausible (PDGFR-beta en DFSP), pero la evidencia es solo indirecta (una revisión de clase), sin ensayos clínicos y con imatinib como comparador establecido. Es una pregunta de investigación más que una candidata lista para avanzar.
+La predicción tiene un puntaje alto (0,9915) y una base mecanística plausible (PDGFR-beta en DFSP), pero la evidencia es solo indirecta (una revisión de clase), sin ensayos clínicos y con imatinib como comparador establecido. Es una pregunta de investigación más que una candidata lista para avanzar.
 
 **Para avanzar se necesita:**
 - Datos de estudios preclínicos de nintedanib en modelos de DFSP (líneas celulares con fusión COL1A1-PDGFB).

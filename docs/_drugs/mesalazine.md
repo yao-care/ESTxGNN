@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Solo predicción del modelo (L5)
 nav_order: 508
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (nivel de evidencia L5). Indicación original: Colitis ulcerosa"
 monitor_inn: "Mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy) (nivel de evidencia L5). Indicación original: No…"
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Mesalazina: De Colitis Ulcerosa a Hipotricosis Congénita con Distrofia Macular Juvenil
+## Mesalazine: Hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,11 +50,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Colitis ulcerosa; enfermedad inflamatoria intestinal; proctosigmoiditis ulcerosa (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Hipotricosis congénita con distrofia macular juvenil |
-| Puntaje de Predicción TxGNN | 99,65% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy) |
+| Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la mesalazina es el componente 5-ASA, con actividad antiinflamatoria local en la mucosa intestinal, y su eficacia en colitis ulcerosa está bien establecida. Los datos farmacológicos compilados indican interacción con el receptor PPAR-γ (receptor activado por proliferadores de peroxisomas gamma).
 
-Para esta indicación concreta **no se identificó ningún vínculo mecanístico**. La hipotricosis congénita con distrofia macular juvenil es un trastorno genético ultrarraro (mutaciones en CDH3) sin una vía inflamatoria conocida que la mesalazina module. El puntaje alto de TxGNN (0,996) refleja una predicción basada únicamente en la estructura del grafo, no en evidencia biológica o clínica.
+Para esta indicación concreta **no se identificó ningún vínculo mecanístico**. La hipotricosis congénita con distrofia macular juvenil es un trastorno genético ultrarraro (mutaciones en CDH3) sin una vía inflamatoria conocida que la mesalazina module. El puntaje alto de TxGNN (0,9965) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica.
 
 ---
 
@@ -114,9 +114,8 @@ La predicción principal carece de ensayos, literatura y mecanismo plausible; es
 
 | Indicación | Puntaje TxGNN | Nivel | Valoración |
 |---|---|---|---|
-| Artrosis | 99,63% | L5 | Hold. Mecanismo plausible pero no probado (inflamación sinovial, NF-κB/PPAR-γ); un único estudio transcriptómico de 2024 (PMID 38491514), sin ensayos clínicos. |
-| Artritis reumatoide | 99,57% | L4 | Pregunta de investigación. La literatura es mayoritariamente sobre sulfasalazina, farmacocinética y reacciones adversas; la actividad antirreumática se atribuye sobre todo a la sulfapiridina, no al 5-ASA. No demuestra beneficio. |
-| Queratosis seborreica, susceptibilidad a artrosis, queratosis folicular invertida vulvar, pseudoacondroplasia | 99,18%–99,50% | L5 | Hold. Sin vínculo mecanístico ni evidencia; la susceptibilidad a artrosis probablemente duplica el nodo de artrosis. |
+| Artrosis | 0,9963 | L5 | Hold. Mecanismo plausible pero no probado (inflamación sinovial, NF-κB/PPAR-γ); un único estudio transcriptómico de 2024 (PMID 38491514), sin ensayos clínicos. |
+| Artritis reumatoide | 0,9957 | L4 | Pregunta de investigación. La literatura es mayoritariamente sobre sulfasalazina, farmacocinética y reacciones adversas; la actividad antirreumática se atribuye sobre todo a la sulfapiridina, no al 5-ASA. No demuestra beneficio. |
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) de la mesalazina para analizar posibles vínculos mecanísticos.

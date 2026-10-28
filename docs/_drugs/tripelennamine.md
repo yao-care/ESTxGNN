@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tripelennamine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 829
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Tripelennamine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Las autorizaciones españolas no incluyen texto de indicación"
 monitor_inn: "tripelennamine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis"]
+description: "Tripelennamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tripelennamine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Tripelennamina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+## Tripelennamine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Tripelennamina es un antihistamínico H1 de primera generación, utilizado originalmente para cuadros alérgicos como la rinitis alérgica, la urticaria y el angioedema.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**,
 pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** (un informe de experiencia clínica de 1954 sobre un preparado combinado) que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Las autorizaciones españolas no incluyen texto de indicación; según el grafo de conocimiento, rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, conjuntivitis atópica, urticaria y angioedema, entre otras |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99,98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nasal cavity disease |
+| Puntaje de Predicción TxGNN | 0.9959 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La urticaria alérgica es un subtipo de la urticaria, que ya figura entre las indicaciones originales. Está mediada por la liberación de histamina desde los mastocitos, por lo que el bloqueo del receptor H1 es plausible. Se trata, en gran medida, de una extensión dentro de la indicación existente y no de un reposicionamiento genuino.
 
-El puntaje TxGNN muy alto (0,9998) probablemente refleja esa cercanía con las indicaciones ya conocidas. La única publicación disponible es de 1954 y describe un preparado antialérgico combinado, por lo que no es posible aislar la contribución de tripelennamina por sí sola.
+La única publicación disponible es de 1954 y describe un preparado antialérgico combinado, por lo que no es posible aislar la contribución de tripelennamina por sí sola.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -105,10 +104,8 @@ La predicción es mecanísticamente plausible, pero está muy próxima a una ind
 
 | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
 |------|------|------|------|
-| Urticaria por frío | 99,87% | L5 | Plausible por antagonismo H1, pero sin ensayos ni literatura; se prefieren antihistamínicos de segunda generación |
-| Enfermedad de la cavidad nasal | 99,59% | L5 | Categoría demasiado inespecífica; solapa con la rinitis ya indicada |
-| Laringofaringitis aguda | 99,53% | L5 | Cercana a faringitis y resfriado; posible beneficio solo por efecto anticolinérgico secante |
-| Dermatitis atópica refractaria | 99,11% | L5 | Poco probable que responda al bloqueo H1; existen biológicos e inhibidores JAK |
+| Enfermedad de la cavidad nasal | 0,9959 | L5 | Categoría demasiado inespecífica; solapa con la rinitis ya indicada |
+| Dermatitis atópica refractaria | 0,9911 | L5 | Poco probable que responda al bloqueo H1; existen biológicos e inhibidores JAK |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

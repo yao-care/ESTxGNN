@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 504
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L4). Indicación original: Neumonía eosinofílica / eosinofilia pulmonar"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
+description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Mepolizumab: De Neumonía Eosinofílica a Trombocitopenia por Destrucción Inmune
+## Mepolizumab: Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** (u
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumonía eosinofílica / eosinofilia pulmonar (según el grafo de conocimiento; el texto de indicación autorizado no está disponible en las licencias) |
-| Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
-| Puntaje de Predicción TxGNN | 99.66% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) |
+| Puntaje de Predicción TxGNN | 0.9966 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Mepolizumab es un anticuerpo monoclonal que bloquea la interleucina-5 (IL-5) y, 
 
 La relación con la nueva indicación es limitada. Un vínculo plausible solo existiría en el subgrupo de pacientes en que una desregulación inmune impulsada por eosinófilos (por ejemplo, síndrome hipereosinofílico con diátesis inmune resistente a esteroides) contribuya a la destrucción de plaquetas. No hay evidencia de que el bloqueo de IL-5 actúe sobre los mecanismos centrales de la trombocitopenia inmune primaria (aclaramiento plaquetario mediado por autoanticuerpos y receptores Fc, y alteración de la megacariopoyesis).
 
-El puntaje TxGNN muy alto (0.997) es una predicción computacional y no sustituye a los datos clínicos. Las otras indicaciones predichas (trastorno primario de liberación plaquetaria, pseudo-enfermedad de von Willebrand, trombocitopenia autoinmune y trombastenia de Glanzmann) tienen aún menos respaldo mecanístico; la entrada "trombocitopenia autoinmune" se solapa conceptualmente con la analizada aquí y debería reconciliarse para no duplicar la evaluación de evidencia.
+El puntaje TxGNN muy alto (0.9966) es una predicción computacional y no sustituye a los datos clínicos. Las otras indicaciones predichas (trastorno primario de liberación plaquetaria, pseudo-enfermedad de von Willebrand, trombocitopenia autoinmune y trombastenia de Glanzmann) tienen aún menos respaldo mecanístico; la entrada "trombocitopenia autoinmune" se solapa conceptualmente con la analizada aquí y debería reconciliarse para no duplicar la evaluación de evidencia.
 
 ## Evidencia de Ensayos Clínicos
 

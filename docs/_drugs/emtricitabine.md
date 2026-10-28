@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 288
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Emtricitabine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
 monitor_inn: "Emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Emtricitabine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los dat…"
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Emtricitabina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Emtricitabine: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ Se trata de una indicación veterinaria, fuera del alcance del reposicionamiento
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus con una transcriptasa inversa relacionada, por lo que la actividad de los NRTI es biológicamente plausible. La única publicación disponible (2023) evalúa una terapia antirretroviral combinada (dolutegravir, tenofovir y emtricitabina) en gatos infectados por FIV, por lo que aporta evidencia indirecta para emtricitabina en particular.
 
-El puntaje TxGNN muy alto (0,999) probablemente refleja la similitud con el VIH y no una validación clínica independiente. Al ser una indicación veterinaria, queda fuera del ámbito del reposicionamiento en humanos.
+Al ser una indicación veterinaria, queda fuera del ámbito del reposicionamiento en humanos.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -103,8 +103,8 @@ La predicción se apoya solo en un estudio preclínico/veterinario indirecto, si
 
 ### Nota sobre otras predicciones del modelo
 
-- **Infección por virus de inmunodeficiencia simia (SIV)** (puntaje 99.92%, nivel L4): hay numerosos estudios preclínicos en macacos que respaldan la profilaxis preexposición con emtricitabina combinada con tenofovir. Es un modelo traslacional del VIH ya aprobado en humanos, no una nueva indicación humana.
-- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical** (puntaje 99.92%, nivel L5): sin vínculo mecanístico identificado ni evidencia; probablemente un artefacto del grafo de conocimiento.
+- **Infección por virus de inmunodeficiencia simia (SIV)** (puntaje 0.9992, nivel L4): hay numerosos estudios preclínicos en macacos que respaldan la profilaxis preexposición con emtricitabina combinada con tenofovir. Es un modelo traslacional del VIH ya aprobado en humanos, no una nueva indicación humana.
+- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical** (puntaje 0.9992, nivel L5): sin vínculo mecanístico identificado ni evidencia; probablemente un artefacto del modelo TxGNN (aprendizaje profundo).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

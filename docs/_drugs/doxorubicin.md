@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: Evidencia alta (L1-L2)
 nav_order: 264
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Doxorubicin: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda y linfomas (Hodgkin y no Hodgkin)…"
 monitor_inn: "doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
+description: "Doxorubicin: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Doxorrubicina: De Leucemia Linfoblástica Aguda y Linfomas a Sarcoma de Ewing
+## Doxorubicin: Sarcoma de Ewing (Ewing sarcoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **30 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfoblástica aguda y linfomas (Hodgkin y no Hodgkin), según el grafo de conocimiento (el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Sarcoma de Ewing |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Sarcoma de Ewing (Ewing sarcoma) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre el nivel de evidencia:** los datos compilados asignan L2 a esta indicación, pero según los criterios de nivel (≥2 ECA de Fase 3 completados) se observan al menos cuatro ensayos de Fase 3 completados con regímenes que contienen doxorrubicina (NCT00006734, NCT01231906, NCT02063022, entre otros). Por ello se indica L1; no obstante, estos ensayos evalúan intensificaciones o adiciones sobre una base de quimioterapia que ya incluye doxorrubicina, no la doxorrubicina de forma aislada. Se recomienda revisar esta asignación de manera conservadora (L1–L2).

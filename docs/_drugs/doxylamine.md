@@ -4,17 +4,17 @@ title: Doxylamine
 parent: Solo predicción del modelo (L5)
 nav_order: 266
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Doxylamine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (las autorizaciones de AEMPS no incluyen texto de in…"
 monitor_inn: "Doxylamine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Doxylamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Doxylamine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,23 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Doxilamina: De Rinitis Alérgica a Urticaria Alérgica
+## Doxylamine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Doxilamina es un antihistamínico H1 de primera generación, cuyas indicaciones de partida en el grafo de conocimiento incluyen la rinitis alérgica, el resfriado común y la urticaria.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, con un puntaje del 99.85%.
 Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (las autorizaciones de AEMPS no incluyen texto de indicación; se toma la primera indicación del grafo de conocimiento) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nasal cavity disease |
+| Puntaje de Predicción TxGNN | 0.9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 18 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

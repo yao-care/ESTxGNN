@@ -48,10 +48,10 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Exceso de factor V con trombosis espontánea |
-| Puntaje de Predicción TxGNN | 99.60% |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -64,10 +64,10 @@ Sin embargo, el exceso de factor V es un trastorno de la cascada de coagulación
 
 | Rango | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |---|---|---|---|---|
-| 2 | Deficiencia de cofactor II de la heparina | 99.59% | L5 | Hold |
-| 3 | Deficiencia de antitrombina tipo 2 | 99.59% | L5 | Hold |
-| 4 | Trombofilia | 99.45% | L4 | Pregunta de investigación |
-| 5 | Artritis reumatoide | 99.29% | L5 | Hold |
+| 2 | Deficiencia de cofactor II de la heparina | 0.9959 | L5 | Hold |
+| 3 | Deficiencia de antitrombina tipo 2 | 0.9959 | L5 | Hold |
+| 4 | Trombofilia | 0.9945 | L5 | Pregunta de investigación |
+| 5 | Artritis reumatoide | 0.9929 | L5 | Hold |
 
 La trombofilia es la predicción con más respaldo indirecto: una publicación de 1993 (PMID 8200721) describe el efecto del triflusal sobre la función plaquetaria en pacientes con riesgo trombogénico por hiperagregación plaquetaria. Es solo evidencia farmacodinámica indirecta.
 

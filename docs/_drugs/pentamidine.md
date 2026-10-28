@@ -6,9 +6,9 @@ nav_order: 622
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Pentamidine: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Neumocistosis…"
 monitor_inn: "Pentamidine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "exposure keratitis", "non-human animal disease", "congenital analbuminemia"]
+description: "Pentamidine: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pentamidine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Pentamidina: De Neumocistosis a Queratoconjuntivitis Epitelial Punteada
+## Pentamidine: Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumocistosis, tripanosomiasis africana humana y tripanosomiasis (según el grafo de conocimiento; el texto de indicación de la autorización española está vacío) |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99,73% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la pentamidina en los datos compilados para este informe. Según la información conocida, pentamidina es un agente antiprotozoario y antifúngico, con eficacia establecida en infecciones como la neumocistosis y la tripanosomiasis.
 
-La relación con la nueva indicación es débil. Los datos no respaldan ningún vínculo mecanístico entre la pentamidina y la queratoconjuntivitis epitelial punteada. El puntaje de 0,997 es una predicción computacional sin ensayos ni literatura detrás. Cualquier justificación antimicrobiana o antiinflamatoria para una enfermedad de la superficie ocular sería especulativa.
+La relación con la nueva indicación es débil. Los datos no respaldan ningún vínculo mecanístico entre la pentamidina y la queratoconjuntivitis epitelial punteada. El puntaje de 0,9973 es una predicción computacional sin ensayos ni literatura detrás. Cualquier justificación antimicrobiana o antiinflamatoria para una enfermedad de la superficie ocular sería especulativa.
 
 Además, la toxicidad sistémica conocida de la pentamidina (nefrotoxicidad, alteraciones de la glucemia, prolongación del QT) y su elevada carga de interacciones farmacológicas pesarían en contra de su uso sin una justificación clara.
 

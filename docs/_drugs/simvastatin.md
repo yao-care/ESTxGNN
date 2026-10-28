@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 738
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Simvastatin: nueva indicación predicha, Hipercolesterolemia familiar (nivel de evidencia L1). Indicación original: Hipertrigliceridemia (según la base de conocimiento"
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: nueva indicación predicha, Brain stem infarction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **8**
 
 </div>
 
-## Simvastatina: De Hipertrigliceridemia e Hiperlipoproteinemia a Hipercolesterolemia Familiar
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ con **8 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertrigliceridemia (según la base de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Hipercolesterolemia familiar |
-| Puntaje de Predicción TxGNN | 99.63% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Brain stem infarction |
+| Puntaje de Predicción TxGNN | 0.9941 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -144,13 +144,11 @@ Existen varios ensayos de Fase 3 completados (incluido el ENHANCE, con 720 pacie
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Recomendación |
 |------|------|------|------|
-| Hipercolesterolemia autosómica dominante | 99.36% | L1 | Proceed with Guardrails (mayormente dentro de indicación) |
-| Infarto del tronco encefálico | 99.41% | L5 | Hold |
-| Deficiencia de la proteína de transferencia de ésteres de colesterol | 99.39% | L5 | Hold |
-| Hipercolesterolemia por deficiencia de colesterol 7α-hidroxilasa | 99.27% | L5 | Hold |
-| Infección por VIH | 99.22% | L3 | Research Question (el interés es la dislipidemia asociada a antirretrovirales; simvastatina suele evitarse por interacciones) |
-| Amiloidosis ABri | 99.13% | L5 | Hold |
-| Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de sustancia blanca cortical | 99.10% | L5 | Hold |
+| Infarto del tronco encefálico | 0.9941 | L5 | Hold |
+| Deficiencia de la proteína de transferencia de ésteres de colesterol | 0.9939 | L5 | Hold |
+| Infección por VIH | 0.9922 | L3 | Research Question (el interés es la dislipidemia asociada a antirretrovirales; simvastatina suele evitarse por interacciones) |
+| Amiloidosis ABri | 0.9913 | L5 | Hold |
+| Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de sustancia blanca cortical | 0.9910 | L5 | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

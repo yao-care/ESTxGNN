@@ -4,17 +4,17 @@ title: Mercaptopurine
 parent: Evidencia alta (L1-L2)
 nav_order: 506
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L2). Indicación original: Leucemia linfoblástica aguda (según el grafo de conocimiento"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Mercaptopurina: De Leucemia Linfoblástica Aguda a Leucemia Mieloide
+## Mercaptopurine: Leucemia mieloide (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para **leucemia mieloide**, con
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfoblástica aguda (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99,94% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tranexamic Acid
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 813
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Endometriosis (según el grafo de conocimiento"
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tranexamic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Ácido tranexámico: De Endometriosis a Amenorrea
+## Tranexamic Acid: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El ácido tranexámico es un antifibrinolítico utilizado originalmente en el contexto de la endometriosis (según las indicaciones del grafo de conocimiento) y comercializado en España en múltiples formulaciones.
+El ácido tranexámico es un antifibrinolítico utilizado originalmente en el contexto de la endometriosis y comercializado en España en múltiples formulaciones.
 El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero actualmente no hay ensayos clínicos registrados y solo **2 publicaciones** (ambas revisiones) abordan el tema de forma indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Endometriosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,19% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
+| Puntaje de Predicción TxGNN | 0.9919 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, **la plausibilidad biológica de esta predicción es baja**. La amenorrea (ausencia de menstruación) es lo opuesto a un trastorno hemorrágico, por lo que un vínculo terapéutico directo es poco creíble. La única conexión razonable es indirecta: en pacientes con trastornos de la coagulación, con anticoagulación o con neoplasias hematológicas, el ácido tranexámico puede formar parte de un régimen de profilaxis o supresión de la menstruación junto con agentes hormonales, reduciendo el sangrado, no tratando la amenorrea en sí.
 
-El puntaje elevado de TxGNN (0,99) probablemente refleja la proximidad en el grafo de conocimiento entre trastornos menstruales (endometriosis, sangrado uterino anormal) y no una señal terapéutica real. La falta de datos de mecanismo de acción original limita una validación mecanística adicional.
+El puntaje elevado de TxGNN (0,9919) proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas (trastornos menstruales como la endometriosis o el sangrado uterino anormal), no evidencia biológica ni una señal terapéutica real. La falta de datos de mecanismo de acción original limita una validación mecanística adicional.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ Destaca el riesgo trombótico al combinar con estrógenos o progestágenos, rele
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo (nivel L4), sin ensayos clínicos y con literatura indirecta. Además, el mecanismo antifibrinolítico es biológicamente contrario a la naturaleza de la amenorrea, por lo que el puntaje alto probablemente es un artefacto del grafo de conocimiento.
+La predicción se apoya únicamente en el modelo (nivel L4), sin ensayos clínicos y con literatura indirecta. Además, el mecanismo antifibrinolítico es biológicamente contrario a la naturaleza de la amenorrea, por lo que el puntaje alto probablemente es un artefacto del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), lo cual es un requisito bloqueante para el cribado de seguridad.

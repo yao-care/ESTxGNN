@@ -6,9 +6,9 @@ nav_order: 624
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Pentostatin: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (nivel de evidencia L5). Indicación original: Leucemia de células peludas (según el grafo de conocimiento"
 monitor_inn: "pentostatin"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma"]
+description: "Pentostatin: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (nivel de evidencia L5). Indicación original: No const…"
 ---
 
 # Pentostatin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Pentostatina: De Leucemia de Células Peludas a Rabdomiosarcoma Embrionario Botrioide de Vagina
+## Pentostatin: Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia de células peludas (según el grafo de conocimiento; el texto de indicación de la autorización de AEMPS está vacío) |
-| Nueva Indicación Predicha | Rabdomiosarcoma embrionario botrioide de vagina |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la nueva indicación es débil. El rabdomiosarcoma embrionario botrioide de vagina es un tumor sólido pediátrico, biológicamente distinto de las neoplasias linfoides. Los datos compilados no respaldan un vínculo mecanístico entre la inhibición de ADA y la biología de este tumor. Una hipótesis general es que la alteración del metabolismo de purinas podría afectar a células tumorales de proliferación rápida, pero no está validada.
 
-El puntaje elevado (0.995) es una predicción basada en grafos y probablemente refleja la cercanía en la ontología de enfermedades, no biología específica del fármaco. Las otras seis predicciones principales (rabdomiosarcoma parameníngeo, rabdomiosarcoma en general, rabdomiosarcoma de vías biliares extrahepáticas en dos variantes, rabdomiosarcoma embrionario de próstata y sarcoma hepático) tampoco cuentan con ensayos ni literatura.
+El puntaje elevado (0.9954) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Las otras seis predicciones principales (rabdomiosarcoma parameníngeo, rabdomiosarcoma en general, rabdomiosarcoma de vías biliares extrahepáticas en dos variantes, rabdomiosarcoma embrionario de próstata y sarcoma hepático) tampoco cuentan con ensayos ni literatura.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vitamina A: De Deficiencia Vitamínica a Enfermedad Perinatal
+## Vitamina A: De Deficiencia Vitamínica a Deficiencia congénita de protrombina
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,21 +49,21 @@ El modelo TxGNN asigna su puntuación más alta a la **deficiencia congénita de
 |------|------|
 | Indicación Original | Trastorno por deficiencia vitamínica / deficiencia de vitamina A (la ficha de las autorizaciones españolas no incluye texto de indicación) |
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina (primera predicción del modelo; ver nota abajo) |
-| Puntaje de Predicción TxGNN | 99,97 % |
+| Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 **Nota:** la primera predicción no cuenta con ensayos clínicos ni literatura, y su vínculo con la vitamina A es especulativo. Entre las 10 predicciones evaluadas, las de mayor interés son:
 
 | Predicción | Puntaje TxGNN | Nivel | Decisión |
 |------|------|------|------|
-| Enfermedad perinatal | 99,63 % | L2 | Pregunta de investigación |
-| Lesión (injury) | 99,69 % | L2 | Pregunta de investigación |
-| Trastorno de proliferación celular | 99,64 % | L4 | Hold |
-| Trastorno inducido por radiación o agentes químicos | 99,63 % | L4 | Hold |
-| Las 6 restantes (incluida la deficiencia congénita de protrombina) | 99,63 %–99,97 % | L5 | Hold |
+| Enfermedad perinatal | 0,9963 | L2 | Pregunta de investigación |
+| Lesión (injury) | 0,9969 | L2 | Pregunta de investigación |
+| Trastorno de proliferación celular | 0,9964 | L4 | Hold |
+| Trastorno inducido por radiación o agentes químicos | 0,9963 | L4 | Hold |
+| Las 6 restantes (incluida la deficiencia congénita de protrombina) | 0,9963–0,9997 | L5 | Hold |
 
 ---
 
@@ -141,7 +141,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (deficiencia congénita de protrombina) es solo una predicción del grafo, sin ensayos ni literatura, y sin mecanismo plausible. La mejor respaldada es la enfermedad perinatal (L2, revisiones Cochrane con efecto modesto), pero el único ensayo listado es indirecto. Podría avanzar como pregunta de investigación con salvaguardas de dosis.
+La predicción principal (deficiencia congénita de protrombina) es solo una predicción del modelo TxGNN (aprendizaje profundo), que puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura, y no hay mecanismo plausible. La mejor respaldada es la enfermedad perinatal (L2, revisiones Cochrane con efecto modesto), pero el único ensayo listado es indirecto. Podría avanzar como pregunta de investigación con salvaguardas de dosis.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de la AEMPS (carencias actuales).

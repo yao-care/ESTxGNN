@@ -46,10 +46,10 @@ Regadenoson es un agonista selectivo del receptor de adenosina A2A, utilizado co
 |------|------|
 | Indicación Original | No disponible en la autorización de AEMPS (uso diagnóstico en MPI según datos farmacológicos) |
 | Nueva Indicación Predicha | Anafilaxia |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -58,15 +58,15 @@ Los datos compilados para este informe no incluyen el mecanismo de acción detal
 
 El vínculo teórico con la anafilaxia es que la señalización A2A puede suprimir la activación de mastocitos y otras células inflamatorias. Esto sugiere, de forma especulativa, un posible efecto modulador sobre la degranulación mastocitaria.
 
-Sin embargo, existe una contradicción importante: regadenoson causa vasodilatación e hipotensión, lo que podría agravar el shock anafiláctico. Además, se administra como bolo único, lo que no encaja con un uso crónico o preventivo. El alto puntaje del modelo (0.998) no está respaldado por ninguna evidencia clínica en los datos disponibles.
+Sin embargo, existe una contradicción importante: regadenoson causa vasodilatación e hipotensión, lo que podría agravar el shock anafiláctico. Además, se administra como bolo único, lo que no encaja con un uso crónico o preventivo. El alto puntaje del modelo (0.9985) no está respaldado por ninguna evidencia clínica en los datos disponibles.
 
 **Otras predicciones del modelo (todas con nivel L5 y decisión Hold):**
 
 | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Anafilaxia inducida por ejercicio dependiente de alimentos | 99.74% | Solo vínculo general antiinflamatorio A2A en mastocitos; el estrés hemodinámico y la vasodilatación plantean preocupación de seguridad |
-| Esotropía | 99.12% | Sin vínculo mecanístico creíble; probable falso positivo (artefacto del grafo de conocimiento) |
-| Pseudoalergia | 99.12% | Vínculo especulativo por inhibición de la degranulación mastocitaria; uso práctico limitado |
+| Anafilaxia inducida por ejercicio dependiente de alimentos | 0.9974 | Solo vínculo general antiinflamatorio A2A en mastocitos; el estrés hemodinámico y la vasodilatación plantean preocupación de seguridad |
+| Esotropía | 0.9912 | Sin vínculo mecanístico creíble; probable falso positivo (artefacto del modelo TxGNN (aprendizaje profundo)) |
+| Pseudoalergia | 0.9912 | Vínculo especulativo por inhibición de la degranulación mastocitaria; uso práctico limitado |
 
 ## Evidencia de Ensayos Clínicos
 

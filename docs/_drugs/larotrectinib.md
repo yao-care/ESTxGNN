@@ -46,10 +46,10 @@ Larotrectinib es un inhibidor selectivo de los receptores TRK (TRKA/B/C), comerc
 |------|------|
 | Indicación Original | No disponible en los textos de autorización compilados (el fármaco está autorizado como inhibidor de TRK para tumores sólidos con fusión NTRK) |
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
-| Puntaje de Predicción TxGNN | 99,24% |
-| Nivel de Evidencia | L3 (según la clasificación de los datos compilados; en la práctica, evidencia indirecta y débil) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Puntaje de Predicción TxGNN | 0,9924 |
+| Nivel de Evidencia | L5 (según la clasificación de los datos compilados; en la práctica, evidencia indirecta y débil) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -58,7 +58,7 @@ Los datos compilados no incluyen el mecanismo de acción detallado. Según la in
 
 La neoplasia endocrina múltiple (en particular la MEN2) está causada por mutaciones germinales activadoras de **RET**, una quinasa distinta de TRK. Larotrectinib no tiene actividad relevante sobre RET, por lo que no existe un vínculo mecanístico directo. Solo podría haberlo en los poco frecuentes tumores con fusión NTRK que aparecen en tejidos relacionados (por ejemplo, tiroides).
 
-El puntaje alto de TxGNN (0,99) probablemente refleja la proximidad en la red de conocimiento con el cáncer de tiroides y otros inhibidores de quinasas, y no una relación validada entre fármaco y diana. La literatura disponible lo confirma: un trabajo trata la resistencia a inhibidores selectivos de RET y la otra es una revisión general sobre inhibidores de quinasas en cáncer de tiroides. Esta predicción debe considerarse una pregunta de investigación, no una hipótesis respaldada.
+El puntaje alto del modelo TxGNN (aprendizaje profundo) (0,9924) proviene del modelo y puede reflejar similitudes que este aprendió entre enfermedades relacionadas, no evidencia biológica ni una relación validada entre fármaco y diana. La literatura disponible lo confirma: un trabajo trata la resistencia a inhibidores selectivos de RET y la otra es una revisión general sobre inhibidores de quinasas en cáncer de tiroides. Esta predicción debe considerarse una pregunta de investigación, no una hipótesis respaldada.
 
 ## Evidencia de Ensayos Clínicos
 

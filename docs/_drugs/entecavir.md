@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Entecavir
-parent: Solo predicción del modelo (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 292
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis B (los textos de in…"
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos local…"
 ---
 
 # Entecavir
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Entecavir: De Infección Crónica por el Virus de la Hepatitis B a Infección Crónica por el Virus de la Hepatitis C
+## Entecavir: Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Los estudios identificados se refieren a la coinfección VHC/VHB, en la que ente
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis B (los textos de indicación de las autorizaciones españolas no están disponibles; se toma la indicación del grafo de conocimiento) |
-| Nueva Indicación Predicha | Infección crónica por el virus de la hepatitis C |
-| Puntaje de Predicción TxGNN | 99,98% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L4 (solo evidencia indirecta; ningún estudio real en VHC) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -128,7 +128,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La alta puntuación del modelo (99,98%) no está respaldada por evidencia directa. Los dos ensayos y la literatura tratan la coinfección VHC/VHB, donde entecavir actúa sobre el VHB, y no existe plausibilidad mecanística contra el VHC. Además, el VHC ya dispone de antivirales de acción directa muy eficaces.
+La alta puntuación del modelo (0,9998) no está respaldada por evidencia directa. Los dos ensayos y la literatura tratan la coinfección VHC/VHB, donde entecavir actúa sobre el VHB, y no existe plausibilidad mecanística contra el VHC. Además, el VHC ya dispone de antivirales de acción directa muy eficaces.
 
 **Para avanzar se necesita:**
 - Datos de actividad antiviral de entecavir contra el VHC (estudios in vitro o preclínicos), que hoy no existen en los datos compilados.

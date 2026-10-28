@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Carfilzomib
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 148
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Carfilzomib: nueva indicación predicha, Melanoma (nivel de evidencia L4). Indicación original: Mieloma de células plasmáticas (según la base de conocimiento TxGNN"
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
+last_modified_at: 2026-10-27
+description: "Carfilzomib: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Carfilzomib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,72 +33,52 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Carfilzomib: De Mieloma de Células Plasmáticas a Melanoma
+## Carfilzomib: inhibidor del proteasoma → CMM7 (CMM7)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Carfilzomib es un inhibidor del proteasoma, originalmente utilizado para el tratamiento del mieloma de células plasmáticas.
-El modelo TxGNN predice que podría ser efectivo para **melanoma**, con **0 ensayos clínicos** y **4 publicaciones** (todas preclínicas, computacionales o mecanísticas) que actualmente respaldan esta dirección.
-
----
+Carfilzomib es un inhibidor del proteasoma que actualmente se comercializa en España.
+El modelo TxGNN predice que podría ser efectivo para **CMM7 (CMM7)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Mieloma de células plasmáticas (según la base de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Melanoma |
-| Puntaje de Predicción TxGNN | 99,03 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | CMM7 (CMM7) |
+| Puntaje de Predicción TxGNN | 0,9937 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
-
-**Nota sobre la selección de la indicación:** el candidato con mayor puntaje es "CMM7" (99,37 %), seguido de melanoma leptomeníngeo pediátrico (99,30 %), melanoma uveal de células epitelioides (99,23 %) y melanoma vulvar (99,19 %). Los cuatro carecen de ensayos clínicos y de literatura (nivel L5, decisión Hold). Este informe se centra en **melanoma** por ser la única predicción con literatura de apoyo, aunque no sea la primera de la lista.
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, carfilzomib es un inhibidor del proteasoma. Su eficacia en el mieloma de células plasmáticas ha sido comprobada, y mecanísticamente podría ser aplicable al melanoma.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase conocida, carfilzomib es un inhibidor del proteasoma, y mecanísticamente podría afectar la supervivencia de células tumorales de estirpe melanocítica. Esta hipótesis no está respaldada por los datos compilados para este informe.
 
-La inhibición del proteasoma altera la degradación de proteínas reguladoras en la célula tumoral, lo que puede favorecer la apoptosis. Un estudio in vitro (PMID 33671902) describe que carfilzomib combinado con bortezomib aumentó la muerte celular apoptótica en células de melanoma murino B16-F1, con activación de varias caspasas. Es una señal mecanística, pero no demuestra eficacia en pacientes.
+No se dispone de información sobre la relación entre la indicación original y la nueva indicación, y la similitud con la indicación original está pendiente de evaluación. La predicción debe considerarse una hipótesis generada por el modelo, no una conclusión clínica.
 
-Las otras publicaciones aportan solo apoyo indirecto: un estudio computacional de reposicionamiento, un estudio sobre la supervivencia celular en melanoma vinculada a vías relacionadas con el proteasoma y un estudio sobre la expresión de heparanasa inducida por quimioterapia (incluido carfilzomib), que sugiere que podría favorecer un fenotipo tumoral más agresivo. Dado que no hay ensayos clínicos, no existen datos de eficacia ni de seguridad en humanos con melanoma.
-
----
+Para esta indicación concreta no hay ensayos ni estudios que la analicen directamente, por lo que el nivel de evidencia es L5.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | Preclínico in vitro | Biology | Carfilzomib junto con bortezomib aumenta la apoptosis en células de melanoma B16-F1, con activación de caspasas 3, 8, 9 y 12 |
-| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Computacional | J Biomol Struct Dyn | Acoplamiento molecular y simulaciones de dinámica para reposicionar fármacos frente a dianas de quinasas en varios cánceres, incluido el melanoma |
-| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Preclínico mecanístico (indirecto) | Mol Cancer Res | El gen ZFAND2A (AIRAP) regula la supervivencia celular en melanoma humano mediante la E3 ligasa cIAP2 |
-| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Preclínico mecanístico (indirecto) | Matrix Biol | Bortezomib y carfilzomib activan NF-κB e inducen heparanasa, asociada a un fenotipo tumoral agresivo |
-
----
+Actualmente no hay literatura relacionada disponible para CMM7.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1151060002IP | KYPROLIS 10 MG polvo para solución para perfusión | Polvo para solución inyectable | No disponible en los datos |
-| 1151060003IP | KYPROLIS 30 MG polvo para solución para perfusión | Polvo para solución inyectable | No disponible en los datos |
-| 1151060003 | KYPROLIS 30 MG polvo para solución para perfusión | Polvo para solución inyectable | No disponible en los datos |
-| 1151060002IP1 | KYPROLIS 10 MG polvo para solución para perfusión | Polvo para solución inyectable | No disponible en los datos |
-| 1151060002 | KYPROLIS 10 MG polvo para solución para perfusión | Polvo para solución inyectable | No disponible en los datos |
-
-Se muestran 5 de las 9 autorizaciones vigentes, todas de Amgen Europe B.V. (presentaciones de 10, 30 y 60 mg).
-
----
+| 1151060002IP | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
+| 1151060003IP | KYPROLIS 30 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
+| 1151060003 | KYPROLIS 30 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
+| 1151060002IP1 | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
+| 1151060002 | KYPROLIS 10 MG POLVO PARA SOLUCION PARA PERFUSION | Polvo para solución inyectable | No registrada |
 
 ## Citotoxicidad
 
@@ -107,35 +87,42 @@ Se muestran 5 de las 9 autorizaciones vigentes, todas de Amgen Europe B.V. (pres
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor del proteasoma) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto; como práctica general en antineoplásicos, hemograma y función hepática y renal |
-| Protección en Manejo | Aplicar las regulaciones de manejo de fármacos citotóxicos/antineoplásicos según el prospecto |
-
----
+| Items de Monitoreo | Hemograma, función hepática y renal (consultar el prospecto) |
+| Protección en Manejo | Seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; se muestran las de nivel mayor entre las primeras 20 revisadas:
-  - **Mayor**: oxandrolona, oximetolona, estanozolol, deferiprona, samario (153Sm) lexidronam, factor antihemofílico recombinante humano, ácido aminocaproico, factor de von Willebrand humano, avatrombopag, inhibidor de C1-esterasa humano, factor VIIa de coagulación recombinante humano, factor X de coagulación humano y conestat alfa.
-  - **Moderado**: metronidazol, naltrexona, rosuvastatina, simvastatina, tinidazol, palifermina y cloruro de estroncio Sr-89.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en las bases consultadas. Entre las de nivel mayor figuran:
+  - Oxandrolona
+  - Oximetolona
+  - Estanozolol
+  - Deferiprona
+  - Lexidronam de samario (153Sm)
+  - Factor antihemofílico recombinante
+  - Ácido aminocaproico
+  - Factor de von Willebrand humano
+  - Avatrombopag
+  - Inhibidor de C1-esterasa humano
+  - Factor VIIa de coagulación recombinante
+  - Factor X de coagulación humano
+  - Conestat alfa
 
-No se dispone de advertencias ni contraindicaciones en los datos compilados. Consultar el prospecto para el resto de la información de seguridad.
+  Entre las de nivel moderado figuran metronidazol, naltrexona, rosuvastatina, simvastatina, tinidazol, palifermina y cloruro de estroncio Sr-89.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para melanoma solo existe evidencia preclínica in vitro e indirecta (nivel L4), sin ensayos clínicos. Las predicciones con mayor puntaje (CMM7 y subtipos de melanoma) no tienen ninguna evidencia de apoyo (L5). Además, faltan los datos de seguridad del prospecto y del mecanismo de acción.
+La predicción para CMM7 se basa únicamente en el modelo (puntaje 0,9937), sin ensayos clínicos ni literatura que estudien esta enfermedad, por lo que la evidencia es L5.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), que es un requisito previo para el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Estudios preclínicos adicionales en modelos de melanoma (in vivo y líneas humanas), incluida la evaluación de la señal de heparanasa/NF-κB.
-- Evaluar la penetración tisular y, para el melanoma leptomeníngeo, el paso de la barrera hematoencefálica, que no está establecido.
-- Revisar la viabilidad de la vía de administración (los datos de compatibilidad de vías están pendientes) y el manejo de las interacciones mayores.
-- Si los estudios preclínicos son favorables, diseñar un ensayo clínico de fase 2 exploratorio.
+- Estudios preclínicos que evalúen carfilzomib directamente en CMM7
+- Datos del mecanismo de acción detallados
+- Advertencias y contraindicaciones del prospecto de la AEMPS para el cribado de seguridad
+- Aclarar la definición de la entidad "CMM7" y su relación con el melanoma
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

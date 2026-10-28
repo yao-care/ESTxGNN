@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 750
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Sulfadiazine: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: Toxoplasmosis (según las indicaciones originales del grafo de conocim…"
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
+description: "Sulfadiazine: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sulfadiazine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Sulfadiazina: De Toxoplasmosis a Neumocistosis
+## Sulfadiazine: Neumocistosis (pneumocystosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos** y solo hay **20 publicaciones** de
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Toxoplasmosis (según las indicaciones originales del grafo de conocimiento; el texto de indicación de la autorización española está vacío) |
-| Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.39% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neumocistosis (pneumocystosis) |
+| Puntaje de Predicción TxGNN | 0.9939 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -113,7 +113,7 @@ La predicción se apoya solo en el puntaje del modelo y en un vínculo mecaníst
 
 ---
 
-**Nota sobre la segunda predicción (queratoconjuntivitis epitelial punteada):** puntaje TxGNN de 99.36%, nivel de evidencia L5, sin ensayos clínicos ni literatura. No es plausible que una sulfonamida sistémica sea eficaz, dado que las causas suelen ser virales o relacionadas con sequedad ocular. Decisión: **Hold**, solo como generación de hipótesis.
+**Nota sobre la segunda predicción (queratoconjuntivitis epitelial punteada):** puntaje TxGNN de 0.9936, nivel de evidencia L5, sin ensayos clínicos ni literatura. No es plausible que una sulfonamida sistémica sea eficaz, dado que las causas suelen ser virales o relacionadas con sequedad ocular. Decisión: **Hold**, solo como generación de hipótesis.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

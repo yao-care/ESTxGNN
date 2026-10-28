@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, fosaprepitant es un profármaco de aprepitant, un antagonista del receptor de neuroquinina 1 (NK1) que bloquea la señalización de la sustancia P.
 
-El NSIAD se debe a mutaciones con ganancia de función en el receptor V2 de la vasopresina (AVPR2). **No se ha establecido un vínculo mecanístico directo**: el antagonismo de NK1 no tiene un papel conocido en la señalización del receptor V2. El elevado puntaje de TxGNN es únicamente una predicción basada en el grafo de conocimiento y debe interpretarse con cautela.
+El NSIAD se debe a mutaciones con ganancia de función en el receptor V2 de la vasopresina (AVPR2). **No se ha establecido un vínculo mecanístico directo**: el antagonismo de NK1 no tiene un papel conocido en la señalización del receptor V2. El elevado puntaje de TxGNN es únicamente una predicción del modelo TxGNN (aprendizaje profundo) y debe interpretarse con cautela.
 
 Otras predicciones del modelo (neumocistosis, lepra, meningitis criptocócica, síndromes de neoplasia endocrina múltiple, absceso intracraneal, malaria por *P. falciparum*, equinococosis, hiperargininemia) tampoco cuentan con ensayos ni literatura. La excepción es la retinitis, con un estudio preclínico indirecto (nivel L4, ver más abajo).
 
@@ -77,7 +77,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
-*Nota:* para la segunda indicación mejor puntuada con algún respaldo, la retinitis (puntaje TxGNN 99.68%), existe un estudio preclínico en ratones (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/), 2021, *Ocular Immunology and Inflammation*). En él, fosaprepitant bloqueó la expresión de NK1 inducida por radiación UVR-B en tejidos oculares. Es evidencia indirecta (lesión ocular por UV, no retinitis) y se clasifica como L4.
+*Nota:* para la segunda indicación mejor puntuada con algún respaldo, la retinitis (puntaje TxGNN 0.9968), existe un estudio preclínico en ratones (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/), 2021, *Ocular Immunology and Inflammation*). En él, fosaprepitant bloqueó la expresión de NK1 inducida por radiación UVR-B en tejidos oculares. Es evidencia indirecta (lesión ocular por UV, no retinitis) y se clasifica como L4.
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 612
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Paromomycin: nueva indicación predicha, Cirrosis asociada a cobre idiopática (nivel de evidencia L5). Indicación original: Coma hepático / encefalopatía hepática (según el grafo de conocimiento"
 monitor_inn: "paromomycin"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
+description: "Paromomycin: nueva indicación predicha, Idiopathic copper-associated cirrhosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Paromomycin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Paromomicina: De Coma Hepático a Cirrosis Asociada a Cobre Idiopática
+## Paromomycin: Idiopathic copper-associated cirrhosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Coma hepático / encefalopatía hepática (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Cirrosis asociada a cobre idiopática |
-| Puntaje de Predicción TxGNN | 99,90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Idiopathic copper-associated cirrhosis |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

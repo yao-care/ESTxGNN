@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sapropterin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 725
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Sapropterin: nueva indicación predicha, Trastorno del metabolismo de la tirosina (nivel de evidencia L4). Indicación original: Fenilcetonuria / trastorno del metabolismo de la fenilalanina (la fic…"
 monitor_inn: "sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
 ---
 
 # Sapropterin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectiva para **trastorno del metabolism
 |------|------|
 | Indicación Original | Fenilcetonuria / trastorno del metabolismo de la fenilalanina (la ficha de las autorizaciones no incluye texto de indicación) |
 | Nueva Indicación Predicha | Trastorno del metabolismo de la tirosina |
-| Puntaje de Predicción TxGNN | 99,89% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Puntaje de Predicción TxGNN | 0,9989 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

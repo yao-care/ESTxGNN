@@ -6,9 +6,9 @@ nav_order: 277
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Eflornithine: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: Tripanosomiasis africana humana (según el grafo de conocimiento"
 monitor_inn: "eflornithine"
 predicted_indications: ["esotropia", "neurotrophic keratopathy"]
+description: "Eflornithine: nueva indicación predicha, Esotropía (esotropia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Eflornithine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Eflornitina: De Tripanosomiasis Africana Humana a Esotropía
+## Eflornithine: Esotropía (esotropia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **esotropía**, pero actua
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tripanosomiasis africana humana (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Esotropía |
-| Puntaje de Predicción TxGNN | 99,85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Esotropía (esotropia) |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,9 +59,9 @@ La eflornitina inhibe de forma irreversible la ornitina descarboxilasa (ODC, gen
 
 La relación entre la indicación original y la esotropía es débil. La esotropía es un trastorno de la alineación ocular causado por factores neuromusculares, refractivos o de visión binocular, y no existe una vía mecanística establecida que conecte la inhibición de la ODC o la depleción de poliaminas con su fisiopatología.
 
-El puntaje tan alto de TxGNN (0,9985) es solo una predicción del modelo, sin ensayos ni literatura de apoyo. El vínculo probablemente sea un artefacto del grafo de conocimiento y no debe considerarse validado biológicamente.
+El puntaje tan alto de TxGNN (0,9985) es solo una predicción del modelo, sin ensayos ni literatura de apoyo. El vínculo probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo) y no debe considerarse validado biológicamente.
 
-Como referencia, la segunda predicción, **queratopatía neurotrófica** (puntaje 99,38%), tiene una plausibilidad conceptual algo mayor, ya que las poliaminas participan en la proliferación celular y la reparación tisular. Sin embargo, esta enfermedad se debe a una inervación corneal deficiente y pérdida de soporte trófico (p. ej., señalización de NGF), por lo que la depleción de poliaminas probablemente perjudicaría la regeneración epitelial. La dirección del efecto es incierta y tampoco hay evidencia que la respalde (nivel L5, Hold).
+Como referencia, la segunda predicción, **queratopatía neurotrófica** (puntaje 0,9938), tiene una plausibilidad conceptual algo mayor, ya que las poliaminas participan en la proliferación celular y la reparación tisular. Sin embargo, esta enfermedad se debe a una inervación corneal deficiente y pérdida de soporte trófico (p. ej., señalización de NGF), por lo que la depleción de poliaminas probablemente perjudicaría la regeneración epitelial. La dirección del efecto es incierta y tampoco hay evidencia que la respalde (nivel L5, Hold).
 
 ## Evidencia de Ensayos Clínicos
 
@@ -93,7 +93,7 @@ Para el resto de la información de seguridad (advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para esotropía es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible; probablemente sea un artefacto del grafo de conocimiento. Además, las advertencias y contraindicaciones del prospecto no están disponibles, lo que impide avanzar al cribado de seguridad.
+La predicción para esotropía es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible; probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo). Además, las advertencias y contraindicaciones del prospecto no están disponibles, lo que impide avanzar al cribado de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un bloqueo para la evaluación de seguridad.

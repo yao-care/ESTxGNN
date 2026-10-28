@@ -4,17 +4,17 @@ title: Pemigatinib
 parent: Solo predicción del modelo (L5)
 nav_order: 620
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pemigatinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 monitor_inn: "PEMIGATINIB"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Pemigatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Pemigatinib es un inhibidor selectivo de los receptores FGFR1-3 que se comercializa en España con tres autorizaciones vigentes; los datos compilados para este informe no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múltiple**, con un puntaje muy alto (99,71%).
+El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múltiple**, con un puntaje muy alto (0,9971).
 Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional.
 
 ---
@@ -50,10 +50,10 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
-| Puntaje de Predicción TxGNN | 99,71% |
+| Puntaje de Predicción TxGNN | 0,9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Pemigatinib es un inhibidor selectivo de la tirosina quinasa de FGFR1, FGFR2 y F
 
 Algunos tumores endocrinos presentan implicación de la vía FGFR, lo que ofrece una plausibilidad biológica muy general. No obstante, los síndromes de neoplasia endocrina múltiple suelen estar impulsados por alteraciones en genes como MEN1 o RET, y los datos disponibles no respaldan un vínculo directo entre la inhibición de FGFR y estas enfermedades.
 
-Por tanto, el puntaje elevado del modelo debe interpretarse con cautela: es una predicción basada en el grafo de conocimiento, sin ensayos ni literatura que la sustenten, y la similitud con la indicación original no pudo evaluarse.
+Por tanto, el puntaje elevado del modelo debe interpretarse con cautela: es una predicción del modelo TxGNN (aprendizaje profundo), sin ensayos ni literatura que la sustenten, y la similitud con la indicación original no pudo evaluarse.
 
 ---
 

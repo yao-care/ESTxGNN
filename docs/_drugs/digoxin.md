@@ -4,17 +4,17 @@ title: Digoxin
 parent: Solo predicción del modelo (L5)
 nav_order: 250
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Digoxin: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: Fibrilación auricular e intoxicación digitálica (según el grafo de co…"
 monitor_inn: "Digoxin"
-predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
+description: "Digoxin: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Digoxin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Digoxina: De Fibrilación Auricular a Angina de Prinzmetal
+## Digoxin: Angina de Prinzmetal (Prinzmetal angina)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **Angina de Prinzmetal**, 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fibrilación auricular e intoxicación digitálica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Angina de Prinzmetal (Prinzmetal angina) |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La angina de Prinzmetal se debe a vasoespasmo coronario y se trata con antagonistas del calcio y nitratos. El aumento del calcio intracelular y el potencial de vasoconstricción hacen que la digoxina sea, en teoría, desfavorable para esta indicación.
 
-Por tanto, el alto puntaje de TxGNN (99.81%) es solo una predicción basada en la red de conocimiento, sin vínculo mecanístico creíble. La única publicación asociada (PMID 10736610) es una revisión sobre cronofarmacología del tratamiento antihipertensivo, no específica de la digoxina ni de esta indicación.
+Por tanto, el alto puntaje de TxGNN (0.9981) es solo una predicción basada en la red de conocimiento, sin vínculo mecanístico creíble. La única publicación asociada (PMID 10736610) es una revisión sobre cronofarmacología del tratamiento antihipertensivo, no específica de la digoxina ni de esta indicación.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -50,10 +50,10 @@ pero actualmente no hay ensayos clínicos registrados y la literatura recuperada
 |------|------|
 | Indicación Original | Endometriosis y trastornos ginecológicos relacionados (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.60% |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

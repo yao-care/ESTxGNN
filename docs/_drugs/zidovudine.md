@@ -4,17 +4,17 @@ title: Zidovudine
 parent: Solo predicción del modelo (L5)
 nav_order: 865
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (SIDA felino) (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según las indicaciones orig…"
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Zidovudina: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+## Zidovudine: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ La respaldan **0 ensayos clínicos** y **20 publicaciones**, todas ellas estudio
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (SIDA felino) |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L4 (solo estudios preclínicos y veterinarios; sin ensayos en humanos) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 (solo estudios preclínicos y veterinarios; sin ensayos en humanos) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---

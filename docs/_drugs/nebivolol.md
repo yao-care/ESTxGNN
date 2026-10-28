@@ -4,17 +4,17 @@ title: Nebivolol
 parent: Solo predicción del modelo (L5)
 nav_order: 555
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nebivolol: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (según el grafo de conocimiento"
 monitor_inn: "NEBIVOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Nebivolol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nebivolol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Nebivolol: De Hipertensión a Hipertensión Renovascular Maligna
+## Nebivolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Hipertensión renovascular maligna |
-| Puntaje de Predicción TxGNN | 99,42 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -70,7 +70,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para la indicación principal.
 
-A modo de contexto, para otra predicción del mismo fármaco (hipertensión pulmonar por enfermedad pulmonar o hipoxia, puntaje 99,39 %) se recuperaron publicaciones, pero casi todas son preclínicas o ajenas al tema, y ninguna demuestra eficacia en hipertensión pulmonar. Las más relevantes de forma indirecta:
+A modo de contexto, para otra predicción del mismo fármaco (hipertensión pulmonar por enfermedad pulmonar o hipoxia, puntaje 0,9939) se recuperaron publicaciones, pero casi todas son preclínicas o ajenas al tema, y ninguna demuestra eficacia en hipertensión pulmonar. Las más relevantes de forma indirecta:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|

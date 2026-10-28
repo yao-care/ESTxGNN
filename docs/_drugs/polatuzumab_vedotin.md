@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama HER2 p
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Carcinoma de mama HER2 positivo |
-| Puntaje de Predicción TxGNN | 99.34% |
+| Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la nueva indicación es débil. CD79b no se expresa de forma conocida en las células del carcinoma de mama HER2 positivo, por lo que no existe una justificación directa basada en la diana. El único vínculo concebible es la carga útil: los ADC basados en auristatinas han sido estudiados en tumores sólidos. Sin embargo, sin expresión de CD79b en el tumor, cualquier efecto por muerte de células vecinas (efecto bystander) o captación inespecífica sería especulativo.
 
-El puntaje alto de TxGNN (0.993) probablemente refleja la proximidad en la red de conocimiento con otros ADC y fármacos dirigidos a HER2 (por ejemplo, ADC basados en trastuzumab con cargas útiles de la misma clase), y no biología validada. Debe interpretarse con cautela.
+El puntaje alto de TxGNN (0.9934) probablemente refleja la proximidad en la red de conocimiento con otros ADC y fármacos dirigidos a HER2 (por ejemplo, ADC basados en trastuzumab con cargas útiles de la misma clase), y no biología validada. Debe interpretarse con cautela.
 
 ---
 

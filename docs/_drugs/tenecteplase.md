@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: Solo predicción del modelo (L5)
 nav_order: 774
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Tenecteplase: nueva indicación predicha, Infarto de miocardio posteroinferior (nivel de evidencia L5). Indicación original: Infarto de miocardio (según las indicaciones originales del grafo de…"
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: nueva indicación predicha, Congenital coronary artery anomaly (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tenecteplasa: De Infarto de Miocardio a Infarto de Miocardio Posteroinferior
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esp
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infarto de miocardio (según las indicaciones originales del grafo de conocimiento; el texto de indicación autorizada no está disponible en las autorizaciones de AEMPS) |
-| Nueva Indicación Predicha | Infarto de miocardio posteroinferior |
-| Puntaje de Predicción TxGNN | 99,87 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Congenital coronary artery anomaly |
+| Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios específicos; la plataforma lo clasifica como L4 por inferencia desde la indicación madre) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El infarto posteroinferior es un subtipo anatómico del infarto de miocardio, causado igualmente por oclusión trombótica coronaria. Mecanísticamente, la trombólisis es aplicable, y esta indicación estaría prácticamente cubierta por la indicación general de infarto.
 
-Conviene interpretar con cautela el puntaje elevado: probablemente refleja la cercanía en el grafo de conocimiento con la indicación ya aprobada, y no evidencia nueva. No se recuperaron ensayos ni literatura para este subtipo.
+No se recuperaron ensayos ni literatura para este subtipo.
 
 ## Evidencia de Ensayos Clínicos
 

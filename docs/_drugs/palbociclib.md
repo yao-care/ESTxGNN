@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Palbociclib
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 603
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Palbociclib: nueva indicación predicha, Artritis reumatoide (predicción n.º 2 (nivel de evidencia L4). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
+description: "Palbociclib: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L4). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic d
 # Palbociclib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,16 +33,16 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Palbociclib: De Indicación No Especificada a Artritis Reumatoide
+## Palbociclib: De Indicación No Especificada a Hipertiroidismo
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Palbociclib es un inhibidor de las quinasas dependientes de ciclinas 4 y 6 (CDK4/6) que se comercializa en España con el nombre IBRANCE; los datos compilados para este informe no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (puntaje de 99,36 %, segunda predicción del ranking).
+El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (puntaje de 0,9936, segunda predicción del ranking).
 Esta predicción se respalda con **0 ensayos clínicos** y **4 publicaciones** (un reporte de caso, un estudio observacional y dos estudios preclínicos).
 
-> **Nota sobre la selección:** la predicción de mayor puntaje del modelo es hipertiroidismo (99,44 %), pero no tiene ensayos ni literatura. Se evalúa aquí la artritis reumatoide por ser la primera con evidencia indirecta disponible. Las demás predicciones (hipertiroidismo, enfermedad trombótica y resistencia a la hormona tiroidea por mutación del receptor beta) se comentan en la conclusión.
+> **Nota sobre la selección:** la predicción de mayor puntaje del modelo es hipertiroidismo (0,9944), pero no tiene ensayos ni literatura. Se evalúa aquí la artritis reumatoide por ser la primera con evidencia indirecta disponible. Las demás predicciones (hipertiroidismo, enfermedad trombótica y resistencia a la hormona tiroidea por mutación del receptor beta) se comentan en la conclusión.
 
 ## Resumen Rápido
 
@@ -50,10 +50,10 @@ Esta predicción se respalda con **0 ensayos clínicos** y **4 publicaciones** (
 |------|------|
 | Indicación Original | No disponible en los datos de autorización (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Artritis reumatoide (predicción n.º 2; la n.º 1, hipertiroidismo, no tiene evidencia) |
-| Puntaje de Predicción TxGNN | 99,36 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Puntaje de Predicción TxGNN | 0,9936 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

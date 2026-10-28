@@ -4,17 +4,17 @@ title: Ketoprofen
 parent: Solo predicción del modelo (L5)
 nav_order: 441
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ketoprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide…"
 monitor_inn: "ketoprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+description: "Ketoprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los da…"
 ---
 
 # Ketoprofen
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ketoprofeno: De Artritis Reumatoide a Displasia Acromesomélica tipo Hunter-Thompson
+## Ketoprofen: Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide, artrosis y artropatía (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética genética rara, causada por pérdida de función de CDMP1/GDF5, que afecta a la formación del cartílago (condrogénesis). El ketoprofeno no tiene ningún efecto conocido sobre la señalización de GDF5/BMP, por lo que **no se identifica un vínculo mecanístico plausible** con la enfermedad.
 
-El elevado puntaje del modelo probablemente refleja la cercanía en el grafo de conocimiento con fenotipos musculoesqueléticos o articulares compartidos, y no una justificación biológica. Debe interpretarse como una señal computacional sin respaldo clínico.
+El elevado puntaje del modelo TxGNN (aprendizaje profundo) probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas con fenotipos musculoesqueléticos o articulares compartidos, y no evidencia biológica. Debe interpretarse como una señal computacional sin respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -96,7 +96,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos, de literatura y de un vínculo mecanístico plausible; el puntaje alto parece deberse a proximidad en el grafo de conocimiento. Con nivel de evidencia L5, no hay base para avanzar.
+La predicción carece de ensayos clínicos, de literatura y de un vínculo mecanístico plausible; el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Con nivel de evidencia L5, no hay base para avanzar.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del ketoprofeno y análisis de su posible conexión con la vía GDF5/BMP.

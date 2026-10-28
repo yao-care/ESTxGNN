@@ -48,9 +48,9 @@ Entre las demás predicciones del modelo, la mejor respaldada indirectamente es 
 |------|------|
 | Indicación Original | Enfermedad de Alzheimer (según las indicaciones originales registradas en el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Trastornos psicógenos del movimiento |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ Entre las demás predicciones del modelo, la mejor respaldada indirectamente es 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, galantamina inhibe la acetilcolinesterasa (diana ACHE) y actúa además como modulador del receptor nicotínico de acetilcolina α7. Su eficacia en la enfermedad de Alzheimer leve a moderada ha sido comprobada, con un rendimiento comparable al de otros inhibidores de colinesterasa.
 
-La relación con la nueva indicación es débil. Una posible vía sería la modulación colinérgica y nicotínica de los circuitos motores, pero no hay evidencia directa que la respalde. Los trastornos psicógenos del movimiento son afecciones funcionales sin una diana farmacológica establecida, por lo que la predicción se basa únicamente en el grafo de conocimiento.
+La relación con la nueva indicación es débil. Una posible vía sería la modulación colinérgica y nicotínica de los circuitos motores, pero no hay evidencia directa que la respalde. Los trastornos psicógenos del movimiento son afecciones funcionales sin una diana farmacológica establecida, por lo que la predicción se basa únicamente en el modelo TxGNN (aprendizaje profundo).
 
 Cabe destacar que, entre las nueve predicciones evaluadas, la de **discinesia lingual-facial-bucal** (correspondiente a la discinesia tardía) es la que cuenta con más literatura indirecta: revisiones Cochrane sobre fármacos colinérgicos, estudios preclínicos y un ensayo cruzado aleatorizado de galantamina en discinesia tardía (PMID 17388711). Sin embargo, las revisiones Cochrane evalúan los fármacos colinérgicos en conjunto y no demuestran eficacia específica de galantamina. Esta línea merece una revisión focalizada de la literatura antes de diseñar cualquier ensayo.
 

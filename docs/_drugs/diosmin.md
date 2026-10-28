@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | No disponible en los datos de AEMPS (uso general conocido: insuficiencia venosa crónica y hemorroides, no confirmado en los datos compilados) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 No se ha establecido un vínculo mecanístico con la amenorrea a partir de los datos disponibles. Una conexión hipotética (por efectos antiinflamatorios, antioxidantes o microcirculatorios sobre el ovario o el útero) es especulativa y no está respaldada por evidencia aportada.
 
-El puntaje de 0.994 es solo un resultado computacional del modelo y no constituye evidencia clínica. La similitud con la indicación original está pendiente de evaluar.
+El puntaje de 0.9942 es solo un resultado computacional del modelo y no constituye evidencia clínica. La similitud con la indicación original está pendiente de evaluar.
 
 ---
 

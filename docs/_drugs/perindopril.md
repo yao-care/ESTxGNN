@@ -4,9 +4,9 @@ title: Perindopril
 parent: Solo predicción del modelo (L5)
 nav_order: 627
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Perindopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
+description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Perindopril
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Perindopril: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Perindopril: De Hipertensión a Enfermedad renal hipertensiva maligna
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **1 p
 |------|------|
 | Indicación Original | Hipertensión arterial (trastorno hipertensivo) |
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La inhibición de la ECA reduce la lesión vascular mediada por angiotensina II y la hipertensión glomerular, lo que es biológicamente plausible en la afectación renal de la hipertensión maligna. Sin embargo, se trata más bien de una extensión de la indicación antihipertensiva existente que de una señal de reposicionamiento realmente distinta.
 
-Conviene tener cautela: el puntaje elevado de TxGNN (0,998) es solo una predicción computacional. La única publicación recuperada (PMID 36382821) trata sobre la función del riñón solitario tras nefrectomía por cáncer renal y no menciona perindopril ni la enfermedad renal hipertensiva maligna.
+Conviene tener cautela: el puntaje elevado de TxGNN (0,9977) es solo una predicción computacional. La única publicación recuperada (PMID 36382821) trata sobre la función del riñón solitario tras nefrectomía por cáncer renal y no menciona perindopril ni la enfermedad renal hipertensiva maligna.
 
 ## Evidencia de Ensayos Clínicos
 

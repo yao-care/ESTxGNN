@@ -4,17 +4,17 @@ title: Ticagrelor
 parent: Solo predicción del modelo (L5)
 nav_order: 793
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L5). Indicación original: Síndrome coronario agudo (según el grafo de conocimiento"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
+description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ticagrelor: De Síndrome Coronario Agudo a Arteriosclerosis Intracraneal
+## Ticagrelor: Arteriosclerosis intracraneal (intracranial arteriosclerosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **2 ensayos clínicos** y **2 publicaciones** que actualmente respaldan esta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome coronario agudo (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Arteriosclerosis intracraneal |
-| Puntaje de Predicción TxGNN | 99,97 % |
-| Nivel de Evidencia | L1 según la clasificación asignada en los datos compilados; a mi juicio, con las reglas de nivel, estaría más cerca de L3 (ver nota abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Arteriosclerosis intracraneal (intracranial arteriosclerosis) |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L5 según la clasificación asignada en los datos compilados; a mi juicio, con las reglas de nivel, estaría más cerca de L3 (ver nota abajo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

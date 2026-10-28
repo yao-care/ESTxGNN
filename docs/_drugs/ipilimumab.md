@@ -4,7 +4,7 @@ title: Ipilimumab
 parent: Solo predicción del modelo (L5)
 nav_order: 429
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: Melanoma metastásico"
 monitor_inn: "IPILIMUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Ipilimumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Melanoma metastásico |
 | Nueva Indicación Predicha | Coroideremia |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Ipilimumab bloquea el receptor CTLA-4 en los linfocitos T. Esto potencia su acti
 
 **La relación mecanística con la coroideremia es muy débil.** La coroideremia es una degeneración retiniana hereditaria ligada al cromosoma X, causada por la pérdida de función del gen *CHM* (REP1). Su patología consiste en la degeneración progresiva del epitelio pigmentario de la retina, los fotorreceptores y la coroides. No depende de la evasión inmune tumoral, que es el proceso sobre el que actúa ipilimumab.
 
-Además, la inhibición de puntos de control inmunitarios puede provocar eventos adversos oculares inmunomediados (por ejemplo, uveítis), lo que supondría un riesgo adicional en una retina ya vulnerable. La puntuación alta del modelo probablemente es un artefacto derivado de la estructura del grafo de conocimiento y no refleja una plausibilidad biológica real.
+Además, la inhibición de puntos de control inmunitarios puede provocar eventos adversos oculares inmunomediados (por ejemplo, uveítis), lo que supondría un riesgo adicional en una retina ya vulnerable. La puntuación alta proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 
@@ -130,7 +130,6 @@ La predicción para coroideremia carece de ensayos clínicos y de literatura, y 
 - Revisión de las alternativas terapéuticas ya dirigidas a la causa de la enfermedad (por ejemplo, enfoques de terapia génica).
 - Verificación del texto de indicaciones, advertencias y contraindicaciones en la ficha técnica vigente de la AEMPS.
 
-**Nota adicional:** la segunda predicción del modelo para este fármaco, el **melanoma no cutáneo** (puntaje 99.02%), cuenta con mucha más evidencia: ensayos de Fase 2 y 3 en melanoma, incluida la combinación nivolumab + ipilimumab en melanoma uveal, y literatura clínica. Esta dirección parece una candidata mucho más sólida para una evaluación de reposicionamiento. Debe analizarse en un informe específico, ya que la evidencia depende del subtipo y los estudios de Fase 3 identificados corresponden sobre todo a melanoma cutáneo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

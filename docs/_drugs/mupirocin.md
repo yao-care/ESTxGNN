@@ -6,9 +6,9 @@ nav_order: 546
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Mupirocin: nueva indicación predicha, Empiema pleural (nivel de evidencia L5). Indicación original: Impétigo (las autorizaciones de AEMPS no incluyen texto de indicación"
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mupirocin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Mupirocina: De Impétigo a Empiema Pleural
+## Mupirocin: Empiema pleural (pleural empyema (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Impétigo (las autorizaciones de AEMPS no incluyen texto de indicación; se usa la indicación original del grafo de conocimiento) |
-| Nueva Indicación Predicha | Empiema pleural |
-| Puntaje de Predicción TxGNN | 99,49% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Empiema pleural (pleural empyema (disease)) |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -105,7 +105,7 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 ---
 
-*Nota: también se predijo la queratoconjuntivitis epitelial punteada (puntaje TxGNN 99,10%, L5, Hold). Mupirocina solo podría ser relevante en el subconjunto de origen estafilocócico, carece de actividad antiviral, no está aprobada para uso oftálmico y no hay ensayos ni literatura que la respalden.*
+*Nota: también se predijo la queratoconjuntivitis epitelial punteada (puntaje TxGNN 0,9910, L5, Hold). Mupirocina solo podría ser relevante en el subconjunto de origen estafilocócico, carece de actividad antiviral, no está aprobada para uso oftálmico y no hay ensayos ni literatura que la respalden.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

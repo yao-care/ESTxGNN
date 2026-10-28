@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Biotin: nueva indicación predicha, Dispepsia (nivel de evidencia L5). Indicación original: Deficiencia nutricional de biotina (según el grafo de conocimiento"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
+last_modified_at: 2026-10-27
+description: "Biotin: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Biotin
@@ -33,33 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Biotina: De Deficiencia Nutricional de Biotina a Dispepsia
+## Biotina: vitamina del complejo B, cofactor de carboxilasas → dispepsia (dyspepsia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La biotina es una vitamina del grupo B, utilizada originalmente para tratar la deficiencia nutricional de biotina.
-El modelo TxGNN predice que podría ser efectiva para **dispepsia**, pero actualmente no hay **ningún ensayo clínico** y solo hay **6 publicaciones** de relevancia limitada, ninguna de las cuales evalúa la biotina como tratamiento de la dispepsia.
+La biotina es una vitamina hidrosoluble que actúa como cofactor de carboxilasas del metabolismo de carbohidratos, grasas y aminoácidos.
+El modelo TxGNN predice que podría ser efectiva para **dispepsia (dyspepsia)**, pero actualmente no hay ensayos clínicos registrados y ninguna de las **6 publicaciones** recuperadas evalúa la biotina como tratamiento de esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Deficiencia nutricional de biotina (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Dispepsia |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | dispepsia (dyspepsia) |
+| Puntaje de Predicción TxGNN | 0,9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Español | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la biotina actúa como cofactor de carboxilasas que participan en el metabolismo de carbohidratos, grasas y aminoácidos. Su eficacia en la deficiencia de biotina es conocida, y mecanísticamente podría tener alguna relación con la dispepsia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la biotina es un cofactor de carboxilasas implicadas en el metabolismo de carbohidratos, grasas y aminoácidos.
 
-La relación entre ambas indicaciones es débil. La deficiencia de biotina puede asociarse a síntomas gastrointestinales (por ejemplo, náuseas y anorexia), lo que podría explicar una asociación laxa con la dispepsia. Sin embargo, no se ha establecido un vínculo mecanístico directo.
+No se ha establecido un vínculo mecanístico directo con la dispepsia. Una posible asociación laxa es que la deficiencia de biotina puede causar síntomas digestivos (por ejemplo, náuseas y anorexia), pero esto no demuestra que la suplementación mejore la dispepsia.
 
-El puntaje elevado de TxGNN (0.994) es solo una predicción del modelo. Sin datos de mecanismo de acción, no es posible verificar un razonamiento basado en el mecanismo. Cabe señalar que la segunda predicción del modelo, la gastroparesia (99.42%), carece por completo de evidencia clínica o bibliográfica.
+El puntaje de 0,9943 es únicamente una predicción del modelo. Sin datos de mecanismo de acción, no es posible verificar ningún razonamiento basado en el mecanismo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,45 +67,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
+Ninguna de las publicaciones recuperadas estudia la biotina como tratamiento de la dispepsia. Se listan como contexto.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Reporte de caso | The Journal of Dermatology | Deficiencia de biotina en un lactante de 5 meses alimentado solo con fórmula de aminoácidos, con diagnóstico neonatal de dispepsia; presentó alopecia y dermatitis, y niveles bajos de biotina en suero y orina. |
-| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Revisión | Eksperimental'naia i klinicheskaia gastroenterologiia | Suplemento con inulina, oligofructosa, vitaminas (incluida biotina) y minerales para corregir la microbiota intestinal en pacientes con patología broncopulmonar tras antibióticos; la biotina es solo un componente de una mezcla. |
-| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Cohorte | International Journal of Molecular Medicine | Células endocrinas del antro gástrico en pacientes con síndrome del intestino irritable; no evalúa biotina. |
-| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Cohorte | World Journal of Gastrointestinal Endoscopy | Células endocrinas de la mucosa oxíntica en pacientes con síndrome del intestino irritable; no evalúa biotina. |
-| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Cohorte | Journal of Clinical Pathology | Interleucina 10 en la gastritis asociada a *Helicobacter pylori*; no evalúa biotina. |
-| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Cohorte | Kidney International | Linfocitos T de intestino delgado en nefropatía IgA; no evalúa biotina. |
-
-Ninguna de estas publicaciones prueba la biotina como tratamiento de la dispepsia.
+| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Reporte de caso | The Journal of Dermatology | Deficiencia de biotina en un lactante de 5 meses alimentado solo con fórmula de aminoácidos, con antecedente neonatal de dispepsia; presentó alopecia y dermatitis. |
+| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Revisión | Eksperimental'naia i klinicheskaia gastroenterologiia | Suplemento con prebióticos, vitaminas (incluida biotina) y minerales para la microbiota intestinal en pacientes con patología broncopulmonar tratados con antibióticos. |
+| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Cohorte | International Journal of Molecular Medicine | Células endocrinas del antro gástrico en pacientes con síndrome del intestino irritable; no involucra biotina. |
+| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Cohorte | World Journal of Gastrointestinal Endoscopy | Células endocrinas de la mucosa oxíntica gástrica en síndrome del intestino irritable; no involucra biotina. |
+| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Cohorte | Journal of Clinical Pathology | Interleucina 10 en la gastritis asociada a Helicobacter pylori; no involucra biotina. |
+| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Cohorte | Kidney International | Linfocitos T de intestino delgado y estrés en nefropatía IgA; no involucra biotina. |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 24616 | MEDEBIOTIN FUERTE COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
-| 34236 | MEDEBIOTIN FUERTE SOLUCIÓN INYECTABLE | Solución inyectable | No disponible en los datos compilados |
-
-Ambas autorizaciones pertenecen a Laboratorio Reig Jofre, S.A., son de monofármaco y están vigentes.
+| 24616 | MEDEBIOTIN FUERTE COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+| 34236 | MEDEBIOTIN FUERTE SOLUCION INYECTABLE | Solución inyectable | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): enfermedad renal, piouréter, sarcoidosis, hiperparatiroidismo, osteítis fibrosa, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, nefrolitiasis (incluida la susceptibilidad asociada a SLC26A1), nefropatía aguda por uratos, estreñimiento y lesiones óseas metastásicas líticas.
-
-Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en los datos compilados para este informe.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5): no hay ensayos clínicos ni literatura que pruebe la biotina en dispepsia, y el mecanismo de acción no está disponible para respaldar el vínculo.
+La predicción se apoya solo en el puntaje del modelo (0,9943). No hay ensayos clínicos y ninguna publicación evalúa la biotina en dispepsia, por lo que el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA)
-- Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones), necesaria antes de cualquier evaluación de seguridad
-- Textos de indicaciones aprobadas de las autorizaciones españolas
-- Estudios clínicos o preclínicos que evalúen la biotina en dispepsia
-- Análisis de compatibilidad de vías de administración y revisión de las contraindicaciones renales y de calcio señaladas por el grafo de conocimiento
+- Datos del mecanismo de acción de la biotina.
+- Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente sin datos).
+- Estudios preclínicos o clínicos que evalúen directamente la biotina en dispepsia.
+- Una hipótesis mecanística verificable que vincule el metabolismo de la biotina con los síntomas dispépticos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

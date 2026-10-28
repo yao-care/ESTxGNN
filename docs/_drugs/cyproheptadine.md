@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyproheptadine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 213
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Cyproheptadine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Rinitis alérgica (según las indicaciones originales del grafo de cono…"
 monitor_inn: "cyproheptadine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Cyproheptadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cyproheptadine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Ciproheptadina: De Rinitis Alérgica a Urticaria Alérgica
+## Cyproheptadine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La ciproheptadina es un antihistamínico de primera generación, utilizado originalmente en cuadros alérgicos como la rinitis alérgica, la urticaria y el angioedema.
-El modelo TxGNN predice que podría ser efectiva para **urticaria alérgica**, aunque esta indicación ya figura entre las originales y, por tanto, es más una extensión que un reposicionamiento real.
 No hay **ningún ensayo clínico registrado**; la evidencia se limita a **9 publicaciones**, en su mayoría informes clínicos antiguos (1961-1976).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Numero de Autorizaciones | 6 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nasal cavity disease |
+| Puntaje de Predicción TxGNN | 0.9921 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 4 de 6) |
+| Numero de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,9 +81,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ### Otras indicaciones predichas
 
-- **Urticaria por frío** (TxGNN 99.76 %, nivel L3): existen estudios comparativos pequeños y antiguos, incluidos estudios doble ciego (p. ej., [PMID 334082](https://pubmed.ncbi.nlm.nih.gov/334082/), [PMID 6480953](https://pubmed.ncbi.nlm.nih.gov/6480953/), [PMID 2901993](https://pubmed.ncbi.nlm.nih.gov/2901993/)) frente a clorfeniramina, placebo, doxepina, hidroxizina y acrivastina. No hay ensayos registrados. Las guías actuales prefieren antihistamínicos H1 de segunda generación no sedantes, por lo que la cuestión principal es su beneficio relativo frente a la sedación y la carga anticolinérgica. Es la candidata con mejor respaldo de las cuatro predichas.
-- **Enfermedad de la cavidad nasal** (TxGNN 99.21 %, nivel L5): término amplio e inespecífico; probablemente refleja los usos ya existentes en rinitis. Sin ensayos ni literatura.
-- **Laringofaringitis aguda** (TxGNN 99.13 %, nivel L5): probablemente refleja el solapamiento con las indicaciones de faringitis y resfriado común, con beneficio solo sintomático. Sin ensayos ni literatura.
+- No hay ensayos registrados. Las guías actuales prefieren antihistamínicos H1 de segunda generación no sedantes, por lo que la cuestión principal es su beneficio relativo frente a la sedación y la carga anticolinérgica. Es la candidata con mejor respaldo de las cuatro predichas.
+- **Enfermedad de la cavidad nasal** (TxGNN 0.9921, nivel L5): término amplio e inespecífico; probablemente refleja los usos ya existentes en rinitis. Sin ensayos ni literatura.
+- Sin ensayos ni literatura.
 
 ## Información de Mercado en España
 
@@ -110,7 +109,7 @@ No se dispone de las advertencias ni contraindicaciones del prospecto; se recomi
 **Decisión: Hold**
 
 **Justificación:**
-La urticaria alérgica ya está cubierta por las indicaciones originales, la evidencia es de nivel L4 y proviene casi toda de informes clínicos de los años 60-70, sin ensayos registrados. El valor añadido como reposicionamiento es limitado. De las predicciones secundarias, la urticaria por frío es la más sólida (L3), pero queda por justificar su beneficio frente a los antihistamínicos de segunda generación.
+La urticaria alérgica ya está cubierta por las indicaciones originales, la evidencia es de nivel L4 y proviene casi toda de informes clínicos de los años 60-70, sin ensayos registrados. El valor añadido como reposicionamiento es limitado.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), una laguna bloqueante para el cribado de seguridad.

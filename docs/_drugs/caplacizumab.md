@@ -4,7 +4,7 @@ title: Caplacizumab
 parent: Solo predicción del modelo (L5)
 nav_order: 139
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Caplacizumab: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Púrpura trombocitopénica"
 monitor_inn: "CAPLACIZUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 # Caplacizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Caplacizumab es un nanocuerpo anti-factor von Willebrand (vWF), originalmente utilizado para el tratamiento de la púrpura trombocitopénica (púrpura trombocitopénica trombótica adquirida).
-El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, y el análisis mecanístico sugiere que la predicción probablemente sea un artefacto del grafo de conocimiento.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, y el análisis mecanístico sugiere que la predicción probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ## Resumen Rápido
 
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 |------|------|
 | Indicación Original | Púrpura trombocitopénica |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
-| Puntaje de Predicción TxGNN | 99.9998% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 En la púrpura trombocitopénica trombótica (PTT), la deficiencia grave de ADAMTS13 deja multímeros ultragrandes de vWF que se unen a las plaquetas. Caplacizumab interrumpe este proceso, por lo que su eficacia en la indicación original está bien establecida.
 
-Sin embargo, en los trastornos de liberación plaquetaria el defecto es intrínseco a la secreción plaquetaria y no depende de la unión vWF-A1. Bloquear la adhesión plaquetaria previsiblemente empeoraría, no mejoraría, la tendencia hemorrágica. El puntaje elevado de TxGNN probablemente refleja proximidad en el grafo y no una relación mecanística real.
+Sin embargo, en los trastornos de liberación plaquetaria el defecto es intrínseco a la secreción plaquetaria y no depende de la unión vWF-A1. Bloquear la adhesión plaquetaria previsiblemente empeoraría, no mejoraría, la tendencia hemorrágica. El puntaje elevado proviene del modelo TxGNN (deep learning) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 

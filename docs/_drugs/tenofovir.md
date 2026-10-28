@@ -6,9 +6,9 @@ nav_order: 775
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tenofovir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis B…"
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
 ---
 
 # Tenofovir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Tenofovir: De Hepatitis B Crónica e Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Tenofovir: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis B, infección por VIH y SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L4 (solo estudios preclínicos en animales; la clasificación interna de los datos indica L3) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 17 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 (solo estudios preclínicos en animales; la clasificación interna de los datos indica L3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

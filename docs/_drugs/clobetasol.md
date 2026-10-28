@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Clobetasol: De Indicación Dermatológica Tópica a Linfoma Cutáneo de Células T Primario
+## Clobetasol: De Indicación Dermatológica Tópica a Linfoma cutáneo primario de células T
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ con **0 ensayos clínicos registrados** y **15 publicaciones** (casi todas infor
 |------|------|
 | Indicación Original | No disponible en los datos de autorización compilados (los textos de indicación están vacíos) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
-| Puntaje de Predicción TxGNN | 99,51% |
+| Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

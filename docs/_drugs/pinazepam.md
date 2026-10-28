@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pinazepam
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 639
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Pinazepam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
@@ -14,7 +14,7 @@ predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "an
 # Pinazepam
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-Pinazepam es una benzodiazepina que actúa como profármaco de la N-desmetildiazepam (nordazepam), comercializada en España, aunque los datos compilados no recogen el texto de su indicación aprobada.
+Pinazepam es una benzodiazepina que actúa como profármaco de la N-desmetildiazepam (nordazepam). Actualmente no está comercializada en España (solo constan registros cancelados), y los datos compilados no recogen el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **insomnio**, con un puntaje muy alto pero **sin ensayos clínicos ni publicaciones** específicos para esta indicación.
 La evidencia se limita a la predicción del modelo y a la plausibilidad mecanística de la clase.
 
@@ -50,10 +50,10 @@ La evidencia se limita a la predicción del modelo y a la plausibilidad mecanís
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,95% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Puntaje de Predicción TxGNN | 0,9995 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,18 +64,18 @@ Los datos compilados no incluyen una descripción detallada del mecanismo de acc
 
 Este mecanismo sustenta los efectos ansiolíticos, sedantes e hipnóticos de la clase. Por ello, la relación con el insomnio es mecanísticamente plausible. La larga duración del metabolito activo podría favorecer el mantenimiento del sueño, pero también plantea el riesgo de sedación residual al día siguiente.
 
-Conviene señalar que el insomnio es probablemente un uso coherente con la ficha de una benzodiazepina comercializada, más que un reposicionamiento genuino. Además, el puntaje elevado de TxGNN es solo una predicción del modelo, sin estudios específicos en esta indicación.
+Conviene señalar que el insomnio es probablemente un uso coherente con la ficha de una benzodiazepina (hoy no comercializada en España, solo con registros cancelados), más que un reposicionamiento genuino. Además, el puntaje elevado de TxGNN es solo una predicción del modelo (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay estudios específicos en esta indicación.
 
 ### Otras indicaciones predichas (contexto)
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Delirio por abstinencia alcohólica | 99,68% | L5 | Las benzodiazepinas son tratamiento estándar; apoyo solo por extrapolación de clase |
-| Abuso de antidepresivos | 99,46% | L5 | Sin fundamento mecanístico claro; probable artefacto del grafo de conocimiento |
-| Abuso de alucinógenos | 99,46% | L5 | Solo uso sintomático de la agitación; no trata el trastorno |
-| Abuso de barbitúricos | 99,46% | L5 | Tolerancia cruzada vía GABA-A; plausibilidad solo de clase |
-| Ansiedad | 99,34% | L4 | Literatura farmacológica y de revisión; probablemente indicación original |
-| Trastorno del sueño (inicio y mantenimiento) | 99,04% | L4 | Mismo mecanismo que el insomnio |
+| Delirio por abstinencia alcohólica | 0,9968 | L5 | Las benzodiazepinas son tratamiento estándar; apoyo solo por extrapolación de clase |
+| Abuso de antidepresivos | 0,9946 | L5 | Sin fundamento mecanístico claro; probable artefacto del modelo TxGNN (aprendizaje profundo) |
+| Abuso de alucinógenos | 0,9946 | L5 | Solo uso sintomático de la agitación; no trata el trastorno |
+| Abuso de barbitúricos | 0,9946 | L5 | Tolerancia cruzada vía GABA-A; plausibilidad solo de clase |
+| Ansiedad | 0,9934 | L4 | Literatura farmacológica y de revisión; probablemente indicación original |
+| Trastorno del sueño (inicio y mantenimiento) | 0,9904 | L4 | Mismo mecanismo que el insomnio |
 
 ---
 
@@ -131,7 +131,7 @@ Como aspectos generales de la clase, que no proceden de la ficha del producto: l
 **Decisión: Hold**
 
 **Justificación:**
-El insomnio se apoya solo en la predicción del modelo y en la plausibilidad mecanística de la clase (nivel L4), sin ensayos ni literatura específicos. Además, probablemente corresponde a un uso ya acorde con la ficha de una benzodiazepina comercializada, por lo que no constituye un reposicionamiento genuino.
+El insomnio se apoya solo en la predicción del modelo TxGNN (aprendizaje profundo) y en la plausibilidad mecanística de la clase (nivel L4), sin ensayos ni literatura específicos. Además, probablemente corresponde a un uso ya acorde con la ficha de una benzodiazepina (hoy no comercializada en España, solo con registros cancelados), por lo que no constituye un reposicionamiento genuino.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de AEMPS (indicaciones aprobadas, advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad.
@@ -139,7 +139,7 @@ El insomnio se apoya solo en la predicción del modelo y en la plausibilidad mec
 - Confirmar si insomnio y ansiedad ya constan en la ficha técnica española.
 - Buscar ensayos clínicos y literatura específicos de pinazepam en insomnio.
 - Evaluar de forma explícita el riesgo de dependencia, abuso y sedación residual antes de cualquier avance.
-- Descartar las predicciones de abuso de sustancias (antidepresivos, alucinógenos, barbitúricos), que parecen artefactos del grafo de conocimiento.
+- Descartar las predicciones de abuso de sustancias (antidepresivos, alucinógenos, barbitúricos), que parecen artefactos del modelo TxGNN (aprendizaje profundo).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

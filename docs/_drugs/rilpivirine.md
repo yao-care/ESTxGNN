@@ -4,17 +4,17 @@ title: Rilpivirine
 parent: Evidencia moderada (L3-L4)
 nav_order: 701
 evidence_level: L4
-indication_count: 5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Rilpivirine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (nivel de evidencia L4). Indicación original: VIH / SIDA (según el grafo de conocimiento"
 monitor_inn: "Rilpivirine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Rilpivirine: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Rilpivirina: De Infección por VIH a Infección por Virus de la Inmunodeficiencia de los Simios
+## Rilpivirine: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **5 publicaciones** (todas preclínicas o de revis
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Simian immunodeficiency virus infection |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El VIS y el VIH son lentivirus estrechamente relacionados, por lo que es mecanísticamente plausible que un inhibidor de la transcriptasa inversa tenga actividad contra el VIS. La literatura describe el uso de rilpivirina de acción prolongada, sola o con cabotegravir, en modelos de macacos (selección de resistencias, profilaxis posexposición y remisión virológica sostenida tras tratamiento precoz).
 
-Sin embargo, el VIS es una infección de modelos animales y de investigación, no una indicación humana. La evidencia apoya sobre todo la traslación al VIH, que ya es la indicación aprobada, y no una verdadera indicación nueva. Cabe señalar que otras predicciones del modelo con puntajes similares (síndrome de inmunodeficiencia adquirida felino, complejo relacionado con el SIDA, VIH congénito) también corresponden a indicaciones veterinarias o a la misma enfermedad ya aprobada. Un trastorno del neurodesarrollo raro (puntaje 99.97%) carece de ensayos, literatura y vínculo mecanístico plausible, por lo que probablemente es un artefacto del grafo de conocimiento.
+Sin embargo, el VIS es una infección de modelos animales y de investigación, no una indicación humana. La evidencia apoya sobre todo la traslación al VIH, que ya es la indicación aprobada, y no una verdadera indicación nueva. Cabe señalar que otras predicciones del modelo con puntajes similares (síndrome de inmunodeficiencia adquirida felino, complejo relacionado con el SIDA, VIH congénito) también corresponden a indicaciones veterinarias o a la misma enfermedad ya aprobada. Un trastorno del neurodesarrollo raro (puntaje 0.9997) carece de ensayos, literatura y vínculo mecanístico plausible, por lo que probablemente es un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ## Evidencia de Ensayos Clínicos
 

@@ -6,9 +6,9 @@ nav_order: 524
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Miconazole: nueva indicación predicha, Acné (nivel de evidencia L3). Indicación original: Infecciones cutáneas fúngicas: tiña del pie, tiña corporal…"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
+description: "Miconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Miconazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Miconazol: De Dermatofitosis y Candidiasis Cutánea a Acné
+## Miconazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **4 publicaciones** (una revisión, dos estudios c
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones cutáneas fúngicas: tiña del pie, tiña corporal, candidiasis cutánea, pitiriasis versicolor, candidiasis vulvovaginal (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99,54 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con el acné tiene dos vías plausibles. Primero, existe actividad *in vitro* de los azoles frente a *Cutibacterium* (*Propionibacterium*) *acnes*, la bacteria implicada en el acné vulgar. Segundo, miconazol actúa contra *Malassezia* (*Pityrosporum*), causante de la foliculitis por *Malassezia*, una afección parecida al acné que con frecuencia se diagnostica erróneamente como acné vulgar. Además, se han descrito efectos antiinflamatorios y antibacterianos de miconazol en la piel, que podrían ser relevantes para las lesiones inflamatorias del acné.
 
-Conviene interpretar con cautela el puntaje del modelo (0,995): es una predicción computacional y no constituye evidencia clínica. Parte del beneficio observado podría deberse al tratamiento de foliculitis por *Malassezia* confundida con acné, y no a un efecto sobre el acné propiamente dicho.
+Conviene interpretar con cautela el puntaje del modelo (0,9954): es una predicción computacional y no constituye evidencia clínica. Parte del beneficio observado podría deberse al tratamiento de foliculitis por *Malassezia* confundida con acné, y no a un efecto sobre el acné propiamente dicho.
 
 ## Evidencia de Ensayos Clínicos
 

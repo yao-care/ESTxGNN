@@ -6,9 +6,9 @@ nav_order: 529
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Miglustat: nueva indicación predicha, Enfermedad de Tay-Sachs (nivel de evidencia L5). Indicación original: Enfermedad de Gaucher y enfermedad de Niemann-Pick (según el grafo de…"
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
+description: "Miglustat: nueva indicación predicha, Autosomal ichthyosis syndrome with fatal disease course (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Miglustat
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Miglustat: De Enfermedad de Gaucher a Enfermedad de Tay-Sachs
+## Miglustat: Autosomal ichthyosis syndrome with fatal disease course
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **4 ensayos clínicos** y **10 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Gaucher y enfermedad de Niemann-Pick (según el grafo de conocimiento; las autorizaciones no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Enfermedad de Tay-Sachs |
-| Puntaje de Predicción TxGNN | 99.75% |
-| Nivel de Evidencia | L1 (según la regla establecida: ≥2 ECAs de Fase 3 completados; ver nota abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Autosomal ichthyosis syndrome with fatal disease course |
+| Puntaje de Predicción TxGNN | 0.9983 |
+| Nivel de Evidencia | L5 (según la regla establecida: ≥2 ECAs de Fase 3 completados; ver nota abajo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre el nivel de evidencia:** solo uno de los ensayos de Fase 3 figura como completado (NCT00672022); el otro (NCT03822013) fue terminado. Existe además un ECA publicado (PMID 19346952) y una revisión sistemática (2023). Los datos compilados asignan L1, pero una lectura estricta de la regla sugeriría un nivel inferior (L2–L3). Se recomienda verificarlo.

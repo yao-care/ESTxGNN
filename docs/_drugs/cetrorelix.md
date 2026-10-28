@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 |------|------|
 | Indicación Original | Inhibición de picos prematuros de LH en estimulación ovárica controlada (según datos farmacológicos; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Cetrorelix es un antagonista del receptor de GnRH (receptor GnRH₁, gen GNRHR). Al bloquearlo, suprime la liberación de LH y FSH y, por tanto, la producción gonadal de andrógenos. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero esta es la función farmacológica conocida del fármaco.
 
-Existe un vínculo teórico con el crecimiento de vello de tipo hirsutismo mediante la reducción de andrógenos. Sin embargo, la hipertricosis en general no depende de andrógenos, por lo que el vínculo es débil. El alto puntaje de TxGNN proviene de la proximidad en el grafo de conocimiento, no de evidencia terapéutica.
+Existe un vínculo teórico con el crecimiento de vello de tipo hirsutismo mediante la reducción de andrógenos. Sin embargo, la hipertricosis en general no depende de andrógenos, por lo que el vínculo es débil. El alto puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni terapéutica.
 
 Conviene subrayar que esta predicción es de baja plausibilidad mecanística. Las demás predicciones de mayor rango (síndrome de Ambras, malformaciones, anomalías del tallo piloso, tricomegalia familiar, circulación fetal persistente) tampoco tienen un mecanismo creíble. Solo dos predicciones de menor rango, la pubertad precoz central y la pubertad precoz familiar limitada a varones, pertenecen a un área biológicamente relacionada con la farmacología de cetrorelix. En la primera el mecanismo es coherente, pero el estándar de tratamiento son los agonistas de GnRH y la formulación de cetrorelix, de acción corta y pensada para FIV, limita su uso crónico pediátrico. En la segunda el mecanismo argumenta en contra del beneficio.
 

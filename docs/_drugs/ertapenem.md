@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ertapenem
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 305
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Neumonía bacteriana (según el grafo de conocimiento"
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Ertapenem: De Neumonía Bacteriana a Artritis Bacteriana
+## Ertapenem: Artritis bacteriana (bacterial arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ertapenem es un antibiótico carbapenémico de administración intravenosa. Según el grafo de conocimiento, sus indicaciones de partida incluyen la neumonía bacteriana, la neumonía estreptocócica y las infecciones por *Peptostreptococcus*.
+Ertapenem es un antibiótico carbapenémico de administración intravenosa. Sus indicaciones de partida incluyen la neumonía bacteriana, la neumonía estreptocócica y las infecciones por *Peptostreptococcus*.
 El modelo TxGNN predice que podría ser efectivo para la **artritis bacteriana**, pero por ahora hay **0 ensayos clínicos** y solo **10 publicaciones** (casos clínicos, series pequeñas y estudios in vitro). Se trata, por tanto, de una hipótesis con respaldo clínico débil.
 
 ---
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para la **artritis bacteriana**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumonía bacteriana (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles en los datos compilados) |
-| Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99,72 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis bacteriana (bacterial arthritis) |
+| Puntaje de Predicción TxGNN | 0.9972 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La neumonía bacteriana y la artritis bacteriana son ambas infecciones causadas por bacterias sensibles a este antibiótico. Ertapenem tiene actividad frente a muchas enterobacterias (incluidas las productoras de BLEE) y frente a anaerobios, que son causas plausibles de artritis séptica e infecciones osteoarticulares. Por eso el vínculo mecanístico es coherente.
 
-Sin embargo, el puntaje de 99,72 % es una predicción computacional y no constituye evidencia clínica. No hay ensayos registrados para esta indicación y la literatura disponible se compone sobre todo de casos clínicos y series pequeñas.
+Sin embargo, el puntaje de 0,9972 es una predicción computacional y no constituye evidencia clínica. No hay ensayos registrados para esta indicación y la literatura disponible se compone sobre todo de casos clínicos y series pequeñas.
 
 ---
 

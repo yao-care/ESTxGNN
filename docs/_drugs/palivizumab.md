@@ -6,9 +6,9 @@ nav_order: 605
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Palivizumab: nueva indicación predicha, Neoplasia benigna de la lengua (nivel de evidencia L5). Indicación original: Infección por virus respiratorio sincitial (según el grafo de conocim…"
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
+description: "Palivizumab: nueva indicación predicha, Benign neoplasm of tongue (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Palivizumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Palivizumab: De Infección por Virus Respiratorio Sincitial a Neoplasia Benigna de la Lengua
+## Palivizumab: Benign neoplasm of tongue
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia benigna de la 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por virus respiratorio sincitial (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Neoplasia benigna de la lengua |
-| Puntaje de Predicción TxGNN | 99,94% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Benign neoplasm of tongue |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
+| Número de Autorizaciones | 4 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia benigna de la 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, palivizumab es un anticuerpo monoclonal humanizado que se une a la proteína F de fusión del VRS y neutraliza el virus, por lo que su eficacia se limita a la prevención de la infección por este patógeno.
 
-**Esta predicción no tiene un respaldo mecanístico plausible.** Palivizumab es específico de un antígeno viral y no tiene una diana conocida ni una vía relevante en la biología de los tumores benignos de la lengua. El puntaje elevado (99,94%, posición 1567 del modelo) es solo una salida computacional, sin ensayos clínicos ni literatura que lo sustenten. La similitud entre la indicación original y la nueva indicación está pendiente de evaluar.
+**Esta predicción no tiene un respaldo mecanístico plausible.** Palivizumab es específico de un antígeno viral y no tiene una diana conocida ni una vía relevante en la biología de los tumores benignos de la lengua. El puntaje elevado (0,9994, posición 1567 del modelo) es solo una salida computacional, sin ensayos clínicos ni literatura que lo sustenten. La similitud entre la indicación original y la nueva indicación está pendiente de evaluar.
 
 Otras predicciones del mismo modelo (neoplasia de epiglotis, neuroblastoma cervical, neoplasia benigna de hipofaringe, entre otras) presentan puntajes casi idénticos y la misma ausencia de evidencia. Esto sugiere que el puntaje alto no es discriminativo para este fármaco y debe interpretarse con mucha cautela.
 

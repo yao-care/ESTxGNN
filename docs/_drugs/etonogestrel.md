@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 |------|------|
 | Indicación Original | No disponible en los datos compilados (la autorización no incluye texto de indicación) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La amenorrea es un efecto frecuente y conocido del implante de etonogestrel, por lo que la asociación es biológicamente plausible. Sin embargo, se trata de un efecto esperado sobre el patrón de sangrado, no de una indicación terapéutica: el fármaco no está establecido como tratamiento de la amenorrea (de hecho, la amenorrea es un efecto secundario o resultado de su uso).
 
-El puntaje alto de TxGNN probablemente refleja esta asociación farmacológica y no una verdadera señal de reposicionamiento. Otras predicciones del modelo (enfermedad fibroquística de la mama, adenosis apocrina, adenosis de conductos romos y displasia mamaria benigna, con puntajes de 99.2%–99.6%) se apoyan en una justificación hormonal teórica, también sin datos clínicos.
+El puntaje alto de TxGNN probablemente refleja esta asociación farmacológica y no una verdadera señal de reposicionamiento. Otras predicciones del modelo (enfermedad fibroquística de la mama, adenosis apocrina, adenosis de conductos romos y displasia mamaria benigna, con puntajes de 0.9961, 0.9929, 0.9929 y 0.9921, respectivamente) se apoyan en una justificación hormonal teórica, también sin datos clínicos. Estos puntajes provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 

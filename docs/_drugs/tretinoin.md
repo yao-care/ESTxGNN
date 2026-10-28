@@ -4,17 +4,17 @@ title: Tretinoin
 parent: Solo predicción del modelo (L5)
 nav_order: 822
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tretinoin: nueva indicación predicha, Nodulosis reumatoide (nivel de evidencia L5). Indicación original: Acné, leucemia promielocítica aguda…"
 monitor_inn: "Tretinoin"
-predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "spondyloarthropathy, susceptibility to", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+description: "Tretinoin: nueva indicación predicha, Nodulosis reumatoide (rheumatoid nodulosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tretinoin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tretinoína: De Acné a Nodulosis Reumatoide
+## Tretinoin: Nodulosis reumatoide (rheumatoid nodulosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acné, leucemia promielocítica aguda, queratosis adquirida y queratodermia palmoplantar (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Nodulosis reumatoide |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nodulosis reumatoide (rheumatoid nodulosis) |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción orig
 
 La relación entre las indicaciones originales (dermatológicas y hematológicas) y la nodulosis reumatoide es indirecta. Un vínculo plausible, pero no verificado, sería la modulación retinoide de la señalización inmunitaria e inflamatoria (por ejemplo, efectos sobre la diferenciación de los linfocitos T y la producción de citocinas). Esta hipótesis es especulativa para los nódulos reumatoides en particular.
 
-Conviene destacar que las demás predicciones de mayor puntaje (artritis idiopática juvenil y sus variantes, espondiloartropatía, osteoartritis, displasias esqueléticas) tampoco cuentan con evidencia clínica. Todas reflejan probablemente la proximidad en la red del grafo de conocimiento y no una base farmacológica establecida. Entre las predicciones del listado, la foliculitis decalvante de Quinquaud (rango 10) parece mecanísticamente más verosímil por la acción dermatológica de la tretinoína, aunque tampoco está verificada.
+Conviene destacar que las demás predicciones de mayor puntaje (artritis idiopática juvenil y sus variantes, osteoartritis, displasias esqueléticas) tampoco cuentan con evidencia clínica. Todas provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Entre las predicciones del listado, la foliculitis decalvante de Quinquaud (rango 10) parece mecanísticamente más verosímil por la acción dermatológica de la tretinoína, aunque tampoco está verificada.
 
 ---
 
@@ -119,7 +119,7 @@ Las advertencias principales del prospecto de la AEMPS no están disponibles; co
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es alto (99.84%), pero no existe ningún ensayo clínico ni publicación que respalde el uso de tretinoína en la nodulosis reumatoide (nivel L5). Además, el mecanismo de acción original y los datos de seguridad del prospecto no están disponibles, y el perfil de contraindicaciones del grafo es amplio.
+El puntaje de TxGNN es alto (0.9984), pero no existe ningún ensayo clínico ni publicación que respalde el uso de tretinoína en la nodulosis reumatoide (nivel L5). Además, el mecanismo de acción original y los datos de seguridad del prospecto no están disponibles, y el perfil de contraindicaciones del grafo es amplio.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), un requisito previo para cualquier evaluación de seguridad.

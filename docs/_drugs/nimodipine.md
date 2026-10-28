@@ -6,9 +6,9 @@ nav_order: 567
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nimodipine: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L5). Indicación original: Hemorragia subaracnoidea (según el grafo de conocimiento de TxGNN"
 monitor_inn: "nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Nimodipine: nueva indicación predicha, Hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nimodipine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Nimodipino: De Hemorragia Subaracnoidea a Hipercolesterolemia Familiar Homocigota
+## Nimodipine: Hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemorragia subaracnoidea (según el grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota |
-| Puntaje de Predicción TxGNN | 99,29% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) |
+| Puntaje de Predicción TxGNN | 0.9929 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La hipercolesterolemia familiar homocigota se debe a defectos en la vía del receptor de LDL (genes LDLR, APOB, PCSK9, LDLRAP1). No existe un vínculo mecanístico directo respaldado por los datos disponibles. Algunos bloqueadores de los canales de calcio se han asociado, en estudios preclínicos, con efectos modestos sobre el manejo vascular de lípidos o la aterosclerosis, pero esta justificación es indirecta y especulativa, y no corrige la deficiencia subyacente del receptor de LDL.
 
-El puntaje alto de TxGNN (0,993) es solo una predicción computacional y no sustituye a la evidencia experimental o clínica.
+El puntaje alto de TxGNN (0,9929) es solo una predicción computacional y no sustituye a la evidencia experimental o clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -107,7 +107,7 @@ La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatu
 
 ---
 
-**Nota sobre la segunda predicción (rango 2):** la hipótesis de *síndrome nefrogénico de antidiuresis inapropiada* (puntaje 99,05%) también es de nivel L5, sin evidencia ni vínculo mecanístico respaldado, y con decisión **Hold**.
+**Nota sobre la segunda predicción (rango 2):** la hipótesis de *síndrome nefrogénico de antidiuresis inapropiada* (puntaje 0,9905) también es de nivel L5, sin evidencia ni vínculo mecanístico respaldado, y con decisión **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

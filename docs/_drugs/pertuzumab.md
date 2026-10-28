@@ -4,17 +4,17 @@ title: Pertuzumab
 parent: Solo predicción del modelo (L5)
 nav_order: 629
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pertuzumab: nueva indicación predicha, Subtipo de carcinoma de mama de tipo normal (normal-like) (nivel de evidencia L5). Indicación original: Carcinoma de mama HER2 positivo"
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Pertuzumab: De Carcinoma de Mama HER2 Positivo a Subtipo de Carcinoma de Mama de Tipo Normal (Normal-like)
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de mama HER2 positivo |
-| Nueva Indicación Predicha | Subtipo de carcinoma de mama de tipo normal (normal-like) |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ectomesenchymoma |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

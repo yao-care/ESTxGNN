@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clopidogrel
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 200
-evidence_level: L3
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: Síndrome coronario agudo, embolia intracraneal…"
 monitor_inn: "CLOPIDOGREL"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
+description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-## Clopidogrel: De Síndrome Coronario Agudo a Migraña con Aura del Tronco Encefálico
+## Clopidogrel: Migraña con aura del tronco encefálico (migraine with brainstem aura)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tr
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome coronario agudo, embolia intracraneal, infarto de miocardio con elevación del ST (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.44% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Migraña con aura del tronco encefálico (migraine with brainstem aura) |
+| Puntaje de Predicción TxGNN | 0.9944 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -120,7 +120,7 @@ Para las advertencias y precauciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Para la migraña con aura del tronco encefálico no hay ensayos clínicos y la evidencia se limita a estudios observacionales y series de casos extrapolados de migraña con aura asociada a FOP (L3). El puntaje de TxGNN es alto (99.44%), pero no compensa esa falta de evidencia directa. Para la indicación más amplia de migraña con cortocircuito derecha-izquierda hay evidencia más sólida, incluido un ECA publicado de clopidogrel más aspirina tras el cierre de comunicación interauricular (CANOA) y un ensayo multicéntrico reciente de tratamiento antitrombótico en migraña con FOP. Aun así, ningún ensayo de Fase 3 evalúa directamente clopidogrel en migraña.
+Para la migraña con aura del tronco encefálico no hay ensayos clínicos y la evidencia se limita a estudios observacionales y series de casos extrapolados de migraña con aura asociada a FOP (L3). El puntaje de TxGNN es alto (0.9944), pero no compensa esa falta de evidencia directa. Para la indicación más amplia de migraña con cortocircuito derecha-izquierda hay evidencia más sólida, incluido un ECA publicado de clopidogrel más aspirina tras el cierre de comunicación interauricular (CANOA) y un ensayo multicéntrico reciente de tratamiento antitrombótico en migraña con FOP. Aun así, ningún ensayo de Fase 3 evalúa directamente clopidogrel en migraña.
 
 **Para avanzar se necesita:**
 - Reorientar la hipótesis hacia migraña con aura asociada a FOP o cortocircuito derecha-izquierda, donde existen más datos.

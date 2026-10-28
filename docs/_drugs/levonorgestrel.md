@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Evidencia moderada (L3-L4)
 nav_order: 468
 evidence_level: L4
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Levonorgestrel: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Osteoporosis posmenopáusica / osteoporosis (según el grafo de conocim…"
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,23 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Levonorgestrel: De Osteoporosis Posmenopáusica a Acné
+## Levonorgestrel: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Levonorgestrel es un progestágeno utilizado ampliamente en anticoncepción (comprimidos de anticoncepción de emergencia y sistemas intrauterinos), y en el grafo de conocimiento del modelo figura asociado a la osteoporosis posmenopáusica y la osteoporosis.
+Levonorgestrel es un progestágeno utilizado ampliamente en anticoncepción (comprimidos de anticoncepción de emergencia y sistemas intrauterinos).
 El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente no hay **ningún ensayo clínico** registrado y solo se dispone de **20 publicaciones**, en su mayoría revisiones generales sobre anticoncepción que respaldan la dirección de forma solo indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoporosis posmenopáusica / osteoporosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99,88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

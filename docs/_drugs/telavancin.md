@@ -6,9 +6,9 @@ nav_order: 769
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Telavancin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Neumonía bacteriana / neumonía por Staphylococcus aureus (según el gr…"
 monitor_inn: "telavancin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "septicemic plague", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy", "monoclonal gammopathy", "congenital hematological disorder"]
+description: "Telavancin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Telavancin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Telavancina: De Neumonía Bacteriana a Síndrome de Hiperviscosidad Policlonal
+## Telavancin: Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumonía bacteriana / neumonía por *Staphylococcus aureus* (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La hiperviscosidad policlonal se debe a niveles elevados de inmunoglobulinas o proteínas séricas. Este proceso no es una diana del mecanismo antibacteriano de telavancina, por lo que **no se identifica un vínculo mecanístico plausible** entre la indicación original y la nueva.
 
-El puntaje elevado (0.996) refleja la conectividad del grafo de conocimiento, no evidencia biológica ni clínica. Otras predicciones del modelo (hiperamilasemia, analbuminemia congénita, gammapatía monoclonal, entre otras) presentan el mismo patrón: puntajes altos sin respaldo mecanístico. La única con cierta plausibilidad indirecta es la peste septicémica, aunque *Yersinia pestis* es Gram-negativa y existen tratamientos eficaces establecidos.
+El puntaje elevado (0.9963) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica. Otras predicciones del modelo (hiperamilasemia, analbuminemia congénita, gammapatía monoclonal, entre otras) presentan el mismo patrón: puntajes altos sin respaldo mecanístico. La única con cierta plausibilidad indirecta es la peste septicémica, aunque *Yersinia pestis* es Gram-negativa y existen tratamientos eficaces establecidos.
 
 ## Evidencia de Ensayos Clínicos
 

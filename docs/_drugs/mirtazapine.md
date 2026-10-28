@@ -6,9 +6,9 @@ nav_order: 533
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: Depresión unipolar / trastorno depresivo mayor (según el grafo de con…"
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mirtazapine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Mirtazapina: De Trastorno Depresivo Mayor a Síndrome de Ohdo y variantes
+## Mirtazapine: Síndrome de Ohdo y variantes (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Depresión unipolar / trastorno depresivo mayor (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
-| Puntaje de Predicción TxGNN | 99,42% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de Ohdo y variantes (Ohdo syndrome and variants) |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome de Ohdo es un trastorno genético raro (asociado a KAT6B) que implica la regulación de la cromatina. Con los datos disponibles **no se puede establecer un vínculo mecanístico** entre la acción de la mirtazapina sobre receptores monoaminérgicos y la fisiopatología de esta enfermedad. El puntaje del modelo es muy alto, pero es solo una predicción computacional.
 
-Además, la segunda predicción (síndrome de blefarofimosis con discapacidad intelectual, tipo Ohdo; 99,11%) probablemente corresponde a la misma entidad o a una muy cercana en el grafo de conocimiento, por lo que ambas predicciones no son independientes y no deben contarse como apoyos separados. La tercera (tortícolis paroxística benigna de la infancia; 99,11%) solo tiene una conexión especulativa con variantes de migraña y canalopatías, y afecta a población lactante, para la cual mirtazapina no está establecida.
+Además, la segunda predicción (síndrome de blefarofimosis con discapacidad intelectual, tipo Ohdo; 0,9911) probablemente corresponde a la misma entidad o a una muy cercana; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, por lo que ambas predicciones no son independientes y no deben contarse como apoyos separados. La tercera (tortícolis paroxística benigna de la infancia; 0,9911) solo tiene una conexión especulativa con variantes de migraña y canalopatías, y afecta a población lactante, para la cual mirtazapina no está establecida.
 
 ## Evidencia de Ensayos Clínicos
 

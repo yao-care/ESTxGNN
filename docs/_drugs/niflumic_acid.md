@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Raynaud
 |------|------|
 | Indicación Original | No disponible en la autorización de AEMPS (referencia externa: artritis reumatoide) |
 | Nueva Indicación Predicha | Enfermedad de Raynaud |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ No se dispone de datos detallados sobre el mecanismo de acción en la ficha del 
 
 La enfermedad de Raynaud se caracteriza por vasoespasmo en los vasos periféricos. Dado que el ácido niflúmico podría modular el tono del músculo liso vascular mediante el bloqueo de canales de cloruro y la inhibición de COX, existe una hipótesis mecanística plausible. Sin embargo, este vínculo es especulativo y no cuenta con respaldo clínico.
 
-El puntaje elevado de TxGNN (99.77%) es una predicción computacional y no sustituye a la evidencia experimental o clínica. La similitud con la indicación original no ha podido evaluarse por falta de datos.
+El puntaje elevado de TxGNN (0.9977) es una predicción computacional y no sustituye a la evidencia experimental o clínica. La similitud con la indicación original no ha podido evaluarse por falta de datos.
 
 ---
 
@@ -102,13 +102,13 @@ Todas con nivel de evidencia L5, sin ensayos ni literatura, y recomendación Hol
 
 | Rank | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Angina de Prinzmetal | 99.55% | Vasoespasmo coronario; hipótesis sin respaldo clínico |
-| 3 | Trastorno de cefalea | 99.39% | Plausible por efecto analgésico de clase AINE; categoría amplia |
-| 4 | Cefalalgia autonómica trigeminal | 99.29% | Vínculo indirecto; respuestas terapéuticas específicas (p. ej., indometacina) |
-| 5 | Enfermedad de vasos pequeños cerebrales tipo 1 (con o sin anomalías oculares) | 99.26% | Trastorno monogénico raro (COL4A1); sin vínculo mecanístico claro |
-| 6 | Síndrome autosómico dominante de hematuria familiar, tortuosidad arteriolar retiniana y contracturas | 99.25% | Vasculopatía genética rara (COL4A1); sin base mecanística |
-| 7 | Nefropatía diabética | 99.13% | Riesgo renal de los AINE; beneficio improbable |
-| 8 | Trastorno de migraña | 99.04% | La más plausible por el uso de AINE en migraña aguda, aunque sin datos específicos del fármaco |
+| 2 | Angina de Prinzmetal | 0.9955 | Vasoespasmo coronario; hipótesis sin respaldo clínico |
+| 3 | Trastorno de cefalea | 0.9939 | Plausible por efecto analgésico de clase AINE; categoría amplia |
+| 4 | Cefalalgia autonómica trigeminal | 0.9929 | Vínculo indirecto; respuestas terapéuticas específicas (p. ej., indometacina) |
+| 5 | Enfermedad de vasos pequeños cerebrales tipo 1 (con o sin anomalías oculares) | 0.9926 | Trastorno monogénico raro (COL4A1); sin vínculo mecanístico claro |
+| 6 | Síndrome autosómico dominante de hematuria familiar, tortuosidad arteriolar retiniana y contracturas | 0.9925 | Vasculopatía genética rara (COL4A1); sin base mecanística |
+| 7 | Nefropatía diabética | 0.9913 | Riesgo renal de los AINE; beneficio improbable |
+| 8 | Trastorno de migraña | 0.9904 | La más plausible por el uso de AINE en migraña aguda, aunque sin datos específicos del fármaco |
 
 ---
 

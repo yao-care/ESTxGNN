@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tamoxifen
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 762
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tamoxifen: nueva indicación predicha, Enfermedad de Paget mamaria (nivel de evidencia L4). Indicación original: Carcinoma de mama femenino (según el grafo de conocimiento"
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Tamoxifeno: De Carcinoma de Mama Femenino a Mama Paget (Enfermedad de Paget Mamaria)
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Paget m
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de mama femenino (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Enfermedad de Paget mamaria |
-| Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Mammary Paget disease |
+| Puntaje de Predicción TxGNN | 0.9969 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---

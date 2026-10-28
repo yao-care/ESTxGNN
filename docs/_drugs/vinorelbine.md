@@ -4,17 +4,17 @@ title: Vinorelbine
 parent: Evidencia alta (L1-L2)
 nav_order: 852
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Vinorelbine: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: Carcinoma de pulmón no microcítico / cáncer de pulmón (según el grafo…"
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
+description: "Vinorelbine: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Vinorelbine
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Vinorelbina: De Cáncer de Pulmón No Microcítico a Sarcoma de Ewing
+## Vinorelbine: Sarcoma de Ewing (Ewing sarcoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **3 ensayos clínicos** (2 de ellos de Fase 2 y directamente relacionados co
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de pulmón no microcítico / cáncer de pulmón (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Sarcoma de Ewing |
-| Puntaje de Predicción TxGNN | 99.999% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Sarcoma de Ewing (Ewing sarcoma) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 16 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 10) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

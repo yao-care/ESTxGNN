@@ -6,9 +6,9 @@ nav_order: 214
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cytarabine: nueva indicación predicha, Carcinoma pulmonar de células pequeñas (nivel de evidencia L4). Indicación original: Leucemia linfoblástica aguda y leucemia mieloide aguda (el texto de i…"
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
+description: "Cytarabine: nueva indicación predicha, Small cell lung carcinoma (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Cytarabine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-## Citarabina: De Leucemia Linfoblástica Aguda a Carcinoma Pulmonar de Células Pequeñas
+## Cytarabine: Small cell lung carcinoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos** y la literatura recuperada (**20 p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfoblástica aguda y leucemia mieloide aguda (el texto de indicación de las autorizaciones españolas no está disponible; se toma de las indicaciones del grafo de conocimiento) |
-| Nueva Indicación Predicha | Carcinoma pulmonar de células pequeñas |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Small cell lung carcinoma |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Delamanid
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 232
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Delamanid: nueva indicación predicha, Tuberculosis bovina (nivel de evidencia L4). Indicación original: Tuberculosis multirresistente (según el grafo de conocimiento"
 monitor_inn: "DELAMANID"
 predicted_indications: ["allergic urticaria"]
+description: "Delamanid: nueva indicación predicha, Allergic urticaria (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Delamanid
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Delamanid: De Tuberculosis Multirresistente a Tuberculosis Bovina
+## Delamanid: Allergic urticaria
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **tuberculosis bovina**, a
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tuberculosis multirresistente (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Tuberculosis bovina |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Español | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Allergic urticaria |
+| Puntaje de Predicción TxGNN | 0.9956 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Español | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 > Nota: entre las demás predicciones, "tuberculosis inactiva" (latente) tiene mayor respaldo clínico (1 ensayo de Fase 2/3, nivel L2), aunque dicho ensayo estudia tuberculosis pulmonar activa y no infección latente. Se comenta en la conclusión.

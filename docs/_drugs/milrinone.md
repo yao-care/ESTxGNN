@@ -4,7 +4,7 @@ title: Milrinone
 parent: Solo predicción del modelo (L5)
 nav_order: 530
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Milrinone: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Insuficiencia cardiaca congestiva (según datos farmacológicos"
 monitor_inn: "milrinone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 # Milrinone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Insuficiencia cardiaca congestiva (según datos farmacológicos; el texto de indicación de la autorización de AEMPS no está disponible) |
 | Nueva Indicación Predicha | Alopecia |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Milrinona inhibe la fosfodiesterasa 3 (PDE3), lo que eleva el AMP cíclico (AMPc
 
 Un vínculo con el cabello es concebible, pero especulativo. La señalización por AMPc y el flujo sanguíneo perifolicular podrían influir en la biología del folículo piloso, de forma parecida a lo que se discute con el minoxidil, otro vasodilatador. Sin embargo, no existe ningún estudio clínico ni publicación que respalde este uso de milrinona.
 
-El puntaje alto (99.91%) probablemente refleja cercanía en el grafo de conocimiento con otros nodos relacionados con la pérdida de cabello y no biología real. Las demás predicciones del mismo grupo (hipotricosis simple del cuero cabelludo, hipotricosis congénita con milia y alopecia areata difusa) tampoco cuentan con evidencia. En la alopecia areata, además, las vías más relevantes son JAK y PDE4, no PDE3.
+El puntaje alto (0.9991) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con la pérdida de cabello, no evidencia biológica. Las demás predicciones del mismo grupo (hipotricosis simple del cuero cabelludo, hipotricosis congénita con milia y alopecia areata difusa) tampoco cuentan con evidencia. En la alopecia areata, además, las vías más relevantes son JAK y PDE4, no PDE3.
 
 ---
 

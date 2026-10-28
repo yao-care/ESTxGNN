@@ -6,9 +6,9 @@ nav_order: 263
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: Hipertensión e hiperplasia prostática benigna (según el grafo de cono…"
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Doxazosin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Doxazosina: De Hipertensión e Hiperplasia Prostática Benigna a Migraña
+## Doxazosin: Trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** (u
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión e hiperplasia prostática benigna (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99,20% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La señalización adrenérgica modula el tono vascular cerebral y las vías noradrenérgicas centrales, que podrían intervenir en la fisiopatología de la migraña. Esto ofrece un vínculo biológicamente plausible, pero no demostrado. Este razonamiento se infiere de la farmacología conocida del fármaco, no de datos de mecanismo aportados directamente.
 
-El puntaje de 99,20% es una predicción computacional y no constituye evidencia clínica. Además, el modelo predice también "migraña con aura del tronco encefálico" (99,19%), un subtipo de migraña sin ensayos ni literatura propios; esa predicción hereda la hipótesis general de migraña y debería abordarse dentro de la misma pregunta de investigación, no por separado.
+El puntaje de 0,9920 es una predicción computacional y no constituye evidencia clínica. Además, el modelo predice también "migraña con aura del tronco encefálico" (0,9919), un subtipo de migraña sin ensayos ni literatura propios; esa predicción hereda la hipótesis general de migraña y debería abordarse dentro de la misma pregunta de investigación, no por separado.
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 662
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prilocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Eyaculación precoz"
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: nueva indicación predicha, Conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Prilocaine
@@ -33,31 +33,31 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Prilocaína: De Eyaculación Precoz a Papilar Conjuntivitis (Conjuntivitis Papilar)
+## Prilocaine: Conjuntivitis papilar (papillary conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Prilocaína es un anestésico local de tipo amida, cuyas indicaciones originales en el grafo de conocimiento son la eyaculación precoz y la dispareunia psicológica.
+Prilocaína es un anestésico local de tipo amida, cuyas indicaciones originales son la eyaculación precoz y la dispareunia psicológica.
 El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**, pero no hay **ningún ensayo clínico** ni **ninguna publicación** que respalde esta dirección, por lo que se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Eyaculación precoz; dispareunia psicológica (según el grafo de conocimiento; el texto de indicación de la autorización de AEMPS no está disponible) |
-| Nueva Indicación Predicha | Conjuntivitis papilar |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis papilar (papillary conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la prilocaína es un anestésico local que bloquea los canales de sodio dependientes de voltaje, y su eficacia como anestésico (solo o en la mezcla eutéctica con lidocaína, EMLA) está bien establecida.
 
-La relación con la conjuntivitis papilar es débil y especulativa. Se trata de una enfermedad inflamatoria/alérgica de la conjuntiva, y no existe una justificación farmacológica clara que vincule el bloqueo de canales de sodio con su tratamiento. El puntaje alto de TxGNN refleja probablemente similitud en la red del grafo y no evidencia clínica.
+La relación con la conjuntivitis papilar es débil y especulativa. Se trata de una enfermedad inflamatoria/alérgica de la conjuntiva, y no existe una justificación farmacológica clara que vincule el bloqueo de canales de sodio con su tratamiento. El puntaje alto del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no evidencia biológica.
 
 Por ello, esta predicción debe considerarse solo una hipótesis de partida. Hay otras predicciones del modelo con más respaldo (ver nota más abajo).
 
@@ -96,7 +96,7 @@ La indicación predicha (conjuntivitis papilar) solo tiene respaldo del modelo (
 - Realizar estudios preclínicos o una revisión de literatura que justifique un vínculo entre la prilocaína y la conjuntivitis papilar.
 - Evaluar la compatibilidad de la vía de administración (oftálmica frente a la inyectable autorizada).
 
-**Nota sobre otras predicciones:** entre las candidatas de mayor rango, la **neuralgia** (puntaje 99.34%, nivel L3) es la que cuenta con más respaldo: un ensayo de Fase 2 abierto (n=20) con crema de lidocaína/prilocaína y estudios antiguos en neuralgia posherpética. La evidencia es pequeña y confundida por el componente de lidocaína, por lo que podría explorarse como pregunta de investigación. El resto de las predicciones no tiene evidencia terapéutica.
+**Nota sobre otras predicciones:** entre las candidatas de mayor rango, la **neuralgia** (puntaje 0.9934, nivel L3) es la que cuenta con más respaldo: un ensayo de Fase 2 abierto (n=20) con crema de lidocaína/prilocaína y estudios antiguos en neuralgia posherpética. La evidencia es pequeña y confundida por el componente de lidocaína, por lo que podría explorarse como pregunta de investigación. El resto de las predicciones no tiene evidencia terapéutica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

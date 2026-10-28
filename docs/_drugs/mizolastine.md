@@ -6,9 +6,9 @@ nav_order: 537
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Mizolastine: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L5). Indicación original: Rinitis alérgica y rinitis vasomotora (según las relaciones de indica…"
 monitor_inn: "Mizolastine"
 predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "extrapyramidal and movement disease", "benign shuddering attacks", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
+description: "Mizolastine: nueva indicación predicha, Porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mizolastine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Mizolastina: De Rinitis Alérgica a Porfiria Aguda Intermitente
+## Mizolastine: Porfiria aguda intermitente (acute intermittent porphyria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica y rinitis vasomotora (según las relaciones de indicación del grafo de conocimiento; los textos de las autorizaciones españolas no incluyen indicación) |
-| Nueva Indicación Predicha | Porfiria aguda intermitente |
-| Puntaje de Predicción TxGNN | 99,76 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Porfiria aguda intermitente (acute intermittent porphyria) |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, mizolastina es un antihistamínico H1 de segunda generación, y su diana farmacológica registrada es el receptor H1 de histamina (gen HRH1). Su eficacia en rinitis alérgica y vasomotora es la base de su uso clínico.
 
-Con los datos compilados para este informe, **no se logra establecer un vínculo mecanístico** entre el antagonismo del receptor H1 y la porfiria aguda intermitente. Esta enfermedad es un trastorno de la biosíntesis del hemo (déficit de porfobilinógeno desaminasa) sin un mecanismo histaminérgico reconocido. Por ello, el puntaje elevado (0,998) debe interpretarse como un resultado del modelo, probablemente reflejo de similitudes en la red de conocimiento, y no como una justificación farmacológica verificada.
+Con los datos compilados para este informe, **no se logra establecer un vínculo mecanístico** entre el antagonismo del receptor H1 y la porfiria aguda intermitente. Esta enfermedad es un trastorno de la biosíntesis del hemo (déficit de porfobilinógeno desaminasa) sin un mecanismo histaminérgico reconocido. Por ello, el puntaje elevado (0,9976) debe interpretarse como un resultado del modelo, probablemente reflejo de similitudes en la red de conocimiento, y no como una justificación farmacológica verificada.
 
 Además, la seguridad de los antihistamínicos en porfiria (consideraciones sobre el metabolismo hepático/vía del hemo) requeriría una revisión específica antes de cualquier uso en esta población.
 
@@ -68,15 +68,15 @@ El modelo generó otras nueve predicciones con puntajes similares (todas con niv
 
 | Posición | Indicación predicha | Puntaje TxGNN |
 |------|------|------|
-| 2 | Trastornos del movimiento psicógenos | 99,71 % |
-| 3 | Discinesia lingual-facial-bucal | 99,71 % |
-| 4 | Trastorno de tics crónico | 99,71 % |
-| 5 | Enfermedad extrapiramidal y del movimiento | 99,70 % |
-| 6 | Ataques de estremecimiento benignos | 99,70 % |
-| 7 | Temblor ortostático primario | 99,69 % |
-| 8 | Síndrome de temblor-nistagmo-úlcera duodenal | 99,69 % |
-| 9 | Mirada tónica paroxística benigna de la infancia con ataxia | 99,68 % |
-| 10 | Deficiencia de carbamoil fosfato sintetasa I | 99,47 % |
+| 2 | Trastornos del movimiento psicógenos | 0,9971 |
+| 3 | Discinesia lingual-facial-bucal | 0,9971 |
+| 4 | Trastorno de tics crónico | 0,9971 |
+| 5 | Enfermedad extrapiramidal y del movimiento | 0,9970 |
+| 6 | Ataques de estremecimiento benignos | 0,9970 |
+| 7 | Temblor ortostático primario | 0,9969 |
+| 8 | Síndrome de temblor-nistagmo-úlcera duodenal | 0,9969 |
+| 9 | Mirada tónica paroxística benigna de la infancia con ataxia | 0,9968 |
+| 10 | Deficiencia de carbamoil fosfato sintetasa I | 0,9947 |
 
 Ninguna de ellas cuenta con un vínculo mecanístico respaldado por los datos. En los trastornos del movimiento se ha planteado de forma especulativa una modulación histaminérgica central, pero mizolastina es un agente periférico, no sedante y con penetración limitada en el sistema nervioso central. En los tics, el interés preclínico se centra en el receptor H3, una diana distinta del H1.
 

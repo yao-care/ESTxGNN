@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ribavirin
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 696
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ribavirin: nueva indicación predicha, Infección crónica por virus de la hepatitis B (nivel de evidencia L5). Indicación original: Infección crónica por virus de la hepatitis C"
 monitor_inn: "Ribavirin"
-predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "IgG4-related mesenteritis"]
+predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "IgG4-related mesenteritis"]
+description: "Ribavirin: nueva indicación predicha, Infección crónica por virus de la hepatitis B (chronic hepatitis B virus infection) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Ribavirin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ribavirina: De Hepatitis C Crónica a Infección Crónica por Virus de la Hepatitis B
+## Ribavirin: Infección crónica por virus de la hepatitis B (chronic hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectiva para la **infección crónica p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por virus de la hepatitis C; infección por virus respiratorio sincitial (según el grafo de conocimiento, ya que los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Infección crónica por virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección crónica por virus de la hepatitis B (chronic hepatitis B virus infection) |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L1 (según el número de ensayos de Fase 3 completados; la eficacia no está confirmada con los datos disponibles) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información farmacológica conocida, la ribavirina es un análogo de la guanosina que inhibe las enzimas IMPDH1 e IMPDH2 (inosina monofosfato deshidrogenasa), reduce las reservas intracelulares de GTP y bloquea la síntesis de ácidos nucleicos. Además, tiene efectos inmunomoduladores. Su actividad es de amplio espectro frente a virus ARN.
 
-Tanto la hepatitis C como la hepatitis B son infecciones virales crónicas del hígado que comparten el riesgo de cirrosis y carcinoma hepatocelular, y a menudo se tratan con interferón. Esto explica la proximidad entre ambas indicaciones en el grafo de conocimiento.
+Tanto la hepatitis C como la hepatitis B son infecciones virales crónicas del hígado que comparten el riesgo de cirrosis y carcinoma hepatocelular, y a menudo se tratan con interferón. La puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Sin embargo, el VHB es un virus ADN y la ribavirina tiene actividad antiviral directa limitada frente a él. Los estudios clínicos la han evaluado sobre todo como complemento del peginterferón para potenciar la respuesta inmunomediada, no como antiviral directo contra el VHB. Hoy los análogos de nucleós(t)idos son el tratamiento estándar. Por tanto, la plausibilidad mecanística es moderada.
 

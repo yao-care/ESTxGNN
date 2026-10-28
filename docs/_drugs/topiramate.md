@@ -4,17 +4,17 @@ title: Topiramate
 parent: Solo predicción del modelo (L5)
 nav_order: 805
 evidence_level: L5
-indication_count: 9
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Epilepsia con crisis tonicoclónicas generalizadas (según el grafo de…"
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Topiramate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Topiramato: De Epilepsia a Neoplasia del Nervio Trigémino
+## Topiramate: Neoplasia del nervio trigémino (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia con crisis tonicoclónicas generalizadas (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Estos mecanismos explican su eficacia en epilepsia, pero **no existe un vínculo mecanístico plausible** con el control tumoral de una neoplasia del nervio trigémino. Cualquier relación sería especulativa, por ejemplo el manejo sintomático del dolor neuropático asociado, lo cual no constituye evidencia de beneficio antineoplásico.
 
-La puntuación alta de TxGNN (99.70%) es una predicción basada en el grafo de conocimiento y debe interpretarse con cautela, sin ensayos ni literatura que la sustenten.
+La puntuación alta de TxGNN (0.9970) es una predicción del modelo TxGNN (aprendizaje profundo) y debe interpretarse con cautela, sin ensayos ni literatura que la sustenten.
 
 ## Evidencia de Ensayos Clínicos
 

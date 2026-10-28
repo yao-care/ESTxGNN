@@ -4,17 +4,17 @@ title: Lorlatinib
 parent: Solo predicción del modelo (L5)
 nav_order: 484
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Lorlatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Cáncer de pulmón no microcítico (según el grafo de conocimiento"
 monitor_inn: "LORLATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Lorlatinib: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lorlatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Lorlatinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+## Lorlatinib: Fibromatosis gingival (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Fibromatosis gingival (fibromatosis, gingival) |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, lorlatinib es un inhibidor de tirosina quinasas de tercera generación dirigido contra ALK y ROS1, con eficacia comprobada en el CPNM con reordenamientos de ALK, incluida la actividad intracraneal.
 
-Para la fibromatosis gingival no se ha identificado una justificación mecanística. La fibromatosis gingival es un trastorno de proliferación del tejido conectivo de la encía, y no se ha establecido ningún vínculo con las vías de ALK/ROS1. El puntaje alto del modelo (99.81%) refleja una asociación estadística dentro del grafo de conocimiento, no una base biológica demostrada.
+Para la fibromatosis gingival no se ha identificado una justificación mecanística. La fibromatosis gingival es un trastorno de proliferación del tejido conectivo de la encía, y no se ha establecido ningún vínculo con las vías de ALK/ROS1. El puntaje alto (0.9981) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una base biológica demostrada.
 
 Por tanto, esta predicción debe considerarse una hipótesis sin respaldo y no una candidata con apoyo mecanístico o clínico.
 
@@ -129,7 +129,7 @@ La predicción para fibromatosis gingival carece de ensayos clínicos, literatur
 
 ### Nota sobre otras predicciones evaluadas
 
-Entre las otras candidatas, **cáncer de hilio pulmonar** (L4, puntaje 99.74%) es la que cuenta con respaldo más plausible, aunque se trata en gran medida de una extensión de la indicación aprobada de CPNM y se apoya en un único reporte de caso. Para **neoplasia benigna de pulmón** y **tumor de células germinales de pulmón**, la literatura es indirecta (corresponde a CPNM maligno y neuroblastoma, respectivamente) y no debe extrapolarse. El resto carece de evidencia.
+Entre las otras candidatas, **cáncer de hilio pulmonar** (L4, puntaje 0.9974) es la que cuenta con respaldo más plausible, aunque se trata en gran medida de una extensión de la indicación aprobada de CPNM y se apoya en un único reporte de caso. Para **neoplasia benigna de pulmón** y **tumor de células germinales de pulmón**, la literatura es indirecta (corresponde a CPNM maligno y neuroblastoma, respectivamente) y no debe extrapolarse. El resto carece de evidencia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

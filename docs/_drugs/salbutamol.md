@@ -4,17 +4,17 @@ title: Salbutamol
 parent: Solo predicción del modelo (L5)
 nav_order: 722
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Asma y enfermedad bronquial (según el grafo de conocimiento del modelo"
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Salbutamol: De Asma a Conjuntivitis Papilar
+## Salbutamol: Conjuntivitis papilar (papillary conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma y enfermedad bronquial (según el grafo de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Conjuntivitis papilar |
-| Puntaje de Predicción TxGNN | 99,996 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis papilar (papillary conjunctivitis) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---

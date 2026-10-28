@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dupilumab
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 271
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dupilumab: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Dermatitis atópica (los datos de autorización de la AEMPS no incluyen…"
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+description: "Dupilumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Dupilumab: De Dermatitis Atópica a Bronquitis
+## Dupilumab: Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis** (primera pr
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatitis atópica (los datos de autorización de la AEMPS no incluyen texto de indicación; se toma de las indicaciones originales del grafo de conocimiento) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L2 (según el análisis de los datos compilados; evidencia indirecta, ver nota) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 > **Nota:** el único ensayo (Fase 2, completado) corresponde a rinosinusitis crónica, no a bronquitis. La evidencia se limita en la práctica a fenotipos de inflamación tipo 2 (asma, EPOC tipo 2), por lo que se recomienda mantener la decisión en espera hasta contar con datos directos.
@@ -121,15 +121,14 @@ Aunque el puntaje TxGNN es muy alto, no hay ensayos en bronquitis y la evidencia
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel de evidencia | Recomendación |
 |------|------|------|------|
-| Dermatitis | 99.71% | L1 | Proceed with Guardrails (señal que se solapa en gran parte con la indicación original; múltiples ECA de Fase 3 completados) |
-| Queloide acneiforme | 99.61% | L4 | Hold |
-| Exantema | 99.57% | L3 | Research Question |
-| Dermatomiositis neonatal | 99.56% | L5 | Hold |
-| Acrodermatitis crónica atrófica | 99.54% | L5 | Hold |
-| Dermatomiositis amiopática | 99.53% | L5 | Hold |
-| Enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo | 99.52% | L5 | Hold |
-| Hidroa vacciniforme familiar | 99.50% | L5 | Hold |
-| Retinopatía diabética no proliferativa grave | 99.10% | L5 | Hold |
+| Queloide acneiforme | 0.9961 | L5 | Hold |
+| Exantema | 0.9957 | L5 | Research Question |
+| Dermatomiositis neonatal | 0.9956 | L5 | Hold |
+| Acrodermatitis crónica atrófica | 0.9954 | L5 | Hold |
+| Dermatomiositis amiopática | 0.9953 | L5 | Hold |
+| Enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo | 0.9952 | L5 | Hold |
+| Hidroa vacciniforme familiar | 0.9950 | L5 | Hold |
+| Retinopatía diabética no proliferativa grave | 0.9910 | L5 | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

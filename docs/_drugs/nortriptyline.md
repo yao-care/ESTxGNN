@@ -6,9 +6,9 @@ nav_order: 577
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nortriptyline: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L2). Indicación original: Trastorno de ansiedad (según el grafo de conocimiento…"
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
+description: "Nortriptyline: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Nortriptyline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 
 </div>
 
-## Nortriptilina: De Trastorno de Ansiedad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Nortriptyline: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** registrados y **15 publicaciones** recuperadas, de l
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad (según el grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99,42% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -113,7 +113,7 @@ Existe un ECA pediátrico controlado, una revisión Cochrane y varios estudios c
 - Confirmar las indicaciones aprobadas de las tres autorizaciones españolas, cuyo texto está vacío.
 - Valorar ensayos clínicos modernos frente a los tratamientos de referencia (estimulantes, atomoxetina).
 
-*Nota: la variante "TDAH, tipo inatento" (puntuación TxGNN 99,33%) no cuenta con ensayos ni literatura propios (nivel L5, decisión Hold); se considera un subtipo de la misma condición y queda cubierta por este análisis.*
+*Nota: la variante "TDAH, tipo inatento" (puntuación TxGNN 0,9933) no cuenta con ensayos ni literatura propios (nivel L5, decisión Hold); se considera un subtipo de la misma condición y queda cubierta por este análisis.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

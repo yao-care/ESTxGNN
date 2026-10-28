@@ -4,7 +4,7 @@ title: Efmoroctocog Alfa
 parent: Solo predicción del modelo (L5)
 nav_order: 278
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Efmoroctocog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: Hemofilia"
 monitor_inn: "EFMOROCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Efmoroctocog alfa: De Hemofilia a Enfermedad de von Willebrand Pseudo (tipo plaquetario)
+## Efmoroctocog alfa: De Hemofilia a Enfermedad pseudo-von Willebrand
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **la enfermedad pseudo-von
 |------|------|
 | Indicación Original | Hemofilia (según las indicaciones originales registradas en el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) |
-| Puntaje de Predicción TxGNN | 99.997% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -96,7 +96,7 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones, y e
 
 **Otras candidatas del modelo:**
 - La mayoría de las 10 principales (trastornos plaquetarios como trombastenia de Glanzmann, síndrome de Scott, defecto del receptor de colágeno, trombocitopenia constitucional o aloinmune neonatal, y PTT) también quedan en *Hold* por falta de respaldo mecanístico.
-- **Deficiencia adquirida de factores de la coagulación** (puntaje 99.95%) es la más coherente mecanísticamente, pero los autoanticuerpos inhibidores neutralizarían el FVIII infundido; merece una pregunta de investigación definida (subtipo y estado del inhibidor).
+- **Deficiencia adquirida de factores de la coagulación** (puntaje 0.9995) es la más coherente mecanísticamente, pero los autoanticuerpos inhibidores neutralizarían el FVIII infundido; merece una pregunta de investigación definida (subtipo y estado del inhibidor).
 - **Hemofilia A con anomalía vascular** (99.78%, nivel L4) se solapa con la indicación ya aprobada; conviene aclarar si requiere una evaluación separada.
 
 **Para avanzar se necesita:**

@@ -6,9 +6,9 @@ nav_order: 342
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Fluocinonide: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: Dermatosis inflamatorias y pruriginosas de la piel (la ficha de la au…"
 monitor_inn: "Fluocinonide"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
+description: "Fluocinonide: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fluocinonide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Fluocinonida: De Dermatosis Inflamatorias y Pruriginosas a Alopecia Mucinosa
+## Fluocinonide: Alopecia mucinosa
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa**, per
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatosis inflamatorias y pruriginosas de la piel (la ficha de la autorización no incluye texto de indicación; se toma de las indicaciones del grafo de conocimiento: dermatitis atópica, de contacto, seborreica, etc.) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Alopecia mucinosa |
-| Puntaje de Predicción TxGNN | 99,61 % |
+| Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,7 +101,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, ya 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para alopecia mucinosa tiene un puntaje alto (99,61 %), pero no cuenta con ensayos clínicos ni literatura (nivel L5). El vínculo mecanístico es plausible, pero no está verificado.
+La predicción para alopecia mucinosa tiene un puntaje alto (0,9961), pero no cuenta con ensayos clínicos ni literatura (nivel L5). El vínculo mecanístico es plausible, pero no está verificado.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), pues su ausencia impide completar el cribado de seguridad.

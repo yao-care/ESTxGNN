@@ -6,9 +6,9 @@ nav_order: 833
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Turoctocog Alfa Pegol: nueva indicación predicha, Trastorno de liberación plaquetaria primario (nivel de evidencia L5). Indicación original: Hemofilia (según el grafo de conocimiento"
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
+description: "Turoctocog Alfa Pegol: nueva indicación predicha, Primary release disorder of platelets (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Turoctocog Alfa Pegol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Turoctocog alfa pegol: De Hemofilia a Trastorno de Liberación Plaquetaria Primario
+## Turoctocog Alfa Pegol: Primary release disorder of platelets
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno de liberación plaquetaria primario |
-| Puntaje de Predicción TxGNN | 99,997% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Primary release disorder of platelets |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -91,7 +91,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5 (solo modelo), sin ensayos clínicos ni literatura, y carece de lógica mecanística: el factor VIII no corrige un defecto plaquetario con niveles normales de FVIII. El puntaje alto de TxGNN parece un artefacto de proximidad en el grafo.
+La predicción es de nivel L5 (solo modelo), sin ensayos clínicos ni literatura, y carece de lógica mecanística: el factor VIII no corrige un defecto plaquetario con niveles normales de FVIII.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA).

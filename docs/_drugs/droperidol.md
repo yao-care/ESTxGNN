@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones de la AEMPS |
 | Nueva Indicación Predicha | Síndrome de Tourette |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -127,8 +127,8 @@ La indicación se basa solo en la predicción del modelo (L5), sin ensayos clín
 - Evaluación de compatibilidad de vía y formulación para tratamiento crónico.
 
 **Nota sobre otras indicaciones predichas para droperidol:**
-- **Cefalea / migraña** (puntaje 99,47%): nivel L3 y recomendación *Proceed with Guardrails*. Hay un ensayo clínico terminado anticipadamente (NCT01406860, 19 participantes), varias revisiones y un ensayo aleatorizado controlado con placebo publicado (PMID 12552051). El uso se limitaría a urgencias con monitorización del QT.
-- **Trastorno bipolar maníaco** (puntaje 99,82%): nivel L3, como pregunta de investigación. La evidencia procede sobre todo de revisiones Cochrane sobre agitación y psicosis aguda, no de tratamiento específico de la manía.
+- **Cefalea / migraña** (puntaje 0,9947): nivel L3 y recomendación *Proceed with Guardrails*. Hay un ensayo clínico terminado anticipadamente (NCT01406860, 19 participantes), varias revisiones y un ensayo aleatorizado controlado con placebo publicado (PMID 12552051). El uso se limitaría a urgencias con monitorización del QT.
+- **Trastorno bipolar maníaco** (puntaje 0,9982): nivel L3, como pregunta de investigación. La evidencia procede sobre todo de revisiones Cochrane sobre agitación y psicosis aguda, no de tratamiento específico de la manía.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

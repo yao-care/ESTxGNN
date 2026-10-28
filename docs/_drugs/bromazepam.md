@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99,06% |
+| Puntaje de Predicción TxGNN | 0,9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Mecanísticamente, podrían plantearse vínculos teóricos con la migraña: una menor hiperexcitabilidad cortical, una reducción de los desencadenantes relacionados con el estrés o la ansiedad, y el alivio de la tensión muscular asociada. Estas hipótesis son especulativas y no cuentan con respaldo en los datos disponibles.
 
-El puntaje elevado de TxGNN (0,99) proviene de asociaciones en un grafo de conocimiento y no constituye evidencia clínica. Además, en general no se recomiendan las benzodiazepinas para la profilaxis ni el tratamiento agudo de la migraña por los riesgos de dependencia, tolerancia, sedación y cefalea por abuso de medicación. La similitud con la indicación original está pendiente de evaluar.
+El puntaje elevado de TxGNN (0,9906) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica. Además, en general no se recomiendan las benzodiazepinas para la profilaxis ni el tratamiento agudo de la migraña por los riesgos de dependencia, tolerancia, sedación y cefalea por abuso de medicación. La similitud con la indicación original está pendiente de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 

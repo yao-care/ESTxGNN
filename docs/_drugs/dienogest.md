@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dienogest
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 248
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: No disponible en los datos de las autorizaciones"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ La evidencia es indirecta: **0 ensayos clínicos** y **7 publicaciones** (revisi
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones (el texto de indicación está vacío en las 7 licencias) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,71% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Puntaje de Predicción TxGNN | 0,9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Esta relación explica el alto puntaje del modelo, pero invierte el sentido clínico: la amenorrea es un efecto esperado del tratamiento (y figura entre sus efectos adversos), no una enfermedad que el fármaco cure. No hay respaldo para usar dienogest en la amenorrea patológica, por ejemplo como terapia de privación de progestágeno o de protección endometrial en estados hipoestrogénicos. Además, un progestágeno no restablecería la menstruación en la mayoría de las causas de amenorrea.
 
-En conclusión, el vínculo mecanístico es plausible solo en el sentido de supresión menstrual. El puntaje de 99,71% debe interpretarse con cautela y probablemente refleja proximidad en la red de conocimiento.
+En conclusión, el vínculo mecanístico es plausible solo en el sentido de supresión menstrual. El puntaje de 0,9971 debe interpretarse con cautela y probablemente refleja proximidad en la red de conocimiento.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -105,7 +105,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La amenorrea es un efecto esperado de dienogest, no una indicación terapéutica, y no hay ensayos clínicos ni literatura que respalden su eficacia en amenorrea patológica. El alto puntaje de TxGNN (99,71%) probablemente refleja proximidad en la red y no utilidad clínica; el nivel de evidencia es L4.
+La amenorrea es un efecto esperado de dienogest, no una indicación terapéutica, y no hay ensayos clínicos ni literatura que respalden su eficacia en amenorrea patológica. El alto puntaje de TxGNN (0,9971) probablemente refleja proximidad en la red y no utilidad clínica; el nivel de evidencia es L4.
 
 **Para avanzar se necesita:**
 - Obtener el texto de indicaciones, advertencias y contraindicaciones de los prospectos de la AEMPS (hoy vacíos).

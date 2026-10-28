@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Grazoprevir
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 386
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Grazoprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C (el texto de indicac…"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 # Grazoprevir
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Se trata, por tanto, de una señal del modelo más que de un reposicionamiento r
 |------|------|
 | Indicación Original | Infección crónica por el virus de la hepatitis C (el texto de indicación autorizada no está disponible en los datos compilados) |
 | Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L1 según el recuento formal de ensayos de Fase 3 (ver nota abajo); en la práctica, evidencia nula para eficacia anti-VIH |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
 | Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Se trata, por tanto, de una señal del modelo más que de un reposicionamiento r
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, grazoprevir es un inhibidor de la proteasa serínica NS3/4A del VHC, se utiliza en combinación fija con elbasvir (inhibidor de NS5A), y su eficacia en la hepatitis C crónica está bien establecida.
 
-La relación entre ambas indicaciones es principalmente epidemiológica y de red de conocimiento: el VIH y el VHC son infecciones virales que con frecuencia coexisten. El alto puntaje de TxGNN probablemente refleja esa cercanía en el grafo de conocimiento (el contexto de coinfección VIH/VHC y la vecindad de "infección viral"), no una actividad antiviral demostrada contra el VIH.
+La relación entre ambas indicaciones es principalmente epidemiológica. El alto puntaje de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una actividad antiviral demostrada contra el VIH.
 
 Mecanísticamente, la plausibilidad es baja: la proteasa del VIH es una aspartil proteasa, estructural y funcionalmente distinta de la serín proteasa NS3/4A del VHC. No hay datos que muestren que grazoprevir inhiba la proteasa o la replicación del VIH. La evidencia respalda el uso del fármaco en su indicación original (VHC) en población con VIH.
 

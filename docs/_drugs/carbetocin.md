@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (nivel de evidencia L5). Indicación original: Síndrome de Prader-Willi / síndrome de Noonan (según el grafo de cono…"
 monitor_inn: "carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
+last_modified_at: 2026-10-27
+description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (isotretinoin-like syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Carbetocin
@@ -33,33 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Carbetocina: De Síndrome de Prader-Willi a Síndrome Similar a la Isotretinoína
+## Carbetocina: agonista del receptor de oxitocina → síndrome similar a la isotretinoína (isotretinoin-like syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Carbetocina es un agonista del receptor de oxitocina, originalmente asociado en el grafo de conocimiento a indicaciones como el síndrome de Prader-Willi y el síndrome de Noonan; en España está autorizada como inyectable.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome similar a la isotretinoína**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional.
+Carbetocina es un análogo peptídico que actúa sobre el receptor de oxitocina y se utiliza para prevenir la hemorragia posparto por atonía uterina.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome similar a la isotretinoína (isotretinoin-like syndrome)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de Prader-Willi / síndrome de Noonan (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome similar a la isotretinoína |
-| Puntaje de Predicción TxGNN | 99.15% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome similar a la isotretinoína (isotretinoin-like syndrome) |
+| Puntaje de Predicción TxGNN | 0,9915 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la carbetocina es un agonista del receptor de oxitocina (OXTR), utilizado para prevenir la hemorragia posparto por atonía uterina. Además, una formulación intranasal (LV-101) ha sido desarrollada para el síndrome de Prader-Willi, con el fin de reducir el hambre extrema asociada a la hiperfagia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información farmacológica compilada, carbetocina es un agonista del receptor de oxitocina (OXTR), y su uso clínico conocido es la prevención de la hemorragia posparto por atonía uterina. Además, se está desarrollando una formulación intranasal para reducir el hambre extrema (hiperfagia) en el síndrome de Prader-Willi.
 
-Las indicaciones originales (Prader-Willi y Noonan) son síndromes del desarrollo de base genética. Es probable que el modelo esté relacionando el fármaco con el síndrome similar a la isotretinoína (un trastorno congénito raro con malformaciones) por proximidad en el grafo entre síndromes genéticos o congénitos, y no por una vía biológica demostrada.
+El síndrome similar a la isotretinoína es un trastorno congénito raro de malformaciones. El modelo probablemente lo vincula con carbetocina por rasgos compartidos con otros síndromes del desarrollo o genéticos. Sin embargo, los datos compilados no respaldan ninguna vía biológica que conecte el agonismo del receptor de oxitocina con esta enfermedad, por lo que el vínculo no está verificado.
 
-Los datos aportados no respaldan ninguna vía biológica que conecte la agonización del receptor de oxitocina con esta enfermedad. El vínculo mecanístico, por tanto, **no está verificado**. Cabe señalar también que la segunda predicción del modelo (síndrome de Goodman, puntaje 99.06%) presenta las mismas limitaciones: sin ensayos, sin literatura y con un vínculo basado solo en cercanía en el grafo.
+El puntaje alto (0,9915) es únicamente una salida del modelo y no sustituye a la evidencia experimental o clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,31 +72,29 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79228 | Carbetocina GP-Pharm 100 microgramos solución inyectable en jeringa precargada (Gp Pharm S.A.) | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
-| 68550 | Duratobal 100 microgramos/ml solución inyectable (Ferring S.A.U.) | Solución inyectable | No disponible en los datos compilados |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 79228 | CARBETOCINA GP-PHARM 100 microgramos solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada |
+| 68550 | DURATOBAL 100 microgramos/ml solución inyectable | Solución inyectable |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta se completó con un único registro de naturaleza farmacológica (no una interacción con otro fármaco): la carbetocina actúa sobre el receptor de oxitocina (OXTR) humano. No se identificaron interacciones con otros medicamentos.
+- **Interacciones farmacológicas:** la consulta de interacciones se completó y solo registra la relación farmacológica con su diana, el receptor de oxitocina (OXTR); no se identificaron interacciones con otros fármacos.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en TxGNN, pero es solo una predicción del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin una vía biológica plausible que conecte el receptor de oxitocina con el síndrome similar a la isotretinoína.
+La predicción se apoya solo en el modelo TxGNN (nivel de evidencia L5), sin ensayos clínicos ni publicaciones sobre el síndrome similar a la isotretinoína, y sin un vínculo mecanístico demostrado.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), imprescindible antes de cualquier cribado de seguridad
-- Datos detallados del mecanismo de acción (MOA) del fármaco
-- Una hipótesis biológica que relacione la señalización de oxitocina con la fisiopatología de la enfermedad predicha
-- Búsqueda de evidencia preclínica o de casos que respalde la asociación
-- Evaluación de la compatibilidad de vías de administración (solo disponible por vía inyectable en España)
-- Confirmar las indicaciones aprobadas en las autorizaciones españolas
+- Datos detallados del mecanismo de acción y un análisis de su posible relación con la fisiopatología de la enfermedad
+- Revisión sistemática de la literatura preclínica y clínica sobre esta enfermedad
+- Obtención y análisis del prospecto (advertencias y contraindicaciones) para el cribado de seguridad
+- Evaluación de la compatibilidad de la vía de administración (inyectable) con la indicación propuesta
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

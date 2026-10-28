@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99.18% |
+| Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, selpercatinib es un inhibidor selectivo de la quinasa RET, y las publicaciones recuperadas lo sitúan en el tratamiento de cánceres con alteraciones de RET (cáncer de pulmón no microcítico con fusión de RET y carcinoma medular de tiroides).
 
-El puntaje de TxGNN es muy alto (0.992), pero se basa únicamente en asociaciones dentro de un grafo de conocimiento. Un posible vínculo hipotético sería la modulación de la señalización de receptores tirosina quinasa implicada en la remodelación vascular pulmonar, pero ningún dato respalda directamente esta idea.
+El puntaje de TxGNN es muy alto (0.9918), proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Un posible vínculo hipotético sería la modulación de la señalización de receptores tirosina quinasa implicada en la remodelación vascular pulmonar, pero ningún dato respalda directamente esta idea.
 
 Ninguna de las publicaciones recuperadas estudia la hipertensión pulmonar como indicación terapéutica. Cualquier señal de hipertensión pulmonar en el estudio de farmacovigilancia sería una observación de seguridad, no terapéutica. Por tanto, el vínculo mecanístico no está respaldado.
 

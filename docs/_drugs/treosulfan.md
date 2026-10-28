@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | No disponible en los datos de autorización (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Catarata diabética |
-| Puntaje de Predicción TxGNN | 99,01% |
+| Puntaje de Predicción TxGNN | 0,9901 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la nueva indicación es muy débil. La catarata diabética se asocia con la activación de la vía de los polioles (aldosa reductasa), el estrés oxidativo y la opacificación del cristalino mediada por productos de glicación avanzada (AGE) y osteopontina. Ninguno de estos procesos tiene un vínculo mecanístico establecido con el entrecruzamiento del ADN.
 
-La predicción probablemente refleja la proximidad en el grafo de conocimiento y no una plausibilidad biológica real. Además, la toxicidad sistémica mielosupresora y genotóxica haría muy improbable un perfil beneficio-riesgo favorable en una enfermedad ocular no maligna y de progresión lenta.
+La puntuación proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Además, la toxicidad sistémica mielosupresora y genotóxica haría muy improbable un perfil beneficio-riesgo favorable en una enfermedad ocular no maligna y de progresión lenta.
 
 ## Evidencia de Ensayos Clínicos
 

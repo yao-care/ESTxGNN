@@ -4,17 +4,17 @@ title: Esomeprazole
 parent: Solo predicción del modelo (L5)
 nav_order: 308
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Esomeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L5). Indicación original: Enfermedad de úlcera péptica (según las indicaciones originales del g…"
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Esomeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Esomeprazol: De Enfermedad de Úlcera Péptica a Reflujo Duodenogástrico
+## Esomeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** (una revisión
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de úlcera péptica (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no constan en los datos) |
-| Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99.53% |
-| Nivel de Evidencia | L4 (solo racionalidad mecanística, sin estudios específicos para esta indicación) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Duodenal obstruction |
+| Puntaje de Predicción TxGNN | 0.9945 |
+| Nivel de Evidencia | L5 (solo racionalidad mecanística, sin estudios específicos para esta indicación) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -62,9 +62,7 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** (una revisión
 
 Esomeprazol inhibe la bomba de protones gástrica (H+/K+-ATPasa, cuyo gen diana es ATP4A) y, con ello, reduce la secreción de ácido gástrico. Por eso se usa en la úlcera péptica, el reflujo gastroesofágico y los estados de hipersecreción ácida. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento farmacológico general de la clase.
 
-El reflujo duodenogástrico consiste en el retorno de contenido duodenal (bilis y secreciones pancreáticas) al estómago. Al ser una enfermedad cercana a los trastornos gastroduodenales ya tratados con esomeprazol, el grafo de conocimiento le asigna un puntaje alto. Una menor acidez podría reducir el daño de la mucosa y los síntomas asociados.
 
-Sin embargo, este reflujo depende sobre todo de la motilidad y de la disfunción pilórica, no del ácido. La supresión ácida tendría, como mucho, un efecto sintomático o indirecto. El puntaje alto refleja probablemente la proximidad en el grafo con las indicaciones aprobadas, y no una evidencia clínica propia.
 
 ---
 
@@ -109,13 +107,11 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto de 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en la cercanía con las indicaciones ya aprobadas dentro del grafo de conocimiento. No hay ensayos clínicos y la única publicación es una revisión general que no estudia esta enfermedad. Además, la fisiopatología del reflujo duodenogástrico (motilidad y función pilórica) no depende principalmente del ácido, por lo que el beneficio sería, como mucho, sintomático.
 
 **Para avanzar se necesita:**
 - Estudios clínicos o series de casos que evalúen esomeprazol en reflujo duodenogástrico, con criterios de valoración definidos (síntomas, gastritis biliar, hallazgos endoscópicos).
 - Revisión de la literatura sobre inhibidores de la bomba de protones en reflujo biliar, y comparación con tratamientos orientados a la motilidad.
 - Datos detallados del mecanismo de acción y del prospecto oficial (advertencias y contraindicaciones) para completar el análisis de seguridad.
-- Nota: otra indicación predicha, la úlcera duodenal, cuenta con abundante evidencia clínica (varios ensayos de Fase 3 completados), pero es esencialmente un uso ya cubierto por la indicación de úlcera péptica y no un reposicionamiento real.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

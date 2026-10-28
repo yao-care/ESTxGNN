@@ -6,9 +6,9 @@ nav_order: 337
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Finasteride: nueva indicación predicha, Hipertricosis (predicción de mayor puntaje: hipertricosis universalis… (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna (según el g…"
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Finasteride: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Finasteride
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Finasterida: De Hiperplasia Prostática Benigna a Hipertricosis
+## Finasteride: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -41,17 +41,17 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 Finasterida es un inhibidor de la 5-alfa-reductasa tipo II, utilizado originalmente para el tratamiento de la hiperplasia prostática benigna.
 El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, aunque la evidencia es muy limitada: **0 ensayos clínicos** y **4 publicaciones** indirectas (revisiones narrativas y un artículo metodológico) respaldan esta dirección.
 
-*Nota: la predicción con mayor puntaje del modelo es "hipertricosis universalis congénita tipo Ambras" (99,99 %), pero carece de cualquier evidencia. Se presenta la segunda predicción, la hipertricosis, por ser la que cuenta con alguna literatura relacionada, y se comenta la primera en el apartado de mecanismo.*
+*Nota: la predicción con mayor puntaje del modelo es "hipertricosis universalis congénita tipo Ambras" (0,9999), pero carece de cualquier evidencia. Se presenta la segunda predicción, la hipertricosis, por ser la que cuenta con alguna literatura relacionada, y se comenta la primera en el apartado de mecanismo.*
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperplasia prostática benigna (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Hipertricosis (predicción de mayor puntaje: hipertricosis universalis congénita tipo Ambras) |
-| Puntaje de Predicción TxGNN | 99,99 % (hipertricosis: 99,993 %; Ambras: 99,994 %) |
-| Nivel de Evidencia | L4 (hipertricosis); L5 (Ambras) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ambras type hypertrichosis universalis congenita |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 (hipertricosis); L5 (Ambras) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es solo parcial. La supresión de DHT tiene fundamento en trastornos del cabello dependientes de andrógenos, como el hirsutismo y la alopecia androgenética. Sin embargo, la hipertricosis es típicamente independiente de andrógenos (congénita, inducida por fármacos o paraneoplásica), por lo que el ajuste mecanístico es limitado.
 
-Para la predicción de mayor puntaje (síndrome de Ambras), la conexión es aún más débil: se asocia a reordenamientos genómicos que afectan la regulación de TRPS1 y no es principalmente androgénica. El puntaje elevado refleja proximidad en el grafo, no un mecanismo plausible demostrado. Además, la finasterida está contraindicada en el embarazo por el riesgo de anomalías genitales en fetos masculinos, lo que limita cualquier uso en cuadros congénitos o pediátricos.
+Para la predicción de mayor puntaje (síndrome de Ambras), la conexión es aún más débil: se asocia a reordenamientos genómicos que afectan la regulación de TRPS1 y no es principalmente androgénica. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo plausible demostrado. Además, la finasterida está contraindicada en el embarazo por el riesgo de anomalías genitales en fetos masculinos, lo que limita cualquier uso en cuadros congénitos o pediátricos.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -103,7 +103,7 @@ Consultar el prospecto para el resto de la información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Las predicciones tienen puntajes muy altos, pero se basan solo en el grafo. Para hipertricosis la evidencia es indirecta (revisiones narrativas antiguas, nivel L4) y para las demás indicaciones no existe ninguna (L5). Además, el mecanismo androgénico no es plausible en cuadros mayoritariamente independientes de andrógenos.
+Las predicciones tienen puntajes muy altos, pero provienen solo del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Para hipertricosis la evidencia es indirecta (revisiones narrativas antiguas, nivel L4) y para las demás indicaciones no existe ninguna (L5). Además, el mecanismo androgénico no es plausible en cuadros mayoritariamente independientes de andrógenos.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y análisis mecanístico formal frente a la hipertricosis

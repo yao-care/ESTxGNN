@@ -6,9 +6,9 @@ nav_order: 763
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tamsulosin: nueva indicación predicha, Hipertricosis universal congénita de tipo Ambras (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna"
 monitor_inn: "tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
+description: "Tamsulosin: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tamsulosin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tamsulosina: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita de tipo Ambras
+## Tamsulosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ La predicción carece de plausibilidad mecanística y debe considerarse un artef
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperplasia prostática benigna |
-| Nueva Indicación Predicha | Hipertricosis universal congénita de tipo Ambras |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ambras type hypertrichosis universalis congenita |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 **La predicción no parece razonable desde el punto de vista farmacológico.** El síndrome de Ambras es un trastorno genético raro, vinculado a reordenamientos cromosómicos que afectan la regulación de TRPS1. No hay evidencia de que el bloqueo alfa-1 adrenérgico influya en el desarrollo del folículo piloso ni en el mecanismo genético subyacente. La relación entre la indicación original (urológica, de aparición en la edad adulta) y la nueva (malformación congénita del pelo) es inexistente.
 
-El puntaje tan alto de TxGNN probablemente es un artefacto de la propagación en el grafo de conocimiento, por la cercanía con otros nodos de enfermedades relacionadas con el cabello, y no una señal farmacológica real. Las demás predicciones del ranking (hipertricosis, hipotricosis, alopecia areata difusa, anomalías del tallo piloso, síndromes malformativos y migraña con aura del tronco encefálico) presentan el mismo problema: ninguna cuenta con vínculo mecanístico creíble.
+Las demás predicciones del ranking (hipertricosis, hipotricosis, alopecia areata difusa, anomalías del tallo piloso, síndromes malformativos y migraña con aura del tronco encefálico) presentan el mismo problema: ninguna cuenta con vínculo mecanístico creíble.
 
 ---
 
@@ -112,7 +112,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni literatura que respalden el uso de tamsulosina en la hipertricosis de tipo Ambras, y no hay un mecanismo creíble que lo explique. El puntaje elevado de TxGNN parece un artefacto del grafo de conocimiento (nivel de evidencia L5).
+No existen ensayos clínicos ni literatura que respalden el uso de tamsulosina en la hipertricosis de tipo Ambras, y no hay un mecanismo creíble que lo explique. El puntaje elevado de TxGNN parece un artefacto del modelo TxGNN (aprendizaje profundo) (nivel de evidencia L5).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de tamsulosina que sustenten algún vínculo con la biología del folículo piloso o con TRPS1.

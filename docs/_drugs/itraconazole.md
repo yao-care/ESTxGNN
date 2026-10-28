@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Itraconazole
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 437
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Itraconazole: nueva indicación predicha, Pneumocistosis (nivel de evidencia L4). Indicación original: Candidiasis esofágica, candidemia, histoplasmosis, aspergilosis…"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
+description: "Itraconazole: nueva indicación predicha, Pneumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Itraconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Itraconazol: De Candidiasis Esofágica y Otras Micosis a Pneumocistosis
+## Itraconazole: Pneumocistosis (pneumocystosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ La evidencia actual se basa en la predicción del modelo y no hay estudios que d
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Candidiasis esofágica, candidemia, histoplasmosis, aspergilosis, blastomicosis, entre otras (el texto de indicación de las autorizaciones españolas no está disponible; se tomó de las indicaciones del grafo de conocimiento) |
-| Nueva Indicación Predicha | Pneumocistosis |
-| Puntaje de Predicción TxGNN | 99.34% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pneumocistosis (pneumocystosis) |
+| Puntaje de Predicción TxGNN | 0.9934 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Itraconazol inhibe la lanosterol 14-alfa-desmetilasa fúngica (CYP51), bloqueando la síntesis de ergosterol, un componente esencial de la membrana de los hongos. Es la base de su eficacia en micosis como la aspergilosis, la histoplasmosis y las candidiasis.
 
-Sin embargo, *Pneumocystis jirovecii* difiere de la mayoría de los hongos patógenos: su membrana contiene colesterol en lugar de ergosterol como esterol dominante, por lo que el mecanismo clásico de los azoles probablemente tenga actividad limitada. El puntaje elevado del modelo (0.993) probablemente refleja la cercanía en la red de conocimiento con otras infecciones fúngicas y contextos de infección oportunista, y no un mecanismo validado frente a *Pneumocystis*.
+Sin embargo, *Pneumocystis jirovecii* difiere de la mayoría de los hongos patógenos: su membrana contiene colesterol en lugar de ergosterol como esterol dominante, por lo que el mecanismo clásico de los azoles probablemente tenga actividad limitada. El puntaje elevado del modelo (0.9934) probablemente refleja la cercanía en la red de conocimiento con otras infecciones fúngicas y contextos de infección oportunista, y no un mecanismo validado frente a *Pneumocystis*.
 
 La buena penetración pulmonar del itraconazol (PMID 21973267) es solo un dato farmacocinético y no demuestra eficacia. El tratamiento de referencia para profilaxis y tratamiento de la pneumocistosis es trimetoprima-sulfametoxazol, con alternativas como atovacuona, pentamidina y dapsona.
 

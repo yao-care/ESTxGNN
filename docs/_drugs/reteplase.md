@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Reteplase
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 695
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Reteplase: nueva indicación predicha, Infarto de miocardio posterolateral (nivel de evidencia L4). Indicación original: Infarto de miocardio (según las indicaciones originales del grafo de…"
 monitor_inn: "reteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
+description: "Reteplase: nueva indicación predicha, Congenital coronary artery anomaly (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Reteplase
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Reteplasa: De Infarto de Miocardio a Infarto de Miocardio Posterolateral
+## Reteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ Actualmente no hay ensayos clínicos registrados y solo **1 publicación** (un r
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infarto de miocardio (según las indicaciones originales del grafo de conocimiento; el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Infarto de miocardio posterolateral |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Congenital coronary artery anomaly |
+| Puntaje de Predicción TxGNN | 0.9980 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pitolisant
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 646
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pitolisant: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Narcolepsia (según las indicaciones de referencia del grafo de conoci…"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
+description: "Pitolisant: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pitolisant
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Pitolisant: De Narcolepsia a Insomnio
+## Pitolisant: Insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Narcolepsia (según las indicaciones de referencia del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, pitolisant es un antagonista/agonista inverso selectivo del receptor de histamina H3: aumenta la neurotransmisión histaminérgica en el cerebro y promueve la vigilia. Su eficacia en la narcolepsia ha sido comprobada.
 
-Sin embargo, **el mecanismo apunta en dirección opuesta a lo que requiere el tratamiento del insomnio**. Un fármaco que promueve la vigilia difícilmente aliviará la dificultad para dormir, y el insomnio es un efecto adverso conocido de pitolisant. El puntaje alto de TxGNN (99.71%) probablemente refleja la proximidad en la red entre trastornos del sueño y la vigilia, y no una relación terapéutica real.
+Sin embargo, **el mecanismo apunta en dirección opuesta a lo que requiere el tratamiento del insomnio**. Un fármaco que promueve la vigilia difícilmente aliviará la dificultad para dormir, y el insomnio es un efecto adverso conocido de pitolisant. El puntaje alto de TxGNN (0.9971) probablemente refleja la proximidad en la red entre trastornos del sueño y la vigilia, y no una relación terapéutica real.
 
 La literatura disponible trata sobre narcolepsia, somnolencia diurna en apnea obstructiva del sueño (AOS) y trastornos del sueño pediátricos, no sobre el tratamiento del insomnio. La evidencia es indirecta y el razonamiento mecanístico argumenta en contra de un beneficio.
 
@@ -107,7 +107,7 @@ No existen ensayos clínicos ni literatura que evalúe pitolisant en insomnio, y
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto de AEMPS (advertencias y contraindicaciones), actualmente ausentes.
 - Una justificación farmacológica que explique cómo un agente promotor de la vigilia podría tratar el insomnio, o bien descartar esta indicación.
-- Evaluar prioritariamente otras predicciones: el **TDAH** (puntaje 99.36%, nivel L4) tiene un racional mecanístico plausible (liberación de histamina, acetilcolina, noradrenalina y dopamina en corteza prefrontal), aunque sin ensayos registrados ni datos directos de eficacia, por lo que se considera una hipótesis de investigación. El **síndrome faciodigitogenital** (99.29%, nivel L5) no tiene vínculo mecanístico identificable ni evidencia, y no se recomienda avanzar.
+- Evaluar prioritariamente otras predicciones: el **TDAH** (puntaje 0.9936, nivel L4) tiene un racional mecanístico plausible (liberación de histamina, acetilcolina, noradrenalina y dopamina en corteza prefrontal), aunque sin ensayos registrados ni datos directos de eficacia, por lo que se considera una hipótesis de investigación. El **síndrome faciodigitogenital** (0.9929, nivel L5) no tiene vínculo mecanístico identificable ni evidencia, y no se recomienda avanzar.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

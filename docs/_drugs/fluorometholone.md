@@ -4,17 +4,17 @@ title: Fluorometholone
 parent: Solo predicción del modelo (L5)
 nav_order: 344
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Uveítis, enfermedad del iris, enfermedad del cuerpo ciliar…"
 monitor_inn: "fluorometholone"
-predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "lens-induced iridocyclitis", "glaucomatocyclitic crisis"]
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
+description: "Fluorometholone: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fluorometholone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluorometolona: De Uveítis y Patología Inflamatoria Ocular a Vasculitis Postinfecciosa
+## Fluorometholone: Postinfectious vasculitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para **vasculitis postinfeccios
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Uveítis, enfermedad del iris, enfermedad del cuerpo ciliar, conjuntivitis atópica/vernal/papilar, iritis, iridociclitis, úlcera corneal (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Vasculitis postinfecciosa |
-| Puntaje de Predicción TxGNN | 99,91% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Postinfectious vasculitis |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Mecanísticamente, la vasculitis postinfecciosa es un proceso inmunomediado, por lo que una acción antiinflamatoria podría ser teóricamente aplicable. Sin embargo, la formulación es tópica oftálmica con exposición sistémica mínima, lo que hace poco verosímil que alcance una enfermedad vascular sistémica. La predicción se apoya solo en el puntaje del modelo, sin estudios que la sustenten.
 
-**Otras predicciones del modelo (todas con puntajes similares, ~99,8–99,9%):**
+**Otras predicciones del modelo (todas con puntajes similares, ~99,8–0,9990):**
 - **Queratoconjuntivitis epitelial punteada** (nivel L4, "Pregunta de investigación"): el candidato biológicamente más coherente, ya que afecta a los mismos tejidos donde el fármaco ya se usa. Las dos publicaciones halladas aportan solo contexto indirecto.
 - **Iridociclitis inducida por cristalino** y **crisis glaucomatociclítica** (ambas L4, "Pregunta de investigación"): son subtipos de uveítis anterior, cercanos a las indicaciones actuales. No hay estudios específicos.
 - Otitis externa, síndrome postinfeccioso, trastorno postbacteriano, estenosis uretral infecciosa, síndrome hemolítico urémico asociado a infección y miocardiopatía de Chagas: sin evidencia (L5, Hold). En los dos últimos casos no existe una justificación mecanística creíble.

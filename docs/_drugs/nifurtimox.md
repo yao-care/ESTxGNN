@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Enfermedad de Chagas |
 | Nueva Indicación Predicha | Analbuminemia congénita |
-| Puntaje de Predicción TxGNN | 99.58% |
+| Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina. No se identifica una relación farmacológica plausible entre la acción antiprotozoaria de nifurtimox y esta enfermedad, ni una similitud con la indicación original.
 
-El puntaje alto del modelo (99.58%) es una predicción computacional que no está corroborada por ensayos clínicos ni por literatura. Debe interpretarse con cautela, ya que probablemente refleja características de vecindad en el grafo de conocimiento y no una base farmacológica.
+El puntaje alto del modelo (0.9958) es una predicción computacional que no está corroborada por ensayos clínicos ni por literatura. Debe interpretarse con cautela, ya que el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Otras indicaciones predichas, todas con nivel L5 y sin evidencia clínica ni bibliográfica: hiperviscosidad policlonal (99.47%), hiperamilasemia (99.47%), incompatibilidad de grupo sanguíneo (99.24%), gammapatía monoclonal (99.16%), enfermedad hematológica premaligna (99.11%) y enfermedad hematológica asociada a neuropatía periférica adquirida (99.06%). En este último caso, la neuropatía periférica es un efecto adverso conocido de nifurtimox, lo que va en contra de un papel terapéutico.
 

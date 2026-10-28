@@ -4,7 +4,7 @@ title: Clofarabine
 parent: Evidencia alta (L1-L2)
 nav_order: 194
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda (según la base de conocimiento del modelo"
 monitor_inn: "Clofarabine"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 # Clofarabine
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con
 |------|------|
 | Indicación Original | Leucemia linfoblástica aguda (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 2 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

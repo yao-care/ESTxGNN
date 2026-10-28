@@ -6,9 +6,9 @@ nav_order: 718
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ruxolitinib: nueva indicación predicha, Tumor de células epitelioides perivasculares (PEComa) del cuerpo uter… (nivel de evidencia L5). Indicación original: Neoplasias mieloproliferativas (mielofibro…"
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
+description: "Ruxolitinib: nueva indicación predicha, Uterine corpus perivascular epithelioid cell tumor (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ruxolitinib: De Mielofibrosis y Policitemia Vera a Neoplasia PEComa Perivascular Epitelioide del Cuerpo Uterino
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicció
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neoplasias mieloproliferativas (mielofibrosis primaria, policitemia vera adquirida), según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible |
-| Nueva Indicación Predicha | Tumor de células epitelioides perivasculares (PEComa) del cuerpo uterino |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Uterine corpus perivascular epithelioid cell tumor |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ruxolitinib es un inhibidor de las quinasas JAK1 y JAK2 de la vía JAK-STAT. Su eficacia en neoplasias mieloproliferativas, caracterizadas por una señalización JAK-STAT hiperactiva, está establecida.
 
-Para el PEComa uterino, el vínculo mecanístico es **especulativo**. El PEComa se asocia principalmente con la vía mTOR, y solo se plantea una posible interacción con la señalización JAK-STAT. Los datos compilados no aportan ensayos ni literatura que confirmen esta relación. La puntuación alta del modelo probablemente refleja relaciones del grafo de conocimiento y no evidencia biológica directa.
+Para el PEComa uterino, el vínculo mecanístico es **especulativo**. El PEComa se asocia principalmente con la vía mTOR, y solo se plantea una posible interacción con la señalización JAK-STAT. Los datos compilados no aportan ensayos ni literatura que confirmen esta relación.
 
 **Otras predicciones del modelo.** Entre las 10 principales, otras dos tienen algo más de respaldo:
 - **Síndrome hemofagocítico asociado a infección (HLH)**: nivel L3, con 20 publicaciones. Incluye estudios clínicos pediátricos, series de casos y modelos murinos que apoyan la inhibición de JAK/STAT en la hiperinflamación mediada por IFN-γ. Es la dirección mejor respaldada, pero no es la de mayor puntaje. Sus estudios deberían evaluarse en un informe específico.

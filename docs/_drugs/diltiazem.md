@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Solo predicción del modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 252
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Diltiazem: nueva indicación predicha, Susceptibilidad al ictus isquémico (término obsoleto) (nivel de evidencia L5). Indicación original: Trastorno hipertensivo / hipertensión"
-monitor_inn: "DILTIAZEM"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +32,66 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Diltiazem: De Trastorno Hipertensivo a Susceptibilidad al Ictus Isquémico (término obsoleto)
+<!-- known-uses-page -->
+<!-- description: Diltiazem: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata -->
+## Diltiazem: Usos conocidos y situación de mercado en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN propone para Diltiazem (puntuación ≥ 0,99) son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. Los resultados son solo de investigación y no constituyen consejo médico.
 
-Diltiazem es un bloqueador de los canales de calcio de tipo L, utilizado originalmente para el tratamiento de la hipertensión, la fibrilación auricular, la angina de Prinzmetal y la taquicardia ventricular.
-El modelo TxGNN predice que podría ser efectivo para **susceptibilidad al ictus isquémico (término obsoleto)**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Trastorno hipertensivo / hipertensión (las indicaciones proceden del grafo de conocimiento; los registros de la AEMPS no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Susceptibilidad al ictus isquémico (término obsoleto) |
-| Puntaje de Predicción TxGNN | 99.08% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplicable |
+| Situación de mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Número de Autorizaciones | al menos 20 |
 
-## ¿Por qué es Razonable esta Predicción?
+## Usos conocidos entre los candidatos del modelo
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, diltiazem es un bloqueador de los canales de calcio no dihidropiridínico de tipo L, con eficacia comprobada en hipertensión, fibrilación auricular, angina de Prinzmetal y taquicardia ventricular.
+### Aprobados (respaldados por una licencia o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Angina de Prinzmetal (Prinzmetal angina) | Licencia en otro país; indicación aprobada: angina |
 
-Mecanísticamente, existen vínculos plausibles con la susceptibilidad al ictus: la reducción de la presión arterial, la vasodilatación cerebral con menor vasoespasmo y el control de la frecuencia en la fibrilación auricular, que es un factor de riesgo importante de ictus cardioembólico. Estos vínculos son hipotéticos y **no están respaldados por evidencia** en los datos disponibles.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | Ninguna |
 
-Además, el nombre de la enfermedad está marcado como "obsoleto", lo que sugiere que el término de la ontología ha sido descontinuado o fusionado. Probablemente se trate de un concepto de riesgo o susceptibilidad y no de una condición clínica tratable, por lo que la predicción requiere un remapeo de la ontología antes de poder interpretarse.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo). Los registros no incluyen texto de indicación aprobada.
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 60006 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 11456610496 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 60089 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
+| 60214 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 59776 | diltiazem | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Vigente |
+| 78966 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Autorizado, no comercializado |
+| 62328 | diltiazem | COMPRIMIDO | Vigente |
+| 60216 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 60091 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 60007 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 59950 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
+| 59911 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 27502 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
+| 60215 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 60231 | diltiazem | COMPRIMIDO | Vigente |
+| 62619 | diltiazem | COMPRIMIDO | Cancelado |
+| 60200 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 60005 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
+| 60101 | diltiazem | COMPRIMIDO DE LIBERACIÓN PROLONGADA | Cancelado |
+| 61132 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60006 | Lacerol Retard 120 mg | Cápsula dura de liberación prolongada | No disponible en el registro |
-| 11456610496 | Tilker cápsulas | Cápsula dura de liberación prolongada | No disponible en el registro |
-| 60089 | Doclis Retard 120 mg | Cápsula dura de liberación prolongada | No disponible en el registro |
-| 59776 | Dinisor Retard 180 mg | Comprimido de liberación modificada | No disponible en el registro |
-| 62328 | Diltiazem Sandoz 60 mg EFG | Comprimido | No disponible en el registro |
+Los datos solo contienen parte de los registros; la lista puede estar incompleta.
 
 ## Consideraciones de Seguridad
 
@@ -89,20 +100,6 @@ Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos con un úni
 
 Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La indicación se sustenta únicamente en un puntaje alto del modelo (99.08%), sin ensayos clínicos ni literatura, y el término de la enfermedad es obsoleto, por lo que no está claro qué condición clínica se estaría tratando.
-
-**Para avanzar se necesita:**
-- Remapear el término obsoleto a una entidad vigente (por ejemplo, prevención primaria o secundaria del ictus isquémico)
-- Revisar la literatura y los ensayos sobre bloqueadores de los canales de calcio y diltiazem en prevención del ictus
-- Obtener los datos del mecanismo de acción desde DrugBank
-- Descargar y analizar el prospecto de la AEMPS para obtener advertencias y contraindicaciones oficiales
-- Evaluar el perfil de seguridad en la población de riesgo, en particular bradicardia, bloqueo AV e hipotensión
-- Revisar la compatibilidad de vías de administración (pendiente)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

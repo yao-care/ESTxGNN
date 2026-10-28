@@ -50,9 +50,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Candidiasis oral (y otras candidiasis, meningitis criptocócica) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.24% |
+| Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele ser de origen viral (adenovirus), tóxico, o estar asociada a ojo seco y uso de lentes de contacto, causas que un antifúngico no aborda. Solo sería mecanísticamente aplicable si existiera un componente fúngico en algunos casos.
 
-La predicción podría reflejar asociaciones del grafo de conocimiento con queratitis fúngica u otras infecciones oculares fúngicas, y no una coincidencia mecanística real. Debe tratarse únicamente como una hipótesis sin verificar.
+La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Debe tratarse únicamente como una hipótesis sin verificar.
 
 ---
 
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, sin autorizaciones canceladas).
+El medicamento está comercializado en este país, con 16 autorizaciones vigentes.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -111,7 +111,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La única base es una puntuación alta del modelo (99.24%), sin ensayos clínicos ni literatura, y con una plausibilidad mecanística limitada, ya que las causas habituales de esta enfermedad no son fúngicas.
+La única base es una puntuación alta del modelo (0.9924), sin ensayos clínicos ni literatura, y con una plausibilidad mecanística limitada, ya que las causas habituales de esta enfermedad no son fúngicas.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de literatura sobre fluconazol en patología ocular (queratitis fúngica y uso oftálmico).

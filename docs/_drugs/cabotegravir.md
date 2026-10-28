@@ -48,17 +48,17 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | No disponible en los datos de la licencia (el fármaco es un inhibidor de la integrasa del VIH-1) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.45% |
+| Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, cabotegravir es un inhibidor de la transferencia de cadena de la integrasa (INSTI) del VIH-1. Su diana es la integrasa viral, que no tiene homólogo humano implicado en la inflamación articular autoinmune.
 
-Por tanto, **no existe un vínculo mecanístico establecido** entre cabotegravir y la artritis reumatoide. El puntaje alto (0.9945) proviene del grafo de conocimiento y no está respaldado por ningún ensayo ni publicación. La similitud con la indicación original está pendiente de evaluar, así como la compatibilidad de vías de administración.
+Por tanto, **no existe un vínculo mecanístico establecido** entre cabotegravir y la artritis reumatoide. El puntaje alto (0.9945) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por ningún ensayo ni publicación. La similitud con la indicación original está pendiente de evaluar, así como la compatibilidad de vías de administración.
 
 Otras predicciones del modelo (colangitis esclerosante, bronquitis, síndrome de displasia rizomélica con microftalmia colobomatosa y retinopatía diabética no proliferativa grave) tampoco cuentan con evidencia clínica ni mecanismo plausible, y se mantienen en nivel L5 con recomendación Hold.
 

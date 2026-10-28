@@ -4,17 +4,17 @@ title: Labetalol
 parent: Solo predicción del modelo (L5)
 nav_order: 443
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión / trastorno hipertensivo (según el grafo de conocimiento"
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Labetalol: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Labetalol: Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipe
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión / trastorno hipertensivo (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99,08% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
+| Puntaje de Predicción TxGNN | 0.9908 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, labetalol es un bloqueador combinado alfa-1 y beta-adrenérgico no selectivo, con eficacia comprobada en hipertensión y en emergencias hipertensivas. Mecanísticamente, la reducción de la resistencia vascular periférica y de la frecuencia cardíaca podría ser aplicable a la hipertensión maligna con afectación renal.
 
-La relación con la indicación original es muy estrecha: la enfermedad renal hipertensiva maligna es una forma grave de hipertensión. Por ello, esta predicción es más bien una extensión de la indicación existente que una oportunidad de reposicionamiento distinta. El puntaje alto del modelo (99,08%) debe interpretarse con cautela, ya que no cuenta con respaldo clínico directo.
+La relación con la indicación original es muy estrecha: la enfermedad renal hipertensiva maligna es una forma grave de hipertensión. Por ello, esta predicción es más bien una extensión de la indicación existente que una oportunidad de reposicionamiento distinta. El puntaje alto del modelo (0,9908) debe interpretarse con cautela, ya que no cuenta con respaldo clínico directo.
 
 Como referencia, el mismo modelo generó otras predicciones con puntajes similares (hipertensión renovascular maligna y dos formas de hipertensión pulmonar). Para la hipertensión pulmonar, el bloqueo beta sistémico no tiene una justificación establecida y podría ser desfavorable (por ejemplo, por efectos sobre la función del ventrículo derecho o por broncoespasmo), por lo que esas predicciones parecen reflejar la etiqueta compartida "hipertensión" más que un mecanismo real.
 

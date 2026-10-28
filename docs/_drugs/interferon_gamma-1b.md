@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Interferon Gamma-1B
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 425
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Interferon Gamma-1B: nueva indicación predicha, Enfermedad cardíaca (nivel de evidencia L4). Indicación original: No disponible en los datos de la autorización"
 monitor_inn: "INTERFERON GAMMA-1B"
 predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 22", "interventricular septum aneurysm"]
+description: "Interferon Gamma-1B: nueva indicación predicha, Heart disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Interferon Gamma-1B
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,31 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Interferón gamma-1b: De Indicación No Especificada a Enfermedad Cardíaca
+## Interferon Gamma-1B: Heart disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Interferón gamma-1b es una citocina recombinante inmunomoduladora autorizada en España (IMUKIN), cuya indicación original no figura en los datos compilados para este informe.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad cardíaca**, con un puntaje muy alto (99.99%), pero **sin ensayos clínicos** y con solo **3 publicaciones tangenciales** que no respaldan directamente esta indicación.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad cardíaca**, con un puntaje muy alto (0.9999), pero **sin ensayos clínicos** y con solo **3 publicaciones tangenciales** que no respaldan directamente esta indicación.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de la autorización |
-| Nueva Indicación Predicha | Enfermedad cardíaca |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Heart disease |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el interferón gamma-1b es un inmunomodulador que activa macrófagos y las respuestas Th1.
 
-No se ha establecido un vínculo mecanístico directo con la enfermedad cardíaca. El puntaje es muy alto, pero se trata de una predicción basada en grafos para una categoría amplia e inespecífica. Cualquier relevancia cardíaca sería indirecta (relacionada con infección o inflamación). Además, la señalización de IFN-gamma se ha implicado en la inflamación y el remodelado miocárdico, por lo que no puede descartarse un posible daño.
+No se ha establecido un vínculo mecanístico directo con la enfermedad cardíaca. El puntaje es muy alto, pero proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, para una categoría amplia e inespecífica. Cualquier relevancia cardíaca sería indirecta (relacionada con infección o inflamación). Además, la señalización de IFN-gamma se ha implicado en la inflamación y el remodelado miocárdico, por lo que no puede descartarse un posible daño.
 
 Las tres publicaciones recuperadas son tangenciales: una revisión sistemática sobre ataxia de Friedreich (que tiene un componente de miocardiopatía y en la que se ha probado este fármaco), un estudio de validación de la prueba de marcha de 6 minutos en fibrosis pulmonar idiopática y un caso clínico de endocarditis protésica por *Mycobacterium chimaera*. Ninguna demuestra que el fármaco trate la enfermedad cardíaca.
 

@@ -6,9 +6,9 @@ nav_order: 531
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Minocycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
 monitor_inn: "minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Minocycline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Minociclina: De Infección del Tracto Urinario a Queratoconjuntivitis Epitelial Punteada
+## Minocycline: Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección del tracto urinario (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99,63% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -62,7 +62,7 @@ Una justificación plausible es que la minociclina posee propiedades antiinflama
 
 Este vínculo es hipotético y no está respaldado por los datos compilados para este informe. La ausencia de datos del mecanismo de acción original limita además la evaluación mecanística.
 
-Como segunda predicción, el modelo propone la **queratitis por exposición** (puntaje 99,20%), también sin evidencia clínica. Su manejo principal es mecánico (lubricación, protección palpebral, corrección de la exposición), por lo que el posible beneficio de la minociclina es especulativo.
+Como segunda predicción, el modelo propone la **queratitis por exposición** (puntaje 0,9920), también sin evidencia clínica. Su manejo principal es mecánico (lubricación, protección palpebral, corrección de la exposición), por lo que el posible beneficio de la minociclina es especulativo.
 
 ## Evidencia de Ensayos Clínicos
 

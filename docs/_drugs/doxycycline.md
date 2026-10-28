@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Doxycycline
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 265
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Doxycycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (nivel de evidencia L4). Indicación original: Bronquitis, acné, neumonía bacteriana, ántrax…"
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
+description: "Doxycycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Doxycycline
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Doxiciclina: De Bronquitis, Acné y Neumonía Bacteriana a Queratoconjuntivitis Epitelial Punctata
+## Doxycycline: Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Bronquitis, acné, neumonía bacteriana, ántrax, gonorrea y otras infecciones (según el grafo de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punctata |
-| Puntaje de Predicción TxGNN | 99.94% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 14 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9994 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 14) |
+| Número de Autorizaciones | 14 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la indicación original es indirecta. La queratoconjuntivitis epitelial punctata suele asociarse a infecciones oculares, entre ellas las causadas por clamidia, un patógeno que la doxiciclina trata. Además, la doxiciclina tiene propiedades antiinflamatorias y de inhibición de metaloproteinasas de matriz (MMP), que podrían ayudar a controlar la inflamación corneal.
 
-El puntaje de 99.94% (posición 509 en el ranking del modelo) no cuenta con respaldo clínico. El único registro de apoyo es un reporte anecdótico que no demuestra beneficio del fármaco. Por ello, la predicción debe considerarse una hipótesis a investigar y no una indicación respaldada.
+El puntaje de 0.9994 (posición 509 en el ranking del modelo) no cuenta con respaldo clínico. El único registro de apoyo es un reporte anecdótico que no demuestra beneficio del fármaco. Por ello, la predicción debe considerarse una hipótesis a investigar y no una indicación respaldada.
 
 ## Evidencia de Ensayos Clínicos
 

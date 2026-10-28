@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 17 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -106,7 +106,7 @@ Para el resto de la información de seguridad, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de VIH tiene una puntuación alta (99.91%), pero la evidencia es solo preclínica e indirecta (nivel L4), sin ensayos clínicos. Además, no se dispone del prospecto con advertencias y contraindicaciones, lo que impide completar el cribado de seguridad. Las demás predicciones son aún más débiles: el ranking 2 (neoplasia endocrina múltiple) se basa en ensayos de cáncer de mama sin relación real, y la artritis reumatoide muestra evidencia parcialmente contradictoria, ya que el bloqueo de estrógenos agravó la inflamación en un modelo animal.
+La predicción de VIH tiene una puntuación alta (0.9991), pero la evidencia es solo preclínica e indirecta (nivel L4), sin ensayos clínicos. Además, no se dispone del prospecto con advertencias y contraindicaciones, lo que impide completar el cribado de seguridad. Las demás predicciones son aún más débiles: el ranking 2 (neoplasia endocrina múltiple) se basa en ensayos de cáncer de mama sin relación real, y la artritis reumatoide muestra evidencia parcialmente contradictoria, ya que el bloqueo de estrógenos agravó la inflamación en un modelo animal.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).

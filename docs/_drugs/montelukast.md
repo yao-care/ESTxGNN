@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 541
-evidence_level: L5
-indication_count: 5
+evidence_level: L1
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Rinitis alérgica, rinitis vasomotora…"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Montelukast: De Rinitis Alérgica y Asma a Bronquitis
+## Montelukast: Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **17 e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica, rinitis vasomotora, asma intrínseca y asma alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99,95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L1 (ver nota en la conclusión: hay un ECA de Fase 3 completado, pero en bronquiolitis por VRS) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

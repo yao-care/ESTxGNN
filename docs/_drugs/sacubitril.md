@@ -6,7 +6,7 @@ nav_order: 720
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sacubitril: nueva indicación predicha, Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías ocular… (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización …"
+description: "Sacubitril: nueva indicación predicha, Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías oculares (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización …"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Sacubitrilo: De Indicación No Especificada en la Ficha a Enfermedad de Pequeño Vaso Cerebral Tipo 1
+## Sacubitrilo: De Indicación No Especificada en la Ficha a Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías oculares
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,9 +48,9 @@ Entre las predicciones evaluadas, **nefropatía diabética** muestra mucho más 
 |------|------|
 | Indicación Original | No disponible en los datos de autorización (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías oculares |
-| Puntaje de Predicción TxGNN | 99,58% |
+| Puntaje de Predicción TxGNN | 0,9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 4) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La enfermedad predicha es un trastorno monogénico raro (relacionado con COL4A1) causado por un defecto estructural de la membrana basal vascular. Teóricamente, el fármaco podría influir en el tono vascular y la presión arterial, pero no hay evidencia de que modifique la patología subyacente. No se ha establecido un vínculo mecanístico directo.
 
-El puntaje TxGNN es muy alto (0,996), pero probablemente refleja la similitud de red con otros nodos de enfermedades relacionadas con COL4A1, no una farmacología validada. La única publicación recuperada trata sobre insuficiencia del ventrículo derecho sistémico, no sobre enfermedad de pequeño vaso cerebral.
+El puntaje TxGNN es muy alto (0,9958), pero proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas con COL4A1, no evidencia biológica ni una farmacología validada. La única publicación recuperada trata sobre insuficiencia del ventrículo derecho sistémico, no sobre enfermedad de pequeño vaso cerebral.
 
 ## Evidencia de Ensayos Clínicos
 

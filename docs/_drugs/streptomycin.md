@@ -6,9 +6,9 @@ nav_order: 748
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Streptomycin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar (según el grafo de conocimiento"
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
+description: "Streptomycin: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Streptomycin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Estreptomicina: De Tuberculosis Pulmonar a Conjuntivitis
+## Streptomycin: Conjuntivitis (conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente no hay **ningún ensayo clínico** y la literatura disponible (
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tuberculosis pulmonar (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis (conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

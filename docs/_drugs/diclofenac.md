@@ -6,9 +6,9 @@ nav_order: 247
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Queratosis actínica (según el grafo de conocimiento"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Diclofenac
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Diclofenaco: De Queratosis Actínica a Hipotricosis Simple del Cuero Cabelludo
+## Diclofenac: Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Queratosis actínica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.69% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
+| Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -101,7 +101,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción para hipotricosis simple del cuero cabelludo tiene nivel de evidencia L5: no hay ensayos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de la COX y un defecto genético folicular.
 
-Entre las 10 principales predicciones, solo la **artritis idiopática juvenil** (puntaje 99.25%) cuenta con literatura de apoyo (nivel L3). Esa literatura consiste en estudios pediátricos pequeños y antiguos con diclofenaco, como un estudio abierto de 1983 y un cruzado de 1988, además de revisiones. En la práctica esto es una extensión del uso habitual de los AINE y no un reposicionamiento novedoso. Podría evaluarse como una línea de investigación independiente.
+Entre las 10 principales predicciones, solo la **artritis idiopática juvenil** (puntaje 0.9925) cuenta con literatura de apoyo (nivel L3). Esa literatura consiste en estudios pediátricos pequeños y antiguos con diclofenaco, como un estudio abierto de 1983 y un cruzado de 1988, además de revisiones. En la práctica esto es una extensión del uso habitual de los AINE y no un reposicionamiento novedoso. Podría evaluarse como una línea de investigación independiente.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA) y un análisis mecanístico que vincule la COX o las prostaglandinas con la biología del folículo piloso.

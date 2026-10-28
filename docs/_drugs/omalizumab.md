@@ -6,9 +6,9 @@ nav_order: 589
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Omalizumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: Asma, asma intrínseca…"
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Omalizumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Omalizumab: De Asma Alérgica a Bronquitis
+## Omalizumab: Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **2 en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma, asma intrínseca, asma alérgica y urticaria idiopática (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---

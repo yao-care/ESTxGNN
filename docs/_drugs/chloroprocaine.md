@@ -48,10 +48,10 @@ No hay **ensayos clínicos** registrados y las **4 publicaciones** disponibles n
 |------|------|
 | Indicación Original | No disponible en las autorizaciones de AEMPS (texto de indicación vacío) |
 | Nueva Indicación Predicha | Síndrome de la cola de caballo |
-| Puntaje de Predicción TxGNN | 99,01 % |
+| Puntaje de Predicción TxGNN | 0,9901 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ No hay **ensayos clínicos** registrados y las **4 publicaciones** disponibles n
 
 La literatura revisada asocia la cloroprocaína con el síndrome de la cola de caballo como un **posible evento adverso** de la anestesia espinal o epidural. Este se atribuye a neurotoxicidad por concentraciones locales elevadas o mala distribución del anestésico, y no a un efecto beneficioso.
 
-El puntaje elevado (0,99) probablemente refleja una asociación en el grafo de conocimiento entre anestésicos locales y esta enfermedad **como causa**, no una relación terapéutica. No se identificó un vínculo mecanístico que sustente su uso para tratar este síndrome.
+El puntaje elevado (0,9901) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No se identificó un vínculo mecanístico que sustente su uso para tratar este síndrome.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -99,7 +99,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 La predicción se basa solo en el modelo (L5), sin ensayos clínicos, y la literatura sugiere que el síndrome de la cola de caballo es una complicación asociada a la cloroprocaína, no una indicación terapéutica. Proseguir sería inapropiado y potencialmente perjudicial.
 
 **Para avanzar se necesita:**
-- Descartar formalmente la predicción como artefacto del grafo de conocimiento (asociación causal frente a terapéutica).
+- Descartar formalmente la predicción como artefacto del modelo TxGNN (aprendizaje profundo) (asociación causal frente a terapéutica).
 - Obtener las advertencias, contraindicaciones e indicaciones aprobadas del prospecto de AEMPS (pendiente, bloquea el cribado de seguridad).
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Evaluar otras indicaciones predichas con mejor plausibilidad terapéutica.

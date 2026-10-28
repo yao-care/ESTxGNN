@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 408
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Imiglucerase: nueva indicación predicha, Síndrome de Hurler (nivel de evidencia L4). Indicación original: Enfermedad de Gaucher (según el grafo de conocimiento"
 monitor_inn: "imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase: nueva indicación predicha, Síndrome de Hurler (Hurler syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Imiglucerasa: De Enfermedad de Gaucher a Síndrome de Hurler
+## Imiglucerase: Síndrome de Hurler (Hurler syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **Síndrome de Hurler**, p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Gaucher (según el grafo de conocimiento; el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Síndrome de Hurler |
-| Puntaje de Predicción TxGNN | 99,52% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de Hurler (Hurler syndrome) |
+| Puntaje de Predicción TxGNN | 0.9952 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

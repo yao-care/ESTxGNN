@@ -48,17 +48,17 @@ La predicción se basa únicamente en el modelo computacional.
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Coartación atípica de la aorta |
-| Puntaje de Predicción TxGNN | 99.59% |
+| Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido láctico es un metabolito endógeno que en España se utiliza en productos dermatológicos tópicos (colodión y pomada, por ejemplo para verrugas y callosidades). Mecanísticamente no se identifica un vínculo que lo haga aplicable a una malformación vascular estructural.
 
-La puntuación del modelo (0.996) refleja una asociación en el grafo de conocimiento, no una evidencia farmacológica. La coartación de aorta se trata de forma quirúrgica o mediante stent, no con un fármaco sistémico de molécula pequeña. Por ello, esta predicción debe considerarse especulativa.
+La puntuación del modelo TxGNN (aprendizaje profundo) (0.9959) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni farmacológica. La coartación de aorta se trata de forma quirúrgica o mediante stent, no con un fármaco sistémico de molécula pequeña. Por ello, esta predicción debe considerarse especulativa.
 
 Para contexto, el modelo también predijo otras indicaciones, todas con nivel L5 y recomendación Hold: malformación aórtica (99.35%), malformación esofágica no sindrómica (99.23%), amenorrea (99.16%) y síndrome de ojo seco (99.13%). De ellas, el ojo seco es la biológicamente más plausible, aunque sigue siendo solo una predicción: la literatura recuperada se refiere a probióticos (productores de ácido láctico) y no evalúa el ácido láctico como tratamiento.
 

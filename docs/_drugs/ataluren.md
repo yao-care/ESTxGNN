@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Ataluren: nueva indicación predicha, Colestasis intrahepática recurrente benigna (nivel de evidencia L5). Indicación original: Distrofia muscular de Duchenne (según el grafo de conocimiento"
 monitor_inn: "ataluren"
 predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn disorder of bilirubin metabolism", "hereditary North American Indian childhood cirrhosis", "familial intrahepatic cholestasis", "severe nonproliferative diabetic retinopathy", "bilirubin metabolism disease"]
+last_modified_at: 2026-10-27
+description: "Ataluren: nueva indicación predicha, colestasis intrahepática recurrente benigna (benign recurrent intrahepatic cholestasis) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
 # Ataluren
@@ -33,44 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Ataluren: De Distrofia Muscular de Duchenne a Colestasis Intrahepática Recurrente Benigna
+## Ataluren: promotor de la lectura continua de codones de parada prematuros → colestasis intrahepática recurrente benigna (benign recurrent intrahepatic cholestasis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ataluren es un fármaco que promueve la lectura completa de codones de parada prematuros (mutaciones sin sentido), utilizado originalmente en la distrofia muscular de Duchenne.
-El modelo TxGNN predice que podría ser efectivo para **colestasis intrahepática recurrente benigna**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata de una predicción puramente computacional.
+Ataluren es un fármaco oral que favorece la lectura continua ribosómica de los codones de parada prematuros (mutaciones sin sentido).
+El modelo TxGNN predice que podría ser efectivo para **colestasis intrahepática recurrente benigna (benign recurrent intrahepatic cholestasis)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Distrofia muscular de Duchenne (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
-| Nueva Indicación Predicha | Colestasis intrahepática recurrente benigna |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | colestasis intrahepática recurrente benigna (benign recurrent intrahepatic cholestasis) |
+| Puntaje de Predicción TxGNN | 0,9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, ataluren promueve la lectura completa (*readthrough*) ribosómica de codones de parada prematuros, lo que permite producir proteínas funcionales completas en enfermedades causadas por mutaciones sin sentido. Su uso original se centra en la distrofia muscular de Duchenne.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ataluren promueve la lectura continua ribosómica de codones de parada prematuros, es decir, de mutaciones sin sentido, de modo que la célula pueda producir una proteína de longitud completa.
 
-La colestasis intrahepática recurrente benigna está causada por variantes en *ATP8B1* (y en ocasiones *ABCB11*). Un subconjunto de estas variantes son mutaciones sin sentido, por lo que un mecanismo de lectura completa es teóricamente plausible para esos pacientes.
+La colestasis intrahepática recurrente benigna se debe a variantes del gen ATP8B1 (y en ocasiones ABCB11). Un subconjunto de estas variantes son mutaciones sin sentido, por lo que, en teoría, la lectura continua podría ser aplicable a esos pacientes.
 
-No obstante, la eficacia dependería del genotipo sin sentido específico de cada paciente, y no se dispone de datos de seguridad hepática ni de exposición en este contexto. El puntaje elevado del modelo es solo una predicción computacional.
-
-### Otras indicaciones predichas (para contexto)
-
-| Rango | Indicación | Puntaje TxGNN | Plausibilidad mecanística |
-|------|------|------|------|
-| 2 | Trastorno congénito del metabolismo de la bilirrubina | 99.40% | Posible solo en subconjuntos con variantes sin sentido (p. ej., UGT1A1); categoría heterogénea |
-| 3 | Cirrosis infantil hereditaria de indios norteamericanos | 99.33% | Débil: variante de cambio de sentido (missense), no sin sentido |
-| 4 | Colestasis intrahepática familiar | 99.26% | Teórica para subconjuntos con variantes sin sentido; requiere validación preclínica |
-| 5 | Retinopatía diabética no proliferativa grave | 99.24% | Sin vínculo claro; probable artefacto del grafo de conocimiento |
-| 6 | Enfermedad del metabolismo de la bilirrubina | 99.11% | Categoría general, demasiado inespecífica |
+Esta plausibilidad es solo teórica. No se aportaron ensayos ni literatura, la eficacia dependería del genotipo sin sentido de cada paciente, y no se dispone de datos de seguridad hepática ni de exposición en este contexto. La puntuación alta del modelo es una predicción computacional, no una prueba de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -84,30 +74,27 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 113902001 | Translarna 125 mg granulado para suspensión oral | Granulado para suspensión oral | No disponible en los datos compilados |
-| 113902002 | Translarna 250 mg granulado para suspensión oral | Granulado para suspensión oral | No disponible en los datos compilados |
-| 113902003 | Translarna 1000 mg granulado para suspensión oral | Granulado para suspensión oral | No disponible en los datos compilados |
-
-Titular: PTC Therapeutics International Limited. Las tres autorizaciones están vigentes y son de principio activo único.
+| 113902002 | TRANSLARNA 250 MG GRANULADO PARA SUSPENSION ORAL | Granulado para suspensión oral | No registrada en los datos locales |
+| 113902003 | TRANSLARNA 1000 MG GRANULADO PARA SUSPENSION ORAL | Granulado para suspensión oral | No registrada en los datos locales |
+| 113902001 | TRANSLARNA 125 MG GRANULADO PARA SUSPENSION ORAL | Granulado para suspensión oral | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos compilados.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. Aunque el mecanismo de lectura completa es plausible para un subconjunto de pacientes con variantes sin sentido, no hay evidencia que lo respalde en esta indicación.
+No existe ningún ensayo clínico ni publicación que estudie directamente esta enfermedad con ataluren, por lo que el nivel de evidencia es L5. La puntuación del modelo no basta por sí sola para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener y analizar las advertencias y contraindicaciones del prospecto de AEMPS (bloqueante para el cribado de seguridad).
-- Completar los datos del mecanismo de acción del fármaco.
-- Identificar pacientes con variantes sin sentido en *ATP8B1* o *ABCB11* y validar la eficiencia de la lectura completa en modelos preclínicos con genotipo definido.
-- Obtener datos de seguridad y exposición hepática.
-- Estrechar las indicaciones más amplias (bilirrubina, colestasis familiar) a un gen y genotipo específicos antes de evaluarlas.
-- Descartar la retinopatía diabética y la cirrosis infantil de indios norteamericanos como candidatas, salvo que surja respaldo independiente.
+- Datos del mecanismo de acción confirmados en fuentes oficiales
+- Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones)
+- Validación preclínica en modelos definidos por genotipo (variantes sin sentido de ATP8B1/ABCB11)
+- Evaluación de la eficacia de la lectura continua en estos genes y de la seguridad hepática
+- Definición de la población diana según genotipo antes de cualquier estudio clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

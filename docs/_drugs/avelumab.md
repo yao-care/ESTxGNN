@@ -4,17 +4,17 @@ title: Avelumab
 parent: Solo predicción del modelo (L5)
 nav_order: 80
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Avelumab: nueva indicación predicha, Tumor relacionado con el herpesvirus humano 8 (nivel de evidencia L5). Indicación original: Carcinoma neuroendocrino cutáneo (según el grafo de conocimiento"
+indication_count: 9
 monitor_inn: "AVELUMAB"
-predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+last_modified_at: 2026-10-27
+description: "Avelumab: nueva indicación predicha, Tumor relacionado con el herpesvirus humano 8 (human herpesvirus 8-related tumor) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Avelumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Avelumab: De Carcinoma Neuroendocrino Cutáneo a Tumor Relacionado con el Herpesvirus Humano 8
+## Avelumab: anticuerpo anti-PD-L1 (inhibidor del punto de control inmunitario) → tumor relacionado con el herpesvirus humano 8 (human herpesvirus 8-related tumor)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Avelumab es un anticuerpo anti-PD-L1, originalmente utilizado para el tratamiento del carcinoma neuroendocrino cutáneo (carcinoma de células de Merkel).
-El modelo TxGNN predice que podría ser efectivo para **tumores relacionados con el herpesvirus humano 8**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; la predicción se basa únicamente en el modelo.
+Avelumab es un anticuerpo monoclonal que bloquea PD-L1 y se comercializa en España como Bavencio.
+El modelo TxGNN predice que podría ser efectivo para el **tumor relacionado con el herpesvirus humano 8 (human herpesvirus 8-related tumor)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados para este informe que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma neuroendocrino cutáneo (según el grafo de conocimiento; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Tumor relacionado con el herpesvirus humano 8 |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Tumor relacionado con el herpesvirus humano 8 (human herpesvirus 8-related tumor) |
+| Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, avelumab es un anticuerpo monoclonal que bloquea PD-L1, y su eficacia en el carcinoma de células de Merkel (un cáncer neuroendocrino cutáneo asociado a un virus) ha sido comprobada. Mecanísticamente podría ser aplicable a tumores relacionados con el VHH-8.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, avelumab es un anticuerpo anti-PD-L1: al bloquear la interacción entre PD-L1 y su receptor PD-1, puede reactivar la respuesta de los linfocitos T frente a células tumorales.
 
-La relación con la indicación original es la siguiente: ambos son tumores asociados a virus. En tumores como el sarcoma de Kaposi se ha descrito agotamiento inmunitario del eje PD-1/PD-L1, por lo que el bloqueo de PD-L1 podría restaurar la respuesta inmunitaria antitumoral.
+Los tumores asociados al herpesvirus humano 8 (por ejemplo, el sarcoma de Kaposi) son tumores de origen viral. En ellos se ha descrito agotamiento inmunitario relacionado con el eje PD-1/PD-L1, lo que ofrece una justificación biológica plausible para el bloqueo de PD-L1.
 
-No obstante, este vínculo se apoya solo en la predicción de TxGNN y en un razonamiento biológico general. No se dispone de ensayos ni literatura que lo confirmen.
+No obstante, este vínculo se apoya únicamente en la predicción del modelo y en razonamiento biológico general. No se aportaron ensayos ni literatura que lo confirmen, por lo que debe considerarse una hipótesis.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -73,60 +74,43 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 171214001IP | BAVENCIO 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
-| 1171214001 | BAVENCIO 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
-| 171214001IP1 | BAVENCIO 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
+| 171214001IP | BAVENCIO 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión | No registrada en los datos locales |
+| 1171214001 | BAVENCIO 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión | No registrada en los datos locales |
+| 171214001IP1 | BAVENCIO 20 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | Concentrado para solución para perfusión | No registrada en los datos locales |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo monoclonal anti-PD-L1) |
-| Riesgo de Mielosupresión | Bajo en general; no es un citotóxico convencional. Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto (habitualmente hemograma, función hepática, renal y tiroidea) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 3 interacciones de nivel *Mayor*, con los inmunomoduladores:
-  - Lenalidomida
-  - Pomalidomida
-  - Talidomida
+- **Interacciones Farmacológicas** (3 interacciones de nivel Mayor registradas):
+  - Lenalidomida (Mayor)
+  - Pomalidomida (Mayor)
+  - Talidomida (Mayor)
 
 Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
-
-## Otras Indicaciones Predichas (Referencia)
-
-Además de la predicción principal, el modelo propone otras indicaciones, todas sin ensayos ni literatura en los datos compilados:
-
-| Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
-|------|------|------|------|
-| Tumor neuroendocrino del oído medio | 99,97% | L5 | Relación biológica con la indicación original; tumor extremadamente raro |
-| Tumor cutáneo maligno de células granulares | 99,97% | L5 | Predicción puramente computacional |
-| Ectomesenquimoma | 99,97% | L5 | Sin dependencia de PD-L1 establecida |
-| Déficit de adenosina desaminasa | 99,95% | L5 | Mecanísticamente improbable; probable artefacto de la red |
-| Disgenesia reticular | 99,94% | L5 | Mecanísticamente improbable; probable artefacto de la red |
-| Hipoplasia inmunoeritromieloide | 99,94% | L5 | Sin vínculo mecanístico |
-| Inmunodeficiencia no combinada grave | 99,92% | L5 | Probable artefacto computacional |
-| Carcinoma urotelial de la uretra prostática | 99,92% | L4 | Apoyo indirecto: avelumab está aprobado como mantenimiento en carcinoma urotelial (JAVELIN Bladder 100, Fase 3); es una inferencia del perfil conocido del fármaco |
-| Carcinoma sarcomatoide de células transicionales de la pelvis renal | 99,91% | L4 | Apoyo indirecto por la indicación urotelial; extrapolación con cautela |
-
-Las dos indicaciones uroteliales son las que cuentan con el razonamiento más sólido, aunque indirecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal tiene un puntaje alto en TxGNN, pero se encuentra en el nivel L5: no hay ensayos clínicos ni literatura que la respalden. Además, faltan datos de seguridad del prospecto, lo que bloquea el cribado de seguridad.
+La predicción tiene un puntaje TxGNN alto (0,9997), pero no cuenta con ensayos clínicos ni literatura que estudien directamente esta enfermedad (nivel de evidencia L5). Por ahora solo puede considerarse una hipótesis.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones) y confirmar las indicaciones autorizadas
-- Obtener datos detallados del mecanismo de acción desde DrugBank
-- Realizar una búsqueda sistemática de ensayos y literatura sobre avelumab en sarcoma de Kaposi y otros tumores relacionados con el VHH-8
-- Valorar priorizar las indicaciones uroteliales (L4), que cuentan con apoyo indirecto
-- Evaluar la gestión clínica de las interacciones mayores con lenalidomida, pomalidomida y talidomida (frecuentes en terapias del sarcoma de Kaposi y otras neoplasias)
+- Revisión sistemática de la literatura sobre bloqueo de PD-1/PD-L1 en tumores asociados al herpesvirus humano 8 (p. ej., sarcoma de Kaposi)
+- Datos de expresión de PD-L1 en este tipo de tumores
+- Datos detallados del mecanismo de acción (MOA)
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Evaluación de la relevancia clínica de las interacciones mayores con lenalidomida, pomalidomida y talidomida
+- Si los datos lo respaldan, diseño de un estudio exploratorio de fase 2
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

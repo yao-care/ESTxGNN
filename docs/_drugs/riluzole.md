@@ -4,17 +4,17 @@ title: Riluzole
 parent: Solo predicción del modelo (L5)
 nav_order: 702
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Riluzole: nueva indicación predicha, Polimicrogiria parieto-occipital parasagital bilateral (nivel de evidencia L5). Indicación original: Esclerosis lateral amiotrófica (según el grafo de conocimient"
 monitor_inn: "riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: nueva indicación predicha, Bilateral parasagittal parieto-occipital polymicrogyria (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Riluzol: De Esclerosis Lateral Amiotrófica a Polimicrogiria Parieto-Occipital Parasagital Bilateral
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esclerosis lateral amiotrófica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Polimicrogiria parieto-occipital parasagital bilateral |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bilateral parasagittal parieto-occipital polymicrogyria |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -66,11 +66,11 @@ Entre las 10 principales predicciones, algunas tienen una plausibilidad biológi
 
 | Posición | Enfermedad predicha | Puntaje TxGNN | Nivel | Comentario |
 |---|---|---|---|---|
-| 3 | Síndrome de motoneurona inferior de inicio en la edad adulta tardía | 99.99% | L5 | Trastorno de motoneurona; plausible, solo inferencial |
-| 6 | Amiotrofia monomélica | 99.99% | L5 | Evolución habitualmente benigna y autolimitada |
-| 7 | Síndrome de Mills | 99.98% | L5 | Variante del espectro de enfermedad de motoneurona |
-| 8 | ELA, susceptibilidad a | 99.98% | L4 | Reetiquetado de la indicación existente, no un reposicionamiento real |
-| 10 | ELA tipo 22 | 99.98% | L5 | Subtipo genético de ELA; plausible por extensión |
+| 3 | Síndrome de motoneurona inferior de inicio en la edad adulta tardía | 0.9999 | L5 | Trastorno de motoneurona; plausible, solo inferencial |
+| 6 | Amiotrofia monomélica | 0.9999 | L5 | Evolución habitualmente benigna y autolimitada |
+| 7 | Síndrome de Mills | 0.9998 | L5 | Variante del espectro de enfermedad de motoneurona |
+| 8 | ELA, susceptibilidad a | 0.9998 | L4 | Reetiquetado de la indicación existente, no un reposicionamiento real |
+| 10 | ELA tipo 22 | 0.9998 | L5 | Subtipo genético de ELA; plausible por extensión |
 
 ## Evidencia de Ensayos Clínicos
 

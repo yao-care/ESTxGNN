@@ -50,9 +50,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Diabetes mellitus tipo 2 |
 | Nueva Indicación Predicha | Opsismodisplasia |
-| Puntaje de Predicción TxGNN | 99.59% |
+| Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 8) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pioglitazona es un agonista del receptor activado por proliferadores de peroxisomas gamma (PPARG), lo que se confirma en los datos de farmacología recopilados (que también muestran interacción con TRPM3). Su eficacia en diabetes tipo 2 como sensibilizador de insulina está bien establecida.
 
-Para la opsismodisplasia, **no se identifica un vínculo mecanístico respaldado por los datos**. Esta enfermedad es una displasia esquelética rara asociada a variantes del gen INPPL1, y su relación con la activación de PPAR-gamma no está establecida. El puntaje elevado del modelo (99.59%) es únicamente una predicción computacional, sin ensayos ni literatura que la corroboren.
+Para la opsismodisplasia, **no se identifica un vínculo mecanístico respaldado por los datos**. Esta enfermedad es una displasia esquelética rara asociada a variantes del gen INPPL1, y su relación con la activación de PPAR-gamma no está establecida. El puntaje elevado del modelo (0.9959) es únicamente una predicción computacional, sin ensayos ni literatura que la corroboren.
 
 Cabe señalar que el modelo generó otras predicciones con puntajes similares (síndrome de la persona rígida clásico y focal, síndrome de disfunción sensible a tiamina, varias lipodistrofias localizadas y agenesia pancreática). Entre ellas, las lipodistrofias tienen una justificación biológica teórica por el papel de PPAR-gamma en el tejido adiposo, aunque tampoco cuentan con evidencia clínica. Todas permanecen en nivel L5 y decisión Hold.
 

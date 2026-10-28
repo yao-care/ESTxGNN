@@ -4,17 +4,17 @@ title: Bendroflumethiazide
 parent: Solo predicción del modelo (L5)
 nav_order: 94
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Bendroflumethiazide: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
+indication_count: 4
 monitor_inn: "bendroflumethiazide"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Bendroflumethiazide: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
 # Bendroflumethiazide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,45 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Bendroflumetiazida: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Bendroflumetiazida: diurético tiazídico → enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Bendroflumetiazida es un diurético tiazídico utilizado originalmente para el tratamiento de la hipertensión arterial.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
+Bendroflumetiazida es un diurético de tipo tiazídico que se utiliza para tratar la hipertensión.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (trastorno hipertensivo); el texto de indicación de la autorización no está disponible |
-| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
+| Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Español | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, bendroflumetiazida es un diurético tiazídico, cuya eficacia en la hipertensión está establecida, y la reducción de la presión arterial por depleción de sodio y volumen podría, en teoría, relacionarse con la enfermedad renal hipertensiva.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la bendroflumetiazida es un diurético tiazídico, clase que reduce la presión arterial al disminuir el volumen circulante y favorecer la eliminación de sodio y agua por el riñón.
 
-Sin embargo, la hipertensión maligna con afectación renal es una emergencia hipertensiva que se trata habitualmente con fármacos parenterales de acción rápida. Las tiazidas no son una terapia estándar en este contexto y su eficacia disminuye cuando el filtrado glomerular está reducido.
+Un vínculo con la enfermedad renal hipertensiva es plausible por la reducción de la presión arterial. Sin embargo, la hipertensión maligna con afectación renal es una emergencia hipertensiva que se trata con fármacos de acción rápida por vía parenteral. Las tiazidas no son un tratamiento estándar y su eficacia disminuye cuando la filtración glomerular está reducida.
 
-El puntaje elevado de TxGNN (99.88%) probablemente refleja la cercanía con la indicación original de hipertensión dentro del grafo de conocimiento, y no una evidencia clínica específica. No se aportaron ensayos ni literatura.
-
-### Otras predicciones del modelo
-
-| Posición | Nueva Indicación Predicha | Puntaje TxGNN | Valoración |
-|------|------|------|------|
-| 2 | Hipertensión renovascular maligna | 99.88% | Extensión de la indicación existente; la monoterapia con diuréticos puede estimular aún más la renina y no es el abordaje preferido. |
-| 3 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.87% | Los diuréticos solo alivian la sobrecarga de volumen de forma sintomática; probablemente se debe a similitud de nombre en el grafo. |
-| 4 | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.87% | El manejo se centra en la enfermedad de base; las tiazidas pueden causar hipopotasemia y alcalosis metabólica, con posible empeoramiento en enfermedad pulmonar crónica. |
-| 5 | Síndrome de Braddock | 99.83% | Enfermedad muy rara sin fundamento mecanístico ni clínico; probable artefacto del grafo. |
-
-Todas tienen nivel de evidencia L5 y recomendación Hold.
+El puntaje elevado (0,9988) probablemente refleja la cercanía con la indicación hipertensiva original, más que una evidencia clínica propia. No se aportaron ensayos ni literatura que lo sustenten.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -85,39 +74,29 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 56535 | NEATENOL DIU 100mg/5mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
+| 56535 | NEATENOL DIU 100mg/5mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+
+Este producto es una asociación a dosis fija (100 mg/5 mg), por lo que su autorización no describe la situación de la bendroflumetiazida como principio activo único.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones (según el grafo de conocimiento, no del prospecto)**: el grafo asocia el fármaco con contraindicación en las siguientes condiciones:
-  - Renales y urinarias: enfermedad renal, anuria, piouréter, nefrocalcinosis.
-  - Hepáticas y digestivas: enfermedad hepática, coma hepático, encefalopatía hepática, enfermedad de la vesícula biliar, pancreatitis, ictericia neonatal.
-  - Metabólicas y endocrinas: diabetes mellitus, cetoacidosis diabética, deficiencia de potasio, hiperuricemia, gota, hipercalcemia, hiperparatiroidismo, osteítis fibrosa, trastornos del metabolismo del fósforo.
-  - Autoinmunes y neuromusculares: lupus eritematoso sistémico (incluido el pediátrico), miastenia gravis (incluida la del adulto), enfermedad de la unión neuromuscular.
-  - Cardiorrespiratorias: bloqueo auriculoventricular, enfisema pulmonar, enfermedad bronquial.
-  - Psiquiátricas: trastorno de ansiedad, trastorno neurótico, trastorno distímico.
-- **Interacciones Farmacológicas**: se identificaron 168 interacciones en total. Entre las mostradas, la mayoría son de nivel moderado:
-  - Antidiabéticos (acarbosa, albiglutida, alogliptina, metformina, pioglitazona).
-  - Corticoides (hidrocortisona, triamcinolona, dexametasona, beclometasona, betametasona).
-  - Inhibidores de la bomba de protones (omeprazol, rabeprazol).
-  - Anfotericina B (incluido el complejo lipídico), colecalciferol, bupropión y morfina.
-  - De nivel menor: doxiciclina, hiosciamina y atropina.
+- **Contraindicaciones y enfermedades con riesgo asociado** (no proceden del texto del prospecto; son relaciones de contraindicación recopiladas en los datos del informe): trastornos de ansiedad, enfermedad renal, anuria, pancreatitis, enfermedad hepática y encefalopatía hepática, enfermedad de la vesícula biliar, lupus eritematoso sistémico, deficiencia de potasio, diabetes mellitus y cetoacidosis diabética, hiperuricemia y gota, hiperparatiroidismo, hipercalcemia y nefrocalcinosis, miastenia gravis, bloqueo auriculoventricular, enfisema pulmonar y enfermedad bronquial.
+- **Interacciones farmacológicas**: se identificaron 168 interacciones. Entre las principales (nivel moderado) figuran acarbosa, metformina, pioglitazona, alogliptina, albiglutida, hidrocortisona, dexametasona, betametasona, triamcinolona, beclometasona, anfotericina B, omeprazol, rabeprazol, bupropión, morfina y colecalciferol. De nivel menor: doxiciclina, hioscimina y atropina.
 
-Para las advertencias principales y contraindicaciones oficiales, consultar el prospecto.
+Se debe consultar el prospecto para conocer las advertencias oficiales.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura (nivel L5). Además, la hipertensión maligna con afectación renal es una emergencia en la que las tiazidas no son tratamiento estándar, y el amplio listado de contraindicaciones (incluida la enfermedad renal y la anuria) es especialmente relevante.
+La predicción no cuenta con ensayos clínicos ni literatura, y la plausibilidad mecanística es limitada: las tiazidas no son tratamiento de referencia en una emergencia hipertensiva con afectación renal. El perfil de seguridad en enfermedad renal también es desfavorable.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), paso imprescindible antes de cualquier evaluación de seguridad.
-- Completar los datos del mecanismo de acción (por ejemplo, mediante consulta a DrugBank).
-- Revisar sistemáticamente la literatura y los registros de ensayos para detectar evidencia clínica en enfermedad renal hipertensiva.
-- Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, hoy pendientes.
-- Considerar candidatas alternativas con mayor plausibilidad mecanística.
+- Búsqueda de estudios clínicos o literatura que evalúen directamente la bendroflumetiazida en esta enfermedad
+- Datos del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Evaluación de seguridad en pacientes con deterioro de la función renal
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

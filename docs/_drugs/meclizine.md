@@ -6,9 +6,9 @@ nav_order: 497
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Meclizine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Vértigo de origen en el sistema nervioso central y mareo por movimien…"
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
+description: "Meclizine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Meclizine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Meclizina: De Vértigo de Origen en el Sistema Nervioso Central a Urticaria Alérgica
+## Meclizine: Urticaria alérgica (allergic urticaria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Vértigo de origen en el sistema nervioso central y mareo por movimiento (según el grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.67% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Urticaria alérgica (allergic urticaria) |
+| Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

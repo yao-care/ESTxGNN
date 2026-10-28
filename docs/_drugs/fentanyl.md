@@ -46,9 +46,9 @@ Fentanilo es un opioide agonista del receptor mu, comercializado en España en p
 |------|------|
 | Indicación Original | No disponible en los datos compilados para este informe |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99,46 % |
+| Puntaje de Predicción TxGNN | 0,9946 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,9 +58,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome nefrogénico de antidiuresis inapropiada (SNAI) se debe a mutaciones con ganancia de función del receptor V2 de la vasopresina (AVPR2), que provocan retención de agua independiente de la vasopresina. El fentanilo no tiene acción conocida sobre el receptor V2 ni sobre su señalización posterior. Además, los opioides pueden modular la liberación central de vasopresina y se asocian a veces con efectos de tipo SIADH, lo que tendería a empeorar la antidiuresis y no a tratarla.
 
-**No se identifica un vínculo mecanístico creíble.** El puntaje elevado de TxGNN (0,995) probablemente sea un artefacto del grafo de conocimiento y carece de respaldo farmacológico.
+**No se identifica un vínculo mecanístico creíble.** El puntaje elevado de TxGNN (0,9946) probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo) y carece de respaldo farmacológico.
 
-Como segunda predicción de menor interés, el modelo propone el **síndrome de Tourette** (puntaje 99,05 %, también nivel L5, decisión Hold). Existe solo una hipótesis débil e indirecta (interacción del sistema opioide con circuitos dopaminérgicos estriatales). El fentanilo es un agonista mu completo con alto potencial de abuso, riesgo de depresión respiratoria y una gran carga de interacciones (327 fármacos), por lo que es un mal candidato para una afección del neurodesarrollo que suele iniciarse en la infancia. Tampoco hay ensayos ni literatura que lo apoyen.
+Como segunda predicción de menor interés, el modelo propone el **síndrome de Tourette** (puntaje 0,9905, también nivel L5, decisión Hold). Existe solo una hipótesis débil e indirecta (interacción del sistema opioide con circuitos dopaminérgicos estriatales). El fentanilo es un agonista mu completo con alto potencial de abuso, riesgo de depresión respiratoria y una gran carga de interacciones (327 fármacos), por lo que es un mal candidato para una afección del neurodesarrollo que suele iniciarse en la infancia. Tampoco hay ensayos ni literatura que lo apoyen.
 
 ## Evidencia de Ensayos Clínicos
 

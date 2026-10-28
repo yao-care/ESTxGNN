@@ -4,17 +4,17 @@ title: Tramazoline
 parent: Solo predicción del modelo (L5)
 nav_order: 810
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Tramazoline: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 monitor_inn: "Tramazoline"
-predicted_indications: ["allergic urticaria", "acute laryngopharyngitis", "nasal cavity disease", "rosacea conjunctivitis", "cold urticaria", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "rosacea conjunctivitis", "cold urticaria", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Tramazoline: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tramazoline
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Tramazolina: De Rinitis Alérgica a Urticaria Alérgica
+## Tramazoline: Urticaria alérgica (allergic urticaria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para **urticaria alérgica**, p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99,95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Urticaria alérgica (allergic urticaria) |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,19 +63,17 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La relación con la urticaria alérgica es débil. La urticaria es una afección cutánea mediada por mastocitos e histamina, y un descongestionante nasal u ocular no tiene una vía de beneficio establecida en ella. El vínculo más plausible sería el síntoma común de «alergia», pero esto es solo una asociación del modelo.
 
-Por ello, el puntaje elevado (99,95%) debe interpretarse con cautela: no hay evidencia clínica ni de literatura que lo confirme, y la exposición sistémica tras uso tópico es baja.
+Por ello, el puntaje elevado (0,9995) debe interpretarse con cautela: no hay evidencia clínica ni de literatura que lo confirme, y la exposición sistémica tras uso tópico es baja.
 
 ### Otras predicciones del modelo (para contexto)
 
 | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Laringofaringitis aguda | 99,92% | L5 | Adyacente a las indicaciones de faringitis/nasofaringitis; sin evidencia directa |
-| Enfermedad de la cavidad nasal | 99,91% | L5 | Categoría amplia, solapada con usos ya existentes |
-| Conjuntivitis rosácea | 99,68% | L5 | Posible alivio sintomático de la hiperemia; riesgo de hiperemia de rebote |
-| Rinitis | 99,53% | L4 | Cercana a la indicación actual; hay literatura de apoyo |
-| Urticaria por frío | 99,45% | L5 | Sin vínculo mecanístico creíble |
-| Trastorno de cefalea | 99,26% | L5 | Categoría demasiado amplia |
-| Cefalalgia autonómica trigeminal | 99,17% | L5 | Vínculo especulativo; preocupación cardiovascular |
+| Enfermedad de la cavidad nasal | 0,9991 | L5 | Categoría amplia, solapada con usos ya existentes |
+| Conjuntivitis rosácea | 0,9968 | L5 | Posible alivio sintomático de la hiperemia; riesgo de hiperemia de rebote |
+| Urticaria por frío | 0,9945 | L5 | Sin vínculo mecanístico creíble |
+| Trastorno de cefalea | 0,9926 | L5 | Categoría demasiado amplia |
+| Cefalalgia autonómica trigeminal | 0,9917 | L5 | Vínculo especulativo; preocupación cardiovascular |
 
 ---
 

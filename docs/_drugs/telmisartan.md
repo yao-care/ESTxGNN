@@ -4,17 +4,17 @@ title: Telmisartan
 parent: Solo predicción del modelo (L5)
 nav_order: 770
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Telmisartan: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: Hipertensión arterial (según el grafo de conocimiento"
 monitor_inn: "telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+description: "Telmisartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Telmisartán: De Hipertensión a Angina de Prinzmetal
+## Telmisartan: Angina de Prinzmetal (Prinzmetal angina)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles en los datos compilados) |
-| Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Angina de Prinzmetal (Prinzmetal angina) |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -116,7 +116,7 @@ No se dispone de las advertencias ni de las contraindicaciones del prospecto de 
 **Decisión: Hold**
 
 **Justificación:**
-La angina de Prinzmetal tiene un puntaje alto en el modelo (99.98%), pero no hay ningún ensayo clínico ni publicación que la respalde (nivel L5). El vínculo mecanístico es solo plausible, y la seguridad no puede evaluarse sin el prospecto.
+La angina de Prinzmetal tiene un puntaje alto en el modelo (0.9998), pero no hay ningún ensayo clínico ni publicación que la respalde (nivel L5). El vínculo mecanístico es solo plausible, y la seguridad no puede evaluarse sin el prospecto.
 
 **Para avanzar se necesita:**
 - Revisión de la literatura y de registros de ensayos específicos sobre telmisartán o ARA-II en vasoespasmo coronario.

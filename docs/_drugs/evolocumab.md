@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Evolocumab: De Hipercolesterolemia Familiar Homocigota a Hemofilia Sintomática en Portadoras
+## Evolocumab: Forma sintomática de hemofilia en mujeres portadoras
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para la **forma sintomática de
 |------|------|
 | Indicación Original | Hipercolesterolemia familiar homocigota; dislipidemia sindrómica |
 | Nueva Indicación Predicha | Forma sintomática de hemofilia en mujeres portadoras |
-| Puntaje de Predicción TxGNN | 99,82% |
+| Puntaje de Predicción TxGNN | 0,9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Evolocumab es un anticuerpo monoclonal dirigido contra PCSK9 (proproteína convertasa subtilisina/kexina tipo 9). Al bloquear esta proteína, aumenta la disponibilidad de receptores de LDL en el hígado y reduce el colesterol LDL. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, pero la diana (PCSK9) está bien identificada.
 
-Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre esta vía y la nueva indicación. La hemofilia en mujeres portadoras se debe a una actividad reducida del factor VIII o IX (herencia ligada al cromosoma X), algo ajeno a la vía PCSK9/receptor de LDL. El puntaje elevado de TxGNN (0,998) es solo una predicción del grafo de conocimiento y no está respaldado por una justificación biológica ni por datos clínicos.
+Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre esta vía y la nueva indicación. La hemofilia en mujeres portadoras se debe a una actividad reducida del factor VIII o IX (herencia ligada al cromosoma X), algo ajeno a la vía PCSK9/receptor de LDL. El puntaje elevado de TxGNN (0,9982) es solo una predicción del modelo TxGNN (aprendizaje profundo) y no está respaldado por una justificación biológica ni por datos clínicos.
 
 Por tanto, esta predicción debe considerarse especulativa. Otras predicciones del modelo (deficiencia familiar de apolipoproteína C-II, púrpura trombocitopénica, deficiencia de factor XI, hemofilia A con anomalía vascular y "enfermedad de actividad catalítica") tampoco cuentan con ensayos ni literatura. Solo la deficiencia de apoC-II guarda una relación conceptual indirecta, por ser un trastorno lipídico, aunque evolocumab no corregiría su defecto principal (la activación de la lipoproteína lipasa). "Enfermedad de actividad catalítica" es una categoría demasiado amplia para ser accionable.
 

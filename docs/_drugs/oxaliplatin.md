@@ -6,9 +6,9 @@ nav_order: 594
 evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (nivel de evidencia L2). Indicación original: Metástasis de tumor maligno de colon (según el grafo de conocimiento"
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
+description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (malignant pleural mesothelioma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Oxaliplatin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 </div>
 
-## Oxaliplatino: De Metástasis de Tumor Maligno de Colon a Mesotelioma Pleural Maligno
+## Oxaliplatin: Mesotelioma pleural maligno (malignant pleural mesothelioma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **Mesotelioma Pleural Mali
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Metástasis de tumor maligno de colon (según el grafo de conocimiento; los textos de autorización de AEMPS no incluyen indicación) |
-| Nueva Indicación Predicha | Mesotelioma pleural maligno |
-| Puntaje de Predicción TxGNN | 99,68% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Mesotelioma pleural maligno (malignant pleural mesothelioma) |
+| Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

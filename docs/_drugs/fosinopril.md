@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fosinopril
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 360
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Fosinopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L4). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "FOSINOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Fosinopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No registrada en los datos locales (l…"
 ---
 
 # Fosinopril
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Fosinopril: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Fosinopril: inhibidor de la ECA (profármaco de fosinoprilato) → enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Fosinopril es un inhibidor de la enzima convertidora de angiotensina (IECA), originalmente utilizado para el tratamiento de la hipertensión arterial.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden específicamente esta dirección: es solo una predicción del modelo.
+Fosinopril es un inhibidor de la enzima convertidora de angiotensina (ECA) que se comercializa en España en comprimidos. El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que estudien directamente esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (trastorno hipertensivo) |
-| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99,87% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No registrada en los datos locales (las autorizaciones no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
+| Puntaje de Predicción TxGNN | 0,9987 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fosinopril es un profármaco que se convierte en fosinoprilato, un inhibidor de la ACE que reduce la angiotensina II y, con ello, la presión arterial. Su eficacia en la hipertensión está establecida.
+Fosinopril es un inhibidor de la ECA: se convierte en su forma activa, fosinoprilato, y reduce la angiotensina II, con lo que baja la presión arterial. No se dispone en los datos compilados de una descripción detallada del mecanismo de acción, pero esta es la acción conocida de la clase.
 
-La nefropatía hipertensiva maligna está impulsada por una hipertensión muy grave y por la activación del sistema renina-angiotensina-aldosterona (SRAA), por lo que el mecanismo es plausible. Sin embargo, se trata en esencia de una extensión de la indicación ya aprobada de hipertensión. El puntaje tan alto (99,87%) probablemente refleja la cercanía con la indicación original y no constituye evidencia clínica.
+La nefropatía hipertensiva maligna se produce por hipertensión muy grave y activación del sistema renina-angiotensina-aldosterona (SRAA). Por ello, el mecanismo es plausible: bloquear este sistema podría reducir la presión y la lesión renal.
 
-Otras predicciones del modelo tienen un respaldo aún más débil: la hipertensión renovascular maligna (puntaje 99,87%, L4) es coherente con el SRAA, pero los IECA conllevan riesgo en la estenosis bilateral de la arteria renal. Las predicciones de hipertensión pulmonar (99,87%) y el síndrome de Braddock (99,81%) carecen de un vínculo mecanístico claro y quedan en L5, con recomendación Hold.
+Conviene ser prudente. Esta predicción es básicamente una extensión del uso del fármaco en hipertensión, y su puntaje alto probablemente refleja esa cercanía. Al no haber estudios sobre esta enfermedad concreta, el nivel de evidencia es L5 (solo predicción del modelo).
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,43 +66,37 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Para la indicación principal (enfermedad renal hipertensiva maligna) actualmente no hay literatura relacionada disponible.
-
-Para referencia, en la predicción de hipertensión pulmonar por enfermedad pulmonar o hipoxia se recuperaron dos publicaciones, ninguna de las cuales respalda la eficacia:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [9923037](https://pubmed.ncbi.nlm.nih.gov/9923037/) | 1998 | Reporte de caso | Revue des maladies respiratoires | Neumonía eosinofílica hipóxica en dos pacientes tratados con IECA (enalapril y fosinopril); posible señal de seguridad, no de eficacia |
-| [31105790](https://pubmed.ncbi.nlm.nih.gov/31105790/) | 2019 | Preclínico/Bioinformática | Experimental and Therapeutic Medicine | Genes diana en células mesangiales de ratón en nefropatía diabética; sin relación directa con el tema |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 59716 | FOSITENS 20 mg COMPRIMIDOS | Comprimido | No disponible en los datos |
-| 83239 | FOSINOPRIL AUROVITAS 20 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
-| 74975 | FOSINOPRIL AUROBINDO 20 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
-| 66779 | FOSINOPRIL TEVA 20 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos |
+| 59716 | FOSITENS 20 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
+| 83239 | FOSINOPRIL AUROVITAS 20 MG COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
+| 74975 | FOSINOPRIL AUROBINDO 20 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
+| 66779 | FOSINOPRIL TEVA 20 mg COMPRIMIDOS EFG | Comprimido | No registrada en los datos locales |
+
+De las 4 autorizaciones, 2 están vigentes y 2 canceladas.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo asociadas (según el grafo de conocimiento, no el prospecto)**: enfermedad renal, hepatopatía, pancreatitis, enfermedad de la vesícula biliar, angioedema (incluido el hereditario, el adquirido y el inducido por bloqueadores del SRAA), lupus eritematoso sistémico, deficiencia de potasio, diabetes mellitus y cetoacidosis diabética, neutropenia y agranulocitosis, estenosis aórtica y otras valvulopatías aórticas, trastornos hipotensivos, hiperparatiroidismo, encefalopatía/coma hepático, enfermedades del tejido conectivo y enfermedades óseas.
-- **Interacciones farmacológicas**: se identificaron 100 interacciones en total; las más relevantes son las de nivel **Mayor** con **bicarbonato de potasio** y **citrato de potasio** (riesgo de hiperpotasemia). Entre las de nivel moderado figuran corticosteroides (hidrocortisona, betametasona, budesonida, dexametasona, triamcinolona), antidiabéticos (alogliptina, canagliflozina, dapagliflozina, empagliflozina, saxagliptina, metformina, clorpropamida), ácido acetilsalicílico, bupropión, morfina y dronabinol, entre otros.
-- **Consideración específica**: en la hipertensión renovascular maligna, los IECA pueden provocar deterioro agudo de la función renal en caso de estenosis bilateral de la arteria renal.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las mostradas, las de nivel **mayor** son con citrato de potasio y bicarbonato de potasio (riesgo de hiperpotasemia). Las de nivel moderado incluyen corticoides (hidrocortisona, betametasona, budesonida, triamcinolona, dexametasona), ácido acetilsalicílico, antidiabéticos (metformina, alogliptina, saxagliptina, canagliflozina, dapagliflozina, empagliflozina, clorpropamida), bupropión, morfina y dronabinol.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal se apoya únicamente en el puntaje del modelo y en la cercanía con la indicación de hipertensión ya aprobada, sin ensayos clínicos ni literatura específica (nivel L4). Además, falta la información del prospecto, lo que impide completar el cribado de seguridad.
+La predicción es mecanísticamente plausible, pero carece de ensayos y publicaciones sobre esta enfermedad (nivel L5), y es esencialmente una extensión del uso en hipertensión.
 
 **Para avanzar se necesita:**
-- Obtener las advertencias y contraindicaciones del prospecto de la AEMPS (carencia bloqueante).
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión sistemática de la literatura sobre IECA en nefroesclerosis hipertensiva maligna y en hipertensión renovascular.
-- Evaluar el perfil de seguridad renal (estenosis de la arteria renal, hiperpotasemia) en la población objetivo.
-- Aclarar la indicación aprobada en cada autorización española, ya que no figura en los datos disponibles.
+- Estudios clínicos u observacionales que evalúen fosinopril en nefropatía hipertensiva maligna
+- Datos detallados del mecanismo de acción
+- Revisión del prospecto para advertencias y contraindicaciones, especialmente en enfermedad renal y estenosis de arteria renal
+- Plan de monitorización de función renal y potasio
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -6,9 +6,9 @@ nav_order: 480
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L5). Indicación original: Enfermedad diarreica y disentería (según el grafo de conocimiento"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
+description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Loperamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Loperamida: De Enfermedad Diarreica a Conjuntivitis Contagiosa Aguda
+## Loperamide: Conjuntivitis contagiosa aguda (acute contagious conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad diarreica y disentería (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, loperamida es un agonista periférico del receptor opioide mu (OPRM1) que actúa sobre las neuronas del plexo mientérico intestinal y reduce la motilidad gastrointestinal. Su eficacia en la diarrea está bien establecida.
 
-**Sin embargo, no existe un vínculo mecanístico establecido con la conjuntivitis.** La señalización opioide a nivel de la superficie ocular no es un mecanismo antiinfeccioso ni antiinflamatorio reconocido para esta enfermedad. El puntaje alto de TxGNN parece reflejar la proximidad en el grafo con otros términos de conjuntivitis (varios subtipos comparten puntajes casi idénticos, lo que sugiere un artefacto correlacionado del grafo) y no evidencia biológica independiente.
+**Sin embargo, no existe un vínculo mecanístico establecido con la conjuntivitis.** La señalización opioide a nivel de la superficie ocular no es un mecanismo antiinfeccioso ni antiinflamatorio reconocido para esta enfermedad. El puntaje alto de TxGNN (modelo de aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (varios subtipos de conjuntivitis comparten puntajes casi idénticos, 0.9965), y no evidencia biológica.
 
 Como dato aislado, la base farmacológica menciona que loperamida, por ser un fármaco catiónico anfifílico, mostró actividad anti-SARS-CoV-2 en cribados de reposicionamiento, probablemente por inducción de fosfolipidosis. Esto no respalda su uso en conjuntivitis.
 

@@ -4,17 +4,17 @@ title: Guselkumab
 parent: Solo predicción del modelo (L5)
 nav_order: 389
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Guselkumab: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: No consta en los textos de las autorizaciones españolas. La evidencia…"
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
+description: "Guselkumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Guselkumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Guselkumab: De Psoriasis en Placas a Osteoporosis Inducida por Fármacos
+## Guselkumab: Osteoporosis inducida por fármacos (drug-induced osteoporosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para la **osteoporosis inducida
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los textos de las autorizaciones españolas. La evidencia compilada se centra en la psoriasis en placas, que se usa como referencia en este informe. |
-| Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99,84 % (posición 3491 en el ranking del modelo) |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Osteoporosis inducida por fármacos (drug-induced osteoporosis) |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 (todas vigentes, monofármaco) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -118,7 +118,6 @@ La indicación predicha, la osteoporosis inducida por fármacos, solo cuenta con
 - Datos detallados del mecanismo de acción desde DrugBank.
 - Evaluación de la compatibilidad de las vías de administración y de la similitud con la indicación original.
 
-**Nota de contexto:** otras indicaciones predichas para guselkumab tienen una evidencia mucho más sólida. La psoriasis (puntaje 99,75 %) cuenta con múltiples ensayos de Fase 3 completados (nivel L1). La colitis ulcerosa (puntaje 99,70 %) cuenta con el ensayo de Fase 2b/3 QUASAR y otros ensayos de Fase 3 (nivel L1). Ambas están marcadas como "Proceed with Guardrails" y son candidatas más sólidas que la osteoporosis inducida por fármacos para un análisis de reposicionamiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

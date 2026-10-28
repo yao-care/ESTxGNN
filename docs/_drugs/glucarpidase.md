@@ -46,10 +46,10 @@ Glucarpidasa es una enzima recombinante (carboxipeptidasa G2) comercializada en 
 |------|------|
 | Indicación Original | No disponible en la autorización de AEMPS (el texto de indicación está vacío). Según el mecanismo conocido, se usa para eliminar metotrexato con concentraciones tóxicas por aclaramiento retardado |
 | Nueva Indicación Predicha | Catarata diabética |
-| Puntaje de Predicción TxGNN | 99,85 % |
+| Puntaje de Predicción TxGNN | 0,9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -58,7 +58,7 @@ Glucarpidasa es una carboxipeptidasa G2 bacteriana recombinante que hidroliza el
 
 Con la información disponible, **la predicción no tiene un puente mecanístico plausible**. La catarata diabética se asocia con la vía de los polioles, la aldosa reductasa, la glicación y el estrés oxidativo del cristalino, y la glucarpidasa no actúa sobre ninguno de ellos. Además, es una enzima sistémica de gran tamaño, sin datos de administración ocular.
 
-El puntaje (99,85 %) proviene únicamente del grafo de conocimiento. Varios subtipos de catarata (tetánica, madura, inmadura, craneoestenosis, asociada a diabetes tipo 2) comparten exactamente el mismo puntaje (0,99833), lo que sugiere un artefacto inespecífico de los embeddings del grafo y no una señal biológica específica. Lo mismo ocurre con la retinopatía diabética (rank 2, 99,84 %), sin vínculo identificado con las vías VEGF, inflamatoria o microvascular, y con poca probabilidad de que una enzima grande cruce la barrera hematorretiniana.
+El puntaje (0,9985) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Varios subtipos de catarata (tetánica, madura, inmadura, craneoestenosis, asociada a diabetes tipo 2) comparten exactamente el mismo puntaje (0,9983), lo que sugiere un efecto inespecífico de las similitudes aprendidas por el modelo y no una señal biológica específica. Lo mismo ocurre con la retinopatía diabética (rank 2, 0,9984), sin vínculo identificado con las vías VEGF, inflamatoria o microvascular, y con poca probabilidad de que una enzima grande cruce la barrera hematorretiniana.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -91,7 +91,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el grafo de conocimiento (L5), sin ensayos ni literatura, sin vínculo mecanístico plausible con la catarata diabética y con puntajes idénticos en múltiples subtipos que apuntan a un artefacto del modelo. Una enzima sistémica de gran tamaño tampoco tiene viabilidad ocular evidente.
+La predicción se basa solo en el modelo TxGNN (aprendizaje profundo) (L5), sin ensayos ni literatura, sin vínculo mecanístico plausible con la catarata diabética y con puntajes idénticos en múltiples subtipos que apuntan a un artefacto del modelo. Una enzima sistémica de gran tamaño tampoco tiene viabilidad ocular evidente.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank

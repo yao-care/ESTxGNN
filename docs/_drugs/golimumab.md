@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 383
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Golimumab: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: Artritis reumatoide (junto con artritis psoriásica…"
+description: "Golimumab: nueva indicación predicha, hipermovilidad del cóccix (nivel de evidencia L4). Indicación original: Artritis reumatoide (junto con artritis psoriásica…"
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Golimumab: De Artritis Reumatoide a Vasculitis Reumatoide
+## Golimumab: De Artritis Reumatoide a Hipermovilidad del Cóccix
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,10 +50,10 @@ pero actualmente solo hay **1 ensayo clínico** (de relevancia tangencial) y **6
 |------|------|
 | Indicación Original | Artritis reumatoide (junto con artritis psoriásica, espondilitis anquilosante, colitis ulcerosa y enfermedad inflamatoria intestinal) |
 | Nueva Indicación Predicha | Vasculitis reumatoide |
-| Puntaje de Predicción TxGNN | 99.73% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Puntaje de Predicción TxGNN | 0.9967 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La vasculitis reumatoide es una manifestación extraarticular grave de la artritis reumatoide, más frecuente en pacientes seropositivos. Como la artritis reumatoide es una indicación ya establecida de golimumab, y la inflamación mediada por TNF contribuye también a sus manifestaciones extraarticulares, existe una justificación mecanística plausible.
 
-Sin embargo, no hay evidencia de que golimumab se haya probado específicamente en vasculitis reumatoide. El puntaje tan alto del modelo (0.997) probablemente refleja la proximidad en el grafo de conocimiento con la indicación aprobada de artritis reumatoide, más que una señal terapéutica propia. Además, se ha descrito que la incidencia de esta complicación disminuyó tras la introducción de los fármacos biológicos anti-TNF, y que en casos aislados han aparecido vasculitis (p. ej., arteritis de Takayasu) durante el tratamiento anti-TNF.
 
 ---
 

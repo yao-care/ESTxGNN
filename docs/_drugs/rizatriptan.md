@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rizatriptan
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 710
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rizatriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Trastorno de migraña (migraña con o sin aura)"
 monitor_inn: "rizatriptan"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Rizatriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Rizatriptan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Rizatriptán: De Trastorno de Migraña a Migraña con Aura del Tronco Encefálico
+## Rizatriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Rizatriptán es un agonista de los receptores de serotonina 5-HT1B/1D, utilizado originalmente para el tratamiento agudo de la migraña (con o sin aura).
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**,
 pero actualmente no hay **ensayos clínicos** registrados para esta indicación y las **18 publicaciones** disponibles tratan sobre migraña en general o sobre otros triptanes, no sobre esta variante específica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de migraña (migraña con o sin aura) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99,94% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Atrophoderma vermiculata |
+| Puntaje de Predicción TxGNN | 0.9919 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -117,7 +116,7 @@ La predicción se apoya solo en la proximidad en la red de conocimiento (L4: evi
 - Evaluación de seguridad cardiovascular y cerebrovascular para esta población
 - Opinión de expertos en cefaleas antes de plantear estudios clínicos
 
-**Nota sobre la segunda predicción:** la atrofodermia vermiculada (puntaje TxGNN 99,19%, nivel L5) no tiene ensayos ni literatura, ni vínculo mecanístico plausible con la agonía 5-HT1B/1D; se recomienda **Hold** y no se desarrolla en este informe.
+**Nota sobre la segunda predicción:** la atrofodermia vermiculada (puntaje TxGNN 0,9919, nivel L5) no tiene ensayos ni literatura, ni vínculo mecanístico plausible con la agonía 5-HT1B/1D; se recomienda **Hold** y no se desarrolla en este informe.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

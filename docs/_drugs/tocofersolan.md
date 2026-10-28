@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero actual
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización de AEMPS |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.31% |
+| Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,9 +59,9 @@ Tocofersolan actúa como antioxidante y como solubilizante que mejora la absorci
 
 Una posible relación indirecta es que la deficiencia de vitamina E o el estrés oxidativo podrían afectar el equilibrio de las hormonas reproductivas, y que la deficiencia nutricional asociada a malabsorción podría contribuir a alteraciones menstruales. Es una hipótesis sin respaldo directo: no se han recuperado estudios mecanísticos ni clínicos.
 
-El puntaje elevado de TxGNN (99.31%) es únicamente una predicción computacional y debe interpretarse con cautela mientras no exista evidencia que la corrobore.
+El puntaje elevado de TxGNN (0.9931) es únicamente una predicción computacional y debe interpretarse con cautela mientras no exista evidencia que la corrobore.
 
-También se identificó una segunda predicción, **acné** (puntaje 99.03%, nivel L5, decisión Hold), con una justificación igualmente hipotética basada en el estrés oxidativo y la inflamación. Tampoco cuenta con ensayos ni literatura.
+También se identificó una segunda predicción, **acné** (puntaje 0.9903, nivel L5, decisión Hold), con una justificación igualmente hipotética basada en el estrés oxidativo y la inflamación. Tampoco cuenta con ensayos ni literatura.
 
 ## Evidencia de Ensayos Clínicos
 

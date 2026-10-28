@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Oxiconazole
-parent: Evidencia moderada (L3-L4)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 596
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Oxiconazole: nueva indicación predicha, Candidiasis cutánea (nivel de evidencia L4). Indicación original: Tiña del pie, tiña del cuerpo…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Oxiconazole: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Oxiconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,56 +32,45 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Oxiconazol: De Tiña del Pie a Candidiasis Cutánea
+<!-- known-uses-page -->
+<!-- description: Oxiconazole: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata -->
+## Oxiconazole: Usos conocidos y situación de mercado en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN generó para Oxiconazole son, en todos los casos rastreables a una fuente, usos que ya se conocen. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. Esta página recoge el estado de los candidatos y la situación de mercado en España.
 
-Oxiconazol es un antifúngico imidazólico de uso tópico, utilizado originalmente para el tratamiento de las infecciones cutáneas por dermatofitos (como la tiña del pie y la tiña del cuerpo) y la pitiriasis versicolor.
-El modelo TxGNN predice que podría ser efectivo para **candidiasis cutánea**,
-con **0 ensayos clínicos** y **5 publicaciones** (en su mayoría revisiones generales sobre micosis superficiales) que actualmente respaldan esta dirección.
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Tiña del pie, tiña del cuerpo, pitiriasis versicolor y dermatofitosis de la ingle y la zona perianal (según el grafo de conocimiento; el texto de la ficha técnica no está disponible) |
-| Nueva Indicación Predicha | Candidiasis cutánea |
-| Puntaje de Predicción TxGNN | 99,81 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables a una fuente son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 0 |
+| Nivel de evidencia | No aplicable |
+| Situación de mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 
-## ¿Por qué es Razonable esta Predicción?
+## Usos conocidos entre los candidatos del modelo
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento general de la clase, oxiconazol es un antifúngico imidazólico tópico que inhibe la lanosterol 14-alfa-desmetilasa (CYP51) del hongo. Esto bloquea la síntesis de ergosterol y altera la integridad de la membrana celular fúngica. Esta descripción se infiere del mecanismo conocido de los imidazoles, no de los datos aportados.
+### Aprobados (respaldados por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguna | — |
 
-Las especies de *Candida* dependen del ergosterol y, en general, son sensibles a los azoles, por lo que el mecanismo es biológicamente plausible para la candidiasis cutánea. Las indicaciones originales (tiñas y pitiriasis versicolor) son micosis superficiales, de modo que la candidiasis cutánea sería una extensión cercana y no un reposicionamiento distante.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | — |
 
-El puntaje elevado de TxGNN (0,998) probablemente refleja la similitud con otros antifúngicos azólicos ya utilizados en esta indicación. Conviene señalar que este puntaje es una predicción del modelo y no sustituye a la evidencia clínica directa.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [6382000](https://pubmed.ncbi.nlm.nih.gov/6382000/) | 1984 | Estudio clínico comparativo | Mykosen | Compara oxiconazol con econazol en dermatomicosis. No se ha confirmado la aleatorización ni resultados específicos para *Candida* (sin resumen disponible). |
-| [10439936](https://pubmed.ncbi.nlm.nih.gov/10439936/) | 1999 | Revisión | Drugs | Actualización de terbinafina en micosis superficiales: eficaz en infecciones por dermatofitos, con actividad fungistática frente a *Candida albicans*. |
-| [24196340](https://pubmed.ncbi.nlm.nih.gov/24196340/) | 2013 | Revisión | J Drugs Dermatol | Optimización del tratamiento antifúngico tópico en infecciones fúngicas cutáneas superficiales, con foco en naftifina. |
-| [7501581](https://pubmed.ncbi.nlm.nih.gov/7501581/) | 1995 | Revisión | Postgrad Med | Diagnóstico y tratamiento de infecciones cutáneas por dermatofitos y *Candida*; menciona múltiples antifúngicos tópicos. |
-| [2670516](https://pubmed.ncbi.nlm.nih.gov/2670516/) | 1989 | Revisión | Drugs | Revisión de bifonazol (imidazol) en micosis superficiales. |
-
-Ninguna de las publicaciones evalúa directamente oxiconazol en candidiasis cutánea; la evidencia es indirecta y procede de fármacos de la misma clase o de revisiones generales.
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59854 | SALONGO 10 mg/g CREMA (Meda Pharma S.L.) | Crema | Texto de indicación no disponible |
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 59854 | oxiconazol | CREMA | Cancelado |
 
 ## Consideraciones de Seguridad
 
@@ -88,19 +78,6 @@ Ninguna de las publicaciones evalúa directamente oxiconazol en candidiasis cut�
 
 Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones), consultar el prospecto. No se encontraron interacciones farmacológicas registradas.
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se apoya solo en el modelo y en literatura indirecta (L4), sin ensayos clínicos con oxiconazol en candidiasis cutánea. Además, faltan los datos de seguridad de la ficha técnica, lo que impide completar el cribado de seguridad. El mecanismo es plausible y la indicación está cercana a las ya conocidas, por lo que la hipótesis merece seguimiento.
-
-**Para avanzar se necesita:**
-- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones, indicaciones aprobadas) para completar el cribado de seguridad.
-- Confirmar el mecanismo de acción con datos de DrugBank.
-- Revisar si la ficha técnica ya incluye candidiasis cutánea o actividad frente a *Candida*.
-- Buscar estudios comparativos o ensayos específicos de oxiconazol en candidiasis cutánea, incluyendo el estudio de 1984 (Mykosen).
-- Evaluar la relevancia de la contraindicación asociada a dermatitis para la población objetivo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

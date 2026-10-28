@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Decitabine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 228
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (nivel de evidencia L4). Indicación original: Leucemia mieloide aguda (según el grafo de conocimiento"
 monitor_inn: "Decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
+description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Decitabine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Decitabina: De Leucemia Mieloide Aguda a Citopenia Refractaria de la Infancia
+## Decitabine: Citopenia refractaria de la infancia (refractory cytopenia of childhood)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **2 publicaciones** (un estudio de cohorte y un re
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide aguda (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Citopenia refractaria de la infancia |
-| Puntaje de Predicción TxGNN | 99.03% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Citopenia refractaria de la infancia (refractory cytopenia of childhood) |
+| Puntaje de Predicción TxGNN | 0.9903 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La citopenia refractaria de la infancia (CRI) es el subtipo más frecuente de síndrome mielodisplásico (SMD) pediátrico. La decitabina ya se utiliza en neoplasias mieloides del adulto (LMA y SMD), por lo que la biología clonal mieloide compartida ofrece una base mecanística plausible.
 
-Conviene subrayar que el puntaje de 0.99 es solo una señal computacional y no constituye evidencia clínica. Este vínculo se apoya en la farmacología conocida del fármaco y no en datos de mecanismo del registro analizado.
+Conviene subrayar que el puntaje de 0.9903 es solo una señal computacional y no constituye evidencia clínica. Este vínculo se apoya en la farmacología conocida del fármaco y no en datos de mecanismo del registro analizado.
 
 ## Evidencia de Ensayos Clínicos
 

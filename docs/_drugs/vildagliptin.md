@@ -4,17 +4,17 @@ title: Vildagliptin
 parent: Solo predicción del modelo (L5)
 nav_order: 847
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Vildagliptin: nueva indicación predicha, Síndrome de la persona rígida clásica (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según el grafo de conocimiento"
 monitor_inn: "Vildagliptin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Vildagliptin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Vildagliptin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vildagliptina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásica
+## Vildagliptin: Classic stiff person syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Síndrome de la persona rígida clásica |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Classic stiff person syndrome |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Vildagliptina inhibe la enzima DPP-4, que degrada las hormonas incretinas GLP-1 
 
 Con los datos disponibles **no se puede sostener un vínculo mecanístico** con el síndrome de la persona rígida. Esta enfermedad es un trastorno neurológico de origen autoinmune (con frecuencia asociado a anticuerpos anti-GAD), y la inhibición de DPP-4 no tiene un papel establecido en ella. El puntaje alto del modelo probablemente refleja la cercanía en la red de conocimiento entre diabetes y enfermedades autoinmunes, no evidencia independiente.
 
-El cuadro es similar para el síndrome de la extremidad rígida focal, que obtiene exactamente el mismo puntaje. Esto sugiere un vecindario compartido en el grafo y no evidencia propia. La similitud con la indicación original queda pendiente de evaluación.
+El cuadro es similar para el síndrome de la extremidad rígida focal, que obtiene exactamente el mismo puntaje. La similitud con la indicación original queda pendiente de evaluación.
 
 ## Evidencia de Ensayos Clínicos
 

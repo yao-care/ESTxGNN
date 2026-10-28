@@ -6,9 +6,9 @@ nav_order: 840
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vandetanib: nueva indicación predicha, Carcinoma de células renales (nivel de evidencia L2). Indicación original: Carcinoma de tiroides (según el grafo de conocimiento"
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
+description: "Vandetanib: nueva indicación predicha, Carcinoma de células renales (renal cell carcinoma (disease)) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Vandetanib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Vandetanib: De Carcinoma de Tiroides a Carcinoma de Células Renales
+## Vandetanib: Carcinoma de células renales (renal cell carcinoma (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **4 ensayos clínicos** (fase 1/2 y fase 2, varios de ellos terminados prema
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de tiroides (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Carcinoma de células renales |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Carcinoma de células renales (renal cell carcinoma (disease)) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

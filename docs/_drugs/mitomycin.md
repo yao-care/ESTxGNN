@@ -6,9 +6,9 @@ nav_order: 535
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Mitomycin: nueva indicación predicha, Carcinoma pseudopapilar sólido del páncreas (nivel de evidencia L5). Indicación original: Adenocarcinoma pancreático (según el grafo de conocimiento"
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+description: "Mitomycin: nueva indicación predicha, Solid pseudopapillary carcinoma of pancreas (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mitomycin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Mitomicina: De Adenocarcinoma Pancreático a Carcinoma Pseudopapilar Sólido del Páncreas
+## Mitomycin: Solid pseudopapillary carcinoma of pancreas
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Adenocarcinoma pancreático (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Carcinoma pseudopapilar sólido del páncreas |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Solid pseudopapillary carcinoma of pancreas |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, los tumores pseudopapilares sólidos son en su mayoría de bajo grado y se tratan principalmente con cirugía. Esto limita el valor de una extrapolación basada únicamente en la actividad citotóxica. No existen ensayos ni literatura que apoyen un beneficio de la quimioterapia en esta enfermedad.
 
-Otras predicciones de alto puntaje (todas con puntajes entre 99.82% y 99.86%) son variantes tumorales pancreáticas: tumor de células gigantes osteoclásticas, carcinoma con diferenciación mixta, carcinoma ductal-endocrino mixto, adenocarcinoma de células en anillo de sello, carcinoma indiferenciado, neoplasia exocrina maligna, neoplasias mucinosas papilares intraductales y cistadenocarcinoma de células acinares. Todas comparten la misma lógica de extrapolación y ninguna cuenta con evidencia directa.
+Otras predicciones de alto puntaje (todas con puntajes entre 0.9982 y 0.9986) son variantes tumorales pancreáticas: tumor de células gigantes osteoclásticas, carcinoma con diferenciación mixta, carcinoma ductal-endocrino mixto, adenocarcinoma de células en anillo de sello, carcinoma indiferenciado, neoplasia exocrina maligna, neoplasias mucinosas papilares intraductales y cistadenocarcinoma de células acinares. Todas comparten la misma lógica de extrapolación y ninguna cuenta con evidencia directa.
 
 ## Evidencia de Ensayos Clínicos
 

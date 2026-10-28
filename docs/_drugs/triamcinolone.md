@@ -4,17 +4,17 @@ title: Triamcinolone
 parent: Evidencia moderada (L3-L4)
 nav_order: 823
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Triamcinolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: No disponible en las autorizaciones españolas (texto de indicación va…"
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Triamcinolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Triamcinolona: De Enfermedades Autoinmunes e Inflamatorias a Alopecia Mucinosa
+## Triamcinolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente solo hay **2 publicaciones** (ambas reportes de caso, sin ensay
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en las autorizaciones españolas (texto de indicación vacío). Según el grafo de conocimiento: enfermedad autoinmune, enfermedad de Crohn, insuficiencia suprarrenal, entre otras |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Alopecia mucinosa |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

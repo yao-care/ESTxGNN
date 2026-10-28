@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Catridecacog: De Deficiencia de Factor XIII (subunidad A) a Trastorno de Liberación Primaria Plaquetaria
+## Catridecacog: De Deficiencia de Factor XIII (subunidad A) a Trastorno primario de liberación plaquetaria
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Deficiencia de factor XIII, subunidad A |
 | Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
-| Puntaje de Predicción TxGNN | 99,29% |
+| Puntaje de Predicción TxGNN | 0,9929 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,14 +60,14 @@ Catridecacog es el factor XIII A-subunidad recombinante, una transglutaminasa qu
 
 Los trastornos de liberación plaquetaria (defectos de secreción de gránulos) alteran la hemostasia primaria. La suplementación con factor XIII actúa más adelante en la cascada, sobre la estabilidad del coágulo, por lo que no corregiría el defecto de secreción plaquetaria en sí. El vínculo es plausible solo como un efecto adyuvante indirecto sobre la firmeza del coágulo.
 
-El puntaje elevado de TxGNN (99,29%) es únicamente una predicción computacional, probablemente reflejo de la cercanía en el grafo entre trastornos hemorrágicos, y no de una justificación mecanística sólida.
+El puntaje elevado de TxGNN (0,9929) es únicamente una predicción computacional del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación mecanística sólida.
 
 ### Otras predicciones del modelo (para referencia)
 
 | Posición | Nueva Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
 |------|------|------|------|------|
-| 2 | Enfermedad de pseudo-von Willebrand | 99,29% | L5 | El defecto está en la interacción plaqueta-VWF (GPIbα con ganancia de función); el factor XIII no lo corrige. Solo un beneficio teórico sobre la estabilidad de la fibrina. |
-| 3 | Trombastenia de Glanzmann | 99,15% | L5 | El defecto es del receptor integrina αIIbβ3; los tratamientos establecidos (transfusión de plaquetas, factor VIIa recombinante) actúan sobre el defecto primario. |
+| 2 | Enfermedad de pseudo-von Willebrand | 0,9929 | L5 | El defecto está en la interacción plaqueta-VWF (GPIbα con ganancia de función); el factor XIII no lo corrige. Solo un beneficio teórico sobre la estabilidad de la fibrina. |
+| 3 | Trombastenia de Glanzmann | 0,9915 | L5 | El defecto es del receptor integrina αIIbβ3; los tratamientos establecidos (transfusión de plaquetas, factor VIIa recombinante) actúan sobre el defecto primario. |
 
 ## Evidencia de Ensayos Clínicos
 

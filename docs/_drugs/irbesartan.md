@@ -4,17 +4,17 @@ title: Irbesartan
 parent: Solo predicción del modelo (L5)
 nav_order: 430
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Irbesartan: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial / trastorno hipertensivo y nefropatía diabética…"
 monitor_inn: "irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Irbesartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Irbesartán: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+## Irbesartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascul
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial / trastorno hipertensivo y nefropatía diabética (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipertensión renovascular maligna |
-| Puntaje de Predicción TxGNN | 99,31% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -65,9 +65,9 @@ Sin embargo, el único respaldo es la puntuación del modelo. Además, los bloqu
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Enfermedad renal hipertensiva maligna | 99,31% | L5 | Se solapa en gran medida con las indicaciones actuales; probablemente sea un refinamiento y no un reposicionamiento real |
-| Hipertensión pulmonar de mecanismo multifactorial poco claro | 99,25% | L5 | Vínculo mecanístico débil; el bloqueo AT1 sistémico no es una terapia establecida |
-| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99,25% | L4 | Evidencia preclínica indirecta (véase la sección de literatura); sin ensayos en humanos |
+| Enfermedad renal hipertensiva maligna | 0,9931 | L5 | Se solapa en gran medida con las indicaciones actuales; probablemente sea un refinamiento y no un reposicionamiento real |
+| Hipertensión pulmonar de mecanismo multifactorial poco claro | 0,9925 | L5 | Vínculo mecanístico débil; el bloqueo AT1 sistémico no es una terapia establecida |
+| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 0,9925 | L4 | Evidencia preclínica indirecta (véase la sección de literatura); sin ensayos en humanos |
 
 ## Evidencia de Ensayos Clínicos
 

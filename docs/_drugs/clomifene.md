@@ -6,9 +6,9 @@ nav_order: 196
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clomifene: nueva indicación predicha, Trastorno del desarrollo sexual 46… (nivel de evidencia L5). Indicación original: Infertilidad femenina (según el grafo de conocimiento"
 monitor_inn: "clomifene"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "anovulation"]
+description: "Clomifene: nueva indicación predicha, Trastorno del desarrollo sexual 46,XY por defecto de la esteroidogénesis testicular (46… (nivel de evidencia L5). Indicación original: No consta en los datos loc…"
 ---
 
 # Clomifene
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Clomifeno: De Infertilidad Femenina a Trastorno del Desarrollo Sexual 46,XY por Defecto de la Esteroidogénesis Testicular
+## Clomifene: Trastorno del desarrollo sexual 46,XY por defecto de la esteroidogénesis testicular (46,XY disorder of sex development due to testicular steroidogenesis defect)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno del desarro
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infertilidad femenina (según el grafo de conocimiento; el texto de la autorización no la detalla) |
-| Nueva Indicación Predicha | Trastorno del desarrollo sexual 46,XY por defecto de la esteroidogénesis testicular |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno del desarrollo sexual 46,XY por defecto de la esteroidogénesis testicular (46,XY disorder of sex development due to testicular steroidogenesis defect) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

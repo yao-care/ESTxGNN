@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 590
-evidence_level: L3
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Omeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L3). Indicación original: Úlcera gástrica, enfermedad ulcerosa péptica…"
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-## Omeprazol: De Úlcera Gástrica y Enfermedad por Reflujo Gastroesofágico a Reflujo Duodenogástrico
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para el **reflujo duodenogástr
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Úlcera gástrica, enfermedad ulcerosa péptica, enfermedad por reflujo gastroesofágico, esofagitis, úlcera duodenal, síndrome de Zollinger-Ellison (según el grafo de conocimiento; los textos de indicación autorizados en España no están disponibles) |
-| Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99.64% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Duodenal obstruction |
+| Puntaje de Predicción TxGNN | 0.9964 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

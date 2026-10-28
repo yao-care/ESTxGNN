@@ -6,9 +6,9 @@ nav_order: 223
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Darunavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Darunavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
 ---
 
 # Darunavir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Darunavir: De Infección por VIH/SIDA a Síndrome de Inmunodeficiencia Adquirida Felina
+## Darunavir: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden directam
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 5) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden directam
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, darunavir es un inhibidor de la proteasa del VIH-1, su eficacia en la infección por VIH ha sido comprobada, y mecanísticamente podría ser aplicable a otros lentivirus con proteasas aspárticas.
 
-El virus de la inmunodeficiencia felina (FIV) también codifica una proteasa aspártica, por lo que existe una lógica mecanística plausible. Sin embargo, la proteasa del FIV difiere de la del VIH-1 en especificidad de sustrato y sensibilidad a los inhibidores, y los datos disponibles no respaldan la unión de darunavir a ella. El puntaje elevado del modelo probablemente refleja la similitud de esta enfermedad con el VIH/SIDA dentro del grafo de conocimiento.
+El virus de la inmunodeficiencia felina (FIV) también codifica una proteasa aspártica, por lo que existe una lógica mecanística plausible. Sin embargo, la proteasa del FIV difiere de la del VIH-1 en especificidad de sustrato y sensibilidad a los inhibidores, y los datos disponibles no respaldan la unión de darunavir a ella.
 
 Cabe señalar que se trata de una indicación veterinaria, con relevancia limitada para el reposicionamiento en medicina humana. Como contexto, la infección por el virus de la inmunodeficiencia de los simios (SIV) obtuvo el mismo puntaje y cuenta con cuatro estudios preclínicos en macacos (nivel L4), pero son indirectos: evalúan regímenes combinados de antirretrovirales y no darunavir en solitario.
 

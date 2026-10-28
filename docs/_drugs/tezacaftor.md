@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 |------|------|
 | Indicación Original | Fibrosis quística |
 | Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99,24% |
+| Puntaje de Predicción TxGNN | 0,9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, tezacaftor es un corrector de CFTR: mejora el plegamiento de la proteína CFTR y su transporte a la superficie celular. Su eficacia en fibrosis quística, en pacientes con determinadas mutaciones del gen CFTR, es conocida.
 
-No se identifica un vínculo mecanístico plausible con el VIH. Tezacaftor no tiene actividad antiviral conocida ni una conexión evidente con la patogénesis del VIH. El puntaje elevado (99,24%) proviene de una predicción basada en grafos de conocimiento, sin ensayos clínicos ni literatura que lo corroboren.
+No se identifica un vínculo mecanístico plausible con el VIH. Tezacaftor no tiene actividad antiviral conocida ni una conexión evidente con la patogénesis del VIH. El puntaje elevado (0,9924) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos clínicos ni literatura que lo corroboren.
 
 Cualquier hipótesis tendría que evaluarse primero in vitro. Por ello, esta predicción debe considerarse exploratoria y de baja confianza mecanística.
 
@@ -65,8 +65,8 @@ Cualquier hipótesis tendría que evaluarse primero in vitro. Por ello, esta pre
 
 | Posición | Nueva indicación | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Lepra | 99,14% | Sin actividad conocida frente a *Mycobacterium leprae* ni sobre vías inmunes específicas de la lepra |
-| 3 | Neoplasia endocrina múltiple | 99,06% | Enfermedad por mutaciones germinales (p. ej., MEN1, RET) sin relación conocida con la acción correctora de CFTR |
+| 2 | Lepra | 0,9914 | Sin actividad conocida frente a *Mycobacterium leprae* ni sobre vías inmunes específicas de la lepra |
+| 3 | Neoplasia endocrina múltiple | 0,9906 | Enfermedad por mutaciones germinales (p. ej., MEN1, RET) sin relación conocida con la acción correctora de CFTR |
 
 ## Evidencia de Ensayos Clínicos
 

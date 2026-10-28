@@ -4,17 +4,17 @@ title: Lomitapide
 parent: Solo predicción del modelo (L5)
 nav_order: 477
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lomitapide: nueva indicación predicha, Macrotrombocitopenia con insuficiencia de la válvula mitral (nivel de evidencia L5). Indicación original: Hipercolesterolemia familiar homocigota (el texto de i…"
 monitor_inn: "Lomitapide"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 ---
 
 # Lomitapide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **macrotrombocitopenia con
 |------|------|
 | Indicación Original | Hipercolesterolemia familiar homocigota (el texto de indicación de las autorizaciones españolas no está disponible; se toma de la base de conocimiento del modelo) |
 | Nueva Indicación Predicha | Macrotrombocitopenia con insuficiencia de la válvula mitral |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **macrotrombocitopenia con
 
 Lomitapida inhibe la proteína microsomal de transferencia de triglicéridos (MTP). Esta proteína es necesaria para ensamblar las lipoproteínas que contienen apoB (VLDL en el hígado y quilomicrones en el intestino). Al bloquearla, disminuyen el colesterol LDL y otras lipoproteínas aterogénicas. Este es el mecanismo que respalda su uso en la hipercolesterolemia familiar homocigota.
 
-Con la información disponible, **la predicción no resulta mecanísticamente convincente**. No se ha identificado ningún vínculo biológico conocido entre la inhibición de la MTP y la producción de plaquetas o la patología de la válvula mitral. El puntaje alto (0.999) probablemente refleja la similitud en el grafo de conocimiento con otros trastornos plaquetarios raros, y no un mecanismo real.
+Con la información disponible, **la predicción no resulta mecanísticamente convincente**. No se ha identificado ningún vínculo biológico conocido entre la inhibición de la MTP y la producción de plaquetas o la patología de la válvula mitral. El puntaje alto (0.9992) proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, como otros trastornos plaquetarios raros, y no evidencia biológica ni un mecanismo real.
 
 Hay además una consideración de seguridad: lomitapida tiene una advertencia de hepatotoxicidad y datos limitados en población pediátrica. Esto no favorece su uso en una enfermedad hematológica sin justificación biológica.
 

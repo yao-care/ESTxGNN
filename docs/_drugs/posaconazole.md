@@ -6,9 +6,9 @@ nav_order: 651
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: Micosis invasivas y superficiales (aspergilosis, candidiasis…"
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
+description: "Posaconazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Posaconazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Posaconazol: De Micosis Invasivas (Candidiasis y Aspergilosis) a Neumocistosis
+## Posaconazole: Neumocistosis (pneumocystosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero la
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Micosis invasivas y superficiales (aspergilosis, candidiasis, histoplasmosis, coccidioidomicosis, entre otras; según el grafo de conocimiento, ya que los textos de autorización no incluyen indicación) |
-| Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99,77 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neumocistosis (pneumocystosis) |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 18 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero la
 
 Posaconazol inhibe la enzima fúngica lanosterol 14-alfa-desmetilasa (CYP51), bloqueando la síntesis de ergosterol, un componente esencial de la membrana fúngica. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción del fármaco, por lo que este análisis se basa en el conocimiento farmacológico general de la clase azólica.
 
-Aquí la predicción es **débil desde el punto de vista biológico**. *Pneumocystis jirovecii* carece de ergosterol en su membrana y utiliza colesterol, por lo que los azoles no tienen una diana directa plausible. El puntaje alto de TxGNN (0,998) probablemente refleja una asociación en el grafo con otras infecciones fúngicas, y no un mecanismo biológicamente respaldado.
+Aquí la predicción es **débil desde el punto de vista biológico**. *Pneumocystis jirovecii* carece de ergosterol en su membrana y utiliza colesterol, por lo que los azoles no tienen una diana directa plausible. El puntaje alto de TxGNN (0,9977) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Cualquier beneficio sería especulativo, por ejemplo, por actividad frente a hongos coinfectantes en pacientes inmunodeprimidos. La relación entre la indicación original (micosis por hongos con ergosterol) y la nueva (neumocistosis) es taxonómica y clínica, pero no mecanística.
 
@@ -116,7 +116,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5): el único ensayo identificado evalúa otro fármaco y la literatura es de contexto general. Además, *Pneumocystis* carece de ergosterol, por lo que el mecanismo de los azoles no tiene una diana plausible, y el alto puntaje de TxGNN parece una asociación de grafo.
+La predicción se apoya solo en el modelo (L5): el único ensayo identificado evalúa otro fármaco y la literatura es de contexto general. Además, *Pneumocystis* carece de ergosterol, por lo que el mecanismo de los azoles no tiene una diana plausible, y el alto puntaje del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Datos in vitro o preclínicos que demuestren actividad de posaconazol frente a *Pneumocystis jirovecii*.

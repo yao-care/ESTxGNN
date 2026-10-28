@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Solo predicción del modelo (L5)
 nav_order: 584
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Olanzapine: nueva indicación predicha, Torticolis paroxistica benigna de la infancia (nivel de evidencia L5). Indicación original: Trastorno bipolar, esquizofrenia…"
 monitor_inn: "Olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: nueva indicación predicha, Torticolis paroxistica benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos lo…"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Olanzapina: De Trastorno Bipolar y Esquizofrenia a Torticolis Paroxistica Benigna de la Infancia
+## Olanzapine: Torticolis paroxistica benigna de la infancia (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podria ser efectivo para **torticolis paroxistica be
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Trastorno bipolar, esquizofrenia, depresion mayor y trastorno de ansiedad (segun el grafo de conocimiento; los textos de indicacion de las autorizaciones no estan disponibles) |
-| Nueva Indicacion Predicha | Torticolis paroxistica benigna de la infancia |
-| Puntaje de Prediccion TxGNN | 99.54% |
+| Indicacion Original | No consta en los datos locales |
+| Nueva Indicacion Predicha | Torticolis paroxistica benigna de la infancia (benign paroxysmal torticollis of infancy) |
+| Puntaje de Prediccion TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✓ Comercializado |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: al menos 16) |
 | Numero de Autorizaciones | 20 |
 | Decision Recomendada | Hold |
 

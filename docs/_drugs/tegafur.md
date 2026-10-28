@@ -6,9 +6,9 @@ nav_order: 768
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tegafur: nueva indicación predicha, Neoplasia de colon (nivel de evidencia L1). Indicación original: Cáncer gástrico (según el grafo de conocimiento"
 monitor_inn: "TEGAFUR"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: nueva indicación predicha, Neoplasia de colon (colonic neoplasm) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Tegafur
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Tegafur: De Cáncer Gástrico a Neoplasia de Colon
+## Tegafur: Neoplasia de colon (colonic neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **16 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer gástrico (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
-| Nueva Indicación Predicha | Neoplasia de colon |
-| Puntaje de Predicción TxGNN | 99,90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia de colon (colonic neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

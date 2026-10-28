@@ -6,9 +6,9 @@ nav_order: 189
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Clindamycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Acné, infecciones estreptocócicas y estafilocócicas…"
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
+description: "Clindamycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clindamycin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Clindamicina: De Acné e Infecciones Bacterianas a Queratoconjuntivitis Epitelial Punteada
+## Clindamycin: Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acné, infecciones estreptocócicas y estafilocócicas, infecciones por bacterias anaerobias, vaginosis bacteriana (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 16 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clindamicina es un antibiótico que inhibe la síntesis de proteínas bacterianas al actuar sobre la subunidad ribosomal 50S, y su eficacia en infecciones bacterianas cutáneas, respiratorias y ginecológicas está bien establecida.
 
-La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele tener origen viral o inflamatorio, por lo que un antibacteriano no tiene un vínculo mecanístico claro, salvo que exista un componente bacteriano. El puntaje elevado probablemente refleja la proximidad en el grafo con infecciones oculares bacterianas, y no un mecanismo validado.
+La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele tener origen viral o inflamatorio, por lo que un antibacteriano no tiene un vínculo mecanístico claro, salvo que exista un componente bacteriano. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por tanto, la predicción debe considerarse una hipótesis sin respaldo experimental. No se han recuperado estudios que evalúen clindamicina en esta enfermedad, y el uso oftálmico tópico de clindamicina no está establecido.
 
@@ -76,11 +76,11 @@ Para contexto, estas fueron las demás indicaciones predichas por el modelo, tod
 
 | Indicación Predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
-| Queratitis por exposición | 99.80% | L4 | Solo literatura indirecta (casos de queratitis por *S. aureus* y *B. cereus*); ningún estudio evalúa clindamicina |
-| Enfermedad animal no humana | 99.69% | L5 | Categoría no clínica; la literatura trata sobre *C. difficile*, y clindamicina es un factor de riesgo, no una opción terapéutica |
-| Queratopatía neurotrófica | 99.49% | L5 | Patología degenerativa no bacteriana; sin evidencia |
-| Queratoconjuntivitis epidémica | 99.49% | L5 | Causa adenoviral; la literatura es veterinaria (bovina) y no aplicable |
-| Vaginitis atrófica posmenopáusica | 99.03% | L5 | Causa por déficit estrogénico; el mecanismo no se transfiere |
+| Queratitis por exposición | 0.9980 | L4 | Solo literatura indirecta (casos de queratitis por *S. aureus* y *B. cereus*); ningún estudio evalúa clindamicina |
+| Enfermedad animal no humana | 0.9969 | L5 | Categoría no clínica; la literatura trata sobre *C. difficile*, y clindamicina es un factor de riesgo, no una opción terapéutica |
+| Queratopatía neurotrófica | 0.9949 | L5 | Patología degenerativa no bacteriana; sin evidencia |
+| Queratoconjuntivitis epidémica | 0.9949 | L5 | Causa adenoviral; la literatura es veterinaria (bovina) y no aplicable |
+| Vaginitis atrófica posmenopáusica | 0.9903 | L5 | Causa por déficit estrogénico; el mecanismo no se transfiere |
 
 ## Información de Mercado en España
 

@@ -6,9 +6,9 @@ nav_order: 175
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Chlortetracycline: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Tracoma…"
 monitor_inn: "chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
+description: "Chlortetracycline: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Chlortetracycline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Clortetraciclina: De Tracoma a Vasculitis Postinfecciosa
+## Chlortetracycline: Postinfectious vasculitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tracoma, ornitosis y oftalmía neonatal (según el grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Vasculitis postinfecciosa |
-| Puntaje de Predicción TxGNN | 99,82% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Postinfectious vasculitis |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -66,13 +66,13 @@ Sin embargo, no existen ensayos ni literatura que apoyen este vínculo, y el mec
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Trastorno post-bacteriano | 99,82% | L5 | Categoría amplia e inespecífica; las secuelas suelen ser inmunomediadas |
-| Síndrome postinfeccioso | 99,81% | L5 | Término genérico con patología heterogénea |
-| Estenosis uretral infecciosa | 99,81% | L5 | Condición fibrótica y estructural; los antibióticos no revertirían una estenosis establecida |
-| Otitis externa | 99,79% | L5 | Mecanismo antibacteriano plausible, pero ya existen terapias tópicas establecidas |
-| Miocardiopatía de Chagas | 99,78% | L5 | Beneficio antiinflamatorio o antiparasitario especulativo |
-| Síndrome hemolítico urémico asociado a infección | 99,78% | L5 | **Alerta de seguridad**: en el SHU por toxina Shiga el uso de antibióticos puede aumentar la liberación de toxina |
-| Infestación parasitaria del párpado | 99,04% | L4 | Evidencia solo indirecta (ver más abajo) |
+| Trastorno post-bacteriano | 0,9982 | L5 | Categoría amplia e inespecífica; las secuelas suelen ser inmunomediadas |
+| Síndrome postinfeccioso | 0,9981 | L5 | Término genérico con patología heterogénea |
+| Estenosis uretral infecciosa | 0,9981 | L5 | Condición fibrótica y estructural; los antibióticos no revertirían una estenosis establecida |
+| Otitis externa | 0,9979 | L5 | Mecanismo antibacteriano plausible, pero ya existen terapias tópicas establecidas |
+| Miocardiopatía de Chagas | 0,9978 | L5 | Beneficio antiinflamatorio o antiparasitario especulativo |
+| Síndrome hemolítico urémico asociado a infección | 0,9978 | L5 | **Alerta de seguridad**: en el SHU por toxina Shiga el uso de antibióticos puede aumentar la liberación de toxina |
+| Infestación parasitaria del párpado | 0,9904 | L4 | Evidencia solo indirecta (ver más abajo) |
 
 ## Evidencia de Ensayos Clínicos
 

@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: Evidencia alta (L1-L2)
 nav_order: 500
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Mefenamic Acid: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L2). Indicación original: No disponible en la licencia de la AEMPS (texto de indicación vacío)"
 monitor_inn: "mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Esta predicción refleja en gran parte el efecto sintomático clásico de los AI
 |------|------|
 | Indicación Original | No disponible en la licencia de la AEMPS (texto de indicación vacío) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -128,13 +128,12 @@ Existen varios ECA doble ciego pequeños y antiguos que respaldan el beneficio s
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Trastorno de migraña | 99.23% | L2 | Pregunta de investigación; varios ECA pequeños y antiguos, indicación cercana a la ficha técnica |
-| Trastorno de cefalea | 99.64% | L2 | Pregunta de investigación; evidencia concentrada en migraña |
-| Migraña con aura del tronco encefálico | 99.21% | L4 | Hold; solo evidencia indirecta |
-| Susceptibilidad a osteoartritis | 99.72% | L5 | Hold; sin evidencia |
-| Cefalea autonómica trigeminal | 99.55% | L5 | Hold; sin evidencia |
-| Síndrome de microftalmia colobomatosa con displasia rizomélica | 99.49% | L5 | Hold; probable artefacto del grafo |
-| Síndrome de braquidactilia-sindactilia | 99.48% | L5 | Hold; probable artefacto del grafo |
+| Trastorno de migraña | 0.9923 | L2 | Pregunta de investigación; varios ECA pequeños y antiguos, indicación cercana a la ficha técnica |
+| Trastorno de cefalea | 0.9964 | L2 | Pregunta de investigación; evidencia concentrada en migraña |
+| Migraña con aura del tronco encefálico | 0.9921 | L5 | Hold; solo evidencia indirecta |
+| Cefalea autonómica trigeminal | 0.9955 | L5 | Hold; sin evidencia |
+| Síndrome de microftalmia colobomatosa con displasia rizomélica | 0.9949 | L5 | Hold; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
+| Síndrome de braquidactilia-sindactilia | 0.9948 | L5 | Hold; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

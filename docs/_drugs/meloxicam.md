@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Solo predicción del modelo (L5)
 nav_order: 502
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Meloxicam: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide, artrosis, artropatía…"
 monitor_inn: "MELOXICAM"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Meloxicam: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dat…"
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Meloxicam: De Artritis Reumatoide a Displasia Acromesomélica de tipo Hunter-Thompson
+## Meloxicam: Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ La predicción se basa únicamente en el modelo (nivel de evidencia L5) y no tie
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide, artrosis, artropatía, artritis idiopática juvenil, espondiloartropatía (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 16 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica de tipo Hunter-Thompson es una displasia esquelética rara causada por variantes de pérdida de función en CDMP1/GDF5, que alteran la condrogénesis. Meloxicam podría aliviar el dolor o la inflamación de forma sintomática, pero no actúa sobre el defecto genético subyacente.
 
-Por tanto, **no se identifica un vínculo mecanístico claro**. El puntaje alto de TxGNN probablemente refleja la cercanía en el grafo de conocimiento con términos esqueléticos o de artropatía, y no una señal terapéutica real. Esta predicción debe interpretarse con mucha cautela.
+Por tanto, **no se identifica un vínculo mecanístico claro**. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una señal terapéutica real. Esta predicción debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -105,7 +105,6 @@ La predicción solo cuenta con respaldo del modelo (L5), sin ensayos ni literatu
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y obtener el prospecto de la AEMPS (advertencias y contraindicaciones) para completar el cribado de seguridad.
 - Evidencia preclínica o clínica que justifique un papel de la vía de COX/prostaglandinas en esta displasia.
-- Considerar otras predicciones del modelo con mayor plausibilidad, como espondiloartropatía (L4) o artritis idiopática juvenil poliarticular con factor reumatoide positivo (L3). Estas reflejan en gran parte usos ya conocidos del fármaco y no constituyen un reposicionamiento propiamente dicho.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

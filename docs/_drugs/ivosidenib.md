@@ -4,7 +4,7 @@ title: Ivosidenib
 parent: Solo predicción del modelo (L5)
 nav_order: 439
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ivosidenib: nueva indicación predicha, Poliomielitis bulbar (nivel de evidencia L5). Indicación original: Leucemia mieloide aguda (según los datos compilados"
 monitor_inn: "IVOSIDENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["bulbar polio"]
 # Ivosidenib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 Ivosidenib es un inhibidor de la IDH1 mutada, originalmente utilizado para el tratamiento de la leucemia mieloide aguda (LMA) y sus subtipos.
 El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, aunque no hay **ningún ensayo clínico** ni **ninguna publicación** que respalde esta predicción.
-Los datos compilados indican que el puntaje alto es probablemente un artefacto del grafo de conocimiento.
+Los datos compilados indican que el puntaje alto es probablemente un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ---
 
@@ -50,10 +50,10 @@ Los datos compilados indican que el puntaje alto es probablemente un artefacto d
 |------|------|
 | Indicación Original | Leucemia mieloide aguda (según los datos compilados; el texto de indicación autorizado en AEMPS no está disponible) |
 | Nueva Indicación Predicha | Poliomielitis bulbar |
-| Puntaje de Predicción TxGNN | 99,31% |
+| Puntaje de Predicción TxGNN | 0,9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Los datos compilados indican que el puntaje alto es probablemente un artefacto d
 
 Ivosidenib es un inhibidor de la isocitrato deshidrogenasa 1 (IDH1) mutada. Reduce los niveles de 2-hidroxiglutarato (2-HG) y alivia el bloqueo de diferenciación en neoplasias mieloides con mutación de IDH1. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; la descripción anterior procede del análisis mecanístico asociado a la predicción.
 
-**En este caso, la predicción no resulta razonable desde el punto de vista biológico.** La poliomielitis bulbar es una infección viral de las neuronas motoras causada por el poliovirus, sin dependencia conocida de mutaciones de IDH1 ni de la señalización por 2-HG. No se identificó ningún vínculo mecanístico creíble con la indicación original. El puntaje elevado (0,993) se interpreta como un artefacto del grafo de conocimiento y no está respaldado por una justificación biológica.
+**En este caso, la predicción no resulta razonable desde el punto de vista biológico.** La poliomielitis bulbar es una infección viral de las neuronas motoras causada por el poliovirus, sin dependencia conocida de mutaciones de IDH1 ni de la señalización por 2-HG. No se identificó ningún vínculo mecanístico creíble con la indicación original. El puntaje elevado (0,9931) se interpreta como un artefacto del modelo TxGNN (aprendizaje profundo) y no está respaldado por una justificación biológica.
 
 ### Otras predicciones del modelo con mayor plausibilidad
 
@@ -70,8 +70,6 @@ Los datos compilados incluyen dos predicciones alternativas con un vínculo indi
 
 | Indicación predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| LMA y síndromes mielodisplásicos relacionados con radiación | 99,26% | L4 | Pregunta de investigación |
-| LMA y síndromes mielodisplásicos relacionados con agentes alquilantes | 99,26% | L4 | Pregunta de investigación |
 
 En ambos casos, la actividad se esperaría únicamente en casos con mutación de IDH1. La evidencia es indirecta (extrapolada de las indicaciones de LMA existentes), no se aportaron ensayos ni literatura específicos, y el componente de síndrome mielodisplásico no está claramente respaldado.
 
@@ -125,7 +123,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para poliomielitis bulbar carece de ensayos, literatura y fundamento mecanístico (nivel L5), y el puntaje alto de TxGNN parece un artefacto del grafo de conocimiento. No se recomienda avanzar con esta indicación.
+La predicción para poliomielitis bulbar carece de ensayos, literatura y fundamento mecanístico (nivel L5), y el puntaje alto de TxGNN parece un artefacto del modelo TxGNN (aprendizaje profundo). No se recomienda avanzar con esta indicación.
 
 **Para avanzar se necesita:**
 - Descartar esta indicación como candidata o, en su caso, replantear la priorización hacia las neoplasias mieloides relacionadas con radiación o agentes alquilantes (nivel L4, sujetas a estado mutacional de IDH1).

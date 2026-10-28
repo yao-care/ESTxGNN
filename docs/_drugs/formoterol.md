@@ -4,17 +4,17 @@ title: Formoterol
 parent: Solo predicción del modelo (L5)
 nav_order: 355
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Formoterol: nueva indicación predicha, Malformación respiratoria (nivel de evidencia L5). Indicación original: Enfisema pulmonar…"
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+description: "Formoterol: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Formoterol: De Enfisema Pulmonar y Asma a Malformación Respiratoria
+## Formoterol: Respiratory malformation
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **malformación respirator
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfisema pulmonar, asma intrínseca y asma alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Malformación respiratoria |
-| Puntaje de Predicción TxGNN | 99,92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Respiratory malformation |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **malformación respirator
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, formoterol es un agonista beta2-adrenérgico de acción prolongada que relaja el músculo liso de las vías respiratorias. Su eficacia en asma y enfisema/EPOC está bien establecida.
 
-**La predicción no parece razonable desde el punto de vista mecanístico.** Las malformaciones respiratorias son alteraciones estructurales congénitas del aparato respiratorio. Un broncodilatador no puede corregirlas, y como mucho podría aliviar síntomas obstructivos asociados. El puntaje alto de TxGNN probablemente refleja la cercanía en el grafo de conocimiento con enfermedades como asma y EPOC, y no una relación terapéutica real.
+**La predicción no parece razonable desde el punto de vista mecanístico.** Las malformaciones respiratorias son alteraciones estructurales congénitas del aparato respiratorio. Un broncodilatador no puede corregirlas, y como mucho podría aliviar síntomas obstructivos asociados. El puntaje alto de TxGNN (0.9992) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 La literatura recuperada trata de asma, EPOC y temas no relacionados (cognición en síndrome de Down, enfermedad de vías aéreas pequeñas post-COVID, micosis broncopulmonar alérgica), no de malformaciones respiratorias.
 

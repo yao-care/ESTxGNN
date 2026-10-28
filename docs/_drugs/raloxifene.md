@@ -6,9 +6,9 @@ nav_order: 677
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Raloxifene: nueva indicación predicha, Úlcera duodenal (nivel de evidencia L5). Indicación original: Osteoporosis posmenopáusica (según las relaciones de indicación del g…"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
+description: "Raloxifene: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Raloxifene
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Raloxifeno: De Osteoporosis Posmenopáusica a Úlcera Duodenal
+## Raloxifene: Úlcera duodenal (duodenal ulcer (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **úlcera duodenal**, pero
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoporosis posmenopáusica (según las relaciones de indicación del grafo de conocimiento, ya que los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Úlcera duodenal |
-| Puntaje de Predicción TxGNN | 99.72% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Úlcera duodenal (duodenal ulcer (disease)) |
+| Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe. Según la información conocida, raloxifeno es un SERM que interactúa con los receptores de estrógenos alfa (ESR1) y beta (ESR2), además del receptor acoplado a proteína G GPER1. También figura como sustrato de la aldehído oxidasa 1 (AOX1). Su eficacia en la osteoporosis posmenopáusica está bien establecida.
 
-Sin embargo, **los datos no respaldan un vínculo mecanístico claro** con la úlcera duodenal. No se identifica una vía establecida hacia su fisiopatología (infección por *H. pylori*, secreción ácida, lesión por AINE). El puntaje alto del modelo (99.72%) refleja una predicción basada en el grafo de conocimiento, no una relación terapéutica verificada. La similitud con la indicación original está pendiente de evaluación.
+Sin embargo, **los datos no respaldan un vínculo mecanístico claro** con la úlcera duodenal. No se identifica una vía establecida hacia su fisiopatología (infección por *H. pylori*, secreción ácida, lesión por AINE). El puntaje alto del modelo (0.9972) refleja una predicción del modelo TxGNN (aprendizaje profundo), no una relación terapéutica verificada. La similitud con la indicación original está pendiente de evaluación.
 
 Por ello, esta predicción debe considerarse una hipótesis exploratoria. Entre las otras predicciones del modelo, la hipoalfalipoproteinemia tiene una justificación biológica algo más plausible (efecto de raloxifeno sobre los lípidos), aunque tampoco cuenta con evidencia clínica en los datos compilados.
 

@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Midecamicina es un antibiótico macrólido de 16 miembros, comercializado en España como MYOXAM; los datos disponibles no recogen el texto de su indicación aprobada.
+Midecamicina es un antibiótico macrólido de 16 miembros; actualmente no está comercializada en este país (solo constan registros cancelados). Los datos disponibles no recogen el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **candidiasis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis**, pero actu
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Candidiasis |
-| Puntaje de Predicción TxGNN | 99.02% |
+| Puntaje de Predicción TxGNN | 0.9902 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, midecamicina es un antibiótico macrólido de 16 miembros que inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosomal 50S, y su uso establecido es antibacteriano.
 
-Los macrólidos no se consideran, en general, agentes antifúngicos, y los datos compilados no respaldan un mecanismo directo de actividad frente a *Candida*. El puntaje elevado de TxGNN (0,990) proviene de la estructura del grafo de conocimiento y puede reflejar cercanía de red con otros antiinfecciosos, más que un vínculo terapéutico real.
+Los macrólidos no se consideran, en general, agentes antifúngicos, y los datos compilados no respaldan un mecanismo directo de actividad frente a *Candida*. El puntaje elevado del modelo TxGNN (deep learning) (0,9902) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Cualquier mecanismo plausible (inhibición ribosomal débil en hongos, efectos inmunomoduladores de los macrólidos o sinergia con azoles) es especulativo y no tiene evidencia aquí. Además, la exposición a antibióticos es un factor de riesgo conocido de candidiasis, por lo que la asociación predicha podría estar confundida en sentido contrario.
 

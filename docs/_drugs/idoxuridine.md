@@ -6,9 +6,9 @@ nav_order: 404
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Idoxuridine: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Queratitis por virus del herpes simple (según el grafo de conocimiento"
 monitor_inn: "Idoxuridine"
 predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+description: "Idoxuridine: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Idoxuridine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Idoxuridina: De Queratitis por Virus del Herpes Simple a Candidiasis Vulvovaginal
+## Idoxuridine: Candidiasis vulvovaginal (vulvovaginal candidiasis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,21 +45,21 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Queratitis por virus del herpes simple (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Candidiasis vulvovaginal |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Candidiasis vulvovaginal (vulvovaginal candidiasis) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la idoxuridina es un análogo nucleosídico de la timidina que inhibe la síntesis de ADN viral, y su eficacia se ha establecido en infecciones por herpes simple de uso tópico (queratitis).
 
-Para la candidiasis vulvovaginal, **la plausibilidad mecanística es baja**. *Candida* es un hongo, y un antiviral análogo de la timidina no tiene una actividad antifúngica directa conocida. El puntaje alto (99.92%) refleja una asociación derivada de la red de conocimiento, no una evidencia biológica o clínica. Además, existen tratamientos antifúngicos estándar bien establecidos.
+Para la candidiasis vulvovaginal, **la plausibilidad mecanística es baja**. *Candida* es un hongo, y un antiviral análogo de la timidina no tiene una actividad antifúngica directa conocida. El puntaje alto (0.9992) refleja una asociación derivada de la red de conocimiento, no una evidencia biológica o clínica. Además, existen tratamientos antifúngicos estándar bien establecidos.
 
-Cabe señalar que, entre las demás indicaciones predichas para el mismo fármaco, la más plausible mecanísticamente es la **vulvovaginitis herpética** (puntaje 99.59%, nivel L5), ya que el patógeno es el mismo virus del herpes simple. Aun así, no hay ensayos ni literatura específica, y los antivirales sistémicos modernos (aciclovir, valaciclovir) están mucho mejor establecidos. Se recomienda considerarla como pregunta de investigación.
+Cabe señalar que, entre las demás indicaciones predichas para el mismo fármaco, la más plausible mecanísticamente es la **vulvovaginitis herpética** (puntaje 0.9959, nivel L5), ya que el patógeno es el mismo virus del herpes simple. Aun así, no hay ensayos ni literatura específica, y los antivirales sistémicos modernos (aciclovir, valaciclovir) están mucho mejor establecidos. Se recomienda considerarla como pregunta de investigación.
 
 ## Evidencia de Ensayos Clínicos
 

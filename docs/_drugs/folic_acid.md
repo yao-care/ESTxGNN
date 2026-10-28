@@ -48,10 +48,10 @@ pero no hay **ningún ensayo clínico** y solo existen **19 publicaciones** de c
 |------|------|
 | Indicación Original | Deficiencia de vitaminas / anemia por deficiencia de ácido fólico (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
-| Puntaje de Predicción TxGNN | 99.49% |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

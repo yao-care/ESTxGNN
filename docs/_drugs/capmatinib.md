@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99,45% |
+| Puntaje de Predicción TxGNN | 0,9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La vía de MET se ha relacionado con la inflamación sinovial, la angiogénesis y la capacidad invasiva de los sinoviocitos tipo fibroblasto en la artritis reumatoide. Por ello existe un vínculo biológicamente plausible, aunque inferido del conocimiento general de la clase y no de datos propios del fármaco.
 
-Es importante ser prudente: la única publicación disponible es una revisión general de inhibidores de proteína quinasas aprobados por la FDA, que no reporta actividad de capmatinib en artritis reumatoide. El puntaje alto de TxGNN (0,994) es una predicción computacional y no está respaldado por datos preclínicos ni clínicos para este par fármaco-enfermedad. Tampoco se ha podido establecer la similitud con la indicación original, al no disponerse de ella.
+Es importante ser prudente: la única publicación disponible es una revisión general de inhibidores de proteína quinasas aprobados por la FDA, que no reporta actividad de capmatinib en artritis reumatoide. El puntaje alto de TxGNN (0,9945) es una predicción computacional y no está respaldado por datos preclínicos ni clínicos para este par fármaco-enfermedad. Tampoco se ha podido establecer la similitud con la indicación original, al no disponerse de ella.
 
 ---
 

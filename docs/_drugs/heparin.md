@@ -6,9 +6,9 @@ nav_order: 392
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Heparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (nivel de evidencia L5). Indicación original: Embolia pulmonar (según el grafo de conocimiento"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
+description: "Heparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No consta …"
 ---
 
 # Heparin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Heparina: De Embolia Pulmonar a Trombofilia por Deficiencia de Proteína C (Autosómica Recesiva)
+## Heparin: Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para la **trombofilia por defic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Embolia pulmonar (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva |
-| Puntaje de Predicción TxGNN | 99.29% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive) |
+| Puntaje de Predicción TxGNN | 0.9929 |
 | Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios reales; el análisis preliminar lo clasificaba como L4) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -77,7 +77,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para la indicación principal predicha.
 
-Nota: para la segunda predicción (trastorno primario de liberación plaquetaria, puntaje 99.06%) se recuperaron 20 publicaciones, pero ninguna evalúa la heparina como tratamiento de ese trastorno (tratan cirrosis, trombocitopenia inducida por heparina, tromboembolia asociada al cáncer, COVID-19, entre otros temas). Esa predicción tiene un nivel de evidencia L5, un mecanismo cuestionable (la anticoagulación podría agravar el sangrado) y también se recomienda Hold.
+Nota: para la segunda predicción (trastorno primario de liberación plaquetaria, puntaje 0.9906) se recuperaron 20 publicaciones, pero ninguna evalúa la heparina como tratamiento de ese trastorno (tratan cirrosis, trombocitopenia inducida por heparina, tromboembolia asociada al cáncer, COVID-19, entre otros temas). Esa predicción tiene un nivel de evidencia L5, un mecanismo cuestionable (la anticoagulación podría agravar el sangrado) y también se recomienda Hold.
 
 ---
 
@@ -114,7 +114,7 @@ Consultar el prospecto para las advertencias principales, que no están disponib
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.29%) y un vínculo mecanístico plausible, pero no existe ningún ensayo clínico ni publicación que la respalde, por lo que es solo una predicción computacional. Además, el estándar de tratamiento es el concentrado de proteína C, y faltan los datos de seguridad del prospecto.
+La predicción tiene un puntaje alto (0.9929) y un vínculo mecanístico plausible, pero no existe ningún ensayo clínico ni publicación que la respalde, por lo que es solo una predicción computacional. Además, el estándar de tratamiento es el concentrado de proteína C, y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), un faltante bloqueante para el cribado de seguridad.

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 |------|------|
 | Indicación Original | Infección crónica por el virus de la hepatitis C |
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99,84% |
+| Puntaje de Predicción TxGNN | 0,9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, voxilaprevir es un inhibidor de la proteasa NS3/4A del VHC que se administra en combinación con sofosbuvir y velpatasvir, y su eficacia en la hepatitis C está bien establecida.
 
-La relación mecanística con la hepatitis B es débil. El VHB no codifica una proteasa de tipo NS3/4A; sus dianas clave son la polimerasa y la cápside/core. El puntaje elevado de TxGNN parece reflejar sobre todo asociaciones de grafo compartidas dentro de la categoría "hepatitis viral", y no una base farmacológica concreta.
+La relación mecanística con la hepatitis B es débil. El VHB no codifica una proteasa de tipo NS3/4A; sus dianas clave son la polimerasa y la cápside/core. El puntaje elevado proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas dentro de la categoría "hepatitis viral", no evidencia biológica ni una base farmacológica concreta.
 
 Además, la necesidad terapéutica en hepatitis B ya está cubierta por los análogos de nucleós(t)idos. Por ello la predicción debe considerarse una hipótesis computacional sin respaldo experimental.
 

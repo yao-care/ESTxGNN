@@ -6,9 +6,9 @@ nav_order: 391
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Hemin: nueva indicación predicha, Púrpura trombocitopénica (nivel de evidencia L5). Indicación original: Porfiria aguda intermitente (según el grafo de conocimiento"
 monitor_inn: "hemin"
 predicted_indications: ["thrombocytopenic purpura", "hemophilia", "C1 inhibitor deficiency", "acquired coagulation factor deficiency", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "inherited thrombophilia", "symptomatic form of hemophilia in female carriers", "hereditary von Willebrand disease", "congenital factor XI deficiency"]
+description: "Hemin: nueva indicación predicha, Púrpura trombocitopénica (thrombocytopenic purpura) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Hemin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Hemina: De Porfiria Aguda Intermitente a Púrpura Trombocitopénica
+## Hemin: Púrpura trombocitopénica (thrombocytopenic purpura)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **púrpura trombocitopéni
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Porfiria aguda intermitente (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Púrpura trombocitopénica |
-| Puntaje de Predicción TxGNN | 99,79% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Púrpura trombocitopénica (thrombocytopenic purpura) |
+| Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

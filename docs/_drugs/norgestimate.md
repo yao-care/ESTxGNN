@@ -6,9 +6,9 @@ nav_order: 576
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norgestimate: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Acné (según el grafo de conocimiento"
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Norgestimate: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Norgestimate
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Norgestimato: De Acné a Zinc Plasmático Elevado
+## Norgestimate: Zinc plasmático elevado (zinc, elevated plasma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,23 +47,23 @@ El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acné (según el grafo de conocimiento; las autorizaciones españolas no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Zinc plasmático elevado |
-| Puntaje de Predicción TxGNN | 99,06% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Zinc plasmático elevado (zinc, elevated plasma) |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, norgestimato es un progestágeno que se combina con etinilestradiol en anticonceptivos orales. Su eficacia en acné se refleja en el grafo de conocimiento, y mecanísticamente se desconoce si podría ser aplicable a la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, norgestimato es un progestágeno que se combina con etinilestradiol en anticonceptivos orales. Su indicación original es el acné, y mecanísticamente se desconoce si podría ser aplicable a la nueva indicación.
 
 Como conocimiento general (no respaldado por los datos compilados para este informe), los esteroides sexuales y los anticonceptivos orales pueden modificar los niveles circulantes de oligoelementos, como zinc, cobre y ceruloplasmina. Esto sugeriría una posible relación biológica, pero no constituye un vínculo mecanístico demostrado.
 
-Además, el zinc plasmático elevado es un hallazgo de laboratorio y no una enfermedad con una diana terapéutica clara, por lo que el significado clínico de cualquier intervención es incierto. El puntaje de 0,99 es solo una predicción del modelo.
+Además, el zinc plasmático elevado es un hallazgo de laboratorio y no una enfermedad con una diana terapéutica clara, por lo que el significado clínico de cualquier intervención es incierto. El puntaje de 0,9906 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

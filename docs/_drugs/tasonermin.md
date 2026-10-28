@@ -6,9 +6,9 @@ nav_order: 765
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tasonermin: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (nivel de evidencia L5). Indicación original: Sarcoma de tejidos blandos (según las indicaciones del grafo de conoc…"
 monitor_inn: "tasonermin"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
+description: "Tasonermin: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
 ---
 
 # Tasonermin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tasonermin: De Sarcoma de Tejidos Blandos a Carcinoma Urotelial de la Uretra Prostática
+## Tasonermin: Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma urotelial de l
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sarcoma de tejidos blandos (según las indicaciones del grafo de conocimiento; el texto de indicación autorizado no está disponible en los datos compilados) |
-| Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática |
-| Puntaje de Predicción TxGNN | 99,81% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Tasonermin es TNF-alfa humano recombinante. Se utiliza junto con melfalán en perfusión aislada de extremidades para el sarcoma de tejidos blandos. Su actividad propuesta consiste en la destrucción selectiva de la vasculatura tumoral y en un aumento de la penetración del quimioterápico en el tumor. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; esta descripción procede del razonamiento general sobre el fármaco.
 
-La relación entre la indicación original y la nueva es débil. Ambas son neoplasias, pero el sarcoma es de origen mesenquimal y el carcinoma urotelial es epitelial. El puntaje alto del modelo (0,998) parece reflejar una asociación genérica con la categoría "cáncer" en el grafo de conocimiento, no un vínculo mecanístico específico.
+La relación entre la indicación original y la nueva es débil. Ambas son neoplasias, pero el sarcoma es de origen mesenquimal y el carcinoma urotelial es epitelial. El puntaje alto del modelo TxGNN (aprendizaje profundo) (0,9981) proviene del modelo y puede reflejar similitudes que este aprendió entre enfermedades relacionadas, como una asociación genérica con la categoría "cáncer", no evidencia biológica ni un vínculo mecanístico específico.
 
 Además, existen obstáculos importantes de aplicabilidad. La uretra prostática no permite una perfusión aislada como la de una extremidad, y el TNF-alfa sistémico tiene toxicidad limitante de dosis (hipotensión, síndrome similar al shock séptico). No se identifica una vía de administración plausible.
 

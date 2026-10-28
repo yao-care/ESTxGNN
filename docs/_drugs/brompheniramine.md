@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brompheniramine
-parent: Solo predicción del modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 120
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Brompheniramine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brompheniramine: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Brompheniramine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,49 +32,48 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Bromfeniramina: De Rinitis Alérgica a Urticaria Alérgica
+<!-- known-uses-page -->
+<!-- description: Brompheniramine: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata -->
+## Brompheniramine: Usos conocidos y estado de comercialización en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Todos los candidatos que el modelo TxGNN propone para este fármaco (puntuación ≥ 0,99) y que pueden rastrearse hasta una fuente corresponden a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para Brompheniramine.
 
-La bromfeniramina es un antihistamínico H1 de primera generación (clase alquilamina), utilizado originalmente para el tratamiento de la rinitis alérgica, el resfriado común y otras afecciones alérgicas.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 2 |
+| Nivel de evidencia | No aplica |
+| Estado de comercialización en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 
-## ¿Por qué es Razonable esta Predicción?
+## Usos conocidos entre los candidatos del modelo
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la bromfeniramina es un antagonista del receptor H1 de primera generación (clase alquilamina). La urticaria alérgica está impulsada en gran parte por la liberación de histamina desde los mastocitos, por lo que el bloqueo H1 es mecanísticamente plausible.
+### Aprobados (respaldados por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguna | — |
 
-Es importante señalar que las indicaciones originales del fármaco ya incluyen urticaria y angioedema. Por tanto, esta predicción se solapa en gran medida con un uso ya existente y no representa una oportunidad de reposicionamiento verdaderamente nueva. El puntaje alto (0.9987) es coherente con ese solapamiento.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | — |
 
-Como predicción secundaria, el modelo también propone **urticaria por frío** (puntaje 99.55%). Es una urticaria inducible en la que el frío desencadena la liberación de histamina, y los antihistamínicos H1 son el tratamiento de primera línea. Sin embargo, las guías actuales prefieren antihistamínicos de segunda generación no sedantes (a veces a dosis aumentadas) frente a los de primera generación, debido a la sedación y los efectos anticolinérgicos. Tampoco hay evidencia clínica para esta indicación (nivel L5, decisión Hold).
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| urticaria alérgica (allergic urticaria) |
+| urticaria por frío (cold urticaria) |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 79577 | RESFRIOL CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
-| 60577 | ILVICO GRANULADO PARA SOLUCIÓN ORAL | Granulado para solución oral | No disponible en los datos compilados |
-| 33844 | ILVICO COMPRIMIDOS RECUBIERTOS | Comprimido recubierto | No disponible en los datos compilados |
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 79577 | paracetamol + bromfeniramina + cafeína | CÁPSULA DURA | Cancelado |
+| 60577 | paracetamol + bromfeniramina + cafeína | GRANULADO PARA SOLUCIÓN ORAL | Vigente |
+| 33844 | paracetamol + bromfeniramina + cafeína | COMPRIMIDO RECUBIERTO | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -84,19 +84,6 @@ Actualmente no hay literatura relacionada disponible.
 
   Entre las de nivel moderado figuran fármacos anticolinérgicos (atropina, hiosciamina, escopolamina, diciclomina, glicopirronio, propantelina), opioides (morfina, loperamida, opio, eluxadolina) y otros depresores del sistema nervioso central o moduladores (dronabinol, nabilona, metoclopramida).
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y se solapa con indicaciones ya existentes del fármaco (urticaria y angioedema). Además, para la urticaria por frío las guías prefieren antihistamínicos de segunda generación.
-
-**Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas), actualmente no disponible, lo que impide el cribado de seguridad.
-- Consultar datos del mecanismo de acción en DrugBank.
-- Aclarar si la urticaria alérgica ya está cubierta por las indicaciones autorizadas, para determinar si existe realmente una oportunidad de reposicionamiento.
-- Buscar ensayos clínicos y literatura específicos para urticaria alérgica y urticaria por frío.
-- Evaluar la relación beneficio-riesgo frente a antihistamínicos de segunda generación, dados los efectos sedantes y anticolinérgicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

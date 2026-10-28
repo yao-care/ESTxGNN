@@ -6,9 +6,9 @@ nav_order: 333
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fexofenadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Fexofenadine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fexofenadine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Fexofenadina: De Rinitis Alérgica a Conjuntivitis Rosácea
+## Fexofenadine: Conjuntivitis rosácea (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Conjuntivitis rosácea |
-| Puntaje de Predicción TxGNN | 99,85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis rosácea (rosacea conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ No se dispone de datos detallados sobre el mecanismo de acción en los datos com
 
 La fexofenadina se asocia a la rinitis alérgica, la rinitis vasomotora, la urticaria idiopática y varias conjuntivitis (atópica, papilar y primaveral). Por ello, el bloqueo H1 podría aliviar el picor, el enrojecimiento y la inflamación de la superficie ocular en la conjuntivitis asociada a rosácea (rosácea ocular).
 
-Sin embargo, la rosácea ocular depende sobre todo de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal, la colonización por *Demodex*, la activación inmunitaria innata y microbiana y la desregulación neurovascular. La histamina probablemente contribuye poco. El puntaje de 0,998 es solo una predicción del modelo y probablemente refleja la cercanía del fármaco a otras indicaciones de conjuntivitis en el grafo de conocimiento, no un respaldo clínico independiente.
+Sin embargo, la rosácea ocular depende sobre todo de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal, la colonización por *Demodex*, la activación inmunitaria innata y microbiana y la desregulación neurovascular. La histamina probablemente contribuye poco. El puntaje de 0,9985 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no es un respaldo clínico independiente.
 
 ## Evidencia de Ensayos Clínicos
 

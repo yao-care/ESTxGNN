@@ -4,17 +4,17 @@ title: Insulin Glulisine
 parent: Solo predicción del modelo (L5)
 nav_order: 421
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Glulisine: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L5). Indicación original: Diabetes mellitus"
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine: nueva indicación predicha, Thiamine-responsive dysfunction syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Insulina glulisina: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicaci�
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus; cetoacidosis diabética |
-| Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
-| Puntaje de Predicción TxGNN | 99,55% |
-| Nivel de Evidencia | L2 (provisional; probablemente L1 si se verifican los ensayos pivotales de Fase 3) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Thiamine-responsive dysfunction syndrome |
+| Puntaje de Predicción TxGNN | 0.9947 |
+| Nivel de Evidencia | L5 (provisional; probablemente L1 si se verifican los ensayos pivotales de Fase 3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,6 @@ Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicaci�
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina glulisina es un análogo de insulina humana de acción rápida que se une al receptor de insulina, favorece la captación periférica de glucosa y suprime la producción hepática de glucosa. Su perfil farmacocinético se caracteriza por un inicio de acción más rápido y una duración más corta que la insulina humana regular.
 
-La diabetes tipo 1 es una enfermedad de deficiencia absoluta de insulina, por lo que el reemplazo con insulina de acción rápida a la hora de las comidas (bolo) en un régimen basal-bolo es mecanísticamente directo. Por ello, la predicción es coherente con el amplio historial clínico existente y con el alto puntaje del modelo (0,996).
 
 Es importante subrayar que esta predicción no constituye un reposicionamiento genuino: la diabetes tipo 1 queda comprendida dentro de la indicación original de diabetes mellitus. Las demás indicaciones predichas (rangos 2 a 10) tienen únicamente respaldo del modelo (L4-L5), sin ensayos ni literatura, y varias parecen reflejar comorbilidad (síndrome de la persona rígida) o incluso un efecto adverso conocido de la insulina (lipodistrofia localizada), por lo que no se consideran oportunidades terapéuticas.
 

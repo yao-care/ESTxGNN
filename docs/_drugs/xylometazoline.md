@@ -4,17 +4,17 @@ title: Xylometazoline
 parent: Evidencia moderada (L3-L4)
 nav_order: 862
 evidence_level: L3
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Xylometazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Faringitis y resfriado común (según el grafo de conocimiento"
 monitor_inn: "xylometazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Xylometazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Xylometazoline
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-## Xilometazolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+## Xylometazoline: Enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Faringitis y resfriado común (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -111,7 +111,6 @@ Hay literatura clínica (incluidos estudios aleatorizados) que respalda el efect
 
 ---
 
-**Nota sobre la segunda predicción (laringofaringitis aguda):** TxGNN la predice con 99.89%, pero no hay ensayos clínicos ni literatura. El nivel de evidencia es L5 y la decisión es **Hold**. Al ser de aplicación intranasal, no cabe esperar un efecto significativo sobre la mucosa laríngea.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

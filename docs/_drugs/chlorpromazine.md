@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorpromazine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 174
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Chlorpromazine: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L4). Indicación original: Trastorno bipolar maníaco, trastorno psicótico…"
 monitor_inn: "Chlorpromazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Chlorpromazine: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original…"
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Clorpromazina: De Trastorno Bipolar Maníaco y Esquizofrenia a Distrofia Retiniana
+## Chlorpromazine: Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **distrofia retiniana con 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno bipolar maníaco, trastorno psicótico, esquizofrenia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación entre la indicación original (trastornos psiquiátricos) y la distrofia retiniana es muy débil. La única publicación disponible (JAMA, 1967) describe reacciones fototóxicas con dosis altas de clorpromazina y tioridazina. La clorpromazina se acumula en tejidos con melanina, como el epitelio pigmentario de la retina, lo que sugiere un posible **daño** y no un beneficio en esta enfermedad.
 
-Por tanto, el puntaje elevado del modelo no está respaldado por un mecanismo terapéutico identificable y probablemente refleja asociaciones de red del grafo de conocimiento. Entre las demás predicciones del modelo, la más coherente es la esquizofrenia de inicio temprano (puntaje 99.47%, nivel L4), que es más una extensión a un subgrupo de edad de una indicación ya existente que un reposicionamiento verdadero. Sin embargo, su evidencia se limita a estudios observacionales, de imagen y farmacogenéticos, sin ensayos clínicos pediátricos o adolescentes.
+Por tanto, el puntaje elevado del modelo no está respaldado por un mecanismo terapéutico identificable: proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 

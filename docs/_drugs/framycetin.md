@@ -48,10 +48,10 @@ La predicción se basa únicamente en el modelo (nivel de evidencia L5).
 |------|------|
 | Indicación Original | No disponible en los datos compilados (las autorizaciones no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Colangitis esclerosante |
-| Puntaje de Predicción TxGNN | 99,66% |
+| Puntaje de Predicción TxGNN | 0,9966 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Los datos de mecanismo de acción (MOA) no están disponibles en la información
 
 En la colangitis esclerosante primaria se ha explorado la hipótesis del eje intestino-hígado, con antibióticos dirigidos al intestino (por ejemplo, vancomicina oral). Por analogía, un aminoglucósido de acción local en el intestino podría tener cierto interés teórico. Sin embargo, no existe evidencia directa con framicetina y la relación mecanística no puede verificarse.
 
-Cabe señalar que el puntaje elevado de TxGNN (99,66%) es solo una predicción del modelo y no sustituye a la evidencia clínica. Además, las formulaciones comercializadas en España (crema, pomada y gotas óticas) no son compatibles de forma evidente con una indicación hepatobiliar; la compatibilidad de vías de administración está pendiente de evaluación.
+Cabe señalar que el puntaje elevado de TxGNN (0,9966) es solo una predicción del modelo y no sustituye a la evidencia clínica. Además, las formulaciones comercializadas en España (crema, pomada y gotas óticas) no son compatibles de forma evidente con una indicación hepatobiliar; la compatibilidad de vías de administración está pendiente de evaluación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -86,12 +86,12 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 
 | Rango | Indicación Predicha | Puntaje TxGNN | Valoración |
 |------|------|------|------|
-| 2 | Infección del tracto urinario | 99,42% | Biológicamente plausible por la clase, pero sin evidencia aportada; existen aminoglucósidos mejor respaldados (gentamicina, amikacina) |
-| 3 | Deficiencia congénita de protrombina | 99,41% | Sin vínculo mecanístico plausible; probable falso positivo |
-| 4 | Uretritis por Ureaplasma | 99,28% | Débilmente plausible; habitualmente se tratan con tetraciclinas o macrólidos |
-| 5 | Uretritis gonocócica | 99,28% | Justificación a nivel de clase; las guías actuales prefieren otros agentes por resistencias |
-| 6 | Enfermedad inflamatoria uterina | 99,18% | Justificación a nivel de clase; limitada por la baja disponibilidad sistémica |
-| 7 | Pielonefritis xantogranulomatosa | 99,18% | Manejo principalmente quirúrgico; preocupación por nefrotoxicidad |
+| 2 | Infección del tracto urinario | 0,9942 | Biológicamente plausible por la clase, pero sin evidencia aportada; existen aminoglucósidos mejor respaldados (gentamicina, amikacina) |
+| 3 | Deficiencia congénita de protrombina | 0,9941 | Sin vínculo mecanístico plausible; probable falso positivo |
+| 4 | Uretritis por Ureaplasma | 0,9928 | Débilmente plausible; habitualmente se tratan con tetraciclinas o macrólidos |
+| 5 | Uretritis gonocócica | 0,9928 | Justificación a nivel de clase; las guías actuales prefieren otros agentes por resistencias |
+| 6 | Enfermedad inflamatoria uterina | 0,9918 | Justificación a nivel de clase; limitada por la baja disponibilidad sistémica |
+| 7 | Pielonefritis xantogranulomatosa | 0,9918 | Manejo principalmente quirúrgico; preocupación por nefrotoxicidad |
 
 Todas ellas son de nivel L5 y sin ensayos clínicos ni literatura aportada.
 

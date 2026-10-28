@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Desogestrel
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 236
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los textos de autorización de la AEMPS (uso conocido…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "
 # Desogestrel
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ con **1 ensayo clínico** (de relevancia indirecta) y **11 publicaciones** que a
 |------|------|
 | Indicación Original | No disponible en los textos de autorización de la AEMPS (uso conocido: anticoncepción oral) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydromorphone
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 396
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Hydromorphone: nueva indicación predicha, Faringitis (nivel de evidencia L4). Indicación original: Resfriado común / nasofaringitis (según el grafo de conocimiento"
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Hydromorphone: nueva indicación predicha, Faringitis (pharyngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Hydromorphone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Hidromorfona: De Resfriado Común a Faringitis
+## Hydromorphone: Faringitis (pharyngitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ La puntuación alta del modelo no está respaldada por evidencia clínica direct
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Resfriado común / nasofaringitis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Faringitis |
-| Puntaje de Predicción TxGNN | 99,81 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Faringitis (pharyngitis) |
+| Puntaje de Predicción TxGNN | 0.9981 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la hidromorfona es un agonista del receptor opioide mu con acción analgésica central y propiedades antitusivas.
 
-La relación con la indicación original (resfriado común, nasofaringitis) es de tipo sintomático: ambas son afecciones de las vías respiratorias altas en las que el dolor o la tos podrían aliviarse con un opioide. Es probable que el puntaje del modelo refleje esta cercanía en el grafo de conocimiento y no un efecto terapéutico real.
+La relación con la indicación original (resfriado común, nasofaringitis) es de tipo sintomático: ambas son afecciones de las vías respiratorias altas en las que el dolor o la tos podrían aliviarse con un opioide. Es probable que el puntaje del modelo TxGNN (aprendizaje profundo) refleje similitudes que el modelo aprendió entre enfermedades relacionadas y no un efecto terapéutico real ni evidencia biológica.
 
 Mecanísticamente, la hidromorfona no tiene acción antiinfecciosa ni antiinflamatoria sobre la faringitis. Cualquier utilidad se limitaría al alivio sintomático del dolor, con un perfil de riesgo (depresión respiratoria, dependencia) poco favorable para una afección habitualmente leve y autolimitada. Los tres ensayos disponibles estudian dolor posquirúrgico tras amigdalectomía, no faringitis.
 

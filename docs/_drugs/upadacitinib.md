@@ -6,9 +6,9 @@ nav_order: 834
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Upadacitinib: nueva indicación predicha, Síndrome de microftalmia colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: Artritis reumatoide (según el grafo de conocimien…"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Upadacitinib: nueva indicación predicha, Síndrome de microftalmia colobomatosa con displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndro… (nivel de evidencia L5). Indicación o…"
 ---
 
 # Upadacitinib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Upadacitinib: De Artritis Reumatoide a Síndrome de Microftalmia Colobomatosa con Displasia Rizomélica
+## Upadacitinib: Síndrome de microftalmia colobomatosa con displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,21 +46,21 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa con displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99,61% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa con displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, upadacitinib es un inhibidor selectivo de JAK1 que se emplea en enfermedades inflamatorias de base inmunitaria, y su eficacia en artritis reumatoide está establecida.
 
-Sin embargo, **los datos disponibles no respaldan un vínculo mecanístico** con la nueva indicación. Este síndrome es un trastorno del desarrollo extremadamente raro, con malformaciones oculares y esqueléticas, y en general no está impulsado por inflamación mediada por la vía JAK-STAT. El puntaje del modelo es muy alto (0,996), pero es una predicción derivada del modelo; es probable que refleje un artefacto de proximidad en la red del grafo más que una base biológica real.
+Sin embargo, **los datos disponibles no respaldan un vínculo mecanístico** con la nueva indicación. Este síndrome es un trastorno del desarrollo extremadamente raro, con malformaciones oculares y esqueléticas, y en general no está impulsado por inflamación mediada por la vía JAK-STAT. El puntaje del modelo TxGNN (aprendizaje profundo) es muy alto (0.9961), pero es una predicción derivada del modelo; puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-Como segunda predicción, el modelo propone el **síndrome de braquidactilia-sindactilia** (puntaje 99,58%), también una malformación congénita de origen genético y del desarrollo, sin respuesta esperable a la inmunomodulación en pacientes posnatales. Tampoco cuenta con evidencia clínica ni bibliográfica y recibe la misma recomendación de Hold.
+Como segunda predicción, el modelo propone el **síndrome de braquidactilia-sindactilia** (puntaje 0,9958), también una malformación congénita de origen genético y del desarrollo, sin respuesta esperable a la inmunomodulación en pacientes posnatales. Tampoco cuenta con evidencia clínica ni bibliográfica y recibe la misma recomendación de Hold.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -78,7 +78,7 @@ Actualmente no hay literatura relacionada disponible.
 | 1191404010 | RINVOQ 45 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
 | 1191404006 | RINVOQ 30 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos compilados |
 
-Titular: Abbvie Deutschland GmbH & Co. KG.
+Titular: Abbvie Deutschland GmbH & Co.
 
 ## Consideraciones de Seguridad
 

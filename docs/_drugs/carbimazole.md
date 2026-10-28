@@ -4,17 +4,17 @@ title: Carbimazole
 parent: Solo predicción del modelo (L5)
 nav_order: 146
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Carbimazole: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación en el receptor beta de… (nivel de evidencia L5). Indicación original: Hipertiroidismo…"
+indication_count: 2
 monitor_inn: "Carbimazole"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+last_modified_at: 2026-10-27
+description: "Carbimazole: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación en el receptor beta de la hormona tiroidea (resistance to thyroid hormon… (nivel de evidencia L5). Indicación or…"
 ---
 
 # Carbimazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Carbimazol: De Hipertiroidismo a Resistencia a la Hormona Tiroidea por Mutación del Receptor Beta
+## Carbimazol: antitiroideo (profármaco del metimazol) → resistencia a la hormona tiroidea por mutación en el receptor beta de la hormona tiroidea (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Carbimazol es un fármaco antitiroideo (profármaco del metimazol), originalmente utilizado para el tratamiento del hipertiroidismo, la enfermedad de Graves y la tiroTOXicosis.
-El modelo TxGNN predice que podría ser efectivo para la **resistencia a la hormona tiroidea por mutación del receptor beta (RTH-beta)**, pero **sin ensayos clínicos** y con **una sola publicación** (un caso clínico de diagnóstico diferencial), por lo que la evidencia es únicamente predictiva y, además, el razonamiento mecanístico apunta en contra de su uso.
+Carbimazol es un antitiroideo que actúa como profármaco del metimazol y reduce la síntesis de hormonas tiroideas.
+El modelo TxGNN predice que podría ser efectivo para **resistencia a la hormona tiroidea por mutación en el receptor beta de la hormona tiroidea (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta)**,
+pero actualmente solo existe **1 publicación** (un caso clínico) y **ningún ensayo clínico** registrado, y esa publicación no estudia directamente esta enfermedad con el fármaco como tratamiento.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertiroidismo, enfermedad de Graves y tirotoxicosis (según el grafo de conocimiento; el texto de indicación de la autorización en España no está disponible) |
-| Nueva Indicación Predicha | Resistencia a la hormona tiroidea por mutación en el receptor beta de la hormona tiroidea |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Resistencia a la hormona tiroidea por mutación en el receptor beta de la hormona tiroidea (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta) |
+| Puntaje de Predicción TxGNN | 0,9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, el carbimazol es un profármaco del metimazol que inhibe la tiroperoxidasa y reduce la síntesis de hormonas tiroideas. Su eficacia en el hipertiroidismo está bien establecida.
+Carbimazol es un profármaco del metimazol: inhibe la peroxidasa tiroidea y reduce la síntesis de hormonas tiroideas. En la resistencia a la hormona tiroidea por mutación en THRB, el defecto principal es una menor sensibilidad de los tejidos a la hormona, con elevación compensatoria de T4/T3 y TSH no suprimida.
 
-En la RTH-beta, el defecto primario no es un exceso de producción hormonal, sino una menor sensibilidad tisular a la hormona tiroidea por mutaciones en el gen THRB, con elevación compensatoria de T4/T3 y TSH no suprimida. En teoría, reducir la producción hormonal bajaría los niveles circulantes, pero se esperaría que aumentara aún más la TSH, agravara el bocio y pudiera inducir hipotiroidismo en tejidos ya relativamente resistentes a la hormona.
+Reducir la producción hormonal con un antitiroideo podría, en teoría, bajar los niveles de hormona. Sin embargo, es esperable que eleve aún más la TSH, agrave el bocio y provoque hipotiroidismo en tejidos ya relativamente resistentes. En general, los antitiroideos no se recomiendan en esta condición.
 
-Por tanto, el puntaje elevado del modelo probablemente refleja la proximidad en la red a genes relacionados con la hormona tiroidea y no un fundamento terapéutico real. En general, los antitiroideos no se recomiendan en la RTH.
+Por tanto, el puntaje alto probablemente refleja la proximidad en la red a genes relacionados con la hormona tiroidea, y no una justificación terapéutica real.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,13 +70,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [24165508](https://pubmed.ncbi.nlm.nih.gov/24165508/) | 2013 | Caso clínico / discusión diagnóstica | BMJ Case Reports | Varón joven tratado de forma intermitente con carbimazol durante 10 años por T4 libre elevada y TSH no suprimida; el caso se discute como diagnóstico diferencial de esta combinación analítica, no como evidencia de beneficio terapéutico |
+| [24165508](https://pubmed.ncbi.nlm.nih.gov/24165508/) | 2013 | Revisión / discusión de caso | BMJ Case Reports | Varón con T4 libre elevada y TSH no suprimida, tratado de forma intermitente con carbimazol durante años como hipertiroidismo; se discute el diagnóstico diferencial de esta combinación analítica |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 28996 | NEO-TOMIZOL 5 mg COMPRIMIDOS | Comprimido | Texto de indicación no disponible en los datos compilados |
+| 28996 | NEO-TOMIZOL 5 mg COMPRIMIDOS | Comprimido | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
@@ -86,12 +87,12 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5), sin ensayos clínicos y con una única publicación que no demuestra beneficio. Además, el mecanismo sugiere que reducir la síntesis hormonal podría elevar la TSH, empeorar el bocio y provocar hipotiroidismo, por lo que no se recomienda avanzar.
+La predicción carece de ensayos clínicos y de estudios que evalúen directamente el fármaco en esta enfermedad. Además, el razonamiento mecanístico sugiere que el tratamiento antitiroideo podría ser perjudicial (aumento de TSH, bocio, hipotiroidismo).
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y del prospecto de la AEMPS (advertencias y contraindicaciones), actualmente ausentes.
-- Evidencia preclínica o clínica que demuestre un beneficio real en RTH-beta, que hoy no existe.
-- Valorar, como líneas más viables, las otras predicciones: la tirotoxicosis neonatal (nivel L3, con series y casos clínicos, aunque es más una extensión de población que un reposicionamiento, y con señales de seguridad como atresia de coanas) y la hipertiroxinemia (L4, no es una entidad tratable coherente).
+- Datos de mecanismo de acción y de seguridad del prospecto de la AEMPS
+- Estudios clínicos o series de casos que evalúen específicamente el efecto de los antitiroideos en esta condición
+- Revisión por especialistas en endocrinología que confirmen o descarten la plausibilidad clínica
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

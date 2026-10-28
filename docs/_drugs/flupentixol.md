@@ -6,9 +6,9 @@ nav_order: 347
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Flupentixol: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Esquizofrenia (según el grafo de conocimiento"
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Flupentixol: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: N…"
 ---
 
 # Flupentixol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Flupentixol: De Esquizofrenia a Distrofia Retiniana con o sin Anomalías Extraoculares
+## Flupentixol: Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
-| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación entre la indicación original y la nueva es débil. Las distrofias retinianas hereditarias son enfermedades degenerativas de origen genético, y no se ha demostrado que ningún mecanismo dopaminérgico, ni otro relacionado con flupentixol, modifique su curso. No se identifica un vínculo mecanístico plausible.
 
-El puntaje TxGNN muy alto (0.9999) refleja una predicción basada en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Debe interpretarse como una hipótesis generada por el modelo, no como una señal de eficacia.
+El puntaje TxGNN muy alto (0.9999) refleja una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo clínico ni bibliográfico. Debe interpretarse como una hipótesis generada por el modelo, no como una señal de eficacia.
 
 Otras indicaciones predichas por el modelo (por ejemplo, enfermedad de Charcot-Marie-Tooth tipo 1G, hidranencefalia, miopía ligada al X o encefalopatía por glicina atípica) tampoco presentan evidencia ni vínculo mecanístico, y también se clasifican como L5 con recomendación Hold.
 

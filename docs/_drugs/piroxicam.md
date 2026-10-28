@@ -6,9 +6,9 @@ nav_order: 644
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Piroxicam: nueva indicación predicha, Síndrome de microftalmía colobomatosa-displasia rizomélica (nivel de evidencia L5). Indicación original: Artritis reumatoide (también artrosis y artropatía…"
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
+description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Piroxicam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Piroxicam: De Artritis Reumatoide a Síndrome de Microftalmía Colobomatosa-Displasia Rizomélica
+## Piroxicam: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (también artrosis y artropatía, según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no estaban disponibles) |
-| Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa-displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99,996 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, piroxicam es un AINE inhibidor no selectivo de la ciclooxigenasa (COX), con eficacia sintomática establecida en artritis reumatoide y artrosis. Reduce la inflamación y el dolor al disminuir la síntesis de prostaglandinas.
 
-**En este caso no se identificó un vínculo mecanístico plausible.** La enfermedad predicha es un síndrome genético raro del desarrollo, con alteraciones esqueléticas y oculares. La inhibición de COX no tiene un papel conocido en su patogenia. El puntaje del modelo es muy alto (0,99996), pero parece reflejar la cercanía en el grafo de conocimiento con fenotipos musculoesqueléticos, no una relación terapéutica real.
+**En este caso no se identificó un vínculo mecanístico plausible.** La enfermedad predicha es un síndrome genético raro del desarrollo, con alteraciones esqueléticas y oculares. La inhibición de COX no tiene un papel conocido en su patogenia. El puntaje del modelo TxGNN (aprendizaje profundo) es muy alto (1,0000), pero puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una relación terapéutica real.
 
 Como el mecanismo de acción original tampoco está documentado en los datos disponibles, la predicción no puede verificarse mecanísticamente. Debe considerarse una hipótesis generada por el modelo, sin respaldo clínico.
 
@@ -124,7 +124,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Evidencia preclínica o clínica específica de la nueva indicación. Hasta ahora no existe.
 - Las advertencias y contraindicaciones del prospecto de la AEMPS, para completar la evaluación de seguridad.
 
-**Nota complementaria:** entre las predicciones del modelo, la **artritis idiopática juvenil** (puntaje 99,93 %) es la única con literatura recuperada. Incluye estudios pediátricos de los años 80 y 90, como un estudio multicéntrico de piroxicam frente a naproxeno y un estudio farmacocinético en niños, además de metaanálisis en red de AINE. Su nivel de evidencia sería L3, pero solo como opción sintomática, no modificadora de la enfermedad. Podría valorarse como pregunta de investigación aparte, sin alterar la decisión de este informe.
+**Nota complementaria:** entre las predicciones del modelo, la **artritis idiopática juvenil** (puntaje 0,9993) es la única con literatura recuperada. Incluye estudios pediátricos de los años 80 y 90, como un estudio multicéntrico de piroxicam frente a naproxeno y un estudio farmacocinético en niños, además de metaanálisis en red de AINE. Su nivel de evidencia sería L3, pero solo como opción sintomática, no modificadora de la enfermedad. Podría valorarse como pregunta de investigación aparte, sin alterar la decisión de este informe.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

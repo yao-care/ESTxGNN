@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 ## Resumen en Una Frase
 
 Enfortumab vedotin es un conjugado anticuerpo-fármaco dirigido a Nectin-4 (con carga citotóxica MMAE), comercializado en España como PADCEV; los datos compilados para este informe no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **lepra**, pero no existen **ensayos clínicos** ni **publicaciones** que respalden esta dirección: se trata de una predicción puramente basada en el grafo de conocimiento.
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **lepra**, pero no existen **ensayos clínicos** ni **publicaciones** que respalden esta dirección: se trata de una predicción del modelo que puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica.
 
 ## Resumen Rápido
 
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **lepra**, pero no existen
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Lepra |
-| Puntaje de Predicción TxGNN | 99,53% |
+| Puntaje de Predicción TxGNN | 0,9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, la predicción para lepra **no resulta mecanísticamente razonable** con la información disponible. No se identifica un vínculo plausible entre la diana Nectin-4 y la infección por *Mycobacterium leprae*. Además, una terapia citotóxica con ADC sería una opción poco adecuada para una enfermedad infecciosa que ya dispone de tratamiento antimicrobiano eficaz.
 
-El puntaje alto (99,53%, posición 5704 en el ranking del modelo) refleja únicamente una asociación en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Debe interpretarse con mucha cautela.
+El puntaje alto (0,9953, posición 5704 en el ranking del modelo) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay respaldo clínico ni bibliográfico. Debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -111,7 +111,7 @@ La predicción para lepra es solo una asociación del modelo (nivel L5), sin ens
 - Obtener el texto de la indicación aprobada y el prospecto de la AEMPS (advertencias y contraindicaciones).
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Demostrar, si procede, un fundamento biológico (por ejemplo, expresión de Nectin-4 en la patología) antes de cualquier estudio preclínico.
-- Valorar las otras predicciones del ranking (todas L5 y sin evidencia terapéutica); varias, como la fiebre catarral maligna y la rinotraqueítis bovina infecciosa, son enfermedades veterinarias y probablemente artefactos del grafo.
+- Valorar las otras predicciones del ranking (todas L5 y sin evidencia terapéutica); varias, como la fiebre catarral maligna y la rinotraqueítis bovina infecciosa, son enfermedades veterinarias y probablemente reflejan similitudes aprendidas por el modelo, no evidencia biológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olodaterol
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 587
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olodaterol: nueva indicación predicha, Bronquitis (nivel de evidencia L4). Indicación original: Enfermedad pulmonar obstructiva crónica (EPOC)"
 monitor_inn: "OLODATEROL"
 predicted_indications: ["bronchitis"]
+description: "Olodaterol: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Olodaterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) a Bronquitis
+## Olodaterol: Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actua
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad pulmonar obstructiva crónica (EPOC) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99,84 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Puntaje de Predicción TxGNN | 0.9984 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actua
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, olodaterol pertenece a la clase de los agonistas beta2-adrenérgicos de acción prolongada. Estos fármacos relajan el músculo liso de las vías respiratorias activando el receptor beta2 y aumentando el AMPc. Su eficacia en la EPOC está respaldada por una amplia evidencia.
 
-La bronquitis crónica es un fenotipo de la EPOC, por lo que existe un solapamiento claro entre la indicación aprobada y la predicha. El puntaje tan alto del modelo (0,998) refleja probablemente ese solapamiento de etiquetas de enfermedad, y **no constituye una verdadera señal de reposicionamiento**.
+La bronquitis crónica es un fenotipo de la EPOC, por lo que existe un solapamiento claro entre la indicación aprobada y la predicha. El puntaje tan alto del modelo (0,9984) refleja probablemente ese solapamiento de etiquetas de enfermedad, y **no constituye una verdadera señal de reposicionamiento**.
 
 Para la bronquitis aguda, que suele ser autolimitada y de origen infeccioso, no existe una justificación mecanística para usar un LABA. Las dos publicaciones recuperadas se centran en la EPOC y no analizan la bronquitis como entidad independiente.
 
@@ -117,7 +117,6 @@ La predicción coincide en gran parte con la indicación ya aprobada (EPOC) y no
 - Datos detallados del mecanismo de acción y las advertencias y contraindicaciones del prospecto de la AEMPS.
 - Plan de monitoreo cardiovascular y de interacciones farmacológicas.
 
-**Nota:** la segunda predicción del modelo, enfermedad pulmonar obstructiva (puntaje 99,57 %), cuenta con varios ensayos de Fase 3 completados. Esa evidencia confirma la indicación ya existente en EPOC y no establece una indicación nueva. Un posible uso en asma requeriría evidencia propia, porque la monoterapia con LABA en asma plantea preocupaciones de seguridad.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

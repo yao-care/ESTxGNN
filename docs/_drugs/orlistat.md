@@ -6,9 +6,9 @@ nav_order: 592
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Orlistat: nueva indicación predicha, Hipervitaminosis (nivel de evidencia L5). Indicación original: Obesidad (trastorno de obesidad y obesidad monogénica…"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
+description: "Orlistat: nueva indicación predicha, Hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Orlistat
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Orlistat: De Obesidad a Hipervitaminosis
+## Orlistat: Hipervitaminosis (hypervitaminosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Obesidad (trastorno de obesidad y obesidad monogénica, según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipervitaminosis |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipervitaminosis (hypervitaminosis) |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Orlistat inhibe las lipasas gástrica y pancreática y reduce la absorción de g
 
 Las vitaminas liposolubles (A, D, E, K) se absorben junto con la grasa de la dieta, por lo que orlistat disminuye su absorción. Es un efecto adverso conocido y la razón por la que se recomienda suplementación vitamínica durante el tratamiento. De forma puramente teórica, este efecto podría reducir la carga vitamínica en una hipervitaminosis liposoluble (por ejemplo, exceso de vitamina A o D).
 
-Sin embargo, la relación es débil. El puntaje alto de TxGNN (0.994) es solo una predicción del modelo, sin respaldo de ensayos ni literatura. El efecto sobre los niveles de vitaminas es un efecto secundario nutricional, no una terapia establecida para la toxicidad vitamínica. El manejo estándar (suspender la fuente de la vitamina, cuidados de soporte y, en algunos casos, otros fármacos) ya existe, y usar orlistat con este fin conllevaría riesgo de déficit de otras vitaminas liposolubles.
+Sin embargo, la relación es débil. El puntaje alto de TxGNN (0.9942) es solo una predicción del modelo, sin respaldo de ensayos ni literatura. El efecto sobre los niveles de vitaminas es un efecto secundario nutricional, no una terapia establecida para la toxicidad vitamínica. El manejo estándar (suspender la fuente de la vitamina, cuidados de soporte y, en algunos casos, otros fármacos) ya existe, y usar orlistat con este fin conllevaría riesgo de déficit de otras vitaminas liposolubles.
 
 ## Información de Mercado en España
 

@@ -6,9 +6,9 @@ nav_order: 721
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Safinamide: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (según el grafo de conocimiento"
 monitor_inn: "Safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
+description: "Safinamide: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Safinamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Safinamida: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+## Safinamide: Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción origi
 
 Estas propiedades podrían relacionarse de forma plausible con las crisis epilépticas y los rasgos neuroinflamatorios de la encefalitis de Rasmussen. Sin embargo, esta enfermedad está impulsada principalmente por una inflamación autoinmune mediada por linfocitos T, y no se ha demostrado ningún vínculo directo entre ese mecanismo y safinamida.
 
-Por tanto, la predicción procede únicamente del grafo de conocimiento y el razonamiento mecanístico es especulativo. No se dispone de evidencia clínica ni bibliográfica que lo sustente.
+Por tanto, la puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; el razonamiento mecanístico es especulativo. No se dispone de evidencia clínica ni bibliográfica que lo sustente.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ La predicción tiene un puntaje TxGNN alto, pero no cuenta con ningún ensayo cl
 - Completar los datos del mecanismo de acción del fármaco.
 - Revisión sistemática de literatura y de registros de ensayos sobre safinamida en encefalitis de Rasmussen.
 - Estudios preclínicos que respalden una hipótesis mecanística concreta.
-- Valorar, como alternativas, las otras dos predicciones del modelo: la **mielitis** (puntaje 99.46%, L5, hipótesis muy especulativa por la heterogeneidad de la enfermedad) y la **neurodegeneración asociada a PLA2G6** (puntaje 99.22%, L5), que es la biológicamente más plausible por su solapamiento con el parkinsonismo, aunque sigue sin respaldo clínico.
+- Valorar, como alternativas, las otras dos predicciones del modelo: la **mielitis** (puntaje 0.9946, L5, hipótesis muy especulativa por la heterogeneidad de la enfermedad) y la **neurodegeneración asociada a PLA2G6** (puntaje 0.9922, L5), que es la biológicamente más plausible por su solapamiento con el parkinsonismo, aunque sigue sin respaldo clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -4,17 +4,17 @@ title: Sorafenib
 parent: Evidencia alta (L1-L2)
 nav_order: 744
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: Carcinoma hepatocelular (según el grafo de conocimiento"
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Sorafenib: De Carcinoma Hepatocelular a Liposarcoma
+## Sorafenib: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **1 ensayo clínico** (Fase 2, en sarcomas de tejidos blandos de histología
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma hepatocelular (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 345
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (nivel de evidencia L5). Indicación original: Carcinoma basocelular superficial multifocal (según el grafo de …"
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
+description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (nivel de evidencia L5). Indicación original: No cons…"
 ---
 
 # Fluorouracil
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluorouracilo: De Carcinoma Basocelular Superficial Multifocal a Rabdomiosarcoma Embrionario Botrioide de Vagina
+## Fluorouracil: Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma basocelular superficial multifocal (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Rabdomiosarcoma embrionario botrioide de vagina |
-| Puntaje de Predicción TxGNN | 99.75% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) |
+| Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es débil. El rabdomiosarcoma es un sarcoma de tejidos blandos, biológicamente distinto de los carcinomas para los que se usa fluorouracilo. El tratamiento estándar se basa en vincristina, actinomicina D y ciclofosfamida (VAC) o regímenes relacionados, no en fluorouracilo. El único respaldo es la puntuación del modelo, probablemente heredada del nodo padre "rabdomiosarcoma".
 
-Otras indicaciones predichas (rabdomiosarcoma general, subtipos parameníngeo, de vía biliar extrahepática y prostático, sarcoma hepático y síndromes de células falciformes) muestran puntuaciones similares (0.996–0.998). Tampoco cuentan con ensayos clínicos y presentan evidencia indirecta o ausente.
+Otras indicaciones predichas (rabdomiosarcoma general, subtipos parameníngeo, de vía biliar extrahepática y prostático, sarcoma hepático y síndromes de células falciformes) muestran puntuaciones similares (0.9962–0.9974). Tampoco cuentan con ensayos clínicos y presentan evidencia indirecta o ausente.
 
 ## Evidencia de Ensayos Clínicos
 

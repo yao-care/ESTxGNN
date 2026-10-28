@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lurasidone
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 491
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Lurasidone: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L3). Indicación original: Trastorno bipolar y esquizofrenia (según el grafo de conocimiento"
 monitor_inn: "lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Lurasidone: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Lurasidona: De Trastorno Bipolar y Esquizofrenia a Trastorno Afectivo Bipolar Maníaco
+## Lurasidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Lurasidona es un antipsicótico atípico, utilizado originalmente para el tratamiento del trastorno bipolar y la esquizofrenia.
-El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipolar maníaco**,
 con **1 ensayo clínico** (retirado, sin participantes) y **20 publicaciones** que actualmente respaldan esta dirección, la mayoría revisiones y metaanálisis centrados en la depresión bipolar.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno bipolar y esquizofrenia (según el grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 17 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Retinal dystrophy with or without extraocular anomalies |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

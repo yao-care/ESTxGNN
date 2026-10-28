@@ -51,10 +51,10 @@ El modelo TxGNN predice que podría ser efectivo para **queratosis seborreica**,
 |------|------|
 | Indicación Original | No disponible en los datos regulatorios (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Queratosis seborreica (seborrheic keratosis) |
-| Puntaje de Predicción TxGNN | 99,96 % |
+| Puntaje de Predicción TxGNN | 0,9996 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold (con la pregunta de investigación abierta; avanzar solo tras completar los datos de seguridad) |
 
 ---
@@ -108,15 +108,15 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, ya 
 
 | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Queratosis folicular invertida vulvar | 99,94 % | L5 | Hold |
-| Vulvovaginitis | 99,74 % | L5 | Hold |
-| Vulvitis | 99,58 % | L4 | Research Question |
-| Neoplasia vulvar | 99,51 % | L4 | Hold |
-| Ulceración vulvar | 99,50 % | L5 | Hold |
-| Neoplasia escamosa vulvar | 99,43 % | L5 | Hold |
-| Vaginitis atrófica posmenopáusica | 99,37 % | L5 | Hold |
-| Enfermedad ósea de Paget | 99,20 % | L5 | Hold |
-| Enfermedad fibroquística de mama | 99,02 % | L5 | Hold |
+| Queratosis folicular invertida vulvar | 0,9994 | L5 | Hold |
+| Vulvovaginitis | 0,9974 | L5 | Hold |
+| Vulvitis | 0,9958 | L5 | Research Question |
+| Neoplasia vulvar | 0,9951 | L5 | Hold |
+| Ulceración vulvar | 0,9950 | L5 | Hold |
+| Neoplasia escamosa vulvar | 0,9943 | L5 | Hold |
+| Vaginitis atrófica posmenopáusica | 0,9937 | L5 | Hold |
+| Enfermedad ósea de Paget | 0,9920 | L5 | Hold |
+| Enfermedad fibroquística de mama | 0,9902 | L5 | Hold |
 
 ---
 

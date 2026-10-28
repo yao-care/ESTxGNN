@@ -6,9 +6,9 @@ nav_order: 780
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Terbutaline: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Asma (también asma intrínseco, asma alérgico…"
 monitor_inn: "Terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Terbutaline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-## Terbutalina: De Asma a Enfermedad Pulmonar Obstructiva
+## Terbutaline: Enfermedad pulmonar obstructiva (obstructive lung disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **14 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma (también asma intrínseco, asma alérgico, bronquitis y enfisema pulmonar, según el grafo de conocimiento) |
-| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva (obstructive lung disease) |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -121,7 +121,7 @@ Varios ensayos de Fase 3 completados, algunos de gran tamaño, evalúan terbutal
 - Definir un plan de monitoreo de seguridad cardiovascular, metabólica (glucosa, potasio) y tiroidea, dadas las condiciones señaladas en el grafo de conocimiento.
 - Confirmar qué indicaciones figuran en las autorizaciones españolas para delimitar el alcance real del reposicionamiento.
 
-**Otras predicciones del modelo (decisión: Hold):** *malformación respiratoria* (puntaje 99.52%, nivel L4) y *síndrome de Rienhoff* (puntaje 99.38%, nivel L5). Ninguna cuenta con evidencia directa de eficacia: la única señal para la primera es un programa farmacocinético pediátrico genérico, y para la segunda no hay ensayos ni literatura.
+**Otras predicciones del modelo (decisión: Hold):** *malformación respiratoria* (puntaje 0.9952, nivel L4) y *síndrome de Rienhoff* (puntaje 0.9938, nivel L5). Ninguna cuenta con evidencia directa de eficacia: la única señal para la primera es un programa farmacocinético pediátrico genérico, y para la segunda no hay ensayos ni literatura.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

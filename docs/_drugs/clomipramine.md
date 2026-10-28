@@ -4,17 +4,17 @@ title: Clomipramine
 parent: Evidencia alta (L1-L2)
 nav_order: 197
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (nivel de evidencia L2). Indicación original: Trastorno obsesivo-compulsivo (según el grafo de conocimiento"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
+description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (anxiety disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Clomipramine
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Clomipramina: De Trastorno Obsesivo-Compulsivo a Trastorno de Ansiedad
+## Clomipramine: Trastorno de ansiedad (anxiety disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **8 ensayos clínicos** registrados y **20 publicaciones** que se han recopi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno obsesivo-compulsivo (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno de ansiedad |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de ansiedad (anxiety disorder) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold (con línea de investigación abierta en trastorno de pánico/agorafobia) |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -116,7 +116,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es muy alto (99.93%), pero los ensayos recuperados estudian el TOC, la indicación original, y no ofrecen evidencia directa para ansiedad en general. La evidencia más sólida se limita a trastorno de pánico y agorafobia, con estudios mayormente antiguos y heterogéneos, y la tolerabilidad limita su uso frente a alternativas de primera línea.
+El puntaje de TxGNN es muy alto (0.9993), pero los ensayos recuperados estudian el TOC, la indicación original, y no ofrecen evidencia directa para ansiedad en general. La evidencia más sólida se limita a trastorno de pánico y agorafobia, con estudios mayormente antiguos y heterogéneos, y la tolerabilidad limita su uso frente a alternativas de primera línea.
 
 **Para avanzar se necesita:**
 - Delimitar la indicación concreta (por ejemplo, trastorno de pánico con o sin agorafobia) en lugar de "trastorno de ansiedad" genérico.

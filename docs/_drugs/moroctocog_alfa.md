@@ -6,9 +6,9 @@ nav_order: 542
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Moroctocog Alfa: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (nivel de evidencia L5). Indicación original: Hemofilia (según el grafo de conocimiento"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+description: "Moroctocog Alfa: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los da…"
 ---
 
 # Moroctocog Alfa
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Moroctocog alfa: De Hemofilia a Trastorno de Liberación Primaria de las Plaquetas
+## Moroctocog Alfa: Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,31 +46,31 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Moroctocog alfa es un factor VIII (FVIII) recombinante con deleción del dominio B que repone el FVIII deficiente en la vía intrínseca de la coagulación. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes consultadas, pero su función como sustituto del FVIII en la hemofilia está bien establecida.
 
-Los trastornos de liberación primaria de las plaquetas se deben a un defecto en la secreción de los gránulos plaquetarios, no a una deficiencia de FVIII. Por ello, el vínculo mecanístico directo es débil. El puntaje tan alto (0,9997) refleja probablemente la proximidad en la red del grafo entre trastornos hemorrágicos, y no una base biológica demostrada.
+Los trastornos de liberación primaria de las plaquetas se deben a un defecto en la secreción de los gránulos plaquetarios, no a una deficiencia de FVIII. Por ello, el vínculo mecanístico directo es débil. El puntaje tan alto (0,9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una base biológica demostrada.
 
 **Otras predicciones del modelo (todas con nivel L5 y decisión Hold):**
 
 | Enfermedad predicha | Puntaje TxGNN | Plausibilidad mecanística |
 |------|------|------|
-| Enfermedad de von Willebrand pseudo (tipo plaquetario) | 99,97% | Vínculo indirecto: el FVIII se estabiliza con el VWF y puede verse afectado secundariamente. El tratamiento habitual es transfusión de plaquetas o desmopresina. |
-| Trombastenia de Glanzmann | 99,96% | Débil: el defecto está en la integrina αIIbβ3 y el FVIII es normal. |
-| Deficiencia adquirida de factores de coagulación | 99,88% | La más plausible: la hemofilia A adquirida es una deficiencia de FVIII. Sin embargo, los autoanticuerpos inhibidores neutralizan el FVIII y se emplean agentes de bypass e inmunosupresión. La categoría es amplia y heterogénea. |
-| Síndrome de Scott | 99,86% | Débil: el defecto está en la exposición de fosfatidilserina (TMEM16F/ANO6). |
-| Diátesis hemorrágica por defecto del receptor de colágeno | 99,73% | Sin vínculo directo: defecto plaquetario independiente del FVIII. |
-| Trastorno hemorrágico por trombocitopenia constitucional | 99,72% | Sin vínculo: afecta al número o producción de plaquetas. |
-| "Flood factor deficiency" | 99,11% | Término poco claro, posible artefacto de la ontología; debe verificarse. |
+| Enfermedad de von Willebrand pseudo (tipo plaquetario) | 0,9997 | Vínculo indirecto: el FVIII se estabiliza con el VWF y puede verse afectado secundariamente. El tratamiento habitual es transfusión de plaquetas o desmopresina. |
+| Trombastenia de Glanzmann | 0,9996 | Débil: el defecto está en la integrina αIIbβ3 y el FVIII es normal. |
+| Deficiencia adquirida de factores de coagulación | 0,9988 | La más plausible: la hemofilia A adquirida es una deficiencia de FVIII. Sin embargo, los autoanticuerpos inhibidores neutralizan el FVIII y se emplean agentes de bypass e inmunosupresión. La categoría es amplia y heterogénea. |
+| Síndrome de Scott | 0,9986 | Débil: el defecto está en la exposición de fosfatidilserina (TMEM16F/ANO6). |
+| Diátesis hemorrágica por defecto del receptor de colágeno | 0,9973 | Sin vínculo directo: defecto plaquetario independiente del FVIII. |
+| Trastorno hemorrágico por trombocitopenia constitucional | 0,9972 | Sin vínculo: afecta al número o producción de plaquetas. |
+| "Flood factor deficiency" | 0,9911 | Término poco claro, posible artefacto de la ontología; debe verificarse. |
 
 ## Evidencia de Ensayos Clínicos
 

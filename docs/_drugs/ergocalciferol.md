@@ -4,17 +4,17 @@ title: Ergocalciferol
 parent: Solo predicción del modelo (L5)
 nav_order: 303
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ergocalciferol: nueva indicación predicha, Hipoparatiroidismo aislado familiar por alteración de la secreción de… (nivel de evidencia L5). Indicación original: Osteoporosis, hipoparatiroidismo, raqui…"
+indication_count: 6
 monitor_inn: "ergocalciferol"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome", "vitamin D-dependent rickets"]
+predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome"]
+last_modified_at: 2026-10-23
+description: "Ergocalciferol: nueva indicación predicha, Acromesomelic dysplasia, Campailla Martinelli type (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ergocalciferol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ergocalciferol: De Osteoporosis y Trastornos del Metabolismo del Calcio y la Vitamina D a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+## Ergocalciferol: Acromesomelic dysplasia, Campailla Martinelli type
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ergocalciferol (vitamina D2) es una vitamina liposoluble que se usa en la prevención y el tratamiento de la deficiencia de vitamina D y de enfermedades óseas y del metabolismo del calcio y el fósforo, como el raquitismo, la osteomalacia, la osteoporosis y el hipoparatiroidismo.
-El modelo TxGNN predice que podría ser efectivo para **hipoparatiroidismo aislado familiar por alteración de la secreción de PTH**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción específica, por lo que se trata únicamente de una predicción computacional.
+El ergocalciferol (vitamina D2) es una vitamina liposoluble. El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **displasia acromesomélica tipo Campailla Martinelli**, una displasia esquelética genética muy rara; esta puntuación proviene del modelo y puede reflejar similitudes que aprendió entre enfermedades relacionadas, no evidencia biológica. Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoporosis, hipoparatiroidismo, raquitismo, osteomalacia y deficiencia de vitamina D (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hipoparatiroidismo aislado familiar por alteración de la secreción de PTH |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acromesomelic dysplasia, Campailla Martinelli type |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ergocalciferol es una forma nutricional de vitamina D. Se convierte en el hígado y el riñón en metabolitos activos que favorecen la absorción intestinal de calcio y fósforo. Su eficacia en trastornos del metabolismo mineral y óseo está bien establecida, y mecanísticamente podría ser aplicable al hipoparatiroidismo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el ergocalciferol es un precursor de la vitamina D que, tras su activación, regula la absorción de calcio y fosfato y la mineralización ósea. Por eso se relaciona con enfermedades óseas y del metabolismo mineral.
 
-La relación con la indicación original es estrecha. El hipoparatiroidismo ya figura entre las indicaciones originales del fármaco en el grafo de conocimiento. Los análogos de la vitamina D aumentan la absorción de calcio cuando falta la hormona paratiroidea (PTH), de modo que esta forma familiar rara resulta biológicamente plausible como extensión.
+La displasia acromesomélica tipo Campailla-Martinelli es una displasia esquelética genética rara. El análisis disponible no identifica ningún vínculo mecanístico entre la vitamina D2 y esta enfermedad. No se espera que la suplementación con vitamina D corrija el defecto genético de fondo.
 
-Conviene interpretar el puntaje con cautela. Esta predicción probablemente se solapa con la indicación de hipoparatiroidismo ya existente y no representa un uso realmente nuevo. No hay ensayos ni literatura específicos para este subtipo familiar, por lo que el puntaje alto (99.85%) es solo una predicción del modelo.
+La puntuación alta del modelo es una predicción computacional. Probablemente refleja la proximidad en la red del conocimiento entre enfermedades óseas, y no un beneficio terapéutico demostrado. No se aportaron ensayos ni literatura que la sustenten.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -73,35 +72,33 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61021 | VITALIPID INFANTIL | Concentrado para solución para perfusión | No disponible en los datos compilados |
-| 61020 | VITALIPID ADULTOS | Concentrado para solución para perfusión | No disponible en los datos compilados |
+| 61021 | VITALIPID INFANTIL | Concentrado para solución para perfusión | Texto de indicación no disponible |
+| 61020 | VITALIPID ADULTOS | Concentrado para solución para perfusión | Texto de indicación no disponible |
 
-Ambas autorizaciones están vigentes, corresponden a Fresenius Kabi España, S.A.U., y son productos de un solo principio activo según el registro.
+Ambas autorizaciones están vigentes y pertenecen a Fresenius Kabi España, S.A.U. Son preparados para perfusión. No existe aprobación local conocida del ergocalciferol para la displasia acromesomélica.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto de prospecto): hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, hiperparatiroidismo, osteítis fibrosa, sarcoidosis, enfermedad renal, enfermedad hepática y de la vesícula biliar, hipertensión, fibrilación auricular, diabetes mellitus y cetoacidosis diabética, trastornos de la coagulación, hiperoxaluria primaria, hemocromatosis y otros trastornos del metabolismo del hierro, enfermedad de Wilson, hiperlipidemia, y cáncer de mama y de próstata, entre otras.
+No se dispone de advertencias ni contraindicaciones extraídas del prospecto. Consultar el prospecto para esa información.
+
+- **Contraindicaciones registradas en el grafo de conocimiento** (relaciones del grafo, no texto de etiqueta): hipercalcemia, nefrocalcinosis, hiperparavtiroidismo, sarcoidosis, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hipertensión, diabetes mellitus, cetoacidosis diabética, fibrilación auricular, trastornos del metabolismo del fósforo y del hierro, enfermedad de Wilson, hiperoxaluria primaria, hiperlipidemia, anemia falciforme, cáncer de próstata y carcinoma de mama femenino, entre otras.
 - **Interacciones farmacológicas** (55 registradas):
-  - **Mayores:** colecalciferol, calcifediol, calcitriol y doxercalciferol. Se trata de otros compuestos de vitamina D, con riesgo de efecto aditivo e hipercalcemia.
-  - **Moderadas (principales):** diuréticos tiazídicos (hidroclorotiazida, clorotiazida, clortalidona), digoxina, carbamazepina, barbitúricos (amobarbital, butalbital), rifabutina, resinas secuestradoras de ácidos biliares (colestiramina, colesevelam, colestipol), sevelámero, óxido de magnesio y calcipotriol y calcitriol tópicos.
-  - **Menor:** cimetidina.
+  - **Mayores**: colecalciferol, calcifediol, calcitriol y doxercalciferol. Riesgo de efecto aditivo y de hipercalcemia al combinar análogos de vitamina D.
+  - **Moderadas** (ejemplos): diuréticos tiazídicos (hidroclorotiazida, clorotiazida, clortalidona), digoxina, carbamazepina, barbitúricos (amobarbital, butalbital), rifabutina, resinas secuestrantes (colestiramina, colesevelam, colestipol), sevelámero, óxido de magnesio y análogos tópicos de vitamina D.
+  - **Menores**: cimetidina.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción solo cuenta con el respaldo del modelo (nivel L5), sin ensayos clínicos ni literatura específica para este subtipo familiar de hipoparatiroidismo. Además, probablemente se solapa con una indicación ya existente del fármaco.
+La predicción se basa solo en la puntuación del modelo, sin ensayos clínicos ni literatura sobre esta enfermedad, y no hay un mecanismo plausible que la respalde. Por eso el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Revisar el prospecto de las autorizaciones de AEMPS para obtener las advertencias, contraindicaciones e indicaciones aprobadas.
-- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Confirmar si esta forma familiar constituye realmente un uso nuevo o queda cubierta por la indicación existente de hipoparatiroidismo.
-- Buscar literatura o casos clínicos específicos sobre el hipoparatiroidismo aislado familiar con vitamina D2.
-- Definir un plan de monitoreo de calcio, fósforo, PTH y 25(OH)D, con vigilancia del riesgo de hipercalcemia.
-- Valorar si la formulación comercializada en España (perfusión de multivitaminas liposolubles) es adecuada para esta indicación.
-
-**Nota complementaria:** entre las otras indicaciones predichas, la **osteodistrofia renal** (puntaje 99.67%) tiene mayor respaldo (nivel L3: un ensayo de Fase 4 de estado desconocido, un estudio comparativo con calcitriol y guías clínicas). Se recomienda evaluarla como candidata prioritaria con salvaguardas, vigilando calcio, fósforo y PTH.
+- Una hipótesis mecanística que explique por qué la vitamina D2 podría actuar sobre esta displasia genética.
+- Estudios preclínicos o series de casos que evalúen el ergocalciferol en esta enfermedad.
+- Datos de mecanismo de acción y de seguridad del prospecto (advertencias y contraindicaciones).
+- Valorar candidatos con evidencia más sólida entre las predicciones del mismo farmaco, por ejemplo la osteodistrofia renal (nivel L3, con ensayo y literatura directos).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

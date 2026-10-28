@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mianserin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 522
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Mianserin: nueva indicación predicha, Trastorno distímico (dysthymic disorder) (nivel de evidencia L4). Indicación original: Depresión unipolar / depresión endógena / trastorno depresivo mayor /…"
 monitor_inn: "mianserin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "neurotic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
+description: "Mianserin: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mianserin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,28 +33,28 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Mianserina: De Depresión Unipolar a Trastorno Distímico
+## Mianserin: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Mianserina es un antidepresivo tetracíclico, comercializado en España como Lantanon, utilizado originalmente para el tratamiento de la depresión (unipolar, endógena y trastorno depresivo mayor) y los trastornos de ansiedad.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno distímico** (distimia), con **0 ensayos clínicos** y **1 publicación** de nivel de clase (un metaanálisis de antidepresivos) que respaldan indirectamente esta dirección.
+El modelo TxGNN predice que podría ser efectivo para la **tortícolis paroxística benigna de la infancia**, con **0 ensayos clínicos** y **1 publicación** de nivel de clase (un metaanálisis de antidepresivos) que respaldan indirectamente esta dirección.
 Se trata, por tanto, de una hipótesis basada casi exclusivamente en la predicción del modelo y en la proximidad con la indicación original.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Depresión unipolar / depresión endógena / trastorno depresivo mayor / trastorno de ansiedad (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno distímico (dysthymic disorder) |
-| Puntaje de Predicción TxGNN | 99,45 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Benign paroxysmal torticollis of infancy |
+| Puntaje de Predicción TxGNN | 0.9949 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
-> Nota: la indicación predicha de mayor puntaje (99,49 %) es la tortícolis paroxística benigna de la infancia, pero carece de ensayos, literatura y justificación mecanística, por lo que probablemente sea un artefacto de la topología del grafo. Este informe se centra en el segundo candidato, la distimia, por ser el primero con respaldo indirecto plausible. Otras predicciones en el mismo conjunto (melancolía, depresión neurótica, trastorno neurótico) se solapan con las indicaciones ya establecidas y no constituyen reposicionamiento genuino.
+> Nota: la indicación predicha de mayor puntaje (0,9949) es la tortícolis paroxística benigna de la infancia, pero carece de ensayos, literatura y justificación mecanística. El puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## ¿Por qué es Razonable esta Predicción?
 

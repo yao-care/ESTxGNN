@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **Carcinoma Endocervical**
 |------|------|
 | Indicación Original | Carcinoma de células renales (carcinoma renal de células claras, adenocarcinoma de células renales) |
 | Nueva Indicación Predicha | Carcinoma endocervical |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,9 +63,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El carcinoma renal y los carcinomas cervicales comparten una dependencia relevante de la angiogénesis mediada por VEGF. En cáncer cervical avanzado, otro fármaco antiangiogénico (bevacizumab) ha mostrado beneficio, lo que vuelve plausible, en teoría, la inhibición de la vía VEGFR.
 
-Sin embargo, el puntaje alto de TxGNN (0.998) es solo una predicción del modelo y probablemente refleja, en parte, la proximidad entre nodos de enfermedad en el grafo de conocimiento. No se recuperaron ensayos clínicos ni literatura que respalden el uso de tivozanib en esta indicación, y la similitud con la indicación original aún no ha sido evaluada.
+Sin embargo, el puntaje alto de TxGNN (0.9981) proviene del modelo TxGNN (aprendizaje profundo), es solo una predicción y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No se recuperaron ensayos clínicos ni literatura que respalden el uso de tivozanib en esta indicación, y la similitud con la indicación original aún no ha sido evaluada.
 
-Otras predicciones del modelo (todas con nivel L5 y sin evidencia) incluyen adenocarcinomas del ligamento uterino y variantes raras de adenocarcinoma cervical, con puntajes entre 99.76% y 99.80%.
+Otras predicciones del modelo (todas con nivel L5 y sin evidencia) incluyen adenocarcinomas del ligamento uterino y variantes raras de adenocarcinoma cervical, con puntajes entre 0.9976 y 0.9980.
 
 ---
 

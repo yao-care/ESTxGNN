@@ -4,17 +4,17 @@ title: Gefitinib
 parent: Solo predicción del modelo (L5)
 nav_order: 371
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Cáncer de pulmón no microcítico (según el grafo de conocimiento"
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
+description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Gefitinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Gefitinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+## Gefitinib: Fibromatosis gingival (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Fibromatosis gingival (fibromatosis, gingival) |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, gefitinib inhibe la tirosina quinasa del EGFR, y su eficacia en el cáncer de pulmón no microcítico con mutaciones de EGFR está comprobada.
 
-Mecanísticamente, la señalización de EGFR participa en la proliferación y el crecimiento celular, por lo que podría influir en procesos fibroproliferativos como la fibromatosis gingival. Sin embargo, esta relación es especulativa: no existe ningún estudio, ensayo ni publicación en los datos compilados que la respalde. El puntaje de 99.89% (posición 2513 del ranking del modelo) es el único sustento de esta predicción.
+Mecanísticamente, la señalización de EGFR participa en la proliferación y el crecimiento celular, por lo que podría influir en procesos fibroproliferativos como la fibromatosis gingival. Sin embargo, esta relación es especulativa: no existe ningún estudio, ensayo ni publicación en los datos compilados que la respalde. El puntaje de 0.9989 (posición 2513 del ranking del modelo) es el único sustento de esta predicción.
 
 Además, la indicación original (un cáncer maligno) y la nueva (un crecimiento gingival fibroso, generalmente benigno) son muy distintas. Esto eleva el listón de la relación beneficio-riesgo, ya que se trataría de usar un fármaco oncológico en una condición no maligna.
 

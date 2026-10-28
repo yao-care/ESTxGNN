@@ -6,9 +6,9 @@ nav_order: 657
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida vulvar (nivel de evidencia L5). Indicación original: Dermatosis inflamatorias cutáneas (dermatitis atópica…"
 monitor_inn: "Prednicarbate"
 predicted_indications: ["vulvar inverted follicular keratosis", "lichen planus pigmentosus", "hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
+description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Prednicarbate
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Prednicarbato: De Dermatosis Inflamatorias Cutáneas a Queratosis Folicular Invertida Vulvar
+## Prednicarbate: Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,21 +46,21 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatosis inflamatorias cutáneas (dermatitis atópica, de contacto y seborreica, enfermedad liquenoide, entre otras). Los textos de indicación de las autorizaciones españolas no están disponibles; la información procede del grafo de conocimiento |
-| Nueva Indicación Predicha | Queratosis folicular invertida vulvar |
-| Puntaje de Predicción TxGNN | 99,88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, prednicarbato es un corticosteroide tópico de potencia media, con efectos antiinflamatorios y antiproliferativos, y su eficacia en dermatosis inflamatorias ha sido establecida. Mecanísticamente, podría ser aplicable a la nueva indicación.
 
-La relación con la indicación original es la queratosis seborreica, una lesión queratinocítica benigna relacionada, para la cual el prednicarbato ya figura como indicado en el grafo de conocimiento. Este es el principal vínculo que sustenta la predicción.
+La relación con la indicación original es la queratosis seborreica, una lesión queratinocítica benigna relacionada, para la cual el prednicarbato ya figura como indicado. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-Sin embargo, la queratosis folicular invertida se trata habitualmente mediante escisión, y no existe evidencia que respalde un papel de los corticosteroides tópicos. El puntaje elevado (99,88%) es solo una predicción del modelo y debe interpretarse con cautela.
+Sin embargo, la queratosis folicular invertida se trata habitualmente mediante escisión, y no existe evidencia que respalde un papel de los corticosteroides tópicos. El puntaje elevado (0,9988) es solo una predicción del modelo y debe interpretarse con cautela.
 
 ### Otras Predicciones del Modelo
 
@@ -68,12 +68,12 @@ Todas con nivel de evidencia L5, sin ensayos ni literatura, y recomendación Hol
 
 | Posición | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Liquen plano pigmentoso | 99,64% | Dermatosis liquenoide inflamatoria; plausible por la indicación existente en enfermedad liquenoide |
-| 3 | Liquen plano hipertrófico | 99,64% | Vínculo biológico fuerte, pero un agente de potencia media podría ser insuficiente en lesiones gruesas |
-| 4 | Liquen plano atrófico anular | 99,64% | La atrofia es un efecto adverso conocido de los corticosteroides; consideración de seguridad |
-| 5 | Penfigoide liquenoide (liquen plano penfigoide) | 99,53% | Plausibilidad moderada; los casos graves suelen requerir inmunosupresión sistémica |
-| 6 | Sensibilización a metacrilato de 2-hidroxietilo | 99,47% | Manejo sintomático de dermatitis de contacto ya indicada; no es un uso nuevo |
-| 7 | Linfoma cutáneo primario de células B | 99,40% | Extrapolación por analogía con el linfoma cutáneo de células T; poco probable que modifique la enfermedad |
+| 2 | Liquen plano pigmentoso | 0,9964 | Dermatosis liquenoide inflamatoria; plausible por la indicación existente en enfermedad liquenoide |
+| 3 | Liquen plano hipertrófico | 0,9964 | Vínculo biológico fuerte, pero un agente de potencia media podría ser insuficiente en lesiones gruesas |
+| 4 | Liquen plano atrófico anular | 0,9964 | La atrofia es un efecto adverso conocido de los corticosteroides; consideración de seguridad |
+| 5 | Penfigoide liquenoide (liquen plano penfigoide) | 0,9953 | Plausibilidad moderada; los casos graves suelen requerir inmunosupresión sistémica |
+| 6 | Sensibilización a metacrilato de 2-hidroxietilo | 0,9947 | Manejo sintomático de dermatitis de contacto ya indicada; no es un uso nuevo |
+| 7 | Linfoma cutáneo primario de células B | 0,9940 | Extrapolación por analogía con el linfoma cutáneo de células T; poco probable que modifique la enfermedad |
 
 ## Evidencia de Ensayos Clínicos
 

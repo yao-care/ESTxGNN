@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ens
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones de AEMPS (el texto de indicación está vacío) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.18% |
+| Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 En la amenorrea hipotalámica funcional (AHF), la secreción pulsátil de GnRH está alterada, lo que reduce las gonadotropinas y la función ovárica y provoca un estado hipoestrogénico. Se plantea que dosis bajas de estrógenos podrían actuar como moduladores neuroendocrinos. Un estudio fisiológico pequeño en humanos (2012, PMID 22137494) comunicó que la administración de estriol modulaba la secreción de LH en mujeres con AHF.
 
-Esto respalda un mecanismo plausible y datos fisiológicos humanos iniciales, pero **no demuestra eficacia clínica** para restablecer la menstruación. El puntaje de 0.99 es solo una predicción computacional. La terapia estrogénica en amenorrea hipoestrogénica es práctica establecida con estradiol, pero la eficacia y seguridad específicas del estriol (hueso, endometrio) no están establecidas.
+Esto respalda un mecanismo plausible y datos fisiológicos humanos iniciales, pero **no demuestra eficacia clínica** para restablecer la menstruación. El puntaje de 0.9918 es solo una predicción computacional. La terapia estrogénica en amenorrea hipoestrogénica es práctica establecida con estradiol, pero la eficacia y seguridad específicas del estriol (hueso, endometrio) no están establecidas.
 
 ---
 

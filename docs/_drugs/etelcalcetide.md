@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **hiperfosfatemia**, pero 
 |------|------|
 | Indicación Original | Hiperparatiroidismo (secundario, en enfermedad renal crónica en hemodiálisis) |
 | Nueva Indicación Predicha | Hiperfosfatemia |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -97,7 +97,7 @@ Consultar el prospecto para el resto de la información de seguridad (advertenci
 **Decisión: Hold**
 
 **Justificación:**
-La puntuación de TxGNN es alta (99.42%), pero no hay ensayos clínicos y la literatura se centra en el hiperparatiroidismo secundario, no en la hiperfosfatemia como indicación independiente. La señal probablemente refleja la coocurrencia de ambas enfermedades en pacientes en diálisis.
+La puntuación de TxGNN es alta (0.9942), pero no hay ensayos clínicos y la literatura se centra en el hiperparatiroidismo secundario, no en la hiperfosfatemia como indicación independiente. La señal probablemente refleja la coocurrencia de ambas enfermedades en pacientes en diálisis.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción detallados y verificados

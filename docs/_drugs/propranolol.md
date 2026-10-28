@@ -4,17 +4,17 @@ title: Propranolol
 parent: Solo predicción del modelo (L5)
 nav_order: 670
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Propranolol: nueva indicación predicha, Miopatía distal tipo Tateyama (nivel de evidencia L5). Indicación original: Hipertensión (según el grafo de conocimiento"
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol: nueva indicación predicha, Miopatía distal tipo Tateyama (distal myopathy, Tateyama type) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Propranolol: De Trastornos Hipertensivos y Cardiovasculares a Distrofia Miopática Distal Tipo Tateyama
+## Propranolol: Miopatía distal tipo Tateyama (distal myopathy, Tateyama type)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para la **miopatía distal tipo
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Miopatía distal tipo Tateyama |
-| Puntaje de Predicción TxGNN | 99.40% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Miopatía distal tipo Tateyama (distal myopathy, Tateyama type) |
+| Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -65,11 +65,10 @@ Conviene además tener en cuenta que el grafo de conocimiento registra la miopat
 
 | Rango | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|------|
-| 2 | Miopatía congénita con exceso de filamentos finos | 99.30% | L5 | Hold |
-| 3 | Miocardiopatía hipertrófica por entrenamiento atlético intenso | 99.17% | L5 | Hold |
-| 4 | Condroma | 99.14% | L5 | Hold |
-| 5 | Miocardiopatía cirrótica | 99.12% | L4 | Pregunta de investigación |
-| 6 | Miocardiopatía | 99.12% | L3 | Pregunta de investigación |
+| 2 | Miopatía congénita con exceso de filamentos finos | 0.9930 | L5 | Hold |
+| 4 | Condroma | 0.9914 | L5 | Hold |
+| 5 | Miocardiopatía cirrótica | 0.9912 | L5 | Pregunta de investigación |
+| 6 | Miocardiopatía | 0.9912 | L5 | Pregunta de investigación |
 
 Las predicciones 5 y 6 son las que cuentan con algo de literatura (cirrosis con intervalo QT prolongado y estudios hemodinámicos en miocardiopatía hipertrófica), aunque esta última se solapa con indicaciones ya existentes.
 

@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Evidencia moderada (L3-L4)
 nav_order: 595
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Oxcarbazepine: nueva indicación predicha, Epilepsia visual (nivel de evidencia L4). Indicación original: Epilepsia parcial (focal) y epilepsia motora parcial (según el grafo…"
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Oxcarbazepina: De Epilepsia Parcial a Epilepsia Visual
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, aunq
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia parcial (focal) y epilepsia motora parcial (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Epilepsia visual |
-| Puntaje de Predicción TxGNN | 99,95 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Restless legs syndrome |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---

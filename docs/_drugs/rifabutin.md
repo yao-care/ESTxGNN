@@ -48,10 +48,10 @@ Esta dirección cuenta con **34 ensayos clínicos** y **20 publicaciones** recup
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización de la AEMPS |
 | Nueva Indicación Predicha | Infección por VIH (en la práctica, infecciones micobacterianas oportunistas asociadas al VIH) |
-| Puntaje de Predicción TxGNN | 99,88% |
+| Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

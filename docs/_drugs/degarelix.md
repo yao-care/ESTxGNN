@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **
 |------|------|
 | Indicación Original | No disponible en los datos de la licencia AEMPS (texto de indicación vacío) |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, degarelix es un antagonista del receptor de GnRH: bloquea la señal hipotalámica-hipofisaria, reduce la secreción de LH y FSH y, con ello, los andrógenos gonadales. Este tipo de fármaco se utiliza en patologías dependientes de andrógenos.
 
-La relación con la hipertricosis es **débil**. A diferencia del hirsutismo, la hipertricosis generalmente no depende de los andrógenos. La supresión androgénica solo podría influir en el crecimiento del vello en subtipos sensibles a los andrógenos. La puntuación de 0,9999 proviene exclusivamente del grafo de conocimiento, sin ensayos ni literatura que la respalden.
+La relación con la hipertricosis es **débil**. A diferencia del hirsutismo, la hipertricosis generalmente no depende de los andrógenos. La supresión androgénica solo podría influir en el crecimiento del vello en subtipos sensibles a los andrógenos. La puntuación de 0,9999 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura que la respalden.
 
 Las demás predicciones del modelo tampoco muestran un vínculo farmacológico sólido. Las dos de mayor relevancia biológica, la pubertad precoz familiar limitada al varón y la pubertad precoz central, se consideran únicamente preguntas de investigación. En la primera el mecanismo va en contra del beneficio, porque la mutación activadora de LHCGR actúa por debajo del bloqueo de GnRH. En la segunda hay coherencia mecanística, pero no existen datos pediátricos y degarelix es una formulación depot desarrollada para adultos. En la urticaria alérgica, la asociación podría reflejar un efecto adverso y no un beneficio.
 

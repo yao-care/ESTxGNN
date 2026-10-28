@@ -48,10 +48,10 @@ Alitretinoína (ácido 9-cis-retinoico) es un retinoide que se comercializa en E
 |------|------|
 | Indicación Original | No disponible en los datos de autorización (el texto de indicación está vacío). La información farmacológica señala eczema crónico grave de las manos |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---

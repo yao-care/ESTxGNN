@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **acné (enfermedad)**, co
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Acné (enfermedad) |
-| Puntaje de Prediccion TxGNN | 99.94% |
+| Puntaje de Prediccion TxGNN | 0.9994 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Numero de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Numero de Autorizaciones | 4 (vigentes: 4) |
 | Decision Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Acitretina es un retinoide oral de segunda generación que modula la diferenciac
 
 Los retinoides reducen la actividad de las glándulas sebáceas y la hiperqueratinización folicular, procesos centrales en la patogenia del acné. Sin embargo, el retinoide de referencia para el acné noduloquístico es la isotretinoína, no la acitretina. La señal más fuerte en los datos corresponde al acné inverso / hidradenitis supurativa (HS), una enfermedad de oclusión folicular distinta del acné vulgar.
 
-El puntaje TxGNN de 0.999 probablemente refleja la pertenencia a la clase de los retinoides y la ontología compartida de enfermedades foliculares, más que evidencia directa en acné vulgar. La predicción debe interpretarse como una pregunta de investigación.
+El puntaje TxGNN de 0.9994 probablemente refleja la pertenencia a la clase de los retinoides y la ontología compartida de enfermedades foliculares, más que evidencia directa en acné vulgar. La predicción debe interpretarse como una pregunta de investigación.
 
 ---
 

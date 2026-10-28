@@ -6,9 +6,9 @@ nav_order: 369
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Galcanezumab: nueva indicación predicha, Deficiencia de cofactor II de la heparina (nivel de evidencia L5). Indicación original: Migraña (según el grafo de conocimiento"
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Galcanezumab: nueva indicación predicha, Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Galcanezumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Galcanezumab: De Migraña a Deficiencia de Cofactor II de la Heparina
+## Galcanezumab: Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofact
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Migraña (según el grafo de conocimiento; el texto de indicación autorizada no está disponible en los datos de AEMPS) |
-| Nueva Indicación Predicha | Deficiencia de cofactor II de la heparina |
-| Puntaje de Predicción TxGNN | 99,50% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) |
+| Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ En los datos compilados para este informe, el mecanismo de acción original del 
 
 **La predicción no resulta biológicamente razonable.** La deficiencia de cofactor II de la heparina es una trombofilia causada por una menor inhibición de la trombina (vía SERPIND1) y no involucra la señalización del CGRP. No se ha identificado ningún vínculo mecanístico creíble entre ambas condiciones.
 
-El puntaje alto (0,995) parece ser un artefacto del grafo de conocimiento, probablemente por proximidad en la red a procesos vasculares o de coagulación. Además, las otras dos predicciones principales (deficiencia de antitrombina tipo 2, con 99,41%, y exceso de factor 5 con trombosis espontánea, con 99,41%) son también trombofilias con puntajes casi idénticos. Esto sugiere un artefacto común del modelo y no señales independientes.
+El puntaje alto (0,995) parece ser un artefacto del modelo TxGNN (aprendizaje profundo), probablemente por proximidad en la red a procesos vasculares o de coagulación. Además, las otras dos predicciones principales (deficiencia de antitrombina tipo 2, con 0,9941, y exceso de factor 5 con trombosis espontánea, con 0,9941) son también trombofilias con puntajes casi idénticos. Esto sugiere un artefacto común del modelo y no señales independientes.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -85,7 +85,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre el bloqueo del CGRP y las trombofilias hereditarias. Los tres candidatos predichos presentan el mismo patrón, lo que apunta a un artefacto del grafo de conocimiento.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre el bloqueo del CGRP y las trombofilias hereditarias. Los tres candidatos predichos presentan el mismo patrón, lo que apunta a un artefacto del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA) del fármaco

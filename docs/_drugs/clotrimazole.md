@@ -6,9 +6,9 @@ nav_order: 202
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clotrimazole: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Tiña del pie (pie de atleta)…"
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clotrimazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Clotrimazol: De Tiña del Pie a Acné
+## Clotrimazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero solo exist
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tiña del pie (pie de atleta), tomada del grafo de conocimiento porque las autorizaciones españolas no incluyen texto de indicación |
-| Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Un posible vínculo con el acné sería el papel de *Malassezia* (*Pityrosporum*) en la inflamación folicular. Otra posibilidad sería el efecto de una combinación tópica con antibiótico y corticoide. Sin embargo, esta relación es hipotética. El único ensayo disponible usa una combinación fija (beclometasona + gentamicina + clotrimazol), por lo que no se puede aislar la contribución del clotrimazol.
 
-El puntaje TxGNN (99.86%) es una predicción computacional y no está respaldado por evidencia clínica directa. Debe interpretarse con cautela.
+El puntaje TxGNN (0.9986) es una predicción computacional y no está respaldado por evidencia clínica directa. Debe interpretarse con cautela.
 
 ---
 

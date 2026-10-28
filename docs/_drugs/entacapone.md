@@ -6,9 +6,9 @@ nav_order: 291
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (según el grafo de conocimiento"
 monitor_inn: "Entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
+description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Entacapone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Entacapona: De Enfermedad de Parkinson a Neurodegeneración Asociada a PLA2G6
+## Entacapone: Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **neurodegeneración asoci
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
-| Puntaje de Predicción TxGNN | 99.76% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration) |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -65,11 +65,11 @@ Cualquier beneficio sería solo sintomático, como coadyuvante de levodopa, y no
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Encefalitis subaguda de Rasmussen | 99.73% | L5 | Sin vínculo mecanístico claro |
-| Mielitis | 99.63% | L5 | Sin mecanismo plausible |
-| Parálisis agitante juvenil de Hunt | 99.60% | L5 | Término histórico de parkinsonismo juvenil; extensión de la indicación original |
-| Demencia con cuerpos de Lewy | 99.25% | L4 | Evidencia preclínica indirecta; pregunta de investigación |
-| Parálisis supranuclear progresiva-síndrome corticobasal | 99.04% | L5 | Poca respuesta a levodopa; pregunta de investigación |
+| Encefalitis subaguda de Rasmussen | 0.9973 | L5 | Sin vínculo mecanístico claro |
+| Mielitis | 0.9963 | L5 | Sin mecanismo plausible |
+| Parálisis agitante juvenil de Hunt | 0.9960 | L5 | Término histórico de parkinsonismo juvenil; extensión de la indicación original |
+| Demencia con cuerpos de Lewy | 0.9925 | L4 | Evidencia preclínica indirecta; pregunta de investigación |
+| Parálisis supranuclear progresiva-síndrome corticobasal | 0.9904 | L5 | Poca respuesta a levodopa; pregunta de investigación |
 
 Otras predicciones (deficiencia de transaldolasa, miopatía mitocondrial infantil letal, deficiencia de fructosa-1,6-bisfosfatasa, polimicrogiria perisilviana) carecen de vínculo mecanístico identificado.
 

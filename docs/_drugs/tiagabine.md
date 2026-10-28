@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Tiagabine
-parent: Evidencia moderada (L3-L4)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 792
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Tiagabine: nueva indicación predicha, Epilepsia visual (nivel de evidencia L4). Indicación original: Epilepsia parcial (según el grafo de conocimiento"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Tiagabine: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Tiagabine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,73 +32,47 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Tiagabina: De Epilepsia Parcial a Epilepsia Visual
+<!-- known-uses-page -->
+<!-- description: Tiagabine: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata -->
+## Tiagabine: Usos conocidos y situación de mercado en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+El modelo de aprendizaje profundo TxGNN generó candidatos para Tiagabine con una puntuación ≥ 0,99. Todos los candidatos que se pueden rastrear hasta una fuente corresponden a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco.
 
-Tiagabina es un anticonvulsivante inhibidor selectivo de la recaptación de GABA (GAT-1), utilizado originalmente para el tratamiento de la epilepsia parcial.
-El modelo TxGNN predice que podría ser efectivo para **Epilepsia Visual**,
-pero actualmente no hay ensayos clínicos registrados y la literatura disponible (**16 publicaciones**) es general (revisiones y guías), sin estudios específicos de esta indicación.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Epilepsia parcial (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Epilepsia visual |
-| Puntaje de Predicción TxGNN | 99,25% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 0 |
+| Nivel de evidencia | No aplicable |
+| Situación de mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobados (respaldados por una autorización o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguno | — |
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida y la literatura revisada, tiagabina inhibe selectivamente el transportador GAT-1 (gen *SLC6A1*), aumentando la concentración extracelular de GABA y reforzando la inhibición neuronal. Este mecanismo es único entre los fármacos antiepilépticos (PMID 10530690, 15094857).
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguno | — |
 
-La epilepsia visual es un trastorno focal, de origen típicamente occipital, muy próximo a la epilepsia parcial, indicación original del fármaco. El puntaje alto de TxGNN (0,99) probablemente refleja esta cercanía entre ambas enfermedades en el grafo de conocimiento, más que una señal terapéutica independiente.
-
-Mecanísticamente, reforzar la inhibición GABAérgica podría ser aplicable a crisis focales de origen occipital, pero no se dispone de datos específicos en epilepsia visual. Además, la literatura señala precauciones: tiagabina se ha descrito en casos de estatus epiléptico inducido por fármacos (PMID 26210064) y existe una revisión sobre efectos en los campos visuales de fármacos GABAérgicos (PMID 12588906), relevante para una población con manifestaciones visuales.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Guía clínica | Neurology | Actualización de la guía AAN/AES sobre fármacos antiepilépticos nuevos en epilepsia de nueva aparición |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Revisión | Neuropharmacology | Mecanismos de acción de los fármacos antiepilépticos actuales |
-| [10530690](https://pubmed.ncbi.nlm.nih.gov/10530690/) | 1999 | Revisión | Epilepsia | Tiagabina inhibe la recaptación de GABA; eficaz como terapia añadida en crisis parciales; sin efectos relevantes sobre el metabolismo hepático ni los niveles de otros FAE |
-| [12588906](https://pubmed.ncbi.nlm.nih.gov/12588906/) | 2003 | Revisión | J Neurol Neurosurg Psychiatry | Efectos de vigabatrina y tiagabina sobre los campos visuales (sin resumen disponible) |
-| [26210064](https://pubmed.ncbi.nlm.nih.gov/26210064/) | 2015 | Revisión | Epilepsy & Behavior | Estatus epiléptico inducido por fármacos; los FAE GABAérgicos, incluida tiagabina, pueden exacerbar crisis en epilepsias generalizadas |
-| [17560495](https://pubmed.ncbi.nlm.nih.gov/17560495/) | 2007 | Revisión | Pediatric Neurology | Antiepilépticos y función visual: alteraciones del campo visual y de la visión del color |
-| [9097364](https://pubmed.ncbi.nlm.nih.gov/9097364/) | 1997 | Revisión | Seminars in Pediatric Neurology | Eficacia en crisis parciales en adultos y adolescentes; datos pediátricos preliminares alentadores |
-| [8039477](https://pubmed.ncbi.nlm.nih.gov/8039477/) | 1994 | Revisión | Epilepsia | Efecto anticonvulsivante en modelos animales y en un ensayo controlado con placebo en crisis parciales complejas |
-| [15094857](https://pubmed.ncbi.nlm.nih.gov/15094857/) | 1998 | Revisión | Drugs of Today | Mecanismo específico; sin evidencia de teratogenicidad, carcinogenicidad ni mutagenicidad en animales |
-| [10030435](https://pubmed.ncbi.nlm.nih.gov/10030435/) | 1998 | Revisión | J Intellect Disabil Res | Opción terapéutica en epilepsia parcial con discapacidad intelectual; los inductores enzimáticos aumentan su aclaramiento un 50-65% |
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguno |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61606 | GABITRIL 5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 61607 | GABITRIL 10 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-| 61608 | GABITRIL 15 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-
----
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 61607 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 61608 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 61606 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -109,19 +84,6 @@ Para el resto de la información de seguridad, consultar el prospecto.
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se apoya solo en el modelo y en literatura general (nivel L4), sin ensayos clínicos ni estudios específicos en epilepsia visual. El puntaje alto probablemente refleja la proximidad con la epilepsia parcial, y existen alertas de seguridad relevantes para esta población.
-
-**Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), ya que su ausencia impide el cribado de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Buscar estudios clínicos o series de casos específicos de tiagabina en epilepsia visual u occipital.
-- Evaluar el riesgo sobre el campo visual y de exacerbación de crisis en esta población.
-- Aclarar la relevancia de las contraindicaciones del grafo de conocimiento (ansiedad, hepatopatía, enfermedad biliar).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

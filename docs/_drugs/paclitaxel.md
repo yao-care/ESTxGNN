@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: Solo predicción del modelo (L5)
 nav_order: 602
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Paclitaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Cáncer de ovario (el texto de indicación aprobada de las autorizacion…"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Paclitaxel: De Cáncer de Ovario a Carcinoma de Mama Femenino
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Paclitaxel es un citotóxico antimicrotúbulos, originalmente utilizado para el tratamiento del cáncer de ovario (además de otras indicaciones registradas en el grafo de conocimiento, como hipertensión y glaucoma de ángulo abierto).
-El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **41 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección. Se trata, en la práctica, de un uso ya establecido en la clínica más que de un reposicionamiento en sentido estricto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de ovario (el texto de indicación aprobada de las autorizaciones españolas no está disponible; se toma la indicación original del grafo de conocimiento) |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.995% |
-| Nivel de Evidencia | L2 (según la puntuación del análisis; ver nota en la conclusión) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
+| Puntaje de Predicción TxGNN | 0.9973 |
+| Nivel de Evidencia | L5 (según la puntuación del análisis; ver nota en la conclusión) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectiva para **amenorrea**, pero actual
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización (el parche se comercializa como anticonceptivo transdérmico) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,51% |
+| Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, norelgestromina es el metabolito progestágeno activo de norgestimato y forma parte de un parche anticonceptivo combinado con etinilestradiol. Su actividad progestágena (agonismo del receptor de progesterona, supresión de la liberación de gonadotropinas y de la ovulación, estabilización del endometrio) es biológicamente plausible para tratar algunas formas de amenorrea, por ejemplo la secundaria a un desequilibrio estroprogestágeno, en la que se usa la retirada del progestágeno para inducir sangrado.
 
-La relación con la indicación original es hormonal: ambas situaciones dependen del eje hipotálamo-hipófiso-ovárico y del control del endometrio. Sin embargo, este vínculo se infiere por clase farmacológica y por la predicción del grafo de conocimiento (puntaje 0,995), no por datos específicos del fármaco.
+La relación con la indicación original es hormonal: ambas situaciones dependen del eje hipotálamo-hipófiso-ovárico y del control del endometrio. Sin embargo, este vínculo se infiere por clase farmacológica y por la predicción del modelo TxGNN (aprendizaje profundo) (puntaje 0,9951), no por datos específicos del fármaco.
 
 Conviene ser prudente: el parche anticonceptivo puede causar amenorrea o sangrado irregular como efecto adverso. Por ello la dirección del efecto no está clara, y la predicción podría reflejar esa asociación y no un beneficio terapéutico real.
 

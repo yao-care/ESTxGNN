@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualment
 |------|------|
 | Indicación Original | Atrofia muscular espinal (según el perfil conocido del fármaco; el texto de indicación no figura en las autorizaciones compiladas) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99,45% |
+| Puntaje de Predicción TxGNN | 0,9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Risdiplam es un modulador del empalme del pre-ARNm de SMN2 que favorece la inclusión del exón 7 y aumenta la producción de proteína SMN funcional. Actualmente no se dispone de datos detallados del mecanismo de acción en los datos compilados; la descripción anterior corresponde al conocimiento general del fármaco.
 
-Con la información disponible, **no se identifica un vínculo mecanístico establecido** entre este mecanismo y la fisiopatología del acné (producción de sebo, hiperqueratinización folicular, colonización por *Cutibacterium acnes* e inflamación). El puntaje de 99,45% es una predicción del grafo de conocimiento y puede reflejar artefactos de la red más que una justificación biológica. La similitud con la indicación original está pendiente de evaluar.
+Con la información disponible, **no se identifica un vínculo mecanístico establecido** entre este mecanismo y la fisiopatología del acné (producción de sebo, hiperqueratinización folicular, colonización por *Cutibacterium acnes* e inflamación). El puntaje de 0,9945 es una predicción del modelo TxGNN (aprendizaje profundo) y puede reflejar artefactos de la red más que una justificación biológica. La similitud con la indicación original está pendiente de evaluar.
 
 Los posibles efectos de empalme fuera de diana de risdiplam en otros genes, incluidos los que afectan a piel o tejidos epiteliales, deben considerarse un aspecto de seguridad, no una evidencia de beneficio en el acné. Tampoco se ha evaluado la compatibilidad de vías de administración (oral actual frente a las requeridas para acné).
 

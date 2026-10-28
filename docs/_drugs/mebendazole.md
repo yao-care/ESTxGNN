@@ -6,9 +6,9 @@ nav_order: 495
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Mebendazole: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Enterobiasis, ascariasis y tricuriasis (según el grafo de conocimiento"
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
+description: "Mebendazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mebendazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Mebendazol: De Enterobiasis, Ascariasis y Tricuriasis a Acné
+## Mebendazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos** y solo hay **1 publicación** (un 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enterobiasis, ascariasis y tricuriasis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.20% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 No se ha establecido un vínculo mecanístico creíble entre mebendazol y el acné. Cualquier hipótesis, como un efecto antiinflamatorio o antiproliferativo por alteración de los microtúbulos, es especulativa y no está verificada. La similitud entre la indicación original (infecciones parasitarias) y el acné (enfermedad inflamatoria de la piel) no está evaluada.
 
-El puntaje de TxGNN (99.20%) es solo una predicción del modelo y no está respaldado por evidencia clínica ni mecanística.
+El puntaje de TxGNN (0.9920) es solo una predicción del modelo y no está respaldado por evidencia clínica ni mecanística.
 
 ## Evidencia de Ensayos Clínicos
 

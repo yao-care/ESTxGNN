@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 419
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Detemir: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L1). Indicación original: Diabetes mellitus y cetoacidosis diabética (según el grafo de conocim…"
 monitor_inn: "Insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Detemir: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Insulina detemir: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
+## Insulin Detemir: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para la **diabetes mellitus tip
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus y cetoacidosis diabética (según el grafo de conocimiento; el texto de indicación aprobado en las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
-| Puntaje de Predicción TxGNN | 99.77% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Autoimmune oophoritis |
+| Puntaje de Predicción TxGNN | 0.9967 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectivo para la **diabetes mellitus tip
 
 Insulina detemir es un análogo de insulina soluble de acción prolongada. Se diferencia de la insulina humana por la eliminación del aminoácido treonina en la posición B30 y la acilación de un ácido graso de 14 carbonos (ácido mirístico) en la lisina B29. Esta modificación permite que se una de forma reversible a la albúmina tras la inyección subcutánea, lo que produce una absorción lenta y un efecto metabólico prolongado de hasta 24 horas. Se une al receptor de insulina para reemplazar la insulina endógena deficiente. Los datos compilados no incluyen un campo formal de mecanismo de acción, pero esta farmacología está bien descrita en la literatura (por ejemplo, PMID 17881328).
 
-La diabetes tipo 1 se caracteriza por una deficiencia absoluta de insulina, por lo que la terapia basal con insulina es el tratamiento de referencia. Por ello, la predicción del modelo es coherente con el mecanismo establecido y con el uso original del fármaco, y el puntaje elevado (0.998) refleja una indicación ya consolidada, no una hipótesis novedosa.
+La diabetes tipo 1 se caracteriza por una deficiencia absoluta de insulina, por lo que la terapia basal con insulina es el tratamiento de referencia.
 
-Otras predicciones del modelo (por ejemplo, ooforitis autoinmune, opsismodisplasia, síndrome de la persona rígida o lipodistrofias) carecen de ensayos clínicos y de literatura de respaldo. Probablemente reflejan asociaciones en el grafo de conocimiento y no mecanismos terapéuticos. En el caso de las lipodistrofias, la insulina es más bien una causa conocida en el sitio de inyección. La agenesia pancreática es mecanísticamente plausible, pero la evidencia es indirecta y solo trataría la manifestación diabética. Ninguna de ellas se desarrolla en este informe.
+Otras predicciones del modelo (por ejemplo, ooforitis autoinmune, opsismodisplasia, síndrome de la persona rígida o lipodistrofias) carecen de ensayos clínicos y de literatura de respaldo. En el caso de las lipodistrofias, la insulina es más bien una causa conocida en el sitio de inyección. La agenesia pancreática es mecanísticamente plausible, pero la evidencia es indirecta y solo trataría la manifestación diabética. Ninguna de ellas se desarrolla en este informe.
 
 ---
 

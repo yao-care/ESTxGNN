@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Clarithromycin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 187
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Clarithromycin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L4). Indicación original: Infecciones bacterianas (otitis media infecciosa…"
+description: "Clarithromycin: nueva indicación predicha, hiperamilasemia (nivel de evidencia L4). Indicación original: Infecciones bacterianas (otitis media infecciosa…"
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 # Clarithromycin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Claritromicina: De Otitis Media Infecciosa a Hiperamilasemia
+## Claritromicina: De Otitis Media Infecciosa a hiperamilasemia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ pero solo hay **0 ensayos clínicos** y **1 publicación** (un reporte de caso),
 |------|------|
 | Indicación Original | Infecciones bacterianas (otitis media infecciosa, infecciones estreptocócicas y estafilocócicas, neumonía, sinusitis maxilar) |
 | Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.35% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Puntaje de Predicción TxGNN | 0.9935 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -66,7 +66,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La única publicación disponible (PMID 15228140, 2004) es un reporte de caso de infección pulmonar por *Mycobacterium abscessus* acompañada de macroamilasemia primaria. En ese contexto, la claritromicina probablemente se empleó por su acción antimicrobiana, no como tratamiento de la hiperamilasemia. La coincidencia entre ambas condiciones en un mismo paciente no demuestra un efecto terapéutico.
 
-Por tanto, el alto puntaje del modelo no está respaldado por una justificación biológica en los datos disponibles. Esta predicción debe considerarse una hipótesis sin sustento mecanístico, y es posible que sea un artefacto del grafo de conocimiento.
+Por tanto, el alto puntaje del modelo no está respaldado por una justificación biológica en los datos disponibles. Esta predicción debe considerarse una hipótesis sin sustento mecanístico, y es posible que sea un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ---
 

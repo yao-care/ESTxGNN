@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hydroquinone
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 397
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 # Hydroquinone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **queratosis seborreica**,
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Queratosis seborreica |
-| Puntaje de Predicción TxGNN | 99,73 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Puntaje de Predicción TxGNN | 0,9973 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -125,9 +125,9 @@ La predicción se apoya en un puntaje computacional alto, pero solo hay un estud
 
 | Indicación | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
-| Queratosis folicular invertida vulvar | 99,64 % | L5 | Sin ensayos ni literatura; sin justificación mecanística clara y con preocupaciones de seguridad en mucosa vulvar. |
-| Exantema | 99,42 % | L4 | Un ensayo de Fase 4 (NCT02138539) sobre un sistema despigmentante herbal, sin relación directa; sin mecanismo plausible. |
-| Enfermedad liquenoide | 99,07 % | L4 | Solo una revisión y un caso clínico; la hidroquinona podría ayudar únicamente con la hiperpigmentación postinflamatoria, no con la inflamación subyacente. |
+| Queratosis folicular invertida vulvar | 0,9964 | L5 | Sin ensayos ni literatura; sin justificación mecanística clara y con preocupaciones de seguridad en mucosa vulvar. |
+| Exantema | 0,9942 | L4 | Un ensayo de Fase 4 (NCT02138539) sobre un sistema despigmentante herbal, sin relación directa; sin mecanismo plausible. |
+| Enfermedad liquenoide | 0,9907 | L4 | Solo una revisión y un caso clínico; la hidroquinona podría ayudar únicamente con la hiperpigmentación postinflamatoria, no con la inflamación subyacente. |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

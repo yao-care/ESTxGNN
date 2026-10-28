@@ -6,9 +6,9 @@ nav_order: 182
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cinchocaine: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Dermatitis (según el grafo de conocimiento"
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
+description: "Cinchocaine: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cinchocaine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Cinchocaína: De Dermatitis a Bronquitis
+## Cinchocaine: Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectiva para **bronquitis**, aunque act
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatitis (según el grafo de conocimiento; el texto de indicación autorizado no figura en los datos compilados) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la cinchocaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, lo que reduce la transmisión de señales nerviosas de dolor y picor. En la pomada rectal comercializada se asocia a un uso sintomático (alivio local de dolor, picor e irritación).
 
-Desde el punto de vista teórico, un efecto anestésico tópico o inhalado podría suprimir el reflejo de la tos o la actividad sensorial de las vías respiratorias, lo que explicaría una cierta cercanía con la bronquitis. Sin embargo, esta relación es especulativa: no existen estudios clínicos ni literatura que respalden el uso en bronquitis, y el vínculo descansa exclusivamente en la puntuación del modelo (0.998).
+Desde el punto de vista teórico, un efecto anestésico tópico o inhalado podría suprimir el reflejo de la tos o la actividad sensorial de las vías respiratorias, lo que explicaría una cierta cercanía con la bronquitis. Sin embargo, esta relación es especulativa: no existen estudios clínicos ni literatura que respalden el uso en bronquitis, y el vínculo descansa exclusivamente en la puntuación del modelo TxGNN (deep learning) (0.9977), que puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica.
 
 Además, la exposición sistémica o en vías respiratorias a la cinchocaína plantea preocupaciones de toxicidad (por ejemplo, cardiotoxicidad y efectos sobre el sistema nervioso central), por lo que el balance beneficio-riesgo no está establecido.
 
@@ -67,12 +67,12 @@ Los datos compilados incluyen otras seis predicciones, todas con nivel de eviden
 
 | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Acrodermatitis crónica atrófica | 99.76% | Manifestación cutánea tardía de la infección por *Borrelia*; la cinchocaína, como mucho, aliviaría síntomas, sin acción antimicrobiana |
-| Dermatomiositis neonatal | 99.72% | Enfermedad inflamatoria inmunomediada; sin mecanismo inmunomodulador conocido y con riesgos de absorción sistémica en neonatos |
-| Enfermedad pulmonar intersticial infantil secundaria a enfermedad del tejido conectivo | 99.72% | Sin mecanismo plausible; población pediátrica que exige especial cautela |
-| Acné queloideo | 99.67% | La más próxima biológicamente (tópica y dermatológica); podría aliviar dolor o picor local, sin evidencia sobre inflamación o fibrosis |
-| Hidroa vacciniforme familiar | 99.66% | Fotosensibilidad rara; posible analgesia sintomática, sin acción sobre la patología de fondo |
-| Dermatomiositis amiopática | 99.65% | Enfermedad autoinmune de predominio cutáneo; posible alivio del picor, sin efecto sobre la patología inmune |
+| Acrodermatitis crónica atrófica | 0.9976 | Manifestación cutánea tardía de la infección por *Borrelia*; la cinchocaína, como mucho, aliviaría síntomas, sin acción antimicrobiana |
+| Dermatomiositis neonatal | 0.9972 | Enfermedad inflamatoria inmunomediada; sin mecanismo inmunomodulador conocido y con riesgos de absorción sistémica en neonatos |
+| Enfermedad pulmonar intersticial infantil secundaria a enfermedad del tejido conectivo | 0.9972 | Sin mecanismo plausible; población pediátrica que exige especial cautela |
+| Acné queloideo | 0.9967 | La más próxima biológicamente (tópica y dermatológica); podría aliviar dolor o picor local, sin evidencia sobre inflamación o fibrosis |
+| Hidroa vacciniforme familiar | 0.9966 | Fotosensibilidad rara; posible analgesia sintomática, sin acción sobre la patología de fondo |
+| Dermatomiositis amiopática | 0.9965 | Enfermedad autoinmune de predominio cutáneo; posible alivio del picor, sin efecto sobre la patología inmune |
 
 ## Evidencia de Ensayos Clínicos
 

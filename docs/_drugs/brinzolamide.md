@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Solo predicción del modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 113
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Brinzolamide: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de c…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,65 +32,50 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Brinzolamida: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata -->
+## Brinzolamide: usos conocidos y estado de mercado en España
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN propone para Brinzolamide (puntuación ≥ 0,99) son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. La información de esta página es solo de referencia y no constituye consejo médico.
 
-Brinzolamida es un inhibidor de la anhidrasa carbónica de uso tópico ocular, utilizado originalmente para el tratamiento del glaucoma de ángulo abierto y la hipertensión ocular.
-El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**, pero actualmente **no hay ensayos clínicos ni publicaciones** registrados que respalden esta dirección; se trata de una predicción puramente computacional.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99,48 % |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear a una fuente son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplicable |
+| Estado de mercado en España | Comercializado (registros vigentes: 2 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 2) |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobadas (respaldadas por una licencia o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| glaucoma hereditario primario (primary hereditary glaucoma) | licencia en otro país (indicación aprobada: glaucoma) |
 
-Brinzolamida inhibe la anhidrasa carbónica, en particular la isoforma II. Al hacerlo reduce la secreción de humor acuoso y, con ello, la presión intraocular (PIO). Los datos compilados para este report no incluyen una descripción detallada del mecanismo de acción, por lo que este razonamiento se apoya en conocimiento farmacológico general. Los datos de farmacología sí confirman que el fármaco actúa sobre varias isoformas de anhidrasa carbónica humana (CA1, CA7, CA12 y CA14) y que su uso clínico es reducir la PIO elevada en hipertensión ocular y glaucoma de ángulo abierto.
+### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | Ninguna |
 
-El glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario o el glaucoma juvenil de ángulo abierto) comparte con la indicación original un factor modificable central: la PIO elevada, principal causa del daño del nervio óptico. Por ello, es plausible que reducir la producción de humor acuoso aporte beneficio.
-
-Conviene interpretar el puntaje tan alto con cautela: probablemente refleja la estrecha similitud con las indicaciones ya aprobadas y la vía compartida de reducción de la PIO, más que evidencia independiente. Además, en el glaucoma congénito primario la patología de fondo es la disgenesia del trabéculo y del ángulo, y el tratamiento médico suele ser solo un puente hacia la cirugía. También preocupa la seguridad pediátrica, ya que la absorción sistémica de inhibidores de la anhidrasa carbónica puede causar alteraciones del equilibrio ácido-base en lactantes. Estos puntos requieren una evaluación específica.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en España
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 80098 | Brinzolamida Cinfa 10 mg/ml colirio en suspensión | Colirio en suspensión | No disponible en los datos compilados |
-| 79856 | Brinzolamida Stada 10 mg/ml colirio en suspensión | Colirio en suspensión | No disponible en los datos compilados |
-| 80014 | Brinzolamida Vir 10 mg/ml colirio en suspensión | Colirio en suspensión | No disponible en los datos compilados |
-| 00129001 | Azopt 10 mg/ml colirio en suspensión | Colirio en suspensión | No disponible en los datos compilados |
-| 90850 | Aicisi 10 mg/ml colirio en suspensión | Colirio en suspensión | No disponible en los datos compilados |
-
-Existe una sexta autorización vigente (Bolesin 10 mg/ml, n.º 90069, Thalassa Pharma S.L.). En total hay 6 autorizaciones vigentes de monofármaco y ninguna cancelada.
-
----
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 80098 | brinzolamida | COLIRIO EN SUSPENSIÓN | Cancelado |
+| 79856 | brinzolamida | COLIRIO EN SUSPENSIÓN | Vigente |
+| 80014 | brinzolamida | COLIRIO EN SUSPENSIÓN | Cancelado |
+| 00129001 | brinzolamida | COLIRIO EN SUSPENSIÓN | Vigente |
+| 90850 | brinzolamida | COLIRIO EN SUSPENSIÓN | Autorizado, no comercializado |
+| 90069 | brinzolamida | COLIRIO EN SUSPENSIÓN | Cancelado |
 
 ## Consideraciones de Seguridad
 
@@ -99,19 +85,6 @@ Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dis
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que la respalden. Además, faltan los datos de advertencias y contraindicaciones del prospecto, lo que impide el cribado de seguridad, y existen dudas específicas sobre la población pediátrica.
-
-**Para avanzar se necesita:**
-- Descargar y analizar el prospecto de la AEMPS para obtener advertencias, contraindicaciones e indicaciones aprobadas.
-- Obtener datos detallados del mecanismo de acción (por ejemplo, mediante la API de DrugBank).
-- Revisar la literatura y los registros de ensayos sobre el uso de brinzolamida en glaucoma congénito y juvenil.
-- Evaluar la seguridad pediátrica (absorción sistémica, alteraciones ácido-base) y el papel real del tratamiento médico frente a la cirugía.
-- Confirmar la compatibilidad de vía de administración y la similitud con la indicación original, que están pendientes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

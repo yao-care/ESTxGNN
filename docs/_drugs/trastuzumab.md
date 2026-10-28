@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 815
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Trastuzumab: nueva indicación predicha, Cáncer de mama con receptor de progesterona positivo (predicción de m… (nivel de evidencia L1). Indicación original: Carcinoma de mama HER2 positivo"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Trastuzumab: De Carcinoma de Mama HER2 Positivo a Carcinoma de Mama con Receptor de Progesterona Positivo
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Trastuzumab es un anticuerpo monoclonal dirigido contra HER2, utilizado originalmente para el tratamiento del carcinoma de mama HER2 positivo.
-El modelo TxGNN predice que podría ser efectivo para el **cáncer de mama con receptor de progesterona positivo**, con **12 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 Cabe aclarar que se trata de una estratificación por subtipo dentro de una indicación ya aprobada, y no de un reposicionamiento verdaderamente nuevo.
 
 ---
@@ -48,15 +47,14 @@ Cabe aclarar que se trata de una estratificación por subtipo dentro de una indi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de mama HER2 positivo |
-| Nueva Indicación Predicha | Cáncer de mama con receptor de progesterona positivo (predicción de mayor rango: subtipo "normal breast-like", ver nota) |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 17 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malignant cutaneous granular cell skin tumor |
+| Puntaje de Predicción TxGNN | 0.9948 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 17 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 17) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-**Nota:** la primera predicción de la lista (subtipo de mama "normal breast-like", puntaje 99.90%, nivel L4) tiene solo un ensayo, que evalúa un fármaco distinto (trastuzumab rezetecán, un conjugado anticuerpo-fármaco), y no tiene fundamento mecanístico directo, por lo que se recomienda **Hold**. Este informe se centra en la predicción de cáncer de mama con receptor de progesterona positivo (mismo puntaje, 99.90%), que es la primera con evidencia sustancial (L1).
 
 ---
 
@@ -66,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 En tumores con receptor de progesterona positivo, el beneficio depende de la coexpresión de HER2. La interacción (crosstalk) entre HER2 y los receptores hormonales es un mecanismo de resistencia conocido, y la combinación con terapia endocrina o inhibidores de CDK4/6 cuenta con respaldo.
 
-Por tanto, esta predicción se solapa con la indicación ya aprobada: es una estratificación por subtipo y no una indicación novedosa. El beneficio se limita a pacientes HER2 positivas. La predicción de cáncer de mama con receptor de progesterona negativo (99.90%) sigue la misma lógica, ya que la acción de trastuzumab es independiente del estado del receptor de progesterona.
+Por tanto, esta predicción se solapa con la indicación ya aprobada: es una estratificación por subtipo y no una indicación novedosa. El beneficio se limita a pacientes HER2 positivas.
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 807
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Toremifene: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización (texto de indicación va…"
 monitor_inn: "toremifene"
 predicted_indications: ["HIV infectious disease"]
+description: "Toremifene: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Toremifene
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Toremifeno: De Cáncer de Mama (indicación original no registrada en la autorización) a Infección por VIH
+## Toremifene: Infección por VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de la autorización (texto de indicación vacío) |
-| Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
+| Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La única publicación disponible (PMID 24520056, 2014) describe que los antagonistas de receptores de estrógenos, incluidos tamoxifeno y toremifeno, son fungicidas frente a *Cryptococcus*, se unen a proteínas con dominio EF-hand (como la calmodulina) y presentan sinergia con fluconazol y anfotericina B in vitro. La criptococosis es una infección oportunista importante en personas con VIH avanzado, por lo que el vínculo con VIH es **indirecto**: apuntaría, en todo caso, a un posible adyuvante frente a una infección oportunista asociada, no a una actividad antiviral contra el VIH.
 
-La alta puntuación de TxGNN (0,994) proviene de una predicción basada en grafos de conocimiento y no constituye por sí misma evidencia clínica. Los datos compilados no establecen ningún mecanismo de acción antiviral directa.
+La alta puntuación de TxGNN (0,9941) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; por sí misma no constituye evidencia clínica. Los datos compilados no establecen ningún mecanismo de acción antiviral directa.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -85,7 +85,6 @@ Ambas autorizaciones están vigentes, son de monofármaco y su titular es Orion 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia hormonal (modulador selectivo de receptores de estrógenos); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo; no obstante, el grafo de conocimiento asocia el fármaco con leucopenia y trombocitopenia, por lo que conviene vigilarlas |
 | Clasificación de Emetogenicidad | Baja |
 | Items de Monitoreo | Hemograma, función hepática, calcemia, electrolitos (potasio) y ECG (intervalo QT) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |

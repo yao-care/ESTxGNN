@@ -6,9 +6,9 @@ nav_order: 422
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según el grafo de conocimiento"
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Insulin Lispro
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Insulina lispro: De Diabetes Mellitus Tipo 2 a Ooforitis Autoinmune
+## Insulin Lispro: Ooforitis autoinmune (autoimmune oophoritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ Se trata de una predicción puramente computacional, con un nivel de evidencia L
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Ooforitis autoinmune |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ooforitis autoinmune (autoimmune oophoritis) |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la insulina lispro es un análogo de insulina humana cuya eficacia en el control glucémico de la diabetes está comprobada. Reduce la glucosa sanguínea al sustituir la acción de la insulina endógena.
 
-Un posible vínculo es la biología autoinmune compartida con la diabetes tipo 1 (por ejemplo, la autoinmunidad poliglandular). Sin embargo, la insulina lispro es un agente hipoglucemiante sin acción inmunomoduladora conocida sobre la autoinmunidad ovárica. La predicción probablemente se deba a la proximidad entre enfermedades en el grafo de conocimiento y no a un mecanismo terapéutico real.
+Un posible vínculo es la biología autoinmune compartida con la diabetes tipo 1 (por ejemplo, la autoinmunidad poliglandular). Sin embargo, la insulina lispro es un agente hipoglucemiante sin acción inmunomoduladora conocida sobre la autoinmunidad ovárica. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo terapéutico real.
 
 Por tanto, la plausibilidad mecanística es baja y la predicción debe considerarse generadora de hipótesis, no una base para el uso clínico.
 
@@ -98,21 +98,21 @@ Consultar el prospecto para el resto de la información de seguridad (advertenci
 
 | # | Indicación Predicha | Puntaje TxGNN | Evidencia | Comentario |
 |---|------|------|------|------|
-| 2 | Síndrome de disfunción sensible a tiamina | 99.37% | L5 | La insulina solo trata el componente diabético; el tratamiento principal es la tiamina |
-| 3 | Síndrome de la persona rígida clásico | 99.36% | L5 | Asociación por autoinmunidad anti-GAD y diabetes concurrente |
-| 4 | Síndrome de miembro rígido focal | 99.36% | L5 | Misma señal que la forma clásica |
-| 5 | Opsismodisplasia | 99.34% | L5 | Vínculo especulativo vía INPPL1/SHIP2 en la señalización de insulina |
-| 6 | Lipodistrofia localizada inducida por fármacos | 99.09% | L5 | Es un efecto adverso conocido de la insulina, no una indicación terapéutica |
-| 7 | Agenesia pancreática | 99.09% | L4 | Reemplazo de insulina racional, pero es una extensión de la indicación existente; solo 1 revisión indirecta (PMID 12150359) |
-| 8 | Lipodistrofia centrífuga | 99.04% | L5 | Sin evidencia; la insulina puede causar lipoatrofia |
-| 9 | Lipoatrofia localizada inducida por presión | 99.03% | L5 | Sin evidencia; la insulina se asocia a lipoatrofia |
+| 2 | Síndrome de disfunción sensible a tiamina | 0.9937 | L5 | La insulina solo trata el componente diabético; el tratamiento principal es la tiamina |
+| 3 | Síndrome de la persona rígida clásico | 0.9936 | L5 | Asociación por autoinmunidad anti-GAD y diabetes concurrente |
+| 4 | Síndrome de miembro rígido focal | 0.9936 | L5 | Misma señal que la forma clásica |
+| 5 | Opsismodisplasia | 0.9934 | L5 | Vínculo especulativo vía INPPL1/SHIP2 en la señalización de insulina |
+| 6 | Lipodistrofia localizada inducida por fármacos | 0.9909 | L5 | Es un efecto adverso conocido de la insulina, no una indicación terapéutica |
+| 7 | Agenesia pancreática | 0.9909 | L5 | Reemplazo de insulina racional, pero es una extensión de la indicación existente; solo 1 revisión indirecta (PMID 12150359) |
+| 8 | Lipodistrofia centrífuga | 0.9904 | L5 | Sin evidencia; la insulina puede causar lipoatrofia |
+| 9 | Lipoatrofia localizada inducida por presión | 0.9903 | L5 | Sin evidencia; la insulina se asocia a lipoatrofia |
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para ooforitis autoinmune se basa únicamente en el grafo de conocimiento (L5), sin ensayos ni literatura, y la insulina lispro carece de acción inmunomoduladora que explique un beneficio. Ninguna de las otras indicaciones predichas presenta evidencia que justifique avanzar; varias reflejan comorbilidad diabética o efectos adversos de la insulina.
+La predicción para ooforitis autoinmune se basa únicamente en el modelo TxGNN (aprendizaje profundo) (L5), sin ensayos ni literatura, y la insulina lispro carece de acción inmunomoduladora que explique un beneficio. Ninguna de las otras indicaciones predichas presenta evidencia que justifique avanzar; varias reflejan comorbilidad diabética o efectos adversos de la insulina.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) de la insulina lispro.

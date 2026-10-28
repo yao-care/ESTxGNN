@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 157
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ceftazidime: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infecciones bacterianas (los datos compilados no incluyen el texto de…"
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
+last_modified_at: 2026-10-27
+description: "Ceftazidime: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ceftazidime
@@ -33,88 +33,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ceftazidima: De Infecciones Bacterianas (estreptocócicas, neumonía, meningitis, entre otras) a Hiperamilasemia
+## Ceftazidima: cefalosporina de tercera generación → Hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ceftazidima es un antibiótico cefalosporínico inyectable, utilizado originalmente para tratar infecciones bacterianas como neumonía, meningitis, peritonitis e infecciones por *Escherichia coli* y estafilococos.
-El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que es puramente computacional.
-
----
+Ceftazidima es un antibiótico betalactámico (cefalosporina de tercera generación) de administración inyectable.
+El modelo TxGNN predice que podría ser efectivo para **Hiperamilasemia (hyperamylasemia)**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción es solo computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones bacterianas (los datos compilados no incluyen el texto de indicación autorizado por la AEMPS; la indicación procede del grafo de conocimiento: infección estreptocócica, neumonía bacteriana, meningitis bacteriana, peritonitis, infección por *E. coli*, entre otras) |
-| Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.51% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
+| Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ceftazidima es una cefalosporina de tercera generación que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas de unión a penicilina, y su eficacia en infecciones por bacterias Gram-negativas, incluida *Pseudomonas aeruginosa*, está bien establecida.
+En los datos compilados para este informe no hay información detallada sobre el mecanismo de acción. Por conocimiento general, ceftazidima actúa inhibiendo la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina.
 
-**En este caso, la predicción no tiene un respaldo mecanístico plausible.** La hiperamilasemia es una alteración bioquímica (elevación de amilasa en sangre) y no una infección. No existe una vía por la cual la acción antibacteriana de ceftazidima pudiera tratarla. El alto puntaje de TxGNN refleja patrones del grafo de conocimiento, no una relación biológica o clínica demostrada. Además, la similitud entre la indicación original y la nueva no ha sido evaluada.
+La hiperamilasemia es una alteración bioquímica (elevación de la amilasa en sangre) que no es una infección bacteriana. No se identifica un vínculo mecanístico plausible entre la acción antibacteriana de ceftazidima y esta condición. La puntuación alta del modelo proviene únicamente del cálculo computacional y no cuenta con estudios clínicos ni publicaciones que la respalden.
 
----
+Por tanto, la predicción debe considerarse una hipótesis sin fundamento biológico claro. Antes de cualquier inversión adicional, haría falta una justificación mecanística creíble.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en España
 
-Hay 20 autorizaciones vigentes, todas de medicamentos con ceftazidima como único principio activo (ninguna combinación) y ninguna cancelada. Se muestran las 5 principales; los datos compilados no incluyen el texto de la indicación aprobada para ninguna de ellas.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 90753 | Alfagem 1 g polvo para solución inyectable y para perfusión | Polvo para solución inyectable y para perfusión | Medochemie Limited |
-| 71574 | Ceftazidima Kabi 1 g polvo para solución inyectable EFG | Polvo para solución inyectable y para perfusión | Fresenius Kabi España, S.A.U. |
-| 83904 | Ceftazidima Qilu 500 mg polvo para solución inyectable EFG | Polvo para solución inyectable | Qilu Pharma Spain S.L. |
-| 72674 | Ceftazidima Kabi 2 g polvo para solución inyectable y para perfusión EFG | Polvo para solución inyectable y para perfusión | Fresenius Kabi España, S.A.U. |
-| 90754 | Alfagem 2 g polvo para solución inyectable y para perfusión EFG | Polvo para solución inyectable y para perfusión | Medochemie Limited |
-
----
+Ceftazidima se encuentra comercializada en España, con presentaciones genéricas (EFG) en polvo para solución inyectable y/o para perfusión, así como en polvo con disolvente. Los registros disponibles pueden ser parciales; el detalle de autorizaciones se incorpora por separado a partir de los registros oficiales.
 
 ## Consideraciones de Seguridad
 
-- **Enfermedades asociadas a contraindicación o precaución (según el grafo de conocimiento, no el prospecto):** enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, trastornos de la coagulación sanguínea, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal y deficiencia congénita de protrombina.
-- **Interacciones farmacológicas:** se registraron 100 interacciones. Las de nivel moderado más relevantes son:
-  - Anfotericina B (y sus formulaciones lipídicas, liposomal y de sulfato de colesterilo)
-  - Aminoglucósidos: kanamicina, neomicina y estreptomicina
-  - Ácido picosulfúrico
+- **Interacciones Farmacológicas**: se registraron 100 interacciones. Las de nivel moderado incluyen:
+  - anfotericina B (y sus formulaciones lipídicas, liposomal y de sulfato de colesterilo);
+  - aminoglucósidos (kanamicina, neomicina, estreptomicina);
+  - ácido picosulfúrico.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+  Otras interacciones figuran con nivel no clasificado, por ejemplo calcitriol, pantoprazol, doxiciclina, metformina, vancomicina y morfina.
 
----
+Consultar el prospecto para las advertencias y contraindicaciones.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hiperamilasemia se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y carece de un mecanismo plausible entre un antibiótico betalactámico y una elevación de amilasa. No hay base para avanzar.
+La predicción no tiene ensayos clínicos ni literatura que la apoyen y carece de un vínculo mecanístico plausible con un antibiótico betalactámico. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Una hipótesis biológica que justifique la relación entre ceftazidima y la hiperamilasemia, que hoy no existe.
-- Datos de mecanismo de acción (MOA) desde DrugBank.
-- Texto de indicaciones, advertencias y contraindicaciones del prospecto de la AEMPS.
-- Si se busca una línea de reposicionamiento más viable, reorientar el análisis a otras predicciones del mismo informe. La **infección urinaria** (L2, "Proceed with Guardrails") tiene ensayos controlados, aunque principalmente con ceftazidima-avibactam, y podría considerarse más un uso ya existente que un reposicionamiento. Si se evalúa, confirmar sensibilidad del patógeno, ajustar la dosis por función renal y seguir las guías de uso racional de antibióticos.
+- Una hipótesis mecanística que explique por qué ceftazidima podría actuar sobre la hiperamilasemia
+- Estudios preclínicos o clínicos que evalúen directamente esta condición
+- Datos detallados del mecanismo de acción y de las advertencias del prospecto
+- Revisión de seguridad en poblaciones específicas (por ejemplo, con insuficiencia renal) si se retomara la hipótesis
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

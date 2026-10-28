@@ -48,10 +48,10 @@ con **6 ensayos clínicos** (solo 1 específico de linfoma folicular, aún en cu
 |------|------|
 | Indicación Original | Linfoma de Hodgkin (clásico) |
 | Nueva Indicación Predicha | Linfoma folicular |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -120,7 +120,7 @@ No se dispone de datos de advertencias principales ni de contraindicaciones; con
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje del modelo es alto (99.89%), la evidencia directa es mínima: el único ensayo específico de linfoma folicular (NCT04587687) está en curso y sin resultados, y la literatura se centra en linfoma T periférico. La expresión de CD30 en linfoma folicular es infrecuente, por lo que la hipótesis sigue siendo una pregunta de investigación (nivel L3).
+Aunque el puntaje del modelo es alto (0.9989), la evidencia directa es mínima: el único ensayo específico de linfoma folicular (NCT04587687) está en curso y sin resultados, y la literatura se centra en linfoma T periférico. La expresión de CD30 en linfoma folicular es infrecuente, por lo que la hipótesis sigue siendo una pregunta de investigación (nivel L3).
 
 **Para avanzar se necesita:**
 - Resultados del ensayo de fase 2 NCT04587687 (BV + bendamustina en linfoma folicular en recaída/refractario)

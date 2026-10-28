@@ -6,9 +6,9 @@ nav_order: 736
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Siltuximab: nueva indicación predicha, Mastocitoma extracutáneo (nivel de evidencia L5). Indicación original: Enfermedad de Castleman (según el grafo de conocimiento"
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
+description: "Siltuximab: nueva indicación predicha, Mastocitoma extracutáneo (extracutaneous mastocytoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Siltuximab
@@ -33,12 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Siltuximab: De Enfermedad de Castleman a Mastocitoma Extracutáneo
+## Siltuximab: Mastocitoma extracutáneo (extracutaneous mastocytoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Siltuximab es un anticuerpo monoclonal anti-IL-6, utilizado originalmente para el tratamiento de la enfermedad de Castleman (y, según el grafo de conocimiento, la enfermedad de Kimura).
+Siltuximab es un anticuerpo monoclonal anti-IL-6, utilizado originalmente para el tratamiento de la enfermedad de Castleman.
 El modelo TxGNN predice que podría ser efectivo para **mastocitoma extracutáneo**,
 pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata de una predicción puramente computacional.
 
@@ -48,12 +48,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Castleman (según el grafo de conocimiento; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Mastocitoma extracutáneo |
-| Puntaje de Predicción TxGNN | 99.64% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Mastocitoma extracutáneo (extracutaneous mastocytoma) |
+| Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -68,13 +68,13 @@ Para el mastocitoma extracutáneo, los datos compilados no respaldan ningún ví
 
 | Rango | Enfermedad | Puntaje TxGNN | Nivel | Evidencia disponible |
 |------|------|------|------|------|
-| 2 | Infarto hepático | 99.44% | L5 | Ninguna |
-| 3 | Enfermedad venooclusiva hepática | 99.40% | L5 | Ninguna; vínculo teórico por citocinas inflamatorias y daño endotelial |
-| 4 | Peliosis hepática | 99.29% | L5 | Ninguna |
-| 5 | Sarcoma de Kaposi | 99.28% | L4 | Una revisión indirecta sobre Castleman |
-| 6 | Fiebre mediterránea familiar autosómica recesiva | 99.22% | L5 | Ninguna; vínculo biológicamente plausible (IL-6 como mediador) |
-| 7 | Mastocitosis sistémica agresiva | 99.16% | L5 | Ninguna |
-| 8 | Fiebre periódica familiar autosómica dominante | 99.05% | L5 | Ninguna; vínculo plausible pero no probado |
+| 2 | Infarto hepático | 0.9944 | L5 | Ninguna |
+| 3 | Enfermedad venooclusiva hepática | 0.9940 | L5 | Ninguna; vínculo teórico por citocinas inflamatorias y daño endotelial |
+| 4 | Peliosis hepática | 0.9929 | L5 | Ninguna |
+| 5 | Sarcoma de Kaposi | 0.9928 | L4 | Una revisión indirecta sobre Castleman |
+| 6 | Fiebre mediterránea familiar autosómica recesiva | 0.9922 | L5 | Ninguna; vínculo biológicamente plausible (IL-6 como mediador) |
+| 7 | Mastocitosis sistémica agresiva | 0.9916 | L5 | Ninguna |
+| 8 | Fiebre periódica familiar autosómica dominante | 0.9905 | L5 | Ninguna; vínculo plausible pero no probado |
 
 Cabe destacar que el sarcoma de Kaposi presenta el vínculo indirecto más plausible: el KSHV es un factor causal en un subconjunto de la enfermedad de Castleman multicéntrica, y la IL-6 viral y humana contribuye a la patología asociada, incluido el síndrome inflamatorio de citocinas por KSHV.
 

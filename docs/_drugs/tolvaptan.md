@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tolvaptan
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 804
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tolvaptan: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática po… (nivel de evidencia L1). Indicación original: Síndrome de ADH inapropiada (según el grafo …"
 monitor_inn: "tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: nueva indicación predicha, Renal-hepatic-pancreatic dysplasia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Tolvaptán: De Síndrome de ADH Inapropiada a Enfermedad Renal Poliquística Tipo 3 (con o sin Enfermedad Hepática Poliquística)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Tolvaptán es un antagonista selectivo del receptor V2 de la vasopresina, originalmente utilizado en el síndrome de secreción inadecuada de ADH, el síndrome nefrogénico de antidiuresis inapropiada y la enfermedad renal poliquística.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística**,
 con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente respaldan esta dirección, incluyendo dos ensayos de Fase 3 publicados (TEMPO 3:4 y REPRISE) en poliquistosis renal autosómica dominante.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de ADH inapropiada (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Renal-hepatic-pancreatic dysplasia |
+| Puntaje de Predicción TxGNN | 0.9998 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

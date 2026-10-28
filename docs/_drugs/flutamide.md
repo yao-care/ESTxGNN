@@ -4,17 +4,17 @@ title: Flutamide
 parent: Solo predicción del modelo (L5)
 nav_order: 351
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Flutamide: nueva indicación predicha, Susceptibilidad al cáncer de próstata/cáncer cerebral (nivel de evidencia L5). Indicación original: Cáncer de próstata (según el grafo de conocimiento TxGNN"
 monitor_inn: "Flutamide"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+description: "Flutamide: nueva indicación predicha, Fibroma of prostate (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Flutamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Flutamida: De Cáncer de Próstata a Susceptibilidad al Cáncer de Próstata/Cáncer Cerebral
+## Flutamide: Fibroma of prostate
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden específicament
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de próstata (según el grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Susceptibilidad al cáncer de próstata/cáncer cerebral |
-| Puntaje de Predicción TxGNN | 99,98 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Fibroma of prostate |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

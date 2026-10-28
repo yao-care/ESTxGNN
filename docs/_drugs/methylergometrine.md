@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **hipertricosis**, pero **
 |------|------|
 | Indicación Original | No disponible en los datos compilados (las autorizaciones no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99,87% |
+| Puntaje de Predicción TxGNN | 0,9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,16 +61,16 @@ El modelo TxGNN predice que podría ser efectiva para **hipertricosis**, pero **
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la metilergometrina es un alcaloide semisintético del cornezuelo que actúa como agonista de receptores serotoninérgicos 5-HT2 y alfa-adrenérgicos, con actividad uterotónica.
 
-**La predicción no resulta razonable desde el punto de vista biológico.** No se ha establecido ningún vínculo mecanístico entre estas acciones y la regulación del crecimiento del folículo piloso. El puntaje elevado procede únicamente de la proximidad en el grafo de conocimiento. Además, la hipertricosis es un efecto adverso conocido de otros fármacos (por ejemplo, minoxidil y ciclosporina), por lo que un papel terapéutico es poco plausible y la dirección del efecto es incierta.
+**La predicción no resulta razonable desde el punto de vista biológico.** No se ha establecido ningún vínculo mecanístico entre estas acciones y la regulación del crecimiento del folículo piloso. El puntaje elevado procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Además, la hipertricosis es un efecto adverso conocido de otros fármacos (por ejemplo, minoxidil y ciclosporina), por lo que un papel terapéutico es poco plausible y la dirección del efecto es incierta.
 
 ### Otras predicciones del modelo (para contexto)
 
 | Posición | Indicación predicha | Puntaje TxGNN | Nivel | Valoración |
 |------|------|------|------|------|
-| 2 | Hipertensión pulmonar | 99,86% | L5 | Sin respaldo; los agonistas 5-HT2B derivados del cornezuelo se asocian a hipertensión arterial pulmonar y valvulopatía, por lo que existe una señal de seguridad |
-| 3 | Migraña | 99,84% | L4 | Biológicamente plausible (la metilergometrina es el metabolito activo de la metisergida), pero con barreras de seguridad cardiovascular y fibrótica |
-| 4 | Hipertricosis universal congénita tipo Ambras | 99,82% | L5 | Sin fundamento mecanístico |
-| 9 | Migraña con aura del tronco encefálico | 99,77% | L5 | Perfil de seguridad desfavorable por riesgo isquémico teórico |
+| 2 | Hipertensión pulmonar | 0,9986 | L5 | Sin respaldo; los agonistas 5-HT2B derivados del cornezuelo se asocian a hipertensión arterial pulmonar y valvulopatía, por lo que existe una señal de seguridad |
+| 3 | Migraña | 0,9984 | L4 | Biológicamente plausible (la metilergometrina es el metabolito activo de la metisergida), pero con barreras de seguridad cardiovascular y fibrótica |
+| 4 | Hipertricosis universal congénita tipo Ambras | 0,9982 | L5 | Sin fundamento mecanístico |
+| 9 | Migraña con aura del tronco encefálico | 0,9977 | L5 | Perfil de seguridad desfavorable por riesgo isquémico teórico |
 
 La migraña (posición 3) es la única predicción con alguna plausibilidad biológica y literatura indirecta, aunque los fármacos disponibles actualmente (triptanes, gepantes, anticuerpos anti-CGRP) son más seguros.
 

@@ -6,9 +6,9 @@ nav_order: 209
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Deficiencia de vitamina B12 y anemias carenciales (según el grafo de…"
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
+description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (biotin metabolic disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cyanocobalamin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Cianocobalamina: De Deficiencia de Vitamina B12 a Enfermedad Metabólica de la Biotina
+## Cyanocobalamin: Enfermedad metabólica de la biotina (biotin metabolic disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para la **enfermedad metabólic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Deficiencia de vitamina B12 y anemias carenciales (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
-| Puntaje de Predicción TxGNN | 99.60% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad metabólica de la biotina (biotin metabolic disease) |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Una posible conexión indirecta es que la cobalamina y la biotina actúan como cofactores enzimáticos en reacciones mitocondriales de mutasa y carboxilación (metilmalonil-CoA mutasa para la B12; propionil-CoA carboxilasa para la biotina), y ambas convergen en el metabolismo del propionato y el metilmalonato.
 
-Es importante subrayar que esta es solo una hipótesis. Los datos compilados para este informe no establecen un vínculo mecanístico directo entre la cianocobalamina y el metabolismo de la biotina. El puntaje del modelo es muy alto (99.60%), pero se trata exclusivamente de una predicción computacional.
+Es importante subrayar que esta es solo una hipótesis. Los datos compilados para este informe no establecen un vínculo mecanístico directo entre la cianocobalamina y el metabolismo de la biotina. El puntaje del modelo es muy alto (0.9960), pero se trata exclusivamente de una predicción computacional.
 
 ## Evidencia de Ensayos Clínicos
 

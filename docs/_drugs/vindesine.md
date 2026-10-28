@@ -4,17 +4,17 @@ title: Vindesine
 parent: Solo predicción del modelo (L5)
 nav_order: 851
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Vindesine: nueva indicación predicha, Ganglioneuroblastoma (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda (según el grafo de conocimiento"
 monitor_inn: "Vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
+description: "Vindesine: nueva indicación predicha, Ganglioneuroblastoma (ganglioneuroblastoma (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Vindesine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Vindesina: De Leucemia Linfoblástica Aguda a Ganglioneuroblastoma
+## Vindesine: Ganglioneuroblastoma (ganglioneuroblastoma (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ La señal con más respaldo entre las predicciones es la de **neuroblastoma** (6
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfoblástica aguda (según el grafo de conocimiento; el texto de indicación de la autorización de AEMPS no está disponible) |
-| Nueva Indicación Predicha | Ganglioneuroblastoma |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ganglioneuroblastoma (ganglioneuroblastoma (disease)) |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 (ganglioneuroblastoma); L3 para neuroblastoma |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold (ganglioneuroblastoma); "pregunta de investigación" para neuroblastoma |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El ganglioneuroblastoma pertenece al espectro de los tumores neuroblásticos y comparte biología con el neuroblastoma. Los alcaloides de la vinca (sobre todo la vincristina) son componentes establecidos de los regímenes de quimioterapia del neuroblastoma, por lo que es plausible que un agente antimitótico actúe sobre estos tumores. No obstante, se trata únicamente de una inferencia basada en el modelo: no hay estudios con vindesina en ganglioneuroblastoma.
 
-Conviene ser cautos con el puntaje. La predicción de neuroblastoma (99,86%) cuenta con datos preclínicos in vitro que muestran citotoxicidad de la vindesina en líneas celulares de neuroblastoma, y con un estudio de fase II de 1982 en neoplasias infantiles. Sin embargo, los ensayos de fase 3 listados son protocolos multifármaco en los que no se puede confirmar ni aislar la contribución de la vindesina, y la vincristina es el alcaloide de la vinca habitual en los regímenes actuales.
+Conviene ser cautos con el puntaje. La predicción de neuroblastoma (0,9986) cuenta con datos preclínicos in vitro que muestran citotoxicidad de la vindesina en líneas celulares de neuroblastoma, y con un estudio de fase II de 1982 en neoplasias infantiles. Sin embargo, los ensayos de fase 3 listados son protocolos multifármaco en los que no se puede confirmar ni aislar la contribución de la vindesina, y la vincristina es el alcaloide de la vinca habitual en los regímenes actuales.
 
 ---
 

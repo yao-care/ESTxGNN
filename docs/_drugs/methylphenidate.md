@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylphenidate
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 515
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Methylphenidate: nueva indicación predicha, Trastorno específico del desarrollo (nivel de evidencia L4). Indicación original: Trastorno por déficit de atención e hiperactividad (TDAH) (según el g…"
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Methylphenidate
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Metilfenidato: De Trastorno por Déficit de Atención e Hiperactividad (TDAH) a Trastorno Específico del Desarrollo
+## Methylphenidate: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,15 +45,15 @@ El modelo TxGNN predice que podría ser efectivo para **Trastorno Específico de
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno por déficit de atención e hiperactividad (TDAH) (según el grafo de conocimiento; el texto de indicación de las autorizaciones no está disponible) |
-| Nueva Indicación Predicha | Trastorno específico del desarrollo |
-| Puntaje de Predicción TxGNN | 99,99% (0,99988) |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Faciodigitogenital syndrome |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold (pregunta de investigación) |
 
-**Nota sobre la selección de la indicación:** Los datos compilados contienen cuatro candidatas. Las dos primeras por puntaje (síndrome faciodigitogenital y fibroma condromixoide) carecen por completo de ensayos y literatura, y la evidencia disponible apunta a que podrían ser artefactos del grafo. Este informe se centra en la candidata con respaldo bibliográfico más sólido (trastorno específico del desarrollo) y resume las demás en la conclusión.
+**Nota sobre la selección de la indicación:** Los datos compilados contienen cuatro candidatas. Las dos primeras por puntaje (síndrome faciodigitogenital y fibroma condromixoide) carecen por completo de ensayos y literatura; sus puntajes provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Este informe se centra en la candidata con respaldo bibliográfico más sólido (trastorno específico del desarrollo) y resume las demás en la conclusión.
 
 ## ¿Por qué es Razonable esta Predicción?
 
@@ -113,7 +113,7 @@ No existen ensayos clínicos y la literatura es indirecta, centrada en el TDAH, 
 **Otras candidatas predichas (todas en Hold o pregunta de investigación):**
 - **Síndrome faciodigitogenital (Aarskog-Scott)**, 99,998%: nivel L5, sin ensayos ni literatura. Solo se especula con rasgos conductuales tipo TDAH.
 - **Trastorno distímico**, 99,11%: nivel L4. La literatura se limita a TDAH con depresión subsindrómica comorbidad (2013) y revisiones generales; no hay ensayos de metilfenidato en distimia. Mecanismo dopaminérgico/noradrenérgico plausible.
-- **Fibroma condromixoide**, 99,99%: nivel L5, sin vínculo mecanístico plausible; probable artefacto del grafo.
+- **Fibroma condromixoide**, 0,9999: nivel L5, sin vínculo mecanístico plausible; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank).

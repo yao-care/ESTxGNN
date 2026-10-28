@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Solo predicción del modelo (L5)
 nav_order: 456
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Latanoprost: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de c…"
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Latanoprost: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Latanoprost es un análogo de la prostaglandina F2-alfa, utilizado originalmente para tratar el glaucoma de ángulo abierto y la hipertensión ocular.
-El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
 pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de conocimiento; los textos de las autorizaciones no incluyen indicación) |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Visceral calciphylaxis |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +59,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario) cursa con presión intraocular elevada, por lo que el mecanismo es biológicamente plausible. Sin embargo, esta indicación es muy cercana a la original (glaucoma de ángulo abierto), de modo que el puntaje alto probablemente refleja el solapamiento con la indicación ya aprobada y **no constituye una señal genuina de reposicionamiento**.
 
-Cabe señalar que el grafo de conocimiento no aporta evidencia clínica adicional para esta indicación, y la respuesta en formas hereditarias pediátricas podría diferir de la observada en adultos.
 
 ## Evidencia de Ensayos Clínicos
 

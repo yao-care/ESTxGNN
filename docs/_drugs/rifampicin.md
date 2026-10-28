@@ -6,9 +6,9 @@ nav_order: 699
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Rifampicin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L3). Indicación original: Tuberculosis pulmonar (según el grafo de conocimiento"
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Rifampicin: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Rifampicin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Rifampicina: De Tuberculosis Pulmonar a Conjuntivitis
+## Rifampicin: Conjuntivitis (conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **conjuntivitis**, con **0
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tuberculosis pulmonar (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis (conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

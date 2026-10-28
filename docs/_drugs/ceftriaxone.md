@@ -6,9 +6,9 @@ nav_order: 159
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Ceftriaxone: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infección estreptocócica, neumonía bacteriana, meningitis bacteriana…"
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
+description: "Ceftriaxone: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ceftriaxone
@@ -33,24 +33,24 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Ceftriaxona: De Infección Estreptocócica a Hiperamilasemia
+## Ceftriaxone: Hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Ceftriaxona es un antibiótico cefalosporínico de tercera generación, utilizado originalmente para infecciones bacterianas como neumonía, meningitis, gonorrea y salmonelosis.
-El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia** (puntaje de 99,39 %), pero esta predicción **no cuenta con ensayos clínicos** y solo con **3 publicaciones** de relevancia indirecta.
+El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia** (puntaje de 0,9939), pero esta predicción **no cuenta con ensayos clínicos** y solo con **3 publicaciones** de relevancia indirecta.
 Entre las demás predicciones, la **otitis media infecciosa** es la mejor respaldada (1 ensayo registrado, aunque no evalúa ceftriaxona, y 18 publicaciones), por lo que se comenta como alternativa más plausible.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección estreptocócica, neumonía bacteriana, meningitis bacteriana, gonorrea, salmonelosis, entre otras (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99,39 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
+| Puntaje de Predicción TxGNN | 0.9939 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

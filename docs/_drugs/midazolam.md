@@ -6,9 +6,9 @@ nav_order: 525
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Midazolam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Ansiedad (según el grafo de conocimiento"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
+description: "Midazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Midazolam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Midazolam: De Ansiedad a Insomnio
+## Midazolam: Insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ con **2 ensayos clínicos** (ambos de relevancia indirecta) y **10 publicaciones
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ansiedad (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Español | ✓ Comercializado |
+| Estado de Mercado en Español | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

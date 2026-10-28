@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nilotinib
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 566
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Nilotinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L4). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positivo"
@@ -14,7 +14,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 # Nilotinib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ pero actualmente solo cuenta con **1 publicación** (una revisión) y **ningún 
 |------|------|
 | Indicación Original | Leucemia mieloide crónica, BCR-ABL1 positivo |
 | Nueva Indicación Predicha | Dermatofibrosarcoma protuberans |
-| Puntaje de Predicción TxGNN | 99.31% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Puntaje de Predicción TxGNN | 0.9931 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El DFSP suele estar impulsado por la fusión COL1A1-PDGFB, que genera una activación autocrina constitutiva de PDGFRB. Por ello existe una justificación plausible a nivel de diana para los tumores dependientes de PDGFR. La misma lógica de inhibición de PDGFR sustenta el uso de imatinib, establecido en el DFSP irresecable o metastásico.
 
-Es importante subrayar que este vínculo se apoya en la farmacología general de los inhibidores de quinasas y no en datos específicos aportados para este informe. El puntaje de 0.993 es una predicción computacional y no constituye evidencia clínica.
+Es importante subrayar que este vínculo se apoya en la farmacología general de los inhibidores de quinasas y no en datos específicos aportados para este informe. El puntaje de 0.9931 es una predicción computacional y no constituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 

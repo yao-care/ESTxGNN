@@ -6,9 +6,9 @@ nav_order: 401
 evidence_level: L1
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Icatibant: nueva indicación predicha, Deficiencia de inhibidor de C1 (nivel de evidencia L1). Indicación original: Angioedema hereditario"
 monitor_inn: "icatibant"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant: nueva indicación predicha, C1 inhibitor deficiency (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Icatibant
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-## Icatibant: De Angioedema Hereditario a Deficiencia de Inhibidor de C1
+## Icatibant: C1 inhibitor deficiency
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,15 +46,15 @@ Esta dirección está respaldada por **11 ensayos clínicos** y **20 publicacion
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Angioedema hereditario |
-| Nueva Indicación Predicha | Deficiencia de inhibidor de C1 |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | C1 inhibitor deficiency |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 5) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-> Nota: los datos de las autorizaciones españolas no incluyen el texto de indicación aprobada. La indicación original procede de las relaciones indicación-fármaco del grafo de conocimiento utilizado por el modelo.
+> Nota: los datos de las autorizaciones españolas no incluyen el texto de indicación aprobada.
 
 ## Por qué es Razonable esta Predicción
 
@@ -129,7 +129,7 @@ Existen varios ensayos de Fase 3 completados (incluidos controlados con placebo 
 - Plan de manejo de la interacción con inhibidores de la ECA
 - Verificar el texto de indicación aprobada en las autorizaciones españolas
 
-**Nota sobre otras predicciones:** las demás indicaciones predichas (serpinopatía con polimerización tóxica de serpinas, pseudo-enfermedad de von Willebrand, trastorno primario de liberación plaquetaria, miopatía necrosante inmunomediada, síndrome antisintetasa y trombastenia de Glanzmann) no tienen ensayos ni literatura, carecen de vínculo mecanístico plausible y se clasifican como L5 con decisión **Hold**. Probablemente son artefactos de proximidad en el grafo.
+**Nota sobre otras predicciones:** las demás indicaciones predichas (serpinopatía con polimerización tóxica de serpinas, pseudo-enfermedad de von Willebrand, trastorno primario de liberación plaquetaria, miopatía necrosante inmunomediada, síndrome antisintetasa y trombastenia de Glanzmann) no tienen ensayos ni literatura, carecen de vínculo mecanístico plausible y se clasifican como L5 con decisión **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

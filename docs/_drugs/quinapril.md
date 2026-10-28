@@ -4,17 +4,17 @@ title: Quinapril
 parent: Solo predicción del modelo (L5)
 nav_order: 675
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Quinapril: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Quinapril: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Quinapril
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Quinapril: De Hipertensión a Hipertensión Renovascular Maligna
+## Quinapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (trastorno hipertensivo) |
-| Nueva Indicación Predicha | Hipertensión renovascular maligna |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Quinapril es un IECA ya autorizado para la hipertensión. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, los IECA bloquean la conversión de angiotensina I en angiotensina II, reduciendo la vasoconstricción y el tono vascular.
 
-La hipertensión renovascular depende en gran medida de la activación del sistema renina-angiotensina, por lo que el vínculo mecanístico es plausible. En la práctica, esta indicación es más una extensión de la indicación existente (un subtipo de hipertensión) que un reposicionamiento genuino. Es probable que la puntuación alta refleje la cercanía en el grafo de conocimiento con la indicación de hipertensión.
+La puntuación alta proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Un punto de cautela importante: los IECA pueden provocar un deterioro agudo de la función renal en casos de estenosis bilateral de la arteria renal, de modo que la seguridad exige una valoración cuidadosa.
 
@@ -66,10 +66,10 @@ Un punto de cautela importante: los IECA pueden provocar un deterioro agudo de l
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Recomendación |
 |------|------|------|------|
-| Enfermedad renal hipertensiva maligna | 99.86% | L5 | Hold |
-| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.85% | L4 | Pregunta de investigación |
-| Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.85% | L5 | Hold |
-| Síndrome de Braddock | 99.79% | L5 | Hold |
+| Enfermedad renal hipertensiva maligna | 0.9986 | L5 | Hold |
+| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 0.9985 | L4 | Pregunta de investigación |
+| Hipertensión pulmonar de mecanismo multifactorial poco claro | 0.9985 | L5 | Hold |
+| Síndrome de Braddock | 0.9979 | L5 | Hold |
 
 De ellas, solo la hipertensión pulmonar por hipoxia cuenta con literatura preclínica: un estudio en ratas (PMID 8873672, *Circulation*, 1996) indica que la inhibición de la ECA tisular con quinapril reduce la hipertensión pulmonar hipóxica y el remodelado vascular. Es evidencia indirecta y animal; no hay estudios en humanos.
 
@@ -114,7 +114,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hipertensión renovascular maligna tiene una puntuación alta (99.86%), pero es de nivel L5: no hay ensayos ni literatura, y es esencialmente una extensión de la indicación de hipertensión ya autorizada. Además, el riesgo renal de los IECA en estenosis bilateral de la arteria renal exige cautela.
+La predicción para hipertensión renovascular maligna tiene una puntuación alta (0.9986), pero es de nivel L5: no hay ensayos ni literatura, y es esencialmente una extensión de la indicación de hipertensión ya autorizada. Además, el riesgo renal de los IECA en estenosis bilateral de la arteria renal exige cautela.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), pues esta carencia bloquea el cribado de seguridad.

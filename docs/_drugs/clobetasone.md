@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Clobetasona es un corticoide tópico de potencia moderada, comercializado en España en forma de crema (EMOVATE CREMA). El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo primario de células T**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo con un racional mecanístico indirecto, basado en la clase farmacológica.
+Clobetasona es un corticoide tópico de potencia moderada. No está comercializado en España actualmente (solo constan registros cancelados, entre ellos EMOVATE CREMA). El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo primario de células T**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo con un racional mecanístico indirecto, basado en la clase farmacológica.
 
 ## Resumen Rápido
 
@@ -46,10 +46,10 @@ Clobetasona es un corticoide tópico de potencia moderada, comercializado en Esp
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización de AEMPS (texto de indicación vacío) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L4 (según la clasificación asignada en los datos; no hay estudios clínicos ni publicaciones aportados) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L5 (según la clasificación asignada en los datos; no hay estudios clínicos ni publicaciones aportados) |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -66,15 +66,15 @@ Además de la predicción principal, el modelo generó otras predicciones, todas
 
 | Enfermedad | Puntaje TxGNN | Nivel | Recomendación | Valoración |
 |------|------|------|------|------|
-| Linfoma cutáneo primario de células T no Hodgkin | 99.70% | L4 | Pregunta de investigación | Categoría que se solapa con la predicción principal; racional de clase indirecto |
-| Síndrome de Sézary | 99.78% | L5 | Hold | Enfermedad leucémica y sistémica; un agente tópico de potencia moderada ofrecería, como mucho, alivio sintomático |
-| Linfoma cutáneo primario de células B | 99.77% | L5 | Hold | Los corticoides tópicos no son terapia establecida (se emplean escisión, radioterapia y rituximab) |
-| Enfermedad de la piel laxa granulomatosa | 99.74% | L5 | Hold | Racional genérico; probablemente refleja proximidad en la red a otros linfomas cutáneos |
-| Colitis de Crohn | 99.72% | L5 | Hold | Fármaco tópico con baja exposición sistémica y sin formulación intestinal |
-| Insuficiencia suprarrenal | 99.71% | L5 | Hold | El uso prolongado puede causar supresión del eje HHA; es un asunto de seguridad, no una oportunidad |
-| Síndrome nefrótico | 99.69% | L5 | Hold | Biodisponibilidad sistémica mínima; no alcanza la exposición requerida |
-| Teratoma quístico | 99.65% | L5 | Hold | Sin racional plausible; probable artefacto del grafo |
-| Quiste dermoide de médula espinal | 99.65% | L5 | Hold | Sin racional plausible; probable artefacto de asociaciones en la red |
+| Linfoma cutáneo primario de células T no Hodgkin | 0.9970 | L4 | Pregunta de investigación | Categoría que se solapa con la predicción principal; racional de clase indirecto |
+| Síndrome de Sézary | 0.9978 | L5 | Hold | Enfermedad leucémica y sistémica; un agente tópico de potencia moderada ofrecería, como mucho, alivio sintomático |
+| Linfoma cutáneo primario de células B | 0.9977 | L5 | Hold | Los corticoides tópicos no son terapia establecida (se emplean escisión, radioterapia y rituximab) |
+| Enfermedad de la piel laxa granulomatosa | 0.9974 | L5 | Hold | Racional genérico; probablemente refleja proximidad en la red a otros linfomas cutáneos |
+| Colitis de Crohn | 0.9972 | L5 | Hold | Fármaco tópico con baja exposición sistémica y sin formulación intestinal |
+| Insuficiencia suprarrenal | 0.9971 | L5 | Hold | El uso prolongado puede causar supresión del eje HHA; es un asunto de seguridad, no una oportunidad |
+| Síndrome nefrótico | 0.9969 | L5 | Hold | Biodisponibilidad sistémica mínima; no alcanza la exposición requerida |
+| Teratoma quístico | 0.9965 | L5 | Hold | Sin racional plausible; la puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica |
+| Quiste dermoide de médula espinal | 0.9965 | L5 | Hold | Sin racional plausible; probable artefacto de asociaciones en la red |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -103,7 +103,7 @@ Como consideración derivada de la clase farmacológica: el uso prolongado de co
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (99.97%) y en un racional de clase indirecto; no hay ensayos clínicos ni publicaciones específicos de clobetasona, y la indicación original no figura en los datos de la autorización disponible. Entre las predicciones, el linfoma cutáneo primario de células T es la más plausible, pero debe tratarse como una pregunta de investigación.
+La predicción se apoya únicamente en el puntaje del modelo (0.9997) y en un racional de clase indirecto; no hay ensayos clínicos ni publicaciones específicos de clobetasona, y la indicación original no figura en los datos de la autorización disponible. Entre las predicciones, el linfoma cutáneo primario de células T es la más plausible, pero debe tratarse como una pregunta de investigación.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación aprobada), actualmente ausente.

@@ -6,9 +6,9 @@ nav_order: 233
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Denosumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: Osteoporosis (según el grafo de conocimiento"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
+description: "Denosumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
 # Denosumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Denosumab: De Osteoporosis a Retinopatía Diabética No Proliferativa Grave
+## Denosumab: Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoporosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99,63 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original y la nueva es indirecta: la osteoporosis es un trastorno óseo, mientras que la retinopatía diabética es una complicación microvascular de la diabetes. Un posible puente sería que la inhibición de RANKL mejore el estado glucémico o metabólico y, con ello, reduzca complicaciones microvasculares. Esto es una inferencia especulativa y no está demostrada con la evidencia disponible.
 
-El puntaje del modelo es muy alto (99,63 %), pero por sí solo no sustituye a la evidencia clínica. No se pudo anclar el razonamiento a un mecanismo documentado.
+El puntaje del modelo es muy alto (0,9963), pero por sí solo no sustituye a la evidencia clínica. No se pudo anclar el razonamiento a un mecanismo documentado.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Para la indicación principal (retinopatía diabética no proliferativa grave) no hay literatura disponible. Para la indicación predicha relacionada, **retinopatía diabética** (puntaje 99,23 %), se recuperaron dos publicaciones de relevancia solo indirecta; ninguna evalúa denosumab en retinopatía. Las clasificaciones son tentativas, basadas en títulos y resúmenes, y requieren revisión del texto completo.
+Para la indicación principal (retinopatía diabética no proliferativa grave) no hay literatura disponible. Para la indicación predicha relacionada, **retinopatía diabética** (puntaje 0,9923), se recuperaron dos publicaciones de relevancia solo indirecta; ninguna evalúa denosumab en retinopatía. Las clasificaciones son tentativas, basadas en títulos y resúmenes, y requieren revisión del texto completo.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|

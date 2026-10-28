@@ -4,17 +4,17 @@ title: Tranylcypromine
 parent: Solo predicción del modelo (L5)
 nav_order: 814
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Tranylcypromine: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: Depresión unipolar, depresión endógena…"
 monitor_inn: "tranylcypromine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "dysthymic disorder", "agoraphobia", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+description: "Tranylcypromine: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los dat…"
 ---
 
 # Tranylcypromine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,10 +33,10 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tranilcipromina: De Depresión Unipolar a Trastorno Distímico
+## Tranylcypromine: Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
-> Nota: la predicción con mayor puntaje de TxGNN es la "tortícolis paroxística benigna de la infancia" (99,67 %), pero no cuenta con ningún ensayo ni publicación. Esta ficha se centra en la predicción principal, tal como se solicita. Más abajo se señala que, entre las diez predicciones, la "depresión neurótica" tiene la evidencia más sólida.
+> Nota: la predicción con mayor puntaje de TxGNN es la "tortícolis paroxística benigna de la infancia" (0,9967), pero no cuenta con ningún ensayo ni publicación. Esta ficha se centra en la predicción principal, tal como se solicita. Más abajo se señala que, entre las diez predicciones, la "depresión neurótica" tiene la evidencia más sólida.
 
 ## Resumen en Una Frase
 
@@ -48,19 +48,19 @@ Entre las predicciones con puntajes similares, la **depresión neurótica** es l
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Depresión unipolar, depresión endógena, trastorno depresivo mayor y trastorno de ansiedad (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
-| Puntaje de Predicción TxGNN | 99,67 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
+| Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la tranilcipromina es un inhibidor irreversible y no selectivo de la MAO, que aumenta la disponibilidad de serotonina, noradrenalina y dopamina. Su eficacia en depresión resistente al tratamiento está bien documentada.
 
-Para la tortícolis paroxística benigna de la infancia, **no existe un fundamento mecanístico respaldado por los datos**. El puntaje de 99,67 % proviene únicamente de la estructura del grafo de conocimiento. Se trata de un trastorno pediátrico asociado a canales iónicos, sin relación conocida con la inhibición de la MAO. Además, el uso de un IMAO en lactantes plantearía serias preocupaciones de seguridad.
+Para la tortícolis paroxística benigna de la infancia, **no existe un fundamento mecanístico respaldado por los datos**. El puntaje de 0,9967 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Se trata de un trastorno pediátrico asociado a canales iónicos, sin relación conocida con la inhibición de la MAO. Además, el uso de un IMAO en lactantes plantearía serias preocupaciones de seguridad.
 
 Otras predicciones de la lista (síndrome de Ohdo, síndrome de Keppen-Lubinsky, conjuntivitis leñosa) tampoco tienen respaldo. Para el síndrome de Ohdo solo se plantea una hipótesis especulativa vinculada a la inhibición de LSD1/KDM1A, sin evidencia.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pramipexole
-parent: Solo predicción del modelo (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 653
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pramipexole: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: Síndrome de piernas inquietas (los textos de indicación…"
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
+description: "Pramipexole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Pramipexole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Pramipexol: De Síndrome de Piernas Inquietas a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Pramipexole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno por défici
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de piernas inquietas (los textos de indicación de las autorizaciones españolas no están disponibles; se toma la primera indicación original del grafo de conocimiento) |
-| Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99,998 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 (solo estudios preclínicos/de mecanismo y un reporte de caso; sin estudios clínicos específicos) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

@@ -4,17 +4,17 @@ title: Atazanavir
 parent: Solo predicción del modelo (L5)
 nav_order: 72
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Atazanavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según el grafo de conocimiento"
+indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-27
+description: "Atazanavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Atazanavir: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Atazanavir: inhibidor de la proteasa del VIH-1 → síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Atazanavir es un inhibidor de la proteasa del VIH-1, utilizado originalmente para el tratamiento de la infección por VIH y el SIDA.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción concreta; se trata únicamente de una predicción computacional.
+Atazanavir es un inhibidor de la proteasa del VIH-1 con autorizaciones vigentes en España.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden directamente esta predicción, por lo que se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0,9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 19 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 19) |
+| Número de Autorizaciones | 19 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, atazanavir es un inhibidor de la proteasa del VIH-1, su eficacia en la infección por VIH ha sido comprobada, y mecanísticamente podría ser aplicable a otros lentivirus.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados para este informe. Según la información conocida, atazanavir es un inhibidor de la proteasa del VIH-1, es decir, bloquea una enzima que el virus necesita para madurar y volverse infeccioso.
 
-El virus de la inmunodeficiencia felina (FIV) es un lentivirus con una proteasa relacionada con la del VIH-1, por lo que existe una justificación mecanística teórica. Sin embargo, la proteasa del FIV difiere en especificidad de sustrato y sensibilidad a los inhibidores, y no se aportaron datos que respalden la actividad de atazanavir frente a ella.
+El virus de la inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH-1 y tiene su propia proteasa, por lo que existe una base mecanística plausible. Sin embargo, la proteasa del FIV difiere en la especificidad de sustrato y en la sensibilidad a los inhibidores, y no se dispone de datos que demuestren que atazanavir la inhiba de forma eficaz.
 
-El puntaje elevado de TxGNN probablemente refleja la cercanía en la red de conocimiento con el VIH/SIDA, y no una evidencia independiente. Además, se trata de una enfermedad veterinaria, por lo que su relevancia para el reposicionamiento en humanos es limitada.
+El puntaje elevado del modelo probablemente refleja la cercanía en la red de relaciones con el VIH/sida, y no una evidencia independiente. Además, se trata de una enfermedad veterinaria, por lo que su aplicación al reposicionamiento en humanos es limitada.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,39 +70,36 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
-*Nota:* para la segunda predicción (infección por virus de inmunodeficiencia simia) solo se identificó un estudio en macacos tratados con terapia antirretroviral combinada (PMID 20497048, 2010), que es indirecto y no aísla el efecto de atazanavir.
-
 ## Información de Mercado en España
 
-Se listan 5 de las 19 autorizaciones vigentes (todas de principio activo único):
+Atazanavir cuenta con autorizaciones vigentes en España, en forma de cápsula dura. Entre los productos principales figuran:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 03267004 | REYATAZ 150 mg cápsulas duras | Cápsula dura | No especificada en los datos |
-| 03267002 | REYATAZ 100 mg cápsulas duras | Cápsula dura | No especificada en los datos |
-| 03267006 | REYATAZ 200 mg cápsulas duras | Cápsula dura | No especificada en los datos |
-| 03267008 | REYATAZ 300 mg cápsulas duras | Cápsula dura | No especificada en los datos |
-| 80655 | Atazanavir Teva 300 mg cápsulas duras EFG | Cápsula dura | No especificada en los datos |
+| 83678 | Atazanavir Dr. Reddys 200 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
+| 1191353001 | Atazanavir Krka 150 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
+| 80655 | Atazanavir Teva 300 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
+| 03267004 | Reyataz 150 mg cápsulas duras | Cápsula dura | No registrada en los datos locales |
+| 84030 | Atazanavir Accord 200 mg cápsulas duras EFG | Cápsula dura | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Posibles enfermedades de precaución (según el grafo de conocimiento, no texto del prospecto)**: insuficiencia y enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus, cetoacidosis diabética, hepatitis B y C crónicas, hemofilia, hiperbilirrubinemia (incluido síndrome de Gilbert), nefrolitiasis, nefropatía aguda por uratos, bloqueo auriculoventricular y acidosis láctica.
-- **Interacciones farmacológicas**: se registraron 100 interacciones; entre las de nivel **Mayor** destacan famotidina, ranitidina, rabeprazol, omeprazol (antiácidos/inhibidores de la bomba de protones, por reducción de la absorción), loperamida, triamcinolona y budesonida. Entre las de nivel **Moderado** figuran acarbosa, hidrocortisona, metformina, pioglitazona, alosetrón, aprepitant, betametasona, hidróxido de aluminio y carbonato de calcio.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total. Entre las de nivel mayor figuran famotidina, ranitidina, rabeprazol, omeprazol, loperamida, triamcinolona y budesonida. Entre las de nivel moderado figuran acarbosa, metformina, pioglitazona, hidrocortisona, aprepitant, hidróxido de aluminio y carbonato de calcio.
 
-Para advertencias y contraindicaciones formales, consultar el prospecto.
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y corresponde a una enfermedad veterinaria con diferencias relevantes en la proteasa viral. Las otras predicciones con literatura (VIH congénito, complejo relacionado con el SIDA) solapan con la indicación ya aprobada, por lo que no constituyen un reposicionamiento real.
+La predicción no cuenta con ensayos clínicos ni publicaciones que estudien directamente esta enfermedad, por lo que el nivel de evidencia es L5. La base mecanística (proteasa de un lentivirus emparentado) es plausible, pero no está respaldada por datos, y la enfermedad es de uso veterinario.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y de la actividad de atazanavir frente a la proteasa del FIV (estudios enzimáticos y celulares in vitro).
-- Evidencia preclínica o clínica específica en la indicación predicha.
-- Textos de indicación y advertencias/contraindicaciones del prospecto de la AEMPS.
-- Definir si el interés es veterinario o humano, ya que la indicación predicha no es aplicable a humanos.
+- Datos de mecanismo de acción detallados de atazanavir.
+- Estudios in vitro o en animales que evalúen la inhibición de la proteasa del FIV por atazanavir.
+- Definir si existe interés real en una aplicación veterinaria, dado que la indicación no corresponde a una enfermedad humana.
+- Revisar el prospecto para completar la información de seguridad (advertencias y contraindicaciones).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

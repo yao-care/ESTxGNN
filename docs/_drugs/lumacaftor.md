@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **lepra**, pero actualment
 |------|------|
 | Indicación Original | Fibrosis quística |
 | Nueva Indicación Predicha | Lepra |
-| Puntaje de Predicción TxGNN | 99.44% |
+| Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Los datos compilados no respaldan un vínculo biológico plausible entre este mecanismo y la lepra, una infección causada por *Mycobacterium leprae* cuya patogenia implica la respuesta inmunitaria del huésped y la invasión de las células de Schwann. Cualquier conexión sería especulativa y requeriría validación mecanística independiente.
 
-El puntaje TxGNN es muy alto (99.44%), pero procede de un grafo de conocimiento y puede reflejar artefactos de la red (vecinos génicos o rutas compartidas) más que una relevancia terapéutica real. Debe interpretarse con cautela.
+El puntaje TxGNN es muy alto (0.9944), pero procede del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 

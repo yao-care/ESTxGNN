@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Procaine
-parent: Solo predicción del modelo (L5)
+parent: Evidencia moderada (L3-L4)
 nav_order: 664
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
@@ -14,7 +14,7 @@ predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "T
 # Procaine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectiva para **metahemoglobinemia**, pe
 |------|------|
 | Indicación Original | No disponible en las autorizaciones de la AEMPS (el texto de indicación está vacío). Uso conocido: anestesia local |
 | Nueva Indicación Predicha | Metahemoglobinemia |
-| Puntaje de Predicción TxGNN | 99,50% |
+| Puntaje de Predicción TxGNN | 0,9950 |
 | Nivel de Evidencia | L4 (solo estudios preclínicos, casos clínicos y de mecanismo; sin ensayos clínicos) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la procaína es un anestésico local que bloquea canales de sodio. Las bases farmacológicas también la relacionan con los receptores de rianodina RyR1 y RyR2, aunque sin datos de bioactividad que confirmen un objetivo principal.
 
-**La predicción no parece razonable en sentido terapéutico.** La literatura describe que la procaína (y otros anestésicos locales como la lidocaína) **causa** metahemoglobinemia, principalmente por metabolitos de amina aromática con capacidad oxidante (como el ácido para-aminobenzoico). La puntuación alta de TxGNN refleja una asociación fármaco-enfermedad en el grafo de conocimiento, pero con dirección adversa. No hay evidencia de que la procaína trate la metahemoglobinemia.
+**La predicción no parece razonable en sentido terapéutico.** La literatura describe que la procaína (y otros anestésicos locales como la lidocaína) **causa** metahemoglobinemia, principalmente por metabolitos de amina aromática con capacidad oxidante (como el ácido para-aminobenzoico). La puntuación alta proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; además, la dirección de la asociación en la literatura es adversa. No hay evidencia de que la procaína trate la metahemoglobinemia.
 
 Otras predicciones del modelo siguen el mismo patrón: metahemoglobinemia tipo alfa y déficit de metahemoglobina reductasa (donde la procaína empeoraría el cuadro). Las predicciones con cierta plausibilidad analgésica local son fibromialgia y tendinitis. La tendinitis es la que cuenta con más respaldo relativo (nivel L3).
 

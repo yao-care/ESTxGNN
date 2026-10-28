@@ -48,27 +48,27 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | No disponible en la ficha de autorización de la AEMPS (el uso clínico conocido es cáncer colorrectal y mesotelioma maligno) |
 | Nueva Indicación Predicha | Colangitis esclerosante |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, raltitrexed inhibe la timidilato sintasa (TYMS), enzima clave en la síntesis de ADN, y bloquea así la proliferación de células que se dividen rápidamente. Su eficacia se ha utilizado en cáncer colorrectal y mesotelioma maligno.
 
-Con los datos compilados, **no se identifica un vínculo mecanístico plausible** entre la inhibición de la timidilato sintasa y la patología colestásica, inmunomediada y fibroinflamatoria de la colangitis esclerosante. El puntaje elevado del modelo parece reflejar asociaciones del grafo de conocimiento y no evidencia específica del fármaco. Además, la elevación de transaminasas asociada al fármaco es una preocupación en una enfermedad hepatobiliar.
+Con los datos compilados, **no se identifica un vínculo mecanístico plausible** entre la inhibición de la timidilato sintasa y la patología colestásica, inmunomediada y fibroinflamatoria de la colangitis esclerosante. El puntaje elevado del modelo TxGNN (deep learning) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni evidencia específica del fármaco. Además, la elevación de transaminasas asociada al fármaco es una preocupación en una enfermedad hepatobiliar.
 
 **Otras predicciones del modelo** (todas con nivel L5, sin ensayos ni literatura, decisión Hold):
 
 | Enfermedad predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Síndrome mielodisplásico | 99.97% | Racional teórico como antimetabolito, pero la mielosupresión es una preocupación importante en pacientes con citopenias |
-| Síndrome mielodisplásico no clasificado | 99.96% | Mismo racional y misma preocupación de seguridad |
-| Síndromes de células falciformes (Hb E, beta-talasemia, Hb C, Hb D, persistencia hereditaria de Hb fetal) | 99.96% | Racional especulativo de inducción de hemoglobina fetal, análogo a la hidroxiurea; probablemente refleja agrupación por clase de enfermedad |
-| Citopenia refractaria de la infancia | 99.96% | Un antifolato mielosupresor es mecanísticamente contraproducente |
-| Deleción parcial del brazo largo del cromosoma 5 | 99.95% | Sin vínculo con la inhibición de la timidilato sintasa; el tratamiento establecido en del(5q) es lenalidomida |
+| Síndrome mielodisplásico | 0.9997 | Racional teórico como antimetabolito, pero la mielosupresión es una preocupación importante en pacientes con citopenias |
+| Síndrome mielodisplásico no clasificado | 0.9996 | Mismo racional y misma preocupación de seguridad |
+| Síndromes de células falciformes (Hb E, beta-talasemia, Hb C, Hb D, persistencia hereditaria de Hb fetal) | 0.9996 | Racional especulativo de inducción de hemoglobina fetal, análogo a la hidroxiurea; probablemente refleja agrupación por clase de enfermedad |
+| Citopenia refractaria de la infancia | 0.9996 | Un antifolato mielosupresor es mecanísticamente contraproducente |
+| Deleción parcial del brazo largo del cromosoma 5 | 0.9995 | Sin vínculo con la inhibición de la timidilato sintasa; el tratamiento establecido en del(5q) es lenalidomida |
 
 ## Evidencia de Ensayos Clínicos
 

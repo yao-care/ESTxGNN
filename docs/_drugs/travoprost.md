@@ -6,9 +6,9 @@ nav_order: 818
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Travoprost: nueva indicación predicha, Enfermedad vascular (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
+description: "Travoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Travoprost
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Travoprost: De Glaucoma de Ángulo Abierto a Enfermedad Vascular
+## Travoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -42,18 +42,18 @@ Travoprost es un análogo de la prostaglandina F2-alfa que se utiliza en colirio
 El modelo TxGNN predice que podría ser efectivo para **enfermedad vascular**, pero ningún ensayo ni publicación lo prueba: los **10 ensayos clínicos** y las **20 publicaciones** recuperados tratan sobre glaucoma y sus efectos secundarios oculares.
 La evidencia que respalda esta nueva indicación es, por tanto, únicamente la predicción del modelo.
 
-> **Nota sobre la selección de la indicación:** la primera predicción del listado es *calcifilaxis visceral* (puntaje 99,99985%), pero no tiene ensayos ni literatura asociados. Este informe se centra en *enfermedad vascular* (puesto 5), la única predicción con ensayos y literatura recuperados, aunque en realidad no respaldan la nueva indicación. Al final se resumen las demás predicciones.
+> **Nota sobre la selección de la indicación:** la primera predicción del listado es *calcifilaxis visceral* (puntaje 1,0000), pero no tiene ensayos ni literatura asociados. Este informe se centra en *enfermedad vascular* (puesto 5), la única predicción con ensayos y literatura recuperados, aunque en realidad no respaldan la nueva indicación. Al final se resumen las demás predicciones.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular |
-| Nueva Indicación Predicha | Enfermedad vascular |
-| Puntaje de Predicción TxGNN | 99,99970% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Visceral calciphylaxis |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 18 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -125,15 +125,15 @@ Todas las predicciones restantes tienen nivel de evidencia L5 (solo predicción 
 
 | Puesto | Indicación Predicha | Puntaje TxGNN | Evidencia |
 |------|------|------|------|
-| 1 | Calcifilaxis visceral | 99,99985% | Sin ensayos ni literatura |
-| 2 | Síndrome del opérculo torácico arterial | 99,99980% | Sin ensayos ni literatura |
-| 3 | Síndrome del opérculo torácico venoso | 99,99980% | Sin ensayos ni literatura |
-| 4 | Síndrome del opérculo torácico neurogénico | 99,99973% | Sin ensayos ni literatura |
-| 6 | Angiodisplasia de estómago | 99,99969% | Sin ensayos ni literatura |
-| 7 | Síndrome del dedo azul | 99,99968% | Sin ensayos ni literatura |
-| 8 | Disección coronaria espontánea idiopática | 99,99967% | Sin ensayos ni literatura |
-| 9 | Linfangiectasia | 99,99967% | Sin ensayos ni literatura |
-| 10 | Hemangioendotelioma | 99,99965% | L4: un reporte de caso que describe un evento adverso, no un beneficio |
+| 1 | Calcifilaxis visceral | 1,0000 | Sin ensayos ni literatura |
+| 2 | Síndrome del opérculo torácico arterial | 1,0000 | Sin ensayos ni literatura |
+| 3 | Síndrome del opérculo torácico venoso | 1,0000 | Sin ensayos ni literatura |
+| 4 | Síndrome del opérculo torácico neurogénico | 1,0000 | Sin ensayos ni literatura |
+| 6 | Angiodisplasia de estómago | 1,0000 | Sin ensayos ni literatura |
+| 7 | Síndrome del dedo azul | 1,0000 | Sin ensayos ni literatura |
+| 8 | Disección coronaria espontánea idiopática | 1,0000 | Sin ensayos ni literatura |
+| 9 | Linfangiectasia | 1,0000 | Sin ensayos ni literatura |
+| 10 | Hemangioendotelioma | 1,0000 | L5: un reporte de caso que describe un evento adverso, no un beneficio |
 
 ## Conclusión y Próximos Pasos
 

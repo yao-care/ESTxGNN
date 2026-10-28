@@ -50,10 +50,10 @@ La predicción se apoya únicamente en el modelo, por lo que la evidencia real e
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones de AEMPS está vacío) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99.03% |
+| Puntaje de Predicción TxGNN | 0.9903 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Alpelisib es un inhibidor de PI3K-alfa. Los datos compilados para este informe n
 
 La vía PI3K/AKT/mTOR participa en la proliferación del músculo liso vascular pulmonar y en el remodelado vascular característico de la hipertensión pulmonar. Por ello existe un vínculo teórico entre inhibir PI3K y modificar la enfermedad. Sin embargo, no se dispone de la indicación original aprobada en España, así que no es posible analizar con rigor la relación entre esta y la nueva indicación.
 
-Conviene ser cautos: el puntaje del modelo es muy alto (0.990), pero es solo una predicción computacional. La única publicación recuperada describe una enfermedad pulmonar intersticial inducida por alpelisib en una paciente con cáncer de mama avanzado. Esto no respalda un beneficio terapéutico y sugiere una posible preocupación de seguridad pulmonar.
+Conviene ser cautos: el puntaje del modelo es muy alto (0.9903), pero es solo una predicción computacional. La única publicación recuperada describe una enfermedad pulmonar intersticial inducida por alpelisib en una paciente con cáncer de mama avanzado. Esto no respalda un beneficio terapéutico y sugiere una posible preocupación de seguridad pulmonar.
 
 ---
 

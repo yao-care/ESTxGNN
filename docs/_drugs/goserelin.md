@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Goserelin
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 384
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Goserelin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: Endometriosis (según el grafo de conocimiento"
 monitor_inn: "goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
+description: "Goserelin: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Goserelin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Goserelina: De Endometriosis a Amenorrea
+## Goserelin: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, con **1 ens
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Endometriosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L1 (según la evaluación del conjunto de datos; con la salvedad de que la evidencia es indirecta, ver más abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -113,7 +113,7 @@ El efecto de la goserelina sobre la supresión ovárica y la amenorrea está bie
 - Datos detallados del mecanismo de acción.
 - Plan de monitorización de seguridad (glucemia, presión arterial, calcio) y revisión de las interacciones con antidiabéticos.
 
-**Otras predicciones del modelo:** la hipoplasia renal (y su forma bilateral) tiene puntuaciones altas (≈99,06 %), pero no cuenta con ensayos, literatura ni vínculo mecanístico identificable. Probablemente son artefactos del modelo y se recomienda **Hold** (nivel de evidencia L5).
+**Otras predicciones del modelo:** la hipoplasia renal (y su forma bilateral) tiene puntuaciones altas (≈0,9906), pero no cuenta con ensayos, literatura ni vínculo mecanístico identificable. Probablemente son artefactos del modelo y se recomienda **Hold** (nivel de evidencia L5).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

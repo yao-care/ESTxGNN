@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lornoxicam
-parent: Evidencia moderada (L3-L4)
+parent: Evidencia alta (L1-L2)
 nav_order: 486
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Lornoxicam: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+evidence_level: L2
+indication_count: 8
 monitor_inn: "LORNOXICAM"
-predicted_indications: ["migraine with or without aura, susceptibility to", "migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "idiopathic granulomatous myositis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "idiopathic granulomatous myositis"]
+last_modified_at: 2026-10-23
+description: "Lornoxicam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L2). Indicación original: No disponible (las autorizaciones no incluyen texto de indicación)"
 ---
 
 # Lornoxicam
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +33,58 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Lornoxicam: De Indicación Original No Especificada a Artritis Reumatoide
+## Lornoxicam: De Indicación Original (sin texto de indicación disponible) a Trastorno de Migraña
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lornoxicam es un antiinflamatorio no esteroideo (AINE) de la clase de los oxicams, comercializado en España en comprimidos recubiertos con película. El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, con **0 ensayos clínicos** y **20 publicaciones** asociadas. Se trata de una indicación ya establecida como uso sintomático en otros países, más que de un reposicionamiento genuino, y la mayor parte de la literatura corresponde a estudios de formulación y a revisiones.
+Lornoxicam es un antiinflamatorio no esteroideo (AINE) de la clase de los oxicams, con propiedades analgésicas, antiinflamatorias y antipiréticas. Las autorizaciones españolas de los datos compilados no incluyen texto de indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, con **1 ensayo clínico** de Fase 2 y **2 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
-| Decisión Recomendada | Hold |
+| Indicación Original | No disponible (las autorizaciones no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Trastorno de migraña |
+| Puntaje de Predicción TxGNN | 0,9987 |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 1) |
+| Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, lornoxicam es un inhibidor no selectivo de la ciclooxigenasa (COX-1 y COX-2) de la clase de los oxicams. Al reducir la síntesis de prostaglandinas, disminuye la inflamación, el dolor y la fiebre.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la farmacología conocida de la clase, lornoxicam es un AINE que inhibe las enzimas COX-1 y COX-2 y, con ello, reduce la síntesis de prostaglandinas.
 
-La artritis reumatoide es una enfermedad inflamatoria crónica de las articulaciones en la que las prostaglandinas contribuyen al dolor y a la inflamación. Por ello, el mecanismo es coherente con el control sintomático de esta enfermedad. La literatura revisada indica que lornoxicam ya se utiliza en artrosis y artritis reumatoide en varios países, por lo que es más un uso sintomático establecido que un hallazgo de reposicionamiento. No hay respaldo para una actividad modificadora de la enfermedad.
+Las prostaglandinas participan en la inflamación neurogénica y en la sensibilización al dolor que ocurren en la migraña. Los AINE son una clase de fármacos establecida para el tratamiento de las crisis agudas de migraña, por lo que el mecanismo es biológicamente plausible y coherente con la clase. Esta vinculación se basa en la farmacología conocida de la clase y no en datos de mecanismo específicos de este fármaco.
 
-**Otras predicciones del modelo (para contexto):**
-- **Migraña (trastorno de migraña, 99.87%) y cefalea (99.80%):** respaldadas por un ensayo de Fase 2 completado (NCT00293657), aunque sin resultados disponibles. Ambas alcanzan nivel L2.
-- **Tendinitis (99.72%):** un estudio comparativo en síndrome de pinzamiento subacromial halló lornoxicam inferior a betametasona.
-- **Otras predicciones** (síndrome de braquidactilia-sindactilia, síndrome de microftalmía colobomatosa-displasia rizomélica, cefalea autonómica trigeminal, miositis granulomatosa idiopática, migraña con aura de tronco encefálico): sin ensayos ni literatura, con probable origen en artefactos de la red del modelo.
+Una revisión de 1992 sobre AINE en migraña incluye lornoxicam entre los fármacos evaluados. Además, un ensayo de Fase 2 completado estudió lornoxicam intravenoso en el dolor de cabeza agudo de la migraña.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para artritis reumatoide.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Completado | 150 | Estudio aleatorizado, doble ciego y controlado con placebo de dosis única de lornoxicam intravenoso (8 mg o 16 mg) frente a placebo en el dolor de cabeza moderado o intenso de una crisis de migraña. Los resultados del criterio principal no figuran en los datos compilados. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Revisión | Drugs | Revisión de farmacología y potencial terapéutico de lornoxicam en dolor y afecciones inflamatorias; semivida corta (3-5 h) |
-| [22469263](https://pubmed.ncbi.nlm.nih.gov/22469263/) | 2011 | Revisión | Profiles of Drug Substances, Excipients, and Related Methodology | Perfil completo del fármaco, usado en artrosis y artritis reumatoide |
-| [19821419](https://pubmed.ncbi.nlm.nih.gov/19821419/) | 2009 | Revisión sistemática | Cochrane Database of Systematic Reviews | Lornoxicam oral en dolor postoperatorio agudo (indirecta para artritis reumatoide) |
-| [12240779](https://pubmed.ncbi.nlm.nih.gov/12240779/) | 2002 | Revisión | Clinical Therapeutics | Revisión de la relación dosis-efecto de los AINE en artritis reumatoide y artrosis |
-| [12404032](https://pubmed.ncbi.nlm.nih.gov/12404032/) | 2002 | Estudio cruzado doble ciego | Reumatismo | Lornoxicam 8 y 16 mg/día frente a diclofenaco 150 mg/día en artritis reumatoide |
-| [12207202](https://pubmed.ncbi.nlm.nih.gov/12207202/) | 2002 | Estudio clínico a largo plazo | Minerva Medica | Eficacia y seguridad a largo plazo de lornoxicam en artritis reumatoide |
-| [27086708](https://pubmed.ncbi.nlm.nih.gov/27086708/) | 2016 | Revisión de tolerabilidad | Pain Management | Seguridad de lornoxicam, con énfasis en eventos gastrointestinales |
-| [29026298](https://pubmed.ncbi.nlm.nih.gov/29026298/) | 2017 | Preclínico (modelo animal) | International Journal of Nanomedicine | Fórmula nanomicelar de lornoxicam frente a lornoxicam libre en modelos experimentales de artritis reumatoide |
-| [18479176](https://pubmed.ncbi.nlm.nih.gov/18479176/) | 2008 | Fase I | Clinical Drug Investigation | Biodisponibilidad comparativa de comprimido de liberación rápida, comprimido estándar e inyección intramuscular en voluntarios sanos |
-| [32792844](https://pubmed.ncbi.nlm.nih.gov/32792844/) | 2020 | Estudio de formulación | Saudi Pharmaceutical Journal | Gel de microesponjas celulósicas con lornoxicam para artritis |
-
-Nota: el resto de las publicaciones identificadas son estudios de formulación y administración del fármaco (minicomprimidos, perlas pulsátiles, parches, emulgeles, nanopartículas, comprimidos de disgregación rápida) y revisiones sobre glucocorticoides que no son específicas de lornoxicam.
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Revisión | Pathologie-biologie | Revisa estudios controlados de AINE en el tratamiento de crisis de migraña y en la profilaxis, entre ellos lornoxicam. |
+| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Revisión | Drugs | Revisión de la farmacología y el potencial terapéutico de lornoxicam en dolor y afecciones inflamatorias; semivida de eliminación corta (3 a 5 horas). Es una fuente general sobre el fármaco, no específica de migraña. |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 61836 | ACABEL 4 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 62691 | BOSPORON 8 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 29-696-08-C | ACABEL RAPID 8 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 65059 | ACABEL RAPID 8 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-| 66440 | BOSPORON RAPID 8 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
+| 78274 | LORNOXICAM RAPID MEIJI 8 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG (vigente) | Comprimido recubierto con película | No disponible |
+| 61836 | ACABEL 4 mg (cancelada) | Comprimido recubierto con película | No disponible |
+| 61837 | ACABEL 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
+| 65059 | ACABEL RAPID 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
+| 62691 | BOSPORON 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
 
-Hay 7 autorizaciones vigentes en total, todas de medicamentos con un único principio activo. Las dos restantes son ACABEL 8 mg (61837) y LORNOXICAM RAPID MEIJI 8 mg EFG (78274).
+Hay 7 autorizaciones en total (1 vigente y 6 canceladas); la tabla muestra las 5 principales.
 
 ## Consideraciones de Seguridad
 
@@ -102,17 +92,18 @@ Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La artritis reumatoide es un uso sintomático ya conocido de lornoxicam, por lo que no constituye un hallazgo de reposicionamiento propiamente dicho. No hay ensayos registrados, y la evidencia se reduce a revisiones, un estudio preclínico y estudios de formulación. La señal más sólida para una indicación nueva es la migraña/cefalea (Fase 2 completada, nivel L2), pero sus resultados no están disponibles.
+Existe un ensayo de Fase 2 completado, aleatorizado y controlado con placebo, que estudia directamente lornoxicam en la migraña, junto con un mecanismo plausible de clase. Sin embargo, no hay resultados verificados del criterio principal ni ECA de Fase 3, por lo que la evidencia es limitada. Las predicciones de "trastorno de cefalea" se apoyan en el mismo ensayo y no constituyen evidencia independiente.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas), que actualmente es una brecha bloqueante para el cribado de seguridad
-- Completar los datos del mecanismo de acción desde DrugBank
-- Obtener los resultados del ensayo NCT00293657 en migraña aguda para valorar una línea prioritaria alternativa
-- Confirmar las indicaciones autorizadas en España para determinar si la artritis reumatoide ya está cubierta
-- Evaluar el perfil de seguridad del AINE (gastrointestinal, cardiovascular y renal) en las poblaciones objetivo
+- Verificar los resultados del criterio principal del ensayo NCT00293657.
+- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones) y los datos de mecanismo de acción.
+- Aclarar la vía de administración: el ensayo usó la vía intravenosa, y la única autorización vigente en España es oral.
+- Evaluar el perfil de seguridad de los AINE (gastrointestinal, cardiovascular, renal) en uso repetido para migraña.
+
+**Otras predicciones (nivel L5 salvo indicación):** las predicciones de subtipos de migraña, cefalea trigémino-autonómica y miositis granulomatosa idiopática no cuentan con estudios directos y se mantienen en Hold. El síndrome de braquidactilia-sindactilia y el síndrome de microftalmia colobomatosa-displasia rizomélica carecen de vínculo mecanístico plausible; sus puntuaciones provienen del modelo TxGNN (deep learning) y probablemente reflejan similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. La tendinitis (L3 asignado en los datos) solo tiene un estudio en síndrome de pinzamiento subacromial, donde lornoxicam inyectable resultó inferior a betametasona; no es un estudio directo de tendinitis, por lo que debe considerarse L5 según el criterio de evidencia directa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

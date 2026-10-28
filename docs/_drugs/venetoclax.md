@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Venetoclax
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 842
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Venetoclax: nueva indicación predicha, LLC/LLP de origen pregerminal (IGHV no mutado) (nivel de evidencia L4). Indicación original: Leucemia linfoblástica aguda"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax: nueva indicación predicha, Hodgkins lymphoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Venetoclax: De Leucemia Linfoblástica Aguda y Síndrome de Richter a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Origen Pregerminal
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ Esta predicción cuenta con **0 ensayos clínicos** y **1 publicación** (una re
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfoblástica aguda; síndrome de Richter (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | LLC/LLP de origen pregerminal (IGHV no mutado) |
-| Puntaje de Predicción TxGNN | 99.55% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hodgkins lymphoma |
+| Puntaje de Predicción TxGNN | 0.9951 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Venetoclax actúa inhibiendo BCL-2, una proteína que impide la muerte celular programada (apoptosis). Las células de LLC dependen mucho de BCL-2 para sobrevivir, por lo que bloquearla restablece la apoptosis en las células tumorales. En los datos compilados para este informe no consta una descripción detallada del mecanismo de acción del fármaco. Esta explicación se basa en el conocimiento general de la clase y en la justificación mecanística asociada a la predicción.
 
-La nueva indicación predicha no es una enfermedad distinta. Es un subtipo molecular de la LLC/LLP, el de IGHV no mutado, que suele tener peor pronóstico. Venetoclax ya está aprobado para la LLC/LLP mediante inhibición de BCL-2, de modo que este subtipo queda cubierto por la indicación de LLC existente. **No es un candidato de reposicionamiento en sentido estricto.** La predicción del modelo refleja la cercanía biológica entre las enfermedades linfoides del grafo de conocimiento.
+La nueva indicación predicha no es una enfermedad distinta. Es un subtipo molecular de la LLC/LLP, el de IGHV no mutado, que suele tener peor pronóstico. Venetoclax ya está aprobado para la LLC/LLP mediante inhibición de BCL-2, de modo que este subtipo queda cubierto por la indicación de LLC existente.
 
 Para este subtipo no hay ensayos listados. La única publicación analiza la estructura y función del receptor de células B tumoral, lo que da un apoyo solo indirecto.
 
@@ -82,7 +82,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para este subtipo 
 | 161138002 | VENCLYXTO 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
 | 161138007IP | VENCLYXTO 100 mg comprimidos recubiertos con película | Comprimido recubierto con película |
 
-Las cinco autorizaciones están vigentes y corresponden a monofármaco, titular Abbvie Deutschland GmbH & Co. KG.
+Las cinco autorizaciones están vigentes y corresponden a monofármaco, titular Abbvie Deutschland GmbH & Co.
 
 ## Citotoxicidad
 

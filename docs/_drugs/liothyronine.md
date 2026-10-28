@@ -4,17 +4,17 @@ title: Liothyronine
 parent: Solo predicción del modelo (L5)
 nav_order: 473
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Liothyronine: nueva indicación predicha, Hipodisplasia/aplasia renal (nivel de evidencia L5). Indicación original: No disponible en la ficha de AEMPS (el texto de indicación está vacío…"
 monitor_inn: "Liothyronine"
-predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "nodular goiter (disease)", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "myxoma", "angiomyxoma", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "myxoma", "angiomyxoma", "hypotrichosis simplex of the scalp"]
+description: "Liothyronine: nueva indicación predicha, Hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Liothyronine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Liotironina: De Hipotiroidismo a Hipodisplasia/Aplasia Renal
+## Liothyronine: Hipodisplasia/aplasia renal (renal hypodysplasia/aplasia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia re
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en la ficha de AEMPS (el texto de indicación está vacío). En el grafo de conocimiento figuran hipotiroidismo, mixedema, bocio y cáncer de tiroides, entre otras |
-| Nueva Indicación Predicha | Hipodisplasia/aplasia renal |
-| Puntaje de Predicción TxGNN | 99,95% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la liotironina es la forma activa de la hormona tiroidea (T3): su eficacia en el hipotiroidismo y en enfermedades tiroideas está bien establecida, y actúa sustituyendo la hormona deficiente y suprimiendo la TSH.
 
-Sin embargo, **no se identifica un vínculo mecanístico plausible** con la nueva indicación. La hipodisplasia o aplasia renal es una malformación congénita del desarrollo, de carácter estructural, y es improbable que una hormona administrada después del nacimiento pueda revertirla. El puntaje elevado parece reflejar la cercanía en el grafo de conocimiento (fenotipos de anomalías congénitas compartidos) y no una justificación terapéutica.
+Sin embargo, **no se identifica un vínculo mecanístico plausible** con la nueva indicación. La hipodisplasia o aplasia renal es una malformación congénita del desarrollo, de carácter estructural, y es improbable que una hormona administrada después del nacimiento pueda revertirla. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (fenotipos de anomalías congénitas compartidos), no evidencia biológica ni una justificación terapéutica.
 
 Conviene señalar que otras predicciones del mismo análisis siguen patrones similares. Entre ellas figuran la agenesia renal bilateral, la secuencia de Potter, el complejo de Carney, el mixoma y el angiomixoma, todas sin evidencia clínica. El bocio nodular ya forma parte de las indicaciones originales, por lo que no constituye un verdadero reposicionamiento. La acrodisostosis, con hormonas resistentes, es mecanísticamente concebible pero no está demostrada.
 

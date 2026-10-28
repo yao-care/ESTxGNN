@@ -6,9 +6,9 @@ nav_order: 856
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vitamin E: nueva indicación predicha, Trastorno congénito del metabolismo de la bilirrubina (nivel de evidencia L5). Indicación original: Colestasis y déficit familiar aislado de vitamina E (según el…"
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
+description: "Vitamin E: nueva indicación predicha, Inborn disorder of bilirubin metabolism (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Vitamin E
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vitamina E: De Colestasis a Trastorno Congénito del Metabolismo de la Bilirrubina
+## Vitamin E: Inborn disorder of bilirubin metabolism
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para el **trastorno congénito 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Colestasis y déficit familiar aislado de vitamina E (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Trastorno congénito del metabolismo de la bilirrubina |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Inborn disorder of bilirubin metabolism |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---

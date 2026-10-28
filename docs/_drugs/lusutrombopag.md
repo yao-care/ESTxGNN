@@ -4,17 +4,17 @@ title: Lusutrombopag
 parent: Solo predicción del modelo (L5)
 nav_order: 492
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Lusutrombopag: nueva indicación predicha, Trombocitopenia hereditaria con plaquetas normales (nivel de evidencia L5). Indicación original: Trombocitopenia (según el grafo de conocimiento"
 monitor_inn: "LUSUTROMBOPAG"
-predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
+description: "Lusutrombopag: nueva indicación predicha, Hereditary thrombocytopenia with normal platelets (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lusutrombopag
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Lusutrombopag: De Trombocitopenia a Trombocitopenia Hereditaria con Plaquetas Normales
+## Lusutrombopag: Hereditary thrombocytopenia with normal platelets
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trombocitopenia (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
-| Nueva Indicación Predicha | Trombocitopenia hereditaria con plaquetas normales |
-| Puntaje de Predicción TxGNN | 99.995% |
-| Nivel de Evidencia | L4 (según la clasificación del análisis; sin estudios clínicos ni publicaciones, solo racional mecanístico) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hereditary thrombocytopenia with normal platelets |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 (según la clasificación del análisis; sin estudios clínicos ni publicaciones, solo racional mecanístico) |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -96,7 +96,7 @@ La predicción carece de ensayos clínicos y literatura; solo existe un puntaje 
 - Definir los subtipos genéticos de interés y evaluar la respuesta esperada en cada uno
 - Evaluar el riesgo trombótico y el perfil de seguridad en la población objetivo
 
-**Nota sobre otras predicciones:** las demás predicciones del modelo (p. ej., macrotrombocitopenia con insuficiencia mitral, trombocitopenia neonatal transitoria, enfermedad de gránulos densos, déficit del pool de almacenamiento plaquetario, esclerosis lateral amiotrófica y otras) carecen igualmente de evidencia clínica. Las de tipo neurológico y esquelético no tienen un vínculo mecanístico creíble y probablemente son artefactos del grafo de conocimiento.
+**Nota sobre otras predicciones:** las demás predicciones del modelo (p. ej., macrotrombocitopenia con insuficiencia mitral, trombocitopenia neonatal transitoria, enfermedad de gránulos densos, déficit del pool de almacenamiento plaquetario, esclerosis lateral amiotrófica y otras) carecen igualmente de evidencia clínica. Las de tipo neurológico y esquelético no tienen un vínculo mecanístico creíble y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

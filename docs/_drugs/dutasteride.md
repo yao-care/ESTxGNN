@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para la **hipertricosis univers
 |------|------|
 | Indicación Original | Hiperplasia prostática benigna |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99,998% |
+| Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Dutasterida inhibe la 5-alfa-reductasa de tipo 1 y 2, enzimas que convierten la 
 
 Sin embargo, el síndrome de Ambras es una hipertricosis congénita asociada a alteraciones genéticas que afectan a la regulación de TRPS1 y no es principalmente una enfermedad dependiente de andrógenos. Reducir la DHT podría disminuir el vello terminal dependiente de andrógenos en algunas zonas, pero no necesariamente corregiría el fenotipo congénito, de modo que incluso el sentido del efecto es incierto.
 
-El puntaje muy alto de TxGNN refleja la proximidad en el grafo de conocimiento, sin datos clínicos que lo respalden. Debe interpretarse con cautela. Los datos compilados para este informe no incluyen información detallada sobre el mecanismo de acción del fármaco.
+El puntaje muy alto de TxGNN proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay datos clínicos que lo respalden. Debe interpretarse con cautela. Los datos compilados para este informe no incluyen información detallada sobre el mecanismo de acción del fármaco.
 
 ## Evidencia de Ensayos Clínicos
 

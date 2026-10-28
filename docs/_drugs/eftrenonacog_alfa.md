@@ -6,9 +6,9 @@ nav_order: 279
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Eftrenonacog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (nivel de evidencia L5). Indicación original: Hemofilia (según las indicaciones originales del grafo de conocimiento"
 monitor_inn: "EFTRENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
+description: "Eftrenonacog Alfa: nueva indicación predicha, Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Eftrenonacog Alfa
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Eftrenonacog alfa: De Hemofilia a Enfermedad de von Willebrand Tipo Plaquetario (Pseudo-von Willebrand)
+## Eftrenonacog Alfa: Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **la enfermedad pseudo-von
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemofilia (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad pseudo-von Willebrand |
-| Puntaje de Predicción TxGNN | 99,48 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad pseudo-von Willebrand (pseudo-von Willebrand disease) |
+| Puntaje de Predicción TxGNN | 0.9948 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La enfermedad pseudo-von Willebrand (tipo plaquetario) se debe a una mutación con ganancia de función del receptor plaquetario GPIbα, que aumenta su afinidad por el factor von Willebrand y provoca la eliminación de plaquetas y la pérdida de multímeros de alto peso molecular del factor von Willebrand. El defecto reside en la interacción plaqueta-VWF (hemostasia primaria), no en una deficiencia de factor IX.
 
-Por ello, el vínculo mecanístico es débil. Cualquier justificación sería indirecta (por ejemplo, apoyo a la hemostasia secundaria) y no corregiría el defecto de fondo. El puntaje elevado de TxGNN (0,995) refleja únicamente una predicción basada en el grafo, sin respaldo de ensayos ni de literatura.
+Por ello, el vínculo mecanístico es débil. Cualquier justificación sería indirecta (por ejemplo, apoyo a la hemostasia secundaria) y no corregiría el defecto de fondo. El puntaje elevado de TxGNN (0.9948) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo de ensayos ni de literatura.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -89,8 +89,8 @@ Consultar el prospecto para información de seguridad. No se identificaron inter
 
 | Rango | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
 |------|------|------|------|------|
-| 2 | Trastorno primario de liberación plaquetaria | 99,42 % | L5 | El factor IX actúa en la hemostasia secundaria y no corrige defectos de secreción de gránulos plaquetarios. Vínculo indirecto y especulativo. |
-| 3 | Trombastenia de Glanzmann | 99,28 % | L5 | El defecto está en la integrina αIIbβ3; el factor IX no restaura la agregación plaquetaria. El manejo actual usa transfusión de plaquetas, antifibrinolíticos y factor VIIa recombinante. |
+| 2 | Trastorno primario de liberación plaquetaria | 0,9942 | L5 | El factor IX actúa en la hemostasia secundaria y no corrige defectos de secreción de gránulos plaquetarios. Vínculo indirecto y especulativo. |
+| 3 | Trombastenia de Glanzmann | 0,9928 | L5 | El defecto está en la integrina αIIbβ3; el factor IX no restaura la agregación plaquetaria. El manejo actual usa transfusión de plaquetas, antifibrinolíticos y factor VIIa recombinante. |
 
 ## Conclusión y Próximos Pasos
 

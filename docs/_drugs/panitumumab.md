@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Neoplasia maligna metastásica de colon (según la base de conocimiento TxGNN; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99.13% |
+| Puntaje de Predicción TxGNN | 0.9913 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,9 +60,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La señalización de EGFR participa de forma plausible en la diferenciación de los osteoblastos y en la remodelación ósea, por lo que su bloqueo podría afectar teóricamente al hueso. Sin embargo, este vínculo es especulativo y podría apuntar hacia un perjuicio en lugar de un beneficio: la hipomagnesemia y la hipocalcemia son efectos adversos conocidos de panitumumab y podrían afectar negativamente al hueso.
 
-No existe evidencia clínica directa ni indirecta que respalde este reposicionamiento. Además, un puntaje alto puede reflejar una asociación basada en el grafo de conocimiento y no un verdadero efecto terapéutico.
+No existe evidencia clínica directa ni indirecta que respalde este reposicionamiento. Además, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un verdadero efecto terapéutico.
 
-**Otra predicción de TxGNN (rango 2):** retinopatía diabética no proliferativa grave (puntaje 99.05%, nivel L5, Hold). El vínculo mecanístico es débil: la diana validada en esta enfermedad es VEGF, el perfil de toxicidad sistémica del anti-EGFR es conocido y no hay datos que respalden su uso intravítreo. Tampoco hay ensayos ni literatura.
+**Otra predicción de TxGNN (rango 2):** retinopatía diabética no proliferativa grave (puntaje 0.9905, nivel L5, Hold). El vínculo mecanístico es débil: la diana validada en esta enfermedad es VEGF, el perfil de toxicidad sistémica del anti-EGFR es conocido y no hay datos que respalden su uso intravítreo. Tampoco hay ensayos ni literatura.
 
 ## Evidencia de Ensayos Clínicos
 

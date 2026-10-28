@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 monitor_inn: "NEFOPAM"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
-description: "Nefopam: nueva indicación predicha, Estenosis espinal lumbar (lumbar spinal stenosis) (nivel de evidencia L5). Indicación original: No disponible (el texto de indicación de la autorización está vacío"
+description: "Nefopam: nueva indicación predicha, Craniostenosis cataract (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nefopam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Nefopam: De Analgésico (indicación original no registrada) a Estenosis Espinal Lumbar
+## Nefopam: Craniostenosis cataract
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -41,21 +41,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 Nefopam es un analgésico no opioide de acción central, comercializado en España en forma inyectable, cuyo texto de indicación aprobada no figura en los datos compilados para este informe.
 La predicción principal del modelo TxGNN (craniostenosis con catarata) carece de todo respaldo, por lo que este informe se centra en la **Estenosis Espinal Lumbar**, la única predicción con literatura real (**4 publicaciones**, **ningún ensayo clínico registrado**).
 
-> **Nota sobre la selección de la indicación:** la predicción de mayor rango (*craniostenosis cataract*) y las otras ocho predicciones de catarata no tienen ensayos ni literatura y comparten un puntaje idéntico o casi idéntico, lo que sugiere una señal genérica del grafo. Por ello se presenta como candidata más relevante la estenosis espinal lumbar (rango 10), que sí cuenta con evidencia.
+> **Nota sobre la selección de la indicación:** la predicción de mayor rango (*craniostenosis cataract*) y las otras ocho predicciones de catarata no tienen ensayos ni literatura y comparten un puntaje idéntico o casi idéntico, lo que sugiere una señal genérica del modelo TxGNN (deep learning), que puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Por ello se presenta como candidata más relevante la estenosis espinal lumbar (rango 10), que sí cuenta con evidencia.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Estenosis espinal lumbar (*lumbar spinal stenosis*) |
-| Puntaje de Predicción TxGNN | 99,97% |
-| Nivel de Evidencia | L4 (conservador; ver justificación) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Craniostenosis cataract |
+| Puntaje de Predicción TxGNN | 0.9998 |
+| Nivel de Evidencia | L5 (conservador; ver justificación) |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold (mantener en espera; pregunta de investigación) |
 
-Para las predicciones de catarata (puntajes entre 99,97% y 99,98%), el nivel de evidencia es L5 y la decisión es Hold.
+Para las predicciones de catarata (puntajes entre 0,9997 y 0,9998), el nivel de evidencia es L5 y la decisión es Hold.
 
 ## ¿Por qué es Razonable esta Predicción?
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 En la estenosis espinal lumbar existe un vínculo plausible a través de su acción analgésica: podría reducir el dolor de tipo neuropático y la disestesia, y ahorrar opioides en el periodo perioperatorio de la cirugía de columna. Cabe subrayar que la evidencia disponible se refiere al control sintomático perioperatorio (dolor, disestesia, consumo de opioides) y no a una modificación de la enfermedad.
 
-Para las predicciones de catarata no se identificó ningún vínculo mecanístico. El puntaje idéntico entre subtipos de catarata indica una señal inespecífica del grafo, no una señal específica de enfermedad.
+Para las predicciones de catarata no se identificó ningún vínculo mecanístico. El puntaje idéntico entre subtipos de catarata indica una señal inespecífica del modelo TxGNN (deep learning), que puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica ni una señal específica de enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 

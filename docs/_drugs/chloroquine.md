@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloroquine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 173
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide posit… (nivel de evidencia L4). Indicación original: Artritis reumatoide…"
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
+description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide positivo (rheumatoid factor-positive polyarticular juve… (nivel de evidencia L5). Indicación or…"
 ---
 
 # Chloroquine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Cloroquina: De Artritis Reumatoide y Lupus a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
+## Chloroquine: Artritis idiopática juvenil poliarticular con factor reumatoide positivo (rheumatoid factor-positive polyarticular juvenile idiopathic arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos** y solo **1 publicación** recupera
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide, lupus eritematoso y malaria (el texto de indicación de la autorización española no está disponible; se usan las indicaciones del grafo de conocimiento) |
-| Nueva Indicación Predicha | Artritis idiopática juvenil poliarticular con factor reumatoide positivo |
-| Puntaje de Predicción TxGNN | 99,41 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis idiopática juvenil poliarticular con factor reumatoide positivo (rheumatoid factor-positive polyarticular juvenile idiopathic arthritis) |
+| Puntaje de Predicción TxGNN | 0.9941 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

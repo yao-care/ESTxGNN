@@ -4,17 +4,17 @@ title: Gadobenic Acid
 parent: Solo predicción del modelo (L5)
 nav_order: 367
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Gadobenic Acid: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: Agente de contraste para diagnóstico por RM (las autorizaciones no in…"
 monitor_inn: "gadobenic acid"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility"]
+predicted_indications: ["osteoarthritis"]
 ---
 
 # Gadobenic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,19 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero ac
 |------|------|
 | Indicación Original | Agente de contraste para diagnóstico por RM (las autorizaciones no incluyen texto de indicación en los datos compilados) |
 | Nueva Indicación Predicha | Osteoartritis |
-| Puntaje de Predicción TxGNN | 99.21% |
+| Puntaje de Predicción TxGNN | 0.9921 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido gadobénico es un agente de contraste paramagnético a base de gadolinio, empleado con fines diagnósticos y no terapéuticos. Su función es mejorar la señal en imágenes de RM, no modificar procesos patológicos.
 
-Con los datos compilados, **no se identifica un vínculo mecanístico** que respalde su uso en osteoartritis. El puntaje alto de TxGNN (0.992) es una predicción computacional sin ensayos ni literatura que la corroboren. Su uso en imagen articular (p. ej., artrografía por RM) es diagnóstico y no debe confundirse con evidencia terapéutica.
+Con los datos compilados, **no se identifica un vínculo mecanístico** que respalde su uso en osteoartritis. El puntaje alto de TxGNN (0.9921) es una predicción computacional sin ensayos ni literatura que la corroboren. Su uso en imagen articular (p. ej., artrografía por RM) es diagnóstico y no debe confundirse con evidencia terapéutica.
 
-La predicción podría reflejar artefactos del grafo de conocimiento, como asociaciones compartidas con imagen musculoesquelética o con la biología de iones metálicos relacionados con el gadolinio. Una segunda predicción, "susceptibilidad a la osteoartritis" (puntaje 99.16%), es un concepto de asociación genética o de riesgo y no una enfermedad tratable. Probablemente sea una señal redundante de la primera, no una evidencia independiente.
+La predicción podría reflejar artefactos del modelo TxGNN (aprendizaje profundo), como asociaciones compartidas con imagen musculoesquelética o con la biología de iones metálicos relacionados con el gadolinio.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -99,7 +99,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Advertencias y contraindicaciones del prospecto de la AEMPS (necesarias para el cribado de seguridad)
 - Texto de indicaciones aprobadas de las dos autorizaciones
 - Estudios preclínicos o de mecanismo que justifiquen un efecto terapéutico en osteoartritis
-- Revisión de la plausibilidad de la predicción, descartando artefactos del grafo de conocimiento
+- Revisión de la plausibilidad de la predicción, descartando artefactos del modelo TxGNN (aprendizaje profundo)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

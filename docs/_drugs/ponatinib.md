@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 |------|------|
 | Indicación Original | Leucemia mieloide crónica, BCR-ABL1 positiva |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99,04% |
+| Puntaje de Predicción TxGNN | 0,9904 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Este vínculo es especulativo y no está respaldado por ninguna evidencia aportada. La fibromatosis gingival es una enfermedad benigna y rara, a menudo hereditaria o inducida por fármacos. Para un fármaco con toxicidad cardiovascular y trombótica grave, el balance riesgo-beneficio es desfavorable sin evidencia que lo sustente.
 
-Como indicación alternativa, el modelo también predice **liposarcoma** (puntaje 99,00%), con una publicación preclínica de perfilado de quinasas (ver más abajo). Tampoco hay ensayos clínicos para esta indicación y su nivel de evidencia es igualmente L5.
+Como indicación alternativa, el modelo también predice **liposarcoma** (puntaje 0,9900), con una publicación preclínica de perfilado de quinasas (ver más abajo). Tampoco hay ensayos clínicos para esta indicación y su nivel de evidencia es igualmente L5.
 
 ## Evidencia de Ensayos Clínicos
 

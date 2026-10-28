@@ -6,9 +6,9 @@ nav_order: 410
 evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Imipramine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L3). Indicación original: Trastorno de ansiedad (según las indicaciones del grafo …"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
+description: "Imipramine: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Imipramine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-## Imipramina: De Trastorno de Ansiedad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Imipramine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ sin ensayos clínicos registrados, pero con **20 publicaciones** recuperadas (en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

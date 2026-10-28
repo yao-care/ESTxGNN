@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Duloxetine
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 270
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Duloxetine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L2). Indicación original: Trastorno depresivo mayor (según el grafo de conocimiento"
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+description: "Duloxetine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Duloxetina: De Trastorno Depresivo Mayor a Trastorno Obsesivo-Compulsivo
+## Duloxetine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para el **Trastorno Obsesivo-Co
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (predicción de mayor evidencia entre las 10 candidatas) |
-| Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Benign paroxysmal torticollis of infancy |
+| Puntaje de Predicción TxGNN | 0.9985 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -86,7 +86,7 @@ La evidencia clínica proviene de estudios pequeños (n≈20-26): un ensayo dobl
 | [19483491](https://pubmed.ncbi.nlm.nih.gov/19483491/) | 2009 | Reporte de caso | Clin Neuropharmacol | Dosis altas de duloxetina con remisión completa sostenida en TOC resistente |
 | [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Reporte de caso | Cureus | Duloxetina supraterapéutica con TCC en TOC grave resistente con depresión |
 
-### Candidata secundaria: agorafobia (L3, TxGNN 99.84%)
+### Candidata secundaria: agorafobia (L3, TxGNN 0.9984)
 
 La evidencia es indirecta: estudios abiertos o pequeños en trastorno de pánico (con o sin agorafobia), como el [PMID 19228176](https://pubmed.ncbi.nlm.nih.gov/19228176/) (2009, estudio abierto) y el [PMID 24294001](https://pubmed.ncbi.nlm.nih.gov/24294001/) (2013, reporte de caso). El único ensayo vinculado ([NCT05930912](https://clinicaltrials.gov/study/NCT05930912)) no guarda relación con duloxetina. Se considera una pregunta de investigación.
 

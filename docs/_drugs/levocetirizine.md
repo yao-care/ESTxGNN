@@ -6,9 +6,9 @@ nav_order: 465
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Levocetirizine: nueva indicación predicha, Artritis Reumatoide (nivel de evidencia L5). Indicación original: Rinitis alérgica…"
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Levocetirizine: nueva indicación predicha, Artritis Reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Levocetirizine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Levocetirizina: De Rinitis Alérgica a Artritis Reumatoide
+## Levocetirizine: Artritis Reumatoide (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **Artritis Reumatoide**, p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica, rinitis vasomotora y urticaria idiopática (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Artritis Reumatoide |
-| Puntaje de Predicción TxGNN | 99,73% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis Reumatoide (rheumatoid arthritis) |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -63,11 +63,11 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción del 
 
 La relación con la artritis reumatoide es hipotética. La histamina y la actividad de los mastocitos se han relacionado con la inflamación sinovial, y el bloqueo H1 podría, en teoría, modular la permeabilidad vascular y la liberación de citocinas en la articulación. Sin embargo, la artritis reumatoide es una enfermedad autoinmune crónica cuyo mecanismo central difiere del de las enfermedades alérgicas tratadas originalmente.
 
-El puntaje de TxGNN (0,997) es solo una predicción del modelo, y no hay estudios que la respalden ni la refuten. Esta hipótesis debe considerarse exploratoria.
+El puntaje de TxGNN (0,9973) es solo una predicción del modelo, y no hay estudios que la respalden ni la refuten. Esta hipótesis debe considerarse exploratoria.
 
 ### Otras predicciones del modelo
 
-Las otras dos predicciones con mayor puntaje son enfermedades congénitas raras: el síndrome de microftalmía colobomatosa con displasia rizomélica (99,59%) y el síndrome de braquidactilia-sindactilia (99,52%). No se identificó ningún vínculo mecanístico plausible entre el bloqueo H1 y estos trastornos del desarrollo; sus puntajes probablemente reflejan la topología del grafo de conocimiento y no una relación biológica real. Ambas se mantienen en nivel L5 y en decisión Hold.
+Las otras dos predicciones con mayor puntaje son enfermedades congénitas raras: el síndrome de microftalmia colobomatosa con displasia rizomélica (0,9959) y el síndrome de braquidactilia-sindactilia (0,9952). No se identificó ningún vínculo mecanístico plausible entre el bloqueo H1 y estos trastornos del desarrollo; los puntajes provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Ambas se mantienen en nivel L5 y en decisión Hold.
 
 ---
 

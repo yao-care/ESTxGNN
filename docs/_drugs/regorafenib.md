@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Regorafenib
-parent: Solo predicción del modelo (L5)
+parent: Evidencia alta (L1-L2)
 nav_order: 689
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Cáncer colorrectal metastásico…"
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
+description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Regorafenib: De Cáncer Colorrectal Metastásico y Carcinoma Hepatocelular a Liposarcoma
+## Regorafenib: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer colorrectal metastásico, carcinoma hepatocelular y tumor del estroma gastrointestinal (GIST) (según el grafo de conocimiento; el texto de indicación de la autorización española no está disponible) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.76% |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L1 (con salvedades, ver más abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -138,7 +138,7 @@ Existe un ECA de fase 2 completado y varios ECA publicados, pero demuestran acti
 
 ---
 
-*Nota sobre otras indicaciones predichas:* el carcinoma renal de células claras (puntaje 99.47%, nivel L3) cuenta con un ensayo de fase 2 de un solo brazo y un ensayo de combinación de fase 1/2 (NCT03475953), pero sin evidencia de fase 3, y se considera una pregunta de investigación. Las demás predicciones (liposarcoma mixoide ovárico, subtipos raros de carcinoma renal, carcinoma renal infantil y sarcoma de vulva) carecen de ensayos y literatura específicos (nivel L5, decisión Hold).
+*Nota sobre otras indicaciones predichas:* el carcinoma renal de células claras (puntaje 0.9947, nivel L3) cuenta con un ensayo de fase 2 de un solo brazo y un ensayo de combinación de fase 1/2 (NCT03475953), pero sin evidencia de fase 3, y se considera una pregunta de investigación. Las demás predicciones (liposarcoma mixoide ovárico, subtipos raros de carcinoma renal, carcinoma renal infantil y sarcoma de vulva) carecen de ensayos y literatura específicos (nivel L5, decisión Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

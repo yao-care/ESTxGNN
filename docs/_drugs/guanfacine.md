@@ -6,9 +6,9 @@ nav_order: 388
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Guanfacine: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: Hipertensión y TDAH (según el grafo de conocimiento"
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
+description: "Guanfacine: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Guanfacine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Guanfacina: De Hipertensión/TDAH a Síndrome de Tourette
+## Guanfacine: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **2 ensayos clínicos** (uno de Fase 3 completado y uno de Fase 4 completado
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión y TDAH (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de Tourette |
-| Puntaje de Predicción TxGNN | 99.27% |
-| Nivel de Evidencia | L2 (ver nota) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Faciodigitogenital syndrome |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L5 (ver nota) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > **Nota sobre el nivel de evidencia:** Los datos compilados asignan L1, pero según los criterios de este informe L1 exige ≥2 ECA de Fase 3 completados. Aquí solo hay un ECA de Fase 3 (n=35) y un estudio de Fase 4 (n=34), por lo que el nivel que corresponde es **L2**. La evidencia es directa pero de tamaño reducido.

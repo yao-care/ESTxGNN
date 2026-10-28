@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 610
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pantoprazole: nueva indicación predicha, Úlcera péptica activa (nivel de evidencia L1). Indicación original: Enfermedad ulcerosa péptica (según el grafo de conocimiento"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-## Pantoprazol: De Enfermedad Ulcerosa Péptica a Úlcera Péptica Activa
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ Hay que tener en cuenta que esta indicación coincide con una de las indicacione
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad ulcerosa péptica (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Úlcera péptica activa |
-| Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Duodenal obstruction |
+| Puntaje de Predicción TxGNN | 0.9921 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -60,7 +60,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original y la predicha es muy estrecha: la úlcera péptica activa es la manifestación aguda de la enfermedad ulcerosa péptica, y la supresión ácida permite la cicatrización de la lesión. Por ello, la predicción refleja una indicación ya establecida más que una verdadera novedad terapéutica.
 
-Los resultados de otras predicciones del mismo análisis aportan contexto: la úlcera duodenal (L1) también corresponde a un uso ya conocido; la úlcera gastroyeyunal, la perforación de úlcera péptica y el reflujo duodenogástrico (L3) tienen apoyo solo indirecto; y la obstrucción duodenal (L5, Hold) carece de vínculo mecanístico claro y su puntuación alta probablemente refleja proximidad en la red con la úlcera duodenal.
 
 ## Evidencia de Ensayos Clínicos
 

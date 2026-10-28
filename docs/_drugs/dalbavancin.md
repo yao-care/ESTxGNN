@@ -6,9 +6,9 @@ nav_order: 216
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dalbavancin: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Enfermedad de la piel causada por infección (el texto de indicación a…"
 monitor_inn: "dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
+description: "Dalbavancin: nueva indicación predicha, Postinfectious vasculitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dalbavancin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Dalbavancina: De Infección Cutánea a Vasculitis Postinfecciosa
+## Dalbavancin: Postinfectious vasculitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfeccios
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de la piel causada por infección (el texto de indicación aprobado no está disponible en las autorizaciones de AEMPS; se toma la indicación del grafo de conocimiento) |
-| Nueva Indicación Predicha | Vasculitis postinfecciosa |
-| Puntaje de Predicción TxGNN | 99,76 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Postinfectious vasculitis |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, dalbavancina es un antibiótico lipoglucopéptido activo frente a bacterias Gram positivas, con eficacia comprobada en infecciones de piel y tejidos blandos, y actúa sobre la síntesis de la pared celular bacteriana.
 
-La relación con la nueva indicación es débil. La vasculitis postinfecciosa suele ser de origen inmunomediado y aparece después de la infección, por lo que un antibiótico no tendría un papel mecanístico directo, salvo que una infección persistente por Gram positivos fuera el desencadenante. El puntaje alto de TxGNN (99,76 %) es únicamente una predicción computacional.
+La relación con la nueva indicación es débil. La vasculitis postinfecciosa suele ser de origen inmunomediado y aparece después de la infección, por lo que un antibiótico no tendría un papel mecanístico directo, salvo que una infección persistente por Gram positivos fuera el desencadenante. El puntaje alto de TxGNN (0,9976) es únicamente una predicción computacional.
 
 Otras predicciones del modelo (con el mismo nivel L5) incluyen trastorno posbacteriano, síndrome postinfeccioso, estenosis uretral infecciosa, miocardiopatía de Chagas, síndrome hemolítico urémico asociado a infección, otitis externa, herpes zóster oftálmico, mononucleosis infecciosa y celulitis orbitaria. De estas, la celulitis orbitaria es el vínculo mecanístico más plausible (S. aureus, incluido MRSA, y estreptococos), aunque sin evidencia aportada sobre penetración orbitaria; el resto carece de base mecanística sólida (virus, parásitos o procesos inmunológicos/fibróticos).
 

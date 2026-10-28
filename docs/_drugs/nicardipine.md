@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nicardipine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 563
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nicardipine: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial (el texto de indicación …"
 monitor_inn: "nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Nicardipine: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nicardipine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Nicardipino: De Hipertensión Arterial a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
+## Nicardipine: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero **no existen ensayos clínicos registrados** y la literatura disponible es 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (el texto de indicación aprobada no está disponible en las autorizaciones; se toma de la base de conocimiento del modelo) |
-| Nueva Indicación Predicha | Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia |
-| Puntaje de Predicción TxGNN | 99,26 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| Puntaje de Predicción TxGNN | 0.9926 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -111,7 +111,7 @@ La predicción se apoya solo en el modelo y en estudios preclínicos o indirecto
 - Datos de mecanismo de acción detallados y una evaluación del riesgo de desajuste V/Q por pérdida de vasoconstricción hipóxica.
 - Estudios preclínicos y de fisiología humana específicos del nicardipino en hipertensión pulmonar por hipoxia.
 - Obtener del prospecto de la AEMPS las advertencias y contraindicaciones oficiales, necesarias para el cribado de seguridad.
-- Revisar con prioridad las demás predicciones. Las de hipertensión maligna (renovascular y renal) están muy próximas a la indicación ya existente y aportan poca novedad. La de síndrome de Braddock carece de fundamento mecanístico y puede ser un artefacto del grafo.
+- Revisar con prioridad las demás predicciones. La de enfermedad renal hipertensiva maligna está muy próxima a la indicación ya existente y aporta poca novedad. La de síndrome de Braddock carece de fundamento mecanístico; su puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

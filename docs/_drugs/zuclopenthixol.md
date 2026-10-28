@@ -6,9 +6,9 @@ nav_order: 869
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Zuclopenthixol: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Esquizofrenia (según las relaciones de indicación del gr…"
 monitor_inn: "zuclopenthixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Zuclopenthixol: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original…"
 ---
 
 # Zuclopenthixol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Zuclopentixol: De Esquizofrenia a Distrofia Retiniana (con o sin anomalías extraoculares)
+## Zuclopenthixol: Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia (según las relaciones de indicación del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información general conocida, zuclopentixol es un antipsicótico tipo tioxanteno que se considera antagonista de los receptores dopaminérgicos D1/D2. Este punto no está confirmado en los datos disponibles y debe verificarse. Su eficacia en esquizofrenia está establecida, pero no existe un vínculo mecanístico demostrado con la nueva indicación.
 
-Las distrofias retinianas son, en su mayoría, enfermedades monogénicas, estructurales o degenerativas. No hay una justificación plausible por la cual el antagonismo de receptores dopaminérgicos modifique su curso. El alto puntaje de TxGNN (0.99994) refleja una predicción basada en el grafo de conocimiento, sin respaldo clínico ni bibliográfico.
+Las distrofias retinianas son, en su mayoría, enfermedades monogénicas, estructurales o degenerativas. No hay una justificación plausible por la cual el antagonismo de receptores dopaminérgicos modifique su curso. El alto puntaje de TxGNN (0.99994) refleja una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo clínico ni bibliográfico.
 
 Por ello, esta predicción debe considerarse una hipótesis de bajo respaldo. La similitud con la indicación original queda pendiente de análisis, y la compatibilidad de vías de administración tampoco ha sido evaluada.
 
@@ -66,14 +66,14 @@ Por ello, esta predicción debe considerarse una hipótesis de bajo respaldo. La
 
 | Rango | Enfermedad predicha | Puntaje TxGNN | Comentario |
 |---|---|---|---|
-| 2 | Hidranencefalia | 99.99% | Malformación cerebral congénita estructural; sin papel plausible para un antagonista dopaminérgico |
-| 3 | Trastorno congénito de la glicosilación con fucosilación defectuosa | 99.99% | Trastorno metabólico de la biosíntesis de glicanos; sin acción conocida del fármaco |
-| 4 | Enfermedad de Charcot-Marie-Tooth desmielinizante tipo 1G | 99.99% | Neuropatía hereditaria; sin vía conocida hacia la mielina |
-| 5 | Miopía ligada al X | 99.99% | La dopamina retiniana interviene en el crecimiento ocular, pero un antagonista se esperaría en sentido opuesto; hipótesis especulativa |
-| 6 | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 99.99% | Malformación del desarrollo; sin papel corrector plausible |
-| 7 | Miopía sindrómica | 99.99% | Un antagonista D2 no se espera beneficioso y podría ser contraproducente |
-| 8 | Miopía 26 ligada al X, limitada a mujeres | 99.99% | Misma salvedad que otras miopías; forma monogénica |
-| 9 | Encefalopatía atípica por glicina | 99.99% | Error innato del metabolismo; los antipsicóticos pueden reducir el umbral convulsivo |
+| 2 | Hidranencefalia | 0.9999 | Malformación cerebral congénita estructural; sin papel plausible para un antagonista dopaminérgico |
+| 3 | Trastorno congénito de la glicosilación con fucosilación defectuosa | 0.9999 | Trastorno metabólico de la biosíntesis de glicanos; sin acción conocida del fármaco |
+| 4 | Enfermedad de Charcot-Marie-Tooth desmielinizante tipo 1G | 0.9999 | Neuropatía hereditaria; sin vía conocida hacia la mielina |
+| 5 | Miopía ligada al X | 0.9999 | La dopamina retiniana interviene en el crecimiento ocular, pero un antagonista se esperaría en sentido opuesto; hipótesis especulativa |
+| 6 | Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 0.9999 | Malformación del desarrollo; sin papel corrector plausible |
+| 7 | Miopía sindrómica | 0.9999 | Un antagonista D2 no se espera beneficioso y podría ser contraproducente |
+| 8 | Miopía 26 ligada al X, limitada a mujeres | 0.9999 | Misma salvedad que otras miopías; forma monogénica |
+| 9 | Encefalopatía atípica por glicina | 0.9999 | Error innato del metabolismo; los antipsicóticos pueden reducir el umbral convulsivo |
 
 ## Evidencia de Ensayos Clínicos
 

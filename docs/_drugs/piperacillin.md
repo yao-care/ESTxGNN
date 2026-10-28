@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Solo predicción del modelo (L5)
 nav_order: 642
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Piperacillin: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "piperacillin"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 8) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, piperacilina es un antibiótico betalactámico que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas de unión a penicilina, y se comercializa en combinación con tazobactam, un inhibidor de betalactamasas.
 
-El análisis mecanístico no encuentra un vínculo creíble con la artritis reumatoide. Piperacilina no tiene actividad inmunomoduladora conocida que sea relevante para la patogenia de esta enfermedad. El puntaje elevado de TxGNN (99.94%) parece ser un artefacto del grafo de conocimiento y no refleja una relación terapéutica real.
+El análisis mecanístico no encuentra un vínculo creíble con la artritis reumatoide. Piperacilina no tiene actividad inmunomoduladora conocida que sea relevante para la patogenia de esta enfermedad. El puntaje elevado de TxGNN (0.9994) parece ser un artefacto del modelo TxGNN (aprendizaje profundo) y no refleja una relación terapéutica real.
 
 La literatura recuperada menciona la artritis reumatoide únicamente como enfermedad de base en pacientes que recibieron antibióticos tipo piperacilina por infecciones, no como diana de tratamiento. Por ello, la predicción debe considerarse una hipótesis sin respaldo mecanístico ni clínico.
 
@@ -126,7 +126,7 @@ Para advertencias y contraindicaciones específicas, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5): no hay ensayos clínicos, la literatura no evalúa a piperacilina como tratamiento de la artritis reumatoide y no existe un vínculo mecanístico creíble. El puntaje alto de TxGNN parece un artefacto del grafo de conocimiento. Las demás indicaciones predichas (síndromes genéticos raros, colangitis esclerosante, osteoartritis, nefropatía diabética, síndrome WHIM) tampoco tienen respaldo y también se mantienen en Hold.
+La predicción es solo del modelo (nivel L5): no hay ensayos clínicos, la literatura no evalúa a piperacilina como tratamiento de la artritis reumatoide y no existe un vínculo mecanístico creíble. El puntaje alto de TxGNN parece un artefacto del modelo TxGNN (aprendizaje profundo). Las demás indicaciones predichas (síndromes genéticos raros, colangitis esclerosante, osteoartritis, nefropatía diabética, síndrome WHIM) tampoco tienen respaldo y también se mantienen en Hold.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones), actualmente ausente.

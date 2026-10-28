@@ -6,9 +6,9 @@ nav_order: 591
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Oritavancin: nueva indicación predicha, Enfermedad infecciosa por Bacteroidaceae (nivel de evidencia L5). Indicación original: Infección cutánea de origen bacteriano (según el grafo de conocimiento"
 monitor_inn: "oritavancin"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
+description: "Oritavancin: nueva indicación predicha, Enfermedad infecciosa por Bacteroidaceae (Bacteroidaceae infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Oritavancin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Oritavancina: De Infección Cutánea Bacteriana a Enfermedad Infecciosa por Bacteroidaceae
+## Oritavancin: Enfermedad infecciosa por Bacteroidaceae (Bacteroidaceae infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad infecciosa po
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección cutánea de origen bacteriano (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad infecciosa por Bacteroidaceae |
-| Puntaje de Predicción TxGNN | 99,48 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad infecciosa por Bacteroidaceae (Bacteroidaceae infectious disease) |
+| Puntaje de Predicción TxGNN | 0.9948 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,14 +59,14 @@ Oritavancina es un lipoglucopéptido que inhibe la síntesis de la pared celular
 
 Actualmente no se dispone de datos detallados y curados sobre el mecanismo de acción, por lo que no se pudo contrastar con fuentes farmacológicas. Con la información conocida, la relación entre la indicación original y la nueva es **débil**: Bacteroidaceae son anaerobios Gram-negativos con una membrana externa que los glucopéptidos, en general, no logran atravesar.
 
-Por tanto, el puntaje alto de TxGNN (99,48 %) debe interpretarse como una asociación del grafo de conocimiento y no como una justificación farmacológica sólida. Sin ensayos ni literatura, esta predicción requiere mucha cautela.
+Por tanto, el puntaje alto de TxGNN (0,9948) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una justificación farmacológica sólida. Sin ensayos ni literatura, esta predicción requiere mucha cautela.
 
 **Otras predicciones del modelo (todas con nivel L5 y decisión Hold):**
 
 | Indicación predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Herpes zóster oftálmico | 99,03 % | Oritavancina es antibacteriana, sin actividad antiviral conocida; el tratamiento antiviral estándar sigue siendo el adecuado. |
-| Neumonía por *Mycoplasma pneumoniae* | 99,01 % | *Mycoplasma* carece de pared celular, por lo que no se espera actividad de un inhibidor de la síntesis de peptidoglucano. |
+| Herpes zóster oftálmico | 0,9903 | Oritavancina es antibacteriana, sin actividad antiviral conocida; el tratamiento antiviral estándar sigue siendo el adecuado. |
+| Neumonía por *Mycoplasma pneumoniae* | 0,9901 | *Mycoplasma* carece de pared celular, por lo que no se espera actividad de un inhibidor de la síntesis de peptidoglucano. |
 
 ## Evidencia de Ensayos Clínicos
 

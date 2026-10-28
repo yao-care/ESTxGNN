@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia de células pil
 |------|------|
 | Indicación Original | Esclerosis múltiple remitente-recurrente |
 | Nueva Indicación Predicha | Leucemia de células pilosas |
-| Puntaje de Predicción TxGNN | 99.16% |
+| Puntaje de Predicción TxGNN | 0.9916 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, esta relación es solo una hipótesis. Los datos disponibles no respaldan este vínculo para interferón beta-1b en concreto, y la similitud entre la indicación original (enfermedad autoinmune del sistema nervioso central) y la nueva (neoplasia hematológica) aún no ha sido evaluada. El puntaje del modelo es muy alto, pero no debe interpretarse como respaldo clínico.
 
-Como contexto, el modelo también predice, en segundo lugar, "enfermedad autoinmune del sistema nervioso central" (puntaje 99.02%). Esta indicación corresponde esencialmente al uso ya aprobado, por lo que es confirmatoria y no un hallazgo nuevo de reposicionamiento.
+Como contexto, el modelo también predice, en segundo lugar, "enfermedad autoinmune del sistema nervioso central" (puntaje 0.9902). Esta indicación corresponde esencialmente al uso ya aprobado, por lo que es confirmatoria y no un hallazgo nuevo de reposicionamiento.
 
 ---
 
@@ -108,7 +108,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.16%), pero no hay ningún ensayo clínico ni publicación para leucemia de células pilosas (nivel L5), y el vínculo mecanístico no está respaldado por los datos disponibles.
+La predicción tiene un puntaje alto (0.9916), pero no hay ningún ensayo clínico ni publicación para leucemia de células pilosas (nivel L5), y el vínculo mecanístico no está respaldado por los datos disponibles.
 
 **Para avanzar se necesita:**
 - Una revisión de literatura específica sobre interferón beta (y, en general, interferones) en leucemia de células pilosas.

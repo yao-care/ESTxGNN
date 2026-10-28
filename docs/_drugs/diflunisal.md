@@ -4,17 +4,17 @@ title: Diflunisal
 parent: Solo predicción del modelo (L5)
 nav_order: 249
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Diflunisal: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide (según el grafo de conocimiento"
 monitor_inn: "DIFLUNISAL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "spondyloarthropathy, susceptibility to", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
+description: "Diflunisal: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los da…"
 ---
 
 # Diflunisal
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Diflunisal: De Artritis Reumatoide a Displasia Acromesomélica tipo Hunter-Thompson
+## Diflunisal: Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (según el grafo de conocimiento; la autorización española no incluye texto de indicación) |
-| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por su clase, diflunisal es un AINE derivado del ácido salicílico que inhibe la ciclooxigenasa y reduce la síntesis de prostaglandinas. Su eficacia como antiinflamatorio y analgésico en enfermedades reumáticas es conocida.
 
-La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético hereditario raro, asociado al gen *GDF5* (CDMP1). No es una enfermedad de origen inflamatorio, y no se identifica un vínculo plausible con la inhibición de la COX. El puntaje elevado probablemente refleja la cercanía en el grafo de conocimiento con términos musculoesqueléticos (artropatía, artrosis) y no una justificación farmacológica.
+La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético hereditario raro, asociado al gen *GDF5* (CDMP1). No es una enfermedad de origen inflamatorio, y no se identifica un vínculo plausible con la inhibición de la COX. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, como términos musculoesqueléticos (artropatía, artrosis), y no una justificación farmacológica ni evidencia biológica.
 
 Por tanto, esta predicción debe considerarse una señal estadística del modelo sin respaldo mecanístico ni clínico.
 
@@ -99,7 +99,7 @@ La predicción es solo del modelo (L5), sin ensayos ni literatura. Además, la e
 - Datos del mecanismo de acción y una hipótesis biológica que conecte diflunisal con la vía de *GDF5*/BMP.
 - Evidencia preclínica o clínica específica de esta enfermedad; hoy no hay ninguna.
 - Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS, ya que no están disponibles en los datos compilados.
-- Considerar otras predicciones del mismo análisis con más respaldo. La **espondilitis anquilosante** (puntaje 99.98%, nivel L3) cuenta con un estudio doble ciego aleatorizado de 1986 que compara diflunisal con fenilbutazona en 38 pacientes (PMID 3524970). Es una evidencia antigua y de pequeña escala, y su novedad es limitada porque diflunisal ya se usa en patologías reumáticas inflamatorias.
+- Considerar otras predicciones del mismo análisis con más respaldo. La **espondilitis anquilosante** (puntaje 0.9998, nivel L3) cuenta con un estudio doble ciego aleatorizado de 1986 que compara diflunisal con fenilbutazona en 38 pacientes (PMID 3524970). Es una evidencia antigua y de pequeña escala, y su novedad es limitada porque diflunisal ya se usa en patologías reumáticas inflamatorias.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

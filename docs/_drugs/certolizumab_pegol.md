@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Certolizumab Pegol
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 165
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Certolizumab Pegol: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: Enfermedad de Crohn (según el grafo de conocimiento"
 monitor_inn: "CERTOLIZUMAB PEGOL"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Certolizumab Pegol: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Certolizumab Pegol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Certolizumab Pegol: De Enfermedad de Crohn a Reumatoide Vasculitis
+## Certolizumab Pegol: Hypermobility of coccyx
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Crohn (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Vasculitis reumatoide |
-| Puntaje de Predicción TxGNN | 99.78% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hypermobility of coccyx |
+| Puntaje de Predicción TxGNN | 0.9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -113,7 +113,7 @@ La predicción se apoya en un puntaje alto del modelo y en un único informe de 
 
 ### Nota sobre otras predicciones evaluadas
 
-Entre las demás indicaciones predichas, la **espondilopatía inflamatoria** (puntaje 99.73%) tiene el respaldo más sólido (nivel L1, "Proceed with Guardrails"): varios ECA de Fase 3 completados en espondiloartritis axial (por ejemplo, NCT01087762, NCT02552212, NCT02505542). Sin embargo, es en gran medida una indicación ya existente o muy cercana a las originales (espondilitis anquilosante), no un reposicionamiento genuino. La **artritis reumatoide juvenil poliarticular** (99.69%) tiene un estudio de Fase 3 abierto de un solo brazo (NCT01550003, n=193) y nivel L3. Las predicciones de **hipermovilidad del coxis** y **enfermedad de Kümmell** carecen de evidencia (L5), y **enfermedad vertebral** es un término inespecífico (L4).
+Sin embargo, es en gran medida una indicación ya existente o muy cercana a las originales (espondilitis anquilosante), no un reposicionamiento genuino. La **artritis reumatoide juvenil poliarticular** (99.69%) tiene un estudio de Fase 3 abierto de un solo brazo (NCT01550003, n=193) y nivel L3. Las predicciones de **hipermovilidad del coxis** y **enfermedad de Kümmell** carecen de evidencia (L5), y **enfermedad vertebral** es un término inespecífico (L4).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

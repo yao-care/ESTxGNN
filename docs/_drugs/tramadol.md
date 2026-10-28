@@ -4,17 +4,17 @@ title: Tramadol
 parent: Solo predicción del modelo (L5)
 nav_order: 809
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tramadol: nueva indicación predicha, Displasia acromesomélica de tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Osteoartritis / artropatía (según el grafo de conocimiento"
 monitor_inn: "TRAMADOL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+description: "Tramadol: nueva indicación predicha, Acromesomelic dysplasia, Hunter-Thompson type (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tramadol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tramadol: De Osteoartritis a Displasia Acromesomélica de Tipo Hunter-Thompson
+## Tramadol: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoartritis / artropatía (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Displasia acromesomélica de tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acromesomelic dysplasia, Hunter-Thompson type |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica de tipo Hunter-Thompson es una displasia esquelética genética rara (defecto de CDMP1/GDF5). **No se ha establecido un vínculo mecanístico**: tramadol, como mucho, podría ofrecer alivio sintomático del dolor y no tiene ningún papel plausible como modificador de la enfermedad.
 
-La puntuación tan alta del modelo parece reflejar la proximidad en el grafo entre esta enfermedad y los trastornos esqueléticos o articulares de las indicaciones originales, más que una justificación biológica. Esta puntuación debe interpretarse con cautela.
+Esta puntuación debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 

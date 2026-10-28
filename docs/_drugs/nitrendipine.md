@@ -4,7 +4,7 @@ title: Nitrendipine
 parent: Solo predicción del modelo (L5)
 nav_order: 571
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nitrendipine: nueva indicación predicha, Migraña (trastorno migrañoso) (nivel de evidencia L5). Indicación original: Hipertensión arterial de leve a moderada (según la información farmac…"
 monitor_inn: "nitrendipine"
@@ -14,7 +14,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pu
 # Nitrendipine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ pero **no hay ensayos clínicos** y solo **3 publicaciones** de carácter genera
 |------|------|
 | Indicación Original | Hipertensión arterial de leve a moderada (según la información farmacológica compilada; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Migraña (trastorno migrañoso) |
-| Puntaje de Predicción TxGNN | 99,42 % |
+| Puntaje de Predicción TxGNN | 0,9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -66,9 +66,8 @@ Las dos publicaciones más afines con el fármaco son revisiones generales (inte
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
-| Migraña con aura del tronco encefálico | 99,29 % | L5 | Sin ensayos ni literatura; subtipo raro, no verificable |
-| Hipertensión pulmonar | 99,14 % | L3 | Estudios hemodinámicos pequeños y antiguos (1986-1992) y datos preclínicos |
-| Angina de Prinzmetal | 99,10 % | L3 | Estudio pequeño no controlado (1991); uso coherente con la clase |
+| Migraña con aura del tronco encefálico | 0,9929 | L5 | Sin ensayos ni literatura; subtipo raro, no verificable |
+| Hipertensión pulmonar | 0,9914 | L3 | Estudios hemodinámicos pequeños y antiguos (1986-1992) y datos preclínicos |
 
 Las dos últimas cuentan con más respaldo que la migraña, aunque ambas siguen siendo preguntas de investigación.
 

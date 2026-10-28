@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Evidencia moderada (L3-L4)
 nav_order: 801
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L3). Indicación original: Artritis reumatoide, artritis idiopática juvenil, arteritis temporal…"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Tocilizumab: De Artritis Reumatoide a Espondilitis Anquilosante
+## Tocilizumab: Espondilitis anquilosante (ankylosing spondylitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosant
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide, artritis idiopática juvenil, arteritis temporal, enfermedad de Castleman (según el grafo de conocimiento; los textos de indicación de AEMPS no están disponibles) |
-| Nueva Indicación Predicha | Espondilitis anquilosante |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Espondilitis anquilosante (ankylosing spondylitis) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -121,14 +121,11 @@ Aunque el bloqueo de IL-6 es biológicamente plausible en la espondilitis anquil
 
 | Indicación | Puntaje TxGNN | Nivel | Decisión | Comentario |
 |---|---|---|---|---|
-| Artritis idiopática juvenil poliarticular | 99.98% | L1 | Proceed with Guardrails | Fase 3 controlado completado (NCT00988221, n=188); es una indicación ya establecida, no un reposicionamiento novedoso |
-| Artritis idiopática juvenil poliarticular con factor reumatoide positivo | 99.87% | L3 | Proceed with Guardrails | Subtipo de la anterior; sin ensayos específicos |
-| Espondilopatía inflamatoria | 99.98% | L3 | Hold | Se solapa con la espondilitis anquilosante; mismos ensayos terminados |
-| Vasculitis reumatoide | 99.98% | L4 | Pregunta de investigación | Solo informes de casos; señal de seguridad por reacciones tipo vasculitis |
-| Espondiloartropatía, susceptibilidad a | 99.98% | L4 | Hold | Solo un estudio in vitro; es una etiqueta de susceptibilidad, no una condición tratable |
-| Enfermedad vertebral | 99.93% | L4 | Hold | Categoría vaga, evidencia indirecta |
-| Hipermovilidad del coxis, enfermedad de Kümmell | 99.98% | L5 | Hold | Solo predicción computacional, sin mecanismo plausible |
-| Susceptibilidad mendeliana a enfermedades micobacterianas (déficit de IL12B) | 99.87% | L5 | Hold | Posible contraindicación por riesgo de infección y tuberculosis |
+| Artritis idiopática juvenil poliarticular | 0.9998 | L1 | Proceed with Guardrails | Fase 3 controlado completado (NCT00988221, n=188); es una indicación ya establecida, no un reposicionamiento novedoso |
+| Espondilopatía inflamatoria | 0.9998 | L3 | Hold | Se solapa con la espondilitis anquilosante; mismos ensayos terminados |
+| Vasculitis reumatoide | 0.9998 | L4 | Pregunta de investigación | Solo informes de casos; señal de seguridad por reacciones tipo vasculitis |
+| Enfermedad vertebral | 0.9993 | L4 | Hold | Categoría vaga, evidencia indirecta |
+| Hipermovilidad del coxis, enfermedad de Kümmell | 0.9998 | L5 | Hold | Solo predicción computacional, sin mecanismo plausible |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

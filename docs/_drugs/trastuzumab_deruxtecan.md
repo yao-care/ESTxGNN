@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99,31 % |
+| Puntaje de Predicción TxGNN | 0,9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este fármaco. Según la información conocida, trastuzumab deruxtecán es un conjugado anticuerpo-fármaco: un anticuerpo dirigido a HER2 unido a un inhibidor de la topoisomerasa I (deruxtecán). Es un fármaco de uso oncológico.
 
-La única base de la predicción es la puntuación muy alta del grafo de conocimiento de TxGNN (0,993). No se identifica una vía mecanística establecida que relacione la diana HER2 o la inhibición de la topoisomerasa I con la prevención o el tratamiento de la pérdida ósea causada por fármacos (por ejemplo, glucocorticoides o inhibidores de la aromatasa).
+La única base de la predicción es la puntuación muy alta del modelo TxGNN (aprendizaje profundo) de TxGNN (0,9931). No se identifica una vía mecanística establecida que relacione la diana HER2 o la inhibición de la topoisomerasa I con la prevención o el tratamiento de la pérdida ósea causada por fármacos (por ejemplo, glucocorticoides o inhibidores de la aromatasa).
 
-Al contrario, los efectos del tratamiento oncológico (como la supresión de la función ovárica o la coadministración de esteroides) podrían asociarse con pérdida ósea y no con protección. La puntuación elevada probablemente refleja artefactos de la topología del grafo más que una relevancia terapéutica real, por lo que la predicción debe interpretarse con mucha cautela.
+Al contrario, los efectos del tratamiento oncológico (como la supresión de la función ovárica o la coadministración de esteroides) podrían asociarse con pérdida ósea y no con protección. La puntuación elevada proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, por lo que la predicción debe interpretarse con mucha cautela.
 
 ---
 
@@ -125,7 +125,7 @@ La predicción se apoya solo en una puntuación del modelo (nivel L5), sin ensay
 - Completar los datos del mecanismo de acción desde DrugBank
 - Confirmar la indicación aprobada de las autorizaciones españolas
 - Realizar una revisión de literatura y estudios preclínicos que respalden un posible vínculo con el metabolismo óseo
-- Reevaluar la predicción antes de cualquier avance, dado que probablemente se trate de un artefacto del grafo
+- Reevaluar la predicción antes de cualquier avance, dado que la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

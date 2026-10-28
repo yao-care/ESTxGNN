@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Reboxetine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 687
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Reboxetine: nueva indicación predicha, Agorafobia (nivel de evidencia L3). Indicación original: Depresion (unipolar, endogena y trastorno depresivo mayor…"
 monitor_inn: "Reboxetine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "Ohdo syndrome and variants", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
+description: "Reboxetine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Reboxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Reboxetina: De Depresion Unipolar a Agorafobia
+## Reboxetine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,12 +49,12 @@ El modelo TxGNN predice que podria ser efectivo para **agorafobia**, con **0 ens
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Depresion (unipolar, endogena y trastorno depresivo mayor, segun el grafo de conocimiento; los textos de indicacion de las autorizaciones espanolas no estan disponibles) |
-| Nueva Indicacion Predicha | Agorafobia |
-| Puntaje de Prediccion TxGNN | 99.91% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Numero de Autorizaciones | 2 |
+| Indicacion Original | No consta en los datos locales |
+| Nueva Indicacion Predicha | Benign paroxysmal torticollis of infancy |
+| Puntaje de Prediccion TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 2 de 2) |
+| Numero de Autorizaciones | 2 (vigentes: 2) |
 | Decision Recomendada | Hold (pregunta de investigacion) |
 
 ---
@@ -123,11 +123,8 @@ Existe plausibilidad biologica y estudios pequeños (uno abierto) en trastorno d
 
 | Prediccion | Puntaje | Nivel | Valoracion |
 |------|------|------|------|
-| Distimia (trastorno distimico) | 99.87% | L3 | Evidencia indirecta; metaanalisis de antidepresivos en distimia (no especifico de reboxetina) y estudios pequeños de reboxetina; candidata de investigacion |
-| Melancolia | 99.74% | L4 | Relabeling de la indicacion existente; evidencia general en depresion |
-| Depresion neurotica | 99.74% | L4 | Termino antiguo solapado con distimia; sin evidencia especifica |
-| Trastorno neurotico | 99.66% | L5 | Categoria obsoleta; solo prediccion |
-| Torticolis paroxistico benigno de la infancia, sindrome de Ohdo y variantes, sindrome de blefarofimosis-discapacidad intelectual tipo Ohdo, sindrome de Keppen-Lubinsky, conjuntivitis leñosa | 99.40%–99.92% | L5 | Sin vinculo mecanistico plausible ni evidencia; probablemente artefactos del grafo |
+| Trastorno neurotico | 0.9966 | L5 | Categoria obsoleta; solo prediccion |
+| Torticolis paroxistico benigno de la infancia, sindrome de Ohdo y variantes, sindrome de blefarofimosis-discapacidad intelectual tipo Ohdo, sindrome de Keppen-Lubinsky, conjuntivitis leñosa | 0.9940–0.9992 | L5 | Sin vinculo mecanistico plausible ni evidencia; las puntuaciones provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -6,9 +6,9 @@ nav_order: 261
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Doravirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Infección por VIH / SIDA (según las indicaciones del grafo de conoc…"
 monitor_inn: "Doravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Doravirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
 # Doravirine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Doravirina: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Doravirine: Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunode
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / SIDA (según las indicaciones del grafo de conocimiento; el texto de indicación autorizado no está disponible) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -63,8 +63,7 @@ Existen razones para ser cautos: los ITINN suelen tener poca o ninguna actividad
 
 ### Otras predicciones del modelo
 
-- **Infección por el virus de inmunodeficiencia simia (VIS)** (puntaje 99.93%): lentivirus de primates estrechamente relacionado con el VIH, pero los ITINN suelen ser inactivos frente al VIS y al VIH-2. Es una indicación de modelo animal/preclínica con escaso valor de reposicionamiento clínico.
-- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (puntaje 99.91%): no se identificó ningún vínculo mecanístico plausible; parece un artefacto de la predicción basada en grafos.
+- **Infección por el virus de inmunodeficiencia simia (VIS)** (puntaje 0.9993): lentivirus de primates estrechamente relacionado con el VIH, pero los ITINN suelen ser inactivos frente al VIS y al VIH-2. Es una indicación de modelo animal/preclínica con escaso valor de reposicionamiento clínico.
 
 ## Evidencia de Ensayos Clínicos
 

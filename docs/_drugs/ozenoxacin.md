@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **malaria**, pero actualme
 |------|------|
 | Indicación Original | Acné (según la base de conocimiento del modelo; el texto de indicación autorizado no está disponible en la licencia) |
 | Nueva Indicación Predicha | Malaria |
-| Puntaje de Predicción TxGNN | 99,16% |
+| Puntaje de Predicción TxGNN | 0,9916 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

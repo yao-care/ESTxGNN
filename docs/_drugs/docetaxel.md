@@ -4,17 +4,17 @@ title: Docetaxel
 parent: Evidencia alta (L1-L2)
 nav_order: 258
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Docetaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L1). Indicación original: Cáncer de pulmón no microcítico (las autorizaciones de AEMPS no inclu…"
 monitor_inn: "DOCETAXEL"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+description: "Docetaxel: nueva indicación predicha, Ewing sarcoma (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,23 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Docetaxel: De Cáncer de Pulmón No Microcítico a Carcinoma de Mama Femenino
+## Docetaxel: Ewing sarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Docetaxel es un taxano citotóxico, originalmente utilizado para el tratamiento del cáncer de pulmón no microcítico, de próstata, de cabeza y cuello, gástrico y de mama.
-El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **más de 40 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. Cabe señalar que el cáncer de mama ya figura entre las indicaciones originales del fármaco, por lo que se trata de la confirmación de un uso establecido y no de un reposicionamiento en sentido estricto.
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para el **sarcoma de Ewing**, con una puntuación de 0.9990. Esta puntuación puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico (las autorizaciones de AEMPS no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ewing sarcoma |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 8) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

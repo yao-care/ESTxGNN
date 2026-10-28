@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triprolidine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 830
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Triprolidine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Rinitis alérgica (según el grafo de conocimiento"
 monitor_inn: "triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+description: "Triprolidine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Triprolidine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Triprolidina: De Rinitis Alérgica a Urticaria Alérgica
+## Triprolidine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Triprolidina es un antihistamínico H1 de primera generación, utilizado originalmente para tratar la rinitis alérgica, el resfriado común y otros cuadros alérgicos y de vías respiratorias altas.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, aunque se trata en gran medida de un subtipo de una indicación ya conocida (urticaria y angioedema).
 Actualmente no hay **ensayos clínicos** registrados y solo se dispone de **2 publicaciones** con relevancia indirecta o limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nasal cavity disease |
+| Puntaje de Predicción TxGNN | 0.9983 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la triprolidina es un antagonista de los receptores H1 de primera generación. En la urticaria alérgica, la liberación de histamina por los mastocitos provoca el habón y el eritema, por lo que el bloqueo H1 es mecanísticamente coherente.
 
-La relación con las indicaciones originales es muy estrecha: la urticaria y el angioedema ya figuran entre sus indicaciones conocidas, junto con la rinitis alérgica, la conjuntivitis atópica y la dermatografismo familiar. Por ello, la predicción es más una subcategoría de un uso existente que un reposicionamiento genuino, y la puntuación tan alta probablemente refleja esa cercanía en el grafo.
+La relación con las indicaciones originales es muy estrecha: la urticaria y el angioedema ya figuran entre sus indicaciones conocidas, junto con la rinitis alérgica, la conjuntivitis atópica y la dermatografismo familiar.
 
 Conviene tener en cuenta que, para otras predicciones del modelo (urticaria por frío, enfermedad de la cavidad nasal, faringitis, laringofaringitis aguda, dermatitis atópica recalcitrante y respuesta de IgE atópica), la evidencia es indirecta o inexistente (nivel L4–L5), y todas quedan en "Hold".
 

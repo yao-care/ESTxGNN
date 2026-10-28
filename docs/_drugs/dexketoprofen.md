@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dexketoprofen
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 241
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 monitor_inn: "dexketoprofen"
@@ -14,7 +14,7 @@ description: "Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de ev
 # Dexketoprofen
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,9 +46,9 @@ El modelo TxGNN predice que podría ser efectivo para **tendinitis**, pero actua
 | Item | Contenido |
 |------|------|
 | Nueva Indicación Predicha | Tendinitis |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -98,7 +98,7 @@ Para tendinitis solo existe la predicción del modelo y un único ECA indirecto 
 - Datos de advertencias y contraindicaciones del prospecto de la AEMPS, aún pendientes y necesarios para la evaluación de seguridad.
 - Datos detallados del mecanismo de acción (MOA) desde DrugBank.
 - Texto de la indicación aprobada en España, para establecer la relación con la indicación original.
-- Considerar priorizar otra indicación predicha por el modelo: la **migraña** (puntaje TxGNN 99.87%) tiene nivel de evidencia L1, 5 ensayos clínicos (en su mayoría de Fase 4, con dexketoprofeno intravenoso en urgencias) y varios ECAs y un metanálisis. Su recomendación en los datos es "Proceed with Guardrails". Las cautelas serían que la evidencia se refiere al tratamiento del ataque agudo, que los ensayos son mayormente hospitalarios con formulación intravenosa, y que se aplican las precauciones habituales de los AINE (gastrointestinales, renales y cardiovasculares).
+- Considerar priorizar otra indicación predicha por el modelo: la **migraña** (puntaje TxGNN 0.9987) tiene nivel de evidencia L1, 5 ensayos clínicos (en su mayoría de Fase 4, con dexketoprofeno intravenoso en urgencias) y varios ECAs y un metanálisis. Su recomendación en los datos es "Proceed with Guardrails". Las cautelas serían que la evidencia se refiere al tratamiento del ataque agudo, que los ensayos son mayormente hospitalarios con formulación intravenosa, y que se aplican las precauciones habituales de los AINE (gastrointestinales, renales y cardiovasculares).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -48,17 +48,17 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Acné |
 | Nueva Indicación Predicha | Zinc plasmático elevado |
-| Puntaje de Predicción TxGNN | 99.51% |
+| Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, adapaleno es un retinoide sintético que actúa como agonista de los receptores del ácido retinoico, con selectividad por los isotipos RAR-β y RAR-γ frente a RAR-α. Su eficacia en el acné está establecida y se aplica por vía tópica.
 
-Sin embargo, no existe un vínculo mecanístico documentado entre la señalización retinoide y la regulación del zinc plasmático. El puntaje elevado (0.995) probablemente refleja la topología del grafo de conocimiento (por ejemplo, conexiones compartidas con genes relacionados con el zinc) más que una relación biológica validada.
+Sin embargo, no existe un vínculo mecanístico documentado entre la señalización retinoide y la regulación del zinc plasmático. El puntaje elevado (0.9951) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Además, el zinc plasmático elevado es un hallazgo de laboratorio y no una enfermedad que suela ser objetivo terapéutico, lo que reduce la plausibilidad clínica de esta indicación. La similitud con la indicación original y la compatibilidad de vías de administración aún no han sido evaluadas.
 
@@ -90,7 +90,7 @@ La única base es el puntaje del modelo (nivel L5), sin ensayos clínicos, sin l
 - Advertencias y contraindicaciones del prospecto de AEMPS (obtener y analizar el PDF)
 - Revisión bibliográfica para buscar cualquier asociación entre retinoides y homeostasis del zinc
 - Evaluación de la relevancia clínica de la indicación y de la compatibilidad de vía de administración (adapaleno es tópico, con exposición sistémica baja)
-- Descartar posibles artefactos del grafo de conocimiento en la predicción
+- Descartar posibles artefactos del modelo TxGNN (aprendizaje profundo) en la predicción
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

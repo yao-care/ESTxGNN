@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **hipoalfalipoproteinemia*
 |------|------|
 | Indicación Original | Trastorno de estreñimiento (estreñimiento crónico) |
 | Nueva Indicación Predicha | Hipoalfalipoproteinemia |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Prucalopride actúa como agonista selectivo del receptor 5-HT4 (gen HTR4), con efecto procinético sobre el tracto gastrointestinal. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero la farmacología conocida lo describe como un tratamiento oral de una vez al día para adultos con estreñimiento crónico en quienes los laxantes no son eficaces.
 
-Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre la agonía 5-HT4 y el metabolismo de las lipoproteínas de alta densidad (HDL) o la regulación de ApoA-I. La puntuación alta de TxGNN proviene de relaciones en el grafo de conocimiento y no está respaldada por ningún estudio real. La predicción debe considerarse una hipótesis sin fundamento mecanístico por el momento.
+Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre la agonía 5-HT4 y el metabolismo de las lipoproteínas de alta densidad (HDL) o la regulación de ApoA-I. La puntuación alta proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldada por ningún estudio real. La predicción debe considerarse una hipótesis sin fundamento mecanístico por el momento.
 
 Otras predicciones del modelo tampoco muestran respaldo sólido. Las más cercanas al área gastrointestinal original son la amiloidosis y la amiloidosis primaria (dismotilidad intestinal sintomática, nivel L4), donde un procinético podría aliviar síntomas pero no modificaría la enfermedad, y la úlcera duodenal, con un vínculo débil y especulativo.
 

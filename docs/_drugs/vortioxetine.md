@@ -4,17 +4,17 @@ title: Vortioxetine
 parent: Evidencia moderada (L3-L4)
 nav_order: 858
 evidence_level: L4
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (nivel de evidencia L4). Indicación original: Trastorno depresivo mayor (depresión unipolar…"
 monitor_inn: "Vortioxetine"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
+description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Vortioxetina: De Trastorno Depresivo Mayor a Trastorno Neurótico
+## Vortioxetine: Trastorno neurótico (neurotic disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** de apoyo indir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (depresión unipolar, depresión endógena y trastorno de ansiedad, según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Trastorno neurótico |
-| Puntaje de Predicción TxGNN | 99.24% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno neurótico (neurotic disorder) |
+| Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Español | ✓ Comercializado |
+| Estado de Mercado en Español | Comercializado (registros vigentes: al menos 1) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

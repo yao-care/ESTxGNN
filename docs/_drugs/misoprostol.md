@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,64 % |
-| Nivel de Evidencia | L4 (según la clasificación de los datos compilados; estrictamente, la evidencia directa corresponde a L5) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Puntaje de Predicción TxGNN | 0,9964 |
+| Nivel de Evidencia | L5 (según la clasificación de los datos compilados; estrictamente, la evidencia directa corresponde a L5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El vínculo con la amenorrea es plausible solo en contextos en los que se busca inducir sangrado, como el fallo precoz del embarazo o la amenorrea relacionada con el embarazo. Misoprostol **no** trata las causas subyacentes de la amenorrea (hipotalámicas, hipofisarias, ováricas o anatómicas).
 
-El puntaje tan alto de TxGNN (0,996) es una predicción computacional sin respaldo clínico directo. La literatura recuperada trata del aborto médico, el aborto retenido y el sangrado uterino anormal. Por ello la asociación es indirecta y probablemente refleja la amenorrea del embarazo más que una verdadera indicación terapéutica.
+El puntaje tan alto de TxGNN (0,9964) es una predicción computacional sin respaldo clínico directo. La literatura recuperada trata del aborto médico, el aborto retenido y el sangrado uterino anormal. Por ello la asociación es indirecta y probablemente refleja la amenorrea del embarazo más que una verdadera indicación terapéutica.
 
 ---
 

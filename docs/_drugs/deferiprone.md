@@ -4,17 +4,17 @@ title: Deferiprone
 parent: Evidencia moderada (L3-L4)
 nav_order: 230
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Deferiprone: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: Hemosiderosis y talasemia beta (según las indicaciones del grafo de c…"
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+description: "Deferiprone: nueva indicación predicha, Porfiria hepática (hepatic porphyria) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-## Deferiprona: De Hemosiderosis y Talasemia a Porfiria Hepática
+## Deferiprone: Porfiria hepática (hepatic porphyria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **2 publicaciones preclínicas** (modelos murinos)
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemosiderosis y talasemia beta (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Porfiria hepática |
-| Puntaje de Predicción TxGNN | 99.20% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Porfiria hepática (hepatic porphyria) |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Espana | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -6,7 +6,7 @@ nav_order: 358
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Foscarnet: nueva indicación predicha, Síndrome de hematuria familiar autosómico dominante con tortuosidad a… (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaci…"
+description: "Foscarnet: nueva indicación predicha, Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaci…"
 monitor_inn: "FOSCARNET"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "rheumatoid arthritis", "diabetic nephropathy"]
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 ## Resumen en Una Frase
 
 Foscarnet es un antiviral de administración intravenosa que está comercializado en España; los datos compilados para este informe no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, y el análisis mecanístico la considera probablemente un artefacto del grafo de conocimiento.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, y el análisis mecanístico la considera probablemente un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ## Resumen Rápido
 
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hematuri
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones de la AEMPS |
 | Nueva Indicación Predicha | Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas |
-| Puntaje de Predicción TxGNN | 99,56 % |
+| Puntaje de Predicción TxGNN | 0,9956 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento farmacológico general, foscarnet es un análogo del pirofosfato que inhibe la ADN polimerasa viral y la transcriptasa inversa.
 
-La enfermedad predicha es un trastorno genético raro (vasculopatía relacionada con COL4A1) sin etiología viral. El análisis realizado concluye que **no existe un vínculo mecanístico que respalde la predicción**. El puntaje alto de TxGNN parece deberse a nodos de fenotipo retiniano compartidos en el grafo de conocimiento, y no a una justificación farmacológica.
+La enfermedad predicha es un trastorno genético raro (vasculopatía relacionada con COL4A1) sin etiología viral. El análisis realizado concluye que **no existe un vínculo mecanístico que respalde la predicción**. El puntaje alto de TxGNN (modelo de aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como fenotipos retinianos compartidos, y no evidencia biológica ni una justificación farmacológica.
 
 Por tanto, esta predicción debe considerarse una señal computacional sin sustento biológico demostrado, y no una hipótesis de reposicionamiento plausible.
 
@@ -90,7 +90,7 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre un antiviral y una vasculopatía genética por defecto de colágeno IV. El puntaje alto parece un artefacto del grafo de conocimiento.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre un antiviral y una vasculopatía genética por defecto de colágeno IV. El puntaje alto parece un artefacto del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones)

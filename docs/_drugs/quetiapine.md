@@ -6,9 +6,9 @@ nav_order: 674
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Quetiapine: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Trastorno bipolar, trastorno afectivo mayor…"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
+description: "Quetiapine: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: No…"
 ---
 
 # Quetiapine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Quetiapina: De Trastorno Bipolar y Esquizofrenia a Retinopatía Distrófica (con o sin Anomalías Extraoculares)
+## Quetiapine: Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 > **Nota sobre la selección de la indicación:** la primera predicción del modelo (rank 1, retinopatía distrófica) carece por completo de ensayos clínicos y literatura. La única predicción con alguna evidencia publicada es **tricotilomanía** (rank 8), que se analiza en detalle en las secciones de evidencia como alternativa de interés.
@@ -48,21 +48,21 @@ La predicción con más respaldo documental es **tricotilomanía**, con **0 ensa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno bipolar, trastorno afectivo mayor, trastorno bipolar maníaco y esquizofrenia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99.57% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) |
+| Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
-**Referencia alternativa (tricotilomanía, rank 8):** puntaje TxGNN 99.38%, nivel de evidencia L4, recomendación "pregunta de investigación".
+**Referencia alternativa (tricotilomanía, rank 8):** puntaje TxGNN 0.9938, nivel de evidencia L4, recomendación "pregunta de investigación".
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, quetiapina es un antipsicótico atípico con eficacia comprobada en esquizofrenia y trastorno bipolar. Los datos farmacológicos compilados indican afinidad por los receptores serotoninérgicos (5-HT1A, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A), el receptor dopaminérgico D2, el receptor histamínico H1 y el transportador de noradrenalina (NET).
 
-Para la distrofia retiniana no se identificó ningún vínculo mecanístico con los datos disponibles. Es un trastorno hereditario de la retina y no hay estudios que relacionen la quetiapina con esta enfermedad. El puntaje alto del modelo (99.57%) es una predicción computacional sin respaldo clínico, por lo que debe interpretarse con mucha cautela.
+Para la distrofia retiniana no se identificó ningún vínculo mecanístico con los datos disponibles. Es un trastorno hereditario de la retina y no hay estudios que relacionen la quetiapina con esta enfermedad. El puntaje alto del modelo (0.9957) es una predicción computacional sin respaldo clínico, por lo que debe interpretarse con mucha cautela.
 
 En el caso de la tricotilomanía, el vínculo es plausible pero no confirmado: se trata de un trastorno del espectro obsesivo-compulsivo con conductas repetitivas centradas en el cuerpo, y los antipsicóticos atípicos con actividad serotoninérgica y dopaminérgica se han usado como aumento en cuadros de ese espectro. Esta inferencia proviene de conocimiento general de la clase farmacológica, no de los datos compilados.
 

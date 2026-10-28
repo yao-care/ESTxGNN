@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Melphalan
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 503
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Melphalan: nueva indicación predicha, Tumor de células germinales gonadal (nivel de evidencia L2). Indicación original: Cáncer de ovario (según el grafo de conocimiento"
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: nueva indicación predicha, Female breast carcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Melfalán: De Cáncer de Ovario a Tumor de Células Germinales Gonadal
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ con **7 ensayos clínicos** (de relevancia variable, la mayoría en fase tempran
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de ovario (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Tumor de células germinales gonadal |
-| Puntaje de Predicción TxGNN | 99,77% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Female breast carcinoma |
+| Puntaje de Predicción TxGNN | 0.9967 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, melfalán es un agente alquilante que forma entrecruzamientos covalentes entre las cadenas del ADN, lo que bloquea la replicación y provoca la muerte de las células tumorales.
 
-Los tumores de células germinales son muy quimiosensibles a los agentes que dañan el ADN. Por ello, la quimioterapia a altas dosis con melfalán y rescate con progenitores hematopoyéticos autólogos es una estrategia biológicamente plausible como rescate en enfermedad recidivante o de mal pronóstico. La indicación original (cáncer de ovario) y la nueva (tumor germinal gonadal) comparten el órgano de origen en una parte importante de los casos, lo que explica la cercanía en el grafo de conocimiento.
+Los tumores de células germinales son muy quimiosensibles a los agentes que dañan el ADN. Por ello, la quimioterapia a altas dosis con melfalán y rescate con progenitores hematopoyéticos autólogos es una estrategia biológicamente plausible como rescate en enfermedad recidivante o de mal pronóstico.
 
 Cabe señalar que el efecto individual del melfalán no puede aislarse en la mayoría de los ensayos, porque se administra dentro de regímenes combinados de altas dosis.
 

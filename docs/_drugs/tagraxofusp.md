@@ -6,9 +6,9 @@ nav_order: 760
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tagraxofusp: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: Neoplasia hematodérmica CD4+/CD56+ (según el grafo de conocimiento"
 monitor_inn: "TAGRAXOFUSP"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "ductal or ductular proliferation", "non-seminomatous lesion", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "cystic neoplasm", "thyroglossal duct cyst"]
+description: "Tagraxofusp: nueva indicación predicha, Esotropía (esotropia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tagraxofusp
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tagraxofusp: De Neoplasia Hematodérmica CD4+/CD56+ a Esotropía
+## Tagraxofusp: Esotropía (esotropia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero actua
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neoplasia hematodérmica CD4+/CD56+ (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Esotropía |
-| Puntaje de Predicción TxGNN | 99,73% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Esotropía (esotropia) |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tagraxofusp es una proteína de fusión que une interleucina-3 con una toxina diftérica truncada; se dirige a células que expresan CD123 y las elimina. Su eficacia se ha establecido en una neoplasia hematológica con expresión de CD123.
 
-La esotropía es un trastorno de la alineación motora ocular sin patología conocida dependiente de CD123. **No se identifica un vínculo mecanístico creíble** entre el fármaco y esta indicación. El puntaje elevado (0,997) refleja únicamente una predicción basada en el grafo, sin respaldo clínico ni bibliográfico.
+La esotropía es un trastorno de la alineación motora ocular sin patología conocida dependiente de CD123. **No se identifica un vínculo mecanístico creíble** entre el fármaco y esta indicación. El puntaje elevado (0,9973) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo clínico ni bibliográfico.
 
 Las demás predicciones del modelo (neoplasia premaligna, neoplasia del oído interno, neoplasia benigna de lengua, proliferación ductal, entre otras) tampoco cuentan con ensayos ni literatura; todas se mantienen en nivel L5 y recomendación Hold. La más cercana a un fundamento mecanístico es la neoplasia premaligna, aunque la categoría es demasiado inespecífica y el perfil de toxicidad (síndrome de fuga capilar, hepatotoxicidad) sería difícil de justificar.
 

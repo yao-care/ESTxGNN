@@ -4,17 +4,17 @@ title: Meropenem
 parent: Evidencia moderada (L3-L4)
 nav_order: 507
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Meropenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Infección por Pseudomonas aeruginosa, peritonitis…"
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
+description: "Meropenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Meropenem: De Infecciones Bacterianas Graves a Artritis Bacteriana
+## Meropenem: Artritis bacteriana (bacterial arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana**, a
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por *Pseudomonas aeruginosa*, peritonitis, meningitis bacteriana (según el grafo de conocimiento; los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis bacteriana (bacterial arthritis) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 6) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -106,7 +106,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 **Decisión: Hold**
 
 **Justificación:**
-La puntuación de TxGNN es muy alta (99.92%), pero no hay ensayos clínicos y la evidencia se limita a informes de casos, estudios retrospectivos y datos farmacocinéticos (nivel L4). Además, faltan datos oficiales de seguridad del prospecto.
+La puntuación de TxGNN es muy alta (0.9992), pero no hay ensayos clínicos y la evidencia se limita a informes de casos, estudios retrospectivos y datos farmacocinéticos (nivel L4). Además, faltan datos oficiales de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales).
@@ -117,7 +117,7 @@ La puntuación de TxGNN es muy alta (99.92%), pero no hay ensayos clínicos y la
 
 ---
 
-**Nota sobre otras predicciones:** la infección urinaria (puntuación 99.52%) presenta el mayor respaldo clínico (nivel L1, ensayos de fase 3 con meropenem como comparador), pero constituye un uso ya establecido, no un reposicionamiento novedoso. Por otro lado, la uretritis por *Ureaplasma* parece un probable falso positivo, ya que este microorganismo carece de pared celular.
+**Nota sobre otras predicciones:** la uretritis por *Ureaplasma* parece un probable falso positivo, ya que este microorganismo carece de pared celular.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

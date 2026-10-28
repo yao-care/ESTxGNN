@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de las autorizaciones está vacío) |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria (primary release disorder of platelets) |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
 | Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, lipegfilgrastim es un análogo pegilado de G-CSF que estimula la proliferación y diferenciación del linaje neutrofílico mediante el receptor de G-CSF.
 
-No se identifica un efecto directo establecido sobre la liberación de gránulos plaquetarios ni sobre la función plaquetaria. El puntaje elevado (0.999) probablemente es un artefacto del grafo de conocimiento, derivado de vecinos compartidos en la red hematológica, y no un mecanismo validado. La relación con la indicación original (similitud) está pendiente de evaluar.
+No se identifica un efecto directo establecido sobre la liberación de gránulos plaquetarios ni sobre la función plaquetaria. El puntaje elevado (0.9993) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo validado. La relación con la indicación original (similitud) está pendiente de evaluar.
 
 En consecuencia, la plausibilidad biológica de esta predicción es baja y requiere validación antes de cualquier consideración de reposicionamiento.
 
@@ -88,17 +88,17 @@ Se evaluaron además otras cuatro indicaciones predichas, todas con nivel de evi
 
 | Rango | Indicación Predicha | Puntaje TxGNN | Valoración Mecanística |
 |------|------|------|------|
-| 2 | Retinopatía diabética no proliferativa grave | 99.91% | Sin mecanismo directo plausible; la movilización de progenitores por G-CSF es especulativa y podría favorecer la neovascularización patológica |
-| 3 | Pseudo-enfermedad de von Willebrand | 99.91% | Causada por variantes de ganancia de función de GPIbα; lipegfilgrastim no interactúa con el eje GPIb-VWF |
-| 4 | Trombastenia de Glanzmann | 99.91% | Defecto de la integrina αIIbβ3; el agonismo del receptor de G-CSF no lo corrige |
-| 5 | Retinopatía diabética | 99.75% | Vínculo especulativo; dirección del efecto incierta (podría empeorar la neovascularización) |
+| 2 | Retinopatía diabética no proliferativa grave | 0.9991 | Sin mecanismo directo plausible; la movilización de progenitores por G-CSF es especulativa y podría favorecer la neovascularización patológica |
+| 3 | Pseudo-enfermedad de von Willebrand | 0.9991 | Causada por variantes de ganancia de función de GPIbα; lipegfilgrastim no interactúa con el eje GPIb-VWF |
+| 4 | Trombastenia de Glanzmann | 0.9991 | Defecto de la integrina αIIbβ3; el agonismo del receptor de G-CSF no lo corrige |
+| 5 | Retinopatía diabética | 0.9975 | Vínculo especulativo; dirección del efecto incierta (podría empeorar la neovascularización) |
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo, sin ensayos clínicos ni literatura, y el mecanismo conocido de lipegfilgrastim (estimulación del linaje neutrofílico) no se relaciona con la función plaquetaria. El alto puntaje parece reflejar proximidad en la red del grafo y no una base biológica.
+La predicción se basa únicamente en el modelo, sin ensayos clínicos ni literatura, y el mecanismo conocido de lipegfilgrastim (estimulación del linaje neutrofílico) no se relaciona con la función plaquetaria. El alto puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una base biológica.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), una brecha de datos bloqueante para el cribado de seguridad

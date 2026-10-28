@@ -6,9 +6,9 @@ nav_order: 845
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Verteporfin: nueva indicación predicha, Trastorno de la fosforilación oxidativa mitocondrial por anomalías de… (nivel de evidencia L5). Indicación original: Degeneración macular (según el grafo de co…"
 monitor_inn: "verteporfin"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
+description: "Verteporfin: nueva indicación predicha, Trastorno de la fosforilación oxidativa mitocondrial por anomalías del ADN nuclear (mitochondrial oxidative phosphoryla… (nivel de evidencia L5). Indicación or…"
 ---
 
 # Verteporfin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Verteporfina: De Degeneración Macular a Trastorno de la Fosforilación Oxidativa Mitocondrial por Anomalías del ADN Nuclear
+## Verteporfin: Trastorno de la fosforilación oxidativa mitocondrial por anomalías del ADN nuclear (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Degeneración macular (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Trastorno de la fosforilación oxidativa mitocondrial por anomalías del ADN nuclear |
-| Puntaje de Predicción TxGNN | 99,49% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de la fosforilación oxidativa mitocondrial por anomalías del ADN nuclear (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies) |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 No se ha establecido un vínculo directo entre estos mecanismos y los defectos de la fosforilación oxidativa codificados por ADN nuclear. Una conexión especulativa podría pasar por vías de estrés oxidativo o función mitocondrial, pero la generación de ROS podría incluso agravar una función mitocondrial ya comprometida en esta enfermedad.
 
-Por tanto, la predicción se apoya únicamente en una asociación derivada del grafo de conocimiento. Es una hipótesis sin contrastar y sin respaldo en los datos compilados para este informe.
+Por tanto, la predicción se apoya únicamente en la puntuación del modelo TxGNN (aprendizaje profundo), que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Es una hipótesis sin contrastar y sin respaldo en los datos compilados para este informe.
 
 ## Evidencia de Ensayos Clínicos
 

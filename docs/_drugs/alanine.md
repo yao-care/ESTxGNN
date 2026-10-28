@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectiva para **gastroparesia**, pero **
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización de AEMPS |
 | Nueva Indicación Predicha | Gastroparesia |
-| Puntaje de Predicción TxGNN | 99,37% |
+| Puntaje de Predicción TxGNN | 0,9937 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la alanina es un aminoácido no esencial implicado en el ciclo glucosa-alanina y en la gluconeogénesis. No se ha podido confirmar su indicación original en España, por lo que no es posible establecer una relación directa con la nueva indicación.
 
-No se ha establecido un vínculo mecanístico creíble. Una conexión indirecta plausible (nutrición con aminoácidos o modulación glucémica en la gastroparesia diabética) es meramente especulativa y no está respaldada por los datos disponibles. El puntaje de 99,37% es una predicción del modelo y no constituye evidencia clínica.
+No se ha establecido un vínculo mecanístico creíble. Una conexión indirecta plausible (nutrición con aminoácidos o modulación glucémica en la gastroparesia diabética) es meramente especulativa y no está respaldada por los datos disponibles. El puntaje de 0,9937 es una predicción del modelo y no constituye evidencia clínica.
 
 Las tres publicaciones recuperadas tratan sobre complicaciones hepáticas y gastrointestinales en enfermedad renal y diabetes. Mencionan la gastroparesia como comorbilidad, pero no estudian la alanina como tratamiento.
 

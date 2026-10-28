@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Naratriptan
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 553
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Naratriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: Trastorno de migraña (migraña con o sin aura)"
 monitor_inn: "NARATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Naratriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Naratriptan
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,30 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-## Naratriptán: De Trastorno de Migraña a Migraña con Aura del Tronco Encefálico
+## Naratriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Naratriptán es un agonista selectivo de los receptores 5-HT1B/1D, originalmente utilizado para el tratamiento agudo de la migraña (con o sin aura).
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**, pero actualmente no hay ensayos clínicos registrados para esta indicación y las **19 publicaciones** disponibles tratan sobre migraña y triptanes en general, no sobre este subtipo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de migraña (migraña con o sin aura) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Atrophoderma vermiculata |
+| Puntaje de Predicción TxGNN | 0.9974 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Naratriptán es un agonista selectivo de los receptores 5-HT1B/1D, aprobado para el tratamiento agudo de la migraña. Su farmacología (vasoconstricción craneal e inhibición de la liberación de neuropéptidos trigeminales como el CGRP) es plausiblemente relevante para otros tipos de migraña. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción; la descripción anterior procede del análisis mecanístico de la predicción.
 
-La migraña con aura del tronco encefálico es un subtipo de migraña con aura, por lo que guarda una relación cercana con la indicación original. Es probable que el puntaje elevado de TxGNN (0,9998) refleje esta proximidad dentro de la ontología de enfermedades.
+El puntaje elevado de TxGNN (0,9974) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Sin embargo, los triptanes han sido históricamente objeto de precaución en la migraña con aura del tronco encefálico (antes llamada migraña de tipo basilar) y en la migraña hemipléjica, por el riesgo teórico asociado a la vasoconstricción. El balance beneficio-riesgo sigue sin resolverse, y la literatura disponible no es específica de este subtipo.
 
@@ -102,7 +101,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente plausible, pero no hay ensayos clínicos ni literatura específica del subtipo, y los triptanes tienen precauciones históricas en la migraña con aura del tronco encefálico, con la insuficiencia vertebrobasilar entre las contraindicaciones del grafo. El balance beneficio-riesgo no está resuelto.
+El balance beneficio-riesgo no está resuelto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto oficial de la AEMPS (advertencias y contraindicaciones), actualmente sin datos
@@ -113,7 +112,7 @@ La predicción es mecanísticamente plausible, pero no hay ensayos clínicos ni 
 
 ---
 
-*Nota: las otras dos predicciones del modelo (atrofodermia vermiculada y uleritema ofriógenes) tienen puntajes elevados (99,74% y 99,47%), pero no cuentan con ensayos, literatura ni vínculo mecanístico plausible (nivel L5, decisión Hold), por lo que no se desarrollan en este informe.*
+*Nota: las otras dos predicciones del modelo (atrofodermia vermiculada y uleritema ofriógenes) tienen puntajes elevados (0,9974 y 0,9947), pero no cuentan con ensayos, literatura ni vínculo mecanístico plausible (nivel L5, decisión Hold), por lo que no se desarrollan en este informe.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Famotidine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 325
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Famotidine: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L4). Indicación original: Úlcera gástrica (según las indicaciones del grafo de conocimiento"
 monitor_inn: "Famotidine"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
+description: "Famotidine: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Famotidina: De Úlcera Gástrica a Reflujo Duodenogástrico
+## Famotidine: Duodenal obstruction
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para el **reflujo duodenogástr
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Úlcera gástrica (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones no están disponibles) |
-| Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Duodenal obstruction |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,7 +112,7 @@ Consultar el prospecto para la información de seguridad oficial.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos registrados y la literatura es escasa, con solo dos estudios clínicos, sin resultados cuantitativos disponibles. El mecanismo (supresión ácida) no actúa sobre el reflujo biliar, por lo que el puntaje alto de TxGNN parece reflejar proximidad en el grafo con indicaciones ya aprobadas, más que una evidencia independiente.
+No hay ensayos clínicos registrados y la literatura es escasa, con solo dos estudios clínicos, sin resultados cuantitativos disponibles.
 
 **Para avanzar se necesita:**
 - Revisar los textos completos de los dos estudios (PMID 12532466 y 16259441) para conocer sus resultados y su calidad metodológica.

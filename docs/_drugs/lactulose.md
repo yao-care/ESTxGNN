@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lactulose
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 445
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Lactulose: nueva indicación predicha, Ictericia obstructiva (nivel de evidencia L3). Indicación original: Encefalopatía hepática…"
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
+description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lactulose
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-## Lactulosa: De Encefalopatía Hepática y Estreñimiento a Ictericia Obstructiva
+## Lactulose: Acute urate nephropathy
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos** y **20 publicaciones** recuperadas, en su mayoría a
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Encefalopatía hepática, coma hepático y estreñimiento (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Ictericia obstructiva (candidata con mejor respaldo; la de mayor puntaje es nefropatía aguda por uratos) |
-| Puntaje de Predicción TxGNN | 99.53% (ictericia obstructiva); 99.89% (nefropatía aguda por uratos, sin evidencia) |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acute urate nephropathy |
+| Puntaje de Predicción TxGNN | 0.9989 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,13 +87,13 @@ Publicaciones seleccionadas para ictericia obstructiva (hasta 10, priorizando es
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel de evidencia | Observación |
 |------|------|------|------|
-| Nefropatía aguda por uratos | 99.89% | L5 | Sin ensayos ni literatura; no se identifica mecanismo plausible |
-| Nefrolitiasis | 99.78% | L5 | Sin evidencia; la diarrea inducida podría causar depleción de volumen, lo que sería un riesgo |
-| Enfermedad de las vías biliares | 99.47% | L3 | La evidencia coincide en gran parte con la de ictericia obstructiva; limitada a contextos obstructivos/colestásicos |
-| Enfermedad del tracto biliar | 99.38% | L4 | Evidencia indirecta (composición biliar, litiasis); varias publicaciones tangenciales |
-| Hiperfosfatemia | 99.37% | L4 | Solo una revisión sobre estreñimiento en enfermedad renal crónica; sin datos de reducción de fosfato |
-| Hipertermia maligna inducida por ejercicio | 99.14% | L5 | Sin evidencia ni vínculo mecanístico |
-| Neoplasia de vías biliares | 99.12% | L4 | Tres publicaciones indirectas; ninguna evalúa lactulosa frente al tumor |
+| Nefropatía aguda por uratos | 0.9989 | L5 | Sin ensayos ni literatura; no se identifica mecanismo plausible |
+| Nefrolitiasis | 0.9978 | L5 | Sin evidencia; la diarrea inducida podría causar depleción de volumen, lo que sería un riesgo |
+| Enfermedad de las vías biliares | 0.9947 | L3 | La evidencia coincide en gran parte con la de ictericia obstructiva; limitada a contextos obstructivos/colestásicos |
+| Enfermedad del tracto biliar | 0.9938 | L5 | Evidencia indirecta (composición biliar, litiasis); varias publicaciones tangenciales |
+| Hiperfosfatemia | 0.9937 | L5 | Solo una revisión sobre estreñimiento en enfermedad renal crónica; sin datos de reducción de fosfato |
+| Hipertermia maligna inducida por ejercicio | 0.9914 | L5 | Sin evidencia ni vínculo mecanístico |
+| Neoplasia de vías biliares | 0.9912 | L5 | Tres publicaciones indirectas; ninguna evalúa lactulosa frente al tumor |
 
 ## Información de Mercado en España
 

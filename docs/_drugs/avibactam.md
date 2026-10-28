@@ -4,17 +4,17 @@ title: Avibactam
 parent: Solo predicción del modelo (L5)
 nav_order: 81
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Avibactam: nueva indicación predicha, Neumonía estreptocócica (nivel de evidencia L5). Indicación original: Pielonefritis (según las relaciones de indicación del grafo de conoci…"
+indication_count: 4
 monitor_inn: "avibactam"
-predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+last_modified_at: 2026-10-23
+description: "Avibactam: nueva indicación predicha, Tuberculosis del uréter (nivel de evidencia L5). Indicación original: Pielonefritis"
 ---
 
 # Avibactam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,44 +33,44 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Avibactam: De Pielonefritis a Neumonía Estreptocócica
+## Avibactam: De Pielonefritis a Tuberculosis del Uréter
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Avibactam es un inhibidor de beta-lactamasas (de tipo diazabiciclooctano) que se utiliza junto con ceftazidima y originalmente se empleó en el tratamiento de la pielonefritis.
-El modelo TxGNN predice que podría ser efectivo para **neumonía estreptocócica**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+Avibactam es un inhibidor de beta-lactamasas que no es un antibiótico por sí mismo; se comercializa en combinación con otros antibióticos beta-lactámicos y su indicación original es la pielonefritis.
+El modelo TxGNN predice que podría ser efectivo para **tuberculosis del uréter**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Se trata, por tanto, de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Pielonefritis (según las relaciones de indicación del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Neumonía estreptocócica |
-| Puntaje de Predicción TxGNN | 99,70% |
+| Indicación Original | Pielonefritis (relación registrada en el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
+| Nueva Indicación Predicha | Tuberculosis del uréter |
+| Puntaje de Predicción TxGNN | 0,9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes consultadas. Según la información conocida, avibactam es un inhibidor de beta-lactamasas no beta-lactámico que restaura la actividad de antibióticos beta-lactámicos asociados (por ejemplo, ceftazidima) frente a enzimas de las clases A y C de Ambler y algunas de la clase D.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, avibactam es un inhibidor de beta-lactamasas no beta-lactámico que carece de actividad antibacteriana relevante por sí solo y se administra junto a un antibiótico beta-lactámico para protegerlo de la degradación enzimática.
 
-Desde el punto de vista mecanístico, la predicción **es poco convincente**. La resistencia de *Streptococcus pneumoniae* a los beta-lactámicos se debe principalmente a alteraciones de las proteínas fijadoras de penicilina, y no a la producción de beta-lactamasas, por lo que no cabe esperar que un inhibidor de beta-lactamasas aporte beneficio adicional. Además, los tratamientos habituales (penicilinas, ceftriaxona) ya son eficaces.
+La relación con la nueva indicación es plausible pero indirecta. Algunos datos sugieren que avibactam puede inhibir la beta-lactamasa BlaC de *Mycobacterium tuberculosis*, lo que en principio podría restaurar la actividad de ciertos beta-lactámicos. La tuberculosis genitourinaria es una manifestación localizada de la misma infección. Este razonamiento es solo preclínico y no está respaldado por estudios incluidos en los datos compilados.
 
-El elevado puntaje (0,997) probablemente refleja una asociación a nivel de grafo con indicaciones antibacterianas y de neumonía, más que un mecanismo específico.
+Aunque el puntaje del modelo TxGNN (aprendizaje profundo) es alto (0,9911), no existe ningún estudio que evalúe directamente esta enfermedad, por lo que la predicción debe considerarse una hipótesis.
 
-### Otras indicaciones predichas (para contexto)
+### Otras predicciones del modelo (de menor interés)
 
-| Posición | Indicación predicha | Puntaje TxGNN | Valoración |
-|------|------|------|------|
-| 2 | Susceptibilidad a gripe grave | 99,28% | Sin actividad antiviral; probable artefacto del grafo. |
-| 3 | Tuberculosis ureteral | 99,11% | La más plausible mecanísticamente (inhibición in vitro de la beta-lactamasa BlaC de *M. tuberculosis*), pero solo preclínica. |
-| 4 | Esquistosomiasis urinaria | 99,06% | Sin diana antiparasitaria; probablemente por el contexto urinario compartido. |
-| 5 | Síndrome de hiperviscosidad policlonal | 99,01% | Sin vínculo plausible; probable artefacto. |
-| 6 | Hiperamilasemia | 99,01% | Hallazgo de laboratorio, no una enfermedad tratable con este fármaco; probable artefacto. |
+| Enfermedad predicha | Puntaje TxGNN | Valoración |
+|------|------|------|
+| Esquistosomiasis urinaria | 0,9906 | Vínculo mecanístico débil; la inhibición de beta-lactamasas no tiene un mecanismo establecido frente a helmintos. Probablemente refleja proximidad en la red con enfermedades del tracto urinario. |
+| Síndrome de hiperviscosidad policlonal | 0,9901 | Sin vínculo mecanístico plausible; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. |
+| Hiperamilasemia | 0,9901 | Es un hallazgo de laboratorio, no una enfermedad tratable con este mecanismo; probable artefacto de la predicción. |
+
+Todas ellas tienen nivel de evidencia L5 y recomendación Hold.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -84,26 +84,30 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1161109001 | ZAVICEFTA 2 G/0,5 G polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-| 1241808001 | EMBLAVEO 1,5 G/0,5 G polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+| 1161109001 | ZAVICEFTA 2 G/0,5 G | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+| 1241808001 | EMBLAVEO 1,5 G/0,5 G | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
+
+Ambas autorizaciones están vigentes. Corresponden a productos con avibactam en combinación con otros principios activos, por lo que no deben interpretarse como autorizaciones del avibactam como principio activo único.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+Consultar el prospecto para información de seguridad.
+
+No se encontraron interacciones farmacológicas registradas en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni literatura, y el mecanismo conocido de avibactam (inhibición de beta-lactamasas) no explica un beneficio en la neumonía estreptocócica, cuya resistencia no depende de estas enzimas. Los tratamientos actuales ya son eficaces.
+La predicción se basa únicamente en el modelo, sin ensayos clínicos ni publicaciones que estudien directamente la tuberculosis del uréter, por lo que el nivel de evidencia es L5. El vínculo mecanístico es solo preclínico, y los datos de seguridad y de mecanismo de acción están incompletos.
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank.
-- Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones), actualmente sin disponer.
-- Textos de indicaciones aprobadas de las autorizaciones españolas.
-- Una justificación mecanística y microbiológica específica (por ejemplo, datos de actividad *in vitro* frente a *S. pneumoniae*) antes de cualquier estudio clínico.
-- Si se desea explorar una alternativa, priorizar la tuberculosis ureteral con validación *in vitro* y en modelos animales previa a cualquier consideración clínica.
+- Obtener y analizar el prospecto de AEMPS (advertencias y contraindicaciones), que es un requisito bloqueante para el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Estudios preclínicos que evalúen la inhibición de BlaC de *M. tuberculosis* y la actividad en combinación con beta-lactámicos.
+- Revisión sistemática de la literatura sobre inhibidores de beta-lactamasas en tuberculosis, incluida la genitourinaria.
+- Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, actualmente pendientes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

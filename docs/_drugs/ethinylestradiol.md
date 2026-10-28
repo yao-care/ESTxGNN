@@ -6,9 +6,9 @@ nav_order: 314
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Acné, osteoporosis posmenopáusica…"
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ethinylestradiol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Etinilestradiol: De Acné y Osteoporosis Posmenopáusica a Zinc Plasmático Elevado
+## Ethinylestradiol: Zinc plasmático elevado (zinc, elevated plasma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acné, osteoporosis posmenopáusica, vaginitis atrófica posmenopáusica (según el grafo de conocimiento; la autorización española no incluye texto de indicación) |
-| Nueva Indicación Predicha | Zinc plasmático elevado |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Zinc plasmático elevado (zinc, elevated plasma) |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

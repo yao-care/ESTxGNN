@@ -50,10 +50,10 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones (uso diagnóstico oftalmológico según las formas farmacéuticas: solución inyectable y colirios) |
 | Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la fluoresceína es un colorante diagnóstico que se emplea en angiografía de retina y en la tinción de la superficie ocular, y no tiene una acción terapéutica establecida.
 
-El análisis de los datos compilados no identifica ningún vínculo mecanístico entre la fluoresceína y la angina de Prinzmetal. La fluoresceína no tiene actividad vasodilatadora ni antivasoespástica conocida. El alto puntaje de TxGNN (99.81%) refleja únicamente una asociación en el grafo de conocimiento, sin ensayos ni literatura que la respalden.
+El análisis de los datos compilados no identifica ningún vínculo mecanístico entre la fluoresceína y la angina de Prinzmetal. La fluoresceína no tiene actividad vasodilatadora ni antivasoespástica conocida. El alto puntaje de TxGNN (0.9981) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no hay ensayos ni literatura que lo respalden.
 
 Por tanto, esta predicción debe considerarse con mucha cautela: no hay una base farmacológica que justifique su reposicionamiento. Las otras nueve indicaciones predichas (deficiencias de antitrombina y del cofactor II de la heparina, artritis reumatoide, hemoglobinopatía, trombofilia, hipertiroidismo, entre otras) tampoco cuentan con vínculo terapéutico plausible. En los casos con literatura asociada, la fluoresceína aparece solo como herramienta diagnóstica (angiografía o tinción ocular).
 

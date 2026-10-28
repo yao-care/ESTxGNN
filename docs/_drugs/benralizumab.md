@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Benralizumab
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 95
-evidence_level: L2
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Benralizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: Neumonía eosinofílica y eosinofilia pulmonar (según el grafo de conoc…"
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
+last_modified_at: 2026-10-27
+description: "Benralizumab: nueva indicación predicha, trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
 # Benralizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,66 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-## Benralizumab: De Neumonía Eosinofílica a Dermatitis
+## Benralizumab: anticuerpo monoclonal anti-IL-5Rα → trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Benralizumab es un anticuerpo monoclonal dirigido contra el receptor alfa de la interleucina 5 (IL-5Rα), cuyas indicaciones originales en el grafo de conocimiento son la neumonía eosinofílica y la eosinofilia pulmonar.
-El modelo TxGNN predice que podría ser efectivo para **dermatitis**, con **3 ensayos clínicos** de Fase 2 y **20 publicaciones** (en su mayoría revisiones) que actualmente se relacionan con esta dirección, aunque sin resultados de eficacia confirmados.
+Benralizumab es un anticuerpo monoclonal dirigido contra el receptor alfa de la interleucina 5 (IL-5Rα), que reduce los eosinófilos y basófilos.
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumonía eosinofílica y eosinofilia pulmonar (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas está vacío) |
-| Nueva Indicación Predicha | Dermatitis |
-| Puntaje de Predicción TxGNN | 99,16% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) |
+| Puntaje de Predicción TxGNN | 0,9934 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Espana | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
-
-> Nota: se ha seleccionado la dermatitis (segunda predicción) como foco del informe porque es la única indicación predicha con ensayos clínicos y literatura. La primera predicción del modelo, la trombocitopenia por destrucción inmune (99,34%), carece de cualquier evidencia clínica o bibliográfica (nivel L5, Hold).
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, benralizumab se une al IL-5Rα y depleciona eosinófilos y basófilos mediante citotoxicidad celular dependiente de anticuerpos. Está aprobado en otros países para el asma eosinofílica grave y, desde septiembre de 2024 en EE. UU., para la granulomatosis eosinofílica con poliangeítis.
+Benralizumab se une al receptor IL-5Rα y depleciona eosinófilos y basófilos mediante citotoxicidad celular dependiente de anticuerpos. No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe, más allá de esta descripción general de la diana (IL5RA).
 
-La neumonía eosinofílica y la dermatitis comparten un componente de inflamación de tipo 2 en el que participan eosinófilos, basófilos y células linfoides innatas de tipo 2. Por ello, es mecanísticamente plausible que depleccionar estas poblaciones pueda beneficiar a la dermatitis atópica y a reacciones cutáneas con eosinofilia, como el síndrome DRESS.
+Los datos compilados no establecen un vínculo entre este mecanismo y la trombocitopenia inmune. La trombocitopenia por destrucción inmune se debe principalmente a la destrucción de plaquetas mediada por autoanticuerpos, un proceso que no depende claramente de los eosinófilos. Cualquier justificación mecanística sería, por tanto, especulativa.
 
-Con todo, la plausibilidad mecanística no equivale a eficacia demostrada. Los datos disponibles no incluyen resultados de los ensayos, y el ensayo con mejor diseño fue terminado anticipadamente.
+El puntaje alto (0,9934) es solo una predicción computacional y no sustituye a la evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04605094](https://clinicaltrials.gov/study/NCT04605094) | Fase 2 | Terminado | 194 | Estudio HILLIER: aleatorizado, doble ciego y controlado con placebo (16 semanas, extensión de 36) en dermatitis atópica moderada-grave pese a tratamiento tópico. Terminado; se desconocen el motivo y los resultados |
-| [NCT03563066](https://clinicaltrials.gov/study/NCT03563066) | Fase 2 | Completado | 20 | Estudio mecanístico sobre el efecto de benralizumab en eosinófilos, basófilos y células linfoides innatas de tipo 2 en dermatitis atópica. Sin resultados disponibles |
-| [NCT06734884](https://clinicaltrials.gov/study/NCT06734884) | Fase 2 | Aún no recluta | 96 | Eficacia y seguridad de benralizumab en el síndrome DRESS. Inicio previsto en enero de 2027 |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se incluye una selección de las publicaciones más relevantes (el caso clínico directo y revisiones sobre biológicos en enfermedades atópicas):
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [33039646](https://pubmed.ncbi.nlm.nih.gov/33039646/) | 2021 | Reporte de caso | J Allergy Clin Immunol Pract | Benralizumab en dos pacientes con DRESS grave asociado a COVID-19 |
-| [35987486](https://pubmed.ncbi.nlm.nih.gov/35987486/) | 2022 | Revisión | J Allergy Clin Immunol Pract | Seguridad de biológicos (incluido benralizumab) para enfermedades atópicas durante el embarazo |
-| [36411004](https://pubmed.ncbi.nlm.nih.gov/36411004/) | 2023 | Revisión | Immunol Allergy Clin North Am | Uso de anticuerpos monoclonales en rinitis alérgica, asma y dermatitis atópica durante embarazo y lactancia |
-| [39600395](https://pubmed.ncbi.nlm.nih.gov/39600395/) | 2024 | Revisión | Allergologie Select | Actualización de terapias biológicas en enfermedades atópicas, urticaria y angioedema, con foco en reacciones de hipersensibilidad |
-| [34642091](https://pubmed.ncbi.nlm.nih.gov/34642091/) | 2021 | Revisión | Ann Allergy Asthma Immunol | Guía para elegir biológicos en asma, urticaria, poliposis nasal, dermatitis atópica y esofagitis eosinofílica |
-| [31690400](https://pubmed.ncbi.nlm.nih.gov/31690400/) | 2019 | Revisión | Allergy Asthma Proc | Tratamientos inmunobiológicos (anti-IgE, anti-IL-5, anti-IL-4/13) en asma, dermatitis atópica y urticaria crónica |
-| [37170653](https://pubmed.ncbi.nlm.nih.gov/37170653/) | 2023 | Revisión | Clin Transl Sci | Panorama de la inmunoterapia en afecciones alérgicas, incluida la dermatitis atópica |
-| [33236428](https://pubmed.ncbi.nlm.nih.gov/33236428/) | 2020 | Revisión | Pediatr Allergy Immunol | Anti-IL-5 en enfermedades alérgicas pediátricas, incluida la dermatitis atópica |
-
-No se identificó ningún ensayo aleatorizado publicado; la evidencia directa se limita a un reporte de caso.
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1171252002 | FASENRA 30 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-| 1171252001 | FASENRA 30 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
-
-Ambas autorizaciones están vigentes, corresponden a monofármaco y su titular es AstraZeneca AB.
+| 1171252002 | FASENRA 30 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No registrada en los datos locales |
+| 1171252001 | FASENRA 30 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta se completó y solo devolvió la interacción farmacológica con su diana, el receptor alfa de la interleucina 5 (IL5RA), sin nivel de gravedad clínica asignado. No se identificaron interacciones con otros fármacos.
-- Las revisiones sobre el uso de biológicos en el embarazo y la lactancia señalan que la información de seguridad en estas poblaciones es limitada.
-
-Para advertencias y contraindicaciones, consultar el prospecto.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque existe una base mecanística plausible y tres ensayos de Fase 2, ninguno aporta resultados de eficacia: el ensayo mejor diseñado (HILLIER) fue terminado sin motivo conocido, el estudio mecanístico es pequeño (n=20) y el de DRESS aún no ha comenzado. La evidencia directa se limita a un reporte de caso, por lo que el nivel L2 debe interpretarse con cautela.
+La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clínicos ni literatura que estudien esta enfermedad, y no hay un vínculo mecanístico establecido entre la depleción de eosinófilos y la trombocitopenia inmune.
 
 **Para avanzar se necesita:**
-- Obtener los resultados y el motivo de terminación del ensayo NCT04605094 (HILLIER) y los resultados de NCT03563066.
-- Revisar las advertencias y contraindicaciones del prospecto de la AEMPS (dato ausente en el material compilado).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar el texto de indicación aprobado en las autorizaciones españolas.
-- Seguir el avance de NCT06734884 (DRESS) y valorar si la dermatitis atópica o los cuadros cutáneos eosinofílicos son el subtipo prioritario.
-- Respecto a las demás predicciones (trombocitopenia inmune, queloide acneiforme y dermatomiositis neonatal y amiopática), no hay ensayos ni literatura y el vínculo mecanístico no está establecido, por lo que no se recomienda avanzar en ellas por ahora.
+- Evidencia preclínica o clínica que relacione la vía IL-5/eosinófilos con la trombocitopenia inmune
+- Datos detallados del mecanismo de acción
+- Información de seguridad del prospecto (advertencias y contraindicaciones)
+- Revisión de la plausibilidad biológica por parte de expertos antes de considerar cualquier estudio
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

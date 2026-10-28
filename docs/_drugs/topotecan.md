@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Topotecan
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 806
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Cáncer de ovario (según las indicaciones originales del grafo de cono…"
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
+description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Topotecan
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Topotecan: De Cáncer de Ovario a Carcinoma de Mama Femenino
+## Topotecan: Carcinoma de mama femenino (female breast carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **3 ensayos clínicos** (todos de fase temprana o terminados sin resultados 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de ovario (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Hay cierto respaldo preclínico: un estudio (PMID 37987734) sugiere que la inhibición de la topoisomerasa 1 genera letalidad sintética en cánceres dependientes de MYC mediante acumulación anómala de bucles R, incluyendo líneas celulares de cáncer de mama. También se sabe que la proteína de resistencia del cáncer de mama (BCRP/ABCG2) expulsa topotecan de la célula y constituye un posible mecanismo de resistencia.
 
-Sin embargo, la evidencia clínica directa es débil. Un ensayo de fase II con topotecan en infusión continua en cáncer de mama avanzado y pulmón no microcítico (PMID 9413954) no mostró evidencia de mayor eficacia. El puntaje de 0.999 es una predicción computacional y no sustituye a la evidencia clínica.
+Sin embargo, la evidencia clínica directa es débil. Un ensayo de fase II con topotecan en infusión continua en cáncer de mama avanzado y pulmón no microcítico (PMID 9413954) no mostró evidencia de mayor eficacia. El puntaje de 0.9992 es una predicción computacional y no sustituye a la evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 

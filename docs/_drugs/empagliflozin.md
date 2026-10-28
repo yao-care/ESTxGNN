@@ -6,9 +6,9 @@ nav_order: 287
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Empagliflozin: nueva indicación predicha, Síndrome de rigidez focal de extremidad (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según el grafo de conocimiento"
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
+description: "Empagliflozin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Empagliflozin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Empagliflozina: De Diabetes Mellitus Tipo 2 a Síndrome de Rigidez Focal de Extremidad
+## Empagliflozin: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de rigidez focal de extremidad |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Focal stiff limb syndrome |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,9 +60,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Hay que ser claros: **no existe un vínculo mecanístico establecido** con la nueva indicación. El síndrome de rigidez focal de extremidad es un trastorno neurológico raro, probablemente autoinmune, dentro del espectro de la persona rígida, asociado a una menor inhibición GABAérgica (por ejemplo, anticuerpos anti-GAD65 o anti-anfifisina). La inhibición de SGLT2 no tiene un efecto conocido sobre esta vía.
 
-La puntuación elevada de TxGNN (0.99) probablemente refleja la proximidad en la red del conocimiento con la diabetes y la autoinmunidad (los anti-GAD65 se asocian tanto a la diabetes tipo 1 como al síndrome de la persona rígida). Esto es una asociación indirecta y no una justificación de eficacia.
+La puntuación elevada de TxGNN (0.9903) probablemente refleja la proximidad en la red del conocimiento con la diabetes y la autoinmunidad (los anti-GAD65 se asocian tanto a la diabetes tipo 1 como al síndrome de la persona rígida). Esto es una asociación indirecta y no una justificación de eficacia.
 
-Otras predicciones del modelo con puntuaciones similares (síndrome clásico de la persona rígida, 99.06 %, y opsismodisplasia, 99.03 %) tampoco cuentan con vínculo mecanístico ni evidencia clínica en los datos compilados.
+Otras predicciones del modelo con puntuaciones similares (síndrome clásico de la persona rígida, 0.9906, y opsismodisplasia, 0.9903) tampoco cuentan con vínculo mecanístico ni evidencia clínica en los datos compilados.
 
 ## Evidencia de Ensayos Clínicos
 

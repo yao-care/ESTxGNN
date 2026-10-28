@@ -4,17 +4,17 @@ title: Risperidone
 parent: Solo predicción del modelo (L5)
 nav_order: 706
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Risperidone: nueva indicación predicha, Parálisis de la mirada horizontal familiar con escoliosis progresiva (nivel de evidencia L5). Indicación original: Esquizofrenia…"
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 |------|------|
 | Indicación Original | Esquizofrenia, trastorno bipolar (episodios maníacos) y trastornos del espectro autista (según las indicaciones registradas en el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Parálisis de la mirada horizontal familiar con escoliosis progresiva |
-| Puntaje de Predicción TxGNN | 99.76% |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La enfermedad predicha es un trastorno neurológico hereditario raro, relacionado con el gen ROBO3, que afecta al control de los movimientos oculares horizontales y a la columna vertebral. **No se ha establecido ningún vínculo mecanístico** entre el bloqueo dopaminérgico/serotoninérgico y la fisiopatología de esta enfermedad, que es de origen del desarrollo neurológico.
 
-Por tanto, el puntaje alto (99.76%) debe interpretarse con cautela. En ausencia de ensayos, literatura o una hipótesis mecanística clara, la predicción no ofrece por sí sola una base suficiente para plantear un uso clínico.
+Por tanto, el puntaje alto (0.9976) debe interpretarse con cautela. En ausencia de ensayos, literatura o una hipótesis mecanística clara, la predicción no ofrece por sí sola una base suficiente para plantear un uso clínico.
 
 ---
 

@@ -4,17 +4,17 @@ title: Triamterene
 parent: Solo predicción del modelo (L5)
 nav_order: 824
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Triamterene: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión e insuficiencia cardíaca congestiva (según el grafo de c…"
 monitor_inn: "triamterene"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Triamterene: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Triamterene
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Triamtereno: De Hipertensión a Enfermedad Renal Hipertensiva Maligna
+## Triamterene: Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente no hay **ensayos clínicos** ni **publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión e insuficiencia cardíaca congestiva (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en la base de datos. Según la información conocida, el triamtereno es un diurético ahorrador de potasio que bloquea el canal epitelial de sodio (ENaC) en la nefrona distal, lo que reduce el volumen y la presión arterial. Su eficacia en la hipertensión ha sido comprobada, por lo que un efecto antihipertensivo es plausible.
 
-Sin embargo, la enfermedad renal hipertensiva maligna es una emergencia hipertensiva con daño renal que requiere tratamiento parenteral rápido; un diurético oral de efecto moderado no es un tratamiento primario adecuado. El puntaje elevado probablemente refleja la cercanía en el grafo de conocimiento con la indicación aprobada de hipertensión, y no una evidencia independiente.
+Sin embargo, la enfermedad renal hipertensiva maligna es una emergencia hipertensiva con daño renal que requiere tratamiento parenteral rápido; un diurético oral de efecto moderado no es un tratamiento primario adecuado.
 
 Otras predicciones del modelo tienen una base igualmente débil: hipertensión renovascular maligna (99.89%), hipertensión pulmonar de mecanismo multifactorial incierto (99.88%), hipertensión pulmonar por enfermedad pulmonar o hipoxia (99.88%), síndrome de Braddock (99.84%) y cor pulmonale crónico (99.75%, nivel L4, con apoyo solo indirecto del manejo de la insuficiencia cardíaca). Ninguna cuenta con ensayos clínicos que evalúen el triamtereno en esas indicaciones.
 

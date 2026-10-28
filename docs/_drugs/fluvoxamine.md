@@ -6,9 +6,9 @@ nav_order: 353
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fluvoxamine: nueva indicación predicha, Trastorno esquizoide de la personalidad (nivel de evidencia L5). Indicación original: Fobia social…"
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+description: "Fluvoxamine: nueva indicación predicha, Schizoid personality disorder (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fluvoxamine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluvoxamina: De Fobia Social y Trastorno Obsesivo-Compulsivo a Trastorno Esquizoide de la Personalidad
+## Fluvoxamine: Schizoid personality disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** de apoyo indir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fobia social, trastorno fóbico y trastorno obsesivo-compulsivo (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no estaban disponibles) |
-| Nueva Indicación Predicha | Trastorno esquizoide de la personalidad |
-| Puntaje de Predicción TxGNN | 99,997 % |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Schizoid personality disorder |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Los datos compilados no incluyen una descripción detallada del mecanismo de acción. Sí muestran que la fluvoxamina actúa sobre el transportador de serotonina (SERT, gen *SLC6A4*), que inhibe, y que tiene alta afinidad por el receptor sigma-1 (*SIGMAR1*), sobre el que parece actuar como agonista. Es un ISRS cuya eficacia está demostrada en la fobia social y el TOC.
 
-El modelo asocia estas indicaciones con el trastorno esquizoide de la personalidad porque comparten un entorno de enfermedades psiquiátricas y dianas serotoninérgicas dentro del grafo de conocimiento. Es una similitud estadística del grafo, no una justificación farmacológica probada.
+El modelo TxGNN (aprendizaje profundo) asocia estas indicaciones con el trastorno esquizoide de la personalidad, y la puntuación procede de dicho modelo. Puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 No se ha establecido un vínculo mecanístico directo. La única publicación asociada (PMID 10929788) describe los trastornos de personalidad en pacientes con trastorno dismórfico corporal, algunos de los cuales participaron en un estudio con fluvoxamina. No evalúa la fluvoxamina como tratamiento del trastorno esquizoide.
 
@@ -99,7 +99,7 @@ La predicción tiene un puntaje alto en el modelo, pero no cuenta con ensayos cl
 
 **Para avanzar se necesita:**
 - Estudios clínicos o series de casos que prueben directamente la fluvoxamina en el trastorno esquizoide de la personalidad.
-- Una justificación mecanística específica que vaya más allá de la cercanía en el grafo de conocimiento.
+- Una justificación mecanística específica que vaya más allá de las similitudes entre enfermedades relacionadas que aprendió el modelo TxGNN (aprendizaje profundo).
 - Las advertencias y contraindicaciones oficiales del prospecto de la AEMPS, así como los textos de indicación aprobados.
 - Datos detallados del mecanismo de acción.
 

@@ -6,9 +6,9 @@ nav_order: 191
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clobazam: nueva indicación predicha, Síndrome de epilepsia relacionada con infección febril (FIRES) (nivel de evidencia L4). Indicación original: Síndrome de Lennox-Gastaut (según el grafo de conocim…"
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
+description: "Clobazam: nueva indicación predicha, Febrile infection-related epilepsy syndrome (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Clobazam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Clobazam: De Síndrome de Lennox-Gastaut a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+## Clobazam: Febrile infection-related epilepsy syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ aunque actualmente solo hay **2 publicaciones** (series y reportes de casos, nin
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome de Lennox-Gastaut (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de epilepsia relacionada con infección febril (FIRES) |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Febrile infection-related epilepsy syndrome |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -105,7 +105,7 @@ El puntaje de TxGNN es alto, pero la evidencia se limita a una serie de casos y 
 - Evaluación de la compatibilidad de vías de administración (formas orales disponibles frente a las necesidades en pacientes críticos)
 - Plan de monitoreo de seguridad que contemple las interacciones de nivel mayor (opioides, eliglustat)
 
-**Nota sobre otras indicaciones predichas:** entre las otras nueve candidatas, la **encefalopatía epiléptica de inicio en la infancia** (puntaje 99.59%) es la que cuenta con mayor respaldo bibliográfico (nivel L3, 20 publicaciones, principalmente revisiones y guías sobre Lennox-Gastaut y otros síndromes). Dado que clobazam ya está indicado en Lennox-Gastaut, se trata en gran medida de una extensión de un uso conocido, y merece evaluarse como pregunta de investigación. El resto de candidatas tienen nivel L4 o L5 y se mantienen en Hold.
+**Nota sobre otras indicaciones predichas:** entre las otras nueve candidatas, la **encefalopatía epiléptica de inicio en la infancia** (puntaje 0.9959) es la que cuenta con mayor respaldo bibliográfico (nivel L3, 20 publicaciones, principalmente revisiones y guías sobre Lennox-Gastaut y otros síndromes). Dado que clobazam ya está indicado en Lennox-Gastaut, se trata en gran medida de una extensión de un uso conocido, y merece evaluarse como pregunta de investigación. El resto de candidatas tienen nivel L4 o L5 y se mantienen en Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

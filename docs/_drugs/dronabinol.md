@@ -4,17 +4,17 @@ title: Dronabinol
 parent: Evidencia moderada (L3-L4)
 nav_order: 267
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dronabinol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No disponible en los datos de la autorización de AEMPS"
 monitor_inn: "dronabinol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
 ---
 
 # Dronabinol
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ con **1 ensayo clínico** de Fase 2 completado (sin resultados confirmados) y **
 |------|------|
 | Indicación Original | No disponible en los datos de la autorización de AEMPS |
 | Nueva Indicación Predicha | Migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99,92% |
+| Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

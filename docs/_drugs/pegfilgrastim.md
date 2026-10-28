@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 ## Resumen en Una Frase
 
 Pegfilgrastim es un análogo pegilado del factor estimulante de colonias de granulocitos (G-CSF) que se comercializa en España para estimular la producción de neutrófilos; los datos compilados para este informe no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**, con una puntuación muy alta (99,89%).
+El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**, con una puntuación muy alta (0,9989).
 Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción del modelo.
 
 ---
@@ -50,10 +50,10 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones de AEMPS |
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Mecanísticamente, podría plantearse una relación con la retinopatía diabética a través de los efectos del G-CSF sobre las células progenitoras derivadas de la médula ósea, la reparación vascular o las vías inflamatorias de la microvasculatura retiniana. Sin embargo, esta es solo una hipótesis sin respaldo en los datos disponibles.
 
-Además, la dirección del efecto es incierta: la movilización de neutrófilos también podría empeorar la inflamación y el daño vascular de la retina. La predicción de la retinopatía diabética (puntuación 99,73%) es una indicación más amplia que se solapa con la forma grave, por lo que ambas predicciones no constituyen evidencia independiente.
+Además, la dirección del efecto es incierta: la movilización de neutrófilos también podría empeorar la inflamación y el daño vascular de la retina. La predicción de la retinopatía diabética (puntuación 0,9973) es una indicación más amplia que se solapa con la forma grave, por lo que ambas predicciones no constituyen evidencia independiente.
 
 ---
 

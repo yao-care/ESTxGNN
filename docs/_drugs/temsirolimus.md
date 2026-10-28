@@ -6,9 +6,9 @@ nav_order: 773
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Temsirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Carcinoma de células renales y linfoma de células del manto (según el…"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
+description: "Temsirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Temsirolimus
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Temsirolimus: De Carcinoma de Células Renales a Liposarcoma
+## Temsirolimus: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de células renales y linfoma de células del manto (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 (ver nota abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 > **Nota sobre el nivel de evidencia:** los datos compilados asignan L2 a esta indicación, pero según los criterios del informe L2 requiere un ensayo de Fase 2/3 completado en la indicación. El único ensayo directamente relevante es de Fase 1/2 en sarcomas avanzados en general, sin resultados específicos para liposarcoma. Por prudencia, se considera que la evidencia real se sitúa entre L4 y L5. Se indica L5 como valor conservador.
@@ -65,7 +65,7 @@ No se dispone actualmente de datos detallados sobre el mecanismo de acción en l
 
 La vía PI3K/AKT/mTOR se activa con frecuencia en los sarcomas de partes blandas, incluido el liposarcoma. Los liposarcomas bien diferenciados y desdiferenciados presentan amplificación de MDM2/CDK4 con señalización descendente de PI3K/AKT, lo que ofrece una justificación plausible para inhibir mTOR.
 
-Aunque el carcinoma renal y el liposarcoma son tumores de origen muy distinto, comparten la dependencia de esta vía de señalización. El puntaje TxGNN es muy alto (0.995), pero una predicción del modelo no constituye evidencia clínica por sí sola.
+Aunque el carcinoma renal y el liposarcoma son tumores de origen muy distinto, comparten la dependencia de esta vía de señalización. El puntaje TxGNN es muy alto (0.9954), pero una predicción del modelo no constituye evidencia clínica por sí sola.
 
 ---
 

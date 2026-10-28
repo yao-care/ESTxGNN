@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 864
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Linfoma de células del manto (según el grafo de conocimiento"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
+description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Zanubrutinib: De Linfoma de Células del Manto a Leucemia Mieloide
+## Zanubrutinib: Leucemia mieloide (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Linfoma de células del manto (según el grafo de conocimiento; el texto de indicación de las autorizaciones españolas no está disponible) |
-| Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.65% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
+| Puntaje de Predicción TxGNN | 0.9965 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 BTK se expresa también en células de linaje mieloide y participa en vías de señalización independientes del receptor de células B (por ejemplo, receptores tipo Toll y quimiocinas), que podrían favorecer la supervivencia de células de leucemia mieloide aguda o crónica. Por ello existe una justificación mecanística en principio.
 
-Sin embargo, es importante ser prudente: la literatura aportada se refiere a neoplasias de células B, no a leucemia mieloide. El puntaje alto de TxGNN (0.996) probablemente refleja la proximidad en el grafo con indicaciones aprobadas de leucemia y linfoma, y **no constituye evidencia clínica**.
+Sin embargo, es importante ser prudente: la literatura aportada se refiere a neoplasias de células B, no a leucemia mieloide. El puntaje alto de TxGNN (0.9965) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y **no constituye evidencia clínica**.
 
 ## Evidencia de Ensayos Clínicos
 

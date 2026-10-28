@@ -50,10 +50,10 @@ Se trata únicamente de una predicción computacional.
 |------|------|
 | Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Hemoglobinopatía |
-| Puntaje de Predicción TxGNN | 99,77% |
+| Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,9 +62,9 @@ Se trata únicamente de una predicción computacional.
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, silibinina es el principal componente activo de la silimarina, se utiliza como hepatoprotector y se le atribuyen propiedades antioxidantes y antiinflamatorias.
 
-El enlace con la hemoglobinopatía es especulativo. Una hipótesis plausible, pero no verificada, es que su actividad antioxidante y hepatoprotectora podría ser relevante en estados de sobrecarga de hierro asociados a estas enfermedades. Los datos compilados no contienen ensayos ni literatura que lo respalden, y el puntaje alto (0,998) refleja solo una predicción computacional.
+El enlace con la hemoglobinopatía es especulativo. Una hipótesis plausible, pero no verificada, es que su actividad antioxidante y hepatoprotectora podría ser relevante en estados de sobrecarga de hierro asociados a estas enfermedades. Los datos compilados no contienen ensayos ni literatura que lo respalden, y el puntaje alto (0,9977) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-Cabe señalar que otras indicaciones predichas tienen mayor respaldo. La **artritis reumatoide** (puntaje 99,73%, nivel L3) cuenta con 5 publicaciones, entre ellas un estudio piloto clínico (2016) sobre silibinina junto con metotrexato y una revisión sistemática (2024). Esta indicación se menciona como referencia, pero el informe se centra en la predicción de mayor puntaje.
+Cabe señalar que otras indicaciones predichas tienen mayor respaldo. La **artritis reumatoide** (puntaje 0,9973, nivel L3) cuenta con 5 publicaciones, entre ellas un estudio piloto clínico (2016) sobre silibinina junto con metotrexato y una revisión sistemática (2024). Esta indicación se menciona como referencia, pero el informe se centra en la predicción de mayor puntaje.
 
 ---
 

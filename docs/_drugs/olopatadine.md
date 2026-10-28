@@ -6,9 +6,9 @@ nav_order: 588
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Rinitis alérgica, rinitis vasomotora y conjuntivitis (atópica…"
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Olopatadine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Olopatadina: De Rinitis Alérgica y Conjuntivitis Alérgica a Conjuntivitis Rosácea
+## Olopatadine: Conjuntivitis rosácea (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosáce
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica, rinitis vasomotora y conjuntivitis (atópica, papilar y primaveral), según el grafo de conocimiento TxGNN (los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Conjuntivitis rosácea |
-| Puntaje de Predicción TxGNN | 99,41% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis rosácea (rosacea conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Olopatadina es un antagonista del receptor H1 de histamina y estabilizador de ma
 
 Un vínculo plausible con la conjuntivitis rosácea es su actividad antiinflamatoria y antihistamínica en la superficie ocular, ya que la actividad de los mastocitos y los mediadores inflamatorios se han relacionado con la inflamación ocular de la rosácea.
 
-Sin embargo, la rosácea ocular depende principalmente de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal y factores inmunitarios innatos y microbianos. El mecanismo antihistamínico/estabilizador de mastocitos probablemente solo aborda una parte menor de la patología. El alto puntaje de TxGNN (0,994) es una predicción computacional que probablemente refleja la proximidad en la red a otras indicaciones de conjuntivitis ya asociadas al fármaco.
+Sin embargo, la rosácea ocular depende principalmente de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal y factores inmunitarios innatos y microbianos. El mecanismo antihistamínico/estabilizador de mastocitos probablemente solo aborda una parte menor de la patología. El alto puntaje de TxGNN (0,9941) es una predicción computacional que probablemente refleja la proximidad en la red a otras indicaciones de conjuntivitis ya asociadas al fármaco.
 
 ## Evidencia de Ensayos Clínicos
 

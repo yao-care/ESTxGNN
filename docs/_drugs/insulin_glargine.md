@@ -6,9 +6,9 @@ nav_order: 420
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Insulin Glargine: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (también diabetes mellitus tipo 1 y cetoacid…"
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Insulin Glargine: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Insulin Glargine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Insulina glargina: De Diabetes mellitus tipo 2 a Ooforitis autoinmune
+## Insulin Glargine: Ooforitis autoinmune (autoimmune oophoritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (también diabetes mellitus tipo 1 y cetoacidosis diabética, según el grafo de conocimiento) |
-| Nueva Indicación Predicha | Ooforitis autoinmune |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Ooforitis autoinmune (autoimmune oophoritis) |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 16 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina glargina es un análogo de insulina de acción prolongada que reemplaza la insulina endógena y regula el metabolismo de la glucosa. Su eficacia en la diabetes está comprobada.
 
-No existe un vínculo mecanístico directo con la ooforitis autoinmune. La puntuación alta es una predicción basada únicamente en el grafo de conocimiento. Las posibles conexiones, como la señalización de la insulina en las células de la granulosa ovárica o la coexistencia de autoinmunidad endocrina poliglandular con la diabetes tipo 1, son plausibles pero especulativas.
+No existe un vínculo mecanístico directo con la ooforitis autoinmune. La puntuación alta proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Las posibles conexiones, como la señalización de la insulina en las células de la granulosa ovárica o la coexistencia de autoinmunidad endocrina poliglandular con la diabetes tipo 1, son plausibles pero especulativas.
 
 La insulina glargina es una terapia de reemplazo metabólico y no tiene acción inmunomoduladora que pueda tratar la destrucción ovárica autoinmune. Por ello, la predicción debe considerarse con cautela.
 

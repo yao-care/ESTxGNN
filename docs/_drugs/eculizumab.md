@@ -6,9 +6,9 @@ nav_order: 275
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Eculizumab: nueva indicación predicha, Hematopoyesis cíclica (nivel de evidencia L5). Indicación original: Hemoglobinuria paroxística nocturna y neuromielitis óptica (según el…"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
+description: "Eculizumab: nueva indicación predicha, Hematopoyesis cíclica (cyclic hematopoiesis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Eculizumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Eculizumab: De Hemoglobinuria Paroxística Nocturna a Hematopoyesis Cíclica
+## Eculizumab: Hematopoyesis cíclica (cyclic hematopoiesis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,19 +45,19 @@ El modelo TxGNN predice que podría ser efectivo para **hematopoyesis cíclica**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hemoglobinuria paroxística nocturna y neuromielitis óptica (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Hematopoyesis cíclica |
-| Puntaje de Predicción TxGNN | 99,97% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hematopoyesis cíclica (cyclic hematopoiesis) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, eculizumab es un inhibidor del componente C5 del complemento, que bloquea la vía terminal del complemento. Su eficacia en enfermedades mediadas por complemento, como la hemoglobinuria paroxística nocturna, está establecida.
 
-Sin embargo, la relación mecanística con la nueva indicación **no está respaldada** por los datos. La hematopoyesis cíclica (neutropenia cíclica) se asocia típicamente a mutaciones en *ELANE* que alteran la regulación de los precursores de neutrófilos, y no a una patología mediada por el complemento. El puntaje elevado de TxGNN (99,97%) es una predicción basada únicamente en el grafo de conocimiento y debe interpretarse con cautela.
+Sin embargo, la relación mecanística con la nueva indicación **no está respaldada** por los datos. La hematopoyesis cíclica (neutropenia cíclica) se asocia típicamente a mutaciones en *ELANE* que alteran la regulación de los precursores de neutrófilos, y no a una patología mediada por el complemento. El puntaje elevado de TxGNN (0,9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; debe interpretarse con cautela.
 
 Otras predicciones del modelo con puntajes similares (neutropenias congénitas graves por deficiencia de JAGN1, CXCR2 o CSF3R, neutropenia idiopática del adulto, entre otras) tampoco cuentan con evidencia clínica ni mecanismo plausible de inhibición de C5.
 

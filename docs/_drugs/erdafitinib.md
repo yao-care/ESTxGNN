@@ -48,17 +48,17 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99,38% |
+| Puntaje de Predicción TxGNN | 0,9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Erdafitinib es un inhibidor de tirosina quinasa pan-FGFR (FGFR1-4). Los datos compilados no incluyen una descripción detallada de su mecanismo de acción, pero esta clase de fármacos bloquea la señalización de los factores de crecimiento de fibroblastos, implicada en la proliferación celular.
 
-La señalización FGF/FGFR se ha relacionado con la remodelación vascular pulmonar y con la proliferación de células musculares lisas y endoteliales, lo que ofrece una justificación plausible pero no validada para la hipertensión pulmonar. El puntaje elevado de TxGNN (0,994) es solo una predicción computacional.
+La señalización FGF/FGFR se ha relacionado con la remodelación vascular pulmonar y con la proliferación de células musculares lisas y endoteliales, lo que ofrece una justificación plausible pero no validada para la hipertensión pulmonar. El puntaje elevado de TxGNN (0,9938) es solo una predicción computacional.
 
 Además, antes de considerar cualquier uso en esta indicación habría que evaluar el riesgo cardiopulmonar y otras preocupaciones de seguridad conocidas de la clase, como hiperfosfatemia y toxicidad ocular. La relación con la indicación original queda pendiente de análisis.
 

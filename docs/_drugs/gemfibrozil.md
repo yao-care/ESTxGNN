@@ -4,17 +4,17 @@ title: Gemfibrozil
 parent: Evidencia moderada (L3-L4)
 nav_order: 373
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Hipertrigliceridemia (según el grafo de conocimiento"
 monitor_inn: "gemfibrozil"
-predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "obsolete familial combined hyperlipidemia", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
+predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
+description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Gemfibrozil
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Gemfibrozilo: De Hipertrigliceridemia a Artritis Reumatoide
+## Gemfibrozil: Artritis reumatoide (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, a
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertrigliceridemia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis reumatoide (rheumatoid arthritis) |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -117,7 +117,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para artritis reumatoide es alta (99.90%), pero la evidencia se limita a modelos animales y estudios mecanísticos, sin ensayos en humanos. Además, el perfil de interacciones y las contraindicaciones hepáticas, biliares y hematológicas exigen cautela en pacientes con artritis reumatoide, que suelen recibir múltiples fármacos.
+La predicción de TxGNN para artritis reumatoide es alta (0.9990), pero la evidencia se limita a modelos animales y estudios mecanísticos, sin ensayos en humanos. Además, el perfil de interacciones y las contraindicaciones hepáticas, biliares y hematológicas exigen cautela en pacientes con artritis reumatoide, que suelen recibir múltiples fármacos.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y del eje PPAR-alfa en la inflamación sinovial.

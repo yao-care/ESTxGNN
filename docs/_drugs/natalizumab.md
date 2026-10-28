@@ -6,9 +6,9 @@ nav_order: 554
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Natalizumab: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Enfermedad de Crohn, enfermedad inflamatoria intestinal…"
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Natalizumab
@@ -33,31 +33,31 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Natalizumab: De Enfermedad de Crohn y Esclerosis Múltiple a Bronquitis
+## Natalizumab: Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Natalizumab es un anticuerpo monoclonal utilizado originalmente para el tratamiento de la enfermedad de Crohn, la enfermedad inflamatoria intestinal y la esclerosis múltiple.
-El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción basada en grafos de conocimiento.
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **bronquitis**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo, que puede reflejar similitudes que este aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Crohn, enfermedad inflamatoria intestinal, esclerosis múltiple (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99,46% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Puntaje de Predicción TxGNN | 0.9946 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, natalizumab bloquea la integrina alfa-4 (VLA-4) y limita el tránsito de leucocitos hacia los tejidos, lo que explica su uso en enfermedades inflamatorias mediadas por el sistema inmune como la esclerosis múltiple y la enfermedad de Crohn.
 
-Mecanísticamente, esta limitación del reclutamiento leucocitario podría atenuar la inflamación de las vías respiratorias impulsada por leucocitos. Sin embargo, no existe evidencia clínica ni bibliográfica que lo apoye, y la alta puntuación de TxGNN (0,995) es únicamente una predicción basada en grafos.
+Mecanísticamente, esta limitación del reclutamiento leucocitario podría atenuar la inflamación de las vías respiratorias impulsada por leucocitos. Sin embargo, no existe evidencia clínica ni bibliográfica que lo apoye, y la alta puntuación de TxGNN (0,9946) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Además, la bronquitis crónica está dirigida principalmente por neutrófilos y con frecuencia es de origen infeccioso. Natalizumab conlleva riesgo de infecciones (por ejemplo, leucoencefalopatía multifocal progresiva, LMP), por lo que el balance riesgo-beneficio resulta desfavorable.
 

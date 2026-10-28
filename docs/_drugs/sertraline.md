@@ -6,9 +6,9 @@ nav_order: 733
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Sertraline: nueva indicación predicha, Agorafobia (nivel de evidencia L5). Indicación original: Trastorno de ansiedad (según las indicaciones del grafo de conocimien…"
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: nueva indicación predicha, Schizoid personality disorder (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sertraline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Sertralina: De Trastorno de Ansiedad a Agorafobia
+## Sertraline: Schizoid personality disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **agorafobia**, con **2 en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Agorafobia |
-| Puntaje de Predicción TxGNN | 99.54% |
-| Nivel de Evidencia | L1 (con salvedades, ver más abajo) |
-| Estado de Mercado en España | ✓ Comercializado |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Schizoid personality disorder |
+| Puntaje de Predicción TxGNN | 0.9993 |
+| Nivel de Evidencia | L5 (con salvedades, ver más abajo) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -119,7 +119,7 @@ Existen múltiples ECA y metaanálisis que respaldan a los ISRS, incluida sertra
 
 ---
 
-**Otras predicciones del modelo (para referencia):** los trastornos de personalidad esquizoide, paranoide, esquizotípico, histriónico, dependiente y narcisista, así como la tortícolis paroxística benigna de la infancia, obtuvieron puntajes TxGNN elevados (99.1%–99.9%), pero con evidencia nula o solo indirecta (niveles L4–L5). Se recomienda **Hold** para todas ellas.
+Se recomienda **Hold** para todas ellas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

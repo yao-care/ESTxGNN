@@ -4,17 +4,17 @@ title: Verapamil
 parent: Solo predicción del modelo (L5)
 nav_order: 843
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Verapamil: nueva indicación predicha, Bloqueo de rama (término obsoleto en la ontología) (nivel de evidencia L5). Indicación original: Hipertensión arterial (según las indicaciones del grafo de conoc…"
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil: nueva indicación predicha, Bloqueo de rama (obsolete bundle branch block) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Verapamilo: De Hipertensión Arterial a Bloqueo de Rama (Entrada Obsoleta)
+## Verapamil: Bloqueo de rama (obsolete bundle branch block)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ Se trata de una predicción puramente computacional, por lo que la recomendació
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según las indicaciones del grafo de conocimiento; los textos de las autorizaciones españolas no incluyen indicación) |
-| Nueva Indicación Predicha | Bloqueo de rama (término obsoleto en la ontología) |
-| Puntaje de Predicción TxGNN | 99,62% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bloqueo de rama (obsolete bundle branch block) |
+| Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, la relación mecanística con el bloqueo de rama es débil. Enlentecer la conducción por el nodo AV no supone un beneficio evidente en trastornos de conducción intraventricular, y el fármaco podría incluso empeorarlos. Además, el grafo de conocimiento lista el bloqueo auriculoventricular y la insuficiencia cardíaca como contraindicaciones, lo que refuerza la cautela.
 
-La etiqueta de la enfermedad es obsoleta, lo que reduce la fiabilidad de la entrada. El puntaje alto (0,996) refleja una predicción basada en el grafo, no una validación clínica.
+La etiqueta de la enfermedad es obsoleta, lo que reduce la fiabilidad de la entrada. El puntaje alto (0,9962) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni validación clínica.
 
 ## Evidencia de Ensayos Clínicos
 

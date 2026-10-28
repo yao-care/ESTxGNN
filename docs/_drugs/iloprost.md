@@ -4,7 +4,7 @@ title: Iloprost
 parent: Solo predicción del modelo (L5)
 nav_order: 405
 evidence_level: L5
-indication_count: 9
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Iloprost: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Hipertensión arterial pulmonar"
 monitor_inn: "ILOPROST"
@@ -14,7 +14,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 # Iloprost
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Hipertensión arterial pulmonar |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99,45% |
+| Puntaje de Predicción TxGNN | 0,9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original y la nueva es débil. La hipotricosis simple es un trastorno genético del folículo piloso (por ejemplo, variantes en *CDSN* o *APCDD1*) y no tiene una vía de prostaciclina establecida. Solo existe una conexión especulativa: otros análogos de prostaglandinas, como bimatoprost, influyen en el crecimiento del cabello.
 
-En conclusión, el puntaje alto de TxGNN (99,45%) no está respaldado por ningún vínculo mecanístico demostrado ni por datos clínicos. Debe interpretarse como una hipótesis que requiere validación, no como una indicación plausible.
+En conclusión, el puntaje alto de TxGNN (0,9945) no está respaldado por ningún vínculo mecanístico demostrado ni por datos clínicos. Debe interpretarse como una hipótesis que requiere validación, no como una indicación plausible.
 
 ## Evidencia de Ensayos Clínicos
 

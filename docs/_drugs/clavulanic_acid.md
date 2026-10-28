@@ -48,9 +48,9 @@ La propia evaluación mecanística indica que esta predicción probablemente sea
 |------|------|
 | Indicación Original | Infección del tracto urinario (según la base de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Uretritis por Ureaplasma |
-| Puntaje de Predicción TxGNN | 99,93% |
+| Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

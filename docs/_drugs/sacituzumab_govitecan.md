@@ -50,10 +50,10 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización de la AEMPS está vacío); se utiliza en oncología |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99,78 % |
+| Puntaje de Predicción TxGNN | 0,9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en los datos compilados. Según la información conocida, sacituzumab govitecan es un conjugado anticuerpo-fármaco dirigido a Trop-2 que libera SN-38, un inhibidor de la topoisomerasa I con acción citotóxica, y se emplea en oncología.
 
-**No se ha establecido un vínculo mecanístico** con la osteoporosis inducida por fármacos. El puntaje de 99,78 % proviene únicamente de un grafo de conocimiento y no está respaldado por evidencia clínica ni bibliográfica. No existe una vía del metabolismo óseo que conecte este fármaco con la osteoporosis, y la quimioterapia citotóxica se asocia en general con pérdida ósea, no con protección.
+**No se ha establecido un vínculo mecanístico** con la osteoporosis inducida por fármacos. El puntaje de 0,9978 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y no está respaldado por evidencia clínica ni bibliográfica. No existe una vía del metabolismo óseo que conecte este fármaco con la osteoporosis, y la quimioterapia citotóxica se asocia en general con pérdida ósea, no con protección.
 
 Por ello, esta predicción debe considerarse una hipótesis sin respaldo mecanístico, y no una candidatura de reposicionamiento sólida.
 
@@ -72,9 +72,9 @@ Las demás indicaciones predichas tampoco cuentan con ensayos ni literatura, y s
 
 | Posición | Indicación predicha | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Retinopatía diabética no proliferativa grave | 99,69 % | Sin vínculo mecanístico; la toxicidad sistémica (neutropenia, diarrea) desaconseja su uso en una enfermedad crónica no maligna |
-| 3 | Retinopatía diabética | 99,60 % | Trop-2 y la citotoxicidad de SN-38 no son relevantes para su fisiopatología; balance riesgo-beneficio desfavorable |
-| 4 | Catarata diabética | 99,12 % | El fármaco no actúa sobre la vía de los polioles, el estrés oxidativo ni la glicación del cristalino |
+| 2 | Retinopatía diabética no proliferativa grave | 0,9969 | Sin vínculo mecanístico; la toxicidad sistémica (neutropenia, diarrea) desaconseja su uso en una enfermedad crónica no maligna |
+| 3 | Retinopatía diabética | 0,9960 | Trop-2 y la citotoxicidad de SN-38 no son relevantes para su fisiopatología; balance riesgo-beneficio desfavorable |
+| 4 | Catarata diabética | 0,9912 | El fármaco no actúa sobre la vía de los polioles, el estrés oxidativo ni la glicación del cristalino |
 
 ---
 

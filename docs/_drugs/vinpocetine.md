@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vinpocetine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 853
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Vinpocetine: nueva indicación predicha, Enfermedad de las arterias coronarias (nivel de evidencia L4). Indicación original: Demencia (según el grafo de conocimiento"
 monitor_inn: "Vinpocetine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome"]
+description: "Vinpocetine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Vinpocetine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Vinpocetina: De Demencia a Enfermedad de las Arterias Coronarias
+## Vinpocetine: Enfermedad de las arterias coronarias (coronary artery disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente no hay **ningún ensayo clínico** registrado y solo se dispone
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Demencia (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Enfermedad de las arterias coronarias |
-| Puntaje de Predicción TxGNN | 99,90% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Español | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad de las arterias coronarias (coronary artery disease) |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Español | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 > Nota: en la fila de mercado, léase "Estado de Mercado en España".
@@ -101,7 +101,7 @@ La predicción tiene un puntaje muy alto, pero no existen ensayos clínicos ni e
 - Evidencia preclínica directa en modelos de enfermedad coronaria y, posteriormente, estudios clínicos exploratorios.
 - Evaluar la seguridad en pacientes con enfermedad cardíaca y posibles interacciones con fármacos cardiovasculares.
 
-**Otras indicaciones predichas (contexto):** el puntaje de la isquemia miocárdica (99,90%) cuenta con dos estudios preclínicos directos (modelos de rata y ratón) y podría ser una línea de investigación más sólida (L4, "pregunta de investigación"). Las demás predicciones (anomalía de la arteria coronaria izquierda, lisencefalia, alexia, malformación respiratoria y síndrome de Rienhoff) carecen de evidencia y de plausibilidad mecanística (L5, Hold).
+**Otras indicaciones predichas (contexto):** el puntaje de la isquemia miocárdica (0,9990) cuenta con dos estudios preclínicos directos (modelos de rata y ratón) y podría ser una línea de investigación más sólida (L4, "pregunta de investigación"). Las demás predicciones (anomalía de la arteria coronaria izquierda, lisencefalia, alexia, malformación respiratoria y síndrome de Rienhoff) carecen de evidencia y de plausibilidad mecanística (L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

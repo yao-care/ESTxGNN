@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 |------|------|
 | Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con el NSIAD es solo indirecta. La señalización de sustancia P/NK1 en el sistema nervioso central podría influir en el equilibrio hídrico relacionado con la vasopresina. Sin embargo, el NSIAD se debe a mutaciones activadoras del receptor V2 de vasopresina (AVPR2), una vía que el antagonismo NK1 no actúa directamente.
 
-Por ello, el puntaje tan alto del modelo (99.97%) debe interpretarse con cautela: no hay ensayos, literatura ni relación mecanística directa que lo respalden.
+Por ello, el puntaje tan alto del modelo (0.9997) debe interpretarse con cautela: no hay ensayos, literatura ni relación mecanística directa que lo respalden.
 
 ## Evidencia de Ensayos Clínicos
 

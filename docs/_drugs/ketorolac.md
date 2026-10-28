@@ -48,10 +48,10 @@ con **17 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 |------|------|
 | Indicación Original | Conjuntivitis atópica, papilar y vernal (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -136,8 +136,8 @@ Existen varios ensayos de Fase 3/4 completados, revisiones sistemáticas, metaan
 
 ### Otras indicaciones predichas (para referencia)
 
-- **Conjuntivitis rosácea** (puntaje 99.40%): sin ensayos ni literatura. Nivel L5, decisión **Hold**.
-- **Cefalalgia trigémino-autonómica** (puntaje 99.39%): único ensayo retirado sin participantes y literatura marginal. Nivel L4, decisión **Hold**.
+- **Conjuntivitis rosácea** (puntaje 0.9940): sin ensayos ni literatura. Nivel L5, decisión **Hold**.
+- **Cefalalgia trigémino-autonómica** (puntaje 0.9939): único ensayo retirado sin participantes y literatura marginal. Nivel L4, decisión **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

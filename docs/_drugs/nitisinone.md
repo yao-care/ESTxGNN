@@ -50,10 +50,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Tirosinemia |
 | Nueva Indicación Predicha | Acidosis tubular renal |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---

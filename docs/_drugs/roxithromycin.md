@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **lepra**, con **5 publica
 |------|------|
 | Indicación Original | No disponible en las autorizaciones de AEMPS; según la farmacología, infecciones respiratorias, urinarias y de tejidos blandos |
 | Nueva Indicación Predicha | Lepra |
-| Puntaje de Predicción TxGNN | 99.70% |
-| Nivel de Evidencia | L3 (con salvedades: la evidencia es mayoritariamente preclínica, en el límite L3/L4) |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Puntaje de Predicción TxGNN | 0.9970 |
+| Nivel de Evidencia | L5 (con salvedades: la evidencia es mayoritariamente preclínica, en el límite L3/L4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

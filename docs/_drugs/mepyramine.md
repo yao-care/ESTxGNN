@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepyramine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 505
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Mepyramine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común…"
 monitor_inn: "mepyramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Mepyramine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Mepyramine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Mepiramina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+## Mepyramine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La mepiramina es un antihistamínico de primera generación, utilizado originalmente para cuadros alérgicos y de vías respiratorias altas como la rinitis alérgica, la urticaria y el angioedema.
-El modelo TxGNN predice que podría ser efectiva para **urticaria alérgica**,
+El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**,
 pero actualmente **no hay ensayos clínicos** y solo **4 publicaciones** indirectas (preclínicas y una veterinaria) respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, urticaria, angioedema, entre otras (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99,92% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Nasal cavity disease |
+| Puntaje de Predicción TxGNN | 0.9974 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mepiramina es un antagonista clásico del receptor H1 de histamina de primera generación. Su eficacia en cuadros alérgicos mediados por histamina es conocida, y mecanísticamente es aplicable a la urticaria alérgica.
 
-La urticaria alérgica es un proceso mediado por histamina, liberada por la degranulación de los mastocitos y que actúa sobre el receptor H1. Por ello, el ajuste mecanístico es sólido. Sin embargo, la urticaria y el angioedema ya figuran entre las indicaciones originales del fármaco, de modo que esto es esencialmente un uso dentro de indicación (o muy cercano a ella) y no un reposicionamiento genuino. El puntaje tan alto del modelo (0,999) probablemente refleja esa superposición.
 
 Las demás predicciones del modelo siguen un patrón similar: enfermedad de la cavidad nasal (99,74%), laringofaringitis aguda (99,72%) y urticaria por frío (99,70%). Todas se solapan con indicaciones ya existentes y cuentan con evidencia aún más limitada.
 

@@ -4,17 +4,17 @@ title: Indinavir
 parent: Evidencia moderada (L3-L4)
 nav_order: 414
 evidence_level: L4
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Indinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Infección por VIH / sida (según el grafo de conocimiento"
 monitor_inn: "INDINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate"]
+description: "Indinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: No consta en los dat…"
 ---
 
 # Indinavir
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Indinavir: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia Simia
+## Indinavir: Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **infección por el virus 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH / sida (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
-| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

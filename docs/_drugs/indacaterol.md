@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 |------|------|
 | Indicación Original | No consta en los textos de autorización de AEMPS (uso conocido: broncodilatador para EPOC) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Indacaterol actúa como agonista del receptor beta-2 adrenérgico. Relaja el músculo liso bronquial a través de la señalización mediada por AMPc. Esto encaja con la fisiopatología de la obstrucción de las vías aéreas, pero no con la de la nueva indicación predicha.
 
-El síndrome nefrogénico de antidiuresis inapropiada se debe a mutaciones activadoras del receptor V2 de la vasopresina (AVPR2). No se conoce ninguna relación entre esa vía y el agonismo beta-2 de indacaterol. El puntaje alto (99.54%) probablemente refleja la proximidad en la red del grafo de conocimiento y no una base biológica identificable.
+El síndrome nefrogénico de antidiuresis inapropiada se debe a mutaciones activadoras del receptor V2 de la vasopresina (AVPR2). No se conoce ninguna relación entre esa vía y el agonismo beta-2 de indacaterol. El puntaje alto (0.9954) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por tanto, esta predicción **no resulta mecanísticamente plausible** con los datos actuales. Los datos compilados tampoco incluyen una descripción detallada del mecanismo de acción del fármaco, y la similitud con la indicación original queda pendiente de análisis.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Metoclopramide
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 517
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Metoclopramide: nueva indicación predicha, Úlcera gástrica (nivel de evidencia L4). Indicación original: Enfermedad por reflujo gastroesofágico…"
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Metoclopramida: De Enfermedad por Reflujo Gastroesofágico a Úlcera Gástrica
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **Úlcera gástrica**, per
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad por reflujo gastroesofágico, esofagitis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Úlcera gástrica |
-| Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Gastroduodenitis |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---

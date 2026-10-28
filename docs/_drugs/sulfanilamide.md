@@ -6,9 +6,9 @@ nav_order: 752
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Sulfanilamide: nueva indicación predicha, Vaginitis atrófica posmenopáusica (nivel de evidencia L5). Indicación original: Candidiasis vulvovaginal, vulvovaginitis…"
 monitor_inn: "Sulfanilamide"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis"]
+description: "Sulfanilamide: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sulfanilamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Sulfanilamida: De Candidiasis Vulvovaginal a Vaginitis Atrófica Posmenopáusica
+## Sulfanilamide: Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **vaginitis atrófica posm
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Candidiasis vulvovaginal, vulvovaginitis, vaginitis y vaginosis bacteriana (según el grafo de conocimiento; el texto de indicación de la autorización en AEMPS está vacío) |
-| Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,15 +59,15 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La vaginitis atrófica se debe principalmente a la deficiencia de estrógenos y al adelgazamiento del epitelio, no a una infección primaria. Por ello, un mecanismo antibacteriano no tiene un vínculo terapéutico claro con esta enfermedad.
 
-El puntaje tan alto del modelo (99.93%) probablemente refleja la cercanía en el grafo de conocimiento con las indicaciones de vaginitis ya aprobadas, y no una señal basada en el mecanismo. La predicción debe interpretarse con cautela.
+El puntaje tan alto del modelo TxGNN (aprendizaje profundo) (0.9993) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no evidencia biológica. La predicción debe interpretarse con cautela.
 
 ### Otras predicciones del modelo (para contexto)
 
 | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Valoración |
 |------|------|------|------|
-| Úlcera de la vulva | 99.88% | L5 | Causas diversas (infecciosas, autoinmunes, Behçet); solo podría ayudar ante un componente bacteriano secundario. Sin evidencia. |
-| Neoplasia vulvar | 99.86% | L5 | No se conoce un mecanismo antineoplásico plausible; la inhibición del folato es específica de bacterias. Sin evidencia. |
-| Vulvovaginitis por tricomonas | 99.23% | L4 | Vínculo indirecto; el tratamiento de primera línea son los nitroimidazoles, mucho más eficaces. |
+| Úlcera de la vulva | 0.9988 | L5 | Causas diversas (infecciosas, autoinmunes, Behçet); solo podría ayudar ante un componente bacteriano secundario. Sin evidencia. |
+| Neoplasia vulvar | 0.9986 | L5 | No se conoce un mecanismo antineoplásico plausible; la inhibición del folato es específica de bacterias. Sin evidencia. |
+| Vulvovaginitis por tricomonas | 0.9923 | L5 | Vínculo indirecto; el tratamiento de primera línea son los nitroimidazoles, mucho más eficaces. |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ Para la información de seguridad completa (advertencias, contraindicaciones ofi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para vaginitis atrófica posmenopáusica se basa únicamente en el modelo (L5), sin ensayos ni literatura, y carece de un vínculo mecanístico plausible: es una afección de origen hormonal y no infeccioso. El puntaje alto parece reflejar proximidad en el grafo con las indicaciones de vaginitis ya conocidas.
+La predicción para vaginitis atrófica posmenopáusica proviene únicamente del modelo TxGNN (aprendizaje profundo) (L5), sin ensayos ni literatura, y carece de un vínculo mecanístico plausible: es una afección de origen hormonal y no infeccioso. El puntaje alto puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank

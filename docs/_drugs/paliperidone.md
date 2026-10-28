@@ -4,17 +4,17 @@ title: Paliperidone
 parent: Solo predicción del modelo (L5)
 nav_order: 604
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Paliperidone: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Esquizofrenia y trastornos psicóticos (según las indicacio…"
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: …"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Paliperidona: De Esquizofrenia a Distrofia Retiniana (con o sin Anomalías Extraoculares)
+## Paliperidone: Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Esquizofrenia y trastornos psicóticos (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, paliperidona (metabolito activo de la risperidona) actúa como antagonista de los receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A, y su eficacia en esquizofrenia y trastorno esquizoafectivo está establecida.
 
-Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre este perfil farmacológico y la fisiopatología de las distrofias retinianas hereditarias, que son enfermedades de origen genético. El puntaje del modelo es muy alto (0.999), pero refleja una predicción derivada del grafo de conocimiento, sin respaldo clínico ni bibliográfico. Las otras predicciones de mayor puntaje (miopía ligada al X, hidranencefalia, enfermedad de Charcot-Marie-Tooth, entre otras) presentan la misma limitación y probablemente reflejan artefactos de la topología del grafo.
+Con la información disponible, **no se identifica un vínculo mecanístico plausible** entre este perfil farmacológico y la fisiopatología de las distrofias retinianas hereditarias, que son enfermedades de origen genético. El puntaje del modelo es muy alto (0.9992), pero proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; carece de respaldo clínico ni bibliográfico. Las otras predicciones de mayor puntaje (miopía ligada al X, hidranencefalia, enfermedad de Charcot-Marie-Tooth, entre otras) presentan la misma limitación.
 
 La similitud entre la indicación original (trastornos psiquiátricos) y la nueva (enfermedad retiniana hereditaria) no ha sido evaluada.
 

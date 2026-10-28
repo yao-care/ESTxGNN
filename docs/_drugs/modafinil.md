@@ -6,9 +6,9 @@ nav_order: 539
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Modafinil: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Narcolepsia (según las indicaciones del grafo de conocimiento"
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
+description: "Modafinil: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Modafinil
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Modafinilo: De Narcolepsia a Insomnio
+## Modafinil: Insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **Insomnio**, aunque solo 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Narcolepsia (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **Insomnio**, aunque solo 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, modafinilo es un agente promotor de la vigilia que se entiende que actúa mediante la inhibición del transportador de dopamina y efectos sobre los circuitos que favorecen la vigilia. Su eficacia en la narcolepsia y en la somnolencia excesiva está bien establecida.
 
-Sin embargo, la predicción resulta **mecanísticamente poco intuitiva**. El insomnio se caracteriza por dificultad para iniciar o mantener el sueño, mientras que modafinilo busca reducir la somnolencia diurna. El puntaje alto de TxGNN (0.998) probablemente refleja la proximidad en la red de conocimiento con trastornos del sueño y la vigilia como la narcolepsia, más que un vínculo terapéutico real.
+Sin embargo, la predicción resulta **mecanísticamente poco intuitiva**. El insomnio se caracteriza por dificultad para iniciar o mantener el sueño, mientras que modafinilo busca reducir la somnolencia diurna. El puntaje alto de TxGNN (0.9985) probablemente refleja la proximidad en la red de conocimiento con trastornos del sueño y la vigilia como la narcolepsia, más que un vínculo terapéutico real.
 
 La evidencia disponible se refiere sobre todo a alteraciones del sueño/vigilia y somnolencia diurna en contextos comórbidos (adultos mayores, enfermedad de Parkinson, trastornos neurológicos, trastorno por trabajo a turnos), y no al insomnio en sí. Un posible uso sería el de mejorar el funcionamiento diurno en personas con insomnio, algo que debe verificarse.
 

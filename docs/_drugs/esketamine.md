@@ -6,9 +6,9 @@ nav_order: 307
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Esketamine: nueva indicación predicha, Agorafobia (nivel de evidencia L5). Indicación original: Trastorno de ansiedad (según el grafo de conocimiento"
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Esketamine: nueva indicación predicha, Agorafobia (agoraphobia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Esketamine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Esketamina: De Trastorno de Ansiedad a Agorafobia
+## Esketamine: Agorafobia (agoraphobia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para **agorafobia**, pero actua
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad (según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Agorafobia |
-| Puntaje de Predicción TxGNN | 99.57% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Agorafobia (agoraphobia) |
+| Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **agorafobia**, pero actua
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, esketamina es el enantiómero S de la ketamina y su farmacología general se asocia con el antagonismo del receptor NMDA y la modulación glutamatérgica. Esto es conocimiento general y no está confirmado por los datos compilados.
 
-La agorafobia es un trastorno relacionado con la ansiedad, y las indicaciones originales de esketamina en el grafo incluyen trastorno de ansiedad y trastorno neurótico. Esta cercanía clínica explica en parte el alto puntaje del modelo. Hipotéticamente, la modulación glutamatérgica podría influir en los circuitos del miedo y la evitación.
+La agorafobia es un trastorno relacionado con la ansiedad. El puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Hipotéticamente, la modulación glutamatérgica podría influir en los circuitos del miedo y la evitación.
 
 Este vínculo es hipotético y no está verificado. No hay ensayos ni literatura que lo respalden, por lo que la predicción debe tratarse como una pregunta de investigación.
 
@@ -113,7 +113,7 @@ La predicción se basa únicamente en el puntaje del modelo (L5), sin ensayos cl
 
 ### Nota sobre la segunda predicción
 
-La segunda predicción del modelo, **tortícolis paroxística benigna de la infancia** (puntaje 99.49%, nivel L5), no se recomienda: es un trastorno pediátrico benigno y autolimitado, sin vínculo mecanístico evidente con esketamina, y el uso de un anestésico disociativo en lactantes plantea preocupaciones de seguridad. Probablemente sea un artefacto del grafo. Decisión: **Hold**.
+La segunda predicción del modelo, **tortícolis paroxística benigna de la infancia** (puntaje 0.9949, nivel L5), no se recomienda: es un trastorno pediátrico benigno y autolimitado, sin vínculo mecanístico evidente con esketamina, y el uso de un anestésico disociativo en lactantes plantea preocupaciones de seguridad. El puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Decisión: **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

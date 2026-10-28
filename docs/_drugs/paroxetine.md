@@ -6,9 +6,9 @@ nav_order: 613
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Paroxetine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: Trastorno de ansiedad, depresión mayor, trastorno obsesivo-compulsivo…"
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Paroxetine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Paroxetina: De Trastornos de Ansiedad y Depresión a Síndrome de Ohdo y Variantes
+## Paroxetine: Síndrome de Ohdo y variantes (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **Síndrome de Ohdo y vari
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad, depresión mayor, trastorno obsesivo-compulsivo, estrés postraumático y fobia social (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
-| Puntaje de Predicción TxGNN | 99.11% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de Ohdo y variantes (Ohdo syndrome and variants) |
+| Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción detal
 
 Sin embargo, no se identifica un vínculo mecanístico plausible con el síndrome de Ohdo. Este grupo de trastornos (por ejemplo, los relacionados con KAT6B, incluido el síndrome de Say-Barber-Biesecker-Young-Simpson) son enfermedades raras del neurodesarrollo causadas por variantes genéticas que afectan la regulación de la cromatina. No hay una relación evidente entre la inhibición de la recaptación de serotonina y su fisiopatología.
 
-El puntaje alto (0.991) refleja una predicción computacional del grafo de conocimiento y no evidencia clínica. Podría deberse a artefactos de proximidad en la red, por ejemplo nodos compartidos de fenotipos neuropsiquiátricos o del neurodesarrollo. Debe tratarse únicamente como una hipótesis.
+El puntaje alto (0.9911) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica. Debe tratarse únicamente como una hipótesis.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ La única base es un puntaje de predicción computacional alto, sin ensayos clí
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisión de literatura y estudios preclínicos que justifiquen un vínculo biológico entre la paroxetina y las vías afectadas en el síndrome de Ohdo (regulación de cromatina/KAT6B).
 - Evaluar la compatibilidad de vía de administración y la similitud con la indicación original.
-- Verificar si la predicción es un artefacto del grafo antes de invertir en nuevos estudios.
+- Verificar si la predicción del modelo TxGNN refleja solo similitudes aprendidas entre enfermedades relacionadas antes de invertir en nuevos estudios.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

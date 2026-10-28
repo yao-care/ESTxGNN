@@ -6,9 +6,9 @@ nav_order: 238
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dexamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Exantema, hipercalcemia humoral de la malignidad…"
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Dexamethasone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Dexametasona: De Exantema e Insuficiencia Suprarrenal a Alopecia Areata
+## Dexamethasone: Alopecia areata
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Exantema, hipercalcemia humoral de la malignidad, leucemia linfoblástica aguda, insuficiencia suprarrenal, enfermedad de Crohn, hiperplasia suprarrenal congénita (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99,99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

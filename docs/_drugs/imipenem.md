@@ -6,9 +6,9 @@ nav_order: 409
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imipenem: nueva indicación predicha, Esclerodermia difusa (nivel de evidencia L5). Indicación original: Neumonía bacteriana, peritonitis, neumonía estreptocócica…"
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
+description: "Imipenem: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Imipenem
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Imipenem: De Neumonía Bacteriana a Esclerodermia Difusa
+## Imipenem: Esclerodermia difusa (diffuse scleroderma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ Entre las demás predicciones, la que cuenta con más respaldo es la **infecció
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Neumonía bacteriana, peritonitis, neumonía estreptocócica, endocarditis, endometritis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Esclerodermia difusa |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 > **Nota:** la predicción con mayor puntaje (esclerodermia difusa) carece de respaldo. Las candidatas con más evidencia se detallan en la sección de predicciones alternativas.
@@ -64,18 +64,18 @@ Entre las demás predicciones, la que cuenta con más respaldo es la **infecció
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, imipenem es un carbapenémico bactericida que inhibe la síntesis de la pared celular bacteriana mediante la unión a proteínas de unión a penicilina (PBP), y es estable frente a muchas beta-lactamasas.
 
-**Para esclerodermia difusa, la predicción no resulta mecanísticamente razonable.** La esclerodermia difusa es una enfermedad autoinmune y fibrótica, y no existe un vínculo mecanístico aparente con un antibacteriano. El puntaje elevado es una predicción basada en el grafo, sin ensayos ni literatura de apoyo. Las complicaciones infecciosas (por ejemplo, pulmonares o intestinales) se tratarían bajo las indicaciones antibacterianas ya existentes, no como reposicionamiento para la enfermedad en sí.
+**Para esclerodermia difusa, la predicción no resulta mecanísticamente razonable.** La esclerodermia difusa es una enfermedad autoinmune y fibrótica, y no existe un vínculo mecanístico aparente con un antibacteriano. El puntaje elevado proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con ensayos ni literatura de apoyo. Las complicaciones infecciosas (por ejemplo, pulmonares o intestinales) se tratarían bajo las indicaciones antibacterianas ya existentes, no como reposicionamiento para la enfermedad en sí.
 
 **Predicciones alternativas con mayor plausibilidad biológica:**
 
 | Predicción | Puntaje TxGNN | Nivel | Valoración |
 |------|------|------|------|
-| Infección por *Staphylococcus aureus* | 99.95% | L2 | Sinergia con fosfomicina frente a SARM; imipenem en monoterapia no es adecuado para SARM |
-| Fiebre tifoidea | 99.98% | L4 | Los carbapenémicos se usan como última línea en *Salmonella* Typhi XDR |
-| Fiebre paratifoidea | 99.99% | pendiente | Solo estudios de sensibilidad antimicrobiana |
-| Salmonelosis | 99.99% | L4 | Evidencia indirecta; papel de rescate como máximo |
-| Sinusitis / rinosinusitis crónica / sinusitis etmoidal crónica | 99.98% | L4 / L4 / L5 | Actividad plausible, pero sin datos clínicos específicos de imipenem; preocupaciones de uso racional de antibióticos |
-| Neoplasia de seno paranasal; síndrome de eosinofilia-mialgia | 99.98% / 99.85% | L5 | Sin vínculo mecanístico |
+| Infección por *Staphylococcus aureus* | 0.9995 | L2 | Sinergia con fosfomicina frente a SARM; imipenem en monoterapia no es adecuado para SARM |
+| Fiebre tifoidea | 0.9998 | L4 | Los carbapenémicos se usan como última línea en *Salmonella* Typhi XDR |
+| Fiebre paratifoidea | 0.9999 | pendiente | Solo estudios de sensibilidad antimicrobiana |
+| Salmonelosis | 0.9999 | L4 | Evidencia indirecta; papel de rescate como máximo |
+| Sinusitis / rinosinusitis crónica / sinusitis etmoidal crónica | 0.9998 | L4 / L4 / L5 | Actividad plausible, pero sin datos clínicos específicos de imipenem; preocupaciones de uso racional de antibióticos |
+| Neoplasia de seno paranasal; síndrome de eosinofilia-mialgia | 0.9998 / 0.9985 | L5 | Sin vínculo mecanístico |
 
 ---
 
@@ -143,7 +143,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (esclerodermia difusa) no tiene ensayos, literatura ni vínculo mecanístico plausible; es un artefacto del grafo y corresponde a un nivel de evidencia L5. Las líneas con algo de respaldo (infección por *S. aureus* en combinación con fosfomicina, y fiebre tifoidea XDR como opción de rescate) son indirectas o de tamaño pequeño, y se consideran preguntas de investigación, no candidatas para avanzar.
+La predicción principal (esclerodermia difusa) no tiene ensayos, literatura ni vínculo mecanístico plausible; su puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y corresponde a un nivel de evidencia L5. Las líneas con algo de respaldo (infección por *S. aureus* en combinación con fosfomicina, y fiebre tifoidea XDR como opción de rescate) son indirectas o de tamaño pequeño, y se consideran preguntas de investigación, no candidatas para avanzar.
 
 **Para avanzar se necesita:**
 - Revisar el prospecto oficial de la AEMPS para completar advertencias, contraindicaciones e indicaciones aprobadas (bloqueante para el cribado de seguridad).

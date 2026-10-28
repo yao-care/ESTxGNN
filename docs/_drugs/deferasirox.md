@@ -6,9 +6,9 @@ nav_order: 229
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: Betatalasemia y hemoglobinopatías (según las indicaciones del grafo d…"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
+description: "Deferasirox: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Deferasirox
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Deferasirox: De Betatalasemia y Hemoglobinopatías a Infección por VIH
+## Deferasirox: Infección por VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Betatalasemia y hemoglobinopatías (según las indicaciones del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99,40% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
+| Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

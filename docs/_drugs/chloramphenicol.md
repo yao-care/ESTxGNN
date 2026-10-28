@@ -6,9 +6,9 @@ nav_order: 170
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Chloramphenicol: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: Fiebre tifoidea, salmonelosis, fiebre paratifoidea…"
 monitor_inn: "chloramphenicol"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+description: "Chloramphenicol: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Chloramphenicol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-## Cloranfenicol: De Fiebre Tifoidea e Infecciones Bacterianas a Conjuntivitis
+## Chloramphenicol: Conjuntivitis (conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ La evidencia consiste en **0 ensayos clínicos** y **19 publicaciones** de calid
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fiebre tifoidea, salmonelosis, fiebre paratifoidea, infección meningocócica y otras infecciones (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99,66% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Conjuntivitis (conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9966 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

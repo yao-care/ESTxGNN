@@ -4,17 +4,17 @@ title: Etofenamate
 parent: Solo predicción del modelo (L5)
 nav_order: 316
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Etofenamate: nueva indicación predicha, Espondiloartropatía, susceptibilidad a (spondyloarthropathy… (nivel de evidencia L5). Indicación original: Osteoartritis / artropatía (según el grafo de conoci…"
+indication_count: 9
 monitor_inn: "Etofenamate"
-predicted_indications: ["spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
+predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
+last_modified_at: 2026-10-23
+description: "Etofenamate: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L5). Indicación original: Relación registrada en el grafo de conocimiento: artrosis y artropatí…"
 ---
 
 # Etofenamate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,84 +33,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Etofenamato: De Osteoartritis a Espondiloartropatía (Susceptibilidad Genética)
+## Etofenamato: De Artropatía/Artrosis a Espondilitis Anquilosante
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Etofenamato es un antiinflamatorio no esteroideo (AINE) de uso tópico, éster del ácido flufenámico, utilizado originalmente en el tratamiento de la osteoartritis y otras artropatías.
-El modelo TxGNN predice que podría ser efectivo para **espondiloartropatía (susceptibilidad genética)**,
-pero **no hay ensayos clínicos ni publicaciones** que respalden directamente esta predicción: se basa únicamente en el modelo.
+Etofenamato es un antiinflamatorio no esteroideo (AINE) de uso tópico, registrado en el grafo de conocimiento con relaciones con la artrosis y la artropatía.
+El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosante**,
+pero no hay **ningún ensayo clínico** y solo **1 publicación** (un estudio farmacocinético que no evalúa eficacia en esta enfermedad), por lo que la predicción carece de respaldo clínico directo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoartritis / artropatía (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Espondiloartropatía, susceptibilidad a (spondyloarthropathy, susceptibility to) |
-| Puntaje de Predicción TxGNN | 99,9996 % |
+| Indicación Original | Relación registrada en el grafo de conocimiento: artrosis y artropatía (los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Espondilitis anquilosante |
+| Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Etofenamato es un AINE tópico (éster del ácido flufenámico) que inhibe la ciclooxigenasa y reduce la inflamación mediada por prostaglandinas. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank; esta descripción se basa en el conocimiento general de la clase.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el etofenamato es un éster del ácido flufenámico, un AINE tópico que inhibe la ciclooxigenasa y reduce la inflamación mediada por prostaglandinas.
 
-Las espondiloartropatías inflamatorias comparten con la osteoartritis síntomas de dolor e inflamación articular, y los AINE son una terapia sintomática habitual en ellas. Por ello, mecanísticamente el efecto antiinflamatorio podría aliviar síntomas.
+Los AINE son tratamiento sintomático de primera línea en la espondilitis anquilosante, por lo que la hipótesis es biológicamente verosímil. La relación con la artrosis y la artropatía registrada en el grafo de conocimiento comparte el componente de dolor e inflamación articular.
 
-Sin embargo, la predicción tiene limitaciones importantes: la entidad predicha es una **etiqueta de susceptibilidad genética** y no una condición clínica tratable, y el vínculo se apoya solo en la predicción de TxGNN.
-
-### Otras predicciones del modelo (contexto)
-
-| Enfermedad predicha | Puntaje TxGNN | Nivel | Valoración |
-|------|------|------|------|
-| Espondilitis anquilosante | 99,998 % | L4 | Pregunta de investigación: los AINE son tratamiento de primera línea, pero la vía tópica es poco adecuada para la enfermedad axial |
-| Artritis reumatoide juvenil poliarticular | 99,996 % | L5 | Pregunta de investigación: mecanismo plausible, sin evidencia; seguridad pediátrica no establecida |
-| Vasculitis reumatoide, hipermovilidad del cóccix, displasia acromesomélica tipo Hunter-Thompson, síndrome braquiolmia-amelogénesis imperfecta, pseudoacondroplasia, miosclerosis, enfermedad de Kümmell | 99,996–99,997 % | L5 | Hold: sin evidencia y, en varios casos, sin mecanismo plausible (probables artefactos del grafo de conocimiento) |
+Sin embargo, existen limitaciones importantes. La única publicación disponible muestra que el etofenamato alcanza suero y líquido sinovial tras iontoforesis, lo que indica penetración tisular, pero no eficacia en espondiloartritis axial. Además, es poco probable que la vía tópica alcance concentraciones suficientes en las articulaciones axiales.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para espondiloartropatía (susceptibilidad genética).
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Para la indicación principal no hay literatura relacionada disponible. Como evidencia indirecta de la segunda predicción (espondilitis anquilosante), se recuperó una publicación:
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | Estudio farmacocinético | Arzneimittel-Forschung | Niveles de etofenamato en suero y líquido sinovial tras iontoforesis (11 pacientes con lumbalgia y 13 con sinovitis de rodilla): demuestra penetración en el espacio articular, pero no evalúa eficacia en espondilitis anquilosante |
+| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | Estudio farmacocinético | Arzneimittel-Forschung | Tras 5 días de iontoforesis con gel de etofenamato en 11 pacientes con lumbalgia y 13 con sinovitis de rodilla, se midieron concentraciones en suero y líquido sinovial. No evalúa eficacia en espondilitis anquilosante. |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 55701 | Flogoprofen 50 mg/ml solución para pulverización cutánea | Solución para pulverización cutánea | No disponible |
-| 56338 | Actromagel 50 mg/g gel | Gel | No disponible |
-| 84578 | Flogopatch 70 mg apósito adhesivo medicamentoso | Parche cutáneo | No disponible |
-| 55380 | Flogoprofen 50 mg/g gel | Gel | No disponible |
-| 54646 | Zenavan 50 mg/g gel | Gel | No disponible |
-
-Las cinco autorizaciones están vigentes y corresponden a formulaciones de un solo principio activo, de uso tópico (gel, solución para pulverización y parche cutáneo).
+| 55701 | FLOGOPROFEN 50 mg/ml solución para pulverización cutánea | Solución para pulverización cutánea | No disponible en los datos compilados |
+| 84578 | FLOGOPATCH 70 mg apósito adhesivo medicamentoso | Parche cutáneo | No disponible en los datos compilados |
+| 55380 | FLOGOPROFEN 50 mg/g gel | Gel | No disponible en los datos compilados |
+| 54646 | ZENAVAN 50 mg/g gel | Gel | No disponible en los datos compilados |
+| 56338 | ACTROMAGEL 50 mg/g gel (cancelada) | Gel | No disponible en los datos compilados |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas ni contraindicaciones derivadas del grafo de conocimiento.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal se sustenta únicamente en el puntaje del modelo (nivel L5), sin ensayos ni literatura, y además corresponde a una etiqueta de susceptibilidad genética, no a una enfermedad tratable. La vía tópica también limita su utilidad en enfermedad axial. Entre las demás predicciones, solo la espondilitis anquilosante (L4) y la artritis idiopática juvenil poliarticular merecen consideración como preguntas de investigación.
+No hay ensayos clínicos ni estudios que evalúen el etofenamato en espondilitis anquilosante; la puntuación alta proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni respaldo clínico. Además, la vía tópica limita su utilidad en articulaciones axiales.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente pendiente y bloqueante para el cribado de seguridad
-- Completar los datos del mecanismo de acción desde DrugBank
-- Replantear la indicación objetivo hacia una condición clínica definida (p. ej., espondilitis anquilosante) y buscar estudios de eficacia
-- Evaluar la compatibilidad de la vía de administración tópica con la enfermedad objetivo
-- En el caso pediátrico, establecer seguridad y dosificación antes de cualquier consideración
+- Estudios clínicos o preclínicos que evalúen directamente la eficacia en espondilitis anquilosante
+- Datos de mecanismo de acción detallados
+- Análisis de la viabilidad de la vía tópica para estructuras axiales profundas
+- Información de seguridad (advertencias y contraindicaciones) obtenida de los prospectos de la AEMPS
+- Textos de indicación aprobada de las autorizaciones locales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

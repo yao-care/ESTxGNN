@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fusidic Acid
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 366
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: No disponible en el texto de las autorizaciones"
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
+description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fusidic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Ácido Fusídico: De Infecciones Bacterianas (Uso Tópico) a Queratitis por Exposición
+## Fusidic Acid: Queratitis por exposición (exposure keratitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **queratitis por exposici�
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el texto de las autorizaciones; el grafo de conocimiento lista infecciones (urinarias, bronquitis, acné, foliculitis, entre otras) |
-| Nueva Indicación Predicha | Queratitis por exposición |
-| Puntaje de Predicción TxGNN | 99,95 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 13 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Queratitis por exposición (exposure keratitis) |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---

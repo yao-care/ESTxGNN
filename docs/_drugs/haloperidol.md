@@ -6,9 +6,9 @@ nav_order: 390
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Haloperidol: nueva indicación predicha, Trastorno congénito de glicosilación con fucosilación defectuosa (nivel de evidencia L5). Indicación original: Trastorno psicótico (incluye esquizofrenia, tras…"
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Haloperidol: nueva indicación predicha, Congenital disorder of glycosylation with defective fucosylation (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Haloperidol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Haloperidol: De Trastorno Psicótico a Trastorno Congénito de Glicosilación con Fucosilación Defectuosa
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno congénito 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno psicótico (incluye esquizofrenia, trastorno esquizoafectivo, trastorno esquizofreniforme y síndrome de Tourette) |
-| Nueva Indicación Predicha | Trastorno congénito de glicosilación con fucosilación defectuosa |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Congenital disorder of glycosylation with defective fucosylation |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La nueva indicación es muy distinta de la original. Los trastornos congénitos de glicosilación con fucosilación defectuosa son enfermedades metabólicas hereditarias raras. Se asocian al transporte de GDP-fucosa (por ejemplo, el gen SLC35C1) y a la modificación de proteínas con azúcares. No se identificó ninguna relación mecanística plausible entre el bloqueo de receptores D2 y estas vías.
 
-El puntaje del modelo es muy alto (99.91%), pero es un resultado computacional sin respaldo experimental ni clínico. Por ello, la predicción debe considerarse una hipótesis sin fundamento mecanístico evidente, no una pista terapéutica.
+El puntaje del modelo es muy alto (0.9991), pero es un resultado computacional sin respaldo experimental ni clínico. Por ello, la predicción debe considerarse una hipótesis sin fundamento mecanístico evidente, no una pista terapéutica.
 
 ---
 

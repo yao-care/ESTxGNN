@@ -48,9 +48,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Trastorno afectivo bipolar maníaco, trastorno bipolar y esquizofrenia |
 | Nueva Indicación Predicha | Tricotilomanía |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 19) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Una posible conexión con la tricotilomanía sería el antagonismo dopaminérgico D2 y serotoninérgico 5-HT2A, mecanismos relevantes en trastornos de conductas repetitivas. Sin embargo, esta hipótesis es **especulativa** y no está respaldada por los datos compilados: no se recuperó ningún ensayo ni publicación que la sustente.
 
-La relación con la indicación original es débil. La esquizofrenia y el trastorno bipolar son trastornos psicóticos y afectivos, mientras que la tricotilomanía se clasifica como un trastorno de conductas repetitivas centradas en el cuerpo. El puntaje alto del modelo debe interpretarse con cautela, ya que puede reflejar patrones del grafo de conocimiento y no evidencia biológica o clínica.
+La relación con la indicación original es débil. La esquizofrenia y el trastorno bipolar son trastornos psicóticos y afectivos, mientras que la tricotilomanía se clasifica como un trastorno de conductas repetitivas centradas en el cuerpo. El puntaje alto proviene del modelo TxGNN (deep learning) y debe interpretarse con cautela, ya que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica o clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ Para advertencias principales y contraindicaciones oficiales, consultar el prosp
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para tricotilomanía se basa solo en el puntaje del modelo (99.83%), sin ensayos clínicos ni literatura (nivel L5), y el vínculo mecanístico es especulativo. El perfil de seguridad, en especial el riesgo cardíaco (QT), exige una justificación clínica sólida antes de avanzar.
+La predicción para tricotilomanía se basa solo en el puntaje del modelo (0.9983), sin ensayos clínicos ni literatura (nivel L5), y el vínculo mecanístico es especulativo. El perfil de seguridad, en especial el riesgo cardíaco (QT), exige una justificación clínica sólida antes de avanzar.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de literatura específica sobre ziprasidona (o antipsicóticos atípicos) en tricotilomanía y trastornos de conductas repetitivas.

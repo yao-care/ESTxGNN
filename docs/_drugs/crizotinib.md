@@ -4,7 +4,7 @@ title: Crizotinib
 parent: Solo predicción del modelo (L5)
 nav_order: 208
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Crizotinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Carcinoma de pulmón no microcítico / cáncer de pulmón (según la base…"
 monitor_inn: "CRIZOTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Crizotinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 |------|------|
 | Indicación Original | Carcinoma de pulmón no microcítico / cáncer de pulmón (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida de la literatura, crizotinib es un inhibidor competitivo de ATP de las tirosina quinasas receptoras ALK, ROS1 y c-MET. Su eficacia en CPNM con reordenamientos de ALK o ROS1 está bien establecida.
 
-Para la fibromatosis gingival, sin embargo, **no se ha identificado un vínculo mecanístico plausible** entre la inhibición de ALK/ROS1/MET y esta enfermedad en los datos disponibles. La puntuación alta del modelo (99.81%) no está acompañada de ensayos, literatura ni una hipótesis biológica respaldada, por lo que debe interpretarse con mucha cautela. Es una señal computacional que requeriría validación preclínica antes de cualquier consideración clínica.
+Para la fibromatosis gingival, sin embargo, **no se ha identificado un vínculo mecanístico plausible** entre la inhibición de ALK/ROS1/MET y esta enfermedad en los datos disponibles. La puntuación alta del modelo (0.9981) no está acompañada de ensayos, literatura ni una hipótesis biológica respaldada, por lo que debe interpretarse con mucha cautela. Es una señal computacional que requeriría validación preclínica antes de cualquier consideración clínica.
 
 ## Evidencia de Ensayos Clínicos
 

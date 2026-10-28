@@ -6,9 +6,9 @@ nav_order: 144
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Carbenoxolone: nueva indicación predicha, Malformación esofágica no sindrómica (nivel de evidencia L5). Indicación original: Enfermedad ulcerosa péptica…"
 monitor_inn: "carbenoxolone"
 predicted_indications: ["non-syndromic esophageal malformation", "vitamin deficiency disorder", "biotin metabolic disease", "filariasis", "bile duct disease", "bile duct neoplasm", "tinea nigra"]
+description: "Carbenoxolone: nueva indicación predicha, Malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Carbenoxolone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Carbenoxolona: De Úlcera Péptica a Malformación Esofágica No Sindrómica
+## Carbenoxolone: Malformación esofágica no sindrómica (non-syndromic esophageal malformation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,19 +46,19 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad ulcerosa péptica, úlcera esofágica y enfermedad esofágica (según el grafo de conocimiento; el texto de indicación autorizado en AEMPS no está disponible) |
-| Nueva Indicación Predicha | Malformación esofágica no sindrómica |
-| Puntaje de Predicción TxGNN | 99,999% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Malformación esofágica no sindrómica (non-syndromic esophageal malformation) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en los datos compilados para este informe. Según la información conocida, la carbenoxolona es un derivado del ácido glicirretínico con acción mucoprotectora antiulcerosa, y se le describe también como inhibidor de uniones comunicantes (gap junctions) y de la 11-beta-hidroxiesteroide deshidrogenasa.
 
-El puntaje muy alto del modelo probablemente se deba a la proximidad en el grafo de conocimiento con las indicaciones esofágicas ya aprobadas (úlcera esofágica y enfermedad esofágica). Sin embargo, una malformación esofágica no sindrómica es un defecto estructural congénito, y ninguna de las acciones conocidas de la carbenoxolona permite plausiblemente corregirlo.
+El puntaje muy alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como las indicaciones esofágicas ya aprobadas (úlcera esofágica y enfermedad esofágica), no evidencia biológica. Sin embargo, una malformación esofágica no sindrómica es un defecto estructural congénito, y ninguna de las acciones conocidas de la carbenoxolona permite plausiblemente corregirlo.
 
 Por tanto, no es posible construir un fundamento mecanístico sólido. La predicción debe considerarse una hipótesis generada por el modelo, sin respaldo biológico o clínico demostrado.
 
@@ -83,12 +83,12 @@ Todas con nivel de evidencia L5, sin ensayos ni literatura, y recomendación Hol
 
 | Posición | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Trastorno por deficiencia de vitaminas | 99,97% | Sin vínculo mecanístico evidente |
-| 3 | Enfermedad metabólica de la biotina | 99,97% | Sin intersección con vías conocidas del fármaco |
-| 4 | Filariasis | 99,94% | Sin actividad antifilárica documentada |
-| 5 | Enfermedad de las vías biliares | 99,54% | Vínculo indirecto por cercanía gastrointestinal; preocupaciones de seguridad |
-| 6 | Neoplasia de las vías biliares | 99,48% | Fundamento preclínico muy especulativo |
-| 7 | Tiña negra | 99,22% | Sin mecanismo antifúngico establecido |
+| 2 | Trastorno por deficiencia de vitaminas | 0,9997 | Sin vínculo mecanístico evidente |
+| 3 | Enfermedad metabólica de la biotina | 0,9997 | Sin intersección con vías conocidas del fármaco |
+| 4 | Filariasis | 0,9994 | Sin actividad antifilárica documentada |
+| 5 | Enfermedad de las vías biliares | 0,9954 | Vínculo indirecto por cercanía gastrointestinal; preocupaciones de seguridad |
+| 6 | Neoplasia de las vías biliares | 0,9948 | Fundamento preclínico muy especulativo |
+| 7 | Tiña negra | 0,9922 | Sin mecanismo antifúngico establecido |
 
 ## Conclusión y Próximos Pasos
 

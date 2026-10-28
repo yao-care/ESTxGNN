@@ -6,9 +6,9 @@ nav_order: 329
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Fenfluramine: nueva indicación predicha, Síndrome de microdeleción proximal 16p11.2 (nivel de evidencia L5). Indicación original: Obesidad (trastorno de obesidad y obesidad monogénica…"
 monitor_inn: "Fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
+description: "Fenfluramine: nueva indicación predicha, Síndrome de microdeleción proximal 16p11.2 (proximal 16p11.2 microdeletion syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos loca…"
 ---
 
 # Fenfluramine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Fenfluramina: De Obesidad a Síndrome de Microdeleción Proximal 16p11.2
+## Fenfluramine: Síndrome de microdeleción proximal 16p11.2 (proximal 16p11.2 microdeletion syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Obesidad (trastorno de obesidad y obesidad monogénica, según el grafo de conocimiento; el texto de indicación autorizado en España no está disponible) |
-| Nueva Indicación Predicha | Síndrome de microdeleción proximal 16p11.2 |
-| Puntaje de Predicción TxGNN | 99,93% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de microdeleción proximal 16p11.2 (proximal 16p11.2 microdeletion syndrome) |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -62,7 +62,7 @@ La deleción 16p11.2 se asocia con obesidad, trastornos del neurodesarrollo y ep
 
 Sin embargo, este razonamiento es una inferencia externa a los datos aportados y no está respaldado por evidencia directa en este síndrome. El puntaje del modelo es muy alto, pero no sustituye a estudios reales.
 
-Otras predicciones del modelo (hipervitaminosis, hipertelorismo obsoleto y frontorrinia) presentan puntajes similares (≈99,8–99,9%), pero no se identificó un vínculo mecanístico plausible y probablemente son artefactos del grafo de conocimiento.
+Otras predicciones del modelo (hipervitaminosis: 0,9992; hipertelorismo obsoleto: 0,9986; frontorrinia: 0,9978) presentan puntajes similares, pero no se identificó un vínculo mecanístico plausible y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
 
 ## Evidencia de Ensayos Clínicos
 

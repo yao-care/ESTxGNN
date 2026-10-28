@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **pielonefritis**, pero no
 |------|------|
 | Indicación Original | Gripe (influenza) |
 | Nueva Indicación Predicha | Pielonefritis |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, el análisis no identifica un vínculo mecanístico creíble con la pielonefritis. Esta es una infección del riñón de origen predominantemente bacteriano (habitualmente *E. coli*), por lo que un antiviral inhibidor de la neuraminidasa no tiene una diana o vía de acción establecida en este contexto.
 
-El puntaje TxGNN es muy alto (99.84%), pero es únicamente una predicción del grafo de conocimiento, sin respaldo de ensayos ni literatura. Probablemente refleja proximidad en la red a través de nodos genéricos relacionados con infecciones, por lo que debe tratarse como un probable falso positivo.
+El puntaje TxGNN es muy alto (0.9984), pero es únicamente una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo de ensayos ni literatura. Probablemente refleja proximidad en la red a través de nodos genéricos relacionados con infecciones, por lo que debe tratarse como un probable falso positivo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ---
 
-**Nota sobre la segunda predicción (trastorno del metabolismo de la tirosina; puntaje TxGNN 99.02%, nivel L5, decisión Hold):** no se identifica ningún vínculo mecanístico, ya que zanamivir no interactúa con las enzimas del catabolismo de la tirosina. Las tres publicaciones recuperadas tratan sobre resistencia antiviral y la neuraminidasa de la gripe, sin relación con esta indicación; probablemente aparecieron por la notación de mutaciones con aminoácidos (por ejemplo, H274Y, N294S). No aportan evidencia clínica.
+**Nota sobre la segunda predicción (trastorno del metabolismo de la tirosina; puntaje TxGNN 0.9902, nivel L5, decisión Hold):** no se identifica ningún vínculo mecanístico, ya que zanamivir no interactúa con las enzimas del catabolismo de la tirosina. Las tres publicaciones recuperadas tratan sobre resistencia antiviral y la neuraminidasa de la gripe, sin relación con esta indicación; probablemente aparecieron por la notación de mutaciones con aminoácidos (por ejemplo, H274Y, N294S). No aportan evidencia clínica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

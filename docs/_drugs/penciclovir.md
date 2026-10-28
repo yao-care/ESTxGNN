@@ -6,9 +6,9 @@ nav_order: 621
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Penciclovir: nueva indicación predicha, Fascioliasis (nivel de evidencia L5). Indicación original: Herpes labial (según el grafo de conocimiento"
 monitor_inn: "PENCICLOVIR"
 predicted_indications: ["fascioliasis"]
+description: "Penciclovir: nueva indicación predicha, Fascioliasis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Penciclovir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Penciclovir: De Herpes Labial a Fascioliasis
+## Penciclovir: Fascioliasis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **fascioliasis**, pero act
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Herpes labial (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Fascioliasis |
-| Puntaje de Predicción TxGNN | 99,06% |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la fascioliasis es débil. *Fasciola hepatica* y *Fasciola gigantica* son trematodos y no se conoce en ellos una vía de activación dependiente de timidina cinasa viral. Tampoco se ha descrito un mecanismo antiparasitario plausible para penciclovir.
 
-El puntaje alto de TxGNN (0,991) probablemente refleja proximidad en el grafo de conocimiento (por ejemplo, nodos compartidos con fármacos antiparasitarios o análogos de nucleósidos) y no una justificación biológica. La predicción debe considerarse una hipótesis computacional sin respaldo mecanístico demostrado.
+El puntaje alto de TxGNN (0,9906) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. La predicción debe considerarse una hipótesis computacional sin respaldo mecanístico demostrado.
 
 ## Evidencia de Ensayos Clínicos
 

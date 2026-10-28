@@ -48,10 +48,10 @@ pero actualmente solo existe **1 publicación** (un estudio computacional in sil
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones |
 | Nueva Indicación Predicha | Neoplasia mieloproliferativa |
-| Puntaje de Predicción TxGNN | 99,47% |
+| Puntaje de Predicción TxGNN | 0,9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción de l
 
 La única publicación de apoyo es un estudio in silico de 2019 que cribó compuestos frente al dominio quinasa de BCR-ABL en leucemia mieloide crónica (LMC). La LMC es una neoplasia mieloproliferativa, por lo que el vínculo es plausible, pero se trata únicamente de acoplamiento molecular computacional, sin validación in vitro, in vivo ni clínica en los datos disponibles.
 
-Además, la baja biodisponibilidad oral de la hesperidina debilita el argumento de una inhibición de quinasas a concentraciones alcanzables. El puntaje alto de TxGNN (0,995) es una predicción del modelo, no evidencia clínica.
+Además, la baja biodisponibilidad oral de la hesperidina debilita el argumento de una inhibición de quinasas a concentraciones alcanzables. El puntaje alto de TxGNN (0,9947) es una predicción del modelo, no evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 

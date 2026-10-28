@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 253
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Vértigo de origen en el sistema nervioso central"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
+description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dimenhydrinate
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Dimenhidrinato: De Vértigo de Origen en el Sistema Nervioso Central y Cinetosis a Urticaria Alérgica
+## Dimenhydrinate: Urticaria alérgica (allergic urticaria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Vértigo de origen en el sistema nervioso central; cinetosis (según el grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99,74 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 19 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Urticaria alérgica (allergic urticaria) |
+| Puntaje de Predicción TxGNN | 0.9974 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 19) |
+| Número de Autorizaciones | 19 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -65,7 +65,7 @@ La urticaria alérgica es una enfermedad mediada por histamina (ronchas y prurit
 
 Hay que tener en cuenta que las guías prefieren los antihistamínicos de segunda generación por su menor carga sedante y anticolinérgica, lo que reduce el atractivo de reposicionar un agente de primera generación.
 
-**Otra predicción (rango 2):** urticaria por frío (puntaje TxGNN 99,24 %, nivel L5). Se basa solo en la predicción del modelo, sin ensayos ni literatura, y también se recomienda Hold. Se trata de una enfermedad impulsada por mastocitos e histamina, por lo que el bloqueo H1 es plausible, pero los antihistamínicos de segunda generación son el tratamiento de primera línea.
+**Otra predicción (rango 2):** urticaria por frío (puntaje TxGNN 0,9924, nivel L5). Se basa solo en la predicción del modelo, sin ensayos ni literatura, y también se recomienda Hold. Se trata de una enfermedad impulsada por mastocitos e histamina, por lo que el bloqueo H1 es plausible, pero los antihistamínicos de segunda generación son el tratamiento de primera línea.
 
 ---
 

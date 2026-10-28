@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante*
 |------|------|
 | Indicación Original | No disponible en los datos de autorización compilados |
 | Nueva Indicación Predicha | Colangitis esclerosante |
-| Puntaje de Predicción TxGNN | 99,99 % |
+| Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **colangitis esclerosante*
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dexrazoxano es un agente quelante del hierro y modulador de la topoisomerasa II, utilizado como cardioprotector frente a la toxicidad de las antraciclinas y en el manejo de la extravasación de antraciclinas (Savene).
 
-Una hipótesis posible, aunque **especulativa y no verificada**, es que la quelación de hierro podría reducir el daño oxidativo o dependiente del hierro en el epitelio biliar. No se ha encontrado ninguna evidencia clínica ni bibliográfica que lo confirme, y la similitud con la indicación original no ha sido evaluada. El puntaje alto del modelo (99,99 %) debe interpretarse como una señal computacional, no como prueba de eficacia.
+Una hipótesis posible, aunque **especulativa y no verificada**, es que la quelación de hierro podría reducir el daño oxidativo o dependiente del hierro en el epitelio biliar. No se ha encontrado ninguna evidencia clínica ni bibliográfica que lo confirme, y la similitud con la indicación original no ha sido evaluada. El puntaje alto del modelo (0,9999) debe interpretarse como una señal computacional, no como prueba de eficacia.
 
 ---
 
@@ -128,19 +128,19 @@ La predicción para colangitis esclerosante se basa únicamente en el modelo (ni
 
 ## Otras Predicciones Evaluadas
 
-Las demás predicciones del modelo también tienen un puntaje superior al 99,8 %, pero carecen de respaldo clínico:
+Las demás predicciones del modelo TxGNN (aprendizaje profundo) también tienen una puntuación ≥ 0,99, pero carecen de respaldo clínico:
 
 | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Recomendación | Observación |
 |------|------|------|------|------|
-| Bronquitis | 99,98 % | L5 | Hold | Sin mecanismo identificable; probable artefacto del grafo |
-| Fiebre paratifoidea | 99,98 % | L5 | Hold | Sin actividad antibacteriana conocida |
-| Conjuntivitis | 99,96 % | L5 | Hold | Sin mecanismo plausible |
-| Epiglotitis | 99,96 % | L5 | Hold | Sin mecanismo antimicrobiano |
-| Peritonitis | 99,93 % | L5 | Hold | Dos publicaciones recuperadas, ninguna respalda el uso |
-| Laringitis | 99,92 % | L5 | Hold | Sin mecanismo plausible |
-| Infección urinaria | 99,87 % | L5 | Hold | No es antimicrobiano |
-| Pielonefritis | 99,85 % | L5 | Hold | Probable artefacto del grafo |
-| Cistitis | 99,82 % | L4 | Pregunta de investigación | Apoyo preclínico indirecto (ferroptosis); sin datos clínicos directos; el uroprotector establecido es la mesna |
+| Bronquitis | 0,9998 | L5 | Hold | Sin mecanismo identificable; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica |
+| Fiebre paratifoidea | 0,9998 | L5 | Hold | Sin actividad antibacteriana conocida |
+| Conjuntivitis | 0,9996 | L5 | Hold | Sin mecanismo plausible |
+| Epiglotitis | 0,9996 | L5 | Hold | Sin mecanismo antimicrobiano |
+| Peritonitis | 0,9993 | L5 | Hold | Dos publicaciones recuperadas, ninguna respalda el uso |
+| Laringitis | 0,9992 | L5 | Hold | Sin mecanismo plausible |
+| Infección urinaria | 0,9987 | L5 | Hold | No es antimicrobiano |
+| Pielonefritis | 0,9985 | L5 | Hold | La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica |
+| Cistitis | 0,9982 | L4 | Pregunta de investigación | Apoyo preclínico indirecto (ferroptosis); sin datos clínicos directos; el uroprotector establecido es la mesna |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

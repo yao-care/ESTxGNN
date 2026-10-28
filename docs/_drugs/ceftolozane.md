@@ -6,9 +6,9 @@ nav_order: 158
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ceftolozane: nueva indicación predicha, Uretritis por Ureaplasma (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
+description: "Ceftolozane: nueva indicación predicha, Uretritis por Ureaplasma (Ureaplasma urethritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ceftolozane
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ceftolozano: De Infección del Tracto Urinario a Uretritis por Ureaplasma
+## Ceftolozane: Uretritis por Ureaplasma (Ureaplasma urethritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,21 +45,21 @@ El modelo TxGNN predice que podría ser efectivo para **uretritis por Ureaplasma
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección del tracto urinario (según el grafo de conocimiento; el texto de indicación de la autorización no está disponible) |
-| Nueva Indicación Predicha | Uretritis por Ureaplasma |
-| Puntaje de Predicción TxGNN | 99,89% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Uretritis por Ureaplasma (Ureaplasma urethritis) |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, ceftolozano es una cefalosporina que inhibe la síntesis de la pared celular bacteriana, y se comercializa en combinación con tazobactam (Zerbaxa). Su actividad está optimizada frente a *Pseudomonas aeruginosa* y Enterobacterales.
 
-La relación con la indicación original es solo contextual: ambas son infecciones del tracto urogenital. Sin embargo, **el mecanismo no respalda la predicción**: *Ureaplasma* carece de pared celular, por lo que los beta-lactámicos son intrínsecamente ineficaces. El puntaje elevado probablemente es un artefacto del grafo, derivado del contexto compartido de infección urogenital.
+La relación con la indicación original es solo contextual: ambas son infecciones del tracto urogenital. Sin embargo, **el mecanismo no respalda la predicción**: *Ureaplasma* carece de pared celular, por lo que los beta-lactámicos son intrínsecamente ineficaces.
 
-Cabe señalar que otras predicciones del modelo tienen una base más sólida. La **uretritis gonocócica** es un objetivo plausible para cefalosporinas (la ceftriaxona es tratamiento estándar), aunque sin evidencia específica para ceftolozano. La **pielonefritis xantogranulomatosa** (puntaje 99,88%, nivel L4) es la más cercana a la indicación original de infección urinaria complicada y pielonefritis, aunque su manejo suele requerir cirugía y los antibióticos son coadyuvantes.
+Cabe señalar que otras predicciones del modelo tienen una base más sólida. La **uretritis gonocócica** es un objetivo plausible para cefalosporinas (la ceftriaxona es tratamiento estándar), aunque sin evidencia específica para ceftolozano. La **pielonefritis xantogranulomatosa** (puntaje 0,9988, nivel L4) es la más cercana a la indicación original de infección urinaria complicada y pielonefritis, aunque su manejo suele requerir cirugía y los antibióticos son coadyuvantes.
 
 ## Evidencia de Ensayos Clínicos
 

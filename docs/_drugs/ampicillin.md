@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ampicillin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 54
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ampicillin: nueva indicación predicha, Laringitis (nivel de evidencia L4). Indicación original: Infecciones bacterianas (infección del tracto urinario…"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Ampicillin"
-predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+last_modified_at: 2026-10-27
+description: "Ampicillin: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Ampicilina: De Infecciones Bacterianas (Urinarias, Respiratorias y Meníngeas) a Laringitis
+## Ampicilina: betalactámico inhibidor de la síntesis de la pared bacteriana → laringitis (laryngitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ampicilina es un antibiótico betalactámico, originalmente utilizado para tratar infecciones bacterianas como las del tracto urinario, otitis media, neumonía bacteriana, meningitis bacteriana y colangitis.
-El modelo TxGNN predice que podría ser efectivo para **laringitis**, pero **no hay ensayos clínicos** y la literatura recuperada (**20 publicaciones**) es indirecta: casos clínicos, revisiones y estudios de microbiología o de antibióticos perioperatorios, ninguno que evalúe ampicilina en laringitis.
+Ampicilina es un antibiótico betalactámico que inhibe la síntesis de la pared celular bacteriana y se comercializa en España en varias formas farmacéuticas.
+El modelo TxGNN predice que podría ser efectivo para **laringitis (laryngitis)**, pero actualmente no hay ensayos clínicos registrados y la literatura recopilada (**20 publicaciones**) no estudia directamente ampicilina en laringitis.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones bacterianas (infección del tracto urinario, otitis media infecciosa, neumonía bacteriana, meningitis bacteriana, entre otras; según el grafo de conocimiento, ya que los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Laringitis |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | laringitis (laryngitis) |
+| Puntaje de Predicción TxGNN | 0,9997 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la ampicilina es un betalactámico que inhibe la síntesis de la pared celular bacteriana, y su eficacia en múltiples infecciones bacterianas está establecida.
+Ampicilina es un betalactámico que inhibe la síntesis de la pared celular bacteriana. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que este resumen se basa en la clase conocida del fármaco.
 
-La relación con la nueva indicación es plausible solo en un subconjunto: infecciones bacterianas de la laringe y estructuras vecinas, como la epiglotitis (por *Haemophilus influenzae* tipo b) y los abscesos laríngeos o cervicales profundos. Sin embargo, la mayoría de las laringitis son de origen viral, por lo que el vínculo mecanístico no aplica a la mayoría de los casos.
+Mecanísticamente, el fundamento solo aplica a un subconjunto bacteriano de las infecciones laríngeas, como la epiglotitis por *Haemophilus influenzae* tipo b o los abscesos laríngeos y cervicales profundos. La mayoría de las laringitis son de origen viral, por lo que un antibacteriano no sería útil en ellas.
 
-El puntaje TxGNN es muy alto, pero no está respaldado por evidencia clínica directa. Ninguno de los estudios recuperados evalúa la ampicilina para la laringitis en sí. Además, la resistencia por betalactamasas (por ejemplo en *H. influenzae*) limita el uso de ampicilina sola, y en la literatura los casos de epiglotitis suelen asociarse a ampicilina combinada con cloranfenicol o con sulbactam.
+El puntaje de predicción es muy alto, pero no está respaldado por evidencia clínica directa: ninguno de los estudios recuperados evalúa ampicilina para laringitis. Se trata de una hipótesis que requiere validación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,53 +67,46 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se listan las publicaciones más relevantes (no hay ECA; predominan revisiones, series de casos y estudios observacionales).
+Los estudios abordan sobre todo epiglotitis, abscesos y otras infecciones relacionadas, no laringitis como tal. Se listan los más relevantes:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Revisión | Reviews of Infectious Diseases | Sulbactam/ampicilina en epiglotitis aguda pediátrica; hasta 25 % de cepas de Hib producen betalactamasa y son resistentes a ampicilina |
-| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Serie clínica | Monatsschrift Kinderheilkunde | Cambio en la resistencia de Hib a ampicilina en niños con epiglotitis aguda y consecuencias terapéuticas |
-| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Serie clínica | Anesthesia and Analgesia | 23 niños con epiglotitis tratados con ampicilina o cloranfenicol; duración de la intubación y de la fiebre |
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Revisión | Anaesthesia and Intensive Care | 161 niños con epiglotitis aguda; manejo de la vía aérea y complicaciones |
-| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Serie retrospectiva | Clinical Otolaryngology | Bacteriología y principios terapéuticos de la epiglotitis aguda en 19 adultos |
-| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Revisión | Western Journal of Medicine | Epiglotitis en adultos: 9 casos, necesidad de intubación y errores diagnósticos iniciales |
-| [3573912](https://pubmed.ncbi.nlm.nih.gov/3573912/) | 1987 | Análisis retrospectivo | The Laryngoscope | Diferenciación diagnóstica y manejo de crup frente a epiglotitis en 194 niños |
-| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohorte | Otolaryngology–Head and Neck Surgery | Complicaciones de la laringectomía asociadas a la elección del antibiótico perioperatorio |
-| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Caso/Revisión | Annals of Otology, Rhinology & Laryngology | Caso de absceso laríngeo espontáneo y revisión de casos modernos |
-| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Evaluación de guías | CoDAS | Evaluación de calidad (AGREE II) de guías clínicas sobre laringitis y faringitis |
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Revisión | Anaesthesia and Intensive Care | Revisión de 161 niños con epiglotitis aguda: 45 complicaciones y 5 muertes; manejo de la vía aérea mediante intubación |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Reporte de caso/Revisión | Annals of Otology, Rhinology & Laryngology | Caso de absceso laríngeo espontáneo y revisión de casos modernos |
+| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohorte | Otolaryngology–Head and Neck Surgery | Complicaciones de laringectomía asociadas a la elección del antibiótico perioperatorio |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Revisión | Western Journal of Medicine | Nueve adultos con epiglotitis aguda; cuatro requirieron intubación |
+| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Estudio retrospectivo | Clinical Otolaryngology | 19 casos de epiglotitis en adultos: bacteriología y principios terapéuticos |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Estudio clínico | Reviews of Infectious Diseases | Sulbactam/ampicilina en epiglotitis aguda infantil, ante resistencia de Hib a ampicilina |
+| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Serie de casos | Monatsschrift Kinderheilkunde | Consecuencias terapéuticas de la resistencia de *H. influenzae* b a ampicilina en epiglotitis |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Serie de casos | Anesthesia and Analgesia | Duración de la intubación y la fiebre en 23 niños con epiglotitis tratados con ampicilina o cloranfenicol |
+| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Evaluación de guías | CoDAS | Calidad metodológica de guías clínicas para laringitis y faringitis (AGREE II) |
+| [41536375](https://pubmed.ncbi.nlm.nih.gov/41536375/) | 2025 | Reporte de caso | Cureus | Diagnóstico diferencial del crup en un niño que no respondió al tratamiento estándar |
 
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 48325 | BRITAPEN 1 G POLVO PARA SOLUCIÓN PARA INYECCIÓN | Polvo para solución inyectable | No especificada en los datos |
-| 47729 | BRITAPEN 250 mg SUSPENSIÓN | Suspensión oral | No especificada en los datos |
-| 41181 | BRITAPEN 500 MG POLVO PARA SOLUCIÓN PARA INYECCIÓN | Polvo para solución inyectable | No especificada en los datos |
-| 89095 | AMPICILINA TILLOMED 1 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | Polvo para solución inyectable y para perfusión | No especificada en los datos |
-| 44092 | BRITAPEN 500 mg CÁPSULAS | Cápsula dura | No especificada en los datos |
-
-Hay 10 autorizaciones vigentes en total (todas de principio activo único); aquí se muestran las 5 principales. Las demás corresponden a GOBEMICINA (Normon), BRITAPEN 1 g comprimidos y AMPICILINA TILLOMED 500 mg.
+| 48325 | BRITAPEN 1 G POLVO PARA SOLUCIÓN PARA INYECCIÓN | Polvo para solución inyectable | No registrada en los datos locales |
+| 47729 | BRITAPEN 250 mg SUSPENSION | Suspensión oral | No registrada en los datos locales |
+| 41181 | BRITAPEN 500 MG POLVO PARA SOLUCIÓN PARA INYECCIÓN | Polvo para solución inyectable | No registrada en los datos locales |
+| 89095 | AMPICILINA TILLOMED 1 G POLVO PARA SOLUCIÓN INYECTABLE Y PARA PERFUSIÓN EFG | Polvo para solución inyectable y para perfusión | No registrada en los datos locales |
+| 44092 | BRITAPEN 500 mg CAPSULAS | Cápsula dura | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones / condiciones de precaución según el grafo de conocimiento** (no proceden del texto del prospecto): enfermedad renal y función renal alterada, enfermedad hematológica, enfermedad ulcerosa péptica, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, mononucleosis infecciosa, síndrome de infección crónica por virus de Epstein-Barr y nefropatía aguda por uratos.
-- **Interacciones farmacológicas**: se identificaron 61 interacciones. Las de nivel moderado incluyen doxiciclina, balsalazida, dexlansoprazol, lansoprazol, kanamicina, minociclina, tetraciclina y ácido picosulfúrico. Claritromicina es de nivel menor. Otras (pantoprazol, omeprazol, morfina, vancomicina, lactulosa, prednisona, nistatina, hidrocortisona, cloruro de potasio, prednisolona, ranitidina) tienen nivel no clasificado.
-
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+- **Interacciones Farmacológicas**: se identificaron 61 interacciones. Las de nivel moderado incluyen doxiciclina, minociclina, tetraciclina, kanamicina, balsalazida, lansoprazol, dexlansoprazol y ácido picosulfúrico. Claritromicina figura como interacción menor.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura es solo indirecta (casos, revisiones y estudios microbiológicos), sin estudios que evalúen ampicilina para laringitis. La mayoría de las laringitis son virales, y la resistencia por betalactamasas limita aún más el uso de ampicilina sola. El puntaje TxGNN alto no sustituye la evidencia clínica.
+La predicción tiene un puntaje alto, pero no existe ningún ensayo clínico ni estudio que evalúe directamente ampicilina en laringitis. Además, la mayoría de las laringitis son virales y la resistencia de *H. influenzae* a ampicilina limita su utilidad.
 
 **Para avanzar se necesita:**
-- Definir el subgrupo bacteriano relevante (por ejemplo epiglotitis o absceso laríngeo) y distinguirlo de la laringitis viral.
-- Revisión sistemática de la evidencia en infecciones bacterianas laríngeas, considerando el papel actual de la vacunación contra Hib y las alternativas vigentes.
-- Datos del mecanismo de acción y análisis de resistencias locales.
-- Advertencias y contraindicaciones del prospecto de la AEMPS, hoy no disponibles, para el cribado de seguridad.
-- Estudios o ensayos controlados si se justifica una hipótesis específica.
+- Estudios clínicos que evalúen ampicilina en laringitis bacteriana definida (diferenciada de la viral)
+- Datos del mecanismo de acción y de resistencia local en los patógenos laríngeos relevantes
+- Información de seguridad del prospecto (advertencias y contraindicaciones) de las autorizaciones españolas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

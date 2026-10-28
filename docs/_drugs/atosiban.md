@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Atosiban es un antagonista peptídico de los receptores de oxitocina y vasopresina, utilizado en Europa como tocolítico para retrasar el parto prematuro en mujeres adultas embarazadas de 24 a 33 semanas.
-El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**, con una puntuación muy alta (99,92 %), pero **sin ensayos clínicos ni publicaciones** que respalden esta dirección; se trata de una predicción puramente computacional.
+El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**, con una puntuación muy alta (0,9992), pero **sin ensayos clínicos ni publicaciones** que respalden esta dirección; se trata de una predicción puramente computacional.
 
 ---
 
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario pri
 |------|------|
 | Indicación Original | No disponible en los textos de autorización de la AEMPS (según otras fuentes de datos, tocolítico en parto prematuro) |
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99,92 % |
+| Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---

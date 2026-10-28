@@ -6,9 +6,9 @@ nav_order: 400
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide (según las indicaciones originales del grafo de …"
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dat…"
 ---
 
 # Ibuprofen
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Ibuprofeno: De Artritis Reumatoide a Displasia Acromesomélica tipo Hunter-Thompson
+## Ibuprofen: Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética rara causada por variantes de pérdida de función en CDMP1/GDF5 (vía de señalización BMP). No se aprecia un vínculo mecanístico plausible entre la inhibición de COX y la señalización de GDF5, ni una forma de corregir la displasia esquelética con ibuprofeno.
 
-El puntaje alto del modelo (0.997) probablemente es un artefacto del grafo de conocimiento, derivado de anotaciones fenotípicas musculoesqueléticas compartidas con las indicaciones originales (artritis y artropatía). En el mejor de los casos, ibuprofeno podría ofrecer analgesia sintomática para el dolor articular, lo cual no constituye modificación de la enfermedad.
+El puntaje alto del modelo (0.9974) probablemente es un artefacto del modelo TxGNN (aprendizaje profundo), derivado de anotaciones fenotípicas musculoesqueléticas compartidas con las indicaciones originales (artritis y artropatía). En el mejor de los casos, ibuprofeno podría ofrecer analgesia sintomática para el dolor articular, lo cual no constituye modificación de la enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -94,7 +94,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP. Lo más probable es que el puntaje elevado sea un artefacto del grafo de conocimiento.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP. Lo más probable es que el puntaje elevado sea un artefacto del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde DrugBank

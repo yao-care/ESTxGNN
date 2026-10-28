@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 672
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Rinitis alérgica"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Cabe señalar que esta predicción se solapa en gran medida con usos ya autoriza
 |------|------|
 | Indicación Original | Rinitis alérgica (según las indicaciones originales registradas en la base de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99,75 % |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en España | ✓ Comercializado |
+| Puntaje de Predicción TxGNN | 0,9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Cabe señalar que esta predicción se solapa en gran medida con usos ya autoriza
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, la pseudoefedrina es un simpaticomimético indirecto con actividad alfa-adrenérgica. Produce vasoconstricción de los vasos de capacitancia de la mucosa nasal, lo que reduce la hinchazón de la mucosa y la congestión nasal.
 
-La indicación predicha (enfermedad de la cavidad nasal) es un término amplio que engloba afecciones ya contempladas entre los usos originales del fármaco: rinitis alérgica, rinitis vasomotora, rinitis y resfriado común. Por ello, el puntaje elevado (0,997) refleja sobre todo un uso ya existente y no una novedad terapéutica. El vínculo mecanístico se infiere de la farmacología general y no de los datos aportados.
+La indicación predicha (enfermedad de la cavidad nasal) es un término amplio que engloba afecciones ya contempladas entre los usos originales del fármaco: rinitis alérgica, rinitis vasomotora, rinitis y resfriado común. Por ello, el puntaje elevado (0,9975) refleja sobre todo un uso ya existente y no una novedad terapéutica. El vínculo mecanístico se infiere de la farmacología general y no de los datos aportados.
 
 Un estudio de farmacología clínica (2001) comparó los efectos descongestionantes orales y tópicos de la fenilpropanolamina y la d-pseudoefedrina mediante rinometría acústica, lo que respalda el efecto sobre las dimensiones de la cavidad nasal. El resto de la literatura son modelos animales de congestión nasal y una revisión sobre rinitis no alérgica.
 
@@ -98,7 +98,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 69107 | VINCITOS FORTE 3 mg/ml + 6 mg/ml solución oral | Solución oral | No disponible en los datos |
 | 63423 | CLARITYNE PLUS 10 mg/240 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible en los datos |
 
-Hay 20 autorizaciones vigentes en total (todas de medicamentos de un solo registro, ninguna cancelada).
+Hay 12 autorizaciones vigentes en total; el medicamento está comercializado.
 
 ---
 

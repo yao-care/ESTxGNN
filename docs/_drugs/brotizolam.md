@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensa
 |------|------|
 | Indicación Original | No disponible en los datos de AEMPS (el insomnio es su uso hipnótico establecido) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
