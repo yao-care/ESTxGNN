@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: nueva indicación predicha, Faciodigitogenital syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -111,8 +111,8 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 No existen ensayos clínicos y la literatura es indirecta, centrada en el TDAH, indicación ya aprobada; la etiqueta "trastorno específico del desarrollo" probablemente solapa con ella. El alto puntaje del modelo no basta para avanzar.
 
 **Otras candidatas predichas (todas en Hold o pregunta de investigación):**
-- **Síndrome faciodigitogenital (Aarskog-Scott)**, 99,998%: nivel L5, sin ensayos ni literatura. Solo se especula con rasgos conductuales tipo TDAH.
-- **Trastorno distímico**, 99,11%: nivel L4. La literatura se limita a TDAH con depresión subsindrómica comorbidad (2013) y revisiones generales; no hay ensayos de metilfenidato en distimia. Mecanismo dopaminérgico/noradrenérgico plausible.
+- **Síndrome faciodigitogenital (Aarskog-Scott)**, 1.0000: nivel L5, sin ensayos ni literatura. Solo se especula con rasgos conductuales tipo TDAH.
+- **Trastorno distímico**, 0.9911: nivel L4. La literatura se limita a TDAH con depresión subsindrómica comorbidad (2013) y revisiones generales; no hay ensayos de metilfenidato en distimia. Mecanismo dopaminérgico/noradrenérgico plausible.
 - **Fibroma condromixoide**, 0,9999: nivel L5, sin vínculo mecanístico plausible; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica.
 
 **Para avanzar se necesita:**

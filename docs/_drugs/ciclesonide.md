@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
 description: "Ciclesonide: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -97,7 +97,7 @@ Para el resto de la información de seguridad, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es muy alta (99,96%), pero no existe ningún ensayo clínico ni publicación que la respalde (nivel L5). Además, no se ha definido la vía de administración necesaria, y la única señal indirecta de la literatura sobre piel apunta a un riesgo de sensibilización.
+La predicción del modelo es muy alta (0.9996), pero no existe ningún ensayo clínico ni publicación que la respalde (nivel L5). Además, no se ha definido la vía de administración necesaria, y la única señal indirecta de la literatura sobre piel apunta a un riesgo de sensibilización.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de la AEMPS para completar advertencias y contraindicaciones.

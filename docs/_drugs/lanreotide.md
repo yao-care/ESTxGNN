@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
-description: "Lanreotide: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Lanreotide: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (hypertrichosis (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lanreotide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Lanreotide: Hipertricosis (hypertrichosis (disease))
+## Lanreotide: Hipertricosis (hypertrichosis (disease)) (hypertrichosis (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,7 +47,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Hipertricosis (hypertrichosis (disease)) |
+| Nueva Indicación Predicha | Hipertricosis (hypertrichosis (disease)) (hypertrichosis (disease)) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 6 de 10) |
@@ -62,7 +62,7 @@ La relación con la hipertricosis es indirecta: la señalización de IGF-1 puede
 
 Por lo tanto, este vínculo debe considerarse especulativo y sin verificar. La puntuación alta del modelo refleja una predicción del modelo TxGNN (aprendizaje profundo), no una validación clínica.
 
-Otras predicciones del modelo (todas con evidencia L5 y recomendación Hold) son: síndrome de malformación con componente dental/periodontal (99.96%), síndrome con malformación de Dandy-Walker (99.96%), anomalía genética aislada del tallo piloso (99.96%) e hipertricosis universal congénita tipo Ambras (99.96%). Para ellas, el vínculo mecanístico es aún más débil o no creíble.
+Otras predicciones del modelo (todas con evidencia L5 y recomendación Hold) son: síndrome de malformación con componente dental/periodontal (0.9996), síndrome con malformación de Dandy-Walker (0.9996), anomalía genética aislada del tallo piloso (0.9996) e hipertricosis universal congénita tipo Ambras (0.9996). Para ellas, el vínculo mecanístico es aún más débil o no creíble.
 
 ## Evidencia de Ensayos Clínicos
 

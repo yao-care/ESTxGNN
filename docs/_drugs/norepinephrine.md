@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 573
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -115,7 +115,7 @@ La predicción se apoya solo en un puntaje computacional y en literatura mecaní
 - Evaluar la compatibilidad de vías de administración, ya que todas las presentaciones autorizadas son para perfusión intravenosa.
 - Justificar la ventaja frente a los agonistas beta-2 selectivos y analizar el riesgo cardiovascular.
 
-**Otras predicciones del modelo (no recomendadas):** *malformación respiratoria* (99.84%, nivel L5, sin ensayos; solo vínculo con el control neural de la respiración, sin racional terapéutico) y *síndrome de Rienhoff* (99.83%, nivel L5, sin ensayos ni literatura). Ambas quedan en **Hold**.
+**Otras predicciones del modelo (no recomendadas):** *malformación respiratoria* (0.9984, nivel L5, sin ensayos; solo vínculo con el control neural de la respiración, sin racional terapéutico) y *síndrome de Rienhoff* (0.9983, nivel L5, sin ensayos ni literatura). Ambas quedan en **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

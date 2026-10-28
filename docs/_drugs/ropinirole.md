@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 712
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -104,7 +104,7 @@ Consultar el prospecto para el resto de la información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es muy alta (99.99%), pero la evidencia directa es limitada: no hay ensayos clínicos registrados, un caso pediátrico con un posible efecto indirecto sobre el sueño, y un posible ensayo aleatorizado de 2026 cuyo diseño y resultados no están verificados. Ropinirol es un fármaco comercializado con perfil conocido, por lo que la hipótesis merece seguimiento como pregunta de investigación.
+La predicción del modelo es muy alta (0.9999), pero la evidencia directa es limitada: no hay ensayos clínicos registrados, un caso pediátrico con un posible efecto indirecto sobre el sueño, y un posible ensayo aleatorizado de 2026 cuyo diseño y resultados no están verificados. Ropinirol es un fármaco comercializado con perfil conocido, por lo que la hipótesis merece seguimiento como pregunta de investigación.
 
 **Para avanzar se necesita:**
 - Verificar el diseño, los resultados y la calidad del ensayo de 2026 (PMID 42640474) y registrar o localizar ensayos clínicos formales.

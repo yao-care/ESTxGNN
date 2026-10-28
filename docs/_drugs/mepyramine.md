@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "mepyramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -59,7 +59,7 @@ pero actualmente **no hay ensayos clínicos** y solo **4 publicaciones** indirec
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mepiramina es un antagonista clásico del receptor H1 de histamina de primera generación. Su eficacia en cuadros alérgicos mediados por histamina es conocida, y mecanísticamente es aplicable a la urticaria alérgica.
 
 
-Las demás predicciones del modelo siguen un patrón similar: enfermedad de la cavidad nasal (99,74%), laringofaringitis aguda (99,72%) y urticaria por frío (99,70%). Todas se solapan con indicaciones ya existentes y cuentan con evidencia aún más limitada.
+Todas se solapan con indicaciones ya existentes y cuentan con evidencia aún más limitada.
 
 ## Evidencia de Ensayos Clínicos
 

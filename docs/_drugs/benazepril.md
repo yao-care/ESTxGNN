@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "BENAZEPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Benazepril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -61,9 +61,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 La enfermedad renal hipertensiva maligna implica hipertensión grave con activación del SRAA y daño renal, por lo que el bloqueo del SRAA es biológicamente plausible. Sin embargo, el puntaje elevado de TxGNN (0,9965) es una predicción computacional que probablemente se deba a la estrecha relación con la indicación ya aprobada de hipertensión. Es más una extensión de la indicación existente que un reposicionamiento genuino.
 
 Otras predicciones del modelo tienen un respaldo igual o más débil:
-- **Hipertensión renovascular maligna** (99,65%): plausible mecanísticamente, pero en estenosis bilateral de la arteria renal o riñón único los IECA pueden causar lesión renal aguda. Sin ensayos ni literatura.
-- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (99,60%): vínculo solo teórico. Las tres publicaciones recuperadas tratan fórmulas de medicina tradicional china en modelos de fibrosis renal y miocárdica; no involucran benazepril ni hipertensión pulmonar, por lo que no son evidencia relevante. Los IECA no son un tratamiento establecido y la vasodilatación sistémica podría empeorar la relación ventilación-perfusión.
-- **Hipertensión pulmonar de mecanismo multifactorial incierto** (99,60%) y **síndrome de Braddock** (99,44%): sin fundamento mecanístico ni evidencia con los datos disponibles.
+- **Hipertensión renovascular maligna** (0.9965): plausible mecanísticamente, pero en estenosis bilateral de la arteria renal o riñón único los IECA pueden causar lesión renal aguda. Sin ensayos ni literatura.
+- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (0.9960): vínculo solo teórico. Las tres publicaciones recuperadas tratan fórmulas de medicina tradicional china en modelos de fibrosis renal y miocárdica; no involucran benazepril ni hipertensión pulmonar, por lo que no son evidencia relevante. Los IECA no son un tratamiento establecido y la vasodilatación sistémica podría empeorar la relación ventilación-perfusión.
+- **Hipertensión pulmonar de mecanismo multifactorial incierto** (0.9960) y **síndrome de Braddock** (0.9944): sin fundamento mecanístico ni evidencia con los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 697
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Cáncer de mama HR+/HER2- avanzado o metastásico (según la literatura…"
+last_modified_at: 2026-10-28
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
+description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Ribociclib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Ribociclib: De Cáncer de Mama (HR+/HER2-) a Leucemia Mieloide
+## Ribociclib: Leucemia mieloide (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,8 +45,8 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de mama HR+/HER2- avanzado o metastásico (según la literatura revisada; el texto de indicación de las autorizaciones no está disponible) |
-| Nueva Indicación Predicha | Leucemia mieloide |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
 | Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
@@ -115,7 +115,7 @@ La predicción para leucemia mieloide se basa solo en el puntaje del modelo y en
 - Texto de indicaciones y datos de seguridad del prospecto oficial de la AEMPS (advertencias y contraindicaciones)
 - Evaluación del perfil de mielosupresión en pacientes hematológicos
 
-**Otras predicciones del modelo (no recomendadas):** trombocitopenia (99.27%), trombocitopenia con insuficiencia mitral (99.08%) y trombocitopenia hereditaria con plaquetas normales (99.07%). Todas son nivel L5 y probablemente falsos positivos, ya que la trombocitopenia es un efecto adverso conocido de ribociclib. Se desaconseja su uso con fines terapéuticos.
+**Otras predicciones del modelo (no recomendadas):** trombocitopenia (0.9927), trombocitopenia con insuficiencia mitral (0.9908) y trombocitopenia hereditaria con plaquetas normales (0.9908). Todas son nivel L5 y probablemente falsos positivos, ya que la trombocitopenia es un efecto adverso conocido de ribociclib. Se desaconseja su uso con fines terapéuticos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

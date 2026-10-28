@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Disopyramide: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
+last_modified_at: 2026-10-28
 monitor_inn: "disopyramide"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
+description: "Disopyramide: nueva indicación predicha, Síndrome de Tourette (Tourette syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Disopyramide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Disopiramida: De Indicación Original No Especificada a Síndrome de Tourette
+## Disopyramide: Síndrome de Tourette (Tourette syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,9 +45,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Síndrome de Tourette |
-| Puntaje de Predicción TxGNN | 0,9986 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de Tourette (Tourette syndrome) |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 El síndrome de Tourette implica una disfunción de la dopamina y de los circuitos córtico-estriado-tálamo-corticales. No se ha identificado un vínculo mecanístico establecido entre ambos. El puntaje elevado procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; carece de respaldo clínico o bibliográfico, por lo que debe interpretarse con mucha cautela.
 
-Otras predicciones del modelo siguen el mismo patrón. Trastorno por déficit de atención e hiperactividad (TDAH, 99,82 %), tricotilomanía (99,81 %) y otros trastornos del neurodesarrollo carecen de mecanismo plausible. Las únicas con cierta plausibilidad farmacológica indirecta, por el efecto de clase antiarrítmica, son el flutter auricular neonatal idiopático y la taquicardia auricular multifocal (nivel L4). Ninguna cuenta con evidencia directa con disopiramida.
+Otras predicciones del modelo siguen el mismo patrón. Trastorno por déficit de atención e hiperactividad (TDAH, 0.9982), tricotilomanía (0.9981) y otros trastornos del neurodesarrollo carecen de mecanismo plausible. Las únicas con cierta plausibilidad farmacológica indirecta, por el efecto de clase antiarrítmica, son el flutter auricular neonatal idiopático y la taquicardia auricular multifocal (nivel L4). Ninguna cuenta con evidencia directa con disopiramida.
 
 ## Evidencia de Ensayos Clínicos
 

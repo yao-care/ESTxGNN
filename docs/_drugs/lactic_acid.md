@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Lactic Acid: nueva indicación predicha, Coartación atípica de la aorta (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+last_modified_at: 2026-10-28
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
+description: "Lactic Acid: nueva indicación predicha, Coartación atípica de la aorta (atypical coarctation of aorta) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lactic Acid
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Ácido láctico: De Indicación No Especificada a Coartación Atípica de la Aorta
+## Lactic Acid: Coartación atípica de la aorta (atypical coarctation of aorta)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,8 +46,8 @@ La predicción se basa únicamente en el modelo computacional.
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Coartación atípica de la aorta |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Coartación atípica de la aorta (atypical coarctation of aorta) |
 | Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La puntuación del modelo TxGNN (aprendizaje profundo) (0.9959) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni farmacológica. La coartación de aorta se trata de forma quirúrgica o mediante stent, no con un fármaco sistémico de molécula pequeña. Por ello, esta predicción debe considerarse especulativa.
 
-Para contexto, el modelo también predijo otras indicaciones, todas con nivel L5 y recomendación Hold: malformación aórtica (99.35%), malformación esofágica no sindrómica (99.23%), amenorrea (99.16%) y síndrome de ojo seco (99.13%). De ellas, el ojo seco es la biológicamente más plausible, aunque sigue siendo solo una predicción: la literatura recuperada se refiere a probióticos (productores de ácido láctico) y no evalúa el ácido láctico como tratamiento.
+Para contexto, el modelo también predijo otras indicaciones, todas con nivel L5 y recomendación Hold: malformación aórtica (0.9935), malformación esofágica no sindrómica (0.9923), amenorrea (0.9916) y síndrome de ojo seco (0.9913). De ellas, el ojo seco es la biológicamente más plausible, aunque sigue siendo solo una predicción: la literatura recuperada se refiere a probióticos (productores de ácido láctico) y no evalúa el ácido láctico como tratamiento.
 
 ## Evidencia de Ensayos Clínicos
 

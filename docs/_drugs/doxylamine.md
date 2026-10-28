@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -59,9 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 La urticaria ya aparece entre las indicaciones originales del fármaco, y la urticaria alérgica es un subtipo de ese cuadro. Por ello, esta predicción se parece más a una extensión cercana de una indicación existente que a un reposicionamiento genuino.
 
 Las demás predicciones del modelo siguen la misma lógica, también con evidencia L5 y recomendación Hold:
-- **Enfermedad de la cavidad nasal** (99.36%): categoría amplia que solapa con la rinitis alérgica, la rinitis vasomotora y el resfriado común.
-- **Laringofaringitis aguda** (99.34%): relacionada con la faringitis y la nasofaringitis; el beneficio sería sintomático y el cuadro suele ser infeccioso.
-- **Urticaria por frío** (99.26%): urticaria inducible mediada por histamina; en general se prefieren antihistamínicos de segunda generación por la sedación.
+- **Enfermedad de la cavidad nasal** (0.9936): categoría amplia que solapa con la rinitis alérgica, la rinitis vasomotora y el resfriado común.
 
 ## Evidencia de Ensayos Clínicos
 

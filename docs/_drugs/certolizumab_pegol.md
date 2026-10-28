@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Certolizumab Pegol: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -113,7 +113,7 @@ La predicción se apoya en un puntaje alto del modelo y en un único informe de 
 
 ### Nota sobre otras predicciones evaluadas
 
-Sin embargo, es en gran medida una indicación ya existente o muy cercana a las originales (espondilitis anquilosante), no un reposicionamiento genuino. La **artritis reumatoide juvenil poliarticular** (99.69%) tiene un estudio de Fase 3 abierto de un solo brazo (NCT01550003, n=193) y nivel L3. Las predicciones de **hipermovilidad del coxis** y **enfermedad de Kümmell** carecen de evidencia (L5), y **enfermedad vertebral** es un término inespecífico (L4).
+Sin embargo, es en gran medida una indicación ya existente o muy cercana a las originales (espondilitis anquilosante), no un reposicionamiento genuino. Las predicciones de **hipermovilidad del coxis** y **enfermedad de Kümmell** carecen de evidencia (L5), y **enfermedad vertebral** es un término inespecífico (L4).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

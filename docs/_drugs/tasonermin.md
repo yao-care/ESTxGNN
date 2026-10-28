@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 765
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "tasonermin"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
 description: "Tasonermin: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -61,7 +61,7 @@ La relación entre la indicación original y la nueva es débil. Ambas son neopl
 
 Además, existen obstáculos importantes de aplicabilidad. La uretra prostática no permite una perfusión aislada como la de una extremidad, y el TNF-alfa sistémico tiene toxicidad limitante de dosis (hipotensión, síndrome similar al shock séptico). No se identifica una vía de administración plausible.
 
-Otras predicciones del modelo (todas con evidencia L5 y recomendación Hold) incluyen carcinoma sarcomatoide de células transicionales de la pelvis renal (99,80%), carcinoma urotelial de vejiga infiltrante variante sarcomatoide (99,79%), carcinoma urotelial papilar de la pelvis renal (99,79%) y carcinoma de mama HER2 positivo (99,70%), entre otras. Ninguna cuenta con ensayos ni literatura.
+Otras predicciones del modelo (todas con evidencia L5 y recomendación Hold) incluyen carcinoma sarcomatoide de células transicionales de la pelvis renal (0.9980), carcinoma urotelial de vejiga infiltrante variante sarcomatoide (0.9979), carcinoma urotelial papilar de la pelvis renal (0.9979) y carcinoma de mama HER2 positivo (0.9970), entre otras. Ninguna cuenta con ensayos ni literatura.
 
 ## Evidencia de Ensayos Clínicos
 

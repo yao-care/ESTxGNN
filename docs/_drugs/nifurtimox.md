@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (nivel de evidencia L5). Indicación original: Enfermedad de Chagas"
+last_modified_at: 2026-10-28
 monitor_inn: "NIFURTIMOX"
 predicted_indications: ["congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"]
+description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (congenital analbuminemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nifurtimox
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Nifurtimox: De Enfermedad de Chagas a Analbuminemia Congénita
+## Nifurtimox: Analbuminemia congénita (congenital analbuminemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,8 +46,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Chagas |
-| Nueva Indicación Predicha | Analbuminemia congénita |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Analbuminemia congénita (congenital analbuminemia) |
 | Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
@@ -62,7 +62,7 @@ La analbuminemia congénita es un trastorno genético raro de la síntesis de al
 
 El puntaje alto del modelo (0.9958) es una predicción computacional que no está corroborada por ensayos clínicos ni por literatura. Debe interpretarse con cautela, ya que el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-Otras indicaciones predichas, todas con nivel L5 y sin evidencia clínica ni bibliográfica: hiperviscosidad policlonal (99.47%), hiperamilasemia (99.47%), incompatibilidad de grupo sanguíneo (99.24%), gammapatía monoclonal (99.16%), enfermedad hematológica premaligna (99.11%) y enfermedad hematológica asociada a neuropatía periférica adquirida (99.06%). En este último caso, la neuropatía periférica es un efecto adverso conocido de nifurtimox, lo que va en contra de un papel terapéutico.
+Otras indicaciones predichas, todas con nivel L5 y sin evidencia clínica ni bibliográfica: hiperviscosidad policlonal (0.9947), hiperamilasemia (0.9947), incompatibilidad de grupo sanguíneo (0.9924), gammapatía monoclonal (0.9916), enfermedad hematológica premaligna (0.9911) y enfermedad hematológica asociada a neuropatía periférica adquirida (0.9906). En este último caso, la neuropatía periférica es un efecto adverso conocido de nifurtimox, lo que va en contra de un papel terapéutico.
 
 ## Evidencia de Ensayos Clínicos
 

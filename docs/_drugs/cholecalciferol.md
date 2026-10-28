@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Cholecalciferol: nueva indicación predicha, Acromesomelic dysplasia, Campailla Martinelli type (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -52,7 +52,7 @@ Según los datos compilados para este informe, el colecalciferol (vitamina D3) t
 | Número de Autorizaciones | Al menos 20 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 
-Nota: la predicción mejor clasificada del modelo (displasia acromesomélica tipo Campailla-Martinelli, 99,78 %) y la segunda (condrodisplasia craneofacial, 99,75 %) carecen de ensayos y literatura y no tienen vínculo mecanístico plausible. Este informe se centra en la osteodistrofia renal, la primera predicción con evidencia clínica relacionada.
+Nota: la predicción mejor clasificada del modelo (displasia acromesomélica tipo Campailla-Martinelli, 0.9978) y la segunda (condrodisplasia craneofacial, 0.9975) carecen de ensayos y literatura y no tienen vínculo mecanístico plausible. Este informe se centra en la osteodistrofia renal, la primera predicción con evidencia clínica relacionada.
 
 ## ¿Por qué es Razonable esta Predicción?
 

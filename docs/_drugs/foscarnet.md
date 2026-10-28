@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Foscarnet: nueva indicación predicha, Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaci…"
+last_modified_at: 2026-10-28
 monitor_inn: "FOSCARNET"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "rheumatoid arthritis", "diabetic nephropathy"]
+description: "Foscarnet: nueva indicación predicha, Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas (autosomal domi… (nivel de evidencia L5). Indicación orig…"
 ---
 
 # Foscarnet
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Foscarnet: De Indicación Original No Disponible a Síndrome de Hematuria Familiar Autosómico Dominante con Tortuosidad Arteriolar Retiniana y Contracturas
+## Foscarnet: Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas (autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,9 +45,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hematuri
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de las autorizaciones de la AEMPS |
-| Nueva Indicación Predicha | Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas |
-| Puntaje de Predicción TxGNN | 0,9956 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de hematuria familiar autosómico dominante con tortuosidad arteriolar retiniana y contracturas (autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome) |
+| Puntaje de Predicción TxGNN | 0.9956 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
 | Número de Autorizaciones | 3 (vigentes: 2) |
@@ -61,7 +61,7 @@ La enfermedad predicha es un trastorno genético raro (vasculopatía relacionada
 
 Por tanto, esta predicción debe considerarse una señal computacional sin sustento biológico demostrado, y no una hipótesis de reposicionamiento plausible.
 
-Otras predicciones del modelo tampoco muestran respaldo: enfermedad de vasos pequeños cerebrales tipo 1 (99,54 %), artritis reumatoide (99,52 %) y nefropatía diabética (99,43 %). En esta última existe además una preocupación de seguridad, ya que foscarnet es nefrotóxico.
+Otras predicciones del modelo tampoco muestran respaldo: enfermedad de vasos pequeños cerebrales tipo 1 (0.9954), artritis reumatoide (0.9952) y nefropatía diabética (0.9943). En esta última existe además una preocupación de seguridad, ya que foscarnet es nefrotóxico.
 
 ## Evidencia de Ensayos Clínicos
 

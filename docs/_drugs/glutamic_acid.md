@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 382
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (nivel de evidencia L4). Indicación original: No disponible en la autorización de la AEMPS (texto de indicación vac…"
+last_modified_at: 2026-10-28
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
+description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (postmenopausal osteoporosis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Glutamic Acid
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Ácido glutámico: De indicación original no registrada a Osteoporosis posmenopáusica
+## Glutamic Acid: Osteoporosis posmenopáusica (postmenopausal osteoporosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis posmenopáu
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en la autorización de la AEMPS (texto de indicación vacío) |
-| Nueva Indicación Predicha | Osteoporosis posmenopáusica |
-| Puntaje de Predicción TxGNN | 0,9934 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Osteoporosis posmenopáusica (postmenopausal osteoporosis) |
+| Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
@@ -120,7 +120,7 @@ La puntuación del modelo es muy alta, pero no hay ensayos clínicos y la litera
 - Estudios preclínicos y clínicos con ácido glutámico propiamente dicho que evalúen densidad mineral ósea, marcadores de recambio óseo o fracturas.
 - Evaluación de seguridad en poblaciones con enfermedad renal, hipercalcemia o cardiopatía.
 
-**Otras indicaciones predichas (solo contexto):** osteoporosis asociada al embarazo (99,18 %, L5, sin evidencia, Hold), glaucoma hereditario primario (99,13 %, L5, Hold; la excitotoxicidad por glutamato sugiere posible efecto perjudicial) y gastroparesia (99,11 %, L5, Hold; la literatura no evalúa el ácido glutámico como tratamiento).
+**Otras indicaciones predichas (solo contexto):** osteoporosis asociada al embarazo (0.9918, L5, sin evidencia, Hold), glaucoma hereditario primario (0.9913, L5, Hold; la excitotoxicidad por glutamato sugiere posible efecto perjudicial) y gastroparesia (0.9911, L5, Hold; la literatura no evalúa el ácido glutámico como tratamiento).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 800
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -112,7 +112,7 @@ La predicción tiene un puntaje alto, pero no existen ensayos clínicos y la evi
 - Estudios clínicos que evalúen tobramicina tópica en queratitis por exposición, centrados en la prevención de infección secundaria
 - Evaluación de la seguridad del epitelio corneal comprometido frente a alternativas (lubricación, antibióticos menos tóxicos)
 
-**Otras predicciones (breve nota):** otitis externa (99.81%, L4) es la más plausible, con respaldo en series de casos y estudios microbiológicos, aunque la indicación ótica tópica ya está establecida en la práctica. El resto de las predicciones (p. ej., cardiomiopatía de Chagas, síndrome hemolítico urémico asociado a infección, vasculitis postinfecciosa) carece de evidencia o mecanismo creíble.
+**Otras predicciones (breve nota):** otitis externa (0.9981, L4) es la más plausible, con respaldo en series de casos y estudios microbiológicos, aunque la indicación ótica tópica ya está establecida en la práctica. El resto de las predicciones (p. ej., cardiomiopatía de Chagas, síndrome hemolítico urémico asociado a infección, vasculitis postinfecciosa) carece de evidencia o mecanismo creíble.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

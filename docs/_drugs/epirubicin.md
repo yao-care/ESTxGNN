@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 297
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: nueva indicación predicha, Linfoma pulmonar primario (primary pulmonary lymphoma) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -112,7 +112,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es muy alta (99.71%), pero no hay ensayos clínicos y la literatura es indirecta (reportes de caso, series retrospectivas y revisiones). El estándar actual usa doxorrubicina, no epirubicina, y el perfil de toxicidad (mielosupresión y cardiotoxicidad) exige una justificación clara de beneficio.
+La predicción del modelo es muy alta (0.9971), pero no hay ensayos clínicos y la literatura es indirecta (reportes de caso, series retrospectivas y revisiones). El estándar actual usa doxorrubicina, no epirubicina, y el perfil de toxicidad (mielosupresión y cardiotoxicidad) exige una justificación clara de beneficio.
 
 **Para avanzar se necesita:**
 - Datos específicos de epirubicina en linfoma pulmonar primario (series de casos, estudios retrospectivos o ensayos).

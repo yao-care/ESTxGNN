@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 description: "Meclizine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -62,7 +62,7 @@ La urticaria alérgica es una enfermedad mediada por histamina, por lo que el bl
 
 Conviene señalar que ya existen antihistamínicos H1 con mejor respaldo de evidencia para esta indicación, en particular los de segunda generación, que causan menos sedación. Esto limita el interés práctico del reposicionamiento.
 
-Otras indicaciones predichas, todas con nivel L5 y decisión Hold: resfriado común (99.49%), enfermedad de la cavidad nasal (99.48%), faringitis (99.45%), laringofaringitis aguda (99.37%) y urticaria por frío (99.22%). En las afecciones de vías respiratorias altas el beneficio sería solo sintomático, y el efecto secante anticolinérgico podría ser contraproducente.
+Otras indicaciones predichas, todas con nivel L5 y decisión Hold: resfriado común (0.9949), enfermedad de la cavidad nasal (0.9948), faringitis (0.9945), laringofaringitis aguda (0.9937) y urticaria por frío (0.9922). En las afecciones de vías respiratorias altas el beneficio sería solo sintomático, y el efecto secante anticolinérgico podría ser contraproducente.
 
 ## Evidencia de Ensayos Clínicos
 

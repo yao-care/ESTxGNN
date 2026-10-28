@@ -5,10 +5,10 @@ parent: Evidencia alta (L1-L2)
 nav_order: 669
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No disponible en los textos de autorización de AEMPS (uso conocido: a…"
+last_modified_at: 2026-10-28
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
+description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Propofol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-## Propofol: De Anestesia/Sedación a Migraña
+## Propofol: Migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,7 +46,7 @@ con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los textos de autorización de AEMPS (uso conocido: anestesia general y sedación) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L2 |
@@ -120,10 +120,10 @@ Hay un ensayo completado de Fase 2/3 (n=74) y varios ECA publicados que evalúan
 - Evaluar la señal de vasoespasmo coronario en pacientes con riesgo cardiovascular.
 
 **Otras predicciones del modelo (de menor soporte):**
-- *Migraña con aura del tronco encefálico* (99.58%, L3, "Research Question"): extrapolación de la migraña general, sin ensayos específicos del subtipo.
-- *Angina de Prinzmetal* (99.23%, L4, Hold): la literatura sugiere una señal de seguridad, no un beneficio terapéutico.
-- *Síndrome nefrogénico de antidiuresis inapropiada* (99.20%, L5, Hold): solo predicción computacional.
-- *Síndrome de Tourette* (99.03%, L4, Hold): el propofol se usó solo como anestésico en estudios de registro durante cirugía de estimulación cerebral profunda.
+- *Migraña con aura del tronco encefálico* (0.9958, L3, "Research Question"): extrapolación de la migraña general, sin ensayos específicos del subtipo.
+- *Angina de Prinzmetal* (0.9923, L4, Hold): la literatura sugiere una señal de seguridad, no un beneficio terapéutico.
+- *Síndrome nefrogénico de antidiuresis inapropiada* (0.9920, L5, Hold): solo predicción computacional.
+- *Síndrome de Tourette* (0.9903, L4, Hold): el propofol se usó solo como anestésico en estudios de registro durante cirugía de estimulación cerebral profunda.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

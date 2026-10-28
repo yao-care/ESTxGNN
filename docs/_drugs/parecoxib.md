@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 611
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+last_modified_at: 2026-10-28
 monitor_inn: "PARECOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
+description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Parecoxib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-## Parecoxib: De Indicación Original No Especificada a Trastorno de Migraña
+## Parecoxib: Trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,9 +46,9 @@ con **0 ensayos clínicos** registrados y **1 publicación clínica** (un estudi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 0,9955 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0.9955 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 2) |
@@ -94,7 +94,7 @@ Como aspecto de cautela general, los inhibidores selectivos de la COX-2 pueden p
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es muy alta (99,55%) y existe un mecanismo plausible (COX-2/PGE2/CGRP), pero la evidencia clínica se limita a un estudio piloto de diseño no confirmado y no hay ensayos registrados. Tampoco se dispone de datos de seguridad de la ficha técnica, lo que impide avanzar.
+La predicción del modelo es muy alta (0.9955) y existe un mecanismo plausible (COX-2/PGE2/CGRP), pero la evidencia clínica se limita a un estudio piloto de diseño no confirmado y no hay ensayos registrados. Tampoco se dispone de datos de seguridad de la ficha técnica, lo que impide avanzar.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto/ficha técnica de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas)

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
+last_modified_at: 2026-10-28
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Perindopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Perindopril
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Perindopril: De Hipertensión a Enfermedad renal hipertensiva maligna
+## Perindopril: Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,8 +46,8 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **1 p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (trastorno hipertensivo) |
-| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 5 de 13) |
@@ -106,10 +106,10 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos y 
 
 ### Otras predicciones de menor prioridad (para referencia)
 
-- **Hipertensión renovascular maligna** (99.77%, L5, Hold): plausible por dependencia del sistema renina-angiotensina, sin ensayos ni literatura.
-- **Hipertensión pulmonar de mecanismo multifactorial incierto** (99.75%, L5, Hold): vínculo débil e inespecífico; los IECA no son terapia recomendada.
-- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (99.75%, L4, pregunta de investigación): solo datos preclínicos en ratas hipóxicas (PMID 11282121 y 10602319), sin ensayos en humanos.
-- **Síndrome de Braddock** (99.66%, L5, Hold): sin fundamento mecanístico identificable.
+- **Hipertensión renovascular maligna** (0.9977, L5, Hold): plausible por dependencia del sistema renina-angiotensina, sin ensayos ni literatura.
+- **Hipertensión pulmonar de mecanismo multifactorial incierto** (0.9975, L5, Hold): vínculo débil e inespecífico; los IECA no son terapia recomendada.
+- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (0.9975, L4, pregunta de investigación): solo datos preclínicos en ratas hipóxicas (PMID 11282121 y 10602319), sin ensayos en humanos.
+- **Síndrome de Braddock** (0.9966, L5, Hold): sin fundamento mecanístico identificable.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

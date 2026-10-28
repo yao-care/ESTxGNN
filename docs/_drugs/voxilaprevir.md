@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 860
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Voxilaprevir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C"
+last_modified_at: 2026-10-28
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Voxilaprevir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Voxilaprevir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Voxilaprevir: De Infección por Virus de la Hepatitis C a Infección por Virus de la Hepatitis B
+## Voxilaprevir: Infección por virus de la hepatitis B (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección crónica por el virus de la hepatitis C |
-| Nueva Indicación Predicha | Infección por virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 0,9984 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Infección por virus de la hepatitis B (hepatitis B virus infection) |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
@@ -65,7 +65,7 @@ La relación mecanística con la hepatitis B es débil. El VHB no codifica una p
 
 Además, la necesidad terapéutica en hepatitis B ya está cubierta por los análogos de nucleós(t)idos. Por ello la predicción debe considerarse una hipótesis computacional sin respaldo experimental.
 
-**Otras predicciones del modelo (todas con nivel L5, salvo VIH en L4, y decisión Hold):** hepatitis E (99,71%), hepatitis viral animal (99,70%), hepatitis A (99,70%), fiebre hemorrágica de Omsk (99,70%), enfermedad del bosque de Kyasanur (99,69%), infección por VIH (99,32%), hepatitis B crónica (99,21%), infección por virus de inmunodeficiencia simia (99,07%) e inmunodeficiencia adquirida felina (99,07%). Solo en los flavivirus (Omsk y Kyasanur) existe un vínculo especulativo, por la proteasa NS2B/NS3 distantemente homóloga a la del VHC; no hay datos que demuestren inhibición por voxilaprevir.
+**Otras predicciones del modelo (todas con nivel L5, salvo VIH en L4, y decisión Hold):** hepatitis E (0.9971), hepatitis viral animal (0.9970), hepatitis A (0.9970), fiebre hemorrágica de Omsk (0.9970), enfermedad del bosque de Kyasanur (0.9969), infección por VIH (0.9932), hepatitis B crónica (0.9921), infección por virus de inmunodeficiencia simia (0.9907) e inmunodeficiencia adquirida felina (0.9907). Solo en los flavivirus (Omsk y Kyasanur) existe un vínculo especulativo, por la proteasa NS2B/NS3 distantemente homóloga a la del VHC; no hay datos que demuestren inhibición por voxilaprevir.
 
 ---
 

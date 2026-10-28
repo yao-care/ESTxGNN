@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -115,7 +115,7 @@ La predicción tiene un puntaje alto (0,9915) y una base mecanística plausible 
 - Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente sin datos).
 - Evaluación de seguridad, en particular del riesgo hemorrágico y de las interacciones identificadas.
 
-**Otras predicciones (evidencia solo de modelo, nivel L5, decisión Hold):** liposarcoma (99,13%) y liposarcoma mixoide de ovario (99,12%). No hay ensayos ni literatura, y la relación mecanística con las dianas de nintedanib no es específica.
+**Otras predicciones (evidencia solo de modelo, nivel L5, decisión Hold):** liposarcoma (0.9913) y liposarcoma mixoide de ovario (0.9912). No hay ensayos ni literatura, y la relación mecanística con las dianas de nintedanib no es específica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

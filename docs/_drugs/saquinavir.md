@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 726
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "SAQUINAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Saquinavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
@@ -66,10 +66,10 @@ El virus de la inmunodeficiencia felina (FIV) es un lentivirus con una proteasa 
 
 **Otras predicciones del modelo (contexto):**
 
-- **Infección por virus de inmunodeficiencia simia (SIV)** (99.97%, nivel L4): hay cuatro estudios preclínicos o in vitro. Uno de ellos muestra que el SIVmac239 es inhibido por saquinavir con una concentración efectiva del 50 % de 55 nM, frente a 47 nM para el VIH-1. Es evidencia indirecta, sin ensayos en humanos, y es un modelo animal.
-- **VIH congénito** (99.47%, nivel L3): dos estudios de cohorte observacionales (saquinavir/ritonavir en mujeres embarazadas y seguridad de la exposición intrauterina a antirretrovirales). No hay datos de eficacia pediátrica.
-- **Complejo relacionado con el SIDA** (99.47%, nivel L1): corresponde a la indicación original, con ensayos de Fase 3 y Fase 2 completados. Es coherente con el uso existente, no un reposicionamiento nuevo.
-- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (99.97%, L5) y **la hiperlipidemia combinada familiar obsoleta** (99.59%, L5): sin vínculo mecanístico plausible. En el segundo caso, los inhibidores de la proteasa suelen causar dislipidemia, lo que va en contra de un papel terapéutico.
+- **Infección por virus de inmunodeficiencia simia (SIV)** (0.9997, nivel L4): hay cuatro estudios preclínicos o in vitro. Uno de ellos muestra que el SIVmac239 es inhibido por saquinavir con una concentración efectiva del 50 % de 55 nM, frente a 47 nM para el VIH-1. Es evidencia indirecta, sin ensayos en humanos, y es un modelo animal.
+- No hay datos de eficacia pediátrica.
+- Es coherente con el uso existente, no un reposicionamiento nuevo.
+- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (0.9997, L5) y **la hiperlipidemia combinada familiar obsoleta** (0.9959, L5): sin vínculo mecanístico plausible. En el segundo caso, los inhibidores de la proteasa suelen causar dislipidemia, lo que va en contra de un papel terapéutico.
 
 ---
 

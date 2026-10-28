@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-23
-description: "Durvalumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (nivel de evidencia L5). Indicación original: Carcinoma de células transicionales"
+last_modified_at: 2026-10-28
+description: "Durvalumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Durvalumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Durvalumab: De Carcinoma de Células de Transición a Carcinoma Adenoide Uterino (adenocarcinoma del ligamento uterino)
+## Durvalumab: Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,9 +46,9 @@ Entre las predicciones del mismo fármaco, la mejor respaldada es el **carcinoma
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de células transicionales (relación registrada en el grafo de conocimiento; no hay texto de indicación aprobada en las autorizaciones locales) |
-| Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino |
-| Puntaje de Predicción TxGNN | 0,9992 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Español | Comercializado (registros vigentes: 4 de 4) |
 | Número de Autorizaciones | 4 (vigentes: 4) |
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, esta es una extrapolación: no existe ningún ensayo ni publicación en los datos que estudie directamente el adenocarcinoma del ligamento uterino. La puntuación TxGNN (0,999) es solo una salida del modelo y no constituye evidencia clínica. Por ello el nivel de evidencia se mantiene en L5.
 
-Otras predicciones del modelo para este fármaco, todas en el ámbito ginecológico, son: carcinoma endocervical (99,91%), carcinoma adenoide quístico del cuello uterino (99,91%), adenocarcinoma seroso del ligamento uterino (99,91%), adenocarcinoma mucinoso cervical variante de células en anillo de sello (99,90%) y adenocarcinoma mucinoso cervical variante intestinal (99,90%). De ellas, solo el carcinoma endocervical cuenta con algún respaldo (ver abajo; nivel L3 según el análisis previo, pero ver nota en la conclusión).
+Otras predicciones del modelo para este fármaco, todas en el ámbito ginecológico, son: carcinoma endocervical (0.9992), carcinoma adenoide quístico del cuello uterino (0.9992), adenocarcinoma seroso del ligamento uterino (0.9992), adenocarcinoma mucinoso cervical variante de células en anillo de sello (0.9991) y adenocarcinoma mucinoso cervical variante intestinal (0.9991). De ellas, solo el carcinoma endocervical cuenta con algún respaldo (ver abajo; nivel L3 según el análisis previo, pero ver nota en la conclusión).
 
 ## Evidencia de Ensayos Clínicos
 

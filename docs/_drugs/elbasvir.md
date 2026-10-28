@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 281
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "elbasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Elbasvir: nueva indicación predicha, Infección por el virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -66,9 +66,9 @@ La relación con la hepatitis B es débil mecanísticamente: el VHB no tiene un 
 Por ello, esta predicción debe considerarse una hipótesis generada por el modelo y no una indicación respaldada por evidencia.
 
 **Otras predicciones del modelo (todas con nivel L4-L5):**
-- **Hepatitis E** (99.66%): la única con una señal mecanística plausible. Un estudio in vitro de 2026 (PMID 42347219) indica que elbasvir inhibe la internalización del VHE y, combinado con ribavirina, logra supresión viral sostenida. Es evidencia preclínica, sin ensayos clínicos.
-- **Hepatitis A** (99.65%): los 40 ensayos listados son de hepatitis C y no aportan evidencia para VHA, aunque algunos sean de Fase 3.
-- **Infección por VIH** (99.61%): los ensayos son de pacientes coinfectados VIH/VHC tratados por la hepatitis C, no por el VIH. El elevado número de ensayos es un artefacto de la coinfección.
+- **Hepatitis E** (0.9966): la única con una señal mecanística plausible. Un estudio in vitro de 2026 (PMID 42347219) indica que elbasvir inhibe la internalización del VHE y, combinado con ribavirina, logra supresión viral sostenida. Es evidencia preclínica, sin ensayos clínicos.
+- **Hepatitis A** (0.9965): los 40 ensayos listados son de hepatitis C y no aportan evidencia para VHA, aunque algunos sean de Fase 3.
+- **Infección por VIH** (0.9961): los ensayos son de pacientes coinfectados VIH/VHC tratados por la hepatitis C, no por el VIH. El elevado número de ensayos es un artefacto de la coinfección.
 - **Hepatitis viral animal, fiebre hemorrágica de Omsk, enfermedad del bosque de Kyasanur, síndrome de inmunodeficiencia adquirida felina, infección por virus de inmunodeficiencia símica y un trastorno del neurodesarrollo raro:** solo predicción del modelo, sin evidencia que los respalde o con vínculos mecanísticos no plausibles.
 
 ---

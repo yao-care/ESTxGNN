@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 824
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "triamterene"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Triamterene: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Sin embargo, la enfermedad renal hipertensiva maligna es una emergencia hipertensiva con daño renal que requiere tratamiento parenteral rápido; un diurético oral de efecto moderado no es un tratamiento primario adecuado.
 
-Otras predicciones del modelo tienen una base igualmente débil: hipertensión renovascular maligna (99.89%), hipertensión pulmonar de mecanismo multifactorial incierto (99.88%), hipertensión pulmonar por enfermedad pulmonar o hipoxia (99.88%), síndrome de Braddock (99.84%) y cor pulmonale crónico (99.75%, nivel L4, con apoyo solo indirecto del manejo de la insuficiencia cardíaca). Ninguna cuenta con ensayos clínicos que evalúen el triamtereno en esas indicaciones.
+Otras predicciones del modelo tienen una base igualmente débil: hipertensión renovascular maligna (0.9989), hipertensión pulmonar de mecanismo multifactorial incierto (0.9988), hipertensión pulmonar por enfermedad pulmonar o hipoxia (0.9988), síndrome de Braddock (0.9984) y cor pulmonale crónico (0.9975, nivel L4, con apoyo solo indirecto del manejo de la insuficiencia cardíaca). Ninguna cuenta con ensayos clínicos que evalúen el triamtereno en esas indicaciones.
 
 ## Evidencia de Ensayos Clínicos
 

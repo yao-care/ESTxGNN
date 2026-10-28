@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -102,7 +102,7 @@ La predicción se apoya en un puntaje alto del modelo (0.9958), pero la única e
 
 ---
 
-**Nota sobre otras indicaciones predichas:** el modelo también predijo rinosinusitis crónica (99.15%, L4; existen revisiones sistemáticas, pero sobre doxiciclina o la clase de antibióticos y no sobre tetraciclina), sinusitis etmoidal crónica (99.15%, L4) y neoplasia de senos paranasales (99.10%, L5, solo predicción del modelo). Ninguna cuenta con ensayos clínicos específicos de tetraciclina.
+**Nota sobre otras indicaciones predichas:** el modelo también predijo rinosinusitis crónica (0.9915, L4; existen revisiones sistemáticas, pero sobre doxiciclina o la clase de antibióticos y no sobre tetraciclina), sinusitis etmoidal crónica (0.9915, L4) y neoplasia de senos paranasales (0.9910, L5, solo predicción del modelo). Ninguna cuenta con ensayos clínicos específicos de tetraciclina.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Pentamidine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "exposure keratitis", "non-human animal disease", "congenital analbuminemia"]
 description: "Pentamidine: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -61,7 +61,7 @@ La relación con la nueva indicación es débil. Los datos no respaldan ningún 
 
 Además, la toxicidad sistémica conocida de la pentamidina (nefrotoxicidad, alteraciones de la glucemia, prolongación del QT) y su elevada carga de interacciones farmacológicas pesarían en contra de su uso sin una justificación clara.
 
-Otras predicciones del modelo, todas con evidencia L5 y recomendación Hold: queratopatía neurotrófica (99,67%), queratitis por exposición (99,36%), enfermedad animal no humana (99,13%, categoría no específica y no accionable en humanos, probablemente un artefacto de la ontología) y analbuminemia congénita (99,09%).
+Otras predicciones del modelo, todas con evidencia L5 y recomendación Hold: queratopatía neurotrófica (0.9967), queratitis por exposición (0.9936), enfermedad animal no humana (0.9913, categoría no específica y no accionable en humanos, probablemente un artefacto de la ontología) y analbuminemia congénita (0.9909).
 
 ## Evidencia de Ensayos Clínicos
 
