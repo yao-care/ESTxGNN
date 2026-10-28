@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "carbenoxolone"
 predicted_indications: ["non-syndromic esophageal malformation", "vitamin deficiency disorder", "biotin metabolic disease", "filariasis", "bile duct disease", "bile duct neoplasm", "tinea nigra"]
 description: "Carbenoxolone: nueva indicación predicha, Malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

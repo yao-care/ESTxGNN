@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "cefditoren"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Cefditoren: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 ---
 

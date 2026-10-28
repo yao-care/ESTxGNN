@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: No consta en los datos locales"

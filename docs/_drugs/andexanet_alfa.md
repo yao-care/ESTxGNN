@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Andexanet Alfa: nueva indicación predicha, Trombastenia de Glanzmann (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización de la AEMPS (texto de indi…"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]

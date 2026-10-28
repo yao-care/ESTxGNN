@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Almasilate"
 predicted_indications: ["gastroduodenitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Almasilate: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

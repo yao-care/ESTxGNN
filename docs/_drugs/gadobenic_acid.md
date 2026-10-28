@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Gadobenic Acid: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: Agente de contraste para diagnóstico por RM (las autorizaciones no in…"
 monitor_inn: "gadobenic acid"
 predicted_indications: ["osteoarthritis"]

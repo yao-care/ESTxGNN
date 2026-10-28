@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
 description: "Decitabine: nueva indicación predicha, Citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

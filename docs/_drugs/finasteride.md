@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). Indicación original: No consta en los datos locales"

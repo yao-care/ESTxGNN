@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 description: "Moroctocog Alfa: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en los da…"

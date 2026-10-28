@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Ascorbic Acid: nueva indicación predicha, Malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

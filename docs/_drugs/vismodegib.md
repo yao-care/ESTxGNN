@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 854
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
 description: "Vismodegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (medulloblastoma with extensive nodularity) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

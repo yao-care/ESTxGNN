@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

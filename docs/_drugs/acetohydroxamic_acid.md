@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "acetohydroxamic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Acetohydroxamic Acid: nueva indicación predicha, Uretritis por Ureaplasma (Ureaplasma urethritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

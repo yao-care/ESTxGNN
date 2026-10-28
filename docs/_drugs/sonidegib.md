@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sonidegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (nivel de evidencia L2). Indicación original: Carcinoma cutáneo / carcinoma basocelular"
 monitor_inn: "SONIDEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]

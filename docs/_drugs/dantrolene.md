@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
 description: "Dantrolene: nueva indicación predicha, Moderate multiminicore disease with hand involvement (nivel de evidencia L5). Indicación original: No consta en los datos locales"

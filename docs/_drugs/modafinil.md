@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 539
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"

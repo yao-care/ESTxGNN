@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Hexetidine: nueva indicación predicha, Aneurisma del tabique interventricular (nivel de evidencia L5). Indicación original: No disponible en la autorización de la AEMPS (el texto de indicación…"
 monitor_inn: "hexetidine"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]

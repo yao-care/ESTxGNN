@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 170
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "chloramphenicol"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 description: "Chloramphenicol: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 643
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: nueva indicación predicha, Mastocitoma extracutáneo (extracutaneous mastocytoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

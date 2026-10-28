@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 637
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"

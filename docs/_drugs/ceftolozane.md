@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
 description: "Ceftolozane: nueva indicación predicha, Uretritis por Ureaplasma (Ureaplasma urethritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

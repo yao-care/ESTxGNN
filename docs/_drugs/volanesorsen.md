@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Volanesorsen: nueva indicación predicha, Anemia megaloblástica (nivel de evidencia L5). Indicación original: No disponible en los datos de la licencia AEMPS (el texto de indicaci…"
 monitor_inn: "VOLANESORSEN"
 predicted_indications: ["megaloblastic anemia (disease)", "sclerosing cholangitis", "sickle cell disease and related diseases", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome", "meningococcal infection", "paroxysmal nocturnal hemoglobinuria"]

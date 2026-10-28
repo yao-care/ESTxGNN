@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 507
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"

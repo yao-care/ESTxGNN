@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 192
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L3). Indicación original: No disponible en los datos de autorización compilados (los textos de…"
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]

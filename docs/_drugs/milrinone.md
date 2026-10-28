@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Milrinone: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Insuficiencia cardiaca congestiva (según datos farmacológicos"
 monitor_inn: "milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]

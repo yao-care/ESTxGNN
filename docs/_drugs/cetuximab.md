@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
 description: "Cetuximab: nueva indicación predicha, Bronchial adenomas/carcinoids childhood (nivel de evidencia L5). Indicación original: No consta en los datos locales"

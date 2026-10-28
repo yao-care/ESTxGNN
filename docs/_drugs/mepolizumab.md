@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (thrombocytopenia due to immune destruction) (nivel de evidencia L5). Indicación original: No consta en los datos locale"

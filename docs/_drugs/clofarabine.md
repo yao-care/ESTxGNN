@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 194
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda (según la base de conocimiento del modelo"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]

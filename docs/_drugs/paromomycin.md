@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "paromomycin"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 description: "Paromomycin: nueva indicación predicha, Idiopathic copper-associated cirrhosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"

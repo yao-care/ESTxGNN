@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 630
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Phenazopyridine: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "phenazopyridine"
 predicted_indications: ["bronchitis"]

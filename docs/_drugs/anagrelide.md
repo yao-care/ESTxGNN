@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Anagrelide: nueva indicación predicha, trombocitosis reactiva (reactive thrombocytosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

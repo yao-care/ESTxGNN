@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Fenfluramine: nueva indicación predicha, Síndrome de microdeleción proximal 16p11.2 (proximal 16p11.2 microdeletion syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos loca…"

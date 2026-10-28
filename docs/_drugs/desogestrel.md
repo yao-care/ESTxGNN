@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los textos de autorización de la AEMPS (uso conocido…"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]

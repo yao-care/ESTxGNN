@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 862
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "xylometazoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Xylometazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales"

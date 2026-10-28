@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 543
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: nueva indicación predicha, Myofascial pain syndrome (nivel de evidencia L3). Indicación original: No consta en los datos locales"

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 310
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Estriol: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los datos de las autorizaciones de AEMPS (el texto d…"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 description: "Cladribine: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"

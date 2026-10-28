@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
 description: "Temsirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"

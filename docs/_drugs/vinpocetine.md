@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 853
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Vinpocetine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome"]
 description: "Vinpocetine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

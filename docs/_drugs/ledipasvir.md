@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 457
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ledipasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C (según la base de co…"
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]

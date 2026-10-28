@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 276
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Efavirenz: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L3). Indicación original: No consta en los dat…"

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 550
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
 description: "Naftidrofuryl: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L1). Indicación original: No consta en los datos locales"

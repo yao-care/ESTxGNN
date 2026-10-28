@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Alitretinoin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 monitor_inn: "alitretinoin"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "aortic malformation", "postmenopausal osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "breast fibrocystic disease", "benign mammary dysplasia", "Worth syndrome"]

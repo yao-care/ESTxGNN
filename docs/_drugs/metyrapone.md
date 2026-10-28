@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "metyrapone"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
 description: "Metyrapone: nueva indicación predicha, Hipertermia maligna inducida por el ejercicio (nivel de evidencia L5). Indicación original: No disponible en la autorización de la AEMPS (el texto de indicación"

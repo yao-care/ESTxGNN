@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 807
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "toremifene"
 predicted_indications: ["HIV infectious disease"]
 description: "Toremifene: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

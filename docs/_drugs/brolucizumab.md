@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices with bleeding", "esophageal varices without bleeding", "exocrine pancreatic insufficiency"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Brolucizumab: nueva indicación predicha, trastorno de la fosforilación oxidativa mitocondrial por anomalías del ADN nuclear (mitochondrial oxidative phosphoryla… (nivel de evidencia L5). Indicación o…"
 ---
 

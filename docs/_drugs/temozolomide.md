@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Temozolomide: nueva indicación predicha, Neoplasia de la cauda equina (cauda equina neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 589
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"

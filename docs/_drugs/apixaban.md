@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 60
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Apixaban: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "apixaban"
 predicted_indications: ["migraine disorder"]

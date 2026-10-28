@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

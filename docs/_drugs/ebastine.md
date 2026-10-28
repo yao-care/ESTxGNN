@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
 description: "Ebastine: nueva indicación predicha, Enfermedad de las arterias coronarias (coronary artery disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

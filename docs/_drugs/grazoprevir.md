@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 386
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Grazoprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C (el texto de indicac…"
 monitor_inn: "grazoprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]

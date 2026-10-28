@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 723
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
 description: "Salicylamide: nueva indicación predicha, Faringitis (pharyngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

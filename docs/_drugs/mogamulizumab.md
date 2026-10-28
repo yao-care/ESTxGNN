@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 540
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "MOGAMULIZUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
 description: "Mogamulizumab: nueva indicación predicha, Carcinoma urotelial de la uretra prostática (prostatic urethra urothelial carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos loc…"

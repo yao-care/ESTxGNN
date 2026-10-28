@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pentoxyverine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

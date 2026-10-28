@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 665
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L3). Indicación original: No consta en los datos locales"

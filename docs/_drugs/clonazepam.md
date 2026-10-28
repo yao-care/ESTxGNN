@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 198
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L3). Indicación original: No consta en los datos locales"

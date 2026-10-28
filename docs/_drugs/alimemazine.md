@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alimemazine"
 predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Alimemazine: nueva indicación predicha, respuesta de IgE atópica (IgE responsiveness, atopic) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

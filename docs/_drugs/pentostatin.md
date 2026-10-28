@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "pentostatin"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma"]
 description: "Pentostatin: nueva indicación predicha, Rabdomiosarcoma embrionario botrioide de vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (nivel de evidencia L5). Indicación original: No const…"

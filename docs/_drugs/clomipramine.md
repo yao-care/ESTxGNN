@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 197
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (anxiety disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"

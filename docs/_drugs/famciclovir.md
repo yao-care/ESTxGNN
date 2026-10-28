@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "FAMCICLOVIR"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Famciclovir: nueva indicación predicha, Neuralgia postinfecciosa (post-infectious neuralgia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

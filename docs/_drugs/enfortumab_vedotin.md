@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Enfortumab Vedotin: nueva indicación predicha, Lepra (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 monitor_inn: "enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "malignant catarrh", "infectious bovine rhinotracheitis"]

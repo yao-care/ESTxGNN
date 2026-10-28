@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
 description: "Lonoctocog Alfa: nueva indicación predicha, Enfermedad de pseudo-von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

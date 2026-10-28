@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sotalol: nueva indicación predicha, Síndrome del seno enfermo 2, autosómico dominante (nivel de evidencia L5). Indicación original: Fibrilación auricular (la autorización española no incluye texto de…"
 monitor_inn: "SOTALOL"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]

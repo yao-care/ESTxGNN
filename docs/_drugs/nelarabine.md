@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 558
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

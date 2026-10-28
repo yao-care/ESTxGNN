@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 780
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L1). Indicación original: No consta en los datos locales"

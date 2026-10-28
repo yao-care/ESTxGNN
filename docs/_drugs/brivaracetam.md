@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Brivaracetam: nueva indicación predicha, Déficit de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

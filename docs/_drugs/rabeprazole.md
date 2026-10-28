@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 676
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Rabeprazole: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---

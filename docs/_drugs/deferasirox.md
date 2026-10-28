@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 229
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 description: "Deferasirox: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"

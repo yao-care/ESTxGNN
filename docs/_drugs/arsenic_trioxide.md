@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "arsenic trioxide"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Arsenic Trioxide: nueva indicación predicha, Síndrome mielodisplásico no clasificado (unclassified myelodysplastic syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 

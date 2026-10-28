@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"

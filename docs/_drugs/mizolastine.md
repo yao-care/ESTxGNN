@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Mizolastine"
 predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "extrapyramidal and movement disease", "benign shuddering attacks", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
 description: "Mizolastine: nueva indicación predicha, Porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

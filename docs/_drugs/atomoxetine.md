@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Atomoxetine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

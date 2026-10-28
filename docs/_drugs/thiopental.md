@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 791
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). Indicación original: No consta en los datos locales"

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 840
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: nueva indicación predicha, Carcinoma de células renales (renal cell carcinoma (disease)) (nivel de evidencia L2). Indicación original: No consta en los datos locales"

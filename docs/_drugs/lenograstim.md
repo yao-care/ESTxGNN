@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Lenograstim: nueva indicación predicha, Trastorno de liberación primaria de plaquetas (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de AEMPS (texto de…"
 monitor_inn: "LENOGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]

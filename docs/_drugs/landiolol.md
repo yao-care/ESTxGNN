@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Landiolol: nueva indicación predicha, Discinesia lingual-facial-bucal (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (el texto de indicación est…"
 monitor_inn: "LANDIOLOL"
 predicted_indications: ["lingual-facial-buccal dyskinesia", "chronic tic disorder", "psychogenic movement disorders", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor"]

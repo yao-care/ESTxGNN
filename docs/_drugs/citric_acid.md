@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 185
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: nueva indicación predicha, Enfermedad del estómago (stomach disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"

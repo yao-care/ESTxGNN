@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CEMIPLIMAB"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
 description: "Cemiplimab: nueva indicación predicha, Gallbladder adenosquamous carcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"

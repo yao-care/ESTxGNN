@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 524
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
