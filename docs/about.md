@@ -24,6 +24,9 @@ Más allá de las puntuaciones de predicción de la IA, la plataforma integra ev
 ClinicalTrials.gov y PubMed para que los investigadores puedan evaluar rápidamente su credibilidad.
 </p>
 
+Consulte el <a href="/methodology/">proceso de predicción y gradación de la evidencia</a> o la
+<a href="/guide/">guía de uso</a> para saber cómo leer un informe de medicamento.
+
 ---
 
 ## Sobre el desarrollador
@@ -99,6 +102,8 @@ enfermedades raras».
 </tbody>
 </table>
 
+Lista completa de fuentes y su uso en cada nivel de evidencia: <a href="/sources/">Fuentes de datos</a>.
+
 ---
 
 ## Base académica
@@ -112,9 +117,12 @@ enfermedades raras».
 
 | Elemento | Valor |
 |------|-------|
-| Informes de medicamentos | {{ site.data.drug_stats.total_drugs }} |
+| Informes de medicamentos | [{{ site.data.drug_stats.total_drugs }}](/drugs/) |
 | Autoridad reguladora | AEMPS |
 | Sitios desplegados | 30 países / regiones |
+
+Los informes se agrupan por nivel de evidencia: <a href="/evidence-high/">alta (L1-L2)</a>,
+<a href="/evidence-medium/">moderada (L3-L4)</a> y <a href="/evidence-low/">solo predicción del modelo (L5)</a>.
 
 ---
 
