@@ -132,7 +132,9 @@ def main(argv):
     lts = _load("lts", BASE / ".claude/license_table_sync_20261029.py")
     if not dry:
         run([PY, ".claude/dump_license_facts_20261021.py", site])
-        labels = lts.learn(site)
+        # 用語優先用固定檔（2026-10-30 在 Mac 從「頁面與事實一致」的狀態學出）；頁面落後於事實時現學會學歪
+        lf = BASE / ".claude/license_labels" / f"{site}.json"
+        labels = json.loads(lf.read_text(encoding="utf-8")) if lf.exists() else lts.learn(site)
         S["steps"].append(f"許可證表狀態欄寫法：{labels['preferred']}")
 
     # 2b. 寫回證據包（下載不到的許可證保留原狀態）
