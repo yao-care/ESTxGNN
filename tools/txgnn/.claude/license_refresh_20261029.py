@@ -92,6 +92,8 @@ def main(argv):
         S["exit"], S["result"] = code, msg
         (out / "summary.json").write_text(json.dumps(S, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         md = [f"## {site} 許可證更新 {S['date']}：{msg}", ""] + [f"- {x}" for x in S["steps"]]
+        if S.get("held"):
+            md += ["", f"### 擋下、等人看的頁（{len(S['held'])}）", ""] + [f"- `{x}`" for x in S["held"]]
         if S.get("checker_bad"):
             md += ["", "### checker 非 0 的頁", ""] + [f"- `{x}`" for x in S["checker_bad"]]
         if S.get("unsynced"):
@@ -196,11 +198,26 @@ def main(argv):
     m = re.search(r"非 0 (\d+)", ck)
     S["steps"].append("checker 全量：" + (ck.strip().split("\n")[0] if ck.strip() else "沒有輸出"))
     if not m or m.group(1) != "0":
+        # 非 0 的頁單獨擋下（還原、列進 held，workflow 另開 issue 等人看），其餘頁照常；擋下後必須歸零
         det = re.search(r"明細 (\S+)", ck)
-        S["checker_bad"] = [l for l in (BASE / det.group(1)).read_text(encoding="utf-8").split("\n")[1:] if l.count("\t") == 3 and l.split("\t")[3]][:100] if det else []
-        S["pages"] = changed_drug_pages(site)
-        git(site, "checkout", "--", "docs")
-        finish(4, "checker 非 0，頁面已還原、不 merge（明細見 checker_bad）")
+        bad = [l.split("\t") for l in (BASE / det.group(1)).read_text(encoding="utf-8").split("\n")[1:] if l.count("\t") == 3 and l.split("\t")[3]] if det else []
+        S["checker_bad"] = ["\t".join(x) for x in bad][:100]
+        held = [x[1] for x in bad]
+        if not bad or len(held) > 20:
+            S["pages"] = changed_drug_pages(site)
+            git(site, "checkout", "--", "docs")
+            finish(4, "checker 非 0，頁面已還原、不 merge（明細見 checker_bad）")
+        for pg in held:
+            git(site, "checkout", "--", f"docs/_drugs/{pg}.md")
+        S["held"] = held
+        S["fields"] = [x for x in S["fields"] if x.split("｜", 1)[0] not in held]
+        ck = run([PY, ".claude/checker_trend.py", "--no-append", site], check=False).stdout
+        m = re.search(r"非 0 (\d+)", ck)
+        S["steps"].append(f"擋下 {len(held)} 頁（頁面其他地方跟新狀態矛盾，排程不改正文，等人看）：{', '.join(held)}；擋下後 " + ck.strip().split("\n")[0])
+        if not m or m.group(1) != "0":
+            S["pages"] = changed_drug_pages(site)
+            git(site, "checkout", "--", "docs")
+            finish(4, "擋下非 0 頁後 checker 仍非 0，全部還原")
 
     # 4. 有人工查核紀錄的頁不自動改（Tw）
     rv = BASE / site / "docs/_data/drug_reviews.json"
