@@ -5,10 +5,10 @@ parent: Evidencia alta (L1-L2)
 nav_order: 442
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
+description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Conjuntivitis atópica…"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
-description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Ketorolac
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-## Ketorolac: Trastorno de cefalea (headache disorder)
+## Ketorolaco: De Conjuntivitis Atópica a Trastorno de Cefalea
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **17 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
+| Indicación Original | Conjuntivitis atópica, papilar y vernal (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones españolas no están disponibles) |
 | Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

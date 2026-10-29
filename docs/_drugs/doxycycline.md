@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis 
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 14) |
-| Número de Autorizaciones | 14 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 14) |
+| Número de Autorizaciones | 14 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

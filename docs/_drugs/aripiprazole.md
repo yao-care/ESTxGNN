@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Aripiprazole"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 description: "Aripiprazole: nueva indicación predicha, trastorno afectivo mayor (major affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Aripiprazole: trastorno afectivo mayor (major affective disorder)
+## Aripiprazol: agonista parcial de dopamina D2 y serotonina 5-HT1A → trastorno afectivo mayor (major affective disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,9 +48,9 @@ con **35 ensayos clínicos** y **20 publicaciones** registrados en los datos com
 |------|------|
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | trastorno afectivo mayor (major affective disorder) |
-| Puntaje de Predicción TxGNN | 0.9962 |
+| Puntaje de Predicción TxGNN | 0,9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

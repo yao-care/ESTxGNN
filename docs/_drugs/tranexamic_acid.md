@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 813
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tranexamic Acid
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Tranexamic Acid: Amenorrea (amenorrhea (disease)) (amenorrhea (disease))
+## Tranexamic Acid: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero actual
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) (amenorrhea (disease)) |
+| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
 | Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

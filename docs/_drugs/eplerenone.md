@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Eplerenone: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ pero actualmente no existen ensayos clínicos registrados y solo hay **13 public
 | Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Español | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en Español | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

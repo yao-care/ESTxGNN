@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
+description: "Aprepitant: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No disponible (los textos de indicación de las autorizaciones est…"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
-description: "Aprepitant: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nephrogenic syndrome of inappropriate antidiuresis) (nivel de evidencia L5)."
 ---
 
 # Aprepitant
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Aprepitant: Síndrome nefrogénico de antidiuresis inapropiada (nephrogenic syndrome of inappropriate antidiuresis)
+## Aprepitant: De Indicación Original No Disponible a Síndrome Nefrogénico de Antidiuresis Inapropiada
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada (nephrogenic syndrome of inappropriate antidiuresis) |
+| Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

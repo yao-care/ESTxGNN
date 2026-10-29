@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 756
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 description: "Sumatriptan: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -83,7 +83,7 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Sumatript
 | 66406 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 3314999C | sumatriptán | SOLUCION PARA PULVERIZACION NASAL | Autorizado, no comercializado |
 | 66453 | sumatriptán | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 71487 | sumatriptán | COMPRIMIDO | Cancelado |
+| 71487 | sumatriptán | COMPRIMIDO | Autorizado, no comercializado |
 | 68658 | sumatriptán | COMPRIMIDO | Cancelado |
 | 89461 | sumatriptán | SOLUCIÓN INYECTABLE EN PLUMA PRECARGADA | Autorizado, no comercializado |
 | 89272 | sumatriptán + naproxeno | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |

@@ -4,6 +4,7 @@
 <站>/scripts/license_adapter.py（介面見 load_adapter）。pm 驗收條件（2026-10-29）逐條對應：
   1 不經 AI：本支與它呼叫的腳本都不呼叫模型；有設 ALLOW_AI_REGEN 直接中止
   2 先停損：這輪改到的藥物頁 > min(200, 該站藥物頁 5%) → 不寫回、exit 3；checker 非 0、gate、h1 沒過 → exit 4
+    只改許可證欄位（狀態列、張數列、許可證表狀態格）；改到表格列以外的行 → 整批還原、exit 4
   3 lastmod：正文真的有變才換成今天；只動到 front matter 的頁還原成原本的 last_modified_at
   4 有人工查核紀錄（docs/_data/drug_reviews.json）的頁被改到 → 還原這些頁、exit 5，等人簽核
   5 下載失敗或格式變了 → exit 2，一頁都不改（下載不到的許可證保留原狀態，不寫成未記載）
@@ -91,6 +92,9 @@ def main(argv):
         S["exit"], S["result"] = code, msg
         (out / "summary.json").write_text(json.dumps(S, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         md = [f"## {site} 許可證更新 {S['date']}：{msg}", ""] + [f"- {x}" for x in S["steps"]]
+        if S.get("fields"):
+            md += ["", f"### 逐欄位變更（{len(S['fields'])}）", "", "| 頁 | 欄位 | 前值 → 後值 |", "|---|---|---|"] + \
+                  ["| " + x.replace("｜", " | ", 2) + " |" for x in S["fields"][:600]]
         if S.get("pages"):
             md += ["", f"### 改到的藥物頁（{len(S['pages'])}）", ""] + [f"- `{x}`" for x in S["pages"][:300]]
         (out / "summary.md").write_text("\n".join(md) + "\n", encoding="utf-8")
@@ -147,35 +151,50 @@ def main(argv):
             if not dry:
                 f.write_text(json.dumps(b, ensure_ascii=False, indent=2), encoding="utf-8")
     S["steps"].append(f"許可證狀態有變 {n_rec} 筆、{n_bundle} 個藥")
-    S["license_changes"] = changes[:500]
+    S["license_changes"] = changes[:1000]
     if len(ids) and n_rec / len(ids) > 0.2:
         finish(2, f"狀態變動 {n_rec}/{len(ids)} 筆超過 20%，疑似來源格式改變，不寫回")
     if dry:
         finish(0, f"試跑：{n_rec} 筆狀態會變，未寫回")
-    if not dry:
-        raw_path.parent.mkdir(parents=True, exist_ok=True)
-        raw_path.write_text(json.dumps(new, ensure_ascii=False, indent=2), encoding="utf-8")
-    if n_rec == 0:
-        finish(0, "許可證狀態沒有變化，不改頁")
+    raw_path.parent.mkdir(parents=True, exist_ok=True)
+    raw_path.write_text(json.dumps(new, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # 3. 事實重算 → 事實層 → 剩餘錯誤 → checker 全量（必須 0）
+    # 3. 只改許可證欄位（pm 2026-10-30 第 2 點）：概覽表本站狀態列、既有張數列、許可證表狀態格。
+    #    不跑事實層、fix_residual、衍生檔重產——H1、原適應症、description、預測內容一律不動。
+    #    證據包沒變也照跑：頁面若落後於事實（例如上次停在一半）會在這裡對齊。
     run([PY, ".claude/dump_license_facts_20261021.py", site])
+    rows = lts.sync_market_rows(site)
     tch, unsynced = lts.apply(site, labels)
-    S["steps"].append(f"許可證表狀態格同步 {len(tch)} 頁" + (f"；本站沒有對應寫法、未改 {len(unsynced)} 格" if unsynced else ""))
+    fields = [(pg, lab, a_, b_) for pg, ch in rows.items() for lab, a_, b_ in ch] + tch
+    S["fields"] = [f"{pg}｜{lab}｜{a_} → {b_}" for pg, lab, a_, b_ in fields]
+    S["steps"].append(f"概覽表狀態／張數列改 {sum(len(v) for v in rows.values())} 格（{len(rows)} 頁）；許可證表狀態格改 {len(tch)} 格"
+                      + (f"；本站沒有對應寫法、未改 {len(unsynced)} 格" if unsynced else ""))
     S["unsynced"] = unsynced[:200]
-    run([PY, ".claude/factlayer_20261028.py", "--apply", "--any-scope", site])
+    if not changed_drug_pages(site):
+        finish(0, "頁面上的許可證欄位已與最新資料一致，不改頁")
+
+    # 3b. 自我檢查：每頁改到的行只能是表格列（狀態列、張數列、許可證表），否則整批還原
+    for rel in changed_drug_pages(site):
+        old_t = run(["git", "show", f"HEAD:{rel}"], cwd=BASE / site, check=False).stdout.replace("\r\n", "\n").split("\n")
+        new_t = (BASE / site / rel).read_text(encoding="utf-8").replace("\r\n", "\n").split("\n")
+        import difflib
+        bad_l = [l for l in difflib.unified_diff(old_t, new_t, lineterm="", n=0)
+                 if l[:1] in "+-" and not l.startswith(("+++", "---")) and not l[1:].startswith("|")]
+        if bad_l:
+            S["pages"] = [rel]
+            git(site, "checkout", "--", "docs")
+            finish(4, f"{rel} 有表格列以外的改動（{bad_l[0][:80]}），整批還原")
+
+    # 3c. checker 全量必須 0；不自動刪句修補，非 0 就還原、開 issue
     ck = run([PY, ".claude/checker_trend.py", "--no-append", site], check=False).stdout
-    det = re.search(r"明細 (\S+)", ck)
-    bad = [l.split("\t") for l in (BASE / det.group(1)).read_text(encoding="utf-8").split("\n")[1:] if l.count("\t") == 3 and l.split("\t")[3]] if det else []
-    if bad:
-        run([PY, ".claude/fix_residual_20261029.py", "--apply", "--pages", ",".join(f"{a}:{b}" for a, b, *_ in bad)], check=False)
-        ck = run([PY, ".claude/checker_trend.py", "--no-append", site], check=False).stdout
     m = re.search(r"非 0 (\d+)", ck)
     S["steps"].append("checker 全量：" + (ck.strip().split("\n")[0] if ck.strip() else "沒有輸出"))
     if not m or m.group(1) != "0":
+        det = re.search(r"明細 (\S+)", ck)
+        S["checker_bad"] = [l for l in (BASE / det.group(1)).read_text(encoding="utf-8").split("\n")[1:] if l.count("\t") == 3 and l.split("\t")[3]][:100] if det else []
         S["pages"] = changed_drug_pages(site)
         git(site, "checkout", "--", "docs")
-        finish(4, "checker 非 0，頁面已還原、不 merge")
+        finish(4, "checker 非 0，頁面已還原、不 merge（明細見 checker_bad）")
 
     # 4. 有人工查核紀錄的頁不自動改（Tw）
     rv = BASE / site / "docs/_data/drug_reviews.json"
@@ -187,15 +206,11 @@ def main(argv):
             git(site, "checkout", "--", "docs")
             finish(5, f"{len(hit)} 個有人工查核紀錄的頁會被改到，全部還原，等用戶簽核")
 
-    # 5. 衍生檔
-    for cmd in ([PY, ".claude/derive_from_kept_20261023.py", "--apply", site], [PY, ".claude/prune_search_index_20261028.py", site],
-                [PY, ".claude/gen_drug_stats.py", site], [PY, ".claude/update_home_counts.py", site],
-                [PY, ".claude/sync_llms_descriptions.py", site]):
-        run(cmd)
+    # 5. lastmod（正文有變才換日期）
     n_body = fix_lastmod(site, S["date"])
     pages = changed_drug_pages(site)
     S["pages"] = pages
-    S["steps"].append(f"藥物頁有改 {len(pages)} 頁（正文有變 {n_body} 頁，其餘只還原 lastmod 後應無差異）")
+    S["steps"].append(f"藥物頁有改 {len(pages)} 頁（正文有變 {n_body} 頁）")
 
     # 6. 停損門檻、gate、h1
     total = len(list((BASE / site / "docs/_drugs").glob("*.md")))

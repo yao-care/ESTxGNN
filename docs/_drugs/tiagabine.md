@@ -3,11 +3,11 @@ layout: default
 title: Tiagabine
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 792
-last_modified_at: 2026-10-29
-description: "Tiagabine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
-predicted_indications: []
-indication_count: 0
 evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-28
+description: "Tiagabine: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Tiagabine
@@ -34,7 +34,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 <!-- known-uses-page -->
 <!-- description: Tiagabine: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata -->
-## Tiagabine
+## Tiagabine: Usos conocidos y situación de mercado en España
 {: .text-alpha }
 
 ## Resumen
@@ -43,9 +43,11 @@ El modelo de aprendizaje profundo TxGNN generó candidatos para Tiagabine con un
 ## Vista rápida
 | Elemento | Contenido |
 |------|------|
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 0 |
-| Situación de mercado en España | Comercializado (registros vigentes: 2 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 2) |
+| Nivel de evidencia | No aplicable |
+| Situación de mercado en España | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 
 ## Usos conocidos entre los candidatos del modelo
 
@@ -68,7 +70,7 @@ El modelo de aprendizaje profundo TxGNN generó candidatos para Tiagabine con un
 
 | Registro | Producto | Forma farmacéutica | Estado |
 |------|------|------|------|
-| 61607 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cancelado |
+| 61607 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 61608 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 61606 | tiagabina | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 

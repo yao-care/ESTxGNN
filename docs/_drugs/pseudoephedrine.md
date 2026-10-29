@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 672
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
+description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Rinitis alérgica"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
-description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pseudoephedrine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Pseudoephedrine: Enfermedad de la cavidad nasal (nasal cavity disease)
+## Pseudoefedrina: De Rinitis Alérgica a Enfermedad de la Cavidad Nasal
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Cabe señalar que esta predicción se solapa en gran medida con usos ya autoriza
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
-| Puntaje de Predicción TxGNN | 0.9975 |
+| Indicación Original | Rinitis alérgica (según las indicaciones originales registradas en la base de conocimiento; los textos de indicación de las autorizaciones españolas están vacíos) |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
+| Puntaje de Predicción TxGNN | 0,9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

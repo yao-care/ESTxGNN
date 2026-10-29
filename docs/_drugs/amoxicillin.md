@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 description: "Amoxicillin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Amoxicillin: Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
+## Amoxicilina: antibacteriano betalactámico (inhibidor de la síntesis de pared celular bacteriana) → síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,9 +48,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
-| Puntaje de Predicción TxGNN | 0.9963 |
+| Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

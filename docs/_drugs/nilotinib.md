@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
+description: "Nilotinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L4). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positivo"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
-description: "Nilotinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nilotinib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Nilotinib: Dermatofibrosarcoma protuberans
+## Nilotinib: De Leucemia Mieloide Crónica a Dermatofibrosarcoma Protuberans
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente solo cuenta con **1 publicación** (una revisión) y **ningún 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
+| Indicación Original | Leucemia mieloide crónica, BCR-ABL1 positivo |
 | Nueva Indicación Predicha | Dermatofibrosarcoma protuberans |
 | Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 11) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

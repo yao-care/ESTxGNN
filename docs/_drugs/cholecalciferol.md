@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 description: "Cholecalciferol: nueva indicación predicha, Acromesomelic dysplasia, Campailla Martinelli type (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Según los datos compilados para este informe, el colecalciferol (vitamina D3) t
 | Nueva Indicación Predicha | Acromesomelic dysplasia, Campailla Martinelli type |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | Al menos 20 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 

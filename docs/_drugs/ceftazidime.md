@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 description: "Ceftazidime: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ceftazidime: Hiperamilasemia (hyperamylasemia)
+## Ceftazidima: cefalosporina de tercera generación → Hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,9 +48,9 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
-| Puntaje de Predicción TxGNN | 0.9951 |
+| Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

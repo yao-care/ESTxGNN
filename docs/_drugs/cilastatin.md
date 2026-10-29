@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 180
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ El efecto antibacteriano proviene del imipenem, no de la cilastatina.
 | Nueva Indicación Predicha | Infección por Staphylococcus aureus (staphylococcus aureus infection) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 268
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente no hay **ensayos clínicos** registrados para esta indicación 
 | Nueva Indicación Predicha | Ictus (stroke disorder) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

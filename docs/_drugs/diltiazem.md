@@ -3,11 +3,11 @@ layout: default
 title: Diltiazem
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 252
-last_modified_at: 2026-10-29
-description: "Diltiazem: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
-predicted_indications: []
-indication_count: 0
 evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-28
+description: "Diltiazem: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Diltiazem
@@ -34,7 +34,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 <!-- known-uses-page -->
 <!-- description: Diltiazem: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata -->
-## Diltiazem
+## Diltiazem: Usos conocidos y situación de mercado en España
 {: .text-alpha }
 
 ## Resumen
@@ -43,8 +43,10 @@ Los candidatos que el modelo TxGNN propone para Diltiazem (puntuación ≥ 0,99)
 ## Vista rápida
 | Elemento | Contenido |
 |------|------|
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
-| Situación de mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Nivel de evidencia | No aplicable |
+| Situación de mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | al menos 20 |
 
 ## Usos conocidos entre los candidatos del modelo
@@ -69,7 +71,7 @@ Los candidatos que el modelo TxGNN propone para Diltiazem (puntuación ≥ 0,99)
 | Registro | Producto | Forma farmacéutica | Estado |
 |------|------|------|------|
 | 60006 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 11456610496 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
+| 11456610496 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
 | 60089 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
 | 60214 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
 | 59776 | diltiazem | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Vigente |

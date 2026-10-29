@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
+description: "Norelgestromin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización (el parche se comercial…"
 monitor_inn: "norelgestromin"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Norelgestromin: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Norelgestromin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Norelgestromin: Amenorrea (amenorrhea (disease))
+## Norelgestromina: De Anticoncepción Transdérmica a Amenorrea
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectiva para **amenorrea**, pero actual
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
-| Puntaje de Predicción TxGNN | 0.9951 |
+| Indicación Original | No disponible en los datos de la autorización (el parche se comercializa como anticonceptivo transdérmico) |
+| Nueva Indicación Predicha | Amenorrea |
+| Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
 description: "Guselkumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **osteoporosis inducida
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos (drug-induced osteoporosis) |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

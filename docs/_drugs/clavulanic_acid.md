@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
+description: "Clavulanic Acid: nueva indicación predicha, Uretritis por Ureaplasma (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según la base de conocimiento"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
-description: "Clavulanic Acid: nueva indicación predicha, Uretritis por Ureaplasma (Ureaplasma urethritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clavulanic Acid
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Clavulanic Acid: Uretritis por Ureaplasma (Ureaplasma urethritis)
+## Ácido clavulánico: De Infección del Tracto Urinario a Uretritis por Ureaplasma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ La propia evaluación mecanística indica que esta predicción probablemente sea
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Uretritis por Ureaplasma (Ureaplasma urethritis) |
-| Puntaje de Predicción TxGNN | 0.9993 |
+| Indicación Original | Infección del tracto urinario (según la base de conocimiento; los textos de indicación de las autorizaciones españolas no están disponibles) |
+| Nueva Indicación Predicha | Uretritis por Ureaplasma |
+| Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

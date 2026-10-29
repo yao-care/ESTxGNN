@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "acenocoumarol"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 description: "Acenocoumarol: nueva indicación predicha, Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Acenocoumarol: Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency)
+## Acenocumarol: antagonista de la vitamina K → Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) |
-| Puntaje de Predicción TxGNN | 0.9984 |
+| Puntaje de Predicción TxGNN | 0,9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine: nueva indicación predicha, Thiamine-responsive dysfunction syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicaci�
 | Nueva Indicación Predicha | Thiamine-responsive dysfunction syndrome |
 | Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L5 (provisional; probablemente L1 si se verifican los ensayos pivotales de Fase 3) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

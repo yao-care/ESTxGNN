@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 description: "Azithromycin: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Azithromycin: síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
+## Azitromicina: antibiótico macrólido → síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

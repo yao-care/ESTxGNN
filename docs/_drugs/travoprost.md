@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 description: "Travoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ La evidencia que respalda esta nueva indicación es, por tanto, únicamente la p
 | Nueva Indicación Predicha | Visceral calciphylaxis |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 18) |
-| Número de Autorizaciones | 18 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

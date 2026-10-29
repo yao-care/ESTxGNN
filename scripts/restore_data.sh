@@ -11,7 +11,8 @@ TAG=""; KG=0
 while [ $# -gt 0 ]; do
   case "$1" in --tag) TAG=$2; shift 2 ;; --with-kg) KG=1; shift ;; *) echo "不認得的參數：$1" >&2; exit 1 ;; esac
 done
-[ -z "$TAG" ] && TAG=$(gh release list -R "$REPO" -L 100 --json tagName -q '[.[].tagName|select(startswith("data-"))]|sort|last')
+# 最新「建立時間」的 data-* tag；-handoff 是交接時的還原點，只在明確指定 --tag 時使用
+[ -z "$TAG" ] && TAG=$(gh release list -R "$REPO" -L 100 --json tagName,createdAt -q '[.[]|select((.tagName|startswith("data-")) and (.tagName|endswith("-handoff")|not))]|sort_by(.createdAt)|last|.tagName')
 [ -z "$TAG" ] && { echo "找不到 data-* Release" >&2; exit 1; }
 check() { if command -v shasum >/dev/null; then shasum -a 256 -c "$1"; else sha256sum -c "$1"; fi; }
 get() {  # $1 repo $2 tag $3 asset 前綴 $4 tar 要去掉的路徑層數

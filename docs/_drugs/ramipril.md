@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 680
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos** y solo **un estudio preclínico en
 | Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

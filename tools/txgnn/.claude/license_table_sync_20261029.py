@@ -1,7 +1,7 @@
 """許可證表「狀態」欄跟著許可證事實同步（2026-10-29，許可證排程更新用）。不用 AI、不靠翻譯。
 
 用語從該站自己的頁面學：更新前的頁面＋更新前的 license_facts，統計狀態欄每種寫法對應到哪種狀態
-（valid／not_marketed／cancelled），只採「只對應一種狀態、出現 ≥2 次」的寫法；每種狀態取最常見的寫法。
+（valid／not_marketed／cancelled），只採「≥90% 對應同一種狀態、出現 ≥2 次」的寫法；每種狀態取最常見的寫法。
 更新後：狀態欄的格子是某狀態的已知寫法、但許可證現在是另一種狀態 → 換成新狀態的寫法。
 新狀態在該站沒有學到寫法時：cancelled／valid 用 rewrite_market_v2.VALID_WORD 的對應字（valid→第一個有效字、cancelled→對應的註銷字），
 not_marketed 沒有通用字 → 不改、記在 unsynced（排程 summary 會列出）。
@@ -66,7 +66,9 @@ def learn(site):
             s = lic.get(norm(c[0]))
             if s:
                 m[c[col]][s] += 1
-    labels = {txt: next(iter(cn)) for txt, cn in m.items() if len(cn) == 1 and sum(cn.values()) >= 2}
+    # 一種寫法 ≥90% 對應同一種狀態、出現 ≥2 次才採用（容許少數頁落後於事實）
+    labels = {txt: cn.most_common(1)[0][0] for txt, cn in m.items()
+              if sum(cn.values()) >= 2 and cn.most_common(1)[0][1] / sum(cn.values()) >= 0.9}
     best = {}
     for st in ("valid", "not_marketed", "cancelled"):
         cand = [(sum(m[t].values()), t) for t, s in labels.items() if s == st]
@@ -111,15 +113,67 @@ def apply(site, lab, dry=False):
             if not want:
                 unsynced.append(f"{f.stem} {c[0]}：{was}→{now}，本站沒有 {now} 的寫法")
                 continue
+            changed.append((f.stem, f"許可證表 {c[0]} 狀態", c[col], want))
             c[col] = want
             lines[i] = "| " + " | ".join(c) + " |"
             ch = True
         if ch:
-            changed.append(f.stem)
             if not dry:
                 t = "\n".join(lines)
                 f.write_bytes((t.replace("\n", "\r\n") if crlf else t).encode("utf-8"))
     return changed, unsynced
+
+
+def sync_market_rows(site, dry=False):
+    """只改許可證欄位（2026-10-30，pm 驗收第 2 點：排程不准動 H1、原適應症、description 等其他欄位）：
+       概覽表的本站狀態列、既有的張數列（不新增列）。值的寫法與事實層（apply_programmatic）同一套。
+       回傳 {頁: [(欄位, 前值, 後值)]}"""
+    ap = _load("ap", BASE / ".claude/apply_programmatic_20261023.py")
+    ck, mv2 = ap.ck, ap.mv2
+    lang = ck.LANG.get(site, "en")
+    tl = mv2.T.get(lang) or mv2.T["en"]
+    fs = facts(site)
+    out = {}
+    for f in sorted((BASE / site / "docs/_drugs").glob("*.md")):
+        fc = page_facts(fs, f.stem)
+        if not fc:
+            continue
+        raw = f.read_bytes().decode("utf-8")
+        if 'http-equiv="refresh"' in raw[:3000] or "layout: id_redirect" in raw[:3000]:
+            continue
+        crlf = "\r\n" in raw[:500]
+        t = raw.replace("\r\n", "\n")
+        rows = [r for _, rs, _, _ in ck.tables(t) for r in rs]
+        ms, v, n, partial = fc.get("market_status"), fc.get("valid"), fc.get("total"), fc.get("partial")
+        ch = []
+        st = ck.status_row(site, rows)
+        if st and site != "TwTxGNN":
+            want = None
+            if site == "KrTxGNN":
+                want = ck.KR_UNKNOWN
+            elif ms == "Marketed":
+                want = (tl[1] if partial else tl[0]).format(v=v, n=n)
+            elif ms == "Approved, not marketed":
+                want = ck.NOT_MKT.get(lang, ck.NOT_MKT["en"]).format(n=n)
+            elif ms == "Cancelled only":
+                want = ck.CANCELLED.get(lang, ck.CANCELLED["en"]).format(n=n)
+            elif ms == "Not marketed":
+                want = ck.NOT_REG.get(lang, ck.NOT_REG["en"])
+            if want and st[1] != want:
+                ch.append((st[0], st[1], want))
+        cr = ck.count_row(site, rows)
+        if cr and site not in ("TwTxGNN", "KrTxGNN") and n is not None:
+            want_c = tl[3].format(n=n) if partial else tl[2].format(n=n, v=v or 0)
+            if cr[1] != want_c:
+                ch.append((cr[0], cr[1], want_c))
+        if not ch:
+            continue
+        for label, _, value in ch:
+            t = re.sub(r"^(\|\s*" + re.escape(label) + r"\s*\|)[^|\n]*(\|)", lambda m: f"{m.group(1)} {value} {m.group(2)}", t, count=1, flags=re.M)
+        out[f.stem] = ch
+        if not dry:
+            f.write_bytes((t.replace("\n", "\r\n") if crlf else t).encode("utf-8"))
+    return out
 
 
 def main(argv):

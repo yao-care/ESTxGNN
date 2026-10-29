@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "lasmiditan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Lasmiditan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -48,8 +48,8 @@ Lasmiditan es un agonista selectivo del receptor serotoninérgico 5-HT1F, utiliz
 | Nueva Indicación Predicha | Atrophoderma vermiculata |
 | Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

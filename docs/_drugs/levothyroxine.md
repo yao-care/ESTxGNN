@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-29
-description: "Levothyroxine: nueva indicación predicha, Hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+last_modified_at: 2026-10-28
+description: "Levothyroxine: nueva indicación predicha, Hipodisplasia/aplasia renal (nivel de evidencia L5). Indicación original: Hipotiroidismo"
 ---
 
 # Levothyroxine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Levothyroxine: Hipodisplasia/aplasia renal (renal hypodysplasia/aplasia)
+## Levotiroxina: De Hipotiroidismo a Hipodisplasia/Aplasia Renal
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia re
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) |
-| Puntaje de Predicción TxGNN | 0.9967 |
+| Indicación Original | Hipotiroidismo (relación registrada en el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles en los datos compilados) |
+| Nueva Indicación Predicha | Hipodisplasia/aplasia renal |
+| Puntaje de Predicción TxGNN | 0,9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | Al menos 20 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 
@@ -77,7 +77,7 @@ Se muestran 5 de las autorizaciones listadas (la lista total puede ser parcial).
 |---------|------|------|-----------|
 | 77802 | Levotiroxina Sanofi 100 microgramos comprimidos | Comprimido | Vigente |
 | 89301 | Levotiroxina Aristo 137 microgramos comprimidos | Comprimido | Vigente |
-| 85613 | Solsint 13 microgramos solución oral en envase unidosis | Solución oral en envase unidosis | Cancelado |
+| 85613 | Solsint 13 microgramos solución oral en envase unidosis | Solución oral en envase unidosis | Vigente |
 | 77114 | Levotiroxina Sanofi 500 microgramos polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | Vigente |
 | 64013 | Eutirox 75 microgramos comprimidos | Comprimido | Vigente |
 

@@ -5,10 +5,10 @@ parent: Evidencia alta (L1-L2)
 nav_order: 485
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
+description: "Lormetazepam: nueva indicación predicha, Insomnio (nivel de evidencia L1). Indicación original: No disponible en los textos de autorización compilados (el uso hipnót…"
 monitor_inn: "LORMETAZEPAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
-description: "Lormetazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Lormetazepam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Lormetazepam: Insomnio (insomnia (disease))
+## Lormetazepam: De Insomnio a Insomnio (Indicación ya establecida)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice como primera indicación el **insomnio**, con **2 ensayo
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
+| Indicación Original | No disponible en los textos de autorización compilados (el uso hipnótico para el insomnio se deduce del perfil del fármaco) |
+| Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

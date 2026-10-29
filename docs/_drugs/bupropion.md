@@ -7,8 +7,8 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-29
-description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L1)."
+last_modified_at: 2026-10-28
+description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L1). Indicación original: No consta en los da…"
 ---
 
 # Bupropion
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Bupropion: Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder)
+## Bupropion: inhibidor de la recaptación de noradrenalina y dopamina → trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) |
-| Puntaje de Predicción TxGNN | 0.9999 |
+| Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 16) |
-| Número de Autorizaciones | 16 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 9) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

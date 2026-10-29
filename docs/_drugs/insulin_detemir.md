@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "Insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Detemir: nueva indicación predicha, Autoimmune oophoritis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **diabetes mellitus tip
 | Nueva Indicación Predicha | Autoimmune oophoritis |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
-| Número de Autorizaciones | 2 (vigentes: 0) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

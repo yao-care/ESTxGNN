@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **3 ensayos clínicos** (todos de fase temprana o terminados sin resultados 
 | Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
