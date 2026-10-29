@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 401
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "icatibant"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: nueva indicación predicha, C1 inhibitor deficiency (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ Esta dirección está respaldada por **11 ensayos clínicos** y **20 publicacion
 | Nueva Indicación Predicha | C1 inhibitor deficiency |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > Nota: los datos de las autorizaciones españolas no incluyen el texto de indicación aprobada.

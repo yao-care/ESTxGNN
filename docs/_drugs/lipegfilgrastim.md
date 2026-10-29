@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Lipegfilgrastim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (primary release disorde… (nivel de evidencia L5). Indicación original: No disponible en los datos compilados …"
 monitor_inn: "LIPEGFILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
-| Número de Autorizaciones | 2 |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

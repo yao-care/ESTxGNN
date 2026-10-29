@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: No disponible en los datos de la autorización de AEMPS"
 monitor_inn: "INOTERSEN"
 predicted_indications: ["acute intermittent porphyria", "appendicitis", "IgG4-related pachymeningitis", "IgG4-related retroperitoneal fibrosis", "non-infectious meningitis", "peritonitis", "infectious meningitis", "IgG4-related mesenteritis", "IgG4-related mediastinitis", "IgG4-related aortitis"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermite
 | Nueva Indicación Predicha | Porfiria aguda intermitente |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

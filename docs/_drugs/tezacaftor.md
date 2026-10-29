@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 788
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Tezacaftor: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Fibrosis quística"
 monitor_inn: "tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 0,9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

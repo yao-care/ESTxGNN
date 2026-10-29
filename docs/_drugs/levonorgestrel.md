@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 468
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualment
 | Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

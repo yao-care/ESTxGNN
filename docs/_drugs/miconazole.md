@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 524
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **4 publicaciones** (una revisión, dos estudios c
 | Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

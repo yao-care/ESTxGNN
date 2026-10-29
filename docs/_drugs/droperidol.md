@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Droperidol: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de la AEMPS"
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette
 | Nueva Indicación Predicha | Síndrome de Tourette |
 | Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---

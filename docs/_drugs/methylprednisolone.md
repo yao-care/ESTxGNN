@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 516
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 | Nueva Indicación Predicha | Alopecia areata |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

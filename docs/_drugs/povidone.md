@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Povidone: nueva indicación predicha, Eritrodermia ictiosiforme congénita (nivel de evidencia L5). Indicación original: Síndrome del ojo seco / xeroftalmia"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 5) |
-| Número de Autorizaciones | 5 |
+| Número de Autorizaciones | 5 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

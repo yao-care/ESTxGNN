@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 523
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (urinary tract infection (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección del tracto
 | Nueva Indicación Predicha | Infección del tracto urinario (urinary tract infection (disease)) |
 | Puntaje de Predicción TxGNN | 0.9903 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Cabotegravir: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: No disponible en los datos de la licencia (el fármaco es un inhibidor…"
 monitor_inn: "CABOTEGRAVIR"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Pegvaliase: nueva indicación predicha, Retinopatía diabética (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "pegvaliase"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética*
 | Puntaje de Predicción TxGNN | 0,9917 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 3) |
-| Número de Autorizaciones | 3 |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 Otras predicciones del modelo, con el mismo nivel de evidencia (L5) y recomendación (Hold):

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 800
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos** y solo se dispone de **8 publicaci
 | Nueva Indicación Predicha | Queratitis por exposición (exposure keratitis) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 18) |
-| Número de Autorizaciones | 18 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Bimatoprost: nueva indicación predicha, Síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal com… (nivel de evidencia L5). Indicación or…"
 ---
 
@@ -50,7 +50,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal component) |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Cefuroxime: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia (hyperam
 | Nueva Indicación Predicha | hiperamilasemia (hyperamylasemia) |
 | Puntaje de Predicción TxGNN | 0,9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

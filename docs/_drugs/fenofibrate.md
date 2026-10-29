@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Fenofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5). Indicación origin…"
 ---
 
@@ -50,8 +50,8 @@ Actualmente no hay ensayos clínicos y solo **3 publicaciones** preclínicas o m
 | Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) |
 | Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 13) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 14 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

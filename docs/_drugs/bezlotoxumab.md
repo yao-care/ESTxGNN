@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "pelvic varices"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Bezlotoxumab: nueva indicación predicha, peritonitis pélvica aguda femenina (acute female pelvic peritonitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | peritonitis pélvica aguda femenina (acute female pelvic peritonitis) |
 | Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | Autorizado pero no comercializado (registros: 1) |
+| Estado de Mercado en Espana | No comercializado (registros anulados: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 

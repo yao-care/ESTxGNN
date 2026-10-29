@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de AEMPS (uso general conocido: insuficien…"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---

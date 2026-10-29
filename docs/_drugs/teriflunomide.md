@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 781
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Teriflunomide: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo TxGNN propone para Teriflunomide son, en todos los 
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo trazables a una fuente son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Situación de mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Situación de mercado en España | Comercializado (registros vigentes: al menos 12) |
 | Número de Autorizaciones | al menos 20 |
 
 ## Usos conocidos entre los candidatos del modelo
@@ -72,21 +72,21 @@ Los candidatos que el modelo TxGNN propone para Teriflunomide son, en todos los 
 |------|------|------|------|
 | 1221693002 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 89393 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 1130838006 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 1130838006 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
 | 88844 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
 | 88753 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 88738 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 89188 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 113838002 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 113838002 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
 | 88947 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
 | 89818 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cancelado |
-| 89189 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
+| 89189 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
 | 89846 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 89521 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 89341 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 88466 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 88896 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
-| 90349 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
+| 90349 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Cancelado |
 | 89843 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Autorizado, no comercializado |
 | 89417 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |
 | 88254 | teriflunomida | COMPRIMIDO RECUBIERTO CON PELÍCULA | Vigente |

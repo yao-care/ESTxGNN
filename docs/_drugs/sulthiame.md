@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Sulthiame: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS"
 monitor_inn: "sulthiame"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "neurocirculatory asthenia", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "MVP1", "autonomic nervous system disease"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 | Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 |
+| Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

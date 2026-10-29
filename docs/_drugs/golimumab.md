@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Golimumab: nueva indicación predicha, hipermovilidad del cóccix (nivel de evidencia L4). Indicación original: Artritis reumatoide (junto con artritis psoriásica…"
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
@@ -52,8 +52,8 @@ pero actualmente solo hay **1 ensayo clínico** (de relevancia tangencial) y **6
 | Nueva Indicación Predicha | Vasculitis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---

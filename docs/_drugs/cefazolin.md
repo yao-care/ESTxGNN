@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Cefazolin: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos** registrados y la evidencia publica
 | Nueva Indicación Predicha | Otitis media infecciosa (infectious otitis media) |
 | Puntaje de Predicción TxGNN | 0,9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 13) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

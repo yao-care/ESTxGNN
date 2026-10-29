@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ Entre las demás predicciones, la que cuenta con más respaldo es la **infecció
 | Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 > **Nota:** la predicción con mayor puntaje (esclerodermia difusa) carece de respaldo. Las candidatas con más evidencia se detallan en la sección de predicciones alternativas.

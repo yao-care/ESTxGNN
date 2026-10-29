@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 677
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 description: "Raloxifene: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **úlcera duodenal**, pero
 | Nueva Indicación Predicha | Úlcera duodenal (duodenal ulcer (disease)) |
 | Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
