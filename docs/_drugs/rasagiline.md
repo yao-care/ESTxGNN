@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
-description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parkinsonianos relacionados)"
+last_modified_at: 2026-10-29
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
+description: "Rasagiline: nueva indicación predicha, PLA2G6-associated neurodegeneration (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Rasagiline
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Rasagilina: De Enfermedad de Parkinson a Neurodegeneración Asociada a PLA2G6
+## Rasagiline: PLA2G6-associated neurodegeneration
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para la **neurodegeneración as
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson (y síndromes parkinsonianos relacionados) |
-| Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | PLA2G6-associated neurodegeneration |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

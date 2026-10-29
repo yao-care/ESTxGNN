@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de AEMPS (uso general conocido: insuficien…"
+last_modified_at: 2026-10-29
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Diosmin: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Diosmin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Diosmina: De Insuficiencia Venosa Crónica a Amenorrea
+## Diosmin: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS (uso general conocido: insuficiencia venosa crónica y hemorroides, no confirmado en los datos compilados) |
-| Nueva Indicación Predicha | Amenorrea |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---

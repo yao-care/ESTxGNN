@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **2 publicaciones** de baja calidad (de 1964 y 200
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

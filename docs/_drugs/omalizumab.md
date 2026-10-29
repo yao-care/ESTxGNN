@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 589
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **2 en
 | Nueva Indicación Predicha | Bronquitis (bronchitis) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 835
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "urofollitropin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
-description: "Urofollitropin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la"
+description: "Urofollitropin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Urofollitropin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Urofolitropina: De Indicación Original No Registrada a Trastorno de Migraña
+## Urofollitropin: Trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para **trastorno de migraña**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 0,9985 |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---

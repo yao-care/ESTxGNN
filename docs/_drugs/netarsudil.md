@@ -3,11 +3,11 @@ layout: default
 title: Netarsudil
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 561
-evidence_level: N/A
-indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Netarsudil: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Netarsudil
@@ -34,7 +34,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 <!-- known-uses-page -->
 <!-- description: Netarsudil: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata -->
-## Netarsudil: Usos conocidos y estado de mercado en España
+## Netarsudil
 {: .text-alpha }
 
 ## Resumen
@@ -43,11 +43,9 @@ Los candidatos que el modelo TxGNN propone para Netarsudil son, en todos los cas
 ## Resumen rápido
 | Elemento | Contenido |
 |------|------|
-| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 2 |
-| Nivel de evidencia | No aplicable |
-| Estado de mercado en España | Comercializado (registros vigentes: 1 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 1) |
+| Estado de mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 
 ## Usos conocidos entre los candidatos del modelo
 
@@ -70,7 +68,7 @@ Los candidatos que el modelo TxGNN propone para Netarsudil son, en todos los cas
 
 | Registro | Producto | Forma farmacéutica | Estado |
 |------|------|------|------|
-| 1201502001IP | latanoprost + netarsudil | COLIRIO EN SOLUCIÓN | Autorizado, no comercializado |
+| 1201502001IP | latanoprost + netarsudil | COLIRIO EN SOLUCIÓN | Vigente |
 | 1201502001IP1 | latanoprost + netarsudil | COLIRIO EN SOLUCIÓN | Autorizado, no comercializado |
 | 1201502001 | latanoprost + netarsudil | COLIRIO EN SOLUCIÓN | Vigente |
 

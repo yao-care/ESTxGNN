@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 705
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Risdiplam: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Atrofia muscular espinal (según el perfil conocido del fármaco"
+last_modified_at: 2026-10-29
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
+description: "Risdiplam: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Risdiplam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Risdiplam: De Atrofia Muscular Espinal a Acné
+## Risdiplam: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualment
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Atrofia muscular espinal (según el perfil conocido del fármaco; el texto de indicación no figura en las autorizaciones compiladas) |
-| Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 0,9945 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

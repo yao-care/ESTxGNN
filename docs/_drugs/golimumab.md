@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
-description: "Golimumab: nueva indicación predicha, hipermovilidad del cóccix (nivel de evidencia L4). Indicación original: Artritis reumatoide (junto con artritis psoriásica…"
+last_modified_at: 2026-10-29
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab: nueva indicación predicha, Hypermobility of coccyx (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Golimumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Golimumab: De Artritis Reumatoide a Hipermovilidad del Cóccix
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ pero actualmente solo hay **1 ensayo clínico** (de relevancia tangencial) y **6
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (junto con artritis psoriásica, espondilitis anquilosante, colitis ulcerosa y enfermedad inflamatoria intestinal) |
-| Nueva Indicación Predicha | Vasculitis reumatoide |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hypermobility of coccyx |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---

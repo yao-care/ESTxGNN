@@ -5,10 +5,10 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 192
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L3). Indicación original: No disponible en los datos de autorización compilados (los textos de…"
+last_modified_at: 2026-10-29
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
+description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (primary cutaneous T-cell lymphoma) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Clobetasol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Clobetasol: De Indicación Dermatológica Tópica a Linfoma cutáneo primario de células T
+## Clobetasol: Linfoma cutáneo primario de células T (primary cutaneous T-cell lymphoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ con **0 ensayos clínicos registrados** y **15 publicaciones** (casi todas infor
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de autorización compilados (los textos de indicación están vacíos) |
-| Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
-| Puntaje de Predicción TxGNN | 0,9951 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Linfoma cutáneo primario de células T (primary cutaneous T-cell lymphoma) |
+| Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

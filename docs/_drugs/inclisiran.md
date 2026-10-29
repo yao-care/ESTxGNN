@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
-description: "Inclisiran: nueva indicación predicha, Deficiencia de potasio (potassium deficiency disease) (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de la AEMPS"
+last_modified_at: 2026-10-29
 monitor_inn: "inclisiran"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+description: "Inclisiran: nueva indicación predicha, Deficiencia de potasio (potassium deficiency disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Inclisiran
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Inclisirán: De Hipercolesterolemia a Deficiencia de Potasio (predicción del modelo)
+## Inclisiran: Deficiencia de potasio (potassium deficiency disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,12 +45,12 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia de potasio**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de las autorizaciones de la AEMPS |
+| Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Deficiencia de potasio (potassium deficiency disease) |
-| Puntaje de Predicción TxGNN | 0,9993 |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

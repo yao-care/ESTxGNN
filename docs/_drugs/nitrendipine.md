@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
-description: "Nitrendipine: nueva indicación predicha, Migraña (trastorno migrañoso) (nivel de evidencia L5). Indicación original: Hipertensión arterial de leve a moderada (según la información farmac…"
+last_modified_at: 2026-10-29
 monitor_inn: "nitrendipine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
+description: "Nitrendipine: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nitrendipine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Nitrendipino: De Hipertensión Arterial a Migraña
+## Nitrendipine: Migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero **no hay ensayos clínicos** y solo **3 publicaciones** de carácter genera
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial de leve a moderada (según la información farmacológica compilada; los textos de indicación de las autorizaciones españolas no están disponibles) |
-| Nueva Indicación Predicha | Migraña (trastorno migrañoso) |
-| Puntaje de Predicción TxGNN | 0,9942 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

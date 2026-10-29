@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
-description: "Cabotegravir: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: No disponible en los datos de la licencia (el fármaco es un inhibidor…"
+last_modified_at: 2026-10-29
 monitor_inn: "CABOTEGRAVIR"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
+description: "Cabotegravir: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cabotegravir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Cabotegravir: De Indicación Original No Especificada a Artritis Reumatoide
+## Cabotegravir: Artritis reumatoide (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de la licencia (el fármaco es un inhibidor de la integrasa del VIH-1) |
-| Nueva Indicación Predicha | Artritis reumatoide |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Artritis reumatoide (rheumatoid arthritis) |
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

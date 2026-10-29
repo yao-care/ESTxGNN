@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 643
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: nueva indicación predicha, Mastocitoma extracutáneo (extracutaneous mastocytoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **mastocitoma extracutáne
 | Nueva Indicación Predicha | Mastocitoma extracutáneo (extracutaneous mastocytoma) |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

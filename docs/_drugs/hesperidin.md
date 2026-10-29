@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
-description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones"
+last_modified_at: 2026-10-29
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
+description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (myeloproliferative neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Hesperidin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Hesperidina: De Indicación Original No Especificada a Neoplasia Mieloproliferativa
+## Hesperidin: Neoplasia mieloproliferativa (myeloproliferative neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ pero actualmente solo existe **1 publicación** (un estudio computacional in sil
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de las autorizaciones |
-| Nueva Indicación Predicha | Neoplasia mieloproliferativa |
-| Puntaje de Predicción TxGNN | 0,9947 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia mieloproliferativa (myeloproliferative neoplasm) |
+| Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

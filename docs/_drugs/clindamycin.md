@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
 description: "Clindamycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 16) |
-| Número de Autorizaciones | 16 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

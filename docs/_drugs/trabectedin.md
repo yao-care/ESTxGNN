@@ -5,10 +5,10 @@ parent: Solo predicción del modelo (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Cáncer de ovario"
+last_modified_at: 2026-10-29
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
+description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Trabectedin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Trabectedina: De Cáncer de Ovario a Carcinoma de Mama Femenino
+## Trabectedin: Carcinoma de mama femenino (female breast carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **1 ensayo clínico** (de relevancia limitada) y **20 publicaciones** que ac
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de ovario |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---

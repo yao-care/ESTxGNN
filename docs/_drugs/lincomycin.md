@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
 | Puntaje de Predicción TxGNN | 0.9914 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 2) |
+| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---

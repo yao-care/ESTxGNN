@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 532
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with schistosomiasis"]
 description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **0 ensayos clínicos** y **3 publicaciones** (reportes y series de casos) q
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

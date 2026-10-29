@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-10-28
-description: "Bimatoprost: nueva indicación predicha, Síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal com… (nivel de evidencia L5). Indicación or…"
+last_modified_at: 2026-10-29
+description: "Bimatoprost: nueva indicación predicha, Síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal component) (nivel de evidencia L5)."
 ---
 
 # Bimatoprost
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Bimatoprost: análogo de prostamida (agonista de receptores FP/prostamida) → síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal component)
+## Bimatoprost: Síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal component)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,9 +48,9 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 |------|------|
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Síndrome malformativo con componente odontal y/o periodontal (malformation syndrome with odontal and/or periodontal component) |
-| Puntaje de Predicción TxGNN | 0,9999 |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

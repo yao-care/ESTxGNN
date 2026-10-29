@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
-description: "Ezetimibe: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5). Indicación original…"
+last_modified_at: 2026-10-29
+description: "Ezetimibe: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5)."
 ---
 
 # Ezetimibe
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para la **deficiencia de la pro
 | Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) |
 | Puntaje de Predicción TxGNN | 0.9909 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | Al menos 20 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 
