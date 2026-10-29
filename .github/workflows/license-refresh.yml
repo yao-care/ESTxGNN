@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: '只試跑、不寫回（true／false）'
+        description: '試跑：完整計算並列出逐欄位變更，但不 commit、不發 Release（true／false）'
         default: 'false'
       max_pages:
         description: '補跑積欠變動時放寬停損頁數（留空＝預設 min(200, 5%)）'
@@ -53,8 +53,8 @@ jobs:
           WS=$(bash scripts/txgnn_ws.sh)
           SITE=$(cat tools/txgnn/SITE)
           set +e
-          (cd "$WS" && "$GITHUB_WORKSPACE/.venv/bin/python" .claude/license_refresh_20261029.py "$SITE" \
-            $([ "${{ inputs.dry_run }}" = "true" ] && echo --dry-run))
+          # 試跑也跑完整流程（含改頁、checker、逐欄位清單），只是後面不 commit、不發 Release（pm 第 4 點：手動放量前先回報頁數）
+          (cd "$WS" && "$GITHUB_WORKSPACE/.venv/bin/python" .claude/license_refresh_20261029.py "$SITE")
           code=$?
           set -e
           echo "code=$code" >> "$GITHUB_OUTPUT"
@@ -89,6 +89,13 @@ jobs:
           gh release create "$TAG" --title "$SITE 成果資料（$TAG，許可證排程更新）" \
             --notes "許可證排程更新後的完整 data/。還原：bash scripts/restore_data.sh（預設取最新建立的 data-* tag，不含 -handoff）。" \
             "$STAGE/$SITE-data".tar.gz.part-* "$STAGE/$SITE-data.sha256"
+
+      - name: Upload field changes
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: license-refresh-summary
+          path: .license_refresh/
 
       - name: Open issue on stop
         if: steps.refresh.outputs.code != '0'
