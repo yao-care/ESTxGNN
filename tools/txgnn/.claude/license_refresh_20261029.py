@@ -212,9 +212,12 @@ def main(argv):
         S["held"] = held
         S["fields"] = [x for x in S["fields"] if x.split("｜", 1)[0] not in held]
         ck = run([PY, ".claude/checker_trend.py", "--no-append", site], check=False).stdout
-        m = re.search(r"非 0 (\d+)", ck)
-        S["steps"].append(f"擋下 {len(held)} 頁（頁面其他地方跟新狀態矛盾，排程不改正文，等人看）：{', '.join(held)}；擋下後 " + ck.strip().split("\n")[0])
-        if not m or m.group(1) != "0":
+        det = re.search(r"明細 (\S+)", ck)
+        rest = [l.split("\t")[1] for l in (BASE / det.group(1)).read_text(encoding="utf-8").split("\n")[1:]
+                if l.count("\t") == 3 and l.split("\t")[3]] if det else ["?"]
+        rest = [x for x in rest if x not in held]  # 擋下的頁維持舊版，本來就跟新事實對不上，已列入 issue
+        S["steps"].append(f"擋下 {len(held)} 頁（頁面其他地方跟新狀態矛盾，排程不改正文，等人看）：{', '.join(held)}；其餘頁 checker 非 0：{len(rest)}")
+        if rest:
             S["pages"] = changed_drug_pages(site)
             git(site, "checkout", "--", "docs")
             finish(4, "擋下非 0 頁後 checker 仍非 0，全部還原")
