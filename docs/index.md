@@ -14,6 +14,42 @@ Este proyecto utiliza el modelo TxGNN (aprendizaje profundo) para predecir posib
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## España: qué cubre este sitio
+
+Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [AEMPS](https://www.aemps.gob.es/) (España).
+
+Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Medicamentos con mayor nivel de evidencia en este sitio
+
+| Medicamento | Nivel de evidencia |
+|---|---|
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Bromfenac](/drugs/bromfenac/) | L1 |
+| [Bupropion](/drugs/bupropion/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Glecaprevir](/drugs/glecaprevir/) | L1 |
+| [Grazoprevir](/drugs/grazoprevir/) | L1 |
+| [Lanadelumab](/drugs/lanadelumab/) | L1 |
+| [Lormetazepam](/drugs/lormetazepam/) | L1 |
+| [Oteracil](/drugs/oteracil/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+
+### Medicamentos que solo cubre este sitio entre los 30 sitios TxGNN
+
+| Medicamento | Nivel de evidencia |
+|---|---|
+| [Brotizolam](/drugs/brotizolam/) | L1 |
+| [Niflumic Acid](/drugs/niflumic-acid/) | L5 |
+| [Bentazepam](/drugs/bentazepam/) | L5 |
+| [Medazepam](/drugs/medazepam/) | L5 |
+| [Tramazoline](/drugs/tramazoline/) | L5 |
+| [Almasilate](/drugs/almasilate/) | L5 |
+| [Vincamine](/drugs/vincamine/) | L5 |
+
+<!-- local-home:end -->
+
 ## Sobre el desarrollador
 
 Esta plataforma está desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
