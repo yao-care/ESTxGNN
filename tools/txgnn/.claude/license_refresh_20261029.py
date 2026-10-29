@@ -92,6 +92,10 @@ def main(argv):
         S["exit"], S["result"] = code, msg
         (out / "summary.json").write_text(json.dumps(S, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         md = [f"## {site} 許可證更新 {S['date']}：{msg}", ""] + [f"- {x}" for x in S["steps"]]
+        if S.get("checker_bad"):
+            md += ["", "### checker 非 0 的頁", ""] + [f"- `{x}`" for x in S["checker_bad"]]
+        if S.get("unsynced"):
+            md += ["", "### 本站沒有對應寫法、未改的許可證表格子", ""] + [f"- {x}" for x in S["unsynced"]]
         if S.get("fields"):
             md += ["", f"### 逐欄位變更（{len(S['fields'])}）", "", "| 頁 | 欄位 | 前值 → 後值 |", "|---|---|---|"] + \
                   ["| " + x.replace("｜", " | ", 2) + " |" for x in S["fields"][:600]]
