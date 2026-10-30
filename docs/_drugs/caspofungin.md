@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Caspofungin: nueva indicación predicha, Anomalía de la secreción de gastrina (gastrin secretion abnormality) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Anomalía de la secreción de gastrina (gastrin secretion abnormality) |
 | Puntaje de Predicción TxGNN | 0,9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Españase | Comercializado (registros vigentes: al menos 6) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 6) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

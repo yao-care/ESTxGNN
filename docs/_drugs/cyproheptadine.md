@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
 description: "Cyproheptadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ No hay **ningún ensayo clínico registrado**; la evidencia se limita a **9 publ
 | Nueva Indicación Predicha | Nasal cavity disease |
 | Puntaje de Predicción TxGNN | 0.9921 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | Comercializado (registros vigentes: 4 de 6) |
-| Numero de Autorizaciones | 6 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

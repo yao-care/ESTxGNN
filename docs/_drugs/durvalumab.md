@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Durvalumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ Entre las predicciones del mismo fármaco, la mejor respaldada es el **carcinoma
 | Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino (uterine ligament adenocarcinoma) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Español | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

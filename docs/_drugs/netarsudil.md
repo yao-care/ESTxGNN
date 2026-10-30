@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 561
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Netarsudil: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo TxGNN propone para Netarsudil son, en todos los cas
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 2 |
 | Nivel de evidencia | No aplicable |
-| Estado de mercado en España | Comercializado (registros vigentes: 2 de 3) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
 | Número de Autorizaciones | 3 (vigentes: 2) |
 
 ## Usos conocidos entre los candidatos del modelo

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "DELAMANID"
 predicted_indications: ["allergic urticaria"]
 description: "Delamanid: nueva indicación predicha, Allergic urticaria (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **tuberculosis bovina**, a
 | Nueva Indicación Predicha | Allergic urticaria |
 | Puntaje de Predicción TxGNN | 0.9956 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Español | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

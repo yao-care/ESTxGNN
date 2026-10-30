@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Interferon Alfa-2B: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (nivel de evidencia L5). Indicación original: Infección anogenital por virus del papiloma humano"
 monitor_inn: "INTERFERON ALFA-2B"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Esclerosis múltiple remitente-recurrente |
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado (registros anulados: 4 de 4) |
-| Numero de Autorizaciones | 4 (vigentes: 0) |
+| Estado de Mercado en España | No comercializado (registros anulados: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?

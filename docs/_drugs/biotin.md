@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Biotin: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectiva para **dispepsia (dyspepsia)**,
 | Nueva Indicación Predicha | dispepsia (dyspepsia) |
 | Puntaje de Predicción TxGNN | 0,9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Español | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

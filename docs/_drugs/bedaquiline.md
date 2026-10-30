@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bedaquiline"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bedaquiline: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Candidiasis vulvovaginal (vulvovaginal candidiasis) |
 | Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | Comercializado (registros vigentes: 1 de 2) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

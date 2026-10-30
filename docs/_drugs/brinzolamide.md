@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 113
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Brinzolamide: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo TxGNN propone para Brinzolamide (puntuación ≥ 0,
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear a una fuente son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Estado de mercado en España | Comercializado (registros vigentes: 3 de 6) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 6) |
 | Número de Autorizaciones | 6 (vigentes: 3) |
 
 ## Usos conocidos entre los candidatos del modelo

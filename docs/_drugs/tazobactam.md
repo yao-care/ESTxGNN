@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 767
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tazobactam: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Todos los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Taz
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con origen rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 2 |
 | Nivel de evidencia | No aplicable |
-| Situación de mercado en España | Comercializado (registros vigentes: al menos 9) |
+| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
 | Número de Autorizaciones | al menos 20 |
 
 ## Usos conocidos entre los candidatos del modelo

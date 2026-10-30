@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 349
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Flurazepam: known uses and market status in Spain; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo TxGNN propone para Flurazepam son, en todos los cas
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo trazables a una fuente son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 0 |
 | Nivel de evidencia | No aplicable |
-| Situación de comercialización en España | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 
 ## Usos conocidos entre los candidatos del modelo

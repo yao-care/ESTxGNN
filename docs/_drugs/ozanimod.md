@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 600
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ozanimod: known uses and market status in Spain; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos generados por el modelo TxGNN para Ozanimod son, en su totalidad,
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con origen rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Estado de comercialización en España | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 
 ## Usos conocidos entre los candidatos del modelo

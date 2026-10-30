@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVAPRITINIB"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Avapritinib: nueva indicación predicha, displasia espondilometafisaria axial (axial spondylometaphyseal dysplasia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | displasia espondilometafisaria axial (axial spondylometaphyseal dysplasia) |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | Comercializado (registros vigentes: 5 de 5) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
 | Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 

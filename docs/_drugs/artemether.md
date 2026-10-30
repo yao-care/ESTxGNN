@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Artemether: nueva indicación predicha, angioedema adquirido (acquired angioedema) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Artemeter es un derivado de la artemisinina de tipo endoperóxido, perteneciente
 | Nueva Indicación Predicha | angioedema adquirido (acquired angioedema) |
 | Puntaje de Predicción TxGNN | 0,9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Espana | No comercializado (registros anulados: 1 de 1) |
+| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
