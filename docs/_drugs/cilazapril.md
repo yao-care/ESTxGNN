@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
 description: "Cilazapril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ pero la evidencia actual se limita a **4 publicaciones preclínicas** (estudios 
 | Nueva Indicación Predicha | Pulmonary hypertension with unclear multifactorial mechanism |
 | Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 0) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 1) |
 | Decisión Recomendada | Hold (tratar como pregunta de investigación) |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Zinc plasmático elevado (zinc, elevated plasma) |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 144 de 239) |
+| Número de Autorizaciones | 239 (vigentes: 144) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

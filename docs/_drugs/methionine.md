@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Methionine: nueva indicación predicha, Acné (enfermedad) (nivel de evidencia L5). Indicación original: No disponible"
 ---
 
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Metionina es un aminoácido esencial azufrado que, en España, figura únicamente en una autorización cancelada de una pomada oftálmica epitelizante (combinación de tres principios activos), sin texto de indicación aprobada disponible.
+Metionina es un aminoácido esencial azufrado; en España forma parte de medicamentos con varios principios activos (por ejemplo, soluciones de aminoácidos para nutrición parenteral), sin texto de indicación aprobada disponible para la metionina sola.
 El modelo TxGNN predice que podría ser efectivo para **acné**, con **0 ensayos clínicos** y **2 publicaciones** que no estudian la metionina como tratamiento.
 Por ello la predicción se considera solo computacional (nivel L5).
 
@@ -50,8 +50,8 @@ Por ello la predicción se considera solo computacional (nivel L5).
 | Nueva Indicación Predicha | Acné (enfermedad) |
 | Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 50 de 67) |
+| Número de Autorizaciones | 67 (vigentes: 50) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

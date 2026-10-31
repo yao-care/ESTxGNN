@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Deanol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en la autorización de la AEMPS"
 monitor_inn: "deanol"
 predicted_indications: ["insomnia (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Insomnio**, pero actualm
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
