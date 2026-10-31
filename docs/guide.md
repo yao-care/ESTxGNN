@@ -50,6 +50,7 @@ Cada elemento de evidencia de un informe lleva un identificador trazable:
 - **DrugBank ID**: enlaza con los datos de medicamentos y dianas
 
 Lea la literatura de origen para confirmar el contexto antes de citar cualquier conclusión de esta plataforma.
+Para la lista completa de bases de datos y registros utilizados, consulte <a href="{{ '/sources/' | relative_url }}">Fuentes de datos</a>.
 
 ---
 
