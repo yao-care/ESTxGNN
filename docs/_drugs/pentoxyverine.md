@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Pentoxyverine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,8 +48,8 @@ Según la relación registrada en el grafo de conocimiento, la pentoxiverina se 
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -74,7 +74,7 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|-----------|
 | 85498 | BISOLVON CALMATOS 2,13 MG/ML SOLUCION ORAL | Solución oral | No disponible en el registro local |
 
-Titular: Opella Healthcare Spain S.L. Estado: autorizado, no comercializado.
+Titular: Opella Healthcare Spain S.L. Estado: autorizado, comercializado.
 
 ## Consideraciones de Seguridad
 
@@ -86,7 +86,7 @@ Titular: Opella Healthcare Spain S.L. Estado: autorizado, no comercializado.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en la puntuación del modelo (nivel L5), sin ensayos clínicos ni publicaciones sobre la enfermedad de la cavidad nasal. Además, faltan el mecanismo de acción y la información de la ficha técnica, y el producto autorizado no está comercializado.
+La predicción se basa solo en la puntuación del modelo (nivel L5), sin ensayos clínicos ni publicaciones sobre la enfermedad de la cavidad nasal. Además, faltan el mecanismo de acción y la información de la ficha técnica.
 
 **Para avanzar se necesita:**
 - Obtener y analizar la ficha técnica de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas).
