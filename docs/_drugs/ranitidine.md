@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 683
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: nueva indicación predicha, Peptic ulcer perforation (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ La predicción cuenta con **0 ensayos clínicos** directamente vinculados y **20
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | No consta en los datos locales |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

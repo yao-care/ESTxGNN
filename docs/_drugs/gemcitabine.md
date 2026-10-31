@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: nueva indicación predicha, Rectum mucinous adenocarcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ con **39 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

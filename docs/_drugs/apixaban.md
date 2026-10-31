@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 60
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Apixaban: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "apixaban"
 predicted_indications: ["migraine disorder"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **Trastorno de migraña**,
 | Puntaje de Predicción TxGNN | 0,9902 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 1) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

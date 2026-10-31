@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Lovastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lovastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Hiperlipidemia y trastornos relacionados"
 ---
 
@@ -49,7 +49,7 @@ Lovastatina es una estatina utilizada originalmente para tratar la hiperlipidemi
 | Puntaje de Predicción TxGNN | 0,9942 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
-| Número de Autorizaciones | Al menos 20 (la lista puede ser parcial) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

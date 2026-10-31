@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 543
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: nueva indicación predicha, Myofascial pain syndrome (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN genera varias predicciones; la que cuenta con más respaldo es e
 | Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L3 (síndrome de piernas inquietas) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails (solo síndrome de piernas inquietas refractario); Hold para el resto |
 
 ## ¿Por qué es Razonable esta Predicción?

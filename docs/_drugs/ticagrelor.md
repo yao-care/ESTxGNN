@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ con **2 ensayos clínicos** y **2 publicaciones** que actualmente respaldan esta
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 según la clasificación asignada en los datos compilados; a mi juicio, con las reglas de nivel, estaría más cerca de L3 (ver nota abajo) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > **Nota sobre el nivel de evidencia:** los datos compilados asignan L1, pero para esta indicación concreta no hay ningún ECA de Fase 3 completado (el único ensayo de Fase 3, CAPTIVA, sigue activo). Los respaldos publicados son un estudio de cohorte y un artículo de diseño de ensayo. El nivel L1 debe interpretarse con cautela.

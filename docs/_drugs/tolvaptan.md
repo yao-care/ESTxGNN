@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: nueva indicación predicha, Renal-hepatic-pancreatic dysplasia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
 description: "Ceftriaxone: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ Entre las demás predicciones, la **otitis media infecciosa** es la mejor respal
 | Puntaje de Predicción TxGNN | 0.9939 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

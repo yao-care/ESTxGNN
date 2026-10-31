@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 656
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ La pravastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada or
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

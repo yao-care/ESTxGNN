@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 292
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos local…"
@@ -53,7 +53,7 @@ Los estudios identificados se refieren a la coinfección VHC/VHB, en la que ente
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L4 (solo evidencia indirecta; ningún estudio real en VHC) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

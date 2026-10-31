@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 283
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -53,7 +53,7 @@ Actualmente lo respaldan **1 ensayo clínico** (de fase 3, terminado, con aplica
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L2 (con reservas: el ensayo de fase 3 está terminado y no se confirma que sea específico para VIH) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

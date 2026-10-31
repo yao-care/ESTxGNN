@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 description: "Levofloxacin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para la **queratoconjuntivitis 
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

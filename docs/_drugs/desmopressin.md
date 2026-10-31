@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (congenital prothrombin deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia congénita d
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

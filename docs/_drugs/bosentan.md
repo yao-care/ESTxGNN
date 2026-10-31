@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 110
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Hipertensión arterial pulmonar / esclerodermia (esclerosis sistémica)"
 monitor_inn: "bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

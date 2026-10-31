@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 712
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ con **0 ensayos clínicos registrados** y **8 publicaciones** (incluyendo un pos
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

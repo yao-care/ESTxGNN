@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Olmesartan: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización compilados"
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -49,7 +49,7 @@ Olmesartán es un antagonista del receptor de angiotensina II tipo 1 (ARA-II), c
 | Puntaje de Predicción TxGNN | 0,9984 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

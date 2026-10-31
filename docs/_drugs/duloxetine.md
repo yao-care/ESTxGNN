@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para el **Trastorno Obsesivo-Co
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

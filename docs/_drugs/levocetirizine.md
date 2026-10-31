@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine: nueva indicación predicha, Artritis Reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **Artritis Reumatoide**, p
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

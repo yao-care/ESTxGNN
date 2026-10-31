@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 733
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: nueva indicación predicha, Schizoid personality disorder (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **agorafobia**, con **2 en
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 (con salvedades, ver más abajo) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > **Nota sobre el nivel de evidencia:** el nivel L1 se asigna por la existencia de varios ensayos controlados aleatorizados y metaanálisis en trastorno de pánico con o sin agorafobia. Ningún ensayo registrado completado de Fase 3 evalúa la agorafobia como diagnóstico independiente, por lo que la asignación debe interpretarse con cautela.

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 541
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **17 e
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L1 (ver nota en la conclusión: hay un ECA de Fase 3 completado, pero en bronquiolitis por VRS) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

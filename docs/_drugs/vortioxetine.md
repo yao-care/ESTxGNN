@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -53,7 +53,7 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** de apoyo indir
 | Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 2) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

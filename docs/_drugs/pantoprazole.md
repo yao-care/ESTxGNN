@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ Hay que tener en cuenta que esta indicación coincide con una de las indicacione
 | Puntaje de Predicción TxGNN | 0.9921 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

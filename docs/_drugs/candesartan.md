@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 137
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Candesartan: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: Hipertensión (según datos farmacológicos"
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
@@ -53,7 +53,7 @@ con **4 ensayos clínicos** (2 completados de fase 2 y fase 2/3) y **20 publicac
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 (ver nota) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 *Nota sobre el nivel de evidencia:* los datos compilados asignan L1 a esta indicación. Según los criterios de este informe (L1 exige ≥2 ECA de fase 3 completados), solo hay un ensayo de fase 2/3 completado (NCT00884663) y un ensayo de fase 2 completado (NCT04574713), por lo que la clasificación estricta correspondería a L2. Cabe señalar que ambos ensayos están respaldados por una publicación de ECA de alto nivel y por un estudio observacional en práctica clínica real.

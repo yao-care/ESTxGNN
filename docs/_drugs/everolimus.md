@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 321
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L2 (un ensayo de Fase 2 en curso, en combinación; sin resultados maduros) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

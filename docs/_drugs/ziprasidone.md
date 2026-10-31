@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 866
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ziprasidone: nueva indicación predicha, Tricotilomanía (nivel de evidencia L5). Indicación original: Trastorno afectivo bipolar maníaco, trastorno bipolar y esquizofrenia"
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 19) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

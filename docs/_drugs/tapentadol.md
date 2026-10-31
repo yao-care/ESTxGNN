@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 764
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "TAPENTADOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

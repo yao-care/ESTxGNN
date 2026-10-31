@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tr
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

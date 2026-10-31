@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 459
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ con **42 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

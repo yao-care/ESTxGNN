@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: nueva indicación predicha, Torticolis paroxistica benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos lo…"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podria ser efectivo para **torticolis paroxistica be
 | Puntaje de Prediccion TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decision Recomendada | Hold |
 
 ---

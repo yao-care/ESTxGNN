@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 245
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero no hay 
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

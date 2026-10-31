@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: nueva indicación predicha, Psychogenic movement disorders (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **Trastorno de Tics Cróni
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold (pregunta de investigación; no avanzar a uso clínico sin estudios controlados) |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **glaucoma**, aunque por a
 | Puntaje de Predicción TxGNN | 0.9927 |
 | Nivel de Evidencia | L5 (solo estudios preclínicos y de mecanismo) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 225
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, aunq
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 según la clasificación del conjunto de datos (ver nota abajo) |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 8) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 **Nota sobre el nivel de evidencia:** el conjunto de datos asigna L2 por el ensayo de Fase 2 completado en sarcomas avanzados (NCT00464620). Sin embargo, ese estudio incluyó sarcomas mixtos, no muestra resultados específicos para Ewing, y una revisión indica que dasatinib en monoterapia fracasó en estos subtipos. Por ello, el nivel L2 debe interpretarse con cautela; la evidencia específica para Ewing es en la práctica preclínica (L4), con series de casos aisladas.

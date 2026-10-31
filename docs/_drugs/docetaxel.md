@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 258
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel: nueva indicación predicha, Ewing sarcoma (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para el 
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

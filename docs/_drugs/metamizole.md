@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 509
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -49,7 +49,7 @@ Metamizol es un analgésico y antipirético no opioide, con una débil actividad
 | Puntaje de Predicción TxGNN | 0,9978 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 > **Nota:** La indicación con puntaje más alto (artritis reumatoide) tiene evidencia débil. La migraña (puntaje 0,9972, nivel L3, recomendación "Pregunta de investigación") es la candidata con mayor respaldo clínico y se describe en la sección de alternativas dentro de la conclusión.

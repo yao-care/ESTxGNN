@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 735
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Silodosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Silodosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los d…"
@@ -51,7 +51,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

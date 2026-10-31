@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 838
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ pero actualmente solo existe **1 publicación preclínica** (estudio en animales
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

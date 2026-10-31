@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 487
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **2 p
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

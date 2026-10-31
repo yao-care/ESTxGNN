@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Denosumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) (nivel de evidencia L5). Indicación original: No consta en los datos …"
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

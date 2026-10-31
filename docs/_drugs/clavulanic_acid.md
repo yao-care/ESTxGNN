@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Clavulanic Acid: nueva indicación predicha, Uretritis por Ureaplasma (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según la base de conocimiento"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -51,7 +51,7 @@ La propia evaluación mecanística indica que esta predicción probablemente sea
 | Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

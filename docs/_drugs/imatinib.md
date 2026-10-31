@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: nueva indicación predicha, Heart fibrosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -53,7 +53,7 @@ La evidencia es muy limitada y se basa casi exclusivamente en la predicción del
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 8) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

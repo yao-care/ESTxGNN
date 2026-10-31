@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 763
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
 description: "Tamsulosin: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -53,7 +53,7 @@ La predicción carece de plausibilidad mecanística y debe considerarse un artef
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
-| Número de Autorizaciones | 20 |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
