@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-02
 description: "Fibrinogen Human: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "fibrinogen human"
 predicted_indications: ["hemoglobinopathy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **hemoglobinopatía**, per
 | Nueva Indicación Predicha | Hemoglobinopatía |
 | Puntaje de Predicción TxGNN | 0.9912 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
