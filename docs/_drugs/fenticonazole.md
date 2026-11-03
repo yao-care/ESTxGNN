@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
-description: "Fenticonazole: nueva indicación predicha, Trichomonal vulvovaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Fenticonazole: nueva indicación predicha, vulvovaginitis por tricomonas (trichomonal vulvovaginitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fenticonazole
@@ -33,19 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Fenticonazole: Trichomonal vulvovaginitis
+## Fenticonazole: vulvovaginitis por tricomonas (trichomonal vulvovaginitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Fenticonazol es un antifúngico imidazólico de uso tópico vaginal, originalmente utilizado para el tratamiento de la candidiasis vulvovaginal.
+Fenticonazol es un antifúngico imidazólico de uso tópico (vaginal y cutáneo) que se comercializa en España.
+El modelo TxGNN predice que podría ser efectivo para **vulvovaginitis por tricomonas (trichomonal vulvovaginitis)**, pero actualmente no hay ensayos clínicos registrados y la literatura disponible no estudia directamente esta enfermedad, por lo que la evidencia se limita a la predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Trichomonal vulvovaginitis |
+| Nueva Indicación Predicha | vulvovaginitis por tricomonas (trichomonal vulvovaginitis) |
 | Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
@@ -54,11 +55,11 @@ Fenticonazol es un antifúngico imidazólico de uso tópico vaginal, originalmen
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la literatura revisada, fenticonazol es un derivado imidazólico con amplio espectro antimicótico. Se describe que actúa inhibiendo la secreción de proteasa ácida de *Candida albicans*, dañando la membrana citoplasmática y bloqueando citocromo oxidasas y peroxidasas. También se ha descrito cierta acción antibacteriana *in vitro*.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la literatura revisada, fenticonazol es un derivado imidazólico con un amplio espectro antimicótico. Se describe que actúa inhibiendo la secreción de proteasa ácida de *Candida albicans*, dañando la membrana citoplasmática y bloqueando citocromo oxidasas y peroxidasas. También se ha descrito cierta acción antibacteriana in vitro.
 
-La relación con la nueva indicación es limitada. Existen datos *in vitro* que sugieren actividad frente a algunos microorganismos adicionales, y un estudio piloto abierto incluyó mujeres con infecciones mixtas (*Candida albicans*, *Trichomonas vaginalis* y/o *Gardnerella vaginalis*). Sin embargo, no hay un mecanismo validado para la infección tricomoniásica en los datos disponibles.
+Se han comunicado en la literatura actividad antimicrobiana más amplia, incluida actividad frente a *Trichomonas vaginalis*, pero los datos disponibles no describen un mecanismo validado frente a la infección tricomonal. La predicción, aunque tiene un puntaje muy alto, no está respaldada por evidencia clínica directa.
 
-Conviene ser cautos: el puntaje TxGNN es muy alto, pero es solo una predicción. El tratamiento estándar de la tricomoniasis son los 5-nitroimidazoles (metronidazol/tinidazol), por lo que es poco probable que un azol tópico los sustituya.
+Además, el tratamiento estándar de la tricomoniasis son los 5-nitroimidazoles (metronidazol/tinidazol), por lo que es poco probable que un azol tópico los sustituya.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,8 +69,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [15216954](https://pubmed.ncbi.nlm.nih.gov/15216954/) | 2004 | Estudio clínico abierto, multicéntrico (piloto) | Journal of Chemotherapy | 101 mujeres con vulvovaginitis por infecciones únicas o mixtas (*Candida*, *Trichomonas*, *Gardnerella*); óvulos de 1 g de fenticonazol los días 1 y 3, evaluando eficacia, seguridad y tolerabilidad |
-| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Revisión | Drugs | Revisión del uso tópico de fenticonazol en dermatología y ginecología; amplio espectro antimicótico y cierta acción antibacteriana |
+| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Revisión | Drugs | Revisión del papel de fenticonazol tópico en dermatología y ginecología; describe su espectro antimicótico, su mecanismo en tres vías y cierta acción antibacteriana |
+
+La literatura vinculada se centra sobre todo en la candidiasis vulvovaginal y en infecciones mixtas; no estudia de forma directa la vulvovaginitis por tricomonas.
 
 ## Información de Mercado en España
 
@@ -81,7 +83,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 61915 | LAURIMIC 20 mg/g crema | Crema | No disponible |
 | 61916 | LAURIMIC 600 mg cápsula vaginal blanda | Cápsula vaginal blanda | No disponible |
 
-Hay una sexta autorización vigente (61126, LOMEXIN 200 mg cápsulas vaginales blandas), que no se detalla por el límite de cinco filas.
+Existe una autorización adicional (61126, LOMEXIN 200 mg cápsulas vaginales blandas). Las 6 autorizaciones están vigentes.
 
 ## Consideraciones de Seguridad
 
@@ -92,16 +94,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El tratamiento estándar (5-nitroimidazoles) es eficaz, por lo que un azol tópico probablemente no aporte ventaja.
+No hay ensayos clínicos ni estudios que evalúen directamente fenticonazol en la vulvovaginitis por tricomonas; el puntaje del modelo es solo una predicción, y el tratamiento estándar con 5-nitroimidazoles es eficaz y establecido.
 
 **Para avanzar se necesita:**
-- Datos de mecanismo de acción detallados y evidencia de actividad frente a *Trichomonas vaginalis*
-- Análisis de resultados por patógeno del estudio piloto de infecciones mixtas
-- Ensayos clínicos prospectivos y controlados frente a metronidazol/tinidazol
-- Advertencias, contraindicaciones e interacciones del prospecto de la AEMPS, para el cribado de seguridad
-- Textos de indicación aprobada de las autorizaciones españolas
+- Estudios in vitro frente a *Trichomonas vaginalis* y, si resultan favorables, ensayos clínicos comparativos frente a metronidazol o tinidazol
+- Datos del mecanismo de acción frente a tricomonas
+- Información de seguridad y contraindicaciones del prospecto de la AEMPS
 
-**Nota complementaria:** entre las demás indicaciones predichas, la vulvovaginitis general, la vulvitis y la vaginitis (nivel L3) cuentan con más literatura, pero se refiere sobre todo a candidiasis, es decir, a la indicación original. Podrían explorarse como preguntas de investigación, en especial en vaginitis mixta o bacteriana, donde existen datos *in vitro* frente a *Gardnerella vaginalis*.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
