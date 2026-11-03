@@ -12,6 +12,8 @@ description: "Candidatos a reposicionamiento de medicamentos L1-L2 en ESTxGNN, r
 Candidatos que pueden priorizarse para su evaluación clínica
 </p>
 
+¿Cuáles de estos medicamentos tienen evidencia de ensayos para su nueva indicación predicha y cuántos ensayos registrados se citan? Vea [Medicamentos en España con evidencia de ensayos clínicos para una nueva indicación]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Criterios
