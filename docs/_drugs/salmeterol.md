@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Salmeterol
@@ -33,61 +33,60 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Salmeterol: Respiratory malformation
+## Salmeterol: malformación respiratoria (respiratory malformation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Salmeterol es un agonista beta2-adrenérgico de acción prolongada, utilizado originalmente en el tratamiento del enfisema pulmonar y del asma (intrínseca y alérgica).
-Se trata sobre todo de una extensión dentro de la enfermedad obstructiva de las vías respiratorias, no de un reposicionamiento a una enfermedad lejana.
+Salmeterol es un broncodilatador agonista beta2 de acción prolongada, administrado por vía inhalada y comercializado en España.
+El modelo TxGNN predice que podría ser efectivo para **malformación respiratoria (respiratory malformation)**,
+pero la evidencia directa es muy limitada: hay **2 ensayos clínicos** y **8 publicaciones** recopilados, ninguno de los cuales estudia directamente esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Respiratory malformation |
+| Nueva Indicación Predicha | malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 9 de 9) |
 | Número de Autorizaciones | 9 (vigentes: 9) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, salmeterol es un agonista beta2-adrenérgico de acción prolongada (LABA). Relaja el músculo liso bronquial y produce broncodilatación sostenida, con administración dos veces al día.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase farmacológica, salmeterol actúa sobre los receptores beta2 adrenérgicos de la vía aérea, produciendo broncodilatación sostenida. También se ha descrito que puede aumentar la frecuencia del batido ciliar y el aclaramiento mucociliar.
 
-La bronquitis crónica es un fenotipo de la EPOC, y la EPOC comparte con el enfisema y el asma la obstrucción del flujo aéreo. Además, los estudios muestran que salmeterol mejora el aclaramiento mucociliar y de la tos, lo cual es directamente relevante en la bronquitis crónica. Salmeterol ya está establecido en la EPOC, como monoterapia y en combinación con fluticasona.
+Esa biología compartida de la vía aérea (función ciliar, aclaramiento de moco, señalización beta2) probablemente explica el puntaje elevado del modelo. Sin embargo, la "malformación respiratoria" es una categoría estructural y heterogénea, y la broncodilatación no corrige defectos estructurales.
+
+Por ello, el vínculo es indirecto y, en el mejor de los casos, sintomático. Ningún estudio recopilado evalúa salmeterol en esta enfermedad, por lo que el nivel de evidencia se limita a L5 (solo predicción del modelo).
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Fase 3 | Completado | 130 | Salmeterol/fluticasona 50/500 mcg vs placebo: efecto antiinflamatorio bronquial en EPOC |
-| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Fase 3 | Completado | 584 | Tiotropio vs salmeterol vs placebo durante 6 meses en EPOC: eficacia broncodilatadora y seguridad |
-| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Fase 3 | Completado | 122 | GW815SF (salmeterol/fluticasona) a largo plazo (56 semanas) en EPOC, incluyendo bronquitis crónica y enfisema |
-| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Fase 3 | Completado | 741 | Arformoterol vs placebo y control activo en EPOC (probablemente salmeterol como comparador) |
-| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Fase 3 | Completado | 799 | Seguridad a largo plazo (12 meses) de arformoterol con control activo en EPOC |
-| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Fase 3 | Completado | 150 | Comparación de dos medicamentos en EPOC (18 semanas); diseño específico poco claro |
-| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Fase 2 | Completado | 457 | Búsqueda de dosis de fluticasona/formoterol, con Advair (fluticasona/salmeterol) como referencia |
-| [NCT01361984](https://clinicaltrials.gov/study/NCT01361984) | Fase 4 | Desconocido | 20 | Arformoterol nebulizado vs salmeterol en polvo seco: capacidad inspiratoria y TCAR en EPOC |
+| [NCT00005110](https://clinicaltrials.gov/study/NCT00005110) | No especificada | Suspendido | No disponible | Salmeterol frente a albuterol o placebo durante 6 meses en fibrosis quística; sin resultados. Relación solo laxa con la indicación predicha. |
+| [NCT01681979](https://clinicaltrials.gov/study/NCT01681979) | No aplicable | Completado | 1 | Tratamiento del asma en el embarazo y resultados adversos gestacionales; se centra en seguridad en el embarazo, no en malformación respiratoria. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | ECA | Pulm Pharmacol Ther | Efecto agudo de salmeterol vs placebo sobre el aclaramiento mucociliar y de la tos en bronquitis crónica (n=14) |
-| [17557771](https://pubmed.ncbi.nlm.nih.gov/17557771/) | 2007 | ECA | Thorax | Efecto de salmeterol/fluticasona sobre la inflamación de las vías aéreas en EPOC |
-| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | Metaanálisis | Respir Res | Salmeterol 50 mcg dos veces al día frente a placebo/tratamiento habitual: mejores resultados clínicos en EPOC |
-| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Revisión | Drugs | Uso de salmeterol/fluticasona en EPOC asociada a bronquitis crónica |
-| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | Ensayo clínico | Chest | Eficacia y seguridad de fluticasona 250/salmeterol 50 en Diskus frente a placebo y a cada componente en EPOC |
-| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | Ensayo clínico | Ther Adv Respir Dis | Seguridad y tolerancia a un año de arformoterol y salmeterol en EPOC |
-| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | Cohorte | Curr Med Res Opin | Uso de recursos sanitarios y costes en bronquitis crónica con fluticasona/salmeterol frente a otros tratamientos inhalados |
-| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | Estudio abierto | Clin Ther | Salmeterol inhalado frente a teofilina oral en EPOC leve-moderada: eficacia, tolerabilidad y calidad de vida |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guía clínica | Basic Clin Pharmacol Toxicol | Guía finlandesa de diagnóstico y farmacoterapia de la EPOC estable |
-| [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Revisión | Br J Clin Pharmacol | Antagonismo de los agonistas beta2 de acción prolongada |
+| [15293609](https://pubmed.ncbi.nlm.nih.gov/15293609/) | 2004 | ECA | Eur Respir J | Efecto de salmeterol sobre la respuesta ventilatoria al ejercicio en EPOC (cruzado, doble ciego, 23 pacientes). |
+| [34902004](https://pubmed.ncbi.nlm.nih.gov/34902004/) | 2022 | ECA | JAMA Pediatrics | Corticoides inhalados solos o con LABA para la función pulmonar reducida en niños nacidos prematuros. |
+| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Revisión | J Asthma | Revisión de budesonida/formoterol en asma persistente. |
+| [26229457](https://pubmed.ncbi.nlm.nih.gov/26229457/) | 2015 | Revisión | Int J Chron Obstruct Pulmon Dis | Doble broncodilatación con indacaterol-glicopirronio en EPOC. |
+| [22608352](https://pubmed.ncbi.nlm.nih.gov/22608352/) | 2012 | Cohorte | Respir Med | Batido ciliar deprimido en cilios nasales de sujetos con EPOC. |
+| [30021361](https://pubmed.ncbi.nlm.nih.gov/30021361/) | 2018 | Preclínico | Biomed Pharmacother | Extracto de tomillo aumenta la frecuencia de batido mucociliar en células de pacientes con EPOC. |
+| [37327273](https://pubmed.ncbi.nlm.nih.gov/37327273/) | 2023 | Reporte de caso | Medicine | Aspergilosis pulmonar tratada con omalizumab. |
+| [20703071](https://pubmed.ncbi.nlm.nih.gov/20703071/) | 2010 | Reporte de caso | Arerugi | Discinesia ciliar primaria tratada inicialmente como asma. |
+
+Ninguna de estas publicaciones estudia directamente la malformación respiratoria.
 
 ## Información de Mercado en España
+
+Salmeterol cuenta con 9 autorizaciones válidas como principio activo único, sin autorizaciones canceladas.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -97,42 +96,29 @@ La bronquitis crónica es un fenotipo de la EPOC, y la EPOC comparte con el enfi
 | 59490 | SEREVENT 25 microgramos/inhalación | Suspensión para inhalación en envase a presión | No disponible en los datos |
 | 59527 | INASPIR 25 microgramos/inhalación | Suspensión para inhalación en envase a presión | No disponible en los datos |
 
-Hay 9 autorizaciones vigentes en total, todas de medicamentos con un solo principio activo y ninguna cancelada.
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): hipertensión, síndrome de QT largo (incluida la forma familiar), epilepsia, hiperglucemia, queratitis por herpes simple, diversas deficiencias hipofisarias e hipogonadismo hipogonadotrópico, enfermedad del timo y osteoporosis.
-- **Interacciones farmacológicas:** se identificaron 100 interacciones. Entre las principales:
-  - **Mayor:** claritromicina.
-  - **Moderada:** acarbosa, isometepteno, famotidina, epinefrina, albiglutida, alogliptina, canagliflozina, clorpropamida, dapagliflozina, dietilpropión, dolasetrón, dulaglutida y empagliflozina.
-  - **Menor:** hidrocortisona, triamcinolona, dexametasona, beclometasona, betametasona y budesonida.
-- **Salvaguarda relevante en asma:** las revisiones Cochrane señalan un aumento de eventos adversos graves con LABA regulares. Por ello, no debe usarse como monoterapia en asma y debe asociarse siempre a un corticoide inhalado.
+- **Interacciones Farmacológicas** (se identificaron 100 interacciones; se muestran las principales):
+  - Mayor: claritromicina.
+  - Moderadas: epinefrina, isometepteno, famotidina, acarbosa, albiglutida, alogliptina, canagliflozina, clorpropamida, dapagliflozina, dietilpropión, dolasetrón, dulaglutida, empagliflozina.
+  - Menores: corticoides como hidrocortisona, triamcinolona, dexametasona, beclometasona, betametasona y budesonida.
+- **Condiciones de precaución (no proceden del texto del prospecto):** hipertensión, síndrome de QT largo, epilepsia, hiperglucemia, osteoporosis, enfermedades del timo y diversos déficits de hormonas hipofisarias.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Varios ensayos de Fase 3 completados en EPOC, que incluye la bronquitis crónica, junto con un ECA específico en bronquitis crónica, respaldan la plausibilidad clínica. Salmeterol ya está establecido en EPOC, por lo que es una extensión de bajo riesgo dentro de la enfermedad obstructiva. Sin embargo, no hay ensayos específicos de "bronquitis" como criterio principal, y varios ensayos usan salmeterol solo como comparador o en combinación.
+El puntaje del modelo es alto (0.9991), pero ningún ensayo ni publicación estudia salmeterol en malformación respiratoria, y el vínculo mecanístico es indirecto, ya que la broncodilatación no corrige defectos estructurales. La evidencia se limita a L5.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), cuya ausencia es una brecha de seguridad bloqueante para el cribado de seguridad.
-- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Confirmar los textos de indicación aprobados en las autorizaciones españolas.
-- Aclarar si la evidencia corresponde a salmeterol solo o a la combinación con fluticasona, y definir la población diana (bronquitis crónica/EPOC).
-- Plan de seguimiento cardiovascular (QT, hipertensión) y metabólico (glucemia, hipopotasemia), y revisión de interacciones relevantes como la claritromicina.
+- Datos del mecanismo de acción del fármaco.
+- Estudios que evalúen directamente salmeterol en malformaciones respiratorias, o en subgrupos definidos con alteración de la función ciliar.
+- Advertencias y contraindicaciones del prospecto de la AEMPS.
+- Evaluación de la vía de administración inhalada para la población y la enfermedad de interés.
 
-## Otras Indicaciones Predichas (Referencia)
-
-Las demás predicciones del modelo no justifican avanzar por ahora:
-
-- **Enfermedad pulmonar obstructiva (L1, Proceed with Guardrails) y asma (L1, Proceed with Guardrails):** corresponden al uso ya autorizado o muy próximo a él, no a un reposicionamiento real.
-- **Malformación respiratoria (L4, Hold):** vínculo indirecto; la broncodilatación no corrige defectos estructurales.
-- **Síndrome de Rienhoff (L5, Hold):** sin base mecanística ni evidencia; probablemente un artefacto del modelo.
-- **Rasgos de susceptibilidad al asma (L5, Hold):** categoría genética, no una enfermedad tratable de forma independiente.
-- **Eccema atópico (L4, Hold):** solo evidencia preclínica e indirecta, sin ensayos clínicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-03
 monitor_inn: "BROTIZOLAM"
 predicted_indications: ["alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety"]
-description: "Brotizolam: nueva indicación predicha, Alcohol withdrawal delirium (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Brotizolam: nueva indicación predicha, Delirio por abstinencia de alcohol (alcohol withdrawal delirium) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Brotizolam
@@ -33,91 +33,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Brotizolam: Alcohol withdrawal delirium
+## Brotizolam: Delirio por abstinencia de alcohol (alcohol withdrawal delirium)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Brotizolam es una benzodiazepina (tienotriazolodiazepina) de acción corta, comercializada en España como SINTONAL 0,25 mg comprimidos. Los datos compilados no incluyen el texto de la indicación aprobada.
-Cabe señalar que el insomnio es el uso establecido del fármaco, por lo que no es un reposicionamiento en sentido estricto.
-
----
+Brotizolam es una benzodiazepina de acción corta (tienotriazolodiazepina) comercializada en España.
+El modelo TxGNN predice que podría ser útil para **delirio por abstinencia de alcohol (alcohol withdrawal delirium)**, con un puntaje de 0.9966.
+Actualmente **no hay ensayos clínicos ni publicaciones** que estudien directamente este uso, así que la predicción no tiene respaldo experimental.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Alcohol withdrawal delirium |
+| Nueva Indicación Predicha | Delirio por abstinencia de alcohol (alcohol withdrawal delirium) |
 | Puntaje de Predicción TxGNN | 0.9966 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos principal. Según la información conocida, brotizolam es una tienotriazolodiazepina de acción corta que actúa como modulador alostérico positivo del receptor GABA-A en el sitio de las benzodiazepinas, potenciando la neurotransmisión inhibitoria y produciendo efectos sedantes e hipnóticos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción de brotizolam en los datos compilados para este informe. Como benzodiazepina, se espera que potencie la acción del GABA sobre el receptor GABA-A y reduzca la actividad excitadora del sistema nervioso central.
 
-Por ello, el puntaje tan alto del modelo refleja una indicación ya conocida y no una nueva oportunidad terapéutica. Los demás candidatos predichos (abstinencia alcohólica, abuso de sustancias, ansiedad) tienen una evidencia mucho más débil y se mantienen en estado de espera o investigación.
+Este mecanismo ofrece una justificación a nivel de clase. Las benzodiazepinas son el tratamiento de referencia en la abstinencia alcohólica, porque la potenciación de GABA-A contrarresta la hiperexcitabilidad del sistema nervioso central propia de ese cuadro.
 
----
+Esta justificación tiene límites importantes. Brotizolam tiene una semivida corta y no se ha estudiado en este contexto. En la abstinencia alcohólica suelen preferirse fármacos con semivida más larga y protocolos establecidos. La señal actual proviene solo de la predicción del modelo.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00347295](https://clinicaltrials.gov/study/NCT00347295) | Fase 3 | Completado | 253 | Estudio multicéntrico, aleatorizado, doble ciego y doble simulación, que compara la eficacia y seguridad de brotizolam (Lendormin) frente a estazolam en pacientes ambulatorios con insomnio |
-| [NCT02776228](https://clinicaltrials.gov/study/NCT02776228) | Fase 3 | Desconocido | 200 | Prevalencia de insomnio tras cirugía cardíaca y resultado del tratamiento a corto plazo con una benzodiazepina; no se confirma que el agente sea brotizolam |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [23025837](https://pubmed.ncbi.nlm.nih.gov/23025837/) | 2013 | ECA | Int J Psychiatry Clin Pract | Ensayo aleatorizado, doble ciego y doble simulación sobre brotizolam en pacientes ambulatorios con insomnio |
-| [3281819](https://pubmed.ncbi.nlm.nih.gov/3281819/) | 1988 | Revisión | Drugs | Propiedades farmacodinámicas y farmacocinéticas y eficacia como hipnótico; mejora del sueño similar a nitrazepam, flunitrazepam y triazolam, y superior a flurazepam a 0,5 mg |
-| [10529072](https://pubmed.ncbi.nlm.nih.gov/10529072/) | 1999 | Metaanálisis | Int Clin Psychopharmacol | Tolerancia e insomnio de rebote con hipnóticos de eliminación rápida, incluido brotizolam |
-| [6140949](https://pubmed.ncbi.nlm.nih.gov/6140949/) | 1983 | Estudio comparativo | Br J Clin Pharmacol | Brotizolam 0,25 mg y triazolam 0,25 mg sin diferencias de eficacia y tolerancia en 6 días (buena eficacia: 88,6 % vs 92,0 %) |
-| [6362702](https://pubmed.ncbi.nlm.nih.gov/6362702/) | 1983 | ECA | Br J Clin Pharmacol | Como hipnótico preoperatorio, superior a placebo (73 % con 0,25 mg y 88 % con 0,5 mg frente a 40 % con placebo) |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Uso clínico de hipnóticos y necesidad de contar con distintos tipos |
-| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Revisión sistemática | Cochrane Database Syst Rev | Efectos de opioides, hipnóticos y sedantes sobre la respiración durante el sueño en apnea obstructiva del sueño (aspecto de seguridad) |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
+
+El fármaco figura como comercializado, con 1 autorización vigente.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 58229 | SINTONAL 0,25 mg comprimidos | Comprimido | No disponible en los datos compilados |
 
----
-
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: no se encontraron interacciones en la consulta realizada. Según la literatura, brotizolam se metaboliza principalmente por CYP3A4, por lo que inhibidores (antifúngicos azólicos, macrólidos, antagonistas del calcio, zumo de pomelo) o inductores (antiepilépticos, rifampicina) de esta enzima podrían modificar su exposición.
-- **Precauciones derivadas de la literatura y del mecanismo**: tolerancia, insomnio de rebote, dependencia, deterioro al día siguiente, riesgo de depresión respiratoria (incluido en trastornos respiratorios del sueño), y cautela en ancianos y durante embarazo y lactancia.
-
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones oficiales).
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado, aleatorizado y doble ciego, que compara brotizolam con estazolam en insomnio, además de literatura clínica de apoyo. Sin embargo, el insomnio es el uso establecido del fármaco, por lo que el valor como reposicionamiento es limitado. Con rigor, solo hay un ensayo de Fase 3 completado directamente relacionado con brotizolam, de modo que el nivel L1 asignado (≥2 ECAs de Fase 3 completados) debe interpretarse con cautela.
+La predicción se apoya solo en el puntaje del modelo y en una lógica de clase farmacológica, sin ensayos ni publicaciones sobre este uso (nivel L5). Además, brotizolam es de acción corta y existen alternativas con protocolos establecidos.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de AEMPS para confirmar la indicación aprobada, las advertencias y las contraindicaciones
-- Completar los datos del mecanismo de acción desde DrugBank
-- Confirmar el comparador y los resultados principales de NCT00347295 y verificar si el agente de NCT02776228 es brotizolam
-- Plan de seguimiento de seguridad: tolerancia, dependencia, insomnio de rebote, deterioro psicomotor y poblaciones vulnerables (ancianos, embarazo y lactancia, trastornos respiratorios del sueño)
-- Para las otras indicaciones predichas (abstinencia alcohólica, abuso de sustancias, ansiedad), la evidencia es insuficiente o indirecta y se recomienda mantenerlas en espera hasta contar con estudios específicos
+- Datos del mecanismo de acción de brotizolam.
+- Información de seguridad del prospecto (advertencias y contraindicaciones).
+- Estudios preclínicos o clínicos que evalúen brotizolam en la abstinencia alcohólica.
+- Comparación con las benzodiazepinas de referencia, de semivida más larga, usadas en este contexto.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

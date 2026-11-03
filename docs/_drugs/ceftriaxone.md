@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-03
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-description: "Ceftriaxone: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Ceftriaxone: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ceftriaxone
@@ -33,20 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Ceftriaxone: Hiperamilasemia (hyperamylasemia)
+## Ceftriaxone: hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ceftriaxona es un antibiótico cefalosporínico de tercera generación, utilizado originalmente para infecciones bacterianas como neumonía, meningitis, gonorrea y salmonelosis.
-El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia** (puntaje de 0,9939), pero esta predicción **no cuenta con ensayos clínicos** y solo con **3 publicaciones** de relevancia indirecta.
+Ceftriaxona es un antibiótico cefalosporínico de uso inyectable, utilizado en infecciones bacterianas.
+El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia (hyperamylasemia)**, pero no hay ensayos clínicos registrados y la literatura recuperada es indirecta, por lo que la evidencia es solo de predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
+| Nueva Indicación Predicha | hiperamilasemia (hyperamylasemia) |
 | Puntaje de Predicción TxGNN | 0.9939 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
@@ -55,23 +55,25 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia** (punta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ceftriaxona es una cefalosporina de tercera generación con acción antibacteriana, y su eficacia en infecciones bacterianas está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, ceftriaxona es una cefalosporina que actúa contra bacterias, y su utilidad está establecida en infecciones bacterianas.
 
-Para la hiperamilasemia, la predicción **no es mecanísticamente plausible**. La elevación de amilasa es un hallazgo de laboratorio y no una infección. La literatura recuperada trata sobre síndrome de Weil con hemorragia digestiva, enzimas pancreáticas en hemorragia intracraneal y profilaxis tras papilosfinterotomía endoscópica; ninguna demuestra que ceftriaxona trate la hiperamilasemia. El puntaje alto del modelo es solo una predicción.
+La hiperamilasemia es un hallazgo de laboratorio (elevación de amilasa en sangre), no una infección. No existe un vínculo mecanístico plausible entre la acción antibacteriana de ceftriaxona y la corrección de este hallazgo. El puntaje elevado del modelo es únicamente una predicción computacional.
 
-Otras predicciones del modelo siguen el mismo patrón. Las de síndrome de hiperviscosidad policlonal, analbuminemia congénita e incompatibilidad de grupo sanguíneo carecen de vínculo mecanístico. En cambio, las predicciones de **otitis media** (infecciosa, supurativa y crónica) sí son coherentes con la actividad antibacteriana del fármaco, aunque se acercan más a un uso ya conocido que a un reposicionamiento genuino.
+Por tanto, la predicción debe considerarse una hipótesis sin respaldo mecanístico ni clínico en los datos compilados para este informe.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para hiperamilasemia.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | Estudio clínico | Bratislavske lekarske listy | Profilaxis con 1 g de ceftriaxona tras papilosfinterotomía endoscópica en 30 pacientes frente a 30 controles; las bacterias biliares fueron sensibles a ceftriaxona |
-| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Cohorte | Southern Medical Journal | Hiperamilasemia/hiperlipasemia de origen pancreático en 38 pacientes con hemorragia intracraneal, sin pancreatitis; no involucra ceftriaxona |
-| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Reporte de caso | Revista Española de Enfermedades Digestivas | Síndrome de Weil con hemorragia digestiva alta; sin relación terapéutica demostrada |
+| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Cohorte | Southern Medical Journal | En 38 pacientes con hemorragia intracraneal, 25 presentaron lipasa elevada y 17 también amilasa elevada, sin pancreatitis. No evalúa ceftriaxona. |
+| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | Estudio clínico | Bratislavske Lekarske Listy | Profilaxis con ceftriaxona 1 g en 30 pacientes tras papilosfinterotomía endoscópica frente a 30 sin antibiótico; contexto de prevención de infección, no tratamiento de hiperamilasemia. |
+| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Reporte de caso | Revista Española de Enfermedades Digestivas | Síndrome de Weil con hemorragia digestiva alta; no demuestra que ceftriaxona trate la hiperamilasemia. |
+
+Ninguna de estas publicaciones estudia directamente ceftriaxona como tratamiento de la hiperamilasemia.
 
 ## Información de Mercado en España
 
@@ -83,30 +85,28 @@ Actualmente no hay ensayos clínicos relacionados registrados para hiperamilasem
 | 64950 | Ceftriaxona Sala 2 g | Polvo para solución para perfusión | No disponible |
 | 62635 | Ceftriaxona Normon 1000 mg | Polvo y disolvente para solución inyectable | No disponible |
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único).
+La lista puede ser parcial. Hay 17 autorizaciones vigentes y 3 canceladas.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: enfermedad hepática, enfermedad de la vesícula biliar, ictericia neonatal, colitis por *Clostridium difficile*, enterocolitis necrotizante perinatal y anemia hemolítica.
-- **Interacciones Farmacológicas** (100 registradas en total):
-  - **Mayores**: cloruro de calcio, glucoheptonato de calcio y gluconato de calcio.
-  - **Moderadas**: kanamicina, neomicina, estreptomicina y ácido picosulfúrico.
-  - Otras interacciones, como calcitriol, epinefrina, anfotericina B y manitol, tienen nivel desconocido.
+- **Interacciones farmacológicas (gravedad mayor)**: cloruro de calcio, glucoheptonato de calcio y gluconato de calcio.
+- **Interacciones farmacológicas (gravedad moderada)**: kanamicina, neomicina, estreptomicina y ácido picosulfúrico.
+- Se identificaron 100 interacciones en total; las anteriores son las de mayor relevancia entre las listadas.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (hiperamilasemia) es solo del modelo (L5), sin ensayos ni mecanismo plausible, por lo que no justifica avanzar. La otitis media infecciosa (L3, S2) podría avanzar como "Proceed with Guardrails": hay un ensayo comparativo de ceftriaxona frente a trimetoprim-sulfametoxazol y guías con ceftriaxona intramuscular en dosis única. Sin embargo, el único ensayo registrado evalúa tubos de timpanostomía, no ceftriaxona, y no se verificó ningún ECA de Fase 3. La otitis media supurativa y la crónica quedan como preguntas de investigación (L3 y L4), con evidencia antigua, no controlada o microbiológica.
+No hay ensayos clínicos ni literatura que estudie ceftriaxona en hiperamilasemia, y no existe un mecanismo plausible que la respalde. La predicción se apoya únicamente en el puntaje del modelo (0,9939).
 
 **Para avanzar se necesita:**
-- Prospecto de AEMPS con advertencias, contraindicaciones e indicaciones aprobadas.
-- Datos del mecanismo de acción desde DrugBank.
-- Para otitis media: ECA de Fase 3 de ceftriaxona y verificación de su estatus frente a la indicación ya autorizada.
-- Para otitis media: salvaguardas de uso restringido (fracaso terapéutico, vómitos o imposibilidad de vía oral) y de control de resistencias antimicrobianas.
-- Separar las formas aguda y crónica de otitis media supurativa en futuros análisis.
-- Descartar la hiperamilasemia, la hiperviscosidad, la analbuminemia y la incompatibilidad de grupo sanguíneo como candidatas terapéuticas, salvo nueva evidencia.
+- Datos de mecanismo de acción que justifiquen un vínculo biológico con la hiperamilasemia
+- Estudios clínicos o de cohortes que evalúen directamente ceftriaxona en esta condición
+- Revisión del prospecto para advertencias y contraindicaciones antes de cualquier evaluación adicional
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

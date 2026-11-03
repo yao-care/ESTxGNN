@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-description: "Chloramphenicol: nueva indicación predicha, Diffuse scleroderma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Chloramphenicol: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Chloramphenicol
@@ -33,20 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Chloramphenicol: Diffuse scleroderma
+## Chloramphenicol: Esclerodermia difusa (diffuse scleroderma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Cloranfenicol es un antibiótico bacteriostático de amplio espectro, utilizado originalmente para tratar la fiebre tifoidea, la salmonelosis, la meningitis y otras infecciones bacterianas y rickettsiales.
-La evidencia consiste en **0 ensayos clínicos** y **19 publicaciones** de calidad heterogénea, por lo que el nivel de evidencia es bajo.
+El cloranfenicol es un antibiótico antibacteriano que en España se comercializa en pomadas.
+El modelo TxGNN predice que podría ser efectivo para **Esclerodermia difusa (diffuse scleroderma)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: la predicción se basa solo en el modelo computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Diffuse scleroderma |
+| Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
@@ -55,31 +56,23 @@ La evidencia consiste en **0 ensayos clínicos** y **19 publicaciones** de calid
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el cloranfenicol inhibe la subunidad ribosomal 50S bacteriana y bloquea así la síntesis de proteínas, con efecto bacteriostático de amplio espectro.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción del cloranfenicol en los datos compilados para este informe. Se sabe que es un antibacteriano, es decir, actúa contra microorganismos.
 
-Su eficacia en infecciones sistémicas como la fiebre tifoidea y la meningitis es conocida, y las formulaciones tópicas se emplean desde hace décadas en infecciones oculares bacterianas. Por ello, la conjuntivitis bacteriana es biológicamente plausible. Cabe señalar que esto se parece más a un uso ya existente que a un reposicionamiento genuino. Las pomadas oftálmicas comercializadas en España (formas farmacéuticas oftálmicas) son coherentes con esta vía de administración.
+La esclerodermia difusa es una enfermedad autoinmune y fibrosante. Se caracteriza por inflamación crónica y endurecimiento de la piel y de otros órganos, no por una infección. Por eso no se identifica un vínculo mecanístico claro entre un antibacteriano y esta enfermedad.
 
-Las demás predicciones del modelo (esclerodermia difusa, vasculitis postinfecciosa, síndromes postinfecciosos, miocardiopatía de Chagas, síndrome hemolítico urémico asociado a infección, entre otras) carecen de un vínculo mecanístico claro, no tienen ensayos ni literatura relevante y se mantienen en "Hold". Este informe se centra en la predicción de mayor puntaje.
+La puntuación alta del modelo (0,9965) es solo una señal computacional. Sin ensayos ni literatura que la respalden, debe tratarse como una hipótesis sin validar.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se resumen las publicaciones más relevantes (la mayoría carece de clasificación definitiva del diseño de estudio):
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Revisión sistemática | Cochrane Database Syst Rev | Intervenciones antisépticas y antibióticas para prevenir la oftalmía neonatal |
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Estudio comparativo | Curr Ther Res | Comparación de moxifloxacino y cloranfenicol en infecciones oculares bacterianas |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Revisión | Drugs | Revisión comparativa de 16 preparados antibacterianos oftálmicos tópicos |
-| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Revisión | Clin Pharmacokinet | Tratamiento de infecciones oculares con antibacterianos tópicos |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Revisión/Comentario | Drug Saf | Debate sobre el vínculo entre cloranfenicol ocular tópico y anemia aplásica |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Comentario | Eye (Lond) | Uso y abuso del cloranfenicol tópico |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Comentario | Clin Exp Ophthalmol | Cloranfenicol de venta libre |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
+
+El producto está comercializado en España, con autorizaciones válidas.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -90,25 +83,37 @@ Se resumen las publicaciones más relevantes (la mayoría carece de clasificaci�
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo (según el grafo de conocimiento, no el texto del prospecto)**: enfermedad renal y hepática, enfermedad de la vesícula biliar, trombocitopenia, anemia (incluida la macrocítica y la aplásica), agranulocitosis, neutropenia (incluidas varias formas congénitas), neuropatía periférica y enfermedades del sistema nervioso periférico, neuritis óptica, porfiria aguda intermitente y hemoglobinuria paroxística nocturna.
-- **Interacciones Farmacológicas**: se identificaron 478 interacciones. Entre las principales:
-  - *Mayor gravedad*: cisaprida y naloxegol.
-  - *Gravedad moderada*: sulfonilureas (glimepirida, glipizida, glibenclamida, clorpropamida, acetohexamida), repaglinida, saxagliptina, simvastatina, rosuvastatina, metronidazol, budesonida, aprepitant, hierro, eliglustat, naldemedina y nitisinona.
-- **Señal de seguridad en la literatura**: existe un debate sostenido sobre la posible asociación entre el cloranfenicol ocular tópico y la anemia aplásica, y se ha descrito su uso de venta libre.
+Consultar el prospecto para las advertencias y contraindicaciones, ya que no se dispone de ese texto en los datos compilados.
+
+- **Interacciones Farmacológicas**: se registraron 478 interacciones. Las de nivel mayor incluyen:
+  - Cisaprida
+  - Naloxegol
+
+  Entre las de nivel moderado se encuentran:
+  - Metronidazol
+  - Budesonida
+  - Glimepirida
+  - Glipizida
+  - Gliburida
+  - Repaglinida
+  - Simvastatina
+  - Rosuvastatina
+  - Aprepitant
+  - Hierro
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Las demás indicaciones predichas carecen de evidencia y de vínculo mecanístico.
+No existen ensayos clínicos ni publicaciones sobre esta enfermedad, y no se identifica un vínculo mecanístico plausible. La evidencia se limita a la predicción del modelo (nivel L5).
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), actualmente no disponible.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Evaluar la eficacia comparativa frente a alternativas actuales (p. ej., moxifloxacino, ácido fusídico), considerando la resistencia.
-- Realizar una evaluación formal del riesgo hematológico (anemia aplásica) en uso oftálmico.
-- Aclarar si la conjuntivitis constituye una indicación ya autorizada, para decidir si procede un expediente de reposicionamiento.
+- Datos del mecanismo de acción (MOA) del cloranfenicol.
+- Una hipótesis biológica que justifique el uso de un antibacteriano en una enfermedad autoinmune fibrosante.
+- Estudios preclínicos o de mecanismo que evalúen directamente el fármaco en esclerodermia difusa.
+- Revisión de las advertencias y contraindicaciones del prospecto, incluida la toxicidad hematológica, antes de cualquier consideración clínica.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

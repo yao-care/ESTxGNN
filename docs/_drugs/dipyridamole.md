@@ -38,8 +38,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Dipiridamol es un antiagregante plaquetario y vasodilatador. Su única indicación original en los datos compilados es la fibrilación auricular, una relación registrada en el grafo de conocimiento, no un uso autorizado según texto de ficha técnica.
-No hay **ningún ensayo clínico** registrado para esta indicación, y las **20 publicaciones** recuperadas son en su mayoría revisiones narrativas y de relevancia variable.
+Dipiridamol es un fármaco antiagregante plaquetario comercializado en España.
+El modelo TxGNN predice que podría ser efectivo para **síndrome del seno enfermo 2, autosómico dominante (sick sinus syndrome 2, autosomal dominant)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; la predicción se basa solo en el puntaje del modelo y existe una posible preocupación de seguridad.
 
 ## Resumen Rápido
 
@@ -48,18 +48,18 @@ No hay **ningún ensayo clínico** registrado para esta indicación, y las **20 
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Sick sinus syndrome 2, autosomal dominant |
 | Puntaje de Predicción TxGNN | 0.9989 |
-| Nivel de Evidencia | L5 (solo revisiones; sin ensayos clínicos) |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados no incluyen una descripción formal del mecanismo de acción. La literatura recuperada indica que el dipiridamol inhibe la recaptación de adenosina (transportador ENT1) y las fosfodiesterasas (PDE3/PDE5). Esto eleva el AMPc y el GMPc en las plaquetas y suprime su agregación. Además, se le han descrito efectos vasodilatadores y una actividad antioxidante poco reconocida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información farmacológica conocida, el dipiridamol aumenta la adenosina extracelular, lo que produce efecto antiagregante y vasodilatador.
 
-La fibrilación auricular y la enfermedad trombótica se relacionan clínicamente porque ambas implican riesgo de formación de trombos y de eventos embólicos. El efecto antiplaquetario del dipiridamol encaja con ese mecanismo. Las revisiones recuperadas lo describen como terapia antitrombótica complementaria, por ejemplo junto con aspirina en la prevención secundaria del ictus.
+Ese mismo mecanismo plantea dudas para esta predicción: la adenosina puede enlentecer la conducción en el nodo sinusal y en el nodo auriculoventricular. Por ello, el fármaco podría empeorar, en lugar de tratar, la disfunción del nodo sinusal.
 
-Este respaldo procede solo de revisiones. No hay ensayos registrados para el término amplio «enfermedad trombótica». Varios artículos recuperados son poco relevantes, como un ensayo de bevacizumab en mesotelioma y un artículo de 1977 con el título corrupto. Por eso la predicción es plausible desde el punto de vista farmacológico, pero está poco sustentada de forma directa.
+No se ha establecido una justificación terapéutica. La predicción es puramente computacional, con un puntaje alto pero sin respaldo clínico, y conlleva una posible preocupación de seguridad.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,18 +67,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [18174451](https://pubmed.ncbi.nlm.nih.gov/18174451/) | 2008 | Revisión | Arterioscler Thromb Vasc Biol | El dipiridamol inhibe la agregación plaquetaria y la enfermedad trombótica mediada por plaquetas al elevar el AMPc y el GMPc |
-| [12765506](https://pubmed.ncbi.nlm.nih.gov/12765506/) | 2003 | Revisión | Med J Aust | Los antiagregantes reducen infarto, ictus y muerte cardiovascular en pacientes de alto riesgo |
-| [15494585](https://pubmed.ncbi.nlm.nih.gov/15494585/) | 2004 | Revisión | JAMA | La terapia antiplaquetaria oral previene eventos vasculares recurrentes en la enfermedad aterotrombótica establecida |
-| [2182246](https://pubmed.ncbi.nlm.nih.gov/2182246/) | 1990 | Revisión | Clin Cardiol | Aspirina con dipiridamol y trombosis coronaria: eficacia parcial y limitaciones |
-| [382146](https://pubmed.ncbi.nlm.nih.gov/382146/) | 1979 | Revisión | Postgrad Med | Aspirina, dipiridamol y sulfinpirazona muestran efecto antitrombótico en humanos |
-| [25697566](https://pubmed.ncbi.nlm.nih.gov/25697566/) | 2015 | Revisión | Curr Top Med Chem | Dipiridamol: inhibición de fosfodiesterasas y de la recaptación de adenosina, con actividad antioxidante no reconocida |
-| [36696191](https://pubmed.ncbi.nlm.nih.gov/36696191/) | 2023 | Revisión | J Thromb Haemost | Tromboinflamación en el síndrome antifosfolípido como modelo de mecanismos trombóticos |
-| [2440111](https://pubmed.ncbi.nlm.nih.gov/2440111/) | 1987 | Revisión | Semin Hematol | Los inhibidores de la agregación plaquetaria se asociaron a mejoría clínica en muchos casos de púrpura trombótica trombocitopénica |
-| [559478](https://pubmed.ncbi.nlm.nih.gov/559478/) | 1977 | Reporte de caso | Arch Intern Med | Dos pacientes con púrpura trombótica trombocitopénica; uno logró una remisión duradera con aspirina, dipiridamol y sulfinpirazona |
-| [11945125](https://pubmed.ncbi.nlm.nih.gov/11945125/) | 2002 | Revisión | Curr Med Chem | Avances en antiagregantes para enfermedades tromboembólicas |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
@@ -88,23 +77,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones registradas en el grafo de conocimiento** (relaciones del grafo, no texto de ficha técnica): enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, púrpura trombocitopénica, úlcera péptica (incluida la activa), gastritis, hipotensión, gota, hipercalcemia, nefrocalcinosis, hemofilia, anemia, hemoglobinopatía, deficiencia de protrombina congénita, enfermedad hemorrágica por déficit de vitamina K, síndrome coronario agudo, infarto de miocardio, trombosis coronaria, pólipo nasal, síndrome de Reye, enfermedad de Alzheimer, enfermedad de Pick, abuso o dependencia de sustancias, déficit de potasio y alteraciones del metabolismo del fósforo, entre otras.
-- **Interacciones farmacológicas**: se registraron 321 interacciones. Las de nivel moderado incluyen dexfenfluramina, sibutramina y fenfluramina. Otras, de nivel no clasificado, incluyen ácido acetilsalicílico, cimetidina, omeprazol, pantoprazol, lansoprazol, metformina, glimepirida, morfina, simvastatina, prednisona y vancomicina.
-- Advertencias y contraindicaciones oficiales: consultar el prospecto.
+- **Interacciones Farmacológicas**: se identificaron 321 interacciones en total. Las de nivel moderado incluyen dexfenfluramina, sibutramina y fenfluramina. Otras interacciones registradas, sin nivel de gravedad definido, incluyen ácido acetilsalicílico, cimetidina, omeprazol, pantoprazol, lansoprazol, metformina, glimepirida, morfina y simvastatina.
+
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El mecanismo antiplaquetario del dipiridamol es coherente con la enfermedad trombótica, pero esa indicación es muy amplia y no hay ensayos registrados para ella. La evidencia se limita a revisiones narrativas, y los datos compilados no incluyen texto de ficha técnica ni advertencias oficiales. Entre las demás predicciones, el ataque isquémico transitorio sí cuenta con un ensayo directo de gran tamaño (ESPRIT, NCT00161070), por lo que podría ser una vía más sólida.
+La predicción se apoya únicamente en el puntaje del modelo (0,9989), sin ensayos clínicos ni literatura. Además, el efecto del dipiridamol sobre la adenosina podría ser perjudicial para la función del nodo sinusal.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (indicaciones, advertencias y contraindicaciones).
-- Definir una población y un evento trombótico concretos, en lugar de «enfermedad trombótica» en general.
-- Realizar una revisión sistemática o buscar ensayos controlados específicos para esa población.
-- Confirmar el mecanismo de acción en una fuente farmacológica formal.
-- Evaluar el riesgo de sangrado y las interacciones con anticoagulantes y antiagregantes.
+- Datos del mecanismo de acción y una justificación biológica plausible para esta enfermedad
+- Evaluación del riesgo de bradicardia y de alteraciones de la conducción
+- Revisión de las advertencias y contraindicaciones del prospecto
+- Estudios preclínicos o clínicos que investiguen directamente esta indicación
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

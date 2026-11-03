@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin: nueva indicación predicha, Disease of orbital region (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Nystatin: nueva indicación predicha, Enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nystatin
@@ -33,20 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Nystatin: Disease of orbital region
+## Nystatin: Enfermedad de la región orbitaria (disease of orbital region)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La nistatina es un antifúngico poliénico, utilizado originalmente para tratar distintas formas de candidiasis (cutánea, oral y vulvovaginal).
-Gran parte de esta evidencia coincide con la indicación ya conocida, por lo que no constituye un reposicionamiento genuino.
+La nistatina es un antifúngico poliénico que se comercializa en España como suspensión oral.
+El modelo TxGNN predice que podría ser efectiva para **enfermedad de la región orbitaria (disease of orbital region)**, con un puntaje de 0,9990.
+La evidencia real es mínima: **1 ensayo clínico** sin relación con la nistatina y **ninguna publicación** que respalde esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Disease of orbital region |
+| Nueva Indicación Predicha | Enfermedad de la región orbitaria (disease of orbital region) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
@@ -55,34 +56,19 @@ Gran parte de esta evidencia coincide con la indicación ya conocida, por lo que
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, la nistatina es un antifúngico poliénico que se une al ergosterol de la membrana celular del hongo, formando poros y provocando la fuga del contenido celular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la nistatina es un antifúngico poliénico que se une al ergosterol de la membrana de los hongos y la vuelve permeable, con efecto fungicida.
 
-La vulvovaginitis está causada con frecuencia por especies de *Candida*, y la candidiasis vulvovaginal ya figura entre las indicaciones originales del fármaco. Por ello, el puntaje elevado refleja sobre todo el solapamiento con la indicación existente y no un reposicionamiento real.
-
-Para vulvovaginitis no candidiásica (bacteriana, atrófica, irritativa) no hay respaldo mecanístico ni datos de ensayos. Por ejemplo, la vaginitis atrófica posmenopáusica se debe a déficit de estrógenos, no a infección, y no se aborda con la acción antifúngica de la nistatina.
+Para la enfermedad de la región orbitaria no se identificó un vínculo mecanístico plausible con esta acción antifúngica. El único ensayo asociado estudia otro fármaco (ASP7317) en otra condición (atrofia geográfica de la retina), por lo que no constituye evidencia para la nistatina. El puntaje alto del modelo debe interpretarse como un resultado de predicción sin respaldo clínico, probablemente un artefacto del modelo.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Fase 1 | En reclutamiento | 42 | Ensayo de ASP7317 (otro fármaco) en atrofia geográfica secundaria a degeneración macular asociada a la edad; no involucra nistatina ni enfermedad orbitaria |
 
 ## Evidencia de Literatura
 
-Se muestran las publicaciones más relevantes, priorizando revisiones y estudios comparativos.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Revisión | Pharmaceutics | Manejo actual de la candidiasis vulvovaginal resistente a fluconazol; incluye nistatina entre las alternativas, junto con ácido bórico, oteseconazol e ibrexafungerp |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Revisión | BMJ Clinical Evidence | Candidiasis vulvovaginal: segunda causa más común de vaginitis; *C. albicans* causa 85-90% de los casos |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Revisión | Journal of Women's Health | Ácido bórico en candidiasis vulvovaginal recurrente; especies no-albicans más resistentes a azoles |
-| [21718579](https://pubmed.ncbi.nlm.nih.gov/21718579/) | 2010 | Revisión | BMJ Clinical Evidence | Revisión de candidiasis vulvovaginal (edición anterior) |
-| [18729533](https://pubmed.ncbi.nlm.nih.gov/18729533/) | 2008 | Revisión | Drugs | Consideraciones generales y prácticas del tratamiento local de la candidiasis vulvovaginal |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Revisión | Obstet Gynecol Clin North Am | Nistatina, introducida en los años 50, ha sido superada por imidazoles y triazoles como primera opción |
-| [10796183](https://pubmed.ncbi.nlm.nih.gov/10796183/) | 2000 | Revisión (Cochrane) | Cochrane Database Syst Rev | Tratamiento tópico de la candidiasis vaginal en el embarazo |
-| [29474241](https://pubmed.ncbi.nlm.nih.gov/29474241/) | 2018 | Estudio in vitro | J Low Genit Tract Dis | Menor susceptibilidad antifúngica a pH vaginal normal frente a pH 4 |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Estudio clínico/in vitro | Mycoses | Correlación entre susceptibilidad in vitro a fluconazol y nistatina y resultado clínico en 283 pacientes con candidiasis vulvovaginal complicada |
-| [4919155](https://pubmed.ncbi.nlm.nih.gov/4919155/) | 1970 | Revisión | Med Clin North Am | Revisión general sobre nistatina (sin resumen disponible) |
-
-Nota: toda la literatura se refiere a candidiasis vulvovaginal, es decir, a la indicación ya conocida. No hay estudios sobre vulvovaginitis no candidiásica. Para la predicción de vulvitis (puesto 8) la evidencia es de naturaleza similar, e incluye además un estudio comparativo de nistatina vaginal frente a fluconazol oral en candidiasis vulvovaginal recurrente ([PMID 25416649](https://pubmed.ncbi.nlm.nih.gov/25416649/), 2015).
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
@@ -92,24 +78,24 @@ Nota: toda la literatura se refiere a candidiasis vulvovaginal, es decir, a la i
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): insuficiencia suprarrenal, enfermedad de Addison, atrofia cutánea, telangiectasia, enfermedad capilar y telangiectasia hemorrágica hereditaria. Deben interpretarse con cautela y verificarse con la ficha técnica.
-- **Interacciones farmacológicas**: se identificaron 100 posibles interacciones, todas con nivel de gravedad "Desconocido". Entre las listadas figuran ciclosporina, fluconazol, eritromicina, azitromicina, bortezomib, tramadol, lorazepam, sildenafilo y pantoprazol. Se requiere revisión farmacéutica individualizada.
+- **Contraindicaciones y advertencias de la ficha técnica**: no disponibles en los datos compilados.
+- **Interacciones farmacológicas**: la consulta se completó con 100 interacciones registradas, todas sin nivel de gravedad clasificado. Entre las listadas figuran ciclosporina, octreótido, fluconazol, eritromicina, bortezomib, tramadol y lorazepam. Se requiere revisión farmacéutica antes de cualquier uso en una nueva indicación.
 
-Consultar el prospecto para información adicional de advertencias y contraindicaciones.
+Consultar el prospecto para información de seguridad adicional.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura se compone de revisiones y estudios indirectos. Las demás predicciones (región orbitaria, teratoma quístico, quiste dermoide, enfermedad del metabolismo de la biotina, entre otras) carecen de vínculo mecanístico y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
+La predicción carece de ensayos o publicaciones que estudien la enfermedad de la región orbitaria con nistatina, no existe un mecanismo plausible y el único ensayo asociado corresponde a otro fármaco. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada), actualmente ausente.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Definir si existe una hipótesis diferenciada (por ejemplo, vulvovaginitis mixta o resistente a azoles) y respaldarla con ensayos controlados.
-- Evaluar la compatibilidad de vías de administración, ya que en España solo consta una suspensión oral y las evidencias se refieren a uso vaginal/tópico.
-- Revisar con un farmacéutico las interacciones de gravedad desconocida.
+- Una hipótesis mecanística que justifique el uso de un antifúngico poliénico en esta enfermedad
+- Estudios preclínicos o clínicos que evalúen directamente la nistatina en patología orbitaria
+- Datos de mecanismo de acción y de seguridad de la ficha técnica (advertencias y contraindicaciones)
+- Evaluación de la compatibilidad de vía de administración, dado que el producto local es de uso oral
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -38,9 +38,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Amiodarona es un antiarrítmico multicanal que se comercializa en España en comprimidos y en solución inyectable.
-El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia)**,
-pero actualmente no hay ensayos clínicos y solo **9 publicaciones** (revisión sistemática, cohortes, informes de caso y una revisión general) se relacionan con esta enfermedad, sin evidencia de eficacia de la amiodarona.
+Amiodarona es un antiarrítmico con múltiples efectos sobre canales iónicos, comercializado en España en comprimidos y solución inyectable.
+El modelo TxGNN predice que podría ser útil para la **taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia)**, pero actualmente solo hay **0 ensayos clínicos** y **9 publicaciones** relacionadas (revisiones, cohortes descriptivas y casos clínicos), sin estudios que evalúen la eficacia del fármaco en esta enfermedad.
 
 ## Resumen Rápido
 
@@ -56,11 +55,11 @@ pero actualmente no hay ensayos clínicos y solo **9 publicaciones** (revisión 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la amiodarona bloquea canales de potasio, sodio y calcio y tiene efecto antagonista beta-adrenérgico. Estos efectos suprimen arritmias ventriculares de reentrada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, amiodarona actúa sobre varios canales iónicos (entre ellos el canal de sodio Nav1.5 y canales de potasio) y tiene efectos antiadrenérgicos, lo que explica su uso como antiarrítmico.
 
-La taquicardia ventricular polimórfica catecolaminérgica (CPVT) es una canalopatía hereditaria rara, causada por una fuga de calcio (mutaciones en RYR2 o CASQ2) que genera posdespolarizaciones tardías ante el estrés adrenérgico. Por su efecto betabloqueante y sobre canales iónicos, la amiodarona podría atenuar las arritmias desencadenadas por catecolaminas.
+La taquicardia ventricular polimórfica catecolaminérgica es una canalopatía hereditaria rara, causada por fuga de calcio (mutaciones en RYR2 o CASQ2) y desencadenada por el estrés adrenérgico. Mecanísticamente, el efecto antiadrenérgico y de bloqueo de canales de amiodarona podría atenuar las arritmias desencadenadas por catecolaminas.
 
-Sin embargo, la amiodarona no actúa sobre el defecto de manejo del calcio. Los tratamientos respaldados por las guías son los betabloqueantes, la flecainida y la denervación simpática, y la amiodarona se considera generalmente ineficaz en la CPVT. La puntuación alta del modelo no equivale, por tanto, a un respaldo mecanístico sólido.
+Sin embargo, amiodarona no actúa sobre el manejo defectuoso del calcio que origina la enfermedad. Los tratamientos respaldados por las guías son los betabloqueantes, la flecainida y la denervación simpática, y amiodarona se considera en general poco eficaz en esta enfermedad. La puntuación alta del modelo debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,20 +67,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
+Las publicaciones recuperadas describen la enfermedad, pero ninguna evalúa amiodarona como tratamiento de la misma.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revisión | Expert Opin Pharmacother | Revisa los avances del tratamiento farmacológico de las arritmias ventriculares |
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revisión sistemática (cohortes) | Life (Basel) | Características clínicas, genética y desenlaces arrítmicos de pacientes con CPVT en China |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte retrospectiva | Rev Cardiovasc Med | Características clínicas, base genética y costes sanitarios de la CPVT en una ciudad china |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Informe de caso | Pacing Clin Electrophysiol | La flecainida suprime la tormenta arrítmica inducida por el desfibrilador en CPVT |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Informe de caso | Turk Pediatri Arsivi | CPVT como causa rara de parada cardíaca súbita en un niño de dos años |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Informe de caso | Medicine | Diagnóstico retrasado de CPVT con mutación de RYR2 en un niño de 9 años |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Informe de caso | Front Cardiovasc Med | Resolución de CPVT con denervación simpática cardíaca derecha tras la izquierda |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Informe de caso | BMJ Case Rep | Supervivencia de un niño con parada cardíaca extrahospitalaria y dilema diagnóstico |
-
-Ninguno de estos estudios evalúa la eficacia de la amiodarona en la CPVT. Además, hay un informe de caso de síndrome de QT largo neonatal (PMID 22218697) que no corresponde a esta enfermedad y no se considera evidencia directa.
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revisión | Expert Opin Pharmacother | Avances en el tratamiento farmacológico de las arritmias ventriculares; los antiarrítmicos siguen siendo importantes |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revisión sistemática | Life (Basel) | Características clínicas, genéticas y evolución arrítmica de pacientes chinos con esta enfermedad |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte | Rev Cardiovasc Med | Características clínicas, base genética y costes sanitarios en una cohorte retrospectiva |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Caso clínico | Pacing Clin Electrophysiol | Flecainida suprime las tormentas arrítmicas inducidas por el desfibrilador en un paciente con mutación de calsecuestrina-2 |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Caso clínico | Front Cardiovasc Med | Resolución con denervación simpática cardiaca derecha en un adolescente |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Caso clínico | Medicine | Diagnóstico retrasado seis años en un niño con mutación de RYR2 |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Caso clínico | Turk Pediatri Arsivi | Parada cardiaca súbita como forma de presentación en un niño de dos años |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Caso clínico | BMJ Case Rep | Supervivencia de un niño con parada cardiorrespiratoria extrahospitalaria y taquiarritmias recurrentes |
+| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Caso clínico | Anesth Analg | Neonato con síndrome de QT largo y arritmias refractarias tratado, entre otros, con amiodarona (otra enfermedad) |
 
 ## Información de Mercado en España
+
+Se registran 4 autorizaciones, de las cuales 3 están vigentes y 1 está cancelada.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -92,22 +94,23 @@ Ninguno de estos estudios evalúa la eficacia de la amiodarona en la CPVT. Adem�
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: los datos compilados incluyen solo información farmacológica de dianas (receptor M5, Kv1.7 y Nav1.5), sin interacciones clínicas con otros fármacos con nivel de gravedad asignado.
-- **Riesgos señalados en la literatura**: toxicidad tiroidea, pulmonar y hepática, bradicardia e hipotensión con la vía intravenosa y riesgo proarrítmico. Se ha descrito una interacción con ciclosporina.
+- **Interacciones farmacológicas / farmacología**: en los datos compilados figuran interacciones farmacológicas con el receptor muscarínico M5, el canal de potasio Kv1.7 y el canal de sodio Nav1.5.
 
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para esta enfermedad no hay ensayos clínicos ni estudios que evalúen directamente la amiodarona, y la literatura disponible describe la enfermedad y otros tratamientos (flecainida, betabloqueantes, denervación simpática). El mecanismo no aborda el defecto de calcio de la CPVT y la amiodarona se considera generalmente ineficaz en ella.
+No hay ensayos clínicos ni estudios que evalúen amiodarona en esta enfermedad; la literatura es solo descriptiva y el fundamento mecanístico es débil, ya que el fármaco no actúa sobre el defecto de calcio que origina la enfermedad. Existen alternativas con respaldo de guías (betabloqueantes, flecainida, denervación simpática).
 
 **Para avanzar se necesita:**
-- Estudios clínicos o preclínicos que evalúen directamente la amiodarona en CPVT
-- Datos de mecanismo de acción y comparación con los tratamientos de referencia
-- Revisión de advertencias y contraindicaciones del prospecto de la AEMPS
+- Estudios preclínicos o clínicos que evalúen directamente amiodarona en esta enfermedad
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de la AEMPS
+- Comparación frente a los tratamientos de referencia
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

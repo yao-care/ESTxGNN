@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-description: "Mefenamic Acid: nueva indicación predicha, Headache disorder (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Mefenamic Acid: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Mefenamic Acid
@@ -33,62 +33,53 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **6**
 
 </div>
 
-## Mefenamic Acid: Headache disorder
+## Mefenamic Acid: Trastorno de cefalea (headache disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El ácido mefenámico es un antiinflamatorio no esteroideo (AINE) comercializado en España en cápsulas duras (COSLAN 250 mg). En los datos compilados para este informe, la licencia no incluye texto de indicación aprobada.
-Esta predicción refleja en gran parte el efecto sintomático clásico de los AINE, por lo que no constituye un reposicionamiento verdaderamente novedoso.
-
----
+El ácido mefenámico es un antiinflamatorio no esteroideo (AINE) que inhibe la síntesis de prostaglandinas y se comercializa en España como cápsulas duras.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de cefalea (headache disorder)**,
+con **0 ensayos clínicos registrados** y **20 publicaciones** recuperadas, de las cuales varias son ensayos doble ciego y guías centradas en la migraña.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Headache disorder |
+| Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, el ácido mefenámico es un inhibidor de COX-1/COX-2 que reduce la síntesis de prostaglandinas, mediadoras de la inflamación y el dolor.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el ácido mefenámico es un AINE que bloquea la ciclooxigenasa (COX) y reduce la síntesis de prostaglandinas. Esto disminuye la sensibilización por prostaglandinas de las vías trigeminovasculares y, con ello, el dolor.
 
-En la artritis reumatoide, las prostaglandinas contribuyen al dolor articular, la rigidez matutina y la inflamación. Por ello, la inhibición de COX es mecanísticamente aplicable. Estudios históricos, incluidas comparaciones doble ciego con ibuprofeno, indometacina, sulindaco y flurbiprofeno, apoyan un beneficio sintomático.
+Los ensayos doble ciego publicados en migraña (incluida la migraña menstrual) apoyan un efecto analgésico y preventivo. Conviene precisar que "trastorno de cefalea" es un término amplio y que la evidencia se concentra casi por completo en la migraña; no hay datos para otros tipos de cefalea.
 
-Conviene matizar que se trata de un efecto estándar de clase de los AINE (alivio sintomático, sin modificación de la enfermedad). Hoy se usa raramente en artritis reumatoide crónica por su perfil de toxicidad gastrointestinal y hematológica (por ejemplo, se ha descrito anemia hemolítica autoinmune).
-
----
+La literatura también advierte del riesgo de cefalea por abuso de medicación con el uso crónico de analgésicos y de toxicidad gastrointestinal (enteropatía) con el uso prolongado de ácido mefenámico, lo que limita su uso a largo plazo.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | ECA cruzado doble ciego | Curr Med Res Opin | 24 pacientes; ácido mefenámico (1500 mg/día), sulindaco y flurbiprofeno superiores al placebo en dolor, valoración del paciente, índice articular y rigidez matutina |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | ECA cruzado doble ciego | Med J Aust | Ácido mefenámico comparable a ibuprofeno; efectos adversos leves y casi exclusivamente gastrointestinales |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | ECA doble ciego intrapaciente | J Int Med Res | 40 pacientes; sin diferencias significativas frente a ibuprofeno en efecto analgésico y antiinflamatorio |
-| [326491](https://pubmed.ncbi.nlm.nih.gov/326491/) | 1977 | Estudio doble ciego cruzado | Curr Med Res Opin | 18 pacientes; ácido mefenámico e indometacina significativamente mejores que placebo en la mayoría de parámetros |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Estudio clínico no controlado | Ann Rheum Dis | Estudio clínico temprano del ácido mefenámico en artritis reumatoide |
-| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | Estudio comparativo | Br Med J | Comparación de ácido mefenámico y flufenámico con aspirina y fenilbutazona en artritis reumatoide |
-| [5333309](https://pubmed.ncbi.nlm.nih.gov/5333309/) | 1966 | Revisión | Br Med J | Revisión general del ácido mefenámico |
-| [377958](https://pubmed.ncbi.nlm.nih.gov/377958/) | 1979 | Revisión | Am J Hosp Pharm | Revisión de fármacos antirreumáticos, incluido el ácido mefenámico |
-| [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/) | 1968 | Reporte de caso (seguridad) | Br Med J | Tres pacientes con anemia hemolítica autoinmune durante el tratamiento; recuperación al suspender el fármaco |
-| [23611159](https://pubmed.ncbi.nlm.nih.gov/23611159/) | 2014 | Estudio de formulación | Pharm Dev Technol | Desarrollo de comprimidos de liberación controlada de ácido mefenámico para artritis reumatoide |
-
----
+| [6347393](https://pubmed.ncbi.nlm.nih.gov/6347393/) | 1983 | ECA | Cephalalgia | Ácido mefenámico frente a paracetamol en el ataque agudo de migraña (40 pacientes, cruzado doble ciego) |
+| [3524092](https://pubmed.ncbi.nlm.nih.gov/3524092/) | 1986 | ECA | Acta Neurol Scand | Ácido mefenámico frente a propranolol y placebo en profilaxis de migraña; ambos redujeron la frecuencia de los ataques frente a placebo |
+| [10799353](https://pubmed.ncbi.nlm.nih.gov/10799353/) | 2000 | ECA | Eur J Med Res | Ácido mefenámico frente a placebo en migraña menstrual (24 pacientes) |
+| [22529203](https://pubmed.ncbi.nlm.nih.gov/22529203/) | 2012 | Guía | Neurology | Actualización de la guía AAN/AHS sobre AINE y otros tratamientos para la prevención de la migraña episódica |
+| [18427072](https://pubmed.ncbi.nlm.nih.gov/18427072/) | 2008 | Revisión basada en la evidencia | Neurology | Tratamiento agudo y prevención de la migraña de relación menstrual (revisión sistemática y metaanálisis) |
+| [20836574](https://pubmed.ncbi.nlm.nih.gov/20836574/) | 2010 | Revisión | Drugs | Prevención y tratamiento de la migraña menstrual |
+| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Revisión | Cephalalgia | Analgésicos y AINE en el ataque agudo de migraña |
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Revisión | Pathol Biol | Revisión de estudios controlados con AINE, incluido el ácido mefenámico, en migraña |
+| [29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/) | 2017 | Serie de casos (seguridad) | Medicine | Enteropatía grave con atrofia vellositaria en usuarios prolongados de ácido mefenámico |
+| [38812640](https://pubmed.ncbi.nlm.nih.gov/38812640/) | 2024 | Preclínico | Turk J Med Sci | Intestino permeable y biomarcadores inflamatorios en un modelo de cefalea por abuso de medicación en ratas |
 
 ## Información de Mercado en España
 
@@ -96,43 +87,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 |---------|------|------|-----------|
 | 39520 | COSLAN 250 MG CAPSULAS DURAS | Cápsula dura | No especificada en los datos disponibles |
 
----
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no proceden del prospecto)**: hipertensión, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, úlcera péptica (incluida la activa), trastornos de la coagulación, infarto de miocardio, trombosis coronaria, hemoglobinopatías y enfermedad cardiovascular en general.
-- **Interacciones farmacológicas**: se identificaron 195 interacciones. Entre las más relevantes figuran las de nivel moderado con corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), ácido acetilsalicílico, metformina, clorpropamida, mesalazina, balsalazida, aprepitant, citrato y bicarbonato de potasio, y preparados laxantes (ácido picosulfúrico, polietilenglicol). Las interacciones con famotidina, ranitidina, cimetidina, dapagliflozina y linaclotida son de nivel menor.
-- **Señales en la literatura**: anemia hemolítica autoinmune, enteropatía grave con atrofia vellositaria en uso prolongado y nefropatía asociada al uso crónico de analgésicos.
-
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+- **Contraindicaciones (según relaciones fármaco-enfermedad recopiladas para este informe, no texto del prospecto)**: hipertensión, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, úlcera péptica activa, trastornos de la coagulación sanguínea, infarto de miocardio, trombosis coronaria, hemoglobinopatías y enfermedad cardiovascular en general.
+- **Interacciones Farmacológicas**: se identificaron 195 interacciones. Entre las de nivel moderado figuran corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), ácido acetilsalicílico, metformina, clorpropamida, aprepitant, mesalazina y balsalazida, citrato y bicarbonato de potasio, ácido picosulfúrico y polietilenglicol con electrolitos. Las interacciones con famotidina, ranitidina, cimetidina, dapagliflozina y linaclotida son de nivel menor.
+- **Riesgos señalados en la literatura**: enteropatía con uso prolongado y cefalea por abuso de medicación.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen varios ECA doble ciego pequeños y antiguos que respaldan el beneficio sintomático en artritis reumatoide (L2), pero se trata de un efecto de clase AINE, sin ensayos registrados recientes y con un perfil de toxicidad gastrointestinal, renal y hematológica que limita el uso crónico.
+Existen ensayos doble ciego pequeños y antiguos, además de guías, que apoyan el uso de AINE en migraña, pero la evidencia no cubre otros tipos de cefalea y el ácido mefenámico no es un agente de primera línea. Dado que ya es un analgésico comercializado, se trata de una indicación cercana a su uso actual más que de un reposicionamiento clásico.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas)
-- Datos del mecanismo de acción desde DrugBank
-- Comparación con AINE de primera línea actuales en artritis reumatoide
-- Plan de monitorización de seguridad (función renal, hepática, hemograma y vigilancia gastrointestinal y cardiovascular)
-
----
-
-### Otras indicaciones predichas (referencia)
-
-| Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
-|------|------|------|------|
-| Trastorno de migraña | 0.9923 | L2 | Pregunta de investigación; varios ECA pequeños y antiguos, indicación cercana a la ficha técnica |
-| Trastorno de cefalea | 0.9964 | L2 | Pregunta de investigación; evidencia concentrada en migraña |
-| Migraña con aura del tronco encefálico | 0.9921 | L5 | Hold; solo evidencia indirecta |
-| Cefalea autonómica trigeminal | 0.9955 | L5 | Hold; sin evidencia |
-| Síndrome de microftalmia colobomatosa con displasia rizomélica | 0.9949 | L5 | Hold; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
-| Síndrome de braquidactilia-sindactilia | 0.9948 | L5 | Hold; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
+- Ensayos clínicos modernos y de mayor tamaño que comparen el ácido mefenámico con tratamientos de primera línea en cefalea, con subtipos bien definidos.
+- Revisión del prospecto autorizado para completar advertencias y contraindicaciones.
+- Datos del mecanismo de acción desde DrugBank.
+- Plan de limitación de duración del tratamiento para reducir el riesgo de cefalea por abuso de medicación y de toxicidad gastrointestinal.
 
 ## Descargo de responsabilidad
 

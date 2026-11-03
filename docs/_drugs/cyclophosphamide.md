@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-description: "Cyclophosphamide: nueva indicación predicha, Vertebral anomalies and variable endocrine and T-cell dysfunction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Cyclophosphamide: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction) (nivel de evidencia L5)."
 ---
 
 # Cyclophosphamide
@@ -33,76 +33,42 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
+## Cyclophosphamide: Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La ciclofosfamida es un agente alquilante citotóxico, utilizado originalmente en micosis fungoide, linfomas, mieloma múltiple, neuroblastoma, cáncer de mama y retinoblastoma.
-
----
+La ciclofosfamida es un agente alquilante citotóxico con acción inmunosupresora, comercializado en España en varias presentaciones de un solo principio activo.
+El modelo TxGNN predice que podría ser efectiva para **anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction)**, con un puntaje de 0,9938.
+Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| Nueva Indicación Predicha | Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction) |
 | Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 6 de 9) |
 | Número de Autorizaciones | 9 (vigentes: 6) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, la ciclofosfamida es un agente alquilante: sus metabolitos activos (como la fosforamida mostaza) forman enlaces cruzados en el ADN y resultan citotóxicos para las células hematopoyéticas en proliferación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por conocimiento general, la ciclofosfamida es un profármaco que se activa en el hígado y genera metabolitos alquilantes. Estos dañan el ADN de las células en división y suprimen de forma marcada la proliferación de linfocitos.
 
-Sus indicaciones originales ya incluyen neoplasias hematológicas (linfomas, mieloma, linfoma primario del sistema nervioso central), por lo que la sensibilidad de las células hematopoyéticas malignas a este mecanismo está bien establecida. En la leucemia mieloide se emplea en regímenes de acondicionamiento (por ejemplo, busulfán-ciclofosfamida) y, sobre todo, como ciclofosfamida postrasplante (PTCy) para prevenir la EICH en trasplantes haploidénticos y con donante no idéntico. La PTCy elimina selectivamente los linfocitos T alorreactivos y respeta los linfocitos T reguladores y las células madre, ricas en aldehído deshidrogenasa.
+El puntaje alto del modelo es una señal puramente computacional. No existe una justificación mecanística clara para usar un inmunosupresor citotóxico en un síndrome del desarrollo raro con disfunción de células T. En esa situación, una inmunosupresión adicional podría ser perjudicial. Por ello la predicción debe tomarse como una hipótesis sin respaldo y no como una indicación plausible a corto plazo.
 
-Conviene matizar que la evidencia es más sólida para su papel como agente de apoyo al trasplante y de acondicionamiento que como tratamiento antileucémico independiente.
-
----
+La relación con el uso original del fármaco no está caracterizada en los datos compilados para este informe. Cualquier vínculo mecanístico requeriría un análisis específico.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los ensayos más relevantes de los 35 identificados (los ensayos con relevancia A y B, y los de fase 3).
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00003187](https://clinicaltrials.gov/study/NCT00003187) | Fase 2/3 | Completado | 19 | Trasplante de médula de donante no emparentado, convencional vs. depleción de linfocitos T; la ciclofosfamida forma parte del acondicionamiento. Muestra pequeña |
-| [NCT04473911](https://clinicaltrials.gov/study/NCT04473911) | Fase 1 | Completado | 25 | Trasplante haploidéntico de intensidad reducida con PTCy y prevención de EICH con RGI-2001 |
-| [NCT00315705](https://clinicaltrials.gov/study/NCT00315705) | Fase 1/2 | Completado | 50 | Clofarabina con etopósido y ciclofosfamida en leucemias agudas pediátricas refractarias o recidivantes |
-| [NCT00390793](https://clinicaltrials.gov/study/NCT00390793) | Fase 2 | Completado | 107 | Hyper-CVAD con dasatinib en leucemia linfoblástica aguda Ph+ (relevancia parcial, población mayormente linfoide) |
-| [NCT01350245](https://clinicaltrials.gov/study/NCT01350245) | Fase 2 | Completado | 28 | Trasplante haploidéntico en dos pasos en neoplasias hematológicas en remisión |
-| [NCT02441803](https://clinicaltrials.gov/study/NCT02441803) | Fase 2 | Completado | 11 | Trasplante alogénico como rescate inicial en LMA con fracaso de inducción primaria |
-| [NCT04904588](https://clinicaltrials.gov/study/NCT04904588) | Fase 2 | Activo, no recluta | 300 | Trasplante con donante no emparentado con mismatch HLA y PTCy, tacrolimus y MMF para profilaxis de EICH |
-| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | Fase 2 | Completado | 213 | Trasplante de sangre de cordón con acondicionamiento ciclofosfamida/fludarabina/irradiación corporal total |
-| [NCT05515029](https://clinicaltrials.gov/study/NCT05515029) | Fase 3 | Activo, no recluta | 56 | PTCy con abatacept, vedolizumab e inhibidor de calcineurina para prevenir EICH en niños y adultos jóvenes |
-| [NCT02724163](https://clinicaltrials.gov/study/NCT02724163) | Fase 3 | Activo, no recluta | 700 | Ensayo internacional en LMA pediátrica con gemtuzumab ozogamicina en inducción |
-
-**Nota:** los ensayos de fase 2/3 y fase 3 incluidos son, en su mayoría, estudios de trasplante donde la ciclofosfamida es un componente del régimen y no la intervención experimental única. El número de ensayos de fase 3 completados específicamente sobre leucemia mieloide es limitado, por lo que el nivel L1 asignado debe interpretarse con cautela.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | Revisión sistemática y metaanálisis en red | Bone Marrow Transplant | Compara regímenes de acondicionamiento mieloablativo en LMA en remisión, incluido Bu/Cy |
-| [38758817](https://pubmed.ncbi.nlm.nih.gov/38758817/) | 2024 | Estudio registro (EBMT) | Cancer | PTCy vs. ATG vs. combinación para prevenir EICH en trasplante haploidéntico en LMA del adulto |
-| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | Cohorte | Haematologica | 217 pacientes con LMA; supervivencia global a 2 años del 77% con PTCy y acondicionamiento mieloablativo |
-| [41046309](https://pubmed.ncbi.nlm.nih.gov/41046309/) | 2026 | Cohorte (registro) | Bone Marrow Transplant | Trasplante de cordón vs. haploidéntico con PTCy en LMA en primera remisión completa |
-| [42373850](https://pubmed.ncbi.nlm.nih.gov/42373850/) | 2026 | Cohorte (ALWP/EBMT) | Bone Marrow Transplant | Haploidéntico vs. donante no emparentado con mismatch y PTCy en LMA secundaria |
-| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Cohorte | Future Oncol | Busulfán-ciclofosfamida vs. fludarabina-busulfán en trasplante alogénico por LMA |
-| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | Cohorte | Cytotherapy | Factores pronósticos en trasplante haploidéntico con PTCy en LMA |
-| [25345651](https://pubmed.ncbi.nlm.nih.gov/25345651/) | 2015 | Cohorte | Am J Hematol | Alotrasplante no mieloablativo con ciclofosfamida/fludarabina vs. mieloablativo en 165 pacientes con LMA |
-| [36842566](https://pubmed.ncbi.nlm.nih.gov/36842566/) | 2023 | Cohorte | Transpl Immunol | PTCy y quimerismo mixto temprano en neoplasias mieloides |
-| [14662323](https://pubmed.ncbi.nlm.nih.gov/14662323/) | 2003 | Revisión | Exp Hematol | Compara Bu-Cy con irradiación corporal total-Cy como acondicionamiento en LMA |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
@@ -114,50 +80,43 @@ Se muestran los ensayos más relevantes de los 35 identificados (los ensayos con
 | 33214 | Genoxal 50 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
 | 90200 | Ciclofosfamida Seacross 500 mg polvo para solución inyectable y para perfusión EFG | Polvo para solución inyectable y para perfusión | No disponible |
 
-Hay 9 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales.
-
----
-
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante, clase mostaza nitrogenada) |
-| Riesgo de Mielosupresión | Alto (la depleción de células hematopoyéticas en proliferación es parte de su acción; el riesgo aumenta en regímenes de acondicionamiento a dosis altas) |
-| Clasificación de Emetogenicidad | Moderada (puede ser alta a dosis elevadas) |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, electrolitos, análisis de orina (vigilancia de cistitis hemorrágica) |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
-Para los detalles específicos, consultar las advertencias y precauciones del prospecto.
-
----
+| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante, mostaza nitrogenada) |
+| Riesgo de Mielosupresión | Alto (neutropenia, y en menor medida trombocitopenia y anemia, dependientes de la dosis) |
+| Clasificación de Emetogenicidad | Media a alta, según la dosis y la vía de administración |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, electrolitos y análisis de orina (vigilancia de toxicidad urinaria) |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos (preparación protegida, guantes y manejo seguro de residuos) |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas:** se identificaron 100 interacciones en total; entre las principales (muestra de 20) predominan las de nivel **moderado**:
-  - Anfotericina B (y sus formulaciones lipídicas, de sulfato de colesterilo y liposomal)
-  - Bupropión, aprepitant, metronidazol y nitisinona
-  - Antidiabéticos: sulfonilureas (clorpropamida, acetohexamida, glimepirida, glipizida, glibenclamida, tolazamida, tolbutamida), nateglinida, repaglinida y troglitazona
-  - De nivel **menor**: levofloxacino y ondansetrón
-- **Consideración adicional:** la literatura revisada describe toxicidad urológica (cistitis hemorrágica) asociada al fármaco.
+**Interacciones Farmacológicas:** la consulta de interacciones se completó y registró 100 interacciones. Entre las incluidas en el listado revisado predominan las de nivel moderado:
+- Anfotericina B (y sus formulaciones lipídicas, de sulfato de colesterilo y liposomal)
+- Bupropión
+- Aprepitant
+- Metronidazol
+- Sulfonilureas y otros antidiabéticos orales (clorpropamida, acetohexamida, glimepirida, glipizida, glibenclamida, tolazamida, tolbutamida, nateglinida, repaglinida, troglitazona)
+- Nitisinona
+
+También se registraron interacciones de nivel menor con levofloxacino y ondansetrón.
 
 Para advertencias y contraindicaciones, consultar el prospecto.
 
----
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La ciclofosfamida cuenta con numerosos ensayos clínicos (fases 1 a 3) y estudios de cohorte que respaldan su uso en la leucemia mieloide, sobre todo como parte del acondicionamiento y como PTCy para la profilaxis de EICH; además, está comercializada en España. La evidencia es más sólida para este papel de apoyo al trasplante que como antileucémico independiente, por lo que se recomienda avanzar con salvaguardas.
+La predicción no cuenta con ensayos clínicos ni literatura que estudien esta enfermedad (nivel L5). Además, el perfil inmunosupresor y citotóxico del fármaco plantea un posible riesgo en una condición que ya implica disfunción de células T.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente no disponible
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank
-- Confirmar las indicaciones aprobadas en España para cada autorización
-- Definir si la indicación se plantea como tratamiento antileucémico o como régimen de acondicionamiento/PTCy, y verificar ensayos de fase 3 específicos en leucemia mieloide
-- Plan de monitoreo hematológico, urológico y de interacciones para poblaciones específicas
+- Datos detallados del mecanismo de acción (MOA)
+- Revisión de las advertencias y contraindicaciones del prospecto autorizado
+- Análisis mecanístico específico que justifique el uso de un inmunosupresor en esta condición
+- Estudios preclínicos o series de casos que evalúen directamente esta enfermedad antes de considerar cualquier avance
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "phenylbutazone"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
-description: "Phenylbutazone: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Phenylbutazone: nueva indicación predicha, Síndrome de microftalmia colobomatosa-displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (nivel de evidencia L5)."
 ---
 
 # Phenylbutazone
@@ -33,20 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Phenylbutazone: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
+## Phenylbutazone: Síndrome de microftalmia colobomatosa-displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La fenilbutazona es un antiinflamatorio no esteroideo (AINE) que en España se comercializa solo en cremas de uso tópico; los datos de la licencia de la AEMPS no incluyen el texto de la indicación aprobada.
-Se trata de un uso histórico ya conocido más que de un reposicionamiento novedoso.
+Fenilbutazona es un antiinflamatorio no esteroideo (AINE) que en España se comercializa en formato de crema.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmia colobomatosa-displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome)**, con puntaje 0,9971.
+Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa-displasia rizomélica (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
@@ -55,11 +56,11 @@ Se trata de un uso histórico ya conocido más que de un reposicionamiento noved
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, la fenilbutazona es un inhibidor no selectivo de la ciclooxigenasa (COX) que reduce la síntesis de prostaglandinas y, con ello, la inflamación, el dolor y la hinchazón.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, la fenilbutazona es un AINE, un grupo que actúa sobre la vía de las ciclooxigenasas (COX) y reduce la inflamación y el dolor.
 
-La artritis reumatoide es una enfermedad inflamatoria articular en la que el control sintomático mediante AINE es una práctica establecida. El mecanismo antiinflamatorio es coherente con esta predicción, y la literatura incluye estudios clínicos de las décadas de 1950 a 1970 que evaluaron la fenilbutazona en pacientes con esta enfermedad.
+Este síndrome es una malformación del desarrollo, ultra rara y de base genética. La inhibición de COX por un AINE no se espera que corrija un defecto estructural del desarrollo. No se identifica un vínculo mecanístico plausible entre el fármaco y esta enfermedad.
 
-Conviene matizar que se trata de un uso histórico. La toxicidad grave (agranulocitosis, anemia aplásica, hemorragia gastrointestinal) ha limitado su empleo sistémico, y ha sido retirada de uso humano en muchos países. Además, el alto puntaje del modelo refleja la farmacología antiinflamatoria conocida, no una evidencia nueva.
+El puntaje alto (0,9971) refleja únicamente una predicción computacional, sin respaldo de estudios clínicos ni de literatura. Debe interpretarse con mucha cautela, y más aún porque la exposición prenatal a AINE es una preocupación de seguridad conocida.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,50 +68,41 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [373084](https://pubmed.ncbi.nlm.nih.gov/373084/) | 1979 | Estudio comparativo doble ciego | Scand J Rheumatol Suppl | 60 pacientes con AR: el ácido tolfenámico mostró mejor efecto que la fenilbutazona (300 mg) y el ácido acetilsalicílico (comparadores) |
-| [4903691](https://pubmed.ncbi.nlm.nih.gov/4903691/) | 1969 | Comparación clínica doble ciego | Can Med Assoc J | Monofenilbutazona vs fenilbutazona en AR ambulatoria; menos síntomas indeseables con monofenilbutazona |
-| [913873](https://pubmed.ncbi.nlm.nih.gov/913873/) | 1977 | Farmacocinético/clínico | J Int Med Res | Concentraciones plasmáticas de fenilbutazona (50-400 mg/día) y eficacia en 7 pacientes con AR, diseño doble ciego |
-| [788739](https://pubmed.ncbi.nlm.nih.gov/788739/) | 1976 | Estudio clínico doble ciego | Br J Clin Pharmacol | Relación entre concentración plasmática y efecto terapéutico en AR (7 pacientes) |
-| [13009482](https://pubmed.ncbi.nlm.nih.gov/13009482/) | 1952 | Estudio clínico | California Medicine | Evaluación en 409 pacientes con enfermedades reumáticas; efecto favorable específico en gota |
-| [13126544](https://pubmed.ncbi.nlm.nih.gov/13126544/) | 1954 | Clínico | Br Med J | Uso de fenilbutazona en artritis reumatoide |
-| [13059471](https://pubmed.ncbi.nlm.nih.gov/13059471/) | 1953 | Revisión del fármaco | Br Med J | Revisión general de la fenilbutazona |
-| [6368185](https://pubmed.ncbi.nlm.nih.gov/6368185/) | 1984 | Revisión | Drugs | Estado actual y uso racional de los AINE; no hay buena evidencia de que detengan la progresión de la enfermedad |
-| [14178376](https://pubmed.ncbi.nlm.nih.gov/14178376/) | 1964 | Revisión | Belg Tijdschr Geneeskd | Revisión sobre artritis reumatoide |
-| [37855282](https://pubmed.ncbi.nlm.nih.gov/37855282/) | 2024 | Farmacovigilancia | Endocr Metab Immune Disord Drug Targets | Importancia de la farmacovigilancia de los AINE (relevancia indirecta) |
-
-La evidencia consiste en estudios antiguos, pequeños y mayoritariamente no aleatorizados; varios artículos son solo indirectamente relevantes.
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
+
+Hay 2 autorizaciones registradas (1 vigente y 1 cancelada), ambas de producto con un solo principio activo y en forma de crema.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 49472 | DERSINDOL EXTRA | Crema | No especificada |
 | 47135 | DOCTOFRIL CREMA | Crema | No especificada |
 
-Ambas autorizaciones son de uso tópico (crema) y están vigentes. La vía de administración de las presentaciones disponibles difiere de la necesaria para un uso sistémico en artritis reumatoide.
-
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se han identificado 210 interacciones en total. Entre las listadas, la mayoría son de nivel moderado, por ejemplo con corticosteroides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), ácido acetilsalicílico, mesalazina, metformina, glimepirida, clorpropamida, saxagliptina, linagliptina y aprepitant. Una interacción con linaclótida es de nivel menor.
-- **Perfil de toxicidad (según el análisis de evidencia)**: la toxicidad hematológica (agranulocitosis, anemia aplásica) y gastrointestinal (hemorragia) han limitado su uso sistémico.
+- **Interacciones Farmacológicas**: se registraron 210 interacciones, en su mayoría de nivel moderado. Algunas de las principales son:
+  - Corticoesteroides: hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida.
+  - Antidiabéticos: metformina, glimepirida, clorpropamida, saxagliptina, linagliptina.
+  - Otros: ácido acetilsalicílico, mesalazina, balsalazida, aprepitant, eliglustat.
+  - Interacción de nivel menor: linaclotida.
+- **Exposición prenatal**: la exposición a AINE durante el embarazo es una preocupación de seguridad, lo que es especialmente relevante en una enfermedad de origen congénito.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La fenilbutazona tiene un mecanismo antiinflamatorio plausible y un uso histórico en artritis reumatoide, pero la evidencia es antigua, de bajo rigor (L3) y sin ensayos registrados. Su perfil de toxicidad es desfavorable frente a alternativas modernas, y las presentaciones disponibles en España son tópicas.
+La predicción es solo computacional (nivel L5), sin ensayos ni publicaciones que estudien esta enfermedad. No existe un vínculo mecanístico plausible entre un AINE y una malformación genética del desarrollo.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones), así como la indicación aprobada de cada licencia
-- Completar los datos del mecanismo de acción
-- Evaluar la relación beneficio-riesgo frente a los tratamientos actuales de la artritis reumatoide
-- Determinar la viabilidad de la vía de administración, dado que las presentaciones locales son cremas
-- Buscar evidencia más reciente y de mayor calidad (ensayos controlados aleatorizados)
+- Evidencia mecanística o preclínica que justifique el vínculo entre el fármaco y la enfermedad.
+- Datos detallados del mecanismo de acción.
+- Advertencias y contraindicaciones completas del prospecto.
+- Evaluación de seguridad, en particular sobre la exposición prenatal.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Terbutaline: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Terbutaline
@@ -33,65 +33,53 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Terbutaline: Respiratory malformation
+## Terbutaline: malformación respiratoria (respiratory malformation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Terbutalina es un agonista beta-2 adrenérgico, utilizado originalmente para el tratamiento del asma, la bronquitis y el enfisema pulmonar.
-Cabe señalar que esta indicación se solapa en gran medida con las indicaciones ya conocidas del fármaco, por lo que se trata más de una confirmación que de un reposicionamiento propiamente dicho.
+Terbutalina es un agonista de los receptores beta-adrenérgicos (principalmente beta-2), utilizado como broncodilatador en enfermedades obstructivas reversibles de las vías respiratorias.
+El modelo TxGNN predice que podría ser útil para **malformación respiratoria (respiratory malformation)**, pero **no hay estudios que lo evalúen directamente**: solo hay **1 ensayo clínico** genérico y publicaciones sobre asma, bronquitis y otros temas relacionados de forma indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Respiratory malformation |
+| Nueva Indicación Predicha | malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0.9952 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 2) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Terbutalina es un agonista selectivo del receptor beta-2 adrenérgico. Su activación en el músculo liso de las vías respiratorias eleva el AMPc intracelular y provoca broncodilatación. Los datos compilados no incluyen una descripción formal del mecanismo de acción, por lo que esta explicación procede del conocimiento farmacológico general. Los datos de farmacología sí confirman que el fármaco actúa sobre los receptores ADRB1 y ADRB2.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la terbutalina actúa sobre los receptores beta-1 y beta-2 adrenérgicos (genes ADRB1 y ADRB2), y se emplea para prevenir y revertir el broncoespasmo en enfermedad obstructiva reversible de las vías respiratorias.
 
-La indicación original (asma, bronquitis, enfisema) y la nueva (enfermedad pulmonar obstructiva) comparten la obstrucción reversible del flujo aéreo como característica central. Por ello, el mecanismo broncodilatador es directamente aplicable, y la alta puntuación del modelo concuerda con la farmacología conocida.
+El agonismo beta-2 podría aliviar la broncoconstricción reversible que acompaña a algunas anomalías estructurales de las vías aéreas, pero no corregiría la malformación en sí. El puntaje elevado del modelo (0,9952) probablemente refleja la cercanía de la red con términos de enfermedad respiratoria y no un mecanismo específico de esta enfermedad.
+
+Por tanto, la predicción debe entenderse como una hipótesis del modelo, sin respaldo directo en estudios reales.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los ensayos más relevantes (de 14 registrados).
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02224157](https://clinicaltrials.gov/study/NCT02224157) | Fase 3 | Completado | 4215 | Symbicort a demanda vs. budesonida dos veces al día más terbutalina a demanda en asma |
-| [NCT02149199](https://clinicaltrials.gov/study/NCT02149199) | Fase 3 | Completado | 3850 | Symbicort a demanda vs. terbutalina a demanda vs. budesonida más terbutalina en asma |
-| [NCT06626620](https://clinicaltrials.gov/study/NCT06626620) | Fase 3 | Completado | 120 | Sulfato de magnesio intravenoso vs. terbutalina en niños con exacerbación aguda de asma |
-| [NCT00839800](https://clinicaltrials.gov/study/NCT00839800) | Fase 3 | Completado | 2091 | Symbicort SMART vs. Symbicort más terbutalina a demanda en asma |
-| [NCT00849095](https://clinicaltrials.gov/study/NCT00849095) | Fase 3 | Completado | 860 | Budesonida/formoterol a demanda vs. régimen regular más terbutalina a demanda en asma leve-moderada |
-| [NCT00252863](https://clinicaltrials.gov/study/NCT00252863) | Fase 3 | Completado | 1600 | Terapia con inhalador único Symbicort vs. práctica convencional (indirecto para terbutalina) |
-| [NCT02322788](https://clinicaltrials.gov/study/NCT02322788) | Fase 3 | Completado | 95 | Bricanyl Turbuhaler M3 vs. M2: protección frente a la broncoconstricción inducida por metacolina |
-| [NCT01096017](https://clinicaltrials.gov/study/NCT01096017) | Fase 3 | Completado | 24 | Terbutalina Turbuhaler 0,4 mg vs. salbutamol pMDI en adultos japoneses con asma |
-| [NCT00837967](https://clinicaltrials.gov/study/NCT00837967) | Fase 3 | Completado | 25 | Tolerabilidad de 10 inhalaciones de Symbicort vs. terbutalina en adultos japoneses con asma |
-| [NCT04973345](https://clinicaltrials.gov/study/NCT04973345) | Fase 2/3 | Retirado | 0 | Relación exposición-respuesta de terbutalina en asma; sin participantes, no aporta evidencia |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Reclutando | 5000 | Programa general de farmacocinética, farmacodinamia y seguridad de fármacos poco estudiados en niños; no es específico de malformación respiratoria y no tiene criterio de eficacia para esta enfermedad |
 
 ## Evidencia de Literatura
 
-Se muestran las publicaciones más relevantes (de 20 recuperadas).
+Ninguna publicación estudia directamente la malformación respiratoria. Las siguientes son las más cercanas temáticamente:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29768149](https://pubmed.ncbi.nlm.nih.gov/29768149/) | 2018 | ECA | N Engl J Med | Budesonida-formoterol a demanda como alternativa al tratamiento convencional en asma leve |
-| [3073804](https://pubmed.ncbi.nlm.nih.gov/3073804/) | 1988 | ECA | Br J Dis Chest | Terbutalina oral aumentó la fuerza de contracción diafragmática en pacientes con EPOC |
-| [6988343](https://pubmed.ncbi.nlm.nih.gov/6988343/) | 1980 | ECA | Int J Clin Pharmacol Ther Toxicol | Comparación doble ciego de clenbuterol y terbutalina oral en enfermedad pulmonar obstructiva crónica |
-| [30156361](https://pubmed.ncbi.nlm.nih.gov/30156361/) | 2019 | ECA | Acad Emerg Med | Terbutalina nebulizada con ipratropio vs. terbutalina sola en exacerbación aguda de EPOC con ventilación no invasiva |
-| [23348973](https://pubmed.ncbi.nlm.nih.gov/23348973/) | 2013 | Revisión | Am J Respir Crit Care Med | Los agonistas beta-2 de acción corta, incluida la terbutalina, ofrecen alivio rápido de síntomas |
-| [36227333](https://pubmed.ncbi.nlm.nih.gov/36227333/) | 2023 | Revisión sistemática | Naunyn-Schmiedeberg's Arch Pharmacol | Farmacocinética clínica de terbutalina en humanos según vía, edad y estado de enfermedad |
-| [10384064](https://pubmed.ncbi.nlm.nih.gov/10384064/) | 1999 | Estudio clínico (cruzado, placebo) | Lung | Efecto de una dosis única de terbutalina Turbuhaler sobre función pulmonar y capacidad de ejercicio en EPOC |
-| [1615190](https://pubmed.ncbi.nlm.nih.gov/1615190/) | 1992 | Estudio clínico (cruzado, placebo) | Respir Med | Efecto de terbutalina inhalada sobre FEV1, FVC, disnea y distancia de marcha en EPOC |
-| [33065789](https://pubmed.ncbi.nlm.nih.gov/33065789/) | 2020 | Estudio clínico | Ann Palliat Med | N-acetilcisteína combinada con sulfato de terbutalina en ancianos con EPOC |
-| [2662130](https://pubmed.ncbi.nlm.nih.gov/2662130/) | 1989 | Estudio clínico (cruzado) | Pediatrics | Terbutalina y teofilina de liberación lenta en el tratamiento prolongado del asma infantil |
+| [3281307](https://pubmed.ncbi.nlm.nih.gov/3281307/) | 1988 | ECA | Thorax | Adrenalina subcutánea frente a terbutalina en asma aguda grave (20 pacientes) |
+| [1629507](https://pubmed.ncbi.nlm.nih.gov/1629507/) | 1992 | ECA | J Allergy Clin Immunol | Budesonida inhalada frente a terbutalina sobre la inflamación de las vías aéreas en asma de reciente diagnóstico |
+| [42303000](https://pubmed.ncbi.nlm.nih.gov/42303000/) | 2026 | Cohorte | Respiratory Medicine | Evaluación de síntomas, función pulmonar e imagen en lactantes con bronquiolitis obliterante postinfecciosa |
+| [1620986](https://pubmed.ncbi.nlm.nih.gov/1620986/) | 1992 | Observacional | Respiration | Reversibilidad aguda de la impedancia respiratoria anormal con terbutalina inhalada en bronquitis crónica |
+| [12061354](https://pubmed.ncbi.nlm.nih.gov/12061354/) | 2002 | Observacional | Acta Paediatrica | Estenosis de vías aéreas centrales en escolares y diagnóstico diferencial con asma |
+| [19793774](https://pubmed.ncbi.nlm.nih.gov/19793774/) | 2009 | Revisión/Hipótesis | Toxicol Ind Health | Hipótesis sobre terbutalina, moho y autismo; se refiere a señales de seguridad, no a beneficio |
+| [11813927](https://pubmed.ncbi.nlm.nih.gov/11813927/) | 2001 | Reporte de caso | Cardiology in the Young | Terbutalina en bloqueo cardíaco completo fetal; no relacionado con la indicación predicha |
 
 ## Información de Mercado en España
 
@@ -102,25 +90,24 @@ Se muestran las publicaciones más relevantes (de 20 recuperadas).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para obtener información sobre advertencias y contraindicaciones.
+- **Contraindicaciones o condiciones de precaución (relaciones registradas en bases de datos farmacológicas, no texto de prospecto)**: hipertensión, epilepsia, hiperglucemia, deficiencia de potasio, diabetes mellitus, cetoacidosis diabética, paro cardíaco súbito, enfermedad de la conducción cardíaca, insuficiencia respiratoria, hipertiroidismo, enfermedad de Graves, tirotoxicosis, edema pulmonar, isquemia miocárdica, enfermedad coronaria y desprendimiento de placenta.
+- **Interacciones farmacológicas**: no se registraron interacciones con otros fármacos; solo la unión farmacológica a los receptores beta-1 y beta-2 adrenérgicos.
 
-- **Contraindicaciones o precauciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión, epilepsia, hiperglucemia, diabetes mellitus, cetoacidosis diabética, deficiencia de potasio, parada cardíaca súbita, enfermedades de la conducción cardíaca, insuficiencia respiratoria, hipertiroidismo (enfermedad de Graves, tirotoxicosis), edema pulmonar, isquemia miocárdica, enfermedad coronaria y desprendimiento de placenta.
-- **Interacciones farmacológicas**: los datos disponibles solo describen la actividad sobre los receptores beta-1 y beta-2 adrenérgicos; no se dispone de interacciones con otros fármacos. Un estudio de la literatura (PMID 6107217) analizó la interacción con betabloqueantes (metoprolol, propranolol) en pacientes con enfermedad pulmonar obstructiva.
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Varios ensayos de Fase 3 completados, algunos de gran tamaño, evalúan terbutalina en asma, y existen ECAs en enfermedad pulmonar obstructiva crónica. Sin embargo, en muchos de esos ensayos terbutalina actúa como comparador o medicación de rescate, y la indicación ya está cubierta por el uso conocido del fármaco, por lo que se trata sobre todo de una confirmación.
+La predicción se basa solo en el modelo: no hay ensayos ni publicaciones que estudien la malformación respiratoria directamente, y el único ensayo registrado es un programa farmacocinético general. El mecanismo beta-2 no corregiría la malformación estructural.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), ya que actualmente no están disponibles.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Definir un plan de monitoreo de seguridad cardiovascular, metabólica (glucosa, potasio) y tiroidea, dadas las condiciones señaladas en el grafo de conocimiento.
-- Confirmar qué indicaciones figuran en las autorizaciones españolas para delimitar el alcance real del reposicionamiento.
+- Estudios clínicos o preclínicos que evalúen directamente la terbutalina en malformación respiratoria
+- Datos detallados del mecanismo de acción y su vínculo con la fisiopatología de esta enfermedad
+- Revisión de advertencias y contraindicaciones del prospecto oficial
+- Evaluación de la compatibilidad de las vías de administración disponibles con la población afectada
 
-**Otras predicciones del modelo (decisión: Hold):** *malformación respiratoria* (puntaje 0.9952, nivel L4) y *síndrome de Rienhoff* (puntaje 0.9938, nivel L5). Ninguna cuenta con evidencia directa de eficacia: la única señal para la primera es un programa farmacocinético pediátrico genérico, y para la segunda no hay ensayos ni literatura.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
