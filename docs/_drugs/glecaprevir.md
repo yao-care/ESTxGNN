@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glecaprevir
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 378
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Glecaprevir: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+description: "Glecaprevir: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Glecaprevir es un inhibidor de la proteasa NS3/4A del virus de la hepatitis C (VHC), utilizado originalmente para el tratamiento de la infección crónica por VHC, en combinación con pibrentasvir (Maviret).
-El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, con **7 ensayos clínicos** y **20 publicaciones** asociados a esta predicción.
-Los datos corresponden en realidad a la curación del VHC en pacientes coinfectados con VIH, no al tratamiento del VIH en sí.
+Glecaprevir es un antivírico inhibidor de la proteasa NS3/4A que no tiene actividad directa conocida contra el VIH.
+El modelo TxGNN predice que podría ser útil para la **infección por VIH (HIV infectious disease)**.
+Los datos compilados incluyen **7 ensayos clínicos** y **20 publicaciones** relacionados. Ninguno estudia el tratamiento del VIH en sí: evalúan a pacientes con coinfección por VIH y hepatitis C, por lo que el nivel de evidencia es L5.
 
 ## Resumen Rápido
 
@@ -49,47 +49,42 @@ Los datos corresponden en realidad a la curación del VHC en pacientes coinfecta
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9987 |
-| Nivel de Evidencia | L1 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 2) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, glecaprevir es un inhibidor de la proteasa NS3/4A del VHC, administrado en combinación fija con pibrentasvir (inhibidor de NS5A), y su eficacia en la hepatitis C crónica está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, glecaprevir inhibe la proteasa NS3/4A, una enzima propia de ciertos virus hepatotropos. Esa proteasa no existe en el VIH, por lo que no hay un mecanismo antiviral directo plausible contra este virus.
 
-Glecaprevir **no tiene actividad antiviral directa contra el VIH**. La puntuación del modelo TxGNN (deep learning) para la Infección por VIH (0.9987) probablemente refleja la población de pacientes compartida (la coinfección VIH/VHC es frecuente) y puede reflejar similitudes que el modelo aprendió entre enfermedades virales relacionadas, no evidencia biológica. La evidencia clínica disponible demuestra la cura del VHC en pacientes coinfectados con VIH, lo que es una extensión de la indicación original a una población coinfectada, no un tratamiento del VIH.
+El puntaje alto probablemente refleja la cercanía entre enfermedades virales y la población de pacientes que comparten ambas infecciones, más que un efecto antiviral real sobre el VIH. Los estudios disponibles se centran en pacientes con coinfección por VIH. En ellos se evalúa la eficacia y seguridad de glecaprevir (en combinación con pibrentasvir) frente a la infección por el virus de la hepatitis C, no frente al VIH.
 
-Por ello, cualquier afirmación debe limitarse a la **curación del VHC en pacientes con coinfección por VIH**.
+Por ello, cualquier afirmación debe limitarse a esa población coinfectada y no puede presentarse como tratamiento del VIH. Los estudios aportan información útil sobre uso y seguridad en personas con VIH, pero no demuestran eficacia contra el VIH.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Fase 3 | Completado | 546 | ECA doble ciego controlado con placebo de glecaprevir/pibrentasvir en adultos asiáticos sin cirrosis con VHC GT1-6, con o sin coinfección por VIH |
-| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Fase 3 | Completado | 153 | EXPEDITION-2: eficacia y seguridad de glecaprevir/pibrentasvir en adultos con VHC GT1-6 y coinfección por VIH-1 |
-| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Fase 3 | Completado | 160 | Estudio abierto en adultos asiáticos con cirrosis compensada y VHC GT1-6, con o sin coinfección por VIH |
-| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Fase 2 | Completado | 45 | PURGE-C: 4 semanas de glecaprevir/pibrentasvir en hepatitis C aguda, con o sin coinfección por VIH-1 |
-| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Fase 3 | Completado | 83 | Estudio piloto internacional en hepatitis C de adquisición reciente, con o sin VIH; incluye otros regímenes además de glecaprevir/pibrentasvir |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Completado | 87 | Riesgo cardiovascular tras la erradicación del VHC en personas con VIH/VHC; el desenlace es cardiovascular, no antiviral |
+| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Fase 3 | Completado | 153 | Estudio abierto multicéntrico (EXPEDITION-2) de eficacia y seguridad de glecaprevir/pibrentasvir en adultos con hepatitis C y coinfección por VIH-1 |
+| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Fase 3 | Completado | 546 | Estudio aleatorizado, doble ciego y controlado con placebo en adultos asiáticos sin cirrosis con hepatitis C, con o sin coinfección por VIH |
+| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Fase 3 | Completado | 160 | Estudio abierto en adultos asiáticos con cirrosis compensada y hepatitis C, con o sin coinfección por VIH |
+| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Fase 3 | Completado | 83 | Estudio piloto internacional de regímenes antivirales (incluido glecaprevir/pibrentasvir) en hepatitis C de adquisición reciente, con o sin VIH |
+| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Fase 2 | Completado | 45 | Glecaprevir/pibrentasvir durante 4 semanas en hepatitis C aguda, con o sin coinfección por VIH-1 |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Completado | 87 | Riesgo cardiovascular tras la erradicación de la hepatitis C en personas con VIH; el resultado evaluado no es la eficacia antiviral |
 | [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Fase 1/2 | Reclutando | 30 | Farmacocinética y seguridad de glecaprevir/pibrentasvir iniciado en el embarazo, con o sin VIH; sin datos de eficacia |
-
-Nota: en varios ensayos el vínculo con la coinfección por VIH debe verificarse, y todos evalúan el tratamiento del VHC.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [41297677](https://pubmed.ncbi.nlm.nih.gov/41297677/) | 2026 | Fase IIIb de un solo brazo | Journal of Hepatology | Eficacia y seguridad de 8 semanas de glecaprevir/pibrentasvir en adultos con hepatitis C aguda |
-| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Cohorte | J Antimicrob Chemother | Respuesta a glecaprevir/pibrentasvir en pacientes coinfectados VIH/VHC en práctica clínica |
-| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Cohorte | Clin Exp Hepatol | Efectividad de glecaprevir/pibrentasvir en coinfectados VIH/VHC tratados con bictegravir/emtricitabina/tenofovir alafenamida |
-| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Revisión sistemática y metaanálisis | Int J Antimicrob Agents | 13 estudios con 3082 pacientes; tasa global de RVS12 del 97,8% |
-| [32754824](https://pubmed.ncbi.nlm.nih.gov/32754824/) | 2020 | Cohorte | Adv Ther | Uso real de 8 semanas de glecaprevir/pibrentasvir en pacientes sin tratamiento previo con cirrosis compensada |
-| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | Estudio farmacocinético | J Infect Dis | Interacciones de glecaprevir/pibrentasvir con antirretrovirales del VIH |
-| [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Revisión | Future Microbiol | Glecaprevir/pibrentasvir en la infección crónica por VHC |
-| [30090878](https://pubmed.ncbi.nlm.nih.gov/30090878/) | 2018 | Revisión | Drugs Today | Combinación de dosis fija en adultos con VHC GT1-6 |
-| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Revisión | Expert Opin Pharmacother | Terapia con inhibidores de proteasa en VHC; menciona la coinfección con VIH |
-| [38293756](https://pubmed.ncbi.nlm.nih.gov/38293756/) | 2024 | Revisión sistemática y metaanálisis | Liver Int | Eficacia y seguridad de los antivirales de acción directa en niños y adolescentes con VHC |
+| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Cohorte | J Antimicrob Chemother | Respuesta a glecaprevir/pibrentasvir en la práctica clínica en pacientes con coinfección VIH/hepatitis C |
+| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Cohorte | Clin Exp Hepatol | Efectividad y seguridad en el mundo real en pacientes coinfectados tratados con bictegravir/emtricitabina/tenofovir alafenamida |
+| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | Estudio de interacciones | J Infect Dis | Interacciones farmacológicas de glecaprevir/pibrentasvir con antirretrovirales del VIH |
+| [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Revisión | Future Microbiol | Revisión de glecaprevir/pibrentasvir en la infección crónica por el virus de la hepatitis C |
+| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Revisión | Expert Opin Pharmacother | Inhibidores de la proteasa; señala que 25-30 % de los pacientes con VIH en Europa y EE. UU. están coinfectados |
+| [30671330](https://pubmed.ncbi.nlm.nih.gov/30671330/) | 2017 | Revisión | GMS Infect Dis | Revisión de inhibidores de la proteasa y antivirales de acción directa en la hepatitis C |
+| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Revisión sistemática y metaanálisis | Int J Antimicrob Agents | 13 estudios con 3082 pacientes; tasa global de respuesta virológica sostenida a las 12 semanas de 97,8 % |
 
 ## Información de Mercado en España
 
@@ -98,34 +93,30 @@ Nota: en varios ensayos el vínculo con la coinfección por VIH debe verificarse
 | 1171213002 | MAVIRET 50 MG/20 MG gránulos recubiertos en sobre | Gránulos recubiertos en sobres | Texto de indicación no disponible |
 | 1171213001 | MAVIRET 100 MG/40 MG comprimidos recubiertos con película | Comprimido recubierto con película | Texto de indicación no disponible |
 
+Ambas autorizaciones están vigentes y el titular es Abbvie Deutschland GmbH & Co. KG.
+
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se han identificado 57 interacciones conocidas. Entre las principales:
-  - **Gravedad mayor**: rosuvastatina, simvastatina y edoxabán.
-  - **Gravedad moderada**: dexametasona, esomeprazol, omeprazol, apixabán, betrixabán, cobicistat, deferasirox, metreleptina, naldemedina, troglitazona, lusutrombopag, revefenacina y griseofulvina.
-  - **Gravedad menor**: fidaxomicina, naloxegol, procaloprida e indacaterol.
-- **Precauciones en coinfección con VIH**: es necesario revisar las interacciones con los antirretrovirales; glecaprevir está contraindicado o no se recomienda con algunos agentes, como efavirenz y regímenes basados en atazanavir.
-- **Reactivación del virus de la hepatitis B**: debe monitorizarse en pacientes coinfectados, ya que es una advertencia de clase para los antivirales de acción directa contra el VHC.
-
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
+- **Interacciones Farmacológicas**: se conocen 57 interacciones. Entre las principales:
+  - **Mayores**: rosuvastatina, simvastatina y edoxabán.
+  - **Moderadas**: dexametasona, esomeprazol, omeprazol, apixabán, betrixabán, cobicistat, deferasirox, metreleptina, naldemedina, troglitazona, lusutrombopag, revefenacina y griseofulvina.
+  - **Menores**: fidaxomicina, naloxegol, procaloprida e indacaterol.
+- **Antirretrovirales**: la coadministración con antirretrovirales del VIH requiere revisión específica. Según la información compilada, glecaprevir está contraindicado o no se recomienda con algunos agentes, como efavirenz y pautas basadas en atazanavir.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existen varios ensayos de Fase 3 completados que respaldan la curación del VHC con glecaprevir/pibrentasvir en pacientes coinfectados con VIH (nivel L1). Sin embargo, el fármaco no actúa contra el VIH, por lo que la indicación debe formularse como tratamiento del VHC en pacientes coinfectados, no como tratamiento del VIH.
+Ninguno de los estudios identificados evalúa el tratamiento de la infección por VIH. Todos tratan la hepatitis C en personas coinfectadas, y glecaprevir no tiene actividad antiviral conocida contra el VIH. El puntaje del modelo (0.9987) no basta por sí solo para respaldar la nueva indicación.
 
 **Para avanzar se necesita:**
-- Delimitar la indicación a la curación del VHC en pacientes con coinfección por VIH, sin afirmar eficacia contra el VIH.
-- Verificar el vínculo con la coinfección por VIH en los ensayos con título truncado (p. ej., NCT03222583 y NCT03235349).
-- Revisar sistemáticamente las interacciones con los antirretrovirales.
-- Plan de monitorización de la reactivación del virus de la hepatitis B.
-- Obtener el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas) y los datos del mecanismo de acción.
+- Datos preclínicos o de mecanismo que demuestren actividad contra el VIH, que hoy no existen.
+- Confirmar con estudios dirigidos si hay algún efecto sobre la carga viral del VIH. De lo contrario, limitar cualquier mensaje al uso seguro en pacientes coinfectados.
+- Datos detallados del mecanismo de acción.
+- Revisión de las advertencias y contraindicaciones del prospecto, que no figuran en los datos compilados.
+- Un plan de manejo de interacciones con antirretrovirales.
 
-### Otras Predicciones Evaluadas (Resumen)
-
-Las demás indicaciones predichas tienen una recomendación **Hold**: hepatitis B (L4; sin mecanismo plausible y con riesgo de reactivación del VHB), hepatitis A (L4; los ensayos asociados son de VHC y no respaldan la indicación), hepatitis E, hepatitis viral animal, síndrome de inmunodeficiencia adquirida felina, infección por el virus de inmunodeficiencia de simios, fiebre hemorrágica de Omsk, enfermedad del bosque de Kyasanur y un trastorno del neurodesarrollo (todas L4-L5, sin evidencia ni mecanismo que las respalde).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
