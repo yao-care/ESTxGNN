@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 448
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab: nueva indicación predicha, C1 inhibitor deficiency (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Lanadelumab: C1 inhibitor deficiency
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,9 +48,9 @@ El modelo TxGNN predice que podría ser efectivo para **Deficiencia de C1 inhibi
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | C1 inhibitor deficiency |
-| Puntaje de Predicción TxGNN | 1.0000 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Serpinopathy with toxic serpin polymerization |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
 | Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |

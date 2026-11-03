@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 238
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-31
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Dexamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-description: "Dexamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,21 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Dexamethasone: Alopecia areata
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Dexametasona es un glucocorticoide sintético potente, utilizado originalmente en enfermedades inflamatorias y endocrinas como la insuficiencia suprarrenal, la enfermedad de Crohn, la hiperplasia suprarrenal congénita y la leucemia linfoblástica aguda.
-El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con **20 publicaciones** recuperadas (sin ensayos clínicos registrados) que actualmente respaldan esta dirección, entre ellas un ensayo aleatorizado pediátrico y una red de metaanálisis.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Alopecia areata |
+| Nueva Indicación Predicha | Alopecia mucinosa |
 | Puntaje de Predicción TxGNN | 0.9999 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |

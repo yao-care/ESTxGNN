@@ -4,17 +4,17 @@ title: Imipenem
 parent: Solo predicción del modelo (L5)
 nav_order: 409
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-29
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "imipenem"
-predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Imipenem
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 Imipenem es un antibiótico carbapenémico de amplio espectro (comercializado junto con cilastatina), utilizado originalmente para infecciones bacterianas graves como neumonía bacteriana, peritonitis, endocarditis y endometritis.
 El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, aunque no existen ensayos clínicos ni publicaciones que respalden esta predicción (evidencia solo del modelo).
-Entre las demás predicciones, la que cuenta con más respaldo es la **infección por Staphylococcus aureus** (2 ensayos clínicos de Fase 4 y 19 publicaciones), seguida de la **fiebre tifoidea** (18 publicaciones, principalmente observacionales).
 
 ---
 
@@ -70,7 +69,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 | Predicción | Puntaje TxGNN | Nivel | Valoración |
 |------|------|------|------|
-| Infección por *Staphylococcus aureus* | 0.9995 | L2 | Sinergia con fosfomicina frente a SARM; imipenem en monoterapia no es adecuado para SARM |
 | Fiebre tifoidea | 0.9998 | L4 | Los carbapenémicos se usan como última línea en *Salmonella* Typhi XDR |
 | Fiebre paratifoidea | 0.9999 | pendiente | Solo estudios de sensibilidad antimicrobiana |
 | Salmonelosis | 0.9999 | L4 | Evidencia indirecta; papel de rescate como máximo |

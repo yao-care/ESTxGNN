@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Conestat Alfa
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 207
-evidence_level: L1
-indication_count: 9
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "CONESTAT ALFA"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
-description: "Conestat Alfa: nueva indicación predicha, C1 inhibitor deficiency (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
+description: "Conestat Alfa: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Conestat Alfa
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **9**
 
 </div>
 
-## Conestat Alfa: C1 inhibitor deficiency
+## Conestat Alfa: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,9 +46,9 @@ El modelo TxGNN predice que podría ser efectivo para **Deficiencia de C1 inhibi
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | C1 inhibitor deficiency |
+| Nueva Indicación Predicha | Serpinopathy with toxic serpin polymerization |
 | Puntaje de Predicción TxGNN | 1.0000 |
-| Nivel de Evidencia | L1 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
 | Número de Autorizaciones | 2 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |

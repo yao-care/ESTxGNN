@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 724
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "SALMETEROL"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **5**
 
 </div>
 
-## Salmeterol: Bronquitis (bronchitis)
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Salmeterol es un agonista beta2-adrenérgico de acción prolongada, utilizado originalmente en el tratamiento del enfisema pulmonar y del asma (intrínseca y alérgica).
-El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **8 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 Se trata sobre todo de una extensión dentro de la enfermedad obstructiva de las vías respiratorias, no de un reposicionamiento a una enfermedad lejana.
 
 ## Resumen Rápido
@@ -47,9 +46,9 @@ Se trata sobre todo de una extensión dentro de la enfermedad obstructiva de las
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Bronquitis (bronchitis) |
-| Puntaje de Predicción TxGNN | 0.9992 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Respiratory malformation |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 9 de 9) |
 | Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | Proceed with Guardrails |

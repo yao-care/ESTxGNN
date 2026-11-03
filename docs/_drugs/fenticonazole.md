@@ -4,17 +4,17 @@ title: Fenticonazole
 parent: Solo predicción del modelo (L5)
 nav_order: 332
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-28
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "fenticonazole"
-predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
+predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
 description: "Fenticonazole: nueva indicación predicha, Trichomonal vulvovaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fenticonazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 ## Resumen en Una Frase
 
 Fenticonazol es un antifúngico imidazólico de uso tópico vaginal, originalmente utilizado para el tratamiento de la candidiasis vulvovaginal.
-El modelo TxGNN predice que podría ser efectivo para **vulvovaginitis tricomoniásica**, aunque **no existen ensayos clínicos registrados** y solo **2 publicaciones** se relacionan con esta predicción, ninguna con evidencia directa para tricomoniasis.
 
 ## Resumen Rápido
 
@@ -93,7 +92,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para vulvovaginitis tricomoniásica se apoya únicamente en el modelo, sin ensayos registrados y con solo un estudio piloto abierto de infecciones mixtas y una revisión general. El tratamiento estándar (5-nitroimidazoles) es eficaz, por lo que un azol tópico probablemente no aporte ventaja.
+El tratamiento estándar (5-nitroimidazoles) es eficaz, por lo que un azol tópico probablemente no aporte ventaja.
 
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción detallados y evidencia de actividad frente a *Trichomonas vaginalis*

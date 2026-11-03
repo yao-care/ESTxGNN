@@ -4,17 +4,17 @@ title: Sertraline
 parent: Solo predicción del modelo (L5)
 nav_order: 733
 evidence_level: L5
-indication_count: 8
-last_modified_at: 2026-10-31
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "Sertraline"
-predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: nueva indicación predicha, Schizoid personality disorder (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 ## Resumen en Una Frase
 
 Sertralina es un inhibidor selectivo de la recaptación de serotonina (ISRS), utilizado originalmente para el tratamiento de trastornos de ansiedad, trastorno obsesivo-compulsivo, estrés postraumático y fobia social.
-El modelo TxGNN predice que podría ser efectivo para **agorafobia**, con **2 ensayos clínicos** registrados (solo uno con relación indirecta) y **19 publicaciones** que respaldan esta dirección, la mayoría centradas en el trastorno de pánico con o sin agorafobia.
 
 ## Resumen Rápido
 

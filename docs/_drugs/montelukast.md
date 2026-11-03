@@ -4,17 +4,17 @@ title: Montelukast
 parent: Evidencia alta (L1-L2)
 nav_order: 541
 evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-31
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "MONTELUKAST"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---

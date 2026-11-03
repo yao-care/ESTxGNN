@@ -4,17 +4,17 @@ title: Calcifediol
 parent: Solo predicción del modelo (L5)
 nav_order: 133
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 monitor_inn: "CALCIFEDIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
-last_modified_at: 2026-10-30
-description: "Calcifediol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["renal tubular acidosis"]
+last_modified_at: 2026-11-03
+description: "Calcifediol: nueva indicación predicha, Renal tubular acidosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Calcifediol: análogo de la vitamina D (25-hidroxivitamina D3) → deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency)
+## Calcifediol: Renal tubular acidosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Calcifediol es el metabolito circulante principal de la vitamina D (25-hidroxivitamina D3) y precursor directo del calcitriol.
-El modelo TxGNN predice que podría ser efectivo para **deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency)**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) |
-| Puntaje de Predicción TxGNN | 0,9999 |
+| Nueva Indicación Predicha | Renal tubular acidosis |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 5 de 12) |
 | Número de Autorizaciones | 12 (vigentes: 5) |
@@ -58,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 Calcifediol es la forma principal de vitamina D en la circulación y el precursor directo del calcitriol, la forma activa. Los datos detallados sobre su mecanismo de acción no están disponibles en los datos compilados, pero su papel en el metabolismo de la vitamina D hace plausible que restablezca el estado de esta vitamina.
 
-El puntaje alto del modelo (0,9999) es coherente con esta lógica. Sin embargo, el término de enfermedad figura como obsoleto en la ontología, por lo que probablemente es un duplicado heredado de los términos actuales de deficiencia de vitamina D. Además, la predicción está muy cerca del uso ya conocido del fármaco en trastornos del metabolismo de la vitamina D, por lo que podría no constituir un reposicionamiento genuino.
+Sin embargo, el término de enfermedad figura como obsoleto en la ontología, por lo que probablemente es un duplicado heredado de los términos actuales de deficiencia de vitamina D. Además, la predicción está muy cerca del uso ya conocido del fármaco en trastornos del metabolismo de la vitamina D, por lo que podría no constituir un reposicionamiento genuino.
 
 No se aportaron ensayos ni literatura sobre esta enfermedad, de modo que no existe respaldo clínico directo.
 

@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: Solo predicción del modelo (L5)
 nav_order: 499
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-28
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Medroxyprogesterone Acetate: nueva indicación predicha, Breast fibrocystic disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Medroxyprogesterone Acetate: Amenorrea (amenorrhea (disease))
+## Medroxyprogesterone Acetate: Breast fibrocystic disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 El acetato de medroxiprogesterona (MPA) es un progestágeno sintético utilizado originalmente en endometriosis, carcinoma de endometrio, osteoporosis posmenopáusica y vaginitis atrófica posmenopáusica.
-El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero **no hay ensayos clínicos** y solo **20 publicaciones** (en su mayoría revisiones sobre anticoncepción), que no evalúan el MPA como tratamiento de esta condición.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
-| Puntaje de Predicción TxGNN | 1.0000 |
+| Nueva Indicación Predicha | Breast fibrocystic disease |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
 | Número de Autorizaciones | 4 (vigentes: 3) |
@@ -116,7 +115,6 @@ Las advertencias y contraindicaciones oficiales del prospecto de la AEMPS no est
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para amenorrea solo tiene respaldo de revisiones sobre anticoncepción, sin ensayos clínicos ni estudios que prueben el MPA como tratamiento. La amenorrea es más bien un efecto farmacológico conocido del MPA que una condición tratable, por lo que el puntaje del modelo parece reflejar esa asociación.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), ya que es un requisito previo para el cribado de seguridad

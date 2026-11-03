@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Solo predicción del modelo (L5)
 nav_order: 350
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
-description: "Flurbiprofen: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los d…"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+description: "Flurbiprofen: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5)."
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -115,7 +115,7 @@ La predicción no tiene respaldo clínico ni bibliográfico (nivel L5) y carece 
 - Datos de mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
 - Una búsqueda dirigida de casos o series clínicas en esta displasia.
 
-**Nota sobre otras predicciones del mismo análisis:** la predicción de **espondilitis anquilosante** (puesto 8, puntaje TxGNN de 0.9997) alcanza un nivel de evidencia L3, con decisión *Proceed with Guardrails*. Cuenta con 20 publicaciones, entre ellas varios ensayos comparativos doble ciego de flurbiprofeno frente a indometacina, fenilbutazona y naproxeno, que mostraron eficacia comparable. Sin embargo, los estudios son de 1974-1986, con muestras pequeñas y sin comparación con placebo, y no hay ensayos registrados. Además, flurbiprofeno ya se usa en artropatías, por lo que sería una extensión dentro de la clase AINE más que un reposicionamiento novedoso. Si se continúa con el reposicionamiento, esta indicación es una candidata más sólida que la displasia acromesomélica, con control del riesgo gastrointestinal, cardiovascular y renal, de las interacciones y con gastroprotección.
+Cuenta con 20 publicaciones, entre ellas varios ensayos comparativos doble ciego de flurbiprofeno frente a indometacina, fenilbutazona y naproxeno, que mostraron eficacia comparable. Sin embargo, los estudios son de 1974-1986, con muestras pequeñas y sin comparación con placebo, y no hay ensayos registrados. Además, flurbiprofeno ya se usa en artropatías, por lo que sería una extensión dentro de la clase AINE más que un reposicionamiento novedoso. Si se continúa con el reposicionamiento, esta indicación es una candidata más sólida que la displasia acromesomélica, con control del riesgo gastrointestinal, cardiovascular y renal, de las interacciones y con gastroprotección.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

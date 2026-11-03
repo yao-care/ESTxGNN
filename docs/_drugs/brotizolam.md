@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Brotizolam
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 121
-evidence_level: L1
-indication_count: 6
-last_modified_at: 2026-10-28
-description: "Brotizolam: nueva indicación predicha, Insomnio (nivel de evidencia L1). Indicación original: No disponible en los datos de AEMPS (el insomnio es su uso hipnótico…"
+evidence_level: L5
+indication_count: 5
+last_modified_at: 2026-11-03
 monitor_inn: "BROTIZOLAM"
-predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety"]
+predicted_indications: ["alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety"]
+description: "Brotizolam: nueva indicación predicha, Alcohol withdrawal delirium (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Brotizolam
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-## Brotizolam: De Indicación Original No Especificada a Insomnio
+## Brotizolam: Alcohol withdrawal delirium
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Brotizolam es una benzodiazepina (tienotriazolodiazepina) de acción corta, comercializada en España como SINTONAL 0,25 mg comprimidos. Los datos compilados no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensayos clínicos** (uno de Fase 3 completado) y **3 publicaciones** que respaldan esta dirección. Cabe señalar que el insomnio es el uso establecido del fármaco, por lo que no es un reposicionamiento en sentido estricto.
+Cabe señalar que el insomnio es el uso establecido del fármaco, por lo que no es un reposicionamiento en sentido estricto.
 
 ---
 
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de AEMPS (el insomnio es su uso hipnótico establecido) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 0.9994 |
-| Nivel de Evidencia | L1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Alcohol withdrawal delirium |
+| Puntaje de Predicción TxGNN | 0.9966 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensa
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos principal. Según la información conocida, brotizolam es una tienotriazolodiazepina de acción corta que actúa como modulador alostérico positivo del receptor GABA-A en el sitio de las benzodiazepinas, potenciando la neurotransmisión inhibitoria y produciendo efectos sedantes e hipnóticos.
 
-La predicción de insomnio es coherente con este mecanismo: el insomnio es el uso hipnótico establecido de brotizolam. Por ello, el puntaje tan alto del modelo refleja una indicación ya conocida y no una nueva oportunidad terapéutica. Los demás candidatos predichos (abstinencia alcohólica, abuso de sustancias, ansiedad) tienen una evidencia mucho más débil y se mantienen en estado de espera o investigación.
+Por ello, el puntaje tan alto del modelo refleja una indicación ya conocida y no una nueva oportunidad terapéutica. Los demás candidatos predichos (abstinencia alcohólica, abuso de sustancias, ansiedad) tienen una evidencia mucho más débil y se mantienen en estado de espera o investigación.
 
 ---
 
@@ -83,7 +83,6 @@ La predicción de insomnio es coherente con este mecanismo: el insomnio es el us
 | [10529072](https://pubmed.ncbi.nlm.nih.gov/10529072/) | 1999 | Metaanálisis | Int Clin Psychopharmacol | Tolerancia e insomnio de rebote con hipnóticos de eliminación rápida, incluido brotizolam |
 | [6140949](https://pubmed.ncbi.nlm.nih.gov/6140949/) | 1983 | Estudio comparativo | Br J Clin Pharmacol | Brotizolam 0,25 mg y triazolam 0,25 mg sin diferencias de eficacia y tolerancia en 6 días (buena eficacia: 88,6 % vs 92,0 %) |
 | [6362702](https://pubmed.ncbi.nlm.nih.gov/6362702/) | 1983 | ECA | Br J Clin Pharmacol | Como hipnótico preoperatorio, superior a placebo (73 % con 0,25 mg y 88 % con 0,5 mg frente a 40 % con placebo) |
-| [8992838](https://pubmed.ncbi.nlm.nih.gov/8992838/) | 1996 | Estudio clínico | Zh Nevrol Psikhiatr Im S S Korsakova | En 25 pacientes con insomnio neurótico, 10 días de tratamiento con 0,25 mg mejoraron la estructura y la eficiencia del sueño |
 | [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Uso clínico de hipnóticos y necesidad de contar con distintos tipos |
 | [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Revisión sistemática | Cochrane Database Syst Rev | Efectos de opioides, hipnóticos y sedantes sobre la respiración durante el sueño en apnea obstructiva del sueño (aspecto de seguridad) |
 

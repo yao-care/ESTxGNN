@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 256
-evidence_level: L3
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 monitor_inn: "dipyridamole"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-28
-description: "Dipyridamole: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Fibrilación auricular"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole: nueva indicación predicha, Sick sinus syndrome 2, autosomal dominant (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,22 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-## Dipiridamol: Enfermedad trombótica
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Dipiridamol es un antiagregante plaquetario y vasodilatador. Su única indicación original en los datos compilados es la fibrilación auricular, una relación registrada en el grafo de conocimiento, no un uso autorizado según texto de ficha técnica.
-El modelo TxGNN predice que podría ser efectivo para la **enfermedad trombótica**. No hay **ningún ensayo clínico** registrado para esta indicación, y las **20 publicaciones** recuperadas son en su mayoría revisiones narrativas y de relevancia variable.
+No hay **ningún ensayo clínico** registrado para esta indicación, y las **20 publicaciones** recuperadas son en su mayoría revisiones narrativas y de relevancia variable.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fibrilación auricular (relación registrada en el grafo de conocimiento; las autorizaciones locales no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Enfermedad trombótica |
-| Puntaje de Predicción TxGNN | 0,9994 |
-| Nivel de Evidencia | L3 (solo revisiones; sin ensayos clínicos) |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Sick sinus syndrome 2, autosomal dominant |
+| Puntaje de Predicción TxGNN | 0.9989 |
+| Nivel de Evidencia | L5 (solo revisiones; sin ensayos clínicos) |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |

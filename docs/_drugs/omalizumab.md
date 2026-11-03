@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Evidencia moderada (L3-L4)
 nav_order: 589
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-29
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---

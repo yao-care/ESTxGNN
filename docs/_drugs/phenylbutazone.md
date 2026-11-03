@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phenylbutazone
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 632
-evidence_level: L3
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Phenylbutazone: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L3). Indicación original: No disponible en las licencias registradas"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "phenylbutazone"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "sclerosing cholangitis"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
+description: "Phenylbutazone: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Phenylbutazone
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-## Fenilbutazona: De Indicación Original No Registrada a Artritis Reumatoide
+## Phenylbutazone: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La fenilbutazona es un antiinflamatorio no esteroideo (AINE) que en España se comercializa solo en cremas de uso tópico; los datos de la licencia de la AEMPS no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectiva para **artritis reumatoide**, con **0 ensayos clínicos** y **20 publicaciones** (en su mayoría históricas, de 1952 a 1985, y una de 2024) que respaldan esta dirección.
 Se trata de un uso histórico ya conocido más que de un reposicionamiento novedoso.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en las licencias registradas |
-| Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 0,9982 |
-| Nivel de Evidencia | L3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |

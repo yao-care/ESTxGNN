@@ -4,17 +4,17 @@ title: Laronidase
 parent: Solo predicción del modelo (L5)
 nav_order: 453
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Laronidase: nueva indicación predicha, Enfermedad de depósito lisosomal con afectación esquelética (nivel de evidencia L4). Indicación original: Mucopolisacaridosis (síndromes de Hurler, Hurler-Schei…"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "laronidase"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: nueva indicación predicha, Sanfilippo syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Laronidasa: De Mucopolisacaridosis a Enfermedad de Depósito Lisosomal con Afectación Esquelética
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Laronidasa es una enzima recombinante (alfa-L-iduronidasa) utilizada como terapia de reemplazo enzimático en la mucopolisacaridosis tipo I (síndromes de Hurler, Hurler-Scheie y Scheie).
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de depósito lisosomal con afectación esquelética**, aunque esta predicción se solapa en gran medida con la indicación ya aprobada.
 Actualmente hay **0 ensayos clínicos** registrados y **4 publicaciones** relacionadas, sin estudios directos que respalden una indicación nueva y diferenciada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Mucopolisacaridosis (síndromes de Hurler, Hurler-Scheie y Scheie) |
-| Nueva Indicación Predicha | Enfermedad de depósito lisosomal con afectación esquelética |
-| Puntaje de Predicción TxGNN | 0,9931 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Sanfilippo syndrome |
+| Puntaje de Predicción TxGNN | 0.9922 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
@@ -58,7 +57,7 @@ Actualmente hay **0 ensayos clínicos** registrados y **4 publicaciones** relaci
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, laronidasa es alfa-L-iduronidasa recombinante, que degrada los glucosaminoglicanos (dermatán sulfato y heparán sulfato) que se acumulan en la mucopolisacaridosis tipo I (MPS I). Su eficacia en la indicación original está documentada.
 
-La afectación esquelética (disostosis múltiple) es una manifestación de la propia MPS I, que ya es una indicación aprobada. Por ello, esta predicción no representa una oportunidad de reposicionamiento realmente distinta, y el puntaje elevado de TxGNN (0,9931) probablemente refleja ese solapamiento.
+La afectación esquelética (disostosis múltiple) es una manifestación de la propia MPS I, que ya es una indicación aprobada.
 
 Los datos *in vitro* muestran captación de laronidasa por fibroblastos y osteoblastos cultivados, lo que respalda un mecanismo celular plausible en hueso. No obstante, la enzima intravenosa penetra poco en el cartílago avascular y el hueso, por lo que el beneficio esquelético esperado es modesto.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 768
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "TEGAFUR"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
-description: "Tegafur: nueva indicación predicha, Neoplasia de colon (colonic neoplasm) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Tegafur: Neoplasia de colon (colonic neoplasm)
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Tegafur es un profármaco oral del 5-fluorouracilo (5-FU), originalmente utilizado para el tratamiento del cáncer gástrico.
-El modelo TxGNN predice que podría ser efectivo para **Neoplasia de Colon**,
-con **16 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Neoplasia de colon (colonic neoplasm) |
-| Puntaje de Predicción TxGNN | 0.9990 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Cecum villous adenoma |
+| Puntaje de Predicción TxGNN | 0.9986 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |

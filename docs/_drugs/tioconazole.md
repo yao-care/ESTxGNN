@@ -4,17 +4,17 @@ title: Tioconazole
 parent: Solo predicción del modelo (L5)
 nav_order: 796
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Tioconazole: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L5). Indicación original: Candidiasis vulvovaginal"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "tioconazole"
-predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
+description: "Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Tioconazol: De Candidiasis Vulvovaginal a Vulvovaginitis
+## Tioconazole: Vulvitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Tioconazol es un antifúngico imidazólico de uso tópico, originalmente utilizado para el tratamiento de la candidiasis vulvovaginal.
-El modelo TxGNN predice que podría ser efectivo para **vulvovaginitis**, con **0 ensayos clínicos registrados** y **20 publicaciones** que respaldan esta dirección (principalmente estudios de candidiasis vaginal de las décadas de 1980 y 1990).
 Se trata en esencia de un uso ya cubierto por la indicación original, más que de un reposicionamiento propiamente dicho.
 
 ---
@@ -48,9 +47,9 @@ Se trata en esencia de un uso ya cubierto por la indicación original, más que 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Candidiasis vulvovaginal |
-| Nueva Indicación Predicha | Vulvovaginitis |
-| Puntaje de Predicción TxGNN | 0,9923 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Vulvitis |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L5 (ver matices en la sección de mecanismo) |
 | Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
 | Número de Autorizaciones | 3 (vigentes: 3) |
@@ -62,7 +61,7 @@ Se trata en esencia de un uso ya cubierto por la indicación original, más que 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento general de la clase, tioconazol es un antifúngico imidazólico que inhibe la lanosterol 14-α-desmetilasa fúngica (CYP51/ERG11), enzima que convierte el lanosterol en ergosterol, un componente esencial de la membrana celular fúngica. Sin ergosterol, el hongo no sobrevive. Los datos farmacológicos compilados indican además que tioconazol inhibe la enzima humana CYP8B1, implicada en la síntesis de ácidos biliares.
 
-La candidiasis vulvovaginal es una forma frecuente de vulvovaginitis, por lo que la predicción es coherente: la vulvovaginitis candidiásica es la indicación original. Por ello no es un reposicionamiento genuino, sino un uso dentro de la indicación conocida.
+Por ello no es un reposicionamiento genuino, sino un uso dentro de la indicación conocida.
 
 **Matiz sobre el nivel L1:** no hay ensayos registrados y la literatura es antigua (1983-1988). El nivel L1 se apoya en estudios aleatorizados o controlados (doble ciego frente a placebo y comparativos con clotrimazol) cuya fase no se indica en los datos. Debe leerse como evidencia directa controlada para la indicación en ficha, no como una confirmación de ECA de Fase 3.
 

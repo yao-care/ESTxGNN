@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 211
-evidence_level: L1
-indication_count: 4
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-description: "Cyclophosphamide: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+description: "Cyclophosphamide: nueva indicación predicha, Vertebral anomalies and variable endocrine and T-cell dysfunction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-## Cyclophosphamide: Leucemia mieloide (myeloid leukemia)
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La ciclofosfamida es un agente alquilante citotóxico, utilizado originalmente en micosis fungoide, linfomas, mieloma múltiple, neuroblastoma, cáncer de mama y retinoblastoma.
-El modelo TxGNN predice que podría ser efectiva para **leucemia mieloide**,
-con **35 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, principalmente como agente de acondicionamiento y de profilaxis de la enfermedad injerto contra huésped (EICH) en el trasplante de progenitores hematopoyéticos.
 
 ---
 
@@ -49,9 +47,9 @@ con **35 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
-| Puntaje de Predicción TxGNN | 0.9947 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| Puntaje de Predicción TxGNN | 0.9938 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 6 de 9) |
 | Número de Autorizaciones | 9 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |

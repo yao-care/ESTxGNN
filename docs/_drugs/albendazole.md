@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 29
-evidence_level: L2
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Albendazole"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
-last_modified_at: 2026-10-28
-description: "Albendazole: nueva indicación predicha, equinococosis alveolar (alveolar echinococcosis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+predicted_indications: ["coenurosis"]
+last_modified_at: 2026-11-03
+description: "Albendazole: nueva indicación predicha, Coenurosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **3**
 
 </div>
 
-## Albendazol: antihelmíntico bencimidazólico → equinococosis alveolar (alveolar echinococcosis)
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Albendazol es un antiparasitario de la clase de los bencimidazoles que se comercializa en España.
-El modelo TxGNN predice que podría ser efectivo para **equinococosis alveolar (alveolar echinococcosis)**,
-con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | equinococosis alveolar (alveolar echinococcosis) |
-| Puntaje de Predicción TxGNN | 0,9997 |
-| Nivel de Evidencia | L2 |
+| Nueva Indicación Predicha | Coenurosis |
+| Puntaje de Predicción TxGNN | 0.9983 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |

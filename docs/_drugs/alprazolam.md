@@ -4,17 +4,17 @@ title: Alprazolam
 parent: Solo predicción del modelo (L5)
 nav_order: 43
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-10-28
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
+last_modified_at: 2026-11-03
 description: "Alprazolam: nueva indicación predicha, insomnio (insomnia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---

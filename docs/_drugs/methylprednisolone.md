@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 516
-evidence_level: L2
-indication_count: 9
-last_modified_at: 2026-10-31
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Methylprednisolone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **9**
 
 </div>
 
-## Methylprednisolone: Alopecia areata
+## Methylprednisolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Metilprednisolona es un glucocorticoide sistémico y tópico utilizado originalmente en enfermedades autoinmunes e inflamatorias (enfermedad de Crohn, insuficiencia suprarrenal, leucemia linfoblástica aguda, entre otras).
-El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con **1 ensayo clínico** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ---
 
@@ -48,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Alopecia areata |
+| Nueva Indicación Predicha | Alopecia mucinosa |
 | Puntaje de Predicción TxGNN | 0.9999 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |

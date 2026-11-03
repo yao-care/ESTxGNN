@@ -4,17 +4,17 @@ title: Clotrimazole
 parent: Solo predicción del modelo (L5)
 nav_order: 202
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-31
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Clotrimazole"
-predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Clotrimazole: Acné (acne (disease))
+## Clotrimazole: Acné (acne (disease)) (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,7 +48,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero solo exist
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Nueva Indicación Predicha | Acné (acne (disease)) (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
@@ -120,7 +120,7 @@ La predicción para acné se basa únicamente en el modelo. El único ensayo es 
 - Ensayos controlados con clotrimazol en monoterapia frente a un comparador estándar para el acné.
 - Revisar las advertencias y contraindicaciones del prospecto oficial en la AEMPS.
 
-**Nota adicional:** entre las demás predicciones del modelo, la vulvovaginitis (candidiasis vulvovaginal) es una indicación ya establecida de clotrimazol, con ensayos de Fase 3 completados. No constituye un reposicionamiento real, sino una confirmación de un uso existente.
+No constituye un reposicionamiento real, sino una confirmación de un uso existente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

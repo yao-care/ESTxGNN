@@ -4,17 +4,17 @@ title: Progesterone
 parent: Evidencia alta (L1-L2)
 nav_order: 667
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-29
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Progesterone: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Progesterone: nueva indicación predicha, Breast fibrocystic disease (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **7**
 
 </div>
 
-## Progesterone: Amenorrea (amenorrhea (disease))
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La progesterona es una hormona esteroidea natural utilizada originalmente en el tratamiento de la endometriosis, el cáncer de endometrio y la atrofia vaginal posmenopáusica, y está ampliamente comercializada en España.
-El modelo TxGNN predice que podría ser efectiva para **amenorrea**,
-con **4 ensayos clínicos** y **18 publicaciones** que actualmente respaldan esta dirección, aunque en los ensayos la progesterona se usa en terapia hormonal combinada con estrógenos y su contribución específica no está aislada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
-| Puntaje de Predicción TxGNN | 1.0000 |
+| Nueva Indicación Predicha | Breast fibrocystic disease |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 15 de 20) |
 | Número de Autorizaciones | 20 (vigentes: 15) |

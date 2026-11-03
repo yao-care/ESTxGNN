@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lormetazepam
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 485
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Lormetazepam: nueva indicación predicha, Insomnio (nivel de evidencia L1). Indicación original: No disponible en los textos de autorización compilados (el uso hipnót…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "LORMETAZEPAM"
-predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
+predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
+description: "Lormetazepam: nueva indicación predicha, Alcohol withdrawal delirium (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lormetazepam
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Lormetazepam: De Insomnio a Insomnio (Indicación ya establecida)
+## Lormetazepam: Alcohol withdrawal delirium
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Lormetazepam es una benzodiazepina hipnótica comercializada en España, cuya indicación original no figura en el texto de las autorizaciones compiladas, pero que se utiliza clásicamente para el insomnio.
-El modelo TxGNN predice como primera indicación el **insomnio**, con **2 ensayos clínicos** y **3 publicaciones** directamente asociados. Es una indicación ya establecida, por lo que no se trata de un reposicionamiento en sentido estricto.
+Es una indicación ya establecida, por lo que no se trata de un reposicionamiento en sentido estricto.
 
 ---
 
@@ -47,10 +47,10 @@ El modelo TxGNN predice como primera indicación el **insomnio**, con **2 ensayo
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los textos de autorización compilados (el uso hipnótico para el insomnio se deduce del perfil del fármaco) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 0.9998 |
-| Nivel de Evidencia | L1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Alcohol withdrawal delirium |
+| Puntaje de Predicción TxGNN | 0.9993 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -61,7 +61,7 @@ El modelo TxGNN predice como primera indicación el **insomnio**, con **2 ensayo
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, lormetazepam es una benzodiazepina que modula positivamente los receptores GABA-A, lo que produce efectos sedante-hipnóticos. Esto coincide directamente con el tratamiento del insomnio.
 
-La predicción del insomnio no es un reposicionamiento real: es el uso establecido y comercializado del fármaco. El modelo TxGNN, por tanto, redescubre la indicación conocida, y está respaldada por ensayos de fase 3 con comparador activo.
+El modelo TxGNN, por tanto, redescubre la indicación conocida, y está respaldada por ensayos de fase 3 con comparador activo.
 
 Otras predicciones del modelo (ansiedad, trastorno de ansiedad, trastorno del sueño de inicio y mantenimiento) son mecanísticamente plausibles por el mismo efecto GABAérgico. Varias de las demás (abuso de alucinógenos, síndrome de cauda equina, tortícolis paroxística benigna de la infancia) carecen de fundamento mecanístico creíble; sus puntuaciones provienen del modelo TxGNN (deep learning) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 

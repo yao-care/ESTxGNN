@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nystatin
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 578
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Nystatin"
-predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: nueva indicación predicha, Disease of orbital region (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nystatin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Nystatin: Vulvovaginitis
+## Nystatin: Disease of orbital region
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La nistatina es un antifúngico poliénico, utilizado originalmente para tratar distintas formas de candidiasis (cutánea, oral y vulvovaginal).
-El modelo TxGNN predice que podría ser efectiva para **vulvovaginitis**,
-con **0 ensayos clínicos** y **20 publicaciones** (en su mayoría revisiones y estudios sobre candidiasis vulvovaginal) que actualmente respaldan esta dirección. Gran parte de esta evidencia coincide con la indicación ya conocida, por lo que no constituye un reposicionamiento genuino.
+Gran parte de esta evidencia coincide con la indicación ya conocida, por lo que no constituye un reposicionamiento genuino.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Vulvovaginitis |
-| Puntaje de Predicción TxGNN | 0.9992 |
-| Nivel de Evidencia | L4 |
+| Nueva Indicación Predicha | Disease of orbital region |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
@@ -103,7 +102,7 @@ Consultar el prospecto para información adicional de advertencias y contraindic
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (vulvovaginitis) se solapa con la indicación ya establecida de candidiasis vulvovaginal, por lo que no aporta un reposicionamiento genuino. No hay ensayos clínicos y la literatura se compone de revisiones y estudios indirectos. Las demás predicciones (región orbitaria, teratoma quístico, quiste dermoide, enfermedad del metabolismo de la biotina, entre otras) carecen de vínculo mecanístico y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
+No hay ensayos clínicos y la literatura se compone de revisiones y estudios indirectos. Las demás predicciones (región orbitaria, teratoma quístico, quiste dermoide, enfermedad del metabolismo de la biotina, entre otras) carecen de vínculo mecanístico y probablemente son artefactos del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de AEMPS (advertencias, contraindicaciones e indicación autorizada), actualmente ausente.

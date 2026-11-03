@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gimeracil
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 375
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "gimeracil"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
-description: "Gimeracil: nueva indicación predicha, Neoplasia de colon (colonic neoplasm) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+description: "Gimeracil: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-## Gimeracil: Neoplasia de colon (colonic neoplasm)
+## Gimeracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Gimeracil es el componente inhibidor de la enzima DPD de la combinación S-1 (tegafur/gimeracil/oteracil), originalmente utilizada para el tratamiento del cáncer gástrico.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia de colon**, con **6 ensayos clínicos** y **12 publicaciones** que actualmente respaldan esta dirección (la eficacia se atribuye a la combinación S-1, no a gimeracil por sí solo).
 
 ---
 
@@ -48,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia de colon**, co
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Neoplasia de colon (colonic neoplasm) |
-| Puntaje de Predicción TxGNN | 0.9988 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Cecum villous adenoma |
+| Puntaje de Predicción TxGNN | 0.9982 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
 | Número de Autorizaciones | 4 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |

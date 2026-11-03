@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 401
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-29
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "icatibant"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-description: "Icatibant: nueva indicación predicha, C1 inhibitor deficiency (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-## Icatibant: C1 inhibitor deficiency
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,9 +47,9 @@ Esta dirección está respaldada por **11 ensayos clínicos** y **20 publicacion
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | C1 inhibitor deficiency |
+| Nueva Indicación Predicha | Serpinopathy with toxic serpin polymerization |
 | Puntaje de Predicción TxGNN | 0.9999 |
-| Nivel de Evidencia | L1 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 4 de 13) |
 | Número de Autorizaciones | 13 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |

@@ -4,17 +4,17 @@ title: Cefoxitin
 parent: Solo predicción del modelo (L5)
 nav_order: 156
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "cefoxitin"
-predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
-last_modified_at: 2026-10-28
+predicted_indications: ["infectious otitis media", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
+last_modified_at: 2026-11-03
 description: "Cefoxitin: nueva indicación predicha, otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cefoxitin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---

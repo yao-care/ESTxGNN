@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: Evidencia alta (L1-L2)
 nav_order: 500
 evidence_level: L2
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-11-03
-description: "Mefenamic Acid: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L2). Indicación original: No disponible en la licencia de la AEMPS (texto de indicación vacío)"
 monitor_inn: "mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: nueva indicación predicha, Headache disorder (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **7**
 
 </div>
 
-## Ácido mefenámico: De Indicación No Especificada a Artritis Reumatoide
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 El ácido mefenámico es un antiinflamatorio no esteroideo (AINE) comercializado en España en cápsulas duras (COSLAN 250 mg). En los datos compilados para este informe, la licencia no incluye texto de indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, con **0 ensayos clínicos** registrados y **20 publicaciones** que respaldan esta dirección, incluidos varios ensayos aleatorizados doble ciego históricos (1976-1979).
 Esta predicción refleja en gran parte el efecto sintomático clásico de los AINE, por lo que no constituye un reposicionamiento verdaderamente novedoso.
 
 ---
@@ -48,9 +47,9 @@ Esta predicción refleja en gran parte el efecto sintomático clásico de los AI
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en la licencia de la AEMPS (texto de indicación vacío) |
-| Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 0.9973 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Headache disorder |
+| Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |

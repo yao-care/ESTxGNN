@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 780
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-## Terbutaline: Enfermedad pulmonar obstructiva (obstructive lung disease)
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Terbutalina es un agonista beta-2 adrenérgico, utilizado originalmente para el tratamiento del asma, la bronquitis y el enfisema pulmonar.
-El modelo TxGNN predice que podría ser efectiva para **enfermedad pulmonar obstructiva**,
-con **14 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección. Cabe señalar que esta indicación se solapa en gran medida con las indicaciones ya conocidas del fármaco, por lo que se trata más de una confirmación que de un reposicionamiento propiamente dicho.
+Cabe señalar que esta indicación se solapa en gran medida con las indicaciones ya conocidas del fármaco, por lo que se trata más de una confirmación que de un reposicionamiento propiamente dicho.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva (obstructive lung disease) |
-| Puntaje de Predicción TxGNN | 0.9996 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Respiratory malformation |
+| Puntaje de Predicción TxGNN | 0.9952 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |

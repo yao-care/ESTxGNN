@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Solo predicción del modelo (L5)
 nav_order: 64
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "Aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-29
-description: "Aripiprazole: nueva indicación predicha, trastorno afectivo mayor (major affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-11-03
+description: "Aripiprazole: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Aripiprazol: agonista parcial de dopamina D2 y serotonina 5-HT1A → trastorno afectivo mayor (major affective disorder)
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Aripiprazol es un antipsicótico atípico que actúa como agonista parcial de los receptores de dopamina D2 y de serotonina 5-HT1A.
-El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo mayor (major affective disorder)**,
-con **35 ensayos clínicos** y **20 publicaciones** registrados en los datos compilados para esta predicción, incluidos varios ensayos de Fase 3 completados.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | trastorno afectivo mayor (major affective disorder) |
-| Puntaje de Predicción TxGNN | 0,9962 |
+| Nueva Indicación Predicha | Gaze palsy, familial horizontal, with progressive scoliosis |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
 | Número de Autorizaciones | al menos 20 |
