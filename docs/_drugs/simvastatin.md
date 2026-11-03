@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: nueva indicación predicha, Brain stem infarction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -149,6 +149,7 @@ Existen varios ensayos de Fase 3 completados (incluido el ENHANCE, con 720 pacie
 | Infección por VIH | 0.9922 | L3 | Research Question (el interés es la dislipidemia asociada a antirretrovirales; simvastatina suele evitarse por interacciones) |
 | Amiloidosis ABri | 0.9913 | L5 | Hold |
 | Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de sustancia blanca cortical | 0.9910 | L5 | Hold |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

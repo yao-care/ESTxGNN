@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 585
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Olaparib: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Olaparib son, en todos los casos trazables a una fuente, usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. El único candidato identificado pertenece a la misma categoría de enfermedad que una indicación aprobada.
 
 ## Vista rápida
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo trazables a una fuente son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Olaparib 
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | — |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Carcinoma de mama femenino (female breast carcinoma) | cáncer de mama (breast cancer) |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 801
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -126,6 +126,7 @@ Aunque el bloqueo de IL-6 es biológicamente plausible en la espondilitis anquil
 | Vasculitis reumatoide | 0.9998 | L4 | Pregunta de investigación | Solo informes de casos; señal de seguridad por reacciones tipo vasculitis |
 | Enfermedad vertebral | 0.9993 | L4 | Hold | Categoría vaga, evidencia indirecta |
 | Hipermovilidad del coxis, enfermedad de Kümmell | 0.9998 | L5 | Hold | Solo predicción computacional, sin mecanismo plausible |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

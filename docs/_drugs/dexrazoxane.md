@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Dexrazoxane: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización compilados"
 monitor_inn: "dexrazoxane"
 predicted_indications: ["sclerosing cholangitis", "bronchitis", "paratyphoid fever", "conjunctivitis", "epiglottitis", "peritonitis", "laryngitis", "urinary tract infection (disease)", "pyelonephritis", "cystitis"]
@@ -141,6 +141,7 @@ Las demás predicciones del modelo TxGNN (aprendizaje profundo) también tienen 
 | Infección urinaria | 0,9987 | L5 | Hold | No es antimicrobiano |
 | Pielonefritis | 0,9985 | L5 | Hold | La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica |
 | Cistitis | 0,9982 | L4 | Pregunta de investigación | Apoyo preclínico indirecto (ferroptosis); sin datos clínicos directos; el uroprotector establecido es la mesna |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 224
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Dasabuvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L3). Indicación original: Infección crónica por virus de la hepatitis C (según la base de conoc…"
 monitor_inn: "DASABUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever"]
@@ -128,6 +128,7 @@ Los ensayos disponibles se centran en el tratamiento del VHC en pacientes coinfe
 | Infección por virus de la hepatitis A | 0.9905 | L4 | Hold | Los ensayos listados son estudios de VHC, asociados por artefactos de coincidencia de términos; no respaldan actividad frente al VHA. |
 | Hepatitis viral animal | 0.9905 | L4 | Hold | Solo evidencia estructural preclínica indirecta (NS5B de hepacivirus equinos); término demasiado inespecífico. |
 | Fiebre hemorrágica de Omsk | 0.9903 | L5 | Hold | Solo predicción; el sitio alostérico de dasabuvir está poco conservado entre flavivirus. |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

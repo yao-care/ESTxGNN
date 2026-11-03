@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 561
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Netarsudil: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN propone para Netarsudil son, en todos los casos rastreables hasta una fuente, usos ya conocidos. Por ello, actualmente no existe ninguna nueva indicación predicha para este medicamento. Las indicaciones que aparecen a continuación se muestran solo como referencia sobre sus usos conocidos.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN propone para Netarsudil son, en todos los cas
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobadas (respaldadas por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | glaucoma | Licencia en otro país; indicación aprobada: glaucoma de ángulo abierto (open-angle glaucoma) |
 
 ### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Glaucoma primario hereditario (primary hereditary glaucoma) | glaucoma |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

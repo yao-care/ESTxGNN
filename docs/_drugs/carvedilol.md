@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Carvedilol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -114,6 +114,7 @@ La predicción solo cuenta con respaldo computacional (nivel L5), sin ensayos cl
 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 0,9954 | L5 | Hold | Probable coincidencia por la etiqueta "hipertensión"; fisiopatología distinta de la sistémica. |
 | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 0,9954 | L5 | Pregunta de investigación | Evidencia preclínica indirecta (p. ej., carvedilol revirtió la hipertensión inducida por hipoxia intermitente en ratas, PMID 26291659, y modelos de hipertrofia ventricular derecha por hipoxia); gran parte de la literatura recuperada es ajena al tema y no hay ensayos clínicos. |
 | Síndrome de Braddock | 0,9937 | L5 | Hold | Sin justificación mecanística evidente; probable artefacto del modelo TxGNN (aprendizaje profundo). |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

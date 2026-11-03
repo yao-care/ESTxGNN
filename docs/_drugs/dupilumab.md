@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 271
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -129,6 +129,7 @@ Aunque el puntaje TxGNN es muy alto, no hay ensayos en bronquitis y la evidencia
 | Enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo | 0.9952 | L5 | Hold |
 | Hidroa vacciniforme familiar | 0.9950 | L5 | Hold |
 | Retinopatía diabética no proliferativa grave | 0.9910 | L5 | Hold |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

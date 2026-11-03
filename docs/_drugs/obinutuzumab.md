@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 579
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Obinutuzumab: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN generó para Obinutuzumab (puntuación ≥ 0,99) son, en todos los casos rastreables a una fuente, usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. Esta página recoge los usos conocidos detectados y el estado de comercialización en España.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables a una fuente son usos conocidos) |
@@ -52,17 +53,20 @@ Los candidatos que el modelo TxGNN generó para Obinutuzumab (puntuación ≥ 0,
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobado (respaldado por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relacionado con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas de centro pregerminal (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) | cll |
 | Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas con hipermutación somática del gen de la región variable de la cadena pesada de inmunoglobulina (chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation) | cll |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

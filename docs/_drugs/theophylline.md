@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Theophylline: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Asma, bronquitis, enfisema pulmonar y otras enfermedades pulmonares"
 ---
 
@@ -123,6 +123,7 @@ No existe ningún ensayo clínico ni estudio que evalúe la teofilina en enferme
 | Enfermedad traqueal | 0,9949 | L3 | Datos in vitro y un estudio retrospectivo veterinario; sin evidencia humana definida |
 | Faringitis | 0,9946 | L4 | Literatura dominada por macrólidos; sin datos de teofilina en faringitis |
 | Laringofaringitis aguda | 0,9935 | L5 | Sin literatura ni ensayos |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

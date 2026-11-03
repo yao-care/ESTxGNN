@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Secnidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "trichomonal vulvovaginitis", "leukoplakia of vagina", "vulvovaginal candidiasis"]
 description: "Secnidazole: nueva indicación predicha, Postmenopausal atrophic vaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -127,6 +127,7 @@ Hay dos ensayos de Fase 3 completados y varios ECA publicados con secnidazol en 
 | Vulvovaginitis tricomoniásica | 0.9937 | L3 | Pregunta de investigación | Ya es una indicación original; una publicación de Fase 3 |
 | Leucoplasia de vagina | 0.9934 | L5 | Hold | Cambio epitelial queratinizante, no infeccioso |
 | Candidiasis vulvovaginal | 0.9916 | L4 | Hold | Los nitroimidazoles no actúan sobre hongos; el único ensayo es una combinación con fluconazol |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 781
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Teriflunomide: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN propone para Teriflunomide son, en todos los casos trazables a una fuente, usos ya conocidos. Por tanto, actualmente no hay ninguna nueva indicación predicha para este fármaco. El uso conocido identificado está respaldado por una licencia en otro país.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo trazables a una fuente son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN propone para Teriflunomide son, en todos los 
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) | licencia en otro país (indicación aprobada: multiple sclerosis) |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

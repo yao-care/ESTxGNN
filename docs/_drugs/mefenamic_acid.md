@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 500
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Mefenamic Acid: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L2). Indicación original: No disponible en la licencia de la AEMPS (texto de indicación vacío)"
 monitor_inn: "mefenamic acid"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
@@ -134,6 +134,7 @@ Existen varios ECA doble ciego pequeños y antiguos que respaldan el beneficio s
 | Cefalea autonómica trigeminal | 0.9955 | L5 | Hold; sin evidencia |
 | Síndrome de microftalmia colobomatosa con displasia rizomélica | 0.9949 | L5 | Hold; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
 | Síndrome de braquidactilia-sindactilia | 0.9948 | L5 | Hold; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

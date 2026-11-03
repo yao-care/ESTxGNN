@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "tripelennamine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis"]
 description: "Tripelennamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -106,6 +106,7 @@ La predicción es mecanísticamente plausible, pero está muy próxima a una ind
 |------|------|------|------|
 | Enfermedad de la cavidad nasal | 0,9959 | L5 | Categoría demasiado inespecífica; solapa con la rinitis ya indicada |
 | Dermatitis atópica refractaria | 0,9911 | L5 | Poco probable que responda al bloqueo H1; existen biológicos e inhibidores JAK |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

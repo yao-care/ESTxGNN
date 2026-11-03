@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 660
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -135,6 +135,7 @@ Aunque el puntaje de TxGNN es muy alto (0.9971), no existen ensayos clínicos ni
 | Miositis de cuerpos de inclusión | 0.9952 | L5 | Hold |
 | Miositis fibrosa | 0.9971 | L5 | Hold |
 | Miositis granulomatosa idiopática | 0.9971 | L5 | Hold |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

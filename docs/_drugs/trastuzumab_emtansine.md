@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 817
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Trastuzumab Emtansine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Trastuzumab Emtansine corresponden todos a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. Los cuatro candidatos rastreables pertenecen a la misma categoría de enfermedad (cáncer de mama) que una indicación autorizada, pero no se han identificado como indicaciones autorizadas por sí mismos.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
@@ -52,11 +53,13 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Trastuzum
 ## Usos conocidos entre los candidatos del modelo
 
 ### Autorizados (respaldados por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relacionados con una indicación autorizada (misma categoría de enfermedad)
+
 | Indicación | Categoría autorizada |
 |------|------|
 | Cáncer de mama con receptor de progesterona positivo (progesterone-receptor positive breast cancer) | cáncer de mama (breast cancer) |
@@ -65,6 +68,7 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Trastuzum
 | Tumor de mama luminal A o B (breast tumor luminal A or B) | cáncer de mama (breast cancer) |
 
 ### Relaciones registradas en el grafo de conocimiento (sin autorización encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

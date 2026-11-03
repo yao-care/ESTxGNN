@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 16
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Acetaminophen: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN propone para Acetaminophen (puntuación ≥ 0,99) son, en todos los casos rastreables a una fuente, usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN propone para Acetaminophen (puntuación ≥ 0
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguno | — |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguno | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguno |

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: nueva indicación predicha, Psychogenic movement disorders (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -124,6 +124,7 @@ Aunque el puntaje del modelo es alto y existe plausibilidad colinérgica, la evi
 | Síndrome de temblor-nistagmo-úlcera duodenal | 0,9915 | L5 | El único registro recuperado parece una coincidencia espuria. Hold |
 | Mirada tónica hacia arriba paroxística benigna con ataxia | 0,9912 | L5 | Solo predicción; uso pediátrico requeriría amplia justificación. Hold |
 | Discinesia linguo-facial-bucal | 0,9902 | L3 | Revisiones Cochrane sobre medicación colinérgica en discinesia tardía, sin establecer eficacia de donepezilo; hay reportes de movimientos anormales inducidos. Balance beneficio-riesgo incierto. Hold |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

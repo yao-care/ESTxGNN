@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 600
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Ozanimod: known uses and market status in Spain; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos generados por el modelo TxGNN para Ozanimod son, en su totalidad, usos ya conocidos. Por ello, actualmente no existe ninguna nueva indicación predicha.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con origen rastreable son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos generados por el modelo TxGNN para Ozanimod son, en su totalidad,
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobadas (respaldadas por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | — |
 
 ### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Esclerosis múltiple recurrente progresiva (progressive relapsing multiple sclerosis) |

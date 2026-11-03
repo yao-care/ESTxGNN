@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 149
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Carteolol: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Todos los candidatos que el modelo TxGNN propone para Carteolol (puntuación ≥ 0,99) y que pueden rastrearse hasta una fuente corresponden a usos ya conocidos. Por ello, actualmente no existe ninguna nueva indicación predicha para este fármaco.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que pueden rastrearse son usos conocidos) |
@@ -52,16 +53,19 @@ Todos los candidatos que el modelo TxGNN propone para Carteolol (puntuación ≥
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobadas (respaldadas por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | — |
 
 ### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

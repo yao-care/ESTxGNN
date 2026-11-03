@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 349
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Flurazepam: known uses and market status in Spain; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN propone para Flurazepam son, en todos los casos trazables a una fuente, usos ya conocidos. Por ello, actualmente no existe ninguna nueva indicación predicha para este fármaco.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo trazables a una fuente son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN propone para Flurazepam son, en todos los cas
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguno | Ninguno |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguno | Ninguno |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguno |

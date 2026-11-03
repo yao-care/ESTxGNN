@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 482
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Loprazolam: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Todos los candidatos que el modelo TxGNN propone para Loprazolam corresponden a usos ya conocidos, por lo que actualmente no hay ninguna nueva indicación predicha. Esta página recoge el estado de comercialización en España y los usos conocidos identificados.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
@@ -52,16 +53,19 @@ Todos los candidatos que el modelo TxGNN propone para Loprazolam corresponden a 
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una autorización o la ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguno | — |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguno | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguno |

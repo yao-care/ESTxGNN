@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 560
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Neratinib: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Neratinib son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. Los cuatro candidatos pertenecen a la misma categoría de enfermedad que una indicación aprobada, el cáncer de mama.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con origen trazable son usos conocidos) |
@@ -52,11 +53,13 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Neratinib
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Cáncer de mama con receptor de progesterona positivo (progesterone-receptor positive breast cancer) | cáncer de mama (breast cancer) |
@@ -65,6 +68,7 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) propone para Neratinib
 | Tumor de mama luminal A o B (breast tumor luminal A or B) | cáncer de mama (breast cancer) |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

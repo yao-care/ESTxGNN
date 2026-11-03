@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 676
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Rabeprazole: usos conocidos y estado de comercialización en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 El modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99) generó candidatos para Rabeprazole, pero todos los que pueden rastrearse hasta una fuente corresponden a usos ya conocidos. Por ello, actualmente no existe ninguna nueva indicación predicha para este fármaco. Los usos conocidos aparecen como relaciones del grafo de conocimiento, sin aprobación encontrada.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
@@ -52,16 +53,19 @@ El modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99) generó candidato
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | — |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Mastocitosis sistémica latente (Smouldering systemic mastocytosis) |

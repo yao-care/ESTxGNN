@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 62
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Apraclonidine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99) generó para Apraclonidine corresponden, en todos los casos rastreables a una fuente, a usos ya conocidos. Por lo tanto, actualmente no hay ninguna indicación nueva predicha para este fármaco. Esta página recoge el estado de comercialización en España.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobadas (respaldadas por una autorización o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | — |
 
 ### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

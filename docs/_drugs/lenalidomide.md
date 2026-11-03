@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 459
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -148,6 +148,7 @@ Las demás predicciones tienen menor respaldo y no se recomienda priorizarlas:
 | Citopenia refractaria de la infancia | 0,9935 | L3 | Hold |
 | Anemia aregenerativa | 0,9932 | L3 | Hold |
 | Anemia hipocrómica congénita grave con sideroblastos en anillo | 0,9928 | L5 | Hold |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

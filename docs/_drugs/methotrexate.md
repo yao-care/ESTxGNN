@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: nueva indicación predicha, Pulmonary blastoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -166,6 +166,7 @@ El metotrexato tiene alta plausibilidad mecanística y uso histórico en linfoma
 | Rabdomiosarcoma | 0,9925 | L2 | Pregunta de investigación (S1) |
 | Rabdomiosarcoma embrionario parameníngeo | 0,9921 | L5 | Hold |
 | Rabdomiosarcoma embrionario botrioide de vagina | 0,9921 | L5 | Hold |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
