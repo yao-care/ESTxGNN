@@ -89,20 +89,9 @@ enfermedades raras».
 
 ## Fuentes de datos
 
-<table class="comparison-table">
-<thead>
-<tr><th>Tipo</th><th>Fuente</th><th>Descripción</th></tr>
-</thead>
-<tbody>
-<tr><td>Predicción de IA</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Red neuronal de grafos de Harvard entrenada con un grafo de conocimiento</td></tr>
-<tr><td>Ensayos clínicos</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Registro mundial de ensayos clínicos</td></tr>
-<tr><td>Literatura</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Base de datos de literatura biomédica</td></tr>
-<tr><td>Información de medicamentos</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Base de datos de medicamentos y dianas</td></tr>
-<tr><td>Datos de registro</td><td><a href="https://www.aemps.gob.es/">AEMPS</a></td><td>Datos de autorización de medicamentos de España</td></tr>
-</tbody>
-</table>
-
-Lista completa de fuentes y su uso en cada nivel de evidencia: <a href="/sources/">Fuentes de datos</a>.
+Las fuentes de datos de esta plataforma (predicción TxGNN, ensayos clínicos, literatura, DrugBank y el
+registro local de medicamentos), sus licencias y su frecuencia de actualización se detallan en
+<a href="{{ '/sources/' | relative_url }}">Fuentes de datos</a>.
 
 ---
 

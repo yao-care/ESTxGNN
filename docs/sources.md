@@ -21,7 +21,7 @@ Cada conclusión puede rastrearse hasta una fuente de datos pública: nada es un
 <tr><th>Tipo</th><th>Fuente</th><th>Uso</th></tr>
 </thead>
 <tbody>
-<tr><td>Datos de registro</td><td><a href="https://www.aemps.gob.es/">AEMPS</a></td><td>Lista de medicamentos autorizados y principios activos de España</td></tr>
+<tr><td>Datos de registro</td><td><a href="https://www.aemps.gob.es/">AEMPS</a></td><td>Medicamentos autorizados en España, sus principios activos y su estado de autorización y comercialización (CIMA)</td></tr>
 <tr><td>Modelo de predicción</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Predicción de asociaciones medicamento&ndash;enfermedad</td></tr>
 <tr><td>Ensayos clínicos</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Gradación de la evidencia (NCT)</td></tr>
 <tr><td>Literatura</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Gradación de la evidencia (PMID)</td></tr>
@@ -29,6 +29,21 @@ Cada conclusión puede rastrearse hasta una fuente de datos pública: nada es un
 <tr><td>Interacciones</td><td><a href="https://ddinter2.scbdd.com/">DDInter</a></td><td>Datos de interacciones entre medicamentos</td></tr>
 </tbody>
 </table>
+
+---
+
+## Datos locales de este sitio
+
+Los medicamentos de España y su estado proceden de CIMA, el servicio de información de medicamentos de
+la AEMPS, a través de su API REST pública.
+
+| Elemento | Detalle |
+|------|---------|
+| Conjunto de datos | CIMA: listado de medicamentos (API REST pública) |
+| Publicador | AEMPS |
+| Descarga | <https://cima.aemps.es/cima/rest/medicamentos> (se recorren todas las páginas) |
+| Identificador de producto | Número de registro |
+| Actualización | Descarga automática semanal (cada lunes); el estado se toma de CIMA: Revocada, Suspendida, Autorizada (comercializada) o Autorizada (no comercializada) |
 
 ---
 
@@ -47,7 +62,7 @@ Cada fuente tiene su propia licencia; consúltela antes de citar:
 
 | Datos | Frecuencia |
 |------|-----------|
-| Datos de registro | Según los publique el organismo regulador |
+| CIMA de la AEMPS | Semanal (cada lunes) |
 | Evidencia de ensayos / literatura | Recopilada de nuevo periódicamente |
 | Datos de interacciones | Revisados trimestralmente |
 
@@ -62,18 +77,8 @@ Cada fuente tiene su propia licencia; consúltela antes de citar:
 
 ## Sobre el desarrollador
 
-Esta plataforma está desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-mercantil 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-ESTxGNN es el sitio de España de la línea de productos «TxGNN Drug Repurposing» de la empresa.
-El mismo sistema está desplegado en 30 países y regiones, cada uno denominado `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, etc.) en `{cc}txgnn.yao.care`.
-Descripción general del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN en sí fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado
-en *Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 ha construido sobre ese
-modelo, y abarca la integración de datos nacionales de registro de medicamentos, la predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la gradación de la evidencia con PubMed /
-ClinicalTrials y la integración con la historia clínica electrónica mediante SMART on FHIR.
+Esta plataforma está desarrollada y operada por **藥提醒科技有限公司** (yao.care). Consulte la página
+<a href="{{ '/about/' | relative_url }}">Acerca de</a> para conocer los antecedentes completos de la empresa y de la metodología.
 
 ---
 

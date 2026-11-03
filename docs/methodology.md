@@ -81,18 +81,8 @@ y otros no catalogados por DrugBank— quedan excluidos de la predicción.
 
 ## Sobre el desarrollador
 
-Esta plataforma está desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-mercantil 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-ESTxGNN es el sitio de España de la línea de productos «TxGNN Drug Repurposing» de la empresa.
-El mismo sistema está desplegado en 30 países y regiones, cada uno denominado `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, etc.) en `{cc}txgnn.yao.care`.
-Descripción general del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN en sí fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado
-en *Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 ha construido sobre ese
-modelo, y abarca la integración de datos nacionales de registro de medicamentos, la predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la gradación de la evidencia con PubMed /
-ClinicalTrials y la integración con la historia clínica electrónica mediante SMART on FHIR.
+Esta plataforma está desarrollada y operada por **藥提醒科技有限公司** (yao.care). Consulte la página
+<a href="{{ '/about/' | relative_url }}">Acerca de</a> para conocer los antecedentes completos de la empresa y de la metodología.
 
 ---
 
