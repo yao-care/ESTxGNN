@@ -4,17 +4,17 @@ title: Mitomycin
 parent: Solo predicción del modelo (L5)
 nav_order: 535
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "mitomycin"
-predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-description: "Mitomycin: nueva indicación predicha, Solid pseudopapillary carcinoma of pancreas (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+description: "Mitomycin: nueva indicación predicha, Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas) (nivel de evidencia L5)."
 ---
 
 # Mitomycin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Mitomycin: Solid pseudopapillary carcinoma of pancreas
+## Mitomycin: Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Mitomicina es un antibiótico antitumoral citotóxico, originalmente utilizado en el tratamiento del adenocarcinoma pancreático.
-El modelo TxGNN predice que podría ser efectivo para el **carcinoma pseudopapilar sólido del páncreas**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
+Mitomicina es un antibiótico antitumoral citotóxico que actúa entrecruzando el ADN. Se comercializa en España en polvo para solución inyectable e intravesical.
+El modelo TxGNN predice que podría ser efectiva para **carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas)**, con un puntaje de 0,9986.
+Actualmente no hay **ningún ensayo clínico ni publicación** que respalde esta dirección, por lo que se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Solid pseudopapillary carcinoma of pancreas |
+| Nueva Indicación Predicha | Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 11) |
@@ -56,11 +56,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mitomicina es un agente alquilante que forma enlaces cruzados en el ADN, con actividad citotóxica general. Su eficacia en el adenocarcinoma pancreático constituye la base de la predicción, y mecanísticamente podría ser aplicable a otros tumores pancreáticos.
+En los datos compilados para este informe no consta el mecanismo de acción de la mitomicina. Según el conocimiento farmacológico general, es un agente alquilante que, tras su activación intracelular, entrecruza las cadenas de ADN e impide su replicación. Este efecto citotóxico no es específico de un tipo tumoral, y esa es la base de la predicción del modelo.
 
-Sin embargo, los tumores pseudopapilares sólidos son en su mayoría de bajo grado y se tratan principalmente con cirugía. Esto limita el valor de una extrapolación basada únicamente en la actividad citotóxica. No existen ensayos ni literatura que apoyen un beneficio de la quimioterapia en esta enfermedad.
+La mitomicina ya se emplea en otros tumores del páncreas, y la predicción extiende esa lógica antineoplásica a una variante tumoral relacionada. El vínculo es una extrapolación a partir del mecanismo citotóxico general.
 
-Otras predicciones de alto puntaje (todas con puntajes entre 0.9982 y 0.9986) son variantes tumorales pancreáticas: tumor de células gigantes osteoclásticas, carcinoma con diferenciación mixta, carcinoma ductal-endocrino mixto, adenocarcinoma de células en anillo de sello, carcinoma indiferenciado, neoplasia exocrina maligna, neoplasias mucinosas papilares intraductales y cistadenocarcinoma de células acinares. Todas comparten la misma lógica de extrapolación y ninguna cuenta con evidencia directa.
+Hay una limitación importante. Las neoplasias pseudopapilares sólidas suelen ser de bajo grado y se tratan principalmente con cirugía. No existen ensayos ni publicaciones que demuestren un beneficio de la quimioterapia en esta entidad. Por tanto, el puntaje elevado no equivale a evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,16 +68,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para la indicación principal. Para otras indicaciones predichas existe solo evidencia indirecta y no concluyente:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [10897253](https://pubmed.ncbi.nlm.nih.gov/10897253/) | 2000 | Revisión | Strahlenther Onkol | Radioquimioterapia adyuvante y neoadyuvante en carcinoma pancreático ductal (indicación: neoplasia mucinosa papilar intraductal; evidencia indirecta) |
-| [8361472](https://pubmed.ncbi.nlm.nih.gov/8361472/) | 1993 | Estudio clínico (indirecto) | Nihon Geka Gakkai Zasshi | Tamoxifeno añadido a inmunoquimioterapia (incluye mitomicina) tras resección de carcinoma pancreático; el foco es el tamoxifeno |
-| [15983445](https://pubmed.ncbi.nlm.nih.gov/15983445/) | 2005 | Reporte de caso | Pancreatology | Pseudomixoma peritoneal con neoplasia mucinosa papilar intraductal, tratado con quimioperfusión intraperitoneal hipertérmica |
-| [2695183](https://pubmed.ncbi.nlm.nih.gov/2695183/) | 1989 | Revisión | Bulletin du Cancer | Diagnóstico y tratamiento de tumores de origen desconocido; no específico de mitomicina ni de páncreas |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
+
+La mitomicina figura como **comercializada** en España, con 2 autorizaciones vigentes y 3 canceladas. El texto de indicación aprobada no está registrado en los datos locales. Principales autorizaciones:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -87,43 +82,40 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 | 82767 | Mitomycin-C 40 mg (Inibsa) | Polvo y disolvente para suspensión intravesical | No disponible |
 | 81599 | Mitomicina Medac 2 mg | Polvo para solución intravesical e inyectable | No disponible |
 
-Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco, ninguna cancelada).
-
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (antibiótico antitumoral / agente alquilante) |
-| Riesgo de Mielosupresión | Alto. Las contraindicaciones del grafo de conocimiento incluyen leucopenia, trombocitopenia y anemia |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Ítems de Monitoreo | Hemograma completo (con plaquetas), función renal, función hepática y signos de síndrome hemolítico-urémico y de insuficiencia cardíaca |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+| Clasificación de Citotoxicidad | Citotóxico convencional (antibiótico antitumoral, agente alquilante) |
+| Riesgo de Mielosupresión | Alto (supresión medular retardada y acumulativa, con trombocitopenia y leucopenia) |
+| Clasificación de Emetogenicidad | Baja a moderada |
+| Items de Monitoreo | Hemograma con recuento de plaquetas y leucocitos, función renal, función hepática; vigilancia de signos de síndrome hemolítico-urémico |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos (preparación en cabina, guantes y bata de protección) |
 
 ## Consideraciones de Seguridad
 
-- **Condiciones asociadas a contraindicación o precaución (grafo de conocimiento, no texto del prospecto)**: enfermedad renal, piouréter, trombocitopenia, trastornos de la coagulación, anemia (incluida la macrocítica), leucopenia, síndrome hemolítico-urémico (incluido el típico), insuficiencia cardíaca congestiva y estomatitis.
-- **Interacciones farmacológicas**: se identificaron 193 interacciones. Entre las destacadas:
-  - **Mayor**: deferiprona, lexidronam de samario (153Sm).
-  - **Moderada**: palifermina, cloruro de estroncio Sr-89, fostamatinib.
-  - **Menor**: levofloxacino.
-  - Otras interacciones de nivel no clasificado incluyen warfarina, dexametasona, prednisona, prednisolona, ondansetrón, metoclopramida, omeprazol y pantoprazol, entre otras.
+- **Interacciones Farmacológicas:** se registraron 193 interacciones.
+  - Gravedad mayor: deferiprona y lexidronam de samario (153Sm).
+  - Gravedad moderada: palifermina, cloruro de estroncio (89Sr) y fostamatinib.
+  - Gravedad menor: levofloxacino.
+  - Otras interacciones tienen gravedad no clasificada, entre ellas warfarina, dexametasona, prednisona, omeprazol, pantoprazol y ondansetrón.
 
-Las advertencias y contraindicaciones del prospecto de la AEMPS no están disponibles en los datos compilados; consultar el prospecto para la información de seguridad completa.
+Para las advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que apoyen el beneficio de la mitomicina en el carcinoma pseudopapilar sólido del páncreas, un tumor que suele ser de bajo grado y de tratamiento quirúrgico. Además, el perfil de mielosupresión es elevado, y falta información de seguridad del prospecto.
+La predicción (puntaje 0,9986) no cuenta con ningún ensayo clínico ni publicación que estudie directamente esta enfermedad, por lo que el nivel de evidencia es L5. Además, este tumor suele ser de bajo grado y de tratamiento quirúrgico, lo que limita el beneficio esperado de una quimioterapia con alto riesgo de mielosupresión.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), actualmente un bloqueo para el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Revisión de literatura específica sobre quimioterapia en tumores pseudopapilares sólidos y otras variantes pancreáticas raras.
-- Evaluar si la indicación tiene necesidad clínica real, dado el tratamiento quirúrgico habitual.
-- Evaluar la compatibilidad de vías de administración (pendiente).
-- Considerar priorizar variantes con mayor solapamiento con el adenocarcinoma (p. ej., carcinoma de células en anillo de sello o neoplasia exocrina maligna) para una nueva evaluación.
+- Revisión sistemática de la literatura sobre quimioterapia en esta entidad, incluidos informes de casos.
+- Datos detallados del mecanismo de acción de la mitomicina y su relación con la biología de este tumor.
+- Obtener y analizar el prospecto oficial para completar la información de advertencias y contraindicaciones.
+- Evaluar la compatibilidad de las vías de administración disponibles (intravenosa e intravesical) con esta indicación.
+- Valorar con expertos clínicos si existe un grupo de pacientes (enfermedad irresecable o metastásica) en el que un estudio exploratorio esté justificado.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

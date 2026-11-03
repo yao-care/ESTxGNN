@@ -4,17 +4,17 @@ title: Sapropterin
 parent: Solo predicción del modelo (L5)
 nav_order: 725
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Sapropterin: nueva indicación predicha, Trastorno del metabolismo de la tirosina (nivel de evidencia L4). Indicación original: Fenilcetonuria / trastorno del metabolismo de la fenilalanina (la fic…"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
+description: "Sapropterin: nueva indicación predicha, Trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sapropterin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,22 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Sapropterina: De Fenilcetonuria a Trastorno del Metabolismo de la Tirosina
+## Sapropterin: Trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Sapropterina es una forma sintética de tetrahidrobiopterina (BH4), utilizada originalmente para tratar la fenilcetonuria y otros trastornos del metabolismo de la fenilalanina.
-El modelo TxGNN predice que podría ser efectiva para **trastorno del metabolismo de la tirosina**, pero no hay **ningún ensayo clínico** y la literatura recuperada (**14 publicaciones**) trata sobre fenilcetonuria, no sobre esta indicación, por lo que la evidencia directa es nula.
+Sapropterina es un análogo sintético de la tetrahidrobiopterina (BH4), cofactor de la enzima fenilalanina hidroxilasa, y en España se comercializa en comprimidos solubles y polvo para solución oral.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism)**, pero no hay ensayos clínicos y la literatura recopilada trata sobre la fenilquetonuria, no sobre esta enfermedad.
+Por ello, la predicción se apoya únicamente en el modelo (nivel de evidencia L5).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fenilcetonuria / trastorno del metabolismo de la fenilalanina (la ficha de las autorizaciones no incluye texto de indicación) |
-| Nueva Indicación Predicha | Trastorno del metabolismo de la tirosina |
-| Puntaje de Predicción TxGNN | 0,9989 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno del metabolismo de la tirosina (disorder of tyrosine metabolism) |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
 | Número de Autorizaciones | 8 (vigentes: 6) |
@@ -55,11 +56,11 @@ El modelo TxGNN predice que podría ser efectiva para **trastorno del metabolism
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada. Según la información conocida, sapropterina es la forma sintética de BH4, el cofactor natural de la fenilalanina hidroxilasa (PAH), enzima que convierte la fenilalanina en tirosina. Su eficacia en la fenilcetonuria sensible a BH4 está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la sapropterina es una forma sintética de BH4, el cofactor de la fenilalanina hidroxilasa, enzima que convierte la fenilalanina en tirosina.
 
-La puntuación tan alta del modelo probablemente refleja la cercanía de esta vía metabólica (fenilalanina → tirosina) con la indicación aprobada. Sin embargo, la relación es **indirecta**: los trastornos primarios del metabolismo de la tirosina (tirosinemia tipos I-III, alcaptonuria) se deben a defectos de enzimas posteriores (FAH, TAT, HPD, HGD) sobre las que el BH4 no actúa. La literatura recuperada se asocia a esta etiqueta por compartir la vía fenilalanina-tirosina, no porque demuestre eficacia en estas enfermedades.
+El puntaje elevado probablemente refleja la cercanía de esta vía metabólica (fenilalanina → tirosina) con los usos ya conocidos del fármaco. Sin embargo, el vínculo es indirecto: los trastornos primarios del metabolismo de la tirosina, como las tirosinemias de tipos I-III o la alcaptonuria, se deben a defectos en enzimas situadas más adelante en la vía (FAH, TAT, HPD, HGD), sobre las que el BH4 no actúa.
 
-Por ello, la predicción debe considerarse una hipótesis de baja plausibilidad mecanística, sin respaldo clínico directo.
+En consecuencia, la literatura recuperada parece asociarse a esta etiqueta únicamente por compartir la vía fenilalanina-tirosina. No existe evidencia clínica directa para esta indicación, y la predicción debe considerarse una hipótesis sin respaldo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,20 +68,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Todas las publicaciones tratan sobre fenilcetonuria o deficiencia de PAH, no sobre trastornos de la tirosina. Se muestran las más relevantes (guías, registros y estudios con sapropterina):
+Ninguna de las publicaciones recuperadas estudia directamente el trastorno del metabolismo de la tirosina; las principales se centran en la fenilquetonuria y se listan como contexto.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39237321](https://pubmed.ncbi.nlm.nih.gov/39237321/) | 2025 | Estudio observacional (registro KAMPER) | J Inherit Metab Dis | Seguridad a largo plazo de sapropterina en 576 personas con deficiencia de PAH; población con fenilcetonuria, no con trastornos de la tirosina |
-| [29025426](https://pubmed.ncbi.nlm.nih.gov/29025426/) | 2017 | Guía | Orphanet J Rare Dis | Guías europeas completas de diagnóstico y tratamiento de la fenilcetonuria |
-| [34784942](https://pubmed.ncbi.nlm.nih.gov/34784942/) | 2021 | Consenso | Orphanet J Rare Dis | Consenso nacional italiano sobre el manejo y tratamiento farmacológico de la fenilcetonuria |
-| [35899555](https://pubmed.ncbi.nlm.nih.gov/35899555/) | 2022 | Guía/Consenso | Turk J Pediatr | Recomendaciones sobre fenilcetonuria pediátrica en Turquía |
-| [26653793](https://pubmed.ncbi.nlm.nih.gov/26653793/) | 2016 | Preclínico (ratón) | Mol Genet Metab | Dosis altas de sapropterina mejoran el recambio de neurotransmisores monoaminérgicos en un modelo murino de fenilcetonuria |
-| [25563006](https://pubmed.ncbi.nlm.nih.gov/25563006/) | 2014 | Ensayo fase III abierto, no comparativo | Vestn Ross Akad Med Nauk | Eficacia y seguridad de sapropterina en fenilcetonuria e hiperfenilalaninemia |
-| [34485013](https://pubmed.ncbi.nlm.nih.gov/34485013/) | 2021 | Caso clínico | JIMD Rep | Tratamiento con sapropterina en deficiencia de dihidropteridina reductasa |
-| [30359206](https://pubmed.ncbi.nlm.nih.gov/30359206/) | 2020 | Revisión | Nutr Neurosci | Enfoque dietético reciente en fenilcetonuria |
-| [42123950](https://pubmed.ncbi.nlm.nih.gov/42123950/) | 2026 | Revisión narrativa | Nutrients | Estrategias nutricionales y terapéuticas en fenilcetonuria pediátrica |
-| [20738029](https://pubmed.ncbi.nlm.nih.gov/20738029/) | 2010 | Boletín de fármacos/Revisión | Prescrire Int | Sapropterina: beneficio para una minoría de pacientes con fenilcetonuria |
+| [39237321](https://pubmed.ncbi.nlm.nih.gov/39237321/) | 2025 | Estudio observacional (registro) | J Inherit Metab Dis | Seguridad a largo plazo de sapropterina en 576 participantes con déficit de fenilalanina hidroxilasa; población distinta de los trastornos de la tirosina |
+| [29025426](https://pubmed.ncbi.nlm.nih.gov/29025426/) | 2017 | Guía | Orphanet J Rare Dis | Guías europeas de diagnóstico y tratamiento de la fenilquetonuria |
+| [34784942](https://pubmed.ncbi.nlm.nih.gov/34784942/) | 2021 | Consenso | Orphanet J Rare Dis | Consenso italiano sobre manejo y tratamiento farmacológico de la fenilquetonuria |
+| [35899555](https://pubmed.ncbi.nlm.nih.gov/35899555/) | 2022 | Consenso | Turk J Pediatr | Recomendaciones de expertos para la fenilquetonuria pediátrica en Turquía |
+| [30359206](https://pubmed.ncbi.nlm.nih.gov/30359206/) | 2020 | Revisión | Nutr Neurosci | Enfoques dietéticos recientes en fenilquetonuria |
+| [42123950](https://pubmed.ncbi.nlm.nih.gov/42123950/) | 2026 | Revisión | Nutrients | Estrategias nutricionales y terapéuticas en fenilquetonuria pediátrica |
+| [20738029](https://pubmed.ncbi.nlm.nih.gov/20738029/) | 2010 | Revisión | Prescrire Int | Sapropterina como análogo de BH4, útil solo para una minoría de pacientes con fenilquetonuria |
+| [20123474](https://pubmed.ncbi.nlm.nih.gov/20123474/) | 2010 | Revisión | Mol Genet Metab | Aspectos psicosociales y resultados en fenilquetonuria materna |
 
 ## Información de Mercado en España
 
@@ -92,33 +91,32 @@ Todas las publicaciones tratan sobre fenilcetonuria o deficiencia de PAH, no sob
 | 89442 | Sapropterina Stada 100 mg comprimidos solubles EFG | Comprimido soluble | No disponible en los datos compilados |
 | 88742 | Sapropterina Aurovitas 100 mg comprimidos solubles EFG | Comprimido soluble | No disponible en los datos compilados |
 
-Existen 8 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.
+La lista muestra las cinco autorizaciones principales; el texto de indicación aprobada no figura en los datos locales.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no del prospecto)**: neutropenia y agranulocitosis.
-- **Interacciones farmacológicas**: se identificaron 21 interacciones de nivel moderado. Las más relevantes son:
-  - Inhibidores de dihidrofolato reductasa/antifolatos: metotrexato, pemetrexed, pralatrexato, trimetrexato, trimetoprima, pirimetamina, proguanilo.
-  - Vasodilatadores y donadores de óxido nítrico: nitroglicerina, nitroprusiato, dinitrato y mononitrato de isosorbida, hidralazina, minoxidil (oral y tópico), nesiritida, alprostadilo.
+- **Interacciones Farmacológicas**: se identificaron 21 interacciones de nivel moderado. Las principales corresponden a:
+  - Vasodilatadores y donadores de óxido nítrico: alprostadil, minoxidil, nitroprusiato, hidralazina, dinitrato y mononitrato de isosorbida, nitroglicerina, nesiritida.
   - Inhibidores de la fosfodiesterasa 5: sildenafilo, tadalafilo, vardenafilo.
-  - Levodopa.
+  - Antifolatos: metotrexato, pemetrexed, pralatrexato, pirimetamina, trimetoprima, trimetrexato.
+  - Otros: proguanil, levodopa.
+- **Contraindicaciones**: las enfermedades neutropenia y agranulocitosis constan como contraindicaciones en las relaciones de contraindicación fármaco-enfermedad de los datos compilados; no proceden del texto del prospecto y deben confirmarse en él.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni literatura directa para trastornos del metabolismo de la tirosina. El vínculo mecanístico es indirecto, ya que las enzimas defectuosas en estas enfermedades no dependen de BH4, y la puntuación alta del modelo parece reflejar la proximidad a la vía de la fenilcetonuria.
+La predicción carece de ensayos clínicos y de literatura que estudie directamente el trastorno del metabolismo de la tirosina; el vínculo mecanístico es indirecto, porque el BH4 no actúa sobre las enzimas defectuosas de estos trastornos. Por ello, el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos oficiales de mecanismo de acción y del prospecto (advertencias y contraindicaciones) de la AEMPS.
-- Evidencia preclínica o clínica específica en tirosinemia u otros trastornos de la tirosina que justifique el uso de BH4.
-- Evaluación de la señal de contraindicación por neutropenia/agranulocitosis.
-- Revisión de las interacciones con antifolatos y vasodilatadores.
+- Estudios preclínicos o mecanísticos que demuestren un papel del BH4 en alguno de los trastornos específicos de la tirosina (tirosinemias, alcaptonuria).
+- Datos detallados del mecanismo de acción.
+- Revisión de las advertencias y contraindicaciones del prospecto, así como del riesgo de neutropenia y agranulocitosis.
+- Evaluación de las interacciones con vasodilatadores, inhibidores de la fosfodiesterasa 5 y antifolatos.
 
-**Nota sobre otras predicciones:** las predicciones restantes tampoco constituyen candidatas sólidas. "Síndrome de Pierre Robin teratogénico" carece de vínculo mecanístico y evidencia (probable artefacto del modelo). "Hiperfenilalaninemia/fenilcetonuria sensible a BH4" es un subtipo de la indicación ya aprobada. "Hiperfenilalaninemia por deficiencia de BH4" es mecanísticamente coherente (nivel L4), pero probablemente ya forma parte de la práctica clínica habitual y debe verificarse contra la ficha técnica y las guías.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
