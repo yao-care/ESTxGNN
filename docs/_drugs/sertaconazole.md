@@ -4,17 +4,17 @@ title: Sertaconazole
 parent: Solo predicción del modelo (L5)
 nav_order: 732
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
-description: "Sertaconazole: nueva indicación predicha, Ectothrix infectious disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+description: "Sertaconazole: nueva indicación predicha, Enfermedad infecciosa ectotrix (ectothrix infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Sertaconazole: Ectothrix infectious disease
+## Sertaconazole: Enfermedad infecciosa ectotrix (ectothrix infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Sertaconazol es un antifúngico imidazólico de uso tópico, originalmente utilizado para el tratamiento de la tinea pedis (pie de atleta).
-El modelo TxGNN predice que podría ser efectivo para **dermatofitosis de la ingle y del área perianal** (tinea cruris), pero para esta indicación concreta **no se recuperaron ensayos clínicos ni publicaciones**; la predicción se apoya únicamente en el modelo.
+Sertaconazol es un antifúngico tópico de la familia de los azoles, comercializado en España en varias formas farmacéuticas (crema, gel, polvo, solución cutánea y formas vaginales).
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad infecciosa ectotrix (ectothrix infectious disease)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: la evidencia es únicamente la predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Ectothrix infectious disease |
+| Nueva Indicación Predicha | Enfermedad infecciosa ectotrix (ectothrix infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
@@ -55,11 +56,11 @@ El modelo TxGNN predice que podría ser efectivo para **dermatofitosis de la ing
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sertaconazol es un antifúngico imidazólico que inhibe la síntesis de ergosterol (mediante la inhibición de la lanosterol 14-alfa-desmetilasa) y, gracias a su anillo de benzotiofeno, podría alterar directamente la membrana fúngica.
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado de sertaconazol. Según la información conocida, sertaconazol pertenece a la clase de los antifúngicos azólicos, que actúan sobre hongos y levaduras, y mecanísticamente podría ser aplicable a infecciones por dermatofitos.
 
-La tinea cruris es una infección por dermatofitos de la misma familia etiológica que la tinea pedis. Por ello, el mecanismo antifúngico es plausible para esta nueva indicación. Además, la literatura revisada sobre sertaconazol menciona que en la UE está indicado en dermatofitosis, incluyendo tinea corporis, tinea cruris y tinea pedis, por lo que se trataría de una extensión dentro de la misma clase de fármaco y la misma familia de enfermedades, con baja novedad de reposicionamiento.
+La infección ectotrix es una infección fúngica del pelo causada por dermatofitos, en la que el hongo se localiza en la superficie externa del tallo piloso. Por ello, un mecanismo antifúngico resulta plausible.
 
-Cabe subrayar que, para esta indicación específica, la evidencia es solo la predicción del modelo.
+Sin embargo, existe una limitación importante: los agentes tópicos penetran mal en los folículos pilosos, y este tipo de infecciones suele requerir tratamiento sistémico. La compatibilidad de las vías de administración aún no se ha evaluado. Por tanto, la predicción se apoya solo en el modelo y en la plausibilidad biológica general.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,27 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para dermatofitosis de la ingle y del área perianal como indicación específica.
-
-## Otras Indicaciones Predichas con Mayor Respaldo
-
-Para contextualizar, estas son las demás indicaciones predichas y su evidencia:
-
-| Indicación | Puntaje TxGNN | Nivel | Decisión | Comentario |
-|------|------|------|------|------|
-| Pitiriasis versicolor | 0,9945 | L2 | Proceed with Guardrails | Estudio clínico de 1992; diseño y fase por verificar. |
-
-### Literatura destacada (tinea corporis / tinea cruris)
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [24249898](https://pubmed.ncbi.nlm.nih.gov/24249898/) | 2013 | ECA | Indian J Dermatol | Terbinafina 1% frente a sertaconazol 2% en crema en tinea corporis y tinea cruris localizadas |
-| [28066103](https://pubmed.ncbi.nlm.nih.gov/28066103/) | 2016 | ECA | Indian J Pharmacol | Sertaconazol tópico frente a terbinafina tópica en dermatofitosis localizada (tinea corporis o cruris) |
-| [35068526](https://pubmed.ncbi.nlm.nih.gov/35068526/) | 2021 | ECA | Indian J Dermatol | Eficacia y seguridad de eberconazol frente a sertaconazol en infección tineal localizada |
-| [18039020](https://pubmed.ncbi.nlm.nih.gov/18039020/) | 2007 | ECA | Am J Clin Dermatol | Comparación de solución y crema de sertaconazol 2% en tinea corporis, tinea pedis interdigital o candidiasis equivalente |
-| [25386455](https://pubmed.ncbi.nlm.nih.gov/25386455/) | 2014 | ECA (descrito como observacional) | J Clin Diagn Res | Sertaconazol frente a clotrimazol en tinea corporis |
-| [24249897](https://pubmed.ncbi.nlm.nih.gov/24249897/) | 2013 | ECA abierto | Indian J Dermatol | Sertaconazol 2% frente a butenafina 1% en infecciones tineales de la piel |
-| [19275277](https://pubmed.ncbi.nlm.nih.gov/19275277/) | 2009 | Revisión | Drugs | Uso de sertaconazol en micosis superficiales en dermatología y ginecología; indicado en la UE en tinea corporis, cruris, manus, barbae y pedis |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
@@ -99,25 +80,25 @@ Para contextualizar, estas son las demás indicaciones predichas y su evidencia:
 | 62086 | GINEDERMOFIX 500 MG COMPRIMIDO VAGINAL | Comprimido vaginal | No disponible en los datos compilados |
 | 62087 | GINEDERMOFIX 2% CREMA VAGINAL | Crema vaginal | No disponible en los datos compilados |
 
-Hay 7 autorizaciones vigentes en total, todas de monofármaco y a nombre de Ferrer Internacional S.A. (se muestran las 5 principales; las otras son DERMOFIX 20 MG/ML solución cutánea, nº 59804, y ZALAIN 20 MG/G crema, nº 59077).
+Hay 7 autorizaciones en total (5 vigentes y 2 canceladas); la tabla muestra las 5 primeras.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se identificaron interacciones farmacológicas en los datos compilados.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para dermatofitosis de la ingle y del área perianal solo existe la predicción del modelo (nivel L5), sin ensayos ni publicaciones recuperadas específicas. La plausibilidad mecanística es alta y la tinea cruris aparece en la literatura como indicación de la UE, pero ello no sustituye la evidencia directa en los datos analizados.
+La predicción tiene un puntaje TxGNN alto (0,9959), pero no cuenta con ningún ensayo clínico ni publicación, y la penetración limitada de los agentes tópicos en el pelo plantea dudas sobre su viabilidad.
 
 **Para avanzar se necesita:**
-- Verificar en el prospecto de AEMPS si la tinea cruris ya figura entre las indicaciones autorizadas (los textos de indicación y los datos de advertencias y contraindicaciones no estaban disponibles).
-- Revisar a texto completo los estudios comparativos en tinea corporis/cruris (p. ej., PMID 24249898 y 28066103) para extraer los resultados específicos de tinea cruris y reevaluar el nivel de evidencia.
-- Obtener los datos del mecanismo de acción desde DrugBank.
-- Completar el análisis de seguridad con el prospecto.
-- Como alternativa de menor riesgo, considerar priorizar tinea corporis, que tiene mayor respaldo (L1, pendiente de verificación), teniendo en cuenta su baja novedad al tratarse de una extensión dentro de la misma familia de enfermedades.
+- Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto
+- Revisión de la literatura y de registros de ensayos sobre la eficacia de azoles tópicos en infecciones ectotrix
+- Evaluación de la compatibilidad de la vía de administración (tópica frente a sistémica)
+- Estudios preclínicos o ensayos exploratorios que demuestren penetración y eficacia en el folículo piloso
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

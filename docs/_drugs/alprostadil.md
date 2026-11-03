@@ -4,17 +4,17 @@ title: Alprostadil
 parent: Solo predicción del modelo (L5)
 nav_order: 44
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "ALPROSTADIL"
-predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve agenesis", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-10-28
+predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
+last_modified_at: 2026-11-03
 description: "Alprostadil: nueva indicación predicha, malformación aórtica (aortic malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Alprostadil: prostaglandina E1 vasodilatadora del conducto arterioso → malformación aórtica (aortic malformation)
+## Alprostadil: malformación aórtica (aortic malformation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Alprostadil es un análogo de la prostaglandina E1 que se comercializa en España en varias formas farmacéuticas (barra uretral, crema, solución para perfusión e inyectable).
-El modelo TxGNN predice que podría ser efectivo para **malformación aórtica (aortic malformation)**,
-con **0 ensayos clínicos** y **8 publicaciones** (en su mayoría informes de casos, descripciones clínicas antiguas y estudios perioperatorios o en animales) que actualmente respaldan esta dirección.
+Alprostadil es un análogo de la prostaglandina E1 que se comercializa en España en varias formas farmacéuticas (cremas, barras uretrales, soluciones inyectables y para perfusión).
+El modelo TxGNN predice que podría ser útil para **malformación aórtica (aortic malformation)**,
+con **0 ensayos clínicos** y **8 publicaciones** recuperadas, de las cuales solo una parte guarda relación directa con malformaciones del arco aórtico (sobre todo informes de caso y descripciones clínicas antiguas).
 
 ## Resumen Rápido
 
@@ -56,11 +56,11 @@ con **0 ensayos clínicos** y **8 publicaciones** (en su mayoría informes de ca
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Alprostadil (prostaglandina E1) mantiene abierto el conducto arterioso mediante la relajación del músculo liso ductal. Este efecto se aprovecha en recién nacidos con cardiopatías congénitas cuya circulación depende del conducto. No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe, por lo que esta explicación se basa en el conocimiento farmacológico general.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por lo que se conoce de la farmacología de la prostaglandina E1, alprostadil relaja el músculo liso del conducto arterioso y mantiene su permeabilidad. Esto es útil en recién nacidos con cardiopatías congénitas que dependen del conducto para mantener la circulación sistémica o pulmonar.
 
-Las malformaciones aórticas, como la coartación o el arco aórtico interrumpido, pueden requerir la permeabilidad del conducto hasta la cirugía. Por ello, la predicción es coherente con el uso conocido del fármaco en lesiones cardíacas congénitas ductus-dependientes.
+Las malformaciones del arco aórtico, como la coartación o el arco aórtico interrumpido, pueden depender del conducto para el flujo sanguíneo sistémico. Por ello, el vínculo mecanístico es plausible. No obstante, el término «malformación aórtica» es amplio y se solapa en gran medida con usos ya conocidos del fármaco en cardiopatías ductodependientes, por lo que se parece más a una extensión o reetiquetado de indicación que a un reposicionamiento novedoso.
 
-Conviene matizar que el término "malformación aórtica" es amplio y se solapa en gran medida con usos ya conocidos del fármaco. Se trata más de una extensión o reformulación de una indicación que de un reposicionamiento verdaderamente novedoso.
+Cabe señalar que el beneficio se limita a lesiones con circulación dependiente del conducto; no se esperaría en malformaciones aórticas sin esa fisiología.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,20 +68,22 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Ningún estudio estudia directamente la malformación aórtica como enfermedad en sí con diseño comparativo; la literatura describe principalmente cardiopatías congénitas en general o casos aislados. El nivel de evidencia se mantiene por tanto de forma conservadora, ver la conclusión.
+Ninguna de las publicaciones recuperadas estudia de forma directa la «malformación aórtica» como entidad en un ensayo controlado; se trata de estudios clínicos generales en cardiopatía congénita, informes de caso, revisiones y un modelo animal.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Evaluación clínica / serie de casos | Pharmacotherapy | Alprostadil dilata el conducto arterioso y aumenta el flujo pulmonar en lactantes con cardiopatía congénita |
-| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Estudio clínico | Zhonghua Yi Xue Za Zhi | Efecto de alprostadil y ulinastatina sobre la respuesta inflamatoria y la lesión pulmonar tras circulación extracorpórea en niños con cardiopatía congénita |
-| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Informe de caso | Kyobu Geka | Neonato con arco aórtico interrumpido tipo B tratado con alprostadil para mantener el conducto y reparado en un tiempo quirúrgico |
-| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Informe de caso | Braz J Cardiovasc Surg | Reparación de ventana aortopulmonar compleja; se usó alprostadil antes de la cirugía para reducir la presión pulmonar |
-| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revisión | Kyobu Geka | Transposición de grandes arterias: se mantiene el conducto con alprostadil para evitar el deterioro ventricular izquierdo |
-| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Estudio preclínico (rata) | Minerva Chir | Atenuación de la lesión por isquemia-reperfusión en músculo esquelético de rata |
-| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Exploración clínica retrospectiva | Zhonghua Fu Chan Ke Za Zhi | Vía y momento del parto en cardiopatías congénitas fetales complejas |
-| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Estudio retrospectivo preliminar | BMC Pregnancy Childbirth | Manejo perinatal integrado de cardiopatía congénita fetal compleja |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Estudio clínico | Zhonghua Yi Xue Za Zhi | Efecto de alprostadil y ulinastatina sobre la inflamación y la lesión pulmonar tras circulación extracorpórea en niños con cardiopatía congénita |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Evaluación clínica / serie de casos | Pharmacotherapy | Alprostadil dilata el conducto arterioso y aumenta el flujo pulmonar en lactantes con cardiopatías congénitas ductodependientes |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revisión | Kyobu Geka | Transposición de grandes arterias: alprostadil para mantener el conducto permeable antes de la cirugía |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Informe de caso | Kyobu Geka | Arco aórtico interrumpido tipo B en un neonato tratado con alprostadil y reparación en un tiempo |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Informe de caso | Braz J Cardiovasc Surg | Reparación de ventana aortopulmonar compleja con milrinona y alprostadil previos a la cirugía |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Estudio retrospectivo | Zhonghua Fu Chan Ke Za Zhi | Modo y momento del parto en cardiopatía congénita fetal compleja |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Estudio retrospectivo | BMC Pregnancy Childbirth | Manejo perinatal integrado de la cardiopatía congénita fetal compleja |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Estudio preclínico (rata) | Minerva Chirurgica | Alprostadil atenúa la lesión por isquemia-reperfusión en músculo esquelético de rata |
 
 ## Información de Mercado en España
+
+Siete de las diez autorizaciones están vigentes y tres están canceladas.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -93,23 +95,24 @@ Ningún estudio estudia directamente la malformación aórtica como enfermedad e
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 59 interacciones en total. Las de nivel moderado incluyen canagliflozina, dapagliflozina, empagliflozina, ertugliflozina, lorcaserina y sapropterina. Otras (nivel no clasificado) incluyen pantoprazol, morfina, metformina, omeprazol, rosiglitazona, lansoprazol, vancomicina, atropina, prednisona y simvastatina.
-- **Señales de seguridad en la literatura**: los informes de casos describen efectos adversos con perfusión prolongada de prostaglandina E1 en neonatos, como hiperplasia antral con estenosis hipertrófica del píloro y un síndrome pseudo-Bartter.
+- **Enfermedades en las que se ha descrito contraindicación o precaución (no proviene del texto del prospecto):** síndrome de dificultad respiratoria del recién nacido y agudo, trastornos hipotensivos, trastornos de la coagulación, anemia falciforme y hemoglobinopatías, enfermedad pulmonar, mieloma múltiple, leucemias, policitemia, trombocitosis, priapismo, estenosis uretral, enfermedad de Peyronie, balanitis y uretritis, estenosis pilórica.
+- **Interacciones farmacológicas:** se identificaron 59 interacciones. Las de nivel moderado incluyen canagliflozina, dapagliflozina, empagliflozina, ertugliflozina, lorcaserina y sapropterina. Otras con nivel no clasificado incluyen morfina, metformina, omeprazol, prednisona, simvastatina y vancomicina, entre otras.
+- **Seguridad en uso prolongado:** los informes de caso recuperados describen estenosis pilórica hipertrófica con perfusión prolongada de prostaglandina E1 y un síndrome pseudo-Bartter inducido por la perfusión en neonatos.
 
-No se dispone de advertencias ni contraindicaciones extraídas del prospecto; consultar el prospecto para esa información.
+Consultar el prospecto para información completa de advertencias y contraindicaciones.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el mecanismo es plausible, no hay ensayos clínicos y la literatura se compone de informes de casos, descripciones antiguas y estudios perioperatorios o en animales, sin ningún estudio que evalúe directamente la malformación aórtica como entidad. Por ello el nivel de evidencia es **L5** (solo predicción del modelo, sin estudios que aborden directamente esta enfermedad), y la predicción se solapa con usos ya conocidos, por lo que aporta poco como reposicionamiento novedoso.
+No hay ensayos clínicos y ninguna publicación estudia de forma directa la malformación aórtica como entidad; la evidencia se limita a informes de caso, descripciones clínicas antiguas y estudios perioperatorios o animales, por lo que el nivel es L5. Aunque el vínculo mecanístico con la permeabilidad ductal es plausible, la predicción se solapa con usos ya conocidos y no aporta un reposicionamiento claramente novedoso.
 
 **Para avanzar se necesita:**
-- Estudios clínicos que evalúen directamente alprostadil en malformaciones aórticas específicas (por ejemplo, coartación o arco aórtico interrumpido)
-- Datos detallados del mecanismo de acción
-- Advertencias y contraindicaciones del prospecto de la AEMPS
-- Revisión del perfil de seguridad en perfusión prolongada en neonatos
+- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
+- Estudios clínicos o series de casos que evalúen específicamente lesiones aórticas ductodependientes
+- Plan de monitorización de seguridad en neonatos, dada la toxicidad asociada a la perfusión prolongada (apnea, estenosis pilórica, alteraciones electrolíticas)
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

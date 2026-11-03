@@ -4,17 +4,17 @@ title: Lomustine
 parent: Evidencia alta (L1-L2)
 nav_order: 478
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "Lomustine"
-predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
-description: "Lomustine: nueva indicación predicha, Linfosarcoma (lymphosarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
+description: "Lomustine: nueva indicación predicha, linfosarcoma (lymphosarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Lomustine
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,64 +33,61 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Lomustine: Linfosarcoma (lymphosarcoma)
+## Lomustine: linfosarcoma (lymphosarcoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lomustina es un agente alquilante de la familia de las nitrosoureas, utilizado originalmente en el tratamiento del linfoma de Hodgkin y de tumores cerebrales.
-El modelo TxGNN predice que podría ser efectivo para **linfosarcoma**,
-con **10 ensayos clínicos** (en su mayoría pequeños, de Fase 2, en regímenes combinados) y **20 publicaciones** (muchas de ellas veterinarias) que actualmente respaldan esta dirección.
+Lomustina es un agente alquilante de la familia de las nitrosoureas, liposoluble y capaz de atravesar la barrera hematoencefálica.
+El modelo TxGNN predice que podría ser efectivo para **linfosarcoma (lymphosarcoma)**,
+con **10 ensayos clínicos** y **20 publicaciones** que actualmente se relacionan con esta dirección, aunque casi todos evalúan regímenes combinados y con muy pocos pacientes.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Linfosarcoma (lymphosarcoma) |
+| Nueva Indicación Predicha | linfosarcoma (lymphosarcoma) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 0) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## Por qué es Razonable esta Predicción?
 
-Lomustina es un agente alquilante lipofílico de la clase de las nitrosoureas que atraviesa la barrera hematoencefálica. Su efecto citotóxico se basa en el entrelazamiento (cross-linking) del ADN. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada, pero este perfil farmacológico es conocido y coherente con su uso clínico.
+No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, lomustina es un agente alquilante de tipo nitrosourea que entrecruza el ADN, lo que es plausible en neoplasias linfoides. Además, al ser liposoluble, atraviesa la barrera hematoencefálica, lo que la hace atractiva en linfomas del sistema nervioso central.
 
-La indicación original (linfoma de Hodgkin) y la nueva indicación (linfosarcoma, es decir, linfoma no Hodgkin) son neoplasias linfoides sensibles a quimioterapia alquilante. Lomustina se emplea en regímenes orales multifármaco (por ejemplo, con procarbazina, etopósido, ciclofosfamida o metotrexato) en linfoma no Hodgkin, incluido el relacionado con el SIDA, y en linfoma primario del sistema nervioso central, donde su capacidad de penetrar en el SNC resulta especialmente útil.
-
-Una limitación importante: la evidencia procede sobre todo de estudios pequeños de Fase 2 con combinaciones, por lo que no es posible aislar la contribución específica de lomustina. Los datos veterinarios (linfoma canino de células T, protocolo LOPP) son favorables, pero no constituyen evidencia en humanos.
+Se utiliza en regímenes orales combinados (por ejemplo, con procarbazina, etopósido, ciclofosfamida o metotrexato) en linfomas no Hodgkin, linfomas asociados al sida y linfoma primario del SNC. La mayor parte de la evidencia son estudios de fase 2 pequeños de combinaciones, por lo que la contribución propia de lomustina no puede aislarse. Los datos veterinarios (linfoma canino de células T con el protocolo LOPP) son de apoyo, pero no constituyen evidencia en humanos.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+| Numero de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00049439](https://clinicaltrials.gov/study/NCT00049439) | Fase 2 | Completado | 54 | Quimioterapia oral combinada de dosis modificada (lomustina, etopósido, ciclofosfamida, procarbazina) en linfoma no Hodgkin asociado al SIDA |
-| [NCT00989352](https://clinicaltrials.gov/study/NCT00989352) | Fase 2 | Desconocido | 56 | Metotrexato a dosis altas con rituximab, lomustina y procarbazina en linfoma primario del SNC en mayores de 65 años |
-| [NCT01775475](https://clinicaltrials.gov/study/NCT01775475) | Fase 2 | Completado | 7 | CHOP frente a quimioterapia oral en linfoma asociado al VIH en África subsahariana; muestra muy reducida |
-| [NCT00003114](https://clinicaltrials.gov/study/NCT00003114) | Fase 2 | Completado | 5 | Quimioterapia oral combinada en enfermedad de Hodgkin asociada al SIDA; muy pequeño |
-| [NCT00003113](https://clinicaltrials.gov/study/NCT00003113) | Fase 2 | Terminado | 6 | Quimioterapia oral con G-CSF en ancianos con linfoma no Hodgkin de grado intermedio/alto; no concluyente |
+| [NCT00049439](https://clinicaltrials.gov/study/NCT00049439) | Fase 2 | Completado | 54 | Quimioterapia oral combinada de dosis modificada (lomustina, etopósido, ciclofosfamida, procarbazina) en linfoma no Hodgkin asociado al sida |
+| [NCT00989352](https://clinicaltrials.gov/study/NCT00989352) | Fase 2 | Desconocido | 56 | Rituximab con metotrexato en dosis altas, lomustina y procarbazina en linfoma primario del SNC en mayores de 65 años |
+| [NCT01775475](https://clinicaltrials.gov/study/NCT01775475) | Fase 2 | Completado | 7 | CHOP frente a quimioterapia oral en linfoma asociado al VIH en África subsahariana; muestra muy pequeña |
+| [NCT00003113](https://clinicaltrials.gov/study/NCT00003113) | Fase 2 | Terminado | 6 | Quimioterapia oral combinada con G-CSF en ancianos con linfoma no Hodgkin de grado intermedio/alto; no concluyente |
+| [NCT00003114](https://clinicaltrials.gov/study/NCT00003114) | Fase 2 | Completado | 5 | Quimioterapia oral combinada en enfermedad de Hodgkin asociada al sida; muy pequeño |
 | [NCT00074191](https://clinicaltrials.gov/study/NCT00074191) | Fase 2 | Completado | 1 | Metotrexato, procarbazina y CCNU con terapia intraventricular en linfoma primario del SNC; un solo paciente |
-| [NCT01989052](https://clinicaltrials.gov/study/NCT01989052) | Fase 1 | Terminado | 9 | Carboxiamidotriazol orotato solo o con lomustina en glioma maligno recurrente; valor informativo limitado |
-| [NCT00003929](https://clinicaltrials.gov/study/NCT00003929) | Fase 2 | Retirado | 0 | Terapia combinada con filgrastim en linfoma primario del SNC; sin datos |
-| [NCT03678883](https://clinicaltrials.gov/study/NCT03678883) | Fase 2 | Activo, no reclutando | 350 | Inhibidor de GSK-3β (9-ING-41) solo o con quimioterapia (incluida lomustina) en tumores refractarios; lomustina no es el foco |
-| [NCT00317408](https://clinicaltrials.gov/study/NCT00317408) | No aplica | Desconocido | 96 | Protocolo de rescate en linfoma anaplásico de células grandes pediátrico recidivante; lomustina como parte del tratamiento |
+| [NCT00317408](https://clinicaltrials.gov/study/NCT00317408) | No aplica | Desconocido | 96 | Protocolo para linfoma anaplásico de células grandes recidivante en niños y adolescentes |
+| [NCT03678883](https://clinicaltrials.gov/study/NCT03678883) | Fase 2 | Activo, sin reclutar | 350 | Inhibidor de GSK-3β (9-ING-41) solo o con quimioterapia en tumores refractarios; lomustina es un acompañante entre varios |
+| [NCT00003929](https://clinicaltrials.gov/study/NCT00003929) | Fase 2 | Retirado | 0 | Terapia combinada en linfoma primario del SNC; sin pacientes incluidos |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10711848](https://pubmed.ncbi.nlm.nih.gov/10711848/) | 1999 | Cohorte | Drugs | Régimen oral (lomustina, etopósido, ciclofosfamida, procarbazina) en 38 pacientes con linfoma no Hodgkin asociado al SIDA |
-| [17134114](https://pubmed.ncbi.nlm.nih.gov/17134114/) | 2006 | Revisión | Neurosurgical Focus | Quimioterapia del linfoma primario del SNC; el metotrexato a dosis altas es el fármaco más eficaz y lomustina se usa en combinación |
-| [21303800](https://pubmed.ncbi.nlm.nih.gov/21303800/) | 2011 | Estudio piloto | Annals of Oncology | Inmunoquimioterapia R-MCP (rituximab, metotrexato, procarbazina, lomustina) en linfoma primario del SNC del anciano |
+| [10711848](https://pubmed.ncbi.nlm.nih.gov/10711848/) | 1999 | Cohorte | Drugs | Régimen oral con lomustina, etopósido, ciclofosfamida y procarbazina en 38 pacientes con linfoma no Hodgkin asociado al sida |
+| [17134114](https://pubmed.ncbi.nlm.nih.gov/17134114/) | 2006 | Revisión | Neurosurgical Focus | Quimioterapia del linfoma primario del SNC; el metotrexato en dosis altas es el fármaco más eficaz y lomustina se usa en combinaciones |
+| [21303800](https://pubmed.ncbi.nlm.nih.gov/21303800/) | 2011 | Estudio piloto | Annals of Oncology | Rituximab, metotrexato, procarbazina y lomustina en linfoma primario del SNC en ancianos |
 | [8436213](https://pubmed.ncbi.nlm.nih.gov/8436213/) | 1993 | Serie clínica | European Journal of Haematology | Régimen LEMP en 22 pacientes con linfoma no Hodgkin recidivante o refractario |
-| [35999255](https://pubmed.ncbi.nlm.nih.gov/35999255/) | 2022 | Retrospectivo | Scientific Reports | Comparación de regímenes de acondicionamiento (CEAC con lomustina, BEAM, IEAC) previos a trasplante autólogo en linfoma T periférico |
+| [2222244](https://pubmed.ncbi.nlm.nih.gov/2222244/) | 1990 | Serie clínica | Archives of Neurology | Quimioterapia adyuvante con procarbazina, lomustina y vincristina en linfoma primario del SNC |
+| [35999255](https://pubmed.ncbi.nlm.nih.gov/35999255/) | 2022 | Retrospectivo | Scientific Reports | Regímenes de acondicionamiento (CEAC con lomustina, BEAM, IEAC) antes del trasplante autólogo en linfoma T periférico |
 | [7882286](https://pubmed.ncbi.nlm.nih.gov/7882286/) | 1995 | Ensayo clínico | Cancer | Nuevo régimen preparatorio para trasplante autólogo de médula en linfoma |
-| [2222244](https://pubmed.ncbi.nlm.nih.gov/2222244/) | 1990 | Serie clínica | Archives of Neurology | Quimioterapia adyuvante (procarbazina, CCNU, vincristina) en linfoma primario del SNC |
-| [22888657](https://pubmed.ncbi.nlm.nih.gov/22888657/) | 2012 | Preclínico | Voprosy Onkologii | Efecto combinado de gemcitabina y lomustina en ratones con linfosarcoma intracraneal; aumento de la supervivencia |
-| [28508557](https://pubmed.ncbi.nlm.nih.gov/28508557/) | 2018 | Cohorte (veterinario) | Veterinary and Comparative Oncology | Protocolo LOPP como primera línea en perros con linfoma T |
-| [28222789](https://pubmed.ncbi.nlm.nih.gov/28222789/) | 2017 | Revisión (veterinario) | BMC Veterinary Research | Utilidad de CCNU en linfoma cutáneo epiteliotrópico canino; sin consenso claro |
+| [22888657](https://pubmed.ncbi.nlm.nih.gov/22888657/) | 2012 | Preclínico | Voprosy Onkologii | Gemcitabina más lomustina en ratones con linfosarcoma intracraneal: aumento de la supervivencia |
+| [30117253](https://pubmed.ncbi.nlm.nih.gov/30117253/) | 2018 | Cohorte (veterinario) | Veterinary and Comparative Oncology | Protocolo con lomustina en 35 perros con linfoma de células T |
+| [28508557](https://pubmed.ncbi.nlm.nih.gov/28508557/) | 2018 | Cohorte (veterinario) | Veterinary and Comparative Oncology | Protocolo LOPP de primera línea en perros con linfoma de células T |
 
 ## Información de Mercado en España
 
@@ -98,57 +95,41 @@ Una limitación importante: la evidencia procede sobre todo de estudios pequeño
 |---------|------|------|-----------|
 | 58474 | BELUSTINE CAPSULAS | Cápsula dura | No disponible el texto de indicación |
 
+La única autorización registrada figura como cancelada.
+
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante, clase nitrosourea) |
-| Riesgo de Mielosupresión | Alto (la leucopenia y la trombocitopenia figuran entre las contraindicaciones del grafo de conocimiento; la mielosupresión suele ser acumulativa y tardía) |
-| Clasificación de Emetogenicidad | Media a alta (según la categoría del fármaco) |
-| Items de Monitoreo | Hemograma completo con diferencial y plaquetas, función hepática (bilirrubina), función renal, función pulmonar |
+| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante, nitrosourea) |
+| Riesgo de Mielosupresión | Alto (leucopenia y trombocitopenia señaladas entre los riesgos del fármaco) |
+| Clasificación de Emetogenicidad | Media a alta |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, función pulmonar |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
-Consultar las advertencias y precauciones del prospecto para confirmar estos puntos.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones (según el grafo de conocimiento, no el texto del prospecto)**: enfermedad renal, trombocitopenia, leucopenia, hiperbilirrubinemia (incluidos la hiperbilirrubinemia hereditaria y el síndrome de Gilbert), lesión hepática inducida por fármacos, fibrosis pulmonar (incluida la postinflamatoria), enfermedades infecciosas (incluidas las fúngicas y la dermatofitosis) y piouréter.
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones; se muestran las principales:
-  - **Mayores**: cimetidina, deferiprona, samario (153Sm) lexidronam, adalimumab.
-  - **Moderadas**: naltrexona, palifermina, cloruro de estroncio Sr-89, mercaptopurina, roflumilast, cloranfenicol, zidovudina, aldesleukina, alefacept, alemtuzumab, anakinra, asparaginasa, y vacunas (toxoide tetánico, ántrax).
-  - **Menores**: levofloxacino.
+- **Condiciones de riesgo señaladas en los datos compilados** (no proceden del texto del prospecto): enfermedad renal, trombocitopenia, leucopenia, hiperbilirrubinemia (incluido el síndrome de Gilbert), daño hepático inducido por fármacos, fibrosis pulmonar, enfermedades infecciosas (incluidas las fúngicas).
+- **Interacciones farmacológicas** (100 registradas; ejemplos):
+  - Mayores: cimetidina, deferiprona, adalimumab, lexidronam de samario (153Sm).
+  - Moderadas: naltrexona, mercaptopurina, zidovudina, cloranfenicol, aldesleucina, alemtuzumab, anakinra, roflumilast.
+  - Menor: levofloxacino.
 
-Consultar el prospecto para el resto de información de seguridad.
-
-## Otras Indicaciones Predichas (Contexto)
-
-| Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
-|------|------|------|------|
-| Tumor maligno de las meninges | 0.9987 | L5 | Hold |
-| Cáncer de médula espinal | 0.9986 | L1 (por extrapolación de gliomas intracraneales) | Research Question |
-| Neuroblastoma cerebral | 0.9985 | L5 | Hold |
-| Ependimoblastoma cerebral pediátrico | 0.9985 | L5 | Research Question |
-| Ependimoblastoma infratentorial pediátrico | 0.9985 | L5 | Research Question |
-| Germinoma cerebral infantil | 0.9984 | L5 | Hold |
-| Tumor embrionario del ángulo pontocerebeloso | 0.9984 | L5 | Hold |
-| Cáncer de ganglios linfáticos | 0.9983 | L5 | Hold |
-| Sarcoma cerebral | 0.9975 | L5 | Hold |
-
-El nivel L1 del cáncer de médula espinal debe interpretarse con cautela: se basa en ensayos de gliomas intracraneales, no en datos específicos de localización espinal.
+No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Lomustina ya está indicada en linfoma de Hodgkin y se usa en regímenes orales multifármaco para linfoma no Hodgkin y linfoma primario del SNC, con múltiples estudios de Fase 2 y un mecanismo citotóxico plausible. Sin embargo, los ensayos son pequeños, de combinaciones, y la contribución individual de lomustina no puede separarse; por ello se requieren salvaguardas.
+Existen ensayos de fase 2 completados con regímenes que incluyen lomustina en linfomas, pero son pequeños, de combinaciones donde no se aísla su efecto, y el producto local figura solo con autorización cancelada. Además, faltan datos de mecanismo y de seguridad de prospecto.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), actualmente no disponible, y el texto de indicación de la autorización 58474
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank
-- Estudios en humanos con mayor tamaño muestral o un ensayo aleatorizado que aísle el aporte de lomustina en linfoma no Hodgkin/SNC
-- Plan de monitoreo hematológico, hepático, renal y pulmonar, y revisión de interacciones mayores (cimetidina, deferiprona, adalimumab, samario-153)
-- Evaluar la compatibilidad de la vía y la forma farmacéutica (cápsula oral) con la nueva indicación
+- Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto
+- Estudios que aíslen la contribución de lomustina en linfoma, idealmente aleatorizados y con mayor tamaño muestral
+- Evaluación de disponibilidad comercial de lomustina en España, dado que la única autorización está cancelada
+- Plan de monitoreo hematológico, hepático, renal y pulmonar, y revisión de interacciones relevantes
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

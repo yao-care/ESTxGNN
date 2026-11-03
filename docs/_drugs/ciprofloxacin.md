@@ -4,17 +4,17 @@ title: Ciprofloxacin
 parent: Solo predicción del modelo (L5)
 nav_order: 183
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-31
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Ciprofloxacin"
-predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,8 +38,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Ciprofloxacino es una fluoroquinolona antibacteriana, originalmente utilizada para tratar infecciones como la fiebre tifoidea, la salmonelosis, la neumonía bacteriana y las infecciones por *Pseudomonas aeruginosa*.
-El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, aunque actualmente solo hay **0 ensayos clínicos** y **2 publicaciones** de apoyo, de carácter exploratorio.
+Ciprofloxacino es un antibacteriano de la clase de las fluoroquinolonas, con amplia presencia en el mercado español.
+El modelo TxGNN predice que podría ser útil para **Esclerodermia difusa (diffuse scleroderma)**.
+Esta dirección cuenta con **0 ensayos clínicos registrados** y **2 publicaciones**, una de ellas un estudio clínico controlado de pequeña escala sobre el efecto antifibrótico en piel.
 
 ## Resumen Rápido
 
@@ -55,11 +56,11 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ciprofloxacino es una fluoroquinolona cuya eficacia antibacteriana está comprobada, y su acción clásica consiste en inhibir la ADN girasa y la topoisomerasa IV bacterianas. Esto no explica por sí solo un efecto en la esclerodermia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Se sabe que ciprofloxacino es una fluoroquinolona antibacteriana. Un efecto sobre la esclerodermia no sería una consecuencia directa de ese perfil antibiótico.
 
-Para la esclerodermia difusa se plantean dos vínculos posibles. El primero es un posible efecto antifibrótico en la piel (PMID 20507401), aunque su mecanismo no está bien establecido. El segundo es indirecto: tratar el sobrecrecimiento bacteriano del intestino delgado, frecuente en la esclerosis sistémica (PMID 7728404), que causa diarrea y malabsorción.
+Hay dos vías plausibles, ambas con respaldo limitado. La primera es un posible efecto antifibrótico en la piel de pacientes con esclerodermia, descrito en un estudio clínico (PMID 20507401). Su mecanismo no está bien establecido. La segunda es indirecta. La esclerodermia sistémica se asocia con frecuencia a sobrecrecimiento bacteriano del intestino delgado, y tratarlo podría aliviar síntomas digestivos como la diarrea crónica y la pérdida de peso (PMID 7728404).
 
-La evidencia se limita a literatura pequeña y exploratoria, sin datos confirmatorios sobre desenlaces cutáneos o de fibrosis. Por ello la predicción debe considerarse una hipótesis.
+En conjunto, la predicción es interesante pero se apoya en evidencia exploratoria. No hay datos confirmatorios sobre desenlaces cutáneos o de fibrosis.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,10 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Estudio clínico exploratorio (el resumen menciona un ensayo controlado, doble ciego y aleatorizado) | The Journal of Dermatology | Evalúa si ciprofloxacino oral reduce la gravedad de la esclerodermia y su utilidad como antifibrótico en la piel |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observacional | British Journal of Rheumatology | Sobrecrecimiento bacteriano del intestino delgado en 24 pacientes con esclerosis sistémica con diarrea y pérdida de peso; evalúa métodos diagnósticos y resultado del tratamiento |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Estudio clínico exploratorio (descrito como ensayo controlado, doble ciego y aleatorizado) | The Journal of Dermatology | Evalúa si ciprofloxacino oral reduce la gravedad de la esclerodermia y su utilidad como antifibrótico en piel. El resumen disponible está truncado y no permite confirmar los resultados. |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observacional / diagnóstico | British Journal of Rheumatology | 24 pacientes con esclerosis sistémica y síntomas de malabsorción. Se investigó el sobrecrecimiento bacteriano del intestino delgado y su respuesta al tratamiento. |
 
 ## Información de Mercado en España
+
+Hay 13 autorizaciones vigentes, y los registros locales disponibles pueden ser parciales. Se muestran cinco autorizaciones vigentes con distintas formas farmacéuticas.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -82,30 +85,26 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 61521 | Septocipro Ótico 1 mg | Gotas óticas en solución | No disponible |
 | 60608 | Oftacilox 3 mg/ml | Colirio en solución | No disponible |
 
-Hay 20 autorizaciones vigentes, todas de medicamentos con un solo principio activo. Incluyen comprimidos, solución para perfusión, gotas óticas, colirio y suspensión oral.
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas en el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de QT largo (incluido el familiar), torsades de pointes, epilepsia, enfermedad renal, deficiencia de potasio, tendinitis y otras afecciones tendinosas (bursitis aquílea, espolón calcáneo, periartritis), neuropatía periférica y enfermedades del sistema nervioso periférico, colitis por *Clostridium difficile*, miastenia gravis y enfermedades de la unión neuromuscular.
-- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las de nivel **mayor** figuran los corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona) y bupropión. Entre las de nivel moderado figuran antidiabéticos (metformina, pioglitazona, acarbosa, alogliptina), famotidina, loperamida, ácido acetilsalicílico y aprepitant, entre otros.
-- Los corticoides son relevantes en la esclerosis sistémica por su uso frecuente en enfermedades autoinmunes. Se asocian con un mayor riesgo de tendinopatía junto con fluoroquinolonas, lo que exige cautela.
-- Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones. Entre las de nivel mayor figuran los corticosteroides (hidrocortisona, triamcinolona, dexametasona, betametasona) y el bupropión. Estos corticosteroides son de uso frecuente en enfermedades autoinmunes como la esclerodermia, por lo que esta combinación requiere atención. También hay interacciones moderadas con antidiabéticos (metformina, pioglitazona, alogliptina, acarbosa, albiglutida), famotidina, loperamida, alosetrón, aprepitant, ácido acetilsalicílico, balsalazida, bisacodilo, fosfato de calcio y budesonida.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0.9987), pero el respaldo se limita a dos publicaciones exploratorias, sin ensayos clínicos registrados y con un mecanismo antifibrótico no establecido. Además, los pacientes con esclerodermia podrían usar corticoides, que interactúan de forma importante con ciprofloxacino y aumentan el riesgo de tendinopatía.
+La predicción tiene un puntaje alto (0,9987), pero la evidencia es limitada. Solo hay un estudio clínico exploratorio sobre el efecto antifibrótico en piel, cuyos resultados no pudieron confirmarse, y un estudio observacional sobre un mecanismo indirecto digestivo. No hay ensayos clínicos registrados.
 
 **Para avanzar se necesita:**
-- Revisar el texto completo del estudio de 2010 (PMID 20507401) para confirmar diseño, tamaño muestral y resultados.
-- Datos del mecanismo de acción y de la plausibilidad antifibrótica.
-- Un ensayo clínico confirmatorio con desenlaces cutáneos y de fibrosis.
-- Obtener del prospecto de la AEMPS las advertencias, contraindicaciones e indicaciones aprobadas.
-- Evaluar el perfil de seguridad en esta población (tendones, QT, neuropatía y uso concomitante de corticoides).
+- Acceso al texto completo y a los resultados del estudio de 2010 (PMID 20507401). Hay que verificar su diseño, tamaño muestral, desenlaces cutáneos y significación estadística.
+- Un ensayo clínico confirmatorio, controlado y con desenlaces de piel y fibrosis bien definidos.
+- Datos del mecanismo de acción que expliquen el posible efecto antifibrótico.
+- Un análisis de seguridad en esclerodermia, con atención a las interacciones con corticosteroides y al tratamiento prolongado con una fluoroquinolona.
+- La revisión de las advertencias y contraindicaciones del prospecto, que no estaban disponibles en los datos compilados.
 
-**Otras predicciones del modelo:** la única otra con respaldo sustancial es la **peste septicémica** (nivel L3), por el uso consolidado de fluoroquinolonas contra *Yersinia pestis* y ensayos aleatorizados sobre peste bubónica. Es una extensión dentro de la misma clase antiinfecciosa más que un reposicionamiento, y requiere confirmar evidencia directa en peste septicémica. Las demás predicciones carecen de mecanismo y de evidencia clínica, y en algunos casos, como la neuropatía periférica adquirida asociada a enfermedad hematológica, plantean preocupaciones de seguridad.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

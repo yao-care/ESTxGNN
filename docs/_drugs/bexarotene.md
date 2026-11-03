@@ -4,17 +4,17 @@ title: Bexarotene
 parent: Solo predicción del modelo (L5)
 nav_order: 102
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Bexarotene: nueva indicación predicha, Linfoma cutáneo primario de células B (nivel de evidencia L5). Indicación original: Linfoma cutáneo primario de células T (no Hodgkin)"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "bexarotene"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
+predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
+description: "Bexarotene: nueva indicación predicha, Linfoma cutáneo primario de células B (primary cutaneous B-cell lymphoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Bexarotene
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Bexaroteno: De Linfoma Cutáneo Primario de Células T a Linfoma Cutáneo Primario de Células B
+## Bexarotene: Linfoma cutáneo primario de células B (primary cutaneous B-cell lymphoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Bexaroteno se utiliza originalmente para el tratamiento del linfoma cutáneo primario de células T.
-El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo primario de células B**,
-pero actualmente **no hay ensayos clínicos** registrados y solo hay **10 publicaciones** (revisiones, series y reportes de caso) que abordan el tema general de los linfomas cutáneos, sin demostrar actividad del fármaco en enfermedad de células B.
+Bexaroteno es un retinoide sintético que activa el receptor X de retinoides (RXR) y cuenta con autorizaciones vigentes en España.
+El modelo TxGNN predice que podría ser efectivo para **linfoma cutáneo primario de células B (primary cutaneous B-cell lymphoma)**.
+Esta dirección tiene **0 ensayos clínicos** y **10 publicaciones generales** (revisiones y casos clínicos), ninguna de las cuales estudia bexaroteno en este linfoma, por lo que el respaldo es muy limitado.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Linfoma cutáneo primario de células T (no Hodgkin) |
-| Nueva Indicación Predicha | Linfoma cutáneo primario de células B |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Linfoma cutáneo primario de células B (primary cutaneous B-cell lymphoma) |
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
@@ -56,11 +56,11 @@ pero actualmente **no hay ensayos clínicos** registrados y solo hay **10 public
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Bexaroteno es un agonista del receptor X de retinoides (RXR). Al activarlo, induce apoteosis y diferenciación en células T malignas, y ese es el fundamento de su uso aprobado en el linfoma cutáneo de células T. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento general del fármaco.
+Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la literatura revisada, bexaroteno es un agonista selectivo de los receptores X de retinoides. Al activarlos, modula la expresión génica, el crecimiento celular, la apoptosis y la diferenciación. Este mecanismo se ha descrito sobre todo en linfocitos T malignos.
 
-La relación entre ambas indicaciones es sobre todo de "vecindad": los linfomas cutáneos de células T y de células B son linfomas no Hodgkin que afectan a la piel y se agrupan en las mismas clasificaciones (OMS/EORTC). El puntaje de TxGNN es muy alto (0.9944), pero probablemente refleja la cercanía en la red de conocimiento con las indicaciones aprobadas de linfoma de células T, y no una señal específica de células B.
+El puntaje del modelo es muy alto, pero probablemente refleja la cercanía en la red de relaciones biomédicas con otros linfomas cutáneos, no una prueba de actividad en células B. Los datos compilados no respaldan un mecanismo específico de células B. Las publicaciones recuperadas son revisiones generales de linfomas cutáneos y casos clínicos que no muestran actividad de bexaroteno en la enfermedad de células B.
 
-No hay datos que respalden un mecanismo específico para la enfermedad de células B. La literatura recuperada son revisiones generales de linfomas cutáneos y reportes de caso que no muestran actividad de bexaroteno en esta enfermedad. Por ello, la plausibilidad mecanística no puede confirmarse con la información disponible.
+Por tanto, la predicción es biológicamente plausible solo de forma indirecta. Para que se considere una hipótesis sólida, haría falta demostrar que la vía RXR es relevante en el linfoma cutáneo de células B.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,18 +70,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Revisión | Therapeutische Umschau | Revisión de linfomas cutáneos T y B y de la clasificación OMS/EORTC; incidencia aproximada de 1:100 000 al año |
-| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Revisión | Australas J Dermatol | Manejo de linfomas cutáneos primarios; los retinoides figuran entre las estrategias clásicas |
-| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Revisión | Der Pathologe | Presentación, diagnóstico y tratamiento; bexaroteno se menciona como terapia sistémica en estadios avanzados y síndrome de Sézary (enfermedad T) |
-| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Revisión | Der Hautarzt | Misma revisión en otra revista; bexaroteno mencionado en enfermedad T avanzada |
-| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Revisión | Skin Pharmacol Physiol | Terapias dirigidas a la piel, nuevas y experimentales, para linfomas cutáneos |
-| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Serie de casos | Der Hautarzt | Serie de 163 pacientes con linfoma cutáneo primario de la práctica clínica habitual |
-| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Serie de casos | Arch Dermatol | 5 casos de linfoma cutáneo T folicular helper, un nuevo subtipo T |
-| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Reporte de caso / Revisión | J Cutan Pathol | Dificultades diagnósticas del linfoma T folicular helper, confundido inicialmente con linfoma B; el rituximab falló |
-| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Reporte de caso | Croat Med J | Linfoma B cutáneo asociado a VEB en un paciente con micosis fungoide; recuperación con aciclovir tópico |
-| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Reporte de caso | Clin Lymphoma | Papulosis linfomatoide con linfoma anaplásico de células grandes de intestino delgado |
-
-Ninguna de estas publicaciones muestra actividad de bexaroteno en el linfoma cutáneo de células B.
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Revisión | Der Pathologe | Revisión de linfomas cutáneos. Indica que las fases avanzadas requieren terapias sistémicas, entre ellas bexaroteno, sin evaluarlo en células B. |
+| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Revisión | Der Hautarzt | Presentación clínica, diagnóstico y tratamiento de linfomas cutáneos. Menciona bexaroteno como opción sistémica en enfermedad avanzada. |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Revisión | Therapeutische Umschau | Describe los linfomas cutáneos de células T y B, su baja incidencia y su clasificación OMS/EORTC. |
+| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Revisión | Skin Pharmacology and Physiology | Terapias dirigidas a la piel, nuevas y experimentales, para linfomas cutáneos. |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Revisión | Australasian Journal of Dermatology | Manejo de linfomas cutáneos primarios. Entre las estrategias clásicas incluye los retinoides. |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Serie de casos/Revisión | Journal of Cutaneous Pathology | Errores diagnósticos en el linfoma cutáneo T folicular auxiliar, confundido inicialmente con un linfoma de células B. |
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Serie de casos | Der Hautarzt | Serie clínica de 163 pacientes con linfoma cutáneo primario. |
+| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Serie de casos | Archives of Dermatology | Cinco casos de un subtipo de linfoma cutáneo T con marcadores foliculares. |
+| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Reporte de caso | Croatian Medical Journal | Recuperación de un linfoma cutáneo B asociado al virus de Epstein-Barr con aciclovir tópico. No se evaluó bexaroteno. |
+| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Reporte de caso | Clinical Lymphoma | Papulosis linfomatoide infantil asociada a un linfoma anaplásico de células grandes intestinal. |
 
 ## Información de Mercado en España
 
@@ -90,38 +88,39 @@ Ninguna de estas publicaciones muestra actividad de bexaroteno en el linfoma cut
 | 86479 | BEXAROTENO CIPLA 75 MG CÁPSULAS BLANDAS EFG | Cápsula blanda |
 | 01178001 | TARGRETIN 75 MG, CÁPSULAS BLANDAS | Cápsula blanda |
 
+Las dos autorizaciones están vigentes y corresponden a medicamentos de un único principio activo.
+
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (rexinoide, agonista de RXR); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo a medio; la leucopenia figura entre las condiciones de precaución. Consultar el prospecto |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Hemograma, perfil lipídico (triglicéridos y colesterol), función tiroidea, función hepática, glucemia |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y la normativa local de manejo de fármacos antineoplásicos |
+| Clasificación de Citotoxicidad | Terapia dirigida (agonista del receptor X de retinoides); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma, función hepática, función tiroidea, glucemia y vigilancia de pancreatitis, según las condiciones de riesgo registradas |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Condiciones de precaución o contraindicación según el grafo de conocimiento** (no proceden del texto del prospecto): insuficiencia hepática, enfermedad hepática, pancreatitis, enfermedad de la vesícula biliar, enfermedad de las vías biliares, ictericia obstructiva, hipotiroidismo (incluidos mixedema e hipotiroidismo congénito), diabetes mellitus, cetoacidosis diabética, abuso o dependencia de sustancias y leucopenia.
-- **Interacciones farmacológicas**: se identificaron 495 interacciones.
-  - *Mayores*: albiglutida, alogliptina, dulaglutida, eluxadolina y exenatida.
-  - *Moderadas*: corticoides (hidrocortisona, triamcinolona, dexametasona, betametasona), sulfonilureas (acetohexamida, clorpropamida, glimepirida, glipizida, gliburida), cisaprida, eliglustat y granisetrón.
-  - *Menores*: aprepitant, claritromicina y clotrimazol.
+- **Condiciones clínicas que requieren precaución** (relaciones de contraindicación registradas en los datos compilados, no extraídas del texto de la ficha técnica): insuficiencia hepática, enfermedad hepática, pancreatitis, enfermedad de la vesícula biliar, enfermedad de las vías biliares, ictericia obstructiva, hipotiroidismo (incluidos el mixedema y el hipotiroidismo congénito), diabetes mellitus, cetoacidosis diabética, abuso o dependencia de sustancias y leucopenia.
+- **Interacciones farmacológicas**: se registran 495 interacciones. Entre las principales:
+  - **Mayores**: albiglutida, alogliptina, dulaglutida, eluxadolina y exenatida.
+  - **Moderadas**: corticosteroides (hidrocortisona, triamcinolona, dexametasona y betametasona), sulfonilureas (acetohexamida, clorpropamida, glimepirida, glipizida y gliburida), cisaprida, eliglustat y granisetrón.
+  - **Menores**: aprepitant, claritromicina y clotrimazol.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo (L5): no hay ensayos clínicos y la literatura disponible no demuestra actividad de bexaroteno en el linfoma cutáneo de células B. El puntaje alto probablemente refleja la cercanía con la indicación aprobada en células T, y la carga de seguridad es considerable (495 interacciones y múltiples condiciones de precaución).
+No hay ensayos clínicos ni estudios publicados que evalúen bexaroteno en el linfoma cutáneo primario de células B. El puntaje alto del modelo (0,9944) no sustituye esa evidencia, y el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos que muestren actividad de la vía RXR en células de linfoma B cutáneo.
-- Reportes de caso o series que documenten el uso de bexaroteno en linfoma cutáneo de células B.
-- Datos detallados del mecanismo de acción y su relevancia en células B.
-- Revisión del prospecto aprobado en España (advertencias y contraindicaciones), ya que los datos compilados no las incluyen.
-- Plan de monitoreo de lípidos, tiroides, función hepática y hemograma, junto con una revisión de interacciones.
-- Si se avanza, un ensayo exploratorio de Fase 2 en un subtipo específico de linfoma B cutáneo.
+- Datos mecanísticos que muestren si la vía RXR es relevante en las células B malignas de la piel.
+- Estudios preclínicos o series de casos que evalúen bexaroteno en este linfoma.
+- Información completa de seguridad de la ficha técnica (advertencias y contraindicaciones), que no está disponible en los datos compilados.
+- Un plan de monitoreo de seguridad que considere las condiciones de riesgo y las interacciones principales.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clotrimazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Clotrimazole: Acné (acne (disease)) (acne (disease))
+## Clotrimazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,7 +48,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero solo exist
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Acné (acne (disease)) (acne (disease)) |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |

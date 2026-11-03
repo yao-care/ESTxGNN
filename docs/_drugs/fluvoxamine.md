@@ -4,17 +4,17 @@ title: Fluvoxamine
 parent: Solo predicción del modelo (L5)
 nav_order: 353
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Fluvoxamine"
-predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
-description: "Fluvoxamine: nueva indicación predicha, Schizoid personality disorder (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Fluvoxamine: nueva indicación predicha, Trastorno esquizoide de la personalidad (schizoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fluvoxamine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluvoxamine: Schizoid personality disorder
+## Fluvoxamine: Trastorno esquizoide de la personalidad (schizoid personality disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La fluvoxamina es un inhibidor selectivo de la recaptación de serotonina (ISRS), utilizado originalmente para la fobia social, los trastornos fóbicos y el trastorno obsesivo-compulsivo (TOC).
-El modelo TxGNN predice que podría ser eficaz para el **trastorno esquizoide de la personalidad**,
-pero actualmente hay **0 ensayos clínicos** y **1 publicación** de apoyo indirecto, por lo que se trata únicamente de una predicción del modelo.
+Fluvoxamina es un inhibidor selectivo de la recaptación de serotonina que actúa sobre el transportador SERT y el receptor sigma-1.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno esquizoide de la personalidad (schizoid personality disorder)**,
+pero la evidencia es muy limitada: **ningún ensayo clínico** y **1 publicación** que no estudia directamente esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Schizoid personality disorder |
+| Nueva Indicación Predicha | Trastorno esquizoide de la personalidad (schizoid personality disorder) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
@@ -56,11 +56,9 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** de apoyo indir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados no incluyen una descripción detallada del mecanismo de acción. Sí muestran que la fluvoxamina actúa sobre el transportador de serotonina (SERT, gen *SLC6A4*), que inhibe, y que tiene alta afinidad por el receptor sigma-1 (*SIGMAR1*), sobre el que parece actuar como agonista. Es un ISRS cuya eficacia está demostrada en la fobia social y el TOC.
+Los datos compilados para este informe indican que la fluvoxamina se une con alta afinidad al transportador de serotonina (SERT, gen SLC6A4) y al receptor sigma-1 (SIGMAR1), sobre el que parece actuar como agonista. Al bloquear SERT aumenta la serotonina disponible en la sinapsis. No se dispone de una descripción más detallada del mecanismo de acción.
 
-El modelo TxGNN (aprendizaje profundo) asocia estas indicaciones con el trastorno esquizoide de la personalidad, y la puntuación procede de dicho modelo. Puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
-
-No se ha establecido un vínculo mecanístico directo. La única publicación asociada (PMID 10929788) describe los trastornos de personalidad en pacientes con trastorno dismórfico corporal, algunos de los cuales participaron en un estudio con fluvoxamina. No evalúa la fluvoxamina como tratamiento del trastorno esquizoide.
+Sin embargo, no se ha establecido un vínculo mecanístico directo con el trastorno esquizoide de la personalidad. El puntaje alto del modelo parece reflejar la cercanía de esta enfermedad con otros trastornos psiquiátricos y dianas serotoninérgicas, no una prueba farmacológica específica. Por ello, esta predicción debe considerarse una hipótesis sin respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,7 +68,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Estudio de cohorte | Comprehensive Psychiatry | Evaluó trastornos y rasgos de personalidad en 148 personas con trastorno dismórfico corporal, 26 de las cuales participaron en un estudio de tratamiento con fluvoxamina. No prueba la fluvoxamina para el trastorno esquizoide. |
+| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohorte | Comprehensive Psychiatry | Estudio de 148 personas con trastorno dismórfico corporal, 26 de ellas en un estudio de tratamiento con fluvoxamina; describe rasgos y trastornos de la personalidad como comorbilidad. No evalúa fluvoxamina para el trastorno esquizoide de la personalidad. |
 
 ## Información de Mercado en España
 
@@ -81,33 +79,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 63277 | FLUVOXAMINA SANDOZ 100 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
 | 63276 | FLUVOXAMINA SANDOZ 50 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
 
-Las cuatro autorizaciones son de medicamentos con un solo principio activo y están vigentes. Pertenecen a Viatris Healthcare Limited (Dumirox) y Sandoz Farmacéutica S.A. (Fluvoxamina Sandoz).
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones o enfermedades de riesgo según el grafo de conocimiento** (no proceden del texto del prospecto): epilepsia, trastorno bipolar, trastorno afectivo mayor, enfermedad hepática, enfermedad de la vesícula biliar, trastornos de la coagulación, síndrome neuroléptico maligno, síndrome de secreción inapropiada de ADH, síndrome nefrogénico de antidiuresis inapropiada y síndrome serotoninérgico.
-- **Perfil farmacológico**: la fluvoxamina se une al transportador de serotonina (SERT) y al receptor sigma-1. Los datos compilados no incluyen interacciones medicamentosas clínicas específicas.
+- **Interacciones farmacológicas / farmacología**: los datos compilados muestran unión a SERT y al receptor sigma-1 (SIGMAR1). No incluyen interacciones con otros medicamentos con nivel de gravedad asignado.
 
-Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en el modelo, pero no cuenta con ensayos clínicos y solo con una publicación indirecta que no evalúa la fluvoxamina para este trastorno. La evidencia es de nivel L5 (solo predicción del modelo).
+La predicción no cuenta con ensayos clínicos y la única publicación vinculada no estudia fluvoxamina en el trastorno esquizoide de la personalidad; por ello el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o series de casos que prueben directamente la fluvoxamina en el trastorno esquizoide de la personalidad.
-- Una justificación mecanística específica que vaya más allá de las similitudes entre enfermedades relacionadas que aprendió el modelo TxGNN (aprendizaje profundo).
-- Las advertencias y contraindicaciones oficiales del prospecto de la AEMPS, así como los textos de indicación aprobados.
-- Datos detallados del mecanismo de acción.
+- Estudios clínicos o preclínicos que evalúen directamente la fluvoxamina en el trastorno esquizoide de la personalidad
+- Fundamento mecanístico que conecte la acción serotoninérgica o sigma-1 con esta enfermedad
+- Revisión de las advertencias y contraindicaciones del prospecto en España antes de cualquier evaluación posterior
 
-**Nota adicional:** en las demás predicciones de este análisis hay candidatos con evidencia más sólida, ambos con decisión *Proceed with Guardrails*:
-- **Trastorno de ansiedad**: nivel L1, con ensayos de Fase 3 y metaanálisis.
-- **Agorafobia**: nivel L2, con ensayos aleatorizados doble ciego en trastorno de pánico.
-
-También destaca la **depresión endógena** (nivel L2), con un ensayo de Fase 2 en curso (NCT04160377). Estos tres casos son sobre todo extensiones de la familia de indicaciones originales, más que un reposicionamiento nuevo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
