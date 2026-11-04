@@ -1,6 +1,6 @@
 {
   "total": 830,
-  "generated_at": "2026-11-04T05:52:05.112536",
+  "generated_at": "2026-11-04T19:37:58.828130",
   "drugs": [
     {
       "name": "Abacavir",
@@ -4212,7 +4212,7 @@
     {
       "name": "Dronabinol",
       "file": "dronabinol.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 9,
       "predicted_indication": "",
       "inn": "dronabinol",
@@ -7778,7 +7778,7 @@
     {
       "name": "Lornoxicam",
       "file": "lornoxicam.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 8,
       "predicted_indication": "",
       "inn": "LORNOXICAM",
@@ -8686,7 +8686,7 @@
     {
       "name": "Modafinil",
       "file": "modafinil.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "modafinil",
@@ -9401,7 +9401,7 @@
     {
       "name": "Omalizumab",
       "file": "omalizumab.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 9,
       "predicted_indication": "",
       "inn": "OMALIZUMAB",
@@ -11826,7 +11826,7 @@
     {
       "name": "Sirolimus",
       "file": "sirolimus.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 6,
       "predicted_indication": "",
       "inn": "SIROLIMUS",
