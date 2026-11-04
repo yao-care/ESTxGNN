@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sorafenib
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 744
-evidence_level: L2
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
-description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,11 +38,9 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Sorafenib es un inhibidor multicinasa originalmente utilizado para el tratamiento del carcinoma hepatocelular, el carcinoma de células renales y el carcinoma de tiroides.
-El modelo TxGNN predice que podría ser efectivo para **liposarcoma**,
-con **1 ensayo clínico** (Fase 2, en sarcomas de tejidos blandos de histología mixta) y **8 publicaciones** que actualmente respaldan esta dirección, aunque la evidencia específica en liposarcoma es limitada.
-
----
+Sorafenib es un inhibidor multicinasa que actúa sobre RAF, los receptores VEGFR y PDGFR y KIT, y se comercializa en España en comprimidos recubiertos con película.
+El modelo TxGNN predice que podría ser útil para **liposarcoma (liposarcoma)**, pero ningún estudio evalúa sorafenib específicamente en esta enfermedad: solo hay un ensayo de fase 2 en sarcomas de tejidos blandos en general y datos preclínicos en otros tipos de tumor.
+Por ello, el nivel de evidencia es **L5**.
 
 ## Resumen Rápido
 
@@ -51,47 +49,41 @@ con **1 ensayo clínico** (Fase 2, en sarcomas de tejidos blandos de histología
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9982 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 6 de 12) |
 | Número de Autorizaciones | 12 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, sorafenib es un inhibidor multicinasa que actúa sobre RAF, VEGFR, PDGFR y KIT, con efecto antiangiogénico y bloqueo de la vía MAPK. Su eficacia en carcinoma hepatocelular y carcinoma renal está establecida.
+Sorafenib es un inhibidor multicinasa que bloquea la vía RAF/MEK/ERK (MAPK) y los receptores VEGFR y PDGFR, implicados en la angiogénesis y en el crecimiento tumoral. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que esta descripción se basa en el conocimiento general del fármaco.
 
-Los sarcomas de tejidos blandos, entre ellos el liposarcoma, dependen en parte de la angiogénesis y de la señalización MAPK, por lo que mecanísticamente el fármaco podría ser aplicable. Los datos preclínicos muestran inhibición de la vía MAPK en modelos de sarcoma, incluidas líneas celulares de liposarcoma desdiferenciado.
+Tanto la angiogénesis como la señalización MAPK se han implicado en el crecimiento de los sarcomas de tejidos blandos, y existen datos preclínicos de inhibición de la vía MAPK en modelos de sarcoma, incluidas líneas celulares de liposarcoma desdiferenciado. Esto ofrece un argumento mecanístico plausible.
 
-Sin embargo, la actividad clínica en sarcomas depende de la histología y parece modesta en liposarcoma. El único ensayo disponible es de brazo único y con histologías mezcladas, por lo que no permite aislar la eficacia específica en liposarcoma.
-
----
+Sin embargo, la actividad clínica en sarcoma depende de la histología y parece modesta en liposarcoma. La predicción del modelo debe considerarse una hipótesis de investigación, no una conclusión clínica.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Fase 2 | Completado | 51 | Sorafenib (BAY 43-9006) en sarcomas de tejidos blandos avanzados; estudio de brazo único con histologías mixtas, sin resultados específicos para liposarcoma |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Fase 2 | Completado | 51 | Sorafenib en sarcomas de tejidos blandos avanzados; estudio de un solo brazo con histologías mixtas, sin aislar la eficacia en liposarcoma |
 
----
+Este ensayo no estudia el liposarcoma de forma específica, por lo que no permite elevar el nivel de evidencia.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Ensayo Fase 2 (SWOG S0505) | Cancer | Sorafenib, inhibidor multicinasa (RAF, VEGFR1-3, PDGFR-B, FLT3, c-kit), en sarcomas de tejidos blandos avanzados |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Ensayo Fase 1 | Annals of Surgical Oncology | Radioterapia conformada neoadyuvante más sorafenib en sarcoma de tejidos blandos localmente avanzado de extremidades |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Revisión | Annals of Oncology | Tratamiento de sarcomas de tejidos blandos según histología; trabectedina con alta actividad en liposarcoma mixoide |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Revisión | Magyar Onkologia | Tratamiento médico de sarcomas de tejidos blandos según subtipo histológico |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclínico | Molecular Cancer Therapeutics | Sorafenib inhibe el crecimiento y la señalización MAPK en células de tumores de la vaina nerviosa periférica y en líneas de liposarcoma desdiferenciado |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclínico (xenoinjerto) | American Journal of Pathology | Modelos de xenoinjerto de liposarcoma desdiferenciado; respuesta a la inhibición de la vía PI3K |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Revisión (modelos PDOX) | Frontiers in Oncology | Modelos PDOX de sarcoma y terapias combinadas con palbociclib |
-| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Reporte de caso | Anti-Cancer Drugs | Respuesta a trabectedina (no sorafenib) en sarcoma sinovial; relevancia indirecta |
-
----
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Ensayo fase 2 (SWOG S0505) | Cancer | Sorafenib en sarcomas de tejidos blandos avanzados, con histologías mixtas |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Ensayo fase 1 | Ann Surg Oncol | Sorafenib con radioterapia neoadyuvante en sarcoma de tejidos blandos localmente avanzado de extremidad |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Revisión | Magyar Onkologia | Tratamiento médico de sarcomas de tejidos blandos según el subtipo histológico |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Revisión | Ann Oncol | Terapias según histología en sarcomas de tejidos blandos |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclínico | Mol Cancer Ther | Sorafenib inhibe el crecimiento y la señalización MAPK en células de tumor maligno de vaina nerviosa periférica; incluye líneas de liposarcoma desdiferenciado |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclínico | Am J Pathol | Modelos de xenoinjerto de liposarcoma desdiferenciado y respuesta a la inhibición de la vía PI3K |
 
 ## Información de Mercado en España
+
+Sorafenib está comercializado en España: hay 12 autorizaciones registradas, de las cuales 6 están vigentes y 4 canceladas.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -101,44 +93,34 @@ Sin embargo, la actividad clínica en sarcomas depende de la histología y parec
 | 90146 | Sorafenib Eugia 200 mg EFG | Comprimido recubierto con película | No disponible |
 | 85665 | Sorafenib Viatris 200 mg EFG | Comprimido recubierto con película | No disponible |
 
-Se muestran 5 de las 12 autorizaciones vigentes (todas de medicamentos de un solo principio activo).
-
----
-
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multicinasa) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. El grafo de conocimiento asocia el fármaco con trombocitopenia, neutropenia y anemia como contraindicaciones o precauciones |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma, función hepática y renal, presión arterial, fosfatemia, lipasa/amilasa |
+| Items de Monitoreo | Hemograma, función hepática y renal, presión arterial |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo (según el grafo de conocimiento, no texto del prospecto)**: hipertensión, insuficiencia hepática, trastornos de ansiedad y neuróticos, trastorno distímico, trombocitopenia, neutropenia, agranulocitosis, trastornos de la coagulación, síndrome coronario agudo, enfermedad arterial coronaria, infarto de miocardio, isquemia miocárdica, hemoglobinopatías, anemia, hipofosfatemia y pancreatitis.
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones. Entre las mostradas, la de mayor gravedad es con **dolasetrón** (Mayor). Hay interacciones de gravedad moderada con famotidina, loperamida, dexametasona, bisacodilo, claritromicina, levofloxacino, palonosetrón, naltrexona, lactulosa y otros; y de gravedad leve con dapagliflozina, metronidazol y naloxegol.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones. Entre las principales figura una de nivel mayor con dolasetrón. Hay varias de nivel moderado, por ejemplo con famotidina, loperamida, dexametasona, claritromicina, levofloxacino, palonosetrón y naltrexona. También hay algunas de nivel menor, como dapagliflozina, naloxegol y metronidazol.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje del modelo es muy alto y existe un ensayo de Fase 2 completado, este es de brazo único con histologías mixtas y no aísla la eficacia en liposarcoma. La actividad clínica en sarcomas parece modesta y no hay evidencia de Fase 3 ni datos de seguridad oficiales.
+Ningún estudio evalúa sorafenib en liposarcoma: los ensayos incluyen sarcomas de tejidos blandos en general y los datos preclínicos proceden de otros tumores. La actividad clínica en liposarcoma parece modesta, por lo que la evidencia no respalda avanzar por ahora.
 
 **Para avanzar se necesita:**
-- Datos de eficacia específicos de liposarcoma (análisis por subgrupo histológico del ensayo NCT00217620 y del estudio SWOG S0505)
-- Datos del mecanismo de acción detallados
-- Advertencias y contraindicaciones del prospecto de la AEMPS
-- Evaluación del perfil de seguridad (cardiovascular, hematológico, hepático) frente a las alternativas establecidas en liposarcoma, como trabectedina
-- Plan de monitoreo de seguridad e interacciones farmacológicas
+- Estudios clínicos o análisis por subgrupo que evalúen sorafenib de forma específica en liposarcoma.
+- Datos detallados del mecanismo de acción.
+- Información de seguridad del prospecto (advertencias y contraindicaciones) para completar el cribado de seguridad.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -3,18 +3,18 @@ layout: default
 title: Miconazole
 parent: Evidencia moderada (L3-L4)
 nav_order: 524
-evidence_level: L3
+evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-04
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Miconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Miconazole: Acné (acne (disease))
+## Miconazole: acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Miconazol es un antifúngico imidazólico, utilizado originalmente para tratar infecciones cutáneas por hongos (tiña del pie, tiña corporal, candidiasis cutánea, pitiriasis versicolor y candidiasis vulvovaginal).
-El modelo TxGNN predice que podría ser efectivo para **acné**,
-con **0 ensayos clínicos** y **4 publicaciones** (una revisión, dos estudios clínicos y un estudio in vitro) que actualmente respaldan esta dirección de forma preliminar.
+Miconazol es un antifúngico de la clase de los imidazoles, utilizado en infecciones cutáneas y mucosas por hongos.
+El modelo TxGNN predice que podría ser efectivo para **acné (acne (disease))**, con un puntaje de 0.9954.
+Actualmente no hay ensayos clínicos registrados y solo **4 publicaciones** relacionadas respaldan esta dirección (nivel de evidencia **L4**, basado en una revisión sobre los efectos antibacterianos y antiinflamatorios del miconazol en la piel, sin estudios clínicos directos en acné).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Nueva Indicación Predicha | acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9954 |
-| Nivel de Evidencia | L3 |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
 | Número de Autorizaciones | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, miconazol es un antifúngico imidazólico que inhibe la lanosterol 14-alfa-desmetilasa fúngica (CYP51) y, con ello, la síntesis de ergosterol. Su eficacia en infecciones cutáneas fúngicas está bien establecida, y mecanísticamente podría ser aplicable al acné. Esta explicación se infiere del conocimiento general de la clase farmacológica.
+Miconazol es un antifúngico imidazólico que inhibe la lanosterol 14-alfa-demetilasa fúngica (CYP51) y, con ello, la síntesis de ergosterol. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, por lo que este mecanismo se infiere del conocimiento general de la clase.
 
-La relación con el acné tiene dos vías plausibles. Primero, existe actividad *in vitro* de los azoles frente a *Cutibacterium* (*Propionibacterium*) *acnes*, la bacteria implicada en el acné vulgar. Segundo, miconazol actúa contra *Malassezia* (*Pityrosporum*), causante de la foliculitis por *Malassezia*, una afección parecida al acné que con frecuencia se diagnostica erróneamente como acné vulgar. Además, se han descrito efectos antiinflamatorios y antibacterianos de miconazol en la piel, que podrían ser relevantes para las lesiones inflamatorias del acné.
+Su relevancia para el acné tiene dos vías. Primero, hay actividad *in vitro* de los azoles frente a *Cutibacterium (Propionibacterium) acnes* (PMID 20045949). Segundo, el miconazol actúa contra *Malassezia* (*Pityrosporum*), causante de la foliculitis por Malassezia, un cuadro parecido al acné que a menudo se diagnostica erróneamente como acné vulgar (PMID 8593718).
 
-Conviene interpretar con cautela el puntaje del modelo (0,9954): es una predicción computacional y no constituye evidencia clínica. Parte del beneficio observado podría deberse al tratamiento de foliculitis por *Malassezia* confundida con acné, y no a un efecto sobre el acné propiamente dicho.
+Además, se han descrito efectos antiinflamatorios y antibacterianos del miconazol en la piel (PMID 18627330), que podrían ser relevantes para las lesiones inflamatorias del acné. El puntaje alto de TxGNN es solo una predicción computacional y no constituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,10 +70,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Revisión | Expert Opinion on Pharmacotherapy | Revisión sobre los efectos múltiples de miconazol en trastornos cutáneos; lo describe como un antifúngico imidazólico clásico |
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Estudio clínico (split-face) | Skin Research and Technology | Evaluación clínica y bioinstrumental en acné catamenial inflamatorio leve |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Estudio clínico | Clinical and Experimental Dermatology | Diagnóstico y ensayos terapéuticos en 62 pacientes con foliculitis por *Pityrosporum*, a menudo confundida con acné vulgar |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Estudio in vitro | Biological & Pharmaceutical Bulletin | Actividad *in vitro* de antifúngicos azólicos frente a *P. acnes* aislado de pacientes con acné vulgar |
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Revisión | Expert Opinion on Pharmacotherapy | Revisión de los efectos multifacéticos del miconazol en trastornos cutáneos, incluidos efectos antibacterianos y antiinflamatorios |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Estudio clínico | Skin Research and Technology | Evaluación clínica y bioinstrumental de cara dividida en acné catamenial inflamatorio leve |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Estudio clínico | Clinical and Experimental Dermatology | Diagnóstico y ensayos terapéuticos en foliculitis por Pityrosporum (Malassezia), a menudo confundida con acné vulgar |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Estudio *in vitro* | Biological & Pharmaceutical Bulletin | Actividad *in vitro* de antifúngicos azólicos frente a *P. acnes* aislado de pacientes con acné vulgar |
 
 ## Información de Mercado en España
 
@@ -83,27 +83,28 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 52875 | FUNGISDIN 8,7 MG/ML SOLUCIÓN PARA PULVERIZACIÓN CUTÁNEA | Solución para pulverización cutánea | No disponible en los datos compilados |
 | 55962 | DAKTARIN 20 MG/G GEL ORAL | Gel oral | No disponible en los datos compilados |
 
+De las 3 autorizaciones, 2 están vigentes y 1 está cancelada.
+
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): enfermedad hepática y enfermedad de la vesícula biliar.
-- **Interacciones farmacológicas / farmacología**: según los datos de farmacología, miconazol se une a los canales TRPM2 y TRPV5 y a la enzima CYP8B1, inhibiendo esta última. Se trata de interacciones con dianas, no de interacciones clínicas con otros fármacos, y no tienen nivel de gravedad asignado.
+- **Posibles enfermedades de precaución**: enfermedad hepática y enfermedad de la vesícula biliar.
+- **Interacciones farmacológicas / farmacología**: miconazol se une a TRPM2, TRPV5 y CYP8B1 (inhibición de CYP8B1 humano). Se trata de datos de farmacología de dianas, no de interacciones clínicas confirmadas con otros fármacos.
 
-Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a una revisión, dos estudios clínicos pequeños y antiguos (con posible confusión con foliculitis por *Malassezia*) y un estudio *in vitro*, sin ensayos clínicos registrados. El puntaje del modelo es alto, pero por sí solo no justifica avanzar; además, faltan los datos de seguridad del prospecto.
+La predicción tiene un puntaje alto en TxGNN y una base plausible (actividad frente a *C. acnes* y *Malassezia*), pero no hay ensayos clínicos ni estudios clínicos directos del miconazol en acné; la evidencia se limita a una revisión de efectos cutáneos (nivel L4).
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), requisito previo al cribado de seguridad.
-- Confirmar el mecanismo de acción en DrugBank.
-- Revisar en detalle los estudios clínicos existentes para distinguir el efecto en acné vulgar del efecto en foliculitis por *Malassezia*.
-- Evaluar la compatibilidad de las vías de administración y formulaciones tópicas para acné (pendiente de análisis).
-- Diseñar estudios clínicos controlados que respalden la indicación en acné.
-- Valorar el riesgo en pacientes con enfermedad hepática o de la vesícula biliar.
+- Ensayos clínicos controlados de miconazol en acné (idealmente de Fase 2)
+- Datos detallados del mecanismo de acción
+- Información de advertencias y contraindicaciones del prospecto
+- Evaluación de la compatibilidad de formulaciones y vías de administración para uso en acné
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

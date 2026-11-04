@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Valsartan
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 838
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-04
 monitor_inn: "valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-description: "Valsartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Valsartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Valsartan: Malignant hypertensive renal disease
+## Valsartan: Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Valsartán es un antagonista del receptor de angiotensina II tipo 1 (AT1), originalmente utilizado para el tratamiento de la hipertensión arterial.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**,
-pero actualmente solo existe **1 publicación preclínica** (estudio en animales) y **ningún ensayo clínico** que respalde esta dirección. Además, la indicación está muy cerca de la ya existente, por lo que no constituye un reposicionamiento genuino.
+Valsartán es un antagonista del receptor de angiotensina II que bloquea el sistema renina-angiotensina.
+El modelo TxGNN predice que podría ser útil para **enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)**, pero actualmente **no hay ensayos clínicos** ni publicaciones que estudien directamente valsartán en esta enfermedad; el nivel de evidencia es **L5**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9997 |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, valsartán es un bloqueador del receptor AT1 de angiotensina II, su eficacia en hipertensión está comprobada y, mecanísticamente, podría ser aplicable a la hipertensión maligna.
+Los datos compilados para este informe no incluyen información detallada sobre el mecanismo de acción. Según la información conocida, valsartán pertenece a la clase de los antagonistas del receptor AT1 de angiotensina II, que reducen la presión arterial al bloquear el sistema renina-angiotensina.
 
-La hipertensión maligna se asocia en parte con la activación del sistema renina-angiotensina (SRA), por lo que el bloqueo de AT1 es biológicamente plausible. La única publicación disponible (PMID 11560862, 2001) es un estudio preclínico en el que el bloqueo del receptor AT1 previno la hipertensión maligna letal en ratas, incluso con relación a la inflamación renal. Es una evidencia indirecta y no demuestra eficacia clínica de valsartán en humanos.
+Como el sistema renina-angiotensina participa en el daño renal asociado a la hipertensión grave, el bloqueo de esta vía es biológicamente plausible para la enfermedad renal hipertensiva maligna. Esta es una hipótesis mecanística, no una demostración clínica.
 
-Cabe destacar que esta indicación es muy cercana a la hipertensión ya autorizada, por lo que el puntaje alto del modelo refleja sobre todo proximidad en la red de conocimiento y no un hallazgo nuevo.
+El puntaje alto de TxGNN refleja únicamente la proximidad en la red de relaciones biomédicas del modelo y no constituye evidencia directa de eficacia en esta enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,7 +69,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) | 2001 | Preclínico (animal) | Circulation | El bloqueo del receptor AT1 de angiotensina II previno la hipertensión maligna letal, con relación a la inflamación renal |
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclínico | Pharmacological Research | Avosentán, un antagonista del receptor de endotelina (no valsartán), protegió frente a la nefropatía hipertensiva en ratas transgénicas con dosis que no causaron retención de líquidos |
+
+Esta publicación trata de otro fármaco, por lo que no aporta evidencia directa sobre valsartán.
 
 ## Información de Mercado en España
 
@@ -82,32 +83,24 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 66910 | Diovan Cardio 40 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 | 77990 | Presar 320 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible en los datos |
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas en el grafo de conocimiento** (no provienen del texto del prospecto): insuficiencia hepática y enfermedad hepática, pancreatitis, enfermedad de la vesícula biliar, angioedema (incluido el hereditario y el inducido por bloqueantes del SRA), lupus eritematoso sistémico, deficiencia de potasio, diabetes mellitus y cetoacidosis diabética, neutropenia y agranulocitosis, trastornos hipotensivos, hiperparatiroidismo, hipercalcemia, nefrocalcinosis, gota, anuria, obstrucción de la arteria renal y deterioro de la función renal.
-- **Interacciones farmacológicas**: se identificaron 254 interacciones. Las de nivel **mayor** incluyen **cloruro de potasio** y **bicarbonato de potasio** (riesgo de hiperpotasemia). Entre las de nivel moderado figuran hidrocortisona, exenatida, eluxadolina, polietilenglicol con electrolitos y múltiples insulinas.
+- **Interacciones Farmacológicas**: se identificaron 254 interacciones en total. Las de nivel mayor incluyen el bicarbonato de potasio y el cloruro de potasio (riesgo de hiperpotasemia). Entre las moderadas figuran la hidrocortisona, la eluxadolina, la exenatida, numerosas insulinas y el polietilenglicol con electrolitos.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La única evidencia es un estudio preclínico indirecto, sin ensayos clínicos, y la indicación predicha es prácticamente una variante de la hipertensión ya autorizada, por lo que aporta poco valor como reposicionamiento.
+No existe ningún estudio que evalúe valsartán en la enfermedad renal hipertensiva maligna, y la única publicación disponible trata de otro fármaco. La predicción se apoya solo en el puntaje del modelo (nivel de evidencia L5).
 
 **Para avanzar se necesita:**
-- Estudios clínicos que evalúen directamente valsartán en hipertensión renovascular o maligna.
-- Descargar y analizar el prospecto de la AEMPS (advertencias y contraindicaciones oficiales), pendiente para la revisión de seguridad.
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank.
-- Aclarar si la indicación ya queda cubierta por la ficha técnica actual, lo que anularía la necesidad de reposicionamiento.
-- Plan de vigilancia de potasio y función renal, dadas las interacciones y contraindicaciones identificadas.
+- Estudios preclínicos o clínicos que evalúen valsartán directamente en esta enfermedad
+- Datos detallados del mecanismo de acción
+- Revisión de las advertencias y contraindicaciones del prospecto, en especial en pacientes con insuficiencia renal, y vigilancia del potasio sérico y de la función renal
 
----
-
-**Nota sobre otras predicciones:** el modelo también predijo hipertensión pulmonar por enfermedad pulmonar/hipoxia (L4, solo evidencia preclínica indirecta, con línea de investigación abierta), cardiopatía pulmonar crónica (L4, evidencia mayoritariamente de sacubitrilo/valsartán en insuficiencia cardíaca, no de valsartán solo), y otras (nefropatía hipertensiva maligna, síndrome de Braddock, angina de Prinzmetal, hipertensión pulmonar multifactorial) sin evidencia directa (L4–L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

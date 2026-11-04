@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenvatinib
-parent: Evidencia alta (L1-L2)
+parent: Evidencia moderada (L3-L4)
 nav_order: 461
-evidence_level: L2
+evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,8 +38,9 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Lenvatinib es un inhibidor multicinasa de tirosina cinasas, originalmente utilizado para el tratamiento del carcinoma de células renales y del carcinoma de tiroides.
-El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico** y **4 publicaciones** que actualmente respaldan esta dirección (un estudio de Fase Ib/II de brazo único).
+Lenvatinib es un inhibidor multicinasa de receptores de factores de crecimiento (VEGFR1-3, FGFR1-4, PDGFRα, RET y KIT) que ya se comercializa en España.
+El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma)**,
+con **1 ensayo clínico** (fase Ib/II de un solo brazo) y **4 publicaciones** relacionadas, de las cuales solo una comunica resultados clínicos directos. El nivel de evidencia es **L3**.
 
 ## Resumen Rápido
 
@@ -48,33 +49,33 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9951 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
 | Número de Autorizaciones | 4 (vigentes: 2) |
-| Decisión Recomendada | Hold (pregunta de investigación; evidencia limitada a un estudio de brazo único) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, lenvatinib inhibe los receptores VEGFR1-3, FGFR1-4, PDGFRα, RET y KIT, por lo que puede frenar la angiogénesis tumoral y las señales de crecimiento. Su eficacia en carcinoma renal y tiroideo ya ha sido comprobada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según lo conocido, lenvatinib inhibe VEGFR1-3, FGFR1-4, PDGFRα, RET y KIT, lo que puede frenar la angiogénesis tumoral y las señales de crecimiento en sarcomas.
 
-Los sarcomas, incluido el liposarcoma, son tumores dependientes en parte de la vascularización y de vías de señalización como PDGFR y FGFR, por lo que mecanísticamente el fármaco podría ser aplicable. Además, la combinación con eribulina (un inhibidor de microtúbulos) aporta un mecanismo complementario, y la literatura preclínica describe actividad de combinación amplia de eribulina con otros agentes.
+La combinación con eribulina, un inhibidor de microtúbulos, ofrece mecanismos complementarios: lenvatinib actúa sobre los vasos que irrigan el tumor y eribulina sobre la mitosis de la célula tumoral. Los estudios preclínicos muestran actividad amplia de eribulina en combinación con agentes de mecanismo distinto. Además, la amplificación de CDK4 es característica del liposarcoma bien diferenciado y desdiferenciado, y un trabajo reciente sugiere sinergia al añadir otras inhibiciones dirigidas.
 
-Cabe señalar que la amplificación de CDK4 es característica del liposarcoma bien diferenciado y desdiferenciado, y un estudio preclínico sugiere un posible efecto sinérgico con la inhibición dirigida adicional. La base de evidencia es un único estudio de brazo único, sin comparador aleatorizado.
+La base de evidencia es limitada: un único estudio de fase Ib/II sin grupo comparador aleatorizado. La predicción es, por tanto, plausible, pero aún exploratoria.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Fase 1/2 | Completado | 30 | Estudio de brazo único (LEADER) de lenvatinib más eribulina en sarcoma adipocítico y leiomiosarcoma inoperables o metastásicos; evalúa seguridad y eficacia |
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Fase 1/2 | Completado | 30 | Estudio de un solo brazo (LEADER) de lenvatinib más eribulina en sarcoma adipocítico y leiomiosarcoma avanzados, inoperables o metastásicos; evalúa seguridad y eficacia |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Ensayo de Fase Ib/II de brazo único | Clin Cancer Res | Estudio LEADER: seguridad y eficacia de lenvatinib más eribulina en liposarcoma y leiomiosarcoma avanzados, con opciones de tratamiento limitadas |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclínico/biomarcador | Exp Hematol Oncol | CDK4 como biomarcador pronóstico en sarcoma de tejidos blandos y efecto sinérgico de su inhibición en liposarcoma desdiferenciado |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclínico | Anticancer Res | Actividad antitumoral preclínica de amplio espectro de eribulina en combinación con agentes de distinto mecanismo |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Reporte de caso | Case Rep Oncol | Reducción evidente del tumor en liposarcoma desdiferenciado con metástasis pulmonar tratado con un enfoque individualizado |
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Ensayo fase Ib/II de un solo brazo | Clinical Cancer Research | Estudio LEADER: seguridad y eficacia de lenvatinib más eribulina en liposarcoma y leiomiosarcoma avanzados |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclínico / biomarcador | Experimental Hematology & Oncology | CDK4 como biomarcador pronóstico en sarcomas de tejidos blandos y efecto sinérgico de su inhibición en liposarcoma desdiferenciado |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclínico | Anticancer Research | Actividad antitumoral de eribulina en combinación con agentes de distintos mecanismos |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Reporte de caso | Case Reports in Oncology | Reducción marcada del tumor en un paciente con liposarcoma desdiferenciado y metástasis pulmonar con tratamiento individualizado |
 
 ## Información de Mercado en España
 
@@ -85,25 +86,20 @@ Cabe señalar que la amplificación de CDK4 es característica del liposarcoma b
 | 1161128001 | KISPLYX 4 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
 | 1151002001 | LENVIMA 4 MG CÁPSULAS DURAS | Cápsula dura | No disponible en los datos compilados |
 
-Las cuatro autorizaciones están vigentes, son de fármaco único y pertenecen a Eisai GmbH.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multicinasa de tirosina cinasas) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multicinasa) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Según el análisis de evidencia: presión arterial, proteinuria y función hepática; además, hemograma y función renal según criterio clínico |
+| Items de Monitoreo | Consultar el prospecto; en general, hemograma, función hepática y renal, presión arterial y proteinuria |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las principales:
-  - **Mayores**: dolasetrón y cisaprida.
-  - **Moderadas**: famotidina, loperamida, claritromicina, levofloxacino, palonosetrón, granisetrón y naltrexona, además de varios laxantes (bisacodilo, ácido picosulfúrico, polietilenglicol, sulfato de sodio, aceite de ricino, glicerina, lactitol, lactulosa, citrato e hidróxido de magnesio).
-  - **Menores**: metronidazol.
-- **Aspectos a vigilar** (según el análisis de evidencia): hipertensión, proteinuria y hepatotoxicidad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en la consulta; entre las mostradas, las de nivel **mayor** son con dolasetrón y cisaprida (riesgo asociado a prolongación del intervalo QT). Hay numerosas interacciones de nivel moderado, entre ellas famotidina, loperamida, bisacodilo, claritromicina, palonosetrón, granisetrón, levofloxacino, naltrexona y diversos laxantes/preparados de limpieza intestinal (ácido picosulfúrico, polietilenglicol, sulfato de sodio, lactulosa, lactitol, citrato e hidróxido de magnesio, aceite de ricino, glicerina). Metronidazol figura como interacción menor.
 
 Para advertencias y contraindicaciones, consultar el prospecto.
 
@@ -112,15 +108,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para liposarcoma se limita a un estudio de Fase Ib/II de brazo único (n=30) con una combinación (lenvatinib más eribulina), por lo que no es posible atribuir el efecto a lenvatinib. El nivel L2 es el máximo que permite esta evidencia, pero se considera aún una pregunta de investigación.
+La evidencia se limita a un estudio de fase Ib/II de un solo brazo (nivel L3), sin ensayo aleatorizado que confirme el beneficio en liposarcoma. Es una línea de investigación prometedora, pero aún no suficiente para avanzar a una decisión de uso.
 
 **Para avanzar se necesita:**
-- Resultados detallados del estudio LEADER (tasas de respuesta, supervivencia libre de progresión) y datos de seguridad en liposarcoma.
-- Ensayos aleatorizados o con brazo comparador que aíslen el efecto de lenvatinib.
-- Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de la AEMPS.
-- Plan de monitoreo de seguridad (presión arterial, proteinuria, función hepática) y revisión de las interacciones farmacológicas.
+- Un ensayo aleatorizado de fase 2/3 en liposarcoma con comparador
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de la AEMPS para el análisis de seguridad
+- Plan de manejo de interacciones, en especial con fármacos que prolongan el intervalo QT
 
-**Nota sobre otras predicciones:** las predicciones restantes (por ejemplo, angiolipoma, neumotórax espontáneo familiar) carecen de evidencia (L5) y se recomienda mantenerlas en espera.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

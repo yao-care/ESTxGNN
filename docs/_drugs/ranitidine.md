@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ranitidine
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 683
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-04
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
-description: "Ranitidine: nueva indicación predicha, Peptic ulcer perforation (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Ranitidine: nueva indicación predicha, Perforación de úlcera péptica (peptic ulcer perforation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,65 +33,56 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Ranitidine: Peptic ulcer perforation
+## Ranitidine: Perforación de úlcera péptica (peptic ulcer perforation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ranitidina es un antagonista de los receptores H2 de la histamina, utilizado originalmente para tratar úlceras gástricas y duodenales y la enfermedad por reflujo gastroesofágico.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad ulcerosa péptica activa**, aunque esta indicación coincide en gran medida con sus usos originales, por lo que no constituye un reposicionamiento genuino.
-La predicción cuenta con **0 ensayos clínicos** directamente vinculados y **20 publicaciones** (en su mayoría revisiones y estudios preclínicos o comparativos).
+Ranitidina es un antagonista del receptor H2 de histamina que reduce la secreción de ácido gástrico.
+El modelo TxGNN predice que podría ser útil en **perforación de úlcera péptica (peptic ulcer perforation)**.
+No hay **ningún ensayo clínico** registrado para esta indicación. Hay **20 publicaciones**, todas indirectas, por lo que el nivel de evidencia es **L5**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Peptic ulcer perforation |
+| Nueva Indicación Predicha | Perforación de úlcera péptica (peptic ulcer perforation) |
 | Puntaje de Predicción TxGNN | 0.9988 |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en España | No consta en los datos locales |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en España | Las 20 autorizaciones registradas figuran como canceladas; la lista puede ser parcial |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ranitidina es un antagonista del receptor H2 (gen HRH2) que reduce la secreción de ácido gástrico, y este es el mecanismo que sustenta su uso establecido en las úlceras gástricas y duodenales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Se sabe que la ranitidina bloquea el receptor H2 (gen HRH2) y, con ello, reduce la secreción de ácido gástrico.
 
-La enfermedad ulcerosa péptica activa se solapa casi por completo con las indicaciones originales del fármaco. Por ello, la alta puntuación del modelo refleja sobre todo una coherencia con el uso ya conocido y no un hallazgo nuevo. Las demás predicciones de mayor rango (perforación ulcerosa, úlcera gastroyeyunal, reflujo duodenogástrico, obstrucción duodenal, gastroduodenitis) también son afecciones relacionadas con el ácido o con complicaciones ulcerosas, con evidencia indirecta. Las predicciones de mastocitosis y de anomalías de la secreción de glucagón se apoyan solo en el modelo, sin ensayos ni literatura.
+La supresión ácida es un complemento habitual en el manejo de la enfermedad ulcerosa péptica, y esa relación explica la asociación que detecta el modelo. Sin embargo, la perforación es una urgencia quirúrgica. Un antagonista H2 no repara la lesión ni sustituye al cierre quirúrgico o al tratamiento de soporte.
 
-Un factor limitante importante: ranitidina fue retirada de muchos mercados entre 2019 y 2020 por contaminación con N-nitrosodimetilamina (NDMA), una sustancia hepatotóxica y carcinogénica. Esto debilita cualquier argumento para continuar su desarrollo.
+La evidencia disponible es indirecta. Son revisiones sobre tratamiento de la úlcera péptica, estudios sobre la erradicación de *Helicobacter pylori* tras el cierre de una úlcera perforada y un ensayo aleatorizado de tratamiento no quirúrgico en el que la ranitidina no se identifica como variable clave. Ningún estudio evalúa la ranitidina como tratamiento de la perforación. Por ello la predicción se mantiene en el nivel L5.
 
 ## Evidencia de Ensayos Clínicos
 
-Para esta indicación aparecen ensayos que usan ranitidina sobre todo como comparador; ninguno la evalúa como fármaco en investigación.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00401752](https://clinicaltrials.gov/study/NCT00401752) | Fase 3 | Completado | 397 | Esomeprazol 20 mg/día frente a ranitidina 150 mg dos veces al día en úlcera gástrica asociada a AINE, con 8 semanas de seguimiento |
-| [NCT00633672](https://clinicaltrials.gov/study/NCT00633672) | Fase 3 | Completado | 400 | Esomeprazol (40 y 20 mg) frente a ranitidina 150 mg dos veces al día en cicatrización de úlceras gástricas por AINE |
-| [NCT00633412](https://clinicaltrials.gov/study/NCT00633412) | Fase 3 | Completado | 400 | Estudio equivalente al anterior, solo en EE. UU. |
-| [NCT00247130](https://clinicaltrials.gov/study/NCT00247130) | Fase 4 | Retirado | 0 | Omeprazol intravenoso frente a ranitidina intravenosa tras hemostasia endoscópica de úlcera sangrante; sin datos |
-| [NCT01538797](https://clinicaltrials.gov/study/NCT01538797) | Fase 1 | Completado | 22 | Efecto de YF476 sobre el pH gástrico, con placebo y ranitidina como comparadores en voluntarios sanos |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [8284002](https://pubmed.ncbi.nlm.nih.gov/8284002/) | 1994 | ECA | N Engl J Med | Estudio controlado de ranitidina para prevenir la hemorragia recurrente de úlcera duodenal |
-| [2667937](https://pubmed.ncbi.nlm.nih.gov/2667937/) | 1989 | Revisión | Drugs | Ranitidina 300 mg/día es al menos tan eficaz como cimetidina en la cicatrización de úlceras duodenales y gástricas |
-| [6128216](https://pubmed.ncbi.nlm.nih.gov/6128216/) | 1982 | Revisión | Drugs | Farmacología y uso terapéutico de ranitidina en la úlcera péptica; 4 a 10 veces más potente que cimetidina |
-| [6121187](https://pubmed.ncbi.nlm.nih.gov/6121187/) | 1982 | Revisión | Lancet | Comparación entre cimetidina y ranitidina |
-| [11429668](https://pubmed.ncbi.nlm.nih.gov/11429668/) | 2001 | Revisión | Can J Gastroenterol | Citrato de ranitidina bismuto para la erradicación de Helicobacter pylori |
-| [2905237](https://pubmed.ncbi.nlm.nih.gov/2905237/) | 1988 | Revisión | Drugs | Prostaglandinas, antagonistas H2 y enfermedad ulcerosa péptica |
-| [2869852](https://pubmed.ncbi.nlm.nih.gov/2869852/) | 1986 | Revisión | Clin Pharm | Epidemiología, fisiopatología y tratamiento de la úlcera péptica |
-| [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | Estudio clínico | Scand J Gastroenterol | Cicatrización de úlceras y prevención de recaídas con ranitidina (tasa de cicatrización a 4 semanas: 91% en úlcera duodenal) |
-| [1976583](https://pubmed.ncbi.nlm.nih.gov/1976583/) | 1990 | Revisión | Hepato-gastroenterology | Secreción y supresión ácida en la patogenia y cicatrización de la úlcera péptica |
-| [31848148](https://pubmed.ncbi.nlm.nih.gov/31848148/) | 2020 | Comentario | Arch Dis Child | Escasez de ranitidina: causas y perspectivas |
+| [2927479](https://pubmed.ncbi.nlm.nih.gov/2927479/) | 1989 | ECA | N Engl J Med | Compara el tratamiento no quirúrgico con la cirugía de urgencia en 83 pacientes con sospecha de úlcera péptica perforada. No evalúa la ranitidina como intervención aislada. |
+| [7861219](https://pubmed.ncbi.nlm.nih.gov/7861219/) | 1995 | ECA | J Neurosurg | Ranitidina frente a placebo en 101 pacientes neuroquirúrgicos de alto riesgo para prevenir complicaciones gastroduodenales (sangrado o perforación). Es prevención posoperatoria, no tratamiento de la perforación. |
+| [11488789](https://pubmed.ncbi.nlm.nih.gov/11488789/) | 2001 | Estudio retrospectivo y prospectivo aleatorizado | Br J Surg | Efecto de erradicar *H. pylori* sobre la recurrencia de la úlcera tras el cierre simple de una úlcera duodenal perforada. |
+| [8364140](https://pubmed.ncbi.nlm.nih.gov/8364140/) | 1993 | Revisión | Aliment Pharmacol Ther | Eficacia del tratamiento continuo con antagonistas H2 para reducir la recurrencia de la úlcera péptica. |
+| [8103373](https://pubmed.ncbi.nlm.nih.gov/8103373/) | 1993 | Revisión | Aliment Pharmacol Ther | Experiencia de una década con tratamiento continuo con antagonistas H2, que busca prevenir recurrencias y reducir el riesgo de complicaciones como hemorragia y perforación. |
+| [1679675](https://pubmed.ncbi.nlm.nih.gov/1679675/) | 1991 | Revisión | Aliment Pharmacol Ther | Recomendaciones terapéuticas para la lesión gastroduodenal inducida por AINE, con perforación entre sus complicaciones. |
+| [8346951](https://pubmed.ncbi.nlm.nih.gov/8346951/) | 1993 | Estudio clínico | Arch Dis Child | Efecto de la ranitidina intravenosa sobre el pH gástrico en prematuros que reciben dexametasona, en quienes la perforación gástrica es una complicación posible. |
+| [8781800](https://pubmed.ncbi.nlm.nih.gov/8781800/) | 1996 | Reporte de caso | Endoscopy | Penetración de una úlcera gástrica en el corazón, una complicación muy rara. |
+| [8165479](https://pubmed.ncbi.nlm.nih.gov/8165479/) | 1994 | Reporte de caso | Surg Endosc | Úlcera marginal gigante tras gastroenterostomía y sus complicaciones. |
 
 ## Información de Mercado en España
 
-Se registran 20 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no figuran en los datos compilados. A continuación se listan las 5 principales:
+Todas las autorizaciones registradas figuran como canceladas. La lista de los datos compilados puede ser parcial. Se muestran las 5 principales.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -103,24 +94,22 @@ Se registran 20 autorizaciones vigentes, todas de fármaco único. Los textos de
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y enfermedades de precaución (según el grafo de conocimiento, no el prospecto)**: porfiria (incluidas porfirias hereditarias y trastornos del metabolismo de las porfirinas), enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar y cáncer gástrico (incluidos adenocarcinoma gástrico difuso, linitis plástica y carcinoma gástrico).
-- **Interacciones farmacológicas**: solo consta la interacción farmacológica con el receptor H2 (su diana), sin interacciones con otros fármacos.
-- **Contaminación por NDMA**: la FDA retiró la autorización de todos los productos con ranitidina en abril de 2020 por niveles excesivos de N-nitrosodimetilamina, hepatotóxica y carcinógena; otros reguladores también retiraron sus autorizaciones.
+- **Contaminación por NDMA y retirada del mercado**: en abril de 2020 la FDA retiró la autorización de comercialización de todos los productos de ranitidina, al detectarse niveles excesivos de N-nitrosodimetilamina (NDMA), una sustancia hepatotóxica y carcinógena. Otras agencias reguladoras también retiraron sus autorizaciones. Este es el principal obstáculo para cualquier desarrollo clínico nuevo.
 
-Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha es prácticamente la indicación original de ranitidina, por lo que no es un reposicionamiento real. Los ensayos de Fase 3 vinculados evalúan esomeprazol, con ranitidina solo como comparador, y la literatura es histórica, de revisión o preclínica. Además, las retiradas del mercado por contaminación con NDMA limitan el desarrollo futuro, y los inhibidores de la bomba de protones han sustituido en gran medida a los antagonistas H2.
+La predicción se apoya solo en el puntaje del modelo (0.9988) y en literatura indirecta, sin ensayos clínicos, por lo que el nivel de evidencia es L5. La perforación de úlcera péptica es una urgencia quirúrgica en la que la supresión ácida solo sería un complemento. Además, la ranitidina fue retirada o cancelada por la contaminación con NDMA y todas las autorizaciones registradas en España figuran como canceladas.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), cuya ausencia bloquea el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Evaluar el estado actual de las autorizaciones españolas tras las alertas por NDMA y confirmar los controles de calidad.
-- Si se busca un reposicionamiento real, priorizar otras indicaciones (por ejemplo, el control sintomático en mastocitosis) con evidencia clínica específica; hoy dependen solo de la predicción del modelo (nivel L5).
+- Estudios que evalúen directamente la ranitidina (u otro antagonista H2) como tratamiento complementario en la perforación de úlcera péptica.
+- Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto.
+- Evaluar si un antagonista H2 con perfil de calidad sin NDMA, u otras alternativas de supresión ácida como los inhibidores de la bomba de protones, aportaría más valor.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

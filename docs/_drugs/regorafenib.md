@@ -3,18 +3,18 @@ layout: default
 title: Regorafenib
 parent: Evidencia alta (L1-L2)
 nav_order: 689
-evidence_level: L1
+evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
-description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,10 +38,9 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-Regorafenib es un inhibidor oral de múltiples quinasas, utilizado originalmente para el cáncer colorrectal metastásico, el carcinoma hepatocelular y los tumores del estroma gastrointestinal (GIST).
-El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico** y **9 publicaciones** que respaldan esta dirección. Sin embargo, los resultados clínicos específicos en liposarcoma son desfavorables (ver más abajo).
-
----
+Regorafenib es un inhibidor oral multicinasa que actúa sobre VEGFR1-3, TIE2, PDGFR, FGFR, KIT, RET y RAF, y que cuenta con una autorización vigente en España.
+El modelo TxGNN predice que podría ser útil para **liposarcoma (liposarcoma)**, con **1 ensayo clínico** y **9 publicaciones** de apoyo, incluidos dos ensayos aleatorizados de fase 2 controlados con placebo (nivel de evidencia L2).
+Sin embargo, los resultados específicos en liposarcoma no respaldan su uso rutinario.
 
 ## Resumen Rápido
 
@@ -50,46 +49,37 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9976 |
-| Nivel de Evidencia | L1 (con salvedades, ver más abajo) |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
----
+## Por qué es Razonable esta Predicción?
 
-## ¿Por qué es Razonable esta Predicción?
+Regorafenib es un inhibidor multicinasa de administración oral. Actúa sobre dianas angiogénicas (VEGFR1-3, TIE2), del estroma tumoral (PDGFR, FGFR) y oncogénicas (KIT, RET, RAF). Estas vías participan en la angiogénesis y en la señalización entre el tumor y su estroma en los sarcomas de partes blandas, entre ellos el liposarcoma.
 
-Regorafenib es un inhibidor multiquinasa que actúa sobre VEGFR1-3, TIE2, PDGFR, FGFR, KIT, RET y RAF. Estas vías impulsan la angiogénesis y la señalización tumor-estroma, y son relevantes en los sarcomas de tejidos blandos, incluido el liposarcoma. Los datos de mecanismo de acción de DrugBank no estaban disponibles en los datos compilados para este informe; esta descripción procede de la literatura revisada.
+Desde el punto de vista mecanístico, la inhibición de estas vías es plausible en sarcomas. El ensayo aleatorizado REGOSARC mostró actividad en sarcomas no adipocíticos (leiomiosarcoma, sarcoma sinovial y otros), pero no en liposarcoma. La cohorte de liposarcoma de SARC024 confirmó este resultado y sus autores concluyen que no apoya el uso rutinario de regorafenib en esta población.
 
-Regorafenib ya está establecido en tumores sólidos de origen gastrointestinal (colorrectal, GIST, hepatocelular). Los sarcomas de tejidos blandos comparten dependencia de angiogénesis y de quinasas como KIT y PDGFR, lo que justifica la extrapolación mecanística.
-
-**Advertencia importante:** los ensayos aleatorizados controlados con placebo (REGOSARC y SARC024) mostraron actividad en sarcomas no adipocíticos (leiomiosarcoma, sarcoma sinovial), **pero no en liposarcoma**. La cohorte de liposarcoma de SARC024 concluyó que los resultados "no apoyan el uso rutinario de regorafenib" en esta población. Por tanto, el puntaje alto del modelo no se corresponde con evidencia clínica favorable.
-
----
+Por tanto, la predicción tiene una base biológica razonable, pero la señal específica en liposarcoma es débil y depende del subtipo. Esto justifica cautela, y los estudios disponibles apuntan más a una ausencia de beneficio que a una confirmación.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Completado | 131 | SARC024: protocolo general de regorafenib oral en subtipos seleccionados de sarcoma, con una cohorte de liposarcoma |
-
----
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Completado | 131 | SARC024: protocolo paraguas de regorafenib oral en subtipos seleccionados de sarcoma, con una cohorte de liposarcoma |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | ECA | The Oncologist | Cohorte de liposarcoma de SARC024 (fase II, doble ciego, placebo): no respalda el uso rutinario de regorafenib |
-| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | ECA | Lancet Oncol | REGOSARC (fase 2): eficacia y seguridad de regorafenib en sarcoma de tejidos blandos previamente tratado con antraciclinas |
-| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | ECA (análisis actualizado) | Eur J Cancer | Actividad frente a placebo y tras el cruce en sarcoma no adipocítico; sin eficacia en liposarcoma |
-| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | Análisis post hoc de ECA | Cancer | Análisis Q-TWiST de REGOSARC: beneficio clínico integrado en sarcoma no adipocítico |
-| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Revisión | Targeted Oncology | Papel creciente de regorafenib en pacientes con sarcoma |
-| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Revisión | Crit Rev Oncol Hematol | Tratamiento de mantenimiento tras la primera línea en sarcoma de tejidos blandos avanzado |
+| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | ECA | The Oncologist | Fase 2 aleatorizada, doble ciego y controlada con placebo en liposarcoma refractario (SARC024): no apoya el uso rutinario de regorafenib |
+| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | ECA | The Lancet Oncology | REGOSARC: fase 2 aleatorizada y controlada con placebo en sarcoma de partes blandas avanzado previamente tratado con antraciclinas |
+| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | ECA | European Journal of Cancer | Análisis actualizado de REGOSARC: eficacia en sarcomas no adipocíticos, pero no en liposarcoma |
+| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | Análisis de ECA | Cancer | Análisis exploratorio de tiempo de calidad ajustada (Q-TWiST) de REGOSARC |
+| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Revisión | Targeted Oncology | Revisión del papel creciente de regorafenib en pacientes con sarcoma |
+| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Revisión | Critical Reviews in Oncology/Hematology | Tratamiento de mantenimiento tras la primera línea en sarcoma de partes blandas avanzado |
 | [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Protocolo de estudio | BMC Cancer | Protocolo del ensayo REGOSARC |
-| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | Estudio retrospectivo (otro fármaco: anlotinib) | Anti-Cancer Drugs | Anlotinib en liposarcoma bien/desdiferenciado; evidencia indirecta |
-| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Reporte de caso (otro fármaco: pazopanib) | Rare Tumors | Respuesta a pazopanib en sarcoma de Ewing extraóseo; evidencia indirecta |
-
----
+| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | Estudio retrospectivo | Anti-Cancer Drugs | Anlotinib (otro fármaco) en liposarcoma bien diferenciado/desdiferenciado |
 
 ## Información de Mercado en España
 
@@ -97,48 +87,32 @@ Regorafenib ya está establecido en tumores sólidos de origen gastrointestinal 
 |---------|------|------|-----------|
 | 113858002 | STIVARGA 40 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible en los datos compilados |
 
----
-
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multiquinasa) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multicinasa) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar el prospecto; la literatura revisada señala toxicidad hepática, proteinuria, hipertensión y reacción cutánea mano-pie como eventos relevantes de esta clase (hemograma, función hepática y renal, presión arterial) |
+| Items de Monitoreo | Hemograma, función hepática y renal (los datos compilados señalan toxicidad hepática, reacción cutánea mano-pie y proteinuria como efectos de los inhibidores de tirosina cinasa antiangiogénicos) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
-
----
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones. Las más relevantes de las mostradas:
-  - **Graves (Major)**: ácido acetilsalicílico, deferasirox, ibritumomab tiuxetán, tositumomab (incluido I-131), abciximab, alteplasa, antitrombina III humana y apixabán (principalmente por riesgo hemorrágico y anticoagulación).
-  - **Moderadas**: dexametasona, claritromicina, naltrexona, dexfenfluramina, fenfluramina, rosuvastatina, sibutramina, cobicistat.
-  - **Leves**: dapagliflozina, naloxegol, prucaloprida.
-
-Las advertencias y contraindicaciones del prospecto no estaban disponibles en los datos compilados; consultar el prospecto de la AEMPS para esa información.
-
----
+- **Interacciones Farmacológicas**: se registraron 100 interacciones. Entre las principales, de gravedad mayor: ácido acetilsalicílico, deferasirox, ibritumomab tiuxetán, tositumomab (incluido I-131), abciximab, alteplasa, antitrombina III humana y apixabán. De gravedad moderada: dexametasona, claritromicina, naltrexona, rosuvastatina, cobicistat, fenfluramina, dexfenfluramina y sibutramina.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existe un ECA de fase 2 completado y varios ECA publicados, pero demuestran actividad en sarcomas no adipocíticos y **no en liposarcoma**; la cohorte específica no respalda el uso rutinario. El nivel L1 refleja la existencia de ensayos controlados, no un resultado positivo para esta indicación. Cualquier avance debería ser cauteloso, y una decisión "Hold" sería igualmente defendible desde el punto de vista clínico.
+Aunque existen dos ensayos aleatorizados de fase 2 controlados con placebo (nivel L2, sin ensayo de fase 3), el resultado específico en liposarcoma fue desfavorable y sus autores no recomiendan el uso rutinario. El apoyo del modelo (0,9976) no compensa esta falta de beneficio observada.
 
 **Para avanzar se necesita:**
-- Revisar el prospecto de la AEMPS (advertencias, contraindicaciones, texto de indicaciones aprobadas), que es un vacío bloqueante para el cribado de seguridad.
-- Obtener datos de mecanismo de acción de DrugBank.
-- Analizar por subtipos histológicos de liposarcoma (bien diferenciado, desdiferenciado, mixoide, pleomórfico) para identificar subgrupos con posible respuesta.
-- Evaluar estrategias de combinación, dado que los autores de SARC024 señalan que la monoterapia no es suficiente.
-- Plan de manejo de interacciones, en especial con anticoagulantes y antiagregantes, y de monitoreo hepático, de presión arterial y proteinuria.
+- Datos de eficacia por subtipo histológico de liposarcoma (bien diferenciado, desdiferenciado, mixoide, pleomórfico) que identifiquen una población con señal favorable
+- Evaluación de combinaciones terapéuticas, como proponen los autores de SARC024
+- Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones) para completar el análisis de seguridad
 
----
-
-*Nota sobre otras indicaciones predichas:* el carcinoma renal de células claras (puntaje 0.9947, nivel L3) cuenta con un ensayo de fase 2 de un solo brazo y un ensayo de combinación de fase 1/2 (NCT03475953), pero sin evidencia de fase 3, y se considera una pregunta de investigación. Las demás predicciones (liposarcoma mixoide ovárico, subtipos raros de carcinoma renal, carcinoma renal infantil y sarcoma de vulva) carecen de ensayos y literatura específicos (nivel L5, decisión Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

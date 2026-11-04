@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dupilumab
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 271
-evidence_level: L2
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-description: "Dupilumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Dupilumab: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,56 +33,54 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **9**
 
 </div>
 
-## Dupilumab: Bronquitis (bronchitis)
+## Dupilumab: bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Dupilumab es un anticuerpo monoclonal dirigido contra el receptor alfa de la interleucina-4 (IL-4Rα), utilizado originalmente para el tratamiento de la dermatitis atópica.
-El modelo TxGNN predice que podría ser efectivo para **bronquitis** (primera predicción de la lista), con **1 ensayo clínico** (indirecto, en rinosinusitis crónica sin pólipos nasales) y **10 publicaciones** que actualmente respaldan esta dirección, de forma mayoritariamente indirecta.
+Dupilumab es un anticuerpo monoclonal que bloquea el receptor alfa de la interleucina 4 (IL-4Rα), con autorizaciones vigentes en España.
+El modelo TxGNN predice que podría ser efectivo para **bronquitis (bronchitis)**, pero ningún estudio evalúa dupilumab directamente en esta enfermedad: el nivel de evidencia es **L5** (solo predicción del modelo). Los estudios disponibles se refieren a enfermedades relacionadas (asma, EPOC con inflamación tipo 2, rinosinusitis crónica y bronquiolitis eosinofílica).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Nueva Indicación Predicha | bronquitis (bronchitis) |
 | Puntaje de Predicción TxGNN | 0.9992 |
-| Nivel de Evidencia | L2 (según el análisis de los datos compilados; evidencia indirecta, ver nota) |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
-> **Nota:** el único ensayo (Fase 2, completado) corresponde a rinosinusitis crónica, no a bronquitis. La evidencia se limita en la práctica a fenotipos de inflamación tipo 2 (asma, EPOC tipo 2), por lo que se recomienda mantener la decisión en espera hasta contar con datos directos.
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, dupilumab bloquea la subunidad IL-4Rα, inhibiendo así la señalización de IL-4 e IL-13, las citocinas centrales de la inflamación tipo 2. Su eficacia en dermatitis atópica está comprobada.
+Dupilumab bloquea la subunidad IL-4Rα y, con ello, la señalización de IL-4 e IL-13, que impulsa la inflamación tipo 2 de las vías respiratorias. No se dispone de datos detallados del mecanismo de acción en la información compilada, pero este mecanismo es conocido para el fármaco.
 
-La dermatitis atópica y ciertas enfermedades de la vía aérea comparten una base inmunológica tipo 2. La literatura recopilada respalda la eficacia de dupilumab en asma (metaanálisis de ECA y extensión a largo plazo TRAVERSE) y en EPOC con fenotipo tipo 2 (series de práctica real). También hay reportes en bronquitis plástica eosinofílica pediátrica y bronquiolitis eosinofílica.
+Esta lógica es pertinente en enfermedades respiratorias con fenotipo eosinofílico o tipo 2, como el asma, la EPOC tipo 2 y la bronquitis plástica eosinofílica pediátrica. Por ello, un subgrupo de pacientes con bronquitis de perfil tipo 2 podría beneficiarse.
 
-Sin embargo, "bronquitis" es una etiqueta genérica y heterogénea. El mecanismo es aplicable sobre todo a los fenotipos eosinofílicos o tipo 2, y no necesariamente a la bronquitis aguda o infecciosa. Por eso la evidencia para bronquitis como tal es indirecta.
+Sin embargo, "bronquitis" es una etiqueta genérica y heterogénea (infecciosa, crónica, eosinofílica). La evidencia es indirecta y, en el mejor de los casos, aplicable solo a fenotipos tipo 2 concretos. Ningún estudio citado prueba dupilumab en bronquitis como tal.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Fase 2 | Completado | 33 | Dupilumab vs. placebo (doble ciego, aleatorizado) en rinosinusitis crónica sin pólipos nasales; relevancia indirecta (biología tipo 2 de la vía aérea), no es un ensayo de bronquitis |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Fase 2 | Completado | 33 | Dupilumab frente a placebo en rinosinusitis crónica sin pólipos nasales. No es un ensayo de bronquitis; relevancia indirecta (biología tipo 2 de la vía aérea) |
 
 ## Evidencia de Literatura
 
+Ninguna publicación estudia dupilumab directamente en bronquitis. Se listan las más cercanas:
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | ECA (extensión abierta a largo plazo) | Lancet Respir Med | Seguridad y eficacia a largo plazo de dupilumab en asma moderada-grave (TRAVERSE) |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Metaanálisis de ECA | J Asthma | Eficacia y seguridad de dupilumab en asma no controlada |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | ECA (extensión abierta) | Lancet Respir Med | Seguridad y eficacia a largo plazo de dupilumab en asma moderada-grave (TRAVERSE) |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Metaanálisis de ECA | J Asthma | Seguridad y eficacia de dupilumab en asma no controlada |
+| [42617837](https://pubmed.ncbi.nlm.nih.gov/42617837/) | 2026 | Comparación indirecta ajustada | Chest | Mepolizumab y dupilumab sin diferencia significativa en exacerbaciones de EPOC con fenotipo eosinofílico |
+| [42839285](https://pubmed.ncbi.nlm.nih.gov/42839285/) | 2026 | Cohorte real | Respir Res | Efectividad de dupilumab en EPOC en práctica clínica multicéntrica alemana |
+| [42511891](https://pubmed.ncbi.nlm.nih.gov/42511891/) | 2026 | Serie de casos | Biomedicines | 12 pacientes con EPOC tipo 2 tratados con dupilumab por uso compasivo |
 | [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Revisión | Tuberc Respir Dis | Terapias farmacológicas para prevenir exacerbaciones de EPOC |
-| [42617837](https://pubmed.ncbi.nlm.nih.gov/42617837/) | 2026 | Comparación indirecta ajustada | Chest | Mepolizumab y dupilumab sin diferencias significativas en reducir exacerbaciones en EPOC eosinofílica |
-| [42511891](https://pubmed.ncbi.nlm.nih.gov/42511891/) | 2026 | Cohorte (práctica real) | Biomedicines | Serie de 12 pacientes con EPOC tipo 2 tratados con dupilumab por uso compasivo |
-| [42839285](https://pubmed.ncbi.nlm.nih.gov/42839285/) | 2026 | Cohorte multicéntrica | Respir Res | Efectividad de dupilumab en EPOC en práctica real en Alemania |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Revisión | Pediatr Pulmonol | Terapias novedosas para bronquitis plástica eosinofílica pediátrica |
-| [41672525](https://pubmed.ncbi.nlm.nih.gov/41672525/) | 2026 | Reporte de casos | Intern Med | Dos casos de bronquiolitis eosinofílica tratados con éxito con biológicos, incluido dupilumab |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revisión | Expert Opin Pharmacother | Manejo del asma asociada a enfermedades de las vías aéreas inducidas por el tabaco |
-| [42773542](https://pubmed.ncbi.nlm.nih.gov/42773542/) | 2026 | Revisión | Eur J Clin Invest | Novedades en el manejo de la EPOC, de vías inflamatorias a terapias dirigidas |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Revisión | Pediatr Pulmonol | Nuevas terapias en bronquitis plástica eosinofílica pediátrica |
+| [41672525](https://pubmed.ncbi.nlm.nih.gov/41672525/) | 2026 | Reporte de casos | Intern Med | Dos casos de bronquiolitis eosinofílica tratados con biológicos, incluido dupilumab |
 
 ## Información de Mercado en España
 
@@ -95,40 +93,25 @@ Sin embargo, "bronquitis" es una etiqueta genérica y heterogénea. El mecanismo
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas:** se identificaron 53 interacciones en total. Entre las visibles en los datos compilados:
-  - **Mayor:** adalimumab, baricitinib, certolizumab pegol, cladribina.
-  - **Moderada:** warfarina, roflumilast, alefacept, alemtuzumab, anakinra, azatioprina, canakinumab, ciclosporina, denosumab, dimetilfumarato, diroximilfumarato y la vacuna viva contra el cólera (Vibrio cholerae CVD 103-HgR).
-  - **Menor:** sales de zinc (acetato, gluconato, sulfato, cloruro).
-- **Efectos adversos descritos en la literatura:** conjuntivitis, erupciones psoriasiformes, dermatitis de cabeza y cuello, aumentos transitorios de eosinófilos y una posible señal de linfoma cutáneo de células T en evaluación.
+**Interacciones Farmacológicas** (53 registradas; principales):
+- **Mayor**: adalimumab, baricitinib, certolizumab pegol, cladribina.
+- **Moderada**: warfarina, roflumilast, alefacept, alemtuzumab, anakinra, azatioprina, canakinumab, ciclosporina, denosumab, dimetilfumarato, diroximel fumarato y la vacuna viva contra el cólera.
+- **Menor**: sales de zinc (acetato, gluconato, sulfato, cloruro).
 
-Para advertencias y contraindicaciones formales, consultar el prospecto.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje TxGNN es muy alto, no hay ensayos en bronquitis y la evidencia proviene de asma y EPOC tipo 2, es decir, de fenotipos específicos. El único ensayo listado es de rinosinusitis crónica.
+La puntuación del modelo es alta, pero ningún estudio evalúa dupilumab en bronquitis; la evidencia disponible corresponde a otras enfermedades (asma, EPOC, rinosinusitis, bronquiolitis eosinofílica), por lo que el nivel es L5.
 
 **Para avanzar se necesita:**
-- Definir el fenotipo de bronquitis objetivo (por ejemplo, eosinofílica o tipo 2, o bronquitis crónica asociada a EPOC tipo 2).
-- Ensayos clínicos específicos en ese fenotipo.
-- Datos detallados del mecanismo de acción.
-- Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente no disponibles).
-- Plan de monitoreo de seguridad (ocular, cutáneo y de eosinofilia).
-
-### Otras predicciones del modelo (referencia)
-
-| Enfermedad predicha | Puntaje TxGNN | Nivel de evidencia | Recomendación |
-|------|------|------|------|
-| Queloide acneiforme | 0.9961 | L5 | Hold |
-| Exantema | 0.9957 | L5 | Research Question |
-| Dermatomiositis neonatal | 0.9956 | L5 | Hold |
-| Acrodermatitis crónica atrófica | 0.9954 | L5 | Hold |
-| Dermatomiositis amiopática | 0.9953 | L5 | Hold |
-| Enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo | 0.9952 | L5 | Hold |
-| Hidroa vacciniforme familiar | 0.9950 | L5 | Hold |
-| Retinopatía diabética no proliferativa grave | 0.9910 | L5 | Hold |
+- Definir el fenotipo de bronquitis (p. ej., eosinofílica o tipo 2) en el que tendría sentido la hipótesis.
+- Estudios o ensayos que evalúen dupilumab directamente en ese fenotipo.
+- Datos detallados del mecanismo de acción y de las advertencias y contraindicaciones del prospecto.
+- Plan de seguimiento de seguridad, incluidas las interacciones con inmunosupresores y otros biológicos.
 
 ## Descargo de responsabilidad
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Evidencia alta (L1-L2)
+parent: Evidencia moderada (L3-L4)
 nav_order: 506
-evidence_level: L2
+evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Mercaptopurine: nueva indicación predicha, leucemia mieloide (myeloid leukemia) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,75 +33,64 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-## Mercaptopurine: Leucemia mieloide (myeloid leukemia)
+## Mercaptopurine: leucemia mieloide (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Mercaptopurina es un antimetabolito análogo de las purinas, utilizado originalmente en el tratamiento de la leucemia linfoblástica aguda (LLA) y de otras leucemias agudas.
-El modelo TxGNN predice que podría ser efectiva para **leucemia mieloide**, con **14 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, aunque en su mayoría evalúan regímenes multifármaco en los que no se puede aislar la contribución de la mercaptopurina.
-
----
+Mercaptopurina es un antimetabolito análogo de las purinas, utilizado en oncohematología. El modelo TxGNN predice que podría ser útil para **leucemia mieloide (myeloid leukemia)**, con **15 ensayos clínicos** y **20 publicaciones** relacionados con esta dirección. El nivel de evidencia es **L3**: se basa en estudios de cohortes y un estudio piloto prospectivo, sin ensayos aleatorizados que evalúen la mercaptopurina por sí sola.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
+| Nueva Indicación Predicha | leucemia mieloide (myeloid leukemia) |
 | Puntaje de Predicción TxGNN | 0.9994 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
 | Número de Autorizaciones | 5 (vigentes: 3) |
-| Decisión Recomendada | Hold |
-
----
+| Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente consultada. Según la información conocida, la mercaptopurina es un antimetabolito de las purinas cuyos nucleótidos de tioguanina activos se incorporan al ADN y al ARN e inhiben la síntesis de novo de purinas. Esto es plausible en blastos mieloides de división rápida.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción registrado. Según el conocimiento farmacológico general, la mercaptopurina es un antimetabolito purínico: sus nucleótidos activos de tioguanina se incorporan al ADN y al ARN e inhiben la síntesis de purinas de novo.
 
-La LLA y la leucemia mieloide son neoplasias hematológicas agudas con células malignas de proliferación rápida, sensibles a los antimetabolitos. En la leucemia mieloide, la mercaptopurina se utiliza sobre todo como componente de mantenimiento o consolidación oral (por ejemplo, con metotrexato, o en pautas de leucemia promielocítica aguda), no como fármaco único.
+Este mecanismo es plausible en blastos mieloides, que se dividen rápidamente. En la leucemia mieloide, la mercaptopurina se ha usado sobre todo como componente oral de mantenimiento o consolidación (por ejemplo, junto con metotrexato, y en regímenes de leucemia promielocítica aguda), no como fármaco único.
 
-Hay varios ensayos de Fase 3, pero evalúan regímenes con múltiples fármacos, por lo que el papel específico de la mercaptopurina no está aislado. Por ello, el nivel L2 debe interpretarse con cautela: es un respaldo indirecto, no una demostración de eficacia propia en esta indicación.
-
----
+Conviene ser prudente: varios ensayos de fase 3 incluyen regímenes con varios fármacos, por lo que no se puede aislar la contribución específica de la mercaptopurina. Los estudios que la evalúan directamente son cohortes y un piloto prospectivo.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los ensayos más relevantes de los 14 registrados.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Fase 1/2 | Reclutando | 48 | Hidroxiurea + ácido valproico, o 6-mercaptopurina + ácido valproico, en LMA o SMD de alto riesgo no aptos para terapia estándar |
-| [NCT05506332](https://clinicaltrials.gov/study/NCT05506332) | Fase 1 | Reclutando | 10 | Venetoclax + 6-mercaptopurina en LMA recaída/refractaria (estudio ApoAML) |
-| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Fase 3 | Completado | 420 | Tretinoína y quimioterapia con o sin trióxido de arsénico; mantenimiento con tretinoína intermitente vs. tretinoína + mercaptopurina y metotrexato en leucemia promielocítica aguda |
-| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Fase 3 | Completado | 105 | S0521: mantenimiento frente a observación en leucemia promielocítica aguda de riesgo bajo/intermedio |
-| [NCT00002701](https://clinicaltrials.gov/study/NCT00002701) | Fase 3 | Desconocido | 750 | ATRA + idarrubicina y consolidación intensiva en leucemia promielocítica aguda; mantenimiento aleatorizado según enfermedad residual mínima |
-| [NCT00136084](https://clinicaltrials.gov/study/NCT00136084) | Fase 3 | Completado | 238 | Dos regímenes multifármaco con distintas dosis de citarabina en LMA o mielodisplasia de nuevo diagnóstico |
-| [NCT02521493](https://clinicaltrials.gov/study/NCT02521493) | Fase 3 | Activo, sin reclutar | 280 | Tratamiento estratificado por riesgo de LMA en síndrome de Down; participación de mercaptopurina no confirmada |
-| [NCT02688140](https://clinicaltrials.gov/study/NCT02688140) | Fase 3 | Completado | 133 | Trióxido de arsénico + ATRA + idarrubicina vs. AIDA en leucemia promielocítica aguda de alto riesgo; evidencia indirecta |
-| [NCT00482833](https://clinicaltrials.gov/study/NCT00482833) | Fase 3 | Completado | 276 | Trióxido de arsénico + ATRA vs. AIDA en leucemia promielocítica aguda de riesgo no alto |
-| [NCT00866918](https://clinicaltrials.gov/study/NCT00866918) | Fase 3 | Completado | 106 | Tratamiento adaptado al riesgo con trióxido de arsénico en consolidación, en leucemia promielocítica aguda infantil |
+| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Fase 1/2 | Reclutando | 48 | Hidroxiurea o 6-mercaptopurina con ácido valproico en LMA o SMD de alto riesgo no aptos para terapia estándar |
+| [NCT05506332](https://clinicaltrials.gov/study/NCT05506332) | Fase 1 | Reclutando | 10 | Venetoclax con 6-mercaptopurina en LMA recidivante/refractaria |
+| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Fase 3 | Completado | 420 | Mantenimiento con tretinoína intermitente ± mercaptopurina y metotrexato en leucemia promielocítica aguda |
+| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Fase 3 | Completado | 105 | Mantenimiento frente a observación en leucemia promielocítica aguda de riesgo bajo/intermedio |
+| [NCT00002701](https://clinicaltrials.gov/study/NCT00002701) | Fase 3 | Desconocido | 750 | ATRA e idarubicina con consolidación intensiva y mantenimiento aleatorizado en leucemia promielocítica aguda |
+| [NCT02521493](https://clinicaltrials.gov/study/NCT02521493) | Fase 3 | Activo, sin reclutar | 280 | Terapia estratificada por riesgo en LMA en síndrome de Down; régimen multifármaco |
+| [NCT00136084](https://clinicaltrials.gov/study/NCT00136084) | Fase 3 | Completado | 238 | Dos regímenes con distintas dosis de citarabina en LMA o mielodisplasia de nuevo diagnóstico |
+| [NCT02688140](https://clinicaltrials.gov/study/NCT02688140) | Fase 3 | Completado | 133 | Trióxido de arsénico con ATRA e idarubicina frente a AIDA en leucemia promielocítica aguda de alto riesgo; evidencia indirecta |
+| [NCT00482833](https://clinicaltrials.gov/study/NCT00482833) | Fase 3 | Completado | 276 | Trióxido de arsénico con ATRA frente a AIDA en leucemia promielocítica aguda de riesgo no alto |
+| [NCT00866918](https://clinicaltrials.gov/study/NCT00866918) | Fase 3 | Completado | 106 | Tratamiento adaptado al riesgo con trióxido de arsénico en leucemia promielocítica aguda infantil |
 
----
+Casi todos son regímenes con varios fármacos; la contribución de la mercaptopurina no puede aislarse, salvo en los ensayos de fase 1/2 y en NCT00003934.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | Cohorte | Journal of Korean Medical Science | Mantenimiento oral con 6-mercaptopurina y metotrexato en pacientes con LMA no candidatos a trasplante |
-| [27275453](https://pubmed.ncbi.nlm.nih.gov/27275453/) | 2016 | Estudio piloto prospectivo | South Asian Journal of Cancer | Terapia metronómica con 6-mercaptopurina oral en LMA de personas mayores |
-| [38828002](https://pubmed.ncbi.nlm.nih.gov/38828002/) | 2024 | Cohorte | Therapeutic Advances in Hematology | Quimioterapia intensiva con doble inducción y consolidación tipo LLA en LMA infantil (China) |
-| [32459546](https://pubmed.ncbi.nlm.nih.gov/32459546/) | 2020 | Retrospectivo | Pediatric Hematology and Oncology | Resultados en leucemia mielomonocítica juvenil con terapia secuencial de citarabina y 6-mercaptopurina |
-| [22715121](https://pubmed.ncbi.nlm.nih.gov/22715121/) | 2012 | Cohorte (Fase 2) | Blood | ATRA, idarrubicina y trióxido de arsénico i.v. como tratamiento inicial en leucemia promielocítica aguda (APML4) |
-| [33183436](https://pubmed.ncbi.nlm.nih.gov/33183436/) | 2021 | Revisión | J Nanosci Nanotechnol | Nanomedicina con 6-mercaptopurina en leucemia, para mejorar solubilidad y biodisponibilidad |
-| [34442422](https://pubmed.ncbi.nlm.nih.gov/34442422/) | 2021 | Revisión | J Pers Med | Importancia de los polimorfismos de NUDT15 en tratamientos con tiopurinas |
-| [2676034](https://pubmed.ncbi.nlm.nih.gov/2676034/) | 1989 | Revisión | Blood Reviews | Metabolismo de las purinas como diana de la quimioterapia de la leucemia |
-| [3513537](https://pubmed.ncbi.nlm.nih.gov/3513537/) | 1986 | Estudio clínico | Am J Clin Oncol | Hidroxiurea y 6-mercaptopurina en leucemia granulocítica crónica |
+| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | Cohorte | J Korean Med Sci | Mantenimiento oral con 6-mercaptopurina y metotrexato en LMA no candidata a trasplante |
+| [27275453](https://pubmed.ncbi.nlm.nih.gov/27275453/) | 2016 | Piloto prospectivo | South Asian J Cancer | Terapia metronómica con 6-mercaptopurina oral en LMA de personas mayores |
+| [38828002](https://pubmed.ncbi.nlm.nih.gov/38828002/) | 2024 | Cohorte | Ther Adv Hematol | Quimioterapia intensiva con consolidación tipo LLA en LMA infantil (China) |
+| [32459546](https://pubmed.ncbi.nlm.nih.gov/32459546/) | 2020 | Estudio retrospectivo | Pediatr Hematol Oncol | Terapia secuencial con citarabina y 6-mercaptopurina en leucemia mielomonocítica juvenil |
+| [22715121](https://pubmed.ncbi.nlm.nih.gov/22715121/) | 2012 | Cohorte | Blood | ATRA, idarubicina y trióxido de arsénico intravenoso como tratamiento inicial en leucemia promielocítica aguda |
+| [33183436](https://pubmed.ncbi.nlm.nih.gov/33183436/) | 2021 | Revisión | J Nanosci Nanotechnol | Nanomedicina de 6-mercaptopurina en leucemia |
+| [34442422](https://pubmed.ncbi.nlm.nih.gov/34442422/) | 2021 | Revisión | J Pers Med | Polimorfismos de NUDT15 y toxicidad de tiopurinas |
+| [2676034](https://pubmed.ncbi.nlm.nih.gov/2676034/) | 1989 | Revisión | Blood Rev | Metabolismo de purinas como diana de la quimioterapia de la leucemia |
 | [12057059](https://pubmed.ncbi.nlm.nih.gov/12057059/) | 2000 | Revisión | Curr Treat Options Oncol | Tratamiento de la leucemia promielocítica aguda |
-
----
+| [3513537](https://pubmed.ncbi.nlm.nih.gov/3513537/) | 1986 | Estudio clínico | Am J Clin Oncol | Hidroxiurea con 6-mercaptopurina en leucemia granulocítica crónica |
 
 ## Información de Mercado en España
 
@@ -113,48 +102,37 @@ Se muestran los ensayos más relevantes de los 14 registrados.
 | 11727001 | Xaluprine 20 mg/ml suspensión oral | Solución oral | No disponible |
 | 84602 | Mercaptopurina Silver Pharma 50 mg comprimidos EFG | Comprimido | No disponible |
 
----
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, análogo de purinas/tiopurina) |
-| Riesgo de Mielosupresión | Alto (la neutropenia, trombocitopenia y leucopenia figuran entre las contraindicaciones del grafo de conocimiento; la mielosupresión depende de la dosis y de variantes de TPMT/NUDT15) |
-| Clasificación de Emetogenicidad | Baja (clasificación general de la clase; consultar el prospecto) |
-| Items de Monitoreo | Hemograma con diferencial, función hepática (bilirrubina, transaminasas), función renal, amilasa/lipasa si hay síntomas pancreáticos; genotipado de TPMT/NUDT15 |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
----
+| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, análogo de purinas) |
+| Riesgo de Mielosupresión | Alto: las contraindicaciones registradas incluyen neutropenia, trombocitopenia, leucopenia, agranulocitosis y anemia |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, bilirrubina; considerar el genotipo de NUDT15/TPMT (según la literatura revisada) |
+| Protección en Manejo | Seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ## Consideraciones de Seguridad
 
-- **Condiciones asociadas a contraindicación (según el grafo de conocimiento, no texto de prospecto)**: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, pancreatitis, piouréter, trombocitopenia, neutropenia, agranulocitosis, leucopenia, anemia (incluida la macrocítica), hiperbilirrubinemia (incluida la hereditaria y el síndrome de Gilbert), colestasis (incluidas la recurrente benigna intrahepática y la intrahepática familiar) y linfoma hepatoesplénico de células T.
-- **Interacciones farmacológicas** (100 interacciones registradas; principales):
-  - Moderadas: mesalazina, balsalazida, olsalazina, sulfasalazina, naltrexona.
-  - Leve: levofloxacino.
-  - Nivel no determinado: calcitriol, pantoprazol, doxiciclina, morfina, metformina, omeprazol, rosiglitazona, lansoprazol, vancomicina, prednisona, simvastatina, anfotericina B, hidrocortisona, cloruro de potasio.
-- Los datos de otras fuentes indican que debe prestarse atención a alopurinol y febuxostat, y a la farmacogenética de TPMT/NUDT15.
+- **Condiciones asociadas a contraindicación o precaución** (no proceden del texto del prospecto): enfermedad renal, pancreatitis, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, anemia (incluida la macrocítica), hiperbilirrubinemia (incluida la hereditaria), síndrome de Gilbert, colestasis (incluidas las formas intrahepáticas recurrente y familiar), leucopenia y linfoma de células T hepatoesplénico.
+- **Interacciones farmacológicas** (se consultaron 100 interacciones; se listan las de nivel moderado): mesalazina, balsalazida, naltrexona, olsalazina y sulfasalazina. Levofloxacino figura con nivel menor. Otras interacciones tienen nivel no clasificado, como prednisona, omeprazol, metformina y simvastatina.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Para leucemia mieloide, los ensayos de Fase 3 evalúan regímenes multifármaco y no aíslan la contribución de la mercaptopurina, y los estudios específicos son pequeños o en fase temprana. El rol más claro es como mantenimiento en leucemia promielocítica aguda, y el respaldo sigue siendo indirecto. Además, las advertencias y contraindicaciones del prospecto de la AEMPS no están disponibles, lo que impide completar el cribado de seguridad.
+Existe un respaldo plausible para el uso de mercaptopurina en leucemia mieloide, sobre todo como terapia oral de mantenimiento, con estudios de cohortes y un piloto prospectivo (nivel L3). Sin embargo, no hay ensayos aleatorizados que evalúen la mercaptopurina por sí sola, y los ensayos de fase 3 son de regímenes combinados.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Revisar en detalle los protocolos de los ensayos de Fase 3 para confirmar si incluyen mercaptopurina y qué papel tiene.
-- Esperar resultados de ensayos específicos (por ejemplo, NCT06199557 y NCT05506332) o diseñar estudios que aíslen su efecto.
-- Definir un plan de seguridad: genotipado de TPMT/NUDT15, monitoreo hematológico y hepático, y revisión de interacciones.
+- Ensayos que aíslen la contribución de la mercaptopurina en LMA, preferiblemente aleatorizados.
+- Datos oficiales de seguridad (advertencias y contraindicaciones del prospecto) y del mecanismo de acción.
+- Plan de monitorización hematológica y hepática, con valoración del genotipo de NUDT15/TPMT.
+- Definir la población diana (por ejemplo, pacientes no candidatos a trasplante o de edad avanzada).
 
----
-
-**Nota adicional:** otras indicaciones predichas tienen mayor respaldo, aunque corresponden a usos ya establecidos y no a reposicionamiento propiamente dicho. La leucemia linfoblástica aguda y el linfoma/leucemia linfoblástico precursor alcanzan nivel L1 con recomendación "Proceed with Guardrails", con controles de TPMT/NUDT15, mielosupresión y hepatotoxicidad, y atención a la adherencia. Las demás predicciones, como las variantes de leucemia linfocítica crónica y el carcinoma pulmonar de células pequeñas, tienen evidencia escasa o antigua, con recomendación "Hold".
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

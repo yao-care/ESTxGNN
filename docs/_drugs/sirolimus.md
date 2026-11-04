@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sirolimus
-parent: Evidencia alta (L1-L2)
+parent: Evidencia moderada (L3-L4)
 nav_order: 740
-evidence_level: L2
+evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
-description: "Sirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Sirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Sirolimus es un inhibidor de la vía mTOR (mTORC1), comercializado en España como inmunosupresor en forma de comprimidos y solución oral.
-El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma)**,
-con **1 ensayo clínico** (fase 2, de un solo brazo y en combinación) y **7 publicaciones** que actualmente respaldan esta dirección de forma indirecta.
+Sirolimus es un inhibidor de mTOR (diana de la rapamicina en mamíferos) que se comercializa en España con el nombre RAPAMUNE.
+El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma)**, con **1 ensayo clínico** (fase 2, de un solo brazo, en combinación con ciclofosfamida) y **7 publicaciones** asociadas, de las cuales solo una es un ensayo aleatorizado y trata sobre cáncer en trasplante renal, no sobre liposarcoma. El nivel de evidencia es **L3**.
 
 ## Resumen Rápido
 
@@ -49,34 +48,34 @@ con **1 ensayo clínico** (fase 2, de un solo brazo y en combinación) y **7 pub
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9989 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
 | Número de Autorizaciones | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Sirolimus inhibe el complejo mTORC1, una quinasa que regula el crecimiento y la proliferación celular. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, pero la activación de la vía mTOR está descrita en sarcomas de partes blandas, incluido el liposarcoma, y los modelos en ratón indican que inhibir mTOR puede frenar el crecimiento tumoral.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sirolimus inhibe el complejo mTORC1, una quinasa que regula el crecimiento y la proliferación celular.
 
-Esto da una base biológica plausible para la predicción. Sin embargo, la evidencia disponible procede sobre todo de revisiones y de datos indirectos en pacientes trasplantados, por lo que la eficacia de sirolimus como agente único en liposarcoma no está establecida.
+La activación de la vía mTOR se ha descrito en sarcomas de tejidos blandos, incluido el liposarcoma. Esto ofrece una base biológica para que un inhibidor de mTOR pueda frenar el crecimiento tumoral, como sugieren modelos de ratón mencionados en la descripción del ensayo clínico identificado.
+
+Sin embargo, la evidencia disponible procede de un estudio de combinación (sirolimus + ciclofosfamida) sin grupo control, por lo que no se puede atribuir el efecto a sirolimus solo. La eficacia como agente único no está establecida.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Completado | 70 | Estudio de un solo brazo y multicéntrico de sirolimus con ciclofosfamida en liposarcoma mixoide y condrosarcoma metastásicos o irresecables. Sin grupo control aleatorizado; el fármaco asociado dificulta atribuir el efecto a sirolimus. |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Fase 2 | Completado | 70 | Sirolimus + ciclofosfamida en liposarcoma mixoide y condrosarcoma metastásico o irresecable; brazo único, multicéntrico, sin control aleatorizado |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | ECA | J Am Soc Nephrol | En trasplante renal, retirar ciclosporina y mantener sirolimus redujo el riesgo de cáncer; evidencia indirecta. |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Revisión | Cancers | Avances terapéuticos y moleculares en sarcomas de partes blandas. |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Revisión | Curr Opin Oncol | Ensayos recientes con agentes dirigidos en sarcomas avanzados. |
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Revisión | Bull Cancer | Tratamientos dirigidos en sarcomas y tumores raros del tejido conectivo. |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Revisión | Transplant Proc | Cribado de cáncer en receptores de trasplante renal con inmunosupresión prolongada. |
-| [42753013](https://pubmed.ncbi.nlm.nih.gov/42753013/) | 2026 | Cohorte | Fam Cancer | Espectro clínico del síndrome de hamartoma tumoral PTEN; relevancia indirecta. |
-| [32711543](https://pubmed.ncbi.nlm.nih.gov/32711543/) | 2020 | Reporte de caso | Diagn Pathol | Tres casos de anomalía vascular fibroadiposa con énfasis en la vía mTOR; relevancia indirecta. |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | ECA | J Am Soc Nephrol | En trasplante renal, la retirada temprana de ciclosporina con sirolimus redujo el riesgo de cáncer (evidencia indirecta) |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Revisión | Cancers | Avances en terapias novedosas para sarcomas de tejidos blandos |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Revisión | Curr Opin Oncol | Fundamento y resultados de ensayos con agentes dirigidos en sarcomas avanzados |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Revisión | Bull Cancer | Tratamientos dirigidos en tumores conectivos raros y sarcomas |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Revisión | Transplant Proc | Cribado de cáncer en receptores de trasplante renal con inmunosupresión prolongada |
 
 ## Información de Mercado en España
 
@@ -88,24 +87,35 @@ Esto da una base biológica plausible para la predicción. Sin embargo, la evide
 | 01171013 | RAPAMUNE 0,5 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
 | 01171001 | RAPAMUNE 1 mg/ml solución oral | Solución oral | No disponible |
 
+
+## Citotoxicidad
+
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de mTOR) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma, función hepática y renal, glucosa y lípidos en sangre |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las de nivel mayor figuran anfotericina B (también en complejo lipídico), mesalazina, balsalazida y claritromicina. Hay además interacciones moderadas con antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, canagliflozina, clorpropamida, albiglutida), corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), aprepitant y cimetidina.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en los datos compilados. Entre las de nivel **mayor** figuran anfotericina B (y su complejo lipídico), mesalazina, balsalazida y claritromicina. Entre las de nivel **moderado** figuran antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, albiglutida, canagliflozina, clorpropamida, dapagliflozina), corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), aprepitant y cimetidina.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Existe un único ensayo de fase 2 de un solo brazo con sirolimus en combinación, sin control aleatorizado. El resto de la literatura es indirecta, por lo que no se puede atribuir eficacia a sirolimus como agente único en liposarcoma. Tampoco se dispone de datos de seguridad de la ficha técnica.
+Solo existe un ensayo de fase 2 de un solo brazo con una combinación, sin control aleatorizado, y la literatura es sobre todo de revisiones y datos indirectos de trasplante. La eficacia de sirolimus en liposarcoma no está demostrada (nivel de evidencia L3).
 
 **Para avanzar se necesita:**
-- Resultados publicados del ensayo NCT02821507, con análisis específico de la cohorte de liposarcoma y de la contribución de sirolimus frente a ciclofosfamida
-- Estudios con control (preferiblemente aleatorizados) de sirolimus en liposarcoma
-- Datos detallados del mecanismo de acción
-- Advertencias y contraindicaciones del prospecto de la AEMPS, para un cribado de seguridad completo
+- Resultados detallados del ensayo NCT02821507, separando el aporte de sirolimus y la cohorte de liposarcoma
+- Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto de AEMPS
+- Estudios aleatorizados o comparativos específicos en liposarcoma
+- Plan de monitoreo de seguridad (metabolismo, función renal y hepática, interacciones)
 
 ## Descargo de responsabilidad
 

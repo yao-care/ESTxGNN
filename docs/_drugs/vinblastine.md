@@ -3,18 +3,18 @@ layout: default
 title: Vinblastine
 parent: Evidencia moderada (L3-L4)
 nav_order: 848
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
-description: "Vinblastine: nueva indicación predicha, Rabdomiosarcoma (rhabdomyosarcoma (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Vinblastine: nueva indicación predicha, rabdomiosarcoma (rhabdomyosarcoma (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Vinblastine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Vinblastine: Rabdomiosarcoma (rhabdomyosarcoma (disease))
+## Vinblastine: rabdomiosarcoma (rhabdomyosarcoma (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Vinblastina es un alcaloide de la vinca, utilizado originalmente en el tratamiento de linfomas (Hodgkin y no Hodgkin), micosis fungoide y histiocitosis de células de Langerhans.
-El modelo TxGNN predice que podría ser efectivo para **rabdomiosarcoma**,
-pero la evidencia actual se limita a **15 publicaciones** de bajo nivel (casos clínicos, estudios preclínicos y series pequeñas) y **ningún ensayo clínico** registrado.
+Vinblastina es un alcaloide de la vinca que se une a la tubulina e interrumpe el ensamblaje de los microtúbulos, y cuenta con autorización en España.
+El modelo TxGNN predice que podría ser efectivo para **rabdomiosarcoma (rhabdomyosarcoma)**.
+La evidencia actual se limita a **publicaciones** (informes de casos y estudios preclínicos), sin ensayos clínicos registrados, por lo que el nivel de evidencia es **L4**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Rabdomiosarcoma (rhabdomyosarcoma (disease)) |
+| Nueva Indicación Predicha | rabdomiosarcoma (rhabdomyosarcoma (disease)) |
 | Puntaje de Predicción TxGNN | 0.9986 |
-| Nivel de Evidencia | L3 |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Vinblastina es un alcaloide de la vinca que se une a la tubulina (diana TUBB, tubulina beta clase I) e interfiere con el ensamblaje de los microtúbulos, provocando detención mitótica en células de división rápida. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento farmacológico general y en la diana registrada.
+Vinblastina es un alcaloide de la vinca que se une a la tubulina y altera el ensamblaje de los microtúbulos, lo que provoca detención mitótica en células de división rápida. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción registrada de forma estructurada, pero este efecto antimitótico es una propiedad conocida de la clase.
 
-Los linfomas y el rabdomiosarcoma comparten un rasgo relevante: son tumores altamente proliferativos, y por ello potencialmente sensibles a un agente antimitótico. Además, los alcaloides de la vinca (principalmente vincristina) ya forman parte de los regímenes estándar del rabdomiosarcoma. Estudios preclínicos en xenoinjertos de rabdomiosarcoma humano y una interacción sinérgica descrita entre inhibidores de PLK1 y fármacos desestabilizadores de microtúbulos respaldan la plausibilidad biológica.
+El rabdomiosarcoma es un sarcoma pediátrico muy proliferativo, por lo que un agente antimitótico resulta mecanísticamente plausible. Los alcaloides de la vinca (principalmente vincristina) ya forman parte de los regímenes habituales de esta enfermedad. Además, un estudio preclínico describe una letalidad sintética entre la inhibición de PLK1 y fármacos desestabilizadores de microtúbulos en modelos de rabdomiosarcoma.
 
-Conviene matizar: el apoyo clínico para vinblastina en concreto proviene de casos aislados y regímenes pediátricos pequeños, no de ensayos controlados. En esos casos se usó dentro de combinaciones (p. ej., cisplatino, vinblastina y bleomicina), por lo que su contribución individual no se puede separar. Además, el rabdomiosarcoma ya cuenta con vincristina como alcaloide de referencia.
+Conviene ser prudente: el apoyo clínico específico para vinblastina procede de informes de casos y regímenes combinados, en los que no es posible separar su contribución individual de la de los demás fármacos.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,14 +70,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [41216926](https://pubmed.ncbi.nlm.nih.gov/41216926/) | 2026 | Cohorte (ensayos prospectivos) | Pediatric Blood & Cancer | Resultados de los ensayos CWS-96 y CWS-2002P en sarcomas de partes blandas localizados no rabdomiosarcoma en niños; evidencia indirecta |
-| [22156656](https://pubmed.ncbi.nlm.nih.gov/22156656/) | 2011 | Estudio piloto | Oncotarget | Régimen metronómico pediátrico de 4 fármacos en tumores resistentes |
-| [38050209](https://pubmed.ncbi.nlm.nih.gov/38050209/) | 2023 | Caso clínico y revisión | Medicine | Rabdomiosarcoma perianal en una adulta; respuesta parcial tras nivolumab, dacarbazina, cisplatino y vinblastina |
-| [26024389](https://pubmed.ncbi.nlm.nih.gov/26024389/) | 2015 | Preclínico | Cell Death & Differentiation | Letalidad sintética entre inhibidores de PLK1 y fármacos desestabilizadores de microtúbulos en modelos de rabdomiosarcoma |
-| [3329524](https://pubmed.ncbi.nlm.nih.gov/3329524/) | 1987 | Preclínico/mecanístico | Anti-Cancer Drug Design | Selectividad terapéutica de los alcaloides de la vinca en xenoinjertos de rabdomiosarcoma humano en ratón |
-| [2451411](https://pubmed.ncbi.nlm.nih.gov/2451411/) | 1987 | Caso clínico y revisión | Hinyokika Kiyo | Rabdomiosarcoma prostático refractario en un niño; reducción rápida de la masa pélvica con cisplatino, vinblastina y peplomicina |
-| [2417460](https://pubmed.ncbi.nlm.nih.gov/2417460/) | 1985 | Caso clínico | Hinyokika Kiyo | Rabdomiosarcoma prostático en un niño tratado con cisplatino, vinblastina y bleomicina |
-| [14328283](https://pubmed.ncbi.nlm.nih.gov/14328283/) | 1965 | Revisión (histórica) | Br J Clin Pract | Quimioterapia tumoral en niños |
+| [38050209](https://pubmed.ncbi.nlm.nih.gov/38050209/) | 2023 | Informe de caso y revisión | Medicine | Rabdomiosarcoma perianal en una adulta; respuesta parcial tras nivolumab, dacarbazina, cisplatino y vinblastina, seguida de resección quirúrgica |
+| [2451411](https://pubmed.ncbi.nlm.nih.gov/2451411/) | 1987 | Informe de caso y revisión | Hinyokika Kiyo | Rabdomiosarcoma de próstata refractario en un niño; reducción rápida de la masa pélvica con cisplatino, vinblastina y peplomicina |
+| [22156656](https://pubmed.ncbi.nlm.nih.gov/22156656/) | 2011 | Estudio piloto | Oncotarget | Régimen metronómico pediátrico de 4 fármacos en cáncer resistente |
+| [26024389](https://pubmed.ncbi.nlm.nih.gov/26024389/) | 2015 | Preclínico | Cell Death Differ | Letalidad sintética entre inhibidores de PLK1 y fármacos desestabilizadores de microtúbulos en modelos de rabdomiosarcoma |
+| [3329524](https://pubmed.ncbi.nlm.nih.gov/3329524/) | 1987 | Preclínico/mecanístico | Anti-Cancer Drug Design | Selectividad terapéutica de los alcaloides de la vinca en xenoinjertos de rabdomiosarcoma humano en ratones |
 
 ## Información de Mercado en España
 
@@ -89,33 +86,33 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (alcaloide de la vinca, agente antimitótico que se une a la tubulina) |
-| Riesgo de Mielosupresión | Alto (el grafo de conocimiento asocia el fármaco con neutropenia, agranulocitosis y trombocitopenia como contraindicaciones en enfermedad preexistente) |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial, función hepática (bilirrubina), función renal, evaluación neurológica periférica |
+| Clasificación de Citotoxicidad | Citotóxico convencional (alcaloide de la vinca, inhibidor de tubulina) |
+| Riesgo de Mielosupresión | Alto (la neutropenia es un efecto esperable de la clase) |
+| Clasificación de Emetogenicidad | Baja a moderada |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, síntomas de neurotoxicidad |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+Para más detalle, consultar las advertencias y precauciones del prospecto.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de precaución (según el grafo de conocimiento, no el texto del prospecto)**: insuficiencia hepática, trombocitopenia, neutropenia, agranulocitosis, neuropatía periférica y enfermedades del sistema nervioso periférico, hiperbilirrubinemia (incluido el síndrome de Gilbert), enfermedad pulmonar, isquemia miocárdica y enfermedad coronaria, enfermedades infecciosas (incluidas las fúngicas y la dermatofitosis), trastornos de ansiedad y neuróticos, trastorno distímico e hiperuricemia.
-- **Interacciones y farmacología**: la única entrada registrada corresponde a la diana farmacológica, tubulina beta clase I (TUBB), sin nivel de gravedad asignado; no se dispone de interacciones con otros fármacos.
-- **Señales de la literatura**: un caso de íleo grave con infusión de cisplatino y vinblastina en neuroblastoma, y preocupación por la neurotoxicidad y la tolerabilidad en niños. La penetración de vinblastina en el SNC es limitada, lo que sería relevante en localizaciones parameníngeas.
-
-Para las advertencias formales, consultar el prospecto.
+- **Interacciones farmacológicas**: los datos compilados solo recogen su diana farmacológica, la tubulina beta de clase I (TUBB); no se dispone de interacciones con otros fármacos.
+- Los datos compilados señalan, como posibles condiciones de riesgo, la insuficiencia hepática, la trombocitopenia, la neutropenia, la agranulocitosis, la neuropatía periférica, la hiperbilirrubinemia, las enfermedades pulmonares, la isquemia miocárdica y las enfermedades infecciosas. Estas relaciones no proceden del texto del prospecto.
+- En población pediátrica, un informe describe íleo grave con la infusión de cisplatino y vinblastina (en neuroblastoma), lo que sugiere vigilar la tolerabilidad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje TxGNN es muy alto (0.9986), la evidencia clínica se limita a casos aislados y regímenes combinados antiguos o pequeños, sin ensayos registrados, y vincristina ya ocupa el lugar del alcaloide de la vinca en el rabdomiosarcoma. Además, faltan los datos de seguridad del prospecto, lo cual impide avanzar al cribado de seguridad.
+El puntaje de predicción es alto (0,9986), pero la evidencia directa en rabdomiosarcoma se limita a informes de casos con regímenes combinados y a estudios preclínicos, sin ensayos clínicos. No es posible aislar la contribución de vinblastina, y la vincristina es el alcaloide de la vinca ya establecido en esta enfermedad.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicación aprobada de la autorización 37275).
-- Completar los datos del mecanismo de acción.
-- Revisar sistemáticamente la literatura clínica sobre vinblastina en rabdomiosarcoma para aislar su aporte frente a vincristina y a las combinaciones.
-- Evaluar la ruta de administración, la dosis y la tolerabilidad pediátrica (neurotoxicidad, mielosupresión).
-- Considerar estudios preclínicos o ensayos exploratorios que comparen vinblastina con el estándar actual.
+- Estudios clínicos que evalúen vinblastina de forma específica en rabdomiosarcoma.
+- Datos estructurados del mecanismo de acción.
+- Información de advertencias y contraindicaciones del prospecto de la AEMPS.
+- Plan de monitoreo de seguridad hematológica y neurológica, especialmente en población pediátrica.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
