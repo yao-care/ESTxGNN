@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lornoxicam
-parent: Evidencia alta (L1-L2)
+parent: Solo predicción del modelo (L5)
 nav_order: 486
-evidence_level: L2
+evidence_level: L5
 indication_count: 8
 monitor_inn: "LORNOXICAM"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "idiopathic granulomatous myositis"]
-last_modified_at: 2026-10-28
-description: "Lornoxicam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L2). Indicación original: No disponible (las autorizaciones no incluyen texto de indicación)"
+last_modified_at: 2026-11-04
+description: "Lornoxicam: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lornoxicam
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +33,51 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-## Lornoxicam: De Indicación Original (sin texto de indicación disponible) a Trastorno de Migraña
+## Lornoxicam: trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lornoxicam es un antiinflamatorio no esteroideo (AINE) de la clase de los oxicams, con propiedades analgésicas, antiinflamatorias y antipiréticas. Las autorizaciones españolas de los datos compilados no incluyen texto de indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, con **1 ensayo clínico** de Fase 2 y **2 publicaciones** que actualmente respaldan esta dirección.
+Lornoxicam es un antiinflamatorio no esteroideo (AINE) de la clase de los oxicams, con propiedades analgésicas, antiinflamatorias y antipiréticas.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña (migraine disorder)**,
+pero el nivel de evidencia es **L5**: existe **1 ensayo clínico** de Fase 2 completado sin resultados publicados y **2 publicaciones** de tipo revisión, ninguna de las cuales demuestra por sí sola la eficacia de lornoxicam en migraña.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (las autorizaciones no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 0,9987 |
-| Nivel de Evidencia | L2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | trastorno de migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0.9987 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 1 de 7) |
 | Número de Autorizaciones | 7 (vigentes: 1) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la farmacología conocida de la clase, lornoxicam es un AINE que inhibe las enzimas COX-1 y COX-2 y, con ello, reduce la síntesis de prostaglandinas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida de la clase, lornoxicam inhibe las enzimas COX-1 y COX-2 y reduce la síntesis de prostaglandinas.
 
-Las prostaglandinas participan en la inflamación neurogénica y en la sensibilización al dolor que ocurren en la migraña. Los AINE son una clase de fármacos establecida para el tratamiento de las crisis agudas de migraña, por lo que el mecanismo es biológicamente plausible y coherente con la clase. Esta vinculación se basa en la farmacología conocida de la clase y no en datos de mecanismo específicos de este fármaco.
+Las prostaglandinas contribuyen a la inflamación neurogénica y a la sensibilización al dolor en la migraña, y los AINE son una clase establecida para el tratamiento de las crisis agudas de migraña. Por ello, el mecanismo es biológicamente plausible y coherente con la clase.
 
-Una revisión de 1992 sobre AINE en migraña incluye lornoxicam entre los fármacos evaluados. Además, un ensayo de Fase 2 completado estudió lornoxicam intravenoso en el dolor de cabeza agudo de la migraña.
+Esta plausibilidad mecanística no equivale a evidencia de eficacia: ningún estudio publicado incluido en los datos prueba directamente lornoxicam en migraña, por lo que la predicción sigue siendo una hipótesis.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Completado | 150 | Estudio aleatorizado, doble ciego y controlado con placebo de dosis única de lornoxicam intravenoso (8 mg o 16 mg) frente a placebo en el dolor de cabeza moderado o intenso de una crisis de migraña. Los resultados del criterio principal no figuran en los datos compilados. |
+| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Completado | 150 | Estudio aleatorizado, doble ciego, de dosis única y controlado con placebo de lornoxicam intravenoso (8 mg o 16 mg) en el dolor de cabeza agudo de moderado a intenso asociado a una crisis de migraña. No se dispone de resultados publicados. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Revisión | Pathologie-biologie | Revisa estudios controlados de AINE en el tratamiento de crisis de migraña y en la profilaxis, entre ellos lornoxicam. |
-| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Revisión | Drugs | Revisión de la farmacología y el potencial terapéutico de lornoxicam en dolor y afecciones inflamatorias; semivida de eliminación corta (3 a 5 horas). Es una fuente general sobre el fármaco, no específica de migraña. |
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Revisión | Pathologie-biologie | Revisa estudios controlados de AINE (incluido lornoxicam) en el tratamiento de las crisis de migraña y en la profilaxis a largo plazo. |
+| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Revisión | Drugs | Revisión general de la farmacología y el potencial terapéutico de lornoxicam en dolor y afecciones inflamatorias; no es específica de migraña. |
 
 ## Información de Mercado en España
+
+Según los datos locales, hay 7 autorizaciones, de las cuales 1 está vigente y 6 canceladas.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -84,26 +87,24 @@ Una revisión de 1992 sobre AINE en migraña incluye lornoxicam entre los fárma
 | 65059 | ACABEL RAPID 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
 | 62691 | BOSPORON 8 mg (cancelada) | Comprimido recubierto con película | No disponible |
 
-Hay 7 autorizaciones en total (1 vigente y 6 canceladas); la tabla muestra las 5 principales.
-
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 2 completado, aleatorizado y controlado con placebo, que estudia directamente lornoxicam en la migraña, junto con un mecanismo plausible de clase. Sin embargo, no hay resultados verificados del criterio principal ni ECA de Fase 3, por lo que la evidencia es limitada. Las predicciones de "trastorno de cefalea" se apoyan en el mismo ensayo y no constituyen evidencia independiente.
+Aunque el mecanismo es plausible y existe un ensayo de Fase 2 completado, no hay resultados publicados que demuestren la eficacia de lornoxicam en migraña, por lo que el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Verificar los resultados del criterio principal del ensayo NCT00293657.
-- Obtener el prospecto de la AEMPS (advertencias y contraindicaciones) y los datos de mecanismo de acción.
-- Aclarar la vía de administración: el ensayo usó la vía intravenosa, y la única autorización vigente en España es oral.
-- Evaluar el perfil de seguridad de los AINE (gastrointestinal, cardiovascular, renal) en uso repetido para migraña.
+- Obtener o localizar los resultados del ensayo NCT00293657 (criterio principal de valoración)
+- Estudios publicados que evalúen directamente lornoxicam en migraña
+- Datos de advertencias y contraindicaciones del prospecto
+- Datos detallados del mecanismo de acción
+- Plan de monitoreo de seguridad, en particular gastrointestinal, renal y cardiovascular, propio de los AINE
 
-**Otras predicciones (nivel L5 salvo indicación):** las predicciones de subtipos de migraña, cefalea trigémino-autonómica y miositis granulomatosa idiopática no cuentan con estudios directos y se mantienen en Hold. El síndrome de braquidactilia-sindactilia y el síndrome de microftalmia colobomatosa-displasia rizomélica carecen de vínculo mecanístico plausible; sus puntuaciones provienen del modelo TxGNN (deep learning) y probablemente reflejan similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. La tendinitis (L3 asignado en los datos) solo tiene un estudio en síndrome de pinzamiento subacromial, donde lornoxicam inyectable resultó inferior a betametasona; no es un estudio directo de tendinitis, por lo que debe considerarse L5 según el criterio de evidencia directa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

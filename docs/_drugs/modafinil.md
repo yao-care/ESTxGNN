@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Modafinil
-parent: Evidencia moderada (L3-L4)
+parent: Solo predicción del modelo (L5)
 nav_order: 539
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
-description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Modafinilo es un fármaco promotor de la vigilia que se comercializa en España en comprimidos.
-El modelo TxGNN predice que podría ser efectivo para **insomnio (insomnia (disease))**,
-con **2 ensayos clínicos** (solo uno completado, de Fase 4 y con 40 participantes) y varias publicaciones de contexto, pero ninguna que demuestre beneficio en el insomnio. El nivel de evidencia asignado es **L3**.
+Modafinilo es un fármaco promotor de la vigilia, comercializado en España en comprimidos de 100 mg.
+El modelo TxGNN predice que podría ser efectivo para **insomnio (insomnia)**, pero la evidencia es muy limitada: **2 ensayos clínicos** registrados (uno terminado con solo 2 participantes y otro completado sin resultados publicados) y ninguna publicación que estudie directamente el insomnio. El nivel de evidencia es **L5**.
 
 ## Resumen Rápido
 
@@ -49,44 +48,39 @@ con **2 ensayos clínicos** (solo uno completado, de Fase 4 y con 40 participant
 | Indicación Original | No consta en los datos locales |
 | Nueva Indicación Predicha | insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9985 |
-| Nivel de Evidencia | L3 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
 | Número de Autorizaciones | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, modafinilo es un agente promotor de la vigilia, que se entiende que actúa sobre los circuitos de la vigilia y la recaptación de dopamina, y su objetivo es reducir la somnolencia diurna excesiva.
+No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por lo general, modafinilo se entiende como un agente promotor de la vigilia que actúa sobre circuitos de vigilia y sobre el transportador de dopamina, con el objetivo de reducir la somnolencia excesiva.
 
-La relación con el insomnio es, mecanísticamente, poco intuitiva: el insomnio se caracteriza por dificultad para iniciar o mantener el sueño, mientras que modafinilo actúa contra la somnolencia. El puntaje elevado del modelo (0,9985) probablemente refleja la proximidad con otros trastornos del sueño y la vigilia, más que un vínculo terapéutico directo.
+Aquí está la dificultad: el insomnio se caracteriza por dificultad para iniciar o mantener el sueño, justo lo contrario del problema que trata un fármaco que promueve la vigilia. El puntaje alto (0,9985) probablemente refleja la cercanía en la red del modelo con otros trastornos del sueño y la vigilia, y no un vínculo terapéutico real.
 
-Aun así, existe un estudio de Fase 4 que evaluó el modafinilo, solo o combinado con terapia cognitivo-conductual para el insomnio (TCC-I), sobre el funcionamiento diurno y la gravedad del insomnio primario. Esto justifica una exploración cautelosa, pero no permite concluir eficacia.
+Por ello, la plausibilidad mecanística es baja. La literatura disponible trata sobre somnolencia diurna y alteraciones del sueño en enfermedades concomitantes (adultos mayores, enfermedad de Parkinson, trastornos neurológicos, trabajo por turnos), no sobre insomnio en sí.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Fase 4 | Completado | 40 | Efecto del modafinilo, solo o con TCC-I, sobre el funcionamiento diurno y la gravedad del insomnio primario; sin resultados publicados en los datos disponibles |
+| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Fase 4 | Completado | 40 | Efecto de modafinilo, solo o con terapia cognitivo-conductual para el insomnio, sobre el funcionamiento diurno y la gravedad del insomnio; sin resultados publicados |
 | [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Fase 4 | Terminado | 2 | Alteraciones del sueño y la vigilia en adultos mayores; terminado con solo 2 participantes, sin datos interpretables |
 
 ## Evidencia de Literatura
 
-Las publicaciones recuperadas abordan sobre todo somnolencia diurna y trastornos del sueño en otras condiciones, no el insomnio como tal.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Revisión sistemática/Metaanálisis | PloS one | Eficacia y seguridad del modafinilo en fatiga y somnolencia diurna asociadas a trastornos neurológicos |
-| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Revisión sistemática/Metaanálisis | Parkinsonism & Related Disorders | Intervenciones farmacológicas para somnolencia y trastornos del sueño en la enfermedad de Parkinson |
-| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revisión | Drugs | Revisión basada en evidencia de usos aprobados y en investigación del modafinilo |
-| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revisión | Movement Disorders | Tratamientos de síntomas no motores de la enfermedad de Parkinson |
-| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Revisión | Expert Opinion on Pharmacotherapy | Manejo farmacológico y no farmacológico de alteraciones del sueño en Parkinson |
-| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revisión | Drugs | Carga y manejo del trastorno del sueño por turnos de trabajo |
-| [21904092](https://pubmed.ncbi.nlm.nih.gov/21904092/) | 2011 | Revisión | Postgraduate Medicine | Teorías y terapias emergentes para el trastorno por trabajo en turnos |
-| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Serie de casos | Am J Hosp Palliat Care | Modafinilo reduce la fatiga en la enfermedad de Charcot-Marie-Tooth tipo 1A |
+| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Revisión sistemática/Metaanálisis | PloS one | Eficacia de modafinilo sobre la fatiga y la somnolencia diurna en trastornos neurológicos; no aborda el insomnio |
+| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Revisión sistemática/Metaanálisis | Parkinsonism & related disorders | Intervenciones farmacológicas para somnolencia y trastornos del sueño en Parkinson |
+| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revisión | Drugs | Revisión de usos aprobados y en investigación de modafinilo basada en ensayos aleatorizados |
+| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revisión | Movement disorders | Revisión basada en la evidencia de tratamientos de síntomas no motores del Parkinson |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revisión | Drugs | Carga y manejo del trastorno del sueño por trabajo en turnos |
+
+Ninguna de estas publicaciones estudia directamente el insomnio como enfermedad tratada con modafinilo.
 
 ## Información de Mercado en España
-
-Modafinilo cuenta con 6 autorizaciones vigentes y 1 cancelada, todas de medicamentos con un único principio activo. Principales autorizaciones:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -96,25 +90,26 @@ Modafinilo cuenta con 6 autorizaciones vigentes y 1 cancelada, todas de medicame
 | 61540 | MODIODAL 100 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
 | 84141 | MODAFINILO ARISTO 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
 
+Hay 7 autorizaciones registradas, de las cuales 6 están vigentes y 1 cancelada.
+
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: se identificaron 249 posibles interacciones. Entre las de nivel moderado figuran omeprazol, esomeprazol, rabeprazol, dexametasona, eliglustat, linagliptina y cisaprida. Las de nivel leve incluyen hidrocortisona, pioglitazona, aprepitant, triamcinolona, betametasona, cimetidina y claritromicina, entre otras.
-- **Condiciones de precaución registradas en los datos compilados** (no proceden del texto del prospecto): hipertensión, insuficiencia hepática, trastornos de ansiedad, trastornos psicóticos y otros trastornos mentales, abuso o dependencia de sustancias, síndrome coronario agudo, infarto de miocardio, cardiopatía isquémica, enfermedad coronaria y prolapso de la válvula mitral.
+- **Interacciones Farmacológicas**: se identificaron 249 interacciones potenciales. Entre las de nivel moderado figuran omeprazol, esomeprazol, rabeprazol, dexametasona, eliglustat, linagliptina y cisaprida. Entre las de nivel leve figuran hidrocortisona, pioglitazona, aprepitant, triamcinolona, betametasona, cimetidina, claritromicina, saxagliptina y dronabinol.
 
-Consultar el prospecto para la información de seguridad completa.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia directa se limita a un pequeño estudio de Fase 4 (n=40) sin resultados disponibles y otro terminado con 2 participantes. Además, el mecanismo de un fármaco promotor de la vigilia es poco coherente con el tratamiento del insomnio, por lo que el puntaje alto del modelo no basta para avanzar. Nivel de evidencia: L3.
+La predicción se apoya solo en el modelo: el único ensayo en insomnio primario (NCT00124384) no tiene resultados publicados y ninguna publicación estudia directamente esta indicación, por lo que el nivel de evidencia es L5. Además, el mecanismo promotor de la vigilia de modafinilo es contrario al objetivo terapéutico en insomnio.
 
 **Para avanzar se necesita:**
-- Resultados publicados de NCT00124384 y verificación de su población y variables de valoración
-- Ensayos controlados aleatorizados específicos en insomnio
-- Datos detallados del mecanismo de acción
-- Revisión de advertencias y contraindicaciones del prospecto, en especial por las condiciones cardiovasculares y psiquiátricas señaladas
+- Resultados publicados o registrados del ensayo NCT00124384
+- Datos detallados del mecanismo de acción y una justificación mecanística de su uso en insomnio
+- Ensayos controlados específicos en insomnio, con datos de eficacia y seguridad
+- Revisión del prospecto para advertencias y contraindicaciones
 
 ## Descargo de responsabilidad
 
