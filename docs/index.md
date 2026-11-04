@@ -19,7 +19,30 @@ Este proyecto utiliza el modelo TxGNN (aprendizaje profundo) para predecir posib
 
 Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [AEMPS](https://www.aemps.gob.es/) (España).
 
-Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+### Datos locales de este sitio
+
+| Elemento | Detalle |
+|------|---------|
+| Conjunto de datos | CIMA: listado de medicamentos (API REST pública) |
+| Publicador | AEMPS |
+| Descarga | <https://cima.aemps.es/cima/rest/medicamentos> (se recorren todas las páginas) |
+| Identificador de producto | Número de registro |
+| Actualización | Descarga automática semanal (cada lunes); el estado se toma de CIMA: Revocada, Suspendida, Autorizada (comercializada) o Autorizada (no comercializada) |
+
+Detalles: [Fuentes de datos]({{ '/sources/' | relative_url }}).
+
+Informes por nivel de evidencia:
+
+| Nivel de evidencia | Informes | Proporción |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+32 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
 
 ### Medicamentos con mayor nivel de evidencia en este sitio
 
@@ -29,22 +52,22 @@ Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} �
 | [Bromfenac](/drugs/bromfenac/) | L1 |
 | [Bupropion](/drugs/bupropion/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
-| [Glecaprevir](/drugs/glecaprevir/) | L1 |
 | [Grazoprevir](/drugs/grazoprevir/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
-| [Lormetazepam](/drugs/lormetazepam/) | L1 |
-| [Oteracil](/drugs/oteracil/) | L1 |
-| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Ribavirin](/drugs/ribavirin/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Ketorolac](/drugs/ketorolac/) | L1 |
+| [Tacrolimus](/drugs/tacrolimus/) | L1 |
 
 ### Medicamentos que solo cubre este sitio entre los 30 sitios TxGNN
 
 | Medicamento | Nivel de evidencia |
 |---|---|
-| [Brotizolam](/drugs/brotizolam/) | L1 |
 | [Niflumic Acid](/drugs/niflumic-acid/) | L5 |
 | [Bentazepam](/drugs/bentazepam/) | L5 |
-| [Medazepam](/drugs/medazepam/) | L5 |
 | [Tramazoline](/drugs/tramazoline/) | L5 |
+| [Brotizolam](/drugs/brotizolam/) | L5 |
+| [Medazepam](/drugs/medazepam/) | L5 |
 | [Almasilate](/drugs/almasilate/) | L5 |
 | [Vincamine](/drugs/vincamine/) | L5 |
 
@@ -52,15 +75,5 @@ Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} �
 
 ## Sobre el desarrollador
 
-Esta plataforma está desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-mercantil 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-ESTxGNN es el sitio de España de la línea de productos «TxGNN Drug Repurposing» de la empresa.
-El mismo sistema está desplegado en 30 países y regiones, cada uno denominado `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, etc.) en `{cc}txgnn.yao.care`.
-Descripción general del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN en sí fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado
-en *Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 ha construido sobre ese
-modelo, y abarca la integración de datos nacionales de registro de medicamentos, la predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la gradación de la evidencia con PubMed /
-ClinicalTrials y la integración con la historia clínica electrónica mediante SMART on FHIR.
+Esta plataforma está desarrollada y operada por **藥提醒科技有限公司** (yao.care). Consulte la página
+<a href="{{ '/about/' | relative_url }}">Acerca de</a> para conocer los antecedentes completos de la empresa y de la metodología.
