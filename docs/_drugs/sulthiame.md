@@ -38,6 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
+Sultiamo es un inhibidor de la anhidrasa carbónica, pero los datos compilados para este informe no incluyen el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola de caballo**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional.
 
 ## Resumen Rápido

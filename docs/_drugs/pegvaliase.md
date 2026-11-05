@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Los datos compilados para este informe no incluyen el texto de la indicación aprobada.
+Pegvaliasa es una enzima fenilalanina amoníaco liasa pegilada que degrada la fenilalanina. Los datos compilados para este informe no incluyen el texto de la indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ---

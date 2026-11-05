@@ -1,10 +1,9 @@
 {
- "conestat_alfa": [
-  {"sentence": "Dos ECA de Fase 3 (incluido uno de Fase 2/3) completados respaldan la eficacia y seguridad en el angioedema hereditario por deficiencia de C1-INH, y el fármaco ya está comercializado en España.", "keep": true,
-   "reason": "CIMA：RUCONEST 110641001／002 為 Autorizada、comerc=false，「ya está comercializado」不對；但同一句含療效證據，依規則不刪，留待用戶決定"}
- ],
  "pegvaliase": [
-  {"sentence": "Según la información conocida, pegvaliasa es una fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada para la fenilcetonuria.", "keep": true,
-   "reason": "說的是一般藥理知識（用於 PKU），不是西班牙上市狀態；同句含機轉，不刪"}
+  {
+   "sentence": "Según la información conocida, pegvaliasa es una fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada para la fenilcetonuria.",
+   "keep": true,
+   "reason": "說的是一般藥理知識（用於 PKU），不是西班牙上市狀態；同句含機轉，不刪"
+  }
  ]
 }

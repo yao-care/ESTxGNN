@@ -38,6 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
+Remimazolam es una benzodiazepina de acción ultracorta administrada por vía intravenosa, aunque los datos compilados no recogen el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **insomnio** (puntaje 0,9991), y como segunda predicción para el **delirium por abstinencia alcohólica** (0,9930).
 Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden estas predicciones, por lo que se trata de una predicción puramente computacional.
 

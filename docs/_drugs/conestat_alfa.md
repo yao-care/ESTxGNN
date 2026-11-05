@@ -111,7 +111,7 @@ Para advertencias y contraindicaciones específicas, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Dos ECA de Fase 3 (incluido uno de Fase 2/3) completados respaldan la eficacia y seguridad en el angioedema hereditario por deficiencia de C1-INH, y el fármaco ya está comercializado en España. Sin embargo, esto corresponde a su indicación aprobada, no a un reposicionamiento; las demás indicaciones predichas carecen de evidencia y deben mantenerse en espera.
+Dos ECA de Fase 3 (incluido uno de Fase 2/3) completados respaldan la eficacia y seguridad en el angioedema hereditario por deficiencia de C1-INH. Sin embargo, esto corresponde a su indicación aprobada, no a un reposicionamiento; las demás indicaciones predichas carecen de evidencia y deben mantenerse en espera.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), una carencia de datos que bloquea el cribado de seguridad

@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
+Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3), cuya indicación original no figura en los datos de autorización compilados para este informe. El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ---
 

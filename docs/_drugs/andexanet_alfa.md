@@ -38,6 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
+Andexanet alfa es una proteína recombinante, señuelo del factor Xa catalíticamente inactivo para revertir el efecto de los inhibidores del factor Xa.
 El modelo TxGNN predice que podría ser efectivo para **trombastenia de Glanzmann**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 Su puntaje alto parece reflejar cercanía en la red de conocimiento de trastornos hemorrágicos, no un vínculo biológico real.
 

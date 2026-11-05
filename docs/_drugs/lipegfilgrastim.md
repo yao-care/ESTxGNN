@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-En los datos compilados para este informe no consta el texto de su indicación aprobada.
+Lipegfilgrastim es un análogo pegilado del factor estimulante de colonias de granulocitos (G-CSF). En los datos compilados para este informe no consta el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido

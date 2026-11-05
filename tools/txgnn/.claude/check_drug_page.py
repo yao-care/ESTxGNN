@@ -1239,7 +1239,7 @@ def check_page(site, f, cls, want_noindex):
         # M5（2026-11-05）：非 Tw 站殘留 TwTxGNN 模板的台灣上市狀態列／taiwan_regulatory 欄位／「台灣無許可」句
         if site != "TwTxGNN":
             for line in strip_managed(body).split("\n"):
-                if TW_LEFTOVER.search(line):
+                if TW_LEFTOVER.search(line) and not any(k in line for k in license_keep(site).get(f.stem, ())):
                     E("M5", f"殘留台灣模板：{line.strip()[:60]}")
     # N1
     if want_noindex:

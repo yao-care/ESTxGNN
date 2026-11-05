@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados.
+Toremifeno es un modulador selectivo de los receptores de estrógenos. Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados.
 El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero actualmente solo hay **0 ensayos clínicos** y **1 publicación preclínica** (sobre criptococosis) que se relacionan indirectamente con esta dirección.
 
 ## Resumen Rápido

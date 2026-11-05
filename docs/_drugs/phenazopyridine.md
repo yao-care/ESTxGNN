@@ -38,6 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
+Fenazopiridina es un analgésico del tracto urinario; los datos compilados no recogen el texto de su indicación original aprobada.
 El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
