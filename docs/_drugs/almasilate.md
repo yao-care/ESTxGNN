@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Almasilate"
 predicted_indications: ["gastroduodenitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Almasilate: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -38,7 +38,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Almasilato es un antiácido que se comercializa en España en forma de polvo para suspensión oral.
 El modelo TxGNN predice que podría ser útil para **gastroduodenitis (gastroduodenitis)**,
 pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
@@ -51,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

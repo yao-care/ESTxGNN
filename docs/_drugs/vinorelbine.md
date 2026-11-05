@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 852
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **3 ensayos clínicos** (2 de ellos de Fase 2 y directamente relacionados co
 | Nueva Indicación Predicha | Sarcoma de Ewing (Ewing sarcoma) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 16) |
-| Número de Autorizaciones | 16 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 16; autorizadas no comercializadas: 1; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 16 (comercializadas: 10) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,8 +90,6 @@ Hay que señalar que la relación con la indicación original es mecanística y 
 | 65979 | NAVELBINE 30 mg cápsulas blandas | Cápsula blanda | No disponible en los datos compilados |
 | 72511 | VINORELBINA IPS 10 mg/ml concentrado para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
 | 70585 | VINORELBINA SANDOZ 10 mg/ml concentrado para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
-
-Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado para perfusión, de varios titulares (Pierre Fabre, Accord, Glenmark, Medac, Sandoz, Eugia, IPS).
 
 ## Citotoxicidad
 

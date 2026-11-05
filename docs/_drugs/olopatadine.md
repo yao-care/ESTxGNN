@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosáce
 | Nueva Indicación Predicha | Conjuntivitis rosácea (rosacea conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 9; autorizadas no comercializadas: 5; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 9 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -71,7 +71,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Se identificaron 9 autorizaciones vigentes (todas de monofármaco, ninguna cancelada). Se listan las 5 principales. El texto de indicación aprobada no figura en los datos compilados para este informe.
+Se listan las 5 principales. El texto de indicación aprobada no figura en los datos compilados para este informe.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

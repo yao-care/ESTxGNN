@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Caplacizumab: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Púrpura trombocitopénica"
 monitor_inn: "CAPLACIZUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
+| Número de Autorizaciones | 1 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

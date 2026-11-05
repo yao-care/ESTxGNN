@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "mepyramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,14 +50,13 @@ pero actualmente **no hay ensayos clínicos** y solo **4 publicaciones** indirec
 | Nueva Indicación Predicha | Nasal cavity disease |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 4; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 4 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mepiramina es un antagonista clásico del receptor H1 de histamina de primera generación. Su eficacia en cuadros alérgicos mediados por histamina es conocida, y mecanísticamente es aplicable a la urticaria alérgica.
-
 
 Todas se solapan con indicaciones ya existentes y cuentan con evidencia aún más limitada.
 
@@ -82,8 +81,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 54498 | FLUIDASA 5 mg/ml SOLUCIÓN ORAL | Solución oral | No disponible en los datos |
 | 54499 | FLUIDASA 20 mg/ml GOTAS ORALES EN SOLUCIÓN | Gotas orales en solución | No disponible en los datos |
 | 55465 | FLUIDASA 150 mg CÁPSULAS DURAS | Cápsula dura | No disponible en los datos |
-
-Las cuatro autorizaciones están vigentes, son de monofármaco y pertenecen a Teofarma S.R.L.
 
 ## Consideraciones de Seguridad
 

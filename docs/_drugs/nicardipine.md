@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Nicardipine: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero **no existen ensayos clínicos registrados** y la literatura disponible es 
 | Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 9; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 9 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -89,8 +89,6 @@ Se muestran las publicaciones más cercanas al tema. Ninguna es un ECA y ninguna
 | 56370 | LINCIL 20 mg COMPRIMIDOS | Comprimido | No disponible |
 | 60975 | VASONASE 1 mg/ml SOLUCIÓN PARA PERFUSIÓN | Solución para perfusión | No disponible |
 | 58330 | VASONASE 30 mg CÁPSULAS DURAS | Cápsula dura | No disponible |
-
-Hay 9 autorizaciones vigentes en total, todas de medicamentos de un solo principio activo; aquí se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 

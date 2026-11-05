@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 | Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9908 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 11) |
-| Número de Autorizaciones | 11 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 11; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 11 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -109,8 +109,6 @@ El puntaje de 0.9908 es una predicción computacional y no sustituye a la eviden
 | 69474 | Irinotecan Aurovitas 20 mg/ml | Concentrado para solución para perfusión | No disponible en los datos compilados |
 | 83108 | Irinotecan Hikma 20 mg/ml EFG | Concentrado para solución para perfusión | No disponible en los datos compilados |
 | 1161130001 | Onivyde pegylated liposomal 4,3 mg/ml | Concentrado para dispersión para perfusión | No disponible en los datos compilados |
-
-Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ---
 

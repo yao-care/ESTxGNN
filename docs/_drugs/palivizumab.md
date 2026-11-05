@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: nueva indicación predicha, Benign neoplasm of tongue (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia benigna de la 
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
-| Número de Autorizaciones | 4 (vigentes: 0) |
+| Número de Autorizaciones | 4 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,8 +87,6 @@ Actualmente no hay literatura relacionada disponible.
 | 99117002 | SYNAGIS 100 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
 | 99117001 | SYNAGIS 50 mg polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
 | 199117004 | SYNAGIS 100 mg/1 ml solución inyectable | Solución inyectable | No disponible en los datos compilados |
-
-Las cuatro autorizaciones están vigentes, son de fármaco único y pertenecen a AstraZeneca AB.
 
 ---
 

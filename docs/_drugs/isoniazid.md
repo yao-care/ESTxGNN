@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero ac
 | Nueva Indicación Predicha | Conjuntivitis (conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 7) |
+| Número de Autorizaciones | 7 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

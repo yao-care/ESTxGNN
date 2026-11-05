@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Pioglitazone: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2"
 monitor_inn: "Pioglitazone"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -52,7 +52,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Opsismodisplasia |
 | Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 8; autorizadas no comercializadas: 4; revocadas o suspendidas: 8) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible para la opsismodisplasia.
 
 ## Información de Mercado en España
 
-Pioglitazona está comercializada en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de comprimidos. Se muestran las 5 principales:
+Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

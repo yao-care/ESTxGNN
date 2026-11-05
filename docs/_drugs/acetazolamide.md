@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Acetazolamide: nueva indicación predicha, Hipertermia maligna inducida por el ejercicio (exercise-induced malignant hyperthermia) (nivel de evidencia L5). Indicación original: No consta en los datos …"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Hipertermia maligna inducida por el ejercicio (exercise-induced malignant hyperthermia) |
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
+| Número de Autorizaciones | 1 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ con **2 ensayos clínicos** y **6 publicaciones** (de las cuales 3 son ensayos a
 | Nueva Indicación Predicha | Nasal cavity disease |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 15; autorizadas no comercializadas: 4; revocadas o suspendidas: 1) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -88,8 +88,6 @@ Además, el aumento de dosis (hasta 4 veces la dosis estándar) de antihistamín
 | 75335 | Desloratadina Cinfa 5 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
 | 00160055 | Aerius 5 mg comprimidos bucodispersables | Comprimido bucodispersable | No disponible |
 | 77984 | Desloratadina Alter 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible |
-
-Se registran 20 autorizaciones vigentes en total (todas de monofármaco), con presentaciones en comprimido recubierto, comprimido bucodispersable y solución oral.
 
 ## Consideraciones de Seguridad
 

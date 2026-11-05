@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 282
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -48,8 +48,8 @@ Eletriptán es un agonista selectivo de los receptores 5-HT1B/1D, originalmente 
 | Nueva Indicación Predicha | Atrophoderma vermiculata |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 10; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -88,8 +88,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 64125 | RELPAX 40 mg comprimidos recubiertos con película | Comprimido recubierto con película | — |
 | 82734 | ELETRIPTAN BLUEFISH 20 mg EFG | Comprimido recubierto con película | — |
 | 83924 | ELETRIPTAN AUROBINDO 40 mg EFG | Comprimido recubierto con película | — |
-
-Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

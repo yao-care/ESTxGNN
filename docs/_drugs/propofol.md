@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 669
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 19) |
-| Número de Autorizaciones | 19 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 19; autorizadas no comercializadas: 4; revocadas o suspendidas: 7) |
+| Número de Autorizaciones | 19 (comercializadas: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,8 +94,6 @@ La relación con la indicación original es farmacológica más que clínica: un
 | 89617 | Propofol Farmak 20 mg/ml | Emulsión inyectable y para perfusión | No disponible |
 | 62134 | Propofol Fresenius 10 mg/ml | Emulsión inyectable y para perfusión | No disponible |
 | 60744 | Diprivan 20 mg/ml | Emulsión inyectable y para perfusión | No disponible |
-
-Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único).
 
 ## Consideraciones de Seguridad
 

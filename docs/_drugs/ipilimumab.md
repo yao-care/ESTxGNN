@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: Melanoma metastásico"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Coroideremia |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ---

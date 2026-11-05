@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 description: "Ofloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscos
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 9; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 9 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -78,8 +78,6 @@ Actualmente no hay literatura relacionada disponible.
 | 81022 | OFLOXACINO POS 3 MG/ML COLIRIO EN SOLUCION | Colirio en solución | No disponible |
 | 59653 | OFLOVIR 200 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | Comprimido recubierto | No disponible |
 | 67741 | OFLOXACINO ALTAN 2 MG/ML SOLUCION PARA PERFUSION EFG | Solución para perfusión | No disponible |
-
-Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

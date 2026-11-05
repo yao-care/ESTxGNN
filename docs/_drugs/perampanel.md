@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, pero
 | Nueva Indicación Predicha | Beta-ketothiolase deficiency |
 | Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 (solo evidencia indirecta o de mecanismo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 13; autorizadas no comercializadas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

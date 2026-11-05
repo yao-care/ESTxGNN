@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "almotriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Almotriptan: nueva indicación predicha, Atrofodermia vermiculada (atrophoderma vermiculata) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Atrofodermia vermiculada (atrophoderma vermiculata) |
 | Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 16 de 20) |
-| Número de Autorizaciones | 20 (vigentes: 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 16 de 20; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 20 (comercializadas: 16) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

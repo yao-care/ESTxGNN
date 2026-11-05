@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 805
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 11; revocadas o suspendidas: 9) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -71,7 +71,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Topiramato está comercializado en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada). Los textos de indicación aprobada no figuran en los datos compilados. Se muestran las 5 principales:
+Los textos de indicación aprobada no figuran en los datos compilados. Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

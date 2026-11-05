@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Panitumumab: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: Neoplasia maligna metastásica de colon (según la base de conocimiento…"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -50,8 +50,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
 | Puntaje de Predicción TxGNN | 0.9913 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible.
 | 07423003 | VECTIBIX 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
 | 07423002 | VECTIBIX 20 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos compilados |
 
-Titular: Amgen Europe B.V. Las tres autorizaciones son vigentes y de principio activo único.
+Titular: Amgen Europe B.V.
 
 ## Citotoxicidad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: nueva indicación predicha, Acromesomelic dysplasia, Hunter-Thompson type (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 | Nueva Indicación Predicha | Acromesomelic dysplasia, Hunter-Thompson type |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 16; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -71,7 +71,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en España
 
-Se registran 20 autorizaciones vigentes, todas de medicamentos con tramadol como único principio activo. Se muestran las 5 principales:
+Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fidaxomicin: nueva indicación predicha, Síndrome de la piel escaldada estafilocócica (nivel de evidencia L5). Indicación original: Colitis por Clostridium difficile"
 monitor_inn: "fidaxomicin"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la piel 
 | Nueva Indicación Predicha | Síndrome de la piel escaldada estafilocócica |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Methionine: nueva indicación predicha, Acné (enfermedad) (nivel de evidencia L5). Indicación original: No disponible"
 ---
 
@@ -50,8 +50,8 @@ Por ello la predicción se considera solo computacional (nivel L5).
 | Nueva Indicación Predicha | Acné (enfermedad) |
 | Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 50 de 67) |
-| Número de Autorizaciones | 67 (vigentes: 50) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 50 de 67; autorizadas no comercializadas: 4; revocadas o suspendidas: 13) |
+| Número de Autorizaciones | 67 (comercializadas: 50) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -96,7 +96,7 @@ Para información de seguridad basada en el prospecto, consultar la ficha técni
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios que evalúen la metionina en esta enfermedad, y la literatura disponible es tangencial. Además, la única autorización en España está cancelada.
+La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios que evalúen la metionina en esta enfermedad, y la literatura disponible es tangencial.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la metionina y una hipótesis plausible para el acné.

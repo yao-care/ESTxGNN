@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "fibroma of prostate"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Fluvastatin: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Arteriosclerosis, aterosclerosis e hiperlipidemia combinada familiar"
 ---
 
@@ -48,7 +48,7 @@ Fluvastatina es una estatina (inhibidor de la HMG-CoA reductasa) que, según la 
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 16; revocadas o suspendidas: 4) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

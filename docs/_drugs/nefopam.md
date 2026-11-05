@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "NEFOPAM"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
 description: "Nefopam: nueva indicación predicha, Craniostenosis cataract (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ La predicción principal del modelo TxGNN (craniostenosis con catarata) carece d
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 (conservador; ver justificación) |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold (mantener en espera; pregunta de investigación) |
 
 Para las predicciones de catarata (puntajes entre 0,9997 y 0,9998), el nivel de evidencia es L5 y la decisión es Hold.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Idoxuridine"
 predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 description: "Idoxuridine: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 0) |
+| Número de Autorizaciones | 3 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,8 +83,6 @@ Actualmente no hay literatura relacionada disponible para candidiasis vulvovagin
 | 51201 | VIREXEN SOLUCION 10% | Solución cutánea | No disponible en el registro |
 | 58135 | VIREXEN SOLUCION 40% | Solución cutánea | No disponible en el registro |
 | 51202 | VIREXEN SOLUCION 2% | Solución cutánea | No disponible en el registro |
-
-Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópico.
 
 ## Consideraciones de Seguridad
 

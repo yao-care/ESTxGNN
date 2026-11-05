@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Naphazoline: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -48,8 +48,8 @@ Naphazolina es un vasoconstrictor agonista alfa-adrenérgico que se comercializa
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 0,9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 7; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 7 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -77,8 +77,6 @@ Actualmente no hay literatura relacionada disponible.
 | 19763 | ALERGOFTAL 0,25 mg/ml + 5 mg/ml colirio en solución | Colirio en solución | No especificada |
 | 56489 | OJOSBEL gotas oculares, 0,30 mg/0,08 ml | Colirio en solución | No especificada |
 | 22414 | COLIROFTA ANESTESICO 5 MG/ML + 0,5 MG/ML | Colirio en solución | No especificada |
-
-Se muestran 5 de las 7 autorizaciones vigentes (las otras dos son CENTILUX 0,25 mg/ml colirio y Epistaxol solución cutánea).
 
 ## Consideraciones de Seguridad
 

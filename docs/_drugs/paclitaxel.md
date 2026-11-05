@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -48,8 +48,8 @@ Paclitaxel es un citotóxico antimicrotúbulos, originalmente utilizado para el 
 | Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 (según la puntuación del análisis; ver nota en la conclusión) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 12; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 12 (comercializadas: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 635
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Pibrentasvir: nueva indicación predicha, Infección por virus de la hepatitis B (hepatitis B virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B (hepatitis B virus infection) |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

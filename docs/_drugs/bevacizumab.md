@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Bevacizumab: nueva indicación predicha, Neoplasia de epiglotis (epiglottis neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Neoplasia de epiglotis (epiglottis neoplasm) |
 | Puntaje de Predicción TxGNN | 0,9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 13; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 13 (comercializadas: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

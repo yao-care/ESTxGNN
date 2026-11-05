@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOVERSOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ioversol: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 ---
 
@@ -50,8 +50,8 @@ La predicción debe considerarse puramente computacional.
 | Nueva Indicación Predicha | Osteoartritis |
 | Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 8; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

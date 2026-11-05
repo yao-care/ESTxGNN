@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "IMIDAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Imidapril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 12; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 12 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,6 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 Imidapril es un profármaco IECA cuyo metabolito activo, el imidaprilato, reduce la producción de angiotensina II. Esto puede disminuir la vasoconstricción y el remodelado vascular. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción del fármaco, por lo que este razonamiento se basa en la farmacología general de la clase de los IECA.
 
 La hipertensión sistémica y la hipertensión pulmonar son ambas enfermedades vasculares con alteración del tono y del remodelado vascular, y el sistema renina-angiotensina podría participar en ambas. Sin embargo, en la hipertensión pulmonar por hipoxia los principales factores son la vasoconstricción pulmonar hipóxica y el remodelado, y los IECA no han mostrado un beneficio consistente en este contexto.
-
 
 ## Otras Predicciones del Modelo
 
@@ -87,7 +86,7 @@ Actualmente no hay literatura relacionada disponible.
 | 83139 | IMIDAPRIL QUALIGEN 5 mg comprimidos EFG | Comprimido | No disponible |
 | 83140 | IMIDAPRIL QUALIGEN 10 mg comprimidos EFG | Comprimido | No disponible |
 
-Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.
+El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.
 
 ## Consideraciones de Seguridad
 

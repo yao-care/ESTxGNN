@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Buserelin: nueva indicación predicha, Hipertricosis (nivel de evidencia L4). Indicación original: Cáncer de próstata (según la información farmacológica compilada"
 monitor_inn: "buserelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 | Nueva Indicación Predicha | Hipertricosis |
 | Puntaje de Predicción TxGNN | 0,9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 4; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 4 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ---

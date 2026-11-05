@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "PINAZEPAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
 description: "Pinazepam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 0) |
+| Número de Autorizaciones | 3 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

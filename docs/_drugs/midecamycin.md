@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Midecamycin: nueva indicación predicha, Candidiasis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de las…"
 monitor_inn: "midecamycin"
 predicted_indications: ["candidiasis"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis**, pero actu
 | Puntaje de Predicción TxGNN | 0.9902 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 0) |
+| Número de Autorizaciones | 3 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,8 +76,6 @@ Actualmente no hay literatura relacionada disponible.
 | 64153 | MYOXAM 600 mg, granulado para suspensión oral | Granulado para suspensión oral | No disponible |
 | 61271 | MYOXAM 900 mg, granulado para suspensión oral | Granulado para suspensión oral | No disponible |
 | 57810 | MYOXAM 600 mg comprimidos recubiertos | Comprimido recubierto | No disponible |
-
-Las tres autorizaciones corresponden a monofármacos vigentes del Laboratorio Menarini S.A.
 
 ## Consideraciones de Seguridad
 

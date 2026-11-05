@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **1 ensayo clínico** (Fase 3, en curso, con un criterio de valoración indi
 | Nueva Indicación Predicha | Ictus (stroke disorder) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 6; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 6 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,7 +95,7 @@ Nota: la mayoría de las publicaciones abordan la fibrilación auricular y no ev
 | 78070 | FLECARD 100 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
 | 57532 | APOCARD 100 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
 
-Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514). Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada.
+Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514).
 
 ## Consideraciones de Seguridad
 

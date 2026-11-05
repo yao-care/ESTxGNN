@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**, 
 | Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 9; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 9 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 > **Nota:** la predicción con mayor puntaje (esclerodermia difusa) carece de respaldo. Las candidatas con más evidencia se detallan en la sección de predicciones alternativas.
@@ -121,7 +121,7 @@ Como referencia, publicaciones seleccionadas de las predicciones alternativas:
 | 90726 | Enaros 500 mg/500 mg | Polvo para solución para perfusión | No disponible |
 | 72637 | Imipenem/Cilastatina Aurovitas 500 mg/500 mg | Polvo para solución para perfusión | No disponible |
 
-Hay 9 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se muestran las 5 principales. Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).
+Entre las restantes figura Recarbrio (imipenem/cilastatina/relebactam, Merck Sharp & Dohme B.V.).
 
 ---
 

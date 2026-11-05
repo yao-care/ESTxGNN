@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
 description: "Temsirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 e
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 (ver nota abajo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 > **Nota sobre el nivel de evidencia:** los datos compilados asignan L2 a esta indicación, pero según los criterios del informe L2 requiere un ensayo de Fase 2/3 completado en la indicación. El único ensayo directamente relevante es de Fase 1/2 en sarcomas avanzados en general, sin resultados específicos para liposarcoma. Por prudencia, se considera que la evidencia real se sitúa entre L4 y L5. Se indica L5 como valor conservador.

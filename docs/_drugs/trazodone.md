@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 819
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 9; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 9 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,8 +100,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 51612 | Deprax/Deprase 100 mg comprimidos recubiertos con película | Comprimido | No disponible en los datos compilados |
 | 83568 | Trazodona Cinfa 100 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
 | 90503 | Trazodona Stadafarma 50 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-
-Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (nivel de evidencia L5). Indicación original: Esclerosis múltiple remitente-recurrente"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia de células pil
 | Nueva Indicación Predicha | Leucemia de células pilosas |
 | Puntaje de Predicción TxGNN | 0.9916 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 5; autorizadas no comercializadas: 1; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 5 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,7 +89,7 @@ Actualmente no hay literatura relacionada disponible para leucemia de células p
 | 95003005IP1 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | No especificada en los datos compilados |
 | 95003003 | Betaferon 250 microgramos/ml | Polvo y disolvente para solución inyectable | No especificada en los datos compilados |
 
-Los titulares son Bayer AG / Bayer Pharma AG (Betaferon) y Novartis Europharm Limited (Extavia). Las 5 autorizaciones están vigentes.
+Los titulares son Bayer AG / Bayer Pharma AG (Betaferon) y Novartis Europharm Limited (Extavia).
 
 ---
 

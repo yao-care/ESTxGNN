@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 665
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine: nueva indicación predicha, Linfoma folicular (follicular lymphoma) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **2 ensayos clínicos** (ninguno confirma a procarbazina como componente def
 | Nueva Indicación Predicha | Linfoma folicular (follicular lymphoma) |
 | Puntaje de Predicción TxGNN | 0.9946 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
+| Número de Autorizaciones | 1 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

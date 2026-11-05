@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 180
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ El efecto antibacteriano proviene del imipenem, no de la cilastatina.
 | Nueva Indicación Predicha | Infección por Staphylococcus aureus (staphylococcus aureus infection) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 9; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 9 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,7 +95,7 @@ Esta predicción corresponde a una indicación de la combinación y no a un repo
 
 ## Información de Mercado en España
 
-Se listan 5 de las 9 autorizaciones vigentes, todas en forma de polvo para solución para perfusión. Los datos disponibles no incluyen el texto de la indicación aprobada.
+Los datos disponibles no incluyen el texto de la indicación aprobada.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
@@ -122,7 +122,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 **Justificación:**
 La evidencia para S. aureus se limita a estudios clínicos pequeños y antiguos, reportes de casos, estudios preclínicos y un único ensayo de Fase 4 indirecto. Algunos datos preclínicos muestran incluso menor actividad frente a MRSA que vancomicina. El efecto depende del imipenem y no de la cilastatina, por lo que no constituye un reposicionamiento propiamente dicho.
-
 
 **Para avanzar se necesita:**
 - Estudios comparativos controlados de imipenem/cilastatina en infecciones por S. aureus, diferenciando MSSA y MRSA

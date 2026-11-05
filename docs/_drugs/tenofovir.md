@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 775
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 (solo estudios preclínicos en animales; la clasificación interna de los datos indica L3) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 17) |
-| Número de Autorizaciones | 17 (vigentes: 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 17; autorizadas no comercializadas: 2; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 17 (comercializadas: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,7 +76,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Se listan 5 de las 17 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados.
+Los textos de indicación aprobada no están disponibles en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: nueva indicación predicha, Epiglottis neoplasm (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **3 ensayos clínicos** (1 de ellos terminado con solo 11 pacientes y 1 reti
 | Nueva Indicación Predicha | Epiglottis neoplasm |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 (según la clasificación de los datos; ver nota en la conclusión) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Hold (con la neoplasia quística tratada como pregunta de investigación) |
 
 > **Nota sobre la lista de candidatas:** Las otras nueve indicaciones predichas (p. ej., neoplasia de epiglotis, neoplasia benigna de hipofaringe, neoplasia benigna de lengua, neuroblastoma cervical, tumor de testículo y paratestículo) no tienen ensayos clínicos ni literatura en los datos compilados. Su nivel de evidencia es L5 y su recomendación es Hold. Este informe se centra en la candidata de rango 2, la única con evidencia.

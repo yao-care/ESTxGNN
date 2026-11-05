@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 648
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **mieloma de células p
 | Nueva Indicación Predicha | CMM7 |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 8; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ---

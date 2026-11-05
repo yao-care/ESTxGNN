@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 653
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno por défici
 | Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 (solo estudios preclínicos/de mecanismo y un reporte de caso; sin estudios clínicos específicos) |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 18; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -89,7 +89,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en España
 
-Pramipexol está comercializado con 20 autorizaciones vigentes, todas de principio activo único y ninguna cancelada. Los textos de indicación aprobada no están disponibles en los datos compilados. A continuación se muestran 5 autorizaciones principales.
+Los textos de indicación aprobada no están disponibles en los datos compilados. A continuación se muestran 5 autorizaciones principales.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|

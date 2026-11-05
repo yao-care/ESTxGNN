@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 840
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: nueva indicación predicha, carcinoma de células renales (renal cell carcinoma (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -48,8 +48,8 @@ Vandetanib es un inhibidor multicinasa que actúa sobre VEGFR2, EGFR y RET. El m
 | Nueva Indicación Predicha | carcinoma de células renales (renal cell carcinoma (disease)) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

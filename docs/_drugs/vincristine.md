@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Vincristine: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de linfocitos T variable (nivel de evidencia L5). Indicación original: Leucemia linfoblástica aguda"
 ---
 
@@ -50,8 +50,8 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 | Nueva Indicación Predicha | Anomalías vertebrales con disfunción endocrina y de linfocitos T variable |
 | Puntaje de Predicción TxGNN | 0,9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Andexanet Alfa: nueva indicación predicha, Trombastenia de Glanzmann (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización de la AEMPS (texto de indi…"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
@@ -38,7 +38,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Andexanet alfa es una proteína recombinante, señuelo del factor Xa catalíticamente inactivo, comercializada en España como ONDEXXYA para revertir el efecto de los inhibidores del factor Xa.
 El modelo TxGNN predice que podría ser efectivo para **trombastenia de Glanzmann**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 Su puntaje alto parece reflejar cercanía en la red de conocimiento de trastornos hemorrágicos, no un vínculo biológico real.
 
@@ -53,7 +52,7 @@ Su puntaje alto parece reflejar cercanía en la red de conocimiento de trastorno
 | Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ---

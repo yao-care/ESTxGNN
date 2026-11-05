@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Diabetes mellitus (según la base de conocimiento"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -50,8 +50,8 @@ con **30 ensayos clínicos** y **20 publicaciones** que respaldan actualmente es
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 9; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 9 (comercializadas: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

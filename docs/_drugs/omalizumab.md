@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero los datos compilados para este informe solo incluyen **2 ensayos clínicos*
 | Nueva Indicación Predicha | Bronquitis (bronchitis) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 8; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 8 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

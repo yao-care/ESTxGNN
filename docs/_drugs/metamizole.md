@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 509
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -48,7 +48,7 @@ Metamizol es un analgésico y antipirético no opioide, con una débil actividad
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0,9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 14; autorizadas no comercializadas: 2; revocadas o suspendidas: 4) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -85,8 +85,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 88872 | Metamizol Basi 500 mg/ml solución inyectable EFG | Solución inyectable | No especificada en los datos |
 | 72769 | Metamizol Ratiopharm 575 mg cápsulas duras EFG | Cápsula dura | No especificada en los datos |
 | 51599 | Algi-Mabo Adultos 1 g supositorios | Supositorio | No especificada en los datos |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo).
 
 ## Consideraciones de Seguridad
 

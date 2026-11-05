@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "pipemidic acid"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
 description: "Pipemidic Acid: nueva indicación predicha, Heart disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad cardíaca**, 
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 (solo predicción del modelo; la única publicación es indirecta y no respalda la indicación) |
 | Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,7 +79,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 |---------|------|------|-----------|
 | 55224 | GALUSAN CAPSULAS | Cápsula dura | No disponible en los datos compilados |
 
-Titular: Laboratorios Almirall S.L. Estado: vigente (monofármaco).
+Titular: Laboratorios Almirall S.L.
 
 ## Consideraciones de Seguridad
 

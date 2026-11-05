@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 800
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos** y solo se dispone de **8 publicaci
 | Nueva Indicación Predicha | Queratitis por exposición (exposure keratitis) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 18) |
-| Número de Autorizaciones | 18 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 18; revocadas o suspendidas: 8) |
+| Número de Autorizaciones | 18 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -88,8 +88,6 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 | 64350 | Tobrabact 3,0 mg/ml colirio en solución | Colirio en solución | No disponible en los datos compilados |
 | 63689 | Tobi 300 mg/5 ml | Solución para inhalación por nebulizador | No disponible en los datos compilados |
 | 64191 | Tobramicina Braun 3 mg/ml | Solución para perfusión | No disponible en los datos compilados |
-
-Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación.
 
 ## Consideraciones de Seguridad
 

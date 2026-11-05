@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 716
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Roxithromycin: nueva indicación predicha, Lepra (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de AEMPS"
 monitor_inn: "roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **lepra**, con **5 publica
 | Nueva Indicación Predicha | Lepra |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 (con salvedades: la evidencia es mayoritariamente preclínica, en el límite L3/L4) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 844
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Vernakalant: nueva indicación predicha, Trastorno cerebrovascular (ictus) (nivel de evidencia L4). Indicación original: Fibrilación auricular"
 monitor_inn: "VERNAKALANT"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno cerebrovascula
 | Nueva Indicación Predicha | Trastorno cerebrovascular (ictus) |
 | Puntaje de Predicción TxGNN | 0,9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
+| Número de Autorizaciones | 1 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Betamethasone: nueva indicación predicha, Mucinosis folicular (alopecia mucinosa) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,8 +50,8 @@ La evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** (una 
 | Nueva Indicación Predicha | Mucinosis folicular (alopecia mucinosa) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 10; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 10 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

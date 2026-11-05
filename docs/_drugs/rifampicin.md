@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 699
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ No hay ensayos clínicos registrados, pero sí **20 publicaciones** recuperadas.
 | Nueva Indicación Predicha | Conjuntivitis (conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 7) |
+| Número de Autorizaciones | 7 (comercializadas: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

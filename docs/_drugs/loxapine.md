@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 489
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Loxapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Loxapine: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ Cabe señalar que el trastorno bipolar ya es una indicación original, por lo qu
 | Nueva Indicación Predicha | Retinal dystrophy with or without extraocular anomalies |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 (asignado por conocimiento externo; ver nota abajo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > **Nota sobre el nivel de evidencia:** los datos compilados no incluyen ensayos clínicos verificados. El nivel L1 se basa en los dos ensayos de Fase 3 con loxapina inhalada para la agitación en trastorno bipolar, conocidos externamente y citados solo de forma indirecta por las revisiones incluidas. Con los datos verificables, el nivel sería más prudente (L3, estudios de revisión).

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Palbociclib: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L4). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -52,8 +52,8 @@ Esta predicción se respalda con **0 ensayos clínicos** y **4 publicaciones** (
 | Nueva Indicación Predicha | Artritis reumatoide (predicción n.º 2; la n.º 1, hipertiroidismo, no tiene evidencia) |
 | Puntaje de Predicción TxGNN | 0,9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 6; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 6 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

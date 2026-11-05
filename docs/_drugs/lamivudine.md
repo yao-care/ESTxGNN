@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Lamivudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos …"
@@ -50,7 +50,7 @@ Se trata de una predicción de valor veterinario, ya que la indicación humana e
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 14; autorizadas no comercializadas: 4; revocadas o suspendidas: 2) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -75,8 +75,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Estudio animal / in vitro | Antiviral Research | La combinación de zidovudina, lamivudina y abacavir suprime la replicación de FIV in vitro; el modelo felino se usa como análogo del VIH |
 
 ## Información de Mercado en España
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo o asociación de dos, sin autorizaciones canceladas):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

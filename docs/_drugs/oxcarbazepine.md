@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 595
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, aunq
 | Nueva Indicación Predicha | Restless legs syndrome |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 13) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 13 de 15; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 15 (comercializadas: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,7 +102,7 @@ Ninguna de estas publicaciones aborda específicamente la epilepsia visual con o
 | 74157 | Oxcarbazepina Teva 600 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 | 73651 | Oxcarbazepina Normon 300 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 
-Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada). El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.
+El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.
 
 ---
 

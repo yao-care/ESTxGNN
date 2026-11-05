@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Perindopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **1 p
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 13; revocadas o suspendidas: 8) |
+| Número de Autorizaciones | 13 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -81,8 +81,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 74661 | PERINDOPRIL MARIPER 2 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
 | 71941 | COVERSORAL 10 mg COMPRIMIDOS BUCODISPERSABLES | Comprimido bucodispersable | No disponible en los datos |
 | 58636 | COVERSYL 4 mg COMPRIMIDOS | Comprimido | No disponible en los datos |
-
-Se muestran 5 de las 13 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

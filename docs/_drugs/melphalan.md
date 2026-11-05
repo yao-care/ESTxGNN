@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: nueva indicación predicha, Female breast carcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **7 ensayos clínicos** (de relevancia variable, la mayoría en fase tempran
 | Nueva Indicación Predicha | Female breast carcinoma |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 8; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ Cabe señalar que el efecto individual del melfalán no puede aislarse en la may
 | 82087 | Melfalan Zentiva 50 mg EFG | Polvo y disolvente para solución inyectable y para perfusión | No disponible |
 | 86295 | Melfalan Tarbis 50 mg EFG | Polvo y disolvente para solución inyectable y para perfusión | No disponible |
 
-Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente). Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.
+Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.
 
 ## Citotoxicidad
 

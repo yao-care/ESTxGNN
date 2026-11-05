@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Captopril: nueva indicación predicha, hipertensión renal maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos** y solo existe **1 publicación** (
 | Nueva Indicación Predicha | hipertensión renal maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0,9928 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 6; revocadas o suspendidas: 14) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 609
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PANOBINOSTAT"
 predicted_indications: ["myeloid leukemia"]
 description: "Panobinostat: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 3) |
-| Número de Autorizaciones | 3 (vigentes: 0) |
+| Número de Autorizaciones | 3 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ---

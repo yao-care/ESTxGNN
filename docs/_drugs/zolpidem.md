@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 868
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **0 ensayos clínicos** y **19 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Benign paroxysmal torticollis of infancy |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 1; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -85,7 +85,7 @@ Se muestran las 10 publicaciones más relevantes, priorizando ECA, metaanálisis
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 20 autorizaciones vigentes. El texto de indicación aprobada no está disponible en los datos compilados.
+El texto de indicación aprobada no está disponible en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|

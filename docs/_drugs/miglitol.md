@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "MIGLITOL"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pancreatic agenesis", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Miglitol: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 0) |
+| Número de Autorizaciones | 2 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,8 +76,6 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|-----------|
 | 62701 | PLUMAROL 50 mg COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
 | 62702 | PLUMAROL 100 mg COMPRIMIDOS | Comprimido | No especificada en los datos compilados |
-
-Ambas autorizaciones son de monofármaco, están vigentes y pertenecen a Lacer S.A.
 
 ## Consideraciones de Seguridad
 

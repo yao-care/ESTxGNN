@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 667
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero hasta ahora **no hay ensayos clínicos** y la literatura disponible (**20 p
 | Nueva Indicación Predicha | Enfermedad fibroquística de la mama (breast fibrocystic disease) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 15 de 20) |
-| Número de Autorizaciones | 20 (vigentes: 15) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 15 de 20; autorizadas no comercializadas: 4; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 20 (comercializadas: 15) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

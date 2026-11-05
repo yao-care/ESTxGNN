@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 660
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **tendinitis**, pero actua
 | Nueva Indicación Predicha | Tendinitis |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 14; autorizadas no comercializadas: 3; revocadas o suspendidas: 3) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -96,7 +96,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 80287 | Pregabalina Aurovitas 150 mg cápsulas duras EFG | Cápsula dura | No disponible en los datos compilados |
 | 104279021 | Lyrica 200 mg cápsulas duras | Cápsula dura | No disponible en los datos compilados |
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco). Existen también presentaciones en solución oral (Pregabalina Wockhardt 20 mg/ml).
+Existen también presentaciones en solución oral (Pregabalina Wockhardt 20 mg/ml).
 
 ---
 

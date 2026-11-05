@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** (u
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 14; revocadas o suspendidas: 6) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -93,8 +93,6 @@ Se trata de una serie de casos pequeña y sin control, con valor limitado como e
 | 62930 | Progandol Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación modificada | No disponible |
 | 58861 | Progandol 4 mg comprimidos | Comprimido | No disponible |
 | 3400937625784 | Carduran Neo 8 mg comprimidos de liberación modificada | Comprimido de liberación prolongada | No disponible |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento monocomponente, ninguna cancelada).
 
 ---
 

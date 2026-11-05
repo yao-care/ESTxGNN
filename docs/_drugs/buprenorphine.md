@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Buprenorphine: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente no hay ensayos clínicos y solo hay **1 publicación** (un info
 | Nueva Indicación Predicha | porfiria aguda intermitente (acute intermittent porphyria) |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 9; autorizadas no comercializadas: 2; revocadas o suspendidas: 9) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

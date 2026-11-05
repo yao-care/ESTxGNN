@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ Hay que tener en cuenta que esta indicación coincide con una de las indicacione
 | Nueva Indicación Predicha | Duodenal obstruction |
 | Puntaje de Predicción TxGNN | 0.9921 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 15; autorizadas no comercializadas: 2; revocadas o suspendidas: 3) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -59,7 +59,6 @@ Hay que tener en cuenta que esta indicación coincide con una de las indicacione
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. No obstante, la literatura (PMID 19938880, 10450061) establece que pantoprazol es un inhibidor de la bomba de protones que se une de forma irreversible y específica a la H+/K+ ATPasa de las células parietales gástricas, reduciendo la secreción de ácido gástrico. Se activa en medio ácido, lo que le confiere selectividad por el compartimento ácido de la célula parietal.
 
 La relación entre la indicación original y la predicha es muy estrecha: la úlcera péptica activa es la manifestación aguda de la enfermedad ulcerosa péptica, y la supresión ácida permite la cicatrización de la lesión. Por ello, la predicción refleja una indicación ya establecida más que una verdadera novedad terapéutica.
-
 
 ## Evidencia de Ensayos Clínicos
 
@@ -92,7 +91,7 @@ La relación entre la indicación original y la predicha es muy estrecha: la úl
 | 72528 | PANTOPRAZOL BLUEFISH 40 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible en los datos compilados |
 | 84014 | PANTOPRAZOL HIKMA 40 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible en los datos compilados |
 
-Se registran 20 autorizaciones vigentes, todas de fármaco único y ninguna cancelada. Se incluyen formas orales (comprimidos de 20 y 40 mg) e inyectables.
+Se incluyen formas orales (comprimidos de 20 y 40 mg) e inyectables.
 
 ## Consideraciones de Seguridad
 

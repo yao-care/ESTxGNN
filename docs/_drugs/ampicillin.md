@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ampicillin: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **laringitis (laryngitis)*
 | Nueva Indicación Predicha | laringitis (laryngitis) |
 | Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 10; autorizadas no comercializadas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

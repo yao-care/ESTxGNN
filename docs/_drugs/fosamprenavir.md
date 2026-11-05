@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "FOSAMPRENAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
 description: "Fosamprenavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los dat…"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunode
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios reales; el análisis mecanístico preliminar la sitúa como pregunta de investigación) |
 | Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 0) |
+| Número de Autorizaciones | 2 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,8 +86,6 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|-----------|
 | 04282002 | TELZIR 50 MG/ML SUSPENSIÓN ORAL | Suspensión oral | No especificada en los datos |
 | 04282001 | TELZIR 700 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No especificada en los datos |
-
-Ambas autorizaciones están vigentes, son de medicamento único y pertenecen a Viiv Healthcare B.V.
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Alitretinoin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización (el texto de indicación es…"
 monitor_inn: "alitretinoin"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "aortic malformation", "postmenopausal osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "breast fibrocystic disease", "benign mammary dysplasia", "Worth syndrome"]
@@ -50,8 +50,8 @@ Alitretinoína (ácido 9-cis-retinoico) es un retinoide que se comercializa en E
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 4) |
+| Número de Autorizaciones | 4 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---

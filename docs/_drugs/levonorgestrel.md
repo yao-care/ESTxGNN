@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 468
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ Hay **0 ensayos clínicos** registrados y **20 publicaciones** relacionadas. Sol
 | Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 16; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

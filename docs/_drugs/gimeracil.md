@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "gimeracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
 description: "Gimeracil: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ Gimeracil es el componente inhibidor de la enzima DPD de la combinación S-1 (te
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
-| Número de Autorizaciones | 4 (vigentes: 0) |
+| Número de Autorizaciones | 4 (comercializadas: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

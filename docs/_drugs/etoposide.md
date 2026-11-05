@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: nueva indicación predicha, Well-differentiated fetal adenocarcinoma of the lung (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **32 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Well-differentiated fetal adenocarcinoma of the lung |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 7; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 7 (comercializadas: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -105,8 +105,6 @@ Se muestran las 10 publicaciones más relevantes (de 20 recuperadas), priorizand
 | 56108 | VEPESID 100 mg | Cápsula blanda | No disponible |
 | 56488 | VEPESID 50 mg | Cápsula blanda | No disponible |
 | 79326 | ETOPOSIDO ACCORD 20 mg/ml EFG | Concentrado para solución para perfusión | No disponible |
-
-Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hikma, ambas en concentrado para perfusión).
 
 ## Citotoxicidad
 

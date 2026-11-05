@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 326
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (hypouricemia, renal) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **1 ensayo clínico** (de relevancia baja) y **2 publicaciones** que actualm
 | Nueva Indicación Predicha | Hipouricemia renal (hypouricemia, renal) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 7; autorizadas no comercializadas: 2; revocadas o suspendidas: 11) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -79,7 +79,7 @@ El único vínculo en la literatura es un reporte de un futbolista de 16 años c
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada). El texto de indicación aprobada no está disponible en los datos compilados.
+El texto de indicación aprobada no está disponible en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

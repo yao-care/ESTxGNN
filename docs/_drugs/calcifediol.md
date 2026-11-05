@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Calcifediol: nueva indicación predicha, Renal tubular acidosis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,8 +48,8 @@ Calcifediol es el metabolito circulante principal de la vitamina D (25-hidroxivi
 | Nueva Indicación Predicha | Renal tubular acidosis |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 12; autorizadas no comercializadas: 6; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 12 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?

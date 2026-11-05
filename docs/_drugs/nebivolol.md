@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "NEBIVOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nebivolol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Malignant hypertensive renal disease |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 17; revocadas o suspendidas: 3) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -91,8 +91,6 @@ A modo de contexto, para otra predicción del mismo fármaco (hipertensión pulm
 | 4040 | Lobivon 5 mg comprimidos | Comprimido | No disponible en los datos compilados |
 | 83604 | Insucor 10 mg comprimidos | Comprimido | No disponible en los datos compilados |
 | 70928 | Nebivolol Normon 5 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-
-Se registran 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

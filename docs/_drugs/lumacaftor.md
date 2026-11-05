@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Lumacaftor: nueva indicación predicha, Lepra (nivel de evidencia L5). Indicación original: Fibrosis quística"
 monitor_inn: "lumacaftor"
 predicted_indications: ["leprosy"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **lepra**, pero actualment
 | Nueva Indicación Predicha | Lepra |
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 5) |
+| Número de Autorizaciones | 5 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

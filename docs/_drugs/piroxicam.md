@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 | Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 9; revocadas o suspendidas: 8) |
+| Número de Autorizaciones | 9 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -80,8 +80,6 @@ Actualmente no hay literatura relacionada disponible.
 ---
 
 ## Información de Mercado en España
-
-Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único).
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

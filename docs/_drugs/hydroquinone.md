@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **queratosis seborreica**,
 | Nueva Indicación Predicha | Queratosis seborreica |
 | Puntaje de Predicción TxGNN | 0,9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 7; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 7 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,8 +90,6 @@ Actualmente no hay ensayos clínicos relacionados registrados para queratosis se
 | 66899 | LICOFORTE 40 mg/g GEL | Gel | No disponible |
 | 81390 | HQUIN 40 MG/G CREMA | Crema | No disponible |
 | 63558 | LICOSTRATA 20 mg/g GEL | Gel | No disponible |
-
-Hay 7 autorizaciones vigentes en total, todas de monofármaco; aquí se muestran las 5 principales.
 
 ---
 

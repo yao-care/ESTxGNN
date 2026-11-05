@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 851
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 description: "Vindesine: nueva indicación predicha, Ganglioneuroblastoma (ganglioneuroblastoma (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -53,7 +53,7 @@ La señal con más respaldo entre las predicciones es la de **neuroblastoma** (6
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 (ganglioneuroblastoma); L3 para neuroblastoma |
 | Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold (ganglioneuroblastoma); "pregunta de investigación" para neuroblastoma |
 
 ---

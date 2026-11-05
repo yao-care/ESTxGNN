@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 817
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Trastuzumab Emtansine: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Trastuzum
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 4 |
 | Nivel de evidencia | No aplicable |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 6) |
+| Número de Autorizaciones | 6 (comercializadas: 6) |
 
 ## Usos conocidos entre los candidatos del modelo
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **2 ensayos clínicos** y **2 publicaciones** que actualmente respaldan esta
 | Nueva Indicación Predicha | Arteriosclerosis intracraneal (intracranial arteriosclerosis) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 según la clasificación asignada en los datos compilados; a mi juicio, con las reglas de nivel, estaría más cerca de L3 (ver nota abajo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 6; revocadas o suspendidas: 2) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -87,8 +87,6 @@ Un apoyo adicional es el ensayo CHANCE-2 (PMID 34708996), que respalda ticagrelo
 | 90621 | Ticagrelor Aurovitas 60 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 | 89354 | Ticagrelor Normon 90 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 | 86152 | Ticagrelor Stada 90 mg EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-
-Hay 20 autorizaciones vigentes, todas de monofármaco (60 mg y 90 mg, en su mayoría genéricos EFG); se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 

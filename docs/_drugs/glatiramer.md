@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Glatiramer: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de AEMPS (el texto de indicación…"
 monitor_inn: "glatiramer"
 predicted_indications: ["hemoglobinopathy"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **hemoglobinopatía**, per
 | Nueva Indicación Predicha | Hemoglobinopatía |
 | Puntaje de Predicción TxGNN | 0.9903 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 4) |
+| Número de Autorizaciones | 4 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

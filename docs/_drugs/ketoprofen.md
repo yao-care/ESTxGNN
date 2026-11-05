@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los da…"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 8; autorizadas no comercializadas: 3; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 8 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible.
 | 84336 | OKIDOL 25 mg granulado | Granulado | No disponible en los datos compilados |
 | 84337 | OKIDOL 25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 
-Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes.
+Las restantes son FASTUM 50 mg cápsulas duras, ORUDIS RETARD 200 mg comprimidos de liberación prolongada y KETOPROFENO DOMPE 25 mg comprimidos efervescentes.
 
 ## Consideraciones de Seguridad
 

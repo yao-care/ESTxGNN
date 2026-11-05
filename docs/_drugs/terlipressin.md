@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 description: "Terlipressin: nueva indicación predicha, Open-angle glaucoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ La evidencia es limitada y la predicción debe considerarse una pregunta de inve
 | Nueva Indicación Predicha | Open-angle glaucoma |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 8; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 8 (comercializadas: 5) |
 | Decisión Recomendada | Hold (mantener en estudio como pregunta de investigación) |
 
 **Nota sobre la selección:** la indicación con mayor puntaje TxGNN es el glaucoma de ángulo abierto (0.9978), pero carece de ensayos y literatura (L5). Esta evaluación se centra en la hipertensión pulmonar (tercera predicción), la primera con evidencia publicada. Las demás predicciones (glaucoma primario hereditario, cardiopatía cifoescoliótica, esotropía, glaucoma 1 de ángulo abierto y cefalea) son solo predicciones del modelo, sin respaldo clínico (L5), y se recomienda mantenerlas en espera (Hold).
@@ -95,7 +95,7 @@ Se muestran las publicaciones más relevantes para hipertensión pulmonar (prior
 | 82807 | Terlipresina Acetato Ever Pharma 2 mg solución inyectable | Solución inyectable | No disponible |
 | 79485 | Terlipresina Altan 1 mg solución inyectable EFG | Solución inyectable | No disponible |
 
-Hay 8 autorizaciones vigentes en total (todas de principio activo único); aquí se listan las 5 principales. Otras: Glypressin 1 mg solución inyectable (72359), Glypressin 1 mg polvo y disolvente (61412) y Terlipresina Altan Pharma 1 mg (85432).
+Otras: Glypressin 1 mg solución inyectable (72359), Glypressin 1 mg polvo y disolvente (61412) y Terlipresina Altan Pharma 1 mg (85432).
 
 ## Consideraciones de Seguridad
 

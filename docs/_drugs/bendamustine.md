@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Bendamustine: nueva indicación predicha, Linfoma de células del manto (mantle cell lymphoma) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,8 +48,8 @@ Bendamustina es un agente alquilante con características de análogo de nucleó
 | Nueva Indicación Predicha | Linfoma de células del manto (mantle cell lymphoma) |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 14) |
-| Número de Autorizaciones | 14 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 14; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 14 (comercializadas: 9) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

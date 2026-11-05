@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 594
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (malignant pleural mesothelioma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **Mesotelioma Pleural Mali
 | Nueva Indicación Predicha | Mesotelioma pleural maligno (malignant pleural mesothelioma) |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 13; autorizadas no comercializadas: 2; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 13 (comercializadas: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -93,8 +93,6 @@ Los datos publicados de Fase 2 muestran una actividad modesta, y no existe una c
 | 69518 | OXALIPLATINO HOSPIRA 5 mg/ml EFG | Concentrado para solución para perfusión | No especificada en los datos disponibles |
 | 72386 | OXALIPLATINO ACCORD 5 mg/ml EFG | Concentrado para solución para perfusión | No especificada en los datos disponibles |
 | 77233 | OXALIPLATINO CADIASUN 5 mg/ml EFG | Polvo para solución para perfusión | No especificada en los datos disponibles |
-
-Hay 13 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales.
 
 ## Citotoxicidad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine: nueva indicación predicha, Thiamine-responsive dysfunction syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,8 +52,8 @@ Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicaci�
 | Nueva Indicación Predicha | Thiamine-responsive dysfunction syndrome |
 | Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L5 (provisional; probablemente L1 si se verifican los ensayos pivotales de Fase 3) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 5; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 5 (comercializadas: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -61,7 +61,6 @@ Cabe señalar que la diabetes tipo 1 ya está dentro del alcance de la indicaci�
 ## Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina glulisina es un análogo de insulina humana de acción rápida que se une al receptor de insulina, favorece la captación periférica de glucosa y suprime la producción hepática de glucosa. Su perfil farmacocinético se caracteriza por un inicio de acción más rápido y una duración más corta que la insulina humana regular.
-
 
 Es importante subrayar que esta predicción no constituye un reposicionamiento genuino: la diabetes tipo 1 queda comprendida dentro de la indicación original de diabetes mellitus. Las demás indicaciones predichas (rangos 2 a 10) tienen únicamente respaldo del modelo (L4-L5), sin ensayos ni literatura, y varias parecen reflejar comorbilidad (síndrome de la persona rígida) o incluso un efecto adverso conocido de la insulina (lipodistrofia localizada), por lo que no se consideran oportunidades terapéuticas.
 
@@ -114,8 +113,6 @@ Entre los demás ensayos figuran estudios de Fase 4 en CSII (p. ej., NCT00607087
 | 04285008 | APIDRA 100 unidades/ml solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
 | 04285032IP | APIDRA SoloStar 100 unidades/ml solución inyectable en una pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos |
 | 04285024 | APIDRA 100 unidades/ml OptiClik solución inyectable en cartucho | Solución inyectable en cartucho | No disponible en los datos |
-
-Las cinco autorizaciones están vigentes, son de monofármaco y pertenecen a Sanofi-Aventis Deutschland GmbH.
 
 ---
 

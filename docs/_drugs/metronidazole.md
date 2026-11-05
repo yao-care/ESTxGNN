@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero **
 | Nueva Indicación Predicha | Neumocistosis (pneumocystosis) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 17) |
-| Número de Autorizaciones | 17 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 17; autorizadas no comercializadas: 2; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 17 (comercializadas: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,7 +100,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 59325 | Flagyl 1500 mg solución para perfusión | Solución para perfusión | No disponible |
 | 34985 | Flagyl 500 mg comprimidos vaginales | Comprimido vaginal | No disponible |
 
-Se muestran 5 de las 17 autorizaciones vigentes (todas de monofármaco). Incluyen formas de perfusión, orales, vaginales y tópicas.
+Incluyen formas de perfusión, orales, vaginales y tópicas.
 
 ---
 

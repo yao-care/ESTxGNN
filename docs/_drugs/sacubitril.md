@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Sacubitril: nueva indicación predicha, Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías oculares (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización …"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -50,7 +50,7 @@ Entre las predicciones evaluadas, **nefropatía diabética** muestra mucho más 
 | Nueva Indicación Predicha | Enfermedad de pequeño vaso cerebral tipo 1 con o sin anomalías oculares |
 | Puntaje de Predicción TxGNN | 0,9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 4; autorizadas no comercializadas: 16) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

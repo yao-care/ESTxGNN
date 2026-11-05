@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 110
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Hipertensión arterial pulmonar / esclerodermia (esclerosis sistémica)"
 monitor_inn: "bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 11; autorizadas no comercializadas: 2; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -87,8 +87,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 81567 | Bosentan Cipla 125 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
 | 81135 | Bosentan Aurovitas 125 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos |
 | 02220002 | Tracleer 62,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

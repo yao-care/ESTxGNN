@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
 description: "Cyproheptadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ No hay **ningún ensayo clínico registrado**; la evidencia se limita a **9 publ
 | Nueva Indicación Predicha | Nasal cavity disease |
 | Puntaje de Predicción TxGNN | 0.9921 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 6; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 6 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,7 +95,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 48622 | COVITASA CÁPSULAS | Cápsula dura | No disponible en los datos compilados |
 | 47944 | PRANZO 62,5 / 1,25 / 0,5 mg/ml SOLUCIÓN ORAL | Solución oral | No disponible en los datos compilados |
 
-Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma). Todas son autorizaciones vigentes de producto único (ninguna cancelada).
+Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma).
 
 ## Consideraciones de Seguridad
 

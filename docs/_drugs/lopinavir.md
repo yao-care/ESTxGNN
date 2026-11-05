@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 481
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **3 publicaciones** preclínicas en macacos que ac
 | Nueva Indicación Predicha | Simian immunodeficiency virus infection |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 7; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 7 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,8 +83,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 01172008 | Kaletra 200 mg/50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 | 01172006 | Kaletra 100 mg/25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 | 01172005 | Kaletra 200 mg/50 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-
-Hay 7 autorizaciones vigentes en total; se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 

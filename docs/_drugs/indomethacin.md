@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
 description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ La candidata con más respaldo bibliográfico entre las 10 predichas es la **art
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 10; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 | 56980 | Reusin 8 mg/ml solución para pulverización cutánea | Solución cutánea | No disponible en los datos |
 | 41723 | Inacid 100 mg supositorios | Supositorio | No disponible en los datos |
 
-Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.
+Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.
 
 ## Consideraciones de Seguridad
 

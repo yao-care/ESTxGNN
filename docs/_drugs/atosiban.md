@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Atosiban: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización de la AEMPS (según otras…"
 monitor_inn: "atosiban"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario pri
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 15; revocadas o suspendidas: 6) |
+| Número de Autorizaciones | 15 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -81,7 +81,7 @@ Actualmente no hay literatura relacionada disponible para glaucoma hereditario p
 
 ## Información de Mercado en España
 
-Se registran 15 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no figuran en los datos compilados. Principales autorizaciones:
+Los textos de indicación aprobada no figuran en los datos compilados. Principales autorizaciones:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

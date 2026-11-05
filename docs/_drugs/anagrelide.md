@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Anagrelide: nueva indicación predicha, trombocitosis reactiva (reactive thrombocytosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **trombocitosis reactiva (
 | Nueva Indicación Predicha | trombocitosis reactiva (reactive thrombocytosis) |
 | Puntaje de Predicción TxGNN | 0,9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 13; autorizadas no comercializadas: 1; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 13 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

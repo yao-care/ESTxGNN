@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 757
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 e
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 1; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold (con línea de investigación abierta; ver conclusión) |
 
@@ -98,8 +98,6 @@ Conviene ser prudente: dos ensayos de Fase 2 y un informe publicado de Fase 2 ap
 | 84506 | SUNITINIB VIATRIS 12,5 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
 | 85667 | SUNITINIB CIPLA 25 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
 | 1201511002 | SUNITINIB ACCORD 12,5 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible en los datos compilados |
-
-Hay 20 autorizaciones vigentes en total (todas monofármaco), la mayoría genéricos EFG.
 
 ---
 

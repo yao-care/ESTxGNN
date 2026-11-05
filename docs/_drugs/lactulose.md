@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **20 publicaciones** recuperadas, en su mayoría a
 | Nueva Indicación Predicha | Acute urate nephropathy |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 7; autorizadas no comercializadas: 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 7 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -104,8 +104,6 @@ Publicaciones seleccionadas para ictericia obstructiva (hasta 10, priorizando es
 | 90775 | GOLAX 667 MG/ML | Solución oral | No disponible en los datos compilados |
 | 69299 | LACTULOSA LAINCO 10 g (sobres) EFG | Solución oral | No disponible en los datos compilados |
 | 90776 | GOLAX 10 G (sobre) | Solución oral en sobre | No disponible en los datos compilados |
-
-Hay 7 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 

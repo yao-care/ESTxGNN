@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 807
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "toremifene"
 predicted_indications: ["HIV infectious disease"]
 description: "Toremifene: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Toremifeno es un modulador selectivo de los receptores de estrógenos, comercializado en España como FARESTON 60 mg comprimidos. Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados.
+Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados.
 El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero actualmente solo hay **0 ensayos clínicos** y **1 publicación preclínica** (sobre criptococosis) que se relacionan indirectamente con esta dirección.
 
 ## Resumen Rápido
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
-| Número de Autorizaciones | 2 (vigentes: 0) |
+| Número de Autorizaciones | 2 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

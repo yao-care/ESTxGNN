@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Diphenhydramine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **conjuntivitis rosáce
 | Nueva Indicación Predicha | Conjuntivitis rosácea (rosacea conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 8; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 8 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,8 +88,6 @@ Actualmente no hay literatura relacionada disponible.
 | 38322 | Soñodor Difenhidramina 50 mg comprimidos | Comprimido | No disponible en los datos |
 | 80485 | Dolomidina 500/25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 | 84763 | Antidol Noche 500 mg/25 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
-
-Existen 8 autorizaciones vigentes en total (todas de composición simple); se muestran las 5 principales.
 
 ---
 

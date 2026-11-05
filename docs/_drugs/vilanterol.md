@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ Cabe señalar que esta predicción es en realidad una categoría paraguas que en
 | Nueva Indicación Predicha | Hyperlucent lung |
 | Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 16 de 20) |
-| Número de Autorizaciones | 20 (vigentes: 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 16 de 20; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 20 (comercializadas: 16) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -106,8 +106,6 @@ Se muestran las 10 publicaciones más relevantes, priorizando ECA y revisiones s
 ---
 
 ## Información de Mercado en España
-
-Se listan 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro; los textos de indicación aprobada no figuran en los datos compilados).
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

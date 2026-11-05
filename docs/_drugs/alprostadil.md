@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Alprostadil: nueva indicación predicha, malformación aórtica (aortic malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **8 publicaciones** recuperadas, de las cuales sol
 | Nueva Indicación Predicha | malformación aórtica (aortic malformation) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 10; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 10 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

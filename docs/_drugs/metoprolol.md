@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "METOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Metoprolol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad cardíaca pul
 | Nueva Indicación Predicha | Malignant hypertensive renal disease |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 6; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 6 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 Nota: la primera predicción de la lista (enfermedad renal hipertensiva maligna) también tiene nivel L5 y decisión Hold.

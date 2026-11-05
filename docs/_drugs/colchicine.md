@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
 description: "Colchicine: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para la **malaria por Plasmodiu
 | Nueva Indicación Predicha | Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 8; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,8 +91,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 86430 | Colcamexx 0,5 mg comprimidos EFG | Comprimido |
 | 86659 | Colchicina Tiofarma 0,5 mg comprimidos | Comprimido |
 | 78947 | Colchicina Seid 0,5 mg comprimidos | Comprimido |
-
-Se muestran 5 de las 8 autorizaciones vigentes, todas de principio activo único. No hay autorizaciones canceladas.
 
 ---
 

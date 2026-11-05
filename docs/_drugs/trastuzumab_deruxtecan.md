@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Trastuzumab Deruxtecan: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de …"
 monitor_inn: "trastuzumab deruxtecan"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
 | Puntaje de Predicción TxGNN | 0,9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 3) |
+| Número de Autorizaciones | 3 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser eficaz en el **mesotelioma peritoneal ma
 | Nueva Indicación Predicha | Pleural adenomatoid tumor |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 2; autorizadas no comercializadas: 5; revocadas o suspendidas: 13) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -97,8 +97,6 @@ Conviene ser prudente: la evidencia procede de ensayos de Fase 2 y de cohortes m
 | 87989 | Pemetrexed Aurovitas 500 mg EFG | Polvo para concentrado para solución para perfusión | No disponible |
 | 80985 | Pemetrexed Tillomed 500 mg EFG | Polvo para concentrado para solución para perfusión | No disponible |
 | 90206 | Pemetrexed Glenmark 500 mg EFG | Polvo para concentrado para solución para perfusión | No disponible |
-
-Hay 20 autorizaciones vigentes, todas de principio activo único; aquí se muestran 5.
 
 ## Citotoxicidad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 862
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "xylometazoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Xylometazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 9; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 9 (comercializadas: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,8 +85,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 34776 | RHINOVÍN 1 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible |
 | 74671 | FRENASAL 1 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible |
 | 37037 | RHINOVÍN KIDS 0,5 mg/ml gotas nasales en solución | Gotas nasales en solución | No disponible |
-
-Hay 9 autorizaciones vigentes en total (todas de fármaco único según el registro); aquí se listan las 5 principales.
 
 ## Consideraciones de Seguridad
 

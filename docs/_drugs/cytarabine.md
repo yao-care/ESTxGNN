@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 214
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine: nueva indicación predicha, Small cell lung carcinoma (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos** y la literatura recuperada (**20 p
 | Nueva Indicación Predicha | Small cell lung carcinoma |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 6; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 6 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,8 +90,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 74455 | Citarabina Accord 100 mg/ml solución inyectable y para perfusión | Solución inyectable y para perfusión | No disponible en los datos compilados |
 | 49154 | Citarabina Pfizer 100 mg polvo y disolvente para solución inyectable y para perfusión | Polvo y disolvente para solución inyectable | No disponible en los datos compilados |
 | 77352 | Citarabina Kabi 100 mg/ml solución inyectable o para perfusión | Solución inyectable y para perfusión | No disponible en los datos compilados |
-
-Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales.
 
 ## Citotoxicidad
 

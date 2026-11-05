@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 734
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Silibinin: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: No disponible (los textos de indicación de las autorizaciones están v…"
 monitor_inn: "silibinin"
 predicted_indications: ["hemoglobinopathy", "thrombotic disease", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "beta-thalassemia with other manifestations", "thrombophilia", "partial deletion of the short arm of chromosome 16", "severe nonproliferative diabetic retinopathy"]
@@ -52,8 +52,8 @@ Se trata únicamente de una predicción computacional.
 | Nueva Indicación Predicha | Hemoglobinopatía |
 | Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 276
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Efavirenz: nueva indicación predicha, infección por virus de inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4)."
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **14 publicaciones** (en su mayoría estudios en a
 | Nueva Indicación Predicha | infección por virus de inmunodeficiencia simia (simian immunodeficiency virus infection) |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 9; revocadas o suspendidas: 7) |
+| Número de Autorizaciones | 9 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

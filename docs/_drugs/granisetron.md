@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Granisetron: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos de licencias de …"
 monitor_inn: "granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipol
 | Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) |
 | Puntaje de Predicción TxGNN | 0,9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 11) |
-| Número de Autorizaciones | 11 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 11; autorizadas no comercializadas: 1; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 11 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -105,7 +105,7 @@ Actualmente no hay literatura relacionada disponible.
 | 61803 | KYTRIL 1MG/1ML SOLUCIÓN INYECTABLE | Solución inyectable | No disponible |
 | 60204 | KYTRIL 1 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | Comprimido recubierto con película | No disponible |
 
-Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco). El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.
+El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.
 
 ---
 

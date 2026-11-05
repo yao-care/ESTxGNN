@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **artritis bacteriana**
 | Nueva Indicación Predicha | Artritis bacteriana (bacterial arthritis) |
 | Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 8; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 8 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,7 +94,7 @@ Varias publicaciones son solo tangenciales a la indicación; se señalan en la t
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no están disponibles en los datos compilados.
+Los textos de indicación aprobada no están disponibles en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|

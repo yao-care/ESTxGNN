@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
 description: "Cetirizine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ con **1 ensayo clínico** (Fase 3, piloto, completado) y **17 publicaciones** qu
 | Nueva Indicación Predicha | Nasal cavity disease |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 (según la clasificación de los datos compilados; ver nota en la conclusión) |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 19; revocadas o suspendidas: 1) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -58,7 +58,6 @@ con **1 ensayo clínico** (Fase 3, piloto, completado) y **17 publicaciones** qu
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, cetirizina es un antagonista selectivo del receptor de histamina H1 (gen HRH1), con penetración cerebral mínima, lo que explica su escasa sedación.
 
 La urticaria alérgica se caracteriza por habones y eritema causados por la histamina liberada de los mastocitos. El bloqueo H1 actúa directamente sobre este mediador principal. Además, la urticaria idiopática ya figura entre las indicaciones originales del fármaco, por lo que se trata de una extensión cercana de una indicación existente y no de un reposicionamiento distante.
-
 
 ## Evidencia de Ensayos Clínicos
 
@@ -85,7 +84,7 @@ La mayoría de las publicaciones son revisiones o artículos sobre otros antihis
 
 ## Información de Mercado en España
 
-Se registran 20 autorizaciones vigentes, todas de fármaco único (sin combinaciones) y ninguna cancelada. Las 5 principales:
+Las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

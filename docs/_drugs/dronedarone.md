@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 268
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente no hay **ensayos clínicos** registrados para esta indicación 
 | Nueva Indicación Predicha | Ictus (stroke disorder) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 9; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 9 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,8 +90,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 84320 | Dronedarona Aristo 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 | 84026 | Dronedarona Teva 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 | 84819 | Dronedarona Aurobindo 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-
-Se listan 5 de las 9 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

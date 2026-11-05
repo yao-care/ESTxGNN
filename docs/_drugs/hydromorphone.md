@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Hydromorphone: nueva indicación predicha, Faringitis (pharyngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ La puntuación alta del modelo no está respaldada por evidencia clínica direct
 | Nueva Indicación Predicha | Faringitis (pharyngitis) |
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 13; revocadas o suspendidas: 6) |
+| Número de Autorizaciones | 13 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,8 +83,6 @@ Actualmente no hay literatura relacionada disponible para faringitis.
 | 79783 | EDUNIX 4 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | No disponible |
 | 86201 | EDUNIX 2,6 mg cápsulas duras EFG | Cápsula dura | No disponible |
 | 90236 | EDUNIX 2,6 mg/ml solución oral | Solución oral | No disponible |
-
-Se muestran 5 de las 13 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Axitinib: nueva indicación predicha, liposarcoma (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **1 publicación** preclínica que actualmente res
 | Nueva Indicación Predicha | liposarcoma (liposarcoma) |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 9) |
+| Número de Autorizaciones | 9 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

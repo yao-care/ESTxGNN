@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Volanesorsen: nueva indicación predicha, Anemia megaloblástica (nivel de evidencia L5). Indicación original: No disponible en los datos de la licencia AEMPS (el texto de indicaci…"
 monitor_inn: "VOLANESORSEN"
 predicted_indications: ["megaloblastic anemia (disease)", "sclerosing cholangitis", "sickle cell disease and related diseases", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome", "meningococcal infection", "paroxysmal nocturnal hemoglobinuria"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **anemia megaloblástica**
 | Nueva Indicación Predicha | Anemia megaloblástica |
 | Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
+| Número de Autorizaciones | 1 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

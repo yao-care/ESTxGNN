@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Cáncer de ovario"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -52,8 +52,8 @@ con **1 ensayo clínico** (de relevancia limitada) y **20 publicaciones** que ac
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 12; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 12 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,8 +102,6 @@ El puntaje TxGNN (0.9973) es una predicción computacional que sirve para priori
 | 88408 | Trabectedina Sun 1 mg EFG | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
 | 86917 | Trabectedina Teva 1 mg EFG | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
 | 1241902002 | Trabectedina Accord 1 mg EFG | Polvo para concentrado para solución para perfusión | No disponible en los datos compilados |
-
-Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg).
 
 ---
 

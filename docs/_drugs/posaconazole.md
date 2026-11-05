@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero la
 | Nueva Indicación Predicha | Neumocistosis (pneumocystosis) |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 18) |
-| Número de Autorizaciones | 18 (vigentes: 13) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 13 de 18; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 18 (comercializadas: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,8 +96,6 @@ Cualquier beneficio sería especulativo, por ejemplo, por actividad frente a hon
 | 105320002 | Noxafil 100 mg comprimidos gastrorresistentes | Comprimido gastrorresistente | No disponible |
 | 84010 | Posaconazol Accord 300 mg concentrado para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible |
 | 84646 | Posaconazol Stada 100 mg comprimidos gastrorresistentes EFG | Comprimido gastrorresistente | No disponible |
-
-Hay 18 autorizaciones vigentes en total (todas de medicamento con un solo principio activo, ninguna cancelada); la tabla muestra las 5 principales.
 
 ---
 

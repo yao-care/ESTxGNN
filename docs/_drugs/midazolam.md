@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 525
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **2 ensayos clínicos** (ambos de relevancia indirecta) y **10 publicaciones
 | Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 9; autorizadas no comercializadas: 2; revocadas o suspendidas: 9) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -91,7 +91,7 @@ Además, estudios clínicos de las décadas de 1980 y 1990 (búsqueda de dosis c
 | 84339 | Midazolam Sun 1 mg/ml solución inyectable y para perfusión en jeringa precargada | Solución inyectable y para perfusión en jeringa precargada | No disponible en los datos compilados |
 | 68903 | Midazolam B. Braun 5 mg/ml solución para inyección/perfusión EFG | Solución inyectable y para perfusión | No disponible en los datos compilados |
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único). Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.
+Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.
 
 ## Consideraciones de Seguridad
 

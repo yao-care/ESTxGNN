@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 836
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ con **6 ensayos clínicos** (2 de ellos con evidencia directa en dermatitis ató
 | Nueva Indicación Predicha | Dermatitis |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 17; autorizadas no comercializadas: 1; revocadas o suspendidas: 2) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -108,7 +108,7 @@ Conviene ser prudente: los estudios de fase 2 y la pequeña serie piloto muestra
 | 1241801005 | PYZCHIVA 90 MG solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible en los datos compilados |
 | 1231784004 | UZPRUVO 90 MG solución inyectable en jeringa precargada | Solución inyectable en jeringa precargada | No disponible en los datos compilados |
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento de un solo principio activo, ninguna cancelada). Corresponden al producto de referencia (Stelara) y a varios biosimilares.
+Corresponden al producto de referencia (Stelara) y a varios biosimilares.
 
 ---
 

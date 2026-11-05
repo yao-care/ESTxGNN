@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 696
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "IgG4-related mesenteritis"]
 description: "Ribavirin: nueva indicación predicha, Infección crónica por virus de la hepatitis B (chronic hepatitis B virus infection) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para la **infección crónica p
 | Nueva Indicación Predicha | Infección crónica por virus de la hepatitis B (chronic hepatitis B virus infection) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L1 (según el número de ensayos de Fase 3 completados; la eficacia no está confirmada con los datos disponibles) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 10; revocadas o suspendidas: 9) |
+| Número de Autorizaciones | 10 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -106,8 +106,6 @@ No se identificaron ECA entre las publicaciones; todas son revisiones o textos n
 | 09527003 | RIBAVIRINA TEVA PHARMA BV 200 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible en los datos |
 | 99107004 | REBETOL 40 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible en los datos |
 | 73658 | RIBAVIRINA NORMON 200 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible en los datos |
-
-Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras.
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 212
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine: nueva indicación predicha, Enfermedad granulomatosa crónica, autosómica recesiva (granulomatous disease, chronic, autosomal recessive) (nivel de evidencia L4). Indicación original: No c…"
@@ -52,8 +52,8 @@ pero actualmente solo se dispone de **1 publicación** (un estudio de cohortes s
 | Nueva Indicación Predicha | Enfermedad granulomatosa crónica, autosómica recesiva (granulomatous disease, chronic, autosomal recessive) |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 10 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 10 de 13; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 13 (comercializadas: 10) |
 | Decisión Recomendada | Hold |
 
 ---

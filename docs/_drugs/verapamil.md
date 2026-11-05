@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama (obsolete bundle branch block) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ Se trata de una predicción puramente computacional, por lo que la recomendació
 | Nueva Indicación Predicha | Bloqueo de rama (obsolete bundle branch block) |
 | Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 7; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 7 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,8 +79,6 @@ Actualmente no hay literatura relacionada disponible.
 | 39784 | Manidon 2,5 mg/ml | Solución inyectable | No disponible en los datos compilados |
 | 53434 | Manidon Retard 120 mg | Comprimido de liberación prolongada | No disponible en los datos compilados |
 | 50891 | Manidon 80 mg | Comprimido recubierto con película | No disponible en los datos compilados |
-
-Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las anteriores figuran Manidon HTA 240 mg (58369) y Tarka 180 mg/2 mg (61369, cápsula de liberación modificada).
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Darunavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
@@ -50,7 +50,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden directam
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 6; autorizadas no comercializadas: 5; revocadas o suspendidas: 9) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -71,8 +71,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible para la indicación principal (síndrome de inmunodeficiencia adquirida felina).
 
 ## Información de Mercado en España
-
-Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo, en comprimidos recubiertos con película):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

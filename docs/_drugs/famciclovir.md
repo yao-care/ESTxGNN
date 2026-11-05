@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "FAMCICLOVIR"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Famciclovir: nueva indicación predicha, Neuralgia postinfecciosa (post-infectious neuralgia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **neuralgia postinfecciosa
 | Nueva Indicación Predicha | Neuralgia postinfecciosa (post-infectious neuralgia) |
 | Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 13; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 13 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,8 +76,6 @@ Sin embargo, el único ensayo vinculado (NCT03120962) evalúa oxicodona para pre
 | 65027 | FAMVIR 500 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 | 71964 | Famciclovir Normon 250 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
 | 76997 | Famciclovir Tecnigen 500 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
-
-Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo; ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

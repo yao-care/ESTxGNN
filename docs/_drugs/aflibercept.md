@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Aflibercept: nueva indicación predicha, esotropía (esotropia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | esotropía (esotropia) |
 | Puntaje de Predicción TxGNN | 0,9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 15; autorizadas no comercializadas: 5) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

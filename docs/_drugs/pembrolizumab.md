@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Pembrolizumab: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival** 
 | Nueva Indicación Predicha | Fibromatosis gingival (fibromatosis, gingival) |
 | Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 7; autorizadas no comercializadas: 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 7 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,8 +88,6 @@ Actualmente no hay literatura relacionada disponible.
 | 115024001IP | KEYTRUDA 50 mg polvo para concentrado para solución para perfusión | Polvo para concentrado para solución para perfusión | No disponible en los datos |
 | 1151024002IP | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
 | 1151024002IP2 | KEYTRUDA 25 mg/ml concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
-
-Las 7 autorizaciones son de monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V.; se muestran las 5 principales.
 
 ---
 

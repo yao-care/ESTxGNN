@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 706
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Risperidone: nueva indicación predicha, Parálisis de la mirada horizontal familiar con escoliosis progresiva (nivel de evidencia L5). Indicación original: Esquizofrenia…"
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
@@ -52,7 +52,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 | Nueva Indicación Predicha | Parálisis de la mirada horizontal familiar con escoliosis progresiva |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 15; autorizadas no comercializadas: 2; revocadas o suspendidas: 3) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-La risperidona cuenta con 20 autorizaciones vigentes, todas de medicamentos con un único principio activo. No hay autorizaciones canceladas ni combinaciones. Los textos de indicación aprobada no están disponibles. Se muestran las 5 primeras:
+Los textos de indicación aprobada no están disponibles. Se muestran las 5 primeras:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|

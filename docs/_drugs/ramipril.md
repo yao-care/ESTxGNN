@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 680
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos** y solo **un estudio preclínico en
 | Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 15; revocadas o suspendidas: 5) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -90,8 +90,6 @@ Nota: varias publicaciones recuperadas (por ejemplo, sobre enfermedad de Cushing
 | 65104 | ACOVIL 10 mg COMPRIMIDOS | Comprimido | No disponible en los datos compilados |
 | 73787 | RAMIPRIL COMBIX 10 mg COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
 | 76966 | RAMIPRIL ALTER 10 MG COMPRIMIDOS EFG | Comprimido | No disponible en los datos compilados |
-
-Hay 20 autorizaciones vigentes en total (todas de principio activo único); aquí se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 

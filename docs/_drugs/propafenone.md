@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: nueva indicación predicha, Trastorno bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para el **trastorno bipolar man
 | Nueva Indicación Predicha | Trastorno bipolar maníaco (manic bipolar affective disorder) |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 5; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 5 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,7 +85,7 @@ Ninguna de estas publicaciones demuestra un beneficio de la propafenona en la ma
 | 82298 | Propafenona hidrocloruro Accord 150 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
 | 82299 | Propafenona hidrocloruro Accord 300 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película |
 
-Las 5 autorizaciones están vigentes y son de monofármaco. Los textos de indicación aprobada no figuran en los datos compilados.
+Los textos de indicación aprobada no figuran en los datos compilados.
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "DELAMANID"
 predicted_indications: ["allergic urticaria"]
 description: "Delamanid: nueva indicación predicha, Allergic urticaria (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **tuberculosis bovina**, a
 | Nueva Indicación Predicha | Allergic urticaria |
 | Puntaje de Predicción TxGNN | 0.9956 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
+| Número de Autorizaciones | 1 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 > Nota: entre las demás predicciones, "tuberculosis inactiva" (latente) tiene mayor respaldo clínico (1 ensayo de Fase 2/3, nivel L2), aunque dicho ensayo estudia tuberculosis pulmonar activa y no infección latente. Se comenta en la conclusión.

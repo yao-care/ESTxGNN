@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Clarithromycin: nueva indicación predicha, hiperamilasemia (nivel de evidencia L4). Indicación original: Infecciones bacterianas (otitis media infecciosa…"
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
@@ -52,7 +52,7 @@ pero solo hay **0 ensayos clínicos** y **1 publicación** (un reporte de caso),
 | Nueva Indicación Predicha | Hiperamilasemia |
 | Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 7; autorizadas no comercializadas: 5; revocadas o suspendidas: 8) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -85,8 +85,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ---
 
 ## Información de Mercado en España
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada).
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

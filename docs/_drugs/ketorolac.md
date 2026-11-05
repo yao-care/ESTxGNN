@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 442
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Conjuntivitis atópica…"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -50,8 +50,8 @@ con **17 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 8; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 8 (comercializadas: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -105,8 +105,6 @@ Nota: los ensayos NCT04353505, NCT01534806 y NCT05983354 fueron retirados sin pa
 | 334 295-9 | Acular colirio | Colirio en solución | No disponible |
 | 70103 | Ketorolaco Trometamol Qualigen 30 mg/ml solución inyectable EFG | Solución inyectable | No disponible |
 | 58976 | Toradol 30 mg/1 ml solución inyectable | Solución inyectable | No disponible |
-
-Hay 8 autorizaciones vigentes en total, todas de principio activo único.
 
 ## Consideraciones de Seguridad
 

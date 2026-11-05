@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Empiema pleural (pleural empyema (disease)) |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 8; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 8 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,8 +79,6 @@ Actualmente no hay literatura relacionada disponible.
 | 58868 | BACTROBAN 20 mg/g pomada | Pomada | No disponible en los datos |
 | 75862 | MUPIROCINA ISDIN 20 mg/g POMADA | Pomada | No disponible en los datos |
 | 84009 | MUPIROCINA INFECTOPHARM 20 MG/G POMADA | Pomada | No disponible en los datos |
-
-Se muestran 5 de las 8 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 222
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ con **10 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

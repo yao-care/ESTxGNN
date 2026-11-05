@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Norfloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hipervis
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 9; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 9 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,7 +79,7 @@ Actualmente no hay literatura relacionada disponible.
 | 63159 | Norfloxacino Normon 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto | No disponible |
 | 63202 | Norfloxacino Stada 400 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
 
-Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único). Entre las no listadas figura Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico.
+Entre las no listadas figura Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico.
 
 ## Consideraciones de Seguridad
 

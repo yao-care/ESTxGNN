@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Bromazepam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "bromazepam"
 predicted_indications: ["migraine disorder"]
@@ -50,8 +50,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 0,9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 13; autorizadas no comercializadas: 1; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 13 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -71,8 +71,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
-
-Se listan 5 de las 13 autorizaciones vigentes (todas de medicamentos con un único principio activo, en cápsula dura):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

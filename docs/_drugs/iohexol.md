@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Iohexol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización compilados (el texto de in…"
 monitor_inn: "IOHEXOL"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -52,8 +52,8 @@ La predicción carece de plausibilidad biológica y debe considerarse un probabl
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0,9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 3) |
+| Número de Autorizaciones | 3 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ---

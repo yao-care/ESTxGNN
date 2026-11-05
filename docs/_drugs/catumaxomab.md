@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "CATUMAXOMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
 description: "Catumaxomab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) (nivel de evidencia L5). Indicación original: No consta en los dato…"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3) comercializado en España, cuya indicación original no figura en los datos de autorización compilados para este informe. El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
+El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ---
 
@@ -51,7 +51,7 @@ Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3) comerciali
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
-| Número de Autorizaciones | 4 (vigentes: 0) |
+| Número de Autorizaciones | 4 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,7 @@ Actualmente no hay literatura relacionada disponible.
 | 09512001 | REMOVAB 10 microgramos concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
 | 09512002 | REMOVAB 50 microgramos concentrado para solución para perfusión | Concentrado para solución para perfusión | No disponible en los datos |
 
-Las cuatro autorizaciones están vigentes. KORJUNY corresponde a Atnahs Pharma Netherlands y REMOVAB a Fresenius Biotech. Según la información farmacológica de referencia, la autorización europea para la ascitis maligna en cánceres EpCAM positivos se retiró en 2017 por motivos comerciales y se reautorizó a principios de 2025.
+KORJUNY corresponde a Atnahs Pharma Netherlands y REMOVAB a Fresenius Biotech. Según la información farmacológica de referencia, la autorización europea para la ascitis maligna en cánceres EpCAM positivos se retiró en 2017 por motivos comerciales y se reautorizó a principios de 2025.
 
 ---
 

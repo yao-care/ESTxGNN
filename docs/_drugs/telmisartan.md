@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 | Nueva Indicación Predicha | Angina de Prinzmetal (Prinzmetal angina) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 14; autorizadas no comercializadas: 3; revocadas o suspendidas: 3) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Telmisartán está comercializado en España con 20 autorizaciones vigentes, todas de medicamento único (sin combinaciones) y ninguna cancelada. Los datos compilados no incluyen el texto de la indicación aprobada de cada autorización. A continuación se muestran 5 de ellas:
+Los datos compilados no incluyen el texto de la indicación aprobada de cada autorización. A continuación se muestran 5 de ellas:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|

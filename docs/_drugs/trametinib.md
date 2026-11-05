@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: nueva indicación predicha, Choroideremia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -56,8 +56,8 @@ Se trata de una predicción puramente computacional, sin respaldo mecanístico c
 | Nueva Indicación Predicha | Choroideremia |
 | Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 4) |
+| Número de Autorizaciones | 4 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---

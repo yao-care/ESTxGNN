@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 656
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ La pravastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada or
 | Nueva Indicación Predicha | HIV infectious disease |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 10; autorizadas no comercializadas: 1; revocadas o suspendidas: 9) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,6 @@ La pravastatina es una estatina (inhibidor de la HMG-CoA reductasa) utilizada or
 No se dispone de datos detallados del mecanismo de acción en los datos compilados. Sin embargo, la pravastatina pertenece a la clase de las estatinas, cuyo objetivo farmacológico es la enzima HMG-CoA reductasa (HMGCR). Al inhibirla, reduce la síntesis hepática de colesterol y aumenta los receptores hepáticos de LDL, con lo que disminuye el colesterol LDL circulante.
 
 La hipercolesterolemia familiar es una enfermedad hereditaria con colesterol LDL muy elevado, estrechamente relacionada con las indicaciones originales del fármaco (hiperlipidemia y aterosclerosis). Por eso el modelo la identifica como cercana en la red de conocimiento.
-
 
 ---
 
@@ -94,7 +93,7 @@ Ninguna de estas publicaciones evalúa directamente la pravastatina en la forma 
 
 ## Información de Mercado en España
 
-La pravastatina cuenta con 20 autorizaciones vigentes, todas de fármaco único y en forma de comprimido. Se muestran las 5 principales:
+Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|

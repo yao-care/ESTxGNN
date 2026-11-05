@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sotatercept: nueva indicación predicha, Leucemia linfoblástica aguda (nivel de evidencia L5). Indicación original: No disponible (el texto de indicación de las autorizaciones AEMPS est…"
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia linfoblástica 
 | Nueva Indicación Predicha | Leucemia linfoblástica aguda |
 | Puntaje de Predicción TxGNN | 0,9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

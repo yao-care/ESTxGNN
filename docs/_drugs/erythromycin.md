@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
@@ -50,8 +50,8 @@ pero por ahora solo hay **0 ensayos clínicos** y **1 publicación** (una revisi
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 15; revocadas o suspendidas: 10) |
+| Número de Autorizaciones | 15 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -81,8 +81,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 58854 | LODERM GEL | Gel | No disponible |
 | 59470 | ERIDOSIS, TOALLITAS | Apósito impregnado | No disponible |
 | 41000 | PANTOMICINA 250 mg GRANULADO PARA SUSPENSION ORAL EN SOBRES | Granulado para suspensión oral | No disponible |
-
-Se muestran 5 de las 15 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

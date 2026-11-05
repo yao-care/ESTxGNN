@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Apomorphine: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parki…"
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **esquizofrenia** (la pred
 | Nueva Indicación Predicha | Esquizofrenia (la predicción nº 1 del modelo es polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis) |
 | Puntaje de Predicción TxGNN | 0,9969 (esquizofrenia); 0,9975 (polimicrogiria, nº 1) |
 | Nivel de Evidencia | L5 (esquizofrenia); L5 (polimicrogiria) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 16) |
-| Número de Autorizaciones | 16 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 16; autorizadas no comercializadas: 1; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 16 (comercializadas: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,7 +86,7 @@ Se muestran las publicaciones más relevantes de las 20 identificadas para esqui
 
 ## Información de Mercado en España
 
-Hay 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados. Se listan las 5 principales:
+Los textos de indicación aprobada no figuran en los datos compilados. Se listan las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

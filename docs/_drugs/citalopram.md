@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 184
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **4 ensayos clínicos** (de los cuales ninguno evalúa citalopram de forma e
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 1; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -94,8 +94,6 @@ La literatura incluye estudios abiertos específicos con citalopram en TOC en ad
 | 67544 | Citalopram Farmaprojects 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 | 84478 | Citalopram Aurobindo 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
 | 66481 | Citalopram Vir 20 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible en los datos compilados |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un único principio activo).
 
 ## Consideraciones de Seguridad
 

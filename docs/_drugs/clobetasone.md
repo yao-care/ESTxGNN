@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Clobetasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS (texto de indi…"
 monitor_inn: "clobetasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", "primary cutaneous B-cell lymphoma", "granulomatous slack skin disease", "Crohn's colitis", "adrenocortical insufficiency", "primary cutaneous T-cell non-Hodgkin lymphoma", "nephrotic syndrome", "cystic teratoma", "spinal cord dermoid cyst"]
@@ -49,7 +49,7 @@ Clobetasona es un corticoide tópico de potencia moderada. No está comercializa
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 (según la clasificación asignada en los datos; no hay estudios clínicos ni publicaciones aportados) |
 | Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|-----------|
 | 56273 | EMOVATE CREMA | Crema | No especificada en los datos |
 
-Titular: Nutrición Médica S.L. Estado: vigente (monofármaco).
+Titular: Nutrición Médica S.L.
 
 ## Consideraciones de Seguridad
 

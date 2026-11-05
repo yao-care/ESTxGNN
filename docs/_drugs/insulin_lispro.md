@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: nueva indicación predicha, Ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ Se trata de una predicción puramente computacional, con un nivel de evidencia L
 | Nueva Indicación Predicha | Ooforitis autoinmune (autoimmune oophoritis) |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 9; autorizadas no comercializadas: 5; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 9 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,8 +79,6 @@ Actualmente no hay literatura relacionada disponible para ooforitis autoinmune.
 | 1201422014 | LYUMJEV 200 unidades/ml KWIKPEN | Solución inyectable | No disponible |
 | 1201422011 | LYUMJEV 100 unidades/ml JUNIOR KWIKPEN | Solución inyectable | No disponible |
 | 196007044 | HUMALOG JUNIOR KWIKPEN 100 unidades/ml | Solución inyectable en pluma precargada | No disponible |
-
-Se muestran 5 de las 9 autorizaciones vigentes, todas del titular Eli Lilly Nederland B.V.
 
 ## Consideraciones de Seguridad
 

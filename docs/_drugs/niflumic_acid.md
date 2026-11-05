@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Niflumic Acid: nueva indicación predicha, Enfermedad de Raynaud (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (referencia externa: artrit…"
 monitor_inn: "niflumic acid"
 predicted_indications: ["Raynaud disease", "Prinzmetal angina", "headache disorder", "trigeminal autonomic cephalalgia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "migraine disorder"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Raynaud
 | Nueva Indicación Predicha | Enfermedad de Raynaud |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 1) |
+| Número de Autorizaciones | 1 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ---

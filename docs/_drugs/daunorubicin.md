@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 226
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 description: "Daunorubicin: nueva indicación predicha, Linfoma de Hodgkin (Hodgkins lymphoma) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero la evidencia directa es limitada: **2 ensayos clínicos** de Fase 2 (con re
 | Nueva Indicación Predicha | Linfoma de Hodgkin (Hodgkins lymphoma) |
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

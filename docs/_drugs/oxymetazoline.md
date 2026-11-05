@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 598
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **5 p
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 2; revocadas o suspendidas: 6) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -86,7 +86,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 82948 | ILVIRESPIR 0,5 MG/ML solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos |
 | 51889 | RESPIBIEN 0,5 mg/ml solución para pulverización nasal | Solución para pulverización nasal | No disponible en los datos |
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente). Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).
+Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).
 
 ## Consideraciones de Seguridad
 

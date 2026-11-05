@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 798
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Tipranavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 2) |
-| Número de Autorizaciones | 2 (vigentes: 0) |
+| Número de Autorizaciones | 2 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -75,8 +75,6 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|-----------|
 | 05315002 | APTIVUS 100 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible en los datos compilados |
 | 05315001 | APTIVUS 250 MG CÁPSULAS BLANDAS | Cápsula blanda | No disponible en los datos compilados |
-
-Ambas autorizaciones están vigentes y corresponden a Boehringer Ingelheim International GmbH.
 
 ## Consideraciones de Seguridad
 

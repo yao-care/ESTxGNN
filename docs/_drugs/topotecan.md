@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **3 ensayos clínicos** (todos de fase temprana o terminados sin resultados 
 | Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 9; autorizadas no comercializadas: 2; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 9 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,7 +95,7 @@ Sin embargo, la evidencia clínica directa es débil. Un ensayo de fase II con t
 | 96027006 | Hycamtin 0,25 mg | Cápsula dura | No disponible |
 | 96027007 | Hycamtin 1 mg | Cápsula dura | No disponible |
 
-Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales. Las otras corresponden a Topotecan Farmalider (1 mg y 4 mg), Topotecan Hospira 4 mg/4 ml y Topotecan Accord 1 mg/ml.
+Las otras corresponden a Topotecan Farmalider (1 mg y 4 mg), Topotecan Hospira 4 mg/4 ml y Topotecan Accord 1 mg/ml.
 
 ## Citotoxicidad
 

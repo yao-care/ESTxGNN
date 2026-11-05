@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Palonosetron: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 11) |
-| Número de Autorizaciones | 11 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 11; autorizadas no comercializadas: 2; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 11 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,7 +95,7 @@ Nota: para la entidad "susceptibilidad a migraña con o sin aura" se asoció ade
 | 83005 | Ferant 250 microgramos solución inyectable EFG | Solución inyectable | No disponible |
 | 81900 | Palonosetron Fresenius Kabi 250 microgramos solución inyectable EFG | Solución inyectable | No disponible |
 
-Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco). Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).
+Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).
 
 ---
 

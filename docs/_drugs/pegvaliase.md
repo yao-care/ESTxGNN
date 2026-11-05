@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Pegvaliase: nueva indicación predicha, Retinopatía diabética (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "pegvaliase"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Pegvaliasa es una enzima fenilalanina amoníaco liasa pegilada que degrada la fenilalanina y está comercializada en España con el nombre PALYNZIQ. Los datos compilados para este informe no incluyen el texto de la indicación aprobada.
+Los datos compilados para este informe no incluyen el texto de la indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ---
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética*
 | Puntaje de Predicción TxGNN | 0,9917 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 3) |
-| Número de Autorizaciones | 3 (vigentes: 0) |
+| Número de Autorizaciones | 3 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 Otras predicciones del modelo, con el mismo nivel de evidencia (L5) y recomendación (Hold):

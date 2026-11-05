@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Prednicarbate"
 predicted_indications: ["vulvar inverted follicular keratosis", "lichen planus pigmentosus", "hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
 description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Queratosis folicular invertida vulvar (vulvar inverted follicular keratosis) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 8; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,8 +92,6 @@ Actualmente no hay literatura relacionada disponible.
 | 60459 | BATMEN SOLUCION (Laboratorios Menarini S.A.) | Solución cutánea | No disponible |
 | 60370 | PEITEL 2,5 MG/G POMADA (Galenicum Derma S.L.) | Pomada | No disponible |
 | 60372 | PEITEL 2,5 MG/G CREMA (Galenicum Derma S.L.) | Crema | No disponible |
-
-Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

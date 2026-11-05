@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Bromfenac: nueva indicación predicha, Enfermedad ocular (categoría amplia) (nivel de evidencia L1). Indicación original: No disponible en las autorizaciones (el texto de indicación está vací…"
 monitor_inn: "bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -50,8 +50,8 @@ Gran parte de esa evidencia corresponde al uso ya establecido (posoperatorio de 
 | Nueva Indicación Predicha | Enfermedad ocular (categoría amplia) |
 | Puntaje de Predicción TxGNN | 0,9980 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 8; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 8 (comercializadas: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

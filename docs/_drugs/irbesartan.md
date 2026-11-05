@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascul
 | Nueva Indicación Predicha | Malignant hypertensive renal disease |
 | Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 11; autorizadas no comercializadas: 4; revocadas o suspendidas: 5) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -99,8 +99,6 @@ Como referencia, para la indicación alternativa de **hipertensión pulmonar por
 | 97046027IP2 | APROVEL 300 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos compilados |
 | 70117 | Irbesartán Cinfa 75 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
 | 70158 | Irbesartán Sandoz 75 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un único principio activo; ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

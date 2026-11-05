@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
 description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (biotin metabolic disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para la **enfermedad metabólic
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina (biotin metabolic disease) |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 6; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 6 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -81,7 +81,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 52435 | Cromatonbic B12 1000 inyectable | Solución inyectable | No disponible |
 | 50758 | Isopto B12 0,5 mg/ml colirio en solución | Colirio en solución | No disponible |
 
-Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).
+La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).
 
 ## Consideraciones de Seguridad
 

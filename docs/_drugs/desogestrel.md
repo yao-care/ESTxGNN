@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los textos de autorización de la AEMPS (uso conocido…"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -38,7 +38,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Desogestrel es un progestágeno utilizado en España como anticonceptivo oral de solo gestágeno (75 microgramos), con 10 autorizaciones vigentes.
 El modelo TxGNN predice que podría ser efectivo para **Amenorrea**,
 con **1 ensayo clínico** (de relevancia indirecta) y **11 publicaciones** que actualmente respaldan esta dirección de forma limitada.
 
@@ -50,8 +49,8 @@ con **1 ensayo clínico** (de relevancia indirecta) y **11 publicaciones** que a
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 10; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 10 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

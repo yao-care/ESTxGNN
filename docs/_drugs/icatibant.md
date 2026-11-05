@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ Esta dirección está respaldada por **11 ensayos clínicos** y **20 publicacion
 | Nueva Indicación Predicha | Serpinopathy with toxic serpin polymerization |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 13; autorizadas no comercializadas: 5; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 13 (comercializadas: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > Nota: los datos de las autorizaciones españolas no incluyen el texto de indicación aprobada.
@@ -106,8 +106,6 @@ Conviene subrayar que esta indicación coincide con el uso ya aprobado del fárm
 | 86573 | Icatibanto Piramal 30 mg EFG | Solución inyectable en jeringa precargada | No disponible en los datos |
 | 86352 | Icatibanto Stada 30 mg EFG | Solución inyectable en jeringa precargada | No disponible en los datos |
 | 86865 | Icatibanto Fresenius 30 mg EFG | Solución inyectable en jeringa precargada | No disponible en los datos |
-
-En total hay 13 autorizaciones vigentes, todas de monofármaco y ninguna cancelada.
 
 ## Consideraciones de Seguridad
 

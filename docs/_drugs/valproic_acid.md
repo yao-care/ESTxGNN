@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 837
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 11 de 14) |
-| Número de Autorizaciones | 14 (vigentes: 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 14; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 14 (comercializadas: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,8 +80,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 60352 | Depakine 100 mg/ml polvo y disolvente para solución inyectable | Polvo y disolvente para solución inyectable | No disponible |
 | 48828 | Depakine 200 mg/ml solución oral | Solución oral | No disponible |
 | 68033 | Ácido valproico Altan 400 mg polvo para solución inyectable EFG | Polvo para solución inyectable | No disponible |
-
-Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

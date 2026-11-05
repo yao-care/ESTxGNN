@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización compilados (el fármaco es…"
 monitor_inn: "LAROTRECTINIB"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -48,8 +48,8 @@ Larotrectinib es un inhibidor selectivo de los receptores TRK (TRKA/B/C), comerc
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
 | Puntaje de Predicción TxGNN | 0,9924 |
 | Nivel de Evidencia | L5 (según la clasificación de los datos compilados; en la práctica, evidencia indirecta y débil) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 4; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 4 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

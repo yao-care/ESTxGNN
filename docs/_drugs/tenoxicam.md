@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TENOXICAM"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Tenoxicam: nueva indicación predicha, Brachydactyly-syndactyly syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,8 +49,8 @@ Ningún estudio citado evalúa tenoxicam de forma directa en esta indicación co
 | Nueva Indicación Predicha | Brachydactyly-syndactyly syndrome |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Hold (línea de investigación) |
 
 > Nota: se presenta la predicción de mayor interés clínico. Los puestos 1 y 2 del modelo (síndrome de braquidactilia-sindactilia y síndrome de microftalmia colobomatosa-displasia rizomélica) tienen puntajes algo superiores, pero carecen de cualquier evidencia y de vínculo mecanístico, por lo que se descartan como líneas de trabajo.

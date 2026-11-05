@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Pegfilgrastim: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de AEMPS"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -52,8 +52,8 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
 | Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 10; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 10 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,7 +90,7 @@ Actualmente no hay literatura relacionada disponible.
 | 02227003 | NEULASTA 6 mg solución inyectable en pluma precargada | Solución inyectable en pluma precargada | No disponible |
 | 1181313001 | PELGRAZ 6 mg solución inyectable en jeringa precargada | Solución inyectable | No disponible |
 
-Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único). Otros productos autorizados: Neulasta (jeringa), Pelmeg, Pelgraz (inyector precargado), Stimufend y Nyvepria.
+Otros productos autorizados: Neulasta (jeringa), Pelmeg, Pelgraz (inyector precargado), Stimufend y Nyvepria.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -50,8 +50,8 @@ pero actualmente solo existe **1 publicación** (un estudio computacional in sil
 | Nueva Indicación Predicha | Neoplasia mieloproliferativa |
 | Puntaje de Predicción TxGNN | 0,9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 10; autorizadas no comercializadas: 3; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 10 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,7 +82,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 8539291C | DAFLON 500 mg comprimidos recubiertos con película | Comprimido recubierto | No especificada |
 | 4691-2004IP2 | Daflon 500mg comprimidos recubiertos | Comprimido recubierto | No especificada |
 
-Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo. Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).
+Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).
 
 ## Consideraciones de Seguridad
 

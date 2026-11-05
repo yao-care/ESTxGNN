@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 596
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Oxiconazole: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -48,7 +48,7 @@ Los candidatos que el modelo TxGNN generó para Oxiconazole son, en todos los ca
 | Usos conocidos entre los candidatos del modelo | 0 |
 | Nivel de evidencia | No aplicable |
 | Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 
 ## Usos conocidos entre los candidatos del modelo
 

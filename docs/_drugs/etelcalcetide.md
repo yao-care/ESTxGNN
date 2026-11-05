@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
 description: "Etelcalcetide: nueva indicación predicha, hiperfosfatemia (hyperphosphatemia (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **hiperfosfatemia (hyperph
 | Nueva Indicación Predicha | hiperfosfatemia (hyperphosphatemia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 3) |
+| Número de Autorizaciones | 3 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?

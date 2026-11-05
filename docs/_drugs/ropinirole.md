@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 712
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ con **0 ensayos clínicos registrados** y **8 publicaciones** (incluyendo un pos
 | Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 11; autorizadas no comercializadas: 2; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -88,8 +88,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 61466 | REQUIP 1 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 | 67921 | ADARTREL 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible en los datos |
 | 74665 | ROLPRYNA SR 8 mg comprimidos de liberación prolongada EFG | Comprimido de liberación prolongada | No disponible en los datos |
-
-Hay 20 autorizaciones vigentes en total, todas de monofármaco, con formas de comprimido recubierto y de liberación prolongada de varios laboratorios (GSK, Kern Pharma, Cinfa, Krka, Stada, Teva).
 
 ## Consideraciones de Seguridad
 

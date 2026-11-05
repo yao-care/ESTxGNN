@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Droperidol: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de la AEMPS"
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette
 | Nueva Indicación Predicha | Síndrome de Tourette |
 | Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 5; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 5 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,7 +89,7 @@ Actualmente no hay literatura relacionada disponible.
 | 86008 | DROPERIDOL KALCEKS 1,25 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Kalceks As |
 | 82997 | DROPERIDOL HIKMA 2,5 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | Hikma Farmacêutica (Portugal) S.A. |
 
-Las cinco autorizaciones están vigentes y son de monofármaco. Todas son formas inyectables, lo que es poco práctico para el tratamiento crónico de un trastorno de tics.
+Todas son formas inyectables, lo que es poco práctico para el tratamiento crónico de un trastorno de tics.
 
 ---
 

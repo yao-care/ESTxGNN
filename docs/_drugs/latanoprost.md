@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Visceral calciphylaxis |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 10) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 10; autorizadas no comercializadas: 7; revocadas o suspendidas: 3) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,6 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular al aumentar el drenaje uveoescleral del humor acuoso.
 
 El glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario) cursa con presión intraocular elevada, por lo que el mecanismo es biológicamente plausible. Sin embargo, esta indicación es muy cercana a la original (glaucoma de ángulo abierto), de modo que el puntaje alto probablemente refleja el solapamiento con la indicación ya aprobada y **no constituye una señal genuina de reposicionamiento**.
-
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,8 +68,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
-
-Se listan 5 de las 20 autorizaciones vigentes (todas de un solo principio activo, colirios):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

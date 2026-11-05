@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 664
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **metahemoglobinemia**, pe
 | Nueva Indicación Predicha | Metahemoglobinemia |
 | Puntaje de Predicción TxGNN | 0,9950 |
 | Nivel de Evidencia | L4 (solo estudios preclínicos, casos clínicos y de mecanismo; sin ensayos clínicos) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

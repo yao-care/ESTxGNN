@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,10 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **déficit de beta-ceto
 | Nueva Indicación Predicha | Beta-ketothiolase deficiency |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 9; autorizadas no comercializadas: 4; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
-
 
 ## ¿Por qué es Razonable esta Predicción?
 
@@ -96,7 +95,7 @@ Se listan los 10 ensayos más relevantes (de 16 registrados):
 
 ## Información de Mercado en España
 
-Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco). Los textos de indicación aprobada no están disponibles en los datos compilados.
+Los textos de indicación aprobada no están disponibles en los datos compilados.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

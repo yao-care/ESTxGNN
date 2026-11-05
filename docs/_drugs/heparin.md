@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 description: "Heparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No consta …"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para la **trombofilia por defic
 | Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive) |
 | Puntaje de Predicción TxGNN | 0.9929 |
 | Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios reales; el análisis preliminar lo clasificaba como L4) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 6; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 6 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ---

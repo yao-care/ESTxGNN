@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 766
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
 description: "Tazarotene: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -53,7 +53,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 0) |
+| Número de Autorizaciones | 2 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,8 +93,6 @@ Como información complementaria, para la segunda indicación predicha (queratos
 |---------|------|------|-----------|
 | 61862 | ZORAC 0,05%, GEL | Gel (tópico) | No especificada en los datos disponibles |
 | 61861 | ZORAC 0,1%, GEL | Gel (tópico) | No especificada en los datos disponibles |
-
-Ambas autorizaciones corresponden a monofármaco, están vigentes y pertenecen a Allergan Pharmaceuticals International Limited.
 
 ---
 

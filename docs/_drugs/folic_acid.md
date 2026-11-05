@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Deficiencia de vitaminas / anemia por deficiencia de ácido fólico (se…"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -50,8 +50,8 @@ pero no hay **ningún ensayo clínico** y solo existen **19 publicaciones** de c
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 7; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 7 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,8 +92,6 @@ Las publicaciones disponibles son principalmente revisiones generales sobre vita
 | 68965 | BIALFOLI 5 mg COMPRIMIDOS | Comprimido | No disponible |
 | 11265 | ACFOL 5 mg COMPRIMIDOS | Comprimido | No disponible |
 | 52788 | ACIDO FÓLICO ASPOL 10MG CÁPSULAS DURAS | Cápsula dura | No disponible |
-
-Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 

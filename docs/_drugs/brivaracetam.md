@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Brivaracetam: nueva indicación predicha, Déficit de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Brivaracetam es un fármaco antiepiléptico comercializado en España. El modelo
 | Nueva Indicación Predicha | Déficit de beta-cetotiolasa (beta-ketothiolase deficiency) |
 | Puntaje de Predicción TxGNN | 0,9914 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 8) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

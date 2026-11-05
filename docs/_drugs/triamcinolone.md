@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 823
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente solo hay **2 publicaciones** (ambas reportes de caso, sin ensay
 | Nueva Indicación Predicha | Alopecia mucinosa |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 12; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 12 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -74,8 +74,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | Reporte de caso | Hifuka Kiyo. Acta Dermatologica | Caso de alopecia mucinosa de Pinkus (mucinosis folicular de Jablonska); no hay resumen disponible |
 
 ## Información de Mercado en España
-
-Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados).
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

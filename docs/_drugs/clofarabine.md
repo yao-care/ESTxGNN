@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 194
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda (según la base de conocimiento del modelo"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con
 | Nueva Indicación Predicha | Leucemia mieloide |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 10; autorizadas no comercializadas: 2; revocadas o suspendidas: 6) |
+| Número de Autorizaciones | 10 (comercializadas: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -112,8 +112,6 @@ Se muestran las publicaciones más relevantes (de un total de 18 disponibles):
 | 06334002 | Evoltra 1 mg/ml | Concentrado para solución para perfusión | No disponible |
 | 86158 | Clofarabina Aurovitas 1 mg/ml | Concentrado para solución para perfusión | No disponible |
 | 82636 | Clofarabina Bioorganics 1 mg/ml | Concentrado para solución para perfusión | No disponible |
-
-Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -53,7 +53,7 @@ pero esta dirección se apoya en **0 ensayos clínicos** registrados para este t
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 3 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 0) |
+| Número de Autorizaciones | 3 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,7 +101,7 @@ Se listan las publicaciones más relevantes de las 20 identificadas. Ninguna es 
 | 57408 | Novantrone 2 mg/ml | Concentrado para solución para perfusión |
 | 66166 | Mitoxantrona Sandoz 2 mg/ml | Concentrado para solución para perfusión |
 
-Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada de cada producto.
+Los datos compilados no incluyen el texto de la indicación aprobada de cada producto.
 
 ---
 

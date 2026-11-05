@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 813
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero actual
 | Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
 | Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 10; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 10 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,8 +83,6 @@ Ninguna de las dos publicaciones evalúa el ácido tranexámico como tratamiento
 | 85520 | ÁCIDO TRANEXÁMICO BAXTER 100 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable y para perfusión | No disponible |
 | 80781 | ÁCIDO TRANEXÁMICO ZENTIVA 500 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG | Comprimido recubierto con película | No disponible |
 | 83427 | ÁCIDO TRANEXÁMICO AUROVITAS 100 MG/ML SOLUCIÓN INYECTABLE EFG | Solución inyectable | No disponible |
-
-Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

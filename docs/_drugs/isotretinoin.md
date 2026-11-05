@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ La única base es el puntaje del modelo.
 | Nueva Indicación Predicha | Malignant hypertensive renal disease |
 | Puntaje de Predicción TxGNN | 0.9901 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 16; autorizadas no comercializadas: 3; revocadas o suspendidas: 1) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -81,8 +81,6 @@ Actualmente no hay literatura relacionada disponible.
 ---
 
 ## Información de Mercado en España
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas son monofármaco, en cápsula blanda).
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

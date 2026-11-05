@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 630
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Phenazopyridine: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "phenazopyridine"
 predicted_indications: ["bronchitis"]
@@ -38,7 +38,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Fenazopiridina es un analgésico del tracto urinario que se comercializa en España como MICTUROL SEDANTE; los datos compilados no recogen el texto de su indicación original aprobada.
 El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
@@ -50,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actua
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | No comercializado (registros anulados: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 0) |
+| Número de Autorizaciones | 2 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,7 +75,7 @@ Actualmente no hay literatura relacionada disponible.
 | 34653 | MICTUROL SEDANTE | Comprimido | No especificada |
 | 938033 | MICTUROL SEDANTE FUERTE | Comprimido | No especificada |
 
-Ambas autorizaciones están vigentes, corresponden a monofármaco y su titular es Laboratorio Farmaceutico S.I.T. S.R.L.
+S.R.L.
 
 ## Consideraciones de Seguridad
 

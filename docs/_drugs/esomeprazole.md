@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** (una revisión
 | Nueva Indicación Predicha | Duodenal obstruction |
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 (solo racionalidad mecanística, sin estudios específicos para esta indicación) |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 13; autorizadas no comercializadas: 1; revocadas o suspendidas: 6) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -61,8 +61,6 @@ pero actualmente hay **0 ensayos clínicos** y **1 publicación** (una revisión
 ## ¿Por qué es Razonable esta Predicción?
 
 Esomeprazol inhibe la bomba de protones gástrica (H+/K+-ATPasa, cuyo gen diana es ATP4A) y, con ello, reduce la secreción de ácido gástrico. Por eso se usa en la úlcera péptica, el reflujo gastroesofágico y los estados de hipersecreción ácida. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento farmacológico general de la clase.
-
-
 
 ---
 
@@ -82,7 +80,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en España
 
-Hay 20 autorizaciones vigentes, todas de medicamentos con esomeprazol como único principio activo. Se muestran las 5 principales:
+Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|

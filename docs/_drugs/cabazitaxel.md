@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cabazitaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 15; autorizadas no comercializadas: 4; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 15 (comercializadas: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,7 +94,7 @@ Se priorizan los estudios clínicos y las revisiones; el resto son estudios prec
 
 ## Información de Mercado en España
 
-Se listan 5 de las 15 autorizaciones vigentes (todas de medicamentos con un único principio activo). Los datos compilados no incluyen el texto de la indicación aprobada.
+Los datos compilados no incluyen el texto de la indicación aprobada.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 237
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Desvenlafaxine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L4). Indicación original: Trastorno depresivo mayor"
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-co
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 14 de 16) |
-| Número de Autorizaciones | 16 (vigentes: 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 14 de 16; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 16 (comercializadas: 14) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,7 @@ Ninguna de estas publicaciones evalúa directamente desvenlafaxina en el TOC.
 
 ## Información de Mercado en España
 
-Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada. Los datos compilados no incluyen el texto de la indicación aprobada. Se muestran las 5 principales:
+Los datos compilados no incluyen el texto de la indicación aprobada. Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|

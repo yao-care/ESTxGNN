@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin: nueva indicación predicha, Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas) (nivel de evidencia L5)."
@@ -50,8 +50,8 @@ Actualmente no hay **ningún ensayo clínico ni publicación** que respalde esta
 | Nueva Indicación Predicha | Carcinoma pseudopapilar sólido de páncreas (solid pseudopapillary carcinoma of pancreas) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 11) |
-| Número de Autorizaciones | 11 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 11; autorizadas no comercializadas: 6; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 11 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

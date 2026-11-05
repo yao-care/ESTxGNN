@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-02
+last_modified_at: 2026-11-05
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 description: "Miglustat: nueva indicación predicha, Autosomal ichthyosis syndrome with fatal disease course (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **4 ensayos clínicos** y **10 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Autosomal ichthyosis syndrome with fatal disease course |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 (según la regla establecida: ≥2 ECAs de Fase 3 completados; ver nota abajo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 7 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 7) |
+| Número de Autorizaciones | 7 (comercializadas: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre el nivel de evidencia:** solo uno de los ensayos de Fase 3 figura como completado (NCT00672022); el otro (NCT03822013) fue terminado. Existe además un ECA publicado (PMID 19346952) y una revisión sistemática (2023). Los datos compilados asignan L1, pero una lectura estricta de la regla sugeriría un nivel inferior (L2–L3). Se recomienda verificarlo.

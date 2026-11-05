@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para el **reflujo duodenogástr
 | Nueva Indicación Predicha | Duodenal obstruction |
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 13) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 13; autorizadas no comercializadas: 1; revocadas o suspendidas: 6) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -91,8 +91,6 @@ Sin embargo, la supresión ácida no bloquea directamente el reflujo biliar. Ade
 | 86474 | Omeprazol Viatris Pharmaceuticals 20 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | No disponible en los datos compilados |
 | 89376 | Omereflux 20 mg cápsulas duras gastrorresistentes | Cápsula dura gastrorresistente | No disponible en los datos compilados |
 | 88991 | Omeprazol Noridem 40 mg polvo para solución para perfusión EFG | Polvo para solución para perfusión | No disponible en los datos compilados |
-
-Hay 20 autorizaciones vigentes en total, todas de omeprazol como principio activo único.
 
 ## Consideraciones de Seguridad
 

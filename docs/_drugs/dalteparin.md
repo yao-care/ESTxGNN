@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
 description: "Dalteparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No cons…"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **trombofilia por deficien
 | Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 9; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 9 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -70,8 +70,6 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
-
-Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos compilados):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

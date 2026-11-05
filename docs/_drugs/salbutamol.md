@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 722
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 | Nueva Indicación Predicha | Conjuntivitis papilar (papillary conjunctivitis) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 15; autorizadas no comercializadas: 2; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 15 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -81,7 +81,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Hay 15 autorizaciones vigentes, todas de salbutamol como principio activo único y ninguna cancelada. Se muestran las 5 principales:
+Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|

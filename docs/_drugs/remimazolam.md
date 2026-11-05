@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 692
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Remimazolam: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
 monitor_inn: "REMIMAZOLAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -38,7 +38,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Remimazolam es una benzodiazepina de acción ultracorta administrada por vía intravenosa, autorizada y comercializada en España (Byfavo), aunque los datos compilados no recogen el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **insomnio** (puntaje 0,9991), y como segunda predicción para el **delirium por abstinencia alcohólica** (0,9930).
 Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden estas predicciones, por lo que se trata de una predicción puramente computacional.
 
@@ -53,7 +52,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilado
 | Puntaje de Predicción TxGNN | 0,9991 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ---

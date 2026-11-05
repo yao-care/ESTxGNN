@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 550
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
 description: "Naftidrofuryl: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ con **0 ensayos clínicos registrados** y **17 publicaciones** que actualmente r
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
 | Estado de Mercado en España | No comercializado (registros anulados: 1 de 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

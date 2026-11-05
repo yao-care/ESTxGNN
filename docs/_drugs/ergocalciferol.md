@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Ergocalciferol: nueva indicación predicha, Displasia acromesomélica tipo Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type) (nivel de evidencia L5)."
 ---
 
@@ -48,8 +48,8 @@ Ergocalciferol es la vitamina D2, un análogo de la vitamina D que se comerciali
 | Nueva Indicación Predicha | Displasia acromesomélica tipo Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type) |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 2) |
+| Número de Autorizaciones | 2 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

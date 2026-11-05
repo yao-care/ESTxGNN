@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: nueva indicación predicha, Heart fibrosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -52,7 +52,7 @@ La evidencia es muy limitada y se basa casi exclusivamente en la predicción del
 | Nueva Indicación Predicha | Heart fibrosarcoma |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 8; autorizadas no comercializadas: 5; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -91,8 +91,6 @@ Actualmente no hay ensayos clínicos relacionados registrados para fibrosarcoma 
 | 113845002 | Imatinib Accord 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 | 01198010 | Glivec 400 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
 | 01198008 | Glivec 100 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
-
-Hay 20 autorizaciones vigentes en total (todas de monofármaco), incluidas presentaciones en comprimidos y cápsulas duras; arriba se muestran 5 de ellas.
 
 ---
 

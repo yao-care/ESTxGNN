@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (myelodysplastic syndrome) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil en **síndrome mielodisplásico (m
 | Nueva Indicación Predicha | Síndrome mielodisplásico (myelodysplastic syndrome) |
 | Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 7) |
-| Número de Autorizaciones | 7 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 7; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 7 (comercializadas: 5) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

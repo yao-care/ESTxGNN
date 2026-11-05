@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 562
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Nevirapine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Nevirapine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: No consta en los da…"
@@ -50,8 +50,8 @@ pero no hay **ningún ensayo clínico** y solo se dispone de **13 publicaciones*
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 14) |
-| Número de Autorizaciones | 14 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 14; autorizadas no comercializadas: 3; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 14 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,8 +92,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 97055001 | VIRAMUNE 200 mg comprimidos | Comprimido | No disponible |
 | 75787 | Nevirapina Accord 200 mg comprimidos EFG | Comprimido | No disponible |
 | 97055002 | VIRAMUNE 50 mg/5 ml suspensión oral | Suspensión oral | No disponible |
-
-Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único).
 
 ## Consideraciones de Seguridad
 

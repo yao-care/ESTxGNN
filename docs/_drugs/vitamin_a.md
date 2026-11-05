@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Vitamin A: nueva indicación predicha, Deficiencia congénita de protrombina (primera predicción del modelo (nivel de evidencia L5). Indicación original: Trastorno por deficiencia vitamínica / deficien…"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -51,8 +51,8 @@ El modelo TxGNN asigna su puntuación más alta a la **deficiencia congénita de
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina (primera predicción del modelo; ver nota abajo) |
 | Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 3; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 3 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 **Nota:** la primera predicción no cuenta con ensayos clínicos ni literatura, y su vínculo con la vitamina A es especulativo. Entre las 10 predicciones evaluadas, las de mayor interés son:

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
 description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, p
 | Nueva Indicación Predicha | Urticaria alérgica (allergic urticaria) |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 19) |
-| Número de Autorizaciones | 19 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 19; revocadas o suspendidas: 7) |
+| Número de Autorizaciones | 19 (comercializadas: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 85911 | BIODRAMINA INFANTIL 12,5 mg solución oral | Solución oral en sobre | No disponible |
 | 76942 | BIODRAMINA INFANTIL 24 mg solución oral | Solución oral | No disponible |
 
-Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento con un solo principio activo; ninguna cancelada). Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.
+Entre las demás hay comprimidos, supositorios y cápsulas duras, así como asociaciones con cafeína.
 
 ---
 

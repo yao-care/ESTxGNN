@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: nueva indicación predicha, Pneumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ La evidencia actual se basa en la predicción del modelo y no hay estudios que d
 | Nueva Indicación Predicha | Pneumocistosis (pneumocystosis) |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 13; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 13 (comercializadas: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,7 +95,7 @@ Indicación aprobada: el texto de indicación no está disponible en los datos c
 | 78446 | ITRACONAZOL ALTAN 10 mg/ml concentrado y disolvente para solución para perfusión EFG | Concentrado para solución para perfusión | No disponible |
 | 59371 | CANADIOL 100 mg CÁPSULAS (Esteve) | Cápsula dura | No disponible |
 
-En total hay 13 autorizaciones vigentes (todas de medicamentos con un único principio activo); aquí se muestran 5. Existe una presentación intravenosa (perfusión), además de las cápsulas.
+Existe una presentación intravenosa (perfusión), además de las cápsulas.
 
 ## Consideraciones de Seguridad
 

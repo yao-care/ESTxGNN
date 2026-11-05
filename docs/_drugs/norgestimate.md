@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado
 | Nueva Indicación Predicha | Zinc plasmático elevado (zinc, elevated plasma) |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 3) |
-| Número de Autorizaciones | 3 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 3 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ---

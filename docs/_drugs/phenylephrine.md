@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 633
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **5 publicaciones** recuperadas, de las cuales sol
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 9) |
-| Número de Autorizaciones | 9 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 9; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 9 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,8 +85,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 70638 | HIDROCLORURO DE FENILEFRINA ALTAN 10 mg/ml SOLUCION INYECTABLE | Solución inyectable | No disponible |
 | 60227 | MIRAZUL 1,25 MG/ML COLIRIO EN SOLUCIÓN | Colirio en solución | No disponible |
 | 46297 | DISNEUMON PERNASAL 5 MG/ML SOLUCION PARA PULVERIZACION | Solución para pulverización nasal | No disponible |
-
-Se muestran 5 de las 9 autorizaciones vigentes (todas de monofármaco).
 
 ## Consideraciones de Seguridad
 

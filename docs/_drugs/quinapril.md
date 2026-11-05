@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Quinapril: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 | Nueva Indicación Predicha | Malignant hypertensive renal disease |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 12) |
-| Número de Autorizaciones | 12 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 12; revocadas o suspendidas: 8) |
+| Número de Autorizaciones | 12 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,8 +90,6 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 | 61672 | LIDALTRIN 40 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en los datos |
 | 59191 | ECTREN 20 mg comprimidos recubiertos con película | Comprimido recubierto | No especificada en los datos |
 | 59082 | ACUPREL 20 mg comprimidos recubiertos con película | Comprimido recubierto con película | No especificada en los datos |
-
-Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

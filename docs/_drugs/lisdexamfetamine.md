@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
 description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno específico de
 | Nueva Indicación Predicha | Trastorno específico del desarrollo (specific developmental disorder) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 19) |
-| Número de Autorizaciones | 19 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 19; autorizadas no comercializadas: 10; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 19 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -81,8 +81,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 88769 | MANOLLIA 20 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible |
 | 89633 | MANOLLIA 10 MG/ML SOLUCIÓN ORAL | Solución oral | No disponible |
 | 88636 | LISDEXANFETAMINA TEVA 70 MG CÁPSULAS DURAS EFG | Cápsula dura | No disponible |
-
-Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 440
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **1 ensayo clínico** (aún sin resultados) y **15 publicaciones** de releva
 | Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 8 de 15) |
-| Número de Autorizaciones | 15 (vigentes: 8) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 15; autorizadas no comercializadas: 1; revocadas o suspendidas: 6) |
+| Número de Autorizaciones | 15 (comercializadas: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -91,8 +91,6 @@ Nota: el resto de las publicaciones recuperadas (síndrome de ovario poliquísti
 | 66163 | KETO-CURE 20 mg/ml GEL | Gel | No disponible en los datos |
 | 57684 | KETOISDIN 20mg/g CREMA | Crema | No disponible en los datos |
 | 58437 | KETOCONAZOL ABAMED 20 mg/g CREMA | Crema | No disponible en los datos |
-
-Se muestran 5 de las 15 autorizaciones vigentes. Todas son monofármaco, ninguna está cancelada, y entre ellas hay cremas, geles y óvulos vaginales (p. ej., Panfungol y Ketoisdin 400 mg óvulos).
 
 ## Consideraciones de Seguridad
 

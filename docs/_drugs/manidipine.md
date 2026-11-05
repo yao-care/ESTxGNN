@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Manidipine: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "manidipine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 0,9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 18; revocadas o suspendidas: 2) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -90,8 +90,6 @@ Para la cuarta indicación predicha (hipertensión pulmonar) se recuperaron tres
 | [8667194](https://pubmed.ncbi.nlm.nih.gov/8667194/) | 1996 | Estudio preclínico en animales | J Pharmacol Exp Ther | Efectos vasculares regionales de MPC-1304 comparado con nifedipino y manidipino en ratas; no es evidencia clínica |
 
 ## Información de Mercado en España
-
-Se listan 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada):
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 487
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -50,7 +50,7 @@ pero actualmente no hay ensayos clínicos registrados y solo se dispone de **2 p
 | Nueva Indicación Predicha | Malignant hypertensive renal disease |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 14; autorizadas no comercializadas: 1; revocadas o suspendidas: 5) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
@@ -82,8 +82,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 81630 | Losartan Aurovitas 100 mg EFG | Comprimido recubierto con película | — |
 | 70611 | Losartan Krka 25 mg | Comprimido recubierto con película | — |
 | 78476 | Losartan Teva-Ratiopharm 50 mg EFG | Comprimido recubierto con película | — |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de fármaco único).
 
 ## Consideraciones de Seguridad
 

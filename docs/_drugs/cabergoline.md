@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cabergoline: nueva indicación predicha, Síndrome de progeria, talla baja y nevus pigmentados (progeria-short stature-pigmented nevi syndrome) (nivel de evidencia L5). Indicación original: No consta e…"
 ---
 
@@ -50,8 +50,8 @@ sin **ningún ensayo clínico** ni **ninguna publicación** que respalden esta d
 | Nueva Indicación Predicha | Síndrome de progeria, talla baja y nevus pigmentados (progeria-short stature-pigmented nevi syndrome) |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 6 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 6) |
+| Número de Autorizaciones | 6 (comercializadas: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

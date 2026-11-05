@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
 description: "Pentosan Polysulfate: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en l…"
@@ -50,8 +50,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 8) |
-| Número de Autorizaciones | 8 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 8; autorizadas no comercializadas: 3; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 8 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible.
 | 83434 | VANOLIV FORTE 5 MG/G CREMA | Crema | No disponible |
 | 83435 | VANOLIV 1 MG/G CREMA | Crema | No disponible |
 
-Nota: existen 8 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales. Varias de ellas son formulaciones tópicas o rectales (cremas y pomadas).
+Varias de ellas son formulaciones tópicas o rectales (cremas y pomadas).
 
 ## Consideraciones de Seguridad
 

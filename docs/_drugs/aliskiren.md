@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "aliskiren"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Aliskiren: nueva indicación predicha, Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) (nivel de evidencia L5). Indicación origi…"
 ---
 
@@ -48,8 +48,8 @@ Aliskiren es un inhibidor directo de la renina que reduce la formación de angio
 | Nueva Indicación Predicha | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) |
 | Puntaje de Predicción TxGNN | 0,9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 2 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 13; autorizadas no comercializadas: 7; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 13 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

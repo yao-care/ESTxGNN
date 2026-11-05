@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Eptifibatide"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 description: "Eptifibatide: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 4) |
-| Número de Autorizaciones | 4 (vigentes: 0) |
+| Número de Autorizaciones | 4 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,7 +79,7 @@ Actualmente no hay literatura relacionada disponible.
 | 1151065002 | Eptifibatida Accord 2 mg/ml solución inyectable EFG | Solución inyectable | No especificada en los datos compilados |
 | 99109001 | Integrilin 0,75 mg/ml, solución para perfusión | Solución para perfusión | No especificada en los datos compilados |
 
-Las cuatro autorizaciones son de monofármaco y están vigentes. Los titulares son Accord Healthcare S.L.U. y Glaxosmithkline (Ireland) Limited.
+Los titulares son Accord Healthcare S.L.U. y Glaxosmithkline (Ireland) Limited.
 
 ## Consideraciones de Seguridad
 

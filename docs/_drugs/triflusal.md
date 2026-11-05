@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 827
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Triflusal: nueva indicación predicha, Exceso de factor V con trombosis espontánea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "TRIFLUSAL"
 predicted_indications: ["factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis"]
@@ -50,8 +50,8 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 | Nueva Indicación Predicha | Exceso de factor V con trombosis espontánea |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 10) |
-| Número de Autorizaciones | 10 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 10; autorizadas no comercializadas: 1; revocadas o suspendidas: 5) |
+| Número de Autorizaciones | 10 (comercializadas: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -89,7 +89,7 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 | 65248 | Anpeval 300 mg cápsulas duras EFG | Cápsula dura | No especificada |
 | 68092 | Triflusal Teva 300 mg cápsulas EFG | Cápsula dura | No especificada |
 
-Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo.
+Las restantes corresponden a Triflusal Abamed, Triflusal Cinfa, Disgren 300 mg, Triflusal Farmalider y Triflusal Aristo.
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Interferon Alfa-2B: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (nivel de evidencia L5). Indicación original: Infección anogenital por virus del papiloma humano"
 monitor_inn: "INTERFERON ALFA-2B"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 16) |
-| Número de Autorizaciones | 16 (vigentes: 0) |
+| Número de Autorizaciones | 16 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
@@ -78,8 +78,6 @@ Actualmente no hay literatura relacionada disponible.
 | 99127031 | INTRONA 18 millones de UI solución inyectable, pluma multidosis | Solución inyectable en pluma precargada | No disponible en los datos compilados |
 | 99127020 | INTRONA 10 millones de UI/ml solución inyectable o para perfusión | Solución inyectable y para perfusión | No disponible en los datos compilados |
 | 99127037 | INTRONA 60 millones de UI solución inyectable, pluma multidosis | Solución inyectable en pluma precargada | No disponible en los datos compilados |
-
-Las cuatro autorizaciones son de medicamento monofármaco, están vigentes y pertenecen a Merck Sharp & Dohme B.V.
 
 ## Citotoxicidad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,12 +51,12 @@ pero actualmente **no hay ensayos clínicos registrados** y existen **20 publica
 | Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en España | Autorizado pero no comercializado (registros: 1) |
-| Número de Autorizaciones | 1 (vigentes: 0) |
+| Número de Autorizaciones | 1 (comercializadas: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, sulbactam es un inhibidor irreversible de las betalactamasas que, además, tiene actividad intrínseca frente a *Acinetobacter baumannii* mediante la unión a proteínas de unión a penicilina (PBP). En el producto comercializado en España se presenta combinado con ampicilina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, sulbactam es un inhibidor irreversible de las betalactamasas que, además, tiene actividad intrínseca frente a *Acinetobacter baumannii* mediante la unión a proteínas de unión a penicilina (PBP).
 
 La combinación amplía la cobertura de la ampicilina a *S. aureus*, *E. coli* y anaerobios productores de betalactamasas. Estos son patógenos frecuentes en la artritis séptica y en las infecciones óseas y articulares. Por ello, la predicción es una extensión plausible del espectro antibacteriano ya conocido, y no implica un mecanismo nuevo.
 

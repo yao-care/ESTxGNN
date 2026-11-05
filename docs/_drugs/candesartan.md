@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 137
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Candesartan: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: Hipertensión (según datos farmacológicos"
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
@@ -52,7 +52,7 @@ con **4 ensayos clínicos** (2 completados de fase 2 y fase 2/3) y **20 publicac
 | Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 (ver nota) |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 16) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 16; revocadas o suspendidas: 4) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -105,8 +105,6 @@ La relación entre la indicación original (hipertensión, un trastorno vascular
 | 90116 | Candesartan Stadafarma 32 mg comprimidos EFG | Comprimido | No disponible en los datos compilados |
 | 61894 | Atacand 16 mg comprimidos | Comprimido | No disponible en los datos compilados |
 | 62006 | Parapres 4 mg comprimidos | Comprimido | No disponible en los datos compilados |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
 
 ---
 

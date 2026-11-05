@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Carboplatin: nueva indicación predicha, Adenocarcinoma mucinoso de recto (rectum mucinous adenocarcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,8 +48,8 @@ Carboplatino es un fármaco antineoplásico del grupo de los compuestos de plati
 | Nueva Indicación Predicha | Adenocarcinoma mucinoso de recto (rectum mucinous adenocarcinoma) |
 | Puntaje de Predicción TxGNN | 0,9928 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 5 de 6) |
-| Número de Autorizaciones | 6 (vigentes: 5) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 6; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 6 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

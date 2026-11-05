@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 574
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Norethisterone: usos conocidos y estado de mercado en España; actualmente sin nueva indicación candidata"
 monitor_inn: "Norethisterone"
 predicted_indications: []
@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "arsenic trioxide"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Arsenic Trioxide: nueva indicación predicha, Síndrome mielodisplásico no clasificado (unclassified myelodysplastic syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos local…"
 ---
 
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos ni publicaciones** vinculados a esta entrada con
 | Nueva Indicación Predicha | Síndrome mielodisplásico no clasificado (unclassified myelodysplastic syndrome) |
 | Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 3 de 5) |
-| Número de Autorizaciones | 5 (vigentes: 3) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 3 de 5; autorizadas no comercializadas: 1; revocadas o suspendidas: 1) |
+| Número de Autorizaciones | 5 (comercializadas: 3) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?

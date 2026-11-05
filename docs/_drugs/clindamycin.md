@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
 description: "Clindamycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 13 de 16) |
-| Número de Autorizaciones | 16 (vigentes: 13) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 13 de 16; revocadas o suspendidas: 3) |
+| Número de Autorizaciones | 16 (comercializadas: 13) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,8 +84,6 @@ Para contexto, estas fueron las demás indicaciones predichas por el modelo, tod
 
 ## Información de Mercado en España
 
-Se muestran 5 de las 16 autorizaciones vigentes (los textos de indicación aprobada no están disponibles en los datos compilados).
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 62911 | Dalacin 100 mg óvulos | Óvulo | No disponible |
@@ -94,7 +92,7 @@ Se muestran 5 de las 16 autorizaciones vigentes (los textos de indicación aprob
 | 63669 | Clindamicina Normon 600 mg/4 ml solución inyectable EFG | Solución inyectable | No disponible |
 | 66610 | Zindaclin 1% gel | Gel | No disponible |
 
-Las 16 autorizaciones son de medicamentos con clindamicina como único principio activo, y todas están vigentes. Existen presentaciones orales, inyectables, vaginales y cutáneas (gel, solución y emulsión); no hay presentaciones oftálmicas.
+Existen presentaciones orales, inyectables, vaginales y cutáneas (gel, solución y emulsión); no hay presentaciones oftálmicas.
 
 ## Consideraciones de Seguridad
 

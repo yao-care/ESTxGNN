@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 description: "Rotigotine: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno por défici
 | Nueva Indicación Predicha | Attention deficit-hyperactivity disorder |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 12 de 20) |
-| Número de Autorizaciones | 20 (vigentes: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 20; autorizadas no comercializadas: 2; revocadas o suspendidas: 6) |
+| Número de Autorizaciones | 20 (comercializadas: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,8 +82,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 89423 | ROTIGOTINA LUYE 8 MG/24 H PARCHES TRANSDÉRMICOS EFG | Parche transdérmico | No disponible |
 | 89089 | DARIANTE 1 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | Parche transdérmico | No disponible |
 | 89090 | DARIANTE 2 MG/24 HORAS PARCHES TRANSDÉRMICOS EFG | Parche transdérmico | No disponible |
-
-Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada).
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Acitretin: nueva indicación predicha, Acné (enfermedad) (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **acné (enfermedad)**, co
 | Nueva Indicación Predicha | Acné (enfermedad) |
 | Puntaje de Prediccion TxGNN | 0.9994 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 4 de 4) |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 4 de 4) |
+| Número de Autorizaciones | 4 (comercializadas: 4) |
 | Decision Recomendada | Hold |
 
 ---

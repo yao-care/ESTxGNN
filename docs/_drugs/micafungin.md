@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 523
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (urinary tract infection (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección del tracto
 | Nueva Indicación Predicha | Infección del tracto urinario (urinary tract infection (disease)) |
 | Puntaje de Predicción TxGNN | 0.9903 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en España | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 11; autorizadas no comercializadas: 3; revocadas o suspendidas: 6) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -89,8 +89,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 85334 | Micafungina Sandoz 50 mg | Polvo para solución para perfusión | Texto de indicación no disponible |
 | 08448001 | Mycamine 50 mg | Polvo para solución para perfusión | Texto de indicación no disponible |
 | 84703 | Micafungina Teva 100 mg | Polvo para solución para perfusión | Texto de indicación no disponible |
-
-Se muestran 5 de las 20 autorizaciones vigentes, todas de medicamentos de principio activo único.
 
 ## Consideraciones de Seguridad
 

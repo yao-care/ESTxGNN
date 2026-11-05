@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **queratitis por exposici�
 | Nueva Indicación Predicha | Queratitis por exposición (exposure keratitis) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 9 de 13) |
-| Número de Autorizaciones | 13 (vigentes: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 13; autorizadas no comercializadas: 2; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 13 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,8 +90,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 58016 | Fucidine 20 mg/g crema | Crema | No especificada |
 | 74064 | Ácido Fusídico Isdin 20 mg/g crema | Crema | No especificada |
 | 90887 | Cortifusin 20 mg/g + 1 mg/g crema | Crema | No especificada |
-
-Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones con corticoide según su denominación).
 
 ---
 

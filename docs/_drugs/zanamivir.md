@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 863
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Zanamivir: nueva indicación predicha, Pielonefritis (nivel de evidencia L5). Indicación original: Gripe (influenza)"
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **pielonefritis**, pero no
 | Nueva Indicación Predicha | Pielonefritis |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (registros vigentes: 1 de 2) |
-| Número de Autorizaciones | 2 (vigentes: 1) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 1 de 2; autorizadas no comercializadas: 1) |
+| Número de Autorizaciones | 2 (comercializadas: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
