@@ -6,7 +6,7 @@ nav_order: 844
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-05
-description: "Vernakalant: nueva indicación predicha, Trastorno cerebrovascular (ictus) (nivel de evidencia L4). Indicación original: Fibrilación auricular"
+description: "Vernakalant: nueva indicación predicha, Trastorno cerebrovascular (ictus) (nivel de evidencia L5). Indicación original: Fibrilación auricular"
 monitor_inn: "VERNAKALANT"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---

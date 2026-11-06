@@ -1,0 +1,173 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/buserelin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Buserelin: nueva indicación predicha, Hipertricosis (nivel de evidencia L4). Indicación original: Cáncer de próstata (según la información farmacológica compilada\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/cabazitaxel.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Cabazitaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/candesartan.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Candesartan: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: Hipertensión (según datos farmacológicos\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/clarithromycin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Clarithromycin: nueva indicación predicha, hiperamilasemia (nivel de evidencia L4). Indicación original: Infecciones bacterianas (otitis media infecciosa…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/desogestrel.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los textos de autorización de la AEMPS (uso conocido…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dexketoprofen.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de evidencia L4).\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dienogest.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: No disponible en los datos de las autorizaciones\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/golimumab.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Golimumab: nueva indicación predicha, hipermovilidad del cóccix (nivel de evidencia L4). Indicación original: Artritis reumatoide (junto con artritis psoriásica…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/grazoprevir.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Grazoprevir: nueva indicación predicha, Infección por VIH (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C (el texto de indicac…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/hydroquinone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/inotersen.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: No disponible en los datos de la autorización de AEMPS\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/insulin_aspart.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Diabetes mellitus (según la base de conocimiento\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ledipasvir.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Ledipasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L5). Indicación original: Infección crónica por el virus de la hepatitis C (según la base de co…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nilotinib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nilotinib: nueva indicación predicha, Dermatofibrosarcoma protuberans (nivel de evidencia L4). Indicación original: Leucemia mieloide crónica, BCR-ABL1 positivo\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/palbociclib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Palbociclib: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L4). Indicación original: No disponible en los datos de autorización (el texto de indicación es…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/procaine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pseudoephedrine.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Rinitis alérgica\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sonidegib.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Sonidegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (nivel de evidencia L2). Indicación original: Carcinoma cutáneo / carcinoma basocelular\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/talc.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (la autorización no incluye tex…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trabectedin.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Cáncer de ovario\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/vernakalant.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Vernakalant: nueva indicación predicha, Trastorno cerebrovascular (ictus) (nivel de evidencia L4). Indicación original: Fibrilación auricular\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}
