@@ -479,7 +479,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Trombastenia de Glanzmann",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/andexanet-alfa/"
     },
@@ -509,7 +509,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/apomorphine/"
     },
@@ -8079,7 +8079,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Calcifilaxis visceral",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/travoprost/"
     },
