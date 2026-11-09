@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-09
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: nueva indicación predicha, Diabetes mellitus type 2 associated cataract (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ con **19 publicaciones** identificadas en los datos compilados para esta indicac
 | Nueva Indicación Predicha | Diabetes mellitus type 2 associated cataract |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 (con reservas, véase más abajo) |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 7 de 11; autorizadas no comercializadas: 4) |
-| Número de Autorizaciones | 11 (comercializadas: 7) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 8 de 11; autorizadas no comercializadas: 3) |
+| Número de Autorizaciones | 11 (comercializadas: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
