@@ -52,7 +52,7 @@ La evidencia que respalda esta nueva indicación es, por tanto, únicamente la p
 | Nueva Indicación Predicha | Visceral calciphylaxis |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 18; autorizadas no comercializadas: 3; revocadas o suspendidas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 18; autorizadas no comercializadas: 2; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | 18 (comercializadas: 9) |
 | Decisión Recomendada | Hold |
 
