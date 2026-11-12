@@ -24,6 +24,10 @@ Más allá de las puntuaciones de predicción de la IA, la plataforma integra ev
 ClinicalTrials.gov y PubMed para que los investigadores puedan evaluar rápidamente su credibilidad.
 </p>
 
+<p class="key-answer" data-question="¿Qué medicamentos autorizados por la AEMPS se están probando ya en ensayos clínicos para una indicación nueva?">
+La <a href="{{ '/drugs/' | relative_url }}">lista completa de medicamentos</a> de esta plataforma recoge, para cada medicamento autorizado por la AEMPS, si ya existen ensayos clínicos registrados en ClinicalTrials.gov que investigan una indicación nueva no autorizada. Cada ficha enlaza los NCT de origen junto con el nivel de evidencia correspondiente.
+</p>
+
 Consulte el <a href="/methodology/">proceso de predicción y gradación de la evidencia</a> o la
 <a href="/guide/">guía de uso</a> para saber cómo leer un informe de medicamento.
 
