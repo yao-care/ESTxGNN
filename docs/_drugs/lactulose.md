@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Publicaciones seleccionadas para ictericia obstructiva (hasta 10, priorizando estudios clínicos sobre revisiones y otros):
 
+<!-- review:begin es-lic-20261105-lactulose-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 7 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-lactulose-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [2032107](https://pubmed.ncbi.nlm.nih.gov/2032107/) | 1991 | Estudio multicéntrico prospectivo aleatorizado (diseño por verificar) | Br J Surg | 102 pacientes con ictericia obstructiva aleatorizados a lactulosa, desoxicolato sódico o control para prevenir disfunción renal postoperatoria |
@@ -127,6 +133,19 @@ La ictericia obstructiva cuenta con un respaldo plausible pero limitado (L3): es
 - Considerar una revisión sistemática o un ensayo clínico moderno sobre lactulosa preoperatoria, endotoxemia y función renal en ictericia obstructiva.
 - Definir el contexto de uso (perioperatorio) y valorar el riesgo de depleción de volumen y alteraciones electrolíticas.
 - Descartar o despriorizar las predicciones sin evidencia (nefropatía por uratos, hipertermia maligna, nefrolitiasis).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -97,6 +97,12 @@ Sin embargo, la evidencia clínica directa es débil. Un ensayo de fase II con t
 
 Las otras corresponden a Topotecan Farmalider (1 mg y 4 mg), Topotecan Hospira 4 mg/4 ml y Topotecan Accord 1 mg/ml.
 
+<!-- review:begin es-lic-20261105-topotecan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales. Las otras corresponden a Topotecan Farmalider (1 mg y 4 mg), Topotecan Hospira 4 mg/4 ml y Topotecan Accord 1 mg/ml." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-topotecan-1 -->
+
 ## Citotoxicidad
 
 | Item | Contenido |
@@ -130,6 +136,19 @@ El puntaje de TxGNN es muy alto, pero la evidencia clínica es escasa: los ensay
 - Revisar sistemáticamente los estudios clínicos de topotecan en cáncer de mama (incluidos los subtipos, p. ej., triple negativo y metástasis cerebrales).
 - Definir si existe un subgrupo o combinación que justifique un ensayo de fase 2 (p. ej., tumores dependientes de MYC o con baja expresión de BCRP).
 - Plan de monitoreo hematológico y de seguridad pulmonar y gastrointestinal para poblaciones específicas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

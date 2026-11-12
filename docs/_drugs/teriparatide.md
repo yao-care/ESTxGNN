@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (duodenal ulcer (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -82,6 +82,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Principales autorizaciones:
 
+<!-- review:begin es-lic-20261105-teriparatide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Teriparatida está comercializada en España, con 15 autorizaciones vigentes, todas de medicamentos de un solo principio activo y ninguna cancelada. Principales autorizaciones:" Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-teriparatide-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 03247001 | FORSTEO 20 microgramos/80 microlitros, solución inyectable (Eli Lilly) | Solución inyectable en pluma precargada | No especificada en los datos compilados |
@@ -115,6 +121,19 @@ La predicción para úlcera duodenal se basa únicamente en el modelo (nivel L5)
 - Revisión de la literatura preclínica para determinar si existe alguna señal biológica en el tracto gastrointestinal.
 - Obtener y analizar el prospecto oficial de la AEMPS (advertencias y contraindicaciones) para completar la revisión de seguridad.
 - Si se desea priorizar el reposicionamiento de teriparatida, evaluar otras predicciones del mismo análisis con mayor respaldo. Por ejemplo, la **osteoporosis asociada al embarazo y la lactancia** tiene nivel de evidencia L3, con estudios observacionales y revisiones centrados en teriparatida. Su uso exigiría precauciones específicas, ya que el fármaco no debe usarse durante el embarazo ni la lactancia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Teriparatida está comercializada en España, con 15 autorizaciones vigentes, todas de medicamentos de un solo principio activo y ninguna canc" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

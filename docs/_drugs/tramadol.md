@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: nueva indicación predicha, Acromesomelic dysplasia, Hunter-Thompson type (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -73,6 +73,12 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-tramadol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se registran 20 autorizaciones vigentes, todas de medicamentos con tramadol como único principio activo. Se muestran las 5 principales:" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tramadol-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 63920 | Tramadol Kern Pharma 50 mg cápsulas duras EFG | Cápsula dura | No disponible |
@@ -100,6 +106,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisión del prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas) para completar la evaluación de seguridad
 - Evidencia clínica o preclínica que respalde cualquier beneficio más allá del alivio sintomático
 - Evaluar candidatas de menor rango con más plausibilidad clínica, como el dolor articular crónico en artropatías, antes de invertir recursos en esta indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes, todas de medicamentos con tramadol como único principio activo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

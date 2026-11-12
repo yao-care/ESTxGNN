@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "CATUMAXOMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
 description: "Catumaxomab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (severe nonproliferative diabetic retinopathy) (nivel de evidencia L5). Indicación original: No consta en los dato…"
@@ -39,6 +39,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 ## Resumen en Una Frase
 
 Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3), cuya indicación original no figura en los datos de autorización compilados para este informe. El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
+
+<!-- review:begin es-lic-20261105-catumaxomab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Catumaxomab es un anticuerpo biespecífico trifuncional (EpCAM x CD3) comercializado en España, cuya indicación original no figura en los datos de autorización compilados para este informe. El modelo TxGNN predice que podría ser efectivo para la **retinopatía diabética no proliferativa grave**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-catumaxomab-1 -->
 
 ---
 
@@ -89,6 +95,12 @@ Actualmente no hay literatura relacionada disponible.
 
 KORJUNY corresponde a Atnahs Pharma Netherlands y REMOVAB a Fresenius Biotech. Según la información farmacológica de referencia, la autorización europea para la ascitis maligna en cánceres EpCAM positivos se retiró en 2017 por motivos comerciales y se reautorizó a principios de 2025.
 
+<!-- review:begin es-lic-20261105-catumaxomab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las cuatro autorizaciones están vigentes. KORJUNY corresponde a Atnahs Pharma Netherlands y REMOVAB a Fresenius Biotech." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-catumaxomab-2 -->
+
 ---
 
 ## Citotoxicidad
@@ -124,6 +136,20 @@ Las tres indicaciones predichas se basan solo en el modelo (nivel L5), sin ensay
 - Confirmar la indicación original autorizada en España.
 - Estudios preclínicos que demuestren una base biológica para la retinopatía diabética, incluida la evaluación de la seguridad ocular y del riesgo de liberación de citocinas.
 - Evaluar la compatibilidad de vías de administración (la forma actual es perfusión; una indicación oftálmica requeriría otra estrategia).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "comercializado en España" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-05 | Eliminado: "Las cuatro autorizaciones están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

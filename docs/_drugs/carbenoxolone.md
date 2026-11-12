@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "carbenoxolone"
 predicted_indications: ["non-syndromic esophageal malformation", "vitamin deficiency disorder", "biotin metabolic disease", "filariasis", "bile duct disease", "bile duct neoplasm", "tinea nigra"]
 description: "Carbenoxolone: nueva indicación predicha, Malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -62,6 +62,12 @@ El puntaje muy alto proviene del modelo TxGNN (aprendizaje profundo) y puede ref
 
 Por tanto, no es posible construir un fundamento mecanístico sólido. La predicción debe considerarse una hipótesis generada por el modelo, sin respaldo biológico o clínico demostrado.
 
+<!-- review:begin es-lic-20261105-carbenoxolone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Titular: Laboratorios Ern S.A. Autorización vigente, de tipo monofármaco." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 autorización (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-carbenoxolone-1 -->
+
 ## Informe de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -101,6 +107,19 @@ La predicción se apoya únicamente en un puntaje alto del modelo, sin ensayos c
 - Realizar una revisión sistemática de la literatura y de registros de ensayos.
 - Evaluar la compatibilidad de la vía de administración con la nueva indicación.
 - Valorar si alguna de las otras predicciones (por ejemplo, enfermedades de las vías biliares) tiene un fundamento más defendible.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Titular: Laboratorios Ern S.A. Autorización vigente, de tipo monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

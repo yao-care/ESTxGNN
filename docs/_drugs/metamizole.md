@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 509
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -64,6 +64,12 @@ En la artritis reumatoide, metamizol podría ofrecer, como mucho, alivio sintom�
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261105-metamizole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-metamizole-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -106,6 +112,19 @@ Para artritis reumatoide solo existe predicción del modelo y literatura de segu
 - Datos del mecanismo de acción en DrugBank
 - Para migraña: ensayos controlados específicos y una evaluación del riesgo-beneficio que incluya la agranulocitosis y la cefalea por abuso de medicación
 - Para artritis reumatoide: estudios de eficacia (no solo de seguridad) antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

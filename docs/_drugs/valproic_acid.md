@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 837
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -65,6 +65,12 @@ La única publicación vinculada (PMID 9157801) es una serie de 14 casos de sín
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261105-valproic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 autorizaciones (comercializadas: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-valproic_acid-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -102,6 +108,19 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5): no hay ensayos
 - Evaluación de seguridad para poblaciones con enfermedad hepática, trombocitopenia o riesgo de pancreatitis.
 
 > Nota: entre las demás predicciones, la **neuralgia del trigémino** (puntaje 0,9983, nivel L4) cuenta con más respaldo bibliográfico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 14 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

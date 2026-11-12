@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 214
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine: nueva indicación predicha, Small cell lung carcinoma (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -66,6 +66,12 @@ El puntaje alto de TxGNN es únicamente una predicción computacional y debe int
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261105-cytarabine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-cytarabine-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -124,6 +130,19 @@ La predicción del modelo es muy alta, pero no existen ensayos clínicos y la li
 ### Otras indicaciones predichas (referencia)
 
 Neuroblastoma es la predicción con más respaldo entre las evaluadas (nivel L3, con tres ensayos de fase temprana de relevancia indirecta y datos preclínicos de sensibilidad a citarabina). El resto (linfoma pulmonar primario, neoplasias de vías aerodigestivas superiores y retroperitoneales, y varias enfermedades raras sin evidencia) permanece en Hold con evidencia L4 o L5.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 6 autorizaciones vigentes en total (todas de monofármaco); la tabla muestra las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Idoxuridine"
 predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 description: "Idoxuridine: nueva indicación predicha, Candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -71,6 +71,12 @@ Actualmente no hay literatura relacionada disponible para candidiasis vulvovagin
 
 *Nota:* para otras indicaciones predichas (vaginitis, vulvitis, vulvovaginitis) se identificó literatura de baja calidad e indirecta, por ejemplo:
 
+<!-- review:begin es-lic-20261105-idoxuridine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópico." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-idoxuridine-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [7814938](https://pubmed.ncbi.nlm.nih.gov/7814938/) | 1994 | Estudio clínico | Nihon Sanka Fujinka Gakkai Zasshi | Tratamiento tópico de condiloma acuminado genital y neoplasia intraepitelial vaginal (VAIN) con idoxuridina y aclarubicina; condiciones relacionadas con VPH, no vaginitis en sentido estricto |
@@ -101,6 +107,19 @@ La predicción para candidiasis vulvovaginal se apoya únicamente en el puntaje 
 - Evidencia preclínica (p. ej., actividad in vitro frente a *Candida*) antes de considerar estudios clínicos
 - Evaluación de compatibilidad de vía de administración (las presentaciones actuales son soluciones cutáneas, no vaginales)
 - Si se desea explorar una dirección con más sentido, priorizar la vulvovaginitis herpética como pregunta de investigación, comparándola con los antivirales actuales
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las tres autorizaciones están vigentes, son de un solo principio activo y pertenecen a Laboratorios Viñas S.A. Todas son de uso cutáneo/tópi" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

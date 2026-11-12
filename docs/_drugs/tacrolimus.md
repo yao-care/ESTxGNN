@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 758
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: Dermatitis atópica (eccema atópico)"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -97,6 +97,12 @@ Además, existen estudios clínicos directos en la indicación predicha, incluid
 
 Los textos de indicación aprobada no figuran en los datos compilados. Se muestran las cinco principales, priorizando las formulaciones tópicas:
 
+<!-- review:begin es-lic-20261105-tacrolimus-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Tacrolimus cuenta con 20 autorizaciones vigentes (todas de monofármaco). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tacrolimus-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 02201004 | Protopic 0,1% pomada | Pomada | No disponible en los datos |
@@ -130,6 +136,19 @@ Existe un ensayo de Fase 3 completado (n=120) y un estudio de Fase 4 (n=104) dir
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir un plan de seguridad para el uso tópico prolongado (riesgo de neoplasias, infecciones cutáneas, poblaciones pediátricas) y confirmar la disponibilidad de la vía tópica para la nueva indicación.
 - Verificar que las formulaciones tópicas autorizadas en España (pomada) se ajusten a la localización facial de la dermatitis seborreica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Tacrolimus cuenta con 20 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

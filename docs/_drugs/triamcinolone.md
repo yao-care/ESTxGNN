@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 823
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -66,6 +66,12 @@ La evidencia directa es muy limitada: solo se recuperaron dos reportes de caso (
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261105-triamcinolone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-triamcinolone-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -101,6 +107,19 @@ La predicción se apoya únicamente en el modelo y en dos reportes de caso que n
 - Advertencias y contraindicaciones oficiales del prospecto de la AEMPS.
 - Evaluación de la vía de administración (intralesional o tópica) frente a las formulaciones comercializadas en España.
 - Valoración de seguridad frente a las interacciones y contraindicaciones señaladas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (el texto de indicación aprobada no está disponible en los datos compilados)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

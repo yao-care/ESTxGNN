@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 137
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Candesartan: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L2). Indicación original: Hipertensión (según datos farmacológicos"
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
@@ -112,6 +112,12 @@ La relación entre la indicación original (hipertensión, un trastorno vascular
 
 - **Interacciones farmacológicas**: la consulta no identificó interacciones medicamentosas propiamente dichas; solo se registró la farmacología de la diana (receptor AT1).
 
+<!-- review:begin es-lic-20261105-candesartan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-candesartan-1 -->
+
 Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto. Como orientación general de la clase ARA-II, la bibliografía compilada documenta riesgo fetal (oligohidramnios, hipoplasia pulmonar) con su uso durante el embarazo.
 
 ---
@@ -129,6 +135,19 @@ Existe un ECA de fase 2 de gran tamaño (n=450) con publicación en The Lancet N
 - Un ensayo confirmatorio de fase 3 o análisis de los resultados definitivos de NCT04574713
 - Plan de monitorización de seguridad (presión arterial, función renal, potasio) y precauciones en mujeres en edad fértil por el riesgo fetal de la clase
 - Valorar las indicaciones de menor evidencia: migraña con aura de tronco encefálico (L4, hipótesis de investigación), mientras que hipertensión pulmonar, angina de Prinzmetal, BPH y otras predicciones restantes quedan en **Hold** por ausencia de evidencia específica (la única referencia para alopecia es un artefacto de búsqueda no relacionado)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

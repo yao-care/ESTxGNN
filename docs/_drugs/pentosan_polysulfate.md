@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
 description: "Pentosan Polysulfate: nueva indicación predicha, Trastorno de liberación primaria de las plaquetas (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: No consta en l…"
@@ -82,6 +82,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Varias de ellas son formulaciones tópicas o rectales (cremas y pomadas).
 
+<!-- review:begin es-lic-20261105-pentosan_polysulfate-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Nota: existen 8 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales. Varias de ellas son formulaciones tópicas o rectales (cremas y pomadas)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pentosan_polysulfate-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones (según el grafo de conocimiento, no texto del prospecto)**: enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, trastornos de la coagulación sanguínea, hemofilia y trombocitopenia inducida por heparina.
@@ -101,6 +107,19 @@ La predicción carece de ensayos clínicos y de literatura (nivel L5), y el meca
 - Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
 - Una revisión mecanística y de seguridad que justifique la plausibilidad biológica antes de cualquier estudio.
 - Evidencia preclínica o clínica que respalde la asociación; sin ella, no se recomienda continuar.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Nota: existen 8 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

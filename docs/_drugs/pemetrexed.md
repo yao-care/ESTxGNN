@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -60,6 +60,12 @@ Actualmente no se dispone de datos detallados del mecanismo de acción en la bas
 El mesotelioma pleural y el peritoneal comparten histología y biología. Por eso es plausible que la sensibilidad a los antifolatos demostrada en la enfermedad pleural se extienda a la peritoneal. De hecho, la combinación de pemetrexed y cisplatino, estándar en el mesotelioma pleural, ya se utiliza con frecuencia en el peritoneal, aunque su eficacia en esta localización sigue sin estar bien definida.
 
 Conviene ser prudente: la evidencia procede de ensayos de Fase 2 y de cohortes mixtas pleurales/peritoneales, no de un ensayo de Fase 3 específico para el peritoneo. Se trata, por tanto, de una extrapolación. Además, varios ensayos están suspendidos o aún en reclutamiento.
+
+<!-- review:begin es-lic-20261105-pemetrexed-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes, todas de principio activo único; aquí se muestran 5." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pemetrexed-1 -->
 
 ## Evidencia de Ensayos Clínicos
 
@@ -130,6 +136,19 @@ Existe un ensayo de Fase 2 completado con pemetrexed en mesotelioma pleural o pe
 - Mesotelioma pleural, epitelioide, sarcomatoide y bifásico (L1 a L2): ya cubiertos por la indicación aprobada o por ella extrapolables; sirven como control positivo del modelo.
 - Cáncer de pericardio y mesotelioma papilar bien diferenciado (L4, Hold): solo reportes de caso, sin ensayos.
 - Tumor adenomatoide pleural, mesotelioma linfohistiocitoide e iminoglicinuria (L5, Hold): sin respaldo clínico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de principio activo único; aquí se muestran 5" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

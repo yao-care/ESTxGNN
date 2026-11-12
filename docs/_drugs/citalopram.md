@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 184
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder"]
 description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -61,6 +61,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 La disfunción del sistema serotoninérgico es un componente reconocido de la fisiopatología del TOC, y los ISRS son tratamiento farmacológico de primera línea en esta enfermedad. Por ello, mecanísticamente es plausible que citalopram sea aplicable al TOC, y la puntuación alta del modelo es coherente con este mecanismo de clase. Esta inferencia procede de la farmacología conocida de los ISRS y no del registro de datos compilado para este informe.
 
 La literatura incluye estudios abiertos específicos con citalopram en TOC en adultos, niños y adolescentes, así como un estudio en TOC resistente al tratamiento. No obstante, no se dispone de un ensayo controlado con citalopram incluido en los datos compilados.
+
+<!-- review:begin es-lic-20261105-citalopram-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un único principio activo)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-citalopram-1 -->
 
 ## Evidencia de Ensayos Clínicos
 
@@ -128,6 +134,19 @@ El TOC cuenta con un mecanismo plausible a nivel de clase (ISRS) y con varios es
 - Evaluar la dosis máxima en poblaciones de riesgo, ya que no se dispone de información de posología en los datos compilados.
 
 **Nota sobre otras predicciones:** las predicciones para trastornos de la personalidad paranoide, esquizoide, histriónica y esquizotípica (puntuación 0.9968) carecen de evidencia clínica y mecanismo demostrado. La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Se recomienda mantenerlas en **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

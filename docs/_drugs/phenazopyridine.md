@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 630
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Phenazopyridine: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "phenazopyridine"
 predicted_indications: ["bronchitis"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 Fenazopiridina es un analgésico del tracto urinario; los datos compilados no recogen el texto de su indicación original aprobada.
 El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
+
+<!-- review:begin es-lic-20261105-phenazopyridine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fenazopiridina es un analgésico del tracto urinario que se comercializa en España como MICTUROL SEDANTE; los datos compilados no recogen el texto de su indicación original aprobada. / El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo." Eliminado: contradecía los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-phenazopyridine-1 -->
 
 ## Resumen Rápido
 
@@ -78,6 +84,12 @@ Actualmente no hay literatura relacionada disponible.
 
 S.R.L.
 
+<!-- review:begin es-lic-20261105-phenazopyridine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambas autorizaciones están vigentes, corresponden a monofármaco y su titular es Laboratorio Farmaceutico S.I.T. S.R.L." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-phenazopyridine-2 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones sugeridas por el grafo de conocimiento** (no proceden del texto del prospecto, por lo que deben verificarse): hipertensión, insuficiencia hepática y enfermedad hepática, encefalopatía hepática, enfermedad renal, porfiria, EPOC, trastornos de ansiedad, trastornos hematológicos (anemia, neutropenia, agranulocitosis, trombocitopenia), hiperplasia prostática benigna, enfermedad de la vesícula biliar, enfermedad coronaria, apnea del sueño y abuso de sustancias, entre otras.
@@ -100,6 +112,20 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Realizar una revisión de literatura preclínica y clínica sobre fenazopiridina y afecciones respiratorias.
 - Evaluar la compatibilidad de vía de administración (comprimido oral frente a una indicación respiratoria).
 - Verificar si la predicción es un artefacto del modelo TxGNN (aprendizaje profundo) antes de invertir en estudios adicionales.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "que se comercializa en España como MICTUROL SEDANTE" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-05 | Eliminado: "Ambas autorizaciones están vigentes, corresponden a monofármaco y su titular es Laboratorio Farmaceutico S.I.T" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

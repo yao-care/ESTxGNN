@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 description: "Travoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -102,6 +102,12 @@ Ninguna publicación evalúa travoprost en enfermedad vascular. Se priorizan rev
 
 Los datos compilados no incluyen el texto de la indicación aprobada.
 
+<!-- review:begin es-lic-20261105-travoprost-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio. Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-travoprost-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 79302 | Travoprost Abamed 40 microgramos/ml | Colirio en solución | No disponible en los datos compilados |
@@ -149,6 +155,19 @@ La predicción de enfermedad vascular se basa únicamente en el modelo (L5): nin
 - Evaluar la compatibilidad de vías de administración, ya que solo hay colirios autorizados.
 - Estudios preclínicos o exploratorios que sustenten la hipótesis antes de plantear ensayos clínicos.
 - Clasificar la gravedad de las interacciones farmacológicas, hoy todas desconocidas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes, todas de monofármaco y en forma de colirio" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

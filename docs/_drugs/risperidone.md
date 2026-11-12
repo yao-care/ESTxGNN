@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 706
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Risperidone: nueva indicación predicha, Parálisis de la mirada horizontal familiar con escoliosis progresiva (nivel de evidencia L5). Indicación original: Esquizofrenia…"
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicación aprobada no están disponibles. Se muestran las 5 primeras:
 
+<!-- review:begin es-lic-20261105-risperidone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La risperidona cuenta con 20 autorizaciones vigentes, todas de medicamentos con un único principio activo. No hay autorizaciones canceladas ni combinaciones. Los textos de indicación aprobada no están disponibles." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-risperidone-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 68798 | Risperidona Stada 1 mg/ml solución oral EFG | Solución oral |
@@ -125,6 +131,19 @@ La predicción para esta enfermedad rara carece de ensayos clínicos, literatura
 - **Tricotilomanía (nivel L4):** solo informes y series de casos.
 - **Síndrome de Phelan-McDermid (nivel L4):** solo evidencia indirecta y preclínica.
 - **Síndrome de Asperger:** coincide en gran medida con la indicación original de autismo, por lo que no constituye reposicionamiento nuevo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "La risperidona cuenta con 20 autorizaciones vigentes, todas de medicamentos con un único principio activo. No hay autorizaciones canceladas " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

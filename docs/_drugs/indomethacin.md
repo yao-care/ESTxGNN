@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
 description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -82,6 +82,12 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios.
 
+<!-- review:begin es-lic-20261105-indomethacin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco). Las demás corresponden a Inacid 25 mg cápsulas, Inacid Retard 75 mg, Flogoter 25 mg cápsulas, Flogoter 100 mg supositorios y Artrinovo 50 mg supositorios." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-indomethacin-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: hipertensión, epilepsia, úlcera gástrica y úlcera péptica activa, úlcera duodenal, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, trastornos de la coagulación, asma (intrínseca y alérgica), infarto de miocardio, enfermedad cardiovascular, colitis ulcerosa y enfermedad inflamatoria intestinal, enterocolitis necrosante, hemorragia intracerebral, hemoglobinopatías, trastornos de ansiedad y neuróticos, distimia, discinesia esofágica, piouréter y enfermedades infecciosas.
@@ -101,6 +107,19 @@ La indicación principal predicha solo cuenta con el puntaje del modelo (nivel L
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Plantear una hipótesis biológica que conecte la inhibición de prostaglandinas con la fisiopatología de la enfermedad predicha, antes de cualquier estudio preclínico.
 - Valorar como línea alternativa la **artritis idiopática juvenil** (nivel L3, estado "pregunta de investigación"): hay revisiones antiguas y un ECA cruzado de 1978 en 30 niños que comparó cetoprofeno con indometacina, pero la práctica actual se basa en biológicos y FAME, y existen alertas de toxicidad en población pediátrica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

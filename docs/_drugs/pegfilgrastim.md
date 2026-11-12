@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Pegfilgrastim: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de AEMPS"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -92,6 +92,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Otros productos autorizados: Neulasta (jeringa), Pelmeg, Pelgraz (inyector precargado), Stimufend y Nyvepria.
 
+<!-- review:begin es-lic-20261105-pegfilgrastim-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único). Otros productos autorizados: Neulasta (jeringa), Pelmeg, Pelgraz (inyector precargado), Stimufend y Nyvepria." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pegfilgrastim-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -125,6 +131,19 @@ La única base de esta predicción es la puntuación del modelo TxGNN (nivel de 
 - Revisión sistemática de la literatura preclínica sobre G-CSF y retinopatía diabética para establecer la dirección del efecto
 - Evaluar la seguridad en pacientes diabéticos con enfermedad retiniana
 - Analizar la compatibilidad de la vía de administración (inyectable) con la indicación propuesta
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

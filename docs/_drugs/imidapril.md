@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "IMIDAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Imidapril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -88,6 +88,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg.
 
+<!-- review:begin es-lic-20261105-imidapril-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco). El resto corresponde a genéricos (EFG) de Neuraxpharm (Qualigen y Asibilan) y Dari Pharma, en dosis de 5, 10 y 20 mg." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-imidapril-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Interacciones Farmacológicas**: la consulta se completó y devolvió un único registro, relativo a la diana farmacológica de imidapril (la enzima convertidora de angiotensina, ACE), sin nivel de gravedad asignado. No se identificaron interacciones con otros fármacos.
@@ -109,6 +115,19 @@ Todas las predicciones son de nivel L5: solo existe la señal del modelo, sin en
 - Estudios preclínicos o de mecanismo que respalden el vínculo con la hipertensión pulmonar.
 - Si se desea una alternativa más cercana a la indicación original, evaluar la enfermedad renal hipertensiva con atención a los riesgos renales y de potasio.
 - Verificar la compatibilidad de vía de administración (actualmente pendiente; el fármaco solo está disponible en comprimidos).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 12 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

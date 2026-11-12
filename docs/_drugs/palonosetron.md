@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Palonosetron: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -97,6 +97,12 @@ Nota: para la entidad "susceptibilidad a migraña con o sin aura" se asoció ade
 
 Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión).
 
+<!-- review:begin es-lic-20261105-palonosetron-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco). Entre las restantes figuran Aloxi y Akynzeo (combinación con netupitant, en cápsulas y polvo para perfusión)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-palonosetron-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -121,6 +127,19 @@ La predicción es puramente computacional (L5): no hay ensayos clínicos y la ú
 - Revisión sistemática de la literatura sobre antagonistas 5-HT3 en migraña y la señal de cefalea inducida
 - Evidencia preclínica o clínica de eficacia en migraña antes de reconsiderar la decisión
 - Evaluación de riesgo cardiaco (QT) e interacciones con triptanes y otros serotoninérgicos, relevantes en pacientes con migraña
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

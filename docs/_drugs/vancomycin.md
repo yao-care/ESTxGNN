@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 839
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 description: "Vancomycin: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -101,6 +101,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
   - **Mayores**: inmunoglobulina G humana (intravenosa), inmunoglobulina humana antineurotoxina botulínica A/B y vacuna viva de *Vibrio cholerae* (cepa CVD 103-HgR).
   - **Moderadas**: AINE (ketorolaco, ibuprofeno, diclofenaco, celecoxib), anfotericina B (incluido el complejo lipídico), aminoglucósidos y polipéptidos (amikacina, capreomicina, bacitracina), carboplatino, metformina, estrógenos (etinilestradiol, estradiol), mesalazina, balsalazida, ibandronato y colestiramina.
 
+<!-- review:begin es-lic-20261105-vancomycin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes, todas de principio activo único." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-vancomycin-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -114,6 +120,19 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 - Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto de la AEMPS.
 - Evidencia preclínica o clínica que justifique un vínculo entre vancomicina y la esclerodermia (actualmente inexistente).
 - Revisar otras indicaciones predichas con mayor plausibilidad biológica, como la **neumonía estreptocócica** (nivel L4, actividad frente a grampositivos). Aun así, podría tratarse más de una extensión de uso existente que de un reposicionamiento genuino. Las predicciones para salmonelosis, fiebre tifoidea y paratifoidea carecen de fundamento, ya que son bacterias gramnegativas intrínsecamente resistentes a la vancomicina.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes, todas de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

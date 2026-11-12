@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: nueva indicación predicha, Trastorno bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -87,6 +87,12 @@ Ninguna de estas publicaciones demuestra un beneficio de la propafenona en la ma
 
 Los textos de indicación aprobada no figuran en los datos compilados.
 
+<!-- review:begin es-lic-20261105-propafenone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las 5 autorizaciones están vigentes y son de monofármaco. Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-propafenone-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones o enfermedades de riesgo según el grafo de conocimiento** (no proceden del texto del prospecto):
@@ -111,6 +117,19 @@ La predicción se apoya solo en el modelo (L5), sin ensayos clínicos, y la lite
 - Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS.
 
 Cuenta con estudios preclínicos sobre el bloqueo del receptor de rianodina RyR2, cohortes observacionales y un reporte de 35 años de tratamiento eficaz con propafenona. Se sitúa en el nivel L3 y se recomienda como "Proceed with Guardrails". Las salvaguardas son descartar cardiopatía estructural, usar un betabloqueante como terapia base y vigilar de cerca el ECG y la anchura del QRS. Conviene evaluarla en un informe específico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las 5 autorizaciones están vigentes y son de monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Galantamine: nueva indicación predicha, Trastornos psicógenos del movimiento (nivel de evidencia L5). Indicación original: Enfermedad de Alzheimer"
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible para trastornos psicógenos
 
 Los textos de indicación aprobada no figuran en los datos compilados.
 
+<!-- review:begin es-lic-20261105-galantamine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes, todas de principio activo único. Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-galantamine-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 74331 | GALNORA 24 mg cápsulas duras de liberación prolongada EFG | Cápsula dura de liberación prolongada | No disponible |
@@ -102,6 +108,19 @@ La predicción principal (trastornos psicógenos del movimiento) es solo computa
 - Datos detallados del mecanismo de acción (MOA) y análisis de similitud con la indicación original
 - Evaluación de compatibilidad de vías de administración
 - Evaluación del equilibrio riesgo-beneficio frente a la señal de trastornos del movimiento inducidos por inhibidores de colinesterasa
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes, todas de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Apomorphine: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parki…"
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
@@ -88,6 +88,12 @@ Se muestran las publicaciones más relevantes de las 20 identificadas para esqui
 
 Los textos de indicación aprobada no figuran en los datos compilados. Se listan las 5 principales:
 
+<!-- review:begin es-lic-20261105-apomorphine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 16 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-apomorphine-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 88979 | KYNMOBI 25 mg película sublingual | Película sublingual | No disponible |
@@ -130,6 +136,19 @@ No existen ensayos clínicos y la literatura sobre esquizofrenia (nivel L4) es a
 - Textos de indicación aprobada de las autorizaciones españolas.
 - Evidencia clínica directa que justifique reconsiderar la hipótesis; de lo contrario, descartar esquizofrenia y priorizar otras líneas.
 - Evaluación de compatibilidad de vía de administración (actualmente pendiente).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

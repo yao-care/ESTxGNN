@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 775
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos l…"
@@ -78,6 +78,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los textos de indicación aprobada no están disponibles en los datos compilados.
 
+<!-- review:begin es-lic-20261105-tenofovir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 17 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 autorizaciones (comercializadas: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tenofovir-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 01200001 | VIREAD 245 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
@@ -104,6 +110,19 @@ La única evidencia disponible son dos estudios preclínicos en gatos, sin ensay
 - Obtener advertencias y contraindicaciones del prospecto de AEMPS (hueco de datos bloqueante para el cribado de seguridad).
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Disponer de estudios controlados en gatos (tamaño muestral, controles) y evaluar la seguridad renal y ósea en esa especie.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 17 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

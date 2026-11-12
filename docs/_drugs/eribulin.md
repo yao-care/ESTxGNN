@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Eribulin: nueva indicación predicha, Fiebre mediterránea familiar autosómica recesiva (nivel de evidencia L5). Indicación original: Liposarcoma (según la base de conocimiento del modelo"
 monitor_inn: "eribulin"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicación aprobada no figuran en los datos compilados.
 
+<!-- review:begin es-lic-20261105-eribulin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-eribulin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 89127 | Eribulina Stada 0,44 mg/ml solución inyectable EFG | Solución inyectable | Laboratorio Stada S.L. |
@@ -112,6 +118,19 @@ La predicción tiene una puntuación alta, pero solo se apoya en el modelo (nive
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) para completar el cribado de seguridad.
 - Evidencia preclínica o clínica que vincule la inhibición de microtúbulos por eribulina con la vía de la pirina, si se quisiera seguir explorando esta indicación.
 - Priorizar otras indicaciones predichas con más respaldo. En especial, la de **neoplasia fibroblástica** (tumor fibroso solitario y fibrosarcoma) cuenta con un ensayo de fase 2 completado (NCT03840772, n=16) y datos preclínicos. Tiene un nivel de evidencia L2 y justifica una evaluación independiente.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

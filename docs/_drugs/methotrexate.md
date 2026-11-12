@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: nueva indicación predicha, Pulmonary blastoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -109,6 +109,12 @@ Se listan los ensayos más relevantes (de 44 aportados). Ninguno es específico 
 
 El texto de indicación aprobada no figura en los datos compilados. Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-methotrexate-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada). El texto de indicación aprobada no figura en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-methotrexate-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 40698 | Metotrexato Wyeth 2,5 mg comprimidos | Comprimido | No disponible en los datos compilados |
@@ -166,6 +172,18 @@ El metotrexato tiene alta plausibilidad mecanística y uso histórico en linfoma
 | Rabdomiosarcoma | 0,9925 | L2 | Pregunta de investigación (S1) |
 | Rabdomiosarcoma embrionario parameníngeo | 0,9921 | L5 | Hold |
 | Rabdomiosarcoma embrionario botrioide de vagina | 0,9921 | L5 | Hold |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes (todas de medicamento con un único principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (congenital prothrombin deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -73,6 +73,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El texto de la indicación aprobada no está disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-desmopressin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco). El texto de la indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-desmopressin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 89023 | Desmopresina Aristo 240 microgramos comprimidos sublinguales EFG | Comprimido sublingual | No disponible |
@@ -110,6 +116,19 @@ La predicción carece de ensayos clínicos y de literatura, y la desmopresina no
 - **Trombofilia hereditaria** y **enfermedad de von Willebrand pseudo (tipo plaquetario)**: el mecanismo es contrario o desfavorable, y el uso podría ser inadecuado.
 - **Síndrome de Scott**: L5, sin datos de eficacia.
 - **"Flood factor deficiency"**: entidad que parece un artefacto de datos; debe verificarse antes de cualquier evaluación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

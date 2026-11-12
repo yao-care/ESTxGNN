@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: nueva indicación predicha, Well-differentiated fetal adenocarcinoma of the lung (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -83,6 +83,12 @@ Se muestran los 10 ensayos más relevantes (de 32 registrados para esta indicaci
 
 Se muestran las 10 publicaciones más relevantes (de 20 recuperadas), priorizando ensayos aleatorizados.
 
+<!-- review:begin es-lic-20261105-etoposide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hikma, ambas en concentrado para perfusión)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-etoposide-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | ECA Fase 3 | N Engl J Med | Estudio INT-0154: la adición de ifosfamida y etopósido a la quimioterapia estándar mejora la supervivencia en sarcoma de Ewing y tumor neuroectodérmico primitivo de hueso de diagnóstico reciente |
@@ -138,6 +144,19 @@ Varios ensayos de Fase 3 (EICESS 92, EURO-E.W.I.N.G.99, estudios del Children's 
 - Uso dentro de protocolos multiagente, sin atribuir el beneficio al etopósido en monoterapia.
 
 **Nota sobre otras predicciones:** el rabdomiosarcoma (nivel L1, Proceed with Guardrails) también cuenta con respaldo de ensayos de Fase 3 con regímenes que contienen etopósido, aunque su contribución específica es incierta. Las demás indicaciones predichas (adenocarcinoma fetal bien diferenciado de pulmón, linfoma pulmonar primario, blastoma pulmonar y variantes raras de rabdomiosarcoma) tienen evidencia indirecta o solo predicción del modelo (L4–L5) y quedan en Hold o como pregunta de investigación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; se listan las 5 principales (las otras dos son Etopósido Sandoz y Etopósido Hi" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

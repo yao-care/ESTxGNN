@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -67,6 +67,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin es-lic-20261105-latanoprost-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de un solo principio activo, colirios):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-latanoprost-1 -->
+
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -97,6 +103,19 @@ La predicción se apoya únicamente en el modelo (nivel L5, sin ensayos ni liter
 - Revisar la literatura y los registros de ensayos sobre latanoprost en glaucoma congénito/hereditario, especialmente en población pediátrica
 - Evaluar la relevancia clínica de las interacciones, hoy sin clasificar
 - Considerar, entre los candidatos de la lista, la hipotricosis del cuero cabelludo (mecanismo plausible similar a bimatoprost en pestañas) como línea de investigación más prometedora desde el punto de vista del reposicionamiento
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de un solo principio activo, colirios):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

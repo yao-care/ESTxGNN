@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -84,6 +84,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma).
 
+<!-- review:begin es-lic-20261105-codeine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma). Las 6 autorizaciones son de monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-codeine-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión, insuficiencia hepática y hepatopatía, epilepsia, insomnio, EPOC, trastornos de ansiedad y neuróticos, distimia, porfiria, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, trombocitopenia, hipotiroidismo/mixedema, úlcera péptica, enfermedad inflamatoria intestinal, gastritis, trastornos psicóticos y esquizoafectivos, y dermatitis herpetiforme.
@@ -107,6 +113,19 @@ Las otras indicaciones predichas tampoco respaldan el reposicionamiento: laringo
 - Definir qué se entiende por "enfermedad de la cavidad nasal" y si existe un beneficio sintomático distinto de las indicaciones actuales.
 - Estudios clínicos o revisiones sistemáticas que evalúen eficacia en patología nasal.
 - Evaluación de compatibilidad de vías de administración y de la relación beneficio-riesgo de un opioide en esta población.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las 6 autorizaciones son de monofármaco y están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

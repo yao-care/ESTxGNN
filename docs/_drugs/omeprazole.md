@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -61,6 +61,12 @@ El reflujo duodenogástrico (paso de bilis y contenido duodenal al estómago y, 
 
 Sin embargo, la supresión ácida no bloquea directamente el reflujo biliar. Además, estudios en ratas indican que combinar bloqueo ácido con reflujo duodenogástrico puede estimular el crecimiento de la mucosa y promover la carcinogénesis gástrica. Por ello, la puntuación alta del modelo refleja sobre todo la cercanía con el mecanismo del reflujo gastroesofágico, no una demostración de eficacia.
 
+<!-- review:begin es-lic-20261105-omeprazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total, todas de omeprazol como principio activo único." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-omeprazole-1 -->
+
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
@@ -113,6 +119,19 @@ La puntuación del modelo es muy alta, pero la evidencia clínica es escasa y mi
 - Advertencias y contraindicaciones oficiales del prospecto de la AEMPS, aún no disponibles en los datos compilados.
 - Datos detallados del mecanismo de acción y de las indicaciones autorizadas en España.
 - Análisis de compatibilidad de vías de administración y de similitud con las indicaciones originales.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total, todas de omeprazol como principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran las publicaciones más relevantes (priorizando revisiones y estudios clínicos). Ninguna aborda específicamente la migraña con aura de tronco encefálico.
 
+<!-- review:begin es-lic-20261105-zolmitriptan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total (todas de monofármaco), sin ninguna cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-zolmitriptan-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revisión | Headache | Evaluación actualizada de la Sociedad Americana de Cefalea sobre la evidencia de las terapias farmacológicas para la migraña aguda |
@@ -116,6 +122,19 @@ La predicción se apoya solo en el modelo y en literatura general sobre migraña
 - Texto de indicaciones aprobadas de las autorizaciones españolas, que no figura en los datos compilados.
 
 *Nota: las otras dos predicciones (atrofodermia vermiculada y uleritema ofriogenes) no tienen ensayos, literatura ni vínculo mecanístico identificable, por lo que quedan en espera (Hold) como probables artefactos de la red del modelo.*
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de monofármaco), sin ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

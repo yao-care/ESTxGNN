@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Carvedilol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 El texto de indicación aprobada no está disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-carvedilol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos con carvedilol como único principio activo). El texto de indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-carvedilol-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 59695 | COROPRES 25 mg comprimidos | Comprimido | No disponible |
@@ -114,6 +120,18 @@ La predicción solo cuenta con respaldo computacional (nivel L5), sin ensayos cl
 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 0,9954 | L5 | Hold | Probable coincidencia por la etiqueta "hipertensión"; fisiopatología distinta de la sistémica. |
 | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 0,9954 | L5 | Pregunta de investigación | Evidencia preclínica indirecta (p. ej., carvedilol revirtió la hipertensión inducida por hipoxia intermitente en ratas, PMID 26291659, y modelos de hipertrofia ventricular derecha por hipoxia); gran parte de la literatura recuperada es ajena al tema y no hay ensayos clínicos. |
 | Síndrome de Braddock | 0,9937 | L5 | Hold | Sin justificación mecanística evidente; probable artefacto del modelo TxGNN (aprendizaje profundo). |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos con carvedilol como único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

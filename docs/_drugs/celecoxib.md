@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
 description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dato…"
@@ -83,6 +83,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los registros no incluyen texto de indicación aprobada. Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-celecoxib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Celecoxib está comercializado en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de cápsula dura de 100 mg o 200 mg. Los registros no incluyen texto de indicación aprobada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-celecoxib-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 63073 | CELEBREX 200 mg cápsulas duras | Cápsula dura | Viatris Healthcare Limited |
@@ -124,6 +130,19 @@ La predicción carece de ensayos clínicos, de literatura y de una base mecanís
 - Una revisión de la literatura específica sobre esta enfermedad y sobre el papel de las prostaglandinas en ella.
 
 **Nota:** entre las demás predicciones de celecoxib, la mejor respaldada es la espondilopatía inflamatoria (espondilitis anquilosante o espondiloartritis axial), con 4 ensayos de Fase 3/4 completados y evidencia L1. Sin embargo, es esencialmente una indicación ya existente del fármaco, no un reposicionamiento nuevo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Celecoxib está comercializado en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de cápsula dura d" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

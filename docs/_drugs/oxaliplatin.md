@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 594
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (malignant pleural mesothelioma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -60,6 +60,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 El mesotelioma pleural es un tumor sensible a los compuestos de platino: el cisplatino es la base del tratamiento estándar. Por ello, oxaliplatino es una alternativa mecanísticamente plausible, sobre todo combinado con gemcitabina, raltitrexed o vinorelbina. Su perfil de toxicidad distinto (menos nefrotoxicidad y emesis que el cisplatino) podría ser una ventaja en pacientes no aptos para cisplatino.
 
 Los datos publicados de Fase 2 muestran una actividad modesta, y no existe una comparación aleatorizada frente al régimen estándar de cisplatino/pemetrexed. Un estudio de segunda línea con raltitrexed-oxaliplatino (PMID 15893013) no mostró respuestas objetivas, lo que invita a la cautela.
+
+<!-- review:begin es-lic-20261105-oxaliplatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 13 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-oxaliplatin-1 -->
 
 ## Evidencia de Ensayos Clínicos
 
@@ -126,6 +132,19 @@ Existe un ensayo de Fase 2 completado y varios estudios de Fase 2 publicados con
 - Un plan de monitoreo de seguridad (neuropatía, función renal y hepática, hematología) y de interacciones.
 - Aclarar las indicaciones aprobadas en España, ya que los textos de autorización no las incluyen.
 - Otras indicaciones predichas (mesotelioma epitelioide, sarcomatoide y tumor maligno de pleura visceral) tienen evidencia L4-L5 y deben mantenerse en espera (Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 13 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 237
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Desvenlafaxine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L4). Indicación original: Trastorno depresivo mayor"
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -89,6 +89,12 @@ Ninguna de estas publicaciones evalúa directamente desvenlafaxina en el TOC.
 
 Los datos compilados no incluyen el texto de la indicación aprobada. Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-desvenlafaxine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada. Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-desvenlafaxine-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 75560 | PRISTIQ 50 mg comprimidos de liberación prolongada | Comprimido de liberación prolongada | Pfizer S.L. |
@@ -121,6 +127,19 @@ La predicción del TOC tiene un puntaje alto en TxGNN, pero no hay ensayos clín
 - Evaluación de las condiciones asociadas a contraindicación, sobre todo las cardiovasculares, el trastorno bipolar y el riesgo de síndrome serotoninérgico.
 
 **Nota:** Entre las otras indicaciones predichas, el trastorno distímico es la que tiene más respaldo. Cuenta con un ensayo de fase 4 frente a placebo (NCT01537068, n=59), un estudio abierto (NCT01948895, n=30) y un metaanálisis de antidepresivos. Podría merecer una evaluación prioritaria.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes, todas de monofármaco y en forma de comprimido de liberación prolongada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

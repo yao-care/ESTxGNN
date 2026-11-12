@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
 description: "Lisdexamfetamine: nueva indicación predicha, Trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -65,6 +65,12 @@ Por tanto, el puntaje muy alto de TxGNN proviene del modelo TxGNN (aprendizaje p
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261105-lisdexamfetamine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 19 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-lisdexamfetamine-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -103,6 +109,19 @@ No hay ensayos clínicos para el trastorno específico del desarrollo, y la úni
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales de la AEMPS)
 - Evaluación de riesgos cardiovasculares y neuropsiquiátricos, y plan de gestión de interacciones (en particular las de nivel mayor)
 - Textos de indicación aprobados de las autorizaciones españolas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamentos de un solo principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

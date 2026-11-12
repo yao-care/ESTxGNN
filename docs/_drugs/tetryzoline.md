@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 787
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "tetryzoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Tetryzoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -73,6 +73,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicación aprobada no figuran en los datos compilados.
 
+<!-- review:begin es-lic-20261105-tetryzoline-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 11 autorizaciones vigentes (todas de principio activo único, forma farmacéutica colirio en solución). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tetryzoline-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 22025330000IP | VISPRING 0,5 mg/ml colirio en solución | Colirio en solución | No disponible |
@@ -102,6 +108,19 @@ La predicción solo cuenta con el respaldo del modelo (nivel L5), sin ensayos cl
 - Evaluar la compatibilidad de vía y formulación (nasal/faríngea frente al colirio actual).
 - Realizar una búsqueda sistemática de ensayos clínicos y literatura sobre tetrizolina en patología nasal y faríngea.
 - Revisar el riesgo cardiovascular, metabólico y tiroideo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 11 autorizaciones vigentes (todas de principio activo único, forma farmacéutica colirio en solución)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

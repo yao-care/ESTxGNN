@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 852
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -61,6 +61,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 El sarcoma de Ewing es un tumor óseo maligno muy proliferativo, con altas tasas de recaída, sobre todo en enfermedad multimetastásica. Los tumores de este tipo responden a agentes que actúan sobre los microtúbulos. Además, la combinación de vinorelbina con ciclofosfamida a dosis bajas y continuas (metronómica) aporta un efecto antiproliferativo y antiangiogénico. Un estudio preclínico también muestra sinergia entre fármacos que interfieren con los microtúbulos (incluida vinorelbina) y un inhibidor de PLK1 en células de sarcoma de Ewing.
 
 Hay que señalar que la relación con la indicación original es mecanística y no de enfermedad: el pulmón y el sarcoma óseo son tumores distintos. La evidencia procede sobre todo de estudios en poblaciones pediátricas mixtas con tumores sólidos refractarios, no específicos de Ewing.
+
+<!-- review:begin es-lic-20261105-vinorelbine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado para perfusión, de varios titulares (Pierre Fabre, Accord, Glenmark, Medac, Sandoz, Eugia, IPS)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-vinorelbine-1 -->
 
 ## Evidencia de Ensayos Clínicos
 
@@ -125,6 +131,19 @@ Existe evidencia clínica de Fase 2 completada (nivel L2) con vinorelbina más c
 - Plan de monitoreo hematológico y de interacciones (en especial inhibidores potentes de CYP3A4, como claritromicina) en población pediátrica y adulta joven.
 
 **Nota sobre otras predicciones:** el resto de las indicaciones predichas (por ejemplo, carcinoma pulmonar microcítico, tumores pulmonares benignos, fibromatosis gingival, hamartoma pulmonar) tienen evidencia indirecta o nula y se consideran Hold o preguntas de investigación. En el caso del carcinoma microcítico, la evidencia de Fase 3 corresponde a cáncer no microcítico, la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 16 autorizaciones vigentes en total (todas de monofármaco, ninguna cancelada), con presentaciones en cápsula blanda y en concentrado par" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

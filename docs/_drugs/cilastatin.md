@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 180
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -97,6 +97,12 @@ Esta predicción corresponde a una indicación de la combinación y no a un repo
 
 Los datos disponibles no incluyen el texto de la indicación aprobada.
 
+<!-- review:begin es-lic-20261105-cilastatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes, todas en forma de polvo para solución para perfusión. Los datos disponibles no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-cilastatin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 71285 | Imipenem/Cilastatina Kabi 500 mg/500 mg EFG | Polvo para solución para perfusión | Fresenius Kabi España |
@@ -129,6 +135,19 @@ La evidencia para S. aureus se limita a estudios clínicos pequeños y antiguos,
 - Texto de indicaciones, advertencias y contraindicaciones del prospecto de la AEMPS
 - Evaluación según el antibiograma local y los criterios de estewardship de carbapenémicos
 - Plan de ajuste de dosis renal y de monitoreo de seguridad (convulsiones, función renal, colitis por *C. difficile*)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes, todas en forma de polvo para solución para perfusión" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

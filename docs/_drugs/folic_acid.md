@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Deficiencia de vitaminas / anemia por deficiencia de ácido fólico (se…"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Las publicaciones disponibles son principalmente revisiones generales sobre vitaminas; ninguna evalúa directamente el ácido fólico como tratamiento de enfermedades metabólicas de la biotina.
 
+<!-- review:begin es-lic-20261105-folic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-folic_acid-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [39828265](https://pubmed.ncbi.nlm.nih.gov/39828265/) | 2025 | Metaanálisis (revisión paraguas) | Asia Pac J Clin Nutr | Síntesis de metaanálisis sobre vitaminas hidrosolubles y control glucémico en diabetes tipo 2; resultados previos inconsistentes |
@@ -116,6 +122,19 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos, l
 - Estudios preclínicos o mecanísticos que justifiquen un papel del folato en trastornos del metabolismo de la biotina
 - Revisión de la literatura específica sobre deficiencia de biotinidasa/holocarboxilasa sintetasa y folato
 - Considerar si otra indicación predicha tiene una base más sólida
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Existen 7 autorizaciones vigentes en total (todas de monofármaco); aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

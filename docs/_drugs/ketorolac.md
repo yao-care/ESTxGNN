@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 442
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Conjuntivitis atópica…"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -81,6 +81,12 @@ Se muestran los ensayos más relevantes (de 17 identificados), priorizando los q
 
 Nota: los ensayos NCT04353505, NCT01534806 y NCT05983354 fueron retirados sin participantes y no aportan datos.
 
+<!-- review:begin es-lic-20261105-ketorolac-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 8 autorizaciones vigentes en total, todas de principio activo único." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-ketorolac-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -136,6 +142,19 @@ Existen varios ensayos de Fase 3/4 completados, revisiones sistemáticas, metaan
 
 - **Conjuntivitis rosácea** (puntaje 0.9940): sin ensayos ni literatura. Nivel L5, decisión **Hold**.
 - **Cefalalgia trigémino-autonómica** (puntaje 0.9939): único ensayo retirado sin participantes y literatura marginal. Nivel L4, decisión **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 8 autorizaciones vigentes en total, todas de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

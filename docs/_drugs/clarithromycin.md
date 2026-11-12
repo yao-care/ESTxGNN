@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Clarithromycin: nueva indicación predicha, hiperamilasemia (nivel de evidencia L5). Indicación original: Infecciones bacterianas (otitis media infecciosa…"
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
@@ -101,6 +101,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 - **Contraindicaciones según el grafo de conocimiento** (no proceden del prospecto): síndrome de QT largo, torsades de pointes, taquicardia ventricular (incluida la polimórfica catecolaminérgica), insuficiencia hepática, enfermedad hepática, colestasis, porfiria, enfermedad renal, enfermedad de la vesícula biliar, osteoporosis, fractura ósea, colitis por *Clostridium difficile*, enterocolitis necrotizante perinatal, miastenia gravis y mononucleosis infecciosa.
 - **Interacciones farmacológicas**: se identificaron 100 interacciones en total; entre las mostradas destacan las de nivel **mayor** con abemaciclib, fentanilo y acalabrutinib. Entre las de nivel moderado figuran paclitaxel, tramadol, nifedipino, ethinylestradiol, hidrocortisona, adenosina, afatinib, famotidina, formoterol, acarbosa, abiraterona, flunisolida, trastuzumab emtansina y abametapir (tópico). Las de nivel menor incluyen dolutegravir, zidovudina y loratadina.
 
+<!-- review:begin es-lic-20261105-clarithromycin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-clarithromycin-1 -->
+
 Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
@@ -117,6 +123,19 @@ La predicción se basa casi exclusivamente en el puntaje del modelo; la única p
 - Revisión del prospecto de la AEMPS para advertencias y contraindicaciones oficiales
 - Estudios clínicos o series de casos que evalúen directamente el efecto de claritromicina sobre la amilasa
 - Evaluación de otras predicciones de mayor plausibilidad, como la queratoconjuntivitis epitelial punteada (nivel L4, vínculo antiinflamatorio indirecto de los macrólidos, a verificar en el estudio PMID 38472959)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

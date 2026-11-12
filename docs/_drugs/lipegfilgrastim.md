@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Lipegfilgrastim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (primary release disorde… (nivel de evidencia L5). Indicación original: No disponible en los datos compilados …"
 monitor_inn: "LIPEGFILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 Lipegfilgrastim es un análogo pegilado del factor estimulante de colonias de granulocitos (G-CSF). En los datos compilados para este informe no consta el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+
+<!-- review:begin es-lic-20261105-lipegfilgrastim-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Lipegfilgrastim es un análogo pegilado del factor estimulante de colonias de granulocitos (G-CSF), comercializado en España con el nombre Lonquex. En los datos compilados para este informe no consta el texto de su indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-lipegfilgrastim-1 -->
 
 ## Resumen Rápido
 
@@ -105,6 +111,19 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos ni litera
 - Confirmar la indicación aprobada y el mecanismo de acción detallado del fármaco
 - Realizar una revisión sistemática de literatura y de registros de ensayos que busque cualquier señal real en trastornos plaquetarios
 - Establecer un vínculo mecanístico plausible, con estudios preclínicos, antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "comercializado en España con el nombre Lonquex" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos de AEMPS (uso general conocido: insuficien…"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 El modelo TxGNN predice que podría ser efectivo para **amenorrea**,
 pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
+
+<!-- review:begin es-lic-20261105-diosmin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Diosmina es un flavonoide utilizado habitualmente como agente venoactivo, con 15 autorizaciones vigentes en España; sin embargo, los datos compilados para este informe no incluyen el texto de la indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para **amenorrea**," Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-diosmin-1 -->
 
 ---
 
@@ -83,6 +89,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados no incluyen el texto de indicación aprobada.
 
+<!-- review:begin es-lic-20261105-diosmin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 15 autorizaciones vigentes (todas de diosmina como monofármaco). Los datos compilados no incluyen el texto de indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-diosmin-2 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 76945 | Variliv Diosmina 500 mg | Comprimido recubierto con película | No disponible |
@@ -106,6 +118,20 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Confirmar la indicación aprobada de la diosmina en España.
 - Realizar una revisión de literatura preclínica y clínica sobre diosmina/flavonoides y trastornos menstruales.
 - Evaluar la similitud con la indicación original y la compatibilidad de vías de administración.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Diosmina es un flavonoide utilizado habitualmente como agente venoactivo, con 15 autorizaciones vigentes en España; sin embargo, los datos c" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-05 | Eliminado: "Se listan 5 de las 15 autorizaciones vigentes (todas de diosmina como monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

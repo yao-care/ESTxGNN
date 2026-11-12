@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
 description: "Cyproheptadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -97,6 +97,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma).
 
+<!-- review:begin es-lic-20261105-cyproheptadine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay una sexta autorización vigente: DESARROL 50 MG/ML + 25 MG/ML + 0,2 MG/ML SOLUCIÓN ORAL (n.º 50242, solución oral, Faes Farma). Todas son autorizaciones vigentes de producto único (ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-cyproheptadine-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: hipertensión arterial, úlcera péptica, hiperplasia prostática benigna, hipertensión ocular, glaucoma de ángulo cerrado, hipertiroidismo (enfermedad de Graves, tirotoxicosis) y obstrucción del cuello vesical. Estas coinciden con el perfil anticolinérgico del fármaco.
@@ -117,6 +123,19 @@ La urticaria alérgica ya está cubierta por las indicaciones originales, la evi
 - Obtener los textos de indicación aprobados de las autorizaciones españolas.
 - Evaluar de forma prioritaria la urticaria por frío mediante revisión sistemática o ensayo comparativo frente a antihistamínicos de segunda generación, ponderando sedación y carga anticolinérgica.
 - Definir un plan de seguridad para poblaciones con las condiciones contraindicadas y para la coadministración con sales de potasio y anticolinérgicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Todas son autorizaciones vigentes de producto único (ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

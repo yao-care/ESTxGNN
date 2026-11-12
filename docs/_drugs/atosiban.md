@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Atosiban: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización de la AEMPS (según otras…"
 monitor_inn: "atosiban"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -83,6 +83,12 @@ Actualmente no hay literatura relacionada disponible para glaucoma hereditario p
 
 Los textos de indicación aprobada no figuran en los datos compilados. Principales autorizaciones:
 
+<!-- review:begin es-lic-20261105-atosiban-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se registran 15 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-atosiban-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 79315 | Atosiban Altan 6,75 mg/0,9 ml solución inyectable EFG | Solución inyectable | No disponible |
@@ -115,6 +121,19 @@ La predicción para glaucoma hereditario primario se basa solo en la puntuación
 - Estudios preclínicos que evalúen la modulación de receptores de oxitocina/vasopresina en la presión intraocular o el drenaje del humor acuoso
 - Análisis de compatibilidad de vía de administración (atosiban solo está disponible en formas parenterales; una indicación oftalmológica requeriría evaluar formulaciones alternativas)
 - Considerar si otras indicaciones predichas, como enfermedad vascular (L4), merecen priorizarse como pregunta de investigación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se registran 15 autorizaciones vigentes, todas de fármaco único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

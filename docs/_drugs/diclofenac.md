@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicación aprobada no están disponibles en los datos compilados.
 
+<!-- review:begin es-lic-20261105-diclofenac-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes. Todas son de principio activo único y ninguna está cancelada. Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-diclofenac-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 74119 | Diclofenaco Kern Pharma 11,6 mg/g gel | Gel |
@@ -108,6 +114,19 @@ Entre las 10 principales predicciones, solo la **artritis idiopática juvenil** 
 - Estudios preclínicos o revisión de literatura que respalden la hipótesis; actualmente no existen.
 - Advertencias y contraindicaciones del prospecto de la AEMPS para completar la evaluación de seguridad.
 - Si se prioriza una indicación alternativa (por ejemplo, artritis idiopática juvenil), una revisión sistemática de la evidencia pediátrica y un análisis de seguridad gastrointestinal, renal y hepática.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes. Todas son de principio activo único y ninguna está cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

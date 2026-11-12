@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Granisetron: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos de licencias de …"
 monitor_inn: "granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
@@ -107,6 +107,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h.
 
+<!-- review:begin es-lic-20261105-granisetron-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco). El resto incluye presentaciones en solución para perfusión, concentrado para solución inyectable y el parche transdérmico SANCUSO 3,1 mg/24 h." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-granisetron-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -131,6 +137,19 @@ La predicción para trastorno bipolar maníaco se basa solo en el modelo (nivel 
 - Realizar una revisión sistemática de literatura preclínica y clínica sobre antagonistas 5-HT3 en trastorno bipolar y manía.
 - Evaluar la compatibilidad de vías de administración y la similitud con la indicación original.
 - Evaluar el riesgo de prolongación del QT y de interacciones con estabilizadores del ánimo y antipsicóticos antes de plantear cualquier estudio.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

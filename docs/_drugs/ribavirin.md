@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 696
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "IgG4-related mesenteritis"]
 description: "Ribavirin: nueva indicación predicha, Infección crónica por virus de la hepatitis B (chronic hepatitis B virus infection) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -97,6 +97,12 @@ Solo dos ensayos (NCT00114361 y NCT03759782) evalúan directamente la ribavirina
 
 No se identificaron ECA entre las publicaciones; todas son revisiones o textos narrativos.
 
+<!-- review:begin es-lic-20261105-ribavirin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-ribavirin-1 -->
+
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -127,6 +133,19 @@ Aunque existen ensayos de Fase 3 con ribavirina en hepatitis B, no hay resultado
 - Descargar y analizar el prospecto de la AEMPS (advertencias, contraindicaciones e indicaciones aprobadas).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Evaluar el perfil de riesgo-beneficio (anemia hemolítica, teratogenicidad, comorbilidades) frente a las terapias vigentes para hepatitis B.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 10 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

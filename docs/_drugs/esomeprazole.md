@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -82,6 +82,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-esomeprazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes, todas de medicamentos con esomeprazol como único principio activo. Se muestran las 5 principales:" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-esomeprazole-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 63437 | Nexium Mups 40 mg comprimidos gastrorresistentes | Comprimido gastrorresistente |
@@ -110,6 +116,19 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto de 
 - Estudios clínicos o series de casos que evalúen esomeprazol en reflujo duodenogástrico, con criterios de valoración definidos (síntomas, gastritis biliar, hallazgos endoscópicos).
 - Revisión de la literatura sobre inhibidores de la bomba de protones en reflujo biliar, y comparación con tratamientos orientados a la motilidad.
 - Datos detallados del mecanismo de acción y del prospecto oficial (advertencias y contraindicaciones) para completar el análisis de seguridad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de medicamentos con esomeprazol como único principio activo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

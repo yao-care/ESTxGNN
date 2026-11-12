@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
 description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (biotin metabolic disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -83,6 +83,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484).
 
+<!-- review:begin es-lic-20261105-cyanocobalamin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único). La sexta es Vitamina B12 Ankermann 1.000 microgramos comprimidos recubiertos (nº 90484)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-cyanocobalamin-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales. Las diez primeras de la lista consultada son de nivel **menor** e incluyen antagonistas H2 e inhibidores de la bomba de protones (famotidina, ranitidina, cimetidina, nizatidina, omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol), además del cloruro de potasio. También figuran interacciones de nivel no clasificado con glimepirida, mesalazina, doxiciclina, acarbosa, morfina, metformina, sucralfato y rosiglitazona.
@@ -101,6 +107,19 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 - Descargar y analizar el prospecto de la AEMPS para completar advertencias y contraindicaciones (requisito previo para el cribado de seguridad).
 - Realizar una búsqueda bibliográfica dirigida (estudios preclínicos o series de casos sobre cobalamina y trastornos del metabolismo de la biotina, como la deficiencia de biotinidasa o de holocarboxilasa sintetasa).
 - Evaluar la compatibilidad de vías de administración y la similitud con las indicaciones originales.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 6 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

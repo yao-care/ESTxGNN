@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 description: "Clopidogrel: nueva indicación predicha, Migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -96,6 +96,12 @@ Como contexto, para la indicación más amplia de *migraña* (predicción de ran
 
 Los textos de indicación aprobada no están disponibles para estas autorizaciones.
 
+<!-- review:begin es-lic-20261105-clopidogrel-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes, todas de medicamentos con clopidogrel como único principio activo. Las 20 están en vigor y ninguna está cancelada. Los textos de indicación aprobada no están disponibles para estas autorizaciones." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-clopidogrel-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 98069001AIP1 | PLAVIX 75 mg comprimidos recubiertos con película | Comprimido recubierto con película |
@@ -128,6 +134,19 @@ Para la migraña con aura del tronco encefálico no hay ensayos clínicos y la e
 - Casos o series específicas de aura del tronco encefálico tratados con clopidogrel.
 - Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
 - Un plan de seguimiento del riesgo hemorrágico y de las interacciones, en particular con inhibidores de la bomba de protones (omeprazol, esomeprazol) y otros antitrombóticos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes, todas de medicamentos con clopidogrel como único principio activo. Las 20 están en vigor y " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

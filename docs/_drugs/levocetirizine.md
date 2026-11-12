@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine: nueva indicación predicha, Artritis Reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -87,6 +87,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicación aprobada no están disponibles en los datos compilados.
 
+<!-- review:begin es-lic-20261105-levocetirizine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-levocetirizine-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 64286 | MUNTEL 5 mg comprimidos con cubierta pelicular | Comprimido recubierto con película |
@@ -124,6 +130,19 @@ La predicción para artritis reumatoide se basa únicamente en el modelo (nivel 
 - Realizar una revisión sistemática de la literatura sobre histamina/receptores H1 en artritis reumatoide.
 - Generar evidencia preclínica que respalde la hipótesis antes de plantear ensayos clínicos.
 - Considerar especialmente la función renal en cualquier población de estudio, dadas las contraindicaciones señaladas en el grafo de conocimiento.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

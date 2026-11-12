@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Vildagliptin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicación aprobada no figuran en los datos compilados.
 
+<!-- review:begin es-lic-20261105-vildagliptin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-vildagliptin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 07414003 | Galvus 50 mg comprimidos | Comprimido | Novartis Europharm Limited |
@@ -100,6 +106,19 @@ La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos cl�
 - Estudios preclínicos o series de casos que sugieran algún efecto en este síndrome
 - Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones)
 - Revisar otros candidatos de la misma lista de predicciones con más respaldo. Por ejemplo, la diabetes mellitus tipo 1 (nivel L2) cuenta con ensayos de fase 2/3 y un ECA publicado de rapamicina más vildagliptina. Aun así, ese uso sigue siendo una pregunta de investigación y no una indicación establecida.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

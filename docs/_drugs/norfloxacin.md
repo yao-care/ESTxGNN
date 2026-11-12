@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Norfloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 description: "Norfloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -81,6 +81,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Entre las no listadas figura Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico.
 
+<!-- review:begin es-lic-20261105-norfloxacin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único). Entre las no listadas figura Chibroxin 3 mg/ml colirio en solución (Laboratorios Thea), de uso oftálmico." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-norfloxacin-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): síndrome de QT largo (incluido el familiar), torsades de pointes, insuficiencia hepática, enfermedad hepática y cirrosis, enfermedad renal, epilepsia, trastornos psiquiátricos (ansiedad, psicosis, esquizoafectivo, trastorno distímico, entre otros), trombocitopenia, anemia, diabetes mellitus y cetoacidosis diabética, déficit de potasio, neuropatía periférica, tendinitis y otras afecciones tendinosas, y rabdomiólisis.
@@ -98,6 +104,19 @@ La predicción para el síndrome de hiperviscosidad policlonal se basa únicamen
 - Un fundamento mecanístico creíble que relacione norfloxacino con la hiperviscosidad sérica (actualmente inexistente).
 - Datos del mecanismo de acción y de advertencias/contraindicaciones del prospecto de la AEMPS.
 - Si se desea explorar alternativas, priorizar como preguntas de investigación la queratoconjuntivitis epitelial punteada (vía oftálmica, con Chibroxin como formulación existente) y la peste septicémica, teniendo en cuenta que para esta última serían preferibles fluoroquinolonas de mayor exposición sistémica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Nota: se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

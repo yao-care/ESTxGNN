@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Indacaterol: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No consta en los textos de autorización de AEMPS (uso conocido: …"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 6 de 12; autorizadas no comercializadas: 6) |
-| Número de Autorizaciones | 12 (comercializadas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 2 de 12; autorizadas no comercializadas: 6; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 12 (comercializadas: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en España
 
-Indacaterol está comercializado en España con 12 autorizaciones vigentes, todas de monofármaco, de Novartis Europharm Limited y en forma de polvo para inhalación (cápsula dura). A continuación se muestran las 5 principales. Los textos de indicación aprobada no figuran en los datos compilados.
+Indacaterol está comercializado en España; sus 12 autorizaciones son todas de monofármaco, de Novartis Europharm Limited y en forma de polvo para inhalación (cápsula dura). A continuación se muestran las 5 principales. Los textos de indicación aprobada no figuran en los datos compilados.
+
+<!-- review:begin es-lic-20261112-indacaterol-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "Indacaterol está comercializado en España con 12 autorizaciones vigentes, todas de monofármaco," Corregido: no son 12 autorizaciones vigentes. Según CIMA (AEMPS), de las 12 autorizaciones de indacaterol, 2 están comercializadas, 6 autorizadas pero no comercializadas y 4 revocadas; todas son de un único principio activo y de Novartis Europharm Limited. Las cifras actuales están en el Resumen rápido. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261112-indacaterol-1 -->
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
@@ -102,6 +108,19 @@ La predicción es solo del modelo (L5): no hay ensayos ni literatura, y no se id
 - Confirmar las indicaciones aprobadas y la ficha técnica en AEMPS (advertencias y contraindicaciones), cuyos textos no están disponibles en los datos compilados.
 - Datos detallados del mecanismo de acción de DrugBank.
 - Como referencia, entre las demás predicciones, la de **enfermedad bronquial** (puesto 7) sí tiene respaldo clínico (nivel L1, "Proceed with Guardrails"). Sin embargo, corresponde a un uso respiratorio ya establecido y no a un reposicionamiento real.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | "12 autorizaciones vigentes" → 12 autorizaciones (2 comercializadas, 6 autorizadas no comercializadas, 4 revocadas) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

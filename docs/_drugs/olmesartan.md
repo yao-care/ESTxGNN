@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Olmesartan: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: No disponible en los datos de autorización compilados"
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible para angina de Prinzmetal.
 
 Los datos compilados no incluyen texto de indicación aprobada.
 
+<!-- review:begin es-lic-20261105-olmesartan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento con un único principio activo). Los datos compilados no incluyen texto de indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-olmesartan-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 79926 | Olmesartan Viatris 10 mg comprimidos recubiertos con película EFG | Comprimido recubierto con película | No disponible |
@@ -113,6 +119,19 @@ La predicción para angina de Prinzmetal tiene un puntaje alto de TxGNN, pero no
 - Advertencias y contraindicaciones del prospecto de la AEMPS.
 - Texto de indicación aprobada de las autorizaciones españolas.
 - Si se desea avanzar con una indicación alternativa, la migraña (L3) es la que tiene más respaldo, aunque limitado a estudios pequeños, y con el posible factor de confusión de la reducción de la presión arterial.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento con un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

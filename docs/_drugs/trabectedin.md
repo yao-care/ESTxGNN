@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Cáncer de ovario"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -123,6 +123,12 @@ El puntaje TxGNN (0.9973) es una predicción computacional que sirve para priori
   - **Mayor**: claritromicina.
   - **Moderada**: aprepitant, dexametasona, cimetidina, metronidazol, miconazol, levofloxacino, minociclina, rosuvastatina, simvastatina, pioglitazona, rosiglitazona, bupropión, naltrexona, entre otros.
 
+<!-- review:begin es-lic-20261105-trabectedin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-trabectedin-1 -->
+
   Por el perfil metabólico del fármaco, conviene revisar especialmente los inhibidores e inductores enzimáticos antes de su uso combinado.
 
 Para advertencias y contraindicaciones, consultar el prospecto.
@@ -142,6 +148,19 @@ El puntaje del modelo es muy alto y existe plausibilidad mecanística (deficienc
 - Definir una población diana (por ejemplo, BRCA1/2 mutado o triple negativo) y revisar con detalle los resultados de los estudios de fase 2
 - Evaluar ensayos de fase 2/3 con eficacia comparativa o combinaciones (por ejemplo, con inmunoterapia)
 - Plan de monitoreo de toxicidad hematológica y hepática, y revisión de interacciones relevantes
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 12 autorizaciones vigentes en total (Pharma Mar, Sun, Teva, Accord, Ever Pharma y Stada, en presentaciones de 0,25 mg y 1 mg)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

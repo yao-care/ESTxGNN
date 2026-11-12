@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 653
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -91,6 +91,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 Los textos de indicación aprobada no están disponibles en los datos compilados. A continuación se muestran 5 autorizaciones principales.
 
+<!-- review:begin es-lic-20261105-pramipexole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Pramipexol está comercializado con 20 autorizaciones vigentes, todas de principio activo único y ninguna cancelada. Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pramipexole-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 97051003 | MIRAPEXIN 0,18 mg comprimidos | Comprimido | Boehringer Ingelheim International GmbH |
@@ -125,6 +131,19 @@ La predicción de TxGNN es muy alta, pero no hay ensayos clínicos ni estudios d
 - Información de seguridad del prospecto (advertencias y contraindicaciones oficiales)
 - Evaluación del riesgo de trastornos del control de impulsos y somnolencia en poblaciones jóvenes o con TDAH
 - Evaluación de la compatibilidad de vías y formas farmacéuticas para esta nueva indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Pramipexol está comercializado con 20 autorizaciones vigentes, todas de principio activo único y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

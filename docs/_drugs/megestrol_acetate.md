@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 description: "Megestrol Acetate: nueva indicación predicha, Hereditary breast ovarian cancer syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres).
 
+<!-- review:begin es-lic-20261105-megestrol_acetate-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay una sexta autorización vigente (62011, BOREA 160 mg granulado para suspensión oral en sobres). Todas son monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-megestrol_acetate-1 -->
+
 ## Citotoxicidad
 
 | Item | Contenido |
@@ -114,6 +120,19 @@ La indicación predicha coincide con la indicación original, y existe un ensayo
 - Confirmar el diseño del brazo con megestrol en NCT00729586.
 - Si se busca un reposicionamiento real, priorizar el cáncer de ovario (revisar PMID 11593052 y verificar la aplicabilidad de NCT00005975) y el carcinosarcoma uterino.
 - Definir un plan de monitoreo para pacientes con diabetes, hipertensión o enfermedad hepática o renal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Todas son monofármaco y están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Sulthiame: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización de AEMPS"
 monitor_inn: "sulthiame"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "neurocirculatory asthenia", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "MVP1", "autonomic nervous system disease"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 Sultiamo es un inhibidor de la anhidrasa carbónica, pero los datos compilados para este informe no incluyen el texto de su indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola de caballo**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional.
+
+<!-- review:begin es-lic-20261105-sulthiame-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sultiamo es un inhibidor de la anhidrasa carbónica comercializado en España como suspensión oral (OSPOLOT 20 mg/ml), pero los datos compilados para este informe no incluyen el texto de su indicación aprobada. / El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola de caballo**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 autorización (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-sulthiame-1 -->
 
 ## Resumen Rápido
 
@@ -113,6 +119,19 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos, s
 - Realizar una revisión sistemática de la literatura y de registros de ensayos para el síndrome de la cola de caballo.
 - Evaluar la compatibilidad de la vía de administración (actualmente solo oral) con las necesidades de la nueva indicación.
 - Valorar si alguna de las otras indicaciones predichas tiene una justificación farmacológica más sólida, dado que las predicciones de mayor rango no tienen respaldo mecanístico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "comercializado en España como suspensión oral (OSPOLOT 20 mg/ml)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

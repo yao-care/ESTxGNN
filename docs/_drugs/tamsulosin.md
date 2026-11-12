@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 763
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
 description: "Tamsulosin: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -86,6 +86,12 @@ Como referencia, en la predicción de rango 9 (alopecia) se recuperaron dos publ
 
 El texto de indicación aprobada no figura en los datos compilados.
 
+<!-- review:begin es-lic-20261105-tamsulosin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único; ninguna cancelada). El texto de indicación aprobada no figura en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tamsulosin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 6775201401IP1 | OMNIC OCAS 0,4 mg comprimidos de liberación prolongada recubiertos con película | Comprimido de liberación prolongada | No disponible |
@@ -119,6 +125,19 @@ No existen ensayos clínicos ni literatura que respalden el uso de tamsulosina e
 - Evidencia preclínica (modelos celulares o animales) que justifique cualquier estudio posterior.
 - Revisión de las demás predicciones del ranking, por si alguna cuenta con una base biológica más sólida.
 - Obtención y análisis del prospecto oficial de la AEMPS para completar el perfil de seguridad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -73,6 +73,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El texto de indicación aprobada no está disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-terazosin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único). El texto de indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 autorizaciones (comercializadas: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-terazosin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 69087 | Terazosina Cinfa 5 mg comprimidos EFG | Comprimido | No disponible |
@@ -99,6 +105,19 @@ La predicción se basa únicamente en la puntuación del modelo (nivel L5), sin 
 - Evidencia preclínica que respalde un papel del bloqueo alfa-1 en el folículo piloso
 - Valorar priorizar otras indicaciones predichas con mayor respaldo (migraña y enfermedad de Raynaud), mediante ensayos aleatorizados con potencia adecuada y evaluando el riesgo de hipotensión ortostática
 - Evaluar la viabilidad de una vía de administración adecuada (por ejemplo, tópica), ya que la compatibilidad de vía aún no se ha determinado
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

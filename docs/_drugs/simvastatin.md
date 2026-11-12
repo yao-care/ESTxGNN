@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: nueva indicación predicha, Brain stem infarction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -114,6 +114,12 @@ Solo dos ensayos (NCT00552097 y NCT00129402) tienen simvastatina como componente
 
 Se muestran solo las 5 primeras.
 
+<!-- review:begin es-lic-20261105-simvastatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total, todas de monofármaco y ninguna cancelada. Se muestran solo las 5 primeras." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-simvastatin-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -149,6 +155,18 @@ Existen varios ensayos de Fase 3 completados (incluido el ENHANCE, con 720 pacie
 | Infección por VIH | 0.9922 | L3 | Research Question (el interés es la dislipidemia asociada a antirretrovirales; simvastatina suele evitarse por interacciones) |
 | Amiloidosis ABri | 0.9913 | L5 | Hold |
 | Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de sustancia blanca cortical | 0.9910 | L5 | Hold |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total, todas de monofármaco y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 669
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Propofol: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -61,6 +61,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 Existen datos preclínicos que respaldan este vínculo: un derivado de propofol (hemisuccinato de propofol) suprime la depresión cortical propagada, considerada el sustrato de la aura migrañosa. Esto aporta un mecanismo plausible para un efecto abortivo en migraña refractaria.
 
 La relación con la indicación original es farmacológica más que clínica: un anestésico/sedante con acción sobre la inhibición neuronal se emplea, a dosis subanestésicas, en cuadros dolorosos neurológicos refractarios. No se dispone de una medida de similitud formal entre ambas indicaciones.
+
+<!-- review:begin es-lic-20261105-propofol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 19 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-propofol-1 -->
 
 ## Evidencia de Ensayos Clínicos
 
@@ -122,6 +128,19 @@ Hay un ensayo completado de Fase 2/3 (n=74) y varios ECA publicados que evalúan
 - *Angina de Prinzmetal* (0.9923, L4, Hold): la literatura sugiere una señal de seguridad, no un beneficio terapéutico.
 - *Síndrome nefrogénico de antidiuresis inapropiada* (0.9920, L5, Hold): solo predicción computacional.
 - *Síndrome de Tourette* (0.9903, L4, Hold): el propofol se usó solo como anestésico en estudios de registro durante cirugía de estimulación cerebral profunda.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 19 autorizaciones vigentes (todas de medicamento único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

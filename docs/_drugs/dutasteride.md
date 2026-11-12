@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Dutasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna"
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -73,6 +73,12 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 Los datos compilados no incluyen el texto de la indicación aprobada.
 
+<!-- review:begin es-lic-20261105-dutasteride-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de un único principio activo, en cápsula blanda). Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-dutasteride-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 65178 | AVIDART 0,5 mg cápsulas blandas | Cápsula blanda | Glaxosmithkline S.A. |
@@ -101,6 +107,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Revisión de las advertencias y contraindicaciones del prospecto de la AEMPS.
 - Evidencia preclínica o series de casos que muestren un efecto sobre el fenotipo de hipertricosis.
 - Evaluar alternativas más plausibles con la misma lógica de acción, como hirsutismo (dependiente de andrógenos), y una evaluación de riesgo teratogénico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de un único principio activo, en cápsula blanda)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

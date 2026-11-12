@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: nueva indicación predicha, Ambras type hypertrichosis universalis congenita (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -90,6 +90,12 @@ Ninguna publicación es un estudio controlado de finasterida en hipertricosis; l
 
 Se observan presentaciones de 1 mg y de 5 mg, además de una formulación tópica (Alocare, solución cutánea).
 
+<!-- review:begin es-lic-20261105-finasteride-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 20 autorizaciones vigentes, todas de medicamentos de un solo principio activo. Se observan presentaciones de 1 mg y de 5 mg, además de una formulación tópica (Alocare, solución cutánea)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-finasteride-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: enfermedad hepática y enfermedad de la vesícula biliar.
@@ -111,6 +117,19 @@ Las predicciones tienen puntajes muy altos, pero provienen solo del modelo TxGNN
 - Revisión de la literatura específica sobre finasterida en hipertricosis y trastornos del tallo piloso (casos, series o estudios controlados)
 - Evaluación de la compatibilidad de vías de administración (oral vs. tópica)
 - Evaluación de seguridad en poblaciones específicas (embarazo, mujeres en edad fértil, población pediátrica)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Existen 20 autorizaciones vigentes, todas de medicamentos de un solo principio activo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

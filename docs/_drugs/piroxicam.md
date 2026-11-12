@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -91,6 +91,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Las demás autorizaciones corresponden a formulaciones tópicas (geles y crema): SASULEN 5 mg/g gel, SALVACAM 5 mg/g gel, IMPRONTAL 5 mg/g crema y FELDEGEL 5 mg/g gel.
 
+<!-- review:begin es-lic-20261105-piroxicam-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-piroxicam-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -123,6 +129,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Las advertencias y contraindicaciones del prospecto de la AEMPS, para completar la evaluación de seguridad.
 
 **Nota complementaria:** entre las predicciones del modelo, la **artritis idiopática juvenil** (puntaje 0,9993) es la única con literatura recuperada. Incluye estudios pediátricos de los años 80 y 90, como un estudio multicéntrico de piroxicam frente a naproxeno y un estudio farmacocinético en niños, además de metaanálisis en red de AINE. Su nivel de evidencia sería L3, pero solo como opción sintomática, no modificadora de la enfermedad. Podría valorarse como pregunta de investigación aparte, sin alterar la decisión de este informe.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -82,6 +82,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral.
 
+<!-- review:begin es-lic-20261105-naproxen-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco). Las otras tres corresponden a Lundiran 250 mg cápsulas duras, Naproxeno Teva-Ratiopharm 500 mg comprimidos recubiertos con película y Naproxeno Infectopharm 50 mg/ml suspensión oral." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-naproxen-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones señaladas por el grafo de conocimiento** (no proceden del prospecto): hipertensión, insuficiencia hepática y enfermedad hepática, enfermedad renal, insuficiencia cardíaca congestiva, enfermedad coronaria, infarto de miocardio, ictus y trastornos cerebrovasculares, trastornos de la coagulación, anemia, diabetes mellitus y cetoacidosis diabética, osteoporosis, epilepsia, enfermedad de la vesícula biliar, hiperplasia prostática benigna, obesidad y abuso de sustancias, entre otras.
@@ -102,6 +108,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Advertencias y contraindicaciones del prospecto de la AEMPS para completar la evaluación de seguridad
 - Textos de indicación aprobada de las autorizaciones españolas
 - Evaluación de compatibilidad de vía de administración y de similitud con las indicaciones originales
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Panitumumab: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: Neoplasia maligna metastásica de colon (según la base de conocimiento…"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -82,6 +82,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Titular: Amgen Europe B.V.
 
+<!-- review:begin es-lic-20261105-panitumumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Titular: Amgen Europe B.V. Las tres autorizaciones son vigentes y de principio activo único." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-panitumumab-1 -->
+
 ## Citotoxicidad
 
 | Item | Contenido |
@@ -114,6 +120,19 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Estudios preclínicos que evalúen el efecto del bloqueo de EGFR sobre el metabolismo óseo
 - Revisión de literatura sobre la relación entre anti-EGFR, hipomagnesemia/hipocalcemia y salud ósea
 - Evaluación de la compatibilidad de vías de administración y de la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las tres autorizaciones son vigentes y de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

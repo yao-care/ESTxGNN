@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Se listan las 5 principales (el texto de indicación aprobada no figura en los datos compilados):
 
+<!-- review:begin es-lic-20261105-lisinopril-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se identificaron 20 autorizaciones vigentes, todas de monofármaco, en forma de comprimido. Se listan las 5 principales (el texto de indicación aprobada no figura en los datos compilados):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-lisinopril-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 64562 | LISINOPRIL CINFA 20 mg COMPRIMIDOS EFG | Comprimido | No disponible |
@@ -115,6 +121,19 @@ La predicción es de alta puntuación, pero corresponde a un subtipo anatómico 
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Confirmar si el infarto posterolateral ya está cubierto por la indicación de infarto de miocardio en la ficha técnica, lo que haría innecesaria una nueva indicación.
 - Priorizar, si se busca reposicionamiento real, candidatas mejor respaldadas del mismo conjunto, como la **cardiopatía pulmonar crónica** (nivel L3; dos estudios clínicos antiguos y pequeños con lisinopril, PMID 17047621 y 14524095, de diseño no verificado), que requeriría confirmación con ensayos controlados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se identificaron 20 autorizaciones vigentes, todas de monofármaco, en forma de comprimido" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

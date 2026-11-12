@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: nueva indicación predicha, Psychogenic movement disorders (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -81,6 +81,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 No se dispone del texto de indicación aprobada en los datos compilados. Se listan las 5 principales:
 
+<!-- review:begin es-lic-20261105-donepezil-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las 20 autorizaciones son de medicamentos de un solo principio activo, vigentes, sin canceladas. No se dispone del texto de indicación aprobada en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-donepezil-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 74861 | Donepezilo Flas Sandoz 5 mg comprimidos bucodispersables EFG | Comprimido bucodispersable | No disponible |
@@ -124,6 +130,18 @@ Aunque el puntaje del modelo es alto y existe plausibilidad colinérgica, la evi
 | Síndrome de temblor-nistagmo-úlcera duodenal | 0,9915 | L5 | El único registro recuperado parece una coincidencia espuria. Hold |
 | Mirada tónica hacia arriba paroxística benigna con ataxia | 0,9912 | L5 | Solo predicción; uso pediátrico requeriría amplia justificación. Hold |
 | Discinesia linguo-facial-bucal | 0,9902 | L3 | Revisiones Cochrane sobre medicación colinérgica en discinesia tardía, sin establecer eficacia de donepezilo; hay reportes de movimientos anormales inducidos. Balance beneficio-riesgo incierto. Hold |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las 20 autorizaciones son de medicamentos de un solo principio activo, vigentes, sin canceladas" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

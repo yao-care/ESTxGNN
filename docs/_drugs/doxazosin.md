@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -82,6 +82,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se trata de una serie de casos pequeña y sin control, con valor limitado como evidencia.
 
+<!-- review:begin es-lic-20261105-doxazosin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento monocomponente, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-doxazosin-1 -->
+
 ---
 
 ## Información de Mercado en España
@@ -118,6 +124,19 @@ La predicción se apoya únicamente en un puntaje del modelo y en una serie de 1
 - Revisión sistemática de la literatura sobre bloqueadores alfa-1 en profilaxis de migraña.
 - Estudios preclínicos o un ensayo piloto controlado, con evaluación del riesgo de hipotensión en población normotensa.
 - Tratar la migraña con aura del tronco encefálico dentro de la misma pregunta de investigación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento monocomponente, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

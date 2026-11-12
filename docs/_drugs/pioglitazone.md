@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Pioglitazone: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2"
 monitor_inn: "Pioglitazone"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible para la opsismodisplasia.
 
 Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-pioglitazone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Pioglitazona está comercializada en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de comprimidos. Se muestran las 5 principales:" Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pioglitazone-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 00150005 | ACTOS 30 mg COMPRIMIDOS (Cheplapharm) | Comprimido | No disponible en los datos |
@@ -116,6 +122,19 @@ La predicción para opsismodisplasia es solo del modelo (nivel L5), sin ensayos 
 - Obtener y revisar el prospecto de AEMPS (advertencias, contraindicaciones e indicaciones aprobadas), lo que constituye un vacío de datos bloqueante para el cribado de seguridad
 - Evaluar si otras predicciones (por ejemplo, lipodistrofias) tienen una justificación biológica más sólida antes de priorizar esta indicación
 - Confirmar la compatibilidad de la vía de administración y la similitud con la indicación original (pendientes)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Pioglitazona está comercializada en España con 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada), en forma de comprimidos" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "CONESTAT ALFA"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
 description: "Conestat Alfa: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -113,12 +113,31 @@ Para advertencias y contraindicaciones específicas, consultar el prospecto.
 **Justificación:**
 Dos ECA de Fase 3 (incluido uno de Fase 2/3) completados respaldan la eficacia y seguridad en el angioedema hereditario por deficiencia de C1-INH. Sin embargo, esto corresponde a su indicación aprobada, no a un reposicionamiento; las demás indicaciones predichas carecen de evidencia y deben mantenerse en espera.
 
+<!-- review:begin es-lic-20261105-conestat_alfa-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Dos ECA de Fase 3 (incluido uno de Fase 2/3) completados respaldan la eficacia y seguridad en el angioedema hereditario por deficiencia de C1-INH, y el fármaco ya está comercializado en España." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-conestat_alfa-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de la AEMPS (advertencias y contraindicaciones), una carencia de datos que bloquea el cribado de seguridad
 - Completar los datos oficiales del mecanismo de acción desde DrugBank
 - Confirmar el texto de la indicación aprobada en las autorizaciones españolas
 - Revisar las interacciones con andrógenos, estrógenos y trombolíticos, y la interacción mayor con carfilzomib
 - Si se desea explorar indicaciones nuevas (p. ej., trastornos plaquetarios), generar primero evidencia mecanística y preclínica, pues actualmente no existe respaldo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el fármaco ya está comercializado en España" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

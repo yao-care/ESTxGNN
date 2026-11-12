@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (obstructive lung disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -102,6 +102,12 @@ Se muestran las publicaciones más relevantes de las 20 recuperadas.
 
 El texto de la indicación aprobada no está disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-epinephrine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo). El texto de la indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-epinephrine-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 68552 | Adrenalina B. Braun 1 mg/ml | Solución inyectable | No disponible |
@@ -131,6 +137,19 @@ Existen tres ensayos de Fase 3 completados con epinefrina inhalada en asma (adul
 - Datos detallados del mecanismo de acción desde DrugBank.
 - Definir qué subtipo de enfermedad obstructiva (asma, EPOC, bronquiolitis) y qué vía de administración se priorizan, ya que las presentaciones comercializadas en España son inyectables y los ensayos de asma emplearon un inhalador.
 - Plan de monitoreo cardiovascular y de interacciones (especialmente con tricíclicos y betabloqueantes) en poblaciones de riesgo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

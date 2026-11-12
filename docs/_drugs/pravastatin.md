@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 656
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -95,6 +95,12 @@ Ninguna de estas publicaciones evalúa directamente la pravastatina en la forma 
 
 Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-pravastatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La pravastatina cuenta con 20 autorizaciones vigentes, todas de fármaco único y en forma de comprimido. Se muestran las 5 principales:" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pravastatin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 66521 | Pravastatina Tarbis 40 mg comprimidos EFG | Comprimido |
@@ -125,6 +131,19 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 - Datos del mecanismo de acción y análisis de la respuesta según la actividad residual del receptor de LDL.
 - Advertencias y contraindicaciones oficiales del prospecto de la AEMPS.
 - Como alternativas con mejor respaldo en los datos compilados, valorar las otras indicaciones predichas, como la hipercolesterolemia familiar heterocigota o la dislipidemia asociada al VIH. Para esta última hay ensayos con pravastatina y datos de interacciones con antirretrovirales.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "La pravastatina cuenta con 20 autorizaciones vigentes, todas de fármaco único y en forma de comprimido" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

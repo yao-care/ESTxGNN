@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: nueva indicación predicha, Benign neoplasm of tongue (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -77,6 +77,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin es-lic-20261105-palivizumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las cuatro autorizaciones están vigentes, son de fármaco único y pertenecen a AstraZeneca AB." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-palivizumab-1 -->
+
 ---
 
 ## Información de Mercado en España
@@ -109,6 +115,19 @@ La predicción se basa únicamente en un puntaje del modelo (nivel L5), sin ensa
 - Revisión del prospecto de la AEMPS (advertencias y contraindicaciones), actualmente ausente, para completar el cribado de seguridad
 - Evaluación de la compatibilidad de la vía de administración (actualmente pendiente) y de la similitud con la indicación original
 - Búsqueda de literatura y registros de ensayos que confirmen o descarten cualquier señal real
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las cuatro autorizaciones están vigentes, son de fármaco único y pertenecen a AstraZeneca AB" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

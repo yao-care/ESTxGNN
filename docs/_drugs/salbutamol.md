@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 722
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -83,6 +83,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-salbutamol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 15 autorizaciones vigentes, todas de salbutamol como principio activo único y ninguna cancelada. Se muestran las 5 principales:" Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-salbutamol-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 90819 | Salbutamol Glenmark 100 microgramos/pulsación | Suspensión para inhalación en envase a presión |
@@ -120,6 +126,19 @@ La predicción se basa únicamente en el puntaje del modelo (nivel de evidencia 
 - Revisión de la literatura preclínica sobre agonistas beta-2 en tejido conjuntival y de su posible traslación a conjuntivitis papilar.
 - Evaluación de la compatibilidad de vía de administración, ya que no existe formulación oftálmica autorizada y habría que valorar el riesgo en pacientes con hipertensión ocular o glaucoma de ángulo cerrado.
 - Evaluación de la similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 15 autorizaciones vigentes, todas de salbutamol como principio activo único y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

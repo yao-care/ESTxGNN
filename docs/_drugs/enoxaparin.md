@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No cons…"
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El texto de indicación aprobada no está disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-enoxaparin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo). El texto de indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-enoxaparin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 62470 | Clexane 6.000 UI (60 mg)/0,6 ml | Solución inyectable en jeringa precargada | No disponible |
@@ -114,6 +120,19 @@ La predicción tiene un puntaje alto en TxGNN, pero se encuentra en nivel L5: no
 - Advertencias y contraindicaciones oficiales del prospecto de la AEMPS (necesarias antes del cribado de seguridad)
 - Textos de indicaciones aprobadas de las autorizaciones españolas
 - Evaluación de compatibilidad de vías de administración y del perfil de riesgo hemorrágico en población neonatal/pediátrica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: nueva indicación predicha, Female breast carcinoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -92,6 +92,12 @@ Cabe señalar que el efecto individual del melfalán no puede aislarse en la may
 
 Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión.
 
+<!-- review:begin es-lic-20261105-melphalan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente). Las restantes corresponden a Alkeran 2 mg comprimidos recubiertos, Melfalan Medac 50 mg EFG y Alkeran 50 mg polvo y disolvente para perfusión." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-melphalan-1 -->
+
 ## Citotoxicidad
 
 | Item | Contenido |
@@ -123,6 +129,19 @@ Aunque el puntaje TxGNN es muy alto y existe un ensayo de fase 2 completado en t
 - Buscar literatura específica sobre melfalán a altas dosis en tumores germinales gonadales.
 - Evaluar la compatibilidad de vías de administración y comparar con los tratamientos estándar actuales (p. ej., regímenes con platino).
 - Definir un plan de monitoreo hematológico, renal y pulmonar para poblaciones de riesgo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes (todas de medicamento monocomponente)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

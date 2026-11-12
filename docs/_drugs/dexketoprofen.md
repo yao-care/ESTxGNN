@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
 description: "Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de evidencia L5)."
@@ -74,6 +74,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los datos compilados no incluyen el texto de indicación aprobada de ninguna de ellas.
 
+<!-- review:begin es-lic-20261105-dexketoprofen-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Los datos compilados no incluyen el texto de indicación aprobada de ninguna de ellas." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-dexketoprofen-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 60930 | Ketesse 25 mg comprimidos recubiertos con película | Comprimido recubierto con película |
@@ -99,6 +105,19 @@ Para tendinitis solo existe la predicción del modelo y un único ECA indirecto 
 - Datos detallados del mecanismo de acción (MOA) desde DrugBank.
 - Texto de la indicación aprobada en España, para establecer la relación con la indicación original.
 - Considerar priorizar otra indicación predicha por el modelo: la **migraña** (puntaje TxGNN 0.9987) tiene nivel de evidencia L1, 5 ensayos clínicos (en su mayoría de Fase 4, con dexketoprofeno intravenoso en urgencias) y varios ECAs y un metanálisis. Su recomendación en los datos es "Proceed with Guardrails". Las cautelas serían que la evidencia se refiere al tratamiento del ataque agudo, que los ensayos son mayormente hospitalarios con formulación intravenosa, y que se aplican las precauciones habituales de los AINE (gastrointestinales, renales y cardiovasculares).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

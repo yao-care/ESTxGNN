@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 757
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -121,6 +121,12 @@ Conviene ser prudente: dos ensayos de Fase 2 y un informe publicado de Fase 2 ap
   - **Moderadas**: claritromicina, dexametasona, famotidina, loperamida, palonosetrón, bisacodilo, ácido picosulfúrico, polietilenglicol con electrolitos, sulfato de sodio, clorpropamida, glimepirida y múltiples insulinas (aspart, degludec, detemir, glargina, glulisina, humana).
 - La información de advertencias y contraindicaciones del prospecto de la AEMPS no está disponible; consultar el prospecto.
 
+<!-- review:begin es-lic-20261105-sunitinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total (todas monofármaco), la mayoría genéricos EFG." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-sunitinib-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -147,6 +153,19 @@ Para contexto, el análisis incluye otras predicciones con distinto grado de res
 - **Dermatofibrosarcoma protuberans** (L3, Research Question): fundamento mecanístico sólido (fusión COL1A1-PDGFB) en enfermedad resistente a imatinib, con evidencia retrospectiva y casos.
 - **Carcinoma renal asociado a translocaciones Xp11.2/TFE3** (L3): evidencia mayormente retrospectiva y de casos.
 - Otras entidades (liposarcoma mixoide ovárico, carcinoma renal infantil, angiolipoma, fibrosarcoma cardíaco, carcinoma renal asociado a neuroblastoma): evidencia escasa o nula (L4-L5, Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas monofármaco), la mayoría genéricos EFG" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

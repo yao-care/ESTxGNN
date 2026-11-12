@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5)."
@@ -82,6 +82,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-flurbiprofen-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Flurbiprofeno tiene 20 autorizaciones vigentes (todas de medicamentos con un único principio activo, ninguna cancelada). Se muestran las 5 principales:" Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-flurbiprofen-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 81995 | Flurbiprofeno Sandoz Care 8,75 mg pastillas para chupar sabor naranja | Pastilla para chupar | No disponible en los datos compilados |
@@ -116,6 +122,19 @@ La predicción no tiene respaldo clínico ni bibliográfico (nivel L5) y carece 
 - Una búsqueda dirigida de casos o series clínicas en esta displasia.
 
 Cuenta con 20 publicaciones, entre ellas varios ensayos comparativos doble ciego de flurbiprofeno frente a indometacina, fenilbutazona y naproxeno, que mostraron eficacia comparable. Sin embargo, los estudios son de 1974-1986, con muestras pequeñas y sin comparación con placebo, y no hay ensayos registrados. Además, flurbiprofeno ya se usa en artropatías, por lo que sería una extensión dentro de la clase AINE más que un reposicionamiento novedoso. Si se continúa con el reposicionamiento, esta indicación es una candidata más sólida que la displasia acromesomélica, con control del riesgo gastrointestinal, cardiovascular y renal, de las interacciones y con gastroprotección.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Flurbiprofeno tiene 20 autorizaciones vigentes (todas de medicamentos con un único principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

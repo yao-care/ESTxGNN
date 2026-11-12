@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Pentoxyverine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -76,6 +76,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Titular: Opella Healthcare Spain S.L. Estado: autorizado, comercializado.
 
+<!-- review:begin es-lic-20261031-pentoxyverine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Estado: autorizado, no comercializado." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 autorización (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261031-pentoxyverine-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones registradas en el grafo de conocimiento (no proceden de la ficha técnica):** hipertensión, enfermedad pulmonar obstructiva crónica, pancreatitis, enfermedad ulcerosa péptica, trastornos psicóticos y otros trastornos mentales (esquizoafectivo, esquizofreniforme), diabetes mellitus y cetoacidosis diabética, hiperplasia prostática benigna, rabdomiólisis, enfermedad coronaria e infarto de miocardio, aterosclerosis, hemoglobinopatía, hipertensión ocular, glaucoma de ángulo cerrado, acidosis metabólica, parada cardíaca súbita y enfermedades de la conducción cardíaca. Deben verificarse en la ficha técnica oficial.
@@ -88,12 +94,32 @@ Titular: Opella Healthcare Spain S.L. Estado: autorizado, comercializado.
 **Justificación:**
 La predicción se basa solo en la puntuación del modelo (nivel L5), sin ensayos clínicos ni publicaciones sobre la enfermedad de la cavidad nasal. Además, faltan el mecanismo de acción y la información de la ficha técnica.
 
+<!-- review:begin es-lic-20261031-pentoxyverine-2 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Además, faltan el mecanismo de acción y la información de la ficha técnica, y el producto autorizado no está comercializado." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 autorización (comercializadas: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261031-pentoxyverine-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar la ficha técnica de la AEMPS (advertencias, contraindicaciones e indicaciones autorizadas).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir con precisión qué entidad clínica abarca "enfermedad de la cavidad nasal" y cómo se diferencia de las afecciones ya registradas.
 - Buscar estudios preclínicos o clínicos que evalúen directamente esta enfermedad.
 - Evaluar la compatibilidad de la vía de administración (solución oral frente a la necesidad de acción nasal).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "no" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-10-31 | Eliminado: "y el producto autorizado no está comercializado" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -64,6 +64,12 @@ Su eficacia en el síndrome coronario agudo y en la enfermedad arterial perifér
 
 Un apoyo adicional es el ensayo CHANCE-2 (PMID 34708996), que respalda ticagrelor frente a clopidogrel en portadores de pérdida de función de CYP2C19 con ictus o AIT. El principal riesgo a vigilar es la hemorragia intracraneal.
 
+<!-- review:begin es-lic-20261105-ticagrelor-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes, todas de monofármaco (60 mg y 90 mg, en su mayoría genéricos EFG); se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-ticagrelor-1 -->
+
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
@@ -114,6 +120,19 @@ El mecanismo antitrombótico es plausible y existe un ensayo de Fase 3 de gran t
 ---
 
 **Otras indicaciones predichas (contexto):** *enfermedad isquémica* (L1, abundante evidencia, aunque en gran parte se solapa con la indicación ya aprobada de síndrome coronario agudo, por lo que es más una extensión que un reposicionamiento verdadero; Proceed with Guardrails); *ectasia vascular* y *tromboembolismo venoso* (L4, pregunta de investigación); *arteriosclerosis de Mönckeberg*, *priapismo*, *síndrome de May-Thurner*, *livedo reticularis*, *oclusión vascular mesentérica* y *angiodisplasia* (L5, Hold; en angiodisplasia además existe preocupación de seguridad por el riesgo de sangrado).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de monofármaco (60 mg y 90 mg, en su mayoría genéricos EFG); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: nueva indicación predicha, Torticolis paroxistica benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos lo…"
@@ -83,6 +83,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicacion aprobada no estan disponibles en los datos compilados.
 
+<!-- review:begin es-lic-20261105-olanzapine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo). Los textos de indicacion aprobada no estan disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-olanzapine-1 -->
+
 | Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica |
 |---------|------|------|
 | 72155 | Olanzapina Sun 5 mg comprimidos EFG | Comprimido |
@@ -115,6 +121,19 @@ La prediccion (0.9954) es solo computacional, sin ensayos ni literatura que la r
 - Completar los datos del mecanismo de accion
 - Revisar la literatura sobre la torticolis paroxistica benigna y su relacion con CACNA1A
 - Evaluar alternativas de menor riesgo en poblacion pediatrica y la compatibilidad de vias y formas farmaceuticas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de medicamentos de un solo principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

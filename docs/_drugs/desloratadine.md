@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -61,6 +61,12 @@ La urticaria por frío es un subtipo de urticaria inducible mediado por la desgr
 
 Además, el aumento de dosis (hasta 4 veces la dosis estándar) de antihistamínicos H1 es una estrategia respaldada por las guías para la urticaria refractaria a la dosis habitual, lo que se refleja en los ensayos que comparan 5, 10 y 20 mg de desloratadina.
 
+<!-- review:begin es-lic-20261105-desloratadine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se registran 20 autorizaciones vigentes en total (todas de monofármaco), con presentaciones en comprimido recubierto, comprimido bucodispersable y solución oral." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-desloratadine-1 -->
+
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
@@ -107,6 +113,19 @@ Existen ensayos aleatorizados, doble ciego y controlados con placebo (publicacio
 - Evaluar la seguridad de dosis superiores a la autorizada (hasta 4 veces), dado que su uso sería fuera de ficha técnica
 - Verificar las precauciones en poblaciones específicas (insuficiencia renal/hepática, enfermedad cardiovascular)
 - Valorar un ensayo de mayor tamaño que confirme la eficacia y la dosis óptima
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes en total (todas de monofármaco), con presentaciones en comprimido recubierto, comprimido bucodispers" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

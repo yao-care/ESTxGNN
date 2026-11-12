@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 598
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -88,6 +88,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml).
 
+<!-- review:begin es-lic-20261105-oxymetazoline-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente). Entre las restantes hay también una presentación pediátrica en gotas nasales (UTABON NIÑOS 0,25 mg/ml)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-oxymetazoline-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones o precauciones según el grafo de conocimiento** (no proceden del texto del prospecto): hipertensión arterial, diabetes mellitus y cetoacidosis diabética, hiperplasia benigna de próstata, cardiopatías (enfermedad cardiovascular, enfermedad coronaria), arteriosclerosis y aterosclerosis, glaucoma de ángulo cerrado, hipertiroidismo (enfermedad de Graves, tirotoxicosis), enfermedades infecciosas oculares y conjuntivitis, y trastornos de la visión/ceguera.
@@ -109,6 +115,19 @@ La predicción tiene un puntaje TxGNN alto, pero no hay ensayos clínicos y la l
 - Evaluar el perfil de seguridad en poblaciones con las comorbilidades señaladas (cardiovasculares, diabetes, glaucoma, hipertiroidismo)
 
 **Otras indicaciones predichas (no desarrolladas en este informe):** trastorno de cefalea (puntaje 0,9904, nivel L5, sin evidencia; vínculo meramente especulativo). Se mantiene en *Hold*.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamentos monocomponente)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

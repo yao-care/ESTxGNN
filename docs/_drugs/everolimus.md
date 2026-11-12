@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 321
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -98,6 +98,12 @@ Conviene ser prudente: el puntaje del modelo es muy alto, pero el respaldo clín
 
 También existe una presentación de comprimido dispersable (VOTUBIA 5 mg).
 
+<!-- review:begin es-lic-20261105-everolimus-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). También existe una presentación de comprimido dispersable (VOTUBIA 5 mg)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-everolimus-1 -->
+
 ---
 
 ## Citotoxicidad
@@ -139,6 +145,19 @@ Aunque el puntaje TxGNN es muy alto (0,9988), la única evidencia clínica es un
 - Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones) en España.
 - Datos que permitan aislar la contribución de everolimus frente a ribociclib.
 - Plan de monitoreo de seguridad hematológica, metabólica y de interacciones, dada la complejidad del perfil de interacciones.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

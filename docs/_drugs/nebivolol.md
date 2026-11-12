@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "NEBIVOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nebivolol: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -72,6 +72,12 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 A modo de contexto, para otra predicción del mismo fármaco (hipertensión pulmonar por enfermedad pulmonar o hipoxia, puntaje 0,9939) se recuperaron publicaciones, pero casi todas son preclínicas o ajenas al tema, y ninguna demuestra eficacia en hipertensión pulmonar. Las más relevantes de forma indirecta:
 
+<!-- review:begin es-lic-20261105-nebivolol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se registran 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-nebivolol-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [19789971](https://pubmed.ncbi.nlm.nih.gov/19789971/) | 2009 | Revisión | Cardiovasc Drugs Ther | Efectos respiratorios de los betabloqueantes en insuficiencia cardíaca; se cuestiona la idea de que estén contraindicados con función pulmonar alterada |
@@ -113,6 +119,19 @@ La predicción (nivel L5) se basa solo en el modelo, sin ensayos clínicos ni li
 - Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones oficiales), ya que actualmente impide avanzar en el cribado de seguridad
 - Evaluación del riesgo en poblaciones con las contraindicaciones señaladas (enfermedad vascular periférica, bloqueo AV, enfermedad bronquial, diabetes)
 - Estudios preclínicos o piloto específicos en hipertensión renovascular
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

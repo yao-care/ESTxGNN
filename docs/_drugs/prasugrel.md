@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: Síndrome coronario agudo"
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -76,6 +76,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 A continuación se listan las 5 principales; el texto de indicación aprobada no estaba disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-prasugrel-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes, todas de medicamentos de un solo principio activo (comprimidos recubiertos con película, 5 mg y 10 mg). A continuación se listan las 5 principales; el texto de indicación aprobada no estaba disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-prasugrel-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 08503009 | Efient 10 mg (Substipharm) | Comprimido recubierto con película |
@@ -106,6 +112,19 @@ La predicción para hipertensión pulmonar tiene un puntaje alto en el modelo, p
 - Datos detallados del mecanismo de acción para analizar el vínculo mecanístico.
 - Revisión del prospecto de la AEMPS (advertencias y contraindicaciones) para completar el cribado de seguridad, sobre todo el riesgo hemorrágico.
 - Valorar la migraña asociada a foramen oval permeable, que en los mismos datos tiene mejor respaldo (nivel L3, con un ensayo de Fase 3 en reclutamiento y revisiones retrospectivas de tienopiridinas) como alternativa prioritaria.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de medicamentos de un solo principio activo (comprimidos recubiertos con película, 5 mg y 10 mg)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

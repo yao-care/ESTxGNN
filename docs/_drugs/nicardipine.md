@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Nicardipine: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran las publicaciones más cercanas al tema. Ninguna es un ECA y ninguna evalúa nicardipino en hipertensión pulmonar en humanos.
 
+<!-- review:begin es-lic-20261105-nicardipine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 9 autorizaciones vigentes en total, todas de medicamentos de un solo principio activo; aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-nicardipine-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [3132192](https://pubmed.ncbi.nlm.nih.gov/3132192/) | 1988 | Estudio fisiológico experimental (perros) | British Journal of Anaesthesia | Evalúa el efecto del nicardipino sobre la vasoconstricción pulmonar hipóxica regional en 14 perros; dosis altas aumentaron el gasto cardíaco |
@@ -110,6 +116,19 @@ La predicción se apoya solo en el modelo y en estudios preclínicos o indirecto
 - Estudios preclínicos y de fisiología humana específicos del nicardipino en hipertensión pulmonar por hipoxia.
 - Obtener del prospecto de la AEMPS las advertencias y contraindicaciones oficiales, necesarias para el cribado de seguridad.
 - Revisar con prioridad las demás predicciones. La de enfermedad renal hipertensiva maligna está muy próxima a la indicación ya existente y aporta poca novedad. La de síndrome de Braddock carece de fundamento mecanístico; su puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total, todas de medicamentos de un solo principio activo; aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

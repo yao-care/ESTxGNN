@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 194
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: Leucemia linfoblástica aguda (según la base de conocimiento del modelo"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -88,6 +88,12 @@ Se muestran los ensayos más relevantes (de un total de 41 registrados para esta
 
 Se muestran las publicaciones más relevantes (de un total de 18 disponibles):
 
+<!-- review:begin es-lic-20261105-clofarabine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-clofarabine-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Revisión | Leukemia & Lymphoma | Papel de clofarabina en LMA; inhibe la ribonucleótido reductasa y la ADN polimerasa, con mayor resistencia a la desaminación que sus precursores |
@@ -148,6 +154,19 @@ Hay dos ensayos de Fase 3 completados (NCT02085408 y NCT00317642) y numerosos es
 - Datos detallados del mecanismo de acción (MOA) desde DrugBank.
 - Análisis de los resultados de eficacia y supervivencia de los ensayos de Fase 3 frente al tratamiento estándar.
 - Plan de monitoreo de seguridad hematológica, renal y hepática, especialmente en adultos mayores.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 10 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada); se listan las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

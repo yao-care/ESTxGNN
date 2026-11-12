@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: nueva indicación predicha, Heart fibrosarcoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -72,6 +72,12 @@ Sin embargo, no existen datos específicos en localización cardíaca. La única
 
 Actualmente no hay ensayos clínicos relacionados registrados para fibrosarcoma cardíaco.
 
+<!-- review:begin es-lic-20261105-imatinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total (todas de monofármaco), incluidas presentaciones en comprimidos y cápsulas duras; arriba se muestran 5 de ellas." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-imatinib-1 -->
+
 ---
 
 ## Evidencia de Literatura
@@ -128,6 +134,19 @@ La predicción del fibrosarcoma cardíaco tiene un puntaje alto del modelo, pero
 - Obtener las advertencias y contraindicaciones oficiales del prospecto de la AEMPS.
 - Evaluar el perfil de seguridad cardiovascular en la población de interés.
 - Como alternativas con más respaldo dentro de las predicciones del modelo, considerar priorizar tumores fibroblásticos relacionados con el dermatofibrosarcoma (con evidencia de revisiones y guías, aunque se trata en gran parte de una indicación ya existente) y sarcomas de tejidos blandos en general (ensayos de Fase 2 completados, pero sin resultados específicos por histología).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de monofármaco), incluidas presentaciones en comprimidos y cápsulas duras; arriba se muestran" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

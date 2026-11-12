@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "pipemidic acid"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
 description: "Pipemidic Acid: nueva indicación predicha, Heart disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -81,6 +81,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Titular: Laboratorios Almirall S.L.
 
+<!-- review:begin es-lic-20261105-pipemidic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Titular: Laboratorios Almirall S.L. Estado: vigente (monofármaco)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 autorización (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pipemidic_acid-1 -->
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad. Los datos compilados no incluyen advertencias ni contraindicaciones del prospecto de la AEMPS, ni se encontraron interacciones farmacológicas registradas.
@@ -99,6 +105,19 @@ La predicción se apoya únicamente en el puntaje del modelo (L5): no hay ensayo
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Identificar una hipótesis mecanística o evidencia preclínica que relacione el fármaco con alguna cardiopatía concreta.
 - Evaluar el perfil de seguridad cardiovascular de las quinolonas antes de cualquier consideración adicional.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Estado: vigente (monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

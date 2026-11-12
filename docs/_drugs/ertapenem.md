@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -96,6 +96,12 @@ Varias publicaciones son solo tangenciales a la indicación; se señalan en la t
 
 Los textos de indicación aprobada no están disponibles en los datos compilados.
 
+<!-- review:begin es-lic-20261105-ertapenem-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único. Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-ertapenem-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 02216001 | INVANZ 1 G | Polvo para concentrado para solución para perfusión | Merck Sharp & Dohme B.V. |
@@ -132,6 +138,19 @@ La predicción es mecanísticamente coherente, pero no hay ensayos clínicos par
 - Advertencias y contraindicaciones del prospecto de la AEMPS, y los textos de indicación aprobada de las autorizaciones españolas.
 - Revisión clínica de las interacciones, en especial con bupropión, y de las precauciones en epilepsia e insuficiencia renal.
 - Como referencia, otra indicación predicha para este fármaco, la **infección por *Staphylococcus aureus*** (ertapenem combinado con cefazolina), tiene evidencia más sólida (nivel L2, con un ensayo de Fase 2 y uno de Fase 4 en curso) y podría priorizarse para evaluación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 8 autorizaciones vigentes, todas de fármaco único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

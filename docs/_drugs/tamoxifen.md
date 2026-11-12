@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -121,6 +121,12 @@ Sin embargo, la evidencia disponible se limita a casos clínicos y series quirú
 - **Enfermedades asociadas como contraindicación o precaución (grafo de conocimiento, no texto de prospecto)**: trombocitopenia, leucopenia, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, accidente cerebrovascular y trastornos cerebrovasculares, infarto cerebral, embolia pulmonar, trastornos de la visión y ceguera.
 - **Interacciones farmacológicas**: la consulta se completó con 5 registros, que corresponden a dianas farmacológicas (GPER, receptores de estrógenos α y β, canales de cloruro Maxi-Cl⁻ y VRAC) y no a interacciones con otros medicamentos.
 
+<!-- review:begin es-lic-20261105-tamoxifen-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 9 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tamoxifen-1 -->
+
 Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
@@ -138,6 +144,19 @@ La predicción se apoya en un puntaje alto del modelo y en un mecanismo plausibl
 - Evaluación del riesgo-beneficio (tromboembolismo, efectos endometriales) en la población objetivo
 
 **Nota sobre otras predicciones:** entre las demás indicaciones predichas, el carcinoma de mama in situ (nivel L1, Proceed with Guardrails) y el cáncer de mama con receptores de estrógenos positivos (L1) tienen respaldo sólido de ensayos de Fase 3 (por ejemplo, TAM-01, NSABP B-24), pero corresponden a usos ya establecidos y no a un reposicionamiento nuevo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 9 autorizaciones vigentes en total (todas de principio activo único); se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 264
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
@@ -112,6 +112,12 @@ Se listan 10 publicaciones priorizando ECA y revisiones (de 20 identificadas):
 
 La indicación aprobada no figura en los datos compilados para ninguna de las autorizaciones.
 
+<!-- review:begin es-lic-20261105-doxorubicin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La indicación aprobada no figura en los datos compilados para ninguna de las autorizaciones. Se muestran 5 de las 10 autorizaciones vigentes (todas monofármaco):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-doxorubicin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 90025 | Doxorubicina Liposomal Pegilado Dr. Reddys 2 mg/ml | Concentrado para dispersión para perfusión | No disponible |
@@ -162,6 +168,19 @@ La doxorrubicina ya forma parte del esquema estándar VDC/IE en el sarcoma de Ew
 - Aclarar qué formulación (convencional o liposomal) sería la adecuada, dado que la evidencia se basa principalmente en la doxorrubicina convencional.
 
 **Otras predicciones del modelo (para referencia):** el sarcoma rabdomiosarcoma (L1, Proceed with Guardrails, con ensayos de Fase 3 en sarcomas de tejidos blandos mixtos, no específicos) y el blastoma pleuropulmonar (L3, pregunta de investigación) tienen cierto respaldo; las demás predicciones (adenocarcinoma fetal de pulmón, linfoma pulmonar primario, leucemia mieloide crónica BCR-ABL1, leucemia monocítica, rabdomiosarcoma embrionario vaginal y parameníngeo, ganglioneuroblastoma) tienen evidencia limitada o indirecta (L4–L5) y se recomienda mantenerlas en Hold.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes (todas monofármaco):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 326
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (hypouricemia, renal) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -81,6 +81,12 @@ El único vínculo en la literatura es un reporte de un futbolista de 16 años c
 
 El texto de indicación aprobada no está disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-febuxostat-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada). El texto de indicación aprobada no está disponible en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-febuxostat-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 08447014IP | ADENURIC 80 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
@@ -110,6 +116,19 @@ La predicción principal (hipouricemia renal) carece de racionalidad mecanístic
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Considerar como líneas alternativas con mejor racionalidad el déficit parcial de HPRT y el síndrome de Lesch-Nyhan (control sintomático de la hiperuricemia, nivel L4, solo reportes de casos), evaluando el riesgo de nefropatía por xantina.
 - Confirmar si febuxostat se usó realmente en los casos publicados y cuáles fueron los resultados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas monofármaco, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -75,6 +75,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 A continuación se listan 5 de ellas. Los textos de indicación aprobada no están disponibles en los datos compilados.
 
+<!-- review:begin es-lic-20261105-doxycycline-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El estado de mercado es "Comercializado", con 14 autorizaciones vigentes (14 de producto único, 0 combinaciones, 0 canceladas). A continuación se listan 5 de ellas." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-doxycycline-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 61227 | PRODERMA 200 mg cápsulas duras | Cápsula dura | Industrial Farmacéutica Cantabria S.A. |
@@ -107,6 +113,19 @@ No hay ensayos clínicos y la única publicación es un reporte de dos casos de 
 - Definir la vía de administración (sistémica u ocular tópica) y su compatibilidad con las formas farmacéuticas disponibles en España.
 - Datos del mecanismo de acción y las advertencias y contraindicaciones oficiales del prospecto de la AEMPS.
 - Evaluar la relevancia de la resistencia a tetraciclinas y las interacciones farmacológicas en la población objetivo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El estado de mercado es "Comercializado", con 14 autorizaciones vigentes (14 de producto único, 0 combinaciones, 0 canceladas)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

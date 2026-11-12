@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
 description: "Clindamycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Para contexto, estas fueron las demás indicaciones predichas por el modelo, todas con decisión Hold:
 
+<!-- review:begin es-lic-20261105-clindamycin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 16 autorizaciones vigentes (los textos de indicación aprobada no están disponibles en los datos compilados)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-clindamycin-1 -->
+
 | Indicación Predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
 | Queratitis por exposición | 0.9980 | L4 | Solo literatura indirecta (casos de queratitis por *S. aureus* y *B. cereus*); ningún estudio evalúa clindamicina |
@@ -93,6 +99,12 @@ Para contexto, estas fueron las demás indicaciones predichas por el modelo, tod
 | 66610 | Zindaclin 1% gel | Gel | No disponible |
 
 Existen presentaciones orales, inyectables, vaginales y cutáneas (gel, solución y emulsión); no hay presentaciones oftálmicas.
+
+<!-- review:begin es-lic-20261105-clindamycin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las 16 autorizaciones son de medicamentos con clindamicina como único principio activo, y todas están vigentes. Existen presentaciones orales, inyectables, vaginales y cutáneas (gel, solución y emulsión); no hay presentaciones oftálmicas." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 autorizaciones (comercializadas: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-clindamycin-2 -->
 
 ## Consideraciones de Seguridad
 
@@ -115,6 +127,20 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 - Evidencia de que existe un componente bacteriano en la queratoconjuntivitis epitelial punteada y estudios preclínicos o de series de casos con clindamicina.
 - Evaluación de la vía de administración: no existe una formulación oftálmica comercializada en España.
 - Revisión del perfil de riesgo (colitis por *C. difficile*, interacciones) si se avanzara con una vía sistémica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 16 autorizaciones vigentes (los textos de indicación aprobada no están disponibles en los datos compilados)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-05 | Eliminado: "Las 16 autorizaciones son de medicamentos con clindamicina como único principio activo, y todas están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -73,6 +73,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados no incluyen el texto de la indicación aprobada.
 
+<!-- review:begin es-lic-20261105-doxylamine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio activo). Los datos compilados no incluyen el texto de la indicación aprobada." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-doxylamine-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 83322 | DOXIMAX 12,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
@@ -103,6 +109,19 @@ Las cuatro predicciones tienen un puntaje alto, pero no cuentan con ensayos clí
 - Revisar la literatura y los registros de ensayos sobre doxilamina en urticaria alérgica y urticaria por frío.
 - Evaluar si las predicciones representan una indicación nueva o solo una extensión de las ya autorizadas.
 - Valorar el perfil de seguridad (sedación, efectos anticolinérgicos y las contraindicaciones señaladas) frente a los antihistamínicos de segunda generación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 18 autorizaciones vigentes (todas de medicamentos con un único principio activo)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

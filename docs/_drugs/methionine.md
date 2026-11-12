@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Methionine: nueva indicación predicha, Acné (enfermedad) (nivel de evidencia L5). Indicación original: No disponible"
 ---
 
@@ -41,6 +41,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 Metionina es un aminoácido esencial azufrado; en España forma parte de medicamentos con varios principios activos (por ejemplo, soluciones de aminoácidos para nutrición parenteral), sin texto de indicación aprobada disponible para la metionina sola.
 El modelo TxGNN predice que podría ser efectivo para **acné**, con **0 ensayos clínicos** y **2 publicaciones** que no estudian la metionina como tratamiento.
 Por ello la predicción se considera solo computacional (nivel L5).
+
+<!-- review:begin es-lic-20261031-methionine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Metionina es un aminoácido esencial azufrado que, en España, figura únicamente en una autorización cancelada de una pomada oftálmica epitelizante (combinación de tres principios activos), sin texto de indicación aprobada disponible." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 67 autorizaciones (comercializadas: 50); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261031-methionine-1 -->
 
 ## Resumen Rápido
 
@@ -98,6 +104,12 @@ Para información de seguridad basada en el prospecto, consultar la ficha técni
 **Justificación:**
 La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios que evalúen la metionina en esta enfermedad, y la literatura disponible es tangencial.
 
+<!-- review:begin es-lic-20261105-methionine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios que evalúen la metionina en esta enfermedad, y la literatura disponible es tangencial. Además, la única autorización en España está cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 67 autorizaciones (comercializadas: 50); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-methionine-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la metionina y una hipótesis plausible para el acné.
 - Estudios preclínicos o de mecanismo que evalúen directamente la metionina en acné.
@@ -105,6 +117,20 @@ La predicción para acné se basa solo en el modelo: no hay ensayos ni estudios 
 - Aclarar la indicación original y la situación regulatoria actual de la metionina en España.
 
 **Nota sobre otras predicciones:** entre las demás indicaciones predichas (retinopatía diabética no proliferativa grave y varios tipos de catarata), la catarata diabética es la que cuenta con la evidencia indirecta más relevante, pero se trata de estudios in vitro u observacionales que no prueban la metionina como tratamiento. Debería plantearse solo como pregunta de investigación mecanística o preclínica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "que, figura únicamente en una autorización cancelada una pomada oftálmica epitelizante (combinación de tres" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-05 | Eliminado: "Además, la única autorización en España está cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

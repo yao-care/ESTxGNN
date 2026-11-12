@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Enfermedad de Parkinson (y síndromes parkinsonianos relacionados)"
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -93,6 +93,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran las 5 principales:
 
+<!-- review:begin es-lic-20261105-rasagiline-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes, todas de medicamentos con un solo principio activo (comprimidos). Se muestran las 5 principales:" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-rasagiline-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 04304004IP3 | AZILECT 1 MG COMPRIMIDOS | Comprimido | No disponible en los datos |
@@ -125,6 +131,19 @@ La predicción para la neurodegeneración asociada a PLA2G6 es solo computaciona
 - Revisión sistemática de literatura preclínica y clínica sobre inhibidores de MAO-B en PLAN/PARK14.
 - Estudios preclínicos (modelos de PLA2G6) que respalden la hipótesis.
 - Evaluar la seguridad y eficacia en población pediátrica, dada la aparición temprana de la enfermedad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de medicamentos con un solo principio activo (comprimidos)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

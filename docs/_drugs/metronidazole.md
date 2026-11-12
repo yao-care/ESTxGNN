@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -102,6 +102,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Incluyen formas de perfusión, orales, vaginales y tópicas.
 
+<!-- review:begin es-lic-20261105-metronidazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 17 autorizaciones vigentes (todas de monofármaco). Incluyen formas de perfusión, orales, vaginales y tópicas." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 autorizaciones (comercializadas: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-metronidazole-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -127,6 +133,19 @@ La predicción se apoya solo en el modelo (L5): no hay ensayos clínicos, la lit
 - Datos del mecanismo de acción y evidencia preclínica que justifique actividad frente a *Pneumocystis*
 - Texto oficial de indicaciones, advertencias y contraindicaciones del prospecto de AEMPS
 - Priorizar otras candidatas con mejor respaldo (por ejemplo, cap poliposis, con reportes de caso y un vínculo antiinflamatorio/disbiosis plausible, o poliposis, úlcera vulvar y miasis de herida como preguntas de investigación)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 17 autorizaciones vigentes (todas de monofármaco)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

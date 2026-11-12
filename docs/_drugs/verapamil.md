@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama (obsolete bundle branch block) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin es-lic-20261105-verapamil-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las anteriores figuran Manidon HTA 240 mg (58369) y Tarka 180 mg/2 mg (61369, cápsula de liberación modificada)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-verapamil-1 -->
+
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -100,6 +106,19 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni lite
 - Revisar la entrada obsoleta y valorar si corresponde a una entidad vigente.
 - Considerar priorizar otras predicciones de la lista, por ejemplo, la hipertensión pulmonar por enfermedad pulmonar o hipoxia (L4, con evidencia preclínica indirecta), aunque con importantes reservas de seguridad.
 - Realizar una revisión sistemática de la literatura clínica antes de cualquier avance.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Existen 7 autorizaciones vigentes en total (todas de principio activo único); además de las anteriores figuran Manidon HTA 240 mg (58369) y " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 868
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -87,6 +87,12 @@ Se muestran las 10 publicaciones más relevantes, priorizando ECA, metaanálisis
 
 El texto de indicación aprobada no está disponible en los datos compilados.
 
+<!-- review:begin es-lic-20261105-zolpidem-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes. El texto de indicación aprobada no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-zolpidem-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
 | 58470 | STILNOX 10 mg comprimidos recubiertos con película | Comprimido recubierto con película |
@@ -125,6 +131,19 @@ La indicación predicha coincide con el uso ya aprobado (insomnio) y está respa
 - Definir medidas de control: conductas complejas del sueño, deterioro al día siguiente, riesgo de dependencia y precaución en personas mayores.
 - Revisar las interacciones mayores (especialmente con opioides como la morfina) y las contraindicaciones sugeridas por el grafo (apnea del sueño, enfermedad hepática, antecedentes de abuso de sustancias).
 - Mantener las indicaciones de rango 2 y 3 (tortícolis paroxística benigna y agorafobia) en espera (Hold), sin evidencia que las respalde.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

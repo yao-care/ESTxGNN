@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 595
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -104,6 +104,12 @@ Ninguna de estas publicaciones aborda específicamente la epilepsia visual con o
 
 El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva.
 
+<!-- review:begin es-lic-20261105-oxcarbazepine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada). El resto corresponde a genéricos de Cinfa, Viatris, Towa (Pensa), Tecnimede (Tecnigen), Normon y Teva." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 autorizaciones (comercializadas: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-oxcarbazepine-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -129,6 +135,19 @@ No hay ensayos clínicos y la literatura recuperada es general (revisiones y gu�
 - Búsqueda de estudios clínicos o series de casos específicos de epilepsia visual/fotosensible tratada con oxcarbazepina.
 - Evaluar la relación entre epilepsia visual y epilepsias focales frente a generalizadas, dado el riesgo de agravamiento con bloqueadores de canales de sodio.
 - Si se continúa, considerar otras indicaciones predichas con señal clínica más específica (p. ej., síndrome de piernas inquietas, con series de casos pero sin datos controlados).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 15 autorizaciones vigentes (todas de medicamentos de un solo principio activo; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

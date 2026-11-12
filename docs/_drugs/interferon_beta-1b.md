@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (nivel de evidencia L5). Indicación original: Esclerosis múltiple remitente-recurrente"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -91,6 +91,12 @@ Actualmente no hay literatura relacionada disponible para leucemia de células p
 
 Los titulares son Bayer AG / Bayer Pharma AG (Betaferon) y Novartis Europharm Limited (Extavia).
 
+<!-- review:begin es-lic-20261105-interferon_beta-1b-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los titulares son Bayer AG / Bayer Pharma AG (Betaferon) y Novartis Europharm Limited (Extavia). Las 5 autorizaciones están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-interferon_beta-1b-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -116,6 +122,19 @@ La predicción tiene un puntaje alto (0.9916), pero no hay ningún ensayo clíni
 - Las advertencias y contraindicaciones del prospecto de la AEMPS, para poder realizar el cribado de seguridad.
 - Una evaluación de la compatibilidad de la vía de administración y de la similitud con la indicación original.
 - Evidencia preclínica o clínica que sustente la hipótesis antes de reconsiderar la decisión.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las 5 autorizaciones están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

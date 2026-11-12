@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Droperidol: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones de la AEMPS"
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
@@ -91,6 +91,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Todas son formas inyectables, lo que es poco práctico para el tratamiento crónico de un trastorno de tics.
 
+<!-- review:begin es-lic-20261105-droperidol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las cinco autorizaciones están vigentes y son de monofármaco. Todas son formas inyectables, lo que es poco práctico para el tratamiento crónico de un trastorno de tics." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-droperidol-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -129,6 +135,19 @@ La indicación se basa solo en la predicción del modelo (L5), sin ensayos clín
 **Nota sobre otras indicaciones predichas para droperidol:**
 - **Cefalea / migraña** (puntaje 0,9947): nivel L3 y recomendación *Proceed with Guardrails*. Hay un ensayo clínico terminado anticipadamente (NCT01406860, 19 participantes), varias revisiones y un ensayo aleatorizado controlado con placebo publicado (PMID 12552051). El uso se limitaría a urgencias con monitorización del QT.
 - **Trastorno bipolar maníaco** (puntaje 0,9982): nivel L3, como pregunta de investigación. La evidencia procede sobre todo de revisiones Cochrane sobre agitación y psicosis aguda, no de tratamiento específico de la manía.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las cinco autorizaciones están vigentes y son de monofármaco" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (upper aerodigestive tract neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -103,6 +103,12 @@ Se listan las publicaciones más relevantes de las 20 identificadas. Ninguna es 
 
 Los datos compilados no incluyen el texto de la indicación aprobada de cada producto.
 
+<!-- review:begin es-lic-20261105-mitoxantrone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único. Los datos compilados no incluyen el texto de la indicación aprobada de cada producto." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-mitoxantrone-1 -->
+
 ---
 
 ## Citotoxicidad
@@ -138,6 +144,19 @@ La predicción tiene un puntaje alto, pero no hay ensayos registrados para esta 
 - Esperar resultados de ensayos controlados, o diseñar un estudio de fase II, antes de cualquier recomendación clínica.
 - Establecer un plan de monitoreo hematológico y cardíaco, con control de la dosis acumulada.
 - Confirmar los datos de mecanismo de acción con una fuente primaria (DrugBank).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las tres autorizaciones están vigentes y corresponden a medicamentos de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

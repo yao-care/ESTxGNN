@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 819
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -107,6 +107,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los datos compilados no incluyen advertencias ni contraindicaciones del prospecto. Consultar el prospecto para esas secciones.
 
+<!-- review:begin es-lic-20261105-trazodone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-trazodone-1 -->
+
 - **Contraindicaciones o condiciones de riesgo según el grafo de conocimiento (no proceden del texto del prospecto)**: atrofia multisistémica, síndrome de taquicardia postural ortostática, hipotensión ortostática, síndrome de QT largo (incluido el familiar), torsades de pointes, deficiencia de potasio, hiperplasia benigna de próstata, trastornos de la coagulación, enfermedad cardíaca y cardiovascular, priapismo, síndrome de secreción inadecuada de ADH y síndrome nefrogénico de antidiuresis inapropiada.
 - **Interacciones farmacológicas**: la consulta se completó, pero solo devolvió 3 registros de afinidad por dianas farmacológicas (receptores 5-HT2A, 5-HT2B y 5-HT2C), no interacciones con otros fármacos. Un reporte de caso aparte describe una elevación de la concentración sérica de amisulprida con pregabalina y trazodona concomitantes.
 
@@ -131,6 +137,19 @@ La plausibilidad biológica es razonable y existe un ECA de 1992, pero las prueb
 ### Nota sobre otras indicaciones predichas
 
 Entre las demás predicciones, **agoraburia/agorafobia**, **trastorno distímico** y **trastorno fóbico** también alcanzan el nivel L3 (estudios abiertos o comparativos de los años 80-90, sin ensayos registrados) y podrían considerarse como preguntas de investigación. Las restantes (trastornos de personalidad paranoide, esquizotípica, esquizoide e histriónica, tortícolis paroxística benigna de la infancia y síndrome de Ohdo) se sustentan solo en la predicción del modelo o en evidencia indirecta, y se recomienda mantenerlas en espera.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 9 autorizaciones vigentes (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

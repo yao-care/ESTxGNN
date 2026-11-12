@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -93,6 +93,12 @@ La relación entre la indicación original y la predicha es muy estrecha: la úl
 
 Se incluyen formas orales (comprimidos de 20 y 40 mg) e inyectables.
 
+<!-- review:begin es-lic-20261105-pantoprazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se registran 20 autorizaciones vigentes, todas de fármaco único y ninguna cancelada. Se incluyen formas orales (comprimidos de 20 y 40 mg) e inyectables." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-pantoprazole-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): osteoporosis, osteoporosis posmenopáusica, fractura ósea y anemia perniciosa.
@@ -113,6 +119,19 @@ El respaldo clínico es sólido (nivel L1, con ensayos de Fase 3 y ECA comparati
 - Evaluar el riesgo en poblaciones con osteoporosis o riesgo de fractura y con anemia perniciosa, dado el posible efecto de la supresión ácida prolongada.
 - Revisar las interacciones de gravedad mayor (acalabrutinib, atazanavir) antes de cualquier uso combinado.
 - Si el interés es un reposicionamiento genuino, priorizar las indicaciones L3 (úlcera gastroyeyunal, perforación, reflujo duodenogástrico) con ensayos específicos; descartar por ahora la obstrucción duodenal (Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se registran 20 autorizaciones vigentes, todas de fármaco único y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

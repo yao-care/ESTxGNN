@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (nivel de evidencia L5). Indicación original: No disponible en los datos de las autorizaciones"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -84,6 +84,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras).
 
+<!-- review:begin es-lic-20261105-hesperidin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo. Entre las restantes figuran otras presentaciones de Daflon y Fabroven (cápsulas duras)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-hesperidin-1 -->
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
@@ -101,6 +107,19 @@ La predicción se apoya únicamente en el modelo TxGNN y en un estudio computaci
 - Validación preclínica (in vitro e in vivo) de la actividad frente a células de neoplasias mieloproliferativas, con hesperidina y su aglicona hesperetina
 - Estudios de farmacocinética para determinar si se alcanzan concentraciones eficaces
 - Valorar otras indicaciones predichas con mayor respaldo preclínico solo si aparece evidencia adicional (la leucemia monocítica cuenta con un estudio in vitro de 2003 que sugiere, si acaso, una menor actividad proapoptótica de las formas con rutinósido)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 10 autorizaciones vigentes; todas son de preparados con un único principio activo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

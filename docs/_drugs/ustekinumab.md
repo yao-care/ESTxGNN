@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 836
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -110,6 +110,12 @@ Conviene ser prudente: los estudios de fase 2 y la pequeña serie piloto muestra
 
 Corresponden al producto de referencia (Stelara) y a varios biosimilares.
 
+<!-- review:begin es-lic-20261105-ustekinumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento de un solo principio activo, ninguna cancelada). Corresponden al producto de referencia (Stelara) y a varios biosimilares." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-ustekinumab-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -135,6 +141,19 @@ Existen ensayos de fase 2 completados en dermatitis atópica, pero son pequeños
 - Precisar si la indicación objetivo es dermatitis atópica u otro subtipo (por ejemplo, dermatitis de contacto).
 - Comparar de forma crítica la eficacia con los biológicos ya aprobados para dermatitis atópica.
 - Valorar un ensayo de fase 2b/3 mayor con criterios de valoración claros, en subpoblaciones con perfil Th1/Th17.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de medicamento de un solo principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

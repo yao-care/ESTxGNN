@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 525
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -93,6 +93,12 @@ Además, estudios clínicos de las décadas de 1980 y 1990 (búsqueda de dosis c
 
 Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio.
 
+<!-- review:begin es-lic-20261105-midazolam-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único). Las presentaciones son bucales (Buccolam, Oroxelam) e inyectables; no hay forma oral para insomnio." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-midazolam-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones según el grafo de conocimiento** (no proceden del texto del prospecto): enfermedad pulmonar obstructiva crónica (incluida la de inicio temprano grave), cirrosis hepática, glaucoma de ángulo cerrado, enfermedad renal crónica, insuficiencia renal crónica e insuficiencia renal terminal.
@@ -111,6 +117,19 @@ La plausibilidad mecanística es buena y existen estudios históricos de hipnosi
 - Evaluar la compatibilidad de vías de administración, ya que las presentaciones comercializadas en España son bucales e inyectables, no orales para insomnio.
 - Revisar sistemáticamente la literatura sobre midazolam frente a hipnóticos actuales, incluidos riesgos de dependencia, tolerancia y depresión respiratoria.
 - Evaluar la seguridad en poblaciones con EPOC, cirrosis, glaucoma de ángulo cerrado o enfermedad renal crónica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

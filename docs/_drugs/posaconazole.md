@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -105,6 +105,12 @@ Cualquier beneficio sería especulativo, por ejemplo, por actividad frente a hon
   - **Mayores**: loperamida, triamcinolona, budesonida.
   - **Moderadas**: famotidina, ranitidina, cimetidina, omeprazol, rabeprazol (antiácidos e inhibidores de la bomba de protones), hidrocortisona, dexametasona, betametasona, aprepitant, claritromicina, saxagliptina, bisacodilo, ácido picosulfúrico y polietilenglicol.
 
+<!-- review:begin es-lic-20261105-posaconazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 18 autorizaciones vigentes en total (todas de medicamento con un solo principio activo, ninguna cancelada); la tabla muestra las 5 principales." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-posaconazole-1 -->
+
 Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
@@ -121,6 +127,19 @@ La predicción se apoya solo en el modelo (L5): el único ensayo identificado ev
 - Estudios clínicos o series de casos de posaconazol en neumocistosis, frente a los tratamientos estándar (p. ej., cotrimoxazol).
 - Obtener y revisar el prospecto de la AEMPS (advertencias y contraindicaciones) y los datos detallados del mecanismo de acción.
 - Evaluar el impacto de las numerosas interacciones farmacológicas en poblaciones inmunodeprimidas polimedicadas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 18 autorizaciones vigentes en total (todas de medicamento con un solo principio activo, ninguna cancelada); la tabla muestra las 5 princ" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

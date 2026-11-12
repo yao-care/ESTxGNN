@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: nueva indicación predicha, Ictus (stroke disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -97,6 +97,12 @@ Nota: la mayoría de las publicaciones abordan la fibrilación auricular y no ev
 
 Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514).
 
+<!-- review:begin es-lic-20261105-flecainide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Existe además una sexta autorización: APOCARD 10 mg/ml solución inyectable (n.º 57514). Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-flecainide-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones (según el grafo de conocimiento, no texto del prospecto)**: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, déficit de potasio, infarto de miocardio, trombosis coronaria, hemoglobinopatía, bloqueo auriculoventricular, síndrome del seno enfermo (incluida la forma familiar) y piouréter.
@@ -119,6 +125,19 @@ La evidencia es indirecta (L3): el único ensayo de Fase 3 mide arritmia y no ic
 - Esperar los resultados de NCT05213104 (finalización prevista en septiembre de 2026) y evaluar si reducen eventos cerebrovasculares y no solo arritmias.
 - Realizar estudios que midan directamente la prevención de ictus con flecainida, con definición clara de la población (excluyendo cardiopatía estructural).
 - Definir la población elegible y un plan de monitorización de seguridad (ECG, función renal y hepática, interacciones con anticoagulantes).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Las 6 autorizaciones están vigentes, son de principio activo único y no hay ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

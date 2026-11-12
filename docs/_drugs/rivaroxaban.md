@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 708
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 description: "Rivaroxaban: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -107,6 +107,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
   - Ibritumomab tiuxetán
   - Tositumomab (I-131)
 
+<!-- review:begin es-lic-20261105-rivaroxaban-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total (todas de medicamentos de un solo principio activo); aquí se muestran las 5 primeras." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-rivaroxaban-1 -->
+
   Entre las de nivel **moderado** figuran aprepitant, dexametasona, cimetidina, claritromicina, eliglustat, miconazol, clotrimazol, rolapitant y sugammadex, entre otras.
 
 Para el resto de la información de seguridad (advertencias y contraindicaciones oficiales), consultar el prospecto.
@@ -135,6 +141,19 @@ Los datos compilados incluyen otras tres predicciones, todas con decisión **Hol
 - **Gota** (0.9951, L5): sin ensayos ni literatura que respalde eficacia.
 - **Infección por VIH** (0.9917, L4): la literatura trata de interacciones y riesgo de sangrado con antirretrovirales potenciados, no de un efecto terapéutico. El único ensayo (NCT00786422) es de fase 2 en trombosis venosa y no evalúa VIH.
 - **Síndrome de braquidactilia-sindactilia** (0.9910, L5): sin ensayos, sin literatura y sin mecanismo plausible; probable artefacto del modelo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de medicamentos de un solo principio activo); aquí se muestran las 5 primeras" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

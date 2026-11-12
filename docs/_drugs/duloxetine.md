@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -90,6 +90,12 @@ La evidencia clínica proviene de estudios pequeños (n≈20-26): un ensayo dobl
 
 La evidencia es indirecta: estudios abiertos o pequeños en trastorno de pánico (con o sin agorafobia), como el [PMID 19228176](https://pubmed.ncbi.nlm.nih.gov/19228176/) (2009, estudio abierto) y el [PMID 24294001](https://pubmed.ncbi.nlm.nih.gov/24294001/) (2013, reporte de caso). El único ensayo vinculado ([NCT05930912](https://clinicaltrials.gov/study/NCT05930912)) no guarda relación con duloxetina. Se considera una pregunta de investigación.
 
+<!-- review:begin es-lic-20261105-duloxetine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-duloxetine-1 -->
+
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -120,6 +126,19 @@ Existe un ECA doble ciego, un estudio abierto y un ensayo de Fase 4 que respalda
 - Textos de indicación aprobada de las autorizaciones españolas
 - Plan de monitorización de seguridad (presión arterial, función hepática, riesgo de síndrome serotoninérgico, historial bipolar)
 - Las demás candidatas (rank 1 y 4-10) carecen de evidencia y mecanismo plausible: se recomienda **Hold**. La agorafobia puede mantenerse como pregunta de investigación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de principio activo único, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

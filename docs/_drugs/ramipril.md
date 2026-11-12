@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 680
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -81,6 +81,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Nota: varias publicaciones recuperadas (por ejemplo, sobre enfermedad de Cushing con etomidato o toxoplasmosis amazónica) no guardan relación con la indicación y se han omitido.
 
+<!-- review:begin es-lic-20261105-ramipril-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total (todas de principio activo único); aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-ramipril-1 -->
+
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -113,6 +119,19 @@ La predicción se apoya solo en un estudio preclínico en ratas de 1996 y en el 
 - Replicar los hallazgos preclínicos en modelos modernos de hipertensión pulmonar por hipoxia, y evaluar después estudios en humanos de fase temprana.
 - Evaluar el perfil de seguridad en pacientes con enfermedad pulmonar, considerando hipotensión, función renal y potasio.
 - Valorar otras indicaciones predichas con mayor respaldo, como los trastornos cerebrovasculares (por ejemplo, oclusión de arteria cerebral e infarto cerebral), que están más cerca de las indicaciones originales del fármaco.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total (todas de principio activo único); aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

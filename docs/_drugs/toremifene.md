@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 807
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "toremifene"
 predicted_indications: ["HIV infectious disease"]
 description: "Toremifene: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 Toremifeno es un modulador selectivo de los receptores de estrógenos. Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados.
 El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero actualmente solo hay **0 ensayos clínicos** y **1 publicación preclínica** (sobre criptococosis) que se relacionan indirectamente con esta dirección.
+
+<!-- review:begin es-lic-20261105-toremifene-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Toremifeno es un modulador selectivo de los receptores de estrógenos, comercializado en España como FARESTON 60 mg comprimidos. Según la información conocida de la clase, se emplea en cáncer de mama, aunque el texto de indicación de la autorización no está disponible en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-toremifene-1 -->
 
 ## Resumen Rápido
 
@@ -108,6 +114,19 @@ La predicción se apoya únicamente en el modelo (L5) y en un estudio preclínic
 - Estudios in vitro de actividad anti-VIH, o bien reformular la hipótesis hacia infecciones oportunistas asociadas (criptococosis).
 - Análisis detallado de interacciones con antirretrovirales y evaluación del riesgo de QT.
 - Revisión de la relevancia de las contraindicaciones del grafo de conocimiento frente a la información oficial del prospecto.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "comercializado en España como FARESTON 60 mg comprimidos" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

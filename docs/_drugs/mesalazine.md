@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy) (nivel de evidencia L5). Indicación original: No…"
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 No se dispone del texto de indicación aprobada en los datos compilados.
 
+<!-- review:begin es-lic-20261105-mesalazine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único). No se dispone del texto de indicación aprobada en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-mesalazine-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 62670 | Pentasa 1 g granulado de liberación prolongada | Granulado de liberación modificada | No disponible |
@@ -122,6 +128,19 @@ La predicción principal carece de ensayos, literatura y mecanismo plausible; es
 - Advertencias y contraindicaciones del prospecto de la AEMPS (actualmente solo se dispone de datos del grafo de conocimiento), imprescindibles antes de cualquier evaluación de seguridad.
 - Texto de indicación aprobada de las autorizaciones españolas.
 - Si se desea priorizar, concentrar la revisión en artrosis y artritis reumatoide, con revisión sistemática de la literatura y estudios preclínicos antes de plantear ensayos; descartar la indicación principal salvo que aparezca nueva evidencia biológica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

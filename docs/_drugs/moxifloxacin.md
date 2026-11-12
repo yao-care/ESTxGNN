@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Moxifloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Se muestran las 5 principales, que cubren las distintas formas farmacéuticas (oral, oftálmica e intravenosa). Los textos de indicación aprobada no estaban disponibles en los datos compilados.
 
+<!-- review:begin es-lic-20261105-moxifloxacin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se muestran las 5 principales, que cubren las distintas formas farmacéuticas (oral, oftálmica e intravenosa)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-moxifloxacin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
 | 83222 | ACTIRA 400 mg/250 ml solución para perfusión | Solución para perfusión | Bayer Hispania S.L. |
@@ -123,6 +129,19 @@ La predicción solo cuenta con el puntaje del modelo (nivel L5), sin ensayos cl�
 - Una revisión dirigida de la literatura sobre hiperviscosidad policlonal y fluoroquinolonas.
 - Los datos del mecanismo de acción y las advertencias y contraindicaciones del prospecto de la AEMPS, para completar la evaluación de seguridad.
 - Priorizar otras predicciones con mayor respaldo, como la peste bubónica, antes de invertir recursos en esta indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

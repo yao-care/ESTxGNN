@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -98,6 +98,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 - **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto del prospecto): insuficiencia hepática, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, queratitis por herpes simple, glaucoma (incluido el de ángulo abierto), hipertensión ocular, diabetes mellitus, cetoacidosis diabética, fibrilación auricular, miastenia gravis, colitis (incluida la asociada a *Clostridium difficile*), conjuntivitis, infecciones oculares, bloqueo auriculoventricular y síndrome de Wolff-Parkinson-White, entre otras. Varias de ellas podrían corresponder a los componentes corticoides de las asociaciones y no al ácido fusídico en sí, por lo que deben verificarse con el prospecto.
 - **Interacciones farmacológicas**: no se encontraron registros de interacciones en los datos compilados.
 
+<!-- review:begin es-lic-20261105-fusidic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones con corticoide según su denominación)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 autorizaciones (comercializadas: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-fusidic_acid-1 -->
+
 Consultar el prospecto para la información oficial de advertencias y contraindicaciones.
 
 ---
@@ -116,6 +122,19 @@ La predicción tiene un puntaje alto, pero carece de ensayos clínicos y de lite
 - Datos de resistencia local de *S. aureus* al ácido fusídico.
 - Evaluación de compatibilidad de vías de administración (gel oftálmico existente frente a la necesidad de la nueva indicación).
 - Otras predicciones de mayor plausibilidad biológica, como la otitis externa (nivel L4, mecanismo antibacteriano plausible aunque sin datos de eficacia), podrían priorizarse para investigación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 13 autorizaciones vigentes (todas de medicamentos de un solo principio activo en el registro; varias son asociaciones c" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

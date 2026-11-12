@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 712
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: nueva indicación predicha, Attention deficit-hyperactivity disorder (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -66,6 +66,12 @@ Conviene ser prudente: un caso pediátrico describe mejoría de los síntomas de
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261105-ropinirole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 20 autorizaciones vigentes en total, todas de monofármaco, con formas de comprimido recubierto y de liberación prolongada de varios laboratorios (GSK, Kern Pharma, Cinfa, Krka, Stada, Teva)." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-ropinirole-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -112,6 +118,19 @@ La predicción del modelo es muy alta (0.9999), pero la evidencia directa es lim
 - Confirmar si el beneficio en TDAH es directo o secundario al tratamiento del síndrome de piernas inquietas.
 
 **Nota sobre otras predicciones:** el resto de las indicaciones predichas (por ejemplo, esquizofrenia, con nivel L4, y varias enfermedades genéticas raras, con nivel L5) carecen de evidencia clínica y se mantienen en Hold. En esquizofrenia, la agonista dopaminérgica va en dirección opuesta al antagonismo antipsicótico habitual y podría empeorar los síntomas positivos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 20 autorizaciones vigentes en total, todas de monofármaco, con formas de comprimido recubierto y de liberación prolongada de varios labo" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

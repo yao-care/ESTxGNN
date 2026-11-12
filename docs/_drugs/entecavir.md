@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 292
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) (nivel de evidencia L4). Indicación original: No consta en los datos local…"
@@ -98,6 +98,12 @@ La hepatitis B y la hepatitis C son ambas infecciones virales crónicas del híg
 
 Se listan las 5 principales.
 
+<!-- review:begin es-lic-20261105-entecavir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Entecavir tiene 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo, ninguna cancelada). Se listan las 5 principales." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-entecavir-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 06343003 | BARACLUDE 0,5 mg comprimidos recubiertos con película | Comprimido recubierto con película | No consignada en los datos disponibles |
@@ -135,6 +141,19 @@ La alta puntuación del modelo (0,9998) no está respaldada por evidencia direct
 - Datos detallados del mecanismo de acción (MOA) del fármaco.
 - Los textos de indicación y las advertencias y contraindicaciones del prospecto oficial de la AEMPS.
 - Si el interés real es la coinfección VHC/VHB, reformular la pregunta como "prevención de la reactivación del VHB durante el tratamiento del VHC", donde ya existe un ensayo aleatorizado (PMID 34864158), y evaluarla como una indicación distinta.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Entecavir tiene 20 autorizaciones vigentes (todas de medicamentos con un solo principio activo, ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

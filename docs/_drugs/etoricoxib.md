@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Etoricoxib: nueva indicación predicha, Migraña (trastorno migrañoso) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -85,6 +85,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los textos de indicación aprobada no están disponibles.
 
+<!-- review:begin es-lic-20261105-etoricoxib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único, comprimidos recubiertos con película). Los textos de indicación aprobada no están disponibles." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-etoricoxib-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 64933 | EXXIV 120 mg comprimidos recubiertos con película | Comprimido recubierto con película | No disponible |
@@ -120,6 +126,19 @@ Para migraña solo existe una predicción del modelo (nivel L5), sin ensayos cl�
 - Búsqueda de estudios clínicos específicos de etoricoxib en migraña (ensayos aleatorizados o revisiones sistemáticas).
 - Evaluar el riesgo cardiovascular, renal y cerebrovascular en la población con migraña antes de plantear un estudio.
 - Valorar con mayor prioridad las entidades de cefalea con evidencia de casos (cefalea primaria punzante, cefaleas sensibles a indometacina).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de principio activo único, comprimidos recubiertos con película)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

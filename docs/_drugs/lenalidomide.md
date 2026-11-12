@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 459
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -100,6 +100,12 @@ La literatura disponible es mayoritariamente de revisiones; no se dispone de ECA
 
 Los textos de indicación aprobada no están disponibles en los datos compilados. Se listan las 5 primeras.
 
+<!-- review:begin es-lic-20261105-lenalidomide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 20 autorizaciones vigentes (todas monofármaco, formas de cápsula dura, genéricos EFG). Los textos de indicación aprobada no están disponibles en los datos compilados." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-lenalidomide-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 1181316004 | Lenalidomida Accord 5 mg cápsulas duras EFG | Cápsula dura | No disponible |
@@ -148,6 +154,18 @@ Las demás predicciones tienen menor respaldo y no se recomienda priorizarlas:
 | Citopenia refractaria de la infancia | 0,9935 | L3 | Hold |
 | Anemia aregenerativa | 0,9932 | L3 | Hold |
 | Anemia hipocrómica congénita grave con sideroblastos en anillo | 0,9928 | L5 | Hold |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Existen 20 autorizaciones vigentes (todas monofármaco, formas de cápsula dura, genéricos EFG)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

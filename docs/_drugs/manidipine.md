@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Manidipine: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "manidipine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
@@ -83,6 +83,12 @@ Para la indicación principal (trastorno de migraña) actualmente no hay literat
 
 Para la cuarta indicación predicha (hipertensión pulmonar) se recuperaron tres publicaciones, que no aportan evidencia de eficacia:
 
+<!-- review:begin es-lic-20261105-manidipine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada):" Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-manidipine-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [9341290](https://pubmed.ncbi.nlm.nih.gov/9341290/) | 1997 | Reporte de caso | Nihon Kyobu Shikkan Gakkai Zasshi | Neumonía intersticial atribuida a manidipino en una mujer de 62 años con pulmón reumatoide; mejoró al suspender el fármaco y administrar metilprednisolona. Señal de seguridad |
@@ -118,6 +124,19 @@ Todas las indicaciones predichas se apoyan solo en la predicción del modelo (ni
 - Realizar una búsqueda bibliográfica dirigida de manidipino y otros antagonistas del calcio en migraña
 - Priorizar la angina de Prinzmetal como pregunta de investigación por su sustento de clase
 - Evaluar la señal de neumonía intersticial antes de cualquier uso en indicaciones pulmonares
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada):" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

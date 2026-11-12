@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -99,6 +99,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para queratosis se
 - **Interacciones farmacológicas**: no se encontraron interacciones registradas.
 - Consideraciones adicionales señaladas en el análisis: el uso de hidroquinona durante el embarazo requiere precaución, y aplicar un agente potencialmente irritante sobre mucosa vulvar plantea preocupaciones de seguridad.
 
+<!-- review:begin es-lic-20261105-hydroquinone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; aquí se muestran las 5 principales." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 autorizaciones (comercializadas: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-hydroquinone-1 -->
+
 Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
@@ -126,6 +132,18 @@ La predicción se apoya en un puntaje computacional alto, pero solo hay un estud
 | Queratosis folicular invertida vulvar | 0,9964 | L5 | Sin ensayos ni literatura; sin justificación mecanística clara y con preocupaciones de seguridad en mucosa vulvar. |
 | Exantema | 0,9942 | L4 | Un ensayo de Fase 4 (NCT02138539) sobre un sistema despigmentante herbal, sin relación directa; sin mecanismo plausible. |
 | Enfermedad liquenoide | 0,9907 | L4 | Solo una revisión y un caso clínico; la hidroquinona podría ayudar únicamente con la hiperpigmentación postinflamatoria, no con la inflamación subyacente. |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 7 autorizaciones vigentes en total, todas de monofármaco; aquí se muestran las 5 principales" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

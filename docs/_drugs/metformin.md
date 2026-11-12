@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: nueva indicación predicha, Classic stiff person syndrome (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El texto de indicación aprobada no figura en los datos compilados.
 
+<!-- review:begin es-lic-20261105-metformin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes (todas de formulación única; ninguna cancelada). El texto de indicación aprobada no figura en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-metformin-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 89159 | Metformina Adair 850 mg EFG | Comprimido recubierto con película | No disponible |
@@ -111,6 +117,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Revisión de la literatura y búsqueda de ensayos clínicos o estudios preclínicos en síndrome de la persona rígida
 - Obtención y análisis del prospecto de la AEMPS (advertencias y contraindicaciones) para el cribado de seguridad
 - Evaluación de compatibilidad de vía de administración y de la población diana, considerando las contraindicaciones señaladas y las interacciones mayores
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes (todas de formulación única; ninguna cancelada)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

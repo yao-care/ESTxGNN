@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
 description: "Dalteparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No cons…"
@@ -69,6 +69,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin es-lic-20261105-dalteparin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos compilados):" Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 autorizaciones (comercializadas: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-dalteparin-1 -->
+
 ## Información de Mercado en España
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -101,6 +107,19 @@ La predicción tiene plausibilidad biológica (anticoagulación en un estado de 
 - Valorar el perfil de riesgo hemorrágico en la población diana, dadas las contraindicaciones identificadas.
 
 **Nota sobre otras predicciones evaluadas:** las otras cuatro predicciones de mayor rango (trastorno primario de liberación plaquetaria, pseudoenfermedad de von Willebrand, síndrome hemolítico urémico atípico con anomalía de trombomodulina y neuropatía dolorosa) también tienen nivel L5 y decisión Hold. Las dos primeras de ellas son trastornos hemorrágicos en los que un anticoagulante podría empeorar el sangrado, por lo que probablemente son falsos positivos. El único ensayo asociado a la neuropatía dolorosa (NCT00445328, fase 4, terminado, 84 participantes) es un estudio de profilaxis de tromboembolismo venoso sin relación aparente con la indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se listan 5 de las 9 autorizaciones vigentes (todas de Pfizer S.L.; los textos de indicación aprobada no están disponibles en los datos comp" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

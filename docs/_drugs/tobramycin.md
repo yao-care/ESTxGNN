@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 800
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
@@ -66,6 +66,12 @@ La relación con las indicaciones originales (conjuntivitis, infecciones oculare
 
 Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
+<!-- review:begin es-lic-20261105-tobramycin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 autorizaciones (comercializadas: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tobramycin-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -111,6 +117,19 @@ La predicción tiene un puntaje alto, pero no existen ensayos clínicos y la evi
 - Evaluación de la seguridad del epitelio corneal comprometido frente a alternativas (lubricación, antibióticos menos tóxicos)
 
 **Otras predicciones (breve nota):** otitis externa (0.9981, L4) es la más plausible, con respaldo en series de casos y estudios microbiológicos, aunque la indicación ótica tópica ya está establecida en la práctica. El resto de las predicciones (p. ej., cardiomiopatía de Chagas, síndrome hemolítico urémico asociado a infección, vasculitis postinfecciosa) carece de evidencia o mecanismo creíble.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay 18 autorizaciones vigentes (todas de principio activo único), con formas oftálmicas, inyectables, de perfusión y de inhalación" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

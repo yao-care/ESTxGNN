@@ -5,7 +5,7 @@ parent: Evidencia alta (L1-L2)
 nav_order: 225
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
@@ -94,6 +94,12 @@ Esta hipótesis, sin embargo, no se ha traducido en señal clínica. Una revisi�
 
 *Se omitió una publicación sobre una anomalía cromosómica en crisis blástica de LMC por no estar relacionada con la indicación predicha.*
 
+<!-- review:begin es-lic-20261105-dasatinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Existen 20 autorizaciones vigentes en total (todas de medicamento con un único principio activo, ninguna cancelada), incluidos genéricos de Teva, Accord, Viatris, Stada, Newline Pharma, Eugia y Zentiva (Daruph)." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-dasatinib-1 -->
+
 ---
 
 ## Información de Mercado en España
@@ -142,6 +148,19 @@ El puntaje del modelo es muy alto, pero no hay evidencia clínica de beneficio e
 - Evaluación de seguridad cardiovascular, hematológica y de interacciones en población pediátrica y adulta joven, que es la más afectada por el sarcoma de Ewing.
 
 **Otras indicaciones predichas (referencia breve):** la leucemia mieloide (rango 2) tiene evidencia L1 y recomendación "Proceed with Guardrails", pero se solapa en gran medida con las indicaciones ya autorizadas y no constituye un reposicionamiento genuino; la señal nueva más relevante es un estudio de Fase 3 en leucemia mieloide aguda con factor de unión al core (CBF-AML), cuyos resultados no están detallados en los datos disponibles. El resto de indicaciones (liposarcoma, dermatofibrosarcoma protuberans, etc.) tienen evidencia L4–L5 y recomendación Hold.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Existen 20 autorizaciones vigentes en total (todas de medicamento con un único principio activo, ninguna cancelada), incluidos genéricos de " | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

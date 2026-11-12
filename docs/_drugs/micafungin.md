@@ -5,7 +5,7 @@ parent: Evidencia moderada (L3-L4)
 nav_order: 523
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: nueva indicación predicha, Infección del tracto urinario (urinary tract infection (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
@@ -65,6 +65,12 @@ Conviene tener presente que esta relación mecanística se apoya en el mecanismo
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+<!-- review:begin es-lic-20261105-micafungin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 20 autorizaciones vigentes, todas de medicamentos de principio activo único." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-micafungin-1 -->
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
@@ -111,6 +117,19 @@ Hay estudios de cohortes, series y reportes de casos que describen el uso de mic
 - Evaluar con cuidado a los pacientes con enfermedad renal, dada la contraindicación señalada en el grafo de conocimiento.
 - Revisar las interacciones moderadas, sobre todo con inmunosupresores (sirolimus, everólimus) y anfotericina B.
 - Aclarar la compatibilidad de la vía de administración y la similitud con la indicación original, que siguen pendientes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 20 autorizaciones vigentes, todas de medicamentos de principio activo único" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

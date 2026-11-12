@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
 description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (fibromatosis, gingival) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -83,6 +83,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Los textos de indicación aprobada no figuran en los datos compilados.
 
+<!-- review:begin es-lic-20261105-gefitinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de las 11 autorizaciones vigentes (todas de medicamentos con un único principio activo; no hay autorizaciones canceladas). Los textos de indicación aprobada no figuran en los datos compilados." Eliminado: afirmaba que el medicamento no está autorizado o comercializado en España, o que sus autorizaciones están revocadas o suspendidas, lo que no coincide con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 autorizaciones (comercializadas: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-gefitinib-1 -->
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
 |---------|------|------|-----------|
 | 09526001 | IRESSA 250 mg comprimidos recubiertos con película | Comprimido recubierto con película | AstraZeneca AB |
@@ -129,6 +135,19 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Información de seguridad del prospecto de la AEMPS (advertencias y contraindicaciones), actualmente no disponible.
 - Evaluación de la compatibilidad de la vía de administración y de la viabilidad de una formulación o dosis adecuada para una condición no maligna.
 - Comparación con alternativas terapéuticas ya establecidas para la fibromatosis gingival.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Se muestran 5 de las 11 autorizaciones vigentes (todas de medicamentos con un único principio activo; no hay autorizaciones canceladas)" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

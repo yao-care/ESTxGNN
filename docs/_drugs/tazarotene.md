@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 766
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
 description: "Tazarotene: nueva indicación predicha, Dermatitis seborreica (seborrheic dermatitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -80,6 +80,12 @@ Actualmente no hay literatura relacionada disponible para dermatitis seborreica.
 
 Como información complementaria, para la segunda indicación predicha (queratosis seborreica, puntaje 0,9951, nivel L4) se recuperaron dos publicaciones indirectas. Sus resúmenes no confirman que informen resultados con tazaroteno:
 
+<!-- review:begin es-lic-20261105-tazarotene-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambas autorizaciones corresponden a monofármaco, están vigentes y pertenecen a Allergan Pharmaceuticals International Limited." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 autorizaciones (comercializadas: 0); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261105-tazarotene-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [36215682](https://pubmed.ncbi.nlm.nih.gov/36215682/) | 2023 | Revisión sistemática | J Dermatol Treat | Eficacia y seguridad de tratamientos tópicos para queratosis seborreicas (26 informes incluidos) |
@@ -119,6 +125,19 @@ La predicción para dermatitis seborreica tiene un puntaje alto (0,9979), pero n
 - Revisión sistemática de literatura preclínica y clínica sobre retinoides tópicos en dermatitis seborreica
 - Evaluación de tolerabilidad en cara y cuero cabelludo
 - Si se desea explorar la alternativa de queratosis seborreica, revisar el texto completo de las dos publicaciones para comprobar si evaluaron el tazaroteno y con qué resultados
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambas autorizaciones corresponden a monofármaco, están vigentes y pertenecen a Allergan Pharmaceuticals International Limited" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
