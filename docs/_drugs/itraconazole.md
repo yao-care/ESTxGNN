@@ -50,8 +50,8 @@ La evidencia actual se basa en la predicción del modelo y no hay estudios que d
 | Nueva Indicación Predicha | Pneumocistosis (pneumocystosis) |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 12 de 13; revocadas o suspendidas: 1) |
-| Número de Autorizaciones | 13 (comercializadas: 12) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 11 de 13; revocadas o suspendidas: 2) |
+| Número de Autorizaciones | 13 (comercializadas: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

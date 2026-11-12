@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 252
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Diltiazem: usos conocidos y situación de mercado en España; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -47,7 +47,7 @@ Los candidatos que el modelo TxGNN propone para Diltiazem (puntuación ≥ 0,99)
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 13; autorizadas no comercializadas: 1; revocadas o suspendidas: 6) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 12; autorizadas no comercializadas: 1; revocadas o suspendidas: 7) |
 | Número de Autorizaciones | al menos 20 |
 
 ## Usos conocidos entre los candidatos del modelo
@@ -78,7 +78,7 @@ Los candidatos que el modelo TxGNN propone para Diltiazem (puntuación ≥ 0,99)
 | 11456610496 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
 | 60089 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Cancelado |
 | 60214 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |
-| 59776 | diltiazem | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Vigente |
+| 59776 | diltiazem | COMPRIMIDO DE LIBERACIÓN MODIFICADA | Cancelado |
 | 78966 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Autorizado, no comercializado |
 | 62328 | diltiazem | COMPRIMIDO | Vigente |
 | 60216 | diltiazem | CÁPSULA DURA DE LIBERACIÓN PROLONGADA | Vigente |

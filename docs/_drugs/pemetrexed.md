@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser eficaz en el **mesotelioma peritoneal ma
 | Nueva Indicación Predicha | Pleural adenomatoid tumor |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 2; autorizadas no comercializadas: 4; revocadas o suspendidas: 14) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 2; autorizadas no comercializadas: 2; revocadas o suspendidas: 16) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

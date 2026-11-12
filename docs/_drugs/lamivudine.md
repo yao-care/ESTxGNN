@@ -50,7 +50,7 @@ Se trata de una predicción de valor veterinario, ya que la indicación humana e
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 14; autorizadas no comercializadas: 4; revocadas o suspendidas: 2) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: al menos 13; autorizadas no comercializadas: 4; revocadas o suspendidas: 3) |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
