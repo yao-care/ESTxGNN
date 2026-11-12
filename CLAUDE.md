@@ -36,3 +36,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 247 筆紀錄（241 頁；沒有因 AI 重產而原句已不在頁面的；f64d05ef 的部分還原併進 8c11d4af 的整句刪除，成為子句級更正）。另 2026-11-12 人工更正 indacaterol（11-09 Release 事實層：12 張中已上市 2、授權未上市 6、撤銷 4）：概覽狀態列與張數列用 `tools/txgnn/.claude/license_table_sync_20261029.py` 的 sync_market_rows 程式同步，正文「12 autorizaciones vigentes」記成一筆 correct 紀錄。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
+2026-11-12 正文許可證張數對事實層的掃描：codeine（第六張 20709 寫有效，CIMA 為 Revocada）、phenytoin（第六張 65303 寫有效、六張全有效，實為 4 張有效、65340 與 65303 撤銷）以 `es-lic-20261112-*` 更正；錨在 codeine 那句的 es-lic-20261105-codeine-1 改錨，前版存 history。

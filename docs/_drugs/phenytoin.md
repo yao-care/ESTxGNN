@@ -93,7 +93,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 45695 | Epanutin 100 mg cápsulas duras | Cápsula dura | No disponible |
 | 5970 | Sinergina 100 mg comprimidos | Comprimido | No disponible |
 
-Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes.
+Hay una sexta autorización (65303, Fenitoína Accord 50 mg/ml solución inyectable), revocada, que no se lista por el límite de cinco. Las seis son de principio activo único; 4 están autorizadas y 2 revocadas (65340 y 65303).
+
+<!-- review:begin es-lic-20261112-phenytoin-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes." Según CIMA (AEMPS), datos del 2026-11-09, de las 6 autorizaciones de fenitoína 4 están autorizadas y 2 revocadas: 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261112-phenytoin-1 -->
 
 ---
 
@@ -125,6 +131,19 @@ La predicción para neoplasia del nervio trigémino carece de ensayos clínicos,
 - Obtener los datos del mecanismo de acción detallados (DrugBank).
 - Descargar y analizar el prospecto de la AEMPS para completar las advertencias y contraindicaciones oficiales (bloqueante para el cribado de seguridad).
 - Verificar los textos de indicación aprobada en las autorizaciones españolas, que aparecen vacíos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

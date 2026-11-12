@@ -569,7 +569,52 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"Las 6 autorizaciones son de monofármaco y están vigentes\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+   "history": [
+    {
+     "id": "es-lic-20261105-codeine-1",
+     "drug": "codeine",
+     "file": "codeine.md",
+     "action": "correct",
+     "claim": "Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma). Las 6 autorizaciones son de monofármaco y están vigentes.",
+     "replacement": "Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma).",
+     "note": "Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+       "url": "https://cima.aemps.es/cima/publico/home.html",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"Las 6 autorizaciones son de monofármaco y están vigentes\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8c11d4af（2026-11-05）",
+     "retired": "2026-11-12",
+     "reason": "錨點那句由 es-lic-20261112-codeine-1 依事實層更正；錨點改成句中不受更正影響的片段，框的位置不變"
+    }
+   ],
+   "anchor": ", Fludan Codeína 10 mg/5 ml solución oral, Faes Farma)."
+  },
+  {
+   "id": "es-lic-20261112-codeine-1",
+   "drug": "codeine",
+   "file": "codeine.md",
+   "action": "correct",
+   "claim": "Hay una sexta autorización vigente (20709",
+   "replacement": "Hay una sexta autorización, revocada (20709",
+   "summary": "La sexta autorización (20709, Fludan Codeína) está revocada, no vigente",
+   "note": "Según CIMA (AEMPS), datos del 2026-11-09, la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada. De las 6 autorizaciones, 4 están autorizadas y 2 revocadas (65343 y 20709).",
+   "finding": "AI 產生的正文說第六張 20709 有效；證據包 CIMA 狀態 Revocada、未上市；事實層（data-20261109-125422）有效 4、撤銷 2",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
   },
   {
    "id": "es-lic-20261105-colchicine-1",
@@ -5064,6 +5109,26 @@
    "checked": "2026-11-12",
    "summary": "\"12 autorizaciones vigentes\" → 12 autorizaciones (2 comercializadas, 6 autorizadas no comercializadas, 4 revocadas)",
    "method": "2026-11-12 人工對照證據包 tfda.records（CIMA 狀態欄）與事實層 license_facts（data-20261109-125422）"
+  },
+  {
+   "id": "es-lic-20261112-phenytoin-1",
+   "drug": "phenytoin",
+   "file": "phenytoin.md",
+   "action": "correct",
+   "claim": "Hay una sexta autorización vigente (65303, Fenitoína Accord 50 mg/ml solución inyectable) que no se lista por el límite de cinco. Las seis son de principio activo único y están vigentes.",
+   "replacement": "Hay una sexta autorización (65303, Fenitoína Accord 50 mg/ml solución inyectable), revocada, que no se lista por el límite de cinco. Las seis son de principio activo único; 4 están autorizadas y 2 revocadas (65340 y 65303).",
+   "summary": "Autorizaciones vigentes: 6 → 4 (65340 y 65303 revocadas)",
+   "note": "Según CIMA (AEMPS), datos del 2026-11-09, de las 6 autorizaciones de fenitoína 4 están autorizadas y 2 revocadas: 65340 (Fenitoína Kern Pharma 50 mg/ml solución inyectable EFG) y 65303 (Fenitoína Accord 50 mg/ml solución inyectable).",
+   "finding": "AI 產生的正文說第六張 65303 有效、六張全有效；證據包 CIMA 狀態 65340 與 65303 皆 Revocada；事實層（data-20261109-125422）有效 4、撤銷 2。11-05 刪句工具沒抓到這句",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
   }
  ]
 }

@@ -82,13 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 5255 | Codeisan 1,26 mg/ml jarabe | Jarabe | No disponible |
 | 1778 | Codeisan 28,7 mg comprimidos | Comprimido | No disponible |
 
-Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma).
+Hay una sexta autorización, revocada (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma).
 
 <!-- review:begin es-lic-20261105-codeine-1 -->
 
 > **Corrección de revisión (2026-11-05)**: Texto original: "Hay una sexta autorización vigente (20709, Fludan Codeína 10 mg/5 ml solución oral, Faes Farma). Las 6 autorizaciones son de monofármaco y están vigentes." Eliminado: el número o el estado de comercialización de las autorizaciones no coincidía con los datos de CIMA (AEMPS) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 autorizaciones (comercializadas: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en España. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
 
 <!-- review:end es-lic-20261105-codeine-1 -->
+
+<!-- review:begin es-lic-20261112-codeine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "Hay una sexta autorización vigente (20709" Según CIMA (AEMPS), datos del 2026-11-09, la autorización 20709 (Fludan Codeína 10 mg/5 ml solución oral) figura como revocada. De las 6 autorizaciones, 4 están autorizadas y 2 revocadas (65343 y 20709). Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261112-codeine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -122,7 +128,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Las 6 autorizaciones son de monofármaco y están vigentes" | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-05 | Eliminado: "Las 6 autorizaciones son de monofármaco y están vigentes" | Corregido (revisado el 2026-11-12; la versión anterior se guarda en el registro) | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+| 2026-11-12 | La sexta autorización (20709, Fludan Codeína) está revocada, no vigente | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
 
 <!-- review:end log -->
 
