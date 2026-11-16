@@ -5,7 +5,7 @@ parent: Solo predicción del modelo (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-17
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
@@ -50,8 +50,8 @@ pero la evidencia directa es muy limitada: hay **2 ensayos clínicos** y **8 pub
 | Nueva Indicación Predicha | malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 9 de 9) |
-| Número de Autorizaciones | 9 (comercializadas: 9) |
+| Estado de Mercado en España | Comercializado (autorizaciones comercializadas: 5 de 9; revocadas o suspendidas: 4) |
+| Número de Autorizaciones | 9 (comercializadas: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,7 +86,13 @@ Ninguna de estas publicaciones estudia directamente la malformación respiratori
 
 ## Información de Mercado en España
 
-Salmeterol cuenta con 9 autorizaciones válidas como principio activo único, sin autorizaciones canceladas.
+Salmeterol cuenta con 9 autorizaciones como principio activo único: 5 comercializadas y 4 revocadas (59490, 59523, 59527 y 59676).
+
+<!-- review:begin es-lic-20261117-salmeterol-1 -->
+
+> **Corrección de revisión (2026-11-17)**: Texto original: "Salmeterol cuenta con 9 autorizaciones válidas como principio activo único, sin autorizaciones canceladas." Según CIMA (AEMPS), datos del 2026-11-17, de las 9 autorizaciones de salmeterol 5 siguen autorizadas y 4 están revocadas: 59490 (SEREVENT 25 microgramos/inhalación), 59527 (INASPIR 25 microgramos/inhalación), 59523 y 59676. Fuente: [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html).
+
+<!-- review:end es-lic-20261117-salmeterol-1 -->
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -118,6 +124,18 @@ El puntaje del modelo es alto (0.9991), pero ningún ensayo ni publicación estu
 - Estudios que evalúen directamente salmeterol en malformaciones respiratorias, o en subgrupos definidos con alteración de la función ciliar.
 - Advertencias y contraindicaciones del prospecto de la AEMPS.
 - Evaluación de la vía de administración inhalada para la población y la enfermedad de interés.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (AEMPS, CIMA). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-17 | Autorizaciones vigentes: 9 → 5 de 9 (4 revocadas) | Corregido | [AEMPS: CIMA, Centro de Información online de Medicamentos](https://cima.aemps.es/cima/publico/home.html) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

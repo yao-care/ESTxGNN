@@ -5129,6 +5129,26 @@
    ],
    "checked": "2026-11-12",
    "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
+   "id": "es-lic-20261117-salmeterol-1",
+   "drug": "salmeterol",
+   "file": "salmeterol.md",
+   "action": "correct",
+   "claim": "Salmeterol cuenta con 9 autorizaciones válidas como principio activo único, sin autorizaciones canceladas.",
+   "replacement": "Salmeterol cuenta con 9 autorizaciones como principio activo único: 5 comercializadas y 4 revocadas (59490, 59523, 59527 y 59676).",
+   "summary": "Autorizaciones vigentes: 9 → 5 de 9 (4 revocadas)",
+   "note": "Según CIMA (AEMPS), datos del 2026-11-17, de las 9 autorizaciones de salmeterol 5 siguen autorizadas y 4 están revocadas: 59490 (SEREVENT 25 microgramos/inhalación), 59527 (INASPIR 25 microgramos/inhalación), 59523 y 59676.",
+   "finding": "正文寫 9 張全有效、無註銷；CIMA 11-16 排程：59490、59527、59676、59523 Autorizada→Revocada，事實層有效 5、撤銷 4",
+   "sources": [
+    {
+     "title": "AEMPS: CIMA, Centro de Información online de Medicamentos",
+     "url": "https://cima.aemps.es/cima/publico/home.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（每週排程停損頁，正文對 CIMA 新事實）"
   }
  ]
 }
