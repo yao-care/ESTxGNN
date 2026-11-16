@@ -194,6 +194,7 @@
     "db00134": {
       "page": "methionine",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "UkTxGNN",
@@ -311,6 +312,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "NZTxGNN",
         "UkTxGNN"
       ]
     },
@@ -346,6 +348,7 @@
         "CaTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
@@ -910,6 +913,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "NOTxGNN",
         "NZTxGNN",
         "SATxGNN",
@@ -968,10 +972,13 @@
     "db00594": {
       "page": "amiloride",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "FRTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "KrTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "UkTxGNN",
         "UsTxGNN",
@@ -1009,6 +1016,7 @@
       "page": "triamcinolone",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "FRTxGNN",
@@ -1450,6 +1458,8 @@
       "page": "alfentanil",
       "sources": [
         "HkTxGNN",
+        "KrTxGNN",
+        "MyTxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -1639,6 +1649,7 @@
       "page": "oxymetazoline",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "HkTxGNN",
@@ -2004,6 +2015,7 @@
         "InTxGNN",
         "JpTxGNN",
         "KrTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UkTxGNN",
@@ -2041,6 +2053,7 @@
       "page": "bupropion",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "DETxGNN",
@@ -2301,6 +2314,7 @@
       "sources": [
         "CHTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "ZaTxGNN"
       ]
@@ -2383,6 +2397,7 @@
         "AuTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
@@ -2599,6 +2614,7 @@
       "page": "indacaterol",
       "sources": [
         "AuTxGNN",
+        "COTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "ZaTxGNN"
@@ -2634,7 +2650,8 @@
       "page": "glatiramer",
       "sources": [
         "AuTxGNN",
-        "CaTxGNN"
+        "CaTxGNN",
+        "KrTxGNN"
       ]
     },
     "db06148": {
@@ -2804,6 +2821,7 @@
     "db06697": {
       "page": "artemether",
       "sources": [
+        "SETxGNN",
         "ZaTxGNN"
       ]
     },
@@ -2920,7 +2938,8 @@
     "db08799": {
       "page": "antazoline",
       "sources": [
-        "HkTxGNN"
+        "HkTxGNN",
+        "MyTxGNN"
       ]
     },
     "db08815": {
@@ -3014,8 +3033,12 @@
     "db09009": {
       "page": "articaine",
       "sources": [
+        "BrTxGNN",
+        "COTxGNN",
         "CaTxGNN",
-        "HkTxGNN"
+        "HkTxGNN",
+        "KrTxGNN",
+        "MyTxGNN"
       ]
     },
     "db09026": {
@@ -3076,6 +3099,7 @@
         "DETxGNN",
         "FITxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "NOTxGNN"
       ]
     },
@@ -3083,6 +3107,7 @@
       "page": "palbociclib",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CaTxGNN",
         "DkTxGNN",
         "HkTxGNN"
@@ -3371,6 +3396,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "DETxGNN",
         "DkTxGNN",
         "HkTxGNN"
       ]
@@ -3421,6 +3447,7 @@
     "db11799": {
       "page": "bictegravir",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "DETxGNN",
         "FITxGNN",
@@ -3719,6 +3746,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "FITxGNN",
         "HkTxGNN"
       ]
     },
