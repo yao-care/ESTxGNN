@@ -733,6 +733,7 @@
     "db00459": {
       "page": "acitretin",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "CaTxGNN",
         "DkTxGNN",
@@ -784,6 +785,7 @@
     "db00479": {
       "page": "amikacin",
       "sources": [
+        "ARTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "DETxGNN",
@@ -972,6 +974,7 @@
     "db00594": {
       "page": "amiloride",
       "sources": [
+        "ARTxGNN",
         "BrTxGNN",
         "CaTxGNN",
         "FRTxGNN",
@@ -2052,6 +2055,7 @@
     "db01156": {
       "page": "bupropion",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "BrTxGNN",
         "CHTxGNN",
@@ -2286,6 +2290,7 @@
     "db01418": {
       "page": "acenocoumarol",
       "sources": [
+        "ARTxGNN",
         "CHTxGNN",
         "InTxGNN",
         "NlTxGNN",
@@ -2331,6 +2336,7 @@
     "db01597": {
       "page": "cilastatin",
       "sources": [
+        "ARTxGNN",
         "CaTxGNN",
         "DETxGNN",
         "FITxGNN",
@@ -3703,6 +3709,7 @@
     "db13919": {
       "page": "candesartan",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "ZaTxGNN"
       ]
