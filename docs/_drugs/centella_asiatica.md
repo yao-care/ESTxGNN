@@ -9,6 +9,7 @@ last_modified_at: 2026-11-05
 description: "Centella Asiatica: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "centella asiatica"
 predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep"]
+drugbank_id: DB14256
 ---
 
 # Centella Asiatica

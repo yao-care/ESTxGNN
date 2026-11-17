@@ -9,6 +9,7 @@ last_modified_at: 2026-11-05
 description: "Nitrendipine: nueva indicación predicha, Migraña (trastorno migrañoso) (nivel de evidencia L5). Indicación original: Hipertensión arterial de leve a moderada (según la información farmac…"
 monitor_inn: "nitrendipine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
+drugbank_id: DB01054
 ---
 
 # Nitrendipine

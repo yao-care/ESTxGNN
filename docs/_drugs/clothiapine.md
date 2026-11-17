@@ -9,6 +9,7 @@ last_modified_at: 2026-11-05
 description: "Clothiapine: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
 monitor_inn: "clothiapine"
 predicted_indications: ["insomnia (disease)"]
+drugbank_id: DB13256
 ---
 
 # Clothiapine

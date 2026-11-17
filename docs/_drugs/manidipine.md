@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Manidipine: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de la AEMPS (el texto de indicaci…"
 monitor_inn: "manidipine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
+drugbank_id: DB09238
 ---
 
 # Manidipine

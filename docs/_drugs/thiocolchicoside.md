@@ -9,6 +9,7 @@ last_modified_at: 2026-11-05
 description: "Thiocolchicoside: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos de la autorización"
 monitor_inn: "thiocolchicoside"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
+drugbank_id: DB11582
 ---
 
 # Thiocolchicoside

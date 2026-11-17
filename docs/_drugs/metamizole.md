@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
+drugbank_id: DB04817
 ---
 
 # Metamizole

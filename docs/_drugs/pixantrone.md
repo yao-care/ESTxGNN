@@ -9,6 +9,7 @@ last_modified_at: 2026-11-05
 description: "Pixantrone: nueva indicación predicha, Catarata diabética (nivel de evidencia L5). Indicación original: No disponible en la autorización de AEMPS (el texto de indicación est…"
 monitor_inn: "pixantrone"
 predicted_indications: ["diabetic cataract"]
+drugbank_id: DB06193
 ---
 
 # Pixantrone

@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Triflusal: nueva indicación predicha, Exceso de factor V con trombosis espontánea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "TRIFLUSAL"
 predicted_indications: ["factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis"]
+drugbank_id: DB08814
 ---
 
 # Triflusal

@@ -9,6 +9,7 @@ last_modified_at: 2026-11-05
 description: "Deanol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en la autorización de la AEMPS"
 monitor_inn: "deanol"
 predicted_indications: ["insomnia (disease)"]
+drugbank_id: DB13352
 ---
 
 # Deanol
